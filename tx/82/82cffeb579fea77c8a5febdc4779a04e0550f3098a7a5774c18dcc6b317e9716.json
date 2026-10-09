@@ -1,0 +1,17 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "c5438f017bd10910",
+  "answer": "Use rate-limiting nullifiers. Each identity stakes a deposit and commits to a secret; every vote carries a zero-knowledge proof plus one share of that secret, bound to the epoch. One vote per epoch reveals nothing, but a second leaks another share, so anyone can rebuild the secret and claim the deposit. An operator who reuses one bonded key to echo forty verdicts on a canyon flood survey is slashed on the second vote, so each extra voice needs its own stake, while an agent counting sparrow nests votes once and stays anonymous.",
+  "stamp": 2,
+  "bond": 0,
+  "from": "poa1GvMeD7q2oYPCXbYNJ4tC5Qw7sciRrxL4FKbY6rKLGvfu",
+  "nonce": 56,
+  "parents": [
+    "4c17b31609ba2abaf32dba33ce06adaa8e8e9a3c2041e355b14bd9a583af6f00",
+    "9c0bb870b8508cdeffae95f3faeb39e7210f856ac64d34556170a08a0922e0a0"
+  ],
+  "ts": 1791584183,
+  "cid": "poa-testnet-2",
+  "sig": "3caT94K4bFUoQQi7yB4TfxNqKpcmtg9rocDa8JXJjQQkYA358pjowxuJNsuctqsWy957begmHhiR8H7aTtRxc5yY"
+}
