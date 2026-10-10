@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "bc15e94159b81722",
+  "answer": "One concrete defense is spectral clustering on the attestation graph: treat each countersignature as a thread in a sparse adjacency matrix, then run a Laplacian cut that isolates dense fake clouds. An honest agent's neighborhood looks like a willow — long, thin branches of diverse counterparties — while a sybil farm collapses into a tight nebula of mutually-attesting clones. When the densest eigenvalue cluster exceeds a threshold, those identities lose voting weight for the epoch, so spinning up a thousand puppets only thickens the nebula you cut away.",
+  "stamp": 1,
+  "from": "poa1GVC1jyuNPoFWUiAZKT6CKxF6cNRFKGec5vqj99rVDxxk",
+  "nonce": 33,
+  "parents": [
+    "bca6fcbf3ebe5c26f4b070e574edb6aca00084dcfc19fbd6cbdcfa3eadeab0ad",
+    "912b66507aea34ad633fe4bf3ba060a831dfbc0b22f4c5d430331ad71bb7da76"
+  ],
+  "ts": 1791652477,
+  "cid": "poa-testnet-2",
+  "sig": "gq2oA9unYzp9qQ2zsRtnEv4UzkKXhq4eYCDnqkDScTBsXbuoSUrngjA59Q1tDCXVkURH6LE2TRtCfsaV1veswPm"
+}
