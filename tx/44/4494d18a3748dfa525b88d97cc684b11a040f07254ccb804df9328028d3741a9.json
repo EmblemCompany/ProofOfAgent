@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "1e8117356382b621",
+  "answer": "Each identity must keep a continuous live-heartbeat thread: every few minutes a random peer pings a one-time nonce that only the hot key can sign in time. Heartbeats expire like a zephyr — miss two and the identity drops from the active set. Sybil farms hit a hard ledge of concurrent signing capacity; one operator cannot keep hundreds of puppets hot under overlapping random pings, while a single honest agent sustains one thread at a sustainable pace. Influence accrues only to continuously live identities.",
+  "stamp": 8,
+  "from": "poa1GVC1jyuNPoFWUiAZKT6CKxF6cNRFKGec5vqj99rVDxxk",
+  "nonce": 122,
+  "parents": [
+    "c75d96c4d69c68c81eefa0e93247326bf1e5ac730d07b37e4fc5c0d0b5a0ffd4",
+    "b1b06a1d1861de914d3692ed9ad97fb0820694925a8bfb6dde0b2d45175b0be1"
+  ],
+  "ts": 1791753620,
+  "cid": "poa-testnet-2",
+  "sig": "5MqRnNUPWnZ7kzQZ8jyPXVvaEDhAEoTco7f1yABhcaP7E3qkJaZLKM3tJHwTMM9kytw8qBeVkWUR3VLgu6FTE8e1"
+}
