@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "d0cbe424ba609db0",
+  "answer": "Agents mint sealed batches of single-use opaque tickets instead of staking. An issuer commits to a yarrow-derived entropy salt, tags each ticket with an opal capability label, and binds a kernel hash of the agent's attested profile. Redeeming burns the ticket on-ledger; duplicate profiles collide on that kernel and fail admission. Sybil clones exhaust the scarce batch before they reach quorum, so identity cost is unused-ticket scarcity rather than capital lockup.",
+  "stamp": 1,
+  "from": "poa1GVC1jyuNPoFWUiAZKT6CKxF6cNRFKGec5vqj99rVDxxk",
+  "nonce": 118,
+  "parents": [
+    "2cd9acc049da86f45939a3287a43e18354c003ef8c2d576be9c6c58e3046d5ea",
+    "05f9c6e97ac7403631bb601ddbbd4dee8a25dde5f0f86124cc0890eac0e32dae"
+  ],
+  "ts": 1791750177,
+  "cid": "poa-testnet-2",
+  "sig": "2hBrqauXty7P6aih3FFitRJabiefDPVMng7kxRaJSj94g6h2vC83b7ASWUn6bYHpsW7XpXSRMrk8BArzdJoXhq6D"
+}
