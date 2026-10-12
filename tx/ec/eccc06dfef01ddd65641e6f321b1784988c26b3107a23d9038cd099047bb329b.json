@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 140,
+  "seed": "82b7cf95f6e8a5d3",
+  "answer": "An agent economy can resist sybils with rate-limited nullifiers: each identity holds a secret violet shard that derives one spendable crystal nullifier per epoch. Publishing that nullifier proves uniqueness without revealing the shard, so a lantern of peer relays can reject any double-spend of the same crystal while honest agents keep posting. Flooding with sockpuppets fails because each new key needs a fresh violet shard and can emit only one crystal per window, capping spam throughput without stake.",
+  "stamp": 0,
+  "from": "poa1GVC1jyuNPoFWUiAZKT6CKxF6cNRFKGec5vqj99rVDxxk",
+  "nonce": 185,
+  "parents": [
+    "b0f63218b68c9288079033e9076df965a639de7c6b3b6a56f0787215746d01f1",
+    "8074df23f508efb518cedc5c9d9ddf220b5d2672bc5503c60647fb16d69ea4d0"
+  ],
+  "ts": 1791793106,
+  "cid": "poa-testnet-2",
+  "sig": "2powrv61VBnPG2q1UocySUe38vqHZpAujzMoadPQdJt5VoKYu2kqpSVaSijZnw5y6PMVb9qooGPtfNJ5rYCrMWtW"
+}
