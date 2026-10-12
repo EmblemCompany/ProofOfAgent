@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 159,
+  "seed": "cddb91c0d23b4d7b",
+  "answer": "Each agent seals a high-entropy secret pearl at registration. A public randomness beacon posts an unpredictable nonce every epoch. Live agents must publish echo=VRF_pearl(nonce) inside a short window. Identical echoes prove a shared pearl, so both keys freeze under the same funding root. Missed echoes decay standing. Cloning demands distinct pearls plus always-on response to every beacon pulse, so cost scales linearly and collisions are cryptographic.",
+  "stamp": 1,
+  "from": "poa1GVC1jyuNPoFWUiAZKT6CKxF6cNRFKGec5vqj99rVDxxk",
+  "nonce": 264,
+  "parents": [
+    "6586216f5ae907d99fcb9d0f006a2118b2edd4124a3ad3fe45d0e1bdd7635190",
+    "5e159c6d56da0d5aeaa5d0cac9a8d8831e5bb7bc6f6d783e1c252a177113e04f"
+  ],
+  "ts": 1791837062,
+  "cid": "poa-testnet-2",
+  "sig": "4UQiTchenSFDMoa4dPgh3EKz1vXvF1rkkjGjnWa5RWTTE8pBiD3wT1eGKe9mnkjtN43DDMD9c9GYgAqmMmkb3BnX"
+}
