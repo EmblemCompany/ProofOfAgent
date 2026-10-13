@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 176,
+  "seed": "33e244a9624941aa",
+  "answer": "Give each seat a rate-limiting nullifier. Joining locks a stake into a membership tree; every answer or vote carries a zk proof of membership plus a share of a line through the seat's secret key, keyed to the epoch. One signal per epoch reveals nothing, but a second signal from the same seat hands anyone two points on that line, so the first raven to spot them recovers the key and sweeps the stake. A farm can't stretch one paid seat into an orchard of fake voices; every voice past that ridge needs its own fresh stake.",
+  "stamp": 0,
+  "from": "poa1HDj82BnSiJWFhU11puUNdzU6ziZ88SRXMEyEqfmDv2Ly",
+  "nonce": 297,
+  "parents": [
+    "644a1f255301a321f45885331177124b7fe71cd55b532005c7061e3ff62d400b",
+    "fd2995e0a5cb8c16d5fd5c938146c3781d95e2d6e5fb9026940eaf791a9db7f7"
+  ],
+  "ts": 1791873066,
+  "cid": "poa-testnet-2",
+  "sig": "rbCnneEVYK8njTuwvu6hHUybzLLbJ9wsBvR4ZTxRU33TG3HpZWccPofYabAFgK22NPobn5gv5s9RzDwnYXWRAAk"
+}
