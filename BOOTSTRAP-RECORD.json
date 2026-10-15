@@ -1,0 +1,182 @@
+{
+  "schema": "poa-bootstrap-record-v1",
+  "cmd": {
+    "FROM": "poa-testnet-2",
+    "TO": "poa-testnet-3",
+    "MAKE_DEFAULT": false,
+    "OVERLAY_FILE": null,
+    "SCRATCH": false
+  },
+  "inputs": {
+    "from": "poa-testnet-2",
+    "to": "poa-testnet-3",
+    "source_final_checkpoint": {
+      "height": 8666,
+      "state_root": "25d7603aaf6abbfd1e0db969e5d3c72e5b43911b42bfb85011e0282e88e2591d",
+      "signatures": 5
+    },
+    "params_transform_diff": [
+      [
+        "chain_id",
+        "poa-testnet-2",
+        "poa-testnet-3"
+      ],
+      [
+        "chall_dedup_from_ts",
+        1791598794,
+        0
+      ],
+      [
+        "cancel_guard_from_ts",
+        1791679125,
+        0
+      ],
+      [
+        "evm_receipts_from_ts",
+        1791696833,
+        0
+      ],
+      [
+        "panel_seedlock_from_ts",
+        1791773529,
+        0
+      ],
+      [
+        "estab_floor_from_epoch",
+        131,
+        0
+      ],
+      [
+        "settle_establish_from_epoch",
+        134,
+        0
+      ],
+      [
+        "g0_from_ts",
+        1791786318,
+        0
+      ],
+      [
+        "pending_carry_from_epoch",
+        167,
+        0
+      ],
+      [
+        "evm_chain_proofs_from_ts",
+        1791861939,
+        0
+      ],
+      [
+        "audit_one_directional_from_epoch",
+        181,
+        0
+      ],
+      [
+        "panel_weight_lock_from_ts",
+        1791904466,
+        0
+      ],
+      [
+        "vesting_from_epoch",
+        205,
+        0
+      ],
+      [
+        "settlement_veto_from_epoch",
+        220,
+        0
+      ],
+      [
+        "forfeiture_from_epoch",
+        222,
+        0
+      ],
+      [
+        "onchain_vote_from_epoch",
+        237,
+        0
+      ],
+      [
+        "dead_answer_ids",
+        "reset",
+        "[]"
+      ],
+      [
+        "panel_pinned_grades",
+        "reset",
+        "[]"
+      ]
+    ],
+    "overlay_sha": null,
+    "overlay_keys": [],
+    "engine": "2ab90823aac2d5a9"
+  },
+  "outputs": {
+    "import_sha": "4c1cf3001a2d5ccf0ebe6fdc0b056e6cec680e90691aee5408d25b0dc6d43d34",
+    "genesis_sha": "ce968bbdfaba9c539657cc24d7d71ebe5dab7775e12278bda2d0efb972a4f0a3",
+    "counts": {
+      "agents": 43,
+      "established": 9
+    },
+    "final_anchors": [
+      {
+        "chain": "base-mainnet",
+        "tx": "0x9c5d9a6725f4b199e33580fd6705bed27aea135f98dd53f713d58751adcc8d5d"
+      },
+      {
+        "chain": "solana-mainnet",
+        "tx": "4zQFkruuTvtQ5uWRxqZA57Qm7fuYFs7z1EjBYNUMfhLM7FSyo6xQCpvhKwKgPaHcjqBKsxrrPngJgTshaeAyrJmf"
+      }
+    ]
+  },
+  "verification": {
+    "import_pin_verified": true,
+    "full_replay": "0|0",
+    "cp_replay": "0|0",
+    "zero_errors": true,
+    "agents_imported": 43,
+    "agents_match": true,
+    "established": 9,
+    "established_match": true,
+    "balances_empty": true,
+    "supply_zero": true
+  },
+  "abort_path": "registry: poa-testnet-3→not_bootstrapped (or remove entry), restart node, discard poa-testnet-3 dir — poa-testnet-2 was never touched. Post-pin joiners on poa-testnet-2 exist there only (accepted). Halt/freeze of poa-testnet-2 is a separate out-of-band act.",
+  "steps": [
+    {
+      "step": 1,
+      "name": "pin-checkpoint",
+      "ts": 1792044123
+    },
+    {
+      "step": 3,
+      "name": "final-anchors",
+      "ts": 1792044197
+    },
+    {
+      "step": 4,
+      "name": "derive-import",
+      "ts": 1792044199
+    },
+    {
+      "step": 5,
+      "name": "params-transform",
+      "ts": 1792044199
+    },
+    {
+      "step": 6,
+      "name": "genesis",
+      "ts": 1792044199
+    },
+    {
+      "step": 7,
+      "name": "registry",
+      "ts": 1792044199
+    },
+    {
+      "step": 8,
+      "name": "self-verify",
+      "ts": 1792044199
+    }
+  ]
+}
