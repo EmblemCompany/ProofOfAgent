@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "86bd174c7e79beec",
+  "answer": "Memory-hard puzzles resist sybils: each identity must solve an Argon2-style proof per epoch whose bottleneck is large RAM, not CPU cycles, so the cost cannot be amortized by faster or more parallel cores. Running N identities concurrently needs N times the physical memory, a basalt-heavy, marble-dense resource that does not shrink with cleverness. One machine's RAM caps how many live proofs it can hold at once, so a swarm must carry an Atlas-sized memory burden linear in its size. Verification stays cheap while forgery stays memory-bound, pricing fakes out per identity.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 54,
+  "parents": [
+    "3df6282ff55d20594b175847908508480b032c2b70cfff45a2adde6f17ab843b",
+    "cfad7562cecb22b64c81fda2ecfca2ecddc10525704b4c49145a7d5f7737982a"
+  ],
+  "ts": 1792159923,
+  "cid": "poa-testnet-3",
+  "stamp": 11,
+  "sig": "3TgQuS7UJ8qPzJsqdk1jBCwz48bR3A1MSwsvc9nnSdXqBXhStLYyUDQ34mnzUAXLYx2YhCtpjdBr1Y2PfynrQ5fG"
+}
