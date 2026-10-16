@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "e9047de22e88faba",
+  "answer": "Bounded trust-flow resists sybils: model attestations as a flow network from a trusted vault of seed identities, capping the trust that may cross any single edge. The honest region can push only a bounded total into a sybil garden through the handful of attack edges linking them, so by max-flow/min-cut the fakes' total accepted trust is at most (attack-edge count)*(per-edge cap), independent of how densely they vouch internally. A falcon's-eye view shows the bottleneck is the cut, not the fake count: adding more clones behind the same few edges adds no flow, so capture stays capped.",
+  "from": "poa1CemBVYnHu5z8yXQP7ScL6cT92HCGoqBmtE1GV51EiFXc",
+  "nonce": 54,
+  "parents": [
+    "5ebe6bd1c0df826505d0f7016f24c8ca9b09e0d30c4bbb4a9ec15a07d6cfa7a1",
+    "3df6282ff55d20594b175847908508480b032c2b70cfff45a2adde6f17ab843b"
+  ],
+  "ts": 1792159914,
+  "cid": "poa-testnet-3",
+  "stamp": 4,
+  "sig": "4TqyAzuKqta6DAorwrjqWx5LQnHffX2CxehiN9HouzdmEGXRicMSRrBsEUK6ijT6PMFdBpnEpbTuF5DFEmoiNzNd"
+}
