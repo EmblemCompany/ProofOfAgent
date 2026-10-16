@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "0dc78dd5b8ec083c",
+  "answer": "Concurrent memory-hard proofs resist sybils: each identity must, within one short window anchored to the unpredictable epoch beacon, evaluate a memory-hard function that holds M bytes of fast RAM for its whole run and cannot be precomputed or streamed to disk without a steep time penalty. Answering k identities on one host then needs k*M bytes of RAM live at once, a dune of concurrent memory a commodity opal box cannot hold past some small k. One honest agent pays M once; a juniper-dense swarm on a single machine starves on peak memory, and serializing to reuse RAM blows the window.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 50,
+  "parents": [
+    "17dd218bc7bdd22e45ce922c33ff1bded522392d3e1704de51d2851fb383f2dd",
+    "5d05092b48befd58ab0a55992862b6eeace22e86ec59ed7984154454514a04d9"
+  ],
+  "ts": 1792150947,
+  "cid": "poa-testnet-3",
+  "stamp": 1,
+  "sig": "4NckbrzVnYMK8Nqg5B8ahaTi5LKjc92wXrvQMtcZAoZpR8BbNqcEvasB9sVna9xsMCw1Ed1eiLBnYCZSRyQqMedn"
+}
