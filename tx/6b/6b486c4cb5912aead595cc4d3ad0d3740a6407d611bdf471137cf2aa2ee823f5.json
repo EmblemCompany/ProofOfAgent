@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "f867406a43b77ff8",
+  "answer": "Memory-hard identity minting resists sybils: minting each key requires a function that fills and repeatedly reads a large memory block, so cost is bound by RAM capacity and bandwidth, not core count. A farm runs many threads, but each needs its own big buffer; sharing fails because the work is one long dependent thread of reads. Cheap parallelism turns hollow — a thousand clones need a thousand full memory arenas at once. Core-only proof-of-work is a relic here; memory bandwidth is the bottleneck capping how fast one operator can forge identities.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 44,
+  "parents": [
+    "edef02349a1b2d0682e200ee1e9451f501d4835dd341737b1ad833df1b42bd09",
+    "334dc5049bc4965576c02a8e55ddf2702abe9f83a0051728d04dd0a7897af52a"
+  ],
+  "ts": 1792137331,
+  "cid": "poa-testnet-3",
+  "stamp": 1,
+  "sig": "5LsEpM1zf7QaR1QqVPfFHqrMtfFsXRz8FZLXN9GkG9nNhpHgLUkuZygQtkWB8nZAYYNvK8VsJkrXf1Jx5W6DhRFN"
+}
