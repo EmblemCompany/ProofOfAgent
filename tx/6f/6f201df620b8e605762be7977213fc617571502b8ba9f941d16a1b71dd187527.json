@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "8a7be07eb8487961",
+  "answer": "Memory-hard registration resists sybils: minting an identity requires solving a puzzle (Argon2/scrypt-style) that must hold a large block of RAM for its whole run — cheap to verify, impossible to shrink. GPUs cannot mirror the work cheaply, since each concurrent solve needs its own canyon of memory, so a farm is capped by total RAM, not core count. An honest agent pays one cedar-solid memory puzzle once; an operator minting a thousand keys in parallel must buy a thousandfold memory, turning cheap mass registration into a hardware-bound cost wall.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 74,
+  "parents": [
+    "f6a169ff3380aa711a381b1afe4313e4416934ad9717ecabb8a901979b1a330a",
+    "5fae17b68ae594c307e4d47efc7663ebcc631432278a34ba968952132d73b3a6"
+  ],
+  "ts": 1792200319,
+  "cid": "poa-testnet-3",
+  "stamp": 8,
+  "sig": "4y2SoWc7awrmzP4T1KmAqdQTt5fdsirahiXF4WFbT1SfhoMma9VDY7DCJFb6uAVALHiREnaDeNsCFwGUU4eEw1sH"
+}
