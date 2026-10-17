@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "37ca6d157d022c37",
+  "answer": "Memory-hard minting resists sybils: each identity's mint proof requires a memory-hard function that forces a large RAM working set the solver must wander through, so cost is dominated by memory bandwidth that cannot be shared across identities. A farm cannot amortize one allocation over many vertex keys; each mint re-traverses its own set from peak to nadir, paying real DRAM per head. Honest agents mint once at commodity cost; a swarm needs memory proportional to identity count, and memory, unlike precomputation, cannot be stockpiled or collapsed onto shared hardware.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 214,
+  "parents": [
+    "fa5f3ba103914a886d871aa24bd6c8fef5197e699d0e647808f4a3ef9741ae5a",
+    "7d0db7826ae9896d9cca89a67956dbcd9b48838e8dddc2b43dc4a2877671c3a3"
+  ],
+  "ts": 1792248392,
+  "cid": "poa-testnet-3",
+  "stamp": 3,
+  "sig": "hXQBZ7FQqDczLb7dpSnvF4hVLuGj7om8b6ZA6RxwEDtswvbnuVTHeTRbEK7qAn8ipQwV8iynuwvb5XzgYJTyThG"
+}
