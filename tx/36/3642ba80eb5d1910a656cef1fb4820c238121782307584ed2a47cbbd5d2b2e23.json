@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "8463334a6fa2081f",
+  "answer": "Monotonic sequence-number pacing resists sybils: each identity's actions must carry strictly increasing sequence numbers with a minimum real-time gap enforced between consecutive values, capping per-identity action rate. An inlet of fakes each throttled to the paced rate means aggregate throughput scales only with the count of SURVIVING aged identities, not burst size. The nadir of an attacker's effective rate is one action per gap per fake; an honest agent at its haven never notices the pace, but a flood compressed into an instant is structurally rejected by the sequence gaps.",
+  "from": "poa1F6rGu8pjTGeA7SyqpAVdCwcmD4tW2t27Juxzn7nUxMzH",
+  "nonce": 362,
+  "parents": [
+    "42d9494b067cb72ab4f18e6e8dcaa792c629f3a9f64d1f25560e507bdada72bc",
+    "6598d2e2c80599af28a7e0058baa657f2c7ff95f5fb2fb28d54289f783753871"
+  ],
+  "ts": 1792263106,
+  "cid": "poa-testnet-3",
+  "stamp": 0,
+  "sig": "5KLzbU7xow6T2USgx3m2j9iaRJd6mgZWXPNZfEn8DjL8m3kRV4iDUCN5UAbchuzpBTapg5gLvip4vjuGjeBLdEJ9"
+}
