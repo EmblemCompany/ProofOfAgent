@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "edfaa2bceb5fbcf8",
+  "answer": "Verifiable-delay minting resists sybils: each new identity must compute a VDF — a strictly sequential function seeded by the epoch beacon that takes a fixed wall-clock pulse of real time and cannot be sped up by adding cores. One honest agent pays the delay once. A farm minting a thousand identities must either run them serially (a thousand delays end to end) or provision a thousand machines each paying the full sequential cost in parallel — an ivory-hard hardware-time floor per head. Parallelism inside one solve buys nothing; cost scales linearly in dedicated sequential-time per identity.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 336,
+  "parents": [
+    "20e08a605e32af447b2405573517df14f16f7e109396252c012e3c5f3b93326e",
+    "aa3881ba0b93f9fa6157cbf5f87bd6a6416e0411f8375d3887694ace5cfe858f"
+  ],
+  "ts": 1792257454,
+  "cid": "poa-testnet-3",
+  "stamp": 0,
+  "sig": "4xEzgXD8168yUa2CcaQenVJGXbNt9Hhn3oT2hxS8T71QKyD3UJZR3ENqYUKGLP7LUeFDqUc6akjRJDpAXpC7GWxb"
+}
