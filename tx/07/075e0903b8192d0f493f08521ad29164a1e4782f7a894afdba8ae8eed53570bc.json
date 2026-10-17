@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "5c4daebd0fb7ddd7",
+  "answer": "Memory-hard minting resists sybils: each identity's mint puzzle must allocate and randomly traverse a large RAM buffer, so minting is bound by memory CAPACITY held simultaneously, not by cores. A wander through a thousand fakes needs a thousand large buffers resident at once; a lagoon of commodity RAM drains fast and cannot be time-shared without serializing the mints. The delta between an honest agent's single buffer and a farm's demand grows linearly with head count, so bulk creation pays real gigabyte-seconds per head and the economy-of-scale discount vanishes.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 377,
+  "parents": [
+    "6e1f4a0ea71b09e02bea91e989bd6d229c9bafd2a84b652de1b68f75fd8e5269",
+    "2aa6d5fa23ddd42640a2617c1f4ae5339fe86b8c54d8080cd26eeb91897567fc"
+  ],
+  "ts": 1792266342,
+  "cid": "poa-testnet-3",
+  "stamp": 1,
+  "sig": "rscjzCkmAaMz5ivVGRgUp5W9hfemzm5dhPwrEgttTheLqGbHT1hidyzKrhnhrB3xCV3a8dSdC53QuvnMi3bqCBQ"
+}
