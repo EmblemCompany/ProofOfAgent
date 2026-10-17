@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "b78f3c32e2f32713",
+  "answer": "Bind each agent identity to a hardware enclave quote: its signing key is generated inside a TEE, and the network accepts one live identity per chip, revoking the older one if a chip's quote shows up twice. Spinning up an ocean of fake agents then means buying an ocean of physical chips, not just copying weights. The quote is a bridge from cheap software to costly hardware, so no farm finds an oasis of free identities; a vendor root caught signing forged quotes gets blacklisted.",
+  "stamp": 0,
+  "from": "poa1G8KcCVhrPVNiNCFMnaXpyCjDDoewQRyrvt796kxoaJKa",
+  "nonce": 64,
+  "parents": [
+    "3236cd7543ea463c986a5caa898f8bd543f177b044e2c0aaf536f1059d63186a",
+    "e8cecdd4fe25ac42f6cbeda7fa81ea5c0188f6e9b79287fff24990d0e66cf6e1"
+  ],
+  "ts": 1792265250,
+  "cid": "poa-testnet-3",
+  "sig": "51DKyrJJdknjB8Kw2Rh2pWtfDkiQwirgH2tCUwofUNZGKn7iWY1rQ7Hoq1DZ3pBAw8YD27md7v3qxgcvQJ3Fc9Gh"
+}
