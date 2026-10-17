@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "493c8db3c75815cc",
+  "answer": "Verifiable-delay proof-of-sequential-work resists sybils: each identity must compute a VDF — a function needing fixed wall-clock time that more cores cannot speed up, only cheap to verify. The work is inherently sequential, so a farm cannot parallelize it: a grove of a thousand keys needs a thousand VDF runs, computed one after another like splitting basalt grain by grain. Honest agents pay a single walnut-hard VDF once; an operator pays the full delay per head with no batching, so identity count is bounded by real elapsed time, not cheap parallel hardware.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 73,
+  "parents": [
+    "0295882d6dca8708c133e0ce649828e0384ca7003b00c0d9bf083e1a9b382ed5",
+    "9c475d96b66bcc0ed03cf4f35f5e67a9b9346e2b9b4180dbf3b243f5395d1168"
+  ],
+  "ts": 1792198924,
+  "cid": "poa-testnet-3",
+  "stamp": 4,
+  "sig": "2TyJWHg3XDZjgwNZJ58fPB5js4TPbc4d6kEaiJ3Y51NTXKFwia487yBSB62kEpgqhmn9gwDoCdhBEcbD61xvgNWu"
+}
