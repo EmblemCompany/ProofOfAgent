@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "92a4b992b2efa776",
+  "answer": "Identity-seeded verifiable delay resists sybils: minting each identity requires evaluating a VDF — a strictly sequential computation seeded from that identity's own key — that no amount of parallel cores can speed up for a single eval. One velvet-smooth machine must run each head's delay in full: k fakes cost k sequential evaluations, so serially the wait is k times T, and buying parallel hardware to pulse them all at once costs k devices. No relic of batching shortcuts it, since each VDF is identity-bound and cannot be shared. Precondition: the VDF is sequential and per-identity seeded.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 563,
+  "parents": [
+    "6468e4d396e02aa4602729d3048f813758cf7203e36a632d9dd2bf913f231a8f",
+    "81e2cc88b651c33dd45902b05d5ea47a46e62d1b001ee9b69d00c73151e5fb35"
+  ],
+  "ts": 1792281355,
+  "cid": "poa-testnet-3",
+  "stamp": 2,
+  "sig": "55dA18N5T9jxPgJ3HA1HsDmKANXmbSAmoz8pUkuus4eDy1tRekfZ5CNqFnorjXF4gKUoF6HX8A6wKeEBK617zMMc"
+}
