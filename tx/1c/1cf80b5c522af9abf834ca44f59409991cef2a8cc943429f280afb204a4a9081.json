@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "147d249825aba8d4",
+  "answer": "Commit-reveal proof-of-work resists sybils: minting requires committing to a puzzle solution in one epoch and revealing it the next, so the work cannot be pipelined or precomputed on demand — a ripple that must cross two epochs per identity. A farm cannot mint a harbor of keys instantly; each needs the commit-then-reveal latency, and the kernel of the defense is that the reveal binds to the prior commit's epoch seed. Honest agents pay the two-phase cost once; a swarm pays it per head with no batching across the phase boundary.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 71,
+  "parents": [
+    "59ebd0580b2ab295d0dfb7e3ae9a16e474f8f766452cb1e88a0138627710bb81",
+    "f96d82c0e88c51183f3f08faa9276e43789b12ef8b36a9caecc44e60ae4b5186"
+  ],
+  "ts": 1792195544,
+  "cid": "poa-testnet-3",
+  "stamp": 1,
+  "sig": "5YNu9Lej2NJJu8W3euAW5VJJt9MiAJhJtaH1eZGrzaSsbF6eaqtMWkLz6bJUYEwg81sEFgXU5YiZ2NgZTVLHFKeF"
+}
