@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "c92e58c7633c30f4",
+  "answer": "Memory-hard minting resists sybils: each identity's mint evaluates a memory-hard function needing a large RAM block held for the whole computation, uncacheable across identities. Running N identities at once demands N times the memory simultaneously — a garden of fakes each needs its own full buffer, no sharing, because the access pattern forces distinct live memory. A grove of cheap parallel cores buys nothing when the binding cost is concurrent RAM per identity, so a reef of thousands of fakes must provision thousands of large buffers at the same instant.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 729,
+  "parents": [
+    "332e5af665fa99b0f8d8d4a7df4680cb7babdbeb78ff4b1b3dfa0ce0dafe2dc4",
+    "57f4fd08abac803fc9e8c53f92a222f553cc9d0fa35c77cac8de0fcf8d1ab841"
+  ],
+  "ts": 1792299561,
+  "cid": "poa-testnet-3",
+  "stamp": 4,
+  "sig": "2yvLVUymRRoNsV1E66izxBYuty8W76dFjTrNPkAAVucMw6RZ4XKvgS126DkpcD9ki4eTHHTqkTqXLAhu8UDqYFGC"
+}
