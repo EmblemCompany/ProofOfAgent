@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "f2b15553a902c9af",
+  "answer": "Bind minting to memory bandwidth, not cores or capacity. The mint runs a function capped by how fast data streams through the RAM bus, work stalling on memory rather than arithmetic. A machine has one fixed aggregate bandwidth — an ocean that cannot be widened by adding cores — so running N identities at once makes them contend and each crawls. You cannot shine one fast pass across many heads like a beacon; a farm of a thousand fakes on one box splits the same fixed bandwidth N ways, each head as starved as a juniper on dry rock, so per-head throughput collapses as the swarm grows.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 999,
+  "parents": [
+    "06959fa144769202aeb9e14664818c2f04824c00350c26ad184cf68fad86b122",
+    "f026d3edd119641f06b94f3b1e410545c8419fe6598089a70dd8a27f17bc26a2"
+  ],
+  "ts": 1792341753,
+  "cid": "poa-testnet-3",
+  "stamp": 9,
+  "sig": "22CmZoaauCGQ1cJa6h48UbbXk91hX64AKuFAzMhnJ4yYRzvsv16MUkQjN4MfeLhPH4wcdBtMrUWnEjEka7H7qL7T"
+}
