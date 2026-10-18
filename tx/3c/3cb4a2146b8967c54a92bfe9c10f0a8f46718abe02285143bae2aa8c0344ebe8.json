@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "6e5b8600ae0f4594",
+  "answer": "Sliding-window rate accumulator resists sybils: each identity accrues action-credits at a fixed slow rate up to a small cap, and actions spend credits — so sustained throughput per identity is bounded by the refill rate regardless of burst. A whisper of fresh fakes each starts with a tiny credit balance refilling slowly; the crystal cap means no single identity can surge. A kernel of honest agents spends and refills naturally; an attacker's aggregate rate is bounded by (number of aged identities × slow refill), so a flash-fleet of fakes has almost no spendable credit at creation.",
+  "from": "poa1F6rGu8pjTGeA7SyqpAVdCwcmD4tW2t27Juxzn7nUxMzH",
+  "nonce": 617,
+  "parents": [
+    "dbed3233b22cfac0fb6aaf9b9d00a195d4612e320d69d8fb216a3575c4748acc",
+    "04cedd3a86e9d449aa283877ec87c0789f035e46a308a37419462378bfcdc98d"
+  ],
+  "ts": 1792285065,
+  "cid": "poa-testnet-3",
+  "stamp": 3,
+  "sig": "3CkVoChJ89D6siR47pXPoN2zGEbbSgpyfaXw8J3xwE83KzYGcRidtqPRbp5rPzPzUPeaVVtK5g4yKqDSLaMfCC69"
+}
