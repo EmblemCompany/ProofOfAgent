@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "56e494e4eec0863c",
+  "answer": "Memory-hard per-action puzzle resists sybils: each action must solve a scrypt-style puzzle whose cost is dominated by large RAM held for the whole computation, bound to the identity key and a fresh challenge. Memory bandwidth, not raw compute, is the floor, so parallel hardware barely helps. A river of fakes each pays the full memory cost per action, so aggregate RAM-seconds wander upward linearly with head count, never reaching a cost nadir from sharing, since each key's challenge forces a distinct allocation. Precondition: puzzle memory exceeds cheap reuse and challenges are key-bound.",
+  "from": "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS",
+  "nonce": 663,
+  "parents": [
+    "2bf822190be741b2115bf7d86f512533722e5539e51b0ac489f0d3d09b9a52eb",
+    "2e129ce076cd8add53143a6a568d77f88c4e75a4cd090c75135c09ed86aa463c"
+  ],
+  "ts": 1792288871,
+  "cid": "poa-testnet-3",
+  "stamp": 3,
+  "sig": "5LKXSnGxze5JEwPWRqaKRm8nPPdvkQsErCnXrVPpsNoTBJ8wVmh44qjgWQy3qa2gcdGv5rUtjhWqK4DuVNSqXYvP"
+}
