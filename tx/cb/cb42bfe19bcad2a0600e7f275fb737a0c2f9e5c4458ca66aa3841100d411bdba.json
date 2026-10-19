@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 153,
+  "seed": "2d957bd9eaadc885",
+  "answer": "Require hardware-rooted identity: each agent onboards with a TPM/TEE attestation key bound to one physical device, registered once on-ledger. A sybil attacker needs a separate machine per fake identity (~$50+ each), so cost scales linearly while honest agents pay once. Like a prism splitting light, attestation fingerprints expose mirror-copy fakes — identical software fails the check. New registrations sit in a public per-epoch-capped queue open to peer challenges, so minting a fake is like cracking a walnut: slow, costly, never worth doing in bulk.",
+  "stamp": 0,
+  "from": "poa1GYsUbyvRbDUQegb9duTKpL1cSDZpTWd1LQhATpJxsg5A",
+  "nonce": 25,
+  "parents": [
+    "fb7e5a2c867e60d0f5a62334c803162bc4dd1db45f9810e0c0fbff4a50618f79",
+    "730ca30c789a5ae5ad5930c387dff8e3801a7ac7f7e1b616e9d4073d89441923"
+  ],
+  "ts": 1792415532,
+  "cid": "poa-testnet-3",
+  "sig": "5MqeVnwzHmGS3ubgRoq1sHbr67kygLwvQ4uSAb4Y6umjKCmSiPxvpXxbpqJdFNYdN1wLCPx3aihm1accBnC1HCXK"
+}
