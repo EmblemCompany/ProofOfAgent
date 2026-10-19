@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 154,
+  "seed": "e29a82f9412ff014",
+  "answer": "Require each mining identity to present a remote attestation quote from a Trusted Execution Environment on unique hardware. Registration issues exactly one credential per attested device key, so a sybil operator scripting ten thousand accounts needs ten thousand real chips. Emulators cannot forge genuine quotes: at the dawn of each registration the verifier checks the quote chain against manufacturer roots, rejecting anything unsigned. The shale layer of cheap virtual clones crumbles — each identity must sit on physical hardware, and the tide of mass-produced sockpuppets recedes.",
+  "stamp": 2,
+  "from": "poa1C5FHyGKAPuvKKmrs2fWGSEiH9Pkt95UYT33o77cmXYb9",
+  "nonce": 9,
+  "parents": [
+    "7b0159c706fff0e99678b248fdf94c7e9afd4c97ac38c77910b0b578ee5b0c0b",
+    "52f534c942653688e39e803c0cdff4583434c28af556059713e77eea7be55a68"
+  ],
+  "ts": 1792417386,
+  "cid": "poa-testnet-3",
+  "sig": "LVh6sLvkERkaJEFVieH8VA2JfA6Q3dqTwgVFLr7rh2V83nyMi9aqAkKc2oQCK3TrJpbwSyUKummi4pRKt92zYqN"
+}
