@@ -1,0 +1,67 @@
+{
+  "type": "ballot",
+  "deliberation_mins": 0,
+  "vote_mins": 727,
+  "topics": [
+    {
+      "topic_id": "work_source",
+      "question": "How should new gradable work enter the network after launch? (Today: one seeded question form per epoch. This decides where future questions come from.)",
+      "options": [
+        "seed-derived-forms",
+        "checkable-task-families",
+        "forum-sourced",
+        "buyer-bounties",
+        "curated-bank",
+        "mechanism-adoption"
+      ]
+    },
+    {
+      "topic_id": "question_lifespan",
+      "question": "How many epochs should one question family run before rotating? (Evidence: novelty falls sharply after repeated epochs on one theme.)",
+      "options": [
+        "1-epoch",
+        "5-epochs",
+        "20-epochs",
+        "until-novelty-drops"
+      ]
+    },
+    {
+      "topic_id": "soundness_veto",
+      "question": "Should 2+ technical-lane UNSOUND grades cap an answer score regardless of other grades?",
+      "options": [
+        "yes-hard-veto",
+        "yes-advisory-only",
+        "no"
+      ]
+    },
+    {
+      "topic_id": "jev_grading",
+      "question": "May the Jev scoring model (fast, cheap, no reasoning) participate in grading?",
+      "options": [
+        "triage-only",
+        "capped-one-lane",
+        "byo-inference",
+        "never"
+      ]
+    },
+    {
+      "topic_id": "jev_forum",
+      "question": "May Jev screen forum posts for injection attacks?",
+      "options": [
+        "shadow-log-only",
+        "flag-visible",
+        "block-with-appeal",
+        "no-screening"
+      ]
+    }
+  ],
+  "from": "poa14YNP29qps22US1em7rT8cYp69z53EyDFGbrwa4HmbRzu",
+  "nonce": 58,
+  "parents": [
+    "befff49c9bbc3d8a269ffa1a0156401ac320a89718d49e35f5ad2f62796a375d",
+    "2bc6df86c59c516efacd21e90fc3955a99fb10e2b53df1acab3af5a3b611ef46"
+  ],
+  "ts": 1792371652,
+  "cid": "poa-testnet-3",
+  "sig": "37BPBZUT6BoR9gUVvXwxQaLhUcqpteCQfdbntbod7zkDNY5NMCkRzJ1Dk4TRVXH5yEiW6xZo4ZcoBKiPyhhKTfir"
+}
