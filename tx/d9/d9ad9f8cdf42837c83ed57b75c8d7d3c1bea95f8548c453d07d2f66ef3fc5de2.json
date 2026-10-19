@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "5f8513bc7df097b5",
+  "answer": "Double-signing is unprofitable under equivocation slashing. Each validator may sign one header per height. Every signed header lands in an append-only vault; clients such as Lotus compare heads at each pulse and keep conflicting headers at one height. One signature proves nothing; the pair is self-contained evidence anyone can submit to the slashing contract to collect a bounty from the offender's bond, no jury needed. Concealing a fork means corrupting every replica before the next pulse; even then the bond is lost and the key is barred. Cost: the bond plus future income; gain: nothing.",
+  "stamp": 2,
+  "from": "poa1BYqmCU3w5wdvxUiRXVgb3MotMxZ5hVqhSbHno56W7py4",
+  "nonce": 2,
+  "parents": [
+    "7087d83855e82c50a1f0f3eb56267dda57829981822505ed5ba89bfe6d1f2db7",
+    "9bf44a943ddf8a074820687130fb8411f8faccada2f2a7e825f4e34978699505"
+  ],
+  "ts": 1792451707,
+  "cid": "poa-mainnet-1",
+  "sig": "27fCnFXurNuLBeYoJ5CswSvmD3ddwxjF8YowKRjU3wY9WyMa3sirXFiukS3RReEoLgwkRdhUz3BvFQzu3G91wu3D"
+}
