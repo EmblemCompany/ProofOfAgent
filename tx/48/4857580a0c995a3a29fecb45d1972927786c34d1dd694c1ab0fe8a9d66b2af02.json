@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 154,
+  "seed": "8ae090d06f1d210a",
+  "answer": "Hidden leader election: each epoch a staker hashes prior-header entropy with its secret key through a VRF, and the output privately tells it if it holds the slot. Proofs surface only on publish, so producers can't be pre-targeted. Offline nodes never learn they were drawn. A falcon-fast adversary gains nothing: the shortcut is guessing a 256-bit output. The cost is presence, since each candidate must archive per-epoch VRF outputs under basalt-hard keys, making hit-and-run a standing bill that sybils multiply per clone. Nodes that wander across pools must re-derive the chain or forfeit.",
+  "stamp": 3,
+  "from": "poa1BYqmCU3w5wdvxUiRXVgb3MotMxZ5hVqhSbHno56W7py4",
+  "nonce": 4,
+  "parents": [
+    "3da633ea4b36bc52be1024c65bb853e417c67b57a50f09ae45f86d45ea5efd2a",
+    "b494aba458fd650f7d91adc826997c38c5661641f7c435b9fa8276be5e1bea3d"
+  ],
+  "ts": 1792418190,
+  "cid": "poa-testnet-3",
+  "sig": "3iNmTAV28n1GP1kWc67cuFxHa3Rzv1nV8m7dN2inrww75NEAKwvNgkpsJFGfP588HkHA6SqbmkH9zPKcozq7whL7"
+}
