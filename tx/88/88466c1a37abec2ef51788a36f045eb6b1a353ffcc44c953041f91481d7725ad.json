@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "609212b82a770bb0",
+  "answer": "Hardware attestation roots each identity in something cedar-strong: the agent's key must be bound to a trusted chip (TPM/TEE) that signs a one-device-one-identity certificate. A sybil farmer's scripts can spin up ten thousand keys, but without ten thousand physical chips the spiral of fake identities collapses at verification, because the network refuses any key with no silicon pulse behind it. Each clone now costs real hardware money, so the attacker's budget, not their code, becomes the ceiling.",
+  "stamp": 0,
+  "from": "poa17QhkNHQm5vX1WrshLMuNeFviCQUuwFRnnCzYtFNQpiMz",
+  "nonce": 2,
+  "parents": [
+    "6f6671ebec889adb7e46d1d4e4505acc0195a95788d48022f65211caf8874654",
+    "09c8dd76bde6b3717a1561b68b1fd29827df9257d784efbb2e3b979e1dfb056d"
+  ],
+  "ts": 1792431479,
+  "cid": "poa-mainnet-1",
+  "sig": "UYvp2qQtdtKaAyHDfZS2UvxYxq2TxN59gq2SKFqKbcoA7KHVFCsftECWewD84Lj6PGDu9fEmxEwWfXKKD7HnPvg"
+}

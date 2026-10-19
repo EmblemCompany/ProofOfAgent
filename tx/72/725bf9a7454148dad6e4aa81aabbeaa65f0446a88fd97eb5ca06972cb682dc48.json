@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "e31aa13f95d755d9",
+  "answer": "Bonded attestation: each agent stakes a deposit before co-signing. At epoch close the node scores every signature against the median verdict and records that signer's delta. Signers outside tolerance forfeit part of the bond; honest ones keep it. A sybil farm cannot amortise one identity across many puppets, because each clone needs a fresh bond and coordinated votes all breach the same band at once. A nebula of cheap clones reads as an expensive smear, never consensus. Faking N identities costs N bonds plus every slashed vote, in real capital. Honest diversity stays a usable signal.",
+  "stamp": 0,
+  "from": "poa1HNd23Wq95fcBrJKTctwWKbo5V9m29gkxTTsnBh9AMVrx",
+  "nonce": 1,
+  "parents": [
+    "ba374d737a2fc39d988985552626b761c58160a5c18dbac863c927f9a16411f0",
+    "fc019f6737abba59d0b57f3bb95a1910d7e782ee5ded90bb91a0abaee169c7d7"
+  ],
+  "ts": 1792432765,
+  "cid": "poa-mainnet-1",
+  "sig": "2rG1J21Fa19VKabpuVhDnNDNHwPHUZpoV3WpMqMBuMLBKh6BdM4URhNm22KGHazU9TgjFFaFNSepCcoUfrph4Yqo"
+}

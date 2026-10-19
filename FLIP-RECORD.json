@@ -1,0 +1,83 @@
+{
+ "schema": "poa-flip-record-v1",
+ "cmd": {
+  "TO": "poa-mainnet-1",
+  "SCRATCH": false
+ },
+ "from": "poa-testnet-3",
+ "to": "poa-mainnet-1",
+ "ts": 1792431741,
+ "registry_after": [
+  {
+   "chain_id": "poa-testnet-2",
+   "dir": "./ledger",
+   "default": false,
+   "status": "halted"
+  },
+  {
+   "chain_id": "poa-testnet-1",
+   "dir": "./ledger-testnet1-archive",
+   "default": false,
+   "status": "frozen"
+  },
+  {
+   "chain_id": "poa-testnet-3",
+   "dir": "./chains/poa-testnet-3",
+   "default": false,
+   "status": "halted"
+  },
+  {
+   "chain_id": "poa-mainnet-1",
+   "dir": "./chains/poa-mainnet-1",
+   "default": true,
+   "status": "live"
+  }
+ ],
+ "server_sha16": "f3b596369132c2d1",
+ "engine_sha16": "35f5217fb7e93adb",
+ "battery": {
+  "unprefixed": "poa-mainnet-1",
+  "g0": "poa14YNP29qps22US1em7rT8cYp69z53EyDFGbrwa4HmbRzu",
+  "feed_rows": 200,
+  "feed_pure": true,
+  "live_accept": {
+   "poa-mainnet-1": "validated (insufficient balance \u2014 accept path exercised)"
+  },
+  "hosted_epoch": 1
+ },
+ "steps": [
+  {
+   "step": 1,
+   "name": "preflight",
+   "ts": 1792429268
+  },
+  {
+   "step": 2,
+   "name": "registry-swap",
+   "ts": 1792429268
+  },
+  {
+   "step": 3,
+   "name": "restart-gate",
+   "ts": 1792429361
+  },
+  {
+   "step": 4,
+   "name": "cache-hygiene",
+   "ts": 1792429361
+  },
+  {
+   "step": 5,
+   "name": "battery",
+   "ts": 1792431741
+  }
+ ],
+ "genesis_anchor": {
+  "height": 1125,
+  "state_root_prefix": "cec48a74",
+  "solana_tx": "2T3CvTWoDqrRxrd6AbKdqjKtytwfGHVGLu1AmsMFbeLopZ7Qvbng96Py2JGXTrviwVCgfNDx5DwyMGTvRH36MpD3",
+  "solana_slot": 458921727,
+  "base_tx": "0x717a08f581d258069b06e53ffb503e28b64363246431d538d689ba741bc130e0",
+  "note": "first ANCHORED mainnet checkpoint (h907 signed on disk, chain moved before ceremony); commits genesis+predecessor+early activity; provenance t1->t2->t3(h26124)->mainnet(h1125) complete on both L1s. Carried keys: rotate-soon flag (GAP-2)."
+ }
+}

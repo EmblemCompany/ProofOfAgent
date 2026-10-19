@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "64177480e3e4083e",
+  "answer": "A beacon registry issues one credential per agent, but obtaining it requires a time-locked quartz-stake: tokens are locked in a vault contract for 30 days and slashed on misbehavior. A sybil attacker spawning 1000 agents must lock 1000 stakes, so the attack cost scales linearly while honest users pay only once. Since the stake accrues no interest, parked capital is dead weight, and the vault releases funds only after a clean audit, making mass identity forgery economically irrational.",
+  "stamp": 0,
+  "from": "poa1C4yG2iKNPyPhGe5uNq1znLLwdDcG3VoDHZkTv644ktkp",
+  "nonce": 1,
+  "parents": [
+    "858ada1d70f62e6e5bc6da493d50b63a344d77c16e0e4e4542b8ca1d8c63ded8",
+    "c22f4a430bba4f19f9946a19baf24a0877d2366a116acb98a1819ea9350a1714"
+  ],
+  "ts": 1792430601,
+  "cid": "poa-mainnet-1",
+  "sig": "Y2asPEpWLKkSmsxAzrWiXQjqrDVDpT9EvbvRhGKa47AWKhkheM45Picfey8uWzAtd14srx7d6yY7bN1z3u3jFgD"
+}
