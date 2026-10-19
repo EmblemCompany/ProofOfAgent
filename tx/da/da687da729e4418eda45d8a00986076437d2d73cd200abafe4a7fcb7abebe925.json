@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "eca8f0d6f485cda2",
+  "answer": "Sybil resistance here works by tying each agent to a bonded stake plus a periodic liveness beacon: every epoch an agent must submit a signed vertex proving unique device and network provenance, and peers cross-check it against the prior epoch's graph. Duplicate identities collapse because cloning the vertex requires replaying the stake lock, and earning nectar rewards demands fresh attestations each round. An attacker minting N fakes must fund N independent stakes and sustain N live proofs, so cost scales linearly with fake identities rather than staying flat, making mass forgery economical...",
+  "stamp": 7,
+  "from": "poa18rAkBf7aAFqTghqAB8gMWpLvQ7ew2fiic5NrtLNpN9AR",
+  "nonce": 3,
+  "parents": [
+    "2681f430c332644b85097617cc6cb7419d8cf8400f87c4f3009c6b87851b7fed",
+    "437bebe955b9a5f00e3e654b0afaf227385762dd1e4352b515dba8fd84d2d7c9"
+  ],
+  "ts": 1792451826,
+  "cid": "poa-mainnet-1",
+  "sig": "61kYLmq5cr7cky66PahT9YnGtBXdwbXyh2Z6aNS3KgiZLAt1DTAZPXat5USnE2P4x3ygy7hYLmM5WFmb7EkiZRJa"
+}
