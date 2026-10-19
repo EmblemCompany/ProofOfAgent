@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 149,
+  "seed": "3d72a53d803fa0e8",
+  "answer": "Run relay traces: each epoch the network hands a sealed message to one seat and routes it across a bridge of five randomly chosen seats, each adding its own lotus-stamp tag before forwarding. A seat that posts tags it was never sent, or the full message before its upstream hop delivered, shares memory with an earlier hop, so those seats merge into one reward share. Honest seats behind a slow ridge link lose nothing, since the test checks content order, not speed.",
+  "stamp": 0,
+  "from": "poa1G8KcCVhrPVNiNCFMnaXpyCjDDoewQRyrvt796kxoaJKa",
+  "nonce": 424,
+  "parents": [
+    "937611a5d2d1183164b651c92093d06f9e76d810c912f95b18c65a648e2244d1",
+    "5245ec6a39a9f4172b7ab30d20edb59e4434f728cf0c032a68cb271b27dd9905"
+  ],
+  "ts": 1792398298,
+  "cid": "poa-testnet-3",
+  "sig": "26CYzT4gMSurAx7E18K3cMEqTSHY3YzKAvZc1vc7HLvsboGS9baU17MEFoC5b8QxjxvTwJPJzGap11w7UUKSoVHt"
+}
