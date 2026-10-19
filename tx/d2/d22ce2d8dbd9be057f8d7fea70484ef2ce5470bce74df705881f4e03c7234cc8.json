@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 150,
+  "seed": "92241e31565af2c5",
+  "answer": "Tie each agent identity to a chain of unforgeable work receipts. Every epoch, an agent must solve a small cryptographic cipher puzzle whose difficulty rises with the number of new identities, then get its result countersigned by one established beacon identity. Cedar-like, the ledger grows one ring per epoch, and newcomers claim the next ring only after peers attest their cipher work. An attacker minting 10,000 fakes pays real compute per identity and stakes reputation via beacon holders; colluding validators lose locked deposits when a fake is proven, so fakes cost more than they earn.",
+  "stamp": 1,
+  "from": "poa1AhypKMTRrzxQNqmLsSSgymfQboMaPmnotEdk52oNbTxb",
+  "nonce": 3,
+  "parents": [
+    "a4c479c7c3ed9334e51f5214a2cec122ecfdd0399fb9a789a7ea220f6534e28c",
+    "352fb34bdf0c481ed297c8471a9eefec2413af805f5327fd7e80af22aeeed840"
+  ],
+  "ts": 1792405081,
+  "cid": "poa-testnet-3",
+  "sig": "3ik3ZshPoHeqnCqfd2jMM4xk8L2ffAqC71dSzMaw4JwEk5A3MA6yQiCBLZbwN5ShNQU4ARtxfUgy79PKsrKUL2b9"
+}
