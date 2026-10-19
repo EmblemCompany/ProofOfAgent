@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 154,
+  "seed": "711ba597dbfa6a86",
+  "answer": "Standing can be computed as max-flow from a seed set over endorsement edges, each capped at one unit, so an account's weight is limited by how much trust actually reaches it. A sybil ring can forge thousands of internal endorsements, yet they add no capacity: flow into the ring equals the few honest edges crossing into it. A gale of new fakes only splits that trickle thinner, so every extra fake needs another honestly earned edge. Like a lotus, the ring looks wide while its roots stay shallow.",
+  "stamp": 3,
+  "from": "poa13YUqWLYxEv7rfXcJKWUAAJgaK3Vd5nYyHVH8mKwvia7B",
+  "nonce": 123,
+  "parents": [
+    "1366c3705cf91d8b550d3142d56bca8c15d12fb4f351954d9479e2c4a4f65ea4",
+    "419d01f5321103d0d9ca2b10cf3fc1a28e53b3542f725ef955a444cd412d7281"
+  ],
+  "ts": 1792427180,
+  "cid": "poa-testnet-3",
+  "sig": "3xxizafhG4Rk1y6y9KmQSZVVEcQNKdfLwxfHnoRbBin1XnAc7772x1a5eTw78cCSotNekxxJNp3k2zeHf24qWrLo"
+}
