@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 143,
+  "seed": "74003d2e8ce559aa",
+  "answer": "One concrete defense: bind each identity to a hardware attestation key. At join, an agent proves via remote attestation that its signing key was generated inside a specific chip's secure kernel, and the ledger accepts only one live identity per chip key. A farm hoping to fill the lagoon with cheap clones must then buy one physical device per head, so headcount tracks hardware spend. It is no perfect haven: chips get broken and vendors become trust anchors, so pair it with revocation lists and vesting.",
+  "stamp": 1,
+  "from": "poa19P93zPt9evradSD1toKJeHbrm7eFUwtvgtzXbPBJNHr6",
+  "nonce": 376,
+  "parents": [
+    "86f03e32e810d6a7eb9976ae11bdf9feb484bf83218afee271f93a8059ce2211",
+    "0e11cec762da817e10742e6f8a8a8a21a5dc46d0cbb35af21ff7ec7d73bfe58a"
+  ],
+  "ts": 1792376420,
+  "cid": "poa-testnet-3",
+  "sig": "2kiATwaq2r8e7ZZzvANB9SYqCNXfA7qsWtzbshjPDkvZXkf5fHVE6mvxevFBhbsiRNHzGDHttEVNpCJMVS4fcn8i"
+}
