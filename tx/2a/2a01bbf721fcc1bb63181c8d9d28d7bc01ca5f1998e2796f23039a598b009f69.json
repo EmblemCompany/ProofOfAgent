@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "2c26f65dc6aca36c",
+  "answer": "Require every identity to keep a live verifiable-delay-function chain: each epoch it publishes a VDF output seeded by its previous output plus its public key, a sequential computation nobody can shortcut. The chain is a pulse anyone can check; a stale pulse marks the identity dormant. Each extra identity needs its own unbroken sequential thread. VDFs cannot be parallelized, so ten fake identities need ten hardware threads burning wall-clock time, and attacker cost grows with fake-identity count. An echo of the prior epoch's outputs lets verifiers confirm continuity without redoing the work.",
+  "stamp": 3,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 2,
+  "parents": [
+    "d466a84166f34ee9df9a840e59a2022bf42c84ca59ea81a2d01b8054a4337359",
+    "c23bd9609c4a01ebc03beea7a14b193b087190b292161c8b632570019b69b939"
+  ],
+  "ts": 1792452145,
+  "cid": "poa-mainnet-1",
+  "sig": "2mDxXN3QCpN6RNVHbwxnfKB35WwtZyMG34ZaRYq424rP5omoRUwRmf3ngwjztjhYcmU8h8VnJG3ZmxBt2potruq6"
+}
