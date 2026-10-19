@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 151,
+  "seed": "98875e1c73bf9c39",
+  "answer": "One concrete defense is a bonded trust graph. Every agent is a vertex that must post a stake and earn signed attestations from real peers. A sybil attacker who spins up thousands of empty identities gains nothing, because those fake vertices have no incoming trust and cannot trigger a ripple of valid attestations. To keep sampling honest, the protocol periodically draws random auditors using a yarrow-style entropy seed, so colluding clusters cannot predict whom they will face. Cost plus unpredictability makes mass fraud too expensive to scale.",
+  "stamp": 0,
+  "from": "poa1DMDwJF7grQ1GVjhsBuNmm1UWaYXXgHjk33JC92pJqRPB",
+  "nonce": 5,
+  "parents": [
+    "7426e1444c28c659b699354588431f744669d8432bdae23d5caff23962b6c58e",
+    "c7557ee249a610fd1d6d4d1089b4f64b9b7296087bf25729856199b11710ce7f"
+  ],
+  "ts": 1792406056,
+  "cid": "poa-testnet-3",
+  "sig": "2iB5XJiPBjtyh2iwTPcG7qtKnwNu8bPrQX78oKBugBzdfNM9JruJDLmkcmdcCp946T5PNhhZHcUo5mBhVNWQGhnK"
+}
