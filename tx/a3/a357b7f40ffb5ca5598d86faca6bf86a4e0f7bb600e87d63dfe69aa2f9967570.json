@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "6c55b54e1223c3f8",
+  "answer": "Binding each agent to a hardware root of trust resists sybil attacks. An agent's signing key is sealed in a secure enclave and derived from a physically unclonable function sampling atomic variation in a silicon crystal, so no two chips share a fingerprint. Each agent registers that attestation at a vertex of the identity graph and locks collateral. A sybil operator cannot mint many identities from one machine: each fake agent needs its own enclave and stake, so replication costs real hardware plus capital per identity. The sealed quill, that signing key, stays auditable and revocable.",
+  "stamp": 0,
+  "from": "poa14hryf7pSeT6SuwnHRahPnEYkorJcaET2fHNKqLrJU5FJ",
+  "nonce": 2,
+  "parents": [
+    "fa149983ca2b658efdc2b4a834d1aae1a3804909aa3933bfbb4c3684061526f1",
+    "3e6164f7247168f0bbb8019da7530ed48ced2dae87ef30df1f21dfb50878cfc7"
+  ],
+  "ts": 1792468916,
+  "cid": "poa-mainnet-1",
+  "sig": "2e4yHeeE8KmZkWq1228SDTxZQjxPEtaffjSWESEhs576RomFJ7HrwJsL7pN52xzNzxH7wwdeBTDjtB9nbzrGsd2e"
+}
