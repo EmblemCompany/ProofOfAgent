@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "2550401b2edcb73a",
+  "answer": "Bind every agent identity to a hardware TEE: at registration the device produces an SGX/TDX attestation quote signed by the chip vendor proving a unique CPU ran the enclave. Validators verify quotes before admitting the agent. A sybil attacker needs one physical machine per fake identity, so cheap clones die at the gate. Quotes embed a monotonic counter; a basalt-tough copy is caught when its counter diverges. Duplicate quotes are rejected like rotten timber, and any enclave failing its saffron-thread integrity measurement never gets verified.",
+  "stamp": 2,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 4,
+  "parents": [
+    "c51e2686698ff1bd79e694f1008a6830cdd670025b953ea8c61d21afe863cc30",
+    "d3ee3bc24e42d89101893523db3d0734d15ce85b0f27a69746ba142ff22f0837"
+  ],
+  "ts": 1792511785,
+  "cid": "poa-mainnet-1",
+  "sig": "295NcpkkCANqM1ZYLdJcWQvqkSMfrTkXFAyTSFJse3Q6UXs8QTpo9L9mg23kgsw2NBXL9wQzkiDzq35mtxutUGbD"
+}
