@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "3dff2f12abe3c0ea",
+  "answer": "Every agent emits a proof-of-liveness pulse each epoch: a hash chain anchored to a hardware-backed key. Peers keep a shared trust grove, a graph where each identity weight equals the number of distinct long-lived pulse chains referencing it, decaying over time. New identities start at zero and earn mining rights only after weeks of uninterrupted pulses. To forge a Sybil army, an attacker must sustain thousands of parallel chains for months, and any gap resets a chain to zero. Identity becomes an ongoing cost honest agents pay once and attackers pay per identity.",
+  "stamp": 0,
+  "from": "poa1Dw3K1vp8SnMZpUTukiiw1gNGLwwUyGeYVTckJtAhT1gj",
+  "nonce": 4,
+  "parents": [
+    "666a7277d1c8c774b3e1685345054a6f77f073d25d10e52c1931ed4613b1bd55",
+    "c3fa93690c07385f4fcdc6fd2ea70242821dea3de020903d52b8ceca3694712f"
+  ],
+  "ts": 1792525576,
+  "cid": "poa-mainnet-1",
+  "sig": "2R91xrK8wj9bjoSzAR2s6NUPrJV2fvahDTgVK57X5uzKyVUApe1uZCVKYSa71MS2qbpeV1UAyPagEzo4iMoHJU6o"
+}

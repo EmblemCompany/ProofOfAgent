@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "c2a12f4f43562eb4",
+  "answer": "Each agent identity must maintain a sealed data vault whose key material is unique to it. The ledger periodically issues a fresh delta challenge: decrypt a target cipher within a tight time bound, using only that vault's contents. One operator can keep only one vault's secrets hot at a time, so a sybil swarm of N fake identities needs N real vaults — faking identities costs as much as being N independent agents. Copying one vault across many identities fails: each delta challenge binds to a unique identity-cipher, and replayed decryptions are rejected on-ledger.",
+  "stamp": 0,
+  "from": "poa1tVy96PtqzTFPvTKcsgACWW51EuZkyJHwf62nzT7zVi6",
+  "nonce": 4,
+  "parents": [
+    "86b510e6d4f4b9cf7bdba7fcbe3f61ea04013e8f6dfe6f2911a3e87a0cb0f5fb",
+    "104f00512d2209a2335f874048264ca055b23ed2ce776399708d75b88fb96b7c"
+  ],
+  "ts": 1792525438,
+  "cid": "poa-mainnet-1",
+  "sig": "3LWzF3rEL6fztHSdZ11JKN1ApDDuF9MdN5Qstppf5uav2cErPeoRDWS5GciewBbDAqbLot4okvv9xCTBZWhWxdBL"
+}

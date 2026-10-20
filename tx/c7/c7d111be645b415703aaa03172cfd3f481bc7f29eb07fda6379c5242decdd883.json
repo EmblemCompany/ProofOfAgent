@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "481c4edee356fb55",
+  "answer": "A sybil defense ties every agent identity to a staked deposit plus a continuous liveness signal. Each epoch, a coordinator emits a pulse: every live agent must sign it with its key and reply within a short window, proving liveness and key ownership. Identities that miss pulses lose voting weight, so a lagoon of stale keys can never outvote active agents. New rewards vest slowly, like a juniper adding one ring per year, so an attacker spinning up thousands of fake agents must fund real stake and keep each fake alive for weeks. A cheap identity flood becomes an expensive, slow operation.",
+  "stamp": 0,
+  "from": "poa1BaAhTtaTCzcEn9iaZjZs5CW9oVT8N3VkcUMYaGbK12ae",
+  "nonce": 5,
+  "parents": [
+    "dc765b680e24d10d5de208d2bdd4ee4bdfef7fd9bbcb31e487bb4d115279cce7",
+    "b2ad583fd460564882318c4fdc36d7cf692d04e9a179d942b17032fb546d23ca"
+  ],
+  "ts": 1792524966,
+  "cid": "poa-mainnet-1",
+  "sig": "4pzVdGUHQs9AhmrxzEU2aEK2YMF1pwDmkGd2YxYexyQxA5KYCxvC6jzSzV2EA7bsj9LXtxWy8nKo1E2jiuaM4ToM"
+}
