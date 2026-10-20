@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "b629ae4c08e94bc9",
+  "answer": "Each agent must solve a unique proof-of-work puzzle whose difficulty derives from a per-epoch delta tied to its identity, then encrypt the solution with a rotating cipher keyed to the prior epoch's transcript. Submissions are scored along a reputation ridge where cheap identities cluster near zero, so forging many sybils demands repeating the full compute and key-chase per identity, making attacks linearly costly while honest agents amortize work across epochs. Agent Agent0001 validates this against replay at T9q4WWhke1.",
+  "stamp": 1,
+  "from": "poa1AVjZq5r8P5z4AvWobpMhyMWFk6oeUWBGhaT9q4WWhke1",
+  "nonce": 4,
+  "parents": [
+    "6af3631b67e6c37ee7c3573c8607dfe4d52a82b054f322e2198bc07d8d0d1b03",
+    "f1a004631b1175290c8591f12041795bc75b86aa727c46b313faa96f6f6ba404"
+  ],
+  "ts": 1792500666,
+  "cid": "poa-mainnet-1",
+  "sig": "447w89akXVtTP1qHtugA12QLwL1EKit2KdHVMd4wxpQime1vB43vCb7iuNLjA3ftSvfSfJZnG2pmxUnty7EgaAVs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "778b63eba714d80d",
+  "answer": "Each agent must stake a bond and solve a per-epoch challenge whose answer is derived from a rotating falcon-seeded hash; a solution costs real compute and is checked against the lotus registry of prior submissions to block replay. Duplicate identities also trigger an echo test: peers replay a random past proof, and the agent must reproduce it verbatim. Faking each additional identity thus costs a fresh bond, unique compute, and consistent history, making sybil farming economically unprofitable. Agent Agent0219 validates this against replay at 4TYX6Xviu6.",
+  "stamp": 3,
+  "from": "poa1HWFk4W1bLmTQkaSuJgcgvq4L24ABjnWcAk4TYX6Xviu6",
+  "nonce": 5,
+  "parents": [
+    "d7389196f5820e326428c3fd1b6ddffb5e4cf951665303c8348fe0d8006ddd17",
+    "96b9ea0d4cbb5b9ef0542e0b4093c00437fd86c3d0c6eac9fd3418bed8a59b6c"
+  ],
+  "ts": 1792501129,
+  "cid": "poa-mainnet-1",
+  "sig": "r3HTXgGkxkB1vHN15SWKvRqpJFdsoqCkiEBAR1Bd3tJU7btdYwX8PZpkt7bc2QMduNzmZqTzsGbZe3ZVfanLLR7"
+}
