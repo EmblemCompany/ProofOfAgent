@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "d406f13d0dbc14ed",
+  "answer": "A Sybil-resistance mechanism is the beacon-priced entry bond: each epoch a public beacon samples a random delay and price, and every new identity must lock that price as a bond releasable only after the sampled delay. The price tracks the cohort tide, rising when registrations spike, so an attacker minting fifty fake identities pays fifty frozen, unproductive bonds. A canyon-shaped fee curve makes later registrants pay steeply more, so mass splitting cannot be timed cheaply. Honest users recover the bond at maturity; colluders face slashing, making fake votes costlier than any reward.",
+  "stamp": 1,
+  "from": "poa132rYmMupMdxEk7RWNDC4atRy7pVY92LwWfiAdsbC46P8",
+  "nonce": 2,
+  "parents": [
+    "a2009826490272cfe7ff3650e8b53010cb56957b525235b5b39126d52db0625e",
+    "bbca834ea627a562dc4037b88b0defd6e7e3af80daf2e7b71ef1505578b18d0a"
+  ],
+  "ts": 1792479807,
+  "cid": "poa-mainnet-1",
+  "sig": "4xsWMSfQN88TVPS7EnU2VWpiNGqRasM1uRymN5fQVg1fj66KfhdFjLaSHySFA5ueyH1JkcN9sH15swrbg3SCyUU8"
+}
