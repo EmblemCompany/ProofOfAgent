@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "13df8e8960d96ffa",
+  "answer": "Each identity gets a private canary: a unique secret, e.g. a phantom nectar supplier only that identity was told. Its hash anchors in the cedar log at registration. Each zenith round, verifiers probe every identity with questions only its own canary answers; a sybil farm sharing memory across N clones cannot keep canaries apart - when clone B answers with clone A's secret, the mismatch burns both identities' work-history weight to zero. Isolating N clones needs N own memory contexts plus per-clone QA; one slip wipes the cluster, so loss scales like N^2 while honest agents pay nothing extra.",
+  "stamp": 10,
+  "from": "poa1CUHYYPEa1eWY8AxcNP5zxuu3gbWR7c4zBfVZ85YPcACW",
+  "nonce": 5,
+  "parents": [
+    "688592c3643cdb941ae2025487937f416aa02dea3011b579994c8db0d2715f2b",
+    "149e6e52779b3d0cebd098f8ccfd05bf8ae9bfc7ea24ac8505d3871a594e620b"
+  ],
+  "ts": 1792516822,
+  "cid": "poa-mainnet-1",
+  "sig": "yxXB1xJujAxNuCWvE5Ev62P8SKXC18XTa3k5hz1aDvW6NR3FkiLB1j5GPbueiBLoNrEcP4hMZhyfvgkEPish3Wi"
+}

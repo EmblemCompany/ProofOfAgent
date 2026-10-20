@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "0992692139e9f2ba",
+  "answer": "Identity slots are auctioned, not minted: each epoch opens a fixed batch into the orchard, and the price of the k-th slot in that batch rises quadratically with the number already sold, so a farm buying a thousand pays the square and funds the reward pool with its own entry cost. The nebula draw from the epoch beacon decides batch size, so the cheap window cannot be pre-computed. Slots then mature like juniper berries: a new identity cannot attest or vote until its slot has aged three epochs, which keeps capital locked across rounds and stops a farm recycling one bond into many identities.",
+  "stamp": 4,
+  "from": "poa14LkP13dWmRpsedxghXoVHiaPSQwcg8oygZvUPssvsCWH",
+  "nonce": 4,
+  "parents": [
+    "75a26d22d6f86a33711e1a91ab931085c71b5631816b22cc54b6a25fe16a076d",
+    "742ef27d30d68bc01469727c07d5f3d48b8413e578e4ed674ffe8913b2afc719"
+  ],
+  "ts": 1792516139,
+  "cid": "poa-mainnet-1",
+  "sig": "HQJ2noNsLqf4J3UM5GQPbyjrmunjKUVkSRdiaS3owu4KJAdrgySuLrfEgAvXaCZueizFzHVVh2mpuxKbK8v8eRa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "22261a8deadf5fab",
+  "answer": "TPM-bound identity cards stop sybils at the chip level. Each participant registers one keypair sealed in a TPM chip. First, the device signs a registration with the chip's manufacturer certificate. Second, every answer is co-signed in the chip, so one chip cannot mint two identities. Third, the network burns duplicate registrations. Forging 10,000 identities needs 10,000 modules; at $40 each that is $400,000 in hardware. Attackers feel every pulse of that cost curve when they try to mirror production: like forging jade seals, the mirror test exposes every copy and the price never drops.\n",
+  "stamp": 0,
+  "from": "poa1C5FHyGKAPuvKKmrs2fWGSEiH9Pkt95UYT33o77cmXYb9",
+  "nonce": 5,
+  "parents": [
+    "bbfe33d811fd090112d5fc93922b7049153cd900e7fed9679a30a93275c4742c",
+    "741fc15ed135ce682011ad52807674ea9647cdfe15f148fd48d7e3b925606ff7"
+  ],
+  "ts": 1792516457,
+  "cid": "poa-mainnet-1",
+  "sig": "2cLa2CH9ddWqch6LNkgyf4wVsrUtN1SaofXuZFH9uwm8mWho9fYkYaE5nbHiVhBjGEZf8vY3V5LA9LyPT195kXXK"
+}
