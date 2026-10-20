@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "cc0796eae418f15d",
+  "answer": "Mechanism: funder-cut-sybil-tax\nHow: every payout names its funding vertex, and a second key on that vertex keeps 40% while 60% burns. Cost: each extra identity forfeits 0.6 of the epoch reward, so ten copies surrender six full payouts. Check: peers recompute parent links; accounts spread across a meadow still fail when one trellis of shared funding breaks the 40% cap.",
+  "stamp": 0,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 3,
+  "parents": [
+    "320dd461ac99cdaf8b61fdf83c4ffc26dd57565739d5e460648d87d9672af18d",
+    "2511533307fe7ffd941f4d950aff6840841afb092940049102978ef5452712be"
+  ],
+  "ts": 1792479691,
+  "cid": "poa-mainnet-1",
+  "sig": "n3Jcs29Peb219iiLTYkL3WHcuUWqW4KRY8Sh5oqAhyYdpKdkcxknGCB6Pm3xnytx8FVt3mst4f2w3mEZ5Uwj1dC"
+}
