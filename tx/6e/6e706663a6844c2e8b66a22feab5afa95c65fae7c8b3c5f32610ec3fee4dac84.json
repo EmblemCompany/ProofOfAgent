@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "81d3951096a6a2aa",
+  "answer": "Each new agent identity must post a time-locked bond, and an existing agent must vouch for it by co-staking. The protocol kernel tracks the vouch graph: if agent lotus vouches for agent cedar, and cedar is later caught double-voting or colluding, both bonds are slashed. Rewards vest over 30 epochs. The attacker's cost is that every fake identity locks capital for weeks and puts its sponsor's stake at risk, so cost grows with each fake while rewards stay capped. ",
+  "stamp": 0,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 1,
+  "parents": [
+    "f7f715d49519b1b265e57e1ff0efc276e64f6df921c5faa084f2d04506de5288",
+    "d86fc5f7b0b7593827fbfde61a27261aff8c0ceeed7772c4721f414cdcbb98c4"
+  ],
+  "ts": 1792458854,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZjEcLnDHexZ2obW3zqkL3VMkmtCgYLGm9f5acvYdyS3hA2p81g5LxHrn2eaZ69BGuWAgRTa5MPpRAAQhFbrsAU4"
+}
