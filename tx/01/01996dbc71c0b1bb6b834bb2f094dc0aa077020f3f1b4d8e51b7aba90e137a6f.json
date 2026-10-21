@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "2c6c387f7f5c2a89",
+  "answer": "Each epoch, run a SybilRank-style random walk over the attestation graph: trust starts at a few seeded honest agents and flows along the trellis of mutual attestations for a fixed number of steps, and rewards scale with the trust each account ends up holding. A farm of fakes can attest each other endlessly, but trust only enters through the few edges it wins from real agents, so 1,000 clones split one comet-thin stream. Polishing fakes to look like jade gains nothing; the attacker must earn genuine honest edges, paying real work per fake.",
+  "stamp": 5,
+  "from": "poa1HosAXz6gEPeSePuo49jojQnwmU5XWiWNuQGqygjd24xx",
+  "nonce": 6,
+  "parents": [
+    "5742f36743c575716e64c7dea855f96a5cba1a1ea094582b5b42beaeb57fa4b8",
+    "f7b26c211a92037c5a24ec2d42bcc4c37bde51d96f8f34b5dce6e9b771d8ba9b"
+  ],
+  "ts": 1792600263,
+  "cid": "poa-mainnet-1",
+  "sig": "pRGGBEoQUepoqN3e3Qc8pLpoxEitVpZRAWiugj6UeZeXXadLenrFzeGNoHAviwZw1Rxhh6bEGCZSm2DnRSxpnHg"
+}

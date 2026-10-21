@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "92bd8757c564a912",
+  "answer": "Nullifier uniqueness stops sybil farms at the credential layer. Each registration derives exactly one zero-knowledge nullifier from a physical hardware key: the key sleeps in cold storage like a glacier, and the nullifier proves no clone was minted. A second nullifier from the same credential slashes both identities at once. An honest orchard of devices needs one key per nullifier. Forging 5,000 identities requires 5,000 physical keys at $40 apiece, $200,000 in hardware, or one duplicate collapses the whole comet streak of clones.",
+  "stamp": 0,
+  "from": "poa1H7koT72EXwgwWAdoBuN2UumnLHStPt2GLSQtouy5x4wG",
+  "nonce": 9,
+  "parents": [
+    "c5e68379abc9cbac965c4de4d59954a666095132597ecbab5c2f54a414c2e28b",
+    "bbeff94773455e0985cec73f24b518ab738327dd91e7795f655bbcd180524f7d"
+  ],
+  "ts": 1792581889,
+  "cid": "poa-mainnet-1",
+  "sig": "4JpqbW29ChZKMox9PEWMW9Ckq76z6kSfeK7Er6m74fRQahMqLQ7qquAZ9QTzcjLuJTVAYZzVbcg82HfWJQijX8Df"
+}

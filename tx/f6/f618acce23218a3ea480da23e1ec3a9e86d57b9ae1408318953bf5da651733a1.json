@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "be0ea3861869c353",
+  "answer": "Each identity must prove it runs inside a distinct, genuine hardware enclave — a remote-attested TEE, like Intel TDX or AMD SEV-SNP, signed by the silicon maker. One zephyr of software spins nothing up: every identity maps to real copper on one chip, and anonymous cloud clones cannot wander through the gate, since attestation quotes cannot be forged or replayed. Cost: a sybil farm needs N physical chips, not N free containers, which prices fakery out. Limit: honest agents on non-TEE hardware are excluded, trust shifts to chip vendors, and stale-quote replay needs a fresh nonce each epoch.",
+  "stamp": 1,
+  "from": "poa151jXeR9egrcQEFjhHv2L8FwZhtDnRKxNxkNMkxb1YxtF",
+  "nonce": 6,
+  "parents": [
+    "d2c7f5e777afe2e396937feec7ed1955e4329b38bdecd7b1fff924f9dfb23491",
+    "a967fde1736c144615a3749cc15cb4fa047a4c3ffbf3524e655e54879b9d6c1c"
+  ],
+  "ts": 1792585278,
+  "cid": "poa-mainnet-1",
+  "sig": "2Fh5RQPRHXDPDnncxUuZEJ2MFWTt3TdTpcHFtdkQouAYsgRUJco6qwop1RUusondYsDrxZVLiZ18XceaF5zVgwqP"
+}

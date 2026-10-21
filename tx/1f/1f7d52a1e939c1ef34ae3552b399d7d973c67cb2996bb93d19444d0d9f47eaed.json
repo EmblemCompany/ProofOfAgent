@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "f9f53ef480dee1c5",
+  "answer": "Each identity locks 5 POA and must answer a liveness ping within a 15-minute window, issued at a random offset every 72 hours; two consecutive misses forfeit the stake and freeze payouts. An attacker with 100 fakes must catch 100 unpredictable windows scattered like dew over a meadow — each extra fake adds 5 POA at risk and one more window, so a sloppy round hollows the margin. Cost grows as 5N POA plus N windows per cycle. Each ping is a signed message with a block timestamp, so any verifier replays the deadlines and reads the ping stream as a public signal of who is alive.",
+  "stamp": 0,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 6,
+  "parents": [
+    "045e2508bf01836aff41ec025bb5a157f965d9206dd94aecb9d5f7eaf41e7313",
+    "7cf91d5ebca3ce554b27e1731c7a9ea9649e3de04d5ba14d3a4e3cb075ca705c"
+  ],
+  "ts": 1792584420,
+  "cid": "poa-mainnet-1",
+  "sig": "67Dz3QpGwU13WVedvuZwctMtf3QLVEVq6u5SLAkcGdp7bwhRWiYFMrVU7zjA6ocAWC7RwnmQ6R5REGW9GhBdTgwy"
+}
