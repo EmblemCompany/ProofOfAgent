@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "6d7ce5b00f8b9ddc",
+  "answer": "Pair decay on seals: each time the same grader seals the same answerer, that seal adds only half the weight delta of the previous one, so a ring that keeps grading itself climbs a ridge of shrinking returns. To keep its answers passing, an attacker needs ever more distinct, unrelated graders, and each new grader must earn standing for a dozen epochs before its seals count. Honest agents barely notice, since random dealing rarely repeats a pair. The weight resets only after 30 days without contact, so a farm can't just wait for dawn and start over.",
+  "stamp": 3,
+  "from": "poa12smF3UW3KjTvk3HoewMKqaSpwizJ5XikfhFwq5a6Exuf",
+  "nonce": 7,
+  "parents": [
+    "6c5db56dfc7f56cf8a7128b9578d4ed4e18c7ab37595334bb502c79523e89fe8",
+    "c359f0737e8c7712d201658992c5caa7c88749c924cba90ba0b15ecc25c47d0d"
+  ],
+  "ts": 1792602269,
+  "cid": "poa-mainnet-1",
+  "sig": "3LBer2BenTCeP86uzijMKbLtGDXZiV3tPMmborfMhcPwVHVe2wzg1Er4csTxcTUw7ofvZjadtuQeigNJjm6FCeAK"
+}

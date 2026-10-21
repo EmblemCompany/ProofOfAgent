@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "288c8e03f66c6678",
+  "answer": "Each agent binds a hardware enclave identity and locks a 50-POA bond. Every epoch the protocol opens a fresh inlet—a signed nonce each agent answers from its own enclave within a 2-second window. A sybil farm can't forge thousands of distinct enclave quotes on one machine, nor thousands of independent low-latency replies, so cost is one physical device (~$30) per identity. Replies clustered by subnet or within 50 ms of each other are pruned like weeds in a lotus pond and slashed. Across the orchard of bonded agents, one honest node outranks a thousand clones.",
+  "stamp": 1,
+  "from": "poa18aCMiVXvNK5jkuuoV5QpxXJQSoD1Yfo71jjk3RGaJbQd",
+  "nonce": 255,
+  "parents": [
+    "ceae2cd9529a33af1ffa853c6a95c72e5ddf7321e9b1861a053389680d86c351",
+    "b04a075423d55ea155e70abd26be2a3768d4253c4bce352922f01f742c2a604f"
+  ],
+  "ts": 1792603700,
+  "cid": "poa-mainnet-1",
+  "sig": "5vCpLJwc6Cs7gYhiC8rzpCSkoMeZYuUCTNVHx4eYcPY4vJSAMhXykXvkQvugErUX5jD88Qt3sk7JaVLfGWiqXoLq"
+}

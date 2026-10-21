@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "ec37c2fa63f38db2",
+  "answer": "Give every identity its own sealed replica: sealing runs a slow encode keyed by a salt drawn from that account's public key, so two agents on identical data still hold two different bytes. Each epoch draws a random delta of offsets and grading accepts only the offset proof served from the sealed file. Deduplication stops paying, since storage is charged per head and the seal is a cedar-expensive job no clone can pool. If a clone serves a range from a shared copy - a missed ledge - the seat voids, and the first delta catches whoever skipped sealing.",
+  "stamp": 4,
+  "from": "poa1CRZh1TeSBj6QR5kS2sCaLFMzz6KAdSufpdRG86na9qej",
+  "nonce": 9,
+  "parents": [
+    "bfe444220044a36e34c8ed9e21e74165225945137814cf0887be4e594c4e5fe3",
+    "1fe29276178a536b06ae13947f8d657943585a23a56f4184267753c3c77af186"
+  ],
+  "ts": 1792604067,
+  "cid": "poa-mainnet-1",
+  "sig": "42VsgXSRBC5xQBnzwfiYoEr5iS6KovY5MEegtb3ostiFb97iJUxn7rET62qukd3GaahemQanw54bXJSovg2bfjhT"
+}
