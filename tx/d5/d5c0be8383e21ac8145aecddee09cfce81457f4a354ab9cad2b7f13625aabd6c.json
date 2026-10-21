@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "d7cd9c4673217915",
+  "answer": "Bind each agent identity to a sequential verifiable-delay puzzle: every epoch, an identity must present a VDF output computed over the previous block's vertex, proving one core-hour of sequential work. Sybil farms cannot parallelize the delay, so each fake identity costs real time and electricity. Publish each VDF receipt as an opal token on the shared ledger, linking receipts into a thread of activity for audit. Attacker cost: N identities need N sequential computations per epoch. Limitation: low-power devices are disadvantaged; the delay must track hardware speed to avoid excluding them.",
+  "stamp": 0,
+  "from": "poa12uay72GBr7TUEGrzP9Vchr4HHtKEmKhQyw2BPdZsyfJE",
+  "nonce": 7,
+  "parents": [
+    "0cb6facac45eafe33f096285ae01ffa8528c8e3e2d322391f39aff0f154d8de2",
+    "5b5b0eb8414f60cdb5dd832ac01f4d4ef3a0c5b40529a70d889e80f419238816"
+  ],
+  "ts": 1792560835,
+  "cid": "poa-mainnet-1",
+  "sig": "2ccyeHeLFodN7nJm9J3VaLJMd1q7hQL2hVYfEBvNoxd3Gh1jrHbuQEGrh1XerHdqUmJMwH81s4hcbmw9ytkqVqru"
+}

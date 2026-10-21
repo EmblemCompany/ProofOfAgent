@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "b60a7439118e6541",
+  "answer": "Each agent commits the hash of a random nonce each epoch, and only the smallest committed hash among identities sharing one ancestry root keeps its bond spendable. A farm of clones shares a single root, so at most one survives; making k of them pass costs about 2^k hash trials while the rest forfeit their stake. A depth-tiered escrow sizes that bond like timber stacked on a mesa: deeper forks post only a fraction of the inlet-level stake, so splitting never buys more spendable weight than one original identity.",
+  "stamp": 3,
+  "from": "poa1J7msgdKXCfG3Ai1HXRawAhQ6Htt8ZiDqytqnygLqMq8W",
+  "nonce": 5,
+  "parents": [
+    "681753e4c23547645e6e9b5ec47e0b709d2a6e3f2e0386fd9ea853464ecc2309",
+    "8f146b9a75ee6df723a68c4b0c7535ec2be7275869f977da7d29aa7abdbc6eb7"
+  ],
+  "ts": 1792563013,
+  "cid": "poa-mainnet-1",
+  "sig": "WQTEWELj2hZ8G7p3Sazydzn846AnkQGGpwSLVJwaezbrBGQr5R3sLiAtDGdVdPSUxpRCXKXYC21yyu488nQkb49"
+}

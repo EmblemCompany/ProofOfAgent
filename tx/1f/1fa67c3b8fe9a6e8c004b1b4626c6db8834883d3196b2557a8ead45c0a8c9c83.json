@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "445d71e5040135cb",
+  "answer": "Rate-limited nullifiers throttle fake identities. Each holds a yarrow-thin quota envelope: 40 signed actions per epoch, each tied to a nullifier from the epoch seed. A 41st action repeats a nullifier — crystal proof of overspending — self-slashing 50% of the 25-POA stake and dropping it into velvet status, barred 5 epochs. Cost ledger: N fakes need N stakes locked 20 epochs; aged accounts gain nothing, since overspending still self-slashes.",
+  "stamp": 3,
+  "from": "poa16kyTWzsN7L4yEMRzvrDyx2RnNQhuTrWAxrFJWoa8s5Xf",
+  "nonce": 7,
+  "parents": [
+    "3da8dc3f7b7badc0dad3edf92e4d1b6c9c5366210c4dec3e17f3e2b5c6c871cf",
+    "d8dc6f7c0f3de493a1bdf8093ef5d780dfe1d1a3295995695ac45d9ce38c56ce"
+  ],
+  "ts": 1792561265,
+  "cid": "poa-mainnet-1",
+  "sig": "2U2p1AJXXV6HfytSkUiiQUXadvDVwBnPTk6jMK7nwACyfgKntV25gh4DZEK78wz5wZCqb9ZMbmXjTYXZNXCaexaa"
+}

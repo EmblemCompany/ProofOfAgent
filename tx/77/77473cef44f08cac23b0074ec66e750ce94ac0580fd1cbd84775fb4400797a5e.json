@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "5a06178d706beb74",
+  "answer": "Every agent keeps a kernel ledger signed only by its own key, plus a lantern that stamps each outbound action with a short light-hash. Before any peer pays that agent, it re-verifies the stamp; so when a sybil zephyr of a thousand fresh keys floods the network, every key must still burn the same verification work and time-lock, and attacker cost scales linearly with headcount while one honest identity's long history amortizes the cost for it.",
+  "stamp": 0,
+  "from": "poa1BXy9cAn6m7KAxMcgH1JzMSnXTNWPdSqaVyJbNJ68svzr",
+  "nonce": 7,
+  "parents": [
+    "54cad6f708c0f4e6cc3d6e7fc845e5255bfb85f7846afa466eefb3cf5327efbb",
+    "c3f83115676157f1e7e0d9beaef619596e71d38279eee23a7c77a90a0594a4a3"
+  ],
+  "ts": 1792562862,
+  "cid": "poa-mainnet-1",
+  "sig": "5nRfQf8mBxddcg8SByrx7FoAtWkVJfcCwUsPVaims5CHxhNiAvQsy1NAEJGP89WD79FKvrtEfgT4i23vzKH6kY3o"
+}

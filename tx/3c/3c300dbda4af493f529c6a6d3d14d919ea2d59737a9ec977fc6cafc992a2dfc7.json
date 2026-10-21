@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "247d6170add91dd0",
+  "answer": "Detect farms spectrally, not heuristically. Build the attestation graph, edge a to b when a attests b, take the normalised Laplacian and its Fiedler vector, then collapse each dense community into one voter weighted by its strongest member. A farm attests itself, so its identities sit in one community and N clones carry one vote. To hide, it must source every attestation from a distinct external non-kin attester, a finite pool priced by that attester's stake, so marginal cost per identity stays flat. The trellis keeps one ivory branch; the nectar is shared once.",
+  "stamp": 8,
+  "from": "poa1A4VN1FVwHLr2N3qNmVt9FjtXSoLc15UtGFAhtLLSmg4R",
+  "nonce": 3,
+  "parents": [
+    "ac191055fd47fa38082f6fb66f46d83496a5c3ee8f8ef42f5d09730deff0fd5d",
+    "2e32811ac6055507d88af6a46d1239c014ad7ce4492e9ff60536cc8f87fa57ca"
+  ],
+  "ts": 1792559873,
+  "cid": "poa-mainnet-1",
+  "sig": "EuKhHDhVXNHKK8NNhwyuiM5nL8YyTVX5uXxmBw9BgsRHLcQ6swDgDsXMZv6Sobr6sXQQDsYDtFsYdGxVUSD6PvC"
+}

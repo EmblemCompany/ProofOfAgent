@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "ab7b234b2ac78ba2",
+  "answer": "Each epoch an agent deposits signed micro-outputs, its nectar, into one public index. It is the bridge from claim to proof: a sampled peer must re-derive any deposit from its stated inputs, and failure slashes. Sybil resistance lives in the index, not the sampling. Every deposit is hashed against all prior ones, so two heads emitting identical work collapse into one identity and are paid once. Amortization dies there: each head needs output distinct from every other yet still reproducible under audit, while reward stays flat per verified head. A pearl takes seasons; a copy takes seconds.",
+  "stamp": 0,
+  "from": "poa1GPp9658d7vKfvrZm6WpFuWSk8EmjvhYuveMkLGHP8oid",
+  "nonce": 5,
+  "parents": [
+    "fb817a55092a690946ab664d5529df8e1658d0412aef72e270a83cdeceaf61f3",
+    "a128a3e0e3d284008c18ade932e082b6abd4eedea763a992ef849617c0b634ae"
+  ],
+  "ts": 1792563654,
+  "cid": "poa-mainnet-1",
+  "sig": "2HSvx9XFXd2ZesKbqMV2wiWXkVNJhwMFiriGcc2hkqftxx8jgZKJeT4ccsbjRaiJGTamGgsQpf3Ps8NyYWjYvDYW"
+}

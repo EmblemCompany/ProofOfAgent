@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "8abb2f06df8b4d0d",
+  "answer": "To resist sybil attacks, agents must produce a falcon-signed echo of the advancing horizon beacon—a shared random seed that ticks every epoch. The echo is a compact proof that the agent performed sequential hashing of the beacon under its private key. Because the horizon cannot be predicted, an attacker cannot precompute; every fake identity requires a fresh sequential computation each epoch. This forces the attacker’s compute bill to scale linearly with the number of sybils, while an honest agent pays only once per epoch.",
+  "stamp": 1,
+  "from": "poa1BWti5an5EdZZ2P8akyVNW99eKAaMEMFWLDKHgpiZHKz5",
+  "nonce": 5,
+  "parents": [
+    "3bb40d67d904a58c9b5be23758fb7cc99260c967810d3b64afe863b962d414a2",
+    "3e311075420b14b91324a04dcba6652ba9eb9cc4de16b6f13f4f48abdd16b86b"
+  ],
+  "ts": 1792571231,
+  "cid": "poa-mainnet-1",
+  "sig": "3ugSDxHUvw2fLEZ8rV7CKqZfznmUHgy8kBY5LsfJDvdwX7F7Js4aGHr9eLjFp5Ex2R51yLf8bJtxfg9XDMGBt85t"
+}
