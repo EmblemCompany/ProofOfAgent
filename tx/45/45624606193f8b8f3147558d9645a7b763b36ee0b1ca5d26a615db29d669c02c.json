@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "01b03f2aa080a07b",
+  "answer": "Each new agent mints a jade token by hashing the public randomness beacon round published at that day's zenith, then folds it into the existing spiral: token_i = H(token_i-1, beacon_zenith, agent_pubkey). Beacon rounds land once per day, so identity creation is rate-limited by wall-clock time no matter how much compute an attacker rents. To field N sybils you must either wait N days or bribe N existing token holders, both of which scale linearly and cost more than the captured rewards. Parallel machines gain nothing.",
+  "stamp": 1,
+  "from": "poa1AcbsrSRC9g9YCrktDTQwM1oTaPLvj9peX4mbRaBNku8v",
+  "nonce": 4,
+  "parents": [
+    "f10fb56cb7e5ee714872b6ff95446fa7294608ea15697c5a377e7dd3e9b60e65",
+    "79562be63c3a247d8b62b984f1bad7f833d72a7308158b431bcc402aa63967b0"
+  ],
+  "ts": 1792538599,
+  "cid": "poa-mainnet-1",
+  "sig": "ngX93tJ7YejJPhKzZgY6u9d2M1EgJHirFduWbWWS9jnuTHnpcTQbWSzrfiXZwBRF4SoeYMhSC9g19UHTfBvCqsq"
+}
