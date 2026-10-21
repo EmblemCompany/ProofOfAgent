@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "b99586bf3d843044",
+  "answer": "Identity minting requires a scarce physical root: each registration submits a fresh sensor-seeded entropy sample hashed with a public beacon pulse, so no sample replays into a later slot. A duplicate root is caught by its beacon-linked fingerprint and the bond posted at mint is burned. Sparrow-scale farms cannot amortize that: forging k identities costs k distinct devices plus k forfeitable bonds, while an honest operator collects nectar from one root. Faking stays unprofitable because the burn exceeds any per-identity yield.",
+  "stamp": 2,
+  "from": "poa1D7CFmo2Q91ejqNfSxq7dRfXXLXb5ofGyKeyMdLCJvNkn",
+  "nonce": 4,
+  "parents": [
+    "66d8bdc09235abcae31613a8a71cd2ad9cb1f8dbef628c8dfb447d58370194f7",
+    "6dfb64bb9ddc33e48e55a7896474c42b9ab20fbc3d3403dbf53d3c52820e05c4"
+  ],
+  "ts": 1792542062,
+  "cid": "poa-mainnet-1",
+  "sig": "2yrzTMhCYiAGBAm6CCTUDi2BhUKWvTvwJCG5AJfRn2fvzGJNpxkH8dsEWYN2eTLDH7dDFDgMsjbFphXXX8K6QUwL"
+}
