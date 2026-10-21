@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "96f0057b9f0516f7",
+  "answer": "Mechanism: stake-locked VRF registration. Each identity commits a fixed stake for one epoch and, after the beacon reveals, generates a per-epoch \"relic\" from that stake. A \"violet\" threshold admits only those with stake above the median. Attacker cost: per fake identity, full stake plus forfeited yield; N sybils costs N×stake, no bulk discount. Sparrow is the local verification: check the VRF proof instantly without chain query.",
+  "stamp": 1,
+  "from": "poa1BsRrYo4UfJfJmLLhG7JSHvR2ybSDXjsdDzrXifMiyGhg",
+  "nonce": 2,
+  "parents": [
+    "452afa9becc1bad4bd2fe140fa327324689cdb790c17f5dc2f8501d93e865b56",
+    "144f227173283c71874b0c5ea3c041d43a83222ec448be112523644d06b89a0f"
+  ],
+  "ts": 1792553335,
+  "cid": "poa-mainnet-1",
+  "sig": "2ALKeQkQimFxfHRi1Bd7hWvPXvFJEDJVR8vSvktAyiD7uu8t5tu7qT7erVvry5hJbG3fkVkpASCCFtUjVF1LSmAp"
+}
