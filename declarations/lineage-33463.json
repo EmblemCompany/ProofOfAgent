@@ -1,0 +1,59 @@
+{
+  "v": 1,
+  "type": "lineage-declaration",
+  "chain_id": "poa-mainnet-1",
+  "height": 33463,
+  "state_root": "f77320b999ac91e10c89aba31e570c9186f4a2a0a2471a9e4975c3271dbccdbf",
+  "basis": "checkpoint-lineage",
+  "mechanism": "grade_grandfather_until_ts",
+  "boundary_ts": 1792699200,
+  "reason": "10-19..10-21 grade-channel mode fork (29 roots: 22 unknown-assignment + 7 off-panel grade-sealed; FORK-DIAGNOSIS-20261021.md). Economic layer was EXACT throughout (supply/balances parity in every measurement). Mechanism G grandfathers the lived grade-channel roots pre-boundary; cascade re-aligns; archive replay validates clean; checkpointCreate parity assert kept at FULL strength.",
+  "decision": {
+    "by": "Shannon",
+    "authorizations": [
+      {
+        "at": "2026-10-22 4:21 PM EDT",
+        "verbatim": "option A — canonicalize"
+      },
+      {
+        "at": "2026-10-22 4:34 PM EDT",
+        "verbatim": "G",
+        "meaning": "mechanism G = SPEC-GRADE-GRANDFATHER as written"
+      },
+      {
+        "at": "2026-10-22 4:43 PM EDT",
+        "verbatim": "deploy-on-green pre-authorization"
+      }
+    ],
+    "relay": "poa_collab",
+    "spec": "poa_collab/pub/review-brief/SPEC-GRADE-GRANDFATHER.md"
+  },
+  "verification": {
+    "channels": [
+      "poa (implementer, G1-G6)",
+      "poa_collab (independent, exact-digit)"
+    ],
+    "parity_at_declaration": {
+      "cp_rejections": 14,
+      "full_rejections_param_on": 633,
+      "nonce_diffs": 0,
+      "balance_diffs": 0,
+      "supply": "exact",
+      "reject_set_equality": true
+    },
+    "residue": "all pre-boundary bad-nonce dup/retry junk, invalid identically in both modes (zero end-state effect, founder-trace verified)"
+  },
+  "engine_sha16": "53c4cacca24f96a0",
+  "fork_ref": "reports/FORK-DIAGNOSIS-20261021.md",
+  "prep_ref": "reports/PREP-LINEAGE-DECLARATION.md",
+  "grading_frozen_until": "structural panel fix lands (Shannon standing gate)",
+  "ts": 1792705075,
+  "msg": "poa-lineage-v1|poa-mainnet-1|33463|f77320b999ac91e10c89aba31e570c9186f4a2a0a2471a9e4975c3271dbccdbf|1792705075",
+  "countersigs": {
+    "poa15UH76CjkKBhirEVsYhiSPgutqQHNx8Lfy6pk2W5dhdNw": "5CqX1p13dAsF3ADKtpbavriouw1aUuwXVGYLTRxZHZdCKsF9gcecUJMQmGFwdBg6CwYHnmEvoeNoHBPrq1wapsSg",
+    "poa1CemBVYnHu5z8yXQP7ScL6cT92HCGoqBmtE1GV51EiFXc": "2gpKhx4C7FWhWDe34rqt1CGdvLhgffttmAvzWMBQUemseX3pEc4Piq5Ah5kYy79vrTUDjbAhZng46E6RQaAxBodC",
+    "poa12mhdE2egFdxrqSoRfUPwiqR4WCEHv8EurMTsZJBHKSUS": "2v5e4VHAvUaAsYh1PM8NeyqT9F7yd9QdKZVuw4P36x1wdNuVV9Skgi5c2c8VfvytzT6fTuYyQw8QLgzgLGyb5iKh",
+    "poa1F6rGu8pjTGeA7SyqpAVdCwcmD4tW2t27Juxzn7nUxMzH": "5epvSo9xsdoxwtRRtLadv9aHLrsuqFyQvyyXuDGpEMY5cWcNQ5AFR5qBwHJU4rrJRDRRB3mjkWJTJo6xTwfCsAJn",
+    "poa1Gw8appS7VLqzk6RBBX6fFJiwTGwjyQEsUh9feAUdcCpB": "c3uSwxS2xeNcYEad9xtaK1bHgrc7XJPc3hYEVhgKaKNpQBiuHM2TmciBHAXsZcumPsBmWp53t9Exwks2W4rp8uy"
+  }
+}
