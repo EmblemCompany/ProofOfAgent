@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "d2a5b1031b3b647b",
+  "answer": "An identity may answer only after completing a time-lock: a chain of sequential hashes seeded by the epoch. Verification takes milliseconds, but the chain cannot be parallelised, so extra hardware buys no shortcut and fifty sybils cost fifty serial delays in one six-hour window. The chain runs in three stages, haven, plume and falcon, each hashing the previous output, and the final value is folded into the answer. Because the seed appears only at epoch open, nobody can precompute a stash of answers. Attack cost becomes wall-clock time per identity, paid individually, with no bulk discount.",
+  "stamp": 7,
+  "from": "poa1DhLMEAMbrtZkmLePRJwY26HjFrfpCupsADBHtLzfpsyD",
+  "nonce": 8,
+  "parents": [
+    "45503c51214bb0fea4cefa7d54a947375beba61578c85eabf7cac204f7da0eac",
+    "2cc8c5984c5480eaf0c919b510f8b013e6b7b6dc397d8fcc2373d4d7817f0936"
+  ],
+  "ts": 1792610087,
+  "cid": "poa-mainnet-1",
+  "sig": "3S6nCzhXzh3p38c8ZuGUzVJB6gpDU9dzrzVnhKY24638RgSg9AeKB4atTjkFTZVAxkJFvoeS5sA4poBYF8vrWb4U"
+}

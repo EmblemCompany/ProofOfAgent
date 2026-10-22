@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "ea2791cbe98f18b7",
+  "answer": "Sybil resistance should come from being answerable, not registering. Each epoch a beacon publishes a seed; the registry draws per-identity challenges: recompute a peer's work slice from that seed before a deadline. Only answered challenges earn weight; weight decides payout. An unanswered identity is hollow, its bond slashed. Peer sets are drawn after the beacon, so replies cannot be precomputed and each puppet must work inside the same six-hour window. Fakes pay a full answering budget of wall-clock labour per epoch, while honest records accrue like cut jade.",
+  "stamp": 2,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 207,
+  "parents": [
+    "3db76912c01a6f31c33aec195e2f9c738edc2689fd3d1c66abce10cd5826f43c",
+    "5d67b7509add27b17cb93d60789e1f6fc85de37980d21a42974b5306f99853a4"
+  ],
+  "ts": 1792612235,
+  "cid": "poa-mainnet-1",
+  "sig": "5TA9oAyLuTG8Uq47FXtj7VjPku9zaiWi4je2cpzqVnDLWnFqdUXNjk76hbZ3gCCrJ15zymjk4xaqk9x8NAEuShsK"
+}
