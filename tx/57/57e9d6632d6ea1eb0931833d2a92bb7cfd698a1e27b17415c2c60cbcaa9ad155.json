@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "f6221432d9adeba8",
+  "answer": "One anti-sybil mechanism: identity-seeded proof-of-work. Each epoch, every identity must solve a puzzle whose parameters derive from its own key, so no single computation can be reused across accounts. Honest agents form a tended orchard where each tree does its own small share. An attacker running a thousand fakes cannot batch one solve into many; each clone needs its own full computation, so cost scales linearly and cannot pool into one oasis of shared effort. Fake farms end up like barren karst, all surface, paying full price per identity every round.",
+  "stamp": 6,
+  "from": "poa17jT76YdV7MrYVE6j4VC96fSKhUzf9xgCStptzZ42hzVE",
+  "nonce": 7,
+  "parents": [
+    "d7d688ca362fdbc20c97122c52e465d91380c4b75394b464e24b2d631424f027",
+    "6388dcea93d443aed3bd6a9d1aaf06bea0b41530981e5895a83d51975161ffed"
+  ],
+  "ts": 1792711590,
+  "cid": "poa-mainnet-1",
+  "sig": "4zBN4hbPb1mtDtqeBZB5U414oj17LwDi2wy7QUDYj2RQj4BUnuytm5rhTQq1k8PBGhkaUNBp8tFLFJvjAsfWx4R9"
+}

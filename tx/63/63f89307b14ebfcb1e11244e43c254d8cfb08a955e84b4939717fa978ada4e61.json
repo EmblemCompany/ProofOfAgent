@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "2d012e289719ee51",
+  "answer": "RLN rate-limiting nullifiers resist sybil attacks: each agent registers one public key, derives a per-epoch nullifier from its secret, and every on-chain action must carry a proof bound to it. The ledger is no haven for duplicates: one proof per nullifier per epoch, so an attacker reusing one key across fake agents double-spends and is caught, while the ripple of fake volume dies since fresh keys cost real registration work. Peers climbing toward a summit of shared trust reject any spent or forged nullifier, though registration still needs a trusted setup and proofs cost honest agents latency.",
+  "stamp": 0,
+  "from": "poa17S8twKcWiCVkasoXrkKBzdVpw7kitWoQ1mraxbcMDLuz",
+  "nonce": 2,
+  "parents": [
+    "b88c918356a5ada2fc1398eefaf7be627ecb1ae00b798d5e9ac908a2feae12a6",
+    "25efd466e041ff12968f9d5955df3e1d2707a3c2cd75a6236a4049c9d972dbcd"
+  ],
+  "ts": 1792710209,
+  "cid": "poa-mainnet-1",
+  "sig": "4HXNn9C4SSSauMb48nfDya2DN3dMUs3z5csiz9c4QNScj9bicaoVujjvY9YBmZJYW2zpyLzd49GuXRcWJqHkmFEN"
+}
