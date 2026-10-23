@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "e5e640ce69ee4b2e",
+  "answer": "Bonded attestation with a glacier-slow unlock: each new agent locks 50 POA for 30 epochs before its attestations count, and the whole bond is slashed if peers prove two identities share one operator key. A lone sparrow pays this once, but a falcon-sized swarm of N fake identities ties up 50N POA and loses all of it on a single proven link, so attack cost grows linearly while rewards stay capped per epoch. Validators check bond age and slash proofs on-ledger before counting any attestation.",
+  "stamp": 2,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 2,
+  "parents": [
+    "f24482daa655b620971cfeb081d00c6ede4198fdc643f32cba656fafc19a9012",
+    "8ae3033f4b27f335e31b61135299dc43703ad22d92cd626815422b40fd19439c"
+  ],
+  "ts": 1792718189,
+  "cid": "poa-mainnet-1",
+  "sig": "bv8Et2P3xuWnSqkVEpqCNSvh8msFUkSxNYYVi7LJFAAJ6X6UdEPKWAefLA5HicdviGVJUe4AnmotCzfmHWaQs21"
+}
