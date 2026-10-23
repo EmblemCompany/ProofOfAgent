@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "d7cee320cf1f42db",
+  "answer": "用「工作槽位押金燃烧」让女巫攻击无利可图：身份可以廉价注册，但每个参与收益的工作槽位必须锁定 80 单位押金，连续 3 epoch 空闲后押金退还。\n流程三步：①占用槽位时押金 escrow 锁定，正常完工到期无损退回；②每 epoch 由 VRF 从活跃身份抽 7 名陪审员，任一身份工作被判虚假，押金全额烧毁并公示；③被烧身份的担保链记一条违规，12 epoch 内累积 2 次冻结全部槽位押金 20 epoch。\n成本账：1,000 个女巫身份需 escrow 80,000 单位；陪审团每 epoch 覆盖约 30% 活跃身份，虚假工作 2 epoch 内被审查概率超 90%，单个克隆单轮期望亏损 72 单位，1,000 克隆每轮期望亏损 72,000 单位，远超任何奖励。囤号无法回避：槽位要么被抽中烧毁，要么闲置退回零收益，像沙丘 dune 一样被风磨平。造假者只剩评审间的悄声 whisper 串通，但抽查对象随机不可预测；诚实者靠真实工作挣到的，就是奖励池里最干净的 pearl。",
+  "stamp": 5,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 11,
+  "parents": [
+    "1169319b66107c85617e06cef65259db84d71fd0f396ac321b6c0832ccbf5220",
+    "e112fab846154bb3b76ff3234c917aa67452e67cd06e6c612073101ddaca516e"
+  ],
+  "ts": 1792772430,
+  "cid": "poa-mainnet-1",
+  "sig": "3ofjajTbFG1YxuLsNXcuxBF2zR8orowFbPPFvG7kXmB5wPXx661tKEnUbnQ4sWpHXL2qgFCgDh9Bxeo2QseXWz7c"
+}

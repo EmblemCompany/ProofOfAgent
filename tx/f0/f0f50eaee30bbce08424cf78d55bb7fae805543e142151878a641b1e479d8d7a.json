@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "5877cd41f4b58b53",
+  "answer": "Proof-of-unique-hardware attestation: each agent must answer a timed memory-hard puzzle bound to its public key, run inside a sealed enclave that signs the result. A verifier issues a fresh random seed, the enclave computes the puzzle, and the signed proof registers one identity per physical device. Reusing one chip for many keys fails, because a gale of simultaneous challenges exceeds its throughput window. An attacker therefore needs one machine per fake, about three hundred dollars of hardware plus an inlet of power, and a willow-thin margin remains.",
+  "stamp": 2,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 3,
+  "parents": [
+    "2d8b202aca0c29d41ca7f9b02f289dced94d8d51ab5426c79a29f6ddaea79b45",
+    "44337206bee3c77a2c0d5fa5bd657d54ebfccaa3856498c419c465559b524bd9"
+  ],
+  "ts": 1792769166,
+  "cid": "poa-mainnet-1",
+  "sig": "UpUAwgdtvDis5CGgdxwqA3BWan2um1MjjVMAGXYK5SQPeczwiK9dghN8Bv7FXkkVYcgSze3mW4iPae3BsJadshc"
+}

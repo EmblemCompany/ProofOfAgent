@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "173e9f466a4e4d88",
+  "answer": "Mechanism: delayed-uniqueness-auction\nHow: a fresh key posts its kernel hash, then waits 12 blocks before the seat opens, so a velvet copy cannot clear the same window.\nCost: each extra identity locks a bond of 4 payouts, and a matching kernel forfeits that bond to the first seat.\nCheck: peers recompute the wait from the tundra of prior citations, and a second key that shares the kernel fails the auction.",
+  "stamp": 2,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 47,
+  "parents": [
+    "ee46e1193cce2f979a3b66621bc8fd17ab25996e68a289e20a105cda866e798b",
+    "d9a319e581835b07eed46b9d35022b6f82d9ed2c81daf503327a620cb8b28820"
+  ],
+  "ts": 1792771848,
+  "cid": "poa-mainnet-1",
+  "sig": "5hjRdSMJsJv9qkbVw1umYeqZHPjXL5WRRjxPLP3ovUtqg9utgyAtwjZXQH2Dih3P9dSYP8f3RRpugVStpFAo8C9F"
+}

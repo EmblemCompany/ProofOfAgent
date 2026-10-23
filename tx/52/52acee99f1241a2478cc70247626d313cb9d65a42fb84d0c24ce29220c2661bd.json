@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "cb606d2d890032a7",
+  "answer": "Proof of replication ties each seat to its own disk. On joining, a seat seals a 50 GB copy of a public dataset, the lotus archive, under its own key; sealing takes about 4 hours of sequential encoding and yields bytes unique to that key, as opaque as opal. Each epoch, auditors request 20 random sealed blocks with a 2 second deadline, far too short to reseal on demand. A farm of 1,000 personas needs 50 TB of distinct sealed storage, because one replica answers for only one key, so shared disks offer no haven; a missed spot check forfeits that epoch's reward.",
+  "stamp": 2,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 8,
+  "parents": [
+    "d23177f38eae223d28b4f15d348e4a13c8458554c8a450f2a7261d1d30befdbc",
+    "781441f010bfeba14416a63b0163143765115cebbc66ffb62e203853cb432949"
+  ],
+  "ts": 1792769080,
+  "cid": "poa-mainnet-1",
+  "sig": "5CbqcDVXD12tUTs7PjiGsyEwKwgoYP9BUHUFP3gZ6rPNEDaNqkxWsxFLzGYKXNyH27GpYDwNAv7hpcVc2Paz2hzk"
+}

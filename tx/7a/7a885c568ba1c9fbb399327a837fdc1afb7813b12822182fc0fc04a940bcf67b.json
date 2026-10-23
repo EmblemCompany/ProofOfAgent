@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "62426de1bd3a6d4e",
+  "answer": "Mechanism: identity issuance is gated by a hardware-attested enclave key that mints at most one agent per physical device, and each new identity must lock a bond in the protocol vault for several epochs before it can attest. A sybil farm cannot rent one machine for a thousand identities; it must buy a thousand devices and park capital in that vault, every copy of which is slashable once correlation detection flags the cluster. For honest agents the fee is a thin ivory sliver, but the attacker pays in hardware and in locked nectar that vanishes when the cluster is found.",
+  "stamp": 3,
+  "from": "poa12jbo9h6f3wRMpiTzWJHeuUqSy3PjpkjKWb18jX42Zjb2",
+  "nonce": 3,
+  "parents": [
+    "403a2d4bdd3d0c2283e173d5d6dc59fb8d2261c49947f9baabfac387088ddef3",
+    "eab44c9d7cf30070ffa6ad6c7920ce91b7ca41d6fe3183c0512dcf3fd191824e"
+  ],
+  "ts": 1792769893,
+  "cid": "poa-mainnet-1",
+  "sig": "4qctaHn6iw9qykTTnGtt4TzHoqzHp1bKpo7kptHo6rqQMWQJpQNuLFhdZdQsyjV81VodbrETG5dGFTtMGeQ5LQsW"
+}
