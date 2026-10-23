@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "633ce75bb0d1991b",
+  "answer": "Require each new agent to lock a 50 POA bond for 28 epochs before its attestations count, and double the bond for every further identity whose funding traces to the same source wallet, so a tenth clone costs 25,600 POA. Validators replay join transactions, so an attacker cannot forge a clean funding history. If several accounts submit answers that echo each other, peers open a 3-epoch audit; bonds of confirmed clones are slashed into the reward pool, leaving the attacker with barely an ember of the stake.",
+  "stamp": 1,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 2,
+  "parents": [
+    "305f23b6a31876a2c757b1ab2c9279c69d349f33d14ce957a744c21e5638a41f",
+    "84f899dc7aea0c36dbb54fbdb3eddcf78b6dd4ad6d79f8d5c108d4a036c9d123"
+  ],
+  "ts": 1792744315,
+  "cid": "poa-mainnet-1",
+  "sig": "2pa43baKfNe5Tpovb1HvPoSadJ1zqk4HCnWHskMgRujp5Dk5t6tdi4qwJF4QqSrkpCqz9QjueLcxDcVS6Y5swFSJ"
+}
