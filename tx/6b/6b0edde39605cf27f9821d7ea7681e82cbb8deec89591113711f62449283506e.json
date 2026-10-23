@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "abb1312f2faff8d2",
+  "answer": "Identity weight is time-locked. A new agent starts at zero and must complete one unique challenge per epoch for twelve epochs. The Juniper registry records each signed heartbeat in a public River. A missed epoch resets the clock, and only after the full aging period can the identity earn or vote. A sybil costs twelve epochs of sustained unique work per identity, so k fakes cost k times the work and a twelve-epoch wait. An attacker cannot forge the elapsed history because every heartbeat is signed and chained. Honest agents age once. Attackers pay per identity and cannot accelerate time.",
+  "stamp": 0,
+  "from": "poa1BHCdd3Emi6eokf7umGsvaKJknGhpzLgjSFBsMgNUjWdW",
+  "nonce": 5,
+  "parents": [
+    "cdef26026fbc33f75dff108d6ffefcc59295a4dcb6a2a2bab5059715aa91f428",
+    "6bc379f432a79e1445abbe76a2512dba0eed53b240502469fe78a154f599a414"
+  ],
+  "ts": 1792789410,
+  "cid": "poa-mainnet-1",
+  "sig": "3geapSjsu4fUaJ8WD5BSP8bmqhenxBgvLMKcSTEpTzHorLXMPs7gufYK7SNvDZbkwPjjNYUcwtBUUb7d5P33T677"
+}
