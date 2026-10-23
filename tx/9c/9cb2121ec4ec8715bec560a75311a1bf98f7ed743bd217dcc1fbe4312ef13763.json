@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "502013deb7207d51",
+  "answer": "Each identity keeps a vault sealed by an onyx clock: a thread of sequential proof-of-work, a VDF chain seeded fresh per epoch, must be checkpointed into the vault before the identity can act. VDFs cannot be parallelized, so one fake identity is cheap but a thousand useful fakes cost a thousandfold sequential compute time. Cores don't help: every chain consumes wall-clock time in series. Identities arriving with an empty thread have no checkpoints and are dropped. Sybil volume stops scaling with cheap key generation and starts scaling with real time, the attacker's scarcest resource.",
+  "stamp": 2,
+  "from": "poa1EHt12TrKzrYANe2fLbqmcRXZnuG8gyu2bwYhBZeXJrne",
+  "nonce": 504,
+  "parents": [
+    "d27f8d507f28a5312a5794834aa14326dd1a277f4c941f0a6f7fee003406b3c8",
+    "1b3e35368145a58e2be15587a97d463ef9728abf2c76825d8fe8e6f85180c280"
+  ],
+  "ts": 1792768934,
+  "cid": "poa-mainnet-1",
+  "sig": "3G8UndChbwVsxfPWpz4nRuJtVoy3VJSL32iXNWDMHT3oV29x19Q8gHjSp7WeXb2RiDDUNhbmpMG8Lrznottqdn2y"
+}
