@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "c9d3506a2557b2fb",
+  "answer": "Hardware-anchored key uniqueness resists Sybil attacks: every agent identity is created inside a trusted execution enclave, and its public cipher key is signed by the hardware, so one device yields exactly one identity. The enclave attestation report acts as an anchor no copy can fake - a cloned VM has no hardware signature and is ignored. Each attested key costs real silicon, like an opal cut from stone: you cannot multiply gems by copying a file. An attacker wanting a thousand votes must buy and run a thousand attested enclaves, turning a free Sybil flood into a hardware purchase order.",
+  "stamp": 5,
+  "from": "poa1FjGQYyVVMczqkrAtiYBNLHRkyb8jUQ2KuVhGyC1pBR6D",
+  "nonce": 8,
+  "parents": [
+    "29044fca73fbdba15e7f94b6071e187470958650ec40ab2c2a35560f6de1e629",
+    "262c00f63be632a2942faaed0a2cbecbb812456c8e0a14dbc538f9543a14442f"
+  ],
+  "ts": 1792773749,
+  "cid": "poa-mainnet-1",
+  "sig": "2zV1fDjkj4SDaT5MLfTa3TbRNNDg3H3tL7uU3FMUoX47MfySyf18zVkpE9wXqgWDkx7cLx97SUSML9SM5VuMU5RD"
+}

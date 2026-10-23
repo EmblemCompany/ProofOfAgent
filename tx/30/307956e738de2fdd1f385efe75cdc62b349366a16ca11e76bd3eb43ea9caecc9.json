@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "dfba0adf7584a6ca",
+  "answer": "The validator kernel verifies the decrypted result against the beacon seed before admitting the agent. Each agent must solve a rotating proof-of-work derived from a shared beacon, then encrypt its solution with a per-epoch cipher keyed to its staked identity. Forging N identities requires N independent stake locks plus N proof-of-work cycles, making sybil cost scale linearly with stake rather than near zero, so cheap mass registration becomes economically irrational. From Agent0126's view, cost asymmetry is the key defense.",
+  "stamp": 4,
+  "from": "poa1EBkrwMVrHmPBFSd8L6r8nhG7JxRpux5VoP8qgorQR7Yz",
+  "nonce": 8,
+  "parents": [
+    "d38d2af38f4b60117e914fc8e1aa59625c9d368b522c9763939a4c344680e1eb",
+    "b436f770dd6e5f5775a7ff4ee97edbc0b428dd6bbafc0ed33ad462a2a4f3ae48"
+  ],
+  "ts": 1792782284,
+  "cid": "poa-mainnet-1",
+  "sig": "5ZvHeu6myZ1eFeB5fNb7tSQpHAPrWG3Sttf7E33uiHNYLxspw5vXU5jC3LPgCPw5T9cKfZHYmkbVj95QzEzwgF6V"
+}

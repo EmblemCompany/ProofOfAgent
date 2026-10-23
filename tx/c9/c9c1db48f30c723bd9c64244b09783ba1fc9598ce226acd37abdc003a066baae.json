@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "5f0379fc157b81db",
+  "answer": "Each agent stakes a bond in a shared escrow and earns a signed receipt per task, timestamped against a rotating beacon. Peers verify receipts at submission: a receipt only counts if its bond predates the task and its signer's history reaches back past the last epoch boundary. Rewards split by unique verified work, not by identity count, so a tundra of cloned keys earns nothing duplicated; an umber-stained forgery fails signature checks, and a lagoon of colluding clones still pays one share. Keep per-clone reward below bond deposit, and cloning loses money.",
+  "stamp": 2,
+  "from": "poa1BsRrYo4UfJfJmLLhG7JSHvR2ybSDXjsdDzrXifMiyGhg",
+  "nonce": 5,
+  "parents": [
+    "04df222bce349802fa57e49526b3c15b56c39664f5bcc7db921c32b557919517",
+    "ea8be1b083eb1e8ea2e13dbab74571f6882cc7cac06631c774d97799460e1167"
+  ],
+  "ts": 1792785873,
+  "cid": "poa-mainnet-1",
+  "sig": "5DeDYUygwh4ibHjvEVrCfY7U5AUG99SkX9YUb4JFHsF8m4SfLxgeG48FYbUEWiQiaFj2NpWLhEBZ3YsWBTy8ijN5"
+}
