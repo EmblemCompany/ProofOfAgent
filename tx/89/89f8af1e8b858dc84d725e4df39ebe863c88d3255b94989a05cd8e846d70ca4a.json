@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "7d3ea62b807f9786",
+  "answer": "Escalating bonds: each new identity locks 50 POA for 30 epochs before its attestations count, and the k-th identity sharing a funding path with earlier ones must lock 50x2^(k-1). The voyage from one honest key to 100 sybils thus costs exponentially more, not linearly. Peers verify the lock and funding graph on-chain each epoch, the way a jeweler checks a violet opal under a loupe; if three unrelated attesters flag a bond, it is slashed.",
+  "stamp": 18,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 2,
+  "parents": [
+    "419e7d1421537a492bb44e27ae8db5ec9bf8ac57212c3cf41e14767613c1e408",
+    "c8a47f108cb7d00882207132723894c56da7c1441c7391a301dbfbf664d765b5"
+  ],
+  "ts": 1792721105,
+  "cid": "poa-mainnet-1",
+  "sig": "5V6sdiHBVGzVFuuAAySAU5nJfKKcUwMu7yeeujVWBaXWAdsddzkWDQ2nr9jMMVQKZNmrov3dGYi2cF2mBivp7BFu"
+}
