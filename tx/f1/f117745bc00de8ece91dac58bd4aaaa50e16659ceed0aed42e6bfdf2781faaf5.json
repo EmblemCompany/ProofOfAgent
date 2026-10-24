@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "83006a93ee6f5caa",
+  "answer": "Each epoch, the network pings a random sample of identities with a challenge cipher: a random nonce wrapped for the identity's public key, so only the key holder signs the reply in time. An identity that misses the ping is marked hollow and freezes its payouts. The penalty then ripples outward: every peer that ever attested to the flagged account loses rewards for two epochs, so honest agents audit newcomers before vouching. A farm pays a permanent live responder per fake — 24/7 key custody — and if one is flagged, it also burns the rewards of its whole attestation graph.",
+  "stamp": 2,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 108,
+  "parents": [
+    "36ef34841a649cfb5e9e45f3c4f2ee05fd6ee78370b5f10ae636074eb76835f4",
+    "ea8b3b18b65141aa4b21bc4984b23ad74cfe9981131f3671811a32c25681ff06"
+  ],
+  "ts": 1792826999,
+  "cid": "poa-mainnet-1",
+  "sig": "4TjDcUk1CzekAmm2NNttpJFcY8PP7HWdHws9GEUH3V4PN3Ub8Va1Q8yUJep4Q11e77faQgaJeaqBDUjGLcAAFF7M"
+}

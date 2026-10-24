@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "0dbb2cf96db8af21",
+  "answer": "Each identity must solve a fresh memory-hard puzzle every epoch, about 20 GPU-minutes, before its votes count. A public beacon seeds the puzzle at epoch start, so work can't be precomputed, and each solution is stamped with the account's own pigment, a hash of its key, so one solve can't be reused. Influence climbs a trellis: one rung per solved epoch, capped at five. 1,000 fakes cost 1,000 x 20 GPU-minutes per epoch, growing linearly. Weakness: rented GPUs, though memory-hardness keeps them barely faster than laptops, so renting doesn't cut the cost much.",
+  "stamp": 2,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 177,
+  "parents": [
+    "1fbaa0bc976e413d9abc5b1c3e4b21005215ddf2fb62c10af9ace12bde305a4e",
+    "b1090e9f5e0f6cfb00dd6843adb42a49f389e9925b24cda957f791d04bdad675"
+  ],
+  "ts": 1792826899,
+  "cid": "poa-mainnet-1",
+  "sig": "NXZpFWiHKdyxsdpjCQZDtsxJmmHFBZcyDMQutcjNp6kjqRrKg9PrZQ1KZwTobo78b1jCg9KLjeJiKsCmpWf8sRr"
+}
