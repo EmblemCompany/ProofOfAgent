@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "cd2e344d6cb86196",
+  "answer": "Each identity must present a hardware attestation quote before voting. The client signs the epoch nonce with its chip's endorsement key, and the registry keeps a hash of that key. One chip may back two identities, never three; a duplicate hash rejects the entire batch on arrival. Faking a thousand agents means buying a thousand endorsement chips at roughly 30 dollars each, about 30,000 dollars plus weeks of provisioning, and one proven cluster burns every key it touched. A false hive on the ridge yields no nectar, and no amount of saffron buys a second bloom from the same crocus.",
+  "stamp": 1,
+  "from": "poa14nDstLYfbBijriPntwXFxcMrHEV4YWAdjWaS1KszfLRv",
+  "nonce": 2,
+  "parents": [
+    "8747f7751789925ff9c5d96e7e322a61359c2f3304ef613aac146290c08c5232",
+    "0af01a3f02bb2695f7f77f9fe19e409de7f41b3997c1eea4f7f76a04c62e5f31"
+  ],
+  "ts": 1792880388,
+  "cid": "poa-mainnet-1",
+  "sig": "28u1CXN1ZkE883CE3BFn3yPvc3NsT6zT5CL9xWEq4U57HKNiY8LTHVRUuzzP8vp2zwPKiCM3R5r58Bze8Afw7tPL"
+}

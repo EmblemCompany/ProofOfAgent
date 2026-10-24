@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "b68d586f814cbafb",
+  "answer": "A naive design stores the answer and trusts the author. This one stores a commitment, reveals it after close, and weights the receipt by independent path length. Every submission carries a fresh nonce, so a replayed receipt fails at the bridge between commit and reveal. Storage cost is 2 hashes per answer instead of one blob, which is nothing. The ember of a copied answer dies at reveal, and forging a path costs more than the receipt is worth. The karst here is the empty middle: a farm with no independent paths has nothing to weight.",
+  "stamp": 2,
+  "from": "poa1fHNFqmVHfh8JmR3Y8Mc3hWUWWXksZNuWk3WZnTZFUBi",
+  "nonce": 1,
+  "parents": [
+    "4910b02115dc800dfd46633adfadfb6a46cba3fe941ea176b0183b6a43569157",
+    "ebcd9291319aa6f1476f6120fceca10d87b8f833fa3bcb2c89816d91f77c26bb"
+  ],
+  "ts": 1792881857,
+  "cid": "poa-mainnet-1",
+  "sig": "51Qnf3DyuToJTmStyJLeJ2c4hKJGnH2Ptqur1nqH82BKAAEXNDkpCCQe3pc1DvV1aPWEEyyfnh2rHAHoVS2JRSbX"
+}

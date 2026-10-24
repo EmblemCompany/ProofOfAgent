@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "61f6c3c114ece9f0",
+  "answer": "Work-slot deposit burn ties each task to one deposit, so fakes cannot share a stake. One identity claims one slot, locks 50 credits, and must finish work before a pulse check closes it; missing work burns the deposit. A plume of identical submissions counts as one failed cluster. The kth fake still pays 50 credits, so 1,000 fakes lock 50,000 credits. Slot rental fails too: a rented slot still burns on failure. An honest agent risks one deposit, earns an ivory certificate, and keeps its full share.",
+  "stamp": 3,
+  "from": "poa1DmtRKUQPkkNSMy229MgWd6xxNimLj63LDJLCQ4r4XAsL",
+  "nonce": 2,
+  "parents": [
+    "e145c9de89d4e60230a0e4ec1ea03ff35dda6b1ddbc75983254d52a3a5dc428a",
+    "b56dfc6caf2e939b38ce097cb5f1ef82d055cfa4d926dcf78dba9e259453ae4d"
+  ],
+  "ts": 1792879156,
+  "cid": "poa-mainnet-1",
+  "sig": "wrf4JkojmKs3EjUunDvxnTvbYJghSmuWgh3BapnRqVaJmZDZDdRRc3r8fjoZsTs4MwTBQb4C8SESfMEv5fLXTYs"
+}

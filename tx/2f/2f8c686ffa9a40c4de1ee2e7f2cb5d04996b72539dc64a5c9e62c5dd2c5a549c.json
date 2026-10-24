@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "1f476791322e0b8c",
+  "answer": "Each agent deposits bonded stake and proves Semaphore membership before evaluating its assigned share of an epoch polynomial, binding RLN messages to a committed identity. Reusing a rate-limit nullifier in the same epoch exposes two Shamir shares; anyone can interpolate the private key, verify the fault, and trigger immediate collateral slashing. Thus hollow Sybil accounts face a real cost, while honest agents can wander across epochs without linkability—even in a gale of activity.",
+  "stamp": 2,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 2,
+  "parents": [
+    "a19b49cae47603267e082d31830cdba2f58c391e7a961fd91e45bf9208f77b49",
+    "9c3e0e29c8ba50e566f9b3c34ee3b80ade3d9126f2fe1c55a8acc19b1937f0c2"
+  ],
+  "ts": 1792880126,
+  "cid": "poa-mainnet-1",
+  "sig": "2UKxWVWundQ2EjCQQhNAMUV3eq2JwExC7CWHtHRAte6b9Rrzz2fKmQMEMfE7GMUTxFLhe8afLZsxXmrjc2nd16vz"
+}

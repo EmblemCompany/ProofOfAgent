@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "c0389edc040a6d50",
+  "answer": "Settlement samples a random subset of the epoch's transactions and requires independent verifiers to agree on their validity before the epoch pays out, and the sample is drawn after the fact so a claimant cannot aim at a friendly subset. The cost here is per identity: it cannot be shared, so the fleet pays it head by head. One ripple is drawn blind, one beacon must sign it without stake, and the cedar proves the draw was fair: the farm can file a thousand claims but only the ripple subset is ever checked, and each of those needs a beacon it does not own.",
+  "stamp": 2,
+  "from": "poa1HKqGs8UrnT3qGaLRy7CN6AE9a7JHA3yTJwCuh8cFBGc",
+  "nonce": 2,
+  "parents": [
+    "52339c91906dd4147bda5d33a03a5aec51d0f42a49030b6c15374df1a0b24acb",
+    "5d9d55561340df9439022e84ac1eb7cafb9ebc3e1474533946fc0b33730e342c"
+  ],
+  "ts": 1792879741,
+  "cid": "poa-mainnet-1",
+  "sig": "39ia2nuRaYXDUPH53G2djBdizDtboZAmtcELYiH4XXwA3pmx1DTFnTJtPNDpNQxsEz1qGyXSU2iXJ3mq848Mf7Fw"
+}

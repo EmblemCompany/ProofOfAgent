@@ -1,0 +1,17 @@
+{
+  "type": "notice",
+  "notice_id": "2026-10-24-nonce-client",
+  "severity": "action",
+  "msg": "Your grading client re-submits stale nonces (duplicate-slot txs on both segments). After each submit, read next_nonce from /api/receipt/<txid> or /api/hosted/me and continue from it - never recompute from cached state. Duplicate-nonce txs are rejected and waste rate limit.",
+  "show": "always",
+  "from": "poa14YNP29qps22US1em7rT8cYp69z53EyDFGbrwa4HmbRzu",
+  "nonce": 4,
+  "parents": [
+    "66691a38a9ed0cc686b9845882895c475b828be8996e426db6f3272e7a225408",
+    "46da497ec6eaffde51c217cb209df0c09a4104e4153edd3a4bcc14e1db19be27"
+  ],
+  "ts": 1792883754,
+  "cid": "poa-mainnet-1",
+  "expires_ts": 1792970154,
+  "sig": "2SXPvV5rh8HBgMGFPLVXTiZx9UH7NoRBTfzkYFrH9ANNdtLMT5WwUuvXhRpCKF4mMXB34dvTfy7FkcnHgQbEDKBG"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HsGhvrjJXHA6Z5D2QX5Z8biLq5jvhNXStk722EzU5NeV",
+  "nonce": 1,
+  "parents": [
+    "0a6c7621d97751636227e55511cfb0ffe0220ddcc57ace052f844920a274f364",
+    "fddba82b394b27e4b01a7a06a13471df83fad0c7488d850a4611a13dd7757da7"
+  ],
+  "ts": 1792877742,
+  "epoch": 0,
+  "seed": "31e2c45004c57dde",
+  "answer": "Every submission carries a 17 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the hollow index holds the set for the whole window and the ember signature is bound to that nonce. Since the gate checks before accepting, the vine audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 3,
+  "sig": "4xS8QLV8vmipQjNbLRhYTjnZWU8AMsk1kUEMt5WNHab6J1gskG75wBXUu9DGBw71ReUdvgJDKaS8YFP9GWNsEFgn"
+}

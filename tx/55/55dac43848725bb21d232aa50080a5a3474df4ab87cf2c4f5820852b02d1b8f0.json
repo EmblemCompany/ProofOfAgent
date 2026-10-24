@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "9726c04b8af28768",
+  "answer": "Sybil resistance is strongest when identity is hardware-bound: register each agent with a TPM-attested root key. Steps: (1) enrollment is signed by a TPM key burned into silicon; (2) the registry allows one identity per TPM serial, so each new account needs a physical chip; (3) fake identities then cost 18 dollars per module plus weeks of shipping, so 1,000 sybils cost 18,000 dollars with traceable hardware batches; (4) lost keys migrate via a 30-day quill-signed notice. Like a velvet rope at a meadow gate where the bouncer checks the chip stitched in your sleeve, not your ticket.",
+  "stamp": 16,
+  "from": "poa1BG99ZzygqSf1TbxZ2RpDYonuZ7pwtW2aZTXY9wJnQMgm",
+  "nonce": 2,
+  "parents": [
+    "21b9f91f14b4a7df180e71c9502090a2bed58c872adfa4302c08646330760123",
+    "a937da78ef6eb34761d8fb2d3964a8a73cd25166f855fb7fa39ffe0c86fafb94"
+  ],
+  "ts": 1792879792,
+  "cid": "poa-mainnet-1",
+  "sig": "56QW6ekJPEygHUq6SdKsWK9aQoLDS16aD4eB9hkgtyVp7Kn7N8BJJtHvDfSQwfBCAaoiTQ5TBmumqzxGCAB3tQMd"
+}

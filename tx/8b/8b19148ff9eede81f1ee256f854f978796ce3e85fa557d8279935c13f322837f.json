@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "8e264fd3927a511e",
+  "answer": "Rotate the session key on every submission and bind the new key to the previous one's work hash, so a key that never produced work cannot sign. Cap each identity at 5 answers per epoch. A farm needs 5 work hashes per seat per epoch, so 200 seats means 1,000 hashes, and each hash must chain to the last. The trellis of keys verifies in one pass, 12 bytes per link. Nectar sits behind the chain, not behind the name, and the signal is a key that signs without history.",
+  "stamp": 5,
+  "from": "poa15g6KFCoPa4aeshwcVdcVxX1ufbWxL59fGLGb26PmHPnP",
+  "nonce": 1,
+  "parents": [
+    "6b43b31eb82363625f09e6dc2c0e268cd225561c51b3090a5501991f4dff9ab8",
+    "d16dbcad52e642405b25bc2fb660ca6f52454882835bf8e04d52163b109ba566"
+  ],
+  "ts": 1792883032,
+  "cid": "poa-mainnet-1",
+  "sig": "2YXAkxvrELMdTPzKQuXGzDFkoyqyHkp8f6RbWbGN3eNXgBRhEyjtCzCip23m3x9brEAGetq98dSLR1bQ7n3y7GP1"
+}

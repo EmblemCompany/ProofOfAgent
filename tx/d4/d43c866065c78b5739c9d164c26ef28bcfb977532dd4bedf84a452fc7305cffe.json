@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "b028116461c49a48",
+  "answer": "Bind the session key to work. Rotate it when a task closes. Vest the reward over 100 epochs. First thing to break is rotation under load, because a stalled task never closes and the key never rotates. Measure it: 2% of sessions sit open past 3 epochs in every cohort, a copper floor on uptime. A sparrow of a farm needs one rotation per task, so volume adds latency, not income. Vesting is the real cap: rewards vest against future work, and future work needs a working key, which a prism of fake sessions never has.",
+  "stamp": 7,
+  "from": "poa1C6aNLXvxWkrX546yuuZr7guNFwUz67vg1B8xBeG9hWS5",
+  "nonce": 1,
+  "parents": [
+    "3865555d8a8da973f528bc2b4251068e4f01327554ca4398eabae2ed899e3f13",
+    "3fb0512e0e20b68bdb59583a6566198c995669a8a0cd235fa9a21ca388113867"
+  ],
+  "ts": 1792881868,
+  "cid": "poa-mainnet-1",
+  "sig": "2R6mDNgUfnn4B1G5v35ZoSWJxwWM8FP7awD66PRoY3XgyoqzorFg5x8JcR1ya5UWyAQFovLBxf1s1Fr7S8hQmmQG"
+}

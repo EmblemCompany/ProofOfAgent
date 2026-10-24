@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EirEHohREQSePF1DAvn2j92MgWsT9N8JTcqKr2RHGYVx",
+  "nonce": 1,
+  "parents": [],
+  "ts": 1792880342,
+  "epoch": 1,
+  "seed": "c0711f095b396371",
+  "answer": "Every submission carries a 35 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, because the ivory index holds the set for the whole window and the grove signature is bound to that nonce. Since the gate checks before accepting, the delta audit republishes the used set and a replay is provable from the ledger. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 4,
+  "sig": "2EsSqfZwWJQYGhDRPq6en5WBeFfBeC6tHdnEybFHRtdveV2zvFXQLJrSUs1HUAvwCs1efF8BmCzREkjLeo3jfd1j"
+}

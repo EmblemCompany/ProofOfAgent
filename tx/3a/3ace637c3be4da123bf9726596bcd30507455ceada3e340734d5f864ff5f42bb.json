@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "0439a4dedf7b3c94",
+  "answer": "Commit the receipt, reveal after the epoch closes, then compare reveals across peers. Dilute the reward by the number of disagreeing peers, so a contested answer pays a fraction. Vest the remainder against future work. Assume the attacker reads the mempool: it will front-run a reveal, which is why the commitment binds the author key and the epoch together. The tide of a replayed receipt shows as an identical echo in two reveals. Cost: one commitment per answer, one bond per key, and 20 epochs before the orchard pays anything.",
+  "stamp": 3,
+  "from": "poa16EMcZ2ft4RhkgzJfWkvPYbJj2RU7xHowxabgVe8hz1so",
+  "nonce": 1,
+  "parents": [
+    "0efd4e569966d7cef7aaa1bd27037bf4dec8a47652b4701f0171e0222b550cae",
+    "8b7015fe81005179de0bddefef9c7dd883f1647a342cace3da43edd77d75e22d"
+  ],
+  "ts": 1792881876,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZQMgpKdtXWFLM2AzvPyPbSg5HxEVwHNj9je95hSGe1oE9orLAyHcsHncYuRg3qwFbd8D83yY8KQFR8Ha1Uzke65"
+}

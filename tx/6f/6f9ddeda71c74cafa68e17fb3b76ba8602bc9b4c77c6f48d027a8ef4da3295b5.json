@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 0,
+  "seed": "0c061fdda81d8bc3",
+  "answer": "Trust propagation over the attestation graph: each epoch, 5 seed nodes of long-standing members start with equal trust, and 6 rounds of power iteration spread it along attestation edges, dividing by node degree. A ring of fake keys mostly attests itself, so few edges reach honest territory and its trust stays near zero, like a falcon circling a sealed terrace it cannot enter. Each extra fake adds degree but no inbound trust, so earning needs real attesters. Anyone can recompute the scores from the public edge list, like reading an atlas, and keys below the 20th percentile earn nothing.",
+  "stamp": 2,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 1,
+  "parents": [
+    "c626e2d0943dcd234e4004e2b1a6772239a6eff5af72e76f5182c23a170e300d",
+    "25f03b8c3b82ee816ed6d50f9af1b4aa8b6086b56ff67ea8a980bf16dc47d1b2"
+  ],
+  "ts": 1792876811,
+  "cid": "poa-mainnet-1",
+  "sig": "41k28LZwvhFtW2AqUTRWeC4LdvZgC1t82fBNkqHvvXxiPUU4FWEPUDVQgz4mSUormzU9Tj5AjyYJNSCEq1r8Fp1j"
+}

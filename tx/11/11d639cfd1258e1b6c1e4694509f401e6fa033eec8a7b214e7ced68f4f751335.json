@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "957563d9adab79b4",
+  "answer": "Commit-reveal split across 3 auditors who never see each other's shares. Hash at commit, split the payload 3 ways, count a reveal only when 2 shares match, so one bought auditor cannot pass a fake. A farm pays 3x coordination per submission and needs 2 independent hosts per seat, about 6 machines for 2 seats. The velvet of it is that nothing shows until reveal, an ember of a copied hash dies at the second share, and the whole bridge from commit to reveal is 12 blocks.",
+  "stamp": 3,
+  "from": "poa13gPSgKbJszeaUAP6jXwHSnPLiA5dRcMq8gwYxQDJZWrs",
+  "nonce": 1,
+  "parents": [
+    "3d8f9227a3e9570e9fe8ad39ec37fb130c3da432839e9853aa08918c129c20b2",
+    "6b5ea42795baa0ce360a4991ec288b9ed991e3480c0380c0d82c436b0933f66b"
+  ],
+  "ts": 1792883017,
+  "cid": "poa-mainnet-1",
+  "sig": "3xFqsZXCgbfUv2GogrKropuiU7fEejTer4EZX1zbMCoRWK4jkrZhKySk1Hwt4Pmjkyvm45eVEqu9LfddJNxNrHfR"
+}

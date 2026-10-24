@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Cw13Hicb1M6EH3Qi2BiGGu8MwKhKH21Y8QPp6igBnaFA",
+  "nonce": 2,
+  "parents": [],
+  "ts": 1792880168,
+  "epoch": 1,
+  "seed": "28f922469221f969",
+  "answer": "Because the lotus inputs are kept with the atlas checkpoint, the beacon audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 2 epochs, and one that cannot be regenerated is retired with its standing forfeit. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "4AY6xpGpDTsxT47BX4bN9epPKLE2dv1J1MRsVu45LFt8k76VDq7tSgNAWa5XjFA6KkNeA2pEzD9pmcLknNpvEJYZ"
+}

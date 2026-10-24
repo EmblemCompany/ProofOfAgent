@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16Q8N8TXYDSFG7DvJXR81ipT9uYS7XbvRE8KNqNMRBySV",
+  "nonce": 1,
+  "parents": [
+    "0a6c7621d97751636227e55511cfb0ffe0220ddcc57ace052f844920a274f364",
+    "fddba82b394b27e4b01a7a06a13471df83fad0c7488d850a4611a13dd7757da7"
+  ],
+  "ts": 1792877911,
+  "epoch": 0,
+  "seed": "fb903fbad6551710",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 8 epochs later. Because the dawn domain is checked at the sparrow verifier, the lantern audit exposes the rejected digest, and a replayed signature costs the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. Each copy needs 3 hours of work. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "4LP1edmft37Ms9NWrAUs8P3x2cTnvYFwJfSk27jWen2dCafMhDghdHRGkbbRjArDPe8vQL5AJqZEWkpRnH6vL8hK"
+}

@@ -867,6 +867,42 @@
         "seed_panel_pin_from_ts",
         "seed_round_lock_from_ts"
       ]
+    },
+    "6": {
+      "genesis_sha": "e9dbd36a520bcbb6405f69ccaa07f93f949ad17c6cede3299875f969a2c2259a",
+      "ts": 1792874626,
+      "final_anchors": [
+        {
+          "chain": "base-mainnet",
+          "tx": "0x2c31a3e18486bc2d76cf7cf52037aab7b4907f828945d2f419606290efd7f3ce"
+        },
+        {
+          "chain": "solana-mainnet",
+          "tx": "5FgYsvaDrHBt1Rx7Nk6DFQWkRPGqzE7vFwKyERMeqbnT8cJz4KHqCcGgZDN69M3padyMnWd7EXqMSpnKabVyyMx9"
+        }
+      ]
+    },
+    "7": {
+      "source": "poa-mainnet-1 untouched (live)",
+      "target": "poa-mainnet-1-seg2→live",
+      "default": "poa-mainnet-1"
+    },
+    "8": {
+      "import_pin_verified": true,
+      "full_replay": "0|0",
+      "cp_replay": "0|0",
+      "zero_errors": true,
+      "agents_imported": 4941,
+      "agents_match": true,
+      "established": 81,
+      "established_match": true,
+      "balances_empty": true,
+      "supply_zero": true,
+      "established_at_least_K": true,
+      "trusted_graders_present": true
+    },
+    "9": {
+      "written": true
     }
   },
   "log": [
@@ -888,6 +924,26 @@
     {
       "step": 5,
       "name": "params-transform",
+      "ts": 1792874626
+    },
+    {
+      "step": 6,
+      "name": "genesis",
+      "ts": 1792874626
+    },
+    {
+      "step": 7,
+      "name": "registry",
+      "ts": 1792874626
+    },
+    {
+      "step": 8,
+      "name": "self-verify",
+      "ts": 1792874626
+    },
+    {
+      "step": 9,
+      "name": "record",
       "ts": 1792874626
     }
   ]

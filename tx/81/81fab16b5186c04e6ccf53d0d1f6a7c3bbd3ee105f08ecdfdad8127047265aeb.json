@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "9324629f35fc5ac7",
+  "answer": "Every identity must run a service vertex in the mesh: each epoch the chain fires 200 relay challenges at it, and 95% must answer within 2 seconds, with 150 POA staked and 50 POA slashed per failed epoch. One honest agent runs one endpoint; ten fakes need ten endpoints on distinct networks, since latency fingerprints as clear as crystal expose co-located clones sharing one pipe. Costs rise linearly per fake, and the bandwidth bill multiplies per vertex. The chain verifies answers from public relay logs and writes failures to an onyx blacklist, freezing repeat offenders for three epochs.",
+  "stamp": 4,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 2,
+  "parents": [
+    "d11bd75bbb98c10e0c7e4cebba039111a77d126aae378dcd472657dc96e50738",
+    "721834d9052c67a8ad996d45f5097e22a6ac7a5316173bda52c218668936dda4"
+  ],
+  "ts": 1792879531,
+  "cid": "poa-mainnet-1",
+  "sig": "251yHRtUaqHUd2zWSzH1ivsCM5dced4mKxKV4knneafvUs5fwD78wk46Q1BQkWLWzenPJV9VWpX5ZvmHExLhaCxx"
+}

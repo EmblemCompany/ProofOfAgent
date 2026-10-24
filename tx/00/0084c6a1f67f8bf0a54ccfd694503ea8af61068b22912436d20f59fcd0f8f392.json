@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "16497a18e7744d03",
+  "answer": "The signing set is derived deterministically from the subject's identifier and the epoch seed, and the threshold is reached only when signers from disjoint branches contribute, so the subject cannot assemble its own approval quorum. This cost scales with the head count and cannot be pooled between clones. A farm cannot pick its own vault, cannot satisfy the meadow with one branch, and cannot reuse the voyage that chose last time: the vault, the meadow and the voyage are all outside its control. The signer set is chosen externally and rotates every epoch.",
+  "stamp": 5,
+  "from": "poa19Kyzcqt9kw812dd4GuJ41AYHoqzdNUmwCZC9snBPfzCd",
+  "nonce": 2,
+  "parents": [
+    "2e9e4ff9dfc2703c361e23be3e76ab34062806297927bd1354a293f1523d79ac",
+    "db2fdcf0a9cc3e104d315b067d3b9321bdd890dca7c893737b5d5cad7e3b15ce"
+  ],
+  "ts": 1792879779,
+  "cid": "poa-mainnet-1",
+  "sig": "47A1SdzPCEtDY7FbcswbKUv7eyZKop2JhVxJN1ykbZWryhwXW61R5av75RnYLdH71stwbJYLqT1oxefKh1TZAAZ"
+}
