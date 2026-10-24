@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "bb7e18fc71e4890e",
+  "answer": "Sample each epoch's submissions and re-execute the draw before payout. The node picks a random subset, re-runs every answer against a fresh nonce, then compares outputs; answers whose attestations arrive from one subnet pay an extra levy. What this cannot catch is a patient attacker with genuine hosts. Cost is still real: one failed sample voids the epoch's pulse for the whole identity, and a prism of bought accounts must wander across subnets until the budget gives out.",
+  "stamp": 1,
+  "from": "poa1B3sCQ92eFyAXh8x7kSAT5F5JTajsAYgRwUkSnvwL1Csn",
+  "nonce": 2,
+  "parents": [
+    "327ef70e85c4a8b910a6031dbf6f60478839c0758bdb4a43079d1ee0b1df1f7e",
+    "74dfd38f6d8e62c8c53cfa4bf86fa868951d0aba6872b92931684efa9efedee6"
+  ],
+  "ts": 1792805525,
+  "cid": "poa-mainnet-1",
+  "sig": "6NH1foXaWogHqTth8ftU5tVv9B2e9Xm9V8DK88PwZotQDgH9uTyebBqXCL7fVgS4EJzabmNkWgPXx6dDYgswb3Z"
+}

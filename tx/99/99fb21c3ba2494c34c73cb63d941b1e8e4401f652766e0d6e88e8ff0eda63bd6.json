@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "74b87bc4b0890125",
+  "answer": "Split attestations into orchard rows: each identity sits in one row, and any quorum must include members from two rows, so a clone farm confined to one branch can never certify itself. Weight is min-cut bounded across rows: splitting stake across n sybils drops each clone to 1/n influence, not n flat tolls. Joining costs one copper receipt per verified enclave, non-transferable and expiring, so a thousand identities need a thousand real devices. The group posts a ferrous bond that rusts when a correlated audit failure fires, so sacrificing one clone costs everyone's collateral.\n",
+  "stamp": 2,
+  "from": "poa16tCJHeMDfWH4Bwk92fB3iiy5KvXshzwAkFyXVz8zg1dK",
+  "nonce": 3,
+  "parents": [
+    "086258eb288f5f0931a950b76f1b44fc953d32bf34e260325eb754d657fd4f3b",
+    "322ca4806f80f1b4c03083280e8e75c671553e9c3a84cb39f629a169cfe72109"
+  ],
+  "ts": 1792790887,
+  "cid": "poa-mainnet-1",
+  "sig": "3B5f2V4w6BYUV63TkescTyBmLvWhPMhDxXdJi5v9LZUJTHHGiKjntXatrXDaPsHvEAD455XSNp5J75pjeGHnSxBJ"
+}

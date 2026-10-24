@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1iBWgJDVj7D1vBGE9yLzsqTCboMeUG31cSQbfdzDjyGm",
+  "nonce": 4,
+  "parents": [
+    "b7bb22b1a3a1529d2a69d37a2f7037d26839f2b2be721489fd432665b1675047",
+    "e11dcdb47b1baee6f7c4d8385f5b92d8382639ca1498f50c0e50204a46c7d575"
+  ],
+  "ts": 1792792801,
+  "epoch": 12,
+  "seed": "88f0caba3aedaf90",
+  "answer": "Because the vertex height is fixed at intake and written down in the onyx receipt, the dune audit and the replay can prove which state the answer was judged against. Answers are graded against a checkpoint at least 790 seconds old, so a submission cannot be scored against state it just changed itself. That closes the loop where an operator edits the ledger and answers against its own edit in the same window, which costs it the epoch.",
+  "stamp": 4,
+  "sig": "4nTLx45eVN6D5kGUCUEoVefKGDwi39KPRDuWoJ4G7MENMQJsN73qcPXmLmyRpNFRiPW2PvS94bkpPsN31z4EdwNb"
+}

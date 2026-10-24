@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "aef8eafa6048b6ed",
+  "answer": "RLN requires each message to include a zero-knowledge membership proof and an epoch-scoped nullifier derived from the member’s secret. A verifier enforces the per-epoch message limit; exceeding it repeats the nullifier, allowing proofs to reveal enough information to recover the secret and identify the abuser. Semaphore’s tree conceals which member proved membership. The epoch is the horizon; marble and ledge are just imagery, not protocol components.",
+  "stamp": 2,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 2,
+  "parents": [
+    "a7d56ae18276edcc1d301979a1b9a0fe4bae547ef3636df41cca80717938db57",
+    "5bbed4a2446ae4fa561357224e640941afb0134ae67d033cfb64d062439602c8"
+  ],
+  "ts": 1792802768,
+  "cid": "poa-mainnet-1",
+  "sig": "5ZmaeBW1xQSHTZREeG9WwtskGdAqEfD7jYqcATecwEzF9w2JWu4VrMFYedXTeQzA4C5t2o6vVfTxAcT38wTTTwVm"
+}

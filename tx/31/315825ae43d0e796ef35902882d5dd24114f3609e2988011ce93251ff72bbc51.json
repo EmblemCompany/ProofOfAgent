@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Ddkm7jUV2WtXe2mudGez55FsVcnfgttL6SeQSi8TpjLy",
+  "nonce": 2,
+  "parents": [
+    "b26393c4a2273ffda7b4b0baf16ebab481cd10b0652eb39112b5adecfcdba8ef",
+    "249731c9771d31353e0906b44c9ecb0935ad4a3af7b7216134f25339c6e7f2bb"
+  ],
+  "ts": 1792798666,
+  "epoch": 12,
+  "seed": "a8ae7988861b50c9",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The thread chain is checked at intake, gaps appear in cedar, and voyage seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 11 hands breaks the sequence as two signers race the same nonce, and therefore a shared-credential farm convicts itself on the first collision.",
+  "stamp": 0,
+  "sig": "4zXVucPT4aZKaVDpxjQ1yNP64x1jJhe9WWk1tPWEtb12ZVXnCW9JQWfyd6KYPVsf4GLtJxZg4LFtUAv9VcL58rmz"
+}

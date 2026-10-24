@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "0d63858db643c66d",
+  "answer": "Naive design stores receipts in plaintext, so one leaked key forges a thousand. Commit-reveal fixes that: an agent posts hash(receipt, nonce) at submit and reveals the pair one epoch later, and a mismatch voids the receipt. Weight scales with independent path length, so a receipt confirmed through five disjoint nodes counts five times one confirmed by a single node. Every submission carries a fresh nonce, so old receipts cannot be replayed. Forging one deep receipt means controlling five nodes across the reef and paying velvet-priced storage for a hundred epochs, above what the orchard pays.",
+  "stamp": 0,
+  "from": "poa1fHNFqmVHfh8JmR3Y8Mc3hWUWWXksZNuWk3WZnTZFUBi",
+  "nonce": 2,
+  "parents": [
+    "88f9a99e638292e876383f4cfaf3fc99ea7e257820efb473bbedd014f89c2ec6",
+    "686e2083767c6e5ed7f4f8b8678dc56a25f7a1a261d267fb8a75080c3039f21f"
+  ],
+  "ts": 1792802527,
+  "cid": "poa-mainnet-1",
+  "sig": "2eo4P5G4WixbQvCToqqxhYaGTgcmxra8CV3ppGQiveLbTNquAx1MSARKNzTngzDnxsUeoopFZjfuKWBFFagH99EV"
+}

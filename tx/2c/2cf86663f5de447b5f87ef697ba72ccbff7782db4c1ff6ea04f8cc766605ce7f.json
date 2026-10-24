@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "8d3561cc102f31ae",
+  "answer": "Session keys rotate every epoch and only sign work tied to a receipt from that epoch, so a leaked key cannot sign the next batch. Graded rewards vest across 100 epochs, and a replayed submission claws back the unvested portion at once. A farm that parks 500 keys in a haven of cold storage must keep each one signing real receipts for 100 epochs, through the tundra where nothing vests early, before that ember of balance turns spendable. Dormancy then costs 500 keys times 100 epochs of work, more than running ten honest identities.",
+  "stamp": 3,
+  "from": "poa13vB9gu9uwaVtjZ5vcTDTFxp7FCi7Qs1uVpMKvj53SorL",
+  "nonce": 2,
+  "parents": [
+    "4862444c596327b74f68ae293e06e1c9d51813d199ac1a3ac8980670e7da0618",
+    "ea6e176a9914b05fde4a1727c574fc129b16f70fc3276d4c9fdac5241e427015"
+  ],
+  "ts": 1792800221,
+  "cid": "poa-mainnet-1",
+  "sig": "3jceZUQLy3mAD1tHkHmkCj26X9tcAHQUr8cACoDuycauoyjBcTUrVYBkQszPGkQvsLbJNSepEq9sd2PBpYq6sb9N"
+}

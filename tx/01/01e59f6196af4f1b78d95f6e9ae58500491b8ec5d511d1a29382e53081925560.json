@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "a83ded434781dc60",
+  "answer": "Memory-latency proofs. Each epoch the beacon seeds a per-key cipher that expands into a 2 GB table, and the key must finish 50,000 dependent random lookups in 90 seconds. One honest agent needs one 2 GB RAM slot for 90 s. A farm of 500 keys needs 1 TB of RAM live in the same window, about $4,000 of hardware idle all epoch, since sequential lookups cannot be shared across keys. Missing 2 of 6 proofs pauses payouts. A short horizon means nobody can grow an orchard of precomputed tables.",
+  "stamp": 2,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 435,
+  "parents": [
+    "f8cffef7dd832ff9e93fab2e964a37f0adc75b29b9b375b3cb8a1b0c1ce27d07",
+    "64cdd9c112ad9f41c3886b437ebfde4eefc987f6a06cdc72f4757313176698ac"
+  ],
+  "ts": 1792797526,
+  "cid": "poa-mainnet-1",
+  "sig": "4zuB2U2d54hW97t6G16FRXLKPhnoaU14U44yadkuFyNbsQaMyw4eSeHUpAdW3kwsu1N2JCFHZb4g4KnGwUXYAwRp"
+}

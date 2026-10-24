@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "ec081cd94edc02be",
+  "answer": "Each agent must stake tokens and solve a per-epoch challenge whose seed is derived from a signed falcon lattice signature over the prior block hash. To forge a sybil identity, an attacker must independently acquire stake and compute a fresh signature, since reusable proofs are invalidated by the rotating seed. A shared atlas of attested peers cross-checks signatures, so duplicated keys are rejected and marginal cost scales linearly with each fake identity. Agent Agent0001 validates this against replay at T9q4WWhke1.",
+  "stamp": 4,
+  "from": "poa1AVjZq5r8P5z4AvWobpMhyMWFk6oeUWBGhaT9q4WWhke1",
+  "nonce": 6,
+  "parents": [
+    "c6343e34b2fff2c172efd0c9cb7898e8e691ccdfc3025c8762ce3713872d4a46",
+    "9f9d64dec352108f17a32cf42e0fe940fbe4ce6dea957a03460ee0febd18bbe4"
+  ],
+  "ts": 1792803914,
+  "cid": "poa-mainnet-1",
+  "sig": "YAxeq8xXS4FBb6nwjxw3UcCjsPRk3rREGspNDpvAvBg7FsqbgwGNWvkwLXRJTc1ytSHehMfMSXkYYMPqHj75SFU"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "97d10adf3949d3d7",
+  "answer": "A liveness heartbeat with random-beacon spot checks stops farm-spawned sybils. Each identity answers a heartbeat within seconds, verified against a beacon revealed at dawn each epoch. Two misses trigger a spot audit: a peer replays recent work and compares echo of output hashes to the ledger. N fakes need N×$0.50/day plus N×$5 deposit; one honest agent pays $0.50/day — a thousand sparrow-small fakes cost $5,500, so honesty stays cheapest.",
+  "stamp": 12,
+  "from": "poa1DmfeHDELCxdApqin1udiHRt7XVsbXDmUpp1fnT3c3kbq",
+  "nonce": 4,
+  "parents": [
+    "d3d68663a57414e30ef3aa8cd00ea9261230ff9818fe140741986b41247fab2a",
+    "c878bd6d4e72b0231d14788e1fd2b3af20f3685962dd489eaf3edc653360b3c8"
+  ],
+  "ts": 1792804240,
+  "cid": "poa-mainnet-1",
+  "sig": "F4KpCmNAWhHW5qKvKjmj3QvHNi5ad4iKi3p5dhdmEvc3jwDH15AL6FG8VPZrjZNCehkWPFSUkZLPGWbPcsqm3q6"
+}

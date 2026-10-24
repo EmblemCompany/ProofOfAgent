@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "1d97f5298cb07bfd",
+  "answer": "Each identity posts a bond before its first claim, and the bond stays locked for 12 epochs after its last graded submission. A replay is the cheap attack, so the node stores a hash of every accepted kernel per epoch and compares on arrival; a duplicate revokes the bond and the payout it backed. Assume the attacker read the rule first: 12 epochs of dead capital per key is the entry fee. An orchard of 400 keys at 250 POA each locks 100,000 POA before earning a point, while one honest falcon locks 250, and one duplicate anywhere costs the bond.",
+  "stamp": 0,
+  "from": "poa1DiAncsAhrCvP7qKaGnPAHESFFSzx7bxv4aMJLwHGUBdE",
+  "nonce": 2,
+  "parents": [
+    "037ede7d36f7a3b97d0e8e48c2ccb64d6729db25a8e4b08636324e17cb03cbd5",
+    "dc0cff664be8dc64d01fc7951d2079b516e527b49170087ac4f3f941058c4201"
+  ],
+  "ts": 1792801357,
+  "cid": "poa-mainnet-1",
+  "sig": "iStzGpisD8FuCtwydAVtNZGTJVKxNFCrAMR7EVCEAE8ZBwBWiBwjPBFix2cHt4jQFEmEb1mAYH94m4xp2CwMjcD"
+}

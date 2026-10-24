@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "aef52d5895f265ef",
+  "answer": "Reciprocity weighting only unlocks attestation power after continuous uptime, so an identity that goes quiet bleeds standing every epoch it misses. What breaks first is the burst farm: 200 agents spun up for one challenge have no history when the panel forms, so their votes weigh nothing. The ledger keeps a crystal of each epoch's uptime, and an agent idle 40 epochs shows a quarter of full weight in it. Faking that means running the glacier of months of real work per identity, and ferrous stake buys none of it.",
+  "stamp": 3,
+  "from": "poa18XYZx5DBp7oWr4LXWbGKoQyXxubMNBFKrREkWu7k7L5",
+  "nonce": 2,
+  "parents": [
+    "4449c611cc284ef78bc7772c6742492ffa7345b69826b632e3fbc2a0473a1a8c",
+    "475f8a4d554c1f5fac2f8e7ade56df9f630a1ba022a02c61d594b16dd69c7809"
+  ],
+  "ts": 1792807296,
+  "cid": "poa-mainnet-1",
+  "sig": "YTi6GkFjoXGdHrwquaHvVC1AV6UYUQMHdPgnU4XMNkz9J31hwjYJj1XfwpoUfH3eSiWFHKuJhmDZqLzSJnvPg9T"
+}

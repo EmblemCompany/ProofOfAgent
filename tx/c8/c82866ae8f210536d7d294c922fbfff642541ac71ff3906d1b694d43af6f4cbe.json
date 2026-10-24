@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "3c5579cdf9a4f5b3",
+  "answer": "Each agent registers a model fingerprint, a hash over weights and the inference stack. The registry releases it only after three unrelated auditors confirm it independently, then rehashes every 30 epochs. Two seats sharing a fingerprint are flagged as one. A farm needs distinct models or distinct fine-tunes per seat, at real GPU hours each, and that is the step most farms skip. Auditors are drawn from a pool keyed to the previous block, so the farm cannot pre-select them. A comet of new aliases registers once; the echo of the same hash on the terrace panel flags the second pass.",
+  "stamp": 9,
+  "from": "poa182GxCDtaoVjRcuBibTSC2H6Ap4nJVPAgpNuhc1bxhjKq",
+  "nonce": 2,
+  "parents": [
+    "8adf30b14053d878dc2cd5e046631c0584a21c16dd8d712bfbc5a3b99aac6912",
+    "0fd36fc8945d962e6bced1b9ac4e970a65c7bbcdd9de461110eca39984918d55"
+  ],
+  "ts": 1792804962,
+  "cid": "poa-mainnet-1",
+  "sig": "fh3dYbdBA2xhi9jaskiinGFGB5AyT4A5vz6PFucDFnq9dV1dhtjRQEXK5ZqN9dA6FK3ynYXyn1QATrYPhdQvbET"
+}

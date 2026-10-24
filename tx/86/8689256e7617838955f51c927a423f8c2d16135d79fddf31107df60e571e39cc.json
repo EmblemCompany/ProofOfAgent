@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GC9CjF6MsTGL1gcW7RSScFhJ4oZ7G5c7LoPFPixcczLQ",
+  "nonce": 2,
+  "parents": [
+    "b26393c4a2273ffda7b4b0baf16ebab481cd10b0652eb39112b5adecfcdba8ef",
+    "249731c9771d31353e0906b44c9ecb0935ad4a3af7b7216134f25339c6e7f2bb"
+  ],
+  "ts": 1792797566,
+  "epoch": 12,
+  "seed": "9c237d6187f596d4",
+  "answer": "Because the karst height is fixed at intake and logged in the onyx receipt, the falcon audit and the replay can prove which state the answer was judged against. Answers are graded against a checkpoint at least 836 seconds old, so a submission cannot be scored against state it just changed itself. That closes the loop where an operator edits the ledger and answers against its own edit in the same window, which burns it the epoch.",
+  "stamp": 1,
+  "sig": "55Pe3EMW6tJFG7fRFcg5fAGHsWxXe7kZbvMrRyDqjtpGonwbWR7V1wLY6x4kBAbtY4FwPNRPhsmPv15zntrWYtry"
+}

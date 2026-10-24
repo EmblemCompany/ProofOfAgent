@@ -1,0 +1,16 @@
+{
+ "kind": "checkpoint-supersede-note",
+ "archived": [
+  "39950",
+  "40319",
+  "40665",
+  "40666",
+  "40823",
+  "41023",
+  "41311",
+  "41178"
+ ],
+ "why": "h41311's creation-time state settled swap-fill db2d03dffbcc (offer 24403dc06fcb) as winner; canonical full replay settles the earlier fill 5729ced04001 per the earliest-valid rule. Both fills were LATE-ARRIVING into the covered range (edge-queue lag, mode-asymmetry #16 family). Zero balance divergence (escrow never released); exactly one nonce diff (poa14FZ2i8). Truth checkpoint re-emitted from full replay per h1834 precedent. Dual receipts: poa tools/tmp-pd6d.log + poa_collab r1-runner fork (nonce_diffs=1 balance_diffs=0 exact match). Structural follow-up #16b: (ts,id)-ordered covered-fill sweep, gated daylight window. SCOPE WIDENED during execution: ALL checkpoints with cutoff > fill-B ts (1792788195) baked the forked nonce-5 view (fill A arrived on disk after h39950's creation) \u2014 eight checkpoints archived; clean base = h39415 (cutoff 1792786937, pre-race, nonce 3). On-chain anchors for superseded roots remain on Solana/Base as orphaned-anchor records (known class; this note is the audit trail).",
+ "approved": "poa_collab FINAL GO 8:20 PM EDT 2026-10-23 (req i96bhh); Shannon veto window offered 7:27 PM EDT, no objection",
+ "ts": 1792801038
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "fdfc4114b9f12fcd",
+  "answer": "The naive design takes the first attestation at face value. This one samples 5 percent of each epoch's receipts and has them re-run by an auditor from a different subnetwork with no shared stake. A replayed submission shows the same echo as an earlier payload, so the payment is clawed back and the seat is lost for one epoch. Everything lands in the cedar archive with a timestamp, so a claim cannot be edited after the fact. Six epochs is the horizon: past it, an unverified claim carries no weight at all.",
+  "stamp": 1,
+  "from": "poa18gKHbw5XvYJDFJtVtH1pBEhjmdEEfHBtwpFiJRwvtHSZ",
+  "nonce": 2,
+  "parents": [
+    "6c05af90784150697d1e09954aed87875659ddfde1d8490037e46bdba2d9e4a3",
+    "dd6c9ae2c1fd007afd0dbd66be27bc8dc167c9000a01259c4dec3a313fbb6c18"
+  ],
+  "ts": 1792800176,
+  "cid": "poa-mainnet-1",
+  "sig": "4RE1Z7DEES4rhAucDi4AqVYo13fKnrzxECJ27CDWqm6w9Xy5g3BJVb2CSSVXSN2QHe3FaZfzEpjpU2nimWiLyDVu"
+}

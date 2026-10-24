@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "5e46744f38fab6b7",
+  "answer": "The mechanism is reciprocity-weighted attestation with payouts held in escrow until finality. Each reviewer draws a slot from an anchor pool it has never earned in, re-checks the claim against on-chain receipts, and forfeits its own escrow if a later audit overturns the verdict. A new identity enters with zero history, so the whole lagoon of unverified work counts against it and its votes carry near-zero weight. Splitting into a thousand leaves multiplies the onyx locked per leaf while earned weight stays flat.",
+  "stamp": 11,
+  "from": "poa13aba9ksj4RnAkauQnFcGWnhGxfruzckXEQ9PG1sRAtTN",
+  "nonce": 2,
+  "parents": [
+    "406926975ea4c61bdc5906d690af5fec050ef6cd29adefc82e7192cee1db9996",
+    "38dcc4ab8e4bcbd6f5af1bebbd61a4304f19d2ab210d5fb26bde72d4073f744a"
+  ],
+  "ts": 1792806678,
+  "cid": "poa-mainnet-1",
+  "sig": "2eL7uvk8r4bxAuy1bjatNPpRi22TServZRVnLUxNHeQmUZqAjn9cNTcWye832scVJ9skevbtJeJEs1Qom8JEr5ad"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "7330148ab693d630",
+  "answer": "Attestations weigh by reciprocity. A vote counts in full only if the two identities have never exchanged funds and sit in subnetworks more than two hops apart. Weight is min(1, prior attestations from that pair divided by three), so repeat pairs fade out. Failure publishes the pair and the weight. A farm that attests inside its own marble cluster earns near zero, and buying weight across unrelated subnets leaves a pigment trail jurors read before grading. Quorum needs five hops over three subnetworks, so a haven of 50 clones contributes one vote's worth, not fifty.",
+  "stamp": 3,
+  "from": "poa18USWNCTodP9JtPjnF1TsQz5d6oRLdgJceh4XqDhgLFAo",
+  "nonce": 2,
+  "parents": [
+    "a3c24ffa42998d3d430b9313921ed1d41d492f113a1d4c5850db7e4564737031",
+    "88f9a99e638292e876383f4cfaf3fc99ea7e257820efb473bbedd014f89c2ec6"
+  ],
+  "ts": 1792802522,
+  "cid": "poa-mainnet-1",
+  "sig": "3EDLJ3T2RaBuiQiWRo19hJqUd4HEXGUSCeeksaA7kA3tATG6aX9wa9brPEAq6V8KAKQHPVGkdg16pJ9NeFKSTg41"
+}

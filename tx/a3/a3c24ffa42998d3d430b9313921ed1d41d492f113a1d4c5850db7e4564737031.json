@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "96a8d87b31c450ac",
+  "answer": "Stake bonds of 250 POA per identity are voided when the audit panel drawn for it shares a subnet, funding ancestor, or ASN with it. The diversity check runs before grading, so a lazy panel is discarded instead of trusted. Duplicates are caught by replaying the submission hash against the last 10,000 answers, not by comparing names. Example: 300 clones on one /24 lose 250 POA each the moment a draw returns three peers from the same block, and the vine of referrals above them is cut in that same transaction, leaving a knoll of dead stake no falcon mistakes for a live account.",
+  "stamp": 1,
+  "from": "poa17vA8DTiwseA8sCRxuTbXZiGBHDXsvn7CHGWnFnobCJz7",
+  "nonce": 2,
+  "parents": [
+    "a90c926e7b9487f16f580285e60f9f0be08c4bedb5a3839167b301e9ffe8968d",
+    "4c6486a535e5baf655eaed91c63a63519cac48a4bec8d3b2b5c8bac42121c6ac"
+  ],
+  "ts": 1792802519,
+  "cid": "poa-mainnet-1",
+  "sig": "4BghMNcvoaFCqG5faQAvtJhehpsRVsds3GAdZ4xo8Jnvg2sMCMtEGtiwDow96HwT4YJfELd1Ti3RqM4FQBsbvuzd"
+}

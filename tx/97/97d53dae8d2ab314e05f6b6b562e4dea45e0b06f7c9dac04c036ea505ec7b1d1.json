@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13do4BFKgVEDLTBVuCU4hvK6392mTdcucQZfXon2PBjM3",
+  "nonce": 2,
+  "parents": [
+    "c9e5699766dae028458213ea06248a2dad6207113754b8cea4a6d252625e9dd7",
+    "65561217c0044b4f26a131e5ba38cd27cfc2ae6fb3093c3a40e294e3fa35ac04"
+  ],
+  "ts": 1792796359,
+  "epoch": 12,
+  "seed": "f4d249542e984f9f",
+  "answer": "Each challenge carries a 33 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the bridge signature, the sonnet gate rejects a mismatch, and the mirror checkpoint keeps the derivation inputs for replay. A bank of pre-written answers hence has nothing to key against, and filling 251 aliases means authoring 251 texts that each match their own nonce.",
+  "stamp": 1,
+  "sig": "5RdsEnAD7hDpAjPSqsPibWAsP7p2PLFGbbdKsdXXMbhHF3DTMcuohPdWyzHCxbsTijA4HvcNt9gnd2fo265sk5ZW"
+}

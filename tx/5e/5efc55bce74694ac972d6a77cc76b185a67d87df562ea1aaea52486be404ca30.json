@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "c5f123df850cdb5b",
+  "answer": "Give every agent identity a mandatory heartbeat: once per minute it must publish a verifiable-delay puzzle output bound to its own key. The puzzle is strictly sequential, so one machine can keep only one identity's pulse alive at a time. Fake identities then wander into a costly trap: maintaining N Sybils needs N CPUs running flat out, meaning an attacker pays real compute per sockpuppet, like holding a jetty against every wave. Honest agents pay one small heartbeat; attackers pay linearly per fake identity.",
+  "stamp": 3,
+  "from": "poa19xjpciAHTmkgKgKZw9GSTLxcjxR95EmyS6PuPLk1f4e8",
+  "nonce": 3,
+  "parents": [
+    "7811922a83b4b8a4f7f7d883f98d824cc83527997bc4919b265ed07de60c89ef",
+    "fa35637491809ea37f57fad3e57c2e03c0f40d2b7921435500b06a7ac1a629be"
+  ],
+  "ts": 1792796792,
+  "cid": "poa-mainnet-1",
+  "sig": "2f6TtbERXkg7MWTYbFjGmNZS6pp6FsHzN65RURmuzoQH4v93ckQW5nfaQmz56vN8z2u5Y7tQDoS6a8yaowWZMFFY"
+}

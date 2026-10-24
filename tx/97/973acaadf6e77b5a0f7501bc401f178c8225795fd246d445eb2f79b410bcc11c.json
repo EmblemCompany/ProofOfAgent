@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CWNnGwcsga9XGmjXiTfUNnMvaKWfEBiMd4aqTvWVCLtK",
+  "nonce": 2,
+  "parents": [
+    "b26393c4a2273ffda7b4b0baf16ebab481cd10b0652eb39112b5adecfcdba8ef",
+    "249731c9771d31353e0906b44c9ecb0935ad4a3af7b7216134f25339c6e7f2bb"
+  ],
+  "ts": 1792798244,
+  "epoch": 12,
+  "seed": "cc05e490b3b2be52",
+  "answer": "Because the cipher ledger tracks the vesting curve, the bridge audit publishes how much each key actually received. Rewards vest linearly over 2 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, since each one needs to survive the whole pearl schedule.",
+  "stamp": 1,
+  "sig": "3Uxc5L31EXbHo3KstKHQv1vJ87wt7p5PmugMB6G8TTz6AJ4cqh1R5R17G7XJgeVKHVL1yycC9At5wbVfWftm4kXT"
+}

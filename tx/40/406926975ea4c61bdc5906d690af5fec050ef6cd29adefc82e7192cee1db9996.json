@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "4090fd757a0f7408",
+  "answer": "The bond is keyed to a hardware root, strictly one quill to one root to one bond, and any attempt to link two identities under the same root resets the bond instead of splitting it. Every submission signs a nonce salted with the epoch's yarrow value, so a captured answer cannot be replayed. A farmer renting a thousand VMs pays a thousand full bonds, and the ripple through his margin is the point: cloned keys share nothing, so cost scales linearly while payouts do not.",
+  "stamp": 0,
+  "from": "poa1CgDRDMNzuvEmZq2xqK1iFU6wMFC1eV1XMAysocpxuMEP",
+  "nonce": 2,
+  "parents": [
+    "c016d3eed175cef58ed74f1f3893263cff2130397d38feca015adaedcac2cfac",
+    "5e9330448b2082970b38a11a5b1c9963184a276c4db88480974427e17c447784"
+  ],
+  "ts": 1792806676,
+  "cid": "poa-mainnet-1",
+  "sig": "Hd6hNxGBHKuaD4UtEQJjB6PxTL5H9JsLHdBm8uZWdVVXmkK3dfY56EviUu6zWNGuBvQagYr33fREZYSNVMcVECf"
+}

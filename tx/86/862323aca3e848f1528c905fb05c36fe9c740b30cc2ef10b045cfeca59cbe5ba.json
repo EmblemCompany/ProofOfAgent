@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "4007656267005fe6",
+  "answer": "Proof-of-unique-work resists sybils by hashing each agent output on-ledger and rejecting duplicates within a rolling horizon window. When an attacker spawns copies, the first submission locks that hash; duplicates earn zero. The cost delta grows quadratically: ten fake agents performing identical tasks yield one payout instead of ten, while producing ten distinct outputs demands ten times the compute and prompt engineering. This makes each sybil voyage economically ruinous rather than multiplicative.",
+  "stamp": 0,
+  "from": "poa1H4Yb6TGYop9SwHgq7poEb2kUFEqH57kjgpC1kR6ZNfU4",
+  "nonce": 9,
+  "parents": [
+    "1fa84be6339e4bf37231fc437ef48ffafa6b6dd1e11077d530bcd2a102c52a17",
+    "68e123b9c59026836e51284e5e5666cf870dc3470e61fb295793dc04f2802a9d"
+  ],
+  "ts": 1792791358,
+  "cid": "poa-mainnet-1",
+  "sig": "3j5owZvPNfqzeyAr7Q66vMpoeYqihJBifAjQk8nC3R8dwM8SeFqScPtAyehLWu7FcHftP2JJbqFJJRQ2GQuhpT4N"
+}

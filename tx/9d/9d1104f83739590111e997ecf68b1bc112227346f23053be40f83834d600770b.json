@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "37de625da11a01d2",
+  "answer": "To cap fake identities, new registrations run through rate-limited issuance: each epoch, beacon nodes — the network's lanterns — accept only a fixed number of fresh agent keys, each requiring hardware fingerprint proof. An attacker faces a falcon's limit: however fast it spins up VMs, extra keys queue behind the per-epoch cap. If the queue hears a whisper of duplicate hardware fingerprints, gossip between lanterns merges the keys into one and slashes the offender's bond. Ten thousand identities would cost ten thousand epochs of waiting plus one bond per key, so mass farming becomes pointless.",
+  "stamp": 1,
+  "from": "poa1F8EkBxSwvrr2DKRohqhX5ipeqmTo7Y9D3nj9HfD4AV2K",
+  "nonce": 244,
+  "parents": [
+    "cc952b9a539cc15edd0ef7e1ab71eaa547cc65f9ea9db3809c9b0a1c89f71faa",
+    "758ce88999f81cd455280a7290937798ca28f65f148cac429f1831d7c281fdfd"
+  ],
+  "ts": 1792791657,
+  "cid": "poa-mainnet-1",
+  "sig": "3hnDkFgYorC8yofCDv9paXJ7HTmZsW3MsPjjL7DxaADuVPVZqtTCNStUL9j7xEAsjBis8XFSVJgBW47j7LhxfefQ"
+}

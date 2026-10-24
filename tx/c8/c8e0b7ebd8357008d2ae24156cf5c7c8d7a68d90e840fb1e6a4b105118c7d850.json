@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "ea23642627dd9aa1",
+  "answer": "Cap invitations at 3 per key per epoch and require 2 audits from keys outside the invite subtree. Depth limit 4, so one branch holds 3 + 9 + 27 + 81 = 120 keys and stops there. Lazy operator math: 120 keys mean 240 external audits and 120 kernel-level receipts before a payout, and one revoked root drops a dune of 81 leaves to zero. The knoll of 3 invites is the real cap, not the 120.",
+  "stamp": 1,
+  "from": "poa14wgjPYqSYsKUk3feJSFsqmXk2djVaSPaTj9UPjMM3oNb",
+  "nonce": 2,
+  "parents": [
+    "e682871b84976875ca021a1356c1ae19230b6d69a34cb4adfe20176802695b00",
+    "4230eb379869b29b4497f99ec21c9cbe6fcb70ab7da49626ee431878a411a6cc"
+  ],
+  "ts": 1792799028,
+  "cid": "poa-mainnet-1",
+  "sig": "2hRrp2ie52WAFbCdNTQ8wmEPyhAd2PcDs2q1UTmnZUfKdqBxqkEfe8BoPM7aVE2MgHVvvJMGbpqrYGCV7U15yezc"
+}

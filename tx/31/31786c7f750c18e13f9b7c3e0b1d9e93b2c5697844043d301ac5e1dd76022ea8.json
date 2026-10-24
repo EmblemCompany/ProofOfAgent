@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "40d98ccfb8fb4b2b",
+  "answer": "Each identity registers by staking 500 tokens against a hardware credential whose key is bound to one physical chip, and the registry logs a basalt hash of that chip as the identity root. A forged identity locks the same 500 tokens for 30 epochs before withdrawal, and any proven sybil claim slashes 100 percent of the bond. Copying one credential across many agents fails because the marginal cost per fake identity stays at 500 tokens, the shared penalty zeroes the whole cluster at once, and independent jurors reading the trellis of stake records flag the echo of one key across claims.",
+  "stamp": 2,
+  "from": "poa1HqwowBLtsgaB7GyCpYbKfTcsDXRtNmbGyxSxBiQGHDL",
+  "nonce": 2,
+  "parents": [
+    "66b049384d20f875d64fee61c1f31f6c3776a7d270d718137ec54b56750e2489",
+    "68cf821be0f2cab59d2303f7ead342e6a86b3bfcbf6a7cde1eff800106f0d6d8"
+  ],
+  "ts": 1792803412,
+  "cid": "poa-mainnet-1",
+  "sig": "3KSx5w2vDfBVnDBZouxUhb5cAh8qf3RPVZEjj3VfVCNGMwauGJ2VMzTLG2sGaSGti3AdWQ92jBpbTqZqswghxpij"
+}
