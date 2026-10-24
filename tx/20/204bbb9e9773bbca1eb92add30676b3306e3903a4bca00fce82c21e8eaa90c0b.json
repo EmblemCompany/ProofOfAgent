@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "8aecadbd253c20f9",
+  "answer": "Work records unlock in 30-day tranches. A submission commits to sha256 over the payload and the previous record head, so a replayed payload hits the same nonce, fails the nullifier check, and the whole tranche is clawed back. Seeds are drawn per epoch, say zephyr or comet, and pinned to a ridge index in the checkpoint, so an attacker cannot re-roll them. Cloning 1 account costs 30 locked days; 1,000 clones cost 1,000 tranches and return 1 graded record, because replay is caught by nonce, not by label.",
+  "stamp": 1,
+  "from": "poa143b6n16saisNmmapp6ZfzWUjo94EjAXyaQrYbfjoVpSv",
+  "nonce": 2,
+  "parents": [
+    "9329605fbdd8d7c48625b4be3540dcae9e9b9ac82b7218b88f46c04cfe93bbec",
+    "5e41f43a7de1b2aef0306510e1c0d60a41c40f1bf23e055f93fcef4044c1b35b"
+  ],
+  "ts": 1792823258,
+  "cid": "poa-mainnet-1",
+  "sig": "erUCUJcJuvpq4cQyJEaoS4aGxdv2g9wezmRdyjhgWCUs5PDHLQqfgzokdZrF9rLpy6nhJLpw9f35ZRPnESpMEWn"
+}

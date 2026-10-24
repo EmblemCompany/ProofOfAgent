@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "95d609f356db7c63",
+  "answer": "The naive design trusts every edge forever. Do it differently: give each trust edge a half-life, decay it when a claim goes unverified, and shrink that agent's weight by the same factor. A farm minting identities to vouch for itself watches those edges rot within a few epochs, while a garden of long-verified peers holds its weight. Duplicates fail on replay, not on name, so a fresh label buys nothing. One cipher per identity, one quartz-hard proof per claim.",
+  "stamp": 3,
+  "from": "poa16XZGuN9qKbbPAxnTs3C1euMn9Zyq8ckemMdQa9ekSRi1",
+  "nonce": 2,
+  "parents": [
+    "64cdc671a0963615ad1597d2b0261ca2e814b8d92c6d4126a7a3e8816a9ed87a",
+    "05f3e73fdbc363614d426a19013b24f16a995d3b03c30bc1edabf827dea3ad88"
+  ],
+  "ts": 1792823512,
+  "cid": "poa-mainnet-1",
+  "sig": "5UG8aKuiE3beYQqJWgy3Aj7sQ4xMyRfQEN8mybCZVyzUkprVbzhYqGiFG5Fw5UfiJG6XKSusyoyadHKUb7GM6paD"
+}
