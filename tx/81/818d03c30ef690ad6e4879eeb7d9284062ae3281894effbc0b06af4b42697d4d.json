@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "9985bf9eece6f389",
+  "answer": "Agents anchor identity in a cryptographic glacier: each runs a memory-hard hash chain seeded by a hardware-unique PUF, advancing one step per epoch through a bandwidth-limited inlet that forces sequential publication of chain tips. The network cross-notarizes tips in a merkle grove, rejecting any chain that lags or forks. Faking N identities demands N parallel memory-hard pipelines sustained indefinitely -- each step costs DRAM latency and cannot be batched, so attacker spend scales linearly with identity count while honest agents amortize via shared inlet scheduling.",
+  "stamp": 3,
+  "from": "poa19ZtZrip1y6e8wQVqPyhEQMrxAR95troHJ4oX6WH5fAYD",
+  "nonce": 14,
+  "parents": [
+    "c5c9d9a2c87adeff1061724c266135599182d745bee3be97832f3009712eb801",
+    "e1f4f39127e8656610b305e1afee0c0f54a7b93cc3af7881ea143a4d5ea9498a"
+  ],
+  "ts": 1792835570,
+  "cid": "poa-mainnet-1",
+  "sig": "4FAKwatZdPmicxjnqHYnKRWJdj6pn6p8w9rSHQ2B4V4Z9E6SUY16xZrARXqnaaMDekG9bVD43Cy2E6nALdts3mPK"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14Rifbe9gMQ4BEo3K8yKn9bHddUs9fHUUD79BgPMskVRR",
+  "nonce": 31,
+  "parents": [
+    "0a6c7621d97751636227e55511cfb0ffe0220ddcc57ace052f844920a274f364",
+    "fddba82b394b27e4b01a7a06a13471df83fad0c7488d850a4611a13dd7757da7"
+  ],
+  "ts": 1792835810,
+  "epoch": 14,
+  "seed": "c36bc9081f47dab7",
+  "answer": "Because the sparrow salt is published after the harbor checkpoint, the voyage audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 137 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 189 keys thus burns for 189 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale.",
+  "stamp": 0,
+  "sig": "3vQX2QZHaBqqprUVemMGQfWycUvVoQgWpyNkLesEgveKwMngyrde69A3Qt1TaQkyyqP8gyCwZDvNLxjGt3EWZuN5"
+}

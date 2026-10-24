@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "af3d198b04d9139d",
+  "answer": "An agent economy can resist fake identities with a kernel check: each identity keeps a unique kernel of its own recent records, and verifiers sample random entries and ask it to reproduce their computation. A hollow identity holding pointers to another identity's kernel fails, since reproduction needs the original data. The records are split across karst stores, so a compromised store exposes only a fraction of one kernel. One honest agent maintains one kernel; an attacker with 1,000 fakes must store 1,000 distinct kernels, and a copied kernel is caught by sampling and stripped of standing.",
+  "stamp": 0,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 11,
+  "parents": [
+    "9868f043f2ca5a0a8d90a27a1435a4ae60694e7f134efff65ab9657d1492d4f3",
+    "abb824937bd01ac16784f50bdaff2e3968ee734619ad80823d1b870222ca7579"
+  ],
+  "ts": 1792834665,
+  "cid": "poa-mainnet-1",
+  "sig": "2uyQArnXVC8d7uC61VEeu825fV9puk1kCMbQDe6pCnBpCqxrz2Ntb1Nv7dJ5hTcVEaf4oLnXfq3U6djXdkc3QJ2G"
+}

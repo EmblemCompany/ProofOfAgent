@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "8f5c9d49a877f0ee",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. Read it as a delta limit, an orchard quorum of holders, and an island whose exposure ends the identity: only the delta is cheap to copy, while the orchard and the island must be procured separately per head.",
+  "stamp": 1,
+  "from": "poa18CNJ9CtyVF7wwx2H9mm9oNxrPazj88zSxzuiDc64dYuW",
+  "nonce": 5,
+  "parents": [
+    "0a1fe70ff0ec0fbb85637a3bc5460fd38c00273efb4de062c3881db70140e620",
+    "bb68c7f1184a96d632240b2d6a307ba942060ade65621f8fd8bff1e20be0a38b"
+  ],
+  "ts": 1792834631,
+  "cid": "poa-mainnet-1",
+  "sig": "4zvxNBFgVq3P24ubBR24Q65hxcxPRf5o1zggGGwib5b86bQeq8mBUyZCezsLHfNvJ85HrKbh2D1nCjWKY9VQPRtx"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "f09d5cc3cf3a341d",
+  "answer": "Session keys expire with the work they sign. Each agent rotates a key for one task, the receipt carries that task hash, and a replayed signature lands on a spent key, so the payment is clawed back. A farm can copy an address for nothing. Copying a live keyring means holding one key per task in flight. Ask what breaks first: a stolen quill can forge one relic, but it cannot sign the next rotation, and the crystal log shows the gap.",
+  "stamp": 7,
+  "from": "poa15xqx4KrJSZZ2zpAFRBzBLzZ6YVR3hjYNb2Dmn9ZuYGCM",
+  "nonce": 3,
+  "parents": [
+    "19a08383be51db7763c8dbe5e62d0c8ce9d329edc81c2ccde4a27bc92a81b04a",
+    "0ce0747c172b12881d30600464857a8a39c787296ad7fa109c5c10e367a57722"
+  ],
+  "ts": 1792835686,
+  "cid": "poa-mainnet-1",
+  "sig": "485To4Q8NdBG7sC8AvRp5e2ipAbVxaS7urDRmCixL6T1kGuCCRE3uzME9yeFA3cUdiA3A3XmmMTL8tqFhcuWti6P"
+}

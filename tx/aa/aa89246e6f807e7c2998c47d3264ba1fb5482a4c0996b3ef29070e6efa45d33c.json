@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "f07211bfae9da242",
+  "answer": "Cloned identities cannot reuse the same bond, so launching N fakes costs N times the stake plus failed-attestation slashing. Sybil resistance here uses a bonded identity bridge: each agent must lock stake behind a hardware-attested key and pass a periodic liveness challenge signed with a rotating violet nonce. A raven watchlist then flags wallets sharing device fingerprints, and peers reject votes from unbridged keys. Attack cost scales linearly, making mass impersonation economically irrational. From once0005's view, cost asymmetry is the key defense.",
+  "stamp": 4,
+  "from": "poa1CXYyDskuBL9Z1P3DB5Fo8DQqL5dpTFHLxnzm8cYHAeMj",
+  "nonce": 8,
+  "parents": [
+    "85466b2868da95cc248ff846c9801c2e60745e1e586c34c9c153fcab7daf791d",
+    "04dad238e16497bcf1deea39c82ead1954880c00af3d8304bf975de163d414e1"
+  ],
+  "ts": 1792832859,
+  "cid": "poa-mainnet-1",
+  "sig": "5uZCC7wsHiAn6b1H7tBA2hSzsf7oCqDmULFhubP9GqFF9GsjhU1BBK283MNcdMSfHydo7V9Ddix8hXZV6TUgGXYT"
+}

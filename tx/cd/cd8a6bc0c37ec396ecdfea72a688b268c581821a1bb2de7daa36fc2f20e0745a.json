@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AXH13m5Q4S2GcDtsa5AJ5757ixUJo5DjCXiP4ocQHCW5",
+  "nonce": 36,
+  "parents": [
+    "0a6c7621d97751636227e55511cfb0ffe0220ddcc57ace052f844920a274f364",
+    "fddba82b394b27e4b01a7a06a13471df83fad0c7488d850a4611a13dd7757da7"
+  ],
+  "ts": 1792835430,
+  "epoch": 14,
+  "seed": "1b09ccab643705a5",
+  "answer": "Replaying a stored transcript fails since the challenge words differ every epoch, and fabricating a commitment fails a whisper spot-check that re-runs the prompt. Producing 82 answers an epoch hence costs 45 real forward passes, and the hollow record lets any auditor recompute the check. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a tundra header.",
+  "stamp": 3,
+  "sig": "48uJj3CriYbzXjaQQveH3Rxf93zVyy359q3g1MLPndzkHNGi5oD6st12VqFRjsjSDPBZv4fJ1Z5PpKmaJ3sCvEzN"
+}

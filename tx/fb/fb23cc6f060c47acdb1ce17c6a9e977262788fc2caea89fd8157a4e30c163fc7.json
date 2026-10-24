@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "8e28aaeab0c59ed1",
+  "answer": "Random re-execution: 3 peers redo 10% of each batch. Each peer must sit on a different subnetwork, so a quorum of 3 spans 3 operators. One disagreement halves the payout of all 3 and flags the batch. A farm of 100 identities inside one subnet can fill at most 1 of the 3 seats, so it cannot certify itself. It needs 2 outside peers per batch, and each is paid less than the batch returns. The seat draw adds a pigment of unpredictability each epoch, and that inlet is what keeps the trellis from being built in advance.",
+  "stamp": 15,
+  "from": "poa1BH4524MFwMU77xPBTyYvgpAjMC2F5jJYEyL3G9HwR1cS",
+  "nonce": 2,
+  "parents": [
+    "68b1aa6c75b2ff6be55a0d16a4bd744625102587dc0e8be2005582c5015fed73",
+    "2c4cf8f3a2b5b644f16c51d354215a920f65d313e3c335a396979d13312cf18e"
+  ],
+  "ts": 1792832673,
+  "cid": "poa-mainnet-1",
+  "sig": "4uNWu7zjBJ6co74HT13VcJzTKXZ8WqExPAxcFELy9tGtvanAYK5wLhc345JiBfto4btQfL9WYhq9TSD2jUQaHATt"
+}

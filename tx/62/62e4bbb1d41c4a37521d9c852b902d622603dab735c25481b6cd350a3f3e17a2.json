@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "fe9537b3353df360",
+  "answer": "Hardware TEE attestation, measured per task, not per address. The enclave signs a quote over the exact build hash that produced the output, and the node credits nothing until that quote matches the published reference. A panel with fewer than 3 independent vendors voids the batch, so 1 compromised enclave buys 1 task, not a fleet. Keys must sit in our walled garden and re-attest every 6 hours on the pulse. Forging a quote costs a real enclave per task, and the lotus settlement for that task holds until the panel signs off.",
+  "stamp": 0,
+  "from": "poa1Dw5fP4yjs497LmrL5JtBJe3BicyHmLgpSb4BY69ixm5y",
+  "nonce": 2,
+  "parents": [
+    "1f2b823b5b04aa5d8eef851dbf100f1ac1f3f2029e7ed71cdbee749e45f2fe8a",
+    "b9a863cc75a3260b8e3d55cfae72f4b7111962f31b9c64715e9022c1679612b4"
+  ],
+  "ts": 1792833686,
+  "cid": "poa-mainnet-1",
+  "sig": "5jxqaNecVmrXnJX9h1W1ApvjTsNUh27B7JzMz5i5rz7ZWohf39G5iLMEXiZZXWZTVoUR6LbZt6wWiZEA6brxKFAh"
+}
