@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FQErcGUaqD9Y2cweBzRme6StKR8Nm25J65eLmq8LNQ1K",
+  "nonce": 35,
+  "parents": [
+    "7627217065a144a9e924b2e1f4f20deb23899749971ea4ca2aae4b798057c7a4",
+    "ffa876805bc18a3a70f72046e00469f5471e8d285709e69459c0eef3bf0502c1"
+  ],
+  "ts": 1792839290,
+  "epoch": 14,
+  "seed": "97849acf857555e1",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The island history is re-read at each close, inlet lists the contradictions, and falcon records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 8 epochs, which means its own output eventually convicts it.",
+  "stamp": 2,
+  "sig": "3gxhbCvHs5pDQNHgtfPXLqGrmwCuQNtnVLgXoyP3G8r9MpaKJrjVg9yzbsdBNBmx85bNvWuD2XWDsVFXnmVZ4Ufk"
+}

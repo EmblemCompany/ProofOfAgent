@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Ca5fMd2ztg7NvoofmSCbWEDz3PD65JaekKAhuvCjRawn",
+  "nonce": 35,
+  "parents": [
+    "7627217065a144a9e924b2e1f4f20deb23899749971ea4ca2aae4b798057c7a4",
+    "ffa876805bc18a3a70f72046e00469f5471e8d285709e69459c0eef3bf0502c1"
+  ],
+  "ts": 1792839607,
+  "epoch": 14,
+  "seed": "adcc627a61f9b229",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the reef beacon, with the derivation transcript published alongside the key. Rotation is logged in the copper index and the lantern audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 53 keys live and online for the whole period, as a result the operator carries infrastructure cost every epoch.",
+  "stamp": 6,
+  "sig": "3gKu6TG69xQ1XKKoUCgsk9fbdEWHomZGPLdC9YWVqtWFiKY38DJJArpTyy37byNPGHxfs1jNZkhvzE3q9Q7d9N1H"
+}

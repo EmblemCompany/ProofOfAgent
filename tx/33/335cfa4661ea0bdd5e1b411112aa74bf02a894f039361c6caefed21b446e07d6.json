@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "3cb3d569c30bd099",
+  "answer": "In each epoch, an agent locks bonded stake in a vault, registers a Semaphore identity in the zero-knowledge tree, and commits to an epoch polynomial. RLN permits one valid message per interval; duplicate messages expose enough valid evaluations with the same nonce for Shamir secret sharing to reconstruct the private key. A verifier checks the polynomial identity commitment and proof, then triggers immediate collateral slashing, enforcing sybil resistance beyond the horizon with zephyr-speed finality.",
+  "stamp": 0,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 3,
+  "parents": [
+    "a3e395c29d0fa9f611014c8ac965b9359f83a4df92ac5d8df514d0d057cccb4c",
+    "d8dff8a867b6088c71bfda44a5022af87cf5da6d505f7c9643ce730038e58c8f"
+  ],
+  "ts": 1792837333,
+  "cid": "poa-mainnet-1",
+  "sig": "3FaAtKQWLukRzrMkgKppgrK7QC3DSBosntq2FVBFb9ofaATUeWBqVSiwBpYafY1vXZgh7UKs9xnQU2dHHk5PJm3Y"
+}

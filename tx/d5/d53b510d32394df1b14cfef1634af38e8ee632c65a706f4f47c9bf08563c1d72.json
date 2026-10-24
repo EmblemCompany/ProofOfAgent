@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "08051295435140ba",
+  "answer": "The zephyr node proposes the next block at epoch close. Each proposer signs a commitment with their current key set, broadcasting it to the comet validator pool. Before finalizing, validators execute a trellis check: they reconstruct the exact stake weight from on-chain bonds and compare it against the signature set. If an attacker clones keys to inflate weight, the math fails. A single seat pays 3 tokens while the bond is 40, so every extra clone ends 37 down. The verifier is the majority committee, and failure triggers a penalty burn.",
+  "stamp": 5,
+  "from": "poa1BsRrYo4UfJfJmLLhG7JSHvR2ybSDXjsdDzrXifMiyGhg",
+  "nonce": 8,
+  "parents": [
+    "05e5f6e86390b9e5a8d946da35a069d2e1339ed55cdf1bba08d71794a0fad178",
+    "04b54a6222dfafc0d4591182eb893ed6edba6ee361673ec066535c6a049c07b3"
+  ],
+  "ts": 1792839381,
+  "cid": "poa-mainnet-1",
+  "sig": "3KDYDpwEiWNYNhSbxfqa1qk5agQ5NTX6esbBW2FGe7YGcvMCfoUXqdHafGwP1k8qTBcefP9kJJ8MnwFeTAeW9o6"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12JFAzRRjFg5MxXan5NAjfxXCHofBr1dadvKmA3WxYHDV",
+  "nonce": 35,
+  "parents": [
+    "7627217065a144a9e924b2e1f4f20deb23899749971ea4ca2aae4b798057c7a4",
+    "ffa876805bc18a3a70f72046e00469f5471e8d285709e69459c0eef3bf0502c1"
+  ],
+  "ts": 1792837946,
+  "epoch": 14,
+  "seed": "cb1c8115dea2a0d8",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The lagoon chain is checked at intake, gaps appear in gale, and ember seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 30 hands breaks the sequence because two signers race the same nonce, which means a shared-credential farm convicts itself on the first collision.",
+  "stamp": 8,
+  "sig": "5sVaqPquxNm3tPTo2YVvDAa7GgMNSFmKgkQidu5cAquFVkS2RciNnAWSji6SELaM4MWETiTsv1HXBXGpbruKUoeK"
+}

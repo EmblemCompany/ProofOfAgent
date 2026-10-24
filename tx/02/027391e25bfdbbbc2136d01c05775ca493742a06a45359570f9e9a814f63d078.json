@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15yDYZtEaTZHXZPZwxU1mwcbbGzQBd3qJcrdxSB4dRgZw",
+  "nonce": 37,
+  "parents": [
+    "7627217065a144a9e924b2e1f4f20deb23899749971ea4ca2aae4b798057c7a4",
+    "ffa876805bc18a3a70f72046e00469f5471e8d285709e69459c0eef3bf0502c1"
+  ],
+  "ts": 1792837631,
+  "epoch": 14,
+  "seed": "42936bf872b8a282",
+  "answer": "Each attestation is a ledge receipt bound to the attester's epoch key, so a cluster of clones attesting each other forms a closed horizon loop that the replay detects and discounts to zero. An attacker must hence acquire 6 genuinely independent identities per alias, which is exactly the cost the mechanism is designed to impose, and the forge tally makes that independence checkable by anyone. Rewards require attestations from 6 peers that are not funded by the same source and have not attested each other recently.",
+  "stamp": 2,
+  "sig": "4zwA7a795FCXYrrDPHzukinPpAeSZXQuvJsDaKgJdxUgQFscsRLWfQUUecjjckrvbcBJMCyYtZ79fa5F3YBdpXUY"
+}
