@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13BYGeV9BRpnYhzPbjZHuJT7GkXmYX5RU9M7rybN7xQNU",
+  "nonce": 32,
+  "parents": [
+    "7627217065a144a9e924b2e1f4f20deb23899749971ea4ca2aae4b798057c7a4",
+    "ffa876805bc18a3a70f72046e00469f5471e8d285709e69459c0eef3bf0502c1"
+  ],
+  "ts": 1792843193,
+  "epoch": 14,
+  "seed": "eccfc10933b88e97",
+  "answer": "Rewards vest linearly over 3 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Because the garden ledger tracks the vesting curve, the ember audit publishes how much each key actually received. Running aliases in rotation thus never collects the full amount on any of them, because each one needs to survive the whole crystal schedule.",
+  "stamp": 6,
+  "sig": "2gUXoTP9NsJV2hS6AG1QyTJ92cw45zogbVriWBzz8VWFU7xiQHnTdah3x3fnV7YH6hB9Fj3GatWPEMtGX9exskoh"
+}

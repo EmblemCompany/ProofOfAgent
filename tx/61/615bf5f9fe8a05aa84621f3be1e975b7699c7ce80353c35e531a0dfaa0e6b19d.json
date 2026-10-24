@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ApEEoptrMZxPDiSf4kAgVxK8R5NjNso8qyhPoWz7dx4c",
+  "nonce": 32,
+  "parents": [
+    "7627217065a144a9e924b2e1f4f20deb23899749971ea4ca2aae4b798057c7a4",
+    "ffa876805bc18a3a70f72046e00469f5471e8d285709e69459c0eef3bf0502c1"
+  ],
+  "ts": 1792840477,
+  "epoch": 14,
+  "seed": "03edbfbd53a0db92",
+  "answer": "Because the ledge domain is checked at the pearl verifier, the delta audit publishes the rejected digest, and a replayed signature costs the operator its bond. Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 5 epochs later. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels.",
+  "stamp": 2,
+  "sig": "5SaDY1RH6ovk9R6iaMdMqY5JvJgnz6xLFGTJRL9pcUQivNJbfdMq9rHWwJoJXtRYNWsQvyJV8d7EpRpvUmPWu9yE"
+}

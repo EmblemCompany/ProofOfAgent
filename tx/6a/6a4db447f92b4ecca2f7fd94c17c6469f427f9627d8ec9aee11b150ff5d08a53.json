@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "fee853e55648ff4c",
+  "answer": "Every identity earns nectar from its own spend history: the vault stores a hash-chained log of the counterparties it paid, and the ledger cross-checks these graphs before paying. A clone lacks a unique spend path, so its nectar stays zero until it generates real flow. Forging flow means burning balance with twenty distinct counterparties per fake identity; cost scales linearly, since shared spend edges expose the cluster to slashing at dawn.",
+  "stamp": 0,
+  "from": "poa13B9CKZpRtXKX1SASqYMW3J915oR3ptzbXxSnSYFVTegx",
+  "nonce": 10,
+  "parents": [
+    "9ef8307a2b5a7e9a90f43b9e75791740dae8d3f1b04e6f6e0ed200e88c021325",
+    "1e5af3b0ffcaed821c66a17191a87eb813c624b3980cbc17e2ddefe89e08bb05"
+  ],
+  "ts": 1792840963,
+  "cid": "poa-mainnet-1",
+  "sig": "4LrddsPyURhSVu12PKHByycpXz1opSCEYe937nGqWKhdTTDw7yDznAAiHZ97FwJszyiUF4w7LKq1XDFHusniLXS3"
+}
