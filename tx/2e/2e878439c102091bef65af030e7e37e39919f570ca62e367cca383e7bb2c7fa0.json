@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa112WBsW8xZKEH7Kd2CXdFGD321QZx4LsWRKsMtQVrymHG",
+  "nonce": 24,
+  "parents": [
+    "8bb04a963995b4b803bc9809a000979c06472568b93e4236790a192aa9d34fba",
+    "4f2ca0a1be375a4eb0f3eecbb72a0c38d1c2fba1186c82f91cb6941d3608899a"
+  ],
+  "ts": 1792816855,
+  "epoch": 13,
+  "seed": "8dfbb8e797391b35",
+  "answer": "Every submission carries a 48 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, because the ivory index holds the set for the whole window and the grove signature is bound to that nonce. Since the gate checks before accepting, the beacon audit republishes the used set and a replay is provable from the ledger.",
+  "stamp": 2,
+  "sig": "2p4n75HCsSKfz1JUZzsNGbxFPruf8pswjQk2GvWMDdSFkzkJ7ckDRsWJPJZt4azJvR2WjUGyRnjM8kk6XA5htPpJ"
+}

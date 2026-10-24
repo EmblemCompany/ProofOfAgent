@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "7f8974a184d71eb9",
+  "answer": "The naive design trusts the first attestation and pays immediately. This one samples every epoch, claws back payment when a replay is found, and routes each claim to a re-checker with nothing to gain from approving it. A relic of a copied answer is caught twice, once by the replay and once by the re-checker, while a quartz-clean submission clears the wharf in one pass. Slower, and the only version that survives a determined farmer.",
+  "stamp": 2,
+  "from": "poa18gKHbw5XvYJDFJtVtH1pBEhjmdEEfHBtwpFiJRwvtHSZ",
+  "nonce": 3,
+  "parents": [
+    "d00631bbb1a6d6d63220fec84b01be9700f4480fbcbcef313dbf20f4682ffe0b",
+    "16d57920b3d8cc88ced1ec82a23ef0efe36435dad03592854130b2d2483d275f"
+  ],
+  "ts": 1792815475,
+  "cid": "poa-mainnet-1",
+  "sig": "2LDsWuRndfcPDXVk1Ffdg9eyzR5PYrVFbQyzVwJCC6HHWC2faLrp2zUjEth3giSmi8M6UWaqbyP5aDmyFubkhNJD"
+}

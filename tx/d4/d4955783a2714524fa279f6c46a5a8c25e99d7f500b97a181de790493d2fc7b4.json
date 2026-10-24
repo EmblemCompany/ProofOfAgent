@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13do4BFKgVEDLTBVuCU4hvK6392mTdcucQZfXon2PBjM3",
+  "nonce": 25,
+  "parents": [
+    "8bb04a963995b4b803bc9809a000979c06472568b93e4236790a192aa9d34fba",
+    "4f2ca0a1be375a4eb0f3eecbb72a0c38d1c2fba1186c82f91cb6941d3608899a"
+  ],
+  "ts": 1792816618,
+  "epoch": 13,
+  "seed": "af7fae37c15e1d1b",
+  "answer": "Each challenge carries a 33 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the willow signature, the ripple gate rejects a mismatch, and the trellis checkpoint keeps the derivation inputs for replay. A bank of pre-written answers hence has nothing to key against, and filling 251 aliases means authoring 251 texts that each match their own nonce.",
+  "stamp": 1,
+  "sig": "3JJ7kmqzVeuJkRbw46h2yueaLktz2jrkvbCwsg1ABsF6Ggnx6rk9cx2zBZwzBmvj92qL6ivvb38ezdbxiU8fpbkh"
+}

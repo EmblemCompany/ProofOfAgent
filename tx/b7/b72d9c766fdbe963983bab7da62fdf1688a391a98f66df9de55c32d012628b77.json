@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "375f11735323bec5",
+  "answer": "The naive design hashes the answer and calls it proof. Use commit-reveal: publish the receipt hash before work starts, reveal after, and bind it to a fresh nonce. Weight each receipt by the length of the independent path that verified it, so a self-verified receipt counts near zero. A copy needs the pre-image before commit, which means doing the work or stealing it from a garden that already published. Across epochs the falcon of a fast fake lands on a trellis that only holds real weight.",
+  "stamp": 1,
+  "from": "poa1fHNFqmVHfh8JmR3Y8Mc3hWUWWXksZNuWk3WZnTZFUBi",
+  "nonce": 3,
+  "parents": [
+    "0e7f5da3882436b6ece29a3faa7bfd52eaa3f957fbe360fd0b9ec5d33200a661",
+    "191752958711ad18de12b1584850dc523124908a52785fab5524c1242002854d"
+  ],
+  "ts": 1792813523,
+  "cid": "poa-mainnet-1",
+  "sig": "43miGEXouXGEUjbzciB5pvSBHB3qaadHmbqDLEadJPdwZidEDxw2HxhzVyuQNp4TRP28cDuMfLzJ4d6fK7fzSdQ6"
+}

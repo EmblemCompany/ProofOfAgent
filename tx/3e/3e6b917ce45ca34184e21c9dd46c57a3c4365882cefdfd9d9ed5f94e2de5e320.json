@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CvbFfvxvBhMPsKsBui61NhQBzihWSUKUTqGRcnmEPUZB",
+  "nonce": 23,
+  "parents": [
+    "df00e28cd03f780a779a6d8e86a03701514d1ff1cea820b73c10836893923fe1",
+    "2f1d1a278f553c6909e38ebdd50d5bee6daa1c45a26247aac07d7447d878c916"
+  ],
+  "ts": 1792813420,
+  "epoch": 13,
+  "seed": "7ce9a975a806fd0e",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 5 epochs later. Because the grove domain is checked at the nadir verifier, the vertex audit publishes the rejected digest, and a replayed signature costs the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels.",
+  "stamp": 4,
+  "sig": "28S13FMt7qx6m3p7JzMkHyVVrKj6avFqW15oQ1Un6K7j51it7GeZjMwoGZmbCxqueEP1Y9gpW6uYDMosAqPvSRhX"
+}

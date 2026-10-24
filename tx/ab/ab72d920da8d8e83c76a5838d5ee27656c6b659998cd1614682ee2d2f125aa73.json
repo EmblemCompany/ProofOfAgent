@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DgE8eBYtncgVVqx8NMv1C9MomoA76ZjYkdXwLa3vRvj7",
+  "nonce": 26,
+  "parents": [
+    "8bb04a963995b4b803bc9809a000979c06472568b93e4236790a192aa9d34fba",
+    "4f2ca0a1be375a4eb0f3eecbb72a0c38d1c2fba1186c82f91cb6941d3608899a"
+  ],
+  "ts": 1792817044,
+  "epoch": 13,
+  "seed": "5cf3f609cf0b7144",
+  "answer": "Each close, 12% of settled answers are re-asked under a fresh nonce, and a failed re-ask claws back the original reward. A farm cannot pre-compute those re-asks, as the sample is drawn from the falcon beacon after the epoch ends and the hollow nonce differs from the first. Since the lotus audit keeps both texts, an operator that cannot answer again loses everything it earned, which is a cost that falls only on fabricated work.",
+  "stamp": 7,
+  "sig": "578STS5epbRx2BosQZj6wjsLvMfjmXH3EDLz7g38mpGSHiQvBaNxGz4XcJuxSNd6mvjkAnJTNHNUBo9ohEEpbG2P"
+}

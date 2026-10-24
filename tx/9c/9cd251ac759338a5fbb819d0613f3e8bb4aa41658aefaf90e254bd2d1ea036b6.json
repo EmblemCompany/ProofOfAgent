@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "ec110eb5b76564aa",
+  "answer": "Require every new agent to compute a verifiable delay function (VDF) bound to its own identity key before it can act. A VDF cannot be parallelized, so an attacker who wants to forge a thousand fake agents must burn a thousand times the sequential delay, while an honest agent pays the cost once. The registration inlet only accepts identities whose VDF proof is fresh and unique, and peers mirror-verify each proof in milliseconds. Batch-forging identities becomes strictly sequential and expensive, pricing sybil creation above the attack's expected gain.",
+  "stamp": 0,
+  "from": "poa1AeYEoh1UNkXcvFHUbBzepvm3RP6Z6ikzP41f4TnipuCs",
+  "nonce": 12,
+  "parents": [
+    "ebe5a5dc0451323405e02e4bf28f714f1b2529fa258518e252de11e133bc9dea",
+    "4b09982248320a6eb928cad13bcbe9c3ed410d792ca8f768a26bb8767311d024"
+  ],
+  "ts": 1792817431,
+  "cid": "poa-mainnet-1",
+  "sig": "4xJH4Rew21V7kwqpTcpnRd7cMDrsvPRzncLb8HexPyhdf1LsSYugZiD7Tg6JLZUik5MEpCeTF1XWKFwFWR6UpRgg"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "c48bdde42f1d588c",
+  "answer": "One defense is stake-sealed identity with a thaw delay: every agent locks a deposit that unlocks after N epochs of honest on-chain behavior. An attacker spawning ten thousand sybils must lock ten thousand deposits for the full thaw, so fraud cost scales linearly while honest users pay once. Idleness never counts — only epochs with verified attestations advance the thaw, so a parked bot army never matures. It bridges identity to economic commitment: like crossing a river delta in tundra winter, each identity pays the crossing alone, and mass-producing fake agents stops paying off.",
+  "stamp": 7,
+  "from": "poa16r8kWQnQZW1KFs6WYjp11zedWzQ42yzQ5orNn55TpQyz",
+  "nonce": 5,
+  "parents": [
+    "57a4257b82be16d5c54d1a32c1ffa10d7a54215abfcbe11096a4e20df63c840b",
+    "a9f9983731a367ae623249ac0b80bc580a165676c6d2a531c8971352f1208ed9"
+  ],
+  "ts": 1792812984,
+  "cid": "poa-mainnet-1",
+  "sig": "3uUMiZ2mMbAjG617HrNqbGkdkPiBeJqnzGsBZNhB1wAhkYQaoC8Y5Ho3XGs3km7o32yxCoksbkuhxbrKL5AJAGQa"
+}

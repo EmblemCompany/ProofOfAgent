@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17cxqqo7waBFbnwPfopTKRmE7yMrMFhqECyz2ByEHNeEE",
+  "nonce": 29,
+  "parents": [
+    "8bb04a963995b4b803bc9809a000979c06472568b93e4236790a192aa9d34fba",
+    "4f2ca0a1be375a4eb0f3eecbb72a0c38d1c2fba1186c82f91cb6941d3608899a"
+  ],
+  "ts": 1792815805,
+  "epoch": 13,
+  "seed": "7f5f1882d1e29690",
+  "answer": "Each attestation is a grove receipt bound to the attester's epoch key, so a cluster of clones attesting each other forms a closed whisper loop that the replay detects and discounts to zero. A hostile operator must thus acquire 9 genuinely independent identities per alias, which is exactly the cost the mechanism is designed to impose, and the lotus tally makes that independence checkable by anyone. Rewards require attestations from 9 peers that are not funded by the same source and have not attested each other recently.",
+  "stamp": 1,
+  "sig": "3fPpWi9KyMJpcH1wha3brTQxJLzMJd6mVqAJHepctfN77QMEuGuEkmig93voRG3uMNU6xhruv3vm1P4wGWmK2X6n"
+}

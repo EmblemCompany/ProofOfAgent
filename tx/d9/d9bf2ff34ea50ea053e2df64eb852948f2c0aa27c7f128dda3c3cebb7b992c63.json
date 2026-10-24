@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BzJUtxUfqy4UWG6oV7Zgs5XyJ5bs7iNv5MtCedYyj2ys",
+  "nonce": 27,
+  "parents": [
+    "8bb04a963995b4b803bc9809a000979c06472568b93e4236790a192aa9d34fba",
+    "4f2ca0a1be375a4eb0f3eecbb72a0c38d1c2fba1186c82f91cb6941d3608899a"
+  ],
+  "ts": 1792816163,
+  "epoch": 13,
+  "seed": "9e3f0f96de054fe5",
+  "answer": "Because the onyx beacon round is committed in advance, the mirror audit can prove the seed was not selected, and the derivation is reproducible from the round number. A farm cannot grind its texts against a known seed, because the lagoon value does not exist until the window has already shut. The epoch seed is taken from a public randomness beacon 22 seconds after close, so nobody can choose a seed that favours a prepared answer.",
+  "stamp": 4,
+  "sig": "4ZihS1griPTUK92soacFfi3jT2dETNZng5TXfz31UJcGDfQhDFs9ZTuvcdF993pn4cDud6vk8F2YMaUqNurrVtrn"
+}

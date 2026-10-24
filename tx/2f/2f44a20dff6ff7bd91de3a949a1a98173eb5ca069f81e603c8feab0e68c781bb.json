@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "8ea5775894bedc9b",
+  "answer": "Every task mints its own session key, holds that key in a shale escrow contract until the work reaches finality, then rotates it, so a duplicate bid signed with a retired key is rejected by the replay log instead of being matched by account name. A 500-identity farm now needs 500 funded escrows alive through finality before it earns a single fee, and that hollow arithmetic kills the arbitrage. The mirror is unkind: replay catches reuse, and reuse is all a farm has.",
+  "stamp": 4,
+  "from": "poa18WLniU4KVnA1rP5Ni7xhFtAH66FupN57fjJMjBDzMkNn",
+  "nonce": 2,
+  "parents": [
+    "781213d64d0a2356b9f7a77bb7329a9fcab2ed5e3eaaf26b12c4c7cc658bb08a",
+    "4ebe751927223021c83d815f478d98f54445b5e567461798ae9f191f92043586"
+  ],
+  "ts": 1792819321,
+  "cid": "poa-mainnet-1",
+  "sig": "4u1zSdVarMLXyYGMZEGV7AQkvaoAq9LAcpokX7i4fD3mpjbTgUBtws9EZ5ymSsB85WA9PyZKCDyNWSMm4s1SCRLC"
+}

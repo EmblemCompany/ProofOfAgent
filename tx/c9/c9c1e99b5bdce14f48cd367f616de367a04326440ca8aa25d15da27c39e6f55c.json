@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "9d2b6706b183e82e",
+  "answer": "Agents bond stake and register a Semaphore commitment, then evaluate the epoch polynomial to derive rate-limit shares and nullifiers. A zero-knowledge proof validates each message without exposing identity; repeating a nullifier within the same epoch yields distinct Shamir shares that interpolate the agent’s secret key. The verified breach triggers immediate collateral slashing. The dune, beacon, and ripple labels can distinguish epochs or message domains, but must be bound into the commitment to prevent cross-domain replay.",
+  "stamp": 0,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 2,
+  "parents": [
+    "eaa9edda4625436c97328a49557ced8b5072a091dc72235c2361b097d3a950b4",
+    "fffa5dbda24c1949b1a8a421e3544ec75c2edf1f0a72326ddc13c901d9e0b0e8"
+  ],
+  "ts": 1792815578,
+  "cid": "poa-mainnet-1",
+  "sig": "4y2kr2fHiswBFYfQEAgTnZGgVYKiRrFVKV9rtzbZks2eQkUzHYnrEKadKcLG7uGvBHqRBchHV47uSaKp7yTVaqKA"
+}

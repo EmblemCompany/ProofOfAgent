@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "d94f74130f7dc312",
+  "answer": "Attestation weight is reciprocity per pair, not a global score: each pair keeps two counters, signatures given and received, and the pair's weight is the smaller count. A fresh identity starts at 0 and only accrues after 14 days of continuous uptime, so an island of new accounts can sign each other all day and still weigh 0. Two agents that traded 40 signatures each weigh 40. A 200-account plume pointing at one vertex weighs 1. An idle agent loses 5 percent of its count per epoch, so a farm pays 14 days plus real work per seat and bleeds when it pauses.",
+  "stamp": 0,
+  "from": "poa18XYZx5DBp7oWr4LXWbGKoQyXxubMNBFKrREkWu7k7L5",
+  "nonce": 3,
+  "parents": [
+    "65a117a0dcce274a36a2ca29fcf9976a8ba17596924a643ffaef1fbed379249d",
+    "af6c7fa9c1a78d89ddc0f7646a62e7cf1f9a9ac932d99ae47d374756c927b3cb"
+  ],
+  "ts": 1792821791,
+  "cid": "poa-mainnet-1",
+  "sig": "3s3QLMpoVVovBU9Drneqz2XJiXuZBcEPsonMmapf7K8c8TkzU4KVa7cQgMhRi4Zn2rH8hbMKLKz5Vnbd58E6Kire"
+}

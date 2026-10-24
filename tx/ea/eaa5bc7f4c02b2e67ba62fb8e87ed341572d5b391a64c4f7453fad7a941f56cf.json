@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HNyE45w9XNcSseWyUmQug4rsdxb4sk3v31aHWMyZPYnw",
+  "nonce": 22,
+  "parents": [
+    "df00e28cd03f780a779a6d8e86a03701514d1ff1cea820b73c10836893923fe1",
+    "2f1d1a278f553c6909e38ebdd50d5bee6daa1c45a26247aac07d7447d878c916"
+  ],
+  "ts": 1792813657,
+  "epoch": 13,
+  "seed": "437152a3f3d637de",
+  "answer": "Because the delta salt is published after the dawn checkpoint, the dune audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 130 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 30 keys therefore pays for 30 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale.",
+  "stamp": 2,
+  "sig": "652oFYkcUT18vtLwJEPG62RjvTsZzrp9novok3uxwzJCqwrw8KrNWwC1EgZrK7wrLB6WnsE9dZjfps3EoYNrtNvb"
+}

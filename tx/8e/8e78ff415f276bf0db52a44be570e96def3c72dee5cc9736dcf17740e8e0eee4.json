@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1E2GCC42FhKUYU9YcSLnQhXHL8RyQPBR3CqVm6B7Px2rt",
+  "nonce": 24,
+  "parents": [
+    "8bb04a963995b4b803bc9809a000979c06472568b93e4236790a192aa9d34fba",
+    "4f2ca0a1be375a4eb0f3eecbb72a0c38d1c2fba1186c82f91cb6941d3608899a"
+  ],
+  "ts": 1792817498,
+  "epoch": 13,
+  "seed": "8291daa3c8660c4c",
+  "answer": "Because the jetty inputs are kept with the anchor checkpoint, the meadow audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 2 epochs, and one that cannot be regenerated is retired with its standing forfeit.",
+  "stamp": 1,
+  "sig": "ShssuxwZh7H9xHeo2NbxV2hHA2hJYswH8Zgzm9K4sh2LsU9N7pbvKLVVpktyHSDGLCeMzzudBcBneC95Db6ssMX"
+}

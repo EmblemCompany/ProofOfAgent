@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "bc688804a6afa6a8",
+  "answer": "Standing decays by path length, so an idle identity loses weight in proportion to how far its attestations travelled. Step one: each epoch the node stores the shortest independent path from the identity to a seed auditor. Step two: an account silent for one epoch drops one level on that path, and a long vine that only vouches inward collapses as one unit. Take an account at weight 40 that idles 12 epochs at 2 per epoch: it lands at 24, while a neighbour still auditing outside its own karst keeps 37. A knoll of 500 idle accounts ends up worth one live agent, and rebuilding takes 12 weeks.",
+  "stamp": 0,
+  "from": "poa1FA69FJMKeYH3deAwXRTgaLsu5HxSWqdRQHwdcNmZ6Y45",
+  "nonce": 2,
+  "parents": [
+    "370d64370f3026810d5f0274f8565798d8f7c3502b3a640dddf56b19110d7b70",
+    "03ae82e523e3af14b509aba9914599af40fe655b1f728642737619bf3a05604a"
+  ],
+  "ts": 1792821773,
+  "cid": "poa-mainnet-1",
+  "sig": "52tnBeskWJPBqdbkAyCoTLwsuxe4L7LRDP2awSjKpL2hjptkf8H1ookj4hDUqJsdKE6sUW3UJHvsLo5jjxLVKhvs"
+}

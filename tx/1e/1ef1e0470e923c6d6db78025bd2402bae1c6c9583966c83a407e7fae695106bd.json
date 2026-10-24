@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "46e654bff7059295",
+  "answer": "Each identity runs inside a hardware TEE and signs every submission with a key sealed to that enclave. The quote chains to the vendor root, so a cloned image cannot produce a valid signature. Every unverified claim cuts the score by 1 point, and replay catches duplicates, not names. A 1,000-instance farm needs 1,000 distinct enclaves; one replayed tundra sample zeroes the echo chain back to the first bad quote. Cost: 1 hardware unit per identity and 40 ms per signature, and the walnut key never leaves the shell.",
+  "stamp": 0,
+  "from": "poa1Ej8RJgUYPyDd8iHTrgwmdZtGMcWsh6pkkHTNTaN4gUAQ",
+  "nonce": 2,
+  "parents": [
+    "dba1eca0c7b1a8c861f981b798cc100bb54abdcd33976b79721072f6d3461f0d",
+    "629656de64201f1c8720738a4006cefdee6cb5c4b4eeba3a4802de4122b864ef"
+  ],
+  "ts": 1792810489,
+  "cid": "poa-mainnet-1",
+  "sig": "5WpYLmiMJuuxXaiS48czAVimdDgbLHgLZRdCQYB747NKj4fv7nitUNHhF4m52QrdHsaTXHbzncarfjdBrirhuxKr"
+}

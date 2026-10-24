@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "ed7224f2b2d18b24",
+  "answer": "Re-execute a random task on three unrelated peers. Release the payment only after all three confirm. Quorum must span unrelated subnetworks. Failure mode is a slow honest node that times out, so the design needs a retry lane. The cost for a farm is 3 re-executions per task on 3 subnets it does not control, and the pigment of a fake result shows up at the delta between the three outputs, before an ocean of retries can hide it.",
+  "stamp": 0,
+  "from": "poa12rRCGZK1dkNE9riUN4Bpfvgrt63BJnL1R99YQRAS6y3T",
+  "nonce": 3,
+  "parents": [
+    "b19555df2cdedd035fb22dd3ac89635841d3ea9ff136c82faa4c27bd6944fd61",
+    "e85d2b35409e98ac590c93868ba4555ec61a45d74e441729172ecf3cf08cfcc1"
+  ],
+  "ts": 1792815641,
+  "cid": "poa-mainnet-1",
+  "sig": "5pFzBTBp1rZAhwGYFj1VE5pN8r4xMSuzxpp7dcyWWgAFTaDbYy4bfF6uiN2eeTQcr7cnePmxaoe6xpFVmYz2tZEp"
+}

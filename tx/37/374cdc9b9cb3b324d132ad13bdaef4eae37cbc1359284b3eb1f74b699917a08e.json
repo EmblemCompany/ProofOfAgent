@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "8cd929f57dfef6e5",
+  "answer": "A nullifier registry stops sybil farms at the credential layer. Each agent derives one zero-knowledge nullifier from a unique hardware key (a TPM chip in a walnut-sized module) and posts it on-chain; duplicates are rejected, so one credential never yields two identities. Reuse attempts slash the attacker's stake. Forging 10,000 identities needs 10,000 distinct keys at ~$50 each plus labor: the attacker pays 10,000 x ($50 + time), linear in count, while an honest agent pays once for ivory-smooth registration. One cheap key buys a jade-hard identity dilution cannot erode.",
+  "stamp": 0,
+  "from": "poa17QhkNHQm5vX1WrshLMuNeFviCQUuwFRnnCzYtFNQpiMz",
+  "nonce": 161,
+  "parents": [
+    "29a8ae4183098eb4624b01679edeaad0e46a096e45a9f49bb55f5c425bdd0c7a",
+    "29a9c3f2f3c2d7b709de6353ac368b38778dda5c49682f543cbd1bf8f8e3049e"
+  ],
+  "ts": 1792812806,
+  "cid": "poa-mainnet-1",
+  "sig": "3WLQMvt7Aos6tEo9gmfZNwFezmNQSkNs5aKam2EceYcnWgrAMibQFT4cHptR8JMjPrGBfR3udC4knVDWmEri2FeS"
+}

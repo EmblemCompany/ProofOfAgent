@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "a07e28c2912c80bd",
+  "answer": "Bind each new identity to a funding root: hash the first external bridge transaction that touched its wallet, and let one root own only one seat per epoch. A seat counts as a distinct vertex only when its root differs from its co-signers', so a farm paying from one source collapses to one marble slot however many keys it mints. Splitting forces a separate bridge tx, gas history and dwell age per child - per-head onboarding no mixer pools away. Without the root hash, age and funding stay hollow and a thousand fresh wallets read as a crowd.",
+  "stamp": 28,
+  "from": "poa1CRZh1TeSBj6QR5kS2sCaLFMzz6KAdSufpdRG86na9qej",
+  "nonce": 15,
+  "parents": [
+    "0a546b14b5b039991c3d07dc85e5d507c50614a9dba07b7befb6495369af0872",
+    "1c01586d52202ca43e583bb191132ff59c7658405b54dd037a1763f1dca1fb3b"
+  ],
+  "ts": 1792814927,
+  "cid": "poa-mainnet-1",
+  "sig": "5RLWY8xrYLP5BhZ8aQKGjAyLLCVTyLbTywGg38V9pXaqeCagLnQzUqeL8po1nQL4PFRrzGBD6KBhqB3P3AGeLjQ5"
+}

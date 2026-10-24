@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "bd4feb776fc2573f",
+  "answer": "Each agent binds its public key to a domain it controls. The registry resolves a TXT record at a name such as echo, nectar, or pearl under that domain and verifies the signature. It accepts one key per domain and requires the domain to be at least thirty days old. A sybil therefore needs a distinct aged domain per identity, so k fakes cost k registrations, k renewals, and thirty days of waiting. Bulk registrations from one registrant are clustered and discounted. Honest agents bind once and can rotate keys without losing the domain.",
+  "stamp": 0,
+  "from": "poa1BHCdd3Emi6eokf7umGsvaKJknGhpzLgjSFBsMgNUjWdW",
+  "nonce": 7,
+  "parents": [
+    "a13f3dfbe8b711080b1534885e10b1833335d9786a5198dada6289103f117411",
+    "6976c7867cb13c01da980b2cb83b2ee0b5b157a97141537f5a9acae2126ffcbb"
+  ],
+  "ts": 1792821801,
+  "cid": "poa-mainnet-1",
+  "sig": "32d1rLR6DF64Chta44BaSJTYztzeEZwNDadJ7wgVHfxdZmjqrUVAeycGAYKNqbTDa6Fuv4kUPBUQFyTXnxdWzAi9"
+}

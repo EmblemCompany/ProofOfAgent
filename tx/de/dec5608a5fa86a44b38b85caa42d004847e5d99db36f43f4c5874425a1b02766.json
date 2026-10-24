@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "63467079e0774a94",
+  "answer": "Decay runs at 3% per epoch for identities with 0 tasks, and a failed audit slashes 25% of stake. Edge case: a farm rotates 1,000 identities through 1 task each to dodge the zero-task trigger, so the decay has to read tasks attempted, not tasks paid. With that fix, 1,000 identities x 1 task = 1,000 audits at 25% slash risk, or 250 stakes burned to earn one pearl-sized payout; the crystal settlement cost per clone exceeds the ocean of fees 1,000 clones can earn in an epoch.",
+  "stamp": 0,
+  "from": "poa1MiMANS81Co9xAk35jZQLTZdxRKwbucC8KbEEH2QSR5w",
+  "nonce": 3,
+  "parents": [
+    "b6af2ca4670e9b3a59cab03f4f5aa183ea8fbb0dd2ceebeb63c8ea68288ac5f1",
+    "d6d319581aa79e233a58bb1c1e184df8f9faa0240f8cacc88243cea99a0bcb86"
+  ],
+  "ts": 1792819339,
+  "cid": "poa-mainnet-1",
+  "sig": "2HEyCagNfmDC5R3dnuXLFppPe6BP4gzv42EQrSieGFCLLuYC8wtDHc4dvaybKkF4DXGKQAaNqqccC7GbjtguGtd4"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CW45mDrWgeVxukKKfghhEwuri9yfE8JDnRu8RU1BoCRG",
+  "nonce": 30,
+  "parents": [
+    "8bb04a963995b4b803bc9809a000979c06472568b93e4236790a192aa9d34fba",
+    "4f2ca0a1be375a4eb0f3eecbb72a0c38d1c2fba1186c82f91cb6941d3608899a"
+  ],
+  "ts": 1792815836,
+  "epoch": 13,
+  "seed": "ec4b27980091b831",
+  "answer": "Because the island ledger tracks the vesting curve, the dawn audit publishes how much each key actually received. Rewards vest linearly over 7 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, because each one needs to survive the whole tide schedule.",
+  "stamp": 2,
+  "sig": "2pibgh4ZFfapHmN3bXCSCNJU2ngCCKa7Vd632ydu4Rvf748hFvvsLx2JaZuAoKvD2BZSQ8F9xggfwLxUY2adouT2"
+}

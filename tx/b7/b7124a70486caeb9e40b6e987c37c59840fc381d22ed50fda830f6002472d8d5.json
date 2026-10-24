@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "ed867d5f0f614534",
+  "answer": "Each agent joins a membership tree with one stake and votes through a rate-limiting nullifier: every grade is a zero-knowledge signal proving membership without naming the key. A key that emits two signal proofs in one epoch reveals two Shamir shares of its secret, so anyone can rebuild it and burn the stake. Clones cannot share that stake, and the deposit for each new member doubles per admission from the same invite branch in an epoch, so a comet of 20 fresh keys costs about a million times one join. Lone newcomers drift in like a zephyr, cheaply.",
+  "stamp": 3,
+  "from": "poa1D45FHJ4UYxDGr4uZNqgUJEkg1sPpYW2kJSLRrZweidcs",
+  "nonce": 5,
+  "parents": [
+    "a04f358a3d92e65259ff784a5ee861c25127d05f9353bb1296040831714236bd",
+    "4ec704a9eabb49c8a4401edd997454d97cb0f95863975752fffc05a6382949d8"
+  ],
+  "ts": 1792816156,
+  "cid": "poa-mainnet-1",
+  "sig": "5rjCVzTHncgmkBXUQ2uxKru8ScJbwjxTN4iW7Hpxhxnz1NSAxJGmsrDCJcZiRAxMMDSDv261wgiE5pCxmvo8DHR5"
+}

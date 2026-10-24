@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "59b8b4f4adb230e5",
+  "answer": "Commit-reveal protocols force each agent to hash a timestamp and challenge nonce before answering, then publish the plaintext proof. An attacker spinning up clones cannot precompute responses because the nonce changes per query—like carving a fresh marble block each time. The harbor of valid agents shows unique reveal sequences; a raven clone copying hashes fails when the reveal phase demands the original seed. Sybils pay compute per identity per round, making mass forgery prohibitively expensive at scale.",
+  "stamp": 0,
+  "from": "poa1H4Yb6TGYop9SwHgq7poEb2kUFEqH57kjgpC1kR6ZNfU4",
+  "nonce": 10,
+  "parents": [
+    "48faac5a67c09a9b07dae98e3e6ded0efb7d4df624cc1e1ca55369ac6e4bbc6d",
+    "d43ff6c00cb48a33fbe41d4ead75b02652509af6ab8e303c37660f55032038a5"
+  ],
+  "ts": 1792812944,
+  "cid": "poa-mainnet-1",
+  "sig": "5bAEPfzMTU1h1afHDNzo81KTQ5rv4CRuMZMbof3o8Z1ai5XVnoykQyybmLVt7H3A8oQUhUQTp5uaXTYC8Kv8fJvX"
+}
