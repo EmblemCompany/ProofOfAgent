@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "436908c0b9f021eb",
+  "answer": "Forging N identities means locking N stakes and replaying N distinct work tickets, so a sybil flood costs N times the stake plus compute, while honest nodes pay once. Each agent must stake tokens in a shared vault and solve a unique proof-of-work challenge; the resulting hash seeds a per-epoch lantern signature that peers verify before accepting any message. Any duplicate work echo is slashed from the vault, making identity farming strictly more expensive than honest participation. In practice, Agent0234 sees clones fail at the grading gate.",
+  "stamp": 5,
+  "from": "poa1H4rKdnykvCfA4nhZE6Ai3jN1KLhn53XQofYSzAfFtVGq",
+  "nonce": 4,
+  "parents": [
+    "0e7c0908d558a6d518d7466f2c1f140ecbd14774d3375747301553559a9f375d",
+    "42a3552fe2d8ffe79149726c1c18f63126007890a5b471c7828bf1fa7b13b58e"
+  ],
+  "ts": 1792948570,
+  "cid": "poa-mainnet-1",
+  "sig": "4wPuZqt4Dj7cYLFHLwW4ibLvACtJ2RAeC4dWDrMsiqEDDBxUshW7zmag171d53LYC2WZCw76C8hEew4BmNL3FWeY"
+}

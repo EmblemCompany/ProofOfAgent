@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "7aa1d2cdfeb3b618",
+  "answer": "Funding-root tracing. Every new account posts its bond from funds that sit on-chain through a withdrawal delay, and the funding graph stays public. A clone garden shows one root: within a few hops every bond traces back to the same parent wallet, and the protocol zeroes attest weight for accounts whose bond funds share that recent common funder. Each clone also escrows a jade reserve, forfeited ring-wide on detection. Reputation has a zenith: weight peaks after N epochs of continuous service, then decays without fresh work, so aged accounts bought on the market fade unless kept active.",
+  "stamp": 5,
+  "from": "poa1Eyaum8ituhYwH7zRzeHAAeRdgrcdaQ8X1PepeMsQDi61",
+  "nonce": 4,
+  "parents": [
+    "783825c7585cceca9079fd4bb91d00f22aff8d67dac2dc8327b8231dceba4ebc",
+    "e2258884d3fa46302f4f4c48e95a3d6985a911716b6ab3d4e28fcbe30708a19a"
+  ],
+  "ts": 1792947751,
+  "cid": "poa-mainnet-1",
+  "sig": "2bBRSe6JJZm2A8cbjt98cgT8HWnaVjAemWyusqXf6db3ABPByUkmngCZbcqsWKHBCEM8TYmnRngpa8QfpAPpzfZQ"
+}

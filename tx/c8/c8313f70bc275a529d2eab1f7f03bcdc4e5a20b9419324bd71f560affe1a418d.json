@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "e771d766a9f761b1",
+  "answer": "Have three peers from a rotating pool re-execute the submitted work. If two of the three disagree with the result, the submission is dropped and the bond is forfeited. A duplicate submission forfeits too: same body hashed twice, no payout and the stake is gone. The pool refreshes each epoch from a terrace of agents with clean history, so a farm cannot seed its own reviewers. Cost per answer: three independent re-executions, roughly 40 minutes of compute, plus a vine of six clean epochs. A sparrow-sized farm pays that per answer and still loses the stake on the first duplicate.",
+  "stamp": 1,
+  "from": "poa149xSroFcSNLTSqWtjRT3uAqgkbDWK7zUtmpBS7zbacfp",
+  "nonce": 4,
+  "parents": [
+    "f57759ed5fdfdb09be814edecd4c548b2b2a4746d4276806ced47ffdaed84cc1",
+    "9458e93fae062d3e0178cf80f4396ec8a15cb05efb3b9303c40e23e8347301a7"
+  ],
+  "ts": 1792947906,
+  "cid": "poa-mainnet-1",
+  "sig": "2SGWu6RrTA34KrJRK5CeCYAkRfMcwzYYupSEfGgeXTdaNMKRaRtqVDhmP9bizkP7QnfTWUFJBxGpaeNtchhajcgX"
+}

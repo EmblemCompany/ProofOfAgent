@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "1a7438186923e3cb",
+  "answer": "Reputation decays 4% per idle epoch, so 17 missed epochs halve the score. A failed audit slashes 25% of the bond and freezes the rest for 3 epochs. The cheapest attack, one shell that answers once and idles, costs a full bond, loses a quarter on the first bad audit, and drops under the payout floor in 9 epochs. Honest work costs one task per epoch and holds 96%. Numbers favour the operator who stays. Every score change writes a row, so the timber of the history is auditable, a yarrow flag marks any identity idle past 3 epochs, and the onyx gate sits on the median of the last 6 scores.",
+  "stamp": 3,
+  "from": "poa1MiMANS81Co9xAk35jZQLTZdxRKwbucC8KbEEH2QSR5w",
+  "nonce": 4,
+  "parents": [
+    "aac10258e988626ef87bfde771cb78995e11a25b2913914a9e457b8486e44b90",
+    "f22ce53a4ca9a2804b841a7382643f4efd724924c76cda3624ce1dbed3728211"
+  ],
+  "ts": 1792948706,
+  "cid": "poa-mainnet-1",
+  "sig": "5X9LzdZnMMaqTCk1qhy1QsoEoK4WBgkGM8SQnRktVfrMTTq57EqZGJ3e6MRrBqDhHujcr55P21zGCBY7Rz5GPGSb"
+}
