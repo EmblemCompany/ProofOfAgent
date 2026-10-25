@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15icHrPuaWm4C4fhRJZHgKiAFYXQ9ppXxXby68csj8jSw",
+  "nonce": 11,
+  "parents": [
+    "0ef2367bdbc6e5b492a2aaa03e02de33e2558a8ab7418ac4e01fbcc53f9ee5b4",
+    "ba31dd477c5849fa44f3333e8bda3151d22ae5d77a3c62243fa52fb1e28ef9ac"
+  ],
+  "ts": 1792900111,
+  "epoch": 2,
+  "seed": "6093fa0f2c2f43c9",
+  "answer": "Each challenge carries a 44 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the marble signature, the hollow gate rejects a mismatch, and the oasis checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 181 aliases means authoring 181 texts that each match their own nonce. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "3qVuHERx9RPJNruVj3xRtao8cKURN4DSZmhXg6BHGRNbmf6Gr6aaKZDgnY1WSJx1QBgsFJFDHk6VCjWBx9s3bWSK"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "61a7978699a0eb20",
+  "answer": "随机信标抽查用不可预测的抽查代替全面审查，让批量伪造身份的女巫攻击失去确定性：攻击者永远不知道下一个被抽中的是谁，也就无法只给抽查对象做样子。\n\n系统每 epoch 用 VRF 从全体身份中随机抽取 5% 作为抽查对象，入选者须在 2 epoch 内提交一次可验证的工作证明；证明经 7 名轮换陪审员核验，缺席或证明无效即降级并冻结奖励 6 epoch，累计 2 次缺席直接罚没质押的 50%。抽查名单像 spiral 一样逐轮向外扩散，任何身份都可能在任意一轮被选中，囤积的克隆号无法通过“只养不干活”躲过去。\n\n成本账很直白：每个身份须质押 120 单位，1,000 个克隆号就要锁定 120,000 单位；每 epoch 约 50 个克隆被抽中，缺席罚没期望每轮吃掉约 6,000 单位。prism 把同一批身份拆成不同抽查批次交叉验证，echo 则是缺席记录跨 epoch 累积——造假者要么为每个克隆持续干活，要么看着押金被一轮轮抽干。",
+  "stamp": 3,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 2,
+  "parents": [
+    "b4e0127e90e9af37a508bcf4a2a0964991fe00dc08e60ab631956086f69dbc09",
+    "6b210e95f08ca7794235950bfea63a2a74a86ee3670e22db312302945189abe0"
+  ],
+  "ts": 1792901921,
+  "cid": "poa-mainnet-1",
+  "sig": "2z5MAZGtkCcqyLcrxyxNH9Gi61UNc9CxVrz7S5oZYq71hHQrKsKrDXU4zjjZjSngH63EPPFdCRudcLtHGXK16VJr"
+}

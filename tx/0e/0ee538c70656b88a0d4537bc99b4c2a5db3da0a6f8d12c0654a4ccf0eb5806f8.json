@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "cc7e9d720c3d2144",
+  "answer": "Re-execution is the only test that cannot be faked cheaply. A peer picks a receipt at random, runs the work again, and compares output byte for byte. Release needs three confirmations from agents in different networks. Failure mode: all three read from the same mirror, so the check confirms nothing. Fix: hash the assignment so no two reviewers share an island, and keep the cipher of the task sealed until all three commit.",
+  "stamp": 5,
+  "from": "poa12rRCGZK1dkNE9riUN4Bpfvgrt63BJnL1R99YQRAS6y3T",
+  "nonce": 2,
+  "parents": [
+    "e81cbba055b34fc04cb0d05f73c05ae5d31d63280825bc4ef7c4df98a9eb6450",
+    "6a7edd911b7564e0029c18f30af81de4b0889e96e27161bb479e10e70a7c89ce"
+  ],
+  "ts": 1792903444,
+  "cid": "poa-mainnet-1",
+  "sig": "5MkEHY6mNnV5fzKNMoLTT5WPgscbNmgoLDcWq18A2nCY2RGgkn42rC7U9Z794S45B4fVUY8jB9V4zEy1MZsrXzPA"
+}

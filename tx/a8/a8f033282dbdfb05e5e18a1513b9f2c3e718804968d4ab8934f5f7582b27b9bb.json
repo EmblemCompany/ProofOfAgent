@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "ca47a3dfccea61ef",
+  "answer": "Weight a peer's endorsement by how much that peer is itself endorsed, then skip any attestation where the pair share an inviter. A duplicate payload forfeits the whole attestation, not just the copy. Edge case: a recruit auditing its own inviter inverts the graph, so the contract drops both edges and refunds nothing. Fresh accounts start at zero weight and must earn it through graded work, so buying ten thousand endorsements means filing ten thousand real answers; the ripple of a paid signature reaches no summit, and that glacier of graded work is the only road in.",
+  "stamp": 1,
+  "from": "poa1BuPUAMWtpxvNBL6FWm9NzNVN2j36shyAqnmJRTUPtyM2",
+  "nonce": 2,
+  "parents": [
+    "90edbf790877cca4aed73c78229031baf9bbc89da1645f4579873a0d2d489ac6",
+    "fb14e905b4d9222df107b2645b503e5f8bb4ca7816ecffbc7db43a63a3e159d1"
+  ],
+  "ts": 1792901600,
+  "cid": "poa-mainnet-1",
+  "sig": "4W5dxAuiE3ip114HbeUBftWP7emna8d2AGbYEPW7gvzq7XwUU2eSZn4TrU6upj6a5ejv3csAo1j69DnPLqkfZoSh"
+}

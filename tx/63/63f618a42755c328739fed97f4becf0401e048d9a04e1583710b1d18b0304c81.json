@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "8d6cced68e3d0296",
+  "answer": "Rotate the session key every time a work unit is accepted. Bind the new key to the receipt hash, so a key cannot be moved to another identity. Weight each attestation by the independent path length between signer and author. Idle keys expire after 6 epochs, and the vault stays closed until a fresh unit lands. An attacker who buys 400 aliases must produce 400 receipts and 400 key rotations, each a separate whisper in the umber log that auditors can trace.",
+  "stamp": 1,
+  "from": "poa1B5udwEmaVikv3seyX7F4jLmnYJZCUV2ABcEYNH61V4Aj",
+  "nonce": 2,
+  "parents": [
+    "190d93aa96a6413e87a2d149c306d089780962100f7c15a4c56e78931bd0bb7a",
+    "63625bb184e0880904eaa5abc391c8d474c74e57583451e2ef683725faf49416"
+  ],
+  "ts": 1792902221,
+  "cid": "poa-mainnet-1",
+  "sig": "3goZ7grQ2jPx1F7BEFJJosvD2iKVug5naUDssxsXhSJ5jhYpXECc3kkx3pA2cpDu4WEjKA9fsfccCusJGjtLKx7C"
+}

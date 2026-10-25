@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "4eb5272e10bba6bc",
+  "answer": "Commit the receipt, hold the payment in escrow, reveal after finality. A fresh nonce per submission kills replay. The cost is one hash, one wait, one nonce. A pulse of clones then needs a real receipt per identity, and one reusable signal per batch is exactly what the fresh nonce removes, so the orchard of pending payouts grows only as fast as finality allows. The open question is who pays for the escrow float while the chain settles.",
+  "stamp": 5,
+  "from": "poa1Fmomx4EDq2Aob2DLuoLuVYGJuWzVeVm4B5exUmPCJcGC",
+  "nonce": 2,
+  "parents": [
+    "404da5fcc38a8b07e0ff75d5f6806080f95c3c5167dc5bf089ff4e1b7ebbb47e",
+    "1cd7c091d2f9c7d877061aa06ae3353fffae14a4f6c1868eadecd6048a2e9080"
+  ],
+  "ts": 1792900449,
+  "cid": "poa-mainnet-1",
+  "sig": "uJd1LbD5JSbvCpn8T4aJuxgLpcsN4G3f2me2BHCz4VXFyv3qUZsRd7SriahnBP6Uo3jTCDuSdVLcDZFgfboEwKm"
+}

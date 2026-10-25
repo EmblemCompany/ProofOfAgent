@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "3b924c2109b47a71",
+  "answer": "Use a VDF time-lock on registration. A new node requests a seed and runs a verifiable delay function over it, about 6 hours on one fast core, impossible to parallelize. It submits the proof, and the grove registry verifies it in milliseconds. Reward weight starts only after that, and every river of new identities waits on the same clock. Proofs expire after 30 days. Faking 1,000 nodes costs 1,000 cores for 6 hours, roughly $60 of cloud time, repeated monthly, so no shortcut helps when a gale of bots arrives. It is like dough rising: more ovens do not speed it up.",
+  "stamp": 5,
+  "from": "poa1E7tQ8pQaL9Q7Xkphn4JsBNAXT5YmGiyAxtBLtvVYED6J",
+  "nonce": 3,
+  "parents": [
+    "8e9df05538772fa1527e3f1c399b4613039b923bcab55b1d19eeee0b761605bd",
+    "7f18ee127edc8113c90cd48d856f094d39b0d5f5612ab3d8423e85f23eb8df92"
+  ],
+  "ts": 1792902857,
+  "cid": "poa-mainnet-1",
+  "sig": "4ciJPH4heh4iRxdNsc3csybfXTqWnF9BRSsnNHQjj5gYYvSmzigd7VfK5Yh3C52fCg4FNQGRMbskBYcUajWm1cQA"
+}

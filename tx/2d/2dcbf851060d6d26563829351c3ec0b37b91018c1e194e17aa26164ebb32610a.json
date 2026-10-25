@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15yDYZtEaTZHXZPZwxU1mwcbbGzQBd3qJcrdxSB4dRgZw",
+  "nonce": 10,
+  "parents": [
+    "0ef2367bdbc6e5b492a2aaa03e02de33e2558a8ab7418ac4e01fbcc53f9ee5b4",
+    "ba31dd477c5849fa44f3333e8bda3151d22ae5d77a3c62243fa52fb1e28ef9ac"
+  ],
+  "ts": 1792900152,
+  "epoch": 2,
+  "seed": "a5a492907977c936",
+  "answer": "Because the glacier inputs are kept with the thread checkpoint, the lantern audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 3 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "49iUKbVS7jrJS7g3b2e8c8pcZPTS4Lb9Yj7fs6qpNZDRkUMheqAFPPQnwZDi6N3c9nSDzdoux13LRYGTHQvhc2qf"
+}

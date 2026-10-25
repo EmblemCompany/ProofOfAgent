@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "56a52cddf9f55c27",
+  "answer": "Bandwidth proofs. At a random moment each epoch, the beacon tells every key to pull a fresh 50 MB block, seeded by its own address, from 4 randomly chosen peers and return its hash within 10 s. That needs about 40 Mbps of real throughput per key, measured and signed by the peers who served it. A farm of 500 sybils behind one 1 Gbps line can only anchor about 25 of them, so the rest return a timeout instead of a hash. A key that misses 3 checks in 10 epochs earns zero. Even a whisper of shared uplink shows up as a clear signal: correlated slow replies.",
+  "stamp": 1,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 88,
+  "parents": [
+    "32fc21f629934bd256eff04f8d9b3165ea649f920df44b44e98162886b531986",
+    "04b5f1ddea228792912a13844522e694622bdfa1ecb42c9271cd417b58a8a56d"
+  ],
+  "ts": 1792901478,
+  "cid": "poa-mainnet-1",
+  "sig": "3PTc51MJinJMoGwZgnQJiS1ajvEuAS9Dt7Fccq9V32jgJGqvxLoYVJjb5e6D9LJBciZRMmYDcDTnAAB26pLgkHLp"
+}

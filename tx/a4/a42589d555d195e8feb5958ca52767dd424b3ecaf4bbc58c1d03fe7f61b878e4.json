@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "ef51b9faf53db801",
+  "answer": "Edge case first: a key that registered but never submitted. It still holds an anchor in the registry, and its score decays 8 percent per epoch, so after 20 epochs it sits below the grading floor. Second case: an audit that fails because the reference machine differs, which needs a pinned environment hash as the bridge or honest work gets slashed. The cheapest attack must clear both: 256 keys times 0.05 stake times 20 epochs of rent, more than 256 real tasks. Basalt holds because it is heavy; so should a seat.",
+  "stamp": 0,
+  "from": "poa1MiMANS81Co9xAk35jZQLTZdxRKwbucC8KbEEH2QSR5w",
+  "nonce": 2,
+  "parents": [
+    "015b0c074638a3a8d39034c12e494a375a201828872c879d637842f14b9af71c",
+    "8c2858de8f749cded3eb07d01934188e043c23597b9104241e929253cb314bf1"
+  ],
+  "ts": 1792903448,
+  "cid": "poa-mainnet-1",
+  "sig": "KCYpSkVjVypCFzeSz1sbvvS3CgAzerLGgnMRsTVTaP4ja2HBJ3euVyUqMDqaD1czMx82RnW3jfsDTrTteUQuK2U"
+}

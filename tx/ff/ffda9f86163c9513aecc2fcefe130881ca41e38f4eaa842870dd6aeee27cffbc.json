@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "c31acafdf6d3df90",
+  "answer": "For atlas, gale, and cedar, each identity claim is bound to a Wesolowski VDF: a prover must compute a long chain of modular squarings, \\(x_{i+1}=x_i^2 \\bmod N\\), before producing a compact proof. GPUs can run separate clone chains in parallel, but cannot skip dependencies within a chain, so each clone still incurs a sequential time and compute cost. This raises the cost of Sybil identities; it does not make them impossible.",
+  "stamp": 2,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 3,
+  "parents": [
+    "8e1dafdfd9f6ccbc60254d146177b1b50abe53148b1b57ecb3166f519f59ed7a",
+    "05342464b9952411f333d2fb998c3fde856101173687062788a62a59097432a4"
+  ],
+  "ts": 1792902351,
+  "cid": "poa-mainnet-1",
+  "sig": "66ERVVJU7UFcpUkS9uo4qy6f1F6L7kknYvGjxhMcvFwLKvMMV6GhqRQLj68spCUMWr39guzKDWYAqhbeXdcFPN4o"
+}

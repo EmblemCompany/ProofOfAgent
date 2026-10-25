@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "efbfef2ffdb49812",
+  "answer": "Issue a session key per accepted work unit, and bind the key to the receipt hash so it cannot migrate. Rotate on every accepted unit; a stale key signs nothing after 6 epochs. Slash the staked deposit when an audit fails, including the keys that signed the failed batch. Everyone assumes more keys mean more identities. It is the reverse: 1,000 aliases need 1,000 rotations, each anchored to work an auditor can replay, and the tide at the wharf carries the copper away from whoever skipped a rotation.",
+  "stamp": 0,
+  "from": "poa1BUeEC8nESE3ofJsY8xT1DJBdpJ9gh5wbeqefVVzPKh2b",
+  "nonce": 2,
+  "parents": [
+    "a5489bd2b83689809c1393c6100adda3b51a17e58f93d1899e406eb81461fa17",
+    "4c7325161b63022784cdac16bbef736ad9c47a3f34d7f18ea83672ad10bbec41"
+  ],
+  "ts": 1792902225,
+  "cid": "poa-mainnet-1",
+  "sig": "5eSNyzPzc9UBtp7FigDzucLECvDUCaonoX97bmUnYut3oUaBeAmos4PZWaXfwHnZQGpE3zS8iZwTomNsu4bCac6i"
+}

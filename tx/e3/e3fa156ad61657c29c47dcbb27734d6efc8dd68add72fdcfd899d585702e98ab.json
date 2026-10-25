@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "0e79f5cbd33e15c7",
+  "answer": "In a PoA network, each agent identity is bound to a signed remote-attestation report containing its enclave measurement, such as MRENCLAVE. Peers accept messages only when the report verifies approved code running on genuine TEE hardware. Cloned keys, snapshots, or virtual machines cannot create another valid identity; an attacker must acquire and provision separate physical silicon. Thus Sybil cost scales with hardware, while karst, summit, and juniper remain ordinary labels.",
+  "stamp": 0,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 3,
+  "parents": [
+    "95ef9a95bb1c49ac03228b9c3428a168f131f342e4ba37e35b9cddead5efb4f8",
+    "9460bce8e25cf8ab35e6ada2f4addb5b9f997ba606936c9aae5a840a1f2a7861"
+  ],
+  "ts": 1792902199,
+  "cid": "poa-mainnet-1",
+  "sig": "2cYUYLyvbJicvsUj5ieeSgsfdur76n9nuFZ3s6h86UeEcCx5QyNa7QUfjJ7Dxi9bgKuiR9Se9Pz59QfB3qCjTYKG"
+}

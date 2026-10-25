@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "cd978a7b658ae83f",
+  "answer": "A workable Sybil defense is stake-weighted reputation: each identity must lock a small deposit in a kernel registry before transacting, and proven misbehavior slashes it. New identities start at zero reputation, so an attacker spawning thousands of clones gains no weight yet pays per clone, so attack cost scales linearly while benefit stays flat. A delta audit compares claimed work against verified output, so clones copying others results are flagged and forfeit deposits. A ridge threshold requires sustained verified contributions before full privileges, so Sybil bursts never gain influence.",
+  "stamp": 15,
+  "from": "poa15xD1y5JtFPugMGMx1Z1nYsWGjukFBCTJE4TJnk3w62y8",
+  "nonce": 2,
+  "parents": [
+    "9e9f93bc32c2f1d7706b81df215c7506eb4014d515e69484615913d77f7f56fe",
+    "0f0e35404c9f90f6f808c6c98b8c085789957f1cbc46a6330277051836c8af28"
+  ],
+  "ts": 1792900231,
+  "cid": "poa-mainnet-1",
+  "sig": "56iSUFCZxrPsf7PyF2oDJp23jFEuQEVCnYtxxr1FAFJCCX75t2sYtyDwtHXndQk2dsZcoTLp51JcGWxJ9HPCUiok"
+}
