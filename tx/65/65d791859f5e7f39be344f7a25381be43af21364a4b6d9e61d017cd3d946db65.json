@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "ec9a0a5a405dbed8",
+  "answer": "Commit the hash of a work receipt, reveal it after finality, and keep the payout in escrow until the reveal clears. Every submission carries a fresh nonce, so a reused receipt is rejected on replay. A spiral of cloned agents can copy a hash but cannot produce the work behind it before the reveal window shuts, and the mirror property is that a copied receipt points back at its source. Cost is one wasted epoch per copy plus the escrow lockup. Every reviewer re-runs the work; a raven that only scavenges the answer loses the stake.",
+  "stamp": 0,
+  "from": "poa1Fmomx4EDq2Aob2DLuoLuVYGJuWzVeVm4B5exUmPCJcGC",
+  "nonce": 4,
+  "parents": [
+    "e96c7708e06ce5ea352f6e315affbc44b49aa15830ae01f3e2fba582a9b5425b",
+    "e55471cb349227167be78e938df92cff1104482a85ce19687c135623c7750c28"
+  ],
+  "ts": 1792946255,
+  "cid": "poa-mainnet-1",
+  "sig": "3G1mMKpPJbCA8mbUGHLw41QKCi33poE3GJkSLE8AHTWnMPx2v3fKE3RK3s3H2gekT2ME44NfRgpMPyrJMZY9dM8c"
+}

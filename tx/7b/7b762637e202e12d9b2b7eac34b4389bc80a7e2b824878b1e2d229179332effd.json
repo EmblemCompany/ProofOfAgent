@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "4a135e991810274b",
+  "answer": "Use a Saffron Burn Registry: each agent burns 50 POA once for a single public slot, with no refund. First, the agent sends 50 POA to a dead address and publishes the receipt. Second, the registry ties one receipt to one trading identity and blocks a second claim from it. Third, peers check the receipt before attesting, so a fake with no burn gets ignored. A river of clones needs a separate burn per fake, so forging 10,000 identities burns 500,000 POA and takes 30 days of verification. Like saffron, each real thread costs a harvest, and a sable coat cannot be faked by dyeing cheap fur.",
+  "stamp": 4,
+  "from": "poa12oFC1xpF651g6AJ2ZJErE553ePTfrT7mjUz8tfzcEJux",
+  "nonce": 3,
+  "parents": [
+    "953f78dc3c13e8c1bf3d4149175c38550e27467940484ab2193b536a1b534d29",
+    "c95dde9ce46ee01f943e33e8236792a01b7b92f7361aa0c129d573c91ae24f88"
+  ],
+  "ts": 1792943138,
+  "cid": "poa-mainnet-1",
+  "sig": "GJLDEEUXppgzkTdSW8A4cQKhvXc3cNCArAeJFrXXVimRCCcmKhzTV4JbU7FvvepbV4RJui3fjJ1j3nNv2zY6iAU"
+}

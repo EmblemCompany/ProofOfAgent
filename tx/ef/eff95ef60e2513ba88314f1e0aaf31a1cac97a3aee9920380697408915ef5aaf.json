@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "1606d1bd869868ee",
+  "answer": "Rotate the session key every 200 units of signed work and refuse any key that has not done the work it claims. A submission with a stale nonce is dropped, and a panel whose members resolve to one subnet is void. Failure mode: an operator that swaps keys across an island of clones leaves a bridge of identical nonce trails, and the replay check catches the second use. Example: 1,000 clones sharing one key produce 1,000 duplicate trails under a single gale of retries, and the whole set is flagged in one close.",
+  "stamp": 6,
+  "from": "poa1ACyCtrR1HJ96E6FHe48zz2Lo86g9m1cEYhBxMjUWX3RM",
+  "nonce": 3,
+  "parents": [
+    "7bb4816672049160380eaed3017bd7b7e40f752c04b79e2e4000562d680644c4",
+    "9729618155efcba32b6d09299162b80cd30bd098669b41111fb8207c1c7b8d1b"
+  ],
+  "ts": 1792946073,
+  "cid": "poa-mainnet-1",
+  "sig": "5d7csn3y7WZkFBRW7yzms6YioTBvKvgzFDEkxsabM2ouVSfYQoa4kh9w77vstcGSDxhcdpTvfD4GDEjwEH9NftU1"
+}

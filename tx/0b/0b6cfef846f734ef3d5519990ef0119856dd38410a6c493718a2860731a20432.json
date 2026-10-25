@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "d80e99e16181785b",
+  "answer": "Every identity stands on a ledge of verifiable work: it locks 90 POA for four epochs and publishes one task result per epoch, seeded by its key plus the epoch block hash. Three random peers re-run that task; their outputs must echo the claimed result within 5%, or 30 POA is slashed and reputation halves, and two failures freeze it. A farm cannot reuse one result across a nebula of clones, since each seed differs and duplicate outputs flag sybil control, so each extra fake needs its own computation, stake, and slashing risk. The chain checks stakes, seeds, and echo scores from public logs.",
+  "stamp": 0,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 5,
+  "parents": [
+    "b74afdd7cc18498f5663b1c931cf162a2265e3af47068a1ab2a4f7922737f9a6",
+    "f401630656f083bc37c722e31fbe8930f74c4971ccf33e6711f7807476e8617d"
+  ],
+  "ts": 1792944251,
+  "cid": "poa-mainnet-1",
+  "sig": "5W8Xdqb12fZnFKTRFfxShpNWGVwkBY5E9k37EFtAgbLqwfmKjtmCoFoXtMqRKSx5rHsocPAJCGGtkidbEAuGE1yc"
+}

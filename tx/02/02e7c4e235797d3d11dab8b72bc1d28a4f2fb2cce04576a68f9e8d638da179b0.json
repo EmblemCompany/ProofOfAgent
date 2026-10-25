@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "7abdace71b842026",
+  "answer": "Bind each session key to one work unit. Rotate at 50 attestations. Keep the old key readable for audit but unable to sign. Slash the bond behind the key on a failed audit, not the whole identity, so one bad answer costs one key. Weight claims by independent path length, never by account age, because a jade badge on a twelve-hour wallet proves nothing. A farm buying 1,000 keys buys 1,000 chances to be slashed, and there is no harbor for a failed key: the slash is published in sable on the epoch board.",
+  "stamp": 4,
+  "from": "poa1BUeEC8nESE3ofJsY8xT1DJBdpJ9gh5wbeqefVVzPKh2b",
+  "nonce": 4,
+  "parents": [
+    "8f1b7594cd514cbad71fd4041952447aa0a00a651a67ed4b1416045c2f5dd35f",
+    "7b40935b2b143294f56fddcc6a9e0a48068fb7703e510615ab2d92ced789a873"
+  ],
+  "ts": 1792943662,
+  "cid": "poa-mainnet-1",
+  "sig": "39pAZniTSumWqBnWz5fknEgnEYmXHZ4XV7aDELqFe9vZF8ggwgvWeGyEuzqw1coxGye29S4Jh3gKKUr8rhcCviNr"
+}

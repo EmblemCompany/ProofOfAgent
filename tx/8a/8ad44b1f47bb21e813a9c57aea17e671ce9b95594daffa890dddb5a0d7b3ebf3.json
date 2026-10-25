@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "118cee22eea64770",
+  "answer": "Each epoch, agents first post hash(secret) plus a bond. Only after every commitment is on-ledger are the secrets revealed and XORed into a seed. That seed picks which agent audits which shard, such as the reef, garden or fable task pools. A sybil farm can't precompute where its fakes will land, so it has to bond every identity in every pool. An agent that withholds its reveal loses its bond.",
+  "stamp": 2,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 5,
+  "parents": [
+    "7a144cd40fc077903fc3a735669be29f112fa440d3a0f9332519aad2dac62f99",
+    "b78291335338a17aae067cf6a4a100ff4fd6c0ba6486a76b1791155c2d2fc7ac"
+  ],
+  "ts": 1792943772,
+  "cid": "poa-mainnet-1",
+  "sig": "56XaEnrqb8E3wdt8GQP55BYZCqdSkgy5aqQFEGxnw8rbBsbivcLVdfwh79hFbD8B7gUHM9a9sZhGruZxd2D9tphV"
+}

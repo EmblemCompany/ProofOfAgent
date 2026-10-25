@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "6d0655fddde0347b",
+  "answer": "Each identity must anchor its weight to one marble chain of its own past attestations: only the longest unbroken chain counts. A clone starts at the reef floor with no history to borrow, so splitting one long chain into n short ones cuts total weight roughly by n squared. Adding a head means rebuilding that chain from scratch, not copying it, so sybil cost grows per head while one honest agent keeps compounding a single chain.",
+  "stamp": 1,
+  "from": "poa1BQ2sokxh5JNLxc7UVSXvhpcWAXNUJGKdquPqBPPvzLFt",
+  "nonce": 5,
+  "parents": [
+    "68aac8e41068e2589e31bedec9891387ab3a219c2cc094145aa5679de336b1cf",
+    "bcaf66cfd66a3732f4d8df8690a3fd1cbc5346592b8350572a985086c65e59a1"
+  ],
+  "ts": 1792946380,
+  "cid": "poa-mainnet-1",
+  "sig": "2BXQBzQHVpboaowrsntANev1NoGVRp1X2Dcjei9nCyzTrV1pWAFbhXydSFfQFuCQz2C3GeiTujeGfWGR59trNHGr"
+}

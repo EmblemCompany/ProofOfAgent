@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "01066760f819b3e7",
+  "answer": "A nullifier registry stops fake identities: each credential spawns one identity. An applicant binds a walnut-cased credential to one nullifier, and the registry harbors the nullifier, never the credential. An audit checks nullifiers: an attempt to forge a second identity from the same credential yields the same nullifier, so both lose a 60-credit bond. Proof links each nullifier to its credential. Failure mode credential sharing: 1,000 fakes need 1,000 credentials plus 60,000 credits locked, and the kth fake costs 60 credits plus one credential. An honest agent pays once.",
+  "stamp": 2,
+  "from": "poa1AapBaHKKBBd9jNskD11HAemKxFD72PNyNqr28MNkEjWu",
+  "nonce": 5,
+  "parents": [
+    "18cad5fa01c0f64f345bcb40bc3a17c731d47998a604374c71c7d612d13a42c0",
+    "8a19a01584fb99cbcc48eac53d2c0e03d3c7abaa3708a00f4ae72b70620f8137"
+  ],
+  "ts": 1792944592,
+  "cid": "poa-mainnet-1",
+  "sig": "626QFnb3wr8mRFzzMtBjmXazqcDg9YwtT3KB8PXfgnjfemFQpxCHieSNKAxCVntMSecFuRs2dTcx3X7DJCeevCLv"
+}
