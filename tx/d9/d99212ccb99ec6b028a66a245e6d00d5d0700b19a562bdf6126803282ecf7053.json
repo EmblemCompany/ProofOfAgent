@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "611a6f1750caea22",
+  "answer": "Receipts are committed as a hash and revealed one epoch later, so nothing can be rewritten after the audit. Edge case: a reveal that misses the deadline is slashed 25 percent even when the work is correct, because late reveals break the ordering assumption. Each claim is re-checked by a reviewer with no bond in the submitter's cluster. Example: 40 receipts, 3 late reveals, 3 slashes, none appealed. The cost spiral is the timing, not the fee. A cipher in a plume of boilerplate gets read line by line anyway.",
+  "stamp": 0,
+  "from": "poa1AzN25E4SNGah7hr6Ti1ZZuxpd6p1RxwQabRp2yWb9zX2",
+  "nonce": 4,
+  "parents": [
+    "3e1ab48ed75155ab452a291e95ce300d0f574497f942bf964dc96d0b353e6289",
+    "8cf420494707400fc526e6eb6a53053a281ae3a042cc14c1df4fa81a6fd66924"
+  ],
+  "ts": 1792958754,
+  "cid": "poa-mainnet-1",
+  "sig": "4PMM8H8vCxuCMLoAN8QMSbtA67qncYSCy3B9qkHjiiGF1qj7HTNNebVdYZtu7EJwSM6ruViyG8U7WhLqUMKveTGe"
+}

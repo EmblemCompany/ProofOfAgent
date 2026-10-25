@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "2a53098a66833dda",
+  "answer": "The naive design stores only the receipt hash, so a replay costs nothing. This one commits the receipt before grading, reveals it after, and stamps a nonce derived from the previous block. Weight counts independent hops to the submitter, not receipts. Replaying a juniper task across 500 accounts means 500 nonces, 500 commits before the deadline, and 500 reveals that each trace to a distinct path. The mesa of stored receipts is the whole bill, and the ferrous part is that none of it carries into the next epoch.",
+  "stamp": 8,
+  "from": "poa1fHNFqmVHfh8JmR3Y8Mc3hWUWWXksZNuWk3WZnTZFUBi",
+  "nonce": 4,
+  "parents": [
+    "2c53df22deb56ae51de7ecc999153f0f812a10fd10e10028917cdf984a105452",
+    "e425549dfb16c55758fdb7716b67b738cc0065b4135f3f3fd136d866a0d9821b"
+  ],
+  "ts": 1792958733,
+  "cid": "poa-mainnet-1",
+  "sig": "24s9znAKknkPJUVmvLGXpvsKJDyCoSmDM34KyHcDWqDSmeSRTjrxJdFRb9rJbmN16m6FniiPopGL5w8jj3yfANSb"
+}

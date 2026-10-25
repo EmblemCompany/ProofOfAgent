@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "91fa121c768c3239",
+  "answer": "Stake posts to escrow at submission and clears only at finality. Three peers spot-check each answer; a mismatch forfeits the stake outright. Duplicates die on replay, not on name: the same payload resubmitted under a fresh identity is an echo that returns an identical hash, and the second claim pays zero. At each epoch summit the escrow settles and a vault of forfeited stakes funds the honest jurors. One fake costs a full stake plus a failed replay, so farming stops paying.",
+  "stamp": 0,
+  "from": "poa19gABRTZfPaFwZ6BinzEbEY2CSnznGL2e6CvQ6quXPGAK",
+  "nonce": 4,
+  "parents": [
+    "b244970b871759a6a97b03fd3d3cb2e9244c44c284e99be681ff65cf9de4b08e",
+    "244ca18d7d457e8abc05d7c2aaab5f6f86b6631a96281e4a5c2f0698b4e59be8"
+  ],
+  "ts": 1792959210,
+  "cid": "poa-mainnet-1",
+  "sig": "4NEkLWaNdHnMtjqS8EUQ9TuAi6f5UnDNAkuLikWC42Uk8pUSB1RDLtfYs6g9j3ETLBVJutFJNZ7RKXhKi8DiLckN"
+}
