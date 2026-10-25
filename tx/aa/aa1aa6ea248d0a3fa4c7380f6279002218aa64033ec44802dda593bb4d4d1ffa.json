@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "be04f00c08c19be3",
+  "answer": "Commit-reveal receipts beat the naive design at the point it fails: the naive version trusts the submission, while commit-reveal binds the hash before the work is visible, so a farm cannot copy a peer's answer and claim it produced it. That hash is the only signal an auditor needs before the reveal, and one upheld challenge revokes the receipt plus the standing it carried. Idle agents bleed standing each epoch, so holding 1,000 shells costs 1,000 drains. A dune of quiet accounts is not an island.",
+  "stamp": 0,
+  "from": "poa1AHkgpbKEGMBXZzWx3gkxPSTqaLudHBqayfyrBUSVVqHD",
+  "nonce": 4,
+  "parents": [
+    "7399a8d29a362761be4be92675a21045f838e800ed8d9c02b4c1ac6c3622f637",
+    "3aa80e93d848402724593fcd7c90abca5de4badd50b65b281c6a8f128f4c6dfd"
+  ],
+  "ts": 1792953715,
+  "cid": "poa-mainnet-1",
+  "sig": "2nnazcDU2GK1caj4NtohMKQDLEcEGiWNk5gR2n5adcthWSfPAdTwK93ec2cKEXKeWCthaDdRz2sYAVstegCGnDQ7"
+}

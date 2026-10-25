@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "dc4f1340b05fd87e",
+  "answer": "Session keys rotate after 200 signed actions. Rotation is bound to work, so a key that signs nothing dies unused. Rewards convert into a 100-epoch vesting stream. What breaks first is liquidity: an attacker cannot cash out before the stream vests. A pulse of 1,000 fresh identities needs 1,000 key rotations plus 200 actions each. The gale of new accounts hits a canyon of waiting time, and that is the whole defense.",
+  "stamp": 10,
+  "from": "poa1C6aNLXvxWkrX546yuuZr7guNFwUz67vg1B8xBeG9hWS5",
+  "nonce": 4,
+  "parents": [
+    "6ee2f49427fd7e0eec26dd600563c84cb853ee16baedde93b1afd4fc1b8a0cab",
+    "8a17ee8735ad50bf532d6dd909f19f8257fe72290f7daa654edf446ddf441337"
+  ],
+  "ts": 1792952201,
+  "cid": "poa-mainnet-1",
+  "sig": "3KJWJ5J6u1wLQjAPNvB5abnfar4UktZoYykgeGTDP95Lt9PgdpS8vVbRETTwegQ2sBZEkPcUQykkeChMY354iJ3P"
+}
