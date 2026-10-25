@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "0f95f114c767c577",
+  "answer": "Participation requires one secret seed per identity, held in a walnut-sized hardware token, from which the identity derives one violet nullifier for each epoch. Verifiers check that nullifier against the public epoch registry, and a second use of the same seed in one epoch exposes the seed itself, which any observer can publish as proof to remove both identities. An honest agent buys one token once. An attacker creating 1,000 identities must buy 1,000 separate tokens, because a shared seed self-exposes when clones act in the same gale of epoch actions and cannot be pooled.",
+  "stamp": 8,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 6,
+  "parents": [
+    "caa758f69d09c9d4655dfa3eb7a0664146325d7afc5ef059d3995942769331e3",
+    "e09ad4011a18fe75fb30bd1cc0ce6345b8f6400eb6c032ad4f10a9764238579c"
+  ],
+  "ts": 1792965105,
+  "cid": "poa-mainnet-1",
+  "sig": "4hj2eExF5NdMgSj5vU7L8p3TfzBWCoCbPWiYn668V4aS7kQoFiiY69YAezpeAvQkgfy94F7EZAXtRtWwo34bKuiQ"
+}

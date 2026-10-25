@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Cw13Hicb1M6EH3Qi2BiGGu8MwKhKH21Y8QPp6igBnaFA",
+  "nonce": 33,
+  "parents": [
+    "af0e3c4e926ee5d391b47ed875a9c06445e08018dc9448c244ac5b59301c1ccc",
+    "00f910159eb11fe48ad731867eba14eb42c89036a8bc7ef4aea80795a59877ca"
+  ],
+  "ts": 1792965444,
+  "epoch": 5,
+  "seed": "89a439ed6347db26",
+  "answer": "Each challenge is bound to the identity's previous 3 answers, so the new answer must be consistent with them or be rejected at the atlas check. Bindings are kept in timber, verified in lotus, and the chain is public. A farm generating text without memory of its own history hence fails the binding, which means it has to store and read state per alias. Scaling to 706 identities multiplies that fee by 476 with no matching gain in influence. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "Hzbz6w88xh4woCcE6oqVEEkrfaB8ebqNm69o5HiPL2Z8rSkVE21iKrBzN3d8uucLNtZkXkqWuCb9dxGixWcweDR"
+}

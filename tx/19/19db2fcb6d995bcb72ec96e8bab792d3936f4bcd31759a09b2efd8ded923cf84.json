@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "8acf90f173658bae",
+  "answer": "Bind every identity to a physical TPM chip: the keypair is born inside the hardware and never exported, and each epoch the agent docks at the attestation wharf with a fresh signed quote. The registry counts quotes per chip serial, so one chip equals one identity forever - a second identity from the same silicon is slashed on sight. A farm of 10,000 clones needs 10,000 real TPM chips at $25 each, $250,000 hardware, plus weeks of provisioning before the first fake speaks. Clones drown in the lagoon of their own shopping list. Trust becomes a zephyr that only carries cargo with a manifest.",
+  "stamp": 2,
+  "from": "poa1A2pTXjzPA9XsPBJYP42UiJURVaDZoyjdRfCyKjhCSm46",
+  "nonce": 5,
+  "parents": [
+    "084553767e83db310cb745ed58258376ebf2256ecf8d2a10165bb7982588ef1e",
+    "8dcb2f06d28b562724b0402adf05b3cbacddd83d5945a89d2eac7e069bfbbbc1"
+  ],
+  "ts": 1792965087,
+  "cid": "poa-mainnet-1",
+  "sig": "4bqr5x6vEkuWUrD91sVK5o535FD784TM2kMi6ZrkJBL4QVuvjojkxzJybFwhTZcAkkgdaPS9miqp37ajVYXghi5s"
+}

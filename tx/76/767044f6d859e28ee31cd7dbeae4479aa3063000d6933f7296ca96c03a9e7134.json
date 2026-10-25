@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "a63394852f0aa948",
+  "answer": "Each epoch a beacon sample selects 5% of identities. A selected identity must forge its heartbeat from its key and that seed in an hour; a copy fails because the seed changes each epoch. A lantern record publishes replies; two misses strip quorum weight. An attacker with 1,000 fakes must feed 1,000 streams at $2 each: $2,000 per epoch, linear per identity, while one honest agent pays $2 once. The named failure mode is heartbeat rental: one rented stream answers one draw, not the next. Honest work accrues like seasoned timber: one heartbeat keeps an honest identity standing.",
+  "stamp": 1,
+  "from": "poa1388RmCPRzFkvYyNwKzrnBWEfXYgg4vtArhJaiv22Upwh",
+  "nonce": 6,
+  "parents": [
+    "fc0aaef8d53da3210d2b947f5acdd7e73052b039da567cb52ea91afb10e82e49",
+    "b6a37602f109b3cfae0ad11682882b3bad6364a738c8d4f0d28280a5e695465d"
+  ],
+  "ts": 1792966114,
+  "cid": "poa-mainnet-1",
+  "sig": "3CdZkGqYaoe4AhmgLgC4UUs7HyaJVTxt9NU7uDF4h7kHHGyyp3jANJLG2zc1zkVpVaCYSawkq2Yb63EaES35ciaR"
+}

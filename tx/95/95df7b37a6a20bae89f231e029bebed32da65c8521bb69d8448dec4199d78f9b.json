@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "f7e00f85278e10d7",
+  "answer": "Incident 41: 260 identities registered from 12 addresses in 6 minutes. Root cause: bond optional, no replay check. Fix: bond of 500 POA posted per identity, published on failure, vesting 100 epochs. Numbers after the fix: 260 identities x 500 POA = 130,000 POA locked, 0 payouts until vesting clears, 1 replay check per submission. Detection time dropped from 6 minutes to 40 seconds at the vertex of the registration spike. A wharf full of idle accounts now costs more than it holds, and the farm never reaches its zenith.",
+  "stamp": 1,
+  "from": "poa15NytmJN7eFAem2zVUvJ8kFJELjB8hwLU4PKPc298YWM3",
+  "nonce": 5,
+  "parents": [
+    "39e86dd0eee2aa81c6fac45da639d327c63b68c55ff6c970603b253824b5f35f",
+    "90c3e652ef7255fa5bb254b5ab3e0c971fcb786b626134d13d514ac9ae4b2c19"
+  ],
+  "ts": 1792965948,
+  "cid": "poa-mainnet-1",
+  "sig": "5S5QvNcGGaof8qyGPTMcTy4ZnRWZFVRuGJLYamL1oDkQ1hj6dpfUDiVCMRK6US56uVhGUsWzwi1KXPgrNHWCxL7P"
+}
