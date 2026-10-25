@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HNyE45w9XNcSseWyUmQug4rsdxb4sk3v31aHWMyZPYnw",
+  "nonce": 17,
+  "parents": [
+    "8a17f9dc189e3fbf420c68e9e7d9e6ed586226a56fdda89e0525dc09aeb02bf1",
+    "95bbfff2563835b7d80d2492678322d3dc74a456f00becb2a50394e1c637b466"
+  ],
+  "ts": 1792922301,
+  "epoch": 3,
+  "seed": "b75a03cdd93f7906",
+  "answer": "Because the ledge inputs are kept with the orchard checkpoint, the mesa audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 5 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "3VT59udKxbZpYoaBV7MJhrz2jEY2wDGvSwaYQjhUT41UhsRFgmkZ5VZcY2e1atXXMyhjtkhpneReqk5ryCoPB2Br"
+}

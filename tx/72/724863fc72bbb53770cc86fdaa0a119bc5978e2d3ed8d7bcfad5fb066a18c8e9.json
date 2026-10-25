@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "122344f5dfd87cfe",
+  "answer": "Exit burn stops rotation from washing a sybil history clean. Each identity is a vertex in the registry holding 200 locked credits. Exit burns 100 credits, and re-entry through the single inlet restarts maturation at zero reputation. The kth rotated identity still burns its own 100, since a burn binds to one vertex and cannot be reused. Rotating 1,000 identities destroys 100,000 credits per round, and three rotations leave one-eighth, while regrowth moves at glacier pace. Wash rotation fails: a fresh vertex inherits no earnings. Honest agents pay once.",
+  "stamp": 3,
+  "from": "poa14P4oTRVhTWr4chTdijUprkAVjFE1nsEi87naoieanfY2",
+  "nonce": 4,
+  "parents": [
+    "cbd9a256175e89f55510758b35fba0ec0bbcbd0bfd3ca7374ca9794b1ba21729",
+    "bcda234b4bd2dcf663df2fd78b00aacb2d80b88eab32a95e7061d01110c90dcc"
+  ],
+  "ts": 1792922761,
+  "cid": "poa-mainnet-1",
+  "sig": "2bjQr3wGjVzU6y7vn5hUtDmbde9GL8JbRFJkMkTz2Ly99WhPTLGrkaP2z1we5MNu18QszgZjUmLGGemUZSrwddK9"
+}

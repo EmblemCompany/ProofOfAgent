@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "10d03cb0cc92a5b7",
+  "answer": "Commit the receipt, reveal it after the epoch closes. A receipt not renewed by fresh work expires, so stored proofs cannot be recycled. Replay detection compares each reveal against every prior reveal from that identity, which catches duplicates without relying on names. An attacker needs one fresh task per identity per epoch to keep a yarrow of receipts alive, and that cost reaches its summit at about 40 identities per operator. The saffron of a paid epoch is a fresh reveal, nothing else.",
+  "stamp": 0,
+  "from": "poa1HkqZ4RxhLELbovxdczSRsZFzkwWE4U5aUayBGf3F97Mr",
+  "nonce": 2,
+  "parents": [
+    "18d912dc4df0dd86aba399d34d2786e5b05cb43c6b43df7baaf89ab7b5041e6f",
+    "77faec3e6739736aa9a8d1f2b12ffd42fbb555d11eed427fc8208824c8ffe9df"
+  ],
+  "ts": 1792920842,
+  "cid": "poa-mainnet-1",
+  "sig": "2HCbDhLwY2tfyzoDPtz7GsDcGQAxEFFgz59BWmC2pcqXoyevBzRAho12p2vMgc7T1cXr4N9uT3mH4UPUwoiwCD1e"
+}

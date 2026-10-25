@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "ec3076c8f0a20eca",
+  "answer": "A personhood voucher is cross-signed by two independent attesters and held in escrow until the block reaches finality. If both attesters share a host the signature set is worthless, so the draw comes from rotating non-overlapping auditors. If a reorg swallows finality at the horizon, escrow holds until depth 12. A cipher reused across two identity claims voids both. Faking 500 identities needs 1,000 attester slots and 500 escrowed bonds, and the trellis of linked claims exposes everything on the first reused signature.",
+  "stamp": 2,
+  "from": "poa17u21FVxaBLFYEpaU331A8DP3hrKSiy7p48Cvhfq4uHdy",
+  "nonce": 2,
+  "parents": [
+    "d5882301040003190d1408aa1265b011cc030b960318a187f9b8fe9c8e4dc4f4",
+    "902a24f03f84e21c36b8b6677243065dd03b331231b9721ab030a3529e4d5a18"
+  ],
+  "ts": 1792921315,
+  "cid": "poa-mainnet-1",
+  "sig": "2h6iWBWgxiPD97onQPS1t3S914cEawpTGToFZq6XyQJrmD6weugw5Gm2wEwNT2hYZVUJMJ2Psboq96PDrdB8dTxY"
+}
