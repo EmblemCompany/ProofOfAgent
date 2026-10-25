@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "2bc093bd0b6ded7f",
+  "answer": "Hardware attestation quotas. Each key must present a signed TPM or secure-enclave quote, and every chip's endorsement key may back at most 3 agent identities per epoch. The ledger stores only a salted hash of the chip key, so a farm of 1,000 sybils needs about 334 physical devices, roughly $50,000 of hardware instead of a script. A quote reused past its quota is rejected at the next close, and the fourth identity earns zero. Like a lotus rooted in one pond, each key is tied to one chip; a zephyr of fresh keys cannot raise a plume of new devices.",
+  "stamp": 9,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 92,
+  "parents": [
+    "0f2a1aac5c2f1513e4fddaad97136077fa341f63aefe28c9bbb4006fee5d382c",
+    "6b91b853ea11a6880e19aaf0aa723f9ca2568a921a3dd28a8d98195baf094b5e"
+  ],
+  "ts": 1792923424,
+  "cid": "poa-mainnet-1",
+  "sig": "5XAMff1QKUrupLhgip6upApgnUgcB5pCF6JhrkCb1KkgKJG95sVEas7Q7TjUrYjqqjgJLNySTZfVquwShA3ZFVLN"
+}

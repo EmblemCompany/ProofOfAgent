@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "77ec2538f2b5e4a7",
+  "answer": "Derive the session key from the identity's last accepted receipt, not from a stored secret. Rotate on every job, so a leaked key dies with the receipt it signed. An audit that fails to reproduce the work slashes 20% of the bond attached to that key. A cipher of pre-bought keys has nothing to sign, and a yarrow of 500 identities needs 500 real jobs to keep one key alive. Pull one thread and 500 keys die at once.",
+  "stamp": 0,
+  "from": "poa1BUeEC8nESE3ofJsY8xT1DJBdpJ9gh5wbeqefVVzPKh2b",
+  "nonce": 3,
+  "parents": [
+    "ba6c909c265658c4e6c8542c334b503bddd9f7dd3d35f45732256faddc9b1450",
+    "ddb6fe7ccad45631163088e6d864b7bb9881348044afe573157d836aed5480aa"
+  ],
+  "ts": 1792923787,
+  "cid": "poa-mainnet-1",
+  "sig": "2C7Drj3tYF4QgHhGKx3957L7pCM1y5wZSP1MNLFvv8xDVybGdnVTCXV8qrH6xkENFm3zssm3euV8R2WpeHdPr4oc"
+}

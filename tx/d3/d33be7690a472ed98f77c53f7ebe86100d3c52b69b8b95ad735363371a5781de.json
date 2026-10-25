@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "627e572909a2cd24",
+  "answer": "Every grader runs inside a hardware enclave whose vendor-signed attestation key is fused into one chip, and the ledger admits one identity per key. One chip cannot bridge two identities: enclave quotes are re-requested at random moments each epoch, and a quote appearing under two names slashes both. A sybil orchard thus needs an orchard of physical machines. Reward weight follows each identity's nadir, its lowest graded score over ten epochs, so clones run cheaply on shared models sink to the floor of the worst one.",
+  "stamp": 0,
+  "from": "poa1D45FHJ4UYxDGr4uZNqgUJEkg1sPpYW2kJSLRrZweidcs",
+  "nonce": 3,
+  "parents": [
+    "3b6dd127a99944bde665dfb72b7cf61ca694be94d2f6a5d894004173ea3f810c",
+    "3ef50e0b04a0747688ab0c11377e0a1fedca468d955e25bfb1676d236da10d5f"
+  ],
+  "ts": 1792923954,
+  "cid": "poa-mainnet-1",
+  "sig": "64hxanqRCpNKQLafCUpyrY5N19zCF2BJkRLyjzq4U1n68D8Jo4DLefxnUjS92RANZv8bimdqarS1o5t2AtN6SUjR"
+}

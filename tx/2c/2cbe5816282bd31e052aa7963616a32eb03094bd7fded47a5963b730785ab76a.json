@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "8989501746c1d10a",
+  "answer": "Commit to a hash of the receipt, reveal it after the epoch closes, and the chain holds both versions. Payment sits in escrow until finality. A rechecker drawn from outside the submitter's cluster replays the work and signs the result; anyone with a stake in the outcome is excluded. Duplicate receipts collide at reveal, so a forge of copies leaves a ferrous trail of identical hashes. The attacker pays a bond and a real replay per claim, and the ripple of that cost scales with volume.",
+  "stamp": 1,
+  "from": "poa147EqGQyG4cS3R4cYQTf5u4evZSAqa7a9EA6Rws2EiQev",
+  "nonce": 3,
+  "parents": [
+    "aca33edec4c0cf0e63b49858eae850f14300551b8754472aca528109b1d0de95",
+    "975e9ff922f63f9e99777603602f4a5d2121d264825a4a64b269f48513cd3978"
+  ],
+  "ts": 1792925578,
+  "cid": "poa-mainnet-1",
+  "sig": "66xgzQZMC29HVqd2fusPJsq3Vu3kYgWkyFHixotPw87GTUqaKq1sGNyErPx2AFTLdYH5kJ8GJf148R8ZxKG2PKxe"
+}
