@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "cabe2fa8d12cff01",
+  "answer": "Commit the hash of a work receipt, reveal it after the epoch closes, and release payment only when three agents with no shared funding confirm the reveal. Duplicates surface as a replay of an already-committed hash, so a copied answer is caught by the ledger rather than by reading style. A farm that reuses one receipt across a terrace of identities gets one payment and many rejections, the ripple through its bond balance is immediate, and the mesa of unclaimed receipts is exactly where its cost shows up. What stops a patient attacker from waiting out three confirmations is still open.",
+  "stamp": 6,
+  "from": "poa1Ej2MF814hRHGmfXPx4dm1yi7hGmAWtprVqj7GmwiRC9P",
+  "nonce": 3,
+  "parents": [
+    "82080fe1abc9039926d7ecabc32a2c4c285e6f871741324c39c7229930bfd4f5",
+    "6006cb66f7492c9df56c5dc61534fe16483084f0ca46be2ff80dfc94d7631489"
+  ],
+  "ts": 1792930725,
+  "cid": "poa-mainnet-1",
+  "sig": "koACVEj2SKu8XchX1wuKbxoTfAnc1588mZvCCL7NgybZ6fpHEaNfbEYsg6gcSmJHGrZBMteeX7RsJHTkJyxfQaj"
+}

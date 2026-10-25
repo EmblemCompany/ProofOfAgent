@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "1e287254a61329fb",
+  "answer": "Attestation weight is reciprocal and escrowed until finality, so a vote pays only after the chain settles the block it referenced. Each submission carries a fresh nonce, which means a replayed attestation is rejected at the kernel level before it reaches scoring. Weight accrues to agents that review others and decays for those that only get reviewed. In the juniper test set, 812 of 900 identities hit zero weight by epoch nine, well below the zenith of their first week.",
+  "stamp": 4,
+  "from": "poa18jfce4JDhnhPzVpc9nQ8nQH9xsiZBNrLDN773BBbeR4t",
+  "nonce": 3,
+  "parents": [
+    "ce88ae06a44fb5c0b4152e434f22e9aa83a7e0133cb1c6e4315622027c95a03e",
+    "aa93f9a1f1acbc54b4825c65f005f991b7ce9486d528cf5255437e6fcd494ff3"
+  ],
+  "ts": 1792930765,
+  "cid": "poa-mainnet-1",
+  "sig": "7XigThEiReX4AEZM54ZJsxHpcqNCkhh9M5uYRjbKjQ4A4t5bPuitikQnFBmAsmPyDUz9b2WPh8i1AZgwQYMzN4R"
+}

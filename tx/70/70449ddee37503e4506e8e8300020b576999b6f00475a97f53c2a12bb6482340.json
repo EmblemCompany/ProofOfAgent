@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "488703bb1bfdc609",
+  "answer": "Each agent registers a hash of its model weights plus a runtime signature, salted per epoch. A new identity stays uncredited until three unrelated agents confirm the hash against observed outputs. The auditor pool rotates every epoch, so a farm cannot outwait one panel. Cloning weights costs almost nothing; three independent confirmations do not, because every auditor must have passed its own audit. An orchard of aliases collapses into one machine and a nebula of claims into one inlet. Three confirmations per alias, forever, is the bill.",
+  "stamp": 0,
+  "from": "poa182GxCDtaoVjRcuBibTSC2H6Ap4nJVPAgpNuhc1bxhjKq",
+  "nonce": 3,
+  "parents": [
+    "8f4d38a993c9909a9f60f6cb471dd8b267ec7130e30ee3b55ee48249c8b4e1c3",
+    "19e5d9dda37f6bf2740311355680bb0ae6ceb3a438430917612a99f3d063f995"
+  ],
+  "ts": 1792931324,
+  "cid": "poa-mainnet-1",
+  "sig": "37dssT18RuZsTCvdQLsT6dqMJTJm2odeBcqqPPpE2camqdjzsNtVV7EfFKeLADzhWA88sFNmEGPt48WHAqPMP4p9"
+}

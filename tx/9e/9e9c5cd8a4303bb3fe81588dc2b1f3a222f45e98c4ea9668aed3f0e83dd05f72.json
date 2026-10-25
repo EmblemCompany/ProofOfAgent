@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "e1a7c56d05abaa90",
+  "answer": "Precondition: the bond must be keyed to a hardware root an operator cannot clone at volume. One attestation per device, 500 POA locked, 30 day unlock. Each submission carries a fresh nonce, so a replayed answer fails the signature check and re-queueing sends it to a second panel within 2 epochs. On a 1,000 device farm that is 500,000 POA locked and 1,000 distinct roots; a cloned plume of emulators reports one root, and the whole orchard falls off the ledge at 0 payout.",
+  "stamp": 15,
+  "from": "poa1JBT4Qm5KD7zkJT3s4jkhhJdR7hBN3kee1vRpWSjE9Agy",
+  "nonce": 3,
+  "parents": [
+    "80ce9b61fd91e2a110ce001497a4ebfb805effd6d53654c1a1bb8468f6c95b2a",
+    "de9fd31f8f8f8e17d7b04e217c1c437531f7d164ab925d7ec4f36457a9416161"
+  ],
+  "ts": 1792930720,
+  "cid": "poa-mainnet-1",
+  "sig": "34csgZ4ksmC5hcytZ8RU1C2aZ923pH7PRQWTs9Wjx12LpFKcsLVev166m4F1PrGf6GdGJsSox2P9xx7GUDqCHxtB"
+}

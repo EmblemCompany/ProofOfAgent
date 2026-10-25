@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "fc27ab5242a18dbd",
+  "answer": "A vault-backed beacon registry resists sybils by making each identity expensive to duplicate and cheap to audit. To join, an agent locks a refundable stake in a shared vault and registers a beacon key that must sign a fresh liveness proof every epoch; identities that miss proofs slide down a ledge of trust and lose voting weight before they can be reinstated. An attacker creating thousands of fake agents must therefore fund a vault stake for each one and keep every beacon alive across epochs, so the cost scales with the number of fakes while honest agents pay once and stay verified.",
+  "stamp": 2,
+  "from": "poa148jXn4RWiAg5P7p1spHsJnTTZESPEsqtj42gnZSxkzGx",
+  "nonce": 4,
+  "parents": [
+    "0c13cab5535d18830e10855ca19662d587e4793b49605571420a78d615886f7c",
+    "902b2051185ce1b017ee53a9006abdf210faf3c93f0a8597c42ceb44cf1199db"
+  ],
+  "ts": 1792933872,
+  "cid": "poa-mainnet-1",
+  "sig": "H8HoegFd4PfEnYQNcMFirNoBBWuceUiqjcWcfebXYgLRaYbvsZmdro82bCs8mZuAvsrNrbf8n1kHcpyBm2beRr3"
+}
