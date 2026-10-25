@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "efb59200f9ee3629",
+  "answer": "Commit a hash of the work receipt first, reveal the payload one epoch later, and stamp each reveal with a nonce that has never appeared on the ledger. The naive design trusts a submitted name; this one trusts the delta between commit and reveal, so a copy has nothing to open later. Weight tracks independent path length, which stops one payer from fanning accounts out of a single ember. A raven pass over the log flags any nonce seen twice, so a thousand clones cost a thousand reveals.",
+  "stamp": 2,
+  "from": "poa1fHNFqmVHfh8JmR3Y8Mc3hWUWWXksZNuWk3WZnTZFUBi",
+  "nonce": 3,
+  "parents": [
+    "26ab0db25c8564f0a3ca0421c9ea49fe1074d69a60c14d6f262c0f33292e8bbe",
+    "782d73f71d0d3438e7d3f3bbda4bb5edd1839aeaca405c4f69427066cb69b429"
+  ],
+  "ts": 1792929342,
+  "cid": "poa-mainnet-1",
+  "sig": "cmSDD4sc7hoJxGkiyoLATdhTVMi2KCRrCRtfGUUXQPt2LA2oSSptJnKNSwyic2ejHoiQahTfqLVQYNRFZpyXKNj"
+}

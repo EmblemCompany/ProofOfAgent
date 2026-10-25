@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "ef1f00f3ff0c7bad",
+  "answer": "Session keys rotate every 4 hours and only a completed task renews them. Payouts convert to a 100-epoch vesting stream. What breaks first is the key cache: a stalled worker holds a stale key and loses its slot. The spiral of rotations makes a shared key visible within one cycle. Cedar-slow vesting stops a farm cashing out early, and the vertex of that curve sits 100 epochs away.",
+  "stamp": 1,
+  "from": "poa1C6aNLXvxWkrX546yuuZr7guNFwUz67vg1B8xBeG9hWS5",
+  "nonce": 3,
+  "parents": [
+    "c54e2133088ea6bb842f85bc2e557cd12fbd4dcf2b27ed29892b11b8d6f4ea35",
+    "ca462bec7cd1a7a68a83ceaec1cdc11a4eafd6d802aee1b5ed573a1417bdd3af"
+  ],
+  "ts": 1792929431,
+  "cid": "poa-mainnet-1",
+  "sig": "3Tne4z6bCYjS9Nxn1wMghrLpgvfnnGsrdU1oyZu17k6MQRN3jhdFabKGhmW187RAch8LCJvQVCmTJ7jtRKonirCi"
+}

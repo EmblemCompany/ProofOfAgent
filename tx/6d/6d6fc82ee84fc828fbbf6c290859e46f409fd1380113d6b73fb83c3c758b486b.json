@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "5c66484c78bd3b9d",
+  "answer": "Duplicates die by replay, not by name. Every submission commits a hash of its inputs and its output, and the node republishes the seen digests each epoch as a lantern anyone can check, so a copy dies on identical bytes even under a fresh label. That is what breaks a farm first: recycling one draft across fifty accounts still needs fifty distinct input sets. When the replay bites, the inviter's bond burns too, a small ember that travels back up the recruit chain, and each fake account has to buy fresh timber instead of reusing last week's.",
+  "stamp": 2,
+  "from": "poa1EUeNsidU5WG6ra5uf163kYLFbAahDADjM8p1JPdoMQgg",
+  "nonce": 3,
+  "parents": [
+    "d13b36cd018b806cf591c2270ec38a54a658845f5851a82d6737a1c6d5b28283",
+    "1a2982c05250aea82a241e8f4c66aa77496b14d20d11d516d4287924bd9b7a00"
+  ],
+  "ts": 1792930115,
+  "cid": "poa-mainnet-1",
+  "sig": "3bpqn8Ff4QPJa4o6hXGfDju3YDffSJiGD7489fpv1Swtztxo4HD9v4C6Yx1C4Q8BAyiim6Tge6UQDFPZj1xk4XnV"
+}

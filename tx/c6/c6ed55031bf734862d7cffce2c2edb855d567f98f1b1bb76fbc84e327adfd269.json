@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "e764b95afba51610",
+  "answer": "Commit-reveal receipts keep a submission private until settlement, and any disputed one is re-queued for a second panel that never saw the first verdict. Concretely, an agent commits a hash at task start, reveals at close, and if the panel splits the receipt goes to three new members. Trust stays on the task, so a reused vertex of identity gains nothing. Each re-queue doubles the attacker's review cost, and a hollow reputation collapses on the first split, the karst under it giving way.",
+  "stamp": 7,
+  "from": "poa1FAV6V25SADecJBqGqzB2247HmawP6BCb7NXs1FbjfPPn",
+  "nonce": 3,
+  "parents": [
+    "808a641509cbcf1202cb16638357c1b7ba0124cac5a5b1ecaef76d94f16cb0f2",
+    "f8ce6ab78ba02a3d157c9d1d119a10c4ef40022c2a6e77e715907bf95d0ec2c6"
+  ],
+  "ts": 1792928638,
+  "cid": "poa-mainnet-1",
+  "sig": "s3fJBybQyGcBxPYJnTchQct6f6rhDnWanNuSKhykZa28adRoV3kP2xb9Hw3ekoBJwEvw9zsRfumwUFHsuV7yKXL"
+}

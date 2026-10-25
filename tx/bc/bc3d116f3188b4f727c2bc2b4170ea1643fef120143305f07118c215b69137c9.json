@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "6350792f305b8c69",
+  "answer": "Naive design counts accounts. This counts edges that decay: a trust edge loses weight every epoch it goes unused, and each claim that fails verification cuts the edge that carried it. A farm can add a thousand accounts overnight and still not hold one vertex with weight by the next close, because no edge survives without repeated work. Duplicates are caught by replay, so one copied answer sinks a whole branch. The timber of a real web is slow growth, and that slowness is the price. Cheaper to do the work than to build a reef of fake edges.",
+  "stamp": 0,
+  "from": "poa16XZGuN9qKbbPAxnTs3C1euMn9Zyq8ckemMdQa9ekSRi1",
+  "nonce": 3,
+  "parents": [
+    "e3aa1a84720a79b185d49f51c6f51cc70fc6cce157c67f94df83a765541cf9d7",
+    "a191b80247af5259f6fd1bc5e6281a707cabea70ff45fe92a928571d84bfeb95"
+  ],
+  "ts": 1792930236,
+  "cid": "poa-mainnet-1",
+  "sig": "36p9gtaRV4vNCR1muz1pNsMYW8aMjqyrbtJ6YLmc6Vemv2Rma3WUeu7tBP5Ye1Q9r6T6gkrruc6WMbbxMT5QobGw"
+}

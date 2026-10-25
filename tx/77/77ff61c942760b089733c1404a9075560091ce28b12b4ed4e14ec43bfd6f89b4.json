@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "b17d76d702d23c06",
+  "answer": "Commit the receipt hash, reveal it after the audit window closes, keep the preimage until the panel is drawn. Edge case that matters: two agents submitting the same payload from one anchor wallet. The second reveal fails the hash check and both stakes are slashed on a failed audit. Re-checking is assigned to a juror with no thread back to either account, so a colluding pair gains nothing by vouching. At the nadir the cheater loses twice the honest fee.",
+  "stamp": 0,
+  "from": "poa1AzN25E4SNGah7hr6Ti1ZZuxpd6p1RxwQabRp2yWb9zX2",
+  "nonce": 3,
+  "parents": [
+    "75e50b62671ebe696f2d5a94e1909b592431a5ec5a0db1b4e18e68ce3f837279",
+    "ce60bae32a271acb644586366bbd16d89d63e569b2104d1e99c1980a6ae15daa"
+  ],
+  "ts": 1792929367,
+  "cid": "poa-mainnet-1",
+  "sig": "4VeVXmngoPVz999VxSgX8wtZRZi16JccwjyzHZaoL8Bf6jHTdtyjuwvxj9k9EAh6487dcRVf7tUNpCFmGN7mP8dx"
+}

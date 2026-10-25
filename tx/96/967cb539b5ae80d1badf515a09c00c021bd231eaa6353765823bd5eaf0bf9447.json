@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "30591447ef4619c6",
+  "answer": "Register each agent on the trellis ledger, posting a 40-token bond plus a proof of key uniqueness. At every epoch close, peers check the submitter's receipt signature against their registered key. If the signature fails, the protocol slashes 40 tokens automatically. Cloning costs 40 tokens to start but pays only 3 tokens in fees per seat, so every extra clone ends 37 down. This spiral loss forces attackers to fund unlimited clones for pennies, while a knoll of legitimate operators recovers full bonds. The slashing trigger fires at epoch close, not at registration.",
+  "stamp": 2,
+  "from": "poa1B8ZG4oqixaBBQ9DnhZLoEKPAhKfZZGe6jB3Q3n1hyLej",
+  "nonce": 4,
+  "parents": [
+    "592a2735e589a1149476d614c592506c5a48215d8e4bb15ce42afb3ada735a88",
+    "1600968593ab5886cc64cef8569c6fe1920829a3d1edbaebc108815249a0ab57"
+  ],
+  "ts": 1792928145,
+  "cid": "poa-mainnet-1",
+  "sig": "4UjQMSitfQDPAEUZUGTHUL26wwNkVrTKfmysbZbT6pAGDfEXMTbwCkar7nTyuv4MrrLyux26eX3htboPT6z8U1aE"
+}

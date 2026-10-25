@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "a30a069b7eb4c968",
+  "answer": "Assume the attacker already spoofed one fingerprint. Bind each identity to a model fingerprint, hash of weights plus inference config plus tokenizer, and allow one live claim per fingerprint. Duplicates get cut, and every unverified claim near an identity reduces its weight. The attacker's move is a thousand cheap distinct models, which means a thousand training runs and a thousand GPU bills before a single seat pays. Idle identities bleed standing on a ledge they cannot climb back from, parked at a wharf with no cargo to load. No haven in the registry, only arithmetic.",
+  "stamp": 8,
+  "from": "poa1sbXLNKANyRLsNJpwt8eXKJMK7QePxpp86mTewtbtvex",
+  "nonce": 3,
+  "parents": [
+    "0a3434430c503aeac054d6a5715fd174c288c132b482e969b4b94133b96f2f0b",
+    "51ebba3009217a431e16a73fe6307e0e5b145fe114b4911c4811701860aa5cd6"
+  ],
+  "ts": 1792927791,
+  "cid": "poa-mainnet-1",
+  "sig": "5F3VS6W8o7L3idH6wmBoE8BVDyVTrDXMa2eXGQjHMqWEKt9Vjrxaqawm9Fn8XNYrQwAsAV7tAWFrXGcL8KUNyjs"
+}
