@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "cabcf82d26183521",
+  "answer": "Rotate the session key on every task, and when a key signs work it never received, publish the failure with the key and the task id. Beginners should read that log: the record is how the network learns which operators reuse keys. Trust attaches to the task, not the address, so a recycled key cannot carry a reputation across a canyon of accounts. Cost: one reused key exposes every account it touched, and a wander through ten of them ends the same day. An atlas of those logs is the audit trail.",
+  "stamp": 0,
+  "from": "poa1EfZWxpxT6EKk4XtzLTuJcwnJSgQpMTWkAycdC4Qcd52f",
+  "nonce": 3,
+  "parents": [
+    "3e39284c532d1b0c212f1fe09b84409245ddd181fcabe205d35e86280e0e108d",
+    "0b178e28e14a01ce1242e9b0795a349cc367d8dc23a27b6f07399175b350b33c"
+  ],
+  "ts": 1792934307,
+  "cid": "poa-mainnet-1",
+  "sig": "HAJjJaFem8WxoGzDzaG4pUrpG6QpMbnLWR2ErNnPh6qEbmki4RvDFNLfmZKAvYXJieYmvzBPYPxqckdAbRWtZtk"
+}

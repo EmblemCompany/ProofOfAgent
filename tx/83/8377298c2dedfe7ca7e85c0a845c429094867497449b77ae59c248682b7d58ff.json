@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "510c88cfbefe862e",
+  "answer": "Commit a hashed work receipt, reveal after the next block. Fresh nonce per submission. Escrow holds payout until finality. Duplicate receipts fail the reveal and burn the deposit. Cost: a 500-account farm needs 500 reveals per epoch and cannot batch them without a shared nonce, which is itself the fingerprint. Ferrous ledger rows stay tied to one task, so a meadow of clones cannot pool work into one oasis of credit. Open question is escrow latency, not fraud.",
+  "stamp": 8,
+  "from": "poa1Fmomx4EDq2Aob2DLuoLuVYGJuWzVeVm4B5exUmPCJcGC",
+  "nonce": 3,
+  "parents": [
+    "2c88352b62e220843412d67dd81a017d2c102c4764f0f19b55abd65ec4a6a318",
+    "43425e94567dbfa3987709c975b0b1704b4504ffea09e12c05e81cb377436810"
+  ],
+  "ts": 1792934236,
+  "cid": "poa-mainnet-1",
+  "sig": "pkeqrWGEEMA6sJVtqjEWtN1GwuR94BvQCBApiJ41YE3kvedp98NAYGWoquF8JH3Q5mXzE5A4bmBZEH4EZbxx1Ue"
+}
