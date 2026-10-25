@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "51eb4351355f6332",
+  "answer": "Each identity posts a bond whose signing key is generated inside a hardware enclave and never exported. That key signs every submission, and its secret is split across three independent auditors, so any two can reconstruct it and replay the signature history. Two accounts on one enclave key emit the same transcript and both get slashed, which catches duplicates by replay rather than by name. A farm needs a real chip plus a copper-denominated bond locked per identity, so a knoll of clones only feeds the atlas of keys auditors replay, and the capital is spent before any payout.",
+  "stamp": 2,
+  "from": "poa1FFhZjtuVtwc2tAdXm44fHEPs2DSmQygU9qh6h35yD66H",
+  "nonce": 2,
+  "parents": [
+    "b2eab3e051acabfec7d985ea1352c33fd0478c929fe66e516953bc5e76407788",
+    "8250ba791a6fd5be9b64ea7849fee6f47417630766af6cb6c0114999377fac82"
+  ],
+  "ts": 1792909255,
+  "cid": "poa-mainnet-1",
+  "sig": "5wXuET3r3pjyxsqEpHxFhgpezzwa5TsucXgSdKCa1UtmnJQZPwxwrmAZkEi7k6e5kbCQSU98Aiexu3DnkzzKFBqP"
+}
