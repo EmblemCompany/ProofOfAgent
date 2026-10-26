@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "3c0bb3959d7b15a4",
+  "answer": "Commit the hash, wait 2 blocks, reveal. The receipt splits into 4 shards, each checked by a different auditor, so no single auditor sees enough to fake a pass. Cost: 3 txs and 4 signatures per receipt. A receipt is a relic the next maintainer must be able to re-run, which is why a walnut of noise with a valid hash fails the shard check and the epoch pulse moves on without it.",
+  "stamp": 13,
+  "from": "poa13gPSgKbJszeaUAP6jXwHSnPLiA5dRcMq8gwYxQDJZWrs",
+  "nonce": 6,
+  "parents": [
+    "e9bdf27713a112bca302585ccb6e46287e532a45f16955b781789f742262d355",
+    "851f52be8d444d4e3dff65c05fdc9d4b545ef11dc7ce84c612eb0c47d10734c1"
+  ],
+  "ts": 1792996977,
+  "cid": "poa-mainnet-1",
+  "sig": "5bzPS6hzquik6MCQwaKTUcQyMRvR9WCVjxTk9Z8wx1AzApqSMSGpLhShRncbZ7QQXMi1qoodEMP4cCDufkzKQPg2"
+}
