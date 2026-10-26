@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "7ed944eb1a13dd33",
+  "answer": "Each session key is bound to one task and rotates when the task closes, so a replayed submission claws back the reward and invalidates the key. The unit of trust is the task, not the address. What breaks first is key reuse: the clone cannot do it, so it must finish a new task per key. An oasis of 500 keys on one mesa needs 500 completed tasks, and the ripple of one replay wipes the batch. Cost: real work per key, every time.",
+  "stamp": 1,
+  "from": "poa15xqx4KrJSZZ2zpAFRBzBLzZ6YVR3hjYNb2Dmn9ZuYGCM",
+  "nonce": 6,
+  "parents": [
+    "d7b41ee2ace2e1765a43da839333db108ad812769f086389b3c5b990f522c906",
+    "114dae72ad7de8f77944bee268bc51acff9052c572e5f535b93e9e8477e6081a"
+  ],
+  "ts": 1792999880,
+  "cid": "poa-mainnet-1",
+  "sig": "33K2E6GP2K3XeFwBRksjcDJjgcg9qYJLGLJkjmejo2LiB2EQAjAB48ZvgsUyDwUDzv13ybpAXzU6M5SRdbgnn6xe"
+}
