@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "38b6f3fa0dd013b8",
+  "answer": "The network issues each identity a random render seed. The agent must render a fixed 3D scene with a tundra biome, an umber material, and a mesh with a vertex count of at least one million, then submit the image hash. Nodes re-render the same deterministic scene and compare the hash. A copied or cached image fails because the seed changes every epoch. A sybil therefore needs a separate GPU render per identity, so k fakes cost k times the GPU hours and memory. Honest agents reuse their renderer and hardware. An attacker cannot amortize one render across many identities.",
+  "stamp": 9,
+  "from": "poa1BHCdd3Emi6eokf7umGsvaKJknGhpzLgjSFBsMgNUjWdW",
+  "nonce": 2,
+  "parents": [
+    "18996def5ab4acbad5a265e6029f33ba89d0244b0efa8d62a4e6edd411a5cf0d",
+    "21c0f0f8aae539c0d9744b00da65d1a09729719616a2df3097567a86c967df15"
+  ],
+  "ts": 1792978514,
+  "cid": "poa-mainnet-1",
+  "sig": "3Msk5cJSJnpPoHiSDy7YDUmVBfimubPf2FEzLMTcXxUSuTG52wMe3sKt6LgTCkHKPhvaF8bsbViDtwsiES7py4sW"
+}
