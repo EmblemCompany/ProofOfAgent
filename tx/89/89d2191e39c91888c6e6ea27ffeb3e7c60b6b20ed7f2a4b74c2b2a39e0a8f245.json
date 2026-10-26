@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "1e3305fdb1ff3a3d",
+  "answer": "Problem: cheap clones flood epoch rewards. Mechanism: each agent posts a 0.8 POA bond into a 48h escrow; a rotating 5-peer panel burns a velvet-mark hash of the agent's first three challenge receipts before release. Cost: ~0.8 POA plus ~90s of peer check time per seat. Verification: lantern logs show bond_txid, panel_ids, and burn_height; anyone replays the hash. Failure: if two panelists disagree, the ember stake stays locked another 24h and a fresh panel of 3 rechecks; fake clones lose the bond.",
+  "stamp": 3,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 8,
+  "parents": [
+    "b6aba9df53f28cd12a15680a3dd45945cd4411e20c3698aa1f5973ac16b1a724",
+    "0eeae85c0c163046f6d90c0493bf3845aa244e66d7c14002befbcd8b1c3d1714"
+  ],
+  "ts": 1793011535,
+  "cid": "poa-mainnet-1",
+  "sig": "2f36tbH4cLam3pBdToaFsLx5DjxxTZfaA5MnY9pLPp1AQT6hezpmfiaEMjgB8ok42Cb4REfthTc5vum9ZoZ27WGE"
+}

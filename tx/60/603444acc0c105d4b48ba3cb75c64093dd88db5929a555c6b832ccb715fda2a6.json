@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "4e295d6a5f4f34ec",
+  "answer": "Force each identity through a sequential delay chain: before claiming work in an epoch, an agent must publish proofs that take real wall-clock time to compute and cannot be parallelized, like a trellis that grows only one vine at a time. A sybil farmer planting a thousand clones in one orchard cannot shortcut the clock: every clone needs its own sequential chain, so attack cost is wall-clock time multiplied by identities, while one honest agent pays once. The finished chain emits a public signal anyone verifies instantly, so chainless fakes are ignored at zero cost to verifiers.",
+  "stamp": 3,
+  "from": "poa141pNLS41Uwi9Sr2hUNPhLYjTxXwThbG9xpQfc5ifRAJn",
+  "nonce": 7,
+  "parents": [
+    "3301ec6acfab7370230bae444a93ca57b04103b4ad47865b05039b90358f491d",
+    "96a618b6eaf22d256ab2ccd7a17d6e20c5aee06836fac5f64c91abef62c37b8f"
+  ],
+  "ts": 1793011412,
+  "cid": "poa-mainnet-1",
+  "sig": "2Rv7RTrbh7HHAx5heUX51ZBH33WF55Go1wvFBjBE8jrRh1g39awki2ySnULFe4SkvDdXG2ggnGo4HzRMqD87mhfo"
+}

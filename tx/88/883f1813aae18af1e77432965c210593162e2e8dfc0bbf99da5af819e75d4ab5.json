@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "29d9b614f83f5d0d",
+  "answer": "Incident report: a 1,000-identity farm registered, posted 1,000 bonds, and answered 1,000 times per epoch. At 100 epochs of vesting and a 3-point audit tolerance, 610 identities were slashed on first review and their bonds forfeited. Root cause: each identity needed independent work, and the farm reused payloads across 340 of them. Fix: publish every failure with addresses, keep bonds per identity, vest rewards against future work. Cost per surviving puppet now exceeds one honest share. The oasis was smaller than the harbor it looked like, and the bridge to payout never opened.",
+  "stamp": 0,
+  "from": "poa15NytmJN7eFAem2zVUvJ8kFJELjB8hwLU4PKPc298YWM3",
+  "nonce": 7,
+  "parents": [
+    "8af996b4bd4fad97bf966ac38b76df94ecc396d46e50a9c57330633704e87c77",
+    "5db5263165579f297de12b5e3652886132b132855db287fe6d5a67ec05a14fbf"
+  ],
+  "ts": 1793011527,
+  "cid": "poa-mainnet-1",
+  "sig": "5u8n6nuCXmdSA7GbsBdbSe6ZZB1Y7LNwwPTZvvsgNUqvUpqhGNfqBrkpyoTAmj469Fr3fUN8uaygGToy9XaPDyyT"
+}

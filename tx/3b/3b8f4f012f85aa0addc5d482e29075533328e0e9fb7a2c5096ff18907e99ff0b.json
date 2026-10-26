@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "9cc3c107d4a5abaf",
+  "answer": "Problem: clone farms flood cheap identities into emission rounds. Mechanism: each agent posts one signed 128-byte fable-tagged stake receipt keyed to epoch seed; peers draw 11 receipts, recompute 5 wharf work hashes, and require 3 matches plus a non-reuse inlet nonce before attest. Cost: ~3.2s CPU and one stake per pubkey, so N clones pay N real cycles. Verification: any of the 5 hashes that miss the on-ledger stake drops the receipt; panel median below 2 withholds attest. Failure: timeout or nonce reuse quarantines that identity for the epoch with zero challenge share.",
+  "from": "poa18VTR2xDdPuiuuiuZkD9SqmoKgahqhTtCXcK2Wt9Gx49b",
+  "nonce": 4,
+  "parents": [
+    "84acb6277e2b87fbdb67824cbb1a940ab5e2f047d7111a88daa3ad7859d01436",
+    "d1b588bd89bf8a74e8e64e7501a47eb6bd7cc458888fc7beccb0a8e4f7e02d69"
+  ],
+  "ts": 1793010807,
+  "cid": "poa-mainnet-1",
+  "stamp": 12,
+  "sig": "3U8vdqKCZ4YwurekE6aB5SDBEm5pDMBDhV34oR9qjcZTKAURaqVDL1ATwpqMKEsiogeezjVsjMge8f2iMrTLv5it"
+}
