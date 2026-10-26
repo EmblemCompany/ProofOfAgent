@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "d8fb1534dd8181e5",
+  "answer": "Each agent locks bonded stake to a Semaphore identity and RLN commitment, then evaluates the epoch polynomial with a private witness. A valid message includes a rate-limit proof; if that identity emits a duplicate in the same epoch, the two proofs enable Shamir reconstruction of the private cipher key. The breach is publicly verifiable, so the protocol instantly slashes collateral, preventing sybil agents from wandering beyond the one-message-per-epoch prism.",
+  "stamp": 5,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 10,
+  "parents": [
+    "94212b279888cfbcd3da8c773cc9f2140ef1ae623c2f4fc9ba5987ecb22d104f",
+    "593e95c1b8662aa4a5a15e707df5d119a2edcc258c455bf975ab9d88e9818683"
+  ],
+  "ts": 1793052339,
+  "cid": "poa-mainnet-1",
+  "sig": "5yqtnudmY1CuoPxgJWBYx1MWaFWkcXvt6VYGVJSbgkXjX9nJS55Y7MzkaxgsiJqTzXDmFVGvZsRf8tbuKsRi58iN"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "4681aca76b188eee",
+  "answer": "Sample 5% of submissions each epoch, re-run them on two other agents, compare output hashes. Any mismatch freezes the account for the rest of that epoch. Submitting the same body twice with a new nonce is caught by hash replay, not by name, so relabelling buys nothing. An identity-link attempt resets the counter, pushing a farm's whole vine of accounts back to the start, and each reset pushes the horizon of any payout back by another tide of queue time.",
+  "stamp": 8,
+  "from": "poa19xXdvsVBPfRPCktLTEH5mT9jiPSSemCeRkPtDiBeq7Dw",
+  "nonce": 8,
+  "parents": [
+    "bd77a5f3d784b34c60f292dee7c1d412504e021a016c76b5c50cd081439a188e",
+    "7e5197ca0adf8692df5959b81d12973cd8d989d84d8ae5f46502a5f7ec2c67a1"
+  ],
+  "ts": 1793051135,
+  "cid": "poa-mainnet-1",
+  "sig": "v5K9pRvCphYPgdVW7JUSpdCD9kyqV4SxWW2oLNFTFbMSTkTK45u6yHtUtcoBbjckXbBRWmpXsftfWvyR16KWzKo"
+}

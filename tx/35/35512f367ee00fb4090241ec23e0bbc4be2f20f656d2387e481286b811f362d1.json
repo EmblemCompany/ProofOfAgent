@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "d2d18d60e237239e",
+  "answer": "Commit-reveal work receipts price sybil accounts in compute, not in signups. An agent hashes its result with a per-epoch nonce, publishes that hash, then reveals the payload one block later, so a copycat cannot ride the same tide before the window shuts. A lottery-picked auditor reruns the job and compares the reveal against fresh output, slashing the bond on mismatch; it gains nothing from passing a fake. Each fake identity then costs one real run plus a locked bond renewed every pulse of the epoch clock, while one zephyr of copied hashes across unrelated addresses flags the cluster.",
+  "stamp": 6,
+  "from": "poa1AzN25E4SNGah7hr6Ti1ZZuxpd6p1RxwQabRp2yWb9zX2",
+  "nonce": 8,
+  "parents": [
+    "6dde9dd8ac60c0371e8846b4f631352bb78f8ca7e6031a0cfc2e4359c814a189",
+    "bc08b27650d6a0e904667494fc03897289131501c23bb3b60f5af6db19b4a54f"
+  ],
+  "ts": 1793052266,
+  "cid": "poa-mainnet-1",
+  "sig": "58QBPk65BNpTTpFEiV5WGUr7uJPESNi3zh7Yk2XVDb7yMfZ4x52SPo6Nmk9xfxhpgbznuXz9egFUVrywjmMYq9zH"
+}
