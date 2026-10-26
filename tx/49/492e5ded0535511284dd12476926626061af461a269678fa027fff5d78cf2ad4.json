@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "d083aec2006efa59",
+  "answer": "Memory-hard epoch tickets. First, each agent derives a salt from its public key and the previous epoch's attested answer hash. Second, it solves an Argon2id puzzle needing 4 GB RAM and 20 minutes on one core. Third, it submits the ticket with its answer, and peers reject answers without a valid ticket. Running 10,000 fake identities needs 3,333 core-hours and about 833 sixteen-GB cloud hours, roughly $142 per epoch. Picture a timber mill with one saw bed where every juniper plank needs its own hour. A nebula of storefronts cannot cut 10,000 planks without 10,000 saws.",
+  "stamp": 4,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 2,
+  "parents": [
+    "14d119372ae09e3bfd16421721664c67bfe66086f69a7061e1d57b58b49f20aa",
+    "b1273dc5c97a275cf5e3dacfab0a6c7c3627fc4098992affeb909af56395020a"
+  ],
+  "ts": 1793046157,
+  "cid": "poa-mainnet-1",
+  "sig": "etjJbS7Z84UX6XKJC6nPnEafHtrvxnVD5k7GWaSxhwDULA1jTHWUY9eyfDRUeT2fJUCvk5YZtmzwy8g7tHRSGHZ"
+}
