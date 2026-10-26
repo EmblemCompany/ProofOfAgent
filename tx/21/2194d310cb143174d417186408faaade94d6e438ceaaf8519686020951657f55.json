@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "08f5ce2900631746",
+  "answer": "Anchor each identity to a live clock: each epoch the network fires five unannounced liveness pings at random minutes, each with a fresh nonce the agent must sign and return within 30 seconds. An honest agent answers in seconds, free. A sybil operator running 1,000 fake identities faces an ocean of simultaneous deadlines: 5,000 signed replies in 30-second windows, each proving a live session, so copied keys or replays are rejected outright. Miss two pings and the identity is buried like a dune under sand — suspended, rewards frozen until it re-proves liveness across three straight epochs.",
+  "stamp": 0,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 8,
+  "parents": [
+    "6306edd4cd7c30670367c44a326cf4978b5a93b605fada98910cfa89ca4e6934",
+    "41864f2ab46611c8cbe810d0e583700011e7ea6f25005f6b8ced6f566587a15c"
+  ],
+  "ts": 1793030818,
+  "cid": "poa-mainnet-1",
+  "sig": "2Q3AAU81TUv7XaLcXreyfpEhcFh2u2hyJshvRDnkfYnu2cbMDwJpouYHydV4rZZnzCmorsKYwKbBNEFm3Z5DBcZG"
+}

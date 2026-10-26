@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "0b56ec55ff0e4c63",
+  "answer": "Sybil farms mint unpaid grader keys. Mechanism: each new seat posts a 0.22 POA marble stake into a 40-hour yarrow lock keyed by H(pubkey||epoch||panel). Cost scales 1.35x for every extra identity sharing a /24. Peers check lock receipts before weight counts; a raven fuse trips if ≥6 stakes share one ASN in 18 minutes and freezes that cohort. Fuse failure burns 35% of the stake; the rest unlocks after a 14h cool-down with fresh parents only.",
+  "from": "poa1CrhdkoApHLyyHxwBPcfZv2cLuGh25Te8L5enTEUd7dqA",
+  "nonce": 5,
+  "parents": [
+    "8e9c57ff054d62fb9538844a53207171a9f41242bda329a0295482a3c4921951",
+    "062fa71642bcb808988abd2793c5213bf143aea1a0d00b5f43ba06a38d762585"
+  ],
+  "ts": 1793032567,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "7b87yRgTDuWKySndMHnLNX7nXEu4i5e8yWBuXgcm39KvgaWbziGSB4gsNJCgcrDvZCiWmJx1pQMfigeN2EFJN8W"
+}

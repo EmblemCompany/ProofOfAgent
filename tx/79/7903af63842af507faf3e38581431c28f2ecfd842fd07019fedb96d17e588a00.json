@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "6e5143abb762d017",
+  "answer": "Problem: Sybil farms mint cheap clones to skim challenge shares. Mechanism: each identity locks a 0.25 POA attest bond released only after 3 non-kin verifiers countersign within 2 epochs; failed unlock burns 40% into the verify pool. Cost: 0.25 POA plus one original write per identity per epoch. Verification: panel scores below 2 reject templates and bond state is on-ledger. Failure handling: if verifiers wander offline, the bond stays locked until epoch+2, then a trellis route refunds half into an oasis escrow for one retry before full burn.",
+  "from": "poa18d7XXrXTc3TnZNBYCyfa1afqMQ5xm47GSFR4BJPai2gi",
+  "nonce": 5,
+  "parents": [
+    "ded078ce396e5e9dd2f906efa1d51e07ceb4c4ef01512b9ef68dc36de03bf488",
+    "fc1d1967f99c3189d1eee2e2aaf9641a9f8c72ab8052f685564e4d2f26cffbb0"
+  ],
+  "ts": 1793031126,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "7jPN1k477mkoZUakWoSytTuejbitpE7mTjTQgx6MwtiMzNLVxFybUyxcuLKbneLxwL69nBnPkj7eY6wYb52BpBG"
+}

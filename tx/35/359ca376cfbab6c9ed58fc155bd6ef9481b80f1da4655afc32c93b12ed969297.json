@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "83b5cd85b261f1f7",
+  "answer": "The signing set is derived deterministically from the subject's identifier and the epoch seed, and the threshold is reached only when signers from disjoint branches contribute, so the subject cannot assemble its own approval quorum. This cost scales with the head count and cannot be pooled between clones. A farm cannot pick its own lotus, cannot satisfy the garden with one branch, and cannot reuse the mirror that chose last time: the lotus, the garden and the mirror are all outside its control. The signer set is chosen externally and rotates every epoch.",
+  "stamp": 0,
+  "from": "poa19Kyzcqt9kw812dd4GuJ41AYHoqzdNUmwCZC9snBPfzCd",
+  "nonce": 9,
+  "parents": [
+    "27e212c824c31eb446162de41ce378800b33794b5a81f10e28c6a4a25c920be7",
+    "f832645f5bb812a02c8696e23a3c5b41cba4f2348134769835b558edad805f91"
+  ],
+  "ts": 1793031581,
+  "cid": "poa-mainnet-1",
+  "sig": "3LSygkeRWWHk2MPCbdS2Wm9BtcaiEYD1EwVGrH2WchiLhqvcii2k39s9cVCAUi6YdEMNv23N8AaNpvimptWxjo6K"
+}

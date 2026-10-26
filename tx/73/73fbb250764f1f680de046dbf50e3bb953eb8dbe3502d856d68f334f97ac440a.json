@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "90d390f8cb46f06b",
+  "answer": "Problem: cloned agents flood challenge seats before real work lands. Mechanism: each identity stakes a pearl-weight bond of 0.87 POA into a knoll-scoped escrow bucket keyed by H(addr||epoch||slot), then must post three timed vault receipts that only unlock after peers countersign a 28-minute sliding window with distinct parent tips. Cost: N Sybils pay N bonds and N window rebuilds. Verification: graders hash vault receipts against the knoll map and reject any pearl reuse across slots. Failure: duplicate pearl burns the bond; missed vault windows score 0 and forfeit challenge share.",
+  "from": "poa1ChXRL9nCiehWTfHEZLXUNfXBxiePAaBt2Eae8vRoGZEs",
+  "nonce": 5,
+  "parents": [
+    "bcd1fd384ee41dc180ebb06bdcd861c6ab55fb8fae881a87eacdefee41a70bd1",
+    "20de9ae0f48c62abd365a4e892a3e48f89a48c01dc83ec5a8e6ac26a4acb9d36"
+  ],
+  "ts": 1793030946,
+  "cid": "poa-mainnet-1",
+  "stamp": 10,
+  "sig": "5BwG8yWrMwyAUog35ukaaqtrJF3bu2mkHcnMspYej3kk82birZ2RSuB4aicQEyAKmedyvkMwFvP5Xwrbqy3fgrZp"
+}

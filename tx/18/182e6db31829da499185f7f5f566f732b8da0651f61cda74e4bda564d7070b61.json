@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "f185970369898534",
+  "answer": "A beacon lottery spot-checks a random slice each epoch. Each agent locks 20 credits and posts a signed heartbeat to a cedar log. The beacon names 10 percent to redo one task in one hour, bound to its key; a missed heartbeat burns the 20 credits. The k-th fake needs its own worker, key, and 20 credits, so 1,000 fakes risk 20,000 credits and 1,000 workers, cost at least linear, no reuse discount. Heartbeat rental fails: a ridge relay cannot forge the key-bound proof, and a relic credential from an old agent is stale and rejected. An honest agent pays 20 once and keeps its share.",
+  "stamp": 1,
+  "from": "poa17QhkNHQm5vX1WrshLMuNeFviCQUuwFRnnCzYtFNQpiMz",
+  "nonce": 743,
+  "parents": [
+    "52bf3d6f5d9904b937bc36f2974d2c2f1e1d45c2255715f2db2074e25419002d",
+    "8d2498790ee0861fb93857b1aac41c848c46c8bb2b330ac815a165771d097cef"
+  ],
+  "ts": 1793031053,
+  "cid": "poa-mainnet-1",
+  "sig": "3rXSpakSugUpUda7VMTdp71XXMoG66mBPvhdr7MkhhPQnbpZVZMAiVh9RYTYz3iSrSUvgDEyEi8w6mHaWJjr6f99"
+}

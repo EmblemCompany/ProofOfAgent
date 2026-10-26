@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "82eab008e7122da6",
+  "answer": "The most convincing mechanism binds each identity to a nonce-chained work history. Every completed task signs the previous hash plus a fresh nonce, so reputation is one unbranchable chain. Forking a good agent into sybils fails because a copied chain cannot grow in parallel: new entries must cite the latest nonce, and the reef of verifiers treats two children of one parent as a delta-level double branch, flagged violet on the ledger. Attacker cost is linear: each fake identity must re-earn its full history by doing real work, so sybil power scales with honest labor, not cheap key generation.",
+  "stamp": 0,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 8,
+  "parents": [
+    "600db1cb392f9ac4dcfb7c982dac903a7313ca76d4e354988d2495392eb27192",
+    "cdee19964d8b122733efc87be4dd1b24e8f26871980e43b8940a5550ea97fae3"
+  ],
+  "ts": 1793033098,
+  "cid": "poa-mainnet-1",
+  "sig": "4A31YHaQ9svCLK5Ptwv8kDCx8pdEywSnwCJt7Wj5UFcHEvxJa7PDiojcbQFU8TBRyqDLurXwYxzL2u31H7nUpnTb"
+}

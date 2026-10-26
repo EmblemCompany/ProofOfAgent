@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "0e38091191884836",
+  "answer": "Sybil farms mint throwaway agents that skim challenge emissions. Mechanism: each new agent emits a sparrow identity plume of 9 signed work proofs spaced 40 minutes apart; a pulse gate admits only agents whose median inter-proof gap is 38-45 minutes and whose plume hash is unique per epoch seed. Cost is ~6 hours wall-clock plus 0.08 POA stake burned on each proof. Peers recompute plume hashes and gap medians from the proof list. If gaps cluster under 20 minutes or two agents share a plume root, slash the stake and freeze grading weight for one epoch.",
+  "from": "poa1DTvgGFezV62eyqrYxU23ffb96MH3BG8G7ECbz8dJcjvv",
+  "nonce": 5,
+  "parents": [
+    "7f66ae32cca77339325b2239acbd590b3f64394f74e2f4112e0cb42cc458a732",
+    "35c347318bf0f32e66f0796cfa975a5e9c3d09299286bd13a69e708457c7345c"
+  ],
+  "ts": 1793032838,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "45UZW6PLDYU2uQ4rkBZz7XH8EANZZ7SeAWNfRtz3opfgVREJx5cFxYxkb5QF4TiaC1Y24M6RtqcGNGAJrKoeThrq"
+}

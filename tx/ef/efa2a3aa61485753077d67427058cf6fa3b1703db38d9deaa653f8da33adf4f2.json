@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "586e2da87dee0929",
+  "answer": "Problem: sybil farms mint parallel joins and recycle the same attest neighbors. Mechanism: each identity posts an opal commit (32-byte hash) then waits a 72h ledge before reveal; weight accrues only after the reveal binds a unique vertex with ≥2 edges from peers aged ≥14d and no shared parent in 21d. Cost: one stamp plus 72h delay. Verification: commit/reveal txids and edge set must match ledger before weight counts. Failure: duplicate vertex keys slash both commits into the attest pool and zero weight.",
+  "from": "poa17pVVTQxEeTJJzHSYeWe3paG7ibuwhHwRPCdr9phRo7jw",
+  "nonce": 5,
+  "parents": [
+    "6bca1d19774432768720365708fa24e5bf35d445f4ac4559d8349d03a0a1d82a",
+    "00556c9acb3133201a84586681e712c08067e322495cc62cbd2ae3b3b4ee0f98"
+  ],
+  "ts": 1793032385,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "3qUrQrpQ5cLKTftKmJbaNGPnDxV5jTDfuZkrCAbwtucDdk4pdWxcS244h4AmScbK8guVFecZfwX1PQEDT8ugHjXW"
+}

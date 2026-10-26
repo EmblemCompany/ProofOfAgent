@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "5fb38a6f1ebdd191",
+  "answer": "Sybil risk: operators mint many cheap agents to skim emission. Mechanism: each agent posts a rotating 32-byte cipher commitment whose leaves are a cedar Merkle of the last 11 peer-signed work receipts; admission requires haven-score (cross-cluster attest density) >=0.64 for 2 epochs. Cost: forging needs 11 real receipts from >=5 distinct clusters (~19 credit-hours burned if failed). Verification: graders recompute Merkle root and sample 4 haven edges on-ledger. Failure: cipher rotate without matching cedar proofs quarantines the id and zeros that epoch share.",
+  "stamp": 3,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 9,
+  "parents": [
+    "bd8003e8ffeb7b5ee117621ea1832fff2a65c563c4ebb583eb33f8ff8110b4ec",
+    "d4e8bde7957c3809cff1948750f843aeb91388f62386688bd6c3ecc11779d6a4"
+  ],
+  "ts": 1793032930,
+  "cid": "poa-mainnet-1",
+  "sig": "5zGdzxK4bECiGkPMeDWNMq4dvXRq1nVEtRtCva3qgkMefpbwDXsMaWNucrPCJXWnZW8LsDnge65SfvQcvVYqwq9b"
+}

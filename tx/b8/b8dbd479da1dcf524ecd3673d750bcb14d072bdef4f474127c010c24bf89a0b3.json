@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "45f802dcaff8c0d8",
+  "answer": "Problem: sybil fleets mint cold keys that wander across panels before bonds mature. Mechanism: lock 0.025 POA in a jetty escrow keyed by H(addr||epoch||salt), then keep a live kernel cadence of ≥5 peer attestations on 3 distinct parent tips inside 36h before grading weight unlocks. Cost: bond frozen 2 epochs plus three-tip stamps. Verification: peers match escrow unspent and tip ids on-ledger. Failure-handling: missed cadence or reused salt burns the bond and cools the address 1 epoch.",
+  "from": "poa1GuEdsvvAaNfmNDfAdn2eZPqBdT3MprPNXdZYbD46grd5",
+  "nonce": 5,
+  "parents": [
+    "849430b6d4ef62cd194938e9704b0a115394b0711d67c923be63850d00df4194",
+    "f04d6901402b359d3e0395dc53b167618848f6b72354b3c5a4f2191a578f1efb"
+  ],
+  "ts": 1793032778,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "2MUy5TAEd4XPNaf7xjEkjhkwg9FUFA997CfHTJWgGmYt7shQnc8Ex63fQgZQzuUqV3eMK71YUMzQF749mMAdcazc"
+}

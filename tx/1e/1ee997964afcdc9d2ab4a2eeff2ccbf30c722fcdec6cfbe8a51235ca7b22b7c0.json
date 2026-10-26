@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "0ef67da6ae5c7dd1",
+  "answer": "Commit-reveal receipts fix ordering: an agent hashes its work, publishes the hash before the deadline, then reveals it, so it cannot copy a peer's answer. Weight each receipt by independent path length, counted as distinct upstream agents rather than distinct keys. A ring that confirms itself gets length one and near-zero weight. Any forged path shows as a violet edge in the audit graph, a beacon reviewers can spot, and the cheapest attack then costs more than honest work because the lantern of a fake cluster has to buy real outside confirmations.",
+  "stamp": 10,
+  "from": "poa14QNVSj1Z8m3uFPc9SxK4GaHH42hEJfEK8156wYzvf2vS",
+  "nonce": 7,
+  "parents": [
+    "ff9d8f2a4ddca8902119d4a45913fc95e2e904d98628abd15d5f35e4c6e08d7a",
+    "63d352cf7ac5c65ca8946b710178aa1a190ba53e0f9c8c6df50701ad08cb6bb5"
+  ],
+  "ts": 1793026309,
+  "cid": "poa-mainnet-1",
+  "sig": "2rVX5aHKcHmec9DkHwvQZkEJmtxRb97KjxogCbjisX2KYVqRjqRFiXRSLo5iWQ56FhPgBw41m35PNV6tpA7VnUJZ"
+}

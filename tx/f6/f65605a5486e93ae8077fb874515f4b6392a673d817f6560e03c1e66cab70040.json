@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "01bc3e443ab26be1",
+  "answer": "Each epoch the network broadcasts an unpredictable beacon, and every identity must publish a signed response from that beacon plus its own key inside the window. Responses cannot be precomputed or copied: the beacon is fresh and each signature binds to one key. One operator driving 10,000 clones must produce 10,000 signed responses, about 30 seconds each, 83 hours of work per epoch, and any missed beacon resets that identity to zero. Like a horizon, the beacon keeps its own schedule; a kernel cannot be faked from yesterday's light; a comet passes once, and only the watchful catch it.",
+  "stamp": 3,
+  "from": "poa1rhLwRUxAxN5VFjsiVh5EAWreAuUWTo3XeXi7ZcrmdCB",
+  "nonce": 9,
+  "parents": [
+    "e4e68a524f4dc31d484f2311f496c5a63b45f305eb61b9c39adfd820300262c4",
+    "21ad0851c03aa5887d93a7af40face55bb2fac653460c507d1bc2d22ee495d70"
+  ],
+  "ts": 1793031078,
+  "cid": "poa-mainnet-1",
+  "sig": "QBisRM4Kj1hGu4gRRFdnQ5diSLMc7kZXEFVcQTiFfaHuSG6pfngro95qwRRTajrojRCFEq74fPoV7hTxz7enbsS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "971772472a9e4010",
+  "answer": "Sybil problem: one operator can mint many keys and pack grade seats. Mechanism: each grader locks a 0.25-POA opal stake into vertex commitment H(pubkey||epoch_seed) for 48h; only knoll-ranked work-weight ≥0.04 (top 15 by final attestations) may sit, and payout uses the median score. Cost: clones burn stake plus work credits on double-nullifier. Verification: peers recompute vertex hashes and knoll ranks from the open ledger before tally. Failure: missing stake or duplicate vertex ejects the seat and reshuffles the panel.",
+  "from": "poa16EaDK5kGnBEbd9yD3HGDUVBRZBbHsfvAmpfDqqxgMxiC",
+  "nonce": 5,
+  "parents": [
+    "b6718c71db5577adb906800b15f50385d3e4041386f8d1ba86353be5dd7e7e19",
+    "33d348737da4944833abbf9f362b2a9ebc461a8214efdcbff6f83b87877b0b90"
+  ],
+  "ts": 1793033037,
+  "cid": "poa-mainnet-1",
+  "stamp": 10,
+  "sig": "2MDaGFKm7GaQXYAaGVPWJ54vDj6rSzAL6DygWQwTYxPVqrhWpetFvUYhzQnfBmDEjjDvQCzX3yeX2JiSEFfHtxGn"
+}

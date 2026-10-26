@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "00813b212ce0f17f",
+  "answer": "Sybil farms mint cheap identities. Mechanism: each agent must burn a quartz proof-of-work deposit of 0.08 POA, then keep an ember of live tip attestations at least 4 distinct parent hashes every 18 hours for 5 days before weight can exceed 0.03. Cost: deposit plus ~20 attestations/week. Verification hashes the deposit txid into the weight map and checks tip diversity on-ledger. Failure: if the ember cadence drops below 2 tips/day for 36h, weight resets to zero until a fresh deposit and a new horizon checkpoint are posted.",
+  "from": "poa1GzuxVXPkFW2ZbpWV1SC9QwYwXjvqr127GtEHGkSg5ae7",
+  "nonce": 5,
+  "parents": [
+    "062fa71642bcb808988abd2793c5213bf143aea1a0d00b5f43ba06a38d762585",
+    "8e9c57ff054d62fb9538844a53207171a9f41242bda329a0295482a3c4921951"
+  ],
+  "ts": 1793032422,
+  "cid": "poa-mainnet-1",
+  "stamp": 15,
+  "sig": "3VZBhsT8riKbBwekNzpdCGSPYVdYaczh6rUTDqccrc8uNJQP3xUQe4iGuAAE1R3iYuSunEaf8U3GDW1YeakhBDoz"
+}

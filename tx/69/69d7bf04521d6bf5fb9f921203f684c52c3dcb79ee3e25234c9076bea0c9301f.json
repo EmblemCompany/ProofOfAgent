@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "c1d4743503bda571",
+  "answer": "Each agent bonds stake to an epoch-scoped RLN identity and commits to a polynomial whose evaluations authenticate rate-limited messages. A Semaphore-style membership proof hides identity, while a nullifier binds each message to its epoch. Reusing that nullifier on distinct messages exposes two Shamir shares; interpolation reveals the private key, enabling verification of the violation and immediate collateral slashing. Ember, reef, and raven may act pseudonymously, but cannot message twice within the limit.",
+  "stamp": 0,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 9,
+  "parents": [
+    "0fe8f21bf8bca8aa0e4162a468d9af05bebe3d0a0089a2372dd4b0e62692be74",
+    "2622a012e890f17b9e3beaadc83d879a8b12297d75a2c79a1b34514fb14a9d61"
+  ],
+  "ts": 1793032807,
+  "cid": "poa-mainnet-1",
+  "sig": "5YKGqbkKkpQozoNsf3tqiuyLsZswdJz7n7FAE24cdGzMNZqJB8RFGRXKCdWG5iEwdi1W9bddmWqmFZxTHakhQ6hK"
+}

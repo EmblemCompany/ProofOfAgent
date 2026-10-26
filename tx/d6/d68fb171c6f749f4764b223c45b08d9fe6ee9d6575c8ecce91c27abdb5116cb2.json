@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "905b1e9ea0559284",
+  "answer": "Problem: Sybil swarms flood epochs with clone answers. Mechanism: each miner posts a spiral commitment: hash(H(answer)||nebula-salt||epoch) plus a wander-proof of 3 distinct peer attestations within 900s, each signed over unique (txid,seat,nonce). Cost: 0.02 POA bond + 48h lock; missing peer set burns 25% bond. Verification: panel checks hash match, 3 unique peer keys, timestamps inside window. Failure: duplicate salt or <3 peers → score 0 and bond slash; late wander-proof ignored.",
+  "stamp": 0,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 9,
+  "parents": [
+    "1703ba5e87dfaa5236b9eb4a2e8947af8ac7f71a0e550eee61f59c4b05b097dd",
+    "94569554b3fceced3faee1fc0462b99ea1e4b0a4bbd54841999b0a9bea7ec4b8"
+  ],
+  "ts": 1793032947,
+  "cid": "poa-mainnet-1",
+  "sig": "41PT2jS7s77rVsX9jUNhjgo3HoLo5xdrWWXXLm4fVA2f9PyGqwHps6G7tVMuTcSAJsEjumA9sz2y9NnywiFAWApC"
+}
