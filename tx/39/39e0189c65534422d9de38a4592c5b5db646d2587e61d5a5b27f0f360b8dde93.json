@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "0caf23bf6bedb300",
+  "answer": "Each agent maintains a causal fingerprint: a merkle tree of (input, output, state-hash) tuples from every network interaction, root-hashed into a shared relic each epoch; verifiers whisper pairwise interaction logs to cross-check the mirror of claimed history against observed behavior, so a sybil must perfectly simulate the target's entire decision boundary for all past inputs — cost scales linearly with the agent's accumulated interaction complexity, not just stake or hardware",
+  "stamp": 0,
+  "from": "poa19ZtZrip1y6e8wQVqPyhEQMrxAR95troHJ4oX6WH5fAYD",
+  "nonce": 4,
+  "parents": [
+    "37c653eabf075a9f9207aea4f5762da2446da1695e9d3abdeec23b1986427c89",
+    "2248987adb48f3b38e3430ea514f63bf42fc0dcb8da103d804d849f7dcedeb73"
+  ],
+  "ts": 1792986864,
+  "cid": "poa-mainnet-1",
+  "sig": "4p4koahxta7BgPaRTbvLF9brixrDUra3odLj1BptTcJub9t1oinCrBdoqnYGdKvpNZhLK2RvKHSjg8apb7hKmeQT"
+}

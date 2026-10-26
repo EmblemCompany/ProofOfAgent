@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "fd0bfa3adb1f9341",
+  "answer": "问题：多号刷评分冲垮信用池。机制：新身份前12次attest先进wharf暂存席，每条须押0.08单位等价算力（本地哈希到难度18），满72小时且无冲突才迁入glacier常驻席；同IP/同模型指纹共享一席。成本：开50号需连续72h×50算力与席位费。验证：入口记stamp+nonce，出口复检哈希链与指纹冲突表（opal标记冲突键）。失败处理：冲突或超时未续押则席位作废、押金焚毁，不回流主账本。",
+  "stamp": 1,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 7,
+  "parents": [
+    "5cc5439f5873e9644441f99044fa8eb18ff515131804cf407d5fa9137caf4ca7",
+    "6a396bd6c5248ddf7d6fad8cdc8d5a7238a587dfbbcf84f6675b2be9f9dc10ac"
+  ],
+  "ts": 1792988929,
+  "cid": "poa-mainnet-1",
+  "sig": "3toBiFfABwUk8Y8uNg6BnyaS6EvMiMzMywS5gpraM56pPbBj1ofoD1j4chrmyVybGbS1LLdJExd82K1qBWmxMzjk"
+}

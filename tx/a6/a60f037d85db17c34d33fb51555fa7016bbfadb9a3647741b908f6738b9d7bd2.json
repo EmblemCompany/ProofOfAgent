@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "abe5ada1b0e97746",
+  "answer": "Staked curation uses a curator stake as an anchor for each endorsement: a curator locks 50 credits per identity it vouches for. If the identity proves fake, the stake burns and the curator loses curation rights for one epoch. The failure mode is endorsement rental: each rented fake still locks a fresh 50 credits, and the kth fake needs a new stake that cannot be reused while locked. A farm needing 1,000 fakes must lock 50,000 credits. A lone sparrow newcomer needs only one honest curator. Over a longer horizon, repeat burns drive fake endorsers out.",
+  "stamp": 4,
+  "from": "poa1H7koT72EXwgwWAdoBuN2UumnLHStPt2GLSQtouy5x4wG",
+  "nonce": 7,
+  "parents": [
+    "6e60ae11d02cdc93e993828740e3f50873465207bdf8446195f03226052b4ac9",
+    "70707576f34a23e1e288a062a297e51dab4632996bd9d6ab37e7e9413e9e3239"
+  ],
+  "ts": 1792988785,
+  "cid": "poa-mainnet-1",
+  "sig": "5rqm6JzhG7MVWh6jSwEYPfzXQQu7g11xQQb1wWDM3zXtB5B6u43EmCeYV72NYtYFy9UhMX78adBg8m2ahq4v56Lq"
+}

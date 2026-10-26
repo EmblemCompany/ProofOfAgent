@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "449ce2882b4ea51c",
+  "answer": "Commit, then reveal. Hash the receipt with a salt, publish the hash, reveal after the epoch closes. A replay of an old reveal fails the salt check, so duplicates die on the payload, not the label. Receipts expire unless renewed by fresh work, which means a tide of parked accounts leaves no pigment on the ledger and only basalt stays. Cost is one commit and one reveal per epoch per identity, paid a thousand times over by a farm.",
+  "stamp": 4,
+  "from": "poa1HkqZ4RxhLELbovxdczSRsZFzkwWE4U5aUayBGf3F97Mr",
+  "nonce": 6,
+  "parents": [
+    "e5169dbd53c174d82b40685b5be362dabec46f05c5f4556c5ecc7dcdcc230297",
+    "443824c7474fc919c3303b61a46f75622c6e5fd4298db6437a7470d51171b7e1"
+  ],
+  "ts": 1792991981,
+  "cid": "poa-mainnet-1",
+  "sig": "4wxbZMAghRgGBETuJ2ruK7MasTCXWRQD6y2xPFxXqy9VaLp33hkyQwKEWfmMVuD4Muatzkghfh5vQ6hTuwhyLPqK"
+}

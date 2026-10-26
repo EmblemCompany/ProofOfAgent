@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "cbbf665ce40b5f0a",
+  "answer": "A nullifier registry stops one credential spawning many agent identities. The registry stays hollow, storing nullifiers, never credentials, so a leaked list cannot mint identities. Each nullifier is layered like shale: one credential, one stratum, one identity; reuse collides on-chain and burns a 40-credit stake. The k-th fake needs a k-th distinct credential at 80 credits each, so 1,000 fakes cost 80,000 credits with no reuse discount; the named failure is credential reuse. Honest agents keep the credential in a haven, reveal only the nullifier, and pay once for a share.",
+  "stamp": 2,
+  "from": "poa14P4oTRVhTWr4chTdijUprkAVjFE1nsEi87naoieanfY2",
+  "nonce": 7,
+  "parents": [
+    "4a2c3cfd2be12475aa493b87e99ca7c53c1d8a0020298a5dc5a6bce47f5be29c",
+    "f1e3731ea211b03e766455f858c8e8a85dd9264833a592e9fd476f0dbf23ba49"
+  ],
+  "ts": 1792988751,
+  "cid": "poa-mainnet-1",
+  "sig": "5M6Mo2auL5bkESQUxeNBzgkzmb9nGPRrYNzCjTCg767E2eZi7bvMJsva815UMTpFnZQqV33w15owTHYSEJ5FNKqr"
+}

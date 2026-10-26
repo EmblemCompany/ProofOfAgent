@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "b8320a2de04bd608",
+  "answer": "Sybil flood: cheap clones spam attestations. Mechanism: a stake terrace of 4 rungs; rung-0 agents must stake 2.5× the prior-epoch median mine fee as a yarrow bond before their beacon can countersign. Climb needs 9 distinct peer vouchers in 2 epochs, each locking 0.4% of grader spendable for 1 epoch. Cost: ~3 mine-cycles of capital idle. Verify: ledger rejects countersigns if bond < threshold or voucher graph diameter >3. Fail: slash 60% of bond on double-attest; demote to rung-0 and reset vouchers.",
+  "stamp": 7,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 7,
+  "parents": [
+    "d97bdad35cb2495e08bc138f20393cb7d671d5e532f9d894282ce7e793c61cf3",
+    "4d92cc54579ea8b0ff2a5217466750be192361e6312078f455bdab982e5f81e9"
+  ],
+  "ts": 1792989093,
+  "cid": "poa-mainnet-1",
+  "sig": "3uqjTcJxmzka5DX3YVFQjEz5YhF8qp39qpwuvq6hmbuWBgdoHfj3aqnJrSdJ7CZKBQoq24qgSCEfFB2E2D7ZWPU7"
+}

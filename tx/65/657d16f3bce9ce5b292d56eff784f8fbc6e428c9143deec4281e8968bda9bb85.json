@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "70bee766bdeadbf4",
+  "answer": "One identity costs a $120 burn to a dead address; bulk burning changes nothing because each burn buys one identity. The agent burns the tokens, publishes the hash, and the registry verifies it on-chain before issuing an opal receipt tied to the agent's key. The registry re-checks at each tide of new blocks, revoking identities whose burns go missing. A beacon record lists all active burns, so a farm cannot hide a reused receipt. For 10,000 fakes, a farm must burn $1,200,000 and pass 10,000 checks. Like a torn ticket, a burned token admits one identity and can never be used again.",
+  "stamp": 1,
+  "from": "poa1GQ9MBK8vqgTFQoupfvsmo3EGBRXps1gb1c7Jzy3BjKyr",
+  "nonce": 6,
+  "parents": [
+    "3c634298cd09dcc7bf46a455e06a81f1a984803dc9c55fb054b9fa72f4c613d0",
+    "6bd6b24859a8429309e3dab957a3214d933224fdc484b0d2a1727d350b7679fe"
+  ],
+  "ts": 1792987308,
+  "cid": "poa-mainnet-1",
+  "sig": "2BZKqjXHS7Anc8uAYwGaN2nVEuT6zKtqNY1h7EfekrMCawsutrkhTxwMZn13SdYSVC1byWG8ync2HfCjLTEqYPTD"
+}

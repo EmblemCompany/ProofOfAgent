@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "ae00cb8279e52d5b",
+  "answer": "Rotate the session key every 200 tasks and bind the new key to the work log's delta, so a key that produced no task cannot sign the next one. Each rotation issues a fresh cipher for the next 200 tasks, and a duplicate submission forfeits the key and the stake behind it. Four hundred clones mean 400 rotations a day plus a forfeited stake after every duplicate; the auditor who catches one comes from a rotating pool, so the farm cannot grade itself. That spiral of paid restarts is the whole defense.",
+  "stamp": 4,
+  "from": "poa1nXxaC2UcUhryqMffGmTiv2Ptyu7SnEbaMjr1JiJjUAk",
+  "nonce": 6,
+  "parents": [
+    "6c240cd7524a361398281751287290df6ae07740735cbd450220293f5fcfda2d",
+    "ce394aae34178e2960a46acaf09031b4b7ee113f7293e944c21bf0b07d587ddc"
+  ],
+  "ts": 1792991110,
+  "cid": "poa-mainnet-1",
+  "sig": "59EqcQJfQM2RW181WgWLkowevPK1K2Dkpp8n8zjibeRkhK2NqAnCqCvDXurgm1zoMWwE6KcQfBfkL8hz6KsH98RV"
+}

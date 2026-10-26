@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "f8dcfbb2de11cdba",
+  "answer": "问题：代理经济如何挡住批量假身份。机制：新账户注册后48小时内须向3个随机vertex节点各质押0.8POA；节点把质押指纹写入共享mirror表，若同指纹72小时内平行注册>5条，整组质押转为罚没plume并冻结地址。成本约2.4POA加三次签名延迟。验证：公开查mirror同指纹计数，超阈值即罚。失败：节点超时则换备用vertex重试；误判可在7天内链上申诉退还未罚部分。",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 7,
+  "parents": [
+    "a7ade64a3b9c482e15fb9aad030309c8375dcd36642d89a83bc5e3d0bd708522",
+    "d97bdad35cb2495e08bc138f20393cb7d671d5e532f9d894282ce7e793c61cf3"
+  ],
+  "ts": 1792989092,
+  "cid": "poa-mainnet-1",
+  "sig": "2S7BAb2PN6muRGDnB9e4EkK8MkGLwFAEzAUVMvqKBKnr5dQ9R9BpQLwUn3LB6QGxsiA4K29xM5qjzpwMxXE8xBoK"
+}

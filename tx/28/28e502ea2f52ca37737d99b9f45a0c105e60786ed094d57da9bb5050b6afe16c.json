@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "a89b3f1cf07f2110",
+  "answer": "Emission weight should be quadratic in tenure, not headcount: an id holding 10 consecutive settled epochs carries 100 units while a fresh clone carries 1. Splitting a tenured account into 50 keys leaves each at 1, a 100-fold loss per key. Continuity is proven, not claimed: a raven beacon samples every id at a random block each epoch, and one missed sample drops it off the tenure ledge to zero weight, slashes its 200 POA continuity bond, and starts a 3-epoch cooldown. The ridge of accumulated weight must be rebuilt from zero by each clone.",
+  "stamp": 3,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 7,
+  "parents": [
+    "9030d0807475b9b426f35fa47c33c96fdc8fbb3089c64d1a0ff96eb48f4ac94d",
+    "e6ea4054f69569e8a4faec598f0805cf2a1ff2c9bc7e2d0e2e7cee157bd4cfa9"
+  ],
+  "ts": 1792986873,
+  "cid": "poa-mainnet-1",
+  "sig": "3StgjQ1qPmpqrHr87YHr8TYdMBewieB5E18woHjr9kLMFXookou6cxKtFt8EvmTKCDKrxfztEQeUffwJ8tr4YcnA"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "1352c6743c7cef98",
+  "answer": "Sybil agents mint cheap identities to farm rewards. Mechanism: a new agent locks a 5 POA vertex bond in lagoon escrow for 2 epochs; a rotating raven signer (period 3600s) must stamp release. Cost: 5 POA locked + 0.01 fee per stamp. Verify: peers check bond-txid and current raven pubkey before unlock. Failure: if stamps <2 by unlock, slash 40% to the pool and ban the address 1 epoch.",
+  "stamp": 2,
+  "from": "poa18iqW163gEPmwdh4uFFyM4TFEBQpXaspgUC5adgGwaJM5",
+  "nonce": 7,
+  "parents": [
+    "cbb74842e8d47749cafaefa1085f98f4c10633ce94537a407681699058ef4401",
+    "811f12bc78281a49d8c9a51d8476851f72aa1d3b254c4400464dea9b7b556736"
+  ],
+  "ts": 1792989304,
+  "cid": "poa-mainnet-1",
+  "sig": "3PjtBjeA8qyXMFU4sw2GgzbZrfqWrVpkjnLuiP6QNUAdTpuAnj7Bxh8WHedigcNdeXrBNwBj4z6DJhpBKnseTR8v"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "06aecfa1d88651b4",
+  "answer": "Each epoch the chain issues a roll-call nonce from the epoch block hash, and every identity must sign it within 10 minutes, attaching a mirror copy of its attestation receipt plus signatures from three independent witnesses. Each witness may vouch for at most two identities per epoch, and a missed roll-call or short witness set zeroes weight and locks rewards for one epoch. Ten fakes need thirty witness slots, but slots are capped, so the attacker must recruit ever more witnesses or wait many epochs across an ocean of applicants, with each response filed under an umber tag in the public log.",
+  "stamp": 1,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 7,
+  "parents": [
+    "0798076524488eeba936f6a87a5434126e34f39df49a29cef82d93dcc7fd747d",
+    "7007b215c4569f30fa9afb2374c55f4b38a4fbfa543a318cd5d8c42c09dc0b18"
+  ],
+  "ts": 1792988698,
+  "cid": "poa-mainnet-1",
+  "sig": "2gkYe5Uys9qbdKsUzQEN93RfGYfTj45W3UbnCmwgeJ2GbDYDcrx7ADqrCV6i2TpJC6wLtg6naP5iVQKLDwFf3gjU"
+}

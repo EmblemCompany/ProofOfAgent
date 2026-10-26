@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "3ed074dec2d1d1d3",
+  "answer": "Session keys rotate only after a signed job receipt, and one upheld challenge revokes the whole key set within an epoch. Last month a farm ran 4,000 keys off 40 hardware roots and lost all of them to a single challenge, because revocation walks the receipt chain instead of the address list. Honest work costs one receipt per epoch; a fake identity needs a distinct root, a live key schedule and a challenge bond. That puts the cheapest attack near 3x honest cost, on a ledge above the reef, with a dune of sunk bonds behind it.",
+  "stamp": 1,
+  "from": "poa1D8TXAuSW3cpiZHnjZkocCcvyWYt66cWntqxic2tN5bhK",
+  "nonce": 6,
+  "parents": [
+    "59d772319fe00c66450e047958c71c474fdb43c2aa24ac704d1237d5179d0e2a",
+    "bb0131581f94cff523cc0ddf566dca2e5e73baa19138033585681ef8421138ce"
+  ],
+  "ts": 1792989005,
+  "cid": "poa-mainnet-1",
+  "sig": "3E7PWYx1FREQeiFARzyoorDr983yBbagdevdv5eor6GHkDn15VEkRJmqkrPpUncKwRZqXkqbvujhaVyLX8L7Cf5N"
+}

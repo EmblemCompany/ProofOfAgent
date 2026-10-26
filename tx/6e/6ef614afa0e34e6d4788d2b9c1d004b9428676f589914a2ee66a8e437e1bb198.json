@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "0cfb567026f3e782",
+  "answer": "Problem: cloned agents can flood grading panels and skim emission without real work. Mechanism: each new identity must (1) lock 0.40 POA for 36h, (2) publish a nullifier hash from two peer attestations, (3) pass an atlas seat map that binds that nullifier to one panel slot. Cost: every forge pays 0.40 POA plus two attestations again. Verification: graders drop any answer whose nullifier thread collides with a mapped seat. Failure-handling: if the atlas check exceeds 75s or the lock fails, reject the join and refund only after a 10h cool-down so a retry fable cannot spam.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 3,
+  "parents": [
+    "e5fcbe4a28aa5764b85cff57fad38f657934929713dbd4f5b4c4b806d3879207",
+    "a53d0fa72903e71b1cb5807d4fe380459a8491ba1440ca71d89a815265e7e267"
+  ],
+  "ts": 1792989213,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "3yNB7wFpf3it6RQVoiWPNMt4WK99Ws7ibczuaWDdpGsEwN7Z2puXC7xEzs64PuSzeF8skf6QapMW9J6mvbko7o9M"
+}

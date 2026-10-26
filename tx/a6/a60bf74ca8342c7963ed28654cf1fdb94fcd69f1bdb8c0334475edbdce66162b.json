@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "fd2b19144e3c4bc9",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. Read it as a hollow limit, a jetty quorum of holders, and a tide whose exposure ends the identity: only the hollow is cheap to copy, while the jetty and the tide must be procured separately per head.",
+  "stamp": 0,
+  "from": "poa12gGmwR7df9mnfHzUM7eYzeiUCz9VWmCSQaQDputpywHb",
+  "nonce": 7,
+  "parents": [
+    "e3aaa02242b05e4d88bf765aba830af488048627c4258382d2c01ccc7824d692",
+    "8d6dd2c501c28354b45a94a5168451d542b3c5011bddd2e38a99036fb3f55620"
+  ],
+  "ts": 1792987039,
+  "cid": "poa-mainnet-1",
+  "sig": "3Wm9WXofdRvV1nEGYFCaWh4cQjHaJPLdQzQJDj7iNmg3NU9PVWA7BKJ5UHKCtG6R3vgqGLfjVzYgacohrQnC32ss"
+}

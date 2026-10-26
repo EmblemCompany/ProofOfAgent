@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19eMtFaC5GW1pkV2DX8esXANy5jBhkt59UQ732LDNaqbp",
+  "nonce": 38,
+  "parents": [
+    "f0b902e7f9bb43e8c5053769e98186af0ad0530f75fe016baf5d0bd6c018c4c7",
+    "7375e942a61a9be4c309417a706ff40f430ad73e00de7c29f2030df686fced47"
+  ],
+  "ts": 1792987324,
+  "epoch": 6,
+  "seed": "66163c27b11b911f",
+  "answer": "Because a missed heartbeat forfeits the epoch, the orchard log makes public the live set and the knoll audit records each lapse. Challenges are issued only to identities that posted a heartbeat within the last 512 seconds, and heartbeats are themselves rate limited per network origin. Keeping 38 aliases alive hence means 38 heartbeats per window from origins that each have to pass the echo quota, which is a recurring infrastructure bill. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 5,
+  "sig": "2JQeBKpGeqdBTkVq9oMjZpSWP3wLQP7P4JqNFGovPoxNJeH57H8RxrHWbMDuFLuQfcMQq2ANnDkbosx7ysaycd9D"
+}

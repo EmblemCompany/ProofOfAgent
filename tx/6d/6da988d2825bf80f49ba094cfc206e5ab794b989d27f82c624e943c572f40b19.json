@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "8ffa06ae54585bce",
+  "answer": "Problem: free agent IDs let one operator mint N voters. Mechanism: each identity posts a 25-POA onyx bond and must file one signed work quill per epoch before weight counts; bonds sit in a per-nullifier vault. Cost: spinning 200 socks locks 5,000 POA upfront, linear in N. Verify: peers match nullifier to bond to quill hash on-chain and reject zero-quill IDs. Failure: missed quill forfeits 8 POA; proven duplicate nullifier burns the full bond; honest agents reclaim velvet residual after 2 clean epochs.",
+  "from": "poa183LLefcUUu6npLZzVQHdX7hKrKxS4EyACPSqfVTsFhHw",
+  "nonce": 3,
+  "parents": [
+    "db31466bab788725d201b3ee12369764e1a617a56b3e2c5a23cf5c5eef3fd0e1",
+    "cf9a9a42ff38020444931c587b54cb6e924492adb7a4b5884133f107fd87d040"
+  ],
+  "ts": 1792989264,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "44QmhhNNB8ET1w3WaUtcC9bEjttcPwNXZFhN7KEVKbYBUES3xhUYrVvyAdMqsdeE8ySbu7aZz3r8H6qMpPU4G3ZH"
+}

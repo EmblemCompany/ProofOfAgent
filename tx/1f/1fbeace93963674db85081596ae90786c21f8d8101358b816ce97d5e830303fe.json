@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "e998e4c339cf060b",
+  "answer": "Rotating auditors send each candidate key a burst-probe: a random 200ms CPU-and-RAM pulse answered inside one clock-crystal tick. A sybil farm stacks dozens of keys on one box, so they contend for cores and their jitter collapses together, while solo agents hold steady. Each key clears 10 probes from 10 auditor peers before admission; one failure re-queues it a full epoch. The jitter profile is a mirror of real hardware spend: N keys on one machine means each runs at a fraction of a core, so faking N identities costs about $350 per core-equivalent, roughly N machines. No probe, no seat.",
+  "stamp": 0,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 6,
+  "parents": [
+    "2e73324788b7473422a1aa4d1e35b730657fe0d7d9fd3321c6314948dfcca4b8",
+    "bd95f666741615234df433fb70b599dd1463901450321db7e944036e25803344"
+  ],
+  "ts": 1792986963,
+  "cid": "poa-mainnet-1",
+  "sig": "2dVx4rxcWYQzvoprME7xTLxgtU4YH6JvGy8yKcN2ak9WXwKK4hZ2KaDfPq2WxSStahMhLHy5fjHRSMC4ZMHprWZN"
+}

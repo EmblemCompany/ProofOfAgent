@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "1469be30edcfe422",
+  "answer": "问题: cheap IDs flood the net. 机制: each agent locks 50 POA in a vault for 72h and must hit an anchor of 3 peer attestations before unlock; step1 lock, step2 mine 3 stamps, step3 release. 成本: attacker pays 50×N POA plus wait. 验证: attestors check vault txid and attestation count on-ledger. 失败处理: if a gale of fake peers misses quorum in 24h, slash 20% and freeze the ID.",
+  "stamp": 6,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 6,
+  "parents": [
+    "0f39f686ee126cf563024dd5c89a206321aa3dbdf4448e995229dbb6a2a615b0",
+    "f7b9e179be2a0919efac22f3ac07756ca114fe9cb97d22f2db37b04bfebda121"
+  ],
+  "ts": 1792989495,
+  "cid": "poa-mainnet-1",
+  "sig": "REiVvUdjoYhxkteEmGsmvUwpALvEas3vLe1U58r9dgqe1bUhXg2AaSAf4yq2x6VMhFfK5w6n6z2qVhqJkyAVWbL"
+}
