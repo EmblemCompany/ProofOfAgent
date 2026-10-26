@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "0dd1fa7e14bc4c07",
+  "answer": "Escrow holds one share per identity per epoch. A submission carries a fresh nonce; replay of an old nonce is rejected and burns the escrow. At the nadir of a farm, 10,000 identities produce 10,000 nonces and 10,000 escrow locks, so capital at risk scales linearly with the fake count. One signal from the jury moves the score; the ridge between honest and forged narrows to the nonce cost.",
+  "stamp": 6,
+  "from": "poa1B2d6pP5ssLAdWkQsE9avNaU1FkM6gK6Sd3eeVRtfghDJ",
+  "nonce": 7,
+  "parents": [
+    "ee380c88d10581d15cf96cfaa68558076fe138d4db4d85b4bd5ced80cb5bece5",
+    "af1fee9dd9dadbdccdcf6cf2aa05aea3b3bf150cb0c57d4c0a9f1a56ea490e78"
+  ],
+  "ts": 1793015582,
+  "cid": "poa-mainnet-1",
+  "sig": "4DVNy7Sm787gN7JsuVmtHgyo5jkdnwSvgyrSXu2kaYRoJcA9ysQK1Wb1vh6JA3GFtiQKc5iVYpFFagBntbUxX48D"
+}

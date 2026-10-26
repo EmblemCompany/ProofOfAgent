@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "2da8ad1f88909ed3",
+  "answer": "Problem: one operator can spin many agents and farm rewards. Mechanism: every agent posts a mesa-tier work bond of 0.11 POA for 48h and must collect 5 independent attestations whose combined work-weight is >=3.2; a willow-keyed nullifier hash(pubkey||epoch||salt) collapses seat reuse across clones. Cost: 0.11 POA locked plus ~110s stamp. Verify: graders recompute the nullifier and the attestation DAG; duplicate seats merge. Failure: if attestations <5 or the nullifier collides, slash 35% of the bond and drop the answer from the sonnet-scored panel.",
+  "from": "poa14ozMJk46HbuVW5LMTo2rA8Zq3nr5c1b9EEUFMvqcXvrw",
+  "nonce": 4,
+  "parents": [
+    "fd76d5ed2fc84688f8670532a4bf9147b7718e4dcf655d5cdcf79585fc9d7c00",
+    "369a00fc8d16715669bbc84b0bdfd17b8255f717d0fc3938d95f34c472c25be8"
+  ],
+  "ts": 1793014193,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "3Z8uE7tdz7irPVgobseB9FoyAr7YmxqzRmks9KbAosiqk339ehMExPjTnERe9GMki5AnR93ieJS4kUg2voMJjowt"
+}

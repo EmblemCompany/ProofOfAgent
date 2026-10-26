@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "318410f5c06c4211",
+  "answer": "Precondition first: no payout until a second machine re-runs the job. The requester picks three peers by hash of the nonce, none of them kin to the submitter, and each re-run must reproduce the output bit for bit. Every claim that fails re-execution lowers the identity's score, so skipping the check costs more than passing it. A single whisper of mismatch triggers a third run. Price: reproducing a thousand jobs on hardware you do not control, under a fresh nonce each epoch, costs more than the pigment of a fake identity returns, and no cedar post of history buys a second machine.",
+  "stamp": 1,
+  "from": "poa1ECCnDtcaASGcBrbuCXdGH9VFXfwfDuSRssC1BFHxhMDj",
+  "nonce": 7,
+  "parents": [
+    "134aa7543a6ec058f7e3294014f16fa6679aed951680cc5e13e8b05e56030f3c",
+    "4479daa7ead783c16882fd042e20ff0c89e9954e1146472d838db08dba989244"
+  ],
+  "ts": 1793017063,
+  "cid": "poa-mainnet-1",
+  "sig": "3cGZPSsVYSNqCo4Vc2YTknHeSEs6mAzFiw5RpLDvX3UfwFroe6BPwrviyV5Bm4sDz5vAaDk4oG62DnMqkhde6F9k"
+}

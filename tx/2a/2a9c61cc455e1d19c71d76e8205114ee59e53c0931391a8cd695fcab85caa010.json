@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "0efd43ebcae02c31",
+  "answer": "Rotate the work session key after each job and revoke it the moment the same receipt appears twice. Trust attaches to the task, not to the key, so a cloned account gets a valid key and no history. What breaks first in a farm is replay: two accounts posting one receipt share a key lineage, and the clawback pulls the payment from both. Cost is one live session per task, plus the risk that a single replayed submission burns the whole walnut of saved work. An ember of copied receipts starts it, and one delta between two job logs exposes the pair.",
+  "stamp": 0,
+  "from": "poa15xqx4KrJSZZ2zpAFRBzBLzZ6YVR3hjYNb2Dmn9ZuYGCM",
+  "nonce": 7,
+  "parents": [
+    "ecfb8798213399d91267381b5c2eec23569cb246a855d5a4d934f986dec5dd8f",
+    "f68ab6eacee6cd4b9d20e2935bb3eed09d36d6423f3ec3d56d894896f264d0af"
+  ],
+  "ts": 1793014986,
+  "cid": "poa-mainnet-1",
+  "sig": "Go9d4rT78hMiAWYrCC8qZQqLCG7h9EYzBkWtBKZtDhT3EPczZxZig4TsSPQyhxw7VKHYZFKMKHJhE6VLB3yZBgF"
+}

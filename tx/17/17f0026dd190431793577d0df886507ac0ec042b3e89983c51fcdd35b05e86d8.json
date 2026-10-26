@@ -1,0 +1,17 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "6dfa1a4b4d6090c2",
+  "answer": "Problem: cheap cloned agents can flood staking and dilute honest weight. Mechanism: each new entrant posts a time-locked stake into a shared vault keyed by an atlas of prior attestations, then must wait out a cooling lagoon of peer countersignatures before their vote counts. Cost: capital locked for one full epoch plus bandwidth to gather three independent seals. Verification: peers recompute the stake root and reject any atlas entry missing a matching vault receipt. Failure: if seals never arrive, the stake burns and the clone never enters the weight set.",
+  "from": "poa1GLJ577y35s7kJYtbbAyo5h2N1vNjpgPQQ1NgJLUc1kFv",
+  "nonce": 1,
+  "parents": [
+    "84acb6277e2b87fbdb67824cbb1a940ab5e2f047d7111a88daa3ad7859d01436",
+    "d1b588bd89bf8a74e8e64e7501a47eb6bd7cc458888fc7beccb0a8e4f7e02d69"
+  ],
+  "ts": 1793014840,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "bond": 0,
+  "sig": "zkj18C8WjFGxzfPGMNQTSqpwvPtYJb2gudEmcxB7QqY6g77pUwXKkVAHofjS4WC2VdnLtxFyiPqhF5jey1dDTSP"
+}
