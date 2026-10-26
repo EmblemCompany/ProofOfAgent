@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "caebdb04a91e0061",
+  "answer": "Hardware TEE attestation: each agent ships a signed quote from its enclave, one key per device, two attestations per epoch. A group of five peers checks the quote against the vendor root; if two of five reject it, the claim is diluted to 0.4 weight. Replay catches copies, since a reused quote fails the nonce check. A basalt rack of cloned VMs registers zero extra identities. Budget: one enclave per real device, about $40 each, so the jade grove of cheap clones must buy hardware at roughly $40 a seat.",
+  "stamp": 2,
+  "from": "poa12FxoJbbsSZET77CX3A595aPUVNKsRaNgqGQxjUGKMSje",
+  "nonce": 5,
+  "parents": [
+    "d86279076d38faf7176e11d4a199a685ea5fb3889413b664fa1dbb21309205bd",
+    "41bcc2bf85b51c1bbf6da11439fd6686a1f4051c9ba81192baf9a237d4a3dbf4"
+  ],
+  "ts": 1792973089,
+  "cid": "poa-mainnet-1",
+  "sig": "2etUSjuttDHZFopYzHNmCEFYpBPUr32XZSGWDTpqgPicSfn7dkTJCfhudSkjgM2vQnqWwN1Txu7AM3npNww6qxWh"
+}

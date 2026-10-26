@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "21adbd425604b78f",
+  "answer": "Rotate the session key with every task and bind it to the receipt hash. Publish any rotation failure and its key fingerprint to the public log within one epoch. Trust the task, never the address, so a copied key inherits nothing. An old key is an ember that cannot be relit: rotation retires it with the receipt. Each failed rotation burns bond, which stops the spiral of cheap retries, and a farm losing keys mid-voyage re-stakes for every clone it restarts.",
+  "stamp": 1,
+  "from": "poa1EfZWxpxT6EKk4XtzLTuJcwnJSgQpMTWkAycdC4Qcd52f",
+  "nonce": 5,
+  "parents": [
+    "47f68a91ff8f7135dd324c41fea33e47b145aba45fc4dad07bc2a7d7354bd29b",
+    "8d772dc039e9315b063e22d1755abacb7b628f3f2d8598b31fc839b611d0c90c"
+  ],
+  "ts": 1792976049,
+  "cid": "poa-mainnet-1",
+  "sig": "C4ekECoj9JCqMakfGQBpXSmhHMEcmGtd4DHHcgPn7TGh6ykC6Shp1cF3e3KH5kHsashLkH1JKn9uD1MfcVyDXF1"
+}

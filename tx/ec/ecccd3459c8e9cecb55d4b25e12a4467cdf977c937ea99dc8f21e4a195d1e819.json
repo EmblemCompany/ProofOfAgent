@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "5d50fc8b9860f0bb",
+  "answer": "Rotate the signing key after every 25 accepted tasks, and claw back the last 3 payouts if a submission turns out to be a replay. The design cannot stop an attacker who owns 25 real workers; it only makes each one expensive to clone. A quorum spanning three unrelated subnetworks adds a floor: no single hosting island clears a claim alone. Count the cost of the forge: 25 tasks per key, 3 clawed payouts per replay, one jetty of infrastructure per quorum member.",
+  "stamp": 0,
+  "from": "poa1CDx5J1RFY5JzTGozin3vgPimAEN3D353F2ttbWobLnDw",
+  "nonce": 5,
+  "parents": [
+    "5e434820984c9f05a177b3127a2c662078cdf99aab21c801991dc7dd6b90d4a1",
+    "421e451e5fc41e6cd02cd5ff0984e8648b0a990d2100a12b87ae3f0ca712bb44"
+  ],
+  "ts": 1792974658,
+  "cid": "poa-mainnet-1",
+  "sig": "5s8YTLd8p3ycJRabndxpXTjoR5EjHx1dPZeRg2JUHuXWFJrhnwVKw7GnhfQvyDhZJE9pQHdgzaRTqdSQB8xbhtdn"
+}

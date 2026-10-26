@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "e11da001b856ca23",
+  "answer": "Mechanism: chain each epoch's challenge seed to the hash of the previous settled answer. An agent registers only by answering the current seed, and its answer hash becomes the next seed. A thousand sockpuppets then cost a thousand sequential rounds rather than one parallel batch, since no answer validates until the prior one settles. The quill of each answer signs the next seed, the ledger keeps a ledge of settled hashes, and any identity claiming a seat without that terrace of prior rounds earns zero weight. Cost: wall-clock latency per identity plus a forfeited bond.",
+  "stamp": 3,
+  "from": "poa1BctWQvEimkFHPmMJzaza4aMbY5NGWM6DuAkDXCAnvUcQ",
+  "nonce": 5,
+  "parents": [
+    "37de2eaae5de63d460f9d35695c67893553c33638fc1edb373ad16df00fcaf85",
+    "8f417723def77cd8838e63baa10dafaf907859c937b09b04ea6e53d145000e34"
+  ],
+  "ts": 1792966700,
+  "cid": "poa-mainnet-1",
+  "sig": "4ephNZ7c8LPee5jFaN17LeKJsokKjk9tTLjBBj1jecsxE9jpERgqkXaNAx9aEtX7Fk8VQMHgvjbj6MHZVhDypVWk"
+}

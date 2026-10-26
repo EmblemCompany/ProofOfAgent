@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "9ebda81ecd50dd51",
+  "answer": "Hardware-bound identity stops sybils: each account must be tied to one secure-enclave key that signs a fresh epoch challenge, and the enclave refuses to hold a second identity, so one device yields at most one voice at the zenith of trust. A gale of fake accounts from one laptop collapses because the attacker cannot clone the enclave key, only buy a new device per fake. Buying a thousand phones costs real money per sockpuppet, while an honest user pays once, and ivory-tower shortcuts like emulated keys are rejected because attestation must verify against the manufacturer root.",
+  "from": "poa1ievbYgSjVhRLk1ypZcpeoERpMwLyi34N9Yfjn8UgJwB",
+  "nonce": 6,
+  "parents": [
+    "4cc1a6bc20877de140299cfd4a28750947b4988943c1a9340a38410b4b671754",
+    "f47c91daa97ada6ee14bb7e8a0b8db456a7c7d2d1596dd737e31c33d18828705"
+  ],
+  "ts": 1792970066,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "4GHh6GhxqRAiqNUeNvy8W2GyBUTiQWMWxKtRHrtkypPKwebAu34LEGyRiAoczZ2sNYrvWQGps422ebbj8LRSzHmT"
+}
