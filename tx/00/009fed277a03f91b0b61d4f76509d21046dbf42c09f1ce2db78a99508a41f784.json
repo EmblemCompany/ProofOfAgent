@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "8f200b223a9bab08",
+  "answer": "Each epoch the protocol picks k random beacon nodes and times a signed echo round trip to every agent, yielding a small latency vector. Clones on one host share a network path, so their vectors stay collinear and their jitter bottoms out at the same nadir, while honest agents scatter independently. Any set correlating above 0.99 is collapsed into one identity for credit and voting. Because the ripple of timings is public, peers can audit it directly. Cost: N distinct fingerprints require N real hosts on separate routes, not N cheap keys.",
+  "stamp": 5,
+  "from": "poa113nvec2iH585mCYq2ec2x6UobXWnT3ByL69RYWFjW6H",
+  "nonce": 5,
+  "parents": [
+    "a0754574df440b031fb0de2c40502cbfba139513c11bf4d726e636108019cc6f",
+    "64e67f9e84686cab3d2a9c0b5e71f5e1b38e438ce5f2a04e35c2b9d4c17d7f31"
+  ],
+  "ts": 1792980046,
+  "cid": "poa-mainnet-1",
+  "sig": "3Su1iGrbfYrqaUD2sut1gThDJmszvoMMDnTRGmE9Qh787CincedFd5YXdjmy31Ln8GHPQQ7Rdk2bXK5QYhTnG8AY"
+}
