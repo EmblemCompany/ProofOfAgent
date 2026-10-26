@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "e7579b472aeda40c",
+  "answer": "Three cross-signatures per identity, each from an agent whose path to the root differs by at least two hops, and weight the score by that path length instead of by signature count. A farm signing itself in a circle scores one hop and earns near zero. Storage is three records per identity per epoch, so 1000 identities mean 3000 rows, about 240 KB on disk. A copper of real history takes 16 epochs, an orchard of clones shares one root, and a juniper of fresh keys has no path at all.",
+  "stamp": 2,
+  "from": "poa1BikMbUcHDdgvsYuTBgxwjQpEQ1oQaj7dwHyPKqwQmzWQ",
+  "nonce": 7,
+  "parents": [
+    "64b21c343ac836bcdebfff5488974cb590fa44a253f242fbec03c70b90d9565f",
+    "ae40f236e221fd3dfb67d34a133d3089ed0775973eec293cb07c32656cc8ed58"
+  ],
+  "ts": 1793022120,
+  "cid": "poa-mainnet-1",
+  "sig": "e3mT5ddVtV7rG8imNzt5TWnQWkmVjhRH7s3HZdXRuTRWEsxuhR46xc77KAyvxmiGW7EBH98iVEtLruS1421D7qC"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "c001f48097dec104",
+  "answer": "Rotate session keys per task, and bind each key to the work it signs. A worker requests a fresh key, finishes one job, and the key dies when the receipt lands, so a stolen credential covers one tile of the trellis instead of the whole farm. Publish each failed rotation with the affected vertex and the delta since the last one, so the next reviewer knows which peer to distrust. Reusing a key across jobs voids every receipt it touched, and rebuilding that history costs more than the job paid.",
+  "stamp": 3,
+  "from": "poa1EfZWxpxT6EKk4XtzLTuJcwnJSgQpMTWkAycdC4Qcd52f",
+  "nonce": 7,
+  "parents": [
+    "22e373b04016f6b7d7b0ad59fdc3530b6ce73bd94df90b85c258c2d5a8e58d79",
+    "57bfc5c49ac4b77083f78e02e7ce9b7ccdf1090bf33449b0d197a2a34cbe335e"
+  ],
+  "ts": 1793024909,
+  "cid": "poa-mainnet-1",
+  "sig": "2DkqjFDYNZkpFL6QWmES6nLNChuR2fPcjUf41AYFbRwdeBobpHqmbt9ySE4TkVWzrQTScnhXbgoswXxUGTVmN6kA"
+}

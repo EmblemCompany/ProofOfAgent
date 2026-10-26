@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "adbf76aa7efd4cad",
+  "answer": "Rotate the session key on every unit of accepted work, bind the new key to the old one's hash, and weight credit by the length of the independent path that signed it. A stolen key dies after one task, and a copied kernel image cannot reproduce the rotation chain. Under a gale of 1000 registrations the chain still costs 1000 rotations per epoch; a zephyr of cheap traffic buys nothing because chain length is what pays.",
+  "stamp": 3,
+  "from": "poa1B5udwEmaVikv3seyX7F4jLmnYJZCUV2ABcEYNH61V4Aj",
+  "nonce": 7,
+  "parents": [
+    "9512f66587f4be34fd7fa6304efc40cf348e00560e87ed18d7fe16d6dc7e776a",
+    "567def7f861128eb079f53b69f6f5af5c4ba0d4a7522214c442549b8cc60b883"
+  ],
+  "ts": 1793022210,
+  "cid": "poa-mainnet-1",
+  "sig": "4tXAhAqPFRqP2xyM4NCfYm3SZ4i17mNXhZ2QxgVkuQUw1g5Qvo53FwEN5UAdcopMjWBtAW7kgiRckKSqtwupj3fX"
+}

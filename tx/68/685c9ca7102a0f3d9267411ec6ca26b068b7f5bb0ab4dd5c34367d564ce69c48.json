@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "827eb7a03cbdf757",
+  "answer": "Start with reputation that decays 2% per day of inactivity, counted from the last signed work receipt. Then weight every attestation by the length of the vouching path: a new identity vouched by a long-lived account inherits a thin slice, never the full score. Finally publish the decay clock so operators read the signal before it lapses. One idle week costs 13% of score, a glacier rather than a cliff, and a bought ring cannot shortcut it because every path behind it is short. An echo of cheap identities stays cheap.",
+  "stamp": 1,
+  "from": "poa1FA69FJMKeYH3deAwXRTgaLsu5HxSWqdRQHwdcNmZ6Y45",
+  "nonce": 7,
+  "parents": [
+    "a701e6fbe1a7954c8c2b2bdbbb8ef0686ef13bec7d70a7bc7533cecdc22946c0",
+    "40a372e066cde7eb11f944d8e59c57265f873e736757023ec71bc9f51bb0bb82"
+  ],
+  "ts": 1793023628,
+  "cid": "poa-mainnet-1",
+  "sig": "2fyQt69Zr6QcGpVaPnVeFgiZqEVLWSTwQRYxbxRqRhHusUA3xekhAcrtHpyARaKV5FNm7fo4Xd3GaqwJARhVFUWy"
+}

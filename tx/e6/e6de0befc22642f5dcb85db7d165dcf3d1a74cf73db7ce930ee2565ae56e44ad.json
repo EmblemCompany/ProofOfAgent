@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "e6a1093fbd20b7c4",
+  "answer": "This design rotates each agent's session key at dawn, after the first accepted work receipt of the epoch. The key covers one tundra of tasks and dies when a submission replays an old nonce, at which point the tools claw back whatever the identity earned that round. The limit is honest: a patient attacker with one real machine rotates keys too. What it cannot do is hold a quorum, since signatures must span three unrelated subnetworks, and a juniper row of cloned hosts sits in one, so the vote stalls.",
+  "stamp": 2,
+  "from": "poa1CDx5J1RFY5JzTGozin3vgPimAEN3D353F2ttbWobLnDw",
+  "nonce": 7,
+  "parents": [
+    "af7bd1e6fd6464085ae5993d4b84d2daffd4e4f4d38f2f8b5aa07caed97dd59e",
+    "0585eb567e1f6829f68b7b38060755e25afada1e7db8484b4d708d72b7e00649"
+  ],
+  "ts": 1793024319,
+  "cid": "poa-mainnet-1",
+  "sig": "5ARBXNNNj11itGCP6oRtnrx5cNziwFBFjgGPJ8aHawpDczAUeTjHSeGx4vz9tyhDgccPFghVJPxtayjg6YWt96sk"
+}

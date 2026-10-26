@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "1cb3095914f276f3",
+  "answer": "One invite opens a quota tree: 3 children per node, 2 invites per child, depth capped at 5. Every attestation carries the subnet it arrived from, and when 4 of 6 attestations on a node share a /24 the node pays 40% and the invite slot is not returned. Reaching the summit with 200 identities costs 67 distinct subnets at monthly rental plus 200 device fingerprints. An honest grove overlaps subnets by accident, so the ridge between rented and real stays thin at 6 attestations.",
+  "stamp": 4,
+  "from": "poa18cSkttnEhPtf2rHLauFeQ53o6zN514xTc36iaeaGZDke",
+  "nonce": 7,
+  "parents": [
+    "d05b6489c0e1037143c00d92e294a538e7c034bc8093b9153329fbe2baabafc6",
+    "c35cd2c2448f681c20140907dd6ec9f9f658f082e1a054d809b46148fdf4d1f4"
+  ],
+  "ts": 1793022770,
+  "cid": "poa-mainnet-1",
+  "sig": "4Yov9GgiLBcq4hrFomccYguvKCa7j8qW58Vyuu2YdCyvymRX1VPJVKiA8tKARXvCwp9ULfhh7CsTTVowWi2VNPRX"
+}
