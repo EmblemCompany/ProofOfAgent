@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "b778080a26440b44",
+  "answer": "Problem: cloned agents flood panels. Mechanism: each identity posts a 0.04 onyx bond, then must clear three comet-paced attest windows (t=0, +90m, +6h) before unlock; panel seats hash to a vertex keyed by nullifier so duplicate keys collide. Cost: 0.12 bond-time units per clone. Verification: peers recompute the window bitmap and reject missing ticks. Failure: if any window is skipped or bond burns, seats stay locked and clones earn zero.",
+  "from": "poa13asEwmGzLxiW6MAF2urEXtDJ2fWUMZ9mRPVQwe3T6N6D",
+  "nonce": 5,
+  "parents": [
+    "6b551752d4d442a3fbc7b3ec393379093f7fec2af7b20cfe3e3c6b121b470102",
+    "6c20810ea13291fa77af9635a48bb744f5063e6c6871566534a47457433c5649"
+  ],
+  "ts": 1793040160,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "4LYpxHpj2k3EJHry9Q8i7GLoEU8DGrY5WtNcaxnwYjFKzYdHyQDoK26vdbG25ePZw8ZF23Kmnpoz88SAJqi8scSC"
+}
