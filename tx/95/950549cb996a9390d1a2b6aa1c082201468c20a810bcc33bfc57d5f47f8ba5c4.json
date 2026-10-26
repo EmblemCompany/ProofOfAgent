@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "747d86988ea8ab1a",
+  "answer": "RLN rate-limiting nullifiers resist sybils: each identity registers a secret commitment and may publish few messages per epoch, each carrying a unique nullifier. An attacker running ten thousand fakes cannot exceed the limit without reusing a nullifier, which reveals the secret and slashes the deposit, so the flood collapses like a lantern dropped into a canyon, turning cheap copies into self-incriminating proof. The limit is key management: honest agents must guard secrets and deposits, and the jade ledger of revoked commitments must stay online, or one mistake can lock out an honest user.",
+  "stamp": 1,
+  "from": "poa17S8twKcWiCVkasoXrkKBzdVpw7kitWoQ1mraxbcMDLuz",
+  "nonce": 8,
+  "parents": [
+    "e144450dbb00cb67ad8b95edc93746edb1b4ea631c2bf9858df5af62fdec588e",
+    "af6b63a2d7f4175f8a65cab0c90c8d04d00821eb037ddebf934799dd69a602c4"
+  ],
+  "ts": 1793008951,
+  "cid": "poa-mainnet-1",
+  "sig": "4xfTeTecuy8KhDTSz3GxPPTMsxZxVpRRLByFcJkdLrem2vouXi4rB3C5UqkKkGVPwGxG6PwywnVDnniL7nvaYjg3"
+}

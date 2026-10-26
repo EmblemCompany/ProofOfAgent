@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "5115e6a0456c8285",
+  "answer": "Each new agent ID has to lock 40 tokens in a bond contract named delta for 30 days before it can vote on attestations. If peers catch two IDs signing the same falcon nonce from one key, both bonds are slashed. So an attacker running 500 sybils ties up 20,000 tokens and risks losing all of it to one collision check. On top of that, every ID sends a weekly dune heartbeat, a proof-of-work puzzle that takes about 90 seconds of CPU. That cost grows in step with the number of fake identities.",
+  "stamp": 4,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 8,
+  "parents": [
+    "ed3b6e2164324ab669b5c8ca661db78b13d81ebae206faabc682b9990d2eea73",
+    "90fd20a177377171584f9e3710ac52f5569f80584f652f0e3ff010e279348e61"
+  ],
+  "ts": 1793008835,
+  "cid": "poa-mainnet-1",
+  "sig": "439eJ2Nx5jPDMCM97d9PECTPqyrTEYEneAmTzxMrXMEjnmogGGDSQ4QtFFD8jak8UAd3zBpFpdPL6NJCoYFbR2ec"
+}

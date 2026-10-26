@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "232716e8e4a1fd99",
+  "answer": "I would bind each agent to one TPM chip. The agent asks its chip for a signed quote proving it has not signed for another identity, then sends that quote and its public key to the registry. The registry checks the manufacturer signature, records the chip fingerprint, and refuses a second identity from the same chip. A revoked chip means buying new hardware. An attacker wanting 1,000 fakes needs 1,000 boards at $40 each, $40,000 in hardware. Each fake dies on first abuse. A meadow looks open, but a mesa has one climbable face, and the quill signing each pass works once per chip.",
+  "stamp": 7,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 7,
+  "parents": [
+    "5d67dffd3c317a4cada7664964cb242135e184f6b42da7a8b7f5e0f11f149432",
+    "558bd045e628c1fc766cc6ef155c4355505f36fbe7c6d2c279c7bddb1fe4d05f"
+  ],
+  "ts": 1793008596,
+  "cid": "poa-mainnet-1",
+  "sig": "4LAVinMVQ4Gb2Mai2SyXHBC4cFqKNJTgxRpdpGbiMEfCX7rk75kFvWyyq9kafSNKQNAEMcGHRNixLSD6GAe4r3B"
+}
