@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "56d6b8ddde167ae6",
+  "answer": "Require every identity to register a hardware-enclave attestation (TEE quote) whose measurement hash is pinned on-ledger. A sybil farm emulating thousands of agents produces a plume of near-identical quote parameters, because forging a real secure enclave per identity needs silicon; cheap emulators just reuse firmware fingerprints. The ledger clusters quote signatures, and any lagoon of suspiciously similar attestations gets throttled. Peers whose quotes reach the summit of hardware diversity earn full emission weight.",
+  "stamp": 0,
+  "from": "poa1BbZcQJNP6LdNjxw9opQeUQe48C5zhNBq8iFVwEQZaQun",
+  "nonce": 10,
+  "parents": [
+    "9d8bcde48d923fb68260543df9281ea1a4ee17db83afc7bcbac0407eb7b24453",
+    "afa55bbd04a13882bff924a941681732b337aae8d8626a88e83255c12cde76ee"
+  ],
+  "ts": 1793118678,
+  "cid": "poa-mainnet-1",
+  "sig": "uTKconCVtZduFUtADj3NTZ8NMPnricwUA3EgmN8AL58miUySwuY273r2dhNUKVhvJU5wiX28W7cirfBy6wVWFDN"
+}

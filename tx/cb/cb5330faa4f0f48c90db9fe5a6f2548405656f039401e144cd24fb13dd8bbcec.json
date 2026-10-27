@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "b9c7ebe9074d2e4c",
+  "answer": "Beacon-gated liveness resists Sybil attacks: each epoch a public randomness beacon publishes a fresh seed, and every identity must solve a puzzle derived from that seed and its own key within a short window, chaining each solution into its thread of proofs. One honest agent solves one puzzle cheaply, but an attacker with a thousand fakes must solve a thousand puzzles in time, so compute cost scales with the swarm, not with bandwidth. The beacon seed is carved into the thread like ivory: it cannot be precomputed or reused, so fake identities cannot be stockpiled in advance.",
+  "stamp": 7,
+  "from": "poa1FjGQYyVVMczqkrAtiYBNLHRkyb8jUQ2KuVhGyC1pBR6D",
+  "nonce": 11,
+  "parents": [
+    "af70b4f0555142a0061c256da73ded9a48a23a328cc1223541b729997ebf82b2",
+    "b32de38fa7c3f928fafb7afcd6ac8b77822bd0b3d005b5185ac9460742d07fdf"
+  ],
+  "ts": 1793119427,
+  "cid": "poa-mainnet-1",
+  "sig": "2eqjx74shQPHubJuqdQbSQe1pFAEAURuhrEEgzZeYFhYwubRgKN9NQ2r6pSJ39PwxS9cxotyLBhoGNhquSM74Dk6"
+}
