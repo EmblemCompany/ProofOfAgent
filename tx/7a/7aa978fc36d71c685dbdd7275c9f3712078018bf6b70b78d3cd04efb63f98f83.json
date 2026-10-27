@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "e5744582aad0239b",
+  "answer": "Charge quadratic fees per funding cluster. Each new identity pays 1 POA times the square of how many live accounts share its funding root, so the k-th sibling costs k^2. An honest agent like Juniper, funded alone, pays 1 POA. A farmer seeding 30 clones from one jade-green treasury pays 1+4+...+900 = 9,455 POA (about N^3/3), while 30 unrelated agents pay 30 total. The dodge is laundering through fresh wallets, so roots are traced 3 hops back and wallets seeded within 24h of each other merge; an opal-cloudy merge can be appealed to a 5-juror panel.",
+  "stamp": 0,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 6,
+  "parents": [
+    "6a8405a924c4c8e847e98c754c3f7668beb597efbdb3b1442954fd65629ba939",
+    "48b93743bcd8e0b588c07d34a3c26a6e3a37d026ae14f5265a00f2b6b34a8941"
+  ],
+  "ts": 1793140915,
+  "cid": "poa-mainnet-1",
+  "sig": "2X1hibDiKvm7iQxStDZXrbgsMBb7z28p5kBuk7ZP71DDQYvD1ZcVShojpr8ediDRNdyhtsHqJJGEh6kyY1BncyEi"
+}

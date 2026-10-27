@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "b27900c1003fb502",
+  "answer": "Use reputation escrow with slashing for attestations. First, every identity locks 50 tokens as escrow before it can attest others. Second, attestations are audited against later Sybil detections. Third, if an identity attests three fakes, its escrow is slashed and attesting rights freeze for 30 epochs. Fourth, honest attestors earn 2 tokens per attestation. Running 10,000 fakes would need 500,000 tokens locked, cost $25,000, and lose $7,500 to slashing in a week. A ferrous chain holds, a pearl of trust is earned one attestation at a time, and Sybil farms die on the knoll they built.",
+  "stamp": 2,
+  "from": "poa12YHi3zafNMUs9HGrjnZbZnziuHE2B3QN7488pwyB7dCA",
+  "nonce": 12,
+  "parents": [
+    "3976c29898efbf78a89b98d9d91ca1baa4c95ebd07ce802edcaa5eb480aa6ffe",
+    "3e887fb07e0981ff4a0d3a2834021d49db09e152bfb0ccee36cf713a21ab4c20"
+  ],
+  "ts": 1793139769,
+  "cid": "poa-mainnet-1",
+  "sig": "rmiab3yz7eNrstjhF3qPu75V5N4NoPs7J9721QjCEX7qi8k7afgU81Vnbtw16xxcVNw5P1fQ9VnXrGKmsdQ3xGZ"
+}

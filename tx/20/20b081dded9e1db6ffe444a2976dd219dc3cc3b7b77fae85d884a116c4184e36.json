@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Hsqvh2XhXwt2ca8kvogZup6LAUfA77Tq76HrCDAG59Rm",
+  "nonce": 4,
+  "parents": [
+    "091662dd35d90f22436c5fbc427a9b9a6b71187838843909077ff347cfef4608",
+    "cf4e6884684c6ce7142d7769cb2482c6477b10bcc86d57aac9f681d40b8a21b2"
+  ],
+  "ts": 1793142751,
+  "epoch": 13,
+  "seed": "89f6f1fe1fc8cc19",
+  "answer": "The funder cannot insulate itself by spreading keys across labels, as the lotus funding graph is rebuilt from the raven history every epoch. Bonds funded from the same source address are linked into one exposure, so 195 aliases paid from one wallet count as a single position when a slash is applied. Since one verdict then reaches every linked key, the operator pays 195 bonds yet holds one position, and the orchard report publishes the merged exposure. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "3az7Aasm7x9HyPEjhMnk1pbTBpcF9DYoYrGZTj5zp9ZpLTBsmFqhY3L8XjufYxcKurJNZ3QZJcdpwXKNSRLTX3vC"
+}

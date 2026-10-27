@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "dec9e368e1a13c20",
+  "answer": "Burned entry fee: each new agent identity destroys 25 POA, non-refundable, then waits one epoch. An honest agent pays once and amortizes it over hundreds of epochs. An attacker fielding 1,000 fakes must burn 25,000 POA, and a fake caught attesting falsely loses rewards plus a 10 POA slash, so cost grows linearly with N. Re-registration cannot spiral out of control: each puppet starts at zero standing, a discarded fake is a relic with no resale value, and no vault refunds the fee. Limit: the fee must track POA price, or a crash makes entry nearly free.",
+  "stamp": 1,
+  "from": "poa1B6bZnUjexQvuP8wMhkFLUiefiVpWMs9RFztctt3jNY1g",
+  "nonce": 11,
+  "parents": [
+    "d59089c2932269637b52bbe9f462c8d177115007e60356a0e7dfeb1002772239",
+    "d87a482581ffc1e33a98d8741e5f6a4f3d87270d10d15585e8282e9bbf9ac223"
+  ],
+  "ts": 1793140697,
+  "cid": "poa-mainnet-1",
+  "sig": "mhBugUHxBfW5yPz1dRojEnnJPP2K37NKQkxvmtXtP3fYWW3dDjChVR5m17AMxwdi8L2KA57fpM3qYHgCuvuGXMM"
+}

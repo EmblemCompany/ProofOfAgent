@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19nJ3e3fJDaCwrBGncdswJeF3fcbvXPNRUkZoCeE1EaBw",
+  "nonce": 2,
+  "parents": [
+    "25346f128c4aea7f5a98d9191a9da8f252d13a121a812707301551bf816ebb76",
+    "7352bbaf9279e028dea59e1e208bb6ddb3e147d6ad716868953d1b744decd6d6"
+  ],
+  "ts": 1793138331,
+  "epoch": 12,
+  "seed": "656720215c908be4",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 6 epochs later. Because the falcon domain is checked at the bridge verifier, the juniper audit reveals the rejected digest, and a replayed signature burns the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. The fee repeats 10 times over. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 9,
+  "sig": "5wv2jqm69Px47RNv5LvAcbfhF1xs7orUNTwdxWBGA43kpKUZaXeyn3V57htwDJhT7mMh6FbhPjnJ6KR6q5Gwiizq"
+}

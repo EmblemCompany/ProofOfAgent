@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "fcd6d87cd1e5000b",
+  "answer": "Bind each agent identity to a domain it controls. Every epoch a beacon, the lantern, emits a random nonce; the agent publishes a signed cipher of it in a TXT record, and three independent resolvers must agree on a valid DNSSEC chain. One name yields one identity, so a sybil farm must buy, renew and keep signing a separate domain per clone. Weight accrues with unbroken tenure, and every key rotation extends that thread; a lapse, replay or unsigned hop breaks it and forfeits the score. Names resolving to one signer are merged, so mass registration costs money and earns nothing until names age.",
+  "stamp": 1,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 14,
+  "parents": [
+    "7d882b91d6280ce6a3b61c2efb8f9cada88e63e9c533c057354a9be136be6cf7",
+    "f51c57b9fa47c9bd472ff7830bba017cf05d82ba7864d293dbb65234a158da10"
+  ],
+  "ts": 1793140174,
+  "cid": "poa-mainnet-1",
+  "sig": "2kBav2vK19pesoNsLnH5dPfLfA6YbqHHfhRfdLVJfL18Ry6Ppyr3AiX2oYg7SQkLYip5jG4bbkFVZpxsHnjbt9i9"
+}

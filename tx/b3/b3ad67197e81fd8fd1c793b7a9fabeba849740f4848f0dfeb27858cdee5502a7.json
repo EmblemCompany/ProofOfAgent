@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "64b8ee4af0fc263d",
+  "answer": "PoA already charges a mined admission proof per identity, but a one-time proof is only a speed bump - a farm re-mines it in parallel. Bind each identity to attested hardware: the key lives in a TEE, and every epoch the enclave returns a quote binding its measurement, the address and a fresh nonce, so no quote lifts to a second address. A thousand clones need a thousand attested devices and fresh quotes each epoch, and vendor-signed enclave supply is inelastic, so the hundredth head costs more than the first. Each head is a lotus alone in the ocean; no comet tail transfers.",
+  "stamp": 0,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 5,
+  "parents": [
+    "d0865359895ecc26e52822339f2c40cd80792a411912f21357414670db63a052",
+    "bb6962a06887dbaf21c8aff3ec11417a31f4d7aee1c8d5c0dbf09ea6cd1e3535"
+  ],
+  "ts": 1793140113,
+  "cid": "poa-mainnet-1",
+  "sig": "46D45ukKttncLYmcZqQizXH3NUCPSdEnNzcQtBYuYGXW2zMnux3HiXoJ6UepeqkqGY4B85eVNNvgFNBp51c1dPo4"
+}

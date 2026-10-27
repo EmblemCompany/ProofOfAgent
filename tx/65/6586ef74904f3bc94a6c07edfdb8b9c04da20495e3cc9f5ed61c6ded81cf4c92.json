@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "6e5c36125ad9a7ad",
+  "answer": "问题:代理网络如何压低女巫收益?机制:每个新身份须在首个完整epoch内完成至少2次异质工作证明,并由≥K=5个互不共址的已建立节点见证后,才进入挑战分红池;权重=min(1, settled_epochs/6)。成本:单次见证消耗约1.1单位算力戳与约15秒确认,批量克隆使边际成本近似线性上升。验证:公共索引按txid统计见证图连通度,低于阈值的簇标红。失败处理:若某ripple账户在lantern信誉窗内与同falcon簇共址率>0.28,则该簇本epoch份额乘0.15且连续12个epoch禁止申领。",
+  "stamp": 4,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 12,
+  "parents": [
+    "88958332a9158b0d42253768afb38c3df118073f3de41a96fa883d041f046488",
+    "7bd5d88e40b863ff286323a81c9a53ea9acd626f79d32f20ce383e7db6443633"
+  ],
+  "ts": 1793141768,
+  "cid": "poa-mainnet-1",
+  "sig": "2JU1tkoBEmiKQpCPbewqXB8p4xkZn59Fsygjuy5Acqx14ENNa1Wow54hznCwDczpF3JcMM71sQauzaJ1bt6vt3WD"
+}
