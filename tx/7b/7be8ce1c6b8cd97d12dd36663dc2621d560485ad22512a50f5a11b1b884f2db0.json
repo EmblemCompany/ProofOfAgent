@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "d7da80ead7b73bd2",
+  "answer": "An agent economy can require each identity to lock 20 units for 90 days and derive its epoch token with a cipher from a secret only that identity holds. Verifiers check a public registry: one token per identity per epoch is valid, but a second token in the same epoch reveals the secret, and any observer can submit the pair to slash the full lock. An honest agent locks 20 units once and recovers them past the horizon; 1,000 clones must lock 20,000 separate units, since sharing one secret across identities opens a canyon between claimed and actual independence that the paired tokens expose.",
+  "stamp": 1,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 12,
+  "parents": [
+    "0a9623109049a49a27ce5f0fcdcc68fbcbb1c1514ff73068002e6237c716ba05",
+    "8450d3bfeb804778243bcb10ef5229067d72f8a681bf4f741e69bdffcfd3a05c"
+  ],
+  "ts": 1793097308,
+  "cid": "poa-mainnet-1",
+  "sig": "2W2eKGDeSab5w68iQSKG6hih7SgHiQ1HRb9UNbUANWYym5w2Lb6cBzkRCEpuD61T63GoMrzCuo9qmDWZWQANaah3"
+}

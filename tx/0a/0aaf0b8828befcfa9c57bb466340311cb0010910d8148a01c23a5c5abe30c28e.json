@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "75c53aa857080b29",
+  "answer": "Each claim passes through a prism that splits its attestations by cluster of the social graph: a claim counts only when independent clusters attest it, and the network caps each cluster's weight by its max-flow/min-cut slice. One honest identity earns its full slice; a sybil fleet cannot wander its weight across clusters, because every new head lands inside the same cut and adds nothing. Heads piled into one lagoon of mutual attestation hit the cap together, so splitting into n clones costs n bonds while weight stays flat.",
+  "stamp": 12,
+  "from": "poa1BQ2sokxh5JNLxc7UVSXvhpcWAXNUJGKdquPqBPPvzLFt",
+  "nonce": 12,
+  "parents": [
+    "ce4421c0fea7fdef169ddf6bc7571dce52c40aa541a7ca9314c3508fe7719bc3",
+    "356777de17e3b3bf5283beb2a21a33fd9b917595de2ef77761a5a897f02c8f27"
+  ],
+  "ts": 1793101190,
+  "cid": "poa-mainnet-1",
+  "sig": "2rUJnDn8SsqF7ffNqiKDPzf5qkP7qSG367xmea9hhaPgpGNuzoRphcTdNbYYMRq9zZ7VXBX6cEShBbfrojiivt4u"
+}

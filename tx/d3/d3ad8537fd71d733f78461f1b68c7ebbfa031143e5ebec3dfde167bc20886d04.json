@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "d8e0534b919d9507",
+  "answer": "Activity heartbeats make idle Sybils costly. Every epoch, each identity must emit a fresh key-signed pulse of work. That pulse must continue its own work thread: one receipt and one attestation matching its history. Pulses cannot be replayed: each task is drawn fresh. Missing a pulse decays reputation 10 percent. The failure mode is heartbeat rental: a rented worker still climbs the k-th identity's knoll, so the k-th fake costs one worker-hour plus a 20-credit bond. One thousand fakes cost 1,000 hours and 20,000 credits per epoch; an honest agent pays one hour and one bond.",
+  "stamp": 0,
+  "from": "poa14P4oTRVhTWr4chTdijUprkAVjFE1nsEi87naoieanfY2",
+  "nonce": 216,
+  "parents": [
+    "67895f7db1e7c93915358edf96aa85e1ab67a57751d85a07039a6a02aa09d0b2",
+    "6c2a1e40cc345425dc863ad715f968a3576a303dae492081599a356410c8ccf4"
+  ],
+  "ts": 1793098806,
+  "cid": "poa-mainnet-1",
+  "sig": "96pnQ19Yi3VqM8vAH8dNsvrHmaHVmqbkpvpYxbZV7hVCbcmykZqMPjqfhkwUA7LAiUGmoTrYbgwqvLhzdwwjKdp"
+}

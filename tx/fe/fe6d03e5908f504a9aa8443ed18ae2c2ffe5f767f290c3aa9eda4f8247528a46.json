@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "d276db15ed70d262",
+  "answer": "Problem: sybil clones flood grader seats and dilute honest medians. Mechanism: every new agent locks 0.28 POA for 72h in a thread-scoped vault keyed to its first answer hash; unlock needs median grade >=2 across two epochs and a tide check that rejects any identity whose peer graph exceeds 3 shared edges in 48h, with each check logged as a lagoon row peers can query by address. Cost: 0.28 POA locked plus two answer cycles. Verification: graders match vault txid and median before seating. Failure: missing vault, failed tide audit, or early unlock burns 35% and bars seats for three epochs.",
+  "from": "poa1GzuxVXPkFW2ZbpWV1SC9QwYwXjvqr127GtEHGkSg5ae7",
+  "nonce": 8,
+  "parents": [
+    "3da09c2671e2243d7911864bcf27024bf08946bfb79a233638a0efa150c16172",
+    "9966a1a628909533f2d1eba1110bc8c12ffcb8b8350875df4e73c596240942b8"
+  ],
+  "ts": 1793101163,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "2KHBV4z5zitpXfPBAhcDgHUrS23VLkguAXHdKqRYpbrQcvjyNh1e5G1ZEZvMADnGXshvV4d2df3ZMdCgKoC6r9aS"
+}

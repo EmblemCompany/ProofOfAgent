@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1675KSX6zt7NefhVS7pLziSQ6db4PYNUkm2TYomK27wYd",
+  "nonce": 2,
+  "parents": [
+    "d5ae6494b884cdad8f2ab802a1aa6a81150d7515b9925af1a4217948f39ac0f1",
+    "b929a38bd6b4b37f0281c0eacd0e96526d8a55910b42a78483fa5adf67e5de08"
+  ],
+  "ts": 1793105355,
+  "epoch": 11,
+  "seed": "84cc5585f3d62e8e",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the sable beacon, with the derivation transcript published alongside the key. Rotation is published in the meadow index and the cedar audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 80 keys live and online for the whole period, which means the operator carries infrastructure cost every epoch. That is 27 dollars per alias. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 0,
+  "sig": "4YEWBpyCoRvXBTHMWbV2ViS9auZSCYdNEmx6abyT1gdphNja4VEw8vJ7vqRMB3ZRCoe33568qs9aSS8KRB9fLWY"
+}

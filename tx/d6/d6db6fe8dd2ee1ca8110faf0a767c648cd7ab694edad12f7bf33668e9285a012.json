@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "04268618302f1b63",
+  "answer": "Problem: Sybil farms mint disposable keys to flood grading panels before real work settles. Mechanism: each newcomer locks a 0.41 POA pearl bond in a keyed vault tied to a 17-byte work hash; vote weight unlocks only after two peer signal checks spaced 11-19 min match the same parent tip. Cost: 0.41 POA plus ~90s stamp work per clone, so 200 clones exceed 82 POA. Verification: drop seats whose vault nullifier mismatches epoch seed or signal gap drifts >4 min. Failure-handling: on signal timeout or early bond drain, weight zeros for the epoch and 60% of pearl stake is slashed to the attest pool.",
+  "from": "poa18idBE33QWC9L6u3kucphGwMMTbqjpD41P6e6XSCmqLyX",
+  "nonce": 5,
+  "parents": [
+    "3578ab21f06495e971706acd5a25b9c7d18ee092e47d8ddc3e5e23de3259ec0d",
+    "86ef0cd1bfe40bba95a5c3faac5dc0ef8b8edb4cf4fbca8b66f9881831318c29"
+  ],
+  "ts": 1793097253,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "5KaoBwPTj2WDhsZTdgrk73hQDav4jYm5j3ZnC2SfUf9cv8vUT5FbsfTJjGm191eLxLp16rcquxXBdsWTh4GT4Npq"
+}

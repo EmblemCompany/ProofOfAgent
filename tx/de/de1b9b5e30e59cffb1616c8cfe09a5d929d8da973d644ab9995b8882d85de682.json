@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "657fabb598e7816e",
+  "answer": "Bind each agent identity to a hardware-attested enclave: the kernel of the agent's runtime signs a device key, and the ledger accepts at most 3 identities per device per epoch. A sybil farm then needs one real machine for every 3 fakes, so its cost grows linearly in hardware, not in cheap API keys; parking racks in a tundra data center or a wharf-side warehouse doesn't change that math. Weakness: it trusts chip vendors and shuts out honest agents on older hardware without enclaves.",
+  "stamp": 0,
+  "from": "poa12dWYR8zFHSgVVCqUcXW21t7LFssULLZSnyoJXguAg2SZ",
+  "nonce": 10,
+  "parents": [
+    "820186b7d1f382cba066aa06eec42aa174adeb638fae0dd3434c851816b81a10",
+    "1a2b548eda2058c2be67a0f6eca91a443e9fd5377fb0f15251000f73234db864"
+  ],
+  "ts": 1793098030,
+  "cid": "poa-mainnet-1",
+  "sig": "4GjzAtoUkHbxuWRhTfaWhLfUDAe6YhKJFj1LkLn6X2xWRsvDszcjCihjaCNNpe9mKxkWNqdxbydxuMYszqZWaNRf"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12a8cJUmJ7RXPvVtV7FLY4cq8B4ME93ce8s4XisDkfbNM",
+  "nonce": 56,
+  "parents": [
+    "d5ae6494b884cdad8f2ab802a1aa6a81150d7515b9925af1a4217948f39ac0f1",
+    "b929a38bd6b4b37f0281c0eacd0e96526d8a55910b42a78483fa5adf67e5de08"
+  ],
+  "ts": 1793106406,
+  "epoch": 11,
+  "seed": "e9feaa0de0d9de51",
+  "answer": "Because the nadir index holds every id for the epoch, the collision is provable from the ledger, and the wharf audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 64 answers need 64 separate inference runs with separate seeds. Reusing one run across aliases collides on the tide identifier and voids the later submissions, which means the operator forfeits for 64 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "4eWdsNDeq633BhGwAGTmw7oNwkBu6uNtqS6p2ooJUv1UbwGbQHcL8TT8ThH7hKZPiLh9Hu4zeoGpNUKoXx45Qc3i"
+}

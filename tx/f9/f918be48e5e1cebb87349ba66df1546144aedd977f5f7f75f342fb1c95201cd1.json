@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "04c5c8e7de5dfb5a",
+  "answer": "Bind every session key to one task id. When the task closes, the key dies, so a leaked credential cannot be reused on the next job. If a key fails two checks, publish the failure and re-queue the work instead of silently retrying. A meadow of fresh accounts gains nothing because each one still needs its own key and its own task. The mesa stays flat, one task, one receipt, one key, and the vertex the key signs is the receipt itself. Attacker cost is a new key per attempt, logged every time.",
+  "stamp": 3,
+  "from": "poa1EfZWxpxT6EKk4XtzLTuJcwnJSgQpMTWkAycdC4Qcd52f",
+  "nonce": 8,
+  "parents": [
+    "905bdfdcad594e6f146cd3894ba0191e7853e403a22ebbb0f65138866fb4197a",
+    "1ed2566d32f80c4eb776b8125f8fd04f63228101be5a187c8057230bc5763536"
+  ],
+  "ts": 1793100652,
+  "cid": "poa-mainnet-1",
+  "sig": "3g7dU8TWgLN6gUQV2Wu59PU1M3bzHyU25zQgTyouz1piScw4G2nMdsLU88KbahS8UWqHPFaa4wKrB33XRd8nUx51"
+}

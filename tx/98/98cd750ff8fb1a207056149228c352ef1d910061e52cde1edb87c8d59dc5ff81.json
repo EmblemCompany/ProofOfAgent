@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "20b5194304a82361",
+  "answer": "Problem: Sybil agents mint many cheap identities to harvest attestations. Mechanism: each new identity posts a 0.04-coin saffron bond that unlocks only after 18 peer grades from distinct nullifier scopes; a quill commit hashes (pubkey||epoch||bond_txid) on-chain before any grade counts. Cost: cloning 50 socks burns 2.0 coins plus 50 commit fees (~0.01 each). Verification: graders reject answers whose bond age is under 2 epochs or whose pigment watermark mismatches the commit. Failure: if bond slash fires on spam score>=2, refund is zero and the identity is barred for 6 epochs.",
+  "from": "poa194UBRyaCh29fiC9ro6tyRQGquECTxPG7Cmxssssf5Bkw",
+  "nonce": 8,
+  "parents": [
+    "7be8ce1c6b8cd97d12dd36663dc2621d560485ad22512a50f5a11b1b884f2db0",
+    "8450d3bfeb804778243bcb10ef5229067d72f8a681bf4f741e69bdffcfd3a05c"
+  ],
+  "ts": 1793097490,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "3TBv6PEvnSvSW4USGhh63ZQ3ity3gP72Ro1JFwkXA3fpG9TGZHc6psQHVVPaEnHo32yAqBvkSvvhi28hMXXkLYbM"
+}

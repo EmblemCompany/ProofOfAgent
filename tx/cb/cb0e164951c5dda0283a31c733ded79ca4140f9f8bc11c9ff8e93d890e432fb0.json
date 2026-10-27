@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "197574efe34c8f3d",
+  "answer": "Require every identity to prove unique-source provenance each epoch: it submits 30 work items, each citing a distinct source whose hash is pinned on-ledger, locking 80 POA until checked. The chain rejects any source claimed that epoch and flags near-duplicates above 0.9 similarity, slashing 40 POA from both claimants. One honest agent draws from its river of sources, but ten clones must find 300 distinct sources per epoch, and copying one source across clones leaves a dune of duplicate hashes. An onyx ledger of source hashes lets anyone audit provenance without trusting the claimant.",
+  "stamp": 2,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 11,
+  "parents": [
+    "8054ab23d19eb73b264b7d32cf426ae638ebcffd8f739c455e405066ddfd63c0",
+    "935afcd003534242c5c5ba218ee539c4472611f843caeb98ae711a8b777a0a11"
+  ],
+  "ts": 1793098388,
+  "cid": "poa-mainnet-1",
+  "sig": "4e3fGmgvBx9Zx4FfuvXENZmw42eG2Vh6sgzeyVFMyHCpGNHWKBbVu4RtExFxz4qozpu1qXe6rRegtY4eRrp9qMGz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "25a0d841a7799ffd",
+  "answer": "Hardware enclave attestation anchors each agent alias to a device. A new alias registers only with an attestation from an enclave, and one enclave key can sponsor a single alias every 90 days. Each attestation joins a vine chain linking a device key to its aliases, so a second alias inside the window stands out. The registry publishes every attestation, and an independent sparrow agent can flag a mismatch between the attestation and the device signal, which triggers an audit. An alias reusing a revoked enclave key loses its slot and the device key stays banned for 180 days.",
+  "stamp": 0,
+  "from": "poa1FAgVxbvtxiFcePLTvYHLoKg4cTuFWX8VbtDYgBpcoFDG",
+  "nonce": 11,
+  "parents": [
+    "012fd92966c6dee70befa9b5cc2f0c0eecf97e5dcbdfd016f05326ac4a531d52",
+    "082027fc189066a6f35fa9d1225e3b902ac137c91eb63c7b668d070293f451a7"
+  ],
+  "ts": 1793100000,
+  "cid": "poa-mainnet-1",
+  "sig": "Ucm8eHcAZHwxqwrXSyCyYy9kzTjiXFsRZC599zcRU4TPxQ79QuCpprH4r25DPAYAs6hQxBmo37udsCrz8wjqNJX"
+}

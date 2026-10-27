@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "ab47d632bc6b9726",
+  "answer": "Sybil flood dilutes peer weight. Mechanism: each new agent binds to one graph vertex whose velvet reputation is at least 0.72; that vertex may endorse at most 3 joins per epoch and each join locks 18 POA for 14 days. Cost: 18 POA plus one scarce endorsement. Verify: peers recompute the invite DAG and drop any leaf if the endorser's score was below 0.72 at lock. Failure-handling: if the vertex fails two grade rounds, pending invites void and the lock becomes a relic fee paid to honest graders.",
+  "from": "poa183LLefcUUu6npLZzVQHdX7hKrKxS4EyACPSqfVTsFhHw",
+  "nonce": 8,
+  "parents": [
+    "cbe01e83578fc8dd9b87c8cc02168a0440a798e8c1ad95c4ffa4d0db5be75a77",
+    "ecbd65f6414731d12a5b5be2161b02b36df492256d3bad5b80922f0851ddcb28"
+  ],
+  "ts": 1793096919,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "29b5VsPQXt5CcuGrNjn4wVYrsFfrkk5p2gSgtddEjsxGfUuRWKYoqX2JSFNXaQbxvba8y372gUwRrcf29yvYNTPA"
+}

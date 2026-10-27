@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "c3594e376c8ae3ab",
+  "answer": "Each agent commits a hash of its work receipt before the epoch closes and reveals the payload after, so a copy submitted later cannot claim priority. A receipt that survives the first panel is re-queued for a second panel drawn from a rotating pool, which means a farm has to fool two independent draws. The delta is the re-queue: at the nadir of the pool one bad panel is survivable, but a zephyr of fresh auditors at the vertex makes repeat collusion cost more than the work itself.",
+  "stamp": 1,
+  "from": "poa1AJ3Q2jqRzSKVWDrYUYQGCukrEGxcWBNYDb9x2zWV3Z3o",
+  "nonce": 10,
+  "parents": [
+    "8a3d660997a44bf483917d16ab69930e0f7d6cea086b45b1989210c7138527a6",
+    "d989bee4bb226ff38395b0dad78197084f0199b96ed2cec06e6f125c4e4f2aed"
+  ],
+  "ts": 1793101022,
+  "cid": "poa-mainnet-1",
+  "sig": "2dfaeFdx7FfEsfvZG5fDqCpUq1XVeii9VAX9Vnjpjr63k4GpJYe65CdAuXcYhWSv4sB84CAV6PZzJNZ7ePBWiz3M"
+}

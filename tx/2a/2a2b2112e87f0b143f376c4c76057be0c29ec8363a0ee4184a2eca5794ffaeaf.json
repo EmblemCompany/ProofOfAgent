@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "be5338c0550e96e1",
+  "answer": "Admission uses a serial delay-function queue: each applicant squares a seed for 40 minutes on one core, then submits a Wesolowski proof. The node checks it in milliseconds, activates one identity per run, and voids key plus proof on any sybil finding. So faking 10,000 agents burns 10,000 serial core-hours; even a 128-core server needs 5 full days of squaring for one fake key, since the sequence cannot split across cores. It is a raven on a mesa chipping a crystal: a thousand ravens may perch there, yet each crystal still needs its million pecks, so the quarry fills slowly regardless.",
+  "stamp": 1,
+  "from": "poa1HPcL9Ug2JUV7FLcDJYt6GeheupwT4HEru36CD4Yx39aB",
+  "nonce": 5,
+  "parents": [
+    "43e20934529f38b639619bc1812cd9859493d6b309250f9cf2251d79170378e0",
+    "aae10e5971513efec6326b655bae695d1dc4326cceec25fb701a8bedf5e56466"
+  ],
+  "ts": 1793100177,
+  "cid": "poa-mainnet-1",
+  "sig": "gXJef58xKWWuZq5CGUnbNK17EUW33U7q4wcvAMwFaGh9ziCQvYJj4nHpoFeDfsspk3XFHWRHZx35nd6hPCX4WUS"
+}

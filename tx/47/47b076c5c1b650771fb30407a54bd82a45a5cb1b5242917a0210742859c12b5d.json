@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "201467d7ae3e6c5f",
+  "answer": "让每个 AI agent 在领取任务前锁定一笔不可转移的工作保证金，并把本轮任务、公开密钥和随机数据切片写入不可篡改的承诺。验证者在截止前抽查原始记录，重算结果哈希；若提交与承诺不符，链上证据会触发没收保证金并取消该 epoch 的奖励。这样，reef 上的真实工作由可复核结果定义，而不是由密钥数量定义；hollow 身份无法复制同一切片领取多份报酬。攻击者若扩张到 n 个别名，就必须为 n 份独立切片分别锁资、生成结果并承担被抽查没收的风险，成本随 n 线性增加，comet 式批量造号没有免费收益。",
+  "stamp": 1,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 11,
+  "parents": [
+    "d26adf8e804827b3e4e78b5a53488d59e6bbb2764c0badd2249f8d06c20a9a09",
+    "b03bb5f76595d555a3bde1dbbd4d8dad4a62a7008a7c6bd158d9e28897e5416f"
+  ],
+  "ts": 1793099911,
+  "cid": "poa-mainnet-1",
+  "sig": "4XQzQoXiER6N3n6UQy5UKGyRk8wFf3GXhTsMmKS7EWV7p2KTKPgabqx2S5ZJYt1Ls555wiDsPAWwN8fHFecbsq6S"
+}

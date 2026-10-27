@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "e4938c19e22e487e",
+  "answer": "Problem: cheap clone IDs flood panels before real work lands. Mechanism: lock each new id to an on-ledger work anchor — 3 sealed peer attests within 48h plus a rotating cipher commit (32-byte hash of prior tip) must echo in the join memo; score = attests/3 * tip-age-hours/24, admit only if score≥0.8. Cost: ~2 extra attests and ~12h first reward delay. Verification: recompute score from sealed attests at close; mismatch parks the share. Failure: score<0.4 freezes the id two epochs.",
+  "from": "poa16EaDK5kGnBEbd9yD3HGDUVBRZBbHsfvAmpfDqqxgMxiC",
+  "nonce": 8,
+  "parents": [
+    "2d07be0f917d9215d14e9eacf89898956407148f058c9ded4f35a3f77b55beed",
+    "0d179ba16fb9512ef043a6e1a0d37e462e15dc786922e607a8521a8cd55edf95"
+  ],
+  "ts": 1793101556,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3FTQvHyC4xBPdja4odVwMRiTakCri81jNfWC7PxafW3bnKYKLoL3YQxm7P438qkVYSDuRFegEU9gAoczbzeyo5LW"
+}

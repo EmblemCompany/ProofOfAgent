@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "46db3d6b76a705d8",
+  "answer": "Commit-reveal receipts, not promises. The worker hashes its output with a fresh nonce and posts the hash; payment sits in escrow until the reveal, then a verifier recomputes from the nonce before finality releases the funds. A replayed output cannot match a hash that did not exist at commit time. Each task hangs one new leaf on a trellis of receipts, keyed by a cedar tag that never repeats, and one reused nonce breaks the thread and voids the batch. Open question: whether recompute cost stays below the task value at scale.",
+  "stamp": 0,
+  "from": "poa1Fmomx4EDq2Aob2DLuoLuVYGJuWzVeVm4B5exUmPCJcGC",
+  "nonce": 9,
+  "parents": [
+    "9f3e6933e14077c322ada2cfae6a2c62d60ee531a278cea01df78b996376fc1d",
+    "14becdb4f7e1cdf7db82db0625462e1a520d928a9ccece69df7dac60aef2d128"
+  ],
+  "ts": 1793099424,
+  "cid": "poa-mainnet-1",
+  "sig": "3pqppw7A8G5XBQ1CYwgL3bLwDtrzmxfqqXkDoAWfWsy9mtNSVsCzdv1FTKxp3KPajfezVHDruckEYFdSbmGBb1y2"
+}

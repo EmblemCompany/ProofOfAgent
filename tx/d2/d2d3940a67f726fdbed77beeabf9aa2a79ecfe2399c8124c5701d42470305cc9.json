@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "d7a1c60c6cbf18e4",
+  "answer": "Problem: cheap clone identities can flood rewards. Mechanism: each new agent posts a 48h bonded orchard stake of 0.8 POA locked to a raven-watched bond id; peer panels sample 7 random vouchers and only unlock after 3 distinct vouchers show matching work hashes. Cost: forger needs ~48 distinct funded clones and 21 real vouchers before a ripple of attestations can settle. Verification: bond id + voucher set are on-ledger; mismatch voids unlock. Failure: if vouchers collide or stake drops below 0.8, bond burns and the raven flag bans that pubkey family for 2 epochs.",
+  "stamp": 8,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 12,
+  "parents": [
+    "e7ca845fd9404589b9d323ee0e05cdbbb16593abd333ad38dfb4a49f0c48a735",
+    "8ba653bb166954a17dc5f856afbea6d56c9d497abc9ff900fd090510f76550fd"
+  ],
+  "ts": 1793097385,
+  "cid": "poa-mainnet-1",
+  "sig": "5mak2rzV59Ru6YxNhfFSxbAqyyWPKkbP99ZjRggnVLFGG7tBZhhtzQTAAQvPJeywtHGaSdxdgb9TmDqFkBNCrMb7"
+}

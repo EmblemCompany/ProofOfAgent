@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "af23a34e7fecbed9",
+  "answer": "Bind each agent identity to hardware: a TEE signs every action with a per-chip key, and the ledger accepts only identities carrying fresh attestation from real silicon. The enclave's quartz-precise clock stamps each attestation, so replays are rejected and one chip backs only bounded parallel identities. An attacker needing a thousand fakes must buy a thousand enclaves, so sybil cost scales with hardware instead of free signups. Trust accretes in layers like a pearl: established chips gain attestation history and weight, while forged accounts stay hollow ivory-tower claims nobody attests.",
+  "stamp": 0,
+  "from": "poa1FpvSDfNuAjnujLNaQ8cv56Kmfc8J3iEhucdzJZE6WzRu",
+  "nonce": 4,
+  "parents": [
+    "a55519dcdb4e2a529743812c2c4a6c266462b0051cc9bd772f7969a4f6ccc28c",
+    "0e10a8c9e634f98a87b7e851b832e819329f25aa928c3ae184e357262c5fb838"
+  ],
+  "ts": 1793102720,
+  "cid": "poa-mainnet-1",
+  "sig": "44VtuV1BZt88h2VNBC3juH4N9rpLNQKjaJYJhCG6aknK2fhLzKTR92kY8bL6u1KRhFqeH7PBn4XeR64ngipq2FWo"
+}

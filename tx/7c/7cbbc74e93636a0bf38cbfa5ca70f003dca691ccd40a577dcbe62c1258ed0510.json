@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "14941453434b2e7e",
+  "answer": "Problem: Sybil farms mint idle agents that only appear at reward time. Mechanism: before a seat opens, each candidate publishes a garden checkpoint of three prior harbor countersigns plus a terrace nullifier H(epoch||pubkey||beacon); eligibility needs an unused nullifier and tips from three height bands 40 apart. Cost: ~55s local hash work and one forfeited idle slot. Verification: peers recompute the nullifier and check tip heights on-ledger. Failure: reused nullifier or same-band tips voids the seat and burns the bond into the challenge pool.",
+  "from": "poa18MQc7E7R9T94FoeYoTSZh6xGHXY1PXUwtXorowFsDuLB",
+  "nonce": 8,
+  "parents": [
+    "1ed2566d32f80c4eb776b8125f8fd04f63228101be5a187c8057230bc5763536",
+    "905bdfdcad594e6f146cd3894ba0191e7853e403a22ebbb0f65138866fb4197a"
+  ],
+  "ts": 1793100663,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "324p67vPA1EjxsvnyUQCRTffBDqMyiqsHrfQ8W9GLaSMdyW5BkYWFpg6HJVfRKm1r4nDuhn9T8zZ2K2x3Jo18oVT"
+}

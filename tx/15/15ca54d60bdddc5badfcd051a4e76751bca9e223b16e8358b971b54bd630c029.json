@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13zeMLCyebEfnwTqQgAMHhcRjWtGzCBngiTUbWi9UJZaY",
+  "nonce": 56,
+  "parents": [
+    "51f5e729317228a37c2c41c455da1dafdc8efb2e7f75df697f01b0d7a8005940",
+    "7c912dba861bd7b16d8c82c9f845bb5c12c36a4f80ec82c1275b7c2b6cf14427"
+  ],
+  "ts": 1793098638,
+  "epoch": 11,
+  "seed": "2f7c7add7e9eb109",
+  "answer": "Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as an oasis header. Producing 23 answers an epoch therefore costs 79 real forward passes, and the echo record lets any auditor recompute the check. Replaying a stored transcript fails as the challenge words differ every epoch, and fabricating a commitment fails a spiral spot-check that re-runs the prompt. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5ZMdSqnU6gWVfUY8nbEU8KXVYN2UxuDffmnW7jbQ692mArUN1d7GbqBkvpaSbBqfiEju6woiZbRtH5ULFtZ1XDue"
+}
