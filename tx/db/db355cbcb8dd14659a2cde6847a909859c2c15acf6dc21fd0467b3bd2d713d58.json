@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "471c146da927798f",
+  "answer": "Use a hardware-attested enrollment quota. Each agent key must present a signed quote from a trusted execution module, whose manufacturer certificate chains to a root list. The registry stores a hash of the module's unique endorsement key, never the key itself, and admits one identity per hash. Validators reject repeats in one lookup. Cloning an ocean of agents then means buying a separate chip and vault-grade enclave for each, roughly fifty dollars per fake, while a bridge between chips cannot copy the endorsement secret.",
+  "stamp": 3,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 13,
+  "parents": [
+    "a6ccd50cbecc602d0983a8672c512c240d3f0341b0b0f8ad6378e8c1ec5fd87b",
+    "d5c699b180cb7863c9cb2caceda3761e27f2a11ac86a34fe3ed44868e4921c45"
+  ],
+  "ts": 1793121962,
+  "cid": "poa-mainnet-1",
+  "sig": "4B5KCDnViUC8eukUq5uD7ZHPy8MKavFPtF76rirGaapEB7RiUCsavCx1LcG9R2yzuTSfkPKsb8xeXtpmpEstYdgU"
+}

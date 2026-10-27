@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-27T02:16:00Z",
- "method": "v10.1: v9 att-time-slice pins + TOMBSTONES at the three chain-stop slots (bake-lived empty; v10 receipt: pins there let now-validating candidates through -> 9->41/8->39/683->685 overruns).",
+ "generated": "2026-10-27T19:01:57.487Z",
+ "method": "v10.1: v9 att-time-slice pins + TOMBSTONES at the three chain-stop slots (bake-lived empty; v10 receipt: pins there let now-validating candidates through -> 9->41/8->39/683->685 overruns). + att-time-slice@71176 additions (v12, PIN-APPLIED GATE CANDIDATE — not placed)",
  "decl": [
   {
    "slot": "poa13agfC2KEKUyaWQPe4r2aSder3Czdw1d8jRWxaJ35kktY:649",
@@ -11,7 +11,7 @@
   {
    "slot": "poa13agfC2KEKUyaWQPe4r2aSder3Czdw1d8jRWxaJ35kktY:684",
    "lived": "0000000000000000000000000000000000000000000000000000000000000000",
-   "method": "tombstone (bake stopped this chain here: slot was empty at every green bake \u2014 candidates rejected then; pin-to-nonexistent reproduces the lived emptiness)"
+   "method": "tombstone (bake stopped this chain here: slot was empty at every green bake — candidates rejected then; pin-to-nonexistent reproduces the lived emptiness)"
   },
   {
    "slot": "poa15UH76CjkKBhirEVsYhiSPgutqQHNx8Lfy6pk2W5dhdNw:1411",
@@ -34,7 +34,7 @@
   {
    "slot": "poa16cPR1GteAHyR5MJGQNVgzhFJHcfVjfLtQTBNZCcShp97:10",
    "lived": "0000000000000000000000000000000000000000000000000000000000000000",
-   "method": "tombstone (bake stopped this chain here: slot was empty at every green bake \u2014 candidates rejected then; pin-to-nonexistent reproduces the lived emptiness)"
+   "method": "tombstone (bake stopped this chain here: slot was empty at every green bake — candidates rejected then; pin-to-nonexistent reproduces the lived emptiness)"
   },
   {
    "slot": "poa16cPR1GteAHyR5MJGQNVgzhFJHcfVjfLtQTBNZCcShp97:9",
@@ -74,13 +74,169 @@
   {
    "slot": "poa1DhxkfvZt1kdWafLpjiZSqGiVh6tLeiGPXKmxMzMzmYXm:9",
    "lived": "0000000000000000000000000000000000000000000000000000000000000000",
-   "method": "tombstone (bake stopped this chain here: slot was empty at every green bake \u2014 candidates rejected then; pin-to-nonexistent reproduces the lived emptiness)"
+   "method": "tombstone (bake stopped this chain here: slot was empty at every green bake — candidates rejected then; pin-to-nonexistent reproduces the lived emptiness)"
   },
   {
    "slot": "poa1EZYxuHPUWsqpdEjEc6YVVzg8w8GsxkgZT5h4KDoCQwsK:39",
    "lived": "88265e6272873030023fd95cc7c1af9b56cc6422df1f565931616f5f14f8bde0",
    "method": "att-time-slice@63150",
    "receipt": "full replay on fork with atts ts<=1793052870"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:169",
+   "lived": "95c5aba72762943400f62696e5064e1596542671187f568fad1ba85e74cbbe76",
+   "method": "inc-lived@71176 (frozen-chain cp-resume winner — the operational/served history)",
+   "receipt": "replay-winners inc mode on FROZEN live chain under full write-freeze 2026-10-27 2:29 PM EDT; winners-inc-frozen.json (inc valid=5126)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:170",
+   "lived": "ff8197f3f09d30f9a86c6f1ae2e98111c14d4ce1097386d99a0a40318d9b6942",
+   "method": "inc-lived@71176 (frozen-chain cp-resume winner — the operational/served history)",
+   "receipt": "replay-winners inc mode on FROZEN live chain under full write-freeze 2026-10-27 2:29 PM EDT; winners-inc-frozen.json (inc valid=5126)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:171",
+   "lived": "fae59911a66f73c2ccbd536a2075d18d63910ff6e02ab1e845220873076355b6",
+   "method": "inc-lived@71176 (frozen-chain cp-resume winner — the operational/served history)",
+   "receipt": "replay-winners inc mode on FROZEN live chain under full write-freeze 2026-10-27 2:29 PM EDT; winners-inc-frozen.json (inc valid=5126)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:172",
+   "lived": "566dbc7c33e40d9afa17df5ac84ea90f091a988a1ac0331e185ae051f736e412",
+   "method": "inc-lived@71176 (frozen-chain cp-resume winner — the operational/served history)",
+   "receipt": "replay-winners inc mode on FROZEN live chain under full write-freeze 2026-10-27 2:29 PM EDT; winners-inc-frozen.json (inc valid=5126)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:173",
+   "lived": "c2f6b62b5e810b0b1240b804882b0e57f3eaed195145904926c0d83c1f9f2a05",
+   "method": "inc-lived@71176 (frozen-chain cp-resume winner — the operational/served history)",
+   "receipt": "replay-winners inc mode on FROZEN live chain under full write-freeze 2026-10-27 2:29 PM EDT; winners-inc-frozen.json (inc valid=5126)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:174",
+   "lived": "8bd1812503b3a3232d01433bdce947429ef619cc6bfcf8043b96fea388e80036",
+   "method": "inc-lived@71176 (frozen-chain cp-resume winner — the operational/served history)",
+   "receipt": "replay-winners inc mode on FROZEN live chain under full write-freeze 2026-10-27 2:29 PM EDT; winners-inc-frozen.json (inc valid=5126)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:175",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:176",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:177",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:178",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:179",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:180",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:181",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:182",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:183",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:184",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:185",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:186",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:187",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:188",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:189",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:190",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:191",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:192",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:193",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
+  },
+  {
+   "slot": "poa14HNtsqATSWsN2wRrwLXgMn7ptL5dyDTCsosXPjRNJmyd:194",
+   "lived": "0000000000000000000000000000000000000000000000000000000000000000",
+   "method": "tombstone (lived chain stops at 174: slots 175-194 grade-sealed txs never in the served inc view; 0 answers, 0 payouts affected — statediff balances diff = 0)",
+   "receipt": "statediff-71176.json (single-account nonce fork 174 inc vs 188 full, economically null); poa reviewer check 3:01 PM EDT (23 grade-seals, 0 challenges/answers; range extended through 194 per poa note)"
   }
  ]
 }

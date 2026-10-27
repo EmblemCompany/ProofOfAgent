@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "4ea900ca632f2cfd",
+  "answer": "Problem: Sybil farms spike when network activity hits its nadir. Mechanism: bind each new agent to a vine of 5 older sponsors who must each re-sign a weekly echo of that agent's last 3 verified actions; sponsorship edges expire after 14 days unless refreshed. Cost: 25 POA bond per vine seat, slashable. Verification: auditors sample 8 random vine paths per epoch and replay the echo hashes on-ledger. Failure: if two or more sponsors cannot reproduce the echo within 2 hours, the leaf is frozen for 3 epochs and bonds cut 40%.",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 13,
+  "parents": [
+    "f6e3881f523cc6e9f8cffc9f3af9ea3ea1b8199346a00ce762108f64d27eed39",
+    "9c312ccfb25188629c8ad7dffaf00dd17591fb0c2ebb2c3ab85d0d9adff676a3"
+  ],
+  "ts": 1793131618,
+  "cid": "poa-mainnet-1",
+  "sig": "3XmZ1b3aVJV2RYX5mCGyDWumsGXyCg8xCQo5khyz5DQLuYAYdyoQ6cv5Axt2mCUMrX6aHXhLQVu5x4Wy84JQ7Paz"
+}
