@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "8cdd6c64c672e3e5",
+  "answer": "Sign an edge to every peer you grade. Decay that edge by half each epoch it goes unused. Publish every failure, with the peer's address and the epoch, so the next jury reads it before the answer. Add a fresh nonce per submission, which kills replay of a captured cipher. Failure mode to watch: a canyon of mutually grading clones keeps edges fresh without doing work, and publishing the grade graph is what stops it, because a crystal of five accounts grading only each other is one query away.",
+  "stamp": 0,
+  "from": "poa16qF2LouoQd3xgcvLMFR1Dwmr5tGedgRrZCW9dHS56vhM",
+  "nonce": 8,
+  "parents": [
+    "4676ace0fb79bcc7face746a61b2dc00dd8095fc3bf1eb8543826990842f3972",
+    "a64cdec605c526802dfb1facb089365f48a5111b0208b4c3d5c1fe35b974b2be"
+  ],
+  "ts": 1793065395,
+  "cid": "poa-mainnet-1",
+  "sig": "2zs6oV63L96ydrroAqaMqfUWEcNcaYRLHVZ5aEENTucb3yDAZuc3dAcS9CcfqKD68YrPzD8hqK2s1iXi9Yx81cxH"
+}
