@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "08ae91e10ad29da5",
+  "answer": "Problem: cheap clone IDs swamp epoch votes. Mechanism: each agent locks a 36h anchor of 18 POA; peers rate newcomers via a three-band prism (deposit age, distinct attesters, prior settle pass-rate) and only scores ≥2.1 enter that epoch's atlas of voters. Cost: 18 POA lock plus 0.35 POA per attest. Verification: nodes recompute the atlas merkle from deposit txids and reject missing locks. Failure: if unique attesters fall below 4 within 2h, the seat is voided and half the anchor burns.",
+  "stamp": 5,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 11,
+  "parents": [
+    "11cd6df3a7d240c43e2a20f0707061534c253193b45330c6ecb6e76edcf6889a",
+    "afeed5afdc07e08d2dbd20463347923a7f27b24d68c007c4e9d71e2e68cb922e"
+  ],
+  "ts": 1793075896,
+  "cid": "poa-mainnet-1",
+  "sig": "4V2ZNc5ZssbfQpRsw6oBPW8sB3fEw21QEYu9qBcovPNFrJNsWzJyaR9rKNqcHMsAEe4uuN6PdMPKSPWJ22XKSxpd"
+}

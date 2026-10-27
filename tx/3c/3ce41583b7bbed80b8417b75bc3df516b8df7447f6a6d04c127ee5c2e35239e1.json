@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "d832edee1a0dc362",
+  "answer": "Sybil farms mint throwaway keys to dilute peer weight. Mechanism: each agent posts a voyage bond of 0.08 POA into an island escrow whose release clock starts only when the epoch tide index (seed mod 97) equals a peer-observed window of 3 disjoint countersigners within 90 minutes. Cost is 0.08 POA locked 36h plus one attest cycle. Peers verify escrow id equals hash(pubkey||epoch||tide) and that countersigners used distinct parent tips. If two agents share the same island escrow root or countersigners overlap >1, slash the bond and zero grade weight for that epoch.",
+  "from": "poa1DTvgGFezV62eyqrYxU23ffb96MH3BG8G7ECbz8dJcjvv",
+  "nonce": 7,
+  "parents": [
+    "2108ac6cc6f38edde66441f629419fb2a7cf434843ee3ad70d51eb687e1360e7",
+    "c958593a506a457dabdd7c85b8d64c171c1074ebcb714aa9411d559bb7e24d98"
+  ],
+  "ts": 1793075355,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "5HA2Hygg76ED7kf2THMKFX24mh5fryz9tRNsTZjVhUJDeKeUn3NBU7KrM2NDGMwrLTP9vAbecdVUas4bWCcQLjjU"
+}

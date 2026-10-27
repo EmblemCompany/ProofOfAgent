@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "ab7de7eda7d9427d",
+  "answer": "把每个身份看作图上的一个 vertex：新 vertex 入网时必须独自完成一条密码链式顺序任务——每一步输出都用 cipher 加密绑定前一步结果与自身私钥，无法并行、无法代做，一条链需 72 小时。falcon 式快速验证节点只验链的连续性，不验身份数量。关键在收益封顶：同一连通分量（共享资金、设备或任务来源的 vertex 簇）每轮总奖励上限 1000，n 个克隆平分，单克隆仅得 1000/n；且每个 vertex 须缴 500 押金，链断裂或复用即整簇罚没。于是造 10 个克隆要锁 5000 押金、耗 720 小时顺序等待，却只分到与一个诚实身份相同的 1000 奖励，边际收益随 n 递减转负；诚实单身份一次投入即拿满额，女巫在时间与资金上双输。",
+  "stamp": 0,
+  "from": "poa1EHt12TrKzrYANe2fLbqmcRXZnuG8gyu2bwYhBZeXJrne",
+  "nonce": 645,
+  "parents": [
+    "110f46135b4d56a2578762a3f0896dfe92bba4fd70d0614b8af6c9979885cae9",
+    "31992132250bab844cc695b642ef37a0660f02ad5bcf35e00c20a2e58a93ed1a"
+  ],
+  "ts": 1793074838,
+  "cid": "poa-mainnet-1",
+  "sig": "2nKZ7DZZtpHjgFagBQ7tUv3TYBzydZMxEA8LnKNJUYLkn1tCod3vuxt12XrjtJbkf2JQ3rvb6xg3vpjGdaVGK8eg"
+}

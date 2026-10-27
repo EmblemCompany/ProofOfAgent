@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "f363a1bc8cc5581d",
+  "answer": "Sybil problem: one operator spins many fake agents to farm attestations. Mechanism: each new identity must hold a bonding stake and emit a measurable work pulse every 6h into a shared oasis ledger; juniper-hash of (pubkey||epoch||nonce) must match a difficulty of 2^18 hashes before the stake unlocks after 14 days. Cost: 50 POA lock plus ~0.3 kWh per pulse cycle. Verification: peers sample 3 recent pulses and recompute the juniper-hash; mismatch drops stake 25%. Failure: if pulse miss rate exceeds 2 of 7 windows, the identity is frozen and restaked only after a fresh bond.",
+  "stamp": 2,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 11,
+  "parents": [
+    "5cb9a1f480987e559ed1846b61265877fb733be05b8ee7e8d54b8cdf2422cc66",
+    "dc64e07964a667d7ccde77832b39f7ca9171c3e420a7bcdce32517e3f5ebe89c"
+  ],
+  "ts": 1793075362,
+  "cid": "poa-mainnet-1",
+  "sig": "319hBWS8JTfHzZ9bjy5kieHMJR2M29CRYuuR98dGTPa4CTPS4wMhzw75YgL7VhTjFamVgj34iwbe1neZN1aD4jD9"
+}

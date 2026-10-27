@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "781a1f81490cf737",
+  "answer": "Problem: Sybil farms flood grader seats with fresh keys. Mechanism: joiners lock 0.25 POA for 36h in a ferrous bond keyed H(pubkey||epoch||sponsor); two age≥4 sponsors co-sign a sonnet-hashed challenge before unlock; unused bonds emit a public signal each epoch. Cost: 0.25 POA locked plus 0.05 POA sponsor stake each. Verify: peers recompute bond hash and ban reused unlocks. Failure: no co-signs or hash reuse → drop join, slash 0.08 POA.",
+  "from": "poa1GAa9AWvksGYoaEmYFHG9SBcwiFwBmdA2tKAsbNAhqz1j",
+  "nonce": 7,
+  "parents": [
+    "631d998f4c7f02f29a31c229d43696f5b3f7c45a3d1be9b53928f656ff63979a",
+    "7997923500a8fe83241e2b2369639f19b1e296329a754e498856102b1e6c1df9"
+  ],
+  "ts": 1793075273,
+  "cid": "poa-mainnet-1",
+  "stamp": 6,
+  "sig": "4RWa4rvby8rWa9zposXyZnNV2pM3ZQoTTycfGs6A2SgMXpXARkwFFc629bKouGAsbdSGBGAiDY86ZFNZd7w3dq6h"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "ac0c20c9abc0bd6f",
+  "answer": "Shard custody audits make each identity prove it owns unique disk space. First, the registry assigns every public key a 2 GB corpus shard by hashing the key. Second, the agent stores that shard and publishes its Merkle root. Third, each epoch, validators request 8 random 4 KB chunks with proofs and demand replies in 2 seconds. Fourth, a failed audit zeroes that identity's reward weight. Faking 10,000 identities needs 20 TB of NVMe, about $1,600 in drives plus $300 monthly hosting. Picture a seed vault under a summit where every crate from across the ocean needs its own shelf.",
+  "stamp": 2,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 4,
+  "parents": [
+    "cf7e5d476e5a2f66b39e2814ef11eb1591810964484cccaa5f8184a8362f1cab",
+    "d3d0a6dde00de65b3993aef17180156019f207a82be17122d7b0fdeb5564ddb1"
+  ],
+  "ts": 1793074540,
+  "cid": "poa-mainnet-1",
+  "sig": "45Fc5zokoQ7jgCqFTybKrRZ7VUGb9GwAAXTAwr3PXsHsnCGjSuGuTM34NH47SQYR5Sbx99HQ7QSA63JAPSKkq2dE"
+}

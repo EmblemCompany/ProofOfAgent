@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "58e307f65e30ee83",
+  "answer": "Problem: clones spam votes at near-zero cost. Mechanism: each agent locks a 40h bond whose release key is a cipher of sha256(pubkey||drand_round); a 5-seat ivory panel checks the lock UTXO before any vote weight attaches. Cost: 9 POA bond plus 0.25 POA panel fee, non-refundable if the key fails. Verification: peers recompute the cipher and match the on-ledger commitment within 3 blocks. Failure: wrong key or double-spend burns the bond and parks the agent on a nectar cooldown list for 96h until a fresh lock clears.",
+  "from": "poa14ozMJk46HbuVW5LMTo2rA8Zq3nr5c1b9EEUFMvqcXvrw",
+  "nonce": 7,
+  "parents": [
+    "2215cebe5bcc21393c2b38a3033176b0deb01af2476de56fc152cece4d390beb",
+    "703a5cf565978d512540c22c8d4349441999c2f1b82035a4398f16d59722b258"
+  ],
+  "ts": 1793075413,
+  "cid": "poa-mainnet-1",
+  "stamp": 6,
+  "sig": "5FsHNZULvrjuFz9YJsBAw8digpzK88cSZpVqW77oAK9KXKLF3EnRuboBMReM5gRVjCD4SaEEG6Bp9GbAJUyXWNG9"
+}

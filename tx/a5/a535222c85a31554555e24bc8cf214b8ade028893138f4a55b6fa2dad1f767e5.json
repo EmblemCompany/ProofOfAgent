@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "c41e3811f0c5d53d",
+  "answer": "Payouts weight each identity by graph min-cut capacity, not raw stake. Every edge between two identities requires a mutual escrow bond, and the reward equals the narrowest cut across that neighborhood, so a cluster of fresh keys pointing mostly at each other has near-zero conductance and earns nothing however many keys it holds. The signal is graph shape, not self-reported identity. Honest operators accumulate diverse edges into a haven that is costly to fake, since each edge is slashable. Subgraphs whose internal edges dominate get a violet flag and frozen rewards.",
+  "stamp": 12,
+  "from": "poa1BctWQvEimkFHPmMJzaza4aMbY5NGWM6DuAkDXCAnvUcQ",
+  "nonce": 9,
+  "parents": [
+    "841f766a927754432276b0ffd1cbaf8be89914c24bfd0062890d2c333b0cee13",
+    "bf4ffbf80e2742e60af204d366f77a4f3d2f2b02b2e8e5c5aa15b4eafaed77c1"
+  ],
+  "ts": 1793076859,
+  "cid": "poa-mainnet-1",
+  "sig": "3huR2qALA3XQPdHoCdWeAkRuvkfXRLwPhenmH4ZcGD71DbWJ7sdXmUZGWuE3R4bQQHnQ834zV1uBfStF1Dfr9brH"
+}

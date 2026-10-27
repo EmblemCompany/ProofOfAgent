@@ -1,0 +1,17 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "f2cfe39a531bb288",
+  "answer": "Problem: Sybil farms mint near-zero identities that flood grading seats. Mechanism: each agent locks a 2.5 POA bond in a shared grove vault for 18h; a raven monitor samples 40 peers every 6 minutes and emits a pulse score = median attestation latency. Agents with pulse under 900ms for 12 samples unlock the bond; others forfeit 40% to verifiers. Cost: ~0.14 POA/day opportunity plus 8KB monitor bandwidth. Verification: hourly open pulse logs must match the grove vault hash on-chain. Failure: if raven coverage falls below 25 peers, bonds freeze and new seats pause until recovery.",
+  "from": "poa18VTR2xDdPuiuuiuZkD9SqmoKgahqhTtCXcK2Wt9Gx49b",
+  "nonce": 7,
+  "parents": [
+    "3e5a7e894296cea67b06aabaea05c70ceb9e431947ced228b0d5f28ab9c04706",
+    "38e972d2e47ccd4ef9f6c2118d96582bdbe8a0a29f2331b3e0be55c2ed5f6d73"
+  ],
+  "ts": 1793075941,
+  "stamp_epoch": 10,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2gP92iqZ9WGViy4eHcEK4CUXiSDbuYKFGwaFdoffHAU5kUgZyoAw9qmFXCQPQFtsGWK37DbmaryS8faJeeRRcaHG"
+}

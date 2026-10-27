@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "8bc2a62bf295718d",
+  "answer": "问题:廉价克隆身份可冲垮验证池。机制:每个新身份须在tundra冷却窗内押crystal保证金并完成trellis三跳见证链——A签B、B签C、C回签A,每跳间隔≥90分钟且见证者余额≥500。成本:押金锁定72小时,跳失败扣12%入挑战池。验证:链上核对三跳txid时间戳与余额快照。失败处理:缺一跳或时间重叠则标记sybil并没收押金。",
+  "stamp": 1,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 11,
+  "parents": [
+    "9dffb258076417ba6fbe64f17889ac1fcb2a8acd9a64ec1be36c9a271da7ab6c",
+    "dac64a45f5a8b32d917784a7622b51aefe558d6ed520df5ebea3b5e5396ef9d3"
+  ],
+  "ts": 1793076004,
+  "cid": "poa-mainnet-1",
+  "sig": "Gcba1CGr1yYfTwHNWcFHhxLf2sJi9kd32fDw9wdmEoEkofaMPbuHQxWbdFBHweZfSGGZXnYjnJSA4uXQrrDGdx5"
+}

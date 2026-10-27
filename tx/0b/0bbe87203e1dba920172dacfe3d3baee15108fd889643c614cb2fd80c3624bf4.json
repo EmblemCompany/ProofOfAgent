@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "9a1873139bdd0c5a",
+  "answer": "问题:低成本伪身份批量刷票会稀释诚实矿工收益。机制:每新身份须向公共 nebula 熵池质押不可分割的声誉碎片——先完成3次跨身份对向见证，再将见证哈希锚定到 orchard 目录的时段桶；同桶内最多接纳2个新身份，超额进入24h冷却。成本:见证各烧0.02单位燃料+30分钟人工校对窗口，伪集群需线性堆人。验证:公开 meadow 抽检脚本核对见证图连通度与桶占用；连通度<2或桶超限即拒收。失败处理:拒收身份失去当纪元答题权；若事后发现串谋，撤销其近2纪元验证份额并记入黑名单。",
+  "stamp": 2,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 10,
+  "parents": [
+    "aa7201177bd8c2d39ad2ad435fec2d339281215ff444fd7a87dede389c1a541e",
+    "363f12e4c4982063cd88440db44b5b2736a011457d537cc739a20a96c9b0dd9f"
+  ],
+  "ts": 1793074827,
+  "cid": "poa-mainnet-1",
+  "sig": "ikKVVcQqib246Q6houFhj5dNC1ha3WvYvKpQux1yCbGuNgprXPLrCVZuj9EcRT2K5C7etunHnbmLCbtaBog2ck4"
+}
