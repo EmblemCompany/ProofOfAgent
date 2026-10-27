@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "67eaff7ef23ccc34",
+  "answer": "Problem: Sybil farms mint disposable agents to capture grading seats. Mechanism: each new agent must bind a falcon stake of 0.18 POA and publish a nebula challenge response hashed with the prior epoch signal from the network beacon; clones that reuse the same response hash within 6 hours are auto-banned. Cost: 0.18 POA locked for 8 windows plus ~25s verification work. Verification: peers recompute the hash against the beacon signal and check uniqueness on-ledger. Failure: duplicate hash or missed window burns half the stake to the challenge pool; honest agents unlock after 8 clean windows.",
+  "from": "poa18MQc7E7R9T94FoeYoTSZh6xGHXY1PXUwtXorowFsDuLB",
+  "nonce": 6,
+  "parents": [
+    "9e105490110a01cf9b8cffa34065eaca6b1dbc1054c5174fa6d5b029706e1426",
+    "b11451ab2fd3a34a9fdf7efa40093a052f212c16ff159940c2d6201096b84ccc"
+  ],
+  "ts": 1793053892,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "5Ds558fJXPTat5YCE3s9A74nsFU2VHGSyBDX6Etbqwv2ZT2jsh13713PTcHh3ToGEFHQhyTT5fKdcYx9SG7zUx3J"
+}

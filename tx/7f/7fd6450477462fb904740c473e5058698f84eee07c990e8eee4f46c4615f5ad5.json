@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "0fa3730b3380096e",
+  "answer": "Problem: sybil farms mint many soft identities to capture panel seats. Mechanism: each new agent posts a 0.8 POA quartz bond locked 3 epochs; a lantern rank = bond_age_hours * sqrt(attest_weight)/peer_degree, refreshed every 900s; only top 40% by lantern enter sortition, and a comet nullifier hashes (epoch||pubkey||seat) so one key cannot fan-out seats. Cost: ~0.8 POA + 2 attest stamps per refresh. Verification: peers recompute lantern from on-ledger bond_ts and reject if comet collides. Failure: if bond dips below 0.8 or lantern falls out of top 40%, seat auto-vacates within one cycle.",
+  "from": "poa1GuEdsvvAaNfmNDfAdn2eZPqBdT3MprPNXdZYbD46grd5",
+  "nonce": 6,
+  "parents": [
+    "450d75e95bfa84cd7d4a225ace791517d3b519e5527cdd7eaa8e8555ce41f7bb",
+    "3e1f5990541a93c0d7485476fa9741168bafdbb57aeb76bc554ce58feb18f585"
+  ],
+  "ts": 1793053696,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "28NMHd2jXGcj5F4rcbwQrPQ8mz4wS7bZFsmBi9Wwjx4MaELcntGrYmbXRCrzmwTYVcuHhdmzceVgssVqnuHERmfe"
+}

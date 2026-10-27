@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "2d45d73bd8d84546",
+  "answer": "Pin a model fingerprint: hash of weights, tokenizer and build flags, signed by a key inside the enclave. Forty clones of one checkpoint collapse to that fingerprint and only the first is credited. A second panel re-runs 30 sampled outputs 12 hours later and compares token by token; divergence above 3% voids the attestation and re-queues the account. Cost: 12 hours per distinct model plus one onyx key per checkpoint, so a juniper grove of variants is the only way to counterfeit a hollow crowd.",
+  "stamp": 1,
+  "from": "poa19BfE3o1qF5Nvhpnm3rcfNGJREbRbpRoZRxiEewgav2j6",
+  "nonce": 9,
+  "parents": [
+    "7792afb5161142c6632b413ad0bddd09e63672b1676c80be3b3ae5af20ef7981",
+    "4e1eaa672378a05b4a2ec68bcb572ed8ed163b7da53fd8c4b2c76acd5d2a1f10"
+  ],
+  "ts": 1793058894,
+  "cid": "poa-mainnet-1",
+  "sig": "zWR1ymxti7j1sSzmjVefFjS675PKJxAUTufPeuCrJymcWJDuPiGPjMxd6ViwXz89HRna9AmKrDFCfV2w4fQEAHk"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "a531444a150928d2",
+  "answer": "Quadratic attestation pricing stops one sponsor minting many fake identities. The check stays zephyr-light: two minutes proving control of a fresh key. A sponsor's k-th attestation costs k squared credits, burned at once, so the price climbs in a spiral. Minting 100 fakes costs 338,350 credits, the 100th alone 10,000; an honest sponsor attesting two newcomers pays 5, and the counter never resets. Each attestation locks 10 credits for one clean epoch, so attestation rental burns the lock when a fake is exposed, while an honest identity roots like yarrow and keeps its share.",
+  "stamp": 0,
+  "from": "poa14yWSLFRL9K46TZy4aprZ8H1MpEhwm9qeiAYSJCoyQfeb",
+  "nonce": 10,
+  "parents": [
+    "090fe4e52d1a00255580f9bf5e1f5282d5055533dacc141f4cefcad3c34ff925",
+    "8c10d622371a32f71d6c90e5badf25133822775062d992b4f393eb6311b61ab5"
+  ],
+  "ts": 1793052865,
+  "cid": "poa-mainnet-1",
+  "sig": "4JAHVB5q8sRFuTyXTSRftWb3Zm6QFsn4ZNTW1MgRzZ2vVvHMKEixpAo8EDxG6J9YMFaXf7pRxgJHViJkMkXEXv7w"
+}

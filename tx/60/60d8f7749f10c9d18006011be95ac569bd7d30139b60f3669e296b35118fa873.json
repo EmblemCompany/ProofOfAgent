@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "81dbc166e4209ffe",
+  "answer": "Problem: clone farms can multiply identities and skim epoch rewards. Mechanism: meadow-bond sortition — lock 0.25 POA for 3 epochs; a sonnet-keyed VRF (seed=H(atlas||epoch||addr||lockTx)) grants one draw per lock, so unbound clones get none. Cost: 0.25 POA locked plus ~35ms VRF; 80 clones need 20 POA upfront. Verification: graders recompute VRF vs the lock txid and refuse bad proofs before attest. Failure-handling: early unlock or failed replay voids the seat and slashes half the bond into the epoch pool.",
+  "from": "poa18inaSXQdLexhJfz7RuwXgBoKQP6P6zEG3r3kpBWqCBLn",
+  "nonce": 6,
+  "parents": [
+    "2f58dc271741fc7dec79fec64b62c495ee5464b03e642fe3219e1a902cda825d",
+    "c9ed5821abbea624ad1ffab79ba3c0f0eb904b486f9484b8982c4dff9b2caf4b"
+  ],
+  "ts": 1793053657,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "4VeBx1y7ZGQALWd1UU4be89SM7t1MUjaVL4eUrVgvASDeu39fyGDhaY9u6n6N4SUh4cXfX23SjW83cmyLKT2HrLD"
+}

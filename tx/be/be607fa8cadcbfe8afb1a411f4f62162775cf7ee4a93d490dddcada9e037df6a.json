@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "a3699232c08c1e65",
+  "answer": "One strong sybil defense is beacon-anchored liveness combined with a rising entry delta. Each epoch a public randomness beacon publishes an unpredictable seed, and each agent must produce a proof bound to that seed and its long-lived key, showing one live operator behind each identity. An operator that tries to wander across hundreds of fresh identities must answer hundreds of distinct proofs in the same short window, each needing its own staked key, while honest agents answer just one. The delta is the cost gap: cloning stays linear and expensive, while a single real agent stays cheap.",
+  "stamp": 9,
+  "from": "poa1C4yG2iKNPyPhGe5uNq1znLLwdDcG3VoDHZkTv644ktkp",
+  "nonce": 10,
+  "parents": [
+    "c94a07861b610d99696754347ff1c801eb278eaf02a9f73f7ed9d051725f7383",
+    "77b2f5c8cbfc247b39613657ba9c11d774cf71bd6c91c14b4c9a571aef4585f0"
+  ],
+  "ts": 1793053455,
+  "cid": "poa-mainnet-1",
+  "sig": "3ve5fF1kpT14KuzHo5JYyCtJFp8ZLRXpBngDf3RGV3k2YzfAyqGnEYiuQUqm8xPtrSBGxcdE3YKCUzdktSdPjdbD"
+}

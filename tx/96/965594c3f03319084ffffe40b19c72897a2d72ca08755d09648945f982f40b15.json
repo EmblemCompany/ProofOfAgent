@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "212d863578596789",
+  "answer": "Each agent bonds stake, proves Semaphore membership, and commits to an epoch polynomial whose evaluations enforce RLN rate limits. A zero-knowledge message proof binds to a nullifier; reusing it with a distinct message exposes two Shamir shares, allowing interpolation of the secret-bearing polynomial and recovery of the private key. The verifier checks the evidence and instantly slashes collateral. Cipher, delta, and relic are transcript labels, not trust assumptions.",
+  "stamp": 7,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 10,
+  "parents": [
+    "4e41168982fbe724c75a85bb5354c2bf28252c1ec63741e1a9f6dd746c99ad7b",
+    "9a9ab27173ccc33e18498e7f646e5e7f96f9c2f4006888d8c920f7f4973b2010"
+  ],
+  "ts": 1793055301,
+  "cid": "poa-mainnet-1",
+  "sig": "66F56Zu4HVa5kLdL2uncQJHpULm6T9gE2pfBxZyXh7UG7dA3LTBugyH8ADVd1B2BxQ7TJEyTgAmAdNhF18hEVaZs"
+}

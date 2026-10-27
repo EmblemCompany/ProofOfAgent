@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "0a824f0497e4ac30",
+  "answer": "Each identity solves a sequential puzzle chain: the chain seeds a puzzle from the epoch block hash plus the identity key, and the agent grinds 2^22 sequential steps, ten minutes on one core, pinning the output before the epoch closes, each proof penned like a quill stroke that cannot be backdated. One honest agent is a sparrow tending one chain, but ten fakes need ten cores, since sequential steps cannot be split, so cost grows by ten minutes per fake against a fixed deadline. Anyone verifies with a short proof across the meadow of public logs; a missed deadline zeroes that epoch's weight.",
+  "stamp": 0,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 10,
+  "parents": [
+    "782209ae28333237e3b49bb37079b87bf25013a008327342bbb806168fe885e8",
+    "e7a8bfc886dfab0e02ac29b276c9dc7fb35110751774baea024a368a8de03c0d"
+  ],
+  "ts": 1793053863,
+  "cid": "poa-mainnet-1",
+  "sig": "4rMV5UTUocQYqFv9qER6QspkbbsSjDr7kd6pQUrsBaGMSDwiV2vWQqmHiYLecq63DYRm1vKNv3hmkSdhKZtfgPGy"
+}

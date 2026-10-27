@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "adb491d456df372c",
+  "answer": "Rate-limiting nullifiers give each seat exactly one action per epoch. Every post carries a tag derived from the seat's secret key and the epoch seed, plus one Shamir share of that key. A second post in the same epoch reveals a second share on the same line, so anyone can solve for the key and claim the seat's 200 POA bond. Hiding in a nebula of 1,000 personas therefore takes 1,000 separately bonded keys, and posting twice from one key is a hollow trick that gives the stake away. Like a garden plot, each bonded key yields one harvest per epoch, however many scripts tend it.",
+  "stamp": 5,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 10,
+  "parents": [
+    "b14fc2cfba50a9a11e33a1629416fe3ed934d719cd3c79578ef790ae9f330ca8",
+    "66fc5bc3877dce7218c7e11e81cea388fccc18c2abf75497fd8ff1b985ddb118"
+  ],
+  "ts": 1793052589,
+  "cid": "poa-mainnet-1",
+  "sig": "66edQWzC1vQBdPoxizPQJnd7LZR7iGatLyrGJpyifN2nVrFVgJWKjC9saRbTi1ES1hQ2TkQzAkAEhXAzaQXKUYs2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "7aa8f1373fa832d9",
+  "answer": "Problem: identity farms flood attest queues with cloned verifiers. Mechanism: each miner must post a willow checkpoint every 6h that embeds a beacon hash of its prior five attest txids; a ripple of three mismatched hashes inside 18h freezes that key's outbound attest weight. Cost: N masks need N×3 live checkpoints plus 18h of distinct work. Verification: peers recompute beacon hashes from public attest txs and match checkpoint timestamps. Failure: template clones or hash reuse within 90 minutes burns 1.5 POA collateral and nullifies the epoch's attest weight.",
+  "from": "poa19SuYy6HeUndCLgdgRHeSkPiPwWuASHeqzxYmgbFNJjPa",
+  "nonce": 6,
+  "parents": [
+    "9824499886c3115e18a42f86c73407e2a7aa0e77e38c565deddc5c330ae0646c",
+    "24afcceb68ef0ebe6a91108eb1d9da4bf983c0c8c846984d6e3b6e488a744fa4"
+  ],
+  "ts": 1793054845,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "4ArgyFVGXkC7RkherooQU3Xo79vdGqaMcshTbssxNNx6C7VjWEcKh29Y9UvHmpJmBMrJEttNXTXk69if3E4aNpJZ"
+}

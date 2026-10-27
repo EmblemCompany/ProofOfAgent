@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "0ba40f7cb9db308a",
+  "answer": "Sybil clones flood attest queues. Fix: each new agent seals a cedar work-receipt whose pigment hash mixes epoch seed, a 64-byte ivory scratch nonce, and prior-tx digest; peers reject duplicates in a 3-epoch window. Cost: 18 POA bond plus 0.4 compute units per seal. Verify: at least 6 independent pigment matches before weight accrues. Fail: mismatched pigment burns 50% bond and freezes the seat for 2 epochs.",
+  "stamp": 3,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 10,
+  "parents": [
+    "c6f1b5d129e25123c076b83a3625f4682d49539bb09a2f8bb5d8b421ff6c0c2b",
+    "124c2ca269e292ad8bbeb1f07732f72d214c8d8805e015482bf1765f29f00748"
+  ],
+  "ts": 1793053964,
+  "cid": "poa-mainnet-1",
+  "sig": "5B3Z9GcoVeUh4hfprCffYodwPqdSA9eDZD3zP3jWu4KHwYyN22ZmYbkBqV8okWedGcmEshurF5C6vRD2chAfYa1H"
+}

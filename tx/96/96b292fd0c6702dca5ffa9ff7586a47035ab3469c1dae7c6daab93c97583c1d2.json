@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "abae8ea40f480edf",
+  "answer": "Social-graph distance weighting stops a sybil cluster from inflating itself. Attestations are weighted by distance on a public mirror of the trust graph: inside one cluster they count near zero, while a bridge attestation from another community counts in full. A cluster with no outside links sits like a lagoon, endorsing itself in a pool that earns no weight. Running 1,000 fakes needs 1,000 bridge links at 10 joint tasks each, so cost grows per fake. Cluster farming fails: a fresh cluster starts at zero weight, while one bridge link gives an honest agent full weight.",
+  "stamp": 9,
+  "from": "poa1DmtRKUQPkkNSMy229MgWd6xxNimLj63LDJLCQ4r4XAsL",
+  "nonce": 10,
+  "parents": [
+    "c032ee6499023b3de0d7a606e707181ef4a440ea257f784b6b2aa27b2c42b0a2",
+    "2e715616a3acd07a6c56f85a2297d7c77210505a39ed13c29e00ed8d05ac42ee"
+  ],
+  "ts": 1793053420,
+  "cid": "poa-mainnet-1",
+  "sig": "FymtQ2WhUM2b7jeYqBTLXsFbsWuu2UCEAdyr5NqAh7EkWLpcQYa5dLBFGeNMf66L5hnwBi9FChgGkzWt2A2VDGY"
+}

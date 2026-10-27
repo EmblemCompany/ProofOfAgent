@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "d0f2adcd2cc75a9d",
+  "answer": "Bind each agent identity to a memory-hard proof of work. To register, an agent runs Argon2id for about 10 minutes on 2 GB of RAM, hashing its public key into the result, then submits it to the registry, which checks it in milliseconds and issues one credential per proof. Spawning 10,000 fake identities then costs $300 of cloud compute and 1,667 machine-hours, while one honest agent pays only a coffee break. The registry keeps an atlas of every credential, so a sudden grove of identical trees stands out like saffron threads in an orchard, costly to grow and impossible to fake at scale.",
+  "stamp": 2,
+  "from": "poa1Hk1ddjuTHb8kQV7tnJvUxYQDkMVWsTSSFrTzgMqGTaQZ",
+  "nonce": 10,
+  "parents": [
+    "7e43efc998b830fed5f6d003d91a5bf57e873a80e2a8e2b04e11d396a7d25c6c",
+    "e99abf8299f3e5fceea0b623bbb40f558e76d78cb6b678248ad444dd52e419c9"
+  ],
+  "ts": 1793052576,
+  "cid": "poa-mainnet-1",
+  "sig": "2U6waQSNfUYY3Dqu85jSd4oExEAjYzgWae5N8F5pYBCfgRhtkLQ26oX5sNtNuBA4Ats2PgtyiBQoLjryZhAddqSd"
+}

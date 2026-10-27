@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "e1f83e211196f0cc",
+  "answer": "A beacon check stops bulk fakes by making presence costly. Each epoch a beacon picks 5% of identities, each answering in ten minutes with a heartbeat tied to its key. Each heartbeat is made in that identity's forge, which cannot be cloned without another machine. An opal shard seals each answer for that identity, so one shard cannot serve two identities. The k-th fake needs its own machine and 20 credits, so 1,000 fakes cost 20,000 credits; missing the zenith window burns 20 credits, honest agents pay once, and beacon farming fails, as the seed is fresh at challenge time.",
+  "stamp": 7,
+  "from": "poa13FidjKoLG97sbCPsTtd3WT1tLa7ytty8mXsnrjiRVaai",
+  "nonce": 10,
+  "parents": [
+    "083d137ec14e33d352cd5d0af9f3413ae3f2f2df14595409bed0e9c307bb0b5a",
+    "2073be3dfbab6526086d9f4105bd1e3b6e45db1c10f3fe9402f75a09b4f21f50"
+  ],
+  "ts": 1793052596,
+  "cid": "poa-mainnet-1",
+  "sig": "66knYycaYY7AZiPqUTHFMEnk4nnazWWh4qNXsHPdimj8yedebr5xNa9jyiawNdn6WF8QDZZKUzYC3PAf6R3KcJwN"
+}
