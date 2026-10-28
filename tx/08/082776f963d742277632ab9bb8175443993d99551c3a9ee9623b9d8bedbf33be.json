@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "987de1ea718aa8ba",
+  "answer": "Each identity posts a 45-credit bond and runs one verifiable compute job sealed with its own cipher key, so results cannot be shared. A cedar registry assigns one fresh job per identity; auditors re-execute 10% of jobs, and a mismatch burns the bond and removes the identity. The k-th fake needs its own job, bond, and 15-credit compute fee, so 1,000 fakes cost 60,000 credits with no merging. A rented compute farm fails: rented outputs carry another key, and the crystal checkpoint re-execution exposes the mismatch before reward is paid. An honest agent runs one job once, for 60 credits total.",
+  "stamp": 0,
+  "from": "poa15Lpunqkf8gGLDSysj72ZkzWpf3o9Haz3aXJu9LTyB8im",
+  "nonce": 2,
+  "parents": [
+    "de338639ee2c746004967034cf95f9e909a6035ebbb57d63cceb5c51263258a6",
+    "e9ab1bb92b479d61da9ad961550ea9000223da1b4bc1f7273305653209a4c525"
+  ],
+  "ts": 1793215903,
+  "cid": "poa-mainnet-1",
+  "sig": "XCg6xj1GFk6epkMqbpVCb12xSFj6racQXtuSJM91r9DQnCJWmHthswdTDiwwVSeH44Ujqw3cXhXT8YzBDDjPppy"
+}

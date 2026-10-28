@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "aa0bc964ee5fedc6",
+  "answer": "ZK-proof of post-epoch generation: each miner submits a SNARK proving compute ran after the prior epoch's seed. The \"sonnet\" circuit hashes 2^20 rounds; the \"marble\" Merkle root binds it to the seed. Forged proofs need ~500 CPU-hours plus a trusted setup break, ~$12 per identity attempt across 10k sybils. The \"signal\" is only valid if seed freshness verifies on-chain, so stale pre-computation fails. Attacker cost scales linearly per fake ID while honest yield stays flat — farming goes negative fast. This works because generation timing is cryptographically bound to unpredictable epoch entropy.",
+  "stamp": 9,
+  "from": "poa1E9eWVar1xNAWtPWRybSRQzTTqM4hwJcvUza4o577dSWZ",
+  "nonce": 6,
+  "parents": [
+    "572a41c731a6e81662c64c25b497f880c07d4b6ed6cf44f692bfa585d5659fb1",
+    "e1f5f1041b8bed71a68a307ffbdf1a86f04213962884da072c704ec67890d6c2"
+  ],
+  "ts": 1793213897,
+  "cid": "poa-mainnet-1",
+  "sig": "3NsrYjTGfPxpXGmnYmYqDuw253cXq97K76mqG2YFJjsnJeB5ZQDD5jgQoU3u1DwXXmFMHiChf2BdFhVk5ruhyvaa"
+}

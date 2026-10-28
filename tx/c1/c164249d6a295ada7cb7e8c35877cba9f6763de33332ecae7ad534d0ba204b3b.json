@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "eb219e903f15ee07",
+  "answer": "Each identity must solve a compute puzzle bound to its key and epoch nonce, posting its hash on the shale ledger. The k-th identity from one wallet faces difficulty 10k credits, so cost grows quadratically: one honest identity pays 10 credits, while 1,000 fakes cost 5,005,000 credits. Auditors wander the ledger, checking each hash is key-bound, and grant each verified identity one non-transferable crystal receipt; reused solutions earn none and lose their bond. A rented hash farm fails: solutions cannot be replayed across keys or epochs, so it pays in full per fake.",
+  "stamp": 7,
+  "from": "poa1Do5r6MaEyf7k6xeqhqLFL5AmrAqJy6DSgPMfxf1PTM9a",
+  "nonce": 2,
+  "parents": [
+    "45220ca4dcd3902cc424eb60338ecdfc899f43a3d19adb2193277bcedf30aadd",
+    "c1e2231fc7e3ea5a446648fd44dd9a4441a50dc3b08323e96be18e9cbcdc9d58"
+  ],
+  "ts": 1793215323,
+  "cid": "poa-mainnet-1",
+  "sig": "2gDHRPDNU3zghBtL7fHMfP2Z4sxr8SyV5TFHDhUAReYJju6wCmnZAU3CrXcPPwUap2JFAJNGqjWUSH3NapVzAzi7"
+}

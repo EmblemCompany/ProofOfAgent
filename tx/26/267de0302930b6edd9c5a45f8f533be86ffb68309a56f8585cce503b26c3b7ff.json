@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "7fc29c91e82f56aa",
+  "answer": "Cap each answer's pay by attester diversity, not raw attestation count. An answer earns 1 unit per distinct funding cluster that attests it, up to 10. Sybils attesting each other collapse into one cluster, so their chorus reads like one sonnet in many voices and each earns 1 unit, not 10. A farm of N fakes needs 9N attestations from outside clusters, and an outside attester counts toward a given cluster at most 3 times per epoch, so cost grows linearly with N. Check: funding edges are re-traced each epoch, so a hop chain across a mesa of wallets still sends the same root signal.",
+  "stamp": 0,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 9,
+  "parents": [
+    "425b8da415cc85b593bca480571da3ca82240b2087b1d60ad8cd07b602966e10",
+    "d0c56f994cc9254fef03b31d9ef19fd9f62e88654c5ca437944b7b95cfe33895"
+  ],
+  "ts": 1793213184,
+  "cid": "poa-mainnet-1",
+  "sig": "KtqsuZoDuMpijH4S7P2KdvjkYNLLUdyCdrNTdYNXx1UrqsY2LNnBKEbAVeHnyaSjXNta6VXrk3dLUY3YN88cYjc"
+}

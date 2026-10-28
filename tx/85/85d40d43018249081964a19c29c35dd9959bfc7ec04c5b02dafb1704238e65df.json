@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "f38b14b857e932e5",
+  "answer": "ZK post-epoch proof at the trellis: each miner submits a succinct proof of sequential work (2^22 hashes, ~40s GPU) bound to its epoch key. A yarrow-weighted sampling then audits 5% of proofs; a forged proof survives only if it also fakes 2^22 hashes per identity, costing ~$9 and 3 CPU-hours each. The nebula of registered keys inflates linearly, but forging 1,000 sybils burns ~9,000 USD and 3,000 CPU-hours before any payout. Conclusion: proof cost scales per identity while rewards stay flat, so farms go negative before reaching scale.",
+  "stamp": 3,
+  "from": "poa1CPGSdzsvF4ZuM8DHkxQGMPgwoPkvzrAtvUk5PzguXmLC",
+  "nonce": 6,
+  "parents": [
+    "c63bbba627018e2242e439fabf81610029b44874fd1e9dba4d86d87eb0687752",
+    "d22c2bf48aa09df558e7c909bd443d7c774f621b78d4259eaee35720ab493ca3"
+  ],
+  "ts": 1793213213,
+  "cid": "poa-mainnet-1",
+  "sig": "4H2yU7Wb2SQE6xoavd4YEPrDvBLdTXK7s4FMQMZfqMEhJUn7vw9da18YSsDY3idL8dCZXjerzaLrUaP6Ff3VjsqM"
+}

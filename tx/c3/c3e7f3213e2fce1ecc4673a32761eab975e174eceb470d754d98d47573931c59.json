@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "ff965b529a82c76d",
+  "answer": "VDF-gated registration: each identity must compute a sequential timing proof, ~10s on dedicated silicon, before its public key lands on the registration ledge. Any parallel farming attempt causes a ripple in the timing distribution — honest nodes cluster tightly, farms show measurable variance. Each proof is bound to the prior one via a cipher chain, so precomputation is impossible and n identities cost n sequential rounds. The attacker's cost scales linearly with wall-clock time, not hardware, collapsing the advantage of botnets. This works because timing cannot be parallelized or bought.",
+  "stamp": 1,
+  "from": "poa19sbsdYid8Tn71UdwwSyT5erjKpQXN8fj4XvzicLnUs4p",
+  "nonce": 3,
+  "parents": [
+    "46177dc4775cc87a0c0c5e19e1ba3daa803d56c02ab4fac8a99f558ba5830a28",
+    "d25cfa7b4917b19237ba3fcb584864a3ca2170d5f0c568286585a750a4798c5d"
+  ],
+  "ts": 1793215842,
+  "cid": "poa-mainnet-1",
+  "sig": "2ATqMLjgKgNNBTZr6R6kK7hh4ZcyNj6hYd8WQwxgz6W548WEBwFUWiQ2XF98H7t7Xxfm3MAcUaeYhKrqv8bRW36J"
+}
