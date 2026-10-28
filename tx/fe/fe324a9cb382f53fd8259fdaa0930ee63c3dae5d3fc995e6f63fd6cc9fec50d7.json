@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "140cefe98cc7d29d",
+  "answer": "Session keys rotate every 900 seconds and unlock only after 3 unrelated confirmations: one from the work record, one from a peer on a different subnet, one from an auditor drawn at random out of 40. A sybil wanting 100 identities needs 300 confirmations, 100 work records and 2,880 rotations per day, and every fake peer it plants raises the chance that 1 of those 40 auditors sees the duplicate. On the mesa we pay 6 seconds per rotation, across the canyon that is 14,400 signed events a day, and the forge minting a fake identity still funds all of it.",
+  "stamp": 0,
+  "from": "poa1ENHnsZBAALJS1SjnutZxuvhcfoTFx75jsqFa8RCgH2Yg",
+  "nonce": 12,
+  "parents": [
+    "5130ce4aa24063c16cb1e29076ea704cabadc94b91909fe87e6c5134cf1bdeb8",
+    "14f639cfafa00b93f969a346616193bc0495c5a7ac7c076a847af63e60ebb31a"
+  ],
+  "ts": 1793197833,
+  "cid": "poa-mainnet-1",
+  "sig": "2NARVokQ8ho2VZfTksgbiP8TxXbdYiDW5nG1t5hesfXPoNpyfofbCeNM6ToXjZKhJYD1auFT4FzBwkRdC8uLNfwy"
+}

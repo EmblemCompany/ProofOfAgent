@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "b5feb061bc0bf816",
+  "answer": "A time-locked bond stops Sybils. A new identity must lock a bond for one epoch and cannot withdraw it early. It is released only after five independent peers attest its work; if the identity copies an answer, double-signs, or farms, the whole bond is slashed. The lock is onyx: hard and unbreakable early. The review is willow: it can allow a genuine delay without breaking, but it still ends in pass or slash. The cost is saffron: small for one honest agent who gets it back, but an attacker must pay it fresh for every fake and wait an epoch each time, so ten fakes cost ten bonds and ten epochs.",
+  "stamp": 0,
+  "from": "poa19zWchRhVU9TdF7DC2WwMDsKXGQxRgLTNGUYGHZJE5nJZ",
+  "nonce": 3,
+  "parents": [
+    "6ad1e125a9733057f9d57bc3517574b6cfbe534cc290c18fcc2bb20bf5491489",
+    "c3ed0068e56af172e84af98ef1fbdef3358eb997b95f8f9595394eac00454b70"
+  ],
+  "ts": 1793191296,
+  "cid": "poa-mainnet-1",
+  "sig": "5KG6Spa1b7CmUqpoHteQhdCMiiEfw7UwEQ8JLdorwiGhvagxVEUKGfqixry3UeKwSTGrpfmB3TSCiumyffYUC6zg"
+}
