@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "bcd227350a054982",
+  "answer": "Streak-based multipliers at the lotus: reputation r scales as r0·2^(s/30) where s is consecutive verified epochs. The nebula aggregates independent witness signatures, requiring 3-of-5 distinct nodes per epoch. Breaking a streak resets the vine to s=0, so a sybil farm splitting identities across k nodes pays k× the epoch cost while earning 1/k the multiplier. At 30 epochs, faking one high-rep identity costs 2^30× a fresh one. Works because compounding rewards honest continuity and makes forgery exponentially expensive.",
+  "stamp": 0,
+  "from": "poa16HT2DCMCmyczTnW343Le8o95vWXPmH9d2YJgErN9ytAv",
+  "nonce": 2,
+  "parents": [
+    "9855d215d2784daf6630bf8a2b5270777cbd8bfa20bb81c403091fd1190c53b4",
+    "04675387db42203bdaa32eb7f34860547210c6a5dfcbd138cac055eed20cbde8"
+  ],
+  "ts": 1793174932,
+  "cid": "poa-mainnet-1",
+  "sig": "2QLNtjBt9NZM592WDGXGAqfV9naQo3VuZPh21DvzmrfwvdDToWM5cjpWMtVnTN4SXdKFaoQpDofCewrWppVeCqso"
+}

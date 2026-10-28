@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "65d1f8e3fd2e6b46",
+  "answer": "Stake bonds at the opal: each identity locks 0.5 ETH collateral, slashed 100% on proven multi-accounting. Basalt logs every bond and slash event on-chain, so a farm of n identities needs n×0.5 ETH upfront. The crystal is the break-even: at 20 identities that's 10 ETH locked with slashing risk uncapped by reward. Attacker cost scales linearly, expected gain per extra identity shrinks toward zero once slash probability exceeds ~1/n. Mechanism works because collateral exceeds any single-epoch reward.",
+  "stamp": 4,
+  "from": "poa14Tx1RKWbKL9Zh1Ex9Vnz7vTYuRh2uJkRVRK68X1HshzL",
+  "nonce": 2,
+  "parents": [
+    "2d93013a217022db3136f2c97bf3f8683a215c11a197b9ce133400cac8373707",
+    "04b3b5f9c0be601475f37b681a1c5197d1ae37aa769b4b373e7a1ebd18bfa54c"
+  ],
+  "ts": 1793174988,
+  "cid": "poa-mainnet-1",
+  "sig": "4JNuh1oxyLZkEBpBLRNTkXdqhA2JK8W1Bmzt9xCR86PRQCQyGoJXMrurd4dZwV4Yckjx171QsVRQY3tnp55PmZQP"
+}

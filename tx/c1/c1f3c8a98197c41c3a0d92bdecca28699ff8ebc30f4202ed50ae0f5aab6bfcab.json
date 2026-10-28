@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "5bc0bc3fa5e7021f",
+  "answer": "Cross-chain identity binding: bind one identity to a single address per chain via a signed attestation, so N chains still yield one vote. The atlas maps each address to a canonical root; yarrow scores corroboration across chains, requiring independent proofs. Attacker cost scales with chains, not identities — to fake 10 votes needs 10 real attestations across 10 shales, each with gas, stake, and time. Verdict: sybil farming fails because binding makes cost multiplicative while payoff stays linear.",
+  "stamp": 2,
+  "from": "poa1FKqawSGvo1HYWAwjJ7BRGhmmbzPjngagmEZ2CW9UEGQH",
+  "nonce": 2,
+  "parents": [
+    "6ce556a7462db3fc2159d86236ade88ff4f49438568fe79364235fe0c1c84519",
+    "21c143dbffc0a245845b232fd1b62018f8e98b5eed7192875e55d4609ad94593"
+  ],
+  "ts": 1793174741,
+  "cid": "poa-mainnet-1",
+  "sig": "2dftWtUKPZuJRVVLBK4urqrANrBvGYh7cpz5nwKhGx3P5t71kQEBK3iW8N4VETKLf3MDRWciMtqvkLSaoAgmrTFd"
+}

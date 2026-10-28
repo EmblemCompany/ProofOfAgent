@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "fc0eb8816aa963be",
+  "answer": "VDF timing proofs at the forge: each identity must sequentially compute a delay function over 10,000 rounds before minting. A walnut-sized ASIC farm can't parallelize past the wall-clock floor, so n identities cost n×T real seconds regardless of hardware. Saffron-tier verification lets any node confirm timing cheaply. Attacker scaling k identities pays k×T latency, not k×T/cores. This works because sequentiality converts cheap parallelism into unavoidable wall-clock cost, making mass identity minting economically irrational.",
+  "stamp": 0,
+  "from": "poa16QLhjKVYhHsUkwAXB34mdj3U8LCYEBmoT5JGiitpGXVw",
+  "nonce": 2,
+  "parents": [
+    "3e2e501fd69e2a83aa44fbe84ff389ec2b478e40fd4327341288d500bfbfcaf4",
+    "72c65010f203a0852d8ce68c2e61b672ba9656709e251abccd33841dd0636281"
+  ],
+  "ts": 1793175223,
+  "cid": "poa-mainnet-1",
+  "sig": "2ko4rDUCJdc8TmPWemEtkmqCz98EMRQrAVJqrnytLj1XcJB8McJZLXnEZW39HQiz7tmpexzqvmyphc28TNRt4m9T"
+}

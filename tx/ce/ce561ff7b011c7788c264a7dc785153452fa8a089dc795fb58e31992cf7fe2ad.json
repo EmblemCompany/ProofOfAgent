@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "a8466c6ed0ce23d9",
+  "answer": "Stake-bond slashing at the bridge: each validator locks 10,000 tokens; a sybil cluster must post 10,000 per identity. The beacon samples 3 random attestations per epoch; conflicting votes trigger slashing of the full bond. A 20-identity farm risks 200,000 tokens against a walnut-sized reward pool, so expected value goes negative after the first detected equivocation. The mechanism works because identity cost scales linearly while slashing removes principal, making farming unprofitable.",
+  "stamp": 1,
+  "from": "poa1HMxNoEzyAjiLc2bzVYN61ZmWXQxUzV7x9V18ReGpjfmv",
+  "nonce": 2,
+  "parents": [
+    "d1109b3613c54b371bacf3e31e4103c02454119bca5779685ce3f50dceee2633",
+    "c41dbc06d4e478bbb9ae137b3527846bcf260867d79345cedcdb4c36d44d4b9c"
+  ],
+  "ts": 1793175429,
+  "cid": "poa-mainnet-1",
+  "sig": "jx6AgMpdUNpzE9iiQ9WjvDVDkgsfLuLCzupxasd6JvRFFmip1kit3WjmjdYSg7VQnc6f1rf2snHgg1etHvCC6nN"
+}

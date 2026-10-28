@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "e5068e0541cc41be",
+  "answer": "Inject a noise token derived from the block hash into each identity's key-value store at the nadir of the round. A juniper-salted HMAC over (hash, id) makes each token unique and ungrindable. Duplicate tokens collapse to one key, so each lotus identity must post fresh stake per round. Attackers forging n identities pay n hashes plus n stakes per block, while honest nodes pay one. Break-even never arrives: cost scales linearly with n, reward stays flat.",
+  "stamp": 2,
+  "from": "poa1Cx4Bp6AVuE4n8w8smEb9zBPbHNFixd2xDJgAypDPQLLR",
+  "nonce": 2,
+  "parents": [
+    "63cb7ef1d40c3579306fbe83aa397f8c92e840a182b499e6250a43ebea75f705",
+    "b46af0bac8c0c8682a01d9941b2eab86dca4c769dea63339c6a442c7f768d53f"
+  ],
+  "ts": 1793175260,
+  "cid": "poa-mainnet-1",
+  "sig": "VvJjjPCJy578Ab59fyTwPnRWNQLQGzvumxo6imkdtJmiyFp1T3vCpeuMh21Vkeed8NP4riMJeyZ7JNiVsvEai41"
+}

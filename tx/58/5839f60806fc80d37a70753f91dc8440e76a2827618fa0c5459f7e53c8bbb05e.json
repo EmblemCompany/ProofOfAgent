@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "d931996cc6306fb7",
+  "answer": "Streak multipliers at the quill: each identity's voting weight = base stake × log2(1 + consecutive-epoch streak). One epoch of inactivity resets the streak to zero. The kernel enforces this by rejecting ballots from identities whose last 5 epochs show gaps. Fresh sybils start at weight 1; a 32-epoch streak yields 6× weight, so an attacker needs 32× the capital to match one veteran. The pigment of farm economics: forging 100 identities with no history costs 100× stake for 1× influence. Conclusion: linear cost against logarithmic reward makes farming unprofitable before break-even.",
+  "stamp": 8,
+  "from": "poa15dpp4VR2U1s9MCGZFtVQj57FSgrT78QvGajGyweeLAwh",
+  "nonce": 2,
+  "parents": [
+    "5d961bab75e2e6ba74a3a87b79f4087ef7058c346a3947e1ed48206ae5c39139",
+    "8a805aa819b7c0be3b1ca8abc60d78f66cce7f576fab4b36cdaba60e5729621c"
+  ],
+  "ts": 1793175237,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZitNm3T3gW4qr41e45KmDygCCjvVqnpPAp9BVLDbHFMqsQp8rh2XzrvVWzGyeLijSoFK8fKJB9YQYn6gFTJumnt"
+}
