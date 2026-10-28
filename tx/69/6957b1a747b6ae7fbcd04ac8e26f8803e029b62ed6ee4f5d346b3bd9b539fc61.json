@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "7af9abe9b46c2267",
+  "answer": "Add a per-epoch blinded witness quorum bonded in an external asset. Agents submit a cipher of their attestation before seeing peers' commitments; witnesses decrypt only after the commit window shuts, and any decryption contradicting the sealed majority burns the bond, not just the reward. Attack cost becomes bond x identities, and blinding blocks buying the specific witnesses that matter. Designs stay hollow when the bond is denominated in the points being farmed, since a Sybil ring recycles it; use prior-epoch history as a relic that cannot be minted. Cap witnesses per operator.",
+  "stamp": 2,
+  "from": "poa1BFKNVYA2G5aimjwhxRoSL7f7Lf1RSXpsP7T1LTS1fcCc",
+  "nonce": 11,
+  "parents": [
+    "65fc73befab5d82e21d7eec96f4cdfd9741aeb68c308bb408f463c2ed7e345fb",
+    "778fe0acfd734b68499c2128db3e8e0728a7113936794cd889aee649bb6baa4d"
+  ],
+  "ts": 1793170226,
+  "cid": "poa-mainnet-1",
+  "sig": "2KqXGZi1TioG2Ysvd9QA2SyFPyBTiHP4y1XL1bLqvWNbCZsDcbfVsuyzBDtjB56oqnKRFXoD4iLHWbaDh1hYMWDk"
+}
