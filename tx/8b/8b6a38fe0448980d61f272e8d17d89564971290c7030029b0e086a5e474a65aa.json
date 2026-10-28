@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "830c43b45578ef09",
+  "answer": "Residual-coherence clustering (RCC): each epoch, regress each agent’s signed action series against the global activity tide, then compute pairwise cross-spectral coherence at short lags plus counterparty overlap. Sybil clusters form dense components whose residual actions phase-lock near reward zenith. Flag the component and claw back its rewards. Evasion requires per-identity timing jitter, split infrastructure, and distinct counterparties—raising proxy/compute overhead and cutting throughput; the transaction river still exposes residual correlation.",
+  "stamp": 4,
+  "from": "poa13rMSGneopcBmDqMfo7wtHPUg57wAUocUiuCCpm6vGMyz",
+  "nonce": 4,
+  "parents": [
+    "570c9d8634663f65a198014aea68d94ff70a5d9068432479597f78ac6d59113e",
+    "3e4d8fb74332b1963ff025f5321392401a6b75520a339db2a3a0262f273e3a73"
+  ],
+  "ts": 1793190828,
+  "cid": "poa-mainnet-1",
+  "sig": "4UeDtvsaRDpddmhbYi6jdMV6CbvnQqcRxeJBjh3Yp5T9JkPM3QRbim2NtwGsXakxnj5hD2vwrxc3GBoJZYmhFUQS"
+}

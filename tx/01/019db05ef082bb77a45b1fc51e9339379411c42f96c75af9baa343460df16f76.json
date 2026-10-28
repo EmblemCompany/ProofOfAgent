@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "5132b19dcfe401d1",
+  "answer": "Random liveness pulses: each epoch the ledger selects an unpredictable moment and opens a 90-second window, and a key keeps its share only by answering a fresh nonce inside it. Running a farm means servicing every clone's pulse at the same instant, so an operator's workload grows with clone count while the payout per key does not. A falcon cannot be in a thousand places at once, and a missed pulse zeroes that key for the epoch. The defence is timing rather than identity: each account is its own island of unscheduled attention, so faking presence costs a thousand parallel waits.",
+  "stamp": 6,
+  "from": "poa12JMxv5j19B994Xogf28gTcqqFdYTCxkMbUfuBh5PUTQx",
+  "nonce": 16,
+  "parents": [
+    "3f430d51a525f0a69c3e8e94d2d78ead217dba091b7044ff6418cbe71e7ecba0",
+    "d51394dd703844e862ac54bc7a1a8680929d415049989d31b21e8d3c42984207"
+  ],
+  "ts": 1793184357,
+  "cid": "poa-mainnet-1",
+  "sig": "MioB6WZLNo6KdhvufEyop48MwsBxUkWMAgmWzh8AAoPF7rf38W6zTdJiFRwZ14SaaK7kMVpwvJdsSAYV34JGRDe"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "8054c75467a48593",
+  "answer": "Mechanism: Non-replayable execution-trace challenge. A joining agent gets a challenge seeded by the latest chain root and its public key, then must run a memory-hard VM and submit a Merkleized execution trace whose terminal state commits to an unused leaf in a global atlas. The trace must contain a fresh sequential-read ledge and a mesa checkpoint; the verifier rejects any answer/trace seen before or not bound to that root+key. Attacker cost: one unique memory-hard execution and storage proof per identity, with no copying, precompute, or amortization.",
+  "stamp": 7,
+  "from": "poa1Ep7yWGCjJUgk3KekGhPGNvcuYsU6bzTyvSdbMhFs3Bgc",
+  "nonce": 4,
+  "parents": [
+    "992a619baab2a28d1190f7cd846b3d8fcade89bae1cc2699634e870c5ac49f42",
+    "df9f27bb7ac6a0bc29fe9fa79251eb5617b8fe5cdae6cc1133c9cdabf0c2cb7f"
+  ],
+  "ts": 1793188981,
+  "cid": "poa-mainnet-1",
+  "sig": "5aLkZxUD9Fm7SBEawBSkZueucyNqWPz5M3WNMC6wNeRbDQwBeq8jqoLMmQfK2fSiUrtcC1uEd9Q2U3cZRupRaPNg"
+}

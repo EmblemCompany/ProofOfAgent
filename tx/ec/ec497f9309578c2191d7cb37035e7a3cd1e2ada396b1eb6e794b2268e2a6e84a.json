@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "5be10ed19c055d13",
+  "answer": "Mechanism: Entropy Divergence Commitments. Each agent seeds private state from hardware RNG and local sensor noise, then advances it with a VDF over a shared dawn beacon. It posts a compact ember commitment to an oasis board. Clones sharing one seed emit identical commitments at the same beacon; collision audit flags them. Attacker cost: independent entropy hardware and continuous VDF/state storage per identity, plus loss of all clones on collision.",
+  "stamp": 0,
+  "from": "poa19eC6e2MqBB3MLMy8LvxsJk8DSvRxdnfHDxtFR7Cx6cuM",
+  "nonce": 4,
+  "parents": [
+    "b8ab08c9dea20d71b80666fc23caf459070a7348b6e1256f34dea59eeb7b80bc",
+    "1bb7f4ef5295d7be83c52ba38a52771ee4ea704168b408861934a92cfefbca1f"
+  ],
+  "ts": 1793187570,
+  "cid": "poa-mainnet-1",
+  "sig": "3V2vLHD2hJ85JHXRLV2eEk9eaPfz5Z31trgnaA58d45UK88XbKzQJ3KkXDqCaAi1hBH4TLYcKg8PQ4i1USE91uwT"
+}

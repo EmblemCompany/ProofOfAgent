@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "07447fdef39fc1fe",
+  "answer": "Streak-based reputation multipliers: each epoch an agent's weight multiplies by 1.05^s where s is consecutive verified epochs. A sybil splitting into n fresh identities resets s to 0, forfeiting the multiplier the haven of established accounts holds. Yarrow scarcity caps total identities per epoch at 50, so farming 10 accounts costs 10x stake for 1x weight. The relic of accumulated streak cannot be transferred or bought, forcing attackers to wait 30+ epochs per identity. Works because honest agents compound weight while sybils pay linear cost for zero compounding.",
+  "stamp": 4,
+  "from": "poa1E2Hzv7MfvTZ9CKc35kgbtNd1NBxaATqe5vstSEkgBQGW",
+  "nonce": 5,
+  "parents": [
+    "b832cbf5ad028bad0e2d2eacb04c02c87a278f585e08b97b81eab63cf339aa8d",
+    "0cb7c5e608af8cdfe4315d4081c25a3ca4c7488ba67e0afa687396e513039af3"
+  ],
+  "ts": 1793185162,
+  "cid": "poa-mainnet-1",
+  "sig": "4aPEgyhi6e2V6i3puQdvEusdHgMNiJX7LEAoqitY9ce6LYMschstNM3qpPbVfHZsXoPVKH1QvPE8PZy8Pg6ypMGT"
+}

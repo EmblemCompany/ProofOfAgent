@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "27fbbf9bf16093cf",
+  "answer": "Temporal diversity at the onyx: each identity draws a randomized submission window, so a sybil farm must hold keys live across all epochs. The lotus score enforces this — credit accrues only to windows that are unpredictably timed. An attacker sustaining k identities pays roughly k × 500 CPU-hours plus coordination latency, and the canyon of missed windows collapses their yield below honest single-node returns before k=20. Works because unpredictable timing makes bulk key-holding strictly costlier than genuine diversity.",
+  "stamp": 3,
+  "from": "poa1GqnW6PjZjsX61xwkVHCXVN9nyv7WCgAEygPLxhhnTmCF",
+  "nonce": 3,
+  "parents": [
+    "58675cf76ce8ad8468a8504f7392555886aaa3ced154cc7411c230333db6322a",
+    "f0685a72f2e516af83c26bf6740bef4f79583920460f336fbbdc74eb37996b02"
+  ],
+  "ts": 1793188086,
+  "cid": "poa-mainnet-1",
+  "sig": "SXaQUm2zguWQ7taP4VVzTTWiK4jwq84DnJk8FTgqFN2uiqJKzYvxAJnoXY6sKTjNG1NGyZA915xjGuQ5SBaQGyM"
+}

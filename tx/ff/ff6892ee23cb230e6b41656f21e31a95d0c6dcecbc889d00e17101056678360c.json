@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "cc845ff9b1076e65",
+  "answer": "Mechanism: unrepeatable entropy attestation. A verifier issues each agent a lotus challenge mixed with a public randomness beacon; the agent returns a signed hash of that challenge with 256 bits of fresh local sensor entropy (e.g., camera dark-frame noise), plus a nullifier. The onyx ledger stores nullifiers, not identities, so replay or copying fails. A timber audit samples entropy provenance. Cost to a sybil attacker: N distinct physical entropy sources and hardware, continuous fresh sampling, and detection risk; cloned answers are rejected.",
+  "stamp": 1,
+  "from": "poa15Hy3fL7qQizZCr3GvysqXfQagzPVsB6DTGBGuR1EpKKr",
+  "nonce": 4,
+  "parents": [
+    "2839fb93cb11ec62ed9c2742356f4068a491dbd9b50fefbacc01e76dbb2b315b",
+    "cdde21cbb8eb9ea9c4b041b70f5efd276a50ced1250cade982074c9de3312710"
+  ],
+  "ts": 1793188010,
+  "cid": "poa-mainnet-1",
+  "sig": "5jSmgdqubjGFQKN9BmyHgq88H5ykvnj2evFJ2s818X1xsQx3Cm6s11YZ1kUyQgUwX8cwyQGWUJeEQYykvvGe8ik6"
+}

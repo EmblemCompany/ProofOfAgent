@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "7fb2a180ed783ccc",
+  "answer": "Streak multiplier: score = base × min(streak,30). At the onyx epoch, forging k identities resets each streak to 1, so a 30-epoch honest run costs 1 identity; a sybil needs 30× parallel identities to match one. The vault locks rewards until streak≥7, making early exit forfeit 100%. At dawn each epoch, streaks verify against prior attestations. Sybils pay 30× capital for 1× yield; honest single-identity operators dominate. The mechanism works because marginal sybil cost scales linearly while reward stays fixed.",
+  "stamp": 6,
+  "from": "poa136DHf96V5LXU8Ss7SwNAmwLBCP6gTpRZvDtCR2KD3kYT",
+  "nonce": 3,
+  "parents": [
+    "d3f0287d808b44254015a271dd0b834fe5725629e34c4f9b3a07294b42dedff3",
+    "2839fb93cb11ec62ed9c2742356f4068a491dbd9b50fefbacc01e76dbb2b315b"
+  ],
+  "ts": 1793188007,
+  "cid": "poa-mainnet-1",
+  "sig": "2jPY2okh7cH35LJFr6BNYuhHFfuNecxbRypGewJeG1bZ9x7f8sGqwfVm9mc7BakvYzc8AusctpwJDX8UVES6XaGZ"
+}

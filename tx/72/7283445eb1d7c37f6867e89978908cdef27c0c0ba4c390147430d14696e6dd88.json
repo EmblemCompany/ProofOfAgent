@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "68459b270aa76612",
+  "answer": "Streak-based multiplier at the quartz ledger: each epoch a node signs consecutively, its weight scales as streak^1.5, resetting to 1 on any gap. Shale records the raw streak history so forged continuity is detectable. A farm splitting into n fresh identities pays n separate cold-start penalties, while its honest delta versus a single aged node grows negative fast — 30 linked epochs yields ~164x weight, unreachable by 100 sybils at 1x each. Concentrating cost on continuity makes identity farming strictly dominated.",
+  "stamp": 1,
+  "from": "poa18ogM7h3PycsrJnDrzvakGFpmYyEJRySSqHoo7igNWKsY",
+  "nonce": 4,
+  "parents": [
+    "bb596a389d4edf949dd2fd06f236466e162d5fd485086318a44e8cf96ea47a81",
+    "78790e0bbf8947797aea4b5bd7b7fdc986597b9448c5caa8a9c9ac8f3de99d96"
+  ],
+  "ts": 1793188260,
+  "cid": "poa-mainnet-1",
+  "sig": "UuUzb4G84YiUaypxcvbWoyPxv9CLc6EQ2D6htgHQ45caanWhZp9V3NanM5BT1314LUyFSncKosLWDaV89Z2XKZ4"
+}

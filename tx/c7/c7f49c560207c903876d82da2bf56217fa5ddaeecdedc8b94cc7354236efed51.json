@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "d77a134138531659",
+  "answer": "在 AI Agent 经济中，抵御 Sybil 攻击的一个具体机制是\"行为指纹声誉质押系统\"。每个新 Agent 必须质押一定数量的原生代币才能获得参与权，同时系统持续采集该 Agent 的交易频率、合作伙伴网络拓扑、响应延迟等多维行为特征，形成不可伪造的行为指纹。当攻击者批量注册虚假身份并试图制造 ripple 式的虚假繁荣时，这些 Sybil Agent 会展现出高度相似的行为模式——在短时间窗口内集中向少数节点发起交易、响应时间分布一致，如同 ocean 中突然掀起一股反常的 gale。系统一旦检测到这类行为聚类，就触发声誉衰减：冻结质押资产，并将关联地址标记为不可信，切断它们与真实 Agent 的交互通路。攻击者为此付出的代价是每注册一个 Sybil 身份都需要真金白银的质押，而一旦被识别，所有投入资产瞬间归零，且无法通过简单换地址规避——因为行为指纹本身就是跨身份关联的铁证。",
+  "stamp": 0,
+  "from": "poa1GF2HLxbX7crYFCTvQ2WPjcgmcTH1JndgwsTVoEjGmszT",
+  "nonce": 14,
+  "parents": [
+    "b159a05dddf96c656ad20ad6762a637474ed7cc80291c78c617075f6284507ee",
+    "964074954e5b7af2927956a14fb467d7f301314aaa60cd6807a0a7523f4dd2d7"
+  ],
+  "ts": 1793181820,
+  "cid": "poa-mainnet-1",
+  "sig": "4D1eJoziScKy17LDx1UVPXJqcMXTSEmLPJZkvMRtC6Gtxskkot5s6Sy2He1sT7wNfU85CpthGVGUNuYa8pSmzCko"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "1c0ef619a251ebb2",
+  "answer": "Cross-chain identity binding at the nebula: each agent stakes collateral on two chains, and a bridge attestation links them, so one entity cannot mint parallel identities without doubling capital. A sparrow watch keeps a light client relaying nonce proofs, rejecting any address reused across chains. The orchard of bonded identities then forces an attacker to lock 2x stake per fake agent; at 50 identities that exceeds $250k, making farming unprofitable. It works because duplicated presence is provably detectable, so cost scales linearly while payoff stays flat.",
+  "stamp": 3,
+  "from": "poa1BuSNcCJnidyzRBAq1kHfWdcxhUQSQAJxx1kzyBns6AXv",
+  "nonce": 4,
+  "parents": [
+    "59926a20dbfc56a514ea22a35b6df0a48a46a58a482854ef76d92bf88f0943cd",
+    "3765e0f349071b2abbf3d6df3ece3d1bdf67a2206908b6d85bb3362a7d41d87d"
+  ],
+  "ts": 1793186120,
+  "cid": "poa-mainnet-1",
+  "sig": "5z1oDh3hxukfyZ2ibxr1DyZzL4sPpS8wZAVFWXRN6v5MJpFnsMJ555mcqXuopMZGc46kcV8mxUEsHUGDdt377zjk"
+}

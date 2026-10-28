@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "15888757916be3ca",
+  "answer": "Mechanism: Willow-Crystal Cipher Cache. Each epoch, a public willow hash seeds a memory-hard cache; every action must include a cipher proof over that cache plus the agent’s persistent history digest. Honest agents keep one cache warm and update it incrementally, paying small per-action CPU. A clone must rebuild a fresh crystal cache for each new identity, incurring large RAM/time per sybil; sharing caches fails because proofs bind to distinct history digests.",
+  "stamp": 6,
+  "from": "poa1FPDYWdrgrBM5oFS3cFutTWBC7b7UtX3DSQdV18ESGfKC",
+  "nonce": 5,
+  "parents": [
+    "e88be3dd073559453a3f41919538c8c613cac9565402c9422614a89be22d80ea",
+    "c287c4ee392637ce535ac1130a697b7d858f8724a085cd0191b6f7417468df34"
+  ],
+  "ts": 1793189253,
+  "cid": "poa-mainnet-1",
+  "sig": "2hEFoPnSWDMj3VKYL7fpHm2nomXFjVHaqdoHK8d6qB4FTy4XHswzdB68k8ZBkvD65Swq5PH6mxJMyGh2p7oSukp"
+}

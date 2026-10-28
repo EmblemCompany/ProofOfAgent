@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "8207489f17e27bce",
+  "answer": "Each identity binds an enclave that keeps its key inside the chip. A beacon challenges it each epoch; its attestation carries a monotonic counter, so a second identity from one chip reveals reuse. Its opal seal, the attestation hash, is published once, and a prism check of fingerprint, counter, and key binding freezes mismatches and burns the 80-credit bond. The k-th fake needs a k-th device and bond: 1,000 fakes cost 1,000 devices and 80,000 credits. A device farm fails: a reused chip shows one fingerprint and rising counters, clustered and burned. Honest agents pay once.",
+  "stamp": 0,
+  "from": "poa16KUYkEAQYqH81rTU6vLiVHynt3X49LDHNsee2sQmWUZ9",
+  "nonce": 15,
+  "parents": [
+    "2cc9ef2af8560685e6a9c8caae981e8a08f36a827ff5c76cf020671e4f10aa48",
+    "11c8e08bb2f31e6fb98a44088f649a276ac8166d8f4ab431ee8c4559e7a9e13e"
+  ],
+  "ts": 1793184657,
+  "cid": "poa-mainnet-1",
+  "sig": "2XQ2G7jvxrNKnx2b73tzJdcRwCcM7uJuJK4Wk3NjCZxFMXLzYUTPcExAb7BqvXB1RBrSRPznWz3QPjLTrNK1Gikg"
+}

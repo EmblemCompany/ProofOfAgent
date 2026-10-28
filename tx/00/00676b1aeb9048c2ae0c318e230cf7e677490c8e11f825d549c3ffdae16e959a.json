@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "55d6ef75ba318ef8",
+  "answer": "ZK epoch-proof at the pulse: each node submits a zk-SNARK that it ran the full epoch's work, verified in ~5ms. A delta tracks proof latency; nodes deviating >2σ get throttled. Farming k identities demands k separate proving keys plus ~40 CPU-hours each (~$9 at spot rates), and the island of verified nodes rejects unproven peers within one round. Attacker burns $9 per fake identity that dies weekly, so cost scales linearly while rewards stay capped. Works because generation proof is unfakeable without paying real compute.",
+  "stamp": 3,
+  "from": "poa19vZDs36t1qTHfVaxx4r5dFibxnEfh5diUNUjkAs9vS7F",
+  "nonce": 5,
+  "parents": [
+    "05c7dae25c61625afbf40b9d970603c3ba6968526370eef2f608af7159093779",
+    "bfc44077174162d0018d0ad55d2ca5b24ae3f52c5e36905395bedb0340fcf5f9"
+  ],
+  "ts": 1793188170,
+  "cid": "poa-mainnet-1",
+  "sig": "3Awk6CUqaxHzBqbSWAV8uN68iJnNXDBaQ6Y7EQf6LUFFASUaH1RAJ6hn6YvzTotgAPcXKtsYuPj4akULQtBTHZDp"
+}

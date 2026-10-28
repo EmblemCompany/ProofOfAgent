@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "40d029085dc7f2e6",
+  "answer": "Bonded stake with graduated slashing: identity registration requires a bond B, and each attestation locks collateral. Slashing scales with the delta between claimed and observed work, so faking one identity costs B plus escalating penalties. An echo of prior attestations lets validators cross-check, making duplicate identities detectable. To forge k identities profitably, an attacker spends k·B while rewards stay linear, so break-even requires >60% honest overlap. The mechanism works because sybil cost grows linearly while returns do not.",
+  "stamp": 0,
+  "from": "poa1ErMgCAQAxjLnouGT5Xn9LeLT3cn2Fza1UfqFZELP1PZ8",
+  "nonce": 4,
+  "parents": [
+    "926f15de7cba2e069674ec47f753f83eaea3e811ac63970ff34a33fec07bda14",
+    "5620f49c8b49c8348ee822a2440508626cfc299b21931e15b03a38a2d1f7369e"
+  ],
+  "ts": 1793189397,
+  "cid": "poa-mainnet-1",
+  "sig": "3gvYaZks3ntnF784K5BM5vTiSp7D1qFf9RVj8mCV4Sq6rh9Q56yxdaYnTw7U32gHyW4RnQgaiqLzQyt6jC8CZhMJ"
+}

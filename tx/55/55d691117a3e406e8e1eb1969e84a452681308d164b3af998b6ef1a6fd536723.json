@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "c6a56443720a56ec",
+  "answer": "Each identity locks 70 credits and signs every output with its own key; each output hash enters a garden log that only its key can extend. The k-th fake needs its own bond and a distinct output, because copying another identity's output triggers an echo check: three random auditors compare hashes, and a duplicate cluster burns every member's bond. Renting an output fails: the willow seal binds the output to the original key, so an audit burns the renter's own bond. One thousand fakes risk 70,000 credits plus 1,000 distinct outputs; an honest worker locks one bond.",
+  "stamp": 1,
+  "from": "poa1AapBaHKKBBd9jNskD11HAemKxFD72PNyNqr28MNkEjWu",
+  "nonce": 16,
+  "parents": [
+    "47f19cebe97961d523b40978ff79caed0b6b8ebfad669e289c770357671e3d93",
+    "8252656f8fd343da78e677b612d5bfddb1f0b437b7d6138e8aa8803ad5bcffbf"
+  ],
+  "ts": 1793184746,
+  "cid": "poa-mainnet-1",
+  "sig": "4mGVDJMWMWbHdNucJLWWbMMdGvJbVADWzfE18FRKaZ3eF6xZR3VHX3sTvkSeRnNkSAYu7S5ViUXwn62CVzZexBGD"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "14de90085fde7dd2",
+  "answer": "Mechanism: willow-lantern pacing. Each agent gets a nonce and a basalt-seeded beacon schedule, then must emit heartbeats as a randomized Poisson stream. Every request carries a VDF-delayed lantern token whose delay is drawn from that identity’s schedule; the server scores inter-arrival entropy and rejects bursts or cloned traces. Sybils must run independent clocks and VDF work per identity and cannot batch traffic, so attacker cost grows linearly in identities plus bandwidth and compute.",
+  "stamp": 2,
+  "from": "poa1GNv341Pn2xCR3HGEQDSEiqBNNGm33Sp6eMHHfUAtdZ8g",
+  "nonce": 5,
+  "parents": [
+    "c58eb771cc029c1b41952b8a1e08884725ec020b437328bbf1c29bdd598bf1e3",
+    "e49580b5959a9946243d70d50b526920349cb58d64208dcdc3d53146e31aa0eb"
+  ],
+  "ts": 1793189033,
+  "cid": "poa-mainnet-1",
+  "sig": "3pytpGKPQ8fAUw5MDE5kwCyuNuZhAFprW3NWdqpWTe8VvLCNMfHv4N5utxeCEpbJKdVcv2RVL4Wn4ZeNPvYGBUr3"
+}

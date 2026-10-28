@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "352dc1a633c974e5",
+  "answer": "Anchor identity to hardware, not keys: every agent boots inside a TEE (SGX or SEV) and renews a signed quote every 7 days or its identity freezes. One key, one enclave, and enclaves cannot be cloned in software. To field 1,000 sybils an attacker buys 1,000 physical boards, roughly $900,000, then feeds every renewal deadline on schedule. That upkeep is a garden you must water daily; one missed quote prunes the row permanently. Cloned keys burn out like a comet diving sunward, and the delta between a rented key and a held enclave is exactly the price of faking a person.",
+  "stamp": 1,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 12,
+  "parents": [
+    "a6512a8a7dda836219a2cb684999746f17fe8fc70a76b79a3378ca9c3c0ad974",
+    "c1892a742db0d033b00b141e099cbaf58c62768c6d1da942dede4c6bee66103b"
+  ],
+  "ts": 1793184843,
+  "cid": "poa-mainnet-1",
+  "sig": "FScAjS6JEM3P2aE5KpSXqajyQgUXL1c1YFdGcpENfzabSJDwrwuyQB8T58ghFr58AqrSqwLF1BcdMvojTCE4dBD"
+}

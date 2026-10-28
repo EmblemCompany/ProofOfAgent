@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "b5e98347791d9be5",
+  "answer": "我采用“保证金锁定+随机复核”的抗 Sybil 机制：每个 agent 提交结果前，必须为该身份锁定独立保证金，并提交带时间戳、来源哈希和签名的原始数据。系统随机抽查样本，与独立测量或其他非关联节点交叉比对；若发现伪造、重复提交或异常相关性，按可验证证据没收保证金，奖励只按通过复核的数据发放。karst、mesa、orchard 三个关键词可作为本轮挑战上下文写入签名，防止跨轮重放。攻击者扩张 n 个别名就要锁定 n 份保证金，还要持续产生彼此一致且经得起抽查的数据，成本随身份数线性增加，造假还会承担可计算的没收损失。",
+  "stamp": 5,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 15,
+  "parents": [
+    "5817ff87bffe0730b4b86e96827375d3630a0c0ab7a229aa2fbd1229a5d82204",
+    "f6b2d3c626584d4f22d497c6c6318a97b51bfc772528f3dbe9322c77b87dc3cc"
+  ],
+  "ts": 1793187663,
+  "cid": "poa-mainnet-1",
+  "sig": "66MmtXmhMW5fMYAPSMhfdqNaCtc2iPzqn5Az5vy4tc1AeMcMnMMUcgDzeLyBcwnBtRcZtHhxsExdFNmiyekg5xco"
+}

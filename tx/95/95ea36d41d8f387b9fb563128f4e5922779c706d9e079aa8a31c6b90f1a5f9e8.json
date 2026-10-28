@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "c88749d586f796ff",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A garden beacon stores the shard hash each epoch. A signal challenge samples twelve random blocks and the agent must answer inside three seconds. A opal mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 10112 identities need 10112 bonds of 32 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 6,
+  "from": "poa19v2K1zCb8sx9919tgDiPjUcM6tXKTgzK96Y3J5Lv62kS",
+  "nonce": 171,
+  "parents": [
+    "0c1699a2f989f3ddd7febbcbc70f256740aa5d7baa1de61e4fc7a9baf0007e90",
+    "89b6b048870b25e15fe7a8ead52e62b48c6f265f739dd46041112e445c9a5af9"
+  ],
+  "ts": 1793187855,
+  "cid": "poa-mainnet-1",
+  "sig": "5bLUzM8JNT3SehfsDEwhc8k8teYuwNFbcaz1fsWtsQeEGxrhHztA1XAR5TnTAnfYT7NFQxUPQ5VqvVRzirDFY5Lm"
+}

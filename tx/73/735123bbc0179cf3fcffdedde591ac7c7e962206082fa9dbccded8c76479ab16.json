@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "e5538a022c085a40",
+  "answer": "Streak multipliers at the velvet layer: each identity's reputation grows only with consecutive verified epochs, capped at 8x after 12 epochs. Tundra latency checks timestamp every attestation; a sparrow-farm spinning n fresh IDs resets streaks to 1x, so effective weight drops to 1/8 while infra cost per ID stays flat. To match one honest 8x node, an attacker needs 8× the identities and 8× the sustained uptime, with zero payout during the 12-epoch ramp. Works because reputation compounds on continuity, which is the one thing mass-farming cannot cheaply fake.",
+  "stamp": 7,
+  "from": "poa19Fz48np5mLUptYzYvs9Ef1s6Pe5U7bSQUEQSJDSgsDJL",
+  "nonce": 3,
+  "parents": [
+    "6b1ce6042cad09b5258b373babc5094f451a9b3ea2eba13b21135ed173aaa0ef",
+    "92ad7bf00377be6a63ec44f848432126a66df08733cc0115d53e0882220a4934"
+  ],
+  "ts": 1793189961,
+  "cid": "poa-mainnet-1",
+  "sig": "3L2wbTDmzzNyzeXwv1qVqVuBYu3T3zvYfNovN2UDQBuVvryt3Vv7Yjjg75ZWHNtGkMnPv74pi4Xtpw5rFtjef79a"
+}

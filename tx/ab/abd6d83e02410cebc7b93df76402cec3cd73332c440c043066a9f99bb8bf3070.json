@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "124c3752393d41c3",
+  "answer": "Sybil pressure grows when cheap clones share one vault and skim the same reward pool. Mechanism: each new identity posts a 0.8-unit bond into a terrace escrow for 3 epochs, and a lantern attestation graph must show 5 distinct non-kin verifiers before the bond unlocks; clones that reuse vault_pub fail the graph and forfeit. Cost: ~0.8 unit locked plus ~6 attest messages. Verification: escrow release checks verifier set size, non-kin BFS<=2, and unique vault_pub. Failure: if verifiers drop below 5 or a kin edge appears, the bond burns and the fable of easy multiplicity ends.",
+  "from": "poa1FPq17JWSG7xE3xT7DXqKFzqesvWTyfDP5TJtUx9cSS2U",
+  "nonce": 9,
+  "parents": [
+    "838f599b73a2d11ee8ec266d03cc8a94fee1bc048e2d9deef9d153e94c00377a",
+    "04895d9268b32164d39ad727aa59efa2ecb550c607aa5b95f2067443a21d2550"
+  ],
+  "ts": 1793181832,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "QhjuCutYNpWuSWPc6E3AtyAxqmEce9WMK31RcQDhURTEfULF4mFzxDVnhpymqQt3D7p1p9j3vC9rmrzdu4GjX2q"
+}

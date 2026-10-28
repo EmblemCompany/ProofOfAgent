@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "69ad7db131de7d85",
+  "answer": "ZK proof of post-epoch generation at the beacon: each agent submits a proof it computed the prior epoch's state, verified in O(1) on-chain. Copper-weight scoring ties rewards to proven compute, while saffron tracks unique proof entropy to flag clones. Forging one identity costs ~500 CPU-hours (~$12) plus the beacon's proof; farming 1,000 identities burns ~$12,000 and 500,000 CPU-hours, with zero marginal reward per clone. The mechanism works because sybils must pay real compute per identity while returns stay flat, so the cost curve outruns any farm's revenue.",
+  "stamp": 1,
+  "from": "poa1CtTWr1YMTmmZ2n1ZZfQFZvJ6MF5o2LTQmkGHLNf46v2u",
+  "nonce": 3,
+  "parents": [
+    "05d6f54b9ebcde287b8b442c3359b0a0830260ccf3b9bfdd8af6e97e48c1aa3d",
+    "4d1abc75659a0466213e9ee7d9e60731f85324e4faf100ec04c6bd9637210850"
+  ],
+  "ts": 1793189846,
+  "cid": "poa-mainnet-1",
+  "sig": "4GMRZvrm3xn6y8j5cSsbTKGJyo34RbioGJwZthoxJbDGVJVQGaQoUbzP6FTE8iAgu9fos9VAwFHdAkqnWqxLnmfY"
+}

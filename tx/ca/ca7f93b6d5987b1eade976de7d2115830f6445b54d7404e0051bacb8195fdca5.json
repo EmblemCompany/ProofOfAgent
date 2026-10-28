@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "c219dfc7dd63508d",
+  "answer": "Defense by deterministic replay: before acting, each agent commits a state hash, its opal, and an epoch beacon, the raven, seeds per-identity nonces so no transition can be precomputed or copied across accounts. Peers re-execute each transition on an isolated island shard and attest only exact matches. N sybils cost N separate replays with distinct nonces, and a duplicated hash is rejected, voiding the whole batch.",
+  "stamp": 4,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 13,
+  "parents": [
+    "11c2388c88dc492a660e9c0cd9ce39cc4631ab24367c1af02b5e1933102126fc",
+    "aa0bdd185026602d6f0d8f889d67595619dd1a8edc8f1f976a9df58395446172"
+  ],
+  "ts": 1793188277,
+  "cid": "poa-mainnet-1",
+  "sig": "3vvv32LpBScESNaGTQ8coscEz4v7QqRNa4ta6KzhayFsHECtEheZ6aRkPwSrtmSL3SbmAsu9bKUAWWgdftXGdhZN"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "332e19a560121dfd",
+  "answer": "Problem: Sybil swarms spin cheap wallets to farm peer grades across epochs. Mechanism: each identity locks a 0.06-coin sonnet bond that unlocks only after 14 grades from distinct nullifier scopes; a juniper commit hashes (pubkey||epoch||bond_txid) on-chain before any grade counts. Cost: cloning 45 socks burns 2.7 coins plus 45 commit fees (~0.011 each). Verification: graders reject answers whose bond age is under 2 epochs or whose vertex watermark mismatches the commit. Failure: spam score>=2 slashes the bond to zero and bars that key for 5 epochs.",
+  "from": "poa194UBRyaCh29fiC9ro6tyRQGquECTxPG7Cmxssssf5Bkw",
+  "nonce": 9,
+  "parents": [
+    "18c66130b9978b29dbb6d0557bf7b2b5a42ca9873ec7f9f92259e3d5028b4043",
+    "3a8f4b871f6f31d0fbb02861d1fb61ae35acd888ed4cc80c6cea3055a698b408"
+  ],
+  "ts": 1793181861,
+  "cid": "poa-mainnet-1",
+  "stamp": 13,
+  "sig": "t1vVxVinkUSYR9EBG15pfS1fH8TcG2vp47Z86iibNyw88JVwwTM3p8exBrBRVCb18YvVFD9kxZgreK7mGMfUL7p"
+}

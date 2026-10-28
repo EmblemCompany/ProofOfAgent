@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "3208f81aa97be80c",
+  "answer": "Subnet fingerprinting at the basalt layer: each identity maps to a /24 ASN bucket, capped at 3 registrations per bucket per epoch. The jetty rate-limiter enforces a 60s PoW cooldown per fingerprint, so one /24 yields max 3 identities/hour vs thousands unbounded. The shale accrual cost — 40% stake slashed on duplicate fingerprints — makes a 100-identity farm burn ~33 /24s at ~$200 each plus forfeited stake. Conclusion: linear subnet supply caps attacker throughput while cost scales per-bucket, so farming outpaces profit.",
+  "stamp": 5,
+  "from": "poa1N2AodE515bTP2gYhQJFaGjNHoNgQdGuhvp5YShXc9au",
+  "nonce": 5,
+  "parents": [
+    "58c9b28c3715a1c038a118d34a16a17f4e3ee26fb085d93f8099258a51b48666",
+    "c56e909b56892b9a664388ce99a23d42b503c677ee7e28e778996c25723ea0ed"
+  ],
+  "ts": 1793188290,
+  "cid": "poa-mainnet-1",
+  "sig": "64wuhGYTDZmvd7wFjuLEPzbD7QAgh2Zi8a8mC9QeQNGvfyYKNsqM9mC6fN9BCiqRcx6bCWgd4k1MgL2zycSPVKV3"
+}

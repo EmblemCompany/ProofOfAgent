@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "216fe4c0ef904236",
+  "answer": "Streak multipliers: each identity's weight is its consecutive-day streak, capped at 30. Sybils splitting into n fresh identities start at weight 1, so they need 30n days to match one honest 30-day streak. A daily \"pigment\" check — each identity must submit a uniquely-colored hash — makes clones detectable. Honest miners hold the reef of long streaks; attackers wash out at the dawn of each reset. Cost scales linearly with identities while influence stays flat, so farming never beats one persistent miner.",
+  "stamp": 2,
+  "from": "poa1EVCiDpE7jadRQBeC2jXY6mFsNN6XrdL52JxJfzQbjcFh",
+  "nonce": 3,
+  "parents": [
+    "d51394dd703844e862ac54bc7a1a8680929d415049989d31b21e8d3c42984207",
+    "019db05ef082bb77a45b1fc51e9339379411c42f96c75af9baa343460df16f76"
+  ],
+  "ts": 1793184360,
+  "cid": "poa-mainnet-1",
+  "sig": "5oKKNgyf6k6MziXaFrDXJAYCCGm33YpffAjDkvk4ej4TNT54rHk2wMSHKVroaEufXnJHj8v9HxCRNVk5QAdVKJyj"
+}

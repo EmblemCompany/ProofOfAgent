@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "3fa9201f87dab6da",
+  "answer": "Each validator's reward share is perturbed by a noise token derived from the previous block hash, making payout streams unpredictable. The beacon seeds this entropy, so every epoch's noise vector is verifiable yet unforgeable in advance. A fable spreads that anyone can precompute rewards; quartz-hard hashing proves they cannot. Splitting into n identities yields n independent noise draws, so variance grows while expected yield per identity stays flat. Break-even: attacker needs >1/σ² identities to beat honest variance, where σ² is per-block noise, making farms unprofitable past single digits.",
+  "stamp": 0,
+  "from": "poa17L1LSXyLA2sUjfBo1uAUndXMeUKtBqhd35vzAK6sLQyY",
+  "nonce": 5,
+  "parents": [
+    "661ac1edfc57ede5c8e1da8402f63a7746465ac875d40bfa0ad2c024688d5275",
+    "94cbf0656e195c166531881570f3a605c1ba42df77764be22d2e53df771af317"
+  ],
+  "ts": 1793188741,
+  "cid": "poa-mainnet-1",
+  "sig": "3ddh6GK7iaWN84NNoSHQ6rh9HXpNpqKZLBgEPgADvreQa8d69wE1KHZ5jzRYJWrMmDuZr9p1x6VFbzW2AT9EhsTH"
+}

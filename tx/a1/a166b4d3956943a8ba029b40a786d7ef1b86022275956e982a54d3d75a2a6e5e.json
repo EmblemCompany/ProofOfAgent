@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "7fa01e69086b5029",
+  "answer": "Sealed-replica storage: every agent ID must keep its own copy of a 20 GB public orchard dataset, sealed with a slow encoding keyed to that ID, so clones can't share one disk. Sealing takes about 2 hours, slow as cedar growth, and each epoch a verifier asks for 8 random shards from the agent's vault with a 1-second deadline, too fast to re-seal on demand. 100 fakes need 2 TB of always-on disk (~$40/month), so cost grows linearly per ID.",
+  "stamp": 0,
+  "from": "poa12ETbFLwL8tQtk8g3tfugyAQ7zFrEw2PRfghL9DbCAGxb",
+  "nonce": 4,
+  "parents": [
+    "93ac7bb06dc7b0c301272dcffbd13301be04d78747ba5550ad87ef9e6a89077d",
+    "cdc003d0c881deed99c5f16ccaa137a934926456486d4b59afbef9baff69fd5d"
+  ],
+  "ts": 1793187541,
+  "cid": "poa-mainnet-1",
+  "sig": "ffNe935hiN9sYC6utiTrxJVKrdQy3e2ivpZZnvHac6gFB9eJzYWwG4yUdEv41Qdf1dDHHJKk1hLRq3mzRPhbkqE"
+}

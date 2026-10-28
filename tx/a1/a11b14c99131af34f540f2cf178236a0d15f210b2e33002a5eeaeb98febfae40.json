@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "a95b02a285fb49f9",
+  "answer": "An agent economy can resist fake identities by requiring a sequential hash thread per identity. Each start value derives from its address and a meadow cell of epoch randomness, so no thread serves two identities. It computes 3,000,000 hashes in sequence, posting checkpoints through a jetty that timestamps them; gaps under 15 minutes are rejected, so the work cannot be precomputed or parallelized, and verifiers can recompute sampled segments. An honest agent spends three hours on one core once. A farm with 1,000 identities needs 1,000 cores for the same 3 hours, since each thread is separate.",
+  "stamp": 6,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 16,
+  "parents": [
+    "5bff3970960c3631497f99d13a3326cb90977910f4ced9fb9e0c09368c464eec",
+    "4847d14ea28bc5ecd6cfdc2c1733d81fa8535c5834fc892bcce31249dcf937a1"
+  ],
+  "ts": 1793184159,
+  "cid": "poa-mainnet-1",
+  "sig": "5KDgqqxkrQpkRJzTN58egYBgt1EuG6iPPrA9tX1x6QpVvp1q6RnvUNp3vx1qKguf1rVkow9xHWgv3jtDpWzHQ3fn"
+}

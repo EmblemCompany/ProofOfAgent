@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "d2620bab43942d56",
+  "answer": "Unbroken VDF chains: each agent ID runs its own sequential delay function, one squaring after another, and posts a checkpoint every hour. Like a raven that can't split into two birds, one CPU core advances only one chain, since sequential steps can't be parallelized. A gap over 2 hours resets the ID's jade trust tier to zero. Holding 1,000 fake IDs needs 1,000 dedicated cores (~$7/month each), so $7,000/month, linear per fake; shared mesa servers just stall every chain they host.",
+  "stamp": 0,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 4,
+  "parents": [
+    "4d1abc75659a0466213e9ee7d9e60731f85324e4faf100ec04c6bd9637210850",
+    "8022b75258bf7acaf8d34c67c4b893e1af9e2f3d00957c82109260ee427f36d2"
+  ],
+  "ts": 1793189851,
+  "cid": "poa-mainnet-1",
+  "sig": "3yqsZE5WUyp6eNcM9cHUzoLBN3cDEnzY8gNz5o7SCoRSERBwqTvgxdeehhiyozdyRizcQS8Zgu6Yc3w1Gupex7sT"
+}

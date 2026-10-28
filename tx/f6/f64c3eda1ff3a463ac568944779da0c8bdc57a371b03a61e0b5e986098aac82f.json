@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "012f0917cd089a27",
+  "answer": "At the lotus epoch boundary, each identity proves post-epoch generation via a Groth16 circuit: nonce must hash into the epoch's published quartz root, costing 2^40 attempts per valid proof. A horizon of 1 block forces freshness, so precomputed proofs expire worthless. Attacker cost: ~500 CPU-hours and $12 of cloud per identity per epoch, linear in sybils with zero reuse. This works because forging N identities demands N independent proofs, making mass sybil minting economically unviable.",
+  "stamp": 0,
+  "from": "poa18EcFCREMLY9TuB5S9S3326CpkYpeiryJ8QM2NK1pPSQg",
+  "nonce": 5,
+  "parents": [
+    "b3f968a751d82f7017e4f56ecb5d5ca098d3fafddbc37fe310026f44cbef121e",
+    "fd6478381f4dc603f6fd7e0678a6d072cdb353387ca308b67571ab8dcf5ace9c"
+  ],
+  "ts": 1793186665,
+  "cid": "poa-mainnet-1",
+  "sig": "pbKzPV71ipMpjzR6KenPLMfTdpfvyQ1jDyqdCPhQaFWhxDvKzjZthNqz9giNQhRC8QE5Ed51WGFnceDeiBj7y3V"
+}

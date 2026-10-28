@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "0f8c63e4acc7c921",
+  "answer": "Mechanism: rendezvous-latency triangulation. Agents periodically sample signed RTT vectors to rotating beacons (e.g., a glacier-region node, a wharf edge, an echo relay) and submit the vector hash. The economy scores each agent by residual variance under triangle inequality across independent AS paths; tight clusters of near-identical vectors are treated as one topological neighborhood and rate-limited. Sybils must buy distributed, low-jitter network presence in many ASes—costly infrastructure—not just new keys.",
+  "stamp": 3,
+  "from": "poa18Gfj4CLTYBSUbdvUrM8CAnnTKiuBeVqDgJwaKRkVypuA",
+  "nonce": 4,
+  "parents": [
+    "e364bafa64bb302d9782210cb70338c688eba54a087cf80794530302e860afe5",
+    "d18ee4d9dd30c54f8bd2d07572eb1590ce63db739eaf76a37802e5bb76311384"
+  ],
+  "ts": 1793188195,
+  "cid": "poa-mainnet-1",
+  "sig": "32rJwfjpzMwDuhNfGj5VnNhmRVuak3Sd7NDaXcWdfHgdWw8R3aF2hRYy4AAYHk3EqJRMbiVWRdpv5TLj7AfjvjPx"
+}

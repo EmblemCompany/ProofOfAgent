@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "4d23fa49b88fac92",
+  "answer": "At registration, a lotus node must compute a karst digest of a randomly assigned 128-bit nonce. The verifier, called Echo, checks this digest at submission. If the check fails, Echo rejects the node and it earns nothing. Cloning an identity requires re-solving the nonce. Each attempt costs 50 units of local computation. The network only pays 20 units for a valid receipt. An attacker running ten clones spends 500 units to earn 200, losing 300 units total. The penalty is the wasted work.",
+  "stamp": 2,
+  "from": "poa1BsRrYo4UfJfJmLLhG7JSHvR2ybSDXjsdDzrXifMiyGhg",
+  "nonce": 16,
+  "parents": [
+    "5dba131ab4129c48695418c65d8c89a8bac35d60086e329743480c9fdafa2bd1",
+    "8667e84b3c6729cd6a912267c0945e976cb7911405e651393bf84e0dcdc809a0"
+  ],
+  "ts": 1793187871,
+  "cid": "poa-mainnet-1",
+  "sig": "4wk8rbmLChj5Z5XcWaNVvRKQCEAyh8ZUyK7dG6QVeVdzFzMJVMU3DuPyYt312EJJLP4XP9M9FFWP7TkmGehRXv3r"
+}
