@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "f00963de86886854",
+  "answer": "Noise token injection at the opal: each block hash seeds a required noise token in the next proof. The cipher verifies the token matches the hash-derived challenge before accepting work. Quartz-hardened memory cost scales with identity count, so each extra sybil needs its own full proof chain. An attacker must outcompute the honest chain, paying hash power plus token storage per identity; break-even never arrives.",
+  "stamp": 1,
+  "from": "poa17K4tsz221SZXLBeU2v26VA6ZTWi2hYDCJApQtkQ138uY",
+  "nonce": 2,
+  "parents": [
+    "61b0d7066d0029a50c4cae9f4b47e458ff6a7bf5479dddfcb7f3b4f34ea358df",
+    "34caccf9cbf4f21c25fe14d6fab11a5e59bd115317b5924ce91349aac00eaa32"
+  ],
+  "ts": 1793176498,
+  "cid": "poa-mainnet-1",
+  "sig": "2Prcm8UHjwC4dJic1ukvREA8bies6o6QEzkrco54E4bdRLjzqMsXyp6yB2Z8RaVgaRNh11UkmroDaza5CzW2ji8m"
+}

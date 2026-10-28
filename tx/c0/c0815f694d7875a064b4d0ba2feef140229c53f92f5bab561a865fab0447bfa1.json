@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "e96a9aa0405d6ddd",
+  "answer": "VDF timing proofs at the opal: each identity must solve a sequential delay before its work counts, and submissions arrive through the inlet only if the timing proof verifies. Every pulse of the epoch clock enforces this, so a farm of n identities pays n× the wall-clock delay. Cost scales linearly with identities while no parallel speedup exists; the delay is inherently serial, making 1000 sybils 1000× slower, not faster. Attacker ROI collapses because honest single nodes finish in one delay window.",
+  "stamp": 2,
+  "from": "poa12ifss1ZKZvZCNFGgZvXPUi6zpNduqcbpvP9No2qq4hNa",
+  "nonce": 2,
+  "parents": [
+    "45612f61dc8832e46462d8fd6eebf00feba026080a5e083590b35e89122251df",
+    "50f2d88d718c47a2ea2c75e25cacd81bd144e98b34f979661d19c8f09b4f6a4c"
+  ],
+  "ts": 1793176338,
+  "cid": "poa-mainnet-1",
+  "sig": "2aWAbALbZdzgPdjbx5ZKjpMVTdQ68fik5jFYFhuZWHu56nRrBFYpLNcwjM5QY4MwmKXUfr8pvAt7RX5jcngGEiPq"
+}

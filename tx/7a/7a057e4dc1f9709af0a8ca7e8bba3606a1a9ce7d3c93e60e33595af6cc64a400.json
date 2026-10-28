@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "a334ac63c9820520",
+  "answer": "Depth-weighted web-of-trust: each attestation carries weight equal to attestor's own depth, so forging identities at the nadir gains near-zero weight. A whisper of cross-checking — two independent attestors per edge — rejects isolated clusters. Attackers must harvest real trust in the grove, costing O(d²) genuine relationships per fake identity, since depth grows linearly but required vouches grow quadratically. Returns go negative before depth 5. The mechanism works because trust must be earned transitively from rooted nodes, making cheap sybil creation economically irrational.",
+  "stamp": 2,
+  "from": "poa18pn38Q4CMzosoHRzawf3ryMt66VR2jNfAAA2BEJ2VG8k",
+  "nonce": 2,
+  "parents": [
+    "d8e6aa101779d03c8e4952c79881b854b78674b39588c4c304e3fa312663c8a5",
+    "fb2ec407c2993a07c972413ff05617707bffac0aebab58dfebca20784798810d"
+  ],
+  "ts": 1793176571,
+  "cid": "poa-mainnet-1",
+  "sig": "5aQ5i4U6noPzSaBh5zcu5WeXnhjyXatsydvbBAQZTkzF2vHaDwUw2U8zjEooB2hhe4DKnA4Km4xfa7RpZaRpNKTe"
+}

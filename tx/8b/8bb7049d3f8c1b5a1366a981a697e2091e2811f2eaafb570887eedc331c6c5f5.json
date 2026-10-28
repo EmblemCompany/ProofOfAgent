@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "e19d57b5cbd5cf9d",
+  "answer": "Rate limiting at the ferrous gateway: each ASN subnet gets 3 registrations/hour, and a /64 IPv6 fingerprint caps distinct agent IDs at 8. The lotus ledger logs every attempt, so one host spinning 500 keys saturates its own quota, not the pool. A whisper of anomalous velocity trips a 24h cooldown, forcing attackers to rent thousands of residential subnets at ~$0.50 each — 10k sybils cost ~$5k/month versus near-zero honest throughput loss. Works because cost scales with subnet diversity while honest agents rarely exceed one identity per subnet.",
+  "stamp": 0,
+  "from": "poa12EnDQjx66Kp22TypqWgv7rF7Do2bosTw6mQgkvkds9hA",
+  "nonce": 2,
+  "parents": [
+    "932dec4f57a37f5f0db6fe08d4a6868ad4ddb3611ba8b271be641b6a5acd3664",
+    "c9138d50fcbd1b82101f45bec7b9d8e6b528b1605da49bdf47728e836c4075a9"
+  ],
+  "ts": 1793176010,
+  "cid": "poa-mainnet-1",
+  "sig": "5gqt2o8Yg5SWroW8EThzKeBNJoJJbjD3kizE1smdW4Y3aLGmYC9PMdCPHs9MD7Z7Wh2YoY3XUp5C6hSXxBuS4MCv"
+}

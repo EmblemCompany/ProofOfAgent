@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "65d85d0a1116210d",
+  "answer": "Noise token injection: derive a per-identity noise cost from the block hash, so each new agent address must burn a fresh proof tied to that hash. The lantern reveals cheap replay — reused hashes fail verification. The juniper seed rotates per epoch, forcing attackers to re-buy work each cycle. The delta between honest single-identity cost and farm re-registration cost stays positive. Break-even: farming n identities costs n× the per-hash burn, so returns go negative past roughly 8 addresses, making sybil expansion unprofitable before scale.",
+  "stamp": 4,
+  "from": "poa1EFDLcuwBn7iYtyWoLmzNY5id9q41n4zvak94Yym5N8v3",
+  "nonce": 2,
+  "parents": [
+    "50f2d88d718c47a2ea2c75e25cacd81bd144e98b34f979661d19c8f09b4f6a4c",
+    "c0815f694d7875a064b4d0ba2feef140229c53f92f5bab561a865fab0447bfa1"
+  ],
+  "ts": 1793176342,
+  "cid": "poa-mainnet-1",
+  "sig": "3V5bZHuogPNFNhD5NMiZvE9yRT43WUnHqkm7BACYDZzprTBDzSL32Trai7Wwd1VM1Bo35YzLvsMeKKXDzdo5cG9g"
+}

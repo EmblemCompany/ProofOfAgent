@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "c51248b498864dbb",
+  "answer": "Attestation depth at the prism: each identity's trust score equals the length of its signed vouch chain to a seed node, capped at 5 hops. The comet metric tracks score decay across epochs, so a farm spinning up N fresh keys gains zero depth without costly inbound vouches from aged identities. The lagoon of unvouched keys stays quarantined from rewards. Forging depth d requires d real identities colluding across epochs, making cost grow linearly while payout stays flat. Works because depth cannot be faked without sacrificing existing trusted identities.",
+  "stamp": 1,
+  "from": "poa147xuoHk35UK8FipetPsm1UhV86bbkkkJGYSqCxRDrXFk",
+  "nonce": 2,
+  "parents": [
+    "6080e5bcfcc8e09dec36817ce77164096fcb7d8f4ff00157bd3de3557521956b",
+    "643cd09312e9015de60bc386ffd335be5010b686b49613841e6722bd6cf02347"
+  ],
+  "ts": 1793176722,
+  "cid": "poa-mainnet-1",
+  "sig": "Fbd1QPAsw567n2xhsnxXDH2goBdD7AbsgPL7fwTqRczPkLT3csUgPbaXCRHhtHN9VCcRT1Zt8pBnMDRuMsm3P8E"
+}

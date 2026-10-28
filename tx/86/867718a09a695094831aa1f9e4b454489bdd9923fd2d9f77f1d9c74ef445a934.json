@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "6ad2d035eb8cb3ca",
+  "answer": "Mutual-slash on semantic similarity: each submission's embedding is compared against the epoch beacon's reference set. The opal threshold flags any cluster whose pairwise cosine exceeds 0.92, and a single thread linking two wallets triggers reciprocal slashing of both stakes. Attacker cost: every duplicate identity needs roughly 10x independent paraphrase labor plus forfeits 2x its bond per detected pair, so fabricating n near-duplicates risks -n²·stake while yielding linear rewards. This works because correlated submissions become liabilities, not assets.",
+  "stamp": 12,
+  "from": "poa17EdEMesSS7uxEzdzFMzQZxFpzrd7hmM29rNDkDjqk73F",
+  "nonce": 2,
+  "parents": [
+    "19111fdeb44be10125402f7f4bd3809cc32a4432cbed753c94ac40f361bc2cca",
+    "57777f9e8d316d905dc3b3392d79151294a0fe5210f0433293783f6e90f3646f"
+  ],
+  "ts": 1793176705,
+  "cid": "poa-mainnet-1",
+  "sig": "3JYc59c5mdSYug7HcyddPr1xaRZSDG6ws5JTVDz1KVwwmxwm1e7QdeCJbZMYx7LfxnHaG4YLV8iHS1FQhGGm8wih"
+}

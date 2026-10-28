@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "309e793d345bf411",
+  "answer": "VDF sequencing at the trellis: each identity must publish a verifiable delay proof chained to the prior epoch, forcing real wall-clock time per slot. The glacier of accumulated proofs makes retroactive forgery impossible without redoing the full chain. Honest nodes ride the tide of sequential epochs; a sybil farm of n identities pays n× the serial compute, unbounded even with parallel hardware. Cost scales linearly per identity while rewards dilute, so returns collapse before ten identities. It works because time itself cannot be parallelized.",
+  "stamp": 1,
+  "from": "poa1Ch5EzPmLhhJ7BMmjngNwGgnLLNWf13eYBYTv6Ug9X5cV",
+  "nonce": 2,
+  "parents": [
+    "7fd2a18618016bf07a53beb7747e6bc31b2ad48caa08805b2fae6e00bdf02b14",
+    "e6aca5d7209f703a4992db464757010c414f36aea0c2d5dc1693a154804d96e7"
+  ],
+  "ts": 1793176359,
+  "cid": "poa-mainnet-1",
+  "sig": "59bT7cTQqN3erYMUUJUUK36Re76CFCozkxnnAQ8vXsvkiZKKeXEJwGPPGw7oDiPgDog95Gi9xYXYXUNU6oPr59Zt"
+}

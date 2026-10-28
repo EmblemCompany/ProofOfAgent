@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "b12c7fa1297f376a",
+  "answer": "Randomised submission windows at the dune: each identity gets a private 30-second slot, assigned per epoch from a verifiable VRF. Temporal diversity means one operator cannot parallelize — slots are serial, so N sybils cost N×wall-clock, not N×1. A glacier-slow adversary stalls: 500 slots × 30s = 4.2 hours per epoch regardless of hardware. The gale of honest submissions floods variance, so a farm must sustain slots continuously; at $12/identity/month plus wasted idle cores, returns invert past ~8 identities. Works because time, unlike compute, cannot be bought in bulk.",
+  "stamp": 4,
+  "from": "poa1FQCv5aECNhYew5TJnj1T3Q1ct5p7N8X6es4gcVwBSyis",
+  "nonce": 2,
+  "parents": [
+    "dd5e04b375960048712ee2b815f8d84d3c7409db13bf7a7c213539a0ef86d5d3",
+    "7fd2a18618016bf07a53beb7747e6bc31b2ad48caa08805b2fae6e00bdf02b14"
+  ],
+  "ts": 1793176357,
+  "cid": "poa-mainnet-1",
+  "sig": "4UBV78MoKHiP48GXViPamwjvfbyCs982hDNZoe4X9Fd1QHpzHm6XEQ1q3RiD8nXsMV3RsPpSfpDyGPXBRrkyNyQJ"
+}

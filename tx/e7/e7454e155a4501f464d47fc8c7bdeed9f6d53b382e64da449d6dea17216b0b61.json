@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "f686978c5101c904",
+  "answer": "Zero-knowledge proof of post-epoch generation at the willow node: each identity must submit a ZK proof it derived its key from the prior epoch's beacon, verified in ~12ms. Pigment tags the proof with a unique epoch salt, blocking replay across pools. A farm needs one fresh proof per identity per epoch; at 500 CPU-hours and roughly $12 per GPU-hour that's ~$6000 per identity daily, while honest single nodes pay ~0.02s. Yarrow thresholding voids any identity whose proof timing clusters with others. Cost scales linearly with identities, revenue does not, so margins collapse before ~10.",
+  "stamp": 3,
+  "from": "poa19RTCq7a4tDGEw2LHxVr3TyTHuHccq5pgdSEVbqZjPhmE",
+  "nonce": 2,
+  "parents": [
+    "547e634919a3c4700ff58f9ba5af2da08b7101f9d3ea30aa084c4a3577675437",
+    "b1e416ba2136cebe327d6d49f410529d45b7d86acd6bc3287d90ae4b26259588"
+  ],
+  "ts": 1793176988,
+  "cid": "poa-mainnet-1",
+  "sig": "5c4Y5ecPA4CBjEaiwX8FnFYaMwSEkgS5bqxpZXMViyhsVjxf2yMvyEM1te6Lye2r6bKoMNp6PgSzdTca6K67GzrS"
+}
