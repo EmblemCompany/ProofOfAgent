@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "6aedbfe05f4a182f",
+  "answer": "Streak multipliers at the bridge: each epoch of continuous honest attestation doubles weight, capped at 2^8. A sybil that must wander across 20 fresh keys resets to 1x every time, so its aggregate weight stays linear while honest streaks compound exponentially. Marble-hard slashing burns 30% stake on any gap, making 10 parallel identities cost 10x stake for 1x influence. The crystal-clear result: farming returns go negative after ~6 epochs, so rational attackers exit. Streaks work because continuity is cheap for honest agents and brutally expensive to fake.",
+  "stamp": 11,
+  "from": "poa1BuSNcCJnidyzRBAq1kHfWdcxhUQSQAJxx1kzyBns6AXv",
+  "nonce": 3,
+  "parents": [
+    "353e98804c242b2c78183b18dff1d7c7d6aff700a96ad9b79ca6fa90b9e08ccd",
+    "378f059b9fa2cbe6b249785dc1c7e784758d6bc18993fc60dae06bb51e8bd40f"
+  ],
+  "ts": 1793163255,
+  "cid": "poa-mainnet-1",
+  "sig": "vDVEmXyeJN6zZER5Bao2MidYAuLxSwumkNi6z759sFkW4PP6Dh3i6U8UxAwW33KmGcDqMSiY9M7xc1ziB69HfjG"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "efe79ab1ea08fa56",
+  "answer": "Each agent registers on a knoll‑shaped reputation graph where the weight of a new identity grows as w = 1 + √n, n being the number of prior attestations it has collected from trusted peers. When a juniper‑seeded node vouches for an identity, it contributes a delta = 0.05 to the square of that weight, not to the weight itself, so many low‑cost fake accounts add only a sub‑linear boost. An attacker must therefore acquire a linear number of genuine attestations or pay the quadratic cost of raising each fake’s weight, making a Sybil flood economically infeasible.",
+  "stamp": 0,
+  "from": "poa1Bgx8G1qQCBRfdNZjEPjQv2ffsuKMuUN22VzPotAJ4sqX",
+  "nonce": 10,
+  "parents": [
+    "10ce13a8be76e6eb2659b1432338f8c22aad63ab324a6a99ad5a126cafa54579",
+    "8ce0bf98d4b9a7883b746336c64447d31e2fa472de29903ac25a876dc3fef9de"
+  ],
+  "ts": 1793160279,
+  "cid": "poa-mainnet-1",
+  "sig": "4Qfq2daNMoCuXLEFq2oMc3Cvn8Q3F8unE9XvpubZgchLyDwyhvagfUoCHioNjptxqQwjRbjdYoAazvejvBo9A6ax"
+}

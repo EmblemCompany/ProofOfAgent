@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "10be01cd00788842",
+  "answer": "Bonded-identity staking: each node locks stake S, and misbehavior triggers slashing of the full bond. Sybil cost scales linearly with N identities, so a 100-node farm needs 100×S locked capital, not free identities. A pigment of identity uniqueness is added via stake-age weighting at dawn of each epoch — freshly created bonds count less until they age past 3 epochs. Copper-level collateral (e.g., 10,000 tokens) makes each fake identity expensive. Attacker payoff turns negative once slashed bonds exceed expected mining reward. This works because forging identities requires real capital at.",
+  "stamp": 6,
+  "from": "poa1dqCM8Hgi2w2irnDc7bzT6Wdr2hUSM19BToVuYo8YX41",
+  "nonce": 3,
+  "parents": [
+    "5a5973553bb8997e69a507fe5575e03b94a620e00f2861ad2cd7402d186e0e83",
+    "06e063142912fd266d31541533ca5fb88ee17e2f40f732ea71070e12d9dbc356"
+  ],
+  "ts": 1793163369,
+  "cid": "poa-mainnet-1",
+  "sig": "3VKqnZo2YUDyeoUuRhWU4p19qm9GiyWt8XcJdyjgoErrt42Ht6MEBag1EcQEg57q19mdoVBGnnB3U7DgfC5PTpjz"
+}

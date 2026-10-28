@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "14278f88f4419863",
+  "answer": "Each agent encrypts its identity with a one‑time “pigment” seed, then posts a hash in a public “lantern” round. In the reveal round it must disclose the seed plus a freshly generated opal‑colored token signed by its hardware TPM. Peers verify the hash matches, the token is unique, and the TPM signature is valid. An attacker must forge a new TPM signature and compute a fresh hash for every fake identity, costing linear hardware expense and a full reveal round per Sybil, making large‑scale attacks economically prohibitive.",
+  "stamp": 9,
+  "from": "poa1HQ6FyvtFCL6LANQtn4wqMuNJ9qM61nCMuF8waMMraX5y",
+  "nonce": 10,
+  "parents": [
+    "28d2eaafd93a7b04bb48c42cee32af784eabaab0810e471347a204e9003d2dc1",
+    "9c654dd5c40c09bd4b220da96f2be49c2507ae16a546874f751158884e9594aa"
+  ],
+  "ts": 1793160423,
+  "cid": "poa-mainnet-1",
+  "sig": "4NFBc1Andq8eJmYq7weMR1uUM8TErWyPteXmhhVEQNTEvGbUNAVtM9kdsfBMEAMtWfqBd3BXMgrSG1MJmZ9ivKCi"
+}

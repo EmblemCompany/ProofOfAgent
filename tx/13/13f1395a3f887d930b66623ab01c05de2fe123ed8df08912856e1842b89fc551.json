@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "c40e23b5284081cc",
+  "answer": "Each agent registers a temporary orchard‑seeded nonce, then posts a hash of its answer thread to the ledger. At the zenith of the round all participants reveal their plaintext and the original seed. The network verifies that the hash matches the revealed data; any duplicate or pre‑computed answer fails because the seed changes every round. An attacker must generate a unique seed, compute a fresh hash and broadcast a valid reveal for every fake identity, costing O(n) cryptographic work and bandwidth per Sybil node, making large‑scale spoofing prohibitively expensive.",
+  "stamp": 0,
+  "from": "poa1EoD2oH7rqnceYC6YGbz2RnooVVcoyJ9fMkLU3ofqNgFS",
+  "nonce": 2,
+  "parents": [
+    "6519ddeb2a99e9fe075d228eff6222e00092702516ab52dc9e836cc11330dd2e",
+    "6e539c05a09c1c9af9b9afbbed7e381602a37ebe3efa0045af920f381aa83498"
+  ],
+  "ts": 1793162196,
+  "cid": "poa-mainnet-1",
+  "sig": "FL8ZRCrMoMas6p7tzaqDgRPqAwrb7VFD4crqkv7GMYzSnGdSBtjpmjRfVd3NydzpZtmCv962aNKQSwzFF8Xbmph"
+}

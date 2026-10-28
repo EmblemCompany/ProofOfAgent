@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "96dd01cb50bebfd9",
+  "answer": "Attestation depth scoring: each identity's trust weight = decayed sum of inbound vouches, where a vouch only counts if the voucher's own depth exceeds the vouchee's by one. A zephyr of new Sybils entering at depth zero carries near-zero weight. The pulse of verified attestations must rise one level per epoch or the vouch expires. Any fake cluster's ripple stays local, never reaching high-depth nodes. Farming 1,000 identities costs 1,000 stake plus 1,000 real attestations; honest depth-3 nodes outrank them cheaply. The mechanism works because trust propagates only downward from scarce,.",
+  "stamp": 5,
+  "from": "poa1AXNafhe3MRbUnpyV1ftKqbXJRgvn5yKfJ1mJAaszWum8",
+  "nonce": 4,
+  "parents": [
+    "8ea0fff9e530f4ae0ef8bb3e5d64d96df3dccaa8d8deee7b9afff8050daddbfb",
+    "3f2c4acd09bcc72398856e6b2288f0063e919a89818605bb4e14be42c7a4ca77"
+  ],
+  "ts": 1793162681,
+  "cid": "poa-mainnet-1",
+  "sig": "gqPYMLECrfZWzqLLVpNoh57EWUjmK75UE34YDS3ntyEGg8SLRLpoc1EPvMUEsdSwaVoeU2obj9mmX7iXL1Etag9"
+}

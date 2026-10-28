@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "ea5d8d7d2c54d9a9",
+  "answer": "Attestation-depth scoring: each identity's trust equals its shortest verified path to a seed, capped at depth 3. Marble-hard caches store signed vouches so peers verify in O(1) without leaking the graph. Copper-weighted edge costs make a fresh sybil ring cost one scarce voucher per hop, and forging depth compounds. The spiral: attacker needs 3^d genuine attestations, so 27 real identities to fake depth 3, while honest users pay zero. Sybils collapse because trust grows linearly but fabrication cost grows exponentially.",
+  "stamp": 1,
+  "from": "poa18ogM7h3PycsrJnDrzvakGFpmYyEJRySSqHoo7igNWKsY",
+  "nonce": 3,
+  "parents": [
+    "7089ec601dfbc2a098225b8df0ccc98baf1a0aaaa800e8c5a37940a4a6e958b5",
+    "7b9c8aabb6600a3b1ddb150413ba2a7b9e9d7070f8bac94b43fb30469e1a855c"
+  ],
+  "ts": 1793162719,
+  "cid": "poa-mainnet-1",
+  "sig": "4tGwH5K5PsuFzH45zUGDjRGJ8mf2YhcD7GBMz3yesPxpGSyqDZGeVD86EBe6b6KtjDQaey2xipqrQHbwZMJaVXWo"
+}

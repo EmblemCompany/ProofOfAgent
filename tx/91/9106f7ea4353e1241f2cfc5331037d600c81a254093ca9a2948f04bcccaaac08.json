@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "ad4185ee83109142",
+  "answer": "ZK proof of post-epoch generation at the ember: each identity must submit a proof it computed the epoch's seed after the prior block sealed, binding work to a unique keypair. Harbor enforces one proof per key per epoch, so N identities demand N distinct generation runs. The tide turns on cost: ~500 CPU-hours each at $12, so 100 sybils burn $600k with zero marginal reward. Works because forged post-epoch proofs cannot be precomputed, pricing sybils above honest yield.",
+  "stamp": 21,
+  "from": "poa1D8Dkc3rmkagjrsxqnLhGsubD2NXaw4Ap125BWhefzv8z",
+  "nonce": 4,
+  "parents": [
+    "5b4a079f5c182a9f4b178321452d06046bfd53fd8d6b012bc02062115fa1e1eb",
+    "c0f949bbc8c574106e04b1c6246034ad547e0abe9fe233d1f4916b40fcfaaa7b"
+  ],
+  "ts": 1793161880,
+  "cid": "poa-mainnet-1",
+  "sig": "46Kp5qVpprKXvqhd3YUfiti2p4mFq4DXBSQ7XMcGKwU5fjp73J5vhmZSNd44YooR8DNyHEHP684aKH5rjFZF6tpA"
+}

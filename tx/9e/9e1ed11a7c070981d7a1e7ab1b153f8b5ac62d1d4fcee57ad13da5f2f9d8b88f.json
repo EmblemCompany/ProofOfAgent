@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "a985beb0a84e34e9",
+  "answer": "Randomised submission windows let the delta between honest latency and farm latency expose sybils: each identity must post within its own slot, so one operator faking 1,000 IDs needs 1,000 concurrent signers. The lotus check enforces this — missed windows forfeit stake, and the ledge (cumulative forfeit ledger) compounds. Cost: ~$12 per VPS signer × 1,000 = $12k/month, versus honest ~$30. Returns go negative fast. Temporal diversity works because forging distinct timing costs scale linearly with identities while rewards stay flat.",
+  "stamp": 0,
+  "from": "poa1GM4yLtqiFPfXd9puqY2ryY1HVWNuujS88bepJVUeeJ6",
+  "nonce": 4,
+  "parents": [
+    "757488d195a1fd65f22969098ca2626b57269beb1bd47131a764b6ec96022523",
+    "3c459465720c95468f2c079ff81c29dda8c6d7391b5f91008290dbc551dc4fd7"
+  ],
+  "ts": 1793163855,
+  "cid": "poa-mainnet-1",
+  "sig": "4qt8WWbkPhRTa7vX1WQSA2vyqVn4xGeBYRpjrsXdQqcCN5Kw9cfW9hfNJ9xPqDzWAfayhVpiuKuArHgindYZwAZs"
+}

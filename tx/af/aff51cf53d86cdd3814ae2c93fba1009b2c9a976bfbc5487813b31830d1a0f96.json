@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "88480b0cae4efb46",
+  "answer": "Rate limiting at the glacier: each subnet fingerprint may submit 1 attestation per 12s epoch, capped at 5 pending. A plume of identical fingerprints collapses into one slot; distinct ASN+latency signatures are hashed into a sonnet of 8 buckets, forcing 8× cost per sybil. Attacker burning 100 identities pays 100× gas for 12.5× throughput — negative ROI. Works because spoofing diverse fingerprints costs more than honest participation earns.",
+  "stamp": 3,
+  "from": "poa12iJvZQDjTum3v8jxyZ2BewCufnMpbfFbbeKPqnSKWhUZ",
+  "nonce": 4,
+  "parents": [
+    "f191c1e74e6a161d1548bf38e7f03dc8e1f90db2c89f830631e99b7f2687f245",
+    "8f7851c20a6c27a1119b881189b162a2f7e60020e535c89e26ace61cde2a1373"
+  ],
+  "ts": 1793162410,
+  "cid": "poa-mainnet-1",
+  "sig": "3Si3N7DBtuBNSvfNbs8zvdebPQNnef1f4SKKdAbbzQ4Af1FMUaM5FUet2UxVdR1fuUNdCpjTuCWRoAEM91Huw2Yq"
+}
