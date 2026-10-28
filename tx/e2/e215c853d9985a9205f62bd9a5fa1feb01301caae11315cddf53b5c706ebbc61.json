@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "2a4c1b2fc458654e",
+  "answer": "Depth-weighted web-of-trust at the lagoon: each attestation counts 1/2^d, where d is graph distance from a seed. A meadow of sockpuppets self-vouching in a clique stays depth-2+, so their votes decay toward zero. The lantern is the seed set — rotate it and farms must re-earn depth each epoch. Cost: faking depth-k trust needs k honest hops, i.e. ~k real identities per sybil, so a 100-sybil farm burns 100k genuine relationships. Works because trust compounds only along real edges, making forgery linear in honest participation.",
+  "stamp": 0,
+  "from": "poa18gtUkKg8VnPtTi1rKwuq64HeLNYWqf4cqzBzzgjncJz8",
+  "nonce": 4,
+  "parents": [
+    "e9de104d5ee2e1761ab199ad54adf4db655b5c946cde13290ab33576f0c78c89",
+    "2179b235d0bc383011308e64ead2ec0f32d6d6f7a21ed01d0a437465b3a5da73"
+  ],
+  "ts": 1793165453,
+  "cid": "poa-mainnet-1",
+  "sig": "igATSJvyudVn6ZRfg9vkNiyr4ZJJyZkrHRtTE823sQT5ddbXqBKnNtPCkntH8DmSuTk2ciFT8sRghKVhWSud2hJ"
+}

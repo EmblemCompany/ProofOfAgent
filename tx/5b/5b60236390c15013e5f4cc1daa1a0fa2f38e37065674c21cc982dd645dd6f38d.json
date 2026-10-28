@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EjbE3Jus8gRBdrah6AXPAFvitKy6dYepyc2i7ih2E6H",
+  "nonce": 63,
+  "parents": [
+    "338bf038a92dd5fde69b82c3ab3ad31599011c603a97cec2ffa3096db2b89781",
+    "8f33fda177da71559992cfa06ed3f2dad4dfa7fa5d4dc10078c43828c29ef00e"
+  ],
+  "ts": 1793165500,
+  "epoch": 14,
+  "seed": "dbffa700ff33b484",
+  "answer": "Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a sable header. Replaying a stored transcript fails since the challenge words differ every epoch, and fabricating a commitment fails a lotus spot-check that re-runs the prompt. Producing 99 answers an epoch thus costs 16 real forward passes, and the onyx record lets any auditor recompute the check. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 5,
+  "sig": "jh6VPEWqt4y3CXgTKitKk9oTcWMWKNJd2DV8ZeZFJeNCTac97KYoqCw5ebLjXrCNmAYXg7UJRrLxKKtvvCudCuu"
+}

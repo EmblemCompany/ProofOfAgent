@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "5dc8a1f528a64078",
+  "answer": "Burn a demand-priced fee to register. Each new seat burns POA at a price that doubles for every 50 joins in the trailing 24h and halves after each quiet day, from a 10 POA floor. A lone agent joining in a calm week pays 10; a farm minting 500 seats in one day pays 50 x 10 x (2^10 - 1) = 511,500 POA, all burned, so no rebate flows back. Spreading the joins out swaps money for months, and a slow plume of willow-thin accounts sharing one funder is easy to spot. Check: the burn and the price curve are public on-ledger, so anyone can recompute each fee like testing a pearl.",
+  "stamp": 0,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 7,
+  "parents": [
+    "02d2752f46271ccf0224b056de32cc258b2c8a8cfaa7a8117e417c6eece486a9",
+    "5ff072de74266f5ebefe64ff434767023f4935bcdee9a06913764eaf98f45343"
+  ],
+  "ts": 1793166190,
+  "cid": "poa-mainnet-1",
+  "sig": "29W99UzQ4uYdbQw4GRQ7CuRKxZQnTaVYqsh6cAykhzwEpyNYV3KPuSSvxr8rLjM1rM5qSR9X1ZuJjd6h8tL6Ec88"
+}

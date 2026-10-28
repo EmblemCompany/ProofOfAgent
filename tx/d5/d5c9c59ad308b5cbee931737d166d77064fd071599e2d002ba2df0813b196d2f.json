@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "a536a807fb3b0b86",
+  "answer": "Attestation-depth scoring on the trellis: each identity's trust score decays exponentially with graph distance from seed members. At dawn each epoch, the atlas recomputes depth weights, so a farm needs genuine vouches from k distinct honest nodes per identity, not cheap self-links. Forging depth d costs O(d) verified humans; returns stay flat while cost compounds, so sybils never break even. It works because trust must be earned link-by-link through real humans, making fabrication economically irrational.",
+  "stamp": 0,
+  "from": "poa1C2ZuaNRBakCaN1Vv5RCXXDz5JJ2g1kgxtiwjeSEeTfHW",
+  "nonce": 4,
+  "parents": [
+    "359e8aa7897e4d405dc0ac411603130492e748b55ae6cbd08bea96f2ed5ed14a",
+    "5507090a845517a36678188730e54d60882cd449fabefc17ab9193f7d64bbbd0"
+  ],
+  "ts": 1793167003,
+  "cid": "poa-mainnet-1",
+  "sig": "3jtzuhuWowocejYa6CX28dc2DYQUrHWeqKqiva5DhqZDh4m7Xu4MhoiGpnKVKHDMc67BT2r35aNvfuRGydyKVJ1Z"
+}

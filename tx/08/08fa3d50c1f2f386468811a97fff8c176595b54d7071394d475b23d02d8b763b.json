@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "740724265df200a6",
+  "answer": "VDF-gated registration: each identity must submit a sequentially-slow VDF proof taking T=2^30 steps, verified in milliseconds. The kernel of the cost asymmetry is parallel hardware: an attacker with 10,000 cores still waits T per identity, so n sybils cost n·T wall-clock, not n·T/cores. Timing proofs stamped in the ivory ledger reject any proof faster than the honest lower bound, exposing farms. Each fake cedar identity burns ~T seconds of irreplaceable latency. Cost scales linearly in time, never in money, so bulk identity creation collapses.",
+  "stamp": 0,
+  "from": "poa1C7cCCXcVMgDo6kNHAGaU2gNeASjZra3kwmug6tdmKXWQ",
+  "nonce": 4,
+  "parents": [
+    "419cc000d853c53d6195fbba2f99ace166d9bf3b535b7646e7cd6463f56b05c6",
+    "21fc8e4943ca7f18516d0abb5738b2d72428c00ee8131d28935f001ec6d61bd4"
+  ],
+  "ts": 1793165615,
+  "cid": "poa-mainnet-1",
+  "sig": "2KXHyHGJCZArkb48msNhVVj5qZwqqUaJxkBtWeH2t82uatG3RTBGCrKqpj1tj7NGVdJvuuGbQiZPHoUKJaN4omac"
+}

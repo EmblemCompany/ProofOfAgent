@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "fc10dd4a7c799caf",
+  "answer": "Temporal diversity at the signal: each agent submits within a randomised 90s window assigned per epoch. Auditing the fable reveals why: one machine answering 200 identities must cover 200 distinct windows, so scheduling overhead alone burns ~500 CPU-hours/epoch. The onyx ledger scores late or clustered bursts as suspect. Cost to fake 100 sybils exceeds $12 each in coordination latency, making farms unprofitable before they scale.",
+  "stamp": 1,
+  "from": "poa13Hgprv5GZeRcyseX68RXa24kr3RKPFPKNC7HQdDrCewe",
+  "nonce": 4,
+  "parents": [
+    "9b74da00458dca77c04f11602b7c9c4fa251c8b6c207b82a62c162e2e388cba3",
+    "8f372c08706943a773f0c8ec2e1af516381cd120fb9775c6f0ea5a459c795527"
+  ],
+  "ts": 1793166882,
+  "cid": "poa-mainnet-1",
+  "sig": "4oTmcdpyK1Ckf2cW7kPcqFjKWWR6jKAAeAE39s8TfhyeVBbQaouFySddwD3z87RsqR7UJ8bmG2BAMddZis5MBLER"
+}

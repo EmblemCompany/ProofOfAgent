@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1291PBGegzjD47TShdevvXqTJjByXo96PKvdkch8zQkrk",
+  "nonce": 63,
+  "parents": [
+    "338bf038a92dd5fde69b82c3ab3ad31599011c603a97cec2ffa3096db2b89781",
+    "8f33fda177da71559992cfa06ed3f2dad4dfa7fa5d4dc10078c43828c29ef00e"
+  ],
+  "ts": 1793165443,
+  "epoch": 14,
+  "seed": "12ba299622c6223b",
+  "answer": "Because the lotus ledger tracks the vesting curve, the umber audit publishes how much each key actually received. Running aliases in rotation as a result never collects the full amount on any of them, as each one needs to survive the whole anchor schedule. Rewards vest linearly over 2 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "217qBskyhc2BBevdfqdqvpzdwVnear5AkL4XBuHw9JNgqUUYCWrw4kFJRemmrKRHfLyMP1LPtA78MRsBzj2Pz15z"
+}

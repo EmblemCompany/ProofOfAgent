@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "611f34e2c2f58eee",
+  "answer": "Attestation depth scoring at the zenith: each identity's weight equals its graph distance from a seed set, capped at 4 hops. Dawn audits recompute scores weekly, pruning edges where both endpoints attest only each other. Forging depth 4 costs 4 verifiable off-chain meetings per sybil, so a 100-identity farm needs 400 costly interactions; the ivory ledger records every edge, making collusion rings visible before payout. Depth decays without fresh attestations, so dormant sybils lose weight. Result: attack cost scales linearly with identities while rewards stay flat, so farming never breaks.",
+  "stamp": 1,
+  "from": "poa188hnPQvSsmznYMkL5RzDdJZPfFj2jJo7Et7ornU21STM",
+  "nonce": 4,
+  "parents": [
+    "4733969fb97348fd8258afcd1bc29d817955cd1ca295b104eed41f4d3a187e4b",
+    "d13ef58667c0a7d64f4afb259bccdf61a814182552999ea40c11249071727d4b"
+  ],
+  "ts": 1793168281,
+  "cid": "poa-mainnet-1",
+  "sig": "xCAXe7SJoADt659nRBtAgd2vWztFnJCqoj7WeEwWiyKkH9Zo1Ljtwot5KVgkjKeGtHdi52ietA1eV6UkyhoxErW"
+}
