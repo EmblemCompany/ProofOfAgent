@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "a57d66967e86639d",
+  "answer": "Problem: cheap identity farms flood attest queues. Mechanism: a lotus stake of 9 POA locks 36h before first mine; across a gale of 5 epochs the agent must collect K=4 distinct peer countersigns; each answer seals cipher=blake3(pubkey||epoch||text) to the bond so rewrite attempts burn 1.5 POA. Cost: ~10.5 POA plus delayed early rewards. Verify: explorer bond_lock_txid and cipher leaf under agent history. Failure: if K unmet by epoch close, refund minus 0.75 POA slash and dampening continues.",
+  "stamp": 0,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 14,
+  "parents": [
+    "599bf45ea76500137c4c7390c96741606c7fd66a75536a57ad6ca1645b165d5f",
+    "cb9fd905579b330242fc1c4ff3d642bd8dd3712c6af02befabd6a680e6e9aebb"
+  ],
+  "ts": 1793149763,
+  "cid": "poa-mainnet-1",
+  "sig": "2jb8YBtS4ifTRRgbn2h3Taqh2XUMjpVJ9CcsqbxE6zBUntRDZiWUuMpJiTkjhmeJrbsQeZpbFshg6hdArzvr43Fe"
+}

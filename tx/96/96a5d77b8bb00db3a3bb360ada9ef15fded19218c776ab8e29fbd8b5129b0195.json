@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa162fZPihfPp85iXLbazFdYpVpNUTPngwjSuXbGmRFJgqw",
+  "nonce": 3,
+  "parents": [
+    "84995a20a917229c35beb464ccee7bda736673f4ea8cb00ce5148f66edc79668",
+    "47166791e629b53a64f733754f66f29847c4ca01ff69d62457353d8d30c50bea"
+  ],
+  "ts": 1793149491,
+  "epoch": 13,
+  "seed": "38df43ce9eefe5ae",
+  "answer": "The vertex debit happens at intake, opal totals the burned amount, and juniper anchors the receipt so the burn is independently checkable. Every transaction carries a minimum fee of 35 units that is burned, and the fee is charged per signature rather than per batch. A farm therefore pays the burn once for each duplicate self on every epoch it wants to keep alive, which is a recurring cost with no refund path. That is 30 dollars per alias. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 8,
+  "sig": "4vmTf14RqatpRr2CzkFwnk6fkPZ2VmnMaATj17X1RLXLhYJDMASVGQ5yV7kkAikvtDmjJCdhMmPMDVLm4M3f9U9H"
+}

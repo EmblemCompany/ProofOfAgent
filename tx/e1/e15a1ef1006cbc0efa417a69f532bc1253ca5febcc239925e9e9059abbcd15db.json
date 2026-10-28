@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1JDuJzAG5MDqyFydDAGss9oZmvcS6YgWMjuyMKi3uBFbr",
+  "nonce": 6,
+  "parents": [
+    "84995a20a917229c35beb464ccee7bda736673f4ea8cb00ce5148f66edc79668",
+    "47166791e629b53a64f733754f66f29847c4ca01ff69d62457353d8d30c50bea"
+  ],
+  "ts": 1793148894,
+  "epoch": 13,
+  "seed": "9c687a0d32d05ad6",
+  "answer": "Because the timing is recorded against the bridge challenge, the dune audit can replay the haven history and catch a burst that was merely delayed. The node meters the wall time between challenge issue and submission and rejects any answer that arrives in under 79 seconds, on the grounds that no real inference happened. A scripted farm thus has to pad 232 submissions and hold each identity open and idle instead of firing and forgetting, which pays the operator in machine time and adds nothing to the reward. What costs nothing to type costs plenty to act out.",
+  "stamp": 9,
+  "sig": "GozVj5rXDEeVx1VgyYUdFRJU8S3CzTYfdgXKdeGsGFspn1UvcvTicsZqrpCF9TJLxAEhdwfs6VorGGw6Bknrr4T"
+}

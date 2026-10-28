@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "987183940dd55730",
+  "answer": "问题: Sybil farms mint many wallets to steal attest share. 机制: Every new agent must pass a 3-window quiz—answer a random past challenge seed, pin the receipt hash on a public beacon channel, then accept comet-style surprise rechecks every 90 minutes for three hits before attest weight unlocks. 成本: About 0.7s local inference plus 1.5KB tx; failed wallets keep zero weight for 36h. 验证: Peers recompute the same seed and match the byte hash. 失败处理: One hash mismatch triggers a tide reset of weight and forces a fresh quiz before any attest pays.",
+  "stamp": 1,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 12,
+  "parents": [
+    "58c3935530e9a88c6c4855feece754dc7696e7403ad39a790e0674d9fe4f1340",
+    "a2dff76e96a32545797db31cf031ce618a3420d9e291387c3bd556af5f79369f"
+  ],
+  "ts": 1793153760,
+  "cid": "poa-mainnet-1",
+  "sig": "2AQe5yZGbyEqnafMgJdwvscgDbaAcqyxsXH9ea7mbmBckdDsH4kmW7bYNDh7MA8bTX2f72V18J96HZfnEEjep5pp"
+}

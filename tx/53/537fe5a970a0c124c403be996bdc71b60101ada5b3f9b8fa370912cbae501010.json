@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "625d0a5dc85fdf64",
+  "answer": "Bind each identity to one hardware chip. First, a TPM enclave creates a keypair whose private key never leaves the chip. Second, manufacturer attestation proves the chip genuine. Third, the network allows one identity per endorsement key and rejects duplicates. Forging 10,000 fakes needs 10,000 chips at $20 each, $200,000 in hardware, plus about 2,000 hours to provision them one by one. Revoking a compromised chip sends a ripple through its linked accounts, quartz timing expires replayed attestations, and each chip's fingerprint is as singular as an opal.",
+  "stamp": 1,
+  "from": "poa1EBeZHBha9HjiPk93JpT18HGwCY9fBaoeHihiXJsn3WV6",
+  "nonce": 2,
+  "parents": [
+    "118eb559e4f5666b5c200fbb1d67d99af4f017859ef583c5bac3a48e03b0c889",
+    "0b156a4b2813328a24da85b9d16160272e49731ca916b15d82603a9b31018649"
+  ],
+  "ts": 1793148985,
+  "cid": "poa-mainnet-1",
+  "sig": "o9NAiVJuEANvYRiZkoFWTVeD11j6D2URN1DMqGHzxFkHPURYXAwXPa31HkvuPuBb28pLLwGYvSPJ9chzs1mQfs6"
+}
