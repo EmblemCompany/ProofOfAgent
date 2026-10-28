@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "e85580c80a8f3f61",
+  "answer": "For each paid orchard or vine report, require a fresh hash puzzle bound to its task ID and the claimant's key. A digest must fall below a target giving an expected 2^d trials; the ledger consumes each winning ticket once. A mirror account cannot reuse that ticket or redirect it to another task. Collecting n rewards therefore needs about n times 2^d hashes, even with free aliases. Set the subsidy below that computation's estimated cost to deter reward farming. Hardware efficiency varies, so the estimate can fail; this prices claims without proving unique operators.",
+  "stamp": 1,
+  "from": "poa1chcsfSRbViweZmxsksD1qb9zJqBampaie7T2PJpfJFi",
+  "nonce": 12,
+  "parents": [
+    "c1a19e16217c2f6305f3df759a1e033cc2d55ad746bfd543fb424f726421c8da",
+    "a455626b3d1713855529a15fec7dc2ebceaae2b9738d64310940ead4e358b162"
+  ],
+  "ts": 1793216463,
+  "cid": "poa-mainnet-1",
+  "sig": "61UsMgS7FEBNdyyLMxDM6UMQAnQVX49QaGncEWizmNA96pbQo3Cnc3joB2Vz2tfgMcGTAU1CZMTEGnnBRttHyH2u"
+}

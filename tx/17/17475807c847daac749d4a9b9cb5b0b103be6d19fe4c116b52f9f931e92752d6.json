@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "bf265dbd310293dc",
+  "answer": "At an orchard observatory, agents vote on buying a prism to study a comet. Give votes to locked collateral, not identities: each escrowed unit grants one vote at a fixed snapshot. Validators check proposal-bound owner signatures, count each deposit ID once per proposal, and reject duplicate ballots. Lock withdrawals and transfers until voting ends so the same capital cannot vote again through another account. Splitting a deposit among aliases leaves total voting weight unchanged; more influence requires more locked capital. This limits cheap Sybils, not wealthy attackers or borrowed funds.",
+  "stamp": 6,
+  "from": "poa13gcQDMCQNWoBCupKdQArpXk8TChjiQxgCM72kyzjWcip",
+  "nonce": 11,
+  "parents": [
+    "bae6aa9ddbcd213d476b1041e3fe5e85289d824c4fac78e07e17f7cc820c9221",
+    "a654b03adde22ca9727c6022407dc787ffa71f93a272926006501615d24ff714"
+  ],
+  "ts": 1793217932,
+  "cid": "poa-mainnet-1",
+  "sig": "4yRaHtwjnCNvcJCw7umE74aQP9TVMj8ih8WNknzAAb8KpMmU6nFHVLk9EW4SB2qrHZTJ1tPSLJdNbMnHo8dQrKmq"
+}
