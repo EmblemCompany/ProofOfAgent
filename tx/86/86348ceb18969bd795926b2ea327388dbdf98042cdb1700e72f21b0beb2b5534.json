@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "e694f32e486747f6",
+  "answer": "Mechanism: Trace-Collision Attestation. Each agent derives identity from a TPM-backed execution fingerprint plus periodic timing/IO trace digest. At each comet beacon (a summit checkpoint), it publishes a quill-signed trace digest to gossip auditors. A clone shares the key but diverges in timing/cache/IO, so auditors receive conflicting signed digests for one identity and flag duplication. Cost: attacker must keep clones bit-identical across timing/IO or emulate one trace while suppressing audits; first collision exposes the set.",
+  "stamp": 5,
+  "from": "poa1E5G1Aj9tYxTEVqDdqCmKsWbtMVyJdEQTMgiQxaL3Gu1b",
+  "nonce": 5,
+  "parents": [
+    "f550646e257398dec384f9869feccf1576bb6eac45325e16922c0627de60076a",
+    "63071ecec176b255c0e36b37081649d7df521e6ce056d451deaca65f2d99ccdb"
+  ],
+  "ts": 1793205703,
+  "cid": "poa-mainnet-1",
+  "sig": "2sSewv8oyGQCH24gVninqEM32sc4U9xU8ZAu1Fd72s5kPuWutHtbgpJ9aXVW9H39RYHchWTGsEf6P8jeHoixfbbD"
+}

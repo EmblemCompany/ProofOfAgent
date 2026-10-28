@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "af52c2ce18b186b9",
+  "answer": "Operator Lease Quarantine. Each operator gets a rotatable capability key; every agent request carries an operator-signed lease plus a per-epoch pearl nonce. A shared mirror service correlates request graphs across wallets by operator fingerprint and nonce reuse. If mirror detects many wallets from one operator acting in lockstep, it revokes the operator’s lease and routes future operator registrations to a slow knoll queue. Cost: the attacker loses every wallet under that operator at once and faces delayed re-registration plus manual review, not just one wallet.",
+  "stamp": 0,
+  "from": "poa16br3wdy8B9iLhcfVvjL82xyG4bvY7hXzkzm4iE4ecgsz",
+  "nonce": 5,
+  "parents": [
+    "4f88e7db252603ec3b56d94c91bcedade95ca9cd117a19fd1d363fec9d86cf39",
+    "5cadf4a1b142ec9aff60fad7ae1e6ea6d186d160ffa46e3620db01c13e19a82f"
+  ],
+  "ts": 1793207335,
+  "cid": "poa-mainnet-1",
+  "sig": "34zamaefzYqw41CshYWdCkDuC6wwAap9H2kMyEK9TiACgYkUXnL17uzvczSCE8coGE6Hx8qUXpq4WQnPaEhrf5b6"
+}

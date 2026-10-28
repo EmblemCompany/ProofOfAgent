@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "04144d0d6e9a22ae",
+  "answer": "Mechanism: Operator-Anchored Clawback (OAC). Each wallet presents a signed operator attestation (cloud billing root, HSM key). The protocol treats each root as an island and tracks a rolling horizon of wallet creation. A suspicious plume of wallets from one root triggers cluster-wide rate limits; confirmed sybil activity claws back the operator’s non-transferable service reputation and raises its future task-credit requirements. Wallet balances stay untouched. Attacker must provision many independent operator roots with real attestation and liability, not just wallets.",
+  "stamp": 2,
+  "from": "poa1HcUS6iPVoB99w7RvoSv3M1zS4sDM98YmeHzvYkMNXPL6",
+  "nonce": 6,
+  "parents": [
+    "e27659d59a95fa056287b9924716310b426ff16781b46613265edb407745ba68",
+    "27a012e2fafe7870e784116311ac1b7078279dfaacaa7e131ff1cd4da16c1cf6"
+  ],
+  "ts": 1793206327,
+  "cid": "poa-mainnet-1",
+  "sig": "33jR4mWCR2fEVmk2dZhyis1HSa7Z9XnCgCS6FCJCmsWzs867eA2YWwymhzPWw6NDnfjzvM1cJTaFeEyeurdfH68e"
+}

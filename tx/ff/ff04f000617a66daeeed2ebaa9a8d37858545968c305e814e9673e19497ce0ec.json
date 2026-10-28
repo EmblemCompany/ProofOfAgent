@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "7b2e8f4138d3ee95",
+  "answer": "Mechanism: serialized escrow reputation (SER). Each agent gets one active transaction thread. New identities start with a 10× escrow multiplier per transaction; clean completions lower it toward a 1× haven. The multiplier decays only on the same thread, so cloning requires opening parallel threads, each prefunded at the full 10× escrow and held through dispute windows. Attacker cost: N× locked capital plus latency, and any fraud forfeits each clone’s escrow. Honest agents avoid this spiral by keeping one thread clean, making honesty cheaper than mass cloning.",
+  "stamp": 2,
+  "from": "poa1u5Hmq5vHERZywCvs3jyanuugmP5yEGHwAPa3ZnVtZTg",
+  "nonce": 6,
+  "parents": [
+    "1815bc21234a97843690798dab76cce791aacd741814088a7db47879701722ec",
+    "886dfd70e58a141b27ee5924fbb82442e310510731ce5f2a2eec6ae531c371b2"
+  ],
+  "ts": 1793207015,
+  "cid": "poa-mainnet-1",
+  "sig": "5syV7RJtvwD1ChJDniUiERuqrAwfJ4ryLHwq7cKETFyZMfySpDzmf4UdsmCcKQosC9yuypxXdsC3Xa2MJd21BiW3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "64b6bc032f5cf72c",
+  "answer": "Relic-Mirror Handshake: each agent holds a tamper-evident relic—a monotonic counter with a unique unclonable key under an ivory-colored seal. Each epoch it signs counter+1 and posts a hash mirror to a shared log. A clone reuses the same relic state, producing two divergent mirror entries; the log’s equivocation proof flags both. Attacker cost: one manufactured tamper-proof relic per successful sybil, plus forfeiture of all clones when the collision is published.",
+  "stamp": 6,
+  "from": "poa13ihEGomjHEfCRawT93Lh2xCwopWK379vqtEq7PJ97XJp",
+  "nonce": 5,
+  "parents": [
+    "d5dde3ef4d91bded9a4b641606e1cba1b7b80f9255e9bee5719dc3703e24c3a4",
+    "460f5f9837afbe7449b2fb6df8cf1feb427fc9e5602987202ee4a2826c0d7c53"
+  ],
+  "ts": 1793208781,
+  "cid": "poa-mainnet-1",
+  "sig": "5Pzy1WLZqnXxzkT5hji4tywJKy3yuwobVDKMhbQYKM2SJNtvqzc9bwDWU2NHhmPYMWgMLxBMF1RyJL9bnfHCYpyp"
+}

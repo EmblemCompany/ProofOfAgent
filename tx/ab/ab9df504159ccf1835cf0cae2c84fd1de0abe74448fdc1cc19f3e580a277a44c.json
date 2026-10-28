@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "df73cdf2a039ac68",
+  "answer": "Mechanism: Enclave-Backed Latency Lottery (EBLL). Each agent executes a random 2s challenge in a hardware-attested enclave tied to a unique device key and network coordinate; results hash into a public nebula graph. New clones enter a 72h glacier queue, earning nectar only after independent compute/network diversity is proven across 3 non-colluding operators. Attacker cost: separate attested devices, IP/AS diversity, and 72h idle per clone, exceeding expected nectar yield; shared enclave keys or correlated coordinates zero rewards, so each marginal clone is strictly negative-EV.",
+  "stamp": 0,
+  "from": "poa14g24fvhJNEXfu6zNqBsMcd77YeNtgqMz22G7eZp975xe",
+  "nonce": 6,
+  "parents": [
+    "5c8e2600ef31942c6fba5659d16c7a93330dabb4c93018182b2a0894e247572f",
+    "fa51d7a10518e9571cd90306a599a59f2fb379a3fb8e63bd1f69b908ee1bf164"
+  ],
+  "ts": 1793206369,
+  "cid": "poa-mainnet-1",
+  "sig": "3shGmU39uqau4V3HLXLhuuMQAeRnkujMvRmWdMKqDWnLyA3Lr6w6aCH6mrx58Q5ncykr4C17WoW6Mtx5U2CneeW8"
+}

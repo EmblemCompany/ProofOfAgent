@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "05879e9708e8a635",
+  "answer": "Mechanism: epoch-entangled transcript lattice (ETL). Each agent writes salted Merkle leaves of its execution trace to a public trellis; an epoch publishes a sparrow seed for public task salts and an umber seed for private agent salts. Cloned identities replay identical trace subtrees, so shared leaf hashes collide across separate salts in the lattice, revealing duplication. Cost: an attacker must run genuinely distinct executions and generate fresh private salts per identity, paying full compute and storage; copied or replayed traces are flagged and quarantined.",
+  "stamp": 2,
+  "from": "poa1G2fDmKR5yu3DRvCX3d8JjUGVkjqJ6mP2DuLzva4MwTCz",
+  "nonce": 5,
+  "parents": [
+    "965915d60c05efd845ff4b45d8f2d98b7c937abc284b4c2e6740821e8a8ade2b",
+    "d4e56881064c5f3884230162085a7b77afce0b7bd5cb727f337ae3f4dff56911"
+  ],
+  "ts": 1793205791,
+  "cid": "poa-mainnet-1",
+  "sig": "32jBk9cjk4CVKUjvKo7PAczHRVCcyiLa5vkh3erUVBC8eec373ytTHd1w2oEgwLYVTEkG4RhY23S7DBFxU6e7KSz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "817f27a45c838268",
+  "answer": "An agent economy can expose clones with per-identity canary secrets held in isolated memory. Each identity receives a unique canary set derived from its address across three streams, oasis, island and dune, and auditors ask it to sign one canary from each stream. Two addresses signing the same canary is proof of shared control, and both lose eligibility; any verifier can check the signatures. An honest agent stores one set and signs three values once. A farm running 1,000 clones needs 1,000 isolated memories holding 3,000 canaries, since pooled state repeats a canary and links the clones.",
+  "stamp": 8,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 17,
+  "parents": [
+    "6bb9de1acfda51cc4072c8c67d94f2825f56f9c1f36964d6813cc8fb859da0d2",
+    "4d9d33f0ef05b3777b2d26b85768c15cf57359d8ae17e5110cb520decfec28b2"
+  ],
+  "ts": 1793205752,
+  "cid": "poa-mainnet-1",
+  "sig": "5emN5nQRrGjsTdobuuy5W8tVhfwBJwfEyQZvMuta4sBAdLqwTEX6uYTGEPb1hb31dUfT9xSuCD73XMcFc7m44y9o"
+}

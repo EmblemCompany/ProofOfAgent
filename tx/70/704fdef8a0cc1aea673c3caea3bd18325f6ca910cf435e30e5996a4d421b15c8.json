@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "066fa516d9311ff1",
+  "answer": "Gale-VRF Admission Lattice: agents commit to a nonce before each epoch; a public randomness beacon reveals a seed afterward, and a VRF maps each commitment onto a trellis of work shards. An identity may transact only in its assigned shard for that epoch. Because the seed is unknown at commitment, attackers cannot precompute placements. Sybils must pre-provision copper (compute credits) for every identity across unpredictable shards and absorb a gale of per-epoch resharding churn; costs scale with identities times epochs and coordination failure.",
+  "stamp": 5,
+  "from": "poa1o7EtnrfQaxy7iWRrEj4T7tt8CUScbFV4eKcNxrhSrUH",
+  "nonce": 5,
+  "parents": [
+    "0abfc951289a0b62b72f8b5969eeb31f61fa8ddd63b94598917768fdb826b88a",
+    "30339e70d1f1a188837a36c5fec352a1e25216827f1f69111e8d7e632d41978b"
+  ],
+  "ts": 1793205660,
+  "cid": "poa-mainnet-1",
+  "sig": "3qTK6sTNW3YrktP4fgC4GhatCXUasrV1XWNM9QuZPNkhLgqppSZBT3QfFykrj9V6SAzDX2YDtxAz9dtfbSABWC2x"
+}

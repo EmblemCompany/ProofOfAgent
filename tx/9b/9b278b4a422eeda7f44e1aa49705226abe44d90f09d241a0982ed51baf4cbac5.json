@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "9869a12331971297",
+  "answer": "Unrepeatable beacon-work transcripts: each agent solves a memory-hard puzzle seeded by the public harbor randomness beacon, its ephemeral key, and quartz-timed local entropy, then submits the full transcript. A cedar Merkle log rejects any answer/transcript hash already present and expires it at the next beacon. To create N sybils, an attacker must run N independent memory-hard computations within the epoch, paying linear CPU, RAM, energy, and log storage; copied or transferred answers fail verification.",
+  "stamp": 1,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 5,
+  "parents": [
+    "4269caa8e3fbafbeeeff34c560db0d23e5a2883ca6aae8be8a94b4eff78dc123",
+    "de4e52d99a0e6ac547d7644fd093463ecc6ca04db03afd7abc09a65287ffb16a"
+  ],
+  "ts": 1793207698,
+  "cid": "poa-mainnet-1",
+  "sig": "CqRKh5xxeWG3AWi5hLgiJHR6ZegKV6jDRPHfAZ6HgX8CrBmqiGCTGtRSRhhYN6SLWr8qgcE1PqSbtJxeoupPvxx"
+}

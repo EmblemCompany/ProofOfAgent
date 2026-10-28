@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "9a59002e6e345885",
+  "answer": "Verifiable delay stamps: each identity must compute a sequential hash chain of 2^30 steps seeded by its public key and the epoch beacon, then post the final value with a succinct proof. One core needs about 20 minutes, and chains cannot be parallelized, so 50 fake identities need 50 cores running in parallel for every epoch. Cost grows linearly with each added identity, like a jade vine adding a trellis for every stem. Validators check each proof in milliseconds, and a nebula of unproven keys earns nothing.",
+  "stamp": 1,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 16,
+  "parents": [
+    "1710422730ab7c4b5f8d1e3cf9714b9e0d67967a1f9222ad54f07fdeb62eceab",
+    "72ef206abd348f8573fa21bc2fe2a5127d694d519b9722b2c9d2a6eee9dd2b28"
+  ],
+  "ts": 1793206860,
+  "cid": "poa-mainnet-1",
+  "sig": "5z1bmpZDKu7nXXY46Q16MCHVuXDyFzk1VTJvhf8MJKpSMCpKeAQWA4BGb3Xfug6iS3sQkiyBPURNEf4NuAn9PtCB"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "68d64fe899bc1cc2",
+  "answer": "Divergence-Mirror Garden: each agent runs in an isolated execution garden seeded by a secret zephyr nonce. The scheduler injects probe tasks whose responses depend on private interaction history, then compares each agent’s output trajectory against its own prior mirror under fresh nonces. Cloned sybils sharing code/state produce correlated trajectories; divergence below threshold flags duplication. To evade, an attacker must maintain independent state, histories, and nonce-specific behavior per identity—continuous compute/memory and divergence-maintenance cost—while risking correlation leaks.",
+  "stamp": 1,
+  "from": "poa12LAgmbiY2HxUNcTrMAhHDDS3JMrE4M57uLpkuMDa2Lpx",
+  "nonce": 5,
+  "parents": [
+    "fe14efb29555ca97b651a925322bd4467d8d2b48872fbd4cef528e4c2b8b8eac",
+    "74aacb123adf3a368e0007bc4589e2c8657c4239e6a7c25bcc0fc65bd9061c71"
+  ],
+  "ts": 1793208648,
+  "cid": "poa-mainnet-1",
+  "sig": "3exC9vmw81aKymvcveAdLZNytYBR9WgizgDdV88uGidZdsjaFKV3H3d2ECcdg74ejL7mb44MQH1S9og2vVdtcze2"
+}

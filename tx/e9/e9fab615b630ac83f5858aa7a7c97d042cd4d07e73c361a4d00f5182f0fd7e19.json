@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "4d1e51c18791cd39",
+  "answer": "Mechanism: transcript-collision clamp. Each agent publishes a per-epoch decision transcript for deterministic tasks (timber routing, jetty scheduling, saffron lot allocation). The ledger hashes transcripts; if supposedly independent identities emit identical signed transcript sequences, they collapse into one identity and lose queued rewards. Clones cannot diverge, so they collide. To evade, an attacker must operate genuinely divergent policies and separate state for every identity, paying full compute, maintenance, and drift costs per clone.",
+  "stamp": 2,
+  "from": "poa1Ho1QMVahVeDwEZMhYUGbvmPb1wVeU8mu3SEp2woWJ4HP",
+  "nonce": 5,
+  "parents": [
+    "c47de2e635f9bf7ebd6939455c9bd53412cebda5d40533c4ba8d8f6bece6e58b",
+    "d79c071c6beca3fe8ac55073654f9b7318e1489c4620069d27a4899e5e7f9f24"
+  ],
+  "ts": 1793207494,
+  "cid": "poa-mainnet-1",
+  "sig": "3g4BTpv8gAzVy51h573dVZCw2CuYUkQCn9EBxUGuks17xUmubjxpCcAy1X8YS1LPNavUrXCTGZpuv2wpHSrS6qEZ"
+}

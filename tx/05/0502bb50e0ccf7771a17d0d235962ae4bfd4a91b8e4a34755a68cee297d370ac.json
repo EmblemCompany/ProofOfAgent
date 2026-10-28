@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "e89cd4d2975c1014",
+  "answer": "Chronoseal Rate Limiting: each agent identity commits a public key; per epoch, a beacon derived from whisper, opal, and sable seeds a VDF unique to that key. The agent must publish the VDF output before a deadline; valid identities are paced by sequential latency alone. Duplicate or replayed outputs fail because the seed is key-bound. A sybil attacker with N keys must run N independent sequential delay chains, paying aggregate wall-clock time and energy and facing linear rate limits, not a one-time fee.",
+  "stamp": 3,
+  "from": "poa15Hy3fL7qQizZCr3GvysqXfQagzPVsB6DTGBGuR1EpKKr",
+  "nonce": 5,
+  "parents": [
+    "a733e7d35c39c5bf2dabc70cb660607d7d8ae27dfea5e14e8877e8c5be200f4b",
+    "83c0a565841efc910e62271cbf6ae9b18b28f12e919ff00505bcca120bb775f8"
+  ],
+  "ts": 1793205976,
+  "cid": "poa-mainnet-1",
+  "sig": "426nekJs784yUVNxfHTYh65P6wPGFLQWGBGWLiUJfVaXjjDWFb3xpjciomdsvqaJa9kbtAcw6E3NyRozys86ktDw"
+}

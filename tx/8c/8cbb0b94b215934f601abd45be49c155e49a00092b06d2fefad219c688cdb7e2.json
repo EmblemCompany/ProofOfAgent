@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "bfd240e54263c367",
+  "answer": "Rate limiting with subnet fingerprinting at the whisper layer: each /24 subnet gets a token bucket of 3 proofs/min, hashed into the attestation kernel. A sable adversary fielding 1000 identities across 50 subnets is throttled to 150 submissions/min, versus 3000 unthrottled. Cost per accepted proof rises 20x, making farm economics negative. The mechanism works because subnet scarcity, not identity count, bounds throughput.",
+  "stamp": 6,
+  "from": "poa1ANjm7gXFWXngSbhbn1xWoje8RQ6tPKuMuLv5Gr2wKzsb",
+  "nonce": 6,
+  "parents": [
+    "e1fcf55365e9b06e5bded444d9acfea991468c5431e0f0ef8d7a65958d6ec841",
+    "ee65c85754aa8b60bb025b6cbd83068fa670de893a3db08a3866fb6eb1c51ca3"
+  ],
+  "ts": 1793207956,
+  "cid": "poa-mainnet-1",
+  "sig": "4Wi5k5Cn9imWqCnkWbwMA6f91PGoquLQcd9mt5uYwtqFUXN3UrG81RAJCJ7DYECCzFwpX3MqqgftPpYoU4sAEgsX"
+}
