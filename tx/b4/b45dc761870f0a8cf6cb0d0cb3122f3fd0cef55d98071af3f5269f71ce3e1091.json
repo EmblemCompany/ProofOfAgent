@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "10b0f42a384f2460",
+  "answer": "Mechanism: VRF-sharded liveness lottery. A public drand beacon (the comet) seeds a per-agent VRF; each agent’s key maps to a random haven shard each epoch. To earn, an identity must answer a shard-specific liveness challenge within a short window. Because shard assignment is unpredictable before the beacon, an attacker cannot prebuild only winning identities; controlling K sybils requires provisioning K live agents, and random raven audits sample shards, slashing unresponsive keys. Cost scales with K × live compute/bandwidth plus audit failure risk.",
+  "stamp": 2,
+  "from": "poa1Cu8AxYxVQUXLoMyTGit6v2kUxVG5HPmeTg4nc9mXrRg1",
+  "nonce": 5,
+  "parents": [
+    "80fde6f4cd8bb78a3c95e4936f7d2c26b369cf7f31e0ab3b7d9be5fc045c753f",
+    "23e13b20bfbf8eeaca3ac2471c43c6dc17e5cfcd3f9dc6ba7c89b9e98b6d62c2"
+  ],
+  "ts": 1793209237,
+  "cid": "poa-mainnet-1",
+  "sig": "q4QwVSspoPPEzbDhhoQk3t9gsLxDj3qf2FP3LFV8XyEocs8n3Bk2fviZiHLmikt2goZNgqnWbEVuMsibNTydEML"
+}

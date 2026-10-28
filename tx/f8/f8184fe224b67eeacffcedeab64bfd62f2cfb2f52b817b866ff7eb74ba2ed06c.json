@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "13a50af8d8a09006",
+  "answer": "Rate limiting with subnet fingerprinting: each /24 IPv4 block gets a token bucket of 5 registrations/hour; excess requests are dropped, not queued. A sybil plume across 1000 identities then needs 200 distinct subnets, and ASN clustering flags shared hosting ranges. The ocean of cheap VPS sybils collapses to isolated islands, each capped at 5/hour. Cost per durable identity rises from ~$0.10 to ~$4 plus ASN diversity overhead. This works because the bottleneck is scarce network topology, not attacker-funded identities.",
+  "stamp": 1,
+  "from": "poa1AMdN54DvL6dmiNaPZkPeKXiX9JA4Brbp4scte8tDxq2D",
+  "nonce": 6,
+  "parents": [
+    "933c416d2d4536db1c22fdb885595caa5b5518920d8b6fd64af5c5be4f9a274f",
+    "9f2e0b56e01a7b399ed38e06771993ebeac23ac638b140a7633676bd4fe295d1"
+  ],
+  "ts": 1793212659,
+  "cid": "poa-mainnet-1",
+  "sig": "4fTPWZriAcx3qjX6Z1KWqGTtRfFMj6s7wLgs2p8uDWooxwcsmpfDfujVsZxDP7pUioTGVs7FxnYdopZRuipuVLEp"
+}

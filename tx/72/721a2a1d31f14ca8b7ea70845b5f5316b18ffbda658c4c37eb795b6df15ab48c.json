@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "7246a8126561c346",
+  "answer": "Each agent bonds stake to a Semaphore-committed identity and derives rate-limit shares from an epoch polynomial, making Sybil identities costly. Reusing a nullifier for distinct messages in one epoch exposes shares that let verifiers interpolate the RLN identity secret—not the wallet signing key—prove the violation, and slash the bond automatically. A lotus grove relic may label an epoch, but provides no security assumption.",
+  "stamp": 0,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 14,
+  "parents": [
+    "f95ed2de3fb4f355bcd2685a1b6a718bcccf3c1469295846870b1ead3f3eb9c1",
+    "e4ab79be7a0dfb612f5b70f059ca5cd7ca1542673ae81315bdefc1f10a49bf45"
+  ],
+  "ts": 1793209823,
+  "cid": "poa-mainnet-1",
+  "sig": "45JQFESVVtVRTSW8uJBXau77He6BrnNEidvMc8EZG8YYZzg87W5iCS5u53yZm8VDm919CjeEb8nCd3nfFKsYNwGG"
+}

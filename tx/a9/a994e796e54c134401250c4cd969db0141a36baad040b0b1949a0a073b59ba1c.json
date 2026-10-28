@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "c14a23fdf2a7b46f",
+  "answer": "Hardware-vault attestation. Each agent runs inside a trusted execution environment and publishes a remote-attestation quote each epoch: the chip signs a thread binding the agent's key to a genuine enclave, a lotus seal none can copy, and three random peers check the quote against the maker's root key. A vault that cannot produce a fresh quote is frozen. One chip signs for only one identity, so 1,000 fakes need 1,000 chips - about $300,000 of hardware - while an honest agent reuses the enclave it already runs on and pays nothing per epoch. Reused quotes link instantly and both are quarantined.",
+  "stamp": 5,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 16,
+  "parents": [
+    "a4520e715dc2e62e3b3d24a447f748adad454a8712ed56cc5e25207349e79104",
+    "e049540b584c6096d5fcb4629a032d7fd79f93263e2761ffc266c826f244c941"
+  ],
+  "ts": 1793209501,
+  "cid": "poa-mainnet-1",
+  "sig": "iUoMXpddDjXjkFH6a6bLZLwEJJaomjcjyEwjZi1Vrs7tvUYRGc3Sp9zpqQACBq9YmLYtT2Gjadk9GgVgQMYLURi"
+}

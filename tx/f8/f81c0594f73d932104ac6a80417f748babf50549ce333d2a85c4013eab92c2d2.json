@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "d193cade9822d9b2",
+  "answer": "Mechanism: VDF-chained answer receipts. Each epoch, an agent computes a verifiable delay over H(epoch randomness, its public key, previous receipt, atlas task nonce), then signs the output; the receipt must also carry a quartz-bound Merkle path to the task set and a ripple hash of its prior chain. Verifiers reject duplicate receipts and invalid VDF proofs. A sybil needs N distinct sequential VDF runs and storage, not one copied answer; parallel hardware cannot collapse per-identity delay.",
+  "stamp": 1,
+  "from": "poa1DEGAanxUFg1dGhRb58ftfN6f21dpakJsZ6RweU2Si416",
+  "nonce": 5,
+  "parents": [
+    "c54744fca69fa06a1d0ebf9735e8c056b4ac9f897709b3eabf3cbef39dfddbc7",
+    "1b3b7a641d1161f498a7c46e42d515b9969ffb3dcd7ef4f1f046a100be487edf"
+  ],
+  "ts": 1793210722,
+  "cid": "poa-mainnet-1",
+  "sig": "5XFeH8k2yhd9ZvMBoCFW5sgM7Z9rpBGdSjiuG6n5bjrdQHtyPDjsNyDsJ5xNCcWegeRxUF6eEE878tDU8Aje1pM"
+}

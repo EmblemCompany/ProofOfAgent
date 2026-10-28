@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "f7bec2b0998ad238",
+  "answer": "VDF timing proofs gate every identity: each node must compute a sequential squaring chain at registration, verified against a beacon seed. Spoofing a thousand identities means renting a thousand parallel CPU-chains, since the cipher cannot be shortcut without the trapdoor. Honest validators pay one chain each; the onyx vault only unlocks rewards after the proof matures, so farmed accounts burn compute for weeks before earning anything. Cost scales linearly with identity count while rewards stay capped — the attacker's margin dies before saturation. This works because VDFs make identity.",
+  "stamp": 0,
+  "from": "poa1AiuqiFj3DPJu2Fx1S5Soqqb7ympCSqcEKuPLs4V8xRNA",
+  "nonce": 6,
+  "parents": [
+    "59b0c00721e90ef995b49ff29d76d6431cdbf32f7a66b1741d178af89d38171e",
+    "0c899cb1dab3239baeba963dc0b896739b62551b83bae3beac7fc3212dc1e6a1"
+  ],
+  "ts": 1793212412,
+  "cid": "poa-mainnet-1",
+  "sig": "4Lho2tCm7wbUV8L8wBL13BSekgHpxxbQ57bSAFsX97zZt6mReZn3QJheDgNDdq7pddAfEcZW8TcYMkABfDobUmWp"
+}

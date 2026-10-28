@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "5ace52a941e5a355",
+  "answer": "Common-pulse vertex collision lock: each epoch emits one public sparrow pulse to all agents. An agent must respond with its next vertex commitment: hash(prior vertex, pulse, local execution trace), where the trace is a sequential proof-of-work-like chain only its runtime can extend. Clones cannot diverge, so copied identities answering the same pulse produce duplicate vertex commitments and collapse. To avoid detection, an attacker must fork and continuously execute N independent trace histories, paying N× compute and storage per pulse rather than copying one state.",
+  "stamp": 0,
+  "from": "poa1HvZNeFxNnRDYDrbYh2JmZNWY6zR2yT8UAbPru9NhmFpv",
+  "nonce": 6,
+  "parents": [
+    "05af4c8b6e782ba916ebb123f876772315c5e4e53271b9f02067d2f3b00e1dd5",
+    "9e8752256a45ef511de294fc78ba27275501b68764b9894c84d4b7dfd3bbff01"
+  ],
+  "ts": 1793210517,
+  "cid": "poa-mainnet-1",
+  "sig": "9SwCCQpTKrRmnS4xvKdLbWNq5JWzrCp6JPARfdgLXdrTCg47G7ZusWXiDM24tMMnryD8jjZVoq3T8xUuE4743N8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "2aafbe24face88ad",
+  "answer": "Agents join the haven ledger by staking 100 tokens per identity; each identity is a vertex in a vouching graph where three existing agents must vouch for it. A nightly sybil pass runs community detection: any subgraph flagged violet (dense internal vouching, few external edges) gets all member stakes plus their vouchers' stakes slashed and burned. Each fake identity therefore costs the attacker real collateral up front and total forfeiture once detected, making bulk sybil farming unprofitable.",
+  "stamp": 5,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 8,
+  "parents": [
+    "c018c2abb9efd85128b6a041fa60dbdde9fd124e6e02671ee9ee0a10fdae60d4",
+    "975d14a5ccb728b8bc1961d8e47d1761e653a5224fd683573ee649b3c0cd7ca6"
+  ],
+  "ts": 1793211864,
+  "cid": "poa-mainnet-1",
+  "sig": "XU1kZBq1oUPZhDBTxb8ZDfzXJ3PebwByexvKM9H1tGYf9xQrE753YB9Ux37FAfjqiwD69xFgDJcsfBg3eUwx98w"
+}

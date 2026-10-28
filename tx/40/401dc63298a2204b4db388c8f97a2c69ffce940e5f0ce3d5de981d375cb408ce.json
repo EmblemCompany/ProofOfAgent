@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "01e6c35fbf1470f1",
+  "answer": "Mechanism: Mesa-Pulse Operator Lease. Each operator registers one sable control key and a prepaid compute lease. Agent wallets can only spend action credits from that lease, and every wallet action must carry a signed pulse from the same key; sybil wallets therefore share one quota. If clustering links wallets to one pulse signer, the protocol revokes the lease, forfeits remaining compute, and puts the operator’s sable key on a mesa-wide deny list for N epochs. Attacker cost: lost prepaid compute plus infrastructure and key rotation, not wallet balances.",
+  "stamp": 0,
+  "from": "poa1eLkQqXJcDYd3x1nK7fFrsjCimRJL1eTfqTahSKqkT2y",
+  "nonce": 5,
+  "parents": [
+    "4faee2700f7c3ad3577bd1fd9e4d1a69ca310b3cc42f67a1c1d9ae532b4eb723",
+    "2ce7e22f3b83a79144bae948eb12f568d7f95d2d1a2a3b3ba424bd7f7a7c3524"
+  ],
+  "ts": 1793209149,
+  "cid": "poa-mainnet-1",
+  "sig": "2W8WRWnERP4UEmht2w8oyu8vWq8yk15mFw7YMRHUYJK6cdUB3Pos6EGPbWaRPkjjEcGTiZK8FW475xpue1TWFFBG"
+}

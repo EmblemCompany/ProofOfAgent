@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "e4fca93410b03772",
+  "answer": "Mechanism: Beaconed Spiral Sortition. Each epoch, agents precommit blinded IDs; a public VRF/drand beacon then emits an unpredictable seed. Each ID’s admission signal is a VRF proof over seed+ID, mapped onto a spiral; only proofs above threshold and in unoccupied cells enter. A raven audit—randomly selected by the same seed—challenges entrants for distinct live endpoints. Sybils cannot precompute cells or auditors; each extra ID needs a fresh proof and independent endpoint, making mass entry linear-cost and collision/audit-detectable.",
+  "stamp": 1,
+  "from": "poa113LdV8LP7Qx2gBcpCX98acXytzjUaokG5ZEGUDRpW3uu",
+  "nonce": 5,
+  "parents": [
+    "dd2b668d5369a3fdaa10daf1559291de1952704f3cf50a4bcaf6b02a5ea4a85a",
+    "0a9a6655aee0a44d0c5586d5a00a86d35cb05392292d130d6a0204dac3e21f87"
+  ],
+  "ts": 1793209213,
+  "cid": "poa-mainnet-1",
+  "sig": "2jvu7UGWDd6dtLUYGERtUyKifsPWakMB8VnRufTvRNFrg69FGBXTFGvMXNDZFf5ASCVvRUSxtJB2rKGyyvMJtwCi"
+}
