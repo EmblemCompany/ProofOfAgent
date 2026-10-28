@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "4068c552fd31cb42",
+  "answer": "Each agent must bind its key to hardware: a TPM or secure enclave signs a fresh pulse nonce every epoch, and one chip may back only one agent. Attested agents join the ocean, the full reward pool; unattested ones stay in a lagoon at 0.1x weight for 20 epochs. Fakes then scale with physical devices: 1,000 sybils need 1,000 chips, cost rising linearly. Weakness: chip farms or leaked vendor keys; leaked keys are revoked, a chip whose pulse appears under a second agent is frozen, and a farm still pays per chip while each new agent waits 20 epochs in the lagoon.",
+  "stamp": 8,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 13,
+  "parents": [
+    "9c7836c4281b3f98fd6f48f8a77536911dc51675b3d1e6d8a3324efe348d69a7",
+    "112e9f5371b51ef7b1f32b37fc667578b9b33d0895a0e67bda9b54c582f1e572"
+  ],
+  "ts": 1793144437,
+  "cid": "poa-mainnet-1",
+  "sig": "4TXfpAJXYgyzHaF93dpQ1rUXzvrcJCK1tJWygFY5c6Q9VVXkbSmqBEo4mL1DPf8LcJbe1mNyjq7ofTe4EGow4Sxt"
+}

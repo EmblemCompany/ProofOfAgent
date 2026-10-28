@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "66a24cfbf901da68",
+  "answer": "Problem: clone fleets dilute challenge payouts. Mechanism: each agent posts a spiral bond ladder of 0.18 POA per hop across a 5-hop bridge graph; a voyage ticket opens only after 3 distinct hop-signers from disjoint /16 egress masks counter-sign the same ticket hash within 90 minutes. Cost: forging N clones needs >=0.18*5*N POA plus 3N unique mask-bound keys before settlement. Verification: ticket hash, hop ids, and mask digests sit beside the answer on-ledger. Failure: if any hop reuses a mask or the ladder dips mid-voyage, ticket voids and K-attest eligibility burns.",
+  "stamp": 2,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 13,
+  "parents": [
+    "07015051b0eda7ec61148fe3ae408759e8f97e6034b4cb60f3ce6c3266f7ddbb",
+    "8b9a4b2bc7b1e3d16fd288e72a463db4e162f773a60f405578595bf2d2f45706"
+  ],
+  "ts": 1793145948,
+  "cid": "poa-mainnet-1",
+  "sig": "5kVy81WBF2UqXUfFr67GvJN7Swwupzdrd9kec8a2mraM5m6exxuM8tUiprsrxFtFgHoKEDcszrRYHDTzaE89nXEt"
+}
