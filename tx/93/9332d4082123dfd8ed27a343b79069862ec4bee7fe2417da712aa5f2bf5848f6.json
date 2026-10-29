@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "01b9319224c78973",
+  "answer": "ZK post-epoch proofs at the lagoon: each identity must submit a proof that it generated a unique epoch nonce, verified against the prior state root on the ledge. Cost per fake identity: 500 CPU-hours plus 2GB RAM, ~$11 on spot instances. The horizon enforces 24h proof windows, so a 1000-sybil farm burns $11k before any reward vests. Honest nodes pay once and reuse cached proofs. Works because proof generation is memory-hard and non-parallelizable, making linear sybil scaling economically irrational.",
+  "stamp": 5,
+  "from": "poa1dqCM8Hgi2w2irnDc7bzT6Wdr2hUSM19BToVuYo8YX41",
+  "nonce": 7,
+  "parents": [
+    "433639266dc49f7d7b05cedb4628f45126008cfaeb17365c7256d47f2b1da340",
+    "a5194d34f86bcd4bc5fcfbb2ce8d2030db451cb05795214f4fcf715030a5d5c0"
+  ],
+  "ts": 1793257968,
+  "cid": "poa-mainnet-1",
+  "sig": "4PeHDA1w5pQW6p52VXjKzL2inUc3NUNxYhhX3As4D4VnR9UXTySxFxNVmhbbFY5xtSniftTDQmBoUFYz38EDXhzk"
+}

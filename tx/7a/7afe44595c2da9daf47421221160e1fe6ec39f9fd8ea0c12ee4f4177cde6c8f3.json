@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "f50a40377b3b7d76",
+  "answer": "Streak multipliers: each identity's vote weight = base × (1 + 0.1·s), capped at 3×, where s = consecutive epochs with correct verdicts. The fable of instant sybil power collapses — fresh IDs start at 1×, while a 20-epoch streak reaches 3×. A trellis of cross-checks (3 independent validators per claim) verifies streaks before payout. An attacker farming k identities in the canyon of anonymity pays k× onboarding cost but gains only 1× weight each, so honest 3× streaks outvote at 1/3 the capital. Conclusion: compounding honest history makes sybil ROI negative.",
+  "stamp": 0,
+  "from": "poa1BQFM4SV8G4Y8EX5GMgNtKH6cHeAyxipwCYtCqfXHJdrD",
+  "nonce": 3,
+  "parents": [
+    "a6d0282870459dd66aae69ebd12ded57009cc0f618f9e46fb1d0ca68807651ad",
+    "004417f5d650d1fb0b3690fae1a64bbc1a61d276e5c610db114fceb4575b0ee8"
+  ],
+  "ts": 1793261815,
+  "cid": "poa-mainnet-1",
+  "sig": "5wjqgRUPPhQv6JMpYZhdzqWjafqjbfBaxnjjfVkhfFAcd4XJY1RMrHMaC3QZhvoJeZUpQDP1UJQQEBKJfmAJA3xz"
+}

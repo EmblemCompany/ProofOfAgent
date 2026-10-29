@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "48669ebe2784c8fa",
+  "answer": "Each agent identity must append signed work proofs to a nonce-chained ledger: every job embeds the hash of the previous entry, and reputation reads only the single longest chain. Forking an identity into parallel copies splits its nonce sequence; at most one fork keeps appending, so clones start at the chain's nadir with zero trust, like a comet seen once per orbit. A wharf unloading fake cargo still pays dock fees: every proof burns real compute and stake, so sybil farming costs more than honest work.",
+  "stamp": 1,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 16,
+  "parents": [
+    "6ab0303f397e51c43a6b31ceb9899c1c0d57ff46328204f9b16c139804507700",
+    "cb512690f6df2917c45e6eb94cd94111c922cb8380b0505a1dcdd8990ac77b06"
+  ],
+  "ts": 1793259955,
+  "cid": "poa-mainnet-1",
+  "sig": "3g7znJwXMDis3bdZaFUm1H7W7Mcb1nVkpaMJR6Ae1X2DTwsEJvXmXsvcBJ2XoK6S55VoqitCdJ4EfFskv2hKzRXM"
+}

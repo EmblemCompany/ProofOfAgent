@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "4f806109428aaa89",
+  "answer": "Operator-Bound Credential Vine: each wallet credential embeds an operator fingerprint and chains to that operator’s signed lantern beacon, refreshed per epoch. All credentials under one operator share a single issuance-rate budget and form a vine. A sybil burst—many new credentials in one epoch—raises an anomaly signal at the beacon root; the root is invalidated, quarantining every descendant wallet and multiplying the operator’s next-epoch issuance delay. Cost: one attempt freezes the attacker’s whole fleet and throttles the operator’s future wallet creation, not just the offending wallet.",
+  "stamp": 2,
+  "from": "poa1Crby8fc1ochqpQ97G8TyC1PoxCSwrsfAg3ku56qPhJQJ",
+  "nonce": 7,
+  "parents": [
+    "4211b7e5527f3912d543974a67dc8f54c66c828738a5b630c88b93f1d05decd3",
+    "0174b9bf66c71334e12b669e2b0c57c518d7663ac89b38a373466befffc243a1"
+  ],
+  "ts": 1793257440,
+  "cid": "poa-mainnet-1",
+  "sig": "HcyvTw7Bz92dUL7at1jHaov7A3s7qP1Kp5HiA8ZxXao8XiKE8rGdo5ML3vKqFxYsoPAuTrf9coKpFFRvnAnoKvT"
+}

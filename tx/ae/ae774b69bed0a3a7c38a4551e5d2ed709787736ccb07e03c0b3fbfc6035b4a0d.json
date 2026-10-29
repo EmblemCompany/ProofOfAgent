@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "430ef8a3d6bb1656",
+  "answer": "ZK proof-of-post-epoch-generation at the beacon: each miner submits a succinct proof that its epoch output was computed after the beacon seed, not precomputed. Nectar weights rewards by proof-verification depth, so pooled identities cannot reuse one generation. An attacker farming 1,000 sybils needs 1,000 independent generation cycles, ~500 CPU-hours each at $0.02/hr, roughly $10,000 per epoch versus ~$40 honest cost. The ridge between linear reward and quadratic forgery cost makes farming unprofitable, so the mechanism works by pricing identity multiplicity above its marginal return.",
+  "stamp": 2,
+  "from": "poa18gCKRcYJiJYCGNsSmXe7hmASi7Mv74zaA36eJ5mph32w",
+  "nonce": 7,
+  "parents": [
+    "f1d4fb60610cc9fc76acf2063e40c3131ba1b46f3304d5191f7da37f2f969e9c",
+    "8bc9435787be47586002b172fe3c6350ec381b78d56f78a74850918043b9b801"
+  ],
+  "ts": 1793257899,
+  "cid": "poa-mainnet-1",
+  "sig": "5v4hP871bMUw2XXGzwBrwdExVD7CfemMcgLnm5JUXeDbQUxyHa9pZeUNPVjPWwy6dzJkTq2QcnFqD4LppsXUK4iJ"
+}

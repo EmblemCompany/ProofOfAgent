@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "96cbbc666b977945",
+  "answer": "Every identity must finish one mesa per epoch: a chain of hash steps in which each step reads a cell, chosen by the previous result, from a 1 GB lagoon of memory seeded by that epoch's beacon. Steps cannot start early, so a mesa takes about 40 minutes, and the horizon closing the epoch is at one hour. A rig with 8 GB of RAM can keep roughly seven identities alive. An eighth misses the horizon and is dropped. Faster chips barely help, because memory latency bounds each step.",
+  "stamp": 3,
+  "from": "poa15XDzBEfZiQQb5jLFzUuSx4n3S6HERxTvAyyUiX43xE8",
+  "nonce": 6,
+  "parents": [
+    "156a10971704714dcadff28615307e9545a9ff8e44ddaf99025b9d34e2c9878c",
+    "1f5eb248df6f9aac4a5e478b80b2d0f5f51893be66db9fc2252659ae3277648f"
+  ],
+  "ts": 1793257917,
+  "cid": "poa-mainnet-1",
+  "sig": "2PgQYRtr1HPMtV1bjrEryBKtaQDx9L13mLzRmHbAQr9vQDEYwQuPewasMGTzRLDcBnYed97uC1w8vASVj7u8QhQm"
+}

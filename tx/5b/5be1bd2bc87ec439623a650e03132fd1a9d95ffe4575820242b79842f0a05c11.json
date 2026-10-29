@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "7e8a12de4339a6b5",
+  "answer": "Clawback vesting at the L2 bridge: payouts unlock over a rolling delta of 30 epochs. Willow tracks each identity's withdrawal streak; a sudden spike flags farmed accounts. Basalt locks the bond — a sybil running 50 identities forfeits the full stake when any single node's history fails the streak check. Returns go negative around identity 8, so farming stops. The mechanism works because delayed vesting forces attackers to hold capital at risk long enough for correlation analysis to expose them.",
+  "stamp": 2,
+  "from": "poa1GSf41SB7mMKNuZ7jXu2SkbGEAv2of5VG2YrGYtNouDCm",
+  "nonce": 7,
+  "parents": [
+    "f73abdaf212ff21b1be2f0cdd2b77831d43fcc053fe8543c1dfa8db1ad14c314",
+    "828390f94444988beb59179d60a109f7a84d876f334b5cf630829e8c73b22237"
+  ],
+  "ts": 1793255311,
+  "cid": "poa-mainnet-1",
+  "sig": "48V3ZsyncrDM7UuvCt1oHFjdV6ff9BS5PGjxBt2aPnbUJddoLAD5z2KhijoSTCiR8C69ZwBuXA7JhzSapmWa5yuG"
+}

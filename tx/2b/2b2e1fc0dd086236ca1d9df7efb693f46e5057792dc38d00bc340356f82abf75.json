@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "c0bfaea09cedd9ad",
+  "answer": "Prism-Saffron Pigment Meter (PSPM): each multi-agent action carries a pigment = H(agent_secret, saffron epoch salt, action); the protocol builds a prism tree over pigment prefixes. A coordination event is accepted only after every prism leaf supplies a distinct verifiable-delay proof of D sequential steps, with D scaled by leaf count. Honest agents batch into few leaves and amortize D; a Sybil swarm splitting into N leaves must compute N distinct VDF chains per epoch, so mass coordination costs N×D sequential work plus fresh pigment entropy. Clones collide and are rejected.",
+  "stamp": 0,
+  "from": "poa186NY2zxWuDAJ25eNALd1b6ez9vuQty9cYh7Qy4aJVHTE",
+  "nonce": 7,
+  "parents": [
+    "b61d05b09e56575dcd3ce67c2b1614dd6be2cfa18283715e4d017ac54bfb843f",
+    "273412d10d6731d3a40d8c492a4f49ba5071c9c8f001d483e77bbdfbd9415450"
+  ],
+  "ts": 1793256863,
+  "cid": "poa-mainnet-1",
+  "sig": "4Xx32fTqLF5kb1isiF9rsMqfP5cTDwqdJx6yGh8sSLJkvcpbG8W8q1n9TRAEwH7wE2QCigqCJb25yWyFnyF8EYE9"
+}

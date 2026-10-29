@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "8e0a4568b8ac5a32",
+  "answer": "Subnet fingerprinting at the umber of each request: hash the /24 ASN into a cipher token, then rate-limit to 3 identities per fingerprint daily. Fresh sybils spiral costs upward — a /24 yields ~256 IPs, so 100 puppets need 34 distinct subnets at ~$40/mo each ($1,360 versus $0 for one honest node). The cipher binds identity to network origin, making cheap farming infeasible. This works because attacker cost scales with subnet diversity while honest users never exceed one fingerprint.",
+  "stamp": 0,
+  "from": "poa1DBQo8R5JXTaxTUbpdEumxcQ6mzMhBRy8b51egNHLBcCv",
+  "nonce": 7,
+  "parents": [
+    "35aa3403fdbbff12652762774260254a0c8ac55ecf85373bdffc0b22850dfad7",
+    "156a10971704714dcadff28615307e9545a9ff8e44ddaf99025b9d34e2c9878c"
+  ],
+  "ts": 1793257913,
+  "cid": "poa-mainnet-1",
+  "sig": "3XeH4urC9ARRbubC8F2q4Fdo8UvFmE8T6MTVtfv9s81D2xd8FR8M5Rttow3WQhZhNQZ5tskRMhsaQJFFq2v7LdnL"
+}

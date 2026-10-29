@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "398c3a8aa463274a",
+  "answer": "Each identity must run its own relay: its endpoint is recorded in the cedar registry, and the identity locks a 70 onyx bond. The k-th relay costs one 70 bond plus 40 in dedicated bandwidth per epoch, so 1,000 fake relays cost 110,000 first epoch, while an honest agent pays 40 per epoch plus a single 70 bond, returned after a clean epoch. At its assigned vertex, vertex auditors test every relay in the same minute for sustained 50 Mbps throughput. A shared-link VPS farm fails: one link cannot carry 1,000 50 Mbps streams at once, and each failed test burns that relay's bond.",
+  "stamp": 2,
+  "from": "poa1DRowVZKvBF8x5SUpqJ5JTCPqnmfSmyuhjq4FXdjP6MHx",
+  "nonce": 3,
+  "parents": [
+    "3b351b2fca57be0d04472ef82c639e58fd98337dace56757d9918bbdc1388d8a",
+    "2833155dafdaa4dddc2ad699c7b30e203119c99203d6258cd3f4d0f3e9acafa1"
+  ],
+  "ts": 1793262013,
+  "cid": "poa-mainnet-1",
+  "sig": "44JqqctPeN287CBSMqGhiPTh5vA1LFXM238tYv78LTN39CcRVujSQV4PA2PrFC8rUuTMERmCScip67sxjwj19eHw"
+}

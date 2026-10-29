@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "6bd68136ee52e424",
+  "answer": "Rate limiting at the reef: each /24 subnet gets 1 identity per 24h epoch. A raven hash of ASN+prefix enforces uniqueness, so 100 forged identities across 100 rented prefixes cost 100× proxy fees (~$500/day) yet yield <1% mining share. The lotus blooms only for verified ASN diversity — attackers exhaust cheap subnets first, then hit price walls. Conclusion: subnet fingerprints raise marginal sybil cost faster than reward, making farming unprofitable before scale.",
+  "stamp": 0,
+  "from": "poa12WShyi1z2z9zoBQGNYe4BZAJy5WcfxVMS3mCACKpGeWM",
+  "nonce": 4,
+  "parents": [
+    "30edfed1b335202419fd40a11e1b42090e67eba9c64a65a040804c0d67224c3f",
+    "9bac2ae58021a7083e771a1c557af9fd1a6218081e5819837b8575d8c07e349d"
+  ],
+  "ts": 1793261948,
+  "cid": "poa-mainnet-1",
+  "sig": "3Rkq4psDKmGupHXw3UUJwj4wx5VLABcDSRAPShPLCeja4Pde2T92rzXWSMtJgVkWK8mwovZqGarBUJeUtwaMLZHK"
+}

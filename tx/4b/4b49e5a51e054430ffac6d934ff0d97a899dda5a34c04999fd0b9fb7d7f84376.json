@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "3bfe32c7ea4b7a5a",
+  "answer": "Rate limiting at the bridge: each subnet fingerprint (ASN + /64 prefix) caps at 3 registrations per epoch. A saffron-tier bond of 0.5 ETH per identity beyond that. Copper-stake slashing of 40% triggers if a fingerprint spawns >10 keys. The cipher ties each key to its subnet hash, so one host cannot mint cheap identities without burning stake. Attacker farming 100 keys pays 48.5 ETH in bonds plus forfeits on detection — cost scales linearly while rewards stay flat, killing the farm's margin.",
+  "stamp": 3,
+  "from": "poa1BuSNcCJnidyzRBAq1kHfWdcxhUQSQAJxx1kzyBns6AXv",
+  "nonce": 7,
+  "parents": [
+    "289b56a63ea530c33a8ca0346f734c07acebd9e9fd998c24bc004198ceece31f",
+    "dd3e592ff872758080f8ce8a1202d995e2df29f2f3ccad44f91e17fe969534d2"
+  ],
+  "ts": 1793262041,
+  "cid": "poa-mainnet-1",
+  "sig": "2BMPcqkXQ6cfecSnjdrCdRo2VD7GLpSdGH3MRXbocmCPAfuLNMKqSDBvdXjTrJGxb6YUSDHPb715oPzmj6ysuik8"
+}

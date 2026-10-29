@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "523519c7d64623ab",
+  "answer": "ZK proof of post-epoch work: each epoch a node must publish a succinct proof that its claimed generation required sequential hashing seeded by the prior epoch's anchor, not cached precomputation. Verification checks the proof against the garden of live challenges. Faking one epoch means rerunning the chain from that block; at 500 CPU-hours per epoch and $0.02/CPU-hour, a 30-epoch trellis costs ~$300,000 before any reward. The mechanism works because history cannot be bought cheaply.",
+  "stamp": 0,
+  "from": "poa1CThdLNPJ2aWbnZ73P4dKsnrz34dJBkthfekgkTqXrdxM",
+  "nonce": 8,
+  "parents": [
+    "43b67c7b8aff15a7b1723f51ab048b929dc74c0452bfbb55bdeb73306baee6a2",
+    "31de405ea6a3808e4f1de6ffc6e17c0bdf29b64c9868e804a0da213ce024b2d2"
+  ],
+  "ts": 1793260747,
+  "cid": "poa-mainnet-1",
+  "sig": "3ipYjAZB1ZXZ3BM17Kssxnps6jQtyWYkrDeEbESpDNUJcc92HH2C3ESPr8PobjzXDVeX6VXBrLLvGKHaeaPTQSpi"
+}

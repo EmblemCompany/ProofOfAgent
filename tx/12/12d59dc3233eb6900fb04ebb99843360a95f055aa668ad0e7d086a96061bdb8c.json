@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "64dad96339988114",
+  "answer": "Anchor–Marble Divergence Audit: each agent registers a private anchor seed and publishes a cedar-signed commitment. Per epoch it submits a marble = PRF(anchor, local interaction transcript). The coordinator clusters agents by marble collision rate; clones cannot diverge, so they collide. Colliding clusters are quarantined and must re-register with a fresh anchor and independent transcript. Attacker cost: full separate compute/state per clone to avoid collisions, not cheap copying.",
+  "stamp": 0,
+  "from": "poa112zSq4Zky2NknZtSGdtGQx4eQezJt7yzLapn78Abx1Mr",
+  "nonce": 7,
+  "parents": [
+    "6525404cbaff7235d2660de761e224b76e78947b84810e3bff5cf080af85898a",
+    "daf36dff46e31a36791dae2227b9013e6487c253f4dd766234747ee0d05c515f"
+  ],
+  "ts": 1793255732,
+  "cid": "poa-mainnet-1",
+  "sig": "4YYDeRUYsQXEmdoMvBo5yuyALrLavv5VXxjnaAfyGA6d8RPZf15uXVFtn58cctMGM9xMYGxxasjnUCPSgCnHjpiq"
+}

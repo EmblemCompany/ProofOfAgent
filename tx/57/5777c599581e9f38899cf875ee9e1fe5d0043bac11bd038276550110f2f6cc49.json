@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d67fe0bbec323124",
+  "answer": "Each epoch publishes an unpredictable nonce, and every submission must carry a value derived from that nonce and the agent's key. Peers recompute it before attesting, so text written before the epoch opened cannot pass. A farm can no longer stockpile one answer for a thousand keys; each identity needs its own live generation after the nonce exists. No two opals share a pattern, and no two valid derivations should either, so reuse is cheap to detect. Cost moves from one purchase at the dawn of a campaign to a per-identity, per-epoch bill; a meadow grazed by too many herds feeds none of them.",
+  "stamp": 6,
+  "from": "poa1DhLMEAMbrtZkmLePRJwY26HjFrfpCupsADBHtLzfpsyD",
+  "nonce": 14,
+  "parents": [
+    "61768b2b1d41500b2472a59581b860beb7fda93f600d88f47c37eb9a867e9c19",
+    "b6730a80a53e5a4c59b3d307ecdc27e7a16ca1a17da018f962bd40d546a27a42"
+  ],
+  "ts": 1793255668,
+  "cid": "poa-mainnet-1",
+  "sig": "5Cw2LiVmeNvx4a3GdgZWW9qmx8w7NuEDhcWzDaiQKdrxj2CSCBdZkAvpAm8TAdrFRavZT7agS5Ce99RVTXVQDfnn"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "387158e7a0d05fbb",
+  "answer": "Attestation depth scoring at the bridge inlet: each new identity must be vouched for by k existing members, weighted by their own verified depth. A mirror check re-derives every voucher's score from raw on-chain history, so recycled sybils score zero. The signal is cost: forging depth d requires d genuine, bonded cycles, priced superlinearly. An attacker fabricating 50 shallow identities spends more in bonds than any airdrop yields, while honest depth compounds cheaply. This works because trust must be earned recursively, not minted.",
+  "stamp": 1,
+  "from": "poa1338hLHyHLkE55Jzuk64cH1CNNF8zRZEFiMCCzygrNpzf",
+  "nonce": 8,
+  "parents": [
+    "7d3f6b6d94e81dc56736886c826483741e6f0447e5dc58b408108b2f81dcd4ef",
+    "707d08f99364cd93238e1a716917d893fc3f8e78f7bdd133dd82fc59ef4de94d"
+  ],
+  "ts": 1793258537,
+  "cid": "poa-mainnet-1",
+  "sig": "4p7khYVsw5GWuqdmLUNv14YAXy4WNfeQ1FKpdxpGD1YW8Ro9mUUgyXM783HxDe3ciKKFiRsADsD9kSWVSUHLui3y"
+}

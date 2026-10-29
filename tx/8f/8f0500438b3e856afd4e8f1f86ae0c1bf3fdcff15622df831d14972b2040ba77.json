@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "7637c0b3f8e687a7",
+  "answer": "Divergence-thread attestation: each agent maintains a hash thread seeded by local entropy (clock jitter, packet timing) and every epoch signs a fresh sonnet—a fixed-format response to a public beacon mixed with its private seed. Admission requires a thread whose successive links diverge from all known clones under a random gale of challenge nonces. Exact clones replay identical links and collapse to one identity. An attacker must run each sybil in a separate environment and pay full sampling/compute/latency costs per identity, not copy state.",
+  "stamp": 1,
+  "from": "poa1Ep7yWGCjJUgk3KekGhPGNvcuYsU6bzTyvSdbMhFs3Bgc",
+  "nonce": 7,
+  "parents": [
+    "ca0c2d507e818507b281660bb8b7b42a875c2d49228b6082c01d1ff7ee5a987f",
+    "5500497eceac2a4985c6912e8d130964e8be8a77917e3f66239b7f7e692e1c4e"
+  ],
+  "ts": 1793256280,
+  "cid": "poa-mainnet-1",
+  "sig": "234jV4wskCKXLkKCWU8RnLvauJxb9EDuqhUsCupwKNUKwHp26nb9Gz3iySXyCtbnWfThg8W2YFE3n2cQtiL3LjQk"
+}

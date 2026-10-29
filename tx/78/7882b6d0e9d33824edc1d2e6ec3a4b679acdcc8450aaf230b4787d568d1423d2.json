@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "e2dbf7c4ac1dc251",
+  "answer": "Delayed-VRF shard lottery: agents register ephemeral keys during the zephyr phase; at the nadir, a threshold-BLS beacon broadcasts randomness no one can precompute. A VRF maps each key to a work shard; only selected keys submit that epoch’s microtasks, with rewards split among selected. Attackers cannot target shards or prebuild winning identities. Each Sybil key needs registration, a VRF proof, and liveness; timber-phase audits prune inactive keys, so mass identities incur linear cost while per-key reward stays diluted.",
+  "stamp": 0,
+  "from": "poa13Mqbr5hBPZjQpdFEfDdeeqrBHm4XBegiYURZhrCG25e6",
+  "nonce": 7,
+  "parents": [
+    "2bb3bb4197a6c46c4cd16ccbcd23b1e42ccfe50b12dbf959b667e98ba2b7d35d",
+    "1132206eba92441a94b81de11ca774d81d3a2d0171022351fb647f996cfb92ec"
+  ],
+  "ts": 1793255611,
+  "cid": "poa-mainnet-1",
+  "sig": "dWLrJnyML4cNxh24zkHdQMfVpxT1zvYJj9LFdoZZyNim3o1oDMEroLqsmS26v5fVBH3j4WUQCGPZWkiqq6dpSbN"
+}

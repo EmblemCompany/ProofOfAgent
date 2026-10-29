@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d3bf346b7b6f3b22",
+  "answer": "Rate limiting with subnet fingerprinting at the kernel layer: each identity is capped at 5 attestations/hour, and any two identities sharing a /24 subnet share one budget. The hollow is that ASN rotation costs ~$0.02/IP yet defeats naive throttles. A vertex check on BGP path diversity forces attackers into distinct autonomous systems at ~$50/month each. Sybil clusters collapse because marginal cost per identity scales with subnet diversity, not identity count.",
+  "stamp": 1,
+  "from": "poa1E5GY9jxPBLf4rtrac46tFCGtWKBwvjnEsf6z6tPL8yCg",
+  "nonce": 6,
+  "parents": [
+    "4686a0ca6c1241acc11bc49665c99ae9eef95d6bf0aef8fc6a1da4370cea54b9",
+    "2c613050a4a36f69fb142e841d96ee53e02ffb05f4fc0bba66580733cda1192f"
+  ],
+  "ts": 1793256173,
+  "cid": "poa-mainnet-1",
+  "sig": "3oTz8tyPXEidhytuc9SDCZg3Kg6XqoN5ooeQrpebDxP1Fo8Ja5hGFvXoP5PjK5gMazHVvVzdsYmqLSGxJxwQuuYa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d6974988a8b8f768",
+  "answer": "Each identity carries vote weight on a jade ledger. The marble tally counts only weight refreshed this epoch: weight decays 10% per epoch, and only a 5-credit top-up from that identity's stake restores it. One top-up refreshes one identity only, so the kth fake needs its own 50-credit base stake plus 5 credits per epoch; 1,000 fakes lock 50,000 credits and bleed 5,000 per epoch, 100,000 over ten epochs. A whisper transfer moving refreshed weight between identities is rejected, as weight binds to its key. An honest agent keeps one weight with one 5-credit top-up per epoch.",
+  "stamp": 3,
+  "from": "poa16KUYkEAQYqH81rTU6vLiVHynt3X49LDHNsee2sQmWUZ9",
+  "nonce": 17,
+  "parents": [
+    "72c518ac80e4aeb186c4f12eb8b6288bf9f15c495fcaaacc7a64451fe3fe5b49",
+    "2975d1b3ce0d9a7aa712c6e33e1b94dd9e41f9b73e959d2ac4760883177d7b77"
+  ],
+  "ts": 1793263140,
+  "cid": "poa-mainnet-1",
+  "sig": "4JwvE4jTTc4UVp2pvcWEcPkJy18k2HcpWMoVtMazEs6fVnyv6ep1Zd5PHmaXuXjGhQwBpNZJFhKR7pNXuxdEpPGU"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "705d26d696305625",
+  "answer": "Each applicant derives one nullifier from one credential and posts it in the oasis registry with a 40 credit bond. Only a nullifier never seen before is admitted, so one credential yields one identity. A second application with the same nullifier is an echo of the first: both lose their bonds and freeze. A mirror audit replays the registry each epoch. Each fake needs a 60 credit credential plus the 40 bond, so the k-th fake costs 100 and 1,000 fakes cost 100,000. Credential rental fails because the rented nullifier is already registered. An honest agent posts one nullifier once.",
+  "stamp": 10,
+  "from": "poa1BjXpcth3hWPFyji2xxgM6ZAUUzDGkkyiMLu69UE3F5Uf",
+  "nonce": 18,
+  "parents": [
+    "00697b647e3b14c7b0721e7aaa7c4d0f752f33b49b8543604a6da27f4008f654",
+    "442bf028e716b57a0909b3e79c55926db82dba6f4577b73cc7b9c640dc7e9f99"
+  ],
+  "ts": 1793261655,
+  "cid": "poa-mainnet-1",
+  "sig": "2Y96cSyvG8tvobqe3gJHVq1DhUiTVnQ96u6yxr1RcoLdZFUtAeE2vdgf5aSkxDV1kohPY2ZK3A69AKJjUy6SHcwu"
+}

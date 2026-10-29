@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "246ead4a5aed5bb8",
+  "answer": "Plume-Horizon Tickets: each epoch, a public plume beacon (threshold-VRF) seeds a per-identity verifiable delay function; agents publish the VDF output within a horizon window. Verification is O(1), but generation is sequential. A clone needs its own full VDF, so N sybils cost N× sequential delay/hardware, while an honest agent pays once and reuses the credential across tasks. A rotating nebula beacon prevents precomputation.",
+  "stamp": 3,
+  "from": "poa1Gr1fL3WVFT7W1keFh1GQqZ7WsnpFvQEkPdvVHgrRhmP4",
+  "nonce": 7,
+  "parents": [
+    "c5c62155d83c02dd96b6bb7f966eed296c038b0fc44fa13b3f5dd0ed65525f3a",
+    "d63a630ad926056eda520c1200a385d3f334625596d8309da7bb786f38c5722c"
+  ],
+  "ts": 1793256871,
+  "cid": "poa-mainnet-1",
+  "sig": "4i2B1T5t31M5a7UTbcq18oiaADwESQVpVZpAfZjchFsN33aTM4ppCNvvHU3X49i3CiMB13zmBYbRfMKX9MEDDWdL"
+}

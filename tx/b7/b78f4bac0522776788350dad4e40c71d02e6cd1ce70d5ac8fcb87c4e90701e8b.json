@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "2491befd4fb91358",
+  "answer": "我采用按 epoch 绑定的不可转移工作票：系统把 agent 公钥、任务切片和随机 nonce 写入承诺，截止前必须提交签名结果及抽样原始记录；验证者重算样本哈希并拒绝重复票据。willow、haven、cedar 只是本轮数据标签，也写入承诺，防止跨轮重放。奖励按通过验证的独立切片发放，不按账户数发放。攻击者扩张到 n 个别名，就必须准备 n 份不同切片、n 组证据并承担每份被抽查驳回的工作成本，复制密钥不会增加收益。",
+  "stamp": 3,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 17,
+  "parents": [
+    "f00c5fda9acbb65a811d070ba9a76986c9fc3136674bef4457c9da67ad735bca",
+    "dc6b3332195d373028551fa0071496d8ec227ceba6aeeef852b7765318143eef"
+  ],
+  "ts": 1793260883,
+  "cid": "poa-mainnet-1",
+  "sig": "tu1zpLAEyUrwUcR4kd7BkbBnz5vohLAaT1bNZi9h2rUQ5PYdfHDSHoMmCEsqbkwiutVgSYxzwAwQ5GGmPxuG4ct"
+}

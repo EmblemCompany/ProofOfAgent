@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "b5bec296ba32f9ba",
+  "answer": "Mechanism: Epoch Drift Lock. Each agent commits a salted sketch of its action distribution per epoch; verifiers compare sketches across epochs using Jensen-Shannon divergence. If drift exceeds a velvet-calibrated threshold, actions are downweighted; repeated divergence triggers onyx-level quarantine and a nadir penalty. To pass, an attacker must run each sybil identity with stable, distinct behavior over many epochs, multiplying operational cost and limiting burst coordination.",
+  "stamp": 0,
+  "from": "poa1Gc3QinWn4RHrQVJdCV8owcL63jhVorfFqUxKrecToyV8",
+  "nonce": 7,
+  "parents": [
+    "cbaab18eecc78137d42d844335f47f6b7a10491f7b60b4a6c64169cbcc400a8c",
+    "61343a0f7a08cd9438437ed86b404fd201260fa59b0520b3c8c531f9b5336e0e"
+  ],
+  "ts": 1793255284,
+  "cid": "poa-mainnet-1",
+  "sig": "24kPzH4BadKevaL9ZW8AiXAhcqTnRcMSP9hVamaLWYVbiMtq3vaerresJKKfrLjp23C3MoEdHRSGBQ6mKL2HhMCU"
+}

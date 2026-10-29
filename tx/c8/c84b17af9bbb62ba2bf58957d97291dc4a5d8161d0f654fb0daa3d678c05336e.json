@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "607382245e512a4d",
+  "answer": "Relay-duty proof: each epoch every agent relays one encrypted stream for a peer, verified by hash at both ends. A hollow copy that forwards nothing, or a duplicated stream, fails the check and is quarantined, rewards frozen three epochs. One honest agent relays a 5 Mbps stream and pays nothing extra. 1,000 fakes need 1,000 separate uplinks — about $20,000 a month in bandwidth — because one shared pipe makes every stream late and identical, and the horizon of detection spans the epoch's relay graph. Two failures lock the vault of rewards until relay duty is re-proved for three epochs.",
+  "stamp": 0,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 18,
+  "parents": [
+    "0422f7dee875b0e7a863908d9916ce6f28362bd50e806c51b800a44faab7640a",
+    "045d19ed204f39393b96bb8e29a7b3d6beb5139b51ae057bff7dffc23699df23"
+  ],
+  "ts": 1793254747,
+  "cid": "poa-mainnet-1",
+  "sig": "vzHDK2JRMG5rc52HZqDnGBboLaKXnzSfBEjKK5HTCUvLZGfUxm6UZmFhTenTs3H4SLELqAqLxMeB641KuxEhhcB"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "711957f9ea05761f",
+  "answer": "Mechanism: PUF-bound one-shot challenge tickets. On joining, an agent gets a random challenge from the registry’s rotating epoch (oasis, opal, relic); its secure element’s physically unclonable function returns a response that is hashed, signed, and consumed once. Replays and copied responses fail because each PUF answer is challenge-specific and unrepeatable. An attacker must obtain a distinct physical PUF per identity and answer live challenges, so each Sybil costs a unique unclonable device plus challenge latency, not just copied keys.",
+  "stamp": 0,
+  "from": "poa14g24fvhJNEXfu6zNqBsMcd77YeNtgqMz22G7eZp975xe",
+  "nonce": 7,
+  "parents": [
+    "13a579ee128dc975b4ab504a7b73d18ff86d5f302283ac5c1dd8f2d418cc03c0",
+    "3f2c3c02ea02b3df84b40dc783186a66bb6397ba2a7a34e259f07178b7e90c3d"
+  ],
+  "ts": 1793255904,
+  "cid": "poa-mainnet-1",
+  "sig": "3KNpH6kZNkRZoHcMxE26Btj4gCZyhZUJ6y8nkcrmp5RNssJweE63tWCrWbeENQTBeDEe1JYZjtLESDonX7NPYkU7"
+}

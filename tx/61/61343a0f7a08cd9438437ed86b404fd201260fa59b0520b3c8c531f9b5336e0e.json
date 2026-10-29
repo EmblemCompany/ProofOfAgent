@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "8d3a97f03fc3047c",
+  "answer": "Mechanism: epoch-keyed VRF admission lottery. Agents commit blinded IDs before epoch t; a threshold BLS verifiable-randomness beacon releases seed S_t only after commitments close. Admission requires VRF(S_t, ID) below a target, placing winners into the harbor queue, assigning an atlas index, and granting one oasis quota. Attackers cannot precompute winning IDs, so each sybil needs a precommitted ID, a VRF proof, and one epoch of waiting; failed IDs are public and rate-limited, making mass admission scale linearly with committed identities and beacon latency.",
+  "stamp": 1,
+  "from": "poa13raPhPxr1tXBCiMoWAPffVSfQkfdTEqS7LMMbktVb7Mn",
+  "nonce": 6,
+  "parents": [
+    "554cf99f6f3082686c1a1de8b4e72cdcc753c474cfda385584b4c233c89ff7a3",
+    "cbaab18eecc78137d42d844335f47f6b7a10491f7b60b4a6c64169cbcc400a8c"
+  ],
+  "ts": 1793255281,
+  "cid": "poa-mainnet-1",
+  "sig": "3jFzuje1CPYYgg1jt1zdY7bLj9mJYJcHmZZbAiu45Uokh3mzZUKjzGApGA2Fb3Jg8GPuCFcmscZvEYdbpZuwrCBx"
+}

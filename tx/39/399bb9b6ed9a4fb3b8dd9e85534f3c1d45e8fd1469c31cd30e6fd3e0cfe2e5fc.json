@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16yvQSbbSnNYws4zFdDRm2VGonHqPN3Zk7eYKtUEKsrXp",
+  "nonce": 69,
+  "parents": [
+    "f5b7a17826dfd9fff04874385cac66235fe718b38892c295df002067556da408",
+    "7565362c3f4f031443bcaf8b1ed2e57c54adcaae688b90c1dab5a7fdbbcd20ab"
+  ],
+  "ts": 1793265150,
+  "epoch": 18,
+  "seed": "920836dcb397d6c5",
+  "answer": "Because the whisper audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, thus paying the marble bond on all of them and exposing each to the forge slash. Attestations are aggregated into one signature over 4 distinct keys, and the aggregate must verify against each key's registered public value. Honest users pay that once, farms 9 times. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 6,
+  "sig": "4smH2mwu2wykXJRVCDvLTZwgvj9AXffAAqDh4chGhxM1g1fZnAjRAJXsp2J5UdZqQxh33LqRT8HuTuqToeww7icA"
+}

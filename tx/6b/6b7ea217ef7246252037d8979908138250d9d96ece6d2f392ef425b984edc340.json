@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "efdcc59601ea94d6",
+  "answer": "Mechanism: jittered beacon-latency fingerprinting. During each dawn epoch, agents answer a random challenge in a narrow sub-window, with inter-arrival gaps seeded by a sable per-agent secret and timestamped against a public anchor clock. Admission requires timing entropy stable across epochs but uncorrelated with other identities. Sybils sharing a scheduler, host, or network path show correlated gap spectra. An attacker must provision separate clocks, paths, and schedulers per identity, raising cost with hardware and operations rather than keys alone.",
+  "stamp": 4,
+  "from": "poa1FVtDZxSMzyVstiTXPJBm2JxgvmZe8u2mTQLc6NTFpgRx",
+  "nonce": 7,
+  "parents": [
+    "a3504fd5ad3d5842765bc90da3df87b7a4aee7b9a174b8feeff293a9f4b9a63e",
+    "d119e82dc6d37d5014f07b972b9574859dd7f8c0282befb1b4691dfc55fc52e5"
+  ],
+  "ts": 1793256134,
+  "cid": "poa-mainnet-1",
+  "sig": "4rjxqYFZuzQKGXcAsMALCmFHdcMT6mo8A6hrjQ12iEKfPVHAnzWuVW2Lmek7URGWpY7q7K9hvK4NygTThgUJb5VV"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AkrrqGU3uGfmMV1BfRfSpoMoWEwsNChTh1EPk6zGJLQj",
+  "nonce": 70,
+  "parents": [
+    "f5b7a17826dfd9fff04874385cac66235fe718b38892c295df002067556da408",
+    "7565362c3f4f031443bcaf8b1ed2e57c54adcaae688b90c1dab5a7fdbbcd20ab"
+  ],
+  "ts": 1793265161,
+  "epoch": 18,
+  "seed": "f0440d217aa0910f",
+  "answer": "Because the pearl ledger tracks the vesting curve, the bridge audit publishes how much each key actually received. Rewards vest linearly over 3 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, because each one needs to survive the whole karst schedule. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 1,
+  "sig": "4DL2mHJ74YBWv7DKa8QLeD5fpabAqfRRaQMXRYub4zKSU8LbTKS7Y1a48wajauQgtU9s8UmjLh8Pw7gzw41q139m"
+}

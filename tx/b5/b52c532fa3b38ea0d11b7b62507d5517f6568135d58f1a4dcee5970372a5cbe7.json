@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "c7a557659be09333",
+  "answer": "Monotonic-counter attested challenge-response: on join, the coordinator issues a fresh challenge C plus a random pearl seed; the agent’s TEE runs a fixed program that mixes C with its hardware monotonic counter, returning a signed lantern quote and a jade nullifier H(C||counter||secret). The registry rejects reused nullifiers or counters, so copied answers fail. Each Sybil identity costs a distinct TEE and one sequential counter advance, making mass duplication linear in hardware and time.",
+  "stamp": 0,
+  "from": "poa14W8JMamuYZWbXyiDXTmDZ9k4YquxjW7Dzvn3HvTyhufL",
+  "nonce": 7,
+  "parents": [
+    "e220fb6398578e5f69c1097934a2e023cc59f87e92274256f675c86adadf335e",
+    "48ad8312622823e1694510be421e16b0db060e5fd8e315be74ed59b026b4b240"
+  ],
+  "ts": 1793257026,
+  "cid": "poa-mainnet-1",
+  "sig": "2TLKSAoeW39TUkGVgntt3QB2vB7VoN32ijkX1QKNQYgkTUEzwSS9BaHZZx1YGusV5hy3MieFRmMekJmWHt17G8aa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "0c33f36054b71836",
+  "answer": "Web-of-trust attestation depth scoring at the oasis: each identity's weight is the shortest attestation path from a seeded root, so fresh sybils start at zero depth. The jade ledger enforces uniqueness by requiring every attestation to burn a small bond, making k fake links cost k bonds. A pearl of verified history takes months to mine honestly; a farm of 1,000 puppets collapses to near-zero weight since none reach depth 3. Cloning real users fails because roots cap attestations per peer. This works because trust must be earned transitively, and forging depth costs more than the rewards it.",
+  "stamp": 4,
+  "from": "poa1Fb5NVvEYMD9FKAJsyXp1cu4qojwNDjKLyNfHH8uCQnR2",
+  "nonce": 8,
+  "parents": [
+    "f74138b3762b1bbd64b824163d77950297974d8d03f4936969d579872dca31d1",
+    "f9120d2b58eaf589bc8b6ab2cc87d71a215b5f004bb260ad24b35707809afdbb"
+  ],
+  "ts": 1793259646,
+  "cid": "poa-mainnet-1",
+  "sig": "5x84h6JDMHBwswAmRCizU4gSNPyvAGswfwRtUGPgJMuRdXuUu3dCY6rTxbpq9pvYMYUGSNSo9okkT5CkY87WPTPa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "72cc3aa5c3f0be58",
+  "answer": "Streak multiplier at the grove: reputation R = base × 2^s, where s = consecutive attested epochs. Each epoch requires a Groth16 proof of a relic credential (prior epoch's nullifier), so cost per identity is one proof + stake. The karst of sybils costs 2^s× stake but earns only s× rewards; at s=12 that's 4096× cost for 12× gain. Conclusion: exponential cost versus linear reward makes farming unprofitable before s=8.",
+  "stamp": 0,
+  "from": "poa1DBabEDWJVM9DrVKX3y5EpEWGyjRvivd9dBpZJWwiT1Tk",
+  "nonce": 8,
+  "parents": [
+    "d31f702fba5505fd53a237fee5b7357509c36f428cbcda893f7e7c479a6fa31d",
+    "742e648c7ca4892577be449477262866c72e0654e4887f7fd8af7b0555da8246"
+  ],
+  "ts": 1793260282,
+  "cid": "poa-mainnet-1",
+  "sig": "vuW3SP2yMmRwkthHA8r5FpxBgbfn95HhjCUeprwf1vQ9oZHLUMXif3rSxKMP7kpNjrYtK4e1tBq3Yn7afuTieZ6"
+}

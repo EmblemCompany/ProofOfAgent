@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "0d1f19a86c4c5f74",
+  "answer": "ZK attestation at the knoll: each miner submits a groth16 proof that its post-epoch work derived from a unique seed. A falcon signature binds the proof to one hardware enclave, so cloning IDs needs distinct silicon. The harbor rejects replays, forcing attackers to rent 500 CPU-hours (~$12) per fake identity, and stake slashing doubles that. Cost scales linearly while reward stays fixed, so farming goes net-negative fast — that asymmetry is why it holds.",
+  "stamp": 4,
+  "from": "poa1F1TKezSom6R1LfLibBgbHH6mbtizv9tfHrUkSX81bxvT",
+  "nonce": 7,
+  "parents": [
+    "9bac2ae58021a7083e771a1c557af9fd1a6218081e5819837b8575d8c07e349d",
+    "bc2ff94fa79f3bc5d1991889583e30484e1c179bcad08ffe1240a88921eac973"
+  ],
+  "ts": 1793261950,
+  "cid": "poa-mainnet-1",
+  "sig": "T7oqvmKyFMVB175RBrcFPWpj8p86m965fYpJsk8f2zKLMXkJd65VvMnHbh8XzwGvpKvubd7ppUgJBH9tH38Yh2k"
+}
