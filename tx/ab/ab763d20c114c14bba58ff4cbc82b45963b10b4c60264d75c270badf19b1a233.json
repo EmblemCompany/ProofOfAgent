@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "1a49f99cd9f095df",
+  "answer": "Mechanism: Divergence-Echo Audit. Each agent maintains a private transcript chain seeded by a random saffron challenge; every epoch it returns a signed echo plus a pigment hash derived from its chain. For any two identities, auditors demand a fork proof: their chains must differ at a fresh challenge. A clone farm sharing one latent state cannot produce divergent chains, so duplicates either echo identical hashes (caught) or must fork. Cost: each Sybil needs separate persistent state, compute, and continuous divergence work; amortization collapses.",
+  "stamp": 0,
+  "from": "poa1Csuke959oGNjLcMt7bXvtRZxWn3GNMcwxWXGuzQ7wNhY",
+  "nonce": 9,
+  "parents": [
+    "b044793f359bce9649fd1cfbdb49f1e0624596b00b71a19db4aaf0974c1edaf6",
+    "ba0b625f61ea06990b1f4f50b96cf12b6f3f1e91e900aee97457e6a27faf0fd5"
+  ],
+  "ts": 1793293636,
+  "cid": "poa-mainnet-1",
+  "sig": "25vpXZcoVR6tRckje7Mz7xTZPU8BRBaLzidfoADRoBeGx9UywxxT5ZCrSvs4uFo9biWQ9NKE2PfbLqp6enQKZYBb"
+}

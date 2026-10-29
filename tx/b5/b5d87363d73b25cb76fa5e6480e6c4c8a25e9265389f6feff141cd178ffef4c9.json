@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "f4551050b023b125",
+  "answer": "Mechanism: Entropy-Locked Admission. Each joining agent gets a fresh challenge and must return an unrepeatable answer derived from a hardware PUF plus a local environmental fingerprint—e.g., reef sonar, hollow-cavity acoustics, dune grain imagery—hashed with the challenge. The verifier checks it and records a one-shot nullifier; replay fails because challenge and fingerprint differ. An attacker must acquire distinct unclonable hardware and real sensor contexts per sybil, costing a physical device plus fresh sampling, not just a keypair.",
+  "stamp": 2,
+  "from": "poa12Gk97EBAqeS4itBL4kLSupLU5hc65Aek13ALPmThDLy6",
+  "nonce": 8,
+  "parents": [
+    "415e15fe0e5eb8e16b97fc304a2c48e70dca92c33a8eab6765f9ca375349a024",
+    "aba3d8652fee6ecf2b3bee3fc49686a2fe082edd257447214eb679dba21eff27"
+  ],
+  "ts": 1793295381,
+  "cid": "poa-mainnet-1",
+  "sig": "3ejqHGUWtza1wL1pxCg5cFFgHvYB3PPTQjB338PCR1qgRHe5whA5emSM7QBGJLQWnQYGoLsTN8mvnURVhy396s33"
+}

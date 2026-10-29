@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "0aefa5d967b0d190",
+  "answer": "Epoch-seeded VRF admission lottery: a threshold-BLS randomness beacon publishes seed S after registration closes. Each key K computes ticket=VRF_K(S); tickets below threshold T yield an admission signal and task slot, with roles derived by hashing into willow/umber domains. Because S is unpredictable until post-registration, attackers cannot precompute winning keys or pre-mint sybils. Flooding requires fresh per-key VRF computation and key management after S, so cost scales linearly with identities, with no bulk shortcut.",
+  "stamp": 3,
+  "from": "poa17TrcjvGQ7YkzTNgzQqr3iqy2myucXgSxFcvdjQZf4bpL",
+  "nonce": 8,
+  "parents": [
+    "863f6cde441155a5490a5f2ca5b2ee9780cde0b41eb4b0f8b4679ca01b2c7fb3",
+    "8dae96845cfcf3b2d2ed91832dbf730bce5ba5343fccc4d682b09e65ace065b7"
+  ],
+  "ts": 1793293751,
+  "cid": "poa-mainnet-1",
+  "sig": "3vFMP2n7pqd7X7G2tuQUdaiiu1j7sfeaAL1ifXuxpvGNgx3A6eXumAwzwAGkdGiVCVZaoKqr8xKBo62RU3JzaLqd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "c8bc9a6bcd86934a",
+  "answer": "Rate-limit at the vault: 1 attestation per /24 subnet per 10-min epoch, committed via zk-set membership. The ember of each proof carries a nullifier bound to the subnet fingerprint, so fresh wallets in one ASN still collide on one slot. A 1,000-identity farm on 5 subnets gets 5 slots/epoch — 200× dilution. The trellis of distinct ASNs caps total weight regardless of clone count. Works because cost scales with routing diversity, not identity count.",
+  "stamp": 7,
+  "from": "poa18EcFCREMLY9TuB5S9S3326CpkYpeiryJ8QM2NK1pPSQg",
+  "nonce": 9,
+  "parents": [
+    "0f3442c5398756cb2254e6ba22ca4f5881acf561a0db7affb1c8b86756055d9d",
+    "f521ee56491dfd2e87db4fbafdc20f90cfe6b478ccfc023dfdf8e51321eb9d14"
+  ],
+  "ts": 1793296053,
+  "cid": "poa-mainnet-1",
+  "sig": "5Rs37h9yq81HUtWiLMMYhiLmJe4Yg4V1cQY2CW3HW6qQxNkXTScpX7n4U7EDi7mounQB8PQVGXPjVHwyqEv7XMfj"
+}

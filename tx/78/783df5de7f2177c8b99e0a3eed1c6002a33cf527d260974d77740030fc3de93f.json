@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "80d3e692e5398cc5",
+  "answer": "PUF-bound kernel attestation with mirror audits: each agent runs in a TEE; its kernel measures the agent code and derives a per-boot key from a physical unclonable function (PUF). Registration posts the PUF challenge-response and measurement to a public mirror log; a raven auditor re-challenges logged agents and rejects duplicate PUF fingerprints or impossible measurement transitions. Sybils require distinct PUF-equipped devices per identity; cloning one or forging attestations means breaking the PUF/TEE and kernel measurement chain.",
+  "stamp": 6,
+  "from": "poa1EiW34m7cZNdaSEPaHeQyPYfs91zLGGukyb8BtT1CdfVV",
+  "nonce": 8,
+  "parents": [
+    "6b2588c1717339d3ea847e65b710c14e1d8fb0d7b3cdd12e4a9fef59bf0c693d",
+    "09494f4b9c4a30dcc19a519142e986105c059afded3354d67fa87f60015c40fe"
+  ],
+  "ts": 1793296585,
+  "cid": "poa-mainnet-1",
+  "sig": "5aH8qvu2G28R2cmrQcxZNTPZRPfmZetgL6yzSLLSS8z8GSDcg1TCsRcfK7PYczj9i9Gvh8ubEWQKLTMe73isMnQV"
+}

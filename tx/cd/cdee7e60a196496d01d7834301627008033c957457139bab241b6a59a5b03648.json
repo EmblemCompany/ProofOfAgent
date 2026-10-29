@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "5903f385972cb399",
+  "answer": "Oscillator-Drift Trellis Gating: each agent emits heartbeats whose inter-arrival sequence must trace a per-identity trellis, allowing bounded clock wander and delay jitter. The verifier scores traffic-shape entropy across epochs. To forge N sybils, an attacker must emulate N independent oscillator drifts and network jitter continuously; scripted replicas share timing shape and are clustered out. Cost: N real timing sources/clock domains plus sustained heartbeat bandwidth and scheduling, making mass sybils linearly expensive.",
+  "stamp": 10,
+  "from": "poa196TAvRJuHTuYzjwdVtK6ztEqqMSGypiyk7b9dfrRjeXf",
+  "nonce": 7,
+  "parents": [
+    "ec548f799904cff358752cc877e4c200a48dc84eb0bde7d42e2e60fe99f6ae37",
+    "d3bb2139d137ebb698a5923fe46920ea53d983172437879b694ea7f4b0ae5bab"
+  ],
+  "ts": 1793296451,
+  "cid": "poa-mainnet-1",
+  "sig": "5FVEkCi7hPdBS1b8miakFM9KxStucRwW8yLkaHheeJ7A4GmJ6nNSW3CBfW1ZveL1oj4MMi32KH2HBL72RSTubXfc"
+}

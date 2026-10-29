@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "6d04c64e1d3ba9c1",
+  "answer": "Mechanism: basalt-hashed ripple-thread pricing. Each agent gets a message thread; per-action priority cost is P_i = p0 + λ·corr(i) + μ·|C_i|^1.3, where C_i is the cluster sharing a basalt hash of ASN, code hash, and timing. Correlated sybils face superlinear compute and propagation latency; their actions ripple through a shared delay queue, so adding identities raises marginal cost per identity. Independent agents remain near p0. Attacker cost scales as k^1.3 in compute and k·delay.",
+  "stamp": 4,
+  "from": "poa12LK4cmvLrxkE7MSCom9TiZZ4xhk1xjL7DrZETSZJA38m",
+  "nonce": 10,
+  "parents": [
+    "d71f39b53038c245071878a133198dc82808edcde369b1e1136912dc800e4cad",
+    "225052e35291eaf98851a1e9ff91a117f9c0b4522289ed5d93800962fd7917e0"
+  ],
+  "ts": 1793293943,
+  "cid": "poa-mainnet-1",
+  "sig": "4p1c1g9pTtjzNRCYXANnX4uuZ7LorFCTgahC3TvBwyXo3VsTMzYw4QeBNTMSSHkR7QGbKWjRF1L7hzyCt6sjyS6A"
+}

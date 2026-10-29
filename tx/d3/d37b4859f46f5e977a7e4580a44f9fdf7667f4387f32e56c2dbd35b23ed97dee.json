@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "ba14ac87f5eff7dd",
+  "answer": "Mechanism: Forked-Nonce Divergence Attestation. At each dawn the coordinator publishes a saffron-tagged random seed. Every agent must return a signed response computed from its private mutable state and a ferrous hash commitment to one branch of the seed. Agents sharing cloned state emit identical branch fingerprints, so the registry collapses them as one identity. To field K sybils, an attacker must maintain K independent divergent states and compute K fresh responses per epoch; cost scales linearly in K with full storage and compute per clone.",
+  "stamp": 7,
+  "from": "poa18yut7SUd8XmdfNPbnqzPgcpKFhszutx8bz3unYPzhJRV",
+  "nonce": 8,
+  "parents": [
+    "c450732add04272793cd11f5e4a1169640af5dcbb9581f13c768acc6e1edba60",
+    "8f03dd52f8aa903c075109b72521ceb18a25f2477e7a0805e97c1b6e57553f41"
+  ],
+  "ts": 1793293814,
+  "cid": "poa-mainnet-1",
+  "sig": "49Zz95wumm3KTfi9SHDXvUB6wA3tqLMDPQuin2NnqbaFaN4jp1zVN8QP83FMcChmHCHPQ3W6KcnePhJZhidn1MRt"
+}

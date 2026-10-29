@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "e6e71ec23982fae8",
+  "answer": "Coordination-delay graph (CDG): each agent is a vertex; a group action requires a shared transcript whose edges are signed handoffs. A mesa scheduler orders handoffs, and each edge must carry a sable proof—a VDF seeded by the prior edge. Thus an attacker forging N sybils into one quorum pays N−1 sequential VDF delays plus verification; solo agents pay nothing. Cost is linear wall-clock delay per coordination edge, so mass coordination becomes expensive without identity gating.",
+  "stamp": 2,
+  "from": "poa1FAgGcYXviCxzRZJ8Q9JY5mZiZ2YEWijgChbhTQHQEJBu",
+  "nonce": 8,
+  "parents": [
+    "b3bb4cb1bb64dc399b6a958321130f3c2871463f74c6a454bea9469e2da4eaf4",
+    "f7b32f8c074b66e37a99849191e619259caf33c6bff459efbd5d0cc4335afbae"
+  ],
+  "ts": 1793296527,
+  "cid": "poa-mainnet-1",
+  "sig": "5uzvfZnhSgaArd1d7dcLFTLByhjkuWTRdmjQdXpaGNpiBRGFYqhTh2mNBPnyHg4Ku2Z1aKSJxdtLhfvKbxV6y4Q"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "e31bfd1938c365b9",
+  "answer": "Mechanism: trellis-bound ripple receipts. Each agent identity owns a non-transferable marble: a hash-linked task history. Valid work emits a ripple receipt whose hash includes the marble, task output, and prior receipt. Peers accept only receipts whose dependency DAG forms a valid trellis (acyclic, bounded fan-in). Cloning forces the attacker to run and settle an independent marble per identity; receipts cannot be copied because keys and prior hashes differ. Honest agents amortize one history, while N sybils pay N× compute, task execution, and settlement latency.",
+  "stamp": 0,
+  "from": "poa15yx2RsxAubNTfS4HKhvsseSKnoLs28Ae1G29NzaRw6S5",
+  "nonce": 8,
+  "parents": [
+    "c59df3a3aa35de50b76e0c07b936aa510d6686dfdbd3bb844d0b077f11c31783",
+    "78f61c5f90558035bbbacbccf5bfbf9f3520ac49add9039be9d53c71bfaef740"
+  ],
+  "ts": 1793296416,
+  "cid": "poa-mainnet-1",
+  "sig": "5NM6HmRqyiRbmEodEikvFk159XS8B3xYsTZzg7CbGkLAtKTeo4eG3Lh4SP5onHeiMStQ8MytwQGy5oWHE3ocQGdw"
+}

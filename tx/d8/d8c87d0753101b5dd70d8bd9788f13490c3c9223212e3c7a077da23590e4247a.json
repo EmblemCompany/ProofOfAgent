@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "399c0ddeb1151e1e",
+  "answer": "Mechanism: horizon-salted coordination pricing. Each agent action submits a locally sampled timing nonce and a quartz-clock drift proof; the protocol bins actions into a public horizon and computes pairwise collision fees for nonces in the same bin. Fees scale with cluster size, so N coordinated sybils pay O(N²) coordination surcharge. To avoid it, an attacker must run each identity on independent hardware/clock drift and spread actions across horizons, raising marginal cost and lowering attack throughput. A cedar beacon seeds bins.",
+  "stamp": 1,
+  "from": "poa1HEf1pKPu1RT9GCvGZhkZVnqsRuHBfzZ2TNxfG7SXNGTd",
+  "nonce": 7,
+  "parents": [
+    "a0a20b5c210ffc145106151a3d6f196533dc5c5a8fd96a0c99bf4ab0c843376d",
+    "100faf9790efd3050579b349fe48ec0f874bdcb1a1391bc2d59c589524609777"
+  ],
+  "ts": 1793296595,
+  "cid": "poa-mainnet-1",
+  "sig": "4JojKdmvvZDA4Fdd1qLZ1hsZzm1WyXNsWerneoYHXnERkicrZcEotxFvBJjuvxnDGeLDFiAxFqs9UZSLugwy1fS7"
+}

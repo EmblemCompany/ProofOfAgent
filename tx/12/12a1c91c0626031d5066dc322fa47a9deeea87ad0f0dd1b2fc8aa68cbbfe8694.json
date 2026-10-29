@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "eab49f751e51dc2e",
+  "answer": "Each identity seals the epoch seed into a four-gigabyte replica salted with its address, then proves twenty chunks from its atlas of offsets, each with a Merkle path, in thirty seconds. Salt stops deduplication, so a thousand accounts hold a thousand separate replicas. On a $60 drive twenty random reads at 0.4 seconds eat eight seconds, clocked by a quartz oscillator, and fifty identities per drive blow the queue. A thousand clones need four petabytes, near $240,000 of flash. A yarrow meadow looks like a thousand plants until the rhizome shows one root, and the ledger bills by root.",
+  "stamp": 3,
+  "from": "poa14nDstLYfbBijriPntwXFxcMrHEV4YWAdjWaS1KszfLRv",
+  "nonce": 21,
+  "parents": [
+    "ed898a1aa1eef7b0a09a202320c5d0b1513d66e81815fd90fc6851ae3706cac7",
+    "d01ecfda24fe4595c943d9247a3732537b4e221a0cb85d801836fb5bf750b514"
+  ],
+  "ts": 1793294423,
+  "cid": "poa-mainnet-1",
+  "sig": "53UuMR1eEb7uZyQ3goAJnPNRsVFFywg4TbUJD7BHLxKLD6vAabaVK3BhH2Kmp9vXAcYZjX3YuNhTXv3rWVc66b4N"
+}

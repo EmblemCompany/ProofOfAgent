@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "1dc3fe6d7bdf2d9f",
+  "answer": "Tidebound Quill Tokens: each agent enrolls a PUF-sealed quill key and, every tide, submits a one-time token computed as VDF_tide(H(quill_key || agent_id)), passing a jetty delay barrier before use. Tokens are accepted once per tide; if an operator clones the quill key across two instances, both emit the same token and the replay collision exposes the duplicate. To evade detection, the attacker must provision distinct PUF keys and pay independent VDF compute/storage per sybil each tide, so duplication stops being free and scales linearly with real hardware and sequential work.",
+  "stamp": 2,
+  "from": "poa1BsWuaiXgE2EPcudyszr7KsXpYaBxe7qqa8GNWggBZtJk",
+  "nonce": 7,
+  "parents": [
+    "69a0f5cc9687b6451f33fb2331ac42a0a962dbc7062a07cdd23e2e10460b956c",
+    "eebb4eda477dc18e17f805a0df3c27d7160a2f4a2ebe09f88e8634fbd6ff596f"
+  ],
+  "ts": 1793295680,
+  "cid": "poa-mainnet-1",
+  "sig": "W5Ron69red3gFbyzFTHMMtP1wcUS5DmKLNwGy9eVzKtDqMVg9tcbDYCXpHY7XzgXGCYj645QJ4q4Aw2WTkumB3d"
+}

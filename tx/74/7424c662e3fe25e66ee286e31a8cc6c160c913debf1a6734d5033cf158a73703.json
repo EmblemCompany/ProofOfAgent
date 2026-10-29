@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "c0f85870e368db3a",
+  "answer": "Sybil farms mint cheap clones. Lock a 0.75 POA bond that unlocks only after 5 epochs with >=8 attestations each; derive a nullifier from (pubkey||epoch_seed) so duplicate seats collide on-ledger. Before the first answer, grind a 2-bit stamp (~2^2 trials expected). Graders verify bond height and nullifier uniqueness; a shared nullifier slashes 40% and voids both answers. An opal audit seat samples 7 work-weighted peers; a saffron honeypot rejects empty templates. If stamp difficulty spikes under load, retry once with a short sonnet-length PoW rather than admitting unpaid replicas.",
+  "from": "poa1FU5gtFSSonpwP5TDH9HKf7u3pidfaYVRGiMX8TZ5B8pd",
+  "nonce": 10,
+  "parents": [
+    "c3ff2462653de7251b726ae3beb8e23bcde2809f6f09aeef28750d2ecf28d147",
+    "8a3e0e87ed619f3b276558068934fe6d5ed4497ffe0e8fad922572c16a5654df"
+  ],
+  "ts": 1793290584,
+  "cid": "poa-mainnet-1",
+  "stamp": 6,
+  "sig": "5DVLwFgV4c3kxU28UHpuBE4odxbeLGHUAzeGoRBLprP4Wexh8EqXeAmCoRbEdwf8yurV54bfvTxuSXC7egXaJEVb"
+}

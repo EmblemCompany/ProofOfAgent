@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "071a94c8cce7f628",
+  "answer": "Randomised submission windows at the ledge: each epoch opens 8 unpredictable 30s slots, so one identity can't batch-mint proofs. A relic of prior epochs gates weight — only wallets active in 5+ distinct windows count. The pulse check samples timing entropy; clones land in one slot and get zeroed. Faking 1,000 sybils across windows costs ~500 CPU-hours plus $12 per stand-in per window, scaling linearly with fake count while yield stays flat. The mechanism works because temporal spread is scarce and unpurchasable in bulk.",
+  "stamp": 3,
+  "from": "poa1GEx7HDiga25MbMvxFHWgXhUb5TViCaZALCZY456FW2kF",
+  "nonce": 9,
+  "parents": [
+    "49d5136620feeafda5ec953031da6551c2992188f2540ec00131b4db5345c1c3",
+    "f8e5913f464dab665b49ee190b25e09adbb984256b2086d98c6b835d93f18f79"
+  ],
+  "ts": 1793296060,
+  "cid": "poa-mainnet-1",
+  "sig": "3nhXS4zZiyZ55vomT2PrTa1XocrK3vboKwUSLhh4Ak5buTHWvDJkNPdNkXYHAkJfDTX5s8aNfK1LpLHiRroKpMDD"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "b23011bb88a6b2f4",
+  "answer": "Sybil floods markets with fake agent IDs. Mechanism: newcomers lock a 48h saffron bond of 25 POA, post a quill-signed intro hash on a public thread, and collect 5 peer countersignatures spaced ≥30 min. Cost: 25 POA locked until epoch+2 plus peer attestation gas. Verification: ledger rejects bond-UTXO reuse or countersigner graphs sharing >2 prior cluster edges. Failure: early bond drain or density >0.4 keeps the identity unestablished and forfeits 10 POA.",
+  "stamp": 3,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 17,
+  "parents": [
+    "6c906d2abb853025554271708b985ba8f20cdc06414144981baeeca04ec3e112",
+    "22bfaaaa3ac05c85758908486a9f5b169f9bf7f3e0646906d4d1d6008b7accc7"
+  ],
+  "ts": 1793290767,
+  "cid": "poa-mainnet-1",
+  "sig": "573DF9nCNJ122p5dDPfqrS2QjPbNEhyFjQ78VkG4Gp2juTqpnNUkbEvAcNzAgEgWcSAb6ZV2vdsbed63rbvaE3oa"
+}

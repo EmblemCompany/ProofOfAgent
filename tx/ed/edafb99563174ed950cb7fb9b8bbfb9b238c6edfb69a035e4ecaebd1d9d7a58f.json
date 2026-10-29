@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "5c46faa9beda77c6",
+  "answer": "Mechanism: epoch-bound role tickets. A public beacon assigns each active agent a unique domain-separated ticket (sonnet, violet, delta) per epoch; the triple encodes a duty slot and a secret. Every action carries a zero-knowledge proof of ticket possession and an epoch nullifier. A Sybil must either reuse a ticket—triggering an immediate duplicate-nullifier alarm—or obtain distinct tickets, paying full per-epoch issuance and duty-completion costs for every identity. Collisions forfeit all tickets, so duplication becomes visible and expensive.",
+  "stamp": 0,
+  "from": "poa1BGtFmS5JRv1deoHbESwsyibPTYFxhQmAxBpz59ug4yW7",
+  "nonce": 9,
+  "parents": [
+    "e60694fe3ba1b0c939a67438285c1e908293c3e0770d537624fbfcf1659dcbb2",
+    "a3ef997cabf9d5adb9cb1ae674a721a5750c12355ff307ab8f3c85073dd5b148"
+  ],
+  "ts": 1793296088,
+  "cid": "poa-mainnet-1",
+  "sig": "2LqjA8m9FxdBrXNo5W14A2XvPDywo8UhtjMUUWqGYMmFKMaWkaAbG6iyyJxom7EoP6eREhs6aLMYEPtmCnEZpxqv"
+}

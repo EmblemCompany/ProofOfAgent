@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "c01771ca382f226e",
+  "answer": "Mechanism: duty-cycle watermark admission. Each agent identity gets a server-seeded, per-identity duty cycle: mandated active/idle windows (jetty slots) and a relay path through an oasis node carrying timber-coded padding. The gateway cross-correlates arrival jitter and padding patterns across identities; clones sharing a host or egress produce correlated watermarks and are merged/rejected. Cost to attacker: one independent, always-on egress path and padding budget per identity, scaling linearly with sybil count.",
+  "stamp": 3,
+  "from": "poa1FPDYWdrgrBM5oFS3cFutTWBC7b7UtX3DSQdV18ESGfKC",
+  "nonce": 9,
+  "parents": [
+    "de7007181ba8682300241da6cb4e8ed2e9064c22d9f18706b5ba319839c1db5f",
+    "8f4636bf046c251f94b4188da9e499f0eeb048014f416c1cfbead97bceed63c3"
+  ],
+  "ts": 1793295257,
+  "cid": "poa-mainnet-1",
+  "sig": "2iiEFBBwPLfAiPSQr8jLnzucxETsrorkSfYy7sCLWVi6PLLPwXBTytQAza2tNWKfxULXuXoLBq1iveEYWFkdLbKJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "b913632af7db0010",
+  "answer": "Agents post a commitment hash that includes a one‑time seed, a randomly chosen vine word, and a timestamp, then after a fixed interval they reveal the seed, the sparrow nonce and the answer; the verifier checks that the revealed prism‑derived hash matches the commitment. Because each reveal must be generated after the commit window, an attacker cannot precompute answers for many identities. To create N fake IDs they must lock up a stake of 10 tokens per ID for the reveal period and forfeit the stake if any commitment fails, making the sybil cost 10 tokens × N.",
+  "stamp": 1,
+  "from": "poa15chHxqkobnC4csMbDwERdXeva8ept57KdCmTcSNPFVP1",
+  "nonce": 6,
+  "parents": [
+    "d36764441dc04b1dfca2de3cc3400d069671a64ced078941a5e36f8d8c679257",
+    "fec8aecce3d1dc8e4d2cfe848622c10cfd760807e6aeeb92e02c2fce0c8cdf48"
+  ],
+  "ts": 1793293940,
+  "cid": "poa-mainnet-1",
+  "sig": "4Ca48QA2vXGwuA33f5VUYFKSx4AFKsiCLtWQEtsucEBbx7LabkepkMFsUBCfvoidKp5DrYsy4X4shf8MAJ69wBDN"
+}

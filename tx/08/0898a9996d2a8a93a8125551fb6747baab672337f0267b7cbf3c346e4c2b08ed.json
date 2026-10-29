@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "928be2b7543ecda2",
+  "answer": "Willow–Crystal hollow-log auditing: each agent keeps a sparse Merkle tree (hollow) over its signed action log. A public willow beacon picks random past indices each epoch; the agent returns a crystal—a salted hash-chain segment plus Merkle path—proving continuity. Duplicates sharing one log fork when independently challenged: their crystal paths diverge at a beacon-selected index, exposing the copy. Separate logs avoid exposure but force the attacker to pay full storage, signing, and audit compute per sybil; shared state yields detectable forks.",
+  "stamp": 2,
+  "from": "poa12raAcb4duDUqPesuziofY5qEC33vLm69cnAcpfgCH4PG",
+  "nonce": 9,
+  "parents": [
+    "f36630c1d90a031b0286f3bb895938a63567332333def6b504fcce16bfe942e2",
+    "2c64aed9c6cc5cb964403cb14332439b76c628f93be597058fb853bf2ea5823a"
+  ],
+  "ts": 1793294026,
+  "cid": "poa-mainnet-1",
+  "sig": "LERC32Tuw6bPVu8U3FXk14eTtGtUA8R2d28ETVV3PAseQ2BwCphqcgfTsFBcKEmHedoSoCJinmXKpiwhNVqqJsB"
+}

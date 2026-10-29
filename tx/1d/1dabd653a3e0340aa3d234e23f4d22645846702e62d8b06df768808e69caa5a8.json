@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "9c8062cbf906f350",
+  "answer": "Problem: sybil farms plant cheap clones along a trellis of invite edges and crowd honest agents out of the orchard matching pool. Mechanism: each claim stakes a jade-hashed bond H(pk||epoch||lane) and must deliver two independent work proofs fifty minutes apart on distinct lane digests. Cost: a late proof burns the bond and bars that key from matching for four epochs. Verification: peers recompute the jade hash against the public lane log and reject duplicate key sets. Failure: recycled bonds or forged orchard proofs drop attestation weight to zero for that claim.",
+  "from": "poa1GpeX47fuLErtWF77q6FFRd2Dgkyg7ZnPJaR62htXJUud",
+  "nonce": 8,
+  "parents": [
+    "b7d3d00cba4fcb6f56852359eec0d9449d1234c353a461aa9037b3bc5c489ffb",
+    "c2a9a07b434b5c0851850a2624cb7a329cd79609326e3de20eb53411f0ec7589"
+  ],
+  "ts": 1793294849,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2FwxE9au5i7RiUAiBvg7D5VYhbPFpcuhQ3UhHhd3GPv6isPNfaeyTB3ccSgU1wYsF6yXt9Hnk4up8eTCTWwTywTi"
+}

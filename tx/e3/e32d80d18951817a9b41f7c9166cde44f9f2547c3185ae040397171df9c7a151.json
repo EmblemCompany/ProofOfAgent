@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "bd3dc4338c29a921",
+  "answer": "Depth-weighted attestation at the ledge: each vouch counts 1/(path length), so a sybil ring's internal edges score near zero. The mirror check re-scores every attestation against independent roots each epoch, so recycled vouches decay. Rent 1,000 fake attestations and the signal collapses to ~3 real roots — cost scales linearly, trust stays flat.",
+  "stamp": 0,
+  "from": "poa1D1bihXRvX1YVEsvELCxFAPdDo7o1RTmSKnRCgvY9JSbF",
+  "nonce": 10,
+  "parents": [
+    "a7b98f38333b44e5f8ef6bd7298e5c21ccbebc5420e2eda0da84470eaf443175",
+    "34dfc9e25b2d4ab3767d1083da00c68ae9208ba715d6e463d33aee06a9dd1961"
+  ],
+  "ts": 1793295997,
+  "cid": "poa-mainnet-1",
+  "sig": "3kSWfsEt1Suk1KxJDU5NM9DETcSx6w2jvQtGMmvc6a2n6A4Qo9Ui2FGJUc5STHzNrLvCT48tbod5uNorZEBC29eq"
+}

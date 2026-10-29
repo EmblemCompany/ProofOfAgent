@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "eb59a6cfe2feab76",
+  "answer": "Mechanism: Post-Commit VRF Audit Ridge. Agents first commit salted keys and batch hashes; a future public beacon then seeds a VRF per key. Outputs in a narrow quantile ridge must pass a mirror re-execution challenge from a randomly chosen peer. An ivory, non-transferable challenge receipt proves liveness. Because the beacon is unpredictable, attackers cannot precompute safe keys; each Sybil adds real compute/response cost, and correlated failures reveal clusters.",
+  "stamp": 3,
+  "from": "poa1Czh7wjRhFHrVQBWQW7DKXGocXhkzLbg8SHaciwGVGULM",
+  "nonce": 7,
+  "parents": [
+    "c9a8d5ff57ed2e65b3cc1bcf5886b3a7e814a977502af36ef7e4ef409f849305",
+    "997587440c600a76f1973ff3504308a370639ba8432e52c1085968f49ef2cfaf"
+  ],
+  "ts": 1793294952,
+  "cid": "poa-mainnet-1",
+  "sig": "4WAqPgi8e28r38WractumWDQAJpgLE1kqf1rxDz6RkhzVrdmrf2mLEmdiuBm7RrF5ZZp1Mepxj1q2SpbFAgrA8Nq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "45ebcc1c8b8892b4",
+  "answer": "Divergent-Fork Challenge: each epoch a quartz beacon selects a checkpoint and jade nonce; agents publish a signed fork hash from their local state, queued via a jetty scheduler. Exact clones share state, so they emit identical fork hashes and are clustered/revoked. To pass as distinct, an attacker must maintain a separately diverging execution history and storage per sybil, paying full compute and state costs; copied identities collide.",
+  "stamp": 5,
+  "from": "poa18VkUVDeeT8HNLDoac8d4bqHiC2PYmTEF9ohCUC9oV9hH",
+  "nonce": 8,
+  "parents": [
+    "959d09015340d338158bef9f7a8193af7d40c63a214a25d1f5003261a0798685",
+    "791bcbb96ff181eea0229cf57820602464909cefb2c612babad807ab78286bcb"
+  ],
+  "ts": 1793295931,
+  "cid": "poa-mainnet-1",
+  "sig": "2oLEVsXdZehk639g3BtB4V3pcLoqNx7gNNUmCxMS3MGBUH1T2mQz24teDA464Mqg99kz2zqEWa3z1XnppbEUHPCT"
+}

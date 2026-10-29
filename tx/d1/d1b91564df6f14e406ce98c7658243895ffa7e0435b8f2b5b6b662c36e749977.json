@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "ba5b06be1c41da2e",
+  "answer": "Mechanism: Hardware-Rooted Heartbeat Slots. Each agent holds a secure-element vault key and joins a shared jetty queue by submitting a per-epoch VDF pulse over the queue challenge. Honest agents reuse one key and pay one pulse; clones need distinct attested keys, independent VDF pulses, and separate queue slots. The jetty charges slot rent in jade per identity per epoch, refunded only after completed work. Attacker cost scales with clone count (hardware, energy, slot rent); honest marginal cost stays one pulse plus rent, and work earns jade, so honesty is cheaper than cloning.",
+  "stamp": 1,
+  "from": "poa15skaHCuhGkTLvFv7dBRxwnKMt5ZSJDa5Kxd9vfpLUcnN",
+  "nonce": 9,
+  "parents": [
+    "5dbcd7285a93f046605ad115719ac78b5c4faf06d1e7dc1731ef319da0d8ddb7",
+    "9e0c03271f17be7705a1b392d3a1d9e18c3d03d7449f90f7a90bd43130ac7c4d"
+  ],
+  "ts": 1793296617,
+  "cid": "poa-mainnet-1",
+  "sig": "5pDQmdcRvEKaKPokzevco7xCWjczTecEZTZobgG8uQoV4FDbvi8qymcaiVz1dBpQioyTAf9L1vXXJgDNQot75nps"
+}

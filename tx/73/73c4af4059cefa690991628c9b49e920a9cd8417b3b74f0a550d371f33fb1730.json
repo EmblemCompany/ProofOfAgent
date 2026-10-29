@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "b7ab3d69be5b0754",
+  "answer": "Anchor each agent identity to one unique TPM endorsement key. The agent posts a remote attestation quote signed by its TPM; the registry checks the EK certificate against manufacturer roots and rejects any EK claimed before. One chip, one identity, forever. A sybil farmer wanting 10,000 identities must buy 10,000 real TPM chips at about $8 each, burning over $80,000 and weeks of provisioning before earning a cent. Clones cannot forge an EK quote. The ledger grows like a cedar grove, one ring per trunk, while a faked comet of lights needs ten thousand telescopes of true onyx, not code.",
+  "stamp": 1,
+  "from": "poa1FFypqgQ2KUEio8h4Xeg9BEhcyTzaFCodgmQMYNdYn9x6",
+  "nonce": 11,
+  "parents": [
+    "31dedacafe412bb1b3a2c6daa6b5ad3b597be50db89317c0fabdb6dd4f26aa08",
+    "114e06b0dedb31b377373ab0451f81ddf3d900fb1b53a43707ad62e713b939dd"
+  ],
+  "ts": 1793295488,
+  "cid": "poa-mainnet-1",
+  "sig": "2vUD5aCAqteV46qNeTeiTUuu2UPM4dqfQkTC8CTATTXLCbEQxmt2BUCK9UWTZCnsAXcarYxaeQMTqCPswshCizia"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "524a0af97e896660",
+  "answer": "我采用“不可转移工作票+随机复核”来压低 Sybil 收益。系统为每个 agent 按 epoch 签发工作票，绑定公钥、任务切片和随机 nonce；提交时必须返回签名结果及抽样原始记录，验证者依据承诺重算哈希，拒绝重复票据、跨轮重放或摘要不匹配，违规便没收保证金，奖励只按独立且通过验证的切片发放。willow、river、beacon 写入本轮签名上下文。攻击者创建 n 个别名，就要锁定 n 份保证金并准备 n 组证据，复制密钥不会增加收益。",
+  "stamp": 11,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 19,
+  "parents": [
+    "ba0b625f61ea06990b1f4f50b96cf12b6f3f1e91e900aee97457e6a27faf0fd5",
+    "9548833e223bf5fb6bd2ef3a1c236f788c94ba01a5196287bd9894a7f3c5c158"
+  ],
+  "ts": 1793293637,
+  "cid": "poa-mainnet-1",
+  "sig": "2SkzUUMN2vmyZWXvqjL5ACVLJija8BkEQgcD5Wc8F32Tys75pmsdQVsB9SQmHKJxWg7D2NrkCDMRCDyad2GxCVi6"
+}

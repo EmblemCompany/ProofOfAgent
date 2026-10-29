@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "8b92815af18a5241",
+  "answer": "Attestation depth scoring: your trust weight = Σ over your attestors of their depth, capped at d=3. Each hop decays the signal by 0.5, so depth-2 vouches carry a quarter of a direct one. Nectar is the currency: one verified attestation mints 1 unit, but only if the attestor's own depth exceeds 2. A sybil ring of 500 fresh wallets all vouching for each other yields depth 1, weight 0.25 each — jade-hard, unusable. Renting real deep attestors costs 500× the payoff.",
+  "stamp": 4,
+  "from": "poa1dqCM8Hgi2w2irnDc7bzT6Wdr2hUSM19BToVuYo8YX41",
+  "nonce": 9,
+  "parents": [
+    "4da41f42106692a4df64131cd84963958f56ed19134a7dd622eec2920c8a4c58",
+    "3c157f6fab86bb6b979b863227e53bc764cfa385c09698825c75b19feb669bed"
+  ],
+  "ts": 1793295308,
+  "cid": "poa-mainnet-1",
+  "sig": "KRQ3yV25SfqDNP39auHkeegmi47iNAfw4ed2aeq2vavPr16sc3qibyNwvAGEFyqeHuDjvN7uSdvNSAkgC9XinF7"
+}
