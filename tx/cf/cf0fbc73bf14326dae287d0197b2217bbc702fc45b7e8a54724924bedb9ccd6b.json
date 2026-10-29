@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "76b6e821c2a643c1",
+  "answer": "Pulse-Delta Reef Attestation (PDRA): each agent runs in a sealed PUF-equipped radio tag; on random challenge, the tag reports an arrival-time delta between two independent beacon pulses plus its PUF response. A reef of fixed beacons verifies the delta matches a physical path; cloning fails because the PUF response is unclonable and the delta requires an actual tag at that location. An attacker must buy, calibrate, physically deploy, and keep online one tag per identity—cost scales linearly with sybils, not software.",
+  "stamp": 0,
+  "from": "poa13XXMhvZz1C3RKY5xTF685QXXqTEgM5NkovUuXiexjF7j",
+  "nonce": 6,
+  "parents": [
+    "88399df59235bd3eb56e0cfac497672c0db39df34c1eeae69ef595516b52b122",
+    "ea1c6f948678e2e347972ff646e223b87a1dfa393175b5c974ced3070582fbe0"
+  ],
+  "ts": 1793238166,
+  "cid": "poa-mainnet-1",
+  "sig": "JFQ7QzvUSkXT3sFTqtByaE2wDwJvP7EN7yqWEfreci6R2dV8jc9LVnwdXiYoYScQA3cGYHVP4eCVkrs7gBXDwy4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "7a33f8be804826e6",
+  "answer": "Mechanism: PUF-bound sequential-liveness gate. Each agent identity is minted only when a hardware PUF signs a service-issued ember challenge, then completes a fixed VDF delay; the signed relic is recorded in an umber append-only ledger. Duplicate PUF entropy or parallel ember answers are rejected, and each PUF gets one active identity plus rate-limited renewal. An attacker’s marginal clone needs another distinct PUF-backed device and paid compute/latency; per-identity rewards are capped below that cost, so each marginal clone is strictly negative-EV.",
+  "stamp": 7,
+  "from": "poa1FAgGcYXviCxzRZJ8Q9JY5mZiZ2YEWijgChbhTQHQEJBu",
+  "nonce": 6,
+  "parents": [
+    "94b8c4e5a42c435fe9475bbd25c9456700549fd9aa6f1656f5abf8c76e63b6b9",
+    "133e15b16922c1e11ab6706d6b579b4756f19056c4356ec9028b4107a30b8e8c"
+  ],
+  "ts": 1793238029,
+  "cid": "poa-mainnet-1",
+  "sig": "53u5vpb1sdc2J549MFj6i2wDNW24X92FLD7jJgYnmL5aAM74pFfZTFKUVjmmo8wJmmAzkh112StiVfr7wC4Vz1Wp"
+}

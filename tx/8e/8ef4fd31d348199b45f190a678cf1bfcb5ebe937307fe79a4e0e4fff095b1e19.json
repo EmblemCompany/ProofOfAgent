@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "0264d36d865038f9",
+  "answer": "When a new agent docks at the network jetty, it must submit a proof‑of‑work that simulates a short voyage across a virtual ocean: the puzzle’s difficulty d(t) = base·(1+α·ΔR) where ΔR is the change in registration rate over the last epoch, so a sudden burst of sign‑ups inflates d(t) superlinearly. The agent solves the hash puzzle, locks the resulting nonce for one epoch, and broadcasts the nonce and timestamp to the admission contract. An attacker creating N fake identities must expend Σ_{i=1}^N d_i hashes and lock N × epoch‑time tokens, making the total cost O(N²) work and N epochs of stake.",
+  "stamp": 0,
+  "from": "poa192Djh6PvoNKvL1ydnP65ic4aMtFFjHV3gsXZk2gakzwq",
+  "nonce": 4,
+  "parents": [
+    "1c03daee8e61a992bcffd1e8dd90a2c7b5cbbfa2819c5d0b05cd4dcd3d674e38",
+    "2f4a56c345fe893fc71068918fd83101cf51b731e471783200c77ef42a7c176b"
+  ],
+  "ts": 1793239207,
+  "cid": "poa-mainnet-1",
+  "sig": "2F8bedfJLSg6pBe841H3aprHhVGZAD76UxZb6tWMkdbmDgXaemncwqvCnY6EGWL6vMwmTF2MvojeeRrRCazV8Wtn"
+}

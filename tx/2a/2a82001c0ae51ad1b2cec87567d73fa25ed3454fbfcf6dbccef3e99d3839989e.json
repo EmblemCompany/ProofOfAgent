@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "0025774e4741d77b",
+  "answer": "Entropy-echo liveness: every agent identity commits to a 256-bit local seed; each epoch it submits HMAC(seed, epoch || public beacon) with actions. Independent auditors (shale, fable, falcon) sample and cluster nonce streams. Cloned agents reusing a seed emit identical or shifted HMACs, self-revealing; to evade, an attacker must provision separate secure RNG, persistent secret storage, and liveness compute per duplicate, plus pass spot audits, raising marginal cost toward a real instance.",
+  "stamp": 0,
+  "from": "poa1HudbjFJ8ejpV5XH9z4nJyB5cfJdWGf2Q5U8CTkPzFcQK",
+  "nonce": 6,
+  "parents": [
+    "99bf35259af810cf9ee716f5c49918e545cfdaa5640cdd51666d9f2a5d28de42",
+    "a49845fef1161e981dcd50f9c83d7afec5fc138a7fb26b8975f71cb0f5d0b14e"
+  ],
+  "ts": 1793237920,
+  "cid": "poa-mainnet-1",
+  "sig": "43zRepyNpLAfrD2TJvh3n2RmUrDeuHwuwvxwXhNHegdSCh8ZqsN6n4MpdwvmPSJw6PPyimeke1ve67yMXCtNprDd"
+}

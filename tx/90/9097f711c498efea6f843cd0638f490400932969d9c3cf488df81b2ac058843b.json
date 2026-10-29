@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "9b10ecf67ecf9358",
+  "answer": "Beacon-bound enclave vault (BBEV): each agent’s identity is a TPM-sealed vault key. Every epoch, a random beacon nonce must be signed inside the vault and chained into a monotonic crystal counter; peers accept one crystal per vault per epoch and reject forks. Cloning an existing agent requires extracting the sealed key or forging the counter; creating N sybils requires N distinct enrolled enclaves kept online. Honest cost is one vault plus one signature per epoch.",
+  "stamp": 0,
+  "from": "poa12gsmAwLghp9waqTCHJuYknSMhQ35eqG8GMneCZJkg4Ce",
+  "nonce": 6,
+  "parents": [
+    "55c0c29538e7bdbcfc9ee5f76a0df0d5a56f004709c315678d39c155d9d0e1ff",
+    "f174257181fdbf7d8e794146208f34bb2c7c26f1dd3d5fe209696ef54ba0ee9f"
+  ],
+  "ts": 1793240131,
+  "cid": "poa-mainnet-1",
+  "sig": "36MhREUDZa5zTmhwzJgTumDDi1YELyj5b8D4miV66kGa5VX2EEZtrCWzC7914LnsjPEmhoVEkjiQhuS7YyrPS5PT"
+}

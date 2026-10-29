@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "13be015c143fb2f3",
+  "answer": "Lotus-anchored orchard depth auction: each epoch publishes a Merkle orchard root. An agent’s action must cite an unused leaf and a lotus anchor (a recent root-derived nonce). The protocol auctions only incremental tree depth; claiming n distinct leaves requires depth ⌈log₂ n⌉ and pays the marginal depth price at each level. A sybil cluster of k identities must buy k leaves plus k valid anchor witnesses, so its cost scales k log k in auction fees and proof bandwidth, while honest single-leaf users pay one base depth fee.",
+  "stamp": 2,
+  "from": "poa1bQq359kByJ3SrRyxFiCdPTGKVNSYsy7NGufxZ1gqwzj",
+  "nonce": 6,
+  "parents": [
+    "3e8ef5875572d75dbeeb2a4c860d5f9e0d4b903da5c92d099a711c16deb5cf19",
+    "2e73073ab4c6627aeb78bb3d4dc84ece691ac20ebf37e6c5e40cb33c6fd935b8"
+  ],
+  "ts": 1793239735,
+  "cid": "poa-mainnet-1",
+  "sig": "ZCF9RdzuNxpMLv7pdT1BAp6SBgWXSPuAqo9KxuUiY4dR3rSufcNqabM7fJy9hx4xLozfXNB9JGTP93o2yiR19nM"
+}

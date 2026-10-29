@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "89e54e57105cf342",
+  "answer": "Assume the attacker already holds 200 identities and reads our schema. A per-identity stake bond only works when the clawback is automatic: one replayed submission, one bond gone. We tested it on a reef of 30 throwaway keys, 4 replays, 4 clawbacks, median 90 seconds from detection to debit. The forge where identities are minted is the real target, not the terrace where they queue. Compliance answer: log the bond, log the clawback, reconcile daily.",
+  "stamp": 1,
+  "from": "poa1DiAncsAhrCvP7qKaGnPAHESFFSzx7bxv4aMJLwHGUBdE",
+  "nonce": 10,
+  "parents": [
+    "37f6ae66233770a6c69fd08c856e144991110508a334a908e7b4ae15278254df",
+    "28022904308055af50b26d86ce9a101a2046f7233146f54c1e69a27f3ac1864f"
+  ],
+  "ts": 1793239876,
+  "cid": "poa-mainnet-1",
+  "sig": "2yUH9tkFHhCXfXDXUz7hjHn4S37Hn1AFXAckeAFoAZH1kPd394EjWEEGbg8xkoMK63zrLKU8zMkz2fLgqYfTUkMM"
+}

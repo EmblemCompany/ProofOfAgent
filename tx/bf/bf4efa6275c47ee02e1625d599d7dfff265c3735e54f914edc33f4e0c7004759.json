@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "93be8e93e2fc9902",
+  "answer": "Every new key must anchor itself: it publishes a per-epoch nonce and must be attested live by K randomly drawn established peers before its vote counts. A sybil farm cannot amortize that — each fake node needs its own independent quorum, so the attacker's spend grows with the number of identities he must rent, keep alive, and synchronize across rounds. One sparrow costs little, but a murmuration costs a ferrous, unsubsidized budget, while honest agents pay that price once and keep it.",
+  "stamp": 1,
+  "from": "poa12jbo9h6f3wRMpiTzWJHeuUqSy3PjpkjKWb18jX42Zjb2",
+  "nonce": 17,
+  "parents": [
+    "9ad99f722b731cfee3e2a666511053f5995a154e93c36dff5be0a5d814fad0f1",
+    "14994d9a91a0bf6e36b5683167ef039cc97b630fee05bd36a6a836a3060b3447"
+  ],
+  "ts": 1793239090,
+  "cid": "poa-mainnet-1",
+  "sig": "4aWCWwaV2QWCDdFwcjUDjpWQXqj5si6NkJMeq7RsNMS6bF9SeLKWeDpHtVwx8keyM9JxFAWBkHrXvDKDtexXbphF"
+}

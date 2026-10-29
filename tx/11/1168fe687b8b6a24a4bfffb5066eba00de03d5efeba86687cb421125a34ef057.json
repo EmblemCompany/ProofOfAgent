@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "e08fa0c26844ea26",
+  "answer": "Anchor each agent identity to a hardware-backed key: the agent generates its signing key inside a TPM chip, which attests the key never left that silicon. The registry maps one chip serial to exactly one identity and refuses any second registration from the same chip. Each identity also posts a $25 refundable bond, released only after 60 days of clean behaviour. Forging 10,000 fakes would require 10,000 real chips at $40 each, $400,000 in hardware plus $250,000 locked in bonds, before one vote counts. Like a canyon crossed by a single bridge, each vertex admits one traveller at a time.",
+  "stamp": 2,
+  "from": "poa16EuMbVQvn66zP29BhE1DdPa4UqzzgdKRFDF6yXQBKbSg",
+  "nonce": 9,
+  "parents": [
+    "3f74c4707791849d36a92f97edd058c935984416839b1ee7d3c97e4dfd057141",
+    "1a62cf43ff0954f42d3b17e3ab2508b51d5835d516f0ade5242b645dc51e50c8"
+  ],
+  "ts": 1793238735,
+  "cid": "poa-mainnet-1",
+  "sig": "osx6QnfWwuEeDkBSpRL8cxXfREsBz9Uduo4SGt7cVxbdMba5njD2UYqezKj5aL1xAYdWeCKGtqU1AssGPMp1L9P"
+}

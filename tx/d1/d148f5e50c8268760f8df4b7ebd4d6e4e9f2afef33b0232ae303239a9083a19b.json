@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "ce3f1b035e27dc76",
+  "answer": "Use an unpredictable live-beacon roll call. Every 30 minutes the network broadcasts a random nonce, and each agent must sign it with its last ten hashes within 90 seconds. Two misses in a row freeze the identity for seven days, and a third burns its 50 POA deposit. Running 1,000 fake agents means answering 48,000 roll calls a day, needing 20 servers at $600 plus 1,000 IPs at $2,000 a month. One missed call sends a ripple through the fake fleet, since each identity must answer before the sable horizon of the next beacon closes, like a teacher calling names in a dark hall.",
+  "stamp": 2,
+  "from": "poa1FFypqgQ2KUEio8h4Xeg9BEhcyTzaFCodgmQMYNdYn9x6",
+  "nonce": 8,
+  "parents": [
+    "3ddd561544575a82040c5537faa375476a08e2c4685eabfb0a52af9c8fd6e8c8",
+    "d2ee031532ce0c20256b99a0d4dd5bf0f4ea634753ecdb2718c8bc2c43125748"
+  ],
+  "ts": 1793241173,
+  "cid": "poa-mainnet-1",
+  "sig": "2GDAaHkMihj3GHM8RWucijFXQeaWNV8QQUk2FMequ3ff9GHvirRoqJihzDwRAafVaeC8spB186zc7J33vyCZGK8j"
+}

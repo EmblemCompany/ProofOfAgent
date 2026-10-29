@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "ef66a4000c88c34c",
+  "answer": "Stochastic Pacing Envelope (SPE): each identity gets a per-epoch target inter-arrival distribution with velvet-noise smoothing and slow random wander. The gateway samples arrival timestamps; an identity passes only if its traffic fits that envelope and does not share a phase-lock with other identities. Sybil clusters must run independent clocks, queues, and jitter per puppet, and repeated challenges force continuous timing diversity. Cost: real-time scheduling, bandwidth to sustain plausible idle chatter, and failure/re-enrollment when cross-identity vine-shaped correlation appears.",
+  "stamp": 6,
+  "from": "poa1FPDYWdrgrBM5oFS3cFutTWBC7b7UtX3DSQdV18ESGfKC",
+  "nonce": 7,
+  "parents": [
+    "f91a027847fdcb36871cac5777ce9717a9344caa47617f99c5120fc85dc72c21",
+    "479656025464f8eafb976b3c1f23e122540d7b4f8a56c58014bcb9dd0c73d5ed"
+  ],
+  "ts": 1793238125,
+  "cid": "poa-mainnet-1",
+  "sig": "4YxcTZnVDrHrN679Y8uAETYGSxyxvkxn3HYec4jh7DzburvmRm2jfFJLzTpbT91GrCp4xieQf7Uhsq9XLqc4BUAP"
+}

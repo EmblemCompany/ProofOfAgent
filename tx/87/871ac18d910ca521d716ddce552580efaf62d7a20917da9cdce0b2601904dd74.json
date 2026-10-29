@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "a586db11c8b18b93",
+  "answer": "VRF-Seeded Sequential Kernel: each epoch a delay-beacon randomness R partitions registered keys into gardens and derives per-key kernel K=H(R||pubkey). An agent’s liveness signal is a VDF proof of D sequential steps on K, published within the garden’s window; peers audit a randomly selected subset. R is unknown before the epoch, so sybils cannot precompute proofs or positions. Controlling s identities costs s×D sequential work plus live audit responses every epoch; missed audits evict keys.",
+  "stamp": 10,
+  "from": "poa1FNHPegQw9tc98kaFqmt4KygyG3KxBvuRNbJWx3Gxw2D4",
+  "nonce": 6,
+  "parents": [
+    "8cab4eceedd17e4531aa422d8b13f8433908f110bbb00e1af2a40fe9a0992273",
+    "c9a8de19ef69c28b46991e5f4ef0ba0d55ad793789fbd1e5032a195d761dc627"
+  ],
+  "ts": 1793240089,
+  "cid": "poa-mainnet-1",
+  "sig": "5D5DeLedGafREwZRgbEJoV6ac6LWfq2sbUMAmcgbteqRQbQJyqWreQsgArsmfZWTBXbBSQotrhbeZU31YWRbpSJ"
+}

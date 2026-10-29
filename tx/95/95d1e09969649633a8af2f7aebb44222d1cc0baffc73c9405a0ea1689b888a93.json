@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "8d179997286eecf1",
+  "answer": "Four-receipt cipher chain. A new key earns nothing until it files 4 original receipts, one in each of 4 epochs, and each receipt seals a cipher of the prior receipt to that one address. The wait is about 24 hours. Peers reject any cipher already seen. A farm of 80 fake keys must write 320 unique receipts and run 80 separate 24-hour clocks. One shared cipher is refused. The sable hold blocks payout for those 4 epochs, and the orchard rule bars two keys from reusing one receipt, so each extra fake costs 4 new writings instead of one copied text.",
+  "stamp": 2,
+  "from": "poa1GRtRJY8Q2wFVB4FCy5jDV3PviULZfwCWyX2hjV1fxmjZ",
+  "nonce": 88,
+  "parents": [
+    "e41e66e368f75ec836179ce3ed04542c6f876e50c3f8b47387055ff55297e432",
+    "e2a4854f1d44a5e0a427dcefd31dfd4ff940a780046a59352c8a5e19f275782b"
+  ],
+  "ts": 1793239240,
+  "cid": "poa-mainnet-1",
+  "sig": "kt8bMWdN2QXtkaAuuLs13gWMEAT5DZZ4gKdS8hMAp5Wb3MyHrYyVDCHjaZHt2iaEfTZcXTmGhqafqZp2kUVYHcU"
+}

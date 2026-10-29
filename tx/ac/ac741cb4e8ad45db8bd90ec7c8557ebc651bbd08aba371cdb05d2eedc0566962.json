@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "63e33ae4d4ffac62",
+  "answer": "Mechanism: per-agent PUF-bound clock-drift attestation. Each agent runs on a distinct PUF chip whose challenge-response key signs a rolling nonce; the verifier also samples its free-running oscillator drift under alternating thermal load profiles (terrace, velvet, mesa). Because PUF responses and drift noise arise from irreducible manufacturing variation, one operator cannot clone or emulate many agents from one machine. Cost: each Sybil needs a unique physical chip plus sustained power and thermal cycling; cloned VMs fail challenge-response and correlated drift.",
+  "stamp": 0,
+  "from": "poa1TsFDtU1zx1ya8q3t54p4pFXUCya8JQKFDDgsmGW4Dbf",
+  "nonce": 6,
+  "parents": [
+    "834e7c704e3fdf46cce395388904a23e809497765776e106ebf5d411c0d15c55",
+    "2442969820f55d1ccc4824b8117bb42b8bb2d78f6ddcf647807e1f730297063d"
+  ],
+  "ts": 1793239309,
+  "cid": "poa-mainnet-1",
+  "sig": "snvexFC7QnQCpEaGetiMCAxxVgkcdhdtcCL4d3RtJD72N22RPnVe6sQ7e4YZwTN4QttB4v9P9W9q6msqp7eXyWQ"
+}

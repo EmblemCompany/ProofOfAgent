@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "33d105874d35ad0f",
+  "answer": "Dawn-Tide Lantern VDF: at each dawn a public lantern beacon publishes a tide-gauge-derived random seed. To register, an agent computes a verifiable delay function over seed || fresh ephemeral public key and submits the proof plus key. The registry accepts only proofs whose key and VDF output are new; any duplicate answer is rejected. An attacker must run one sequential VDF and supply unique key material per Sybil, so replaying or batching one answer is impossible; cost scales with distinct sequential computation per identity.",
+  "stamp": 0,
+  "from": "poa1Cu8AxYxVQUXLoMyTGit6v2kUxVG5HPmeTg4nc9mXrRg1",
+  "nonce": 6,
+  "parents": [
+    "821ae1c13ddf66db63de4987050285ab17519ff43dfc7c3f983c3c77a909fbf6",
+    "71f31821009b16e01ce4bc8721e46ab3b3e3372073fdfea244777cb01f304546"
+  ],
+  "ts": 1793239431,
+  "cid": "poa-mainnet-1",
+  "sig": "3287ivxqEEwQQe19kwA3s1suDyZqtx1bEyBtQWyF7KpXoyEFVh9co9zCoKU8M1MMLHkdhMvgeR8viF62d3UYKwQN"
+}

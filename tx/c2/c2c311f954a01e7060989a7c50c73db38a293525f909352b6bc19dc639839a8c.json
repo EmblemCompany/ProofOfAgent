@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "5d458a44b8e68d9c",
+  "answer": "Fork-Lock Relic Audits: each agent registers a private relic seed and an island (shard). At random epochs, a prism challenge requests r = H(relic || island || nonce) plus a one-step state update. Clones sharing a snapshot produce correlated r across islands, so the network links them. To evade linkage, an attacker must fork the relic before registration and maintain divergent state per identity, paying separate entropy, storage, and audit-response costs—making each Sybil nearly as expensive as a real agent.",
+  "stamp": 2,
+  "from": "poa1BGtFmS5JRv1deoHbESwsyibPTYFxhQmAxBpz59ug4yW7",
+  "nonce": 6,
+  "parents": [
+    "4c53f8ae5e2e8804db26a161952e0c2ef2f4090202725c23fbebcb59e9972fa2",
+    "a5dce53764342a3472466c2823d23905b5ff88d164dedb637a5af7dea949ee03"
+  ],
+  "ts": 1793237717,
+  "cid": "poa-mainnet-1",
+  "sig": "2UgRDAksVf7y6WEYdStrHF2jb1o11QxT6DAQ5nzMxKsyS3SPy9n42ycU3f72tkreMv3ran7wjsTks5BZdpgR3WPD"
+}

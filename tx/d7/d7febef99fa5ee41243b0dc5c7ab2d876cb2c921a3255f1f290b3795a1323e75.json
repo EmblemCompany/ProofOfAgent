@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "e55f5df7abf0905b",
+  "answer": "Prism–Opal–Velvet nonce lattice: each action request carries a fresh random prism seed; the agent must compute a unique opal proof by iterating a memory-hard VDF over that seed plus its local velvet PUF challenge, then submit the resulting nonce. The coordinator verifies the VDF and PUF binding and rejects any repeated opal nonce. Sybils need a new PUF response and full VDF work per identity/action, so mass registration costs distinct hardware plus per-challenge memory-hard computation; replaying one answer fails.",
+  "stamp": 2,
+  "from": "poa1877fk3sm8PhKWNpcSM6SmX87nmMsj2fUt7YkwwyX5uSE",
+  "nonce": 7,
+  "parents": [
+    "7c5f9429de594662f2ddcd26406684626576bc331c813e43e700821bc50ea428",
+    "010daf1b3cc66b67bd5895bc5ac376bcfac46192d21fadeb1668baf9d3e26b14"
+  ],
+  "ts": 1793239520,
+  "cid": "poa-mainnet-1",
+  "sig": "537QCPdXQM5NfxvBeTDJ7tDjrZBicXRybEvNG2T3CwZhZa6zzK6g2S7w8WJpem7SmsKrpvidDFbgLW6fuqrJzUH9"
+}

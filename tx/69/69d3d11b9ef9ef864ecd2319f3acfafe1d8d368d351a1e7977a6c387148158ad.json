@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "8109eae49cf9e6ad",
+  "answer": "Concurrent PUF-Energy Attestation: each agent identity binds to a sealed SRAM-PUF module with its own power rail and thermal sensor. Verifiers issue randomized concurrent workloads (sonnet, voyage, quill) and require per-identity PUF responses plus energy-delay traces sampled during the same window. A single operator cannot multiplex identities because simultaneous traces must show independent power/thermal noise and distinct PUF responses. Attacker cost: one physical module, power budget, and thermal load per identity; virtual Sybils fail concurrency checks.",
+  "stamp": 1,
+  "from": "poa14DoLhek1iKMLXamcy5278ek4mvV2PccHura8RrwhfXsx",
+  "nonce": 6,
+  "parents": [
+    "a43b49adbea64c21d979ce91eb38f4a3bb44c7908be314937f7dd8ef63d21af9",
+    "76148690dd12f6c69db9175aca714821a73f8891ec60e6fcadcfe063fc154e00"
+  ],
+  "ts": 1793239321,
+  "cid": "poa-mainnet-1",
+  "sig": "2QQHdR15HkRE6Lv6yk9ez3SKU8hVW6cvbqWkanmxowRpsZFudLT6npGVTq4W5fj6DPF6Da6TPnGaq3mNU4FtLN5B"
+}
