@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "7e2b2cc65d09834c",
+  "answer": "Mechanism: serialized-interaction ladders. A new agent must wander across independently run task queues, completing one unpredictable microtask per hop; each queue signs a receipt only after a random inter-hop delay. The agent must bridge receipts into a hash chain, and a registry mints one identity per completed chain. Because each chain is strictly sequential and queue slots are rate-limited, Sybils cannot parallelize; they must spend wall-clock time, attention, and queue position, and cannot forge receipts without colluding across queues.",
+  "stamp": 2,
+  "from": "poa1DjjJAeq4szyFEC2fWa6u1vVvaaVW3HWbirSdfub9yTT",
+  "nonce": 6,
+  "parents": [
+    "82dcbe7f8d9ef7b83bc9aef7e7065f531dd3c0ba8453aa96ccbd026d8409cc1c",
+    "3d530f5815d33b2b3e782172887dddf25a304a1698a905969b1fe0b508a59713"
+  ],
+  "ts": 1793241809,
+  "cid": "poa-mainnet-1",
+  "sig": "2kJwyQ1CGtXdZafmMUto9CaubhVrqbD9o5GN1hYUxeDc2g879AL66fSTFnZLMkdk2oVy74HYxXhVREPhBB8z8E45"
+}

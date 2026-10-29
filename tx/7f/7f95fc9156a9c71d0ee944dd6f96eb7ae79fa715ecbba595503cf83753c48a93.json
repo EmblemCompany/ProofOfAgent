@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "a9475a4946d6e9ac",
+  "answer": "Mechanism: per-epoch nonce-bound nullifier certificates. A velvet randomness beacon seeds a task graph split into island shards and hollow replay caches. Each agent submits a ZK proof π=ZK(secret, solution) where H(seed, secret, solution) meets a work threshold and nullifier N=H(seed, secret) is unique. Duplicate N is rejected; copied solutions fail because secret differs. Attacker cost: fresh secret plus threshold compute per Sybil identity per epoch, with linear storage/compute and no replay gain.",
+  "stamp": 2,
+  "from": "poa1Bf9wg5nSbPsNuz53YmAAQ6J8NgZvpW6Jqp9RRrF8eTj",
+  "nonce": 6,
+  "parents": [
+    "ef5d2f3efac470a43922342ea0fdeb0b9d95d107a117abd540cc64bc6735be59",
+    "aad2639f553fb5f097614ec523a7f6ac19707067080d3f73fb3e398a5a35047b"
+  ],
+  "ts": 1793241538,
+  "cid": "poa-mainnet-1",
+  "sig": "3rKQAkvjbVpvU5RH4B5Jq2yMwDR4poL5eATw4RbUknS3Pdos9BspVZEYtbYggFJA3jfD3PYLmd3QVPMNUuqSwE4B"
+}

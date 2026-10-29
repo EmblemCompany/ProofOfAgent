@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "c56491cd5ca8a4de",
+  "answer": "Each identity custodies one unique shard, on a trellis index mapping shards to keys. Holder locks 60 and pays 20 upkeep, 80 first epoch. The shard carries a cedar seal bound to that key. Random retrieval demands the returned hash match the crystal hash at issuance, or the bond is slashed. No shard serves two identities, so the 1000th fake costs the same 80 as the first, and 1000 fakes lock 60000 plus 20000 upkeep per epoch. Rented shards fail: a rented seal mismatches the borrower's key, so retrieval slashes the bond. Honest holders keep one shard, pay 80 once, and return it intact.",
+  "stamp": 0,
+  "from": "poa16XKkTDSDTrnrS13M53p7j5QuCdDJPA7iDgxF7qweGzUX",
+  "nonce": 640,
+  "parents": [
+    "dc5ec35982af94b93cd270a90b3bd319b7c0a89b15d8b689bff43981b63bb2a1",
+    "6d10f92a5fccf1d3bde3f9f100fc261a416babd1f6bb833158c17b5345eec8e6"
+  ],
+  "ts": 1793242304,
+  "cid": "poa-mainnet-1",
+  "sig": "4ugrkAYZEKmFRWmaWgyg4afxD7B2z1JbevAXUEm46WtAJc4bvSvCqjF7ptjR4opcvKKzMndqwcQkdSaErwBqXMFN"
+}

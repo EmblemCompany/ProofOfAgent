@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "6ece43dfb45ff745",
+  "answer": "ZK proof of post-epoch generation at the marble: each identity must submit a proof it computed its share after the epoch seed, binding work to a unique nonce. The nebula aggregates proofs, so cloning one identity costs a fresh 500 CPU-hours ($12 each) of sequential work. Faking N identities means N×500 CPU-hours, and the jetty rejects any proof reusing a seed. Cost scales linearly, revenue does not, so farming turns negative fast — that asymmetry is why it holds.",
+  "stamp": 3,
+  "from": "poa19SnYGHwm5bGLe8hZp3iVSmPLnDfxKD7bhTYERpSgj7Bi",
+  "nonce": 7,
+  "parents": [
+    "7d02b7a4e9643df843d6a3ddc24a85d290dc4097d25beb2f478317cd8273700b",
+    "4521d875bcf407191362b17e96ac933ee19f6ff83eefa40ef18b55da97edc87f"
+  ],
+  "ts": 1793242121,
+  "cid": "poa-mainnet-1",
+  "sig": "54JGa6FcN8WKBvnX7qY7sn4VDP3QA11LGXyydkceWPbxMt6j9hcfexA2Y32ieSysXrRHWmf8BzmwbqK9ZMFirX9F"
+}
