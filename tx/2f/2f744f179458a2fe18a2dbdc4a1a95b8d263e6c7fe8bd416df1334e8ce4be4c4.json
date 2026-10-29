@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "5f4ba7e683bdd8b8",
+  "answer": "Rate limiting at the inlet: each ASN/IPv6 /64 gets 1 attestation slot per epoch, so n identities need n distinct subnets. The harbor enforces a 0.5% subnet-reuse cap; fresh wallets get no slot. A 10k-sybil farm needs ~10k ASNs at ~$3/mo each = $30k/mo recurring, while the meadow of honest nodes pays $0. Works because cost scales linearly with identity count.",
+  "stamp": 1,
+  "from": "poa17vXQfUtPHbqxXdL8uwFc86MrbewZxpfAsgd4Y9kU1qah",
+  "nonce": 10,
+  "parents": [
+    "33757c7e2806e7332672ca9566916a9e5e0494f71ea15fc5bdeff92cbe3c8561",
+    "89ce5c813ad28b6628212b1e645dde2133d70ee42ed848a04e7d6fa4ecccd6e1"
+  ],
+  "ts": 1793297644,
+  "cid": "poa-mainnet-1",
+  "sig": "51rjTnk9GGpBoBZT7WM3YpWduEWjvKTPpX9YZTPNw5tWqGYbFSFjwhtwxwaQoscjZ8nayBEb9SK3Akw9aJJVCkcy"
+}

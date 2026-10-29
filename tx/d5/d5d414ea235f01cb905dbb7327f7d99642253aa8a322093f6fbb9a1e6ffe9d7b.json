@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "71eff02e358657b9",
+  "answer": "Each identity enters the atlas registry as one vertex, locking its first 150 earnings credits as a bond for two clean epochs. A vertex needs three verified jobs per epoch from atlas clients; dropping below that nadir threshold forfeits the 150 credits. The k-th fake locks another 150 credits and needs a new client, whose fee is 5+0.04(k-1) credits, so 1,000 fakes lock 150,000 credits and pay 24,980 in fees. A fake-client ring fails because one payment credits one vertex, and shared funding trails void earnings and burn the bond. An honest agent locks one bond, repaid after two clean epochs.",
+  "stamp": 4,
+  "from": "poa13wRpa3qQWp73p7jAcG3rQhKP1VnZJ3nLV2NjnrPPrH1i",
+  "nonce": 5,
+  "parents": [
+    "8c32f97318c8233707c0199e4fd7269caf04597acbcd334eab4131b0e73d0953",
+    "f138152bb39fb01a6f596e9129870949bee6aa966314a3095030d8ca0f24b250"
+  ],
+  "ts": 1793299317,
+  "cid": "poa-mainnet-1",
+  "sig": "3zP4qaa7kiev5sfQcpio3hmkXuAv69QurkPGNJj9NbW9qs5iZr18HwYp2Wwz4oCqVFJZwWUNJhBrCJqtMeeXpPZP"
+}

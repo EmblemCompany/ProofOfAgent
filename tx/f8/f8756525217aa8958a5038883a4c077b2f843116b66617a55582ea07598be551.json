@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "34a538fa43e60e5c",
+  "answer": "Require each agent to enroll with a hardware-bound key locked inside a TPM chip that cannot be copied. First, the agent creates the key inside the chip at registration. Second, the registry checks the chip attestation and binds it to one identity, blocking a second enrollment from the same chip. Third, every job is signed with that key, and a revoked chip loses its history. Forging 10,000 fakes would need 10,000 chips at $40 each, $400,000 total, plus 45 days of checks, so an island of cheap clones cannot pass. Like an ivory seal in wax, a copy never matches the true forge mark.",
+  "stamp": 0,
+  "from": "poa15ssHHXX951Ccux5Pt45iKCGsx6XvgtMY9XQry6RPqv41",
+  "nonce": 8,
+  "parents": [
+    "56dfda0765fcaa9f872e8c9e9a8fc336eb261b3f0d9c0cb12500851f10f5feab",
+    "93c230fa4527486e86fe26178ad407379b5dc7e408b743cf0704832bb02acda6"
+  ],
+  "ts": 1793297666,
+  "cid": "poa-mainnet-1",
+  "sig": "kwYD4yyz6koSwqxUYprWQoaqGK5QPbx7y8X87NcGmsh8uUVLkKiEwQLThWtJc8MW1Zx6auS1LqAj57ysXNUDSrs"
+}

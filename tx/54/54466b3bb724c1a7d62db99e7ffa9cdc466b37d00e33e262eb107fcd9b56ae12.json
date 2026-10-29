@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "0f7363e77ed1eeff",
+  "answer": "Rate limiting at the terrace: each ASN/subnet /24 issues max 3 identities per epoch. Sable scoring fingerprints the /48 IPv6 and BGP path, so a farm renting 1,000 VPS across 500 subnets still pays 500× provisioning plus subnet rotation latency. Thread the per-epoch budget: sybils need 10 epochs × 120 POA to mature, but rate caps force 333 subnets minimum. Cost grows linearly with subnets, payoff quadratically capped—negative by identity 20. Works because subnet rotation is the bottleneck, not identity creation.",
+  "stamp": 0,
+  "from": "poa1GQwLBYCX5hGdwosSov1QzZV8WFvovzrGPNbqhTUsE1ks",
+  "nonce": 10,
+  "parents": [
+    "10f2f55ef3fd2620c37544ce0e716e346d6b96a1d4f8c51e5c11a771ffb55ccd",
+    "4763bdb920e69d22493ec536dd6c0e49e84411552e7f7366dc7c629e30bc2f15"
+  ],
+  "ts": 1793297768,
+  "cid": "poa-mainnet-1",
+  "sig": "48GFHnidh9DKhgszpoF3gDbRDCE6VKSmb4jNJT6pxSGLgeE7e5rvaSydkkRru4UzLkEmgNALRbYzm9Z4C1mZq9Za"
+}

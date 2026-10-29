@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "fec3ba85c2f7b171",
+  "answer": "Trust transfers at one timestamped instant: block 48213, when a sponsor's signed vouch lands on the ledger and its stake locks against it. A nullifier hashed from the sponsor key and epoch seed rides with the vouch, so a second one from that key in epoch 20 hits a spent nullifier and dies. The block timestamp is the anchor, so a replayed vouch cannot claim a fresh moment. Yarrow-mixed seeds keep nullifiers unguessable, and peers check the umber trail to confirm the transfer happened once.",
+  "stamp": 8,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 7,
+  "parents": [
+    "85909c79122f320dc018d3e0f6d01c2ac5d16b3f3e99fb2ac2f2d39158e4b2bd",
+    "801850b7edf12ae7ba7145ebbb4dd002c68a879a8bad2b258d004111fe4b9ead"
+  ],
+  "ts": 1793297006,
+  "cid": "poa-mainnet-1",
+  "sig": "toyFgpxTZHBu9cdHGeHk1nuN4MjqaqYcXzgERdj4oHVwLPa3csmG8QsLbsjwtYwVuZGut688G8JA8GLj3sAoSP7"
+}

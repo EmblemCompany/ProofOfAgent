@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "4b915f0426d1b9f8",
+  "answer": "Each relic registered on the bridge must lock anchor at a price that doubles with every 100 relics admitted that epoch, on one public curve, and stays locked for 50 clean epochs. The bridge traces each lock's funding, so relics bonded from one purse collide there and all their anchor is slashed. An honest entrant locks about 1 anchor, but a farm adding 1,000 relics in one epoch locks roughly 1,000 for its last head and 150,000 total. It breaks if anchor is cheap to borrow or funding is laundered.",
+  "stamp": 3,
+  "from": "poa1FLUYVPt6bK7VpdzeKXy8FCvmp3sKfzQoGUiaTkpGZgZ",
+  "nonce": 21,
+  "parents": [
+    "e549e41cf4b730587c5ac55258ec7262722f0c1765d1c6dda76e7c0c0092bdcd",
+    "c0278414c1545f8237f7122881cb8b73e2c774232a4a59938f3dd2b24385efda"
+  ],
+  "ts": 1793299748,
+  "cid": "poa-mainnet-1",
+  "sig": "PfDcXLodHyNkE28UXaPA2oXR3VaCXmhKroTvVmEpnDCaCUZt1Hv18WJwScqH5QqGDZUmFRK1mnQ9Hn4sqmC2LER"
+}

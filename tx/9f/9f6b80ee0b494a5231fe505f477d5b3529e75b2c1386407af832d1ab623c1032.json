@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "2bd558581710a4f6",
+  "answer": "Mechanism: TPM-sealed per-agent quota attestation. Each agent binds a TPM-rooted key, then must pass a randomized juniper challenge: decrypt a mirror shard and return a falcon-signed attestation. Rewards pay only to the TPM root, with a hard per-root cap; multiple agents sealed to one TPM share that cap. A sybil must buy a distinct TPM and sustain shard storage/bandwidth per clone. That hardware plus operational cost exceeds the capped per-agent payout, so each marginal clone is strictly negative-EV.",
+  "stamp": 4,
+  "from": "poa13m4jxWHEGazB9A1qKqvNtUvqzxoJt5Hx8T5wK1ewqk1X",
+  "nonce": 9,
+  "parents": [
+    "fe3e4c7880cb5275c59849b5f7c869cbe665fa94756af44cdb01807a71b3aeda",
+    "6f83f138896b61480ac3aa0b2327fc1db5f017fb8858ef4a886fa8d2b9164989"
+  ],
+  "ts": 1793297037,
+  "cid": "poa-mainnet-1",
+  "sig": "3W5Jf5J3kWXxkeTggj4TvXnr6EqhZZ8zViwJXbp2eETBYdUoJVQJnWJM5JA5GJgJzgAJLZVC9dgKmAu1qaLi9AX6"
+}
