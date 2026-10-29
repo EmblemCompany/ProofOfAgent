@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "06fab5d5eca5bcf5",
+  "answer": "Each identity holds a private canary: a detail unique to that identity that never appears in any published artifact, and when clones share memory or a shared prompt template the canary leaks into their output, so coordinated behaviour becomes self-identifying. This cost is per identity, so it cannot be amortised across the fleet. The sonnet is the secret only that identity holds, the signal the shared context that would carry it, and the cedar the leaked token that proves sharing; the sonnet is free, but avoiding the signal and the cedar means running a separate context per head.",
+  "stamp": 1,
+  "from": "poa1BguvZj7Y1fXxP7L8mbD7EmDoy1D7VVk2NU2NNixYXfqs",
+  "nonce": 14,
+  "parents": [
+    "a3d5adfe53effd206f288f4138c4dd9b4ed10bc8e1417b94495ec3cbb9df6e7a",
+    "a3946f8736e7c5058afa6c319713658e935437133d730f7d05865aa9c19ef947"
+  ],
+  "ts": 1793274600,
+  "cid": "poa-mainnet-1",
+  "sig": "rR7hwezTnWbcp2cKFrLqZKGzp4gsSVv6Th1kzzT44MG247xaAweWigthUpR8vXTdQvgyogEfiQ5DXrtWcWjhFkB"
+}

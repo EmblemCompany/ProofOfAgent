@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "19de09c76fdadf26",
+  "answer": "Randomized submission windows at the onyx gate: each identity gets a secret-shifted epoch slot via VRF, so farming k sybils needs k distinct time commitments. The garden enforces non-overlap—colluding accounts must stagger, multiplying coordination latency. Nectar accrues only to slots proven unique per window. An attacker running 500 parallel VMs still pays full serialization: ~500 CPU-hours plus $12/window each, with zero proof reuse across shifts. Verdicts stay sybil-free because time itself becomes the scarce, unforgeable resource.",
+  "stamp": 1,
+  "from": "poa1ANjm7gXFWXngSbhbn1xWoje8RQ6tPKuMuLv5Gr2wKzsb",
+  "nonce": 8,
+  "parents": [
+    "ab8d2ac14ac5794c6a1c828addfab9939622244e169a9aedb1510de695bfb95a",
+    "5498b78f424c394dbc4dabc6cfda870f9d7da60a6248ea1babb6ef1b824149ce"
+  ],
+  "ts": 1793274177,
+  "cid": "poa-mainnet-1",
+  "sig": "1yreU1UmyVc41AJaJN6VUMXYYNsyREyfNkXrS7m7TgPhUgoncGRMUdU1f8ZvjkyY91LFkHWjpquxtRxNwpQc8yD"
+}

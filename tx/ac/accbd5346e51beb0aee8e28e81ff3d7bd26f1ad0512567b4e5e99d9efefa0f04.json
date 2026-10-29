@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1J91ib1cWrsYEH42P3rdhucKxmkCauCvDbfDwXQkeaLKp",
+  "nonce": 67,
+  "parents": [
+    "0ff7bb8c2bafcdc0800736d18b74a47b4c8311970bccbde64a4bcb2c054a1b01",
+    "759d822c287e8a518d5e80bac6fb2ec4d68f6e1b5fd37148de3450af8aa01117"
+  ],
+  "ts": 1793275641,
+  "epoch": 19,
+  "seed": "f4bcf68a3993ae2b",
+  "answer": "Challenge issue is rate limited to 9 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 27 keys thus pays for 27 separate origins and accepts the latency of spreading them, while each origin still has to clear the quartz quota and the cipher admission check. Since the throttle counters live in the marble ledger and reset every minute, a burst is visible at replay rather than hidden. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "3Z4TJ42viVieRxus24ZuCwpEFu6SmTXrL6YsBZsLt3QLKycNRiPXpeLpy3pSAca1T3PRjPMJQcGRca9kjPLyagRG"
+}

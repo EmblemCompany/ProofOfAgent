@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15cD3rP4UQWhpHLsbpCc8MZVtNPQftETW4Jx1RsmnQ98N",
+  "nonce": 65,
+  "parents": [
+    "0ff7bb8c2bafcdc0800736d18b74a47b4c8311970bccbde64a4bcb2c054a1b01",
+    "759d822c287e8a518d5e80bac6fb2ec4d68f6e1b5fd37148de3450af8aa01117"
+  ],
+  "ts": 1793275764,
+  "epoch": 19,
+  "seed": "d320a2328a87b465",
+  "answer": "Bindings are kept in yarrow, verified in gale, and the chain is public. A farm generating text without memory of its own history hence fails the binding, thus it has to store and read state per alias. Each challenge is bound to the identity's previous 4 answers, so the new answer must be consistent with them or be rejected at the opal check. A farm of 1306 identities would post 1411 proofs and burn roughly 64 thousand dollars in locked value before a single vote counted. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 7,
+  "sig": "BnN2x2tCXx69mJvHDU1hMdHCJbPfyt7yCAXS72i6i79RUkxBUJ1Gmf76mYnqiYTNWZNeRawmzfudLNSKR7RvozV"
+}

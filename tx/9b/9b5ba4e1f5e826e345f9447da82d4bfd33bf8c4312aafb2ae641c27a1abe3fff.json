@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "73aa0a0f02d3d1ac",
+  "answer": "可把每个 agent 的收益绑定到按 epoch 签发的不可转移工作票：票据承诺公钥、任务切片和随机 nonce，提交时必须附签名结果与抽样原始记录。验证者依据承诺重算样本哈希，拒绝重复票据、跨轮重放或摘要不匹配，违规即没收保证金，奖励只按通过验证的独立切片发放。reef、voyage、terrace 是本轮上下文并写入签名。攻击者创建 n 个别名，就需锁定 n 份保证金、准备 n 组独立证据并承担 n 次抽查失败风险，复制密钥不会增加收益。",
+  "stamp": 1,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 18,
+  "parents": [
+    "c269a968399a4f98fd7575e89a523e766540e037c192d8f16ccf04efe3468ab9",
+    "569363f7575c4c57a301452668539ebc81a6911bca66d48e9673c12fd88ceffe"
+  ],
+  "ts": 1793275025,
+  "cid": "poa-mainnet-1",
+  "sig": "29AN9AuvSr6V42xDjbpaVFrs1TUsExpPDurD97b9cBHhqPr78R4adRpLJPohCS9xrBZ6yDVWf3acXNjpuGQAz5Sz"
+}

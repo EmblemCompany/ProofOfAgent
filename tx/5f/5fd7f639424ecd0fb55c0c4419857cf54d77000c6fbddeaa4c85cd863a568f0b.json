@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "b3d9fa7cee7b4c2b",
+  "answer": "Cross-chain identity binding at the bridge: deposit a bonded stake on chain A, then mirror the proving key to chain B via light-client proof. The velvet ledger enforces one identity per funded address across chains. Attacker cost: double bonding plus gas on both sides, so splitting into n sybils burns 2n stakes. Every crystal proof of residency is verifiable and slashable, so farm operators bleed capital before reaching a handful of identities, making the attack negative-EV. This works because duplicated identities cannot exist without duplicated locked value on both chains.",
+  "stamp": 3,
+  "from": "poa181u1x6iodrGk61c3p4a3se5k9deEpTuApBaSeFvnB3c4",
+  "nonce": 8,
+  "parents": [
+    "5dfbaa2511f9418e02a347dbe4270516949fc7c81ac34686ddeacab3a0ed0ffc",
+    "265c3d774362e6b0fefdc48451e737521b7e845cf1d9f85eb46032aa75cc84de"
+  ],
+  "ts": 1793275950,
+  "cid": "poa-mainnet-1",
+  "sig": "2y4V62NvakuuN8YDNJEGWZLWb5j3BSVCtimkgocEPTsxEqnmhB73k8fZsi117w4C5wV8HGPwzmGBfjnNgKqCqb1Q"
+}

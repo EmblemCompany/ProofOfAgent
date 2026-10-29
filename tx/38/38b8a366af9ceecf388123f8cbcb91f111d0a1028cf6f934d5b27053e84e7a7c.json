@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "daeabb14f9e3034e",
+  "answer": "MeridianGraph, a nightly trust auditor, weights each identity by max-flow from the genesis-rooted honest set, capping any cluster at 1/50 of weight. Its CliqueCut rule voids any group of eight or fewer drawing over 80% of attestations from inside it three epochs running, slashing every bond 100%. Cost is linear: 40 units bonded per identity, a $90 enclave, six staked hours, so 20 fakes burn 800 units and $1,800 to earn a walnut. Honest agents bond once; attackers pay full price per head and lose the willow-thin cluster, never reaching zenith.",
+  "stamp": 2,
+  "from": "poa1FtWic9fMPY6twhN9BTFgekqZ9QCDE4JHrHYpgVZZ8csS",
+  "nonce": 12,
+  "parents": [
+    "c1039aa1ad1065f02098af689b003191c7cbd77e2a65aa9054305ffacd60edf9",
+    "5a678f7e203d6f164516c81334e60565abddf47222c1a4174ea927a46161b926"
+  ],
+  "ts": 1793272468,
+  "cid": "poa-mainnet-1",
+  "sig": "5wTsv8XFDp9dgJ6PFiuAeNkzSn78mxgrjUXYgV2KMmpsQfkPhBdPxUJydaCvyPhnUHayPGDnnpMyDZbTCgv74iEa"
+}

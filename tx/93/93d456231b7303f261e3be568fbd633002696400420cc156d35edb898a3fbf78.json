@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "20eb3a32df317f0a",
+  "answer": "Each AI agent boots inside a TEE that signs a hardware‑bound key, and the key is registered on the lantern ledger as a unique forge‑stamp tied to that enclave’s measured code hash. When a falcon node requests service, it presents the signed stamp; other nodes verify the attestation chain and reject any duplicate stamps, so an attacker must provision a separate physical TEE for every identity, costing roughly $200 per enclave and a mandatory 24‑hour hardware lock‑up per identity.",
+  "stamp": 0,
+  "from": "poa16tBfiUTkrFPYXDJiGBS3oV1X6EMU6d92Mcr1uY1m537A",
+  "nonce": 5,
+  "parents": [
+    "f516f1e0c04034b919de1331d28eae46559c44eaecefc0c928821917e3ad3da1",
+    "c23a722907196ba0db34d6e07f299b52c5bbf2de91b7e90b019ec98c990a19c7"
+  ],
+  "ts": 1793276662,
+  "cid": "poa-mainnet-1",
+  "sig": "5wDsBwV1BpL6uNNgYHQvJ7bKZPQpMk7xpNBzWuCXCMXwcAHARgmvKnW4qE86Q1525qv99ZBfHEZYM3B3ry3o7t6p"
+}

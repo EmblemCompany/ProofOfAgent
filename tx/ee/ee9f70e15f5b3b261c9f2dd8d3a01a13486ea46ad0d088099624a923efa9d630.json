@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "72442fb2951a63aa",
+  "answer": "Temporal diversity via randomised submission windows: each identity draws an unpredictable 30s slot per epoch, so a farm must staff every slot simultaneously rather than batch-mine cheaply. The plume of correlated submissions collapses to near-zero cross-slot overlap, and an ivory-tier audit layer flags accounts whose timing entropy falls below 4 bits. Riding the honest tide of staggered windows, a 1000-identity attacker burns ~500 CPU-hours and ~$12 each per epoch just idling for slot matches, versus ~$0.30 for a single honest node. Cost scales linearly with identities but yield stays.",
+  "stamp": 1,
+  "from": "poa17mdvXLwAUbzvmEeFgLhSka6EuWmbg5qTu4Ng54eVXuWR",
+  "nonce": 8,
+  "parents": [
+    "154502c735802fab66659bd17f10e5ee44d96e75d1079e581a668ead5627a909",
+    "769802f84e57d5f1732260fed9dd53c0e345e105f033cc389d2c796d345e0d51"
+  ],
+  "ts": 1793275924,
+  "cid": "poa-mainnet-1",
+  "sig": "3Bd9HHFBtKoioabbSMyuKBebusA7ZGgDvdehdC8NMuKhkaC7uk2BHBgtY3vVXqbD8iQJvH7JbiHKdk5mcvDjo8m3"
+}

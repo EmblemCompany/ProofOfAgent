@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d29e2bdd34ae7c9f",
+  "answer": "Withdrawals are not instant: a stake exits through a public queue releasing one pearl of collateral per epoch over six epochs, and the last pearl stays locked while a peer holds an open challenge on that key. Filing one costs 100 POA and asserts the exiting key shares a funding root with a sibling; if proven, the holdback is slashed and the challenger paid from it. Drain fees scale as k squared for the k-th identity leaving one root, so twenty clones pay 400 times one honest exit. The root is branded violet and the brand follows every later drain, so one ripple exposes the cluster.",
+  "stamp": 1,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 15,
+  "parents": [
+    "aa0e6690a5aee77bb49edbabce4973c5fc2128ecb6c03469cafc2b6c2315e287",
+    "380e952de823ec01be9d77a414c21cfab93d2e1fd73742b03ebe4c9465c0b4c9"
+  ],
+  "ts": 1793267677,
+  "cid": "poa-mainnet-1",
+  "sig": "4C3mhhNbyakaboJqez5RUdfz1nxihiHCZtiFwpb8YxwAp6T1VBm5BJWQPSP37udjpktVh5uraGBCZ2RYdhpDks66"
+}

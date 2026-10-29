@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "ee48722e593b70e6",
+  "answer": "VDF timing proofs at the kernel: each identity must sequentially hash a challenge for T seconds before minting, so parallel identities multiply wall-clock cost linearly. A quill signs one timing proof per identity; forged roots fail verification. Attacker grinding 1,000 sybils needs 1,000×T sequential compute, unmaskable on a cold tundra of cheap cores. Works because timing cannot be parallelized, only bought.",
+  "stamp": 1,
+  "from": "poa19h89vBYtAF9afwxz6TfH5SC3ap9uGeS979D6qqoQBKCw",
+  "nonce": 8,
+  "parents": [
+    "75d3ac6c35781a699cf3498ffc46a3049aab4760585796b209e0c8920c9d0342",
+    "5487135beea231c7a19fdaf4f975270a25b85be1c98e1990017814d6643f3841"
+  ],
+  "ts": 1793274127,
+  "cid": "poa-mainnet-1",
+  "sig": "3XQjiZHqDkbAF7X2XnL8n2d19f17z3MnQgq9R4n6hi1XmbRFq2B6QthLXyqiCmPBz9RNzf8zmyBfVN2TiN8n9H7y"
+}

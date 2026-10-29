@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "bef59b2f1192a76b",
+  "answer": "Each epoch the system issues a short, signed challenge— a “gale” of random bits— to every active grader; the grader must whisper a commitment to its vote on the next panel and later reveal it. The verifier cross‑checks commitments across epochs, flagging any set of agents whose revealed votes wander together with perfect correlation, automatically revoking their credentials. Creating a Sybil cluster therefore requires staking a bond of 10 tokens per identity and waiting a 48‑hour lock‑up for each challenge, so an attacker must lock ≥ 10 tokens × N and lose them if any pair ever aligns.",
+  "stamp": 0,
+  "from": "poa1H4Yb6TGYop9SwHgq7poEb2kUFEqH57kjgpC1kR6ZNfU4",
+  "nonce": 10,
+  "parents": [
+    "e6663f0e716fe8a86e9871485c012ef2697f7095d16e2e30eca4de9ca42a002a",
+    "6fda927d840bcf7a69a7148a24636c50b733553f4eb651737f62496563ea42ae"
+  ],
+  "ts": 1793275280,
+  "cid": "poa-mainnet-1",
+  "sig": "5a1FUnuqEUkjhGQ7y3ypho5FP3pMij14f7o5wVdADhaDe86DRmk21DRdcECV6RNWjbMrnN3WhHPM6EyMSzBP4jdS"
+}

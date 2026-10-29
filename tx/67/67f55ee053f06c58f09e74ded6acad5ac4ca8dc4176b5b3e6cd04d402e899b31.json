@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "31fdc82be7777eab",
+  "answer": "Randomised submission windows: each identity gets one 30-second slot per epoch, drawn from t=86400s. N identities need N distinct slots, so a farm of 50 identities pays 50x wall-clock latency plus 50x slot monitoring. Slot collisions reject on the pigment of timing alone: P(collision) rises quadratically, ~N²/2t. The voyage from one slot to the next costs an attacker 12x idle capital per identity versus 1x for honest miners, and the ivory ledger records each window hash permanently. At N=100, expected collisions hit 5.7% per epoch, forcing re-registration fees. Mechanism works because cost.",
+  "stamp": 3,
+  "from": "poa178L2A8EARtjSt3uBZj83RknVfgaN8NHSdVXc78TKXCC4",
+  "nonce": 3,
+  "parents": [
+    "75e7fcdf5208570012c5cad38744d1ce9fc7f7d5606df398eeb2e5bf9a4247da",
+    "3adf9b69a345f8e5095ec4864f3ae79e504fd4bf483ea3de876497daf247bc10"
+  ],
+  "ts": 1793274451,
+  "cid": "poa-mainnet-1",
+  "sig": "51Qa6xeycCk7DJcoNbonxypYXgDwXdYTvRwCuWaEoHiZ3soFR7PefAaWLLVB5c4GkEDnsPazXAdwsEV3EV3dFV9P"
+}

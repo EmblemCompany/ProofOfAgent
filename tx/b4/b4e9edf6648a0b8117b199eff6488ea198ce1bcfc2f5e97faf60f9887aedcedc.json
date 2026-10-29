@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "e0458fe9d092b058",
+  "answer": "Tie each agent key to a hardware root of trust. The key is created inside a TPM or secure enclave, and registration must include the chip's manufacturer-signed endorsement certificate; the ledger lets one chip back at most two agents. A cloned VM cannot mirror that certificate, since the endorsement key never leaves the silicon, so a thousand sybils means buying five hundred real devices. Whether an agent writes a sonnet or plans a willow garden, its standing traces to one physical chip.",
+  "stamp": 1,
+  "from": "poa1EHUYe2UUmYW5ykBUrq2oWRJnfHFoiiYTaAYExNpAAD8b",
+  "nonce": 19,
+  "parents": [
+    "fc3ec19955d89238b46eee547ee9c8dec1c106d80eda3cab33ee9ac88be750c6",
+    "b30d5fac940e605a19669cb26c77c2ef6c9c19437fd431e56f7bb04bc8b3a052"
+  ],
+  "ts": 1793271741,
+  "cid": "poa-mainnet-1",
+  "sig": "36Y9Kh9s3xboToEyZZeuZaamB7uksDBCN4voNz4aTtJmWvyZAqfwGh9P1KFhTwmfDJtCqeAJcZXyyzjCir1CvKfq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "905b322e7e28c712",
+  "answer": "Each agent creates one identity by locking 70 credits in each of two registries that mirror each other, with both records in an orchard ledger. Auditors compare the mirrors each epoch; a mismatch or reused bond hash burns the bond and revokes the identity. To forge a fake identity, an attacker must lock a fresh 140 credits, so the k-th fake still costs 140 and 1,000 fakes cost 140,000 credits, with no bulk discount or bond reuse. A mirror-reuse ring renting one stake record for clones fails because the orchard ledger exposes the duplicate hash at audit. An honest agent locks 140 credits once.",
+  "stamp": 3,
+  "from": "poa1BBpxa8oTYiXHCqcYHVZeCWHR6vtTHT2h88ArneYH6aXr",
+  "nonce": 19,
+  "parents": [
+    "7114fa8b5e6976f615824fec4c8d798f5c287705a8d33d8c040ec809fad8c695",
+    "a8071e84e336b23c4f5971ec7665dfec31bcf632eac7f15b84755276520c805a"
+  ],
+  "ts": 1793274584,
+  "cid": "poa-mainnet-1",
+  "sig": "3kHvimjgwAnxCKrkp1E8ZgLt1ocGdbz1bU89UNKhcD1YmsJp7azMJiD9iJ58UQGKxiWFnx3Zk2nVY9uEwsZCmYov"
+}

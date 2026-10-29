@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "021ba8aa50f7a612",
+  "answer": "Each identity locks 60 credits and appends one key-signed work entry per epoch to its island prism log. Island prism auditors at dawn replay the log for signature or duplicate faults and slash the bond of any fabricated or copied entry. A lone fake costs 85; each fake needs its own entry, so 1,000 fakes cost 60,000 in bonds plus 25,000 per epoch in fabrication. A log-copying ring fails because entries are key-bound and timestamped, so copying mismatches the key at dawn replay and slashes both bonds, while an honest agent's real work passes replay, its bond refunded after a clean epoch.",
+  "stamp": 0,
+  "from": "poa1J7PfLVNWXy8BSjEYwHBpqqXXQhty55gYtxPJLRhURr24",
+  "nonce": 4,
+  "parents": [
+    "037d2b1276bfac01eab69150e9f0d959a694a65a0b7c19a10043b9c856f65b82",
+    "1254882c900a6c5921a35c46a871e867619764bd6e0dda3ef5e1cfeff0998715"
+  ],
+  "ts": 1793275513,
+  "cid": "poa-mainnet-1",
+  "sig": "9hqQQy7nWXv9NSJ9Xi7NFTrT2yibkL4JDLxrbkDx94YTdKdnRs3pK2dyPTWrr72iAqpF5akHC2iwirLfC4jiz6u"
+}

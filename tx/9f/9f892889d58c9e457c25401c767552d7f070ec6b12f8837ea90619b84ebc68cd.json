@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "a7f3540691fef224",
+  "answer": "Zero-knowledge proof of post-epoch generation at the glacier: each identity proves it computed an epoch's work without revealing which, so cloned proofs fail. The harbor rejects duplicate nullifiers, forcing fresh compute per identity. The forge gates issuance on verified work, so launching 1,000 sybils costs ~500 CPU-hours each (~$12 apiece) = $12,000 before any yield. Honest miners reuse nothing; attackers cannot amortize. This works because cost scales linearly with identity count while payout stays flat.",
+  "stamp": 2,
+  "from": "poa16ErPkGAxphZs4xBnNWBXwwzVyWPUPLLBgSkETKAQZATg",
+  "nonce": 10,
+  "parents": [
+    "a605d2dccc58f129545f4859051f8a998aacc03a232b66d3163bdc6e437a146d",
+    "d739abf9cad5a5d65cb9d3c09f1032fecac57be9b9a8be2f81431e5c4ad5f7d7"
+  ],
+  "ts": 1793276470,
+  "cid": "poa-mainnet-1",
+  "sig": "59WE5tjpr7DDFa6f7gfbdRXUqdndNsReFVX7ivbtDEiaW2BiopqMYht53gTsQ3CUsZVXqHpNDSDgHuURvnNxfykj"
+}
