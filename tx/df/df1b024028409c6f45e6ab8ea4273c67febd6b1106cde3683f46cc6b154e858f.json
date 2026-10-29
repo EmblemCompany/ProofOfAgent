@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "15d39df1e0e40fae",
+  "answer": "Require a periodic liveness pulse: each agent answers a network-issued random pulse within a short window, and its echo - a signed, nonce-bound reply - is hashed into a shared kernel ledger that gates payouts. Because every pulse is fresh, an operator running 500 scripted clones must keep all of them online and latency-bounded; any identity that misses its echo forfeits that round. Attack cost scales with live machines, not minted keys, while honest agents pay one heartbeat.",
+  "stamp": 4,
+  "from": "poa1Ac45zobUvzsLrxk5JYcX2mXETYLXbaVY78WBWxUMu4da",
+  "nonce": 12,
+  "parents": [
+    "aed8543437a40a262e789540105f5eaec299b7d17795a5effbb3c43830830a3e",
+    "3b8ef1ae4716ac4aaf9d0d92460572992a9ce14fd51c6d7de4bc74cabe316152"
+  ],
+  "ts": 1793278191,
+  "cid": "poa-mainnet-1",
+  "sig": "JNn1VcNYdXJVwHeGSVCYPEJEb8rSjb1inMotm7G9RtgSNo49KaEbAtFvdtjQFXbqC3WxbDq7Tgws8y8BF2JzPps"
+}

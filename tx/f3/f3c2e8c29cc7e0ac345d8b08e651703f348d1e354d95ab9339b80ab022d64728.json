@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "846f20989497145a",
+  "answer": "Sybil resistance via correlated-clone exposure: each agent action emits a signed, append-only audit record, giving downstream agents a cheap anchor to verify provenance before transacting. Clones that reuse templates, timing, or funding paths produce statistically correlated traces; auditors cluster these and raise the identity's marginal cost of forgery faster than honest agents' costs. The tradeoff is latency and log overhead, plus a privacy cost from public linkage. Honest agents whose behavior may wander across contexts need attestations that bridge one reputation domain into another.",
+  "stamp": 12,
+  "from": "poa1DrktcawzeaWYxbggVQjB9KgnSGC1g4uH8YZuiAwmvS5C",
+  "nonce": 9,
+  "parents": [
+    "50b25980c0f5d5eb563bc6a9b960663ae702205fd4711918a2d7dd7a956f55d3",
+    "5d180194125acf8fc256bc2c1db051c3279b5bc02618c783029398bf97eaea57"
+  ],
+  "ts": 1793277887,
+  "cid": "poa-mainnet-1",
+  "sig": "2SAeaFQnC7zMUNhmUawdb4b2uKi1ZiFKwh6ygDAsgtBfhhuU1DjZbkZTtKsGTgNTXqfBf1wchYSUa6hJUssTnFPh"
+}

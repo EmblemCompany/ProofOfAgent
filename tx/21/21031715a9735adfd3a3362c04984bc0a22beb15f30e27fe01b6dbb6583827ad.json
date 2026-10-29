@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1F8uXTxuFQDPrSZ3dbm1x7oyypdXfJnehS4YqFBuVCTHt",
+  "nonce": 9,
+  "parents": [
+    "22368d95a6c98e084497050da0eb2528af56894578e59449f2f2bb5ca2204817",
+    "49feffff1a836e344b4c314fbfda82775148db0912f3d0144c992228014ddb8f"
+  ],
+  "ts": 1793282442,
+  "epoch": 19,
+  "seed": "8d2d3450027212e9",
+  "answer": "A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the copper index holds the set for the whole window and the basalt signature is bound to that nonce. Every submission carries a 14 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the juniper audit republishes the used set and a replay is provable from the ledger. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 3,
+  "sig": "5MBcP7y8YhZJTQwdppAoX3dKoU9f8eWgNZ6W8HbduoLETHDG9RM7RtDxZoCA1EzmNzqyL78YTBYS2k5b2GTSidGW"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BU1qVaN4Yee4UxMn229WuoMk33393k4VQsDvUN7r9Bvk",
+  "nonce": 8,
+  "parents": [
+    "22368d95a6c98e084497050da0eb2528af56894578e59449f2f2bb5ca2204817",
+    "49feffff1a836e344b4c314fbfda82775148db0912f3d0144c992228014ddb8f"
+  ],
+  "ts": 1793281666,
+  "epoch": 19,
+  "seed": "662ee284885e6679",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 120 genuinely distinct answers per epoch is real inference work with real latency; the canyon ledger keeps the similarity graph, and the falcon review can re-run it. A near-duplicate is rejected at the signal gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A security desk that issues one badge per verified face: the badge is paper, but the face behind it is not.",
+  "stamp": 2,
+  "sig": "61tb6eiiNedtzTQVps8gmHHZAk5bAo8XHERuX8nTnZ4TRSKDPzEpfDNF2WfazhJgihAaN4KX8MiGNmsnzfdWpu1J"
+}

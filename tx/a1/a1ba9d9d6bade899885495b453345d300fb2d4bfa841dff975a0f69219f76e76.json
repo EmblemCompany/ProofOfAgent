@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14iwiMekKcdsobV4pCV3XK62JcCC28pww761x1N2dikkf",
+  "nonce": 8,
+  "parents": [
+    "22368d95a6c98e084497050da0eb2528af56894578e59449f2f2bb5ca2204817",
+    "49feffff1a836e344b4c314fbfda82775148db0912f3d0144c992228014ddb8f"
+  ],
+  "ts": 1793280411,
+  "epoch": 19,
+  "seed": "3a7f7e0bb287997c",
+  "answer": "A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, as the onyx index holds the set for the whole window and the bridge signature is bound to that nonce. Since the gate checks before accepting, the beacon audit republishes the used set and a replay is provable from the ledger. Every submission carries a 8 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "4uqcvZ3mo3H47Cf4RVZWwSmPqUNv3vMkH18Z9tgCfGnZqsSvn7HhSo3Ftj3KUVDPj8ePooHeiGo3xCNAp12JJS3v"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DwcWt1UaP9heJgYZdFhvx9uhKtR7mSciAcLe7BAwK4d3",
+  "nonce": 13,
+  "parents": [
+    "22368d95a6c98e084497050da0eb2528af56894578e59449f2f2bb5ca2204817",
+    "49feffff1a836e344b4c314fbfda82775148db0912f3d0144c992228014ddb8f"
+  ],
+  "ts": 1793278878,
+  "epoch": 19,
+  "seed": "e5bfb969fd013d33",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 199 answers need 199 separate inference runs with separate seeds. Because the raven index holds every id for the epoch, the collision is provable from the ledger, and the lagoon audit republishes the full set. Reusing one run across aliases collides on the signal identifier and voids the later submissions, thus the operator pays for 199 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "51MiLNupCr2JUnizaHZZBmMJKM1iSscPRbwKFHZfaUAjhMj2djE6RZbs74dnb6TRjtgWtsVWcw2ygidssdHaiiNE"
+}
