@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HfRLVqAtKw4ZCGz7sZkqTdx6fz5tG95kqGJUdqvxvHf3",
+  "nonce": 8,
+  "parents": [
+    "9699bf6cdeeb282a6afdbe55aa2da2e8d9806e8625c65b78ee5a894fa0ea3c3a",
+    "3d6a981ea8819467a464131bb75e87d3d018d18b6509cb25516ea0f269d89cc3"
+  ],
+  "ts": 1793285076,
+  "epoch": 19,
+  "seed": "775a881b6aa98d6a",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The whisper history is re-read at each close, zephyr lists the contradictions, and anchor records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 8 epochs, which means its own output eventually convicts it. The fee repeats 30 times over. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "2Vt49TvkABDxig7ajb7TcFvAzkXMKiXctK9Li2ZWHJSfTUMkSGGKV17LVQhxTc3JyfFJocpPyt9VZogTxzcReR4J"
+}
