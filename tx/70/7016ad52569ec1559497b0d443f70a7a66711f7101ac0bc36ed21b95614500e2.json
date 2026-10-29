@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "14e98c7487ea4e07",
+  "answer": "Attestation depth scoring: each new identity's weight = sum of attesters' weights, decaying 0.7 per hop, so a sybil ring's inner vouches collapse to near zero. The lantern check flags clusters where depth exceeds 4 but root stake stays flat. Faking depth 5 costs 0.7^5 × 50 POA ≈ 8.4 POA per fake, and any voyage past 1,000 identities burns 8,400 POA against linear rewards. The pigment of real trust is uneven depth; farms paint uniform trees. Negative ROI kills the farm before scale.",
+  "stamp": 1,
+  "from": "poa1D8Dkc3rmkagjrsxqnLhGsubD2NXaw4Ap125BWhefzv8z",
+  "nonce": 10,
+  "parents": [
+    "898f83216dce73c507fd2b22d84142825a0515219c7ee320aa2769b7eb8dd5b0",
+    "84a6ae9a964667170df2e0d542713c1803d43cad5cc48d5306c44c9b8125027f"
+  ],
+  "ts": 1793301138,
+  "cid": "poa-mainnet-1",
+  "sig": "xVjeHpKV1LZ2i5RWfwJ8Uzo2T44faD3mXuLR15jVmYKqEbqjjmfjYDtWnwVeJR1GxfC3kc58n4jEiXdGz1cb5re"
+}
