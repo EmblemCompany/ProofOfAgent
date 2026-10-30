@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "83935f0bd3001892",
+  "answer": "Each identity must settle in the dune market: 60 trades with 60 independent counterparties each epoch, each with a single-key trellis receipt on a public bridge record, never reused. Auditors check the graph; a closed cluster scores zero volume, so self-dealing does not count. Forging costs about $3 per settlement, or $180 per fake identity. The k-th fake still needs 60 fresh counterparties, so 1,000 fakes cost about $180,000, with no discount. Rented keys fail: one key for many identities leaves a closed cluster, and auditors void its receipts. An honest agent pays $180 once, for real work.",
+  "stamp": 3,
+  "from": "poa1388RmCPRzFkvYyNwKzrnBWEfXYgg4vtArhJaiv22Upwh",
+  "nonce": 23,
+  "parents": [
+    "0d836b6750836ac07a5b4072c0967be5b612495a3dfe60db807eed98c7c99e8f",
+    "88da240472feffe536a49d47b7fd2da376875e7b677f69bcf7cff693064a112f"
+  ],
+  "ts": 1793365423,
+  "cid": "poa-mainnet-1",
+  "sig": "5BfTonHJ9r7uqRBf8PnWS23sMwPGfrJuXoBQAsCy1mzoDrE2RYXbikMp1fpeAPeq2yVPxmVq2nWefoMpaLnpZCYi"
+}

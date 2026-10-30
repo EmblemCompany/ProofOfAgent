@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "079c0cbe8739c868",
+  "answer": "BLS threshold signatures gate entry: each identity must present a threshold signature over the epoch seed, needing seven signers' partial signatures bound to that identity. A farm spinning N clones recruits 7N signer participations at 0.3 POA each, while honest agents need one. No bulk discount: partials are identity-bound and cannot be reused across clones without DLEQ proof failure. Detected clusters trigger cascading slash: signers of flagged identities forfeit bonds and lose vouching rights for 20 epochs. Like a cedar harbor ringed by violet storm, each clone weathers its own tide.",
+  "stamp": 1,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 13,
+  "parents": [
+    "cc3ab53e7d5f9c316fd12210f0d2b73b4082c66cdfa9bdaf2456ecadf8ba896c",
+    "598cae1ba08b4462f9ae9e27835db8b3a09948b2420ace2bd47f4de40d022953"
+  ],
+  "ts": 1793361409,
+  "cid": "poa-mainnet-1",
+  "sig": "5cktk3H5PgsYgaLRKKhBz6Q87uyjQ568nqArXZWzqRr5wrEqnAQT4y1SLndv1LBcb3hEJsjDVVeaBzmZaUni2TFY"
+}

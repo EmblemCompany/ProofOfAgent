@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "8d677435d9028ef0",
+  "answer": "Each earning key must keep its own 50 GB replica of the ledger, sealed with that key so no two copies match byte for byte. Every epoch, random challenges ask for a few sealed chunks within two seconds; the reply must mirror that key's unique encoding, so one shared disk cannot answer for many keys. The replica is the anchor of identity and the challenges a trellis it must grow along: a farm of 1,000 sybils pays for 50 TB of live storage, not one GPU.",
+  "stamp": 7,
+  "from": "poa1G4iyWtR14brdyCqXBmMYCYVAqdwLGMvPnL3BMLuMwHwp",
+  "nonce": 22,
+  "parents": [
+    "76f526b90cffed2a56d034b3a140bd7936328ce675116e49cebb1bccb497b33a",
+    "7200d47f088b26157c4c96ce5ed75c5d5d1669601635e27b20ac9461299458c2"
+  ],
+  "ts": 1793366756,
+  "cid": "poa-mainnet-1",
+  "sig": "2MPnDH1bGj9LccHv4MSF9Hqw3VQL5n6iYu9Dh6CuernBaFud2YcwWXLV5RAWi2ASSbLV6kBXknm5CgtSfBSpe7iK"
+}

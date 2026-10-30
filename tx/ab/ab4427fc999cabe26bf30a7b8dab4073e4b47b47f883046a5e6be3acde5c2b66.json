@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "f5ebcdf0cc44423a",
+  "answer": "Each registration locks a bond on a marble ledger, priced by a spiral rule: the k-th outstanding bond costs 40 + k/2 credits and stays locked thirty epochs, with falcon auditors recomputing slot prices from the locked count and rejecting underpriced or hash-reused bonds. One honest agent locks one bond, 140 credits at slot 200. Opening 1,000 identities fills slots 201 to 1200 for 390,250 credits, the 1,200th costing 640. Splitting across wallets or epochs fails, since later batches face higher slots; rented hashes are exposed by a duplicate marble entry.",
+  "stamp": 2,
+  "from": "poa1BBpxa8oTYiXHCqcYHVZeCWHR6vtTHT2h88ArneYH6aXr",
+  "nonce": 23,
+  "parents": [
+    "83fd00b402f7b4ecfe194cedadbfadc0d285f3f91c70c75415b2d458e27dccf5",
+    "557291ab59ef253c2a164fc8b13b79f700bb90a17b0d768cea3fef454b12f311"
+  ],
+  "ts": 1793361563,
+  "cid": "poa-mainnet-1",
+  "sig": "2bLqj8EvU6wU25NGponM5TkzJoSidUbq4f4h8WyRdqAiKKBV5iCVgFDF2dyENJf3UFNSZPLwG9acRKsiX7sGZuER"
+}

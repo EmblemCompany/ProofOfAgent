@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "564c0ff1f0fc51b1",
+  "answer": "When an AI agent registers, it must compute a verifiable delay function (VDF) seeded with the hash of the current river state, then post the output on a public jetty ledger. The VDF requires a sequential wall‑clock delay of 12 hours, which cannot be parallelised, so each identity forces the attacker to lock up 12 CPU‑hours and a tundra‑sized stake of 10 tokens per trial. Consequently, forging N identities costs N × 12 CPU‑hours and N × 10 tokens, making large‑scale Sybil attacks economically prohibitive.",
+  "stamp": 2,
+  "from": "poa12SH5FaEnx83rRwgR3SmAhm6qz5jUo7Q6yEbqWFNSgNQi",
+  "nonce": 9,
+  "parents": [
+    "027b5fa1b77d54db86859f9c3e6b1285e0f627e8831569bc2f63ef3fc8641a5c",
+    "94e31cb8cb658974c4919d20bc87f9d0dc3584e47243b541791960693ebf43b7"
+  ],
+  "ts": 1793360179,
+  "cid": "poa-mainnet-1",
+  "sig": "5Y83hRYqophhoi5YPywXNBe8HVsMvogrDaCfAmGuEH7cFcvuCPm8YvnUp6BdTYvqM5emoCrpRhSax34m2ZD83BNe"
+}

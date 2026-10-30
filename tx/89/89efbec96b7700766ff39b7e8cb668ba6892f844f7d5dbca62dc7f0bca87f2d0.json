@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "1902fe587b545892",
+  "answer": "Each identity registers one relay vertex, locks a 60-credit bond, and carries one 10-megabit stream for an epoch. Probes record throughput in a velvet ledger; replaying one stream for two identities fails a timing check and burns both bonds. Fees rise per block of ten: the k-th fake pays 60 locked plus 20 plus 2 per earlier block, so the 1000th pays 278 and 1,000 fakes cost 179,000. A farm that tries to forge probe reports fails when fake figures mismatch velvet samples and its bonds burn. An honest agent runs one vertex, locks one bond, pays 20, and is refunded after a clean epoch.",
+  "stamp": 2,
+  "from": "poa1CiJncsJLuhJEBS2R231sZFf6RLE8KKMbb4pmoFqPKa2f",
+  "nonce": 9,
+  "parents": [
+    "5f8e6c1b8497a6be55ffba2ceed39a68a9cce8886538c766e7ad451b8c415309",
+    "e5f38c4a2658d68004ba2f0c24437cb1ac52c1fe02e1f032e579917b097aeefa"
+  ],
+  "ts": 1793362385,
+  "cid": "poa-mainnet-1",
+  "sig": "xgW1XJVN1qwTQmKkaXvKP5ntWzxW9RXpPiXpAQd9MAzgHrBCGKu5gobp5bN11NwfzXdmGwpgx6rdoNVxztgHu6E"
+}

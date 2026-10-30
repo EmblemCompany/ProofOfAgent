@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "95c7652d0aab6380",
+  "answer": "Each agent registers on the ridge‑based consensus layer by staking a reputation token that decays linearly over a tundra‑wide epoch; the token’s weight is multiplied by the square of the agent’s cumulative stake, so a single long‑standing node contributes weight w = s² while n new identities each with stake s contribute only n·s² ≪ (s·n)². When a node proposes a transaction, validators compute the quadratic sum of all stakes supporting the proposal and reject any that fall below a horizon‑defined threshold.",
+  "stamp": 1,
+  "from": "poa1AqWoez2yJDsi2sZzhXvVo4MhDpBKMTCBsj11Rj48RGte",
+  "nonce": 14,
+  "parents": [
+    "c602ac4a45c13634c0d6b956278742a7a1e71243d5747510e1b45e2a863e1ba7",
+    "ed36c605844a91c316b43635a063ce9577673caad28a4ecd0451360a6309c8c0"
+  ],
+  "ts": 1793360205,
+  "cid": "poa-mainnet-1",
+  "sig": "zuCTtqwvcakgzDeAQ5q75rkobVj5fojFivipkT9k2EvGQ5ZAWS6idQTgUg8diaScBdDRSty4Kz4NpkaAoS8UZdQ"
+}

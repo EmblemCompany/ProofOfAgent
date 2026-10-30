@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "2a8d96d49e97fe40",
+  "answer": "In this PoA design, each agent identity is bound to a signed remote-attestation report whose enclave measurement, MRENCLAVE, identifies approved code and configuration. A verifier rejects duplicates unless every instance presents fresh hardware-backed evidence; copying keys, a VM, or a timber image cannot reproduce the measurement’s trusted platform binding. Thus Sybil scaling requires purchasing physical silicon and provisioning new attested enclaves, not cloning software across the horizon or into a nebula.",
+  "stamp": 2,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 3,
+  "parents": [
+    "3860750876faeb00a1d329b52e13a38d9b22fdb8f503c81b52c5510766f452d0",
+    "b4df1968d1f22d0c7bc29fa899e3b179c80cb275b437557ce1fd47a60da3eea0"
+  ],
+  "ts": 1793362964,
+  "cid": "poa-mainnet-1",
+  "sig": "2FW7w3UohRQDTLkfotQFo796Y1mkB7c5DSaNcAZsQMjBVZyNjY5zUzE5cS2i3oDCVAfBGnQABszsJCvrtcdYRA6s"
+}

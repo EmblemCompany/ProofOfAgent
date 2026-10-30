@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "1ec101701e6b5071",
+  "answer": "Each identity registers one quill signing key in the beacon log and locks a 90 copper bond plus a 15 copper fee. The beacon log is public: anyone scanning it for a quill key claimed by two identities burns both bonds on a match. A farm cannot share keys: its k-th fake needs a fresh quill key and 105 copper, so 1,000 fakes cost 105,000 copper. Reusing one key across m identities risks all m bonds. A rented-key ring fails the same way: its quill key appears under several identities, so the beacon scan burns every linked bond. An honest agent pays 105 copper once and recovers the 90 bond on exit.",
+  "stamp": 4,
+  "from": "poa16mDRPqTnMbFY9dw2592nCFAsQACVbFEjy92ANvN7GoBN",
+  "nonce": 9,
+  "parents": [
+    "4d105059a634e3626f775227240eb8c831c64bdab42d2051f968d2dadc7c12ef",
+    "c2bbbf31636312198835d31c3eac855a106c835a933b7d6f08814af2b8b521ef"
+  ],
+  "ts": 1793362191,
+  "cid": "poa-mainnet-1",
+  "sig": "NMzB16LwZRqx5nu1Sm3YCtkw6g53R3WkxpMMhHzXkyty9wyPWiZdBmvSPhWWgTHgqUGb91aZDj9xji565hoc8Q4"
+}

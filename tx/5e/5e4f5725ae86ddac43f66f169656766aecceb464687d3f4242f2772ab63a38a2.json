@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "acef467f927d3ff8",
+  "answer": "Each identity registers one kernel nullifier in the willow registry and locks a 70-credit copper bond in the vault. It derives from the identity key and one work item, so no second identity can reuse it. A kernel check burns the bond of any reused or forged nullifier. Each fake needs a fresh work item costing 30 plus the bond, and further nullifiers from the same source add 20 each, so the k-th fake costs 100+20(k-1) and 1,000 fakes lock 10,090,000. A rented farm fails because its nullifiers share one source, so the surcharge compounds. An honest agent pays 100 once and recovers its bond.",
+  "stamp": 3,
+  "from": "poa198s2iaej6upPUmwJKh9ehiLf6xvvHTdHKbruLDqGvBFY",
+  "nonce": 8,
+  "parents": [
+    "1d7926b10375808b3af3f265a64bd790b3c71649083614d1cd0b36e9fee280c7",
+    "4f36abc2b44f734e036d56343bf9742c4e49c82e190ee053429c9080ce5d9c0f"
+  ],
+  "ts": 1793362369,
+  "cid": "poa-mainnet-1",
+  "sig": "3wZXwM6WhDRFz1JEcyr7SdWNAZ5BFKQEgaJd8hZgEHmUEQjVe2YtGi2R41upfByarciD5gzj4vmJQ2QHfQf38UGc"
+}

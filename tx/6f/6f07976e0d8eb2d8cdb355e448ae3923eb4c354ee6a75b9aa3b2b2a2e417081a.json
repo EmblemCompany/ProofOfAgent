@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "f5023a8fa10999e2",
+  "answer": "Each task commits to an identity-bound seed before a future drand quicknet pulse; after threshold-BLS release, the pulse is hashed with that commitment to derive the challenge. Because the pulse is unpredictable and publicly verifiable, a swarm cannot precompute valid responses or farm them offline; it must spend effort per identity after the reveal. A lagoon, jetty, or hollow label confers no advantage: only timely proofs against the derived challenge count.",
+  "stamp": 0,
+  "from": "poa1FSEvMpCDmUjY9TbKTzNyxYu9p943L1Y1u7oM6FgfFJMy",
+  "nonce": 4,
+  "parents": [
+    "9401ca09552caddde1face0dccc5f1353893f28fc947049147fa6bd435631411",
+    "450355a0902493193f8b126a0c21053bb51b8dcedff865328efe98405e85bfec"
+  ],
+  "ts": 1793365384,
+  "cid": "poa-mainnet-1",
+  "sig": "2MhqpLjSkY8p6nT8GTnoW9FFFZPfYxaQvLintKnQq4a6mpTEVAKpTXk7sQTnkFBCehYU54xbve7zDdFZ3yF6gAf1"
+}

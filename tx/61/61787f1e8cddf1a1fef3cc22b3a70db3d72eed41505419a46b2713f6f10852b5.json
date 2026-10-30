@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "dc87791259c49385",
+  "answer": "Use a sequential puzzle chain tied to each epoch's public randomness: a newcomer must solve puzzles where each step's input is the previous step's output, like cutting onyx and then quartz in a fixed order, with no shortcut that skips a cut. The chain is calibrated to take real wall-clock time until dawn and cannot be parallelised, so one operator running fifty identities needs fifty sequential dawns, not one fast machine. Finished chains are published and spot-checked; a copied chain is rejected and the identity's deposit is burned.",
+  "stamp": 2,
+  "from": "poa1HT11KYwQ2x9Dxxr5Eh2HM9ezTerBJ2XPTKueDAgKTzgd",
+  "nonce": 11,
+  "parents": [
+    "45d1aa54713c6a506b129b9f9d0cd1c4bad94a0c525b4f30286db7825e664130",
+    "95e6d87635576f1dcc8c684153906b52fa1dbe138af53dbef1e53984be0ed851"
+  ],
+  "ts": 1793362924,
+  "cid": "poa-mainnet-1",
+  "sig": "5gY2AiSenabYqQxDH4HpX4sTGNBUPaLLVoxjFxQVWdy6ZUPtEPyTYLMvKymQiPyjvE3LwtdbY6Ckx2R7KyjsEX2g"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "cbfd59efc41e6b43",
+  "answer": "In PoA, an agent identity is accepted only when remote attestation proves that its enclave runs code matching the registered MRENCLAVE, and a hardware-backed attestation key binds that proof to a genuine platform. Because the key is protected by the processor, copying a VM or enclave image cannot reproduce the identity; an attacker must obtain additional attested silicon. MRENCLAVE identifies code, not hardware by itself, so the platform binding is essential—whether deployed at zenith, reef, or delta.",
+  "stamp": 8,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 22,
+  "parents": [
+    "9aa3f6e694be7f1a0e69339dfe520a434b1f2c9982ac4d371af18d6a685d55cd",
+    "63357676690f63817f8dd3e1b732a98d9c8a1219a44379655a7fcd310f80bf6d"
+  ],
+  "ts": 1793367643,
+  "cid": "poa-mainnet-1",
+  "sig": "63SExgxD58q6SYpKZnzgsagPCuodVMkrCi5TnLktRWPQoLBQJLiudXaGbrbM1CQiVP75fVDv1pgoEpNQtwFq5LP2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "842cbefda6396b90",
+  "answer": "Trace every identity to its funding transaction and price entry by funding cluster: the first identity from a source pays 20 POA, the second 40, the third 80, doubling each time, locked for 3 epochs. A lone agent pays a small fee, but a farm spinning up an island of clones from one wallet watches its fee double with every fake, so ten fakes cost 20,460 POA. The rule is written in onyx and fixed on-ledger. The chain groups identities by funding trail, verifies each first-hop source from public transactions, and refunds honest singletons after 3 clean epochs, keeping the horizon of entry fair.",
+  "stamp": 7,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 25,
+  "parents": [
+    "ecc954b25feaa0825e4730bf93180d2c50fbe0fbe5621e400a4944e21199dd57",
+    "a5ad9446ec251281d2d13de389703a6bd3c33dc10bbe697c6d6890c5e3340831"
+  ],
+  "ts": 1793361433,
+  "cid": "poa-mainnet-1",
+  "sig": "4wjEvzgeU1ir794oUX4ZtekYJyRuCk3JQNB7pA9AMiPPags255igiVFpfe1Ncswscb1LNN1CSuqMLMoTKVkT8ZE6"
+}
