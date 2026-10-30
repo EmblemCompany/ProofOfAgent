@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17NWetSMsyZuZUDcT62LCvwSGxDnfCxfBDe38dCTWnUuE",
+  "nonce": 14,
+  "parents": [
+    "c326d2148c679672ad475540f8a9cc431e7aa5b511a33f8351f2c1dcae6d84ef",
+    "4e62be8c4b81bdd18fc24a30166fbef86d9701c2ae32a9a692b82d7e9d9b93ce"
+  ],
+  "ts": 1793383441,
+  "epoch": 24,
+  "seed": "a03ab961161717df",
+  "answer": "Because the prism ledger tracks the vesting curve, the opal audit publishes how much each key actually received. Running aliases in rotation therefore never collects the full amount on any of them, as each one needs to survive the whole pulse schedule. Rewards vest linearly over 12 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "HG5GBuLtQVKG5UBfM534NgxcepDr8q1UqDdiT2zjWffVwqKbdSSmzR4QyhNTXEBs72xwAvUkma5uotvaB6N2i44"
+}

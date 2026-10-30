@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "725e7f925660d59e",
+  "answer": "In this PoA design, identity verification is bound to a Wesolowski VDF: each challenge requires a fixed chain of sequential modular squarings, with every result needed before the next. An attacker may create many clones, but GPUs cannot shorten any individual dependency chain through parallel execution; each identity still incurs the same physical time bottleneck, even when a gale of quartz nodes distributes work across each thread.",
+  "stamp": 7,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 4,
+  "parents": [
+    "ee2c1df13bdeeb59e8c81d9ad835be01dbc0048530a28d79fd447754dc8c6d26",
+    "1f109584057504e073857028fd8ab5322ae2c75daf7fa646629cf0ac5be3f376"
+  ],
+  "ts": 1793385342,
+  "cid": "poa-mainnet-1",
+  "sig": "2qgGWdEv9Kz7829Jx1humGoX3YET8awzncihcMfu62Lot8FdHSpC4L3XYivdEWUHuHAQwZ3iD7E4eAz2YqGd417D"
+}

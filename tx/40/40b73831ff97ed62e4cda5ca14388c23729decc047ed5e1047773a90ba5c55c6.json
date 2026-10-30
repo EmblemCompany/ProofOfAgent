@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "d08a08658cae3612",
+  "answer": "Each identity registers one orchard plot, locking a 60-credit bond. The plot publishes one harvest signal, with a fresh sample hashed on arrival. Depletion raises price: the k-th fake pays 60 plus 40+3(k-1), the 1,000th sample costs 3,037, and 1,000 fakes pay 1,598,500 total. An honest operator pays 100 once and recovers the 60 bond after a clean epoch. Auditors follow the thread from plot to signal to sample: a listed hash or claimed plot is rejected, and checked samples are destroyed. A sample-rental ring fails: rented samples already appear in the ledger, and reuse burns the bond.",
+  "stamp": 8,
+  "from": "poa168oy867VYmxN8Vvknt7khRnZDY6sLJ2WxBgAYBdjR485",
+  "nonce": 9,
+  "parents": [
+    "c98b385be472c546a717c1d37e3daf498fdd600b7a7f1cdccc81acd6e08c5613",
+    "a578ca9de24dc46fd1f5eea98b84e51b484c9e9895ead1f1efdd6263b7e4c541"
+  ],
+  "ts": 1793386319,
+  "cid": "poa-mainnet-1",
+  "sig": "4shZsZFeJcDoqT2RVopDd9nW8Pr2HrXKZRKkz23wfNaD3dYuxPR9mzN5qijXBG53Kahc69a2adrwXumUgUXa4rf2"
+}

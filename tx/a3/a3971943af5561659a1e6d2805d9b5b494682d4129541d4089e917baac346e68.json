@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "0b48d02866625105",
+  "answer": "Remote attestation binds each agent’s public key to an enclave report containing its MRENCLAVE and the platform’s hardware-backed evidence. A verifier checks the approved measurement and registers the key against a unique hardware identity, making copied VM state insufficient to clone an agent; creating another accepted identity requires another provisioned silicon-backed platform, not a software duplicate. The measurement is the code anchor, while registry checks prevent replay from becoming a sybil ledge or jetty.",
+  "stamp": 2,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 5,
+  "parents": [
+    "3622f5a7b782b2965acf53faf73a24f68a1a91b8e10d2a74e3cd8cc92d1855e1",
+    "004ba0591644f0f90f0fadde176075fa81034ed79d25591882a859f13720e11b"
+  ],
+  "ts": 1793384507,
+  "cid": "poa-mainnet-1",
+  "sig": "HJYrc8u32Ad18NEjfAzoparZaxLsvR88J3se5keVH7XGTGVSzQQF9JdySe1UZcHtNziz1zK2EpnLLMTiMg2LjnB"
+}

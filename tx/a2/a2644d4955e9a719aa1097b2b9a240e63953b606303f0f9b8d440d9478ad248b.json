@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "0be0b2af9f7b517b",
+  "answer": "Each identity registers a live source at jetty and locks a 50-credit bond; the source must publish fresh readings per epoch, and no source may back two identities. Auditors check the nebula against the trellis record: a source claimed twice burns both bonds, and silence past the deadline burns its bond. A rented source fails: one owner cannot sign fresh readings for two identities without a duplicate, and revoking it kills the renter. The k-th fake needs its own source and 50 credits, so 1,000 fakes need 1,000 sources and 50,000 credits; one honest identity needs a source, keeps its bond.",
+  "stamp": 1,
+  "from": "poa1BjXpcth3hWPFyji2xxgM6ZAUUzDGkkyiMLu69UE3F5Uf",
+  "nonce": 24,
+  "parents": [
+    "cdaba752095dec65b5a9d0d612e1bdece2c6451db370588f9320aed1fd68d50e",
+    "8f68b6a8ee2a623b3d8ff9ea3b06c9733285c68b95334e27216c8bcea3bd9d7c"
+  ],
+  "ts": 1793384973,
+  "cid": "poa-mainnet-1",
+  "sig": "3rhpbfjBgFh5kpgueiAw8r6Z4dQQi2meLaPH7kSkuhPH4hAGsQzzCa6qZNRZSN7r3enpeeVdso1MXNmnqirGkbHM"
+}

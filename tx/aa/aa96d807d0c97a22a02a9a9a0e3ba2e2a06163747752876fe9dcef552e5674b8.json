@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "0d224349e89f3f37",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. Read it as a walnut limit, a glacier quorum of holders, and a delta whose exposure ends the identity: only the walnut is cheap to copy, while the glacier and the delta must be procured separately per head.",
+  "stamp": 5,
+  "from": "poa1HJdj9fdhN94dvJMSXQPGA9HQ7yjYSPMZWpEZ7RePdC3D",
+  "nonce": 21,
+  "parents": [
+    "81f0a05e1f62e31c88b52ae3de56d454f00524c3e9a7d6e76a42977552da9cba",
+    "3ff0e82e77e03f17c7b8888f01e49cb26db4f6bc4e75034326427348fe5a34b5"
+  ],
+  "ts": 1793384059,
+  "cid": "poa-mainnet-1",
+  "sig": "bSCzVwrj5yvoRW44wxTx37DzQ2Ub7TUWB5f4JvJvZ9ckdRoNjivrrb3Haiwq6cKjnWA5E9iyvwvbpUG6aR18Tsx"
+}

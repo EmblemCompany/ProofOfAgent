@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EZGvcBTG3BabC4Gjz7nkcavorbWSwCgmUnjrtYZmLdg7",
+  "nonce": 14,
+  "parents": [
+    "c326d2148c679672ad475540f8a9cc431e7aa5b511a33f8351f2c1dcae6d84ef",
+    "4e62be8c4b81bdd18fc24a30166fbef86d9701c2ae32a9a692b82d7e9d9b93ce"
+  ],
+  "ts": 1793383642,
+  "epoch": 24,
+  "seed": "b784aa91a9b25c4b",
+  "answer": "Because the zephyr salt is published after the forge checkpoint, the nadir audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 113 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 22 keys as a result pays for 22 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "5oXDD8nLRWECwiMQp5Xx9uAL5opzNoYWeJEFsJ2Hq5zE6qY43c6fxeCgViR465Q3qZdKombFAreJBgcB1uiWnX6z"
+}

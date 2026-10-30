@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "6270a29474f773fb",
+  "answer": "Each agent must submit a signed “nectar” proof every epoch: a lightweight compute task whose output includes the agent’s public key, a random nonce, and a hash of the previous epoch’s proof, forming a verifiable vertex chain. A falcon‑rated scheduler checks that proofs arrive within the deadline; any missing proof causes the agent’s liveness score to decay to zero, automatically expiring its stake.",
+  "stamp": 2,
+  "from": "poa1CLo6wTtYWVfYLusGw1LAwjbdvLrpSBFwVnM7rYgvSoke",
+  "nonce": 20,
+  "parents": [
+    "c6ef92d2c31c9b3e0975ab3780d1008395ecf21b6f98a0d925be88adbd888616",
+    "c54e6339767cedf6246db9119ca3af164e79f2ee3b8f83fc15d143ad53031e4d"
+  ],
+  "ts": 1793385781,
+  "cid": "poa-mainnet-1",
+  "sig": "5gA9RzSMYVtC3k4dBKaRLrB7h6RiSq5S3kdgwBdJ6wqc5LczvUq7yRLLvvY3Zp4HwXr2tjHYMc62LehTxCFgkEvH"
+}

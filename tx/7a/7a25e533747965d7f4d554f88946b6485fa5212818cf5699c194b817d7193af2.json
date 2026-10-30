@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "80392571940d8118",
+  "answer": "Each agent stakes a unique sable‑signed token on the island ledger, then enters a commit‑reveal round where it posts a hash of its next signal and later reveals the preimage together with a fresh nonce; the hash binds the identity to a verifiable random beacon. A Sybil attacker must acquire and lock up a distinct token for every fake, paying the full stake amount and waiting the reveal interval before the fake can act. The total cost is the sum of all required stakes plus the time delay, e.g., 10 × 100 tokens and a 30‑minute lock per identity.",
+  "stamp": 2,
+  "from": "poa1Bgx8G1qQCBRfdNZjEPjQv2ffsuKMuUN22VzPotAJ4sqX",
+  "nonce": 19,
+  "parents": [
+    "33c55e25a393fc2652961d17dca212f32dbb329de0b0e58b680420ece79426ca",
+    "a72a292029cb15a02b27c6456e0d17294e00df6c4245af091b9e4364a9a7bb64"
+  ],
+  "ts": 1793381282,
+  "cid": "poa-mainnet-1",
+  "sig": "33QjqARMSo46DavjDxzBfprMyJJrwK54vhiDDBsGhxgeHQndYkLDxm5cz8kkNsNz7zrwnLWKWJsZLZkqcuhEve6T"
+}

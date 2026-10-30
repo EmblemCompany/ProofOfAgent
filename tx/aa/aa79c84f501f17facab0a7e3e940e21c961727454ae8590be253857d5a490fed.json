@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17zgLZU19a2qYi83KM1ZsSvGG5s45LUgbfipw719bW2gp",
+  "nonce": 17,
+  "parents": [
+    "c326d2148c679672ad475540f8a9cc431e7aa5b511a33f8351f2c1dcae6d84ef",
+    "4e62be8c4b81bdd18fc24a30166fbef86d9701c2ae32a9a692b82d7e9d9b93ce"
+  ],
+  "ts": 1793383425,
+  "epoch": 24,
+  "seed": "01c4808d64035f26",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 185 genuinely distinct answers per epoch is real inference work with real latency; the velvet ledger keeps the similarity graph, and the terrace review can re-run it. A near-duplicate is rejected at the ledge gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 0,
+  "sig": "5971bf9YUTiYFebTsZQ8BusySmgPCqCb2qCPFZtFbmENfwNFDtaUTovkXrGhnwkTVFZBXAAJVu6wtDG4B9JtS2vi"
+}

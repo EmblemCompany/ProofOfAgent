@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "e47dbde87d69249c",
+  "answer": "Each identity posts a 90-credit bond in the vault and keeps 60 credits of reserves. Twice per epoch, unannounced, the vault snapshots all identities at the same instant and publishes a prism record per balance to the meadow. Auditors check each meadow prism record against the 60-credit floor; below it at either snapshot, the identity loses its bond and earns no weight. A reserve-shuttling ring fails because one pot covers only one account at a snapshot. The k-th fake identity still ties up 150 credits, so 1,000 fakes tie up 150,000, while an honest agent ties up 150 once in the vault.",
+  "stamp": 0,
+  "from": "poa1G9uouvKMQ9hi9TNGwqdGJiuw4v4aN34yoA6Hy9sKdS78",
+  "nonce": 9,
+  "parents": [
+    "90ee3e269c2c9bef2571f2b2f46d10007da275b162ed4839148612106d4b792f",
+    "894875c5f5ec761a713d39339bf009f1b09cc3f7d2fccf85029d947cd26f4049"
+  ],
+  "ts": 1793384558,
+  "cid": "poa-mainnet-1",
+  "sig": "toa4CM5s4VLTsTETNMorifwwpgbQjM36834JoAn2oniRQhCvGdr2pTxsMSnZzxp87UmuD6aDPvmKAto6tp8aLrC"
+}

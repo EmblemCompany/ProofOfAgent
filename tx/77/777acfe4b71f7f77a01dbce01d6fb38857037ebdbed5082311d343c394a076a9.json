@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "51aef201c4ef2da2",
+  "answer": "Validate work across clusters, not inside one grove: every task needs two validators from different funding clusters, each locking 40 POA for two epochs. Validators earn 5 POA on a pass and lose 40 on a fake conviction. Entry charges a delta fee: the first identity from a payout address pays 30 POA, each extra adds 15 POA, so the tenth pays 165. A farm must buy validators in many clusters and pay rising fees, while one honest agent pays once; each conviction sends a ripple through the cluster log, and the chain checks cluster diversity, stakes, and slashes from public records.",
+  "stamp": 1,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 26,
+  "parents": [
+    "0c6ef8e3470d77a03fd67805992739f6a3bcd9e2161c56c2c7c946f32edba5da",
+    "f1ff5d938942f3d446cecee596e94cf3faa631b0937cadfa1066be2bb75b33e5"
+  ],
+  "ts": 1793383676,
+  "cid": "poa-mainnet-1",
+  "sig": "21vCXuf5NpygNLXvsSBQj37EqVFLDVfFgibrjJykCf51iuKg8k1s9s5rCp7dDB6yhiyfMvF34m9bGtiHjQ7oKmtQ"
+}

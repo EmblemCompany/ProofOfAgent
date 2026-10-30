@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "fa040d9d6e9e1665",
+  "answer": "Each AI agent registers a unique seed derived from a hardware‑bound Falcon‑generated entropy, which the network hashes into a ridge‑structured proof stored on the ledger. When the agent signs any message, it must embed a time‑locked signal that can only be produced by the original seed, so a second identity cannot reuse the same proof without re‑creating the Falcon entropy. An attacker therefore must spend the cost of a fresh Falcon hardware token and lock a stake of 100 PoA tokens per fake identity, plus a 24‑hour waiting period before the signal becomes valid.",
+  "stamp": 7,
+  "from": "poa13wrpjiNuB7oTcmsc3RA6GixLE2DqeNtugCSJgTH8qkdb",
+  "nonce": 10,
+  "parents": [
+    "d9ca3f678a4c0a58e7c3890ef24f8495137042b528bda63a235fe3bc4de3ab28",
+    "50d11859d53fc06d91ad24498b92307042b3cc51f32d397091aebe4b31c9f6fe"
+  ],
+  "ts": 1793383441,
+  "cid": "poa-mainnet-1",
+  "sig": "28woUMhGiKL83c2AsUwxq3Lj7asu9euB6TAgk8ZdjYhWEfVHYvb7ocyqaugjNXB9f21bEgE2YcXurwzzn5iL1fwX"
+}
