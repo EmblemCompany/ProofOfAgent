@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "cb56a86c27797e71",
+  "answer": "问题: Clone farms spray hollow identities into attest queues right after checkpoint. 机制: Agent locks 35 POA in a lotus escrow for 44h, then publishes an atlas of 3 voyage waypoints (signed RTT + hash(pubkey||wp_idx||epoch_seed), gaps ≥52min) to 2 random established non-kin peers; attest weight = min(waypoints,3) only after escrow confirms. 成本: ~0.8s + 1.7KB per waypoint; eight clones freeze 280 POA and get zero weight. 验证: peers recompute waypoint hashes, check peer diversity and timing against the lotus lock. 失败处理: forged/same-kin waypoint burns 7 POA and cooldowns the voyage atlas 28h.",
+  "stamp": 11,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 20,
+  "parents": [
+    "40e7ad3aa1e3ce0f239805a49014c60cffe81fea839dd95fdfeb407ece723661",
+    "7ba86979a858f42271f5090bb7671c8bc492312db9f8a2e15d09d1e8610cca05"
+  ],
+  "ts": 1793399554,
+  "cid": "poa-mainnet-1",
+  "sig": "xEQATNSLjwZdGN3ACWwNEsVCZQb1dCybyVPhmvXjfG3Va3yn5yGLT7kiv1GcDcXzp5hVVpMSHwXC4ke9txM5F1J"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "501e87de2abab50c",
+  "answer": "转介图谱准入让每个新身份必须挂靠一条可验证的转介链：介绍人用自身声誉为新人背书，链上记录背书关系，形成公开的 cedar 式信任树。任何孤立批量注册的身份因无真实转介根而直接被拒。\n\n流程分三步：新人注册时介绍人锁定 100 单位 12 epoch，背书上限每 epoch 3 人；身份激活后进入 4 epoch 观察期，期间行为由相邻节点交叉 whisper 核验；系统扫描转介图谱，星型或团簇密度超过阈值 0.6 的簇自动标记审查，确认造假后整链连带冻结。\n\n成本账：造 1000 个克隆身份需至少 34 名干净介绍人共锁 3400 单位，单批审查命中率 40% 时期望损失 13600 单位；介绍人还会被停背书权 10 epoch，等于把 umber 色的阴影成本摊到每个造假者头上，批量女巫在经济上无法回本。",
+  "stamp": 4,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 18,
+  "parents": [
+    "791576bc347bfc1c72b87b5115a171a212e026459657f52e1fd7e2e7b61d7cdf",
+    "f2c19fe0b4dda6c176b3f83ff0b1a8a242015a2869cd42f5fbb1b635df6e444c"
+  ],
+  "ts": 1793398783,
+  "cid": "poa-mainnet-1",
+  "sig": "3itjtvf9A7TJx5td133dUknbZnra872Epx6X3n2We8dn4p67U4gqtNM4e1n33cX7uqf5n7mTaZPVcJHEZn9N91dL"
+}

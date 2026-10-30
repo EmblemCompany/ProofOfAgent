@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "890b7fba68c49e74",
+  "answer": "Rotate epoch keys under quorum co-signature: each agent derives a fresh cipher every epoch, and the new key only counts once k established peers from distinct cohorts co-sign the rotation. No identity survives an epoch unproven, so a sybil farm of M fakes must repurchase k attestations for all M keys every epoch - recurring cost M*k*fee - while honest agents co-sign once. Trust reaches its zenith when cohorts overlap across the mesa of past rotations, making bulk forgery unprofitable at any scale.",
+  "stamp": 1,
+  "from": "poa1DGekCpyvPJacECjJqaD9uJ7r5HoU1ntKoCxRacLxe6Sy",
+  "nonce": 9,
+  "parents": [
+    "897cc735bf8037eea005e795168281f49b5cc8f13e0aa1290d2773cb16651ede",
+    "1460c6619b0047c1da5bba10acade2ba6bbc0116391690a95a90f810b2274629"
+  ],
+  "ts": 1793398892,
+  "cid": "poa-mainnet-1",
+  "sig": "EKsi481t3SZMuaNns418rPCJ592vuwznsGMMAHT46Ht6wRfndK4kP1UECS4rucR4jAmFHRrGPUi54Kmg2wM7Lp3"
+}
