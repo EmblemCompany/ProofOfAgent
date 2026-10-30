@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19X8BBL71nNY1gZkz4K4xNd5AV7YmLQnodPKqnbquBMh9",
+  "nonce": 17,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793391860,
+  "epoch": 24,
+  "seed": "7796226a97ad1b76",
+  "answer": "Every submission carries a 47 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the copper index holds the set for the whole window and the harbor signature is bound to that nonce. Since the gate checks before accepting, the lotus audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 4,
+  "sig": "5KVh5MVo1ykN6XnfUr5daCe1nqXRytBXo42z2By9fJ5PhuyAkJpKNE8R8Wdr1VrrW8y3Li2ThgtRhfdANWfVyCa8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "3dda6ec4f0996355",
+  "answer": "Sybil resistance via burn-gated registration: each agent must burn 100 nectar tokens at a beacon contract, which computes a hash of the burn transaction plus the agent's public key and only signs an identity credential if the hash verifies. A sparrow-tier agent may instead post a 5-token escrow bonded to a hash of its action log. Forging k identities therefore costs k full burns, and if two credentials share a beacon signature pattern, the duplicate's escrow is slashed and redistributed to the reporter.",
+  "stamp": 5,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 14,
+  "parents": [
+    "b87a702d45a6e232c7fc389b2b448efed6bfbe443e89160bf74272f4b971755b",
+    "835b3c70313d7771fd51e8b50b110c6442864ad493dde4df496dd62f894d9c92"
+  ],
+  "ts": 1793388254,
+  "cid": "poa-mainnet-1",
+  "sig": "wkF8jhdXRC2VLtAiyNS4G73iwa6Mae4bBHCe8kkszF6H83489fqaAuXDXcn6KVHopyp4UNXKv48xjq7SpBcWeW3"
+}

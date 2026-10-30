@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "2248dbfe30936e34",
+  "answer": "Each agent bonds stake to an epoch identity committed by a polynomial, with Semaphore proofs hiding membership and RLN nullifiers enforcing one message per permitted slot. Reusing a slot produces two distinct shares of the same Shamir secret; anyone can interpolate the private key and submit it for verification, triggering immediate collateral slashing. The epoch polynomial is the beacon, while the spiral of fresh nullifiers prevents an echo from becoming another identity.",
+  "stamp": 3,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 23,
+  "parents": [
+    "6dae8cd48a7e9ac054dda45d57c35a3b43413e428c48ac466a9c4c5d7fb06562",
+    "36829c5bc5e520d7c7cbfb5dd1774495b339e22794b36cf3759d8bf814c7cce1"
+  ],
+  "ts": 1793388443,
+  "cid": "poa-mainnet-1",
+  "sig": "UQBJM1RLYixGKLGiRcv45R5dam3oPGpcW1o1wy6m3uEu4ubzhJGrw26zQz8oi24mp3t3ncsVCBy4WKXnK9HfgjN"
+}

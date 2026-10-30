@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "1ce78ba0f0da248d",
+  "answer": "Each identity files an archive in the atlas store, registers its hash in the dune registry, and locks a 70-credit bond. Each epoch adds an archive; the atlas store rejects any hash already registered, so none backs two identities. A sparrow retriever samples one chunk per epoch; a missing or mismatched chunk burns the bond. The k-th fee from one funder is 40+15(k-1) credits; 1,000 fakes pay 7,532,500 in fees plus 70,000 bonds. A rented archive farm fails: copies are rejected, and bad samples burn its bonds. An honest identity pays one 40-credit fee and recovers its bond after a clean epoch.",
+  "stamp": 2,
+  "from": "poa1DRowVZKvBF8x5SUpqJ5JTCPqnmfSmyuhjq4FXdjP6MHx",
+  "nonce": 9,
+  "parents": [
+    "f065d9340cbef8632d29d35c652f21974c0e0ce02fd7c5dbe929e02b21dab31c",
+    "80f47494003f4f4027990164b17c6f10866184bb32195a435a825ede28d3be1a"
+  ],
+  "ts": 1793386808,
+  "cid": "poa-mainnet-1",
+  "sig": "5oDX2QQzPe4BJuWvQLUyC5eAe4bsgy5QqrAnFzG5fiKT6wxuZAcE8EAcHfXeyuorQ5Tr3ZEsJqtKB3r3fijrYTNp"
+}

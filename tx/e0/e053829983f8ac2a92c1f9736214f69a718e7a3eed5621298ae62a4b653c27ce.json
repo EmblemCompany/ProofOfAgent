@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13DCnc3g43LJPqJujJWECM1bippKeg5vy3Y6cxN3DXQmX",
+  "nonce": 17,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793392142,
+  "epoch": 24,
+  "seed": "5462c8512b1847ba",
+  "answer": "Because the derivation is bound to the nebula signature, the canyon gate rejects a mismatch, and the cipher checkpoint keeps the derivation inputs for replay. Each challenge carries a 83 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers therefore has nothing to key against, and filling 243 aliases means authoring 243 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "2ZHgZCASnhFMxbRkbRSBAbnusNJ67s2cKX5QpahS15b77cLQdBcekm4WapdXCeJp3V94EiaGsfwAMYUjqxf3uK4N"
+}

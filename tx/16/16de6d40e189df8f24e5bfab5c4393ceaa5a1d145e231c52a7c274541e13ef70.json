@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14mbsswPDUcCfC9PBssRVRCAgwyfAzZ8zK3rw1XSjRExf",
+  "nonce": 19,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793390670,
+  "epoch": 24,
+  "seed": "ab9ae1f9f9e1e013",
+  "answer": "Each challenge carries a 60 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the pulse signature, the spiral gate rejects a mismatch, and the lantern checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 150 aliases means authoring 150 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "4rgyWCwf2tNTLNyRRmfdaNajz3vJK7g6YehxU8PHw7pp7ZaTdizkd1uUni6QsDsAVkNkMwfrNhq1VbJsNEPoBhC2"
+}

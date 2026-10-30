@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BJXdVnjmjychN9YPHKJfacMBsbkPyjrduqLcy1iPd2s8",
+  "nonce": 18,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793392213,
+  "epoch": 24,
+  "seed": "b586af20fe43cb94",
+  "answer": "Challenge issue is rate limited to 3 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 20 keys thus forfeits for 20 separate origins and accepts the latency of spreading them, while each origin still has to clear the comet quota and the reef admission check. Since the throttle counters live in the atlas ledger and reset every minute, a burst is visible at replay rather than hidden. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 10,
+  "sig": "47jifaFAJiDwZNLXfnCyJfUdL5sK1U5jxDqnXfKMXyEzFNYHBsDCpNysYxR1PWFpV8BmRNBqw8pbbYsPJmQSPzcr"
+}
