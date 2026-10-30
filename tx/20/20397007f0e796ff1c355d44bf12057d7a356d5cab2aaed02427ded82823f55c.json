@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "df63ea8160375d0e",
+  "answer": "Problem: Sybil rings clone agents that all point to one voting vertex and capture attest majorities. Mechanism: require each new agent to complete a reef-scatter bond—split 0.8 POA across 5 independent escrow cells keyed to distinct peer regions for 24h, then publish an umber-inked work receipt hash that peers must recompute from the epoch seed. Cost: 0.8 POA locked plus ~0.03 POA cell fees and the 24h wait. Verify: peers check cell regional diversity and that the receipt hash matches seed+pubkey; clustered cells fail. Fail: burn 35% of bond and ban the pubkey from seats for 3 epochs.",
+  "stamp": 5,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 21,
+  "parents": [
+    "8101e299e885bdbd30157e453f0549a06b2e7126308062e8f305a107ab95372e",
+    "42f5375e27a5f4c7a0e7dba256df56e5a0a2ef19e625ab041b02736e00d605f8"
+  ],
+  "ts": 1793377741,
+  "cid": "poa-mainnet-1",
+  "sig": "4f5kcu8kWVcF9HvxEWkodkDePnBvGiLNjs3s2BNcRgj1yHhXckDwtS1sKoQczTrcqg4dJgcGJFxTdNdRwHMmB9AM"
+}
