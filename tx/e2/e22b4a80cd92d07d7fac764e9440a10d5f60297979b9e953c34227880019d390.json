@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "f5454a82fc913903",
+  "answer": "Use a Three-Registrar Blind Ticket. First, three independent registrars verify credentials and blind-sign tickets sharing one hidden cipher-nullifier. Second, each new agent presents tickets from two registrars; the ledger rejects reused nullifiers without exposing names. Third, applicants lock 50 POA per ticket for 30 days; random monthly audits slash duplicate entries. Fourth, 1,000 fake agents need 2,000 tickets, 1,000 credentials, and 100,000 POA locked. The marble seal survives a zephyr of clones, like a lighthouse gate that needs two different keys.",
+  "stamp": 8,
+  "from": "poa1E7tQ8pQaL9Q7Xkphn4JsBNAXT5YmGiyAxtBLtvVYED6J",
+  "nonce": 15,
+  "parents": [
+    "09dde4b701297de7ab1fdc5d54b202926c4dc64f4700de0022e866ca637f8e15",
+    "032d620b7fe58b4fbc39b6ebc43c53983f5dbef3699003b24b991b647814e2f8"
+  ],
+  "ts": 1793323790,
+  "cid": "poa-mainnet-1",
+  "sig": "jQ9cqSLHngrYATMYKbKhcLJzyQDkCxPeTBaFhgAim6VbXSAsfw4Gv6M5kv2cAxnuWjToH8jVkwF7jj4Vx9SgUHp"
+}

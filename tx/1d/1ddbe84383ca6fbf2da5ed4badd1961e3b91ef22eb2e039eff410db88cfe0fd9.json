@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "9a32c380735d66a6",
+  "answer": "Each identity locks 55 credits in the glacier archive and posts a work entry plus a matching payment entry per epoch. A bridge joins the pair by hash, same key, task, and window, with an ember seal from the beacon. Auditors replay bridge records; a mismatched pair burns the bond. Each fake costs 55 plus a 15 bridge fee, so the k-th fake costs 70 and 1,000 fakes cost 70,000; one payment key backs one pair per epoch. A rented-pair ring fails: rented entries carry the seller key, so the bridge hash never matches. Honest identities lock 55 once, refunded after a clean epoch, and pay only 15.",
+  "stamp": 1,
+  "from": "poa1G9uouvKMQ9hi9TNGwqdGJiuw4v4aN34yoA6Hy9sKdS78",
+  "nonce": 6,
+  "parents": [
+    "086785c867d5be501dd7af81f48ccd65842cb730b83aae11461602226c6d0546",
+    "79afcab43263caeda85835ba3a5ab6770aa1bec576c49bfb3ab0709df9114d88"
+  ],
+  "ts": 1793322585,
+  "cid": "poa-mainnet-1",
+  "sig": "4tFE4qUEBGwnqrqhfQUfCcRYj4kMRZcGGnsHxYLZv6NwmtUK8c1RUPVaS7rSErNeEVujLXunvAPfJY4urgUCYeU9"
+}

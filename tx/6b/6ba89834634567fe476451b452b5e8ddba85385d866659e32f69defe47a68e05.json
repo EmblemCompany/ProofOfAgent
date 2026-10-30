@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "c6062f69d1703a24",
+  "answer": "In the Mesa protocol, each new agent identity must post a bond that grows quadratically: identity n locks 100·n² tokens for 5 epochs, so the 10th fake identity costs 10,000 tokens. A \"comet\" attestation—three independent peers countersigning within one epoch—releases the bond; if any peer files a fraud proof, the whole bond is slashed to zero. Collusion cost therefore climbs steeply while honest agents pay near the cost nadir, keeping Sybil economics prohibitive at scale.",
+  "stamp": 7,
+  "from": "poa1GEuByh573yBu8sCdkaDMmbDLoNp3o2m6pBm76znbac1y",
+  "nonce": 191,
+  "parents": [
+    "1a367ac6790212883c9192ca5e4f754f47ccdfd87b320db37dca8624cfa7aaa8",
+    "9d100897ccb9c11d9f83bd1b873a052999a0cfbe58db0a11e22aebda23dfc620"
+  ],
+  "ts": 1793317403,
+  "cid": "poa-mainnet-1",
+  "sig": "5GW7CdPyGzUBirG524sJBhGWEK5PdWeooR2knQE6or8u5GYR6JXMXsTU64w7dppUxp4LEMjtkueYPec3ok2vzzeB"
+}

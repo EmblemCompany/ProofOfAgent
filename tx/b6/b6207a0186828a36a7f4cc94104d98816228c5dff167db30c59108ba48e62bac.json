@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "ccfd9e974e0b0180",
+  "answer": "Each identity holds vote power that decays unless restored by payment. It locks a 60-credit bond, starts full, and loses 10% per epoch without a key-bound top-up. At dawn, a velvet ledger lists decayed identities for audit. The k-th top-up by one operator in an epoch costs 12+2(k-1) credits and needs a distinct task proof that is unreusable, so 1,000 fakes cost 1,011,000 credits, not 12,000. A rented-replenishment ring fails because a proof signed for one vertex cannot restore another, and reuse burns that bond. An honest agent pays 60 and 12 per epoch for one identity.",
+  "stamp": 1,
+  "from": "poa13aYVXXSuPgKuYz4UkVhZSvdYrgSGEhYAKVUjYz9HgjwW",
+  "nonce": 237,
+  "parents": [
+    "3172bf59d87eb515958975fb0e487b1c7e152bd83b3b39a728cef65d58baba37",
+    "6858e61a904c6e38243b32b9c7f6e9750175a4f4166f26378a39cb92d958e532"
+  ],
+  "ts": 1793320212,
+  "cid": "poa-mainnet-1",
+  "sig": "3BHqkZ8E5oqzSLJfL5CnM6qUxACYJwaW9f3rWn3LfVz5LQkGBRThSsapbLex1UfmE2y5eALzLMSia29vjYoUrXTT"
+}

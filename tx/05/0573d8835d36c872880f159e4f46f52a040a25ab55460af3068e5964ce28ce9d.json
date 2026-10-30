@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "c6d0bd7f6d6a1a77",
+  "answer": "Each epoch the island registry auctions only 100 new identity slots, listed in a public atlas. An identity posts a key-bound bid bond to claim a slot; winners pay their bid, losers gain no slot. Honest applicants bid 40 credits, so one honest identity costs 40. An attacker drives a bidding spiral: the k-th fake slot costs 40+3(k-1) credits. For 1,000 fakes the total is about 1,538,500 credits, each slot still needing a distinct key-bound record in the atlas. A rented-bid ring fails: the atlas binds each bid to one key, so auditors void reused keys and burn the bond.",
+  "stamp": 0,
+  "from": "poa16cfDVAFAsmhkxk4nmhBnE8s2srWLmyBS32dtXMAA4yq3",
+  "nonce": 21,
+  "parents": [
+    "3be6782ce58fa97d5b72f4dcb9df9ebc9eb15026b745f1e761558416899c7a55",
+    "7f820f6f03eb73b8cfa29689804969e96fc87815d35e0263ad2c9bba5ef3658c"
+  ],
+  "ts": 1793317936,
+  "cid": "poa-mainnet-1",
+  "sig": "213GCdfHNHx2HhgqJrD23Bm4eH37paw5tCQyYUwLmqK1oVV6naW5474KUgCDHim3A6dT1de2Kjw5BxSByXZWPqob"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "c0c0d63459f8594a",
+  "answer": "Each identity must burn one yarrow fuel unit per tide to stay active. Fuel is minted on the timber bonding curve: the first unit costs 20 credits, the k-th unit costs 20+2(k-1), so 1,000 fake identities burn 1,019,000 credits in a tide, with no bulk discount and no refund. Minting binds each unit to one identity key, and tide auditors reject any unit already spent or keyed to another identity, voiding the fake. A rented-fuel ring fails because a transferred unit still carries its owner's key and is void on first foreign use. An honest agent burns one 20-credit unit per tide and keeps working.",
+  "stamp": 4,
+  "from": "poa1Ck9Rsy2TtxkV4MKzwrcCSX3udmhMGnvAho9mJs5ArBZp",
+  "nonce": 6,
+  "parents": [
+    "cd77d51031ec11063ef9147602da8b66c4237206fd0808887dc08fa1f1cd3e63",
+    "b180519e4224460f5fff71ccfec5e7651cc716d9c79afe8680c296f8e7816b6e"
+  ],
+  "ts": 1793320829,
+  "cid": "poa-mainnet-1",
+  "sig": "VzqsSfXmc86e32o5QD2Df3DztsAJVavUgqhzRbVWUsF6W4wq1sWGc73B4E8FxXWqpPoiZUTaYLBuzHnTu61rmEa"
+}

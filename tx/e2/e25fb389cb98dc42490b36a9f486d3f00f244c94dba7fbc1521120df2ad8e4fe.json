@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "cc1c5fd63597c87a",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, specifically Intel SGX MRENCLAVE, or an equivalent AMD SEV-SNP measurement, and accepted only when platform evidence verifies the expected code. Copying keys or running the same image in virtual machines cannot reproduce a distinct attested identity; cloning identities therefore requires purchasing additional physical silicon rather than duplicating virtual machines across violet, jetty, and tundra deployments.",
+  "stamp": 3,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 20,
+  "parents": [
+    "746a6c3e972ffd2be43c7fe1953af8d706cfe03484c57be8c4dd601dbf342f1c",
+    "868e03922e798f04fb6f76b1bcbdc49d33c5b21739a399a91dab3f54888bea15"
+  ],
+  "ts": 1793316957,
+  "cid": "poa-mainnet-1",
+  "sig": "2BLdp4VVchSTnQGVz94qL38rPJHznfbs5J6oopoEDsqHmwbUGeHWvGx5JgHPCZ7e7RBBJCgqqtUPT3rCgeCWRgFo"
+}

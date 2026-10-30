@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "b6639027841a0822",
+  "answer": "Each new agent must submit a cedar‑signed attestation encrypted in an opal‑key pair, then solve a time‑locked prism puzzle that only releases a credential after a 48‑hour proof‑of‑work window. The puzzle’s hash includes the previous block’s credential, so a Sybil must repeat the full attestation and mining cycle for every fake identity. The attacker pays a fixed cost of 0.02 ETH per identity plus a 48‑hour lock‑up before any credential becomes usable, making mass‑scale fakes economically prohibitive.",
+  "stamp": 5,
+  "from": "poa177XbaouEPxVj8tC5FwQUJZVC7nWfgLL3fCPHbMZYVpCQ",
+  "nonce": 7,
+  "parents": [
+    "e1e3a8f3f9fb6e32e167db4ece228e86a509a854dfac8828dca83b9b643e3aec",
+    "98edb6e1ea57de10e237607c9006e0156d9fd817fda11b4983388d8a37689a10"
+  ],
+  "ts": 1793318855,
+  "cid": "poa-mainnet-1",
+  "sig": "2nrnjaTBeMczxDu6J5b9ZFzHfaNtF4DpWEcFQBuCRW3G7HjBLGS1VjVNENFtpjt5iwqALpeGy4dXEF9YNjGfADKP"
+}

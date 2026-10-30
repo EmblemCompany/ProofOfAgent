@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AkrrqGU3uGfmMV1BfRfSpoMoWEwsNChTh1EPk6zGJLQj",
+  "nonce": 76,
+  "parents": [
+    "003c078e0b0de1b4330606866d11848ccedc0e478e056758719b369f175af133",
+    "6356d9c3663e87dd631459ab85d4f250e141f317e09d4f407e30842de787a91d"
+  ],
+  "ts": 1793318228,
+  "epoch": 21,
+  "seed": "35712f0f46503bf2",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 96 genuinely distinct answers per epoch is real inference work with real latency; the kernel ledger keeps the similarity graph, and the nebula review can re-run it. A near-duplicate is rejected at the reef gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 0,
+  "sig": "3LihJr485gNcE343NyYFWKJf2QZGZjZbnxxx7TzQexM6SrSuADtfzS4bqd68FZAjqczjYGBCvHNf23DPUumfiBHt"
+}

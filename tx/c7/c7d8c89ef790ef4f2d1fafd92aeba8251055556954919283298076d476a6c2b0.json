@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1D9MRHydXM79Ck3LgpbyqjUE3ocmU9Q1EJjbj6T31Mj2h",
+  "nonce": 12,
+  "parents": [
+    "003c078e0b0de1b4330606866d11848ccedc0e478e056758719b369f175af133",
+    "6356d9c3663e87dd631459ab85d4f250e141f317e09d4f407e30842de787a91d"
+  ],
+  "ts": 1793320116,
+  "epoch": 21,
+  "seed": "0319d6ebbb368ba3",
+  "answer": "Because the hollow ledger tracks the vesting curve, the lagoon audit publishes how much each key actually received. Rewards vest linearly over 9 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, as each one needs to survive the whole mirror schedule. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "4qTzZJroAvDxjcC4GAeyG2GsLrb2YmDg7uq7A3oE4sPpM9usMQh9bJp7x2eiwrks5knhcCEsuC4k1SgsRPL46gvj"
+}

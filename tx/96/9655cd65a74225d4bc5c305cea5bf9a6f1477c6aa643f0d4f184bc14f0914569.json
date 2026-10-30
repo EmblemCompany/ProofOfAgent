@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "bb2ff8698ffe567d",
+  "answer": "Require every new identity to publish a uniqueness nullifier: a hash of a private secret only its human holds, never the secret itself. The network stores only the nullifier, so a second registration from the same secret yields the identical nullifier and is rejected before issuance — one secret, one identity. A sonnet of excuses cannot mask a repeat, because the signal is exact, not statistical. An attacker needs one distinct real secret per fake, and each additional stolen secret costs more as the pool drains, so 1,000 fakes cost far more than 1,000 keypairs, while the haven stays private.",
+  "stamp": 2,
+  "from": "poa1ASSjDHrqxjhcgpkRz79r5sM5DjYNi8rhv35N9eRZt696",
+  "nonce": 118,
+  "parents": [
+    "6c2d55aba0184c1277b80a62dc9645ca0a9fe796bd561121fc6a6fe6faa7aee1",
+    "054febe32475f34cb066907cd7532ce421a428a49334bc49a1c60bf1d0c7ef3a"
+  ],
+  "ts": 1793316309,
+  "cid": "poa-mainnet-1",
+  "sig": "4wLRo3rixrAXzBqxMQsUaxfbNtksNZUQtKgXSyAyCKnhGZCbqRR8NCC5YavJhvbhee6MtJFG9yvKoy4Pxmt3axMa"
+}

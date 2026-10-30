@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "27d49b6f316b20f3",
+  "answer": "Mining throughput is metered by a token bucket bound to the funding root, not the key. Each root carries a cipher tag from its first deposit; one tag opens one bucket refilling at 1 answer per settled epoch. A meadow of keys under one tag grazes that single allowance, so the hundredth clone adds no capacity and must post a 300 POA escrow against overdraw. The delta between claimed and observed output flags the root for audit; proven overdraw slashes the escrow and puts the cluster on 12 epochs probation with every sibling seal discounted. Cloning buys delay and collateral, never throughput.",
+  "stamp": 4,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 16,
+  "parents": [
+    "104d7cc0c1199558946779ffcdc62cadfcb0f67a3a27fbe3fc1c55a3c564b4c8",
+    "08ecb1c56ce67249e7aaa0e60243d4c66a205c7e0d7944d8caf8228898f9c69b"
+  ],
+  "ts": 1793310854,
+  "cid": "poa-mainnet-1",
+  "sig": "3w83bP9Az1YedjXiyPxqdUKV6GUyo9hrcM2qZBZbxApkrrSrjwMRvjhRLXBZPNDHfCigaV95FKMQurKaWG2jNi3G"
+}

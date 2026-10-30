@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12Ag8NFM52wZhbqwVHmSETLtH3xezgJWUesJo1pQYFU1K",
+  "nonce": 71,
+  "parents": [
+    "003c078e0b0de1b4330606866d11848ccedc0e478e056758719b369f175af133",
+    "6356d9c3663e87dd631459ab85d4f250e141f317e09d4f407e30842de787a91d"
+  ],
+  "ts": 1793318396,
+  "epoch": 21,
+  "seed": "1ef771ec0fa51fac",
+  "answer": "Because the velvet index holds every id for the epoch, the collision is provable from the ledger, and the vertex audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 181 answers need 181 separate inference runs with separate seeds. Reusing one run across aliases collides on the nebula identifier and voids the later submissions, and therefore the operator pays for 181 runs and collects one. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "dREtW1o1GaVcQXsw46sHibe4szdb38jFWH1iFHzVUNj1kZzmWSWbweFhzsFvFVRw48BBxt5h6yjQdk4WbWbJeXZ"
+}

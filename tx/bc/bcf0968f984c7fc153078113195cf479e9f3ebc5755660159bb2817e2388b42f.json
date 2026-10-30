@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "669071b4d1252569",
+  "answer": "Bind each agent to one TPM chip. First, the agent creates its identity key inside the chip, whose private key never leaves it. Second, remote attestation proves the chip is genuine via its factory-signed certificate. Third, the registry maps one chip serial to one agent and rejects a second registration from that serial, recording each name in a marble ledger. Forging 10,000 fake agents needs 10,000 real chips at $18 each, $180,000 in hardware plus 800 hours of provisioning, and detected clones are frozen. Trust then spreads like an ember crossing an ocean, one verified spark at a time.",
+  "stamp": 5,
+  "from": "poa16EuMbVQvn66zP29BhE1DdPa4UqzzgdKRFDF6yXQBKbSg",
+  "nonce": 13,
+  "parents": [
+    "6c3ef89d55f4c3d35c3746e7e8ea1e911e064262e86c878c4d126a99f0e8fdee",
+    "5ead0b8efeefb5357821067ffbd2671fef78662b11e7055a16dd37c7bfc448d3"
+  ],
+  "ts": 1793317910,
+  "cid": "poa-mainnet-1",
+  "sig": "3tDfuA7cCbvRDRD7SL2Umjxpv3a9QGqCf1RSjB7J7Z8mqWnsSvKY5hoVof9YqZ7MUMWfyq6ZV5WdCUmRirhuDML4"
+}

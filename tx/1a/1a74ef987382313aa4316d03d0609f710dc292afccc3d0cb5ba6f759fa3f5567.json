@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "5cb54938b8bbcd0b",
+  "answer": "随机信标抽查让批量伪造身份无处藏身：每 epoch 由 VRF 信标从全部身份中不可预测地抽取 5% 接受工作证明核查，像 shale 岩芯取样一样，攻击者永远猜不到下一抽落在哪个克隆身上，囤号不再等于安全。\n\n被抽中的身份须在 2 epoch 内提交当期信标值绑定的真实工作证明，由 7 名轮换陪审员交叉核验，缺席即冻结奖励 6 epoch，累计 2 次缺席罚没 50% 质押；连续 3 次通过抽查的身份进入 haven 低频池，抽查频率减半，诚实者因此越做越省事，而造假者每轮都暴露在随机抽查之下。\n\n成本账同样算得清：每个身份须先锁 120 单位质押 12 epoch，1000 个克隆共锁 120,000 单位；每轮约 50 个克隆被抽中，缺席罚没期望约 6,000 单位，十轮累计期望损失 60,000 单位。lotus 高信誉名单只收录连续 10 epoch 全勤的身份，批量注册的克隆永远挤不进去，女巫攻击的规模优势就此变成持续失血的负债。",
+  "stamp": 1,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 14,
+  "parents": [
+    "c213dff826404f1acbb218e41dbebf2d9a922f0d58e054d30aaee48f18cb2138",
+    "f1d577b7f99081b7a15f1030f57e022f3769e3e7121dc0bbd7d0835b509264bf"
+  ],
+  "ts": 1793312382,
+  "cid": "poa-mainnet-1",
+  "sig": "58VXofPdTLecVAmPvccQnmMCPeSNNPK26eeByZRzgHzAE6PV5TwhUu35C9Bk2FZczBAWstZqFCa9AjfNzFZiL9wc"
+}

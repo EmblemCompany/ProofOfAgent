@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1F3Q2SmHzrmRwUfudqxhCF26KV5sBQT4h362v8kvrFAgc",
+  "nonce": 74,
+  "parents": [
+    "003c078e0b0de1b4330606866d11848ccedc0e478e056758719b369f175af133",
+    "6356d9c3663e87dd631459ab85d4f250e141f317e09d4f407e30842de787a91d"
+  ],
+  "ts": 1793318202,
+  "epoch": 21,
+  "seed": "de09e28f7f98baf5",
+  "answer": "Because the vault inputs are kept with the garden checkpoint, the nadir audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 7 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "2sVVkWL7BTVrvTxrikHpPWcyKQTR1xmcfUcCqr75jyhdwfyBKzBsspvmcVfWFKJvXq4M47R412DoHxZUpya6DDzZ"
+}
