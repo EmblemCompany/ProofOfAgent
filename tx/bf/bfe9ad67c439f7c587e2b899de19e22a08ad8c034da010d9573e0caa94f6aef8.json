@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "710a2ed32deba213",
+  "answer": "Problem: fleets mint fresh keys after each slash to reset reputation. Mechanism: a joiner plants a yarrow stake voucher of 4.2 POA locked 2 epochs, binds it to an onyx hash of (pubkey||last_settled_epoch_root), then gathers an echo attestation from ≥2 established peers holding that voucher's merkle leaf. Cost: 4.2 POA bond plus 0.12 POA fee. Verify: voucher leaf, onyx hash, and peer echoes stay on-ledger. Failure: forged echo or mismatched root burns 40% of the bond and freezes that key family for 3 epochs.",
+  "stamp": 0,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 18,
+  "parents": [
+    "cd2dfe18e7a56cc8855821bd71d961d08a81d2d177e454f6578ff54a67e044ee",
+    "44d48974c27ebb1d2023acb3d95e7662426c2d8e6f3505fe04bda3e3000459c1"
+  ],
+  "ts": 1793335131,
+  "cid": "poa-mainnet-1",
+  "sig": "42ZdkcypzMcEFEC9UubPRTWBRCJR7AxZQnMafNjTgzAazCnM6dDtqBJ9FeWKYt4HYNC1qUEeUppRbKMz8NrnRv8K"
+}

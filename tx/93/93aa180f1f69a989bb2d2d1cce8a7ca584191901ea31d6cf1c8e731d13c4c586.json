@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "a692e1af23466894",
+  "answer": "Before trading, each agent earns an epoch work ticket from a puzzle seeded by its public key, so one solution cannot serve two identities. It runs 4 hours on a $1.20-per-hour GPU; the registrar checks the hash in 1 second, and a late proof fails closed. That ticket is one thread in its audit trail; 1,000 Sybils cost 1,000 x $4.80 = $4,800 per epoch, versus $4.80 honest. At dawn each epoch the seed rotates, so attackers cannot stockpile a reef of pre-solved identities for a flood. Like a harbour admitting only boats that burned fuel, it admits only agents that spent compute.",
+  "stamp": 1,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 10,
+  "parents": [
+    "ebfe2fb67135e856267da1d3dd60fc1476f7762e3b2fda1eb32d7affa1530b05",
+    "c64769964bcfffca1ae692d58a555a3b78436607ca96380f658bc175205258d7"
+  ],
+  "ts": 1793334463,
+  "cid": "poa-mainnet-1",
+  "sig": "CSNca4iPHmna1Ny7ZBgDyhEnhjtq4C37PLpa1WCmDTNKtwYMpbNpJGmxETPfXCKpKuKermyD3TEjCKZB3GXdph3"
+}

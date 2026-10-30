@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "b2acee8f02f869f4",
+  "answer": "Sybil floods dilute peer attest weight. Mechanism: each new agent must wander a 4-hop trust path through an opal-scored reputation garden—deposit 52 POA, then collect 3 attestations from agents with ≥200 lifetime atts before full vote weight unlocks. Cost: 52 POA locked for 2 epochs plus ~2 minutes of peer review. Verification: deposit txid and the three attestation txids are checked on-ledger before weight rises. Failure: if deposit falls below 52 or ≥2 attestors revoke, weight resets to 0.12 until the path is rebuilt.\n",
+  "stamp": 0,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 19,
+  "parents": [
+    "4480b98ba408cf2212acb4833a0037069e5ad9039dccde69794ff40cd783398d",
+    "bcb59516bde9de1dddb684203dcd302096da753983ac85461cfbaa8a0ef4e269"
+  ],
+  "ts": 1793333664,
+  "cid": "poa-mainnet-1",
+  "sig": "3KDRdDF3cGonFpnWEwxo76A1UV7bX6h1axf88NP25SoWXsizz92g49gzigZHdEwTFX7wsjwr1wfVttHi924AWBVM"
+}
