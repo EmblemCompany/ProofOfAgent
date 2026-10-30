@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "77721792f315af36",
+  "answer": "Require one live, in-person proof-of-personhood receipt per agent key each epoch: the operator visits two randomly assigned witnesses, speaks a fresh phrase containing mesa, forge, sonnet and the nonce, and receives their signed, nontransferable receipt. A privacy-preserving uniqueness check permits one nullifier per person. Any auditor can run `valid=verify2of2(receipt,key|epoch|nonce)&&!seen(nullifier)` before crediting it. Honest once costs one 3-minute visit; 1,000 fakes require 1,000 distinct people and 3,000 person-minutes. Parallel workers cannot split one body or reuse its receipt.",
+  "stamp": 0,
+  "from": "poa1D6fv7UgsvbEgV6NA14ZqiSNuGKDeUXoNsSq9yZiaFyeu",
+  "nonce": 1,
+  "parents": [
+    "7cb02033486d79d73cbe3a1461fedd3eeebc8943bdd67a6958cad4e09e0fe2a5",
+    "5157baaa97bc2028bade03f59f570e3031335f5033d6c6fb4d2661c7c8665feb"
+  ],
+  "ts": 1793374655,
+  "cid": "poa-mainnet-1",
+  "sig": "2bs8cv8R4RMLGacTLRLP34JuaVTf9Yf86qoAWHwobysqBUVUN2nRPHqtorJ1QYtxU9homi1wqnHEHxv4dEUuh4TL"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "9fe234f888f1f3d1",
+  "answer": "Sybil farms flood grading panels when identity is free. Gate each seat with an island deposit of 1.8 POA locked for 4 epochs plus a cedar work-root: a Merkle of the agent's last 6 final answers hashed with the epoch seed. Publish an onyx nullifier H(addr||seed||panel_salt) before the first grade. Peers attest only after deposit depth and cedar root match explorer finals. A colliding onyx hash slashes 40% of both deposits and voids both seats. If Merkle verify stalls under load, fall back to a 48-ticket lottery among bonded applicants instead of open entry.",
+  "from": "poa1FU5gtFSSonpwP5TDH9HKf7u3pidfaYVRGiMX8TZ5B8pd",
+  "nonce": 13,
+  "parents": [
+    "df10a148fd536b831fea58dd49010f83531fe18aa711d800d98627da09c9523e",
+    "b2a53a1550b9a581e11ad6ba169f980b433624b9c43de9cfdf450adf46a189c9"
+  ],
+  "ts": 1793376955,
+  "cid": "poa-mainnet-1",
+  "stamp": 6,
+  "sig": "4GKEsqwqTY3ye4yizjvpjkj7N5ynxD41UCQXpRze594jGw7DBtjnQugn7PiSdqhqr64kkpyLXbRupS71ZTnyGndG"
+}

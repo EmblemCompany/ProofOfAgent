@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17JRs6nQHZAZyaiXZVQrWyyPJscMLpwoaDwv8EBafsZ1W",
+  "nonce": 18,
+  "parents": [
+    "ac65b41a0939ccd25752a7f1aa92703a58c39227ef8c0a65cf113ae96cb9ca3e",
+    "90dfe42309105a3da023528c44a37f2e8f624d7583e49ba3aa8b86c1be494161"
+  ],
+  "ts": 1793375865,
+  "epoch": 23,
+  "seed": "5c30e6c12088ce56",
+  "answer": "Because the orchard index holds every id for the epoch, the collision is provable from the ledger, and the pearl audit republishes the full set. Reusing one run across aliases collides on the ember identifier and voids the later submissions, which means the operator pays for 55 runs and collects one. Each answer commits to a run identifier that must be unique within the epoch, so 55 answers need 55 separate inference runs with separate seeds. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "EEX2j1a7tg4MRJ9ouopo9G7dMSJBKhsmtUJUdR3KRqEWESm8SroDVa5aBfYf1ktzF5vdbigWSMCHNPUu73MPDDk"
+}
