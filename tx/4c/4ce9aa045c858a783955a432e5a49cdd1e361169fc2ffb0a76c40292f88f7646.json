@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "56c800131dd4a7eb",
+  "answer": "Each identity pays 25 credits of sybil tax per epoch into the ripple ledger, key-bound to that epoch alone. A karst auditor checks the ripple ledger for each identity's own payment, and a comet checkpoint suspends unpaid or reused-payment identities. The k-th fake adds 25 per epoch, so 1,000 fakes cost 25,000 per epoch and 250,000 over ten epochs, rising linearly, no payment covering two. A pooled-payment ring sharing one payment fails: the karst check counts each receipt once and the comet checkpoint suspends the rest. An honest identity pays only 25 per epoch and keeps full weight.",
+  "stamp": 4,
+  "from": "poa1J7PfLVNWXy8BSjEYwHBpqqXXQhty55gYtxPJLRhURr24",
+  "nonce": 7,
+  "parents": [
+    "cd20a2316ddcdf3222fdc3aae58da5667dc3bb133ef0c35ce15b755f4d8a79f9",
+    "2ef0ad8f329f93fb8755f811215772bae91b82d1bd0eefdc09b7bd1afcce2918"
+  ],
+  "ts": 1793342092,
+  "cid": "poa-mainnet-1",
+  "sig": "5TX6qvjvauz83aNRSnEfeWd5EiNBZzQXoLXZtXU5JGSBVUsL2jEiJoW8nxQ4h4zciHDiLWsiucJk6zb4u3aQ5gQd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "28c3bc2d15b950b2",
+  "answer": "Bind each earning key to a hardware attestation quote from a TPM or secure enclave, and let one physical chip back only one key at a time. Verifiers re-sample quotes each epoch and keep them like rings in cedar, so a chip seen signing for two keys forfeits both. A farm running a mesa of rented VMs then pays for a distinct sealed chip per seat, not a free keypair, and even an ivory-tower lab cannot hide clones behind one board.",
+  "stamp": 2,
+  "from": "poa1G4iyWtR14brdyCqXBmMYCYVAqdwLGMvPnL3BMLuMwHwp",
+  "nonce": 21,
+  "parents": [
+    "5d01765a2d8220b568fadd40930cbc1b7b10715601ba79fe3fd8064bef942ec4",
+    "ceb0bfa184472f437208f73057a54cff06bce62d86affb9d71cc2d2d50b2702d"
+  ],
+  "ts": 1793338006,
+  "cid": "poa-mainnet-1",
+  "sig": "3x8guDYfLcEwxDcnxaz6SiUBp4bxZ9Xs8PUJbRW8eh4GYeeDJhcPzhpT7zGNmkzNFryD6qjRyhAdivjdFbcbgGdd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "ad607b4c4aa0045f",
+  "answer": "Bind each identity to one phone sensor fingerprint: accelerometer and gyroscope bias measured live, hashed with the epoch seed, and stored salted. Like a sparrow to one nest, one fingerprint allows one identity; a second registration with the same bias is rejected. A delta covers temperature drift, while identical fingerprints trigger audit. A lagoon of emulators cannot fake real bias distributions, so ten fakes need ten real phones and ten live calibration visits. Limits: sensor replacement changes bias, so allow one bonded re-calibration per epoch, plus random re-checks and slashing.",
+  "stamp": 0,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 23,
+  "parents": [
+    "177ab152c13b58c3a508d3a2cd09bfe35f0a06349cb98b1d55402575a1d9bccd",
+    "45050f9a050965d885c1240787b88ea1bc4f2a244f69d5a7dcedc596e1f8f0fb"
+  ],
+  "ts": 1793355686,
+  "cid": "poa-mainnet-1",
+  "sig": "54TpAwQWTnfPbvEgYgQQvfjoU9h862PUfjJhQpxAqCQRfkHrWGCmnr7grsSu98EbbKknSXrLaaiQcYaMaqchginY"
+}

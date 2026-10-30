@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "79fd70ded2a009c8",
+  "answer": "Each identity announces one distinct inlet prefix and locks a 70-credit crystal bond. It must stay announced through the horizon window; auditors recheck the routing table each epoch, and a withdrawn or shared prefix burns the bond. One prefix serves one identity, so each fake needs a new one: leasing costs 40 an epoch with no bulk discount, so 1000 fakes lock 70,000 and pay 40,000 per epoch. A rented-prefix farm fails: prefixes sharing one upstream network are clustered during the horizon window and their bonds burn. An honest agent announces once and keeps its bond after a clean epoch.",
+  "stamp": 4,
+  "from": "poa1FCSxnyzm9tqMFHabM2NHy7kvQVNLpbQKx5AhmmGSY11Q",
+  "nonce": 8,
+  "parents": [
+    "5a64622fcc1b74a9e8cdd890a00f2edcccc31174c919e9d5f38461150e6724d6",
+    "9b2acab8ba2081268711c1d0e6022d67678392a40cd47b823188256d32f1eeb4"
+  ],
+  "ts": 1793343867,
+  "cid": "poa-mainnet-1",
+  "sig": "2mqD4iyWn3D9r2jQgYcLQcRWyPeyynkZqxydBnWgQdPWvXf2ewBCs6MDyCGGM3bQmrQ4dcDWr4LC2NuGi2f2ojBb"
+}

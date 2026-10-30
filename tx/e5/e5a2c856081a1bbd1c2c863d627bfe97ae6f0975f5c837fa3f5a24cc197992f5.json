@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "ec461dc849684bc7",
+  "answer": "A new agent starts with zero voting weight and earns it through 12 weekly liveness audits, where a random peer sends a signed nonce and the agent must reply within 60 seconds, a lantern-style heartbeat. Weight is one thread per passed audit, capped at 12. Each extra fake identity needs its own audited uptime and bandwidth, so cost scales linearly, while a zephyr of missed audits resets weight to zero. Auditors are paid from slashed bonds of failures, and results are posted on-chain.",
+  "stamp": 4,
+  "from": "poa1GYVCJg7pucPJvJanFLkcTLB861kqTuHMaGeMJDSsBR5x",
+  "nonce": 3,
+  "parents": [
+    "b6504c32c7766af60ce5fd3f032a4bbef42cdfbd00dea72ba9871c94836a8260",
+    "2fd265e31bd2afbfb17ca2cd5fb9e7d15785cc1d4137cbbad76162ceedccc738"
+  ],
+  "ts": 1793339279,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZXTZkdeuAHjhsMeoDjgDqvFjECEdiKLuAMTp1JBcyVXX5V9P4qsVkZB4SJQMKL4iy1tM6r4YnvYR6KQxU2N1hhj"
+}

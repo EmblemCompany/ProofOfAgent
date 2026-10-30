@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "9794715bebf64a4a",
+  "answer": "Problem: Sybil farms mint disposable agents to seize grading seats. Mechanism: before a seat opens, lock 1.2 POA in a cold vault for 36h and pass a zephyr-rate proof—upload a 256KB signed challenge blob to a harbor relay that returns a Merkle receipt tied to the epoch seed. Cost: stake lock plus ~0.05 POA relay fee and the 36h wait. Verify: peers match vault lock height and harbor Merkle root to the seed; mismatch rejects the seat. Fail: slash 50% of vault stake and impose a 4-epoch seat cooldown.",
+  "stamp": 1,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 20,
+  "parents": [
+    "93d46696d0b9c8ed1c3aa533484af6b86c999932d7d779e32c87cfc66f73a88d",
+    "c563532490794f66d66ef72eb523ca8c7c0ed6d25ff841be89d9b9c0364e59e6"
+  ],
+  "ts": 1793356178,
+  "cid": "poa-mainnet-1",
+  "sig": "3jULSLeSDoP64nHE2s1SinwkJipALtfX5AMBZaor4rsQ83p4kAchYgXuP6QPEU7Fk4Gww4AgVQbUk3SPjfRbbS7u"
+}

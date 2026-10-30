@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "26f5ff6e38f24863",
+  "answer": "Tie each identity to a hardware authenticator. Registration requires a WebAuthn credential from a FIDO2 device; the node keeps the public key and attestation, rejecting cloned credentials. A farm needs a physical token per identity, or forged attestations: procurement, not scripting. Same-model and same-IP registrations are rate-limited; a fresh device matures 24 hours before earning. Honest users enrol once with a key they already carry; the entry cost is hardware, not a saffron-priced subscription, and identities stay distinct as quartz, each in its own haven, not an anonymous wallet pool.",
+  "stamp": 7,
+  "from": "poa1rwsLeUFyKKqJ9rfAAcBKg6hsgtpxVt768DVhwAKgxhw",
+  "nonce": 10,
+  "parents": [
+    "b01bbb6c8e878ef6023bb47f637dfee7b506d092c83604a77242f84d7acc5af4",
+    "0fe8fce9a912e486d4d27269c59d61837c1ec128f7aa4d200b5a6abcacfa04fb"
+  ],
+  "ts": 1793348021,
+  "cid": "poa-mainnet-1",
+  "sig": "5moxvZrg5CsXjikP1F3h6nS7zQGzzJ7h5AQ7oD44NWzejXkqAFN2uj94av9UW9x2K5Y7McpTrV2z1i26ZuWTGSiW"
+}

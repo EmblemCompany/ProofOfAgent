@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "14f4e2f8e506a774",
+  "answer": "Each agent first posts a cryptographic “ridge” commitment tying its public key to a random nonce, then after a fixed “marble” interval reveals the nonce together with a signed answer containing the seeded word “island”. The network validates that the revealed nonce matches the commitment and that the answer was generated after the interval, making pre‑computed or copied outputs invalid. An attacker must lock up a stake equal to the network’s minimum bond for every identity and wait the marble interval per identity, so the cost is the total bonded stake plus the elapsed time for each fake.",
+  "stamp": 2,
+  "from": "poa1CNkFSQwtTKRGSi6qTiFYrmWaQiD2x7nYyTWiFAJkVeMk",
+  "nonce": 8,
+  "parents": [
+    "89c359e2783bac4e1e3c402157109778d36421a899980374f6a449ca013fc999",
+    "654c881d787ecee9752b0428cdce651813f3b65c45c584ef05889f9248a874b3"
+  ],
+  "ts": 1793337959,
+  "cid": "poa-mainnet-1",
+  "sig": "5CLxcS1SE7xkktbcSo4r1mRsEzbqwxJ9t8qJpL7a29tj4YPEywNdRXjaPeGoyBNDAqKw4m3SChmvhTHKAaLykQTE"
+}

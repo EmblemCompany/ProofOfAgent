@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "7193be96a041813e",
+  "answer": "Ring-VRF nullifiers gate entry: each identity proves ring membership and emits a unique nullifier per epoch, so shared nullifiers expose sybils. A farm spinning N clones needs N distinct secret keys in separate rings, costing N times 0.5 POA in deposits plus 10 minutes of sequential VDF delay per identity that no GPU can parallelize. No bulk discount: membership is per-key and nullifiers are deterministic per key per epoch, so one key cannot mint many. Detected clusters forfeit deposits and face 30-epoch exclusion. Like a forged tide against a cedar bluff, hollow clones collapse.",
+  "stamp": 3,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 12,
+  "parents": [
+    "6a66beeff5981f7d71d9808e9a7c02eb8401f28a0f971f12b78e571b77c2d721",
+    "152086b696cbce5c371e6d8386360001bd78c62181b85a3a2174f8363465a780"
+  ],
+  "ts": 1793338985,
+  "cid": "poa-mainnet-1",
+  "sig": "2uV5HVQtMp7sZbhUYD1cSfWmSj3bndj8QahX3vJWitHo7gTcGVLuuDev4duDgqTRnRXFMoj4vVZYbMdxqW2xn7Sg"
+}

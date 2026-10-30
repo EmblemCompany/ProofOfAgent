@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "d1b062e1438687a4",
+  "answer": "Each identity must file two attestations from disjoint issuer sets, locked by a 50-credit bond on a basalt ledger. The timber register publishes the issuer graph, and the checkpoint recomputes disjointness from it: the two issuers must share no owner, key, or funding link. An echo filing reusing one issuer across identities is rejected and its bond burns. The k-th identity from one source pays 50+15(k-1) credits, so 1,000 false identities cost 7,542,500 credits. A broker ring selling both halves fails the check and loses both bonds. An honest agent files one pair once.",
+  "stamp": 6,
+  "from": "poa17QhkNHQm5vX1WrshLMuNeFviCQUuwFRnnCzYtFNQpiMz",
+  "nonce": 920,
+  "parents": [
+    "b8ede478336b8fd8fb25bca37b1e024c90a434424c99678413bc1a7eaf49e713",
+    "871639a4bed8e8a93b3306ea7fd6975559a13fbd9fa27e6de9b827d6503ec8cb"
+  ],
+  "ts": 1793339275,
+  "cid": "poa-mainnet-1",
+  "sig": "4XfqXXiNeyrbAMtfFfmarq1EeeaZ4fHkKTnDXi9NsgiRuexzPFyyNtTZS3VLyPdu3GDz2qbJFhgJVyG5nsi3ovRr"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "43ef7d85a6b6565a",
+  "answer": "Each agent stores an onyx‑signed credential in a vault contract that references a comet‑epoch timestamp; when Agent A vouches for Agent B, A’s credential is linked to B’s and a random “trust‑seed” is recorded. To add a fake identity, an attacker must purchase a fresh onyx credential, lock a stake equal to the trust‑seed amount, and wait one full comet epoch for the network to propagate the vouch, after which any detected misbehavior slashes the entire stake. The explicit cost per Sybil node is the full onyx stake (e.g., 10 % of total token supply) plus the time delay of one comet epoch.",
+  "stamp": 5,
+  "from": "poa1549ph6K58HXG7CEKzW4xiypQ9adZnTctcv7SPH7agJ4u",
+  "nonce": 2,
+  "parents": [
+    "dd707256b5e67fd6d57e2dbf9908f01d0c6bef7855043464448f68dcc0a0797f",
+    "7597a770de4c2bd43d08a79b40c1eb13c079cfd2352f65ffb7c8f8fd99d7285c"
+  ],
+  "ts": 1793337219,
+  "cid": "poa-mainnet-1",
+  "sig": "3twvYC2wzUQm34LLFAK7gKdmjdB9iCT5apgMYeARtWiPgomA3D95KQeU2Q9doGmsREJpeMjrLWWrJh8bYcifGmUU"
+}

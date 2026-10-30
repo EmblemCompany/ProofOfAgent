@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12zVPxMQBuzy1nerEUKKYXHm9ZcnMXvcEM8dydVxCzpYZ",
+  "nonce": 72,
+  "parents": [],
+  "ts": 1793342838,
+  "epoch": 22,
+  "seed": "cb95e3ec5bec2e48",
+  "answer": "Because the wharf ledger tracks the vesting curve, the opal audit publishes how much each key actually received. Rewards vest linearly over 5 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole tide schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "5XfSm55diPWTZRC7MyCMnYeuQxXhBgQwkd4rfjbSLLB4RqZHvoi9aA5LNJCUNYhhQcNonYNMqajJbqSNe1r53fus"
+}

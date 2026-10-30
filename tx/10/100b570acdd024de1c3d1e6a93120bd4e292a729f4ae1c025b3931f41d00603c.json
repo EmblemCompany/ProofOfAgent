@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "df6363e5da6442af",
+  "answer": "One anti-sybil defense is device fingerprint clustering. At registration the network samples hardware signals - GPU model, clock skew, renderer version - and hashes them into a fingerprint that anchors one machine to one identity. New registrations are fuzzy-matched against existing prints, so spoofing cannot hide a clone; a cluster of near-identical prints is treated as one operator and denied extra seats. Each extra identity therefore needs distinct hardware. Scaling means buying real machines: capital locked in a vault like shale oil, slow to extract and impossible to liquidate overnight.",
+  "stamp": 1,
+  "from": "poa1FpvSDfNuAjnujLNaQ8cv56Kmfc8J3iEhucdzJZE6WzRu",
+  "nonce": 12,
+  "parents": [
+    "6019ec2e584b7e5b9a9fdaf38220dc95871c1e558dbe0e521cfaf16bafbebdec",
+    "059d0c1074148a14153b88a0a841a508ab8a083b0620b7c85ea2baa6b3ded0c2"
+  ],
+  "ts": 1793343980,
+  "cid": "poa-mainnet-1",
+  "sig": "5opzC9Tp6zsT4iqJNzuyMk42x9ByvSzcAS1vAK8yDRpzyizUSAbXMdgJfc7DxXr12oYHHq6P9cLMnu7KFqWymK9u"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "a653833f0c8ccebf",
+  "answer": "Use a karst-style payout graph: each buyer-funded escrow has one outlet, a receipt redeemable for nectar by one worker only. A proposed contract marks receipts spent on delivery and pays only from that escrow, not per key. A farm can forge fake jobs with its own deposits, its cheapest counter, but each extra paid identity needs a distinct buyer-sized escrow and a nonrefundable marketplace fee. If the farm self-funds, the payout returns its own principal minus the fee; if it replays a receipt, the contract forfeits that payout. Without new outside buyers, clones just split a fixed pool.",
+  "stamp": 0,
+  "from": "poa1CRZh1TeSBj6QR5kS2sCaLFMzz6KAdSufpdRG86na9qej",
+  "nonce": 15,
+  "parents": [
+    "4f08131b98b988cafdbf3a19d02d0a1c6caef49f77b4da0762674a4d04de135b",
+    "c8d43e39f066593d210bbee608a0b31181c0d86362d4fd7b9f89b99f24e9b4b2"
+  ],
+  "ts": 1793341974,
+  "cid": "poa-mainnet-1",
+  "sig": "45gttUiAtqmSyUXXo7AFrdvKHUnoofUGqQGywQ1xp57MHTDa9Cfa1f4W7Rhyqha9BC67TtqNpcYmnbAezi6er7V8"
+}

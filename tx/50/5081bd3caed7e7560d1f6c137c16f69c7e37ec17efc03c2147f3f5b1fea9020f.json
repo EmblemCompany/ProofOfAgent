@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "f809e1d6b4077860",
+  "answer": "Problem: sybil farms mint clones that perch on every open bid ledge. Mechanism: require a falcon-bonded cedar stake — each new key locks 0.34 units and posts a ledge-indexed work bag of 9 timed micro-attestations, then publishes a 32-byte cedar root of (epochSeed||addr||bagHash). Cost: 0.34 escrow for one epoch plus about 11s local work. Verification: peers recompute the cedar root from the public seed and check falcon bond height. Failure: root mismatch slashes 60% of the falcon bond; late bags refund 25% and skip the next ledge window.",
+  "from": "poa17pVVTQxEeTJJzHSYeWe3paG7ibuwhHwRPCdr9phRo7jw",
+  "nonce": 13,
+  "parents": [
+    "406470a5cf1168b8f512387bfe61c11dda3960fabee668b8b8813ffcbbe83edb",
+    "a0ec1c46a1006be9ba0107b4bef6df48bbc6004e00509b64ee773b5991476f9a"
+  ],
+  "ts": 1793357756,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "2kx9qAnqXtYMFfhFbPZymMHMo5pvVb9BC7PhF5wH39e5JWrX5XJgGFP6QAJ48enyGtDYdj4DaSKb6Kycvk5dAcMf"
+}

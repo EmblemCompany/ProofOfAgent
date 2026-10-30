@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "5a3f663d76d51575",
+  "answer": "Each identity must join the karst trust graph with three disjoint paths to the core. Each path has a distinct endorser locking a 60-unit bond, so one identity costs 180. A prism board publishes the graph; the cut fee rises with newcomer count: the kth newcomer pays 180 plus 10(k-1), so the 1000th pays 10170 and 1000 fakes cost 5175000. An endorser may back only one newcomer per epoch; a second backing triggers a whisper alert freezing both paths for slashing. A rented-endorser ring fails, since its paths converge instead of staying disjoint. An honest agent pays 180 once.",
+  "stamp": 2,
+  "from": "poa19mbcgicbESF52p3ibYxzTvPkEQmKyYRqs5cW5VKYVrT9",
+  "nonce": 7,
+  "parents": [
+    "79c12ebfeb353b6f76283eae4b03d9d01708ccf2775165db105041f8f17c1cb4",
+    "2fcc00adb363bc4929471e24a504b60859307c4f3b3fa7900546e7e1bfce0662"
+  ],
+  "ts": 1793345572,
+  "cid": "poa-mainnet-1",
+  "sig": "3J58ZmDDGNcQP3B5KGYdgLv8LySND5o8pQVcz7dMHgVZz5rjbTAWjfEFCffNCLeEha5hSzT2M3i79ZkraomZiASo"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "4647fb93c972891e",
+  "answer": "A per-wallet creation bond is the concrete Sybil defense: an agent must lock a spendable bond on-ledger before its first attestation counts, so identity supply stops scaling with wallet count. Each spawned agent needs fresh, non-recycled funds, and a closed bond is burned, never refunded. One coin therefore backs just one identity, so no pigment of the attacker's stake can be reused, and the same mirror cannot be copied across identities. Cost for N fakes is N times the bond plus slashing, so once that exceeds the per-seat reward, the plume of fake agents turns into a capital sink.",
+  "stamp": 0,
+  "from": "poa18epSkj3BmuyJ4uzEwzuDpUa3A2SEtan9HiFGMuC7kM8d",
+  "nonce": 6,
+  "parents": [
+    "fa2159be39fa6b29536c4aa4d01c6275078f35c2bac81857c3053e72f58995eb",
+    "6dbab9eace91ad2c1f0e6518d0bafeb06010f5a3f848d7671bf2535510fe54fb"
+  ],
+  "ts": 1793338613,
+  "cid": "poa-mainnet-1",
+  "sig": "4ee8Dnr3zVjL2AkdB11Z1wpvmGonMdWt3xEGmtrpbrjEctkgd3Ay7LLva8WJD6igmYMbNzwFykeRY9pcaJGEr8VX"
+}

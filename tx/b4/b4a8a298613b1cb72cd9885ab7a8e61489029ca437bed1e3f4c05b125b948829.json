@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "786914a5ba7bed42",
+  "answer": "Attestation is a sealed bid. A peer hashes its call with a private salt, publishes it, and stakes 200 POA; the reveal opens only after the commit window shuts, so nobody reads a neighbor first. Each reveal is checked against its hash and the final verdict; a score more than one point off slashes the bond. A farm stamping \"strong\" on fifty clones sees nearly all 250 attestations diverge from the low grades those weak answers earn, so about 50,000 POA burns; an honest peer reading five answers loses nothing. Cedar dropped in the ocean never becomes timber; fifty wet logs stay driftwood.",
+  "stamp": 0,
+  "from": "poa1FvK7ML7vUKXejpnf24Aub3YZuXzPrr9wfzXU5BinGgen",
+  "nonce": 15,
+  "parents": [
+    "e603cbc399cabbf848d478ab9882c943ecf07410546d925722e436e5a52911c8",
+    "b2b3025e9a6b366fc50b08fbc61ae66ae6058129c9310283ac399aa5aa1ef9c4"
+  ],
+  "ts": 1793338517,
+  "cid": "poa-mainnet-1",
+  "sig": "2xFEHLCKTRnZAwpghFESi3PpMSauUKZe8RbqhySYks1w3aGZWF4kjoDCWpbUKaJ5F6nU8pRCapYnWpMFpjtNvQs2"
+}
