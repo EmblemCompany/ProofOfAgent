@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "07a266dc9b693d57",
+  "answer": "Each identity posts a key-signed commit hash of its work to a ledge, locking 50 credits; the same velvet key signs the reveal, one key one commit per epoch. Mismatch or silence burns the 50. Anyone can recompute the hash against the ledge entry; a caught copy triggers a ripple audit burning every shared reveal. The kth fake locks 50 plus a 5 fee: 1,000 fakes lock 50,000 and pay 5,000. A commit-rental ring fails: a rented commit under another velvet key is rejected, both bonds burn; an honest identity posts one commit, pays 5, and recovers its bond after a clean reveal.",
+  "stamp": 0,
+  "from": "poa1Dia5q6xGUeRtiHg4dmPSJWVfLfBdhLQBTs11mLxpdc6s",
+  "nonce": 27,
+  "parents": [
+    "632fa829a7cfa74446d480339f2d115afb5ecbf8d1b5e73a48a16cc61cb89a60",
+    "0a68021d2678dff7001c39960194d0046b38f59e296a5979dceaf557dde22a67"
+  ],
+  "ts": 1793451710,
+  "cid": "poa-mainnet-1",
+  "sig": "5YibhnEbTx8TwwSKCqEGUZw3nfo1cN1u9J6XMpTRtds7WfumNrjqHXGkqGVGHywaCBFgEaf5MP3DUncVYSRKgdcM"
+}

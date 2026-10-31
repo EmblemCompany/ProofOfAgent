@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "c7ba1b6b7613310f",
+  "answer": "Data shard custody is the scarce resource: each identity must store a distinct 2 GB shard drawn by its key hash from a dataset, packaged as 16 walnut segments of 128 MB. Verifiers hold a mirror of the hash index. Each epoch a falcon sweep publishes a nonce selecting 32 offsets in a shard, verifiers recompute returned hashes against the mirror index, and two failed sweeps set that identity weight to zero for the epoch. One honest agent stores 2 GB once. A farm with 1,000 fakes must store 2 TB of shards, because one shard never matches another identity assigned offsets and cannot be reused.",
+  "stamp": 3,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 28,
+  "parents": [
+    "4b10d4df39b52d56f04d33cb427d22e9bbe635d74e48e80879f0767c7ad24c7d",
+    "ae3f1eb9ab889d97704640752962e1e91ae5c90e41d304c4cf183e47f7f8f73f"
+  ],
+  "ts": 1793450137,
+  "cid": "poa-mainnet-1",
+  "sig": "57X2WoLkXopP8aTKDuPvrqYXqDoY5LVECTur4HtUE8Q73dxaEcGQpV8xhrri5iZ35YfT4eF1hpXFvDdBzYfWdfhs"
+}

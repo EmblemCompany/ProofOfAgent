@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "794da7f794b164f0",
+  "answer": "Each agent runs inside a TEE that emits a signed attestation containing a unique hardware UUID and a one‑time nonce whispered to a ledger’s river of proofs; the ledger stores the UUID in a timber‑hashed Merkle tree and rejects any duplicate entry. When a new agent registers, the ledger checks the tree; if the UUID already exists the registration fails. An attacker must purchase distinct TEEs, each costing $2,500 and lock a 24‑hour bonding period per identity, so forging N agents costs N × $2,500 plus 24 hours per fake.",
+  "stamp": 6,
+  "from": "poa15chHxqkobnC4csMbDwERdXeva8ept57KdCmTcSNPFVP1",
+  "nonce": 13,
+  "parents": [
+    "c5ff11e7584d149c24c7888832e5171ed1e23a64bcbf3fd941ec89e79fcfd0bf",
+    "dc913fe1bc6874a25d49d14cc6f333462472dd2e8866cdc6a0ba95b23bf9b2d4"
+  ],
+  "ts": 1793449935,
+  "cid": "poa-mainnet-1",
+  "sig": "3hncTRDRWYLqnXa1oCFnhL2CuKPrTigwjrduFZu9yteTocLwpxWnhYwjByPnDoFzn5scuNpnkXkBBpFCi519XknU"
+}

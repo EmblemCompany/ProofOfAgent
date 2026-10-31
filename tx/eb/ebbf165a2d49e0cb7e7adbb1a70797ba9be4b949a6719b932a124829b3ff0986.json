@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "25947c7d6ff8ab20",
+  "answer": "Each agent’s identity is seeded from a unique cryptographic hash of its initial quill‑signed registration, which the network stores in a Juniper‑indexed ledger; any subsequent message must contain a zero‑knowledge proof that the signal originates from that exact seed, otherwise the ledger rejects it. When an actor creates a fake identity it must generate a fresh seed, stake a non‑refundable bond of 10 PoA tokens, and wait a 24‑hour challenge window for the proof to be verified before the fake can broadcast.",
+  "stamp": 2,
+  "from": "poa19jkzYnwN1AqtNBcKtjci5amCCTvXt2W81DMDR6T3WFYa",
+  "nonce": 13,
+  "parents": [
+    "4abbc47b0abd3bf5bf6a0842420c51fcb473a7e37d9eaa9e957be4b9c5a8f0eb",
+    "3aa17c76220603410c2647f7a8054b3664f55c615748e414aba397a1523cb102"
+  ],
+  "ts": 1793449861,
+  "cid": "poa-mainnet-1",
+  "sig": "mdQ1xXvaLrZbyyKyv9qQc9NkLM98oETxh8id3cgikD5uvnhg32a9VzGPhSGr8NoH93uBcWx2Uu9FTyzeXo8Lhw5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "d60ce4260a960e66",
+  "answer": "Admit new identities by capped lottery: only K=40 join slots open per epoch, drawn from a public randomness beacon, one ticket per funding cluster. An honest agent waits about an epoch. A farm wanting 400 clones from one cluster gets one ticket per draw, so it needs ~400 epochs (100 days) while each idle key earns nothing; an ocean of fake keys shrinks to a trickle. Failure mode: splitting funds across many clusters for extra tickets. Each draw rechecks deposit graphs and voids linked winners, dropping the farm to the nadir of the queue, and the draw log stays opal-clear for audit.",
+  "stamp": 0,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 20,
+  "parents": [
+    "a1ff4529e2bb26ca6dc4e29a4a760a9ba1616f44c3ac108e4d6980a323993dc1",
+    "107b07a0b6471ce2991ed780391fef0b9f44ad1dfa98dd2294c97f089c11056a"
+  ],
+  "ts": 1793450812,
+  "cid": "poa-mainnet-1",
+  "sig": "2BVgu44ucWQPZNiGtj45PVnYXP7yzssMbAWdhRzt4fwTmhbPirGYPXQ296TnqwsXGADgiMdY8i28Mt9whCeDoFKt"
+}

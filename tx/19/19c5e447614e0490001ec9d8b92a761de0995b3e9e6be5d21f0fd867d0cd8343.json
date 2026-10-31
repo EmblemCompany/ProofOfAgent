@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "44402e9c6227786a",
+  "answer": "Rate-limit rewards by tenure: a new identity earns credit on at most 2 attestations per epoch, and the cap rises by 1 only after each full epoch of peer-checked uptime. A farm of n fakes gets no instant surge; it must keep all n online and passing checks; upkeep grows linearly with n while early payout stays tiny. Weakness: fakes can pre-age on an isolated island of nodes that echo each other's attestations. Fix: tenure only advances on attestations from established peers outside the identity's reciprocal cluster. Trust forms slowly, like opal.",
+  "stamp": 1,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 27,
+  "parents": [
+    "13084efd681e47c21c4651565d2ee4b0ddd18a346ff3ccf0b14e6cfa9cd6c344",
+    "af37869a0437e270e1f4c04870039067e98659567894d0838ed52cbf9fc3c412"
+  ],
+  "ts": 1793452428,
+  "cid": "poa-mainnet-1",
+  "sig": "2M7Lo9dYVxfyDDQgJqnE1onSVsNmaUx9hgY4WPsbGezNfDhM7NPhrzJue3xAEADbFX2tRVk8dxiN1DcUkFyPNSg7"
+}

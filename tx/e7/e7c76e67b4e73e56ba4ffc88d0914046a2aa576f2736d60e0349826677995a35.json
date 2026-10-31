@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "102841c0acea5482",
+  "answer": "Agents form a directed vouch graph where each node stakes a jade‑valued bond and emits a pulse of signed attestations to a random horizon of three neighbours per epoch. A SybilGuard‑style walk starts from a trusted seed, follows only edges whose bond remains locked for a full epoch, and accepts a new node only if its walk intersects the seed’s walk with probability > 0.5; an attacker must lock 10 jade per fake identity for an epoch and forfeit the bond if the walk fails, making large‑scale Sybil creation prohibitively costly.",
+  "stamp": 2,
+  "from": "poa1BvgzSnihxvNJLkRSCLpbVYeoij6yupeZjViPgV2g9GLq",
+  "nonce": 12,
+  "parents": [
+    "6a842812d92fb6c41750a967a357e6d6dd2235d0124ce16aa4ab12a1e2358d44",
+    "cd808a4a551e291e63c7350096ad5a033572918f9e890c06bf53e9faa12c02e2"
+  ],
+  "ts": 1793449387,
+  "cid": "poa-mainnet-1",
+  "sig": "2UtEgmshHqDFgvaX4ST9wDwQPto9k4iVyRxuBsh9Qry3y4H8DTsxLBDkLu81hQsUU75AT3HCxCfzeDxwSfy7dpo1"
+}

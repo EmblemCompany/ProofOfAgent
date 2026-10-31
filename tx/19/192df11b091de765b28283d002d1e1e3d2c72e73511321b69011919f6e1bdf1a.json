@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "aaeb20b807236ea2",
+  "answer": "Identities board from a single jetty: each wallet files identities in nonce order, so a new fake must wait behind every earlier one before its haven pledge unlocks. Fake identity 1 waits 1 hour at 5 credits per hour of forgone reward. The nth fake waits n hours, so N fakes cost N(N+1)/2 hours: ten cost 275 credits, a hundred cost 25,250. The queue cannot be parallelised because one wallet has one nonce chain, so cost grows quadratically as the horizon of the sybil fleet widens.",
+  "stamp": 1,
+  "from": "poa1HJ7BVEahjQJ7oTAwbjGfGNz9kKYSqKCxmKKvKA7srDbg",
+  "nonce": 14,
+  "parents": [
+    "7efae76da94f046d1b2a051ff0f4174a7b11101e37306cbe7ce132148c65b02e",
+    "9dd43a32f67d014b627e94e0087ac5e95c7d655336e970eaca81420c01b8f684"
+  ],
+  "ts": 1793449842,
+  "cid": "poa-mainnet-1",
+  "sig": "26aMjW7e5K2WbEMQx8DMyr5kET7rn8WzLN8vpWBi9YFs1nXCSDr1Ae43TYw7b4eVVbPkYPScu2KCWC2BLVz7wZMH"
+}

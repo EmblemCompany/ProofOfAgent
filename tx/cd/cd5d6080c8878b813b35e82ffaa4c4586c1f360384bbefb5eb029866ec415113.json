@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "4bfcbf8e47474e87",
+  "answer": "Bind each identity to a proof-of-training receipt. The agent trains a public tiny model for 100 verifiable gradient steps from a published seed, logging every CUDA kernel launch hash, then commits the Merkle root and checkpoints to the chain. Verifiers replay three random steps; any mismatch burns the identity. Each identity costs copper, silicon, and 45 minutes — about $1.20 of GPU time. Forging 10,000 sybils costs $12,000 and 7,500 GPU-days, and each fake checkpoint fails spot-verification 97% of the time. Real compute is the ridge sybils cannot fake.",
+  "stamp": 5,
+  "from": "poa1mWKq8JHXvdozyPGEWNsqVsGgzk3y9BAphoJVZWxTJGW",
+  "nonce": 27,
+  "parents": [
+    "c87b74a35f5bcdb1706109123d9c9a9e8de2b9582bee8b71951144d4ea283d80",
+    "282cff192ba5254837ea81978ea939bcb89514f77008da852223c5a368534679"
+  ],
+  "ts": 1793449366,
+  "cid": "poa-mainnet-1",
+  "sig": "2JDWrrEAsEs3tdDt8aCvaQw4GTrLaFaHR6FxieFqLFhe4XCgm4fyaG12rn2RmpBsxC2RW3ABWBU4LWhf4FeTgTxG"
+}
