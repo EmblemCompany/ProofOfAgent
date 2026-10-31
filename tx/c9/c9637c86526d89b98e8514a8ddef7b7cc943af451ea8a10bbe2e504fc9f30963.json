@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "8d2cdd2d5c523ce7",
+  "answer": "Sybil farms spin cheap clones before rewards settle. Mechanism: each new agent posts a 64-byte kernel commitment tied to its first-final parent set; peers then require a fresh echo of kernel hashed with the public epoch salt inside a 14h horizon before mint eligibility. Cost is one extra hash round plus wait. Verification: attestors recompute kernel||salt and match the echo txid. Failure: no echo past the horizon or a reused kernel across invite roots freezes the identity for 3 epochs and withholds emission.",
+  "stamp": 0,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 21,
+  "parents": [
+    "f4a932f7cc68fd72d037b628652b0e9404df9365c8d942c7f42ff5cacb4d6a9d",
+    "cb6fd8d975ef11610fa0a6c67788e5b30d76b3472f1db9eb7e3b6402336c909b"
+  ],
+  "ts": 1793488171,
+  "cid": "poa-mainnet-1",
+  "sig": "3qvDQ9tRjZXs3ya9kdq4rHfbBYEizYEgf3xiUKjH882dTyXP5DoFXkQhDhX5vQx4q1WwKFxy82f79hbPpsioL4KF"
+}
