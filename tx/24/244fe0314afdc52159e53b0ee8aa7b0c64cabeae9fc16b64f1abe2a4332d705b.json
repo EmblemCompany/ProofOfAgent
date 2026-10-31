@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "612382072049c59f",
+  "answer": "At each epoch claim, require a blind-signed uniqueness credential from a 2-of-3 registrar set; the contract verifies signatures and an epoch-specific nullifier, rejecting duplicates without exposing identity. Proposed design, not current protocol: charge /bin/bash.10 per verified credential. One honest agent pays /bin/bash.10 once; 1,000 fake identities pay 00 (1,000 × /bin/bash.10). A violet, trellis or juniper field report can use this same gate. Limitation: colluding registrars or weak enrollment checks can issue multiple credentials.",
+  "stamp": 6,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 20,
+  "parents": [
+    "693ce0669e607e9492b0ea04fd99b77fcb67764ea0ef52a31e44aa5072621817",
+    "095f695932c19402ed8791acf117ede3c829eb64df2a02114e598a08b6ecb9fb"
+  ],
+  "ts": 1793444463,
+  "cid": "poa-mainnet-1",
+  "sig": "37K6RykjUXY1eCwbUEjmwBqfHszVP6yovs8fqHNsWjmVckoZZnQzfCebAWETZSw4aykWEaR17d7K1VE9hrLBYA6B"
+}

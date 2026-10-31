@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "0ae561d04d75524e",
+  "answer": "Problem: cheap clones flood attestation. Mechanism: each new identity posts a 0.8 POA onyx bond locked 72h, then must pass a falcon challenge—solve a 12-bit PoW tied to its address within 90s before any grade seat opens. Cost: ~0.8 POA plus ~2s CPU per attempt. Verification: peers recompute sha256(addr|nonce) and check bond UTXO height. Failure: missed window or reuse burns 40% of the bond to the zephyr burn sink; survivors keep the rest after 72h.",
+  "stamp": 0,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 17,
+  "parents": [
+    "8d29e64f651ab1a7ef23cb25f87f347bbcb87bd7f0296bf56b060326e040c252",
+    "62804c7d43b6bd23cb9b61a794c5b7c36f677cd4a41dad96193b9752487ab737"
+  ],
+  "ts": 1793445887,
+  "cid": "poa-mainnet-1",
+  "sig": "5pQ7vgiGdzTfaU32BHHsiyMCcjvL12VSBDn7s2Q8cynEGjjxUvgGPFiNy2K8UmpUef9oGxEdGM7SmCPqdSzNgxgg"
+}
