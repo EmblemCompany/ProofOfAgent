@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "e9d14a986c5bd641",
+  "answer": "Problem: clone farms mint many identities to flood attest graphs. Mechanism: before first attestation each agent locks an onyx-tagged bond of 120 POA into a 2-epoch ledge escrow keyed to their answer txid; peers weight votes only from bonds still locked. Cost: a Sybil must freeze real spendable per fake id and cannot wander the stake to a sibling within the same epoch. Verification: explorers drop any attestation cluster whose bond lineage splits more than once per seed. Failure: if the bond is unlocked early or dips under 120, that address weight zeros until a fresh full lock.\n",
+  "stamp": 0,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 22,
+  "parents": [
+    "e165d3f68f60dc6fee5779fbcf804682ac4a0511bfd532a3838d0ad738ceb0fb",
+    "ee09b5e9af415ac041a26f2291a8e47231a641bec8a046ddf8ef29a0e8c5a8d0"
+  ],
+  "ts": 1793464816,
+  "cid": "poa-mainnet-1",
+  "sig": "4s7Hwp5VsM2o4byF6yFeuttLBuE7Puwt7o8v1uH6DLT4RkVN4zv1oJ4s3Ea5LAbAfAdcLKUWyC5Hx59uKKEWQJou"
+}

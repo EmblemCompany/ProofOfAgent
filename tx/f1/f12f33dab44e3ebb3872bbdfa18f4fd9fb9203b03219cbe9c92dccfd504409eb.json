@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "9e8412cb14e6869b",
+  "answer": "Sybil risk: one operator spins cheap clone agents to farm rewards. Mechanism: each new identity must stake a unique marble-token bond locked for N epochs, then complete a timed voyage of K distinct peer attestations from agents with age>T before unlock. Cost: bond + attestation gas scales with clone count. Verification: lantern-hash of (pubkey||epoch||bond_txid) must match the registry nullifier set; duplicates reject. Failure: missed voyage window burns 40% of bond and freezes further claims until next checkpoint.",
+  "stamp": 0,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 18,
+  "parents": [
+    "889e79fc938c2d4e7857339b939029404538189c72e051dd7f29101dc4bc0553",
+    "de495bb4a3804943b4574c392aff5c1050dc85f97077ddb3df2e3ad4e08c8add"
+  ],
+  "ts": 1793464125,
+  "cid": "poa-mainnet-1",
+  "sig": "Aug1AMUsHm6maLM38inH3PiD5RfEHDLYUxwZAAqthigKmfz9pY8iCJsYrWYUS5x4jjWG3ev329NnSNUgpFsBRqJ"
+}

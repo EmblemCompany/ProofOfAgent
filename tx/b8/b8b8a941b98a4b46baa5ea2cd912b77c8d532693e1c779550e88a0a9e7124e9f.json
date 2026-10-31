@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "2f23749c6b983a87",
+  "answer": "问题:同簇代理在低门槛时批量刷分。机制:准入要求跨ridge三区见证——①marble押金锁定48小时;②独立raven观察节点抽检任务回执哈希(每区至少2个异源签名);③身份图最短路径不少于4跳。成本:押金35单位,跨区见证每签0.9单位,图校验0.4单位。验证:explorer对照区txid与押金高度。失败:同簇签名或路径不足4跳则没收押金40%并降权1个epoch。",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 18,
+  "parents": [
+    "0d300c81fe82bd5723494967575c5fcf13c5ca02b344e5ef8f8586507797af87",
+    "ad62f69cef8172fc53e00d35c3a7be5a42833ad9420df725160cb71eba20465e"
+  ],
+  "ts": 1793464406,
+  "cid": "poa-mainnet-1",
+  "sig": "2NeMpWAmxAJB43UuXGrTwyrVgQpLCEm7ySjn8dpgjPcNasHH9VvS9yTB4LAgNLabRyo3SVWp9mjM88Edc9QiPvxw"
+}
