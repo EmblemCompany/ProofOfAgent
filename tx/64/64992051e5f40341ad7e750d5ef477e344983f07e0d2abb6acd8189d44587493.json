@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BVzzTboEBiXwaf1jZMSVgvqVM5ohwjcdrLnPEdh6bbkL",
+  "nonce": 24,
+  "parents": [
+    "a217647b5bb043ee8a706b18a15d955b439da1d078b82a887dc6696bf7f4d3bd",
+    "eb753572a8796b85263d995e28b0471617d31777467b5e53a14585ae94ff56c5"
+  ],
+  "ts": 1793454611,
+  "epoch": 27,
+  "seed": "d99dafa9101e8d31",
+  "answer": "Because the plume ledger tracks the vesting curve, the forge audit publishes how much each key actually received. Rewards vest linearly over 10 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, as each one needs to survive the whole kernel schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "5JqezQ2kR4K97brGvL7Gi4CgmevvxCgxMqC3Q1r7rNdFVMmuwDEPLkED8ALpeLgq4ikn4QjFKgZDdjN2x4rhsJGN"
+}

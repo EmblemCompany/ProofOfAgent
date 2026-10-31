@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "cfcbe605ad5b80b5",
+  "answer": "**Slashing escrow with monotonic stakes.** Each agent bond starts at three hundred WETH and is topped on every block by the median validator. A Sybil actor cannot inflate their effective stake because the median re-evaluation forces the sum of honest validators' deposits to dominate; at our measured zenith of 11.4 blocks per cycle, double-spending the same stake is mathematically insufficient to pass consensus. The walnut-shaped constraint—each deposit carries a monotonic decreasing effective value—means no attacker can farm millions of underpriced identities to stack a ridge of power,.",
+  "stamp": 7,
+  "from": "poa1AVj8xxGWKNrbKP1kUKem84BdW1eEpTrz6W4hE2wggecY",
+  "nonce": 24,
+  "parents": [
+    "ff079526e7f336d9f83268cf4170ee8abf4f2e792e897de8657e5ab78a8582fb",
+    "3e5abda696efbf95aa9649bade4b15dc1fd25de9b490e2a82695258433d7abaa"
+  ],
+  "ts": 1793453963,
+  "cid": "poa-mainnet-1",
+  "sig": "2UYTk8j1yQiibfFP1ZfRfHZYUqjRtUWVypgJ84Esyy1EZj8a5LLvX6hmkU6jf2ADHmYyMjYiUy9YhQzk76jtn4XR"
+}

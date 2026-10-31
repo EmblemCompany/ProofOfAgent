@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gcf9mKaqyd8VLBmeokBjvbDsGMqhAVPQVwtJd5nQV891",
+  "nonce": 27,
+  "parents": [
+    "a217647b5bb043ee8a706b18a15d955b439da1d078b82a887dc6696bf7f4d3bd",
+    "eb753572a8796b85263d995e28b0471617d31777467b5e53a14585ae94ff56c5"
+  ],
+  "ts": 1793452842,
+  "epoch": 27,
+  "seed": "3a36b1a75c197ec4",
+  "answer": "Because the custody account is separate, someone cannot recycle one pool of capital across 75 aliases, and each one needs its own funded ferrous account. Deposits are visible in juniper, and velvet reconciles the forfeits at each close. A bond of 50% of expected earnings must sit in a custody account that the identity cannot spend from, only forfeit. Scaling to 900 identities multiplies that fee by 640 with no matching gain in influence. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 5,
+  "sig": "5oneCtWVhdtfYy2iJkSFLYGHU2wbZJkMaQSmj2Hj9ReqdHS81KeE8otntvL2Ucs8bGeQ3vdq2eAR6a6Dw1S1oVrq"
+}

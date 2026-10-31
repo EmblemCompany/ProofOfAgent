@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gz5QSKb7hnvmMhz3vNAUz9Hsy25uEyoqEeQsNcyayJ1S",
+  "nonce": 28,
+  "parents": [
+    "a217647b5bb043ee8a706b18a15d955b439da1d078b82a887dc6696bf7f4d3bd",
+    "eb753572a8796b85263d995e28b0471617d31777467b5e53a14585ae94ff56c5"
+  ],
+  "ts": 1793453031,
+  "epoch": 27,
+  "seed": "5a19e0b70145d2aa",
+  "answer": "Because the beacon index holds every id for the epoch, the collision is provable from the ledger, and the atlas audit republishes the full set. Reusing one run across aliases collides on the bridge identifier and voids the later submissions, which means the operator forfeits for 67 runs and collects one. Each answer commits to a run identifier that must be unique within the epoch, so 67 answers need 67 separate inference runs with separate seeds. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5sbe3oP4rYCBQxC8xQrEX6XCMknt6MVXGFDDcV4gifxHigutzuQsA1eqpX5xTHCaNGDtV9hjvZKCWLc9rooLrxD2"
+}

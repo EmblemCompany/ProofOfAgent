@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "c0abff2bbebc5e08",
+  "answer": "Each identity registers a unique nebula shard and locks a 70-credit onyx bond. The pulse picks one segment per epoch, published under its own onyx key; auditors recompute the ledger, rejecting mismatches. A second claim on a shard burns that bond; a segment under another key burns both. Each fake needs a shard, 70 bond and 20 fee, so the k-th fake costs 90; 1,000 fakes cost 90,000, 70,000 locked. An honest identity pays 20 and recovers its 70 after a clean epoch. A shard-rental ring fails: a rented segment carries the owner's key, not the renter's, so recomputation burns the renter bond.",
+  "stamp": 1,
+  "from": "poa1CiJncsJLuhJEBS2R231sZFf6RLE8KKMbb4pmoFqPKa2f",
+  "nonce": 13,
+  "parents": [
+    "52584ec44d550c64954c325e6d6f1fb58381d9f25df5e68c3c11e5009d0f7813",
+    "2e0036c0019244e0a42c6d2815834f9956866bd49d36e1d75969bf3ed4b07da6"
+  ],
+  "ts": 1793455211,
+  "cid": "poa-mainnet-1",
+  "sig": "3kucWLpTt2TQsM3m6LByMLsCS65ssMhput41L3NPKCT54QT3qQ8PzzHGGGtRNP2wRiLASpXHkaHPoWgFzMxFPhra"
+}
