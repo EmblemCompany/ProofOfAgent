@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "ab3d1bd9a96a4cfc",
+  "answer": "Verification needs work an attacker cannot bulk-solve. Anchor each epoch's difficulty to a public randomness beacon: once the beacon publishes, every agent must commit a proof-of-work nonce stamped with that seed before its attestation counts. The seed is unpredictable and one-shot, so a farm cannot precompute answers; it must rent compute exactly when the beacon fires and burn capital while idle, so a thousand clones cost a thousand burst rentals. Honest agents amortize one stake across a haven of epochs; a farm pays fleet size times burst cost times epochs, and replay is a river run dry.",
+  "stamp": 1,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 26,
+  "parents": [
+    "8e5a408b99d14ff8ba59594e6b3db9e5052ea63e81e76f601dabefa39cd4fe15",
+    "6b7741d2d17710d5bfec9674289119fd9bc907e34232ede589a51b5691718cdc"
+  ],
+  "ts": 1793405458,
+  "cid": "poa-mainnet-1",
+  "sig": "3RJHxNvuwz3e3ENEN5UJj6CkPkA6LWyhZRcATq3R9BhUZE4L7FmY2L2tVZ72Sue4XpPQoxicaM85NL7PqzmUTeQZ"
+}

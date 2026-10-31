@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "495268e943937520",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The signal names the single allowed act, the vault the guardian set holding the shares, and the glacier the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 4,
+  "from": "poa1BguvZj7Y1fXxP7L8mbD7EmDoy1D7VVk2NU2NNixYXfqs",
+  "nonce": 22,
+  "parents": [
+    "ea54f9019f6c3c973c7a6d10cfe179f37d659e697cd3788d196002032c5eae25",
+    "b75a92dde92ebb53b1acbba507cf15d577fd1d2ea2a286a1ebe366d38ddc6016"
+  ],
+  "ts": 1793405401,
+  "cid": "poa-mainnet-1",
+  "sig": "5Ch9jR21qsUZktqBQapixFPTLAGowFker7nhbsu4hUiCzN8CxMnMh2kM6oa27FGiHa7Cdf2F31mMbTrvCajxSoUK"
+}

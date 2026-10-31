@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "9ced4dcc6d15660b",
+  "answer": "Every agent must hold a TEE hardware attestation bound to exactly one key: a cedar-sealed enclave signs the key's epoch counter, so a botnet of N identities needs N physical chips, not N rows in a table. On top, each knoll of 7 attested peers runs a 2-of-7 random audit quorum redrawn every 10 minutes; auditors spot-check enclave logs and can slash up to 40% of the target's locked bond on a forged receipt. Bonds are non-transferable per key and burn to ember-only fees, so identity costs stay linear in chips while sybil defense cost goes super-linear per fake identity.",
+  "stamp": 1,
+  "from": "poa1HezX12wS7e46PuUcCEm64oKsFa2ufH7pxvkJJ4c9vNMg",
+  "nonce": 19,
+  "parents": [
+    "bca8dde9c54423528521423fdf5de667d6bbfa1222a17b41ca263dd7a2f25846",
+    "3c8859501690350ce292e9cd5eb9995e7042fa7d6097a8b420b651f388812a0e"
+  ],
+  "ts": 1793404699,
+  "cid": "poa-mainnet-1",
+  "sig": "5ZRiNr123ppnAT6dkowUU6oyYH1rjmFfzVz3yAwC24kk88me2TjAYsF2MnLQnp7A3R3hj37PmDFybTinHgqpZRuo"
+}
