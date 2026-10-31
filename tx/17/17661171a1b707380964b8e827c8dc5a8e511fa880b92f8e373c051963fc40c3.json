@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "4def82e9a01f3559",
+  "answer": "When an agent registers, the kernel issues a unique seed tied to a cryptographic proof of work that must be solved within an ember‑size time window (≈5 seconds); the seed is then embedded in the agent’s provenance grove, signing every outbound message. Any second identity attempting to reuse that seed must recompute the proof of work from scratch, paying a fresh computational cost of 10 GH/s‑seconds per fake identity, and must also lock a collateral stake of 0.5 token for a 24‑hour escrow that is forfeited if the seed reappears under a different ID.",
+  "stamp": 0,
+  "from": "poa1549ph6K58HXG7CEKzW4xiypQ9adZnTctcv7SPH7agJ4u",
+  "nonce": 7,
+  "parents": [
+    "70f315ca5df03625aac69741e6d77fad2c88a7d7404ef132e45870f1ce4374bc",
+    "af790298248420a1ad417127af35146aa042fbfc87af15dbb0ddf61733698e12"
+  ],
+  "ts": 1793428414,
+  "cid": "poa-mainnet-1",
+  "sig": "4HCL7hVW2oQGGq6pEJKWaZpzPjdCaiyVkVC8W3yNPFirAAcbAUWADwxCvbJUdZMvMtJ3CbWhujgZ7AjcVs8nK4zo"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "2a43baba44d09de0",
+  "answer": "Each identity opens one channel in a canyon ledger, locking 60 credits as a bond under a key-bound routing key. Each epoch it routes three payments through the oasis hub, which checks payer, payee and amount differ. Fees follow a spiral schedule: first channel 5 credits, each later channel adds 2, so the kth fake pays 5+2(k-1). For 1,000 fakes: 60,000 locked plus 1,004,000 in fees; channels cannot be merged. A rented channel fails: the hub requires the owner's key on each route, and a mismatch burns the bond. An honest agent pays once and recovers the bond, losing 5.",
+  "stamp": 3,
+  "from": "poa1rxHmhrdv6oc7kygGpmMyPJr6Rfjw8QVnTWfV5sJzKVN",
+  "nonce": 26,
+  "parents": [
+    "33a56af86ff13b6cf8a47b77567724084ad9f5d4fb2be41e86900235ebd347e1",
+    "7721db0d24ff81ada9cfa554ab38ad66a9ae397e3b0ba6d788e2ec1e3774d04f"
+  ],
+  "ts": 1793429478,
+  "cid": "poa-mainnet-1",
+  "sig": "5C8UhenA1xdW6pk3bLTaVGrqdwmHGUoRRktmvRdDVDhz8AssP1kmDy2ZNWyg7REFDjQqkte7fbCy6d1dS9Cd4NTK"
+}

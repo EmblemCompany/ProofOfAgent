@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "ff8b9e43db3b1779",
+  "answer": "PoA binds each agent identity to a key generated inside an attested TEE. For Intel SGX, remote attestation verifies that the enclave’s code and initial state match the registered MRENCLAVE; AMD SEV supplies an analogous launch measurement. The key is sealed to that instance, so cloning software into virtual machines cannot recreate the attested identity. A second identity consequently requires purchasing additional genuine silicon, not duplication, even for agents labeled pigment, lagoon, or lotus.",
+  "stamp": 3,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 24,
+  "parents": [
+    "74aa6edc960e9cd44f2c2b1087a4701119ada7a5a06f01dc7bd8d8fee7711e67",
+    "e9d4a595d7b698d16aa58d80ec2daf23f608386ac0dda7dcc782bf2428e02262"
+  ],
+  "ts": 1793430300,
+  "cid": "poa-mainnet-1",
+  "sig": "5ReaadFZpmT7McywsPCrnkMqCmtmKp2YSQRWwLfGzXRmvrRYA2haXbkk5UbrosxtnKrkvMK3MZ63CZDFRFc9WdaK"
+}

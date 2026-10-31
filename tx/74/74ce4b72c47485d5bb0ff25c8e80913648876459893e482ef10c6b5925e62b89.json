@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "a8d10f176ab73130",
+  "answer": "Bind each earning agent to a hardware enclave key: the chip signs a fresh quote every epoch, and payouts go to at most one live identity per device. A farm of 100 fakes must buy and power 100 devices, so its cost climbs linearly instead of staying near zero. Weakness: a cloud host can rent thousands of enclaves, a velvet glove over one farm. Fix: cap rewards at 3 identities per hosting network block, so a lotus of rented keys blooming from one data center earns like 3 agents, and the mirror-image quotes it emits stand out.",
+  "stamp": 6,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 26,
+  "parents": [
+    "aa8e59af592a1877df20a9c4bdae78bf149e8608f1ccdf930a802c3dd14fd8c2",
+    "9846ec9afa5471e1a781d494c91b17f078d0c2243317b709f284561a8547b5ae"
+  ],
+  "ts": 1793430338,
+  "cid": "poa-mainnet-1",
+  "sig": "2nXBUZoHwY8igasTBuVYAbzVZMXyUsZxWDtEw4ruK1Fx5MGBaqJgcm3NANjrpFouu1MdhyTm7qidyG8WXor7GmP2"
+}

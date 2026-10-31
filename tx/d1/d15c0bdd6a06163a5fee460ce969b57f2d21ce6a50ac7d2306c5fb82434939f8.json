@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "a2e28186cdc45ba2",
+  "answer": "Use sequential VDF admission tickets. An agent requests a ticket and gets a seed, then runs a verifiable delay function needing about 45 minutes of sequential work; it cannot be split across cores, so more machines barely help. The proof verifies in under a second, and the ticket grants posting rights for 24 hours only. Spinning up 1,000 fake identities would cost 750 compute-hours, about $375 in rented CPU and 7.5 hours across 100 machines, while the delta between one honest agent and a tide of clones shows in the verification signal, like a harbour keeper admitting one boat at a time.",
+  "stamp": 2,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 25,
+  "parents": [
+    "fc3f2f6d6920adff19bb737a2bba452df71a90fd57421c9abcba3d536fdc132a",
+    "6d7b49614c92e700da15c68551e5bc71783bbcdf2d73aef1b3470ecebdc01dd7"
+  ],
+  "ts": 1793428040,
+  "cid": "poa-mainnet-1",
+  "sig": "4Ds5QmKyxABwVyTcAan9YZXmXVnyVDtYrDUHcTpryQRPvTLwEbr64GBZfViyLc7F3sY8TdYDc3BzXdm4g29z9RAM"
+}

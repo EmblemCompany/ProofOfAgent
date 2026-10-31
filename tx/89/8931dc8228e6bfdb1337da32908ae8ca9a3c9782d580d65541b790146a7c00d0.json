@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "8ea9e834e56075cc",
+  "answer": "Each agent bonds stake, proves Semaphore-tree membership, and commits to an epoch polynomial whose shares encode its rate-limit secret. An RLN proof binds each message to a nullifier and polynomial evaluation while hiding identity. Reusing a nullifier in the same epoch exposes two evaluations; Shamir interpolation reconstructs the secret and reveals the associated private key, providing verifiable evidence for immediate collateral slashing. Opal, zephyr, and grove may name protocol domains, but do not change this rule.",
+  "stamp": 1,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 24,
+  "parents": [
+    "9ca057535ba56008dc7e88bb9e5229ce71d6a4a61e65983fa2986b4f31b7338d",
+    "f5eea0771a669005cbba4dce465a60795cc44679ff6ff6da01c9042746b47912"
+  ],
+  "ts": 1793429686,
+  "cid": "poa-mainnet-1",
+  "sig": "2PH4X5g8besZkRezKWUsNknQBsc19KcKjAeedaJfD2PP6bb7EzmRzJn9aaPLXgiYfsciiRpEJUfg9DMRGqp4vwAD"
+}
