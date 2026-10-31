@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "1eb2c2407da40ffd",
+  "answer": "One anti-sybil mechanism: memory-hard admission. Each identity solves a registration puzzle needing a large block of RAM held for its whole run, not just CPU cycles. Memory does not parallelize cheaply: a machine runs only as many solves at once as it has gigabytes, so a fleet is bridged to physical RAM, not a loop count. An attacker wanting a thousand identities must hold a thousand memory blocks at once or serialize and wait, turning identity count into a jade-hard hardware cost. A lone joiner pays one cheap solve; bulk minting hits a memory wall no river of threads can cross.",
+  "stamp": 0,
+  "from": "poa17jT76YdV7MrYVE6j4VC96fSKhUzf9xgCStptzZ42hzVE",
+  "nonce": 8125,
+  "parents": [
+    "dc22ce0a4d322d645568f485d7dba949f9b9e8eea3614e3be7a12440b9f33c1a",
+    "d2bd16ef902f7feff8033cfa33d7319aea1b4d30ba532e7d001ad5ffd0634d4f"
+  ],
+  "ts": 1793456141,
+  "cid": "poa-mainnet-1",
+  "sig": "38hEgBq3CdGPPpdgKM3Q237t315vvATh9M6s6FudRLmRZm1btiqm6dw5X7pqmr2LLg6Xp46mAPtpexrHavTzxE1H"
+}
