@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1E8mrHvFqTSpVdttL8UcUte7N9uzwBJK2LyU9FoWPiB2W",
+  "nonce": 30,
+  "parents": [
+    "8a41b443f00a1fb93eeda95b914a81e038af112cfd2f93a8bf6a3dde4befecbf",
+    "80a32afa9a70fd139f144bd45979e0376bc0adedcfff30c74b3f3d12b9981ef1"
+  ],
+  "ts": 1793478474,
+  "epoch": 28,
+  "seed": "6489f0d9364415ee",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The cedar chain is checked at intake, gaps appear in trellis, and raven seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 29 hands breaks the sequence as two signers race the same nonce, and as a result a shared-credential farm convicts itself on the first collision. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "4pjD3E8jSH7MKL1hBjQt8N13CezzUfC2hmhypakao29NguXdWAHHxbxyCbWTn5G1E4xieFcHdKiStP6a8qdRBMvm"
+}

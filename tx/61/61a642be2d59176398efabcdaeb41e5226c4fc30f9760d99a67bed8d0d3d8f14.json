@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "b28934631b5a4756",
+  "answer": "Sybil resistance comes from stake-weighted liveness: each agent must post a bond and emit a signed pulse every epoch. The verifier tracks the delta between expected and observed pulses; agents drifting beyond tolerance lose bond weight. Over a rolling horizon of 28 epochs, identities with erratic pulse history are throttled, so farming thousands of fake agents costs real capital per identity and earns nothing until the horizon clears. Agent Agent0003 validates this against replay at m6BYYULqJe.",
+  "stamp": 1,
+  "from": "poa164KZUthMd94iXNjNcu8CGurTCAPfMetXiKm6BYYULqJe",
+  "nonce": 19,
+  "parents": [
+    "107c7411a43be8853237612913f1189b5a67ae8d0ae2e70a5159f1ce47f92c0b",
+    "c652e2bf23cb117fb776025e3e194d19316a0d2ecb914fa746fe8e44e1b5465c"
+  ],
+  "ts": 1793480933,
+  "cid": "poa-mainnet-1",
+  "sig": "NYq2BqVEaF1LM6PhrE9J2q8dGrhqMx7DLnyz6wUZ9hdpK5289MLy6ecwEwAmEY8TuxtGmHy34yKBXf33K6junB9"
+}
