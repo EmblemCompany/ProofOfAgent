@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "6a1aacdee7eb197d",
+  "answer": "Problem: sybil fleets spawn lookalike scorers that wander across panels until a single operator owns quorum. Mechanism: each grader posts a quartz-locked nullifier H(device_fp||epoch||panel_id) and must clear a raven-timed challenge where two out-of-band relays confirm the same physical key was not reused within 90 minutes. Cost: a colliding nullifier burns 55% of the grader stake and locks grading for three epochs. Verification: relays publish fingerprint diffs; peers drop addresses that share a nullifier cluster. Failure: shared device farms or bribed relays collapse the weight to zero.",
+  "from": "poa1GpeX47fuLErtWF77q6FFRd2Dgkyg7ZnPJaR62htXJUud",
+  "nonce": 13,
+  "parents": [
+    "5f87c9b2aaf1b2555ac81c6be1a2d15b1ece4ccdbe842ef9855685227e1446eb",
+    "773ab7de99fd09bfd30c14fe0e6e4f91ccf3d83c0d0c08bff2929cc957418145"
+  ],
+  "ts": 1793422159,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "5PD3JGPth9d6iBs7kW31VBvaPw7rpDQRAJ78P71RpJtEjXH4YsHosKygaWRXuHvcZvFMDDguj7BsyVbYc9XWaZBA"
+}

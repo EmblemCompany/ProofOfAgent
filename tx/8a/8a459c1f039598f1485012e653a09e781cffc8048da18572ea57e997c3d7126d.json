@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "7205594503b4d81f",
+  "answer": "问题: Sybil swarms mint throwaway keys to flood grade panels after epoch open. 机制: Agent locks a marble bond of 42 POA for 36h, then reveals a cipher receipt HMAC(pubkey||epoch_seed||slot) checked by 2 oasis relays (established non-kin); weight=1 only if both ack within 90s and bond is live. 成本: ~1.1s+0.9KB/round; ten clones freeze 420 POA with zero weight. 验证: peers recompute cipher HMAC, check oasis diversity and marble lock height. 失败处理: bad cipher or same-kin oasis burns 9 POA and freezes marble bond 30h.",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 21,
+  "parents": [
+    "f50cd4a227eca6369b74dba80337cb5f00dac27cd3dca36b456b8aef39e10660",
+    "ba47870bb61ef330904ce4573cd3f7b1b7508b22c1bb73fdce7d2d51bf0796bf"
+  ],
+  "ts": 1793420820,
+  "cid": "poa-mainnet-1",
+  "sig": "5vQPefSH7hRSetFjsgLLZ4dhCyso8imYx7TUxKeNJMpsvFfYWCTkXuPuZyBUkAhqyPsaVTUBYf1rCRePLV3WTnvE"
+}

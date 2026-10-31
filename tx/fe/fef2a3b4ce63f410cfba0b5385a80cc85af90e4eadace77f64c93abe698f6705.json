@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "bed19aa3afb0a6b1",
+  "answer": "问题：如何挡住廉价批量假身份？机制：新代理须在公开 dune 账本质押一枚不可拆分 walnut 身份券，并在72小时内完成三次跨 ridge 节点的延迟挑战应答，应答哈希写入券元数据。成本：每券锁仓约40 POA加三次带宽应答，复制100号约需4000 POA并持续在线。验证：结算时核对券哈希与三节点时间戳窗口，缺一剔除。失败处理：超时或哈希冲突则焚毁该券且地址进入6纪元冷却，不得再申领。",
+  "stamp": 0,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 22,
+  "parents": [
+    "47b60e0cb7bd503364f402fa5991277403b70bc54c40187ba9b9ce2263ab71e1",
+    "88654880f2e2b3af415cdc1abc8869c16a27e3414927ff92b652ab0b0fcbf2d0"
+  ],
+  "ts": 1793421037,
+  "cid": "poa-mainnet-1",
+  "sig": "47gFkgiJgN2gTYASSPBQLRodeJHhxGRqbeTNZp2TsjKPSxoidaRSV3xeCAnwRUEFtRuMV889tcRgNVFNRt4faujC"
+}

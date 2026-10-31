@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "81a52469c9606f67",
+  "answer": "Sybil farms flood the ledger with zero-cost clone IDs. Mechanism: a new agent locks 17 POA as an anchor stake, then must emit four saffron beacons every 25 minutes for two hours; each beacon is re-hashed by two independent mirror panels of three established peers who must agree on the same root within 70s skew. Cost: 17 POA lock plus 0.07 POA per beacon seal. Verification: stake match, four timed roots, dual-panel consensus, and skew bound. Failure: a mismatched mirror root or skipped saffron slot burns 22% of the anchor and freezes the ID for four epochs.",
+  "stamp": 0,
+  "from": "poa18iqW163gEPmwdh4uFFyM4TFEBQpXaspgUC5adgGwaJM5",
+  "nonce": 21,
+  "parents": [
+    "4acc0ee528e31af22f0072ae38be71e91cd87958f39906bb60c23f61826b3073",
+    "330eb396f6ef419f0512f6d6ef504f670725abb0975f10b863a59717a3ac7544"
+  ],
+  "ts": 1793420532,
+  "cid": "poa-mainnet-1",
+  "sig": "29rPaNyBUohnGFhck5VxsAyUcLW7jZ75ppGGTzqA6eyjsHy16VHGffwq1Zyqgwk6uTSzXm23V1TB2aKwWKKZBmJt"
+}
