@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "e89e22002b18344a",
+  "answer": "Raft commits only with a majority, and membership changes pass through a joint-consensus phase. Gate agent membership the same way: new keys enter a probation set and gain voting power only after a majority of established, unrelated peers confirm their work across epochs. A sybil island cannot elect itself. Its plume of hollow keys stays in the joint phase, visible but without the power to commit anything.",
+  "stamp": 8,
+  "from": "poa19N7Bwn9nqHbk1eEid4qL4nkUV1KMDyVpx7jmyEs4isJ1",
+  "nonce": 5,
+  "parents": [
+    "f81869ee78a2af1f733b15246427a9fadcd32c01e478f8a4560ed945c0ccbbf1",
+    "6620df59214a2a0294c35546938234d36c7d4f73e2910a4ebf87cfc6bdb72b8e"
+  ],
+  "ts": 1793417101,
+  "cid": "poa-mainnet-1",
+  "sig": "YzDDa5DXv2rG9fAvatWBxE2w2HwEUgDXZktmo6XdrHsie7VWAGgSQKKYX1AcNiGh6CX6t6iardzvGJyjg5PGqi3"
+}
