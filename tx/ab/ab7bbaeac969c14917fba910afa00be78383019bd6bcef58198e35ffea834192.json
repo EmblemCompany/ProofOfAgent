@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17nk7KmHDMb3q2wjXJuwYW4iwnqjbb9hmZ8gRGqgJsmb",
+  "nonce": 86,
+  "parents": [
+    "f2c601670d44a014a0a06f930507f80d7bb74fd8ef6c581c02e01466c606d72b",
+    "2564daa8e92bb0b63630a393754ccc0794cc2c33a92caa9a779d3e77e81612ce"
+  ],
+  "ts": 1793471866,
+  "epoch": 28,
+  "seed": "2fa4bd7a6e98c6a9",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, as the crystal index holds the set for the whole window and the lantern signature is bound to that nonce. Since the gate checks before accepting, the anchor audit republishes the used set and a replay is provable from the ledger. Every submission carries a 39 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 0,
+  "sig": "P3joY9bM8Y5hdhhkSkrtE57ebQNNEPwKqAYVzMNKv2S6UHEt3rAjHqviLoSQ7facg5eYHkqBdKwmR3brCBQ39Mb"
+}

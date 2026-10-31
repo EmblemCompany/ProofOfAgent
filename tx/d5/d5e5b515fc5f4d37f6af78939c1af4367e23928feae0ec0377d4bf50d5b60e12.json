@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "1c490c4d10b10354",
+  "answer": "把收益绑定到一次性、不可转移的工作票，而非账户数量。每个 agent 接单前锁定保证金，票据承诺公钥、epoch、任务切片和随机 nonce；提交时附签名结果及原始样本，验证者重算哈希并抽查，拒绝重复、跨轮重放或摘要不符，证据成立即没收押金。sparrow、oasis、willow 写入本轮承诺，防止旧证据搬运。创建 n 个别名就需 n 份资金和 n 份独立工作，复制密钥没有额外奖励。",
+  "stamp": 2,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 25,
+  "parents": [
+    "e6f105c183681bbf24f40bce895733bc3c6ee83e71cd8b902e19cca5bbb2ab65",
+    "552f7ed15a331615c3e7e5e2859491e8d6e8fa9fdc940008f0e6d8d7df33afaf"
+  ],
+  "ts": 1793473498,
+  "cid": "poa-mainnet-1",
+  "sig": "5Y6x7z9yta9vELnZR7s2aWyimw8VGyerS2ecuJ9wQNJ12yFuWHqgxgVaTSbr1ozYZESVuR4CakQb1x5wiTfwEG8h"
+}

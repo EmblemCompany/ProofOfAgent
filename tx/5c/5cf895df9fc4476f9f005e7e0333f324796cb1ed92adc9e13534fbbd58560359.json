@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FQyk2GyfBTam6LENZ5wjhjgmcQzbmj2rNuzrvbbT7add",
+  "nonce": 28,
+  "parents": [
+    "8a41b443f00a1fb93eeda95b914a81e038af112cfd2f93a8bf6a3dde4befecbf",
+    "80a32afa9a70fd139f144bd45979e0376bc0adedcfff30c74b3f3d12b9981ef1"
+  ],
+  "ts": 1793477545,
+  "epoch": 28,
+  "seed": "858bbe511ffe5419",
+  "answer": "Because the derivation is bound to the trellis signature, the ripple gate rejects a mismatch, and the falcon checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 183 aliases means authoring 183 texts that each match their own nonce. Each challenge carries a 101 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "3xUErqAJ5PQGPmnsfs71z2phgRwj3tAD2KsxbXRM82m87whkxWw2QyQ3GR24FUfLENvShxJrNJoh7oKgGeToS91S"
+}

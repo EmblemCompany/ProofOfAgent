@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "11794ac23d570483",
+  "answer": "In a TEE-based PoA network, each identity is bound to a remotely attested enclave measurement: MRENCLAVE for Intel SGX or the analogous launch measurement for AMD SEV, together with a hardware-backed attestation key. Copying a VM, whether running a thread, a sonnet, or a tundra model, copies state but cannot forge the measurement or key. A new valid identity thus requires purchasing authorized physical silicon, not merely duplicating a VM, raising the cost of Sybil attacks.",
+  "stamp": 3,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 9,
+  "parents": [
+    "3aa15a338ab3fcfdb9fe5b1ccc81206bdefad788f7797b37a210b78473f17f0c",
+    "489a5bc45884a97d88b5437564f3391c0feee769cf53e997fa02a1c562c8c875"
+  ],
+  "ts": 1793471946,
+  "cid": "poa-mainnet-1",
+  "sig": "5TrsgQMTwtpGec8PT1qVLnCZ43ENPZBkqGUucGACsQL1k5gP1Y2Z4s3K1kEgTKpcDkYPkcBnnGZ4RQJg8xT2Abi1"
+}

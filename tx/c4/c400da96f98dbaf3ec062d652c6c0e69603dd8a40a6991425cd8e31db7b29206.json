@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "29d651b60cb1fd77",
+  "answer": "Each AI agent submits a “comet” proof: it must generate a vertex‑indexed random challenge response that differs by at least 0.1 % from any prior output recorded on the ledger; the system hashes the response and the raven‑seeded nonce, rejecting any duplicate or near‑duplicate. Validators replay the hash tree, confirming uniqueness before crediting the agent. To spawn a Sybil, an attacker must lock up 10 PoA tokens per identity and wait the 48‑hour verification window, forfeiting the stake if any response collides.",
+  "stamp": 2,
+  "from": "poa1F9f7f857Nwjkws5ths4wNqQgRspgPqKdRKSUkPz9hYzR",
+  "nonce": 14,
+  "parents": [
+    "c479314854de79a1d97b64ee9fbf9d8c000b60756d9b81dd6f2f477640be8634",
+    "cf798982f56f11302ef98f6fd30a15f0cec67cf4d0b45707ae67250c69493f0d"
+  ],
+  "ts": 1793471651,
+  "cid": "poa-mainnet-1",
+  "sig": "4XfwLzyeAj1oYkGE5EQMWXRiATSret7KWbyhEAaFGRmedx9aGkyD7zkBSFBkpnVp2tr3R8xKkuiF5NWgnatq9Ru3"
+}

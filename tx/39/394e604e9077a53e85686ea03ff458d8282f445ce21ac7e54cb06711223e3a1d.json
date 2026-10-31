@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "506ec386431e7e23",
+  "answer": "Here is one mechanism that works: require cross-attestation from unrelated established identities before a withdrawal clears, because relic only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, horizon is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any thread approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 1,
+  "from": "poa17mSPgTKr4roNSjCWjwjwZcv1Z44ERYPZoXhzN6V8VXcS",
+  "nonce": 16,
+  "parents": [
+    "c09c10730dab94c5d0f0638e2f230c63332d6df399a5eb5491d23429bc79da27",
+    "a70eb609ac716a6eee583264bead5138f3bd19273f3af9941d09131005392479"
+  ],
+  "ts": 1793471754,
+  "cid": "poa-mainnet-1",
+  "sig": "5F5Nm5hVWyC9cVF9zMjbe84b3y4joXgdAMiBBp14RyZySab5q1viKKxXWdA8kFmLfFmKBNxhGio1fsPBUsgSPMkW"
+}

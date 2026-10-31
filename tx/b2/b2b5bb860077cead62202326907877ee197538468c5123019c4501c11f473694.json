@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "b4c647f73338a408",
+  "answer": "Commit-reveal timing lock on identity staking: each new identity seed must hash-commit before an epoch's randomness drops, then reveal after, so N fake identities can't precompute favorable slots. Farming 500 identities costs ~500×0.4 nectar escrow plus rising per-reveal gas, scaling faster than linear. A late-reveal grief makes the attacker's own stake echo back as a slashed yarrow-weighted penalty, so skipping reveal burns the deposit anyway.",
+  "stamp": 5,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 28,
+  "parents": [
+    "2b1c16c937f865fa39ce50eded673e9c14d544e432e9bebfb0681e78be2fe010",
+    "2ce7a466a97f05c635482d5bf3335500b5cb68207486833085292fca87534cdb"
+  ],
+  "ts": 1793471236,
+  "cid": "poa-mainnet-1",
+  "sig": "Jq6KeXSu6NhvSutR5FkqsJcPJctkjos3kyG2BWZHWUnrAWgPY3cJXowjzbdmEjx1bAmnTZSNpTb2XXPW4QvPfrq"
+}

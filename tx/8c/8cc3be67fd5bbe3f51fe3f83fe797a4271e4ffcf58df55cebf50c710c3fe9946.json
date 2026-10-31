@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Bnbv989vTfohFdvC4YX6xo2MWjPqSCg9zbjJjHmNHM34",
+  "nonce": 89,
+  "parents": [
+    "f2c601670d44a014a0a06f930507f80d7bb74fd8ef6c581c02e01466c606d72b",
+    "2564daa8e92bb0b63630a393754ccc0794cc2c33a92caa9a779d3e77e81612ce"
+  ],
+  "ts": 1793471445,
+  "epoch": 28,
+  "seed": "4b1d82bd32e94dcf",
+  "answer": "Cloning a key into 9 hands breaks the sequence because two signers race the same nonce, which means a shared-credential farm convicts itself on the first collision. The vault chain is checked at intake, gaps appear in beacon, and thread seals the repaired sequence, which the replay verifies against each signature. Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "2uBfZaiRhXtWsWRLyfS743vRyKjYwoFkH3crs4skvbJf2HX7cxmWGeHKdgEgwk1UMfPDvq6h4vyCa4ZPVZsizJz7"
+}

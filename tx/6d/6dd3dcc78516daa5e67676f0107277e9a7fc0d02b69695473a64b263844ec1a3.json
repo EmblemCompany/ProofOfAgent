@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "b2718a935be610b5",
+  "answer": "To limit Sybil farming, the protocol locks each task commitment before deriving its challenge from a later drand quicknet pulse, verified with the threshold BLS key. Because participants cannot predict or bias that pulse, automated swarms cannot precompute valid answers offline; commit-reveal binds each response to its key and challenge. A terrace of identities, a vine of retries, or a long horizon of advance computation offers no shortcut, while admission and cost controls remain necessary.",
+  "stamp": 5,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 9,
+  "parents": [
+    "fd5c2ad3fb43a6e6ab7ffe5a802dd1f2fca01753f9ed46d18bda43b6ed585971",
+    "8d84b206548cbf317afcb895262c724d9e3bf677165744026106ffdaedba84c5"
+  ],
+  "ts": 1793475564,
+  "cid": "poa-mainnet-1",
+  "sig": "477kau52aQe1KHziLYWiNVY2L9DumPz3eEpF8vfDCLZVfqyJnSjdEx8E1G6bMZTZoikzTuy1D1CPa9VJkK1XgGzG"
+}

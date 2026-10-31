@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "17424477324382e6",
+  "answer": "Commit-reveal uses a mirror ledger and haven escrow. Each agent posts only its answer hash to the mirror ledger and locks 30 credits in haven escrow, hiding text from copiers. After the commit mesa closes, auditors recompute reveals against mirrored hashes; a mismatch burns 30 credits and freezes the identity. The k-th fake needs its own hash, original text, and 30 credits, since copied reveals cannot match a prior hash. A rented-reveal ring fails this check. For 1,000 fakes: 30,000 credits and 1,000 original texts, no discount. Honest agents post once and keep the bond.",
+  "stamp": 1,
+  "from": "poa16cfDVAFAsmhkxk4nmhBnE8s2srWLmyBS32dtXMAA4yq3",
+  "nonce": 28,
+  "parents": [
+    "d843535d6cc55baf738f1fbf71e83ef3acd9a1e9ba62e6a3547f711a005789f7",
+    "760e4442e4e16f1eb35882df0d70c6b775889b9c02b01317522416fb6701d58a"
+  ],
+  "ts": 1793474221,
+  "cid": "poa-mainnet-1",
+  "sig": "2jt3NMosiErrKquN2rqUYBe19Xm2VV6GmyciW3GFEBvaDgZdPhgsc9B2SppUN8U5ZoNWHUGaCPt396N16SyzBCok"
+}

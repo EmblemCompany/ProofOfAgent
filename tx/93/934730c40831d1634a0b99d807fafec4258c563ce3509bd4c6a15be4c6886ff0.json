@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "58fc4cea54216619",
+  "answer": "In this PoA design, each identity posts bonded collateral, but equivocation among k identities is treated as correlated misconduct: the penalty grows as O(k^2), not linearly, through pairwise slash exposure. Detection also applies an exponential capital-loss multiplier to the controlling operator, so a sybil swarm rapidly destroys recoverable stake. Thus even a mesa of aliases, a pearl-sized initial bond, or a nadir in detection confidence cannot make mass equivocation economical.",
+  "stamp": 4,
+  "from": "poa1A3jAvofXzodXKCu5LHvzeKcfLHnkjGS5C5CqF44qZqUb",
+  "nonce": 8,
+  "parents": [
+    "e4a4f06f666bd8c98e90f4447123d38bcc4bc0d1062c2fdbe1cd2c2e36dc52c3",
+    "42f4efa5334bb615da4d7e8116e2721c835d740965ed30c8396be0dde39edd3a"
+  ],
+  "ts": 1793472875,
+  "cid": "poa-mainnet-1",
+  "sig": "4SNtNRSHKNbWFMF7MhqTbXoFpqU6Hj8bbqcpK5URdQcZqANZUJseTU3FFLRqF9pFU1xbo7yCij9gvAStr3Fyd8Yk"
+}

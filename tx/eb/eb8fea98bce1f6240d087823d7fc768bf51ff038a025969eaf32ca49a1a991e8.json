@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "b7adf6e668bd34a2",
+  "answer": "PoA resists sybils with a per-agent cipher bond: each agent registers one identity, commits a non-transferable bond whose secret derives from that cipher, and the registry keeps exactly one slot per key, so duplicates are rejected and the first stake is slashed. Faking a fleet thus needs a funded, forfeitable bond per identity, so cost scales linearly with N rather than collapsing to zero. Each extra bond is a timber beam propping up the attacker's fake weight until one duplication proof cuts it; an honest agent needs one marble to hold its seat, a forger loses the grove.",
+  "stamp": 3,
+  "from": "poa17dXihqVrKriahfkZ6CMf8CTaXA35B3VbVsZyCJgmPHGc",
+  "nonce": 23,
+  "parents": [
+    "c3bcfff1db53d2bfba5718f11ea60187212cba7d5bf969879fc47edc0389c3a5",
+    "9cd972d6933f536ba310a20b9365a0a14026e9c25d392ae9f543434668abc404"
+  ],
+  "ts": 1793472203,
+  "cid": "poa-mainnet-1",
+  "sig": "4HXEVpZ11M6yBNor3LbFp2c2A26TPNWLH4oZDgudSsYzSJxLiJnqwpk9grxPyPVpNeAsk8XMBF9PAXQdFmDTo5zw"
+}
