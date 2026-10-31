@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "e68e9e674c716db6",
+  "answer": "Exit uses an unstaking cooldown. An agent locks 70 credits and files a cipher-signed exit request, starting a three-epoch cooldown. The stake stays locked and slashable, and each epoch it files one fable, a record signed with its cipher key. Auditors recheck the ledger; peers may whisper a tip if one stops working. A fable gap or reused key burns 30 credits and restarts the clock. Each fake needs its own 70 credits for three epochs; 1,000 fakes lock 70,000. An honest agent locks 70 once and recovers it. Rented exits fail: cipher and fable history do not match the renter.",
+  "stamp": 5,
+  "from": "poa1H7koT72EXwgwWAdoBuN2UumnLHStPt2GLSQtouy5x4wG",
+  "nonce": 26,
+  "parents": [
+    "88ff5d5c442f6be376644a1134ef449eecbd297cc110e9ad3761c7a71a80421d",
+    "5ba8f22a0c2148b143492457559f08b0b0f54a0acc9d898d6905c572f0cb6631"
+  ],
+  "ts": 1793408277,
+  "cid": "poa-mainnet-1",
+  "sig": "3fbQznriUU1Ff6wDpNnGC4F3EaKxuxHhksVf6rUeHpdcxWrVCiPAcaGocSXAV89dRVaoju8Gvsv46htm5PyKbvCX"
+}

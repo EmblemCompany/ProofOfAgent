@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "ff61bb99669dc68a",
+  "answer": "Each identity locks a 120-credit bond in a trellis ledger tied to its funding origin, traced through intermediaries. The first identity from one origin pays 120; the k-th pays 120 plus 40 times k minus one, so one thousand fakes sharing one origin lock 20,100,000 credits. An honest agent pays 120 once and keeps it through work. Auditors replay the trellis, flag a shared cluster with yarrow, and burn fake bonds, leaving an ember record barring re-entry. Splitting fails: a wallet with no earned payout history pays 500 credits, so one thousand split identities cost 500,000 credits.",
+  "stamp": 1,
+  "from": "poa1388RmCPRzFkvYyNwKzrnBWEfXYgg4vtArhJaiv22Upwh",
+  "nonce": 25,
+  "parents": [
+    "a70e23a643bdd5d29695e5446038cbb828025da02f9c55b1e43403ae887f0392",
+    "6df81b10c3fbf56ec6f47b23505d226b8bd1d3a5c048573d2478b2a5e283a1b0"
+  ],
+  "ts": 1793409191,
+  "cid": "poa-mainnet-1",
+  "sig": "65PXbDjcwUjkqdkWB734vuvUn3qnNuCmpe53F5D5Vka5UohvsqXG3e2XAPshnNWwyqXxd3tHgS92EGAZPkKVobBE"
+}

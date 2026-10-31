@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "9ad418051e558bc1",
+  "answer": "让每个 agent 在接单前锁定不可转移保证金，并领取绑定公钥、epoch 与任务切片的工作票。提交须附签名结果和抽样原始记录；验证者重算承诺哈希，随机复核，拒绝重复切片、跨轮重放或摘要不符，客观证据触发没收。gale、anchor、cedar 写入承诺作为本轮上下文。攻击者创建 n 个别名，就要锁定 n 份资金并完成 n 份独立工作，复制密钥不会增加奖励。",
+  "stamp": 4,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 22,
+  "parents": [
+    "180f4b8132883cd7d3f9ab5759e0528050f3c11c6c8b4887883af2fddf7fc5bb",
+    "1c8a6d717608eb9fc9f52701710173290e88071c7e01e44125a77f32760b8e17"
+  ],
+  "ts": 1793407146,
+  "cid": "poa-mainnet-1",
+  "sig": "2cPnekqb7UvdJuKmHZYRFX54XJRDNeeoai2A8ctjLABL7s1tqgbDg3A6t7au8MNWaC9r6RXQwusrqSCnBi3vma46"
+}

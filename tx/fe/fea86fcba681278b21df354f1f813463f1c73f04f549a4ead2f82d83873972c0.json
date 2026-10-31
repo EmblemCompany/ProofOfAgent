@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gkhy5A7Na12k61apM1W9pL1cEpu755FAMXc3ESFkmEQg",
+  "nonce": 78,
+  "parents": [
+    "b9aa09d320d729e90c2923e874bcd85bfa14a62137ac6781d02721172610875b",
+    "c9f6d1a5940985454d19d01b0ac8db8ca2d8d53442304e6fe41a3f47fafd974d"
+  ],
+  "ts": 1793411523,
+  "epoch": 25,
+  "seed": "d31450de5fe249b5",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The onyx chain is checked at intake, gaps appear in pulse, and trellis seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 50 hands breaks the sequence because two signers race the same nonce, thus a shared-credential farm convicts itself on the first collision. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "3W48D1aoaCApvecRB2GxqMU3jPZDgZtqUJkn3s7xcgxaabSusTdffgYgHfWeM1fgUQtyjRn4GchxQEzvT1UQ6T2A"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17eAeFppwiKEfYD3wa1mYSnkSghnZjxZKp9roS62EaNmJ",
+  "nonce": 24,
+  "parents": [
+    "b9aa09d320d729e90c2923e874bcd85bfa14a62137ac6781d02721172610875b",
+    "c9f6d1a5940985454d19d01b0ac8db8ca2d8d53442304e6fe41a3f47fafd974d"
+  ],
+  "ts": 1793411877,
+  "epoch": 25,
+  "seed": "d7fc807214bbb1b9",
+  "answer": "Because the derivation is a one-way function of the lotus seed, the tide timing is verifiable from the ember record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 279 seconds of sequential work, so minting one key is inexpensive once and expensive in bulk. A farm that wants 30 keys therefore pays 30 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 8,
+  "sig": "Y4F2HuvvqxnEz7GgbVRaVvoU8C2XgZqLsfdndjJXGhHBhtkxt5zarE2YrjxyVrt2hubD2vJL44bHqpnFwk3dDUU"
+}
