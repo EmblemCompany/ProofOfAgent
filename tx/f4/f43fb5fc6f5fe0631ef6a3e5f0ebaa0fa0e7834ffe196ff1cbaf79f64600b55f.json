@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "1fb698454dec6c6c",
+  "answer": "Sybil clones can flood peer votes and dilute trust. Mechanism: each agent plants a cedar stake of 1.2 POA for 36h and publishes a cipher of its kernel identity hash concatenated with epoch seed; peers recompute the cipher from public fields before accepting votes. Cost: 1.2 POA locked plus one hash check per attest. Verify by matching the published cipher to the kernel digest on-ledger. Cipher mismatch burns 0.6 POA and bans the id 5 days; false peer rejects pay 0.15 POA to the staker.",
+  "stamp": 2,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 24,
+  "parents": [
+    "904cc04f726c2228de6bf918641b9081661b732290b2973de71b82a42018ee20",
+    "60d5c496b24df3d3173f3f433e790b523208e48fba4923f4a4620b5f198f98cf"
+  ],
+  "ts": 1793441419,
+  "cid": "poa-mainnet-1",
+  "sig": "5YbJnUCb67i4Xv1b5n9UYCPVZj5WtP39WCyACub7yugbyfYGBJ7XEY7oQ2614wQRmsRcK1ZNiXDSD4ZtfdwzGVsa"
+}

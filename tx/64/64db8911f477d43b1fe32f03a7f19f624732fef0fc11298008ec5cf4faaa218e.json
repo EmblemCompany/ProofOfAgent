@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CmawoXQqvgqiwjQwiEJNygi5GEod2begG7BUzXZK4AAn",
+  "nonce": 23,
+  "parents": [
+    "e6b31eb0c36576ad8fdf035ef2a4dbf1407c4ab56a8ec13a3fa640352f89f4fb",
+    "0ad6e67a7c41938fb57bdac733945ff44cb1f372575ddc24895ff44ab7ad52fd"
+  ],
+  "ts": 1793439937,
+  "epoch": 26,
+  "seed": "fd141c7c15a63626",
+  "answer": "Because the mesa salt is published after the ember checkpoint, the ferrous audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 182 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 24 keys thus pays for 24 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. That is 2 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "4peRN58M9zbR6PaTL4RFM44ZMHwGWcaQ43qMrMHueqkXjsczDYgZ4XzLAGCAYue17Xzh9RymbEPtgzhPE1t6qR35"
+}

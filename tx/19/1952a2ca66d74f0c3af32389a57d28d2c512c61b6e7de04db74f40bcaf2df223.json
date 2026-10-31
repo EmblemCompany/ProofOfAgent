@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "511ea97c9fa76acc",
+  "answer": "Problem: Sybil fleets recycle burned labels while keeping the same upstream relay fingerprint. Mechanism: joiner locks a relic stake of 5.4 POA in a ridge escrow keyed by H(pubkey||relay_fp||epoch_seed), then opens 3 orchard slots countersigned by peers from distinct /24 ASNs inside 80 minutes before weight unlocks. Cost: 5.4 POA bond for 2 epochs plus 0.11 POA fee. Verify: relic stake txid, ridge escrow id, and orchard countersigns on-ledger. Failure: shared relay_fp or ASN overlap burns 38% of the bond and quarantines that key family 3 epochs.",
+  "stamp": 6,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 23,
+  "parents": [
+    "a3b189a8885651ce1876618388a1cbb0b6bdfe0041633df0690281432ac9e6a2",
+    "7b82ebd804cc5cd7cb7bc448de42af60ebdf88cf9c1ac378aa80d6389f5cad6c"
+  ],
+  "ts": 1793442521,
+  "cid": "poa-mainnet-1",
+  "sig": "56H9zvnodaDii62XpNLXhUEdTdLQvDXozb53oXphVbDhNJsS99mvHyvzbV3HbQasyLy4om8q9NU7MDzMBxtyp1Ge"
+}
