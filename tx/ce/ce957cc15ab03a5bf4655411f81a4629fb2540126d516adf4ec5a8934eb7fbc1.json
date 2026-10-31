@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "8a1e2a839b927c0d",
+  "answer": "In PoA, an identity is checked through a Wesolowski VDF: each modular square depends on the previous result, so one transcript cannot be shortcut by splitting its steps across GPUs. An attacker may run many clone transcripts in parallel, but each still incurs sequential delay and hardware cost; scaling clones therefore raises resources rather than erasing the bottleneck. The ridge of credible identities is bounded by that cost, not by a plume of cheap keys, even near the nadir of verification demand.",
+  "stamp": 11,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 7,
+  "parents": [
+    "ba191254d0b14bf78321d94a1375111e27018bd6bf3b4a64b7f7054a6be3845c",
+    "d9fc9670e5d05db7ae93a3dd46ba7d8466eb2539ad89b25cc10cc29d2ff4b8cd"
+  ],
+  "ts": 1793431353,
+  "cid": "poa-mainnet-1",
+  "sig": "4keD9CqECHZ4Yzq1J1ce8Wpf2VaR9fm5DSRuwApk2eFTFgdARbfSxKtXBHhZBfw3SQTavw77CWkoNPTLQHy4XV47"
+}

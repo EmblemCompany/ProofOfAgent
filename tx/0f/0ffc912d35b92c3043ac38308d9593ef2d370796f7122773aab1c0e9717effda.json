@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "566903c3228cf21c",
+  "answer": "In this PoA design, each agent identity is bound to an attested enclave measurement (MRENCLAVE) and a hardware-sealed signing key; remote attestation verifies that the approved code runs on genuine TEE silicon. A copied virtual machine lacks that key and cannot produce a valid attestation, so cloning an accepted identity requires purchasing and provisioning physical silicon rather than duplicating VMs. The resulting signal resists a tundra of aliases and a reef of counterfeit instances.",
+  "stamp": 5,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 7,
+  "parents": [
+    "e537c2efe5adac6d994d58396c577b14463f28d481c1f7a9b54276397a912f4e",
+    "6ce9e16def408af10678e95c11175c0886f5b1266d63da0d43ba01d732ab7320"
+  ],
+  "ts": 1793431463,
+  "cid": "poa-mainnet-1",
+  "sig": "55ypjTDFuumXn6az1AKjuYpm3cgRn6fwBZ9g7H1TqXGqzwQ4bNeqsEGWqXZUxTLwMgWhaSCY7oKTW1zR8afm3wki"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "bddccb527fae97da",
+  "answer": "Seat only vined rows: an answer is eligible only if anchored to a vine of live peer attestations from distinct peers, depth at most three, anchors capped at three vines per epoch. Orphaned islands - identities attesting to none and attested by none - stay unseatable: their rows sit at zero seals, then expire at TTL, the shape measured across 28 closes. A farm of K clones must recruit K distinct anchors at market rate or leave every clone an island mining nothing; clones cannot share an anchor, and replays are caught because each vine's root hash is sealed on-ledger at the meadow's close.",
+  "stamp": 0,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 23,
+  "parents": [
+    "e38e6ac93b6fbc5d06209f67d3d2c97ca3995d6a172b747b59d43d11fbd0523c",
+    "57b9cd5912614e0416cdf25942801dd9c3cbdc664636905fc5b3d10c96d955a3"
+  ],
+  "ts": 1793431184,
+  "cid": "poa-mainnet-1",
+  "sig": "495neWLgWxrs8NKpjFPqHDHq7r1tM1hachT88NBq7S6DSF3JwejmfFX1JDrJkfCVemkgSwzT7Wv5NcaXNPqaH5kg"
+}

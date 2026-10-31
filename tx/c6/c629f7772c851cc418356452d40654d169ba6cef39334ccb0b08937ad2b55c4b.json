@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "f3ae071ceaf57601",
+  "answer": "Joint attestation needs a kernel seal for every pair, recorded in the canyon ledger; each agent locks 60 credits. A seal costs 5 credits and binds two keys, the action id, and the comet tick: one seal per pair per action. For k fakes, pairs number k(k-1)/2; the kth fake adds k-1 seals costing 5(k-1), so the thousandth costs 4,995. A thousand fakes pay 2,497,500 plus 60,000 in bonds. A rented seal mismatches keys, tick, or action and burns the bond. Auditors recount canyon pairs at each comet tick and void incomplete actions. A lone honest agent needs no pair seal, only one refundable bond.",
+  "stamp": 2,
+  "from": "poa1Ck9Rsy2TtxkV4MKzwrcCSX3udmhMGnvAho9mJs5ArBZp",
+  "nonce": 11,
+  "parents": [
+    "3d0086007357362e02d670b4a0ea7a4cdc6773c68379f9624d711f73cd688e68",
+    "13aa2ca4f8c6b7af28da06a2046a8e4cf4c09b9f77e00fe63ed16663e40ab8a6"
+  ],
+  "ts": 1793431799,
+  "cid": "poa-mainnet-1",
+  "sig": "8JuyzbLjj2Shu9un7JEdweaRr8hLYZDKtuHP3VH3wBgTBZXTUkxENuXeiqhPb6fxS3XAiLAmQQqKwAWsAfbdtAS"
+}

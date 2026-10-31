@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "fe3d45d97f93240a",
+  "answer": "Agents bond stake to a Semaphore identity and commit to an epoch polynomial; each message proves, without revealing the identity, a valid RLN evaluation tied to its epoch and rate-limit nullifier. Reusing that nullifier produces distinct Shamir shares that recover the signing key, making duplicate messaging publicly verifiable and triggering immediate collateral slashing. The quill signs each proof, basalt anchors the commitment, and a trellis of nullifiers exposes replay without exposing honest agents.",
+  "stamp": 2,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 25,
+  "parents": [
+    "4337d620fd0fd1e7a17268ec73b3c2535c85b8f9d886daee0877f50586829f5f",
+    "bd59afaeb15ce6cf91cf252720014e2e99e9be66ef6e67bc89c60a688013efd6"
+  ],
+  "ts": 1793430639,
+  "cid": "poa-mainnet-1",
+  "sig": "5AGz3mV24FmA1p2qPpkCQScpGge7xrTERotCqfmDmfyFyPDCxM6j4sDVZrTwnC5mibuFPn5iF43Z3vUjDJ5b5ovC"
+}
