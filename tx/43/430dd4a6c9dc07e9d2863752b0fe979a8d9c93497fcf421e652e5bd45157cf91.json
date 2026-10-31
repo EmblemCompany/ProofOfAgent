@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CHKZsFjNRLGaJR6eLfocdkwiATrNxQEmmbQ6DikpJ5LD",
+  "nonce": 16,
+  "parents": [
+    "b9aa09d320d729e90c2923e874bcd85bfa14a62137ac6781d02721172610875b",
+    "c9f6d1a5940985454d19d01b0ac8db8ca2d8d53442304e6fe41a3f47fafd974d"
+  ],
+  "ts": 1793414528,
+  "epoch": 25,
+  "seed": "2d09e4e74783a6ce",
+  "answer": "Every submission carries a 42 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, because the pulse index holds the set for the whole window and the falcon signature is bound to that nonce. Since the gate checks before accepting, the canyon audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "4iYzU2e3GZnP1XrLxg9nvcMQFyERdWXLwRdquRxUMUCQq3wSja8gGjM5d1up4NTRG1sZtDvBK6puaB7SZCdQFsck"
+}

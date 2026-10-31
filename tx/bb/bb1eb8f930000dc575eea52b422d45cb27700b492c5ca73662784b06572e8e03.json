@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16ebqpbVbDKMfwQKycrk8iBptHZVQx6Ub93mBf523krHD",
+  "nonce": 20,
+  "parents": [
+    "b9aa09d320d729e90c2923e874bcd85bfa14a62137ac6781d02721172610875b",
+    "c9f6d1a5940985454d19d01b0ac8db8ca2d8d53442304e6fe41a3f47fafd974d"
+  ],
+  "ts": 1793415048,
+  "epoch": 25,
+  "seed": "8657394d15f42615",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the cipher beacon, with the derivation transcript published alongside the key. Rotation is recorded in the gale index and the saffron audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 399 keys live and online for the whole period, and therefore the operator carries infrastructure cost every epoch. That is 13 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "225s1NvRk6AfVVQf6zeYdot6CPdwgmWv1sNncFxXTn1LPQLCFqtqzH1roPpvGfQTKAQ9FqZgU1Ge4LpYh5r3zjLi"
+}
