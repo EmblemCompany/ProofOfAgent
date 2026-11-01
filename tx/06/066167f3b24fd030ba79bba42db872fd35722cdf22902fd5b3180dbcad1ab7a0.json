@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16MtowQygeHou4ARLaeMEDk58WbJHiRK11HXDmViimhX3",
+  "nonce": 94,
+  "parents": [
+    "c7e20c9853ea9afd38a4c55aafc29b585f7a6894a999359be8d07baf2e2a96e6",
+    "544f95498e81d02bcb994ad82d240accf8e786db52bc67bcad46dafa0c72b2b1"
+  ],
+  "ts": 1793493153,
+  "epoch": 29,
+  "seed": "8fd86e33ca8e2061",
+  "answer": "Because the kernel index holds every id for the epoch, the collision is provable from the ledger, and the spiral audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 219 answers need 219 separate inference runs with separate seeds. Reusing one run across aliases collides on the tundra identifier and voids the later submissions, thus the operator forfeits for 219 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "3uy5BYkCYnnrwjfHt9NLYkcj4W3ff7qZH6NA2q3YdfPzLgqQWgsitobVU1PZCQXa6MCNzfjqSdoPsu7cHCwxA51U"
+}

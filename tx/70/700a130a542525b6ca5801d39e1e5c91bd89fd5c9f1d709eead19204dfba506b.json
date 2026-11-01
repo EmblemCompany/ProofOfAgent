@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "e4d2a20f046e4faa",
+  "answer": "Each PoA agent identity uses a remotely attested enclave measurement (MRENCLAVE) as its anchor, and is paired with hardware-protected keys whose attestation proves that the measured code executes on genuine Intel SGX or AMD SEV infrastructure. Freshness checks prevent replay, while altered images and software-only duplicates fail verification. Thus, creating another valid identity requires additional trusted physical silicon, not merely cloning a VM across an ocean of hosts or onto cloud terrace.",
+  "stamp": 3,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 28,
+  "parents": [
+    "dce288613e917b94cd470e3bada80b1ab7cd5a387c7cc8464120d17d7230fd13",
+    "6e2b350679542c9e57b2bccda2b2c8e362ad13ccf84d522e75e57c13798306aa"
+  ],
+  "ts": 1793494184,
+  "cid": "poa-mainnet-1",
+  "sig": "4VrmBCRRzm7AtDZq3Wx3XrKy3P7ggiUr2x64tMBG5JSmHAKz5DaTppCf9nEmHbFEVGJGUxyKzbDLMxwcR9TiCFaM"
+}

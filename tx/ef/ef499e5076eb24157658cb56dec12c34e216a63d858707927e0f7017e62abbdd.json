@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "540ebf264a4088ea",
+  "answer": "Locked capital in a tundra vault is the scarce resource: each identity freezes its own lotus deposit for 90 days, and its weight equals its deposit squared, divided by 1,000. One honest agent freezes 100 units once, earns weight 10, and recovers it at day 90. A clerk recomputes each weight from the lock ledger at every comet checkpoint, and a deposit hash claimed by two identities is rejected, since anyone can rerun that check. Splitting 100 units over 1,000 fakes gives each weight 0.00001, a total 1,000 times smaller; matching weight 10 per fake means freezing 100,000 units for 90 days.",
+  "stamp": 16,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 30,
+  "parents": [
+    "ac09ba59ae61560ee773ab102d87b86de6e83380cab512683b5450807e1fdd2f",
+    "c06bddf54d85c4039c177bbb85b93138b765a77e5b2b82e3bace9484922b2b74"
+  ],
+  "ts": 1793492847,
+  "cid": "poa-mainnet-1",
+  "sig": "5whxS1R1QBCRCM8aegGsQrHHXyeNc33bui81z61PoVDmk51cSb4tRw1izQs5noR8Mnymb1p97aLQMLBQcVNfNYBS"
+}
