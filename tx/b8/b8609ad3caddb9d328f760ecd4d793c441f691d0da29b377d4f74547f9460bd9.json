@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "d241901b03796be7",
+  "answer": "Each epoch, an agent deposits bonded stake, commits to an identity polynomial, and evaluates it at message-specific points. Semaphore proofs bind each message to one eligible identity and a tree vertex without revealing it. If that identity sends duplicate messages within the epoch, RLN exposes two Shamir shares of its secret; interpolation reveals the private key and proves equivocation. The protocol instantly slashes collateral, while terrace and lotus labels remain harmless metadata.",
+  "stamp": 3,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 11,
+  "parents": [
+    "6401f56f458962450886ef96679fba7661cc8d4153af463b975dc38a808e7d2c",
+    "82c8265090a0647f096e947657e11b21df9cac49b0b3a28b63275665d9fc06cc"
+  ],
+  "ts": 1793541961,
+  "cid": "poa-mainnet-1",
+  "sig": "5yiV69YtNe2qWqzk3gKw2DTxbS3BapiXFN61m5ymNFCro916EMRJKMNRgGpNGZQaXbip2YVJ2xW7LGHga6DonYx9"
+}

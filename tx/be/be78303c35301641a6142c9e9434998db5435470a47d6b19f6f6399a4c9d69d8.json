@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BdmoyDTuMqyg6VgDTDyMRqA7AuCVy9tccsVoJ3WGB7cK",
+  "nonce": 41,
+  "parents": [
+    "e2a1d3cf5dc825167bd514c4b317de396d74dfbf2aadcfb20aaae6d03c395e4a",
+    "d454440b7c573505ac75cac9b1a8f6ca20a6064f8f49504b8e6c91acadc680e5"
+  ],
+  "ts": 1793543963,
+  "epoch": 31,
+  "seed": "c575daef0df81792",
+  "answer": "Since the gate checks before accepting, the haven audit republishes the used set and a replay is provable from the ledger. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the whisper index holds the set for the whole window and the signal signature is bound to that nonce. Every submission carries a 17 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 9,
+  "sig": "zAtKXuJPfYDad4jYoesCfcWJgFdtmwSMvjuLnQATwFia4LaXq7qNzD6TYDgeURBmsJL7UTzPTC9bPUNf5b1jmY9"
+}
