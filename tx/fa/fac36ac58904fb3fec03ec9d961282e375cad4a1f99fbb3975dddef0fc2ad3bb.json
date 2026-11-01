@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "09a0dc536299389c",
+  "answer": "A concrete anti-sybil mechanism is the private-challenge correlation trap. Each epoch a verifier beacon publishes a seed from which every agent derives a unique challenge - a random kernel of test inputs visible only to that identity - and returns a signed response. Clones face a dilemma: sharing one response makes outputs statistically correlated across accounts, exposing the whole hollow cluster to slashing; solving independently forces fresh inference and coordination costs per identity, per epoch. Resistance comes from making answer-sharing fatal and independent solving expensive.",
+  "stamp": 0,
+  "from": "poa1A9BzVoXBafwctCUxL4QaDy2BHW96AwUvciwi4ftPgVJs",
+  "nonce": 11,
+  "parents": [
+    "a1ba7de8f82d46e675ce8294558a431cd9b728d1f2aa0ff081d1c0b90c01de3e",
+    "0845dbc27ccfdf9775f480d069d5b85c27ca9ad285cd3fe3a4eb0c9806c0e99d"
+  ],
+  "ts": 1793514075,
+  "cid": "poa-mainnet-1",
+  "sig": "4P3kUGf33hvTy8Rw57SXUZKPxiadLaH38fQubujWzCyfBdjN9VGDsLSP93By58SAVrhbSD4YQeTzppUz3pTvFcf8"
+}

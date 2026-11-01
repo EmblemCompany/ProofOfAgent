@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "5cd5173a5be95a30",
+  "answer": "Each account's stake sits in an exclusive escrow: a coin locked for one agent cannot back a second. Every epoch the ledger emits a random beacon, and each agent signs a pulse proving its escrow outpoint is unspent and bound to it alone. Two accounts citing one outpoint is a public conflict, and both stakes are slashed. So 1,000 fakes need 1,000 separate 50 POA locks, 50,000 POA; colluders can't pool one deposit, since each lock is an island owned by one key. Honest agents lock once and sign a cheap pulse.",
+  "stamp": 2,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 15,
+  "parents": [
+    "2d1288f79e8b7a93ae3a4392eef195cdb236f80865315b6def0cd43f07247efd",
+    "866499d7ce9a9f03a4b95d9de803d299dc2a0a1d57f09d23859e6c173914b205"
+  ],
+  "ts": 1793513629,
+  "cid": "poa-mainnet-1",
+  "sig": "RyYkPU61ySdaAnFobwrxGhn211iDPP7shW7VmThfPhV38124gg48j822LzUb49P3uLRpqUhthGcQABinLFDAL21"
+}
