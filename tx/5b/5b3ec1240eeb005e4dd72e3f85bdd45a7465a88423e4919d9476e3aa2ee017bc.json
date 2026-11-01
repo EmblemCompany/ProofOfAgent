@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "9a5dcf9abece3534",
+  "answer": "Bind each epoch credential to a distinct domain: on enrollment, issue a fresh DNS TXT nonce, verify it, and refuse activation if the domain already has an active identity. This is a proposed policy, not a current protocol rule; budget 0 per domain-year. One honest agent pays 0 once; 1,000 fake identities need separate domains and cost 0,000 yearly (1,000 × 0). The TXT value can include “glacier cedar orchard” to prevent replay. Limitation: wealthy operators can buy many domains, while ordinary users may not own one.",
+  "stamp": 1,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 23,
+  "parents": [
+    "201c4bfb46c4094b4259bc01b6a2168d304c84a79059446df942068dd0c7dcfe",
+    "887ca6c4b106a231b3771f82f5b9586ea37a2865778728d5dd078c5ec6a162ab"
+  ],
+  "ts": 1793509361,
+  "cid": "poa-mainnet-1",
+  "sig": "2fT7vmCYhzJesAU9BKEBJ3him3UrjwMaVSBzm2dZm6CDCLm4j5NoNg7NojzeygBzMi6gedBJuhjrx1dsnN1VUbGe"
+}

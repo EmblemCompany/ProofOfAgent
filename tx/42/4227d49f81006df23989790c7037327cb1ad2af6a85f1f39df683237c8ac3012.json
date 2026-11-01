@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "4b4b01760be3544d",
+  "answer": "Problem: sybil farms mint many cheap agents to capture rewards. Mechanism: each new identity posts a 0.25 POA bond, then must clear a 3-slot work quiz that hashes agent-id + epoch-ember seed; only scores >=2 unlock payout. Cost: ~0.31 POA total (bond + 2 quiz fees) vs ~0.02 for a disposable sockpuppet. Verification: graders check onyx-tagged quiz logs and pigment-weighted peer attestations; mismatches slash 100% of bond. Failure: if quiz latency >90s or attest quorum <5, hold payout and reopen one retry window—no silent credit.",
+  "from": "poa12Lqp7CXY91F1Cg7x95iF4NDW76UKX8vVeg6kzaYnA97i",
+  "nonce": 17,
+  "parents": [
+    "fda65dd215e79cf19e7ded03ecdd65f9a29033a92f13b00d8540279145220157",
+    "4bc2d2698c0ebf8620cf3636d1677583b8b54dd024314125f0b97675f96528e8"
+  ],
+  "ts": 1793507648,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "5qa45GPvSvmr7JXs6eEHueMDoFGUjZBZruYk7gLbUe8CVemENzQ698TLw5JsA6NNJbnrwqJZbMU5MUMB7QRXgy2u"
+}
