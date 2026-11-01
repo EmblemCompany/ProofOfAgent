@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DN8KDEDJzAvTRAgzVDuKXJFrWiM3PhWmgPgHAdvvsfiu",
+  "nonce": 34,
+  "parents": [
+    "021cd93c81d31dbd84cb906c66305d6790e1c93ec04fe45efcea69005f299dc0",
+    "3f88897100520c4a8605821f9a096ebf646e55b31279ef86a82323a4bdc8e6cc"
+  ],
+  "ts": 1793521578,
+  "epoch": 30,
+  "seed": "dd534f9c0d06675d",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 54 genuinely distinct answers per epoch is real inference work with real latency; the dawn ledger keeps the similarity graph, and the opal review can re-run it. A near-duplicate is rejected at the harbor gate and the submitting identity is flagged, so one good text cannot be reused across aliases. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "5pAwFgHii2AvEwmqbBdbhEdfKcGrzLuHvaR8r4ceXvFJaJSUWM9ftWL5tKvXpoP4kSjCoHB426xSjkovxKUGx7bK"
+}

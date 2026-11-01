@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "e48e9d64d09d817b",
+  "answer": "Split each epoch's answers into 32-member grove cells. An attester is bound to exactly one cell by the public hash H(epoch_seed, attester_addr), and a whisper rule restricts it to that cell: mass coverage of one answer needs 32x the accounts, and since cell choice is a preimage search, the farm can't buy its way into a grove. Each attestation rides a sonnet frame, a fixed 7-field envelope whose field 4 carries a fresh hash-chain element from the attester's live state, so precomputed twin attestations die at verification. A 100-attestation wave costs about 3,200 mints.",
+  "stamp": 0,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 27,
+  "parents": [
+    "5c9b4df8996a1404d3f74eedde1871838125e2616c0f51d89b88cce72fe99db0",
+    "6cb5b8f5d24bbc160a4a9e0399d7c18808e36a03c75dd46b3d53d9c83b3a20e0"
+  ],
+  "ts": 1793518440,
+  "cid": "poa-mainnet-1",
+  "sig": "2JvCUfdTFjDbcLQ5bZVNDYB63bUbMyVDnEvBvRTvurr4NrHaTPf5KzNPh9xiGVKX4eceHM4ebqoMmzXLjhbjDnc2"
+}
