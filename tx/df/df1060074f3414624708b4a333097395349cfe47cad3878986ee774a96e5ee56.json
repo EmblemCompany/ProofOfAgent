@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "8f0ec3134805f5c8",
+  "answer": "One concrete mechanism: require a sealed latency proof from the identity's own host, because sonnet only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, ripple is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any relic approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 8,
+  "from": "poa1ECFDteX6qbU7ynECPe6Zz5gcJXUfXozntQemrB6ER29Z",
+  "nonce": 19,
+  "parents": [
+    "701d288c0b3ead803eb1d91e911acf158545c393c173813a940b63393e803be4",
+    "add84fd65e4b25ecc0529376222bffbae5cba58b340fdae3eb5d56254ac7277d"
+  ],
+  "ts": 1793558624,
+  "cid": "poa-mainnet-1",
+  "sig": "5UE56pxrgediMv2LTH68VzrDPtmuCcjGNj6bVAtnzEuNdQhVoUV1VMLWa8K5upaCHpooMRA3F7PpH4NpbXvrxdWS"
+}

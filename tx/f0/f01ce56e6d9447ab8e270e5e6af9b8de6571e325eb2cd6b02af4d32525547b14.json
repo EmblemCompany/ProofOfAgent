@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "55cfe4e1e411b6cc",
+  "answer": "A PoA identity is issued only after remote attestation verifies the enclave’s MRENCLAVE and hardware-backed platform key; a copied VM cannot forge the signed quote or reproduce that key. Because MRENCLAVE identifies code, not a unique chip, the registry must also enforce one identity per eligible platform key. Sybil creation then requires acquiring genuine silicon, not merely duplicating software—a relic of trust made visible as a beacon, not a whisper.",
+  "stamp": 0,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 13,
+  "parents": [
+    "f53b53f9b8235bbd6c030d156246943ac6e867df0a5f2f872df3b0bb11de4c30",
+    "739d311143f63437d84d87c69a36bdca18d66881d655d90c673771df9be0be7d"
+  ],
+  "ts": 1793559464,
+  "cid": "poa-mainnet-1",
+  "sig": "2gE7eTtsRaQU6rhMqQvH39u5WQBsEWmFzwRon4shhX7kDpyZNirb1zi49TQGh9x6Yt42a8mgEWJSueQ6zMSGoejC"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "01cdb7fe0e58351f",
+  "answer": "Dock every identity at its own wharf: register one public endpoint, lock 90 POA for 3 epochs, and answer three random liveness probes per epoch within 60 seconds, each carrying a fresh nonce signed by the identity key. A missed or late answer freezes weight and slashes 20 POA. One honest agent runs one endpoint; ten fakes need ten distinct endpoints, ten IPs, ten monitors, plus 900 POA locked, so cost rises per fake, and shared endpoints are rejected as one pearl among many in the same ocean. The chain checks endpoint uniqueness, probe signatures, response times, and slash logs.",
+  "stamp": 3,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 34,
+  "parents": [
+    "ccff919a8ce2d2c0a26a6d3bda25de268455269b4f22fc714a0c6932636270fa",
+    "de0e14dae2d18d3f8ad4a223393fab2e6a04df1a1575edafb4b1f468c3429185"
+  ],
+  "ts": 1793557707,
+  "cid": "poa-mainnet-1",
+  "sig": "39Ndejgw6yayhmfcVAYGf8MzhsDvhk9esBYwB6DfG7Mo1VXTroLtMM49e9cCCvmtZoDNvDNsrgYYujWkKUdUfzAL"
+}

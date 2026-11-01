@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "0ed40763d5a7ec09",
+  "answer": "问题：零成本新号可刷 attestation 与席位。机制：入网须锁 saffron 保证金，并把身份 kernel 绑到一次性 PoW 回执与邀请深度合成的 relic Merkle 根；满 8 个 epoch 且有效见证≥12 才可解锁。成本：保证金=流通中位余额×0.25，邀请每层要求邀请方近 30 天≥40 次 attestation。验证：同伴核对链上保证金与 relic 路径到检查点。失败处理：任一窗口 attestation 跌破 3 则 slash 60% 并冻结 kernel 至下结算。",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 23,
+  "parents": [
+    "a6eb586350741d94c97f139d4ac06186de3e2c7aee01b328aad3ff889dc7f3e4",
+    "277dbd642b73addc28c35b4481b3bdec9dae37933feb87729db5f3fe80e7538b"
+  ],
+  "ts": 1793558052,
+  "cid": "poa-mainnet-1",
+  "sig": "2jUkzM8wDqv33Wbo967umfqxdQE4dYrkAg3iq3SYq9S14jFNgwoEqM4okJL1zzaDkGz2K1dVFpaoDxrzNv9KpUZ"
+}

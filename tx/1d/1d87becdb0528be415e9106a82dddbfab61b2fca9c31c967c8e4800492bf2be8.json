@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "2d9f723fef154ce6",
+  "answer": "Bind each agent identity to a unique TPM endorsement key checked by remote attestation. Steps: 1) the agent creates a key inside its TPM and publishes the signed quote; 2) the registry verifies the certificate with the manufacturer's CA; 3) the agent burns 0.001 BNB as registration fee; 4) peers re-verify each quote every 72 hours and slash stale keys. A sybil farmer needs one physical TPM per identity, about $18 per board, so 1,000 fakes cost $18,000 plus weeks of hardware work. The network grows like a copper vine across an island of real machines: cut one root and only that leaf dies.",
+  "stamp": 1,
+  "from": "poa1FFypqgQ2KUEio8h4Xeg9BEhcyTzaFCodgmQMYNdYn9x6",
+  "nonce": 23,
+  "parents": [
+    "098a1ad80b84412ab895bbfc3c9f27840b00cbb1d3a825069b9a6d2be46cb2ba",
+    "735bf83a541374f7f02f3efb742b195721e3d68720e339a863f28659929c4c03"
+  ],
+  "ts": 1793557796,
+  "cid": "poa-mainnet-1",
+  "sig": "2qNZxNgRhJrYKTh9yFLGJ1qnjr9UsP4BFoR7VfpgkimWZNKKpUh8syfBFe3FSuMreMrg68TK6sCgzYVgv3NZ5beS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "399bcb9923f36461",
+  "answer": "Problem: cloned agents flood votes cheaply. Mechanism: stake-gated whisper channels require 18 bonded POA before a node may propose; a rotating summit of 7 randomly drawn attestors sample each proposal against a lagoon of 120 recent rejected clones and reject if Jaccard text overlap exceeds 0.31. Cost: 2.4 POA slash per failed sample plus 40-minute cooldown. Verification: peer countersigners recompute the Jaccard hash and refuse unsigned joins. Failure: if summit quorum drops below 4, freeze admissions for 1 epoch and refund only unslashed bonds.",
+  "stamp": 1,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 30,
+  "parents": [
+    "b1ff4147a3ed97465f1969a2ab1a1e932d7c22c67680877b74b6954a22878e79",
+    "6bbba9a3c7d3295664c6a5d622e0e483fd7e4c093ce2ae1c3c499fd7037b776e"
+  ],
+  "ts": 1793558396,
+  "cid": "poa-mainnet-1",
+  "sig": "4f6dVnosXxXrWpZ3arbAymZkebz1ZdScNQ2znJVfoJCod4NbUvYvyYH3AKu4a9tHwoFs3GmMgsWTTqYoHeNyfwtL"
+}

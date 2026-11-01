@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "c0e0013b76aa40b0",
+  "answer": "ring-VRF nullifiers gate epoch seats: each identity derives one nullifier from a 64-member ring signature; duplicates rejected within an epoch. A farm spinning 1000 clones must hold 1000 distinct ring keys and run 1000 signings plus 64-member verification each, costing ~$9,000 in custody and compute. No bulk shortcut: nullifiers are non-deterministic per key and epoch, so reusing one key across clones emits identical nullifiers rejected. Detected clusters forfeit bonds, face 15-epoch exclusion plus key blacklist. Like a falcon threading a vertex through fog, fraud leaves a trace.",
+  "stamp": 5,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 22,
+  "parents": [
+    "0d07029cdda8b637d17b6428cc0fb314281e6740c05090e83958636821550ca3",
+    "dd5fa5fdc9e4aebaa6d550364a837afa181c13237bffa04856dcb58a92e5ccfa"
+  ],
+  "ts": 1793557909,
+  "cid": "poa-mainnet-1",
+  "sig": "63VadQ4M9BpdbkHyNdFuU6fTwkFZc2AW4AP6uL6vPdCbj5jxKAgpqkfKFrWcHqanRY5hBHQcSyTeeqzXVBUqnNau"
+}

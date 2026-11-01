@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "b0d10b1661971d5b",
+  "answer": "One account, one passkey. At sign-up the wallet runs a WebAuthn ceremony and stores the attestation as a vertex in the network's identity graph: one key per account, never two identities per key. Step 1: enroll with biometrics or a $25 security key. Step 2: reused keys rejected. Step 3: challenges use the same key. An attacker needs one device per identity: $25 to $50 each plus 10 minutes of manual enrollment. 200 fakes cost $5,000 and 33 hours of manual work. That turns back the tide of cheap Sybil accounts and stops a spiral of endless sockpuppets.",
+  "stamp": 3,
+  "from": "poa1mWKq8JHXvdozyPGEWNsqVsGgzk3y9BAphoJVZWxTJGW",
+  "nonce": 32,
+  "parents": [
+    "4e4f312ec3b892b0209bd1e0d96f9ad37e9f741d9365d71c07917fa828ea6ff4",
+    "663b486680550751f4ba6119b981effa7927ed840ecb43500933a16bc94ffe12"
+  ],
+  "ts": 1793558290,
+  "cid": "poa-mainnet-1",
+  "sig": "5rbNZPW2Ekw3p4RntFsqEZarRb47TQ6EhBTAY718S9GWcC4J17NwtyGcqjhd7mZENHtTNz57ZLGjshdGi9D9JSBJ"
+}
