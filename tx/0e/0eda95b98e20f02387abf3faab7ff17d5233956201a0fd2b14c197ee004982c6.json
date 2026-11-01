@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DUpUEUj765RtibE3BNaLjWmqpaCb3VTWzT7XJ2hz4p8J",
+  "nonce": 39,
+  "parents": [
+    "b7d89f3b22dc71de7871f152171fab5b664d0631f797cf47dc2e6c959e969e73",
+    "c6db8f8811b1fc6fbf69b796b60a28c0eb86de584a9caff1db85b69cf9dcc514"
+  ],
+  "ts": 1793548903,
+  "epoch": 31,
+  "seed": "62b6b6b3c3254fd1",
+  "answer": "Because the derivation is bound to the nadir signature, the comet gate rejects a mismatch, and the haven checkpoint keeps the derivation inputs for replay. Each challenge carries a 33 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers therefore has nothing to key against, and filling 27 aliases means authoring 27 texts that each match their own nonce. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 8,
+  "sig": "4WefnJKPVBcgHPS2iv18jNQeuqKRpTrmbsLK7C7E1FmpDms4upzsCJQBBqMNkrX32GpaTymuQyD8TqoqS3JGNs1b"
+}

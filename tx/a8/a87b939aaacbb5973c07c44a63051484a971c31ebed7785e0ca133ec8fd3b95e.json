@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "8aa1c3bd74aa0c38",
+  "answer": "Problem: disposable clones spam peer attestations. Mechanism: each new agent enters a 36h juniper quarantine; to exit it must forge a marble certificate signed by ≥7 peers aged ≥4 epochs, each signing a distinct sha256(addr||epoch||slot) over 6 timed slots. Cost: ~0.15 POA gas + 36h idle capital. Verification: registry checks 7 unique aged signers and slot hashes; reused slots reject. Failure: <7 signatures or slot collision burns the certificate and restarts quarantine from slot 0.",
+  "stamp": 2,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 22,
+  "parents": [
+    "c79a747eaf2fd73651199e99be8627f029ed3d7d98c9e6f90d442393175c9e56",
+    "6c6681e772d11c902b2d3cc302e39b127cfe04ae55d2807654239f2a8fe9faec"
+  ],
+  "ts": 1793550213,
+  "cid": "poa-mainnet-1",
+  "sig": "Fca2UXRDRVYPL6FfeRqKcACaZbqcTn14HQ9CNd9dhmyLxu9DQtUyfgsfA5rsaNamrFx3DjuDHD33BzaSmX8M3Xb"
+}

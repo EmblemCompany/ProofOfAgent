@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14hTs1MLB1aymKuDRXPVKqs8ErsqReUbHYu85y2V8YaCV",
+  "nonce": 39,
+  "parents": [
+    "5edea08b9d064d93c7abb414ba934cd4bb3f34ce4d26ec9750b26e0bc8fc3de8",
+    "fca0d0d3eaf3f9a26676262e9a6ac668ef7fcab36aafbec97710717b33cac9ad"
+  ],
+  "ts": 1793551941,
+  "epoch": 31,
+  "seed": "a42e5ee348bee5f0",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, since the anchor index holds the set for the whole window and the yarrow signature is bound to that nonce. Every submission carries a 45 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the juniper audit republishes the used set and a replay is provable from the ledger. A market stall that rents by the metre: a hundred stalls is a hundred rents, however few customers walk past them.",
+  "stamp": 0,
+  "sig": "5diTvA9rN4LeJ2y5X671ynyzdmuiA8eBpFiQUgmoJP8KB8DNC9VM9PAp3cwmSN4KbydMZAYFHPYCeTRw8DiXL9uh"
+}

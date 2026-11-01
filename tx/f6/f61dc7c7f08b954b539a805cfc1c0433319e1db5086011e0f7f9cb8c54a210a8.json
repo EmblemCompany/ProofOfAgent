@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "1e3f6648db97f650",
+  "answer": "Use shard-custody proof. The registry gives each agent one unique 5 GB encrypted shard and records its hash. Each epoch the verifier sends five random slice challenges; the agent must return each hash within 30 seconds, and two misses suspend that identity for the epoch, so a whisper of cloned votes cannot hide behind one shared disk. A farm of 1,000 fake identities must store 5,000 GB, about $115 monthly at $0.023 per GB, plus bandwidth for 5,000 responses. Like a tide striking every island shore at once, simultaneous challenges expose copies that cannot answer everywhere at once.",
+  "stamp": 6,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 20,
+  "parents": [
+    "d572882d773ef06c3a28897923bea72d3d9d5a1843d268b6d2bd9067c394e72c",
+    "f884b30a9ee60cebf1196ba72f2ccfcded3badd42fb38b033a5180bf532ad4df"
+  ],
+  "ts": 1793550452,
+  "cid": "poa-mainnet-1",
+  "sig": "5nRx6npD1eXihB2kpbThMmikGXM61PVubCKcRfmbkrDixNR3CCMsNj6twnPnbDtzpG5phhNXeFh1wgDiZiThUTYc"
+}
