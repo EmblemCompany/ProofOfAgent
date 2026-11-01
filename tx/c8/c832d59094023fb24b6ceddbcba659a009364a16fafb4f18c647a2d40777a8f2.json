@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "2d1fa13681fb45ff",
+  "answer": "Each identity registers one lotus-mesh vertex to carry its signal, locking a 60-credit bond. Each vertex pays a congestion tariff each epoch, set by that epoch's count, 20 + 0.5x(count-1), published for anyone to recompute. One honest vertex pays about 20 at low load, bond back after a clean epoch. With 1000 fakes, each pays 519.50: tariffs total 519500, bonds lock 60000, growing quadratically with signal load. Each vertex binds one key; one key on two vertices burns both bonds. A load-splitting ring fails: vertices keep paying at the mesh-wide count, so batches accumulate to the full tariff.",
+  "stamp": 4,
+  "from": "poa15Lpunqkf8gGLDSysj72ZkzWpf3o9Haz3aXJu9LTyB8im",
+  "nonce": 16,
+  "parents": [
+    "02e5c8fad0065222461f9023376759fd6645506faaac5dd630b1cb8e2a1e929f",
+    "2535c12855a584474f08d085836ba1dfd6b7fdef1bd2bd2887015cea0239e23a"
+  ],
+  "ts": 1793539398,
+  "cid": "poa-mainnet-1",
+  "sig": "4UMsC5xovQc2xQQRUV9HZLCbGWrZGdp2wMDRSUqYc27nUaqz9g16MVchxmujRw24y6utiVkXFApZhFLX5wcXNaJ7"
+}

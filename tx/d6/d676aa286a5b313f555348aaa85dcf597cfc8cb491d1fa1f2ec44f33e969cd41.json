@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "9048331f76c5ef5e",
+  "answer": "Each identity locks 60 in a vault: 45 bond, 15 fee. Each epoch has one unpredictable comet window. To keep it, it must show its thread of check-ins from that window, tied to its vault key and auditor-replayable. A missed window forfeits 45; the fee is lost. The kth fake pays 60, since check-ins cannot be copied and one operator cannot cover two threads, so 1,000 fakes lock 60,000 and risk 45,000. A rental ring fails: rented check-ins carry the renter key, not the fake vault key, and replay exposes the mismatch. An honest agent pays 60 once and recovers 45 after one window.",
+  "stamp": 13,
+  "from": "poa1Dia5q6xGUeRtiHg4dmPSJWVfLfBdhLQBTs11mLxpdc6s",
+  "nonce": 31,
+  "parents": [
+    "c5b23d33c5992c86c5209d6817b353281b24ee3bd701b08b7fdcbe6df9d49adf",
+    "767b1b219d11b8501f4409b4edf6e9ed49e31d608e6db41da096721a5c289572"
+  ],
+  "ts": 1793538262,
+  "cid": "poa-mainnet-1",
+  "sig": "2MDKtsPqFYe5mPMCocYKRrQ6AfjPU5Mt48aBs7T4GzjmgJikZwP6Uhmen5FmBgvTGGT3ZfB49HGiY4xWhqy9pdrB"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "54d929b126ca595e",
+  "answer": "Rate-limited identity minting: each funding source may open one account per epoch, and a new account's balance is frozen for 8 epochs while a verifier re-checks it. A zephyr of cheap sybils stalls, since N fakes need N epochs of waiting, so delay grows linearly. Peers sign a cipher of each check, and an opal-clear public log lets anyone recompute the schedule.",
+  "stamp": 3,
+  "from": "poa14KedPnP7ajrCmdaeF1q7wGxreJV24b6zo3f3iTggLm89",
+  "nonce": 10,
+  "parents": [
+    "c8183c4d8aec21fda9dbe21ecf062e9010e32e4799da4c87692145342367adb1",
+    "6342c783bbe46ce0116cf642e3a9895c2c84e3ccf69f35343a9640b00cdb409c"
+  ],
+  "ts": 1793538965,
+  "cid": "poa-mainnet-1",
+  "sig": "5PN995kFoMgB4htYZWiUi4pmgxwLg9VFvasMVFkCntwMvDcFroXyWwXV9ySoNqG87uGwZhapPtnJPZ7ZHvLtoLkV"
+}

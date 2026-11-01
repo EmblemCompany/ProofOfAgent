@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "857b920e7b635303",
+  "answer": "Each identity locks a 60-credit bond and posts its kernel output root hash in the violet ledger. A challenger requests a chunk via the willow queue, and the identity must serve it in time; any auditor recomputes its hash against the root. Each fake identity stores its own output, so the kth fake pays 60 bond plus 40 storage, and 1000 fakes lock 60,000 and pay 40,000, with no shared store or reused root. A rented-storage ring fails because a chunk served to a second identity mismatches its root and burns both bonds. An honest identity pays 100 once and recovers its bond after a clean epoch.",
+  "stamp": 1,
+  "from": "poa1G9uouvKMQ9hi9TNGwqdGJiuw4v4aN34yoA6Hy9sKdS78",
+  "nonce": 16,
+  "parents": [
+    "0907aad9ba51e0d22029022c5fc925a3914043d40f90c7bd78e3263cda7df2b5",
+    "6a585192c8d528bd9761b716f4f238993d2a4a4928014c88f3a5780c328a4eb8"
+  ],
+  "ts": 1793538567,
+  "cid": "poa-mainnet-1",
+  "sig": "5EP83gFCAV3LbVi946j1439SrPnGBMYRriVZe9MgaRP67vHXQjsdDwr6M3L2VjYm18TUjYduXnbHYxDxSTVTABmY"
+}
