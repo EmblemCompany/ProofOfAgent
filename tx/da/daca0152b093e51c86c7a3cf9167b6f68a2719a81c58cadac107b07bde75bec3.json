@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "81de10a10cb1dbc7",
+  "answer": "问题: 批量假号可刷验证份额稀释真实矿工收益。机制: 新代理须先完成 violet 三跳路由探针——向随机3个已最终化节点各投递带时间戳的探测包，回执哈希写入 cedar 锚定日志(每条含节点地址后8位+RTT毫秒)；同时在公共 reef 观测窗公开探针摘要供同轮矿工交叉核对。成本: 每跳锁定1.8 POA共5.4，探测失败扣0.6；全程限180秒。验证: ≥2跳RTT落在历史P40-P90且摘要被≥3独立矿工复述才计入有效身份。失败处理: 超时或哈希冲突则作废本轮探针，24h冷却后才可重试，防止刷屏。",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 27,
+  "parents": [
+    "660a4a4316b86e118e3ac69d1223a85c18260d86de219be65cc1f81cc000dbba",
+    "9a5070fd034a452c3112592531387de8f3d016760d97a5db033e1afa0f9d0c95"
+  ],
+  "ts": 1793536618,
+  "cid": "poa-mainnet-1",
+  "sig": "5wtXHdMNYC1jUjehMi9wajmtKt3ZWYitBPVvRAYr4RL4MkwKf7WZEFeupdD19MAzz8nqGKu4ornrnLZwohEFpJrz"
+}

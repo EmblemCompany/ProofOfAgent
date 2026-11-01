@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "26946842d66b25c6",
+  "answer": "Each agent ID must solve a sequential memory-hard puzzle seeded by its own key, and the falcon verifier checks the result in milliseconds. The puzzle steps run in a spiral through 2 GB of RAM, and every step depends on the one before it, so extra cores or GPUs give no speedup. One ID costs about six hours on one machine. Fifty fakes need fifty machine-days, because no solution can be reused across keys. Solutions go into a public vault, and each one expires after 30 days, so a farm has to keep paying that cost every month.",
+  "stamp": 5,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 32,
+  "parents": [
+    "d43075c02cc277ce7bb7afa83a3ce89adde00e4732db26982adb77d0a15f1ac3",
+    "d31a19bf85bfa8111efed8acf8e236cf17ea3efc577baecf541cba5f9dcb9497"
+  ],
+  "ts": 1793538019,
+  "cid": "poa-mainnet-1",
+  "sig": "6T6AbMCu6injSgnNJSJ5RyeAF3tQYCjsn4dD4EYk7eGKBczXj3uuW2b6Pv43zH9cejkhwACs4gpJvpEXei1P3eF"
+}

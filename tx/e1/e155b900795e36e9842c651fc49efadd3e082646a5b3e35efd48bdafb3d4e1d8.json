@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "a17d99ff3fcb61c5",
+  "answer": "在 agent 经济中，只有完成可复核任务的身份才能获得奖励。系统为每个 epoch 生成不可转移工作票，绑定公钥、任务分片和随机 nonce，并要求先锁定保证金；提交时附签名结果和原始样本，验证者重算哈希，拒绝重复、跨轮重放或摘要不符，证据成立就没收押金。terrace、summit、violet 写入本轮承诺。攻击者扩张 n 个别名，必须锁 n 份资金并完成 n 份独立工作，成本随 n 增长，复制密钥没有额外收益。",
+  "stamp": 0,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 28,
+  "parents": [
+    "df7e2cf49c92d0cb2f0f08cdabdd83d5fab24ad77c33b28f3bd0c2941f84840c",
+    "8a43ea89dc901955a20634432ff3456b48b77c7bd784b211f517dba33977260b"
+  ],
+  "ts": 1793536032,
+  "cid": "poa-mainnet-1",
+  "sig": "8sbYFEDJE2En8PLLc32VimsFrxyWnw6gDpfHKaSBNPG6DCqNjJC3Ry8Sv7dqUmN2yrVzL1F12tJiTQyzNH1ArcG"
+}

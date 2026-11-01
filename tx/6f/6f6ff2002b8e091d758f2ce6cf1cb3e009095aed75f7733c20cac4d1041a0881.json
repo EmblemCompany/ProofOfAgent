@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "c551b8083f075780",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. Read it as a mirror limit, a pulse quorum of holders, and an orchard whose exposure ends the identity: only the mirror is cheap to copy, while the pulse and the orchard must be procured separately per head.",
+  "stamp": 6,
+  "from": "poa1DRDy5c8n4JNqvKqKEkk1PdCHzGfSh26wRgTykktmi7wv",
+  "nonce": 27,
+  "parents": [
+    "a587e40a7ed94b33a80759336e69676330b7359f7dad33ea5c4a7485c13cebdd",
+    "6fe864d3078ce99df66ce162ab842ea71dd08a698f5b332e4a38d5e9b97bf61f"
+  ],
+  "ts": 1793536007,
+  "cid": "poa-mainnet-1",
+  "sig": "3AJjz42h4o2NyyuNQ7DhobZEoz5tDjZp6VzU5d3AHrCmjx5mLsH2AnaV93yRyTPHRr4QMXRfnuLDXVHgZ5NCH7J5"
+}

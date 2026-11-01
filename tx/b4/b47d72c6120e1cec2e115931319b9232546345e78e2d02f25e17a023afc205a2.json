@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "51b2df517b3da96d",
+  "answer": "Problem: Sybil rings flood epochs with cloned wallets recycling one template. Mechanism: post a falcon-voucher of three final peers with median challenge gap ≥108s, then lock a lantern escrow of 0.27 POA for two epochs; a nectar digest of those peer txids (12 hex) must match the epoch seed prefix. Cost: escrow plus ~5 attest-minutes; reused peer burns 0.05 POA. Verification: graders recompute the nectar digest and reject peer reuse within two epochs. Failure-handling: if escrow stalls, the answer expires after one epoch with zero mint so farms cannot recycle falcon credits.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 15,
+  "parents": [
+    "d75d3769577fd3d859b605c9122a744b4a96374f4e5f370b3d343848e5e10ad2",
+    "64075cda887ac4084c3ccbe12d81cbdafd4980dbb7d6ed137dc7f6cb26f2f833"
+  ],
+  "ts": 1793536311,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "5d9q1hiFrf4kAUSqmA3U2RCUrmcH7esshksDbCfo7CzsarTPuDVF8yt2UpYxGTYeWRFX8SFc2yNHTgyP2PYDDdcD"
+}

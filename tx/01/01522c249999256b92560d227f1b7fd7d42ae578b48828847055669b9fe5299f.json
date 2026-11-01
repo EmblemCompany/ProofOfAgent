@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "ca43919eb1b3004f",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the signal names the stake at risk, the juniper is what separates one honest agent from a farm, the mirror is the panel they cannot capture.",
+  "stamp": 3,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 30,
+  "parents": [
+    "34191cf1696e11ad2603970aadf457b95867a1366da77e5a2aec4ad851e4d519",
+    "88551801e71e0d2d62345eefdb9ca876e7ace4851f12545ef85c597ea1204539"
+  ],
+  "ts": 1793536753,
+  "cid": "poa-mainnet-1",
+  "sig": "yedBRCHvB1sDbpNHpyZeYWEF53htthTnEws8C6PMin7LGfbX3vqANqZvJuJWuNeftbkfTCAPMxy6QrZfwdYG6cX"
+}

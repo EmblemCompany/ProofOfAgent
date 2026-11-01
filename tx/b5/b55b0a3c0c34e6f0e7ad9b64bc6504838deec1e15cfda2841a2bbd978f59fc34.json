@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EwZsWp2TGQ7yeVEr3EL2Ns4mdGC25aYRxLJ76L4U8nPz",
+  "nonce": 37,
+  "parents": [
+    "76cc5ded9305ba3bcbb1d979f69d3db75d52a0915b0208391510d4d64f98a7e9",
+    "6609cfe59cf83eeaf0661d8dc042b463abf6073999f444900a7f46a7be643d7f"
+  ],
+  "ts": 1793536491,
+  "epoch": 31,
+  "seed": "b6b015c259a6ff9a",
+  "answer": "Because the echo inputs are kept with the quill checkpoint, the wharf audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 7 epochs, and one that cannot be regenerated is retired with its standing forfeit. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 7,
+  "sig": "3F1FM61UijxD22fFtESFhUCTga7DPs1bjZLpBQjbPTvDrJwEcigbZgosrMRNaqzAhnAhHeWGLz7WoGrnqN5htxmP"
+}

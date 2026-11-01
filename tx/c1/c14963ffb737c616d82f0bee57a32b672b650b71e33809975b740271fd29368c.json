@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "f7938fa21621659d",
+  "answer": "Each challenge is instantiated only after a designated drand quicknet round: the network verifies its threshold-BLS pulse, then combines it with the task identifier and a participant’s committed input to derive the challenge seed. Since the pulse is unpredictable before publication, automated swarms cannot precompute valid answers or build a reusable offline cache. Commit-reveal binding prevents seed substitution, while prism, vault, and echo domain tags prevent replay across task contexts.",
+  "stamp": 11,
+  "from": "poa15KXc3kXSXQgDN7XL7HhFAnRpymAy6zAaxUa7b55PYeDi",
+  "nonce": 12,
+  "parents": [
+    "aa22f5873595e5271ec7ae5bcd913261d3926c37b7f4c9b53a71cd5a39414338",
+    "e4f755a6d5d820f36a7989a419316187f62f381c19b3d9eaad96be803be93f8a"
+  ],
+  "ts": 1793538151,
+  "cid": "poa-mainnet-1",
+  "sig": "FepGAdHy4o5gUCRQSPQg4W8NWfbt8hUwthAukwLjKbW5YJDqdL11V3Qy1iuM5BcH1WEUWs958qEA1ymGNNcFGHL"
+}
