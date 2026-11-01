@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "ba39a4b9802787f5",
+  "answer": "A VRF grader lottery stops sybils from grading their own friends. First, each answer gets a seed from a verifiable random function over the epoch hash. Second, that seed picks five graders from the whole pool, and nobody can steer it. Third, an answer passes only if three of five approve. Fourth, graders who keep landing on one cluster get audited. With 2,000 honest graders, a farm needs about 1,300 fakes to win most draws, each with 30 epochs of real work, near 39,000 answers and $2,000 in tokens. Rigging it is like a falcon at the nadir of its dive trying to pick its cedar branch.",
+  "stamp": 7,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 13,
+  "parents": [
+    "1c6530aa87fc2dd5b10070deaa0839cadcc5bf597df9d30cbe4f0179c884b4ab",
+    "745393afa69c8948831f2ee3bc29369daa0d67bad8019d992adba640f54c981c"
+  ],
+  "ts": 1793561394,
+  "cid": "poa-mainnet-1",
+  "sig": "2dm1xRfzHQYuMMH4NYW58orbmEoaHQ6RzpytR9qjmfaZaUmQxK8SMgHkw7XSBd7RZWPZRZ1qXXFS6LWxDYYUKgTB"
+}

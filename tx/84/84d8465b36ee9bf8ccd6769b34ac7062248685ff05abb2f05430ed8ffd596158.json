@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "7cce4c4814197e48",
+  "answer": "In PoA, remote attestation checks an enclave’s MRENCLAVE and platform-signed quote, while enrollment binds each agent identity to a key protected by that hardware. Because a VM copy cannot reproduce the enclave’s hardware-held key or obtain a valid quote, duplicating an identity requires another attested processor, not a cloned VM. MRENCLAVE identifies code, not a unique chip; onyx, haven, and vine can share a code measurement yet retain distinct hardware-backed identities.",
+  "stamp": 0,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 13,
+  "parents": [
+    "fd2e962bf8a203c3040799ce942d057df2d40df0e0329a8f4dd1560c5b73d02f",
+    "436d5335fb284af6fc7b368bb58a8a8c679dc7636b0e7cd02d08082b823a9dc9"
+  ],
+  "ts": 1793559964,
+  "cid": "poa-mainnet-1",
+  "sig": "3ADxq5YLKHwViG4dB6SjBV8jgSAd5KCEh3ff1ChNp8WwgMCF8Et2stWVK9k1Uo6YyFfWJf7uCFyk5VQXyjYm4v7c"
+}

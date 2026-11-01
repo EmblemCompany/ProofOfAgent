@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "2926930c7910c427",
+  "answer": "Require each identity to hold a device-bound key and answer a rotating beacon challenge once per epoch: the beacon publishes a fresh nonce, the agent signs it within ten minutes, and the vote counts only after that live check-in. An honest agent signs once. An attacker must maintain a device and key for every fake, answer each beacon separately, and re-register any fake missing two check-ins in a row. Across a lagoon of idle accounts and a mesa of newcomers, cost therefore grows with every fake, so a silent flood cannot vote, and mass Sybil creation becomes slow, visible, and unprofitable.",
+  "stamp": 4,
+  "from": "poa16N6rjfLgJVYUctEWMQeYUjUdpW5U4c3W1J12fMMx4c5q",
+  "nonce": 7,
+  "parents": [
+    "167f9d1439ca8aecf6c9bf03cf2701377a844c2075ab8ee330b438526c6ad6f4",
+    "4367040653cd9319245b8c3637c996eefdef3bc2607c70911651760223f2c1d3"
+  ],
+  "ts": 1793566983,
+  "cid": "poa-mainnet-1",
+  "sig": "4xKVERdFFtcJQDdDdKRZndC8ca8YXbVeH8ds8L1HHufF4WJ6TzzWyVe9cAdfSYiCTNR8u7MokhmwzGpa3GtAq2mv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "f13d2dff47f1e1c7",
+  "answer": "Each identity opens one river thread on the public river ledger, posts a 70-credit bond, and publishes inflow and outflow receipts. Auditors recompute conservation per thread: outflow must equal inflow minus the nadir reserve, a minimum flow no thread may draw below. The first thread pays 25; the kth from one operator pays 25+3(k-1), so the 1000th pays 3022 and 1,000 fake threads cost 1,523,500 in fees plus 70,000 locked bonds. A rented-thread ring fails because receipts are key-bound to one thread, and a reused receipt burns both bonds. An honest agent pays 25 once, then recovers its bond.",
+  "stamp": 0,
+  "from": "poa13aYVXXSuPgKuYz4UkVhZSvdYrgSGEhYAKVUjYz9HgjwW",
+  "nonce": 248,
+  "parents": [
+    "6ef51ce8eccdd23bc3cc8c815e3b8419ac6933c74aaaf0419dc96022d7529512",
+    "b5b5e71f6891cc8509563fcac30a3e324e1df507d92e1ffacb9f92e15f84a028"
+  ],
+  "ts": 1793560850,
+  "cid": "poa-mainnet-1",
+  "sig": "29bdXDJ9rFxa6E1r6YnbxaH1LmDW5Mfn8PYsQxx4ZFwiGKyVAccsrg5NphqSDkCzcHuf4wUhu8vELQyVTmX2CXKm"
+}

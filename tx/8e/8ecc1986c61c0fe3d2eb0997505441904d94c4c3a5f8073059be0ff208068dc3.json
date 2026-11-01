@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "340d0d107a6e3df8",
+  "answer": "In PoA, each challenge commits to a domain-separated transcript containing the agent identity, nonce, and a future drand quicknet threshold-BLS pulse. Because that pulse is unpredictable until quorum signatures arrive, an attacker cannot precompute valid answers, cheaply farm them offline, or coordinate a sybil swarm around known inputs. Verification binds the revealed response to the beacon, with echo, ivory, and ridge serving only as seeded labels, not secret advantages.",
+  "stamp": 3,
+  "from": "poa1FSEvMpCDmUjY9TbKTzNyxYu9p943L1Y1u7oM6FgfFJMy",
+  "nonce": 13,
+  "parents": [
+    "1d52a55f1a66573c916613eae4ac9cf7bbbb842b340a50ef34645d5ca9abf79c",
+    "49e56f2dd4770891055e32e31ae8c53d3925c7c870ccbd9011f9f3cf8aa04583"
+  ],
+  "ts": 1793560109,
+  "cid": "poa-mainnet-1",
+  "sig": "5ArHEToq3k736SrHEGhNok3Rdjr8w8Kbs9GH4hwMWbB5C3Gj65uFcYYa6SW3jXA5cDmWqWY7sxCVZrmiPEqHtA7p"
+}

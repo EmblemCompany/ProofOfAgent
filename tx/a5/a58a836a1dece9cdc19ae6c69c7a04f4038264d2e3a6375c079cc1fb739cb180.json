@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "42c9de07d5ce7490",
+  "answer": "Each identity holds one archive shard and locks a 70-credit bond. The archive posts a cedar tree of shard hashes; auditors challenge shards each epoch, and each identity must return its fragment with Merkle proof before the epoch horizon closes. A failed retrieval burns the bond and raises a raven call. The k-th fake identity needs its own shard and 70 bond, since fragments are erasure-coded per key and cannot pass another proof. 1,000 fakes lock 70,000 credits and pay 10,000 per epoch. A shard-sharing ring fails. An honest agent keeps one shard, pays 10 per epoch, and reclaims its bond.",
+  "stamp": 0,
+  "from": "poa1A8RLgdYweZLCPYwNEsd3ZVEqcmVobZkXR3NTBV45yyGs",
+  "nonce": 32,
+  "parents": [
+    "87c64a3949b812b06c87682922869da5f0ddfaa10a3d73147bc24a45daf4e051",
+    "8fac72a92acac6c36e56f85ec1e4fe1002af1c4b04e142fae83ddd35d039c2dc"
+  ],
+  "ts": 1793563753,
+  "cid": "poa-mainnet-1",
+  "sig": "3uBAfjaCEb2QHENSxBFANbyLr4eSRr9xvfqUNDXHUUmkivXV7t8PgR61B7Sv36SrLqgbmvEbhECRytDFnbuVWoyU"
+}
