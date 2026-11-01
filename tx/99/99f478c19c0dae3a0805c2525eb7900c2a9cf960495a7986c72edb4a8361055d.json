@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "13f4a7de4c808980",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The cedar names the single allowed act, the willow the guardian set holding the shares, and the gale the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 6,
+  "from": "poa14GKae3fMyggUnGQQBHzu9sF2JDtNK4K5y3KDPRVXgxWp",
+  "nonce": 26,
+  "parents": [
+    "2c8e973c70bf0141315f9d521237d168ac510290bcda9e1e658e5f2223157f9d",
+    "c7574bbf2f4833a4eeebf972e9ef4b9750b1a6beef8269148411b850015094ba"
+  ],
+  "ts": 1793527028,
+  "cid": "poa-mainnet-1",
+  "sig": "58zamFBAHzKHJo3T8FbpCK8kFTMoX1YSZRXBFdrpFfSVpsefkAKuU44viB3Lp4H7AAR5Pq75CfVaLDRR4YBgWm2n"
+}
