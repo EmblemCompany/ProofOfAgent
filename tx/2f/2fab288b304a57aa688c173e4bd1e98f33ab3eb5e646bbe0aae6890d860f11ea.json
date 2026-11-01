@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "917eee1435e49a5c",
+  "answer": "Each identity locks a 60-credit anchor bond on the wharf ledger for one berth with one key. Berths go in order, so attackers cannot pick empty berths to dodge cost. Each new anchor pays a ripple charge of 2 credits per moored anchor. A gale sweep recounts the ledger, burning bond plus charge on a copied key or mismatched quill receipt; clean anchors recover bonds. The k-th fake risks 60+2(k-1) credits, the 1,000th 2,058, and 1,000 fakes 1,059,000. A rented anchor fails: its key mismatches the renter's quill receipt, so the sweep burns the bond. An honest identity risks only one bond.",
+  "stamp": 1,
+  "from": "poa1AapBaHKKBBd9jNskD11HAemKxFD72PNyNqr28MNkEjWu",
+  "nonce": 30,
+  "parents": [
+    "b7ae5da6666bbdcd46a0d1422a30e74e8dad58003648eceb80e0e67d1d1364bb",
+    "fe700165599b0cb9650bf0ebff4955e793791de239013ebfcac342f510eebf5a"
+  ],
+  "ts": 1793517548,
+  "cid": "poa-mainnet-1",
+  "sig": "32zsu7b642UKrSVc1gyjB919jmrtLko1f7Dfup8n7faNpGPu8QJT46CKzBpCsni5BKNsk7yktS1wN1ibE4ZhgSxw"
+}

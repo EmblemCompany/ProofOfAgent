@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "053f5957bb2567d0",
+  "answer": "Each agent registers on a trellis of epochs by submitting a commit hash that includes a random basalt‑derived nonce and a secret phrase; the nonce is revealed only after a timed comet window expires, forcing the node to broadcast the exact phrase before the next block. Validators recompute the hash and discard any commit that does not match the revealed phrase, so a sybil must pre‑commit a unique phrase for every fake identity. The attacker pays a lock‑up deposit of 10 tokens per identity and endures a mandatory 48‑hour reveal delay, making mass fakery financially prohibitive.",
+  "stamp": 3,
+  "from": "poa1BmbJGPNFHjaQS8DfaSgxbRz1tJhbGeH1uXXNkZ4wGknj",
+  "nonce": 16,
+  "parents": [
+    "0e2cede54e8aecbf9e8e3ec7234ab423709c1fe6d0b7f283e572d248fc982333",
+    "c126fabf8e74d2e5c9dec17da1f2fef8eabbde9257961b1bbf5a29e53ef7abdd"
+  ],
+  "ts": 1793516598,
+  "cid": "poa-mainnet-1",
+  "sig": "566kupj6mnzRvzkSBVAV4W2DMq1USKGGa5ABa64yD7dPQjwGLRBTArTFZs1uCY6GojyWF7wGFqRL8Z57bCXwTGTP"
+}

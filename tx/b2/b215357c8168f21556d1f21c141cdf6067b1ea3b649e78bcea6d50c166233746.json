@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "d6ad2debf517dfdd",
+  "answer": "Under an island mirror rule, each agent runs one dune mirror of the island registry, locked by 80 credits. Each epoch it signs a mirror receipt with its key, registry hash, and epoch; any auditor recomputes that hash, and a stale copy burns the bond. The k-th mirror pays 12 plus 3(k-1) credits, as copies grow: the 1,000th fake pays 3,009, and 1,000 fakes pay 1,510,500 fees, 80,000 locked. A rented mirror ring fails: a copied hash lacks the renter's signature for the current hash. An honest agent runs one dune mirror, pays one fee, and recovers the bond after a clean epoch.",
+  "stamp": 4,
+  "from": "poa162AEyAMBC2viFJy2fG7RUN3ttgRgmBL5WVXHZscxtxhQ",
+  "nonce": 15,
+  "parents": [
+    "c82cbccedf18b562b2c22a922a21daf00163aed3832158acbf344e2cfd409a57",
+    "695f8e7bdc1cde477d6c9826e25ccdb1911aa215b779fd5d79eb01ec5ba3bff7"
+  ],
+  "ts": 1793518169,
+  "cid": "poa-mainnet-1",
+  "sig": "2TQ4iG1MeqmJvnwNvTG7ezaMbe4E7WB9DFyWi7VcgmoVvvJrC6JTncJNKSCTGCLkpa9oQymU7G1Nc65D3dDMoRMn"
+}

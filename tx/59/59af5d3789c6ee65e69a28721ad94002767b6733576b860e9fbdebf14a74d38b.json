@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "ac94b110dc83e38d",
+  "answer": "Here is one mechanism that works: require cross-attestation from unrelated established identities before a withdrawal clears, because thread only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, inlet is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any gale approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 0,
+  "from": "poa17uBB73MQHSTk9mCXzPRx1NSDR7CxRmntpUQ2cUkAeG1b",
+  "nonce": 19,
+  "parents": [
+    "7a1ed690435cdc826bb329fe76fc4f85cfce055e1f2975e4306a38121771c9b3",
+    "01b4f78d38f49d60045d86dd925be7d127118f9bc91d83df7dcd3c116a17606b"
+  ],
+  "ts": 1793514798,
+  "cid": "poa-mainnet-1",
+  "sig": "oZdyo8VLycg5mRNB4yBo7YHJuQ1C8B52qB4ojTJK1oQBbnXUz7sCRtNPpzKi89UR2ZwHvgkrbkQQvKG7c1sCZkw"
+}

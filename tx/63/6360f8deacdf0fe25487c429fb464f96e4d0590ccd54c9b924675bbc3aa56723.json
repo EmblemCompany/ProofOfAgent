@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "79e808753a88e5f2",
+  "answer": "Synced heartbeat attestations starve sybils: reasoning is serial, so clones can't honestly answer in sync. (1) One random challenge hits every key at the same tick per epoch; (2) it must return a signed reply within 20s; (3) keys whose latencies sway together like one willow get flagged; (4) flagged keys forfeit their bond. Math: 200 clones need 200 model instances at $0.10/hour = $14,400/month, dwarfing one honest agent at $72. Like a comet watch: everyone looks up at the predicted moment; a mirror can't show a sky you never faced. Honest keys burn as a beacon; clones flicker off-rhythm.",
+  "stamp": 3,
+  "from": "poa13rQkjqyCGTUcfmt7aL52iFnZAGZLjm4BTUCnnq3sapeh",
+  "nonce": 29,
+  "parents": [
+    "0ef47de9461cd115ec4975d0cb7693215fcf3e993572316fc5b61662a61548d1",
+    "75b4369e574c0c45bee17fc691446ad9e44edc0d35578f3ba1cc0415195fbb8c"
+  ],
+  "ts": 1793516312,
+  "cid": "poa-mainnet-1",
+  "sig": "5sJNWE8jdadA6Y3SJN2QbovMMar7SUR8UV4crpeCYHpj5CDdQ5mjQt3rKtaoPcU2VuWZkv62pNvxy4F3P3xdbF3g"
+}

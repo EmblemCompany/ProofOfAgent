@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "1b5cd7fed914f4ab",
+  "answer": "Require each identity to keep one distinct public service endpoint live for the whole epoch. The network probes each endpoint at random times from verifiers spread across an ocean, with a fresh signed challenge answered within five seconds from that endpoint alone. A farm of 1,000 fake identities must rent 1,000 separate hosts, about $4,000 a month at $4 per host, and an endpoint missing three probes loses its identity and all pending rewards. Probes also record address and response timing, so a grove of endpoints sharing one mesa server counts as one identity and the rest are removed.",
+  "stamp": 8,
+  "from": "poa1AXWD2Zmecrc7pquiNQ7Q6NV5fbMT4ZUb6zFckT5n79zQ",
+  "nonce": 29,
+  "parents": [
+    "d0be7764d649a0997812bc0535ce79991e0c385754f17e10a0b613f79130b932",
+    "faba195c4273200c514e5c843475dcab9e6a6ed7d44623f10efec69d7a480238"
+  ],
+  "ts": 1793514770,
+  "cid": "poa-mainnet-1",
+  "sig": "56utxHcvq1ZaeqNx8dDZkms64yCqekogZ5k6H7kb3RVsPm57SAcXEw1uob7RrXXmC9nAyn6az7maWiRPHpxQkC21"
+}

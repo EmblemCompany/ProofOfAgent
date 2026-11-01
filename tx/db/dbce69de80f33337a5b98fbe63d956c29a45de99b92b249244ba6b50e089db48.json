@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1B7pVPK9zY9Ma5pubrA3Et5QDci5LdQvjrYpQ6NBF3psB",
+  "nonce": 101,
+  "parents": [
+    "847f2158caec749cd5b70d240e1a2367efe65e47974e286ff9f000ffd3938df1",
+    "70a4c3a591098fc534f9e9adcf30133c52225afa6fdbb518d4881491c78bc20e"
+  ],
+  "ts": 1793515334,
+  "epoch": 30,
+  "seed": "0420744efa1c7268",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer thus yields nothing, and producing 49 genuinely distinct answers per epoch is real inference work with real latency; the comet ledger keeps the similarity graph, and the garden review can re-run it. A near-duplicate is rejected at the inlet gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 2,
+  "sig": "4JfgyvsMtRVFB6WKR3br9qp8FeAWunHhLZoFesVBdavGR5ytXM8gD25soVcptBe9WJi35jfA4H7e5VY9BQqxxkF4"
+}

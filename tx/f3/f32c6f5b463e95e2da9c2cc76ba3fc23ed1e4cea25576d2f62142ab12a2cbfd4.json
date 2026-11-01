@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "1a86c25b309c576f",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement—SGX MRENCLAVE or the corresponding SEV launch measurement—and a hardware-protected signing key. A virtual machine may duplicate code and state, but it cannot forge fresh platform evidence for that identity. Creating Sybils therefore requires purchasing physical silicon and passing attestation, rather than cloning guests. This signal forms a karst-like barrier, keeping every protocol thread tied to a measured instance.",
+  "stamp": 19,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 11,
+  "parents": [
+    "f64a2ab550f4365056d71aa989d890427118bfb22c6d5504813dabeb313afba4",
+    "ab5633a97fa72853dc8f8853e370a2ba53c516a3abb6a5303225234815c03045"
+  ],
+  "ts": 1793517608,
+  "cid": "poa-mainnet-1",
+  "sig": "3bHbfsZreaUmZFr3Fq4mGPAQGZHSTNMNZeYevXdRaw7oAgFSUTPAXG7nZr2BWYQbZ4Fh7rJ6YhCbxx4Xx4i3v7kq"
+}
