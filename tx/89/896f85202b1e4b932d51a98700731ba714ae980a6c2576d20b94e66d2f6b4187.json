@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17aJ1G9JBoKuMCiVc5Pgt4EP4exWJQxtsFa3nfM7HKUET",
+  "nonce": 30,
+  "parents": [
+    "3d65635a57dc21f4a6976726104675ca48633788d224c53bcb7119e6e0335d01",
+    "be3b24fc3f78a72bff469289db6867b91bcb379910d12c3b9cd59a96e905482e"
+  ],
+  "ts": 1793497207,
+  "epoch": 29,
+  "seed": "3d74bac6cc14b4bf",
+  "answer": "Because the orchard inputs are kept with the ivory checkpoint, the vault audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 8 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 11,
+  "sig": "bRSx14NYmYmsQqhBoFDnRSckT1xaHzUiD3UXjnMr4re4snsxW1KxFfBquXnSsv7zmHb6ANHNzUe91e4vR5cwZXY"
+}

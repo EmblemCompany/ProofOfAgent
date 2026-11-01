@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "505ff6988fb5d838",
+  "answer": "Each epoch binds the miner to a memory-hard hash over a table seeded from the basalt challenge, and the table starts hollow until the miner fills every row with fresh entries. The delta between consecutive timestamps picks which rows must be recomputed, so replaying a cached answer fails the check. An attacker who wants to fake a round has to rebuild the full table for every epoch, paying the complete memory bandwidth cost each time, which makes spoofing slower and more expensive than honest mining.",
+  "stamp": 4,
+  "from": "poa1GvBGTUSKi8pR8hPceYvULCUgvpBKfBX4iDZ416y2vEQT",
+  "nonce": 13,
+  "parents": [
+    "f63da5de4d8e14c8e38a6948bec41cb0fbf8ed3274a47821317d9734f6ed51e7",
+    "8e0a53642a005a80d2f7560d7c3825e9b5f64ea9ac896d3d4ce879d1653f52e4"
+  ],
+  "ts": 1793501189,
+  "cid": "poa-mainnet-1",
+  "sig": "2YcchYeFvRqq4yoqR6DVhGnVeuCtW5gCM6x8GQz4N51UmVdVD7RucnYLMdFmgq9cQbx9kGEmJKnzPRTUiQLjhNqs"
+}

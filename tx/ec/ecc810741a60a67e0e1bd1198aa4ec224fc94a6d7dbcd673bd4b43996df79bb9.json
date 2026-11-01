@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa169MzxMeTSCM5gAYHNDD8DEynByYt5Jh9ip5vAsWjNdA3",
+  "nonce": 28,
+  "parents": [
+    "3d65635a57dc21f4a6976726104675ca48633788d224c53bcb7119e6e0335d01",
+    "be3b24fc3f78a72bff469289db6867b91bcb379910d12c3b9cd59a96e905482e"
+  ],
+  "ts": 1793497292,
+  "epoch": 29,
+  "seed": "4bd335e28727bf52",
+  "answer": "Because the glacier ledger tracks the vesting curve, the lagoon audit publishes how much each key actually received. Running aliases in rotation hence never collects the full amount on any of them, because each one needs to survive the whole lantern schedule. Rewards vest linearly over 2 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 3,
+  "sig": "U1rGJaLDPfikASiUbH46YPCwFiM8pVK1nNWXTfEvf8J1JjWB2hdtBt8Sr5dpNxHVDvmCGe53wng2tmGT4qaKca2"
+}

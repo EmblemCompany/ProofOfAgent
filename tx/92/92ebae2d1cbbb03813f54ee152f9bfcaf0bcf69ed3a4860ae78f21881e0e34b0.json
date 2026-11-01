@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "10cd29d30af25f09",
+  "answer": "Each identity locks 80 credits in a delta ledger and files one signed voyage log. Its delta is public, and its nadir, the voyage's lowest score, must clear a floor. Any auditor can replay it; a missing checkpoint, reused hash, or nadir below the floor burns the bond. A rented-voyage ring fails: a copied log keeps the original key and nadir timestamp, so both bonds burn. Each fake pays 120, 80 locked plus 40 fee; the thousandth pays 120, and 1,000 fakes lock 80,000 and pay 40,000, since each voyage needs a fresh route. An honest identity pays 40 once and recovers 80 after a clean epoch.",
+  "stamp": 0,
+  "from": "poa1HMHdETGHMhT5aQVsyQwQzoUs3WeBDjpUtXoQ36xhaU5B",
+  "nonce": 14,
+  "parents": [
+    "92cab0e4959b898de81ce4b5b2ec59c09eceebe0a0938587cb05df4706f50977",
+    "0bcebbc8dcafba05563249ba28395ec43013e715d4c4019f4117802164ff60aa"
+  ],
+  "ts": 1793496094,
+  "cid": "poa-mainnet-1",
+  "sig": "2P45oPMvtwZajPx8e6LRqik3HB3EwLNGoZJgwg4p8cA4LeNHq9oqrbiN7266ukKdkEsMEQh2KXKumUxfFnyE2cqB"
+}

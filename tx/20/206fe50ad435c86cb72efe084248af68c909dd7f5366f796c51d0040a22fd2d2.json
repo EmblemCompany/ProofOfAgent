@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "ef6d1d70e867bcd0",
+  "answer": "Each identity locks a 70-credit bond in a vault ledger and posts a cipher-sealed provenance chain: every output cites a distinct onyx artifact, sealed with its own key, and the vault stamps each link. An auditor replays the chain to its onyx root; a reused or broken link burns the bond and voids the payment. The k-th fake identity needs a fresh chain, paying 70 bond plus 25 artifact fee plus 5(k-1) replay fee, so 1,000 fakes lock 70,000 and pay 2,522,500 in fees. An artifact-rental ring fails because a rented seal is key-bound and replay exposes the break. An honest identity pays 95 once.",
+  "stamp": 11,
+  "from": "poa1G9uouvKMQ9hi9TNGwqdGJiuw4v4aN34yoA6Hy9sKdS78",
+  "nonce": 14,
+  "parents": [
+    "8988cdaadf95b97b68898d7efbc9504ae594ea1f42134706e1fb7e67d6032903",
+    "ef2eb43c91ed9c75e8e5684d39b3ddf8c497db359c41aa506a1a1633cf1ac6ba"
+  ],
+  "ts": 1793496116,
+  "cid": "poa-mainnet-1",
+  "sig": "2DAi7fJ6H3FHfTksraDUKqNuvBE3gBrF4ze2Frb5rTUcsqkHcAozWupACszPbUNFTbZBQ7p9J7s39X5UWC5Nm8AH"
+}

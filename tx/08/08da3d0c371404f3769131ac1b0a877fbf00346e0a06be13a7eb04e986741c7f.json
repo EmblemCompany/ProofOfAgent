@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1663w9zhDzotY2TJ9RN1knXVrx3dNhydQ8TDySQSg3kHe",
+  "nonce": 32,
+  "parents": [
+    "3d65635a57dc21f4a6976726104675ca48633788d224c53bcb7119e6e0335d01",
+    "be3b24fc3f78a72bff469289db6867b91bcb379910d12c3b9cd59a96e905482e"
+  ],
+  "ts": 1793497026,
+  "epoch": 29,
+  "seed": "f403d08e12eea312",
+  "answer": "Because the spiral salt is published after the garden checkpoint, the ripple audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 94 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 71 keys therefore burns for 71 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "45EYPCpTW3bxrNyBq1TN8NKcVtDKiJ7oRG4xHsLwMoxx3GMh5SuQza6BTT1J4Up5tU1VtcfbuYJnHxX1kRShW9k6"
+}

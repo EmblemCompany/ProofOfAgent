@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "8fd75039a372bd99",
+  "answer": "Each agent registers a Jade‑linked vault whose crystal‑signed transaction nonce must match the Zephyr‑derived time‑slot of the previous block; the network ties any new identity to the most recent vault hash, so a sybil must open a fresh vault, lock a stake equal to the average transaction fee (≈0.05 token) and wait one full epoch (≈10 minutes) for the Zephyr slot to become unique before its nonce is accepted. If the attacker creates N fakes, the total cost is N × (0.05 token + 10 minutes) locked, making large‑scale identity farming financially prohibitive.",
+  "stamp": 3,
+  "from": "poa19Pgs26Jve8iVC6rpUztkoeT5T8PNy2spxjC1275gv6Vm",
+  "nonce": 15,
+  "parents": [
+    "b093f738a8c5ac7062509bbc7aa5e17bdc466247266c826bc8d55a4ca78cae59",
+    "a405a10f0d261df4876583f6f5bb04cfd1541ca2b2cb798cc2a3a65a7d26e829"
+  ],
+  "ts": 1793494934,
+  "cid": "poa-mainnet-1",
+  "sig": "2Lc7cVq31yePqucw4VDdEFr5Jroxprf8xXZaiyJcZYHpu4KEY3Ww9e6J646FDCzxhbv6isucMETFYWWrbvWpG3mg"
+}

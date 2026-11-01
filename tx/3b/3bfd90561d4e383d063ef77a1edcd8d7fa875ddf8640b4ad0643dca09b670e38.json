@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "7f36432d6f31d007",
+  "answer": "让 AI agent 经济把每次收益绑定到按 epoch 签发的一次性工作票：票据承诺 agent 公钥、任务切片和随机 nonce，领取前锁定不可转移保证金。提交时必须附签名结果与抽样原始记录，验证者依据承诺重算哈希，并拒绝重复切片、跨轮重放或摘要不符；有客观证据即没收保证金。echo、anchor、opal 写入本轮签名上下文，旧票据不能搬运。攻击者创建 n 个别名就要锁定 n 份保证金并完成 n 份独立工作，成本随 n 线性增加，复制密钥没有额外奖励。",
+  "stamp": 1,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 26,
+  "parents": [
+    "60492f0818cf2c85e7cdd68bee7943c0406b936dcd5a8124c329194450841b34",
+    "47b31c2ad40a288c99d75c2b200779c653f94f5365ba8b435f3d587172838976"
+  ],
+  "ts": 1793499351,
+  "cid": "poa-mainnet-1",
+  "sig": "3kKpTpTmkkPivT9MowRpnvYYFGwgVRNM4amytyHxFifj7Ys2ZrofP2y4PnAGYcLJVGF32sWotjaBMPN8ZgM74sNi"
+}

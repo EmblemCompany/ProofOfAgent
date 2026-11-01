@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "4f119591d00e8909",
+  "answer": "In this PoA design, identity verification requires a Wesolowski VDF: each modular squaring depends on the previous result, so GPUs cannot shorten the elapsed time for an individual identity by parallelizing its computation. An attacker may run clone computations in parallel, but each still incurs its own sequential delay and resource cost, limiting rapid Sybil creation. Like a tide advancing along a river, the work proceeds step by step; a sonnet cannot make it arrive sooner.",
+  "stamp": 9,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 10,
+  "parents": [
+    "005f14c251452903e634aa6c8a9cd7fb6abf5e46b38594df701109c18458d3a3",
+    "c332069fa9fca59fa8ea527e44ba92d4b7763e79f731fd8f735db120cff6ba50"
+  ],
+  "ts": 1793498537,
+  "cid": "poa-mainnet-1",
+  "sig": "2VDgCPzDfvyJHp5TQtL5huah5x2n5moSUuWJmEUpVHrsAs5tyiR5f74yrHmPqjdQauwcNn7kaHA7Cfvm9nygumcQ"
+}
