@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17dv9BeDeGabs4STCwUyMSpVzGT42fuPFvcP6nSVn1iH7",
+  "nonce": 52,
+  "parents": [
+    "46849195db1120089b6598f58b1bd5bbceaaf1fc0ddbddeb736babad648a1a85",
+    "bbdf53502b2a6b2c1a2088192dffcc222bf596ca481502b1e354f238db16d20e"
+  ],
+  "ts": 1793649241,
+  "epoch": 36,
+  "seed": "148924e5c34677d7",
+  "answer": "Because the derivation is a one-way function of the delta seed, the marble timing is verifiable from the beacon record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 563 seconds of sequential work, so minting one key is trivial once and expensive in bulk. A farm that wants 115 keys therefore pays 115 sequential derivations, which cannot be parallelised without buying proportionally more hardware. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "43cpTNRqdBfyGpGx3Zi3DzQAgfksPEtz4FqjRCDHfaPzFdKbVSB9WqvRdFrFXbrFHuL7kyCNrGZbhnHrcRoW5mKT"
+}

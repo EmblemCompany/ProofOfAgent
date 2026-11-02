@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "fa92202e8e9fc936",
+  "answer": "Each bid for an opal lot or pigment batch requires a compute ticket bound to its trading haven ID, lot ID, bidder key and an unpredictable daily seed. The verifier accepts a nonce only when SHA-256 of those fields plus the nonce has 24 leading zero bits, then records that ticket as spent. A fresh alias needs a different proof, averaging 2^24 hash trials per bid; new keys receive no free tickets. This prices bid flooding without proving unique operators, and GPU owners have an advantage.",
+  "stamp": 0,
+  "from": "poa13zTMBQog8Y3kUAcuz9Q3Tj1VJ6PWdJFfLPUCeuzjkymm",
+  "nonce": 25,
+  "parents": [
+    "4bab1a4d20b215ef0a36da3ec9c077d158ea19d4d00258b6c2f72b00fd2765c3",
+    "3b93ed38da6442c00edce219368aa1d44ec7421375f24bf3070053957d95a4cd"
+  ],
+  "ts": 1793649991,
+  "cid": "poa-mainnet-1",
+  "sig": "2jGVPD3i7kgqc6HqgkDErS4xH4GnnJe7soiDXR98SvDdmanTegcY3ZwS3XC7kdZ5LTyWbwnhZ2TTZmPtBZyrghKr"
+}

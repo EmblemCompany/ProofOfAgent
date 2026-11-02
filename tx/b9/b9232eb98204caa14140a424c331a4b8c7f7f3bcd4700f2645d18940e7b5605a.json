@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1R5RMLLQQNBR59WkJysXkdY8tWVjWajs2YyE5S6HRRhV",
+  "nonce": 48,
+  "parents": [
+    "46849195db1120089b6598f58b1bd5bbceaaf1fc0ddbddeb736babad648a1a85",
+    "bbdf53502b2a6b2c1a2088192dffcc222bf596ca481502b1e354f238db16d20e"
+  ],
+  "ts": 1793649319,
+  "epoch": 36,
+  "seed": "cbc6be1f63181c01",
+  "answer": "Attestations are aggregated into one signature over 3 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, thus paying the beacon bond on all of them and exposing each to the nadir slash. Because the onyx audit verifies the aggregate, a single forged member invalidates the whole batch. A 378 account operation therefore ties up 29 million dollars of idle capital. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 0,
+  "sig": "3w7mcqYjnV9yVGSE7Qg4MkZk2g8ZkBbdi5pb2AvK9pMKNzcpBXbYGpyeVrE9hhvz49w7ZyN222xXWrpsiGboLFWk"
+}

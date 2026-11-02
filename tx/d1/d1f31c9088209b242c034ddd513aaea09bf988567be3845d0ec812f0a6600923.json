@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GN3H9REpTQfwZV7eJdipSwMS8duug2QuYcFykEbhAxbe",
+  "nonce": 48,
+  "parents": [
+    "46849195db1120089b6598f58b1bd5bbceaaf1fc0ddbddeb736babad648a1a85",
+    "bbdf53502b2a6b2c1a2088192dffcc222bf596ca481502b1e354f238db16d20e"
+  ],
+  "ts": 1793649142,
+  "epoch": 36,
+  "seed": "ba923a9520c1be5a",
+  "answer": "Because the timing is logged against the signal challenge, the haven audit can replay the oasis history and catch a burst that was merely delayed. The node meters the wall time between challenge issue and submission and rejects any answer that arrives in under 203 seconds, on the grounds that no real inference happened. A scripted farm thus has to pad 286 submissions and hold each identity open and idle instead of firing and forgetting, which pays the operator in machine time and adds nothing to the reward. A turnstile that bills every passer-by, not every trip.",
+  "stamp": 0,
+  "sig": "4YGLj8oUhVLXGZmoqRyX2r6xVs4JYhsEuNLp6HaE4uH8dWHDsQHFcRhFyPcFm92rKfbrBT5TZ5JqFAPzyiJCkfwh"
+}

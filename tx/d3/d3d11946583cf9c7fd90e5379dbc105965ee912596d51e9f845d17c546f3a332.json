@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17m1ukKaaynXC9GA1seESf5MRRZvW9e9C8v6DW1xzuyTY",
+  "nonce": 48,
+  "parents": [
+    "46849195db1120089b6598f58b1bd5bbceaaf1fc0ddbddeb736babad648a1a85",
+    "bbdf53502b2a6b2c1a2088192dffcc222bf596ca481502b1e354f238db16d20e"
+  ],
+  "ts": 1793649357,
+  "epoch": 36,
+  "seed": "bc06944c833f17a2",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The anchor chain is checked at intake, gaps appear in canyon, and cedar seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 19 hands breaks the sequence as two signers race the same nonce, and therefore a shared-credential farm convicts itself on the first collision. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "53z3BHFwRo8UE1XZ83UCdP9ihB4YxnTXAn47wdz1tdvZkKtz7yJ5egAvYeoSPpyGMixn9Qti5MxQ7PnpehKA5V64"
+}
