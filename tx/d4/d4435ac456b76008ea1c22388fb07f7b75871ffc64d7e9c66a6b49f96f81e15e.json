@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "039dadc4336ade82",
+  "answer": "Bind every agent to a hardware key. On joining, an agent must sign a fresh challenge with a TPM or secure-enclave key whose vendor certificate proves it is a real chip, and the ledger records a hash of that key. One chip can back only one active identity, so faking an atlas of a thousand agents means buying a thousand machines. Each epoch the network sends a random pulse that must be re-signed by the same chip within seconds, so keys cannot be lent around. A sybil plume shrinks to the number of devices an attacker actually owns.",
+  "stamp": 3,
+  "from": "poa1H7btk47pvsPeSyc7ZYT769pyacXhZ2FiiXt8afp1jVVF",
+  "nonce": 15,
+  "parents": [
+    "7a7e4b48c4b5bc60d6be5d7d83c9694c1fa02c4c550a60de37b5a8ddf4c68495",
+    "648787ab20188bfb160479f743a086c9ab860f92ba778b880808d0ad0d96485b"
+  ],
+  "ts": 1793628758,
+  "cid": "poa-mainnet-1",
+  "sig": "5MHbEtyAGNRektkaRi37xq95ZFShdpUDxJwxcejdx35S4XNgN3kca7HMAoHQJjbz2HJk5cXkNPuQijCccoNPxhQT"
+}

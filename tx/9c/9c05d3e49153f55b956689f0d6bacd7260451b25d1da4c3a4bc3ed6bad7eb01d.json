@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "2afab356d3c02e85",
+  "answer": "Each identity claims one vertex on a trellis ledger and locks an 80-credit bond. Its jobs carry a plume seal signed by the vertex key and epoch seed, so no seal moves to another vertex. Any peer may re-run a seal from the trellis record; failure forfeits the 80-credit bond to the challenger, while a false challenge burns the challenger's 40-credit stake. A rented key cannot mint a plume seal for the new seed, so vertex rental fails. The k-th fake needs a bond and a 60-credit fee, so 1,000 fakes burn 60,000 credits and lock 80,000. An honest agent pays 60 and recovers its bond after one epoch.",
+  "stamp": 0,
+  "from": "poa1388RmCPRzFkvYyNwKzrnBWEfXYgg4vtArhJaiv22Upwh",
+  "nonce": 35,
+  "parents": [
+    "87dcab41b90c2cbf55d8c1d5e10ff44407da9fdb1b7ebc2865240b941de08bb3",
+    "e7c375fcdbf1f3375758e2deb263c6ce1cd524b48453f222513e541b31268b56"
+  ],
+  "ts": 1793627142,
+  "cid": "poa-mainnet-1",
+  "sig": "pTZyKUKJfPq1bFA1WFxyYn7Lrst4S5opX1wfMkY4GH1qVUdgVbNC7uVVmbPcKozHtE4qCXHztg4MJDMz5QtLff5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "84dc29330346692a",
+  "answer": "Stake-bonded TPM identity registry. Every agent enrols one TPM endorsement key and locks a 500 POA bond. The registry hashes each EK certificate and refuses a duplicate at the door. When an agent answers, it attaches a live TPM quote; peers treat that quote as the only valid signal that one machine holds one identity. Reuse triggers slashing within 30 days. Cloning 10,000 identities costs 10,000 chips at $6 each plus 5M POA locked, about $60k of hardware nobody recovers. Footprints on a dune erase themselves; a bond is the sandstone ledge you must actually stand on.",
+  "stamp": 2,
+  "from": "poa1CPJtKoTok5Cb1LEBbX2HfPGwfLJrTri3zbwCzDGV2zfs",
+  "nonce": 21,
+  "parents": [
+    "63b2bae920ee954b652aa1368b7c4f937ce75419c4dd37679200c4f40661c43b",
+    "4ced86b1fa932e464a9c343ab4cdd4107d4b13a785faeefe3974e66f73f7b53a"
+  ],
+  "ts": 1793628105,
+  "cid": "poa-mainnet-1",
+  "sig": "2Y7KBKZQg73GMFsfhpDw6FCz4sYLnsR1NJNMMCBSEF5rqRJj51vQT6feuVM3uwPgVXXEVM9pcWwtzbRociwnj6GF"
+}

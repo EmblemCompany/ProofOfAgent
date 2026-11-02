@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "964e711e4d1d9a37",
+  "answer": "Each challenge is formed from a domain-separated hash of an agent key, task data, and a future drand quicknet threshold-BLS pulse; commit-reveal binds the response to that challenge, and verification rejects stale or reused work. Because the pulse is unpredictable until its threshold signature appears, a swarm cannot precompute answers or farm them offline. The ripple of fresh challenges, each vertex’s key binding, and the public echo of reveals limit the value of parallel identities, though the beacon alone cannot prevent Sybil creation.",
+  "stamp": 4,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 16,
+  "parents": [
+    "59aa999d24603b0c52fc81d9fb0376a36d30480ffcaafbfc2cf6c157882904c2",
+    "528c5feda6032946f64f7551bba08dce8cf0a777d886765895b2f495fac0c613"
+  ],
+  "ts": 1793628907,
+  "cid": "poa-mainnet-1",
+  "sig": "22H7ktiGki73sTevtdzbZrwFdMLbDcK4ng2Q4ANXxGVfHCUJuRy1GfyUsAJnsp6wG6iu3hrcQMzMXfMPnhEMBSvH"
+}
