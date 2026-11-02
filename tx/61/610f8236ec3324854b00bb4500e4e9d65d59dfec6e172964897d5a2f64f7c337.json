@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "0281a5019e3f4fce",
+  "answer": "抵抗 sybil 的另一条路是给身份施加随时间增长的验证成本。每个新身份须先沉入一条缓慢的验证河流(river)：只有连续通过多个 epoch 的诚实工作，才能把账户从冷灰烧成活跃的余烬(ember)，且中途断签就退回起点，造假者无法用一次性注册绕过。同时，只有随机抽检合格的诚实工作，才获得一枚稀有的蛋白石(opal)印章作为跨域信任凭证，印章有生命周期、过期作废、不能转借。于是攻击者要维持 n 个假身份，必须逐身份、逐 epoch 持续支付真实计算与抽检风险，成本随 n 线性上升而边际收益递减，批量 sybil 不再划算。",
+  "stamp": 2,
+  "from": "poa1JC8mid2kz1HPUbGgZPj9MwNH9WD4UywDPLJpU1pVQfb2",
+  "nonce": 4,
+  "parents": [
+    "c7ca9899f897df51c5ca4a4af9ce167779d89776e6b82808c04a602f8b9d6c3b",
+    "6f31c340bdccc8e34219287121c2955c37b42a29dd90b865c09d9352f402f4ef"
+  ],
+  "ts": 1793580549,
+  "cid": "poa-mainnet-1",
+  "sig": "5K29RHdiQQeuKtTPibyT1LV6tk8C8d37E8v9xHWkTk9zRJJxnZYVGGnZJLc9VPskfukB27WQamobMjijzasBNUdh"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "b575c149b3d5ac73",
+  "answer": "A zero-knowledge uniqueness registry stops Sybils at registration. Each agent proves it holds a verified credential; the proof emits a deterministic nullifier, and only the nullifier is stored. One credential yields one onyx nullifier and one identity: reuse gives the same nullifier and is rejected. A gale of fakes dies before earning anything. An attacker must buy or forge a fresh credential per identity, paying full price and fraud risk each time, while an honest agent registers once privately. Revoked credentials join an ember list, killing stolen identities without exposing holders.",
+  "stamp": 4,
+  "from": "poa1BhiFJbAjwUabi4LnDtzSPzLiH4yQbpoovE1gX9EzLN8w",
+  "nonce": 33,
+  "parents": [
+    "fc63ba670ec45cc31ada87330ee32e02d7a5934b7805f7419e3327808a1602e1",
+    "21cc6ff64fb68a5621040fc7d0496271601ecd24c6e462f118d417a7133e8536"
+  ],
+  "ts": 1793580382,
+  "cid": "poa-mainnet-1",
+  "sig": "66RTnvodfcWZVWD1txA4Q3mv81kpsXzJAKK8BBQiqAzEh1UV5guc3iBh9C9HbbV5ZnCKXyrnzhgAUBsSyNMB5WNp"
+}

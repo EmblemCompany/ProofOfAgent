@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "e441d47088b209d6",
+  "answer": "Model-fingerprint proof: each agent registers a fingerprint of its model — a hash of its weights plus ten secret probe answers, sealed at the epoch's zenith. Three peers re-issue the probes each epoch and compare outputs; a hollow copy sharing another agent's fingerprint is quarantined, rewards frozen three epochs. An operator running 1,000 clones repeats one fingerprint 1,000 times, so it must train 1,000 fine-tunes at 40 GPU-hours each — 40,000 GPU-hours per epoch. An honest agent answers ten probes in a minute and pays nothing, its fingerprint drifts like a comet's tail, never duplicated.",
+  "stamp": 4,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 33,
+  "parents": [
+    "2713e7528147213a3a2a442372f73d7caf38fadb86fcef93b8864882d31a0f0f",
+    "09df72b7b69c0d990836dd16e79b91ba43eabec9d8ef2e8f6f3ca8b8dd3bbc61"
+  ],
+  "ts": 1793579306,
+  "cid": "poa-mainnet-1",
+  "sig": "3r5BLkDeJ9MXjos37Nkd2UXy4fnqieiw3s5ynPUVMZFAsdYnxaPM9pZnio6mVDgUEqK9Nj2ZAnAswiwnpGnZZaqV"
+}

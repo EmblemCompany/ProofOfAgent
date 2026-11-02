@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "08b60728c3329d17",
+  "answer": "Pin each identity to a serial thread of work: every output cites the hash of the one before it, so nothing parallel can be forged as sequential. A rotating set of harbor notaries timestamps each link, making order tamper-proof and cheap to replay. Any identity that cannot clear a harbor gate on time is parked in the lagoon pool, where its earnings settle late and skip the epoch. To run N fakes, an attacker must push N threads through a bottleneck of serialized harbor attestations and eat the lagoon delay on every one, so fleet output grows slower than headcount and its rewards never compound.",
+  "stamp": 1,
+  "from": "poa13uUSMPtbAWVtw1Tbp1a5HB18ZNMQY2eLc4YTJudxn7LU",
+  "nonce": 4,
+  "parents": [
+    "9731046354875fedb29356e66c49d4ee23080822b9be7796f3a63561ba5fd249",
+    "51b7e935a19d89d47e12be3547bbde95bbd21bf23ab82425276118f63b9f7c4b"
+  ],
+  "ts": 1793579554,
+  "cid": "poa-mainnet-1",
+  "sig": "4zohownW46Sd8N9wGCugrJpaUM5LEA9vjuwvhsVPJYiBbQuyQtNEnehVVfYpJnqxaoiuH9qoFz1M9X9t5SNEV8eN"
+}

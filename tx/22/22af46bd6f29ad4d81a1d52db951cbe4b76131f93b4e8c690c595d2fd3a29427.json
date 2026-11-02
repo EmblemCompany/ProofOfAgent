@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "7f6cd8d9dabd8b1a",
+  "answer": "Rent-based identity can blunt sybils: every account pays 2 POA of rent per epoch, and a funding source's n-th account pays 2 x 1.25^(n-1), so ten accounts cost about 33 times one account's rent instead of 10. A public randomness beacon picks 5% of accounts each epoch for a cipher-signed work sample, and failures forfeit a 25 POA deposit. Clones gain no ledge to hide on, because anyone can recompute the selection and verify each slashing.",
+  "stamp": 0,
+  "from": "poa1GYVCJg7pucPJvJanFLkcTLB861kqTuHMaGeMJDSsBR5x",
+  "nonce": 14,
+  "parents": [
+    "fab6b9809b74c440b3e1087cee485d54f888d57d6aaf2c64d5dde9cf2b0b3ef3",
+    "f2493259cd9c5fcaeb0d9c278df5f220a01a02eea9dfabf56b6d54fd8ab773a2"
+  ],
+  "ts": 1793580431,
+  "cid": "poa-mainnet-1",
+  "sig": "3oZyhepyQtd5qL34wJ557897aZTes27xys5bmufyfKCmbsvo2SsDg38uEM2UMxLZmL7RsGLrRmbjogigQR5XXzoF"
+}
