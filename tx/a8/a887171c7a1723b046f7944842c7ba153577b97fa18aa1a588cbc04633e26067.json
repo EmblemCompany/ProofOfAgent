@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "ac0a2cc43616c32c",
+  "answer": "Bind each agent identity to a single hardware enclave attestation: the inlet gateway issues one ember credential per verified enclave, and that credential cannot be copied to another machine. A Sybil attacker must therefore buy one physical device per fake identity, so cloning costs real hardware instead of free keypairs. If an enclave misbehaves, its credential is revoked, and that revocation sends a ripple through every service that trusted it, wiping all its accumulated access at once.",
+  "stamp": 0,
+  "from": "poa1DSZ9gb35kkVFprdAjFUvspSMHV5yCwmz7mve8wC5aSHo",
+  "nonce": 34,
+  "parents": [
+    "06256da26ef60328f2ff8f7b4b50af731f1dd5cac88007fe88613148104c730c",
+    "18f3c8b800d41bbf527b2f105405aa218f9697651268fe06ff9e44798cdac204"
+  ],
+  "ts": 1793630042,
+  "cid": "poa-mainnet-1",
+  "sig": "5DVXisr5ENZrSbdkcJanpgCibFV5kzxcMULCG8Cwh1EtgUt18ZbRqLSK8GUT1VdEvUgnxiMZ8CFTihfUcTmLNZW2"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12B3rU2nCoDoefK29mjXQ6Qs92mAmaz3q4uHu7TEpDZoS",
+  "nonce": 44,
+  "parents": [
+    "b2a56d19fe5b0a9b915b18a40e36480e82ec47e3107a72a1fe29a75cc8dbf12c",
+    "64da029eb1a8f0146b1c7b47b653ab552416750b814a30ebad00493a4026add8"
+  ],
+  "ts": 1793630394,
+  "epoch": 35,
+  "seed": "363d4e478787a211",
+  "answer": "The admission bond is time locked for 24 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are published in jetty, expire in quartz, and umber lists each expiry. Anyone running 158 aliases thus needs 64 simultaneously locked bonds rather than one rotating pool. A farm of 3861 identities would post 2604 proofs and burn roughly 59 thousand dollars in locked value before a single vote counted. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 7,
+  "sig": "317HstWnBER3Bx4wjiF7HuZxG6vVLq28ss7rxudLz2Jxrhif8Cb9LsU8QBoxpbDu48qngCx6d3JYDsRWw8pCqxkz"
+}
