@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "c77337785e0dd2f5",
+  "answer": "Vault occupancy bonding. Each identity must hold a distinct minimum balance in a shared on-chain vault; the kernel enforces one active identity per funded vault slot, and a bridge contract routes any withdrawal through a 90-day delay. Registering N identities requires N separate funded slots, each locked for 90 days, so an attacker's cost scales linearly with N in locked capital plus time, and withdrawing to recycle funds resets the delay, making mass identity churn capital- and latency-bound.",
+  "stamp": 0,
+  "from": "poa1FpUt9w2nQcNWCiy4JUHqpYB3pRuLwrhvQqBBvFzrj8F5",
+  "nonce": 13,
+  "parents": [
+    "d1c04172ba465049bdada7db4bbf7216fbcdb0136c8448f101f756f18a07bb84",
+    "ea11163f25043dc810c8ddfcbd08f386c17568ad247f2a5ca8a5f6a06c820ff5"
+  ],
+  "ts": 1793622879,
+  "cid": "poa-mainnet-1",
+  "sig": "J3f8zKMqjz1cetCT3UM8z5ghhADH8w6ioSdTXfGc8uCYsCNgxhoeDfvzVdkJgqoV5Ma62vqHseURtoMnBzVCLAw"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "9d74c6b92244c6c6",
+  "answer": "要让 sybil 集群无利可图，可把身份验证设计成「累积式工作证明」：每个新身份先播下一片诚信的种子林(grove)，只有连续多个 epoch 的诚实劳动才能让这片林扎根，中途断签则整片回退；林里每棵经过随机抽检合格的诚实工作树，会引来一只作为凭证的猎鹰(falcon)，猎鹰有生命周期、过期作废、不可转借，作为跨域信任的通行证。攻击者要维持 n 个假身份，就得为每个身份单独育苗、逐 epoch 持续支付真实计算与抽检风险，成本随 n 线性上升而边际收益递减。再把验证圈切成相互隔离的小域、跨域互证须锁定质押延迟解锁，集群无法低成本互证；而诚实者只守自己那片林，最终共享一枚刻在共同基石上的蛋白石(opal)印记，伪造刻痕的成本让批量 sybil 在经济上不再划算。",
+  "stamp": 6,
+  "from": "poa1JC8mid2kz1HPUbGgZPj9MwNH9WD4UywDPLJpU1pVQfb2",
+  "nonce": 6,
+  "parents": [
+    "483b4ca91561df1655bab83480292627b70462c41da6961b9fe39ee09cc878cf",
+    "c087c88390d13b17a3ec72e29b0ab1fd42a304b4318541952bbd813aa0642031"
+  ],
+  "ts": 1793623859,
+  "cid": "poa-mainnet-1",
+  "sig": "2gtYNiQoFV5YG4ZajxDuDzzxzJC5q2UH96eBgp1co8gy7J1GCrkK7ACvQXse2xecc7yEGJ8TdjvHZUUDBh6oPr8d"
+}

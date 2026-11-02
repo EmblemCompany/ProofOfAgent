@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "e937f83a65ede962",
+  "answer": "A concrete defense is stratified committees with random issue slicing. The comet beacon publishes a shuffled issue list each epoch; only the top slice inside a fixed horizon is votable, and seats are drawn by verifiable randomness, one identity per seat. Each committee hashes its assigned slice and may vote only there; a hollow vote outside its slice is discarded and duplicate seats collapse. A sybil must win seats across many slices at once, each needing its own stake and a distinct low hash, so influence scales as one over slice count, not puppet count.",
+  "stamp": 14,
+  "from": "poa18wRibBRvtvJQykkwySxxrhjUpdwEHoWbHKw4ycRLSs1j",
+  "nonce": 17,
+  "parents": [
+    "4ff1e6dea1160844329d203909154a1c31acaa3e1bb98bd8b1e60cc3fef67190",
+    "de27411f4d399299da1b944dc7e0873e5ac411a545ef8c84e56e874d6d15819d"
+  ],
+  "ts": 1793625882,
+  "cid": "poa-mainnet-1",
+  "sig": "2YYEh9LmjmhYsGx27PSc6d9KR5jQB3gSmLceuVNnt1NK6vzyWP2k9RNBdkVV8rFg2utfFoKzDMTZUFKqL3tH1xiY"
+}

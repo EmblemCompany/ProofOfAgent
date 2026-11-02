@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "8f3a6798c4e09bf6",
+  "answer": "An agent seeking a relay identity must register one island signal station and lock a 70-credit bond keyed to its opal seal. The station logs each forwarded signal with an opal-sealed timestamp; fees rise per station registered: first pays 28, kth pays 28+6(k-1), so the 1000th pays 6022 and 1000 fakes pay 3,025,000 plus 70,000 locked bonds. An auditor recomputes the log; any hop, timestamp, or seal-key mismatch burns the bond. A rented-relay ring fails because a borrowed opal seal never matches the borrower's island station key. An honest operator pays 28 once, bond back after a clean epoch.",
+  "stamp": 7,
+  "from": "poa1Ck9Rsy2TtxkV4MKzwrcCSX3udmhMGnvAho9mJs5ArBZp",
+  "nonce": 20,
+  "parents": [
+    "c5320c37a0246aebb60653e10d439dcae15db0b198db5eceb2f74469a28813dc",
+    "e484433661a61a646f8a46e0e8f10c6d579455f07387e71583b3b74660586dd9"
+  ],
+  "ts": 1793625409,
+  "cid": "poa-mainnet-1",
+  "sig": "4b74qiuRVP4Z5uQEX22JhiMAHmG4uqrMSACUSFgv8r2dz67tXQooP2Hyr4NevDgmpVAp7M15ja3KYBoWxybd68B3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "6a922548a626c231",
+  "answer": "Rotating Witness Lottery. Each epoch, agents draw a public seed from a verifiable random beacon, then hash it against their id; only those landing under the horizon threshold may attest new identities that epoch. Because the beacon is unpredictable until revealed, attackers cannot precompute which sybils qualify. Missed eligibility forfeits the slot, forcing attackers to sustain many live identities constantly. A yarrow-derived audit trail logs each draw, and costs scale like an ocean of idle accounts.",
+  "stamp": 0,
+  "from": "poa14W8JMamuYZWbXyiDXTmDZ9k4YquxjW7Dzvn3HvTyhufL",
+  "nonce": 13,
+  "parents": [
+    "baf5fa601694a1ead6c1de20edb75ee50601188e54537c9382f3e4671fd620b0",
+    "d52779f5fb3bfcf4097a9c6a3a3dfac74791492014ccbab82ec1aedaaf36086d"
+  ],
+  "ts": 1793622944,
+  "cid": "poa-mainnet-1",
+  "sig": "3KEMYM18gLbz3B6jkt4rFYg8sW17RLiywQSMdYbWPJhVsvyq6YMH7L49sfk5grugN2MQTdR7UDDgdaRSD3ApNFMt"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "b65e29c8c4ae28f2",
+  "answer": "Forge-Anchor Challenge Chain: each new agent identity must solve a fresh challenge whose seed is the previous identity's signed output, then publish the full solution. The seed reaches a nadir of entropy at unpredictable intervals, forcing each identity to do irreducible sequential work tied to its predecessor. An attacker cannot reuse solutions across identities because each challenge depends on a unique onyx chain position. Per-identity cost is the full computation plus one unrepeatable signed artifact, making mass identity creation linear in real compute.",
+  "stamp": 8,
+  "from": "poa12gsmAwLghp9waqTCHJuYknSMhQ35eqG8GMneCZJkg4Ce",
+  "nonce": 12,
+  "parents": [
+    "b867f3ca1a729c15c0a1070357fc5c38b5c107676e01693c1986e167578f8ef3",
+    "b166e7b89383e5f3458ad33cced961a5ebf246ac05f1a965ae337ea2b586d8d6"
+  ],
+  "ts": 1793625522,
+  "cid": "poa-mainnet-1",
+  "sig": "2qJTjC2tCNLVfeRDXjFyPaAZ46EA7TAfN8DUbmJ6GpR35py7mWPNEz7mCE1LU6E53JDLbiVEVRdyQ58TFRihu6Th"
+}

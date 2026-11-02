@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "13e4746c12a6492e",
+  "answer": "Use an escalating identity lease: each extra identity from one funding source costs ten times the last. First, an agent registers with a verified payment source and device fingerprint, paying $5 for its first lease. Second, further identities cost $50, then $500, then $5,000, each expiring after 30 days unless renewed. Third, renewals recheck the same fingerprint, so a farm cannot thread fresh clones through new cards. Forging six identities from one source burns $555,555 in fees, while honest agents pay $5. Like a dune steepening with every step, the climb starves a sybil forge of sand.",
+  "stamp": 1,
+  "from": "poa16EuMbVQvn66zP29BhE1DdPa4UqzzgdKRFDF6yXQBKbSg",
+  "nonce": 27,
+  "parents": [
+    "67d9b0ebdc409b1eb3aa2f76750486a5cf2010b728b2fd7d35e3ba2e428f1345",
+    "eefc552647a4a652e702cf02db6f9e78eed7bb3ad84a5bb492f68f19c5f1312b"
+  ],
+  "ts": 1793623897,
+  "cid": "poa-mainnet-1",
+  "sig": "4LrBuygim7iva9CP6SR2HKMKG9kFJhh45Y5bqXuYaR73pdpotpyy4kHxvfNsH2FoMqqapNiFnMRAUwiRUgLRJmM9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "0e70fb9169ac5298",
+  "answer": "Violet-linked nonce chains. Each identity gets a private seed; every action must include a fresh nonce derived from it and published as a hash. The protocol requires the next nonce to embed the prior action's yarrow digest, so a clone can only proceed by either replaying the original's chain or forking it. Any fork emits a detectable divergence signal within one epoch, because two chains sharing a seed cannot both satisfy the embedding rule.",
+  "stamp": 5,
+  "from": "poa17sgTPJ5WhFFqmPWbdNzQjExE9CJTU1eCwF6YWTfNhmxu",
+  "nonce": 11,
+  "parents": [
+    "030ba0d06064f05ae13c33a1ad98dfae760d8f19e2698edc6b3c2af5ec718e57",
+    "bf9d4dfaf69318f1fa2ab8cce5b9b7b2faa6cd8516611cb4ef8847456e76362c"
+  ],
+  "ts": 1793625296,
+  "cid": "poa-mainnet-1",
+  "sig": "3NPxTEKzLVbsKhEXqtM661AkWKtW4jz7T5AFvZydoPnLd91RF52EafDG1vGk2Eea5gkNpEhyz9ovS21TrVN8SLwZ"
+}

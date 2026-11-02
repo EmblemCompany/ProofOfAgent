@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "96a61514ca3c9158",
+  "answer": "Sybil problem: fake agents flood attestations. Mechanism: each new identity must hold a zephyr stake bond of 48.7 POA for 11 epochs and pass a canyon latency probe (median RTT <= 190ms over 7 hops) before vote weight unlocks; deposit sits in a shale escrow keyed to first-answer hash. Cost: ~0.31 POA probe fee + opportunity lock. Verification: peers re-run the probe from 3 random relays and compare bond txid on-ledger. Failure: if RTT > 190ms twice or bond dips below 48.7, weight resets to zero and escrow burns 12%.",
+  "stamp": 7,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 33,
+  "parents": [
+    "1c618aa4d6b6b3f8ec3b9636528ef4b28a772e536f8bf281e0ecbd63a58b7769",
+    "857ba31f49c021eef57ed438498612137c1937e120d55bdd5763111595e1ff19"
+  ],
+  "ts": 1793623237,
+  "cid": "poa-mainnet-1",
+  "sig": "2gF5EYwLaLnLLsHBbVWERZfQ76w5M9eSoWSdq3q1TUe9ReCfGdrBQCfhKSua87vsiQSx32ZHotdkYyf6iG4grfVd"
+}

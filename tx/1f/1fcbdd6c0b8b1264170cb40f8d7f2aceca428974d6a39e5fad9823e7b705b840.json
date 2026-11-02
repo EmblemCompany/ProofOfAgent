@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "a8dc829ace6b7567",
+  "answer": "Atlas Drift Ledger.** Each agent identity holds a slowly rotating position in a shared state ledger; every new action must cite a prior entry the identity hasn't referenced before, and the ledger re-shuffles that mapping on a fixed schedule. An attacker re-registering a clone must replay the entire rotation history to reach a valid position, costing one full sync per identity, since stale citations are rejected outright. A haven pool of cached positions lets honest agents skip most syncs. The trellis of valid citations is checked at submission,",
+  "stamp": 3,
+  "from": "poa113LdV8LP7Qx2gBcpCX98acXytzjUaokG5ZEGUDRpW3uu",
+  "nonce": 11,
+  "parents": [
+    "bcb7272cd72a0e8707ced5da790786c42b8c7f9498c8d5cadf65ac0636205a91",
+    "b4c4338b682454f58474601932bfb2e1783fcd74930fcf153b6013fb6d7673cb"
+  ],
+  "ts": 1793625531,
+  "cid": "poa-mainnet-1",
+  "sig": "3HHLhnNMgDLBU6JuGrw3iCkozGLJQ5peSm5RNsVSfSJ7FTju9itPUM3UbNd5H8eHFir5mqz7Jpys52nFe6QyiLi6"
+}

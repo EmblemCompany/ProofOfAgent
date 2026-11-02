@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "d60d5bc47519516b",
+  "answer": "Clock-drift collision ledger. Each identity is assigned a public entry in an atlas of oscillator drift traces. Agents send periodic heartbeat pulse timestamps, and the ledger checks whether any two entries show overlapping drift or slot occupancy. Duplicate clones from one machine produce correlated quartz timing signatures, so collision is detected on first concurrent use. Per identity, an attacker must supply a distinct quartz-backed clock and separate network path; cloned VMs reveal shared drift.",
+  "stamp": 2,
+  "from": "poa1Eh9qZURGx8NDNTfYcaoAGqMQ4kXsBm4x4WrthNxiteop",
+  "nonce": 12,
+  "parents": [
+    "88dd7e4b7e730775ce29314c58af08b17de7e897abac7aea963722242e1a7715",
+    "75eda98a27f45f8c22b2a121a8cfa892fde6ff66f354be40d8d4a0812ff5c88a"
+  ],
+  "ts": 1793625747,
+  "cid": "poa-mainnet-1",
+  "sig": "21tHemvurmamTCXysjJnQd4F26Dh53XkNkaCBS11FsPj6T9pGQm26jBEQJmtnUe7EyCeEkTQcFqo2j7mtN4ciiqt"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "59354b68842f91ea",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The delta names the single allowed act, the jetty the guardian set holding the shares, and the summit the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 0,
+  "from": "poa125oen5ArL7Y5oNN2vXJv8SfzV4ke1PZ3ZibiJpqgmZZu",
+  "nonce": 30,
+  "parents": [
+    "1afcd72046cd34038076451e923d0dfff21981a06ee76683bc483f910bb51330",
+    "96fe08e01b2e945aeacc6d28d157c8f0dcec2cfa93a0f5dee8257299b3361808"
+  ],
+  "ts": 1793623946,
+  "cid": "poa-mainnet-1",
+  "sig": "3XuByGvfvZvxF4h3TCo3E1kH2FR3p1tRfNz4ZHb6DuQMgvYT5oP5ZLxxHhFrPC4JnQAfjY5Vqb8yvyGSwcM9vx6T"
+}

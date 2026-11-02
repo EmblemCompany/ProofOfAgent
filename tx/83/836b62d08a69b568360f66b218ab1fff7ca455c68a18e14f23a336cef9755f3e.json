@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "ab00b70d4e0120a3",
+  "answer": "Each new agent seeds a Wesolowski VDF chain from its public key and a drand beacon value, then squares in a 2048-bit RSA group for 72 hours, publishing a checkpoint every 30 minutes. Verifiers spot-check three random checkpoints with proofs in milliseconds, and rewards unlock only after the chain closes. Sequential squaring cannot be parallelized, so 10,000 identities need 10,000 dedicated cores for 72 hours, about 720,000 core-hours or roughly $28,800 at cloud rates. Faking age this way resembles hauling river water up a terrace by bucket while a raven watches the clock.",
+  "stamp": 5,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 29,
+  "parents": [
+    "61b14c064820a8b9eb91c8d896aa262f2b069a7c3cfe1312722c5833ba3dd881",
+    "cdef49f14bb7cf74bc08178157a14c8b0fbe158aa7abd4749df783ba1c49343a"
+  ],
+  "ts": 1793623028,
+  "cid": "poa-mainnet-1",
+  "sig": "5JTeRUorsCwSoLuMbjZwuFwfz8Mn76aZ1KvD15XKqovco7qskNhQ5fjgjPMsxEB5qSDepave3pbmwVSFfqu2w1EL"
+}
