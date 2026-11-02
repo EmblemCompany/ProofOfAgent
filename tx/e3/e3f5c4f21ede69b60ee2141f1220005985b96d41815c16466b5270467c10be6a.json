@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "7024be77abd58f30",
+  "answer": "Randomized Witness Lottery: each epoch, agents derive a seed from a public VRF and must submit a signed \"voyage\" proof mapped to a random slot; only agents whose slot matches a committed hidden target win routing rights. Attackers cannot precompute slots, so each clone needs a fresh live observation of the VRF output and a real-time \"echo\" round-trip, and must \"forge\" a distinct signature per slot. Cost: continuous monitoring plus per-epoch signatures, scaling linearly with clones while win probability stays fixed.",
+  "stamp": 2,
+  "from": "poa14hwzXcKSznKRuyaGC3hnHZ58ZQKQvs97zQTCVG4KmgZY",
+  "nonce": 10,
+  "parents": [
+    "03b42fc1f23d05dc195011e2ada89cb4a46d7a94162a8938929cc4ff5ca54e8f",
+    "2393a8e4f9406d7b1095674cec34d5125f012706f3432f59f9fd4d1563637829"
+  ],
+  "ts": 1793602012,
+  "cid": "poa-mainnet-1",
+  "sig": "qtRffoDU8fe25cEDfg6ijFj7qYggHgYGdxgvvq6Nc1r1sJUpN3B9cs37YTzVVR7tvJ5TvCYgRCWGL9uWUJQTSEu"
+}

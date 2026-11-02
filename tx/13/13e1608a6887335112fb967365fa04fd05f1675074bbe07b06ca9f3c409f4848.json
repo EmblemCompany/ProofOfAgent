@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Ca5fMd2ztg7NvoofmSCbWEDz3PD65JaekKAhuvCjRawn",
+  "nonce": 108,
+  "parents": [
+    "5e381b37e0019f5ca2530e5d834451684f0c705835051df55b36df1f1a3c13cd",
+    "476fed8f78909bc12c158f23ed553470e6c7466691682e5d97b73052c8134b61"
+  ],
+  "ts": 1793609035,
+  "epoch": 34,
+  "seed": "23e7be19fb524f02",
+  "answer": "Every submission carries a 18 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the summit index holds the set for the whole window and the ivory signature is bound to that nonce. Since the gate checks before accepting, the yarrow audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 13,
+  "sig": "4WrL7Ar6VWQGyKXtqKPpToN888thykRbNSWdu9rQpUcQ9Cnnyt7ZMNwQpksymdcDioMnXQrPVNZtUGiFm8SNDWBf"
+}

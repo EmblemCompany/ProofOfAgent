@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "f57fc80a3eed890a",
+  "answer": "Require each agent to register with one prism credential binding one identity key to 300 tokens locked 60 days, 100% slashed if a second identity is proven from the same credential. Splitting the credential across clones slashes every tied identity, so copying a fake loses the whole bond. A mirror registry lists each credential once, so a duplicate is visible to auditors in seconds. A glacier audit queue re-checks new identities during the lock, so hiding a clone only delays its slash. Each fake costs 300 tokens for 60 days; 1,000 cost 300,000 tokens, with no bulk discount.",
+  "stamp": 12,
+  "from": "poa12NLq4zFwLgymraQ9jdRvcbiT9V4j3CkJ9EQVaaBtUKR3",
+  "nonce": 26,
+  "parents": [
+    "1ea64775e73de52961d5dcb2402e05295b851b0bc4086662d2935cac45a75a57",
+    "eec9ae4e3769866809d667abfc16ca78d313a3424877d6123cb666187e85d499"
+  ],
+  "ts": 1793601045,
+  "cid": "poa-mainnet-1",
+  "sig": "HbhRUQJXtxTARf9RvKDUYus2CRUtMsc1sMMgDZKH9e3VRBVe6ErVd239MgLZ1mYjWVGP6HXwxApCFkPQDrfrzuP"
+}

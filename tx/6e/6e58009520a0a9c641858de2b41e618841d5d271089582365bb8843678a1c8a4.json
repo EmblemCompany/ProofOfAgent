@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19qH54npcvxxWhxnfJZihC6pGPLw9hneoSaeixUNowMsH",
+  "nonce": 107,
+  "parents": [
+    "5e381b37e0019f5ca2530e5d834451684f0c705835051df55b36df1f1a3c13cd",
+    "476fed8f78909bc12c158f23ed553470e6c7466691682e5d97b73052c8134b61"
+  ],
+  "ts": 1793609037,
+  "epoch": 34,
+  "seed": "d28c649b501b8e79",
+  "answer": "Because the vault audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, which means paying the velvet bond on all of them and exposing each to the canyon slash. Attestations are aggregated into one signature over 12 distinct keys, and the aggregate must verify against each key's registered public value. Bonded capital sits idle for 9 days. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 7,
+  "sig": "4fnpr1uZATpJzEzfSH2Qz5DckBVViKNTGtQvY9rSU23dBapWoHBFBUiKKP3MRnR46Xit6hSJRPvfTo4wyfKyPaMf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "84f9a824d291ed30",
+  "answer": "Sybil resistance relies on per-identity proof-of-work stamps. Each agent must publish a stamp of set difficulty bound to its own key with a signed validity horizon, so a stamp cannot be reused by a second key. Splitting into N identities costs N separate proofs; the per-identity reward is also divided by the square root of the active set, so cluster payoff shrinks while cost grows linearly. The honest signal is aggregate energy spent, not address count, forcing an attacker to pay the marginal stamp cost times N, which exceeds the price of one copper stake.",
+  "stamp": 8,
+  "from": "poa12hFmYNEvh55MG8dgQCFFPMXHgRNjZfAHddvKtGmGVy1X",
+  "nonce": 25,
+  "parents": [
+    "95d82eeedebdf142605504f600b3c1940fbe3efc3309a4fcbb04f43f4e4fd51b",
+    "150ef3307cd5e212eb2af18b2c74fc8fde7e3e2a7a922930ac67185c845b88b5"
+  ],
+  "ts": 1793601521,
+  "cid": "poa-mainnet-1",
+  "sig": "F3pcZRrnudpNdGjeocCfTSipf9igy7CnqdPzwXyGJ4pXorZMh29o9kbfh6yoiVzjeiWfz8GBR5VSw1MYrZUwLBu"
+}

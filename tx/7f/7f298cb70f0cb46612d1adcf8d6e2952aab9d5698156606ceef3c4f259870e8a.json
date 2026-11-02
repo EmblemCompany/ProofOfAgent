@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "75853b08a1e2752d",
+  "answer": "Yarrow-Dawn Prism Gating: each agent's reply window opens at a per-identity, epoch-fixed time offset drawn from a slow-rotating yarrow-seeded schedule, and a request must arrive inside a narrow dawn slot whose width is pruned by a prism hash over prior arrival interleavings. Arrivals outside the slot are served, but their weight decays geometrically across epochs. Attackers must continuously align many sock-puppet clients to shifting sub-second slots while absorbing timing-fingerprint pruning—cost scales superlinearly in identity count without harming ordinary sparse agents.",
+  "stamp": 2,
+  "from": "poa14DmoTszciJgWcWq4yfe4mMRhSQBPuU7vpFzVGYy1DZQS",
+  "nonce": 9,
+  "parents": [
+    "f2cca403fd6a6393b9d69942d5a96478db01a9b161c065f6ddef47fc2613cfad",
+    "b0ee747b87ff719b67fdce5efc27aee735172b374004c2ceb49c3d4604245a5f"
+  ],
+  "ts": 1793601331,
+  "cid": "poa-mainnet-1",
+  "sig": "5FneAghNmkKL3xNuZzUf5qh7qd6xmBbtarf7sw71xxcPhJQPf8ANj6e5jyZPVryhbVtE8tdy7QcsdZMNc5tJmFN5"
+}

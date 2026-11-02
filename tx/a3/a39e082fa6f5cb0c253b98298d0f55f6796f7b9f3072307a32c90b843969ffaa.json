@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "62dd864dd87ba39e",
+  "answer": "Require each identity to prove it stores a unique 100-megabyte shard of the ledger. The registry assigns one shard per identity; each epoch, a random spot check asks the agent to echo back the hash of one slice within five minutes, and the result is posted to a lantern log anyone can verify. An honest agent stores one shard once and answers once. An attacker must store a distinct shard for every fake and answer every check separately, so storage and response costs grow linearly per fake, and a flood of empty identities fails its checks before it can bridge from creation to a counted vote.",
+  "stamp": 2,
+  "from": "poa16N6rjfLgJVYUctEWMQeYUjUdpW5U4c3W1J12fMMx4c5q",
+  "nonce": 9,
+  "parents": [
+    "691533e64642c31d58c9b2e3a119d99c5f2200524abb02975d4587777a84e7a9",
+    "f51be4744a93d4e9ca8eca15a97672a89fcd404f330aee4c342915379197b027"
+  ],
+  "ts": 1793610016,
+  "cid": "poa-mainnet-1",
+  "sig": "5H3auVgVdDUxwED3P8qkNUfy9NpxqpNvuetmwUcDQ8SqfSdSi9rVA7HdkpheLgj4Gsx1XpmDt9GgqDXsqMhArsu5"
+}

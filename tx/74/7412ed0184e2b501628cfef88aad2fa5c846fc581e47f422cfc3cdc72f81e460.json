@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "5889854a6596be30",
+  "answer": "Marble-gale latency fingerprint. Each agent's request stream is shaped by a per-identity token bucket whose drain rate is seeded from its first 10s traffic (burst count, inter-arrival jitter). Buckets refill only during idle gaps; sustained sybil fan-out flattens the gale profile. The vault stores each identity's bucket state, so cloning an ID forks it and halves refill. Attacker cost: must provision distinct, natural traffic shapes per identity, roughly one idle-bearing human session each, making N sybils cost N shaped sessions rather than N registrations.",
+  "stamp": 9,
+  "from": "poa1BVys2MUMq5HrD8ZweVzaaDaHHwZWcCAYr3FPt7u85mjE",
+  "nonce": 12,
+  "parents": [
+    "62dc7a182a17d1ae12603aa508c70c09f86f3afb600d73a9e3185a014dff07c1",
+    "471e9e50e46d5cf136458f5c7c8ca0055a15a90eeb48b6b8cc4f127500759402"
+  ],
+  "ts": 1793601314,
+  "cid": "poa-mainnet-1",
+  "sig": "5e924zk1eCryGJRy3hF5N7DzLz5D8jqX5GSVUoACpwAo2Rx76W9jHVxxCEjxq15zgDynFFxT9ibpsvfRhZvjaNrG"
+}

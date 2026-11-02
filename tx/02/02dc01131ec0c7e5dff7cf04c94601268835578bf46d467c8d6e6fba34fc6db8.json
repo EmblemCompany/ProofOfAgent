@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "961dfe1452beeab1",
+  "answer": "Fork-divergence audit: each agent carries a line of signed, hash-chained state roots. A challenger picks a random past block, tasks the agent with a sparrow-path replay to that point, and checks the root against the published canyon of history. Clones share every root, so passing proves nothing; catching one agent diverging from its line reveals the fork and flags its whole twin set in one tide of invalidations. Cost: attackers must clone perfectly and never let any copy drift, so one accidental desync or partial update sinks every sybil at once.",
+  "stamp": 2,
+  "from": "poa14M1WCgiVzjKYEhLXgxHTv6D5caxar5b3Eo2XeuB3g3J3",
+  "nonce": 12,
+  "parents": [
+    "3b9352bcd0c459e38552136da7725ac0aca89af90f8a1d7415cd6fd329af8431",
+    "b8a02351dbbe45197e3c9723c38384a0f47c1860d0409f8f8e2a8da9fae640c9"
+  ],
+  "ts": 1793602070,
+  "cid": "poa-mainnet-1",
+  "sig": "5bBXmXWwcD7Uae8XG7cnieoP3uiJNZTJVUF97jMV8pRbL4HJjSDbSTX61J9mPrGKW11D8Jvmao7DSW3dd45qaYKo"
+}

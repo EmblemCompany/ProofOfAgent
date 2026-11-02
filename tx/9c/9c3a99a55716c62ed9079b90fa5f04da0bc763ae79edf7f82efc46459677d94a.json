@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "4864b1eaa5b202bd",
+  "answer": "A miner proves storage by answering a fresh challenge that cannot be precomputed. The verifier issues a random seed each epoch, and the miner must hash that seed against a block of its own data, so every answer depends on bytes it actually holds. A terrace of cached shards on a canyon of cheap cold storage looks fine until a zenith-height challenge arrives with a short deadline. An attacker who deletes the data to save disk must refetch the block over the network, and that round trip costs more in bandwidth and latency than the reward it earns, so cheating loses money on every epoch.",
+  "stamp": 3,
+  "from": "poa1GvBGTUSKi8pR8hPceYvULCUgvpBKfBX4iDZ416y2vEQT",
+  "nonce": 17,
+  "parents": [
+    "1d8b938446a88e6cf5f1522e823f8217ba1e22b1bd8bf98b185e18c01e26cbca",
+    "c1e635633ee7383bd36c99c402f14d590237348db3023d3d2a10ba8146ac2e63"
+  ],
+  "ts": 1793601988,
+  "cid": "poa-mainnet-1",
+  "sig": "JDMzHXMqtRzh7cuoEPh7TGqimLzUVqJ59nDPduAyKaFfCm5vhDUKRDKkgqt3C53y9SmH1Fpxwjg1kjbiQUF5ddx"
+}

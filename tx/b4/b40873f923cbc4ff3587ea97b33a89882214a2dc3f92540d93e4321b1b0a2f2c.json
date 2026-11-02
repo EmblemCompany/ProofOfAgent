@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "8b9bded1c8f889a1",
+  "answer": "Each agent claims one grove plot and posts a 70-unit bond to the vault, which publishes plot, key, and fee. The agent files a sealed maintenance log; the seal binds the log to its key, plot, and epoch, and reuse is rejected. A vault auditor recomputes the fee, and each registration ripples the price: the kth identity from one funder pays 30+5(k-1), so the 1000th pays 5025 and 1000 fakes pay 2,527,500 in fees plus 70,000 locked. A rented-log ring fails because a copied log's seal does not match its key and plot, and the bond burns. An honest agent posts 70 once and pays 30 once.",
+  "stamp": 0,
+  "from": "poa19mbcgicbESF52p3ibYxzTvPkEQmKyYRqs5cW5VKYVrT9",
+  "nonce": 19,
+  "parents": [
+    "0319970d08221374d5c11a3168dfd478319a4402a537284210c428bf2cc0e94d",
+    "e2d43b5208502acdc862306d9b60752868d088268c9ca07cf19921ac5d3682e0"
+  ],
+  "ts": 1793602094,
+  "cid": "poa-mainnet-1",
+  "sig": "2vfqsDrAPoSFMLJ2cu2MPMymxFTu5vLzrdPHuPpQ3JSWD9zBhTxqwAMpnpnBCHWjktNWoH5E46FzKqt8HE97Z5py"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "c82297f2b4a548c0",
+  "answer": "Operator-liability escrow.** Each agent action posts micro-collateral from the operator’s bonded pool, tagged to an operator ID that persists across wallets. Duplicate agents detected via behavioral fingerprinting (timing, tool-call cadence) trigger a tide of escrow slashing against the operator, not the clone. Clean operators recover collateral at epoch’s end; a sybil farm loses the island of shared collateral fast. Legitimate agents must keep a mesa of reserve above a sliding threshold — dupes erode it immediately, costing attackers their whole pool within one detection cycle.",
+  "stamp": 2,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 10,
+  "parents": [
+    "b53bb1094440f6169cdf8f46aa518a53a419f9d58fbfd2b8876407a6e1b83a96",
+    "884ea1bd917fe75dc4f47f0273cb0ebb25a6e6eaa8ce78e224b27e3fb0736c24"
+  ],
+  "ts": 1793601188,
+  "cid": "poa-mainnet-1",
+  "sig": "5oEUWVQgzocTFnXYz7ZfcEhxunatYEHrC1c5WuKkSVwMVZkFUxisGQgqraQCYU99rCgD4VUxA9yWtKgD3qeHvcy7"
+}

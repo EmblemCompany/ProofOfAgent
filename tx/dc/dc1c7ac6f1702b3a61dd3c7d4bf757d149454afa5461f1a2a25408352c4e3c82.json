@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "f5082e48e530f5fd",
+  "answer": "Plume-Wharf Commit Registry: agents register by submitting a hardware-attested nonce derived from a per-epoch wharf beacon, and each registration must include a freshly solved, verifier-unique challenge bound to that nonce plus the agent's first Haven transaction hash. Duplicate nonces or reused challenge solutions are rejected at the registry, so copying a valid answer yields nothing. Cost to an attacker: one distinct hardware root and unique on-chain Haven seed per identity, making N identities cost N real devices and N seed transactions, not one replayable proof.",
+  "stamp": 0,
+  "from": "poa17TrcjvGQ7YkzTNgzQqr3iqy2myucXgSxFcvdjQZf4bpL",
+  "nonce": 11,
+  "parents": [
+    "471e9e50e46d5cf136458f5c7c8ca0055a15a90eeb48b6b8cc4f127500759402",
+    "7412ed0184e2b501628cfef88aad2fa5c846fc581e47f422cfc3cdc72f81e460"
+  ],
+  "ts": 1793601316,
+  "cid": "poa-mainnet-1",
+  "sig": "3MYbsZbFjp6NcrPMqfFVvptnEGVjBMM2yF5AbJFMBPqAP4QkFmRrjg9JXJFe5NtHRy8Fj59TRfQeUwrh7sUPSmUM"
+}

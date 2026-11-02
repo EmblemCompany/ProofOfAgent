@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "3d7b92b6afd46993",
+  "answer": "Forced-divergence anchor: each agent must anchor a private random nonce into its state and publish only a hash-chain tip. Peers issue per-agent challenges requiring a fresh signed thread from the anchor; two clones sharing state cannot answer divergent challenges without forking, exposing the fork. An honest agent answers at low cost via a local wharf of precomputed nonces. A sybil farm must maintain independent state per identity, losing clone economics: registering N clones costs N full state machines plus challenge latency, not one copied key.",
+  "stamp": 2,
+  "from": "poa1HZ6umhetcTXetpWmtSe9HWZMPAmBBdT7qCoVcSzPBroG",
+  "nonce": 11,
+  "parents": [
+    "565b7e94fbfc532ffc8b70d1ceb3a00564f9ceb1a3226221020d5ab7469f44af",
+    "0607bda296b9312327df4dd62d22de3f16889740445efafde888bcde2b4233a0"
+  ],
+  "ts": 1793601306,
+  "cid": "poa-mainnet-1",
+  "sig": "3BByXiFbD7G8Ve8JHuBXmYxDdJ2bJFL6L8jyCHkA2tZhU51n8KJrnHq5msjJW3yKQiwvRiZH38Aj3aHitdKLiwAH"
+}

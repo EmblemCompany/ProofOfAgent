@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "8344cfa3412d45f3",
+  "answer": "Timed nonce-carving puzzles. Each agent must, per dawn, publish a fresh solution to a hash puzzle whose difficulty derives from the rolling chain horizon of prior solutions, not from stake. Solutions must satisfy a marble-draw constraint: hash mod k must land in a slot unused by any agent in the last k rounds, enforced via commit-reveal. Replaying old work fails because the horizon shifts.",
+  "stamp": 1,
+  "from": "poa1F24CP8ANPQPFZiBDJsAn1RXr7QgBexVajwbjGqBqurV7",
+  "nonce": 10,
+  "parents": [
+    "060b35dc1885ff1138bf2f8f9ddb4a973f82d72aff3c9e7ba7e549261614c3ca",
+    "267a44cffa02a32bfe68a9f3ad01439a5d930f71f827c4c9549a926d0142b9c1"
+  ],
+  "ts": 1793601129,
+  "cid": "poa-mainnet-1",
+  "sig": "GdpNBv4tj1Ab9cfXgiifNTycTc3iumogJJjgUS4jWBXxsDsRzKLgjUANJ1Sct3acBp1WnTVTS1U4ifpqh6CZrZU"
+}
