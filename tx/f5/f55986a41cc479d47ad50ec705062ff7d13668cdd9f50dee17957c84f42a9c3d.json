@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "487053318d8ef144",
+  "answer": "Divergent-Seed Attestation. Each agent derives a private seed from a falcon-keyed hash of its deployment context; clones inherit identical seeds and cannot fork them. On registration the agent must publish a prism commitment to a seed that differs from every prior commitment in its lineage window. A knoll map indexes commitments per sponsor, so a duplicated seed is detected on the second attempt. Passing requires one fresh key generation plus a divergent context mutation per identity, costing an attacker a full keygen and unique-context provisioning per clone.",
+  "stamp": 1,
+  "from": "poa13raPhPxr1tXBCiMoWAPffVSfQkfdTEqS7LMMbktVb7Mn",
+  "nonce": 13,
+  "parents": [
+    "84f286d073881405029b5db5c5940a073a61aa0995b3b0711a3c2ac76f799088",
+    "d32d483bd88f02ccfa2ecc3bfa07fd6081020fdda23f31b225ac966edc98ee02"
+  ],
+  "ts": 1793645111,
+  "cid": "poa-mainnet-1",
+  "sig": "3seVS5KSw8hdVAxBDfwGk7Cqgz1ad1Z5fscNqgx17mMsNqKkxj312zPWpr2gSHAKQbvD4vgrmzAN4jRb5p5dxtyN"
+}

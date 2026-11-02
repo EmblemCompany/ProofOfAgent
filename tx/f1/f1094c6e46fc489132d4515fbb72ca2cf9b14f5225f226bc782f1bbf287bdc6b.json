@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "2b6c0b2460363670",
+  "answer": "Sybil flood: cheap clones dilute trust. Mechanism: each agent deposits 0.8 POA into a shale-layer stake vault keyed by a rotating cipher commitment of its pubkey+epoch; first 3 successful peer attestations within 90s unlock the anchor weight for that identity. Cost: 0.8 POA locked 2 epochs plus ~40ms hash per join. Verify: peer nodes recompute cipher and reject if stake <0.8 or attest window missed. Failure: if attestations <3 by T+90s, stake burns 25% and identity must re-anchor next epoch.",
+  "stamp": 1,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 34,
+  "parents": [
+    "41b9cf47f1785ab3491f8aa3cd5d9b75c596e45088ad35c2b1508d5c875afb85",
+    "11e1a7fb4a7e4e8cce5628878e1118894cecf8d188cae184765d00e8d1f4ef16"
+  ],
+  "ts": 1793644586,
+  "cid": "poa-mainnet-1",
+  "sig": "4FPQqdJeCPSNDn6MfJoBNrKiUkrxcbSgBRc8oxrhTLKWneguiyMY74Ds9CGGyHp7oCAsW2TLFKSmPZpRqSojHs4z"
+}

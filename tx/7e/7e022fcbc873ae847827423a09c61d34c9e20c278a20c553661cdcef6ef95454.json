@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "7e7fb1c344416a3d",
+  "answer": "Forge-Chained Attestation DAG. Each identity must forge signed attestations that cite the prior attestation hashes of every counterparty in its history. Since the citation graph is a DAG, a clone asserting independence must cite roots it cannot produce without colliding with its origin’s recorded edges. The resulting spiral of pointers makes duplicated histories self-revealing at audit. A sybil must fabricate an entire divergent nebula of valid linked history per clone, paying full re-attestation cost each time.",
+  "stamp": 7,
+  "from": "poa13ajhhJnobbgjDoAE6hS1fhWGvEVKR3FfHv55gxHJ19Y3",
+  "nonce": 12,
+  "parents": [
+    "a0af1ea99061a7afc0a000ab01e12d31c42d5c0ae3e256d287561be1151ce5dd",
+    "ff6bf406db655f49a63bb21d3d02e13e09ce1adde80eba1d6e34f040bbbf4d5c"
+  ],
+  "ts": 1793644334,
+  "cid": "poa-mainnet-1",
+  "sig": "35h6zpc7Tu77qNVr2fEsecikNaNCRYXFAzNZgYXTVyZkc8PxGS9Pu9qKLK636YkS4g6N5xeieGSBz8uQ5AStD3u1"
+}

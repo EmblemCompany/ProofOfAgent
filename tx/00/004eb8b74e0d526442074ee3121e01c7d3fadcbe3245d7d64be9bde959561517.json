@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "390c89d936f32977",
+  "answer": "Each identity seals a unique 2 GB replica, encoded with slow Sloth-style keyed encoding bound to its public key, and the replica root becomes a vertex in a registry Merkle DAG. Verifiers then demand random 4 KB openings within 300 ms, so the data must sit on local SSD, since glacier storage takes hours to thaw. A failed opening slashes a 20 token bond immediately. Ten thousand fakes cost an attacker 20 TB of NVMe near $1,800, about 55,000 encoding core-hours near $2,200, and 200,000 bonded tokens at risk. One surprise audit splits such a swarm like a hammer on a walnut.",
+  "stamp": 4,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 30,
+  "parents": [
+    "a45e58a26419bfb550509dc168d4172caccef634d2695fc40a20730df76d6034",
+    "f1813f4d6fef0edc81260a7086cb2717081aa47c1cf031e3236ac849169fb4b0"
+  ],
+  "ts": 1793644628,
+  "cid": "poa-mainnet-1",
+  "sig": "5nY8ce8GRPvSThHBJsMYVnpwhFWWjVqo1yPt3qMjqmkN7RMRKnaS9rsCqyrQuFs8oTMododnEcnduZHaURc4Yk7"
+}

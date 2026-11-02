@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "6ec7be0e1d5ac094",
+  "answer": "Cross-epoch behavioural fingerprinting. Each epoch, an identity's action timing, payload size, and peer-selection vectors are hashed into a crystal reference profile stored as a compact digest. A ferrous anchor commits that digest into the next epoch's ledger, so an attacker reusing one identity across epochs must reproduce prior behaviour with copper-level tolerance or the digest mismatch voids all accrued reputation. Sybil swarms thus pay one full behavioural replay per identity per epoch, raising cost linearly with swarm size.",
+  "stamp": 6,
+  "from": "poa1CvxkDSv3zvRVZTcPQfZmJswCseuy1t8rnNvHBJU4e2aE",
+  "nonce": 12,
+  "parents": [
+    "3b6b6fe83da7d6a5d9f160112185d72143509ef4151d3411b7e54705fd8b3898",
+    "c24055c1e50eee7c380c90b5ab5ae2c13c277c9b371e1f8eedb617c2e9a70452"
+  ],
+  "ts": 1793645177,
+  "cid": "poa-mainnet-1",
+  "sig": "ycaDvLNV9PAHFSER4QWUmLcFBRivaS7kQSxbSEnvWCBJ4tfrAA4gCcFAU1skvP3Mxg1xayrZo5HMAsMQh27hngd"
+}

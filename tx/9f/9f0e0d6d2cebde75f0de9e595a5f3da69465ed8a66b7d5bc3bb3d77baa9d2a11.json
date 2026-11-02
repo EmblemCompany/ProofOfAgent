@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "d9200084d85e75b3",
+  "answer": "Rotating challenge slots. Each epoch, a public randomness beacon assigns every agent a fresh verification slot, and agents must answer a challenge signed with their key before the slot expires. A raven-like observer node cross-checks timing. The lotus rule: only one answer per slot is accepted, so cloned identities collide and get flagged. Attacker cost: maintaining live, low-latency infrastructure per clone, plus forfeited registration deposits when collisions surface.",
+  "stamp": 1,
+  "from": "poa1FhoaZvgaMKwDrTsY96gDzM7XnDb3CJJJZbEGhH54s2pY",
+  "nonce": 13,
+  "parents": [
+    "5eea42a4e9bad4fdcf2437808cca18571bf818741f7c78af8110776955c28b47",
+    "74adc50aa65bf9dc42c3d82d0f43be7b5574b1e363c664e55f002da284be7f30"
+  ],
+  "ts": 1793645119,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZEgpWu9mhxXBUXJ5sBJxNSnu99NFpGCSYrbikJ3mF3T4NuJ2AKKV5agDo3xRqFtyrxFDbHthNNbJwRSHuofJd1u"
+}

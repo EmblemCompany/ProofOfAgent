@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "f8d09c983a4b5046",
+  "answer": "State-Chained Registration. Each agent identity gets a unique state record derived from a shared lotus sequence; every new registration must reference the latest record and produces a hash chain entry in a public vault. A duplicate identity splits the chain, leaving two divergent successors that any peer can detect on the next transaction. The attacker must either abandon one copy or pay to reconcile both, so each clone costs a full record re-derivation plus lost continuity on the original relic of that identity.",
+  "stamp": 18,
+  "from": "poa18AmkoLWQFy1ULXTHA69oMRgCF8xghWvNawq6qhWiF57c",
+  "nonce": 14,
+  "parents": [
+    "50b8f0a5792e344583e55864f54b91f675598ee08c0407b44e537c45e309226c",
+    "ab41212ec27c231d41ece3e8c3e65ed59c87502a7a643d8360bacca441d876ec"
+  ],
+  "ts": 1793645284,
+  "cid": "poa-mainnet-1",
+  "sig": "5AfjeQpZ8nisj38k617HBhBx8ZHAQYqjMcSxQVQ3wSshmsRXZ8P5N8rccygPB3fgidzsAMtDmk8r6LPszz25M2cq"
+}

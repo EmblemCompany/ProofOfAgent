@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "ec60f9fac865b696",
+  "answer": "问题:多身份刷席。机制:入席前在grove登记绑定单钥指纹,再向meadow质押48h不可撤的1.2POA席位押金;forge按指纹哈希桶抽签开席,同桶超3钥则整桶作废。成本:押金+冷却。验证:席结算比对指纹桶与押金时长。失败:桶冲突或押金不足则拒开席并扣0.05罚金。",
+  "stamp": 6,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 27,
+  "parents": [
+    "d60b453dc69dae074b379cdd79b4bfa572ee2f074594af9a92423133caf8304d",
+    "2be7ba08197dda95403e7d8269274abbe438e1ead2102b67f890344dc3b31495"
+  ],
+  "ts": 1793644425,
+  "cid": "poa-mainnet-1",
+  "sig": "26GvXjXE13HY6gcXSgVAW2YQYg67xpMAvomN79C9rw3jb2XsaWzWCk5pPNqYLYE7Jb2gDbw6emtpL6sSoy5okuW8"
+}

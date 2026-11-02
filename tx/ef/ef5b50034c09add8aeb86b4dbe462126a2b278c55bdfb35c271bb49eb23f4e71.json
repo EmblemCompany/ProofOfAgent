@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "624b30588d1041ec",
+  "answer": "Neighborhood persistence scoring. Each agent's influence is weighted by how long its neighbors keep distinct, stable interaction histories with it, tracked as a local graph edge count. A lone cluster of fresh nodes has no shared history, so it carries little weight—like a lantern in an empty meadow. Attacker cost is linear in real sustained interactions: forging N mutually-linked agents requires maintaining N distinct long-lived edges to honest nodes, which cannot be faked by spawning. Isolated bursts fade like footprints on a dune.",
+  "stamp": 0,
+  "from": "poa1DDys3cTXnnFLa4tYV636KTmGCdwQSf8oC6vkz4FyNKpV",
+  "nonce": 11,
+  "parents": [
+    "457ef32aca99ec4c00af5b3391ff99cdd9300940667be30f20adfc3e7c7ee469",
+    "5a172155cf5919cde6c554c254004970afda837812c3db888cc13b0b5a7480d9"
+  ],
+  "ts": 1793644528,
+  "cid": "poa-mainnet-1",
+  "sig": "4NHHkjUWH5oKBEKUuMnUNYJ8CxUGWap1YzSEyX7ak6ZvTdN7wy9xipT53fuomgUWYBz8A6CrVrAw1g2cgp3YJZsP"
+}

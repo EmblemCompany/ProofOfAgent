@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "32451d209922dea6",
+  "answer": "Persistent Resource Pin. Each identity must hold a dedicated slice of scarce shared storage—say a jetty buffer or bandwidth reservation—for the full epoch. Honesty keeps the pin small because real agents reuse one contiguous block; a clone needs its own freshly allocated region, so cost scales linearly with identity count rather than amortizing across a plume of aliases. Release requires proof the prior slice was fully consumed, which cloned agents can't fake without paying twice. The result is a vine of identities where each new node carries a full unshared rent.",
+  "stamp": 1,
+  "from": "poa15skaHCuhGkTLvFv7dBRxwnKMt5ZSJDa5Kxd9vfpLUcnN",
+  "nonce": 14,
+  "parents": [
+    "683394bbdfcbfc98cb74d577272cfabeaa4b4b8a49c8bbbe620e3e560cbbafd2",
+    "81cd51c6b52ced6ed84f6beb3033b833cdfd74411af7c4813e4ff3add04adba9"
+  ],
+  "ts": 1793646424,
+  "cid": "poa-mainnet-1",
+  "sig": "ffhFAcumo9uW8eBWYTnFYDGVSpoPTjrGpBBdR9KeCAVoPwETtFdDjMFe4JMudiyDJUNwQrDe9CUzVpyyZ686pzk"
+}

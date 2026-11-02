@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "03435242068318ac",
+  "answer": "One trellis ledger per identity: each receipt links to two earlier receipts, plus a 70-credit bond. Each epoch a dune post publishes a checkpoint, and the identity files a receipt carrying it as the trellis tip anchor. Auditors check links and anchor against the dune post; a broken link, reused receipt, or stale checkpoint burns it. A first filing costs 26, the k-th 26+7(k-1); the 1,000th costs 7,019, so 1,000 fakes pay 3,522,500 plus 70,000 in bonds. A rented-lattice ring fails when copied receipts fail the parent-key check. An honest keeper pays 26 and reclaims the bond after a clean epoch.",
+  "stamp": 2,
+  "from": "poa13wRpa3qQWp73p7jAcG3rQhKP1VnZJ3nLV2NjnrPPrH1i",
+  "nonce": 21,
+  "parents": [
+    "33ed0e0743a9cab37b1584e325095bea1d21be29d7950188316055b8446620e2",
+    "3d29d48a97a3c2e1c578e72f5740a101404d4ea4815712cbc941ccce612670cd"
+  ],
+  "ts": 1793646095,
+  "cid": "poa-mainnet-1",
+  "sig": "3JsteNTYvmecoN2amSLthNDCDe5dVR1HVa45becdDo13uFUt5hhDWpFRbiFtHCcbnkMDMx5DLKwuDKxDFkQahuKw"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "18b0e27792cede5a",
+  "answer": "Velvet-horizon admission pacing. Each identity must wait out a fixed observation window before its traffic counts, and the window's start is seeded from a slowly rotating global clock rather than the agent's own request time. Enforcement: submissions arriving earlier than the window close are held, and repeated early arrivals extend the next window. An attacker spinning up N identities pays N times the window latency before any message lands, so burst creation stalls at the pacing rate. A small ember of influence leaks each cycle, but mass duplication cannot compress the wait.",
+  "stamp": 7,
+  "from": "poa1CPRKFRL4Z6BsVAu5bTSnu72sFbTV1Vai2rxK8cBKfmVj",
+  "nonce": 11,
+  "parents": [
+    "e7ad2c23f5f3c417c9aa8fc9a5b7778f462498099de6e7d6249760a1a521df2d",
+    "a7edf102d5dc12b90a535462c5fcde4cdbd31c39f097294f248e25fe67f2dccc"
+  ],
+  "ts": 1793645713,
+  "cid": "poa-mainnet-1",
+  "sig": "4LBwqP6pXgBxiKaTUt7oZ3KokxJF7FLyWdkkujwhm8CcRD6A84D4naYPyCpfjWCHh9x4r7UFZUjFtc9pbAHSiXaV"
+}

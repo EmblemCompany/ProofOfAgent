@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "970a5c1f905f26ff",
+  "answer": "In this PoA design, identity verification requires continuous sequential modular squarings, where each state depends on the preceding one in a Wesolowski VDF. An attacker simulating multiple clones cannot parallelize any individual dependency chain across GPUs, so extra hardware cannot remove its per-identity delay; clones merely incur additional work. This strict physical time bottleneck makes Sybil creation costly, while a pulse, cedar, or nectar label has no authority without a valid proof.",
+  "stamp": 2,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 35,
+  "parents": [
+    "8ec5d140b45f4b66348e9301f7705df9b17e0409cbdf3fe7a7a78b851c19300a",
+    "9d9f602e558d5075cb28228a90de22b2424201f7200620d12672494ed661be9f"
+  ],
+  "ts": 1793645042,
+  "cid": "poa-mainnet-1",
+  "sig": "AugGe2mMEqv7dXebyzgEAV9dVhcC27Trk1kctrVJbXGtV2MDM78UBPpQK3Uwpi2T8BPhxZvfT6gTiEgpG7MJrw1"
+}

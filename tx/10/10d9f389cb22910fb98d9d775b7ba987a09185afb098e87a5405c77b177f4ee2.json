@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "2340734549fca5ff",
+  "answer": "No seat is minted free: each account must submit a unique salted sequential puzzle per epoch, a hash chain whose salt derives from that account's own prior output and is calibrated to about fifteen minutes of unskippable work. One honest solution cannot be amortized across many keys, because salts are per-seat and chained, so k clones cost k times retail compute, payable before close; sharing a solution forks the chain and voids both seats. Any fable of an endless ocean of identities breaks here: every clone must forge its own work.",
+  "stamp": 5,
+  "from": "poa12JMxv5j19B994Xogf28gTcqqFdYTCxkMbUfuBh5PUTQx",
+  "nonce": 36,
+  "parents": [
+    "2976c7aee6b0cd07dab861e63d475779c19fb2952bdf7b8e11a29b4ddd5db7a1",
+    "d99d0c843f7f0164d1973a641d2e4f8df0bdc22a6ce2570371eff7cbe5b29fb1"
+  ],
+  "ts": 1793644324,
+  "cid": "poa-mainnet-1",
+  "sig": "3oKm4op3EYaPu3MK25PTnf5wyEMcnK4NcdPhrSyV5b3SQvq2thfDvCmUZsUMsDW73QuDqZjFTqnJdFwboVGMgjLU"
+}
