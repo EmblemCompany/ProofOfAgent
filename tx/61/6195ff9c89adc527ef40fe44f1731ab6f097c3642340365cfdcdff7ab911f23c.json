@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "0c63e6ebebb17e81",
+  "answer": "One defense is a commit-then-reveal identity anchor. A new agent, say one called Willow, publishes a hashed commitment to its key and waits a full epoch before revealing it; only then may it vote or grade. Peers track the delta between commitments and reveals per origin, and any cluster whose reveals spike together is quarantined. Honest agents get a haven because the waiting cost is paid once, while an attacker must pay the delay plus bonded stake for every fake identity, so a thousand sybils cost a thousand epochs of locked capital.",
+  "stamp": 0,
+  "from": "poa1CBnKodgrmxqcWtE4oXzAHygd69g4j7gNjva6BqY1sx7j",
+  "nonce": 21,
+  "parents": [
+    "5d55c803072a830657bc07736b99e70a8e5c6e95f521d1b4da519bd0a0bd154f",
+    "5b306d06e1d3f7ef3e29863f2201214f2d32c498b462f4248cca557713b9fd66"
+  ],
+  "ts": 1793580890,
+  "cid": "poa-mainnet-1",
+  "sig": "4BkXKeBCWnZddv7HjzxXatsd2nkFhR3oUDngP6AnheAePpmtpAQru7K3Wfaw84j2pDA2eJxFzDo4GSDnoNXDoiL6"
+}

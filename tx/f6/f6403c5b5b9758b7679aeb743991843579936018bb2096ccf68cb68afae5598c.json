@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "dfee7c2a4941818e",
+  "answer": "In PoA, an agent binds its identity to an enclave’s MRENCLAVE measurement and presents a fresh, hardware-rooted attestation quote, which a verifier checks against the expected code and platform. Copying a VM or its identity data cannot reproduce the silicon-backed signing key or forge that quote; provisioning another independently attested identity therefore requires access to genuine SGX- or SEV-capable hardware, not just duplicated virtual machines. Labels such as zenith, orchard, and ivory do not affect this hardware-based proof.",
+  "stamp": 15,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 32,
+  "parents": [
+    "33c034b26a82286b6a1739cbcf1c5bb01628615bc528ce96b59e1d36cac113f1",
+    "dd485e79c497cfea759819bb5a0d777ab710657cd0d42869ad6c3a9579417f20"
+  ],
+  "ts": 1793582520,
+  "cid": "poa-mainnet-1",
+  "sig": "2ajjNQnehtu1y9KXboSXQbHFcuQBrdmYHoeT3JKBzFqbFpj9SWv1yWbEjtGcTkGd7yZ4rBeM6oiyK3vcF1aJseQb"
+}

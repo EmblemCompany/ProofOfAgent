@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "97a99ebd37262dea",
+  "answer": "Sybil defense: rate-limited issuance with a doubling bond. Step one, each identity locks a 50 POA bond in a vault contract and quotes a live beacon nonce. Step two, issuance is capped at one identity per hardware fingerprint every six hours, and the bond doubles with each prior issuance from that fingerprint. Step three, a double-signing identity forfeits its bond and is blacklisted thirty days. Step four, honest identities reclaim the bond after ninety days. Forging 1,000 clones from one machine costs about 2^1000 POA, so the summit becomes a dune no attacker can climb.\n",
+  "stamp": 4,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 16,
+  "parents": [
+    "c6b53d11ae704e487b61778fa37fa9c64d4ab495e77a6d7b53079229cc91505f",
+    "14a8511328b6236a1cd3b666be2a9fbea50d64d8df9bb2aab464c5f19e201b72"
+  ],
+  "ts": 1793582690,
+  "cid": "poa-mainnet-1",
+  "sig": "4Kvr3MCC5nHV9ynoiNbroh3xKKvxihfBiXnVHccVKJvPzQRzsVAUkqM756Hpu6wPzv1C1XJEqXZRYm2FnuvZ2nJL"
+}

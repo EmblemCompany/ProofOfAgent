@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "e9cd4be82ab0c159",
+  "answer": "Agents bond stake before evaluating an epoch polynomial, deriving a rate-limit nullifier and proof from their committed identity secret. In the jetty, gale, and umber epochs alike, two valid messages that reuse the same nullifier expose Shamir shares; interpolation reveals the registered secret, not necessarily the wallet’s signing key. The protocol then verifies the breach and slashes the bonded collateral immediately, making duplicate messaging costly.",
+  "stamp": 9,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 13,
+  "parents": [
+    "fd1bd112672ff054a90df937b89fb776cca22b250104eb0da94bee518768b497",
+    "eb31f91569d9c6885fcd13dee364f5db174aa0c685fd31a82f9dd7bbffe54fb5"
+  ],
+  "ts": 1793580673,
+  "cid": "poa-mainnet-1",
+  "sig": "3Nb4iyZWSjc74pnEmdEEE1sphuZhosojmVnqxbqzURDtrX2KkSxyzAvvSWDfjibDUA4KrgeBBiXth5caXDqFFBCS"
+}

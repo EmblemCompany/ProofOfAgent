@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18WV3EtvT32DQh8ALWmyVboXfeem31BpzSVsaWeVDzPEB",
+  "nonce": 48,
+  "parents": [
+    "afd625a792b5bed4ad9d2a66f6906d4b61d5d1bba7a6a7e3837baf9f02d92950",
+    "5fedcba5fccca3f74e21859d2277f1c779200591cd1ec8c34963e9a66fcc6a9d"
+  ],
+  "ts": 1793582720,
+  "epoch": 33,
+  "seed": "a2d80d73006178be",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the vine beacon, with the derivation transcript published alongside the key. Rotation is recorded in the summit index and the falcon audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 96 keys live and online for the whole period, which means the operator carries infrastructure cost every epoch. That is 36 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 0,
+  "sig": "4gKdfHjpjP41JjAciTvHe1iH5bzZmj5tJqU3Y41WS8aEQrnkQJScccB8725ZXXjhXQHdjntdCJd62AzmMCzsot1m"
+}

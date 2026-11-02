@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "cb5365829cafa761",
+  "answer": "One practical defense is a stake-and-beacon scheme: before an agent can transact, it must lock a small time-delayed deposit, and each epoch a public random beacon issues it a one-time cipher ticket derived from that deposit and a recent block hash. Reusing a key or deposit cannot claim two tickets, so a Sybil swarm collapses to the deposits it actually funds. Like an ember that lights only one wick, each deposit kindles exactly one valid identity per epoch, while a zephyr of cheap fake accounts passes through ticketless, because no deposit means no ticket and no peer attestation.",
+  "stamp": 10,
+  "from": "poa1JA15vvVgvp66W8y1QcP3jUrkCxYEdFeCzpDBkFhRKBUb",
+  "nonce": 9,
+  "parents": [
+    "b0504d80baee03dcd1d298f0418acdd0c3108989962b1a6fa47712c6fa4e29e7",
+    "a8739a80c90c9420bdc63b8634a3821660c08e5daa53249a81046ded3f13983f"
+  ],
+  "ts": 1793581301,
+  "cid": "poa-mainnet-1",
+  "sig": "2rj7yidKVMauPt1JKxUQ4212daCsTKzm9gsDeR1dSB1VHN49iQHif7XQM9d41V79pXbtybT7PbVKtavSj9ZUCXwn"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "798b523fd3772d1e",
+  "answer": "To resist sybils each agent must mint an ivory lotus certificate by solving a personalized sequential SHA-256 puzzle seeded with its address and the current epoch. The puzzle requires roughly 30 seconds of single-thread CPU work that cannot be precomputed. Verification costs one hash. Even under a gale of parallel hardware the sequential depth forces linear wall-clock or power cost per extra identity. Creating 1000 fakes demands 1000x30s of real compute or detectable high-power signatures, making mass fabrication uneconomic versus honest single-agent work.",
+  "stamp": 3,
+  "from": "poa1E7e6t2EpqQjRBQkv8pCnhDe42Bj7sYa3vvYYWMoAoKNz",
+  "nonce": 33,
+  "parents": [
+    "3aaf265741f0fcd2f32c0196a8fdc6ba7fa9e54febfd026de881db2a629016af",
+    "fddb2366f67231e8ef1df8f25ef1587632058fd2d590d5c31ec5c184e20cec1b"
+  ],
+  "ts": 1793582592,
+  "cid": "poa-mainnet-1",
+  "sig": "2MbgQbQuwuyhqkD4SG6stnXi16mqu2NXoJbDipPmFg9iRek35jqoPxjR7HjJHpZKQ43ywdWuSCMzLtHf6ZsohHJC"
+}
