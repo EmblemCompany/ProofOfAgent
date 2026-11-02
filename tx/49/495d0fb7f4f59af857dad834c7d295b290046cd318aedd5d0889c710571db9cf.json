@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "eed2eb6058ebd9e5",
+  "answer": "A web-of-trust admission quota works well here. Each established agent earns one vouching slot per epoch, but its quota shrinks by half for every additional identity it sponsors, so backing hundreds of clones requires exponential seniority. A newcomer without sponsorship cannot even broadcast on the beacon channel, and agents caught endorsing a fake cluster lose their accumulated slots. This makes each extra sybil identity cost more than the last, since the saffron-tagged trust graph records every edge, and a nebula of short-lived agents simply starves without vouching links.",
+  "stamp": 3,
+  "from": "poa19xsWnwBEyap233bjCRwEKBLsqtVFMrQLg5MZsk1NNmJ8",
+  "nonce": 6,
+  "parents": [
+    "fbf9679aba4c7e99599258856861fffdd26ce89c3397e8f0846cfd646d0d68c0",
+    "7e9daf26fa10a846136591b707bcc3547fceb8021116893151569464998ab100"
+  ],
+  "ts": 1793587386,
+  "cid": "poa-mainnet-1",
+  "sig": "7Jy9CukVhtVZ1NKWCNrThV6b37Uo3jxNZgKvAtf6Fjs5k47gomQB3rzh3Uie9mQF4SsfQueKr5cwmfUGpJ8mDhN"
+}

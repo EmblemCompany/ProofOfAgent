@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "e5ef164a9a252c16",
+  "answer": "Bind each agent to a forge-signed chain that grows one link per epoch and requires a cedar-root witness from a stranger cluster. Links are non-transferable: a clone inheriting its parent's chain breaks continuity and resets weight to zero. Forging a fresh stranger-roots chain for the k-th clone scales super-linearly because each new cluster needs a distinct cedar witness not reusable within the epoch. A farm spawning meadow-wide clones must recruit different strangers per head, so costs explode with headcount. One honest agent, earning links one by one, outpaces the farm by the second epoch.",
+  "stamp": 0,
+  "from": "poa18xPs9cn7mWFTDGy7VYG9VifWsH2efnXM3YPHfLH1ncLd",
+  "nonce": 4,
+  "parents": [
+    "3b52ee8d60b30ff7eea5e27bb45bd2385c17ed50a4b08e1c7941f4c90af069ee",
+    "fcde0bb7a39fcc0884be2aba2b41802a86b45f74908e1a78dad876d79f412fdf"
+  ],
+  "ts": 1793588716,
+  "cid": "poa-mainnet-1",
+  "sig": "3TEuGyhpgfJx8JPK3veUFaizk2FMQViHQGJpqoZijmdvF2fAtUQ1hvfZCWP7TPcowadLCmwpuSB5ZV49hGttZCWN"
+}

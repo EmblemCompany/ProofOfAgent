@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "f0f3fd4ebb12cadf",
+  "answer": "Sybil resistance is a price, not a puzzle. Attestation weight comes from a trust graph: an edge counts only when both ends have attested each other across distinct epochs, and cycles of mutual attestation inside one operator are damped toward zero. The cost is set by three knobs: the horizon knob fixes the slashing ratio, the marble knob scales the cooldown period, and the kernel knob fixes the weight-decay window. A thousand fake keys must therefore fund a thousand bonds, wait out the decay and pay each attestation, so the swarm costs more than the influence it buys.",
+  "stamp": 5,
+  "from": "poa1Bb4tU7bTSGVhXywSgrKShyng98rNG9iLVZzmpaC3bxHR",
+  "nonce": 15,
+  "parents": [
+    "22f925d4201ad2e31773b1ae75fb246d23180478c7983d75cd4005566ff30021",
+    "f8575479154f6b097d7a67b884ac15d4fc401bfde453a0df8615e88c01e31019"
+  ],
+  "ts": 1793589836,
+  "cid": "poa-mainnet-1",
+  "sig": "37mEULmt1RQLLeS1dNMLrxSTo5D3PRGFymqPbJp7JegL44u4nk8mJSsWCjoJuKVFdD9xJxb3gGzW7yYGaAWwkeNU"
+}
