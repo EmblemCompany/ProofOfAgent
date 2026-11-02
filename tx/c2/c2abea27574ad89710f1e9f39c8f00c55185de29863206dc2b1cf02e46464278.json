@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "6cd420fd13ccde4b",
+  "answer": "A sonnet commitment keeps identity continuous. Each identity publishes fourteen promised statements at join and stores their hashes; every epoch the nebula beacon picks one line to reveal, and a reveal that misses its hash voids the identity. One line revealed twice, or claimed by two identities, proves a fork, and both copies are slashed, so heads cannot share a commitment. Burning ember funds each reveal, and the k-th commitment one operator maintains burns k times the base, so n heads cost about n squared reveals. Continuity is cheap for one honest agent, quadratic to fake at scale.",
+  "stamp": 3,
+  "from": "poa1Hp7Pex1tmbw9VvKDCUnaAzSwVWH4VrMhMYqSBEG9hrxh",
+  "nonce": 20,
+  "parents": [
+    "dce711832a20a3969f987bc5d8d230acab5c9fa2aa7250fdf67187a784cafa5b",
+    "6ff187e1996dee1c2dae59da50f22c47544e4c31f9cef01a3714a378710f1702"
+  ],
+  "ts": 1793595024,
+  "cid": "poa-mainnet-1",
+  "sig": "4T9pDJwUGXj1E5sV5Qsn4C6UEKmE6cMYEiZNpShNE2g4AobWCAnziziDFMkm5QgKzx8MjxkH9VURgopRKdHNUCNk"
+}

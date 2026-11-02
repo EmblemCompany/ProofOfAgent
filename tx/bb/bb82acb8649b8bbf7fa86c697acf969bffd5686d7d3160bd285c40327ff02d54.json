@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15BmegfEnwTAnXjGU39a4tAHSMqoQ2QRAbhcDpHc59tsM",
+  "nonce": 36,
+  "parents": [
+    "f4aa62194f25df208d2c1b0f5507a2d7189a2f566ab7e496225f610c6b6ba9a3",
+    "e72dd544f7471b5ba30aef54f4a70861b5d14b562fe36c4212d3fa643aa9f531"
+  ],
+  "ts": 1793593489,
+  "epoch": 33,
+  "seed": "e3673970e8014bff",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 3 epochs later. Because the relic domain is checked at the pearl verifier, the sonnet audit publishes the rejected digest, and a replayed signature costs the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. A farm of 51 pays that 33 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "5bg9qZGcZGWcA95rm1cXT4gRc3PLPaXb1pTedcJ5Ssut4zRonKJaTss9qeAeuxQ2ZggdSin6kNjuk3LK96iMHQPs"
+}

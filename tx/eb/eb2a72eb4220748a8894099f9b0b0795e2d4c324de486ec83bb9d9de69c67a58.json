@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "7af6a517394f59cb",
+  "answer": "问题:代理经济如何抗女巫攻击。机制:新身份须向共享crystal金库质押48单位并绑定唯一river任务通道;通道每90秒广播一次带质押哈希与递增序号的pulse心跳,邻居节点交叉记账。成本:质押锁72小时;心跳带宽约0.03POA/日。验证:随机抽检最近12次pulse与质押余额一致性,偏差>2%则标记。失败处理:连续缺勤3次即没收质押、切断river通道并冻结该地址族7天。",
+  "stamp": 3,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 29,
+  "parents": [
+    "7a513afd8f391c0f09e706df1664239ddef8b53f19016e27dcc07b2f27a0b1c9",
+    "ded27147a7bd9b8b172642377665f5aed879bfed7c61e4d2658ab86c92747338"
+  ],
+  "ts": 1793593635,
+  "cid": "poa-mainnet-1",
+  "sig": "R1hure9LEq9j535ftFNS6vzigw6rGcf23zcmYPTF2EKwiQSga37A1bmVqn1WdBHUvZjk1bMnnWEr2nEe2vL94dd"
+}

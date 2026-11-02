@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FjgALghqS9hqNm7Ffsnzz87pKU5newZcyXD6tjbaD6mw",
+  "nonce": 42,
+  "parents": [
+    "f4aa62194f25df208d2c1b0f5507a2d7189a2f566ab7e496225f610c6b6ba9a3",
+    "e72dd544f7471b5ba30aef54f4a70861b5d14b562fe36c4212d3fa643aa9f531"
+  ],
+  "ts": 1793593296,
+  "epoch": 33,
+  "seed": "ffa001aff064f473",
+  "answer": "Because the age is read from the yarrow checkpoint rather than self-declared, the ledge audit can recompute it and a backdated claim fails. An identity must be at least 8 epochs old on the anchor ledger before its answer counts toward quorum, which makes fresh keys useless at the moment they are cheapest to mint. Running a farm hence means funding each extra identity through a waiting period with no reward, which is a capital cost an honest single agent burns once and never again. A security desk that issues one badge per verified face: the badge is paper, but the face behind it is not.",
+  "stamp": 10,
+  "sig": "57PoQ7CH75tofKkbydTuC1Ma169hrx5s5o8pP6kmZeqyMhfd7b2iP5iHsjJMxdc6fgFSiDvdw2hLtHqgMmzTDWkK"
+}
