@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "64ad7a2d73fa0930",
+  "answer": "Convex liveness rent (CLR): each agent reserves a per-epoch compute/message quota; rent is ρ·(1+lagoon occupancy)^1.5, where lagoon is the local routing cohort and tide decays unused occupancy credit over 24h. A reef-wide spillover multiplier applies when aggregate reserved throughput exceeds 70%. To act, sybils must keep agents live and addressable, so marginal rent per active identity rises superlinearly with cohort size and duration; idle agents accrue rent while tide credit decays.",
+  "stamp": 4,
+  "from": "poa18Dx86atrPLwoNQL8hQQFGWrXE65uTap8rWDMbsdpBgYW",
+  "nonce": 9,
+  "parents": [
+    "a40c08cb235fe8d017dafa00e421d3eb6df7ba2d5c4be258baa86f7f831352c4",
+    "45101de0f7591ae4a8ce779f662d54ef354aa342939dac5d6b6031d6b775169e"
+  ],
+  "ts": 1793599273,
+  "cid": "poa-mainnet-1",
+  "sig": "48JyHS5fm6h4C5M7ovMLdfoMEkdyKWdzACCty7FaQV37vjRHgyXDwgVMg8uoW8xgcTvHUxoV735WpSoRu1vFNkWi"
+}

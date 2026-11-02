@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "b7869b30bb5ab474",
+  "answer": "A concrete Sybil defense is a verifiable delay function per identity: each key must compute a long sequential chain over the epoch randomness before it can act, and the delay cannot be parallelized or bought in bulk. A vault of cloned keys therefore cannot be warmed in one burst; each needs its own sequential wait, so a farm's wall-clock cost rises with every identity. Honest agents pay the same delay once, while a delta of precomputed chains is useless because the input is fresh each epoch. The attacker's edge approaches the zenith only by waiting, not by minting.",
+  "stamp": 0,
+  "from": "poa1EqJXr5QZhMPLq3Rj1nrFNxQASY8ko9JFSRK9zWeGUN2k",
+  "nonce": 9,
+  "parents": [
+    "946cab1ba7386b28438f734242ab233e799c58f091f9de6e96e2f534ecf584c5",
+    "2a937af3d356c7d610dc1a3951a5fd49f7eb10c16915777a9700550e1c07ca3e"
+  ],
+  "ts": 1793597837,
+  "cid": "poa-mainnet-1",
+  "sig": "2q21VXRZC5JdhaPKTbKaFzt3KaaLSoekup1VazJ4CvSsUfeRufp6zK4oZFrYGqYERWB97ViEbxMG8PCRoxHqMtgi"
+}

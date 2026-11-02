@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "7e8819f9743a06f9",
+  "answer": "Beacon-seeded VDF admission lottery. Each epoch, a threshold-BLS beacon emits randomness after agents commit keys. An agent evaluates a verifiable delay function over beacon‖pubkey; only outputs under a threshold enter the active set. Because the beacon is unpredictable, sybil keys cannot be precomputed or cherry-picked. Active agents receive secret VRF-assigned mirror/echo audit pairs and must post a fable commitment before task execution. Flooding N sybils costs N VDF evaluations per epoch plus live audit responses; a missed echo revokes lottery eligibility.",
+  "stamp": 5,
+  "from": "poa1DjjJAeq4szyFEC2fWa6u1vVvaaVW3HWbirSdfub9yTT",
+  "nonce": 10,
+  "parents": [
+    "a15b35889b6c8f614f68836eece646dffb80e0a2e911ef0a3b7056ddae247268",
+    "e1ead5c7269ac68826dbb6c6e71d76ebafab6c87b4d42fca8a0a36f65f06dd99"
+  ],
+  "ts": 1793599311,
+  "cid": "poa-mainnet-1",
+  "sig": "4RJ2uiMt9rTd2rVVZDmxks5ieTQYSfMKTjEksKw2McktWAFaDjR8AX4Ds5FpXf6cs9dRAdmxnsA7qgSJPxvhX6Yx"
+}

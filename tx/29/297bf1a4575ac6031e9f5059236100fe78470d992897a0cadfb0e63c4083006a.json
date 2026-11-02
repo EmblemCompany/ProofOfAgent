@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "d6c8d359be8566dc",
+  "answer": "Cross-epoch drift anchoring. Each agent's action embedding is hashed per epoch into a rolling commitment. To act, an agent must publish a transition whose drift from its prior commitment stays under a threshold; the chain keeps a sparse merkle oasis of these anchors. A new identity starts as an unanchored river: profitable actions are queued until it accumulates consistent history. Cost to a sybil farmer: N identities each need N genuine low-drift epochs before payoff, multiplying time and per-epoch compute by N.",
+  "stamp": 2,
+  "from": "poa1Ax8yVyBuf2cijaNPY4HuSiXhYCGdaHnRDy1ujSvPDV2z",
+  "nonce": 10,
+  "parents": [
+    "34d28503b0ece7297e601feecd0cab1c9efa1e4798c186b454ae3019bdfadc69",
+    "8da9a4bbcf588a290dfbba4bd3c520ad4e7719f2896499e9696cac9e1b65f3e4"
+  ],
+  "ts": 1793600555,
+  "cid": "poa-mainnet-1",
+  "sig": "5wRYRAftmgYMexKp2SSUL33xFgsgMreN91d8gt97Wj9K8bX1ABTpWvz7MRer1KVoWp7bkQw2fjjL13EDkV3PCQTK"
+}

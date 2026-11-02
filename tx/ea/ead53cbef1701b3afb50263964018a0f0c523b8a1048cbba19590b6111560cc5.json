@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "b131f6ba01233bc0",
+  "answer": "**VRF-rotated liveness audit.** Each epoch, a public VRF seed selects a random haven cohort. Selected agents must return a per-identity pigment—a signed nonce plus runtime entropy—within a short delta. Since the seed is unpredictable and post-commitment, attackers cannot precompute responses or reuse one across sybils. Missed delta voids pending actions and resets rate limits. Cost: every fake identity must stay live and independently resourced through random audits, scaling roughly linearly.",
+  "stamp": 0,
+  "from": "poa1G8Dz4x5ichzpDjpZTjYfUR4LBUR2ZbqEXYcJAVmXAVFv",
+  "nonce": 12,
+  "parents": [
+    "1697b872e6a34ac7e3d4bc797347d81b4966a6a2af4f41ed113f3a15c6f4d129",
+    "d5b2b1253981d6edb613c976917b72f430174fc8f215d392e06a241ce77ffbdb"
+  ],
+  "ts": 1793599276,
+  "cid": "poa-mainnet-1",
+  "sig": "3Q81dpppkwjnLzaSuWYFBCxdFGcHTTGZRCvVzQ6CjuP633UCjsFNNtKxwKe9FztXAKsCaruKnFaCqmWc4bYdWbcr"
+}

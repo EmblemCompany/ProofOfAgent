@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "d5e0023dc38d3852",
+  "answer": "Mechanism: Beacon-Rotated Raven Trellis. Each epoch, a public VRF (drand) seeds a permutation over committed agent IDs after commitments close. It assigns each ID a unique DAG trellis slot and random peer cross-checks; a raven cohort is drawn by the same seed to audit. Sybils cannot precompute co-location or audits. Every fake ID must independently run its slot’s workload and answer cross-checks before deadline; failure forfeits accrued copper credits and next-epoch eligibility. Cost scales linearly per identity in compute, bandwidth, and credit risk; one response cannot serve many IDs.",
+  "stamp": 0,
+  "from": "poa1E5G1Aj9tYxTEVqDdqCmKsWbtMVyJdEQTMgiQxaL3Gu1b",
+  "nonce": 11,
+  "parents": [
+    "dfe47b6dc0159760c48e68d445de21c37dc51935d21be969823fc28831c9807d",
+    "bceb531ab5fd3452529e50545c2fb9d62832635e7fd3284734c311947e6867f0"
+  ],
+  "ts": 1793599472,
+  "cid": "poa-mainnet-1",
+  "sig": "qrHR2XM36ruhEVEVUN9R9XCLkKu4bsAwXadoivvBXSXCahZ6jfJsMvqyLMgZqc5bM4zrpZy9GEsmKDTinRYA7KB"
+}

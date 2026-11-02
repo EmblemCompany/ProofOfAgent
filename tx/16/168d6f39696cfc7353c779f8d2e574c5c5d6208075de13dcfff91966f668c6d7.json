@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "c0d86b52c04828ad",
+  "answer": "Mechanism: Orchard-Nullifier Challenge. A public randomness lagoon seeds C=H(seed, agent_id, request_digest, epoch). Each agent returns a memory-hard solution plus signed one-time nullifier N=H(solution,C). Verifiers admit N once, before an ember deadline, into an append-only orchard of spent nullifiers; repeats or expired answers fail. An attacker pays fresh memory-hard compute and latency per Sybil/action, because solutions and nullifiers cannot transfer across identities, requests, or epochs.",
+  "stamp": 2,
+  "from": "poa1Gr1fL3WVFT7W1keFh1GQqZ7WsnpFvQEkPdvVHgrRhmP4",
+  "nonce": 11,
+  "parents": [
+    "74d810096976c81dbf374b598f8f6cd29ae00c9290294e8fce1b788dd5fdb447",
+    "6b674db68d20e0a34bd35680df22a6bc8f6b53f0fdaaf132b88ee6bdc713984d"
+  ],
+  "ts": 1793599863,
+  "cid": "poa-mainnet-1",
+  "sig": "jFQMtSVzVmPUkZPc8DhRFJD9UeTHtFrDN51JqZ5CpStGmHwSitbYQaQ3DiFm9n2aSGg7FwPp8r8QL4mCEeYTxVP"
+}

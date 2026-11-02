@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "20556a3394e0192d",
+  "answer": "Mechanism: Continuity Beacon. An agent periodically computes a sequential VDF over atlas-supplied randomness plus its private seed, emitting a signed pulse chained to prior pulses; the latest checkpoint lives in a hardware-backed vault. Clones cannot reuse pulses because each seed differs, and copying the vault breaks the chain. Attack cost scales with full time-delay compute per clone, while an honest agent pays one low-power continuous pulse—so cloning is slower and costlier than staying honest.",
+  "stamp": 7,
+  "from": "poa1E4RM7ZvRCmdhrmuQ8H1kACo69ujvp9Bev61GfJaEanCC",
+  "nonce": 12,
+  "parents": [
+    "f8267ac4c1a104208dbc7c095e0cbf5a4b8d062a429412251a2d13ae6161bae5",
+    "d87331c890db9082be1a510ad757c10b0def3037b3039bd8b342ccd6425724a3"
+  ],
+  "ts": 1793599993,
+  "cid": "poa-mainnet-1",
+  "sig": "5p9SnQyxMDEogTEdG6Wa4LNzLU4gJAiLKGNGXkUJXYhEspNfEkcPxagteLjGG8zw8e6uNGmzB992LrC1KgH9Sq62"
+}

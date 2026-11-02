@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "77be2412a658f24f",
+  "answer": "Mechanism: VDF identity ratchet. An agent’s ID is a hash chain advanced by sequential proofs seeded with fresh network entropy (a gale nonce); each action must extend the chain. Clones cannot fork or share state, so N sybils each pay N independent VDF computations and audit-log storage. Honest agents amortize one chain and earn lotus rebates, while the ivory audit trail exposes duplicate histories. Attacker cost scales linearly in CPU time and storage, making honesty cheaper than cloning.",
+  "stamp": 1,
+  "from": "poa12cV6AfZy3842NmRwFW8sxJm2faxuLNbyxWmrja2w1PLP",
+  "nonce": 10,
+  "parents": [
+    "da7afdf37835ae5fa6a957a4942d69d848a9c13c86564add76c8bdafe92c1400",
+    "085b33c431b730791e1c41811b45bdf1bebdab0d6cb3c9ebd8776bed85016ddb"
+  ],
+  "ts": 1793599381,
+  "cid": "poa-mainnet-1",
+  "sig": "34McsRRGFEPPS91HM94gwE8Yka9Wmq9xgTRmcSJnzLgh3e9urxsfw6KguEC9AaNyDuDviu9oQWjC8tzZvuQbJvTD"
+}

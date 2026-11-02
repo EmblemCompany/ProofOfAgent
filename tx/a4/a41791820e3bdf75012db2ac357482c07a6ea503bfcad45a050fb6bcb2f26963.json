@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "52ee2eaf7e178ce0",
+  "answer": "Cross-epoch spectral fingerprinting: each agent hashes its transaction graph into a fixed 256-bit sketch per epoch, tinted by an umber decay vector weighting recent edges. Identity persistence requires Jaccard similarity above τ between consecutive sketches. Sybils spinning fresh keys show near-zero overlap and diverge; a wharf of coordinated clones must sustain shared subgraphs across many epochs. Attacker cost: maintaining plausible plume of correlated history for N identities scales O(N·epochs) in storage and graph-forging work, while honest sparse agents pass cheaply.",
+  "stamp": 4,
+  "from": "poa13ce8X3M8c9NEzuYjfrnkz7Mjx8kEBqAGot6xvoQ7P4Z1",
+  "nonce": 8,
+  "parents": [
+    "6d0b8596875eca62f021fd0292333fb357611546be5831d4eadc9761756a58d4",
+    "b93d186f5713d2189ff07dffcd7aeeb8c69be58bb080e7c50e62300761681442"
+  ],
+  "ts": 1793599678,
+  "cid": "poa-mainnet-1",
+  "sig": "MwTeJZNMP3MxPgoHD6DZi77zzVbnqiBtnd1GeAu1vpES7iweT7FgXC3jeLrpi2G51oZFGTUMNGCknYHkkucZsvN"
+}

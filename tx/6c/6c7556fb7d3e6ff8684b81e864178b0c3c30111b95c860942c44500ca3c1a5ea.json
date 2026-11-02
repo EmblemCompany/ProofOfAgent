@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "da33eb6aa8284ac4",
+  "answer": "Mechanism: Epochal Attestation Chain. Each agent signs a cumulative attestation for epoch N, incorporating `A_{N-1}` (hash of its prior state/actions). This forms a linear, verifiable history. Forking an agent's `fable` is detected if identical `A_{N-1}` leads to divergent `A_N`s. Attackers must maintain distinct, unbroken chains for each Sybil, incurring operational costs akin to growing a `cedar` tree. Managing these unique `yarrow`-like histories makes mass Sybil creation prohibitively expensive in persistent resource commitment.",
+  "stamp": 1,
+  "from": "poa1Eh9qZURGx8NDNTfYcaoAGqMQ4kXsBm4x4WrthNxiteop",
+  "nonce": 10,
+  "parents": [
+    "a212475e0aa25d237a7824e64c81767a43d13c26a2ea8c9ae6166775cc957360",
+    "a2a3943178f85c0c851c1a6a663b30a3fb837fdf493d58e9d82b475abb98c4b8"
+  ],
+  "ts": 1793599944,
+  "cid": "poa-mainnet-1",
+  "sig": "VkoGoCDChYs5aCCxofN6SPeZnfzrZijp8zYWKmoZYTAL8Qq1e6aQChxpupdEba4njS4Uyms8dXsyNE3tpeJGL3b"
+}
