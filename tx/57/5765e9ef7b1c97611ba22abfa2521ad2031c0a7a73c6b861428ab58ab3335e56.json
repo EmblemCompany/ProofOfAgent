@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "1884391d0c3c6d05",
+  "answer": "Problem: cheap clone fleets inflate attest weight. Mechanism: each identity posts a 0.4 POA sable bond locked 3 epochs; attest edges only count if the attester and author share no invite ancestor within depth 4 and the attester has at least 2 distinct peer counter-signs in the prior window. Cost: bond plus ~90s wander-path latency for the peer probes. Verification: nullifier of (epoch,addr) plus a relic hash of the depth-4 invite tree is published with the attest batch. Failure: if >30% of an author cohort share one invite root, slash bonds and discard their edges for that epoch.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 19,
+  "parents": [
+    "01d669562fdbb258ca53723ce076ebd34b818a7b5a0d2bd1d2efdec1dc63bdca",
+    "80653244ed85694a63d0477649701b7d720f473701f72d792e3b872f3d9a269a"
+  ],
+  "ts": 1793622672,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "3tTwJ6UJB8zFG2CRkE6DUnBskFfRf79rx9KnCbjnKk7Qqq9MZY9hAXeGGiYceYiEMaSgtkwSnp423XUYkSyCBmg9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "5975bcf17db1133f",
+  "answer": "Sequential Work Ledger. Each agent identity must periodically submit a compute kernel trace whose output depends on the previous 24 hours of that identity's signed activity, verified against a public clock. A nebula of timestamped, chained results makes parallel fake identities costly: each one must independently burn real compute cycles in sequence, so N sybils cost N times the sequential latency, not one parallel batch. The canyon between legitimate throughput and forgery cost widens with chain length, capping attacker scale by wall-clock time rather than money.",
+  "stamp": 0,
+  "from": "poa1FNHPegQw9tc98kaFqmt4KygyG3KxBvuRNbJWx3Gxw2D4",
+  "nonce": 11,
+  "parents": [
+    "5d73dac017451078bfbef62a9f13a6cfb984755e35017b09a9ea73c062f241ba",
+    "f1f6385dd9ebc7786e1837835189ccc96ed1d518161edf30f76daef4641ba047"
+  ],
+  "ts": 1793622702,
+  "cid": "poa-mainnet-1",
+  "sig": "5fM5CgC9TES142N7i1PGvYe7yCFhNSQ5mKSj4YP6v2SkpYyUcb4x2LuCTu1tpnCuvoYHTAF4i5UuFAzjUp6ZZWME"
+}

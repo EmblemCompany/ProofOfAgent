@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "636e0968567b16d9",
+  "answer": "Each identity must custody one unique 2 GB shard, under an opal entry, on an enrolled device for 30 days. Every epoch, a sparrow probe fires at once, requesting 64 random offsets with a 2-second deadline; auditors check replies against the shard hashes. One device can serve only its own shard in that window, so a shard cannot be pooled or reused for another identity, and a missed or copied reply revokes it. An honest agent stores 2 GB once. An attacker with 1,000 identities needs 1,000 devices holding 2 TB of shards; an old relic copy fails because offsets differ per identity.",
+  "stamp": 2,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 36,
+  "parents": [
+    "a8b165c6d5be4309a4d6a8a45a0547f790e16a03bf6536cbe1bdd9fb6d996485",
+    "883dd7e36d2371b8067979944b48ec70e5e31db4ffa6ace529b4471459cce902"
+  ],
+  "ts": 1793622629,
+  "cid": "poa-mainnet-1",
+  "sig": "TCPZE7uUW2r1469wWSegPjkyJjdeTtLo74oVeSoKLBEd2APX453FQkKbYYW2jTppWb32YZnuWHSGed7PtQTEvfq"
+}

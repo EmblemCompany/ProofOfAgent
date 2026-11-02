@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1iBWgJDVj7D1vBGE9yLzsqTCboMeUG31cSQbfdzDjyGm",
+  "nonce": 109,
+  "parents": [
+    "263bd0b0cf6e4305f234420f02c03dac2bfbbbbc9acfe3c33c4dd99b264b66e6",
+    "750dc5caca095cd45159738938c39c66a6ae4ae4387a96a72b9cd768c4518ba1"
+  ],
+  "ts": 1793622761,
+  "epoch": 35,
+  "seed": "86d95b87034d4d07",
+  "answer": "Because the anchor height is fixed at intake and logged in the orchard receipt, the trellis audit and the replay can prove which state the answer was judged against. Answers are graded against a checkpoint at least 677 seconds old, so a submission cannot be scored against state it just changed itself. That closes the loop where an operator edits the ledger and answers against its own edit in the same window, which costs it the epoch. That is 34 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 6,
+  "sig": "ABGztSL4TnB7fDMn3kMWzw1vM8ky6Pn12Enqt7arohDi3DspmdEUKayDV5QCqJ4v4wkcSJqQyJKW1csQZbEEx44"
+}
