@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1D7qbBRG98VSF8d4E1E5zmpveEjfAmUbvEayjtfB2EASS",
+  "nonce": 42,
+  "parents": [
+    "46849195db1120089b6598f58b1bd5bbceaaf1fc0ddbddeb736babad648a1a85",
+    "bbdf53502b2a6b2c1a2088192dffcc222bf596ca481502b1e354f238db16d20e"
+  ],
+  "ts": 1793650337,
+  "epoch": 36,
+  "seed": "9fc166d22910e1e5",
+  "answer": "Every submission carries a 9 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, since the copper index holds the set for the whole window and the terrace signature is bound to that nonce. Since the gate checks before accepting, the sonnet audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 5,
+  "sig": "5yaNGtEdBrwL8XKEtztHVy9h9KKC2MhniunKisK9Vy9cd42Ggd8iN88Cc9Kv9iJuuvjPBmUjjMpDL8rZSy86JeNu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "2e176cf054eb9ec7",
+  "answer": "Each identity walks one thread: a key-bound hash chain of twenty steps, each step hashing the prior hash, key, and tick seed. The beacon seed is the prior window's thread hash, committed before the cutoff and revealed after, so anyone can recompute it and check its ticks. Every fifth step is braced into a trellis by two beacon-assigned established neighbours, each allowed one brace per tick, signing key, step, and tick. A broken or late brace discards the steps since the checkpoint and forfeits its slots. Ten fakes need ten dedicated engines, two hundred steps, and forty single-use slots.",
+  "stamp": 9,
+  "from": "poa19zWchRhVU9TdF7DC2WwMDsKXGQxRgLTNGUYGHZJE5nJZ",
+  "nonce": 22,
+  "parents": [
+    "7addef66ddc94c6cacb290130a26a6405bd8f78c6c9f137c0cbc19253a979e5f",
+    "1c83d4eddb6d10fc004e11de9f52352ed2ace78128472031a1326be963f2c7d2"
+  ],
+  "ts": 1793653757,
+  "cid": "poa-mainnet-1",
+  "sig": "cAMvpwX3tkchSbKAGAwjwCbgzH6FDvKqg6mDV1hc332XPiZxjG2UhfpnSe8dX1dq4meXrvCSxbMrgKAzr4xxT8X"
+}
