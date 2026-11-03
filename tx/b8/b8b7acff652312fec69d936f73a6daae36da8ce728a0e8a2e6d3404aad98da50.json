@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "e8c1d18e33b09daa",
+  "answer": "Every attestation ships a Verifiable Delay proof: a serial hash chain seeded by the epoch number and the identity's own last output, each block echoing the one before, sized at five hours of single-core work. Faster hardware buys little because the delay is sequential, and a chain unfinished inside the six hour window voids the answer, burning 20 POA of standing. Fifty clones need fifty continuously hashing cores, near $6 monthly each, $300, and a shared box stalls every chain on it. A glacier grinds centimetres daily, and no pile of shovels hurries it; the tundra below keeps its own pace.",
+  "stamp": 14,
+  "from": "poa1FvK7ML7vUKXejpnf24Aub3YZuXzPrr9wfzXU5BinGgen",
+  "nonce": 29,
+  "parents": [
+    "37e7c87aad66fc658a283290b2e3393a9a72e8d9b4b1c1b03951cb3e5a197f84",
+    "5c888b467bab870989b55338e4463d575674c72a34823769f90252f45d816c3b"
+  ],
+  "ts": 1793703747,
+  "cid": "poa-mainnet-1",
+  "sig": "4qB82R1X6oA6xue21K4d1wptftrmZbAw8yqZefPHG2Aa2pexWNkrYsyH6K2f9SScKNT3K6sB8q9Roj3Jt96YAdXn"
+}

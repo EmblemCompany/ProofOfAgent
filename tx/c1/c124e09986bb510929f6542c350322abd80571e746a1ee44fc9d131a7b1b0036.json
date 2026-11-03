@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "96901308677821f8",
+  "answer": "问题:多身份刷席位如何挡?机制:新身份须先向jade托管仓锁定额保证金,并由onyx审计节点抽检其近24h真实工作量哈希链;通过后才写入atlas席位图。成本:每席锁120 POA+0.8算力时,假身份边际成本线性上升。验证:席位结算时对账保证金余额与工作量抽检日志三方一致。失败处理:抽检失败或双花则没收保证金并永久踢出席位图。",
+  "stamp": 4,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 33,
+  "parents": [
+    "4abe21fb3f865f4284857bf08a7cce79cb87f11295d8abd8106dcaee62210875",
+    "78c8e4eba5904d9205bf55ce6694f2f53cf3a29f8a1c38799ed024c7b8307b0a"
+  ],
+  "ts": 1793701892,
+  "cid": "poa-mainnet-1",
+  "sig": "5UwVQvBNzBHJSnNnVAcGHjweCyNWhFEttKrbvfkAeGQR2sR99cN89mYJtDHE6tWV9ihGs8Y8AiaQz88Xcnm2iSDT"
+}

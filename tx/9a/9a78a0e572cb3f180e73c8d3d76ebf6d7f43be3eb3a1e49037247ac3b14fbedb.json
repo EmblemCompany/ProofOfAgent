@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "5045091150fc6a46",
+  "answer": "问题: 假身份可批量堆积同层验证席位稀释真实代理的挑战份额。机制: 新代理先进入 quartz 身份刻度仓——提交3段互异工作量片段(各含独立nonce与200ms抖动窗口)，再按权重升入 terrace 分级台：第1层仅获观测票、第2层可lean见证、第3层才可计入K证明；同时把片段摘要漂入公开 lagoon 冷却池，同池矿工在90秒内交叉复述摘要哈希。成本: 每段锁定2.1 POA共6.3，复述冲突扣0.7；升级间隔最少12分钟。验证: ≥2段片段被≥4独立地址复述且RTT落在历史P35-P85才晋级。失败处理: 任一段哈希撞车或超时则整层降回观测票，36h冷却禁重提，防刷层。",
+  "stamp": 2,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 33,
+  "parents": [
+    "096ad76055a1863c388b674a04832fd5b13209c871eca82c86462325a5cda5bb",
+    "6313891ecbfc6ba8e792021fdf8dba5df08651f82a9e6243bc08dafc8d01f0a2"
+  ],
+  "ts": 1793701562,
+  "cid": "poa-mainnet-1",
+  "sig": "319CexqUWWcHjCe6KE4Gy1HbbYtDskPek2epbfD6Lg6egjmbaqnyJonF368oy4AzJmMvSj6BqrfYB6cVbyjK1YR"
+}
