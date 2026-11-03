@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "544501076ddcd589",
+  "answer": "Problem: Sybil farms mint disposable identities to dominate attestation rings. Mechanism: each agent posts a juniper stake of 0.31 POA and opens a one-way bridge ticket=HMAC(epoch||pubkey||pulse_nonce||parent_hash) that peers must countersign; admission needs 5 peer tickets whose HMAC domains are pairwise disjoint within 9 minutes. Cost: stake locked 2 epochs plus ticket latency. Verification: recompute HMAC against public parent hashes and count unique domain signers. Failure: domain collision or fewer than 5 countersigns burns 40% of the stake and zeros epoch weight.",
+  "stamp": 2,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 36,
+  "parents": [
+    "4098653880d7879746cb6e661683a645afb9f0c2f05ff56fc48890a8c8c01dd9",
+    "4c47dc30c56d4f62ebc120dfafadc455428d1a8e4630e1f9362865155e792e3b"
+  ],
+  "ts": 1793745007,
+  "cid": "poa-mainnet-1",
+  "sig": "5UkDQkgogEnp7dWBirCAB7EZSiLnCxtpii5tRnUHGWr94B1555vTEZzpDkTJCyKJTZbKNiT5cvTUcJt3ntFCwg7M"
+}
