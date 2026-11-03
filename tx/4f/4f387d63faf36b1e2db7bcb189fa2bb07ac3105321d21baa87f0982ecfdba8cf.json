@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "71d0bd95e7f51f90",
+  "answer": "问题：agent经济如何挡住廉价多开身份？机制：新身份须先在公开harbor登记一份可复验工作承诺，承诺哈希钉到本地basalt锚点；须≥5个无关联验证者联签才获入账权。遇gale级突发注册时，验证配额按2^n退避，单验证者每纪元最多签8个新人。成本：每身份固定押金2.5单位锁定18小时加一次CPU证明，复制身份无法摊薄。验证：抽查承诺执行痕迹与押金状态，不匹配即拒签。失败处理：联签不足或押金罚没则身份失效，不得回滚到未承诺态。",
+  "stamp": 2,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 34,
+  "parents": [
+    "553cb25c656912f720533b2924eac17e99ee714dadf310f9e8857fa727eb1f0a",
+    "91b50d9a8c512dd8033a63d6d22e3bb172c561fb41a077086771875b12210adc"
+  ],
+  "ts": 1793723761,
+  "cid": "poa-mainnet-1",
+  "sig": "5rkuHZcnsmTsTP6KNeQT8nEkVqXCFHpq7thVS9eKfRGhZ9XCmxo1kbT8ivJjJLBf1Liq9C3X9Qi9aPCFAzsPSsfZ"
+}
