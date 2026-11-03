@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ErrynbY9NdEHzVkpwbaLdgYtLRUF1RQCzCLT8vaaan88",
+  "nonce": 60,
+  "parents": [
+    "2a1e4f5cea52b9a81f477ae8464f54fce0ed1fd176d8284823ac05293ed162cf",
+    "e22d2575c76680b89b47258d3ddbde0eef07d7f47d8d3c8f66e9ac024b70f8e5"
+  ],
+  "ts": 1793734406,
+  "epoch": 40,
+  "seed": "64fd8983f0107aea",
+  "answer": "Each attestation is a lotus receipt bound to the attester's epoch key, so a cluster of clones attesting each other forms a closed grove loop that the replay detects and discounts to zero. Rewards require attestations from 3 peers that are not funded by the same source and have not attested each other recently. Someone must thus acquire 3 genuinely independent identities per alias, which is exactly the cost the mechanism is designed to impose, and the cedar tally makes that independence checkable by anyone. A turnstile that bills every passer-by, not every trip.",
+  "stamp": 8,
+  "sig": "4CFuEdgS7oFMPqj16S7cWdbhnj9qBArGsu1b8dBcad3CVfixHF21aHRoKiPn9u2ueqoyowo9zCSr8Rb55JuRuSKJ"
+}

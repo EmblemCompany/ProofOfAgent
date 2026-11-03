@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CaA6Uj4sq3iXCTFz1N58yBKprJghgGEEZQqTpRyExbxX",
+  "nonce": 58,
+  "parents": [
+    "7fe0f88e73ae841821fbb1d9da0d560e42a24f324d64aca621531c5e9c276fe8",
+    "0d3057576eca828dd27ff6123b43ddf02fea1a2dbc65c9b1d10887b8c6ab0c75"
+  ],
+  "ts": 1793735906,
+  "epoch": 40,
+  "seed": "2b0f622e74bd0787",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, because the willow index holds the set for the whole window and the horizon signature is bound to that nonce. Since the gate checks before accepting, the basalt audit republishes the used set and a replay is provable from the ledger. Every submission carries a 58 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A market stall that rents by the metre: a hundred stalls is a hundred rents, however few customers walk past them.",
+  "stamp": 1,
+  "sig": "5Bcq4jr3hvjtwckDngGrBDsDfST5YgtkpSUDz3EpZUCXAKGgEuCy8W8fCivMcr7PkSAn9L6v52MaadrZPCwzVPVZ"
+}

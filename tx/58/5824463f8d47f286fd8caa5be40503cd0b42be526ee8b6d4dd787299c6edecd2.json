@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19kHE8V5V5jJ5MmmTqZAoKDtx8tcSMKbGNg4D1qUkzaVz",
+  "nonce": 54,
+  "parents": [
+    "2a1e4f5cea52b9a81f477ae8464f54fce0ed1fd176d8284823ac05293ed162cf",
+    "e22d2575c76680b89b47258d3ddbde0eef07d7f47d8d3c8f66e9ac024b70f8e5"
+  ],
+  "ts": 1793734324,
+  "epoch": 40,
+  "seed": "43ecbce039ad9a81",
+  "answer": "Because the ember ledger tracks the vesting curve, the walnut audit publishes how much each key actually received. Rewards vest linearly over 6 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation hence never collects the full amount on any of them, because each one needs to survive the whole vault schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 4,
+  "sig": "4NrHNnQgeCy5JBwvo93LVPECYcN2s1F1YzZpdTCwGUkCgV63V7oUMEi3VRXxyMjKWGShgE7hJ1S24E68y1qPLJB2"
+}

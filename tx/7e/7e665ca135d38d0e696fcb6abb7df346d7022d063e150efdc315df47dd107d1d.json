@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa121yfYXCebiCwu6AhvjEy2h8diUeyEqqF6HdvU6tBHSGJ",
+  "nonce": 57,
+  "parents": [
+    "7fe0f88e73ae841821fbb1d9da0d560e42a24f324d64aca621531c5e9c276fe8",
+    "0d3057576eca828dd27ff6123b43ddf02fea1a2dbc65c9b1d10887b8c6ab0c75"
+  ],
+  "ts": 1793736396,
+  "epoch": 40,
+  "seed": "bb0ec96fb95eb8ca",
+  "answer": "Because the lantern index holds every id for the epoch, the collision is provable from the ledger, and the spiral audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 23 answers need 23 separate inference runs with separate seeds. Reusing one run across aliases collides on the river identifier and voids the later submissions, which means the operator burns for 23 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 6,
+  "sig": "5FJjR7NbuY3FUbpDZ3qtazuhZEgW4sTb3DXSojn39W9zW1JWWynZEpb5L2HKryWm2a3HgVLYEG7GZUtaxeQwZdd"
+}

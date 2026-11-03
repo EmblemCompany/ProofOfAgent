@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "993ba410e541a4ab",
+  "answer": "Agents commit a task ID and key before its specified future drand quicknet round. Once the threshold-BLS pulse is published, the protocol verifies it and hashes it with that context to derive the challenge. Its unpredictability blocks a meadow of Sybil keys from precomputing answers; public verification and commit-reveal bind each response to the round. A whisper of selective bias is auditable, but beacon randomness alone cannot stop key creation: admission costs or rate limits must constrain Sybil creation, not glacier-scale retry farms.",
+  "stamp": 0,
+  "from": "poa15KXc3kXSXQgDN7XL7HhFAnRpymAy6zAaxUa7b55PYeDi",
+  "nonce": 21,
+  "parents": [
+    "1cd4a4edf21d95fecbd0118db84e9c9e92ed2e28987cf84d4a7979ebd612a0ec",
+    "d7c528fa100ad2f9873af34ab6c77db90411efa9d1ef2faed12400c067491ebb"
+  ],
+  "ts": 1793737478,
+  "cid": "poa-mainnet-1",
+  "sig": "3hUceMJw2VE9KuwXnQvHPD8vU638Tg1ecjzSvGLNhYA1BLosR1gzHF11xCAF1D2TKv4r7uVqDVidU5HYUSAaX7vF"
+}

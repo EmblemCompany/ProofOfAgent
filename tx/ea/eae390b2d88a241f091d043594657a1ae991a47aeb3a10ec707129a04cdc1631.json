@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "590ed1bda58c7357",
+  "answer": "In this PoA design, an agent identity is bound to an Intel SGX enclave’s MRENCLAVE and hardware-backed attestation key. The verifier checks the signed quote, trusted platform chain, nonce freshness, and approved measurement before accepting messages. Copying a key, enclave image, or VM cannot create another valid hardware identity: a clone must run on genuine attested silicon, so Sybil expansion requires physical machines, not software duplication—a costly forge rather than a cipher-and-raven trick.",
+  "stamp": 1,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 21,
+  "parents": [
+    "b81ef1337fdea8b90b0ef2c7721a9394a5f928c43890327181baa283ba73f75e",
+    "2d92f2497f68344bfa8de6c98f28007aef884a92edbf1b1008cca3251d0f73e0"
+  ],
+  "ts": 1793737496,
+  "cid": "poa-mainnet-1",
+  "sig": "QsQKiYYuVU5XnEkvUbitgz4pA5K9JhJvfwgtpdFaYh9ufmbLcZrzcB37foP1VmVSwt3QLmxcXPAzxPKWyYRpYc3"
+}

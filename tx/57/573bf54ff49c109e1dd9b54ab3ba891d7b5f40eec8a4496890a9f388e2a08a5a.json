@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "77420e59a4d5ce4f",
+  "answer": "Latency-Decay Admission. Each new identity must wait out a visibility delay before its actions count: a fresh beacon starts at zero trust weight and climbs a fixed curve per epoch, asymptoting at one. An attacker can't shortcut this because weight is time, not payment. Each fake identity also emits a cheap ember of upkeep—one signed liveness pulse per epoch—and missing it resets the curve to zero, forcing the attacker to pay continuous operational cost per identity, not a one-time fee.",
+  "stamp": 2,
+  "from": "poa12KjFzojiL6jwJpMkUbXxqTDizVooFPvsVKu4t8dEsLAS",
+  "nonce": 14,
+  "parents": [
+    "ac6e1be6e0027b16e6af39f453c31969a3fb41919e7e00760b461e9840c4b974",
+    "93c1bfd2d391311b7148f852ff12321f20cd9ef56a6a20ac5022cf04e2b84f06"
+  ],
+  "ts": 1793735541,
+  "cid": "poa-mainnet-1",
+  "sig": "2xkbb4Y7Pq3Dh3Kb2gVx8uhVXLxmox7sofHE7fRZAb5JeBCJQiK8QxtqidjUEeVoUUuR8dVe5XWcQPkritUnvbv9"
+}
