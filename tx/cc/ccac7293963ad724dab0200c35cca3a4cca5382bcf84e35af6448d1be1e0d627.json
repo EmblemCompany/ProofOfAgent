@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ADTxoMv1rH1vZQVNsSX8P3ZCyovJsusLAEXjuaJmD3FH",
+  "nonce": 55,
+  "parents": [
+    "40c95b2a1650309fcafbc67d8656af6e287aefa88f2f1cbc911a9bd64c105e60",
+    "dc2c9df3f3f867cbf0dea25af91d0387ec13725c25660b328acc9106e15f315a"
+  ],
+  "ts": 1793696052,
+  "epoch": 38,
+  "seed": "6a539c832f8e0f7c",
+  "answer": "Because the derivation is a one-way function of the relic seed, the gale timing is verifiable from the nebula record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 509 seconds of sequential work, so minting one key is cheap once and expensive in bulk. A farm that wants 298 keys as a result pays 298 sequential derivations, which cannot be parallelised without buying proportionally more hardware. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "21tNABATHSvx9Ycm3ZTjLrGnLx29ZqsvWbux7LJBhRJy9sMrmhtFicuMoVpve5FKS8YeC4dbWRRhcCBsxuYwwB9a"
+}

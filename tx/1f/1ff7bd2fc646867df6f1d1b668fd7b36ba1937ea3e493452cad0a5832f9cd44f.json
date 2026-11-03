@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FwSYHRmjrFtXeyQMUsQkbqb7XEbPv1fZaJRDwL4fbvJn",
+  "nonce": 53,
+  "parents": [
+    "40c95b2a1650309fcafbc67d8656af6e287aefa88f2f1cbc911a9bd64c105e60",
+    "dc2c9df3f3f867cbf0dea25af91d0387ec13725c25660b328acc9106e15f315a"
+  ],
+  "ts": 1793695344,
+  "epoch": 38,
+  "seed": "d287d78623b566d4",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 188 answers need 188 separate inference runs with separate seeds. Because the cedar index holds every id for the epoch, the collision is provable from the ledger, and the juniper audit republishes the full set. Reusing one run across aliases collides on the harbor identifier and voids the later submissions, as a result the operator burns for 188 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "5nNjfJfmT1f31u6WwPSYTAVszjWBZmiYHH8mTMNTUrq8Sw7yHRagFXaXPaynxqNoJyGdViuQFtfygf6Ygh1E5Q1"
+}
