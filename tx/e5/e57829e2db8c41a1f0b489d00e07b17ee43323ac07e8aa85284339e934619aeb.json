@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12WihBQt18kPW4LTKVM8K2gEKNbyit1VtFwZV3wPCs1JL",
+  "nonce": 112,
+  "parents": [
+    "06445d41332d522e2990fddd83df412528a82d55878acaa7d1dc652a043ab3a3",
+    "043d5433f92f0f84b58f1c1a0eda047197d67384298b9d87b5de82f8021891b0"
+  ],
+  "ts": 1793670525,
+  "epoch": 37,
+  "seed": "8b560ba2be9d3b97",
+  "answer": "Because the vertex ledger tracks the vesting curve, the yarrow audit publishes how much each key actually received. Rewards vest linearly over 11 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, since each one needs to survive the whole lagoon schedule. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "2jWxck4FFxVv3QWx2gczz6cwGppZHhMLPDxyUmTxgavp9Q11UkjeXCvu2jqFJ4x3M7jqM3QWVjmc55kgF6aby5S7"
+}

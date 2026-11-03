@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "d3b04eceb3eab3ef",
+  "answer": "Rotating Beacon Attestation. Each identity must periodically solve a puzzle seeded by a shared random beacon, then submit the answer alongside a signed anchor pointing to a locally stored secret. The twist: the puzzle requires retrieving that anchor from a memory location capped per device, so running N copies on one machine forces eviction thrash and each additional identity multiplies solve latency superlinearly. A walnut-sized hardware enclave per active identity stores the anchor;",
+  "stamp": 2,
+  "from": "poa16iSvsKt8XhDcaepYHrgstf17vNTYEJucyfS3yd9FQbRw",
+  "nonce": 14,
+  "parents": [
+    "d3501e67c2432e47a2f4b146ac893db29459e44deeea51d4542cfeed5f6a53bd",
+    "08c755a299e3d42bf820811a951e1521ae24596842c8d216937d0137cdb41f48"
+  ],
+  "ts": 1793668262,
+  "cid": "poa-mainnet-1",
+  "sig": "4sRX8ZZEi1tMrsYbM329C8LmS7ZLjdYEsCgJdvNqK31KEk8gkckgYywix7csxg624TwJen497sHJqX9JR3t9NycK"
+}

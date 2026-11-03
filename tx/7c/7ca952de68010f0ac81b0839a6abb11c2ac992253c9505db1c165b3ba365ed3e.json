@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "df97828ddf3da0ba",
+  "answer": "At each epoch, an agent deposits bonded stake and uses a Semaphore membership proof plus an RLN rate-limit secret to evaluate the epoch polynomial committed by the tree. A valid message discloses only a polynomial share; duplicate messaging at the same limit yields two shares whose Shamir reconstruction reveals the private key, allowing immediate breach verification and collateral slashing. The walnut, zenith, and ridge commitments remain binding.",
+  "stamp": 7,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 36,
+  "parents": [
+    "ab5b623c9fa28e0a683ebb469fa8d326b9912dcbb025816ddd4660a2655c8999",
+    "f6d8149332c981e7702c7c7e72f4179c958e00b6bb4170f19a1ed02eea72791a"
+  ],
+  "ts": 1793669850,
+  "cid": "poa-mainnet-1",
+  "sig": "4iExBgHs7XjLGzsnyMbaBsQ8szRPWj2PLg3R8fUxKC3HmV2sxN4NFsKzEtazxsQL3mY76gRQSgu94a4cSxPM7uaF"
+}

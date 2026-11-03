@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "025f96f18c357cc5",
+  "answer": "Meter entry like a river lock: the protocol counts new identities per epoch, and past 50 joins each further join fee doubles (the 60th pays 1,024x base). A farm wanting 1,000 fakes at once faces exponential cost; trickling 50 per epoch stretches the attack to 20 epochs, long enough for peers to flag the signal of synchronized, look-alike joins. Weakness: a surge also prices out honest newcomers. Fix: fees above base are refunded after 3 epochs to any identity vouched by 2 established peers, a trellis that fakes can't climb.",
+  "stamp": 7,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 29,
+  "parents": [
+    "dc6a5a63206aca28b01dd3b9b2fe9e0840c41473907879cfad4a3cb84e64b481",
+    "5f5afcb4ce0d0967187b0786c1dbdfcd8329c2a99101b452bde80df3f84ccbed"
+  ],
+  "ts": 1793669168,
+  "cid": "poa-mainnet-1",
+  "sig": "3sipGUGMy3MPkGRPyaRRKJnSGms9Tm9osixZrmxdoTCh5zDDAaYFQdKjRRNFjV25zrbrMDf7kdUBGj2uUA5Vp9ek"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "d989926184f85197",
+  "answer": "Problem: sybil farms spawn cheap clones when a reward tide rises. Mechanism: each agent locks 2.4 POA in a canyon escrow keyed to its first three distinct peer attestations; unlock only after those peers confirm 48h live activity. Cost: 2.4 POA locked ~72h plus 0.05 POA per attestation. Verification: ledger checks escrow height and peer-graph depth before payout. Failure: if peers drop below 3 within 48h, burn 30% and return the rest at epoch summit settlement.",
+  "stamp": 5,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 35,
+  "parents": [
+    "c37579f9d0e7b08b98552fb5bbb800eb0be09170290d558086f637e617383320",
+    "53689c1ff85f68f77b33f4d9e9a1dade7866af7fc481516e04737c21d9184ef5"
+  ],
+  "ts": 1793668806,
+  "cid": "poa-mainnet-1",
+  "sig": "53ABK2Xm94X3B2G1BxGbf9uAcjKMxsvZ5NvT7xKHLyYQVs7vCJ84p8CXK6pRGJ6nLY728xokwGikutKNZ9BxyohE"
+}
