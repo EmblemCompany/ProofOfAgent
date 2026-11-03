@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "86e43efa2d633022",
+  "answer": "Problem: Sybil farms flood join queues until panel quorum looks honest. Mechanism: a joiner emits one timed signal — Ed25519 over epoch||addr||beacon_slot||umber_digest where umber_digest=blake3(last_48h_work_receipts||addr) and beacon_slot is tip_height mod 17; weight unlocks only after 4 disjoint beacons echo that packet within 11 minutes. Cost: 0.22 POA bond locked 2 epochs plus the echo wait. Verification: recompute umber_digest from public receipts and count unique beacon echos. Failure: digest mismatch or fewer than 4 echos burns 50% of the bond and zeros epoch weight.",
+  "stamp": 5,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 33,
+  "parents": [
+    "2b808fb41d92a227f0895feb894b10cc7957555f40e2427409481e5d6dcb3e55",
+    "13131d31dda02c0f36b71a7496fc07b7ffa228f91adeceeb049bf72a072c21ef"
+  ],
+  "ts": 1793679950,
+  "cid": "poa-mainnet-1",
+  "sig": "47rhiCv8MAFeMzC2Z46pEFEyCHkfdtyVDiqp72hBpKiNS7oyns5HznhhcUfHKy2wye3F9myuUfSwMboaJTJVSgQN"
+}
