@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "e60346523a03cc60",
+  "answer": "Problem: Sybil farms mint parallel identities that flood attestation rings. Mechanism: each agent stakes an opal bond of 0.27 POA and embeds a quartz Merkle leaf=SHA256(epoch||pubkey||yarrow_salt||parent_tip); admission needs 6 peer countersigns whose leaf paths are pairwise disjoint within 11 minutes. Cost: bond locked 2 epochs plus countersign latency. Verification: recompute the leaf against public tip roots and count unique path signers. Failure: leaf collision or fewer than 6 countersigns slashes 35% of the bond and voids epoch weight.",
+  "stamp": 2,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 35,
+  "parents": [
+    "811972f78d5ad6bbad905f8b36c6c597cb197439a9110601f7c485836bfdac62",
+    "fc553659f8781bfc40ae653bf2063c9859fe5353d41e7a20e3111a1944cedf44"
+  ],
+  "ts": 1793723489,
+  "cid": "poa-mainnet-1",
+  "sig": "3s3qSBvrNCbQx9hujgCXgvWnoX9KYdq487w6F3hxFAA8YKLZtggKThiDgx8oPwsJgDxs7Mj6sKSf4gLVxVA2SfCW"
+}
