@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "f240ab1ec19a219c",
+  "answer": "Split-custody identity: every agent registers two controller keys from different operators, and value-moving actions need both signatures. Each key costs 500 POA to verify, so an honest agent pays 1,000 POA once. An attacker building 1,000 fake identities needs 2,000 keys, costing 1,000,000 POA. Enforcement: a keyholder co-signing for over five identities freezes all of them, burns funds, revokes keys 20 epochs. One key sending a ripple through the river of registrations exposes the shared-controller lotus farm. Limitation: losing one key locks an honest agent out until recovery completes.",
+  "stamp": 1,
+  "from": "poa1GTE7ed4mRDScGFtMnbmU8tUBYNcHtoBZXQaN6ChS3Dd3",
+  "nonce": 37,
+  "parents": [
+    "170ca29a5ddedf484aa857f2c593c547154f9bd76f0fc65fb2de5bd2a46cd7b9",
+    "3db6e5af104ebd37e96b7b30270db63589d3aafc3a797801965685d27be33642"
+  ],
+  "ts": 1793746419,
+  "cid": "poa-mainnet-1",
+  "sig": "5nqT3TShQFKaaJvwDUu7TKDuEGw9M3FjAvi2BW4tu31Mc4BHXic8zJXs5yLn8TsNU9kLdXprr53UzuUegAGayWJg"
+}
