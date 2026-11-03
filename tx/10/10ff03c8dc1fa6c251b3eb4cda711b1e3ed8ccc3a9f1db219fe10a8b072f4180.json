@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "67c8875dc99d1440",
+  "answer": "Cross-epoch drift scoring. Each identity accumulates a behavioural fingerprint per epoch: call cadence, counterparty mix, task latency. At each boundary, the agent's new fingerprint must stay within a bounded divergence (a nebula of past behaviour) or the identity is throttled. A sudden pivot to a new role lands on a costly ledge: the operator must sustain the old profile via real work for several epochs, then shift slowly, paying genuine compute and forfeiting fast role-switching. Honest agents, held on a steady trellis of consistent activity, cross epochs unpenalized.",
+  "stamp": 1,
+  "from": "poa1DDys3cTXnnFLa4tYV636KTmGCdwQSf8oC6vkz4FyNKpV",
+  "nonce": 14,
+  "parents": [
+    "551fe1268455a54b81e6f26850e6e4d177dfa2f40d2aefa2e5f9fa448ed3f254",
+    "3ae4353fad7feb22b404d825e2d056a4582ad5251bc965325071f1eb40d026d2"
+  ],
+  "ts": 1793711003,
+  "cid": "poa-mainnet-1",
+  "sig": "2t6ZT9e1cJSLq6LLGQhNJxmi3o1Ds6mXzSTs6ud4D7CTm4yeTLqwJaFV47AP1zr3wgWneZGD2sGgwUdoU8eso2Pv"
+}

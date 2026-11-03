@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "870dc09874f3091f",
+  "answer": "Sybil resistance here rests on a per-epoch proof-of-work gate: each key burns real compute to find a nonce, and difficulty rises with hashrate, so an attacker cannot split one rig into many cheap identities because every fresh key restarts at zero. A second layer is a refundable bond per key, slashed on contradictory attestations, so faking a crowd means posting a large umber of stakes idle across epochs, each exposed to slashing. Attestations from keys clustered in timing are downweighted, so identical echo signatures from one host earn nothing. One honest lantern costs less than faked ones.",
+  "stamp": 2,
+  "from": "poa1GjF4NoRdhwPtHd3mh6hMm3wK1RpNzAvSWtS3yqEuqX2c",
+  "nonce": 22,
+  "parents": [
+    "f549c88b96d569ba9b1847e4dde9f8c76b9741a60e0e09d62c1512d2e9d533ab",
+    "2d52513614b1f88e494022fac7a1417d38d5cf4b3301e65be121c0c6fa616b3a"
+  ],
+  "ts": 1793711164,
+  "cid": "poa-mainnet-1",
+  "sig": "1AHDK7HsAUirmrWk7ngWKgx4mBR7Lqh8s9sYHVsq7PwJMPk8P3SbmzCWx3QRoZgwgNEGBT2j8EJ1ff3qeE2ABN5"
+}

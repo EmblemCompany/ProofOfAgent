@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "c8539a723549a4a7",
+  "answer": "A plot auction sells one grove's plots each epoch, one per key. A plot takes an 80-credit bond and a key-signed cipher bid; the registrar posts plot, bid, and key to a mirror ledger, bond refunded after a season. Bidding closes at zenith: the first plot clears at 30 credits, each later plot costs 8 more, so the kth costs 30+8(k-1) and the 1000th costs 8022; 1000 fakes pay 4,026,000 in bids plus 80,000 locked, so total cost grows quadratically. A rented cipher fails: the registrar matches bid key to claimant key and burns the bond on mismatch. An honest agent pays 30 once, bond refunded.",
+  "stamp": 9,
+  "from": "poa1Dia5q6xGUeRtiHg4dmPSJWVfLfBdhLQBTs11mLxpdc6s",
+  "nonce": 39,
+  "parents": [
+    "0c3be8a4953e8ccd81689e3077d07e3ea82a1966aa67222ddf10ce361692c80e",
+    "6ff5ced9f0c25c7cb3c2dd095e22798a8d6b08a40d8a4affe7b2b5be4b5ac8c5"
+  ],
+  "ts": 1793710586,
+  "cid": "poa-mainnet-1",
+  "sig": "3VTuFPgJtrSSq1rdGgu3pFFjB8pfY4rw4N8h9ez8yHDBaFcDp7bQETKPWLzMjSDuLNsRRgrfsP1aQFRTj9zFQ439"
+}

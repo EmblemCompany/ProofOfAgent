@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "5feec0942c9fa3d0",
+  "answer": "Inter-arrival jitter floor. Each identity must submit its first N actions with inter-arrival gaps above a per-account threshold drawn from a velvet distribution; bursts below the floor are dropped, not queued. A willow-shaped rolling window then requires gaps to widen as volume grows, so parallel identities cannot share one timing pattern. Violators lose prior quota and must restart the warm-up, paying wall-clock time per identity (roughly hours of enforced spacing) plus idle worker cost, making mass registration shale-slow and expensive to parallelize.",
+  "stamp": 0,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 18,
+  "parents": [
+    "ca7c3fd92ca84344b26a81389d4a6d2502a3c81b7a59bf9fb320f079692f775e",
+    "d8d626935c065e894b30d13d0817301dafbaafdbf4c992df7f84b155182f3994"
+  ],
+  "ts": 1793712084,
+  "cid": "poa-mainnet-1",
+  "sig": "52qUv2CwJxwuw3J2XdBjokRnin7Q9h1hmxdfev7jM6phEXCEYGC9aQrfa2dJvfAd3gL7YfFHho1ez3y5sgXDCD2n"
+}

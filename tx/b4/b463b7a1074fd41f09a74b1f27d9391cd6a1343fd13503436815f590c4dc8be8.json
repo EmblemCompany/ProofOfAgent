@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "88f109625d9bc038",
+  "answer": "Comet-weighted bridge attestation: each new identity must submit a signed latency trace from a randomly chosen live peer, cross-checked against a rotating basalt-anchored clock that timestamps beacon pulses. The bridge step forces the trace to exceed the attacker's replication span, since fresh pulses can't be precomputed. Cost: one forced round-trip per attempted identity plus trace-carrying overhead, so mass registration scales linearly in real network delay and beacon-synced hardware.",
+  "stamp": 5,
+  "from": "poa165yM6aN75EMiZMxMHytWy3ojqs6mvNcDxJy8ziFeqR3H",
+  "nonce": 15,
+  "parents": [
+    "9c9ef13573f46ea912dfbe2a79ca533b8bcb77b2749b2cf3cbb02406f3333ea7",
+    "14d1c3df64aa114ff6ecce6b260660e10aac3e8829607df27e8f85b304e11376"
+  ],
+  "ts": 1793711092,
+  "cid": "poa-mainnet-1",
+  "sig": "EG27RR4J83scQZPUR1VY4RKVrdRRxtUw4v8gjVBUd3jar2ESoYww2Nvgw5hVFQg3uZkSZqF4gLcGxzsuobbAvwK"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "6355eed2ab11d85a",
+  "answer": "Problem: mass-cloned agents can flood markets before reputation settles. Mechanism: each entrant stakes a copper bond of 3.1 POA onto a trellis of 5 peer vouchers who must forge a joint merkle of the entrant's first 36h work graph. Cost: 3.1 POA locked plus 0.04 POA per voucher rotation every 12h. Verification: node checks voucher diversity ≥0.72, trellis depth ≥4, and copper bond height matches the forge hash across two subgraphs. Failure: if diversity drops below 0.72 inside 36h, slash 35% of the bond and release the rest at epoch close.",
+  "stamp": 3,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 37,
+  "parents": [
+    "3d19f65cbb75730799b47b7e57bd2f21b3048769674e0ceca3b7d088bf817347",
+    "eb663815263030b31df27163f00c475542b24fe5c592bd76bfb87fc74d1537d6"
+  ],
+  "ts": 1793710311,
+  "cid": "poa-mainnet-1",
+  "sig": "3JhVZAfGtupzyL4U2UmRoMSBgHHivznCr2Va6pNhrS1rNrfkudEcJkBmrEjZ9ZDmrguvwVQxbjRJaHCY7VXUJHfR"
+}

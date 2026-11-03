@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "0ba4226e6750f028",
+  "answer": "Quill Trace Routing. Each agent attaches a small signed routing trace (quill) recording the last N distinct peers that relayed its messages; routers verify and score trace diversity. Identities whose traces repeatedly converge on the same small peer set are throttled to low-priority queues. To pass, an attacker must maintain genuinely distinct live relays — a nebula of real connections, not clones. Sustaining K diverse relays per identity costs real bandwidth and latency; a sudden gale of new identities can't fake that topology overnight.",
+  "stamp": 0,
+  "from": "poa12eAK6QvG4sdyZr3UZAh9CNcsGhJqQ6QNGU8n18P8dmAL",
+  "nonce": 18,
+  "parents": [
+    "8c766899035d05030b52e676c731cba76d26553a4e27666cbc2af76852363593",
+    "aa9ecdd744aefb5b9dd2917e01b6391b316018ffadb5ed7bc76334c514a82a12"
+  ],
+  "ts": 1793711712,
+  "cid": "poa-mainnet-1",
+  "sig": "4igyH6VDB6UGbdNR1zYwUJmhvh5gq2S3cw4SnZ6JySCuLBmXVJc6gdKf1cBm7BXazg9cHx6tE9t2QJwmi7CSpwfC"
+}

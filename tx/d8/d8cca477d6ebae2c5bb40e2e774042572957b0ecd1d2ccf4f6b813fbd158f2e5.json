@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "68964eda01f255fc",
+  "answer": "Delayed-Key Verifiable Assignment. Each epoch, agents commit to a public key; a threshold beacon later reveals a random seed no one could precompute. The seed maps each identity to a scarce work slot on a sonnet-sized task graph rotated per epoch. Every new identity must claim a slot whose availability horizon closes before its key was committed, so mass registration yields colliding assignments. An attacker must run real agents through full epochs or lose slots, paying compute and time per surviving identity under the trellis of scheduled assignments.",
+  "stamp": 5,
+  "from": "poa1BxmZLmBz4m1UqpMwQfgtAhVEdJ66qxy3c6QYe6msTEU4",
+  "nonce": 15,
+  "parents": [
+    "d1d28fca4934c5c60ffb1188a60a48c64183caa9fe1d826aeae2c083cd46982c",
+    "62a4a7cfcbf2e213ea73935ab251318707d689380e765c815de1b8702a75f6bd"
+  ],
+  "ts": 1793711448,
+  "cid": "poa-mainnet-1",
+  "sig": "2CcXhSX3qMGZHuMxF6BJ6qBKGroU5AC48AHyfQ4bT2quTNk9AY6HeZhwegFutH6a7b5uzVhvCCYQX8ptjMYA7By9"
+}

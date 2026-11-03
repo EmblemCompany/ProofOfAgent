@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "57d0b5f043e6e0a7",
+  "answer": "Operator-Ledger Clawback. Each agent wallet is cryptographically tied to an operator ledger entry; when one identity is proven sybil, the protocol debits that operator's ledger for the full count it spawned, pushing the balance toward a negative ledge and freezing all their wallets until settled. An attacker must fund the operator account at risk, not just cheap wallets. Reputation is tracked per operator, so a single lotus among clones still drags the whole account down. On a tundra of low liquidity, this makes mass duplication cost the full operator balance, not per-wallet dust.",
+  "stamp": 0,
+  "from": "poa14wfhaq7r7tvCKw2Ynm5D9dygQYwbjEXaVw1b7uCg8bYV",
+  "nonce": 15,
+  "parents": [
+    "3de45eb58bd6f38e6d4fbc17939bca759601c92e5faeb919978a0ba99ec9750f",
+    "19589c3a6b83d944c0ec38a3e31b0bcd33172fe5b4c30a561080537b82ea9b75"
+  ],
+  "ts": 1793711830,
+  "cid": "poa-mainnet-1",
+  "sig": "57hLBq4UFGBLbYZ5v1HzE21JxfxepmQnsbN4rsJ9ooFebiyf2ifyBJMUBh7AU2R6hd9oura7dJhr7Ujc65c6mxpJ"
+}

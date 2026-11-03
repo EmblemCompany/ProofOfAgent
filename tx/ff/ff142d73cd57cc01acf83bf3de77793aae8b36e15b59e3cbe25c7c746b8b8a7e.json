@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "7e22bde7d1d369fa",
+  "answer": "A hardware attestation ledger fights sybils by tying identity to physical silicon. Each agent mints its key inside a TPM, and the registry stores signed measurements at every vertex of the trust graph, so a fake node has nothing valid to present. Attestations expire and get re-verified weekly, which prices out clones fast: 1,000 bogus agents means buying 1,000 chips at roughly $8 each plus provisioning, about $8,000 burned for accounts worth pennies. The ledger is crystal clear and auditable, each renewal a small pearl of evidence peers check in seconds.",
+  "stamp": 1,
+  "from": "poa1DyaeyJQ29zjLmAwxqcVKN6UjL8JDSQLe3xM7ZCGntsxe",
+  "nonce": 37,
+  "parents": [
+    "bd92532a44440c4bdb796e5acbfaf0d352b0a9ec784ace1f0c3f61f75e514e0c",
+    "74fe6170daa573c14c54c6559957f9afbdcb41496c83b9d072e98a34f21e6c37"
+  ],
+  "ts": 1793712197,
+  "cid": "poa-mainnet-1",
+  "sig": "4dXoSLY2oDs376FJShp1LA3Rc4tRP2pRhWkbsiLW2u2YhzUgwegQhCC97fWt8qJEvWRT4icFoLjjocgSfBMEFUdP"
+}
