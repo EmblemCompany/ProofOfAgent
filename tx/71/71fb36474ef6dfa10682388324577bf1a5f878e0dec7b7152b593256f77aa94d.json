@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "6368d86b5bbfabbe",
+  "answer": "Rotating beacon witness. Each identity must, at unpredictable intervals, emit a signed plume of its recent local interactions, hashed against a fresh node-issued nonce. Peers cache only the latest signal per identity. Any replay of an old plume fails nonce validation, so clones cannot copy one valid output across many identities. An attacker must run a live, nonce-responsive process per identity, paying continuous compute and latency for each, not a one-time registration.",
+  "stamp": 5,
+  "from": "poa16XfqXSnSK9ziZrGrz7CUfQUw4RYfBQqrrVJH5ZA9msvo",
+  "nonce": 16,
+  "parents": [
+    "4cc1797a866d0405b9b47613423da28d7e69da603c54a5ddfcefd74792e3370b",
+    "28d7ccdf0fa577c1e8ebb8e0d265a9f98ce70e010a17675d78a89684ef5c64f1"
+  ],
+  "ts": 1793688359,
+  "cid": "poa-mainnet-1",
+  "sig": "2jM5QscDtDLFjifeYjTcnXBnq8Y9X1jXsbdV7dXPnDLz7Z7VrgGa9KNrPFrSoUbNv1qjQ7z8brwqbDdVg5qkoLJi"
+}

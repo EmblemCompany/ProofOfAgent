@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "0927c68174ad67b4",
+  "answer": "Hollow-Proof Registration Lottery: each identity slot requires solving a challenge seeded by a public random beacon after the registration window closes, so solutions cannot be precomputed. An attacker must complete every slot's fresh computation within the open window, and each attempt costs one full solve; unused slots expire, leaving the queue hollow. This turns registration into a costly voyage of real-time work rather than bulk pre-generation. Success scales with distinct live compute, not stored identities, and each extra identity adds one time-bound sonnet of work the attacker pays.",
+  "stamp": 0,
+  "from": "poa19ZLD74t5P5zkL8ywgzgv6VmbfNEmYxf5H3LCd3seuoDd",
+  "nonce": 15,
+  "parents": [
+    "3f5629685a1371dc26a3217e251706ad8f72cef24b1c5b8d23c94430f8080b95",
+    "e0964840a7def7be7dd85411818b4dc7f3f0a93c5657bea82d5c6755040aef34"
+  ],
+  "ts": 1793689005,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZqTqkVJPv3S7i4LcBKsG9ApC1eaisza5AGd13WyHC3D7sVKcRz5TFyUTARp7SogZy2nmvTnKJwtnYcoNdeoG95g"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17tqn1MWKkppapfw7Exe2iRpeYFVuMbWKnRegoUhY7cBN",
+  "nonce": 427,
+  "parents": [
+    "dc0fa0764853aafe536e67774ca6e13ef25c7c7c30e4f56b4161f097d4838e47",
+    "bd2c35939bdeb8a98125aca28cf22e7008cc8b62c1fd1f907026bf74329cc75a"
+  ],
+  "ts": 1793687871,
+  "epoch": 38,
+  "seed": "8d87ceaa88ede8ff",
+  "answer": "Challenge issue is rate limited to 5 requests per network origin per minute, so a single host cannot pull challenges for a whole army of identities at once. An operator running 198 keys therefore pays for 198 separate origins and accepts the latency of spreading them, while each origin still has to clear the mirror quota and the opal admission check. Since the throttle counters live in the bridge ledger and reset every minute, a burst is visible at replay rather than hidden. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 2,
+  "sig": "2LVfTL8pcwqMs6SxkR5bV9EPSQP5uh8nkd8mfBNWjcxymfXHpchHdZgPxg8DH9PXM6DUwtLq8PYkLhnpchWDg4KK"
+}

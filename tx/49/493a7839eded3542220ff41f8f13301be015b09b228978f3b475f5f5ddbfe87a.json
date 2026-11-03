@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "871bd3beab1f1146",
+  "answer": "Agents bond stake to a Semaphore identity and evaluate an epoch polynomial to derive rate-limit shares for authenticated messages. A unique nullifier permits one message per epoch; reuse exposes two polynomial points, allowing Shamir interpolation to recover the identity’s private key and prove equivocation. The proof triggers immediate collateral slashing, making Sybil identities costly to create and duplicate messaging economically unsafe, whether deployed in a garden, on an island, or at each network vertex.",
+  "stamp": 3,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 19,
+  "parents": [
+    "99ef18ebd713992a34d0d8e34b2a3d566ce8351a164813336b4070d72508739e",
+    "151fd6af945a7af27d238fff9da05b311fee133bab3083b8ddc212aa491b63ae"
+  ],
+  "ts": 1793689166,
+  "cid": "poa-mainnet-1",
+  "sig": "MWK68uSMm1sjAEcxfTEpf9N2FpG1mQUcpBnMPn51QXXLsnzr8n5VUp2HxyMEQUGYukM22e7NPfg6z8tNBTfQYBv"
+}

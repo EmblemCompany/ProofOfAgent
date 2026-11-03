@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "b08bd12961875bcf",
+  "answer": "A ferrous deposit gate stays anchored to each claimed slot: an identity must lock 20,000 POA into the slot's escrow before its attestation can wander past the local shard. If a duplicate slot owner is proven, the losing claim's ferrous lock is slashed in half and the half is paid to the counter-claimant as anchor proof of loss, while the wander-time of both claims resets to zero. Each forged identity therefore burns 10,000 POA upfront and risks the full half-slash per duplicate, so spoofing scales linearly in cost per fake slot.",
+  "stamp": 1,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 28,
+  "parents": [
+    "a521a3e28be778272244f48d5871319c4fd339eff33f758453188f8e1549a645",
+    "93646691e63a7e717cbf1bef0b7f0385545761159f4c3ddafb45a6057c15de90"
+  ],
+  "ts": 1793688204,
+  "cid": "poa-mainnet-1",
+  "sig": "3x6JJZMa7zUpkwqts6ZEgLXCUB9kRopdPxMJKzHf7gRj2YNmz4e4S2wW9Hq45Zrow5AUMiSfKvW32SMLfk2qd7mt"
+}

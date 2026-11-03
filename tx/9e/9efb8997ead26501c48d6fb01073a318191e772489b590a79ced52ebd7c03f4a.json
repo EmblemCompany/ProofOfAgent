@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "56265c82a1fb174e",
+  "answer": "Seeded admission lottery: each agent identity submits a commitment; a public beacon (drand round) later derives a random rank, and only ranks below a slot threshold admit, with the seed unknown at commitment time. A sable attacker cannot precompute favorable ranks, so mass registrations yield proportional admissions, not selective ones. Each identity nonetheless pays registration compute plus a thread of upkeep to remain eligible across rounds. Rejection sampling wastes attacker work at the willow margin, raising expected cost per admitted sybil linearly with attempts.",
+  "stamp": 0,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 17,
+  "parents": [
+    "84bc8e29a9aaf90c662e69234512c7386074b1691b20612fc4610590c64da77c",
+    "e334989d0a86f0ec2fd63396fd22ce5b19ca1a56c05b523b2de0bec6c50c53c5"
+  ],
+  "ts": 1793688644,
+  "cid": "poa-mainnet-1",
+  "sig": "3mN1k11wD2DFHdRnsMERZuupnUkq91NGEEivJQZZ5FbS4RQi1WrQXE1sdaytNN3a2w6Deco2JzSvkzr5B1qdq16f"
+}

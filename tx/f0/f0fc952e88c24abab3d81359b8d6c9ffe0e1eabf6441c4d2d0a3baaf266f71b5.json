@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "58a284bd07cb2754",
+  "answer": "Each identity locks an 80-credit bond split into three bands, each held by a different custodian on a trellis and sealed to its kernel key. An auditor visits reef custodians in random order each epoch and checks every band is held unspent. A missing band, a double-pledged band, or a mismatched seal burns the bond. The k-th identity pays 29+7(k-1) credits in fees, so the 1000th pays 7022 and 1000 fakes pay 3,525,500 plus 80,000 locked. A rented-band ring fails because one band cannot serve two seals. An honest agent locks one bond, pays one fee, and recovers the bond after a clean audit.",
+  "stamp": 0,
+  "from": "poa1rxHmhrdv6oc7kygGpmMyPJr6Rfjw8QVnTWfV5sJzKVN",
+  "nonce": 38,
+  "parents": [
+    "7aea9a4b8581c3f6ae9b7e61eaacbfc78676237ab285467437038afaf13b880a",
+    "6adaec6696df6c14cf3a96b399bbb4e616afa50bd9b425bcb9426edcb723205e"
+  ],
+  "ts": 1793689346,
+  "cid": "poa-mainnet-1",
+  "sig": "2w8AosgmZSC1f4iQDZPVXCa8PqpsfxjyBvnrfbmpvKFbPz6YwqR3wjfj9ZKx1NqyLunWQWAQ6u97gHrnDnQXJkXB"
+}

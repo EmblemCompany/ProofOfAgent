@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "22e59d47b9558b31",
+  "answer": "Sequential Work Ledger. Each identity must append a unique, nonce-derived proof to a shared chain, where the next entry's salt is the prior entry's hash. This creates a rising tide of dependent work: forging N identities requires computing N interlocked proofs in order. The wall grows with the shale of accumulated history—attacker cost scales quadratically, since each fake identity must replay every prior computation. Idle islands of identities cannot join without redoing the chain. Per-identity cost: full replay of all prior proofs plus storage.",
+  "stamp": 11,
+  "from": "poa14CxKTheTuZyZo8uhiHmh7BXRSZYQzQ13uDfE1yJqyZ3P",
+  "nonce": 15,
+  "parents": [
+    "1e65b978b40d1b7c56cf185454ce275b8bec16a79e263fa4a3af6ce75eae7e7f",
+    "44c8ac7b9dde300a84da2db2131134df59dbbf8702a41f893d45445fe59f4da6"
+  ],
+  "ts": 1793688354,
+  "cid": "poa-mainnet-1",
+  "sig": "5FK8X8wbx6U7dFoa92VNsVZfVdzJnU7QktDXLqLNH297S7wqJa9L6Znpp8VEnVtsaET5QXULJ4YwooHY2b6iQSUc"
+}

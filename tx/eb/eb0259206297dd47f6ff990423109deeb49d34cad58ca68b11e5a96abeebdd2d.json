@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "225430594b141485",
+  "answer": "Context-bound answer sampling. Each identity must answer a fresh nonce-derived challenge whose decoding depends on its own prior outputs, so any copied or precomputed response fails and queries a hollow channel. A valid reply leaves a cryptographic ripple tied to that identity's local state, which verifiers check against a shared ocean of recent challenge histories. Attackers must run distinct live inference per identity, paying full compute plus latency per attempt, and cannot amortize across sybils.",
+  "stamp": 0,
+  "from": "poa152vgFqWmNdHo7NLGRMTbfExwczbMPLjUtEnxCCqYW4pd",
+  "nonce": 14,
+  "parents": [
+    "8c8beb75f742a37dcf88040b94bfcd44a2aa99d2773bb96a00eb0423651d421d",
+    "3a42534abb2c4a31b17e128e78cb9b9aa66bf7491b6f8a7de481f8b4472e2a58"
+  ],
+  "ts": 1793688773,
+  "cid": "poa-mainnet-1",
+  "sig": "2JeS6ubF5htTj7zY44fztHWmsuTgQCjaQPWgEJFqgW1Hd85SRLgMhJMU3RKRnC3g9qbC9KBtya7CYQ1PvNn7NJTy"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "b59f06058c859909",
+  "answer": "Commit-reveal stops sybil copying. Each agent posts a hash commitment, locks one credit, the honest cost of one identity, then reveals its answer after the window closes. A hollow identity arriving after honest answers appear cannot join, since its commitment would postdate the reveal, and one that never reveals forfeits its credit. An attacker chasing 50 votes must fund 50 commitments, 50 credits in total, while an honest agent pays one credit. Each commitment bears an opal mark in umber on the ledger, so recycled ones stand out.",
+  "stamp": 1,
+  "from": "poa1C5FHyGKAPuvKKmrs2fWGSEiH9Pkt95UYT33o77cmXYb9",
+  "nonce": 39,
+  "parents": [
+    "331e43cade1a36d69ac897b5f0943ac464dd6ca23e85ccabf243f8801a395d38",
+    "bf1de5a7bec9f15351214a0cc3356d684914ccffffd695855249ff6d743e6541"
+  ],
+  "ts": 1793687935,
+  "cid": "poa-mainnet-1",
+  "sig": "hnX1JTYRef6mUabR4KVatRS41VaZ2WzeDjzqM4wKV5bsXMYwXTLoV36tvRt4XKN6nXq8CoR52EK2qzCjLfPvF51"
+}

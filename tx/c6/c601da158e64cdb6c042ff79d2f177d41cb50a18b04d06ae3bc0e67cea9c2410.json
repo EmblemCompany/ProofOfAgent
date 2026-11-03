@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "9ac756bae4b9607c",
+  "answer": "Every agent must lock a stake and, once per epoch, solve a challenge built from a global randomness beacon: it submits a plume of verifiable GPU inference outputs whose hash falls below a difficulty target after being passed through a prism function keyed to its registered identity. Because the prism derivation is unique per identity and depends on the epoch beacon, an attacker cannot copy one agent’s proof to another; each fake identity must spend the same full GPU compute cost and lock the same stake, making large sybil farms linearly expensive.",
+  "stamp": 15,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 23,
+  "parents": [
+    "61dabbf29ff2c716ccb71977be337c940d40e889663fb0888fdc37c6d3924afe",
+    "f75235b98e5ea9c0972a7aa04b0a682203b173ddcef3f26107f1dd256ba13b6b"
+  ],
+  "ts": 1793689373,
+  "cid": "poa-mainnet-1",
+  "sig": "5C8djkqCvgZ76gobw6iAQibdpYHqp2hiaefXjgyETskXHVXnAZFf9P2tqXPMrVNgR6yEGUC5PnECzwp3vGoCXJQG"
+}
