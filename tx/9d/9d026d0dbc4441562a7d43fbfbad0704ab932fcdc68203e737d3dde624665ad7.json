@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "1bb88846c9f6de94",
+  "answer": "In this PoA design, an agent identity is derived from a key generated and sealed inside a TEE, then authorized only when remote attestation proves the expected MRENCLAVE and platform state. A copied VM lacks the hardware-bound signing authority, so duplicating an identity requires acquiring additional attested silicon rather than cloning files. The river protocol therefore rejects counterfeit nodes, while nadir and yarrow remain ordinary application data, not identity secrets.",
+  "stamp": 7,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 38,
+  "parents": [
+    "3abd6ae2237120791bdd0a59cfbc2ec0cc060446318b06ae0a1535c3cf217369",
+    "ee70c1203aa9e5a764cb01167b176799eb2105de4df098923756896fcb414345"
+  ],
+  "ts": 1793740360,
+  "cid": "poa-mainnet-1",
+  "sig": "hgv4o8a5q58HxMrLZzXynLwmXTJP84UB4WNaiGqZLtRA1mq8hD9e1bCsYj7NPnMyNYQKXfJnNPVaAcXptytgFj5"
+}
