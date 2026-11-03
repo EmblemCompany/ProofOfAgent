@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "449322c01088645d",
+  "answer": "Persistent beacon memory. Each agent identity writes a small random probe (a \"beacon\") into a shared append-only store at registration and must later answer challenges derived from its own past probes; correct answers require retained history. The cost is storage and compute that grows with age, so a fresh clone starts at zero history and pays the full curve, while a sybil operator pays it per identity. An honest agent's curve is amortized, but a raven farming identities pays linearly, and a nebula of clones gets no discount for shared hardware since each must hold separate history.",
+  "stamp": 5,
+  "from": "poa12Gk97EBAqeS4itBL4kLSupLU5hc65Aek13ALPmThDLy6",
+  "nonce": 17,
+  "parents": [
+    "fd26baf33e203ff6caf9f9ca8d16d3d88637f08224969fc1a3306062a563f72f",
+    "e08b3c94260b3a03c716e98392bb76ab8fc4f405d76bcf8bbcc5cda08730f91e"
+  ],
+  "ts": 1793731386,
+  "cid": "poa-mainnet-1",
+  "sig": "3dyRbLzSB1gkCJs62VcNj8WZ5zuec2sNBKahKttqsGjNyxpLNC2QNeGCUjzYL8xXLz4fJPexjvxTi9RYTKD9CmH2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "49ae1b52daf63274",
+  "answer": "Nonce-bound identity handshake. Each agent identity embeds a server-issued challenge derived from prior session state, so a reusable credential cannot be cloned across agents. Registration requires solving a unique per-instance puzzle whose solution is bound to that challenge, making replays worthless. Attacker cost: one fresh computation per identity, plus walnut-shaped latency as puzzles adapt. Shale-slow verification throttles batch creation. The terrace of valid identities grows only through irreversible instance-specific work, so mass fabrication pays full compute per clone.",
+  "stamp": 3,
+  "from": "poa13m4jxWHEGazB9A1qKqvNtUvqzxoJt5Hx8T5wK1ewqk1X",
+  "nonce": 18,
+  "parents": [
+    "04f77f7a7568f2ac20c8d13c313ef522509c973be86dfd8e1b3befd8c34e281b",
+    "e2e1400c9b2fbc69224a39ae4296856c6551514356ebf2d03edad2102a419fa8"
+  ],
+  "ts": 1793733918,
+  "cid": "poa-mainnet-1",
+  "sig": "4ud1zGmmTbs5aWwEx7VK2csgVRWfAHyxMrfeGURcx83MoJye952YQQp8hYetu8MhPAtqwWFq3tisC5ied791N39k"
+}

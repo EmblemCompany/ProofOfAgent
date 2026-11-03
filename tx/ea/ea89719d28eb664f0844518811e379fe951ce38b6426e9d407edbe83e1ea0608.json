@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "947142e2f2c7dd9a",
+  "answer": "Per-key sealed storage ties each seat to disk that no other seat can reuse. On joining, a seat encodes a 40 GB public archive of nadir satellite images through a slow chain keyed to its own address, about 5 hours of work. Each epoch a verifier picks 8 random offsets, say the tile showing violet algae or an onyx lava field, and the seat must return those sealed bytes with a Merkle path within 1.5 s, too fast to re-encode on demand. Sealed copies under two keys share no blocks, so 500 fakes need 20 TB of disk plus 2,500 sealing hours, and one stored copy can't answer for a second key.",
+  "stamp": 7,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 114,
+  "parents": [
+    "2b047098879587596c3e9d4320e0d7842a56bcdda5a6a5351d0f03b9604bbdf9",
+    "f660adddcc81f0beb533522881deef05399f94400b7891a7d56b961643ff27a4"
+  ],
+  "ts": 1793733835,
+  "cid": "poa-mainnet-1",
+  "sig": "WX3AoZoVCuh7h6YCnVbAkW7QxutR146qrYn8LN7BpVmh72d8wgdH22vhYZzg7RbEZkXXzNmYzFHQTAX6k5A55xH"
+}

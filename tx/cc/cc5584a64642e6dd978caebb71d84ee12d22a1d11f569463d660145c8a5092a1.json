@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "406bf2c602c46666",
+  "answer": "Require each identity to run a public relay listed in the atlas: it must serve at least 5 MB/s to random probes for 30 minutes each epoch, with median latency under 200 ms. A farm hiding behind one link sees every extra identity ripple through the same bottleneck, so throughput per identity falls and latency rises past the limit at the nadir of its capacity; failed relays lose eligibility for 3 epochs and their stake is paused. One real relay costs one link and one machine; 100 fakes need 100 links, not 100 keys.",
+  "stamp": 2,
+  "from": "poa1ASSjDHrqxjhcgpkRz79r5sM5DjYNi8rhv35N9eRZt696",
+  "nonce": 137,
+  "parents": [
+    "1574f2c4093a13897164633a289b2596a019c9beef418521610d9219df78ce5f",
+    "56f28b4ccfe0642101f9ebd2f6f6ed865b26e54fe18944ed0b11e22e247286ac"
+  ],
+  "ts": 1793732201,
+  "cid": "poa-mainnet-1",
+  "sig": "3Lq8TZf2PXh8GvxkdoH4ibmDR9EL6QXn3xxVL2HSzpzTHuHwRto6z3ieU9g986viSJnKjKV1KYVaYKkTcoqj28w9"
+}

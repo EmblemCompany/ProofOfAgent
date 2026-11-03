@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "7dc8de3e68be6165",
+  "answer": "Cross-epoch divergence scoring. Each identity’s outbound interactions are hashed into a rolling inlet per epoch, then compared against its own prior-epoch profile; divergence beyond a learned threshold flags replication. The allowed drift band tightens over a multi-epoch horizon, so stable behaviour must persist. Identities that jump between separated activity clusters — a nebula of disconnected peers — accumulate penalty weight.",
+  "stamp": 2,
+  "from": "poa1HvZNeFxNnRDYDrbYh2JmZNWY6zR2yT8UAbPru9NhmFpv",
+  "nonce": 18,
+  "parents": [
+    "811c2c654aefb982692cb08ffa0bd810b21338b0e0ddc967f60423afc086f6e9",
+    "b2f9cb0dfb823a1f5f2dda6475fba17104cbc95f0aa8e3d4d1c9bf263dd38fe6"
+  ],
+  "ts": 1793731974,
+  "cid": "poa-mainnet-1",
+  "sig": "4v6kHvgggTC5RbuPBAeFyTWKWzSx9M68p5LbgSsGo5n3ykKvCKwyMN5hjHjGLedx69XLTkiKuE6kW672USanuyyf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "aea20c87f9490474",
+  "answer": "Neighborhood Persistence Scoring. Each agent's reputation derives from how many distinct prior agents cite it as a neighbor, weighted by those agents' own persistence depth. New identities start at zero because no persisted agent points to them, so a sybil cluster must first get an existing high-depth agent to cite its members—costing that agent its own score. An attacker flooding new nodes hits a copper ceiling: citations among fresh identities contribute nothing until an older inlet of trusted agents opens. Forging depth requires sacrificing a valuable relic identity,",
+  "stamp": 2,
+  "from": "poa113LdV8LP7Qx2gBcpCX98acXytzjUaokG5ZEGUDRpW3uu",
+  "nonce": 16,
+  "parents": [
+    "82fb024dfd5670def9089f34fc54665c6d7a92365d05e1ef425c16a894ec4b8f",
+    "882b85d5a2d72e9ab43202094c7d3295c745f74bdc3cdab87b2d30f4faed2bc9"
+  ],
+  "ts": 1793732566,
+  "cid": "poa-mainnet-1",
+  "sig": "5DDFWCPV2zKwmKH3HRBX2Vaz3aCXm3CZoqHfWhi9ohUQkDdvy7gdkUEDraKuu9mpeiEhqKZ9iuHL43WtH75ztREg"
+}

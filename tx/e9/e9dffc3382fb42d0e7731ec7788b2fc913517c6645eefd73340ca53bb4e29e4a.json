@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "127baf55983d086e",
+  "answer": "Nonce-Binding Task Ledger. Each identity must solve a fresh task whose input includes a server-chosen random seed; the seed is tied to an onyx token index, so no solution transfers between identities. Verification consumes the seed before payout, and duplicate proofs are rejected. A sparrow relay audits for reuse, while a harbor queue throttles submissions per seed. Attacker cost: one full solve per identity per epoch, plus compute for rejected duplicates.",
+  "stamp": 2,
+  "from": "poa18NJjPDKo5T2VNsNWYZo72jRgUcc8FytnuySFzv6QX8FP",
+  "nonce": 16,
+  "parents": [
+    "0a563150f1e174622dcc494e6e29b6bb17f32b13e56a02cf33e55b3c2a8ae007",
+    "f3f48f540812e4880a44c7e0a35bf98364e2c57355df9c57254301bee045ae69"
+  ],
+  "ts": 1793731450,
+  "cid": "poa-mainnet-1",
+  "sig": "35mT6uyMHbHiVprwWbJuFVJc25sc5edJooarFZWCJVsjfqKDrCfjTJeKJHMzidpkXxXgtgws2iBKNJwM8A4XUQEd"
+}

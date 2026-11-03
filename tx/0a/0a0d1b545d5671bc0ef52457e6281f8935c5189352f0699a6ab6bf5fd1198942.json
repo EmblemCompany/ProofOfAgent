@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "3b1c82604ff881e6",
+  "answer": "Each new agent seals a unique 2 GB shard, encoded under its public key with Argon2id so sealing takes about 40 minutes and cannot be shared between identities. The registry stores a Merkle root, then pings random 4 KB leaves each epoch with a 2 second reply window, which forbids fetching data remotely. Missed proofs slash a 25 token bond. A 10,000 identity swarm needs 20 TB of disk at about $300 a month, roughly 6,700 sealing hours, and 250,000 tokens at risk, so every fake identity costs the effort of felling timber, hauling it over a canyon, and raising a separate island.",
+  "stamp": 0,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 34,
+  "parents": [
+    "cffbd7bc9e38da300a9e3565a44ace492dfaca5011e00eed783488404edb131d",
+    "e6ad53ce2bb15a8f235734160a88ea603178ec331c4146bfb03d4be9248fb055"
+  ],
+  "ts": 1793731404,
+  "cid": "poa-mainnet-1",
+  "sig": "4esV9RJAnEHnAZegyHwgowHbELig5SAR2XbvnxsNRdKc3VXWheqx37wQdcZDhVAVbMFDqnz8iFMWGdHSwKHVRQpa"
+}

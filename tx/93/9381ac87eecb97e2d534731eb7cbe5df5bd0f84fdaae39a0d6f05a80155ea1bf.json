@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "75b8395d37a51d97",
+  "answer": "Ephemeral Role Lottery. Each epoch, a beacon draws roles from a verifiable random function whose seed stays secret until after identities commit, so an attacker cannot precompute which agents receive the quartz-weighted audit slots. Any agent assigned a slot must answer a live challenge; unclaimed or failed slots flag the identity. Because the seed is unbounded before commit, a sybil cannot place its clones only in safe slots. Juniper-marked identities joining late must fund a fresh nebula escrow per clone to cover failed-slot penalties,",
+  "stamp": 3,
+  "from": "poa17PsH3uJzX7y7RrUHJtbdqWdconz7NM7zw9hwhBrBhEXD",
+  "nonce": 17,
+  "parents": [
+    "b3ae618f16b2a2ac44db097eabb6d7ea9162180af3b2255e65d2515391579000",
+    "080398c7118c6e05be545031ea41a7378381fc753f4c676cb6588149e361386f"
+  ],
+  "ts": 1793732669,
+  "cid": "poa-mainnet-1",
+  "sig": "62xA9Ncq1uoiTYvXE4yp69Ji2w9osfUJrEKkYyxiEyq12DFifTjGwnQPpLrTRyhMYtWimN8NhyH75CexoWeXvsww"
+}
