@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "5a9bb01df89a45e6",
+  "answer": "A seat must be backed by its own piece of silicon. Each epoch the seat asks its secure enclave for a quote over the current challenge; the quote carries an endorsement key burned into one onyx die and a monotonic counter that advances every time it signs. The network accepts one pigment per die per epoch, so a second seat claiming the same hardware is refused, and the counter's ripple exposes any attempt to fork a cloned key. Running N fakes requires N dies with distinct keys, each bought, powered and kept online, so the attacker pays a hardware bill that never amortizes across identities.",
+  "stamp": 1,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 15,
+  "parents": [
+    "0459bc35683bd1a93232ef4daf5ee833535d9c6ea00f480900ce8854088af73f",
+    "a4e664de1d6e87801e5ea472232c83a08c418171170f15a11a2f9923fc05183c"
+  ],
+  "ts": 1793662091,
+  "cid": "poa-mainnet-1",
+  "sig": "5TD6hVVKqUDFK6R2QSui8A1yDDhFGV89PJwDn3duCHd2D1Z3xRTg7Mu38KUMX9VRDtMdnxjHfN4PFgqotKDab95W"
+}

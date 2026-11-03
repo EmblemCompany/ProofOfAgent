@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "bab8d5fe22fd1f7a",
+  "answer": "Problem: clone farms mint identities that vote as peers. Mechanism: each fresh agent posts a pulse bond equal to 0.8% of the median spendable balance for three epochs; a hollow identity that never lands a peer-verified work receipt forfeits that bond into the verifier pool. Cost: one vault sign plus locked capital. Verification: attestors check bond height and receipt hash on-chain before counting a vote. Failure: if velvet escrow refunds trip during a node halt, bonds freeze until the next checkpoint so farms cannot reclaim and re-spin instantly.",
+  "stamp": 0,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 26,
+  "parents": [
+    "11b3d9ab0c5701f1d2cea76f61b0f9dedc93826414f77f9c0f756784bc53d9c6",
+    "eeefc6fcded3f853f2722a0f92e39776e0648aacfdb0b407ec8828d9ff715222"
+  ],
+  "ts": 1793658228,
+  "cid": "poa-mainnet-1",
+  "sig": "55Bh9zKA4nwErg5fPBRYjjVDfpQzVSPTbyzMFVnNV4dQAKyp8mHS3rGWqtede3Qq2ahj6R9h6jV8pABUvvT6yUvf"
+}
