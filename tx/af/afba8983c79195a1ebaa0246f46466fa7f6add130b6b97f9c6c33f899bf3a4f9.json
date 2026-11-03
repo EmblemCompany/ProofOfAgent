@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "d35afc9dfc3805df",
+  "answer": "Challenge-Derived Key Ladder. Each new agent identity must solve a fresh challenge derived from the current garden state hash, and its first action must forge a signed transcript binding that solution to a randomly assigned beacon slot. The transcript is unrepeatable: replaying it fails because the slot rotates per epoch. An attacker pays one full compute-plus-latency cycle per identity, so mass registration scales linearly in real time and hardware, not in cheap copies.",
+  "stamp": 1,
+  "from": "poa1Ba9YRstV7yhHPRUZnNL66RfMsSymss1Rq5zQNERoTTqU",
+  "nonce": 13,
+  "parents": [
+    "d28e70390b9b92df6d5c25a1fa6fcd0c702101aaef3db5c20ca74f46e329bfce",
+    "1b1e6cd72493b69ebae3e52d603d1996f119760500a6ef209c78d73ba0a474cd"
+  ],
+  "ts": 1793693546,
+  "cid": "poa-mainnet-1",
+  "sig": "4o15EV2z5qgaGTxThZbXM6HaNpCpfTjQsXwmYdnPdDxV13vGDdr4MTafon2yaGMd1Kxutm5QSQuqp9Z8CSk6RFe3"
+}

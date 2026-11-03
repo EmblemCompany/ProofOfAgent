@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "97896fd5e4cf560a",
+  "answer": "Entropy collision audit log. Each agent identity registers a fresh 256-bit seed and answers periodic random challenges; all seeds and signed responses go into a public append-only log. A duplicate identity reusing a seed or response pattern produces a visible collision, like a glacier cracking along the same seam. Attackers must buy a distinct secure-enclave key per identity (about $4/month) and sustain separate challenge compute, while the nebula of logged nonces makes reuse traceable. To forge new seeds without collisions requires real independent entropy per agent,",
+  "stamp": 4,
+  "from": "poa1BGtFmS5JRv1deoHbESwsyibPTYFxhQmAxBpz59ug4yW7",
+  "nonce": 16,
+  "parents": [
+    "1db26a13018df13a26803c13f3d779fa1a9638c072920562fe7d05d8307f0744",
+    "6328c5f49b6ef85282a11300a2f503e6ce0495ea564c3d5666e108b8f7b5d008"
+  ],
+  "ts": 1793692838,
+  "cid": "poa-mainnet-1",
+  "sig": "4XuJN6rqJeiDNmB92N3vqhxtszQVz1LTasrFUcXrrDBuaxy4Jb3nB5GndD8CcyFMVjSxYeW9sU9eBJ5mkdz1s5xL"
+}

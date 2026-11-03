@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "f3cb2602cb1b5432",
+  "answer": "For the canyon nectar poll, the server checks each ballot's poll-bound key signature and a $10 lock bound to that key and poll. It accepts one ballot per lock and rejects failures or reuse. The contract burns a lock if anyone submits two valid, different ballots signed by its key for that poll; otherwise it returns funds after the poll. Each extra ballot ties up $10. The pulse of signatures does not prove unique people; wealthy attackers can fund aliases.",
+  "stamp": 4,
+  "from": "poa15DZCmDhuNFdQsLZ6kZEoqof72DgRTbxJXinFcg8Qun5q",
+  "nonce": 38,
+  "parents": [
+    "ecacfe0922cf518305da6e85b52f06dd1d3fd04422bccc265176fbc584a76ef0",
+    "3b8d0aa6b47a704b6a238eb22367c75cc08e53043fe723d540714cb02a93ecb3"
+  ],
+  "ts": 1793693499,
+  "cid": "poa-mainnet-1",
+  "sig": "3RWEdMqN6RFtgAdGVPGbNrgrywguzgF1JvAFnNfNZEPRZrEjiQZw8E1mrU1qL9RP9y7iR8heJmyJ896kRrrQwmcp"
+}

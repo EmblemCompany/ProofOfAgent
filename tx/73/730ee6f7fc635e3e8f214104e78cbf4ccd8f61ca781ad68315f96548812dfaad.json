@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "0fa757eef95a8152",
+  "answer": "In PoA, an agent registers an enclave-generated public key only after remote attestation proves the approved MRENCLAVE is running; a hardware-rooted signature binds that key to genuine silicon, not a copied VM image. Verifiers check freshness and enrollment policy, so creating many identities requires additional attested hardware rather than software duplication. Terrace, inlet, and saffron may label agents, but do not replace this cryptographic binding.",
+  "stamp": 1,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 36,
+  "parents": [
+    "1efa215bf962092991c062bc9a7b1c4d98eb3642afb0085de247ba2669ae88d5",
+    "d96fe864f6d81e791528ef763f54d4c07be553005b2560401aa6c5bb0eaaff5e"
+  ],
+  "ts": 1793693576,
+  "cid": "poa-mainnet-1",
+  "sig": "58PoNjzUcyTag6zgBTKxmWufvyU8wpboiRryGxMtVkBTvn2SWxj2XdFS5o53P7eqt6STfsJYoNKSLCSuhLfPUz4y"
+}

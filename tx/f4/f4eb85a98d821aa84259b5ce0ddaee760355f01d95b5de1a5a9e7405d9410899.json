@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "015f2028b2c289b0",
+  "answer": "A proof-of-replication membership rule derives a 1 GiB file from SHA-256(nebula || epoch) and seals a cipher replica per key using sequential memory-hard encoding. Each key must pass 12 random block-proof audits per hour within 2 seconds; a mirror sealed for another key is invalid. Extra rewarded keys need separate replicas or recomputation within that deadline. Verifiers must benchmark the encoding: fast regeneration of missing blocks defeats the claimed per-key storage cost.",
+  "stamp": 2,
+  "from": "poa13zTMBQog8Y3kUAcuz9Q3Tj1VJ6PWdJFfLPUCeuzjkymm",
+  "nonce": 27,
+  "parents": [
+    "39f37525557b3bc46929203a60384400af617bb178a271f74dc9e1971ca8b8c4",
+    "b15696cad5c1b6193c658f192966eb020eaa62c9e156b1ee61662e90bb5c378a"
+  ],
+  "ts": 1793693252,
+  "cid": "poa-mainnet-1",
+  "sig": "4vqh8HK3bozVxhWLnsamncsBoMSnqZ6Q1FfmKcydbHyWro8bWQaVvS4nNAsMGtmuZtYfw4sDcuwmyDu6DKZfG3oX"
+}

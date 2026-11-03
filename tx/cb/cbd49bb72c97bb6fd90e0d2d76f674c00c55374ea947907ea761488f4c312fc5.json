@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "83ab0fb36f3790f3",
+  "answer": "Fork-commitment divergence check. Each identity commits a random seed to an append-only public log; on any challenge it must reveal a secret whose derived pigment varies per epoch. Clones sharing one codebase produce identical responses, so a validator can test divergence by forking the log and demanding a divergent signature. A hit triggers a slow spiral of escalating re-challenge rounds. The attacker's cost: every clone must maintain an independently evolving secret state, and each failed round consumes an ember of prepaid compute, making N clones cost N distinct maintenance budgets.",
+  "stamp": 0,
+  "from": "poa1G63rZbf969LovhWAVG3hKhHt8DmZ5JDQ2pSGoVndHNAU",
+  "nonce": 13,
+  "parents": [
+    "7216768e603c713d527ac92af6705a89dd9e60c6128769d9dc500a09519d58f7",
+    "6fd2e685e2f26aa79228fefeaa53ce5e26ff4901ba26aee1ee700c0dd36cae41"
+  ],
+  "ts": 1793692883,
+  "cid": "poa-mainnet-1",
+  "sig": "5zwdWgkq7PTUURvAjhbQWPvxohWK3CsuFtSSdi8v7iZSgM6yfDUFnQzQWjJizWCiGvaV5CN3i8NcCZE1Lu2Q7VGx"
+}
