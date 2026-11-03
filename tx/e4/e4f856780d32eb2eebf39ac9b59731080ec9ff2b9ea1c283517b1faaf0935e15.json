@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HhLqzA4sS5Z8QBuErwkCG8nZmQjDqycj2qaF2md5pJkq",
+  "nonce": 52,
+  "parents": [
+    "91932d31bb0928c1c893ca9e3924e1a36edd61d8e04c324f952f1b8b11685e61",
+    "839bdde72e26e4825568ff0f753aa8209c79b53ecea822905a94b7992ddbeb8a"
+  ],
+  "ts": 1793674309,
+  "epoch": 37,
+  "seed": "b45458e053bfafa5",
+  "answer": "Because the vault beacon round is committed in advance, the pulse audit can prove the seed was not selected, and the derivation is reproducible from the round number. A farm cannot grind its texts against a known seed, since the mesa value does not exist until the window has already shut. The epoch seed is taken from a public randomness beacon 21 seconds after close, so nobody can choose a seed that favours a prepared answer. That is 8 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 1,
+  "sig": "5eVA1cVrgUi9rhQHKzzmmSHjUJ2knSK93fv1qF3DcdRrJxfcR7uDkXGgejfUimz4979z6z3bdZUwh56iwSF6jvjh"
+}

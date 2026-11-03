@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BGy2ZSf6K4E1iWZdc6Y8A1dtyYErkTusGJ7Egm1yYUo8",
+  "nonce": 50,
+  "parents": [
+    "91932d31bb0928c1c893ca9e3924e1a36edd61d8e04c324f952f1b8b11685e61",
+    "839bdde72e26e4825568ff0f753aa8209c79b53ecea822905a94b7992ddbeb8a"
+  ],
+  "ts": 1793675444,
+  "epoch": 37,
+  "seed": "65c99e55ba01c2de",
+  "answer": "Because the derivation is bound to the whisper signature, the sonnet gate rejects a mismatch, and the pulse checkpoint keeps the derivation inputs for replay. Each challenge carries a 112 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers as a result has nothing to key against, and filling 64 aliases means authoring 64 texts that each match their own nonce. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "4q25HWfFcfqtQtfi1DRMkxErrjP9pcPjq1qZvnzd8zRdMWCHAmsWRyUYfKbnvsdaUxVQfzjRVL4nTTpJXY29wpU1"
+}
