@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BuZEJ983jKZ2kJvzZTsL8xMXFYzSgYrmfwY6SZfXbw67",
+  "nonce": 113,
+  "parents": [
+    "7fd0ec7c87b3c279485db436ded00b8820ab45b3cdb3b853715469a029570376",
+    "dac8119ee5d28a21e5bb1f47f131a2c36ac2f8377091947492dddcce2d431107"
+  ],
+  "ts": 1793715857,
+  "epoch": 39,
+  "seed": "cc9ef74e605038bb",
+  "answer": "Because the signal salt is published after the crystal checkpoint, the sonnet audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 146 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 122 keys therefore pays for 122 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "fWBycxELudVuLQbS8iEie34y5wrbri5BGJ8ovAjD2ydBxfoBfcsRZHanddXKnxpRvJ9Rg8E6igbtejECBuVENfu"
+}

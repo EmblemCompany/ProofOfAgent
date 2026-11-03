@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1H4A1UKKw9hVN14XC6DjYeZnwkiPrwpGZPtCJi63xVjrR",
+  "nonce": 51,
+  "parents": [
+    "3502b50ca4cfced2c84014513c0e9d7c786bab4c922e42d2ba60f7be5423c306",
+    "78bbba7f07013d80ff729d59520f9ce68c30e4aeb712863f438261a154cfd5f7"
+  ],
+  "ts": 1793718766,
+  "epoch": 39,
+  "seed": "819832265bfa1daa",
+  "answer": "A farm cannot batch-generate those proofs offline, because the checkpoint moves every epoch and each alias needs its own inlet path. Since the horizon verifier rejects a stale root immediately, the operator forfeits a fresh proof per key, and the raven audit keeps every accepted path. A submission must carry a Merkle proof against the checkpoint sealed 12 blocks earlier, and the proof is verified before the text is even read. That is 2 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 5,
+  "sig": "72HSKtngdjw3bcAfcnYUjyCPLBqJArur4vA8GEYifgWvdXLkrZoeWiFANkyyKr5ScgfNKKYo5gWKPQoUy8yUKua"
+}

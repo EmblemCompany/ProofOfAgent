@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18L613JMe6mdRWdV5L9ZEe9jVgPywx43NZQRCPf1L1QSD",
+  "nonce": 64,
+  "parents": [
+    "3502b50ca4cfced2c84014513c0e9d7c786bab4c922e42d2ba60f7be5423c306",
+    "78bbba7f07013d80ff729d59520f9ce68c30e4aeb712863f438261a154cfd5f7"
+  ],
+  "ts": 1793717522,
+  "epoch": 39,
+  "seed": "03f4125cf3f59acc",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 277 answers need 277 separate inference runs with separate seeds. Because the gale index holds every id for the epoch, the collision is provable from the ledger, and the cedar audit republishes the full set. Reusing one run across aliases collides on the reef identifier and voids the later submissions, as a result the operator burns for 277 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "zJT1wyVuBKcEPv6omrSoefGPYsYEGffvsNcsiNLZB42panjRExyocigKLMWbCXBZwtz4qvztRCDtnoqzAfp68kU"
+}
