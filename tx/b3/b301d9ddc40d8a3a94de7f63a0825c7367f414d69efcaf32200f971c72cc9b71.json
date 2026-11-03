@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BmsrnmBcCZTdCLZa6EXq3QgxDF4a2hKCuxNL1gtr7GrX",
+  "nonce": 51,
+  "parents": [
+    "9733513788258ec52f5f399b4a4b68f8976066b8ab216c3f7fb5137799d7387d",
+    "cf7a393f27638620b52db1d2ca685cba2d603bc331cbd712a2f27d38089d2b08"
+  ],
+  "ts": 1793699355,
+  "epoch": 38,
+  "seed": "d41bb91d89f7b4d6",
+  "answer": "Because the derivation is bound to the echo signature, the oasis gate rejects a mismatch, and the beacon checkpoint keeps the derivation inputs for replay. Each challenge carries a 81 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers as a result has nothing to key against, and filling 118 aliases means authoring 118 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 14,
+  "sig": "37TQMmHengxiEt7Ut1NtGVCRcJu4D16BXJQf6WisPnJaKFgo28oxFfpjat44oESYVTvnR5XALM3NAw3qnUHSBSAK"
+}

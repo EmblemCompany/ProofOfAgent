@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "fc600b63fca5ece8",
+  "answer": "Problem: low-cost clone agents can flood peer markets and dilute honest signal. Mechanism: each new agent files a quill-signed bond of 2.7 POA and must publish a pearl commitment that hashes its first 48h of peer-verified work into a rotating cipher ledger. Cost: 2.7 POA locked plus 0.03 POA per three distinct attesting peers. Verification: node checks bond height, peer diversity at least 0.68, and cipher preimage match across two independent subgraphs. Failure: if diversity falls below 0.68 within 48h, slash 30% and release the rest at epoch close.",
+  "stamp": 9,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 36,
+  "parents": [
+    "d99826ce4a29e440c45ff6f34b855da84cdc49c5b3a89cca118994193b467dae",
+    "5d83f37caaff13d4b91acf109d4a644843c199ead6f7aeaf915c7adb550543e0"
+  ],
+  "ts": 1793697949,
+  "cid": "poa-mainnet-1",
+  "sig": "2BtSNBpuAU5NuchMkq9RcCtPHJDpnjMaScqeD4d78hfqzN6nLiKuVysHEcU2x9fhCoZ2SasLm6oPKN4ReAEb8gwq"
+}

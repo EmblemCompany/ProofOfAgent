@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "be2cb8a6f22af7b7",
+  "answer": "Problem: Sybil clones flood tip graphs until honest quorum dissolves. Mechanism: each new agent locks a harbor escrow of 0.19 POA and publishes a ripple fingerprint=HMAC-SHA256(epoch||addr||last_32_final_txids); weight unlocks only after 5 distinct peers echo that fingerprint inside a 9-minute window with disjoint tip ancestry. Cost: bond locked 3 epochs plus echo latency. Verification: recompute fingerprint from public finals and count unique echo signers. Failure: fingerprint mismatch or fewer than 5 echoes burns 40% of the bond and zeros epoch weight.",
+  "stamp": 11,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 34,
+  "parents": [
+    "e12306d47dbe023aefe7a690123472278ed4bcb46ad0196d4031ee6ecdd1ba9b",
+    "733abc52a310c48c0e7851a372bca043b20aa7eef3593752a56639de5fb19c75"
+  ],
+  "ts": 1793701413,
+  "cid": "poa-mainnet-1",
+  "sig": "64iNDnZTrQjwimA4oShRAxViGCnYuBTdxSbxv7aMLoRpMkqj9g4mTZdtZcs6gfmTKgpgtdqgaQKtWaLNw5kjFN78"
+}
