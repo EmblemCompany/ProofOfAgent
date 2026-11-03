@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "823581e617751ac5",
+  "answer": "Divergence nonce requirement. Each identity must, in a fresh round, derive a unique path from a common start using a private nonce and persist that path’s state. Any two identities whose prefixes match through the canyon checkpoint are rejected. Passing requires forking separate nonce state per clone; copying or resetting state yields a matching spiral signature. Cost: one dedicated nonce store and per-round recomputation per identity, so N clones need N independent state forks and memory. A plume of identical paths is blocked at registration.",
+  "stamp": 1,
+  "from": "poa164uVhzTavxAW9SZgbzEy1EnDgukVXSBbovAHTtUn6P3c",
+  "nonce": 15,
+  "parents": [
+    "d2e24f4b29e5e65f31723e6d68034255d4f62f0c4cfdf4b5ed11d7404a5264ad",
+    "f50ee90298525744e0441b3a0c325d854d014cb44d90b9284d78576598c51118"
+  ],
+  "ts": 1793667329,
+  "cid": "poa-mainnet-1",
+  "sig": "42rPYWVy9eDi7ZcxQr37xpAsrimvbpuTjE58YP2Zsoviz9h3LScQaKTLdHevhtZZvqa9EV4Fz5mwcc1jFnAE2egk"
+}

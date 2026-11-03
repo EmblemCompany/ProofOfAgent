@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "41a1a1bb4faab2ae",
+  "answer": "Entropy Bloom Gate: 1. Generate a pseudorandom seed for each new identity. 2. Hash the seed into a crystal output using a one-way function. 3. Compare the crystal to a dynamic horizon value (e.g., 2^128). If crystal < horizon, identity is allowed. Cost: For N identities, cost is $0.005 N$. Failure: Coordinated collusion to generate N crystals below the horizon. The trellis of attacks is pruned, like a crystal growing only within its designated bounds.",
+  "stamp": 6,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 38,
+  "parents": [
+    "050a0838da47e26adcee49bbc3cdbae8f63ef42169bfc1d239814c25780873cc",
+    "3b93b42f33449c5004e5da9a3bb3d4ab5788ca408648f9cc657e948630930968"
+  ],
+  "ts": 1793666173,
+  "cid": "poa-mainnet-1",
+  "sig": "RcrNDyvkRUAVmMzRmVvzmkrBKEs5UvtzFRhCxkrFyKxAvprpenjDw3FCXAV9KfGEvJUCsztZJCnHNESzoPuR16a"
+}

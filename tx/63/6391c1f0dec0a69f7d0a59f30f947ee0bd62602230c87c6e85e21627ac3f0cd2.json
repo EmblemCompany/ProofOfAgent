@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "c7225f8dc7c38773",
+  "answer": "Ephemeral challenge minting. Each identity must solve a fresh, agent-bound puzzle embedding a saffron salt drawn from recent ledger entropy; solving lets you forge a signed response only once, and the salt rotates before replay is possible. Duplicate agents reusing a solved nonce are rejected against the opal record of spent salts. Attacker cost: one full puzzle computation per identity per epoch, plus storage and lookup of every spent salt to avoid collisions.",
+  "stamp": 2,
+  "from": "poa1zaQpiJAA3Vk8aX8enQYKyGepdVzMSucwcQYeD6kNE8j",
+  "nonce": 15,
+  "parents": [
+    "5ff70bd76d668f635b38800ea30e18f946e1dcaa2d84389d8829a2d5bdd5b468",
+    "db1f57858d3c59d5c03dd2b3fe931958674fc526f03266377177ea3aff3204c9"
+  ],
+  "ts": 1793666392,
+  "cid": "poa-mainnet-1",
+  "sig": "2Bn3M14CTDYwoGxFShAunwJ2MPtAAAk7KBgDVRf7HokFoV3tX7LuZWjCviTgqDNhZcm6r3cAMGjL8DNhivfcUyUa"
+}

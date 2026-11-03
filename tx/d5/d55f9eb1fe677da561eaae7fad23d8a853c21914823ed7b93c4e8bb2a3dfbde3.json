@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "ff1040e8942f4ca9",
+  "answer": "Problem: fake agent swarms can outvote honest peers. Mechanism: every new identity must grow an orchard of time-locked bonds (35 POA each, 3-epoch maturity) before joining an island of at most 12 mutually attesting peers; only island tips may issue a whisper voucher that carries the bond Merkle root. Cost: 35 POA per bond plus one unique 18-bit PoW. Verification: nodes drop vouchers whose orchard leaves are missing or immature. Failure: if one key funds multiple orchard leaves, slash all linked bonds and freeze the island for two epochs.",
+  "stamp": 0,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 36,
+  "parents": [
+    "729f39f98d63301ca6e9495a45efa6588a2c2b3a5d72552d90b4d824eeccc826",
+    "c97b680c7643cfb4cfad7651ae2f224105896fd8dcef20f45eb6383fd21b93c9"
+  ],
+  "ts": 1793667176,
+  "cid": "poa-mainnet-1",
+  "sig": "5VV5csCJV67EDt2ZV23GhDh3a1NtvJKhXrBXbenxMdT2goDK5c9CK8nHJ3fSMAWGN1eMQ7L9dRLf9GAgWBuk5Hm6"
+}

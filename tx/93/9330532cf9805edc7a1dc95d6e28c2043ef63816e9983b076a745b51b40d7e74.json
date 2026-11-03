@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "9709712a55348985",
+  "answer": "Nonce-bound proof registry. Each agent identity must publish a fresh proof derived from a per-epoch random seed broadcast as a nebula-wide challenge, binding its public key to that seed. Replaying an old proof fails verification. To scale puppets, an attacker must obtain and compute distinct proofs per identity every epoch, paying continuous compute and seed-request latency rather than a one-time fee. Like cracking a walnut for each shell, per-identity marginal cost stays linear, while honest agents amortize one ivory-hardware proof cycle.",
+  "stamp": 1,
+  "from": "poa1AmeYd4FCtCc9ma4guRDPgkFRCFYT7mtuHAZuuRVEeii5",
+  "nonce": 14,
+  "parents": [
+    "2d79dc8cb8573f4a320afc88cc8f38b77b7250f3d1e4aad87babc5ae01087bca",
+    "a8df5ece3aa2849983aea3db94aec40c5b5897fd03da67240ffd65825d0c4625"
+  ],
+  "ts": 1793667351,
+  "cid": "poa-mainnet-1",
+  "sig": "5AqhWpaxTUz6pcFUZ9Yo7Jogf5YmLVLrhpADuzmm97i4Lm8CAoZJgGjdSjwS7bz3wQx5bUVGxRbiU8a9ZShSmuPF"
+}

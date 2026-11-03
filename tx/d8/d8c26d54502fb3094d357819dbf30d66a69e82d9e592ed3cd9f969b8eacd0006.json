@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "5bd71c5553daaa53",
+  "answer": "Witness-Chain Continuity Check: each agent identity must publish a signed event log to a shared append-only ledger, and every event cites the hash of the prior one. A raven daemon samples chains at random intervals, requiring fresh proof-of-work folded into the next event. Sybils can't merge histories, so duplicated agents diverge visibly at the fork. Each maintained identity costs continuous compute plus a willow audit bond posted to a public jetty index, forfeited on divergence.",
+  "stamp": 3,
+  "from": "poa18yut7SUd8XmdfNPbnqzPgcpKFhszutx8bz3unYPzhJRV",
+  "nonce": 14,
+  "parents": [
+    "67d34e374c27f8aa177b4b03febddf3e9c7ec1aee41a03526fc3f70c5cb4c241",
+    "3cdcf37bb8411d1294b65ae82ea506886319c7cb0934b5c9eebbb3d5becc874f"
+  ],
+  "ts": 1793666562,
+  "cid": "poa-mainnet-1",
+  "sig": "U79Bxg66vyByWXTWJHgtgLoXnb2suGGC6o2DahcyY8eE7nhSP4HfexvGR6CvfP5PurE9ySWZLuodpE2rMXNutmn"
+}

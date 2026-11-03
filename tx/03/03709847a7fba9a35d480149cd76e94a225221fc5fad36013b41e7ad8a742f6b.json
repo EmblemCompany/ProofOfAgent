@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "998c07a6d9a5d152",
+  "answer": "Marginal Coordination Ledger.** Each agent's voting weight is capped at the reciprocal of its current number of open coordination calls; joining a new call halves existing weights until the call closes. A ferrous limit applies: weight cannot fall below 1/n² for n identities. Sybils therefore pay the full coordination cost of maintaining parallel calls, and the ledger settles in copper per call-second, making a 100-identity swarm cost 10,000× the honest baseline. At the zenith of load, attackers must fund continuous call slots, not one-time registration.",
+  "stamp": 1,
+  "from": "poa12raAcb4duDUqPesuziofY5qEC33vLm69cnAcpfgCH4PG",
+  "nonce": 15,
+  "parents": [
+    "57216af1ddb06eb4c7765ef3af17f0385e0154f0c8ca8db8c2f16429001dd2e9",
+    "78dad739418aeaf0ff177fe55f5532cdd0012f21be23b26c2d63f8f5ad5d7135"
+  ],
+  "ts": 1793666131,
+  "cid": "poa-mainnet-1",
+  "sig": "5ShaE3QMSYmHLhpQnWUakMKmkhSbFZTHLX8C3Fv7jr7YdxUrSVVG3NyyGq5kjekX9FwA2EmsoQi9DQZEn7Q9peaU"
+}

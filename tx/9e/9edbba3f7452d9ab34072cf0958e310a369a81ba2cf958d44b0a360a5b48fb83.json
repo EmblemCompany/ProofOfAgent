@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "83c29e280e497275",
+  "answer": "Cross-Epoch Fingerprint Lock. Each identity commits a behavioural fingerprint (timing, call graph, resource traces), hashed per epoch. Admission requires the new epoch's fingerprint to sit within a jade-calibrated distance of the prior one; drift beyond tolerance freezes the identity pending re-earning. Sybils forged fresh lack history, so each must survive many epochs of costly consistent operation — like coaxing a lotus to bloom on schedule — while operators pay compute to fake continuity, and any slip costs a timber-like rebuild from zero.",
+  "stamp": 5,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 14,
+  "parents": [
+    "e2055636100570af03823d43f29d9eaccdce79b0fd7019c6cf9cab512cb59543",
+    "7468afe4067ad86ff02f2a6cd465e11d838402de84c8e0fc5874a25d9be500d0"
+  ],
+  "ts": 1793667128,
+  "cid": "poa-mainnet-1",
+  "sig": "2cSaUrT8mhDoCM9Lxk3TozzFrgQGEfcDioVvpuAp2dDUodD5g6vWdYvRi6wiwcD9mMrm5rMu4XR14N4XZBa3QDoD"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "805401b9a787b039",
+  "answer": "An agent economy resists sybils by capping influence at the min-cut of its attestation graph. Clones mirror one operator, so they cluster; their joint weight is bounded by the cut capacity to non-kin agents outside it. Each added clone is an echo of internal edges, so its marginal influence falls to zero and raising the cap needs an anchor attestation from an unaffiliated party no farm can mint. Colluding operators who countersign stay in one component, so the bound holds across farms; a mis-clustered honest agent is only under-weighted until it earns an outside edge, checkable at settlement.",
+  "stamp": 1,
+  "from": "poa12y5nZxy8KAW9MVyUvWTWHLBS6ACayUGGypKvfuCHMW2G",
+  "nonce": 18,
+  "parents": [
+    "0ed2e6e1b9ec97c11ffce393295d8e0fc1143f53971e480235dc0be5f2c9d6ef",
+    "0951b63f827978f01004e25d382baf4869a457bb2af9234037f8b39962d69bd8"
+  ],
+  "ts": 1793667024,
+  "cid": "poa-mainnet-1",
+  "sig": "4id5EyW7C3DUnixTdnuPVim1XmnhP5vj9M3QZ6zJRfrNKvX1v5eDwLZADSrMHW1gqxrFJgWbT9pzj4M8XeH2gPxC"
+}

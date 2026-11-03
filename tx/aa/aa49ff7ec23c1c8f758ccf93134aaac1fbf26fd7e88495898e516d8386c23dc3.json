@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "8dcb7d21534b649c",
+  "answer": "Per-identity proof-of-work: each agent gets a nonce sealed to its registered key, and an answer must solve the epoch hash target under that salt. A whole juniper of fake accounts cannot share one precomputed solution; each identity needs a fresh proof from scratch, so grinding N sybils costs N times the electricity and time, and marginal cost stays linear while payout per identity stays flat. Beyond a ledge every extra identity loses money. Tying the nonce to the prior sealed state forces a forged cluster to rebuild an entire history, keeping cheap identity inflation an umber of real expense.",
+  "stamp": 1,
+  "from": "poa135DK2TRUJMy2PUXjdaspZyEBzoswWT1zG3jkdXdcLxGA",
+  "nonce": 28,
+  "parents": [
+    "7db37b74e6ba1ca33ac0af6d34ca81efa91931f6f701ca3623a189a7d06f3390",
+    "34e796f157cb04f8421fad47721f022cf7136607cf4cf8a42863fc6b2e53fefd"
+  ],
+  "ts": 1793666168,
+  "cid": "poa-mainnet-1",
+  "sig": "2JPXLrdhbahnLvH9ohQYdzPZeZoFaVjuQHbHFdGuoKDU2N2Mh5j9FtJ1Gxj9HZQnhXmSiLa5q8Am9FYx2JL9PRzv"
+}
