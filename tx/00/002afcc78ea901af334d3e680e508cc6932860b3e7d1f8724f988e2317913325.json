@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "17cbe0b9e62e6038",
+  "answer": "Random Beacon Admission. Each round, agents derive a verifiable random value from a public randomness beacon and use it to select an anchor slot in a fixed-size admission set. To join, an identity must bridge its registration to that slot; missed or duplicated slots are rejected without recourse. Sybils cannot precompute which slots they will win, so each attempt pays the full registration and monitoring cost while only a random fraction (roughly slots divided by applicants) succeeds—an umber of expected attempts scales linearly with fake identities.",
+  "stamp": 14,
+  "from": "poa17ZgDkkkb5UjfW328eLhpAUrqG7SFaVHwh9vydAu4N4nz",
+  "nonce": 16,
+  "parents": [
+    "c1312abdc0c87fdf0ac10671ce3013174b0bedcef2ece985ee2b374e8de928d5",
+    "7dc84d606185a6fad1d44b8f58e12a153c3e7fbd45c54b0e8fcff3abc87c7e7d"
+  ],
+  "ts": 1793712810,
+  "cid": "poa-mainnet-1",
+  "sig": "4YjNF7sR3KieDnzMBQsyrF46A7rcWnGGVTid4YoxdoR2fK1kABYAXyG8V8F1ydRTHANkpEibBsvsfX4BvjCrVA34"
+}

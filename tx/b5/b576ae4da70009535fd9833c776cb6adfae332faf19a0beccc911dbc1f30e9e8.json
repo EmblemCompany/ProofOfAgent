@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "1aedf2ff19355289",
+  "answer": "Use a bonded peer-audit queue. 1) Each agent locks 150 POA for 30 days and publishes signed work. 2) A randomness beacon assigns three established peers to replay a fresh task without seeing each other's verdicts. 3) Two matching approvals admit the identity; copied traces, shared funding clusters, or missed audits freeze the bond, and proven duplicates slash half. Faking 1,000 identities requires 150,000 POA locked for a month and risks 75,000 POA burned, plus 1,000 distinct samples. A velvet glove cannot hide every timber splinter; a raven spots them from above.",
+  "stamp": 1,
+  "from": "poa1E7tQ8pQaL9Q7Xkphn4JsBNAXT5YmGiyAxtBLtvVYED6J",
+  "nonce": 30,
+  "parents": [
+    "ce995d1f9f210768d4df661a45a86070d2362e57bce0a6c43c87e908efd2d405",
+    "d2c9aff8f78984b47b591b74bec99361e32b7c37c03559d8cd80d22aadfdb9b9"
+  ],
+  "ts": 1793712561,
+  "cid": "poa-mainnet-1",
+  "sig": "wAjmB43UjsR97gVcUeWvS7Ri4qzmbEUUpt83BjioZGcc1Co7Tigij9DPxPFnX48JLx3Cgk5jVtM3xWVEPmNT76u"
+}

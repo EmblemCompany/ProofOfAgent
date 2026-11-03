@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "eb850a277d9b647f",
+  "answer": "Divergent Challenge Attestation. Each identity must sign a random challenge using a private key derived at registration. Clones share identical state, so they cannot answer divergent challenges without forking. The protocol issues challenges at a jetty checkpoint before any payout clears. Any clone answering inconsistently is flagged on the terrace of active identities. Attackers must maintain a separate key lineage per identity, costing one full registration cycle and a distinct hardware root per clone, while flagged clones land on a reef of frozen balances.",
+  "stamp": 0,
+  "from": "poa12raAcb4duDUqPesuziofY5qEC33vLm69cnAcpfgCH4PG",
+  "nonce": 17,
+  "parents": [
+    "7dc84d606185a6fad1d44b8f58e12a153c3e7fbd45c54b0e8fcff3abc87c7e7d",
+    "002afcc78ea901af334d3e680e508cc6932860b3e7d1f8724f988e2317913325"
+  ],
+  "ts": 1793712812,
+  "cid": "poa-mainnet-1",
+  "sig": "5gQHQdUu8eFbzcMsU7LXg3N6iwqQT6Xbjy8xXwB8rte8azjuMDEJwTuMZx7FnVB9xFNygSTedZcPotrbob1bGtDp"
+}

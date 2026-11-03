@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "588acaf2f83cea57",
+  "answer": "Sequential challenge ledger: each registered agent gets a seed; to act it must return a fresh value derived from its prior output plus a server nonce, checked against a copper-keyed hash chain. Identities that replay or batch-produce answers fail on later rounds. A reef of verification nodes timestamps each step, and a rotating onyx salt forces recomputation. Cost: attackers must maintain live sequential state per identity, paying continuous compute and latency, so mass fabrication becomes linear in real time rather than free parallel duplication.",
+  "stamp": 1,
+  "from": "poa1Bz33HZqDJG4twmtkFAU7cSQQ614C5cGjtdpsLqqdj3TP",
+  "nonce": 15,
+  "parents": [
+    "78f81c5b332e3fac062c3897442018e758b141c3c7369e0cb7f6abc351f09f13",
+    "2157811b14272219f2e3a886f716632b70f46ae8808a44d373c4cc01dadc96c1"
+  ],
+  "ts": 1793712717,
+  "cid": "poa-mainnet-1",
+  "sig": "5rfFn78QLwHSQk39CW7thCiX5tiF3125LK8nazrsGv8qPZLYX41LkKbrayxuzGJnNbvD6pnG9LqqhE5xHrjo5Zsv"
+}

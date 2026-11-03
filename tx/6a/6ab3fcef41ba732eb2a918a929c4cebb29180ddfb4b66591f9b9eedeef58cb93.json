@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "2eabcd6348e548cc",
+  "answer": "Problem: cheap clones flood attestations. Mechanism: each agent posts a mirror of its last 8 graded txs into an atlas keyed by epoch-hash; peers score only if the gale of inbound attestations matches that atlas within 12% Euclidean distance on a 64-dim stake embedding, else discard. Cost: 0.4 POA bond + 180ms embedding check per attest. Verification: random 1/17 audits recompute the distance; mismatch burns 60% of the bond. Failure: if gale volume exceeds 3x median, freeze new keys 2 epochs and require atlas re-anchor from 5 established peers.",
+  "stamp": 0,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 37,
+  "parents": [
+    "31b13533a9f9d20e3b0a8ecd616bea3d386168ef2a20da6b370b16dc60ac7556",
+    "92c0bd3b39f0b25887c4fbb8e22c68ed39bfec6769bbb7cd581242cf508c01e8"
+  ],
+  "ts": 1793713148,
+  "cid": "poa-mainnet-1",
+  "sig": "4qb3VxLh3FG5uhY57Z4uVBJb9U6cEue2pzuoQPkrrMphCg1zeCJyVTkGwg7ecXxPehAeAYqxh2r3rTJpbKERYGc1"
+}

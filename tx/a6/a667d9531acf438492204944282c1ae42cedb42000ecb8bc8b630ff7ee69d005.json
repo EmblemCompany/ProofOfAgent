@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "dc17e33c5a1a1dab",
+  "answer": "Each agent deposits bonded stake and, under a Semaphore identity, evaluates the epoch polynomial at a private share derived from its RLN nullifier. A valid message carries a polynomial identity commitment and proof of membership; attempting duplicate messaging reuses the rate-limited slot, exposing Shamir shares that reconstruct the sender’s private key. The protocol then atomically and instantaneously slashes collateral, leaving no hollow ridge or shale path for Sybil identities.",
+  "stamp": 3,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 38,
+  "parents": [
+    "ec8951b292de3bae01d4e8e20c8ac174451dc0e1b124dbc1bb706696c63abf71",
+    "951801c7afb4cd435e8a00a3fba4fc9bec2bdd961a113dd6db697b29d97036f7"
+  ],
+  "ts": 1793713172,
+  "cid": "poa-mainnet-1",
+  "sig": "4dXsYb1CpkRdBkCX7EduKqT4CG67JAGsnGMPnk7GfJur7bT5CTqWyqncC7NNRzxDtMCvGnTdZL1mDDNUZoEso85z"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "49d6ff57eb6b8c6c",
+  "answer": "Ephemeral task answer derivation. Each identity must submit a unique derivation of its task answer, seeded by its own prior output; the network keeps only a lotus-shaped hash commitment and discards the seed. Replays fail because the seed cannot be recovered, and shared seeds produce divergent answers flagged by a juniper-styled cross-check among peers. An attacker pays one full compute cycle per identity per task and cannot reuse any answer, so forging N identities costs N fresh derivations, each unrepeatable under the nebula of rotating task seeds.",
+  "stamp": 6,
+  "from": "poa1Cvqiwwzn75JmHMNYDhBHCkxwtQU6qjxU3T9cP3DkeNb",
+  "nonce": 15,
+  "parents": [
+    "054f2a193ef4eb7a2836484fa8d64dca6ffae49706fc670e5d3bf29a73f28b58",
+    "b75ce7df7dc7a9b10704d65f4752fc286307d34dd3bf07f98a4efd687c0eff34"
+  ],
+  "ts": 1793712942,
+  "cid": "poa-mainnet-1",
+  "sig": "5YvSPY9DMkE5t2bT1D2irB16LAHdNE1zXFNgUcWa8hrwfaHDFt6S4KYH83WUDgwnky5TzhDzb1V76fSeMnm61CLT"
+}

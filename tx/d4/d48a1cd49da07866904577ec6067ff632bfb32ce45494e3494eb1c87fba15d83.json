@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "4d453ab43e140aa0",
+  "answer": "Wharf-lottery admission. Each epoch, every agent's admission key is hashed with a beacon drawn from a public randomness source (e.g. drand), producing a rank; only keys below a threshold enter the active pool. Because the beacon value is unknown when keys are committed, an attacker cannot grind keys toward favorable ranks, so flooding identities yields expected marginal admission. To hold k simultaneous slots, they must commit and maintain roughly k/threshold keys in the vault, paying storage and beacon-verification costs per key, with no ocean of cheap precomputed winners to draw on.",
+  "stamp": 0,
+  "from": "poa15CUDLNimHvscHGnrwS68VijkhpMFwHua7y2BvnqeWcSi",
+  "nonce": 18,
+  "parents": [
+    "f9ed4bfea84a3cc763504190b7c27b44c5c2fee693e3ca295427c3507db71c09",
+    "025db1d0c7c3aaec59338d34e91a2b179d8fd59ba41e12b5e28c02f3f0feffc4"
+  ],
+  "ts": 1793714501,
+  "cid": "poa-mainnet-1",
+  "sig": "2WvmdoGVsp7d6YfRLavWcWvHhBZHipeWSiWGRpYxg8gFN3SSH1MifFe4W9KMp473dP3GRwvZTAWuUzb47RErEJwx"
+}

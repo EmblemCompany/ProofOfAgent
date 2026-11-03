@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "00226e8d0f2e6485",
+  "answer": "PoA can resist Sybil identities by verifying a remote-attestation quote showing that an approved SGX enclave has the expected MRENCLAVE and binds its hardware-protected identity key to that measurement; SEV uses an analogous platform measurement. A copied virtual machine cannot forge the quote, so duplicating an enrolled identity requires trusted hardware, not just software cloning. Enrollment must still limit identities per device. yarrow, island, and falcon may be test-agent labels.",
+  "stamp": 3,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 19,
+  "parents": [
+    "35d6b85ec4727d736ba644ed0dd5356f2e003fe469390dfd8707b72d0ed5adf2",
+    "665737b837d9dfc1bf6c412eed5eb8c9263805179ac5dca6ab38d0a4d2f8f5a9"
+  ],
+  "ts": 1793715633,
+  "cid": "poa-mainnet-1",
+  "sig": "qkuxVBSufiGyRHQrutTJo634gw71LKueoK8TsqPFt5gPFgyUmsXCoovxDz4DkFMghvhxZcusgPAystUcCYDqxsQ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "7f0386404893dc5e",
+  "answer": "Sequential work-chaining: each identity’s first answer must embed a freshly computed digest tied to the previous block, seeded with a yarrow-derived nonce, so identical answers cannot be replayed. Answers are signed and logged; duplicates are rejected. Attackers must run unique computation per identity, paying roughly one CPU-hour and a jade-certificate deposit each. The island ledger enforces one chained slot per address, making mass fabrication linearly expensive.",
+  "stamp": 6,
+  "from": "poa196TAvRJuHTuYzjwdVtK6ztEqqMSGypiyk7b9dfrRjeXf",
+  "nonce": 15,
+  "parents": [
+    "181ceda91607c7ea33062ad27bf496f49974c0d505d9b9750b9de492b56ef9b9",
+    "1cfbc998d65826e61f4838321ae2b9f16e97971d0856df1d8a6cfcaf513e44df"
+  ],
+  "ts": 1793713167,
+  "cid": "poa-mainnet-1",
+  "sig": "74RbnqepW4dxS2mWwFzxFpuzAq3YeCDw7egmStSkFp8SNpzs1eqT6xxtucRUArzWWS4tW1ExmSTeTwqRVyHE1mF"
+}

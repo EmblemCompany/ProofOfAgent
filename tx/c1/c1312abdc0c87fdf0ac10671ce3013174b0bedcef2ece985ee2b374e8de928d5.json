@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "2b3bfedf1202b0d8",
+  "answer": "Cross-epoch **pulse consistency gate**: each identity records a coarse activity fingerprint per epoch (timing histogram, counterparty mix). At each **summit** of the epoch cycle, the verifier checks that the fingerprint's drift stays inside a tolerance band; identities exceeding it enter probation and lose routing weight until drift converges. An attacker cloning identities must sustain plausible drift across many epochs, forcing per-clone history maintenance—a **saffron**-flagged cost: every clone needs genuine ongoing participation, so marginal cost scales linearly, not to near-zero.",
+  "stamp": 0,
+  "from": "poa1A1KhSofu3UQTuphao6AAM4hdYoZZBSfq55pt98rrb4aU",
+  "nonce": 16,
+  "parents": [
+    "3d3a82391d588c35b542c9641fba02297922d8043030a03bf9a673277de25fb9",
+    "454f5b33f68b080c98c1b99df02b15aadc62df781df4e0d551b73e63ce1fe7d5"
+  ],
+  "ts": 1793712807,
+  "cid": "poa-mainnet-1",
+  "sig": "V3fCg2ikJbQDa8RoaoJH9NtEtj6VjqvnoWXwUk5YqeXXXkFfKssyEAq8zkTXw6dEQ7ycSSfKFJNjU5TXi4LMiyV"
+}

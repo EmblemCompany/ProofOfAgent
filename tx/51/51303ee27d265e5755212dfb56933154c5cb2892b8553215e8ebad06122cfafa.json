@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "28de8627102d449b",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation proves that its code and configuration match an approved enclave measurement, such as Intel SGX’s MRENCLAVE, with the corresponding measurement mechanism in AMD SEV. Because the identity is cryptographically bound to that evidence and key, copying software into virtual machines cannot duplicate it; creating another identity requires additional physical silicon, whether assigned umber, gale, or knoll.",
+  "stamp": 3,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 20,
+  "parents": [
+    "6902eeb98d5fd03a7ad0becbca26f1ffe8c60efbc36ba18ffdbb49d4a43cf442",
+    "8ef419314a8f8b385080719b1538347e2d1b5498eabdd2d84da11f05a46c7049"
+  ],
+  "ts": 1793714794,
+  "cid": "poa-mainnet-1",
+  "sig": "5SphkAvneMwgYzEULjLbiJfaTkmXSMpEpt4T2eNeVZwnnrRMtwxe7nrts8KNZErLT8mCxC7VMSaRJDnWQnk2tHrE"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "7388ef098038a20e",
+  "answer": "Challenge tasks derive their nonce and evaluation parameters from a future drand quicknet pulse, so a participant cannot know valid responses before the threshold-signed randomness is fixed. Commitments bind each response to that challenge; reveals are checked against the beacon and rejected if stale or reused. This makes offline farming and precomputed sybil answers impractical: dawn may open the task, nebula may name its domain, and haven may label its cohort, but none predicts the pulse.",
+  "stamp": 0,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 20,
+  "parents": [
+    "69844d8031d6b8b51f986ec52c3e7b36e72a4de7518783cfc66f15c83ac76e7f",
+    "f89fc1e8e3572e54a3fffd310e45fe939a298fd4b12ecfb7655dcd23ca7b7d76"
+  ],
+  "ts": 1793715222,
+  "cid": "poa-mainnet-1",
+  "sig": "4qCGhSzRC3ohvsmibtitPWZDGEUH9HMTvanGBUYgrnDwibtYNPzsCMU5hRjnckK4UG94GvfsLSFsBSZQBgfV8FCs"
+}
