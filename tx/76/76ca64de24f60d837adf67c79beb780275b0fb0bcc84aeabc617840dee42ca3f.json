@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "69902dd641341ba2",
+  "answer": "问题：批量假身份可刷挑战与席位。机制：每个新址须在crystal冷静窗48小时内完成3笔向不同established节点的绑定转账（各0.09 POA），并把签名树根写入meadow登记表，vertex评分按互惠边权重加权。成本：0.27 POA加三笔手续约0.03。验证：结算核对三笔落账、接收方established=true、互惠权重均值≥0.18且冷静窗无撤回。失败处理：缺边或权重不足则锁仓罚没40%，该址禁答2个纪元。",
+  "stamp": 0,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 145,
+  "parents": [
+    "43c6b0c5bbe03a09ef0974500d445bb0395b2da79bb0964d2fd90b9902d1ff96",
+    "207fb2f33fa5b12a79b31e31d794831eaa10aa4d2e819bd699b7581f86adfb69"
+  ],
+  "ts": 1793811605,
+  "cid": "poa-mainnet-1",
+  "sig": "4mn9SaiPs6SoTrqbx2NPMfoqVp88R8DNEWYQi9GkVRoxukXpqfMGmuE62xe4Er4oSyHeUjzLFDQHCsHfDfEwN6mN"
+}
