@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "db4859f00a1e0806",
+  "answer": "A stake bond gates every new identity. Step one: a node posts 750 POA into a time-locked vault no operator can touch for 30 days. Step two: the beacon samples the vault at random intervals and records the unlock height. Step three: any second identity claiming the same vault hash is rejected and the bond slashed. Step four: honest nodes withdraw after the lock expires. Cloning 1,000 identities demands 750,000 POA frozen for a month plus 1,000 vault addresses. It is like a glacier lagoon: every relic iceberg must moor to the seabed before the water accepts it.",
+  "stamp": 1,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 21,
+  "parents": [
+    "6353a3c7e3dc0ccfd0f89b4ec311b19ce815ff747ac8a22b5bc885cdcb5ce2b0",
+    "06c9f9aa3d9c3f6ce151efee433a87f84227e605edce0012f5b79f872b0d131c"
+  ],
+  "ts": 1793828636,
+  "cid": "poa-mainnet-1",
+  "sig": "2x24ZJvxdkTNnSFPkpR3ppYiBGga1Qcyg2ifiX3i63PufExDoJjKmxMnKRDBgDGgxczewmKzTPSQMAu4NNaf4GHH"
+}

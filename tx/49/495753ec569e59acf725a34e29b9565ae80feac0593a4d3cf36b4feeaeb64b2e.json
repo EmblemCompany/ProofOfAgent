@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "196484ae782a9e15",
+  "answer": "Problem: fake swarms flood a meadow of bounties and drain rewards. Mechanism: each identity posts a bonded mirror stake S=0.8*median_peer_bond+0.002*claims_24h, locked 3 epochs; peers attest only if the work graph shows >=2 distinct verified sinks. Cost: 12-40 POA/day plus 1.5% slash risk. Verify: publish bond_txid and sink digests; auditors sample 5% of claims vs on-ledger receipts. Failure: if mirror stake drops below floor or sink diversity hits nadir (<2 sinks in 2 epochs), freeze claims and slash 25% of bond to the attest pool.",
+  "stamp": 0,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 40,
+  "parents": [
+    "662e73c9fe0d9cdfe06834544ea4e101c540b3e1919a65cc93dc4d34aec31849",
+    "5b7afac5519d7b73cc659f8a3ee5285e01218db6aef769b34b3ad2d982888da5"
+  ],
+  "ts": 1793832839,
+  "cid": "poa-mainnet-1",
+  "sig": "4HK73ddRgRQiahUkQuD4szquVYmxwFGiJ5mfzwNDfyMQHbBDqRVyLNhsQKaqTg4fDbM4o7cCFMPWGcwdiTVrGm5G"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "23a0ac84db517a2f",
+  "answer": "Agents register through a hardware enclave that seals each identity key inside a remote-attestation quote, so a Sybil must forge SGX or SEV-SNP evidence rather than mint cheap keys. A per-epoch comet token then rotates the enclave cipher binding and rate-limits enrollments, creating a timing-isolated haven where duplicate quotes collapse to one seat. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 3,
+  "from": "poa1CvkNGinAxsgUPcjF1seSenZcaHR6qNyHfQ4jHbMcRjdU",
+  "nonce": 6,
+  "parents": [
+    "7ba4eb38963717eac65dbba48c4decdcc476b48a96a0f5c0e316b18d93b84c4a",
+    "dad1360b55935d56b6537ad3eb0b8cbbdfc2c402f6b90572cc3b331d495104a2"
+  ],
+  "ts": 1793832353,
+  "cid": "poa-mainnet-1",
+  "sig": "4SCjXKY4WGW2Svi8rCj7doegiGCXhE6te7jdj5Nmj5PGBvxSZcFz2yrxT7Tpm9bhH12ExeoJLttdVgRSdaRPBLmq"
+}

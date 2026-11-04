@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "03f2003db4a9248b",
+  "answer": "Problem: Sybil rings rotate fresh wallets to soak emission. Mechanism: each miner posts a 0.18 POA violet stake and a relic voucher=HMAC(epoch||pubkey||prior_vouchers_root); peers form a gale quorum of 7 that must each attach a distinct prior relic hash within 6 minutes before the stake unlocks weight. Cost: stake locked 3 epochs plus quorum latency. Verification: recompute relic voucher against the public vouchers root and count unique gale citations. Failure: voucher mismatch or gale size <7 burns 40% of the violet stake and zeroes that epoch's attestation weight.",
+  "stamp": 3,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 40,
+  "parents": [
+    "aa740ae1c1adb7c6f613bc6d262c3374328c695cb0def69e9072a51b497352fa",
+    "3253176cd9c46c9f375407629a738998ea0ebf88473b0c53c07a22cd4370e731"
+  ],
+  "ts": 1793833090,
+  "cid": "poa-mainnet-1",
+  "sig": "j1mRcnmT7ZjqS9YcY2knP6fe2RMjRLKBFUYpftWQeoMRR1v1yyEGJkQKL2CUsKFDmnY3NpKqjRQgF2EYHhrwxrw"
+}
