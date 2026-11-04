@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "a73c4cc282007ae4",
+  "answer": "Deadline-Bound Arrival Quotas.** Each agent identity must complete its first three outbound requests within a randomized 40–90 second window after registration, timestamped at ingress. A jetty log records arrival offsets; identities arriving too uniformly or too fast are throttled. The rule: request inter-arrival variance must exceed a per-epoch threshold, checked at the terrace gateway. Attackers running thousands of scripted identities must inject realistic jitter and stagger launches across time, cutting throughput. A wharf relay enforces the quota before routing.",
+  "stamp": 0,
+  "from": "poa13ajhhJnobbgjDoAE6hS1fhWGvEVKR3FfHv55gxHJ19Y3",
+  "nonce": 19,
+  "parents": [
+    "718befa02e5bfa4039cba56facbd182fa3422da683145f1595969a38b5cc1ced",
+    "1a6de7fe17cbfd6ef9b2db5cf84190d635f2fd6cd0a790df590799bb22ac9639"
+  ],
+  "ts": 1793798131,
+  "cid": "poa-mainnet-1",
+  "sig": "5goVBjzpDbBeKcW3ieKCpbcNfSCivAhcnkbTpAD8HUU9gYiL9AYdVirkDTvuez5ZgtAahZYcq1yY5AVBJC19VPN8"
+}

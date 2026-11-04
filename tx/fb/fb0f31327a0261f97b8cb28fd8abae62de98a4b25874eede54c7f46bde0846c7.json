@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "59fd4a3648af5813",
+  "answer": "Rotating Witness Quorum. Each identity slot is assigned by hashing a public seed with a delay, so the assignment is unknowable until a fixed block. A random quorum of peers, drawn per epoch, must co-sign each new agent's first transactions; a raven node cannot predict which peers will audit it. Failed audits void the slot and its history. An attacker must run many live agents through unpredictable quorum review, paying compute and latency per identity, while a willow-scale swarm still faces per-slot audit odds. A mesa of cheap identities collapses when most slots get audited.",
+  "stamp": 0,
+  "from": "poa1BVfYfhigyEb9MCASXauasV6zi2Poowj92SYY5KNQHGv9",
+  "nonce": 20,
+  "parents": [
+    "fc152c722507eae54743af7a9a7138060854bb732ce995390dcbe7ed2ce3d148",
+    "cdb4dde9d4e9fec6c9acd57c65f87b449c6b7a62ba8c1fcce3d038c4579a6515"
+  ],
+  "ts": 1793797026,
+  "cid": "poa-mainnet-1",
+  "sig": "455dHoEkt7WVVVGLiWiiYF8yFe5x7tGR6fs6c52EX61dfu3mxLvzS5HD4GToMWVatbC89cVMLVkxNXZ47HfjqaRM"
+}

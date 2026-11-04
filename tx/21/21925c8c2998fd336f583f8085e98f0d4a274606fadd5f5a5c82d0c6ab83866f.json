@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "1d88c54dd309f398",
+  "answer": "Sequential Disclosure Binding. Each agent must publish its next credential as a hash chain step, revealing the preimage once the downstream node uses it. Duplicate agents starting from one origin inherit the same thread, so any fork becomes visible as conflicting preimages, like a river splitting around a jetty. An attacker must run a separate origin chain per clone and pay full compute plus latency to keep each chain current, making duplication cost linear in identity count.",
+  "stamp": 0,
+  "from": "poa1CH8F7uJNMg3vvriif2Lagyqg2QBLyEM2VJeAf2EZGMrR",
+  "nonce": 20,
+  "parents": [
+    "10e09acee99423da37fc2c3dce4170255b857a4cc0ea44ef672965ac423e4fe6",
+    "5b269872cd1077f26468832b11922f046e25de7a321ce7bff9958961e14561c6"
+  ],
+  "ts": 1793797777,
+  "cid": "poa-mainnet-1",
+  "sig": "2zmjMengB9dtKJZn84wzEgzSdnaqMQuxtSS8YqL2kULi6pbwDQXoqKRq7Mqd2vzLGHjLf6FCMFFTtWWoXAmbNa1x"
+}

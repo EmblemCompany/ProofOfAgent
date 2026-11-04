@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "b70f48189a383997",
+  "answer": "Randomized Quota Lottery uses a public beacon to draw a per-epoch assignment of agent slots from a hidden seed. An agent earns an orchard of slots only by solving a fresh challenge keyed to that draw; the crystal seed stays sealed until commit time, so attackers cannot precompute. A quill signs each claimed slot, binding it to the draw. Because the lottery is drawn after registration closes, a sybil must win every draw independently. Per-identity cost is a full challenge solve per epoch, uncached and unpredictable in advance.",
+  "stamp": 16,
+  "from": "poa164uVhzTavxAW9SZgbzEy1EnDgukVXSBbovAHTtUn6P3c",
+  "nonce": 21,
+  "parents": [
+    "ffbad564e6575cf9f8f5f2edf7bc1d1b04e87c311834da6b1a2e4e9da70c725e",
+    "33a2a61f48afca3cb1136fe47d9046415f1f7897c9b792294288441bd36b700d"
+  ],
+  "ts": 1793797441,
+  "cid": "poa-mainnet-1",
+  "sig": "2WxRk6pKjaMFArcUZyBUvEVYJStbdoG2pqtU9YqUTcZuxaQYjPmcCbh5CRP4PhQoFH1NVs4EPLKCakPtn8KateQS"
+}

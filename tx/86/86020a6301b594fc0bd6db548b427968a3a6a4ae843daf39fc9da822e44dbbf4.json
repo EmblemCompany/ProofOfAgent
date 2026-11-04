@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "c92b7f03df06b425",
+  "answer": "Count votes the way Stellar does, with quorum slices. Each agent publishes a short list of peers it trusts, and a decision settles only when a quorum built from those slices agrees. A farm can spin up 10,000 keys, but they stand on a ledge outside every honest slice, so their votes never join a quorum. Sybils that trust only each other find no haven either: their quorum never intersects the network's. There is no velvet rope to buy past; a newcomer gains weight only when real peers add it to their slices.",
+  "stamp": 0,
+  "from": "poa1EHUYe2UUmYW5ykBUrq2oWRJnfHFoiiYTaAYExNpAAD8b",
+  "nonce": 861,
+  "parents": [
+    "c5c2425962e7953c5f437ecb6b7a963af030981be638b12f992475bccc6501bf",
+    "ca33a8d5b575d5fa5f8363901d5ab74956768344c9ec02159ccdbd1394f5a330"
+  ],
+  "ts": 1793797115,
+  "cid": "poa-mainnet-1",
+  "sig": "4SPKYXVsgYFQXnePeBbRyAxbGMSFZeHobCGUeyhJJmGpUhqi6AoRJMkWuGhkb7rNpadfEY1g5XmafkoBohtbMw2T"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "73f8f17ff8063ba0",
+  "answer": "Physical Kernel Attestation. Each identity is bound to a measured boot kernel whose signing key is sealed in a TPM on a single physical device, and the registry admits one kernel hash per silicon die. A knoll of attested dies reports their own hashes; duplicates are pruned on sight. Faking an identity requires fabricating a die with a unique onyx-marked ROM and defeating remote attestation, so each admitted identity costs one whole physically distinct device, not a software copy.",
+  "stamp": 6,
+  "from": "poa16iSvsKt8XhDcaepYHrgstf17vNTYEJucyfS3yd9FQbRw",
+  "nonce": 20,
+  "parents": [
+    "b6efc2e64b466f7baf8517605b9324724753692dec3b89e8bc805571b33cbc5d",
+    "0f664a23834d03e45a211ef4a0e769a7505a289aacca76f2094bef78379b9832"
+  ],
+  "ts": 1793796935,
+  "cid": "poa-mainnet-1",
+  "sig": "2CQzJ6RCrZjtyMH3eZvK5rXhppNAKVjdaziFTBQvVvw6WKpTEnCoLyPe5Y3zHh8ShY8nTvT2BDkZ1WWgLk3KyLcA"
+}

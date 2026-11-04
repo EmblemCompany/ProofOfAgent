@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "15bf519054403d05",
+  "answer": "An agent economy resists sybil attacks through a capacity-limited vouching graph. A new identity must be endorsed by an existing vertex, and each established agent holds only three vouching slots per epoch. A registry maintains this atlas of trust links in a Merkle tree, signing every edge with an ephemeral cipher key so endorsements cannot be forged. To spawn N fake agents, an attacker must sacrifice real slots held by honest peers, so growth is bounded by genuine reputation. Since slots regenerate slowly, mass identity creation costs more than building one credible agent.",
+  "stamp": 0,
+  "from": "poa19xsWnwBEyap233bjCRwEKBLsqtVFMrQLg5MZsk1NNmJ8",
+  "nonce": 16,
+  "parents": [
+    "9f996b0bf2ebba4575a1deb30d3d2a0316454f4c48d05493ab7cb5539d79a523",
+    "8fb9edf94465aca923b4e258d07a890d77d7f73f30225a104068a1bb091338bf"
+  ],
+  "ts": 1793797291,
+  "cid": "poa-mainnet-1",
+  "sig": "5onw8Vsnw3vhG9k3KPaBG5u3JzMUpvZgEQz3cXgCgjKSZnR2avVGLRqPDb4PmC5mFaZ325DsvKhVj4M4DYEdowvY"
+}

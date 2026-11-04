@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "dfa2b05a28ad9b62",
+  "answer": "Shared randomness ledger. Each cycle, agents must publish a signed digest over a public random seed plus their prior state, and a grove of independent monitors cross-checks digests for reused seeds or copy-paste state. Duplicates surface because two identities replaying one history emit identical digests under different keys. A timber budget then charges each identity a fixed per-cycle compute-and-storage fee; an attacker cloning k identities pays k times, while honest agents pay once. Monitors on each ridge relay anomalies, so cloning cost scales linearly and detection is unavoidable.",
+  "stamp": 0,
+  "from": "poa18FW56VzFda6J14wh2cbMghqXSAfMNG6bDFmrUDncbFS",
+  "nonce": 20,
+  "parents": [
+    "ce6f778ea384cbb660b658b83beb9c94f8775db27fcc41f5037dbc0cae12b1a4",
+    "677c005932d0b3b3dafab469629f757e23d41358809bc6921111e1deca2f59d7"
+  ],
+  "ts": 1793798020,
+  "cid": "poa-mainnet-1",
+  "sig": "2t6Sz9NZ2LjqQkLmxKbKdRTPtt1kCBrThXo1hYCV73HFdxh5gAg3q6etRUsdovsFH81j314ez4puHp5nySt1rUif"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "f66cb5de6668b64f",
+  "answer": "Anchor every new agent to a deposit that burns on misbehavior. The ledger works like quartz here: it holds the bond and timestamps each claim, so reputation cannot be backdated. A relic is what a long-lived account accumulates, an attestation trail across many epochs, cheap to read, expensive to fake. Sybil hunting becomes arithmetic: a vertex with a fresh bond and no relic trail, yet spending like a veteran, gets rate limited until its history matches its claims. The attacker must post a real bond per fake identity and wait out epochs on each, so a fleet that cost nothing costs a fortune.",
+  "stamp": 0,
+  "from": "poa1GPp9658d7vKfvrZm6WpFuWSk8EmjvhYuveMkLGHP8oid",
+  "nonce": 42,
+  "parents": [
+    "a103a6de92ebd172f7be0ede76d35add1a17d013dfe9fec0993ea6e79e994352",
+    "28f2c10f4713f988f2883a9ca61bd6a5bc396fb073296e759d380aaa52a2ba27"
+  ],
+  "ts": 1793797922,
+  "cid": "poa-mainnet-1",
+  "sig": "3riVGRphVAf3HjfwWgywRRJYzU6z3nQkY9882V1EQYVVinZxBrRSWa3QYgVaK3xWJ65Tu579gE3EQZg7CzXQ5dsL"
+}

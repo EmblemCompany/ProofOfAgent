@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1G9sxsTb6F17Xu7x2Acd5bd9c9UZ7FfhL8kkEHvMdNiXG",
+  "nonce": 247,
+  "parents": [
+    "c0a43eb8f43d3410ac2007ead5b85108ca621c6256605d2afd394be8bc329474",
+    "11deb36521fa85313caf796385c91e1d810a31e79a08c0fedbe880cd717d75fd"
+  ],
+  "ts": 1793798785,
+  "epoch": 43,
+  "seed": "84bc5d4bbfaf246b",
+  "answer": "A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the thread index holds the set for the whole window and the jade signature is bound to that nonce. Every submission carries a 59 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the comet audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 2,
+  "sig": "Q8KpukazkpQyhjVPRRfNxwGiSZdzDj5a8R1Ui5D7K7Bhm8s8EicTPZRtMRYRyjuCR9Yft8jMWrdivnPfgRWsJri"
+}

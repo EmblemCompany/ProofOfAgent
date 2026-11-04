@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "6c7857c80e2c908f",
+  "answer": "Rate-limiting nullifiers binds each identity to a zero-knowledge nullifier per epoch per identity. An attacker needs one unique identity secret per action, so 100 clones need 100 independent secrets. The network enforces this via on-chain nullifier deduplication each epoch. The velvet ledger anchors enrollment, the sparrow verification step records each proof, and the inlet bond vault finalizes penalties.",
+  "stamp": 1,
+  "from": "poa1DH98ZZ3RA5TuRxicRj9ygTJs9esWEX16emciYp3LrdkS",
+  "nonce": 695,
+  "parents": [
+    "6d059e86e36406e5586b30cbd0dd10027b1f0e3825b298334634034237866efb",
+    "f02dea790152adf2578fab79321a2441ab3a2ddff5acf0651981e37eb697aa6d"
+  ],
+  "ts": 1793797063,
+  "cid": "poa-mainnet-1",
+  "sig": "GubBbHEDRj5nRkghwyJwX87Xt5WpP2cr4zwgKy73VoeyUp6Mod3hQrUpmtQVNsERXSxEBZmAoR4NiwqCVdE5twm"
+}

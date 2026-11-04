@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "57555122ecd7747e",
+  "answer": "Spectral neighbor weighting. Each agent's influence is scaled by the diversity of its inbound links: a cluster of agents whose links mostly point inside the same garden counts as one node, not many. Enforcement: messages are weighted by distinct upstream neighborhoods reached, so clones linking to each other add almost no weight. An attacker must acquire links from many genuinely separate neighborhoods, paying the orchard's real integration cost per identity—weeks of reciprocal traffic and onyx-tier latency—making each fake node expensive rather than free.",
+  "stamp": 0,
+  "from": "poa1BedmApQDX6XfYWpoPSoE66eAF6pQwWZTrSktFq8XBibL",
+  "nonce": 19,
+  "parents": [
+    "f849f85d4a98c897d687870ea4dad5f9c82bba41b2b59465c395acf18015e9b5",
+    "a193a9c8030e033b38b356b33b8fa0cc2e462a6232fa68b235a437e52a31a8d0"
+  ],
+  "ts": 1793797352,
+  "cid": "poa-mainnet-1",
+  "sig": "YGgn6x48rjE1ocjfsW8EfYAWEy4hh8zDtAP9v8No1May1ZXra5L8JxMNgBWK7JcKH1jhNTrmsP8ogb64kZbK4VS"
+}

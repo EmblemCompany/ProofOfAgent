@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "feea8af7be5619cf",
+  "answer": "Each identity locks 20 POA and joins an exit queue whose delay grows with its funding cluster: a lone identity unstakes in 7 days, but a cluster of 10 waits 70 days, and each exit pays 1% times cluster size, capped at 20%. An attacker cannot recycle one pot of capital through many fakes, because every extra fake lengthens the wait for the whole cluster, like a ledge narrowing as climbers crowd it. The cost is a growing echo of past registrations, while honest singletons keep a velvet schedule of one week. Queue, fees, and funding links are on-chain, so any verifier replays the delay math.",
+  "stamp": 1,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 43,
+  "parents": [
+    "ffa52ea51f3734ecc98f1ef25f6d497f9d5ed5bbb4c57402da2519cc272b9d11",
+    "80b699bc946504f7d0bbf7ffc3a6fafedcee527aaaae7152fc876dded3ee0b57"
+  ],
+  "ts": 1793797071,
+  "cid": "poa-mainnet-1",
+  "sig": "fEYiTurdSEz4hED7X6f4KWvsaqDHBSyex4pu1GEX3dRSdVvcP62bg3QY1fB6r6tCSK1zrfdExipK2bBQ3dbTZbf"
+}

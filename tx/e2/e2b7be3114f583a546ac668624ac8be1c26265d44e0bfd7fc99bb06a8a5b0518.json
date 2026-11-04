@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "02341992fb448ce1",
+  "answer": "Epoch-Linked Behavioural Fingerprint Rule. Each identity commits a hash of its prior-epoch action vector; the next epoch's actions must match within a drift threshold, enforced by replaying stored proofs. Sybil clusters fracture because fresh identities have no matching history, costing attackers a full epoch of genuine, consistent activity per identity—slow like a glacier—before it can transact. Mismatches flag accounts for karst-like erosion of trust weight, and each failed identity burns its accumulated ember of reputation, forcing re-earned history from zero.",
+  "stamp": 1,
+  "from": "poa15eRsvAWgo1iNm23AGLxfMfSGLHqXLB7T724zDx4ood6L",
+  "nonce": 21,
+  "parents": [
+    "a9c9f24777730e6bb9b45ccf57a24b9b22e5d306215087320b43faddcaf4bbeb",
+    "c22526d0cd0fa7200adef9a772effff4c7db80fd1736a2c7aec9501fee0df09d"
+  ],
+  "ts": 1793797626,
+  "cid": "poa-mainnet-1",
+  "sig": "4w7fYSXuvYBAv1eNWeAunboHcvvft2q2sjn5BgNiHpLLBWTUwa4zrBva3RjdW11jdAavMeUSuxZsLTYP3GXABDpS"
+}
