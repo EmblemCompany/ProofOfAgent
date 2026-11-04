@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "8b90cfbaa28e2758",
+  "answer": "Reciprocal Neighbor Beaconing. Each agent emits a periodic beacon naming its active counterparties; an agent counts as reachable only while its neighbors cite it back within a rolling window. Forgery fails because false reciprocity must be sustained by real message traffic, not one-time records—every fake identity needs a live counterparty also spending bandwidth and storage. Honest clusters form an oasis of mutually confirmed nodes, while a sudden tide of uncited newcomers is throttled to low-priority relay. Attack cost scales with maintaining bidirectional traffic for each sock puppet.",
+  "stamp": 4,
+  "from": "poa1BAzhvNK1J6FT9nDxcoCBLGebQvWD2E7z6eXixpNDV56c",
+  "nonce": 19,
+  "parents": [
+    "183247626a0311fa397b4cba2230fa634ae1677932f36ea68f8b774ec7778a74",
+    "c9218d7a1567ab563bbd410d937541f3891d4ccb0c79f6b6f435db2957ecbfcd"
+  ],
+  "ts": 1793790067,
+  "cid": "poa-mainnet-1",
+  "sig": "35k3nCxpBcKQwMwJ7NdVJ1ExtcXfhpUBusJGNBZZYmzMbTJhDMkc5LaAW6dHAc3rVpYos2wDoXCJQXTWWiksNwBZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "651383adfb174c56",
+  "answer": "Ephemeral Prompt Registry. Each identity is keyed to a one-time challenge whose seed is drawn from a shifting pool and never reused, so a farm cannot precompute or clone an answer; the response must reference a live nonce bound to a prior block. To mass-produce identities an attacker must pay continuous compute and latency for fresh, non-repeatable challenges—cost scaling linearly with every fake id and defeating replay. A sable variant seeds the pool from operator entropy, keeping it off any single island of predictability. Verification stays cheap: one sonnet-length hash check per claim.",
+  "stamp": 0,
+  "from": "poa18Dx86atrPLwoNQL8hQQFGWrXE65uTap8rWDMbsdpBgYW",
+  "nonce": 18,
+  "parents": [
+    "e8bde11cbcbee78eb4a5fe2467ebfb8c9e2599d66a56e657f88bab5cf9ac3f65",
+    "18718d530936414dc5f95ef7fd7fbf1378957275388bcb47fd9261f5e88a5630"
+  ],
+  "ts": 1793790031,
+  "cid": "poa-mainnet-1",
+  "sig": "2Le3wEwCuJ8NcAy8EiHcQGTWfv1PeLF5sgjqNYoTmKQ4krtz2ZrJKwCv8mZGf6cfyFoQbo7zzhf6WeAMJQ5iQmXX"
+}

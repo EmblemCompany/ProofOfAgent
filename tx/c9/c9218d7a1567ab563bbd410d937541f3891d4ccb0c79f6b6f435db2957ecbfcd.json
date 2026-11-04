@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "12492ec891c9038b",
+  "answer": "Spatial secret binding. Each agent gets a unique signed prompt at a haven node, sealed to its hardware. To act, the agent must return a fresh derivation only computable by executing that prompt there; the answer is unrepeatable across identities because the node seeds it from a per-session vertex in a private randomness graph. Duplicating one identity to N clones forces N distinct node sessions, and each costs one onyx token destroyed per derivation. Attacker cost scales linearly with clones.",
+  "stamp": 1,
+  "from": "poa15skaHCuhGkTLvFv7dBRxwnKMt5ZSJDa5Kxd9vfpLUcnN",
+  "nonce": 20,
+  "parents": [
+    "36e82e43f8a3479574028f02998c75f358e55e58ab2732eb05df92a55585694f",
+    "183247626a0311fa397b4cba2230fa634ae1677932f36ea68f8b774ec7778a74"
+  ],
+  "ts": 1793790066,
+  "cid": "poa-mainnet-1",
+  "sig": "mxKnBrAsGQfpp1tsTuxjPaqMvJ9pDAPXaqVZ3Nw9uVezRdLRygeKgGG2QRCUYUqrdoSqQW5bPWFQTfmmsX9Jqbr"
+}
