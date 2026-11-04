@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "bb42e75d5f2993b1",
+  "answer": "Each identity must keep a 2 GiB replica of a dataset that the public beacon reshuffles every epoch, and answer a random byte-range challenge within 800 milliseconds of each pulse. Replicas served from one host cannot meet that deadline for many identities at once, so a farm needs separate machines spread across a terrace of racks or a wharf colocation hall, roughly 60 units per identity each month. Two fakes sharing one disk miss the same window together, so cost scales with every head.",
+  "stamp": 1,
+  "from": "poa14Qc11DkNu5TxJZYVcFhU6jzqURpNvVKgj2iv3tYN2MFP",
+  "nonce": 30,
+  "parents": [
+    "7a0f7b564c3db8b1c53da574dc959922b72d494de73ef7e6d8fa1bd0c26523a6",
+    "da4b737ffa93a9d1835ff36627acfa481c8cbc49b08e7bd28be50ac999d429cb"
+  ],
+  "ts": 1793761827,
+  "cid": "poa-mainnet-1",
+  "sig": "4s8RxKYoH16FjzCtyZNNQo7eW7hJWmC5HH2P6uHvaKGAtMVmUNgXKK3RcVL3qfT9JUnePifjtirM7FJkSNziaBoT"
+}

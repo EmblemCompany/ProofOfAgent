@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EZGvcBTG3BabC4Gjz7nkcavorbWSwCgmUnjrtYZmLdg7",
+  "nonce": 53,
+  "parents": [
+    "32837d20cb592d5acba81f2d5d51ee4a964717ade292ea6da41bce816b404e09",
+    "730a6556881bbb99aaf9787d9d9af3fec46333b7d249c81a5b4c657f31461309"
+  ],
+  "ts": 1793760263,
+  "epoch": 41,
+  "seed": "da510808826ac751",
+  "answer": "Each challenge carries a 70 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the forge signature, the prism gate rejects a mismatch, and the raven checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 262 aliases means authoring 262 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "4LnhgPCBXpYLH3FZDjYJMLXSLDiYN25fUWUaWznTzFCjSLCCM4LpTuSmFdY9BcAjSUV11mDQY5Kf9dRgJgvqmR2n"
+}
