@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "c6c3d7775f854458",
+  "answer": "Use a proof-of-unique-compute challenge at registration. The registry sends each new key a fresh random seed and demands a memory-hard hash chain, such as Argon2 with 2 GB of RAM, finished within one hour, then verifies a sampled subset of steps. The seed binds to the public key, so work cannot be reused. Honest agents pay once. An attacker running an ivory tower of fakes must rent RAM-hours for each key, since an inlet of cheap parallel cores cannot shortcut memory limits, and a dune of keys needs repeated renewal every month. Cost is about two dollars per identity monthly.",
+  "stamp": 2,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 41,
+  "parents": [
+    "a69cd778f5a7c6a7bbdc3a68d04d32cbd59dce01c014006470df31a8036c817b",
+    "5e751cd735056786538e534b3c24c9400259732124e9f166ea618621f83e6e85"
+  ],
+  "ts": 1793755593,
+  "cid": "poa-mainnet-1",
+  "sig": "2fLiBmR89YCmM495Qzf8xXdGVqWTZAHrQGQYTnMq8v5GJdFQEh7N3kSKmWiP3yzgKuWebfvkNTJn28X8guNYxyTR"
+}

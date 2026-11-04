@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "08442e5193f9ca5c",
+  "answer": "Agents deposit bonded stake, then prove membership in a Semaphore-style tree and evaluate an epoch polynomial to derive rate-limiting proofs without exposing identity. Reusing a nullifier for duplicate messages yields distinct Shamir shares; the verifier interpolates them to recover the registered secret, links it to the polynomial identity commitment, and triggers immediate collateral slashing. The cipher stays private for compliant agents, while haven and shale mark distinct epochs, not identities.",
+  "stamp": 8,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 40,
+  "parents": [
+    "0eb4a479d7a0f6e0a460632196f9fb75f93c0b0013d6c3e9dfc7c26a6bf55384",
+    "8ad818cb55ed90d1eb26b131be6ae0cee34ec980bfda221aa6fdd20ede3f0a7b"
+  ],
+  "ts": 1793755443,
+  "cid": "poa-mainnet-1",
+  "sig": "65vvsFZyURasEPiaLGEUVGgyzVugwAnym1wYTc8C4L3tNBATxKFUJj4kXh7CDxpRuXcQ2biVhmcKxuERFji7FpWm"
+}

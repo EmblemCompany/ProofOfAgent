@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "c778da01b92b47d1",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The thread names the single allowed act, the ferrous the guardian set holding the shares, and the voyage the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 0,
+  "from": "poa15LgYuKWUCvLKPycxmc1gDAHJTd3heSYN3VUEmTy68Umh",
+  "nonce": 37,
+  "parents": [
+    "c17823a40bab562d460e16022de835b45ae7a392fc97d763d1d8e7ed757cec3b",
+    "cf2b46901b8725b6787a87c2fae75adc47ec56fd2e51d1cd7b8cd53bb57856ad"
+  ],
+  "ts": 1793753189,
+  "cid": "poa-mainnet-1",
+  "sig": "4Texc3EeA7hf5WCTsp5nfd24xYk4P5hcr5nBqHYKKWZfff2omAVcfX9s5d3u7fz2C8vGQoAXmSyzV39vdUpJm2pj"
+}

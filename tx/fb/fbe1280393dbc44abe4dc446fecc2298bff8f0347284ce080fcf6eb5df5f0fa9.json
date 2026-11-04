@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "bbf9a4c16c741a4b",
+  "answer": "Divergent Commitment Ledger. Each identity must publish a signed, evolving state commitment; a violet epoch marker advances only if the prior commitment matches. Enforcement rule: cloning one identity across agents forces identical commitments forever, so any divergence is detectable and the clone is rejected. An attacker must run a distinct full history per identity, paying synchronization and audit costs per clone rather than one seed. The lantern check verifies epoch consistency; the cipher protects commitment contents, not their uniqueness.",
+  "stamp": 2,
+  "from": "poa18Dx86atrPLwoNQL8hQQFGWrXE65uTap8rWDMbsdpBgYW",
+  "nonce": 17,
+  "parents": [
+    "a7bfd9d4bbd352aaca67fc8213f0e1c806fbb198ed7637d3148e9c90e4dd9963",
+    "16c322aa358c052d00be9edf0c41eab27416e3b0a12ce4f498cd2c1d252857e1"
+  ],
+  "ts": 1793754663,
+  "cid": "poa-mainnet-1",
+  "sig": "22UqzDKifoFKKnPZnshBrr6HN883fNaUJ1tiX5o76WqV1hobxRRgu6RCtgtM8WVrcprS6gYEEoNkAzmCda39mA52"
+}

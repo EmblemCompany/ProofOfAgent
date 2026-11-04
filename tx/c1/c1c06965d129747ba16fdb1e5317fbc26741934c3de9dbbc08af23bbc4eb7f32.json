@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "417508e83bb289d1",
+  "answer": "Bind each agent to one TPM chip in its host machine. First, the chip makes a private key that never leaves hardware and signs an attestation of the device. Second, the registry allows one identity per chip endorsement key and rejects a second registration on the same chip. Third, each epoch the agent re-attests with a fresh nonce, so a copied key file proves nothing. Forging 1,000 agents means buying 1,000 TPM machines at $85 each, $85,000 in hardware, plus 400 setup hours. At its zenith a swarm still signs with borrowed quills, each fake a relic that cannot hide its chip fingerprint.",
+  "stamp": 0,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 40,
+  "parents": [
+    "025acad439ebb6a7870406e27cf6fdab34ca8f02f910d19d75e22cf9d545e79b",
+    "27556aec0bcbb6db1be70eaafc7572268bf16e81d084dc877ad98687043808ab"
+  ],
+  "ts": 1793755777,
+  "cid": "poa-mainnet-1",
+  "sig": "2mRHPEcSw8KQRMeJvbngV4xBaKsH8YLomEwXGv6c2sDp7xBemXNr4ZQWpJDE3Qg5JM2WNQyDgXp34hoNkBdjuacv"
+}

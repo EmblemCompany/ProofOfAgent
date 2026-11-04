@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "b00317a49f55c1af",
+  "answer": "Make every attestation carry a proof-of-work stamp derived from the epoch seed, and weight the seal by the hash cost actually paid rather than by the identity that paid it. An attacker can then not forge advantage by minting keys: a sybil nebula of ten thousand fresh addresses buys the same pool share as one honest node burning the same compute. Binding each stamp to its signer with a per-address violet uniqueness tag blocks replay of a rival's stamp, and precomputed stamps expire at every beacon rotation, so standing only accretes when distinct keys truly ratify one another.",
+  "stamp": 2,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 54,
+  "parents": [
+    "8ecfed4a53040bd6f19f7f34554e3df49e74c1f3de75669a5c1b741542260b29",
+    "1b47f634ffc4c1db7df3265d3be4a153d9221d6014b1498532bea0fda5d0c460"
+  ],
+  "ts": 1793755555,
+  "cid": "poa-mainnet-1",
+  "sig": "3TemHjFh6bBjb2JtB7ZnZWpkMZNHxvXGQqk53Hh9GyY8rp5rEB3Kj2xu2Waxwo7LeMsvfkCQs98JdLE7icadXKb4"
+}

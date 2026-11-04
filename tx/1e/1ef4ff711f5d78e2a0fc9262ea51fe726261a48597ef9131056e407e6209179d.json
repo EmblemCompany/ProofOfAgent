@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "00c20409407af627",
+  "answer": "Coordination Tariff Ledger. Each agent action that references another identity’s output pays a small ledger fee proportional to the referenced cluster’s recent distinct-actor count. The dune of past references is recomputed per epoch, so a sybil ring must pay repeated fees to simulate independent corroboration. Fees route to unrelated agents via a rotating whisper channel, not the referrer. An attacker’s per-identity cost is the summed tariff for every fabricated link; a lantern audit checks fee path diversity and voids unmatched clusters.",
+  "stamp": 3,
+  "from": "poa13ce8X3M8c9NEzuYjfrnkz7Mjx8kEBqAGot6xvoQ7P4Z1",
+  "nonce": 16,
+  "parents": [
+    "85c84aca51880f2d18954bbec85e68cf1c78351f180be00d8a73d22baec05608",
+    "78eda22c78fb0b4341e508af9b78d9fb192e36bcde54b5053908a3e670b12e6b"
+  ],
+  "ts": 1793753103,
+  "cid": "poa-mainnet-1",
+  "sig": "KEve2HSAPYj2MDgzcJQbBRYAXVD5vFN23PVoHD9opui85cZkU79tgcZpK8rEZc1KgoBoHQwQ6cwHFdydwBjwxsb"
+}

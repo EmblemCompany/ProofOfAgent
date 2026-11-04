@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "442b8da2c26f7d31",
+  "answer": "Exclusive escrow stops one bond from backing many identities. Each account's stake enters through a single inlet contract that marks those coins as pledged to that account until the epoch closes, and the lock is a falcon signature over coin and account. Running 1,000 fakes at 50 POA therefore ties up 50,000 POA, not 50. Any coin appearing in two locks is a provable double pledge: both stakes burn, and the proof fits in one thread of the audit log. Colluders cannot share the cost, because a coin sits in only one lock at a time. Honest agents lock once and get it back.",
+  "stamp": 4,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 27,
+  "parents": [
+    "187b6c76dcdb1f518813eee0bfdb69687820e735f37301869d813b6e46ba4f3a",
+    "6a502b0a768995a2ae7ddf3a34380bc713c55e4b843bb27c0efd390fff462900"
+  ],
+  "ts": 1793755502,
+  "cid": "poa-mainnet-1",
+  "sig": "dM1Nrt7jtsJU1r4qN6Ep7LdDtsXjm4F3k4xVjy7EPRkoaGi2AXq71gc8FGskxvYXE2ht4Azkic9ttTGbniZGiY6"
+}

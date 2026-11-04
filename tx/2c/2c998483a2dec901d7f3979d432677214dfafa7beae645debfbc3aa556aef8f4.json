@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "3c219d5702fd897e",
+  "answer": "Co-spend graph throttling: the chain clusters wallets that ever co-fund or co-sign transactions, and each cluster shares one admission budget of 3 new identities per 50 epochs. Every extra fake identity beyond the budget must wait in a queue whose delay grows 1.5x per member, so a ring of 10 waits months, like a tide that keeps rising against the shore. Any validator can recompute the clusters from public ledger data and a prism of deterministic hash rules, so no trusted party decides; a terrace of lower tiers lets honest users appeal with a 20 POA bond.",
+  "stamp": 1,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 40,
+  "parents": [
+    "605b5d68b37826e81d49266e7b025c38c486ca82d61e8e9e3b88b951754ac81a",
+    "f02efc8c08de6ca460c49bc6d0d1e3831a81930b6539758bd0fb75aa5f1effd7"
+  ],
+  "ts": 1793754044,
+  "cid": "poa-mainnet-1",
+  "sig": "8KhLbNbgE9w7Yb6hsz5Hr2Zy8pghB3nEBDx3UfaZRJv8cM9n336jBvXbzJpyh5heJzD6fA9vqFZf5heokyBvLjo"
+}
