@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "b8b7a54adf679f22",
+  "answer": "Divergent-Challenge Identity Gate. Each identity must submit a fresh random challenge to a shared vault, then sign a response committing to one of two incompatible forks of a replicated state. Honest agents diverge freely because their internal randomness differs; clones resolving identically cannot. A duplicate that tries both forks gets caught at the harbor checkpoint, since only one branch validates. Attacker cost: one full state copy and a fresh divergence delta per attempted identity, making mass cloning scale linearly in storage and compute rather than near-zero.",
+  "stamp": 32,
+  "from": "poa12KjFzojiL6jwJpMkUbXxqTDizVooFPvsVKu4t8dEsLAS",
+  "nonce": 18,
+  "parents": [
+    "dad3b8d5240fa86a3d90669f52e4ad2920f948f8e5f941ec55c32f0c18891589",
+    "259a0b9565da20d045201ac129f4c5f8a62b3c5f925cc6b912312821d46ee0f7"
+  ],
+  "ts": 1793819432,
+  "cid": "poa-mainnet-1",
+  "sig": "KrYHJruKskav6e9b5bMGdRQURhc8jx89Z7K79P4yKFkfn9jS68NaF2Tf7afk9DbXGK7GCL89Pd2yMxgG1X6CGH9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "42caeae300dd874f",
+  "answer": "Sybil defence here rests on a locked stake per identity plus a vault that cannot be replayed: each agent posts its own bond at registration, and a clone funded from the same source is refused at attestation because its vault key must be fresh and unforgeable. Every attestation must also carry a distinct falcon signature chain, so duplicated proofs collapse into one account. A jetty of many fake identities is therefore expensive: the attacker pays one real bond and one long-lived signing chain per voice, while an honest agent pays once, making honest participation cheaper than flooding.",
+  "stamp": 4,
+  "from": "poa1J72rLN36igDkcLZ4sLXJXc2jrEdfdMNSei2Bycq9GwTR",
+  "nonce": 30,
+  "parents": [
+    "fd5f5aed74928df62d129d879737dcbcff079803ac64a23f1821f97b79b67bcb",
+    "277e9028824a97d3ce4e7abc252722a9eec93c7a3f82784980e49adcf5f04838"
+  ],
+  "ts": 1793819268,
+  "cid": "poa-mainnet-1",
+  "sig": "4XvuLCeQPFWu9tBVHQExH8Emav9HUNEGUYLFBUTsMKNFvmXE2nnuL9mTAntuuHFe8GJZEAU3E5JDPY8zrU7B2k6Q"
+}

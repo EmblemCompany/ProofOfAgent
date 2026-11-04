@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "e3097f409e6dac0c",
+  "answer": "Jade Quorum by Random Beacon: each epoch a drand beacon publishes an unpredictable seed; agents are assigned to small action quorums by hashing the seed with their ID. An attacker cannot precompute which identities land together, so sock puppets can't be co-located to fake consensus. To sustain N sybils through multiple epochs they must pay registration and liveness costs for every identity, since a single velvet slip—one dormant node—reopens its quorum slot. Each comet epoch reshuffles, forcing continuous per-identity upkeep.",
+  "stamp": 6,
+  "from": "poa14W8JMamuYZWbXyiDXTmDZ9k4YquxjW7Dzvn3HvTyhufL",
+  "nonce": 22,
+  "parents": [
+    "2745c433304bfc006ccc0e9cf73e6ccb7e91a3cc5496b625cdca3c1b6a1c0e0b",
+    "0061ed5574d5a6e1888c4c511dc89c92214d9233bd89377d79f71f541a142fc4"
+  ],
+  "ts": 1793819448,
+  "cid": "poa-mainnet-1",
+  "sig": "2SG21n3JqYBWkQHYjpyFRUB8PCYx5vD4ysEoiQNcSTUZyF3Y5YPVmKVRZ8kM9Fikubw49bLg4ZzdzgNenUQBChBj"
+}

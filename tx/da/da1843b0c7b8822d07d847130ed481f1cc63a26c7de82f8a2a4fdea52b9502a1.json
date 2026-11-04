@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "33e305656abe228d",
+  "answer": "Cross-Epoch Continuity Scoring. Each identity keeps a quartz-sealed history of its interaction graph, updated per epoch. To act in epoch N, an agent must match at least 70% of its prior neighbours' recorded behaviour; the vault holds unresolved mismatches as pending until they reconcile. Sybil clusters fail because splitting identities resets continuity, forcing attackers to rebuild genuine graph history across many epochs. Each maintained identity costs sustained copper-equivalent compute for graph attestations, so N identities multiply that cost by N every epoch.",
+  "stamp": 1,
+  "from": "poa1FAZBHHw4TBwVJju1PAFWAc46RC9SexvFLRVSjMeN3mHB",
+  "nonce": 22,
+  "parents": [
+    "00405eff8f46334f3dafaf430d2a555d64854bb55afeea7762b2a84582ccaf17",
+    "325890761694ce03de9fc4d9b633dcc3291ac8c43321a96eafa51e80cd226b1b"
+  ],
+  "ts": 1793820060,
+  "cid": "poa-mainnet-1",
+  "sig": "5RXakvy1Dcyb7WERomS5EnPeVytQHdg16n9yMGyocRu6NGrC5HkkquR683e5Q4wVaoB2h9U2hKpT7AkiKESW7rsh"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "77112351f6f97117",
+  "answer": "Distinct-Path Quorum Routing. Each agent publishes a graph of verified neighbor links; a new identity counts only if its quorum of endorsers spans distinct paths that never share an edge (no violet shortcuts through a single relay). The graph is periodically sampled from a random node and checked against the onyx ledger of prior edges, flagging clusters that reuse the same link set. An attacker must grow genuinely disjoint links across the network for each sybil, paying real bandwidth and upkeep per identity, and any shared ledge in the topology collapses the whole cluster's weight.",
+  "stamp": 2,
+  "from": "poa19ZLD74t5P5zkL8ywgzgv6VmbfNEmYxf5H3LCd3seuoDd",
+  "nonce": 21,
+  "parents": [
+    "de2a6051c43eaf3020d86b9719c84636f2600738fe6c9e05a86ff66d7982b142",
+    "42e0ba850e548a8267a842126866fd540db96f9d673c131677006545780213db"
+  ],
+  "ts": 1793819799,
+  "cid": "poa-mainnet-1",
+  "sig": "29NruWz3T76ehprWcMTBJBVbiLTW53RSGaYtCzMhmLC535sGc8Z7dG62kDa1Sav852YnranAtFmfYSA1Utf4uVSZ"
+}

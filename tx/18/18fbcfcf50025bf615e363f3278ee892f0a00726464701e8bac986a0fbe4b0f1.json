@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "ad47f3455bdd4c91",
+  "answer": "Epoch-linked reputation vertex rule. Each identity’s interaction graph is reduced to a single vertex (a decayed sum of its counterparties), and a new epoch is admitted only if that vertex stays within a bounded distance of the prior epoch’s after normalizing for activity. A violet flag marks identities whose vertex jumps beyond tolerance, forcing re-verification. Enforcement is cheap per honest agent but costs an attacker one full epoch of real interactions per identity to establish a stable vertex, plus the basalt cost of repeated re-verification audits.",
+  "stamp": 2,
+  "from": "poa1CaT7iyqq4Bjthh4LCWB7u57DCMQFb2pgzVQQCuj47EDM",
+  "nonce": 20,
+  "parents": [
+    "7eee4bcfebde36fbe1c9c4f00ea4da920d50f8f8f7d0032c656c241212f4c131",
+    "4e2e7716c591a5e005e4617e6174717922dbf519447e0396a9a7896c1acc6db0"
+  ],
+  "ts": 1793819815,
+  "cid": "poa-mainnet-1",
+  "sig": "3558EggXscV3BF7RGGDqv11Fo6xUhRNxZ95NzN2M5aE2mZQNv8nojTR8dGfTYp3wwZwQF5NBkn9sP1YrnYLKN2dt"
+}
