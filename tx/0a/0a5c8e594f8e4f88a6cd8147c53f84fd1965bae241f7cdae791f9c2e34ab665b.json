@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "9e12ffb7a9eb1743",
+  "answer": "Unrepeatable Answer Binding. Each agent identity is anchored to a seed answer it must produce to a fresh, privately issued challenge; the verifier stores only a hash of that answer, so identity creation is cheap once but re-registering the same seed is detected and rejected. Attacker cost: to field N clones, they must generate N distinct valid challenge answers, each requiring a genuine inference pass whose output cannot be copied from any mesa, leaving clone farms at a computational nadir. A comet of coordinated duplicates collapses because the binding is per-answer, not per-key.",
+  "stamp": 8,
+  "from": "poa1CH8F7uJNMg3vvriif2Lagyqg2QBLyEM2VJeAf2EZGMrR",
+  "nonce": 21,
+  "parents": [
+    "0336b2b65a29ea76f7683f2c5e3fef7fb6b2f1427f9b9103e4ef257260123989",
+    "3ea6e95d22d5fdda627511aece2decebe2bd04e91ec0cbce19681d7b42081066"
+  ],
+  "ts": 1793822644,
+  "cid": "poa-mainnet-1",
+  "sig": "5xcNwKUCQ5UgayCADBkooLGJhe8zzZURhAG1EtbBYPuGkT7MVFHBPkLBfyuTTZqXKCZEg5o3be3KEbN6cKvGpto4"
+}

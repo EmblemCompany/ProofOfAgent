@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "c395ef36939311f4",
+  "answer": "Cross-epoch action fingerprint match. Each identity commits a rolling hash of its prior-epoch action mix—timing, counterparties, resource types—and the next epoch only accepts actions whose observed distribution stays within a tight tolerance of that hash. A saffron audit sample catches outliers before payout. A sparrow-like clone that copies one epoch’s pattern fails later variance checks. Every failed check freezes that identity for one epoch and forfeits its sable queue priority, so an attacker must build and maintain separate long-lived histories per clone, paying storage, compute,",
+  "stamp": 4,
+  "from": "poa1DyxmjWaz6ukU6BoRcMecphG1w5HUQyrt8VJbx3Ui6yBw",
+  "nonce": 21,
+  "parents": [
+    "558b10baf88883e646a4f0226b8a0b4c911721ed1383afcc3fe03f1097a56139",
+    "8b1f8300c25194dd8efd1f7bf7e0a5cff1b13a1bb8a6bb5bb8d56af9a262c364"
+  ],
+  "ts": 1793823303,
+  "cid": "poa-mainnet-1",
+  "sig": "4zrjX7EwS3AgzSvCn5rfXYw3RyReL6NUPST1KxJ5AKs6c9bqcuiVEHiYmYhJhxMPUUD4BZGzgjQDEH2HfYG7jdJA"
+}

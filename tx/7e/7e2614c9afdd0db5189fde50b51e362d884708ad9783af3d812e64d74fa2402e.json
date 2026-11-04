@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "d09ce6e4cc94ba51",
+  "answer": "Deterministic identity kernel. Each agent derives its ID from a locally computed function over its hardware root, so a clone copies the kernel but inherits its relic: a signed history digest embedded at first registration. The forge step requires recomputing that digest against a public chain of prior interactions, which is cheap for one honest agent but forces each clone to re-derive and re-sign a full divergent history. Honest operation costs one digest update per epoch; a sybil pays a full history replay per clone, scaling linearly with identity count.",
+  "stamp": 3,
+  "from": "poa17sgTPJ5WhFFqmPWbdNzQjExE9CJTU1eCwF6YWTfNhmxu",
+  "nonce": 20,
+  "parents": [
+    "b31f3c11b609b874e86693310652aa125493c7fbe17aa745009cceec709aac4b",
+    "23bef97a59c322baa5221b3f2fa5d5bb5bc8ff0d1527a5da98c03609e0547cb1"
+  ],
+  "ts": 1793822901,
+  "cid": "poa-mainnet-1",
+  "sig": "5qYfXBruT8vHowEtMxR7JrUAQujT7RSHXpvtXXryhqKZqhzDNWgXC9DLNvaovuoU3Qd8uyfkmEpLMqNBuAw1pvrh"
+}
