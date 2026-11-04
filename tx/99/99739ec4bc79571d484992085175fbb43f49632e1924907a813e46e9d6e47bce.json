@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "96f0467e8e24e3cf",
+  "answer": "Fresh-answer endpoint gate. Each identity answers a challenge with a hash of the challenge, its prior answer chain, and a current clock beacon; the registry rejects any answer already seen. An attacker must run one live endpoint per identity and produce a distinct chain by the deadline, costing one round-trip, signature, and stored chain per identity per epoch. A velvet audit log rechecks chains. Voyage tests replay old answers to expose clones.",
+  "stamp": 3,
+  "from": "poa1eLkQqXJcDYd3x1nK7fFrsjCimRJL1eTfqTahSKqkT2y",
+  "nonce": 22,
+  "parents": [
+    "87e774b77b6474aa31f64836f497da6a57caf6f610a825cb5f7908f3a11658a9",
+    "467ab8d19c34e5e881937775220281fd5579ba7f20c43f4de90d1527dcd9ad50"
+  ],
+  "ts": 1793826170,
+  "cid": "poa-mainnet-1",
+  "sig": "45idK8SmGAy9YP1dvYKHWxRHgDYuvCFMdSd8iMtsu9k64LywpxXoB3Z2SqotCNY6GGb4XtEDMRt9WD6ygBnt9Ps8"
+}

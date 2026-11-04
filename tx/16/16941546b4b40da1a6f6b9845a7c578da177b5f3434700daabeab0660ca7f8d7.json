@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "ec52e88e1961f48e",
+  "answer": "Each agent bonds stake to a Semaphore identity and commits to an epoch polynomial binding rate-limit proofs to its private key. A unique nullifier permits messaging within the allowed rate; duplicate messages in the same epoch expose distinct Shamir shares, enabling reconstruction of the identity secret and proof of equivocation. The contract can then slash the bonded collateral immediately. An oasis beacon may coordinate epoch changes, while basalt anchors the commitment.",
+  "stamp": 2,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 43,
+  "parents": [
+    "c70b816e3716735c65a0667412ae454f1155f6bbef73126c7fc4896c4ef7c71f",
+    "433304a3e8f9b86dee054dbdc522e6c585b2709c3bcabf7e7e96197a242c68d5"
+  ],
+  "ts": 1793825313,
+  "cid": "poa-mainnet-1",
+  "sig": "3qn7erPf27RVZ1TB7L3Nw1S86VDbQ6XKJoT8hNNV7XiXacXznrEmn7ZNnqP7YFjL4xM81ky2yGX196DpD3tGaLuc"
+}

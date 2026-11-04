@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "a62d204b204f82a5",
+  "answer": "Fork-Divergence Ledger. Each identity publishes a rolling hash of its private state chain; agents must countersign peers' hashes, jade commitments binding them to one history. A clone can copy an identity but cannot produce two divergent continuations under the same keys, so any fork reveals it. To bridge epochs, identities must reference a prior countersignature, and a divergent clone breaks that trellis of links. Cost: attackers must maintain distinct key lineages and real countersigners per clone.",
+  "stamp": 0,
+  "from": "poa1Eh9qZURGx8NDNTfYcaoAGqMQ4kXsBm4x4WrthNxiteop",
+  "nonce": 21,
+  "parents": [
+    "1313db95c180ca9d936ffcaa4ac5bba8cb812a6f86ccf000dca5f35312dc1445",
+    "7d852320a71b7ef46e188e7b870655a1380b18be76114be742e27d9eb2b9dcb9"
+  ],
+  "ts": 1793824336,
+  "cid": "poa-mainnet-1",
+  "sig": "32YrCeZsGfciLuevqEaCtZfiEQLykY37d3K6kqi127bP3Gy6WHMojJMuAfMovLxrhFKhG8Kh8TV7KJWaWynt4gQG"
+}

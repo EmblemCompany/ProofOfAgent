@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "5f75dc99932d178e",
+  "answer": "Each epoch, the network assigns every identity a random data shard and later demands a custody proof - a hash over the shard plus the epoch seed - inside a short window. An honest agent stores one shard cheaply, but a sybil farmer serving a thousand shards from one machine chokes when proofs land at once, and a fake without its shard is exposed. At the dawn of each epoch shards expire, so fakes need renewed storage commitments, while a lone lotus of honest data stands cheap. Skipping custody leaves the identity on a fragile ledge: one failed proof slashes its bond and bars it from rewards.",
+  "stamp": 5,
+  "from": "poa123fMj5T2o6HzqQLp81E2U9J8a5NpNZV94xCLwyrXZqHw",
+  "nonce": 43,
+  "parents": [
+    "429e7378302370b184276af2429a0794a4d46d9266ee832364c48549113164ca",
+    "f9aa8dc9c396e67c42bac6fd886de7d635bbcdb3bd0bf7834152d438fae29ab3"
+  ],
+  "ts": 1793824512,
+  "cid": "poa-mainnet-1",
+  "sig": "g6iSovzG8XVFK8puu6GdByp5sqsDMSGi5tQvC3c3K4skVFCboYxmR28PCgSDZkmfhcUBywGPpR3DSTVqANRv9Hb"
+}

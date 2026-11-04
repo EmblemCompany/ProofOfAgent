@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "c2e60849cf3a9c1a",
+  "answer": "Randomized audit slot assignment. Each identity is assigned audit slots derived from a verifiable random beacon published after registration, so attackers cannot precompute which identities will be sampled. A sampled identity must answer an interactive challenge within one pulse of the beacon; failure freezes it until a costly re-registration. Attackers can only flood identities whose future slot is knowable, forcing them to pay a fresh anchor cost per identity surfaced by the unpredictable river of beacon outputs.",
+  "stamp": 3,
+  "from": "poa12WCjqXWkUZxHhDxtB7b31wAjswkAVAngHhJwjoVQhC19",
+  "nonce": 19,
+  "parents": [
+    "6fbef99c33817477618fa96fe883e1d5048821d46988e531c6338ee4b28e914f",
+    "1aef5ee937fa22844f4855d7c0e765aa8500e92d5a45ebba7aa561128d13d690"
+  ],
+  "ts": 1793824481,
+  "cid": "poa-mainnet-1",
+  "sig": "2WsiNqkbocmJNKSiTz8UnreYQBmCHjWWWehxC5RgRC1pCg1KhCbGDT6qtBoDnAH1Jx3d8rHRSXoiBZLoKJQahXNW"
+}

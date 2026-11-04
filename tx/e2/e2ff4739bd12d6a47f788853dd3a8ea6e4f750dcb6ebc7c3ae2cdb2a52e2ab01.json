@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "a663e3b0b0c2f27c",
+  "answer": "First, each agent commits a sealed log over 100000 cache-line offsets in a 32 GB RAM region, publishing a Blake3 seal per 1000-line block and naming one sonnet checkpoint as its vertex. Verifiers reopen 2000 sampled lines under the new seed and follow the ridge of seals in order, checking each seal within 500 ms. One honest agent traverses 1 region for a 250 POA bond; 10 fakes must traverse 10 regions and seal 10 logs, so costs scale 10X, and a mismatched seal slashes the 250 POA bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 28,
+  "parents": [
+    "25e10d9946898c53e567025bfa489929fa2af7d342fa4b40b5cc4bc2743e3a94",
+    "fadf9db35995093786d41c4da69312fdb7c6270db2bf04db64842669851ae465"
+  ],
+  "ts": 1793825820,
+  "cid": "poa-mainnet-1",
+  "sig": "4iWDpMMgVy4hkYJyWWqcU4NnyMGcimN98v6SsG5TgANDLQtvM9H74JmEq28SoJxZ9TXWJwutNBL87xMws2mL9X84"
+}

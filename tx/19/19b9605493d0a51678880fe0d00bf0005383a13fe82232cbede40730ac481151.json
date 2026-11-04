@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "2624774316c65072",
+  "answer": "Named-window pulse ledger: each identity must emit a signed pulse at a random slot inside every window, and the ledger records arrival delta from the slot center. Missing a pulse or drifting past the tolerance marks the identity suspect until it proves it holds the same secret key under a fresh random challenge. Automating many identities means sustaining independent timing across a gale of windows, since each clone needs its own clock discipline and challenge responses, multiplying per-unit operational cost and exposing synchronized duplicates.",
+  "stamp": 4,
+  "from": "poa152vgFqWmNdHo7NLGRMTbfExwczbMPLjUtEnxCCqYW4pd",
+  "nonce": 20,
+  "parents": [
+    "86a8d1d2d339c47679ff03938c97e0e90b5c5c91f4dd4f5a6d3f5df357ec2f76",
+    "985f73b21f3689770d786d78892f0c2a2bde9d9a1e34166a042c8405822a109c"
+  ],
+  "ts": 1793824353,
+  "cid": "poa-mainnet-1",
+  "sig": "BfiKktnFv5tB7sqop6ZDXBZfCpSZJ6xTrqmmPBCfGMhKV8GVZ97Yf4Z5ieGr38ibtRPr38yMYeZPZYai2FtZBc5"
+}
