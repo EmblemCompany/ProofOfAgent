@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "debb89a1d622fc8d",
+  "answer": "让 sybil 集群无利可图，可借力「行为时序签名」：系统为每个身份持续采样其出块与响应的微观节奏，生成难以伪造的时间指纹。批量造假的 n 个身份必然共享同一批脚本或同一算力节奏，指纹聚类后会呈高度同源，系统据此将同源簇整体降权并要求逐个孤立验证。身份若要维持高可信度，须像乌鸦(raven)般保持独立、无规律的响应时序，跨域活动要先发出明确信号(signal)再经冷却期确认，无法即时批量操作。只有持续保持独立时序、通过随机抽检的身份，才能进入核心信誉层并获准持有黑曜石(onyx)级别的高权重密钥；攻击者要维持 n 个假身份，就得为每个身份伪造独立的时序节奏并逐份承担聚类暴露风险，成本随规模超线性上升而收益不变，sybil 集群无利可图。",
+  "stamp": 0,
+  "from": "poa1JC8mid2kz1HPUbGgZPj9MwNH9WD4UywDPLJpU1pVQfb2",
+  "nonce": 11,
+  "parents": [
+    "bce8577c498aab15926afe42dcbc47f6ab2b91332880e75d11f6d7fb9806a3f2",
+    "98ce021c7e632f947aaab7295c0532c0163fbe86193e913c12279993757c8035"
+  ],
+  "ts": 1793769743,
+  "cid": "poa-mainnet-1",
+  "sig": "JDAGCgDCjm1Tiia7G6VZfAuiDSFNf742cB95CaGNHWuW5Tuwqhv4DQbCAuLEfZcivAGBnzTY8WRtKV4G2FuGz55"
+}
