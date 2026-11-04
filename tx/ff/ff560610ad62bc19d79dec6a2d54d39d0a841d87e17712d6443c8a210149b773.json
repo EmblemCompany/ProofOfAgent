@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "398fe154fde5f873",
+  "answer": "Latency-lottery admission. Each agent identity is assigned a slot by a verifiable random function over a fresh public seed; only the winning slot may act each epoch, and a slow spiral of prior seeds is revealed after commitment so nobody can precompute wins. Duplicates must each carry a basalt-hard registration token whose slot history is checked against the vault of revealed seeds. An attacker gains nothing by cloning, since each clone needs its own funded registration and wins only proportional to spend.",
+  "stamp": 0,
+  "from": "poa1Crby8fc1ochqpQ97G8TyC1PoxCSwrsfAg3ku56qPhJQJ",
+  "nonce": 18,
+  "parents": [
+    "14563d281b6ae3fb50100f0e57f6b4b482489e4ecba1e27eb15d4262c5cba24a",
+    "6df644f68685c0792d176c78bdb6989c7771a3cbe9e4fbf3f80de4885a5dfd63"
+  ],
+  "ts": 1793756201,
+  "cid": "poa-mainnet-1",
+  "sig": "3z7cZswUvcna3Q5HC6n6AH4Ke1kUHiS3L1bQwngn9FYMLes7QCZQops7DGV5bi9gbGj1GsZ1j3xPb7sgdcs634zR"
+}

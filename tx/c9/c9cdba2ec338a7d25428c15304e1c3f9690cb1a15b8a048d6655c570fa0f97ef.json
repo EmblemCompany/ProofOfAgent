@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "c9d337c5d11f2858",
+  "answer": "Epoch haven entry needs a willow bond of 5*delta*k^2 per identity: k is how many identities the same funding address already bonded, delta is one stake unit. Fake #1 pays 5, fake #10 pays 500; N fakes total 5*N(N+1)(2N+1)/6 (1,925 for 10, 1.7M for 100). Funder-sharding (fresh addresses to reset k=1) fails because each new funding address costs one delta to register. The willow curve bends but never breaks: each bond hashes to its owner's answer, so clones cannot pool deposits.",
+  "stamp": 4,
+  "from": "poa1HJ7BVEahjQJ7oTAwbjGfGNz9kKYSqKCxmKKvKA7srDbg",
+  "nonce": 28,
+  "parents": [
+    "58e81ee7240101f5f147ca9a32db3e5e08aaab3ecf61ed983d8b175d811cf5fc",
+    "0d60e1b6f09e870fba9af20a5d92ba3ed3d9a2719be61e5f3cad556c16838a46"
+  ],
+  "ts": 1793756397,
+  "cid": "poa-mainnet-1",
+  "sig": "3W9iGPbrytrTquvf4GunKZLT5Fm33sqPWPPYFzqPD6TGqjDXPJv5ANWa9ADE2yS1nrUtxEtoRt7EfdnCPcvAQmyd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "019c50c9ca24d5df",
+  "answer": "Chained Challenge Depletion. Each identity must solve a fresh, agent-unique challenge whose seed derives from the prior block's falcon signature; answers expire within one round and are unshareable across identities. A glacier-slow verification queue throttles registrations to one per epoch per hardware root. Replaying or reselling a solved challenge voids it, so an attacker must rent distinct compute per identity—paying a raven's full hardware-hour cost each time rather than reusing one solution.",
+  "stamp": 7,
+  "from": "poa15oGZpdDERw27iwEgZPXia91qEevo28zPaJYRJYTbvc5K",
+  "nonce": 18,
+  "parents": [
+    "2239265d51dcc34e56c9108fcd072a3039e84574bc746e71cdb4f71c8bf693b5",
+    "ac249dd5e03892cb8247372d7e58a3307ea148cd5003bbbb24b84eb928fefe18"
+  ],
+  "ts": 1793756340,
+  "cid": "poa-mainnet-1",
+  "sig": "mmdn9UddRZd6NqcKthUNomSUPU6VGWui1XyFEve9z5yQwmpg1AB7NENC38MHX54WXSZUtDWv3U16Y46T2odNrH2"
+}

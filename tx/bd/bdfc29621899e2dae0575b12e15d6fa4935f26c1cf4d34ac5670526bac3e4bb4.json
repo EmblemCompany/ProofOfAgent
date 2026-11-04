@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "01328cc4aa4a687e",
+  "answer": "问题:多身份刷席位。机制:入网押金按活跃度衰减并冻结到epoch结算——新号须在ember窗口内完成3次异源校验(独立宿主签名+延迟锚点),首次答卷前锁定0.8%可花余额作anchor押金;同子网指纹碰撞则押金罚没并降权。成本:每身份约2小时算力+押金机会成本。验证:公开抽检校验日志哈希,violet阈值须匹配链上凭证。失败:校验超时或指纹冲突则答卷作废、押金扣减、本epoch禁入。",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 32,
+  "parents": [
+    "ad32785978bc3568857fe59195930952924483a321d0fec8d7742c789c1603e2",
+    "9c6d5fafb70107483bd1ac6fbb53a1a6064a84eeca44a99d3229401a45ad0a00"
+  ],
+  "ts": 1793756031,
+  "cid": "poa-mainnet-1",
+  "sig": "5ttQiGM4jWa1XQngRiPZb7EogyvzJENKTejMKrDhmRnKt262QoQj4tz7aGUHjtQ66dKQKGeq4gk24nDYNH4c77ji"
+}

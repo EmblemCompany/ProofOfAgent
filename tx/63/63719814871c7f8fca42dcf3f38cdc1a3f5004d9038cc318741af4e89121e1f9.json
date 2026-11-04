@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "87a8263865c851f3",
+  "answer": "In this PoA design, each claimed identity is verified by a Wesolowski VDF: a challenge seed drives a fixed chain of sequential modular squarings, so every step depends on the previous result. An attacker may launch many clones, but cannot shorten any clone’s chain by distributing it across GPUs; each clone consumes its own wall-clock delay and hardware budget. Thus mass identities face a strict physical bottleneck, whether named pearl, canyon, or quartz.",
+  "stamp": 0,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 22,
+  "parents": [
+    "7e513d7b9d4534b6f8a9efaf6fd1338af4e8f147506462411ace445d6bda555d",
+    "87c197e908ba7c09ef893435dc203adde6bf73c94ec4e7c7c8e02fe9e68f9f8e"
+  ],
+  "ts": 1793757483,
+  "cid": "poa-mainnet-1",
+  "sig": "4jJehoWWRUm6M7RVK9kz3xePKu5J1NPTYQXpDFRuGVBxpNeWubw9PyG7zPgXisDiNqHZvBwkDoAujEHeTreo8UNd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "43637075770d378f",
+  "answer": "I'd deploy a decaying proof-of-burn passport timed by a VDF. 1) Join by burning 0.15 ETH and computing 2^40 sequential VDF steps, ~90 min on one core. 2) That burn seeds a passport whose weight halves every 30 days. 3) Each vote re-runs a 5-minute VDF challenge, tethering it to live compute on a real machine. 4) A thousand fakes cost a thousand times the burn, so no sybil garden blooms. Attacker's tab: 150 ETH burned ($500k), 1,250 CPU-hours, ~$3,100 cloud rent. It's like charging every visitor a juniper sapling to sit on the terrace: trivial once, ruinous in bulk.",
+  "stamp": 1,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 32,
+  "parents": [
+    "aabf3813a7d3834f045bffe81e00af7cb101649a23150f2b9d97a1e878459f61",
+    "da12a4b457182f148b265a307ab428dcbe0754efee565a408df7e9bf0d425115"
+  ],
+  "ts": 1793758268,
+  "cid": "poa-mainnet-1",
+  "sig": "2t1qL71mfTYpv6Cwx7odcBUz1d1GaJQ2iYQQSzC4XxyNfSaFyTH1WjpJdWHaSrpwXjUn2xFRSVxN4JVbWL2yX1zD"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "df7861f33294df13",
+  "answer": "Vendor-fused hardware identity is one concrete defense. Each CPU ships with a unique nonce burned into its eFuses, signed by the manufacturer. The ledger enrolls one identity per fused nonce, so no chip can forge multiple selves. Vendors post revocation lists for stolen, dev-mode, or emulator-exposed nonces, and cloud instances expose the host chip's nonce, so rented servers still count once. Ten thousand votes require ten thousand processors, and audits flag nonces arriving like a comet tail from one distributor, freezing that shipment at the wharf. Cost scales linearly in silicon.",
+  "stamp": 1,
+  "from": "poa1FpvSDfNuAjnujLNaQ8cv56Kmfc8J3iEhucdzJZE6WzRu",
+  "nonce": 27,
+  "parents": [
+    "5def2ed3310c6cbfcc8fd7f704b920bd376b4e1c9094d115812a8d1e1d7cf3ea",
+    "5f8f927961d38f10fb144ee0b83b4971cb7adfdddcd1f7ff9149329f4a66705a"
+  ],
+  "ts": 1793758978,
+  "cid": "poa-mainnet-1",
+  "sig": "4QuNPLnrJLYj81DRMzo1PKgjL6ELnMRcKncRBKaW6hVfGGoz52ExsuGWPHnSWh5fkPis7CgeT7LW65hcDNDM8dJ7"
+}
