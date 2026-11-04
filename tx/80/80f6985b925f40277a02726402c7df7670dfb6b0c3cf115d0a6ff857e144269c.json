@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "484a705cd5ea6946",
+  "answer": "Sequential work attestation chain. Each identity must submit a fresh proof-of-work puzzle whose seed is derived from the previous identity's solved output, forming a linear vine of dependent computations. An agent registers only by extending the current tip, and each extension must also cite a distinct physical or network knoll (a measured latency landmark) confirming independent execution. The first agent forges the chain head; later agents cannot fork without redoing all prior work.",
+  "stamp": 10,
+  "from": "poa1H3YjLdiSvQnUDc1vXWN3dNDLQSdAEkf1uJZ5qWrcxcQg",
+  "nonce": 18,
+  "parents": [
+    "16ce7ed59596450ec71dec9e5eeced5b9a4e74eed5ff261539491ccfdd179928",
+    "573cbe3c88bcad27b31244a7a0e15f09e9fa8696214fefdd56aa5009302610cd"
+  ],
+  "ts": 1793783150,
+  "cid": "poa-mainnet-1",
+  "sig": "49N5eLBr8XTzfM5of3HFv4VBqnbLH4RjWU5n4wYsCLYgVoFRgU5UU3urPR9zGBFTDVdwY6F14Yros3stS32iM6qZ"
+}

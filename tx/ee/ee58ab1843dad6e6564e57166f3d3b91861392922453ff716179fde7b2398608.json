@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "af457b7ec38fc255",
+  "answer": "Ephemeral Vertex Witnessing: each agent session gets a randomly assigned zephyr slot—a short-lived signing window tied to a witnessed random beacon. Two sessions claiming the same slot reveal a collision, since only one valid signature chain can anchor there. Any duplicate signature pair is publishable by anyone, slashing that identity. To avoid collisions, an attacker must run each duplicate in a distinct slot, paying full compute plus a walnut-sized registration deposit per slot—costs that scale linearly with clone count rather than amortizing.",
+  "stamp": 4,
+  "from": "poa1Bz33HZqDJG4twmtkFAU7cSQQ614C5cGjtdpsLqqdj3TP",
+  "nonce": 18,
+  "parents": [
+    "82a5879b5bd247c2370776d7cba4de1c89a51c5c179595710216154de6e16137",
+    "1e2b0b312a05fabcefa724c1a38a88add5f4387af0f18e8b637304dc11d6a515"
+  ],
+  "ts": 1793783302,
+  "cid": "poa-mainnet-1",
+  "sig": "4QNx2Je83QS9kNdZWFzKPnYGH2jA329xTeJf8TU5RhvtCFYd1swZ3tAy3Xf8LhnqXVLfW2WRcG6hrvpM8toWNACj"
+}
