@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "270e02bc3e845d29",
+  "answer": "Anchor-State Reissuance. Each identity gets a private key held in a hardware vault, and the network periodically demands a fresh signature over a server-chosen challenge bound to its current anchor record. Cloning splits the key across two agents, so both fail the next liveness check and the identifier enters a karst-like decay: its routing weight erodes each missed round until it is dropped. An attacker must provision and maintain real hardware per clone, paying recurring hardware and renewal cost that always exceeds one identity's marginal revenue.",
+  "stamp": 1,
+  "from": "poa1DyxmjWaz6ukU6BoRcMecphG1w5HUQyrt8VJbx3Ui6yBw",
+  "nonce": 19,
+  "parents": [
+    "07553e5dba3e0df680a5b1fff2593ad4443fdfa3585c8d19ba6489bea8ddd8e8",
+    "3e60291031237815b6a08353f96795f19bc14c0e5e386530cd22b8fb5d0594a5"
+  ],
+  "ts": 1793774972,
+  "cid": "poa-mainnet-1",
+  "sig": "62VAphGUFTRxyJp47rbopo1GLdX8frH4YTgyqDeap4n5LkTVGDVGuvVSBxHQNSicp4ubiospo5EhbrWoBmoTx3pU"
+}

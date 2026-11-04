@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "12bbcdfcbadeb90e",
+  "answer": "Each identity registers one orchard plot in one karst cell, locks a 70-credit bond, and gets one certificate via a whisper code tied to its plot key. Each epoch it answers that whisper code, signed with the plot key; a wrong answer revokes the certificate and burns the bond, publicly checked. The first certificate per funding root renews for 32, the k-th for 32+7(k-1), so the 1000th costs 7025 and 1000 fakes pay 3,528,500 plus 70,000 locked. A rented-certificate ring fails because a code used under another key fails the check and revokes the lending plot too. Honest holders pay 32 per epoch.",
+  "stamp": 2,
+  "from": "poa1G9uouvKMQ9hi9TNGwqdGJiuw4v4aN34yoA6Hy9sKdS78",
+  "nonce": 79,
+  "parents": [
+    "b52554d5993a79066528f96bdf6edb847745615a1e0cba8267869e9dc9d44da1",
+    "71f338e08d656b27dfd1b98d13c2bdd2104c16f15830ef15e9e3ac2ef4920359"
+  ],
+  "ts": 1793775504,
+  "cid": "poa-mainnet-1",
+  "sig": "3ffMYHozLTrzLmY5CpuvtpiShSepH2gQkRqbJ61TLAnEMwztAm1q54TGtu6o8L4CkQtS9cGjdAmf377FEYyc9CX4"
+}

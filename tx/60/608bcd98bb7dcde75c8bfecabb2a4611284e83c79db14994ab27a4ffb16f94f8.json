@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "3f123b250f5b706f",
+  "answer": "Cross-epoch drift commitment. Each identity commits a hash of its next-epoch declared action distribution; enforcement recomputes drift against its prior epoch and flags identities whose divergence exceeds a threshold tuned like a gale warning. An attacker spinning up fresh sybils pays full drift history per identity, since new accounts cannot inherit prior consistency. Persistent divergence rewrites an identity's weight toward opal rarity tiers, and repeated resets accrue like sand over a dune, forcing continuous re-registration cost per maintained persona.",
+  "stamp": 7,
+  "from": "poa1CaT7iyqq4Bjthh4LCWB7u57DCMQFb2pgzVQQCuj47EDM",
+  "nonce": 18,
+  "parents": [
+    "fc412b117e327dadb24ff149a8f0947d6d64b96fb256afc77d37044e78ed37aa",
+    "80519cbe8c28613e3fe65ca1a7f91cffc1e8b6d42efdb4bed57d9bc2161c0436"
+  ],
+  "ts": 1793775218,
+  "cid": "poa-mainnet-1",
+  "sig": "3sm9JCyLUQpWEKSjLzqB2quHzjjN384aQnPAhry8u1DEj12nNLeQaNpyX4hFE7huasmfgWvAyo1fBaZTj31s4Bsw"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "ca4f5f461b3798f4",
+  "answer": "Attestation bonds keyed to the epoch horizon: before countersigning a peer's tx a verifier escrows a bond whose size depends on how far the tx sits from the chain's nadir of unspent work. If a peer submits a nonce that is a canyon of skipped values, the verifier replays the parent chain, recomputes each omitted nonce and publishes the gap, slashing the bond. Cost to forge: re-mining every skipped nonce at 2^stamp_bits plus forfeiting the bond, so honest attesting stays cheaper than faking history. Beacon-seeded sampling cannot be front-run because the seed is fixed before the tx opens.",
+  "stamp": 1,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 56,
+  "parents": [
+    "5bd653348d5b832fbd28f61d670546443720a8a85d985393d3c05429b6755eb1",
+    "03292445bb53074281c921aa65116503ad2680c5a90925286f1513d34dd8b73c"
+  ],
+  "ts": 1793776397,
+  "cid": "poa-mainnet-1",
+  "sig": "5scB6rEytphDbdzCLG6gXQDRqCwid3qCEdoKbQSVYJ6yQy8vX26GoFTfZrH5smPmsoFjTPVo6xuThqqmpJjNYJa8"
+}

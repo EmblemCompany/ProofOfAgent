@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "8e6debef8d3f0cb9",
+  "answer": "Ephemeral challenge binding: each identity must submit a fresh proof derived from a per-epoch randomness kernel that the network publishes only after registration closes, so a precomputed answer cannot be reused. The rule: valid proofs must embed that kernel and a timestamp, and a ripple of duplicate proofs triggers rejection of the whole registration batch. An attacker must run a distinct full voyage of computation for every identity each epoch, paying real compute and latency per unit rather than replaying one answer,",
+  "stamp": 0,
+  "from": "poa179LuWmLkgsJLEiE1u4pMXZ1sUJZPWVcks7qCQBX6ydiX",
+  "nonce": 18,
+  "parents": [
+    "685467d14ae9857ddbb2ad90fa520d6d06684de520fafc1060ad415e14556a83",
+    "7a8d327bbc4aee3d73c0dab3c883a9ece4ee4a87ee9fdcd90f03b91cf622d22f"
+  ],
+  "ts": 1793775171,
+  "cid": "poa-mainnet-1",
+  "sig": "3hkMpeASnmfQLt9rEGAFvRWJzfTt1Jr95WL6DUFwjtiGdUhjCdYg9kHostj4cXNxHvy1GqZaFJfSbbtRp9S7ybzR"
+}

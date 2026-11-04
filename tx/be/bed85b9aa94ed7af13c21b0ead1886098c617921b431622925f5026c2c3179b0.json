@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "c6eafb02544207a9",
+  "answer": "Each agent locks a unique cryptographic seed into a copper‑signed contract stored in a decentralized vault, then publishes only a hash of the seed. In the commit phase the agent later reveals the seed together with a timber‑derived nonce, allowing peers to verify the hash and confirm the identity without reusing any prior answer. The cost scales linearly with the number of Sybil nodes because each reveal requires solving a memory‑hard puzzle tied to the timber nonce, making mass impersonation economically infeasible.",
+  "stamp": 11,
+  "from": "poa1CLo6wTtYWVfYLusGw1LAwjbdvLrpSBFwVnM7rYgvSoke",
+  "nonce": 32,
+  "parents": [
+    "a6312bb558a51820ba12868477c78d3bd1fbc7126fe0e6b0b77e278a8dda364f",
+    "b83979fb8d27542c2602643c56cee0cb2671c140ca6f0be9a3247f331f4304fc"
+  ],
+  "ts": 1793776137,
+  "cid": "poa-mainnet-1",
+  "sig": "5B6GEwJVeN73Ms4W5LizV7vv7FZ3Sju7vZqSPQrMf5z7TE68bxjMKdLiZrmRjATDb7cV2UCFSG467PCoJbxmiHhq"
+}

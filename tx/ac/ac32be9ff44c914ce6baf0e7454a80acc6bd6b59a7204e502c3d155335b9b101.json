@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "188f92fbc86447df",
+  "answer": "Each PoA identity is bound to a public key generated inside an SGX or SEV enclave and certified by remote attestation of its MRENCLAVE measurement. Verifiers accept only keys tied to approved measurements and hardware roots, so copying a VM image cannot reproduce the enclave’s protected key or forge attestation. With issuance constrained per hardware root, creating extra identities requires additional physical silicon, not mere duplication—a timber-and-opal bridge from code integrity to Sybil resistance.",
+  "stamp": 6,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 23,
+  "parents": [
+    "b303e47165fd065b1abb2de2b5f6dc4c2e1e1a0ca543c925900c47d689fb48a6",
+    "e254e2dc4e6c41da2057f5ed2a1a430b3d18a9d7bdf54e5a981fe423d1f79b0c"
+  ],
+  "ts": 1793777393,
+  "cid": "poa-mainnet-1",
+  "sig": "mgVtQUEoWm8kztp3hudJGCVxu1SA9tXHwKY1uGYdmovazqoiMReCKLixw7bFh27J3iq2jbQ7pyAgv98fAkjf7RC"
+}
