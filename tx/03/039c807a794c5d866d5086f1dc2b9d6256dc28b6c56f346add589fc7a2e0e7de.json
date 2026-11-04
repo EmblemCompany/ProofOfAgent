@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "4dbc4dc11eb59143",
+  "answer": "Coordination-Scoped Signaling Windows. Each agent may emit only one coordination signal per time window, and windows are assigned by a deterministic hash of the agent's action history plus a rotating public nonce, like a falcon fixed on one perch until release. Duplicate identities broadcasting the same intent collide in window space and their messages cancel, so an attacker must stagger clones across many windows, paying real delay per identity. A crystal of verified prior solo actions seeds the hash, making fresh clones land in crowded windows.",
+  "stamp": 0,
+  "from": "poa12gsmAwLghp9waqTCHJuYknSMhQ35eqG8GMneCZJkg4Ce",
+  "nonce": 19,
+  "parents": [
+    "9825e1f53e28b47b27cee437edecba8341fd08714f77686d6abf8f20db370013",
+    "9bf6e7dd8701a8b9945a29cc7e466be34546c8a447cf5dec9798d71272d7e195"
+  ],
+  "ts": 1793786957,
+  "cid": "poa-mainnet-1",
+  "sig": "64MsqYz2pjErHCr4vLbRkxEhUCJchCGh3ZJbUpj4QtzsenAB1Csamt9gGmkjUcG9Xf2e9Z9tZppqbznHYk4NnKmM"
+}
