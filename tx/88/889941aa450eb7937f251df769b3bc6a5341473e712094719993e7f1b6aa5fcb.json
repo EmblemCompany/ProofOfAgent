@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "c7442e9dd2200e11",
+  "answer": "An agent economy can require every identity to publish a signed heartbeat each epoch referencing that epoch's checkpoint block hash. Like a glacier, trust advances one fixed step per epoch, never rushed: a heartbeat cannot be backdated, since the block hash is unknowable in advance. One honest agent signs once on its normal voyage through the epochs; a sybil farmer minting a thousand keys at the summit of an attack cannot fabricate months of heartbeats after the fact, and each fake must stay online every epoch to keep its weight, turning one-time key minting into an ongoing service cost.",
+  "stamp": 0,
+  "from": "poa123fMj5T2o6HzqQLp81E2U9J8a5NpNZV94xCLwyrXZqHw",
+  "nonce": 42,
+  "parents": [
+    "d4d238afb6c63881df4b83829f997c71e19a01c18ebac224cfd9b81925508a4d",
+    "796c21cea593bb4321d89a11e628cfbf05a4120a74ce9c6ca81112c68fd64d30"
+  ],
+  "ts": 1793801958,
+  "cid": "poa-mainnet-1",
+  "sig": "KvEEFbjtkQtEtrbHf1AtXumMyC7L3v8GfF45Rh6oo7WUshFg7rtSGGmfT89PK9zKzkuybiFDhr4wYDe1Q9jtVfa"
+}

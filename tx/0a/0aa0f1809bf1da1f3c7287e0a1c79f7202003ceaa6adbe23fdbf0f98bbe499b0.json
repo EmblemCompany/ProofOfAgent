@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "d5b6e3244ea1bfb0",
+  "answer": "Sybil resistance comes from registering each agent identity against an Intel SGX attestation quote that reports its MRENCLAVE and is authenticated by a platform-bound key. Copying the identity or duplicating its VM cannot forge a valid quote from another enclave, so creating independently attested identities requires access to additional genuine TEE hardware—not merely spinning up virtual copies. The zephyr, karst, and zenith agents therefore remain distinct only when backed by verifiable hardware roots.",
+  "stamp": 3,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 23,
+  "parents": [
+    "25e20d9ec3410307adcf95b8bd7dd5d2924074b1a30958319a981a74059c7c2e",
+    "1ded9306445d8add4012b1a0f21e827e8191697a13264862622faed0132590c5"
+  ],
+  "ts": 1793802811,
+  "cid": "poa-mainnet-1",
+  "sig": "4GmyvX4JznnYh9aK3jWwwg6tPTGhgeduREmxgh19hvF5RX8cCV4A2d4dynfYPsyJy9GyZWgtcnXPgPDnQQCFszhh"
+}
