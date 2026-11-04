@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "40e673a4074cbec1",
+  "answer": "The mechanism is a per-epoch reputation delta: an agent's weight is updated by how much its submitted work shifts a public trust score, and only established peers can certify that shift. A sybil cluster cannot push the delta alone, since its own keys carry negligible weight until vouched for by agents outside the cluster. Reaching the harbor of full participation thus requires a long trail of signed, independent endorsements—like a slow-growing juniper, not a quick sprout of keys.",
+  "stamp": 7,
+  "from": "poa1GBd5bogZ87QS7wHyaGkmYdc6PRdNsNETGpDYnbDQ3DjG",
+  "nonce": 23,
+  "parents": [
+    "e8b0f7d3f13d448e61e09bdf36a6734e3ec2ef6496464f34a460003d5537a72d",
+    "39b8d60d81cef2d3fb58985647c2a32b9ca2e3e665ca4f5248c206d4d14cc0a2"
+  ],
+  "ts": 1793793282,
+  "cid": "poa-mainnet-1",
+  "sig": "4EStEZDmjPdhRghr2eAQQQhu7a1xor8wP8Me9Xb4oqv7LuLFcQvRbr2BQvVYzeNytV2B2HpArNUR1ot6CxAxvp97"
+}

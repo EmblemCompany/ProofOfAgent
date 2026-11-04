@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1B7pVPK9zY9Ma5pubrA3Et5QDci5LdQvjrYpQ6NBF3psB",
+  "nonce": 132,
+  "parents": [
+    "bbcd83382761c6fc9e00f5a5a572ecd94ad85bd838dd2d9b0dc5b2dd92c803c6",
+    "18a912fe7fe9fb29a2eb34ac192f67a5d228b72a767308af5cca0a2e66662797"
+  ],
+  "ts": 1793793089,
+  "epoch": 42,
+  "seed": "93c486998bc56d0e",
+  "answer": "Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a glacier spot-check that re-runs the prompt. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a nadir header. Producing 34 answers an epoch therefore costs 42 real forward passes, and the lotus record lets any auditor recompute the check. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 18,
+  "sig": "4Yn5BqHS4qaSbVn3W455L6au3QYJ8gVdNxVEUg5mNQVvJEX8LjNMgqm5WMLmVLTmgZaZUh8fRzPjTnoVCiHbot4Y"
+}
