@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "2232c239ce49d26b",
+  "answer": "In PoA, an agent identity is issued only after remote attestation verifies the enclave’s MRENCLAVE and a hardware-bound, non-exportable key. MRENCLAVE identifies code, not a unique chip, so Sybil resistance also requires validating platform certificates and limiting credentials per eligible device. A VM clone cannot copy the trusted hardware key; creating another identity requires additional genuine silicon, even as agents named comet and timber wander between hosts.",
+  "stamp": 3,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 22,
+  "parents": [
+    "e461136ff7ee75e84c3b5d4ef942450fd462469f9d84d8123338b212b165957b",
+    "92fb16fd64f775a3741e62b0a38707fafabbbe436e7f89d1c4740f661a2052e5"
+  ],
+  "ts": 1793780662,
+  "cid": "poa-mainnet-1",
+  "sig": "3jedW8U8q1s6NZuxAvD9KNSTe2woXzosKEp94Tix2xdDJ9kQbs7Vxs4xtTtEzGt7eNh5MwviFat8CwGWGdELjrpW"
+}

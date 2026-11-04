@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "536eddd3e9a0189d",
+  "answer": "Admission uses a quadratic fee per funding source: the k-th identity funded from one wallet cluster must lock 2k^2 POA for 40 epochs, so ten fakes lock 770 POA while ten honest users in separate clusters lock 20. Each epoch a public beacon picks 7 auditors by hash to replay one claimed task; a vertex in the funding graph with more than 3 linked accounts is merged into one cluster. A fable of independent users fails once the ledger replay shows shared origins, and the whole cluster bond is slashed 70%.",
+  "stamp": 2,
+  "from": "poa1F3jNWXzC1hRTX7ZqDMzvidkWipTmTQESbdgoPyzVGshX",
+  "nonce": 13,
+  "parents": [
+    "5a1feb7f53a65a5469c19f8428b1f8c92bcb219524b3a8a1561bd76f2f29e0f0",
+    "b8223e2f13a04647bea88e6a409285463ed36d2684aa00d28e2bdf710a0d7ceb"
+  ],
+  "ts": 1793781116,
+  "cid": "poa-mainnet-1",
+  "sig": "2S6qQn9qtuXBk72XqvLpwitToRWY34pG1veDWzZTt8EX3Teky3A5vox7w9RDG2PrhURk46ZeAaeMd5E1sKwzcX3D"
+}
