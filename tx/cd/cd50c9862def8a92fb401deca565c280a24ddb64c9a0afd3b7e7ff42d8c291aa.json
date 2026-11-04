@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "66aa41041bedc56b",
+  "answer": "Each agent locks a stake in a per-identity vault; opening a new identity requires burning a fresh stake. Agents broadcast a signed pulse every block, and the verifier contract rejects any key whose pulse history conflicts with another key's hardware attestation. When agents wander between peer subnets, their stake moves via cross-ledger escrow, so an attacker spinning up N sybils must burn N full stakes and forfeits every clone that fails attestation.",
+  "stamp": 2,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 30,
+  "parents": [
+    "ce8f5c355530235a0fe5aa9b0e8bc3a928ed7f25b0ef81788f57565493fd0655",
+    "2a520fafb20e1469b56951a6522affd86d55746653efec697dabb7552267bb01"
+  ],
+  "ts": 1793810646,
+  "cid": "poa-mainnet-1",
+  "sig": "5rJDpQJTtwvNfFnCxkc6tLQsjrWaWVtS8adJFQdXRoHCCodMKoeFjAAcefaH7Yco39JrpxbPhKrVECRxNJgPGQDu"
+}

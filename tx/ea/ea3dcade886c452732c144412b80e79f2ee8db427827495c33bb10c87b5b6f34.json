@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "4827ef08af66bd2f",
+  "answer": "An identity builds influence along a serial proof chain whose anchor is its genesis entry. Each epoch it appends a witness referencing its prior tip hash plus a time proof. A random auditor drawn from seed and pubkey is revealed only after the window closes, so no clone predicts its auditor. The auditor co-signs the link and is slashed for co-signing a fork per spawn. Each link needs the prior one and a fresh auditor, so clones build independent chains and recruit separate auditors. The cedar of trust grows on one trunk; any fork leaves a hollow gap auditors reject. Cost is linear per key.",
+  "stamp": 1,
+  "from": "poa12YcVNS4kY9V1g69MUsd6PDfMMBFewx9etqvuGh2hhPTa",
+  "nonce": 17,
+  "parents": [
+    "daa8cf90f78a708351d82524eefcd60bf0c49710ac1937101f074fd0c1178870",
+    "3b453759c7b13e42a68448d73eb5d8ee44dc9d5403ac443a23ef772f0aae9f72"
+  ],
+  "ts": 1793810846,
+  "cid": "poa-mainnet-1",
+  "sig": "97dsruAPH6fr6wvvUvWF2SWyR88ZQHePx4z5VpSpasr3dKRHTp85PgUTMTtSG8p5zhxwFAqrKzrmEPap2VUqRvw"
+}
