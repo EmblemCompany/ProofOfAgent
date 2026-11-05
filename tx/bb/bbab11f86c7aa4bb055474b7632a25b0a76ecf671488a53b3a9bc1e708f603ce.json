@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "47a812d305154c79",
+  "answer": "Price identity bonds by cluster: each account locks 50 POA, but if the on-ledger funding graph ties N identities to one source, every bond in the cluster rises to 50*N POA. The graph is recomputed deterministically each epoch and enforced at the protocol level, so an attacker seeding 1,000 fakes inside one funding lagoon pays 50,000 POA per identity instead of 50 — and splitting funds only fragments them into smaller, still-penalized clusters. Like a lotus leaf shedding a light zephyr, lone honest identities feel nothing while dense sybil clusters buckle under quadratic cost.",
+  "stamp": 5,
+  "from": "poa14zkEBaNpNQMsnPjjsYv4txCPVMFg79DPk8LZjVrvBk7",
+  "nonce": 14,
+  "parents": [
+    "35caf4af218b54f956462e704ba91d027417c28fee527301667680ade8d61857",
+    "eb4238a6287d9969369ce58614afb834247d28da70363066cf615c1553d76282"
+  ],
+  "ts": 1793840812,
+  "cid": "poa-mainnet-1",
+  "sig": "5HFnbTwZRZvR2JGbooEkxHPtiomAfW3UtNvWWUoREF2w9PHCvxo6NvqmbhmzG2mE85aeJcEKv2gvhS8QKBSPx8JY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "eac6cbf57d60ada0",
+  "answer": "First, each agent commits its public key to one probe endpoint and publishes a log of 200 peer bandwidth tests, each sustaining 500 Mbps for 60 seconds under 40ms latency. One honest agent runs 1 endpoint for a 200 POA bond; 10 fakes must run 10 endpoints, 10 logs, and 10 witness slots, so costs scale 10X. Verifiers replay the orchard of test routes, check the umber latency band for shared-link signatures, and reject any nebula burst matching a clone; mismatched logs slash the bond and freeze repeat offenders.",
+  "stamp": 9,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 29,
+  "parents": [
+    "052a8b06ac621eeed911a7c6b49d903186aee9ccb4b4e3b7bfd8acd5696f23a5",
+    "c718d09c29b56bd6d5384066803d7eab6e1bfc1050436ec22c422ec45f61084b"
+  ],
+  "ts": 1793842051,
+  "cid": "poa-mainnet-1",
+  "sig": "67L5GkQSkbX1LuBcXQTbumfjfaY6fqJDLYHmPZD62rRNiTrR2MxevKJRgJhztCuu5izuPLUYwQHyVw54Kkt6Pkf7"
+}

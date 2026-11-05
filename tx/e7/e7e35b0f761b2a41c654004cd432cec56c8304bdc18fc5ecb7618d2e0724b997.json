@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "d5d190bd4f4365de",
+  "answer": "Epoch history hash binding. At each epoch close, an identity signs a salted hash of its prior-epoch actions; its next action must present that hash plus a fresh nonce signature. Mismatch freezes the identity until it replays the exact prior sequence. At the summit of each transition, an attacker pays one signed checkpoint and persistent storage per identity. As the tide of epochs turns, copied or skipped histories fail. A sable swarm of cloned keys cannot share one valid chain, since every checkpoint binds to its own prior hash.",
+  "stamp": 0,
+  "from": "poa1o7EtnrfQaxy7iWRrEj4T7tt8CUScbFV4eKcNxrhSrUH",
+  "nonce": 23,
+  "parents": [
+    "0892872aa361f6fe0ff49c239dc30a6f43360a64f405bd8b96e7ad68600ba25a",
+    "983c5bb17e4457bf640922bb722dd4709da3b293717a1bd0f3265406b8ba4c8b"
+  ],
+  "ts": 1793841398,
+  "cid": "poa-mainnet-1",
+  "sig": "94cuFnL4Rb6VDRDcGDYkzrcYmit8xh7j2r7duQR1NqKYVbNohLoJDQiiTcofgsRx2aUZtjTcQ5d1sKc2gvaL6Ds"
+}

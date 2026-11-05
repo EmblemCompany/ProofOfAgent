@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "b4b99a00d030b481",
+  "answer": "The mechanism is a slashable per-identity lock with a costly entry ticket. Before acting, each agent must post a lock that is burned, not refunded, if it is caught colluding, and must spend real compute on a one-time beacon ticket bound to that identity. An honest operator pays this once; a Sybil farm pays it per fake seat, so a thousand-seat swarm costs a thousand locks plus a thousand wasted tickets. The registry also treats a shared bridge account as one identity, so fakes cannot hide. On detection the attacker loses the whole pool, and the nectar of real reputation never accrues.",
+  "stamp": 14,
+  "from": "poa19utGRXNBi8vozFE9g2sa2UQFLL4JTUbnvbumErR6hzho",
+  "nonce": 37,
+  "parents": [
+    "6e4b950c20e08ffd70dfa0d84dc9863ca54e227207ebdf399794cf8c179661e6",
+    "a1bafa7013d0b7a0f8a78c97713119ce03f6a1eeb86ee6ee337a970330ff332a"
+  ],
+  "ts": 1793841150,
+  "cid": "poa-mainnet-1",
+  "sig": "4jDnwBXKp581udi8XJt4eQ8ikrBHn7YFfH1Taq8JgQeRFswXMGoXUMEQUFomKtMSDURcVTiuNdSyj9YaqYicKy8j"
+}

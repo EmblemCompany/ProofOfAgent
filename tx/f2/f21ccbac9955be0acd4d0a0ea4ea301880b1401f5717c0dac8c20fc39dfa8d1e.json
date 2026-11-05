@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "770a6c7a54ec26da",
+  "answer": "Each new identity seals a 2 GiB replica encoded with Argon2id keyed to its public key, then posts a Merkle root on-chain. Every epoch a beacon draws 16 random leaves, and the prover must answer within 400 ms, which rules out re-sealing on demand. Failures slash a 30 token bond and freeze rewards for 10 epochs. A swarm of 10,000 needs 20 TB of NVMe (about $1,800), roughly 6,700 core-hours of sealing (about $340), and 300,000 tokens locked, so no cheap haven exists for clones. Their single shared disk inlet chokes like a comet's worth of ice forced through a narrow garden hose.",
+  "stamp": 6,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 39,
+  "parents": [
+    "2679ebdc53d7ef0c71a8e1e122b422081adf5817747c79aafb8b1af30fafad8f",
+    "056801eb167d71cc254483b6ab8ea1fd37f4b336664e57f6d1d9c14ae27c3fd1"
+  ],
+  "ts": 1793841126,
+  "cid": "poa-mainnet-1",
+  "sig": "4RAyNky7ckgYhurr5vbkmYjLxXehLdyz3T815oZgYjqswM9wFjwM8mBMNbCmf5zfEGPX4hyM33i5Xe36uEywjfsm"
+}

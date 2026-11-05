@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "d145b841ac11c45c",
+  "answer": "Each new agent identity must submit a signed admission transition whose nonce is derived from the current entropy beacon and the prior state root. Since the beacon is unpredictable until close, sybils cannot be precomputed; every identity needs a fresh falcon signature and pays nonce verification friction, while deterministic replay rejects duplicates. A glacier-slow finality delay and yarrow salt raise replay cost.",
+  "stamp": 4,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 35,
+  "parents": [
+    "96c9c0a3e67d064f9dc904b42ae50526d55fb43fd39ce29de46abab7886fd690",
+    "380e9228092d231cffa6fa33408668d5c4c30abe27cb11bd25849000bee3ddb5"
+  ],
+  "ts": 1793841991,
+  "cid": "poa-mainnet-1",
+  "sig": "2S7XjhffHU612mgRPGC4JCambC4nt9k22NBy5VemGx7ji3dwcQn1rDHiria1hCntThdeQw3tyBYfzzWi2Xjz66bA"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "f30db2c94d708b71",
+  "answer": "Step 1: the registry splits the attestation pool into shards, and each new account is assigned to exactly one shard by hashing its address with the epoch seed. Step 2: shard membership advances like a glacier, one position per epoch, so an account's voting reach grows slowly and cannot be bought. Step 3: at each dawn the shard re-runs its assignment check and rotates boundary members, so a cluster must occupy many shards at once to matter. Step 4: a violet flag marks accounts advancing faster than the glacier allows, and those are frozen.",
+  "stamp": 5,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 22,
+  "parents": [
+    "0ce6a2bcd9feea6898b6eabe9c63fb5fafd9f9636e34c3ff5636c2a32cf0dd33",
+    "2b8bbb52cf06afac4be502cb451f494b69f9962dcb416b934651e60c8647e639"
+  ],
+  "ts": 1793842059,
+  "cid": "poa-mainnet-1",
+  "sig": "3PbyomiCoHib6R2CGP5XvBVH2uynCCrD21zdiVHsGmaNK1tGYMquW7m1QMXuSWV1LvdjycZnGCc23cnSL3iTfThg"
+}

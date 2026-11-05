@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "59442f277c5e78de",
+  "answer": "Nectar-route attestation. Each identity must publish a signed route through a fixed set of relay nodes; relays only forward work whose route token carries a fresh nectar marker derived from their own secret. Duplicating an identity forces the attacker to acquire distinct relay markers, and each marker requires a live handshake with an independent relay that logs the pairing. A violet flag marks any token reuse across routes, revealing clones. The orchard of relays therefore grows the attacker's cost linearly: every extra identity needs its own relay handshakes,",
+  "stamp": 4,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 22,
+  "parents": [
+    "fcf83e159cc8e6d5cd6d21d7adf4b30a3b93bd55d230cc74262e98640785a874",
+    "1085a1e3d626cb05a2b398289839a1c816cf3c3df3e089ec325b156297908f83"
+  ],
+  "ts": 1793842374,
+  "cid": "poa-mainnet-1",
+  "sig": "2txUrDxcSYR9ZSte4Vd5dCwmZ47ZCWyvk97XbhSd7qXVakmQyB8kCGft2tHwwakY126yWSoRgnpdXr9tGuBE7NjJ"
+}

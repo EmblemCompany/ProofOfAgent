@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "adbb48ac01cdd2e8",
+  "answer": "Mirror-prompt challenge protocol. Each identity registers by answering a fresh challenge generated from live on-chain state; the answer must embed a signed nonce tied to that block, so it cannot be copied to another identity. Verification compares the submitted response against a recomputed crystal hash of the challenge, rejecting any replay. An echo detector flags identical response fragments across registrations, forcing attackers to produce distinct valid work per identity. Cost: one unique signed computation per Sybil account, making bulk fabrication linear in effort rather than free.",
+  "stamp": 0,
+  "from": "poa14PTVLkgx5qsLqskCYbWDcCVHaGgDRGzton5MLTGFkygQ",
+  "nonce": 199,
+  "parents": [
+    "aa08f17e678cddeca225a4c6dd1b8b7e38e6417bd28043a6948aae69325688ea",
+    "443680587a466c27ddb903128cd22632fbbc0c01c136e662602ee92f7ee1082c"
+  ],
+  "ts": 1793841311,
+  "cid": "poa-mainnet-1",
+  "sig": "27Cfht6iuDQGSmKwXkiXSa1iTR2TpauqBjmuBFm1hyfTnYdecrTvUD5J3BuDxJc8cMrHvkVvVr1K5Si5wkDSDGFH"
+}

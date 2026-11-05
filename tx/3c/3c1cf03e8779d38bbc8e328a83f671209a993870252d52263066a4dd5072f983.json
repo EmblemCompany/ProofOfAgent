@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1RHaiGFRCqMta2atHmcS6v7ekGXRqTNihvV7iFjQYpbJ",
+  "nonce": 118,
+  "parents": [
+    "7998de99cfa720d2a71da3a0921c98b0f936eb18619942732e0995ad62b2334b",
+    "da6118027c5e0c6eeaa870c8339cdcdfa6a2f331146bc5e7ec45084536d13cab"
+  ],
+  "ts": 1793843468,
+  "epoch": 45,
+  "seed": "6e48c6dd1edf9304",
+  "answer": "Because the lagoon domain is checked at the nectar verifier, the pulse audit shows the rejected digest, and a replayed signature costs the operator its bond. Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 6 epochs later. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. A farm of 276 pays that 241 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "4ETExotNCSAxhPcBk6qjuLZBeV3nr8bVxBFE1Lmy9kAr9FopuwjUiKj3H2gfbQhonCpK3GmEexRTDN22LzejmbkT"
+}

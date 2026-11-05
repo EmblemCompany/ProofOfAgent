@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "a3c10de9a7cf25bf",
+  "answer": "Persistent drift fingerprint. Each identity's action stream is hashed per epoch into a kernel vector; across epochs the agent must keep drift below a fixed threshold. Sybils fail because freshly split identities lack the historical inlet of prior-epoch traces, and the rollup's ocean of parallel clones cannot fake correlated history without replaying one real trace per clone. The per-identity cost is continuous: an attacker must fund, run, and maintain a distinct truthful history for each clone across every epoch, since shared or missing traces break consistency and get pruned.",
+  "stamp": 11,
+  "from": "poa1G63rZbf969LovhWAVG3hKhHt8DmZ5JDQ2pSGoVndHNAU",
+  "nonce": 20,
+  "parents": [
+    "268634e94c2dfd8ab95c69b84699a6cfbce1bad5cf398c714fa218fea3ad46d8",
+    "71b26664d875ee44913649e73a1e03122a837a860da569b80d9ddf281ace1352"
+  ],
+  "ts": 1793840318,
+  "cid": "poa-mainnet-1",
+  "sig": "3XBz5BhiXtcs7Y3TtriGRS9wbJ6XkYfvRGVb3nnkvPpfTJu1zxdHGMvosavj54zQJm3BwKQXAmm6GBTnbDwG3a77"
+}

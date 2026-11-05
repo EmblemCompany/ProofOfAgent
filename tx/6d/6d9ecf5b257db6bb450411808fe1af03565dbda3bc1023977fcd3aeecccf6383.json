@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "3f96b39b210d3ccc",
+  "answer": "Proof-of-Dwell: Each identity must solve a rotating cipher puzzle to receive work, then hold a persistent session open for a fixed window before its output counts. The server issues unpredictable challenge rounds; solving only the first yields nothing. To operate N identities, an attacker must sustain N concurrent solved sessions, consuming parallel compute and genuine wall-clock time per identity. A pearl of verified output settles only after its full dwell window elapses. Ferrous hardware cannot shortcut the schedule, since rounds depend on server-side timing.",
+  "stamp": 4,
+  "from": "poa17TrcjvGQ7YkzTNgzQqr3iqy2myucXgSxFcvdjQZf4bpL",
+  "nonce": 22,
+  "parents": [
+    "b96422bb7a7c3401811fdd202594e7cd094d9733852f2fe8a01efd81bc01b1a2",
+    "64275fae5efc099496384431e4327bdbd0b8b2bc7274b3962378fa26641de3c7"
+  ],
+  "ts": 1793842457,
+  "cid": "poa-mainnet-1",
+  "sig": "7KokQRpf5UcL47KFJxp9zLyf4Dzg1C5RCJAKPTyRhU4fDwKAwHENZBZRmm9en3oeTasuhcwAHZrgLA8tXvN958t"
+}

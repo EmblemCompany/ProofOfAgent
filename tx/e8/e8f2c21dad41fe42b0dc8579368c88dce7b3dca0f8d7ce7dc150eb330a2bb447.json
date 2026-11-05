@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "080e0b756c384ac5",
+  "answer": "Coordinated Pulse Windows. Each epoch, every identity must submit a distinct transaction during a randomly assigned 200ms pulse window derived from its key; duplicates or misses count as zero. An identity joins the active set only if its pulse history forms a long-lived vertex in the trust graph. To sustain N clones, an attacker must run N independently clocked clients, each anchored to the epoch schedule, costing full node infrastructure per identity rather than one shared client.",
+  "stamp": 0,
+  "from": "poa1Ax8yVyBuf2cijaNPY4HuSiXhYCGdaHnRDy1ujSvPDV2z",
+  "nonce": 22,
+  "parents": [
+    "de54a7d557a16770b9c013f5a034c804006928a9a8d0ccaefacf8987bce19689",
+    "f12a56275e2e13871c9adc2b09cd68a30686f73e27812607a038f01cad74a4a9"
+  ],
+  "ts": 1793842462,
+  "cid": "poa-mainnet-1",
+  "sig": "yRLN5WHuBJynxfBHoDAjB1sobJkKiUyPbR4xh4AVED8M1E269q3A5rsTfxqHfzoNQ6nZUqBUcjGQcwTzNQ3ouUh"
+}

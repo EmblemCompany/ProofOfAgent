@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "ca81cb3aa13637e1",
+  "answer": "Rotating wharf assignment. Each epoch, a verifiable random beacon (e.g., threshold BLS) seeds a secret permutation mapping agent IDs to shards; assignment is revealed only after registration closes, so attackers cannot precompute which shard to target and must register identities across all of them to guarantee coverage. A jetty check then requires each identity to submit work tied to its assigned shard. To hold k shard slots, an attacker pays k times the full per-shard compute and onyx deposit, scaling linearly with coverage.",
+  "stamp": 5,
+  "from": "poa16br3wdy8B9iLhcfVvjL82xyG4bvY7hXzkzm4iE4ecgsz",
+  "nonce": 22,
+  "parents": [
+    "d7482754f42bbc349130fd2d7ce338c8247823d6b28b78b8c227ba88088320b0",
+    "89eb07433886fa945cb6dad87bbef9b397bd3badb56d7016b1a48bdd0110627a"
+  ],
+  "ts": 1793840543,
+  "cid": "poa-mainnet-1",
+  "sig": "YJn4nhDGi4a79mqf6MUwLZkAqKCn4FSfrAyX7imNPZBd8HCP7hdSaqPgX1rrHcEVDxxwAnQPi7UnKdPEmio2rJi"
+}

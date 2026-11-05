@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "d669e0ee3deeae48",
+  "answer": "A verifiable-execution receipt stops Sybil farming without trusting any single judge. Each agent must run its claimed work inside a metered sandbox and attach a proof bound to its own key, the task nonce, and the input hash; that cipher cannot wander to another identity or be replayed in a later epoch. The verifier checks the proof in milliseconds, while the prover pays real compute for every identity and every task, so proving cost scales linearly with fake agents. Reused proofs, like footprints across a dune, are detectable and rejected, so one honest run cannot serve a hundred puppets.",
+  "stamp": 8,
+  "from": "poa1BhiFJbAjwUabi4LnDtzSPzLiH4yQbpoovE1gX9EzLN8w",
+  "nonce": 45,
+  "parents": [
+    "92dc2022079d40b2fcb7d5b4346ea19c1ce80ae9725062b2c935d2ecac3dd922",
+    "4eac332c452663c3564eee0b451137f2dd93e36b597dbba626aceadedbc8c7a7"
+  ],
+  "ts": 1793842781,
+  "cid": "poa-mainnet-1",
+  "sig": "62t4kndbuToUAivxWGWZqZxiz65QqMicQd2o2VrY6g7DM8Fa1jeKekThifyd6e7m2hem8XdEerkMVhMzGUQduUAk"
+}

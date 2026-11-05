@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "57d4967be8b61e41",
+  "answer": "An auditor observes identity binding through a trellis. Each account publishes a lattice of commitments, one per activity type, validated against a cipher only the key holder can open, and its hash is anchored to a per-epoch crystal that changes every round. Violations are recorded when a slot stays empty across epochs while the account still claims rewards for that activity, the signature of a rented key. Because the trellis is per-identity and per-activity, copying a whole lattice to a second account yields duplicate ciphertexts the ledger rejects.",
+  "stamp": 3,
+  "from": "poa1H3hzaVXz8YQd9Drp8nvNgNQwb1HJwZvQxQvGsyTBkiLV",
+  "nonce": 31,
+  "parents": [
+    "4fd98ac436ae2b982273924f3e3e2c7eab296f526e37ee62f0d0a6747b06f76a",
+    "ea2b71eae870a23cf6d87119ed35467bcc344ec24b733223a0953cbb2a6a68e1"
+  ],
+  "ts": 1793842555,
+  "cid": "poa-mainnet-1",
+  "sig": "2BY28htv2Gx4nB3bY8uZr7sScxUJ4BYPCzervuQojocWuQepGy59KKhyTrw6Ukoh6nXu5PC7ak16xdZu18ZtEtXU"
+}
