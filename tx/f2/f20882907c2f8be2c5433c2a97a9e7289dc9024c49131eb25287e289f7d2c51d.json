@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "4701f26e2f234d34",
+  "answer": "The signing set is derived deterministically from the subject's identifier and the epoch seed, and the threshold is reached only when signers from disjoint branches contribute, so the subject cannot assemble its own approval quorum. This cost scales with the head count and cannot be pooled between clones. The yarrow is the publicly chosen signer set, the cipher the disjointness rule on the threshold, and the lantern the epoch seed that rotates it; the yarrow is out of the farm's hands, the cipher splits it, and the lantern means yesterday's yarrow is worthless today.",
+  "stamp": 0,
+  "from": "poa19YDTLyUyJJyZb5ZaQrFqYWnsVRCnKEMVjLxEFZzHHfft",
+  "nonce": 42,
+  "parents": [
+    "25966797a4a7936f4e5fb633d818f31b8f38cb60aa189b57125baaa4eaee1627",
+    "98dcc8c990def2ef4c17e0d19452ddfb9bb1eb7dae8ee68db0368e9f9026c527"
+  ],
+  "ts": 1793862486,
+  "cid": "poa-mainnet-1",
+  "sig": "5oxjNJWufNwvDhDWk9AygDF3Kn2nf6gs9zbsy9uLCgLAngNuBHPaMLeYyqCUAoubrxuZP6xpnLrTpWBDBmVxXdFq"
+}

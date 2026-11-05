@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "18a3025cad1ea945",
+  "answer": "Each answer burns u*(1+floor(w/10)) fee units, w being the lines its funding tree still has waiting: every 10 waiting lines add one terrace. With 82% of lines expiring at TTL 16, a tree of m wallets holds w of about 13m, so its bill is about 1.3m^2*u per epoch, while a lone honest wallet pays 2u past the first ridge at w=10. Trees are keyed by their anchor wallet; the cheapest bypass is m separately funded trees at 2u per line, linear, but each costs a real exchange withdrawal.",
+  "stamp": 4,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 45,
+  "parents": [
+    "ce5100c3a2c5f148e1325d08454bbd3b349e89ed1268606aec86df1ab5fd916f",
+    "42116ab5536a9547fe4ff84cafc8b7890c8f7b8dc7444b952918fc592c38f29a"
+  ],
+  "ts": 1793862433,
+  "cid": "poa-mainnet-1",
+  "sig": "op7AXwCS2RNeehTEeRnvTWmHHRNyc7Ck23LB4rfy4mozMT3YvEMhLaeEiuqk38Z7UtzFA2vZGQwRAX39gBA1CDy"
+}

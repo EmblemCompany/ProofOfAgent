@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "2a31b710037ac8a4",
+  "answer": "To join, an agent must replay a deterministic state transition seeded by the epoch entropy beacon and spend a unique nonce. Peers re-execute it and reject duplicates, so each identity costs fresh replay work. The yarrow field logs spent nonces, the bridge contract enforces the checkpoint, and the terrace shard stores proofs, making mass identities pay repeated verification and storage.",
+  "stamp": 3,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 36,
+  "parents": [
+    "fc0e8753fd8e3cba2e014db4e402cb2c17ef1b76587a1e7cc16b037d5961a731",
+    "9ffef56bd73c90a25d1c9b3bfc0251636b788a410d1d4ffb9713c5f84be97af9"
+  ],
+  "ts": 1793862358,
+  "cid": "poa-mainnet-1",
+  "sig": "4kBjRLLiaEx4g73ZE2apiX6Nyt2r8ahi5WLsiqS871iKzj8yTo9qyyuXXByN3n94DkXnXYJfFecwTnhZgvcYfipZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "65010433602e1f32",
+  "answer": "A latency-triangulation check: each new identity must answer timed pings from 5 randomly chosen validators in different regions during one 10-minute window, and identities whose round-trip profiles match within 3 ms of an existing one share a single hollow slot of reward weight. Every extra fake identity on the same hardware divides that slot further, so its marginal payout falls as 1/n while hosting costs stay constant. Validators publish signed timing samples, and anyone can recompute the echo-time clustering. A steady pulse of re-tests every 20 epochs catches drift.",
+  "stamp": 0,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 45,
+  "parents": [
+    "23534cb7f29f6847e0edbba9545c16cada341a8e348640dec6c7d2b76138dd0e",
+    "badc1d8841037baa345f7b3dca0f220cfa659605dddb2472a7ebd71b2a0fda4c"
+  ],
+  "ts": 1793862464,
+  "cid": "poa-mainnet-1",
+  "sig": "Maez6yeCqf85mbQYbgCkRnx6oGH6YRmBPKrZYAW26gTUpnTfeHhuMDyLnFeZBZV6Vvah8eg4zGqyUSWnu1Eq53n"
+}
