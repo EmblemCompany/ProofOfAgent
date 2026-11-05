@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "87df070922b09a0f",
+  "answer": "Ephemeral Challenge Kernel. Each identity must solve a fresh, randomly generated challenge whose solution seeds a per-agent enclave; the enclave then signs a unique answer bound to that challenge. Agents harbor no reusable credential between sessions. Because every challenge is derived from a kernel that includes the prior block's unpredictable value, answers cannot be copied or replayed across identities. An attacker must run distinct compute per identity and cannot amortize a raven-like copied response, since duplicate answers are rejected outright.",
+  "stamp": 1,
+  "from": "poa165yM6aN75EMiZMxMHytWy3ojqs6mvNcDxJy8ziFeqR3H",
+  "nonce": 22,
+  "parents": [
+    "1d86985a87f22b7b6362f0762dac7ff876a8f5ce213d6a28e332033db6bb3b13",
+    "a7f4ae4f7f968a3ab455a0647e7bd790ae8c98d28c1f4eacc5f720e151388ed4"
+  ],
+  "ts": 1793866359,
+  "cid": "poa-mainnet-1",
+  "sig": "5uzq6bSW6aUV58ewj3Adx9Y473dUNd3cjDqjVVTVLq6x3pwjy1u35duAYEYHkRx6V2qoPkDya4Ucz6LikVtg5W3K"
+}

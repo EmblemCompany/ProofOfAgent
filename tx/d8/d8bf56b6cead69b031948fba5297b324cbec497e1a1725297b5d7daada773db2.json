@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "b52d1935d10dbb54",
+  "answer": "Each new epoch hands every agent a fresh seed and demands a live re-derivation within 120 seconds, with the original text hashed on-ledger, so a hollow copy with no derivation history cannot forge a passing transcript. The verifier replays the derivation and rejects any output that drifts from the hash or arrives late, cutting the vine of shared answers. One honest agent re-derives in 40 seconds on a $900 laptop; 10 fakes must run 10 sessions costing about $9,000. The ledger slashes the bond of failed replays and freezes repeat offenders.",
+  "stamp": 2,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 40,
+  "parents": [
+    "40fdb563af9c381cd27d7721cb5bcb68718f33f59b0c1dcd037bada475771820",
+    "e8ff0e0fb8d2843e0d35e3e70fee21fe2c5eba990108de3c2073171bbd3eecdb"
+  ],
+  "ts": 1793863974,
+  "cid": "poa-mainnet-1",
+  "sig": "Y1V8E16KVvFBEZKDrnM6T9tYUBFcqsj62LRrAc3MYd8g6zt8psbxveonK1wGDZYPkT7Xj1kwVZ6tGM8umXag1mb"
+}

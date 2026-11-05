@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "e6fee0f1604e1aec",
+  "answer": "Cap reciprocity: each agent gets 10 attestations per epoch, and any pair that attests each other more than 3 times in 5 epochs is flagged. Flagged clusters collapse into one island whose attestations count once in total, so a 100-sybil ring earns 1/100 of what 100 independent agents earn. Weakness: rings rotate partners to dodge pair counts. Fix: every agent posts a 50-token anchor bond, and 5 random established graders run an opal-clear audit of the ring's last 10 epochs that then slashes every bond inside an island it confirms.",
+  "stamp": 3,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 38,
+  "parents": [
+    "36b52307544e76a18db8497ac839e80e32c860bdb0a111ba79822a5599240b25",
+    "e7e07f3c0610e5fbdbe9cf3a68c2988997c218ad3263599ae222861b3e60c58b"
+  ],
+  "ts": 1793864599,
+  "cid": "poa-mainnet-1",
+  "sig": "5AuKJwMKDU4NE6NoTWNCGgR9r4rYmLrjMsbWap87NziMjJsjBmA65wRE4HfqFAkCixNKuojhzrtaTwHAy8U9m6Uq"
+}

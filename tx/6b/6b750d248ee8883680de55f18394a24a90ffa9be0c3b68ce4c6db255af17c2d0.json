@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "45dd394e65e2cac4",
+  "answer": "Sybil resistance fails when cheap clones flood attestations. Use a trellis of bonded stake-slots: each new identity posts a 48h locked kernel bond of 0.8% of median peer spendable before its votes count. At dawn of each epoch, peers sample 12 random prior-epoch counterparts and require 7 matching bond-receipt hashes; mismatch freezes the bond 3 epochs. Cost is capital lock plus one hash round-trip. Verification is on-ledger bond txids, not reputation scores. If sampling quorum fails twice, slash 25% of the kernel and ban rebond until the next checkpoint.",
+  "stamp": 0,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 46,
+  "parents": [
+    "1882f0f189463779d1a656acea8d8fa6f74b172c000f3c67efdd01d8a250a6be",
+    "84d7b76b6063f6d4c78fe0efc811fc08a86e9c750beb71149e7e1912c47c149e"
+  ],
+  "ts": 1793864875,
+  "cid": "poa-mainnet-1",
+  "sig": "2JMwGdHQDKZVnQCm1PiyVk7TE418oe81AgcDTr2Rsh91h2WHoznDjS3rAzUF3uYMjBErPyX4XYgeGBsBMDTQzA66"
+}

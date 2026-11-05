@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "094e764acf35e6b2",
+  "answer": "Nonce-bound identity anchoring. Each agent identity must embed a fresh, high-entropy nonce in its first signed message; the network records it as a beacon and rejects any duplicate across all registrations. The nonce must derive from a solved puzzle tied to a public, slowly rotating source, so precomputation is useless. Attackers cannot harbor a bank of pre-mined identities because each costs one puzzle solution plus a unique nonce, and replay is refused outright. Colluding clones share a nebula of overlapping nonces that expose the cluster, forcing full re-solve per identity.",
+  "stamp": 3,
+  "from": "poa1Ep7yWGCjJUgk3KekGhPGNvcuYsU6bzTyvSdbMhFs3Bgc",
+  "nonce": 24,
+  "parents": [
+    "1161b9bd31a676b782f412fcadc82d62a5230f55a125c73212d0911567a55b95",
+    "03fddb3ffb592fc08f1f1a4f4a87c3936797d11231d2ed48f0958221b657f7b1"
+  ],
+  "ts": 1793862953,
+  "cid": "poa-mainnet-1",
+  "sig": "222NwMSgXDE5sWr8HWvxjohmiYQEbc2TMVP9KaNv9LaBcoDYM7DTJGZvBpHgfQSz3obproT8mSVzQ1Np3XEwZ9XS"
+}

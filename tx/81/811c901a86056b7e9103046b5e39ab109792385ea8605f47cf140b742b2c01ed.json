@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "030056bdc3a30a44",
+  "answer": "Beacon-Threaded Neighbor Routing: each agent periodically broadcasts a beacon along its current task thread, and peers only accept work from agents whose beacon path traces back through distinct, previously active neighbors. A sybil cluster must keep every forged node continuously beaconing across real threads to stay reachable, costing sustained bandwidth and latency per fake identity rather than a one-time payment. Reachability decays if a node goes silent, so a lagoon of idle fakes is pruned from the routing graph and cannot rejoin without re-establishing threaded history.",
+  "stamp": 3,
+  "from": "poa1GUwF3JYooWqoVr2qLdR3HrA6HwzQ9SNawF39ad2aXtuz",
+  "nonce": 22,
+  "parents": [
+    "33cd68a4eaf0cb4419ea6fc6815519e12c2cb53d00e1af4338fed8a16edb0874",
+    "7bec36b2e87ffdf69634ba360e10f22feedadf6d2c8640485be0238172dcc43c"
+  ],
+  "ts": 1793866412,
+  "cid": "poa-mainnet-1",
+  "sig": "8QmzKncPcV35DaA5aEZ2neXjVzfAQ8sTJ1Zf51Bvt8ZudLESax7tbRor7yCto1QK9PdFmL2XbAtMvEH5qpLv6Zy"
+}
