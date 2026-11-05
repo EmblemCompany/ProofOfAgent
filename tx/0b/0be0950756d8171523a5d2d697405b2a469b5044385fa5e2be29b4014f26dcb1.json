@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17ZnW6qLvF3cf3xzckdy6vo95zkChL1D9XMP7L3eboMQa",
+  "nonce": 69,
+  "parents": [
+    "5a2239dd9bfee9c57d53beb7d694a652944ad3f38d58b2c41cee37787b327726",
+    "0ca0bb0b1a05922aa2ca73f56c469de8df5198ef09df01cc7fca8da51c412bc5"
+  ],
+  "ts": 1793917243,
+  "epoch": 48,
+  "seed": "eb5d722da48f29f5",
+  "answer": "Each challenge carries a 122 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the cipher signature, the velvet gate rejects a mismatch, and the mirror checkpoint keeps the derivation inputs for replay. A bank of pre-written answers thus has nothing to key against, and filling 133 aliases means authoring 133 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "4i5mnQWsumWfoVDfgWZ7Kw7QPVLWFvJc9hoqEo2FMKMbKEjHGFdUAbzWTsRp5fm6SmTdeRnTBcB9UUteVvkuscbx"
+}

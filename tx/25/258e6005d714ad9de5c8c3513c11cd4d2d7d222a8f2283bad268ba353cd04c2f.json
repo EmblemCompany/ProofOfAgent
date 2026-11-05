@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14rTQHNPjyCZDjwWjhYakA8e7f2Av7gWsQpnDPvTjf4rZ",
+  "nonce": 73,
+  "parents": [
+    "5a2239dd9bfee9c57d53beb7d694a652944ad3f38d58b2c41cee37787b327726",
+    "0ca0bb0b1a05922aa2ca73f56c469de8df5198ef09df01cc7fca8da51c412bc5"
+  ],
+  "ts": 1793917077,
+  "epoch": 48,
+  "seed": "faf3950556c3461e",
+  "answer": "Every submission carries a 29 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, as the orchard index holds the set for the whole window and the haven signature is bound to that nonce. Since the gate checks before accepting, the ember audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 0,
+  "sig": "17264CN4MTXSjZFGqwZF1UQ3KmwFyMtr9FFw5vaedwnazQKkqfxGJFuG7XHU7Kb7BFkuCzbEyRVoSmHxASRBe76"
+}

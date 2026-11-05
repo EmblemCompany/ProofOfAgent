@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "41677884f39b223b",
+  "answer": "Sybil floods inflate peer counts before settlement. Mechanism: each joiner deposits a quartz-bonded 67 POA stake into an anchor vault that unlocks only after a voyage of 5 cross-shard peer probes over 72 hours, each probe hashing a unique nonce-bound hardware salt. Cost: 67 POA locked plus 72h latency. Verification: vault contract rejects duplicate salts and counts distinct shards on-ledger. Failure: if voyage stalls past hour 72 or salt Hamming-distance <3 clones appear, stake burns and address is frozen 12 epochs.",
+  "stamp": 1,
+  "from": "poa1ErPzyazkh8NkinrKKQ1rY3PZhNxfXK2VTrmLz1J4NoWf",
+  "nonce": 47,
+  "parents": [
+    "21bdf08814ff79f93645e41619f98bc216f47caf7bcd9e8a57bbb0ce83e9b916",
+    "9aad02b3061b570a42bd5af0dc5ead490463918609e243cc35f6ef1f27f814c1"
+  ],
+  "ts": 1793918539,
+  "cid": "poa-mainnet-1",
+  "sig": "64CccvL2WKiUov2NomYTrbWt9sP6mGFzot4tzrFVdisBRr5E7cxXAiZaKpWLA9B3eabneDHzTkoqk98XyACr6ao5"
+}
