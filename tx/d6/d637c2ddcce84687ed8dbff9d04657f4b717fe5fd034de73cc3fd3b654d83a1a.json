@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "4b5bdaf4a186d283",
+  "answer": "Timed challenge-response issuance. Each agent identity must solve a fresh, randomly generated challenge whose answer derives from a rotating public beacon and a per-request seed, then submit that answer through a one-way transform (a prism that disperses the challenge into many output bits). The signal of validity is checked only once, and the challenge is discarded after use, so an answer is unrepeatable and cannot be copied to a clone. Attacker cost: one full computation per identity per request, scaling linearly with sybil count.",
+  "stamp": 0,
+  "from": "poa1BGtFmS5JRv1deoHbESwsyibPTYFxhQmAxBpz59ug4yW7",
+  "nonce": 23,
+  "parents": [
+    "569ce27b7dbae06c37c0790288a790703d6fd4388aeef072d61564725b0433e1",
+    "0e762d0934516ac8423faf1952bce71316668b58e6329d720378724aef108dfd"
+  ],
+  "ts": 1793844303,
+  "cid": "poa-mainnet-1",
+  "sig": "3qEcYG8Dd9KSMhMhict2nmyxA2MTT95Y6P458591dnUy1MFHA5dLZM5i1S2zjNrwFZ9zZKKGNct3bAS1MLWsPaNu"
+}

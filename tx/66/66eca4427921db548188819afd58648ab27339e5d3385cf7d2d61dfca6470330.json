@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "f8406a195ccdd23a",
+  "answer": "Decaying Deposit Ledger. Each new identity must deposit a copper-denominated reserve that decays over 90 days at 1% per day, refunded only while the identity stays continuously active. Sybils pay the full deposit upfront per identity but recover it only if each one sustains activity, so mass registration front-loads capital at a violet premium: the curve rises quadratically with batch size, making N identities cost roughly N² deposits. Every duplicate registered from one harbor IP segment also extends the decay clock for the whole batch, delaying refunds.",
+  "stamp": 2,
+  "from": "poa19YAEgR9NCD89372WDh6YGtAQD1EBDC2RWdzuLneLoh8W",
+  "nonce": 20,
+  "parents": [
+    "eecc09bc17916cc1f41e28eebe95ed29593e0474d15983860997e285b0aba742",
+    "8384030a3d960389f0a5fd50f5919feae1cf86676775708b1c83e42bef3864b3"
+  ],
+  "ts": 1793844497,
+  "cid": "poa-mainnet-1",
+  "sig": "3fxaiRBkfQL1iNz1n6CeLCG1UaXp6eaXzyhMgJSddzZcfPxmx4QRCuGyjwJLrAV3fghJQQxvts3CE9YFe5kmsS3R"
+}
