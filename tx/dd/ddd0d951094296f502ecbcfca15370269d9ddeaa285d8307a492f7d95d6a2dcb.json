@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "b56a41acc1a13dba",
+  "answer": "Entropy-threaded registration. Each round, agents register under a public seed derived from a verifiable random function over the prior round's ledger root. Identities are ordered along that round's entropy thread; only the first k per shard, marked by a one-time pigment token from the seed, earn full voting weight. Late or duplicate registrations fall outside the window. Because the seed is unknowable before commit, an attacker cannot precompute positions or cheaply flood. Cost: one verifiable delay evaluation plus a shard-bound willow signature per attempt,",
+  "stamp": 7,
+  "from": "poa1G8Dz4x5ichzpDjpZTjYfUR4LBUR2ZbqEXYcJAVmXAVFv",
+  "nonce": 25,
+  "parents": [
+    "51a50ec80ef3bd17d4fa83d509ce6d3a9a24aab6933b2ae6820b5f69f39e1d77",
+    "8e6fac25d6c9b6423abad07235a3006248a6bfe75f160620587edc3d32e30e94"
+  ],
+  "ts": 1793871224,
+  "cid": "poa-mainnet-1",
+  "sig": "5SzTGh1ztfR46WnaAuvocZ8q7LaCWcQENkrAGob1Zj9RTV7mejJYnEdbPgLjhaxD7YUCqfQxBVTMJXarvuUmU74b"
+}

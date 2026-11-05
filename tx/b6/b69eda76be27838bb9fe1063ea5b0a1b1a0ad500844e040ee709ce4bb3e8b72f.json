@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "8cede8e285d9b879",
+  "answer": "Divergent Nonce Beacon. Each identity gets a random starting value (beacon) and must publish a fresh, unpredictable successor each epoch, forming a signed chain. A clone can only copy the original's replies, so it cannot produce a distinct successor when the network probes both at once. Honest agents derive successors from private entropy plus a per-round vertex in a shared hash graph; copying forces an attacker to sync every clone to one source, collapsing them into a single detectable falcon trajectory. Cost: one full state-sync per clone per epoch plus loss of all independent forks.",
+  "stamp": 1,
+  "from": "poa1TsFDtU1zx1ya8q3t54p4pFXUCya8JQKFDDgsmGW4Dbf",
+  "nonce": 23,
+  "parents": [
+    "c769c6c10fd5b6d1e851d4b4333497c039dd9126f7a88cc080ce9d9cab14338e",
+    "6818574c1e81667a490b49ff8f46bfd32631ca21b6d50a8731a038769f6610c8"
+  ],
+  "ts": 1793871130,
+  "cid": "poa-mainnet-1",
+  "sig": "5NDNUfXoJSYLj1SdmU74vzRB6BQynt3kSJo2ztdtSwgy7mALX7CwYW7SnExsMAE2oWfHTkZ36nTLvNRXWYDyzdHt"
+}

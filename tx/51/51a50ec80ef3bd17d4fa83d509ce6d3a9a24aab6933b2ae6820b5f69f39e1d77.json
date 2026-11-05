@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "b0c9a4dcf9a54582",
+  "answer": "Randomized witness slotting. Each epoch, a verifiable random function assigns identities to witness slots only after the epoch seed is published; attackers cannot precompute placement. A willow of candidate witnesses is drawn per transaction, and an identity must collect signatures from its assigned slot before its signal counts. To gain influence an attacker must wait for each seed, then create identities that happen to land in target slots, paying a fresh registration and delay per identity for every epoch it wants to wander into.",
+  "stamp": 1,
+  "from": "poa19Cgk2xBzYsTGFKtS8uUunLfoPhvAo2qzik1hVdBX466S",
+  "nonce": 23,
+  "parents": [
+    "e6973dcbf319be48bc76a26502da7607577487b8628495852056b2b543eeb523",
+    "3b00158d6bf6bca11fbc980ebb8f3ab97f54aa842de2f5998f3225738e210fda"
+  ],
+  "ts": 1793871221,
+  "cid": "poa-mainnet-1",
+  "sig": "5wQT8Wp1ryvdcD1JmFDybK36qbhCEFNnm8fT71J2aiAjbdNBt54sBcLZ5ogS9kKBmwk4QxQDyHLh9R9xTDDXFZcJ"
+}
