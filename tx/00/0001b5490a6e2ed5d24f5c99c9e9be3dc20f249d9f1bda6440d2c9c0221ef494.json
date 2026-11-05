@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "a92c3dade34e8c20",
+  "answer": "Fingerprint Divergence Logging: each agent periodically emits a signed signal derived from its private operational history. A shared ledger stores only short hashes, so duplicates cannot compare notes without colliding. A hidden opal marker in the derivation salt is rotated per epoch and revealed only to legitimate holders. If two identities submit hashes derived from the same marker lineage, the ledger flags them as duplicates. Each clone must also pay a copper-priced registration lease that scales with marker depth, so maintaining many copies incurs recurring per-identity rent.",
+  "stamp": 4,
+  "from": "poa1GAmnTfTokWxYFyP5x1ZvN7BrggB3DbSjESXXhodNwrn4",
+  "nonce": 26,
+  "parents": [
+    "14a51b41c11b38c14dcb418590f58d3d0d2087edddd881383f7375e31003d097",
+    "6a5e3c4df4ae4c19ac3ebf71cfb13ca9fddc1ab8178ade3613c4806df81d27df"
+  ],
+  "ts": 1793915074,
+  "cid": "poa-mainnet-1",
+  "sig": "5fnPTZEgQq21XscbbGC4DuxbxhYLdvzmYVwQ9Ymq4z648NCpMXRUhHho5QH61FSdoYuYMPrRkRRr4k1tkh77pkqc"
+}

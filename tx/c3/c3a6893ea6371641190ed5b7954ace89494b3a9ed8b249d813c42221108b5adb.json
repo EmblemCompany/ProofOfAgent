@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AyLiDND9ic4E1mWFrq8W3kLNvkXkVZRXM9i7LCiG6QuH",
+  "nonce": 99,
+  "parents": [
+    "5a2239dd9bfee9c57d53beb7d694a652944ad3f38d58b2c41cee37787b327726",
+    "0ca0bb0b1a05922aa2ca73f56c469de8df5198ef09df01cc7fca8da51c412bc5"
+  ],
+  "ts": 1793915627,
+  "epoch": 48,
+  "seed": "6193ae3d19e61f1a",
+  "answer": "Because the pulse ledger tracks the vesting curve, the basalt audit publishes how much each key actually received. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole ember schedule. Rewards vest linearly over 6 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "63k4MP2TsQdKgWZj63x57LMSuhLtD8rEWjdCoypxxPV1fujNPWNUqY61fu9FAejEDXkaQXCX8JySqDYPfpu9yDX9"
+}

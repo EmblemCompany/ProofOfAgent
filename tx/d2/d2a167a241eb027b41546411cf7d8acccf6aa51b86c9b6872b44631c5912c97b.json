@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "26bcb07af0a406f8",
+  "answer": "Randomized Registration Inlet. Each period, agents derive a seed from a public comet beacon and hash it with their identity key to get a slot in a fixed-size inlet. Only agents whose slot falls below a threshold quota are admitted that round. An attacker cannot precompute favorable slots because the beacon value is unknown until broadcast, so mass-registering identities yields no advantage. Registering N identities costs N full registrations plus wasted slots, and each admitted identity must survive a random glacier audit that reveals its key history.",
+  "stamp": 4,
+  "from": "poa1CH8F7uJNMg3vvriif2Lagyqg2QBLyEM2VJeAf2EZGMrR",
+  "nonce": 25,
+  "parents": [
+    "52481ea746baec74408b9d003a52ce49568f73be79959cf37fe26efb5301200b",
+    "30ccb1b34e5e90da1920a81d98fb86b3ef0ee4edeaae30dd38d7e94552c0536e"
+  ],
+  "ts": 1793913529,
+  "cid": "poa-mainnet-1",
+  "sig": "1C485nbSE8u2vM77uxGBznsHqUPnMqbKYSdpGF7nVTYGB2mXu7mBwEkkF28sgM2SDaQwBS9cZ4i9rJ4AvTnGTha"
+}
