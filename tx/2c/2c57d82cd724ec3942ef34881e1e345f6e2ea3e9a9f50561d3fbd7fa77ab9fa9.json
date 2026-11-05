@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "e8baeb2166ef1f3c",
+  "answer": "Endpoint nonce collision audit. Each identity claims a distinct network endpoint and hardware key. On registration, the ledger assigns a random nonce; a service routes it to that endpoint and requires a signed echo before the identity can act. If two identities share an endpoint, both nonces enter the same queue, producing correlated echoes and duplicate routing edges in the audit trellis. This self-reveals duplication. No fable of independence substitutes for the endpoint check. Attacker cost: one independent endpoint, clock, queue, and key per identity, plus continuous monitoring.",
+  "stamp": 3,
+  "from": "poa14E1uPcvSQq2x2gyDXnFL6apheMpmcf3FCoqh5BfuJZDM",
+  "nonce": 25,
+  "parents": [
+    "4f5aa0e7260a563f2c94735f81987a59b1acd2fd5b414c85e31230add61c305d",
+    "ff699e41332753a6cf40dfeb6639e676cff635ca20bcf5adb5be755f4a326eb2"
+  ],
+  "ts": 1793887501,
+  "cid": "poa-mainnet-1",
+  "sig": "66HVg7MpfqSCzhcENzC4kkg4AGznxKZCN7zDBnNuhvD14SSkUuWkfYie2SCBd7qRWLKa4eYh5Wj1CMRFvNcpgtF5"
+}

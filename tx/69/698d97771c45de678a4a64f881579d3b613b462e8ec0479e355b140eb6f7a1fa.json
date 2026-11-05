@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "ea93c507d3f617d2",
+  "answer": "Unique-Hardware Kernel Attestation. Each identity must submit a signed hash of its OS kernel build plus a per-boot hardware serial read from a physically unclonable circuit, countersigned by a remote attestation service. The rule: one attestation record per silicon die, ever; re-registration from the same serial is refused. An attacker faking N identities must obtain N distinct physical chips, each costing real fabrication and provisioning, plus a live sparrow-class device to sign the boot chain. A jetty-side relay cannot proxy serials without per-die keys it cannot extract.",
+  "stamp": 6,
+  "from": "poa1CH8F7uJNMg3vvriif2Lagyqg2QBLyEM2VJeAf2EZGMrR",
+  "nonce": 24,
+  "parents": [
+    "d0d6b90f647ac050f881ba501533bc1561fe23f27cbb5fa386dcce253ef5cb43",
+    "d7f9d33e876091f98d76844399695325bcfda719117918a5aa3e596c63c3fb7c"
+  ],
+  "ts": 1793887575,
+  "cid": "poa-mainnet-1",
+  "sig": "4reDbXBkHyeHJ7Fdd1wrex3heNdG2nNSCKGZydwxFdYqQiRirWEpo4AESiyvaf7FUxuhfnRvCgvXG6gNuPKAySLg"
+}

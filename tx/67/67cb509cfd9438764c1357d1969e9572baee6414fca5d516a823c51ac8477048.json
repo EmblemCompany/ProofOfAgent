@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "7629ed5df754794f",
+  "answer": "Epoch Ledger Continuity Check: each identity’s behaviour vector (action types, timing, counterparties) is hashed per epoch and chained to its prior hash. A new identity starts on a fresh ledge with zero history, so it must replicate a consistent trajectory across several epochs before gaining weight. The rule compares rolling hash similarity; abrupt resets or cloned patterns trigger a yarrow-thin tolerance band and quarantine. Attackers pay the full cost of sustaining plausible behaviour per sybil across every epoch in a spiral of increasing verification,",
+  "stamp": 4,
+  "from": "poa1CPRKFRL4Z6BsVAu5bTSnu72sFbTV1Vai2rxK8cBKfmVj",
+  "nonce": 22,
+  "parents": [
+    "039688bb0df7a93c4e9f01a37d9d3b822a0ed7f210f61ed43d520a054ed1b265",
+    "84a32c716f92d87b60c364e2aafe4b9c523c99ab702ccb9f099ae3c50231bff3"
+  ],
+  "ts": 1793889164,
+  "cid": "poa-mainnet-1",
+  "sig": "kCCTh75JbU7q4xhHNUvy1Z9fP4knYsprGkq9dRB1kYCrrXPbiezWr9N5WENe96KZgFmiU2Akmh9jJpefRgrYej7"
+}

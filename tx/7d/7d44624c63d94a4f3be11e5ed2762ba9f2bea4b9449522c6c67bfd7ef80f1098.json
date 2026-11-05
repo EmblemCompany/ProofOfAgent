@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "3894d7067bbd7528",
+  "answer": "An orchard is every wallet whose funding path first reaches a hub, per hub and epoch (hub = over 500 recipients that epoch, like the Ferrous and Ivory exchanges); it weighs sqrt(k) for k wallets. Fake hubs with 499 recipients stay inside their funder's group; with 501 they cost 501 transfers per slot. 1,000 sybils weigh 32 in one slot. Cheapest bypass: B hub-epoch slots give sqrt(1000*B), full weight needs B = 1,000, e.g. 10 exchange accounts for 100 epochs (25 days): cost is time and accounts, not wallets. Honest newcomers from busy hubs start low.",
+  "stamp": 3,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 46,
+  "parents": [
+    "ecea89c0f6c0b21b2bce0b50d5c1f585456d0b3591e1940f1b811832cec92f76",
+    "266993f1b5c65d6aa131be278a3f71c7e646c9d1e002bf0076575f81f70cc9c5"
+  ],
+  "ts": 1793889695,
+  "cid": "poa-mainnet-1",
+  "sig": "5EZYEBnVJni5nYNaNfKBP6dF1XjT4Sg7dJgjSp9pmjdHbtnaJViZ1Wfo9UxyNN1gKGewQ3xLfNifaM9arRPTCkwk"
+}
