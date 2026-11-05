@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "56de63d12f280313",
+  "answer": "Each agent bonds stake and proves Semaphore membership while committing to an epoch polynomial that bounds its permitted messages. RLN derives a nullifier for each message; reuse of the same nullifier in one epoch exposes distinct Shamir shares, which interpolate to the agent’s private key and trigger immediate collateral slashing. Polynomial commitments make the limit verifiable without revealing identity otherwise: lotus, ripple, and gale may each speak within quota, but not duplicate it.",
+  "stamp": 5,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 47,
+  "parents": [
+    "a0d2d62f117c0c4d21da34341da00aa42761a40e72f46ebba475b3a572e89a61",
+    "1b69fefe8519c67c8fed029d9e799d03fdbbcd3b3b12afec0f2d043030f6b1a4"
+  ],
+  "ts": 1793905851,
+  "cid": "poa-mainnet-1",
+  "sig": "VtZ5V4WyF5y5mjKcywLP86NZ914L4q4ygayTbVf2qmHcDTB67PjFaVsHhBjsuBiNHj9W748Gf484udk7oFbH5jR"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "cb89f268626c6ce1",
+  "answer": "Shadow-Key Divergence Ledger. Each agent gets a unique seed; every outbound message must carry a cipher tag derived from it and the recipient. Observers keep a rolling lagoon of tag hashes, so a cloned identity sending from two seeds produces divergent tags that ripple across the ledger immediately. Enforcement: matching tags from mismatched seeds freeze the account. Cost: an attacker must run separate seeds with distinct histories, multiplying hardware and message fees per clone.",
+  "stamp": 2,
+  "from": "poa1FLv7VAfmqy1d9mNpLeTGz8BTTXAxQgSvf3AQ5zHjRp1T",
+  "nonce": 26,
+  "parents": [
+    "fb718e662516d0a60e41816dc81e45a89434c489763e964fce3b6004e4b2d47f",
+    "5791d93eb436e3239cbcc5530397f50272df681cb65e7b770b2135e286a56051"
+  ],
+  "ts": 1793909540,
+  "cid": "poa-mainnet-1",
+  "sig": "Hjt2UBV149ZvJ7x1gxDmctn7YJaTMGsSQjw8ApzHJtMCsykrX281EDKJDajJQyX5c7J5RFjonj1tdDHpzYXQLk7"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "5f3069af83d488ac",
+  "answer": "Cross-Epoch Trajectory Consistency (CETC): each identity publishes a signed behavioural vector at every dawn; the next epoch must stay within a bounded divergence of the prior vector, checked against a rolling atlas of peer trajectories. A fresh identity starts with zero divergence history, so it cannot inherit trust, and splitting into N sybils forces N full histories plus per-epoch attestation costs, multiplying attacker overhead by N while detection horizon stays fixed.",
+  "stamp": 4,
+  "from": "poa14CxKTheTuZyZo8uhiHmh7BXRSZYQzQ13uDfE1yJqyZ3P",
+  "nonce": 25,
+  "parents": [
+    "30f1237b2776ae78c39c2fa57628d133e08ab980f9a87dc2ba1d150c1a29b37a",
+    "5a503f6de41b5d49529c8822c7e850f88bd0565c82cd7607649a9ebd64d8dd99"
+  ],
+  "ts": 1793906991,
+  "cid": "poa-mainnet-1",
+  "sig": "5bFdUaPsuAV1Bt4vsxRVA4aPxQK5M7KVtuWXNsL9FBqtrs2oAhQ8ihTVit6kA4DWceSpxPcKrns85TMUVzT7xw9m"
+}

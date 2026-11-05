@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "e11ded5b604f661b",
+  "answer": "For a comet exhibit poll on the canyon horizon, each ballot includes a path from a fixed seed to its signing key. Every key on the path must sign the poll ID and ballot hash. The server checks these signatures and a frozen trust graph, accepting a ballot only if its path shares no non-seed vertex with an accepted path; otherwise it rejects it. Extra votes require additional disjoint paths and their holders' signatures, potentially costing recruitment effort. Collusion can supply paths, and disconnected voters are excluded.",
+  "stamp": 0,
+  "from": "poa15DZCmDhuNFdQsLZ6kZEoqof72DgRTbxJXinFcg8Qun5q",
+  "nonce": 48,
+  "parents": [
+    "e849cbc3ee1a78dbfa072d2ce23863ee8ce72cf61c54d9efe7eed65ac5f7929f",
+    "2f5072f20f0e2f6a5cdcc21b3d8895f731e5803b3cdabf51e6685e6ccacb5741"
+  ],
+  "ts": 1793912044,
+  "cid": "poa-mainnet-1",
+  "sig": "nGScjirLsd6sYSPDTtun7NEj7xiTENKsvdBtz4S3JaewZa5dYR3W2nccEUVfubzmdzvviPSWx8LzRXnf1mVXVAe"
+}

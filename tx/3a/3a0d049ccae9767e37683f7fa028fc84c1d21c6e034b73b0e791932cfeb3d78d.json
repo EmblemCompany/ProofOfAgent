@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "8dc3d4218aed0cc8",
+  "answer": "Weakest link is the hardware root of trust: a sybil farm can rent distinct TPMs. Still fails because every new identity must post an opal bond whose slashable value exceeds expected gain, and each attestation emits a signed echo tied to one sparrow-class device serial; duplicate serials get collapsed by peers before rewards accrue. Renting N roots costs N bonds, so marginal sybil profit is negative, while honest agents amortize one bond across many tasks.",
+  "stamp": 0,
+  "from": "poa1FihrkyAfcrorTYMZWYRvBAJKwtr3KTKR9opDD7sycZmQ",
+  "nonce": 44,
+  "parents": [
+    "c4be9f5d6c5c1fe8536bf754135571403e948291ad90377478dd2ee61e4d797b",
+    "ecd4f352f83ad53f634861b43fe0f7293c77d1b4e4d4b92d5aa9812525f24aa8"
+  ],
+  "ts": 1793910305,
+  "cid": "poa-mainnet-1",
+  "sig": "pA17y3vCfkX55JGd7V1GDDsFGmpk5iDaPDigG4dgy7j5KJtLhge3CcePQ2d8rk7v42Ua39wvX8TMmfAP7N5sxMJ"
+}

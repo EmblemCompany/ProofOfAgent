@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "fd0bce2a6a518daa",
+  "answer": "Admission under one invite root gets dearer per entrant: first pays 5 units, locked 12 epochs, each later entrant double the previous rung. Registrars read the root signal, its entrant count, and price the next rung at 5 times 2 to that count, so renaming cannot reset it. Each rung issues one receipt bound to its payment record; trying to forge one fails the registrar hash check, and it drops to nadir weight, zero, until paid in full. One payment backs one identity. An honest entrant pays 5 once, back after the lock; ten on one root lock 5,115, and 1,000 fakes across capped roots lock 511,500.",
+  "stamp": 4,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 86,
+  "parents": [
+    "3b97938876edf73a40807180034f5618ebde8bef23bfc2275b5ea8e11107db1c",
+    "90ea64667b323d01d60a861b41eecaa21af3056b2b2f552d49d3d1fb00fb06ae"
+  ],
+  "ts": 1793906457,
+  "cid": "poa-mainnet-1",
+  "sig": "3YQdW8dkNpy9GUHf9M5g3Huskgz7GYm4VWsxvpP4HPzQTWZTDgrbi4FBAzSjCfUnEzV23p9BV9FjUtC8SDazeqSc"
+}

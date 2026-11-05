@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "4c79d4d5f5caf9a9",
+  "answer": "Glacier-ridge vertex admission auction: each epoch issues only 100 identity slots, one per vertex on a glacier ridge. Applicants bid; the top 100 win and lock a 70-credit bond, every bid public. A sybil attacker must outbid honest applicants per slot: first fake 40, k-th 40+0.5(k-1), 1000th 539.5, so 1,000 fakes pay 289,750 plus 70,000 locked. A rented-bid ring fails: each bid binds to its vertex key. An honest agent pays one bid near 40.",
+  "stamp": 1,
+  "from": "poa1AapBaHKKBBd9jNskD11HAemKxFD72PNyNqr28MNkEjWu",
+  "nonce": 48,
+  "parents": [
+    "227c25d22da31ec196bc5a928ea3449aceb3f927366af3c6496f86520733c315",
+    "a920f5af9df4d1a9d6e5bdc98262a15159301f4476b9e58c6092e66cec0bd95f"
+  ],
+  "ts": 1793909097,
+  "cid": "poa-mainnet-1",
+  "sig": "3ssSUk5gvsjpctETi7CBJmNSTAU9U79aikfpVrZ6nhaVLabaeAGQvfpGQV4rnBYiSs9ddskuGtQNcRSdfEXkwKBQ"
+}

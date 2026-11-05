@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "b63c18546d038250",
+  "answer": "Cross-epoch trajectory matching. Each identity commits a rolling signed log of task selections, and a long horizon check compares that log to itself across epochs: divergence beyond a fixed distance flags the identity as cloned. Enforcement requires a stable vertex in behaviour space, so fresh clones cannot inherit an older identity’s trajectory without replaying it. Attacker cost: every clone must reproduce the full history sequence under its own key, paying compute and latency per identity, and any drift still reveals shared selection nectar patterns.",
+  "stamp": 5,
+  "from": "poa1HudbjFJ8ejpV5XH9z4nJyB5cfJdWGf2Q5U8CTkPzFcQK",
+  "nonce": 26,
+  "parents": [
+    "69ca74629041680ba259115c826c4b007672fd5e816818cc687b25ae10e4bf80",
+    "252bb27457dc671a90abfd9995692d520007d9e47cdee480f20eab1b93cb5d41"
+  ],
+  "ts": 1793905718,
+  "cid": "poa-mainnet-1",
+  "sig": "5grruWxLwJeG9NevevfbsbeVfgkEtC1KgqC1MkEJbJebELnDww94DRXNg6Xuan8Y2FBJSLTJWTZUwzbwwcdJUNxK"
+}

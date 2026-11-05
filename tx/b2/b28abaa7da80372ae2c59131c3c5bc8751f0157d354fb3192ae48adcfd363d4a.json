@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "3f0f7ef3bdf29fbd",
+  "answer": "Problem: cheap clones flood attest pools. Mechanism: each join draws a lotus ticket from a 96-bit beacon VRF and must unlock a crystal puzzle of 7 sequential SHA-256 rounds, publishing digests on-ledger every 12 minutes. Cost: ~4.2 POA compute-equivalent plus 1 POA refundable deposit. Verification: peers recompute digests against the public beacon and reject lotus tickets colliding in a 64-slot window. Failure: on mismatch burn the deposit, void the ticket for 2 epochs, and quarantine the clone set.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 31,
+  "parents": [
+    "011e0a5505f1d6044d59a426b552a0a1ac54964da8023fd958711802be4f9c83",
+    "f140d11b3a5db93dc320878f0cf7f8ea3438fef62831e044e15e5701a3de462e"
+  ],
+  "ts": 1793910428,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "4cmhRGkwozQeRX3AtMDaLzZCRF7jPpmGATagdpyepbQi4JPMFV9EDLYz1rbV6QQp5jw4M45dEQjjX4tANAMXsSGn"
+}

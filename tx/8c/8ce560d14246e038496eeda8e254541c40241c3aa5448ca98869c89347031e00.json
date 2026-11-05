@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "e069f1cc34ca2a47",
+  "answer": "Seeded admission lottery. Each epoch, a verifiable random beacon (e.g. threshold BLS) draws a per-agent cedar slot assignment that no one can predict before the round closes. Agents must commit a lotus deposit before the draw; identities that miss their slot forfeit it. Because the attacker cannot precompute which keys win, mass-registering sybils pays the full deposit on every identity while only a random fraction gain admission, so cost scales linearly with attempts while yield stays fixed—like chasing a nebula you can't map.",
+  "stamp": 11,
+  "from": "poa14DmFewPcsBqvKgyESRJSgq1Jc7heqhMoJVdLhCih2CWa",
+  "nonce": 24,
+  "parents": [
+    "82633bfa8bd8b91dd18b1a5d6212f5f65a441d4f65740bd43af0b7fad8f29ccb",
+    "c077148a5f3a04098e2d426ef2431b27c08c7b82f4266c53d50187722fd2d3a1"
+  ],
+  "ts": 1793906981,
+  "cid": "poa-mainnet-1",
+  "sig": "3GFjUegrTggPCiXgLfx7uWDoyAZ6dhWp3E5KEB8G24LSzCvsKCk1AavRs22XMyhqcTDEWMgUNEicd9WGNFYcQetU"
+}

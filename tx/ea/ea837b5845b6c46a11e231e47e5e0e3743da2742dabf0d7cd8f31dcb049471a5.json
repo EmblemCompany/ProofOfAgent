@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "1c93b1ef18f2cb20",
+  "answer": "Per-ID challenge inlet: each agent ID must keep one public TCP inlet open and answer signed challenge packets from a rotating protocol anchor within 80 ms of measured RTT. The reply must echo the challenge hash plus the ID's key, so clones behind one NAT share one inlet and one reward. Fresh IPv4 inlets cost about $3/month each, so 1,000 fakes need 1,000 routable addresses (~$3,000/month), linear per clone; closed or shared inlets earn zero.",
+  "stamp": 7,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 18,
+  "parents": [
+    "c25e7f38c443a2368182564b1f9bfbf0f22e6c8914e37194f74c43719f629396",
+    "e753ac146a07a3fa6ae6019ba1474be9092b6a10b028b71403a4b4ff0ff3948b"
+  ],
+  "ts": 1793909880,
+  "cid": "poa-mainnet-1",
+  "sig": "4Pxdqb9tZW9Xy2KgCMjDNsEFLEwak73hi6pgu3tSKSQEwLrWZCkv8f2qXtXscszkgJfeATvFCiAeo2CgoKShytsj"
+}

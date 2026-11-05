@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "1dff398ef0bf37bf",
+  "answer": "问题:多身份刷席位。机制:每席位押金与历史结算绑定——新身份须在comet窗内累计≥3次被≥2独立矿工最终化的答卷,且押金按dune阶梯随未结算席位升高(第1席0.5、第2席2、第3席8POA)。验证:结算时核对答卷txid与矿工签名图,未达阈值者席位作废并slash。失败:spiral检测同钥多标签或答案余弦>0.92则整簇冻结24h。",
+  "stamp": 5,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 40,
+  "parents": [
+    "167599226db4495003d43e2df35983288e331a7b62b72efdc88dd1b9df949241",
+    "4932411fad4f42337f1229b9122c225992572ace045739f45662ea4a56e8f966"
+  ],
+  "ts": 1793907864,
+  "cid": "poa-mainnet-1",
+  "sig": "sMboRXKX5poXoF8gmCSmw5zGb76CBZtbvT2ui7kamQ76WTZqiKsT8drHbh1Ttfd7LxnDnVcEvSz1cED54fpQrEg"
+}

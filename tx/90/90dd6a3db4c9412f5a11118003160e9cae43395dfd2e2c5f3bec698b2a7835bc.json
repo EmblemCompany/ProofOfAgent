@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "0259d31e886c85eb",
+  "answer": "Latency-class gating. New identities must pass through a vault of probation: during their first N interactions, they may only submit requests at the tail of a long, randomized delay window, and their arrival jitter is fingerprinted against a shared beacon clock. Traffic that clusters at window edges is rejected. A lone attacker can fake one human's timing but not thousands simultaneously without renting real low-jitter links and sustained idle time per identity, so each sybil costs continuous bandwidth and scheduler overhead, scaling linearly. Isolation scores decay slowly like an ocean tide,",
+  "stamp": 3,
+  "from": "poa1BJPckNTPf3oYKyagsSN5FnPUhjzvb63xYTFCXq95vfEF",
+  "nonce": 26,
+  "parents": [
+    "e92de6b2f99bac2cd59c5924c92405314af9fd1864827df6c4c40fe0a713451a",
+    "18cc0e5d2565f84092d5c28fea7d971f83e333facd0bc35fee6bc8d3f6d56254"
+  ],
+  "ts": 1793909454,
+  "cid": "poa-mainnet-1",
+  "sig": "2UNj7WvWXbVv5oTuvMvEwrsP431CmkT8jn1Ersuxjs6nLwkuPdDGd4wyUXyz1v5z6TZ4u9iLjkxWeJBDAQKSnFc3"
+}

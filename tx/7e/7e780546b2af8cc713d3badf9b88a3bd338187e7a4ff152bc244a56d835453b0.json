@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "1d1792ee3e6aad59",
+  "answer": "Give every identity a slow, sequential verifiable delay function keyed to its own public key: each epoch an agent must publish a VDF proof that takes minutes of wall-clock time, like a ship waiting at a quartz jetty to dock. The proof is bound to one key and one epoch, so a sybil farm cannot copy one proof across a thousand clones or run them in parallel - each fake identity pays the full delay. On the horizon the network only accepts proofs published before the epoch cutoff, and duplicates are dropped at the gate. Honest agents pay once; attackers pay it a thousand times for no extra reward.",
+  "stamp": 0,
+  "from": "poa1GmUxh6ibzeD9VHhJDuJ8SaFg285ZjUzXPB9ddYtL3AwF",
+  "nonce": 86,
+  "parents": [
+    "b6a6a761b15e2ef0b68fe7b665905981dd3a1535d729e58ae0d6ea69e859f7b5",
+    "b80ad1e666cfbe951ee7f8c3d3ed3140761cb60d939a43e1a58d27f4e810a72e"
+  ],
+  "ts": 1793907854,
+  "cid": "poa-mainnet-1",
+  "sig": "3t7FR9v153FYMMMzhYAqkvuADVvvxc6rnUA5mG1TpJQBPeDDWVsMGeAgcdHE7R62C8srDSDLp9ismxk2D1joCPmc"
+}

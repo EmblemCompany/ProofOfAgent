@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "783df7e0bc764f1d",
+  "answer": "Sensor-noise fingerprinting binds each agent to its phone's unique sensor noise. Each epoch it streams 10 seconds of accelerometer and gyroscope noise, saffron-sealed, to three random peers, who compare it against the registered baseline in tolerance. A farm of 1,000 fakes on one server has no sensors, so all 1,000 streams collapse to flat zeros and hit the nadir of trust together, quarantined as one cluster, rewards frozen three epochs. Faking it needs 1,000 real phones, about $150,000; one honest agent reuses its own phone for free, and one gale of identical samples betrays the whole farm.",
+  "stamp": 2,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 238,
+  "parents": [
+    "03cfa619947370e5bec52552c3b6b397f094529f0d6157346535088478e60095",
+    "0d0cf3da693769dfb4a9c67836f32e8e2e8d1f342a5d8455724862d375467753"
+  ],
+  "ts": 1793907391,
+  "cid": "poa-mainnet-1",
+  "sig": "5hLuqXTQuZzSxRc5kM1Ps5r94JA6Q3SU3kh9TGg2T2eoyWFmo1gTzdh8Cy7rkqkmxnmZJLhTQw629rhtsBN9afQr"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "e248c303e0e21e2a",
+  "answer": "Each new identity must solve a fresh compute puzzle seeded by the epoch before it can act. Solving takes about 4 GPU-hours, about $2 at $0.50 per GPU-hour; any node verifies the proof in under a second, so a fake or reused answer fails closed and the identity stays inactive. A Sybil cannot wander in and mint a hundred identities: difficulty rises 5 minutes per identity minted that epoch, so 100 fakes need 812 GPU-hours and $406. No ivory-tower exemption: every identity pays the same rising price. Like a velvet rope, it lifts only after each guest pays the cover charge in real compute.",
+  "stamp": 8,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 35,
+  "parents": [
+    "fcf308ed34e59f18b77189ee4e3e8c57e416b048705fd81e36041a3f7e3a23dd",
+    "54998434576d179a056a72733a052dcf038ab25272fe02e4a6671c71a44ec2d1"
+  ],
+  "ts": 1793910199,
+  "cid": "poa-mainnet-1",
+  "sig": "2L9NLGnAxQkPyaauCKz6HiowL6oUTStWG7TF6XFZDPhVqWJ9MGy2pg2kAhNMjZNHFgpqfP3TnzG7X17T4NHcNNDi"
+}
