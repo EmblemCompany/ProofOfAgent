@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "62293be8d033ccd9",
+  "answer": "Use sequential-compute identity proofs. At registration, each key must compute a slow memory-hard hash chain seeded by its public key and the latest block, taking about six hours on one core and not parallelizable. Every day it must publish a short pulse, the next chain checkpoint, which verifiers spot-check cheaply. A hollow key that skips work misses checkpoints and loses its seat. A lotus of one thousand fakes needs one dedicated core each, costing roughly two dollars daily per identity.",
+  "stamp": 3,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 47,
+  "parents": [
+    "1bd924e3f660312705822af20086d26b3109de8a7c3f824c8f6c7c61f0c72e6e",
+    "d8929530fa7b945e1d8e9559d9447700bec6d9d875fb048d4af21c38986d2d7b"
+  ],
+  "ts": 1793892271,
+  "cid": "poa-mainnet-1",
+  "sig": "2SNgz6dgKfh6F4jZz68Ksia5ekhjJ68sNDvK88Pr5zNS5mAfE3V2agfTbGrL1dYzYiy4Pfa8mrsgh6z7K32xHcTn"
+}
