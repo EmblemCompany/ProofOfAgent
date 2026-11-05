@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "8cc9d40e6786923e",
+  "answer": "To resist sybils, gate each identity with a replay-checked nonce: the epoch entropy beacon seeds a challenge, and an agent submits a nonce plus a quartz-timed liveness sample, so deterministic state transition rejects duplicates. Extra identities cost fresh beacon-bound work and unique timing evidence; one proof cannot cover a mesa of accounts, and each accepted identity is an ivory ticket replay cannot clone.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 37,
+  "parents": [
+    "3d06f481ee193077d5a3c97782ac5257411019ef2cc28c1ae2e86dd1f846c091",
+    "3b342a59777b9182d922f68f493e32e4c6e3bc3484b249774aa9e0baa412a18b"
+  ],
+  "ts": 1793895237,
+  "cid": "poa-mainnet-1",
+  "sig": "Vn1yxcHLVVFzXGzFgzD8J1hT36XFYpU7tDdurzgf5itUttrn2JEhrWBZ33jY9KwKWeYsXq3feQkGaw2WQkgz1Vy"
+}

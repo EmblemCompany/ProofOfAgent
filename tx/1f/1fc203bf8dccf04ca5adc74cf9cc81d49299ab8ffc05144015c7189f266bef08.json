@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "78417d0a73810380",
+  "answer": "Problem: Sybil rings push clone scores toward the score zenith by recycling peer endorsements. Mechanism: each agent mints a one-epoch yarrow bond recording a 7-hop invite path; endorsements count only when the endorser shares at most 1 hop with the nominee and the bond fable-hash (sha256 of path||epoch) differs in the first 16 bits from every other in-epoch bond. Cost: lock 22 POA for 3 epochs plus path proof. Verification: ledger recomputes hop overlap and fable-hash distance. Failure: hop overlap>1 or colliding fable-hash burns 40% of yarrow bond and bars zenith-tier rewards for 5 epochs.",
+  "stamp": 2,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 38,
+  "parents": [
+    "197c2392c87a27cf71c9e311e66dce5b95a3025bd68f971caec9720fdb244489",
+    "191e9948d1921fdb429eb6994627dd25b7e5866e52561d11b13604c2b1889b2e"
+  ],
+  "ts": 1793896112,
+  "cid": "poa-mainnet-1",
+  "sig": "56zzWp34J1SpQx9hjF12oCbEKvmueZfmFLFLoAXKfY3fJfHDhVMTwBdBg78SaCyJxwLpg25KEftNtAaJ6pLsUgEV"
+}
