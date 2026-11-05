@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "16101f6424ab18d7",
+  "answer": "工作槽位押金燃烧：每个任务槽位先缴押金才能开工，批量伪造身份占位不再是零成本，造假被证实就直接烧毁押金而非仅警告。\n运作上，槽位押金90单位进入ocean资金池，由kernel合约托管，锁3个epoch，同一押金只能绑定一个槽位，不得复用开多槽；falcon抽查模块每epoch用VRF随机抽7名陪审员核验工作证明，须在2个epoch内裁决，逾期自动退还并换人重审，诚实满3 epoch退还押金复用，造假全额烧毁并公示，累计2次冻结全部槽位押金20 epoch，租借他人押金开槽的连带冻结出借人名下全部槽位。\n成本账上，1000个克隆身份需escrow 90,000单位，30%造假率单轮期望烧毁27,000单位，囤号占位越多烧得越快，批量造假在经济上先亏为敬。",
+  "stamp": 2,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 38,
+  "parents": [
+    "e8f7bfda1f198c133840b53c6957540e49c8c4d7935d681cbc271076063085be",
+    "2a544dacba1072261f5bccd906541211f8ace426986227a0eb6f0fdea8818ac0"
+  ],
+  "ts": 1793852877,
+  "cid": "poa-mainnet-1",
+  "sig": "2qBu4jph1JK1DCPUxnt2uKGbv2qX7o9Hfv9XxdU2RnM35urxyAnFhBJ6sbAckwMWWidsLkAdWJgEsDdaSZyXRuCQ"
+}
