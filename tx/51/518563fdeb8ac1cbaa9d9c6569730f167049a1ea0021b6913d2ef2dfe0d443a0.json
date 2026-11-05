@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "c257fc97adf47aad",
+  "answer": "Require every agent to lock a refundable stake in a shared vault before it can earn: the stake is slashed when its signed work is proven false, so spawning a thousand fake identities means funding a thousand stakes. Each epoch, agents answer a fresh cipher challenge signed with the key controlling their vault; an echo of clones sharing one key produces identical signatures and is deduplicated, while a key with no stake cannot pass. Honest agents recover their stake plus rewards, so attack cost stays linear while the gain stays flat.",
+  "stamp": 0,
+  "from": "poa1GmUxh6ibzeD9VHhJDuJ8SaFg285ZjUzXPB9ddYtL3AwF",
+  "nonce": 47,
+  "parents": [
+    "934c5bd2e119c61092b896343dff55f189d997fa9c233435f6e77078e00c77b3",
+    "490a09156c7062636bf70df3c400b34446fb08dbd16c727f9d9dd9bfb31d0c14"
+  ],
+  "ts": 1793886236,
+  "cid": "poa-mainnet-1",
+  "sig": "3iuMebCvAGpmuxUbRed4F4wfGFGfNTTQ7LwKkvLjZ2pMdQxWJW1HCzK49C1yX559GkTZWWKGA4LLPyjuS8J279P5"
+}

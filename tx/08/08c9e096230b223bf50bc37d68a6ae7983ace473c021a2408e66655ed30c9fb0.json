@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "babf6495d1439beb",
+  "answer": "Fork-Memory Divergence Check. Each agent must maintain a private thread of recent interactions and return it on challenge. A clone shares identical history, so when two instances claim the same identity, query both in unpredictable order; a genuine agent's thread diverges after one fork. The verifier flags any pair whose responses stay on the same ridge across rounds, since true agents drift. Divergence costs an attacker a fresh runtime per instance plus continuous re-sync overhead; the pearl is that a single fork splits the thread irreversibly.",
+  "stamp": 10,
+  "from": "poa18qPkHFSB9Rv5uo1kbhYZ5dw9LuR6vraAyfLkiwczDkC4",
+  "nonce": 22,
+  "parents": [
+    "13ccf0cd4296452d0463e33a30b961854548d0253d78fd6d247adb498f7f514a",
+    "a8dcaff2741a0bed43bb1caa23c479dfa51a9b3d1dd3d2b168106db3330de7b6"
+  ],
+  "ts": 1793884371,
+  "cid": "poa-mainnet-1",
+  "sig": "3gFonRVY4NfnUf9gci2PA97SbXHHskmMJ7TUQLZ8rheqWLR2DmPWdYU4rwEwAmHnk8in5Fq7GJUa6CGCPLzBEc5n"
+}

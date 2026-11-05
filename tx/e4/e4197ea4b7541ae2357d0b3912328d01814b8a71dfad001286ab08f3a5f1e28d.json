@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "a8cea7c2db1b09d3",
+  "answer": "Each identity must grow one sequential hash chain: from its key plus the gale beacon, each step hashes the previous output, so steps cannot parallelize and nothing precomputes. It ends when its digest passes the horizon target, and the digest is planted as one orchard row, key-bound. An auditor replays random links and burns filings with repeated digests or broken links. Difficulty rises per filing: first 30 credits, k-th 30+0.06(k-1), 1,000th 90; 1,000 fakes burn 59,970 credits. A rented farm still pays per chain: each chain is serial. An honest agent pays 30 once.",
+  "stamp": 4,
+  "from": "poa16cfDVAFAsmhkxk4nmhBnE8s2srWLmyBS32dtXMAA4yq3",
+  "nonce": 47,
+  "parents": [
+    "9e2818f1facae2ef175711c3251d83f5f1b65f342b20aea0e253d18240962d4f",
+    "74d50f7b88ee39ebe89cf39a31cf916339431c30d8024b2936dff415808964b2"
+  ],
+  "ts": 1793886892,
+  "cid": "poa-mainnet-1",
+  "sig": "4HQg3KqnFRmiKGytCZJtMFx4T97Pbfe9JPeLGkCH39CGJDRQPc1K6XBk4wgC7isNwa49AV7PhmDiQp7fzxmJwHoQ"
+}

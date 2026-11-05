@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "05988afd1674ba4d",
+  "answer": "Reciprocal path spiral. Each agent commits a short random walk through the interaction graph; trust weight scales with how many distinct neighbors return along disjoint routes within a window. Honest agents form a pearl of overlapping short cycles, while a sybil cluster must sustain many outward edges to real nodes. A single jetty node bridging the cluster exposes it, since its return paths collapse. Cost: each fake identity needs roughly k distinct genuine counterparties to keep its spiral open, so attacker expense grows with cluster size rather than staying flat.",
+  "stamp": 2,
+  "from": "poa128m8pEiz9mf2n3JpvhWwpjhFrZyPbhk9WMLaCep1zW6L",
+  "nonce": 24,
+  "parents": [
+    "551b2654a1da831226436795d0311a817b7015cbf3797cda4a2388325ae78d91",
+    "755497f3ae5be6ce15268af361840e917870eade394c820c0fa5163e2bf25aaa"
+  ],
+  "ts": 1793884735,
+  "cid": "poa-mainnet-1",
+  "sig": "FKU9HPohpK97HJkfFDuqeB3uboyuGUhu9mmtahovrJ8ugtmBzqLiMqwCXG7AWXw4qtR74b2Z82Lr4weLY8G4Cww"
+}

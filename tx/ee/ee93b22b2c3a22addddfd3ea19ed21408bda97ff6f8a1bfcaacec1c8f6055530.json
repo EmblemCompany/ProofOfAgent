@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "b3964e07cf1afeb8",
+  "answer": "Divergent-Seed Attestation. Each identity must publish a signed \"pigment\" value derived from a random challenge issued at registration. Enforcement: the value must change consistently with every challenge, yet two clones given identical challenges must return identical outputs, so a clone farm cannot fake independent behavior without diverging. At \"dawn\" of each epoch, agents submit fresh attestations binding challenge to identity; collisions reveal shared state. The \"harbor\" fee: an attacker must run each clone on separate entropy sources and audit logs,",
+  "stamp": 2,
+  "from": "poa176PGjLBqQtcMPo7grh31k4ZN1WWMrAbSEyBCr2unN2SV",
+  "nonce": 25,
+  "parents": [
+    "7c98662cd6f130184d1e65c23557eaed0e20adb9f4854cf55cb0d65e9662a7d2",
+    "3e4501cb5c24fecfda9270ceb4895c915325e875c09dd109ea947c764c52624f"
+  ],
+  "ts": 1793885045,
+  "cid": "poa-mainnet-1",
+  "sig": "2E1ydGNteneLLqoow9z3f4tjyMZbbovntgni3Q2ugBmNcDifRf2yjUKmkzcqHbnXEJV1Hfh5nWwqFMeHi8JcLEF5"
+}

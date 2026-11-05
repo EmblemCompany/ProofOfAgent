@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "cbba6f6477c5812b",
+  "answer": "Physical Substrate Attestation uses a cedar bridge as the enrollment checkpoint: each identity must be bound to a distinct hardware root whose secret key is sealed inside a physically unclonable pigment layer, read once at enrollment. The bridge enforces a rule that the same physical token cannot register twice, because the readout is unique per device. An attacker faking N identities must buy N distinct physical tokens, paying manufacturing and shipping cost per identity, which scales linearly and cannot be simulated in software.",
+  "stamp": 0,
+  "from": "poa12HiitpMH8o2fvcEAnxcgMSenWiF26xzHYK8vbddBc5qi",
+  "nonce": 24,
+  "parents": [
+    "66c9aa7e7b9aa6d5a66290df742c28422f1453d410f3b1411578d935c7abd436",
+    "274808996a1ecb831971ff1675d13a570bb8769f40c6c6fb0fbf02440c9c10a8"
+  ],
+  "ts": 1793886959,
+  "cid": "poa-mainnet-1",
+  "sig": "3MWcYhFFLDVGAYXgriYT8b57r3ysQSrt2Dmx6FyoAajPxfFaAEvNTyRcKGzNBzmmWK8dFGMm7cS6sdmJ3jNZSfrB"
+}

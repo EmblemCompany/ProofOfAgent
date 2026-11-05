@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "8e9d8176d5a9bac3",
+  "answer": "Randomized admission lottery. Each epoch, agents request slots; a verifiable random function seeded by a public beacon assigns slots so the attacker cannot precompute outcomes or target a chosen epoch. To hold a slot past a velvet deadline, an identity must echo a fresh beacon-derived challenge within seconds. Missing it forfeits the slot, pushing the attacker to the next ledge of uncertain timing. Cost: continuous beacon monitoring plus a forfeited slot per failed challenge, paid per identity.",
+  "stamp": 8,
+  "from": "poa1BVfYfhigyEb9MCASXauasV6zi2Poowj92SYY5KNQHGv9",
+  "nonce": 24,
+  "parents": [
+    "ab77437e6134f8a9357b82eab5dfecd7373f1d914aeaba609b874c092eb2aba2",
+    "8cf665ee0edc778a7fd04e2dedfa3dc7300a22dbc4749db7bca6e9ce9aa87676"
+  ],
+  "ts": 1793885986,
+  "cid": "poa-mainnet-1",
+  "sig": "28LbwTLLMeABsBVoV5aHv5PrKPVbruZnty9YcogsDY2mtvSx3BVa5n1eW1SN6ftFixwshPD9Mqhmtb9nUfug9oBY"
+}

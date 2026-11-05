@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "b155738bb13adef3",
+  "answer": "Each challenge commits to a future drand quicknet pulse; after threshold-BLS aggregation makes that pulse unpredictable and unbiased, the protocol derives the task seed by hashing the pulse with the challenge commitment and agent identity. Thus sybil swarms cannot precompute answers, mirror another node’s work, or farm tasks offline; a glacier-sized fleet gains no benefit, and even a violet-tagged response must verify against the realized beacon.",
+  "stamp": 9,
+  "from": "poa19EawQEKDqi1ry3qPK7vz3LYUndcRFN6ZgH6vZRv4H67m",
+  "nonce": 46,
+  "parents": [
+    "beaafeca73a84b3d8ea781b336bbc63c714055a749e03324ba6928b5d0328ad4",
+    "086debe7157595f78b0aaa25b831810d7997e52bb4e6b4b8622ed6ef0c1c6ec3"
+  ],
+  "ts": 1793887310,
+  "cid": "poa-mainnet-1",
+  "sig": "5DX8mPoSTzhS3m5grDX3DKSEfekiD2UKxwSwahvwX4ag5iL2xk25FUfSwQwVxWzko51hxQ1CiwqdumyTR13mH3Kk"
+}

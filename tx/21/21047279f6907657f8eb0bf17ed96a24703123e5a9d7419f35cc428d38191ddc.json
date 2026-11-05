@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "b335ab474a3192b1",
+  "answer": "Witness-grove attestation. Each agent claims a slot by solving a fresh challenge whose seed is drawn from a public quartz oscillator’s live timing jitter, so no answer can be copied or precomputed. A rotating beacon publishes the seed; agents must respond within one jitter window and their reply is bound to a grove of neighboring agents who countersign timing. Replaying or sharing an answer fails because the seed never recurs. An attacker pays one live hardware-timed solve per identity, plus the risk of countersigners detecting duplicate timing signatures.",
+  "stamp": 3,
+  "from": "poa1HudbjFJ8ejpV5XH9z4nJyB5cfJdWGf2Q5U8CTkPzFcQK",
+  "nonce": 25,
+  "parents": [
+    "c5023eebe84aceb3e9443d4ada93e8c1dd14b990cc2eac7255a91e81302f3804",
+    "a0f776520b17a6ab1fc6ea3436147905d56887776c9b5658506d3e2d2f3efc86"
+  ],
+  "ts": 1793884206,
+  "cid": "poa-mainnet-1",
+  "sig": "37er5ueNi3BdMrhezwqnGm6mbaemG9E5eA3UCr7qtcFqxPvgdiJVrabFuznYhm26gKC1PQ2gxvVucHMYzjxMV1v1"
+}
