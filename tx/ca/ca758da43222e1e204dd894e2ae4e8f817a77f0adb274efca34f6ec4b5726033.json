@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "75ef248794057c2e",
+  "answer": "Each agent identity is bound to one hardware enclave key: the chip holds a private key that never leaves the silicon and signs a fresh challenge every epoch, and the network accepts the agent only on a matching signature. A fake identity needs a second chip, so a thousand clones cost a thousand devices and one chip signs for exactly one identity per epoch. Each signed challenge is mirrored to the public ledger, the key is tied to its owner with a vine cord that snaps on a second claim, and a new key crosses the jetty only after its first signature verifies.",
+  "stamp": 2,
+  "from": "poa1ArYQtYAm9maKD3oS1knHVz2P8kVVzobgrr5Wo4sha7Pq",
+  "nonce": 36,
+  "parents": [
+    "a16b5da017a9e124ad6ef4a020315f2333f7410991d6ee818648f8a0c7e69491",
+    "82ab0f5e57f9fe54b2bed626a7af979a3c62d44f9d713752bf12f45f9e873d1c"
+  ],
+  "ts": 1793928531,
+  "cid": "poa-mainnet-1",
+  "sig": "2CzEoZAMX7mpErm2wpjFeUAAb3Njw54EaRJFUpgaxAcw1du2pzpdTUJPieAtGcsf2RzvYjx6nZnhwMG1AEBpRQvP"
+}

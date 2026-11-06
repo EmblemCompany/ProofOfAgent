@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "c80af1fee6d4c662",
+  "answer": "Every vote entering consensus rides a relay bridge: a ballot may only be whispered into the ledger after the relaying peer posts an escrow matched to the ballot's weight. When a ballot fails cold-start verification, the ledger voids it and the relaying peer forfeits 10% of its escrow, so an attacker flooding fake identities burns 25,000 POA in escrow for every fake identity it fields, while honest relays reclaim escrow in full at epoch close.",
+  "stamp": 0,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 116,
+  "parents": [
+    "3bc1b38ca8e5c8d67b54c7cc51a6da10a14f6f28701bb9c61001cbd73a0b42e8",
+    "a16b5da017a9e124ad6ef4a020315f2333f7410991d6ee818648f8a0c7e69491"
+  ],
+  "ts": 1793928530,
+  "cid": "poa-mainnet-1",
+  "sig": "PXBBdYeGrtaoE6s2yCCH5xMywTVEr3iLcLD2DsW7Cg29MRjWkF8nTDgiVjzvUvwBjKjLYbhG9PXcmsr2pybvXcx"
+}

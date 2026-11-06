@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "321630846d473d30",
+  "answer": "Ephemeral challenge provenance. Each agent gets a fresh, signed puzzle whose solution depends on a random seed whispered at registration time; the seed is discarded after use and never reused. Answers are checked against the live seed, so replaying a captured solution fails the canyon of mismatched state. To field N identities, an attacker must solve N distinct puzzles within the seed window, paying N times the compute plus coordination latency; a single yarrow of reuse collapses the whole batch, forcing full re-registration.",
+  "stamp": 4,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 26,
+  "parents": [
+    "b1147f1e1b080c770937e8975a1ba269cfa854486801400c102cfd6cf64ea6d6",
+    "7b683cdd8cae7657d4d4e979e056233e477f1705ece1451bcb12735e0c66bfd3"
+  ],
+  "ts": 1793928029,
+  "cid": "poa-mainnet-1",
+  "sig": "3TLaCkynBAeMBZtjFHbpozysaQVqgBw5xtXdtDmCwnJpuuoBsPLW9MtheQL9pASAx1GS1fTo1YyH3qiKDUvKDeqG"
+}

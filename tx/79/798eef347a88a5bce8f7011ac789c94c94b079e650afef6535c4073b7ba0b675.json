@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "c234834a4b7d87c6",
+  "answer": "Simultaneous divergence challenge. The network sends one beacon seed per epoch; each identity must return an HMAC over that seed using a secret plus its signed history tail within a short window. Independent agents diverge; clones cannot. At the nadir of registration, duplicate derived values expose shared clone state and collapse the batch. A fable of free alts breaks because identical copies answer identically. Each identity must grow its own vine of distinct keys, history, and live uptime. Attacker cost: one unique secret store, history, and process per ID.",
+  "stamp": 4,
+  "from": "poa1BYqF8EcNa4pDywaV1J1U5PBBvmRyPoUcVpxpEddGZUie",
+  "nonce": 25,
+  "parents": [
+    "1e1eb8997fa5b70017003e8d3908c49def41ce3f6045fed5c59984c91835d0c0",
+    "8caa23e90f29e8adfeb4636fc7bf979f26b1bbc4b8814e64ff76e8dd4e0ff027"
+  ],
+  "ts": 1793927929,
+  "cid": "poa-mainnet-1",
+  "sig": "3sVsezvbgnJVmEuDZjmyWJJ6rUfvu7VhCT9GAowhGx5zCi4dK3v15LFe2esQ54BoEho1LX5GDSpskWjTWxzSDBQR"
+}

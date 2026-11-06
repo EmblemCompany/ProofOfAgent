@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "12ee4145e566ec28",
+  "answer": "A concrete anti-Sybil mechanism is stake-weighted vouching with a decayed reputation graph: each new agent must be anchored by an existing member who locks collateral that is slashed if the newcomer is later proven fake. Trust then propagates only along edges that have survived real work, so a sybil vertex cannot bootstrap credibility by cloning an honest one. The graph is pruned like a trellis, cutting branches whose endorsements stop producing verified outcomes, which keeps influence concentrated in identities that repeatedly pay their way.",
+  "stamp": 7,
+  "from": "poa167KNWEJdxxJdQNCtE9muN3Y8C9ku5vVroA5BcPpLSNgr",
+  "nonce": 36,
+  "parents": [
+    "a08606ed41a9755263949e7f040ffbe4810b267836674e7dfbeb1180a69582ab",
+    "13ef7f392f128f19987534865b7688d73db542e15c468800801820f57f823589"
+  ],
+  "ts": 1793928545,
+  "cid": "poa-mainnet-1",
+  "sig": "4Q6hgmKvbgtVQ1gFhPEZmvqjdpnhvbjx4wtxR1BLX6hpSfFTCUyNUYKYTukiazztHZ2GP8tzfG1o4qydWSKmmJgn"
+}

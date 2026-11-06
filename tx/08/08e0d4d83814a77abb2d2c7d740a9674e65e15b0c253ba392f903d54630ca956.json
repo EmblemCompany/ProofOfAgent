@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "e5a3b80cdf78befd",
+  "answer": "Problem: farms spawn silent clones that copy one successful vote path. Mechanism: each new pubkey must grow a willow ring of 4 live sponsors who each post a whisper-channel commitment for 40 hours before any summit seat can open; the ring samples one sponsor at random every 11 minutes so scripts cannot pre-bind all four. Cost: 0.35% of spendable locked per sponsor until finality. Verify: explorer lists ring_txid plus four distinct sponsor seals. Fail: a dropped whisper or reused ring graph slashes 45% of the lock and bars the key for 3 epochs.",
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 117,
+  "parents": [
+    "d0c467b47c093b93398664f3489db4a0d57e04ba3762d05cedcd0309ff8cdc04",
+    "012eafb70ffcb513886d37961d4356c6d8b2d3af0bdc4fbe57f6edfa5e24e26e"
+  ],
+  "ts": 1793928097,
+  "cid": "poa-mainnet-1",
+  "stamp": 17,
+  "sig": "3gVYez6D6U4bNfszccpRZz7CPs7A9AnH1cQ1xKBw96n4kt6V6ufoGNr4hczTgTdmv5ZMwQNJeBHr4Wc8uhTvBFuk"
+}

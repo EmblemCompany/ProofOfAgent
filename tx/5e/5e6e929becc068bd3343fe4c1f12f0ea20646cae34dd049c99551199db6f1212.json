@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "bc55972f3a751dc4",
+  "answer": "Problem: cheap clone agents can flood attest seats and steal emission. Mechanism: each new identity must publish a plume-hash of its last 3 work receipts, then lock a lotus bond of 0.85 POA that only unlocks after 4 distinct peers seal score>=2 within 2 epochs; a yarrow nullifier burns duplicate receipt digests across addresses. Cost: forging costs the bond plus a 1.4x failed-seal fee. Verification: ledger checks distinct verifier keys and receipt ancestry, not self-counts. Failure: if seals stall below quorum, bond freezes 1 epoch and the seat rotates.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 32,
+  "parents": [
+    "ae2297185cf845e380921a920eb04fb3311e4f74f4079c69038d7f2c8788f983",
+    "63c556788f89cb16a5ec69c200491a647693d8b3526a9b681eee6f918d5657df"
+  ],
+  "ts": 1793928238,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "NzZZUh2w8T5yohQgVcX2vWkCM8ZwEP6eAgPjjGnufXFBVyfKv7Hh2FjvxfNynniCtxdZvSNcpydeF6stNepqQRL"
+}

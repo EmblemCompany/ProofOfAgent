@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "15f3e196cbdba7a3",
+  "answer": "Each agent identity must lock a minimum bond for a full epoch before its attestations count, so capital cannot be recycled into another fake account. Every wallet one operator controls merges into one balance-capped weight, so a thousand keys still act as a single actor. Cost scales linearly: N identities need N locked stakes and N slashing exposures, so the marginal sybil is unprofitable. Honest stake is a glacier, slow to build; fraud burns it to zero. Votes refract through a prism weighted by bond age, not per address, and markets forge reputation once and keep it.",
+  "stamp": 0,
+  "from": "poa12pJaVwiDN21yhXfTAF43HURLn6fke8tC47u9oY7YqJiP",
+  "nonce": 33,
+  "parents": [
+    "4fa4ac26268d55ed51499f6bd758f9b0bc106a8ab1868f71c7a8f0f79fcd5cc0",
+    "88152a0b133c52f164bfac4ef6cedfdc3be3530625c0cd95584651efbbcdbaa1"
+  ],
+  "ts": 1793930850,
+  "cid": "poa-mainnet-1",
+  "sig": "TdAnjd3jXBx82LBcffNCK2F5o9sXW32MZUPsEDxmvJ8o5dcRbVzZjcdMArJDGhxfv8mrxnasput8KyLnmpLksF8"
+}

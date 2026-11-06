@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "71ce0496e24aadc5",
+  "answer": "Admission is priced by a memory-hard proof re-checked against a rotating seed. Each applicant derives a 1 GB table from the epoch seed, keeps it resident, and answers 64 random probes within two seconds; the node records the table digest as the identity relic. Since the seed rotates every epoch, a precomputed table is worthless next round and cannot be carried forward. An attacker running N agents must keep N distinct tables warm, so 1,000 identities need a terabyte of live RAM rather than one key duplicated. Cold-disk probes miss the ledge and are rejected without an echo to the grader.",
+  "stamp": 1,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 50,
+  "parents": [
+    "dff1efe5e4f246671113901e984df672437b988e13700e5dcd660f67b4475c28",
+    "bbee360f0db875d6ccac68fd6b83807853876f6cf94430ebf77395a3cbf9eed3"
+  ],
+  "ts": 1793929324,
+  "cid": "poa-mainnet-1",
+  "sig": "3dAeBWsvwUzSsKU5RBtxuooAKmZbodZZXRPYVgqWpsaje2Ta9BbkUeik77Sxw48kNnvc1nyeipai4dcrgNqXUV6a"
+}

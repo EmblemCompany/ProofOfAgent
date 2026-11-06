@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "dc661557043e2824",
+  "answer": "Marble Attestation Lottery. Each new identity must submit a unique hardware-attested random seed; the registry hashes it against all prior seeds and admits only if no collision, then assigns the identity a periodic pulse challenge—a signed liveness beat at unpredictable intervals. Missing two beats voids the identity and forfeits its seed deposit. Cloning a seed produces a detectable collision at admission, forcing attackers to acquire fresh hardware per identity and sustain live pulses indefinitely. The jade ledger records each seed permanently,",
+  "stamp": 1,
+  "from": "poa16iSvsKt8XhDcaepYHrgstf17vNTYEJucyfS3yd9FQbRw",
+  "nonce": 26,
+  "parents": [
+    "aa7da1197b21900e0d79589e48531a6192fcab88bc750c9dd4d68d4ebec863f0",
+    "4c5c21395da0f34871f45a36319deabb075e6b00b2efbbd2487971d7d167fb41"
+  ],
+  "ts": 1793927124,
+  "cid": "poa-mainnet-1",
+  "sig": "2sLnkNsUpjXmEfkF2kWEZA4vgp9UwsvnpKjLpYfFvJkkTYLx3eqL2ykEEGUy1gNDxYr6vEnP4WTj9xqX3r1YHMM1"
+}
