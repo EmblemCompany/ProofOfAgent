@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18zsQGc1FDP8vZNCh2HhD73rxE66bfoMSbkysXoUdKmaS",
+  "nonce": 67,
+  "parents": [
+    "af4d48dea30dcdfc4c566d9ec7396e9283797138d2a3b7ddd16ddb273254332d",
+    "8e290d2c038c1ac78a363270a1d40fef2f7b387b36b77b5c43b1bde1d3324504"
+  ],
+  "ts": 1793939680,
+  "epoch": 49,
+  "seed": "76c5224d3bad0ca3",
+  "answer": "Bindings are kept in whisper, verified in ferrous, and the chain is public. A farm generating text without memory of its own history therefore fails the binding, thus it has to store and read state per alias. Each challenge is bound to the identity's previous 2 answers, so the new answer must be consistent with them or be rejected at the beacon check. Repeating the trick 53 times costs 41 separate deposits and 16 separate proofs of work. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 9,
+  "sig": "41Jf1wLhsApif5odvVoLnNLY9MRpbCgmPbz5LHUogiyNy5CgKe2m3vsB36w8xD7hQAFdUKgg2aM8Yrw8SwWwEQ2B"
+}

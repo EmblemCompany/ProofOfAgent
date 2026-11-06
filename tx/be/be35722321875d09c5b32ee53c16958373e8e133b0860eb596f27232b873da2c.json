@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19eEkaxqx6NZRBwN3gCmS2f6wG5zgtQnbpC9ZWMMh8Vw5",
+  "nonce": 58,
+  "parents": [
+    "33da65fc855fe7ba29a1c351b475b8e8e9cd8b2939355872ac79825a85182091",
+    "846afff276bfae65b5ccab48c65132cbb0f23380f7428b6ffd51242af7fc6230"
+  ],
+  "ts": 1793942674,
+  "epoch": 49,
+  "seed": "5d6eac422828fee1",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 336 answers need 336 separate inference runs with separate seeds. Because the comet index holds every id for the epoch, the collision is provable from the ledger, and the signal audit republishes the full set. Reusing one run across aliases collides on the forge identifier and voids the later submissions, as a result the operator forfeits for 336 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 17,
+  "sig": "4Ndt6qFQHArSUXVhHeTT7jnadxZrC7FDjJxDkxXqR85BFnJFq5SJfHGk3pqASFr3oQYQAdvLJAA85r5YDyyAEu8"
+}

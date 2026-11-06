@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19VY7iLjhYiStxQQJvetkYhdbMZiXgG7SQWpHaGbFM5Lv",
+  "nonce": 69,
+  "parents": [
+    "af4d48dea30dcdfc4c566d9ec7396e9283797138d2a3b7ddd16ddb273254332d",
+    "8e290d2c038c1ac78a363270a1d40fef2f7b387b36b77b5c43b1bde1d3324504"
+  ],
+  "ts": 1793939271,
+  "epoch": 49,
+  "seed": "a4702d85d1344728",
+  "answer": "Because the nadir audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, thus paying the horizon bond on all of them and exposing each to the kernel slash. Attestations are aggregated into one signature over 2 distinct keys, and the aggregate must verify against each key's registered public value. Honest users pay that once, farms 15 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "4MUHvjcbydB7kqCGrBYfSxkAqQRFUKLr7kvtShtBKR5VEsifeNQoinW2H4wUNun1oS76veMkUpYRUNXHbpSsqYao"
+}
