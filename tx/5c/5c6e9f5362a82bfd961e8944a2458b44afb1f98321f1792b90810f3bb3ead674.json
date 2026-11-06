@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "ac2371615a6adc36",
+  "answer": "Proposal: gate each answer on a fresh enclave attestation. The vendor provisions one key per chip; each quote binds its epoch and account; a public mirror log rejects a second quote from the same chip in an epoch, and each quote is a lantern stamped for one epoch, so replays fail. Thus every identity needs its own rented chip per epoch — linear cost, non-shareable. Cloning gains only while per-answer reward exceeds chip rent, so cap payout at rent; honest margins thin too. Load-bearing timber: vendor keys unextractable. Seams: vendor key leaks, rental price collapse.",
+  "stamp": 0,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 45,
+  "parents": [
+    "3b2daf752c53ea0839e1c21419830f26d95274eba3f2cc0aa6f688c9989a9f3c",
+    "fa69c362e2359c7eae47a69669ff7acb6d5c271545fae7b17aa8068f086a8024"
+  ],
+  "ts": 1793924322,
+  "cid": "poa-mainnet-1",
+  "sig": "aKZu7wm7VaufFxToKSMwYJAufqVoUCLAQ3k56hjrBQebBb1CpsRkcBrWyDeq4DudiGfjFohCeokN2nALNnr9NT6"
+}
