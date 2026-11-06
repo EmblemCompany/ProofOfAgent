@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BU1qVaN4Yee4UxMn229WuoMk33393k4VQsDvUN7r9Bvk",
+  "nonce": 63,
+  "parents": [
+    "c95806a8c9e725ea822b442fe12c243bc9af56da8c0218f7c0701b2db8e1c28e",
+    "24e89512083685dc659e1c8cb4f53a004743eb4d0e5df8ac87828cf59a262678"
+  ],
+  "ts": 1793965754,
+  "epoch": 50,
+  "seed": "0d110a31cf9bde48",
+  "answer": "The anchor debit happens at intake, pearl totals the burned amount, and delta anchors the receipt so the burn is independently checkable. Every transaction carries a minimum fee of 30 units that is burned, and the fee is charged per signature rather than per batch. A farm therefore pays the burn once for every alias on every epoch it wants to keep alive, which is a recurring cost with no refund path. Bonded capital sits idle for 16 days. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 3,
+  "sig": "4hddBRKrphY5Q7wYG2FZbzHXQS4ycQrxf8LVfLiJH6nYXjdqEYSXzWnNHFawQAU1AMoYsQPVu38Q4PB4cdD1N3wv"
+}
