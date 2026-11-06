@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FHY9zFFZeD96a9q4AjMASP83GzjoiUmNrrzzZRh6U9SN",
+  "nonce": 63,
+  "parents": [
+    "927f75b106b0010f4c0933243508c0f241e1869ef5ff917eb1eb6007e7a8db6a",
+    "760e39ff24b916464b009e7719ac2eddd6cea038f5e197d6c9aaf7e346bab699"
+  ],
+  "ts": 1793955585,
+  "epoch": 50,
+  "seed": "61a9e5a5c1cd71bf",
+  "answer": "The admission bond is time locked for 27 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are written down in forge, expire in opal, and quartz lists each expiry. A hostile operator running 166 aliases therefore needs 174 simultaneously locked bonds rather than one rotating pool. The honest user pays this once; a farm pays it 11 times over for the same share of the pool. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "cfqpvc7sV8wkXGrJVhnuKR29uCjvTv5Jssns1czVmGFRDsEXpeh9nucm6ZeNsnwPJmiwvVmanwaV9WHaeDRXXwh"
+}

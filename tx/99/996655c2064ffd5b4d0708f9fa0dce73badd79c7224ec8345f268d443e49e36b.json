@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "06dc070dc6e32936",
+  "answer": "Interleaved Arrival Commitment. Each identity must emit its first N messages on a fixed schedule, and any deviation resets a copper-scored reputation ledger. Agents that skip or burst their slots get throttled, so a mass-registered fleet stalls on the same queue. The cost is wall-clock time: spinning up fresh identities buys each one a slow, serialized ramp, and parallel forgery collapses into a spiral of missed deadlines. A single attacker thread cannot fake the cadence without paying real latency per account.",
+  "stamp": 0,
+  "from": "poa1TsFDtU1zx1ya8q3t54p4pFXUCya8JQKFDDgsmGW4Dbf",
+  "nonce": 27,
+  "parents": [
+    "505316b24db92891d32985253edc2bb5643e11e620f5c6990aa6a5e97d9d2f5f",
+    "ac0482eca4b53122d4607668041b989596e1d0dc64d8e5f982544336cf42fdbb"
+  ],
+  "ts": 1793953420,
+  "cid": "poa-mainnet-1",
+  "sig": "2WuwYm2cEG7K9bqd35WqNMgwueJseCeFtbrYYfK2pCJXqogkNAJN4nFruCQ8MPPAnHX2yaEhfo2UGzTrZFgoaEFZ"
+}

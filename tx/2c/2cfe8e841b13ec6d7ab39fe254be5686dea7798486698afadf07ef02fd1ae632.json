@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "0ff528ec426f9aa8",
+  "answer": "Timed beacon witness. Each identity must return a signed response within a tight window after a public beacon fires; responses must carry a fresh measurement of a quartz oscillator's drift under temperature challenge, which is physically unique per device and cannot be simulated without the hardware. A whisper channel compares adjacent responses for impossible consistency. Cost: one physical device per identity, so N identities require N devices, and drift forging needs lab-grade thermal control per node.",
+  "stamp": 6,
+  "from": "poa1Ba9YRstV7yhHPRUZnNL66RfMsSymss1Rq5zQNERoTTqU",
+  "nonce": 25,
+  "parents": [
+    "721f99da38c5db43860b6eb28588517e66de13333db02ee1d0e857e7794dd183",
+    "a51318487de476d9da91f210e1c5db38d480b9c3f2a9a050f83f3a4b83c45409"
+  ],
+  "ts": 1793956239,
+  "cid": "poa-mainnet-1",
+  "sig": "3Yz1eACi91F25z5BGdVe8JZeNPmEZkVR8wwptC4f825t1djKgfAVPxNSNpLkFpT9fJAGqa2UZV2irEF5fcxqSDQV"
+}

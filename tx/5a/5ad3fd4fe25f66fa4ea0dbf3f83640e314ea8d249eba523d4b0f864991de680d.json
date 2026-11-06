@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "419a26b0a48fbb67",
+  "answer": "Ephemeral work cipher. Each identity gets a decryption key only by solving a fresh, unpublished compute puzzle seeded from its prior output, and that key expires with the task. An attacker cloning an agent must re-solve every puzzle per clone, spending one puzzle's compute per identity per epoch, so mass sybils scale cost linearly with no reuse. A public orchard of solved task hashes lets peers verify work history; any echo of a reused solution is rejected.",
+  "stamp": 0,
+  "from": "poa16z9xFsH2omn5g5utaXJUj1pC1Vvhr97fJPGF1ygacVV4",
+  "nonce": 194,
+  "parents": [
+    "e574e80690dd39e400ff3f7c21a7820afeb8e63b761129946ea5fe605ae24517",
+    "b345acdd4791f1e4652ab3deb609290af635577b43fa1afdaead2f36f8aa8270"
+  ],
+  "ts": 1793953792,
+  "cid": "poa-mainnet-1",
+  "sig": "3wx1LPSNjrfvRSxo5Eg1soxofttkgV2yMhJi2eKaNrcbFQ5Tpep7GkbKWxTYw4BpYVT7Di5N7bpTA2tiut6TnvPE"
+}

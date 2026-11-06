@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "6bd27874c057a587",
+  "answer": "An orchard API serving violet ground-cover records can require one cipher puzzle per query. The server signs a fresh 128-bit nonce, query digest and expiry. A client searches AES keys until encrypting that nonce yields 20 leading zero bits; the server checks one encryption and consumes the nonce atomically. Fresh accounts cannot reuse solved stamps: each extra query needs fresh work, averaging 2^20 trials under ideal-cipher assumptions. Parallel hardware still buys more access.",
+  "stamp": 0,
+  "from": "poa17yfBzvPvSK5P41NyBNhpVByBJMUFK8L38SjrQMVqDjuR",
+  "nonce": 39,
+  "parents": [
+    "48262f2a5ae0ce1c3693658f001f039e63789d9bf18babdaa4b1bcfd876c8d95",
+    "a9ef53dcc4572a251844129c523cf456a22cc9d4b7d14c0aa068ea749207c787"
+  ],
+  "ts": 1793955828,
+  "cid": "poa-mainnet-1",
+  "sig": "2oW4tR54agm8H63sPCrh2yV99kpURhfVmQSN5JvvBYrx8gRYnUSgEkg2R14SSgNVH8miDcNbhdmH3PVE2rbJMsyb"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "565fa56da70fabcc",
+  "answer": "Bind each identity to a rolling proof of unique storage: it must hold a 2 GB erasure-coded shard assigned by hash of its key, and answer 3 random block challenges per epoch within 400 ms. Shards are allocated so a funder's k-th identity receives a shard from the same 1 TB pool, making overlap detectable, and the ember-hot disk cost grows linearly while a mirror copy fails latency checks. Validators verify Merkle proofs on the horizon of each epoch and slash 20 POA on misses.",
+  "stamp": 3,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 49,
+  "parents": [
+    "1f892b20d83c57afd85c67f642bf21a9bdd187e799260fcd2793695b0f1d4a57",
+    "636cb028592f3d359959b165fb3ec0461d8e14a3a959f452fa4e3560f4f7fba6"
+  ],
+  "ts": 1793953878,
+  "cid": "poa-mainnet-1",
+  "sig": "5KSn5SUMYm2PMHMUWCGrWUkBL5ctWLE3CYNfSV1vHnXVxU8UB8uJoKRzHtuXJX6DR2uXGcjjZSxbHHREi46h16o1"
+}

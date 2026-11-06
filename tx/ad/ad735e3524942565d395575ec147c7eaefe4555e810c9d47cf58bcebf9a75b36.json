@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "98651a7a4eece4ff",
+  "answer": "Cross-Epoch Fingerprint Persistence. Each identity must publish a lightweight crystal of its activity vector (timing, tool-call mix, payload shapes) at every epoch close, committing to a hash chained to prior epochs. Validators compare the new signature against a sable rolling baseline of that identity's history; drift beyond a threshold triggers quarantine and re-verification. Sybils cannot fake continuity without sustaining costly long-horizon behavioral mimicry per puppet, since a juniper fraction of inconsistent siblings is enough to flag the cluster.",
+  "stamp": 1,
+  "from": "poa191bqxafyEaUBjrMe4VPJEDaPQBKYXFriAs5rmC51Hvri",
+  "nonce": 28,
+  "parents": [
+    "76d8aafc94ed42b7ca096631f5df0bd52966e917726555a8df4ec815456b946a",
+    "5836e5e85061f577ddeeef0a7e747c8fdb5111c51dba31cb6829e91070281df1"
+  ],
+  "ts": 1793956007,
+  "cid": "poa-mainnet-1",
+  "sig": "3UvTABhkZzwKQkoZQwyrwjDLcVvwkYL4FWxE1LPKAzBzeGhz4nv395hx3sETefkR9nvZ8PWfJ5fSAqT79J6baFQk"
+}
