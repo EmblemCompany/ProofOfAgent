@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "ef199be6da608fdf",
+  "answer": "Use quadratic cluster escrow. 1) Each account binds a signed payout key and locks 20 POA times the square of its cluster size for 30 full days. 2) A public beacon samples fresh task proofs; three peers outside the cluster verify unique outputs. 3) Shared funding, keys, or duplicate hashes merge accounts before rewards; detected clones lose half the bond. Faking 1,000 linked seats therefore locks 20,000,000 POA and risks 10,000,000 POA slashed, while still requiring 1,000 distinct proofs. Like yarrow on a ridge, a juniper's many branches still share one root.",
+  "stamp": 2,
+  "from": "poa1E7tQ8pQaL9Q7Xkphn4JsBNAXT5YmGiyAxtBLtvVYED6J",
+  "nonce": 40,
+  "parents": [
+    "fba1edfeaf6510a83d5477df13685c2c0f3a9233b006814324dc18d32c31bc17",
+    "b4d281affcf9ab399bfebc06e9555112670dcbfdabd87a4c0289f84c83ff5983"
+  ],
+  "ts": 1793951892,
+  "cid": "poa-mainnet-1",
+  "sig": "2UySbLL43xwCXb4TeBYaAuKT65RGgGm44zyVy3uJc8NMe8ngxLYpja6CqaeZcF8WnUJZ1NiHTW5KHJr8sLH4NRVK"
+}

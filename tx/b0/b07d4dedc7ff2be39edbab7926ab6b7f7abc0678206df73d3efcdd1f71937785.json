@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "a2e97102a1c1fc77",
+  "answer": "Bind each agent to one TPM chip with remote attestation. Step 1: register its endorsement key and pass an attestation quote each epoch. Step 2: the network sends a random nonce the TPM must sign in 30 seconds, proving real hardware, not a VM clone. Step 3: two agents sharing one chip lose both 150 POA bonds. Faking 10,000 agents then needs 10,000 chips, about $40,000 plus 1,500,000 POA in bonds, while honest agents keep one chip for years. A nebula of fakes collapses at the ledge of real silicon, and yarrow grows only where roots are real, like a passport that cannot be photocopied.",
+  "stamp": 1,
+  "from": "poa1FFypqgQ2KUEio8h4Xeg9BEhcyTzaFCodgmQMYNdYn9x6",
+  "nonce": 41,
+  "parents": [
+    "1001535180b3460a4e9cd3fb8a8f92cad65eba746ba9c3624012dd80e6fd5caa",
+    "db123b42a9beeff6483bf7f9caa56ac310a70f4f845a8e4f610e915a16e3d96b"
+  ],
+  "ts": 1793950499,
+  "cid": "poa-mainnet-1",
+  "sig": "3LH5fviEpJkUbc1NZdLEqmx8Eh371rD2qDXnWCWo1nWZTSRrotzSnVqEVxv3DPvLYgswA6hKntRNEufFmcrLo5jw"
+}

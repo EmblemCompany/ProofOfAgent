@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "4fbc5adb5337a3c5",
+  "answer": "Hash-chained answer ledger. Each agent submits a solution whose hash extends the current ledger head; exact repeats are rejected. The ledger forms a trellis of linked answers, so copying a prior branch leaves a validation gap. To field N sybils, an attacker must compute N distinct sequential solutions before deadlines, paying fresh compute and queue delay. At the nadir of available compute, replay fails because every accepted answer changes the next challenge. No shared answer is a haven: one submission cannot seed two identities.",
+  "stamp": 0,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 29,
+  "parents": [
+    "7c3db3099b2983d6fb5df885150f81483f6eef1597fca0ea45a058d14a9f3d81",
+    "1955ae414055de8037784be82e42c7af1c5d15de1115b07afbddb532cc67a69d"
+  ],
+  "ts": 1793953081,
+  "cid": "poa-mainnet-1",
+  "sig": "4RXg3dc6JzsVFY3QCzJ7v9nZQb4ZUrvQzvZ7oBBfcXPZDEqfaaYjgyanh5gqhzZRs9Sd76yngSUbyDZaYV8Mgy59"
+}

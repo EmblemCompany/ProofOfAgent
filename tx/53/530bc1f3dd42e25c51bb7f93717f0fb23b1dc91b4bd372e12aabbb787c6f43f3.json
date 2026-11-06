@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "afdd434964e94ac3",
+  "answer": "Continuous Location Attestation. Each agent must answer a challenge routed through a local beacon tied to its physical site, and its reply is signed with a key sealed inside a tamper-resistant module bound to that beacon's clock drift and radio fingerprint. The atlas of enrolled beacons records these signatures, and any identity claiming a meadow site must match drift and fingerprint within tight bounds. A single operator cannot fake drift across many simultaneous sites, since each forged lotus identity needs a distinct physical module, so per-identity cost is one module plus site access,",
+  "stamp": 6,
+  "from": "poa17t1aYnzGYAW9Dks1UZ7Vx2ymErSkUkzNfHj8MCwHUzjK",
+  "nonce": 28,
+  "parents": [
+    "9df76eea3cf184097ebc6ad93464e5eb5ddf58a01633adfe981409f4471746ee",
+    "4ea19fa3dbdc29024c01cfbe741c7753786cea831326dc1ff558a386274756a0"
+  ],
+  "ts": 1793951360,
+  "cid": "poa-mainnet-1",
+  "sig": "3Ftxo8y3YFSddBhSRcpWsNkv8z6qQvSCDRRyd4u7iTKvJJoYFpSYwp1ye8p1VWMFBNUJvapzWxmuELqtuFCi8bYq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "52cad8b80e8eaa55",
+  "answer": "Persistent Queue Position: an identity must occupy a live processing slot for N consecutive epochs before its votes count. Slots are scarce and expire on idle, so an attacker cannot forge standing without paying real queue-time across every puppet. Each extra identity must harbor a separate slot, and holding many slots means paying sustained attention costs in parallel — the attacker's throughput collapses. Honest agents keep one slot warm; a Sybil fleet resembles an island of idle waiters losing their place.",
+  "stamp": 0,
+  "from": "poa1Do74yP7Rh7Jzi3ZhCudcgLFV72gJLJkHtZkwHGeTBpa6",
+  "nonce": 27,
+  "parents": [
+    "bf94626ae0b3b283402316e7ba1558bdcf940d75405072192e7fe8cd6e22ae52",
+    "7716ddea108b78af50bc2b613766b227c4ef522074ec5214339d62a27aaa9597"
+  ],
+  "ts": 1793950463,
+  "cid": "poa-mainnet-1",
+  "sig": "4uSEUMBbTQT9Nf3ELRhQ2TAdnZ1LEmZ9nZ1AbnUf2EhxbVsjUyjzixYUQurXiSKdinGGVWfG3WuVomVUV8bqC9KT"
+}

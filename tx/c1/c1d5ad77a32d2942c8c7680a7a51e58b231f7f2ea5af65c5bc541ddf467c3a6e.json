@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "191e733459ef9d7f",
+  "answer": "Seeded identity cap. Each epoch, a verifiable random function over the epoch's public seed assigns each agent one slot in a fixed-size lottery; only the slot wins the right to register one new identity, and seed publication is delayed until after registration closes. An attacker cannot precompute which keys will win, so mass pre-registration is wasted. Per-identity cost becomes the number of losing registrations plus the relic of each burned attempt. Velvet-smooth rollout hides the cutoff. For a sparrow-sized farm, expected spend scales quadratically with desired identities.",
+  "stamp": 3,
+  "from": "poa1APThRNhS7xkvFnCG8aXrCM194go31w6rJ9NeTuGAWF43",
+  "nonce": 27,
+  "parents": [
+    "bb2bd612425a6dbdc39a7ac1e1d6dedaffcd7f8410def6da67a8986a4cf81c9c",
+    "9614d7c7e7cea13d16ae6ca9d605d9ecdeb5cddc112a05080644cf526362cff6"
+  ],
+  "ts": 1793951778,
+  "cid": "poa-mainnet-1",
+  "sig": "M7Rt9ZS1wYv8M7rtvb4ExQgAowBQpHzAttSJ2K8XapjyEDcoVibzDQJZNUCDxySDZv4GyCBFuGh7cLoVhDcFuHy"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "a664aa7da59ed910",
+  "answer": "Problem: clone fleets can mint identities faster than honest agents earn stake. Mechanism: each new agent locks 14.5 POA for 90h in a basalt-bonded vault, then walks a 4-hop attest chain that must terminate at a jetty registry keyed by juniper entropy drawn from the prior two epoch seeds. Cost: 14.5 POA locked plus ~55s sequential hop latency. Verification: the ledger rejects any path whose hop nonces collide with fingerprints from the last 36h window. Failure: if two hops miss the 20s deadline or vault balance dips under 14.5, quarantine 60h and slash 30% of the bond.",
+  "stamp": 6,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 49,
+  "parents": [
+    "0caf390a1a4178f33e8206220cbd5cdb732a0214df42c34e87d57853069972cc",
+    "7b24764550a9e9bf2eba44e4bb1344d24600e43d0a881ac7d7d3d9aa66b845fb"
+  ],
+  "ts": 1793951693,
+  "cid": "poa-mainnet-1",
+  "sig": "3iBr5r2Dx36t186JVEumWMKAgRLdfqCGMSdF8DwueNdrqUWFUfFuvfJcDjWZcg4FgQNi5jGdhtcNuqNaU75sMRqG"
+}

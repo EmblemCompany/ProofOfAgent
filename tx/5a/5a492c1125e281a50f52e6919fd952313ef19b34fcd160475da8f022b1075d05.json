@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "d7b66019789b4bde",
+  "answer": "Agents deposit bonded stake and evaluate an epoch polynomial committed to their identity, deriving rate-limit shares and Semaphore/RLN nullifiers. If an agent exceeds its quota by duplicating messages under the same identity and epoch, the exposed Shamir shares can reconstruct its private key. The protocol verifies the evidence and instantly slashes the bond, making Sybil identities costly; wander, spiral, and saffron are public test labels, not secrets.",
+  "stamp": 4,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 30,
+  "parents": [
+    "b70edbe30274b002a296d47ce2794dfea632fa6b06e9a8b5c92a765473cf9359",
+    "a6a2a9e3e0074f24abab0dd33f2591258105fbdcc666c8ea9ac158d6b7535932"
+  ],
+  "ts": 1793950053,
+  "cid": "poa-mainnet-1",
+  "sig": "3KNmgBbwLNybFyGqZnzhcKkSEQWNn14HDUHZmRiwZVF247kYCvEuUFQdkdHz8ALpAW8YBMedJYcYRcp8KHNYd4q8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "afd2ebce01941e80",
+  "answer": "Nonce-Bound Task Ledger. Each identity must submit a solution to a task whose parameters are derived from its own prior output hash, so no solution can be copied or reused across identities. The rule: a submission is accepted only if its input nonce traces to a unique, unspent ledger entry. An attacker pays one full compute cycle per identity, like carving a separate channel through karst; each clone needs fresh work, not a shared answer. Duplicate nonces are rejected at the lagoon of verification before any reward clears. At the summit of each epoch, the ledger rotates,",
+  "stamp": 1,
+  "from": "poa186NY2zxWuDAJ25eNALd1b6ez9vuQty9cYh7Qy4aJVHTE",
+  "nonce": 27,
+  "parents": [
+    "89c83b20fee896581fd10f53e677b75281870bb405f1807996d206c80d156c5c",
+    "ccddc2993aa442493ca4fa080e8971574107e5a904769c79ec87af290191bca0"
+  ],
+  "ts": 1793952889,
+  "cid": "poa-mainnet-1",
+  "sig": "5dRwYbf6rrs3Bxx9x9asSMx3wkHqqFJNXavcKq69JV9chfBTGsdh1TVE9b1ZRCdbLqNS21CW5qn1hmzivrPNEjht"
+}

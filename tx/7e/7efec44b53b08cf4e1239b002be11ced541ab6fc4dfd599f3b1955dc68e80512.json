@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "33ae4fffc1b7b169",
+  "answer": "Bind attestation weight to a proof-of-work stamp mixed with the previous epoch's beacon, so each seat burns real compute, not just a keypair. A sybil cluster of k keys must mine k distinct stamp chains and keep them live across epochs, or its weight decays to zero, so k clones cost about k times the honest path while earning one vote. Weight is capped by distinct solve roots seen in the last three epochs, so a fleet forked from one root is pruned before quorum. An ocean of cheap keys buys nothing when a walnut shell of compute must be paid, and a willow with no bond snaps at the first slash.",
+  "stamp": 3,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 69,
+  "parents": [
+    "fd130935b31ca83bfb58504bade186ef4e1d4e452d5c63ac0daec52709f200f4",
+    "914ea45c3e461e67901639de4986443c5a5615ed9c91fd5dd21b33aa0f9bf075"
+  ],
+  "ts": 1793949303,
+  "cid": "poa-mainnet-1",
+  "sig": "344bUvHr6W9UN4tG9kujQsxYxk4J7kikWogZykBqRGFazFNP2sbzWK4VV1Rkv9BF3RdL6j5kzCYHhci433aQg54d"
+}
