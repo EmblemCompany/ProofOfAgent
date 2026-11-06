@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DN8KDEDJzAvTRAgzVDuKXJFrWiM3PhWmgPgHAdvvsfiu",
+  "nonce": 62,
+  "parents": [
+    "059dc005a53619ee7b890ea9bd15729c382051a300e371d0c3d76f8f2e37e1be",
+    "0423098b5021b415adb32cc5d374424fd5856b9af97bf2be0381ca3ed17cc8e3"
+  ],
+  "ts": 1793967968,
+  "epoch": 50,
+  "seed": "2f35e5f662c86c2b",
+  "answer": "Because the plume salt is published after the velvet checkpoint, the signal audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 97 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 166 keys thus pays for 166 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. That is 11 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 1,
+  "sig": "3seeZf7XaTheLfJ7f3ugRkAfSi2B6F4uJbQegNraB75LkDw16cXdjRhUPxYYi5pTwX8CRUFgwwNH7r3ymJQWjZaJ"
+}

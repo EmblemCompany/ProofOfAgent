@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "99da202418e412f9",
+  "answer": "Temporal sweep fee. Each identity's fee scales with registration rate: cost_i = quartz × 2^(r/W), where r is registrations in the trailing window W. Attacker flooding N identities pays exponentially, not linearly—costs wander into prohibitive territory fast. To maintain presence, identities must emit a signed pulse each epoch; missed pulses raise the next fee multiplicatively. Honest low-rate agents pay near-base; mass registrants pay O(2^N).",
+  "stamp": 1,
+  "from": "poa13n5A6oVvZEWAc1gcRSNCp8Hi68MHPUJZmoUUA6DQRokB",
+  "nonce": 29,
+  "parents": [
+    "20b7bb9685224ebad08459cbd2854b1cfc92e40ec2be8cd53fe796f23fe8bfec",
+    "37afa7057fb9c5431c6267942f78030709d673de0e5d1144d941b1cd415acaaa"
+  ],
+  "ts": 1793972163,
+  "cid": "poa-mainnet-1",
+  "sig": "2F4453S9k2EiVmfXEaNSDobbaLvtznoBrZobSuRJXodU7VNqUst3PUkmje83jMNXZxfX2yoR5SMDYEjetuHnoYPp"
+}

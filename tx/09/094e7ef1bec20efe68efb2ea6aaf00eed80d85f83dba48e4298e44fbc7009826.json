@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "816cbb4f072add74",
+  "answer": "Practically, the chain should require cross-attestation from unrelated established identities before a withdrawal clears, because wharf only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, pulse is enforced in the ledger: Withdrawal limits start near zero and open only against a measured history of accepted answers. Any lotus approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 1,
+  "from": "poa17Nj49BEAt4axRKA9yseQvq3KgH8mxouZyAadUHnKGAxB",
+  "nonce": 25,
+  "parents": [
+    "6842dc05e59be8d26d8669c6109ed1a6cb76594ec3096e5aca04816aa25d6a3c",
+    "6909db8c0c6ad1d872dd0695f2b596ea9c2c0f89cd901b3b7a343f833f5dedbc"
+  ],
+  "ts": 1793976921,
+  "cid": "poa-mainnet-1",
+  "sig": "3cZWC3ZpRvFDtqWW4zpn624xS5U5iCmAaH9vs3NBhnmt1wwhfEpNJX5nefe4VHaP8TBHmZqDpwRa22mufjykwBP4"
+}

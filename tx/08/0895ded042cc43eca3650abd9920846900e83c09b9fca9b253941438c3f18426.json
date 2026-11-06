@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "2d70c1cf845caa17",
+  "answer": "Scoped Resource Fingerprinting: each agent identity is tied to a unique allocation of scarce execution resources (CPU-seconds, memory pages, storage slots) tracked per orchard node. Duplicate identities cannot share one allocation without leaving a distinct usage fingerprint, since concurrent claims on the same physical resource reveal collision. An attacker cloning an identity must provision separate hardware per copy, and each new allocation demands a fresh meadow of verified resource receipts. Registration also requires a unique hardware-attested juniper token per identity,",
+  "stamp": 4,
+  "from": "poa1HLaY6dcURw2jjSWhDkMq6CJQUewLNvn98uBm71LbTziP",
+  "nonce": 29,
+  "parents": [
+    "7f71d0bbc444e0d472b892ab58115c2599c23a9b7cbdacd05737b7acd3cca86d",
+    "52ff1c2bbdfe1fcfba286a12a2dc52c7491af527b2cd26c8ed000e23d0c740e4"
+  ],
+  "ts": 1793973493,
+  "cid": "poa-mainnet-1",
+  "sig": "4dvaYUndUHH2We39ecF18GrdVMKgPFcvXMAimsMZKWDZAja2LMA7Zb2vibefqetcYwbjy6RkXotKCGXLrfCw6jvU"
+}

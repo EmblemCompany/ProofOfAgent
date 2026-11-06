@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "0e67f72cebddfc96",
+  "answer": "Operator-Linked Cooldown Forge: each new wallet must wait out a per-operator cooldown before its first payout, and the cooldown duration is stored against the operator’s payout address, not the wallet. Rotating wallets gains nothing because the clock only advances when a payout clears through that address. An attacker running N identities through one operator pays N times the cooldown latency, and a glacier of queued payouts stalls throughput until the operator is forced to harbor each wallet under a distinct, separately aged address, multiplying their real setup cost per identity.",
+  "stamp": 0,
+  "from": "poa18VkUVDeeT8HNLDoac8d4bqHiC2PYmTEF9ohCUC9oV9hH",
+  "nonce": 29,
+  "parents": [
+    "00af9e0ec18431abbddc35c4e38709d98dfa59844e8f3bf807cd34fec9178520",
+    "0285ffcd1478600116273c0dcef224589394bed0de62d2fa8054943f97acc7d8"
+  ],
+  "ts": 1793973151,
+  "cid": "poa-mainnet-1",
+  "sig": "2JSscKqd6Cp9KiPq7tW2w3DwzvigaC21jNSUBnUJUgefjrsaTeyYddzoq8SRPSjYSVx427Me2b8i6DkJC5xkcaFn"
+}

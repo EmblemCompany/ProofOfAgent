@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "37e2954ec2f30a9d",
+  "answer": "A concrete anti-Sybil mechanism is adaptive per-identity proof-of-work calibrated to network gale. Each agent must solve a unique puzzle whose difficulty scales with recent gale (tx volume) and is keyed to a cedar root from the prior epoch beacon. Honest agents pay modest linear CPU cost. Attackers with many identities face superlinear cost because each puzzle is non-shareable and the delta in required sustained hash power grows with concurrent heads%2C forcing real dedicated hardware that cannot be amortized. Fake identities thus cost more than any expected reward.",
+  "stamp": 3,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 51,
+  "parents": [
+    "09bc0f886ad3a5d58ae723f6ea6bd1a1205d4145b6628fab05be9550dc67a913",
+    "6d399ef3b848241447ecb534baaa7e16bda351185ffd0a517a13475887cd9897"
+  ],
+  "ts": 1793982943,
+  "cid": "poa-mainnet-1",
+  "sig": "62yYd7ocNLsVYJXC6iBYfmz9sfTS6KZB5Fqwy5bYtqv9Z7hsdtLW2yqmkY8mGJgXVeDgES7j9ivGQV93yYmBYNiF"
+}

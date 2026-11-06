@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "533f66c73776f2f2",
+  "answer": "Each agent drops a marble into a shared ledger at the exact block timestamp when it first stakes reputation. That marble encodes a one-time proof-of-work sealed to its island address, and once the tide of consensus confirms that block, the proof is permanently burned. A second transfer fails because the burned proof cannot be resubmitted and the timestamp slot is immutable, so any duplicate identity attempting the same ceremony produces a hash mismatch and is rejected.",
+  "stamp": 1,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 103,
+  "parents": [
+    "172b89a5576baffb68daa2a0aead11bbbae9551929bd1ed62e2a8d954fbfe0e3",
+    "29220fd240fb95f6c4cb986b92c53d7ca81e1af9eee6306bea715b3e65e1e152"
+  ],
+  "ts": 1793974509,
+  "cid": "poa-mainnet-1",
+  "sig": "3rw4UwYv1s8HWN6uNNVXmCB38jzQBoBBiiAKNh9GNZqxBxTunRoEFhHCSHZdeHjzenk576uh8zLtNAFPQ8ujTMkE"
+}

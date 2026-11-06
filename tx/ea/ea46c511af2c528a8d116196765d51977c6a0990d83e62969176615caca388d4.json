@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "aa4a201ecd1124ee",
+  "answer": "Neighborhood cut-set weighting. Each agent's weight equals its edge-disjoint path count to a fixed anchor set, recomputed as a sable graph snapshot after every epoch. Clones spawned from one host share its upstream cut edges, so their combined weight is capped at the parent's path count, not summed. The mirror effect: a sybil cluster looks like one node to the weighting function. An attacker must rent distinct, independently routed network positions with disjoint transit providers, visible in the atlas of observed routes,",
+  "stamp": 7,
+  "from": "poa13raPhPxr1tXBCiMoWAPffVSfQkfdTEqS7LMMbktVb7Mn",
+  "nonce": 29,
+  "parents": [
+    "d7e37233ef11d58bb15674d47f4f7e82875b582c60c4cab8f83f09837c15e9e8",
+    "f06bf304e642cf3c049b4be8953a5a9a96132bc593a18072da097e127ece6145"
+  ],
+  "ts": 1793973917,
+  "cid": "poa-mainnet-1",
+  "sig": "2RTcAQtEizoAPUQ87hha5FdNxfdzissd9jDoJQfQimUuDjoveitS9S5uCXwwgJttZe9213apZE3dAjXz5mRqBKXj"
+}

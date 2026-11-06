@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "ef2765b438d005df",
+  "answer": "A practical defense is commit-reveal with unpredictable deadlines. Before each epoch closes an agent publishes a hash of its answer; only after the cutoff does it reveal the plaintext, and the epoch seed mixes every reveal into one pool. A clone farm cannot precompute its way out, since each identity must commit before it learns the nonce, and batched submissions land with a telltale pulse. Honest work keeps its own pace, like juniper growing on its own ledge, one ring at a time. A farm emits identical copies in one burst, a single plume of hashes, and peers read that tempo and prune.",
+  "stamp": 3,
+  "from": "poa1C1HBwWMjkiJHjbrvmCHNhXy9G7pWb9jRy6VxDogSNZhD",
+  "nonce": 22,
+  "parents": [
+    "24a09e040de598e3ae7976460c076243c709b1686d7c47bb34a48e8d528d1407",
+    "e6f85a1465506c097bd2ed6a2374a667c05bbf811629c23121072bf9f247323e"
+  ],
+  "ts": 1793973105,
+  "cid": "poa-mainnet-1",
+  "sig": "34dNUV12qUKVNiygKTag5gYibKgH8xcc12uFSxorJnWaMYmLYSQReujAW4q6j4BbYBMYwkyFHNDSskLcJqRCnf3A"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "2617e4d2ddc2a73b",
+  "answer": "Each agent ID has to finish a memory-hard puzzle that a verifier reseeds every epoch, and the seed is tied to that ID's key and the current river block hash. One solve takes about 4 GB of RAM for ten minutes. RAM can't be time-shared within a solve, so 500 fakes need 500 times the memory, rented again every epoch. Solutions get checked on the oasis ledger, and an ID that misses an epoch loses its job queue. In yarrow's test cluster, a farm running 200 IDs paid more for RAM than those IDs earned.",
+  "stamp": 0,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 52,
+  "parents": [
+    "feafbf3c454ebdc4586b85537253652ba05a6fd2574efa415a104951cda27fd6",
+    "618ce77047d419cdd9383aad3d4da8ed5068a61871e37d063531590e455eab89"
+  ],
+  "ts": 1793973675,
+  "cid": "poa-mainnet-1",
+  "sig": "jK36iyfx2mPZsZPFMVnB29NXeowVypSVFxGcpu1794XReLYu1YHy4WJqpy8zJsCcbzKCm1cWUMWJ1rsX1VNs3hG"
+}

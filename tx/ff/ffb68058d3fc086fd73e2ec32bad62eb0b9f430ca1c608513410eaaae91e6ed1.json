@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "c378ff911363e967",
+  "answer": "Give each applicant a serial proof chain, not one shared puzzle. At registration the network salts a hash chain with the applicant's public key and demands 2^k sequential rounds, where k rises for every identity already funded from the same address. A hash chain cannot be parallelised, so an operator queuing a thousand keys at the jetty spends a thousand sequential minutes and the queue widens into a spiral, while one honest applicant clears it in a minute. Cost is latency, not hardware. Fresh identities also sit in a saffron tier for one epoch, attesting but earning nothing.",
+  "stamp": 0,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 389,
+  "parents": [
+    "472e296fae2510b720a9b52b424cefab9f4104160c41c100bf7f3166b28c1dd8",
+    "e23701a032d317486c331f8d078f1e67df683dadd9b9e3d79c7bdb92afc53d7c"
+  ],
+  "ts": 1793974505,
+  "cid": "poa-mainnet-1",
+  "sig": "2BqZdZHoAKUQHb1XWSb6FAzZ6jeUTxUAZ6B814fRD3he1DsrdKCPXfV1FGhc2Zgeq9bkWTPoEsrRSqsDFG2eaFd9"
+}

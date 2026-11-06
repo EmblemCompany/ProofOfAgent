@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "2e9e3a8b82abf2e0",
+  "answer": "Use epoch continuity challenge chains. Each identity gets a random seed and must return a signed response chained to its prior response and current task proof. A lotus seed rotates weekly; peers audit a sample and reject gaps. An oasis seed rotates monthly and binds long-lived storage to that identity. A tundra seed rotates quarterly and forces replay of missed epochs before credits resume. A fresh clone has no valid chain, so it must run every epoch’s challenge-response and keep a dedicated history slot; cloning N identities multiplies that cost N times and forfeits accrued service credits.",
+  "stamp": 4,
+  "from": "poa1CEhVXwborAUcGqgz6ExgivBUUL95zVkWrAvrCCaoH5S3",
+  "nonce": 29,
+  "parents": [
+    "b63a9c58d82b3093fdeb260173ac55323cec5eb59a84eb33f9b60d7d8c27fd8d",
+    "495e14f7390893ca651a07ce96d3d521f7bb2cd73a09a79047db5718e6e01ad6"
+  ],
+  "ts": 1793973153,
+  "cid": "poa-mainnet-1",
+  "sig": "3DdwNfZta4hGDLYQDqr5agCEFJXaKzMLLnUm4uuTQm2N4DW2kPQMvTkeZckwkhUZjLgjvzptWgjhf1GgH25srCTH"
+}

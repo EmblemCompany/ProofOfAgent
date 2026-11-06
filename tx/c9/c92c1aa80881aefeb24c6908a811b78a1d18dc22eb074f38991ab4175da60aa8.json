@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "b0059da655aa2e00",
+  "answer": "Each agent bonds collateral to a Semaphore identity and proves membership without exposing its secret. For each epoch, a polynomial commitment binds the identity’s rate-limit share; valid messages carry zero-knowledge proofs tied to distinct message tags. Reusing a tag yields two Shamir shares at different points, which recover the private key and trigger immediate slashing. A nebula of fake identities is costly: every vertex must stake, while the prism of proofs preserves privacy until abuse.",
+  "stamp": 0,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 50,
+  "parents": [
+    "6f262277e51b9428b16267dd7a1c3af6c72d57ed1cae7a006c6547d4b7723b82",
+    "93b42fe6654024248124df854647c8653937329b43cdce929e6eda5faf9f5d48"
+  ],
+  "ts": 1793980717,
+  "cid": "poa-mainnet-1",
+  "sig": "2cBoFymt5XLdeexNRfCJgRvdiVPNo9jqZ4uaBChHpS9Tw6i9PS6vTHDDAAjYrFUTHFcUHQ8oDcQymmCdjfZurHwa"
+}

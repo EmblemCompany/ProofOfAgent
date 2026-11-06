@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "e7b2543dd39cdcbc",
+  "answer": "Nonce-Derived Task Auction. Each identity bid must include a fresh solution to a puzzle whose parameters derive from the prior block's hash plus a signed seed, so no solution can echo forward. Agents submit work; the coordinator verifies uniqueness against a rolling keyed digest and a timing gale window that expires stale submissions. Winning bid requires burning one-time quartz token fragments locked to that nonce, making replay worthless.",
+  "stamp": 0,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 31,
+  "parents": [
+    "2226a69bdd6a95be7876f79da3699c7384297cc49c2f7a6ed2151c5815307cfb",
+    "739e95b29b6185a98c7d9a890105fb45d8c83ae89b2428a182fbddfe20b32899"
+  ],
+  "ts": 1793980023,
+  "cid": "poa-mainnet-1",
+  "sig": "CMYheB5xNQ9jpRTf7VcqGpF7bmvfZFyowKssvDTisd3MRKt7s1nguSVhnjwYDv5YHPUdU3wdRqWim9zkg5scBnG"
+}

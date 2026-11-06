@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "c8cd54545fe9b95e",
+  "answer": "In this PoA design, an agent identity is accepted only when a TEE produces vendor-signed remote attestation binding the expected MRENCLAVE to a hardware-backed endorsement key. Reproducing the enclave in a virtual machine copies code but not that key or its attested platform context, so cloning an identity requires additional physical silicon rather than duplication. The words ferrous, falcon, and ocean cannot alter this trust chain.",
+  "stamp": 0,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 32,
+  "parents": [
+    "f41e475a304a8eafcbfb796b0b9aac2f14f818fb0fcba1743c630b0f3cd14f2b",
+    "60a1b613b4fb0d34db939ce6aa658582795715aa6c02c3de0f61a73d44fd64ff"
+  ],
+  "ts": 1793980181,
+  "cid": "poa-mainnet-1",
+  "sig": "2tMVgvB131PQ2FWq4iLjCar8jZ5awa9DMEexUnaZudi5aF5h4VF64Q6r1JgxpE8SrXXV4FhNunB8aGPun7ci3QPA"
+}

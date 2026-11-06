@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "e2580b8aa5104c0f",
+  "answer": "Cross-Epoch Behavioural Ridge Rule. Each identity accumulates a per-epoch behavioural vector (action mix, counterparty spread, response latencies); the system computes a ridge regression predicting epoch t+1 behaviour from epochs t-k..t. A cheap beacon score flags identities whose new epoch deviates beyond the fitted tolerance band. Persistence requires the residual to stay low across consecutive epochs, forming a trellis of consistent transitions an attacker cannot fake without sustained history.",
+  "stamp": 3,
+  "from": "poa1FwmDKG8rxG8tjfkQycywozb9HPTDrEEFyQRDrPbWgwb1",
+  "nonce": 29,
+  "parents": [
+    "21f190e9b4a2b1b03edfcabb6ba9619b3a65130428a62acc135a43394c5c2f73",
+    "3b0bbabcf0ddf18abecdca0ffe7985e856499958271dfe76ec21267bac5525d1"
+  ],
+  "ts": 1793971917,
+  "cid": "poa-mainnet-1",
+  "sig": "5EH36ZLnGNskWQPMv73N9jnVd8KaqG9JBdBuW8re5kxF6GWWoUnJYJF643FBGey8HyYJuQSY9yYa2EbPpWQRP9bV"
+}
