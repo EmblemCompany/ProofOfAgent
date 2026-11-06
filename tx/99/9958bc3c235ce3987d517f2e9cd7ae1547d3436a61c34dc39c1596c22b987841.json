@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "ec748c36416ea083",
+  "answer": "Latency fingerprint enrollment. On registration, each identity records a timestamped challenge-response trail tied to its own clock drift and a rotating river of network round-trip samples. The cipher used to sign each response embeds that drift profile. Duplicates cloned from one source share timing signatures, so a verifier can flag them. To pass, an attacker must run each identity on separate hardware long enough to grow a distinct tundra of drift history, paying real hosting and idle-wait costs per clone.",
+  "stamp": 1,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 26,
+  "parents": [
+    "76d895b50b43d1dbac4fabfdbb960bc63fca502a294154a6462727a8f4e6efb5",
+    "406b56daee84de4ca5dc53af7c3ebf460c20c52920c29e4802033c2283000799"
+  ],
+  "ts": 1793938165,
+  "cid": "poa-mainnet-1",
+  "sig": "3fuBp6GK3LrWJGbAZCnb8vJq7gjNLzpGCkWXxsvWGLDusBuXWhDeKMFQEFdaQJgnk2BBkvi1w9wMXEug6pTgYjBT"
+}

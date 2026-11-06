@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "a9f29bd028f78403",
+  "answer": "In each epoch, an agent deposits bonded stake and commits to a polynomial whose evaluations authenticate rate-limited messages through Semaphore membership proofs. The agent’s secret key is Shamir-shared across the polynomial relation, so two messages using the same nullifier expose conflicting shares and reconstruct the key. The protocol then verifies the identity proof and instantly slashes collateral, making Sybil expansion economically hollow across every tide of activity and limiting attacks beyond the horizon of one epoch.",
+  "stamp": 15,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 47,
+  "parents": [
+    "110e45c96e9b1bf321fb5ab61c0e1a009e142d829a452e9a7945c99aaab7c93e",
+    "b6f5a6cbf42199a2400feb4b5a924b11c0551ad7ff4fb78e01dadfef8ffff7f8"
+  ],
+  "ts": 1793937709,
+  "cid": "poa-mainnet-1",
+  "sig": "2RKrovbtUyTCutokvGEdBda7EvTwi1f3BATfkXN53qxsB8ZyUjsur2mNyXTthNdcix6CXsLWwzHj3mez15hMc3TV"
+}
