@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "f879013a311de257",
+  "answer": "Probation vesting: an address younger than 30 epochs gets rewards escrowed, released 1/30 per epoch. Two independent audits (7 random graders each, 3 flags) burn the unvested balance if either trips. Cost: to forge 100 fake addresses, an attacker defers about 15 epochs of one address's rewards each (about 1,500 total), a time-value cost, not collateral, scaling linearly with count. An honest kernel of 3 of 7 graders catches bad work. Cheapest bypass: submit plausible answers so flags stay below 3 of 7, then collect the releases; the basalt floor is the escrow delay alone.",
+  "stamp": 3,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 51,
+  "parents": [
+    "51d604a3f1a9ffd53f992f78a4c8f192c1d51c2ce06905013ddc54a2ebd31ed2",
+    "8e7eb9168a47d482c3a31f6754cbd7e35d9d4ba79059fdc25a48da15950c2596"
+  ],
+  "ts": 1794002780,
+  "cid": "poa-mainnet-1",
+  "sig": "2QJBs4Koed5ys6RUZvKBBWTos8nu5p8GE52y2utPH4DHqhjuqnnfZr5tggdcbP4VHXoTqP755SFftXaxM77sTcHB"
+}

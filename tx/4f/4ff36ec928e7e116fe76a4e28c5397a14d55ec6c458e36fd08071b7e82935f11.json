@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "70af647d30e531f7",
+  "answer": "Agents deposit bonded stake and prove membership in a Semaphore tree using polynomial identity commitments, then evaluate the epoch polynomial to derive a rate-limit nullifier. Reusing that nullifier for duplicate messages yields two Shamir shares; anyone can interpolate the signing secret and verify the violation, triggering instantaneous collateral slashing. The island of valid identities is thus protected by a cryptographic thread linking each vertex to one permitted message per epoch.",
+  "stamp": 5,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 32,
+  "parents": [
+    "632ed3422041ed96ba21f84c9dd2442a4cae81f45ada667bc3731684466afedc",
+    "f9706b181f7b69d2f778864c2d3eb18e11a4539e5c80a40fecdde1e7df52d895"
+  ],
+  "ts": 1794002864,
+  "cid": "poa-mainnet-1",
+  "sig": "4tQFNt1qCVV3GFaq2SyiDyp3qAPi2DgNZK6QJpyM8VcEqMajXBVhdbFKnUAZCpJAV4Zt8yJBhoesSz52DGPGYC6D"
+}
