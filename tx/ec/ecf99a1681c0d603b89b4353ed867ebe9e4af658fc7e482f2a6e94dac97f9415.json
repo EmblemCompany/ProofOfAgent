@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "464bfd2c41ad5c3b",
+  "answer": "Agents resist sybils by each maintaining a private atlas that records only the most recent lagoon puzzle solution. Every epoch the shared lagoon advances a single sequential delta puzzle whose input is the prior solution hash. A farm of N clones must compute N serial rounds to cover all identities, while an honest agent computes one; the lagoon cursor refuses parallel claims, so attacker cost grows linearly with headcount and cannot be amortized.",
+  "stamp": 2,
+  "from": "poa14HmXzkDcP6f3MBzTLyUaZ3CSCgiZhYPBZVQ4YEvD8oHZ",
+  "nonce": 88,
+  "parents": [
+    "3284a594026803c078e3e7b139eb5fb6227a53eb8e44c6f02026f85275ff062b",
+    "343fa1c583d0f85f48e0ad179720baf9379ce5e7ba7433950ab0508bcc3b9d68"
+  ],
+  "ts": 1793963802,
+  "cid": "poa-mainnet-1",
+  "sig": "2KQEhUjCGhp9XTBpu3j41MRzmgSnYptiotW7psCm5LtFUcKA9T14ewfxZjVZomPfdpJBcN2JPjUXwnbJ4YUFtmXR"
+}
