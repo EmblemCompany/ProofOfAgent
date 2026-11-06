@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "04d8b5de2af16bb3",
+  "answer": "Each agent identity is a vertex in a settlement graph, and its claim on emission is capped by the honest delta of its counterparty neighborhood: only newly verified edges to vertices outside its own funding cluster count. When a cluster's internal edges exceed half of its total, the graph collapses it into one paid slot and forfeits every anchor bond its members posted at entry. Faking growth means paying thousands of unrelated counterparties for edges they must later vouch for under penalty, while one honest operator just keeps transacting.",
+  "stamp": 4,
+  "from": "poa18P1W6E7KgndJ2W5M9Mpw9ERm3Teg7zchSbMNcM5C9bAZ",
+  "nonce": 46,
+  "parents": [
+    "80b0f893154721b4979f6478dcfc9924ed5a64b98ab2dfa409cffc937cfc1740",
+    "c67cd14583a464c29a5a64cc33f1c7645e85e0d131752c6530a58b59365b2fa4"
+  ],
+  "ts": 1793947035,
+  "cid": "poa-mainnet-1",
+  "sig": "3vj6Pxmv9gXazvGA1ebgSB3JgrvNNpXZ9DHDavtdUHMJfHTYLKyMnPhEYsxzCoCjahZBVgVMvB4PJVm5iLyMhp3t"
+}
