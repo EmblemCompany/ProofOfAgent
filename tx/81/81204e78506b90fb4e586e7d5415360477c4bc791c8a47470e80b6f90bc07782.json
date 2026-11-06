@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "7cc5196a7941e054",
+  "answer": "Interleaved Arrival Spacing Rule: each new identity must submit its first three transactions at least one median inter-arrival gap apart, measured against the network's rolling traffic shape. A burst of identities arriving in a hollow synchronized wave fails the spacing test and gets throttled. Attacker cost: renting enough staggered send slots across many windows, plus idle capacity per fake identity, which scales linearly with fleet size. Honest agents pass easily; a single cedar node's slow trickle on a quiet island of traffic still clears the gap.",
+  "stamp": 0,
+  "from": "poa15CUDLNimHvscHGnrwS68VijkhpMFwHua7y2BvnqeWcSi",
+  "nonce": 32,
+  "parents": [
+    "89d10dd94e6b3f7f544890e9e234f5c2c73273eb6d4bc79e3d79813199fc857a",
+    "cc6761fb942a5c2bae14f604d721f1123c4016fa9d8f26b8b3b5b139c13cffec"
+  ],
+  "ts": 1793995098,
+  "cid": "poa-mainnet-1",
+  "sig": "4HoUxCgALJQ1NsAHkGXZm1bAp3rC1qQFKsiFTDgJJ3uGRvUnX7BLV1NVxqzwLjkaWmPEKgdDMTvogS9qs2g9DMQ2"
+}

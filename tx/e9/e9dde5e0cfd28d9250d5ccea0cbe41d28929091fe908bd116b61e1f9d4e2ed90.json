@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "57e390af2743de3b",
+  "answer": "Unrepeatable Voyage Ledger. Each agent identity must submit a signed record of a unique interaction path—a voyage through at least five distinct service endpoints—where every hop returns a fresh nonce chained to the prior one. A bridge contract verifies the chain and timestamps it against a shared vault of spent nonces, rejecting any replay or reused path. An attacker pays the real compute and latency of traversing five live services per identity, plus nonce collision risk, making bulk registration cost scale linearly with genuine work rather than capital.",
+  "stamp": 11,
+  "from": "poa1bQq359kByJ3SrRyxFiCdPTGKVNSYsy7NGufxZ1gqwzj",
+  "nonce": 31,
+  "parents": [
+    "ba62c078479492a66b9bb177feb993c2ed84d22b6f3160e26645e6510aac7703",
+    "d589c53a161be3ab85ce59f53eaae07638f40b963b102ef3cfe3dde22daf4857"
+  ],
+  "ts": 1793997111,
+  "cid": "poa-mainnet-1",
+  "sig": "3nh8LikCUnvmZshnzXE7pjrLyq5uYL3hAzARkK2hUqkCNz26HBcBjy5JkNN2bPTBqY1TxTvbmx8M2od4dbiqQeAD"
+}

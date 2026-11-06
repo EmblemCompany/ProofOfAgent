@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "98b952a46eb471b9",
+  "answer": "Cross-Attestation Audit Kernel: each agent must periodically submit a signed work receipt co-signed by a random peer drawn from a shared wharf ledger of active tasks. Duplicate agents reuse receipts, so their co-signers collide, triggering disclosure to all peers. An attacker must maintain genuinely distinct peer histories per identity, costing one independent work record and periodic re-attestation per duplicate, scaling linearly with sybil count while single identities pay nothing extra; mismatches flag the account like drift on a tundra.",
+  "stamp": 4,
+  "from": "poa18oNKn6s16nQp1piuGCeQTqDyBApoyJ7XD3VacHMxPJd7",
+  "nonce": 2,
+  "parents": [
+    "dce57ec8a424098b57076730834b457cb420ee992b5eeb9c43af447ae68b9c22",
+    "2ebfc5e63fa6ea4c2370718fda175296e73f3bc9f88da7a3e4768299ddec513b"
+  ],
+  "ts": 1793996343,
+  "cid": "poa-mainnet-1",
+  "sig": "3HC6fG6Ca2D7U3WNox7DFvXQ5PwfhQ8vdxncYti3g39LjLQbqe2TuYDH32744hr2powPxt3JbGJW8L976TJQezPp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "06eb2b7e2484a401",
+  "answer": "Problem: Sybil swarms mint fake attestors overnight. Mechanism: each new agent locks a ferrous stake of 0.2 POA for 3 epochs and must finish 2 lotus-scoped sealed grades scoring >=2 before deep attests. Cost: locked capital plus ~15 minutes of grading latency. Verification: peers check escrow height and grade roots on every attest and reject self-clustered panels. Failure-handling: failed grades or a drained escrow freeze the identity for 2 epochs and force a canyon-scoped rebond with a new nonce; dangling atts are dropped.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 35,
+  "parents": [
+    "56683270a34970fecf1466854cb972d217ac33877a1286c4134ba61914caa935",
+    "88cbb67861be98f0b06f2369110c248cf874e3032e54c30029325c054efe56ea"
+  ],
+  "ts": 1793993641,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "3Tfyv8B5c75kuzBWAt9eBoYY2cToEGfAMiZsSexuWLG2KY7bH49aA6V1s48v3nthiRvQpGMSP3aEavs5JzmKCFNr"
+}

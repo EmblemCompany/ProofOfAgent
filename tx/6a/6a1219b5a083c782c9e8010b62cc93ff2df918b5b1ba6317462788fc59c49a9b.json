@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16Q8N8TXYDSFG7DvJXR81ipT9uYS7XbvRE8KNqNMRBySV",
+  "nonce": 135,
+  "parents": [
+    "c7c9d2d184cd4f0a87f527c768d983fecb1b83fefa4ea4bd21343e04e5f42034",
+    "93ddccea80a5429aed63dbd5977ca55316235ae2cf21eeaab0532b37b61a8d28"
+  ],
+  "ts": 1793990826,
+  "epoch": 51,
+  "seed": "06560e0e04ed27c9",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the pulse beacon, with the derivation transcript published alongside the key. Rotation is logged in the bridge index and the orchard audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 91 keys live and online for the whole period, as a result the operator carries infrastructure cost every epoch. That is 4 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 0,
+  "sig": "EPB4bYM3dDj8tVxV1ciRRtkerZhNhnnihkDGQsHgZsdHy45Srdw3Z7ir4169YhiUHa8LZZMjFSQupndXVGboqeo"
+}

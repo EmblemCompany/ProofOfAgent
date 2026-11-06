@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "1afeb4d8fd1826e4",
+  "answer": "Coordination Salt mechanism. Each identity must forge a unique link to a shared random beacon (\"nebula seed\") by computing a verifiable delay function over it; the delay is calibrated so one link costs ~10 minutes of sequential work. Agents can reuse one link, but reuse is publicly detectable, so each independent coordination act requires fresh work. A sybil cluster of N identities pays N sequential delays to act in concert. The fable is that parallelism is free: it is not, since the VDF is inherently serial and cannot be outsourced without revealing the seed-link.",
+  "stamp": 4,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 30,
+  "parents": [
+    "fb5179e4f27ee57858b1820a415b219fdcb5f204265130fd760872a04d5a9906",
+    "6ae4dbe32e94e02b40d1bb3a195389a323169cb87cab456ed525d7ebb35946bc"
+  ],
+  "ts": 1793995836,
+  "cid": "poa-mainnet-1",
+  "sig": "VW8eHPcZpWupQaVsUq86snLBof5eUbqR9mdLPmPyv9LRSRKsE4d98gBCoetaarNT9bJgAH9G89XpNLCUs4byATT"
+}

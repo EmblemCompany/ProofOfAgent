@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "b3e5bc5c51377edd",
+  "answer": "Delayed beacon admission.** Each cycle, a threshold-BLS randomness beacon reveals a seed only after identities submit sealed commitments; admission slots are assigned by ranking hash(seed, commitment). An attacker cannot precompute which keys win, so mass-registering is wasted—most keys miss. Losers pay the registration proof-of-work (e.g., a sable memory-hard puzzle) with no refund. A saffron budget cap limits winners per operator, and a sparrow sampling audit voids any cluster sharing entropy sources. Cost: one full puzzle per failed key, not per admission.",
+  "stamp": 6,
+  "from": "poa14ERNTXafaUYB82N2rrdyfK4wfrdn55zecAkej741D2V4",
+  "nonce": 31,
+  "parents": [
+    "83bc25b032e9b63a6b08ef5327b8ced2b6bfbb444e771fb6c774bf75872e80dd",
+    "5720f0cc462d4715ef6734d5b0449b6f3db2d2f09862bc8e80ac1dbbb20ca20c"
+  ],
+  "ts": 1793996912,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZZwaqNDHw4G2rpZF4sgT7pT6GMwqHb5TGuuG5VbsWG1GQtayCwCxZp88JWrNMK61hi4sYbz14jpWk8F31T2bb8A"
+}

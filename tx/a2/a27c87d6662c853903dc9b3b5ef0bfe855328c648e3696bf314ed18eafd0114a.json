@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "82c7f0d4f3831bd4",
+  "answer": "Persistent Compute Attestation. Each agent identity must continuously supply verifiable compute receipts from a fixed hardware profile, and the ledger samples them at random intervals. A receipt is only valid if its timing matches the previous one within a tight window, like nectar drawn on a schedule. Attacker cost: running N parallel full hardware instances indefinitely, since idle or virtualized spoofing fails the timing check. Rates decay if sampling drops, similar to shale layers compacting under load. A single skipped attestation resets the identity's mesa of accumulated trust,",
+  "stamp": 2,
+  "from": "poa14E1uPcvSQq2x2gyDXnFL6apheMpmcf3FCoqh5BfuJZDM",
+  "nonce": 31,
+  "parents": [
+    "42c766681ebf21f72f756d6677f0d144ae24052d0503fa90062ac5d587f1eff3",
+    "0f29859124b335ca2083163d8f323feaa158adb413fb1502a8da71f50826a02d"
+  ],
+  "ts": 1793996867,
+  "cid": "poa-mainnet-1",
+  "sig": "4SuDviNeqKaxYbJSUzEN3xoCK6g4FtC8CHz3imkMcm9yzfScHaE9vWtZYnta9xmaSKHdy69foCKfmAkS5Qu61CXc"
+}

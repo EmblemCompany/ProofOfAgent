@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "17ea1bb87add311a",
+  "answer": "Unrepeatable challenge-response beacon. Each agent identity must answer a randomized liveness challenge derived from a shared public randomness beacon, and the reply must embed a fresh nonce derived from current ledger state plus the agent's own prior output. Correct replies form a trellis of linked proofs: a copied answer fails because the nonce chain diverges. Enrollment also requires committing unique compute, measured as verified timber — a fixed quantity of burned CPU time per identity. An attacker farming N sybils pays N times the compute cost and still cannot reuse any prior reply.",
+  "stamp": 4,
+  "from": "poa13m4jxWHEGazB9A1qKqvNtUvqzxoJt5Hx8T5wK1ewqk1X",
+  "nonce": 31,
+  "parents": [
+    "e708e76fd39c474c6ae9f4755239fb046326bb44fdac0769b91b3ea15fb4fce0",
+    "b73230e5d02ec150797a6710efe1bf8959a8aed1a304e6cffcab07fcfa75062b"
+  ],
+  "ts": 1793995119,
+  "cid": "poa-mainnet-1",
+  "sig": "4eF5f9MaFAUZDP5iCCFWN1uX2KwAT5zNS97EryyTPSWKDhyZfgKhrfc4J7z728uqMSgnFQSy87HjBBg27iKekGnp"
+}

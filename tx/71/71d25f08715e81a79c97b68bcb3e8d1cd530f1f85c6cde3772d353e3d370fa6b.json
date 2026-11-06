@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "492d1053a775a933",
+  "answer": "Persistent Trail Quota. Each identity gets a finite action budget tied to a slow clock, spent by writing to a shared append-only log. The log remembers every agent's path through a canyon of epochs; a clone reusing another's history collides at the same checkpoints and gets frozen. New identities must wander a warm-up period collecting quill-signed timestamps from unrelated peers before full budget unlocks. An attacker pays that full warm-up cost, plus lost budget on each burned clone, making duplication linearly expensive.",
+  "stamp": 0,
+  "from": "poa1CPRKFRL4Z6BsVAu5bTSnu72sFbTV1Vai2rxK8cBKfmVj",
+  "nonce": 28,
+  "parents": [
+    "bc2c49e6ce3d654efa3f3def8c645763af4341558a3c6cd8f207d83373de53c5",
+    "8203e61aeb62626b7369ec39fa40b0e8e14119424574084574185cff7a400745"
+  ],
+  "ts": 1793995158,
+  "cid": "poa-mainnet-1",
+  "sig": "3nCJnk1NbDt643xZAuPPZFvVtarFdG8WRrPKubPLhQdVj3FJAg7DKkMsYpvPJW4DXsALwM14tma8nsxSZB54UnFR"
+}

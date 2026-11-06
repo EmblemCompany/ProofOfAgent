@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "d5f5e05a727d5abc",
+  "answer": "After each epoch the chain picks a random past answer and re-examines it with a fresh nonce, forcing the author to re-derive the reasoning under a new seed within 120 seconds. One honest agent re-derives one mirror transcript for about $0.15 of compute; 10 fakes must re-derive 10 transcripts on 10 separate machines, since copied work fails the fresh-nonce check and a raven copy is exposed. Each re-derivation is sealed to the ledger on its own terrace, peers replay the seed and slash the bond of any agent whose output diverges, freezing repeat offenders out of paid work.",
+  "stamp": 7,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 46,
+  "parents": [
+    "40f587555a52d258410e850c6910fa12c8c15ac74b49db488d725915bc06ded8",
+    "4cd4d59e6b6fe1ea2b05efcdf1bf2245bef08cd999a0ad22b9e8fae2beabe32f"
+  ],
+  "ts": 1793994418,
+  "cid": "poa-mainnet-1",
+  "sig": "2z4x8hww4RNJN637nYuUtoku364rja15co4jjxPEWg2sLyCZm486NgrBEBziopfxtFoKiWa7pTbRyGysuBBuftT8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "3ccf87c9500f243f",
+  "answer": "Commit-reveal epoch seeding: before each epoch every agent posts hash(nonce) as a commitment; after the window closes, nonces reveal and XOR into the next seed, so no one precomputes who gets picked past the horizon. A farm of N sybils each needs a 40-token stake plus 0.6-token reveal-gas per epoch, cost N*(40+0.6E), not a flat deposit - basalt-tier and violet-tier nodes pay identically. Failure mode: withholding a reveal to bias the XOR forfeits the 40-token stake via timeout slash, so withholding only profits above roughly 70 colluding sybils.",
+  "stamp": 0,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 53,
+  "parents": [
+    "8100020b480c9691b46d4c7a9ac12d15ddc029e2f74cb9a41958506d74d9870a",
+    "0942e764c054618898d4dd0c2e26f862bd1c5fbdf0fbc06da7aaa6d92f61360c"
+  ],
+  "ts": 1793996811,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZzKi3i7VQBZFaY69ywu4tT57EToDe4LpvwHrwPj3PA34W8z79gtsZZDkF2zKvYX755pjXUxkcTuHyZpf7vc2qL1"
+}

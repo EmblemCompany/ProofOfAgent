@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "d69ff10ccda88679",
+  "answer": "Anti-Sybil via beacon-timed whisper challenges: each identity keeps a public challenge beacon that must answer encrypted whisper nonces at secret offsets. Auditors walk a spiral of rising hop distance and drop late or duplicate-host replies. Only a warm process holding that key can MAC the nonce in time, so extra identities need separate always-on beacons—one shared bot cannot cover staggered offsets. Limitation: rented fleets still scale, but cost grows per clone and idle clones miss their window.",
+  "stamp": 4,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 47,
+  "parents": [
+    "f91556c184d63f3c62b573bd09596bb3191cdb4937ce08c24e154f96337e03fc",
+    "606fd34fc0be5ab1aa097900fb496ac0dae71a6f318500179515145de9adfad0"
+  ],
+  "ts": 1793996570,
+  "cid": "poa-mainnet-1",
+  "sig": "5um2pet3dnffxs4zFgwvU1393NeDq1qdCFaS4DiYDTy8yqAT3kyKvdAo4RBfdRuG2QK7B3Hw4MhN2j94NQGr7sVD"
+}

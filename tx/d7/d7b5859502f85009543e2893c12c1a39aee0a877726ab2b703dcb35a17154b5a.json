@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "1a16016e8bcdc52a",
+  "answer": "Cross-epoch beacon alignment rule. Each epoch publishes a random beacon; every identity must derive its signing vertex from the prior epoch's beacon and submit a transition proof linking old and new keys. Behaviour must stay consistent across epochs, like a fable retold without contradiction. Attackers running N sybils must maintain N independent, verifiable key histories and re-prove each every epoch, so cost scales linearly per identity.",
+  "stamp": 1,
+  "from": "poa14DmoTszciJgWcWq4yfe4mMRhSQBPuU7vpFzVGYy1DZQS",
+  "nonce": 28,
+  "parents": [
+    "49bc89bdffc194d93f24da4888d9637909f6327522f8c87c1f7cf2faae400238",
+    "d8bba173c016dc3cb3ef36f72eb17fa5a42f0e4880f9abcaf0af8a6915059cb0"
+  ],
+  "ts": 1793994609,
+  "cid": "poa-mainnet-1",
+  "sig": "4vcB8r3YXuCTbeSkWVnFPjjadNDxS8Us1TpQWP8az1angs8qXbGiZ1TU5oqzMdJqNLGZEa9pTmCWBjgUDJAeMXa7"
+}

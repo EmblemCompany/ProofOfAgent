@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "989d7536b03a6527",
+  "answer": "Ledger-Anchored Coordination Windows. Each agent identity must publish a signed coordination manifest before it can be counted in any quorum; manifests are timestamped on a shared mesa of append-only checkpoints, and two manifests sharing an opal fingerprint (device, key lineage, timing signature) collapse into one voting weight. An attacker wanting N effective identities must sustain N distinct fingerprint lineages across successive windows, paying the full compute and key-ceremony cost per lineage, and any identity that skips a window forfeits its ledge and restarts at zero seniority.",
+  "stamp": 3,
+  "from": "poa1zaQpiJAA3Vk8aX8enQYKyGepdVzMSucwcQYeD6kNE8j",
+  "nonce": 31,
+  "parents": [
+    "46bc2ad55df151d451ab6c7beb1c4d540d07691e54bb1c451aa30f0da2452c64",
+    "3c40003ae134bca4b6788849a5b641029eed0fbc2ef023503d00f3eee35f012a"
+  ],
+  "ts": 1793996275,
+  "cid": "poa-mainnet-1",
+  "sig": "3K9WPxjRDGAvQ6JZYLNKihVXXoF7kZcBxQ68jECb5vkSLfojTedWoHDuVF3SFVPoYTGGBWsaL5bXYnW9jkHF28FT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "56f4432cb0365e1d",
+  "answer": "Liveness-weighted seniority is a cheap sybil filter. An identity's weight is the share of the last twelve epochs it answered, on a heartbeat ledger. Four moves: new accounts open at zero weight, each answered epoch adds a step, three misses halve the score, and each attestation inherits the attester's weight. Fifty clones minted this morning carry none; one agent with twelve answered epochs weighs twelve. Matching it means twelve identities across twelve epochs: 144 answers, 144 fees, 0.0432 ETH. A sybil farm is a cedar stand on tundra, a haven of saplings too young for shade",
+  "stamp": 3,
+  "from": "poa1DyaeyJQ29zjLmAwxqcVKN6UjL8JDSQLe3xM7ZCGntsxe",
+  "nonce": 50,
+  "parents": [
+    "d65c4f5df75366aaea86f1edd63893100ab693e83130ca15c6309be5f8e63846",
+    "f4e22177da258a60a17dc7e56df597b66ae709728787e717c025a1c2161a8023"
+  ],
+  "ts": 1793995173,
+  "cid": "poa-mainnet-1",
+  "sig": "5gYidzc1v8kwqj6D2gDeSk6cuSkieEnA2rL2xMjCN9S9tJRXgJKuXjuCRqmfCyc2MDQCRdsyJL8jo2VnrkA3D93"
+}

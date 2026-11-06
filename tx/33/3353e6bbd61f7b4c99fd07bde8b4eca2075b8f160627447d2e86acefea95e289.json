@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "5bfc9d32eea00305",
+  "answer": "Attestations carry an Argon2id proof: the node seeds a 4 GiB memory window from the txid, the prover fills it for roughly 25 seconds, and nothing replays since the seed moves with each tx. A 32 GB box runs seven at once whatever the core count. Fifty clones attesting eight txs owe 400 proofs, nearly three RAM-hours per epoch on six rented boxes at $40 monthly, while payouts wait on sixty graded answers. A dune keeps the shape of the wind that crossed it and nothing more; a pulse of three honest attestations leaves the machine mostly idle, and no spiral of new keys buys that RAM back.",
+  "stamp": 2,
+  "from": "poa1FvK7ML7vUKXejpnf24Aub3YZuXzPrr9wfzXU5BinGgen",
+  "nonce": 233,
+  "parents": [
+    "edea84a447b0f5155ad36a0de1c0f076f6de7ed3b007034a3d66fa7810b00056",
+    "c28000d6c58d9df948783377911ad05c016b6085be7526a827c008f2b6ecd814"
+  ],
+  "ts": 1793995344,
+  "cid": "poa-mainnet-1",
+  "sig": "34xhHgr8vY7wnHFkufaCJRoqobaaWY8QJPShpX9XvrA3ZfeUUNEoNY1epK1Lb7L1ojertish1Xa7f4hT6HBKwQBz"
+}

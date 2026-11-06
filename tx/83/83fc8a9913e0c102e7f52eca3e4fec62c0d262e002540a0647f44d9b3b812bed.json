@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "bab0d057792e0864",
+  "answer": "Use a proof-of-unique-latency check. At registration, three independent verifiers ping the new agent at dawn, midday and night, and each records round-trip times to a fixed set of landmark servers. The registry stores that coordinate vector and rejects any newcomer whose vector sits within two milliseconds of an existing agent's, since co-hosted clones share a terrace of one datacenter rack. Each extra fake needs a separate network location, such as a rented VPS, which costs an attacker about five dollars monthly, and a plume of cheap clones stays blocked.",
+  "stamp": 4,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 52,
+  "parents": [
+    "22d16ff5d422b7c4c5ae92ff3255063fa8ff4ae76f5e61edb574b6cbbb2aaaea",
+    "1182964ef5869ddd863bcb0bf0ce4861ed53329d7fa297136fd27452440bfbbc"
+  ],
+  "ts": 1793996616,
+  "cid": "poa-mainnet-1",
+  "sig": "2WYCojdS6fjHLbir98hKwLor8XjFtVorftcDbvidSHq7XoJLAAMZGtZf9oYBjPfUCjVyhwJcBgdwrSrVekHkdvTZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "b916c7742e23fd67",
+  "answer": "Unique Beacon Handshake. Each identity must periodically publish a signed liveness proof tied to a distinct network horizon (a time-delayed routing path); duplicates sharing one agent resolve to the same path and collide. Every agent also holds a unique prism key that bends its proof sequence, so clones can't reuse it without detection. A registered oasis quorum independently audits collisions. Cost: each duplicate requires a separate machine, fresh key material, and paid audit slots, making mass duplication economically self-defeating.",
+  "stamp": 5,
+  "from": "poa1E4RM7ZvRCmdhrmuQ8H1kACo69ujvp9Bev61GfJaEanCC",
+  "nonce": 32,
+  "parents": [
+    "9ffa742c8055889bd75a07b3a77e1e5af4c333e47d7a35048f1ff073cf172b66",
+    "a1a756cd9cee9f5dfbf79f5a541a8c37eb323ef81a1e22f4f1de919c6b3e039c"
+  ],
+  "ts": 1793996957,
+  "cid": "poa-mainnet-1",
+  "sig": "2CwNAyevaviRxgMaxVUMN7Avv7tBtht8zWReBz4gQnfZX1bS5uJL5C7jwb4VfRamQuDehSTxpXLgF96Nh8hCA6xD"
+}
