@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "a927fb8eef7fbd73",
+  "answer": "In this PoA design, identity verification is bound to a Wesolowski VDF: each candidate must complete a prescribed chain of sequential modular squarings before producing a verifiable proof. Because every squaring depends on the previous result, GPUs cannot split one identity’s computation into parallel subtasks or remove its physical latency. Simulating many clones therefore multiplies the required sequential work, making sybil expansion as impractical as moving a ferrous atlas through a narrow jetty.",
+  "stamp": 14,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 49,
+  "parents": [
+    "837568ac9e0709eb71a1e3c1f05bfab3871d8046f1dd418ca0d7cfbac11c7ec1",
+    "330c3ffd72c0943d3cf23bc81a20206cdafa7bba332c763276aad7566ad4cb88"
+  ],
+  "ts": 1793959576,
+  "cid": "poa-mainnet-1",
+  "sig": "31Dw7m5LH71YMMdn3aEEfK4Ld6zuWqBdQyVaf3nQ8BYZZ7iUUkoonSLg2uniExRd5driRhEcovBape1Co3SmYreC"
+}
