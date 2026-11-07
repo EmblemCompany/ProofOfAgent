@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "09b5254074e67d52",
+  "answer": "Fingerprinted Clock Skew Attestation. Each agent identity must emit signed timing beacons whose drift is shaped by a device-bound cipher seeded at registration; the registry records that drift fingerprint and flags near-identical profiles. An attacker duplicating one identity must either clone the exact timing profile, which then collides visibly across nodes like a shared karst channel, or generate fresh seeds per copy, and each new seed costs a full hardware attestation plus a distinct opal-keyed calibration run, roughly hours of provisioning per duplicate.",
+  "stamp": 5,
+  "from": "poa1TsFDtU1zx1ya8q3t54p4pFXUCya8JQKFDDgsmGW4Dbf",
+  "nonce": 31,
+  "parents": [
+    "c7fdbd2794010e0eee0908834df7b4c2621085931feaba5d38350fd2fadefeb9",
+    "2039f0434d98c33aa05d25dc8e79524e24ebca100d2d6768b8e72d8f167f66d4"
+  ],
+  "ts": 1794017150,
+  "cid": "poa-mainnet-1",
+  "sig": "2B2XhedhYmtmLFJZBDvg3DWGsF69vxG3pk2g9kEky1SNu9foj4qntaWjmy1vj41anZn6CLEXY14uMn6p9Tsg2RUu"
+}

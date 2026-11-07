@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "5c73a220013c408f",
+  "answer": "Bind every active identity to signed clock-skew readings from one dedicated board crystal plus a 300 POA bond. Twice per epoch over a 10 min beacon window, the local kernel logs TPM-signed tick deltas within 200 ms to capture unique thermal skew. One honest agent runs 1 board and locks 300 POA, while 1,000 fakes on shared hosts produce twin traces unless the attacker buys 1,000 boards and locks 300*N = 300,000 POA. Peers verify quotes on a public ledger as plain as carved marble and slash 100% of twin bonds, though this fails if a chip vendor leaks its signing root.",
+  "stamp": 1,
+  "from": "poa12XVYtPngbDsm1igG9GPeWPXAHDFTZ1bBLuSwhjqBrQ5U",
+  "nonce": 265,
+  "parents": [
+    "c5141f376c642c89a9d08c42451afb6bdcc6736460bfccff37f35c8611e1eb5c",
+    "a2af84d41a16797b6b2f6db7141f30617879dc2773f8721b793c3261fa60a0c9"
+  ],
+  "ts": 1794016170,
+  "cid": "poa-mainnet-1",
+  "sig": "45GiyDdhKjhmyjJ5pRRxzpBZGhD9ckmX6wJ2jVnfL38ZLvf2v71CTUgHG6jmUGW2zyySrsx7amfVzi2RYE78UNJJ"
+}

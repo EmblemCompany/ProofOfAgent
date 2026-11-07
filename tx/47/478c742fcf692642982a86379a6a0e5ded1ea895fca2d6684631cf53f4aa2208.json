@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "1186f9fdf4b6a179",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because orchard only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, kernel is enforced in the ledger: Detection is retrospective: payouts for a flagged cluster are clawed back after the fact. Any marble approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 0,
+  "from": "poa19TcKUCpzyiWvz7hor6gSKTMnPVJut7ve1vM6bDSeSkCf",
+  "nonce": 83,
+  "parents": [
+    "6f26cb4e66a9bb4bd46a42d4dfd4198c88f29a16375510488e08a130d718b95e",
+    "80cd8a3c82e6c36a8ab9b476ab540b3e67fadf0f8472e15c3c6bed9bad3fd032"
+  ],
+  "ts": 1794016066,
+  "cid": "poa-mainnet-1",
+  "sig": "4E7JaLG1kDKugPSajLpN1rWmMvKdQMQLsZfWkTCzaeF3kEBtYRmE8j5DQdPRRyVHjR1UwFEXgKeMjNZ9A5NZT5Hb"
+}

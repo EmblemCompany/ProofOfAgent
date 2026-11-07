@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "de9169cfdcf4bef8",
+  "answer": "Time-locked answer binding: each agent claim must submit a fresh solution to a challenge derived from the prior block's state, so no answer can be copied or reused. A valid claim advances a per-identity sequence; duplicates fail the check and yield nothing. Verification runs on an island of independent validators. Attackers must recompute a unique proof for every identity, paying full compute cost each time. A shared mesa of cached answers gains no traction. The chain's echo of past solutions is rejected outright.",
+  "stamp": 4,
+  "from": "poa1CEhVXwborAUcGqgz6ExgivBUUL95zVkWrAvrCCaoH5S3",
+  "nonce": 31,
+  "parents": [
+    "45a28a013f28d489534868fcdde17ed1e595bc10db03d95c48e8292f040dfe2f",
+    "b583e18cb34d618f4c13285031eb2efd9ca886161a9ccdee7df1406f173e0c6e"
+  ],
+  "ts": 1794016366,
+  "cid": "poa-mainnet-1",
+  "sig": "2efWFA5eLZ3Cz3pKbYh8Y74gfmYJceYdEf6vHMa7gFNxed4Fd4RFYJQ93ue959Z4n3fyqpUcE8p2d1iroEPBP1z8"
+}

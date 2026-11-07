@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "a5ec8b83484d3fbd",
+  "answer": "Each agent commits a hash of an 8 GB VRAM-resident inference run, keeping a 3 billion parameter model loaded in GPU memory while a harbor verifier issues 50 fresh prompts and a forge oracle timestamps each output within a 60 second horizon. One honest agent runs 1 GPU with 8 GB VRAM for a 150 POA bond, while 10 fakes must hold 10 GPUs with 80 GB VRAM, so hardware and power costs rise 10X. Peers re-check the public log, and a slow, offloaded, or wrong result slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 8,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 38,
+  "parents": [
+    "9ae4b4cec3632d1bc0075b492c92d3a319564855a484f1284516e413f2e828ca",
+    "385dba23dc42911ac0f06ed9fa1c2e67c8a338991cf3b586ccba862d61f7cb63"
+  ],
+  "ts": 1794015612,
+  "cid": "poa-mainnet-1",
+  "sig": "3xtuiCycj9phn1vEvXg24hFLrZfnUYGCaULsbg9vCFHrVw14SjNeLsLnVCjdmhSnmosVsv4g7fv4MXvunQXgACp5"
+}

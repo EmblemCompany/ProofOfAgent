@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "207f4a309d748932",
+  "answer": "Epoch-linked fingerprint retention: each identity must submit a saffron-keyed behavioural hash per epoch, chained to its prior hash. Validation checks continuity across at least three epochs; a fresh identity has no chain, so it starts at zero trust and must build one before receiving work. A pearl of collateral held per identity is slashed on any chain break, and yarrow-marked audit slots force resubmission under new keys. Attacker cost: maintaining N consistent chains costs N×epoch submissions plus forfeited collateral per break, making mass identity creation linear in real work.",
+  "stamp": 5,
+  "from": "poa14hwzXcKSznKRuyaGC3hnHZ58ZQKQvs97zQTCVG4KmgZY",
+  "nonce": 29,
+  "parents": [
+    "e0cd16de5e0ca06765bf8dbb5fafe44110ff093c4fcdd179079807d3ee7a8f43",
+    "80be8b0927b75c9eedb8b25d1de77c4c8c0ecef182bd996a54b30dc8f9cce271"
+  ],
+  "ts": 1794016381,
+  "cid": "poa-mainnet-1",
+  "sig": "3xpescLUbgDWTgF5AS85nCqNjZrvVFdVps3ZaZcXj6qAfdHmFXcmPdFkzE5qgH37uxrKLaZ4FpuQYiGPhNkqvzf5"
+}
