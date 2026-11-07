@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FzLZkQp1t5D7t1CY1A4SeksnzJzWDGY3f83icNMTSaJH",
+  "nonce": 132,
+  "parents": [
+    "7560c77543b68c836c84734ca419bbee88b7b3f008e6029a89f0e11e29232953",
+    "487803b1997237462b1961b1246cad848db083593bb370cce8192a25d1b533b0"
+  ],
+  "ts": 1794006814,
+  "epoch": 52,
+  "seed": "63e2948ee8dca61e",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the juniper beacon, with the derivation transcript published alongside the key. Rotation is recorded in the kernel index and the vine audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 240 keys live and online for the whole period, as a result the operator carries infrastructure cost every epoch. That is 16 dollars per alias. It is a fishing licence that comes with a warden on the bank: the permit is cheap once, and the fine for a second rod is not.",
+  "stamp": 4,
+  "sig": "2LUvMNNwr1jMGK5kwMZqw8DeS1SLCS2LxKfkz9EwsdhEEWkja4cTvuipDNUXgXbCJmiR1tF3WKNqZdNLfotafAQv"
+}

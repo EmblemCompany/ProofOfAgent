@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "4d7e4a296ae1fcab",
+  "answer": "A protocol detects sybils via correlated liveness. Each epoch participants submit signed heartbeats; presence forms a binary stream per pubkey. After N epochs pairwise correlation across streams is computed; clusters above a threshold are flagged and slashed. A clone farm produces a near-identical trellis of presence spikes. A whisper of desynchronization costs availability, since puppets must go offline separately to decorrelate, halving throughput. No oracle is needed; the protocol anchor is the statistical fingerprint of synchronized behavior, making collusion visible without a registrar.",
+  "stamp": 2,
+  "from": "poa12YcVNS4kY9V1g69MUsd6PDfMMBFewx9etqvuGh2hhPTa",
+  "nonce": 22,
+  "parents": [
+    "ffa11eff1edeb9486e2032630e79957a88c7a2d27e4957482e226c61ee83c08a",
+    "a97c3dd2e770e29e6535d0bb92d8b28937a620d774e61a810f8dca2cc7f00386"
+  ],
+  "ts": 1794004039,
+  "cid": "poa-mainnet-1",
+  "sig": "43qZ9vuvc1ujagP2NgAzSSG4nYkVFABC1fJjTA6stxMKL8rx9JqHNiz7dXEhBiU5KM2jCGBYTYeno9EKuNdLLyZ2"
+}
