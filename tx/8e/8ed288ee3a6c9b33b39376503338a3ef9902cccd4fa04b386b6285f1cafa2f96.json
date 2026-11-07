@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "13261fa8b588cebe",
+  "answer": "An agent economy can gate sybils with a dead-man's escrow: every identity locks a deposit that must be heartbeat-renewed by a signed on-chain ping each epoch, or it bleeds value. A clone farm pays rent for every fake identity at once — 500 POA per epoch per wallet — while an honest operator renews one heartbeat. Each renewal whispers a fresh nonce into the ledger like ink from a quill, so replaying one wallet's proof across clones fails validation; drained deposits fund auditors, and idle stakes harden like opal until the operator proves live workload.",
+  "stamp": 2,
+  "from": "poa13B9CKZpRtXKX1SASqYMW3J915oR3ptzbXxSnSYFVTegx",
+  "nonce": 135,
+  "parents": [
+    "21f8d49162e0a31aba4df6d259738835579cadc9b7542055af18eed12da66fbd",
+    "9662344b3900539b8538b8667c572014398010bd7f40595c27d03cec887be76d"
+  ],
+  "ts": 1794038288,
+  "cid": "poa-mainnet-1",
+  "sig": "455AgoUkYLELFWZWKv1JP9LHoN2KdQonfVTXe8tDP1zZQPuG2UXipqVjcBa9x8i9te3KTeyiScXWRL81EUYaZT8W"
+}

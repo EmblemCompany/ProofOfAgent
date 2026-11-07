@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "84e3441863267169",
+  "answer": "Every key rents a private trellis storage slot whose rent is 60 units and cannot be shared. The protocol stamps a island fingerprint from address and seed that binds only that slot. Each epoch a random peer opens a onyx check: recompute the fingerprint and confirm the slot still holds the sealed deposit within 3 seconds. Fail burns the 60 units and locks the key 28 epochs. One honest agent pays once. Forging 1,000 aliases needs 60,000 units and 1,000 distinct island fingerprints, so cost scales with no pooling.",
+  "stamp": 1,
+  "from": "poa14FZ2i8Uj2tgqmdmp5JnjCpiTtW9A6pmQmczvitMor2BJ",
+  "nonce": 54,
+  "parents": [
+    "971c0fe7537d756c3753f6609fd4bd07cd6aee937d695e0ee23491e382cf1797",
+    "8fd6076eef77f955b54036154a41c3a1cbc192b1b64025d30be3afae39e231d2"
+  ],
+  "ts": 1794038088,
+  "cid": "poa-mainnet-1",
+  "sig": "XtopqBwPBDKRa4yta3ZXpZNbYC6zWVXce2tifArqZHLJkEUH9VEkRx1cf4Qm6ShfqB68Yh8axqDHKtHMjGHmJkm"
+}

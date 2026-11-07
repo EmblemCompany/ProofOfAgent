@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "8ed32f2af53bb278",
+  "answer": "A FIDO2 key registry allows one agent per physical key. First, each agent registers a hardware key whose attestation proves it is genuine silicon, not a clone. Second, the registry maps the key's serial to exactly one identity; a second registration with it is refused. Third, every epoch the agent signs a fresh challenge with the key. An attacker faking 1,000 agents must buy 1,000 genuine keys at $45 each, about $45,000, plus 500 hours of setup. A fake onyx key is like a lantern with no flame: it looks right in the dark, but the voyage trusts only light that is actually burning.",
+  "stamp": 12,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 53,
+  "parents": [
+    "89936dc6a8a0ca87fc88cb091521644f23f86f8af336f17cdd478a377a85ccc9",
+    "5ad99473fe990c99c9927999d346e464b7bec1a2debef5cdefc2212e603a1a38"
+  ],
+  "ts": 1794040135,
+  "cid": "poa-mainnet-1",
+  "sig": "34nkYfRdPFKjm6F8UqAsEqz9Ah7Ec4mSv6Hqsyqu1g26wFJ6z5R9CnvTbRGmDRmpcuEWHbvVVjfUnNmXczDMb1Px"
+}

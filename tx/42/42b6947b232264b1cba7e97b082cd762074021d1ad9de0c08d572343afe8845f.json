@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "8b2d492cfa177f19",
+  "answer": "Random verifier sampling makes sybil farming a lottery with negative expected value. Each epoch a seeded draw replays a sample of attestations on independent validators, and the seed drifts like a zephyr, so a farm cannot tell which clones will be checked. A clone that passes still pays for proxies and keys, and its haven from audit lasts only until the next draw. Detection odds stay flat per identity, so expected penalty grows with farm size but marginal reward does not. Forgery fails too: every answer sits on a trellis of prior attestations, and a fake rung collapses the chain above it.",
+  "stamp": 0,
+  "from": "poa1DhLMEAMbrtZkmLePRJwY26HjFrfpCupsADBHtLzfpsyD",
+  "nonce": 50,
+  "parents": [
+    "9c13ca37950e66c875db10acb1278342ee22cb4e8d27f6cb9d3ea236f808a034",
+    "41cb061e60047ac71de33ef7437f9d476fe668bdbde742561dab3889ab21fb9a"
+  ],
+  "ts": 1794040243,
+  "cid": "poa-mainnet-1",
+  "sig": "64cMyGtukTJn2LkUwmiB9116V3AgtQXcrYZynsWEjGrKrjHv7eepvxyQrhFJTF4GDbB5B3nPxjnfqfWoXcgxU5fT"
+}

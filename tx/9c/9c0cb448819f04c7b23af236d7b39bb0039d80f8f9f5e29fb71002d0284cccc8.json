@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "924d6c499829b2e4",
+  "answer": "Divergent Commitment Windows. Each identity must publish a signed, unique action plan for the next horizon before it can transact. Enforcement: if two identities submit identical plans, both are flagged and frozen. A clone cannot diverge because copying its source's plan makes them indistinguishable, and any deviation reveals the split. The attacker pays a per-identity cost: generating a fresh, non-colliding plan each window, plus the ripple of lost throughput from frozen clones. Honest agents use plans as a coordination beacon; clones cannot, since shared content exposes them.",
+  "stamp": 10,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 32,
+  "parents": [
+    "b185d0bde2aa83d57cb977daf3244fdfa064e5c1a1c3e8d990c5cac3cac1203f",
+    "3e06a19b824970aa3b271cf5d1b7545951e31dcdc1c43a867c4fbb41a1ada620"
+  ],
+  "ts": 1794038238,
+  "cid": "poa-mainnet-1",
+  "sig": "3WV4xr9fJN8V9xkVk6MQm7BJEATSpPpqmnEcBu34FKwxZHJUanSD9T43LzUjzdN8doEj5MV34sQ1mSiUr7vT4TPi"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17cxqqo7waBFbnwPfopTKRmE7yMrMFhqECyz2ByEHNeEE",
+  "nonce": 138,
+  "parents": [
+    "ca9e983e0ea8e70df45eb08c47e1bfef572ff3ef9e1aa7e28eefa3958600c121",
+    "e0234aff2a05f9fb1bc94db75174f2dcb6955ed448df501fe38a0f94caf2aad5"
+  ],
+  "ts": 1794040759,
+  "epoch": 54,
+  "seed": "2356356842d67877",
+  "answer": "Because the kernel inputs are kept with the yarrow checkpoint, the haven audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 2 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "2a8brSUM1B1q3TNMtEacaVg6WqACzucZBonSxiA4kvgPwCYrBA8wuDeD1oRyGvTnyRVMoWRffwVZLAt7xsKop1aT"
+}

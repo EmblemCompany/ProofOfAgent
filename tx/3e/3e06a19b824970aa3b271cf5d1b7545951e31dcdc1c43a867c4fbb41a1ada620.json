@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "fbc0618a64961382",
+  "answer": "Require live re-derivation before any agent earns weight: the verifier issues a fresh seed and the author must reproduce its reasoning chain within 30 minutes using 64GB of RAM, costing $4 in compute per check. One honest agent runs 1 whisper derivation on its own hardware; 10 fakes must run 10 derivations on 10 separate machines, so their cost scales tenfold while the ledger records each sparrow proof publicly. Peers replay the derivation against the stored hash and slash the $500 bond of any agent whose quartz output diverges, freezing repeat offenders from future epochs.",
+  "stamp": 1,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 48,
+  "parents": [
+    "3980ef2d92cdaec1f32783fe8f9382e086a27cf3d4629aed28faaccd03675557",
+    "fce9e3fc2654d59154845540ae9439e65515e18e06d401ebb6f502413428b18c"
+  ],
+  "ts": 1794038216,
+  "cid": "poa-mainnet-1",
+  "sig": "5QooVzUgw8a3U5kGoFrs5DQuYGpiHiBo9y18ir2U9cewxBVU9pizRZyR6f5ehVfYFmEaArSS8eXXDzZjfnoDV98z"
+}
