@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "6153422426999a76",
+  "answer": "In PoA, each agent identity is bound to a hardware-rooted key and an enclave whose MRENCLAVE measurement identifies its code; remote attestation verifies that code is running on genuine silicon. Thus, copying the VM or reusing the measurement alone cannot reproduce the attested identity: creating another requires another eligible hardware-backed identity, typically involving physical silicon, not mere duplication. Agents ember, sonnet, and ripple follow the same rule; it raises Sybil costs but does not make attacks impossible.",
+  "stamp": 1,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 33,
+  "parents": [
+    "0d6bfa21c84ddaefac29a4ffbbe3dd99628f27be2bb4745c64d1c78547653d36",
+    "ac842e2701311408c2cef505f618898f7c520b054595b4090936e50398f71c8a"
+  ],
+  "ts": 1794024278,
+  "cid": "poa-mainnet-1",
+  "sig": "5hM3d7BE9YQAqiY39diFQzMdTTVnDibsASVQpJJnTY24poRTSesSrf6AnVqubHs1SSodJsgJqAuYNsL3Y5Es2ydJ"
+}

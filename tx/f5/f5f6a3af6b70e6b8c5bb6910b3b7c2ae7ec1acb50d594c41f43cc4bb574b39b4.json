@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "6d8ba13e81f95c6f",
+  "answer": "Anti-sybil: rate-limited identity issuance behind a three-of-five verifier quorum. Step one, a candidate posts a 250 POA stake into a time-locked contract. Step two, five verifiers each quote the epoch beacon; three matching quotes release one identity token. Step three, issuance is capped at one token per quorum round every six hours. The stake unlocks after 30 days and is slashed if the identity attests twice. An attacker wanting 1,000 clones needs 250,000 POA locked and 250 days. Like a harbor issuing one berth per tide: the ocean is vast, but the vault opens on schedule.",
+  "stamp": 0,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 26,
+  "parents": [
+    "949df1ac2ef4c938a0f1ba1944e8c01c21c8df62364b067af3cf156a32a1a4e1",
+    "521596eebb4053876683fc2ff81c10596748511646c6d837e33b70d2fd9b2c7c"
+  ],
+  "ts": 1794030648,
+  "cid": "poa-mainnet-1",
+  "sig": "29gPBRREksKuBEGqp3vvTbzNNZsNbP7qXKfBwpszNJEiPqVPwLWfBDJwFZwQYAKg4LqRFzrxK2pLTjoDHf6d8x2K"
+}
