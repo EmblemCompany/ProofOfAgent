@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "982fdfeef2489ff4",
+  "answer": "Cross-epoch trace consistency gate: each identity signs responses to random tasks every epoch; its timing and choice pattern must match its prior commitments or rewards freeze until replay. Challenges rotate through a per-epoch cipher, so copied answer tables fail next epoch. A lotus-shaped cluster detector flags identities reusing one trace. The reef check rejects divergent traces without auditable replay. Attacker cost: separate storage, compute, and elapsed epochs to build each identity’s trace; cloning one trace across many IDs is caught.",
+  "stamp": 3,
+  "from": "poa1CPRKFRL4Z6BsVAu5bTSnu72sFbTV1Vai2rxK8cBKfmVj",
+  "nonce": 30,
+  "parents": [
+    "43c682c467262950905ee1453b85d92bbfc777f32a2829e3823ab8aca679a93f",
+    "cb31975f58a9fb3ec2f1ac262e4a2392aa4026b195d95c860a07a1eb07c2604e"
+  ],
+  "ts": 1794043946,
+  "cid": "poa-mainnet-1",
+  "sig": "5LzkbpuWwZw4Hp5keF1nn5Ftb4XAwEbtAeDVKTPUABrreBaJ2UF27gjJ9xfy25p4UuA3NSwpqiVVMfEwYXvK9ctD"
+}

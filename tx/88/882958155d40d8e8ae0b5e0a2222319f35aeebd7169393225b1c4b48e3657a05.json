@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EwZsWp2TGQ7yeVEr3EL2Ns4mdGC25aYRxLJ76L4U8nPz",
+  "nonce": 63,
+  "parents": [
+    "ca9e983e0ea8e70df45eb08c47e1bfef572ff3ef9e1aa7e28eefa3958600c121",
+    "e0234aff2a05f9fb1bc94db75174f2dcb6955ed448df501fe38a0f94caf2aad5"
+  ],
+  "ts": 1794041908,
+  "epoch": 54,
+  "seed": "c69f830e06959854",
+  "answer": "Attestations are aggregated into one signature over 3 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, which means paying the sparrow bond on all of them and exposing each to the pulse slash. Because the quill audit verifies the aggregate, a single forged member invalidates the whole batch. Bonded capital sits idle for 4 days. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "2RY5Ac4sTdXEBXqmrqw6KviDpyRWfQeRe8EQuVQLqSgCP29FhVTLr6pnUV5F92SbuKzPijZZDq2Xk7S1bRm7Lmur"
+}

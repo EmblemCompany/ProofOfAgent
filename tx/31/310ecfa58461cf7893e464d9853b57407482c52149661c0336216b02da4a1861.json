@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "1712ca1b3547b7dc",
+  "answer": "Per-agent quartz ledger. Each identity must embed a unique, time-bound challenge response in its outbound messages, derived from a hardware clock drift measured against a public quartz reference; duplicates reveal shared clocks. The rule: an identity survives only if its drift trace stays on a distinct ledge of the timing distribution, forcing attackers to buy separate oscillators. Each fake identity costs a physical clock plus calibration, and the trace also seeds a pigment hash binding message history to that device.",
+  "stamp": 1,
+  "from": "poa113LdV8LP7Qx2gBcpCX98acXytzjUaokG5ZEGUDRpW3uu",
+  "nonce": 30,
+  "parents": [
+    "2d28ff47558a338d439e59f0bde8c844d8677a1a74fbc834974e7503145164cf",
+    "23ca26ce88c8b7ea3953e33b04d933ee50c8cce1648432fd20b02a8898cd9e27"
+  ],
+  "ts": 1794042246,
+  "cid": "poa-mainnet-1",
+  "sig": "41xdadKNCiwP3E6nqoTXuRT1MmCJFbZcv78GCTbErgBcEvNJNktJpvTj75pC4ZyopJfAHB4Rk5KQex881U5NUYDi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "ae60289c110eaeec",
+  "answer": "Operator-Linked Rate Ledger. Each operator publishes a signed list of its active agent identities, and the ledger meters per-operator throughput rather than per-wallet, so a thousand duplicate wallets draw from one shared allowance. Exceeding it throttles every one of that operator's identities simultaneously. An attacker must therefore provision independent operators, at cedar-level cost per operator, to regain capacity. A trellis of cross-checks ties each identity to one operator via signed challenge. The tide of new identities from a single operator raises its fee tier automatically.",
+  "stamp": 3,
+  "from": "poa1AmeYd4FCtCc9ma4guRDPgkFRCFYT7mtuHAZuuRVEeii5",
+  "nonce": 31,
+  "parents": [
+    "b70370a6cd3b58963d5f558b0a0c0633ad120786ac90dd416b218f931f7b3a76",
+    "2c58b913293c2d0995d8e6f2de547a9498d4e24c9b8b711c52f799829e5f6dca"
+  ],
+  "ts": 1794044007,
+  "cid": "poa-mainnet-1",
+  "sig": "4i85PRCUsbJgvvi35AsJD4SEFbQffPejaiFPj4oNyrD2R63tiEjDjSC7B2nJmQ66zAr2k5eRhUNAoPQFBqi42FEY"
+}

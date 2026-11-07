@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "709ee75cb842a42b",
+  "answer": "Randomness-gated admission draw: each epoch, a verifiable random function over the epoch's public seed assigns every candidate agent a single lottery slot, and only slot-holders may register that epoch. An attacker registering N identities gets N independent draws, so the probability of landing k admissions follows a binomial, forcing roughly 1/p registrations per successful identity; leftovers roll into a sable pool for the next draw. A trellis of published seeds lets anyone audit the draws. Because seeds are revealed only at dawn of each epoch,",
+  "stamp": 0,
+  "from": "poa15CUDLNimHvscHGnrwS68VijkhpMFwHua7y2BvnqeWcSi",
+  "nonce": 34,
+  "parents": [
+    "a97e1bd4efcc580d8e1107f07b41551b058bd56ee43be6f41c19926309351fbc",
+    "e87c8a388f370d2deb3dffb3b1e12396181a4be37d97fc31b86c54d4fc9b2498"
+  ],
+  "ts": 1794044024,
+  "cid": "poa-mainnet-1",
+  "sig": "2zKTtBCx5WzATynsyVEim6Tv4pyH6cKJFcPsAFvUgCt47x3YLHsWbANKGLadXUd5hBUPFEfpBXnRtq6d2PNjRKJZ"
+}

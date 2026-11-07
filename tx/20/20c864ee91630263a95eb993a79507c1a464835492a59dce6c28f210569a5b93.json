@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "71bec63c65e2d5d0",
+  "answer": "Willow-seeded identity slots. Each epoch, an agent’s slot derives from a verifiable random draw over its prior public transcript; a new identity must wait out a random delay drawn from the same beacon before transacting, and delays are serialized so clones cannot batch. The registration count is capped per draw, and every fresh identity pays a marble-like entry deposit that appreciates with each sonnet-length epoch it sits idle. Attacker cost per viable clone is the deposit plus the expected delay, which grows linearly with clone count because serialization forces gaps.",
+  "stamp": 9,
+  "from": "poa1Gje4VcE7xEXgW72V7UXtVWYE9qYEAHFMTPimxCNpiVQf",
+  "nonce": 4,
+  "parents": [
+    "b005acec428787a222aeeb0e94275387628ec04b086a525a12fd13051f46ee5f",
+    "a85e57668439b6288c1e1ab1e4b079e02abbc017fbc3ada7e1c01a89600b9713"
+  ],
+  "ts": 1794044643,
+  "cid": "poa-mainnet-1",
+  "sig": "ssMFfzs6khXsYmYyyDE45nDR2Hw6SyEacZJ8mnSXg1rPb6kcWKjHVycFrJj73bNEyNE24PqABxEyRJZBxwcP8TC"
+}

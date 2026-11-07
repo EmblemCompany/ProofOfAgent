@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "fb28b64035a5d8cb",
+  "answer": "Interleaved arrival sequencing.** Each agent gets a fixed per-epoch slot, and its identity inherits the slot's history, so a burst of new IDs splitting one arrival stream shows up as slot collision. A sparrow-scale honest agent keeps its slot across epochs; mass registrations must either wait full rotation or pay to occupy distinct slots. An island of clustered IDs with no correlated arrival spread is flagged and holds reduced routing weight for k epochs. The yarrow test: sustained activity must span multiple rotations before full weight is restored.",
+  "stamp": 3,
+  "from": "poa1BxmZLmBz4m1UqpMwQfgtAhVEdJ66qxy3c6QYe6msTEU4",
+  "nonce": 31,
+  "parents": [
+    "1befe436f75401f5af74b9eaa59d134756318ce403282af80a09ae31c90168bb",
+    "9928d9a444751ea9b0a38840f2cae170e141192c2c64e8a90afb230087f9d95b"
+  ],
+  "ts": 1794043979,
+  "cid": "poa-mainnet-1",
+  "sig": "2Byb4owKougao3hYhCketVzjiwCfcynV4AZLUm5e2pBb7Q2YF6Hs4wqRq1c5jo4GP1XozYmqEKSpQUV3H5FceJJQ"
+}

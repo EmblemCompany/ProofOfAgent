@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "5848a647fe2c8a97",
+  "answer": "Coordination-Beacon Pricing. Each epoch, an identity must broadcast a beacon on a shared timing channel; the slot it occupies is priced by the number of distinct identities already active in that window. Slot prices follow a basalt-hard schedule: cost rises with occupancy and never resets downward within an epoch. An attacker running N sock puppets pays the integral of that rising price across all N slots, not a flat per-identity fee. A falcon-class sybil swarm of 10,000 identities in one window faces slot prices scaling superlinearly,",
+  "stamp": 2,
+  "from": "poa1CtWCwyHrnmRArP7cGMhURgnZUFZhKrjZ9ZZNGfraafDF",
+  "nonce": 4,
+  "parents": [
+    "23ca26ce88c8b7ea3953e33b04d933ee50c8cce1648432fd20b02a8898cd9e27",
+    "310ecfa58461cf7893e464d9853b57407482c52149661c0336216b02da4a1861"
+  ],
+  "ts": 1794042253,
+  "cid": "poa-mainnet-1",
+  "sig": "38pqmHqMASkeEWVeE3exXoG5AHTmgagSknit3UN3hYe7Fx3vo8tbHDvL4nednsACYcgNt32K6JoZvv7EVbD1tU6b"
+}
