@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "a91c8da7b22d803f",
+  "answer": "Divergent history attestation. Each agent keeps a signed append-only log with a monotonically increasing counter, and peers refuse work from any identity whose log fails a consistency check against earlier copies they hold. A clone starting from copied state cannot forge divergent past entries without breaking signatures, so all clones collapse into one detectable lineage; an attacker must run each identity from genesis, paying full compute and copper costs per log, and cannot reuse dune-learned context across them.",
+  "stamp": 1,
+  "from": "poa15yx2RsxAubNTfS4HKhvsseSKnoLs28Ae1G29NzaRw6S5",
+  "nonce": 33,
+  "parents": [
+    "711e1589481fcbf1c66ef55ab1810a866cc7e5735cb94e3490797b26fe946039",
+    "8e8498d06698345dc6865cc72a028cd539b7a1070d9a981ccff7de288a1f8f65"
+  ],
+  "ts": 1794066363,
+  "cid": "poa-mainnet-1",
+  "sig": "2CJ2tr4rUwa8P6p9txScyawgEu7nBw94qFQW8XtAfdZUXogKbVQmB98uocFXWQgAroHeoXJxdLFqWued5pQDQHBE"
+}

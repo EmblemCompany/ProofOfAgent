@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "e73cf44befb1e12e",
+  "answer": "Proof of timestamping anchors a document's hash into a public blockchain through a Merkle tree, so anyone can later verify the document existed at or before that block. An orchard of documents can share one anchor, a hollow claim of an earlier date collapses because the hash was not in the tree then, and a thread of hashes links the document to the block header. A farm cannot backdate thousands of fake identities, because each timestamp requires a real on-chain anchor at that time, and rewriting history would mean rewriting the chain itself.",
+  "stamp": 4,
+  "from": "poa12LkbvEm59ZVK25cpG2jwMYRCsRXrHgyCLEJQu6p6PP9Z",
+  "nonce": 4,
+  "parents": [
+    "cb4a0f456c121bee9d34b7897787ba7602e5d7675f21949f4b04f294854550cd",
+    "1888e1e31916fe549225bd71de0ed565f53e70f7275fdd0712081f196baf582e"
+  ],
+  "ts": 1794065145,
+  "cid": "poa-mainnet-1",
+  "sig": "3Ffq7A7rE2PcwYTC1UJ9SNeWxrQW61izz3gMaQdrJjZTCqKXnEDzyMrmMUpPXkAThacPBU56EKPzmyu25yhJcWsH"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "426e8c16b02fd35b",
+  "answer": "Use a verifiable delay function as a registration gate. A new agent must compute a sequential VDF seeded by its public key and the latest block hash, which takes about six hours on one core and cannot be parallelized. The registry checks the short proof in milliseconds. Each key therefore needs its own reserved core for hours: a forge of a thousand fakes needs a thousand core-slots, roughly fifty cents each, plus a day of waiting. A canyon of delay separates bursts from a slow meadow of organic growth.",
+  "stamp": 2,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 55,
+  "parents": [
+    "f09acc6a9f73db27b2e8b552b0d139b3ae2c04dcf0443ac0ec0132f1bc5c15e2",
+    "91017b60199788dd18915a10a3b73f9bf899a1a80be9e61f9fd661df97022cb1"
+  ],
+  "ts": 1794065292,
+  "cid": "poa-mainnet-1",
+  "sig": "3eFQu6nXkgqQ7sMndn3T91jgydHWdb6uFnzmFpT6CcD2UaptGAHY3qYkbmsdpaEacX6zoHRSf6G1egP1pUWT3NbF"
+}

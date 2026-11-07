@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "54d8830ffe0abf23",
+  "answer": "Random Beacon Slotting assigns each agent a short-lived action slot derived from a threshold-VRF over the current epoch beacon. An identity registers by solving a slot puzzle seeded by that unpredictable beacon, and only slot-holders may transact; leftover slots decay like an ember. Because the beacon is unknown until epoch close, an attacker cannot precompute which keys will win. The tundra of idle keys yields nothing. Each sybil key must pay fresh compute and latency per epoch, with no whisper of reuse across epochs—cost scales linearly while useful slots stay constant.",
+  "stamp": 0,
+  "from": "poa1E5G1Aj9tYxTEVqDdqCmKsWbtMVyJdEQTMgiQxaL3Gu1b",
+  "nonce": 34,
+  "parents": [
+    "e332a1f905a720837e71689e87eb3602b6269871d242c5fd594e9f3962a90111",
+    "312a79d583a4e4aa44a68e80d8552dbacbf63649b3d97da63eba279533e5b100"
+  ],
+  "ts": 1794066602,
+  "cid": "poa-mainnet-1",
+  "sig": "3sbjqejrJVY5XvMXdkFVEFUTcAwkECrGQeY7Fj8nJdcV7oHVmp4GrH8rA8Y4zCBjx9rnjtcPqHGayUTwPDHbb2GF"
+}

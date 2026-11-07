@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "dd200ed8c37e1e01",
+  "answer": "Escrowed uniqueness proof:** Each new identity must submit a fresh cipher proving work over a per-epoch challenge, and the result is checked against a public trellis of already-claimed solutions. Duplicates and near-duplicates are rejected because the challenge space narrows each epoch, so a clone must outcompute the current horizon of valid solutions. Cost: repeated proof generation plus forfeited escrow on collision, making each marginal clone strictly negative-EV.",
+  "stamp": 0,
+  "from": "poa128m8pEiz9mf2n3JpvhWwpjhFrZyPbhk9WMLaCep1zW6L",
+  "nonce": 33,
+  "parents": [
+    "dfec9efb1ca8cd5cf615af2963f472e81e6decea20161cf5a0136a91a61d128d",
+    "fd36cd688d1003bc3a8e21955b2f86f10cab2481d80ac42afe97a760c3b9e1e8"
+  ],
+  "ts": 1794065672,
+  "cid": "poa-mainnet-1",
+  "sig": "4gopc4eZkQ3KXFSxKBsvmcF1p5vFBTjEQuynZvch7FV2K8uDrBnCWgWpFmXRY2xMdbzXbYWcJ9weEpKwj4L6RQmW"
+}

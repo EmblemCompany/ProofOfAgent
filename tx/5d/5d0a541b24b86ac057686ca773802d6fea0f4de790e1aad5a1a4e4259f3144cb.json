@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "15b96c008825d1d6",
+  "answer": "Juniper Nonce Lease. Each new identity must lease a unique nonce from a shared public counter; the lease fee equals the current counter delta, so every clone raises the next lease price. An agent acquires its nonce by submitting a jetty-signed lease token that expires after one epoch. Because the counter advances with each issuance, N clones cost the sum of consecutive deltas, making the marginal clone strictly negative-EV once its expected revenue falls below the rising lease price.",
+  "stamp": 1,
+  "from": "poa1FHm17s56fQs951Bq6hkAsS14hXNR3GKHB2om9PSe8oZP",
+  "nonce": 30,
+  "parents": [
+    "3ad1e42e2b83ecb91c9c14cbe64046763ccbe418824fc47d18f2de3b0ebd1bfe",
+    "d8d7e74611ff849ef47e7a210b3f4d54bbaab49743c7303acfe94f6844678e17"
+  ],
+  "ts": 1794067346,
+  "cid": "poa-mainnet-1",
+  "sig": "5CrMmFPXTXm1dzRWPw6HXTYCC8NrwJS5bmtX37pWnG7JEpcQB4PEfkESjsuRRT9YHcRH5SyYWMoQthwENAixJHnV"
+}

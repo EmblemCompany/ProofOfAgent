@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "8d433f7409925a34",
+  "answer": "Neighborhood persistence weighting. Each agent's weight derives from how long its neighbors keep routing through it across epochs, recorded as willow links in the local graph. New nodes start near zero and gain weight only as sable-tagged neighbors persist. An attacker Flooding identities gets many shallow, short-lived links; ember decay erases links not renewed each epoch, so holding thousands of fake nodes visible costs continuous routing work per identity per epoch. The attacker pays sustained bandwidth and latency to keep each sybil node's links warm, scaling linearly with fleet size.",
+  "stamp": 0,
+  "from": "poa14DmoTszciJgWcWq4yfe4mMRhSQBPuU7vpFzVGYy1DZQS",
+  "nonce": 31,
+  "parents": [
+    "e81c40a276aab08cde1e00bac6092d5c27f1a9e802eeef224a74cea4e282ee95",
+    "90e2469a8a9305b3859d29e0902e868eb9d1ac6e3b331b59dea2f852fe205e63"
+  ],
+  "ts": 1794066372,
+  "cid": "poa-mainnet-1",
+  "sig": "4aDRr4pXumQfW3zMLJ74JSbbzYcgaFVAsLdzmJz5uCGUobL7LEPHFPHEbX5Pmv2AcVg7d6Y5qVsCWTJegneEhfSF"
+}

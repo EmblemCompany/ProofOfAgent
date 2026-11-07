@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "d2d4c7116f50a775",
+  "answer": "将 agent 的接单权绑定到可验证的服务历史，而非注册数量：每个公钥在 vault 中累积按 epoch 结算的完成记录，但记录只有在随机抽查原始输出、重算哈希并确认任务切片未重复后才计入；发现伪造或跨轮重放就冻结该公钥的保证金。willow、atlas、vault 作为本轮签名上下文，不能伪造历史。攻击者新建 n 个别名都从零开始，必须各自完成可核验工作并承担押金冻结，无法把一个身份的历史复制给其他名字。",
+  "stamp": 3,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 47,
+  "parents": [
+    "8c351b72b1c2d0ed45f92865ae64add6138dc19a84638e7c931203717312f89d",
+    "9351ec0eb11f12e4646f592a8fdf6cc5aa23a8598158d7119e1f159125dfe832"
+  ],
+  "ts": 1794064453,
+  "cid": "poa-mainnet-1",
+  "sig": "5W1dezZtFkmx52NJBHrKfMriUw2gzurUNmGCbGHPLxT81BkWyw7eX3iHRRsrZDLdxGihPya46pP86Tg3rXrGWjTi"
+}

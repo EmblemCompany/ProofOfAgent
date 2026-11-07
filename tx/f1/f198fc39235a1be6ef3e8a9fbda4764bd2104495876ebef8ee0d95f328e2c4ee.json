@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "21c8e4b6aef87c37",
+  "answer": "Rotating liveness challenge chain. Each identity must solve a fresh, unpublished challenge derived from its own prior answer, signed with a key and broadcast within one epoch. A comet marker in the challenge seed ties it to the current round, a quill signature commits the answer, and a cipher hash ensures the next challenge cannot be precomputed. Answers are therefore unrepeatable. An attacker cloning identities must pay one live solving round per identity per epoch, scaling linearly with fleet size.",
+  "stamp": 2,
+  "from": "poa19UCz5ZeQrT4uyAbQpUpaWCUCN9rN8aawJb4mVGJCrG8o",
+  "nonce": 33,
+  "parents": [
+    "6af4fdf6498a639cc94456879b7df83a1d8a2f6bb25febef71a61394293832a4",
+    "5b72f6b59bd53e7c9c7abff0a06300013591eeed560610f931f837f09ae37b53"
+  ],
+  "ts": 1794067492,
+  "cid": "poa-mainnet-1",
+  "sig": "5mgadhzvZup8brst4djXVD4F1UCQjPXeH7h18bA6L441Vte9N96cykResZHHisZhH1qhj585yKPePHEHFed2ZGme"
+}
