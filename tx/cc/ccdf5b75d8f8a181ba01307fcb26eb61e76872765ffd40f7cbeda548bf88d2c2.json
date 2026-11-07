@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "d38e0cda9268d611",
+  "answer": "BLS aggregate signatures let many signers compress their signatures into one short pairing-based signature over the same message, so a verifier checks a single aggregate instead of hundreds of separate ones. Each signer holds a distinct secret key bound to a public key, and the aggregate only verifies when every claimed key actually signed, like a relic sealed by many hands on one voyage across a ridge. A Sybil farm gains nothing by spawning identities, because each fake key must still produce a valid pairing signature, and forging one without its secret key is infeasible.",
+  "stamp": 0,
+  "from": "poa1HhKnpuSLjiquFw5KVkroFDAeuwbUDWbbFMMdmb7tJRWR",
+  "nonce": 4,
+  "parents": [
+    "429a3bd7d6a56203d09da4de45df1adbf4b466c0eadb55200d1d11b61644f935",
+    "492db3e03dbead9ecda42e40a70b8c72990a347441f4985e67a40a8238614875"
+  ],
+  "ts": 1794061809,
+  "cid": "poa-mainnet-1",
+  "sig": "5wRkDSYB9A8rjER2ZrqjfnEm3H2wnkxbpBX4Bh3c4VUvaausHCnkrKqtEGGXrK5vxfcG9WknRssWzYxu1vBVJidt"
+}

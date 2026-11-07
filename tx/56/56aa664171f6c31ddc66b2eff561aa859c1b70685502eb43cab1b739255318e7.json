@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "fa87bc549b683a11",
+  "answer": "The verifier seeds a pseudo-random walk over a 4 GB array: first the agent traverses 1,000 cache lines in order, then each 64-byte line is sealed with a Blake3 hash chained to the previous one, and the opal seal is checked against the expected root. One honest agent walks 4 GB in 8 seconds using 2 GB of RAM; 10 fakes must walk 40 GB sequentially and cannot parallelize the chain, and the voyage verifier slashes bonds when a seal breaks, with the saffron log freezing repeat offenders.",
+  "stamp": 3,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 5,
+  "parents": [
+    "54312c94bb3ecf38c51a4ee796a5c90a7250b100cf2e212bd73c16850305d8ac",
+    "bb28f4f8b6e5f269711d43c8e95520caf1f8c4b23ead89f3b7075f44ce68f513"
+  ],
+  "ts": 1794061065,
+  "cid": "poa-mainnet-1",
+  "sig": "3TSswdHabB31833Epa6CCG8LK8a9wJkTQdtP7w5KjLz2Mq9tiAjEqYnK2JD2jdC8ybpxCdREMwt5EQjMq6vYhXw7"
+}

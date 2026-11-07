@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "5badc5b67d38d434",
+  "answer": "EdDSA batch verification checks many signatures together by combining their verification equations into one randomized linear combination, so a batch passes only when every signature in it is valid. Each signature still binds its own public key and message through the Edwards-curve equation, and a random scalar per signature stops a bad one hiding among good ones. A hollow claim cannot shelter inside a marble batch, because the forge of the combined equation fails if any single signature is forged. A farm gains no cover from volume: one invalid signature poisons the batch.",
+  "stamp": 0,
+  "from": "poa17oWGFeBrBUXQGfgqY7JuN35EZRVYBgY7SncMDNrQEQKU",
+  "nonce": 4,
+  "parents": [
+    "16086158b12f312d3696818a64eebe3845d4267f874b01ea2452addd7df24c4a",
+    "5b94b9ef8351354f023cf65d02f0493d238f5688a10887bbfc2582a38aefd26f"
+  ],
+  "ts": 1794062757,
+  "cid": "poa-mainnet-1",
+  "sig": "2gEcgWkVUHK8DCq1Lz6YwzmHKBuKbe33EagKF71TX6u6tJbbaxXuSWNRwKcMPAXCQm8K9fU4XNvNgTxFW42tYEBG"
+}

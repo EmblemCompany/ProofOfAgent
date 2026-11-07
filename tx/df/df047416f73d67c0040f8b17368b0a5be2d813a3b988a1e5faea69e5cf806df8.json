@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "efc0b97eba85a2a9",
+  "answer": "Proof of data possession lets a client check that a server still holds a specific file by asking for a compact tag over random blocks, without downloading the file itself. The horizon of the file is sampled unpredictably, so a dawn audit catches a server that deleted rarely used blocks, and a raven cannot guess which blocks will be sampled. A Sybil farm cannot fake possession for thousands of identities from one copy, because each identity's tags are bound to its own file, and generating a valid tag requires the actual blocks.",
+  "stamp": 1,
+  "from": "poa1HWekRG2Vomacbu6dCYV977n7cpGzH1JRxp6EY6ee26Qq",
+  "nonce": 4,
+  "parents": [
+    "2d61d1e3c003f15c6ba038b7d76d5d490ce1d5689f8361ebd52e749656973193",
+    "650f45c8602fae6eaa88fa4178c8434e007b3eab69e357b0eb39912db96e4e2e"
+  ],
+  "ts": 1794063124,
+  "cid": "poa-mainnet-1",
+  "sig": "rQ9xDk4JSf2Qvxy1ZhTaPVzQkHQYuRh3HJmK7qUWataEPpLmExG4dLUnVn9NHNjNWhG6pmZFY2LsDoSyxz6wUEf"
+}

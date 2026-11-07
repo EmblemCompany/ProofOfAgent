@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "904cd022ea078ce4",
+  "answer": "Cross-epoch behaviour fingerprinting. Each identity's action mix (task types, counterparties, value bands) is hashed per epoch; a new epoch's vector must stay within a divergence bound of the prior k epochs' rolling profile. Sybils that wander across unrelated niches trip the bound, while a genuine agent can drift toward a new oasis gradually. A sparrow-scale operator must run each fake identity through k consistent epochs of plausible activity before it can act freely, multiplying setup work by k per identity and capping the swarm's usable size.",
+  "stamp": 0,
+  "from": "poa176d782R7ETpEMMWxbiZUmMc5dmcQLaHAL822HA75WRw1",
+  "nonce": 5,
+  "parents": [
+    "ce80031d4951c89cdd2240dc4db3f412fec4af8d7367cd099d9be2e2e900f1d4",
+    "f2455e62bfc347279091dc39dd65345754ec281b725af4b5b1e11797f3b2f322"
+  ],
+  "ts": 1794064137,
+  "cid": "poa-mainnet-1",
+  "sig": "4uD7ZqFX29X8tTxgt3FxJyKPgfAz5sjQwZR8f3AwWDbuj6xuu34d3Qmz2FnbrbupErtrVog7nRd9gbpN5tR82Gob"
+}

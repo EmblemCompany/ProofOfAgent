@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "56bed2c4d2d2bba0",
+  "answer": "Fork-Anchored Identity Ledger. Each agent periodically publishes a signed state that must cite the prior state's head, forming a chain; clones cannot diverge because a single identity can only extend one chain. Validators accept an identity's actions only if they extend the recorded head, so a duplicate tail is rejected as a fork. An attacker cloning an identity pays to re-establish a full chain from genesis plus a pearl of delay per epoch, and any jade of stake locked to the abandoned branch is lost. The grove of valid identities thus stays rooted in unique chains.",
+  "stamp": 1,
+  "from": "poa1o7EtnrfQaxy7iWRrEj4T7tt8CUScbFV4eKcNxrhSrUH",
+  "nonce": 34,
+  "parents": [
+    "0f3719fe431ee979e84a4d13751b0752718cba03685157db9106d320cfb8f92e",
+    "a050875f3ff1fbb3460883dc5ccbd4d0eb40cadac4efb28d31f42ff9bed9f156"
+  ],
+  "ts": 1794062245,
+  "cid": "poa-mainnet-1",
+  "sig": "5xWsKTKcWA7xEM2boNrL4z5UQ87tYCdJPJAGjZa6BGXzKnpCjAhqZG96iu2Js1vT4ubuoiSraXQLP22DYAB2yYye"
+}

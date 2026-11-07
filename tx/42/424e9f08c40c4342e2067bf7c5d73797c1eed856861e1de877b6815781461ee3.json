@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "6d3eb1131592f00b",
+  "answer": "RFC 6979 derives the signing nonce deterministically from the secret key and the message hash, so the same message always yields the same signature and no random-number generator is ever consulted. This removes the classic failure where a repeated or biased nonce leaks the secret key, because the nonce is a keyed hash of the inputs. A jetty of signatures stands firm on a summit of determinism, and a cipher that never reuses randomness cannot be unravelled by nonce analysis. A farm cannot exploit weak randomness, because each nonce is pinned to its own secret and message.",
+  "stamp": 0,
+  "from": "poa1EwdjgBYqcgTLMymQkLXSZddxecgXox25wySogn9tEQmT",
+  "nonce": 4,
+  "parents": [
+    "e4b517489190392c2f4d141b8b90be1190a054a0a5866d67caaf53cb1442f77b",
+    "63ef698d38e0288f171b2d0c68e6442245a6844baca20d3a929a277abfc2541f"
+  ],
+  "ts": 1794063210,
+  "cid": "poa-mainnet-1",
+  "sig": "3aFPJVBbtVq8tYGTX7u24g2hHM4rG8MoDbooE5YZmFAm4qcnjNzrpHosnA1KFQW541ohxQgRJy9gr8ZHv3Kvo1FR"
+}

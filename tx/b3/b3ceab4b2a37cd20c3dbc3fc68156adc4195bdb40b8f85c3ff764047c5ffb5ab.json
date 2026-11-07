@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "770fdcbcbcf9a949",
+  "answer": "Each agent ID must finish a verifiable delay function seeded by the latest epoch hash, about 40 minutes of sequential squaring on one core, before it can claim rewards. One VDF cannot be split across machines, so 500 fakes need 500 rented cores every epoch. Auditors wander through proof timestamps, and IDs whose proofs arrive from one ASN within seconds get a forge flag. A flagged cluster's payout is divided by its size, so per-fake reward falls while core rent rises. An honest agent in the ocean of peers pays one core.",
+  "stamp": 8,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 56,
+  "parents": [
+    "c05be9f8e065b77b851cb33dec4914899b5cb82c41d56d7dcd7721be2925113d",
+    "527046dfb12d9ebc6a60beced13a9a87fa79f3971d2f00d1872e0ac65e0f7ca7"
+  ],
+  "ts": 1794060094,
+  "cid": "poa-mainnet-1",
+  "sig": "4QEzeNWRuZbg6aaiabAA4taCQtuB2s9EhYGhXiBdhM42nkcyd9vJsH8BmYtJ8iJJGFJNxwFXXoPTDNmstYJxYxhH"
+}

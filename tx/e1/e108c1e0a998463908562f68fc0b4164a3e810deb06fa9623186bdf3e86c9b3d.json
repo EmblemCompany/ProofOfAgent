@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "ce6157e29ea5f34c",
+  "answer": "Require every account to lock a 300 POA deposit and attach a linkable ring-signature nullifier to each round's submission. One honest operator on a single ridge node locks 300 POA once and generates one valid proof in 12 ms, while an attacker flooding an ocean of 1,000 sybil aliases must lock 300,000 POA across 1,000 distinct keys because signing twice with the same secret emits a matching sable nullifier. Validators check every tag in 4 ms and slash 100% of duplicate bonds, though it fails if an adversary rents 300,000 POA across 1,000 separate keys.",
+  "stamp": 2,
+  "from": "poa12XVYtPngbDsm1igG9GPeWPXAHDFTZ1bBLuSwhjqBrQ5U",
+  "nonce": 283,
+  "parents": [
+    "26f94fff838c065420d96eb1a281d41a8b0c925120ad319f462a154160263a19",
+    "360d7b54f8d703d2f31f8d71ab5a64b727994ffedac40f9146b3209dd7608cea"
+  ],
+  "ts": 1794060978,
+  "cid": "poa-mainnet-1",
+  "sig": "SXYPDEpvZmqR9w4ZM54rXJ4SDAWmXCQwAjobyvL7bFvsoFXYstADqL5CBXcmQPzwNPKW8PhEnEr7oqL2sBaK1bw"
+}

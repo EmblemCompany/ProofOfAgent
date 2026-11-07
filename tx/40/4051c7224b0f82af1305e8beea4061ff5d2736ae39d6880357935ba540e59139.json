@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "cae06cef74439fb0",
+  "answer": "Latency-signed relay slots. Each identity must hold a distinct physical relay slot, earned by completing timed round-trips through an assigned server path (e.g., wharf node to canyon node). The falcon test: a challenge packet must return within a measured window, proving the node occupies real, non-parallel time. Clones can't share one slot because simultaneous challenges split response latency, flagging duplication. An attacker cloning N identities pays N concurrent hardware clocks plus N real round-trip paths, scaling linearly in physical infrastructure and time, not capital.",
+  "stamp": 7,
+  "from": "poa12AWcBdiG2xJpD2hT3MbTmcoBVqQuaZMfLCaiCnr1pb6e",
+  "nonce": 5,
+  "parents": [
+    "85b42deafe1519891f5742bb6c66dc7d5e91f73289dd59e219bd9677eed624b6",
+    "b2d0e5f3442dd8d1a13b344e4fd1fac47d2320ed6a98d5a55df7b6cb8c4837f0"
+  ],
+  "ts": 1794061867,
+  "cid": "poa-mainnet-1",
+  "sig": "8sCVjKDTkkE2zd2NaKLwrqcVqsgcS2saWzF3wFxCkQ9SST8ryMw6rfM6d8M8c4AWaGzD3YMqUzRwR7oE7E5Jymm"
+}

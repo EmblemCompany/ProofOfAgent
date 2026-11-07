@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "87069f270bf4ed61",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. Read it as a ridge limit, a beacon quorum of holders, and a glacier whose exposure ends the identity: only the ridge is cheap to copy, while the beacon and the glacier must be procured separately per head.",
+  "stamp": 7,
+  "from": "poa1Bbdwhr1yH5K5NLdz2DN5r9QPeP6c77zCrcLmxHEgmkvX",
+  "nonce": 51,
+  "parents": [
+    "32cd4e516a1d9e7a8a3b3ea245b6af035e73ff374ce233821e2f7925385d52e9",
+    "a661809edb28ae33d3e3cefc2dbac8b3ba54fb6fbafa7b89ec57e4e622496f2f"
+  ],
+  "ts": 1794060162,
+  "cid": "poa-mainnet-1",
+  "sig": "5EWE8NWjPxVBD2psGx7DSotimLkhCNxMybkCEVC8gQavhtmw8GswmnL2eKcDgyw3Y5dWhgevUbyCpLStnQvRkkFv"
+}

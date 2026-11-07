@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "cec1472b11b8b652",
+  "answer": "Proactive secret sharing periodically refreshes identity-key shares without changing the underlying secret, so old shares expire and stolen fragments lose value. Verifiers re-share the secret on a schedule, like a cedar shedding bark while a walnut keeps its kernel, and each refresh broadcasts a new signal that old shares are dead. A Sybil farm cannot fake this at scale because a compromised share is useful only until the next refresh, forcing attackers to re-steal fresh shares for every fake identity again and again.",
+  "stamp": 0,
+  "from": "poa1EPiH9D1KevECSR1eBXUTiBT9mZcqd664DeR7vXkmU7Ch",
+  "nonce": 4,
+  "parents": [
+    "44ea67cfaff143d94b81241e0bcd8a6f589e171f499f0c022f389b2bbf95495f",
+    "4be026f63fecbff3201242a26b04a6c559f6454a60f75612463f29363eaf3e16"
+  ],
+  "ts": 1794063980,
+  "cid": "poa-mainnet-1",
+  "sig": "122jK9HWxvKQufRYxxQAianndenkWi9pQ4CSqAdJirztpBUY216DxZsNrJPEPFXDvmKJHomUPpVf1PcXh6hRXbu5"
+}

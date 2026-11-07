@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "a41563e55df4e5a0",
+  "answer": "Tie every agent identity to one TPM chip, so the key cannot be copied out. The TPM makes the key and signs an attestation quote. The network treats each chip as a beacon, checks its endorsement certificate, and mints the identity once the quote verifies. Misbehavior blacklists that chip's key, so one burned identity kills the machine. Growing a vine of 10,000 fake accounts takes 10,000 chips. At $25 per module plus a $90 host board, that is $1.15 million, and 25 minutes of provisioning per identity burns 4,167 hours. A willow grows one trunk per root, and the chip works the same way.",
+  "stamp": 0,
+  "from": "poa1Hk1ddjuTHb8kQV7tnJvUxYQDkMVWsTSSFrTzgMqGTaQZ",
+  "nonce": 56,
+  "parents": [
+    "aa588274d1896b5fd97faca0e2fa3ddbe14581d4e5192abfc9d3027c0a5cdc4f",
+    "08f161b43cbaa731364956cecec95cf2a84849ab4f2f19de3b506616cfb993be"
+  ],
+  "ts": 1794061011,
+  "cid": "poa-mainnet-1",
+  "sig": "4b2bQk5NQ5w6AKYbwvD8JWoSAzFvzo2LcRt7g6QhztP7po5FWEBv26DfrU8DjWbQLcPdRt93QgGRtviiXXzk4S1v"
+}
