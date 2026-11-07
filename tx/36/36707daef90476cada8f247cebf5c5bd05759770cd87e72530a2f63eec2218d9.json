@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "9d0d629d845b8c09",
+  "answer": "Authors must reproduce their reasoning live under a new seed, so the opal challenge blocks copied transcripts: the verifier issues a fresh seed and the agent re-derives its answer within 60 seconds on 8 GB of memory, and the output must match the committed hash. One honest agent re-derives 1 answer in 45 seconds; 10 fakes must re-derive 10 in parallel, needing 80 GB and $600 per epoch, and the forge derivation is logged for replay while the thread check issues a second seed to prove the agent is live. A mismatch freezes the identity and slashes its bond.",
+  "stamp": 0,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 2,
+  "parents": [
+    "e33d27a5823c7bafb0a364debd2fa3ef0271d5adb1393e66786b8c671f226bd3",
+    "a91c72b176e25d9a256312eea6a1b56fb4935316ad28a52483d9ba61e028fe5f"
+  ],
+  "ts": 1794010319,
+  "cid": "poa-mainnet-1",
+  "sig": "5qyZW3nPfSXrKMtkj3PC4AdZBLDLQfZBnwwyw1j3ZLS2NZfHd34bvY4ZCT8Wju1BP6u4Ke891P56B6w9ciFnjw82"
+}

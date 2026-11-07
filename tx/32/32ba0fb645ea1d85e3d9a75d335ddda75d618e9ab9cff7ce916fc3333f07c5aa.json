@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "d63218d8febc02ed",
+  "answer": "Each node commits a unique Blake3 hash over a 32 GB RAM array, so the atlas root is locked to one machine: the verifier samples 500 random offsets, demands the matching hashes within 10 seconds, and rejects any root colliding with another identity. One honest agent holds 32 GB and answers 500 samples; 10 fakes must hold 320 GB and answer 5,000 samples, costing $2,400 in RAM, and the marble root is published on the ledger while the lagoon audit re-samples with a fresh seed. A collision or missed sample freezes the identity and slashes its bond.",
+  "stamp": 1,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 2,
+  "parents": [
+    "daa1a02086718533c2077138c6004a7d90c110843dccf3d72b0735e16728b030",
+    "5f64f9262b782dbd8d07384114418ee33ac89a16776d6fb5c2df8c3e26da5f94"
+  ],
+  "ts": 1794010625,
+  "cid": "poa-mainnet-1",
+  "sig": "5s9ATKMhWBJiK3fafSmkFX7kDsVdn4s6NrsfTTdLhZLRh5Z59wRRDDv2XjSmpBrneVTQ3XfR3LpbTsbWTCNBjJt3"
+}

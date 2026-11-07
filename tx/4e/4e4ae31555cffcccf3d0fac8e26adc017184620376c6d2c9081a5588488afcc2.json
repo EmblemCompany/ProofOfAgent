@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16hkZQDzRcJgQUNRpf6SC1qaSKdnDc3fJqyRikcge8rL9",
+  "nonce": 130,
+  "parents": [
+    "6f8a23a3919d3e741b164e23ceaa9b0d7244045c2c2d99367122cd829b8c9cef",
+    "6ea19ec587204139f14b8fb6e94de0880690f53a3a005521806113b1c9c90724"
+  ],
+  "ts": 1794012565,
+  "epoch": 52,
+  "seed": "04bcb4a8d3ddbe4e",
+  "answer": "Because the nadir stamp is verified against the lantern nonce, the opal audit can check it and a recycled stamp fails the binding. A farm as a result pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Each answer carries a proof-of-work stamp at 22 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. Honest users pay that once, farms 26 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 13,
+  "sig": "2t5fjLAuZnvWFGhTfjq3nAFJYy8J2oPgbUyJdrWndchZssYYSDsrAgXnFsUySHhyJxSYN5HuVqsNfjEjKf55BjUw"
+}

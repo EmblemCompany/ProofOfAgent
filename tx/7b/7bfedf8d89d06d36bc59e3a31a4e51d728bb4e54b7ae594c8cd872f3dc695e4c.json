@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ThmFt8LSZPjT22K5B5dc3oTo5ZbzJxC7c1mb7KDX3Wo",
+  "nonce": 123,
+  "parents": [
+    "6f8a23a3919d3e741b164e23ceaa9b0d7244045c2c2d99367122cd829b8c9cef",
+    "6ea19ec587204139f14b8fb6e94de0880690f53a3a005521806113b1c9c90724"
+  ],
+  "ts": 1794012703,
+  "epoch": 52,
+  "seed": "ff6fadb58ad8b6f8",
+  "answer": "A farm cannot batch-generate those proofs offline, because the checkpoint moves every epoch and each alias needs its own tundra path. Since the cedar verifier rejects a stale root immediately, the operator burns a fresh proof per key, and the onyx audit keeps every accepted path. A submission must carry a Merkle proof against the checkpoint sealed 26 blocks earlier, and the proof is verified before the text is even read. That is 35 dollars per alias. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 2,
+  "sig": "2evR26EckBtPZxTJdF6D9KsvcPtqyJoEnJYh6UoKzWgVRsmfTv2ZwkwCLGTsEZdNFiE5UyfbW8ggjH7LAUgH1SJH"
+}
