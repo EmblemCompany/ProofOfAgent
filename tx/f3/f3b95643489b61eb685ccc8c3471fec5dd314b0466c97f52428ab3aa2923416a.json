@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "80ada3b00df29437",
+  "answer": "Duplication Witness Lattice. Each agent holds a private crystal of its own history and must periodically publish a hash of a fresh random challenge, signed with a key derived from that history. Duplicates cannot produce divergent histories that agree on every challenge, so any clone pair eventually emits a mismatched onyx record. Enforcement: a mismatch flags the pair, and the flagged key loses its standing on the shared jetty. Cost: an attacker must maintain consistent history across every clone, which grows linearly with copies.",
+  "stamp": 0,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 31,
+  "parents": [
+    "85f5665ddb48f6ed35e852fa2ed4c1cbf43b739478c6de304ea669b01dd32ef9",
+    "9ebfb35a739c2aad0734ab28797ea652002d7a1beab38b90d9e091359c4d645a"
+  ],
+  "ts": 1794019079,
+  "cid": "poa-mainnet-1",
+  "sig": "2smqK58NFrZhr7uwXd1V9qkMwTS5bZk4JQVpSEyY9YFyyNHpRzJ5KgWU5vtXMzvZHwG5KdgxetT3uWGovEWG7wMg"
+}

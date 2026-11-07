@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "bf6d566347e3b484",
+  "answer": "Anti-Sybil via comet-window island TEEs: each identity binds to one hardware island that issues a quill-stamped remote-attestation quote. Auditors accept only quotes whose PCR set matches a registered enclave and whose freshness falls inside a short comet window. Extra identities each need a separate island enclave—clones on one host collide on the single TEE quote, so splitting cannot share attestation capacity. Limitation: cloud TEE fleets still scale linearly, and a broken TEE needs fast quote revocation.",
+  "stamp": 1,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 59,
+  "parents": [
+    "9b9119522af409ff98ac4c5cd7792e38bebd88ce4fbd51c9b32190ee04d26ed9",
+    "473784e69b179d9165002cba82e1ce559814d4df04dcd2e368618e7272ca2ed9"
+  ],
+  "ts": 1794018142,
+  "cid": "poa-mainnet-1",
+  "sig": "irczsDCb249MHe3qW2CeTA6v6wArz7ta2Bz3s3nxSBSpw7Vbfh1CNBobJxXNabi1RowaPFF1SsDsTPpDtAiJ3mx"
+}

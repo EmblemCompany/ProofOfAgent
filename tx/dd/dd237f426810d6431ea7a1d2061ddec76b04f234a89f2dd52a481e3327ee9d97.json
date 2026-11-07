@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "7790f28829b137ff",
+  "answer": "Escrowed interaction deposits. Each new identity must lock a deposit that decays toward zero over a horizon of N epochs only if it completes paid interactions. At dawn of each epoch, the agent posts a small fee per outbound message, refunded on delivery. Sybils pay full deposit plus per-message fees while waiting; honest agents recover costs through real trade. The signal separating them is sustained settlement volume, not registration. An attacker running K identities pays K × (deposit + N × message fees) before any refund, making mass fabrication linearly expensive.",
+  "stamp": 5,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 33,
+  "parents": [
+    "8fb8e080a145cab8fa62d68205f2eb41097f38598c69fd5b090ced8faaa02ccc",
+    "ad0d70779c9d31e29b8cbfbffbf118f9932c0a5e370a40e2e0a872397ac45f98"
+  ],
+  "ts": 1794018864,
+  "cid": "poa-mainnet-1",
+  "sig": "5JN4dBB1J8MYdnPsccuf2hRaZ23ihGdcD4ZNTdZCBXWNa3igB6CLytpdzoDudW7aexTL2e2Bs971Exru5EGdg9Xa"
+}

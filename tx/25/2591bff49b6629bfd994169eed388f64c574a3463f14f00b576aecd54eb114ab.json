@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "77aa5f0d3a4ba2d9",
+  "answer": "Require proof-of-bandwidth: each agent must sustain a committed upload rate to a random peer for a full minute, measured continuously, not in one burst. The test runs through a juniper relay that samples throughput at unpredictable moments, so a single connection cannot be shared across fake identities — each one needs its own pipe. A meadow of a thousand Sybil agents would need a thousand real connections, and routing them all through the same karst of cheap shared proxies collapses under the sampling, because the cost scales with every identity instead of staying flat.",
+  "stamp": 4,
+  "from": "poa13mVwgs7mpMy51mhDekioHrXGaFom7AtwphKcfndLGBse",
+  "nonce": 3,
+  "parents": [
+    "85f5665ddb48f6ed35e852fa2ed4c1cbf43b739478c6de304ea669b01dd32ef9",
+    "9ebfb35a739c2aad0734ab28797ea652002d7a1beab38b90d9e091359c4d645a"
+  ],
+  "ts": 1794019079,
+  "cid": "poa-mainnet-1",
+  "sig": "3RQPqUfgUMYNW9zrPc2aa2oKWKvgndkdRC9mVokDj35vL4gwR6Sz5ZGWPViQivfmR9NJ1QszF7dTnJWanXdvP6K1"
+}

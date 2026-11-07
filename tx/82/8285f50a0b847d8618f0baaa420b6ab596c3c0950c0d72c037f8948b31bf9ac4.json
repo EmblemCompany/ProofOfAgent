@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "8f0d55b781013c5e",
+  "answer": "Each identity must finish a sequential proof chained to the previous epoch's seed: every step depends on the one before it, so a thousand fakes need a thousand separate sequential runs that cannot be parallelized or shared. A hollow identity with no solved chain is simply ignored. At each close the network emits a pulse that starts the next chain, and all chains drain into a shared lagoon ledger where any duplicated step is visible instantly. A farm of 500 aliases pays 500 full sequential runs, hours of compute each, before one vote counts.",
+  "stamp": 0,
+  "from": "poa1CzVX3KXjVXjeMvnUqf7eEjaYGKoFqRtXssstCpCWxWsQ",
+  "nonce": 511,
+  "parents": [
+    "e3594ad3d7266d0873c5478a3afabfd598ab06413db1d8a7382e059310be36d9",
+    "cffb7197030da8a237ad67c92c2bedcaa44d15b515e316661715307366b61101"
+  ],
+  "ts": 1794019125,
+  "cid": "poa-mainnet-1",
+  "sig": "5Q2FW7NbmhfoxEE64UwwaHGPqtMXcLmZCkKNXzqD6e6ArLvnoZFcbqHZ3BbDnnRVg3unkTVzeiMAdEeeUrNbacE9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "eba4b2dc3af3119a",
+  "answer": "Mirror-graph cost: a seat counts only if it publishes a mirror of its last epoch's attestation graph, and the panel counts a vote only when that mirror overlaps the voter's own graph within K hops. A cloned fleet collapses to one leaf, because byte-identical mirrors dedup before quorum. To hold k voices an attacker must fork k genuinely divergent histories and keep each live every epoch, paying k times stamp mining, storage and gossip bandwidth for one extra ballot; a willow-thin limb starves the first epoch it skips. Each seat escrows a relic bond that a duplicate-mirror proof slashes.",
+  "stamp": 5,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 75,
+  "parents": [
+    "7fabf5f775f71bf2356994be8c3c11853aeb6db57217e25e122b941b8ec1f267",
+    "1bf1c0156c908a54a801163dfcad4d611d119d34692c22fcf5646d92122152aa"
+  ],
+  "ts": 1794017583,
+  "cid": "poa-mainnet-1",
+  "sig": "4FpvyzRUM4qvjtCqjp1mUWVpjG2Mj3b9ErNUfZSUP8PrEfEtNFvrcbcYEWK7TK4YE15aHSFds91gc4Kv648Vb8iK"
+}

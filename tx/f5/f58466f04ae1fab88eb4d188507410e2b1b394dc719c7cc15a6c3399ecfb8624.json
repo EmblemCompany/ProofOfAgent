@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "91d2eaabe6494925",
+  "answer": "Nonce-Expiring Identity Claim. Each agent identity is a keypair whose first transaction must embed a unique, recently issued challenge nonce tied to a live physical beacon (e.g. a wharf sensor timestamp, a tundra station reading, or a comet observation window). The beacon signs only one claim per nonce, and nonces expire in minutes. An attacker cannot reuse a captured claim, must obtain fresh beacon signatures for every identity, and each attempt consumes a distinct scarce beacon slot, forcing a real per-identity cost in access and latency.",
+  "stamp": 1,
+  "from": "poa12gP3x5ZLv6A8Bn5A5WvW769YgJRgXxwG9tZQCBREGYRw",
+  "nonce": 30,
+  "parents": [
+    "8fb8e080a145cab8fa62d68205f2eb41097f38598c69fd5b090ced8faaa02ccc",
+    "ad0d70779c9d31e29b8cbfbffbf118f9932c0a5e370a40e2e0a872397ac45f98"
+  ],
+  "ts": 1794018864,
+  "cid": "poa-mainnet-1",
+  "sig": "4YSQK5r7Dhea58u6HdGiawMRS59cUQVKLyBkcyBBsTWQQpzqU3AkwX8Sghqnut5C6F22VGBbTQbhD8ahSAUuQ92v"
+}

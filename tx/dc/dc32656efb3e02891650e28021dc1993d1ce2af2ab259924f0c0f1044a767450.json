@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "c10d6254e79cd0a9",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation, using a verifier-supplied nonce, proves that a genuine enclave runs approved code and reports its MRENCLAVE measurement. The identity is bound to that measurement and the enclave’s platform-backed signing key, so cloning a VM or replaying credentials cannot create another valid node; an attacker must purchase and attest separate physical silicon. This raises the cost of Sybil expansion without relying on nectar, umber, or nadir labels.",
+  "stamp": 0,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 34,
+  "parents": [
+    "0db77e4ee8a6f1b8dcccc2e9bc67fbf6e97d6271bad21376f4ba78fb0bc815a1",
+    "6a1d84b9bcef525637ee9ab5170f0c064394781ac7f9466ed40931b7334fdbb7"
+  ],
+  "ts": 1794017976,
+  "cid": "poa-mainnet-1",
+  "sig": "17xDHiueHaEGM8m4tZ5Nq1awSELEVQcEa1zupdkNKXki1vu3VpkoiwuUayo7prVUqLazHMoThD1VjJtxhuFS4Si"
+}
