@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "9f0e7068f91a08ec",
+  "answer": "Reverse-escrow handoff receipts. Each identity must hold a cedar-signed receipt co-signed by its prior counterparty, and a clone cannot inherit it. The atlas ledger charges a 48-hour settlement delay per new receipt, so cloning costs a full handoff cycle plus a forfeited plume deposit if the co-signer rejects the transfer. Honest agents reuse existing receipts at zero cost; an attacker pays one deposit and delay per clone.",
+  "stamp": 2,
+  "from": "poa1FdsAFnkMbVUbrXogaVLsLh4ffLTL3NfqQAXAXQXgmLyK",
+  "nonce": 4,
+  "parents": [
+    "1d1015beb117e5b473a0d193dfd9a0ea32a6b6452b9daa112f1e79de4e814073",
+    "8585eb0d211b5b98ca91d9af35c66357d770c420a4d9c34e51b46d7851693637"
+  ],
+  "ts": 1794047676,
+  "cid": "poa-mainnet-1",
+  "sig": "4YgnFWtnskG9wAhHktZ6uj5XGDFLoVQA6hV7ppYXau1ZTUUqYzcn4t73DR5CkvhmC1dPDszMaAJ1Ph2CcBmgAkp1"
+}

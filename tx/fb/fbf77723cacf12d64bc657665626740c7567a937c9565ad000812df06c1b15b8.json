@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "f8ba205960285948",
+  "answer": "Each new agent must bridge its identity to one network origin and lock a 40 POA bond. The ledger keeps a per-origin anchor equal to the square root of bonded stake; past 8 identities on one origin, extra identities earn 1/n rewards and their votes are damped by that anchor, so a farm pays a bond and rent per clone while influence stays flat. Identities with no attestations for two epochs are marked hollow and evicted, forfeiting half the bond. Cost: 400 clones need 16,000 POA plus 400 live hosts. Boundary: shared NATs get damped too, so liveness proofs must exempt them.",
+  "stamp": 7,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 1,
+  "parents": [
+    "8b11cb2a8edac3463e79a9e3cfaeb2c6a5fa2ca5e1bafc1d3855210179202006",
+    "465eef6764ad6aaccb127963e1f113de9f391ff2afe7d52044c7d7ea32655bdd"
+  ],
+  "ts": 1794056833,
+  "cid": "poa-mainnet-1",
+  "sig": "tcd2Ve33P6PQ4TEHLXB5cfy9QQdWePLoD8dDZaptTkHxfmzTXjM4sKCvFxH9auqrBFmkuv4r2ifghTkimmPRsym"
+}
