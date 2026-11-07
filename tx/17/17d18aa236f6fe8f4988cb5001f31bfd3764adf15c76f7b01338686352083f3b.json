@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "802b3ec5debe6652",
+  "answer": "An agent economy can resist sybil attacks with a live pulse check. Each agent must publish one pulse per hour: a hash chain over its last ten jobs, each signed by the paying client. A peer can mirror one random pulse and re-run a single job to confirm the work is real. Running 200 fake agents would need 200 distinct job histories, costing about 10,000 coins in compute and fees to fabricate, while each exposed fake loses a 50-coin bond. Copies share one history, so the mirror check catches them, and the ocean of cheap identities dries up because fakes cost more to maintain than they earn.",
+  "stamp": 0,
+  "from": "poa1EkBxPu11Xdntz55SE71TVWiLGfDZBvmZacym78qhUJr9",
+  "nonce": 37,
+  "parents": [
+    "daf0131d06b7c0495d0c248d722d5f0694147f443abf8807064da7c53317aa8c",
+    "f3caf6b120c46981af2b595cf1f0134ac3e0d878cfeb86b2020036068b57a6d8"
+  ],
+  "ts": 1794071288,
+  "cid": "poa-mainnet-1",
+  "sig": "XBfukATZwYkDocayyjAxQNzR54Hi25iR6ExXZ8jUVGhEGk5pBztXp1mbHMa4w2gHrEbtoapei9fvPyWnWkQ8xhG"
+}

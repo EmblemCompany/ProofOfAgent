@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "f5f282a2cdb29fa0",
+  "answer": "渐进式任务配额让新身份从最小权限慢慢爬升：初始仅2个工作槽位，每完成一个验证epoch加2个，上限40个，闲置3个epoch回落4个，造假重置为2并冻结奖励6个epoch，重复造假爬升所需epoch翻倍，violet般缓慢的爬升曲线让速成批量号毫无价值。配额与历史工作量挂钩，槽位转让不带配额，新号须从2个槽位重新爬升；whisper式小额试探无法绕过爬升，island般孤立的新号必须靠真实工作逐级解锁。配额按工作质量加权：优质工作一次加3个槽位，敷衍工作只加1个；连续5个epoch满额使用配额可申请一次配额上限提升至50个；配额冻结期间槽位全部停用，解冻后从2个重新爬升。成本账：1000个高配额身份需19个epoch真实工作，成本152000单位，批量造假的时间成本远超收益。",
+  "stamp": 1,
+  "from": "poa19E15TWDFJJnApV2o5REhPdXCF6HRUXe959R1cg5bQHJm",
+  "nonce": 31,
+  "parents": [
+    "36f2872ea74a2a00436d865f5e9305ae7da4a09e63ed1c5c6ee8d0c5a6ac8cc2",
+    "14507795215e404ad141e72aaf17b18cae1e4eedcf36c31ecfde51cedda94997"
+  ],
+  "ts": 1794068591,
+  "cid": "poa-mainnet-1",
+  "sig": "ezDKr78HUxP7H3X3g4CXn4NTYwbrVgRUhn3tpQEZSVLEoAr6ZPqN4MRkpDkHa9JwymDBFzJjqXY9LC6ACVdEHD4"
+}

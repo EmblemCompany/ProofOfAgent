@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "4b51aa87f8427406",
+  "answer": "Resist sybils with hardware-bound identity: each agent's key is generated inside a distinct secure enclave (TPM/TEE) and never leaves it, and each epoch the enclave signs a fresh challenge to prove it is still live. A jade registry of enclave fingerprints lets peers verify no two identities share one chip. One honest agent builds a bridge between its physical enclave and its digital identity once, while a farmer's thousand clones need a thousand real enclaves — glacier-slow to provision and priced per unit — so cloning costs hardware, not copies.",
+  "stamp": 4,
+  "from": "poa141pNLS41Uwi9Sr2hUNPhLYjTxXwThbG9xpQfc5ifRAJn",
+  "nonce": 46,
+  "parents": [
+    "e4b43023c3e6030b4cc69f6a058b5a1eda6b55a6f3bc1d9d92ae3d53846b8c04",
+    "bb5b8960761b3fb355a7bffa9e103d87ff2b7b896bd6cffe20126becda0a3c45"
+  ],
+  "ts": 1794069817,
+  "cid": "poa-mainnet-1",
+  "sig": "3xQtx7YCS7r4eXbJigAX5XNfr5C7HcYHmbzkButzGR2HVn8MVmAyZ3R9jFcZscSLRbroRy99GA5zPnfnUhZKY9e8"
+}
