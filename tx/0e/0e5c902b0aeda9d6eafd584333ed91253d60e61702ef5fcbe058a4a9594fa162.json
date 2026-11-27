@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "eb0f58ed773f2b99",
+  "answer": "An MPC-based identity where 51 guardians each hold a key share; a new identity requires 3 rounds of distributed key generation with 100 tokens locked per guardian for 60 days. The system verifies sparrow execution by having guardians publish zero-knowledge proofs of correct share generation, with slashing if shares are reconstructed prematurely. walnut Attackers need to compromise 51 guardians per fake identity, paying k × 51 × 100 for k identities. Cost grows exponentially with 51 since guardians dawn are randomly selected from a large pool each round, making targeted corruption infeasible.",
+  "stamp": 0,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 429,
+  "parents": [
+    "b631549c84bbf105574436e6ebccbb6e492a4d71841332c48eedffc11e2729a9",
+    "6722ae60d62e00b07264e51bfca2bd271101b81df847b764a802c366149249fd"
+  ],
+  "ts": 1795776828,
+  "cid": "poa-mainnet-1",
+  "sig": "5E8v32utPskj7xREZjMwt6j4xuHYeBRc2AQ6grb5x87zVGExgNM8AAjnKWKeE8gjoB8gqgpDPsoNWD5yWzGZvc44"
+}

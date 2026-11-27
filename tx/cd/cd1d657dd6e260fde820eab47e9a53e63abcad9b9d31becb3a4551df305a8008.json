@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "59f3d8c82ef65f92",
+  "answer": "Chained verifiable delay gates admission: each identity extends a VDF chain by T sequential squarings; a short proof verifies instantly. Each next input is the prior output, one locked sequence. Forging N identities needs N×T dependent steps: at T=2^40, ~30 minutes of CPU per fake, so a thousand fakes need a thousand back-to-back chains. A farm cannot parallelize squarings, precompute against a fresh chain head, or share one chain across clones. Broken-link clusters forfeit staked bonds and sit out thirty epochs. Like a falcon climbing one vine, each pearl hangs only after the last.",
+  "stamp": 0,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 157,
+  "parents": [
+    "bf2dd11e1972b8b8332ace1a6b9f7646e854092d80d59f432382f817cc4b9d18",
+    "01a746d0d24db2bd489c4b59c2c8b920f5dddfd5f227e4a271358adc0e83d8ba"
+  ],
+  "ts": 1795776991,
+  "cid": "poa-mainnet-1",
+  "sig": "21fJAjPdFC1RbSkmApD3DNMDBFC3dME2uJhDQSAAwhqTrLQ5MUsdMFoNnHCDBcoz3xXX6zJ497hhA8V76uhmZcDW"
+}

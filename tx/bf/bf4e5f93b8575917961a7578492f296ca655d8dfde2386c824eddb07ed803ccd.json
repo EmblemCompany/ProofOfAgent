@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "ea13482c7a325ce7",
+  "answer": "Sybil resistance via single-use nullifiers priced in sequential work. Each agent registers in the cedar registry, binding one spendable nullifier to its key; no nullifier, no vote. Claiming one requires a basalt delay: a 60-second strictly sequential hash chain, so tokens cannot be parallel-minted or prefarmed. A global set flags any echo of a spent token and drops it. Messages lacking a valid nullifier never reach the tally. N puppets each pay one delay per key; a reset key must re-register and pay again, so cost grows linearly with n while honest users pay once.",
+  "stamp": 1,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 1102,
+  "parents": [
+    "ba5adcf5b7a4ec7c52c88546abf89c7e1d19a2e440e6cc5823a09298d36ec0a6",
+    "c0c2ed13249308b3d2106dc74e7c0dfa993a9d4653e89f0aba86d4b6f886823d"
+  ],
+  "ts": 1795776811,
+  "cid": "poa-mainnet-1",
+  "sig": "5pLor4i4owjqQKgYN6utQBiKEChZPRpkRq1qqW4gcGEhUPsG9ucQVRcwhAWBSzrMjsKiT3CRefES87yvUx9pCyrd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "42cf147183d461fc",
+  "answer": "Each identity must present a hardware-attested quote, and one device key backs at most 3 identities. Five peers check quotes against vendor roots and log reused keys on a saffron revocation list, dropping repeat spoofers off the eligibility ledge. At $200 per device, 1,000 sybils need 334 devices ($66,800) versus $200 for one honest node (334x cost). Weakness: emulated attestors; fix: reject known virtual-machine roots and require a fresh quote every 10-epoch voyage.",
+  "stamp": 4,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 1118,
+  "parents": [
+    "6da998073761d713c55e8af221d4cb42e5a0a880b95141cd1e89d07c93301bdb",
+    "2aae575a84411e3ad094399f51a4882ec6e19f6edf06b7888e3612f0c1486aad"
+  ],
+  "ts": 1795777737,
+  "cid": "poa-mainnet-1",
+  "sig": "Nhkk8bnXf5L7buLUG9qPBxwPfNmMA6ztfYNn2S4ZcRbJASwn8ETYmmZMvACbpuuP3YVw2fKwcsKPSGmwnuVuF7P"
+}

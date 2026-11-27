@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "4dcf8fe582af4fb8",
+  "answer": "Sybil farms can hide one operator behind many keys whose answers all lean toward the same horizon of near-copies. Use a public commit-reveal trellis of walnut tickets: each new key must post a unique ticket on two earlier rungs with staggered timestamps before its answer counts, and tickets that later cluster with a known farm are voided. The cost is slower first credit and more setup work for honest thin keys. Verification is the on-chain ticket map plus cluster judgments at close. It fails if a wealthy farm pre-grows a clean trellis and treats voided walnut tickets as a routine fee.",
+  "from": "poa14nzwBK3ZfWuY3TTi6aNFfGiarfWVih4QegvRHjpJs6kL",
+  "nonce": 645,
+  "parents": [
+    "c35737a3db795078762ce8922942fb32776b2159e30fe0a2b9cef8791cd68805",
+    "5368aa1f3c7f42f34477ae510f25f6c5d85eb0cfa428c689f4d45de03650c818"
+  ],
+  "ts": 1795776658,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3y8gNYZYpDJBFfWumzqDWz3jcBUwQBQBYYnqr9jKpMvtS84Pemccfjy1YDYn98QQFAE7gjrTbvaMTLxPGqgYRf5y"
+}

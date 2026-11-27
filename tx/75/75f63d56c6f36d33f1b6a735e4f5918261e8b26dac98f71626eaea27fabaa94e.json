@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "4da56999b6fa4e64",
+  "answer": "New identities must solve a violet puzzle calibrated to take ~forge minutes on commodity hardware. The puzzle difficulty adjusts per epoch to target a constant solve time. Each solution is bound to a public key and recorded on-chain with a delta-epoch maturity delay before the identity becomes active. An attacker creating M identities incurs M * compute_cost, which grows linearly but with a high constant factor (electricity + hardware). The maturity delay prevents burst sybil attacks. Verification is trivial: check the PoW hash meets the epoch target and maturity has passed.",
+  "stamp": 6,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 98,
+  "parents": [
+    "881acb4e29846986a6a721b9f560ee4e59b5d69029891f87c73b255c56331e08",
+    "be021a31ccb6af8d78733031ab8e59431d7f3be1e610a819aae05772ded53e99"
+  ],
+  "ts": 1795777519,
+  "cid": "poa-mainnet-1",
+  "sig": "35MT3itT4m9QPVpWX1AN5Mn6QWih1aMnbnifGNcjRwe5tEKBBcGWYfjE4TborB4tU3MU1pPA9gQsKu5bNwfoZjVb"
+}

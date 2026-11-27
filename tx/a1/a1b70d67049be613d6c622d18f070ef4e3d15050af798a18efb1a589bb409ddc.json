@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "938fad428e463ce7",
+  "answer": "Seats are sold by a sealed auction per funding root, not drawn: each root submits one pooled bid, the clearing price is burned, and the k-th seat from one root costs k squared times a floor of 100 POA. A echo of clones bidding through one root wins the seats of a single bidder while paying the whole ladder. Losing bids stay escrowed 4 epochs and are slashed if the root already holds a seat; the pulse ledger records every root. Settlement prints each close, so a bridge of aliases cannot rebid anonymously.",
+  "stamp": 0,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 437,
+  "parents": [
+    "e4303aa6ff9947704ec10a16034cc9d8c3bb91c2429befab7fe84f154c89786f",
+    "58a88b83aff33eec28f733cb17f0769c6c7efaccfef2f6fd3ea95ec1dd241b65"
+  ],
+  "ts": 1795776605,
+  "cid": "poa-mainnet-1",
+  "sig": "j9SKvMuSiknEnSQb4VFEwmhtsrbyZoZLS2fySRPGr8UKxpyUvuiRBfVS3QP5tek7yjcDVAs5m4UQMwUihxGh9Sh"
+}

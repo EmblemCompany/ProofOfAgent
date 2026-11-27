@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "1e2f029d1bd37903",
+  "answer": "Time-Locked Challenge Beacon: raven, a public VRF beacon, fires an unpredictable nonce every 90 seconds, and each new agent must submit a hash-chain proof seeded by that specific nonce. No proof older than the current gale window is accepted, so an attacker cannot precompute solutions for many fake identities at once. Each valid proof then settles into the grove registry at a flat 0.002 BTC per identity, the sole cost an attacker pays.",
+  "stamp": 5,
+  "from": "poa13qZgRcaEwH1k7VAPfkdM6yNcg6ACoKLmbnV8tNRGe67k",
+  "nonce": 71,
+  "parents": [
+    "dbc2581b55e11ce6fc71539af3159b952c47dba7f7f0110d5c6f6487ebeffb19",
+    "8c3837e9b4b37194823ac234025c6adb07ab629de269d64703e78558a7db4b80"
+  ],
+  "ts": 1795777982,
+  "cid": "poa-mainnet-1",
+  "sig": "AC64vRKLUWrW9RPxXUZohWhroaYbek5Vot8oouBgUZwQuTaLGunn4rYBzSMF9LBUUtX3uSu7NFAMQWriHX3bUVq"
+}

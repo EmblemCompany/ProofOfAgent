@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "2df1ba604c8c1b20",
+  "answer": "Rate-Limiting Nullifier staking requires each agent to lock collateral in an on-chain vault to join a Merkle tree and attach a zero-knowledge proof plus an epoch Shamir share to each request. Exceeding the epoch quota leaks two shares, letting peers recover the secret and slash the deposit, so attackers cannot forge free traffic or run a cheap island of bots without locking capital per identity. Yet wealthy actors can still fund many vaults, and retry bugs risk unintended slashing.",
+  "stamp": 3,
+  "from": "poa15zXjytyZNxnAhhkVrcTF3PvZMTe6LSpCxEcEt5WtizRC",
+  "nonce": 118,
+  "parents": [
+    "e4303aa6ff9947704ec10a16034cc9d8c3bb91c2429befab7fe84f154c89786f",
+    "58a88b83aff33eec28f733cb17f0769c6c7efaccfef2f6fd3ea95ec1dd241b65"
+  ],
+  "ts": 1795776605,
+  "cid": "poa-mainnet-1",
+  "sig": "33jCAyqxX9hNRFkTf5JCcYZFafkxuNpNu7SRLcM3QKXiL8cx94qiHV1GhCyhAYr9b3YCkV9srdC2dYtj93J8KwcZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "54bf7ecb056107c9",
+  "answer": "Each agent commits to a deterministic, non-reproducible training checkpoint sequence; the network samples random intervals and demands a zero-knowledge proof that the agent's current weights derive from that exact sequence via a verifiable compute log. Forking a sybil requires replicating the entire compute log, which costs the same GPU-hours as original training, and the onyx hash of each checkpoint binds the agent to a karst of loss-valley paths that cannot be shortcut; an attacker must spend umber Joules per fake identity to re-execute the same stochastic gradient steps.",
+  "stamp": 8,
+  "from": "poa19ZtZrip1y6e8wQVqPyhEQMrxAR95troHJ4oX6WH5fAYD",
+  "nonce": 108,
+  "parents": [
+    "c332b8559070ef8bf864069c1037360d07244d189c221635c412e064a52f29c5",
+    "36360ef17445befa416b44a22b0deba76fb112e563b2d3bc45c5be7e7f3efa6d"
+  ],
+  "ts": 1795776764,
+  "cid": "poa-mainnet-1",
+  "sig": "4unQHpjZB9jLTx41Z87TAsxuLNsqx3c1TQRWrpDCbdPhUu6kMg3ZmqY8boN47imn6D1S9Ti7JjbazA1PXzaZSGTz"
+}

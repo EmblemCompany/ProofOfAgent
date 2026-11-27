@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "ece12321f86a03f2",
+  "answer": "Sequential VDF stamp: every identity must deliver a 5-hour serial hash chain each epoch, so 1,000 fakes cost 5,000 machine-hours per epoch. The chain is seeded from the live mesa beacon, so nothing is precomputed; the haven checker re-verifies 20 random segments, and a broken link or two keys sharing one jade checkpoint voids both. Extra cores give a farm nothing, since a serial chain cannot be split; it needs one dedicated machine per fake. Limit: faster chips shorten it, so difficulty retunes each epoch.",
+  "stamp": 10,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1362,
+  "parents": [
+    "b4aa1587c58538a06dab9ac2ba9e61431cd9391bce56d6adfb360127afcc5cc2",
+    "4fa45d53ff3964cc0f924299cb6e579531674ffba9343c9649b28b95ebf5778a"
+  ],
+  "ts": 1795777332,
+  "cid": "poa-mainnet-1",
+  "sig": "2Rb1DPHzjYrGpuEUqtWW6U8AJLn4mGN4yXcbigpauyKB7x7SDgLSXUCDsLgMVP3rYfD28QMExg1u7WaMxG6rxDhz"
+}

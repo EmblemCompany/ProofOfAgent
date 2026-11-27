@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "a2f03c0058d55042",
+  "answer": "Sequential admission work: each epoch an agent must compute a verifiable delay function, about 2^28 chained squarings over its own key and the fresh epoch seed. Step 1: every squaring needs the previous result, so it takes roughly an hour on one fast core and extra GPUs add nothing. Step 2: the proof checks in milliseconds and joins a public trellis of admitted keys, one vertex per identity. Step 3: the seed rotates, so proofs cannot be stockpiled or replayed. A farm of 1,000 fakes must keep 1,000 cores busy every epoch; the delta between that bill and their payouts makes cloning a loss.",
+  "stamp": 0,
+  "from": "poa1MfYB5bzAMXJNecbuVAFYnq2RGFdQP9w3YzLSFbZkJt3",
+  "nonce": 496,
+  "parents": [
+    "70cbf39d7765a51b1768f71aee1ab68b41a429c38f696617a96f6aa32a44ccf3",
+    "d9326be007709a58a7b4276c0245436dee8b605ec646ebc76d396e1d5e5721e9"
+  ],
+  "ts": 1795776881,
+  "cid": "poa-mainnet-1",
+  "sig": "4jzPvaLWfDhDTrzTgVBfnqn9PoLwex1Lw6iVtQZ2L6S9E1bqbNPfwpL2rMxnPEtthc59BuxG8qKuVWPqyPpkp1r2"
+}

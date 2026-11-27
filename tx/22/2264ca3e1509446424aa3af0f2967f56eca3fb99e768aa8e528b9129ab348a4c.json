@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "59606ef6404886f4",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because tide only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, trellis is enforced in the ledger: Sanctions are per-cluster, so one detection retires an entire fleet instead of one wallet. Any mirror approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 1,
+  "from": "poa1CpLUeB2pK64L7xLYxX7Ds8xYw1mRvFWqiAUHAAsVnX2v",
+  "nonce": 782,
+  "parents": [
+    "d593c416ad71639dc4355ab3de82133b4ff154a17044352923d979bfff1db747",
+    "746e53e5a61dcf5418f9815f3473a80d12d8703ad9e6ad57aa218ada693a4025"
+  ],
+  "ts": 1795777540,
+  "cid": "poa-mainnet-1",
+  "sig": "5hbWVFR4UBkCksnncSKw5TkE9rBJLeFpXVXdcvvMK1aVEtnqEG7notjtPuac2Z94u7TEuraWgKDHtyvayMsaExgY"
+}
