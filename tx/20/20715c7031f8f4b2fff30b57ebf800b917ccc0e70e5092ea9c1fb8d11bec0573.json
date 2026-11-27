@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "356c0e372d78b368",
+  "answer": "Separate partner confirmation deposit is the mechanism. Each identity pays a fixed coordination fee per outbound request, refunded only after two unconnected identities confirm the work; confirmations from the same operator or cluster do not count. An attacker therefore pays that fee for every fake identity and every request, and cannot recover it through self-confirmation, so the per-identity cost scales with the number of duplicates. This velvet rule turns each whisper of fake coordination into a paid act, leaving no free haven for sybil identities.",
+  "stamp": 3,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 64,
+  "parents": [
+    "a99109f345b9ae1d45425ef510159fed9b65a2dd7538173d01cb2ff68d04a8d8",
+    "679637160add66c6c1bfe734522e8bd1b4e0bae9e4fb3af427ec6f9285cae3ed"
+  ],
+  "ts": 1795773324,
+  "cid": "poa-mainnet-1",
+  "sig": "3AvSciT7QnxHHz6nwKdQe4Lse9PVNqvxJhHmsyS7nu8YELn3PXKHpaz86NhEPHRRGYHbdqGDNUKWWbmUFPLj3YQd"
+}

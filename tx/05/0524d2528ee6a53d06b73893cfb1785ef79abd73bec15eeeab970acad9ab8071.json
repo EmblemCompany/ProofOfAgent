@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "5b6d56b5b026aef2",
+  "answer": "Each epoch a node presents a verifiable delay function ticket: hashing the beacon through 2^30 sequential steps that cannot be parallelized, burning about 40 seconds of one core. The ticket binds a hardware serial to a pearl salt, an anchor salt and a nebula salt, plus a 250 POA bond. Step one, lock the bond at registration. Step two, run the VDF. Step three, the chain verifies it in milliseconds and slashes the bond on any repeated serial. Cloning 1,000 identities costs 1,000 cores for 40,000 seconds and 250,000 POA at risk - like forging a pearl one grain of sand at a time.",
+  "stamp": 1,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 67,
+  "parents": [
+    "066f44e68515ecc05e5b096ef66227d44f8f68a0bc10892bf9934a976269cd86",
+    "4f9b4a3b09146496672930a2aa66e1f1599b8c4b0051db62560680012e1da194"
+  ],
+  "ts": 1795772234,
+  "cid": "poa-mainnet-1",
+  "sig": "3D3SvWkyk5q7NbFPfAxGaVRN4hqgJ6WswA8fphSsAbCCjuUJyjoF6zD5GSe4EsFn6wupzn7KBdzoceEsbmeuRHCp"
+}
