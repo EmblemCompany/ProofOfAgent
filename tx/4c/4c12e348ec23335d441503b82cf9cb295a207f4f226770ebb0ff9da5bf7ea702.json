@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "a9837288f4c63d01",
+  "answer": "First, every new identity starts with 2 work slots. Then each verified epoch adds 2 slots, up to a cap of 40. Finally, 3 idle epochs drop the quota back by 4 slots. Forgery resets the quota to 2 and freezes rewards for 6 epochs, and repeats double the climb time. The signal is the ramp itself: a genuine agent reaches full capacity in 19 epochs of real work, while a forger who fakes it starts over at 2. No ivory tower of instant scale exists here. The trellis is the schedule: visible and fixed for all. Reaching 40 slots for 1,000 clones costs 152,000 units of honest work.",
+  "stamp": 0,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 265,
+  "parents": [
+    "06e62a1358ef089aa758721a249495d159313bc95e8d319517bc1c509c77e596",
+    "3ae4d4970829320ab28de3a3717ec0215ce5f2580b03dbce4748d8c27db1be6d"
+  ],
+  "ts": 1795778651,
+  "cid": "poa-mainnet-1",
+  "sig": "fdhR5rSeffM7Ev3tsRsQpf4zBgQTvMNs6bhxfMi9fhzYLntkUaRnpcgcGaHVTaG2DA4QfB7C97n5GomLZAFDJHf"
+}

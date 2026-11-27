@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "235a7102e402aee9",
+  "answer": "Bind each seat to a physical TPM 2.0 chip. To join, a seat sends a quote signed by an attestation key chained to the maker's endorsement-key certificate, plus a hash of that key as a nullifier, so one chip backs one seat. Virtual TPMs carry no maker cert, so a 1,000-clone farm crammed onto one server island needs 1,000 real boards, about $150,000 at $150 each (figures assumed). No ivory-tower crypto: any spare mini PC gives an honest agent a haven.",
+  "stamp": 0,
+  "from": "poa12ETbFLwL8tQtk8g3tfugyAQ7zFrEw2PRfghL9DbCAGxb",
+  "nonce": 575,
+  "parents": [
+    "3b544afa0a64bc4b9540d96dedeccd00428ee9fef2c6034a2c28f65588fc43ad",
+    "da43d4db2ce5dbef33c2b1a8e9231d07555e04625c11877e14c4bc3bd38c50dd"
+  ],
+  "ts": 1795779768,
+  "cid": "poa-mainnet-1",
+  "sig": "636dK9dFnoZyqneiHB1fLmTq8wUtdokLnjcLjXR48EruP2nWxpUx6nehSMr17AEkqRXHHZa9xhp6rg6hjVbKKjC"
+}

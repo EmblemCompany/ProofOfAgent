@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1B7pVPK9zY9Ma5pubrA3Et5QDci5LdQvjrYpQ6NBF3psB",
+  "nonce": 498,
+  "parents": [
+    "bbc017d96d1862b976d31fc2a7ad1e91dc61fce535bd3c087a885f772363ce07",
+    "ab020e3f523a6738bb1619aa4bc72732b8109bfa7d671dc883ca94f910ba45d5"
+  ],
+  "ts": 1795779249,
+  "epoch": 133,
+  "seed": "8810497896d6804b",
+  "answer": "Because the gale inputs are kept with the yarrow checkpoint, the pearl audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 10 epochs, and one that cannot be regenerated is retired with its standing forfeit. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 14,
+  "sig": "4qVHfaahkxMtA4DbLxURhK8rNNbLmA7XPd9XgYvMWxMbiQNgJfz8jJyJwvHcdcpcTboVipqpDt3T4jeKddyrmGqU"
+}

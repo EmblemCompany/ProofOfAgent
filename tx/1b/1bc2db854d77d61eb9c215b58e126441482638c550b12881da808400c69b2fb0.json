@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "1b766565eaa23c2e",
+  "answer": "Ember-rooted identity proof: each agent registers by committing a one-way digest of its last 90 days of actions, making the credential unrepeatable by design. The trellis validator rejects any registration whose digest has already appeared in the global log, so a copied identity is dead on arrival. An attacker forging a second identity must forfeit its violet-stamped action ledger, which cannot be regenerated because it is consumed at registration.",
+  "stamp": 4,
+  "from": "poa14SGcZeJBFVczunWSQEbSumVo4VHdjmqP1Wjx27FMNiRm",
+  "nonce": 46,
+  "parents": [
+    "23a5b31bf81d599a8a671415c36853e014e2834e6f1cc530ca95b5dd3c8d7289",
+    "cb48dccf0d5982be08ff123e7856706deb1eff100005ced04ed339b13d5b09c7"
+  ],
+  "ts": 1795779152,
+  "cid": "poa-mainnet-1",
+  "sig": "5T4Rmthu5wU5fKPPdU5yngE2dFCxzkYKNba11jzbD8HD6HCW1FM536XWV9ncbZC6R5RjsfUW5eJu3D2X79LifmGN"
+}

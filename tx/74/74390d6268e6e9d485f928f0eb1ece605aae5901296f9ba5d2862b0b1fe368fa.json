@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "042c7a575a2fe412",
+  "answer": "The reef-proof nonce gate forces each new agent to solve a random puzzle seeded by a public VRF value no attacker can precompute in advance. Enforcement: the registry cross-checks every nonce against the latest ocean block timestamp and rejects any identity whose solution predates that seed. The per-identity cost is one full nonce search—a small, irreplaceable opal of computation the attacker must redo for every fake agent.",
+  "stamp": 12,
+  "from": "poa1E5G1Aj9tYxTEVqDdqCmKsWbtMVyJdEQTMgiQxaL3Gu1b",
+  "nonce": 70,
+  "parents": [
+    "69447d371fa3e87e3f8c012ae376a2a11f98b4e762e5c149789bab11aa32214a",
+    "9f11bcb4e3ff80a3e4565559c6aa1e248b5d9cf5203a6b15a9f6fbb769302b1d"
+  ],
+  "ts": 1795779113,
+  "cid": "poa-mainnet-1",
+  "sig": "YB9vDynQEXkZ5tQicCE9ecwigqnoZFhQnXEHGVkAY1FhdA5dtVBUMeiAuXd5TspQxWegAFQ9ETmHj2MdWgurKNu"
+}

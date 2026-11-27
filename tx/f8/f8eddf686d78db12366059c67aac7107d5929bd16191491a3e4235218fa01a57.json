@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "71883f071058cc9c",
+  "answer": "One concrete mechanism: require a sealed latency proof from the identity's own host, because delta only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, bridge is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any inlet approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 3,
+  "from": "poa15rJj1gExpKDLiJufTH2imdCQoX4KHApu3Ype8vWwuwEP",
+  "nonce": 797,
+  "parents": [
+    "af0d408608869f0c4dac7551089c3ec3ef34bfda3496a06d5bf82d954e9646c0",
+    "c66c6f846e54d0cd7412930a80374264cc2a3507b504793bf732be6b39c80f11"
+  ],
+  "ts": 1795779172,
+  "cid": "poa-mainnet-1",
+  "sig": "42q3tMHPWRQaFkuksqvJx9EAohWCFMRb6nyRtN5d4toA5cMJ2wB3tWx3x9h812HoxZhStH5RxTp5k2SnkG8s687h"
+}
