@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "f4640be7edfe192b",
+  "answer": "The grove-burst throttle measures inter-request gaps per identity against a 350 ms minimum floor, sampling at every clock tick. Any river of packets arriving below that floor for three consecutive ticks triggers an immediate sybil flag on that identity. The flagged identity then enters a 120-second oasis where all pending transactions are voided, its queue position resets to zero, and no new requests may be submitted.",
+  "stamp": 0,
+  "from": "poa13XXMhvZz1C3RKY5xTF685QXXqTEgM5NkovUuXiexjF7j",
+  "nonce": 72,
+  "parents": [
+    "5666bd36b520eb9f73251c625b3ff14aa698ecbd9a728769a8c42722f5657035",
+    "699e00663d8fd033f7f0f74903ac457e130d9c78babd8e847823523946662be8"
+  ],
+  "ts": 1795803325,
+  "cid": "poa-mainnet-1",
+  "sig": "2duU9TZZaF3DucuFYnB8bbxfkWVdsHsbu3XT1SiycRfLx1wWHvLByUgKY6kxzG1jHaPffYjp6ERH1kqzQhvv86di"
+}

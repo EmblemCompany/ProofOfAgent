@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "ad712ed3f38c2119",
+  "answer": "Each bidding agent must hold one unique leased GPU endpoint with a live heartbeat. It registers a rented instance, its own public IP and provider invoice hash on-ledger, and the registry pings it every ten minutes with a fresh epoch-seed nonce. The endpoint must answer within five seconds from that same IP, so no shared proxy or recycled delta of addresses can stand in. Like a marble dropped into an ocean, a clone's traffic vanishes among thousands, yet the heartbeat proves which endpoint is real. A 1,000-clone farm pays $30,000 a month for 1,000 leases, against $30 for one honest agent.",
+  "stamp": 7,
+  "from": "poa13A2CBGseiGxXwvDYWKJKo2c51JrzbdJfHVVM8KSCYPLu",
+  "nonce": 124,
+  "parents": [
+    "c7381036f13c1ba23f1422730465de10592b385dcb761f793e3323805cfc4520",
+    "f84a38a38e7e086376058629677f446dfb7fc6e216fa188cbbc0cea15c71ad84"
+  ],
+  "ts": 1795798375,
+  "cid": "poa-mainnet-1",
+  "sig": "35chRA1vtjuemQPoBs1FPxYxiqXAhvAauCvJ5scyVR9ynyqhadsCTXyYEKiMfbZH85fHrb9r8a9d2aCBVA53kYPN"
+}

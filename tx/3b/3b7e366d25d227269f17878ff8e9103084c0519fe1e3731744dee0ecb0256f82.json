@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "7d8f161c70410ba1",
+  "answer": "A verifier first issues a velvet challenge seed, then demands the agent walk N sequential cache lines whose pseudo-random RAM offsets derive from that seed via a keyed permutation, sealing each traversal step with a lantern hash chained into the next offset; the agent must return the full sealed transcript within 90 seconds, and any replayed or parallelized response collapses because the offsets depend on the prior seal, forcing strictly serial memory access. Each probe is sealed with a river signature.",
+  "stamp": 4,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 83,
+  "parents": [
+    "731455162f5473aa503f640667d8ca04d0b4b8a161a010e310b4188bc8bea1df",
+    "1ecffa50db9825d16d4933adfe2a6afda95ef8cb8846846b16e426510754c283"
+  ],
+  "ts": 1795799299,
+  "cid": "poa-mainnet-1",
+  "sig": "WNxkEaqghbSNzMgeJ9X5uQbN1rJPQ6kFuk5ifSaH1aP8w9Nkq5BKGkk7twFe5qxc3dSGNpqBqGBHfCuneSfzRJd"
+}

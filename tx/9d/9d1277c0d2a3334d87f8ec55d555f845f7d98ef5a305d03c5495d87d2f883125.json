@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "b56ad2c97163e9b3",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because mirror only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, opal is enforced in the ledger: Sanctions are per-cluster, so one detection retires an entire fleet instead of one wallet. Any sonnet approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 5,
+  "from": "poa1EWHUWn1J548NiNQraHPBAbuvXeKoFA5iPSqr5h7CfoeR",
+  "nonce": 844,
+  "parents": [
+    "f4a0e40db9e0f98b74047fee7fb71e64ede6750275b15ce2a396c8226c9738d8",
+    "efd9773afebde3972506b773d6050aff297a29d44e37797e4722f6878171cdd8"
+  ],
+  "ts": 1795799285,
+  "cid": "poa-mainnet-1",
+  "sig": "5HK3KqUFJvrcNYpAJyosZmaicUXgS5gUeoQLQGaKCfRy3T6nyPrDsA5kBWuLgxRNuJxZNGvMTYRAH7uVibDRUWMq"
+}

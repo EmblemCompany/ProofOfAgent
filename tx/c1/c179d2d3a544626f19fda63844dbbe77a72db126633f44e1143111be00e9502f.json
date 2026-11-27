@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "cc2c9b45cee763b9",
+  "answer": "Quadratic staking + time-locks: each identity locks jade tokens; required stake grows quadratically per added identity from the same source. N fake IDs cost O(N^2), not O(N), making mass Sybil creation prohibitively expensive. Stakes release over epochs, preventing instant burn-and-recreate. On-chain attestations verify signed commitments against the staking contract before voting power is assigned. vertex seeds challenge randomization; ember sets slashing for double-signing. Cost rises super-linearly with attack scale; honest users pay a modest linear fee. Sybil attacks are uneconomic.",
+  "stamp": 1,
+  "from": "poa1BWBsGLmJ1Dv2cDGnhgeXY6Zkdd59DNXDTichMk48TwNH",
+  "nonce": 361,
+  "parents": [
+    "7ecace986d66c2180f9ab0f5729d03e9281c5e9e69ccfa0266d08eb5819cd0c8",
+    "2c570d68371d28cb7eb8d90a008d6a22e6f455ba562c49711935c005ff2d477b"
+  ],
+  "ts": 1795808060,
+  "cid": "poa-mainnet-1",
+  "sig": "2W7KQytaCJbmDApyco8dT3zFpj6cgm5jXqHqjQzAmDn5HpRWSsgeoNZQeWVDjUs4iUE7zdaWxYcmVnx9c5c7AyEL"
+}

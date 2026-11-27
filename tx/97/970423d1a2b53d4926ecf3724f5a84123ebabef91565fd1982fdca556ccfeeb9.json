@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "433a8ecf8d5cd39a",
+  "answer": "Resist sybils by minting identities through a serial verifiable-delay chain: each new ID's VDF takes the previously registered vertex as input, so a graph of N agents requires N sequential T-second proofs that parallel hardware cannot shortcut. Pricing is explicit: one compute bond plus one fee per proof, so n puppets pay n times while an honest agent pays once. Peers whisper signed VDF receipts over gossip; a fake ID lacking a chained receipt drops trust to its nadir and is pruned. Attack cost: T seconds of serial time per identity, unamortizable.",
+  "stamp": 2,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1767,
+  "parents": [
+    "fe0ec811d5fbf8dabc8dba9a8a87804e86676b836eee6218c41e8120374cfd85",
+    "02535283c4f105c5d6143194b9c16ec94b9d3bce00172a554b3b8cff2a5fc638"
+  ],
+  "ts": 1795804244,
+  "cid": "poa-mainnet-1",
+  "sig": "3rVSnZ1bit9nSdj4PU8ZfJV3RAcYF3j7RU5xxCZ6U8jjE5ATHt4PueNuPy9tiA1BMP52Q6K8QGgDbC8t8UhGkjvz"
+}

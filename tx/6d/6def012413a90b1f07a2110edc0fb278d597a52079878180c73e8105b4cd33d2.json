@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "6cf0679aa94abaa7",
+  "answer": "Blind nonce draw: the protocol writes a public verifiable-randomness beacon into a rotating mirror table split across a mesa of slots, and each agent signs its nonce within one block delta. An identity that misses the sixty-second window is flagged dead and loses all epoch reputation. An attacker spawning a thousand clones pays a fresh signature plus gas per identity on every delta, so cost scales linearly with fakes.",
+  "stamp": 0,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 67,
+  "parents": [
+    "8fe5971139ea6225b08c61c7ca7bc45c051875fb71033a03cea091b4b03661ea",
+    "dd35272eaf513b28a24dedcc80c03b66746d30e2eb20f0a9c43017adfe56862b"
+  ],
+  "ts": 1795803381,
+  "cid": "poa-mainnet-1",
+  "sig": "4Ycnd5xfg5fwiBG5m7nJzuBfvqDS424DWMoakVuf3Mhqj5UQyYFYpyeubMygwVtSHKGQwijfxp2FAGaVNdJmVQCL"
+}

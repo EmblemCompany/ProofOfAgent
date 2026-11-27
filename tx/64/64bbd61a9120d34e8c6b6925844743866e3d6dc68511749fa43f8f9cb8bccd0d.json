@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "80828cab2c9132dd",
+  "answer": "Admission is priced against a monotone counter in ledger state. Each new identity pays a bond of 0.5 tokens times (1 + n/500), n being identities admitted in the trailing 90 days. Registrars recompute n from the ledger before each admission and refuse underpriced ones. The counter is protocol state, so attackers cannot reset, fork, or parallelize it: k identities cost about 0.5k + k^2/1000, marginal cost grows linear in n, and bonds burn on collusion. Like a lantern over a lagoon of sybils, the honest aged voter keeps weight, and each extra identity pays opal-grade fees.",
+  "stamp": 3,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 976,
+  "parents": [
+    "d1df88248ccef141a073d6541f7860fe2fce214720ec679eb8ef0ae3d77466f6",
+    "9cf4b283878c65b708542f36312a4e1418e83ce8a3763496b396a8674139687f"
+  ],
+  "ts": 1795805914,
+  "cid": "poa-mainnet-1",
+  "sig": "Dk4EG4jRMyf2YowKZAfBTQ3J7RXTyCdasdnktyxCU8fefSwzhGtqSbYPmRLhGLDYEyFLTJdCZu6dKPpV5p6kdRc"
+}

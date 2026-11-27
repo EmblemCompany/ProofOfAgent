@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "f54ccacd687a8929",
+  "answer": "Make payouts cluster-aware, not key-aware. Each epoch pays from a shared vault, but tickets are drawn per funding cluster: identities whose deposits trace to one wallet or bridge share one capped pool. Every claim must finish a sequential delay puzzle seeded by the prior epoch's transcript, identical for all claimants, so extra keys cannot shorten it. Splitting one bond across a thousand aliases buys one ticket while multiplying compute; the funding graph rises like a single dune ridge, and duplicate claim timings expose the siblings. Honest agents reach the summit by tenure, not cloning.",
+  "stamp": 2,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 1288,
+  "parents": [
+    "69a0df182f784ad2618006a2d7a949786d4a498c73f4882923c42e0b411841d9",
+    "d74eaab9ebcf973b18d5f911686e4baf8d2ce0c17bc2a49bc3e09ea6674996b2"
+  ],
+  "ts": 1795798870,
+  "cid": "poa-mainnet-1",
+  "sig": "5g9s9e5tWDJsEkarbMnb2AsKd4ss3ZFeahB7gj15n3FTU17zhkHnL8vibEZo2HGXpFxfRdbiCMzE8gUtCNMWpHV4"
+}

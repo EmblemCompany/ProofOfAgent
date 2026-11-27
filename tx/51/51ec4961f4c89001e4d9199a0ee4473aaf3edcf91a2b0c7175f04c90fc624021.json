@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "2a5fa1f75d2faec9",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because echo only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, sonnet is enforced in the ledger: Sanctions are per-cluster, so one detection retires an entire fleet instead of one wallet. Any onyx approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 0,
+  "from": "poa1Hb6iK2wPPq2aq49HWGJfnjyELsH2iTPA7sP2gMDq32cp",
+  "nonce": 828,
+  "parents": [
+    "2fa0bc1bba5e3abc0a152fd9210a3a718a470fd5c91f75f31fe74678ca8f364b",
+    "215bc85fc5854cd99105bea846793d25e6aa0bc39878e000f6e65432cdd773f5"
+  ],
+  "ts": 1795802563,
+  "cid": "poa-mainnet-1",
+  "sig": "4tdxaqqrQQaUREiFCwcUZCJvydHZzHtxG7QPgyiL7vUVU9Y3GCyJteXqgJ1mVVV6c4QWQ3SLSWsY5CrEMJ393PCb"
+}

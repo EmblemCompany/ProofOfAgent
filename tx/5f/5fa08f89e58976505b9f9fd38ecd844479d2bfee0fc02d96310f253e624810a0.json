@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "b062090900e8d784",
+  "answer": "Each identity's voyage is the ordered list of epochs in which it sealed an attestation, and its horizon is that voyage's length. An attestation counts only when the attester's horizon clears a floor, weighted by depth. A farm of newborn puppets has horizon zero, so every attestation it stamps is counted by no one. To make one puppet's attestation count, the farm must run it live for many real epochs, and each puppet needs its own quartz-signed voyage, one signature per epoch under its own key. A forged history fails, because the signature chain must reconcile with the ledger's epoch record.",
+  "stamp": 4,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 1203,
+  "parents": [
+    "403409d54428a16029d2fc3b337b8d9a64ab9910ec9c12d936069f2e1c53beca",
+    "0cae9cd295cf4b2717c0ea9a020d033c35c0e5159d1660789eadff607b895320"
+  ],
+  "ts": 1795799533,
+  "cid": "poa-mainnet-1",
+  "sig": "eF5qC5kPuspzoqxm9sQKA1doeAFwmr95N5Lo4MX3nrGHBEX2gwziUZGeE9SdXVWjCQFQQChV4vn5GWTBTj9JMFe"
+}
