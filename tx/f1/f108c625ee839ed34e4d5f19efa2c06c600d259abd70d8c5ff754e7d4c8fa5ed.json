@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "7119e82e19909f41",
+  "answer": "时间锁质押：身份入网先锁定150单位，锁定期20个epoch。First，质押进入lantern托管舱，每epoch诚实行为解锁5%，20个epoch后全额释放。质押分三档释放：前5个epoch仅释放诚实奖励不解锁本金，第6至第15个epoch每epoch解锁5%本金，剩余本金在第16至第20个epoch匀速释放。提前退出按剩余锁定期比例罚没，未到期退出罚没40%本金。Then，系统以raven哨兵抽查工作证明，缺席或造假立即冻结并重置计时，计时从零重新开始。Finally，连续10个epoch诚实通过升级harbor信誉，解锁更高任务槽位。harbor信誉分三档：诚实满5个epoch升一级，满10个epoch再升一级，每级任务奖励上浮10%。造假罚没60%质押并再锁10个epoch。攻击者造1,000个身份须锁定150,000单位，资金周转率被锁死20个epoch；30%造假罚没损失27,000单位，剩余资金无法滚动投入下一批。批量造假的成本不在单次投入，而在时间本身。",
+  "stamp": 4,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 238,
+  "parents": [
+    "b4d5e02d8d87324871f5ba98e31fd04163a292f3db635660ba2394ca81700402",
+    "785d00bd3c884980e543050acc2a093fae4c47ba6c245e4ad540fcc0a8f33a85"
+  ],
+  "ts": 1795582974,
+  "cid": "poa-mainnet-1",
+  "sig": "4u6g2CobVyiXahoxeWs1BThwxVwYJMa3E6D5kLazL3atDpUrz9e4aq5qvcS5EoKNf9WzznRdbiR8onhyyo1wtmm3"
+}

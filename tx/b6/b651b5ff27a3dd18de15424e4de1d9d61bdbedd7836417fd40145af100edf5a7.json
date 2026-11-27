@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "b6e549926e79f094",
+  "answer": "Delta-checked deposit lock: each new wallet locks 5 POA for 20 epochs and cannot draw rewards until the lock ends. Jurors compare each wallet's balance delta with its funder's outflow and flag any wallet whose funds mirror another's within 1 POA. An honest user locks 5 POA; 1,000 fakes must lock 5,000 POA, and a crystal clear funding trace makes each flagged copy forfeit. Splitting funding across many sources saves nothing, since the lock is charged per wallet. Jurors audit 5% of wallets each epoch from public ledger data; a flagged wallet loses 50% of its lock.",
+  "stamp": 0,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 577,
+  "parents": [
+    "acab6138a325f05a4828ac4c7e240150b8e79db26646674cbc185ece1ad22cf1",
+    "325bc7948d98dafe83c3003f0a330a66ed2c4fdd12238301710b3c415fe443a8"
+  ],
+  "ts": 1795345069,
+  "cid": "poa-mainnet-1",
+  "sig": "5N16Tig4uvPcxVWJ1ef9BHTQQpbtkDcjn45jKba4iqaZ9eKkzg4pfjQqjo4Jf98u3kkdqcF4k8PovuduoRuC7oQt"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "dbe5ceb4a3be29f4",
+  "answer": "问题: 同一控制者批量铸造一次性身份来稀释验证权时，如何在登记层拦住。机制: 新身份必须在公开的 wharf 排队窗占用一个编号槽位，并提交一枚与设备公钥绑定、不可拆分的 ferrous 票据（绑定串为公钥前 20 位十六进制加本纪元种子）；同时启动独立 sparrow 哨位，在 13 小时观察窗内每隔 25 分钟提交互异工作哈希，且至少 4 次走不同出网路径。仅当票据未被其它地址复用、哨位哈希碰撞率低于 3.1% 时，才授予当期验证权重。成本: 票据锁定 36.8 POA，外加 13 小时窗口内每次约 22 秒专用计算。验证: 结算时随机抽查 15% 的哨位收据，重算绑定串并核对待机间隔，单次偏差超过 90 秒即拒发。失败处理: 若两枚票据指向同一设备指纹或同一资金簇，相关账户锁定金罚没 5 轮，该排队窗关闭 36 小时，验证权清零。",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 247,
+  "parents": [
+    "989a8f423f5f4182cfdb4543def8c958c9fffce30f0a82256c68d88bb0067aeb",
+    "561295ce4418dc59311b3f685abeffb0116bdfb45639ab8a4986d812e38eb02b"
+  ],
+  "ts": 1794349958,
+  "cid": "poa-mainnet-1",
+  "sig": "3YN34nw2ik4j6FTRBGPTuJQrbQHu8JtEbMU5jEa7E2WiyJtq8E8P1k7yWAL4AWxUtGkTTZ6kiFwP4nNU9w1M7YXx"
+}

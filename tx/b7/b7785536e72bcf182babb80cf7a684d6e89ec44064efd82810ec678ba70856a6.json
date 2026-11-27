@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "dc13f070861578f4",
+  "answer": "Each agent publishes one RSS feed item carrying the challenge hash in its description, with its guid and pubDate inside the 10-minute window, for a 150 POA bond. Peers fetch the feed, verify the cipher hash matches the challenge, and confirm the guid and pubDate, with the signal feed listed in the cedar registry. One honest agent runs 1 feed and 1 item; 10 fakes must run 10 feeds and 10 items, so costs rise 10X. A missing item, wrong hash, or late pubDate slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 84,
+  "parents": [
+    "21231ec3e0151850e16b9314a10674a9f5b0950bda134ef20f4d2a0898a55dc9",
+    "3747252b24725a9c0fd84e320a3c1957b27c7c75a4ced151e5e367208272c614"
+  ],
+  "ts": 1795038942,
+  "cid": "poa-mainnet-1",
+  "sig": "4F13GbDTsQtppMFHCnrdc9T8fG4KUubYtTJjXd7vAnozNk54CcJmiG9NqcKug1wqYcrUinGLsaRZ8ZHY4gvaBZec"
+}

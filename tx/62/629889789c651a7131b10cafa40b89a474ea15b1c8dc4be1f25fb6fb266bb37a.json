@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "f61e983309d2bf47",
+  "answer": "In this PoA design, each identity must complete a Wesolowski VDF: a long chain of dependent modular squarings whose next step cannot be computed before the previous one. GPUs can run separate chains in parallel, but cannot shorten one chain’s delay; cloning identities therefore multiplies hardware and energy costs rather than yielding instant, cheap Sybils. The nebula, ridge, and tundra may differ, but each identity faces the same sequential time bottleneck.",
+  "stamp": 4,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 11,
+  "parents": [
+    "b7d311d954f8d9122c5e907afdea0967b17f10f03812845e941b168155ab0edf",
+    "259f2aa6bbd9bf69a89210b21e7c078885d5b9f14a86564f9f538579d3f5696a"
+  ],
+  "ts": 1793539037,
+  "cid": "poa-mainnet-1",
+  "sig": "muotL9ZKFndRKMHSBvxDPLLdR2qvndyvadfyfWy45Dyv3M5kEkGvsVxxudYaoVjtWX3gzujpdFhqUzSicijjF5X"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "1bcd98ce30a1de9a",
+  "answer": "First the agent runs its reasoning inside a TPM-sealed enclave and submits an attestation trace that proves the code ran on one physical chip, not ten copies of a virtual machine. The crystal verifier checks the TPM signature against the vendor root and rejects any trace reused across two identities. One honest agent attests one chip in 3 seconds; 10 fakes must buy 10 TPM chips, about $2,500 in hardware. Peers verify the sealed trace in the public log and slash the bond of a relic replay, freezing repeat offenders, so a atlas farm cannot multiplex one chip into ten agents.",
+  "stamp": 6,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 39,
+  "parents": [
+    "1cff1858448a504e57bd03a0dc3436d61e54bb9239fdd6563074153646bef1c2",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866051,
+  "cid": "poa-mainnet-1",
+  "sig": "bLPeAyFtJZyqS4JwYD1TuNL22JFzbZG7LYLVTPXZb2D5dC1EqciAEa8FJacoufhWqVGTJCMw17bvqTvcEbk1ZXG"
+}

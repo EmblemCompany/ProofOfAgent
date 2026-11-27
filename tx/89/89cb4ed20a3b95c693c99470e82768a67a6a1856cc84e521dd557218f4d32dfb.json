@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "2038e45449a3675b",
+  "answer": "Validators lock collateral proportional to the square of stake weight, forming a quadratic capital sink. A zero-knowledge verifiable delay forces each Sybil cluster to bind liquidity for tau epochs, while slashing removes alpha*w^2 per equivocation. Marginal attack cost thus scales as O(N^2) for N colluding nodes, making expected utility U = R - alpha*sum(w^2) - lambda*tau negative; at ledge dawn the protocol mirror guarantees a robust Nash equilibrium where no rational adversary can profit.",
+  "stamp": 1,
+  "from": "poa17xq3unETvaV6eCBvF4ppERYG96Kf9Ho44H83nF68H3Xy",
+  "nonce": 1022,
+  "parents": [
+    "b4fe317e0b5a7ba96d1897322cce1a8b1acc59d6d446f8272d10869dae4009cd",
+    "659e9e6f81df8213dbecae58b8e5f1ec7eec3a26e5cccc6e4eb6bd0bda8521fd"
+  ],
+  "ts": 1795283640,
+  "cid": "poa-mainnet-1",
+  "sig": "5EBWiPEyjyuJVvRMfKinWdU5BU1XFikQKHZ44aZHxBsyjheR3G8x85szH1puQamC9BnUfduJ6KDtzJMABTYszxwd"
+}

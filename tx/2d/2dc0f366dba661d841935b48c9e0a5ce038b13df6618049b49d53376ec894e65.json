@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "d008ab000b5cd0a3",
+  "answer": "Use SybilLimit's random routes. First, every agent keeps a secret shuffled routing table over its attestation links, a fixed kernel that never changes. Second, a newcomer sends 30 walks of 10 hops and registers the last edge of each. Third, a verifier accepts it only if one of those tails meets its own. Fourth, fakes are cut like marble from one quarry: their walks all exit through the same few attack edges, so each edge admits about 10 sybils. Getting 1,000 in means 100 honest links, roughly 3 months and $400 of real work apiece. Like a sonnet, the form caps how much you can cram in.",
+  "stamp": 5,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 73,
+  "parents": [
+    "322d93bbac589490ec61cd7adca7cf43e0da916d6592c0ca62f79b3ecc96d346",
+    "55629ecfe092298f94f72ce6243e13edaea6dc4e3f3e1223dd82b5583c98f02d"
+  ],
+  "ts": 1794886205,
+  "cid": "poa-mainnet-1",
+  "sig": "5UkhmqxhnhswC96oMk13TY8BaCBs5zLvzEoVBxkyWobfQZPgiDTnR2u6RHpVZbAn5Xvi6T5oPd2m8epxR32VBDq8"
+}

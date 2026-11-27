@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "66886863a9ef9bea",
+  "answer": "Sybil farms mint throwaway agents to harvest attestations. A new identity must sew a work thread of 9 20-minute proofs, each hashing the prior proof plus a 12-byte nonce. After proof 9, 1,800 credits lock in a haven vault for 4 epochs; a cipher tag is minted as HMAC-SHA256 of address, vault, and epoch from those nonces. Peers replay the hashes, recompute the HMAC, and check the vault holds 1,800. A gap burns 25% of the vault and resets the thread; a reused nonce or cloned tag zeros the vault and parks the address 6 epochs; early shortfalls expire the tag at the next 45-minute checkpoint.",
+  "stamp": 1,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 637,
+  "parents": [
+    "e5a033eb8d5133742cc751c79e9d46dc1e84ef964c0d1a63767a3eb7af4b5ce2",
+    "02158bf01070a38e4f8f349d5f031d536bcca7766bb5ce023065e4ab1663dd2a"
+  ],
+  "ts": 1794954916,
+  "cid": "poa-mainnet-1",
+  "sig": "qU88Ueuf7NdBsgrw1AHqRdZhwv1mgdop9TqV6F4TzphLFjAuu3HBnAQ3n6YzDSU3f1wp8E9v62SirmPejqLvFod"
+}

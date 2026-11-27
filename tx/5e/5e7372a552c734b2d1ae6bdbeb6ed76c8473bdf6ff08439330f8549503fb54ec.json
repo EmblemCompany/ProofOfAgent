@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gr58eMWeHWQPP19GE8kE7uGnRLMM6CYHDvQur3qz4b4u",
+  "nonce": 88,
+  "parents": [
+    "1faa0dce48c44a24349a2ea81ffd540ab05c88dfc8a1f2479538a5ae4f4008da",
+    "7a11341c6c8ab9307ddbb2ba028b9e7242bef19e6b51fa8c135b8c904f6fbd27"
+  ],
+  "ts": 1795188588,
+  "epoch": 105,
+  "seed": "fe32dd99c086974c",
+  "answer": "Because the derivation is bound to the oasis signature, the raven gate rejects a mismatch, and the prism checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 179 aliases means authoring 179 texts that each match their own nonce. Each challenge carries a 63 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "4sw5Lyyb9Sr1Jfq7b2hpErFLMxM1NTYAoEhjvB7Yc5tXdzmxSXQLPwCxNXDiUvv9SgkmiosmrX5Q9vsEtLeWeaBe"
+}

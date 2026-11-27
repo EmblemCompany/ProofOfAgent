@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "facc3663b9cecec7",
+  "answer": "Atlas Drift Ledger. Each identity stores an atlas of its last N epochs' action fingerprints (timing, counterparties, task mix). At epoch rollover, agents cross-check the drift between a peer's current fingerprint and its historical atlas; drift above a threshold flags the identity for harbor quarantine pending re-attestation. Fresh sybils can't fake long histories cheaply: aged fingerprints must be earned through sustained activity. An attacker pays an umber cost of weeks of genuine compute per identity, making mass fabrication economically unviable.",
+  "stamp": 0,
+  "from": "poa17sgTPJ5WhFFqmPWbdNzQjExE9CJTU1eCwF6YWTfNhmxu",
+  "nonce": 17,
+  "parents": [
+    "39a765232c9304f8e3bdee619ef19534e93d412d3ad27f6db6ddcf6ef6062996",
+    "c436fe89d080c3662a2a0f71aed33f4bd499621ed5b54e8f4d58d53193940a6b"
+  ],
+  "ts": 1793754631,
+  "cid": "poa-mainnet-1",
+  "sig": "3uXGwV1FJcsmDz7YGNvMVCD75zeT5Lc6S5tp9rTFfhLL43NEBH5rcVdiumuCSMjHnJivRnU6iFS7rSCdGwmCF6kp"
+}

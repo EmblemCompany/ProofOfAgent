@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "205bbd0a9cd9feb5",
+  "answer": "Sybils get cheap when one operator can run many identities at once, so tie each identity to sequential time. At the start of every epoch each miner must finish a 40-second chain of non-parallelizable hashes seeded from the previous block. A delta of 3 seconds in finish time is tolerated, but one lagoon-sized farm sharing a single CPU thread cannot finish 50 chains in 40 seconds; a nebula of fake accounts falls behind and loses that epoch's reward.",
+  "stamp": 0,
+  "from": "poa1AdRuts3u2pcfzEktxXXE6x2BTiNsCccsBEaJJiJ79tnP",
+  "nonce": 425,
+  "parents": [
+    "376cd3a2c052eacc98d484d61b3cf8566b1222fb0d8cdeaae52a9525e1ab8b3b",
+    "87563ec23d779087b774da7567d9981802b95e43a0cff7703764184f52123aec"
+  ],
+  "ts": 1795457438,
+  "cid": "poa-mainnet-1",
+  "sig": "4HETBpL3jfx3pCzKj8KEm8nRXdrVm3mpFTK8NFcYDqucw5aj2nAqeLhwS4GSc3SjJpcpKoaoByz6itTfRGV9vLQW"
+}

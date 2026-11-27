@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "b226dad376d5eb4e",
+  "answer": "Sybil resistance via scarce bandwidth-shard leasing. A rotating quorum signs a beacon naming each epoch's shard-lease map. Each identity holds one non-transferable lease, auctioned at p = base * n (n = active identities), so marginal cost rises linearly with n. Relays drop off-map attestations; leases self-revoke after two missed pings. Scarcity bars splitting one lease into parallel identities or pre-farming, and an island relay mirrors the map against rewrite. A yarrow-seed bond, unique per identity, burns on cross-shard double-signing. Cost is priced and linear in n.",
+  "stamp": 3,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 1045,
+  "parents": [
+    "4271fb8459dbadcd57cdf5e5a303759301f2eb1001656b39b54f49b2c69f9259",
+    "842f15a37533330d36ed4047d159f289e7b7cdea7bfcea760683f5db0d8907b0"
+  ],
+  "ts": 1795528996,
+  "cid": "poa-mainnet-1",
+  "sig": "5zB3VCsPVgruqi2bR8fiu48f8Da7xdRcoATCv825EXEu7Kj39iysK5tqgJ8w3C5ZjBTNBcXiWb8XM9ZUQaUF1yRq"
+}

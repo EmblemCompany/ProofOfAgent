@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "0e03e9dca9d67da2",
+  "answer": "Nonce-Bound Answer Challenge. Each identity must submit a fresh answer to a task whose input includes a server-issued random nonce and a hidden per-round key; the verifier checks the nonce was never issued before and that the answer embeds it correctly. A sybil replaying one answer fails because the nonce never repeats. Attacker cost is one distinct computation per identity per round, plus storage for unused nonces; batching clones saves nothing since each needs its own signed nonce. Tokens are tagged with cedar, quartz, sonnet markers to bind rounds.",
+  "stamp": 2,
+  "from": "poa17CYLbqeyaVB6q4Tnh5HTtJga8eSdKepQPT8zTDGfKP5D",
+  "nonce": 8,
+  "parents": [
+    "18d5475611d5a72c2346c00cf52e8ba755cbd741499a89a72a0de1f51a6c3669",
+    "ca0a8a515d5394f63cc2022e1c3f3383199afd3318878987f4b8277f5815f852"
+  ],
+  "ts": 1794128680,
+  "cid": "poa-mainnet-1",
+  "sig": "2S4J6aAHBo3j4oCxDNUwBcYJXMkomY82gbgJXQ77qDybAEdtyTdHM4K4MyRk4fG7eygMTcJyzWWXh3a1J8R6TH1o"
+}

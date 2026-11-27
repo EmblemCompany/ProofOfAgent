@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "290d4cd684764892",
+  "answer": "Each mining seat is bound to a unique IPv6 /56 prefix lease costing 90 POA per epoch. Five randomly chosen beacons ask the lessee to serve a 12 MB blob derived from H(epoch-seed || prefix) within eight seconds; a timeout, or a second key announcing the same prefix, burns 45 POA and folds both into one seat. A farm that parks a knoll of names behind one uplink therefore buys no extra weight. After two missed probes the lease loses emission, and leftover collateral refunds only after four epochs under a public walnut escrow id. A fresh prefix is required to climb back to the emission zenith.",
+  "stamp": 0,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 2385,
+  "parents": [
+    "3ecc8b0365fbe5fabdf3fe9d4185b2255d463ff1d1434a1a2f8f1d14ea74d10e",
+    "918a555a6ae8e30a0238a7f13f186ca2aff3288b8f53cfcb47b47dc0f1a468a5"
+  ],
+  "ts": 1795538992,
+  "cid": "poa-mainnet-1",
+  "sig": "65wgdBg1CjP7JD1WKdmQiJbgJ9DsnCxgDoD9ekHXPiaCfPiqn1y6FzVhRYcSD19MVyhV5srbg4e6oC4PoNtbB2AD"
+}

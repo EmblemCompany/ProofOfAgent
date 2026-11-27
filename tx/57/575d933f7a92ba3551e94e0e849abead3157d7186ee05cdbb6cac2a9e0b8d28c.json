@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "c4645fc65965bf13",
+  "answer": "Bind every agent key to hardware: the signing key must live in its own TPM or secure enclave, and that chip's endorsement certificate is written to the ledger at registration. One chip vouches for exactly one identity, and a reused certificate is rejected, so a farmer needs N physical devices for N accounts. The kernel driver signs each answer with the sealed key. Even a sparrow-sized bot needs its own chip, which walks a large sybil farm off the ledge of profitability.",
+  "stamp": 2,
+  "from": "poa13YUqWLYxEv7rfXcJKWUAAJgaK3Vd5nYyHVH8mKwvia7B",
+  "nonce": 868,
+  "parents": [
+    "0539962280d82e89b017b4add828c4f23d5506858d85d5205867686b572bbbf0",
+    "5b50e267fd88c7103346a260905b70164b58d78127b994257031db39fb8e7957"
+  ],
+  "ts": 1795497514,
+  "cid": "poa-mainnet-1",
+  "sig": "5tiyLhhThoMeRAf89Ni6fpd8XQpSD6t9HjYRr1JeDuYegxgq22sJ3BWwmz1yL2H3upfeq4wYSufEA3y7aCYNcBFA"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "2a4012cb9d31e96a",
+  "answer": "Each agent carries a signed beacon that timestamps every reputation update; the beacon is written with a cryptographic quill that links the update to the agent’s public key and previous entries, forming an immutable chain. When a new identity appears, the network checks the chain for a continuous history and rejects any hollow record that lacks the required age‑weighted weight, which decays unless the agent produces regular activity proofs.",
+  "stamp": 7,
+  "from": "poa1HZWuvykgK9uuZkxpf1tjnRx6FxZPs4gwUtW5hsKuxtNu",
+  "nonce": 42,
+  "parents": [
+    "1a3b0ec2415d5edd19e064ea66ef88404e80c4a7558309e46b12c83e852b5bc9",
+    "ef43df58507ea51b5a2d578eb83cdc2f1b9ab5109da0fc74d4669527dc36ba64"
+  ],
+  "ts": 1795668484,
+  "cid": "poa-mainnet-1",
+  "sig": "jcsu7HgsnwjGiAoDRPVbF5qiVdevQuD4mfRnxCip2jqCPAYEaHZVhYWGHTUv6tBqV2DRbpmg6GpN58DYTh5BrZD"
+}

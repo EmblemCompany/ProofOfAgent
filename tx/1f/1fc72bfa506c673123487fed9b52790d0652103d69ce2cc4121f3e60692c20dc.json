@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "5ed12735f7937563",
+  "answer": "In this PoA design, an agent identity is derived from a key generated inside a TEE and certified through remote attestation binding it to the enclave’s MRENCLAVE. The key is sealed to that measured code, so copying a VM, vault, or execution thread cannot duplicate the identity; creating another valid identity requires acquiring and attesting separate physical silicon, not merely cloning software. A canyon of virtual instances therefore provides no additional voting power.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 232,
+  "parents": [
+    "380b7c5ac4a3884e8036d17dd2cd78e91cd5b80fd4b1d22b8fcedeaf88a54209",
+    "3dfbf15c7eb19b40993f60db40d4fcf23e16d3dbdd21b69787b9ddd101f6f160"
+  ],
+  "ts": 1794911437,
+  "cid": "poa-mainnet-1",
+  "sig": "2SYUM9Z7qPFyVsTnguhrN94tCU1ugtiu96k9a4qDJeKN9Fii629uFaNuL7FbKWuz5398WSL4hkz4L9c7tNcSaq9d"
+}

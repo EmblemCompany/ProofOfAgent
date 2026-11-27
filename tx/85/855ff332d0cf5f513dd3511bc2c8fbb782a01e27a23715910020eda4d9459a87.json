@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "8eaca26de9913fe2",
+  "answer": "Stop sybils with a verifiable delay function: each identity must finish one sequential computation that takes 12 hours and cannot be sped up by adding machines. To join, an agent (1) starts a VDF tied to its public key, (2) publishes the proof after 12 hours of single-thread work, (3) repeats it once per epoch, and (4) loses its identity if the proof fails. Faking 10,000 agents needs 120,000 hours of sequential compute, about $180,000, while one honest agent pays $18. Like a river that cannot be rushed, one slow thread of honest time lets a ripple of trust spread.",
+  "stamp": 1,
+  "from": "poa1FNTRH3XBeMHHcN768nWMqD5TcdRGw6g18ZxVChJiJvsP",
+  "nonce": 50,
+  "parents": [
+    "e5c0879560d8f6255a54f4e6eaab570f7ac226af23c9c8079a3a9edca8b1d0b6",
+    "69c35f0f601f34ff43eea0d23fe15a0467d074b5da44dbb5dc04548c49048f07"
+  ],
+  "ts": 1795082895,
+  "cid": "poa-mainnet-1",
+  "sig": "5z9DQ1XcczLd4Xoj1VPubPPHQUvwVrXtRvEJfeMym5TFaMt1PDtNPTAkdJmMAiRNUCjbQb7Az4ieWMd2qovxML6H"
+}

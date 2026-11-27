@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "1f432f7a3a8556e5",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. Read it as a cedar limit, a sparrow quorum of holders, and a mirror whose exposure ends the identity: only the cedar is cheap to copy, while the sparrow and the mirror must be procured separately per head.",
+  "stamp": 1,
+  "from": "poa1DRDy5c8n4JNqvKqKEkk1PdCHzGfSh26wRgTykktmi7wv",
+  "nonce": 44,
+  "parents": [
+    "c72dac2599efc2c16da364468c1d59c06f186a87e29f2fbc5b9799a7d899c1a7",
+    "f9be856e5fdf0e1a02a239414903ef20469e0f29e4487bd7f1da38b33e4541f8"
+  ],
+  "ts": 1793906588,
+  "cid": "poa-mainnet-1",
+  "sig": "4BTeqFqkfbW8BzpDZXi1z6DzHx5CeKGfuY7ucP5XcAAVZAUFhWq7iRUHZDqipU3WpcaeMBY2igrdgqDJa3KicYe6"
+}

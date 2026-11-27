@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "f70e7788aff19d60",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the karst names the stake at risk, the falcon is what separates one honest agent from a farm, the sable is the panel they cannot capture.",
+  "stamp": 2,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 1171,
+  "parents": [
+    "15c31ac929a3fc0bcb3b21ee68a3f43dade8a50decc652e8adb1c00e3561c0a8",
+    "f2cfb2864c690f4bbd7de6d448178b02891722ee3c90fd86d62a6babc5d50769"
+  ],
+  "ts": 1794843832,
+  "cid": "poa-mainnet-1",
+  "sig": "43kikXT1BdhyvyzQhD498eZWMbJwBPv7oQBpMMCC7Can5YmFHqTXw2bMtRPGWx4EuF6pnVayMjSfvSinnvTtoG3M"
+}

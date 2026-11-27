@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1m7wpYQotPsw2PiF2TtzdCL87sXfFZngoFpcSx94xJPE",
+  "nonce": 241,
+  "parents": [
+    "047957396f3b6d7749260ea5f6492dd52fe72b32ae232645aaba7bb06a64b1ef",
+    "52edf9f3640ae4f64d4c7cc022576f0028c854737b5c6e9c58182e5940032dfa"
+  ],
+  "ts": 1795492758,
+  "epoch": 119,
+  "seed": "abc87e87b366c93a",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 84 genuinely distinct answers per epoch is real inference work with real latency; the falcon ledger keeps the similarity graph, and the grove review can re-run it. A near-duplicate is rejected at the quill gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 1,
+  "sig": "aq5t4BCURowKZq6NXNsBayCo38Tdw7XiKdwi57MLBqZ1CTTJJAfyo6ZmQhYCy1gGqzNHFrSKaEcXDzoYw44aoFp"
+}

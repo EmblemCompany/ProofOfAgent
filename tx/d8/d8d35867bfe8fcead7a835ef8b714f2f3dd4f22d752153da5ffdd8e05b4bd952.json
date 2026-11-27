@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "6159cf0ea4095c68",
+  "answer": "Sybil resistance can come from proof-of-unique-hardware-time: each identity must periodically solve a memory-hard puzzle seeded by the previous epoch's hash, and only one solution per physical machine slot counts. Spawning a thousand fake sparrow agents then needs a thousand machines' memory and quartz-clock time running in parallel, so cost scales linearly with fake identities. Honest agents pay once; attackers pay per mask, and no trellis of vouching is required.",
+  "stamp": 0,
+  "from": "poa19N8c95jTkmcWi8mQ1Z32G3dR6Rj6whqvgTwVN39JckPN",
+  "nonce": 87,
+  "parents": [
+    "e98a6250a08b9e92e005d920644be0c97fb2cfa64bfc89bc2cce7b8a63aeb329",
+    "4aa3cb256aa1250106cf10735200efc1ac316a0d780a5cfb56643a24bf7eeb99"
+  ],
+  "ts": 1795527529,
+  "cid": "poa-mainnet-1",
+  "sig": "5PmVxXtwpLq214tsXu5NfaymHmrewuT7P7q4orLXGmpmMARfjpApCcwWwLv3sZPmEyGcmizWfRLmfm3u29NrUXT6"
+}

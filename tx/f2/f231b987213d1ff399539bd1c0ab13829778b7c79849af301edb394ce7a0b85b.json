@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "0bdbf6e982962506",
+  "answer": "Each agent commits to an assigned folding task of 10,000 steps within 30 minutes and publishes the result hash by the horizon deadline. The verifier recomputes a spot-check of 100 steps on 8 CPU cores and checks the hash. One honest agent runs 1 job for a 150 POA bond; 10 fakes must run 10 jobs on 80 cores, so compute cost rises 10X. A saffron tag marks verified jobs; peers check the ivory ledger for mismatches, and a wrong hash, failed spot-check, or timeout slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 8,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 45,
+  "parents": [
+    "e9086017b49f3d9b97b445b3a7e14c3c6aab3fa5aedb4c1ce3d65cd9badcd6b0",
+    "1154574d5bcf548475099fe276bec99eb957e743a3f8370d5e7909c4e7a59c2e"
+  ],
+  "ts": 1794174027,
+  "cid": "poa-mainnet-1",
+  "sig": "2xwwduWgeoaraEa1kp1mchsx1aLzicTGoKi8g8d8hx6u47PeNHZXuuh1c3tCgC7YcFoK7qDqiGdegN72tVbrsobz"
+}

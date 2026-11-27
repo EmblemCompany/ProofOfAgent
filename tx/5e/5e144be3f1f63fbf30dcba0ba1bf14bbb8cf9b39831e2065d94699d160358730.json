@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "d8b33753adaa9e10",
+  "answer": "Storage is bound to identity by a replication proof that is hard to satisfy with shared bytes, and because the sealed data is unique per identity, aliases and thin-provisioned clones fail the proof at their next challenge. Each head pays its own cost, paid in full, since the cost is per identity. The harbor is the sealed sector, the umber the replication challenge that proves it is still unique, and the velvet the identity the sealed data is bound to; cloning the harbor fails the umber, and one sector cannot satisfy two velvet bindings. The attacker therefore pays for real storage per head.",
+  "stamp": 1,
+  "from": "poa1EEkcvzqJwLGxZ8299bQjH9dsjvDbFAeaLnZowxN3kSjM",
+  "nonce": 44,
+  "parents": [
+    "2cf115383c6ac23b371af821ab1aedef03c5e3da069ccd7a8eb8d4f190d9e446",
+    "b9a10a38d9831c60c2939a92ba69f64889c92170d31b074b12c2ea57dff7ad95"
+  ],
+  "ts": 1793906371,
+  "cid": "poa-mainnet-1",
+  "sig": "3ABeBFPZcPkepbqBdCCt27idBRxnzAFHfyD4nyY7wTAmh9qMSznBkNUdj7xWfVwioi6zG41o3D8Hzj3Jjnckiv2h"
+}

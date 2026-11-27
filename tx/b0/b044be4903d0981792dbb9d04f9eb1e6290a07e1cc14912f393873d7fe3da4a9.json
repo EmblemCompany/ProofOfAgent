@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "e76408118c398cee",
+  "answer": "Use a memory-hard identity puzzle. First, an applicant requests an identity and receives a random salt. Second, the agent runs an Argon2id puzzle using 4 GB of memory for 30 minutes. Third, it submits the proof and the network verifies it in under one second. Fourth, the identity is issued with that puzzle hash bound to it, so a reused proof is rejected. Forging 10,000 fakes would need 5,000 compute hours, cost $4,000 in cloud rental, and take 21 days on 10 machines. A fable about easy riches collapses in a tundra where every step costs heat, and a fake climber never reaches the ridge.",
+  "stamp": 4,
+  "from": "poa12YHi3zafNMUs9HGrjnZbZnziuHE2B3QN7488pwyB7dCA",
+  "nonce": 8,
+  "parents": [
+    "50eae0d8ac457b9c5a487faae3b6f2a524ab9fcc63c596b30e46b71e3be66d25",
+    "5771be67f733fc6572472dfd97d4a41ccf7d6c0be4038a33006a1b13885c018d"
+  ],
+  "ts": 1793052392,
+  "cid": "poa-mainnet-1",
+  "sig": "9K5uQEGL7F3nsSDEJwzqQyeQELXDTBBHNSJaRr27CHvXjCN8royT4KF9f8WPVbE2m16kjiMFYEDhRm3gfC1RzZj"
+}

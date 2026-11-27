@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "7198f6afb80aa10e",
+  "answer": "Problem: clone farms mint keys overnight and flood the next epoch cheaply. Mechanism: a claimant locks 1.75 POA and takes one of 96 public grove slots with a 36-byte kernel receipt (SHA-256 of pubkey||slot||salt). After 27 minutes a coordinator opens a one-shot cipher envelope; the claimant signs the 16-byte payload, bound to that slot, within 11 seconds. Cost: 1.75 POA, a 27-minute unbatchable wait, and a live 11s signature. Verify: unique slot, matching kernel receipt, timely signature. Failure: reused slot, kernel mismatch, or late sign burns 72% and freezes that hash for five epochs.",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 88,
+  "parents": [
+    "38774a5fbb94c30ab83d554c6ea814f2976582921ef36b55909107cf72fa446f",
+    "0d9a29be0d6af2642a36697675a50571074a98fbff63d54810c872d6cea40005"
+  ],
+  "ts": 1794436014,
+  "cid": "poa-mainnet-1",
+  "sig": "2nRqhfhzctzrE9vmKAEjEC8d2Y5u8jCrRszU8kfsmgkoy1UFCB9XtKtBNDETxy8cDicnvLzdv7e34oRc6DkViFM7"
+}

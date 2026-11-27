@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "1e9a57314937dac8",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, which commits to approved code and configuration. Verifiers accept only signatures from the corresponding hardware-backed key, so cloning an identity into virtual machines cannot satisfy attestation; creating another valid identity requires provisioning additional physical silicon rather than duplicating software. Whether labeled comet, falcon, or ridge, a node cannot bypass this binding.",
+  "stamp": 1,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 20,
+  "parents": [
+    "e2e1400c9b2fbc69224a39ae4296856c6551514356ebf2d03edad2102a419fa8",
+    "09361837b54bc88acfd897bf1f9f76e08c7487153a15ce930395b7ff7b27999f"
+  ],
+  "ts": 1793733928,
+  "cid": "poa-mainnet-1",
+  "sig": "31Btr8JS868RAWdzPVTZHqM64bk7QTVkzGQXC7G44jJf5TKNpyfYZxmpr6g5vLWhp3bdxdozoRRLCsrK5XVe3Ps1"
+}

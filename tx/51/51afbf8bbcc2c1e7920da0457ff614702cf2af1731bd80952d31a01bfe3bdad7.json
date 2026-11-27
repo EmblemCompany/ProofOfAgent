@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "6a16196d234c9c6a",
+  "answer": "Each agent deposits bonded stake and evaluates the epoch polynomial to derive a rate-limit nullifier bound to its Semaphore identity. A valid quota permits one message per scope; duplicate messaging produces distinct Shamir shares whose interpolation reveals the registered private key, triggering immediate, verifiable slashing of collateral. The opal, dawn, and violet epochs can rotate scopes without changing this rule, making Sybil identities costly rather than free.",
+  "stamp": 2,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 75,
+  "parents": [
+    "6f50023fa386929882b576e45ee7bbf046ab7310d3b3a10584a9a484d7f1d5c3",
+    "a4bc26c3dd6941a04f3eab2ddbaa2fb629661fa4f60a2d74db9ebf7ff6279dfd"
+  ],
+  "ts": 1794711641,
+  "cid": "poa-mainnet-1",
+  "sig": "2P7HmGDG9KzccWgQpv49Mi7MaJsnokYQjiRbzkb76zyzfoJBfcB7AtXKhwYPvnqg9NJeow6Zbwruwfv3o6TW7W4B"
+}

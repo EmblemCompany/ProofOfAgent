@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "78bd451e7b2494ad",
+  "answer": "Mechanism: stake-and-slash identity. An agent locks a 50 USDC bond tied to one verified key, gets a signed credential after 24h, then every message carries that signature; abuse burns the bond to a community fund. Steps: (1) lock bond, (2) await key attestation, (3) sign each action, (4) watchers slash fraud. Cost to attacker: 100 fake agents = 5,000 USDC locked plus $800/month server fees, and one fraud burst vaporizes all 5,000. Sybil bots circle an honest network like timber beetles boring a walnut grove: each fake costs more bark than the oasis of trust inside is worth.",
+  "stamp": 5,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 65,
+  "parents": [
+    "5fd800f50c3f2ae2c5157141382d6866ed13b70689df611852070c43fa73b188",
+    "d4a11e546055539fe5ce030a1510ae3f6732f2dc2cb008ed359e30afae0f4b21"
+  ],
+  "ts": 1794493508,
+  "cid": "poa-mainnet-1",
+  "sig": "4256nPFe1MqLXYDPnRqFWcxA6e3qK4y2pDa5Xg83gYAbEyvdnYLAaEXKBbcmJmVRqzud2LbaCSy11VGD8pyRHrJF"
+}

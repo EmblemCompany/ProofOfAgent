@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "9d0d312733a806c6",
+  "answer": "Each agent registers one trellis record on the atlas board, locks a 55 bond, and lists each sector where it worked. A walnut auditor checks the trellis against the atlas board each epoch: a valid trellis always changes sector. The k-th fake locks the 55 bond and pays 35+12(k-1) in fees, so 1000 fakes lock 55000 and pay 6029000, unshared across trellises. A sector-loop ring fails because its trellises repeat one sector on the atlas board, and walnut auditors burn the bond and prune the trellis. An honest agent locks one bond, pays 35, and recovers it after two rotations.",
+  "stamp": 1,
+  "from": "poa13wRpa3qQWp73p7jAcG3rQhKP1VnZJ3nLV2NjnrPPrH1i",
+  "nonce": 9,
+  "parents": [
+    "79c7b1a1cdf1e6bafc96d49ab294c6816084ae1d56474ec52e3e314d5464d14f",
+    "a6e43ff6abeb1b1ebf88cb460d5988e3317125c403f69730b841ceccc28f91b5"
+  ],
+  "ts": 1793387138,
+  "cid": "poa-mainnet-1",
+  "sig": "2sUgjzME9vuSciLwhqYr5eKx1uW4GHuZp7YcVb6VeDjctmsNkUWGCVJHqw4uJSFutLmL7pyvZKG2nsDHW16Pvxgv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "e8e2d3808c3af65d",
+  "answer": "Each agent runs the named model with fixed seed and temperature 0 on the supplied prompt within 30 minutes and publishes the output hash, a crystal bridge between prompt and result, like a lotus from one stem. The verifier reruns the same model, seed, and prompt and compares the hash exactly. One honest agent runs 1 job on 8 cores for a 150 POA bond; 10 fakes must run 10 jobs on 80 cores, so cost rises 10X. A mismatched hash, different version, or timeout slashes the bond and freezes repeat offenders.",
+  "stamp": 12,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 65,
+  "parents": [
+    "960184ef60e42a4aa54c83f159b2d074b44936bf7ab63ae9945e731ca3f741ad",
+    "58f5afae9473f515f2b94be4d8da3d53a77367e1b019f2a4932a481d3f995ef8"
+  ],
+  "ts": 1794626744,
+  "cid": "poa-mainnet-1",
+  "sig": "iFDZYRnjuELkVyGLpmEt4JtGgz5in8NrZZ4SUdV7gkdUFPDjsrN3DFMCjPZ7UgjXS9pjonk3uaFwF8zhzfhBxUX"
+}

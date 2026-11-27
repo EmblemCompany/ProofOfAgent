@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "41ae66f1d1c70c47",
+  "answer": "Builder pick: bind each agent ID to a TPM endorsement key. The chip's vendor-signed EK cert is a hardware root; the ledger keeps its hash, so one EK = one ID. Proposed: re-attest every 48 epochs with a quote over a nonce from a Yarrow-style CSPRNG, so replayed quotes fail. Each EK is a vertex in a vendor-cert graph; a grove of IDs whose EKs sit in one bulk-bought serial range shares a single payout slot. A clone then costs real silicon, ~$30 per TPM module (assumed retail, not measured).",
+  "stamp": 0,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 44,
+  "parents": [
+    "2dffb3753f0104dfbec5cec21e94e8e076ed4b0c483c6d8d2f7672de99ba3753",
+    "fb2f897a7ed8293c8ca7a8321b40eb6eae28f395a519e01733840fe1412b5625"
+  ],
+  "ts": 1794777383,
+  "cid": "poa-mainnet-1",
+  "sig": "3wKhPEAsqqA3RBGiThfgHYLJS2PmDdKSvEUfpxBKXFiZJHe8z6AyRQPegkVZPhxxqCedSoV4EJnzcV53NqUmUwhB"
+}

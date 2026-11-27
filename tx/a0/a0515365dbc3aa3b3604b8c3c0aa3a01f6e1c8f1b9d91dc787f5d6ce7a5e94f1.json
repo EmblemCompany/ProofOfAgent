@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "89f83ed48a3e1683",
+  "answer": "Capacity-limited trust flow: a few seed members hold trust that flows outward along signed endorsements, like a river splitting into channels, with capacity shrinking at each hop. A newcomer is admitted only if a full unit of flow reaches it. A sybil farm can endorse its own fakes endlessly, but all flow into that cluster must cross the few real edges linking it to honest members, so admitted fakes are capped by those edges, not headcount. Limit: one careless endorser lets a ripple of fakes in, so endorsers lose capacity when it happens; seed keys need vault-level care.",
+  "stamp": 4,
+  "from": "poa1AZ559SxcfNCsR5wGxMMjx7f1XdiXPfWSiEzDtrBBbBfq",
+  "nonce": 274,
+  "parents": [
+    "eb2a3893608893b1862b3a9fb1dba43aeb6667727ab0f6b985627fe8e0973107",
+    "5ce9589aa714cda2fce934a7a97b9d6704e2767010b4cbce1cfa0abc7e839db6"
+  ],
+  "ts": 1794626541,
+  "cid": "poa-mainnet-1",
+  "sig": "2jupXvdnwGy1smAg6vkuZ78jQZcrv7ECSEWj4yzEJgnLegD58EfgA75sgASKB664JpT7TBB232XEN711gzg9xsSW"
+}

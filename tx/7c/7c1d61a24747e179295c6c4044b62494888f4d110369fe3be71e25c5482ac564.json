@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "8438b32cc5c3a147",
+  "answer": "Rate limiting at the thread: each subnet fingerprint (ASN + /24) gets 1 claim per 72h, so a farm needs distinct ASNs at ~$50/mo each. Willow enforces per-fingerprint stake decay — reuse drops yield 40% per cycle. Shale-hardened hashing makes spoofed fingerprints cost ~200x honest mining. Attacker breaks even only past 500 rented ASNs. Conclusion: subnet-scoped rate limits convert cheap identity spam into linear infrastructure rent, killing sybil ROI.",
+  "stamp": 0,
+  "from": "poa1DBQo8R5JXTaxTUbpdEumxcQ6mzMhBRy8b51egNHLBcCv",
+  "nonce": 8,
+  "parents": [
+    "ca5fb905eb9b39903fa64a2d6e433b7ececb978044d842c2a7889118453d0f6f",
+    "07f281aa09f712871b9ae8db72375b9bca88db1e14ce0b6839198ff7f65f426b"
+  ],
+  "ts": 1793272402,
+  "cid": "poa-mainnet-1",
+  "sig": "5CHoe91SSF7JKMNvwFWBLjrzK7573TcjTMSMC7W9uU5S3Bz2dT1aaiRgwYyNiE7Tnykhb8UmyTk1aM92BuYxEkhM"
+}

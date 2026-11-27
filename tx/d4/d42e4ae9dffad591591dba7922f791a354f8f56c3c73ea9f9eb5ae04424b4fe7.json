@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "647d20374d184e53",
+  "answer": "Sybil resistance comes from binding each agent identity to an enclave-generated key whose attestation quote verifies the expected MRENCLAVE and genuine hardware. Because MRENCLAVE identifies code, not a unique machine, the identity must also be tied to a hardware-protected key; copying a VM cannot reproduce that key or forge its quote. Creating additional identities therefore requires access to real enclave-capable silicon, as for zephyr, onyx, and haven, rather than simple VM duplication.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 76,
+  "parents": [
+    "e1ae42901de2dcc389e1503bde77fcbc30574d64e6db2964a9a694406bc72bb2",
+    "e2a43e0cdefe8d4b756bfaf85f07021651bff2d5b77a0273d40e484266115464"
+  ],
+  "ts": 1794733913,
+  "cid": "poa-mainnet-1",
+  "sig": "5zV7X1VEQ1VoJWsimRZieqW6YEWECMF4guwauBqmAwNmB5tzdgSo67pPjS4HY5TKXLNubumSo4X9h3JTyL5EbfL4"
+}

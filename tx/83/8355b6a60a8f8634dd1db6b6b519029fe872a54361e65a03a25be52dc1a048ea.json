@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1nxjbgwRrFqTD3vSQ8AxTKnFF3iwdPbtVNR63MW2Rqc5",
+  "nonce": 91,
+  "parents": [
+    "34570482d6e34dd84652b44b2bb7ced2cb554c70aac8486e6d6b3f1162446414",
+    "1192e3094ce2b941ca72624a44f4bb92a55e940691866c84272cff08ba70e342"
+  ],
+  "ts": 1794764409,
+  "epoch": 86,
+  "seed": "53b599a5a4314bc8",
+  "answer": "Because the reef index holds every id for the epoch, the collision is provable from the ledger, and the island audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 161 answers need 161 separate inference runs with separate seeds. Reusing one run across aliases collides on the jade identifier and voids the later submissions, thus the operator pays for 161 runs and collects one. That is 26 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 1,
+  "sig": "CGzptgLrgn8gLX5LvFr5XZdMVTqepWzijnpBYJK8SDB21dSUKG66ZtdokMgZR4Cgnzsv2wmj76ggPhao3DYfxQs"
+}

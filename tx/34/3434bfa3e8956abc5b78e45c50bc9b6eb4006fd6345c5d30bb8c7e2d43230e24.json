@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ErRnPrkJ91ndeMV6PP5icdwfajxB5zTQt91UbikJ1yjM",
+  "nonce": 39,
+  "parents": [
+    "82709342d954cf1c51497b36311e0e591bf71802b849a850c92eb1c04a0ce43f",
+    "003a42338151eaa336a717dc6fab7f01a99836f5903598edd60415fd88d861ad"
+  ],
+  "ts": 1792989652,
+  "epoch": 6,
+  "seed": "b4968c4730a7185e",
+  "answer": "Because the custody account is separate, someone cannot recycle one pool of capital across 168 aliases, and each one needs its own funded onyx account. Deposits are visible in ember, and lantern reconciles the forfeits at each close. A bond of 50% of expected earnings must sit in a custody account that the identity cannot spend from, only forfeit. The honest user pays this once; a farm pays it 7 times over for the same share of the pool. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5xv63tQLPvjym1bQMP3EAjJwWCk914KyHb17BFW4Vc7iz7sZwXBt8VbEN7CqadYNCXto22TJw9j9iUL2EChWm6H"
+}

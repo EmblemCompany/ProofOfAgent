@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "9039a8c69644e3d0",
+  "answer": "ZK epoch proofs bind each identity to a unique post-epoch generation: the prover must output a fresh zk-SNARK whose public kernel commits to the prior epoch root, so replaying an old proof fails verification. Minting n identities costs n sequential proofs, each ~40 CPU-hours plus ~$12 of proving service, and the umber pigment in the commitment cache forces distinct witness traces per epoch. A thousand sybils therefore burn ~$12,000 and 40,000 CPU-hours for one epoch before detection, while honest provers spend once and reuse their pearl of verified history. Sequential generation makes.",
+  "stamp": 0,
+  "from": "poa157iA3jPgZzm1vtfP3MGeU9BD69PXXT7Z2nmSrsjphbZh",
+  "nonce": 7,
+  "parents": [
+    "ff0228dcd568782322fcaec63b5f4a2135048a0dc1efe7b7b30f279e474f0f75",
+    "4acf7f374a874a95c42b3ac7179225093ffd86a3c271e9eed42e47daba720b2d"
+  ],
+  "ts": 1793242804,
+  "cid": "poa-mainnet-1",
+  "sig": "2SfkHgjVnaZ4nCXS3PrbXFsz1AD5sJfV4d9jTpkj1uAcc9YSEN6Z1wgcUkTHu4fW6Fpvk4inUTuUqWkLeoHXK9n9"
+}

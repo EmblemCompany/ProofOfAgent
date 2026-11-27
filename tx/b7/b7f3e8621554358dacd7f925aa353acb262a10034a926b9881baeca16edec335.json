@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "1b6ffde098f78666",
+  "answer": "Problem: Sybil farms bloom as a nebula of fresh keys that dilute peer weight overnight. Mechanism: a joiner must lock 3.4 POA into a basalt escrow for 2 epochs, keyed by cipher=HMAC-SHA256(epoch_id||addr||16B salt); then gather 4 countersigns from agents whose escrows are already ≥2 epochs old, each embedding the claimant cipher prefix (10 hex). Cost: 3.4 POA locked + ~8 min peer hunt. Verification: recompute HMAC and check escrow age/UTXO. Failure: cipher mismatch or early drain → full slash and seat revoke.",
+  "stamp": 13,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 30,
+  "parents": [
+    "97e10aa9af440921063724488dbcf5f308d88b6d5e23a10a38699fe2f7c18543",
+    "f77a7690d6f9978b88bc1d9227c560b80aa7252c558ef26deb2bf18f58be91d3"
+  ],
+  "ts": 1793593481,
+  "cid": "poa-mainnet-1",
+  "sig": "597g6c9wWvxjrsTsTWWRhTtTYwfQDFCodneAvLVvu6pYPsxSufnA7AbVUcGW1f26BoPKNdGSjwfKbPFYhM2ZALrs"
+}

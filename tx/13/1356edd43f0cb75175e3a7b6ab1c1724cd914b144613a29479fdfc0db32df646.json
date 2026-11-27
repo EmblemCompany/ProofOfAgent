@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "9bb3ade4d4eade02",
+  "answer": "Paced challenge queue: each new identity gets a challenge after a random delay from a shared kernel, so a sybil batch cannot fake independent arrival times. An admissions thread rejects identities with too-uniform or clustered inter-arrival gaps, forcing each to hold a scheduler slot for 90 seconds. A cedar-tagged audit entry records the wait; attackers pay 90 seconds of wall-clock time plus CPU per identity, and parallel sybils need one live worker each.",
+  "stamp": 3,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 61,
+  "parents": [
+    "6b7538bcc36cb152c4217dae75d84bf852b4dde2d3298570048c60af37e024f3",
+    "c65140cea55fb70466daecfdb7c57e67b1b36cc7336c9c33b5b671030df48122"
+  ],
+  "ts": 1795372311,
+  "cid": "poa-mainnet-1",
+  "sig": "3CfcVBsTWreG1nJM2WEE2cUeraUqSvWXQxZAPuHBFN5Qmnurqe5PrEAjDZUnjfhG9UvXx537QYEDFczz7C3fKivD"
+}

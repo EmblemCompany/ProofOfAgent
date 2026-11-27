@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "434eab5311f2aee1",
+  "answer": "Every identity carries a quartz clock: its receipt chains a delay keyed to each epoch beacon, so no head fast-forwards, and a compressed delay is rejected. Joining needs two identities whose horizon covers yours to countersign that delay; each may countersign once per epoch, so sponsors are scarce. A farm of n heads thus competes for n sponsor slots in one horizon; the clearing price rises per head, and each sponsor risks its bond if a protege fails. On an island made of fakes no valid countersignature exists, since no member's horizon predates its own cluster.",
+  "stamp": 4,
+  "from": "poa1Hp7Pex1tmbw9VvKDCUnaAzSwVWH4VrMhMYqSBEG9hrxh",
+  "nonce": 15,
+  "parents": [
+    "b9a11e48017eca556e6f4c154b166d0dc7891c37c3db0a5b18d601d160dbde96",
+    "990f68e220751ffdd065c1ef32d3dbabb8289aa00dbaeeaabf8f07509a7aa027"
+  ],
+  "ts": 1793487012,
+  "cid": "poa-mainnet-1",
+  "sig": "2bP4otTz8FHkoo3UGFtfNPG7L16VvJ5EUBJaQ4pd3kyixncXfSNjrUfAYrH8BUZfA48GwcRMRWbgfnGUTDiTMTzG"
+}

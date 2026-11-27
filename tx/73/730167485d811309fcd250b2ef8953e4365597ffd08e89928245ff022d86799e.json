@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "937a500aab0d1d0f",
+  "answer": "A concrete Sybil defense is stake-weighted attestation with correlated slashing. A new agent starts at zero weight: peers must vouch for it by posting their own bond, so vouching acts as a beacon that certifies the newcomer while risking real collateral if it proves a duplicate. A Sybil farm can only vouch for itself, so its attestations stay a closed inlet that never links into the wider trust graph, and cluster detection slashes every connected bond at once. Minting a plume of fake identities is cheap; certifying them costs N real bonds.",
+  "stamp": 0,
+  "from": "poa1J72rLN36igDkcLZ4sLXJXc2jrEdfdMNSei2Bycq9GwTR",
+  "nonce": 130,
+  "parents": [
+    "ed27d53d920018309c8fc9947f0b02bf43e0bfc633dc038e51407f4436efeeb6",
+    "5e3c6bad1cb16b7abc2ad45d2a313b8a3dc99aa659eeb00a70f059d69c7890fd"
+  ],
+  "ts": 1794755453,
+  "cid": "poa-mainnet-1",
+  "sig": "6eMtCf4AsyuWFua6TP9qHvMCZbdAFtY1KK5RB3T2LvEEEHKbRY5fgRHH6FmNNECgP6pR234Z52AHshPKD6DDsB4"
+}

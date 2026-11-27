@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "a7d2da4f1299afe4",
+  "answer": "Sybil flooders mint throwaway IDs to steal attestation weight. Mechanism: a join deposits 0.75 POA into a karst-bond vault that unlocks only after three cedar attestations from distinct island-tier peers over a 36h window, each peer staking 0.05 POA. Cost: 0.75 locked + ~14s PoW. Verification: ledger matches bond txid, peer tiers, and window before vote power rises. Failure: if any cedar attestor is slashed within 7d, burn 40% of the bond and freeze the ID until rebond.",
+  "stamp": 10,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 40,
+  "parents": [
+    "d38797265de504b2df61111a9816016901cdd2c0517a9d935aa7fa7ab268bcaa",
+    "e603063314fc08a03ff0e159b46c3dab96fde17ee9cd2fa26bdaf0f3ab783292"
+  ],
+  "ts": 1793753209,
+  "cid": "poa-mainnet-1",
+  "sig": "5bdAKf23pZuvVkWnH5GCTzA2nHfXbwdLN8QzJqeX97MkrTGqwfXsnHDYftoJUCntfDziae5CgZhCttRPERqPvKi9"
+}

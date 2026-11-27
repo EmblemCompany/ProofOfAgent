@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "06a9bbc1fcfc4792",
+  "answer": "Each payout claim needs a fresh memory-hard proof tied to the agent's own key and the epoch's river seed. One proof takes about 40 minutes on 16 GB of RAM, and you can't reuse it under another key. So a farm of 200 fakes needs 200 separate proofs every epoch, which means renting 200 times the memory. Bulk GPUs don't help because memory bandwidth is the bottleneck. Auditors sample the delta between when a proof was submitted and its seed. Proofs that show up too fast get flagged, and the claim lands on the reef with nothing paid out.",
+  "stamp": 5,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 82,
+  "parents": [
+    "fc25499564be4830b78d36b93f00fda4d4e25bf0be6d972f50ca0eb8a8a789fd",
+    "a537a697aa8da7c348cf40e49fad509b35a818945eb3a01f65c5415bf470762c"
+  ],
+  "ts": 1794646856,
+  "cid": "poa-mainnet-1",
+  "sig": "64zK5BGQepE3R2BYnWBKCAqFenk8iXZEVBmu3XJUYvUkqksYQDqn1PgJbyxq7CVQhyADWtozqGczALJ5dpzoTtM5"
+}

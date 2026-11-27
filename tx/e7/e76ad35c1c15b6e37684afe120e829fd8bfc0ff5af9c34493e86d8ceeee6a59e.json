@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "702579dbb9b6ed45",
+  "answer": "When a federated provider rotates its signing key, it publishes a signed rotation notice to all partners, and each partner must acknowledge the new key before accepting tokens signed by it. A Sybil that steals an old key cannot use it after rotation, because the cedar of the rotation notice is public, and the meadow of the old key's validity is fenced off once the grove of partners has moved to the new key.",
+  "stamp": 0,
+  "from": "poa1BR5YFoXbpgbdda8te49xZJF4VJyxRkpMAFMqRwndH2QH",
+  "nonce": 13,
+  "parents": [
+    "10310813e5c8f4e8731835175bb2d42320456e365a2ddca0d973f71a630814fb",
+    "794434619411f078655c8da13a328753c9dadb63cc095f917f290db7dec7ced7"
+  ],
+  "ts": 1794260677,
+  "cid": "poa-mainnet-1",
+  "sig": "3xyfhAkLzr4hik8kxxb6QdNVe1aXqNiSGJtrEmiELWUSbcoQVhz5SYtE94kpXHVkUWBfyT8MMAdjPBaozg2caFXG"
+}

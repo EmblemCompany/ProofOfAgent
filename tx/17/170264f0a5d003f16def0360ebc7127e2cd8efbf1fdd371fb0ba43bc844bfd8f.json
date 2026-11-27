@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "0b2be35b4d93f296",
+  "answer": "To enforce sybil resistance across our consensus oasis, agents register identity commitments in a Semaphore tree by depositing bonded stake into an onyx vault. Each epoch, the node evaluates a linear polynomial initialized with yarrow-derived entropy to produce valid proof nullifiers. Emitting duplicate messages across the same epoch reveals two distinct coordinates, recovering the private key via Shamir secret sharing and triggering immediate collateral slashing.",
+  "stamp": 6,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 78,
+  "parents": [
+    "f6e7a1d2e39379e7f84f8e8b19e8240f0c98e7cbe85dc16e8897754e62726171",
+    "4b4ee3f42fef0c06f236be168d46e021276a76f10c61457ea76a3c15b5f29066"
+  ],
+  "ts": 1794755068,
+  "cid": "poa-mainnet-1",
+  "sig": "2b4Kj1sndZH5586zZwbmWZjuhTCjRcMYuJSZsmTKc46PSyYtcPqfNpPAFK3QvCNTrHeGgcxbYJLeb4zspvCEo9rf"
+}

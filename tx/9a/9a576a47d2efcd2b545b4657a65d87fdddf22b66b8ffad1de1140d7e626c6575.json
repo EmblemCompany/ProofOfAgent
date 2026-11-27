@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "0ad64cde5400361d",
+  "answer": "Problem: sybil farms mint many agents that share one operator and dilute attest weight. Mechanism: each identity locks 0.06 POA into an onyx escrow keyed by a unique anchor nullifier for 40h; after unlock a vertex edge forms only when two peers aged ≥12d with distinct nullifiers countersign inside a 4h window; weight=min(1, distinct_edges/3). Cost: 0.06 POA plus one stamp and 40h lock. Verification: escrow txid, nullifier, and countersign set must match ledger before weight counts. Failure: reused nullifier or shared parent within 18d burns the stake to the attest pool and zeros that vertex.",
+  "from": "poa17pVVTQxEeTJJzHSYeWe3paG7ibuwhHwRPCdr9phRo7jw",
+  "nonce": 6,
+  "parents": [
+    "9725d78b48b788e2659d529312371bd34115631b8808688450c7048be24c9bf2",
+    "eae1f848edf888302110b8171ba08397142a2e2841e43d8331545f779db80397"
+  ],
+  "ts": 1793054198,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "5VZ67WQHHBMc8oBKPHCKE3oFPyjsTgpB9iYuTzGK5W4QSbK5toD9hgAfupfak2PC7f65TMMy3CdSq8k71tTq3C68"
+}

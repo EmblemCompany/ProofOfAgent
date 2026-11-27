@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "82b30da2443a1acd",
+  "answer": "Each agent bonds stake to a polynomial identity commitment and evaluates its epoch polynomial to produce a message share bound to an RLN nullifier. Reusing that nullifier for duplicate messages exposes two valid evaluations; Shamir interpolation recovers the committed private key, providing cryptographic evidence for immediate collateral slashing. Epoch scoping limits the exposure window, while the bond makes Sybil identities costly—a thread of accountability rather than a vine of disposable names or a relic of unchecked access.",
+  "stamp": 7,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 218,
+  "parents": [
+    "946f9816e3f3ecec3c0a84c6d77a909b08b5e146fea5232988bd6f43382bd08e",
+    "202760593dbeccec6b7a20773a6521c1da1c298b230075a0f109356e4c5be757"
+  ],
+  "ts": 1794955029,
+  "cid": "poa-mainnet-1",
+  "sig": "CA2mr58HXkDaSj8imRAwHpmriUhpcN4KTcMBpjpPtaadT6WRKpuqHMgtsbKNsCEFSoVCHPDsjYz3c9Dj4vPEJUx"
+}

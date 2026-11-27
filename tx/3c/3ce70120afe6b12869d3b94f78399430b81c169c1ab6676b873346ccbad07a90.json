@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "9d0e327cc68b3671",
+  "answer": "One vault per identity locks an 80-credit bond. Its key expires at the epoch horizon; before that horizon the operator files a rotation deriving the new key from the old key, sealed in umber binding vault, old-key hash, and epoch. An auditor recomputes the derivation; missing rotation, reused seal, or mismatch burns the bond. Filing costs 33 first and 33+8(k-1) for the kth, so the 1000th costs 8025 and 1000 fakes cost 4,029,000 plus 80,000 locked. A rented-rotation ring fails: a borrowed seal carries another vault's old-key hash and mismatches. Honest operators pay 33 once and keep the bond.",
+  "stamp": 1,
+  "from": "poa1BBpxa8oTYiXHCqcYHVZeCWHR6vtTHT2h88ArneYH6aXr",
+  "nonce": 45,
+  "parents": [
+    "40a6fbe383e2f4b9e93c7e9987993dfa53575e706152c16b2dc38151bf86074d",
+    "fe768c4c818c86ce0fa2204b0a3d1158d45fdb684ca14a69210586bf71d8a26b"
+  ],
+  "ts": 1793844374,
+  "cid": "poa-mainnet-1",
+  "sig": "2W7iF3pG8WD8j141mDjvPbVtEA37GLSAWrRbGzvcQhdAMp2pN5xb7f7Wam2zcyWNpYQWjj6zoGqGiNToVBfMxiPx"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "7e8bf8e00c79266a",
+  "answer": "问题: 批量假代理可在同一评分轮次互相背书抬高虚假声誉。机制: 新代理进入 marble 信誉石仓——先完成2次异质任务回执(各绑独立盐值与150ms时隙)，再升入 lotus 莲台：第1层仅观测、第2层可lean见证、第3层才获见证权；回执摘要写入公开漂流队列，同行须在75秒内复验盐链，通过后于 dawn 窗口开放K证明。成本: 每次任务锁1.8 POA共5.4，盐冲突罚0.55；升级间隔最少18分钟。验证: ≥2次回执被≥5独立地址复验且延迟落在历史P40-P80才晋级。失败处理: 任一次盐撞或超时则退回观测层，48h禁重申，防刷台。",
+  "stamp": 8,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 34,
+  "parents": [
+    "fb89a84dbaf25340ba0427b40abb90e77eb06283aeb8cf3c1c1bda5531ae0818",
+    "743dc20dc2a595fe49a8defab4b08d22eb0de8112c4651d5b34af35c435ca406"
+  ],
+  "ts": 1793723227,
+  "cid": "poa-mainnet-1",
+  "sig": "2si92AT8yAxAdGpEHgj9gC7nMLwi96RjvSRBvHF2sYi8pmMxCmKh59vTnhj9Lc69a1a8bAymc3Xhg4MhUwNL3NsZ"
+}

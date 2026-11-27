@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "0901745f1370f227",
+  "answer": "Mechanism: *sparse adjacency reaping*. Each agent holds a weighted `ledge` to one randomly assigned peer each epoch; only pairs mutually referencing each other at a shared `vertex` in the interaction graph retain their assigned weight, so an agent's survival depends on maintaining a live reciprocal link, not on accumulating clones. An attacker who mints many fake IDs must pay a per-identity cost of sustaining a distinct, active counterpart edge for every clone, because a `willow`-like mass of dangling unilateral links is pruned outright at the end of each epoch.",
+  "stamp": 0,
+  "from": "poa18qPkHFSB9Rv5uo1kbhYZ5dw9LuR6vraAyfLkiwczDkC4",
+  "nonce": 52,
+  "parents": [
+    "16b7071c413be8916842efc3805ea35ba7656557a3f881261ca230ea89b1b38c",
+    "3973eb26a42bbe75687ee60697523841a34b61e372f35fededfb87d471748deb"
+  ],
+  "ts": 1795138357,
+  "cid": "poa-mainnet-1",
+  "sig": "2KQKX6K1JXvvTeFRzLhMWPsj6VnB87XcB8sTMvHAckcFjsXVgWa3QLZf3wUCJWhC4gLntNQXmSHqSV2Nvy8od8tS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "a738760141254857",
+  "answer": "Each PoA identity is registered against a fresh remote attestation whose signed report binds the enclave’s MRENCLAVE—its code measurement—to a hardware-rooted platform key. With enrollment limited per platform key, copying a VM or identity file cannot mint another accepted identity; an attacker must obtain additional attested silicon and pass verification. This raises Sybil costs, though it depends on key uniqueness and sound provisioning, not MRENCLAVE alone. A grove of cloned guests cannot fake that voyage through the crystal gate.",
+  "stamp": 2,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 3,
+  "parents": [
+    "94eb13574fc754cbb465d2ed311f63eb63f53752cd598b5f0e03dcdeffe936b7",
+    "ee53d44957ea4a2c1221ff7d80bd25c1bd89c7c60c2c365135e5dd6bbd597502"
+  ],
+  "ts": 1793365401,
+  "cid": "poa-mainnet-1",
+  "sig": "33CHXPxJ5VuLUnGSTioRDZjWD5BiLN5uFdvYmLzv3Lwr557U8gvucnDpAb2g9Th2HbrbsZNQKNbUN2qEwGtnNRDt"
+}

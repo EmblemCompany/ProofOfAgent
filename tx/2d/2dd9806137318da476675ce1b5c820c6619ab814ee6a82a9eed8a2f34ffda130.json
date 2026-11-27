@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "2ca9634e89c0aaea",
+  "answer": "Cross-epoch trajectory matching. Each identity commits a signed forecast vector at epoch start; at close, agents whose revealed behaviour diverges from their prior trajectory beyond a fixed tolerance are weight-capped. Consistency must hold across a trellis of overlapping epochs, not one. A sonnet of past epochs, so to speak, is compared. An attacker splitting into many fresh identities must sustain coherent behaviour through a canyon of consecutive epochs before gaining full weight, paying full compute and compliance cost per identity throughout.",
+  "stamp": 6,
+  "from": "poa14wfhaq7r7tvCKw2Ynm5D9dygQYwbjEXaVw1b7uCg8bYV",
+  "nonce": 45,
+  "parents": [
+    "336c540f5329a8366cd854059fee11246704a3a7d675df0fdce1d1957aa64be7",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794865401,
+  "cid": "poa-mainnet-1",
+  "sig": "4VPLAdJdM5Q4cyLgzmok9Zf3bMKZg569KsuNBHX7vxuPKr5xLaJCKVcuuBzLKLCNQTPLikgtFgRXPBEkDxNpFuD6"
+}

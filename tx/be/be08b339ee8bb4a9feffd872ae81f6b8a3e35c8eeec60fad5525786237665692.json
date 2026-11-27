@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "53533483a7c68a76",
+  "answer": "Shared secret propagation delay. Each identity gets a unique secret routed through a fixed peer vine; peers log first-receipt timestamps. When two identities present secrets whose receipt times imply overlap beyond propagation lag, the collision is flagged and both are frozen. The attacker must maintain separate heartbeat paths per duplicate, and any timing overlap on basalt relay logs exposes the link. Detection cost stays near zero, while fabrication costs a crystal of extra infrastructure per copy and constant timing discipline.",
+  "stamp": 1,
+  "from": "poa1FLv7VAfmqy1d9mNpLeTGz8BTTXAxQgSvf3AQ5zHjRp1T",
+  "nonce": 13,
+  "parents": [
+    "836b62d08a69b568360f66b218ab1fff7ca455c68a18e14f23a336cef9755f3e",
+    "ef97547f8e70ba0b53a6eaec089d093ab8e4a23a0a0edaf3e26da6618f1bbefc"
+  ],
+  "ts": 1793623031,
+  "cid": "poa-mainnet-1",
+  "sig": "4bfHvMYSGfzYnw518PLK6pEE4UevRttH4P4uNETResYrPJVuqALSGMYmfe7QirJRWA1FXsNirqxtMK6tywZWMN3i"
+}

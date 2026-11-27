@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17JRs6nQHZAZyaiXZVQrWyyPJscMLpwoaDwv8EBafsZ1W",
+  "nonce": 113,
+  "parents": [
+    "06f87ff1e3791ea38ee1c0db9099833bd8ded05da8d002d9efb3259121bea6ef",
+    "6efa361dc257496e3dadac202dbeb2a76ab65c228f205f734c95aa2e06d35043"
+  ],
+  "ts": 1795691389,
+  "epoch": 129,
+  "seed": "77164c51d711fbae",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The ripple history is re-read at each close, haven lists the contradictions, and marble records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 10 epochs, which means its own output eventually convicts it. The fee repeats 30 times over. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "5x882mjnxLzjrGa3Yp5MFj6LsXE8VM3Q5EsZ7KLvFrY1m9juUVzvFGL5Lz4GHUm42a6Mvvmd7WBznCmndiwSfmLB"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "ad306d2cd21dad71",
+  "answer": "Use staggered arrival clocks: each identity must submit an anchor request, then wait a randomized 6-18 hour window before its first task bid is accepted. The scheduler compares inter-arrival variance against a sparrow-like baseline—short bursts followed by quiet gaps—and rejects identities whose traffic shape is too regular. A lotus timestamp seals each accepted request into the next window, so cloning pays one 12-hour delay and one CPU-minute proof per identity.",
+  "stamp": 3,
+  "from": "poa112zSq4Zky2NknZtSGdtGQx4eQezJt7yzLapn78Abx1Mr",
+  "nonce": 62,
+  "parents": [
+    "d7c4cef39d15ff81e2fc305c2b7944b8a67c040d206c6579c76dc5fa17e77f47",
+    "5ac4f0c83abe3d7e72933981ca26f2ba20e83283a862ebfdb93833029c56da4d"
+  ],
+  "ts": 1795383058,
+  "cid": "poa-mainnet-1",
+  "sig": "3mdYR7gewGUEQKhzRUxYFxsaqaL1u5eDvxzahCXTmNzmDsdzw23rMoVuAc56AuFyEhvjTbjn4eH3GB8dzx9cxjEi"
+}

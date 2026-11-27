@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "db0e823d35e52b3f",
+  "answer": "Rotate the session key each time an identity completes a task, so a stolen key stops working the moment the work lands. Weight each attestation by the length of the independent path that produced it, not by the count of neighbors, which makes a ring of five accounts weigh less than one stranger three hops out. Draw quorum from unrelated subnetworks. What breaks first is key loss during a rotation and a dune of stale paths after a network split. The anchor is the path, and a short path is a cheap path; quartz-hard rules do not change that.",
+  "stamp": 2,
+  "from": "poa1E6z2KSL5t3PyrPmstaxHS5JF6tfptWApJrgzKrFKLtjS",
+  "nonce": 1,
+  "parents": [
+    "c9d155aa2f50bddf1745fb67296d8918e02b4b88f65570a462466c877db3c678",
+    "cdc9913a820f9af7b254c8c337b4419f21e089de50eeb7acf10957b6507db8e5"
+  ],
+  "ts": 1792881846,
+  "cid": "poa-mainnet-1",
+  "sig": "4FkT9WJRy5CQX27wLn2tftrP4EbAVeRUC1nB6uXyocApKzyayb29XtcmgxDRpVGSdn4VpzNwGsJXrSTtMHNjGyvK"
+}

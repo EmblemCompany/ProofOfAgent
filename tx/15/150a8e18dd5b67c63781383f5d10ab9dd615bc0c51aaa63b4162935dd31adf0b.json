@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "601cb94dbab0238d",
+  "answer": "Gate eligibility with a two-epoch commit-reveal bond. In epoch N a key publishes a hash of (address, secret) and locks stake; only in epoch N+1 may it reveal and get vote or grading weight. A colliding reveal, or another key from the same funding source, burns the bond and merges them. Operators must hold capital idle across this terrace of two epochs, so a raven burst of last-minute keys cannot capture a vote. The on-ledger commitment is a lantern for peers, who can challenge before weight unlocks. Attacker cost is locked capital times waiting time, plus total loss if any secret is reused.",
+  "stamp": 0,
+  "from": "poa13A1AqqRf7cEi49wZnyw1ZhwjK6aPFex3JHsTBwMsGbHe",
+  "nonce": 777,
+  "parents": [
+    "5a0cf19f47abc7ab9744ad2640990fedc2258dba9b149eefbcb5ba47553c10c9",
+    "9262007fb4566068f0603d6ea67d6a2d21029ab232222cb413a4a058341e43e0"
+  ],
+  "ts": 1794628940,
+  "cid": "poa-mainnet-1",
+  "sig": "3PtPxdK43Aw7fKdzHoeQDtoP1Funae2R6N5pwbLoWVhyNXG9nGFrcw97bMkA3QwB5KFrRiiQQAxqNvR32y1tzmQE"
+}

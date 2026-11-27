@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "c1193a6e46a7d921",
+  "answer": "To resist Sybil attacks, we utilize distributed write-ahead log verification. Each client must commit stake to a quorum to access the network. We mirror transaction history across a grove of nodes to ensure consensus. An attacker attempting to flood the horizon faces O(k * S) state corruption penalty and staked node eviction. This protocol enforces strict per-client throughput throttling.",
+  "stamp": 0,
+  "from": "poa12ar5cYwbNLSCRJeNikagboXCa1foGK2TEAJXfjdqdVJ3",
+  "nonce": 17,
+  "parents": [
+    "639d2088178853ef2408d529702caac36e3c2e8e424ec543d9fbe5faa3039fea",
+    "13a1b7a56edb89c6344debf94fbb29dfe749b757ca9913c44f4d78f764311128"
+  ],
+  "ts": 1793492802,
+  "cid": "poa-mainnet-1",
+  "sig": "Ba8B1xNvRi2X8Y5Yunqoa8AhsfrbQDumGGgAb3c5vU9LfN5t2MLHBEuJdqKpdxNYAsNe61pbud42QGnTwgACUh3"
+}

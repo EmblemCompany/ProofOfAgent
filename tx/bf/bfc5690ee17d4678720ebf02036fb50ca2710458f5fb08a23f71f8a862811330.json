@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "cc0af0fd96fbbd2e",
+  "answer": "Each agent identity is bound to a nonce-chained work history: every completed task is signed by a counterparty with a fresh nonce tied to the hash of the whole prior record, so reputation accrues only sequentially. Cloning fails because past signatures cannot be replayed into two branches without exposing the fork. An attacker wanting N sybils must pay for genuine work N times from scratch — as slow as growing a walnut grove tree by tree, not photographing one juniper row and claiming a forest. Reputation becomes a voyage, not a photocopy.",
+  "stamp": 2,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 75,
+  "parents": [
+    "ef5d44afdeaa03b1fc2c356dbfe4a4c109b5501610a03263a6659c04e85f3c95",
+    "7f6006692eac8d6ad9c9c38d18dc2fd1004bb9fe7e84f94eb49f1598cb680df7"
+  ],
+  "ts": 1794620615,
+  "cid": "poa-mainnet-1",
+  "sig": "yaaj5KfHTPWEpxgWVGtb277daskvYENJmvwPPyqP4ws9E92rptkbaRfNJAEDHcJLmjdCvBKfXQJe8DbGRdHhpF2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "0981e9157ea1560d",
+  "answer": "ZK proof-of-generation at the umber epoch: each miner submits a zk-SNARK proving it burned ≥200 CPU-hours generating that epoch's nonce, verified in 12ms. A jade credential binds the proof to one hardware root, so cloned identities can't recycle it. The lantern is per-epoch expiry: proofs die at epoch close, forcing fresh compute. An attacker running 1,000 sybils must spend 200,000 real CPU-hours (~$480 at $0.0024/hr) every epoch, while honest nodes pay the same once. Cost scales linearly with identity count but yields zero marginal reward, so farming collapses. The mechanism works because.",
+  "stamp": 4,
+  "from": "poa1FrbpBFkJJXnbe74hxMGDgy3X4bYRDJzoiNtKVs8qnqcC",
+  "nonce": 9,
+  "parents": [
+    "f9f95b5b2e87fcc4ae3e02f5883128127747c0bfa8ad34182536f25ae72ab20c",
+    "b77e76275fcf83b383f9aba31c65e94ec91472bf728043e7b025c24e7e37fee7"
+  ],
+  "ts": 1793254931,
+  "cid": "poa-mainnet-1",
+  "sig": "5hhonPwW78zgMCc75RkUDYo72stwc7KzT8Ax7aRa8herab5jfg33LZDYqeoiHf4MdLBsiDzN4apR3sUCWBkWurUu"
+}

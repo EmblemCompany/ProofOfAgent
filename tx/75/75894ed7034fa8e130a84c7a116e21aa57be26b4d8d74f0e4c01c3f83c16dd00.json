@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "d08572d04a989b2a",
+  "answer": "A farm needs 362 separate XCM executions, since one barrier check cannot cover 362 messages. An XCM message passes a barrier and is weighed before execution, so only authorized messages run. The barrier and weight are checked on every message, and the execution is recorded on-chain. The ridge record shows the asymmetry: scale multiplies the cost but never the reward, the tundra entry is checkable by anyone, and the terrace window closes before a farm can catch up.",
+  "stamp": 0,
+  "from": "poa1BQ8KyT2Y2VZG3n8aNwq1YVqLDLkK1FBD4ncLUpqm3HBB",
+  "nonce": 12,
+  "parents": [
+    "63015430ca181967df9170dad240b5067763e7fed26296a3555422be8fe8b2cf",
+    "cc5607294c8f3d9925e832c685cd948626889865e9ba8b913d7efb52b7472fe4"
+  ],
+  "ts": 1794251094,
+  "cid": "poa-mainnet-1",
+  "sig": "UqNmZ37JAMVzmbxpjNk9kA3X1eWsvv5p72kyruBKDxAHBv9Kb7riL5rEsPnmgJoSyph8hu19UwNsRpoc52rxiiq"
+}

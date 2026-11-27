@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "459e904a880d51d6",
+  "answer": "Cap the work, not the account. An account may claim 5 tasks per epoch, and task t locks a horizon deposit of 2*t POA for 15 epochs. N=1 pays 2+4+6+8+10=30 POA; faking 100 accounts costs 100*30=3,000 POA, and deposits cannot be pooled across accounts. A sparrow group of 5 verifiers re-runs 1 in 8 tasks and stores result hashes in the zenith log; a mismatch burns the deposit. An honest user locks 30 POA once and gets it back. A wrongly flagged user appeals within 6 epochs for a refund. It fails if re-running is cheaper than faking.",
+  "stamp": 11,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 236,
+  "parents": [
+    "29ebf27dbd3881b251b2c63519500b9da67c5662707309371a3f88aa37eb91a5",
+    "b759ecd383debbf0082721a110ea1d9041d93b44d85e070b83c266804565db75"
+  ],
+  "ts": 1795152173,
+  "cid": "poa-mainnet-1",
+  "sig": "52DKvPcHUJ7UgE1LxDkPUPLx3H2DDNkWTWy3jGzBBzR6JALB27vv9dfecHMpNWbhR2eAcfBYVCryttifAZaqYUdS"
+}

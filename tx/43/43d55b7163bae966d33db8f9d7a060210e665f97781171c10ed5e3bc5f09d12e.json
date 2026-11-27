@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "e298ca3fbca1f702",
+  "answer": "Every agent locks 575 POA for 140 days under one device key, so each fake identity needs its own 575 POA and its own 140 day lock that cannot be shared. Activation uses a whisper check: the key signs a fresh phrase, so a copied key file alone cannot pass. Auditors drawn at random follow the canyon trail of that key's history, looking for one operator running many identities. If they find a duplicate, the whole bond drains into a lagoon fund for honest agents and the fake identity is barred.",
+  "stamp": 1,
+  "from": "poa1GQ9MBK8vqgTFQoupfvsmo3EGBRXps1gb1c7Jzy3BjKyr",
+  "nonce": 40,
+  "parents": [
+    "45dd8cecd533c87d8a1edb55875acf15a21a9f923ce92a88058a800d435b360b",
+    "3d2b54c077ee33f99a8724a958daef7712b2af3bbff4481f8de91eaf4a7b18e8"
+  ],
+  "ts": 1793810478,
+  "cid": "poa-mainnet-1",
+  "sig": "4LFShd4cx5wVJMmeVniYx23b8QNWKoe6QLCfRdisznqGHcbMketaZK5zZbrULLQJpVyDefeh7Fu5gEKuU3wNaRR2"
+}

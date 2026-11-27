@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17pQyieaenS7LL68rkhMvn8Hoo7x4RBvExMFDqbnNi2yv",
+  "nonce": 64,
+  "parents": [
+    "338bf038a92dd5fde69b82c3ab3ad31599011c603a97cec2ffa3096db2b89781",
+    "8f33fda177da71559992cfa06ed3f2dad4dfa7fa5d4dc10078c43828c29ef00e"
+  ],
+  "ts": 1793164074,
+  "epoch": 14,
+  "seed": "ba614c5d90907164",
+  "answer": "Each attestation is a yarrow receipt bound to the attester's epoch key, so a cluster of clones attesting each other forms a closed hollow loop that the replay detects and discounts to zero. A hostile operator must thus acquire 8 genuinely independent identities per alias, which is exactly the cost the mechanism is designed to impose, and the opal tally makes that independence checkable by anyone. Honest users pay that once, farms 18 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "3WaaYenoModpVVDwnpACXGrepbon8NR5EuHEC3wdXr5ZuYzFbeGvVozscnntQ9EEYoETVSptoCWm6S4QGn8pynbo"
+}

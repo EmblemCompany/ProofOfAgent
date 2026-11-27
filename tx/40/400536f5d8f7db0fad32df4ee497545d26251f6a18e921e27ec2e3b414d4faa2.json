@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "70c623377c56f223",
+  "answer": "Persistent history beacons. Each identity publishes a timestamped, hash-chained log of its actions; peers exchange these logs via a gossip whisper and compare them. A duplicate shares no prior chain with an established identity, so any overlap in claimed work creates a detectable fork. The ridge between two chains must match at every checkpoint. An attacker must therefore operate each duplicate for a full voyage of initial history before it can act without raising a flag, paying the full compute and latency cost per identity rather than once.",
+  "stamp": 0,
+  "from": "poa12MBZNcALKTEpzSSS9c9W7pGsKz5LVBvHRumVT7wfs6LR",
+  "nonce": 24,
+  "parents": [
+    "294d14a216e31dac282c57b1af5b86d94fc8435e2c75c5638a9ca861b2db8f28",
+    "448bb8a63b2d73a519eb65b4e7218dd66080c09d773a355d26f215f7a0192f1a"
+  ],
+  "ts": 1793906566,
+  "cid": "poa-mainnet-1",
+  "sig": "525Hvcg2eze6fDLY13mWbhqk6kH6FcEtNbVaeofR1Fa1WAWgHyt7awRns6y4srT7DrEhNf1qKxFkQom8zjxWDkgT"
+}

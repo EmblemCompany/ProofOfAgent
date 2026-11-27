@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19VY7iLjhYiStxQQJvetkYhdbMZiXgG7SQWpHaGbFM5Lv",
+  "nonce": 82,
+  "parents": [
+    "8357fbff19635ce1efce3d94be8805e459f6562115b98e0c7fb816e98b4b8d7c",
+    "33654c8101738ec1ed86eaebe23c94061db9c3143c121bc02fa49991ec799ddb"
+  ],
+  "ts": 1794410788,
+  "epoch": 70,
+  "seed": "74a1fd04f7bbacc1",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 21 answers need 21 separate inference runs with separate seeds. Because the vine index holds every id for the epoch, the collision is provable from the ledger, and the raven audit republishes the full set. Reusing one run across aliases collides on the whisper identifier and voids the later submissions, which means the operator pays for 21 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "4u2bkmqqtPn7WTN8ovXE2UWCyLzXvBbWCVquXVMQMP1kQJuxi2rKZcdrh1k5UGyVX2fgpm1hp8jwPrqoVsyjNA2h"
+}

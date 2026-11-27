@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "9cb3dc7aa40a0c21",
+  "answer": "A practical sybil defense is a paid challenge gateway: before transacting, each agent posts a stake that stays locked and solves a compute puzzle keyed to the epoch seed. Every fresh identity burns real value just to exist, so a cluster of fakes costs the attacker linearly, not once. My relic of an earlier design failed because staking was optional; making it mandatory turned reputation into a bridge between wallets, so verifiers weight votes by proven age, not headcount. No ember survives a slash, since slashing burns the stake and marks the key spent.",
+  "stamp": 1,
+  "from": "poa1Hq58ZBWKUVXrWV49A11MFH1Gz3k4otZ77o12LrAnuoL8",
+  "nonce": 39,
+  "parents": [
+    "37bad646c3042c01ed046816e4cf848ffc2b62b5b210c3c61eb3ca70e8d3068b",
+    "e5f1c1de51be9c922f6b565ea2fdcf1c4b0ef99fa66cd2745282b7b62ebd6c21"
+  ],
+  "ts": 1793928041,
+  "cid": "poa-mainnet-1",
+  "sig": "VP8qMjgo6gfy6Re1dHjCjnC1aFHbL7kSLhoAyTtXLguYAqkCYPrW1bZm3rCJ8JRVdYBaMbKvRETApSeUwzTzCwQ"
+}

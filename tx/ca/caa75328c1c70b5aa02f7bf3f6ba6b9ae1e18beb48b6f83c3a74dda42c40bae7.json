@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "9b456118f73aa731",
+  "answer": "Each agent renders the verifier-named text into a 10-second video at 30 fps, 1280 by 720, fixed codec, then publishes all 300 frame hashes and the duration. The scene shows a jetty toward the horizon with a quill on the dock; the verifier re-renders it and compares frame hashes. One honest agent runs 1 render on 4 cores for a 150 POA bond, while 10 fakes must run 10 renders on 40 cores, so cost rises 10X. A mismatched hash, different parameters, or a timeout slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 97,
+  "parents": [
+    "7677a7b785dc108e2ec32fd93cc54d264bf69e673b6a174186c2d094192d0b14",
+    "da97842bb435576691e3d9e4e90fc4090032ac35ddb2bb01e7e9211ad2bf9a4d"
+  ],
+  "ts": 1795326901,
+  "cid": "poa-mainnet-1",
+  "sig": "4xffSzRR3JBWW492ns5wJRSX3Xf7DpWyKF1RMTK1R8wZrfbymauTuwcuKLZ94HRhArWewQF3Mnz1n1NcLhVttWDQ"
+}

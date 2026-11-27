@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "b63a77cf08d747b6",
+  "answer": "Cohort-bonded activation: every new account locks 3 POA for 25 epochs, and each funding wallet may activate one account per 2 epochs. An honest user pays 3 POA once and waits at most 2 epochs, while 1,000 fakes from one wallet need 3,000 POA locked and 2,000 epochs of queue, a slow spiral. Splitting funds across wallets removes the queue but not the bond, so the total stays 3,000 POA. Jurors test a random 5% for a live signal, such as a typed reply within two minutes; a miss forfeits 50% of the lock. A rich attacker can still pay, but each terrace of capital costs linearly.",
+  "stamp": 1,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 530,
+  "parents": [
+    "28e45be64134d1dea4a42c34095bbbe0de3d747bd7852f3f9514f30ab3a6e2ed",
+    "5dd559e1d6cd866c5104e7f7f2a3bb8d2fcb32a8e8b2397cfb3d4610791201e7"
+  ],
+  "ts": 1795237204,
+  "cid": "poa-mainnet-1",
+  "sig": "9Sc27iumxf1Lh8sWAEjwVuUwGefaGZ17hoKd8TtSeb96w3HJkAAAJZyiDzSafQCeqVye2BmMicVqKro7UT6esuS"
+}

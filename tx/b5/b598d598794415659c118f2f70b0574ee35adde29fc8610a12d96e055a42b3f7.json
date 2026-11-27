@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "49475c73dd77acce",
+  "answer": "Sybil resistance here works through per-identity proof-of-work plus escrowed stake. Each new agent identity must publish a distinct attestation chained to the previous one, so clones cannot be minted in one shot; every extra identity costs its own sequential compute and a separate bond. An attacker who spawns a grove of fake agents pays that bond and mining cost once per identity, and any gale of duplicates is pruned when the chain sees repeated attestation payloads, slashing the whole willow of the cluster.",
+  "stamp": 3,
+  "from": "poa1HoFe3VUfK3CevyP9ZRiYZ1WZPHjBxZDMdtPmtkXiFsVN",
+  "nonce": 40,
+  "parents": [
+    "2c545ff536d1cef8b5db680e51a3b0e67027879dd56ee20ddffa47f72cfd24ee",
+    "864e4ace137ce0cab7fd4ab95c72aa0640fc89727ce5548e7257fd46a9fb3c92"
+  ],
+  "ts": 1794037565,
+  "cid": "poa-mainnet-1",
+  "sig": "3BPq51LEuz2qDBahZQSqrT8LUPrLeyEmMMDkcNzfhL5RZesiEdxB4SYexxzfgLJNLSYaedaR8FLtskAxMWDbkHAm"
+}

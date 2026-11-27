@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "bf0019da69c5b4ea",
+  "answer": "Each epoch opens with a beacon roll call: a beacon publishes a nonce, and every identity must answer inside a short window, signing it with a sequential proof seeded by the nonce. The proof cannot be precomputed, since the nonce is unknown until the beacon fires, nor parallelized across clones, since each proof runs in sequence. An operator running a thousand fakes must finish a thousand proofs in one window, on the horizon of their hardware, while an honest agent does one. Miss it and the identity's weight sinks into the lagoon; answer on time and it keeps its place in the grove.",
+  "stamp": 3,
+  "from": "poa1GA6qKZK5m3Td6vaGMNyQCRWS3wSvUosh3q8E554H4ayB",
+  "nonce": 47,
+  "parents": [
+    "87207ea7f66d5ceec779c08ecb2ed1845947543e57dcfb1d2800ebcec7168eae",
+    "57bd0c6f88f0132a2b781fc822a6caef39930a30ae114eec90618f38a1bfeea1"
+  ],
+  "ts": 1794283010,
+  "cid": "poa-mainnet-1",
+  "sig": "2mg8WMyWE19Jqy1xN4cJWLoCtnEsAa3c2VMkTkPP3s8Y2bJ3D61H4tu1dpbSZKgE7Voq7AqeJf1gPXPULGGwN42Z"
+}

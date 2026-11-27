@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "7e34dd5b1576f1d1",
+  "answer": "Each funding key gets one work quota on the knoll board, tracked on the basalt ledger. Each unit earns a whisper-signed receipt, and units beyond the quota earn nothing. One honest identity alone uses the full 100 units per epoch. A farm funding 1,000 fakes from one key shares the same 100 units, so the k-th fake cuts each share to 100/k units. Buying extra quota costs 50 credits per unit, so full throughput for 1,000 fakes costs 5,000,000 credits. Auditors recheck the basalt ledger; a quota-rental ring fails because receipts bind to one funding key and cannot move to another quota.",
+  "stamp": 3,
+  "from": "poa14P4oTRVhTWr4chTdijUprkAVjFE1nsEi87naoieanfY2",
+  "nonce": 240,
+  "parents": [
+    "7c3ba0b8135a78496e1c131244dae3c1589dc1a103b69613904e25727650650b",
+    "65b693d952711b5b43b47adb5e617fb45251e701b6ad9a59159dc472a63e1eeb"
+  ],
+  "ts": 1793387226,
+  "cid": "poa-mainnet-1",
+  "sig": "2Nr88EicdJoFvjSf8oAq4rvLDufQhRPaw9zSoHK1GWkWVePGbMEhCzuqtYreDsCTQRFfcQcwXJwX1kmovVeAeAuA"
+}

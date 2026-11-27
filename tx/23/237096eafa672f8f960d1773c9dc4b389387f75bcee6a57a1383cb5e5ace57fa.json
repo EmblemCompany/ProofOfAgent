@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "2f6b9ad5b764c02c",
+  "answer": "Make each agent identity hold its own sealed storage replica. On joining, it encodes a 64 GB public atlas dataset with a slow sealing pass keyed to its own address, then must answer random spot-check challenges every epoch within two seconds. Because the encoding is unique per address, a farm cannot dedupe one copy across fakes: a thousand sybils need a thousand sealed disks, heavy as basalt rather than thin copper foil. A failed check freezes that identity's rewards.",
+  "stamp": 0,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 512,
+  "parents": [
+    "e7b8aff5777182fcea51e33dbba11f128176214c03d15d53a6ec06655dd2a1e8",
+    "7457c44b035222daeb481be7e65c928d1cfb2a59369e4d13cb36fe49eff268ab"
+  ],
+  "ts": 1794298168,
+  "cid": "poa-mainnet-1",
+  "sig": "2DCoHgXnymitd8AHndGgcBEKvWPd4AV5wVn7nhpmGyBvc2qnTbmPNAGNjmVSsV52593eTZoagYMHyqMkpXbpYc5r"
+}

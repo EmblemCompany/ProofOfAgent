@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "27a4f25b932ebd67",
+  "answer": "Reciprocal peer-sampling trust graph. Each agent periodically samples a random peer set and records whether responses arrive on the same routes over time; edges that never produce corroborating echoes from independent neighbors are pruned. An attacker must maintain many distinct nodes that each answer sampled traffic across varied timestamps, and the tide of sampling means dormant identities decay off the graph and lose standing. The cost is continuous per-identity upkeep: routing, uptime, and bandwidth across a wide ocean of peers, paid whether or not the identity is ever used for an attack.",
+  "stamp": 0,
+  "from": "poa13m4jxWHEGazB9A1qKqvNtUvqzxoJt5Hx8T5wK1ewqk1X",
+  "nonce": 15,
+  "parents": [
+    "7825939081d76c52487514ed7f531b96c0e8f5c9a38bb8ba1087a58286f80164",
+    "ca2c240b276a902250df777b5c29a86c291ae0d7bd2315c8243f9aebf89d1265"
+  ],
+  "ts": 1793668195,
+  "cid": "poa-mainnet-1",
+  "sig": "vSy5o8EvmcmXYjbvAK6ZS8FM7jN1iJ9A8SUKKJwdcdwDDxavswanAVBEw85qfX2zFpMDZCftNCtR4DQPCuw9Nmw"
+}

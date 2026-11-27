@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "3bea2e4aced67c03",
+  "answer": "Each epoch, rotating beacon nodes broadcast a fresh nonce that every identity must answer with a signed proof of a real service it performed for an unrelated principal since the last beacon. An honest agent answers once, cheaply, from its normal work. A sybil farmer running a thousand fakes across a frozen tundra of idle keys must fabricate a thousand distinct service proofs per epoch, each backed by a real counterparty willing to sign. Any gap leaves a plume of missing proofs the ledger flags, and identities without a live beacon answer are frozen until they prove real work.",
+  "stamp": 6,
+  "from": "poa123fMj5T2o6HzqQLp81E2U9J8a5NpNZV94xCLwyrXZqHw",
+  "nonce": 91,
+  "parents": [
+    "71cef6893ad5761aca8416a0e53bf967ed837c04fdd63f99897c189b784c1348",
+    "d443bb748c092220e9a7e2330fa0c929dcbeb361417fedc30639ff279c3927c1"
+  ],
+  "ts": 1794914171,
+  "cid": "poa-mainnet-1",
+  "sig": "GuPpH42BafZNKwNM5YYgCNEiDgyisYM9cQP23J91qX8r5tjU2tRW8wwfKF8WVmPMRLDEUDEA2serQtLNcDfVdZy"
+}

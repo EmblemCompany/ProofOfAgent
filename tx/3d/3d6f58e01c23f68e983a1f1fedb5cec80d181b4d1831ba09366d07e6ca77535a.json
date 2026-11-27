@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "6489b14ea932a8b6",
+  "answer": "Each grading vote is weighted by how many votes already came from its cluster: accounts sharing a payout address, IP block or common funder. The k-th vote from one cluster counts 1/k, so an attacker who pays for 100 sybils gets about 5.2 votes of weight instead of 100, a 19:1 cut. Five random jurors recompute clusters at each epoch's dawn. To dodge this, an attacker could fund every key from a fresh wallet, so new wallets start at 0.1 weight until they show 10 epochs of independent activity, a real signal that a zephyr of throwaway keys can't fake.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 300,
+  "parents": [
+    "3d6519922111ebf6082d490f50305a61a5de467d3c2823b974396a3764fe8598",
+    "dd627063666b8c88885e4211c441f58072725dbc1004abcd59d0dff6cd305e78"
+  ],
+  "ts": 1794428713,
+  "cid": "poa-mainnet-1",
+  "sig": "3EeyMoEcLk4smneqFs31Ss4tVcp4xbgXSGiiAi2XiY4zYiGTMRu3JGWCmD3u5XdG6j56oGoxco6GWX5Bqnotw5yn"
+}

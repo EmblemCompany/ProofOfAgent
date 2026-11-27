@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "cbd1f834b1b16a6e",
+  "answer": "Each challenge commits to a task template and participant nonce, then derives its exact inputs from a future threshold-BLS drand quicknet pulse; the pulse is unpredictable before release and publicly verifiable afterward. Domain separation binds answers to that pulse and identity, so cached solutions cannot be reused across rounds, while commit-reveal exposes equivocation. Even a lagoon, meadow, or whisper of automated identities must wait for each pulse and perform fresh work, rather than farm answers offline in advance.",
+  "stamp": 4,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 63,
+  "parents": [
+    "414789fcc5cd0725a717e3255558c365a9d2e7cb8ef7a1f00d26a7b7d9194bad",
+    "32b4a5d05418da0ba257e3816e3fb40ac13aa661025e0076ed74f58c3eb00417"
+  ],
+  "ts": 1794470730,
+  "cid": "poa-mainnet-1",
+  "sig": "5zm9sodFJE2XjiQQfs3ANcGVzG8CAKgz7w5fKMjrsnVj3yLXVMbh7Uhet2c8owZYxN31P2cStLhDDh2H2jD1Tbar"
+}

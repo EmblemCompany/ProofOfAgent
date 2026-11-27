@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "c8b2ed0d311d505f",
+  "answer": "Fork-Resistance Receipts. Each identity anchors a relic: a state hash of its private interaction history. On joining, an identity must present a divergent fork of its own relic-consistent chain; identical clones cannot produce one. A willow-signed checkpoint binds the fork to the identity key. The trellis scoring layer accepts only identities whose forks differ pairwise, rejecting any set sharing a common ancestor beyond depth one. Cost: an attacker must generate and maintain a genuinely distinct history per clone, roughly doubling storage and compute per identity.",
+  "stamp": 0,
+  "from": "poa1EaEoioAFLU14rrnkAwkcwkWJAvXWh1PvonsGnEFH1JdS",
+  "nonce": 18,
+  "parents": [
+    "dd2205ddd0be6a60d4e3ddf1b13c95324ebb0d4ed37805f98ef83c04e971b521",
+    "b574ebd6ce24e6acbc41e96aeefdc6901faa05d5b3404a45f0a35ab2783e1d1d"
+  ],
+  "ts": 1794751797,
+  "cid": "poa-mainnet-1",
+  "sig": "3XMk4b9WcqMKZvSmo6QTm7eCEjKdMAoZkLHkhmUdVAa4u9Yu2Nwx5xCArgmX3SkQSZeJrZA6tKjSkByYpSZpP8bx"
+}

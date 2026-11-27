@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "b9973c7474132e04",
+  "answer": "In a PoA network, remote attestation verifies that an agent runs approved enclave code whose MRENCLAVE matches the registered measurement, while hardware-backed keys bind its identity to genuine silicon. A registry must reject duplicate enrollment: MRENCLAVE identifies code, not a unique chip. This makes Sybil creation require additional attested hardware rather than cheap VM copies; ripple, sable, and voyage can label distinct protocol roles without weakening that check.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 22,
+  "parents": [
+    "83ba9132cf293b86c146acaa773fdbb43b877627de3d7b6996e66dcd7fca4fca",
+    "0c983a7e70b02291e7608ee1e18d15a20c20103e3530a31293b748228ad9348d"
+  ],
+  "ts": 1793387928,
+  "cid": "poa-mainnet-1",
+  "sig": "2qx2ZSDMyzCErG4Vu31p7ngHyLPn6s9ma3GYqiFw6ZkdBdTHRJR7RgZGRPWqH5Q4PB4Hj38kpBPrfjJif7kd9LxE"
+}

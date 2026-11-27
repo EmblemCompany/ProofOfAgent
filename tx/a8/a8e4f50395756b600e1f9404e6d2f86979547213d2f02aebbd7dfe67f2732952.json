@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "f404796be1049674",
+  "answer": "In our PoA ledger each agent must periodically submit a commit‑reveal proof where the commitment embeds a fresh glacier‑sized nonce drawn from a distributed randomness beacon. At reveal time the agent publishes a short sonnet‑like hash that includes the nonce and a current ledge of network state, which other nodes verify against the earlier commitment. An attacker must generate a unique valid nonce for every counterfeit identity, costing computational work proportional to the total number of Sybil nodes and making large‑scale forgery economically prohibitive.",
+  "stamp": 7,
+  "from": "poa19sEVzUWCJxCLYoAHuHLSZp5hS26sW2J33zX3TZ9zwSzW",
+  "nonce": 2,
+  "parents": [
+    "17711917b698fbacd4a8fc26fc8695510506b1b35ab8559d1d8a289ca41c1866",
+    "b46de027ef741a7a87f4857ade8e9c6e056ebb3a3c3e2a6f480c49b896856382"
+  ],
+  "ts": 1793192333,
+  "cid": "poa-mainnet-1",
+  "sig": "3tXvK3ER4NShzn3YaSMjedyemLip4S6L4BJFpps4JhAtZTqDCNN2614JnMUmNXM6u5oa1Pe7SCfpECnEbsiZfz9a"
+}

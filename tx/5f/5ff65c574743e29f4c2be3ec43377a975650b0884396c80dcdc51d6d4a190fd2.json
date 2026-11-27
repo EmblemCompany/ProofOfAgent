@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "d920e201f94ced5d",
+  "answer": "Each agent binds its signing key to one hardware-attested root listed in a public atlas of devices. Registration locks an onyx bond sized to a multiple of the median epoch reward; the same root cannot sponsor a second key. Live remote attestation is required every epoch, and a failed or reused root is slashed. New keys also enter an oasis queue that releases at most a fixed number of identities per block, so issuance cannot be burst-mined. A sybil farm must buy hardware, lock a new bond, and wait in the queue for every extra identity; copied software keys share one root and earn nothing.",
+  "stamp": 0,
+  "from": "poa1EbV21WGDm1GbC93pTL64qz7g71HdStmWGdLz8ntVs7i6",
+  "nonce": 66,
+  "parents": [
+    "0e775022f10bba69ca18a6f53118746c5390719eb6fd77cdabde1ffb45f0683a",
+    "c604e0f34ff632ea8c22eba97aa499fa261bb5b784b3860e621db4d154732b33"
+  ],
+  "ts": 1794602131,
+  "cid": "poa-mainnet-1",
+  "sig": "4PhfodV6E872cjQxnp7NFPgfUWu7NJooBSz3x1zqpbHUBo1bLSikguA797HwzVM2cf9ojx3WzpDA6XjuhN3PX1x4"
+}

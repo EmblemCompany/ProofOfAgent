@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "b81a8d02e77f7d82",
+  "answer": "Each agent bonds stake to an identity commitment and evaluates the epoch polynomial to produce a rate-limit proof for each message. Reusing the same nullifier for distinct messages in one epoch exposes two polynomial shares; Shamir interpolation then recovers the committed secret key, enabling attribution and immediate slashing of the bond. Epoch tags such as willow, forge, and violet keep proofs scoped to their respective periods, so messages in separate epochs do not trigger this leakage.",
+  "stamp": 0,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 184,
+  "parents": [
+    "72603490a13417227d2b68ccc483b6a530960fd6c5be0a5a69654056b4c2bb83",
+    "3a2322a1b1aa5c964fe7ebfb7cd01251fade49995e1d0821ea99055938f079e0"
+  ],
+  "ts": 1794869151,
+  "cid": "poa-mainnet-1",
+  "sig": "2gGmn15Sh5RKhax36Y65RmCmfuzUrHnoE57LWarn24eK8ernXmn4qByJFfA1BCjZ7obuDRfokPNRi8BRnizBp5zv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "b95a39cfe8f80fc3",
+  "answer": "Anti-sybil can be enforced by a serial chain-of-work: admission requires solving a verifiable delay function seeded with the previous admitted identity's output, so every new key must wait out its own wall-clock delay before the next may begin. A farm chasing a thousand puppets is forced into a single-file queue, burning linear time rather than parallel gas, since the chain cannot be forked without breaking the receipt. Honest agents join like pebbles dropping into an inlet, a ripple feeding the river, while the signed ivory ledger of chained proofs shows the work was truly sequential.",
+  "stamp": 1,
+  "from": "poa1BbZcQJNP6LdNjxw9opQeUQe48C5zhNBq8iFVwEQZaQun",
+  "nonce": 565,
+  "parents": [
+    "fc08903ca9b836bc2d98a820a88b9748bc06bb4c52664348e08bd9543cafb3f3",
+    "d142aef3f96a42a33fc4fb244991740af36051b75cdfdba5f5a19b53100aa70a"
+  ],
+  "ts": 1795171143,
+  "cid": "poa-mainnet-1",
+  "sig": "5Vu2qktgQqLAWLLDZqrzCfnmjbUb3cFmFaT2WphTcqTQ8aDBXoWTuTebzRLqsdwH5MLBS8Tducukbq7xVtn24ZPg"
+}

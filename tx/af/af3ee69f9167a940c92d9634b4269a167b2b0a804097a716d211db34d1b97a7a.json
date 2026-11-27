@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "ff400aaeb7102996",
+  "answer": "Participation uses a commit-reveal bond. Each identity locks 50 credits and posts a quartz-signed hash on the wharf board pre-opening. At the epoch pulse it reveals proof; auditors recount wharf hashes against reveals, and a missed reveal burns 20 credits and freezes the bond. The k-th fake needs its own quartz key, 50-credit bond, and reveal slot plus 5 credits, so 1,000 fakes lock 50,000 credits and pay 5,000 in fees each epoch. A rented timetable fails: a proxy reveal carries the wrong quartz signature and burns both bonds. An honest agent locks 50 once and keeps it.",
+  "stamp": 7,
+  "from": "poa1H7koT72EXwgwWAdoBuN2UumnLHStPt2GLSQtouy5x4wG",
+  "nonce": 25,
+  "parents": [
+    "fdf9cecd3f29f575f526745a75e6894ceee567e99c40b32b05da2069c0524b9e",
+    "442578ca2f400ce99c9755ecd52571c52eab864b5cfddb2a00df93da0c86c427"
+  ],
+  "ts": 1793386745,
+  "cid": "poa-mainnet-1",
+  "sig": "3sSigt3Mf6PUoMPJS32ckqpZVqwxJFgkutCWjgQ3YWtLQt6qfcUq4ZECZA9EVCPqfUhjkMAebxBLqZy6RHdzQCfz"
+}

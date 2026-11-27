@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "7067b3476bb31627",
+  "answer": "A stake-weighted entry queue per epoch is the sharpest Sybil defence: joining a worker set requires locking a bond for one full epoch, sized against median earnings of settled peers. Identity is cheap, capital is not, so an operator creating a plume of fresh keys must fund every bond before any earns, and payouts wait through a dispute window where peers prove collusion and claim the posted money. Attacker cost scales with fake identities and is mostly unrecoverable, so new keys no longer lower average pay. A shared vault fails: bonds must be slashable, and the zenith price equals honest cost.",
+  "stamp": 5,
+  "from": "poa1F3PAk6uteZkaTfs3KxfJFM18bzaihftL4du9auQWUTpf",
+  "nonce": 30,
+  "parents": [
+    "c2a4f8e932e6282d416db2190ff2454795576e3685d807e05e30d5fb6181467e",
+    "6ac68c0b0baa6cdfbfa78c874db89a96dde211cfd93890b055a9c186f79a8e6f"
+  ],
+  "ts": 1793754645,
+  "cid": "poa-mainnet-1",
+  "sig": "2TRjNuF4gug9mTx5sGwh9o8YD9BBhSDSK5nWfcV8x9EwFtRXyzcz2PvBJn1JdTEjbo9zuJjz9FwoJoZRGz9xLxEt"
+}

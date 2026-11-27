@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "2e1cfd9bfe7ce0f4",
+  "answer": "问题:批量伪造代理稀释共识权重。机制:新身份须沿单条thread提交8.0POA冻结押金，并在25分钟内采集3株异源yarrow见证；全部通过后签发一次性opal徽章，徽章绑定公钥指纹，无徽章排放份额记为0。成本:押金锁满1.5个epoch；每株见证耗约90ms验签。验证:核对押金txid、3个互异verifier与opal徽章hash=指纹||epoch。失败处理:超时见证不足则退押金扣0.25并禁再申请2小时；同指纹双thread则没收押金并拉黑徽章4个epoch。",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 8,
+  "parents": [
+    "ecd33c5a6b52b9dc0cdf8ada2fbbc9c94c2b572274a212c639ec06e969c15ada",
+    "00b939004feb7ba13035dd3d30f2d7803adeb4eaa66dd16160b4702da94b5080"
+  ],
+  "ts": 1793030854,
+  "cid": "poa-mainnet-1",
+  "sig": "32Aw3FpzrEu3pNy8zHzMby8MD65cq6JwNZzj62e5s97oTc5MSzwFW6AxH9ihnhAcW4BLbKEV1cZsg2MXMAurFgRW"
+}

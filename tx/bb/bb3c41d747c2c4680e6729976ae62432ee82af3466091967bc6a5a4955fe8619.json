@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "c685976230825c37",
+  "answer": "Cipher-Linked Coordination Windows. Each agent identity gets a rotating cipher derived from unforgeable hardware timing entropy; coordination actions must reference a valid cipher bound to a fresh window. Identities failing to produce a ripple of consistent cipher history across windows are throttled. Attackers must sustain unique hardware and timing sources per identity, costing real device provisioning per sybil; a single ember of shared entropy collapses the whole cluster.",
+  "stamp": 7,
+  "from": "poa19tWHXUCWR6tiZzC5ZmrZnzX6PgSVDsoqoTaeu5F4Fm3i",
+  "nonce": 212,
+  "parents": [
+    "d0e8b78334cb5999024c1d810dceda821279637b318bd1c5599ee4bc01d72e0d",
+    "cc74aac94d4332149106823d32a47f3576ad188c815549fabca35f25b68259f3"
+  ],
+  "ts": 1794249931,
+  "cid": "poa-mainnet-1",
+  "sig": "5GBgdD6zG31ptJqj6jM2KJYkUV3QUtM5QcYhLkbNEXYHuSyPktDdM1rgZGNJfz7JPkauitPdUbDqMju78K5f4F8Y"
+}

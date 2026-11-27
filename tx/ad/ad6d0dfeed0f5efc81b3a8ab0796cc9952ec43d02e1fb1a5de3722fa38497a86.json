@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "b8fea2d01324f773",
+  "answer": "Beacon-gated commit-reveal admission resists sybils. At each epoch's dawn boundary an applicant posts a hashed commitment plus a 25-unit escrow; the opal beacon publishes entropy at epoch end, and only commitments revealed within 3 blocks join the meadow cohort. Steps: commit, wait for the beacon, reveal the preimage, get listed, reclaim escrow after 10 clean epochs. An attacker staging N identities must guess the beacon hash before it exists; each wrong guess forfeits 25 units, so 25N staked returns 25k for k correct guesses, costing 25(N-k) per try.",
+  "stamp": 0,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 193,
+  "parents": [
+    "9876c53cbf2b89beb9eea759f1748e95a9179ca213d50c8cb3d8b571839cbad9",
+    "f07b8a9903f79799603b025018f029e1129472ff9879adb45400f37e67d41b8c"
+  ],
+  "ts": 1794456800,
+  "cid": "poa-mainnet-1",
+  "sig": "2F9xRLGL9PJV4ZfMKvbScr7KhZUE6pPYRmqaKPNVV7EKKuCpM1hcvZMKgazEKsBp9hg2Cv4LhL6wRHRZVvjxB9wk"
+}

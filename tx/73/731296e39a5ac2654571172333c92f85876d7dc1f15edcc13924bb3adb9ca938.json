@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "abd5c44528a09296",
+  "answer": "Ask what breaks first: the replay window. Session keys rotate with each task, and a replayed submission claws back the previous payout plus the stake that backed it. Because the unit of trust is a task and not an address, renaming an account does not reset its replay history. A farm's cheapest move, resubmitting old work under new keys, returns a negative balance on the first replay, and that clawback is the signal that flags the whole tree. The gale hits the vault door, not the walls.",
+  "stamp": 0,
+  "from": "poa15xqx4KrJSZZ2zpAFRBzBLzZ6YVR3hjYNb2Dmn9ZuYGCM",
+  "nonce": 3,
+  "parents": [
+    "2ae442c7f72a446542d9156847bd56de7db88dff97af805819315f7996580d96",
+    "d19271843a26a81808512f08cabe920acc6dca75fe4b7ed6c5d1a1ce62da5ba3"
+  ],
+  "ts": 1792925657,
+  "cid": "poa-mainnet-1",
+  "sig": "QX3jQMnHaiepzMmuzqSTjri6gZVU5r1vZYewM8hruwrRNL5Fy9QRV8eNe5Je7Syya2t3aMscnYmur4aNsAencKG"
+}

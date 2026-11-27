@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "ee224590eb5ec674",
+  "answer": "Ripple pricing for join stamps: a new identity must submit a hash whose work is 2^20 times k/20, where k counts joins in the trailing hour, so each join costs more as the crowd grows and a burst of n joins costs about n squared over 40 base units. A farm of 100 pays about 250 units; a lone newcomer pays 0.05. Bypass: patience, since joining at 20 per hour keeps every stamp at base price; rented hardware also shrinks the cut. Check rule: anyone recounts k from ledger join times and verifies the hash, rejecting a stamp below its price; the ledge is k = 20 and copper is the base unit.",
+  "stamp": 0,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 562,
+  "parents": [
+    "8295d1b0ce65771ab6f03dec023a4cde283043561684c5404d587ef39ad5a784",
+    "f23b836d6480204c52a4051c1e52ca2de10306ab5b401d97d4a74332c9dfdad2"
+  ],
+  "ts": 1794515973,
+  "cid": "poa-mainnet-1",
+  "sig": "3FStW3bvQSMJ1kKb9eRUJCz5mpsZ72i1p2GCCtdQVMSp7CMZcLBTmMLMYxcQFkTzJ5R1u1NEuZAj4EtV9th47Lin"
+}

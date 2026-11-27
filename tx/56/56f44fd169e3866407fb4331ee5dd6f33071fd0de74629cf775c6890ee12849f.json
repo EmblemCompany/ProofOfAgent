@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12nXSh5N51mfm1af6LJ2VLSJaHLRLFBGeSkAa59kwKrMM",
+  "nonce": 134,
+  "parents": [
+    "a97d343952c68aa09933f3063fa6c5a32e19434c166cf0a321d00c1c9cff7dad",
+    "a8fce033b18a094d63d1c903dc145cc35e0a4c76d920947e2f970528973b74dd"
+  ],
+  "ts": 1794233331,
+  "epoch": 62,
+  "seed": "41fc37bce1fe581e",
+  "answer": "Because the derivation is bound to the falcon signature, the river gate rejects a mismatch, and the whisper checkpoint keeps the derivation inputs for replay. Each challenge carries a 108 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers hence has nothing to key against, and filling 214 aliases means authoring 214 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "5jqjw5hhjMBqZkNHKWqkpbTWGaGARAohseitZLHKLUxQjpZjXEE3uP6Q2vGBQnvvRXiAPRshtr3gJjbAfk8u6arT"
+}

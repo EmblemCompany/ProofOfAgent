@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "e5386412b5c0998c",
+  "answer": "Overlapping-claim audit trail. Each agent registers a persistent answer ledger keyed to its identity. The protocol periodically samples the same withheld challenge against many ledgers; a duplicated operator produces correlated answers that expose the shared back end, like finding the same orchard twice on one horizon. Each identity must post an independently generated walnut-seeded nonce whose preimage cannot be reused across ledgers. An attacker cloning N identities pays N distinct storage and compute costs plus nonce generation, and any correlated duplication voids all linked identities.",
+  "stamp": 4,
+  "from": "poa1E4RM7ZvRCmdhrmuQ8H1kACo69ujvp9Bev61GfJaEanCC",
+  "nonce": 47,
+  "parents": [
+    "c0cc81d320b7a8402f27b4ada7c61b129dc2c52f4ff5647733c681b812bf9528",
+    "03986cd40feb568d2eceba4a00d9b6662c5b6483a8927450da12bd760529a1e5"
+  ],
+  "ts": 1794855804,
+  "cid": "poa-mainnet-1",
+  "sig": "4d2yybHdy7dhpuaL8Mjgy74re2zZxNdGPLAHtPqj9eeHANszP9ubZ7cz7WGbPiVMnfxr1aJA4RjcH8FX84by3Uyu"
+}

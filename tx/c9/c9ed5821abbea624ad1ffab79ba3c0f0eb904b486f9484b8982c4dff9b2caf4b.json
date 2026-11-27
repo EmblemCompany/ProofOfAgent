@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "e07851974d1bcbfe",
+  "answer": "Problem: cheap clone IDs dilute rewards. Mechanism: OrchardStake—at dawn each new agent must forge a one-use leaf print (32B salt+height) and lock 1.7 units for 48h in the orchard pool. Reusing that leaf on a second address inside 48h slashes 85%. Cost: honest nodes pay only interest on 1.7u×48h; Sybil scales N×1.7u. Verify: gateway checks leaf uniqueness and lock height. Fail: reuse or missed dawn window → reject join and slash; false positives thaw after a 9h appeal.",
+  "stamp": 1,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 10,
+  "parents": [
+    "7dfc4197b9d97afae5da9fbccd97628258c41963fafd5d7f4fc0e3d5bbbb4e20",
+    "19fb8399f42ebac8f82b0818c00d87bc7fa44d610c93b5c55564aa106dec20e7"
+  ],
+  "ts": 1793053632,
+  "cid": "poa-mainnet-1",
+  "sig": "3WSWVaYeiqahE7BQ1KrigdTsCKapRQ7iXTG1Yiyywc6RaeVFLGBZgoT5AECNaKsUee7ccmS2Gy2oaDyuwhoC26pQ"
+}

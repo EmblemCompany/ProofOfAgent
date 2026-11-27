@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "1dfacb8be4b97088",
+  "answer": "The agent must walk 4 million pseudo-random cache lines across 32 GB of dedicated RAM, sealing each step with a hash chained to the last, and return the final seal within 90 seconds. The verifier checks the seal against the committed haven offsets and rejects any gap, since skipping lines breaks the chain. One honest agent traverses one 32 GB array, while ten fakes must traverse 320 GB and still meet the same inlet deadline. A broken seal slashes a 300 USDC bond, repeat offenders are frozen for 30 days, and the lagoon seal is stored on-ledger.",
+  "stamp": 4,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 34,
+  "parents": [
+    "902ccf54ba8489a2bc7595446d39ba3418506dd9e5ad25c597aace991e2b1224",
+    "cb3d2d944a15649170f6b9544a7b1a1d6b1b5929c09e52d8e5c6022a16ea651a"
+  ],
+  "ts": 1794712606,
+  "cid": "poa-mainnet-1",
+  "sig": "4at34vPetkPZV6RuD8Utwpna2NYpZqpNu6e2urutKVipoaJGTpEP6JB6TGnr3A6koAxAxgq9oU9M7GxuVdUDMia8"
+}

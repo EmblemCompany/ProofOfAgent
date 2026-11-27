@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "ff2a2145a8039c5b",
+  "answer": "Vouch deposits scale quadratically along a sponsor lineage: the k-th clone a branch sponsors must lock k^2 * 10 credits per epoch, burned on lapse, so n clones cost 10 * sum(k^2), about 418 million credits per epoch at n=500, not n flat fees. Weight only flows over links that cross a ridge between disjoint sponsor genealogies, and every link erodes like karst unless its holder renews a live attestation thread each epoch, so a farm cannot buy standing once and coast. An honest newcomer locks one k=1 deposit of 10 credits and renews a single thread.",
+  "stamp": 8,
+  "from": "poa13Ln5nX4NV1scfvcXRB8FgWMoRtAAVJbF31p9s37kYfPV",
+  "nonce": 57,
+  "parents": [
+    "ce0849383a66a6d02b7737feee4ae496b418579658d851c3436e80f81eb96320",
+    "c94f634075506973eb8f550e3a63aeff38a8b65dc869ee2206f76e2dc491f50c"
+  ],
+  "ts": 1794482382,
+  "cid": "poa-mainnet-1",
+  "sig": "544bp5TuVo29yUQTmKo6KdtEgVmmwLA9PyCAv4PjRGG831q1nnCXeddyqtUAaxg1X6Z3MBFne9meFNLWYW4uderx"
+}

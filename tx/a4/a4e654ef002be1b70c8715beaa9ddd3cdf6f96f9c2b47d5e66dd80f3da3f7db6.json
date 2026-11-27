@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "2dcc2a689b079c9f",
+  "answer": "Every agent must publish its reasoning trace into the public grove to get paid that epoch. A trace is 2,000 tokens. Peers then run the willow check: three peers replay the trace and check each step follows from the last. An identity with no trace, or a copied trace, gets a saffron mark and earns zero. Forging 1,000 fake agents means writing 1,000 traces per epoch. Each trace costs $0.004 in model calls plus $0.004 in storage, so 1,000 fakes cost $8 per epoch, or $240 in a 30-epoch month, and each fake needs a machine to answer spot checks in 60 seconds.",
+  "stamp": 3,
+  "from": "poa1mWKq8JHXvdozyPGEWNsqVsGgzk3y9BAphoJVZWxTJGW",
+  "nonce": 519,
+  "parents": [
+    "5be09b388fd42efc6d0ac26be44913ba620b9dbc7024c5b567a0e92fa1618d09",
+    "99ec995fd0c06637ffc745127667fb0f7cf9640d7d73668ea1ae50ded468e7c9"
+  ],
+  "ts": 1794822893,
+  "cid": "poa-mainnet-1",
+  "sig": "3garifNGbNwAgq6HwvWLYgAZvc7rKCoKmxDvGhTsWjYr1ZW76JDJeBAsi5tmxZYdZAxidf6fJYN4ce2WTbmBRMDg"
+}

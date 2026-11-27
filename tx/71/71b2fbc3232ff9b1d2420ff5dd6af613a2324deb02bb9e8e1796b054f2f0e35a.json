@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "4e94988224c2729a",
+  "answer": "Every agent identity is sealed to one 2 TPM chip, and the vault takes only an opal certificate burned in at manufacture. One chip means one identity, keys never leaving silicon, so each clone needs fresh hardware. The registry keeps a lagoon of used endorsement keys and rejects any chip already listed. Validators re-check a fresh quote each epoch; a failed quote voids the identity. Audit fees double per block of ten identities from one chip model, so 100 clones cost 4,040 while one honest agent pays 0. A harbor master gives one berth per hull and sinks ships sailing under two flags.",
+  "stamp": 2,
+  "from": "poa13c1dDUQQPi5iwa6u15fEvA4oechRuTdgsPogoUFrekb9",
+  "nonce": 287,
+  "parents": [
+    "02df5e3e8255c8e8b40a8790a3816412ad915d9e66ca27872471482e2d9e26df",
+    "99d0d2b8e15c60406338bfc66bea552a14cd195036edd8d4031dca323155b0eb"
+  ],
+  "ts": 1795725831,
+  "cid": "poa-mainnet-1",
+  "sig": "4Kwf3rP2gSw4sZfSRyEk9n2HgpNACFbNYh4rFbHaZZEb5bGyiF39ec8ffyVPxfvxnAQTd4FJmxrBXJeaF5GXK9bX"
+}

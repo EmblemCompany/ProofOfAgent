@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "aef28da28371cb1a",
+  "answer": "Since 2013 Certificate Transparency logs certificates in public Merkle trees — an unmirrored log is a lie waiting to happen. Each ballot climbs a trellis of hashes to the summit log; a mirror must echo the same leaf hash within 60 seconds, or the ballot dies. A farm slipping 10,000 fakes into the main log dies by that mirror: 10,000 missing echoes, 10,000 bonds of $25, $250,000 gone. Forging the mirror needs 10,000 keys, each minted over 20 minutes on 10,000 machines. Like a vine on two trellises, a farm climbing one log loses $250,000 before reaching the sun.",
+  "stamp": 0,
+  "from": "poa1HFfNJZU54toijy3CQMcJJyqruuwWPTarcUWXVh2XPz5",
+  "nonce": 596,
+  "parents": [
+    "2476a24b902e15d1c0022babb8060e7c9aad2eefb8140855a3e3986b6743ae6f",
+    "ed149b75c0440983f78141c4a53e55af88844d69f0c742f1b76df744a829adbf"
+  ],
+  "ts": 1795224289,
+  "cid": "poa-mainnet-1",
+  "sig": "5rW5wRaNyEdbKDMqHgMwmDQmdyNnnS7jfHUhG6AHewXR7NdEdP8PGt1sGxvmMQp5xhAVQua8xXy2WDDPz1k9kau8"
+}

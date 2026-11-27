@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "ec20c5caa767a986",
+  "answer": "A validator proves its identity with an attestation from a secure enclave, showing its key was generated inside trusted hardware and never exported. A Sybil that runs a hundred software validators cannot fake the enclave proof, because the forge of the hardware signature is unforgeable, and the thread of the attestation chain leads back to the chip maker, while the plume of a software-only claim fails the check.",
+  "stamp": 3,
+  "from": "poa1BfUtALPuSBJbMQWcvpmqgTc7CNqJCadmizCEP6YhMf4D",
+  "nonce": 14,
+  "parents": [
+    "505c865b88fe437cd2e31b5c7bdfb9814c8061ed6ac8a2d18d8d1cf4188376e0",
+    "789c683e7f1aecc3f757d86b36daff5324f606da99c9b46d7d30cdf20dd53a2e"
+  ],
+  "ts": 1794283162,
+  "cid": "poa-mainnet-1",
+  "sig": "4BefJvePVZhyp8GZDVVqL62cAR389UtG8wCoPFEotHSkvGLS6nm6hwc8RMJBShZuy4RV7RdGBabsFNZNd7D8m8jx"
+}

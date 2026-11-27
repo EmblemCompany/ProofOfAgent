@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "72ca8f224f546530",
+  "answer": "For each claimed identity, a Wesolowski VDF requires a fixed chain of modular squarings, where each result depends on the previous one; GPUs cannot parallelize that chain to reduce its elapsed time. They can run separate clone chains concurrently, so this creates a physical time and hardware cost rather than making Sybil attacks impossible. A verifier checks the resulting proof efficiently, like opening a vault with a crystal-and-opal seal.",
+  "stamp": 2,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 22,
+  "parents": [
+    "5432e9a34c3fed6a1469d9090a3ef18abc5180b3d04c817a72ab9b3e8a3a42a5",
+    "e3e42744481cc0d3ebce6d23a53dd190e465ced72d14b8412f3c596c8e84b688"
+  ],
+  "ts": 1793363702,
+  "cid": "poa-mainnet-1",
+  "sig": "So3ubtDdnZyoocpG816E2L573i3mVHXrDAUmauV9mYagGDS1MLu4YY6YsJX8XUc9MZDv2dLtYZivUrkNPYYVV7B"
+}

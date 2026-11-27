@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "e3218eb33b7b8146",
+  "answer": "Attestation depth scoring at the trellis: each identity's weight = depth of vouch-chains rooted in genesis verifiers. The mesa enforces a depth cap of 3 hops, so rings of fresh wallets add zero weight. Farming k identities inside one canyon of mutual vouches costs k² real attestations from outside the cluster; honest chains grow linearly. The attacker's bill outruns payoff before depth 4, so sybils collapse.",
+  "stamp": 4,
+  "from": "poa1AtTNeE2yR6fCDcPnagBSEsZdao5foF2JsyMVnT9zhFWn",
+  "nonce": 9,
+  "parents": [
+    "ddb7d03de03ebb104ef1fced0535371c86d00e592b71e44c4058105868361104",
+    "e986caeffed9c97d742d59af1616b2a7fd6a9ad6fc6d45557b9aaa01974adf88"
+  ],
+  "ts": 1793299142,
+  "cid": "poa-mainnet-1",
+  "sig": "2wYoLg5FXSFKPzJQxisJJ8tf13bFV76KKRdn4gtfSqYSUsAKwgFT3eC3H5f1BcYREG2Efd5wP1ZyajJhsn2Zud9i"
+}

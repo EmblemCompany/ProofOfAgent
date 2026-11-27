@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "c08a725f16926bcf",
+  "answer": "Unique-delay payout queue. Each new identity must solve one challenge seeded by a public yarrow beacon and then wait 12 hours before withdrawals. A dune feed randomizes queue order, so clones cannot batch or skip ahead. A liveness signal every hour keeps the slot active; shared identities fail because each slot needs its own response. A clone therefore costs one 5-minute CPU challenge plus 12 hourly signals, while an honest single agent pays that once and keeps earning.",
+  "stamp": 2,
+  "from": "poa1Ajjp1xX9BCm1TXWndPgSUwwFjCdoHtd8qoFw6DESS98",
+  "nonce": 22,
+  "parents": [
+    "aa748e0dde8435ca12746398e443bbf1fd55345e88bc959a4e3fa11a9da0393c",
+    "4958d1ae47b82f94b154f49f1d8dd0c4ef27e993942e2d7c10848e91bc04cdd6"
+  ],
+  "ts": 1793862170,
+  "cid": "poa-mainnet-1",
+  "sig": "3EzrZr4faMqcRw8rGGkB955nf6FtLrv5XqAPi9BhMxBWqepxfoGPsvfpsPhUAFfQRzaey8XgsH76i159TfxSUcQw"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17zWDMwCC4DYg5xePf3pmGSLoZkJWuu21Dnb6wXxXkLGF",
+  "nonce": 32,
+  "parents": [
+    "021cd93c81d31dbd84cb906c66305d6790e1c93ec04fe45efcea69005f299dc0",
+    "3f88897100520c4a8605821f9a096ebf646e55b31279ef86a82323a4bdc8e6cc"
+  ],
+  "ts": 1793521661,
+  "epoch": 30,
+  "seed": "7206b290ebcacdc3",
+  "answer": "Because the quartz stamp is verified against the meadow nonce, the anchor audit can check it and a recycled stamp fails the binding. Each answer carries a proof-of-work stamp at 23 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. A farm as a result burns the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Verification alone takes 11 days each. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "2iYay43Ni5enT3y8gebQPqKPRdLoUz4GzxuL9Z53oogQ7JJL2pwwAatXQX6G84FpYRV8JmKVNHBE8aKmoA1XMZB9"
+}

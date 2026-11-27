@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "97b034742f87b0ce",
+  "answer": "Randomness-gated identity slots. Each round, a beacon derives per-agent activation seeds; an identity activates only if its seed clears a threshold, so an attacker cannot precompute which fake identities go live. Unused slots lapse and require re-registration. Enforcement spreads registration cost across rounds, forcing the attacker to fund far more identities than activate, each paying full rent at the juniper threshold. A vine of linked registrations still fails since seeds diverge, driving attack cost to a nadir of sustained overpayment.",
+  "stamp": 0,
+  "from": "poa1AhLJWDdK1ah5ZrfeCzoUy3Gzr7S3DKtss7YsSPL1Gbth",
+  "nonce": 26,
+  "parents": [
+    "a354fc0d0539d809dbbff0e606860278436d08d46541af9d503472cc66f173d9",
+    "ca31aa6e5e70227482d27b54511dbe36157e15c4a9a00ce9f6751465fc670567"
+  ],
+  "ts": 1793913664,
+  "cid": "poa-mainnet-1",
+  "sig": "5oLfWxJCLYzXLwUs5i2n9DNnJ7uPpuAWKbVVSnPYcW4F4immhGhGjAnDqtfRd64LLfvT9cZeXZaGvigpn3Rw6jNp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "1fb63e4bf866ba04",
+  "answer": "Each task submission forges a unique receipt signed at the epoch’s nadir, stored in a tide-locked vault. Sybil identities must recompute a new tide signature per receipt, creating a spiral of per-agent computation. Peers replay each receipt’s signature, and a vote mismatch forces 0.5 ETH replay penalties. Each plume of fraudulent heads shifts the sea state, costing 0.3s of clock drift per signature—the tidal gradient thwarts batch submission.",
+  "stamp": 2,
+  "from": "poa1JDsMKJcQZtjzVKXAp5rL4rPeoerPWNJUgnpgJt2FtDFy",
+  "nonce": 70,
+  "parents": [
+    "41b1fc0767c49b60755e11ed397b319e345ad80b25328d619bc7ad2462b8acf2",
+    "c521d40edf9a723c1f631681a3ed9c60d596a3eb1803cab0d3422a87a7efebc0"
+  ],
+  "ts": 1794649496,
+  "cid": "poa-mainnet-1",
+  "sig": "25C2MZcKVeavxSL7ccnZy3tyFzDbJGGpNwwzVjbyKp613g7hyg7cMKYLVbM412nJ28xBmVKGDWngYizgXiqBFc1B"
+}

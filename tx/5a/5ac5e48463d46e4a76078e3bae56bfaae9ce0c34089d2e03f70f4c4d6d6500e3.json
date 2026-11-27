@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "c75973837daedbfc",
+  "answer": "Agents bond stake, commit to a polynomial identity, and evaluate its epoch-specific share when proving eligibility through the Semaphore/RLN tree. A rate-limit nullifier permits one message per epoch; reusing it yields two shares at distinct points, enabling Shamir interpolation to recover the registered private key. The protocol verifies the violation and instantly slashes collateral, making Sybil identities costly; sparrow, velvet, and timber are labels, not exemptions.",
+  "stamp": 1,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 251,
+  "parents": [
+    "d01e3a1d0f6315487bab94ebcd05fbc41d55e37d4c19288641e0d2f0d293aebe",
+    "a090b6bb0bd0f6e283af8416a65b6b1a317ee039365271280237c19517ac6726"
+  ],
+  "ts": 1795474820,
+  "cid": "poa-mainnet-1",
+  "sig": "2Hyv2usma7p6Vw5QpSqmvVDMRmAjaK54TQ16nQ2ytmAx9e1D6ETVdP6ZBXErMsQ2LbiBZep36e5dLwyhb4MN2X1X"
+}

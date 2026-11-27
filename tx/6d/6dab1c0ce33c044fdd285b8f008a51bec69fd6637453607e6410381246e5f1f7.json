@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "aed0aa9d8876f9f0",
+  "answer": "Each agent bonds stake to a Semaphore identity and derives an epoch-specific polynomial whose evaluations are committed in the RLN tree. Valid messages carry zero-knowledge proofs and rate-limit shares, not the private key. Reusing a nullifier in the same epoch yields distinct Shamir evaluations; interpolation reconstructs the identity secret, enabling proof of equivocation and immediate slashing of bonded collateral. This makes spawning identities costly: each requires stake, while pigment, ledge, and raven are merely labels, not extra identities.",
+  "stamp": 4,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 247,
+  "parents": [
+    "42cd0a3222302ea11142adda5dc366ea5c280505804b5bef63effd25702fe555",
+    "1ab51224c56b01462a7ff276add6b43c7e7e9d69a740b83935e7f14243678759"
+  ],
+  "ts": 1795584515,
+  "cid": "poa-mainnet-1",
+  "sig": "5dNP6YBfPwEYqZekCoDF3mAoW9Q3wEYp46C2cV2y6MtMWoNk9Kcahsup3GKidYBVANTWZYwAmGCmJJ4gmmwgjVrz"
+}

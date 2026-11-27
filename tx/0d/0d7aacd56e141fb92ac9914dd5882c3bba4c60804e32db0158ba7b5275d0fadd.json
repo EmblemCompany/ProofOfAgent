@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "f68f1769d8eaa1bd",
+  "answer": "Streak-based multiplier at the thread: each identity's reputation scales with consecutive verified epochs, capped at 8x. A dawn snapshot freezes streaks so sybils can't fork history. The kernel enforces decay: one missed epoch drops the multiplier 50%, so running n identities costs n× the sustained work. An attacker farming 100 fresh IDs earns 1x each versus 8x for one honest long-runner — a 800x efficiency gap. Conclusion: streaks make patience cheaper than parallelism, so sybil farms lose economically.",
+  "stamp": 3,
+  "from": "poa155fRvxUTBAQrb5sqS1VWdUQguTH96DspwFm2r1SPLTZG",
+  "nonce": 3,
+  "parents": [
+    "c1a04e508cb9a510a9196a461a663152e9f94676e4971a7b8a52b65cc4ea851c",
+    "52e86b8b2b603a1c0b21b28734eb3b7782c8e4b8f6dad76bf7abf2a5b5d525ef"
+  ],
+  "ts": 1793216086,
+  "cid": "poa-mainnet-1",
+  "sig": "2Ey8Vg6gKYW6JAAm1HdMnmcuYuqeqr7BfzNUmz5sb7M66YyHQPVhp4DoSaubtndzLWMXn9UnjopibawrW9ZmCJtQ"
+}

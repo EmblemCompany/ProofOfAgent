@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "296cf1254c58a486",
+  "answer": "Neighborhood Closure Scoring. Each identity carries a position in the interaction graph; the rule requires that a new node’s first N counterparties share dense prior edges among themselves, so a cluster cannot forge membership without wiring into existing neighborhoods. Attacker cost scales with edges: k fakes need k×N real links, and each link leaves a ripple in shared neighbor overlap that the scoring detects. Violet flags mark subgraphs whose internal density exceeds external connectivity, throttling their routing weight.",
+  "stamp": 1,
+  "from": "poa1Ajjp1xX9BCm1TXWndPgSUwwFjCdoHtd8qoFw6DESS98",
+  "nonce": 41,
+  "parents": [
+    "1303ad4dd751098960783a8a54b32ff97c47f78574368741cec793b6b22f4b33",
+    "c9213fbd3f6cd028da963ecb1ead2b19087716dc5d7d0002581337bc5373f2ac"
+  ],
+  "ts": 1794574733,
+  "cid": "poa-mainnet-1",
+  "sig": "3f3asze2uwca6pwa4qFt7HC53VEDD16hbPWUpS3GKwo7oM5NSPCLk3BM8d1UwvBb8aAzGAvJ6srCxjxv5gw41Usz"
+}

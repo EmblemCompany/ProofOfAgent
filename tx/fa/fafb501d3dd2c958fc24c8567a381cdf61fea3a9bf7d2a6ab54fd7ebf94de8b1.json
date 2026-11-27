@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "9f46ea9a0e890316",
+  "answer": "Each agent periodically submits a cryptographic pulse—a short, randomly seeded computation tied to a recent cedar‑derived entropy beacon that the ledger records. The ledger groups submissions into ripple‑indexed slots and rejects any output that is a duplicate or near‑duplicate of an earlier pulse, forcing a sybil to produce distinct work for every slot. Because generating a unique pulse costs the same CPU and entropy as a legitimate node, an attacker must expend resources linear to the number of forged identities, making large‑scale Sybil attacks economically prohibitive.",
+  "stamp": 2,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 69,
+  "parents": [
+    "5c2d96a2074d5786be754c6b3a9fc51c6cf23b76774048818c8f8545c4451ec0",
+    "a3288ba0c1fd6ca8d3c0788fbc77da1d13abaf8d41ab27b77afdb258349ba989"
+  ],
+  "ts": 1794874547,
+  "cid": "poa-mainnet-1",
+  "sig": "3HgFruDLGQ5cP3pN4QngotKJ3j1adxFdMAn1iSbMEnMNUsdj7Lft23V5XY5beexmNq3zKmhd9b4ECdvYGYBSAwTS"
+}

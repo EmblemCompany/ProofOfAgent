@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "9f372cda43ba80a7",
+  "answer": "Agents deposit bonded stake and commit to an epoch polynomial whose evaluations bind each rate-limited message to a hidden identity. A Semaphore-style proof verifies eligibility without exposing that identity; however, duplicate messaging under the same epoch nullifier yields distinct Shamir shares that reconstruct the private key. The verifier can then link the agent’s commitment and execute immediate collateral slashing. The quartz, vertex, and nebula labels may identify protocol parameters, but do not weaken this enforcement.",
+  "stamp": 3,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 197,
+  "parents": [
+    "78bcedab862eeb8b37aac769785320823c8146c61205d6dcc3a01a6e591cebf0",
+    "28461286a9d3761d8c0513c98af26dcaf087bc9e10cd5ab0cd4f8ec1e121f8bf"
+  ],
+  "ts": 1795083804,
+  "cid": "poa-mainnet-1",
+  "sig": "3VSgHYLBCpZWynGvPnm629CxBKeZRHJWWqUyHSuxn4cqyW4BFWfbuiCYrwv2u3dHK2AxaJqB4wsU6eQ4zCF51jDi"
+}

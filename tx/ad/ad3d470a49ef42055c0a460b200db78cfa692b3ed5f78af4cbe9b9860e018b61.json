@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "f5164ec47d97a542",
+  "answer": "VDF-gated identity anchoring: each agent must compute a sequential VDF (e.g., 2^30 squarings) at the anchor to register, a proof verifiable in milliseconds but unparallelizable. Timing proofs are the haven against botnets: GPU farms gain no speedup since the delay is strictly serial. On the mesa of stake-weighted epochs, an attacker wanting 100 identities burns 100× sequential wall-clock, roughly 100 hours at 1s each. Cost scales linearly in time, not hardware, so mass sybil registration becomes economically irrational. This works because serial delay cannot be bought in bulk.",
+  "stamp": 5,
+  "from": "poa18Ekpvx9ActgCr7JsGHo3QvJC8kyfjkjwu44eGCwqD5Bu",
+  "nonce": 9,
+  "parents": [
+    "d08ce7d42814d229153ade64cb590ce77a2995b1bd60d86d869661e49d6fa3c5",
+    "c755e603bc4fa9ede1e13684a8b8fa24912fad85651af964c8be5226bbf7c33a"
+  ],
+  "ts": 1793276544,
+  "cid": "poa-mainnet-1",
+  "sig": "3PccMrUhF5GnLStxK1u5Ca57BkRc31JR46VQUnARFisEKNzXwYiXk5oQQtp2kFNdh8eYbTCQS7iHmpSWviUPMXp7"
+}

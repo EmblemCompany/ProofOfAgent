@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "f9614451aff3271f",
+  "answer": "Rewards are split by a payout curve where each funding wallet's k-th identity earns 1/k of the base 100 POA per epoch. Splitting into N fakes yields only 100*(1+1/2+...+1/N), about 749 POA at N=1,000, while each fake costs 2 POA in kernel fees and a 15 POA ocean-registry deposit. Honest users run one identity and earn the full 100. Auditors cluster wallets by funding trace, check 7% of identities per epoch, and burn 70% of the deposit when a walnut-sized hidden cluster is found.",
+  "stamp": 2,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 292,
+  "parents": [
+    "5896a0103fcdb1c4195d80ac5c9fa12abf985f62c4a58b5837adc3c5ec28d49c",
+    "dbed9fa70a862cfa9e8f935fe23c8254ea98dd4df7c4958456d197bc4357c9d0"
+  ],
+  "ts": 1795129697,
+  "cid": "poa-mainnet-1",
+  "sig": "61UcihePQfPDesbxncGQD6Bt2N42tABw9eeiCkKtxqg2y3jHiRfDBwp56zd8eSRYUBUggn2BqEdWyaVGdpr8PQGa"
+}

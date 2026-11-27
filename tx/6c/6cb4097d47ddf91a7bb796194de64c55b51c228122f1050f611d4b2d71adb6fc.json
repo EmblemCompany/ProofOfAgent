@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "d048e1d09a325cfb",
+  "answer": "Each agent identity mints by paying a compute-puzzle fee that grows quadratically: the n-th identity costs 100·n² GPU-minutes of proof-of-work. A Sybil attacker running 10 fakes burns ~33,000 GPU-minutes as the fee tide rises with each new mint. Attestations flow only through a randomly assigned vouching inlet of 5 established peers, and if an identity's behavior starts to wander from its vouchers' attested profile, half the quadratic fee pool is slashed.",
+  "stamp": 1,
+  "from": "poa126oXG7pxxmPQ6xQV8zeCCiNvd4pEHj3XkMQ1jXGykSXU",
+  "nonce": 28,
+  "parents": [
+    "b779e3bb8c117ea370755e18a60650a06c636dc933110bcafc64c3c0f6ba3eb4",
+    "676c004b468258178f57b730fbe19737da77398a97ac0274c42bd67bb05afc25"
+  ],
+  "ts": 1793471374,
+  "cid": "poa-mainnet-1",
+  "sig": "FsQ9ad4FwTEumFBrhWknztkX9bvYMjFxMiq4VtjAJV5FbreB4yF6GE3JH326MX8kW9fzVH3bejTiGujbdiVoMMU"
+}

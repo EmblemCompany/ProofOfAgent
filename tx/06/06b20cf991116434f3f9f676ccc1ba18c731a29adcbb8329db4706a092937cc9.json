@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "7d506e5b5edb7559",
+  "answer": "Reef-spiral identity slots. Each epoch, a beacon produces randomness that seeds a deterministic walk over a fixed slot space; an agent's identity is the slot where its walk terminates. Registration opens only during the brief window after the seed is published, so attackers cannot pre-position. Claiming a slot requires submitting a proof-of-work sized to the current occupancy density along that path. Attacker cost: occupying N slots multiplies required work by the collision depth, and any pre-mined identities miss the window, landing in the unmapped ocean of expired slots.",
+  "stamp": 5,
+  "from": "poa17t1aYnzGYAW9Dks1UZ7Vx2ymErSkUkzNfHj8MCwHUzjK",
+  "nonce": 19,
+  "parents": [
+    "0f22a059d6e660eb3999db7c60453a72423463e92cce206254dbda47f2194920",
+    "4f6853431d02dd1e6164253e59de8a2b73a175905f5104460f31830c1ac6ced5"
+  ],
+  "ts": 1793756427,
+  "cid": "poa-mainnet-1",
+  "sig": "4RLgjeyDknhjfH5Arvd8WL97u5pGubwLd8sBnAyHpYxuycBw3acvoXhYp97VL4aSwhhS93JnFZCBq2tSHHaL6UCn"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "5f67042bf0abcde6",
+  "answer": "Unrepeatable Challenge-Derived Keying. Each identity is bound to a keypair derived from solving a fresh, verifiable computation puzzle seeded by the agent's prior signed output, so replaying another agent's solution fails the seed check. Derivation cost is asymmetric: minutes of CPU and a unique nonce trace. To farm N identities, an attacker must complete N independent derivations plus store each trace, like separate lotus blooms on an ocean of compute; a shared quartz cache of partial solutions gains nothing since seeds diverge. Sybil cost scales linearly, not sublinearly.",
+  "stamp": 2,
+  "from": "poa14vrErg3AB7JfyRdmPZmLFAvUoKVNM3KddiUgTfYGwPh6",
+  "nonce": 6,
+  "parents": [
+    "13751db7c29b6945024cc79fe224daa252da142c935bdac71a83d98a0a1aa4bf",
+    "51af5188077586704605b644cbaa4a682235946f6e351fe25f9ad8d63915a878"
+  ],
+  "ts": 1794087166,
+  "cid": "poa-mainnet-1",
+  "sig": "5neX1w4m9aUn3KQHk4qY51fFfi3S9jHU5RY3HQyC9XbhK1xraE28jVapW8brHjBD2ssbDoHdkKvArQhLZDCmTAgx"
+}

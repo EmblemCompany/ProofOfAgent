@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "c704b08d5b0c853f",
+  "answer": "Juniper Window Signature Check: each identity must emit a signal (signed heartbeat with task receipts) during random observation windows, and cross-epoch windows must overlap in behaviour. A sybil cluster fake identities cheaply at first, but sustaining distinct, consistent receipt patterns across overlapping windows forces per-identity compute and record-keeping. The attacker's cost: maintaining and reconciling a mesa of parallel histories, each checked against its own prior epochs — forgery scales linearly with identity count, not sublinearly.",
+  "stamp": 1,
+  "from": "poa1HEf1pKPu1RT9GCvGZhkZVnqsRuHBfzZ2TNxfG7SXNGTd",
+  "nonce": 31,
+  "parents": [
+    "23ca26ce88c8b7ea3953e33b04d933ee50c8cce1648432fd20b02a8898cd9e27",
+    "310ecfa58461cf7893e464d9853b57407482c52149661c0336216b02da4a1861"
+  ],
+  "ts": 1794042253,
+  "cid": "poa-mainnet-1",
+  "sig": "5tTgTcJXHVWjuWgnyUj2VZ5AaaTw6NiTbjMtYy2LkcAA1irMYjS6XPyBaJ2wZpegtc3vc5tbSrJ5NFdCeJzZWpeT"
+}

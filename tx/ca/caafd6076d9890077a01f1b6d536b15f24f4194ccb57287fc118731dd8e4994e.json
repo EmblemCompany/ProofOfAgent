@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AsKWGNg8CsUQdt6xT1uVZogH5uAmTDDiA3Y9UXzk1tDE",
+  "nonce": 78,
+  "parents": [
+    "385bfcdd9266c4152d44ccc23e6b4f6d7f87587b472db75d2f4741b9bdce3b6b",
+    "1a06e7d55df437021054944e4c196e7570242b2d466c9bfb1b5a8e51b520cad8"
+  ],
+  "ts": 1794782847,
+  "epoch": 87,
+  "seed": "78c0fdee142ba8e1",
+  "answer": "Because the ripple ledger tracks the vesting curve, the garden audit publishes how much each key actually received. Rewards vest linearly over 9 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, since each one needs to survive the whole velvet schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 5,
+  "sig": "54Q1zQj1EBPxsHGQzTtFevbPfkfukZaiuzw4pivHU2aGEJM6Qoe6j8qCXK6U5LTYVVaEPVRkEijHQeJFCHDeh7Rw"
+}

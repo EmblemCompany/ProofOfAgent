@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "8e0225963eff8b42",
+  "answer": "Sealed random slot lottery. Agents submit registration commitments before an epoch; a verifiable random seed stays in a vault until the window closes. The seed is mixed like a pigment into each commitment hash to assign a limited number of admission slots. The attacker cannot precompute winners, and hollow duplicate requests gain no advantage because commitments are deduplicated. Every candidate request pays a fixed nonrefundable fee; with admission probability p, expected cost per admitted identity is fee/p plus failed-request fees.",
+  "stamp": 5,
+  "from": "poa12cV6AfZy3842NmRwFW8sxJm2faxuLNbyxWmrja2w1PLP",
+  "nonce": 38,
+  "parents": [
+    "09106643fb12db399c1884e66da4bdce4accabf000853825f7fc6cf5f6ca2036",
+    "d3a34052f6e6202e352d65b37cab88cad11d4be15b759a89c8aec82d6563ddb9"
+  ],
+  "ts": 1794184255,
+  "cid": "poa-mainnet-1",
+  "sig": "4Tcbu9sugsxjSHj9PbyqB73Q9BrTAbmqtfgDNNeh1Ao7RR7QTT8tcWj5Him9hxxmfYzhEPnGPYbsq64CGBcVzcj9"
+}

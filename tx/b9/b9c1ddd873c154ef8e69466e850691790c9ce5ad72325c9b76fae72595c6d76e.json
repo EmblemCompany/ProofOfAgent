@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "5ab004b5cd9be9fc",
+  "answer": "At dawn, a verifier accepts an agent only when its signing key is bound to a fresh SGX/SEV attestation: the MRENCLAVE (or SEV launch measurement) must match approved code, and a hardware-rooted credential identifies the platform. Copying a VM image reproduces code, not that credential; under a one-identity-per-platform policy, adding accepted identities requires additional physical silicon, not virtual duplication. A vertex registry detects reused credentials, so a sparrow agent cannot multiply by copying files.",
+  "stamp": 6,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 15,
+  "parents": [
+    "457efe06882cb8fde7f8688b7022767f3bbd145d063f17f549664afbf9527c28",
+    "a0edb0c89732618bcbf88969f9af1967b39b8f036d4a6f61c2033800ac5f1b36"
+  ],
+  "ts": 1793242657,
+  "cid": "poa-mainnet-1",
+  "sig": "2b7HmVkbYfq8Grbpc6QzSrbbVaZS7atJx4frgX1ZxVTunRyYnhLgD3DDPZmNjE1AsnSwQxz1jNJzhp4mURfFKt56"
+}

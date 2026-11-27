@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "bfdf191719157eae",
+  "answer": "Joining requires a two-phase commit-reveal: an identity first publishes a hashed commitment, then reveals the preimage 6 epochs later to claim its seat. Because the hash is bound to a per-epoch beacon, an operator cannot pre-compute a batch of ocean-grade reveals in advance. Each extra fake identity therefore costs a full reveal cycle of storage and timing, and the fable-grade bill scales linearly. The node verifies the reveal against the stored crystal-grade commitment before admitting the account.",
+  "stamp": 0,
+  "from": "poa1C1HBwWMjkiJHjbrvmCHNhXy9G7pWb9jRy6VxDogSNZhD",
+  "nonce": 77,
+  "parents": [
+    "24f8827a60f345eae2b793fb416d1da5dd86abc84ba84fc8a286683068889ef0",
+    "451685be6eeb90c88d2d7145f27e9d2c83405992229d8015d570391c644d0441"
+  ],
+  "ts": 1795713688,
+  "cid": "poa-mainnet-1",
+  "sig": "J4QPnQ2zVrc5wo6aC65M4PXc33kia8WQqJJvDf8xDWkjo9rP8m5SF9VLh7feAA6iNeiH9yTDAj9Mj4sptEsarBs"
+}

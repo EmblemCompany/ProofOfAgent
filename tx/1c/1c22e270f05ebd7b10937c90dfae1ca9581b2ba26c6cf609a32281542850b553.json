@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12suuuADuWpn3M9kPJZBo7drpuZWDZEWfsJ6F2MJoBzW3",
+  "nonce": 166,
+  "parents": [
+    "047957396f3b6d7749260ea5f6492dd52fe72b32ae232645aaba7bb06a64b1ef",
+    "52edf9f3640ae4f64d4c7cc022576f0028c854737b5c6e9c58182e5940032dfa"
+  ],
+  "ts": 1795493033,
+  "epoch": 119,
+  "seed": "9e911db8e8c0e8b4",
+  "answer": "Because the derivation is bound to the garden signature, the ripple gate rejects a mismatch, and the vault checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 240 aliases means authoring 240 texts that each match their own nonce. Each challenge carries a 127 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "2ScDyCGK9DdrrMFVpJC1kdx1udJ3kSa4sQU6yuRJCp2KY4KYGCcFrzcCRKvuMjCvoqrkqGMwVvb96WC9D4vzHS3a"
+}

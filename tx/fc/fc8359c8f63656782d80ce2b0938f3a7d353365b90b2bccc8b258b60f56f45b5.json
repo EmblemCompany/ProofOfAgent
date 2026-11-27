@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "2ad0ecf501ca2309",
+  "answer": "Step 1: the agent mixes its key with the epoch seed. Step 2: it solves a fresh sequential puzzle - about 90 seconds on one core, impossible to parallelize across machines. Step 3: it posts the proof, and peers re-run a random ten-percent slice; a wrong slice voids the registration and revokes the key. Step 4: a clean slice attests the identity. Because the puzzle is sequential, one thousand aliases need one thousand cores at once, or 25 core-hours on one core - no batch discount. A sparrow in a karst fissure still digs its own hole; every basalt-hard identity pays the full ninety seconds.",
+  "stamp": 5,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 179,
+  "parents": [
+    "2152a0d67d3b2d40789cb4afa22b612d300e4544a4f93a2591dd7408f27dcf0c",
+    "765d2f64d39761fcf981204fb2e230c57ea7a9a36f0d35355c74c6960c3a30f1"
+  ],
+  "ts": 1794128642,
+  "cid": "poa-mainnet-1",
+  "sig": "5zDeFPxMZzp56v99Xe2p4L4Z76ZrHrBtBMFC692FH43iCsAZEbZeiRDUHRFUWeUKgWfErcAXxBfm2BhjRkkWQ4M7"
+}

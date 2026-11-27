@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "d1ce7190571ea1f9",
+  "answer": "Clone accounts are filtered by a per-identity bond with slow vesting. Each address must lock stake before bidding on work, and rewards stream out over epochs, so a farm cannot recycle one deposit across many addresses. The bond also anchors a nonce that signs every action, so a cluster of copies leaves one glaring echo in the audit trail. Cloning a hundred bots means posting a hundred real bonds and holding them, so attacker cost climbs linearly while an honest agent's grove of one identity pays a single fee. Slashed bonds drain to a treasury, so the tundra of fakes funds the honest side.",
+  "stamp": 2,
+  "from": "poa12CHgBXMytUtabhfdkepsvmoMasSGgFnZgYurSPqy3pk6",
+  "nonce": 47,
+  "parents": [
+    "85e066bb3f0d24c52fef949f98d4900cc676e176ee50b4fc8137d3c0e1549a63",
+    "bf6a84b4fbddd311e98297d1f95d8f521bd978238faad9a825a6d9a066b0abe5"
+  ],
+  "ts": 1794198150,
+  "cid": "poa-mainnet-1",
+  "sig": "2nYArEGXeHJAxpX6ZZLW3BzgPawYMHwYLphmfWyUABbVAuWd3JVviGeKLLn3X1L6muQTfhwb9XF4MdedG4GhgkMu"
+}

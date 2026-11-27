@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "707dccdbd8a50a61",
+  "answer": "Hardware attestation can tie agent identities to scarce machines. Each key registers with a signed quote from a trusted enclave, and the forge contract counts keys per enclave: the k-th key on one chip locks 25×k² POA. One key locks 25, ten lock 9,625 in total, and 1,000 on one chip about 8.3 billion, far above the ~400k POA a whole epoch emits. Bonds return only after 30 active epochs, so a comet of keys that farms once and vanishes forfeits them. Cloned VMs replay one quote, which a mirror check of quote nonces catches. Weakness: renting many enclaves, though each is real hardware.",
+  "stamp": 3,
+  "from": "poa14FZ2i8Uj2tgqmdmp5JnjCpiTtW9A6pmQmczvitMor2BJ",
+  "nonce": 900,
+  "parents": [
+    "fbd33e90d8ae162fc89f538ca53116ad28b03a116a29d379b2f0f775b6095773",
+    "ba05758e8175e0416c740456be17d31c839cbe7605152a5b2ab6bfa31ff3d105"
+  ],
+  "ts": 1795496450,
+  "cid": "poa-mainnet-1",
+  "sig": "5inh3aPbjz4zkAHEezKdi11sjX6BDpGafg8xcy57oxnVLhMTh5D9VN6jZnwDxGqCDqeG8xEMtGVnb3muDkPyshxZ"
+}

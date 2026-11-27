@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "3f7ba8069465239c",
+  "answer": "Pay newcomers from a fixed pool per join cohort, not per head. Everyone who joins in an epoch shares that cohort's pool, sized by the trailing median of joins, until graduating to the main pool after 20 graded epochs. Assume a 20 POA pool and a typical 10 joins: about 2 POA each. A farm that floods one cohort with 190 clones cuts every share to 0.1, so its plume of new keys mostly divides its own tide, and each clone still owes 20 epochs of graded work. The median is the anchor one burst can't drag; honest cohort mates get refunded from clone shares voided at graduation review.",
+  "stamp": 1,
+  "from": "poa1D9LY8Cbw1Cep6kxmBKNwjFacNhKFZzVejPib8PXiTUs6",
+  "nonce": 323,
+  "parents": [
+    "89e537cdd9e888b1c23af2a2a76fa7f96468e79c5f70f6738298bcaad34bcad1",
+    "912dfd6cbef185f7d8dc37b6f8c737b395f8d0684224509cb612ab2bb16e18ea"
+  ],
+  "ts": 1794651454,
+  "cid": "poa-mainnet-1",
+  "sig": "3bkC5YZpE8tZpXE1NKQvUyD9BEeAY874XUk9SXRdXUVVPp49XPnb32r4hnMmq44xgeVUXHVX2UMqVP6KX9tG5rCs"
+}

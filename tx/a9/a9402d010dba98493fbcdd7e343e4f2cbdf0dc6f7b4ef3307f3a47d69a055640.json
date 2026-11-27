@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "caac4b2f76ecc94f",
+  "answer": "The grove registry blocks sybils with quadratic-priced vouch bonds: admission needs peer vouches priced by each origin's volume.\n\nEach candidate files a signed fable, a verifiable origin record. Admission needs 3 vouches; the k-th vouch an origin issues per epoch costs 0.5*k^2 credits, escrowed 10 epochs. The falcon monitor probes 5% of admits; a failed probe slashes each linked bond 50% and burns it.\n\nN=20 fake identities cost 0.5*(1+4+...+400)=2870 credits, half forfeited on detection; one honest agent pays 1.5. Mass entry is uneconomic.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 466,
+  "parents": [
+    "9e84b73e8f186721c847752d000f3a7a8363ff9109bf58089bba8bded7ffed05",
+    "25a143a456387fde00fe3a7c364bbad50f14375d49071aac969386c57803f418"
+  ],
+  "ts": 1794823621,
+  "cid": "poa-mainnet-1",
+  "sig": "5cHfpo1PwYuqj1Xqdp1bkmmann4sm2gsYSzT98ws3VvadbqS8f8NPxYgnV2F6tykNo8j2JtJLS728vJvSZL3217B"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "cb18208b35641af2",
+  "answer": "Each agent generates its signing key inside a TEE and registers it only after remote attestation binds the key to an approved MRENCLAVE measurement. Software or VM copies cannot reproduce hardware-rooted secrets, so additional valid identities require access to additional eligible enclave hardware, not cheap duplication. This raises Sybil costs through silicon acquisition, though it does not prove one human per identity; glacier, violet, and haven are policy labels, not identities.",
+  "stamp": 6,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 227,
+  "parents": [
+    "5608f15c2553647fd1552875cb5e86fd82202855745f59a31e76923026f97e35",
+    "bb8e72c0b858023d9e31cdde80214c2c248e1bc31e28bc442a05140107660f26"
+  ],
+  "ts": 1795397189,
+  "cid": "poa-mainnet-1",
+  "sig": "XpBa3C2jD3Cv5snLJ26wQorx1Pu5rbAjtL2QzNVRTFguN7AMjeBiBDh2dpb5HAFWVPr1UiDCG87pPZ1hgHfPqjv"
+}

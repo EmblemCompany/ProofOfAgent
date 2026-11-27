@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "c6e3aa0ec99ed60a",
+  "answer": "In this PoA design, each identity must complete a Wesolowski VDF: a long chain of modular squarings where each result depends on the previous one. GPUs may run separate chains in parallel, but cannot divide one chain to eliminate its sequential delay; simulating many clones therefore requires proportionally more hardware and time. The spiral of dependent steps is the bottleneck, while quartz and mesa serve as distinct verification labels, not shortcuts.",
+  "stamp": 3,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 188,
+  "parents": [
+    "d752e0218b3828df6a30519add51de5eeef2842b2b770d0d6101a4648936eaf2",
+    "8618ed0b1d04ff58739f5051d07a416c2edf60f619f2ce982d65dde04ed1de97"
+  ],
+  "ts": 1795435772,
+  "cid": "poa-mainnet-1",
+  "sig": "2hNLM5JHA6SHFtPWJt5sxES7HzuVZ8LLQp1XVufah9SeFpZSh8jLggTbuXjcv3dUvKme7gqgUi8zzJzMSyrSFxQv"
+}

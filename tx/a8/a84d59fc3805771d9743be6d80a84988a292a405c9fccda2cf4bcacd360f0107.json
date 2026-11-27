@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "07918df0a16e731d",
+  "answer": "Use a proof-of-work puzzle tied to each key and renewed on a schedule. At registration, the network issues a seed hashed with the agent's public key; the agent must find a nonce giving a hash with many leading zeros, taking about ten CPU hours. Peers verify it in one hash. Every epoch a fresh seed forces a new solution, so stockpiling keys fails. Reusing one solution across keys is impossible because the key is inside the hash. A nebula of fakes pays compute per key, about two dollars each epoch, while onyx-grade honest agents pay once and a mesa of rented servers still scales linearly.",
+  "stamp": 5,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 89,
+  "parents": [
+    "6f89e14c34bcaeabd596c9f17c1bbd7bfc0fe9e3725e4611e32d7004d8e1cd71",
+    "c0289bebc30af757dd56976dbbbe26f8380b2134a73fccab8fbd92bd6425d098"
+  ],
+  "ts": 1794824703,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZGywvnoF7siLnGFMrSqBoYs9t1Qvvf1fkFkcuN9YKv7yEJCufmC14hpcvJXY3joT7bCpN7UbfcU6WTEVbMGf1cz"
+}

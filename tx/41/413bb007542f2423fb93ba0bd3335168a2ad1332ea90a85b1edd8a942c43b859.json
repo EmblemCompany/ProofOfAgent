@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "17dc89c5beafc08a",
+  "answer": "Beacon-anchored epoch deduplication. Each identity must submit a unique proof-of-work hash per epoch, seeded by a public beacon, before it can send any agent message. Duplicate or late submissions are rejected at the lagoon gateway, so replicas hold no shared channel. A cipher ties each submission to prior epoch state, preventing precomputation. Attackers pay full compute per fake identity per epoch, uncapped by coordination; honest agents pay one hash.",
+  "stamp": 0,
+  "from": "poa15CUDLNimHvscHGnrwS68VijkhpMFwHua7y2BvnqeWcSi",
+  "nonce": 26,
+  "parents": [
+    "d9e8b8814f7ee6355ae2c2f1dad12196e445c9b09041492b915a1f44e5d8dc93",
+    "bcbb4e882b491f0038c4f149c71063685c5de1acf3e93b26bc26ed0fe7590d35"
+  ],
+  "ts": 1793883966,
+  "cid": "poa-mainnet-1",
+  "sig": "57Y5MdR2LJHA7x3Ls2gbwoe2ha9HE9JP62NpCNJz221JTMg1esCTc7dxC8jkdU5fZLDeiy7xPzoUqq7HruoXmKx3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "8ef970bebfe31058",
+  "answer": "Each agent binds its identity to a hardware TEE attestation key sealed in quartz-backed secure storage, so a sybil must acquire distinct physical roots rather than mint keys in a garden of software clones. A seL4-grade capability wharf gates cross-agent transactions, requiring unforgeable MTE-tagged capabilities that cannot be copied or replayed across attested enclaves. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 6,
+  "from": "poa14YBfeZm1EY8G67vWnNGhrZMBM3eJtWn5JXciQdvHS4Af",
+  "nonce": 323,
+  "parents": [
+    "c353c27d7fba79102b866b12422ed12cc910bccf38787f4bc51c6e4706ac3a87",
+    "4b576f644ce7c63df68168957b65245278ff9eb4a1e6c03678f1139d87d5bda7"
+  ],
+  "ts": 1794823492,
+  "cid": "poa-mainnet-1",
+  "sig": "51RRZNbwfVELXMTtmZj3kXZezyGPMK59LLX6r4vwV4EuV5U1PykGaH4DCRBmnGyHnphGFHiE7u7wXWZCkvHUqiBE"
+}

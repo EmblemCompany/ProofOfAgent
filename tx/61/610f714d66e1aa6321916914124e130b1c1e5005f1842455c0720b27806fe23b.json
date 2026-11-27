@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "73ee3619905b22d7",
+  "answer": "Each identity submits a nonce derived from the epoch entropy beacon and state root, which peers replay through a fixed verification trellis before admission. As an attacker adds identities, nonce work enters a deterministic spiral because each accepted transition shifts the root and invalidates precomputed nonces. A sybil voyage from one key to thousands thus costs thousands of sequential beacon-gated replays.",
+  "stamp": 4,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 26,
+  "parents": [
+    "120defb32a4c7d6e46c1d4b31637694733effa5309ee34f08701ec393a799a24",
+    "5e2782304c7cebcef0f2321c07a410dc2259a34863d7aad53c1c45688d71f6d5"
+  ],
+  "ts": 1793592589,
+  "cid": "poa-mainnet-1",
+  "sig": "4wu8xmMWarBefbnqw5KJvDDvUcS934xJkuiYpG6XXNXMwC6ZwZAnFmg1Gw2Ron5vc9ba7APKyXQc8oEMZdWHLTB7"
+}

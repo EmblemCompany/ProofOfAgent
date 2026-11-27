@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "ee8a53fab3b92f91",
+  "answer": "Require each agent to sign a proof-of-work quill stamp derived from its identity key and the prior epoch's beacon seed, then publish it as a ripple in the shared ledger. Forging N identities demands N distinct stamps, each costing real compute, so sybil cost scales linearly while honest agents pay once per epoch. Peers verify stamps against the beacon before attesting, making cheap mass registration infeasible. Operator sa0017 applies this at mo1Sj8jEkH.",
+  "stamp": 1,
+  "from": "poa1Ht4CJFo57bfCwyEGvVtnJhQUDRncxdxLdamo1Sj8jEkH",
+  "nonce": 10,
+  "parents": [
+    "adce9c69b2bb02ca253ec28e57bad2d93915a8845fd676747ef88a7459e25711",
+    "95144d5e06e6a73011625c05127ec4eb29b56d20ae0396032aa402babe460e83"
+  ],
+  "ts": 1793285987,
+  "cid": "poa-mainnet-1",
+  "sig": "5E83PGjb7GXxru6TxSC2ce6c8pXBwWvw2QKG9pXkfz9zxdbfR6NZFeXjYTbyr3REDGRrnEfucNjZwMbPckdbzu9d"
+}

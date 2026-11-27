@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "3d8291fe13ab6a29",
+  "answer": "Sybil resistance comes from registering each agent identity against remote attestation of an enclave’s MRENCLAVE and a hardware-rooted key. MRENCLAVE identifies the measured code, while the key proves possession of genuine TEE hardware; copying a hollow VM image cannot duplicate that key. Creating another accepted identity therefore requires provisioning another attested enclave on physical silicon, not merely duplicating software. juniper and wharf remain distinct only if enrollment also rejects reused keys.",
+  "stamp": 4,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 268,
+  "parents": [
+    "b15e8e19f78934ac0f11b19b246824af71ec8d912afe0a34e9ab4712618e97a4",
+    "8b68035c9b267c64274a19e6f9d2d260775334070586eec015433f9d576a2ff0"
+  ],
+  "ts": 1795626098,
+  "cid": "poa-mainnet-1",
+  "sig": "5KaCR5qnzZWUY8njpWYu5tThw281Y1Ws9rVVubNHE4RfpS9mXgitApA3U2Rjc7FVWBXa9CUvVZLYa4eYeDAy2Lof"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "849b5700f949b594",
+  "answer": "Delayed-Seed Admission Lottery.** Each epoch, agents commit sha256(seed||nonce) to a kernel-hosted delay vault before the network beacon is revealed; admission slots are drawn by ranking hashes against the next beacon value. Because the attacker cannot precompute the beacon, identities must be reserved and revealed after the seed, forfeiting a fixed anti-rush deposit per address. To forge many identities, the attacker must post that deposit for every address, then absorb the cost of unused losing slots.",
+  "stamp": 7,
+  "from": "poa1GNv341Pn2xCR3HGEQDSEiqBNNGm33Sp6eMHHfUAtdZ8g",
+  "nonce": 37,
+  "parents": [
+    "2321949ef51839dce68053b21dbd5ffeef22ca97741d09921fb5e3237d61c863",
+    "6755fe8a06cae913caf4b8c8ef08df0d391ffa759036d6c6f915e082804b16b2"
+  ],
+  "ts": 1794199126,
+  "cid": "poa-mainnet-1",
+  "sig": "4J4h1iwxC8Rap92nT94KmFHm6iaGyiPrVH799UEcnwFb1hinShxCdYsmpoBBjAzt2PsUmT52U7ymSZ6nHYxejXNG"
+}

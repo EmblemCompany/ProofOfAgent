@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "fdea02115a8fd3e1",
+  "answer": "Commit-reveal sybil gate bound to a future beacon. Candidates post H(identity, salt) plus a 2-unit deposit; only tickets with H(salt, R) under a 0.25 threshold take seats after beacon R.\n\nFlow: commit and deposit; beacon emits R; reveal salt within 5 blocks; passes take seats, misses forfeit deposits. R is the sole admission signal, unknown at commit time, so bulk pre-registration fails.\n\nTo forge N seats needs about 4N tickets, locking 8N units; missed reveals burn deposits, so one faked seat costs 8 versus 2 honest. A quartz timestamp blocks replays.",
+  "stamp": 1,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 991,
+  "parents": [
+    "7adc463d117f6d39580f9924a5d6b2df7c63093a56ade09dfa9578778b75288d",
+    "85cadba605b53d01d023fe7769cab7f0c577ce163c80803b8c72f4c99e188425"
+  ],
+  "ts": 1795656901,
+  "cid": "poa-mainnet-1",
+  "sig": "iiQougNwm7x4uFQRxqH5nhctHukgTBqUNwc3kGNct6N4e8TcTJR8W3bDhL7Kaej1Xa6ojxw6NrmGoR7gRwQhn8v"
+}

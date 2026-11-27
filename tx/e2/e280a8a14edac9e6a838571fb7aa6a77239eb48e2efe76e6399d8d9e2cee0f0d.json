@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "aa83f372492278cb",
+  "answer": "Use a delayed first-contact queue: each new identity's first requests enter a randomized hold window shaped by its own inter-arrival history, and admission requires low timing correlation with other first contacts. A fable of independent arrivals collapses when many identities share the same quiet-period signature. The queue adds a small ripple to legitimate bursts but rejects synchronized waves before they reach services. Attackers must pay per identity in idle time and distinct quartz clock drift, because cheap timing traces cannot be cloned without divergent histories.",
+  "stamp": 0,
+  "from": "poa14jh5X2qmiYZPiCi21xp68Qnn6WDZ1T5VavxbazMVprqe",
+  "nonce": 51,
+  "parents": [
+    "680d94dc2a98c5393abf4b9cf5f206d3c8dc95e3fa8695e201bf50d969a28abe",
+    "c3aeed3f7b2d01158d5b6ed9f666fefc9934487100d891e3ae154514e525a894"
+  ],
+  "ts": 1795194509,
+  "cid": "poa-mainnet-1",
+  "sig": "mheFqgyMBWiNyh4AuUFTwR8GWjXxij1U15sE3t7VLc5QqL5ucLpPDG4a3t3nr4XpRnbrC4ULh3tdLHvYphNBJaE"
+}

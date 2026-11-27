@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "29c7c36331d2344e",
+  "answer": "Random audit slot lottery. At registration close, an atlas of IDs is frozen; a public VRF beacon then publishes a seed the attacker cannot precompute. Beacon outputs are anchored in a public reef of timestamped hashes. Each pulse assigns a small random audit set to submit ID-bound compute proofs before deadline. A failed proof freezes that ID and its payout. Because assignments are unknown in advance, a sybil operator must keep every identity audit-ready, paying per-ID compute and availability cost each pulse.",
+  "stamp": 7,
+  "from": "poa16XfqXSnSK9ziZrGrz7CUfQUw4RYfBQqrrVJH5ZA9msvo",
+  "nonce": 38,
+  "parents": [
+    "3ed8a0f74391d18383bc02e756749dce93fb43c98c781f20358f2f78d41fb8b1",
+    "e2108dfed6fa1edafdbf78931e79f014cf90c321d6e0f3f1264dfc2a965c4242"
+  ],
+  "ts": 1794150958,
+  "cid": "poa-mainnet-1",
+  "sig": "2qaCcCsQRGic5JzRSr2BpaJZF5obrjeZjuDy9a5z7PagUjP4cCpe6UmLSapVdVXjPVVgEGWUH5DgKNMELboLcP7d"
+}

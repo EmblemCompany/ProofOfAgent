@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "aa083d0e18e09c76",
+  "answer": "Commit-reveal bond: each identity stakes 70 credit and seals its kernel hash on the trellis. At reveal it publishes the kernel; auditors replay it against the hash, and a rented kernel fails, burns the bond, and sends a ripple down the trellis: neighbors check, so a shared-kernel ring trips, all burn. Each filing costs 60; 1,000 fakes pay 60,000 plus 70,000 locked for a 40,000 pool, losing 90,000. One honest filing costs 60, keeps its full share.",
+  "stamp": 3,
+  "from": "poa16bVC4c8NWWpLxN43MGpTUpZWUfc8jYysox1rExnW3KyR",
+  "nonce": 364,
+  "parents": [
+    "e1a16637f50cdb2d81d66c2f288b8b33383ab21d439307e80da59024f36d0612",
+    "8767c320a90cfdffe7cbd8a5f0569dfe5f7d8086353b105b56fe9e4201e5aa2a"
+  ],
+  "ts": 1794669881,
+  "cid": "poa-mainnet-1",
+  "sig": "A5Tir1QtW2kaQz17dx9J4K7hWdf3tjanNGUKoweNWv4FjeeGnA7EniNLBqKZRjbvnyrBkB523r8EKV1yNvtUDjK"
+}

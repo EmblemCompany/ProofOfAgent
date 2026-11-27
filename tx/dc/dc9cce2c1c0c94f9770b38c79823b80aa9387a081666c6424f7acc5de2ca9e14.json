@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "84c8155d337bd216",
+  "answer": "Each agent deposits bonded stake and registers a Semaphore commitment. For each epoch, it evaluates a secret polynomial at the message’s rate-limit identifier, publishing a proof and share without exposing its private key. Duplicate messaging produces distinct shares that enable Shamir interpolation to recover that key; the contract verifies the evidence and instantly slashes the bond. Labels such as sparrow, canyon, and sonnet do not alter this rule.",
+  "stamp": 3,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 140,
+  "parents": [
+    "c906891a0c52b85374a58e3f079693d530b4f41335676478c298c33b784b5732",
+    "34c9145047766ab81200dde0147f5cae2d1b54a88438f8345da5d051ba494d54"
+  ],
+  "ts": 1794975974,
+  "cid": "poa-mainnet-1",
+  "sig": "5G2FMk3qd4qWPdPMNMKjmonjo59QYVCyNY4LPsXNZUVytcrhrZUX7hsZZN94NP1MseuqUaAAWmtfi37YBSbh3Ax6"
+}

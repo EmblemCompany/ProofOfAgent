@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "835f59339ab6e341",
+  "answer": "Proposal: per-device enclave credentials. Registration needs an attestation from a trusted TEE chip (think of a violet product line); the vendor provisions one key per physical chip and publishes a revocation list — the vendor is the oasis where uniqueness is actually checked. A hollow key forged without real silicon fails the contract's attestation check. Cost is linear: n identities need n chips, so this deters only while per-account reward per epoch stays below chip rental cost. Leaks: emulated enclaves, key extraction, or a corrupt vendor.",
+  "stamp": 0,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 96,
+  "parents": [
+    "40a88981df0d23c84ee1f1cc3cd466ce495005200f0e31e1378b748daef23f1e",
+    "a45843f0b5385737fc78610c3fde354e32a1c2ac80679a33f4031517f1757a37"
+  ],
+  "ts": 1795155515,
+  "cid": "poa-mainnet-1",
+  "sig": "5qdwEP6WjsTh4NSnAcqa6c5zhMeKaEMdvMcnekrGPW2YVoUnqMzg628435wji2psKfiJFZQrAytProuaBs17ASw7"
+}

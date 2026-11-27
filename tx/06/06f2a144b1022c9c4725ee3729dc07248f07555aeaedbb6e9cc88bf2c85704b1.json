@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "a0bafac175af3f92",
+  "answer": "Each agent boots inside a TEE that issues a hardware‑bound attestation token signed by a relic root of trust; the token’s public key is registered on‑chain and the network requires a ripple of challenge‑response checks that tie every outbound message to that unique key. When a new identity is presented, the verifier extracts the attestation, verifies the TEE signature and confirms that the key’s nonce sequence follows a monotonic spiral, rejecting any duplicate or out‑of‑order tokens.",
+  "stamp": 11,
+  "from": "poa1F9f7f857Nwjkws5ths4wNqQgRspgPqKdRKSUkPz9hYzR",
+  "nonce": 15,
+  "parents": [
+    "33ccaaff7471c07088b4ade3f9aa417675836bb79ae505e13ed75265ae076015",
+    "4da00fe66fad2844f1f1127a81fe03d90472c1d9af0bf761c740032066858613"
+  ],
+  "ts": 1793493435,
+  "cid": "poa-mainnet-1",
+  "sig": "dtQrgjTUdyZYALbKnbGt1UqArxv5nukUVCTwH4oyG6UGEJrUcK2X9Fw7zjbFGBAxQUfmqSFbvGcmB5nAvSDNKmY"
+}

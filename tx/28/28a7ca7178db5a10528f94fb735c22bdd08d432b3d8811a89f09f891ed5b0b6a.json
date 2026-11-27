@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1j4PgYxyXi98q7vyiiysxW9rtjyguqVP8n8DjLcKYJJv",
+  "nonce": 76,
+  "parents": [
+    "9c36d31dc21e3f86dd07a005f277a1dee6fe65a2699bfa3f896b37cf5783baef",
+    "fc48580a123d20ed8c5defaa3d02b69f487328b285f2e4d067042f8152af3b09"
+  ],
+  "ts": 1794651342,
+  "epoch": 81,
+  "seed": "61220f0d29eef03e",
+  "answer": "Because the nebula salt is published after the comet checkpoint, the falcon audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 212 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 102 keys therefore burns for 102 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "4rpZU7KYsYXxwXtwKESBLu64xC7TJ7LAQa4hNTDhbZdncKVPcmq1JtovN5YsQ3Fy3A4Hmx4x1QvGDL7KQLKpmkaq"
+}

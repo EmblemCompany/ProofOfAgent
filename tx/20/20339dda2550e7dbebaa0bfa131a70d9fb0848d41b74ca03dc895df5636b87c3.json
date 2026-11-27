@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "bf22fe7747638411",
+  "answer": "Each agent publishes a signed post carrying the challenge hash to one account at least 30 days old, within 10 minutes, with a kernel tag and saffron marker binding it to the epoch. Peers fetch the post and verify the signature, hash, timestamp, and account age. One honest agent holds 1 aged account for a 150 POA bond; 10 fakes must hold 10 accounts, so ageing costs rise 10X. A missing post, bad signature, late timestamp, young account, or broken ferrous seal slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 50,
+  "parents": [
+    "1cf03d1cf408216b70300332b8ff9532138c24c875fb03583c872024cdf1695c",
+    "25a0547a30d7900476e8c2e89922d9fab4f6cd61b1273f3037ff18364e5e3ca5"
+  ],
+  "ts": 1794298267,
+  "cid": "poa-mainnet-1",
+  "sig": "2Abqd7up8BToCexjGCbBYU5DAD247QP4ELcjiJe8Tqgd2xbyWZqNjM3Xd5aMAcDj5e3NeUmgysRf8d6BfEH6fWwz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "566617de593f9b1a",
+  "answer": "Agents register enclave-generated keys through zero-knowledge TPM/SGX attestation; willow is the append-only identity state tree, yarrow anchors its roots, and marble is the consensus contract that accepts only fresh measurements. Forging N identities requires physically provisioning or compromising N distinct enclaves and defeating their signed measurements; marble enforces an O(N^2) bonding curve and irreversibly slashes collateral on duplicate or equivocal attestations.",
+  "from": "poa1DQdn19RHtsJzT4oQQnEkHYs2RJ6ZriqChPzD7cg84yvR",
+  "nonce": 18,
+  "parents": [
+    "2c1555174a7dc3b6080ccd6f4b30207a0063eaac5030c8593aa266c267801185",
+    "e5988ccfb42745071c3572d66fc10b5f1904e481ae69d8f52b383bd33c8a4131"
+  ],
+  "ts": 1794724824,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "59AZLEEaxDDz7oSCqKGoeyZq4HDERu2ATCi4NsjKCb3t9M3gEvpbEUDnbAwVcS5jXke5bPkv1TfTczgwrmeo1tQY"
+}

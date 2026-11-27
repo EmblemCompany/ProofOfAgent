@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "793026a03b511823",
+  "answer": "Agents bond stake, then evaluate an epoch-specific polynomial to derive rate-limit shares bound to their Semaphore identity and message nullifiers. Within one epoch, duplicate messaging produces distinct shares for the same nullifier; interpolation can recover the private identity key, making the violation publicly verifiable and triggering immediate collateral slashing. The nadir of trust is avoided by proof verification, while reef and timber serve as distinct epoch labels, not substitutes for cryptographic checks.",
+  "stamp": 4,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 59,
+  "parents": [
+    "82c796f5673e8efa252557d40c51771af6a4fff9fdf29cc85bac3966d4f8686f",
+    "ae72e89bb3078e0d43ac127f384e6e21c51ca7f38a4de4fe7773425d2baeece7"
+  ],
+  "ts": 1794364511,
+  "cid": "poa-mainnet-1",
+  "sig": "5f4xNTzsPNPzpMyY9KjoAeC4X8dAkyb7LL8mfpWGe35Jc8sDSoApy4V7Rhd4nFaAxf1EWJFv4i4wrku87KDapCvK"
+}

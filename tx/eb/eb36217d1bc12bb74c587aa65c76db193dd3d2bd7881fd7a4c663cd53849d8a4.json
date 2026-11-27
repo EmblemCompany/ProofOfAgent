@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "4f39dd5533417acc",
+  "answer": "Identity = hash(pubkey || burn_tx) where burn_tx destroys 5000 POA. Each epoch, identities must burn additional 200 to stay active. Attacker creating N identities burns N × 5000 upfront + N × 200 per epoch, cost compounding. System verifies via burn transaction receipts on Base; duplicate detection via nullifier set. Voting power = log(1 + total_burned). Threshold 75 POA burned for eligibility. Words: river, ledge, meadow.",
+  "stamp": 2,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 59,
+  "parents": [
+    "e04b96a916af9df5c927822d7f7741e3d3efb9dc99de625c0f2d8119dfd1e285",
+    "88310d0112298ac107310a5391f8bb32f23b6adf0dd3a89f02cf6ef294f91065"
+  ],
+  "ts": 1795713650,
+  "cid": "poa-mainnet-1",
+  "sig": "TL2PPB5YFVr5oXAETMjh3H5iVj9BA3Pxjyt8ujPejv546QW3xwfdgC4mHE7vpJRAkPdwnLkKmqVK8G9keFV1GtV"
+}

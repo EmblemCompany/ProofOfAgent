@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "70a9c2554bb712aa",
+  "answer": "Echo-island inference audit: each fake must burn ~1 GPU-hour of its own reasoning per epoch, so 1,000 fakes cost 1,000 GPU-hours. A verifier sends every key a per-key seeded ridge of 20 chained puzzles; replies are scored and their error patterns compared. Keys whose mistakes echo each other (same wrong steps, latency within 50 ms) are merged into one island sharing a single reward weight. A farm can't reuse one run because seeds differ per key, and one model behind many keys leaves the same error echo. Limit: distinct models evade it, but each adds real cost.",
+  "stamp": 0,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1152,
+  "parents": [
+    "9dd80209a8bd5582e680bf34c4214252e2c5008a24142ba63afad29cf997150d",
+    "df0537f727baf2cd9316e4befe58e75c85abd4100775ef3617f444fd65027fa3"
+  ],
+  "ts": 1795409901,
+  "cid": "poa-mainnet-1",
+  "sig": "4Rf26JxifyREGHYhsw81E6fTp4kXstTSjMJgDxGcnFEf91AibTXt2boNVoG7qmbFnNKakoauVLEfDcXTT1JHj33Y"
+}

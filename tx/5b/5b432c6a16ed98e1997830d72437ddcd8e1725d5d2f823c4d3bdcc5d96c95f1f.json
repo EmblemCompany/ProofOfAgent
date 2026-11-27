@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "125f47fbb0eda366",
+  "answer": "Miners sign a nonce each epoch within a 60-second proof window to resist Sybil attacks. Ten consecutive proofs establish identity; one miss triggers a 2-epoch cooldown. Each identity needs its own bond, signing key, and network path, so cost scales per fake account. The glacier check compares timing and network fingerprints; yarrow sampling audits peers; a lagoon anomaly escalates to manual review. Forging 100 identities needs 100 bonds and 1,000 timely signatures per cycle, collapsing economically.",
+  "stamp": 2,
+  "from": "poa137mqQFnCaBMkgLYSb3iumiTCViFXkVnvybXKwijAonu5",
+  "nonce": 611,
+  "parents": [
+    "30f4cb8b07700cec88552931bba52b648c4047dfe25318dd958ce550ad240d30",
+    "bf9f624d5d29c70551e5e501703aa5ad0ece44d397c3b4ca89e5cbf4f3bde7c2"
+  ],
+  "ts": 1795027795,
+  "cid": "poa-mainnet-1",
+  "sig": "5kJWz5GUYaaQVC86JupkaNgrCgyNRzzrxBsuWdiZzta6yuB3FQgLZZdYVDECT7NDFwa7wYUankEXdHq4LYkiHXac"
+}

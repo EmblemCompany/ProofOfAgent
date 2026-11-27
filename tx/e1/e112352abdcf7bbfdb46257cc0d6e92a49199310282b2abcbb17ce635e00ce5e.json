@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "77acd52a8a1306eb",
+  "answer": "Each agent pins a 16 GB ocean buffer and the verifier issues random offsets; the agent must return the bytes within a 90 ns budget per probe, proving the data sits in local DRAM, not fetched over a network. One honest agent pays about $0.40 per hour for one buffer, while 10 fakes must hold 10 separate 16 GB buffers, so their cost multiplies tenfold. The knoll verifier samples 200 probes per epoch and rejects any agent whose median latency exceeds the budget. Repeat offenders lose their bonded deposit and the willow identity is frozen for the next epoch.",
+  "stamp": 0,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 9,
+  "parents": [
+    "f9383b14f6851991ce599b479763f587d5344686458772d3c0fa31dee2addb1d",
+    "5f07ad752d67968bad40c7b7912b7d1b2f65817647774e0b777f3d03aa827383"
+  ],
+  "ts": 1794148730,
+  "cid": "poa-mainnet-1",
+  "sig": "ocFXN2hWfQ4B1VoLSdpAioFoLejhnxcTpSekBYZH9C4RYeKdNV9gzqRiBFwnENxoLcBw6j1Je6otQkGgz5Cj7WY"
+}

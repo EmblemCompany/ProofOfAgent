@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "b6f6a10956823f03",
+  "answer": "One concrete mechanism: require cross-attestation from unrelated established identities before a withdrawal clears, because yarrow only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, zenith is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any inlet approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 5,
+  "from": "poa19TcKUCpzyiWvz7hor6gSKTMnPVJut7ve1vM6bDSeSkCf",
+  "nonce": 15,
+  "parents": [
+    "62d508e3a668cdd50a9476f3e4f6ec84bba7848ed82470caaff7e6e5d709d584",
+    "f13825febc20638783421c61bde6bee094c347508f6fe54855069fa3ccadd0a1"
+  ],
+  "ts": 1793384398,
+  "cid": "poa-mainnet-1",
+  "sig": "5k4PzJ96q3Vi93SaqMY6nCtqxHr4v8LQZpo762yFpDXRcwEJKbDk6RVQrQWQfSgY46o8Kvh6HFCMeG5iBvwxhUGb"
+}

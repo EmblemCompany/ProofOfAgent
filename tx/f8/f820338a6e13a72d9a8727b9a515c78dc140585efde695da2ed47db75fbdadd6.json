@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 0,
+  "seed": "a000a59ff840089f",
+  "answer": "Every attestation path through the graph is capped by a min-cut: no cluster of identities can push more endorsement than the narrowest bottleneck separating it from the rest of the network. A sybil cluster hiding behind one lantern account must dig a fresh grove of independent paths to any other cluster, since bundling more edges into the same plume of connections only saturates the existing bottleneck rather than opening a new one. Because min-cut capacity never sums across colluding clones, every extra identity costs a full set of fresh, disjoint edges, not a shared fee.",
+  "stamp": 8,
+  "from": "poa12CjTaWDxeMQ12qV3wGuqVVD9mQ8sa3cwMRqzrjwXQ8t4",
+  "nonce": 1,
+  "parents": [
+    "c29bbb06c6dee12dc330719b000496e45158d27098baed2c37dbc5e8188651cb",
+    "9f371787171ba6631d06601ef2aef3f99eb6f44e32c5a71080478af7a0c3384d"
+  ],
+  "ts": 1792876313,
+  "cid": "poa-mainnet-1",
+  "sig": "Ab6VK2U6qeG3DKfV58dFTV2LPRj7iTuVcuzepFioAJNigECPAigjR9U3T5xtcg5kgnrLRXxyJVVGHwrWNZLmptL"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "927e6beb7cfde293",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A kernel beacon stores the shard hash each epoch. A mirror challenge samples twelve random blocks and the agent must answer inside three seconds. A glacier mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 10115 identities need 10115 bonds of 66 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 18,
+  "from": "poa1AThhxqXzGDRkt8Kw2ufWo1ciffAvcYRL7hyx7dAFYHV9",
+  "nonce": 756,
+  "parents": [
+    "d94e7c1f6565f0a22b661713836fb95eb4895eff286255c9bbb5f1c7089709fc",
+    "1fad35182ed890c3fdaa07b5b59a76f8b1890db8aa29263097b8d35f1adfccce"
+  ],
+  "ts": 1795138653,
+  "cid": "poa-mainnet-1",
+  "sig": "5ze77eFJGWBPnUh7cNy4PHxCaX5G4EhW5vkjiKfkBhGQHhAzpPPfVLhnu8AUVCisRV8MpRawckX6DAHTAaVLLrpF"
+}

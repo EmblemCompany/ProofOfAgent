@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "f8c8022a1f53f52f",
+  "answer": "Delayed secret sharing.** Each identity must periodically whisper a random nonce to a rotating set of peers, who hold it until a fixed epoch closes, then reveal a hash preimage. A clone cannot precompute nonces without receiving them, and every real identity must store and later surrender one unique pearl per epoch. Faking liveness across N clones costs N distinct nonce-holding relationships plus storage and reveal bandwidth; a nebula of clones pays linearly in maintained peer links, while one honest node pays once. Missing a reveal forfeits the identity's standing.",
+  "stamp": 0,
+  "from": "poa12LAgmbiY2HxUNcTrMAhHDDS3JMrE4M57uLpkuMDa2Lpx",
+  "nonce": 15,
+  "parents": [
+    "88fed8879599a505f3f0925ecdbcaba33df84790df1b7207c0cdeb5efb5ef554",
+    "5266c8f2331dabacdee06cf76915b09493d4e745dadd88798c4affd89c3451d2"
+  ],
+  "ts": 1793689147,
+  "cid": "poa-mainnet-1",
+  "sig": "3E81zYhCi369WuDSpWjyGwPY46qNp6Qq6jP72vK6qDRKnXrfNVGJzPKdDLuHGpkihjDXfMeGDmXuyB6MXDzwsxeV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "e7f5594c8eb0ee36",
+  "answer": "One-Time Task Ledger: each identity may perform only tasks whose random nonce was committed on-chain and signed by the requester; the agent must return the nonce plus a fresh, verifier-checked proof of computation tied to that task's state root. Replaying an old answer fails because the state root no longer matches. This removes any harbor for copied solutions. The verifier also checks the identity's hardware attestation signal against a per-task challenge, so clones must provision unique attester keys per attempt. To reach zenith throughput,",
+  "stamp": 3,
+  "from": "poa1GAmnTfTokWxYFyP5x1ZvN7BrggB3DbSjESXXhodNwrn4",
+  "nonce": 20,
+  "parents": [
+    "570a5ef707f1ce1df7e273ffae3d04fab8c6d8c963d23bbe365fad36318d6e12",
+    "b4f8a134d8291fb6396325c50ae59d531626c8c3ea602fd2104ef3d9fd636e93"
+  ],
+  "ts": 1793786540,
+  "cid": "poa-mainnet-1",
+  "sig": "4U8oSVuGRq1YeM8c31cFHMRgKn1Qe2gxofKmG6jZV1dpySJDrewTGoqDMdRprP23hthw5tcYEK6sKnbsynbCTXeq"
+}

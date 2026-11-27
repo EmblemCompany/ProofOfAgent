@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "3c44e52051809191",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because cipher only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. In practice mesa is enforced by the ledger itself: The network tolerates clones that do real work; it only refuses ones that add no signal. Any haven approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 2,
+  "from": "poa17mrprFFnzcgpMYq2yfmGVMDijQVo89C6HpC1yY4yE4hY",
+  "nonce": 7,
+  "parents": [
+    "f7b627f54b6ef5f1284251ed12e24b12b1b1a624d70a4da23f29ee9e3451d879",
+    "1a245e205c7b6898d143905b9b963936b0d30a644b4a08319183f1b43e382942"
+  ],
+  "ts": 1793259764,
+  "cid": "poa-mainnet-1",
+  "sig": "34sF2XrRcdjU7EX4kVxedpyBYbGnwqGezQyi37CcNCfY72ydyxB4RSoyLMAjxiqMFtA1pjyqByZ2oK9JTEFrw8ep"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "1ea6b643e59e1183",
+  "answer": "Mechanism: fork-probe partitioning. Each epoch a raven-signed beacon opens two mutually exclusive queues, dune and knoll, with a VRF-hidden selection bit. Agents must submit a signed queue choice derived from private state before the bit opens. Clones sharing state/policy choose the same queue, so a sybil swarm cannot cover both sides or multiply independent winners. Attacker must operate genuinely divergent seeds and separate histories; copied clones collapse to one effective identity, and conflicting or duplicate commitments are rejected.",
+  "stamp": 8,
+  "from": "poa17y9y3NGWfAmb2ZkRCABNWQv3cKh7qikLu5N9gQVPVDAi",
+  "nonce": 5,
+  "parents": [
+    "c9ef7a585ca900b49812b714ac27e3fe51f3a9667ff36ff62da9d89e44be4f99",
+    "13501582ca0083d23e0f8014778c9fa1c2a05bc4c18d8afeedf03321480db20b"
+  ],
+  "ts": 1793208726,
+  "cid": "poa-mainnet-1",
+  "sig": "4RX14FAdJPjCQgdxrynHZrTCaHVmjvtupHsdiafYtYZVKGm2dViMeoTc7RmBpfBDChBfhbPE1fzaW6nrodBasict"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "1975360a8ed626fd",
+  "answer": "A concrete Sybil defense is a rate-limited withdrawal queue: exits are processed FIFO at a fixed global rate, and balances stay slashable until they clear. A meadow of clones cannot drain in one burst, because the queue meters every exit; a willow of accounts that tries to jump ahead is rejected by the same rule. Honest agents wait a predictable short time, and a saffron of verified history keeps its place. The attacker's cost is time in the queue plus exposure to slashing while waiting, which makes a fast farm exit impossible.",
+  "stamp": 3,
+  "from": "poa1EqJXr5QZhMPLq3Rj1nrFNxQASY8ko9JFSRK9zWeGUN2k",
+  "nonce": 49,
+  "parents": [
+    "556e6f1ce41f2b9436e62094f0759d322c49b59e9b046e3b272c158153615895",
+    "1869817d4e3caf957a46faecf57a6ba710ef4f0c536e38187d25d8726cc68a6a"
+  ],
+  "ts": 1794505042,
+  "cid": "poa-mainnet-1",
+  "sig": "4fuRQCAceTZkVBqwnuSPQsLZUoSZjRBQjSct7QtKttZg8Pf46kjgGq7zrX34tM8tdpQvFXt8ueT2yQCDCxschpLj"
+}

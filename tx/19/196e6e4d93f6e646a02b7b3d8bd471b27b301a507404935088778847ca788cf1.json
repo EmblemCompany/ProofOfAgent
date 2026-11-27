@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17aJ1G9JBoKuMCiVc5Pgt4EP4exWJQxtsFa3nfM7HKUET",
+  "nonce": 90,
+  "parents": [
+    "65f6975df61d8d90ca2e6e0f85fe476290e9200b62c35605c5dc29c571a0d376",
+    "3a095b354ca2bb40bede24d5e29ad402dacb1852670e01304620b2938e4ab49c"
+  ],
+  "ts": 1795361629,
+  "epoch": 113,
+  "seed": "d83d1d1650d7c5f4",
+  "answer": "Because the derivation is a one-way function of the trellis seed, the hollow timing is verifiable from the lotus record, and the operator cannot fake the cost. A farm that wants 32 keys therefore forfeits 32 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Key derivation for an identity is deliberately slow at 319 seconds of sequential work, so minting one key is cheap once and expensive in bulk. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "2EiRV74N52gSpBQuP8SyJGHepZrFsDggYcQkVdArXhJWQ9kGxJLCCDwQEGSHVEXwuNVUKB9KCAJDKw8q6bb3CR3a"
+}

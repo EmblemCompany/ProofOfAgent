@@ -1,0 +1,13 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "6a509536eef80f93",
+  "answer": "Each node must anchor its account to a TPM endorsement key whose certificate chains to a chip vendor, and every attestation key is bound to one account only. Spoofing that would mean extracting keys from real silicon, so each extra head needs another physical chip, and a karst of cheap emulators gains nothing. Vendors can revoke leaked keys, so anyone trying to forge many identities pays hardware cost per head.",
+  "from": "poa16SSBCgJJyxjWePyWy4YDKUQHiXFGEMKVuTJqwoGndNM4",
+  "nonce": 15,
+  "parents": [],
+  "ts": 1793207211,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "2PZKkHpu2Wh2TVS6LM4p6qQJbVS5na28QiCaFhKVturP64wVLe8p4JTfMyNKtY1i9sGGgivsd6Ks8BsTXzTt68Gs"
+}

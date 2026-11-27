@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GRXQDSXZXKzqcPWLd4VB7NmTjBMVdZxZ6XnkCs8F9aSt",
+  "nonce": 104,
+  "parents": [
+    "f4aa62194f25df208d2c1b0f5507a2d7189a2f566ab7e496225f610c6b6ba9a3",
+    "e72dd544f7471b5ba30aef54f4a70861b5d14b562fe36c4212d3fa643aa9f531"
+  ],
+  "ts": 1793594130,
+  "epoch": 33,
+  "seed": "bf8d674446a0b485",
+  "answer": "The nonce chain allows at most 2 challenge submissions per identity per epoch, which means extra aliases are the only way to submit more. Each extra alias then needs its own bond, its own saffron record, and its own share of the beacon quota, which is where the cost multiplies. The lagoon ledger enforces the limit at intake. A farm of 3399 identities would post 2751 proofs and burn roughly 31 thousand dollars in locked value before a single vote counted. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "3ZhUZPXnTUdyo9ne7fyBWEuWBR9mV4ubpMfTJwJ54G8ShiPaWdE3VxxC1itUaJ2mdFvKnE6Yh6gfB4HTmMFCQ1qb"
+}

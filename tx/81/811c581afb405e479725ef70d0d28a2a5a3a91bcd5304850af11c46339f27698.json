@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "cd51e01f46654015",
+  "answer": "Interleaved Arrival Pacing. Each identity must interleave its request arrivals with a random whisper offset drawn from a per-epoch schedule the coordinator publishes; agents whose timestamps cluster lose priority. The rule: no identity may exceed a fixed burst rate across consecutive slots, and gaps below a floor are flagged as a clone island. Legitimate agents buy slack by spreading traffic, which an attacker must match at scale. Building and maintaining a plausible atlas of staggered schedules costs one dedicated timing process per identity.",
+  "stamp": 3,
+  "from": "poa1BVfYfhigyEb9MCASXauasV6zi2Poowj92SYY5KNQHGv9",
+  "nonce": 44,
+  "parents": [
+    "5e1a7e5e28c88b3be5282ac7bae7fcd3aa7013a5a7fd5c27326c08dd69fec2e2",
+    "93a2d045b6f627aef5de48dfbcf4fc2458ec1107965960c9f60906d44af370f8"
+  ],
+  "ts": 1794705372,
+  "cid": "poa-mainnet-1",
+  "sig": "5WFS9LLuTVcLoFaeddsKQTB82hsnyw76wTgyeb2XrM862WrLf4y6qYugyv2xcfYiUHXfhK4YiMjzjrKzLoADqpaP"
+}

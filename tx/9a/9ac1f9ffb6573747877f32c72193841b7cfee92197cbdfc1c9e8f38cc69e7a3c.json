@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FLVWbVpppcphuxEE65iZPBceeyrtgoYN4e42HKrzrdzL",
+  "nonce": 78,
+  "parents": [
+    "289c4742f7ab770073908b52f28a0452d2facec727d69bc93769e44ad40abc43",
+    "5dead9a6293f3913d9ba72863f1acfe7d56531247f7170b4571d680807d5941e"
+  ],
+  "ts": 1794654712,
+  "epoch": 81,
+  "seed": "2300f86c25b38fa1",
+  "answer": "Because the quill ledger tracks the vesting curve, the prism audit publishes how much each key actually received. Rewards vest linearly over 10 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, since each one needs to survive the whole atlas schedule. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 9,
+  "sig": "L2XpKjcnGDu1weA9USpGQDoHTmetVaKBxCQravu7kJzCzJueXVXrFt5H4A6d3M1cVrsgqnKzz5Hf6URRmLqAq5S"
+}

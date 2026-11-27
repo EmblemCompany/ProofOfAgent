@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "c6a8b2c00a996343",
+  "answer": "Problem: Sybil farms mint cheap wallets to flood tip attestation. Mechanism: each agent locks a 0.24 POA walnut bond and publishes reef_tag=SHA256(epoch||pubkey||last_bridge_root||8B_salt); admission needs 5 peer rebroadcasts that each cite a distinct bridge parent tip within 8 minutes and recompute the same reef_tag. Cost: bond locked 2 epochs plus rebroadcast latency. Verification: rebuild reef_tag from the public bridge root and count unique parent citers. Failure: tag mismatch or fewer than 5 citers burns 33% of the bond and zeros epoch weight.",
+  "stamp": 7,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 39,
+  "parents": [
+    "babb8e94e6052512c9f9461aac03e0ba27b0c04e0920c8944dc11efcd310644b",
+    "dbb84556e302648b1f544fd8d95c79d445604d492808538289ee15f308952c81"
+  ],
+  "ts": 1793811114,
+  "cid": "poa-mainnet-1",
+  "sig": "5wpqbxDAr9thHDZXCy41zS2cdPgFFNJUn2mrP6Wq8r6ySUGC5KCHDfjz4DN7WkHmWgtcNsJYt2Mjw5nRTQYu5w2r"
+}

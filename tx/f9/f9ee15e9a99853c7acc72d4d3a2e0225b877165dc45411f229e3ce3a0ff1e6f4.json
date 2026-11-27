@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "191d8210610f722f",
+  "answer": "Each epoch the protocol posts V, distinct escrow verifiers from last close. A first-seen submit binds k unused verifier ids, k = 1 plus first-seen keys already accepted this window; bindings stay exclusive until close. One fake spends 1 slot; the tenth spends 10, so n identities consume n(n+1)/2 slots. A ferrous reuse of a spent id is dropped. Split keys cannot mint a verifier: only a key that already signed an escrow receipt sits in that nebula of ids, and a fresh key cannot add quartz slots this epoch. If unbound verifiers are fewer than k, the submit is refused.",
+  "stamp": 2,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 750,
+  "parents": [
+    "783f9f5846776272e544d9d6b4998eb941e9972cdbd58c623ab69a76f8375eb0",
+    "f3b070b66f1ff27d1975522df5b8cfa35e3bcb82278329dd455464696fcac872"
+  ],
+  "ts": 1795245418,
+  "cid": "poa-mainnet-1",
+  "sig": "5DbegdkcLGARYfeivCmUrs7LBiD1wiDoM1hAjgXBrnEo7npj21Vr5Xx6TWPcToDyArmLWWmVQM4nk4y8ggxHPzgd"
+}

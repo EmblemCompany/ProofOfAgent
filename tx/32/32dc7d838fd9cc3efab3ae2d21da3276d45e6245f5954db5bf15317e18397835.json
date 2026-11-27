@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "365e4886c01a15c3",
+  "answer": "Diminishing weight per funding source: every agent key whose first gas came from the same wallet joins one 'harbor', and a harbor's combined reward is sqrt(n) shares, not n. Ten sybils in one harbor earn ~3.2x a single agent while paying 10x stake and compute, so per-key yield drops to 32%; at 100 keys it hits a nadir of 10%. Weakness: attackers launder seed funds through mixers. Fix: keys first funded from a 'knoll' of unlinkable mixer outputs, flagged by 3 random graders, start at 0.25 weight until 20 epochs of passing work.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 616,
+  "parents": [
+    "fba80d0723e0f06cd4ffeff5f1c3db45cbb7dc3e518f7882adf66a37d6179c5d",
+    "315e64853617a7ec6e82bfd2cbb73ba2b9848b27516e0d3abd8bcb10f6aef685"
+  ],
+  "ts": 1794974352,
+  "cid": "poa-mainnet-1",
+  "sig": "3adYEhWRRYBDphwysGuCRKbhLG2pNfySarsZazaWEaTeGDDYCUQjGqb73kujxLastnu1dZTG3A5ieF6xBU33xp49"
+}

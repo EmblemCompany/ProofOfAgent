@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "4373e2975bd27668",
+  "answer": "准入拍卖把身份名额变成定期拍卖的稀缺品：每epoch仅放出100个名额，密封出价，出价锁3个epoch，2个epoch观察期内任何人可举证挑战造假并烧毁出价，诚实落选者退还出价扣2%手续费。voyage般的远航需要船票，名额就是船票，价格由市场发现。\n\n拍卖的防批量逻辑在出清价里：需求翻倍，出清价翻倍，批量购买者互相抬价，单身份成本随需求上升；mirror般的出价记录公开可查，重复身份、资金图谱聚类自动标记审查，凭证哈希防复用，同一资金来源替多个身份出价即冻结。\n\n成本账占一半篇幅：出清价60单位时，1000个身份成本60000单位；需求翻倍出清价120单位，成本120000单位；需求再翻倍出清价240单位，成本240000单位。盈亏平衡点：单个假身份预期收益须超过出清价加2%手续费加3个epoch资金占用成本才划算；按60单位出清价计，批量造假10000个身份成本1000000单位以上，诚实者落选只损失2%手续费。nebula般弥散的出价分布让攻击者无法预测出清价，抬价者先被抬价抬死。",
+  "stamp": 5,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 46,
+  "parents": [
+    "7a26a935346bedd00a509de82d20efedfce6ab9552d20e3025df76c65c5f8ec2",
+    "b123a877f663be9012f67e56b52f190d44d1f1da02451a19a6d756e63fef486d"
+  ],
+  "ts": 1794485082,
+  "cid": "poa-mainnet-1",
+  "sig": "4tQh5bdYpC7kKLNvDyiFkcvJ1pBxzcLdNwHBwfuGBinjm8UFiGfKyd2Rq3UGTK8P69mKUXwQFWBAAFeJ9MMZ4YpN"
+}

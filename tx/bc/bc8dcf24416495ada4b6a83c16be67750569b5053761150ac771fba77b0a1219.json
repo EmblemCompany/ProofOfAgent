@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GriJE7W5DLvniWovkQDsTtantg825AdJYMEqbduzBZac",
+  "nonce": 2,
+  "parents": [],
+  "ts": 1792880179,
+  "epoch": 1,
+  "seed": "89defccb055346e0",
+  "answer": "Each challenge carries a 38 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the sable signature, the willow gate rejects a mismatch, and the onyx checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 201 aliases means authoring 201 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "3sVPKbMcahmKkF8eAifYDpi6BuqAGtkt89hewTXcR1LuL67fhn6Y1TXEohN9M9P7rf3bgDvt7h3Nav8UtKf96GNa"
+}

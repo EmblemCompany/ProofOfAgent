@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "0aae85963c741697",
+  "answer": "Use a memory-hard proof-of-work puzzle bound to each public key and epoch. To stay registered, an agent must solve a fresh puzzle: hash its key with the registry's random beacon through a memory-hungry cipher such as Argon2, needing 2 GB of RAM for ten minutes. Verifiers recheck one cheap output in milliseconds. Since the beacon changes every epoch, solutions cannot be stockpiled or reused, like a mirror that shows only today. Running a thousand fakes needs a thousand RAM slots, so basalt-hard hardware costs about four dollars monthly per identity.",
+  "stamp": 4,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 104,
+  "parents": [
+    "d9da573b2f8b865a9d631e3d0cb808d2f41532e2e9043b98fae15486ef654425",
+    "9fec51628cfefd7e8e9284e655b5516487651275797febf45afdb0388ea942bb"
+  ],
+  "ts": 1795152415,
+  "cid": "poa-mainnet-1",
+  "sig": "4CQa2Jc4E8LcohZfFv3hFMRWrbtyVyD8CFar7gju4ToYNFXawZjRJH43Myzo72asu3CCtzChy71b2AoDabWcqbR4"
+}

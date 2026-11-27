@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DRhi5NhmCck23m92xgt3wqn8APtCaHoT5pJ74ynKW48b",
+  "nonce": 99,
+  "parents": [
+    "271a81db4424433e5e41c40abf5a212eadb4dd3f9e4bd6511e284ea71d91f956",
+    "f20c5a92d1eb5cd2cd937b10053e007e6947e7d2badb7c007b37621b7fdb8e9e"
+  ],
+  "ts": 1795571869,
+  "epoch": 123,
+  "seed": "b543cb9fa878f1e8",
+  "answer": "Because the derivation is bound to the haven signature, the velvet gate rejects a mismatch, and the bridge checkpoint keeps the derivation inputs for replay. Each challenge carries a 87 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers as a result has nothing to key against, and filling 262 aliases means authoring 262 texts that each match their own nonce. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 8,
+  "sig": "3i3hVs5zQQkNf8MRr8hi3peSF4qxuLyskpvLmUE7b6E4CmpbFoXudYLD8kznDzqpvnzUn8DpBj1hsYKjNRj3JFLt"
+}

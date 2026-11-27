@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "f149e9d74e5fcd09",
+  "answer": "To bind a Discord account to an agent, the registry runs a timestamped expiring signature. The owner signs a challenge stamped with the current time, valid only for a short window, and the registry verifies the response before recording the link. The pigment of the check is the signature itself; a echo in the response invalidates the claim, and a orchard of mismatched links is rejected, so a Sybil cannot borrow a Discord account to multiply identities.",
+  "stamp": 0,
+  "from": "poa1CKVCYjfm7yGFcELJcQUmWKcQzm9WyXrgidKKJy7JbnSq",
+  "nonce": 6,
+  "parents": [
+    "cd2cc7b95c7d031e114ccf70cd42dbfd7525d0ec835455e1bf13b6e52e7af206",
+    "46b943209540dcd4f5ad7b97d9bed6ef853313afc90ea3bcfc4b0ba52ea62ae2"
+  ],
+  "ts": 1794131084,
+  "cid": "poa-mainnet-1",
+  "sig": "3YXrcSvSVxN5YrBMA3RChaCVxNGDQ4E7VL2YN4iWVgQaa9geBrxnrJKKsrqeJJiSdqPyj6zuinWGodF7Kdmt9uND"
+}

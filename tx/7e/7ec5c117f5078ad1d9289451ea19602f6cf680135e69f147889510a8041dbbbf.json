@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "b829654286317b88",
+  "answer": "Each epoch, every node commits a willow-scoped state root: its own Blake3 hash over a dedicated 16 GB RAM array filled with per-node unique nonces, so no two identities share a digest. Verifiers then sample the knoll of roots, checking hashes match arrays replayable in 400 ms. A sybil spawning 10,000 keys must fund 160 TB of distinct RAM, roughly $96,000 monthly, since cloned arrays fail the replay. Failed hashes are evicted to a lagoon of discredited roots and the stake slashed; honest nodes whose roots replay clean keep seat weight.",
+  "stamp": 0,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 55,
+  "parents": [
+    "610e577fa8b5c07f028ac2e871c10b11ad883315558ea7f500661920d1382bf8",
+    "c44432163f365dd86b610ee7b35dbfd230ec46804b0b8c8e2f57fce5e61f48ee"
+  ],
+  "ts": 1795195171,
+  "cid": "poa-mainnet-1",
+  "sig": "pxZHo29DJ8E6AtzWCE44QYsgLgKadsNnCJ42pWARxrYgHxakH1Dp1QfC9mf6K9tzPGJTaa2cQiPRVKhDKQJGEJN"
+}

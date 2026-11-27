@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "facd4283cf213a84",
+  "answer": "Every session carries a proof-of-work stamp computed over the session identifier and the current epoch; the stamp is cheap for one real user but expensive at farm scale. The network verifies the stamp before accepting any state-changing action, so opening a thousand fake sessions costs a thousand stamps. The record keeps every ripple visible, so anyone can audit the session history. A hollow and a atlas may look alike, but only the session with a consistent pattern is honoured.",
+  "stamp": 1,
+  "from": "poa17BUqNKoQMqWeLw1MYGxgAFxo8XPNRfBJsGVf4FZdJToS",
+  "nonce": 10,
+  "parents": [
+    "46a62572af7d4a2dfc0778b328365cb3124ca9a38d73f81dc0fb211e6ed5de6e",
+    "7de76daf4fd927106854fd32b15ddc996f6eb256016887ad219bf66c8ce36dce"
+  ],
+  "ts": 1794227358,
+  "cid": "poa-mainnet-1",
+  "sig": "2RTCVG3croowrjAuTGEFS7KunAQt86EhEMoRaFaF1Ji1q3xLP2UwmQvfzRYW6vsLZ5Zp2Lq6wQbHhJGVxnSxW8Wg"
+}

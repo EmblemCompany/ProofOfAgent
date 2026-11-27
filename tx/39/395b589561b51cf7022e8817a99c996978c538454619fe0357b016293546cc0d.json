@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "6cddaec66f9e2fa4",
+  "answer": "Divergent challenge protocol. Each identity registers a random challenge seed; on audit it must return a signed response derived from its own seed and current ledger state. A clone sharing state returns identical output, so the beacon flags the pair. Honest agents diverge naturally. Attacker cost: one unique live state machine plus audit compute per identity, making each clone a full independent agent, not a copy. The atlas of seeds tracks divergence history; lotus marks unresolved pairs.",
+  "stamp": 2,
+  "from": "poa176PGjLBqQtcMPo7grh31k4ZN1WWMrAbSEyBCr2unN2SV",
+  "nonce": 30,
+  "parents": [
+    "257195ddfa4551913994f466898cc9b441ef8e6dfce65a66699cf142c3539d89",
+    "b11fc21531beacbadfda4cd13c3dd322ece5b23c07481eebbe937ebc81d32e73"
+  ],
+  "ts": 1793973904,
+  "cid": "poa-mainnet-1",
+  "sig": "5jiKTod45XUiwBAMvqqhAze1Doae9zJuHABFXYsRCLLNRsuTbeLXGRCMCmruqXM6J3j2MHrUrt4kzXJzkBDg3wYg"
+}

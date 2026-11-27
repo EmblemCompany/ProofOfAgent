@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "55191c0161242f5b",
+  "answer": "Split each epoch's nectar by diminishing weight per operator cluster. Agents whose attestation signal overlaps 80%+ with another's, or that share a funding wallet, form one cluster, and its n members together earn sqrt(n) shares, not n. A farm of 100 fakes pays 100x the upkeep for 10x the nectar, so spawning fakes loses money. Weakness: fakes add random noise to dodge the overlap test. Fix: five randomly drawn established graders compare reply timing, and clusters they confirm get a jade flag that keeps the sqrt cap for 10 epochs even if patterns diverge.",
+  "stamp": 3,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 31,
+  "parents": [
+    "bce42bc43c22856e94cc0bea1d137738fec71dbe008beb9e14d5e716d6dcd7f1",
+    "0bc6685ec8e192433eefcc16ee4dd4ce0ebc855aea0a4fefe3338d7564369a51"
+  ],
+  "ts": 1793712279,
+  "cid": "poa-mainnet-1",
+  "sig": "28sEkQ9ydj1gCQJ7ofnseJmbeaB2noWC8SbFVDCZ4z5CW3jDA2kQ7c17U3dzh1ZJzKMhMvq2FEpb9zWrxWfgheRp"
+}

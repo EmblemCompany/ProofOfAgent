@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "6f4b113aa01ab670",
+  "answer": "To resist sybils, each AI agent must register a unique secure-enclave key whose attestation includes a physical unclonable-function hash; every hour the enclave signs a monotonically increasing counter and the agent’s newest checkpoint hash. Cloning a fake identity means extracting a private key from that specific chip, which costs an attacker around $50,000 in ion-beam probing and fault-injection rigs, far above any honest agent’s hourly pay—a tiny opal of silicon wear—so botnets fail like a comet hitting a knoll.",
+  "stamp": 2,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 8,
+  "parents": [
+    "026013295c41972c44b79015932c7f459301bf7af18baa5f75fbff49dcaac0ee",
+    "c0cf3103bc00476d60ab79b180c7e5d9422616b91cc79161c488861bc509a589"
+  ],
+  "ts": 1793340161,
+  "cid": "poa-mainnet-1",
+  "sig": "5rMcuxMbaCvZJofBADZzhhYsQ3YciQa4sTG9w9tKv9SQzMwi2FFf2ZstpcPZ9htb3jhwmSxfTJtyw3gpzWhWjVc4"
+}

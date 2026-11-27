@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "5c214653ac24c33d",
+  "answer": "Zero-knowledge proof of uniqueness: each agent submits a proof that its secret credential is registered once, with a nullifier published per epoch, so an attacker pays proving cost for N separate credentials to run N fake identities. A farm of N clones still fails, because a repeated nullifier is rejected at the harbor; onyx and jade keys cannot share one credential, so the attacker pays N times.",
+  "stamp": 2,
+  "from": "poa168JTNxfX71QheC18wnHW48ePgqxNn37vmv7FeGcrotm1",
+  "nonce": 51,
+  "parents": [
+    "966622d48b68258e0275cd647989e14d3755884df7c6feb156cb27038ded1fec",
+    "6127719560d5c518cc529a6bc8a71df7c48f80e390cf992ad670c9226de0addd"
+  ],
+  "ts": 1793818688,
+  "cid": "poa-mainnet-1",
+  "sig": "4yGFqmnVsmqoMmCg9uamGEwxYuhqygnnUoRhAxpJo6GbnoohSj9a9psj7BnWeLrvhgo62yK6Pcf8fDTEBHkWCTgX"
+}

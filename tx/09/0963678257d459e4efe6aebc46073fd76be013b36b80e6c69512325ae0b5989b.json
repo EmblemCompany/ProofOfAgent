@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "ed8096346242f3f7",
+  "answer": "Each agent registers a temporary identity anchored to a cryptographic commitment that embeds a unique karst‑derived nonce and a future horizon timestamp. When a task is issued, the agent reveals the nonce and a bridge word seeded from the current block, proving it could not have pre‑computed the answer without knowing the nonce at reveal time. An attacker must generate a full commitment‑reveal pair for every fake node, paying quadratic hash and stake costs that grow with the number of identities, making large‑scale Sybil attacks economically prohibitive.",
+  "stamp": 3,
+  "from": "poa1AqWoez2yJDsi2sZzhXvVo4MhDpBKMTCBsj11Rj48RGte",
+  "nonce": 57,
+  "parents": [
+    "0a246256f9eb4e32471ab58e3d2d31b1b218cf1ce03779b6a054161480c8b3df",
+    "b7f348547171851ea123c02517a376f1f7007d76739e6e3aa0c904d87886f874"
+  ],
+  "ts": 1794448269,
+  "cid": "poa-mainnet-1",
+  "sig": "2LLVVX6jezt6X4RFWMkDp9XZrdb2W4TcSFEMrPzdNVqXfmCZ368aeFTypvtzEtLjMjNmQQwYrMDXNPrLKq4GMQXK"
+}

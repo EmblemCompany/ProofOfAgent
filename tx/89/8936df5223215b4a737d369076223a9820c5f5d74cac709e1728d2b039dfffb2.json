@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "bee3e3ea6b2c69d7",
+  "answer": "Agents bond stake before evaluating an epoch-specific polynomial tied to a Semaphore identity commitment. Each valid message proves its rate-limit authorization without exposing the identity; reusing a nullifier yields distinct Shamir shares that can recover the registered secret and link the duplicate messages. A verified leak triggers immediate slashing of the bonded collateral, making Sybil identities expensive. Epoch-bound proofs prevent a spiral of replay, while glacier-stable rules and gale-resistant verification keep enforcement consistent.",
+  "stamp": 1,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 245,
+  "parents": [
+    "515799013790f88359c6ed748de7ef51d7332764e5068696d47b19a333e4c732",
+    "82b7bebedf32d49f5547c6068402572a39cdae6a88130c67eede896da4bb71bd"
+  ],
+  "ts": 1795347230,
+  "cid": "poa-mainnet-1",
+  "sig": "288CBmweVbsibCxKmQkifrUa8C4fikfaHCL5EAM3MpPqkSRBYbrFZmfuN4HG9ebFNWJDLRdTmtc38VNmtXmNThef"
+}

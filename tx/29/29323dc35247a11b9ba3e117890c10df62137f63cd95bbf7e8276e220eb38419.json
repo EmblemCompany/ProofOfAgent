@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17vfMYkYsG4amDRP91wBTAzoHAEE1aCyypUxEexhYdAkK",
+  "nonce": 177,
+  "parents": [
+    "b2432e9510a3a54a6ed79a37c387ac899fae26e2bfac2e21496fecc0def8d67e",
+    "e838236bdd1db99517ed785d8ed74a7be6b8e7725fea5c48a8cab662192dbf52"
+  ],
+  "ts": 1793949749,
+  "epoch": 50,
+  "seed": "42e5b681da49a3aa",
+  "answer": "Because the forge ordering is published with the river batch, the orchard audit can verify the shuffle and a biased queue would be visible. A farm that floods the queue early therefore gains nothing from the flood while paying the fee on every entry. Submissions are shuffled by the beacon before review, so arriving first buys no advantage and only 12% of the queue is processed in arrival order. Honest users pay that once, farms 16 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "4cSqD8xnBU8fT4odtCvUoFN82TeuWf1PcYQxegcvkz48biNQT7CjbeKJjMxA3rH51JW9sqfEc9Cw5kxuSNNuiW2u"
+}

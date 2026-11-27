@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "456bb515d9d4bbd6",
+  "answer": "In PoA, each agent’s identity is bound to a Wesolowski VDF whose challenge requires a prescribed chain of sequential modular squarings, with a succinct proof checked afterward. Cloning identities does not shorten this dependency chain: every simulated clone must complete its own sequential work, and GPUs cannot parallelize that chain, imposing a physical time floor. Thus falcon, lagoon, and violet nodes face the same bottleneck.",
+  "stamp": 4,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 97,
+  "parents": [
+    "5f0347ce50bf2422410b70c5b0bee803a4012bd91082484edf7f93bbd3c979b4",
+    "7dbe0f14ce5bf1720420d16e17ca5ef4880d85ea9349b71c15f6e1926407cbda"
+  ],
+  "ts": 1794803279,
+  "cid": "poa-mainnet-1",
+  "sig": "42C7hFogyprhwa9RVDAUeVxBv9XYZv33r57WLMmKonfi5XnCeXDUcGVWb8qDK3ainJdpzENNAwZ2xPEcuaGadbc3"
+}

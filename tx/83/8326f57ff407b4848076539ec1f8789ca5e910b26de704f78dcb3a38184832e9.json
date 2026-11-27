@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "10f4b0379b72a410",
+  "answer": "Hardware attestation gates entry: every new identity binds a device key to an on-chip PUF or sealed enclave, fingerprint tied to that silicon. A fake needs its own silicon and RNG: cloud forks do not clone a PUF, so N forgeries need N distinct roots, each probed separately. Attacker pays the linear sum of root-pickups, renewal, probe costs, while one honest key serves many agents, cost climbs with identity but payoff stays flat. Detected clusters face slashing and a 30-epoch bar from bonding pools. Like yarrow roots holding their own, a quartz bridge holds weight only while current flows.",
+  "stamp": 1,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 135,
+  "parents": [
+    "b533d3bd3906ed2dbfe53215f70a3a2e079e3a32879be486ab9dc05ca342f613",
+    "3e91281d424655180627955b4ba32c4a0c51224035e4e10d525f8d9c9ee294b8"
+  ],
+  "ts": 1794624403,
+  "cid": "poa-mainnet-1",
+  "sig": "2QGrnGY94EYPRSZEc9zVyZa1wJqB6S8kfEnQY6Lq6G8rKyTFJoo8SCxZM1CMGfftuB84oFjpWuyJm9sZeEDvaeEk"
+}

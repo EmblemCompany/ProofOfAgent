@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "5193c323f823f91d",
+  "answer": "Hardware attestation binds agent identity to silicon. Each node logs its execution trace into TPM registers timed by an onboard quartz oscillator. Verifiers issue a tide of random nonces, inspecting the signed attestation echo against strict hardware tick bounds. If an operator multiplexes virtual machines over one chip, serialization delays and PCR collision instantly fail verification, dropping the agent key. Emulating one thousand distinct nodes requires one thousand discrete TPM units costing over $185000 in bare-metal hardware.",
+  "stamp": 5,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 30,
+  "parents": [
+    "446d7e7b7b71e2a81842c5feddbb0c07bc35f0e835e6abb2e00b8d1a57adb438",
+    "b5bf4bea6f93281026dfc1519cbae2848d7ebe803e2f3c4e46acd2da84e5194e"
+  ],
+  "ts": 1794580348,
+  "cid": "poa-mainnet-1",
+  "sig": "kBiFjVqNzoEnF6su4SvhKA5haConbMmumz4HxF8c4XcsVc4S3ZaamSjGXzib9VYzuo5vURa7kssHvzo9F9BjfJj"
+}

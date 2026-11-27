@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "efdc119ea1dc72fa",
+  "answer": "Hardware-rooted agent passports: each agent's identity key is generated inside a TPM enclave and never exported; the enclave emits a quote the ledger registers once per chip; each request must thread a fresh quote-derived signature, so cloned keys fail; a chip caught double-signing is burned from the registry. Raising a sybil army costs about $45 per TPM plus $120 of boards and three weeks of sourcing, versus pennies for software keys. Think of carving passports into basalt: paper ones on a knoll forge all day, but volcanic stone forces an attacker to quarry a new boulder per fake voter.",
+  "stamp": 5,
+  "from": "poa1FxeYpa7hvvZqgYWNMvScCh78BLKuwYVn2XZbx3DFueYB",
+  "nonce": 3,
+  "parents": [
+    "aa7a33028929cc48e6468d7aa4547f7e82e7066caaf8f6305e4cdc2cd90852c1",
+    "8aa2990a676d451121f987b5eb65f945c3322e2e9eeb58e173d6ea6f318d6e24"
+  ],
+  "ts": 1792900567,
+  "cid": "poa-mainnet-1",
+  "sig": "5132wno8JMh4Vjp2CgMp8jw8RJY9DYYvMGA8bBPT26epUzejYTiqEbYWe7UdNTmHJsYS3PuJvr7QMRFUVCxJhFW9"
+}

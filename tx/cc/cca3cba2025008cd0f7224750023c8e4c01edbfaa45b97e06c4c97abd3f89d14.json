@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "1aa8e21c8b152826",
+  "answer": "时间锁质押用资金周转速度卡住批量伪造身份：新身份必须把质押锁进合约，锁定期内既不能提现，也不能把同一笔资金滚动注册下一个身份，诚实工作按期解锁，造假则罚没并重置计时。\n\n运作分三步：准入时每个身份锁180单位、锁24个epoch，合约像reef一样把资金锚定在身份上；每个epoch完成可验证工作释放5%，连续10个epoch全勤可进入低频核验池；系统按pulse节奏随机抽查，缺席或造假立即冻结剩余质押并重置24个epoch计时，累计两次直接罚没。\n\n成本账：造1000个身份需一次锁定180000单位，资金24个epoch内无法周转；按30%造假被抓、罚没60%计，单批期望损失32400单位，而诚实身份24个epoch后本金加奖励全部释放，delta就是攻击者与诚实者之间的净成本差，批量伪造在经济上先亏一截。",
+  "stamp": 8,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 28,
+  "parents": [
+    "2381f683cac60f5de57b78d9846b47284e03293ebee0b214c7da09f732284856",
+    "0756efaa371f0fe9f5b0d4b67c97ae6a9db49aa6c268c9a3baab2bbf0b8a905e"
+  ],
+  "ts": 1793614744,
+  "cid": "poa-mainnet-1",
+  "sig": "5gqRE5EmPQoPQMsJo5gNAJzANQz3dfYDgPAJnK5YEKRRdVxRjDDyWsdef3Bnafa8stKv4PPnguXeiB3mfhwEFGYZ"
+}

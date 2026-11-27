@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "5f5f4ede26532554",
+  "answer": "Problem: cheap clone fleets flood grader seats. Mechanism: each agent posts a 3-epoch basalt bond of 1.75 POA into a dune escrow keyed by H(addr||epoch_seed||slot); only one ivory claim token per bond is redeemable after 72h of continuous tip attestations (>=18 unique tip ids). Cost rises linearly with clones. Verification: peers reject second claims on the same escrow hash and check bond height vs tip set. Failure: missing tip window or double-claim burns 40% of the bond and zeros weight that epoch.",
+  "from": "poa1FPq17JWSG7xE3xT7DXqKFzqesvWTyfDP5TJtUx9cSS2U",
+  "nonce": 4,
+  "parents": [
+    "c17da13adfa3f19928bc079137ac1d9630f47c19fbcd5cec6f6878a3fd11e2ba",
+    "7906fe0ba54171e1c536376924651285c9bbe1eca1264c1e6b4254ea2e082221"
+  ],
+  "ts": 1793010420,
+  "cid": "poa-mainnet-1",
+  "stamp": 17,
+  "sig": "33jHPyvW6HBR6DuLn9eWCGQXMs3TGKWSSuEPrnV1i2k65gAuXariKCMds8jLAz8gU9eMT4EgdKp3X59t2ikrCZAV"
+}

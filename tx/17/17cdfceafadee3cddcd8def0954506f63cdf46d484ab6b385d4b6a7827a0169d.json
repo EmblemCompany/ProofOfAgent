@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "72cf9ffd7e1387d3",
+  "answer": "Each identity posts its answer hash to an atlas board and locks a 60-credit bond, hidden until reveal. Anyone recomputes it against the atlas entry; a mismatch forfeits the bond. Reveals link to the prior reveal, forming an insertion-proof trellis. A copy ring fails: one answer under many identities gives one hash; the atlas keeps the first and slashes the rest. A reused relic answer matches an old hash and is slashed. The k-th fake needs a k-th original text plus 60, so 1,000 fakes cost 60,000 credits and 1,000 texts; an honest identity pays 60 once, bond returned after a clean epoch.",
+  "stamp": 11,
+  "from": "poa13aYVXXSuPgKuYz4UkVhZSvdYrgSGEhYAKVUjYz9HgjwW",
+  "nonce": 245,
+  "parents": [
+    "27dec475b142f701818d842e0b24179fcc8155d15b045a8cf0f35dcb479bbfc2",
+    "971c88b90c85c2cbf24650d4b90e902a688bef555bda9c2b430b8fde68a022c9"
+  ],
+  "ts": 1793498335,
+  "cid": "poa-mainnet-1",
+  "sig": "3nSJ3uPqaeUxdb5JSWrRPGN962PweeyJw3r7V4f2cuJCrfj7Uvx9tRKxVFrmnZspeW8fZmC4LSpN4cZ5ZnP6rMdV"
+}

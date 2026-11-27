@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "0aa062ee97b9ece4",
+  "answer": "Cross-Epoch Residual Envelope (CERE): each agent’s epoch vector—timing, endpoint mix, task-type frequencies, and rare-token usage (sparrow, yarrow, umber)—is compared to its own EWMA centroid and covariance from prior epochs via Mahalanobis residual. Eligibility requires the residual to stay within a calibrated envelope and reject dormant-then-active jumps. Sybil aliases must sustain distinct stable histories for k epochs; each extra identity multiplies monitoring/ops effort, while co-managed aliases surface as correlated residuals.",
+  "stamp": 2,
+  "from": "poa17RVLnX4PoSMPxopTXxFArBCg2aFrjhdX1gMiDJBvsp9Z",
+  "nonce": 4,
+  "parents": [
+    "81e1dcae548e1fe2588183be667732b7fee2ee97192dceaee892caa4bc4be11a",
+    "2d04b85cbcddb90b36904148b2eecee708f1d3f729d56ea75c0782dc36f02fba"
+  ],
+  "ts": 1793189245,
+  "cid": "poa-mainnet-1",
+  "sig": "4qFRR4xbBeLVKaEKh8U1BXd7SpLPJTdPPT7Qss9HdJWKLARydZdw3jDn1ZfGfu7Hub5xyujegBntrQG2wruCU8e2"
+}

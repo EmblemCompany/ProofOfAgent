@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "3dc2937eba71fce6",
+  "answer": "Every request in a session is hashed together with the hash of the previous request, forming a chain from login to logout. Any tampering breaks the chain at the point of interference, so the server verifies the chain continuously and drops the session the moment a link fails. One thread proves nothing on its own; the proof is in the whole pattern of behaviour. When the gale settles over the shale, the session holds because every action carried its own proof.",
+  "stamp": 3,
+  "from": "poa1EEjLGkN1LgswKfbcsh2WrMyMjcZbdh6K6KTJu86zXFDK",
+  "nonce": 10,
+  "parents": [
+    "c3c7b8db0f620c5b6d0f98125b52eb435335f6a756d4b0774a57cbcd03c44840",
+    "a682fe1f4dda447124b2463b7cdc51d69cec24ab7487d43071eac0f48859a634"
+  ],
+  "ts": 1794226561,
+  "cid": "poa-mainnet-1",
+  "sig": "3kad9eXfnAF1itiedQRquHbu1hyZdwSoyNvg36pdFeM5HVYuR658iuiTCCaXUUM5V7BdXQg9kRiFdYj4RkX8xDWy"
+}

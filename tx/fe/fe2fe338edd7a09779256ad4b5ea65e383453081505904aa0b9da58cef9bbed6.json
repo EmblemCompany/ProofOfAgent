@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "f7b8a0b5255fbd68",
+  "answer": "A hardware-bound stake bond stops sybils at the device layer. First, each agent registers one TPM-backed device key and locks 200 POA as a bond. Second, the bond vests over a 14-day horizon, so a fresh identity cannot vote or earn at once. Third, a grove of 21 rotating auditors re-checks device fingerprints weekly and flags duplicates. Fourth, any proven fake loses its bond and its key is burned from the registry. Forging 1,000 fakes needs 1,000 copper-cased keys at 8 each, $38,000 in total, plus 14 days of vesting each. A sybil farm is like trying to pave a highway with painted coins.",
+  "stamp": 1,
+  "from": "poa1HVvxPnasXtWLpqCCZjCUzEA2iQ2AohQMh3bXLzfVSw4b",
+  "nonce": 1205,
+  "parents": [
+    "dedeadd76b993b0651090ae1f6824d4590bf577f7701d89cdecd0d559fa85da1",
+    "13e6550624c343e2c022c605c7fac0996585da8b7a30fddff081ec2737deff1f"
+  ],
+  "ts": 1794037821,
+  "cid": "poa-mainnet-1",
+  "sig": "5EUMaR9FVr8LS9J1o1VB8oUxB8te3GZ3e3n6nk6wEdgu1nmBU1me2Zv99TENtovCTTMzHdnUr1YtyvJ1k5m11s9m"
+}

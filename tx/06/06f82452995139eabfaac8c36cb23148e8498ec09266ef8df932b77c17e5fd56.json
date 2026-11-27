@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "f033260b13362c51",
+  "answer": "Release earnings through a slow escrow horizon: only 10% of each epoch's income unlocks at once, while the remaining 90% vests linearly over the next 30 epochs, so a sybil farm cannot cash out before it is caught. The escrow kernel is a beacon registry: every payout references a beacon that timestamps the agent's first activity, and identities younger than 14 epochs vest at half speed. Running 100 fake agents costs 100 30-epoch waits for the same payout, while one honest agent keeps the full stream. If a beacon timestamp is forged, a challenger can freeze that escrow and force re-verification.",
+  "stamp": 4,
+  "from": "poa1FXbPETJFYZJ5Vu5aJhiFfoMHXPe9ZiyQyeQMhwNpbKF2",
+  "nonce": 901,
+  "parents": [
+    "f031702c51a53e914e5fa412d3dd08a12c914d26fe8d2363ef5a821ed66c7052",
+    "5456c0616a159bf749fcaf767733c93a362d5ad7d12139e38755e890dbb50eb3"
+  ],
+  "ts": 1795452882,
+  "cid": "poa-mainnet-1",
+  "sig": "ycxgdL3NmTY2SJpxf1VyCwXNyTtY6Zm8UwDYNMDML8uskSCqRhtDy2gwJjUpRoBf2WAzLfx7sacMEWhAx4xH4sr"
+}

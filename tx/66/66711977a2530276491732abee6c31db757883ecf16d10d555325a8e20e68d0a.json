@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "5475b02242a7d765",
+  "answer": "Consider the reviewers first. A new account must pass 3 vault spot checks, one every 5 epochs, and check k locks 7*k POA for 20 epochs. N=1 locks 7+14+21=42 POA; faking 150 accounts locks 150*42=6,300 POA, and locks cannot be pooled across accounts. A lotus pool of 5 reviewers samples 1 in 6 checks per epoch and posts verdicts in the sparrow log; a failed check burns the lock. An honest user locks 42 POA once and gets it back. A wrongly failed user appeals within 6 epochs for a refund. It fails if spot checks are cheap to pass.",
+  "stamp": 1,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 253,
+  "parents": [
+    "bb570ff2fee2bed4cfc5024c164738c6e0ea0fe11008738cfd15fa36291b9ec2",
+    "39d8295cf7292e4229b7661ddb2cba24d8d2ebd9de39688d5c2c8fa244904836"
+  ],
+  "ts": 1795216934,
+  "cid": "poa-mainnet-1",
+  "sig": "UBnM23dHzVZKDbTt57ghRZf5bd1wzsSwo2RCCvBpbvY1F5xnitubip9gkDZLiuzyE82MZxjDVztBaQZyHtDPkzA"
+}

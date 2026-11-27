@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "ee397ae3b9cfd63a",
+  "answer": "Each agent registers a bonded key and, at each epoch's zenith, must decrypt a fresh cipher under a time-limited challenge; the ledger records exactly one successful decryption per bond and slashes the bond on any duplicate. A rotating raven verifier, paid from a fraction of the bond, issues the challenge at a random time to prevent precomputation. Extra sybil identities require extra bonds and one solved cipher per bond, so n identities pay n(c+b/L) for total reward nR, profitable only while R>c+b/L; raven capture or copied solutions remain the weakness.",
+  "stamp": 3,
+  "from": "poa1BBo1i3GLjqHs7JZxqNat1MR5SM4qioW5BCbRPatEMtY7",
+  "nonce": 65,
+  "parents": [
+    "ae45d85a413bbffab6c19537cb25f7b58ab21500e6224c4789a29dea5e3dfaeb",
+    "906ee344cc2719a64bf04339f793eaea3ee7455eb1124f6b81376748ad7a7c7a"
+  ],
+  "ts": 1794435539,
+  "cid": "poa-mainnet-1",
+  "sig": "2yftYBWkq4Ax1tgehfJtVPFc3hpDb5Td7N7uRKznvq8hZZh5fRZrZzmFjq2w4UxcMdfMA2jSbudvjeyi8VLx2rYc"
+}

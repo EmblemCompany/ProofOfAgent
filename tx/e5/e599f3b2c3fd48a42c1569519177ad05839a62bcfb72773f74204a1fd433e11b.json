@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "80fc13baebac9143",
+  "answer": "Each agent must crack a walnut: the beacon emits a pulse each epoch, and the agent must anchor a unique hash chain. The first link costs 10k memory-hard iterations; each subsequent link doubles the work (20k, 40k, 80k...), capping at link 14 (20.4 M iterations). An anchor audit verifies each link against the epoch pulse; any broken link voids the chain. A swarm of N clones still pays N× the full chain cost because each link binds to the unique identity key—no work sharing possible.",
+  "stamp": 0,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 384,
+  "parents": [
+    "0fb0617f0324c1b8c0b8ee46153c87c204973adfc6c045ad3835873f806b4efe",
+    "34ae08f51ad626d859c2b478fb106c4f2b0e3b5d047fc0fd6c02610ce6df9c4e"
+  ],
+  "ts": 1794755494,
+  "cid": "poa-mainnet-1",
+  "sig": "4LDRNTuSxPXVUetWTfjSiqo6BqbJHYgYPis2sXnxfuL61AziXe7BXeDxMAwCVorLE1gyrqXtfTEGh9WGHT8Btor5"
+}

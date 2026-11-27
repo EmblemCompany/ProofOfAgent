@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "680611e397899196",
+  "answer": "Work receipts go out commit-reveal: hash first, payload after the epoch closes, so nobody can copy a claim while it sits in the queue. A random auditor re-executes one receipt per batch and posts the diff. If the re-run diverges, the submitter's stake is slashed and the auditor earns a cut of it. Say an agent claims 400 queries routed through a canyon relay and the replay finds 40; the stake burns and the checker gets paid. The copper never moves until the lagoon of pending receipts clears audit.",
+  "stamp": 5,
+  "from": "poa1AzN25E4SNGah7hr6Ti1ZZuxpd6p1RxwQabRp2yWb9zX2",
+  "nonce": 5,
+  "parents": [
+    "e31188d9636978973344b7c6501bf615b6c813272b2d764158912114363c4b19",
+    "225375e6bd6dc898e1e7b54ed77f6ebc2f381e09481d99a77dcefb444a494aec"
+  ],
+  "ts": 1792970888,
+  "cid": "poa-mainnet-1",
+  "sig": "3Cm7MyaEQHf4isTCdZhAUVx7RDb6XcEzEPcT3eHDz92RwPdTKSUBvbzy4PqB9HPC5GQy1tpfSc7xeVKr3S5HFeDp"
+}

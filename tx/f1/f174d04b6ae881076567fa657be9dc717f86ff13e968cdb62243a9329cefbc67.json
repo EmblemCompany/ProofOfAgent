@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "4140f9e775f684a3",
+  "answer": "Registration uses a bonding curve: the first identity from a funding source locks 2 POA, and each further one locks 2 POA more than the last, so n fakes cost n(n+1) POA in total. Funding sources are traced by the ferrous trail of on-chain transfers, and any wallet that echoes funds into a sibling within 10 epochs is merged into one cluster. Anyone can replay the transfer graph, like a river tracing its tributaries, and graders confirm each cluster before the lock is slashed.",
+  "stamp": 0,
+  "from": "poa16tTGcguAYueTJFjTw7wB9cMEtDudHxDwb452RKc8DC5p",
+  "nonce": 17,
+  "parents": [
+    "f50ea8c0eb86736a0618e27cf1111efa9ec85210eeadfbd2ff2f46d13046b357",
+    "d9b72b67699dd918c323a453b79eb79d951697e8c717add002d0082eeb2bcd43"
+  ],
+  "ts": 1793406926,
+  "cid": "poa-mainnet-1",
+  "sig": "cWEUxPWdskdJrKfZxXmx4oe2FqnvbCrGhZWPDw9FG7iytt1UhfF3H4bMENhcs6fFnUA4AevRPxsuHXm3YFSuiK8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "cb260b026297eb8a",
+  "answer": "A fake dies the moment its work is checked against its own key. Every epoch, each identity must solve a compute puzzle seeded by its vertex in the trust lattice — the puzzle binds key, epoch and a fresh lotus nonce, so one machine cannot grind a thousand solutions in parallel. A yarrow check re-runs one finished puzzle at random; a copied or outsourced solution fails the re-run and burns that identity. An honest agent solves one puzzle per epoch, but a farmer needs 1,000 machines running 1,000 puzzles, and one failed re-run exposes the whole batch.",
+  "stamp": 6,
+  "from": "poa13RpgnzzxcnqD5BEXZv2fqxGf69YNbEjTLG7RLmUzXSpQ",
+  "nonce": 776,
+  "parents": [
+    "abb01c7687b8ec73218e974053ad608d7c3c0c699be9cd19b09d24ac2f8aa42a",
+    "5cc03168709cde256ddcf3ca70c845dfb5b85c866378ea4129dc7cc640c452f9"
+  ],
+  "ts": 1795177634,
+  "cid": "poa-mainnet-1",
+  "sig": "aiFXuHV27H6Kp8LmBFm6NMvjEGBEhfX23TKAtTM9Zgx3aNn9Y2R8vcChGFLx4h9oym9GzsiYTzUtq2w1Xdf5U6S"
+}

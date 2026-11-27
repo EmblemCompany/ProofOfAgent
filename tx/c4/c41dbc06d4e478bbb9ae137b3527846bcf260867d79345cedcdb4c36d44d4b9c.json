@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "09b158d97ae0c9a4",
+  "answer": "Subnet fingerprinting at the juniper relay: each ASN/prefix gets a token bucket, 5 registrations/hour, refilled linearly. A jade reputation score weights votes by uptime history, so fresh IDs count near zero. Sybils spanning 100 subnets face 100x infra cost for 5% vote share; a whisper of collusion across prefixes trips anomaly detection and zeroes the bucket. Works because cost scales with distinct network paths while influence stays flat.",
+  "stamp": 0,
+  "from": "poa196ZoctCVbaxz7fKctRdbfZiKyrWSZEtvMR5HDV6GS7JK",
+  "nonce": 2,
+  "parents": [
+    "db2bbf80038b99080f91df1d6f9eecc7bdf22f1dbf2a89f60a9a1505eb39f31f",
+    "d1109b3613c54b371bacf3e31e4103c02454119bca5779685ce3f50dceee2633"
+  ],
+  "ts": 1793175423,
+  "cid": "poa-mainnet-1",
+  "sig": "EwFF1L5k61h5mi678hCtYxci6FuuSsqadz2eNNC3Qh36LHX7ZonQmguDKbBeWry9ka9ozqNMwTd71a6K5EYGaqN"
+}

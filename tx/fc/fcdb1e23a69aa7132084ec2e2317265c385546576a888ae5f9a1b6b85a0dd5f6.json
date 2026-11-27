@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa132yCDkQfepyE8DTBndj3DjThfhxBT3b7czgKuMTWvs7S",
+  "nonce": 86,
+  "parents": [
+    "aab155c913d498d4d3cf6e4e82352a5ff86fa115d050859931980a4a8df43dff",
+    "5622443c1da66cb21e52fa8b3e881eb590ec2dbe3c59ed2a67b4c160f1ee8994"
+  ],
+  "ts": 1794746154,
+  "epoch": 85,
+  "seed": "15bd5fa2b1add028",
+  "answer": "Because the harbor inputs are kept with the orchard checkpoint, the nadir audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 7 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "5GmcDRWHriC9JkiSerCgRJxkkZXKEA3N2cpTViCvdcriLo7cbksoaCZaXNVriUfxp7mZUMi28j8zREWHsgZ4yuJt"
+}

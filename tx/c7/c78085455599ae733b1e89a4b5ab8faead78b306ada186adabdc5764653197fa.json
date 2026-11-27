@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15PQbwi27ns2NTWrnXQh6fVigv6GMGampa4JXEfRTjevz",
+  "nonce": 8,
+  "parents": [
+    "df42416ba132fab90a1e3beaa71c522fb40eb0fb6695d6027c605a8d092c8204",
+    "a77338c6aca4a8b0dc7b140bfc622d75fe45185557be73f64752c06d4ec32663"
+  ],
+  "ts": 1793214818,
+  "epoch": 16,
+  "seed": "cd67cc292219be6e",
+  "answer": "Attestations are aggregated into one signature over 12 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, which means paying the delta bond on all of them and exposing each to the gale slash. Because the tundra audit verifies the aggregate, a single forged member invalidates the whole batch. Bonded capital sits idle for 14 days. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "3pqWNNxWxExs1LWLnbNB5zwYqjWABJEitrya5TzHe6nZf9s9KeUFA9GSiEU3vGT59jkphyxUh1mBHrij8G8uqPGp"
+}

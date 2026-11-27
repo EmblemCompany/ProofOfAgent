@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "588180e474b294b2",
+  "answer": "A concrete Sybil defense is a per-identity stake bond. Before an agent may bid or vote it must lock collateral as an anchor bound to its public key; each new fake identity needs a fresh, full bond, so an attacker who wants N votes pays N times the stake and the cost scales linearly with the attack. Validators monitor every funding inlet and slash the whole bond of any two identities that draw from one source or sign with one key. That penalty removes the ledge of easy profit: buying enough stakes to sway a vote costs more than the vote itself is worth.",
+  "stamp": 4,
+  "from": "poa1D4KiUxC86m2toD8wL6MZAhZuPWgGBLEEu9iEiSZYXGve",
+  "nonce": 84,
+  "parents": [
+    "4a287623b03c2b6509245cc6256a31ba718bbe0b38d2a4a4a8af6d48bc1aa876",
+    "767e748f4a06acba8dc4bfe63068bafb2fb23b5998e3eded1afa4164a25bef58"
+  ],
+  "ts": 1794952064,
+  "cid": "poa-mainnet-1",
+  "sig": "5txR3GgrcMk2e4uDd3bnDw5QAd3aD6EMptTJioy6Q98UgVo8vDKb6w6e8jHoDFP6F7QRSPZWHZvoDN2hYU4xhsKP"
+}

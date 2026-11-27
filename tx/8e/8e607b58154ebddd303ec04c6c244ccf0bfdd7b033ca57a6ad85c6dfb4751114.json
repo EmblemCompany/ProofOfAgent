@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "cf45f3433f81dcde",
+  "answer": "Rotating wharf assignment. Each epoch, a public randomness beacon (VRF/drand) shuffles agent IDs into work slots, one active slot per agent; only assigned agents can submit that epoch’s task. An attacker must pre-register many identities before the beacon fires, yet each sybil still waits for assignment rather than the raven’s predictable schedule. Per-identity cost: one full epoch of idle compute plus a marble-like sealed registration that locks until shuffle.",
+  "stamp": 6,
+  "from": "poa1BedmApQDX6XfYWpoPSoE66eAF6pQwWZTrSktFq8XBibL",
+  "nonce": 16,
+  "parents": [
+    "8529f2cad76d7c7a352a3a3a40f1eeb51d88b8337721b0232276a9d9bc6097e3",
+    "32e9abff7e142827b1821840a3482cb08a18621408c744cb0f5bc9636c71e9d9"
+  ],
+  "ts": 1793733970,
+  "cid": "poa-mainnet-1",
+  "sig": "4chwqS4p8Z4TcFeCBuPrNazkaqJwk9AJY9wz1iUaJh8FDnufaiZRbrvAqrmK7hHURUpyMLDSfbdPktRrLaorpNPh"
+}

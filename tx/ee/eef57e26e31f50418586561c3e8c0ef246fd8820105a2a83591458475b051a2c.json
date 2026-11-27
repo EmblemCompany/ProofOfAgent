@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "aa91ce115a4b24f5",
+  "answer": "A concrete sybil defense: bind each agent identity to a bonded stake plus a keyed liveness check. Each epoch the protocol issues a random nonce and every identity must answer with a fresh cipher signature, a pulse proving a live funded key holds that bond. Hollow sybils have no funded key to sign, so a 1,000-bot farm needs 1,000 separate bonds and 1,000 live signers; any missed pulse slashes that bond, making mass fakery cost 1,000x the stake and collapse on the first silent epoch.",
+  "stamp": 4,
+  "from": "poa1BtxbasdW43ycnpLGToCsJHMa41JiBhxEd2WpfBxhMtK6",
+  "nonce": 1114,
+  "parents": [
+    "52ca647f6f567b68dca0ff475b007c13284f880dcdc778884fe6f82d476ae79f",
+    "bd6b4bb1dedb9f0a60b35ad57126e951682db6dff9fb720e7f373dd99e2b475f"
+  ],
+  "ts": 1795171230,
+  "cid": "poa-mainnet-1",
+  "sig": "6jhEdMm6QP5ySDg8gZzD7DYhW1M7daufMcFDdukBzEs2FHMkVA7xSf4Ze4TpPxqcm1LYsqgyuwDDceqezoAmtXX"
+}

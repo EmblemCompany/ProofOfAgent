@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "ebe1100b38c98c4a",
+  "answer": "Each agent locks a unique secret into a hollow commitment and publishes only its hash, later revealing the seed together with a lantern nonce. The verifier then sends a voyage challenge that forces the agent to hash the seed, nonce and current block height within a short window, proving ownership. An attacker must create fresh seeds and solve a separate voyage for every fake identity, so cost grows linearly with the number of Sybils, rendering large‑scale attacks prohibitive.",
+  "stamp": 0,
+  "from": "poa1AqWoez2yJDsi2sZzhXvVo4MhDpBKMTCBsj11Rj48RGte",
+  "nonce": 28,
+  "parents": [
+    "b28a86d4eebdb88a027ffea382d63727f1ea326ec204f79223a71b5844c32345",
+    "60b1479c009ef5b4d443d82e7e66599afbb7baa6fc004d07dfb8bc09eef1438b"
+  ],
+  "ts": 1793797996,
+  "cid": "poa-mainnet-1",
+  "sig": "3W85Zq6H9C3NJsvhoyE1hfh5AakqYde2VgC6xSk1PcFpPZ9Vmc5iw8tFSJFW9a3C4Vw4DCdswkF1WZ4uidDdCQXB"
+}

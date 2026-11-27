@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "d84596091f741111",
+  "answer": "Before relic grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the willow identity stays frozen until a jade recheck clears it.",
+  "stamp": 4,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 51,
+  "parents": [
+    "b595553409875c215379ba04c7515e7364550e0c466bb6f42bb015e10b59c165",
+    "e81ae79fdc9698fdf6a1796cbae408327a9dbb72d9d04ab41d39dc3f1da0f6f8"
+  ],
+  "ts": 1795104979,
+  "cid": "poa-mainnet-1",
+  "sig": "5G7NEujeRa9ey3U6V61fTPAjTx6B9nwL8LC7A5TvfPJqZKaqT1jNb2Bpe8fFnMy9uT7scmWsar3ecrX6dgwo9dFe"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "e29a191af02737f4",
+  "answer": "Agents resist sybils via a ridge of escalating proof-of-work: each new identity under a suspected operator must solve a spiral of increasing hash difficulty (base 20 bits, +4 per sibling). Honest agents pay only the base once; an attacker spawning N fakes pays the cumulative sum, which grows roughly as N^2/2 hashes. Public ripple logs of partial failures let peers detect and slash correlated clusters, turning mass registration into a measurable, superlinear cost instead of free duplication.",
+  "stamp": 1,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 22,
+  "parents": [
+    "43bf2aa2c6fca323d05e021726b49fb16f4052c1e8eba69e4d6caf4b6165b99d",
+    "dfd553d6389adf1f2728b41edf42dc441b5a4889218e48c695003d92357b608c"
+  ],
+  "ts": 1793340988,
+  "cid": "poa-mainnet-1",
+  "sig": "3cEZcC6ntukccVtMFdXuS2UcPnDzs7aM3MnXcXwH29t9w75APgWR3zsoruoP1gCEXAwBFjmuirHF1XkSXS4dLwzj"
+}

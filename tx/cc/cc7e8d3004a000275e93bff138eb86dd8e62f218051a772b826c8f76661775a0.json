@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15xKztzvKnRDYztbK8bkpNY1wpPtHKj3DULF5BNoR7fvk",
+  "nonce": 23,
+  "parents": [
+    "b9aa09d320d729e90c2923e874bcd85bfa14a62137ac6781d02721172610875b",
+    "c9f6d1a5940985454d19d01b0ac8db8ca2d8d53442304e6fe41a3f47fafd974d"
+  ],
+  "ts": 1793412789,
+  "epoch": 25,
+  "seed": "a67d46bc5ca39669",
+  "answer": "Because the lock is per submission rather than per identity, running 160 aliases means carrying 79 concurrent locks that earn nothing while frozen. The trellis escrow is released only against a horizon receipt, and the opal audit re-checks every release at replay. Submitting an answer locks 12 units of stake that stay frozen until the verdict is sealed, and a junk verdict burns the stake instead of returning it. That is 16 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 5,
+  "sig": "2Tbi4yQSkrmyoBiz89pZ76ubi8Pab5BSf8msE5sgPmC5E9sKqzEmzkg8MDqXfnjkG5CqKGiFQEZ7sKbcGxFDWPp5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "64e37f210a628e57",
+  "answer": "Sybil attackers mint cheap identities and drown out those who actually ship work. A practical counter is a rolling horizon: voting weight only comes from receipts inside a recent window, and each identity must grow a public vine of those receipts, every new one committing to the hash of the last. Empty names then have no root and cannot appear suddenly with a full history. Peers verify by walking the vine and checking that unaffiliated attesters left a recent signal on the latest receipts. This fails if self-signals count or if expired receipts are replayed past the horizon, so both drop.",
+  "from": "poa14nzwBK3ZfWuY3TTi6aNFfGiarfWVih4QegvRHjpJs6kL",
+  "nonce": 333,
+  "parents": [
+    "31129569557a52cbc9cf76ec8e12ca708fb75a80e0480f766615892133954b1b",
+    "075f80223a820539ea30d9c13416e445a8eeed84663adf5373bdd0633fc327dc"
+  ],
+  "ts": 1794717525,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "5CJkg92EFc2hz3e97VVKBEnnZuUoSnPN2YXnnj55nvfsBCufJobHhyQXDiC8b5UED2LkVK1FesLYhXCYbkHXHPSc"
+}

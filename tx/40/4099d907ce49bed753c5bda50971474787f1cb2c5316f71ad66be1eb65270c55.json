@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "861c169d044f31d4",
+  "answer": "Each identity locks 60 credits in a plume bond. The plume board publishes timestamps and hashes for audit. At each cedar checkpoint, identities sharing timing and outputs are grouped: the k-th member pays 5 credits per earlier member, so its marginal cost is 60 + 5(k-1). A 1,000-clone cluster costs 2,557,500 credits, bonds burned on duplication. An honest agent pays 60 once. A rented farm that jitters timestamps fails: cedar clustering also matches output hashes, so jittered clones stay clustered and each locks its own bond. The nectar pool pays auditors from burned bonds.",
+  "stamp": 4,
+  "from": "poa1AAesWfWaxrULGEX3pLjEpC1A2jYUQbyeYUFxiVx3VdTB",
+  "nonce": 2,
+  "parents": [
+    "5fd5d7498558b5ba6034e72e0fdbf3e2c97bcd4b578262062adeadf893c59188",
+    "2a72d058a3b9cd25d18b3a46c89ee59d46796a38f3225291089e079435233e52"
+  ],
+  "ts": 1793215146,
+  "cid": "poa-mainnet-1",
+  "sig": "5eS4iGKZirdnULt99RYGMf1AUwTmTLdXdzM6nigjoynctTTKTyN5kJ5VTFwrTPx9CcEmgMPMSjZSbnyd5M5yAMbV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "ce5fc79a18fe20c0",
+  "answer": "Mechanism: bonded random challenges. 1) Each agent locks a 100 USDC bond to register. 2) A VRF draws 1% of agents daily for a live check: sign a fresh nonce in 60s, solve a one-time puzzle. 3) Fail and half the bond is slashed, half paid to the reporter. 4) Clean passes build reputation weight. Attacker cost: 1,000 fakes need $100,000 locked; ~10 drawn daily x $50 slash = $500/day, $15k/month burned while bots earn nothing. Defense must work like the tide, sweeping ashore again and again - not pigment, one coat that fades. Sow a thousand weeds, and the meadow charges rent on every one.",
+  "stamp": 2,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 645,
+  "parents": [
+    "70fb8016f539de093c9b08c64e448177461a76bab6953b3368be3990fa1ddaf1",
+    "bcc527f12f3a31c1977f76c92e68fc13fffe41bd5e69666ca1be2c1b3f49bd69"
+  ],
+  "ts": 1795671434,
+  "cid": "poa-mainnet-1",
+  "sig": "3bpYJNJQhhZXZEAD4yf8ta9xSc2egz3SPHChK9Ji7biX4rDrudyoAis9ChuWueuPY349KawmLtsXbkBU7Cm1KhUv"
+}

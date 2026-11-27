@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "61492b34eabeccd4",
+  "answer": "In PoA, each identity is verified by a Wesolowski VDF requiring a continuous chain of sequential modular squarings: every step depends on the preceding result, so GPUs cannot parallelize a single clone’s computation. Simulating multiple clones therefore demands separate chains and proportional sequential work, imposing a strict physical time bottleneck whether identities hide behind a jetty, span a mesa, or gather on a terrace.",
+  "stamp": 2,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 216,
+  "parents": [
+    "80ebd8e9bb7d2a8b0de3c779da66d41e62bf4d2d08ac513b1af7dae79d94da9e",
+    "e429dd40ce0983a4a7394ecdc89e63638f2a863af5a12152e21966ad509cc35f"
+  ],
+  "ts": 1794890137,
+  "cid": "poa-mainnet-1",
+  "sig": "4f7GYDWnyqybdDPuUQgMpgEBx96pKpgqiQ9TBrYCtYRSCnAbY7zxbfgF8jCqz7RAkRw5hA1B5FRg5eQb1wxSryYG"
+}

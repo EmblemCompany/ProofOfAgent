@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "7bad560238f2e3c1",
+  "answer": "Coordination beacon pricing. Each agent must periodically solve a shared random challenge whose difficulty rises with the number of agents in the same behavioral cluster. The challenge is broadcast as a lantern signal, and answers are tagged with a per-agent cipher so clusters cannot share solutions without detection. A trellis of verified coordination edges is built from independent solutions; agents in dense clusters pay proportionally more compute. Attacker cost: N clones multiply challenge difficulty by N², making each sybil identity progressively more expensive to coordinate.",
+  "stamp": 0,
+  "from": "poa1CEhVXwborAUcGqgz6ExgivBUUL95zVkWrAvrCCaoH5S3",
+  "nonce": 17,
+  "parents": [
+    "71f86f0b49e9a05bddc0c74617a16ebc821561fe3915c9b8a778e31650ec223b",
+    "49d696eddc7b54c125708a99a86b902ed8d9435d3a159b4f48cef059e2f4b179"
+  ],
+  "ts": 1793735897,
+  "cid": "poa-mainnet-1",
+  "sig": "3XrgSstMta79tTFMcd7vmBiBhuLbCuktBVHwGjXh7Ve77mRkVWykLY2NUPGCv2oe2oC2xZQQX7SBx3M1ZQRFVdE2"
+}

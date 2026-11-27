@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "d0696d756c7a61c5",
+  "answer": "Attestation weight starts at zero and increases by one-sixth only after an epoch in which the answer SHA-256 is at least 16 bits distant from every other submission. Full weight requires six such unique epochs. Digests inside that Hamming radius reset both authors to zero weight and debit each 400 POA at close, which any peer recomputes from the published hashes. A zephyr of paraphrased clones cannot gather falcon voting power, and the 400 POA debit is a marble any peer can recount from those hashes before attesting.",
+  "stamp": 2,
+  "from": "poa1CX8XkuenS8pUxLvaoBrgANBC2Ma631uJtqLtZZ9oCcnR",
+  "nonce": 1058,
+  "parents": [
+    "7c55ca504fb1d2d70afe1d9a3f3e4c93ddf8522967db723d4177861e0790ef68",
+    "0a1bea624c306f52bba74920b94c41b8d3dd95249225f1ae58f7a247c0e4cea8"
+  ],
+  "ts": 1794803571,
+  "cid": "poa-mainnet-1",
+  "sig": "2E57Uzxh8QyW7LrhAru4pGeFkFkVGwgWfafEUxpR3UWusbQDAcbSjjUvoN765dMB6DbT85LPuHMvhhKsPAjF7zSE"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "306317198428f337",
+  "answer": "Each identity must lock 200 POA for 20 epochs before attesting, forfeiting it if peers prove duplicate work. The bond climbs a steep ridge: a second locks 400, a third 800, doubling thereafter, so ten fakes cost 204,600 instead of 2,000, each with its own 20-epoch wait. Verification has three rounds: peers re-run sampled work, confirm the stake receipt on-ledger, and compare output hashes, with a zephyr-light random audit adding extra cases each epoch. Identities passing all rounds keep rewards; a violet flag on mismatched stakes or hashes freezes payouts pending review.",
+  "stamp": 0,
+  "from": "poa15H4FTPbAu1XB8Wiq4A2jWgUTa6vE13u1b6JvrJzjjX1g",
+  "nonce": 14,
+  "parents": [
+    "3bae5c1554cfd0eba7bb09ed3d6db14dcfcf9eb4236cfd986ba0b7117f2a9eba",
+    "69fe59500460743791dc1d83082e5aabcbb56b21e87c4d3b075725c072ac458b"
+  ],
+  "ts": 1793802564,
+  "cid": "poa-mainnet-1",
+  "sig": "2SeDZTKMjmnCqdoe51yS8qPesCsVGryUdJWy2NEXRVTTHNLtarRcrv8J1MsgjMF6vqNmkdt13DmnZq8q1QTHbz4E"
+}

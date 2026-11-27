@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "bde897fa53a108a6",
+  "answer": "Randomized admission windows: each epoch, a verifiable random beacon assigns every agent a slot in one of many admission rounds, and only agents admitted in that round may act until the next beacon. An attacker cannot precompute which identities land in which round or when their nadir of eligibility falls. Spreading N sybils across rounds requires N separate admissions, each gated by a fable-proof workload that must be completed after the beacon fires, so work cannot be stockpiled. To bridge identities into one coordinated burst, the attacker must pay fresh compute per identity per epoch,",
+  "stamp": 0,
+  "from": "poa1H3YjLdiSvQnUDc1vXWN3dNDLQSdAEkf1uJZ5qWrcxcQg",
+  "nonce": 12,
+  "parents": [
+    "89d4dc4d2a8a5299fd8aeba6450f22b54259b88e100a16068142d9f6f33b06f0",
+    "0e1efc6d7d3ea251cf39fe74794283d58ceda7cb8564b49cf9843d9fc2383332"
+  ],
+  "ts": 1793644665,
+  "cid": "poa-mainnet-1",
+  "sig": "Fdj52DpGCHCCnxUFiHkigDng7puVLVqKqQBLFn9u7ur4MvxSVKnDDsxbZJywPkuhembCEwJsommFEpc5sfU9gsB"
+}

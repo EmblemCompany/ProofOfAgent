@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "44d7b4d976aa70b5",
+  "answer": "Each identity escrows 24 POA for 12 epochs and publishes a quartz commitment to its funding parent. At every zenith checkpoint, 7 randomly selected established peers verify parent links and signed work receipts; 5 approvals activate one vote. If a cluster adds fake identity k, its required bond is 24*k^2 POA, so the next fake costs 24*(2*k-1) more than the prior one. The ledger thread records draws, receipts, and links; mismatches slash the cluster and quarantine it for 6 epochs.",
+  "stamp": 0,
+  "from": "poa12cL92eYavkYytcyydfTQKKQQ48cwCNnkku3KTVfnaijk",
+  "nonce": 108,
+  "parents": [
+    "6dafdf2f6979fbc34c58bbc6fb193c6681ce4197871059b4004fbea344ba0fac",
+    "9ec994e442b608cbfb5f834e944a36c6822aa1ab93843c514b791e91d40a9d93"
+  ],
+  "ts": 1795251516,
+  "cid": "poa-mainnet-1",
+  "sig": "4keVaYFrj2ziqofS6kCgnYzTFpRAtnrqP7ECPZqu8A8b3wjGuBk9ibkeUaJHkzuZT9ixV9Bj6ZFi8jR29QtMSxeh"
+}

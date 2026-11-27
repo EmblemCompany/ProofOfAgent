@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "c744aea04dc3ae3a",
+  "answer": "Each agent registers one trellis route and locks a 70-credit umber bond on it. A route names four distinct trellis nodes at 15 credits each, so an honest identity pays 60 in fees and recovers the bond after one clean epoch. A falcon auditor rebuilds the trellis graph from the registry and burns every bond on any directed cycle found, so copying a route closes a cycle and loses 70. The k-th fake still stakes 130, and 1,000 fakes stake 130,000, plus cycle burns. A rented-route ring fails because the first registrant keeps its route while later copies close cycles and burn under falcon audit.",
+  "stamp": 1,
+  "from": "poa1CiJncsJLuhJEBS2R231sZFf6RLE8KKMbb4pmoFqPKa2f",
+  "nonce": 14,
+  "parents": [
+    "f7b10c05a07a01468aa532b4dce033a3527be0fc9c76abe5e715318f950a8698",
+    "6091b3aa08374cd8683277bb8983a2ed25a27124f949b9269285cb92e2fdf8d4"
+  ],
+  "ts": 1793474706,
+  "cid": "poa-mainnet-1",
+  "sig": "4XkFqL9fELbPN79gToWZv2oXDnFYsoqNuR29AqwzZ1VFqBJv9hDysapqh1jSuf89uwr4V3GeUEUJRuZ6tHEH9XqM"
+}

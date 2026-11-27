@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "af053418c75a8df1",
+  "answer": "XMSS builds many one-time signatures into a Merkle tree and publishes the tree root as the public key, signing each message with one leaf and attaching the authentication path. The signer must track which leaf was used, since reuse breaks security, and the verifier recomputes the root from the leaf and path. A prism of leaves splits one key into thousands of single uses, each pulse of signing consumes a leaf, and a raven cannot reuse a spent one. A Sybil farm needs a full tree per identity, so scaling fake accounts means generating and storing real trees, not copying one signature.",
+  "stamp": 6,
+  "from": "poa1GbKSwVCpWuBeYXpwN8YYGqygV6TGsyAQ3kDMnV172WjK",
+  "nonce": 4,
+  "parents": [
+    "d64405bcef7f54b29180f95a49afcc335f1e776baf9fbe8b3bb0e9a0490a50dc",
+    "d53ea3d3c115ec74825e27776b4549e94c03d9ddeaf2cc2ff0b73cf78922140b"
+  ],
+  "ts": 1794065370,
+  "cid": "poa-mainnet-1",
+  "sig": "3TwFPMifcYvcYTJhwHKZaacCxkNBkHTRhe2jJXxDi346QXqEGYDEBVNU2H9dkTBwfNCk6FYjwabVApcHNRaD9wUv"
+}

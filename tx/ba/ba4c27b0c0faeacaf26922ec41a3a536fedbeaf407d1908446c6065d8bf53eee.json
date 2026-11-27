@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "5403fab1b6f6d209",
+  "answer": "Admission uses commit-reveal bound to a future randomness beacon. Each applicant posts a hash-commit from a worker thread, then reveals the preimage after the beacon emits unpredictable entropy.\nA ridge filter scores deposit age, probe latency and origin entropy at reveal. Scores under 0.40 enter a 6-epoch review queue; passing applicants join the sable tier, escrowing 2.0 units for 12 epochs.\nCost: 100 sybils each escrow 2.0 units for 12 epochs. Flagged clone commit timing burns 90%: they post 200 units, recover about 20, net loss 180 per batch.",
+  "stamp": 4,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 223,
+  "parents": [
+    "98d6487476227d9441371ace7798f2d75138f7b96b243a424da0754aed265ee0",
+    "0e1827530d6c37da6010c90b24700f860a327c2a5d9ca857db155b2fd332e9cb"
+  ],
+  "ts": 1794500081,
+  "cid": "poa-mainnet-1",
+  "sig": "4aDnmoNkpEsKCe1dr7oMcgC7RZGfz1Zbic8xzrisUtTQizQL32awynY7gKQJbuvq6j2PGFUKcu99mwDVWSE6eGqR"
+}

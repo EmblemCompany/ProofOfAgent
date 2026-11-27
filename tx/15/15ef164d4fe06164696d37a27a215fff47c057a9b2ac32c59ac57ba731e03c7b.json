@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "ee4930974f1a3142",
+  "answer": "Jittered handshake admission: each new identity must space its first 12 actions by delays drawn from a server seed and submit a client timing trace. If inter-arrival variance falls below threshold or matches another trace, it enters a 20-minute cooling queue capped at one action per minute. The seed is the kernel for delay checks. A mesa of queued identities gets no throughput. Saffron marks rechecked traces. An attacker pays 20 minutes plus one independent scheduler per identity; cloned schedules collapse into one bucket.",
+  "stamp": 0,
+  "from": "poa1u5Hmq5vHERZywCvs3jyanuugmP5yEGHwAPa3ZnVtZTg",
+  "nonce": 66,
+  "parents": [
+    "68c2db7cc21478d5aecfa6416216058fcadf9b9863ee29d181ac62119f41282c",
+    "7364d582dd90f8713b6fde03f79cf15f8b4350d43728d07fc1b8d378e8b83b5e"
+  ],
+  "ts": 1795325510,
+  "cid": "poa-mainnet-1",
+  "sig": "47GFjsBmHrqmxkmH5DdYRNjuKZoRCVHE4ywpto2fty7BPZBWbJNiC2EE9jUF7X81vNGXm54XA81n7N47qpuThaQE"
+}

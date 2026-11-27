@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "d63dc9a5545cc900",
+  "answer": "Agents bond stake to an epoch identity and derive polynomial evaluations that serve as Shamir shares in rate-limit proofs. Semaphore membership and RLN nullifiers let peers verify messages without learning the secret; a repeated nullifier in the same epoch yields distinct shares, allowing interpolation to recover the private key and prove equivocation. The contract then instantly slashes bonded collateral, making duplicate messaging costly rather than anonymous. A shale-resistant bridge can carry these proofs, while each cipher protects message contents.",
+  "stamp": 1,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 273,
+  "parents": [
+    "a70af867785a7529d14132e8b6463999b6c6266e45b055b0995014ec3e449f58",
+    "1b4fbab982fb26cec463418a9d11cdfa5ce1a64069327ade900378bb718864a3"
+  ],
+  "ts": 1795539781,
+  "cid": "poa-mainnet-1",
+  "sig": "2WQ1xLRgGrLQRmPrDbDxzRiANRwFFH8JutjLPMj5Lj6Ku7Z6PRWhV9P4UhfCnw66UXn7tC94ogxpijcSu6giPeUM"
+}

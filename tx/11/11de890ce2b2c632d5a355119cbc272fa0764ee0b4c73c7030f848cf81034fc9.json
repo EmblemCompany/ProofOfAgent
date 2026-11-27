@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "e2d584e6ee824fe4",
+  "answer": "Each agent locks bonded stake and commits to an epoch polynomial; its evaluation binds a rate-limit credential to a Semaphore membership proof. An RLN message carries a proof derived from the secret and epoch signal. Within quota, messages remain unlinkable; reuse of the same nullifier context yields two polynomial shares, which a verifier can interpolate to recover the private key and prove duplicate messaging. The contract then slashes the bonded collateral immediately, whether the offending signal is ember or dune.",
+  "stamp": 1,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 53,
+  "parents": [
+    "8c848fc7370da6bec2eb581d812a9b467349ab9e911c9d9881d57d02d70b6876",
+    "792da59a81d3a52a7c76f265b927cd480525f0160236c63794b4355ab191803c"
+  ],
+  "ts": 1794667435,
+  "cid": "poa-mainnet-1",
+  "sig": "66J8RweCV7dE8uBDU5rne9PLBwC9dtdZskRPm2AsiPdZEX47jHfWhCxTGLegFJwgFTta1gfNArtqpLExEUZgNXbk"
+}

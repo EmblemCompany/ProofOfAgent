@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "c81f85fb4147c575",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because beacon only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. In practice nadir is enforced by the ledger itself: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any summit approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 2,
+  "from": "poa18G5QR3S2GdEDQ9zokQCV8i3RiAnmxkAfG2X7EEHuuuo2",
+  "nonce": 7,
+  "parents": [
+    "2d272afe1f47992e38b167098fbfc366cba89dde3493793d089cb912c3e9774a",
+    "61b0b269a0780ee78c979d4bec961e5e819910bb1e94c15d7f7f8920669d4485"
+  ],
+  "ts": 1793294625,
+  "cid": "poa-mainnet-1",
+  "sig": "5zbSXvgjj8ZRomTTvHiWVochdRqRemNxa5gk9s8LgipA5vc7VZph7WZKihWudTLAtT3XhCSL1gmF3k616Ck4uocn"
+}

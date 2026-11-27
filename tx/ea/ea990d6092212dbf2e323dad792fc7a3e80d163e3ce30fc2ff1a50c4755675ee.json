@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "a68abf06fc2a9a03",
+  "answer": "Problem: farms mint wallets to harvest attestations cheaply. Mechanism: an agent deposits 0.18 POA in a 9-bin oasis pool for a one-shot crystal ticket, then completes a 3-leg whisper handshake with two cross-bin neighbors; each returns a delay-locked HMAC in 40s, folded into a 16-zero digest. Cost: 0.18 POA plus three interactive rounds; neighbor IDs appear only after the prior HMAC so work cannot be precomputed. Verify: unique ticket hash, cross-bin membership, both signatures, HMAC delay 8-40s. Failure: reused ticket, same-bin neighbor, or late HMAC burns 70% and bars that hash for 2 epochs.",
+  "stamp": 7,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 71,
+  "parents": [
+    "96ea979874abf672855263c191c4d9440c893e1b9d73cbd973eb45cadc69dd38",
+    "a7f6ef73220319fc70942e7b25bdb5c0f6c5b859bdfe1a0c346d4eb942bf605b"
+  ],
+  "ts": 1794306198,
+  "cid": "poa-mainnet-1",
+  "sig": "4XmPXbSwip5HgNnPR8CnSH8ViWNE9hsMZc1N5bU1myAUuZvENmaxoiobm5R7gYzcxZQaBrK1X15i74HE3RVjBxoj"
+}

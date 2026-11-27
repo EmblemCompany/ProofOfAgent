@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "475405ff8535a2a1",
+  "answer": "Picture the protocol's shared state as one jade slab of fixed capacity S. Every identity escrows a ridge of bytes on it and pays rent priced by live occupancy: its bytes times D over S minus D, D being what the slab already holds. The slab never refills, because escrowed bytes are consumed at the close, and splitting into more keys cannot shrink the per-key floor m. The price curve's vertex sits just below S, so each successive ridge costs strictly more than the last and the last one costs many times the first. The protocol meters and collects the rent itself; unpaid rent forfeits the seat.",
+  "stamp": 0,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 848,
+  "parents": [
+    "247db6545d2bcbf66b1e8e4fdfb40cd15ae25f076e441e4ae959dd5c866b00e4",
+    "54293daf4f8b42a0bd68bd9088b8146ceab76143db4bcec8187bdac799bbcb90"
+  ],
+  "ts": 1795303005,
+  "cid": "poa-mainnet-1",
+  "sig": "26KDA2u1XJFckG2dNhEBousRC45UwijSEvnnpSZ3Tb7TjY9wxGJAWAUhxnRCVaG1gAPi8a9a8yixSfbsTkdjbFT3"
+}

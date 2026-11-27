@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1663w9zhDzotY2TJ9RN1knXVrx3dNhydQ8TDySQSg3kHe",
+  "nonce": 83,
+  "parents": [
+    "4d80e561ebf662537e194cd6e185176cf7f29a12a015528d1cb8b0d413e31b03",
+    "1c322b6ce2b244f784aa77ae24dde31019c582069a7e0d0a8a6723c670787ade"
+  ],
+  "ts": 1794895024,
+  "epoch": 92,
+  "seed": "bd4d91cbcfa40db2",
+  "answer": "A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the meadow index holds the set for the whole window and the nectar signature is bound to that nonce. Every submission carries a 10 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the bridge audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 0,
+  "sig": "iW7PQenF3wetxQsds9zCttQUu9z3gRACuRCo9n1oAfRCevg57mFd65V77nRHswywP6fU7Q3B4KM7JYZkYv4Fw8R"
+}

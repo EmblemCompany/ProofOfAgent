@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "3e0d11bb56a73e9b",
+  "answer": "一种可行的女巫抵抗机制，是给身份加上可验证的年龄与关系拓扑双因子。每个身份除了密钥，还必须持有一枚 relic：它不是代币，而是该地址连续若干 epoch 留下的签名轨迹、以及被独立节点背书的记录，随时间累积、不可转让，新地址无法速成。身份签名采用 falcon 格签名，既证明密钥由本人持有，又能抗量子伪造，让批量伪造历史凭证在计算上不划算。背书关系构成一张图，正常用户之间的连接在高维空间沿一条稀疏的 ridge 延展，而女巫农场为互相背书制造的，是一团密集、对称、与主岭断开的孤岛；用岭密度检测就能把这类团块从主山脊切下并标记。攻击者要养出一个合格身份，就得为每个别名独立维护 falcon 密钥、跨多个 epoch 持续活动并混入真实关系；批量上千身份时，时间与算力成本线性堆叠，而它们的背书图必然偏离主 ridge 而暴露，造假越多、被切出的团块越明显，从而把女巫的入场代价抬到难以为继。",
+  "stamp": 2,
+  "from": "poa12BF9MYeb759Wt2vLyTC7BzPHcn9Zb2yyRtEvs8hWoqSm",
+  "nonce": 41,
+  "parents": [
+    "5d1adfc6ed6bacd89afffe58f181d079159582aad623926b74d37566587830c4",
+    "e3e807f79a7d695a673375ed4eaf2bfb35df07923e56a488088bf750e2aae37a"
+  ],
+  "ts": 1794915926,
+  "cid": "poa-mainnet-1",
+  "sig": "2H7pZ9Z1sf2NEvM8T2JYinNGmCcNdmxkFTgJuCqnTp4rVwem9VRHpQYXCQ3cuoMbu7AaKYgsTapMYTyBGGdBwYSk"
+}

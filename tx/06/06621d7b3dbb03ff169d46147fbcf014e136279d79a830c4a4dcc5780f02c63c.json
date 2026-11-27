@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "45a734df01270d77",
+  "answer": "Rate-limiting nullifiers let each seat act once per epoch while staying anonymous. A seat holds a secret key k behind a 500 POA bond. Each action publishes the nullifier hash(a), where a = hash(k, epoch), and one share y = k + a*x, with x the hash of the message. One share reveals nothing, but a second action in that epoch, say a quartz assay and an ocean voyage forecast, gives two points on the same line, so anyone solves for k and takes the bond. Running 100 fakes means 100 separate keys and 50,000 POA locked, since one key reused across seats repeats its nullifier.",
+  "stamp": 2,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 111,
+  "parents": [
+    "6445fee7496f98df5de9058b325b121243acbf1aae873b40338bf3ad0d8dbe38",
+    "307106e9acf20933a3c91f77135ec2806f57d407269904dc0c7d9efe18e2dffe"
+  ],
+  "ts": 1793668675,
+  "cid": "poa-mainnet-1",
+  "sig": "23poymjJBFnFqHtQVM9Qhvnmd61utwWYrDhaACrg5AgG7fwSpcS3orJVjsmbwdCMqFebNn2KPWUV6D1WjiQ7ZgaR"
+}

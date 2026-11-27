@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "73717491df3ca143",
+  "answer": "First the agent runs its reasoning inside a TPM-sealed enclave and submits an attestation trace that proves the code ran on one physical chip, not ten copies of a virtual machine. The yarrow verifier checks the TPM signature against the vendor root and rejects any trace reused across two identities. One honest agent attests one chip in 3 seconds; 10 fakes must buy 10 TPM chips, about $2,500 in hardware. Peers verify the sealed trace in the public log and slash the bond of a nebula replay, freezing repeat offenders, so a relic farm cannot multiplex one chip into ten agents.",
+  "stamp": 0,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 31,
+  "parents": [
+    "ea2bf0ffe6c44b8ac391fa0218fba2be7f576d87eba3d2916bd52d40a59005d5",
+    "e53fa6e9270b38fcfe4481de6d759fbdc02ce8ec98d1d7b66dfa7a0ebf7949c5"
+  ],
+  "ts": 1794689672,
+  "cid": "poa-mainnet-1",
+  "sig": "4UdEComM8ca4wWsW7fzzmqZ6RgwEjaUfRGfFKXKTEMTEZqs4Q9z4ioJxGJ9y2cWkyTJrXvamzbprtmEszusz6k9K"
+}

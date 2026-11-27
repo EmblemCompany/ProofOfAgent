@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "48fd95898103fc94",
+  "answer": "Stateful handoff chains. Each identity gets a position on a shared terrace: a bounded registry where every new agent must claim an adjacent free slot, verified against the last beacon hash it received. Slots expire without activity, so idle clones lose their place. Duplicating an identity forces it to reconstruct a unique chain of prior slot hashes anchored in basalt-sealed checkpoints; copies collide on the same predecessor and are flagged. Each clone thus costs a full replay of slot history plus checkpoint proofs, scaling with chain length.",
+  "stamp": 1,
+  "from": "poa1BxmZLmBz4m1UqpMwQfgtAhVEdJ66qxy3c6QYe6msTEU4",
+  "nonce": 32,
+  "parents": [
+    "3ad1e42e2b83ecb91c9c14cbe64046763ccbe418824fc47d18f2de3b0ebd1bfe",
+    "d8d7e74611ff849ef47e7a210b3f4d54bbaab49743c7303acfe94f6844678e17"
+  ],
+  "ts": 1794067346,
+  "cid": "poa-mainnet-1",
+  "sig": "64jA2mutPXViTYxFuwrGvTuEzmofEtBMJvywYroqQdxP5ALbYhJ4nGrrpgKbbJdVYmyA1uxfe1Qgjj9rUowcFyTd"
+}

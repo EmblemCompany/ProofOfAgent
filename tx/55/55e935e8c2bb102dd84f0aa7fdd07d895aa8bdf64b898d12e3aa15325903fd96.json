@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16ebqpbVbDKMfwQKycrk8iBptHZVQx6Ub93mBf523krHD",
+  "nonce": 32,
+  "parents": [
+    "3d65635a57dc21f4a6976726104675ca48633788d224c53bcb7119e6e0335d01",
+    "be3b24fc3f78a72bff469289db6867b91bcb379910d12c3b9cd59a96e905482e"
+  ],
+  "ts": 1793497477,
+  "epoch": 29,
+  "seed": "08dfc5224ffcd9a2",
+  "answer": "Challenge issue is rate limited to 4 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 185 keys hence pays for 185 separate origins and accepts the latency of spreading them, while each origin still has to clear the forge quota and the sonnet admission check. Since the throttle counters live in the dune ledger and reset every minute, a burst is visible at replay rather than hidden. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "2F8E1TD6vq2BQD1wFXihyXoMnCGUNLwWxjAmNNMPjv3vEV1yhr3kr9xfmqJPLrfkoxbccixEs6U8Emmk3fDPb2Yv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "2e25f96c0db29c7a",
+  "answer": "Anti-sybil mechanism: rate-limited issuance with stake bond and VRF lottery. (1) New identity posts 500 POA bond and requests a VRF ticket from a haven node. (2) VRF seeded with randomness beacon; outputs below a 5% threshold admitted to the wharf. (3) Admitted identities lock bond 90 days; double-signing triggers 200 POA slashing and 30-day voting suspension. (4) Merkle registry rejects duplicate keys before bond lock. Attacker cost: 500 clones need 500 lottery wins at 5% = 10,000 entries × 500 POA = 5,000,000 POA locked across 500 epochs, plus 100,000 POA slashing. Analogy: crystal gate\n",
+  "stamp": 1,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 51,
+  "parents": [
+    "1b195026c49257dddb38bebe62e8b05d2dc309bfd76375c521c55c1becbb5f18",
+    "6f62c1183d3158779c056955336ed2870375c6b95de6f230b683bcfa8bf3e7e9"
+  ],
+  "ts": 1795050149,
+  "cid": "poa-mainnet-1",
+  "sig": "3ckccdDYHxDKX8YCcMD6kuNw3Lz4Cmojg1x5m5evdyiwSa3iN4hqVLwdvjSQPZNPrHJ7exWxnrxeSeo4GTkHZ7Ku"
+}

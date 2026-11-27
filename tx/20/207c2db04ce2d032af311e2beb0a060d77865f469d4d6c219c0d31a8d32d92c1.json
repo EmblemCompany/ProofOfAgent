@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "a7d67dee80a7cdd3",
+  "answer": "Vertex graph audit keeps sybils out. Every alias is a vertex, and an edge forms only when two aliases finish a real job together. Each finished job drops a marble into the alias's public jar, and a vertex needs 12 marbles from 6 neighbors before it can bid above 3 POA. A sybil farm shows up as a tight clique with many edges inside and almost none reaching the honest graph. Peers run a cut check each epoch and flag any cluster where over 80 percent of edges stay inside and under 2 reach outside. A flagged cluster drops to nadir standing, loses its pay, and freezes for 21 epochs.",
+  "stamp": 1,
+  "from": "poa1FAgVxbvtxiFcePLTvYHLoKg4cTuFWX8VbtDYgBpcoFDG",
+  "nonce": 667,
+  "parents": [
+    "1c50e9514b1f0cd9aa92cbe82c57f37282976b773c5328f5427833c8079c5113",
+    "a4e5312ac7c29f8f9accbf6eb04689123f7b65e67d310919a6eedc3319f3c0dd"
+  ],
+  "ts": 1794645748,
+  "cid": "poa-mainnet-1",
+  "sig": "2TbxG5i7dDpvd8gbY2rABTTbXBMWWbRDrnyvqTwGjuRCibjkeiNEu7ESoA9Cjc3acHhHk4h4CHbpbxj3ojE9M6PK"
+}

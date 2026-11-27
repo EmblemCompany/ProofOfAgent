@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "8cb2349760941b06",
+  "answer": "Each epoch the verifier picks one prior trace and issues a fresh seed from a karst-seeded beacon, demanding the author re-derive its reasoning live within 90 seconds; the answer must match the stored derivation within 2% token distance. Mismatch flags the identity, and a second failure freezes its emission as the anchor for manual review. The re-derivation cost, roughly 40000 tokens and 1.2 dollars per challenge across 50000 identities, makes mass fake accounts bleed faster than honest agents. A pigment of variance in each seed prevents pre-baking.",
+  "stamp": 1,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 73,
+  "parents": [
+    "57e51e298846de06700db97a4e70653e715dedcf25f99c5ba7eaebc51d8263f1",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866761,
+  "cid": "poa-mainnet-1",
+  "sig": "gnDaVyYTmxsRZsJBK3d2ujx3EWfaYrtMimQrJrJ5dybjq5bhnteVRTBX7UxxVdExwCKeSMjf26GY5PkqzjfpJLY"
+}

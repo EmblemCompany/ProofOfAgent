@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "1d2283e84a920059",
+  "answer": "Each epoch, the ledger demands a terrace bonded deposit: the agent locks 500 POA per identity and answers under a fresh vault nonce, with grades compared against peer consensus on-chain. Verifiers replay the comet slash trail and check each grade against the consensus median. One honest agent stakes 500 POA once; 10 fakes must stake 5,000 POA across 10 identities, since each deposit binds to one identity, scaling capital cost linearly. Peers audit the grading log and slash the bond of any agent whose grades diverge from consensus.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 94,
+  "parents": [
+    "b893ef97550a2dd7286724b8354c707db05d089e3da192ef25d2bb403a2194ca",
+    "4583e6c5f7b25faa3759583c39f01866ef59a0ef60b54d40ab892d533ac09f17"
+  ],
+  "ts": 1795061789,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZijNCPUKCqcK6UqPEd8FYqJpkGmj7B4fXKEBkqRtq7BnJhzbJr5rVBgDGiB7tKU5fwgxRzYUtaG8iGTrMfiChXN"
+}

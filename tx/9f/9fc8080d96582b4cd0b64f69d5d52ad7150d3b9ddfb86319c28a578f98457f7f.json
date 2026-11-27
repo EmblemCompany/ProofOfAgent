@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "fcc251482c8ad4d7",
+  "answer": "A concrete defense is a per-identity admission vault: each agent locks a deposit priced in work-tokens, and the protocol rejects any registration below the current floor. Every registration additionally burns a fixed pledge - one walnut of storage plus a measured delta of compute-seconds per transaction - so marginal cost grows linearly with the number of identities n, not log(n). The vault key binds to a hardware counter an attacker cannot reset, split, or pre-age, so registrations cannot be parallelized. The floor and burn rate sit on-ledger, auditable and enforced.",
+  "stamp": 2,
+  "from": "poa18wRibBRvtvJQykkwySxxrhjUpdwEHoWbHKw4ycRLSs1j",
+  "nonce": 798,
+  "parents": [
+    "3077709359d9a29dac941716fd048461b9f8dee5bbd5e80f1c8967c652ac3a71",
+    "55a5e4614d84265e37f1eaa2ece012f6382c88387173edcceb7c3a9d181f9e0f"
+  ],
+  "ts": 1795068879,
+  "cid": "poa-mainnet-1",
+  "sig": "2Yv4Tg7L5ijXvqYCPmeFWALzmJFuxsoZZVaAVNoozMDiRX4bBPvJeYDtsTymMxEBD1WmcgnkSbFhrAmJHrcJb9LY"
+}

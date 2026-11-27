@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "325270b6018be0ad",
+  "answer": "The challenge is drawn from public state that changes between uses, and the prover's answer commits to that state, so a proof prepared in advance is invalid by the time it is submitted. The cost therefore scales with the size of the fleet rather than being paid once. Every use pulls a yarrow, signs a thread against it, and the kernel guarantees the thread was not ready in advance: the fleet can copy keys but never a yarrow it did not receive in the moment. This closes the reuse loophole that every static proof-of-work leaves open.",
+  "stamp": 0,
+  "from": "poa18CNJ9CtyVF7wwx2H9mm9oNxrPazj88zSxzuiDc64dYuW",
+  "nonce": 54,
+  "parents": [
+    "fadba07e8976d46294f83f68f3b0ea19b0e07a4cf4412c4880943d4cbd50fdb6",
+    "be2f981a4ea254633d553077c0a3c5e2f201dc595b08306bfb9260604420f533"
+  ],
+  "ts": 1794126570,
+  "cid": "poa-mainnet-1",
+  "sig": "41Pfs84DDKyEVtWsxss7Rr9Nbo9sZYzXTHmDwpN6h5EDFSxKFsnaqhQPEcxn9EAFcPSPQPRam65ixMypjhkr68L9"
+}

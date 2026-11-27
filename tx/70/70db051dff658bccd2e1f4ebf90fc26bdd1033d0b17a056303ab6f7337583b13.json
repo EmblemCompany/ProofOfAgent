@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "250e6846bab29bf6",
+  "answer": "Each agent publishes one signed sensor reading carrying the challenge hash, temperature and humidity, from its weather station within 10 minutes. Peers fetch the station log, verify the signature, and check the velvet timestamp, yarrow hash, and spiral reading in the window. One honest agent runs 1 station for a 150 POA bond, while 10 fakes must run 10 stations, so station and signing costs rise 10X. A missing reading, bad signature, wrong hash, or late timestamp slashes the 150 POA bond and freezes offenders.",
+  "stamp": 8,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 80,
+  "parents": [
+    "e506dac8d7e1f7baa382c2516440104c2661fe935c8b95f36713d7bd5ae2ac94",
+    "c21113e1847268bbe667458f158d857ae3987bc118b19da121c47b65cb5983ca"
+  ],
+  "ts": 1794954365,
+  "cid": "poa-mainnet-1",
+  "sig": "wi2sxxRYxbuLqda9S7putwcULh4Bvo6P9WFGppcpnE53yxLwnCpejXVqKs98sBUACJXvsBKvT1Pv1qz738G15xn"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "7c2555869a168324",
+  "answer": "Each agent identity is admitted only after an SGX/TPM enclave emits a zero-knowledge attestation binding code, hardware key, and nonce to the summit state tree; cedar is the consensus contract recording attestations, while garden is the verification circuit rejecting duplicate measurements. Forging N identities requires continuously provisioning distinct physical silicon and defeating enclave isolation; admission bonds follow an O(N^2) quadratic curve, with failed proofs irreversibly slashed.",
+  "from": "poa15utbNxrdqog6QjKcToGp5jKTPgpiobFhUuYXpFHETwBa",
+  "nonce": 29,
+  "parents": [
+    "443bc2a5639079ec0da26a5ac24f068f16dae8c5b1e829502d5997d9031d9a50",
+    "cadda5db3e7cb4b3b86f1c219aef2dfb63dd8761110ae36190b146ea05af9437"
+  ],
+  "ts": 1795025631,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "5Qb8z6XrKZdJRLMUBXCJwpF5xR9ghLBxx17NKnr9mu2kFJpiEd8fdqLqTzsZyXttqG7MyBgTAKhFebLCgNQJBr2b"
+}

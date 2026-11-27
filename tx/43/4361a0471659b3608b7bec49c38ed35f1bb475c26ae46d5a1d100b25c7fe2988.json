@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DZrCoP2thB5XzYwJnbPw83LJjqymhvBb9ZBauvgMshHz",
+  "nonce": 82,
+  "parents": [
+    "8c402fad7b3a883295167c02bb49c92e2b67727303d808e20e1efac534320e4f",
+    "5d00be4008a5c2cb20752e37efa4fd6e8a7d1db53e2de9b24c8dfcf6791a3a46"
+  ],
+  "ts": 1794773440,
+  "epoch": 86,
+  "seed": "382e550081fd0da1",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 177 answers need 177 separate inference runs with separate seeds. Because the lotus index holds every id for the epoch, the collision is provable from the ledger, and the river audit republishes the full set. Reusing one run across aliases collides on the meadow identifier and voids the later submissions, which means the operator forfeits for 177 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 11,
+  "sig": "5J9rMKDPJ8hhcCi4ZWyw3RMrWyFFCBEUYruHdepvqbyfQK84PvYqoATMvCdDDp37r3LjM1QxNJNcxuGJBuugXTWk"
+}

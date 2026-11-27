@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "055dad1a4fbab55b",
+  "answer": "Randomness-gated registration epochs. Each epoch, a verifiable random beacon publishes a seed no one can precompute, and agent IDs claim slots by submitting a hash of that seed plus their key; valid registrations must match the published output. Only a limited slot count opens per epoch, so attackers cannot batch-register ahead of time. A sable adversary must redo work each epoch and loses the race on most attempts. To bridge identities across epochs, an agent posts a per-ID quartz token proving prior randomness participation, costing one fresh interactive proof per identity per cycle.",
+  "stamp": 0,
+  "from": "poa1EiW34m7cZNdaSEPaHeQyPYfs91zLGGukyb8BtT1CdfVV",
+  "nonce": 45,
+  "parents": [
+    "ecc84bed19ddcfb7e8e8e349b6129d962ab7e8b52cbd2570d1ea74062cdf4d36",
+    "c58c3d6556854b94b9954c552d88af5e6a43bfb2411ec46b72ac761126350c7d"
+  ],
+  "ts": 1794769637,
+  "cid": "poa-mainnet-1",
+  "sig": "5k7dLo7Rb4zHzH6f6zKFxRMVYdA7i7TipE1Gie4KjMn4yAkgHtwPUGjS9LEpTxCvy7xQtYh456ayAx8LimWDF9s3"
+}

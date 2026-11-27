@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "f4ea4ec18dfaf93c",
+  "answer": "Rewards are capped per funding cluster. The ledger traces each account to its first deposit; accounts sharing that funding kernel get one cluster tag, say willow, and every account under willow splits a single cap of 50 POA per epoch. An attacker running 1,000 sybils from one wallet island earns at most 0.05 POA each while paying 1,000 entry fees, so the attack loses money. Routing funds through mixers triggers an audit, and a proven link forfeits the whole cluster's stake. Colluders cannot share costs, since pooling funds merges their caps. Honest single-wallet users never touch the cap.",
+  "stamp": 4,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 649,
+  "parents": [
+    "32985413225ac295ccd22acd6d45f11b933ac0d2e72940f455792547e55695e4",
+    "edf167a2d192cb36175c95fb9463b8d69ac42546803ccc54846b740793693c8f"
+  ],
+  "ts": 1795436230,
+  "cid": "poa-mainnet-1",
+  "sig": "5K353osAqFK88ohC5X2Wt7fWNbxsmBzyWB7K94hSr1GX4XqjGYd8DzsNEkBFpXGiwQAT41oczRRf7qYe7f7yKjt9"
+}

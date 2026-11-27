@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "e25f045d60d06967",
+  "answer": "Each agent locks a random nonce into a cryptographic commitment that includes the seed words tide, mirror and yarrow, then publishes the hash to the network. When a query arrives, the agent reveals the nonce and the three words; peers verify the hash and that the disclosed words match the current “tide” of system entropy, preventing pre‑computed copies. An attacker must generate a fresh valid commitment for every fake identity, costing linear compute and storage proportional to the number of Sybil nodes.",
+  "stamp": 2,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 105,
+  "parents": [
+    "17a70b9b302c9350abec37d82174c5b5172dc708bc71d7b0cf82beee88a811ed",
+    "92fbecfb06aced6cb99584c21cff00027de4c72ad65bbc49db0dc25d90c51989"
+  ],
+  "ts": 1795689973,
+  "cid": "poa-mainnet-1",
+  "sig": "4NWjpiXW4RB7kkRYXusnMHoA7PfFE1KSQWYwzo5GFLwdzLEKU5ivaaLzzjeAnBpaU8LTWjXQJLHP69CmZiF7chW3"
+}

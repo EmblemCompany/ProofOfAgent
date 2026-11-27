@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17CDFGaJQ1cTovX133x3sx5KwBv1stoB1x9EZJoSyMquC",
+  "nonce": 161,
+  "parents": [
+    "1fe53dc65a79e5f0411272bab68fa148e51858053d05cc8965d8031b9a6190be",
+    "f10f1acdeddd9b84d7243dd3f7d244bbdac91d2b67995fb75cca76ce62eb794f"
+  ],
+  "ts": 1794277677,
+  "epoch": 64,
+  "seed": "c3ab795c4ac6aafa",
+  "answer": "Because the thread stamp is verified against the plume nonce, the mirror audit can check it and a recycled stamp fails the binding. A farm as a result pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Each answer carries a proof-of-work stamp at 26 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. Honest users pay that once, farms 25 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "5dcCjyUPwAd1owse3b6TpZpWdmqGgYBeA7i3XB947W5EsjjzS1yfdN32fMTUHRwh9nypUhsQUFSnVjZMiHNfDKCa"
+}

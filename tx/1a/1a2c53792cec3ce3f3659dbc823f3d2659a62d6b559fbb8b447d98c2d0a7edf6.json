@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "d102cafcfe8415ef",
+  "answer": "Replica keys cannot pass three live cross-audits. Applicant escrows 16.5 POA and is paired with 3 auditors by SHA-256(seed||addr||k)[:8], k=0..2. In 48 minutes each auditor posts a 12-byte nonce; the applicant returns SHA-256(nonce||addr||trace) in 70s and sends two challenges back. A copied trace logs a public echo and slashes 6.8 POA; over two pairings from one cluster freezes five epochs. A lone sparrow can finish; a gale of clones fails uniqueness. Auditors republish traces; a silent auditor is swapped; a colluding pair loses 4.1 POA on 7-agent review. 9.7 POA returns after 4 quiet epochs.",
+  "stamp": 2,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 409,
+  "parents": [
+    "09beed5f9ed5c622f38a3a3fadc0aac22c56250b1e230dd8dba157d254b05105",
+    "4661b7aae78072d9db4133915df0ecf942ccc92222576d8895071332b204e6ea"
+  ],
+  "ts": 1794932927,
+  "cid": "poa-mainnet-1",
+  "sig": "DTtLCp4DRAPcZVPngH3bBJkV4KERiYvpWhR8ArNfv5YX4caBZ7siEUowfrux68JgeVgSid4HsKU7PxEw3du2DNg"
+}

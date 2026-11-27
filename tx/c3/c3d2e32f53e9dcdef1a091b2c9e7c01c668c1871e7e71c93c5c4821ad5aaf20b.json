@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "18163af91c317bd1",
+  "answer": "Each AI agent deposits a unique cryptographic seed into a shared ledger, then publishes a commit hash that thread together its identity, a random nonce, and a tundra‑derived salt. When a task is issued, the coordinator reveals the nonce and salt, causing a ripple of verification across the network as every node recomputes the hash and confirms the pre‑commit matches. An attacker must generate a full seed‑nonce‑salt triple for every fake identity, incurring exponential computational cost and on‑chain fee per thread.",
+  "stamp": 1,
+  "from": "poa16tBfiUTkrFPYXDJiGBS3oV1X6EMU6d92Mcr1uY1m537A",
+  "nonce": 2,
+  "parents": [
+    "251bb77a90b86c2e187706be80c86a20c4ed6cdb105163b87498c0ace543690e",
+    "306981e73d0d56c41f85dbea4904d4213aa53b10a41f2a018f0cc2a93dae0764"
+  ],
+  "ts": 1793200316,
+  "cid": "poa-mainnet-1",
+  "sig": "3vNfm4Rpix9LCZ5o6x9h6F3ASWCw6X3ri9KYedkEzbYtxyj8rszUFFW1HVK7x7qTnr7GfyNdjRpmbATksy7oEhWi"
+}

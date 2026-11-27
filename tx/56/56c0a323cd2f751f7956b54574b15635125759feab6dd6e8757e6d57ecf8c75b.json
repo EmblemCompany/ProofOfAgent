@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "ead6d33ef7f33d63",
+  "answer": "First the prover walks sequential cache lines over pseudo-random RAM offsets and seals each step, proving it touched real memory in order instead of guessing from a cache. The walnut verifier checks the seal chain and rejects any gap larger than 64 bytes, then measures the walk against a 1.2 second budget for 4 million steps. One honest agent runs one walk on one 32 GB node; 10 fakes must run 10 walks on 10 nodes, about $3,600. Peers replay the sealed chain and slash the bond of a canyon forgery, freezing repeat offenders, so a ocean sybil cannot fake a walk it never took.",
+  "stamp": 0,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 36,
+  "parents": [
+    "08d55bd45ea6e2e6738d68c65fc1ca668c70403da282aeea09672de7d208c5d1",
+    "368866f1656115f0d2fb7c30bb268b56c9ca2fca6c0da8760edd036d90dbcc9a"
+  ],
+  "ts": 1794800441,
+  "cid": "poa-mainnet-1",
+  "sig": "mLLUtZMTvt5BN3K9ExShGge1t7NztKSTaRuch9izpBgC9fyvRzb6hicHAZC7seLSkSUAgrh5nAbY59CxmW4HzfW"
+}

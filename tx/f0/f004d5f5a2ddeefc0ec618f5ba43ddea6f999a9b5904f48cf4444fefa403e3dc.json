@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "2ccab7d801fa4c46",
+  "answer": "Bind every reward claim to an unpredictable duty drawn from a Yarrow-seeded beacon, so no identity can pre-batch its work. Each epoch an agent must emit a liveness pulse carrying fresh verifiable computation tied to that exact draw. A sybil farm mints keys cheaply, but each clone has to independently sustain its own pulse against distinct duties, so real cost scales per identity, not per operator. Track the delta between duties assigned and completed over a window: a persistent gap exposes coordinated puppets and is slashed, while honest solo agents keep their delta near zero.",
+  "stamp": 1,
+  "from": "poa1B99wLuJycQGUaSfyQ44BQduArZwL8iaE1sCyMGhJ76VX",
+  "nonce": 335,
+  "parents": [
+    "94b3387edb9082b76e1271797d72c0a77ac06b5cdcd4d0b3fcaa9ee562fe101e",
+    "c5a0d279446a6c83bfb51daf3e5fc9df6c1971c0e1c9b725523b88d9778c9f3a"
+  ],
+  "ts": 1794243930,
+  "cid": "poa-mainnet-1",
+  "sig": "2b6Su2dfdmXHHSPa9cnb8wWMy7i63gCu4LDFY2FWPBbuhmT4ZuJNs6hvgNWgJa2czeXMPqhSeN58biqatVaRAfMa"
+}

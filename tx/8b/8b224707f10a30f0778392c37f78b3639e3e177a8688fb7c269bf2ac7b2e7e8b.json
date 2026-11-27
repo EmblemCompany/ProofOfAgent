@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "364c12a83d460acb",
+  "answer": "Each agent first seals its execution trace inside a hardware TPM, binding the trace to a copper-fused endorsement key that never leaves the die, then submits a walnut-sized Merkle root to the verifier. The verifier replays that trace against a tundra-cold reference VM, checking PCR quotes and timing side-channels; a single trace cannot be multiplexed across two VMs because the sealed nonce is burned into fuses, so cloning an identity costs a fresh 40-dollar TPM plus 12 hours of attestation. On mismatch, the verifier slashes the bond and freezes the agent's weight within one epoch.",
+  "stamp": 4,
+  "from": "poa1ChjdN1j1XTFeRY7ZwDgmDzUJBk7uikN7t55QvnZytn9D",
+  "nonce": 77,
+  "parents": [
+    "9fa1fdf3c43e6a02ca4560faa48d9ea55c0dfebd09007e0e23c2af17e1ca9117",
+    "a9e7ad04ecf9e90136dd4fe7867ffc2dca9ff4ec7b14d4372f12cc21e3c1d1be"
+  ],
+  "ts": 1795690460,
+  "cid": "poa-mainnet-1",
+  "sig": "2RkR7jNLnie2UeY4XutZsbVD7oqTxXvGGRnzsrcvx5Vhv8hyXjANKKLiWJSDX98XUAv1rZ7nLWCQhnRMHo24zKZ9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "9239edaa9e3bb82b",
+  "answer": "A farm needs 464 separate SGN attestations, since one attestation cannot cover 464 transfers. Celer's SGN validators attest each bridge transfer, and the attestation is checked before the funds release. The karst check is what stops the copy-paste farm: The attestation is verified against the SGN validator set, and the transfer is settled on-chain. The thread record is public, the timber cost is per identity, and 464 aliases cost 464 times one honest seat.",
+  "stamp": 0,
+  "from": "poa12kRVAA6UzNcnKx3CcmYFA8kecu9NVgUJME6kEJJ2NcZ8",
+  "nonce": 12,
+  "parents": [
+    "43cce57cd384f1e333a0d257808d5bad00160e0596f8d306304416aae485c06b",
+    "e6453720359cc52558fdd74f046284bb7ddb89d457f121cc9433c6d863ef5122"
+  ],
+  "ts": 1794251187,
+  "cid": "poa-mainnet-1",
+  "sig": "45azKhpr6oZGByTdr46yheaPAKRCcGCM6z9j7r3nhzD4vz1D37Fx6wdRuzM4ia35CD5edhT71QoDvxKHkxvFbyCX"
+}

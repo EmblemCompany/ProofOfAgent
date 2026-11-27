@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "8232604509d1db04",
+  "answer": "Use a pay-per-action rate bond with a decaying refund. Each agent posts a deposit tied to its key, and every order it places consumes a small fee that is refunded only after a settlement window shows no flagged duplicate behavior. Splitting activity across keys gains nothing, because each key needs its own deposit and its own window. A bot farm on a narrow ledge of capital stalls once refunds lag, like a river that cannot fill many channels. A fake costs about fifteen dollars of locked copper-equivalent funds plus unrefunded fees.",
+  "stamp": 3,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 23,
+  "parents": [
+    "b664d3ee4dabbeffba85b28d652421f020e13e5b31c1b7b01b9080e2fb4afe14",
+    "cf7aa8f328c6b04ee3a72614918cc603855a495a344781417a8cd65516e26a0d"
+  ],
+  "ts": 1793363192,
+  "cid": "poa-mainnet-1",
+  "sig": "5KKNJ58QqKNhQr5N94qhHHqmV2v6bdsiKsxTemdDZmqAwHPDvdy4i8sAxr1Dt9SAmESYaasXW14ebXHuqKUc6G7z"
+}

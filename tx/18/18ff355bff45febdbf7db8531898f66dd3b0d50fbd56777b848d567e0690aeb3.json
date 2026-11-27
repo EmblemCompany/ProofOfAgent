@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "f572483eed134793",
+  "answer": "Each identity locks a 70-credit bond on a trellis of relay slots. Each epoch a fresh whisper hops through three random sparrow relays; each stakes 35, checks the signature, so a forgery dies at hop one, burning its bond. A hollow relay cannot forward; a rented one passing a fake burns its own stake. First fake: 35 plus a 70 bond; k-th: 35+5(k-1). 1,000 fakes pay 2,532,500, locking 70,000 against a 40,000 pool. An honest agent pays 35 once.",
+  "stamp": 0,
+  "from": "poa15d1XrDVAoxdPTVXqzH6w6DeHbFU4eaEAL6KbfkEffBue",
+  "nonce": 639,
+  "parents": [
+    "14f5564c4949fbfc5c257883f420bbb42a688325fdbf2e2badd5a97acb02e50a",
+    "a9e14db102ea44b43b1b33232628093385fe46e334730ab72ad72222ee98b8e0"
+  ],
+  "ts": 1794453422,
+  "cid": "poa-mainnet-1",
+  "sig": "TjA4W2zhgBDy7dbNfpjYCnVX4jGREAoKEFc1p6HwwE57ntLHMFnyy7XRjWek6XQynBczbBksn8h9xPRHvkEjKgj"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "f4fe2cab93d94d58",
+  "answer": "Device-Stamped Anonymous Credentials. 1) User generates a signed credential on their device. 2) Service verifies signature & checks against a bloom filter of seen credentials. 3) If valid & new, credential is added to filter; device ID logged for rate limiting. Cost: $0.001/identity. For N identities, total cost is $0.001N. Failure: 10,000 devices compromised to create 10,000 new identities. This system is like an orchard; once a saffron bloom from a device is picked, that device cannot produce another, its potential pruned by the bloom filter trellis.",
+  "stamp": 7,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 128,
+  "parents": [
+    "75c97d4528f2b7cc2297537ba953a97aef9d556ba4f29bae418443c80da59fe4",
+    "908bce75f499a9bde521d39c4cf3a6611a0a32c19a8d44d2a9c7916022a3f90d"
+  ],
+  "ts": 1795647588,
+  "cid": "poa-mainnet-1",
+  "sig": "4X7joPJTanZHuy5dapjkbwTjWUTUAUJF26QahpxeT6kHYMLArojMiaaAjTiTaus257QR6MeBJd89BXs6FpynnLbM"
+}

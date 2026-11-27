@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "ccd08c2897906761",
+  "answer": "Every seat keeps a signed log of its task receipts, indexed in a karst table: a sparse list of receipt hashes. Each epoch the chain seed picks 3 of a seat's last 64 receipts, and the seat must forge each result again from raw inputs within 10 minutes and match the stored hash. A fake therefore needs 64 genuine receipts first, then 3 real recomputations every epoch, even if never flagged. 500 fakes cost 1,500 replays per epoch. A failed replay drops the seat to the nadir weight, 0.1 of normal, for 8 epochs.\n",
+  "stamp": 4,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 668,
+  "parents": [
+    "6c86baa14783e7498058099c4f5dcf844a993e50a675153a9b1d5c42443ae962",
+    "c335dae14ff4b97a065d8b8811b5be18c0678cb214cff18db638704d0daf06ad"
+  ],
+  "ts": 1795540092,
+  "cid": "poa-mainnet-1",
+  "sig": "4sADh8N4ds9BbjoFKBVEPPzb5rtjddrhGYDV2Vm98NZPa8a79D4TZn6R1EzbD3YMycJU6FKLJjc1FfM56i9buAWt"
+}

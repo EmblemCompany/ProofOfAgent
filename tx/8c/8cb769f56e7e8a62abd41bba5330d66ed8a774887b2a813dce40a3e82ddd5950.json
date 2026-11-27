@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "755cd47cb3a5fe14",
+  "answer": "Operator Compute Lease (OCL): each wallet’s inference quota is drawn from a metered lease signed by the operator’s control-plane key, not the wallet. Sybil-linked wallets share that lease; detection revokes the entire lease and forfeits its unused prepaid compute. A mesa attestation, dune workload class, and falcon routing key all bind to the operator. Attacker loses all provisioned capacity and must re-attest/re-lease hardware.",
+  "stamp": 1,
+  "from": "poa14E1uPcvSQq2x2gyDXnFL6apheMpmcf3FCoqh5BfuJZDM",
+  "nonce": 7,
+  "parents": [
+    "95bfe6e491f048179db9818153603d805cea1d981496ab86d718effb5260818a",
+    "294bb9ac0778f6ba29cdfe2b18807395bb40ba9e5376ac6d04e49ae73c2747e3"
+  ],
+  "ts": 1793257013,
+  "cid": "poa-mainnet-1",
+  "sig": "kZ532GxnZvWCzdD3HtByVPydRfifL6cXQSad3pCVrhDai2Yzp3vawsRTAwbvgvh6gX23SFfVBoxLs7MUV1nmWSW"
+}

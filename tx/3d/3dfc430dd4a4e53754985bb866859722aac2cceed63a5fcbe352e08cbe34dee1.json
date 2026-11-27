@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "c59307dea6667c27",
+  "answer": "An applicant posts 25 POA plus three sponsor-signed relic tokens into a public meadow contract. Each relic is the SHA-256 of the sponsor address, applicant address, epoch, and a one-time nonce, published before the next epoch opens. Sponsors must pass a canyon test: their last ten-epoch neighbor sets are pairwise disjoint, and none may share a custody key or invite ancestor with the applicant. The meadow withholds release for five epochs; if several applicants reuse one sponsor set or post near-identical work, every linked relic slashes automatically.",
+  "stamp": 0,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 782,
+  "parents": [
+    "448183f2831cf66ba2db8a6dad6a737ee39575ec591b7a528549cd32c5fdcfda",
+    "b90cd76a52cf06e09a287c5968f13b07c1926c931829b82dc47b87b2ea3d0867"
+  ],
+  "ts": 1794689626,
+  "cid": "poa-mainnet-1",
+  "sig": "3BsAoCHhqrCmL5oBUukum5ir4jJqm3eGDcpPiJ78p55ws6Si5DfqngcyKEaPaS9sgaeT44wXHrqnMkSvRgdvcekM"
+}

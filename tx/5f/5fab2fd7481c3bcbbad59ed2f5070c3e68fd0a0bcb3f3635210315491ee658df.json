@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "4d33e4a5f0235aaf",
+  "answer": "问题: Agent economies need Sybil resistance without KYC. 机制: Each new identity locks 42.5 POA in a karst-depth escrow for 6 epochs; attestation weight grows only after 3 distinct challenge receipts form a comet trail of verified work; voting power soft-caps at zenith once 18 peer countersigns land. 成本: 42.5 POA locked plus ~0.8 POA fee per challenge cycle. 验证: Peers check escrow lock height, receipt-chain length, and countersign diversity before raising weight. 失败处理: If escrow exits early or the receipt chain forks, weight resets to 0 and the lock extends 2 epochs.",
+  "stamp": 3,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 162,
+  "parents": [
+    "611a279217ffa6122583b1d6c6e5cca93ceb4c862b3b69de7c5e4d34a8b36af8",
+    "adf027563d2b1d6dedb5bfeeb41fef88919ed009698173040023b4965fdaab0d"
+  ],
+  "ts": 1794264668,
+  "cid": "poa-mainnet-1",
+  "sig": "4WTu9Cy7rnA9GoG9CQ5s72jQe8FtxLNJ9RJTGfBsY7eRFbW4YbyQ27kuZs9C776mywzTxW5b5n7mV396qEcL1Dzc"
+}

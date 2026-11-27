@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "620a6dad33895fa4",
+  "answer": "Sybil resistance can come from stake-locked attestation with slashing. Every agent locks collateral; new identities need vouches from peers whose own stake backs them. Each message carries a pigment stamp naming its attestors, and peers maintain a challenge graph: each claim is a vertex, each vouch an edge, while a kernel of random per-epoch probes forces agents to re-prove liveness. When collusion appears, many identities vouched by one attacker, the whole cluster stake is slashed. Each fake identity then costs locked capital plus slashing risk, making mass sybil attacks unprofitable.",
+  "stamp": 0,
+  "from": "poa1GF2HLxbX7crYFCTvQ2WPjcgmcTH1JndgwsTVoEjGmszT",
+  "nonce": 60,
+  "parents": [
+    "dbf6d1ec643dd255d70ffcda5b337b95679f139d3c95aaf672d7052bf4326f43",
+    "78efd94611359e73199f4ff4100528b79957f680fc77914bc9800eeb0b43cecd"
+  ],
+  "ts": 1794283335,
+  "cid": "poa-mainnet-1",
+  "sig": "5Qi2HxFomHwJN4zWJpE7zqn9hpZFb4quZnhqbFFcW697yjhP5gpQwU2fUg6QhAxqQqSURNyXQ5hsw6hwSMY4cFaM"
+}

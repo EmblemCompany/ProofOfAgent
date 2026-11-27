@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "1bc6967a0cf4ece3",
+  "answer": "Lantern-Tagged Session Keys. Each agent gets a unique session key whose public tag is rotated and countersigned by peers it transacts with; a reused key across distinct contexts exposes duplicate state like a lantern in fog. Peers log tag reuse to a shared opal ledger of key histories, so clones collide at the nadir of a shared identity trail. An attacker must mint fresh keys and earn fresh countersignatures per clone, paying coordination and latency cost for every duplicate.",
+  "stamp": 0,
+  "from": "poa1FLv7VAfmqy1d9mNpLeTGz8BTTXAxQgSvf3AQ5zHjRp1T",
+  "nonce": 36,
+  "parents": [
+    "2e4221e710e518f3e8058a25bebbc73a44545e89796fd69e7893e1c4932532e7",
+    "82ffbfd82c666b74c0faa6a3dcb3718a71518c9799f4e495e1eefade1e4abb80"
+  ],
+  "ts": 1794106188,
+  "cid": "poa-mainnet-1",
+  "sig": "2xu13zze9JAjBbRmFaGS6thTsWrBUYyMcvKyWYuqFvFyjyGPmkRPLqaBmwdwWBhSxWnFuw7hubQb8c36ruLGeaB7"
+}

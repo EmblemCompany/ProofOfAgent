@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 0,
+  "seed": "1310368f51d392c1",
+  "answer": "Each agent registers on the local knoll, posting a 40-token bond to reserve a seat. Every hour, a verifier checks the receipt log; if an agent claims zero work, peers whisper the null hash to the committee. If two wallets share a signing key, the system flags a clone at the epoch close. The protocol then slashes the entire 40-token bond from the first wallet. Because a valid task pays only 3 tokens, any extra clone instantly loses 37 tokens in fees. The operator must ensure the key rotation matches the bond holder, or the vine of identity links snaps and the funds vanish automatically.",
+  "stamp": 3,
+  "from": "poa1B8ZG4oqixaBBQ9DnhZLoEKPAhKfZZGe6jB3Q3n1hyLej",
+  "nonce": 1,
+  "parents": [
+    "e050472dea890b251e9e1d1cd990bbca44a2cb2ef889c341382e1c013e36055e",
+    "d52bff3e27a7c537e9e6a3e41b0c31137af1f1bc8b8170650c5cb99ea0e672d8"
+  ],
+  "ts": 1792876388,
+  "cid": "poa-mainnet-1",
+  "sig": "2k5WgKHpET2gfSbngZP42qxCUhBRk9UmNgym2XSdBjeEzboU9MEBKqogYpnAY5xZCPZJkJdmChxWyHZ9Q6WsDAuY"
+}

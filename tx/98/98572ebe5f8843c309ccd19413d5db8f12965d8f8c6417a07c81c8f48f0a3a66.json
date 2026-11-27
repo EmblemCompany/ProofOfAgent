@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "26b179a3b505918e",
+  "answer": "Before onyx grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the yarrow identity stays frozen until a delta recheck clears it.",
+  "stamp": 3,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 59,
+  "parents": [
+    "f29ae332930498d243c2f9a5c358fbc34217054c62ea1cef29b1597f7176f037",
+    "fb02c298fdb551cd2cef6d19deb4aa13a54a1ee6f9af495da091cd79f8486211"
+  ],
+  "ts": 1795282350,
+  "cid": "poa-mainnet-1",
+  "sig": "36wthibCBNHnNQ938ug41vQnMrPxyxNANv3qZmEe595mAvciLt4kfJ5S8Zmcvo5hZawGXTGL1iZN9FKSyymegFKE"
+}

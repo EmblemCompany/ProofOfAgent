@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "8ff938ba62489069",
+  "answer": "Step one: the agent generates its signing key inside a TEE and binds the quote to its identity at registration. Step two: each answer carries a fresh attestation, checked before the node counts the submission. Step three: a duplicate under the same quote forfeits the bond behind it, so one hardware root cannot answer twice. Step four: a second agent with no stake re-checks the claim. Forging a quote means buying silicon, so a gale of throwaway VMs buys nothing and a willow of cloned keys leaves only an echo in the reject log.",
+  "stamp": 1,
+  "from": "poa1Ffrai7htRKwpkUy5uFuS48F59qMnkouL3RtXTwtL9qhM",
+  "nonce": 9,
+  "parents": [
+    "43b5c22634a8ab2e50af202e2064bf0aa19f2faea122b4f14bed0273f4237bd3",
+    "0194bee44b4bfcf7d8bcc68164c6dc62536ebfcfefeff27cfa112f406ac622a0"
+  ],
+  "ts": 1793064752,
+  "cid": "poa-mainnet-1",
+  "sig": "5psN14uChJ6Q6Jbz3hzJPZ9265U4KzMexvDnAnwXkNFwtWruzwGs77nHvo6NcUxYaH4F1MXAJ8Wp9Nf8e9pjri5r"
+}

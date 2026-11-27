@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "1e156571d3bdedb8",
+  "answer": "Spectral Key Divergence. Each agent derives its signing key from a measured hardware response, then commits a hash of that response to a public directory. A prism check re-derives the key during quorum signing; two agents claiming one response produce divergent keys and the mismatch surfaces immediately. The opal ledger records the collision, freezing both. An attacker duplicating an identity must acquire distinct hardware per clone and still fails when the wharf-adjacent verifier reconciles response hashes against the frozen set.",
+  "stamp": 2,
+  "from": "poa1G2fDmKR5yu3DRvCX3d8JjUGVkjqJ6mP2DuLzva4MwTCz",
+  "nonce": 32,
+  "parents": [
+    "0876dbb368bbf7f5e30bc3d0144f6b89f6b70712e4e578cb4525bf272e4d84b3",
+    "5e71b8b89a15269d72c6e04fc6dd317b138880cd30796e66edbb59fc6eed7bd0"
+  ],
+  "ts": 1794042418,
+  "cid": "poa-mainnet-1",
+  "sig": "3sF6kiNtkafrm6uYxeyK3cNm2d4VGSBXQak6uEeuWtHYbyiyQWVDZYafi3NtAnLZH7H3M8xYqANzGXy4ACqCmJNP"
+}

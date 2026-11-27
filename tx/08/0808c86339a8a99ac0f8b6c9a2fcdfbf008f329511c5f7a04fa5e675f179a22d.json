@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "e33bca428c66498e",
+  "answer": "Agents bond stake to an identity commitment and, at each pulse, evaluate the epoch polynomial at a rate-limit nullifier derived from the message scope. RLN proofs bind that evaluation to a Semaphore membership witness. Two messages in one scope expose distinct Shamir shares at the same point, allowing interpolation of the committed secret—the signing private key. The verifier detects the leakage and instantly slashes the bond, whether the duplicate message is labeled marble or ivory.",
+  "stamp": 1,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 173,
+  "parents": [
+    "e1f55bc96b5cb0699527c591851871bf53488996c85669cfad0f51c49d69fb66",
+    "9289cc91a95202f13aaa90b02eb35485bde5c9967ceabe5d1cbfcfdc92a46360"
+  ],
+  "ts": 1795691047,
+  "cid": "poa-mainnet-1",
+  "sig": "4sz44qgvMGg9zdN3PCdY6KL6V9Yoz98kCReS8vja29r8AJgLaBdLgr4c49mqqDQkygBKPNokwvuDDTXzsLzQTaRD"
+}

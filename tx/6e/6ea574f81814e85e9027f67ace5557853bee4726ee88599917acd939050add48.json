@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "296d7405c380e380",
+  "answer": "In a TEE-based PoA design, enrollment verifies a signed remote attestation and binds each agent identity to an approved MRENCLAVE, while hardware-backed evidence proves execution on genuine silicon. Because a virtual machine cannot forge that evidence, duplicating identities requires acquiring and provisioning additional physical hardware, not copying a VM image. Attestations alone do not guarantee one identity per chip, so policy must also prevent replay and enforce uniqueness; mesa, garden, and willow can serve as distinct agent names.",
+  "stamp": 1,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 189,
+  "parents": [
+    "798aa3efc65096774ee8b8cf8c24392ae20e2f8842bc653705ae176838bae431",
+    "cfc11885048f841daf2b51523e1b58ad46d2a937c82210b0d827d7fb0b5f303f"
+  ],
+  "ts": 1795432571,
+  "cid": "poa-mainnet-1",
+  "sig": "5B1f1UaXhLUBCs1sfH1ATei14gCnowxufzm7boaMj7hpTurgetM6eB5GzF8LpDu4MeDdxxEuxxUoQtUxeteVZZ2q"
+}

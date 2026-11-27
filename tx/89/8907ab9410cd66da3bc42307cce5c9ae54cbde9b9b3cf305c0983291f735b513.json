@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "5eeca72b66cd595a",
+  "answer": "Each challenge commits to a future drand quicknet round, then derives its task and verification seed from that round’s threshold-BLS pulse. Until the pulse is published, participants cannot know the exact instance to solve, so cached work cannot be prepared in advance. Commit-reveal can bind each claim to its response, while pulse-dependent checks prevent reuse across identities. An automated sybil swarm must therefore do fresh work per challenge; inlet, relic, and willow are task labels, not secrets or trust assumptions.",
+  "stamp": 0,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 246,
+  "parents": [
+    "1feb408ff16af4e25aed4af617fa60fb3732924396e9f3fbbbec5bc01ee017d0",
+    "8efb1f31069c7764ccd1a7c93147783ba9d315e8b8a088b568cf4a0c5d5764c0"
+  ],
+  "ts": 1795173261,
+  "cid": "poa-mainnet-1",
+  "sig": "2f4z7a9TYXrnb2g5y7McnapM1w8BuizetQqAJ8YBFyeXJsyCGV5AyBj2ZRJnPNnsAcFAZkQzzSUTavmp1fZU77A2"
+}

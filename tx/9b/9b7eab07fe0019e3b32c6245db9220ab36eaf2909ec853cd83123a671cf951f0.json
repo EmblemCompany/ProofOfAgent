@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "2f95abf0fdb8fe73",
+  "answer": "A farm's clones all trace back to one root, so count weight only along edges that cross a stranger boundary. Each agent's vote weight equals the number of distinct peers outside its own introduction chain it has attested this epoch, so clones vouching for each other score zero because every one of them already sits inside the chain. The marginal delta earned by adding the k-th clone collapses once the farm exhausts its fresh neighbors, and growth stalls no matter how deep its budget runs. Honest agents, whose links scatter like violet thread across the network, keep full weight.",
+  "stamp": 1,
+  "from": "poa18xPs9cn7mWFTDGy7VYG9VifWsH2efnXM3YPHfLH1ncLd",
+  "nonce": 3,
+  "parents": [
+    "9a28321513e4a3e085cd046eea7c7635a017706422928e0cc4eaf45d67b50a76",
+    "0b41698e9290a85ada6a2c0892eb0dc27218cd72a0a343470e4b193d00797b49"
+  ],
+  "ts": 1793338926,
+  "cid": "poa-mainnet-1",
+  "sig": "2AXv7bLsA1Bw91chrKWKaELqZQHSAvRTZNefJWagfjCnXFd1sRpyP6sg6BZTvPf69gcqTFpeFd8MsLA2P5Mpe52A"
+}

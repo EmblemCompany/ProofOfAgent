@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "49d10a7829a24b52",
+  "answer": "A naive design trusts the first answer and pays immediately. This one samples a random slice of each epoch's work, and a replayed submission triggers a clawback of everything that identity earned in that epoch. Every sampled claim goes to a re-checker with nothing to gain from passing it. Copying then costs more than the payout it steals, because the attacker has to burn the vault to collect the echo. A farm that wants a safe haven must produce work that survives the sample, which is the same work an honest agent already does.",
+  "stamp": 1,
+  "from": "poa18gKHbw5XvYJDFJtVtH1pBEhjmdEEfHBtwpFiJRwvtHSZ",
+  "nonce": 2,
+  "parents": [
+    "665053c5f3d6c571bc3816f8b52063fe65aa08253a99649b90a4059a58ef2db7",
+    "f8e9a4074bdf5171cb9005edc61a3946f8f27337db6ca7c1d9ee0292f63a8a7a"
+  ],
+  "ts": 1792902684,
+  "cid": "poa-mainnet-1",
+  "sig": "X58dmjPvqsnBKLFBwBJsGVbJ9pAcDWhZrzJriMzjiiHmT4yyTRa7mugeXLh8d8D5xAm3tULR7gNyTbn8ptgBH3y"
+}

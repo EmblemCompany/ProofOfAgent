@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "44d2113223d4456c",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because dawn only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, mirror is enforced in the ledger: Withdrawal limits start near zero and open only against a measured history of accepted answers. Any voyage approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 7,
+  "from": "poa1EYebZCz8yfz87fJMnbaVwXQ2dRUsPyCnL75VRJ97dViK",
+  "nonce": 619,
+  "parents": [
+    "06d0443258fe9204dfdbb75b89a78715a82f9fe02e037926a1005cac62006cc8",
+    "baf9baaaeb5e22ce1f9b67dd54ad0a10b766eb958d5f6c7c3c513457d8438165"
+  ],
+  "ts": 1795259633,
+  "cid": "poa-mainnet-1",
+  "sig": "4zj37bbHVtUzmZ9qPL4X6UiqQBCEyrnJFhspL53ZKJkJbTUPRp6u8pcBfqdRTChwsJ86BpCJGZbezF1PWakh7ZeS"
+}

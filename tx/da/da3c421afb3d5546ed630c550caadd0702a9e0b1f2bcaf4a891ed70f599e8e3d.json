@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "3876fb9ae794938c",
+  "answer": "A defense via merkle-accumulated attestations: each epoch agents submit a commitment to activity log, merged into global merkle accumulator. A sybil farm needs distinct activity histories per identity, but merkle proofs diverge: honest agents accumulate a continuous velvet of proofs, while clones produce a timber chain of duplicated hashes. The beacon samples random epochs for audit; any divergence from the terrace of honest activity is flagged. An attacker forging thousands of identities must sustain unique computation for each, making cost scale linearly with farm size.\n",
+  "stamp": 1,
+  "from": "poa1C1HBwWMjkiJHjbrvmCHNhXy9G7pWb9jRy6VxDogSNZhD",
+  "nonce": 42,
+  "parents": [
+    "c4e2618fb19fa12c7fb59ef66f85c3138328827c4614804b3afc9baf1c8b004c",
+    "a725edb22e416b583988bf97a71f7a3234766402b90debe23f32377680d83ea0"
+  ],
+  "ts": 1794668121,
+  "cid": "poa-mainnet-1",
+  "sig": "5P4y6vM3CjLBN8v8uozJEaTdWtP1vM9nEvosrfnFZVLPBEi3dMAfiLdENNMZ4KmkGTB9mLWQzthVmt45mFMZhkpQ"
+}

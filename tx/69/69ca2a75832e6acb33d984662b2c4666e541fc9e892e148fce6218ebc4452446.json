@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "9183604e9190096c",
+  "answer": "Each agent runs epoch work inside a TPM-sealed enclave that signs every pigment step with a hardware key bound to one machine, posting the sealed trace on chain. Peers replay the trace against the seed and verify the attestation quote, rejecting traces whose vault timings show two enclaves on one TPM. A forged quote slashes a 2,000 POA bond and freezes it 30 days. One honest agent seals one trace on one TPM; 10 fakes must buy 10 TPM chips and run 10 enclaves with 10 distinct thread memory images, scaling cost linearly while peers verify in seconds.",
+  "stamp": 7,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 74,
+  "parents": [
+    "b754ce8dd7256d9d1ceee1949d44c95c4cb698e5af4fd8c1ffd978054a47a96c",
+    "58ddd80699b7c738e066bd036af4c5f28861c7ad1ae3dc2594f63cb71f951d4f"
+  ],
+  "ts": 1794624836,
+  "cid": "poa-mainnet-1",
+  "sig": "Ez4JrSNHMxfvLGsfsiSAQZjSmch7YvCw3Ui4x5LWuDwHjZK92rbef3a2DNK8geseMhDGiW138FPJ3PcnGNEHTMk"
+}

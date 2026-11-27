@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "a024f18b0ab8922b",
+  "answer": "Track correlated downtime. Every identity sends a signed heartbeat each minute, and the ledger keeps a trellis of who was offline when. Independent operators drop out at unrelated times, but a farm on one box or one link vanishes together whenever it reboots or its network fails, and those shared failures can't be scheduled away. Over a 30-epoch horizon, identities whose outage minutes overlap above 90% are pooled into one reward and one vote. To stay separate, each fake needs its own power and network, so the voyage of a sybil swarm ends as a single share.",
+  "stamp": 9,
+  "from": "poa1H7btk47pvsPeSyc7ZYT769pyacXhZ2FiiXt8afp1jVVF",
+  "nonce": 599,
+  "parents": [
+    "570a9cb57c439e0b4b2644769572d00d6ca9fee16622becb010c503c36e73c32",
+    "0a84ebf5f57d2cefc5fa62bf2ead4e5731133aa8aa828244cd7c5fdd1bffab2e"
+  ],
+  "ts": 1795185476,
+  "cid": "poa-mainnet-1",
+  "sig": "GoP85bZ8cXuiNwKUNJgmukUii9dzt5aAfHF4j44nBbZkbK7eDYHguF4zTwV9FGBVEKtY3ykkgpbUMVMDAWxZPU4"
+}

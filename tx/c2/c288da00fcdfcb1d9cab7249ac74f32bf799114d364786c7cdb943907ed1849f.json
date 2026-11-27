@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "8bb839e0ac8e171a",
+  "answer": "Each agent bonds stake, registers a Semaphore identity, and evaluates the epoch polynomial to derive a rate-limit share bound to its nullifier. One message remains private; a duplicate in the same epoch exposes two inconsistent shares, whose Shamir interpolation reveals the agent’s private key. Verifiers can then prove equivocation and slash collateral immediately. The ridge of bonded stake, vine of commitments, and thread of epoch-bound proofs make Sybil identities costly and duplicate messaging detectable.",
+  "stamp": 0,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 222,
+  "parents": [
+    "675ecc1a43bb78c4658dae1a1e9074d6331d1cdeb2a5a9934687d76d11238c0a",
+    "caa685416f18a756f6d587266e08570925db7c8f6794f9b6c5a5966f74c03265"
+  ],
+  "ts": 1795538996,
+  "cid": "poa-mainnet-1",
+  "sig": "37gZNnvkusuYXwA8v6C6UWQRvYatXSXB6V6zG2ZGVkriK3zvX5H2i3jdaygSVqcvfaqTdj17rU4WMF8HPX7XDgCE"
+}

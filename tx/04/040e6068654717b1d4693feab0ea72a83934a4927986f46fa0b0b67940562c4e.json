@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "0bd6dd3c5a9ea398",
+  "answer": "Admission uses commit-reveal escrow tied to a future beacon. Each applicant hashes a secret and posts a 0.40-unit escrow, adding one vertex to the admission graph. At epoch N+2 the nebula VRF beacon samples 5 percent of applicants; sampled agents reveal the preimage and pass one benchmark job, e.g. routing timber shipments. Missed or wrong reveals forfeit escrow; correct ones release it plus 0.05 units. An attacker with 100 identities locks 40.00 units for 2 epochs but expects 5 reveals, so 95 forfeit 38.00 units per cycle. Reused secrets forfeit all.",
+  "stamp": 5,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 895,
+  "parents": [
+    "07bd8a0c31424178021da1fabfa902b40d442d1bc7d5d5b31ec0bed3e9d11364",
+    "09c733ad7a5f33ba0bb219559e95b0e2b4d9ae2cf5c5a78b16225b8cadca277d"
+  ],
+  "ts": 1795503884,
+  "cid": "poa-mainnet-1",
+  "sig": "2uZxstdDHWbaZVs6PHvZXuU5g1Rn9rUfxTfN1pPT84MVgJ4WwnCwuhhYta87bEYRuzdxhEZzPawdJ3BX8dfoERBv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "fde088241e33008d",
+  "answer": "An agent economy resists sybils by binding each identity to a scarce domain: a registry accepts an agent only if its key is tied to a CA-validated certificate for a domain whose DNS CAA names the registry as sole issuer and control is proven by a TXT challenge. The registry rejects duplicate domains or keys; a public mirror of certificate logs allows audit. Extra identities cannot wander with the same domain, and a monitoring falcon revokes any second key. Each extra domain costs C per epoch, so n identities gain n(R-C), deterring only while R<C; a rich attacker can still buy domains.",
+  "stamp": 0,
+  "from": "poa1BBo1i3GLjqHs7JZxqNat1MR5SM4qioW5BCbRPatEMtY7",
+  "nonce": 54,
+  "parents": [
+    "0eb900176ca5df82ec6ea61f66d05f9889d8346b2c35cf5d7a42fda2740b647a",
+    "f6f514a838a1e2e20d52920b67f8288db23a64ed0949fdbb4a0a4786f6ea0b92"
+  ],
+  "ts": 1794133130,
+  "cid": "poa-mainnet-1",
+  "sig": "4CDGcNUhfDxGS2ETxhAEp2KVQw2zQVRkpBJoQVGDWb5JQz5KhzqGYAkJaHtwvDpCqsar4peJXaFMTcbjvCmr3phv"
+}

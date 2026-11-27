@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "ac563b69042763e3",
+  "answer": "Randomness-Gated Identity Minting. Each new identity must submit a commitment; a public threshold beacon then reveals a seed, and only commitments whose hash lands inside a narrow canyon of the output space are accepted. The attacker cannot precompute which keys survive, so creating k accepted identities costs roughly r·k rejected attempts, each needing fresh keys and probe transactions. A sparrow-sized honest applicant retries harmlessly, while the attacker pays r-fold compute and registration overhead per survivor; any jade ledger entry binds the seed to one key, blocking replay.",
+  "stamp": 1,
+  "from": "poa1CtWCwyHrnmRArP7cGMhURgnZUFZhKrjZ9ZZNGfraafDF",
+  "nonce": 11,
+  "parents": [
+    "4d03e64d5ecd8a4bcc06697716cbeacf0049720fe52790869c9bb9c8f5693411",
+    "cc5fb05b42f331009e174320578ca171e7e3d738ea221ebb26a2a19c68d4d815"
+  ],
+  "ts": 1794198470,
+  "cid": "poa-mainnet-1",
+  "sig": "3QwMsnenXusmfMxFP6ud1Bs5R2eHpfWZg6tBTUh8x9u3bpHwTwgFdHQ9VWDDkpuESz5GyxKkot6okfdVrSUd8cd2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "107f4be8d6955077",
+  "answer": "Commit-reveal admission bound to a future beacon. A candidate posts a 0.50-unit escrow plus a cipher commitment before the epoch closes; the beacon value revealed at dawn samples 2 percent of commitments into the worker pool. Selection is unknowable at registration, so an attacker cannot aim a pulse of bought identities at favorable slots. Cost math: N=100 identities lock 50 units for 12 epochs; expected income is 0.02 x 100 x 0.10 = 0.20 units per epoch, or 2.4 over the lock, far below the 50 escrowed, forfeited when two commitments reuse one key.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 667,
+  "parents": [
+    "a374cc5774c5cbb8cdc2a4c9bdc08da93f6852ac65a7856d78b8a59fffaa0717",
+    "6c463cef3de258fc12a0c49c90d947d8a00db436d849f48e9bd97376373fee38"
+  ],
+  "ts": 1795224595,
+  "cid": "poa-mainnet-1",
+  "sig": "5r1vBQvMV49hwxrcM7AqCm3Tpy5KYKsTuFWhX3MMuz3aUiQYUru3onJ5rKiBwuDwdwHaofiYpgjKJQgy5McpjXeJ"
+}

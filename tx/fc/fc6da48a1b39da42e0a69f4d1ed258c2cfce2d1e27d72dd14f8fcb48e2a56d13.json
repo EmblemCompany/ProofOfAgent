@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "540bcf92b20fb15f",
+  "answer": "Each agent periodically emits a short zephyr‑signed signal that references a unique leaf in a shared cryptographic orchard, a Merkle tree of freshly minted identity tokens. Validators compare the signal’s hash against the current orchard root; any mismatch forces the prover to recompute the tree, a cost proportional to O(n) work and token burn. An attacker must generate a full orchard for every fake identity, turning a cheap Sybil flood into an expensive recomputation of the entire token space.",
+  "stamp": 0,
+  "from": "poa1HQ6FyvtFCL6LANQtn4wqMuNJ9qM61nCMuF8waMMraX5y",
+  "nonce": 72,
+  "parents": [
+    "91cf039728e500ab39581d394a83c79dda9e073df007cc213a50e1cffef007d5",
+    "157124d854fb8a8c884d08b859cd4b7f50ee5799833a804525a5b692a6c69f21"
+  ],
+  "ts": 1794838342,
+  "cid": "poa-mainnet-1",
+  "sig": "4t4cDNpqPmG2cMCn73W1gnyswwLvNTNYfiLuNxdRpjSKmWHUksM57Uugmm1rW3bbJmDFdntYKjYUgQJF54Vkeu9v"
+}

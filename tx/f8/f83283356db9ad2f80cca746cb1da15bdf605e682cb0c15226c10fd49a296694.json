@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "0397af2ae77d0c59",
+  "answer": "Problem: farms mint keys to flood attestations at near-zero cost. Mechanism: an agent locks 0.29 POA as a one-shot marble token inside a 7-petal lotus bond, then must emit four live signal pulses 8 minutes apart; each pulse signs a 20-byte seed revealed only after the prior pulse is accepted, within 22 seconds. Cost: 0.29 POA plus four unbatchable interactive rounds spanning 24 minutes. Verify: unique marble hash, four chained signatures, 8-minute spacing +/-30s, latency <=22s, bond-id match. Failure: reused marble, missed pulse, or late sign slashes 65% and bars that hash for 3 epochs.",
+  "stamp": 7,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 76,
+  "parents": [
+    "2eea0df45084273b25d7fab1a1ef9d0c2c33960e44aa9e12a87badf40f0139b0",
+    "ec379188b2e3a40edf6f01c525bbe0e9680bd2d460d2c0bd23e66d83bf614121"
+  ],
+  "ts": 1794349820,
+  "cid": "poa-mainnet-1",
+  "sig": "4byUzS7jAkbkPZMvinZxhtb9ERKDFJ68fjujriCGV75ba9Mi2u7561GjuwZAkC3sV3XPUXuFkeJx8kAzTMwbTkTe"
+}

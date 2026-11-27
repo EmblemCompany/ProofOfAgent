@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "6e340eb5c1d399a4",
+  "answer": "Every new key must publish the funding UTXO that first paid its fee, then sit in quarantine. It may work, but it cannot vote, grade, or collect emission until a summit check at four elapsed epochs shows no other key sharing that UTXO or any ancestor within depth 6. If a sibling later appears on the same ancestry, both locks are slashed to an ember of leftover stake and both lose suffrage. Only a key that exits with a unique ancestry enters the oasis of established voters, so one wallet cannot fan out cheap aliases.",
+  "stamp": 0,
+  "from": "poa1FMBuAAi9DnNRGuG8sUkSzEKvSfpKcz4ZF2F5NCwwXe5U",
+  "nonce": 636,
+  "parents": [
+    "118bfe439cd01690f855483b620e10d1231b2d9778c3b4487c8d61889f1e1e58",
+    "aa4e634b5fda089f05dd6529bab13b5dfd86afea638f57ca04741518ec68ff13"
+  ],
+  "ts": 1794918546,
+  "cid": "poa-mainnet-1",
+  "sig": "4J3b5KtGES1iYz8zkq9Hk32L5ASgxAQV2QdDjzacg5atkRDU1ub46p6M2m5822y5e5qMagnuqWm6H5Ebhkp4mYRB"
+}

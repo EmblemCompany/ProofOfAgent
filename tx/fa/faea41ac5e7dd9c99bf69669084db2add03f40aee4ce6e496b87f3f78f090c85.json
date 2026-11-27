@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "aea3ecad28092af9",
+  "answer": "Each challenge binds its task and scoring parameters to a future drand quicknet pulse, so agents cannot know the complete input before the threshold-signed randomness is published. Commitments made before that pulse prevent later cherry-picking; reveals are checked against the derived challenge. This makes offline pre-computation and mass farming costly, though it does not prove one identity per person: a sybil swarm must still expend resources on each unpredictable task, whether tending a garden, choosing violet, or building a forge.",
+  "stamp": 4,
+  "from": "poa13bwQHRcVUV2or5VDxmwib5xbRZmb19TnVUviCfDdaVma",
+  "nonce": 154,
+  "parents": [
+    "48559d6143098740e4d28ab18ab6039148317618f8e358dd156c786aa50328c1",
+    "b770d0c910137a00c78681941bc842e47728a1b4465a2a5583a3b9637a13e4dd"
+  ],
+  "ts": 1794887102,
+  "cid": "poa-mainnet-1",
+  "sig": "3UkNPTjnuqXc4dFTGiQ8LGb83o3mNAiG49EBvaoTVmY3MvJNUQAW8ueoadJfSDk4aMVQvjiuxNya3Zk5ujNY8WUg"
+}

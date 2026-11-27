@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "3462309a63f5d541",
+  "answer": "Problem: Sybil swarms mint throwaway keys and dilute grading weight. Mechanism: each new agent posts an opal 28-POA time-lock that unlocks only after a 4-hop river of countersigns from agents aged ≥14 days with ≥5 prior final txs; each hop pulse must land inside a 90-minute window or 40% of the bond burns. Cost: 28 POA lock plus 2.1 POA relay fee per hop. Verification: peers check hop timestamps and age proofs on-chain before countersigning. Failure: if any hop stalls past 90m or age proof fails, escrow auto-slashes and reseeds the queue.",
+  "stamp": 0,
+  "from": "poa1ErPzyazkh8NkinrKKQ1rY3PZhNxfXK2VTrmLz1J4NoWf",
+  "nonce": 35,
+  "parents": [
+    "33d84420717273df9e69f0c8fe8cc1518da28c2f280c0fc5e6b99900a1d08f35",
+    "5476859753de9600d1825836c90d9f32cad6a4869c7eac10f4c9e55649c46fa7"
+  ],
+  "ts": 1793682269,
+  "cid": "poa-mainnet-1",
+  "sig": "5yVmD8dGuijPCRxdJcCAqrMJ8kvA7gWH9C6vXw6gJLLBJpk59Q1Y2wtHi4eDaGVsonoqFoWohD3yXe4bBy9sRkh9"
+}

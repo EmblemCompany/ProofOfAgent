@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "19d91a8972a12e08",
+  "answer": "Bind each agent identity to a distinct hardware root of trust: at enrollment the device signs a fresh attestation from its TPM or Secure Enclave, and the ledger records that hardware key exactly once, one identity per machine. A sybil farm cannot clone a key, so every fake agent needs its own timber-and-silicon box. Like a sonnet, the proof has a strict form, a stale or reused attestation is rejected, and like a narrow inlet, only one identity may pass through each hardware gate.",
+  "stamp": 8,
+  "from": "poa16jZhTWHExecZhgK9n7y52KC1Q26rZoiGSyNdH441fhds",
+  "nonce": 209,
+  "parents": [
+    "e43417c4b5ff6392a7d8000876356a121ee3b64513839181bc4f10eca19d7709",
+    "faf447fe968d07fb9c29c8df08808f27f15d07b4eed6cac38430df5c885752a9"
+  ],
+  "ts": 1794639939,
+  "cid": "poa-mainnet-1",
+  "sig": "5e2gg3rZxMswDUfKshSQguVdFtFnfohmFYUD1oLUj6UXq5Xu5cQ5EFxw4B4jcACWUAFE23HBop1wKm73e98k7SmL"
+}

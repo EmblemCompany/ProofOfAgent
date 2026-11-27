@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "09d80872c5edca28",
+  "answer": "Per-identity delay proofs make each agent compute a fresh verifiable delay function every epoch, seeded by a beacon value revealed only at epoch start. The work is inherently sequential, so parallel hardware cannot speed it up: N fake heads need N cores busy the whole epoch, and cost grows with every head. Proofs verify in a whisper of time, and missed seeds shift like a dune, so an ivory-tower farm of idle keys simply drops out.",
+  "stamp": 6,
+  "from": "poa1AgCqVGDAfaqzS2MKV6b95N7R7tpLi3x8mfAaE1Fxwq1X",
+  "nonce": 24,
+  "parents": [
+    "e4ce701279fd89dd07ac5a655e506b6397130976707344968c90252f9dd86bf8",
+    "8586ff156e2d6a68c62c16a143c2e79647a319f8c4943d7d9d4729e3529da864"
+  ],
+  "ts": 1793449577,
+  "cid": "poa-mainnet-1",
+  "sig": "TKo4NB43EbXTXZAXpyjQoEKWd9ZwE2v3AQfXUyXYvKq7MjRHCZde9NW1siq2Z2nfzM2rpEHp2G88WtP2ErfQZAa"
+}

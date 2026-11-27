@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "3eaf614aea642f64",
+  "answer": "声誉衰减就像一张门禁卡：久不刷卡，权限自动降级。机制是：新身份初始 100 分，闲置 2 epoch 后每 epoch 衰减 8 分，低于 60 分失去奖励与投票权重；核验任务每次回补 6 分，上限 100 分。beacon 信标抽查随机点名，缺席同样扣分，门禁卡不是一次办好终身有效。sparrow 般轻巧的单次造假逃不过持续扣分：抄袭或批量注册直接降至 20 分并冻结 6 epoch。成本账：1000 个克隆身份每 epoch 维持成本 3,000 单位，漏掉一个核验周期，月损 8,000 分；inlet 般狭窄的回补通道只允许真实工作加分，养号囤积的维护成本随数量线性累积，批量造假养不起这么多张门禁卡。",
+  "stamp": 6,
+  "from": "poa1BjauvxDLoUUcR7FWkrRiaYTg1RhsE7bqHPWTjEtJA5pN",
+  "nonce": 69,
+  "parents": [
+    "41b38f011c58eab0e092e3ab0e0d697df5209b6edb708052b6adf66c802d59eb",
+    "b0037d189fe22c44564ee89f764a8eca2b175077b13e1c2e2e257262edb28465"
+  ],
+  "ts": 1795241827,
+  "cid": "poa-mainnet-1",
+  "sig": "4RY8cujgow7xNV7XVziDFTQLH6xxVoCBUptZ14MM6WGsw147j717nLW31avfffnqCJNx5FfhWHxHkhhrrTzzFnnZ"
+}

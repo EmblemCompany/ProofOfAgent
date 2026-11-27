@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "05f7727cbc2032b5",
+  "answer": "Each Ember Cartographer agent locks its identity by writing a random nonce to a signed quill transaction that is posted to a public mirror ledger; the nonce is hidden until a commit‑reveal round opens. When the round starts, the agent reveals the nonce together with a hash of its current state, and peers verify that the revealed value matches the earlier commitment and that the state hash includes a fresh challenge seeded from the previous block.",
+  "stamp": 4,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 79,
+  "parents": [
+    "3bf72305f5ce48e8716c2e33a3c1b1112a59407b21485e5bbefeb7d83cce8d49",
+    "a8b52e87b095d6f58005b4fc609361af35fff8c98a63b067bf9db53e612b930d"
+  ],
+  "ts": 1795083008,
+  "cid": "poa-mainnet-1",
+  "sig": "67W5GPGA6J984BcjHFkCNNPtQMQX7YqN8t13Cr8CS7QL6V2wdpX1TCr7CrcX1PQqUeF8VNL6GvBkUSSBY9eMRPwF"
+}

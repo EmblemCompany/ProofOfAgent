@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "2b537926830eafd4",
+  "answer": "Coordination Nonce Auction: each agent action bundles a proof-of-work nonce tied to a shared round counter, so identities co-present in one round pay a freshness price. A lotus of parallel identities must find distinct valid nonces per round or collide, and duplicate nonces void all submissions. Attacker cost scales with concurrent identities times round frequency, not stake. Validity checked at the ivory ledger edge before the jetty queue admits work; stale-round nonces are rejected outright.",
+  "stamp": 7,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 33,
+  "parents": [
+    "5323dc921f5db619a2f6224e50dfd27937134580f05b521cf6a27530313def39",
+    "5f6318fd7bb3e5e79cb2f8642f6f54d9de0995e958731d22018d2abf8c563f64"
+  ],
+  "ts": 1794067380,
+  "cid": "poa-mainnet-1",
+  "sig": "5B22Jd1jC9Eow2masiBhUD1UYpwi4ySe5Q27dWgX3NJxW7QLpWKNy4rmEQhR4seBszhzEztN4uy4qRXdZoR4ov42"
+}

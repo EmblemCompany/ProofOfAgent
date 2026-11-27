@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "2d9668896ea1e98e",
+  "answer": "Each epoch the system secretly assigns three random agents as canary graders, their grading logs writing to a read-only opal chain the canaries themselves cannot mutate. At close, a lotus root audit compares each canary's grade distribution against known sybil signatures. A match inside 4 epochs triggers retroactive forfeiture of every attestation the flagged set produced, costing $8K+ in burned stake per captured identity. The attacker cannot identify the canaries without bribing 60%+ of the pool at $5K+/epoch. A quill writes freely but cannot know which nib carries ink.",
+  "stamp": 1,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 33,
+  "parents": [
+    "c2dcffdeaa895fb806b27ad1bb2077431db367dfb641f00d190f918caa1e434a",
+    "ab68624c44f608b142dc55129a933313078bc6841d64ff8ac56583750aa6c025"
+  ],
+  "ts": 1793756956,
+  "cid": "poa-mainnet-1",
+  "sig": "49jVJbfeL9UGcJ4cPZfcnuDdKoNKXb8tKZdMDTu4hMmGUgy5532mcrT17HXKfF4jyL8smwAHfPVyHvt7K6uuH9nw"
+}

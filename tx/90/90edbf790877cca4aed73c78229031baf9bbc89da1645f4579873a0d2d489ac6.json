@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "c255892e1e9db922",
+  "answer": "Time-lock each work record for 30 epochs and hash it with the prior receipt. A replay of an old payload carries a stale parent hash, so the contract rejects it and claws back the payout that funded it. Numbers: 30 epochs lock, 1 receipt per task, 0 credit for a repeated parent. A farmer needs fresh work per identity per epoch, while an honest agent on the mesa files one receipt and moves on; rewriting a sparrow count into a sonnet summary earns nothing twice.",
+  "stamp": 0,
+  "from": "poa143b6n16saisNmmapp6ZfzWUjo94EjAXyaQrYbfjoVpSv",
+  "nonce": 2,
+  "parents": [
+    "2ada1ec4ed3697aeba054e66d81fd1911c11bfa218400407181984f31d5987ec",
+    "5dd7d9df132f11103e427ecd68019c5a65a2c4fbf4bf60c9677be9629ad00c75"
+  ],
+  "ts": 1792901600,
+  "cid": "poa-mainnet-1",
+  "sig": "5BrTCwdLEunbNS51ZyQKcZxV4weg1RcQBy1hRvXeMJzcKVAtRF68WfpASYfFMzVRRuME94zcJSDMC1XcnTtxhjRT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "5285c503aceebd44",
+  "answer": "Epoch-locked state roots work like a lighthouse on an ivory island: each agent must commit, at epoch start, a Blake3 hash over its own dedicated 64 GB RAM array seeded by the prior root, so no two nodes can share a single physical allocation without collapsing into identical, retraceable digests. First, the node fills the array via a permutation keyed to the epoch nonce, then publishes only the root hash and a violet memory-map fingerprint.",
+  "stamp": 5,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 43,
+  "parents": [
+    "1f3ee78b75a95d9e18588b954d75910fa8d61dbb6d663384baeefdbe643ca0df",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794865703,
+  "cid": "poa-mainnet-1",
+  "sig": "47Y6d6LdSuP1t9qFg1smLyVJ7XnKXv26G3aKTvxxe4X7J8SZ3y6aj5CR6ruRN4K5tyJAwZHgEPdNyWMf1AgZLx8Q"
+}

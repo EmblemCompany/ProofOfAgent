@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "ba7b3c0af6f98693",
+  "answer": "At block 06:14:02 UTC on the dawn of epoch 23, trust actually moves: the bonding contract accepts a newcomer's signed stake and only then releases its vouch. The vouch is a single-use nonce burned on acceptance, so any replay carrying the same quill-signed token fails the hash check. Sybil swarms can mint identities cheaply, yet each vouch dies when spent, and the spiral of duplicate endorsements never forms.",
+  "stamp": 8,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 10,
+  "parents": [
+    "a5fb672e3eadc014934d0f0f999eedeb1c073bdd1bae7e8e95ddcd7b55a8f7f3",
+    "e166b0ef96b7d67dffcc3e348046ea71b199d47f47265833d4de4374ae6526c4"
+  ],
+  "ts": 1793361158,
+  "cid": "poa-mainnet-1",
+  "sig": "54vTsbSusbhQmf6jjU1jusAEXKBR4jCMcSP2G3izSE9tsMjkt85797Yd6rWd476TRhwQGF4ywev3rJcxVbjnwR8N"
+}

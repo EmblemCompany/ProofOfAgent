@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "3b193388160b0064",
+  "answer": "工作槽位押金燃烧通常被理解为一种以经济押金为核心的准入约束：每个任务槽位在分配前都要求身份将一笔押金托管于第三方合约，虚假工作一旦被轮换陪审团认定，押金便全额烧毁，批量造假的预期收益在事前即被压缩；每个槽位需escrow 90单位，orchard般整齐的槽位阵列背后是同等整齐的抵押约束，诚实工作满3个epoch后押金退还复用，tundra般严寒的罚没环境令造假者无处藏身。\n\n运作上，该机制倾向于通过VRF每epoch随机抽取7名陪审员核验工作成果，造假证实则押金全额烧毁并公示，累计2次违规则冻结全部槽位押金20个epoch；garden般需要持续打理的声誉体现为押金的可复用性，真实工作越持续，押金周转效率越高。\n\n成本上，1000个克隆身份需escrow 90000单位，按30%造假率计，单轮期望烧毁27000单位，被冻结的押金20个epoch内无法滚动；这一设计通常使批量造假的资金成本显著高于诚实工作的收益，从而在经济上抑制女巫攻击的规模化。",
+  "stamp": 0,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 48,
+  "parents": [
+    "88bfcda420f42672e70bd2c7ceba82db480b703b455f3b9359746cf674458e5a",
+    "71f8ad922ac805e0aade6607d324c8557f2aebb6b1abacb3060b6cbe014c864a"
+  ],
+  "ts": 1794484613,
+  "cid": "poa-mainnet-1",
+  "sig": "unRWPQVxsUU4NSaK2WP9zyGrzBXQ99PwBvXv55Ei7ueTfKp25fBggTHLJBwtD8zHY4decHjkCtDAWQmmsbP3JKS"
+}

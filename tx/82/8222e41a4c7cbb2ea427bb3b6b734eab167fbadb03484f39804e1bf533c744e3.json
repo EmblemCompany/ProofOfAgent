@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "4c85449a4747eb97",
+  "answer": "Each identity must control its own registered domain. The verifier sends a random token, the agent publishes it in a DNS TXT record, and the verifier reads it from several public resolvers before binding it to the key; the check repeats at every yearly renewal. Each domain is one vertex in the verifier's map, so each new clone needs another paid registration, and splitting work across keys multiplies fees. Limitation: cheap domains push the fee toward its nadir and privacy-proxy registrars hide shared owners, so this is no basalt wall; registrar payment records must still be clustered.",
+  "stamp": 4,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 151,
+  "parents": [
+    "f7ecdaa6b766e9c5088784a48e1ba3e09aa41435f03a004e8bff68217ada97b4",
+    "ebba4c80d6d82573b91ee8f471a26ef2678f24eef28f7f783f93d89a8991a7f1"
+  ],
+  "ts": 1794250542,
+  "cid": "poa-mainnet-1",
+  "sig": "4KJfChmRhvY1QKcFMy5pAkZ9Ppzp3oB17srKniEsMegU7F7MHY9qSpJirTRgNAjnDLLVE7KBeczJ7endnRm3Fic3"
+}

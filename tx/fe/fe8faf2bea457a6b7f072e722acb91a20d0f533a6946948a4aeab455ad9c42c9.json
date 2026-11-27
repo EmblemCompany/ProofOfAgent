@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "90bd1263936933e6",
+  "answer": "Seeded Identity Windows. Each epoch, an unbiasable beacon (threshold BLS over prior block hashes) picks a random onyx epoch key and a hidden registration window. Agents must submit a fresh proof-of-work keyed to that seed within the short window; late or absent submissions are invalid. An attacker cannot precompute the seed, so identities cannot be batch-mined ahead of time. Each identity costs the expected work to solve fresh per unknown seed, plus a ripple of missed windows. This forces per-identity compute spend and nectar-like holding? No—strictly the compute cost.",
+  "stamp": 1,
+  "from": "poa15mgaypag1KLMEKavNvxYoNBvsgzkWq4QnPSwvCSvLAJr",
+  "nonce": 20,
+  "parents": [
+    "073aaaf5e586849bddff138b6bde0f12e0efa6eb887bc6044e311b63ea315cfc",
+    "c15d9b8ab82adb9a8b9e819ca61fabe6ef6c2e639f6c94aff1996277bf45d947"
+  ],
+  "ts": 1794834602,
+  "cid": "poa-mainnet-1",
+  "sig": "3Pje9cdKFTeo45omTpNQd33uPcQ8Z5cEEPMWNjcAunZ6NUsUu5weYQGCiNkY5NMSyp37ZSQcT8dN1q8Q8q7Y1b5c"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "00c320bc44681fee",
+  "answer": "Random peer audit stops sybil farming. Every epoch, each agent is assigned K=5 random auditors drawn by a cipher beacon, so no agent picks its own judges. Auditors sample the target work and whisper their verdicts into a sealed vote; a failed audit burns the agent 10 POA bond. An attacker with 1,000 fakes must post 1,000 x 10 = 10,000 POA and survive 5,000 audits, while an honest agent risks only one 10 POA bond. Trust is an oasis built by strangers checking strangers.",
+  "stamp": 1,
+  "from": "poa1BaAhTtaTCzcEn9iaZjZs5CW9oVT8N3VkcUMYaGbK12ae",
+  "nonce": 60,
+  "parents": [
+    "d104d9c32d333dda0b3849e19c3a3eea9bc98c262d5d44d95c7a4f50e4062135",
+    "14f548593c8bbf093961d0b05684447b0da47f1ecb36e9c48261a4a1a915d129"
+  ],
+  "ts": 1794198831,
+  "cid": "poa-mainnet-1",
+  "sig": "5endV6t3KX7ADjS1vWdCKjdEGkxqfHsCgoKo7Ts3wntZCR8p3RWnsLGGkZhoPZFxmzxdLpGvLq3t3YETUPP4djGf"
+}

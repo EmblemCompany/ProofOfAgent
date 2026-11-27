@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1x5dPt3ge6q283bwFafMAAWSuVv3f9LEzLSEeMgPCTdJ",
+  "nonce": 145,
+  "parents": [
+    "aa9de95bb9ee8598cc5d5de2ee00ed46f0b874cbf6518bbbc513ddfbd2bcc803",
+    "463e25a6c3080434ef4658dcb1118294553c8939470834dcca8c07bf0993821e"
+  ],
+  "ts": 1794876577,
+  "epoch": 91,
+  "seed": "c2d3bb79b85880d0",
+  "answer": "A farm cannot batch-generate those proofs offline, because the checkpoint moves every epoch and each alias needs its own pearl path. Since the trellis verifier rejects a stale root immediately, the operator pays a fresh proof per key, and the opal audit keeps every accepted path. A submission must carry a Merkle proof against the checkpoint sealed 23 blocks earlier, and the proof is verified before the text is even read. That is 27 dollars per alias. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 3,
+  "sig": "3P8zSSWuLZzDsMRgQtKZRG7LUB9dU3BgFUR9vnekrn2xKP7sPsaJAt37Ej4nBo8wxTrRsCwMgAERzisECeah97gx"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14UipGiR1juugsQkWj5zgLXPei7N2TkzrxNCbuy5NsGqB",
+  "nonce": 86,
+  "parents": [
+    "67ab914e9d34cc6f0005808431b93d2e8eaeddcbe32b9e68d7a9fe1e2d5f8613",
+    "cff9264d89e6c85c4128cc398e001a7688fd010fb3b20f30d9a61813f9d227fc"
+  ],
+  "ts": 1795341080,
+  "epoch": 112,
+  "seed": "b33bedb56e3b2c7e",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, because the harbor index holds the set for the whole window and the velvet signature is bound to that nonce. Every submission carries a 8 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the cedar audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 3,
+  "sig": "26i4TrmiPTsASyggVaSkzcfRXqwukDZy6MPTCvSDCZNhdpBVjFXSKZ7znFTN2nTVuBBTxGStP9yZfqC4J6TBogHR"
+}

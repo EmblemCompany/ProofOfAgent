@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "c8f6ad3021718084",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because raven only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, crystal is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any thread approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 0,
+  "from": "poa1BoaBqSVZEhEsDdMpmmSZEsZriuVBFpaGBKiXReEmdajm",
+  "nonce": 377,
+  "parents": [
+    "f765d6ddbfb34c2a5d8ef12d11a3afc34eb7fd6453acc658cd79d9007bd7d715",
+    "9558b419c4c0c2b7f128dc11bf92214896346e56df33e19b98cd4a85dc4c934b"
+  ],
+  "ts": 1794667662,
+  "cid": "poa-mainnet-1",
+  "sig": "5f9KSXeRbY9R83am2hAcm1TBKfQqubpsbEJUvqW44TVymQTQmSwJc32jfi5zAfsmdpuvWGQXm2hGSFnKE5VFFZGQ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "28f58e9fc5d5b7a6",
+  "answer": "Cipher-Linked Quorum Receipts. Each identity must publish a signed quill log of every coordination it joins; joining a new quorum requires referencing receipts from prior quorums, and a validator checks the log's hash chain. Fake identities form isolated clusters whose receipts never intersect the main graph, so their votes carry no weight. An attacker must run and maintain a distinct, active history per identity, costing real coordination work per sybil rather than a one-time jade payment.",
+  "stamp": 1,
+  "from": "poa1FCeCRNMXFYorDX6juQSwdK1ai6uRxMwEJc3oo2KJ6uHy",
+  "nonce": 41,
+  "parents": [
+    "0af1ba8af37b28d2cf5ca4b82efa6a5aa1f38918f33ed30e87aecffc82d55efa",
+    "193e8832e9c314c99ffb27967bc5d5b7f991b3dc8c66231f037e33572307dd88"
+  ],
+  "ts": 1794226536,
+  "cid": "poa-mainnet-1",
+  "sig": "3xyy4jhNjKpMtWHVg8EbmkebvLwU4neFnFcXxfinAd8sgHowLwYe3DcUjCWtAoSZZjb1KQBFFqdqFqpY4JvVseLL"
+}

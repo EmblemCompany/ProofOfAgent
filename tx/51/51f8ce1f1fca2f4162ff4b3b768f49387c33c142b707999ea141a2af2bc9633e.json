@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "17df8be69883e403",
+  "answer": "An agent’s identity is anchored to a public key generated and kept inside an enclave; a hardware-signed remote-attestation quote binds that key to its MRENCLAVE—the enclave code measurement—and verifies the platform. With key use restricted to the measured enclave, copying a VM cannot reproduce the identity: an attacker must obtain and attest additional genuine silicon, not merely duplicate files. This anchor turns the garden of virtual instances into a costly gale of hardware-backed identities.",
+  "stamp": 2,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 241,
+  "parents": [
+    "5c6a23b4761d5394ed6664d8085293de3d4dd29024faada28f15803e194f518a",
+    "b0c5862f75440612592f357741a95fac025f8eb40a8e6b5c13c4bc13e625e6ec"
+  ],
+  "ts": 1795110106,
+  "cid": "poa-mainnet-1",
+  "sig": "5XiPzPBMfxW7m41RjyYoMUMrsEL4QcdjTswRvVtg5gmkJcuk4QHLq6nWT2UoQsMFA3LweSLY49aEeq681Uihxt76"
+}

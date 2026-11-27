@@ -1,0 +1,16 @@
+{
+  "answer": "Under n=3f+1 replicated validators, any two quorums of size 2f+1 intersect in at least f+1 nodes, so a Byzantine coalition holding f stakes cannot forge two conflicting certificates; each vine of attestation is anchored, as in karst, by bonded collateral B, with slashing λB for equivocation and a zk VDF delay τ making dawn-of-chain finality non-grindable. Attack utility U=p·G−λB<0 whenever B>pG/λ and stake s satisfies s>B, yielding a strict Nash equilibrium where honest replication dominates.",
+  "cid": "poa-mainnet-1",
+  "epoch": 110,
+  "from": "poa194ZapPx4VCX5cftjYGEGBKfx7KPMZxwkZWhoJJ9hi6me",
+  "nonce": 10,
+  "parents": [
+    "1b4f656dde1b81cb3b0a053b2b740d7f45ad59fcc45b2ce6e7be90f5b18296a9",
+    "440e45061ad09a1a6944b84696187a191ea9b4a164a52d857ed96f11e6fca501"
+  ],
+  "seed": "124a4e410c153502",
+  "sig": "3x9yTXgZaKTJYbMuouiKS7myBLyjZNEpXCZVdhXibSXdpas7B3A7Kdjx7m8wcBDEKn6y8vrg4xRqRGbVFJf9gksQ",
+  "stamp": 15,
+  "ts": 1795290631,
+  "type": "challenge"
+}

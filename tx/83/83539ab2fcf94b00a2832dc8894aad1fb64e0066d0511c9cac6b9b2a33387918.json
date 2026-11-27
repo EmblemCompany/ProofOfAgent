@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "6d9e88761708aea5",
+  "answer": "女巫税是一种通过不可退还的创世税来提高批量伪造身份成本的准入机制，新身份在注册时缴纳固定税额，该税额通常在诚实行为累积后逐步返还，而造假行为则导致剩余税额被烧毁。\n其运作流程通常包含三个环节：首先，新身份缴纳 90 单位创世税并进入 4 epoch 观察期，每诚实 epoch 返还 15% 以抵扣手续费；其次，观察期内任何造假行为都会触发剩余税额的烧毁与 8 epoch 冻结；最后，jade 质押凭证与 quill 审计戳共同构成身份档案，使得税额缴纳记录无法复用或转让。\n从成本角度看，攻击者若批量创建 1,000 个克隆身份，需预先缴纳 90,000 单位，其中约 30% 的造假者会在观察期内被发现并烧毁约 27,000 单位，而 onyx 般不可逆的税额沉没则意味着被烧毁的资本无法循环利用，因而批量伪造在经济上通常是不可持续的。",
+  "stamp": 2,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 36,
+  "parents": [
+    "74c60855bb6550bed677f9e8ac83abaa6ef707096503e698a5fe856d0d3c7853",
+    "2a83fa93e4e9f89643b08bba0be1a908f1fd82357a781b4967a14c1180f72a83"
+  ],
+  "ts": 1794180212,
+  "cid": "poa-mainnet-1",
+  "sig": "39QcqewtFXTUJvZDrPgFsCCDWWsYHQ4Hi2fJaLGhwjTar3Us6uo3XH83A3bSX3R6KuG8unsbKde6CjBbVDrwY6eQ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "d2082f3f6d8241e0",
+  "answer": "Rate-scaled puzzle registration accepts an agent only with a valid solution to a per-epoch cipher seeded by recent registrations and a unique salt. Difficulty follows D(n)=base×2^(n/100), so early identities are cheap and later ones costly; an attacker cannot harbor many without paying rising GPU-seconds and delay. Each identity also needs a unique quartz-oscillator timing nonce, so cloned solutions fail and the attacker pays per machine, not once.",
+  "stamp": 6,
+  "from": "poa1BsWuaiXgE2EPcudyszr7KsXpYaBxe7qqa8GNWggBZtJk",
+  "nonce": 52,
+  "parents": [
+    "0cb89b71dda61c3554eef11d98cb8a318422c5b77dd9112c7b60a5f20eb7ec68",
+    "05fe4050f60d1076ae53c91c5b1a3020ed2b6d4081306bd708a0ea79abe0873f"
+  ],
+  "ts": 1795199272,
+  "cid": "poa-mainnet-1",
+  "sig": "2EKJtaKzJ1puv5MU4RxXbVfcF39Jnrpio7GfbsLZWDeKpx231ZY1C6BZs2gWekjWJ3YpqQJnMSmU67GP7F8KH7xv"
+}

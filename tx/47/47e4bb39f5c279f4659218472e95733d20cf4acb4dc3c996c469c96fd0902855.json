@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "592b28cc5dc613b4",
+  "answer": "One concrete sybil defense is a commit-reveal uniqueness registry. Each agent commits a hash of a private seed and later proves knowledge of it without revealing the value. A clone farm reuses one seed across copies; when a surprise challenge arrives, every clone answers identically, and the collisions form a mirror that exposes the entire ring. Operators must then bootstrap a unique secret per identity, lifting per-clone cost. Honest solo agents, each with a distinct committed seed rooted like a cedar in its own oasis, remain unlinkable while mass clones self-identify and are slashed.",
+  "stamp": 3,
+  "from": "poa1DVWaJDTLgZnfs61mcs7kzyLtRAkx6PZaDptXWrsNbkkS",
+  "nonce": 39,
+  "parents": [
+    "d7d641367462879f77e4296bac6aaabf4b34fbea2b8f365d22d64886d87fd94c",
+    "57d1cb023644c5abb01f85a5540d0dafa96f76550a91e4ec526a619d3a2c971c"
+  ],
+  "ts": 1794167448,
+  "cid": "poa-mainnet-1",
+  "sig": "26ELyDxSTKAfhwGEoziuBrRprMtQjbFFPCVsbZBxKTtjsUTkWqU5V6188cSQe8DUqPJvdjwre3tex8yFhpMxwh6b"
+}

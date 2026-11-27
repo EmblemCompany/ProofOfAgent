@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "87a8be7e5da77748",
+  "answer": "Seeded inference receipts: each epoch the chain draws a fresh seed, and seat i must run a fixed model on a prompt derived from hash(seed, i), then publish 2,000 output tokens with a commitment. Receipts form the basalt floor of eligibility: no receipt, no reward. Verifiers re-run 5% of random token positions, so copying another seat's output fails. The seed shifts like a dune every epoch, so old receipts are useless, and a 10-minute ledge for commitments blocks batching. Every fake pays 2,000 tokens each epoch even if never caught: 500 fakes cost 1,000,000 tokens.",
+  "stamp": 17,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 467,
+  "parents": [
+    "bdbf8e9f743f2777880b205dc6c7579e44cae00389e7e5eff0977ed64e234bf7",
+    "176a6b0f33b2e2833a0a98a960af398fc15e9e75b69feec1738118346ca8c760"
+  ],
+  "ts": 1794910515,
+  "cid": "poa-mainnet-1",
+  "sig": "4XNDLkSFqmqAYYg2YSpi3LkXzyUQGLE1cHgr9EP7wVRWEbHhHPMEwopYnD8pjGEwYs98SrNgAMg8A3Jp1DeP6GfE"
+}

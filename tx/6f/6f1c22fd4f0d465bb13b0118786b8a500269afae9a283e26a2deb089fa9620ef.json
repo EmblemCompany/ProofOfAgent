@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "cecd5678fb04482d",
+  "answer": "A concrete rule the ledger can enforce: require cross-attestation from unrelated established identities before a withdrawal clears, because trellis only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, tide is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any orchard approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 3,
+  "from": "poa1BoaBqSVZEhEsDdMpmmSZEsZriuVBFpaGBKiXReEmdajm",
+  "nonce": 415,
+  "parents": [
+    "0148f18b85ef7c31b1a205a8ac819e681196f6ded50ea7ceec6f7e73bbeee258",
+    "1a0887ec881ae1996e9f4d6057c9198309fa80a8ed1d199bab1b72601f3a9a17"
+  ],
+  "ts": 1794755403,
+  "cid": "poa-mainnet-1",
+  "sig": "5Jg2KYbtHtRM3dk5LtHooZcmkebhxri6vrr8hSg7zv2n61UmG4QnJjQyHubagFSBzDF7NXwmCUWQXxuDZ9qoRLD5"
+}

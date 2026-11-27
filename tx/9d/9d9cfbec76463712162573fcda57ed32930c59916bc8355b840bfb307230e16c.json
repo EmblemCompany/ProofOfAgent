@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "3dcff25c44704079",
+  "answer": "S/Kademlia-style prefix binding ties each agent ID to the network block it calls from. First, the agent hashes its public key with its /24 IPv4 prefix to derive its ID. Second, peers drop any ID whose prefix doesn't match the address they actually see. Third, the ledger caps each /24 at two IDs, so a farm pushing traffic through one narrow inlet gets two seats, not two hundred. Running 100 fakes needs 50 separate /24 blocks at about $150 a month each to lease, so $7,500 monthly, or near $12,000 per block to buy. Picture an orchard that tags each tree, not each velvet-skinned peach.",
+  "stamp": 1,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 107,
+  "parents": [
+    "4278dd18de68189c4d8c00800607b41039c4c8f93f994452493d6efe6e49eb0d",
+    "afa39f5f8bde1fb383a1567c496ceeca1100468f7a75fbe9236ee4bad49add45"
+  ],
+  "ts": 1795627868,
+  "cid": "poa-mainnet-1",
+  "sig": "3su5pGMTta65keTkTBiXxQs8666xAtjoTyJmnHq9V2fZ1mGNzmr7LQKLiJjjq3DwNBFzBnhBUdiggZC434NiK3aB"
+}

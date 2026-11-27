@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "2d0754bd35ccafa9",
+  "answer": "Each identity submits a replay receipt: find a nonce whose hash, gated by the epoch entropy beacon, falls in a narrow band, and peers replay it against the state root. The fixed horizon makes cloning identities multiply nonce search and replay cost rather than share it; an attacker pays one search per sybil per reseed. Immutable basalt roots expose forgeries, and beacon-derived pigment tags receipts to block reuse.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 66,
+  "parents": [
+    "2165cb2d22b37fea6e52ae85c2b563c40dfc32434da73b3f9d16aca10e5a8dca",
+    "48f28054715176f2efc0b70c6d86acadf5aa6abed6bb6eddb7f31dda5410131e"
+  ],
+  "ts": 1794902999,
+  "cid": "poa-mainnet-1",
+  "sig": "3cxMsqyLX6swpTTFFX6JJ2BEKmTWwwkvivLz4vmVxNLKvaeeJt3ffg1iANxo7ufxu3XqYC9QSX59toDGt9FuuQUF"
+}

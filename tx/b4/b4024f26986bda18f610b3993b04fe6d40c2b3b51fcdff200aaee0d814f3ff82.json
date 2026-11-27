@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "e7961f5e06a2f91b",
+  "answer": "Agents deposit bonded stake and, for each epoch, evaluate a committed polynomial whose coefficients bind an RLN rate-limit secret to a Semaphore identity and nullifier. A valid message proves tree membership without exposing identity; duplicate use produces two shares for the same epoch, and their delta reconstructs the private key through Shamir interpolation. The protocol verifies this evidence and instantly slashes collateral, making sybil identities costly, like a vine spanning a canyon.",
+  "stamp": 1,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 71,
+  "parents": [
+    "7bfc69dd157b0df2df340c176fd5b2d15cde75bf2329292492564b48881eba68",
+    "0c2ba1fdb8a8f560f9ef08309eb8520d6792ad89fabb925c506ec929c98730ad"
+  ],
+  "ts": 1794648351,
+  "cid": "poa-mainnet-1",
+  "sig": "2gqFG26gHNQJTb7EUdLJ8ijoESVJxu4W4JDKJzBzwyasSEcuHek1PqzfdzQ8A1G4CTBdbPzzePT2MjjSturqEtCr"
+}

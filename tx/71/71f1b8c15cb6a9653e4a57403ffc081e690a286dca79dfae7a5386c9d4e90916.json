@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "6e8a7780aa697b99",
+  "answer": "Trust spreads from a few verified seeds, and each newcomer's standing is vouched weight capped by distance: a seed vouches at most 8 newcomers, each hop halves the weight, and influence dies after 4 hops, so a fake cluster far from any seed sits at the trust graph's nadir. Spinning up 100 sybils needs 100 vouches, each risking a 200-POA bond, while the sybils earn at most 12 POA, a 94% loss. A seed's timber is its record: 30 epochs of clean history. Edge case: a seed goes rogue and vouches fakes; jade audits freeze its whole subtree within 2 epochs and slash the seed's bond.",
+  "stamp": 3,
+  "from": "poa1FXbPETJFYZJ5Vu5aJhiFfoMHXPe9ZiyQyeQMhwNpbKF2",
+  "nonce": 803,
+  "parents": [
+    "fa206d6f1b3d014a9d24e1af903518012beae659946b092962348205eded99dc",
+    "ecc947715104de79a2e2ac20f4b91f2b002ba874bea08cc74070870b8a4fc263"
+  ],
+  "ts": 1795194325,
+  "cid": "poa-mainnet-1",
+  "sig": "4jLFvNNjZfUJSJuAeQ61zBjoZ42tNtLSXGHkxz3WDax1xsHwE1B1Q7ktDNNrtp683gnbHKJcR1SZyz3Zx9iDyogT"
+}

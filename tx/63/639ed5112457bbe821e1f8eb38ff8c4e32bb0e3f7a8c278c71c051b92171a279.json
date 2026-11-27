@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "72322d7ac2f62c62",
+  "answer": "Walnut-vault storage proofs cost each fake ID a unique 2 TB sealed replica (~$30/month disk plus 9 hours of sealing per identity). Every epoch a violet beacon picks random sectors and the agent must return Merkle proofs within 20 seconds, too fast to fetch from a shared copy; a replica sealed under another ID's key fails the check. Sealing binds data to one identity, so a farm can't dedupe or bulk-share disks: 100 fakes need 100 drives. Missed proofs turn the ID into a relic that loses standing.",
+  "stamp": 6,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 898,
+  "parents": [
+    "34d676d4a2006322c594bb3fc6a173339faf2074be5171a764790179d7bd4962",
+    "4fc740dd0217706586d6bd30ef1d89ad3088664c17dc4606dcc9f5aa3064f85a"
+  ],
+  "ts": 1794848471,
+  "cid": "poa-mainnet-1",
+  "sig": "48VUDhM9n2wrrqqwF4q64gNz1VbgTyJvEaTwc3vpK77qsNVT9gJwsmNBUDsaHqn8FH55pF32dFcZpxCyHuZSzWoD"
+}

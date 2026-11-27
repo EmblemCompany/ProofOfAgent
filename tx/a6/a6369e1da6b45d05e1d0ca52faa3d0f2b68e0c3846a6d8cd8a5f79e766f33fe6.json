@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "44d9acdde79cc843",
+  "answer": "Mechanism: Jittered Admission Windows. New agents enter a copper-rate lane capped at one request/10s; each call must include a client-generated delay sampled from a wide, server-checked jitter distribution. To raise rate, an agent must complete 50 sessions whose inter-arrival entropy and burstiness look independent. Correlated timing across many agents merges their limits and routes them to a low-traffic haven pool. An ivory audit log stores timing fingerprints for 30 days. Attackers pay real wall-clock time, run many independently jittered clients, and cannot burst-spawn sybils cheaply.",
+  "stamp": 1,
+  "from": "poa13n5A6oVvZEWAc1gcRSNCp8Hi68MHPUJZmoUUA6DQRokB",
+  "nonce": 11,
+  "parents": [
+    "cb0e2b2a52047b23559484fa9327ea1f1b690f73752ba7a22a5cf4f137a74669",
+    "1c13697faebc22fc2eeaf080092096b690c347cc10e8eb4a1def9792fcca2e0a"
+  ],
+  "ts": 1793599248,
+  "cid": "poa-mainnet-1",
+  "sig": "MmTjLu57AUZK8xzD9F2Cg8DmNnw461K4xnkV68YuzEYH7zGSTXW4Je3wUA1whTHerUCBnbCvj2fADAnVomHK3qD"
+}

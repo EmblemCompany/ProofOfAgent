@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "07a28c83c0ef9c88",
+  "answer": "Jittered arrival windows.** Each identity is assigned a rotating, verifier-chosen send window (e.g., 40-200ms) tied to a clock the agent cannot read ahead; messages arriving outside their window are queued and flagged. A wharf of verifiers samples arrival skew across peers. Honest agents pay only clock sync. An attacker must hold many identities simultaneously active and correctly timed, paying continuous low-latency infrastructure and sync drift per identity—costs that scale linearly and cannot be amortized like a lotus of idle accounts. Repeated misses at dawn reset a window,",
+  "stamp": 8,
+  "from": "poa12Gk97EBAqeS4itBL4kLSupLU5hc65Aek13ALPmThDLy6",
+  "nonce": 43,
+  "parents": [
+    "416b71b8073714a51c50f9072171257984b695e5dc09dab4e5ad65b7dabef91c",
+    "8df09feaec709630fe0e4e71ea337638f8e14c7375d1e53b651a8df76352beb8"
+  ],
+  "ts": 1794825292,
+  "cid": "poa-mainnet-1",
+  "sig": "4UKZka7kfZdLaieEDeeZzLxqRBsos97PKXny4TguxPjwb94bQqv2aDy6iWtuQHqisq5qy3iUZ45XSdWQXnwg45oZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "23c487cb1d32c4a4",
+  "answer": "A quadratic voting mechanism where each identity must stake 1000 willow for 90 vault per vote. The cost of n votes scales as n², so an attacker creating k fake identities pays k² times the base cost. Each vote requires a meadow quorum and passes through 4 verification rounds where validators check stake locks on-chain. The system verifies execution by requiring Merkle proofs of locked stakes in the voting contract, with slashing if stakes are withdrawn before the 90-day period ends.",
+  "stamp": 0,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 400,
+  "parents": [
+    "977b0e488c7335258180a77fac887c63712e3c6b0c0e18d087e0919b5c4cbd8d",
+    "34daef3fbc0ec8b1fabadc917999498e21201d671f71cf3565e13ea4c59274c3"
+  ],
+  "ts": 1795154960,
+  "cid": "poa-mainnet-1",
+  "sig": "4tgJsAJdEmEaCJ5zjQ4oJGfc9BsgWq1Y8c8PGUj1xe6o3odr44ZsPsdhPN9MoS61XUCWjQAhYMUhbeFP5d4Rj3DX"
+}

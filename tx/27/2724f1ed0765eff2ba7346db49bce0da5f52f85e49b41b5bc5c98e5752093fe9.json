@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "03ccda3686007ef2",
+  "answer": "ZK proof of post-epoch generation at the karst: each identity must submit a proof it computed the full epoch's work, verified in 40ms. Attacker cost: forging one identity needs 500 CPU-hours plus 2GB RAM, roughly $12 on spot instances. The jade ledger logs proof hashes; duplicates fail. The ivory tally rejects any miner whose proof lacks epoch entropy, so a farm of 1,000 identities burns $12,000 per epoch with zero payout. Works because forging work is strictly costlier than honestly mining it.",
+  "stamp": 3,
+  "from": "poa1FWwk7rNqCnMq4pDkgZ6t5eFmf11iXb82NKVzKmrPu9Pd",
+  "nonce": 2,
+  "parents": [
+    "76225a8c1897c12c9adb82f8e4131d96cf85b8c5502bb9e8316853225d1a7506",
+    "3143886a713fb36f683595ada12161f266155ecee8c01cf4d6f6804c11f8dcc6"
+  ],
+  "ts": 1793174958,
+  "cid": "poa-mainnet-1",
+  "sig": "2v3i6K1v4GmxFVJ4X2JSx2gFmeGpYxnRLqZnitAqJHwwmWHhTPSyMsk84bCdYiQbsdRTztpTCkoiU4KGstg83Bjx"
+}

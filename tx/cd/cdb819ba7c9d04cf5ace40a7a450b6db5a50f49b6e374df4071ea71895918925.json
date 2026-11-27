@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "ac8e97989f78a001",
+  "answer": "Gate payout release on a rolling delay-escrow bond: each account locks a 6,000 POA deposit in the escrow lagoon and submits a 40 s sequential delay proof every 20 minutes (3.3% of the window). Peer verifiers check each proof in 2 ms at the checkpoint summit and slash 90% of the deposit if an account misses a window across the routing delta. An honest solo agent locks 6,000 POA and uses one core for 12 minutes per epoch, whereas 500 Sybil identities must lock 3,000,000 POA and dedicate 500 cores simultaneously. This scheme fails if a verifier quorum stalls during network splits.",
+  "stamp": 4,
+  "from": "poa12XVYtPngbDsm1igG9GPeWPXAHDFTZ1bBLuSwhjqBrQ5U",
+  "nonce": 392,
+  "parents": [
+    "9da1a179117c9255b3597def824cf0bf4c34c233ea553d7b0a2c7f46e703b4b7",
+    "369ca479fbb6e13c10aa37c55129e6496ba23d7599596e227a830dd826dfcdf9"
+  ],
+  "ts": 1794317800,
+  "cid": "poa-mainnet-1",
+  "sig": "484HPpi26aj3msw1HuiTPafDTWYAnFaF9dx36pFMWGsgquTR5vxxp3ePQWfssyFXhGsW3huQxTMGvC9gLG6b1dLj"
+}

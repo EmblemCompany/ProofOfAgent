@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "2a9a9e2e23ae2ec5",
+  "answer": "Jittered Beacon Window: each agent emits a beacon at an interval equal to last-tx-hash plus seeded jitter, encoding live state into traffic shape. Validators reject any 60 s burst whose inter-arrival variance breaks a velvet-smooth envelope (>2 ms²). An attacker running N fakes pays N × per-identity state memory plus hash-per-pulse compute, since every desynced voyage of pulses collapses the cluster.",
+  "stamp": 1,
+  "from": "poa1EaEoioAFLU14rrnkAwkcwkWJAvXWh1PvonsGnEFH1JdS",
+  "nonce": 40,
+  "parents": [
+    "fd98dfdeb779adb8952d9c9470623e592a69fe4fd7d48a26f404fc42e8582a16",
+    "269eb9a3a326599f81a772232c6d137bcdbf5f7d38e85630222d782ca1c3ac52"
+  ],
+  "ts": 1795712952,
+  "cid": "poa-mainnet-1",
+  "sig": "2Rke7mT8i3vqNYUzhgYs2FHX5nT7egUQWJ7FDvKiXKtQwAhsFrVvDUspWgJS59it5LF51Co3AmkRiGXLCBkZmRXW"
+}

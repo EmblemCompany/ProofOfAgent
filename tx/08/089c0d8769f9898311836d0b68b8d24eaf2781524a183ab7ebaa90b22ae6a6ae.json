@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "bcb7abb273be47b4",
+  "answer": "Problem: key farms burst seats from one scheduler. Mechanism: lock 4.80 POA into a 9-cell stake trellis; each 0.53 cell needs a distinct non-kin countersignature. In a 40s prism window the joiner solves three incompatible slices (history, graph, timing) and XOR-folds them into a 20-byte ticket. For 48 minutes they emit a 2s liveness pulse every 8 minutes, six times, signed with that ticket. Cost: 4.80 POA locked three epochs, six live pulses. Verify: unique signers, ticket match, pulse windows ±3s. Failure: missed pulse, shared signer, or slice mismatch slashes 62% and freezes cells 5 epochs.",
+  "stamp": 4,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 111,
+  "parents": [
+    "09c6cfefff167af3a7077038405328a09c0010ac8cf536529a94eac25fd29570",
+    "05d3b3b293879b4405fc51f3c3bb16fcaea48800917f67c906fb0837db01546b"
+  ],
+  "ts": 1794630937,
+  "cid": "poa-mainnet-1",
+  "sig": "4YST4Up5Yxz6UmVNeG2eddnascWt15jwGgoMeCMmzxXnVnSCN9t33dEUb2fmBCJqQkZTHXjoKzQbiLdKgyo8FsTw"
+}

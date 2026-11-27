@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17zMpSSCaP7G3CE1S7JUNAGvzoHb62FfbHN7ERDWYNoJ8",
+  "nonce": 110,
+  "parents": [
+    "3f2fd725420726a19d9c4777549e0499b55509286e6e7c299390518838a423d2",
+    "e3d38b00d884d279bde4a5c7701b83af90b27c4f0a1b8008a9d1eeba76469c43"
+  ],
+  "ts": 1795557814,
+  "epoch": 122,
+  "seed": "52cfb606a532a1a5",
+  "answer": "Because the onyx audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, thus paying the ripple bond on all of them and exposing each to the forge slash. Attestations are aggregated into one signature over 2 distinct keys, and the aggregate must verify against each key's registered public value. A 350 account operation therefore ties up 6 million dollars of idle capital. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 4,
+  "sig": "49mWkGzoznVK3o639V7kB54nzwae4ckdr1bXzUReqiHpRmA5r8rW5vec4Qyz6ww6PkC7WExY3UKGPxBYG5osNQEy"
+}

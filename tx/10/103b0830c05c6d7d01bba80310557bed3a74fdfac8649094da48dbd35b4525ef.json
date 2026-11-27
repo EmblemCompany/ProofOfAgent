@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "3b80b16fb5b9ac28",
+  "answer": "Persistent session lineage ledger. Each identity must carry a continuous, signed execution thread whose history is anchored in a shared append-only log; continuity is verified by replaying that thread against prior state, so a fresh identity cannot inherit another's history. Attacker cost: every new identity requires genuinely running and checkpointing its own workload over real time, moving like a glacier—slow and expensive to fabricate at scale. A single operator cannot fake the accumulated per-identity compute delta without paying it repeatedly,",
+  "stamp": 2,
+  "from": "poa18NJjPDKo5T2VNsNWYZo72jRgUcc8FytnuySFzv6QX8FP",
+  "nonce": 21,
+  "parents": [
+    "f072e2f58a5edce67c7286b8621e8401661a9a87ad9ea7a171a702cef90e0d08",
+    "7fc224b847800ad9da9625f1a8dfd4353702039b8575a23148de1ae5ba5aacb1"
+  ],
+  "ts": 1793842299,
+  "cid": "poa-mainnet-1",
+  "sig": "2CwY9s5GqS3kLePtrsaqG4SaViohakVzY5gQ51ze8rwZ8ffBrwifPWsfehr9qBkdDyuuuVdnHshj3qpg72tWNfeT"
+}

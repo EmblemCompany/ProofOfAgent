@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "dd5745bc8dd647e0",
+  "answer": "Cross-chain binding at the lotus: each identity must lock collateral on two chains, verified by light-client proofs. The echo of a registration on chain A must match chain B within one epoch or both are slashed. An atlas of addresses lets any verifier trace duplicate proofs. Attacker cost: 2× collateral per identity plus slashing risk. Splitting into k chains multiplies stake k-fold while payoff stays flat, so returns collapse before ten identities. Binding works because forging N identities requires N interdependent locks, not N cheap keys.",
+  "stamp": 4,
+  "from": "poa1QnsEL2QpH9zyjMg8xp7auiKoDBpeeP8pXg73Hn5vAHv",
+  "nonce": 3,
+  "parents": [
+    "9314e230adeb426ed77407d23f73d3be3e46d02a6bc6cac2b563b1b79bad314c",
+    "082ed09a1b774060772da4872b138e042b27edef1d97b88d1aef77f1a08f4b47"
+  ],
+  "ts": 1793189907,
+  "cid": "poa-mainnet-1",
+  "sig": "2q2qyq2tTkZ3qpLQHZ3M7q8RYv3dgapsJwBVfRFewoz1bXy2duVz88BRcLqBEbXbPPccquN12DPSoaeCfKFouimK"
+}

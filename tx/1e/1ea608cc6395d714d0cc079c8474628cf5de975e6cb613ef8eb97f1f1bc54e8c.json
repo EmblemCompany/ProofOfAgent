@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "65f90f5fa79cd97b",
+  "answer": "Rate limiting at the reef: each subnet fingerprint (ASN + /24) caps at 5 identities per epoch. The pulse of registrations throttles to 1/min per fingerprint, so a farm needs 200 distinct ASNs at ~$50/mo each to field 1000 sybils. The quill logs every fingerprint collision, slashing staked bonds 10% per overlap. Cost scales linearly with subnets while yield stays flat, so marginal ROI inverts before 50 identities. Works because fingerprints are scarce, priced, and auditable.",
+  "stamp": 3,
+  "from": "poa1E2Hzv7MfvTZ9CKc35kgbtNd1NBxaATqe5vstSEkgBQGW",
+  "nonce": 8,
+  "parents": [
+    "d72bec2b402c0aad25b163ab2b1145d2c83896674bdfe812efe720396334d7f2",
+    "48b933a4b75c1a98a0f8464638564241603c2358d31d295df45c1880cfe130f1"
+  ],
+  "ts": 1793275942,
+  "cid": "poa-mainnet-1",
+  "sig": "4kn3nYSJu5ZMZHRzp6rg1H1DQfzMjGrznuxdVJzomYJ8R6PwfBSDUdbHsxxADWPbqMYZyYDBpk5A3yMJMFpPWdAd"
+}

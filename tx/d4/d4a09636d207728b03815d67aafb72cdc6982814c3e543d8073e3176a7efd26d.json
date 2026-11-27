@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Atqp1BKMe25HjGwdMJkurKVttQWSwiy3FvWofvHg4T8p",
+  "nonce": 99,
+  "parents": [
+    "77f4524a84b946a87e59acdf798a190e7f18e3a80639e820d2c03a0812536640",
+    "241791a2b20bee56f15662a917a016e9c6eda14d1d40b764346010cfc38780c4"
+  ],
+  "ts": 1795223094,
+  "epoch": 107,
+  "seed": "2d5278641a3bbc39",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 28 answers need 28 separate inference runs with separate seeds. Because the lotus index holds every id for the epoch, the collision is provable from the ledger, and the ridge audit republishes the full set. Reusing one run across aliases collides on the dawn identifier and voids the later submissions, as a result the operator burns for 28 runs and collects one. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 6,
+  "sig": "5f9vTaw9eVbPastUUpTvJVqp8Z2TdLYj4wzDVUoovWppQXNn9vFEWhHocuMEVbEDSViHB48dRb7LT1msnKjejGN5"
+}

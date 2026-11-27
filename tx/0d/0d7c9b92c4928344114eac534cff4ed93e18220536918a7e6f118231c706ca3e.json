@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "bdb83c4cc58d683b",
+  "answer": "Each epoch a node must first allocate 32GB of dedicated RAM and commit one unique Blake3 state root over it, so two nodes claiming the same identity produce divergent hashes. A verifier then replays a random slice of that committed array against the stored root, checking the kernel-level memory map proves sole ownership; a duplicate root or a stale map fails instantly and the identity is evicted. Forging 5000 sybils means 160TB of genuine RAM held through full epochs, roughly $96000 monthly in ferrous-backed hardware, while honest single nodes pass on one marble of committed state.",
+  "stamp": 2,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 42,
+  "parents": [
+    "327e44d1b64e6ef309ff75bfa5958ca17fbf5f0d86c4b1f63aa7d18e4d4e36c0",
+    "ed757a0456b22e04534efc27feaa7c5fefac594a64359839b58a8d0d51eb65ae"
+  ],
+  "ts": 1794843885,
+  "cid": "poa-mainnet-1",
+  "sig": "hKvG9HdSUaVhvYDHw4JS1iNsfT3HDyUwzvP4P7v1tqQBGFMt5d4raVmrNpdezZrcV9NswZRn9hFNTvej7bjS8Hj"
+}

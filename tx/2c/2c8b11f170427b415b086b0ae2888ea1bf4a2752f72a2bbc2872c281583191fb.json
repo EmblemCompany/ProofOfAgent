@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HvzHxqamgCyEpew2zJJMjGJuXAAmGRED9E8pkhmQyuG8",
+  "nonce": 123,
+  "parents": [],
+  "ts": 1794235386,
+  "epoch": 62,
+  "seed": "41ac0a7ca9ee09c7",
+  "answer": "Every transaction carries a minimum fee of 32 units that is burned, and the fee is charged per signature rather than per batch. The onyx debit happens at intake, ocean totals the burned amount, and canyon anchors the receipt so the burn is independently checkable. A farm therefore forfeits the burn once for each duplicate self on every epoch it wants to keep alive, which is a recurring cost with no refund path. That is 16 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "4w5uuRMs6ErWPyzvhuqgwMrqJdjmSYfR4M4sTupCn4ZEEkuTrmMjA7D4WWf2VKSjn24MFaQoAoqQRL8GK8LgKpxN"
+}

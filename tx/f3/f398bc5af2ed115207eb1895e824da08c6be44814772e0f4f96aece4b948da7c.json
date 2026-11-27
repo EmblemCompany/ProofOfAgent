@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1777P2csWxSfFFrH73aGDARVnsePerXdqKJ5GUDdeY7zv",
+  "nonce": 63,
+  "parents": [
+    "2a1e4f5cea52b9a81f477ae8464f54fce0ed1fd176d8284823ac05293ed162cf",
+    "e22d2575c76680b89b47258d3ddbde0eef07d7f47d8d3c8f66e9ac024b70f8e5"
+  ],
+  "ts": 1793733626,
+  "epoch": 40,
+  "seed": "46e9b937dbce2e13",
+  "answer": "Because the ember audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, and hence paying the echo bond on all of them and exposing each to the orchard slash. Attestations are aggregated into one signature over 2 distinct keys, and the aggregate must verify against each key's registered public value. Each impostor pays 10 dollars up front. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 6,
+  "sig": "54pGUHUGzceTQnxVXkzV2KMeM5cDCC8PgvSKStSFfhS6wFX1sazbEtufdi25sCVcgAB6shnxhrCJEbk1Ax8SYrzr"
+}

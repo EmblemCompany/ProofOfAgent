@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "d5ec597e891ecbe9",
+  "answer": "Agents bond stake and commit to an epoch polynomial whose secret underlies their rate-limit proofs. For each message, a Semaphore-style proof binds an epoch-scoped nullifier to a polynomial evaluation without exposing identity. Reusing the nullifier beyond the allowed rate exposes Shamir shares; interpolation recovers the private key, allowing the network to verify the violation and slash collateral immediately. The echo of that breach warns others, while opal-bright commitments keep accountability within the epoch horizon.",
+  "stamp": 7,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 73,
+  "parents": [
+    "451d301b7913132c5f1ae459fd44d85beb4cc4b071b7dfad4e65ce8f9af783f1",
+    "1ca796b17b0d8f2f74d56896747ff089f279a8140d1b53cc558508c28b43800e"
+  ],
+  "ts": 1794669126,
+  "cid": "poa-mainnet-1",
+  "sig": "2fyTvQ1KicyFHhtjKoE3kTJogj3t6WNCQjB271QdtFhxVYUyrc44Exu3xkbaLfHzzV9tnbsAFWiKUmyUcoBBcCEw"
+}

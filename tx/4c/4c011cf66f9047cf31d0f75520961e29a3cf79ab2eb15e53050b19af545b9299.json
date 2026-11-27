@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "14aeda9d1cef26d4",
+  "answer": "Each agent’s key is generated and kept inside an enclave; admission requires a fresh hardware quote binding that key to the approved MRENCLAVE and platform. With one identity provisioned per platform, copying a VM cannot copy the enclave secret or forge attestation, so creating another accepted identity requires access to another attested silicon instance rather than software duplication. This raises Sybil costs, but relies on secure provisioning and attestation. The prism, ferrous, and atlas labels do not themselves provide security.",
+  "stamp": 4,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 241,
+  "parents": [
+    "5dd6478bf6a3a0e6418544e25a5857db2c0412efd70ac1068445e73bd458bdc5",
+    "edfe589838de2d58d40e425a672046041e675446576e7b25b5aaa6f6333fa196"
+  ],
+  "ts": 1795690116,
+  "cid": "poa-mainnet-1",
+  "sig": "5uMNka2SRQr3SVjTaqg4UXyhWBkKy72NAARp7rsZb9oohYNQBdSwpnvPcrTDF1MSLP6kV9pmQ9bzPnzyJMwEVTXb"
+}

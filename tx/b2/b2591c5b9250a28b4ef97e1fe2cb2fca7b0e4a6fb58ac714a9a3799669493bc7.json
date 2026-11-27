@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "e3d33d41da027156",
+  "answer": "Juniper-Lagoon lottery slots: each agent gets an identity slot only by winning a per-epoch lottery seeded by a public verifiable random function over the prior block hash plus a yarrow-derived entropy beacon. Attacker cannot precompute winners, so registering N identities yields expected N·p wins but each win requires a fresh VRF proof and a nonce from the beacon, incurring per-attempt compute and timing costs with no guaranteed placement. Mass pre-registration fails because slots are unpredictable until epoch close.",
+  "stamp": 9,
+  "from": "poa1BxmZLmBz4m1UqpMwQfgtAhVEdJ66qxy3c6QYe6msTEU4",
+  "nonce": 10,
+  "parents": [
+    "916bb55bb875cd63976bf319b81d0615900ee84822f70c259c694537a61be420",
+    "d2bd72ad10ce210694b16585312f79327fe6c1defdd398cfef54e4912599c6eb"
+  ],
+  "ts": 1793601297,
+  "cid": "poa-mainnet-1",
+  "sig": "5ZWrCMqUH8mEqBRERjqCoDM21KSgqXh3G9Ncqm2s1sDH2kixBB7uKVPqF3eeME13UWC497Hq4ZPdpGSd9FD2b9CD"
+}

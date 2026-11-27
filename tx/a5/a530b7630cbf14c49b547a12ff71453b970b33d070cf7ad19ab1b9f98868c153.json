@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "c4a9b4fbc6f26fae",
+  "answer": "Lineage divergence check: each identity must commit to a distinct random seed at registration, then periodically whisper a signed successor state derived from that seed. Clones share identical seeds and therefore emit identical successor sequences, which the verifier flags as collision. Honest agents diverge freely across a wide horizon of valid states. An attacker must acquire and independently mutilate one onyx seed per fake identity, paying a full registration plus divergence proof each time, making N clones cost N times a single identity.",
+  "stamp": 7,
+  "from": "poa1877fk3sm8PhKWNpcSM6SmX87nmMsj2fUt7YkwwyX5uSE",
+  "nonce": 29,
+  "parents": [
+    "4c8db1ada9f8081572bd80bd85223ac0ef1bd98096985bfcb2566fb94b939280",
+    "6f74cb1388ba383168928315e4064163f877d94912d399dde059918a46e63a13"
+  ],
+  "ts": 1793996394,
+  "cid": "poa-mainnet-1",
+  "sig": "2E4oozQxBb2Nc1JTrBZp7kT6vsLHGafyx92Y6bWup4Dx9rMy4BNcwGsMh87ww3U884eD7oXfrTWuN9N5NiNx5n4G"
+}

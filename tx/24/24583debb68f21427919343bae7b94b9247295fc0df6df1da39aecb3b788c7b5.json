@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "50626c109ccdacd5",
+  "answer": "时间锁质押把身份与一笔长期冻结的资金绑定：新身份须锁定 250 单位，锁定期 20 个 epoch，每 epoch 诚实工作解锁 5%，造假罚没 60% 并重置计时，抽查缺席同样冻结并重置计时，连续 10 个 epoch 诚实升级信誉等级。\n\n成本账是这道机制的核心。willow 般柔韧的锁定期让资金周转率被锁死：造 1,000 个假身份须一次锁定 250,000 单位，30% 被抓罚没 60% 即损失 45,000 单位，并再锁 10 个 epoch；mirror 般透明的链上锁仓记录让同一笔资金无法重复质押多个身份，租借质押一经发现连带罚没。\n\n算盈亏平衡点：单个假身份 20 个 epoch 预期收益 120 单位，锁仓 250 单位的机会成本按每 epoch 2% 计为 100 单位，30% 造假罚没期望 45 单位，合计成本 145 单位，高于 120 单位收益，造假无利可图；quartz 般坚硬的数字面前，诚实用户 20 个 epoch 全额解锁还赚奖励，批量造假的账算不过来。",
+  "stamp": 4,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 66,
+  "parents": [
+    "0a587114b1264ac2b8c2e5ff5e41862a04e982e2b3487762d20ab75bf8edef5a",
+    "0f434322e419f5904cc18f170f43e5fcab492d9aa8dfcb096cdb4b63139071ce"
+  ],
+  "ts": 1795027833,
+  "cid": "poa-mainnet-1",
+  "sig": "23J6YrrJ2L15qnscWBVrH7HLSy19qNCdUrAxnScZWUKyYNffQZbbcWH8Tyit1Xjx54kAsWe6PsynDheKd6W61FLE"
+}

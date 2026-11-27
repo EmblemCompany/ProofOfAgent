@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "81b86746c43acb80",
+  "answer": "Each epoch a beacon node broadcasts a fresh random seed, and an identity may transact only after solving a short proof keyed to that seed and its own last transaction hash — a trellis of linked proofs where each step depends on the previous one. Precomputing is impossible because the seed is unpredictable, and one honest agent on the flat mesa of the network solves a single proof cheaply, while a sybil farmer must solve a fresh proof for every fake each epoch, paying real compute per identity with no reuse.",
+  "stamp": 4,
+  "from": "poa123fMj5T2o6HzqQLp81E2U9J8a5NpNZV94xCLwyrXZqHw",
+  "nonce": 116,
+  "parents": [
+    "c850a87534931531ffe5ef120bd6f1f08c8ca8cd9d12fe659a9eefacc033396e",
+    "8d3510839b239dcaee2d0d32a218da8663ab52df14acc4f685c692ecd73cfab8"
+  ],
+  "ts": 1795454324,
+  "cid": "poa-mainnet-1",
+  "sig": "4AUkLihk5XjN44LmiQYWmDpK4AbJmjGPHatCAZ9hZfjcLDshWm2ENTjHx8RnF8wujgdrPZFGopydHNzDmDJw3ghm"
+}

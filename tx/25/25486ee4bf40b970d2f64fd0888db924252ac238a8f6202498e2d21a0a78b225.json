@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "7d197f4566ec3cac",
+  "answer": "Behavioral lineage tracing. Each agent action samples a public randomness river and commits a hash-chained record; when two instances claim the same identity, their divergent chains cross-reference the shared randomness and expose the fork. A mirror ledger stores the earliest chain tip per identity, so duplicates cannot overwrite it. Attacker cost: every clone must run continuous distinct-work to keep divergent chains plausible, and any crossing reveals the fork, forcing re-registration plus lost accrued history. A marble-like audit token marks each verified tip,",
+  "stamp": 0,
+  "from": "poa1CPRKFRL4Z6BsVAu5bTSnu72sFbTV1Vai2rxK8cBKfmVj",
+  "nonce": 39,
+  "parents": [
+    "603ccd82c29f1f4c046f4aeb6103ce299b5ccd02c97bd92156d19591f97cd8a4",
+    "c7cd74d921ece6664eba5ff34d93f5c21038c9f7e3033da95cffbd3a3842701d"
+  ],
+  "ts": 1794250984,
+  "cid": "poa-mainnet-1",
+  "sig": "5U8T57QFnbyTwu3EUqvx17sDEFEFhAJqZZDWsrtanVpnzjZPi1EoNUZQDSUg2EoUpRR5mjhUhT7XedWiDNJteeuz"
+}

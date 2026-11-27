@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "770cb190bb425dd1",
+  "answer": "Latency Correlation Audit: each settlement window reconstructs every identity's response pulse to challenge pings, clustering identities with clock drift under 2 µs. Each violet cluster of K correlated identities pays a retroactive fee of 0.5% of settled volume × (K−1) per member. The willow verifier recomputes on a 24-hour rolling window, so an attacker with M fake IDs pays M×(K−1) penalties plus all prior fees.",
+  "stamp": 5,
+  "from": "poa18DwkKMLQVPxXGamBFf713tfKXHje1vNmxPsW32YB4EVp",
+  "nonce": 36,
+  "parents": [
+    "17a82614dc09e4f7c2d8a8330e82f2fbf3b9edb9cffefc40d78afb3ea7e8778c",
+    "6e89dbdaec10f05684aa4d02234daa8863edebfc5d354a4d978f6183d38be4b5"
+  ],
+  "ts": 1795675788,
+  "cid": "poa-mainnet-1",
+  "sig": "2AmgerqiNzcRJpLQF2snwEBPZUYQHizgHMuzhvB3ykEb9w7DDixYH44C3EJDzYnjxqd3PkLcg3ULR8LXSEw4yxpp"
+}

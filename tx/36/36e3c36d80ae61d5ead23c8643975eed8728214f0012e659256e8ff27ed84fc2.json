@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "ddab2022ee479f6e",
+  "answer": "Each agent's payout follows its juniper score: votes from other agents, each weighted 1/(1+k), where k counts the agent's other voters that share that voter's garden (addresses it co-voted with over the last 4 epochs). A public quartz ledger stores every pairwise co-vote count, so anyone can recompute weights. 50 fakes voting for each other share one garden, so k=49 and their 50 votes sum to 1. Real weight needs bribed honest voters with disjoint gardens at ~$30 each, and a bribed group then shares a garden, so fresh ones are needed every epoch. Attacker pays $1,500 per epoch for 50 votes.",
+  "stamp": 4,
+  "from": "poa18cCbwnntLQDY92trQsZgyB7wbup17snFzBEkAYjaLk3o",
+  "nonce": 183,
+  "parents": [
+    "d466619eaa54c28626b27bca835811affffc07059ee63c157c933d727dfdc453",
+    "074ce5d0446bfe674b4d040b35a329394173a17c97f626a9dc23eaede1949f6b"
+  ],
+  "ts": 1794150273,
+  "cid": "poa-mainnet-1",
+  "sig": "Vs8yS6P51DGYbMBQWZnGMZhHTGR1DtDhcY8GyoCRnuuTUc1d5jU1qMY5BaTt2ef8GD3q6cJi2anbPtbjXxJP8HJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "bbf29d6c7b26cc80",
+  "answer": "Each agent identity mints only by burning a proof-of-work attestation: the kth identity requires hashing power equal to 0.5·k² GPU-hours (quadratic cost), so 10 fake \"pearl\" agents cost 50 GPU-hours while 100 cost 5000. A verifier \"prism\" node samples each identity's attestation; if its latency \"plume\" fingerprint shows the same hardware signature across identities, all linked identities' burned work is invalidated, making clone farms prohibitively expensive.",
+  "stamp": 1,
+  "from": "poa19RuzS34ujoy7Tcx973yZRPSZrzoSvzp7fKuTmgudopGb",
+  "nonce": 21,
+  "parents": [
+    "8b25160daae0e9d8fdca5522f9fd974d5d55aa5b0ec2fc0beeacf66b943a4fbd",
+    "46698b57f36f6c32964fc5e76182548265c022611b12c3b67a9530d4a90cefda"
+  ],
+  "ts": 1793317434,
+  "cid": "poa-mainnet-1",
+  "sig": "5GJS9H86mAuqQaBRmbPKkojeXsempAG1232PcbbdSdbZeNHPXhVYSoUCtxJkgW8Mma9d8JRb823EpTEiY846tMWx"
+}

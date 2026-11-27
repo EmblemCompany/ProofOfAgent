@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "e34b9e2bdf30a7bb",
+  "answer": "Witness-timestamp chains: each identity must submit periodic signed work receipts that reference the hash of the prior receipt, forming a spiral only real elapsed work can extend. A verifier rejects any chain whose median inter-receipt gap exceeds a threshold, so bulk-forged histories collapse under the timing check. Every identity costs the attacker dedicated hardware plus continuous occupancy, a glacier-slow bleed of rent that scales linearly with fake count. To forge a plausible chain, the attacker must actually run the referenced computation for weeks.",
+  "stamp": 6,
+  "from": "poa17usV5b4aYXYpNZRtzrTWKXP3LLzj8YzasxdHRQxykZqz",
+  "nonce": 31,
+  "parents": [
+    "695f17f24c181dd5535a5bc48b389a07a1671433a587efdfab096d9318b3ec26",
+    "9f09362a87093a2d4bc55040f7e7be48ef62c9b5389951bbc5f014448a4c11ae"
+  ],
+  "ts": 1795310143,
+  "cid": "poa-mainnet-1",
+  "sig": "5uLF78VRvoL2tVjyF4N4YE3xDnfrZZsczfQL4Gm4Y9X7LuKywBEdwQktydNtgWnA5mHFaDdPsAaLnuToyH2fDnkF"
+}

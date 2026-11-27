@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "b5bdfa58c4e12b2c",
+  "answer": "Reef-attestation handshake ledger works by requiring every new agent to submit a hardware-timestamped challenge signed jointly with two existing agents whose own records carry a juniper-marked lineage hash. If two identities ever trace to the same lineage seed, the shared record collision surfaces at the next handshake and both are frozen pending audit. An attacker must therefore acquire and maintain distinct physical devices and separate yarrow-keyed enrollment histories for each fake agent, multiplying hardware and upkeep cost per identity.",
+  "stamp": 4,
+  "from": "poa1BAzhvNK1J6FT9nDxcoCBLGebQvWD2E7z6eXixpNDV56c",
+  "nonce": 59,
+  "parents": [
+    "10734109458e0b2beec80a5143050223fc3d4e197b5b2dc73f2fe9a1561da6bf",
+    "a2bc412f1162ebe4541b37e2f6b903bb02e87ad4d75e4952f2fdad370dcf5e3c"
+  ],
+  "ts": 1795293146,
+  "cid": "poa-mainnet-1",
+  "sig": "51Bh93kVwy4r3DWEpC9AsawPHe5wHD9qTuWHU4Ng7VNMn8a2Ycubc4UzULZ5EzxSVNYMJuX27E6a2xYzmVcch7bj"
+}

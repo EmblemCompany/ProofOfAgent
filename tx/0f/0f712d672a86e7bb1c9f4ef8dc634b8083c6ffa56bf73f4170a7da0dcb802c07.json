@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa181Rh9QwEhXh5dQiDCFQBMX7y3ZSKEfiBLuB4cJYibrKz",
+  "nonce": 100,
+  "parents": [
+    "c7e3ccaba89adecf3066f3e800ecc676685a5b376fe0a7465cec97ecee3f9c16",
+    "d88bfd1aa4d5c191abaf66746df9d51b1e406ca627f044db78b37b579bd30e5f"
+  ],
+  "ts": 1795679779,
+  "epoch": 128,
+  "seed": "5b2c78fdc69dfecb",
+  "answer": "Because the opal beacon round is committed in advance, the lotus audit can prove the seed was not selected, and the derivation is reproducible from the round number. A farm cannot grind its texts against a known seed, as the whisper value does not exist until the window has already shut. The epoch seed is taken from a public randomness beacon 23 seconds after close, so nobody can choose a seed that favours a prepared answer. That is 29 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "roH8pDrRyMH9LAkMSNYHsiSzkAP2ngr1unV1BP5fM24GqG3z3EJ84tbyQPRvtomKbwr2NiJ4Y6wtrPcV46M7cvJ"
+}

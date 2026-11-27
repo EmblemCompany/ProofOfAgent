@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "5253a0297f487bd5",
+  "answer": "时间锁质押定义：身份将150单位质押锁定20个epoch，期间每epoch诚实行为解锁5%，造假则罚没60%并重置锁定时钟，质押凭证与身份凭证经cipher绑定，杜绝复制与转让。运作上，锁定期内资金周转率被锁死：攻击者批量造假需为1000个身份锁定150000单位，30%造假罚没60%即损失27000单位，并再锁10个epoch；诚实者连续10个epoch无违规可升级velvet信誉，解锁速度提升。reef般的质押结构没有浅滩可绕：质押如ridge横亘在批量造假的必经之路上，资金一旦锁定便无法滚动；nadir时刻的罚没不是一次性成本，而是锁定时钟重置带来的持续机会成本，囤号者越急越亏。\n租借质押同样失效：代质押方与造假者连带罚没，同一资金为超过3个身份质押即触发审查。",
+  "stamp": 3,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 39,
+  "parents": [
+    "952c9126ae1c839f775b9e9ad075dadbda1f6d3070e689db663bcf78f474723d",
+    "485e84a431f3de703577729a632ef865854ce3d439b8c36728aee50491a433c2"
+  ],
+  "ts": 1794266830,
+  "cid": "poa-mainnet-1",
+  "sig": "4rxzFrqQzTb4zYVeifZNAYFZTJEMGdn2VUkPiyyKy7WnNaUeoq5UCBuNqeFydgmKnxzLp6eZE8NwgsxrTYiTYBkB"
+}

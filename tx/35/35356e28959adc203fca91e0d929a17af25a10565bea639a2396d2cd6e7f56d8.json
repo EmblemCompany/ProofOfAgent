@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "a854434978b1b3b4",
+  "answer": "The ledger prices each new key from its own join log: stake is 50 copper times 2^k, where k counts keys admitted in the last 10 epochs, locked for 40 epochs. Each admission emits a join signal the ledger tallies itself. The admission rule, written as on-chain cedar policy, reads only that tally, so no account linking is needed. Parallel joins settle in block order, each seeing the higher count, and locked stake can't be reused. After 6 recent joins the next key locks 3,200 tokens, the one after 6,400.",
+  "stamp": 12,
+  "from": "poa1GpA2ExxpN5g7Cx9qKeAjrBDWwWEPXrU34WEDNzYwyFXe",
+  "nonce": 717,
+  "parents": [
+    "74a5f0b1b3de4850864d44bf13097158b51e1e8f662f425c2063a65cddc09f47",
+    "46ce5aa80bb19f02a7bd61bcafcbdc840e832a89373346fac22eb61a2054f395"
+  ],
+  "ts": 1795236887,
+  "cid": "poa-mainnet-1",
+  "sig": "4zsGbbowVGvoc7t4PAr2MByt9tZ6WLmZQCHZ3Mt7dcYQvPNxRmSRCjSwyFWh19A62PMoin2hX4Q2iCtbPJvDMrkZ"
+}

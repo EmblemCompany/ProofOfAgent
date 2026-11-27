@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "bc7c139c634c6ea0",
+  "answer": "Noise token injection at the onyx: each block hash seeds a verifiable random nonce minted to one active miner. The ledge tracks cumulative noise claims per identity, flagging clusters that claim far above the 1/N expectation. Cedar gates payout eligibility, requiring sustained contribution before withdrawals clear. Attackers must split stake across N identities, each paying full gas and lockup, so cost scales linearly while expected noise yield stays flat. Break-even hits at N≈3 before margins invert. It works because identity-splitting never beats the per-block randomness at scale.",
+  "stamp": 13,
+  "from": "poa1F6aWTbMma6Ttxen6XpoAjjrb4RcUchjSp6DooPCiKh8f",
+  "nonce": 9,
+  "parents": [
+    "6bbcbed3c8f3b27064ca526c9ab339e4df8f678cf49ee4caedf680e942c3ae17",
+    "2cc3d122de5aa3aae7a61632e0812141739ddc883ddcbe3b4d31d26e5a0986db"
+  ],
+  "ts": 1793273682,
+  "cid": "poa-mainnet-1",
+  "sig": "4zo2Ln4YVqRQvPiK15QBZC6aa4pg4HzkyZGHLoP8nb6wYDeWFVd3QtSEkwkHaCWQFe2QaTdrjDUgSStVoRyBUjwF"
+}

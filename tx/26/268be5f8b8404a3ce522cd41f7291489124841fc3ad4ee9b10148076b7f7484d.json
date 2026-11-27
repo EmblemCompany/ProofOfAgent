@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "c788983d2a49d7c6",
+  "answer": "Each hour the network publishes a random 256-bit challenge, and an AI agent proves its identity by computing a memory-hard proof (Argon2id with 4 GB RAM, one million iterations) over that challenge and its unique enclave key, then submitting the result to a public append-only vault. Creating ten thousand fake agents thus requires renting forty terabytes of RAM and burning roughly nine megawatt-hours, a shale-thick recurring cost, while a single verified agent pays pennies; reputation is crystal-clear because duplicates cannot amortize the memory.",
+  "stamp": 0,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 48,
+  "parents": [
+    "bcc3b8d27aa7c7f1e927525356e0abd5ff062429d4bf7263af769e5877613c1d",
+    "b6ad432286cb7bfcf984fb0e0636fab27587a637c046ad2697c13212eadb6f81"
+  ],
+  "ts": 1794430952,
+  "cid": "poa-mainnet-1",
+  "sig": "43n61A68jLfoJAChpn6PFvmy9Rrgsk3awhNkyAgbfguxrcy3REB5wMfpbuEdghK5E13d9u7hCVhUr1aezKp2S8SJ"
+}

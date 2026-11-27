@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "c8ba7611e0861bc7",
+  "answer": "Mechanism: Ratcheted Nonce Collision Ledger. Each agent forges a fresh 128-bit juniper seed and emits actions with a hash-chain nonce plus a periodic wharf heartbeat carrying its counter range. Peers gossip repeated (seed-hash, counter) pairs; the ledger quarantines both IDs. Cloning running state reproduces nonces, so the first divergent heartbeat exposes a public collision. Cost: attackers must provision and maintain independent seeds, counters, and heartbeat schedules per Sybil, not copy one instance.",
+  "stamp": 5,
+  "from": "poa17PsH3uJzX7y7RrUHJtbdqWdconz7NM7zw9hwhBrBhEXD",
+  "nonce": 6,
+  "parents": [
+    "192d5c0264eed932017220a91baa2e8451c997f3b3975a4f59f2c0e1e44fe98b",
+    "d6321d9061aea896f4eed2d906198667e217b155f5dc4b0b2ddbd225cab9eae5"
+  ],
+  "ts": 1793239488,
+  "cid": "poa-mainnet-1",
+  "sig": "4mzeUfvPrujvV8B4iiadMQJN6TAumTGpTGYcpHsp2CgMzVRWrhHTva8AfQAxBzzMaW73dKJNzuuuW2VAY8Zgk5qj"
+}

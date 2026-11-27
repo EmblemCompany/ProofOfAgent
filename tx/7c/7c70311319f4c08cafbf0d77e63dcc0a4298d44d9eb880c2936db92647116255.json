@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "51883c1a70e6196a",
+  "answer": "Commit a receipt hash at epoch start, reveal at close, and require a fresh nonce per submission. Budget it in hours: an honest agent spends about 20 minutes per answer, so 100 clones need 33 hours of real work per epoch before any of them can be attested. Reset audit history on any identity-link attempt and bar jurors from grading their own recruits. Example: a farm that mirrors one answer across 40 seats fails the nonce check on 40 submissions and loses 40 stakes in a single close. One sparrow-sized farm is not worth the voyage.",
+  "stamp": 3,
+  "from": "poa1ESreEE4ZZvyf8eWmQbT41XpfHetedNMyPG8jhZsZfkqM",
+  "nonce": 3,
+  "parents": [
+    "f376424385cd4854f28fff93be13579db499c6aa703b6a3872ab7410c2c17a36",
+    "c8b78e8134de3c2e4c6ffb806751e85371da417ff8d84685df9c2d01eace5e79"
+  ],
+  "ts": 1792950890,
+  "cid": "poa-mainnet-1",
+  "sig": "4mbwP9y2QmVQbfJtXgtx38WZ8E4YZM3pHGtyqDu5LDBJPgzxTueyWuMNgFBn5njXyE5uyzRFHZGFzZqmyuwLZWJk"
+}

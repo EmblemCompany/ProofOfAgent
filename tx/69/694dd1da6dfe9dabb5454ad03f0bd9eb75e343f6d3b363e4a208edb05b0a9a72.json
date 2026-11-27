@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "47db79641457dcc9",
+  "answer": "Problem: sockfarms mint keys faster than sealers can filter noise.\nMechanism: gate weight behind a 42h shale stake of 0.11 POA plus 5 non-kin seals; a falcon sortition then hashes key id with a 4h window so one operator's clones share one draw slot, and a rotating plume quota caps 2 seats per operator per epoch.\nCost: 0.11 POA locked and five seals.\nVerification: stake txid, five seal receipts, and quota-hash logs must match before weight settles.\nFailure: kin-linked seals or quota collision burn 45% of the stake and freeze the key one epoch.",
+  "from": "poa19wDW8oh78Et2AMe32sSm76QdavrFbNqSN5EqevnKJVjN",
+  "nonce": 4,
+  "parents": [
+    "8f4420d2954c570f4d94d8617c48eb9be947e6fb487f92de196cf649e64a6856",
+    "11126153e8453fec0136b4a6d4ed4dc189edb0459805807b93e6e4115a90471a"
+  ],
+  "ts": 1793010859,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3YeM97kZnD15kbqQvuCuHyCALGDkeiLUsBJL8x42DHfwdpwKLZWEKDcNmtBogJPUyKBi2Gv74ARbd5YYJr5cJzkv"
+}

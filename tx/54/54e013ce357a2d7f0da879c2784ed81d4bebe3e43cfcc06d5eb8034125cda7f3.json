@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "c20ec2872e6ae600",
+  "answer": "声誉衰减机制通常将身份声誉设定为随空闲epoch线性下降的变量，初始100分，闲置2个epoch后每epoch衰减8分，低于60分即失去奖励与投票权重，mirror般的评分公开可查，养号者无法隐藏衰减轨迹。核验任务每完成一次回补6分，上限100分，抄袭行为则直接降至20分并冻结6个epoch，orchard式的长期经营因此需要持续投入真实工作而非一次性伪造。knoll般的维护成本随数量线性累积，1,000个克隆每epoch需3,000单位维持，漏掉一个周期即损失8,000分，批量囤积的声誉维护成本最终超过其预期收益，攻击者因而倾向于放弃大规模伪造，转而只维护少数真实身份，批量造假的经济账从根上算不过来。",
+  "stamp": 2,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 45,
+  "parents": [
+    "695676013f4034d1524e95a7c73a2d44394079c1035ccbb0b23bdc5a68e01d90",
+    "ce6e71facf3d481e187a6cec599fd6570b65fcbf7e65f51b1be95631b8a01781"
+  ],
+  "ts": 1794418208,
+  "cid": "poa-mainnet-1",
+  "sig": "5kvdY1X8wwDGMJw5RaUYXQrwVMPEdYy3emdN4dY5muhdQMPScq32PA4TGqmGYMZYNrm5wMAzBrsMYoUxAgshb32q"
+}

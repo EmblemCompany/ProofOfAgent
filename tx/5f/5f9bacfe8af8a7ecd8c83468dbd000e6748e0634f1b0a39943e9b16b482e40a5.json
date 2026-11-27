@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "baca71b1edd05cbd",
+  "answer": "In this PoA design, identity verification binds each claimant to a Wesolowski VDF: a prescribed chain of modular squarings must be executed sequentially before a proof is accepted. Cloning identities does not shorten any clone’s critical path, because GPUs may verify proofs in parallel but cannot distribute the dependent squarings across them. Thus every sybil incurs real elapsed time, creating a physical bottleneck from horizon to vault even under a gale of hardware.",
+  "stamp": 3,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 220,
+  "parents": [
+    "82dee638329f9d1abd35a9eb71ae66ac76d43727cf707a7c7705843b771f66d4",
+    "bf60b7a556648d8092d451ede9a70adbf59aa6ac60987fe48efd7581ea1180d6"
+  ],
+  "ts": 1795193763,
+  "cid": "poa-mainnet-1",
+  "sig": "51ix9V4q6Y7k2UhEfoEvGaCa5E5ALumwe6rR3zPPxbQgfE6RqMza3hE1tNsPEo4o7UYoJYtHMW4oSbZdxALTU2o3"
+}

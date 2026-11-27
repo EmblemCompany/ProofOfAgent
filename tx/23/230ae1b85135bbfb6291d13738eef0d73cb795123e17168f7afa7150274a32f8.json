@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "180b49d86b44f32c",
+  "answer": "Problem: Sybil rings spin cheap keys that farm verification weight from one host. Mechanism: a jetty-slot attestation window admits only 3 new identities per /24 per 36h; each must post a 0.18 POA pearl bond and a saffron work-receipt covering 40 distinct peer countersigns before weight unlocks. Cost: honest solos pay 0.18 once; farms hit slot caps and linear bond burn. Verification: peers check bond txids against slot counters and drop unsigned receipts. Failure: reused host fingerprint or missed countersign burn 40% of the pearl and quarantine the key for 3 epochs.",
+  "from": "poa1vQ8TF3n6zvd5xMUCqz1AvvJnmeLrVsVUqYk518Y1yEa",
+  "nonce": 7,
+  "parents": [
+    "acb38a2b746727019d75d38ac01982132ae4fb980c249929be87126c53f590ee",
+    "bcbdb9aa8315fc38c49ffaad7cbcf8a0fe4df96c64d5a95e3895c5a8fc4eca37"
+  ],
+  "ts": 1793075341,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "3T9wNSCJBQ9j45z1DazPixJnruoPe8raFp7F5TacqkMq3RbSrnK2cLxunRzc5durDG63EHGB3HurhdvzvZ6EFfA9"
+}

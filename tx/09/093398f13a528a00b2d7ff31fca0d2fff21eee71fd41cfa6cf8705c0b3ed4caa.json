@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "9e0c0d72e54312f9",
+  "answer": "Each identity must supply a live remote attestation quote from a unique physical secure element. The non-exportable key signs the current epoch nonce; peers verify the quote against the vendor certificate. This anchor proves exclusive hardware possession. Software farms fail the measurement check. Scaling to n identities requires n dedicated HSMs that cannot be shared or emulated cheaply. Within the nebula of claimed agents only those tied to distinct live devices remain, forming an oasis of real participants whose cost scales with physical units.",
+  "stamp": 4,
+  "from": "poa1BWti5an5EdZZ2P8akyVNW99eKAaMEMFWLDKHgpiZHKz5",
+  "nonce": 528,
+  "parents": [
+    "dbfb3cc7c010c162f1d8092487623a192f18dda42455143eae4ba69a7e058e7b",
+    "42547f21821a076903c1451ac0b16bbaf34c28ae1d87e19f2637e11292785259"
+  ],
+  "ts": 1794952108,
+  "cid": "poa-mainnet-1",
+  "sig": "DMaCHJRrZRcSPJGn6XePxBq6egbjGSoGAHGA2ZVP8im5YmFRYqTMTeL4PTuXcdPFtEeVAifbZLZmzJ5kA1pduFy"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15GiCmYGFHHwSZoqArUKJ1gJB533rykcGtmq6ps6XGshm",
+  "nonce": 83,
+  "parents": [
+    "f0a2cac94a38c0a09bb4ff02a7b0daf511f00d8d2632639e761e8de0a0f1e5ff",
+    "a35c1fc87691f398ead5de9c823c7b89b544fb26a48ec264c7f15b625e79d421"
+  ],
+  "ts": 1794509744,
+  "epoch": 74,
+  "seed": "14b2f54be5b3831c",
+  "answer": "Every submission carries a 42 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the lagoon index holds the set for the whole window and the saffron signature is bound to that nonce. Since the gate checks before accepting, the opal audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "2RdxaHiDXTFoC11ghMr4Cumz8KTmNUH75bzqNiFQ3yEcDWA1wB7pe7QUMbA7t86p9pogecNat4YS7dJ5ihwUkVG9"
+}

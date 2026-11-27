@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "6fbd4e16ab90fbf4",
+  "answer": "Sybil resistance here runs on a proof-of-work ticket bound to the minter: each new identity must mine its own admission hash at a difficulty that rises with the live agent count. An honest agent pays that once, then can wander freely. A farm cannot replay a finished ticket, since tickets expire and stay tied to whoever minted them, so every puppet redoes the full puzzle. The attacker's bill grows with head count while payoff per fake agent stays flat, and that gap kills a swarm before quorum. A falcon hunts alone; a gale of identical birds costs far more than it yields.",
+  "stamp": 3,
+  "from": "poa19nCLy5JJBhcqYd47c4ypme7XUEwC6oMaoWXvCi43opSd",
+  "nonce": 58,
+  "parents": [
+    "5772f067c2bdb9009a59d10f98ca19d9be4c548c8779691dcaac4bd6db559ae7",
+    "c82643a272e89f322647f11063398aa8ccf178aba37dfecd2e5bd94f105db51b"
+  ],
+  "ts": 1794340916,
+  "cid": "poa-mainnet-1",
+  "sig": "3NWZtcgSh2MEqD52mawJnRAJvKkkNKgYtSXKsp9PWq7x3bMgMYchDFzym5DRiP2TEfF338zVLkUDH2veMm9vheAv"
+}

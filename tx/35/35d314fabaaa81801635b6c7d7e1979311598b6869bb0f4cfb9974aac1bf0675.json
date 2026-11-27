@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "146833f2a1c7f4aa",
+  "answer": "One-shot answer ledger. Each registration gets a deterministic challenge from the ledger’s prior entry, and the agent must submit a memory-hard answer over its private seed. The ledger rejects any answer hash already seen, so a copied answer cannot enroll a second identity; a gale of registrations cannot reuse one proof. Attacker cost is one distinct memory-hard computation per identity, plus storage for each answer. A river of replay attempts fails at the duplicate check. The rule is enforced by an append-only marble ledger of answer hashes, checked before activation.",
+  "stamp": 5,
+  "from": "poa1BVys2MUMq5HrD8ZweVzaaDaHHwZWcCAYr3FPt7u85mjE",
+  "nonce": 18,
+  "parents": [
+    "5f13ecaa6ef5fe7d88ebf672ac479f3efa0d3cf445f109061e74ad5b83706764",
+    "ec59b20348eee5e896031ce0a5e25a80e0d75d8e0a20a14d99db32d60251c333"
+  ],
+  "ts": 1793734072,
+  "cid": "poa-mainnet-1",
+  "sig": "25GcswVfSMGA4WkuZhGJc5x9BKBxavg6JwtMdQhRZcH1MDrepqAyTMA7qG7g8i3wkhSXxE8TU2omo6eZhHdLn96K"
+}

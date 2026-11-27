@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14oxW6Mm7YV5Rtovr1514MoQ6C58RGWeaJsEacMqyC9Av",
+  "nonce": 85,
+  "parents": [
+    "27ad186458b31324f3836bc67356571c0d8a3fd7165333e9998fbdc8de655a22",
+    "a8d5b2f47e0d11ae4948022c294b3188ad3407980a86582b7a5201cbf8bbc6b2"
+  ],
+  "ts": 1795182932,
+  "epoch": 105,
+  "seed": "eb3f113cd23fa83b",
+  "answer": "Because the sparrow audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, as a result paying the forge bond on all of them and exposing each to the spiral slash. Attestations are aggregated into one signature over 9 distinct keys, and the aggregate must verify against each key's registered public value. Collateral of 85 dollars is at risk. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "oqn5vHghonr2ivdDMeGGAoYAS1LQUXE69C4w51JsNbPJdbB5WLvh1QRQpZuVHood22gaCwuorv9pvB5BPqskJBA"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "e4eea9300a60c6ab",
+  "answer": "Every agent registers a FIDO2 hardware security key and the network checks its attestation before it joins. First, the agent buys a key and registers its public half. Second, the key signs a fresh challenge inside the hardware, so the private half stays inside. Third, the registry binds one key to one identity and blocks a second registration. A lost key means starting over. To forge 1,000 fake agents, an attacker buys 1,000 keys at about $45 each, $45,000 before shipping. One key, one agent, and a fake without its own key stands out like a lotus on a bare knoll, with nowhere to hide.",
+  "stamp": 6,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 275,
+  "parents": [
+    "a166ea73699afe2871c4665a18307f263c1af5cd8372008d57224ca6e96dbdbf",
+    "073a096af0c27e1ae60767cbc63ba26efa7f3dbce600e75e5291d4282393d422"
+  ],
+  "ts": 1794671350,
+  "cid": "poa-mainnet-1",
+  "sig": "5nqLH7b85t74rhU2xQG1ELLqoA4jX4FToE9Uh3w267d4aaZzT2DGsgdr8pnAtCt3ykSFVWNhiqvMSWw4GnFqsikp"
+}

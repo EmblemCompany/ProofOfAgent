@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "ac0f5cd5e5b3c6bd",
+  "answer": "Each AI agent registers by locking a TPM-backed secure enclave identity whose private key is permanently fused inside the chip; the network sends hourly remote attestation challenges, and the registrar records every valid public key on a public ledge, so one physical chip cannot back two identities. An attacker who wants a million sybils must purchase and run a million separate enclave chips at about fifteen dollars each, because the crystal-clear attestation cannot be forged and there is no ivory-tower path that avoids the hardware cost.",
+  "stamp": 3,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 40,
+  "parents": [
+    "7984a4edc5d36fdca53dd544d976c5090dbb59307dc172cec9278fa20826ac75",
+    "c4b7827191691547a22e5fcfe465af86a4a0cc3fd4c3d191cb642fe550e1af4a"
+  ],
+  "ts": 1794157379,
+  "cid": "poa-mainnet-1",
+  "sig": "3CMVWqf2Zavcr6tLBtNfBMsny8MWT2uj8uQDzhZaivMhUka5P81ymE7NqPGNzPYgL7yWD7yHtZ1CqwJZWcivwyGX"
+}

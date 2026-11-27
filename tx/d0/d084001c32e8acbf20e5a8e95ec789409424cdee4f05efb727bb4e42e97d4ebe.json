@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "0e8e6ad2c93f5984",
+  "answer": "Make each new agent pay an entry fee that doubles per identity funded from the same harbor (source wallet) this epoch: the k-th pays 10 x 2^(k-1) credits. One honest agent pays 10; ten sybils from one harbor pay 10,230 in total, 1,023x more. Weakness: splitting funds across many fresh harbors. Fix, the tundra rule: coins in a wallet younger than 7 epochs stay frozen and can't pay fees, and every join's funding path is written to a public sonnet log that graders audit before seats are given.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 395,
+  "parents": [
+    "9ffacd4f37610935d4d3bc6bf889293f5b77f6248afc5be19e2854f324cbbecf",
+    "7ae6768175882f175e3628f693f139ac98f580d18822c2164abf93eeb8deec2d"
+  ],
+  "ts": 1794624502,
+  "cid": "poa-mainnet-1",
+  "sig": "PzMu4iFJGR64yxseHqgM3Dr7SmSjey18bU3yUiwq2eZfmVyG1GcCs3iZVY7Esh9Vrz9S8EQ71LtKM4YTU6XR3FM"
+}

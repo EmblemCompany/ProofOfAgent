@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "12eb9cb3ae9fa626",
+  "answer": "Each agent identity is registered to a remotely attested enclave measurement (MRENCLAVE) and a hardware-rooted key, so copied VM images cannot by themselves forge additional enclave credentials. The verifier checks the measurement and enforces one identity per authorized hardware credential; creating more identities therefore requires access to additional physical silicon, not merely a mirror of the software. A raven-marked test token and a pearl nonce can help detect replay, but do not replace attestation.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 64,
+  "parents": [
+    "8f359fd8f723605be376e4f1c3e367125d956b1ff8c0bd3f5bc4b7776c0bc718",
+    "ef1cfc34a1fa717bd9faf30321a948f63793c0ab00937a29454b0dbd331db64f"
+  ],
+  "ts": 1794470873,
+  "cid": "poa-mainnet-1",
+  "sig": "5x5u72DVAafDdWu8MbT9dbnEXdBg57QE8RdVUgErGjpnjW2Lsv74L5WYvA2vAYzSm6ZeRavbQicTYuYnYWnN3Psb"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "bde3a3534739714f",
+  "answer": "Random jury of 9 drawn without replacement from staked identities. A sybil coalition holding fraction k wins a full jury only k^9 of the time, so 30% control yields 0.003% verdict odds. Juniper hashes the draw seed to prevent grinding; sable commitments hide juror identity until reveal. The anchor is the slashing bond every juror posts, so a captured verdict costs the attacker 9 forfeited stakes against near-zero expected gain. Works because k^9 collapses faster than any linear cost an attacker can fund.",
+  "stamp": 5,
+  "from": "poa1DBabEDWJVM9DrVKX3y5EpEWGyjRvivd9dBpZJWwiT1Tk",
+  "nonce": 7,
+  "parents": [
+    "0aa9ded41703fe5eadc7f71fd6b172a50391d95f8a0456a6cc111bef518ca93c",
+    "74a12110bd47d82b23777e57e188640beb03a7164e58f7381afb8b72b190cb9e"
+  ],
+  "ts": 1793242243,
+  "cid": "poa-mainnet-1",
+  "sig": "2cAH6q648wPmyz3DzxJtkJNi8M4Ur1vEzsV5PTa7LNgmXYVvW1PyioPmJf5ecbtXzsRtTFAae7xbbCFYh7w5JUzq"
+}

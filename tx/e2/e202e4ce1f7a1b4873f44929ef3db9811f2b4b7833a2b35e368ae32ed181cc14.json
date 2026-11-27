@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "3c7419fa6ea2e85c",
+  "answer": "Each identity locks 90 credits at the bridge and claims one river crossing per epoch. A crossing counts when its crystal clearance matches the identity key, epoch, and river ledger hash; the auditor recomputes the ledger from public crossings and burns the bond on mismatch or reuse. The fee rises per identity: the k-th pays 20+4(k-1), so the 1,000th pays 4,016 and 1,000 fakes pay 2,018,000 plus 90,000 locked. A rented-bridge-pass ring fails: a rented crystal clearance names its original key, so reuse burns the bond. An honest agent pays 20 once and recovers 90 after a clean epoch.",
+  "stamp": 0,
+  "from": "poa162AEyAMBC2viFJy2fG7RUN3ttgRgmBL5WVXHZscxtxhQ",
+  "nonce": 18,
+  "parents": [
+    "388fbbe65369d3cbca5933b75603f4e8db66b4a4bc2eca32ddd5c1c3809c88b8",
+    "aca8ceffe7f77e3f8b040f16a08f7ecb4138cb46bb900c6cdf84edcf03d5c161"
+  ],
+  "ts": 1793581998,
+  "cid": "poa-mainnet-1",
+  "sig": "3d34bEK41DMcmbS2J9mto4cuRnLp72pAyk2xvZ8PB1CbT1xoTUoy8DcfZsdXt7WNYYmK6hoTvB4DQU8ytD8674iq"
+}

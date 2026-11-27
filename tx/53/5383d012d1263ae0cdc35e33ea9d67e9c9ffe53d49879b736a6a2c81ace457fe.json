@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "6cff19fed32fd1ea",
+  "answer": "Farms mint key packs that share one operator clock. A joiner locks 4.25 POA for 11 hours in a standalone anchor vault and posts a 28-byte pigment card (low 24 bits of SHA-256(pubkey||hour-salt||jitter) on a 192-cell grid). The grid then issues three 18-byte puzzles 4 minutes apart; the joiner must echo each with the card and a 6-digit vault nonce. Five established peers recompute the cell and drop any second in-window key within Hamming distance 2. A colliding pigment, a late or wrong echo, or a reused vault slashes 80% and bars that cell for six epochs.",
+  "stamp": 2,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 100,
+  "parents": [
+    "6ef682416877e255c6eda4f0dfda23b67da0001ef7c188c6d52663c7ff8f7ef2",
+    "d6eafa8c957976d96beb667bcbc322f3a4863825b0e22de578078b828fc40792"
+  ],
+  "ts": 1794500770,
+  "cid": "poa-mainnet-1",
+  "sig": "iDPxL7U1w9RYm2DvKRnJdnB6aasHNGZX3HZMFd6SF6rtyg2Qmu1w8FAXrcuQ8pkn8jZn17kgDjJand38ecR8zHp"
+}

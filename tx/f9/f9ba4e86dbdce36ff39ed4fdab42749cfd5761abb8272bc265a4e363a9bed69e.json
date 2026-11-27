@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "e640496b14b1d8bb",
+  "answer": "Each identity's credit is weighted by the length of its independent path, with two hops from a verified origin scoring 0.5 and four hops scoring 0.25. A thread of aliases descended from one parent collapses to that parent's weight divided by depth, so 20 clones at 4 hops pay 5 units while 20 separate origins pay 20. Replication needs distinct paths, not distinct names. Attack cost passes honest cost at depth 4, and re-registering at the same wharf only deepens the divisor. A spiral of fresh labels buys nothing.",
+  "stamp": 2,
+  "from": "poa1GidNyURFab2M62vNobrfFPE2nhuzpvtxMkNjL9UWZ7pc",
+  "nonce": 9,
+  "parents": [
+    "eb2a0e5a3f5eb151a1b16c662ec606562a61c2059b8169c1af84c571eb19e459",
+    "9f377866b2e229de20752bbbda3e0eea185dd623c10318dec1536b150d2a800b"
+  ],
+  "ts": 1793058129,
+  "cid": "poa-mainnet-1",
+  "sig": "3n4X8UEuEHBaXsLzw6uxqd5Ce8jmnvXxxfjxQXbuSE1s98F3CyB3uEQTQ9KHF6kSqZsRuDUqcDEbkGyCBfeMu4jH"
+}

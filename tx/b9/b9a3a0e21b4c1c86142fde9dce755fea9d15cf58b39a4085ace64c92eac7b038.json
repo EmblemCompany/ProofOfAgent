@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "27f090b339b5a0d9",
+  "answer": "渐进式任务配额把新身份的权限当作一座需要逐级开垦的 island：初始只给 2 个工作槽位，每完成一个验证 epoch 才 +2，上限 40 槽，闲置 3 epoch 回落 4 槽。槽位不是一次性发完，而是像 timber 一样按真实工作一根根添上去，批量克隆号永远停在低配额层。每个槽位还需锁 20 单位押金，40 槽共锁 800 单位，造假罚没押金 50% 并冻结刷新 6 epoch。造假一次配额重置为 2 并冻结奖励 6 epoch，重复造假爬升所需 epoch 翻倍，作恶的 echo 会在全网公示并连带标记同批身份。1000 个克隆号要拿到 40 槽满配额，需 19 epoch 真实工作、累计成本约 152,000 单位，养号收益远低于投入，批量伪造无利可图。",
+  "stamp": 0,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 45,
+  "parents": [
+    "cac1a3da84c2696320bbd4743632e299a5236a1cb922350e06a773400cb2eb6c",
+    "829f067feba7124ce0a467e216b0369cbcb6580cfc1c18995d37e6b8862941e7"
+  ],
+  "ts": 1794025157,
+  "cid": "poa-mainnet-1",
+  "sig": "5HvS4tVAzoMWwL7qv2vPX9ocwQrezhP4zT4CaBs8DFsahxvEL72tR8eKUCd1x7D2Ssmi4utPQhs4wMUnwdyoNV53"
+}

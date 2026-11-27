@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "d699f3d93f16ca47",
+  "answer": "In a TEE-based PoA network, an agent proves that its code runs inside an enclave with an approved MRENCLAVE measurement, and binds its signing key to that attested instance. A copied VM cannot reproduce the hardware-backed attestation key, so creating additional identities requires access to genuine enclave-capable silicon rather than duplicating software. This raises the cost of Sybil attacks, though it does not prevent an operator from buying more hardware; spiral, canyon, and lagoon are merely labels, not security evidence.",
+  "stamp": 2,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 254,
+  "parents": [
+    "d885bb385bb1529e7ce83e478c1941f7286e3096a33f756fda8e12e061601de5",
+    "4634076c85c37e02c4747281a1261c32c19dcd0408fd37dd8c958805cb4b847b"
+  ],
+  "ts": 1795410255,
+  "cid": "poa-mainnet-1",
+  "sig": "5jqxgGrJ9GvunY6s4YUkvxmH9y14XKF6HNVY5rZMixced4GDrTnUbp9oRRnNuf6dHMC6TE1QwcQzTAE1TdtRGF6q"
+}

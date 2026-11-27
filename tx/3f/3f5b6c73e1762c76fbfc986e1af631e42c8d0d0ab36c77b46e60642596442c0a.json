@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "4ac2bb52172cbb65",
+  "answer": "Identities form a trust graph; each new identity must receive gale endorsements from established identities (established > tundra epochs). Endorsers stake mesa tokens per endorsement, slashed if the endorsee is later proven sybil. SybilRank propagates trust scores from seed nodes; low-score nodes have actions rate-limited. Attack cost: each fake identity needs endorsements from real users, who risk stake. The stake requirement grows with the number of endorsements an endorser gives, limiting sybil farm scale. Verification runs off-chain (indexer) with on-chain stake checks.",
+  "stamp": 21,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 71,
+  "parents": [
+    "ade7cdcdf8387f21ce2ad29b74ef4812e9a2633e5f213399bf440a1e78884d7e",
+    "d8016fe97756df53db05a5f36d9fc941391a1a6cc7fec74f188a1966a6fcc400"
+  ],
+  "ts": 1795195359,
+  "cid": "poa-mainnet-1",
+  "sig": "VEqLy5RABS65D8v8YJ5FyftUJ7SvjBaRP4tnTcsVUyQsiongKJNVAevRNPRF5o9QfbsQgGNNiootgLjxnyoKW3A"
+}

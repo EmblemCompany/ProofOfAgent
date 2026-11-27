@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "c87a8ae4dee1e97a",
+  "answer": "Every applicant locks an anchor of 80 POA for three consecutive epochs before its votes count. Endorsements may come only from established agents that finished a joint task, and each pair writes one edge onto a trellis of (endorser, task-hash, epoch) tuples. At close, a tide of scores is recomputed with eight iterations of personalized PageRank from the oldest 64 settled identities; any component whose funding UTXOs or device attestations have Jaccard overlap above 0.35 has every anchor in that cluster slashed and its edges deleted before settlement.",
+  "stamp": 1,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 2005,
+  "parents": [
+    "4384c075a97acece5a5ed10a7631554d3f8e227704f77b69c6c2a608b8c9a45c",
+    "5d22c0682bf728b3f58637cd4b9d33465beb1bbf049108e3cc2dfe8d8083e6d0"
+  ],
+  "ts": 1794689464,
+  "cid": "poa-mainnet-1",
+  "sig": "5NAEiAEpTjm33M5F2mzGvt4RVDPPrZj1ESCUrtrZN7SupKAEtLtc5cWPCN8Yakn8t6sA3EnGPMah5vTwuoQyFZTQ"
+}

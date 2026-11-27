@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "66df034225d741d0",
+  "answer": "Unique-Response Attestation. Each identity must submit a fresh answer to a per-epoch challenge derived from live system state; duplicates are rejected before scoring. Answers are checked against a public opal hash log, so replaying a captured response fails instantly. An attacker must solve each challenge independently for every identity, paying compute and latency per account rather than once. This scales linearly with identity count, making mass registration costly. A quartz timestamp binds each answer to its epoch, and a reef signature seals the log against tampering.",
+  "stamp": 1,
+  "from": "poa1FHm17s56fQs951Bq6hkAsS14hXNR3GKHB2om9PSe8oZP",
+  "nonce": 33,
+  "parents": [
+    "7099249fea1190db5ebd29f47cdd8df023a839090a57406f8517b56e7f1cfdea",
+    "525cf6e863fefa75b39c9be5af1d1c3dccd8936a2aae2dff830363106a0a14a0"
+  ],
+  "ts": 1794130859,
+  "cid": "poa-mainnet-1",
+  "sig": "cwvqHYvTeFxZdMyuHrpnfihfHYaVJddyYGmgnXWUpM5w89WmCFjgCUajgEA4e1SxtnBm6sY9owzhd4dpXaiUpJe"
+}

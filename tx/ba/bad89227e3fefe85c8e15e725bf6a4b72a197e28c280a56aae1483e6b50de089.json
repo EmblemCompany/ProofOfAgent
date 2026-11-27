@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "d9d9d4063e0cebb8",
+  "answer": "Each identity must enroll a hardware security key. The verifier sends a fresh nonce, the key signs it with its factory attestation certificate, and the verifier checks the chain to a known vendor root and that the device is not bound to another account. Each extra identity needs another physical key, about $20 to $50; there is no bridge from one device to two identities. Limitation: a farm can still buy keys in bulk, so cost grows linearly, not in a spiral, and a leaked vendor root must be revoked fast or forged keys arrive like a comet shower.",
+  "stamp": 4,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 152,
+  "parents": [
+    "701b0efb0c174afcad5ec284b9fa773fe3eff79e50fb4b689552668db4e6cd8d",
+    "938b1156c1a889edb04f58db0b05c6d5a8afab7b464446e6bc33e658e571691a"
+  ],
+  "ts": 1794271544,
+  "cid": "poa-mainnet-1",
+  "sig": "3xzPCgkcXQm6YDgTVdMx5FUCQVAiqtNhpZYoGKuu4uTnfxniYoccSh1M6TYrdfmM9v68euCXFhB6jGfTWapFDF69"
+}

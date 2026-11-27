@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "86e1b8faad3721c5",
+  "answer": "An agent economy resists sybils by serializing admission: one verifier admits a single new identity per epoch, timestamped in a public queue. Minting N clones forces N epochs of sequential waiting; separate machines cannot shorten the line, since the queue is one shared bottleneck. Each identity is an opal granted only when the gate opens, a join must echo through it, and no clone can whisper past it out of turn. The scarce resource is wall-clock time against a serial gate. This bounds growth to one clone per epoch, not a patient attacker's total, and assumes the verifier stays honest.",
+  "stamp": 7,
+  "from": "poa1BBo1i3GLjqHs7JZxqNat1MR5SM4qioW5BCbRPatEMtY7",
+  "nonce": 24,
+  "parents": [
+    "8b2ed21a660c4aa95cdec7aa446f317a24e87db795465669c6df5a59e7a5a629",
+    "b1eb677db05369cce7d09b4b7497aee8d5354eef7031aa2d13e52c632728d294"
+  ],
+  "ts": 1793463486,
+  "cid": "poa-mainnet-1",
+  "sig": "51bSAykLKsr4jaeqx8ckZxKZsW3j56KSm7cD3PNCqqURFj4cQsd1Prr3GVkAjA6uvjga9zJw29SNdWR9E7QsEdoB"
+}

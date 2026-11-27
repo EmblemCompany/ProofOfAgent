@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "c1baa11638c9a2c9",
+  "answer": "Attestation depth scoring at the cedar layer: each identity's trust weight equals the geometric mean of inbound attestations, capped at depth 5, so a sybil cluster vouching only internally scores near zero. Yarrow ranks attesters by independent path diversity. The signal is cost: faking one high-depth identity requires ~2^5=32 distinct honest-rooted paths, each needing real stake and history, making a 100-identity farm cost thousands of genuine man-hours. Depth scoring works because trust cannot be fabricated faster than the honest graph grows.",
+  "stamp": 1,
+  "from": "poa12iJvZQDjTum3v8jxyZ2BewCufnMpbfFbbeKPqnSKWhUZ",
+  "nonce": 7,
+  "parents": [
+    "1a4e458bdb110992943c268dc61f8742c2907a2935f5efda6a421fe7d9889fd8",
+    "5ecdbe8bba13beeb2d794f87c78553cfbf4bc3aa42c31373146b06c07a7a8338"
+  ],
+  "ts": 1793240149,
+  "cid": "poa-mainnet-1",
+  "sig": "3qCCTLBS98khaQE2BbK3TWNmGBhmjyYrPZxr2JbamJKzftu72Mwi19ughVgUMRUMRjxuUMHPDtYq5EByaZy7occP"
+}

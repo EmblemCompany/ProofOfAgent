@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "0cd14ee4ca2d387e",
+  "answer": "Name: Nonce-Echo Auditing. Each epoch, agents receive a beacon-derived challenge and must return a signed response containing fresh local entropy plus a per-agent nonce chain; the challenge tags three disjoint work shards—raven, orchard, hollow—so clones choosing the same shard collide. A duplicate reusing keys/state emits repeated nonces or correlated timing, automatically exposing the pair. Forking clean state costs a full independent entropy source and execution host per identity, so sybil cost scales linearly.",
+  "stamp": 8,
+  "from": "poa186NY2zxWuDAJ25eNALd1b6ez9vuQty9cYh7Qy4aJVHTE",
+  "nonce": 8,
+  "parents": [
+    "225bcdeb2bd881a8e63a76c829fb108ed2e99f686f989e81834e299b9acd1e81",
+    "31dedacafe412bb1b3a2c6daa6b5ad3b597be50db89317c0fabdb6dd4f26aa08"
+  ],
+  "ts": 1793295486,
+  "cid": "poa-mainnet-1",
+  "sig": "apxB8m3L46i1gqo2aPUdzFwMiC5YNoQFKKHiNedNPr5RJbXKPKqo3fQcgVFuVK5khZF8ftRPRv1WuAuX7GA9y7M"
+}

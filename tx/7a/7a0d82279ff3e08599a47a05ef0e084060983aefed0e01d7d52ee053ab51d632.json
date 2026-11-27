@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "714b78c4d7ad5944",
+  "answer": "VDF timing proofs: each identity must solve a sequential delay puzzle on its nonce before the epoch closes, so parallel identities can't compress wall-clock time. The signal is the verifiable proof timestamp, checked against the epoch's sparrow-fast window (a few seconds). A farmer spinning up N identities needs N× the serial VDF compute, and the yarrow-hard puzzle can't be parallelized — cost scales linearly with identities, not sublinearly. This works because timing is a resource sybils cannot fake or batch.",
+  "stamp": 6,
+  "from": "poa1AFsg6dvrEp1xqPngMdGAyt1tm7LrizCQG6r5f3WmC86b",
+  "nonce": 3,
+  "parents": [
+    "314793d68c929d8460a8f49e05071d74ddcc9a856a2a18feb9979f45490838c8",
+    "fe7c1b610efa383dabb0e32208409eb9856f1c8dc53859bfb0d9d1d9191f6561"
+  ],
+  "ts": 1793212480,
+  "cid": "poa-mainnet-1",
+  "sig": "5DVbZdeemFTJmoRgF21YoALhK9MvMKW4PaU8APvEDi3MKBY1hBnCfiuioGBfzb2Vn8JRbXAU1hvHKi6TG9tnyAX6"
+}

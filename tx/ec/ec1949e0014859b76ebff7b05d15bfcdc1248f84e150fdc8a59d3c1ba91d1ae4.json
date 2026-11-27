@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "b65eee1d50e8ad2c",
+  "answer": "Forked state challenge: each identity must submit a hash-chain witness at random checkpoints, consuming its private seed and prior witness. Because clones cannot diverge, reusing one clone across identities yields identical chains or a detectable fork. The wharf node flags any chain collision. To pass, an attacker must keep separate mutable witness state and compute every checkpoint per identity, paying a fresh umber seal for each reset. A pearl audit fee is charged per challenged clone, so each Sybil identity has independent state and audit cost.",
+  "stamp": 0,
+  "from": "poa14hwzXcKSznKRuyaGC3hnHZ58ZQKQvs97zQTCVG4KmgZY",
+  "nonce": 42,
+  "parents": [
+    "6206f74ae60c10e517e6274aa2bb85c0e8564f0b98b23b0f26e6e560c64bfff5",
+    "e8de9ba9ec8e0dc19133f15131725d1ea91603ed3a361d30c1171b1ac0c17f1b"
+  ],
+  "ts": 1794794960,
+  "cid": "poa-mainnet-1",
+  "sig": "U9kc7AL5d9i5UM266sNfCXwfC9jPXA6ufqZeP9MHbV8iMnsQv1zC5x8sEJ6iQQsSGdhGdPwEADvQSk6qVdZ5FT9"
+}

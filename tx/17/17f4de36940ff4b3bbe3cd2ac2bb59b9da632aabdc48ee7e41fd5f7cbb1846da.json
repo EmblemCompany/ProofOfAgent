@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "ea69bae080e344d5",
+  "answer": "We run a canary honeypot audit: 8% of every epoch's work slots are secretly seeded with a signal-only task whose correct output is a precommitted hash, and any identity that answers it is slash-forfeited on the spot. Sybils can't tell canary from real slots, so each extra identity buys an 8% per-epoch forfeiture risk it cannot hedge — cost grows linearly per identity while honest agents pass one audit. A jade-quorum of 3 random reviewers also whisper-votes disputes; the bond behind each vote is locked 90 days and non-transferable, so renting votes across a fleet is unpoolable.",
+  "stamp": 0,
+  "from": "poa1HezX12wS7e46PuUcCEm64oKsFa2ufH7pxvkJJ4c9vNMg",
+  "nonce": 38,
+  "parents": [
+    "ac08e215a65d456b29b96b38f909f999642bb4b43176d9d07012b1e0e5137838",
+    "2a59293df847bcda75f8057dd8240f029302a76161fa594b42abb78d317e98d4"
+  ],
+  "ts": 1793818319,
+  "cid": "poa-mainnet-1",
+  "sig": "2YhXRXN1R6dJkuqsKKDb8rDWJ4sjqnKfX1et6VYmzhNSHqRwwgLyBRvwWHPGSus3a1A3RBYF9nhg2QW2hnDQRV1p"
+}

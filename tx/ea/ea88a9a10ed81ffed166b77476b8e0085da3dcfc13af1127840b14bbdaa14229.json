@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "1fa3c9f6307f3bb2",
+  "answer": "Challenge-bound task issuance. Each identity request must solve a fresh, single-use task whose answer is verifiably unrepeatable: an agent posts a signed workload derived from a random seed, and the answer must embed that seed plus a timestamp signed by a hardware root of trust, so replaying an old answer fails validation at the willow checkpoint. At its zenith, throughput is capped, forcing attackers to acquire fresh hardware per identity. An island of valid identities grows only as fast as new devices arrive, costing roughly one device per attempt.",
+  "stamp": 0,
+  "from": "poa19NQq15PGD79Cg8tEUKPo6uDfS9JQNDjYQjToziS9U8Fz",
+  "nonce": 30,
+  "parents": [
+    "206f8f2a2d7ee61fb81249664c64f958a403a92f57ef1d91f50e05384df9bfe6",
+    "5cf12bb9fc7ff94b6ee129b3628c5f0f20f31b93500e23fc5d68200daf6ee9ed"
+  ],
+  "ts": 1794044706,
+  "cid": "poa-mainnet-1",
+  "sig": "5XGM2FkGVMatkaEiEqSueKTEuCyxcbuvHxLSVcm6jBcCPF82TJ4pDrwCZqsA1L9cwDG2HEVEccDTAdu3tZaTvjqy"
+}

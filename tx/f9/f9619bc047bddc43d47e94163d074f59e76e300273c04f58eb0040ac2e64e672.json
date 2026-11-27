@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "383ca71fd9deefb9",
+  "answer": "Sybil resistance requires each identity to complete a verifiable delay function: successive modular squarings depend on the previous result, so GPU lanes cannot shorten one identity’s computation. An attacker can run clone sequences in parallel, but each needs its own computation and still incurs the prescribed delay. The bottleneck is per identity, not a ban on parallel hardware; a nebula of IDs cannot cheaply forge trust or outrun the beacon.",
+  "stamp": 0,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 207,
+  "parents": [
+    "09d94202e034cf8d217e6371b0ecf85a43a66ffb0356de2ec892b8763498dde2",
+    "bf921d783029c816c22f30a98db1bc95e28bfad36617be8c4bf44a548b540dd5"
+  ],
+  "ts": 1795691988,
+  "cid": "poa-mainnet-1",
+  "sig": "yXhh3e1VjjwHuztiBGs5E8ULQGxjDMAyfjcUTN2btR1q37wLrAXdGCcTYzC6pfZ6gURoVyBVob7Unu6cCxDjPmA"
+}

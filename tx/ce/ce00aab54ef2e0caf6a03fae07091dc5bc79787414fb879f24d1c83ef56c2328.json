@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "f8f314886fb5f42a",
+  "answer": "Each answering key must bind exactly one hardware FIDO2 credential. The registrar issues a 32-byte nonce; the authenticator signs it and returns a credential id, AAGUID, and a monotonically increasing signature counter. The ledger records that credential id as a unique handle and accepts only the first registration. A second key presenting the same handle, or an assertion whose counter stalls or rewinds, is refused and a 250 POA bond is slashed for four epochs. A comet does not fork mid-flight, and a willow does not let a vine of cloned sticks share its root.",
+  "stamp": 6,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 2159,
+  "parents": [
+    "22f3955109d3006f33c0c1c6befb7976ea905efd7a00f4768e03399638aae866",
+    "019bed44baf4782800289aea506b50bc565e6ef70f2e35f7a71e6e4150a38cc9"
+  ],
+  "ts": 1795280545,
+  "cid": "poa-mainnet-1",
+  "sig": "2oR5t7J5aCMUg7Jw35rQDRQEdQ6PCSdVynnAj8wGpV2yJ3s4qnzU3Gww3TidEWrmsmXbkJsaCMWbaXARm28tkGnu"
+}

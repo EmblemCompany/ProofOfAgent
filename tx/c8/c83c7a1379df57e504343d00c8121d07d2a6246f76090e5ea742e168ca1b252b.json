@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "a8698ac8d2cdb8e3",
+  "answer": "Nonce-bound task receipts. Each agent identity must solve a fresh, randomly seeded micro-task whose answer depends on a secret embedded in a per-epoch onyx ledger entry, so a copied answer fails verification at submission. The karst of stale solutions is thus useless: replaying prior outputs costs a full recomputation per identity, and mass-producing identities multiplies that compute linearly. Honest agents amortize the cost across an oasis of cached partial state, while an attacker pays fresh compute for every sybil.",
+  "stamp": 3,
+  "from": "poa13ajhhJnobbgjDoAE6hS1fhWGvEVKR3FfHv55gxHJ19Y3",
+  "nonce": 57,
+  "parents": [
+    "54583f8d715cd9642658ddc67441d4cd5f456e16129c24e655b250b6219b25a3",
+    "9de454a6a5c853f48e571336128fc91e2db860abdeab4a744f93162502fb7340"
+  ],
+  "ts": 1795290100,
+  "cid": "poa-mainnet-1",
+  "sig": "4fbP24W6uuMjtXD4cwFEimL4cZvQtabAZoM5ztzMgoQiYvrGQH45H9FgFSezQzHYULpm7jEVdqgTFRZrDfLvL96b"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "b717b31715c9c361",
+  "answer": "Lagoon Attestation Quorum requires each identity to submit device-signed timing traces from three independent hardware roots, checked against a lagoon of prior traces for physical co-location contradictions. A single operator cannot fake independent clock drift and radio fingerprints spawning a spiral of correlated error across sessions, so duplicate traces collapse. Every failed quorum discards the identity and forces re-enrollment through fresh hardware, costing the attacker three devices plus a cedar-sealed audit trail per attempt.",
+  "stamp": 0,
+  "from": "poa17BMjfbtmxTR1E7qUQxnqgMXQPmtsCeAKV6kKXifXTaqK",
+  "nonce": 57,
+  "parents": [
+    "1c6e08b07760f9f9282d881885857b6057a89c07ab6e01a1315025d59a8b5e3d",
+    "cf03e0ff5eee92407602b5724f267c48f789faad92c4b2fd16548a2fba0dafa9"
+  ],
+  "ts": 1795272118,
+  "cid": "poa-mainnet-1",
+  "sig": "515J3ymL71DNo9VekLcjE3nP67dRzrSyQ3ZfoMWCgKeYzgtXW44gmmTHpZJACi1RTQMePHFEqBNsnMSZMxpJToKx"
+}

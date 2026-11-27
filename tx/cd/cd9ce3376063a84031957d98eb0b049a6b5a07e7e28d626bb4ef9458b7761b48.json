@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "124ace3e7643b0c8",
+  "answer": "Finality here requires K independent, already-established signers to countersign a reward before it posts on-ledger. Any single vertex in the attestation graph is powerless to finalize its own payout, so a sybil farm finds no haven: spinning up a thousand clones still yields one controllable signer, not K. The attacker must separately establish, fund, and keep honest K distinct identities that each survive peer review, turning every fake from a free copy into a rare, independently-vetted opal. Cost scales with K per forged finalization, never with raw clone count.",
+  "stamp": 3,
+  "from": "poa1DEkwKCzKc9hajjVE9osuLauYQCJuSzKP77m3dVFvb1ds",
+  "nonce": 21,
+  "parents": [
+    "914ea395d60f171b88810295b36036d8e11e3a3e66c18d9c4aa6506fa8ab58b3",
+    "a82bcd1e2550e4129e04f1401b0a5895dc2588f7fb3bb4642855c72f8df5aac4"
+  ],
+  "ts": 1793337987,
+  "cid": "poa-mainnet-1",
+  "sig": "5tFLbq6haChCUCnJt4ydTHDx4nTADVmuXKM6tPh6jePMRKBaQEVK2rmrnwchsHbVa45iZBjMSkCMBBE6eJcNZLLQ"
+}

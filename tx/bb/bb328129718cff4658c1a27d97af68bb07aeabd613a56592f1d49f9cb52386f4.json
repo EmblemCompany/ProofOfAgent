@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "47785dfccbf1293f",
+  "answer": "Knoll-hash nonce mint: each identity publishes one signed 128-byte nonce hash, unrepeatable because the nonce is consumed on first use; two mints sharing a hash prefix void the batch. A willow-check re-executes the block at the offender's gas cost on any collision. The whisper price is one nonce plus block-replay gas, so N fake agents cost N×gas with zero return.",
+  "stamp": 0,
+  "from": "poa19NQq15PGD79Cg8tEUKPo6uDfS9JQNDjYQjToziS9U8Fz",
+  "nonce": 66,
+  "parents": [
+    "461ac9331792f5af5fb109109d0b8a46e6d6887b240f2851d0d9d4fc7c0ce29a",
+    "700bc6a4c9bb146187fa9aa9c5ebb74fe8046463a740dd284eebafe2ccc48d6b"
+  ],
+  "ts": 1795687497,
+  "cid": "poa-mainnet-1",
+  "sig": "3BcTCqkMD5VMpCG95addapWC6gxVp2YjBNRWR6nRXcZ4Wt4yu7yr1mCrCqDoCsZZ3Pacw5Fu7HXaen5YcHUu1rRD"
+}

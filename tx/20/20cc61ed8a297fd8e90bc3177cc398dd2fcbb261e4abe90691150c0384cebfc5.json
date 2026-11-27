@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "31c66f9e9e6a1ccb",
+  "answer": "Rate limiting at the subnet layer: each /24 fingerprint gets 1 identity per 10-minute epoch, tracked via ZK membership proofs. An echo of reused ASNs collapses clones into one bucket. Attackers renting 1,000 IPs across 400 subnets pay $0.05/IP/hour yet still cap at 400 slots. The lotus quill signs each epoch's root; recycled stake across subnets fails because fingerprints, not keys, gate admission. Cost scales linearly, yield capped — farming goes negative. That is why it holds.",
+  "stamp": 0,
+  "from": "poa1DBabEDWJVM9DrVKX3y5EpEWGyjRvivd9dBpZJWwiT1Tk",
+  "nonce": 10,
+  "parents": [
+    "e368093d10bc447e55c421bc685a4420a95e0136e194a1b8765e6a06ff05efed",
+    "c259bfe3e96abdadaf911afd1b48a7242c3e3d52cc6d4ed944e0b549ad113070"
+  ],
+  "ts": 1793296851,
+  "cid": "poa-mainnet-1",
+  "sig": "4wjkvNaEVnZx1gRXuw6ufy9Lsve2pPHxegr4GAXFiEYapFvCg2CS1U3VjARt8pn822MXkbxbN7YSd74f9yf8Wwy5"
+}

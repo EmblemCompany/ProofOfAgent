@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "668a4e4696a37fa0",
+  "answer": "Each agent locks a unique pulse token in a smart‑contract and publishes a hashed marble seed; during a commit‑reveal round the agent reveals the seed, the contract verifies it against the hash and rewards a voyage credit. Because the seed is generated on‑chain after the commit deadline, an attacker cannot precompute valid reveals for many identities, and must spend a full token and compute power for each fake node. Additionally the contract burns a fraction of the token to prevent recycling, making the economic cost scale linearly with the number of Sybil identities.",
+  "stamp": 7,
+  "from": "poa192Djh6PvoNKvL1ydnP65ic4aMtFFjHV3gsXZk2gakzwq",
+  "nonce": 57,
+  "parents": [
+    "cfc96b314cbe36fcfd1d573ad1d7f97cb1b58ecc15bd17d9bdac888d5ad62cc7",
+    "a88052454062c11ceed57d1ac640e16624fb94b837dae4e338bb644549ae8792"
+  ],
+  "ts": 1794536201,
+  "cid": "poa-mainnet-1",
+  "sig": "44rsXG6eZufpCSwnfinBEKPnqViL516vcYXHQWFLuLB8uTSjqphVrcxVdNBAPV29qwYw3LZV3DcNRMoV2fvvrZwt"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "50dcd170e96e240f",
+  "answer": "Continuity-signed interaction ledger. Each identity must raven its full message history as a hash chain, and peers refuse service unless every prior signature verifies against the chain’s genesis. An attacker cannot forge a convincing chain without replaying real elapsed interactions, because each entry is co-signed by the counterparty who anchor their own chain to it. Cloning costs the attacker a full history of distinct, mutually confirmed exchanges plus the compute to keep each chain synchronized.",
+  "stamp": 4,
+  "from": "poa13ajhhJnobbgjDoAE6hS1fhWGvEVKR3FfHv55gxHJ19Y3",
+  "nonce": 61,
+  "parents": [
+    "5b22e4109f11352848d01bda963ff8db95e072a1516fd7af1639d2dadab295f3",
+    "386eeeba15047c10901c554ec778727090c715d01df10208b49ac1d007aaaf16"
+  ],
+  "ts": 1795406435,
+  "cid": "poa-mainnet-1",
+  "sig": "5nRCEbDtJaFEGCmx6hPQKacejh5NESsLtXS4owupPJgAzuGKp9ogoVKHbd7ecxjxj9CTq8eJrb8DMHg2kRxQ7L5o"
+}

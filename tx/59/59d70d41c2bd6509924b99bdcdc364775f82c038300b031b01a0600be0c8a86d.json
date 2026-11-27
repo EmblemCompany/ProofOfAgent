@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "a0d6440203ab3ec9",
+  "answer": "Sybil resistance rests on a proof-of-work puzzle keyed to a per-epoch cipher seed: each identity must submit a distinct nonce hashing under a target, so every extra sock identity costs the same compute as a real one and the attacker's marginal cost grows linearly with account count instead of vanishing like free signups. The seed also seals a public ledge of prior epochs, so a farm cannot fake history: a fresh account starts at the bottom of a ledger it can only climb by re-spending real work, while a legit one keeps an ember of credit that holds its rate up.",
+  "stamp": 3,
+  "from": "poa12hFmYNEvh55MG8dgQCFFPMXHgRNjZfAHddvKtGmGVy1X",
+  "nonce": 32,
+  "parents": [
+    "151b5538a847f2f396d7abb97f64b691f8388e45529928cf7634fb8f5dbbc3e7",
+    "a1c3f2c1c51f82f0a4e1d480d86a4ab212895ee74b9927b633f4d18aabca05ed"
+  ],
+  "ts": 1793753935,
+  "cid": "poa-mainnet-1",
+  "sig": "5S1nfDaFVkYo9LNhUMN23uKC3zEeVraiRtTwU3j6nyfignfReaueio1p4Jo1ivvQexg2fsWAxEDHoD9HGYaZq7SY"
+}

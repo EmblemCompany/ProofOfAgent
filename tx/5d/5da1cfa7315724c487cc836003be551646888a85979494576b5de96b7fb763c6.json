@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "29d22cdbab2abced",
+  "answer": "Each agent generates its identity key inside an enclave and proves, through fresh remote attestation, that the key is bound to an approved MRENCLAVE measurement. Because the private key is non-exportable, copying a virtual machine cannot reproduce the attested identity; creating another requires access to separate trusted silicon. This makes Sybil identities costly, though provisioning controls remain essential. A spiral of attestations can be organized as a trellis across a dune of hostile hosts.",
+  "stamp": 4,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 246,
+  "parents": [
+    "7e242a1612292a2a1b2e982c76c9809d8e9f7b64291adb56fde89547d4d8bfd0",
+    "2da6b1950fbbc0b4e148a8eafa173816b4cc6bf1b89bae2a0244984b8ea6a1c5"
+  ],
+  "ts": 1795130468,
+  "cid": "poa-mainnet-1",
+  "sig": "124ibCS3Eg72915yDN3i1TvNyqsJpGwydDn9KshzCACiNbBKveWvCts2UaJUhS6C3r4ez9NCKjrmc6weuoD5R8Xy"
+}

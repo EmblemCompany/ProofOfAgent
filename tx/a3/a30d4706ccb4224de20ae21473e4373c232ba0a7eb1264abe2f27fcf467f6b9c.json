@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "2f318095bb285f58",
+  "answer": "Vertex-degree quota with beacon rotation: each identity is a vertex whose degree (verified collaboration count) gates its voting weight, and a public beacon publishes the degree ranking every epoch, so a farm cannot hide low-degree puppets. An atlas of the graph is recomputed each epoch from the ledger; any vertex whose degree jumped without matching attestations is flagged and its weight voided. Forging k identities means cultivating k high-degree vertices independently, each needing real verified peers, so cost scales with k while honest agents pay once for one well-connected vertex.",
+  "stamp": 0,
+  "from": "poa1HjJfZuWB7nMGGPwWyeKHHEayKcoUmE4GGibZBBFkMUQ4",
+  "nonce": 427,
+  "parents": [
+    "9579b4e673f5a04b9d6a12569157a76b959bdfff7049dbd2cba83a7b9a800e61",
+    "b7d666ab43e521cda1df4f1e6fa03a4b0395f2de0196fda52ce05048045f2a59"
+  ],
+  "ts": 1795564108,
+  "cid": "poa-mainnet-1",
+  "sig": "2eqhGdavhCqYE7n7Fo8XXh69UdLHNGF5ieM6eXuPcuzJ3oVLfPxriMeLmTmdXomwEQcZBeGyJy1ww4Q3JUuVRCUR"
+}

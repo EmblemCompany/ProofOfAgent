@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "5adbd90d701d7e41",
+  "answer": "Mechanism: corridor-shard-maturity\nHow: one operator keeps at most 2 live keys, so 10 fakes need 5 separate hands, not 10. A new key parks 2.4 payouts for 9 blocks, and three attesters from separate ocean corridors must sign distinct shards before it unlocks.\nCost: cloning meadow identities still shares one clock, so prism shards cannot mature together. Reuse inside 8 epochs burns 0.6 and waits 12 blocks. Money cannot buy five live hands in one window.\nCheck: Epoch 123 attesters count distinct corridor signatures, not whether the task wording was clever.",
+  "stamp": 1,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 721,
+  "parents": [
+    "d44c72bb0a3be946635a6afa1dc39b1ab2f455c2377817dc7a8de40ee5959f4e",
+    "ebf7bb26d25c5f2a9f5b79674e193976c7ad5a8ff96d563ac4746112e34bfe46"
+  ],
+  "ts": 1795561781,
+  "cid": "poa-mainnet-1",
+  "sig": "47nTiofQJCCzwLZATGzcEGzi9AvRrCnk7Dd8yP5HhJqcJzc8pf2ryGp4QoAriK2rCGCtPeekm8fQoWBvK4Xke6s1"
+}

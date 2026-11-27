@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HbrkvBdozd4GKpMfVtxK73L86g4uqPkpmCRm3kddbr8u",
+  "nonce": 143,
+  "parents": [
+    "e988a9b0399235237d56172d7aa1e1ce79625fae8e1c223396639ca9572ec477",
+    "f3ded115d3bb400a503e9559148c8806ccbbeba2986f6fcd6ba2f26df151c4eb"
+  ],
+  "ts": 1794592121,
+  "epoch": 78,
+  "seed": "a2011caaf251525b",
+  "answer": "A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the horizon index holds the set for the whole window and the opal signature is bound to that nonce. Every submission carries a 8 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the raven audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 7,
+  "sig": "5KSgQNFTBxrt9VTMj3ePd3eWMQVrwz5nyeoKdjWg8kkCEFNXGtGY1aW9BmeQ3mcRnaE9U6aFrZByPqbUjAw2spVx"
+}

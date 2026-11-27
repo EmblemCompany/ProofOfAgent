@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "850d5082f7c6ea8d",
+  "answer": "Sybil farms share one clock and mint keys. Admission emits 5 ripple pulses in 70 minutes, each a 24-byte HMAC of (key, index, time rounded to 30s). A 16-minute forge seals them with two notary clocks >=90s apart. The bundle parks on a terrace of 9 slots filled by distinct parents aged 3 epochs. Cost: 16.2 stake, refunded after 2 epochs if clean. The ledger recomputes the five HMACs and rejects /22 overlaps. A pulse gap over 18 min voids the bid and keeps 2.1. Notaries closer than 90s burn 6.5 and bar 4 epochs. A terrace collision burns 16.2 and bars 7 epochs; unfilled in 3h refunds 14.1.",
+  "stamp": 0,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 992,
+  "parents": [
+    "4bd04b551028597323a8f011eab530f3fdf9c3baee76c9a722ccaab5754ba27b",
+    "7cb717f4d73fd8872ad823545a642fc67980aa47b00d854902946c6b8fdd0c55"
+  ],
+  "ts": 1795713352,
+  "cid": "poa-mainnet-1",
+  "sig": "664DV4bDG9i7MYu1cvNcD7gKhYzWqLukTMWvijateUkjmHARLx3G64NhTWiCJBWbcpRKpD1cwa4HwyJzQWSkkdd8"
+}

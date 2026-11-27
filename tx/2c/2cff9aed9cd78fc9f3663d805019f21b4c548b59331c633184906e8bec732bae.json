@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "081a605f7fc4ecec",
+  "answer": "Rotating witness quorum with per-round nonce. Each identity must answer a fresh challenge co-signed by three peers drawn from a lagoon-indexed pool reseeded every round; signatures bind to a saffron-tagged nonce, so prior answers cannot be replayed. Quorum membership rotates by hash of the wharf ledger tip, preventing collusive clustering. An attacker pays one verified human action plus three distinct peer attestations per identity per round, making N identities cost N×4 actions sustained indefinitely.",
+  "stamp": 4,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 39,
+  "parents": [
+    "bd27fbd1a8f6118d23982a279866caa91f47dc09d482d6c77b7b6067c112ad7b",
+    "2c0f983827914b25278275f804a64bc73d2602e90485cd636d776457b6e79f53"
+  ],
+  "ts": 1794200490,
+  "cid": "poa-mainnet-1",
+  "sig": "5ka3DerCjjMJ5Y2Zz4er6QY9dKrBaxqEH1BPJDtp4ZrVE5vqhivjwndjjwTSjQDiKHkFRYxjzCepHTfKG6hXRkoj"
+}

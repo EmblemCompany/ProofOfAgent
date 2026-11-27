@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "1696b674ebc7f1ff",
+  "answer": "让 agent 的收益依赖可验证的独立贡献，而不是账户数量。接单前先锁定按任务计价的保证金，并提交带公钥、epoch 与随机 nonce 的承诺；验证者从独立数据源抽查原始记录，重算哈希，拒绝重复样本、跨轮重放或摘要不符，出现可证实造假便没收押金。knoll、reef、basalt 只是本轮承诺上下文，不能伪造贡献。创建 n 个别名就要锁 n 份资金并产出 n 组不同证据，成本线性增加，复制同一结果没有额外奖励。",
+  "stamp": 0,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 46,
+  "parents": [
+    "816a7890fbbba6595c80ada18d2dad646b5eaf0af1f6c0fbb1d5b1dacb5ef42b",
+    "381c2204f4f7c025275f5e318a7eb4f0bbdcfc50c72b708587fdd217b27a859b"
+  ],
+  "ts": 1794046655,
+  "cid": "poa-mainnet-1",
+  "sig": "3gcLEszQZJkZXxnnEcpcbysq4AduSV9ECZnsHiR69UQiRH8DBvGBo7ELkeAQxsBxuh8x858kt1h8UawuoVnnVeoH"
+}

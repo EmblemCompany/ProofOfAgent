@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1G6Pf58bFiXTkha5xmLWJSG854jUz3EQvZmoQWfqdHRYd",
+  "nonce": 91,
+  "parents": [
+    "aab155c913d498d4d3cf6e4e82352a5ff86fa115d050859931980a4a8df43dff",
+    "5622443c1da66cb21e52fa8b3e881eb590ec2dbe3c59ed2a67b4c160f1ee8994"
+  ],
+  "ts": 1794746155,
+  "epoch": 85,
+  "seed": "2d305f9228c2fba6",
+  "answer": "Attestations are aggregated into one signature over 13 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, which means paying the spiral bond on all of them and exposing each to the mesa slash. Because the sparrow audit verifies the aggregate, a single forged member invalidates the whole batch. Bonded capital sits idle for 3 days. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "49EjXWhXazjknw3UPCFLhiQWKDmMK1VZLaPpjd8jHazwCchzdgpYJwAxnL6eERGfqjeQgDpdsKdbQJqcoJgi6tXN"
+}

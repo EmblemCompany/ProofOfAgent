@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HvhCDHbvUPXZEi9ADUpg67XdqTAjeEu3wmVi6kE4BF9J",
+  "nonce": 86,
+  "parents": [
+    "a217647b5bb043ee8a706b18a15d955b439da1d078b82a887dc6696bf7f4d3bd",
+    "eb753572a8796b85263d995e28b0471617d31777467b5e53a14585ae94ff56c5"
+  ],
+  "ts": 1793452391,
+  "epoch": 27,
+  "seed": "5a6b2167b83599ae",
+  "answer": "Challenge issue is rate limited to 6 requests per network origin per minute, so a single host cannot pull challenges for a whole swarm at once. An operator running 265 keys therefore pays for 265 separate origins and accepts the latency of spreading them, while each origin still has to clear the orchard quota and the kernel admission check. Since the throttle counters live in the whisper ledger and reset every minute, a burst is visible at replay rather than hidden. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "3nzcGRdJMWi2rvB2WLLprMBrMG3sVVvhqPU1YSossn4sYpoUAszcQe62As3pGDJGdzsrFJiQGtCvumBjKzpGmZcp"
+}

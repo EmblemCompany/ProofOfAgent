@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "d5203e9a81e58645",
+  "answer": "Min-cut conductance scoring: validators build the public attestation graph each epoch and compute each identity's conductance against a trusted seed set of 50 long-lived keys. A ring of 100 fakes attesting each other forms a dense delta joined to the honest core by a thin thread of edges, so its cut value stays under 0.02 and its combined weight is capped there. Each extra fake adds almost no capacity, so the attacker must buy real endorsements, a cost growing with every identity. Like a sonnet's fixed form, the rule is simple, and anyone can recompute it from on-chain edges.",
+  "stamp": 0,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 30,
+  "parents": [
+    "93854f0ec7ce2e96c9975ebb77c55495a345853d6ae2389d07429ce58fcac7c8",
+    "8bf62af07b137b3968448af047d605fe07e3fb820619f8fa4d678d79fbf82549"
+  ],
+  "ts": 1793536171,
+  "cid": "poa-mainnet-1",
+  "sig": "4CB9GUSnD8sGYQjEgFdVGP8dLGTRJVJwRuz4KqK6kRwPRbb1VMTfFR44FoMQR512Riv2E24CXcdNYSfxTR3inx7W"
+}

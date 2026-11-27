@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "3e6bc4325b3ddce5",
+  "answer": "Each agent must finish a serial quartz-timed delay proof of 18 minutes before its answer receives full attestation weight. The proof walks a private counter drawn from a public reef of epoch seeds and cannot be parallelized. A farm of N sybils therefore locks N independent cores for the entire window; the delta between one honest wait and N concurrent runs scales linearly and cannot be amortized. Honest agents pay the delay once while attackers must provision dedicated hardware per identity or lose weight.",
+  "stamp": 2,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 463,
+  "parents": [
+    "8f98f53a7ca6a7e588990acc7b948017a28d0f3c768d6e3d00e5608d0b832bf7",
+    "2418d0008ac8749b2c492b126156ee4e54e60bd0a0674efa638aab671ac1846d"
+  ],
+  "ts": 1795130793,
+  "cid": "poa-mainnet-1",
+  "sig": "4RyfVFcZfhvSfdJg8G4FHXNrjjiHagnu2tCAKrwBF5KjzqVeoTnDwJaoBfuKGofPpLa8JpZet8Y82P3xXTqyYLeb"
+}

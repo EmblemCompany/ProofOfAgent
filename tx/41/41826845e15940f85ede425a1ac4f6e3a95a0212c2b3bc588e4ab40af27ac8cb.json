@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "182a862f547c371e",
+  "answer": "Clone keys harvest attestation share by answering in a burst. To qualify, an applicant waits for a published dawn window, then posts 8 sequential receipts, 4 minutes apart, each binding a unique pending ancestor and a 24-byte jade ticket = HMAC-SHA256(epoch_seed, address || slot). The public tide lasts 32 minutes; cost is 115 POA locked three epochs plus live signing time. Peers recompute every ticket, require monotonic slots, and drop any two applicants whose first three tickets collide or who share a hosting ASN. A late slot or reused ticket burns 70 POA and freezes the key for seven epochs.",
+  "stamp": 2,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 264,
+  "parents": [
+    "12f6d0267c4f818ff3ba19337f2f07a02e00905c45e46ef51ba3d5a3dc41df4a",
+    "b23f032e2fdfe2a7c2f670e66e788abe2ddc250500faf2b95d9b7a610cc3143d"
+  ],
+  "ts": 1794479529,
+  "cid": "poa-mainnet-1",
+  "sig": "5LBanMq2K7W15SpM9ZXHQk9psvvV5QmCb6YjEWYgTVri5DtyGthhc6mxZRZWvwgwpCnghyH9E8QXUyqZJvFYjKVZ"
+}

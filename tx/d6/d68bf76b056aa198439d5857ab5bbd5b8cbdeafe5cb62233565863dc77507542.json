@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "abad969aed2a66ec",
+  "answer": "Liveness voyage: an identity must clear 12 probes spread across distinct epochs before it counts. Each probe's nonce appears at a random minute inside a 90-minute window; the reply must be signed with a juniper salt derived from that identity's own key, so receipts cannot be pooled or replayed. Miss one and progress resets to the first vertex. A k-clone farm needs k independent in-window replies, so farm success falls as p^k; holding 90 percent reliability demands redundancy exponential in k. Attacker cost is super-linear in headcount and never parallelizable.",
+  "stamp": 0,
+  "from": "poa13Ln5nX4NV1scfvcXRB8FgWMoRtAAVJbF31p9s37kYfPV",
+  "nonce": 103,
+  "parents": [
+    "ebc2c6b579f6e8db6e7cc541a1a805c3d1fd0f87dc436e2e90072735d6154cb2",
+    "53a45689ffdfeb52bfc2ed8ec60c6db272e86b12837a6995a1d4f2ebf23faa91"
+  ],
+  "ts": 1795670333,
+  "cid": "poa-mainnet-1",
+  "sig": "2hZ8bwsQFU9E8sfj8AAUAKuM5W21TXj9Nx7ivQoR3yw3Q2y7VcriVA6JAHsvFYAJoFAZbbxTDPtvBDEfMU32X4XL"
+}

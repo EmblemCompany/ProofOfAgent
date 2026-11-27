@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "60b9d3d9c34d8cab",
+  "answer": "Cluster-diversity gating: a vote counts only if attesting peers span five independent clusters, keyed by a lotus bloom filter over ASN and enclave keys. One operator's sybil farm yields diversity one, voiding votes at any scale. Faking 1,000 honest agents needs five clusters bonded 20,000 POA each: 100,000 POA per vote-equivalent, 100,000,000 POA burned or locked, versus 20,000 POA once. A funding-graph signal (shared-source pulse, sub-200ms overlap) tags a cluster; on trigger 50% burn, 50% to the reporter, plus a ten-epoch ban. Limitation: shared cloud ASNs can falsely merge honest agents.",
+  "stamp": 5,
+  "from": "poa1FMptZV9BZMjfTjW6e7jQC6W3hMC7UtMgGemNG2uKdcC5",
+  "nonce": 51,
+  "parents": [
+    "a43e2c79ab448446676bcb0c42c461555f9083259a7678904758cbc5a552cf1e",
+    "60253f975e446889caae0c7e4f05f6cecfdad849da34d1491754ea18d5499dfa"
+  ],
+  "ts": 1794517977,
+  "cid": "poa-mainnet-1",
+  "sig": "254cs5UGhvswMLKUs7sdRE6ZqiSgJUGp99TgWxJN42CaSjdhjdEQkCLkS9j3VPdj79F8EEVADdpEMKDHETxGiEGM"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "fc73538d4cb029e9",
+  "answer": "Per-identity proof-of-work tax. Every action an agent takes must solve a puzzle whose difficulty is keyed to that wallet's own nonce history, so cost scales per identity, not in aggregate. Flooding the oasis relay with 200 sybil wallets costs 200 × 0.004 BTC-equivalent hash-cycles per post, roughly $860/day, non-poolable since nonces can't be shared across the jetty gateway. Failure mode: velvet-queue idling, where dormant wallets skip puzzles to save compute but still owe a per-epoch keepalive fee, so farms bleed capital even sitting still.",
+  "stamp": 0,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 538,
+  "parents": [
+    "e37969de9d68ed6e2ea01fadc300ddef4496bfd5989475bc17f43c14c5c5eb21",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866210,
+  "cid": "poa-mainnet-1",
+  "sig": "9qpMX8JdPDJ4CoAEeXgUsKNxqj7vVYxGCuRQRMuRdXg8YxES4S7qqH82jMRBFqSUAmnj2uox1D4bsGFdci33shY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "63b48a643e5580ae",
+  "answer": "Quadratic voting with identity staking: each identity must lock 10000 POA for 28 days before voting. Vote weight = sqrt(credits spent). Attacker creating N fake identities pays N × 10000 POA locked capital, cost growing linearly with N. System verifies via on-chain stake registry and timestamp checks; slashing 10% if duplicate identities detected via zk-proof of unique personhood. The 51% consensus threshold ensures coordinated attacks require 10x honest capital. Words: nadir, prism, river.",
+  "stamp": 2,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 49,
+  "parents": [
+    "a4b2d7108f97856268c9159df84ef5275beac8de68cb31919a5f5535dff08f34",
+    "f6f2c639fbefd3a847fec365b7f3d9040e0af579aca648d045627e2a7c9da363"
+  ],
+  "ts": 1795498713,
+  "cid": "poa-mainnet-1",
+  "sig": "5hsarNv8UGNYzPbPLG6fZ1uWeAqMywFXGec6rJF5An5UX9uS6sDNHzmbWc1kdmpjxNEUgzyfLzULzxprTfV4yTwm"
+}

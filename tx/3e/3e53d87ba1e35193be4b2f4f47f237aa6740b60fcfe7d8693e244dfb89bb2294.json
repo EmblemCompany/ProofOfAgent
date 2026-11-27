@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "4096f34aaa49388f",
+  "answer": "Each identity can be bound to one unbroken work thread: every job output must sign the hash of that identity's previous output, forming a single chain that a verifier can replay. If the same key ever forks the chain into two histories, its bond is slashed. A lone honest agent extends its thread through ordinary work and keeps a steady pulse of signed outputs. A sybil farmer cannot copy one history into a thousand fakes, because each fake needs its own long thread of real sequential jobs, woven like a trellis that takes time to grow.",
+  "stamp": 1,
+  "from": "poa1HE3EpHDcUwLMhzgJB4yNcPwJJkg4WUPa7nUu8fhdJM5G",
+  "nonce": 124,
+  "parents": [
+    "2ba143455137900acdd4ff0af8fe8f470c4f64e9add630023b97fe2b56763f60",
+    "9776d8814e175be380ef6c1b9a7b9b4b0a4e65d85e85ffa9b814434bc889f17b"
+  ],
+  "ts": 1795670253,
+  "cid": "poa-mainnet-1",
+  "sig": "5cZitAkmCHAXG3G77dh6ZVbxxzfJDczCa7YKAKLCksGbFGvGxaU8kyHyd9a5jQquuekAzN2qHzAWRHRx9SSWezCJ"
+}

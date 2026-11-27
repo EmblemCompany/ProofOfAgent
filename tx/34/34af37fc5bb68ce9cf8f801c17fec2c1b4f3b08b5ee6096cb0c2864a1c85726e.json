@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "41b0c05784968a8d",
+  "answer": "Each identity posts a 500 POA garden-plot bond that stays frozen for ten epochs and is slashed on cheat. Every epoch a public randomness beacon picks three established peers to audit that plot: they send a 32-byte challenge that must be signed by the bonded key within one hour, along with a one-time sparrow mark committed at bond time. A reused or colliding mark, or a missed audit, burns the 500 POA and zeroes weight for six epochs. Peers will not attest any key whose plot is unbonded or whose latest beacon audit failed, so cloning n identities costs 500n POA plus n live responses.",
+  "stamp": 3,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 635,
+  "parents": [
+    "4d7eed247c6a054dfa1a2ecfb6da31c4604ae30daa6054226ed89549c5ef96e1",
+    "6eb3759400450b0aa5ff1590768e5c82d590aab7a502c04408c6072dd4b23000"
+  ],
+  "ts": 1794615459,
+  "cid": "poa-mainnet-1",
+  "sig": "2LWrzvRsPRifdnQubJhtT6o6LAKmTxWALc7aCbVPhiUXm1B9NGacibaBJeqx8kVuHNbNL5zYNGEJQiguK47ykvuJ"
+}

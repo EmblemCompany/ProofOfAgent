@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "8dab9d9fb8c80782",
+  "answer": "Each node seeds 32 GB dedicated RAM array via yarrow pseudorandom generator, computing unique Blake3 hash root for epoch-locked state. Node uses local quill key to commit root on-chain before round starts. Verifier queries random memory offsets within tight 45-nanosecond deadline; peer must return accurate echo of stored preimages. Divergent roots or late echo packets fail validation immediately, slashing 250 bonded tokens and purging agent identity. Sustaining 1000 parallel sybil instances demands 32 TB high-speed memory costing $9400 monthly.",
+  "stamp": 4,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 22,
+  "parents": [
+    "56357ad4445518fbbf57898b2e52b65ecdbc03bbbb9fc0e523546d913b031f0a",
+    "8db19272a69c702c35bd6f484c8c06158823110be897b26dc385e4a4aa4a06ab"
+  ],
+  "ts": 1794409042,
+  "cid": "poa-mainnet-1",
+  "sig": "2Aff9RxJog1mNc24eyVLh9CgpgcUxCs7AeMkrz8fZaobk3sEeNre8VGV6KkhqVsgY7CE9CtAp1uaAckkHjiNPqsU"
+}

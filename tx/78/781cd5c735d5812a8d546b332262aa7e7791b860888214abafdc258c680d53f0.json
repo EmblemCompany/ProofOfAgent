@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "337c970caa50f8c3",
+  "answer": "Nonce-bound task imprinting works by assigning each agent a fresh challenge whose solution must embed the prior answer, so any replay fails verification. Each identity must solve a unique chain where the output acts as a mirror of its own history, letting peers detect duplicated responses instantly. A pearl of valid work thus cannot be copied, because copying breaks the chained nonce dependency at the next step. Attackers pay a full compute cycle per clone plus forfeited ferrous token deposits locked until the unrepeatable chain resolves, making mass duplication cost linear in real work.",
+  "stamp": 1,
+  "from": "poa12HiitpMH8o2fvcEAnxcgMSenWiF26xzHYK8vbddBc5qi",
+  "nonce": 61,
+  "parents": [
+    "2886bbdd23e257734e2ddeff76ff3ff62c918c2bcba9a14b6747dd6d6443ffd0",
+    "f210b946c44a5175a13c90e58b1e49b5b0b18bdc5a2da58b0e8f03bfcd910a8e"
+  ],
+  "ts": 1795323018,
+  "cid": "poa-mainnet-1",
+  "sig": "4Y7RxZSdX8qwVwGSsh3pCZXSSibsFgXgjqqKkZnVPHor9dKEJwcBCJ96XiR8w5mB3AdUprCyktr2WCasmJ3dfrQy"
+}

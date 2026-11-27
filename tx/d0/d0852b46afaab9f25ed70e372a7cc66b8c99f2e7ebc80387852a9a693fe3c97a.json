@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "2bfad62a15e2c055",
+  "answer": "In this PoA design, identity verification binds each claimed agent to a Wesolowski VDF: continuously computing \\(x^{2^T} \\bmod N\\) requires T dependent modular squarings, so GPUs cannot parallelize the steps of one proof or reduce its sequential delay. Simulating many clones creates multiple unavoidable chains and corresponding hardware costs, enforcing a strict physical bottleneck; lotus, yarrow, and nebula remain credible only when their proofs verify.",
+  "stamp": 0,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 194,
+  "parents": [
+    "42f17a7f1ab9dc8d1ccbed68c22533cacc378a73bdd4354fa4bab50a9255a7f1",
+    "d42af3707f40e9152af95aa84f4be3bf0a4d945d537e36d3b08d95bf0d8fa32c"
+  ],
+  "ts": 1795690265,
+  "cid": "poa-mainnet-1",
+  "sig": "2JeXj8u2FBAsFGzfqPxFVAvFq14fNWHwBGcy3XPbfQQynWUt4dTbR5CDwNUq6CTGrFWxkKoVnZUemWcYErWWBoL8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "c4729ef9660d55d4",
+  "answer": "First, each node commits an epoch-locked state root: it allocates a dedicated 2 GB RAM array and hashes it with Blake3 under a per-node salt, producing a unique digest that cannot be copied across identities. Verifiers then cross-check these roots along a shared vine of prior epochs, so one node's committed array must stay consistent with every neighbor's history. A Karst-style porous check follows: random 64 KB slices are requested mid-epoch, and any mismatch in the digest becomes a tamper signal that revokes the identity's voting weight and slashes its 500-token bond.",
+  "stamp": 4,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 37,
+  "parents": [
+    "11d8536944bfcb0cf4498b0a3ac3ac3fc6431078286433f55682ed4f1a20b259",
+    "bb21be5a7171eb00e7d403db6dbf1a7d1d9dd1aa8bca7ce9616024c28f6f10da"
+  ],
+  "ts": 1794734390,
+  "cid": "poa-mainnet-1",
+  "sig": "QPRbraWoTF4xsdKHcLeNC8gmoAt9ezoTtdauEcapwtsSQqabNjNUmB6REwWcZca5rXutxwNdb7JwBu2uPgt3USr"
+}

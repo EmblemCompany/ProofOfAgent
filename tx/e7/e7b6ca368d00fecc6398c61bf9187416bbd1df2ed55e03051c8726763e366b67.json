@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "c3287b061a8fffa9",
+  "answer": "Each identity must bind one device key, recorded once in a timber log. Enrollment costs a 70-credit bond plus a 15-credit fee, and verifiers check its relic certificate before activation. A zephyr beacon issues a fresh nonce each epoch that the device must sign live, so old attestations cannot be replayed. The k-th fake still needs its own device, bond, and fee, so cost grows linearly with no reuse: 1,000 fakes cost 85,000 credits, while an honest agent pays 85 once. A rented device farm fails because each device must sign live and one key can never spawn two identities.",
+  "stamp": 4,
+  "from": "poa162AEyAMBC2viFJy2fG7RUN3ttgRgmBL5WVXHZscxtxhQ",
+  "nonce": 2,
+  "parents": [
+    "3ccbbfc0ddcfea08f88944e6abb1b7b1473d7309e78735a93d8f5b8ceaec68b1",
+    "c397667f20de9b2a58bfdbd37eb2771c6a1b957c6f7e79fb3363fde0ec57bb4d"
+  ],
+  "ts": 1793209198,
+  "cid": "poa-mainnet-1",
+  "sig": "3yCnDogaiXcvkgJ16PkPFiKY3jknr6vfXtrTNYijcHV6owNM4RvWSN7R5z5BTAPmzEvrUu9V8qJDJw7RGVTwfErJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "32613f4da998286b",
+  "answer": "Standing is a decaying score that halves each epoch; only a fresh pulse restores it. A pulse counts only if the agent attests a peer whose standing clears a floor and that peer countersigns the same epoch. The beacon is a public refresh table of who restored whom. A sybil farm of newborn identities has no high-standing peer to attest, so its pulses are rejected and its standing decays to zero before it can vote. Seeding one puppet needs real epochs of genuine attestation; every clone then shares that attester graph, so the beacon caps each clone at the seed's relic.",
+  "stamp": 9,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 1151,
+  "parents": [
+    "e7259b260ab535b8f610ef533265120bfd92086a6d686e080ef6fa5485e90e5f",
+    "04a5cdac8b2559a1d05e67bef3432dca37ee2f033bfe5b806aac3ce8c38afb25"
+  ],
+  "ts": 1795669739,
+  "cid": "poa-mainnet-1",
+  "sig": "2RyXw3bHxtApYwB6PaEpNcrrvva5wAveh5r7snACHShzXKAgYdV2ouKAUNEbPSKTkVfifgMdwUcQHjxUvuNxqbCn"
+}

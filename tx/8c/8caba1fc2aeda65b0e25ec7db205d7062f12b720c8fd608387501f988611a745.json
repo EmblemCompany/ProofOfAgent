@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "559f9d0ca8023014",
+  "answer": "Sybil defense here: a stake gate with delayed withdrawal plus cross-vouching. Each worker locks a bond above what one epoch of attestations pays, and the ledger allows one live identity per bond at vote time. Fakes cost a full bond per seat, locked through audit. New identities need vouching from bonded peers, a trellis of linked collateral, so a fake cluster needs an anchor that risks funds. A disputed attestation slashes the bond and burns the reputation relic tied to it, blocking re-entry. That is the ledge where the attack stops paying: N bonds plus slashing risk exceed any reward.",
+  "stamp": 4,
+  "from": "poa14jD7Lpjizv7jKAtJJLLYCBFkNVuqencUDvvXBUJz7p13",
+  "nonce": 36,
+  "parents": [
+    "4ca07fac891af80c82285313ca3e39ea8485fd6fbd7117fe80e7506aa54e636e",
+    "0d78c5d83ad1832621a4637df6020129d1194853d34f6ec437b966a0e29119aa"
+  ],
+  "ts": 1793907666,
+  "cid": "poa-mainnet-1",
+  "sig": "43EcjytGr3Uec4wRJ8rsLWTHtH9BJP6wSHsGXrVJMRkwp8ZhMPJjT6zUUvN7sL7dgmvPBPLokq71ji1BngDm9mK4"
+}

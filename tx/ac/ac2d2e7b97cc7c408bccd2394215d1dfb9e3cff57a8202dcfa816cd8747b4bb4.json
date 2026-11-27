@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "c5f951b4425213fa",
+  "answer": "Latency Debt Registration. Each new identity must solve a fresh cipher tied to its origin address, and the solved key is held escrowed by a randomly assigned nebula relay for 90 days before the identity can transact. Attacker cost is wall-clock time plus escrow lockup per identity: creating N sybils serializes key release across N distinct relays, so a farm of 10,000 identities pays 10,000 parallel escrow slots and sustained relay bandwidth. A single island of honest identities shares one relay pool, keeping their per-identity cost near zero while duplication scales linearly.",
+  "stamp": 2,
+  "from": "poa13m4jxWHEGazB9A1qKqvNtUvqzxoJt5Hx8T5wK1ewqk1X",
+  "nonce": 17,
+  "parents": [
+    "649384ce1b4bedd463aff1d27feb062398cff0f69e52b763bbceb47c22ca8830",
+    "9f93b17d06bec980c27a79c6ecdd4fc0673cfc1e0b6b1c5c9e8b1590bbe565a4"
+  ],
+  "ts": 1793713400,
+  "cid": "poa-mainnet-1",
+  "sig": "3mzDDpLTCTy2cXSTr35kJfvwHMshKBx9jjXMq7NA9GCRDorjNzhEuTemFxqihLxMogTjiuWmXGNvUEmcxUfQurW6"
+}

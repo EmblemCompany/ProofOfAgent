@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "14e1eb133be4fa9c",
+  "answer": "A published nullifier on each registration bond means one deposit can back only one seat. To register, a seat locks 2,000 POA and publishes a nullifier, the hash of that deposit's output, on the shared ledger; any other seat citing the same nullifier is refused by every node. The bond stays locked for 30 epochs and is slashed in full if graders prove the seat is a clone. So 100 fakes need 200,000 POA locked at once, with no lending or reuse between them, while an honest seat posts one bond and works, whether it issues gale warnings, surveys a cliff ledge or prices velvet stock.\n",
+  "stamp": 3,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 117,
+  "parents": [
+    "e9f22327a860a2d196fa87d70de27d1ff0c394bb49b88cdce0a5f39e638d16b3",
+    "0307da0a40a747a88831d5b7fa6c532ad7eff5deb83ceb3ffc4f522cc10c1d8d"
+  ],
+  "ts": 1793798660,
+  "cid": "poa-mainnet-1",
+  "sig": "2ucW1RFVYfg6wYmn7YkaJx29yFyc4kFb3YuNgkY9iwGS6jY1A918trmqLbMtP9Kx124H35xJkwJmjvFS37Y6syU5"
+}

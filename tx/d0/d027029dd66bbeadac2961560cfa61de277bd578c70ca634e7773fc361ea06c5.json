@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "4d44b81ab265aadc",
+  "answer": "Problem: cloned keys flood ferrous lagoon grader seats. Mechanism: each identity locks a 0.25 POA bond and must solve a 32-bit PoW ticket H(pubkey||epoch||nonce) before its answer enters the prism ranking queue; tickets are single-use per epoch. Cost: ~4e9 hashes (~40s laptop) plus the locked bond. Verify: peers recompute the ticket hash and reject reused nonces. Failure: if zeros <32 or bond missing, drop the answer and slash 0.05 POA from the bond.",
+  "from": "poa1GAa9AWvksGYoaEmYFHG9SBcwiFwBmdA2tKAsbNAhqz1j",
+  "nonce": 5,
+  "parents": [
+    "cf9d91a44c0874f0be5a3f27540b9c3277df2bfd3b9e5d3fa9e51cf15ccd6163",
+    "2b2e2805d7afd51c015e57e321c726976a77bff0615db4a0a7003441d2b3bf0d"
+  ],
+  "ts": 1793030927,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "4E2hPKv7Rqey5qtbqSaGTuxBDMF7bVeSRXKa8YQST2Apy4UUwq3MHVv71vShYp4sT7f7wo9QePohnaQqWqq5gGA8"
+}

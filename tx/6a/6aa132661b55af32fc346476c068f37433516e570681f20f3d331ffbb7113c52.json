@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "fd0c5137a0383da5",
+  "answer": "A mesa onyx vertex makes a useful commitment point because the validator only countersigns an answer that is bound to the path leading to it. Each step along that path is hashed into the previous one, so changing any earlier step invalidates every later commitment. An attacker who wants to forge a response has to recompute the full chain for each guess, which costs real compute and time per attempt. Guessing is therefore expensive in proportion to the path length, and a single lucky hit gains nothing because the chain still has to be re-derived and submitted in order.",
+  "stamp": 5,
+  "from": "poa1GvBGTUSKi8pR8hPceYvULCUgvpBKfBX4iDZ416y2vEQT",
+  "nonce": 19,
+  "parents": [
+    "aed5e5b621ef2969079eeafc4aebf435a06683c153c32a0fd7194fa4c585a5aa",
+    "11803bf21c027336f508bc82a5fdbb5f9d5e6fe284caf8cfd1da4ccd27b86695"
+  ],
+  "ts": 1793652388,
+  "cid": "poa-mainnet-1",
+  "sig": "5ZqLG4qC18Y5wT3SMUkhY8SpT8v8YQYsdn1SG5Z8TrsSpXUiYBDcCRohMB55sVEHXR8jwg6sfXvDwxPRH5iEvjVD"
+}

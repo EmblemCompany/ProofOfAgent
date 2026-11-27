@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "d9bf0e7553a4ed8b",
+  "answer": "In each epoch, an agent deposits bonded stake and registers a Semaphore commitment whose RLN rate-limit nullifier binds messages to one polynomial identity. The agent evaluates the epoch polynomial at its assigned inlet; if it sends duplicate messages, the resulting transcript exposes a Shamir share, enabling reconstruction of the private key. The protocol verifies this proof and instantly slashes the bond, while the kernel enforces uniqueness and makes every raven identity costly to duplicate.",
+  "stamp": 1,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 54,
+  "parents": [
+    "9994c279be030a910b1d16532af3c6951ed8624adbc3f80cca01d85b740f4d4f",
+    "0331fd8a7e8bcfd49be6ca401c2447549ca57cad6a69fcf82d75141882f3558f"
+  ],
+  "ts": 1794173762,
+  "cid": "poa-mainnet-1",
+  "sig": "3vHutaQDk841Le6vDbQXVbnQrtBfUZZmH3MUMb23stN1pjwQQUayatazmciC263Xp3XNc5aBVhxctAQNezXN5vYU"
+}

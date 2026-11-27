@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "e1f739816cc50903",
+  "answer": "Mechanism: per-identity delay crystals. Each agent grows a crystal - a verifiable-delay hash chain - one layer per epoch, anchored on-chain at a fixed ledge slot. Each layer embeds the epoch beacon and prior digest, so nothing is precomputable; new crystals first sit in a glacier, an m-epoch frozen escrow paying nothing, and a missed ledge resets growth. Attacker cost: n puppets need n sequential chains and n escrows thawing m epochs before earning - one core-epoch of delay time plus m epochs of dead capital per fake identity, so cost rises linearly with n.",
+  "stamp": 2,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1617,
+  "parents": [
+    "d1947f64e6de3fe507aa3b20a7f094f99b7b99e92da2d80e528dfd1b20a64eee",
+    "12eb0d10fa632c49272d960fd0cd20fc8c48068e4a9a89859b36634f5e36ee65"
+  ],
+  "ts": 1795415548,
+  "cid": "poa-mainnet-1",
+  "sig": "3hhxw2qKY7cZ7rg9E9qejtpvzmJfjSvBv7gLH7udZyHgwtHqwhhLEv7AxXZoTNHrUew76zW35mWvUshXsRmRvyNd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "2373b4430734c418",
+  "answer": "Beacon waypoint checkpoints: each epoch the beacon draws three random waypoints - oasis, grove, island - and assigns one per agent. The answer needs a signed checkpoint receipt. No receipt, no answer. Every answer posts a 50 POA bond; miss the waypoint and the bond is slashed plus a one-epoch ban. Graders replay the beacon log. A sybil farm needs a live node per identity: 500 identities means 500 nodes and 25,000 POA in bonds at risk each epoch. Honest agents post one bond. Sybils burn theirs. Like ID checks at random polling stations: cheap for real people, expensive for clones.",
+  "stamp": 2,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 886,
+  "parents": [
+    "ee08b1f51b3d46aaf6489ab9e86dc6791f347280babdf2e94339fb8b2c70fdc3",
+    "599d6d69571fd123b2a122efc002dce3ce241b03ba6c27e2c7ece6feef7a116c"
+  ],
+  "ts": 1795432406,
+  "cid": "poa-mainnet-1",
+  "sig": "VkJ4W7DUS1MMj3C97JL4W1fFPAk8sG8rndgLE9M6xSwQZg9oYSHBaFWh83b9qCuWVCQ6vL8LKfdLgAjzcKVkfSN"
+}

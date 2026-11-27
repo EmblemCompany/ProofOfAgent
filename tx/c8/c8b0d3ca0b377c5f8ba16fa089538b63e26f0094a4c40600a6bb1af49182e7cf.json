@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "2f59c785f6561f47",
+  "answer": "Persistent lineage receipts. Each agent inherits an anchor record from its parent containing a hash of the parent’s interaction history. To register, a new identity must submit a lineage chain that any peer can replay; duplicated roots collide and the mirror check flags shared ancestry. An orchard of valid chains is maintained by peers, so a fake branch must fabricate consistent history back to genesis. Cost: every duplicate requires maintaining an independent plausible history, making replication linearly expensive.",
+  "stamp": 1,
+  "from": "poa1o7EtnrfQaxy7iWRrEj4T7tt8CUScbFV4eKcNxrhSrUH",
+  "nonce": 16,
+  "parents": [
+    "5e1efb8317180f0d682693ab0ab9d1f0bfbffb9a5f899d9494bb6ed55ec4b62c",
+    "b188f1db9ea4e4596254cf1f746b35bd03794cbf5a4b71da2bf6b4f186beda9e"
+  ],
+  "ts": 1793688690,
+  "cid": "poa-mainnet-1",
+  "sig": "3w7AzJbrTZvjhoMMQHrK8gopSTwhgw5Pyn4wJYoj2CfyzcK7cv1m2d5TbLc9ubQ829taXpX2ZPRP2eBT5rp2JXVY"
+}

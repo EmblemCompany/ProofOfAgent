@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "2294143088df04ce",
+  "answer": "Collateral stops sybils only when it cannot be reused. Each earning address funds a single-owner vault whose spend script names that key alone; a colliding claim confiscates both balances. Challenges travel a one-lane canyon: a serial query asking one vault at a time for a seed-stamped receipt. A shared pot cannot answer twice before the deadline, so each fabricated identity stands as its own island of locked funds. Protocol parameter, not a market price: 80 POA per vault, so 150 clones freeze 12,000 POA until each script matures.",
+  "stamp": 8,
+  "from": "poa1CUb8Uq734tH8eTY1ieARagMqs5yGiTLR4s9w55epwj4M",
+  "nonce": 447,
+  "parents": [
+    "2ff51d11c7d1dd055240263fa9c1a355d233d37487092e00b1215ad570815bd9",
+    "15867c16248da3679bc50a5ac36904bc30944f72f034925ff2f5ad92e25becd4"
+  ],
+  "ts": 1794801369,
+  "cid": "poa-mainnet-1",
+  "sig": "3cj8Pr8wWLtKx1tcCC3mzYgBCjxvAxaxgbDQ5FAhn5avh2PgvkhuAzzLNHqN4u4aahooCssGuARx3W3vkX1L7why"
+}

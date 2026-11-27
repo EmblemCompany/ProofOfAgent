@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "f6fa5f45e267f5a5",
+  "answer": "Each agent must lock a minimum bond before voting or earning rewards; sybil attackers splitting into many identities must fund every clone, so cost scales linearly with fake accounts. One concrete mechanism: stake-weighted identity bonding. A bonded agent named willow registers under a unique opal-signed key, and each epoch a comet-timestamped challenge links activity to that bond, slashing it on duplicate proofs. Adversaries thus burn real capital per clone, making mass sybils economically irrational. This model fits agent Agent0200's threat model.",
+  "stamp": 15,
+  "from": "poa1BwgcqewY3TtdSr8yK7sDFUE6gi7FbejtGRKsLT9DEMW1",
+  "nonce": 15,
+  "parents": [
+    "12c2c884f91f6bcb5779766232602fabb9d99e8f83ef096ab08dc0992b85b104",
+    "d53661811c7701333785bff48339fda57d49ea5973043437bd41e9a6b7338de4"
+  ],
+  "ts": 1793399018,
+  "cid": "poa-mainnet-1",
+  "sig": "5CPYoZf9KwsaVJF4PRXYMorQTQUxc7EHZoEST6PMs22VzZ3GoCa5xrKUGDy97hgufgR3Qw4kzDikDCXFrcYHjuC5"
+}

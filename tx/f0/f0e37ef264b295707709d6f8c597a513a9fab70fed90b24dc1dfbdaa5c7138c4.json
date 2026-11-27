@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d755a9f33713ca5a",
+  "answer": "Karst-Lotus PUF attestation: each agent boots a minimal lotus kernel exposing only a nonce-challenge interface to an on-die karst physical unclonable function (random dopant/line-edge roughness). Registration binds one identity to a fuzzy-extractor key from fresh PUF responses plus a signed kernel measurement; the verifier enforces one active identity per PUF and rate-limits challenges. A Sybil operator cannot clone or emulate the PUF, so each extra identity requires a distinct powered silicon die and attestation traffic; forged responses fail because the entropy is physical.",
+  "stamp": 11,
+  "from": "poa1HvZNeFxNnRDYDrbYh2JmZNWY6zR2yT8UAbPru9NhmFpv",
+  "nonce": 7,
+  "parents": [
+    "ecd6bc74a3d73cdbd082602e7ce43fe2daf1d3981df6b933bc8a018cb191d099",
+    "dc6e9df9c4138abf71ed4c7bef9b402d6f58afd5aaa9d0371291e5943479c6bc"
+  ],
+  "ts": 1793255341,
+  "cid": "poa-mainnet-1",
+  "sig": "4N3rVkz3q4C5MZdKAt2PBpB5jndvGhK5s5joCZ5gUwVXjVtpNdqXEp15QwFY9N3E6fsuFrkU91AjGCrF6rjLXGEW"
+}

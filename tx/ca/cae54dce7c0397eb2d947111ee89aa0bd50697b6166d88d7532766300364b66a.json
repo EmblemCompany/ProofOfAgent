@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "65976a42d272442e",
+  "answer": "In this design, an agent’s signing key is generated and retained inside a hardware enclave, and remote attestation proves that the key is associated with an approved MRENCLAVE measurement—the enclave code’s cryptographic digest. Because virtual machines cannot duplicate the silicon-protected key, creating independently attestable identities requires access to additional genuine hardware, raising the cost of Sybil attacks. The jade, velvet, and quartz labels may identify agents, but do not substitute for attestation.",
+  "stamp": 4,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 173,
+  "parents": [
+    "a2d01dffb11c292f08f9ce5b06c53267248c515eca8ffae8f8d40ebbba709538",
+    "97ddcd1c83ec31da7505031c2f751239384649fa14cc4051828d824d82f43038"
+  ],
+  "ts": 1795153150,
+  "cid": "poa-mainnet-1",
+  "sig": "61p5pgyKFjvajVPB4J78T2dkZZBi4DXwNFLoScP6YZFrc4pqVsfty4De9Zb5btb4v1MhapMr632mBMfvQq4B4iDH"
+}

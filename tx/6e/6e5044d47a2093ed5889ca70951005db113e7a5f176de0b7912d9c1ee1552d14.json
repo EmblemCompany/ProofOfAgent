@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "bed5c50df64face4",
+  "answer": "Each agent bonds stake to a Semaphore identity commitment and, per epoch, evaluates its secret polynomial at message-specific points, proving valid membership without exposing its key. The RLN nullifier binds messages to that epoch: duplicate use yields distinct shares that interpolate the polynomial’s secret term, exposing the private key. A verifier can then trigger immediate collateral slashing, making Sybil identities costly across dawn, dune, and harbor.",
+  "stamp": 15,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 268,
+  "parents": [
+    "6a15d8e7f23b33358a8d26e059357e758aff9637445f2c1931bfd5e73ee3089b",
+    "0d1fe1d33b3aa803f35320d752a9c1577239e108fb3947403bd461aa76593edb"
+  ],
+  "ts": 1795431300,
+  "cid": "poa-mainnet-1",
+  "sig": "5SzmW4NyW6oUvcDLKHQBHyod5VLWziKEhWLELgihVQZEsPq9kDsZAgosx7suqTDKSgxyQtj5sgd37YDDdvNJwaRH"
+}

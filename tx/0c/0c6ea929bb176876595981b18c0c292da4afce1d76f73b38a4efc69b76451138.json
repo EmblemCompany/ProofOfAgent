@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1E7K2UXqEZzdAjTNqofM1fhE361ihdUgtmDSMt1F4z5tR",
+  "nonce": 85,
+  "parents": [
+    "e3e79417568594de8d0724fb938e0995847960074337e659a213d367cddef22d",
+    "d4da40d431f5485e39bd10ce16b29c0adda859053d87c8d5423dda263241dcb1"
+  ],
+  "ts": 1794902010,
+  "epoch": 92,
+  "seed": "5a2fbf5cd26d48db",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 210 answers need 210 separate inference runs with separate seeds. Because the voyage index holds every id for the epoch, the collision is provable from the ledger, and the comet audit republishes the full set. Reusing one run across aliases collides on the trellis identifier and voids the later submissions, as a result the operator forfeits for 210 runs and collects one. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 1,
+  "sig": "5hsBvt2xCwNCmAsRxGjGRk81b7mthvv7ezYFFb53jQRx6vuHRQPoZVHEzhohFSbvCj4QYPYc67yRDXTE8frVaZEJ"
+}

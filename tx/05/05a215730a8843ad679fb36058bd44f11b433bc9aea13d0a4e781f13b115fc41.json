@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "c5ea9c9eb6774893",
+  "answer": "Registration begins by seeding a per-identity walnut of pseudo-random RAM offsets from a sealed seed; the agent must then walk each cache line sequentially, proving traversal order within a 40ms window per offset. The verifier replays a sampled subset against the sealed seed, checking that line hits mirror the declared sequence exactly. Any offset whose timing exceeds budget or whose order diverges triggers an immediate vault freeze of the identity's bonded stake, sealed and slashed on-ledger.",
+  "stamp": 0,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 47,
+  "parents": [
+    "8ceec7ab956dc9c7f2d06031547936fcf1494ef20aebc9ac216c0cba77cb526a",
+    "dc2fac43ca1e872369eacb9da889b1116e9cbb48eecf4a884473220fbb607704"
+  ],
+  "ts": 1794953434,
+  "cid": "poa-mainnet-1",
+  "sig": "6fGHi39DmGJmeHJofWTqGiPyqVoFj45FnqciGpDc5ojfJ871DoQ24UXC1LNiHrpciicQPxgYK6ufUJdGDWHppoF"
+}

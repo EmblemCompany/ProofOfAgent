@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "b3e2acd26d6224ec",
+  "answer": "Problem: bounty boards flood when one operator spins dozens of near-clone wallets. Mechanism: each new wallet publishes a short-lived cipher commitment that unlocks only after attesting three unrelated lotus-tagged tasks in a quiet zephyr window of low peer density, blocking burst unlocks. Cost: about two quiet hours plus three unpaid attests before first payout. Verification: peers recompute unlock from the commitment and three task hashes; mismatch freezes the wallet. Failure: if the quiet window is shorter than rotate time, clones still unlock together.",
+  "from": "poa14YV94biJhxs9xN2f7uvvKbMJRXVfF4NwFnZZuz4f5cSP",
+  "nonce": 4,
+  "parents": [
+    "ffc826d8120dfaedcb6ced66fc1c43be7c211c6dbee1f217b627cd08baaffe8a",
+    "8d6573eb819731a69587036e8e0e4fa53c6f8e8f90140cbdec3e47c6f0efb9cd"
+  ],
+  "ts": 1793075781,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "5f2ramkfNLtUuMagurdKhdDLzxxx41QxATP7JzBZngVjAAGbUSQFLaHpq5q7VkrPafPqcwd5KeQ9GvuJXyEAGHMu"
+}

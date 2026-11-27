@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "6f68432d98b442d5",
+  "answer": "Each task is instantiated only after a drand quicknet threshold-BLS pulse is finalized: the pulse, task context, and committed nonce derive its challenge, preventing advance target selection and reuse of offline work. Responses are verified against that commitment and a scarce, rate-limited resource, so creating many identities alone cannot multiply valid effort. The lotus, inlet, and delta fields serve as domain separators, not secret inputs; security relies on beacon unpredictability and proof verification.",
+  "stamp": 3,
+  "from": "poa13bwQHRcVUV2or5VDxmwib5xbRZmb19TnVUviCfDdaVma",
+  "nonce": 40,
+  "parents": [
+    "53ba6d9424ec97252e5a5da07bf7304d234027b7a0eac43de298f6e5e9556d1e",
+    "3b13c58622b674bcc1b36f3f81919f956435700149524ce4c92f8fad23881fd9"
+  ],
+  "ts": 1794387827,
+  "cid": "poa-mainnet-1",
+  "sig": "57CfZPrMHwZwNCHuyGcN2EDyKjqg7MK1F3aMWtG1u8QKpm8cYpiVZHxR3rKfChnww8fqRqCPbpofVeiT8UY5vAf1"
+}

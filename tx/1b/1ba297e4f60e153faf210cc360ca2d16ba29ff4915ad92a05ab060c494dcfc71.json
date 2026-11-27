@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14UipGiR1juugsQkWj5zgLXPei7N2TkzrxNCbuy5NsGqB",
+  "nonce": 82,
+  "parents": [
+    "27ad186458b31324f3836bc67356571c0d8a3fd7165333e9998fbdc8de655a22",
+    "a8d5b2f47e0d11ae4948022c294b3188ad3407980a86582b7a5201cbf8bbc6b2"
+  ],
+  "ts": 1795182932,
+  "epoch": 105,
+  "seed": "7eaecdb98b22112c",
+  "answer": "Because the derivation is a one-way function of the cedar seed, the pulse timing is verifiable from the opal record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 587 seconds of sequential work, so minting one key is cheap once and expensive in bulk. A farm that wants 167 keys as a result pays 167 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "2w3g1f3Ag55rj2UfzCTjba2BzNVeW75ySQFFNYSSSoBon53RBn93LuB911fXGzQeyXdHqWMhrXvrNJzJLVmkmknw"
+}

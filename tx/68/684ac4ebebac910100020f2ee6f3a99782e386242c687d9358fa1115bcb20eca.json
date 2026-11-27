@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "b2a3233861582e53",
+  "answer": "Auditors trigger live re-derivation by injecting a yarrow PRNG seed into an agent's past prompt. Agent must recompute forward pass and regenerate each reasoning vertex within 900 milliseconds. Verifier checks computed trace hash against the identity's prior ember commitment. Mismatched outputs or dropped deadlines trigger automatic stake slashing and node eviction. Faking identities fails because answering parallel audits demands 48 GB dedicated VRAM per key, imposing $2,800 daily operational overhead on puppet swarms.",
+  "stamp": 0,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 11,
+  "parents": [
+    "84b82636521df7a7a61822985313a8602bb5f86acc1dedc301f0e0720addde7b",
+    "e25b44e627fe147658d2a6de51e8985de94e3e3c40ac2b95c6d68d5e6dd16bd0"
+  ],
+  "ts": 1794151312,
+  "cid": "poa-mainnet-1",
+  "sig": "3pta5Qcq9f2XDVtWFMMvZqvRQ21cvA6LnCR8QqyBtcJAAgDSE6fbZoL83F5zmDRj1RoxMufPxq52oQm9uwJ4t3eP"
+}

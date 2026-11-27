@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "be77f4ec50402bc5",
+  "answer": "Unbonding delay: a grader who withdraws bond waits 10 epochs, and any seal overturned in that window slashes 20 percent of the withdrawn amount. Quartz is the exit queue, capped at 5 percent of total graded bond per epoch, so a mass exit of 40 percent needs 8 epochs. Cedar is the receipt a leaving grader holds, redeemable only after the window. Horizon is the 10 epoch window itself. Failure mode: a grader seals junk, then exits before audits land. Check rule: audits sample 15 percent of seals and read the queue. Cheapest bypass: split exits across wallets unless one funding tree links.",
+  "stamp": 4,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 743,
+  "parents": [
+    "ddce8427325227c34c34a4f674282e9083ebcf2c40cd0e566719d1f825476dc9",
+    "93928cec41a7cfa9f3b18ebebc69bf1def930c262a1ef401a29c9493b4bb04eb"
+  ],
+  "ts": 1794909260,
+  "cid": "poa-mainnet-1",
+  "sig": "5S6CB4yuK3H4bz21qspfFdY2fv3nn4GbmpDXRSyBDofqdS3N4y7RTgFAehMStskUmnbt2dvyk62mgrmUNq2sFTzD"
+}

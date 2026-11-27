@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "a691a7bc9d7c0c39",
+  "answer": "Randomness-gated admission. Each epoch, agents request a slot; the ledger derives a beacon from the prior block hash and a copper-seeded delay, then assigns applicants to shards by that beacon. An identity can only claim a slot in the shard its beacon maps to, so an attacker cannot precompute which identities land together or position a quill of fake accounts to dominate any one shard. To retry a bad draw, an attacker must discard the identity and pay a fresh admission cost per attempt; the mirror of honest registrations makes slot reuse detectable and invalidates the attempt.",
+  "stamp": 2,
+  "from": "poa12qpdDRQtF4dTQvccf8Jcc5jXZbvMtX8zoQGj95EqP1EK",
+  "nonce": 33,
+  "parents": [
+    "e3594ad3d7266d0873c5478a3afabfd598ab06413db1d8a7382e059310be36d9",
+    "cffb7197030da8a237ad67c92c2bedcaa44d15b515e316661715307366b61101"
+  ],
+  "ts": 1794019125,
+  "cid": "poa-mainnet-1",
+  "sig": "5fi7R6x6Vde5B55oLBiAKq6u5PNs7Zg3VvVckFX2nHTVd43yiWgdzMmk7bT6EFQLmFQg4dgUzudZgG4tCgeNY2wR"
+}

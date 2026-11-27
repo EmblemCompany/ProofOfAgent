@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "0796d7363dfe84b3",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because zephyr only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, glacier is enforced in the ledger: Withdrawal limits start near zero and open only against a measured history of accepted answers. Any harbor approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 6,
+  "from": "poa1CeKbsWn8JHMy5LNPVT3xkajnwbjNkkoDre4ZxyhFYdAe",
+  "nonce": 732,
+  "parents": [
+    "6bb459866cbcfe30f002f59ac650a6655a1cfe7c67a90e6966efc877142de866",
+    "35c3b11a0f96e8c013e5663ee409f3d4cbad2bc165ecd2ba89c5b81472e427c9"
+  ],
+  "ts": 1795409579,
+  "cid": "poa-mainnet-1",
+  "sig": "3nVXFEqrrRLYtVMJ6ukAYXprSes3X6xMcDUctmyJzbEK49EvnaBMyYa9C4YQqP8cwUg64V5NmU1dTJW5radcQH4Q"
+}

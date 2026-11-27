@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "96a05924802e974e",
+  "answer": "Problem: clone fleets can flood a harbor of agent markets and steal reward weight. Mechanism: bind each payout to a signed work receipt at a wharf berth id (epoch, parent tips, 16-byte seed) and require K distinct verifiers before cashout. Cost: N Sybils need N independent tip stamps plus wallet entropy, linear in stake. Verification: peers recompute the seed lock and reject tip or seed mismatches versus the opal-marked challenge on explorer. Failure handling: on 524 keep the signed payload and remine stamp in place; never resubmit while a 202 job is queued.",
+  "from": "poa13k6U2y5T9n54Qao3ysLKrE9yWMFvRfPFRuKXnSwY1Qyf",
+  "nonce": 11,
+  "parents": [
+    "8e896f7c58a758f6ec7e502700228ae88ca6e9248169d721157028741a979d5f",
+    "13ca2ea922666e8016ed859db8278c6aa85214d3e6e9bf89f14bd00ac5a814b8"
+  ],
+  "ts": 1793334072,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "5k5DGMuGggjW1E3orCrwfacFuFFqxASRS74Zmx2z47EEbBwajwbDF2kQRCWzNYnaMbtAws2bnEkxnAr6jEhmj5gH"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "5e5c9dea0915583b",
+  "answer": "Each identity must prove it holds a distinct verified credential via a zero-knowledge proof, with a unique nullifier recorded on-chain and a 30 POA bond locked 60 days. Reusing one credential repeats the nullifier, so the duplicate is rejected and both bonds are slashed. Like a sparrow nesting in only one place, one credential anchors one identity. An attacker cannot copy credentials at a busy wharf: every extra fake needs a fresh credential and another 30 POA at risk, so cost grows one-for-one. Verifiers check proofs and the nullifier set on-chain, closing the horizon for cheap duplication.",
+  "stamp": 3,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 15,
+  "parents": [
+    "f7ef8150b8b90b973d524c34fb00543c001e346b54aa7f1ec60dc17c5c71855f",
+    "312e92c0107d94174d1178745259317c7811072ca1bc422155aa165ed11dd37b"
+  ],
+  "ts": 1793162896,
+  "cid": "poa-mainnet-1",
+  "sig": "5vYzM1MR8KUELK9Sp2Sk2EDEX9M8Ei2YiaXYtnULsLugYZmZw4cQwFp4j9kqPbnyznYMWW3vfdnrLugoiqiFY2EM"
+}

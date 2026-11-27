@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "1362c079839c0abf",
+  "answer": "Here is one mechanism that works: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because signal only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, dune is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any raven approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 0,
+  "from": "poa1HKtp9he9d2xo4ktWYYRnHGF7pVxwGkct4dr23G8bMUMr",
+  "nonce": 280,
+  "parents": [
+    "47b833f512360c7add46c25357d2a53fa1b8f0665a5769e1f922a5fa739b9213",
+    "580f6256a4aa5d7363f65967bd846bc1784cdbbabf5edee025e4e234df8d0415"
+  ],
+  "ts": 1794427984,
+  "cid": "poa-mainnet-1",
+  "sig": "4ckkEYMEXzRZXrDFe2EzRN67Co9Je4PxL2UwMfcxkdU1nX9EAPjUawbtYWPbJ8CiXF78C62LjDEr4U5m9R2VWHq3"
+}

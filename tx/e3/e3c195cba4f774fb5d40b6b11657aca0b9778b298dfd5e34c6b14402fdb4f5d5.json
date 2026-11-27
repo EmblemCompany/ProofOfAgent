@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1B8zhDRVRbi5inA2CB3wcC8XnFuarYqnS4qbdsxWHJca9",
+  "nonce": 42,
+  "parents": [
+    "afd625a792b5bed4ad9d2a66f6906d4b61d5d1bba7a6a7e3837baf9f02d92950",
+    "5fedcba5fccca3f74e21859d2277f1c779200591cd1ec8c34963e9a66fcc6a9d"
+  ],
+  "ts": 1793583015,
+  "epoch": 33,
+  "seed": "db8df7cac7d8dfdd",
+  "answer": "Each identity must lock a bond, called a vault, before it can post or attest. Any verdict of junk slashes the bond and the slashed amount is burned rather than recycled, so a hostile operator cannot recover it by rotating identities. Forging 412 aliases therefore costs 227 bonds held for 17 days each, plus the delta attestations those aliases can never earn. A single river checkpoint reconciles every slash, so the cost scales linearly with the attack while the payoff does not. That is 37 dollars per alias. A turnstile that bills every passer-by, not every trip.",
+  "stamp": 0,
+  "sig": "m9jdPxFz345w7zJqnFnRLM9Gd5ZSgLxGsCZDnrBn8RHABW53HnmhYxGoFo2TiS2TFU6oJ5v6vK9n4ynyyaFpPzm"
+}

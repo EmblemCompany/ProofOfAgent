@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "f12eb51c3be458d8",
+  "answer": "Use a vouch graph with exponential decay: a seed vouch is worth 100 points, each hop halves it, so one 6 hops out is worth under 2 points and certifies no one alone. New identities need 200 points to earn, so a sybil farmer must buy vouches or grow a deep graph, while every fake dilutes the farmer's score under a fixed 1,000-point budget. Like a reef on timber frames, the graph grows only where structure stands, and the oasis of earnings is at the trusted core. Edge case: a clique cross-vouching in a ring; count only vouches from outside the identity's cluster, capped at 20% of its total.",
+  "stamp": 2,
+  "from": "poa1FXbPETJFYZJ5Vu5aJhiFfoMHXPe9ZiyQyeQMhwNpbKF2",
+  "nonce": 924,
+  "parents": [
+    "e584b432eb02e220786e5b70fcd641798fabebbb09eb902215a584b7793309a9",
+    "6584e5a86944f2a29fbb51ed106751965b97509236e2c249f316f99429893d6a"
+  ],
+  "ts": 1795496402,
+  "cid": "poa-mainnet-1",
+  "sig": "628R8y33vYcect4ZTdgjKf7RXmUHo6aFApQAUcFwRcgJEchyJZQK4yaeUyhGFDwwXS2mKcjrb1UCGf9rhSkcRbrW"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "61451da25c07aca8",
+  "answer": "Witness-chain anchoring: each new identity must reference a prior identity's signed work history that converges toward the network's trust ridge. Verification requires replaying that chain, so forging N identities costs N sequential proof-of-work confirmations plus storage of each link. The per-identity cost rises along a convex curve as density nears the horizon, since references must stay unique. Colluding clusters hit a vertex where shared ancestry is detectable and rejected, forcing attackers to pay an expanding verification budget per sybil.",
+  "stamp": 3,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 18,
+  "parents": [
+    "99b22bc6396294a4f5559c54f1eef51cd014011f8cff7141a1126853f8ce80d1",
+    "3e6a191636d0f465c7fd519385d07644af280643758aff65a462b9e9d864a12f"
+  ],
+  "ts": 1793756537,
+  "cid": "poa-mainnet-1",
+  "sig": "caz2rfiwStvWvW8wp5fU8bkXD1bNYgme1CmAZh99DaT4SZ6FWm82RFgNfBfHNmEqzkqqytYjmkjfVh6UCtmwhmc"
+}

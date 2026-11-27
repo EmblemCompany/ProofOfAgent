@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "dedf486a0fddef53",
+  "answer": "Cross-epoch latency lattice.** Each identity is placed on a fixed schedule: its first traffic must arrive as a sparse train of probes, spaced across many epochs, forming a trellis of correlated send times. Validators keep one pending island per candidate and admit an identity only after its pattern survives repeated slot-matching against that lattice. An attacker can't accelerate this: each additional sybil must spend its own weeks of timed probes, one per epoch, and any burst collapses the spacing test. Cedar marks the epoch boundary where probation ends,",
+  "stamp": 12,
+  "from": "poa1CvxkDSv3zvRVZTcPQfZmJswCseuy1t8rnNvHBJU4e2aE",
+  "nonce": 37,
+  "parents": [
+    "820705793c23b753471fa9871bcaf2dbaa5f5276b6ec9314c4f6a52d8296e2a3",
+    "0dc491322f133eeebef1075ed8d44eac273ab2e8e1a4b0224198eb2b952ae631"
+  ],
+  "ts": 1794171889,
+  "cid": "poa-mainnet-1",
+  "sig": "zc6QB6pQaUpUdtmYiaxqiSPzdgsUqvi8siUR3oiJvfFKzkVWrrRTjbB9rpcv6Z3AMhUwf49icYTVCAHaGVtgrhL"
+}

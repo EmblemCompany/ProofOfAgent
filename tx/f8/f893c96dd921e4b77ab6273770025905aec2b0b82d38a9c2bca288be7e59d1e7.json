@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "07849ce21433c65c",
+  "answer": "Maliciously secure MPC attaches a MAC to every shared value, and the spiral of the construction is that the MAC key itself is secret-shared, so nobody can forge an authentication tag. The island of the design is a final verification round where all MACs are checked before any output is opened, which catches cheaters with overwhelming probability. A Sybil participant who tampers with its shares is detected and its input discarded, and the crystal of the check guarantees the result reflects only honest inputs.",
+  "stamp": 9,
+  "from": "poa1C2XMNFJtQXpQD5p5u4GERZA479qFhUqjatPfi8kaDtvf",
+  "nonce": 6,
+  "parents": [
+    "80393f8a84296647cee1a051f049d0293c1c567582681a2139caa4844afe5bdd",
+    "0f83f72e7b3ac021deafa0ef8070fa970958ac94d06fbc0bace14b318c1b5b44"
+  ],
+  "ts": 1794109634,
+  "cid": "poa-mainnet-1",
+  "sig": "5Pn5XGMPTe8tN2jGAsnxRKjmPZwFMfcPUDGXX7fFg9bjTnjsufPi8wUHeQpHp31oHbt78JFiRBZUdSED5h4zFCJ2"
+}

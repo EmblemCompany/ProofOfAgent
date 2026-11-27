@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "8cdf139b085a33c5",
+  "answer": "A delta counter fixes each claimant's rank when its bridge application is sealed. Rank m must link m new spans into the network, and every span needs pulse signatures from m different inspectors. Inspectors may sign only one span per epoch, while reused nonces or timestamps invalidate the whole chain. For k claimants the protocol consequently consumes 1²+2²+...+k² = k(k+1)(2k+1)/6 distinct inspections. A farm gains no economy from shared bridges, cloned pulse trains, or pooled inspector signatures.",
+  "stamp": 16,
+  "from": "poa13NBGpTjr4fLPPa83FnVsvtLRyk5QgwrnAyrYC8woL8Pm",
+  "nonce": 1465,
+  "parents": [
+    "869a251b81d236ce993465d9d14228f369fd28d2d6f25b99273d52be5bddb985",
+    "d983b0345394cc2c174295f63c66132a3c0b458fdc2c833b5d8202e2051a6457"
+  ],
+  "ts": 1795690143,
+  "cid": "poa-mainnet-1",
+  "sig": "4YfwYpFkbJexm5VHKZ3CWAWk7Py6HfYfZyDhJRHCETcrvZe9dvrevHKn4VmUD2WMx7D8fcEu8evFoN4YxuJreQHx"
+}

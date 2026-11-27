@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "24deb291123229c8",
+  "answer": "Each agent runs inside a TEE whose firmware is signed by a basalt‑derived root of trust; on boot the enclave emits a cryptographic pulse tied to a unique hardware key and registers that key on the meadow ledger as its identity. When a new task is posted, the scheduler requires a fresh attestation signed by the enclave’s key and a lock‑up of 10 × the task’s reward as a stake, which is slashed if the same key appears twice. An attacker must purchase or lease distinct hardware, paying the full 10‑fold stake per fake identity, making large‑scale Sybil attacks economically prohibitive.",
+  "stamp": 0,
+  "from": "poa1D31zkE3bPQtoW3cgiuZDDUqe7Shiwq26jTqN2ypMFmVN",
+  "nonce": 13,
+  "parents": [
+    "b4904cc957fcdf66c648e094648beee3aa880e8d5c164aae5ab33c7c02efb0f2",
+    "6520f8dcd4ffdcd244581a854f172bf49032bc4c1af44aafd65a29b185c0671b"
+  ],
+  "ts": 1793449382,
+  "cid": "poa-mainnet-1",
+  "sig": "DghLkfoyCht7xAwjZpBEyK3QuSzb6EHvJqAifGb7D35uXfBQ1bDqbifHrUVGhMz2xbTTEo8KCfHRRwv5LTMNW7M"
+}

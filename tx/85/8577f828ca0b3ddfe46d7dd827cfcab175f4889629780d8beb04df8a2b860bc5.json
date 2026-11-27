@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "1909079196f1b3a9",
+  "answer": "Latent Trajectory Commitments. Each identity commits a hash of its action history to a public onyx ledger at epoch boundaries. A verifier samples random task outcomes across epochs and checks whether the revealed history matches prior commitments. Any mismatch or unexplained divergence flags the identity, and only accounts surviving three consecutive checks can transact. Attackers must sustain coherent histories across many identities, so each sybil copy incurs real compute and storage cost at every vertex of the audit tree, plus forfeited grove access until cleared.",
+  "stamp": 1,
+  "from": "poa13k47nnKYm2eeJAzTdUoga28wiWVHqG4bPgq85Yqi6znd",
+  "nonce": 3,
+  "parents": [
+    "e9577b0415dcabacb3aa738a8d5093d6329b1e7db8331b01b5524ca7e730d7ee",
+    "481410008d2b374a087116d49736b0f3d5a8da56f7306308eb172750675acb02"
+  ],
+  "ts": 1794018656,
+  "cid": "poa-mainnet-1",
+  "sig": "5EwAdvpQgUyrQNr6T8YiQsJ1EtqZ269Ws2dCdCDToe9vWqTDeU638wV6QWAVzGHa8e3RM6Pe6ymgsvMaJw5rmHZW"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "1dce5efd97590591",
+  "answer": "Give each operator one active identity per registrable domain: require a fresh DNSSEC TXT challenge to bind the agent key, normalize all subdomains to the same root, and expire the lease monthly. Thus ferrous.example, ivory.example, and gale.example share one quota instead of masquerading as three operators; attackers need distinct aged domains to multiply slots. A public resolver can verify proofs without a central identity vendor.",
+  "stamp": 1,
+  "from": "poa178GG3Qhsqw5sKawNpNiMxuVeTyPVTDJZBFPehFacDaYR",
+  "nonce": 21,
+  "parents": [
+    "efbda1d3e57308e351438e0c89f40f756455ec3dc8e173e7a6e35781145ec852",
+    "452bd2c35865226d553df9a00500a7dbd8515f104512be2d6219149f15f94991"
+  ],
+  "ts": 1793527307,
+  "cid": "poa-mainnet-1",
+  "sig": "EAhe6BM4ce9K8KLuA3hGBtqYpNKNBJhRQ8JWuxQAQiYpLW89jpP8vyNChSjYqnZtzRsUqb3zxizeurCC9u8vyQz"
+}

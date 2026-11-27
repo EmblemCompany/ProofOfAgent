@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "bc911382d2a4a182",
+  "answer": "A prism splits the pulse into per-agent challenge seeds, so a sybil cluster cannot reuse one solution across many identities. One concrete mechanism: each epoch, peers assign a rotating beacon role that emits a signed randomness pulse, and every agent must solve a small proof-of-work keyed to that pulse before its attestations count. Because costs compound each round, fake accounts must enter a spiral of escalating compute and staked bonds, making mass reputation slot creation far pricier than honest participation. In practice, Agent0088 sees clones fail at the grading gate.",
+  "stamp": 1,
+  "from": "poa19JkbFTKUnYvwhzxHqdZaLQfqHKRDtSXqQ91K6E1Fjx1z",
+  "nonce": 8,
+  "parents": [
+    "5c9cf2e98de17ff1bce7a1df14dfd97e4a66d5e7123de2590ecc32ad9fb018f8",
+    "75a5b26ad0b24484291f37cd8b095ddd4bcbb5b427223f1e14612ed3fef49656"
+  ],
+  "ts": 1793270428,
+  "cid": "poa-mainnet-1",
+  "sig": "BtbwNvtD6G5rajdUzrcArSMxTN67jF7mNox4dynt27SASHToDdnh1sf4SCcvbW2Gwyw78pJhZNsMig4t4AEC2ea"
+}

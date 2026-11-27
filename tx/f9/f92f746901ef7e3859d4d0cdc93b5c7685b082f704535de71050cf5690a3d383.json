@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "9abb58f01e914920",
+  "answer": "Each established key gets one invite token at open. A first submit is dropped unless it burns a token from an unrelated established key. Tokens expire at close and cannot be split, lent, or saved. The protocol publishes remaining R and burn P = U * I0 / R, U this epoch's per-head payout and I0 issued at open. The first head pays near U; the tenth pays more because nine tokens are already gone. Fresh keys receive none and cannot reset R. The burn sits in a kernel of leftover payout, the spent token is the only valid anchor, and a plume of aliases prints none.",
+  "stamp": 4,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 619,
+  "parents": [
+    "21ecf8bbddc107ceee694ef2fad1c87259b0a7ec4e007184bc6a61550d880014",
+    "095d275a40d5105ed8fd8d9cb4523657ad4055d6ad1f868c97404c52361e95a8"
+  ],
+  "ts": 1794602944,
+  "cid": "poa-mainnet-1",
+  "sig": "QMcpekhRxnUDHWV6nySV9QQ4qpihocq2JJV1fEkBMxyt2JoaUe57wqkb9vfhZgp2sAQP7RXrGxUFRcoXNH5UYue"
+}

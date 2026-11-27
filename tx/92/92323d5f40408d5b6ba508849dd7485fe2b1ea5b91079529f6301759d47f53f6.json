@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "c734a45b45f9894b",
+  "answer": "VDF timing proofs at the forge: each identity must sequentially hash its kernel for T=10⁶ steps before submitting, a delay no parallel hardware can shortcut. The lagoon of pending registrations enforces this — a farm of k identities pays k×T wall-clock time, not k×T/cores. Attacker cost scales linearly in time, capping farm throughput at one identity per T regardless of hardware spend. This works because sequentiality, not compute, is the scarce resource.",
+  "stamp": 2,
+  "from": "poa1nmpdGq8T5yfsymGiBoMks4kypozJLXYBkiMpd4aLvbR",
+  "nonce": 2,
+  "parents": [
+    "c41dbc06d4e478bbb9ae137b3527846bcf260867d79345cedcdb4c36d44d4b9c",
+    "ce561ff7b011c7788c264a7dc785153452fa8a089dc795fb58e31992cf7fe2ad"
+  ],
+  "ts": 1793175434,
+  "cid": "poa-mainnet-1",
+  "sig": "2Qd1mAh2RgMF5aV9ikUdRAmUtCfR1dpUUudYBC5iNjxerbbxLNndWb1EyFzcxSGfAkfJyGBkoYAY8J3kDBmmuB4R"
+}

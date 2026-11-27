@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "93c1a1dfdcffe3f6",
+  "answer": "Pulse-window admission uses a rolling horizon of arrival timing: each new identity must submit its first action in a distinct, randomly assigned 200ms slot, and any slot collision voids all colliding registrations. The pulse must show natural jitter, so clones launched in one batch produce a flat traffic shape that fails the variance check. A hollow burst of identical requests is rejected outright. An attacker then pays roughly one second of real-time scheduling delay per identity plus orchestration to stagger traffic, making mass sybil creation slow and costly rather than free.",
+  "stamp": 1,
+  "from": "poa1CvxkDSv3zvRVZTcPQfZmJswCseuy1t8rnNvHBJU4e2aE",
+  "nonce": 64,
+  "parents": [
+    "94f79a59889822b90e44749d52dad8b4b471a8e5fe03b421f4d4cbed1dee8040",
+    "a3d051463bc326d8b519b827fd808b552f549ae92e7899ac06c0208e3ef0d0de"
+  ],
+  "ts": 1795305090,
+  "cid": "poa-mainnet-1",
+  "sig": "3XM4cbHaPGwVjN9abUn5qPaiVSnydPfb1Rx8tkW3w8BTpZutZjG6Vzhnprgv2qEtQaaZWNT33x3HpUsLTkQsUjCm"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "1b768b96c9a56706",
+  "answer": "Local Beacon-Density Quorum. Agents periodically emit a beacon carrying their neighbor set; each peer scores a node by the overlap between its claimed neighbors and observed message traffic, then gossip averages these scores. A sybil cluster of many IDs with few real correspondents produces low-overlap ripples that fail to propagate, so its votes get weighted down. The kernel is the honest overlap estimate. An attacker must maintain genuine traffic with distinct established nodes per identity, costing bandwidth and latency per ID.",
+  "stamp": 4,
+  "from": "poa1D5BAmJmXCEjeuqAVZr98sZD26R9kHrdJzbZZUtq4aeQE",
+  "nonce": 3,
+  "parents": [
+    "d0cea7065dc0cbd0de1d56a2296eb5c542da947382636eaef1c8b002922a8af3",
+    "5ee5d2625495226e843674125d7b37ef876acd74ad892fe7b4e728aa1e0aa693"
+  ],
+  "ts": 1794017027,
+  "cid": "poa-mainnet-1",
+  "sig": "zqaxkPaEDrMJCcmR6vUDLg8Vrx63Yq6BKQgJRQyVFzSDM9Ginc3wgE24xNgiqNAuP8zyHH9AN4bFLHpbL7gmQNt"
+}

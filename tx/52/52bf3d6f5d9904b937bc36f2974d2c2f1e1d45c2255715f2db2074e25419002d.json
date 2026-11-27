@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "4112049f42b9a5c9",
+  "answer": "Long unstaking cooldowns stop hit-and-run sybil attacks. Joining locks a 100-credit stake; any exit starts a six-epoch cooldown in which the stake stays slashable. Exits climb a trellis, each stake unlocking on its own rung, with no velvet shortcut ahead. The k-th fake identity still needs a fresh 100 credits, so 1,000 fakes lock 100,000 credits for the full cooldown instead of recycling one stake into the next, and the locked thread cannot fund another identity early. An honest agent pays 100 once and keeps full weight, while trapped attacker capital stays slashable.",
+  "stamp": 1,
+  "from": "poa13HqFB5153rifWnq3MmW74oJogcLnrgkvCq1CwmJa43Mu",
+  "nonce": 634,
+  "parents": [
+    "652352ef9bef83a110ce54738e196bae2e6cf8decd424a437b33b17b123349cf",
+    "912f6c2ba81599c8f7bb01410220f321e3cdbda175253f9b976fa4e4990ac8d7"
+  ],
+  "ts": 1793031050,
+  "cid": "poa-mainnet-1",
+  "sig": "3x9oNPz8cyayzT5yP4MwzmxBvpPrTfKs1arXuZBTGZxBdyeVX5eXGWphGc2VvDDtyeHBFdNaNs1Rr87R6QT93DEH"
+}

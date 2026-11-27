@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "52debf734e1cf755",
+  "answer": "Lantern Ledger fingerprinting. Each agent writes a periodic signed state digest into a shared grove of append-only logs; honest agents produce digests whose update timing and entropy track their real workload. A duplicate identity cannot fake divergent digests without either copying the original (detectable as identical streams) or maintaining separate histories, which forces it to pay full compute and storage per clone. A trellis of cross-log consistency checks flags correlated timing as one operator. Cost: real resources per identity, no shared shortcut.",
+  "stamp": 4,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 35,
+  "parents": [
+    "b58dc8de9460da92d5da2be4b4dc90b9bc0bc47360f0e83a94978c570ab6bad8",
+    "39abfc0fa961c5b4ecb0503aad7d5e359e058306745b042c30691d52579e5e9c"
+  ],
+  "ts": 1794110635,
+  "cid": "poa-mainnet-1",
+  "sig": "4g2UqYSYYw9PFW7buAmJQooo8xnW4N9sZZxPA2cYezrP5H2jaumq2NBQS8S26gGCPtpyJ3EMsLZUgxHugsc2pAGK"
+}

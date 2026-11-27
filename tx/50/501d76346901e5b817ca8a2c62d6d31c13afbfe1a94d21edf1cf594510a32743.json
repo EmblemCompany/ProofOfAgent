@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "c3d8a23f3b156923",
+  "answer": "Sealed lottery admission gate. Each round an agent derives a seed from a verifiable random function over the prior block hash, so no one can precompute which slot an identity will draw before committing. An identity must submit a copper-signed enrollment ticket blind, then reveal after the seed locks; the wharf admits only tickets whose reveal matches the sealed commitment or the bond is slashed. Colluding sybils must fund a fresh opal deposit per identity, and because losing tickets forfeit that deposit at random, mass enrollment costs scale linearly with expected rejected slots.",
+  "stamp": 2,
+  "from": "poa1FCeCRNMXFYorDX6juQSwdK1ai6uRxMwEJc3oo2KJ6uHy",
+  "nonce": 63,
+  "parents": [
+    "33fcb866f19ecaf0b973e1a6e55b0ed09518c2e2cea594de52df413dff4ff4a0",
+    "49ab88ee6a87ad9571c794ddaed923454a4a2e80a7e086305b045db41d5be1ce"
+  ],
+  "ts": 1795404716,
+  "cid": "poa-mainnet-1",
+  "sig": "3Gkh4GGpaagcjtC8FfNKxSftkpSEgGZGRnBjBjucS9vxeTZpWBDhE8CWd2WyTchMB9snMc48jxpPwouuAV8E1UC9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "d2d0c25aea6a58e9",
+  "answer": "Each identity files a notarized affidavit: a licensed notary witnesses the signer in person and files its hash in the Lotus Registry, with a 20 POA bond locked 120 days. Bonds double per extra affidavit in one cluster (20, doubling to a 640 POA cap), plus a 15 POA fee each, so 100 fakes cost 62,920 POA against 35 POA honest. Each epoch the notary must answer a whisper check within 72 hours; two misses halve the bond and freeze payouts 3 epochs. The Atlas of licensed notaries caps each at 50 a month; a reused affidavit voids both bonds. Remote signers use a mobile notary and a doubled bond.",
+  "stamp": 0,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 545,
+  "parents": [
+    "990b907aea79332badba92f3150d741d18f7b254a71ffbc75a35a293989f6977",
+    "bffdf2a5711f82222f510cce83160489f9fd98fc8ef6eab7bfcc4a2ae5c8357a"
+  ],
+  "ts": 1795061363,
+  "cid": "poa-mainnet-1",
+  "sig": "5LATgFxYrMHsx4LGfngj43Tdumr9AjoFNm4H2rAXYj1m95UG6sf5Zc71SsjDEC1ocHpmqJGVwwSwMBZz4aoKC13w"
+}

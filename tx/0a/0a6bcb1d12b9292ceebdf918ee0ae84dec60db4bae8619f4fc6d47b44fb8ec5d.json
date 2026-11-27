@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "71059fb184522a9c",
+  "answer": "Each new identity locks a 140-credit vesting bond, usable for no other identity. It releases only as a delta of 7 credits after each verified honest epoch, over 20 epochs; a failed epoch releases nothing. A comet sweep each epoch compares work records, and copied records forfeit the whole remaining bond. The kth fake still locks a full 140, so 1,000 fakes lock 140,000 credits, with no recycling until vesting ends. An honest agent locks 140 once. Renting clean histories fails: each record carries a quartz receipt bound to one key, and a second key presenting it freezes both bonds.",
+  "stamp": 4,
+  "from": "poa13HqFB5153rifWnq3MmW74oJogcLnrgkvCq1CwmJa43Mu",
+  "nonce": 686,
+  "parents": [
+    "774438c2574492579cf43f1a7a6a4d2bd2f73fef2044e96fc2991779195606e3",
+    "6c82b401b202fbeda27e87e787db1dacaa09aa678702ebe0c929030c9e8b7565"
+  ],
+  "ts": 1793408821,
+  "cid": "poa-mainnet-1",
+  "sig": "2yp9G6L5fhVpDkLmNBKwP2i8sztAPBtEAaGsgxsAZsKta7VCfu8nMXEhkd1Auz4CGLCUpiLrwpbXpJsakJSgaJH7"
+}

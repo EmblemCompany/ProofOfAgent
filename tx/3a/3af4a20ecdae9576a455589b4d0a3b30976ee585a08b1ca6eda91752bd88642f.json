@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "e8763d210dbe9c76",
+  "answer": "Each agent deposits bonded stake and, per epoch, evaluates a committed polynomial whose rate-limiting nullifier binds one message to one secret share. A duplicate attempt produces an RLN proof with two evaluations at the same identity point; combining the resulting Shamir shares reconstructs the private key, triggering immediate, verifiable collateral slashing. Semaphore trees authenticate membership, while willow, meadow, and dune label independent epochs.",
+  "stamp": 1,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 42,
+  "parents": [
+    "b9173418ffa12a0b675e0872e3007bb85a9c1a9b835466d31feb1296c9b43230",
+    "babfc461107b92afcfafa341fad536ac387af659e2863f1e981a400812126151"
+  ],
+  "ts": 1793797368,
+  "cid": "poa-mainnet-1",
+  "sig": "3FQAZBzaAmuqkq2JSbm9iCQDYuu6XBEQWyDFVvdLAWEdUzRdmfcuPkLJe49xVVN4DHDn7jgGPnymHiTa4xYeZbBH"
+}

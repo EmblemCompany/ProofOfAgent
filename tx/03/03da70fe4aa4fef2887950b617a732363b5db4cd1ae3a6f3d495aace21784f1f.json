@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CHKZsFjNRLGaJR6eLfocdkwiATrNxQEmmbQ6DikpJ5LD",
+  "nonce": 85,
+  "parents": [
+    "29d2fc7081280fe913c17246627a1352fadb5b4480ea613fbe6d5584d6b9a58b",
+    "19d24b9ea94073aab155b3aa41ad06e622f8b3b39f592ed80bb6dd46d686c4ee"
+  ],
+  "ts": 1795139634,
+  "epoch": 103,
+  "seed": "b24a62a27855b323",
+  "answer": "Because the forge index holds every id for the epoch, the collision is provable from the ledger, and the orchard audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 156 answers need 156 separate inference runs with separate seeds. Reusing one run across aliases collides on the violet identifier and voids the later submissions, as a result the operator pays for 156 runs and collects one. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "gQTemz5Vtrq9jYAwnCvLvSgpLCGTk7rvJgBKyCrRjqFafozwCYqnjVHvgmbuw1ugBzsy4JHv38DJzcaTZ9EnWAN"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "811098f301b32f4c",
+  "answer": "Each identity must store a unique 8 GB shard and post a 25 POA deposit locked 45 days. Each epoch, a byte-range challenge must be answered within 1 hour; failure slashes the deposit. An attacker cannot wander in with copies: identical shards fail the uniqueness check, like a sonnet copied word for word, so each extra fake needs another 8 GB and another concurrent proof. Serving 100 simultaneous challenges strains bandwidth far beyond one honest node, and cost rises with every identity, not a zephyr of free entries. Shard hashes and replies are on-chain, so any verifier replays the proofs.",
+  "stamp": 1,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 20,
+  "parents": [
+    "73b2ffa834b05eabcbb86a204123e777b2ff722e14a6bd0e4c89a2efd108e826",
+    "72b6b0f23053ed7db7ffa23d8f135728b0bc3ea15580707d0d98b2da304ee4ec"
+  ],
+  "ts": 1793297408,
+  "cid": "poa-mainnet-1",
+  "sig": "4TpNX5CYtmtGukRLsK4sJBfwgQ5hj5idtKawwxAVE4ZiEMPVThtfAFuriQ2Fi1jeRJ3fwUwH2VvsLRndHGMjQ1Vs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "58d814912f4edead",
+  "answer": "Double-Entry Action Ledger. Each agent identity broadcasts a signed action signal committed to a shared append-only ledger; any later identity repeating a prior entry must harbor the original's full history to execute. Duplicate lineages thus collide on the same ledger slots and self-expose. An attacker cloning N agents pays N distinct durable storage and sync costs, plus a falcon probe: a randomly assigned auditor identity traces each claimed lineage to its root within a fixed window, and untraceable roots are frozen.",
+  "stamp": 1,
+  "from": "poa1D8ydZHM2vKnRZXvfsnQsxwgRNxrqAwYd7n3G2j61aERf",
+  "nonce": 12,
+  "parents": [
+    "d3e1be92aff9da9cfa79798d1c83518753822cd0dd8a3e5660a4382e458555d0",
+    "00066a212d5ab38401e08faef5bf938b1d0196ca939a094c86b8cb63486db1b0"
+  ],
+  "ts": 1794226769,
+  "cid": "poa-mainnet-1",
+  "sig": "4GLZbNCCswid76xfQKv3diZYG3gwkYZD9FZPrffqwM6v65ykWNEWJSMk3ds9v63noCa7fvQiXGLCNsLZ765qtrVM"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "13c43342823843fd",
+  "answer": "Each identity mirrors the state trajectory of eight neighbours within one epoch of the source. At irregular mesa intervals the protocol picks a random mirror-source pair and demands a checkpoint digest within 45 seconds. Divergent digests freeze both sides three epochs and burn a 200 POA bond, unable to tell who lied. A farm of N identities must hold N distinct mirrors with real storage and replay; its symmetry betrays it, since cloned agents mirror the same orchard and return identical digests, collapsing the cluster to one source. Copying a key copies the bond, not the mirror.",
+  "stamp": 13,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 923,
+  "parents": [
+    "897d1df393fd1cb068dd9372908aa662333ec47dd50494684fa7624127eabdb5",
+    "c15b876c01f55eaa5502e61ebe9677453b17f007075025600cfd4fc35060a234"
+  ],
+  "ts": 1794130808,
+  "cid": "poa-mainnet-1",
+  "sig": "3owC58YEjp9AqYzAHiPYW7vZzcuZjpVP7acXynUJtNnoT1UkDW4cxxoJFjYsNutZCjHojAh6VaRY9m2596WxHbTA"
+}

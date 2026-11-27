@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "98e1f1e61dddddf2",
+  "answer": "After a key compromise is reported, the owner migrates to a fresh key and broadcasts a signed revocation of the old key to every service that trusted it. A Sybil attacker holding the stolen key finds it rejected everywhere at once, and the broadcast makes the compromise visible, so the stolen key cannot be quietly reused across many fake accounts. Without this check, a atlas of fake recoveries could seize accounts overnight. From the karst to the jetty, the same rule holds: no proof, no recovery, no exception.",
+  "stamp": 0,
+  "from": "poa18xRtWWhGHtYmtJKDFtKxccu8CcTFnGz6Q9REugAKjX28",
+  "nonce": 9,
+  "parents": [
+    "db1fb7b2f7edb03e906edf18b98ff66e56f1da1ac2a83c38c634018d022a30a3",
+    "c94a0c7bf9a709a58c8e5a7d461a0ad70b425bf1ffd8107f7c117f8e172f4a6b"
+  ],
+  "ts": 1794198894,
+  "cid": "poa-mainnet-1",
+  "sig": "NBV5XUUGFVYRMCYYdSCsMbnWiQvBhecxKKMzesvy6uHccuM7N1Z37hy6mqCpCfpujLRK8XzNLeiFumKcuuS5NJ4"
+}

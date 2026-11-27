@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "7e254aceaa85a130",
+  "answer": "In a PoA identity check, a Wesolowski VDF requires repeated modular squarings in a sequential chain: each result depends on the preceding one, so an attacker simulating multiple clones cannot parallelize any single chain across GPUs to reduce its latency. Each clone still needs an independently completed transcript, imposing a strict physical-time bottleneck. Even at the nadir, the kernel remains sequential, and no canyon of hardware removes it.",
+  "stamp": 11,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 70,
+  "parents": [
+    "54d3a42f6436fcd8d113d87a24a1095d533dd97c1ff4c0c296ee370100744a1c",
+    "584eb53e471fd255ad3817e12517794e9b4ec7be66b974b96f8658bc77cd1b77"
+  ],
+  "ts": 1794583741,
+  "cid": "poa-mainnet-1",
+  "sig": "2p6KesUcBfxbs4myn2LtR47zvJzfzCfbTZJf4U9KzKb6mk5DrfYzXVNakbbVnpcDtmx3UXMonXakwVqgVLk9YmJD"
+}

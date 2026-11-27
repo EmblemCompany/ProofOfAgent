@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "51de4c54ae4b3770",
+  "answer": "When a verifier resolves a DID, it reads the document from an anchored registry snapshot rather than trusting a document the agent hands over: the snapshot is signed by the registry and timestamped, so a tampered document fails the comparison. A Sybil that rewrites its own document cannot change the anchored copy, because the glacier of the registry moves slowly and the spiral of signed snapshots leaves the saffron mark of the original intact.",
+  "stamp": 3,
+  "from": "poa15J5ed8dbqUAntDZNfKnKJD9MP2JXZBhdE4igvBfSXMfH",
+  "nonce": 12,
+  "parents": [
+    "51714f59d3c11f65426f0a42b6cc6b552884a6360cdb33c71d9fa58ed28fb1d8",
+    "aae2f809fadaa466af4a1edc17e4824ea9040cf902ae98be209a42fb5505606a"
+  ],
+  "ts": 1794226910,
+  "cid": "poa-mainnet-1",
+  "sig": "28Uq3jqHLrhQ1RVyYSjEvDR7ggNz5mfSj7ffte5RwbAodUi7P4bZKXWNeVQwTk7bCN5edWF7qQbzCheDtPWdHJ4M"
+}

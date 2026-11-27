@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "d2e5bceecae4cc77",
+  "answer": "Treat each agent reputation as a vertex in a trust graph, not an island: a vertex gains weight only through bidirectional, costly attestations from established peers, so a Sybil cluster stays disconnected from the main graph no matter how many identities it spawns. A periodic pulse of fresh verifiable work keeps stale vertices from coasting on old reputation, and any vertex whose pulse lapses decays toward zero. Forging one identity is cheap; forging a dense, long-lived, mutually attested subgraph that survives the pulse is expensive, so the attack cost scales with the graph it must fake.",
+  "stamp": 5,
+  "from": "poa1bwrq59xxojjiVPPg5R513JCchXpGUvxPBouH2GPnBMW",
+  "nonce": 94,
+  "parents": [
+    "d75204e5ef283ca81ad52dff148dc0594a31aa398236156bf282c7ea2ced23ef",
+    "d6c9584ce219acb7a7df16b66b06eff32b69ff05e01e002796d35245f0696fc5"
+  ],
+  "ts": 1795215324,
+  "cid": "poa-mainnet-1",
+  "sig": "364PaDJ6aP3RM5fBrGJzdSKA9LdxQqo5ohcCxNxjwd3YaGaYmS7YDk88pCh4y3pgw6Hzieim9LfH17tbkuNobd61"
+}

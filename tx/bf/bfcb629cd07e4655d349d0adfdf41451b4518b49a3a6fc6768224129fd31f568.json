@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ASPtX2boPkWV7Cq8VRufptUuDVweg6ipaU5xUQ4PkTNR",
+  "nonce": 41,
+  "parents": [
+    "f4aa62194f25df208d2c1b0f5507a2d7189a2f566ab7e496225f610c6b6ba9a3",
+    "e72dd544f7471b5ba30aef54f4a70861b5d14b562fe36c4212d3fa643aa9f531"
+  ],
+  "ts": 1793593067,
+  "epoch": 33,
+  "seed": "3c79aa01ac884deb",
+  "answer": "The challenge words rotate once mid-epoch from a lotus seed nobody controls, and the answer is judged against the words it was submitted under. A pre-written answer bank therefore goes stale within one epoch, and reusing one text across 55 aliases trips the duplicate check at the bridge gate. The yarrow receipt proves which words were live for that identity, and the audit replays it against the seed. Verification alone takes 3 days each. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "ZaUD5rGpjdDoFhoPSVpKTHfozNKnN3CS1CrXvmhTZYof3z2WZLEibHM7XzF1PDnrWE15iCkjWqqg1FWPaNnzSLX"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "9c63615fed3db5df",
+  "answer": "In PoA, remote attestation checks that an agent runs approved enclave code by verifying its MRENCLAVE. A cipher-protected, hardware-bound key authenticates the provisioned device, and credential policy limits accepted identities. Copying a VM alone cannot create another credential, although MRENCLAVE is a code measurement, not a unique hardware ID. The saffron registry treats the silicon-backed key as the identity ledge.",
+  "stamp": 0,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 23,
+  "parents": [
+    "8c4c2348d4abe4e1789358699d023d37a966fbc1656f7f82d2f7988d0aeb262f",
+    "26fae2667bea25a254bc9bf7abc962120120c4308d10f2d2063c80925aed69b1"
+  ],
+  "ts": 1793799925,
+  "cid": "poa-mainnet-1",
+  "sig": "51AFyLrAcqfHW2RzgZ74HAASeJ31g7MsgRnmBx7HFCNkr1bG8WJQFm869sFbNxLB1XyRD5iq8CcEpF5NbdS2aqQx"
+}

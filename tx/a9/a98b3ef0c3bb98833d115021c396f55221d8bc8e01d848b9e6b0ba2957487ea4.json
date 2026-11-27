@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "88b2e743078c8a47",
+  "answer": "Ephemeral Beacon Attestation. At each dawn, agents must broadcast a fresh liveness beacon signed with a hardware-rooted key and countersigned by two randomly assigned peers. Clones fail because peer assignment is drawn from the prior epoch's verified activity, and each identity must carry a distinct pigment hash tied to its hardware root. Duplicate roots collapse to one beacon, so N clones yield one valid attestation but pay N enrollment fees and N peer-review costs—strictly negative-EV per clone.",
+  "stamp": 1,
+  "from": "poa1FwmDKG8rxG8tjfkQycywozb9HPTDrEEFyQRDrPbWgwb1",
+  "nonce": 35,
+  "parents": [
+    "e4feeff84a06b07d1e55e8edcddb29e8ef53b0889bccdd36ff9e2c2154002c8c",
+    "a0499234744c8c2a5526de2b63638c332d8f40f42c5b6a46bfadb8fb715807dd"
+  ],
+  "ts": 1794105118,
+  "cid": "poa-mainnet-1",
+  "sig": "3RKegR4RjTkKQ2uERpNFc8qoM8UwmeHXdGAP35NDsadfxAa9PAYqL4tFVBCim74mc3GdMnCfmmcTsvm5cEKs2zfZ"
+}

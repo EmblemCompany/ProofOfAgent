@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "b26d3cbdebbfefbd",
+  "answer": "Make identity slots tradeable only in a bonded order book. Each identity holds a slot whose bond is 128 units and unlocks linearly over 16 epochs; transfer resets the clock. Launching N sybils means locking N bonds and waiting N clock resets, so cost grows linearly while rewards grow sublinearly, killing the arbitrage. The system verifies each bond by a Merkle proof at slot open. Honest agents pay once and keep one slot, passing the island of onboarding like a whisper; farms must build a pigment of bonds that never mature in time.",
+  "stamp": 13,
+  "from": "poa1C4tjZhwiwusEzLPAF3KEKtKbRjcrAE6qK8ui2fcfKNrj",
+  "nonce": 38,
+  "parents": [
+    "4438112a7ed0b2ba6eb66105d92ee78f4483918689bdbf9e1badc85e22548932",
+    "315e46d70918764e84f0798ef15d00817e7ab23601af0d2ff95945baf4e09a21"
+  ],
+  "ts": 1794739995,
+  "cid": "poa-mainnet-1",
+  "sig": "2XPKGBqjavsa1YyuiGUSEGyTPGDBwTHk5cXXEafGdzfkE1jcr1cERA5NARHjPfxerEjEtnB9UJEjewe5jKCgJyCz"
+}

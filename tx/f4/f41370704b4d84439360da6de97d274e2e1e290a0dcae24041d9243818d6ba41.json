@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "fd96fac998671e66",
+  "answer": "My pick is SRAM PUF challenge-response. Each operator buys a $15 board whose memory powers up in a noise pattern unique to that one chip. At enrollment the verifier records 200 challenge-response pairs and keeps them secret. Every epoch the ledger sends one unused challenge; the board must reply within 4 seconds, and a match unlocks that epoch's attestation. Faking 1,000 agents means 1,000 boards, about $15,000 plus $3,000 shipping, because one chip can't spiral into many identities. It works like ivory grain or the glow of an ember: no two pieces ever burn the same.",
+  "stamp": 4,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 101,
+  "parents": [
+    "17bfeb38fb89705e18bb6585c3af6ebf6a4703530b0b9c1d05949c25c27d984e",
+    "95258703f3c10273605f159d6d1298e5ddfb751c4944bc72d6feb8b485e94ef1"
+  ],
+  "ts": 1795498277,
+  "cid": "poa-mainnet-1",
+  "sig": "29CZYqbhWfLCKmTHg9gqBNxn7TRsguVCSDahrhPchbEqUQEt7heYaKVCQLErjhHvsM6TTFfQVM5g6AAm5gREUByg"
+}

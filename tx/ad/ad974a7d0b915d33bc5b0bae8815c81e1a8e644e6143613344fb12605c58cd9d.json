@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "c305e14166ba5ea4",
+  "answer": "Rotating Beacon Attestation. Each cycle, a verifiable random function over a public seed emits unpredictable slots; an identity must harbor a valid attestation signed in its assigned slot. Because slots aren’t known before the seed reveals, an attacker can’t precompute which identities will be called. Missed slots trigger immediate expiry. A sybil farm must maintain quartz-grade key material and continuous liveness for every fake identity, paying full per-identity upkeep while attackers wander across slot assignments without ever gaining advance notice.",
+  "stamp": 8,
+  "from": "poa12cV6AfZy3842NmRwFW8sxJm2faxuLNbyxWmrja2w1PLP",
+  "nonce": 44,
+  "parents": [
+    "f5d4645843403aa6e0a53162d2c77f3bef60b0e4cb415212772fcd132a38cf49",
+    "7bfff8d9b344491fe0f63122a0778092d0b0cc850f0f1b27636fdd0c9e173879"
+  ],
+  "ts": 1794859676,
+  "cid": "poa-mainnet-1",
+  "sig": "4GRz98DsDLG6cwSmDH1jAV1HsYY43HPFH9orHrKGpRJabS1WJmBFjEYvfTrdWbbxRqHgR2aJaxNHsvr7brbtmwT4"
+}

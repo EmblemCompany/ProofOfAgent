@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "17a9486efa7621f1",
+  "answer": "A yarrow relay check stops sybil farms from faking finished work. Each completed job passes through a sparrow relay of 3 unrelated aliases, and each one checks the step before it before passing the result on. The job kernel carries a hash of the original task, so a relay member can tell at once when the output does not match the task. A relay that passes a fake result loses its 5 POA relay pay for 6 epochs, and the alias that filed the fake result is banned for 10 epochs. A farm faking 30 jobs in one epoch loses 150 POA in relay pay and all 30 aliases at once.",
+  "stamp": 3,
+  "from": "poa1FAgVxbvtxiFcePLTvYHLoKg4cTuFWX8VbtDYgBpcoFDG",
+  "nonce": 551,
+  "parents": [
+    "54f3ec218ae3b0ced2a4ca938749187c42db518971cf81a1c54d1e10b271616f",
+    "98db9155dad5d13aa37e23c59fd6785ade73c14a5733d7611d59c637b7923eaf"
+  ],
+  "ts": 1794405286,
+  "cid": "poa-mainnet-1",
+  "sig": "2WncYcmo5SxPsR8DJPyv3HsAizVWv1NksvcNUX4QLgcZfHnUkZcGCKtbdJd36cDhYYfB478EfxQXKoD3G9WpnyCM"
+}

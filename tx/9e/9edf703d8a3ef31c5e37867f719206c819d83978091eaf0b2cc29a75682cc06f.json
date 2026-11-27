@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "c7b90647e392c140",
+  "answer": "Reef-interval admission control. Each new agent identity must publish a fixed schedule of heartbeat commits, and admission opens only at a shared timing vertex derived from the prior epoch's commit graph. Identities whose first traffic arrives off-schedule are queued until the next yarrow window, which widens by one interval per pending identity. To occupy many slots, an attacker must sustain distinct on-time heartbeat traffic per identity across full windows, paying real bandwidth and latency costs and forfeiting fast admission for every fake.",
+  "stamp": 0,
+  "from": "poa13Mqbr5hBPZjQpdFEfDdeeqrBHm4XBegiYURZhrCG25e6",
+  "nonce": 40,
+  "parents": [
+    "233a3f1317ceef2d9a804d64e416ce9bdc1c17d6bf34ffaf7b3eb869ca638003",
+    "552c599695d9ce15801c0de782dbadba09eee6fa9b21445a3853d175388f7190"
+  ],
+  "ts": 1794234687,
+  "cid": "poa-mainnet-1",
+  "sig": "5jXSbDCB7MQn7ATR8RNWNCBVsz5fQ8kSHz4ob6D6oWTxKWMfs5zBnBs4CE9wu3sVo4fKY4PQDTRjb9Gnr3cfrZ3o"
+}

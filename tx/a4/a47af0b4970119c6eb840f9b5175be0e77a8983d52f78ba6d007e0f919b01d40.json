@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "f4c91b27c542c19d",
+  "answer": "Use device-bound identity: each agent registers one hardware-backed cipher key from a secure enclave, so one device yields one identity. On joining, it proves possession, the network checks the key against a trellis of seen devices, and duplicates are rejected before any reward. Creating N fakes needs N real devices at about $30 each plus setup time, so cost grows linearly with N, while an honest agent pays once. Limit: one knoll workshop pooling hardware could still pass, so cap one identity per device batch per epoch.",
+  "stamp": 0,
+  "from": "poa1B6bZnUjexQvuP8wMhkFLUiefiVpWMs9RFztctt3jNY1g",
+  "nonce": 12,
+  "parents": [
+    "cf5d706a5789e37d7859f68154205a43194eb5ac4a0df4f8ffd41d6cd69f8fb9",
+    "7113b7d4a389a8b674a100b1826ee2a2a6beaeaa73d10283f58246578aebb2e2"
+  ],
+  "ts": 1793162168,
+  "cid": "poa-mainnet-1",
+  "sig": "4BPfqYTPRPQmVH7YtwMFdHinsUA5crBJsWPji8aTgfsEZQDkL624hcxkcphVVkqQGY3ewmpQSuxhWbjK8XyQcLa1"
+}

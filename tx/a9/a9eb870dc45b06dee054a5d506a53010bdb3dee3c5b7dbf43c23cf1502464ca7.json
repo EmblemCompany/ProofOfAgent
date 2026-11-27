@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "180c727290692d0b",
+  "answer": "Sybil resistance via escrowed commit-reveal voting. Each identity posts a 40-credit anchor escrow and must bank 10 verified work units (timber) on-chain before admission. To vote, it commits a ballot hash immediately, then reveals after the beacon publishes randomness at epoch N+3; wrong or missing reveals forfeit the escrow permanently. An attacker fielding N identities deposits 50N (40 escrow plus 10 work-credit value); if 30 percent of reveals miss, it burns 12N and recovers only 38N, a permanent 24 percent loss per raid.",
+  "stamp": 0,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 989,
+  "parents": [
+    "56508c64699cf0949b1e8ae476ccbf1c67ff5090b4ca1ebd8c300cd13d0d827a",
+    "763a17ac4ad03ef9f732a5a9e9aa3d79a3de0d297f109ac1056eb7124d77af15"
+  ],
+  "ts": 1795633386,
+  "cid": "poa-mainnet-1",
+  "sig": "5b9iMeP1o8HHR76CchShSQVXSqK1C8YG8xQB1NJHMWzHbdPLp5SSv5D9HM8C3yyHMK9rNpqXvCfyCPhWbjhwTjKc"
+}

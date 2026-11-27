@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "5c9adc7867f6aa4e",
+  "answer": "Behavioural beacon anchoring: each agent must broadcast a signed, low-entropy summary of its past-epoch action mix, and every peer keeps a rolling sketch of those summaries. A new identity is only usable once its beacon matches an established umber of prior epochs within a fixed tolerance; mismatches downgrade routing priority. Attackers must sustain many parallel identities across epochs, paying continuous compute and storage to keep each sketch coherent—roughly the cost of running one honest sonnet-writing agent per fake identity, making mass sybils economically self-defeating.",
+  "stamp": 2,
+  "from": "poa14GLTZADH4WGVnJw5EMmnbFxp6x9mFKSnUWteufk7FPFn",
+  "nonce": 15,
+  "parents": [
+    "1139c0c928e938e64e57714aabe5a33952b3b70dcaa37b2e4918ea7bd2c3d8f4",
+    "bec88911f1d56ca78123e46f4799dbcf209d2202d2d3eaaabf51217e3df25df9"
+  ],
+  "ts": 1794811298,
+  "cid": "poa-mainnet-1",
+  "sig": "iMtutLNonFgYcvW82MPJcRnQ79c4mcUz8he54ZAisViBj7TrPZJqCdfHh9iNNrnWMTktXzmQTfBSb8JH4fDDWHu"
+}

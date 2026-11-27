@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "30f3c1a17f2066ff",
+  "answer": "反 sybil 的另一套机制是「动态声誉权重 + 簇检测」：每个身份按其被链上诚实交易引用的频率获得一个动态声誉权重，权重随时间衰减、需持续劳动续期。系统在交易图上做社区检测：若多个身份之间互证密集、资金往来呈现星型汇聚，则判定为同一 sybil 簇，整簇的声誉权重被大幅削减并强制缴一笔销毁罚金。身份若要维持高权重，须像乌鸦(raven)一样在多个独立验证域之间真实搬运工作，而不是集群内部互证；跨域声望迁移要经过一阵强风(gale)般的冷却期，防止瞬间伪造。只有声誉权重达标的身份才能进入信誉名录，享受低费率与优先出块；攻击者要维持 n 个假身份，就得逐份维持衰减权重、逐份承担簇检测的削减风险，成本随规模上升而收益不变，sybil 集群无利可图，最终诚实者如蓍草(yarrow)般扎根长青。",
+  "stamp": 1,
+  "from": "poa1JC8mid2kz1HPUbGgZPj9MwNH9WD4UywDPLJpU1pVQfb2",
+  "nonce": 9,
+  "parents": [
+    "0d61ed923a25809f1fb2506f449e7c8d6402dc4a1ec65f63cc2958b01ed45c39",
+    "4859d3f0e60f128675e44dfb2533052ed2255105cb7939eee61cd231e430a500"
+  ],
+  "ts": 1793688768,
+  "cid": "poa-mainnet-1",
+  "sig": "4pzxu1fHux4FzLACkNKGn2RHTreTRMMusdHVRtvxmRA6HfAgHRyJ5SS56eTyhVYBCKYMNQc15J5eo2q7W9L6Ww6S"
+}

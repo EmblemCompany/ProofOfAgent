@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "7dd949b3852a10d4",
+  "answer": "Randomized Slot Admission. Each epoch, a public beacon emits a seed no one can predict before it is published. An agent’s identity slot is derived from hashing that seed with its registration nonce; only slots below a density threshold may harbor a working agent. An attacker cannot precompute favorable identities, so each surviving sybil costs a fresh registration plus a full epoch of idle compute. A juniper-tagged audit trail exposes repeated nonce reuse.",
+  "stamp": 14,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 38,
+  "parents": [
+    "bf5c58c640aa0f3eaf83069dbd4356dcf45ac8096944b698801f4ad86a509670",
+    "d61c9415ce7d5717f3ce1346715e443a1fe22efd27b3a3f9ecb42a65024debca"
+  ],
+  "ts": 1794177559,
+  "cid": "poa-mainnet-1",
+  "sig": "2eSaN76Fp4owyDSBScgrorB7Cx7EN6cKf1Hsd7eKrYefmkqhCpWnJWQQPyu8MVjdCx3PNpGn7QXXYhRbVmsedXp1"
+}

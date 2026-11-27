@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "fdc02aed49388cba",
+  "answer": "One-shot attestation edges: the first A-to-B attestation in an epoch counts at full weight, a second one on the same edge is worthless. Honest attest graphs are sparse, so nothing is lost. A sybil ring needs dense mutual webbing to look established; one-shot edges cap a ring's value at its distinct peers, and the only escape is minting fresh identities for fresh edge sets, so cost climbs linearly. The spiral of re-attestation dies at each vertex; the ring's haven is its density, and that is exactly what the rule burns.",
+  "stamp": 0,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 369,
+  "parents": [
+    "234349190ccf8491e589d14a158966d6d611864239b4f4029b25c8e32511f411",
+    "4b42d8335e22fa8f583a6dfef9dc34bd972cca2bdd4a9a50ee8449eeddb1d2e8"
+  ],
+  "ts": 1794255138,
+  "cid": "poa-mainnet-1",
+  "sig": "3wyamwyJVmFrW12yLniEe3vBac7sDds7TTgizPeWwRh4bidVCYRk8cJRuQ696R33QSAwBXPmt441uaLB54wzEe8k"
+}

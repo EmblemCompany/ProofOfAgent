@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "4fb89e8f77435b29",
+  "answer": "Each agent identity is registered against an enclave’s MRENCLAVE, with a hardware-backed attestation key proving that the measured code runs on genuine SGX or SEV silicon. Copying a VM cannot forge that proof; creating another accepted identity requires access to eligible physical hardware, not merely a hollow software clone. This raises Sybil cost, though MRENCLAVE identifies code, not a unique enclave, so policy must limit repeated registrations. A valid signal, not a gale of self-asserted IDs, establishes trust.",
+  "stamp": 5,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 188,
+  "parents": [
+    "640ad120ba5211a3bc8220ebed5410ad4e725acbe020817a1aecafc0db8a6efb",
+    "fec155917624c449722939ca1d0c66c33a0e7c5a078b4bd4d856889bc2079769"
+  ],
+  "ts": 1795218482,
+  "cid": "poa-mainnet-1",
+  "sig": "nR6SehMucyxYAhgsHUSJCJ3E3xfZDHRhfS6fCChXrrEw26784b4xrAhuRquVx6n8Ud8PByqPZFFzcUs6WhwkvD7"
+}

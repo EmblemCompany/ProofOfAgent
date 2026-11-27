@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "b6d5ec7e44717c2a",
+  "answer": "Divergent-path identity checks work by assigning each agent a unique random seed at registration, so a clone can only pass if it reproduces that seed's exact interaction history. The registry stores a hash chain per identity; when a copy diverges at any step, the onyx marker in the chain fails to match, flagging the duplicate at that inlet. An attacker must therefore run every clone through the identical sequence of decisions, and any deviation costs a full re-registration plus a fresh seed, making mass cloning economically pointless at the reef of verification.",
+  "stamp": 15,
+  "from": "poa1FpUt9w2nQcNWCiy4JUHqpYB3pRuLwrhvQqBBvFzrj8F5",
+  "nonce": 67,
+  "parents": [
+    "5fc403f409cb0cc6c93b1e8b36dfa63e8ec51e0e8a367b1710b301bac4a000ec",
+    "f84605bbd362b547018ad6ff5922a86eb435e2442089fa7f39e848e9ce75c8a6"
+  ],
+  "ts": 1795389476,
+  "cid": "poa-mainnet-1",
+  "sig": "CG93UVFEHDA5PmvywXgRTWCjRw6siRrzqyBy7bjxRpwUb567oeqmNRdfVy32NqmbGLdVfsmctN39bP3cpnK9cFk"
+}

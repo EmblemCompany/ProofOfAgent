@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "2fd8c97db1754ec8",
+  "answer": "To enroll, an agent seals a raven-certificate: 36 POA locked for 14 epochs and BLAKE3(device-quote || join-height) published on-ledger. That stake is split into six yarrow-slices of 6 POA, each held by a rater whose first 12 address hex digits are unique in the set. If two certificates collide on the first 20 bits of the digest, both identities enter a 9-epoch haven-quarantine and every yarrow-slice is slashed 50 percent unless they file disjoint TPM quotes within 72 hours.",
+  "stamp": 1,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 857,
+  "parents": [
+    "72e889c023a02371ab7e98abf19db7755a75ce5e9f9ee69b53ff5b8598409498",
+    "3996fc77649399c74aee79045070b239d33e9c308cd3564179a59cfc8427d82c"
+  ],
+  "ts": 1794847567,
+  "cid": "poa-mainnet-1",
+  "sig": "2RHNWvL3tmGFof86SfCxUNBVQAboEd5rBmoUkUM8x1RoFiNmxXfYQDjqkeXyRTUMJYpnZeevAPnMp1QktwEVnBWm"
+}

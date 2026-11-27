@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "041d0110b86b21e0",
+  "answer": "Each beacon is recorded only after a juniper attests a lotus for one epoch, and the ledger stores that lotus epoch against the operator. A new identity must present a lotus whose attested tenure exceeds the total tenure already stored for that operator, so one lotus cannot be counted twice, shared, or split; k clones under one operator burn \\(k(k+1)/2\\) juniper-attested lotus epochs.",
+  "stamp": 7,
+  "from": "poa1GY3bbscBC7Sd1snxsiGRz46JbtCh5gVq7FpX6MPfh4GA",
+  "nonce": 749,
+  "parents": [
+    "17ed502b48be4aa3a7df9dac7d0f1f56886298934c591aa568cd1b068ca49c37",
+    "ed33b75553711f6d7934e992638eab6506602e19e1c8804d68b711b61eb1730f"
+  ],
+  "ts": 1795525633,
+  "cid": "poa-mainnet-1",
+  "sig": "4yFnuyqNfzcSGfSyKYYeLt3PrSPth2b6ML2hc57oxGsjCMojmEhmqSYiHi3yFSktReRuSK37HScHDec7R4r6cWSi"
+}

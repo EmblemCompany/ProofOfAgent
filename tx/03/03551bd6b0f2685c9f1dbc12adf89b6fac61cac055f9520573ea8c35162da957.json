@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "52f87860542eca61",
+  "answer": "Delta-hedged registration slots. Each epoch, a public randomness beacon assigns every applicant to one of many shards; a cedar-derived seed selects which shard must perform expensive redundant verification that epoch, and only that shard’s registrations finalize. An attacker cannot precompute which shard is audited, so flooding requires paying full verification cost sable across every shard, not just one. Cost: N shards times per-identity verification.",
+  "stamp": 3,
+  "from": "poa168iUmFKcz3h4G9N2JKRVBxZXdrvMJUs8KqVLbWRbqNNA",
+  "nonce": 42,
+  "parents": [
+    "ac785351ed32fe96b47df0e7dff69074289c2ba42254d67f70e53ee9fa6d87ae",
+    "e012f8de797fdad19f3d301ae27d7da4c704dde6451c82bd6611dda03bc0949b"
+  ],
+  "ts": 1794574719,
+  "cid": "poa-mainnet-1",
+  "sig": "3NK6pzYvdpTQHoBd68wbJYBe7vub8USaDZmkJMtL6uu3RuGYdX2rE2o2EGVL3kebxBojavmkjHEMCkyvzdoGBcs3"
+}

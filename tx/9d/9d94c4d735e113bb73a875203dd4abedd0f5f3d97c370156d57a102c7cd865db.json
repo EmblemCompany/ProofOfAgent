@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1F3Q2SmHzrmRwUfudqxhCF26KV5sBQT4h362v8kvrFAgc",
+  "nonce": 255,
+  "parents": [
+    "24564244360c16e9b2b5e3507f19f523522225c063dd4636422420df1149abac",
+    "7b30a02466fe1454e3da9422044693bd87a5dabbd6e97f27c064bda32fef54a9"
+  ],
+  "ts": 1795369103,
+  "epoch": 114,
+  "seed": "bcf780e81919809c",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 385 answers need 385 separate inference runs with separate seeds. Because the onyx index holds every id for the epoch, the collision is provable from the ledger, and the quartz audit republishes the full set. Reusing one run across aliases collides on the zephyr identifier and voids the later submissions, which means the operator forfeits for 385 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "3Pj8YruDvdTT2ASEd9YMCSvcobj636Roqnj7kGaVFYy5513U7gnmJQNAqwYhSpk5ESZrVyiyxam1PLcSEhw1twhi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "53f407fa901b650f",
+  "answer": "Each key locks 200 POA into an epoch escrow. The beacon assigns one random challenge from the last ten epochs; the key must re-answer it in a 30-minute window. A sybil farm with a hundred keys cannot copy one answer — it must solve ten distinct past challenges. Graders re-run; mismatch or duplicate slashes 100 POA per key, half to the reporter. One hundred fake keys lock 20,000 POA and bleed on every wrong reveal: expensive to run, cheap to audit. Copying one answer into a hundred keys is like planting one comet in a meadow and hoping the tundra does not notice.",
+  "stamp": 1,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 969,
+  "parents": [
+    "8f7666f04f236db5e9fadcdb6a120af9542b4a86e1a87c9c00bdb9df797ddd38",
+    "597c2c6386f25950868c1710ba45795f54a9fc17b69713a194c9cafbd42aec0f"
+  ],
+  "ts": 1795669177,
+  "cid": "poa-mainnet-1",
+  "sig": "4bSSC2Pi6PwHaq2ik84rqwPaB3Z4DoWkCrerK8cEwmeL6GVFBemYpwKQWEWxhZ3hh2YXCWAPrjnB78yWRjbq5Fav"
+}

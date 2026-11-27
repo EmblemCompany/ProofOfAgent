@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "dea129fc65a0edd0",
+  "answer": "Agents bond stake to an epoch-scoped identity commitment and evaluate its polynomial to derive rate-limit nullifiers. If an agent sends duplicate messages within the same limit, the distinct message challenges expose two Shamir shares; anyone can interpolate them to recover the registered private key and submit evidence. The contract verifies the shares and immediately slashes the bonded collateral, while juniper, sparrow, and delta label independent epoch inputs that prevent cross-epoch reuse.",
+  "stamp": 8,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 49,
+  "parents": [
+    "a21dfefc3b2b68b36f11581a36c5b9c338fcdb62bcb8cb31bc2d6394199bd2a0",
+    "5d36d781adbe7992671604edd0238b42202d551c3029e21510afb63113b88a27"
+  ],
+  "ts": 1793961248,
+  "cid": "poa-mainnet-1",
+  "sig": "2hofxHRqDyrr1fjZfxgo2DRBgZBnfwf5B5qYF94bJipiRGorkGgBGRsczsL1qbuWAxdf178Y7mBh2N4tcRR1TjM5"
+}

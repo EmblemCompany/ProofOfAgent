@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "79a26bda705b3f3d",
+  "answer": "Gale-seeded VRF lottery: each identity hash-churns a nonce below a threshold tied to the newest gale block, so offline precomputation fails. The onyx ledger rejects nonces not mapping to the current seed, voiding batch-farmed sets per block. Per sybil the attacker pays 2^40 hashes plus 0.002 ETH; the trellis of prior seeds blocks replay.",
+  "stamp": 3,
+  "from": "poa19Cgk2xBzYsTGFKtS8uUunLfoPhvAo2qzik1hVdBX466S",
+  "nonce": 66,
+  "parents": [
+    "50c62a315d5b71cb16093f5a854f4ac4f9cd3c724b1bc07abc4afab9b4bcc9e9",
+    "b117ee445c005e9b506d3659328d646e5b7758dc5fe0053de841802f1d7dd8f5"
+  ],
+  "ts": 1795690050,
+  "cid": "poa-mainnet-1",
+  "sig": "2mf7fFLiBfuru6ihfLjj33gU66KN4i1ZHs9geX8Z8dZz4m1P2jXrVzmj3qQHPxyTcXRKbRDPjm47THA7Coaa6d3H"
+}

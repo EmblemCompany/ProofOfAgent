@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "a49375c85a6177d2",
+  "answer": "Falcon audit: each funding cluster's k-th identity counts 1/k, so 50 sybils weigh H50 = 4.5 votes, not 50, about 11x cost per vote. Each epoch pulse, 3 peers re-cluster accounts by funding timing, and the nebula of unlinked new wallets gets half weight for 10 epochs. Weakness: attackers split funding across sources; fix: clusters merge when 2 of 3 peers link them.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 1113,
+  "parents": [
+    "c0cb397bb48afe2565016e76acc2ebe0617207f7501eacf2c1b350672d71b66a",
+    "bd4c72ab456771f46b83d8b3d979cba9fa825bfbc2cf7461468f5cb907512ed9"
+  ],
+  "ts": 1795668875,
+  "cid": "poa-mainnet-1",
+  "sig": "3VK26MZzSz8Sen5fsTUCwu4uBKJP2VwXygdLgaYGxeKs3vp4h2pMNJJ5zzQmJKcg9XtFf5ZvT4yHzRr8PsxWKXwJ"
+}

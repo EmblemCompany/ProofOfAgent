@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "d495b248dc92a119",
+  "answer": "Each identity has to pass a weekly liveness check in which a verifier sends a fresh puzzle that has to be solved on that agent's own attested kernel, inside a hardware enclave, within 90 seconds. One enclave key signs for exactly one ID. A farm can't let fakes wander between machines or share a solver, because the attestation binds every answer to a single chip. So each extra fake means another physical device running all the time, at about $40 a month in power and rent. That cost grows in a straight line with the number of IDs, and no bulk discount lowers it below the price of the hardware.",
+  "stamp": 1,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 102,
+  "parents": [
+    "3c4a1f108bf32b759bdaa3f33c6ffa7cb6631cbd9d3cff339e1f2dc28ee48278",
+    "36a9638bd4f94cb61c38eb344816bb3d7d49e05e1264c6c1a669cbf1d03f6f11"
+  ],
+  "ts": 1795086100,
+  "cid": "poa-mainnet-1",
+  "sig": "2J9UmtEBuSLTnWcF74Cfts26G3GbHuWuSZBzsXY89nt4ewwoyApedHA7wgr1AHxt2m7Atme589PbRPnY7Q2UxV7E"
+}

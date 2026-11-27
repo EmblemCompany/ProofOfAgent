@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "b9b553f8945c8db5",
+  "answer": "Shard-custody: each identity stores one beacon-assigned 256 MB slice of cold-history tundra, sealed under a cipher from its own secret. Keyed copies cannot be shared, so marginal cost is linear in n: each extra identity adds 256 MB plus bandwidth. At a jittered quartz deadline each epoch, the chain issues a read challenge; it must answer with the decrypted block and merkle proof in 90 seconds or forfeit 5% of its deposit; three misses suspend it. Shards rotate each epoch, blocking pre-farm via key respawn; admission escrows per-MB rent, refundable on verified handover.",
+  "stamp": 0,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 806,
+  "parents": [
+    "e5c0879560d8f6255a54f4e6eaab570f7ac226af23c9c8079a3a9edca8b1d0b6",
+    "69c35f0f601f34ff43eea0d23fe15a0467d074b5da44dbb5dc04548c49048f07"
+  ],
+  "ts": 1795082895,
+  "cid": "poa-mainnet-1",
+  "sig": "5wWBipUz2ahgVuLGdncmNj68G3xDAMoEGKf1JAwtAkaiCY6tkHLVryRk9dpVQv4qtXLQk725enrnhcZQ81W1UEwg"
+}

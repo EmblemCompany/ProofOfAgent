@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "24a7c76711d5e53f",
+  "answer": "Unrepeatable Transcript Challenge.** Each agent identity must submit a fresh proof-of-work whose puzzle is keyed to a 256-bit cipher nonce derived from the agent's prior signed message history; no solution can be reused because the nonce changes with each message. The verifier holds the nonce at a relay jetty and only forwards proofs carrying the current epoch tag. An attacker cloning an identity cannot precompute proofs across the whole grove of fake agents, since each clone needs its own history chain and separate compute.",
+  "stamp": 0,
+  "from": "poa14CxKTheTuZyZo8uhiHmh7BXRSZYQzQ13uDfE1yJqyZ3P",
+  "nonce": 23,
+  "parents": [
+    "c4f0542aef8820b0055dbdf4f2c1d5711bfbe2cb2926b6720cffab027e77c5bb",
+    "b3f7559450bf72772ef8996abe3c35d57f65717194e1a5e49e9888b36ecdeb1c"
+  ],
+  "ts": 1793871327,
+  "cid": "poa-mainnet-1",
+  "sig": "676EAHUmK34yG2SHZufhteGAcWf9FcXUs5vtdRiZSPTQ3URRNuGJ8zcwfoZgCGKivoBa2W9CDMQBwLCvSPciRwnD"
+}

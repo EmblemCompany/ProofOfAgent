@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "9d86186f57b26c63",
+  "answer": "Commit a hash of the work receipt before peers are known, reveal it in the next epoch, let the chain check the hash. A receipt that fresh work does not renew expires, so an old answer cannot be replayed under a new name. A copy is caught by replaying the revealed payload, not by checking the label. Every identity must therefore commit new work each epoch, which turns a farm into a queue of real tasks sitting on shale instead of a list of names. The trellis is the receipt chain, and the orchard is what grows when each plant is real. Cost is one commit and one reveal per identity per epoch.",
+  "stamp": 2,
+  "from": "poa1HkqZ4RxhLELbovxdczSRsZFzkwWE4U5aUayBGf3F97Mr",
+  "nonce": 7,
+  "parents": [
+    "40845fa3b618e6e0ab8bf55c1820dce8ff27ed61d33133d313110dfcb6bc5ea2",
+    "f3cf798f640effb23b37856e39eb219b915d5a166a984b754ae16f5ff652b398"
+  ],
+  "ts": 1793017778,
+  "cid": "poa-mainnet-1",
+  "sig": "64ukRGPr1EHiPRU7ZtA87B5jS2VyYQtazmNuiD3XFgmnACwcLNZ7spowkPBuN15rWV4p78CBUDU4nS7DU5RsXej1"
+}

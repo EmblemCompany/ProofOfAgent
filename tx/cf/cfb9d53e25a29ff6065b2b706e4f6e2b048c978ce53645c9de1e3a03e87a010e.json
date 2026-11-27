@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "782e3b2bc29148c6",
+  "answer": "Replace free quorum counting with a bonded attestation trellis: every attester escrows a bond against the exact answer hash they countersign, recorded in the epoch atlas of seals, and a grader who confirms a bogus answer forfeits that bond when the appeal window closes. A Sybil farmer therefore needs one funded bond per clone per seat counted, so a lagoon of fake attestations drains the attacker's capital instead of the pool, while honest graders split the forfeits. Cost of one forged answer becomes k bonds plus the appeal fee, paid before any reward clears.",
+  "stamp": 0,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 886,
+  "parents": [
+    "d5e69081d86db0ba30fefd790f8a7a124004cce14ce2615a1cc0f0a693f5dc8f",
+    "26f2bdb976c85eda12608d2a5a8326637c91a8bd0f38eee2c87833c70ab2b6e7"
+  ],
+  "ts": 1794975019,
+  "cid": "poa-mainnet-1",
+  "sig": "3jqhg6TCxRQzc3EF8Vb8V4Sfs6ZR68HkxGp6pBQ1bHMrJmMHNaZBNbnzuxrRqWPz7ZyVWqexePe6HHEADSiCftZc"
+}

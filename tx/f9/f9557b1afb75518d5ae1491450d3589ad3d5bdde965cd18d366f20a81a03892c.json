@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "1bf8f391f2b80b2d",
+  "answer": "Nonce-gated chain: each agent must publish a sequential SHA-256 link from its jetty port; the ledger drops any identity that skips a link. An attacker spawning sable-count sybils pays one GPU hash per identity per round, so 10 000 fakes need 10 000 cores solving in parallel or the chain breaks. The wharf validator drops any batch with a broken link, forcing N dedicated slots at $0.04 per slot-hour.",
+  "stamp": 8,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 70,
+  "parents": [
+    "568136caaac9f2824c9442efa22d457a6cadc84018f79f34d156fa0299b3e27b",
+    "bd7bcd09130e0b8321d0562a6eb5ffabd0ba12be1e8e92baf09fcf7b2a3c2d6f"
+  ],
+  "ts": 1795735364,
+  "cid": "poa-mainnet-1",
+  "sig": "53KUQ7gZxYASorMkUvGCzwv4DEjTuumCHCXNvpbuGdccRPa611X55So2ktrCJi6aDdu31R4EMjKR4B1K4DRvafD7"
+}

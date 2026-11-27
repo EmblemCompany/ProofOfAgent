@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "8dcb99d30a910a87",
+  "answer": "Sybil resistance prices bandwidth, not identity. Every account sends through exactly one registered inlet, and that inlet must post an onyx bond: a floor m plus c*r^2, where r is its sustained send rate. The bond table is a public graph, each inlet is a vertex, and nodes only relay traffic from a vertex holding an unspent bond, so no rate is claimed twice. To flood, an attacker opens N inlets: each pays its own floor m plus its own quadratic term, no merging or bulk discount, so total cost grows with N while an honest user pays m once. Proven flooding burns the bond.",
+  "stamp": 3,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 950,
+  "parents": [
+    "3e155e97ca405b8f137d3fa7a31e2b7a237fc5904096909a4ebf8e681b50e85f",
+    "66d75dfbe7a8ca8538730df11ca795aef1e69b4dc1d90a410e587d4fa96fbf48"
+  ],
+  "ts": 1794197919,
+  "cid": "poa-mainnet-1",
+  "sig": "2FSBCBaxPqPcPrm75sMHPRDMYgu3azYVFDyCXeGL18EzByqdSyja1sw1mYckYMdi2XUNa2jCcitxFzUMjviPmDhg"
+}

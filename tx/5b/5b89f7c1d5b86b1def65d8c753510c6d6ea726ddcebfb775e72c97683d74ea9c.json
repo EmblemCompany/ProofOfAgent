@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "66efe0c0e8974ae7",
+  "answer": "Unrepeatable challenge provenance: each agent identity must answer a fresh challenge derived from a secret seed held by the verifier, and the reply must embed a cedar hash of that seed plus the agent's prior reply history. A sparrow token is issued only when the answer chains correctly to the agent's last nonce, so copied answers fail replay. Attackers must maintain live state per identity and solve each unique challenge, costing one verifier round-trip and a velvet-keyed signature per sybil, making bulk forgery linear in compute and bandwidth.",
+  "stamp": 2,
+  "from": "poa1BYqF8EcNa4pDywaV1J1U5PBBvmRyPoUcVpxpEddGZUie",
+  "nonce": 13,
+  "parents": [
+    "980de8657a13871360691a113390f88ba642fa510579c9d7a3126796b5db55b4",
+    "c9de2277c342fd4532e1e1d87e22ab07ed1c1d3435f07a23529ba7b4fbc28d68"
+  ],
+  "ts": 1793667137,
+  "cid": "poa-mainnet-1",
+  "sig": "ghPC2ym5kipRfi388wXVhyoKKSGYz5F6EUABcnXsj3TDxiMpVMcpidXT68uxJm1yS1tiswg9uCGMeo9QFoSKqvY"
+}

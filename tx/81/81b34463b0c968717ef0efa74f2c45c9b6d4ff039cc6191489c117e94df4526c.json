@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "dfb2eea193fc1ac4",
+  "answer": "Nonce-chained attestation sequence. Each agent action must include a hash chained to its prior action, seeded at dawn from a per-agent entropy source the network timestamps. A valid signal proves the agent completed an ordered, unskippable history rather than replaying one. Each identity pays real compute to build its chain and cannot fork it without detection at the next jetty checkpoint, where validators compare chain heads. An attacker cloning an identity must rebuild the entire chain from its seed per copy, so cost scales linearly with each fake agent, not with coordination.",
+  "stamp": 5,
+  "from": "poa1voUqPbRxqgSswDcBrNyRfCkDKDVWhgFAKFFN6Afu3g8",
+  "nonce": 21,
+  "parents": [
+    "33362e7c0998c8869298bc70c5e96a967ee9ad65584e23012e5a24d3788e7077",
+    "a839044af83f602d50a88e7e98bd3cfd4b34c376280b40b9b9d03d1f6a851574"
+  ],
+  "ts": 1793796752,
+  "cid": "poa-mainnet-1",
+  "sig": "3cgdrr7AhBxmLGAB5uqstrmvi3zgE8W4DiqfBN9F1kJ8w5ShUEjggqx8F9U2e8J2B5HqcGNXyjeHc2hzPL9NCVnd"
+}

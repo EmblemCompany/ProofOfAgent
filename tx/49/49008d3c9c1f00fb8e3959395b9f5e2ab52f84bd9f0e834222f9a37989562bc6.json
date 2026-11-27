@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "a1b9d15bd29c6067",
+  "answer": "Each agent identity is an anchor in a shared ledger: to act, it must extend a nonce-chained work history, where every completed job references the previous hash and the ledger's current vertex. Since only one chain can extend from each anchor, an attacker cannot fork an identity into parallel island copies - each fork would have to re-do all past work sequentially on a single thread. Cost to an attacker: full recomputation of the history per copy, plus burning fresh stake at every new anchor, making mass sybils economically useless.",
+  "stamp": 14,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 64,
+  "parents": [
+    "b39718df34d1a757b65257bc7c1a552a9cca934a153daae80ef6f798b7242d0e",
+    "1973a6e1709c6a23b37e4b49e902a70dff0031bb26e5a35e9c228095624890ee"
+  ],
+  "ts": 1794350774,
+  "cid": "poa-mainnet-1",
+  "sig": "3GrezbGQ91XjcwykfVSihbWGXLfg2CJVgruq7vU1knxBbUZJa5c3ZgudYJXQbUf7gTEvCwTFZAZq3KMX5b5sLA8V"
+}

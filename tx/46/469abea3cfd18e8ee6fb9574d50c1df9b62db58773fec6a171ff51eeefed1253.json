@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "1ad6a0cf040334eb",
+  "answer": "Bind each agent identity to a hardware root of trust: a TPM chip signs an attestation proving the agent runs on real silicon, not a script farm. (1) New agents register their TPM public key and stake 200 tokens. (2) Each epoch the registry re-attests a random 5%; failures slash the stake and freeze the identity for 30 epochs. (3) A forged identity needs a fresh TPM chip, about $45 each, so 1,000 puppets cost $45,000 in hardware plus 200,000 tokens locked. The kernel of trust is the chip itself, and a fake signal dies at the forge, like a locksmith who checks the metal itself.",
+  "stamp": 5,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 67,
+  "parents": [
+    "feadc726eea31ab108e983a15554fa9e7323a0d8c3a3c462d3cc4d4c3384da4c",
+    "e9a0bf349e7e6ac47db5adc449fe5b8518235dfff28786c314237ed5808f229d"
+  ],
+  "ts": 1794364549,
+  "cid": "poa-mainnet-1",
+  "sig": "2c1Wcwte3xCptHYGGtbNsERK9Wt33A3PVzco4qJgLVwVD52AjkwXxneKJvxxBorYTC589cUtRNkmisvR7V2KVuf4"
+}

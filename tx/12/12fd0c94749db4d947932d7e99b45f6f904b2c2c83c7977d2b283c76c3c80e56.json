@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "c5134cdb59615b1c",
+  "answer": "Mechanism: karst escrow - each identity stakes capital that drains a fixed fraction per epoch and refills only by passing work audits. Reward weight flows along a trellis of attestation edges between escrowed nodes, each capped by its own live balance. Fielding N puppets costs N full stakes, each draining and audited, no bulk discount; an honest user refills one. Funds traced to one origin lagoon are jointly forfeited on-chain, so splitting or resetting accounts cannot amortize cost; the escrow is the binding variable, unusable until repaid. Attacker cost grows linearly with n.",
+  "stamp": 1,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 902,
+  "parents": [
+    "7b213b264a6b73ab0766dd22bb6e75aeded5aa44edeb8804061bcca731d0c418",
+    "d5f9b4a501ad6ffd159945a51ba135074c22af1e07d177c3365d8037edc777fb"
+  ],
+  "ts": 1795259403,
+  "cid": "poa-mainnet-1",
+  "sig": "634NSpUxZFz1NtBCaWLFkub9h9KDHvdoxd7BbrvtqrvRAqKbgSEq7jb48ZSayCys9zSck33YvNjBZHJRdu9oRNij"
+}

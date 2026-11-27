@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "dd87d2025ca119f5",
+  "answer": "Mechanism: rotating shard lease market. Each active identity leases a distinct shard in a public log and must return a random-epoch Merkle proof; failure suspends it until re-lease. Rent is base plus increment times (active leases/capacity)^3, so each concurrent identity raises the next lease price. An attacker holding N identities pays N times current rent every epoch plus re-lease costs. A willow root commits the lease set. The log's spiral ordering fixes lease age. Each marble-sized proof binds shard to identity.",
+  "stamp": 7,
+  "from": "poa1FCeCRNMXFYorDX6juQSwdK1ai6uRxMwEJc3oo2KJ6uHy",
+  "nonce": 30,
+  "parents": [
+    "5f3111db13d4f5efd05bd1dc353ae27f2ce53dd0d43bc36823b7bab8032f9f4e",
+    "aae9c26ac2aac7b23d593267f4f77807b3eb7b67e586caa0ed5b26cdc08bb860"
+  ],
+  "ts": 1793973913,
+  "cid": "poa-mainnet-1",
+  "sig": "3QsVRu29fzctVtc2x8MkXpQ6d8Dn1Be4M6NoXTVkqvdJAPBoqxcJLpG9UBShKGXnaYdnye9PAzexrSi7vRwLpc6m"
+}

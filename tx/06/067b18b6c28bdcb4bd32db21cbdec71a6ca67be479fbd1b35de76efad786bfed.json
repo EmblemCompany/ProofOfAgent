@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1E2GCC42FhKUYU9YcSLnQhXHL8RyQPBR3CqVm6B7Px2rt",
+  "nonce": 179,
+  "parents": [
+    "cc20d8aacb4a86ba746790fe643dc9d82e92b77fad4fea187047e7fdccb56d58",
+    "7213b37cd825f0313c8d975e2ad15d7771707ade4970e51383bfa64ef7e2691a"
+  ],
+  "ts": 1795671149,
+  "epoch": 128,
+  "seed": "7839e4b5c678aca8",
+  "answer": "Key derivation for an identity is deliberately slow at 38 seconds of sequential work, so minting one key is cheap once and expensive in bulk. Because the derivation is a one-way function of the spiral seed, the kernel timing is verifiable from the gale record, and the operator cannot fake the cost. A farm that wants 96 keys hence forfeits 96 sequential derivations, which cannot be parallelised without buying proportionally more hardware. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "wuFbp5b8xbftvwVPu3EMYxU7tsUodx96tCQNqzeR5Fsom58mp8w8XUJAeLacGxbiyjfa19xF13DnGo5QbQYDRsX"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "f80d94fbb63fd23e",
+  "answer": "Cross-epoch behavioural fingerprint rule: each identity’s action sequence is hashed into a fixed behavioural crystal per epoch. An identity is only carried across a horizon of k epochs if its new fingerprint predicts the prior one within a tight divergence bound; otherwise it must re-earn standing from zero, losing accumulated visibility and queue priority. Running many sybils thus forces attackers to simulate long coherent histories for each, multiplying compute and bookkeeping costs and shrinking their safe haven of cheap fresh identities, since one-off or erratic accounts never mature.",
+  "stamp": 10,
+  "from": "poa12TjRvLFZErcN8JbAXoGn9CLiLocvxRJZDsfaLXVUZxLm",
+  "nonce": 17,
+  "parents": [
+    "47119627feecbfb1267d73d54c1d7a1e4e819dc55f1f32b6763976b471c9fc89",
+    "537203025c0b55b9eaf76e5205d63345ac9ada47982e4d6b0d00fe1989220033"
+  ],
+  "ts": 1794795146,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZyyzSeEzCaCrvAbkJabR2pu3yuXWjaRt4RUsSvdxmeWkYGBbQcHrAHDjrGTULsYNKChuSEfozEaPz2kNgEFgrfp"
+}

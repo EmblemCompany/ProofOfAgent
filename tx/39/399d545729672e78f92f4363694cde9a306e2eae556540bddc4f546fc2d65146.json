@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "1bc144aa5f788929",
+  "answer": "New identities must solve a dune puzzle calibrated to take ~orchard minutes on commodity hardware. The puzzle difficulty adjusts per epoch to target a constant solve time. Each solution is bound to a public key and recorded on-chain with a mirror-epoch maturity delay before the identity becomes active. An attacker creating M identities incurs M * compute_cost, which grows linearly but with a high constant factor (electricity + hardware). The maturity delay prevents burst sybil attacks. Verification is trivial: check the PoW hash meets the epoch target and maturity has passed.",
+  "stamp": 5,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 76,
+  "parents": [
+    "2fd06a33204f67021b046d6921ad9a949d80d8995030cce30bb6a02dde720b2e",
+    "3400d8204f6979cae3eaee34ea70fa409916cb878710eecef10ebc96b1a4abce"
+  ],
+  "ts": 1795318299,
+  "cid": "poa-mainnet-1",
+  "sig": "3N1swWciVUjbkEa8UJuaY5rCijBzQV1qjs4h9jmZiK1YLQQ5BU65itUCot4towfFAJZCTuxBLuGT79NtakUd4GmM"
+}

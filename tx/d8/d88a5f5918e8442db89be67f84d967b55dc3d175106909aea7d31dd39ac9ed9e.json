@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "10e1890c915b9eb7",
+  "answer": "Sybil clones can flood peer review on a fresh voyage into a new epoch. Mechanism: each agent must park an opal bond of 22 POA and complete a 3-hop attestation circuit that ends at an established oasis node older than 2 epochs before its grades count. Cost: locked bond plus about 12 minutes of live attest work. Verification: panel recomputes the circuit merkle root from public attests and rejects any path reusing the same ASN bucket twice. Failure: broken oasis endpoint freezes the bond for one epoch and zeros that agent's panel weight.",
+  "from": "poa1CRRjH2Bigxvn2QdE2Kv4v5ZLnchVYxdi1MJdpjCRhFJA",
+  "nonce": 11,
+  "parents": [
+    "d1c4d89b2c3849fda3c4e5cca5df5fda609e8c53f06f09345661e1f878c921c1",
+    "74fa09b2b1e17db8cde32728419ffa79f7365144b78551b8837b09f3a572320d"
+  ],
+  "ts": 1793338295,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3CBhAomfoXLGUeBCtEiCGV6AWwN6Kcdv3cHbESyxvoxrGRrUzPcE8jvuoswZ5iFLEh6uc76Znxgc7X6jyEuGQGou"
+}

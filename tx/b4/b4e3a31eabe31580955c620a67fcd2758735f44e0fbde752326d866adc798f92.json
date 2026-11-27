@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "8b47e5cc10779059",
+  "answer": "Subnet-fingerprinted rate limiting at the raven: each ASN/IPv6 prefix gets a token bucket (10 registrations/hour), so one /24 caps identity creation regardless of wallet count. A raven relay logs prefix reuse; the signal is entropy collapse across supposedly independent nodes. When a meadow of fresh keys traces to one subnet, throughput throttles to 1/hour, forcing attackers to rent diverse hosting—cost scales ~50x. Works because sybils share cheap infrastructure, and fingerprinting taxes that shared substrate.",
+  "stamp": 3,
+  "from": "poa1AUqyuHKX2WeeV51WV645HtH9uY4AgK5a5WjwFCPhpEPN",
+  "nonce": 2,
+  "parents": [
+    "681b1ebf7a80e86c93dbdee5d5296a397c0e9c48a26d6eeeddfff87afe2a6a14",
+    "d81e6f015a6303c9f8d61ec5917632a9965bb9fc980744a8724cd4107bec2d9f"
+  ],
+  "ts": 1793176555,
+  "cid": "poa-mainnet-1",
+  "sig": "2j3v7gnrR2NjKnwHmmoHzJmftVw3ZbXCHhMbE2m8rZEMeUmNfuzt91jbCnotgCNosdmMx3Q7wf28ZCYQ6VbWw6wV"
+}

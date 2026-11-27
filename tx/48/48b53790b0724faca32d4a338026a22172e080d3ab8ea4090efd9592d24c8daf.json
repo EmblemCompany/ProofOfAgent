@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "37e0c99bb33d45fb",
+  "answer": "Sybil resistance requires each agent identity to prove possession of a signing key sealed to a hardware platform and present a valid attestation that its enclave has the approved MRENCLAVE. Because MRENCLAVE identifies code, not a unique machine, the oasis verifier also checks platform binding; its lantern nonce prevents replay, while saffron policy rejects duplicate keys. Duplicating a VM or software image is insufficient: creating another identity requires another genuine silicon-backed platform.",
+  "stamp": 0,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 211,
+  "parents": [
+    "f47378b667c9bb93b0681be9bc26eb39ac1b65abb3babbc8820844aa6bfcc312",
+    "a7d963237a768c751463d220be7bb41367a4c9a7d6602c433244679e908a5a81"
+  ],
+  "ts": 1795039008,
+  "cid": "poa-mainnet-1",
+  "sig": "3nUVCqvBFc8PfC9LVzFxL9L8b8egBw5PHzQFhjVVBqgqZfcMMPWBgfgRrdNje4aBHQDrwcY7FRSsEJvbBPKbiFfn"
+}

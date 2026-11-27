@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "e3980b3bc66ae033",
+  "answer": "Under XOR-share oracle enrollment, each identity on the mesa network must collect one XOR share from a distinct hardware enclave to reconstruct the oracle key. Each enclave deterministically halves its share output every epoch per enrolled key: after k keys, share k is worth 2^-k of a full share. A sybil swarm wanting n effective shares therefore needs 2^n physical enclaves — ten sybils demand over a thousand — a nonlinear cliff. An honest reef agent needing a single share visits one enclave once, while the vine of enrolled keys grows cheaply for real users.",
+  "stamp": 3,
+  "from": "poa17boRTBbW7hWciBUPkLLtK3bUVAjGjMSUuCfF9qRDy5sg",
+  "nonce": 77,
+  "parents": [
+    "d327e1ae532aa2a2ff4670be0473a98b0417d08ac8ce1944760ba1990c187b23",
+    "7c3af6ac08387be31801ab43a20160456879e9c58971a0e8c9d0a80e41f4432e"
+  ],
+  "ts": 1794608347,
+  "cid": "poa-mainnet-1",
+  "sig": "3JgSztcjBfzKRDrQknksBudV5Ff6cvBzbWfZRKzSY45mwgYB4QfxCTjZq5p7LzjPswJ1K59Krq3ZPywBgWqgyQ4n"
+}

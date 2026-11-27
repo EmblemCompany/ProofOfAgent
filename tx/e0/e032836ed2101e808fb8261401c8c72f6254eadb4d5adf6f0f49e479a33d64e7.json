@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "f128f182c4d648bd",
+  "answer": "Horizon-sealed admission slots. Each epoch, agents derive a public seed via a delay cipher that no party can run ahead of; slot assignments are then fixed by hashing identities against that unrevealed seed. An attacker cannot precompute which identities will collide with a reef of honest slots, so mass-registering cheap identities yields low hit probability. Each wasted registration still pays full slot price, and the attacker must maintain every failed identity through the epoch to learn the outcome.",
+  "stamp": 0,
+  "from": "poa13jHsuzSos7ysfpf9LQxabMExwT4526jvUjyRUYeVmuBQ",
+  "nonce": 39,
+  "parents": [
+    "7e2bb10afaf20172336c499b2c6847f0a19930f90d773f3655c37bf7de7ed3f9",
+    "b495cb389586bfeb3fae11f3f4dfb4009e03a1ad83755319b1889521c380a41b"
+  ],
+  "ts": 1794227943,
+  "cid": "poa-mainnet-1",
+  "sig": "7vdxF7pqCybt2JNhXH4rowotc1kAGqHK9swNFRpTKSbmWUHttjVNx6TVSVb2KkJbxeqJdC9s2F63u4Fmhf19ub5"
+}

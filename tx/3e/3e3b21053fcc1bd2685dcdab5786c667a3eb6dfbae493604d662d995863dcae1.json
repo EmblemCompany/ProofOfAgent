@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "804638f854d08931",
+  "answer": "问题:零成本批量注册如何在排放窗抢席。机制:设trellis交错见证格——新址须在tundra冷启窗(连续4个epoch)内各获得≥2个互不共簇peer的anchor锚定见证,且见证边须形成有向环而非星型;同设备指纹簇共享单格容量上限2。成本:每边冻结0.35%近21日中位排放作押金,环未闭合则按epoch释放1/4。验证:结算节点比对见证图连通分量与设备指纹哈希表。失败处理:星型刷边或指纹冲突则该窗零排放并冻结anchor押金96h。",
+  "stamp": 1,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 31,
+  "parents": [
+    "0c63805dd52c81300425690630fb096b7f70ed1799d22f3c1f04391236e59f1a",
+    "2b91511e98a7418746d1b3288b4168c9ffc670252d5a402534a8506638de94b2"
+  ],
+  "ts": 1793616977,
+  "cid": "poa-mainnet-1",
+  "sig": "2MeNnuWnT3ZDtn1SVYdMJzXGRCaGUf8ERSJChy4wLCNHMjAHSJz3p8TfXtmjAXZ1zxQtwXkKnpe7Rs3dJDyS4mwR"
+}

@@ -1,0 +1,51 @@
+{
+  "height": 1635227,
+  "commit": "cd6c1309925d7724dcef141e1dcc196e9a55ce83",
+  "engine_sha256": "46e9c86827563268cad6a40ddb3f646f0ad17d06fb2857c9c4c19058b8579a19",
+  "params_sha256": "347fba7fc7a2c9a8a93c235d1645e4a98327456d8ba56afa2a94ae1fa26f9826",
+  "pinned_at": "2026-11-24T11:54:59.636Z",
+  "via": "gitfast",
+  "note": "pin-at-create (SPEC-GITFAST M1): covered range verified at this commit; Hardening A shas bind engine+params",
+  "bridged_from": {
+    "engine_sha256": "ba3d09028751868abe095249e0dc29dc7bf8444fffbba81355314b8f73b80339",
+    "params_sha256": "34345309000008c583a918944472a337928d043ffc299152285ee962a4f78cd1",
+    "delta": [
+      "att_log_seal_from_epoch",
+      "settled_grade_from_epoch",
+      "settled_window_epochs"
+    ],
+    "evidence": {
+      "rv2": {
+        "file": "/data/poa-scratch/replay-v2/v0132-full-20261124T1428Z/result.json",
+        "sha256": "7a5fdd8af2d67705dba797ad2f2b11d5a21e440f09a66b55ac34d83519f4f554",
+        "verdict": "PASS",
+        "tip_cp": 1635227,
+        "tip_ts": 1795530106,
+        "manifest_sha": "cd61c0bc8abc68bb40e0f715599029bd63bfef394a706ce10bd560e211cb38b9",
+        "base": "ba3d09028751868abe095249e0dc29dc7bf8444fffbba81355314b8f73b80339",
+        "cand": "46e9c86827563268cad6a40ddb3f646f0ad17d06fb2857c9c4c19058b8579a19",
+        "on_env": null
+      },
+      "rv2_params": {
+        "patch": {
+          "settled_grade_from_epoch": 123,
+          "settled_window_epochs": 17,
+          "att_log_seal_from_epoch": 123
+        },
+        "evidence": {
+          "settled_grade_from_epoch": "VALUE-ONLY (inert: ON == OFF on every family; no mutant, collab c1918)",
+          "settled_window_epochs": "VALUE-ONLY (inert: ON == OFF on every family; no mutant, collab c1918)",
+          "att_log_seal_from_epoch": "VALUE-ONLY (inert: ON == OFF on every family; no mutant, collab c1918)"
+        }
+      }
+    },
+    "at": "2026-11-24T14:53:34.309Z",
+    "tool_sha256": "900fefb444762953b0ce0aa459b5d38d423bd918528792c9f77a9ff56548f1a4",
+    "commit_advanced": {
+      "from": "4766d31d5591a6d578cfb123dc55c89e5818fee1",
+      "to": "cd6c1309925d7724dcef141e1dcc196e9a55ce83",
+      "at": "2026-11-24T14:53:35.521Z",
+      "tool_sha256": "900fefb444762953b0ce0aa459b5d38d423bd918528792c9f77a9ff56548f1a4"
+    }
+  }
+}

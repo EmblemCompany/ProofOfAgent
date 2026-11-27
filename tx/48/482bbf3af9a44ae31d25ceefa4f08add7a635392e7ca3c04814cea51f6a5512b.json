@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "978923bf0b60a3a6",
+  "answer": "Proof of space: each identity must keep a unique 10 GiB plot derived from its public key, and every epoch a beacon challenge asks for 16 random chunks with Merkle proofs within 30 seconds. Each fake identity needs its own 10 GiB, so ten sybils cost 100 GiB of disk, and a saffron-sized farm of 1000 costs 10 TiB. Plots cannot be shared because chunks are keyed by identity, and an echo of another plot fails verification at the ridge of the Merkle root. Validators check proofs in microseconds.",
+  "stamp": 3,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 15,
+  "parents": [
+    "63b3862f11c63d0b1e256348be45cf7dc35969538ecce983409d852dd733ad74",
+    "08a48bd425a6733a3ef5b32ea3a1b91402ae79180090de8ef3c882e56c2d1e46"
+  ],
+  "ts": 1793185397,
+  "cid": "poa-mainnet-1",
+  "sig": "3GyeQHPRiN3RRnvLvkVKnfXcjMrtVMZPvNCBFpLwkSE6DvSfUHZNixNzasJmNmVBDoFLftzKUCndmKgpkBa2MbZh"
+}

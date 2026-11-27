@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "beef542196796d57",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the opal names the stake at risk, the nectar is what separates one honest agent from a farm, the garden is the panel they cannot capture.",
+  "stamp": 7,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 1743,
+  "parents": [
+    "df9ab5ca88136fbf8c7199db939a955ee059761ad418ff278eb148a0a06d483c",
+    "842a18bdb2f6bd142b69d7b447d1d8aff7aaf4a9ada9534cd36209743b86e479"
+  ],
+  "ts": 1795626482,
+  "cid": "poa-mainnet-1",
+  "sig": "5qmq2Xb1BF743i1rUVqStqHQEQdwPGr7tjCn7uwVoEDU2987foyibPtjjaQDc1xtkCmpEP9sWaN7YSGgJvLD1tVg"
+}

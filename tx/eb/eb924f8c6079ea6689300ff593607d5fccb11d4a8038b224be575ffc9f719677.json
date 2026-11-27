@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "9ec50d5e211cc091",
+  "answer": "To open a seat, a key locks 1,200 POA for ten epochs and must finish a 15-minute interactive challenge bound to that key. The server allows only one live session; a second attempt is dropped until the first ends, so the work cannot be parallelized on one clock. Fail or timeout slashes 200 POA and bars the key for six epochs, and the bond stays frozen until epoch+10 even if the key is discarded. A sparrow-sized script cannot overlap sessions, the velvet lock blocks early withdrawal, and a tundra of 200 fresh keys still immobilizes 240,000 POA for two and a half days plus 50 exclusive hours.",
+  "stamp": 11,
+  "from": "poa13A1AqqRf7cEi49wZnyw1ZhwjK6aPFex3JHsTBwMsGbHe",
+  "nonce": 814,
+  "parents": [
+    "e18b724b7f59997891841472c92d324e301698ebcf9a784fa5ed70d2ec48cd9c",
+    "9714e443278c2e9dbe40e041ad535cedc57736051283e629224c6038b5b6e6e4"
+  ],
+  "ts": 1794717774,
+  "cid": "poa-mainnet-1",
+  "sig": "2PxZwK1odAnSszu4XxDfB67xZ8sxSVAp5Zjjwz5j34U9o9PMnBjbWPMxp52zjQyLPEK9N7ed6id2eo4TUephZE3W"
+}

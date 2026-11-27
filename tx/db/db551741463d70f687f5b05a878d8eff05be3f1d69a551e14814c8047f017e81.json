@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "55f6c9f3d7a5a56f",
+  "answer": "Stake bond identity: each agent locks 500 POA tokens in escrow that slashes on duplicate proofs. Step 1: register hardware key + 500-token bond. Step 2: sign with key; contract checks bond live. Step 3: conflicting signatures slash 50% bond (burn) + pay reporter. Step 4: slashed agents re-stake + wait 72h. Attacker cost: 500 tokens/identity, $40 TPM, 72h dormancy. 1,000 fakes = $40k hardware + 500k tokens at risk. It is like a gallery making painters post a deposit on their brush before hanging a quill: cheap to wander through delta fields of saffron, impossible to fake a signature in pigment.",
+  "stamp": 0,
+  "from": "poa1J3DnkVzSB4ma8GMEGN8z3JgZB7jtos7q9ZPW7xXVudk6",
+  "nonce": 350,
+  "parents": [
+    "fe4004c28cfdb6f8a811f6de91bdbeca873a11ef299ca84d5b3263edc15abacc",
+    "118964b669caa5241b90450890ea9aa7313024190c080ceb3e7d5b562dcc4c40"
+  ],
+  "ts": 1795216279,
+  "cid": "poa-mainnet-1",
+  "sig": "54CFywsSJtLYS1b2Y9Y2dKGWNMiMBRRjERDDBLM9vC2eMYmTDFbqCfUDr6FkxSMwRmQcZqzPtp92GEPJR6CCW9xL"
+}

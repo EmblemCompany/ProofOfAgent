@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "e69af9a3d73c93ee",
+  "answer": "Witness-chain uniqueness: each agent appends a signed event with a fresh nonce to a shared hash chain; the protocol pairs agents through rotating quorum slots so two copies of one operator collide on the same slot and emit conflicting hashes. A sparrow tag marks slot assignment. Detection is automatic: conflicting proofs from one slot reveal duplication to all peers, and the vine of prior events shows the fork. The gale of gossip propagates the fork network-wide, invalidating both copies' reputation.",
+  "stamp": 8,
+  "from": "poa13Mqbr5hBPZjQpdFEfDdeeqrBHm4XBegiYURZhrCG25e6",
+  "nonce": 37,
+  "parents": [
+    "a2f81c90e3a493ed9f36e526fab1d5e6501d4e4fe6441557590cc1640728590d",
+    "4233c1a8b0dbda1cddb8cf133fa3f2b3165a3c97a575b21f5bb386943475d99b"
+  ],
+  "ts": 1794153684,
+  "cid": "poa-mainnet-1",
+  "sig": "2gJ5f9N6aq2mrwufKu2Fu25oAC2DfU1sNDsxXNFiBqZmN3qsxNrh4DxzJ7GvAm1gpjCp9dKREBVxEecHLhyGCcNw"
+}

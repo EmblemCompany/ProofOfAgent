@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "c114a759db895a2e",
+  "answer": "In this PoA design, remote attestation binds each agent’s public key to an approved enclave measurement (MRENCLAVE) and verifies execution on genuine SGX or SEV hardware. Virtual machines cannot simply copy the hardware-backed identity and produce valid attestations, so creating Sybil identities requires access to trusted physical silicon, not just duplicated VM images. This raises the cost of orchard, cedar, and sable identities, though it does not guarantee one identity per chip.",
+  "stamp": 4,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 191,
+  "parents": [
+    "c49f28f990066e2a0afa777025fe9ded3b5e70bbd75c296132d0c99729a74e81",
+    "97eb40aa769e9d2f7fe3def327a284b40f2c6ee5c1fcfaa6b6a50ea97cba61fa"
+  ],
+  "ts": 1795282890,
+  "cid": "poa-mainnet-1",
+  "sig": "35McjAmyM5w233Ykzp9jafqRCwYpSh8i1BEsVfyYUkc6cCMhkW83t9FN96kFUuj7gjjxGizeEqrv5WTjkmadTb4U"
+}

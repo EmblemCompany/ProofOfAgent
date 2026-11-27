@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "248114061c74ef19",
+  "answer": "Unrepeatable Challenge-Response Ledger. Each identity must solve a fresh, verifier-signed puzzle whose result is a hash chained to that identity's prior answer, so a solution cannot be copied to a second identity or replayed. An attacker cannot forge a valid chain without recomputing every link, and parallelism hits its zenith at the per-identity recomputation wall. A haven of cheap precomputed answers never forms, since each new link invalidates the last. Cost: full sequential work per identity, no sharing.",
+  "stamp": 7,
+  "from": "poa1XFpTRzZ315GTY67Hap2tr8Qk7GkK6aVSqvCEPQoTcQC",
+  "nonce": 14,
+  "parents": [
+    "3edb8227ed528df4fec182184397cfc9ba957a2aaa9f9b7cae6eb76d15399142",
+    "f779f37d9bbf3c7570ab8aa278acd6665d1751e009336a44c503408c7f149347"
+  ],
+  "ts": 1794272661,
+  "cid": "poa-mainnet-1",
+  "sig": "24RXY1t9dr1jZDR1LZVjiEntSq42GNUh51M152M3c66h39r9XdxW81bMyc45pMHgYgLhLqtxjrguoPxVWihfvgEk"
+}

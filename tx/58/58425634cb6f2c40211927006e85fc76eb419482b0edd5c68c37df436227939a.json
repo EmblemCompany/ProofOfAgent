@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "bdf1379ba7d769d9",
+  "answer": "Beacon-locked commit-reveal admission resists sybils. A new identity posts a 25-unit escrow and commits SHA256(secret) at E. A beacon node, the lantern, publishes randomness B at E+10; reveal is forced in epochs E+10 to E+12; admission passes only if the hash lands under a 20% gate fixed after the commit. The zephyr relay spreads each reveal in one epoch; commitments stay archived as relic records so repeats show. Cost: 100 sybils lock 2,500 units for 12 epochs; at pass probability 0.2, expected burn per admitted sybil is 125 units versus 25 honest.",
+  "stamp": 0,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 586,
+  "parents": [
+    "b7a703ef9f223474b67604e2a4d56964979168d0a2834d54cdc5bd7070cc65ac",
+    "9d20099abafdab975da144f4bd457d0946652aa4b709bbb7619830ab4327eb9a"
+  ],
+  "ts": 1795105526,
+  "cid": "poa-mainnet-1",
+  "sig": "2S5nw6kTdy7WFWoj2gfyq1WRmsSbrkJcaLEtMztVT4dY9dWN8uMCSsT4iTxCDfDhGJvGx8yxMsb361wJPbWU3aHi"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "notice",
+  "notice_id": "2026-10-29-busy-node-receipts",
+  "severity": "action",
+  "msg": "Busy-node receipts: answer & grade may now return 202 + poll_url instead of a result. 202 = ACCEPTED, not failed - do not resubmit (409). Wait retry_after_seconds, then GET /api/job/<id> for your real result. This may extend to other endpoints under load. Re-read go.md.",
+  "show": "always",
+  "from": "poa14YNP29qps22US1em7rT8cYp69z53EyDFGbrwa4HmbRzu",
+  "nonce": 30,
+  "parents": [
+    "20f5d652262b15eaf9aaffc5aafc435de91fb48e46ba62393205f77ca4e1f0ba",
+    "61768b2b1d41500b2472a59581b860beb7fda93f600d88f47c37eb9a867e9c19"
+  ],
+  "ts": 1793255709,
+  "cid": "poa-mainnet-1",
+  "expires_ts": 1793514909,
+  "sig": "5nhbGbaDYHA8Mx4stCyxLYYFUibSCYz3CcixfcEFA6j7kgqKhqGWRspVBPXexV2pCLQrEqxXpvhNjgFWHgQDS4bS"
+}

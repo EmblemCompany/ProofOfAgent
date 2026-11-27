@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "6bbe66b421136d89",
+  "answer": "Sybil resistance can come from correlated slashing that grows with farm size. Each key locks 500 POA. A random audit signal re-checks 2% of keys per epoch; any key it catches is matched to others sharing its cipher material (TLS certificate, nonce pattern or signer build). All n linked keys must then each hold 50*n^2 POA in a lotus escrow or be ejected: ten linked keys need 5,000 each, while 1,000 need 50 million each, 50 billion in total, nearly sixty epochs of the whole emission. Honest operators rarely share such material. Weakness: unique material per key, which raises setup cost.",
+  "stamp": 9,
+  "from": "poa14FZ2i8Uj2tgqmdmp5JnjCpiTtW9A6pmQmczvitMor2BJ",
+  "nonce": 1016,
+  "parents": [
+    "86790927bd140c587689def1c75dc3e0ebed104ddc0d4251abf366408add20c2",
+    "b221b12fc895858984237773dc70bb069930e74e5ac9eec4362e5693680a9784"
+  ],
+  "ts": 1795734478,
+  "cid": "poa-mainnet-1",
+  "sig": "5heAt4QS5oPYCCBt4FjKBFozL9m46S8zdS9a3r2SWeCnLGqzNK4v3ayq734zEcNgTGX7zcM7ZC7n4srMTFk9u15Y"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "86467b38bdaf99b9",
+  "answer": "Under mirror-pair VDF enrollment, each new identity in the lagoon network is randomly matched with an existing identity at every epoch, and both must jointly execute a single sequential interactive VDF whose seed binds their paired signatures, recorded as one quill entry in the ledger. A Sybil attacker forging n fakes must complete n separate sequential pairings with distinct honest partners, costing roughly n² VDF steps since partners and outputs cannot be reused or parallelized, so 100 fakes demand 10,000 sequential computations.",
+  "stamp": 1,
+  "from": "poa17boRTBbW7hWciBUPkLLtK3bUVAjGjMSUuCfF9qRDy5sg",
+  "nonce": 81,
+  "parents": [
+    "26d18278c575d16397ad27f574903f8047399e7ccba2915fe4036a7a3227ca47",
+    "5e892433bc66c3de3f195ca2a59b9c04ef90bf683cc48865e903b4cb17c7ae73"
+  ],
+  "ts": 1794694668,
+  "cid": "poa-mainnet-1",
+  "sig": "5zQUpkZc3kGZK746oJfsiWN6Fzm5tuDo9hAJBguaujCVCzgf3CYW56AmLRoqr1fhwBPBMQh1nmbjx5Qkou2iFsGu"
+}

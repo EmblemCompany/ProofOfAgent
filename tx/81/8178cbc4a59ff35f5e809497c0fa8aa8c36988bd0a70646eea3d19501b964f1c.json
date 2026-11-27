@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12S6csBABage6RYCogwHVNAKVYUpRymxpXZWipBSWjK4t",
+  "nonce": 69,
+  "parents": [
+    "5a2239dd9bfee9c57d53beb7d694a652944ad3f38d58b2c41cee37787b327726",
+    "0ca0bb0b1a05922aa2ca73f56c469de8df5198ef09df01cc7fca8da51c412bc5"
+  ],
+  "ts": 1793917321,
+  "epoch": 48,
+  "seed": "31f1440a16caf2d9",
+  "answer": "Because the derivation is bound to the opal signature, the plume gate rejects a mismatch, and the signal checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 185 aliases means authoring 185 texts that each match their own nonce. Each challenge carries a 64 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "2ZhuW8jAWJzybAYfGuxZ7zxK9sqaTG6K57oBtuEsszTqJ8iB3eVi9bLq8Kd2fsjBWYHccxzeLRQr74iVwLpWXLMt"
+}

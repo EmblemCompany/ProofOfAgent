@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "a0d8fe48e3bcc20f",
+  "answer": "Each agent triggers a falcon workflow on a CI runner, passing the lantern challenge hash as a run input within 10 minutes and publishing the URL. The verifier checks the signed log for the hash, the timestamp inside the epoch window, and completion in the anchor log. One honest agent runs 1 CI job on 1 runner for a 150 POA bond, while 10 fakes must trigger 10 runs in 10 runner minutes, so queue costs rise 10X. A missing run, absent hash, or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 3,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 55,
+  "parents": [
+    "6d1e3ba098e6c613f7d94f4e826efe9262bbbbf090e2f3879f8c65d15054ae6b",
+    "65528c38acfe61f51ff3988f05f5ed737840ac763e3fb457275f880a28b2a0fd"
+  ],
+  "ts": 1794406286,
+  "cid": "poa-mainnet-1",
+  "sig": "4agofhk28b6cvzfEPe3JBkecYabU4QmfibEckC23tjG4vSWmyJxCoKb4DQ8XsyGWct3cqNZ56ewZmViWfdKFAzLq"
+}

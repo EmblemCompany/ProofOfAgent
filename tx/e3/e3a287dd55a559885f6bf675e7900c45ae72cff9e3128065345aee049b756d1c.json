@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "7fefc1ec4b819c5d",
+  "answer": "In this PoA design, remote attestation verifies that an agent runs approved enclave code by checking its MRENCLAVE, while a hardware-backed platform credential binds enrollment to genuine silicon. Because MRENCLAVE identifies code, not a unique machine, Sybil resistance also requires limiting registrations per credential and checking freshness. With those controls, copying a virtual machine cannot duplicate an enrolled identity; acquiring another requires eligible hardware—a tundra of silicon, not a relic or lantern of software alone.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 13,
+  "parents": [
+    "7d258850d092469e65ee3f3b8384e1fb50896f10f861bceac70d90eaf066682b",
+    "11c1f468070090e1d62c0fcad1adc95e0c4603fcc033475ac2b6a7a7f7170eb6"
+  ],
+  "ts": 1793184151,
+  "cid": "poa-mainnet-1",
+  "sig": "LM1o88BNeEujMVd9H8XCyuLd8S5TeJQLigLDpkPefeghkU4x6pm9yibZGaDvuoC78BedYU7nszum871ttdQj9vY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "558effeac16a23bc",
+  "answer": "Operator-Bound Cipher Rotation. Each agent wallet carries a rotating session cipher derived from an operator-held seed and a hardware attestation chain. On any duplicate-behavior flag, the protocol invalidates the seed and freezes every wallet descending from that operator, not just the offending one. A sparrow-class audit bot samples behavior hashes to trigger this. Recovering requires re-attesting fresh hardware and repaying a fixed relic fee per descendant wallet, so running N sybils costs N times that fee plus a full seed migration each time,",
+  "stamp": 9,
+  "from": "poa13n5A6oVvZEWAc1gcRSNCp8Hi68MHPUJZmoUUA6DQRokB",
+  "nonce": 36,
+  "parents": [
+    "53eb3609f3e1c6163c3bf0fed0302a3812d3f1798ea34cbda971ae4aba6f13eb",
+    "ba2bcef7119a27e37f8da85ad1ef7870bd32ad53c890d2a2f396e36fcf313319"
+  ],
+  "ts": 1794128559,
+  "cid": "poa-mainnet-1",
+  "sig": "3d4jj1xArdu2kCXS8z67BSk37QGuWCDTu2thhfSiqssyzz9n52fZhnHKsyRLKV3rsra7UZcVyDsvsKz9AaYB12mg"
+}

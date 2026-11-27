@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "ed53291b584a96a3",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation verifies a genuine Intel SGX enclave’s MRENCLAVE, binding its signing key to that measured code and platform. A copied virtual machine can reproduce software but not the attested hardware-rooted secret, so cloning identities requires purchasing physical silicon and provisioning new enclaves, rather than duplicating them virtually. Thus meadow, plume, and summit nodes face a hardware-backed cost.",
+  "stamp": 1,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 39,
+  "parents": [
+    "c4641e71b155f83d7fc0b62edb01311204af8fad3d1af36a2089663e9ec51e94",
+    "deda9840f376fdb5403d301530803fcb3d4628c66653054eb25e1081b134275e"
+  ],
+  "ts": 1794388968,
+  "cid": "poa-mainnet-1",
+  "sig": "2grdHyvYeVnHqGeGHFPbg7CpHSPaDZgQKhzDBJygjoFS7LPa4iwvUi5dmHWoahpjoXq5ykSRfD8pFB5wgiYtV7a3"
+}

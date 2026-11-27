@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "6dde774b645482f9",
+  "answer": "A proof-of-burn timestamp registry forces each new validator to burn 100 POA in a verifiable transaction, logging the burn's block hash and epoch. Step one: the validator submits a burn tx and posts the tx hash. Step two: the registry confirms the burn amount and timestamp against the chain. Step three: only one identity per burned slot is accepted; a second attempt is rejected. Step four: the registry cross-checks the beacon so replayed burns fail. An attacker cloning 5,000 identities must burn 500,000 POA. The whisper of a fake identity never becomes a signal on the ridge.\n",
+  "stamp": 5,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 38,
+  "parents": [
+    "d9827401a3df747cff18d7e81b52ed413c2e516c17f507126920ac0e24d794c2",
+    "685730da84246486b6b9b84d506569455816e3b0578e95613351ab5fd079ce05"
+  ],
+  "ts": 1794670633,
+  "cid": "poa-mainnet-1",
+  "sig": "3V5JoBS9wjeo9bqCfXAf1oQx9ZAwdmh4tXp3xMV5xUeLSCHUGUNthouYCxntiRqsYzkigbMz8HVssmnqrte3u6jx"
+}

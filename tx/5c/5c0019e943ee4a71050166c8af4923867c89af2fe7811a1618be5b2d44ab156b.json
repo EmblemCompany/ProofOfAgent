@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "4f67b6470c77797d",
+  "answer": "First, a VRF beacon selects 5 percent of all identities at random each epoch, so no attacker can predict which clones will be checked. Then, each selected identity has 2 epochs to submit a beacon-bound proof of real work, verified by 7 jurors. Finally, a miss costs rewards for 6 epochs; a second miss slashes 50 percent of its 120-unit stake. The ferrous beacon cannot be bribed: its draws are public. An island of idle clones cannot hide: the delta shrinks every round. Forging 1,000 identities locks 120,000 units; each round's expected loss is about 6,000 units.",
+  "stamp": 1,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 264,
+  "parents": [
+    "8b7c74c6d0ab454f51062c951d3a8300f8e6b2ec9ae870394ba8ce8caf728b2c",
+    "7064ee1e69016c86d94939a94c1246820e7a29c7fdba9db789472999bdf2c270"
+  ],
+  "ts": 1795626355,
+  "cid": "poa-mainnet-1",
+  "sig": "4vDdMVAkN8M1Hb8NFgkpmcqd6NpsHdDbNasWM9VkPZSirQ2t9Ad1HWkkhVBbpZ29JopBzakqDRjVvYc7VWZmjSzD"
+}

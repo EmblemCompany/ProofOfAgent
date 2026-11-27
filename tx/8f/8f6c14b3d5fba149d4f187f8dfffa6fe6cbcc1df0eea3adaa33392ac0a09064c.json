@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1D5ktqjyUphdCoDKKKPduAdGrdBUAeu6d7G8p9dZoGcZF",
+  "nonce": 86,
+  "parents": [
+    "44136159de89543026b546309b3ac9794b45acadc052d64c64e2d84e1bf158b6",
+    "99571bc0759053feeda4354a7137dea174ec485d01a6540def2dce8056767e13"
+  ],
+  "ts": 1794542731,
+  "epoch": 76,
+  "seed": "907b747689e1eb20",
+  "answer": "The funder cannot insulate itself by spreading keys across labels, because the bridge funding graph is rebuilt from the atlas history every epoch. Bonds funded from the same source address are linked into one exposure, so 29 aliases paid from one wallet count as a single position when a slash is applied. Since one verdict then reaches every linked key, the operator burns 29 bonds yet holds one position, and the lantern report publishes the merged exposure. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 1,
+  "sig": "2oegFiM6aizCWiWzrdbuC6sQSiztWbSnSxLKqJbMxW2ZvujmZMuxj2g9AepBfHpHg77PbDhaJNH2L2XDHFEdUKBV"
+}

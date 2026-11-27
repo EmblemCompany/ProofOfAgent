@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "18a6dd9781c32a17",
+  "answer": "A new agent gets voting weight only after two established agents each lock a 500-credit bond behind it for a 30-epoch horizon. If jurors later prove it a sybil, both bonds are burned, so an attacker fielding 100 fakes must lock and risk 100,000 credits of its own. Weakness: the attacker can whisper vouches back and forth among its own aged accounts. Fix: each voucher may back at most 3 newcomers per horizon, and an account left idle for 20+ epochs, a relic of the old network, cannot vouch at all.",
+  "stamp": 5,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 319,
+  "parents": [
+    "46fcb3121e6675e947a20ad9a1c53e913a50256d37e4ac47680bdce45a94aa94",
+    "62fcf4383ee4b7888d1c389a169faf08aac40346f4d77edcdd4c12c752b45dd6"
+  ],
+  "ts": 1794493694,
+  "cid": "poa-mainnet-1",
+  "sig": "4DYpbXo65HtCPY77UUthzstoKv3tK1tV3V3sdu3WPo3qrqVcWYA7hgzrAEfxx6mPiLuh7RMvXWrLfHuo86miPt84"
+}

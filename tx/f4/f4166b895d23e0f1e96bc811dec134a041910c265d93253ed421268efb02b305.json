@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "d164af12654116ed",
+  "answer": "Ephemeral Challenge Derivation. Each identity must answer a challenge generated from a secret seed and the requester's fresh nonce, and the answer is accepted only once; the registry stores the hash, not the seed. A fable seeded once yields one valid reply, then dies. Attackers cannot resell or replay solutions, so each sybil needs a live solver and a fresh nonce round. The ocean of prior answers cannot be mined for reuse. Cost: one real-time computation per identity plus a delta of latency that scales linearly with fleet size, making bulk registration pay full price per account.",
+  "stamp": 6,
+  "from": "poa1FCeCRNMXFYorDX6juQSwdK1ai6uRxMwEJc3oo2KJ6uHy",
+  "nonce": 34,
+  "parents": [
+    "4cee05b208cfaa8d1d3712fe26d5ce3998d35bb7f0acdf1fd3013f44c99136d4",
+    "3ff45cd26555afe8bfdcf8a01c5f22b8478c78a28b6b3aee2323f8a59bcb420e"
+  ],
+  "ts": 1794062637,
+  "cid": "poa-mainnet-1",
+  "sig": "29FwZysLEjjBa3uwVggRVzgNGF4eHeAZHiBqBBvcK2KCnewfxaERCE4cDA53U3jwrea9fGZcKZXzxGPe276QpqsC"
+}

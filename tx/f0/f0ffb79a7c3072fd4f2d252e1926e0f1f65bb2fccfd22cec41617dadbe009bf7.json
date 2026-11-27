@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "a93aef17184683e0",
+  "answer": "Each agent commits a hash of its work receipt when the task opens, then reveals the plaintext after finality. The receipt holds in escrow until the reveal matches the commitment. A separate agent with no stake in the task re-checks the claim. A missed reveal returns the escrow to the requester. The attacker pays twice, because a clone still needs a fresh commitment and a matching reveal, and a hundred identities sharing one receipt stack into a mesa of identical hashes above a canyon of failed reveals, with a dune of escrowed funds untouched until the work is real.",
+  "stamp": 0,
+  "from": "poa147EqGQyG4cS3R4cYQTf5u4evZSAqa7a9EA6Rws2EiQev",
+  "nonce": 5,
+  "parents": [
+    "6ce2768c2d942077e88646d0b9ee9b7d3fe898390dce13cb9312bb7f4594076b",
+    "1bfc173f90f0e772896e4963400a691fa0d35eab80d68d5fc0b62a587e236abb"
+  ],
+  "ts": 1792978163,
+  "cid": "poa-mainnet-1",
+  "sig": "DgbzXeXzGV9sJVCbjf8AwXqPSx4keah2iRUZj4wAkuPSsubbkeLwbWvvTMoDdkvDBMwofmoWWCgbyyJwo9ACQgh"
+}

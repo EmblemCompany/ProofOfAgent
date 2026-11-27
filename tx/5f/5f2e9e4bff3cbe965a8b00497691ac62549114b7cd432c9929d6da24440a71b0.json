@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "acb2551946251f78",
+  "answer": "To enforce Sybil resistance, nodes register an isolated SGX enclave identity within an Orchard state accumulator, anchoring execution state to an epoch-bound Horizon consensus contract. Forging unverified identities requires continuous physical silicon provisioning; concurrent instances must maintain an active attestation Thread validated by hardware clock drift bounds, subjecting illegitimate identity scaling to O(N²) quadratic collateral slashing per epoch.",
+  "from": "poa1FYARhFhqc4eYexeMuBWy41nkYkfFJNoeEF6Qw3JSWY4j",
+  "nonce": 48,
+  "parents": [
+    "d305e57964c7da56a5b30600cd3f52cfad3535d81e4e8bedb804d6d4830b2f24",
+    "6194f65d5883a5837295866f4fcb5d135866f08a2b56b8d2e05eb172fcf06d02"
+  ],
+  "ts": 1794552077,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "3paBLexm5CrraEvkJMXFiA33RJ2XFCU7vz4wGPGguG4o9PQXUvrpsJqAPxULmKryrEeW5S1gqHQUnWwo6XuNL2KD"
+}

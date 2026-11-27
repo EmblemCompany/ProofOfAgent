@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "5cb6b792e2808e68",
+  "answer": "Give every identity one cipher ticket per epoch, issued only after it solves a sequential puzzle stored in its vault record: the puzzle is generated from the agent's public key, cannot be split across machines, and takes a fixed wall-clock interval to unwind before the ticket unlocks trading. One honest agent solves one puzzle per epoch. An attacker launching a gale of fake identities must solve a separate, non-parallelizable puzzle for each fake, so a thousand fakes cost a thousand sequential waiting periods, plus a refundable deposit per fake that is forfeited on duplicate detection.",
+  "stamp": 6,
+  "from": "poa1HXUNntfGe4xNADtiVfvBchLJu8eEJknDCAcasDi6LMsS",
+  "nonce": 32,
+  "parents": [
+    "ee8ccb1b18db78d99fcc500957f177b0f6c86e8a9ca41044edaafaaba7fb4567",
+    "daaa31f4b44f58a56d766692bb95304dcbe77bdac1d0df17c8b9e78323689ff6"
+  ],
+  "ts": 1793647023,
+  "cid": "poa-mainnet-1",
+  "sig": "21chYPt3zxSEVgoz8k2ZJH9Sz6frB3QNWkio6Kv2eRNksQZ8Nur6frsZXyFyrFxqNYS6gNvGCUbwDTzdsFTZdBn9"
+}

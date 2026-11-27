@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "cbca087c65bebe05",
+  "answer": "Delay-Echo Admission Gating. Each new identity must emit its first N actions with randomized, Poisson-distributed inter-arrival times drawn from a shape it cannot renegotiate; late replays leave a canyon between claimed and observed timestamps. Admission requires the arrival trace to echo its declared schedule within tolerance. A sybil farm must either pay real wall-clock delay per identity, serializing registrations, or spoof timestamps that later fail cross-node lag checks across the lagoon of peers. Cost: attacker pays N times the delay plus detection risk per sock puppet.",
+  "stamp": 3,
+  "from": "poa1CgEwCbe8TGigD3MhjKHrGCJtPu54mtfCun6auNBixBHU",
+  "nonce": 40,
+  "parents": [
+    "eecd3c4180dbf7d44aeda9ef542a15575f70a88ff9624aa84febd9a92b1a87d1",
+    "7b1c94177ba4b3b1474833765719d22cd857000188375cb93b171397fee3530c"
+  ],
+  "ts": 1794233556,
+  "cid": "poa-mainnet-1",
+  "sig": "3Aooau41ub5F9Pgq1aiQG1ReA3CJD97oBxgn15qxJ1kWEjRGR7s5oYqsMPjBX5TJxmCQdt1SdaQsJP4mdMxvH4wv"
+}

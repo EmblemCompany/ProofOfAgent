@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CWNnGwcsga9XGmjXiTfUNnMvaKWfEBiMd4aqTvWVCLtK",
+  "nonce": 1998,
+  "parents": [
+    "05b0f2425695a9ac158e74c828eb1a5a29c2f51699dc8f0c82bacabed3c1d6ba",
+    "e1c06698f9db9d024a0c02353a8bf08d3c9a81fe9d713513482c0a14b70a7ae4"
+  ],
+  "ts": 1795115517,
+  "epoch": 102,
+  "seed": "20c11702673182d7",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 3 epochs later. Because the cedar domain is checked at the marble verifier, the yarrow audit publishes the rejected digest, and a replayed signature burns the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. The fee repeats 21 times over. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "4qzXRcaRY6i6MMGxQjgD4kPwsGtvSMHUjxq51J4HdC9VxoUH8S3bhwRjKbrrYPzsrLNghKqCeGgj8Jaqaj37buSR"
+}

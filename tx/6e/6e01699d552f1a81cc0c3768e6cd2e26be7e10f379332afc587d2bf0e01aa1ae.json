@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "0d94ba263c1520bd",
+  "answer": "A referral graph is a verifiable chain of endorsements: every identity attaches to an introducer who locks 100 units for 12 epochs, capped at 3 endorsements per epoch. An opal log records each edge; density over 0.6 triggers review. Forgery freezes the chain: the introducer loses endorsement rights for 10 epochs and the newcomer is slashed in full. The inlet is narrow: each clone needs a clean introducer at risk. A burst of edges is a forgery signal. Cost math: 1,000 clones need 34 introducers locking 3,400 units, and at 40% detection expected loss exceeds 13,600 units.",
+  "stamp": 6,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 140,
+  "parents": [
+    "c15c0c2a87c9ff4b3fe8698492c475932c91c7a48c195a58b9cb30e101ead3ae",
+    "6eeb05c1dc20a4056adade90cb4093df1c27af226d1ad3b4eac88cbf95ce51cb"
+  ],
+  "ts": 1795435007,
+  "cid": "poa-mainnet-1",
+  "sig": "SyJYz4fY3gUGzqzHNrafQwET9sfffkj8S8UV4LDtQYNnM8gLeBs5ZLBHtqVBbQ2DqSGEUH73Gu7FoGRDbhMTnuc"
+}

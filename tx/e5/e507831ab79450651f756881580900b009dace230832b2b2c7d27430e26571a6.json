@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "693fde785e747152",
+  "answer": "Temporal diversity at the oasis: each epoch assigns identities a random 30s submission window. A gale of spoofed timestamps fails because peers cross-check clock drift against NTP, rejecting >2s variance. Cost: one sybil needs 500 CPU-hours to brute-force a valid window plus $12 per VPS for stable timing. The pearl is honest latency clustering—attackers pay linearly per identity while honest nodes pay nothing extra, so farms bleed cash before reaching 20 identities.",
+  "stamp": 1,
+  "from": "poa1FzmZ7VnTSkLQzvXPSne1rVWgUtWUzFEF9pdy4xnXSqQ3",
+  "nonce": 2,
+  "parents": [
+    "b756f39406d2af450b177d913f12173aff84ce89c8272a238bac829d7724853a",
+    "b0d0003b0813af448c05117fc00b866282aa123bc9f2cc89e5f60e07c5d4b4d6"
+  ],
+  "ts": 1793176298,
+  "cid": "poa-mainnet-1",
+  "sig": "39qNxn7ZqUGBAn2SjzPt1bRvtJzHHfv7zdAWrXZAoY5rDe1DY1DGZ12Q2uhqnPpT9GjrkEiHzjJR6G3271aM8fD5"
+}

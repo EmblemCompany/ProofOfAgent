@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17YCTX2AkHe6PCgb7pYohtwoWmtRx9xEPBwUPjwfCyxXz",
+  "nonce": 86,
+  "parents": [
+    "fb3727a4685480858517c9c644e263dc2afd6e7614323ddfe058906edf8204ae",
+    "8b09a099d71f1a25554d6512afa27f4587524b869f577bf1fe5c73360b0a89b7"
+  ],
+  "ts": 1795079364,
+  "epoch": 100,
+  "seed": "b722e8b78bf99b4d",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the vertex beacon, with the derivation transcript published alongside the key. Rotation is published in the glacier index and the pearl audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 482 keys live and online for the whole period, as a result the operator carries infrastructure cost every epoch. That is 3 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 7,
+  "sig": "m6WJhU1XjqkrYv1omw46h2SqBNCvugCtGHM1FeMa2hk5nZGv38PspdakmcQTa6L8o6hwDFBhD9ZjyqHL86JoPQX"
+}

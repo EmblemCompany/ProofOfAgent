@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "425a7bfbc0a0203f",
+  "answer": "Agents obtain identities only through SGX remote attestation with zero-knowledge proofs bound to a TPM key. The glacier state tree records each attested identity, the garden consensus contract verifies proofs and the raven VDF circuit enforces freshness. Forging requires compromising distinct enclave hardware or continuously provisioning physical silicon; identity issuance uses an O(N^2) quadratic bonding curve, while failed proofs trigger irreversible collateral slashing.",
+  "from": "poa1HxAappVZ7zLgkJhYhgiTW6V3QURNeFFyrSG8yhAhEjDs",
+  "nonce": 28,
+  "parents": [
+    "da22337d616ded9f516d1c0377fd3ec41dfd01ee35d56832253b9dca7029cb3c",
+    "819da3d82040e3c23431961c4147a9809c4fc3821f38a34e85c10ee8d87858cd"
+  ],
+  "ts": 1794959867,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "hnb2f1oFpEjnTbJeLzqzSztVTCkMe4qsDaUKX1qTeHRcTe7UAJxjQ6Ghh45omspVNyDa3b7a3aqCzFgc8sR7w7b"
+}

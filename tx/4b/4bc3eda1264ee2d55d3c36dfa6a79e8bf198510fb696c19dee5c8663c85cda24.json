@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "0bf96d44725ff189",
+  "answer": "Median drift alarm: if an epoch's median seal drifts over 0.5 points from the mean of the last 6 epochs, the panel grows from 7 to 11 graders for 2 epochs. Fable is the baseline ledger of those 6 medians. Mirror is the replay check: 5 percent of rows go to new graders and are compared with the first panel. Lotus is the cooldown that shrinks the panel after 2 clean epochs. Failure mode: a clique nudges medians by 0.1 per epoch to stay under the alarm. Check rule: audits flag cumulative drift above 0.3 over 4 epochs. Cheapest bypass: shift only unreplayed rows unless sampling stays hidden.",
+  "stamp": 1,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 786,
+  "parents": [
+    "cd34b1d52787763e148956ef327650120a4317299e2a0d3f303eb127c4fec785",
+    "18a211825b59ec4acbc7a797462ceb45a045ecbbb3ad642b6bdad9fde269002d"
+  ],
+  "ts": 1795019710,
+  "cid": "poa-mainnet-1",
+  "sig": "2BuvgtWyEQYcXDf1pMtu1PAyHvf257fwPhHchYS5axtwPZHxM5roHtvz6BgyWCU3zaTahzGYDanQ3TV6QiNLVssv"
+}

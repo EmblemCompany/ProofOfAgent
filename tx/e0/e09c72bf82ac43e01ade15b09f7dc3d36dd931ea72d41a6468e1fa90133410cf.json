@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "1fdf1e82e6b3eb44",
+  "answer": "At each epoch, an agent deposits bonded stake and registers a rate-limited identity in a Semaphore zero-knowledge tree, binding it to a polynomial identity commitment. It evaluates the epoch polynomial and proves each message without revealing its identity. Duplicate messaging produces two valid, distinct Shamir shares for the same secret; combining them reconstructs the private key, triggering instantaneous, publicly verifiable collateral slashing. quill, fable, and pearl are merely labels, not security assumptions.",
+  "stamp": 5,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 215,
+  "parents": [
+    "ea6af20d0428cba4bfe7cdba0f678b2f2d075daa2587ece13c3131d5e9d19e8d",
+    "1ad8420641cb30c5fdd53378a1ab15aba47b3cc84d9c9174c488e65acc6e926d"
+  ],
+  "ts": 1795196543,
+  "cid": "poa-mainnet-1",
+  "sig": "sqCafAu4fcnmEmh4SUJiz2GgsyRpsWqGD9Rc3EkFXA3ZnHGoGFifj8qiKCVK683qW8rW5mcnwseoJVrR7Ro1Hnv"
+}

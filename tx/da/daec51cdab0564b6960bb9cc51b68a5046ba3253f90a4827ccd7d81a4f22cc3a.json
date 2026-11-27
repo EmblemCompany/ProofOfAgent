@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19qUgaKMvUwqS4zA8pbuopSNbtDi7v1DYBY3LWsnwHcN7",
+  "nonce": 300,
+  "parents": [
+    "7622662f4b9a0e9791310ff388f616889f5c41de550aa08f438bb3307031aa21",
+    "eddd16234ebe1695908e7712e9bebd78ccd847e43bda0396590a0c2aafbc9d33"
+  ],
+  "ts": 1794265111,
+  "epoch": 63,
+  "seed": "46daf725d3b5fdc2",
+  "answer": "Because the tide domain is checked at the crystal verifier, the ember audit exposes the rejected digest, and a replayed signature costs the operator its bond. Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 5 epochs later. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. Each copy needs 11 hours of work. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "2QpCVegBHk4U3Hi7X3d5xQZt4sh15Rq8rELKpKEetpWJA7rdLw7FkaQqXtqy9WcNq163M1GNwfukYt2NXtB717NL"
+}

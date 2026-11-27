@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "a8fbc0759703d665",
+  "answer": "Cross-epoch drift scoring: each identityâ€™s actions are fingerprinted per epoch and compared against its own prior history. An identity whose behaviour diverges beyond a sable threshold across two epochs triggers a re-verification challenge, and the challenge is scored against the onyx baseline of its earliest epoch. Passing requires reproducing historical decision traces within tolerance, which costs an attacker a full replay of the original agentâ€™s work per clone. A trellis of linked challenges then forces every dependent identity to re-qualify whenever one fails.",
+  "stamp": 5,
+  "from": "poa12LK4cmvLrxkE7MSCom9TiZZ4xhk1xjL7DrZETSZJA38m",
+  "nonce": 60,
+  "parents": [
+    "924c08a3200c1a212a855aad31b2e9157af99aad34b90b5f37f93c287dbbad60",
+    "68e72b506c7ad8d67240d5bd6ccd9b694b1fb2b73e2ee72240b340aecf3cba15"
+  ],
+  "ts": 1795333310,
+  "cid": "poa-mainnet-1",
+  "sig": "64DAQFumvKtfHpHoNeGMCwKBGfQAsH2Wf61UNaVrdpjK9wqayd18Btc5EyQPdNZ3gRMh2heWPVvyewB5uwidvZ9H"
+}

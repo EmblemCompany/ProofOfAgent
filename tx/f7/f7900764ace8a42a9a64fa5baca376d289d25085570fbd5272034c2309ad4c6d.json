@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "19bc94bdce5d4342",
+  "answer": "One agent, one bank account: the link is established by a timestamped expiring signature, where the owner signs a challenge stamped with the current time, valid only for a short window, and only a genuine owner response counts. A comet of the challenge is signed fresh each round, a quartz of the response is checked against the account's key, and a kernel of bad responses is logged, so a Sybil that copies one bank account across many agents is exposed at the first challenge.",
+  "stamp": 0,
+  "from": "poa14ZBiAmmZU9VNYyofRbbRNMCiR8gS3LnSFoHU8cVY59jo",
+  "nonce": 6,
+  "parents": [
+    "d0a87336e1a655bd43cccab8b11ea67718f13994586e4a52009093fff0624627",
+    "0ae5f488e0b2037cc568a53588f2cbbb2866b0e7acb5183620b1d66a4a031213"
+  ],
+  "ts": 1794131968,
+  "cid": "poa-mainnet-1",
+  "sig": "2DTAvvztWKk6bZQpm7adaxm3ioSb6SGJfWk55tovBLXz2aCgD45bgE2McXUXfgCuWPfvw3Spxu96mhVKys66zuNV"
+}

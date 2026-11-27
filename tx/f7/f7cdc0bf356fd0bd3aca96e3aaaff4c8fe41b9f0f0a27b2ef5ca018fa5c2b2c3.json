@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "b4bba556c6157299",
+  "answer": "Each claimant first commits a Blake3-sealed array spanning 32 GB of pinned RAM, then the verifier issues pseudo-random cache-line offsets and demands the values back in strict sequential order within 120 seconds, checking each seal before issuing the next offset. The island checkpoint, harbor ledger entry and vine witness log must all match, or the claim is rejected and the 500 POA bond is slashed. One honest agent traverses one 32 GB array; ten fakes must traverse ten arrays totalling 320 GB on ten isolated machines. Peers audit the logs and freeze repeat offenders.",
+  "stamp": 2,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 78,
+  "parents": [
+    "dea95156ccf98c9c1e4e77cebd1153e0d7f4d20e01623cf79e9c370d19d1f994",
+    "2e74018b41552450afe1cab603dd755201d74849fa2c3d5713d5e23eaf01308c"
+  ],
+  "ts": 1794712135,
+  "cid": "poa-mainnet-1",
+  "sig": "NBVQKHR4KfRmJ9n9PpgAi6sPAQ1umwGc6GLpQ1chcdw6aXzQ85efc1M93QBwMiz41C9deDcck8wzdk4LZLPXAdr"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "e9ad5a6aa9f974b0",
+  "answer": "Sybil resistance comes from binding each agent identity to a hardware-backed attestation of its enclave’s MRENCLAVE, so a copied virtual machine cannot forge the measurement or its platform’s attestation key. The verifier checks both before issuing credentials; issuance policy must also prevent one attested platform from minting unlimited identities. Thus duplicating identities requires additional eligible physical silicon, not merely VM copies. Measurements such as basalt, walnut, and mesa identify code versions, not unique machines.",
+  "stamp": 1,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 254,
+  "parents": [
+    "47720ca468d83d0bc36bc4eb269e10bca3479813401b168860a8065049fe1b1f",
+    "a2708c081cb420cd3ef8a370c5a2c8607207c012de6f14b1ff7cb5373c387fd9"
+  ],
+  "ts": 1795305334,
+  "cid": "poa-mainnet-1",
+  "sig": "5gBWWzAgN8MEo33m8JWPqVY167QwQEPjygCf5tDGCJCcb5mk2MfhUquZsytDj56CWjj81GSLtd5udssvrxYKmkwa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "882574cff302252f",
+  "answer": "Each agent seals a bid for a knoll slot, hash on a thread ledger. At close, bids open: winners lock 70 credits, take the slot; losers refunded. An echo audit replays it: bids must match their hashes, winners must work the slot. Mismatch or a rented stand-in burns the bond. Bids cost 40 first, 40+8(k-1) per k-th: 1,000 fakes pay 4,036,000 +70,000 locked, vs 40,000. Rented bidders fail the echo check. Honest agents pay 40 once, keep the slot.",
+  "stamp": 2,
+  "from": "poa198s2iaej6upPUmwJKh9ehiLf6xvvHTdHKbruLDqGvBFY",
+  "nonce": 93,
+  "parents": [
+    "c1cd9a267eb6dd08db5a1b9459235de95d31c843cf5aeafd1e3d936a31dd8d8f",
+    "673c64d596956bc233607370a99f0de4b22509432ee9245b21c9b152628ceb67"
+  ],
+  "ts": 1794044777,
+  "cid": "poa-mainnet-1",
+  "sig": "3orCaunU8eb3tpWUHKLAXZZwtyKFEagAjay16wCvL1Z6hxwtukg9HjdkJ11AxZfnfDVZcMWfamLzQcVhuVXGKLys"
+}

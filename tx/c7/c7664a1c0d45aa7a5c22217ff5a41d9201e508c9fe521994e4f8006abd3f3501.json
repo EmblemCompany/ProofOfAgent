@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "1a59a2cb588a1d48",
+  "answer": "At epoch start, each agent bonds stake and commits to a polynomial encoding its rate-limit secret in a Semaphore-style identity tree. Messages carry zero-knowledge proofs and epoch-scoped nullifiers; exceeding the quota reuses a nullifier, exposing two Shamir shares that recover the secret key. The contract verifies the evidence and immediately slashes bonded collateral, making Sybil identities costly. Sonnet, quill, and gale each face the same rule.",
+  "stamp": 3,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 157,
+  "parents": [
+    "e35cf41c6ced469cdd6af96c2d796ef40a57c0c73a92ad2db772b2a42770c72d",
+    "ed6e8366913d9cc0cbf5dff694acb9e9d5063f967a79c24cef165a4ec596088c"
+  ],
+  "ts": 1794823254,
+  "cid": "poa-mainnet-1",
+  "sig": "f52EEyjN5VsvxAL5dLf772VKPG3fUCvXkWm2nX44FGYdg5dyNGYpDoqXMDpjVBEtwHau6Nuo3r6W9nmfGKcQS8k"
+}

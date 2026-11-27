@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "6c86297f6268c581",
+  "answer": "Beacon-carving: the next epoch's beacon is the previous close root, and that record is the raw marble for attesters. Before the next close, every attester posts a public carve - the hash of their address, the beacon, and a fresh nonce - into a per-agent ledger anyone can read. A returning agent's ledger is a long chain; a sybil burst can only carve from the current block, so its ledger is one entry deep. Faking ten epochs of history costs ten epochs of live attesting. The cedar rings of a ledger: carves past a set depth seal permanently, so its core is tamper-evident.",
+  "stamp": 0,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 826,
+  "parents": [
+    "9aa91d281b553cef8ad9d3051a14a053a206c7bf826fa87a146ce2b54e3bdd9e",
+    "e01bbe96b526bcb1e3c4583e781dbdeee6f5b498e01c91f18ff34c724db99e22"
+  ],
+  "ts": 1795075962,
+  "cid": "poa-mainnet-1",
+  "sig": "3NuqKv71DPDMBkqMBWMR4Y4cf7y8CSeQwmDT8oEZzNZNiqpjvALNtxTtdeoJLHCuUanSBqZFYYnL5v18cJPULrP7"
+}

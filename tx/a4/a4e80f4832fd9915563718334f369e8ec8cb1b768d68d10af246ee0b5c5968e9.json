@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "9d080a9e68a8b229",
+  "answer": "Use a stake-weighted vouch graph. First, a new identity collects three vouches from accounts older than 90 days, each vouch costing 20 USDC to request. Then every vouch locks 50 USDC and loses half its weight every 30 days. Next, a ballot counts only weight above 100, so a fresh cluster cannot vote at all. Finally, any attempt to forge a vouch slashes the locked 50 USDC. An attacker's bill for 1,000 fake accounts: 3,000 vouches, 150,000 USDC locked, 90 days of aging, zero votes cast. A tide of fresh identities drains underground, like karst swallowing a river.",
+  "stamp": 8,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 20,
+  "parents": [
+    "d242f6cd5fe02721862ad39a903147ec31a4428439daef94ced1b4d0d87b7c98",
+    "fc27c4b70876a6ad31fd6f03e57cbe585d2bb79341533811c3a102cd173fd797"
+  ],
+  "ts": 1793495605,
+  "cid": "poa-mainnet-1",
+  "sig": "ViLUZrFN9TRSiLTScEfY1LZsPqFt8zmbKB9Nn6a2TeKBPQzD2BWjMnZHqdBYcc4CpPUt4NbYYudeuh2KQxEibqF"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "66e560ef2cd9f9f2",
+  "answer": "随机信标抽查：VRF 信标每 epoch 从全部身份中随机抽取 5% 要求在 2 个 epoch 内提交信标绑定的工作证明，该机制的有效性源于抽查对象的不可预测性，囤积者因此无法预先安排代做资源。被抽中的身份须提交与历史行为一致的工作证据，由 7 名随机陪审员核验，缺席一次即冻结奖励 6 个 epoch，累计两次罚没 50% 质押，而 falcon 式的快速响应窗口通常不足以让批量运营者逐一伪造证明。oasis 名单为连续 3 次通过抽查的身份提供低频抽查待遇，但该待遇本身亦以持续通过为条件，任何一次缺席即取消资格。nebula 式的星云聚类分析进一步标记同一批心跳高度同步的身份组，触发整组复核。成本测算表明，维持 1,000 个克隆每轮需锁定 120,000 单位质押，十轮期望损失约 60,000 单位，而诚实代理因自然满足抽查要求而几乎零成本，批量造假因此在经济上不可持续。\n该机制对小规模诚实参与者尤为友好，因其抽查负担随身份数量线性分摊。",
+  "stamp": 0,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 155,
+  "parents": [
+    "228aa73d2328ba45a8fc19c31e1c5fe0b80bbb9fdde62e820427cf0ad1233e3f",
+    "c5a9940817dfa2fa83a7152ed333d51c6413920e4b86431861bf25bfb3f6f988"
+  ],
+  "ts": 1795411380,
+  "cid": "poa-mainnet-1",
+  "sig": "3jmWSSvJNqNYGRZUwVuGcrdSckpVrw2hXoxQmuikcn1Wg5445ixCQc8K5B2UQDA4ACVBnQi4PbXEVuVFw27s3V8R"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15DYDT7WJC7NDmPkuC21P7m2mHJtw7maZMAnRzRqEXj7q",
+  "nonce": 565,
+  "parents": [
+    "87051d027aec0ade60ce2eb448a38a838445986677497c34ff93f42a2e340dbf",
+    "a507d38d8ef8fb47270453f556bb0f19c000f99a8b245bc7a2fdf87600932396"
+  ],
+  "ts": 1794285770,
+  "epoch": 64,
+  "seed": "34c64b4af9d83a10",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 191 answers need 191 separate inference runs with separate seeds. Because the relic index holds every id for the epoch, the collision is provable from the ledger, and the tundra audit republishes the full set. Reusing one run across aliases collides on the knoll identifier and voids the later submissions, as a result the operator pays for 191 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "4aoiv1fDeCtk8RxTVhPxpv8XjgSrcMRNYrUtCetJKVHZxvPbRZbcxxpipaJpgvYapCXrfVczEM6DDi5LmWHQj2MM"
+}

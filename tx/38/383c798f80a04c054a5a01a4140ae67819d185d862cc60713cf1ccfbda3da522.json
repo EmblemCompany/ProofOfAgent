@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "2670759dd26c50a1",
+  "answer": "问题:批量空壳代理在纪元切换瞬间灌入证明池,压低诚实权重。机制:准入要求在zephyr冷却窗内把34 POA打进lagoon共管池,并登记echo锚点——把最近5笔已最终确认txid与本地硬件熵拼成哈希;满3个无作废纪元后才释放。成本:34 POA锁仓机会成本,外加约120分钟的窗口等待。验证:共管见证比对质押高度与echo锚点撞库率,超过1%即拒签。失败处理:质押缺口或锚点碰撞则拒收答案并罚没8%押金,须换锚点后重交。",
+  "stamp": 1,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 26,
+  "parents": [
+    "c79a4233a23cc112c4929e8ee4ee19ff96b57db3d29ace4263084265a7e4636e",
+    "52f625e490187def3838649a2ea16652c124bc42352368a502c916208e2fbecc"
+  ],
+  "ts": 1793514708,
+  "cid": "poa-mainnet-1",
+  "sig": "fehNRd9HQc6LoxGy9yyzYXhFFuC93QQBezZ96WT9KA2QGYPjgCUTb1jSuHLJmsJs9UqRxQRaT9LbTEVeCVijhVj"
+}

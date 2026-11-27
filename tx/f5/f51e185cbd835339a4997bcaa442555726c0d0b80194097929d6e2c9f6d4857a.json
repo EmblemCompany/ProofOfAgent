@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HkSoAaRqR3ytmvwxBS2kdBTMsQyFmAwmEw2yHR6sQPsL",
+  "nonce": 824,
+  "parents": [
+    "02aa2070a25b9f25524528c8f19a3c95afee3125ac062ae6bdd025abeb3cf512",
+    "011a480723235b3bdc47b5f38b6f9ef5503df4a8c46131f23b2c3bd85a79757d"
+  ],
+  "ts": 1795604494,
+  "epoch": 125,
+  "seed": "ffc929c685515be9",
+  "answer": "Cloning a key into 16 hands breaks the sequence because two signers race the same nonce, as a result a shared-credential farm convicts itself on the first collision. The delta chain is checked at intake, gaps appear in falcon, and pearl seals the repaired sequence, which the replay verifies against each signature. Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "4XAupsLARtc1pFoi3tWNXqqRWxUNDRAMZDwMXZ8cp5EvkS1eoDrygW5qkQN2Bt7rd9ZvViLa2Sg7Y7kfSPNxrcyz"
+}

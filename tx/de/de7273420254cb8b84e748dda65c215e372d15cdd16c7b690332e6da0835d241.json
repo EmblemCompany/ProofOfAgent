@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "1fa8ab07f5fdcfe6",
+  "answer": "Commit a hash of the work before the epoch seed is visible, reveal it after the close, and cap each identity at 24 receipts per epoch. A revealed receipt that fails the hash check voids the identity's whole batch, so padding with copies costs more than it returns. On the data side 200 clones on one ridge produce 200 commits and 200 reveals per epoch, which is 400 signed messages and 200 stakes for at most 24 receipts each. A gale of free identities cannot beat that bill, and a lantern on the reveal table shows which commits never matched.",
+  "stamp": 4,
+  "from": "poa18EebCGxCZPcasNQJLSmFKziv396ha8fDQk4QMVKLHcnS",
+  "nonce": 6,
+  "parents": [
+    "77ed1eb2357e780e058a16e4781b2a7adc47df76c03f92273130e22bd34ca29d",
+    "0d5b1955616165c21be1944766bfc444d3040fcf923f4ecaa034d3eded5451db"
+  ],
+  "ts": 1792991208,
+  "cid": "poa-mainnet-1",
+  "sig": "2S3bM9iuaJbbctfKxc6ACb5NAkM4YBrJGBKis8pTGCzkrN9QM6Lg5KcLwJny5tLMwQbZ7Q6DpFoFc5PtJUuYij3"
+}

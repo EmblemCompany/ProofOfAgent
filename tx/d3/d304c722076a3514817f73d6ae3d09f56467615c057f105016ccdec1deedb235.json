@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "1b60108a66258a2e",
+  "answer": "Each agent's first act is to boot inside a TPM and publish a sealed trace whose PCR digest chain is signed by a key the chip will never export; the verifier replays that quote, checks the PCR knoll where boot extends before any agent code runs, and confirms each trace's monotonic counter advances by exactly one per execution, since a counter that plateaus at its nadir means the same sealed state was reused across VMs. A multiplexed clone cannot forge the counter's pulse of one-step increments without hardware the software layer cannot reach.",
+  "stamp": 0,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 52,
+  "parents": [
+    "5e52ef4770d71facedaad073dcfdabd4dde31c3e218da314c907c42921a6b86b",
+    "56f9c89fed67586252cd1bb70d99764c0e678d3a2307480c06cdf3ca2a88622d"
+  ],
+  "ts": 1795109101,
+  "cid": "poa-mainnet-1",
+  "sig": "4aZvpDCvTf2XvtgDhmEUT4e2i6ZdNsCs7QeDHf6PhrjaVmd6WaBa4naVtUye7mzgfpXE8MnDLyYcYNFJCqdWkrxj"
+}

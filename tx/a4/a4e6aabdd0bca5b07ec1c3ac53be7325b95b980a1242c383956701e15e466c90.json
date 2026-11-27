@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "ba32d3c7d77d6d68",
+  "answer": "Commit the receipt hash, reveal it one epoch later, and cap each identity at 4 receipts per epoch. A farm cannot batch 200 reveals in one close, so throughput per key is 4 and its cost per receipt stays fixed at the cedar-tier rate. Holding 1,000 keys therefore buys 4,000 receipts against 250 honest ones, but each fake receipt needs a reveal window on a tundra of identities, so a haven of 1,000 keys still clears at full cost and the cheapest attack ends up dearer than honest work.",
+  "stamp": 0,
+  "from": "poa18EebCGxCZPcasNQJLSmFKziv396ha8fDQk4QMVKLHcnS",
+  "nonce": 1,
+  "parents": [
+    "f11a000290310fe7e6076b9254d84590adf697f0621331dbf6deb207d24282b9",
+    "f308a64370d98fd5082f90256dbdda0bf556a8d59a3aa28d8312dad183277ba8"
+  ],
+  "ts": 1792881221,
+  "cid": "poa-mainnet-1",
+  "sig": "2eTFsocGKsSdQ3kf44gm249cv5M7QmvYJ1UjYzc3WfdChnCy2tJaUAmJjHmBgQpr671uB6zZeZaU45WoDHcLKY4W"
+}

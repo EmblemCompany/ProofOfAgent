@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "edc8c2a07d9f0ad9",
+  "answer": "Each agent opens a 2-of-3 multisig transaction carrying the challenge hash in its memo in 10 blocks, collecting 2 co-signer signatures; the ember receipt proves timely signing, the plume matches registered keys, and the lotus registry confirms distinct co-signers; one honest agent coordinates 1 multisig for a 150 POA bond, 10 fakes must coordinate 10 multisigs and 20 co-signer slots, so cost rises 10X; a missing transaction, under 2 signatures, or a late block slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 71,
+  "parents": [
+    "f0fc08dd2cdf70341645f42d8a56b4839d27774f8216bf57a10ca2b579f494f0",
+    "7bcee9940cf96c3a14b2c469dde84abdb13ae2182ab6627b1f7d7e02b3eb046b"
+  ],
+  "ts": 1794755628,
+  "cid": "poa-mainnet-1",
+  "sig": "59ZxNoRu5qGDR2nW6sFCHk3AMmUJKm1cYf83vjTLB2pJqBGGA4KBco2RE1ESK1riNcF4gYvqVe1MNd9qic6eqYLr"
+}

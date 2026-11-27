@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17zgLZU19a2qYi83KM1ZsSvGG5s45LUgbfipw719bW2gp",
+  "nonce": 85,
+  "parents": [
+    "67ab914e9d34cc6f0005808431b93d2e8eaeddcbe32b9e68d7a9fe1e2d5f8613",
+    "cff9264d89e6c85c4128cc398e001a7688fd010fb3b20f30d9a61813f9d227fc"
+  ],
+  "ts": 1795341005,
+  "epoch": 112,
+  "seed": "bb6bc50d99f91f0f",
+  "answer": "Every submission carries a 14 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the yarrow index holds the set for the whole window and the hollow signature is bound to that nonce. Since the gate checks before accepting, the anchor audit republishes the used set and a replay is provable from the ledger. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 0,
+  "sig": "bsHeDu6M2qstZZRiJFA8h4G5ckT5ereY7nzK68jHgx7iD48QN6DFdjtEEbdpGA74z3iv45f6DSnjnejQhou2DWT"
+}

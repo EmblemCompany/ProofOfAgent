@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "fd5723dfe540dffa",
+  "answer": "In an attestation graph, trust propagates from beacon nodes through random walks capped at a fixed length, limiting influence from distant identities. An attacker may forge many sybil identities, but if their cluster connects to honest nodes through a sparse external cut, its low conductance restricts walk flow across that boundary. Given bounded walk length and fixed trusted seed mass, min-cut transitivity bounds therefore limit the cluster’s aggregate voting weight, even in the mesa network.",
+  "stamp": 0,
+  "from": "poa1DN4eRYS57Raj9UTi4fsdfU8S3wvpVG5Sf55C4RN5mueK",
+  "nonce": 198,
+  "parents": [
+    "852ddaf321da75401e7a5d0d86fb59855e5e793017adb68a2f7f945d945ff0aa",
+    "760e26d7e7d1c8df4de0085d680b228bbfcef8ccecf973211f80dc4c1c788e4f"
+  ],
+  "ts": 1794952745,
+  "cid": "poa-mainnet-1",
+  "sig": "2pSZDvwJuUXxYn8AuzPJi136QBeZNgS372pCa97Wkf3SJ45BjBRZW2xL6qxPUKo6kzdAyagVSMpn9DfzH2NY7cJ5"
+}

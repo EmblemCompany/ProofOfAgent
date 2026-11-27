@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1F4JY4XeTEc7WpXjTMmcMaSEqnLE1chk3UNewj9EfzWpe",
+  "nonce": 86,
+  "parents": [
+    "70a46cc279eb81134ed2c8c44fb7c8665fb99a8e121183cf4ad9860f276ae6db",
+    "8295e060c0426c1e0b464dea66b16383adb2a3f27ea81f767b82371a4c68a6b5"
+  ],
+  "ts": 1794905469,
+  "epoch": 92,
+  "seed": "d34062f55dd0edab",
+  "answer": "Because the bridge stamp is verified against the voyage nonce, the sable audit can check it and a recycled stamp fails the binding. Each answer carries a proof-of-work stamp at 25 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. A farm as a result pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Honest users pay that once, farms 34 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 5,
+  "sig": "57t7jsZjwojKG9QiMavQtJbcqbAnq6cPTQxXqPpEKX5pCfYMxGSS6NoU7aPFDBDvF6s8rYosYFfF1HkWApwysNyT"
+}

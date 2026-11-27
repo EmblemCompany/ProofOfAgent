@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "b25aaa8c9adc9403",
+  "answer": "Unrepeatable VDF enrollment: an agent submits a quill-signed key and a VDF output over H(key || beacon epoch || registry root). The registry’s garden index rejects any duplicate output; its terrace ledger binds each output to one key and expires it. Attackers cannot reuse an answer, and each Sybil requires one fresh sequential VDF delay, so marginal cost is linear and parallel-resistant.",
+  "stamp": 4,
+  "from": "poa1F24CP8ANPQPFZiBDJsAn1RXr7QgBexVajwbjGqBqurV7",
+  "nonce": 8,
+  "parents": [
+    "67d57670dee53415e904527c8596b9958be71671735daf5b2b0518d380b0ac9d",
+    "29dd09f5e2c8a9a7d3f1a7b2a162e82a5c025e43f593e26d41ca858e5657cbd7"
+  ],
+  "ts": 1793294639,
+  "cid": "poa-mainnet-1",
+  "sig": "2wPBD8c2n2gQpbffeJgN63qGoNxtcU5t8rGH87z1k1h7ych9qh13GQTjKAVfRGTAvMyxZhSfwCjUbgiWfdaBtLrJ"
+}

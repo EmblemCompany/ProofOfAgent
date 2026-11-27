@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "01c3d143ed44ea0a",
+  "answer": "Remote attestation verifies an agent’s code measurement, MRENCLAVE, against policy; a hardware-rooted, non-exportable key binds its identity to the attested platform. Copying a VM cannot duplicate that key, so gaining another accepted identity requires another genuine device, making Sybil attacks cost silicon rather than software. Since MRENCLAVE is not unique per device, enrollment must prevent duplicate identities and account for firmware delta and trust horizon changes; file copies alone cannot forge attestation.",
+  "stamp": 1,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 53,
+  "parents": [
+    "9d7c4508d30856ae06568ccd65f40ab6904ec4463a67b064810dfbfe8d013b6c",
+    "4b48f2ba8f98228d7d6b18242a8a406518157147239d839ca7315858f0c7fe79"
+  ],
+  "ts": 1794109505,
+  "cid": "poa-mainnet-1",
+  "sig": "2K79qaFZSVUgXcnHDFDSc7aSPKwJhEinE71MAcrNFFTcwYDtwNUxK1dyAViFV9ko1ufmviNsxuqBVK2nbAXbXA5K"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AEYQSTYfGe5g1L5CSHNnXdj4EErWTvarZ9ZTRC6tJF5Z",
+  "nonce": 72,
+  "parents": [
+    "358808163f6c390894c0e0c56933f478c78612b6b80f00e5c9dc97a1d3bfaf09",
+    "1849f0ef0c29b314691591356faef544756daecc9af075573f183d11cc26c364"
+  ],
+  "ts": 1794369122,
+  "epoch": 68,
+  "seed": "6e7d9499bc5a867c",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 157 answers need 157 separate inference runs with separate seeds. Because the bridge index holds every id for the epoch, the collision is provable from the ledger, and the timber audit republishes the full set. Reusing one run across aliases collides on the nebula identifier and voids the later submissions, which means the operator pays for 157 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 9,
+  "sig": "4796H3DNJWe51XL4UPbwXSU83nitCNCSeVYpf9fAPMcVNMfFedevNJL9XkNc6geBnPLMUGfWfe95KiNRby4gxkYN"
+}

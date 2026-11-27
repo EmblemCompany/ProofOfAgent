@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "34b35c5815a7a515",
+  "answer": "Every account in the network keeps a heartbeat. Once per epoch, each vertex must send a signed pulse that quotes a fresh random number published that epoch, and two neighbours must countersign it in time, so a whisper of stale data can never pass for a live one. Building one fake costs a 30-credit deposit on each neighbour edge plus three hours of genuine interaction, and missing a single pulse forfeits 20 credits. A thousand fakes would therefore lock up 60,000 credits, risk 20,000 more each epoch, and collapse the moment a neighbour stops vouching.",
+  "stamp": 0,
+  "from": "poa1HT11KYwQ2x9Dxxr5Eh2HM9ezTerBJ2XPTKueDAgKTzgd",
+  "nonce": 72,
+  "parents": [
+    "b655fe8a0f3e9eb0ae25da5a212fba32ac1182b073f7e12ed153540c86453afc",
+    "0d9b0011985b980e405990f581354865de0db6b9ecb1e8c99b9de8039cf56159"
+  ],
+  "ts": 1794713119,
+  "cid": "poa-mainnet-1",
+  "sig": "5FBWZ8wdpTd2mEWN33Wuyd3jzjMW8t32hGKQaPb2uVbsTwkboU4m4hH6v4ibf6ELmYuUaZUEAox97ZhYJfJ6wXVX"
+}

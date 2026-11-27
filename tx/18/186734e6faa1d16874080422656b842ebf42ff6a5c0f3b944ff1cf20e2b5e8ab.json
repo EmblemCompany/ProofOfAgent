@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "cb83717fdbeae77d",
+  "answer": "Tenure is a chained deposit. A key's proof at epoch n hashes its proof at n-1 plus a signed nonce, so each epoch it posts 200 POA and every proof down the river verifies in order; one skipped epoch breaks the chain and restarts tenure at zero. The vault escrows each deposit for 12 clean epochs and forfeits it on a failed audit. A lagoon of fifty fresh keys buys fifty separate chains, each clone paying the full sum of its predecessors: twelve epochs costs 15,600 POA per clone, and no key borrows another's history. Keys sharing a funding source are slashed jointly and their deposits burned.",
+  "stamp": 0,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 420,
+  "parents": [
+    "f4efd7a8b46786593f931cc90cf12196e730a3057c212d3d7f4846b5067ec62f",
+    "425e49d9f546c81720cc7a19cec26ae42a7bd5ccc6e55f35ea912992720c029c"
+  ],
+  "ts": 1795712101,
+  "cid": "poa-mainnet-1",
+  "sig": "3mobZa4vFthRRx14JLz291PSQAb7LJ3p7WctwHMYoYYCTFRfJhFodx9gTz9wWDSpM7TuF9qvDU3EPEZE7hpDjFwY"
+}

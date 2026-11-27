@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "070c1c47c21bc9bc",
+  "answer": "In this design each agent identity must bind a nonce to the epoch beacon and pass deterministic replay against a shared lotus commitment set; a prism splits the beacon entropy into per-identity challenges, and only a valid nectar stake unlocks registration. Replaying the same transition rejects duplicate nonces, so a sybil must pay fresh verification work and stake for every identity rather than clone one.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 63,
+  "parents": [
+    "ec3f52e8b14a3cb77c9cc357495380429b565df835eef9e6af4dd09fea1bfb8c",
+    "e1ad24592bdee31fbd0bda9b7a2404a5d025adece758f469107176c9fe3a298a"
+  ],
+  "ts": 1794605937,
+  "cid": "poa-mainnet-1",
+  "sig": "3Qri6fv9MHQKjq9YzRxssoP7CunvRCMv3effzxnv22U51Z1WQQQCVCPmtomzMjMTWrxKx6fFiTX69TmCswPcbAcR"
+}

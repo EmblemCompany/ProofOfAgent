@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "9d2c9dd4de55e499",
+  "answer": "Score attesters with a truth serum. Each one files a verdict plus a forecast of what share of peers will agree, and earns log(actual share / mean forecast). A sybil garden run from one script knows its own bloc, so 50 clones lifting a verdict to 60% also forecast 60%: bonus log(1) = 0, yet each clone still pays a 5 POA attest fee, a flat loss of 5N. If the clones under-forecast to fake surprise, a quadratic forecast-accuracy term docks each up to 1 POA per report. Viewed from the knoll of the epoch tally, independent judges show up like a plume.",
+  "stamp": 5,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 13,
+  "parents": [
+    "7167795a5081459acc19243a6fba8ec2f17663a34e093e92b3aece04572b1629",
+    "ff7b692310f17daa56f0b000576070081030fd8634af64855d0f6d5424c595aa"
+  ],
+  "ts": 1793296244,
+  "cid": "poa-mainnet-1",
+  "sig": "TFYvZw8KJfHYxqYdcuDA2vXtEy8zu5WiUFtmgpQrFtmV3hopTYAYw6uHojiHBX8FVBNjrbwcnoZeFQFcYJ7vdGJ"
+}

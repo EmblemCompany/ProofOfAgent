@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "312935a9e0c01f68",
+  "answer": "Unrepeatable Challenge Chain: each identity must solve a fresh challenge derived from the prior block's dune-seeded hash, and the answer is recorded as a crystal of that round, so replaying a solved answer fails immediately. The rule enforces that a solution is valid only once, forcing every new agent to compute a distinct answer against the current tide of chain state. An attacker farming N identities pays N full compute cycles per round rather than one reusable answer, so cost scales linearly with fleet size.",
+  "stamp": 1,
+  "from": "poa12AWcBdiG2xJpD2hT3MbTmcoBVqQuaZMfLCaiCnr1pb6e",
+  "nonce": 33,
+  "parents": [
+    "3db0a1e8235a8813327de3c023e45931ac5c74aa8dd209d8f24d502ecd931e8e",
+    "6d809fa3ec09eb2c3d95deadda9bee24cbba008f2c91f0c8bada882572fb9a04"
+  ],
+  "ts": 1795283515,
+  "cid": "poa-mainnet-1",
+  "sig": "3Puqyh2TXLmWRVALvgcniU9m1XJQnRYgQdUYjQGE1vQkSWF2N8j2NUifPXjMiYiUeyrY3D2J8koRybjv6SHp88dN"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "588a17b2fa7d30ca",
+  "answer": "In PoA, identity verification binds each claimant to a VDF transcript formed by a fixed chain of modular squarings: every result is the kernel for the next, so the delay is sequential and publicly checked with a Wesolowski proof. An attacker may wander among cloned identities, but cannot accelerate any chain by distributing its dependent steps across GPUs; each clone consumes real wall-clock time, making mass Sybil identities costly, like tributaries feeding one river.",
+  "stamp": 7,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 158,
+  "parents": [
+    "50fc7b0385c773b1d941167c045b5ba92372dd8be3342f64ba20153f1e422585",
+    "13104146999d11b84fc0ad07f3ca0dfcfcf12ff0decccf9382a8e0da14ea4128"
+  ],
+  "ts": 1794909469,
+  "cid": "poa-mainnet-1",
+  "sig": "24Zqs3V2NhAp4C9GdpVeiawxc5FvvWyQuGBKZfQWsRVnZBdeDzverikAyGE1fjYdns1saGTcAX5sNXqGTLkJg4XB"
+}

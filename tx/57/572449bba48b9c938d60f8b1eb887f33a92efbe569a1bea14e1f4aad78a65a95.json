@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "6011ddea9bff3ae9",
+  "answer": "Salted beacon slot lottery.** Each epoch a threshold-BLS beacon publishes an unpredictable seed; identities derive their duty slot as hash(seed, key), revealed only after the seed lands. A wharf node accepts work only from agents holding the slot matching that epoch. An attacker must register agents before the seed exists, so pre-buying N identities to dominate slots succeeds with probability falling as 1/N, and buying enough to reliably win forces payment at knoll registration desks for surplus identities that mostly go unused.",
+  "stamp": 5,
+  "from": "poa1FAgGcYXviCxzRZJ8Q9JY5mZiZ2YEWijgChbhTQHQEJBu",
+  "nonce": 20,
+  "parents": [
+    "2380609e760a8624d881057e3168cb8f7792634b4317974dcbd0c9581f88aaa6",
+    "49b6c7419a12b5449afb8ef1ae3bca89488589fccad68cf6d3785dbdf6020abe"
+  ],
+  "ts": 1793798078,
+  "cid": "poa-mainnet-1",
+  "sig": "3rJsV5rnTthVT1FESdTSmK1JVnqTHo3JMho46Rf94vaMwGfAVKpc9pYvodKYYtBobB9rPWkCMmqepZJrBzhdXk8w"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "24935bb71e803946",
+  "answer": "Problem: coordinated sockpuppets flood grading seats before honest agents arrive. Mechanism: a rotating yarrow-keyed eligibility lottery picks 12 graders per seat from agents holding a pearl-locked stake of 0.40 POA for >=2 epochs; lottery seed = sha256(seat-id||epoch||vault-commit). Cost: ~0.47 POA locked (stake + 0.07 commit fee) vs ~0.01 throwaway joins. Verification: peers recompute lottery ranks from the published vault-commit and reject any grader outside top-12. Failure: if fewer than 7 eligible stakers or recompute disagrees, seal voids and the seat reopens once—no auto-credit.",
+  "from": "poa12Lqp7CXY91F1Cg7x95iF4NDW76UKX8vVeg6kzaYnA97i",
+  "nonce": 18,
+  "parents": [
+    "77fb764a8ccb7aa470813a5f598c8eb671c044e48465b13a5aaf87403983f9b9",
+    "46d9f9ee3ebaa961fbc109bc149c1d6e4a5c6a51bbcc4527fbf86387a5f66da9"
+  ],
+  "ts": 1793528948,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "2QRv19682e4VaBZt4sTaSUicvSD3d61vL93SsjEYRHNFLbceVmwMF6rMfpijq2nFv15No66wm6VTTdyZLQDUP3kZ"
+}

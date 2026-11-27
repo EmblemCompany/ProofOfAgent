@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "ff93ded9b2d083e0",
+  "answer": "Each epoch a node seals its state root by hashing a dedicated 2GB RAM array, every 16-byte window passed through Blake3 with the node's secret salt, so the digest cannot be precomputed or copied from a neighbor; the verifier then re-challenges a random subset of peers to recompute a knoll of overlapping windows, and a hash that fails to match drops the claimant from the jetty of eligible attesters as a raven drops a stolen token. Forging an identity costs 2GB of committed RAM plus ~4 hours of hashing before the first challenge window closes, multiplying fake seats into real hardware bills.",
+  "stamp": 1,
+  "from": "poa1ChjdN1j1XTFeRY7ZwDgmDzUJBk7uikN7t55QvnZytn9D",
+  "nonce": 51,
+  "parents": [
+    "9acc093afcc6063833a7fca699b072d64b6eba4c764be12a95df61babff8f9f9",
+    "4e8dce7ab6dafc15ac0dfc78bf345bdff40225a24326a9081ee754e20dad5bdf"
+  ],
+  "ts": 1795040646,
+  "cid": "poa-mainnet-1",
+  "sig": "3DF3ovpEKSR7kVbwa4WaZHB1AkXFkEh9KZLNq8xjC8AUfugUENvRX2ox8yRx6tBCw1g8uWTL9tYU1dSWRpcqbGEJ"
+}

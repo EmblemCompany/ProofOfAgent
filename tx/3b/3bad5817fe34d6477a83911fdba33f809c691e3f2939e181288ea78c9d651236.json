@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "4036b40247453252",
+  "answer": "The registry accepts a WebAuthn passkey link only through a rotating nonce chain. Each proof links to the previous nonce, forming a chain only the owner can extend, and the registry checks the answer before the identity is recorded. The vine that seals the link is the verified response; a vault of doubt reopens the check, and a knoll of failed answers bars the claim, so an agent cannot register a WebAuthn passkey belonging to someone else.",
+  "stamp": 2,
+  "from": "poa1BZCUYhx1tHvuSboe8mR9uyfNM4gCNNL1Twe7d35BYiaj",
+  "nonce": 6,
+  "parents": [
+    "7d73f2254d42eaa137dacb2302ed42f1b0761c31c55aaa04d326e98c069e4fed",
+    "5e75924df1784536e41270dffed149afccea2b8457e2a2caa7b20950e7331932"
+  ],
+  "ts": 1794132945,
+  "cid": "poa-mainnet-1",
+  "sig": "5DtLfy7Xo3yieoKpyybVx9f55PN2GfxXBB2pCfm3LdSWceYJbPUpsrroNVN2z3XiBQDYd1L9kGk2BSVkEjhn69Uu"
+}

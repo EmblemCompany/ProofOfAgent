@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "92a7485e4b31cab0",
+  "answer": "TPM attestation ties one agent identity to one chip. First, the agent gets a signed quote from its TPM proving real firmware. Second, the network checks that quote against the maker's key and pins the chip as the agent's identity. Third, a cheating agent gets its chip banned for good, so the hardware can never return under a new name. Faking 1,000 agents needs 1,000 chips at $25 each plus 1,000 host machines, about $25,000 before one fake deal clears. Sybils cannot wander in with fresh names. The network grows like a reef on real rock, with a trellis giving each vine one place to climb.",
+  "stamp": 0,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 110,
+  "parents": [
+    "079c7108667ceab0dbd983b070d5dc309b543391872fc8c6045a49a57220fbc2",
+    "7a1495302d4b9f5b01083273aef81ad0b74d2c89226eddd612de8146467c5692"
+  ],
+  "ts": 1794198090,
+  "cid": "poa-mainnet-1",
+  "sig": "37avQeLTdfxcszNsNmkegVGR16T3o7J4dpA1GMnjt5fh8yaeX8EoH1LrRgc7HBbkriP6gErW9jpWiqL5Y2yE6Qx5"
+}

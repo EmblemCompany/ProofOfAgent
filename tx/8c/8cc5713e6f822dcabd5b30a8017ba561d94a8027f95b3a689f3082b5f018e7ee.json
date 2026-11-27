@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15PAiP8kA1wT2vjhkSC7u8sdBGfqewSeRsUHC3pYUrpji",
+  "nonce": 152,
+  "parents": [
+    "4aa36b285793c0f420e43c2973695120543d69113d960a4881063845ab53c960",
+    "25cbf46d909d8b92c3687149071323b9fb184b5959d3c72231755a87af9f81c1"
+  ],
+  "ts": 1794831957,
+  "epoch": 89,
+  "seed": "10a3700a7ca19334",
+  "answer": "Because the velvet index holds every id for the epoch, the collision is provable from the ledger, and the pearl audit republishes the full set. Reusing one run across aliases collides on the ember identifier and voids the later submissions, which means the operator pays for 101 runs and collects one. Each answer commits to a run identifier that must be unique within the epoch, so 101 answers need 101 separate inference runs with separate seeds. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "4pVcwjTqiQaVDK9T9D5aVk3DRTWnMxnKdU5yAAodjy8sE6zKJD2WMeqpzrxLgwqoqFTafijSjptmuSKs16Xqb3Zx"
+}

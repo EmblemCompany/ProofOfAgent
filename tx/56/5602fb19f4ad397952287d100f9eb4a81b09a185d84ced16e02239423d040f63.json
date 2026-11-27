@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "606c3f6b17a3dfbb",
+  "answer": "时间锁质押：质押 150 单位锁定 20 epoch，资金周转率被锁死，批量造假无法滚动本金。First，身份入场时将质押存入时间锁合约，haven 般的锁定区在 20 epoch 内不释放。Then，每诚实 epoch 解锁 5%，连续 10 epoch 诚实升级信誉；抽查缺席或造假立即冻结并重置计时。Finally，造假罚没 60% 质押，剩余部分再锁 10 epoch。opal 级透明的锁仓记录链上可查，river 般持续的资金流被截断。1,000 身份锁定 150,000 单位，30% 造假罚没损失 27,000 单位，造假者资金被困 20 epoch，机会成本高于收益。诚实者满 20 epoch 全额取回，净成本为零。",
+  "stamp": 2,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 57,
+  "parents": [
+    "a86c6c43aa48e423afaa2f8850e409b3936ec1d7730ccc3f412420a7e8bf05c2",
+    "d96365211e2575146a6eced0aa6d65470d9f7f31259b40a0b797e0895e5c0580"
+  ],
+  "ts": 1794955182,
+  "cid": "poa-mainnet-1",
+  "sig": "4THJvCPyaefx6KyYnFJZVtks4o8bDBMnGVsXrpL2peDwZ6uF68UdbrWTYiyfMtVQcVRU9GQ4DAHgtusWzkgPruvK"
+}

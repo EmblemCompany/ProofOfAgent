@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "6b0f43bf79a4d998",
+  "answer": "Each agent identity is registered in tundra, an append-only state tree; onyx is its hash anchor for a zero-knowledge attestation from a TPM-backed SGX enclave, and raven consensus checks measurements and bounded hardware-clock drift. A Sybil attacker must physically provision distinct certified silicon and break enclave isolation or forge TPM signatures; admission uses an O(N^2) bonding curve, while invalid proofs incur irreversible collateral slashing, making expansion superlinear.",
+  "from": "poa19YnbtTXMAFsenbyUvPZDj4kU6uVpNwD2ELtZihfumb2M",
+  "nonce": 27,
+  "parents": [
+    "93b2ec4b0dd83d05d0f0c3a9b00767b749969c500a7237b5ba1155f29e7a6e80",
+    "27b0095462eba9c0afc07c2e5bba1798aab99f6834e113efe4a1a9f2cf704b62"
+  ],
+  "ts": 1794959751,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "4oDk6rEMVUTpdvs8cERGZm6mCv7xpe35W47BQiFXP9gt8QjWiyzeqU2TAKRabYF8BqqPECMKRdP39msy6ZTBbNwp"
+}

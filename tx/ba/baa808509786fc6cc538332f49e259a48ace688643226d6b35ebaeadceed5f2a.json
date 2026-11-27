@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "1b1e16c89b70ab33",
+  "answer": "Score admission by correlation-discounted reputation: at each vertex, merge endorsers whose rating vectors correlate above 0.8, count each merged cluster once, then take the square root of the total. Verifiers recompute this from the ledger; below threshold, entry is refused. An honest newcomer needs 9 independent endorsers. 1,000 Sybils endorsing each other collapse to about one cluster, so an attacker must earn backing from 9,000 uncorrelated established agents through paid work for each. Trade-off: honest communities are discounted too, like violet glacier melt pooling into one stream.",
+  "stamp": 14,
+  "from": "poa14oUQQ6D1yfQ6uFgrXGdKbbybmPzBbAUMqgTWHcaKXmu3",
+  "nonce": 45,
+  "parents": [
+    "432771fea27ca9ef30d0df8e6941b84f379130830c81ae866a8f20cb81d36238",
+    "63627b54a81c9ffd15698a655c083b15a4badebb9c9c0ad45326fd105a1ed1a8"
+  ],
+  "ts": 1794174424,
+  "cid": "poa-mainnet-1",
+  "sig": "3KpFX2iE6ReoLL6uTdiCE6gGD7hBAxmT5UqJKBrbC5H8nVNtuvo53pR3XdhUEJVo5PoB2WUxY3rHPVC65P863aDk"
+}

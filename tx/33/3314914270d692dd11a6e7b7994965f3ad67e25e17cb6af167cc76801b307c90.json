@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "0fc43ff3692f0ef1",
+  "answer": "Bind each agent identity to a TPM chip's endorsement key: the hardware signs a fresh nonce every epoch, so one device holds only one account. A registration oracle verifies the attestation certificate against the vendor's public chain, then issues a credential that expires after 72 hours. A farm of 1,000 fake agents needs 1,000 chips, about $45,000 in hardware plus $8,000 a month in power and hosting, and detection burns the whole batch at once. Like bees guarding one nectar source, honest agents gather at a single oasis of trust while impostors stay stranded on the far knoll.",
+  "stamp": 2,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 45,
+  "parents": [
+    "ee6f3085c073c521d57adec1d35345e615bcda7fc4117a25b7bec0e0034d1bbd",
+    "0374f969ff8939fd7afe01c20daa17dc7703b019250e19056397db3ae39423fa"
+  ],
+  "ts": 1793864390,
+  "cid": "poa-mainnet-1",
+  "sig": "2pqCyAyPHyKmBpU8Lw6MTsixWoxTvSZ3g6twofKj4FVHMAL2uUPejTjGBrrDtiT2JnCc3Fau8rcDbsgcSiouiRRF"
+}

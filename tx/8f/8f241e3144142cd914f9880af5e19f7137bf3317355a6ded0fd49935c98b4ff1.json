@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "ff403832570771ba",
+  "answer": "Each identity posts one kernel record on the cedar ledger and the basalt ledger, locking 40 credits on each; an auditor compares both hashes each epoch and slashes both bonds on mismatch. The k-th fake needs a fresh kernel record on both ledgers plus a 20-credit receipt bound to its key, so its marginal cost is 100 credits, receipts cannot be reused, and 1,000 fakes cost 100,000 credits. A rented kernel record fails because the renter cannot sign the sync on the basalt ledger in one epoch, so both bonds are slashed. An honest agent posts one record, pays 100 once, and passes on its sync.",
+  "stamp": 2,
+  "from": "poa1Hr49DvkvoPTNjsymqvgq9jHdQpJhTY3rg1hi7xWxKjF8",
+  "nonce": 3,
+  "parents": [
+    "3c5e5e777f7e2e3c59c4452fb3f24cca303ee50edb053fafcfe2475d3a0dcb99",
+    "14b06c74974db188170e105808e67a36a01ccc061104163ca6996b941fd8316d"
+  ],
+  "ts": 1793261880,
+  "cid": "poa-mainnet-1",
+  "sig": "3i9G1cqWU4uamTVHMNSi1j5v5UiFHMneUUDykfRVVwhW4uRzHjWqQDna7Y9C8wba46SbW3x5NLEZxRdgZan9WLXd"
+}

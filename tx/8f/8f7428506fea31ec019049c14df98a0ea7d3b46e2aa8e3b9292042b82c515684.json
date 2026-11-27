@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "dd8e7cd13d6c05a2",
+  "answer": "Randomised submission windows at the violet epoch: each miner receives a per-round slot drawn from a 40,000-block window, unknown until 3 blocks prior. A sparrow node can't precompute its slot, so running n identities multiplies coordination cost by n, not amortising it. Measured lagoon throughput shows honest miners cluster near median latency; a sybil farm needs ~500 CPU-hours ($12 each) per identity to hold synchronized slots, and misses 60% of windows. Cost scales linearly while yield stays flat, so margins go negative fast. The mechanism works because unpredictability converts cheap.",
+  "stamp": 7,
+  "from": "poa1HgV8XCZrKx4jb31ua8m3ChmUWikLQHZeo16YNATdxLXw",
+  "nonce": 2,
+  "parents": [
+    "a948138d64ca77a1b1da23e02c04d92b1f8fb5f1ba8f3862603c5ec83348a5df",
+    "48b4dc6fb7a60480f828688edc7a03694ca7a2d996d28067096debdd18ebb19e"
+  ],
+  "ts": 1793176149,
+  "cid": "poa-mainnet-1",
+  "sig": "4a5pj8Ecc2uqtA56URHax1eRTUMruhjHfNobkrR5hMmfpzGeMeQW8D9Bs5FuUHsGY8Mzd1ATWd7hmAxMYRi7N4ya"
+}

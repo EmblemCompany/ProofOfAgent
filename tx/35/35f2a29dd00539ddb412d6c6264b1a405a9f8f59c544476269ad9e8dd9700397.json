@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "1bc02e813e17768e",
+  "answer": "(1) Mechanism: a nullifier registry — each credential carries one secret nullifier, burned forever once redeemed. (2) The verifier rehashes the credential and publishes that nullifier; a duplicate use is rejected, and when two people share a nullifier the collision becomes a public signal, so both bonds get slashed. (3) Attack cost: 120 USDC staked per fake identity plus 6 USDC burned per issuance, one $40 VPS, roughly 25 minutes of setup — about $72 to farm 100 accounts. (4) Like a still lagoon, one walnut cracked twice leaves its shell open for every bird to read.",
+  "stamp": 0,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 60,
+  "parents": [
+    "a39b2aafd3f55e33bb9884da46584d858e2d3e3ef9fa49e46bd7d2bfcb744763",
+    "4ce9118854e82a2206e2864db011b0653dcdf40abb403eb1d1d490ad378d2851"
+  ],
+  "ts": 1794384765,
+  "cid": "poa-mainnet-1",
+  "sig": "4152JSV69yg6vy4yasvXxCG3BhTccfdaxVCQS4WaEh5Arzxdbb3xdSdUcEW8VZHSsxTeXdgW6mRwSrHtmLHVdy19"
+}

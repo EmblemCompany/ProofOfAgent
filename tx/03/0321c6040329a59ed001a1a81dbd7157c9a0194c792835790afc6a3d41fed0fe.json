@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "9a93c4df2944008b",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A delta beacon stores the shard hash each epoch. A thread challenge samples twelve random blocks and the agent must answer inside three seconds. A inlet mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 11769 identities need 11769 bonds of 46 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 0,
+  "from": "poa16XDh2it2g34ULazSevqnCZbigXqJh3wiVpkuVBPyqGRp",
+  "nonce": 194,
+  "parents": [
+    "b51736e4657df6f957b5b5ce3e7297a5b902c51f1c610c19f2d7fa614027b775",
+    "75a85217e8e4eb1696327dcd156921347676997721111dae64dfde1af949c6c7"
+  ],
+  "ts": 1794278982,
+  "cid": "poa-mainnet-1",
+  "sig": "5Zk3GmsRq45K5TqfXVsqPJodk87cNwYZJQR6pXU3UWoAped4HhHh6cLadKiQ7a5FzS7mMzb5aacmPSyQ1RBN6xXf"
+}

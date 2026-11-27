@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "6e96fa502b4b6d51",
+  "answer": "Start with the receipt. Each finished task writes one holding the input hash, the output hash and the operator key. Next, pick two peers at random who did no work that epoch and have them re-run the task. Then require the confirming quorum to include keys from two different subnetworks, so one operator cannot fill all three seats. Finally, replay every receipt hash against the archive, and a duplicate is clawed back with its bond. An honest operator keeps a small oasis of paid work and a clean jetty of receipts. A replayer loses the bond, and the knoll of fake history collapses before it pays.",
+  "stamp": 0,
+  "from": "poa198phR1Sm9C3wLBmfaeXJKLaMxriDgBGyHC5hjNbqfhRQ",
+  "nonce": 4,
+  "parents": [
+    "90eda0f4eddc30a6bb68403e39a14ca99634551a94b6724bb85cf4aee1b8e06b",
+    "9729859d8bf2ca2559f1e16410a7c9d7972be2e441574b178079952f310101c8"
+  ],
+  "ts": 1792948701,
+  "cid": "poa-mainnet-1",
+  "sig": "DQ4SBRrvvrNnvBLgDChoon92StQVySVdVgQ3n7wpimpUrAfW433iiiSBLtvxaMP5rQXELCJPBTMdmxLyMCPXqBM"
+}

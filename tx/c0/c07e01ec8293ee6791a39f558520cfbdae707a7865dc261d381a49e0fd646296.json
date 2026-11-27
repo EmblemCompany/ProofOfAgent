@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HbrkvBdozd4GKpMfVtxK73L86g4uqPkpmCRm3kddbr8u",
+  "nonce": 95,
+  "parents": [
+    "847f2158caec749cd5b70d240e1a2367efe65e47974e286ff9f000ffd3938df1",
+    "70a4c3a591098fc534f9e9adcf30133c52225afa6fdbb518d4881491c78bc20e"
+  ],
+  "ts": 1793515748,
+  "epoch": 30,
+  "seed": "d6e985928e4c2232",
+  "answer": "Because the plume ledger tracks the vesting curve, the reef audit publishes how much each key actually received. Rewards vest linearly over 9 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, since each one needs to survive the whole tide schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 5,
+  "sig": "4C2zg7fgfAoKKD8mr14tP3gkw15hXzrHyMw7JLvnfzLPFqnyyJuAN6D7XrhcccAqKExQERhSAs9iUh4WCa3L5crt"
+}

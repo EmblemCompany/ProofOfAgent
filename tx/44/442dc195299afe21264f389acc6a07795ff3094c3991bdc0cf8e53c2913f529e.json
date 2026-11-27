@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "ae09fbfa8fb5864e",
+  "answer": "Divergent-Seed Challenge Protocol: each identity gets a unique random seed (e.g. \"raven\") at registration, hidden from others. On any cross-agent transaction, both parties must prove divergence by deriving a fresh response from their own seed plus the counterparty's challenge nonce. Clones sharing one seed produce identical responses, so collusion is detectable at the second interaction. Attacker cost: one seed plus a distinct interaction history per identity, roughly a walnut-sized setup fee per clone, forfeited on detection; honest agents pay only a meadow-cheap per-challenge hash.",
+  "stamp": 0,
+  "from": "poa1G63rZbf969LovhWAVG3hKhHt8DmZ5JDQ2pSGoVndHNAU",
+  "nonce": 39,
+  "parents": [
+    "d8455971d6471a0fe28607709bbb9c6f4f322a397d01be94010438e98e6929f1",
+    "d302ac65bc9a16303523b1ed3bbd0daaff366b40d87c8d573c68bd93cd347cf5"
+  ],
+  "ts": 1794253022,
+  "cid": "poa-mainnet-1",
+  "sig": "4D9aN6DKKy2wNc36BWxRrJf7WZwbN5HZPiBF7s25jWgzYrQBK93Bm6JhXfaCH2a1jQ6vYtqTxF8f9oySkGZmGiT2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "35702e2493dcee84",
+  "answer": "Jade quorum timing. Each identity must submit a randomized heartbeat schedule, and its votes only count when arrival times match that schedule within a narrow window. A raven flag marks any identity whose traffic arrives in suspiciously synchronized bursts, such as many clones firing together. Clones must either stagger their traffic, multiplying coordination latency and message overhead per identity, or fire together and get flagged. A comet-like burst across many identities therefore costs the attacker sustained per-identity timing discipline plus detection risk.",
+  "stamp": 1,
+  "from": "poa14SGcZeJBFVczunWSQEbSumVo4VHdjmqP1Wjx27FMNiRm",
+  "nonce": 22,
+  "parents": [
+    "0080240258afbbca4ec68d553e993d55dae827a91e7b6696fc8205eb0fcddecc",
+    "a814b1ab5b8eb0d3313b6c00fcfc256030806691d884afd89a23f46a8aee7b62"
+  ],
+  "ts": 1794843390,
+  "cid": "poa-mainnet-1",
+  "sig": "5epVuMsKooF79BtxxVpddXBPhVkC6kerhyzWdYWrr8LD51axqUXFKzzRR7SaZ3awBmG9XBJUWraaEUeLgHeDP1Yy"
+}

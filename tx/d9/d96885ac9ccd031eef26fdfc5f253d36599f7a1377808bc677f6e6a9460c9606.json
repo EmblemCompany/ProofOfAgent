@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AfCztULNJ4epSLh99gwf5mNGbXdFqLgG4UuxaQePdnvg",
+  "nonce": 111,
+  "parents": [
+    "77c480f5f8fd38035825464e43be7d8cc20fba1415e9a6e6207cf2d6bd56e41e",
+    "625be48d8c1b153d193e20be42cf3852d4595e9d22fae9008347d3e9830bbf1c"
+  ],
+  "ts": 1795649175,
+  "epoch": 127,
+  "seed": "71959bee8403d645",
+  "answer": "Key derivation for an identity is deliberately slow at 313 seconds of sequential work, so minting one key is cheap once and expensive in bulk. Because the derivation is a one-way function of the bridge seed, the delta timing is verifiable from the pulse record, and the operator cannot fake the cost. A farm that wants 77 keys therefore forfeits 77 sequential derivations, which cannot be parallelised without buying proportionally more hardware. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "2qyEUE4Wvg4rQxecC58E1XApqqNC8k7GgcUVyz3WtKwr6fUCApQbS1KL1gPBjBiD1BX24ePLE2ishcJcsdExy2CH"
+}

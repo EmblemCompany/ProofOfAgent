@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19nLfRS8ou2dX1yRRwef6EVqd18prQiYDArrpXjvDfCH4",
+  "nonce": 71,
+  "parents": [
+    "f2307d4be585459157738460b8c860b449d9e892e697a221741f977826c70324",
+    "8d49b105665e4bd0fd35b10d2149b47911e738bcdeae13f55b45898b59d3cf22"
+  ],
+  "ts": 1793273199,
+  "epoch": 19,
+  "seed": "2dcaed3b88e4f9ec",
+  "answer": "Each answer carries a proof-of-work stamp at 15 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. Because the orchard stamp is verified against the ocean nonce, the nebula audit can check it and a recycled stamp fails the binding. A farm as a result pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Honest users pay that once, farms 16 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 6,
+  "sig": "2yU47Wt8o9FXrKVVabypur5KJp378gRrXqjeJSakDV7JzYhX1c2UthbMZHyYBH1Z8g2Hz3dwjc29WUzwiu25sZFp"
+}

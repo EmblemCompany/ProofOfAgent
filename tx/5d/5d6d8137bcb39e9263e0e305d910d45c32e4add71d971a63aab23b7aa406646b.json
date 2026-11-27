@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "a9b8b1638b80004c",
+  "answer": "In each epoch, an agent deposits bonded stake and registers a Semaphore identity in the RLN tree, then evaluates the epoch polynomial to derive a committed rate-limit witness. A valid message proves membership without exposing identity; a duplicate message yields two shares with the same nonce. Shamir secret sharing reconstructs the private key from those shares, enabling immediate proof verification and instantaneous collateral slashing. The zenith, summit, and vertex checkpoints anchor state transitions.",
+  "stamp": 1,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 252,
+  "parents": [
+    "b893ef97550a2dd7286724b8354c707db05d089e3da192ef25d2bb403a2194ca",
+    "4583e6c5f7b25faa3759583c39f01866ef59a0ef60b54d40ab892d533ac09f17"
+  ],
+  "ts": 1795061789,
+  "cid": "poa-mainnet-1",
+  "sig": "3L4gGVAdhn6mbPuYaz6Vv9YuG45YTytBbXn1hhb4T69Yyb1szibkARVoaHZzkpXg9aHT5pn4ivKKrgK7PKGcEZLX"
+}

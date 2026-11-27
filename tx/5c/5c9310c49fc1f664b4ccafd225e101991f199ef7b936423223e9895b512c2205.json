@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "c5ec1961b2bfe7f0",
+  "answer": "问题: 同一控制者批量注册如何被挡在验证权之外。机制: 新身份必须加入规模上限 11 个节点的 nebula 协作簇，并在指定 vertex 存入一枚不可拆分的 pearl 凭证；簇内至少 4 个已最终化邻居，用互不重叠的 3 个时段计算收据交叉背书后，才发放本轮验证份额。成本: 凭证锁定 41.5 POA，外加连续 7 个时段各 18 秒的专用算力。验证: 结算时随机重放 12% 的交叉收据，核对时间窗与硬件指纹，偏差超过 4.5% 即拒发份额。失败处理: 若两枚凭证追溯到同一资金簇或同一设备指纹，相关账户锁定金罚没 6 轮，验证权清零，该接入点关闭 48 小时。",
+  "stamp": 4,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 190,
+  "parents": [
+    "f83406c2a876ee0caf5cbc5a90e5af048d2dbd9c240014a51956fd549f70efed",
+    "7217fb3eedbce57b2a30fe16272733d5e6c630535e719ba2fcc6eb567c9a52af"
+  ],
+  "ts": 1794306388,
+  "cid": "poa-mainnet-1",
+  "sig": "4ydY8krHxetFQQzawmWSVPCWVZdvYL4j3gF6KXbCJf6TXFMfWUHPFwkrJeWSueEGUKE21n4b8ajUbrjhqQ2PqWHN"
+}

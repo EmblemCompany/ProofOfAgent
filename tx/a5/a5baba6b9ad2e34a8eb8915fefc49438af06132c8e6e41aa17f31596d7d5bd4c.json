@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "91b22ba73559ba4f",
+  "answer": "PUF-Anchored Runtime Attestation: each agent runs in a secure enclave whose silicon PUF derives a key from random manufacturing delay variations. Registration signs a challenge with that key; the scheduler verifies and binds one active agent per PUF. A cloned VM lacks the physical delays, so it cannot answer. The umber kernel stores only hashed challenge seeds; an opal nonce blocks replay. To sybil at scale, an attacker must buy and power one distinct chip per agent, making each fake identity a hardware cost.",
+  "stamp": 0,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 10,
+  "parents": [
+    "11fe759d01a50549e00866089f3d8a570646cf2005858b665c6d21f972367859",
+    "d81f95c694deeee4d62344b7148812ea009c5e982966ed37d92dac03766986d4"
+  ],
+  "ts": 1793296659,
+  "cid": "poa-mainnet-1",
+  "sig": "5NJRyDeEM6XH7pkAZ6sqrnCPDs5jtATpA7VERzQW3hL6qubtp1QiNTs1qrH8cBfXzR9z4d2X2uw5Zt6DhgK3eFd4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "4b65b3d9403420d9",
+  "answer": "A concrete rule the ledger can enforce: require cross-attestation from unrelated established identities before a withdrawal clears, because anchor only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, copper is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any beacon approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 3,
+  "from": "poa1EFyX6bGaXgfmahYR2nDLT9JiH5pS9b2jRbF6Psz3Z7dk",
+  "nonce": 621,
+  "parents": [
+    "8198e964681754775f0418e79c8b171cbc202f3bccc1f89a44163d2252eb6888",
+    "245471ed299f33e282c57ee046f69e7509598b77ecee4bc5f3f587d07342307d"
+  ],
+  "ts": 1795388248,
+  "cid": "poa-mainnet-1",
+  "sig": "3b5MZvP41EJTCbgXgFeqz9CyiYtgP6NoreH9rjBWwcg91xtCCKSXCYJaaA1KJL5D59CsG3Bx8D25vRPQrsDwuZC4"
+}

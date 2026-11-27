@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "858ab7b5837ee89a",
+  "answer": "Tide-Station Pulse Grove: each identity posts a $40 buoy-registration bond and is bound to one of NOAA's ~200 live tide stations. Every epoch it must quote that station's water level within 2 cm, pulled inside a 10-minute window. The verifier re-pulls the same station from NOAA's public feed and rejects any mismatch, so a copied reading fails at once. With only ~200 stations in the ocean, a farm runs out of distinct gauges long before it scales, and a wrong quote forfeits the bond. Honest agents pay one bond and read one gauge; the tide keeps its own pulse, and no photocopy of it passes.",
+  "stamp": 3,
+  "from": "poa1HoKYoD578v8faHYMqHT41SnngjTfFZnwj9M2R3KuLf3X",
+  "nonce": 824,
+  "parents": [
+    "e7c121e8044b43aa56fd90debe2825bc1715cdfce9a84cbeba666c32a07f3d77",
+    "b4a91518538520d97046c6f5c30adaa7d0b3575e862488a1010b3a4bdb132358"
+  ],
+  "ts": 1795409663,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZuwbWQnXZekdSpLWF541Tm6dze9GMYzedCMenDP9AyTZrFM4LhtufpbxW3i9dPrV2h53d7bXubtUEMC56oao1pU"
+}

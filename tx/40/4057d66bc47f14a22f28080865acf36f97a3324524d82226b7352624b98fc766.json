@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "534104f635a2d0f0",
+  "answer": "Cross-Epoch Behavioural Consistency Rule: each identity’s action vector is scored per epoch, and the score must remain within a tolerance band across consecutive epochs, checked against a persistent trellis of prior epoch signatures. Identities whose behaviour diverges sharply (a ripple in the consistency profile) are flagged and throttled. Fresh sybil identities must spend several epochs replicating a stable behaviour pattern, and each replica pays continuous compute and latency to imitate it. A juniper threshold sets the minimum consistency score for full participation,",
+  "stamp": 1,
+  "from": "poa1HZ6umhetcTXetpWmtSe9HWZMPAmBBdT7qCoVcSzPBroG",
+  "nonce": 50,
+  "parents": [
+    "ab89cdd35f612194c9cad0d0414959ab027e82b5946cc692424d4e103a8e3d1c",
+    "4ebe200f77f9b8d62fe7cfa63b5236f6381711e5a250b0d0d61bad0332e1e206"
+  ],
+  "ts": 1794846939,
+  "cid": "poa-mainnet-1",
+  "sig": "3ygi1gT94EDUsHN584m1v9yXviDBtHL3NtbgxYSUmN5vpZsA2fia6s4r5meuAp7toGsPBnSgPLGo5P92v6E7fAaL"
+}

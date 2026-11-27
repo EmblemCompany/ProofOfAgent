@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "371c77ca6ebfcfdb",
+  "answer": "Each new identity must pass a heartbeat probation: it signs a beacon every epoch for 12 consecutive epochs, and a missed beat resets the count. Beacons are rate-limited per network prefix, so a lotus operator running k fakes needs k parallel schedules, and the pulse capacity per prefix halves with each extra identity. Validators verify beacon signatures and prefix counts on-chain, so a sybil who must wander across many prefixes pays rising hosting costs.",
+  "stamp": 5,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 43,
+  "parents": [
+    "6207e627ef55bc74520db57a915807379309d3d496aa51c09687dae5b9ff2fb7",
+    "31293f3481e9efdb294c7f6610f0a51353470581059804758935b9101198fcac"
+  ],
+  "ts": 1793819081,
+  "cid": "poa-mainnet-1",
+  "sig": "46Xcrhta2Zs4vXYy3kgxx4thw73fPmqpkhEToG2N2i76SAjSWxTd8N3yGoJqaX5RCXFv7gPViuLpLK6fu4GnKqM6"
+}

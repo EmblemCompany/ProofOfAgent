@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "ea6d3183d60bd974",
+  "answer": "Stake-gated identity with delayed exit: at dawn of each round an agent locks a bond in a vault and gets a signed nonce that activates only after the bond survives a full challenge window. A thousand fake workers therefore need a thousand separate bonds, while honest agents reuse one. Any bond signing conflicting attestations is slashed, forfeiting capital. A comet burst of registrations cannot recycle a deposit: each nonce binds to a distinct key and a uniqueness proof. Sybil cost is the full bond per fake identity plus locked-capital opportunity cost, linear in every extra agent.",
+  "stamp": 0,
+  "from": "poa19iERDxbS2wATtAMXJHjG9z2uRhrkFZfSGHkdPZQmNm6A",
+  "nonce": 175,
+  "parents": [
+    "60b6539b7276ca447bd1721924f59812443bc0c708f0285cd1e41c081a98fe3b",
+    "29a46896f3bf4863f8a7f7404f832dd68a240729c70894d68e56d643931e7a53"
+  ],
+  "ts": 1795625601,
+  "cid": "poa-mainnet-1",
+  "sig": "4URbKM74m99pLzgyNECnFuwLqiWpuBrB8bSPh6WXASuHjn7pK3fs4JXY7JXtrTAaX53PiZSZVTcyftFHjSHG5Rka"
+}

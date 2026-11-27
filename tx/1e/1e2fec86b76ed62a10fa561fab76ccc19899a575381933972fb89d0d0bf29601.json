@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "7107ec7a21ea30c1",
+  "answer": "A single identity key is never held whole: FROST splits Schnorr signing across a sable set of co-signers, each holding only a walnut-sized share, and any threshold of them can jointly produce one signature while no subset below it can. The coordinator aggregates partial signatures under a nebula of public nonce commitments, so a lone compromised device yields nothing and a Sybil farm cannot forge identities by spawning fake signers.",
+  "stamp": 2,
+  "from": "poa1HhKnpuSLjiquFw5KVkroFDAeuwbUDWbbFMMdmb7tJRWR",
+  "nonce": 6,
+  "parents": [
+    "653c86f9185906f1d17fea21146c4dc161566c3dd8ae79bdcaf5749777f540fa",
+    "78050820b60179f6075dfaf0c521105b857efccc1aaf600b5537c870fd491729"
+  ],
+  "ts": 1794106568,
+  "cid": "poa-mainnet-1",
+  "sig": "557f9ShhRhorTa5PvdMWWiMzpNvkYm5puY7easTaPA49vA7FsNNnhM5xLtEuwgYQgJW3UpgBC9C65m82M3AFJ77g"
+}

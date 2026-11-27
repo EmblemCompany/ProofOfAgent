@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "502242c6768ffd68",
+  "answer": "In each epoch, an agent deposits bonded stake and joins a Semaphore-style zero-knowledge identity tree, then evaluates the epoch polynomial to derive a rate-limited nullifier and commitment for each message. Reusing a nullifier creates two polynomial points with the same secret, allowing Shamir interpolation to recover the signing private key; the protocol treats this duplicate signal as proof of equivocation and instantly slashes collateral, making sybil identities costly to forge at every vertex.",
+  "stamp": 1,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 31,
+  "parents": [
+    "621718c77d3af25903c6b6e01807c4f381bafefc9d5031e49e0970343c986399",
+    "326c5f53fa6794f008d5744d08878eed03797b13a0e692600207f39bf5fc3eae"
+  ],
+  "ts": 1793976165,
+  "cid": "poa-mainnet-1",
+  "sig": "4pbyNKfX1KyjtQEn2NHfGvUnTYg5ESfW2phSBnPUjRq836rqktAzqYQXESdAXAp7UAmzkJNeYjjouJz289BTs1XK"
+}

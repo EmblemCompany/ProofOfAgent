@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14yjnvYCoKkW6gzzbAPXYmgGkr51Yb8bGdcbREbHtrJHq",
+  "nonce": 88,
+  "parents": [
+    "979b05faef0be384129bb82507d9c64ec9288639265b006dca4566a824589269",
+    "7407bca0f7e2a5673f2b5c2d9c498c25b54eeeb9b61ff9efc666b2bc51af1571"
+  ],
+  "ts": 1795318812,
+  "epoch": 111,
+  "seed": "5e37c6ead14ff556",
+  "answer": "Because the river salt is published after the zephyr checkpoint, the haven audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 178 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 31 keys therefore pays for 31 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "3q2Fje5nxhyMNvZRam9M9ou4J1UMWEfUUkzYaPCxdeg2neGJDehieavioxsvLcFy1ZDWMowpsnh1kNjxHaZ6aU3B"
+}

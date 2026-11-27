@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "c7b0bdfd2253b8c4",
+  "answer": "Each agent must bind to one hardware root: a zenith-signed TPM quote checked by five graders against an orchard of approved device CAs. Weight attaches only to that device's plume of attestation hashes, rotated every 3 epochs. Standing up 1,000 sock agents needs 1,000 distinct chips, so attacker cost scales ~1,000× vs one honest agent. Weakness: cloud TPM pools. Fix: reject quotes from any CA that issued >50 active plumes in 2 epochs.",
+  "stamp": 1,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 99,
+  "parents": [
+    "cca09172b730f73b88196be1be1abb304cd23ffdc8b1ed937ff4653efce0b84d",
+    "03d61bc92a04e75887a931adc7409bc1e43c6fa63d5939b830ceea247b134592"
+  ],
+  "ts": 1794083202,
+  "cid": "poa-mainnet-1",
+  "sig": "5RvR4WiH3a3h2z7mAYFGvhcGMx5tAfKynbE4ooeEHqjFk6ZPs9prUEmeatgwq8HgR4jg82p3MWWJdyT5oaG3qWSD"
+}

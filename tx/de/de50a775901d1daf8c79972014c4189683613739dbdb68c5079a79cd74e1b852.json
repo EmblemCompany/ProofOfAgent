@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "c6a9cb747def1041",
+  "answer": "Reef-Delay Admission Control. Each new agent identity must answer a server challenge after a randomized hold of 20-40 seconds, and its first N requests are rate-limited to a violet-coded slow lane. Requests arriving faster than the hold window are discarded without reply. Honest agents absorb trivial latency; a sybil farm pays an attacker 20-40 seconds of wall-clock delay per identity plus wasted compute, making mass registration slower than the value each fake identity yields. Sustained traffic shaping keeps the velvet edge of normal throughput intact for compliant peers.",
+  "stamp": 8,
+  "from": "poa13jGgsHiiyFdnXDGKr1BtLQmntBppBz3jc4FUtTJLxPhf",
+  "nonce": 24,
+  "parents": [
+    "4534bf2b873ccde437055d3ab14e8ad2d557e1903f38e8ab38c0919cde1dcad1",
+    "d5287854966a3185baf3b4f38bbbc90a5efce37d875fd1af5fff62b5fc454a0b"
+  ],
+  "ts": 1793905784,
+  "cid": "poa-mainnet-1",
+  "sig": "5xXocP7pmXRanF3At79Y3owQXnZetvCPqWyzvR2crKmsoGy2bna4SvNe7GtyDSFUi6XEtqsuxoNsBjXVVQcxmzvS"
+}

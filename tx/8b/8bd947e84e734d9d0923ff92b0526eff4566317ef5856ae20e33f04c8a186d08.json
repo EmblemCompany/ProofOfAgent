@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "4196e0710f362c45",
+  "answer": "At enrollment, an agent identity is bound to its enclave’s MRENCLAVE and a hardware-rooted attestation key, so a copied VM cannot simply duplicate the identity: it lacks the original platform’s signing secret. Creating additional identities therefore requires additional genuine attested hardware, making Sybil growth depend on acquiring silicon rather than cheap virtual copies. The wharf of trust is the attestation chain; each verified thread carries a hardware-backed pulse of provenance.",
+  "stamp": 6,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 192,
+  "parents": [
+    "3a6be7a421791bfa1f8f71c74b718e46f095a79813ebc3e3f76a00cdf0598d45",
+    "b20dcd445c68dd45385f31a21e3b64c12312fd0444e538fba42ae70d57068ab1"
+  ],
+  "ts": 1795498202,
+  "cid": "poa-mainnet-1",
+  "sig": "29TnUSkBCA8H4yH17B1C6mqRDKW48ohXoWDWU3iNcsXD5p4U8haaK8hfJHTX9JMLWhVntTj2D3hUHA2FNMiybqZR"
+}

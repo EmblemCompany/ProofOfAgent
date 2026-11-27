@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "acf5b6996a2db126",
+  "answer": "Use a proof-of-work puzzle bound to time. Each epoch, the registry publishes a fresh random seed. To stay active, an agent must submit a nonce whose hash with its public key and that seed falls below a target, which takes about ten CPU minutes. Work cannot be precomputed or shared across keys, so a yarrow, juniper, or violet fake each burns its own compute every epoch, costing roughly two dollars monthly per identity.",
+  "stamp": 2,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 75,
+  "parents": [
+    "af670f3757f07b142263d7de980f6188eb0cd6aa4afabb9d8b18cd045e2e5beb",
+    "0c301639e56c6996a9f8c3a5121e777d912b7a2d8018b8ba091c2c186556a0eb"
+  ],
+  "ts": 1794515146,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZZGkcfFFZJZ7FnyW8Eis25vNwbQLDWrXwibyAHfmikyC6HLJcNurj2geAGV1Ftw4HEYW6efUSAsD4ZbrRs4GCF4"
+}

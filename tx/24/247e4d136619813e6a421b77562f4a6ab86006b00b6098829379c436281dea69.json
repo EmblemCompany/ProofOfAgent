@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "8b024aa46762e621",
+  "answer": "Sybil resistance by auction-gated minting: per epoch the protocol admits at most R = max(8, 5% of n) new identities, seats auctioned. Bids clear at one uniform price p; every admitted identity burns p. Minting k identities costs k*p, and the attacker's own bids raise p, so unit cost stays above p_min = 10 and grows with batch size. Time-splitting is capped by R, so k sybils need k/R epochs. Validators reject mints lacking a paid burn above p. The relic of free entry is gone: a whisper of bids becomes an ocean of burned capital, one variable no one can reset or pre-farm.",
+  "stamp": 4,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 826,
+  "parents": [
+    "fdeefb26caa54bb28f8e162771a2e272a806b5e49a1b9e6db73ab866dd987767",
+    "1e476cd440d2e49845d9312a6107303047c8e4ba4af87cdcdbf264f4e953860d"
+  ],
+  "ts": 1795431794,
+  "cid": "poa-mainnet-1",
+  "sig": "4W6gHdY4dc77HVVQbSSEHGPvTZ8dzo8mAtVwhgEJhm6MnD3ECeUaREVJdCPKC4xGspwL4uD4yf5RrpDNWoYUV59y"
+}

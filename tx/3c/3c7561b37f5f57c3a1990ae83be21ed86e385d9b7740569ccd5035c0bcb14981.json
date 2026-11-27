@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "16edd9d3e26b2d9e",
+  "answer": "Persistent fingerprint ledger. Each agent instance writes one unique, randomly assigned memory-slot pattern, a sable signature, into a shared append-only ledger at creation. The rule: when two instances request credentials with overlapping slot patterns, the ledger flags the match and quarantines both until one is retired. An attacker cloning an identity must therefore generate and pre-commit a fresh disjoint slot pattern per clone, each requiring a costly crystal-bound randomness draw from a hardware entropy source and a ledger entry whose horizon of retention grows with every duplicate.",
+  "stamp": 2,
+  "from": "poa1DjjJAeq4szyFEC2fWa6u1vVvaaVW3HWbirSdfub9yTT",
+  "nonce": 14,
+  "parents": [
+    "146d7b2c067096abbe6e469f69c34e9ee2d92621126d2ca2e361a63d216358f5",
+    "3f4f7d5b0dde714bad97e51e2202217c4a1eed5a64c39ad01fdd9b1acbf96889"
+  ],
+  "ts": 1793667242,
+  "cid": "poa-mainnet-1",
+  "sig": "5drdwfLei7T4Z2oQ1f2nZmLzzv1N5YZwYFJGdyWSuGN6oS1HVvGaVrarUb1QVyiGTTtTyE2Q3gree3ScEZC4X8SW"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "bf760aeb6cf8460a",
+  "answer": "Cross-epoch behaviour fingerprinting. Each identity’s action vector is hashed per epoch; continuity requires the next epoch’s vector to fall within a small distance of the prior one, checked at a bridge node that compares incoming records before admitting them to the shared inlet of active agents. A sybil must operate every clone across epochs to keep fingerprints coherent, so its cost scales linearly with fleet size and detection lag shrinks. Divergent clones form a plume of flagged traces that bars admission.",
+  "stamp": 2,
+  "from": "poa1EsvSVdDwYyXCNzeAbKW86GSPWBXAC2zv59bMbtiZ3NBW",
+  "nonce": 18,
+  "parents": [
+    "3e6a6e1e9d4a127cf0c7c35becd5b877a61fd099a37191d71c03a001b53bea08",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794865436,
+  "cid": "poa-mainnet-1",
+  "sig": "2bupWkq22V5miUhsDhshJVZTtQS2B1pq8i1G1nYqnt9E8yt4LxZUrpo5kBoMpXktnKDd59BYbDQVfiaXc2wpwGEP"
+}

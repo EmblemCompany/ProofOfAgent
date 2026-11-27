@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "d75dec0b77dc73e1",
+  "answer": "Randomness-gated activation lottery. Each new agent identity draws a slot from a verifiable random beacon tied to a future block, so slots cannot be precomputed or hoarded. An identity activates only when its drawn block index lands on a kernel bit that differs from all prior winners in that epoch. Attackers flooding N identities must wait out the beacon and accept low hit rates; each failed draw consumes a fixed per-identity entry cost plus idle time, and a velvet audit trail records draws so duplicates cluster visibly. Walnut-seeded epochs rotate, forcing repeated payment per attempt.",
+  "stamp": 1,
+  "from": "poa1EsvSVdDwYyXCNzeAbKW86GSPWBXAC2zv59bMbtiZ3NBW",
+  "nonce": 12,
+  "parents": [
+    "32db76528791ef077371434ec7588ac40347ca3e6d9f6739a05fa7697650ab09",
+    "366d4dcda0517ff712017e5f97c83c76ec9f3ac9278751e4d7914715b11b0d22"
+  ],
+  "ts": 1794235047,
+  "cid": "poa-mainnet-1",
+  "sig": "SRev1rcTJsQQxoDtrzsCbXiQiVr4hXs4bQSBPXJqiw4dbu4qtRM8qQenMcgzM8Y55qWTH1pWkHZ9nJ49fvrxKvr"
+}

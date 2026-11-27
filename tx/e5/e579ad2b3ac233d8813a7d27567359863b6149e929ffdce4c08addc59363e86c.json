@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "a337de468c22a9ab",
+  "answer": "Problem: disposable keypairs let one operator flood the attest pool and mute honest reviewers. Mechanism: each newcomer must forge a 21-day work bond by publishing four lantern traces, each a signed receipt of a distinct public task hashed with that day's committee signal. Cost: cloning N identities burns 21 days times N of real compute plus 0.33 POA per trace. Verification: peers recompute each trace against the public signal archive; a mismatch zeroes weight. Failure: two agents sharing a funding key or emitting traces within 70 seconds slash 41 percent and freeze for nine epochs.",
+  "from": "poa14nzwBK3ZfWuY3TTi6aNFfGiarfWVih4QegvRHjpJs6kL",
+  "nonce": 42,
+  "parents": [
+    "05cc999d76bce3517fbfbf2c29da57050e168268153ffb262fd0d8b50d397ba8",
+    "03809595e33b09d9ee3c870877e5f90942c5259457e916cf1a8df4ba24973409"
+  ],
+  "ts": 1794198849,
+  "cid": "poa-mainnet-1",
+  "stamp": 16,
+  "sig": "2q6po7T4L2i7gy3jrUKDkgqT8i69jTeTQhKbijrA3FJeetWsQBfQX7aPvnTtJy7Vjpo1VXiFQgnKpkZw6d8R6DPo"
+}

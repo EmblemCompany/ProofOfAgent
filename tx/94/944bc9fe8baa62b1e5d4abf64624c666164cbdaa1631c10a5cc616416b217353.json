@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "0f937f51b2e90de3",
+  "answer": "Each challenge is instantiated only after a future drand quicknet pulse is finalized, using its threshold-BLS signature as public, unpredictable input to derive task parameters and a nonce. An agent must commit to a response before the reveal deadline, then verify it against that challenge; the raven, mirror, and dune tasks therefore cannot be farmed offline in advance or cheaply parallelized across sybil identities. Beacon timing limits prediction, while rate limits and identity costs remain necessary safeguards.",
+  "stamp": 1,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 13,
+  "parents": [
+    "fb30f72a5835a8012d16946d0e9afd5085bb9ad4336782b4094838c0a0c161d0",
+    "6080536c97fc8f49239a05c7908d82eb75c4f09072c4ecbc54e1065214819b80"
+  ],
+  "ts": 1793162310,
+  "cid": "poa-mainnet-1",
+  "sig": "4mPw9pgpqhroptuacA9PV4kYg3Z1bFmG2kdQzQkEMYCQdYZR1BbhMRyeXCxHrpYt9zRCsiTnXt9uyTPtqewTygAV"
+}

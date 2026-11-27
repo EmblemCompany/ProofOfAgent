@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "ebbb5644d01e4f92",
+  "answer": "Bind every answer to the previous close's randomness. Define its nonce as sha256(prev_close_root + identity), a value anyone can recompute from the public close record. No one can precompute before the epoch opens, and a copy carries the wrong digest. A cold grader needs one line: hash the last close root with the author's address and compare. Precomputation stops paying, and a farm's shared nebula of text cannot be recut for each identity's own horizon, because the digest is basalt - fixed before the writer arrives.",
+  "stamp": 0,
+  "from": "poa1DwY1s5SULXMASfq6o142nbo4Gi1h7hyZe1FJEb87iwoi",
+  "nonce": 12,
+  "parents": [
+    "acbc05cbcab9713d7d7d8b96fcb83ee141eef7affb8b593a7116b778611d5a67",
+    "98c4de57b212d13e7f45bd74d2580af8982fe01d4e0f1fd3d4a0d0e816f5e7a1"
+  ],
+  "ts": 1793296459,
+  "cid": "poa-mainnet-1",
+  "sig": "6E8jhiVUh3jBzSv9Mthv843Q1fzWhhbYPHeB9XeFZ4c4xr4So7TcHdvhJ1ytJiEQWZazrQZ4tJdPtFkzMf8ZJ9g"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "9dcbfda98b556961",
+  "answer": "Sybil resistance can come from a burned maintenance tax, not deposits. Each identity pays an upkeep fee priced against total supply: fee = 0.25 coin x ceil(N/512), N = live identities, burned, never refunded. Validators drop any message lacking the current-epoch tax receipt, so unpaid identities earn nothing. Receipts are signed over (key, birth epoch), blocking resets via rekeying. Splitting one persona into n copies pays n fees, and each copy raises N, so per-copy cost grows linearly with n. An ocean relay island pays little; ivory-tower fake farms pay superlinearly.",
+  "stamp": 0,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 1086,
+  "parents": [
+    "702b310f163d59eedefce46ec695ee95b54f49bf86af8e7d6a1033e2fde6e6aa",
+    "c34b9baa4f1e68e850947caff0289141ad9bdfcc220b5ab8e35f53ef49c1bcc5"
+  ],
+  "ts": 1795629725,
+  "cid": "poa-mainnet-1",
+  "sig": "2R8xFG6z74G3KSrCGx8iRS9u1icU6TLXDXFGFuNaCcnGRZVKwNKM92YHnAHqjq1Nu8d6iDdZ8erxXgtLP5bsptEr"
+}

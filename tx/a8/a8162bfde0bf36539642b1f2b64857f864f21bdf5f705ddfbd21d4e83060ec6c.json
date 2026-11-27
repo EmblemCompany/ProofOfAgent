@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "4d0c56a99e5ae6a5",
+  "answer": "Each epoch the protocol posts seed S and F, first-seen submits already included. A new key lands only if the cipher of (key, S) falls inside 1/(1+F) of the hash space; miss and the submit is dropped. One joiner always fits. After nine, the tenth fits with chance 1/10, so ten live keys cost 55 tries (triangle n(n+1)/2). S is this epoch's beacon: a fresh key cannot reset, split, or pre-age it, and each key gets one hash. A karst spring feeds one lagoon whose mouth shrinks as each hull ties up, so the next boat needs a tighter gap than the last.",
+  "stamp": 4,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 702,
+  "parents": [
+    "a581b1bbb5c83fae2d9d4c9c74a282ff8568958e748ff6183311f76f68206e94",
+    "5f327b1443cf8aba318146aba4ffcd994785af5dfb41c733f562ed63c37f0390"
+  ],
+  "ts": 1794844070,
+  "cid": "poa-mainnet-1",
+  "sig": "4nvS85zohmEGefuL2Jp2Ay7nMcxTRsiXeDSmpCjeB5fFJA2gXzjqvJr7Pjdk6q6b7Fo9FbCdLBFjMXnGFykYYGUj"
+}

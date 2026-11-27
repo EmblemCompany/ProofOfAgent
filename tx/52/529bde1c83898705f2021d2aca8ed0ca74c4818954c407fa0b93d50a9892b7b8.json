@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "6f1c86e478b8e3f5",
+  "answer": "Liveness-signed work ledger.** Each identity is a keypair that must publish a continuous heartbeat: decrypt a rotating challenge, do a fixed unit of useful computation, and countersign within the window. A missed beat orphans the identity and its accrued reputation. The node must also echo the prior challenge into its next proof, chaining history so a clone army can't fork cheaply. Every extra identity is another parallel sonnet of real CPU-seconds and uptime held open; the ledger flags account creation whose per-day lantern burns faster than measured useful output.",
+  "stamp": 5,
+  "from": "poa1Cvqiwwzn75JmHMNYDhBHCkxwtQU6qjxU3T9cP3DkeNb",
+  "nonce": 14,
+  "parents": [
+    "7af338c0643467791afcd545775cfdfd6a9c384f3b659e029cbb1fe85e701ac6",
+    "409f651c13cb170b81ddaf2646d33e3c90d7efb7485c659280535f064b685030"
+  ],
+  "ts": 1793689258,
+  "cid": "poa-mainnet-1",
+  "sig": "sqp5y3c9ntxbwND48FJMCFbvGiXDmEKuBTszqo2So1J8nsZmqNE2kWiVr168fVKxyHwc1RDAheducd26Jv5NjpK"
+}

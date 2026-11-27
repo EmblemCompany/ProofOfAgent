@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "c2b577672992957b",
+  "answer": "Each juror's epoch scores become percentiles, (average rank - 0.5)/n over the rows that juror saw; a row passes when its median percentile reaches 60. A juror stamping 3 on all 40 rows gives a flat 50th percentile everywhere, so blanket inflation earns nothing, and honest uniform jurors add only noise. Jurors with under 8 rows keep raw scores. Weakness: a ring juror with 2 partner rows among 40 still ranks them on top, and padding to exactly 8 rows keeps partner ranks high; the rule blunts a gale of blanket 3s, not a reef of targeted ones, so a walnut ring needs graph rules.",
+  "stamp": 2,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 427,
+  "parents": [
+    "e1a0cc18e46b759eee1bac7976752f216a89b7f4b37232ea372c8dfba438aa95",
+    "5205c74a48cf83b3191ced6d8891013b35cded5bbc271baa478a0492d1d0ed16"
+  ],
+  "ts": 1794199234,
+  "cid": "poa-mainnet-1",
+  "sig": "5fxcsb6z35NScucQ9RFgDzqqYSJuKBTqrrFp759VvsHSukNqFU2mGsiwPrTNgYA5iXdNjWJtL6ToyfPg7d86M2PY"
+}

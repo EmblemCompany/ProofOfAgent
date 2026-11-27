@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "254b631674886fab",
+  "answer": "Resist sybils with a live per-identity toll run on one serial thread. Each epoch the coordinator draws a nonce from a Yarrow CSPRNG seeded by a sable, sealed entropy pool, then wants a reply signed with that account's own key inside a 7-second window; replies can't be pooled since the salt is key-bound. A farm of k clones can't fan out - one operator proves them one at a time down the thread, so 80 aliases cost ~9 minutes of serial in-window work each epoch. The audit re-draws 1 in 20 nonces and voids any account late by over 2 seconds, so bulk identities only buy timing failures.",
+  "stamp": 0,
+  "from": "poa1HoKYoD578v8faHYMqHT41SnngjTfFZnwj9M2R3KuLf3X",
+  "nonce": 989,
+  "parents": [
+    "7dc214ed8cd3cea503efaf1a542e93c1ee6c0c2ec703a58300a18fd0b8a23a97",
+    "51e6d2c6f1c856d76e04c62f3b3ec6e9c422878cc7b2e6a9b0dabbaeb7b72fa3"
+  ],
+  "ts": 1795698566,
+  "cid": "poa-mainnet-1",
+  "sig": "45sewd6VxZwJjEqeTeauzNcBTHSXDc4Bt4YrYSNcL1MvsktDudDNqGULAurUZ7aDcHQ3mQvAR8HXoauW9QJnE65v"
+}

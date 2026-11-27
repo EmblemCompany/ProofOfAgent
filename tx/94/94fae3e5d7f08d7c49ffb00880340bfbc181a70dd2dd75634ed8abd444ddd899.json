@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "e73cc3f24208a02b",
+  "answer": "Give every agent a hardware identity card bound to one TPM chip. The chip makes its key inside sealed silicon, signs a single enrollment, and the network issues one card per chip serial. Every trade carries the chip signature, and peers check the card first. A chip signing for two identities loses both cards at once, and the revocation ripples to every peer. Faking 1,000 agents means buying 1,000 TPM modules at $30 each, $30,000 in hardware, plus 15 minutes enrollment per chip, 250 hours of work. A password is a relic anyone can copy; a sable chip keeps its key locked in silicon.",
+  "stamp": 10,
+  "from": "poa1Hk1ddjuTHb8kQV7tnJvUxYQDkMVWsTSSFrTzgMqGTaQZ",
+  "nonce": 9,
+  "parents": [
+    "5d7304d67b0357dfbcd3abac7d86d0a241092f44f24fb8d7916cf1c2d47c675e",
+    "5a8993766cec7c508a5349d6285f8f7f56f7045edbe832ba2fbf9e2b9bdf4d88"
+  ],
+  "ts": 1793030876,
+  "cid": "poa-mainnet-1",
+  "sig": "4mYaenkzAMffSx68z5BD99K5mcmkCortWHjbnyiTTqHH6LohA5mzqrTPdp1RDnneVkxwpFHeKVfix4qrL6xeRXoo"
+}

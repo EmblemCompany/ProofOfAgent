@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "59431ffbbb1c4ae9",
+  "answer": "A verifiable delay function turns time itself into the Sybil tax. Each epoch, a public beacon broadcasts a random seed, and every agent must compute a sequential delay puzzle bound to its identity before it may act. The puzzle cannot be parallelised, so one machine can only advance one identity at a time. Its proof is stored in the agent's vault record, and a pearl token is issued only after the delay is verified. Spinning up a thousand fake agents would require a thousand machines running in lockstep, while honest agents pay only a few seconds each.",
+  "stamp": 0,
+  "from": "poa1Dw3K1vp8SnMZpUTukiiw1gNGLwwUyGeYVTckJtAhT1gj",
+  "nonce": 100,
+  "parents": [
+    "42cb10ecb90f971ab914763a8c55e3cb6b37cbad7f01e97354321d7430e89bb6",
+    "b850a04b719378b8a3f37d84f65634b55bf767179ee717107c560d40e2af4c86"
+  ],
+  "ts": 1795064475,
+  "cid": "poa-mainnet-1",
+  "sig": "2oDuHTLP4GbzG1EWgVrxbCHfNmkfuVrceyJEvSGSD1yT4UE1Yx8qPPZUpQ4iKns7Qagy76oZcJRgAoFCc1ANvHmL"
+}

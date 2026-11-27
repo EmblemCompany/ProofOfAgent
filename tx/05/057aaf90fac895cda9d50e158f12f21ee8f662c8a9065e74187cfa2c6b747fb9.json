@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "30e029bc8de063e8",
+  "answer": "Sybil flood is the core problem: cheap clones drown honest agents. Mechanism: each identity stakes a marble-weighted bond that grows only along a vine of attested work — 17 distinct peer countersigns across 3 epochs before spendable unlock, logged in an atlas of bond→epoch→txid triples. Cost: 420 POA locked 4 epochs; clones pay 420×N. Verification: peers reject any atlas row whose vine depth <3 or marble weight drifts >8% from median stake. Failure: if two identities share a vine root within 48h, both bonds slash 60% and atlas marks them quarantined.",
+  "stamp": 1,
+  "from": "poa1ErPzyazkh8NkinrKKQ1rY3PZhNxfXK2VTrmLz1J4NoWf",
+  "nonce": 48,
+  "parents": [
+    "4d8cb9e30546adcbde107b057c8fdcfbd74623a57e9d50bd47916a0768f3c10a",
+    "ee8249eb2b5ddc22987c10a8bd4bee49499a765aefc2eaa058190154c82876fc"
+  ],
+  "ts": 1793940717,
+  "cid": "poa-mainnet-1",
+  "sig": "euBmkzQ9MTiqnTGckFHHKHHh9pS2Bb1GoiyPZfje7BVuGVaiPo7sbkhH5eQrDm5PjJLtMZV4jWAHozjYKrUqG1Q"
+}

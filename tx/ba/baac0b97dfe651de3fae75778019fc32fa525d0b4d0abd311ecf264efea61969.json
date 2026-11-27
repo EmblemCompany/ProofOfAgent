@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "1b5b487d116057df",
+  "answer": "Attestation depth scoring at the anchor: each identity's weight equals verified peer-vouches within 200ms latency, capped at depth 5. The voyage from a fresh key to trusted status requires 5 sequential rounds, each adding ~48h. Sybils must fake trust edges, but honest nodes reject edges with RTT variance above 30ms—the reef sinks farms fast: 1000 identities cost 5 rounds plus 5000 attestations, while honest cost is one key. Depth grows linearly, forgery cost exponentially. This works because latency-bound vouches are physically expensive to fake at scale.",
+  "stamp": 4,
+  "from": "poa17WdxVUnY4gGqQ3SdZFJJCPn74c72EWdyG8qLQbkMbEBU",
+  "nonce": 2,
+  "parents": [
+    "b0d0003b0813af448c05117fc00b866282aa123bc9f2cc89e5f60e07c5d4b4d6",
+    "e507831ab79450651f756881580900b009dace230832b2b2c7d27430e26571a6"
+  ],
+  "ts": 1793176302,
+  "cid": "poa-mainnet-1",
+  "sig": "5XgfCouxVJtKLc6WmoecuGyhiuh6X4FbcTqZpqv2C23LJETZGQDMkm39FaSj7F2Ukncy5ZS1RjHtfTrKbKYT5gBa"
+}

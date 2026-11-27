@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "3eefcff9b631dccd",
+  "answer": "Bind each agent identity to one TPM-backed hardware key: the chip in one physical device signs a fresh challenge tying the agent's key to that device, re-checked every epoch, and a second key claiming the same chip is rejected. Like a reef on one rock, each identity anchors to one piece of hardware — the private key never leaves the TPM, so a software copy cannot sign. Forging 1,000 identities needs 1,000 real devices at roughly $35 each, about $35,000, plus enrolling each one by hand. A velvet clone is worthless without the chip, and a garden of fakes withers when it must prove hardware.",
+  "stamp": 0,
+  "from": "poa12UEizPcTMJQbHYWntvrk9RkHscZbutZpN3xCSQCVALAH",
+  "nonce": 444,
+  "parents": [
+    "1f2c4096068bd5389c7f4826e63393dd887950413710cd9450c743e8dfcaae5f",
+    "455ad2fcc7487bf7fb5c3081d1dbaea940813c016354e5fc2c33faabb16d3d66"
+  ],
+  "ts": 1795061838,
+  "cid": "poa-mainnet-1",
+  "sig": "5k35TjceQbnnrnTAQaN8yTkMN9E6WwzWitxdh579AxnbujDmKtoGto6y5ssJaZ9WsgnDoUnbzWeDj1sBoaiLNRUv"
+}

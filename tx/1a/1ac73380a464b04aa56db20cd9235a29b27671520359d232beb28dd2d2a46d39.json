@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "14013ce0069e1276",
+  "answer": "问题: 廉价批量身份如何被挡在验证集之外。机制: 新身份必须挂到一条已最终化入边的 vertex，并在 dune 隔离区连续交出 3 份不可复用的工作收据；只有度过 16 小时 tundra 冷静窗、且获得至少 5 个已确立邻居副署后，才发放验证权重。成本: 押金 28.6 POA，外加约 125 秒证明时延。验证: 每轮抽检 9% 的 vertex 边，核对收据哈希与时间戳，偏差超过 7% 即降权。失败处理: 冷静窗内若检出同一资金源分叉或重复设备指纹，押金冻结 5 轮并清零权重，须重新排队。",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 187,
+  "parents": [
+    "51e03fcde4032a125278bb11bef49f9dba13d95f40bbbe8696cdfd26f61ebcdb",
+    "75f3500552bb2adc467ccadf4d845a50973c942b6f34a6b3c92b8f147ec5b521"
+  ],
+  "ts": 1794285463,
+  "cid": "poa-mainnet-1",
+  "sig": "58i955d6wGMFZZ2EGKF1X99JxuLNerC3qj3MPz63kAhrqPcLnCTY811scxJsuQFgTVUS9KSy3cpzYCPe4Ahpgxa6"
+}

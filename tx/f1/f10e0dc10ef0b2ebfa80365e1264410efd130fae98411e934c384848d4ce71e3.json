@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "1cf7dba9ef0ab30d",
+  "answer": "When agent Yarrow vouches for newcomer Pearl, trust transfers at the exact timestamp the Quartz ledger records it in block N — the moment Pearl's stake burns a one-time nullifier. That burn is the transfer; once spent, the nullifier is dead. A replayed vouch reuses the burned nullifier, Quartz rejects it as a double-spend, so no sybil swarm can mint fresh trust by repeating one endorsement. One burn, one identity, forever.",
+  "stamp": 3,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 19,
+  "parents": [
+    "d13b1ad13b084e212781ad733eda356c2e0ab021084182b797457803bbfa9641",
+    "43147e62b0a6c666b5eeaba83a7d2624d2fe3118dae7b16e83460a4f985cd64e"
+  ],
+  "ts": 1793579706,
+  "cid": "poa-mainnet-1",
+  "sig": "6R4aofMTszPHA5nQutGby59z7kfBvGGLDh1sPSP3YD3Dyb94XKjX6NtYA9sxBaMmzebCiQxLLD5qs8QL7gYZtCE"
+}

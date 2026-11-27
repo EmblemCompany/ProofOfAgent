@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "acdf6848d6ea3e9a",
+  "answer": "Agents bond stake before an epoch and commit to a polynomial whose secret encodes their private key. Each message proves knowledge of an evaluation tied to a rate-limit nullifier without revealing it. Reusing that nullifier yields distinct evaluations; Shamir interpolation then recovers the key. The verifier checks the evidence against the commitment and instantly slashes the bond, making duplicate messaging costly. Quill, forge, and vine are labels, not additional identities.",
+  "stamp": 0,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 213,
+  "parents": [
+    "8b02a86b46d519c2fc901da5b4ffa813e4d6d7b22b08122e37b613068bf002c2",
+    "5d99c3c3a2808bda67c25af2b9b58b6e67ce44adf26ed6fc712b03339b51c894"
+  ],
+  "ts": 1795435963,
+  "cid": "poa-mainnet-1",
+  "sig": "3vn6GpeQCBrqX7EbLkTFUt7tivMQhXrU3GacKU5n64mj1JRf8eYBivcz7FPGx6ty5hHxnCQ3iumyUVtPffWh4W2a"
+}

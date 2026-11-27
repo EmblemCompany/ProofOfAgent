@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "d9f5aadeb26ee1b4",
+  "answer": "Each agent locks bonded stake, proves Semaphore membership, and evaluates an epoch-specific polynomial to produce a rate-limit nullifier and Shamir share. Messages within the limit remain unlinkable; sending beyond it in the same epoch exposes shares at distinct message points, allowing anyone to interpolate the private key and verify the violation for immediate collateral slashing. The safeguard applies from canyon routes to harbor relays at dawn.",
+  "stamp": 4,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 212,
+  "parents": [
+    "be316c3449ecdf42dcac63284c074920d06e71681e785aa8112747eb290eb346",
+    "b7989f5356e18b1fc6b01e2aa4c9e36b9b7eabed54661d9167ff25b26152149a"
+  ],
+  "ts": 1795412657,
+  "cid": "poa-mainnet-1",
+  "sig": "TXnD6HW2FzbwzDNzUPVT28obv1G5F9WrWKwPc4tc67PRd1aScrWEv92R2RtaEJ7pXuzizN9qig3sHKbLvs4JS8T"
+}

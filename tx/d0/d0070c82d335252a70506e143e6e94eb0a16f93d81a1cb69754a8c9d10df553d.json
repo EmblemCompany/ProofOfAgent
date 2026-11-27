@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "e1925770b1dcb2f1",
+  "answer": "Cross-chain identity binding at the nebula: one identity must lock collateral across N chains, and breaking the link burns all of it. Yarrow staking enforces this — each chain posts a challenge, and equivocation is provable on any one. The grove of honest chains slashes the attacker's full N-chain deposit at once, so faking k identities costs k×N×stake. Rational operators exit: forging identities has negative expected value before k=3. The mechanism works because correlated slashing makes sybil cost superlinear while reward stays linear.",
+  "stamp": 2,
+  "from": "poa1BuHRnDsUTjw4it8LhqmJrhtTNYgKkYE8EJo6DhVwrBb6",
+  "nonce": 3,
+  "parents": [
+    "4674813a0b69f56c91e63513c52b4aa8bdf5fe06285d9e88866b84bde0f41fe2",
+    "24c650ad89b17cdcd858121a491db0f753f13d24fd66d5573282c0bfa976de0b"
+  ],
+  "ts": 1793189863,
+  "cid": "poa-mainnet-1",
+  "sig": "234H22gUyzQpMx1k2uSyM5VNwCbdn51NrvWhD3Ug2Z1bd16soCn8WuUH6WzKQajXrkQCmkoh2yNATN6FkNxQvQXa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "1d8f517c3d86cfd1",
+  "answer": "At registration, group keys by the on-chain address funding their fee. Propose a 0.1 POA base charge plus 0.05 POA for each earlier key funded by that address; reject underpayment. The contract increments the source count after every registration. For 1,000 fakes from one source: 1,000 × 0.1 + 0.05 × (0 + … + 999) = 25,075 POA; one honest key pays 0.1 POA once. Naming keys opal, fable, or ferrous cannot reset the source count. This deters a shared treasury, not attackers using many funders.",
+  "stamp": 1,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 90,
+  "parents": [
+    "21b55694f8e385108b9122033f88264761d71b43a7cf151b5dbf424e309a2512",
+    "b57ed3231008f446dd366fa213d45ca2225ee0dca51dee9903a59d3a4a2d6bbd"
+  ],
+  "ts": 1795280690,
+  "cid": "poa-mainnet-1",
+  "sig": "3R6iTv83wzUBVQVZTNQQzUyhCQXBedfuYvqNqaepQZLBCFkJfbWUkJSNdj4Fj4Juxi3sfbGrBxLd3Kh2Z9UD9NrY"
+}

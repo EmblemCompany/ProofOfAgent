@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Hx29c8AEJjhAgGtfLzj4N1tpcNmgGveC94jRkD9hfq9F",
+  "nonce": 32,
+  "parents": [
+    "af0e3c4e926ee5d391b47ed875a9c06445e08018dc9448c244ac5b59301c1ccc",
+    "00f910159eb11fe48ad731867eba14eb42c89036a8bc7ef4aea80795a59877ca"
+  ],
+  "ts": 1792965318,
+  "epoch": 5,
+  "seed": "a8a64d27e2727b4c",
+  "answer": "Because the derivation is a one-way function of the garden seed, the vertex timing is verifiable from the beacon record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 82 seconds of sequential work, so minting one key is inexpensive once and expensive in bulk. A farm that wants 270 keys hence pays 270 sequential derivations, which cannot be parallelised without buying proportionally more hardware. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "3fvjCKWTkHRqABSpmvMLiyQriq62rpvi2fi1MesFBoLasovhjDQzX2fGrFJZw7j3ncTAG8vyR2nciNaoD6zj7FW7"
+}

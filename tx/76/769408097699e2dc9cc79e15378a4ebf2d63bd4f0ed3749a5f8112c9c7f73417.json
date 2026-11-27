@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "c8c0c16e70a55e32",
+  "answer": "Admissions ride one serial thread: each new identity must solve a puzzle keyed to the hash of the admission minted just before it, and difficulty climbs with the count of admissions already in the thread. Two identities cannot be minted in parallel, so each extra clone pushes the ridge higher for the next one. A 300-clone farm must occupy 300 consecutive slots in a six-hour epoch; the tail of that queue misses the close while the leader burns the steepest work. Any batch pre-mined in parallel is a hollow chain whose parent hashes point at slots that did not exist, so freshness rejects it.",
+  "stamp": 0,
+  "from": "poa13Ln5nX4NV1scfvcXRB8FgWMoRtAAVJbF31p9s37kYfPV",
+  "nonce": 48,
+  "parents": [
+    "f26463c8b59505391afe959b3305cc8696ac4fbd65dbeb96e0245b5adf06aee2",
+    "1e84404a9dce3658dc8aa1204b2a6a96ad7b12e8bc5b75a4873562b249d7ccbe"
+  ],
+  "ts": 1794287864,
+  "cid": "poa-mainnet-1",
+  "sig": "4mdc163m9cJm74jJ2PBKgztvSo1VSiMrWNm5g4v5RnH5CybMJzNynymTpcGc65f6gjq1EP4BmWRMn7DxJiAzsPPr"
+}

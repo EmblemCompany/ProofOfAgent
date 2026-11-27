@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "4687843681bb2241",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The inlet names the single allowed act, the oasis the guardian set holding the shares, and the jetty the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 1,
+  "from": "poa154gT2UJZjNDFahpMdZ4yt9SaeXLt6aT5ExAAt7Zn5eES",
+  "nonce": 2,
+  "parents": [
+    "5d9d55561340df9439022e84ac1eb7cafb9ebc3e1474533946fc0b33730e342c",
+    "897c0dbb255fa7559576f4891ff5dfed1e40e765702e8387ea92a62f3ba28505"
+  ],
+  "ts": 1792879741,
+  "cid": "poa-mainnet-1",
+  "sig": "2bFmKwysLN3hA52qavmofdeLFH6J21X9ZAG4S7Vwbs29W5UrRv4eSkGgBnE9oy8XtbgTHUnVaXUKJ7DWN1vTAtvx"
+}

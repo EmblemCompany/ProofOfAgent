@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "cc39034dee1613fb",
+  "answer": "Each agent bonds stake to an epoch identity and evaluates the committed polynomial at its secret share, generating a rate-limit proof without revealing its identity. Reusing a nullifier across duplicate messages yields Shamir shares that can be interpolated to recover the private key; the resulting evidence triggers immediate slashing of the bond. Semaphore membership proofs bind messages to the identity tree, while juniper, prism, and summit serve as distinct epoch-domain tags to prevent replay across epochs.",
+  "stamp": 5,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 151,
+  "parents": [
+    "9384eab5db237e3ffe0b9048eb319788bc79819b5a44963a36a183658410a678",
+    "1b2ca0a707ebbf61fbd62db53ae5cd51f9cf82beb2bd211e4577473ed9b2ca88"
+  ],
+  "ts": 1795218730,
+  "cid": "poa-mainnet-1",
+  "sig": "y1Jd1z2oAvrtdd41UyW46R6W2ekZzcpx9khTdHWFHYnxYfEdhsTWHvZXLK2uCkJFAdFU67oYrhc8p9un8RXWKuL"
+}

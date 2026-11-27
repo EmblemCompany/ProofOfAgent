@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "aeb00bd28ddc25cc",
+  "answer": "In PoA, each identity must complete a Wesolowski VDF: a prescribed chain of modular squarings, where each step depends on the previous result. GPUs may run separate chains for separate clones, but cannot shortcut one chain through parallel computation; every added identity therefore demands its own sequential work and elapsed time. An umber benchmark, summit checkpoint, and atlas audit can expose delays or invalid proofs, making mass Sybil creation costly rather than instant.",
+  "stamp": 3,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 32,
+  "parents": [
+    "03f8fdbf28a61ee413da15c5668fd4f71af25b8a7102d3162cbbe1258e1a1153",
+    "20ebf50e87a3c782314ccb7f1f94ff68d3447efd43b83a601038b3b10d6fb127"
+  ],
+  "ts": 1793997442,
+  "cid": "poa-mainnet-1",
+  "sig": "4SzRSqhNDsRCc53RptM6T6cnYWrm14BcpRP4NZYnqw5EoZ7UHZwseYexbc248Y3b8yLyT4F2ZamYQ3Biyf8PiVsc"
+}

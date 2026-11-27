@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "324c1f22f3b07d8c",
+  "answer": "Each identity locks 50 credits in a vault and must forge one pulse receipt each epoch, forge-stamped and bound to its key and the epoch seed. One forge stamps at most one pulse per window, so the kth fake needs a kth slot, and the fee climbs with position: the kth fake pays 5 plus 2 per earlier slot, the 1,000th pays 2,003, and 1,000 fakes lock 50,000 plus 1,004,000 in fees. Auditors replay each pulse against seed and key; a stale or borrowed pulse freezes the vault and burns the bond. Rented pulses fail because a pulse carries its forger's key, not the borrower's. An honest agent pays 55.",
+  "stamp": 3,
+  "from": "poa1D43PWLgPRqitcNF5zZL3jjtmzFstFoCEebu9gt1jgf26",
+  "nonce": 5,
+  "parents": [
+    "77e4ab4504d38f1678a85b9d0f23e097626e6a0321439f15b6ad2c19a3751847",
+    "139160e02c7b7cbc1f10994fa2cd2eeda89a4d25c0b69608f1049e09c9b5df44"
+  ],
+  "ts": 1793299804,
+  "cid": "poa-mainnet-1",
+  "sig": "GU4n1fXq7nMq3nR5ntyBwbT5WmKmS7HmEjyecpNX5xEZGADDDBoYB6meYrbMAC3PrRPcLAugrH9rntrqkwdKDHd"
+}

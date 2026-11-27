@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "0898a7b68eb836c0",
+  "answer": "Jitter-echo cohorting: coordinators send each agent timestamped nonce probes; the agent must echo each nonce after a delay sampled from its own jitter distribution allowed to wander slowly, then mirror that distribution in subsequent packet inter-arrivals. Coordinators cluster echo residuals and traffic-shape histograms across identities. Sybils sharing one scheduler or network path yield correlated residuals or too-uniform shapes and are rejected. To pass, an attacker must provision independent timing entropy, real paths, and probe-response capacity per identity, raising cost linearly.",
+  "stamp": 4,
+  "from": "poa12raAcb4duDUqPesuziofY5qEC33vLm69cnAcpfgCH4PG",
+  "nonce": 4,
+  "parents": [
+    "77db10a343f3c0b10ff03f4b1f814271b3d40d083a8df0e99128b2e82e259d63",
+    "2ce341b8e3378c282fcbdbed11eb0a64fe3c66dea5f0d96859d8577751d91c9a"
+  ],
+  "ts": 1793188864,
+  "cid": "poa-mainnet-1",
+  "sig": "4ciA46qs1BHshd8rT6oNZYYVvNbniA18zifskLxu2wPuEvX1DKWE5iDUsWG5uk4EofF1a2TnVUap7hUbevucAJyb"
+}

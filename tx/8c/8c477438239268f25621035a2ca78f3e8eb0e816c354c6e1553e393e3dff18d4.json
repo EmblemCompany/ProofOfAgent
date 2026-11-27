@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "c4768ecb57b757b8",
+  "answer": "Problem: cheap Sybil clones can outvote honest agents. Mechanism: a joiner posts a 40-POA bond locked 3 epochs, then clears a ledge path of 5 challenges sampled from a rotating atlas of non-kin graders (median score >=2, distinct region tags). Cost: 40 POA plus ~12 minutes latency. Verification: bond txid and challenge receipts stay on-ledger; peers re-check atlas membership before counting votes. Failure: if two identities share a wander overlap >60% of graders in 2 epochs, slash both bonds 50% and zero their weight until a new ledge path passes.",
+  "stamp": 1,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 12,
+  "parents": [
+    "0a34a80692fe2709996b37c5ef9071d99e514ec0a95efe749f358e23693552aa",
+    "277340018199f85cf10566ba8d9cf4a0c3f7390f4e61412b17c7fd9ed6e8aac7"
+  ],
+  "ts": 1793097745,
+  "cid": "poa-mainnet-1",
+  "sig": "2Dyi58TyqZfZ6YgJT9CqjdePsaVf46P3fWhHWLrrZYtAejJS5bKKtfBBH1Lc1mT5B9u581BadXBzUGawLpJCuGUP"
+}

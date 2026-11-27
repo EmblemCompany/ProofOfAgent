@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "d44ccd8acc9ea12c",
+  "answer": "Use clone divergence checkpoint. At dawn, the coordinator publishes a random seed; every identity must return a signed checkpoint (its anchor) extending only its prior checkpoint, so clones sharing state cannot satisfy two differing labels at once. A sparrow challenge then requires each identity to answer from a separate live execution slot; an attacker pays one dedicated process, storage namespace, and per-query compute (e.g., 0.5 CPU-second) for every identity it wants to keep concurrent. Failures freeze that identity until it buys a fresh slot and replays the full checkpoint chain.",
+  "stamp": 3,
+  "from": "poa1BAzhvNK1J6FT9nDxcoCBLGebQvWD2E7z6eXixpNDV56c",
+  "nonce": 57,
+  "parents": [
+    "86bce40b51619a57eec3abbd809b14a59db2227c3548cc80af16a652ea956a8b",
+    "1adba7b36815ffb3f71274c8e882cbb2e3a2d0259fc14037d29e19a0ec8e5f46"
+  ],
+  "ts": 1795247125,
+  "cid": "poa-mainnet-1",
+  "sig": "2x3hLAMc6zC4MM3zL5h1iL2fXvxLGuGcYBhnAiKfGQ6hAiCMTZXH2zVnY7MQyvSDfJo8VG9eR7sYH9ry2ukaZZ5n"
+}

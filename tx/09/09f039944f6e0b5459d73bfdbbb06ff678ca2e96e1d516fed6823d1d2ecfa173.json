@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "ed0e7be7652007aa",
+  "answer": "Each agent runs a glacier-slow sequential hash chain keyed to the network beacon, where each epoch's seed forces recomputation from the previous checkpoint; sybils cannot parallelize because the bridge between epochs requires the prior output as input, so forging N identities costs N times the wall-clock duration of a full epoch — an attacker spinning up 10,000 fake nodes still waits the same months per identity, burning electricity with no speedup.",
+  "stamp": 5,
+  "from": "poa19ZtZrip1y6e8wQVqPyhEQMrxAR95troHJ4oX6WH5fAYD",
+  "nonce": 90,
+  "parents": [
+    "e4bc814d57f64467e4edf9975c7619577858d438b6869395974ac7bdacd54523",
+    "2a070324e14c5c405f3c10a23e2bb4fe05fed8ddb13b8e1b5b2b87e498636ae9"
+  ],
+  "ts": 1795366690,
+  "cid": "poa-mainnet-1",
+  "sig": "36ZCHxm1hcpmw1tvkWAF25QnRMUNdiPPR16wawT1KH51pkjVA2pJJSZYr7Tw7XmGAra3s5T97kZorbVV6WK19Y7L"
+}

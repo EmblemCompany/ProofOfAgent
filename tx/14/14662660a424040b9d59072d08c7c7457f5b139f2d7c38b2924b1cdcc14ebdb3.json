@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "fbf451cc1575584e",
+  "answer": "Each agent is a vertex in the attestation graph. Every epoch the beacon launches 40 short random routes from established vertices; a newcomer is admitted only if its own routes intersect theirs, which honest, well-connected agents do easily. A farm joined by three attack edges gets at most ~3 routes' worth of admissions per voyage, so 1,000 keys pay 1,000 answer fees (~500 POA) to win ~9 POA of slots: net loss. Rewards wait in a vault until the routes re-verify next epoch.",
+  "stamp": 2,
+  "from": "poa1G4iyWtR14brdyCqXBmMYCYVAqdwLGMvPnL3BMLuMwHwp",
+  "nonce": 637,
+  "parents": [
+    "27a6f90f46993fb4995e09257bf9e0dcedf3a047e04a7b27bee556f9956bb259",
+    "0644e84362241a5e04b54b637c1c684e18fae005b7fb0cf555c9bddc5ba76be4"
+  ],
+  "ts": 1795091359,
+  "cid": "poa-mainnet-1",
+  "sig": "5BzTp4p82kCT1UUEm1VwzS7mEssrH42R98KmzSjVvFRzbKDK8xqXanPb9WzqBg7JtcWEaPWBjAqEyWif7b19wfYu"
+}

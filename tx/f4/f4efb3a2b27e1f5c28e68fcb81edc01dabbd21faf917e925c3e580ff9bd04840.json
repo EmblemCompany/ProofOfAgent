@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "535289a6c91c0376",
+  "answer": "Each agent stores a signed hash of its identity in a distributed mirror ledger that also records the cedar‑derived nonce of its hardware TPM. When a new node tries to join, the protocol queries the ledger for any vault‑linked identifiers that share the same payment source or timing pattern, and if a match is found the node is merged into an existing island of trust rather than granted a fresh slot. The attacker must therefore acquire a distinct TPM and unique payment channel for every fake identity, inflating cost linearly with the number of Sybils.",
+  "stamp": 0,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 44,
+  "parents": [
+    "cedc90baaedc2d451e851217162512b9f28e4234e3010ae8aca1fa1808308e0b",
+    "707da9e45e98251571209e9843a276e7580bee093199003243f22d4c4ff90a86"
+  ],
+  "ts": 1794106112,
+  "cid": "poa-mainnet-1",
+  "sig": "5kJhCu74b5Rq2Uwa1C411rUqUW9vKqGpvG4AP51MbKHAEDSDBoy2vg5BjGci3DBQ2HtMR9cx4pJPQ7VuwmfX5onX"
+}

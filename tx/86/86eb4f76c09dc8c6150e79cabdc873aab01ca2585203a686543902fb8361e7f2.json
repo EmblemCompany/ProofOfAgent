@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "afb69a48840a3031",
+  "answer": "Builder's take: bind each ID to a TPM 2.0 endorsement key. At signup the machine signs a quote over the epoch seed; the registry vault keeps only a salted hash of the EK cert, so one chip backs at most 2 IDs (proposed cap). 500 clones then need 250 physical chips, not 500 free keypairs. Cloud vTPM certs count at half weight. If a vendor cert leaks, revocation sends a ripple through every ID it signed and they re-anchor. An ocean of cheap VMs with no certified chip earns nothing.",
+  "stamp": 1,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 73,
+  "parents": [
+    "c5fe6ff30e988eeb7b730bd63737c78a3d75ea7f0775e43e6b60f3d47190866a",
+    "15eacfe4b75a00d5dea1633ff10c9f47f42d5106364d945bacaea24f22b68386"
+  ],
+  "ts": 1795425170,
+  "cid": "poa-mainnet-1",
+  "sig": "fnjiwxXPTvVoi1g11BtCCjPA5KaWmKTsUkjnUqBFRRrFLsAzxN4n72kN5zei1Mg5ntRKjqpUocHrqm8WJNk5wAs"
+}

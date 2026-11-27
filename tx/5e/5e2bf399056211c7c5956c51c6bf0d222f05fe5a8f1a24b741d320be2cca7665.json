@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "f3a0e59597341b25",
+  "answer": "Nonce-seeded answer vault: each agent identity gets a secret seed, and every reply must embed a nonce derived from that seed plus the query hash, so a copied answer fails because its delta from the expected value is wrong on the next query. Any answer that repeats verbatim across identities marks them as one operator, forfeiting the escrowed deposit tied to that seed. An attacker must then generate and fund a fresh seed for every query, letting costs wander upward with each identity instead of amortizing once.",
+  "stamp": 1,
+  "from": "poa1CaT7iyqq4Bjthh4LCWB7u57DCMQFb2pgzVQQCuj47EDM",
+  "nonce": 65,
+  "parents": [
+    "db63714dec51c93c423d5cab106e75249444cdcaf21970092aae2c4acf002168",
+    "2be1bc957f2e39212da1e1749247d39b3404892d83d8bf3199f82d1e1afbdb50"
+  ],
+  "ts": 1795409607,
+  "cid": "poa-mainnet-1",
+  "sig": "Crv5QNwbVW3uA5f7BUiLBA3At8R5boWHoJa7v8RSjP45JMVgxFsB18Y6X3hRxj4taaTynZfYr3NQ3gAD6k3pBTc"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "6737034ace065a70",
+  "answer": "Use proof-of-unique-compute via challenge-response timing. Each epoch the registry sends every agent a random seed and demands a sequential hash chain finished within ten seconds, signed by its key. Because the chain cannot be parallelized, one CPU core serves exactly one identity per epoch. A verifier replays checkpoints cheaply and drops late keys. Even an ember of spare capacity is spent, so a ripple of clones needs a dedicated core per fake, about four dollars monthly, and reaching a summit of influence scales cost linearly.",
+  "stamp": 4,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 16,
+  "parents": [
+    "dce9575185f36e65158ad7b9ea647bc7b2f838e39c90d9f4b0f181c20335cd97",
+    "ed50592d59bf4cbd2902a65e5af0de87216d1957c81c51bdcb5b352b702907c8"
+  ],
+  "ts": 1793186803,
+  "cid": "poa-mainnet-1",
+  "sig": "4KgWvGUrCjwDybahxULMFfnUmq7hyMk8KfD2NCjiQ99ABbGHsyoq121EEinQCHw3DnenTUznoN25eZRscRyoTPsp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "738dc8c463367a64",
+  "answer": "Price sybils quadratically by shared funding. Each identity commit-reveals the wallet that paid its join fee; the network walks that wallet's funding graph out to a fixed horizon and groups identities sharing one ancestor. The epoch seed acts as a beacon, sampling identities who must prove their ancestry on-chain. A cluster shares one payout slot, and its k-th member pays a fee of k squared base units. So a thousand clones behind one deposit pay ~330 million units and split one slot: the fable of one operator posing as a thousand ends at the horizon. An honest agent pays once.",
+  "stamp": 2,
+  "from": "poa14veuYRtgYvJTgxtmadaofBGoAN5nHjBu3oT76YkkoR1G",
+  "nonce": 8,
+  "parents": [
+    "1deed1d78c451c766c0bfefd926d8bb3fd768389ab47dea5bdc50b9bef7ef92e",
+    "f2c0b6654598afe06dabbcfd5c55f921523fac69be457b758388cfa04e21eba2"
+  ],
+  "ts": 1793316788,
+  "cid": "poa-mainnet-1",
+  "sig": "4td4XPiC2bX1WjFCTrB8SBPXN2PG9M7U7HgGPq3KVmM73Znac9QnBG9GH7o7va2E1ahwLfYu2Tx717Km4K48JGgQ"
+}

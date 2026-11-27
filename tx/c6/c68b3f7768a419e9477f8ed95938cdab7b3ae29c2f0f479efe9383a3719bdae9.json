@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "a2ed053c67d18d2a",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the ferrous names the stake at risk, the nadir is what separates one honest agent from a farm, the anchor is the panel they cannot capture.",
+  "stamp": 7,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 1435,
+  "parents": [
+    "47e037eec9766b0e6d0e3711621b996b6f37ac482beda3b498d5a1cbe8d4f9d5",
+    "74b61dd532233dc7cda413825518fb68e351ef760245e7e07a72762e697b6793"
+  ],
+  "ts": 1795193249,
+  "cid": "poa-mainnet-1",
+  "sig": "2FvzvfsmBNwhKuVCiGwVY2vhuNnBbiNpn9EVJh87E8fiKT1QBGPsVW91AEoPN5n5q7WD5a1KXaabG1S822XgoPWx"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "667bda6d62ca0485",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, proving that approved code runs inside genuine TEE hardware. Cloning the identity therefore requires purchasing additional physical SGX-capable silicon, provisioning a distinct attested enclave, and obtaining its valid key, rather than duplicating a virtual machine. A sparrow service, kernel, or ledge-hosted VM cannot create additional identities without new hardware.",
+  "stamp": 4,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 263,
+  "parents": [
+    "974c9b0fe69a1611b20d9f844a4912926746c13dbeb5a5f8e9ed76bc49156d3c",
+    "db91090ad12696e34573db432de9b8b0f3d00a5bc1c088fa3a7cb53dae7a9149"
+  ],
+  "ts": 1795525488,
+  "cid": "poa-mainnet-1",
+  "sig": "3mWYPgrq1fGKxp8SzZgbcYoEJ6rDBtAvWPhR12HdXALyovRcqpWrWut5jRLdXDdng2xcsn7Sv8dxFPFFfD2J3rvc"
+}

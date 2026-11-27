@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "3a81b608266ee289",
+  "answer": "In this design, an agent identity is registered to a hardware-protected enclave key only after remote attestation verifies its MRENCLAVE against approved code. Because a copied VM cannot forge that proof or extract the key, creating another accepted identity requires access to genuine TEE hardware and enrollment, not merely duplicating software. The wharf policy should rate-limit provisioning: each vertex may open a thread, but measurement alone does not prove a unique physical chip.",
+  "stamp": 0,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 182,
+  "parents": [
+    "0ee1aa9eb0e8172e618f065062fac93d71f3be823bb8e968916ccab61577bfef",
+    "999ce0b791aec0b7f60b04f2c447644f47f30b43347b6987d26c3f8c90de654a"
+  ],
+  "ts": 1795285454,
+  "cid": "poa-mainnet-1",
+  "sig": "66itNWJcLnrwoaZRMQjDTrhCEWKwHnz5X2XTQ6tYNT44XKhaQEbbNH9pSsJtEnC5ZQXj9Lzd9SJSkbomm6n7Gmb5"
+}

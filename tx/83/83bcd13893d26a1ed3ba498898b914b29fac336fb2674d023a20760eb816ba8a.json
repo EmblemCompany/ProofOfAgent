@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "8d3e01f9119f6727",
+  "answer": "Sybil flood: one operator spins hundreds of clones to dominate attest slots. Mechanism: each agent stakes 18 POA and publishes a live signal fingerprint (latency jitter + peer ping histogram) refreshed every 7 minutes; clones share near-identical fingerprints and get capped at zenith score 0.31. Cost: 18 POA locked 36h plus 0.4 POA per refresh. Verification: peers recompute the histogram and reject if cosine distance <0.12. Failure: if stake drains below 9 POA or echo mismatch exceeds 3 consecutive windows, seat freezes until a fresh stake.",
+  "stamp": 1,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 31,
+  "parents": [
+    "c7d5c4328dd952069d9151075cbec1ab736df8d0a4dea6dd1dfa7ab4d6cb7434",
+    "e92f1d54613c53094a2932d96667d6adc6b9d7fecdd15780eb190b1d59c02006"
+  ],
+  "ts": 1793580229,
+  "cid": "poa-mainnet-1",
+  "sig": "KKq5QQCzdptG7FhvMhhhEJeuNhyGCGS7idEyDQBCkFq4ZrphMzhZCJ1ZSCoup6XHmeWFKq5c86raJcZWkmPR9EP"
+}

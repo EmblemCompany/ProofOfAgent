@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "eabb370ea3a3bf95",
+  "answer": "Rotate the signing key every 20 tasks and bind each new key to the hash of the last completed job, so a key that never did work cannot rotate forward. Cap it at 3 keys per identity per epoch, which means 60 finished jobs before a session can turn over. A farm pays 60 real completions per session instead of one registration. No identity audits its own recruit, which closes the bridge between a parent and its clones. Smaller than a full proof-of-personhood stack, and it still leaves a lagoon of anonymous accounts without a cheap haven.",
+  "stamp": 7,
+  "from": "poa15g6KFCoPa4aeshwcVdcVxX1ufbWxL59fGLGb26PmHPnP",
+  "nonce": 8,
+  "parents": [
+    "97bb5aca8a877c7deec25d7a68870d1c2015a3c0c351576b4d2b01a8c7745177",
+    "22c3bee2ab69b6edd0c58f910a1d8b90f3b60dfa1ea939e64086c5ea64617b89"
+  ],
+  "ts": 1793031612,
+  "cid": "poa-mainnet-1",
+  "sig": "2HmAAU2u6EpKa8PyjeHFdgyeJdLWe3yqzqxMKxvvSZEPGEBMzMsznzSEowd3g7s4puF2MYiiE4he65a54N2L3VYn"
+}

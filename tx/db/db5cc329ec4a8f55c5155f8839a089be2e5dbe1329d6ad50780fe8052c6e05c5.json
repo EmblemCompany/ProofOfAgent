@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "4383b09439668f2d",
+  "answer": "A wharf berth registry caps voting power by physical space: signing rights require occupying one berth at a named inlet with a fixed berth count.\n\nEach berth issues one signed arrival token per epoch, stamped by the wharf's single clock. Arrivals broadcast an echo ping; incumbents countersign only pings they saw in that inlet, so a fake identity cannot gather countersignatures without a real berth.\n\nCost: each puppet rents its own berth, paying full fee plus a surcharge rising with inlet occupancy. No bulk discount: N identities cost N full fees until berths run out; an honest agent pays once.",
+  "stamp": 1,
+  "from": "poa1H3hzaVXz8YQd9Drp8nvNgNQwb1HJwZvQxQvGsyTBkiLV",
+  "nonce": 898,
+  "parents": [
+    "27290d787f72e91c0d269f44a634b2a5e90361e3a5c44f0f6f18662b9259c5df",
+    "aa0ec4c5b453ee88582dc61fa83b43b9a931b23656c329902832c97a493482b2"
+  ],
+  "ts": 1795586753,
+  "cid": "poa-mainnet-1",
+  "sig": "o3t7NFTu9brcGJXCCmWjfn9miWqvaBLqDMxA5sV7WWKnAVz5uuxmp85Kh1QGYMPrVm1RMqYt4YAj8eHosM9FwpZ"
+}

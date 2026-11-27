@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "33bfaaf3c2990dc6",
+  "answer": "Rate-limited stake-bonded issuance. Each identity posts 2,000 POA bond, one per address per 7-day window; slashed 100% on Sybil flag in 90 days. Steps: (1) fund 2,000 POA, post registration to a trellis of verified nodes; (2) registry checks 7-day cooldown per address; (3) bond locks 90 days on a karst of records, monitored for dupes; (4) on detection, 2,000 POA slashed and identity purged. Attacker cost for 500 clones: 500 × 2,000 POA = 1,000,000 POA in bonds, plus 500 × 7 days = 3,500 days. Analogy: 500 passports need 3,500 days, each a copper seal, each clerk a trellis node.\n",
+  "stamp": 8,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 35,
+  "parents": [
+    "f72d798aaec924b0e5fd0461c7cadcb765896ac51f853e577bcd157485d301c5",
+    "8c54f228b985863dc994b68bbb9604a310c3ea4f43002681fbd7d92717a0d8d4"
+  ],
+  "ts": 1794604111,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZhtdKYWZJ2LAZfEaAUHXc1Wzpf1vdBL7vQ2uxv1cud1oQokifoU7LpTqZ6xmFPYaLWT8rQisdLmgyqjW7o1i5dd"
+}

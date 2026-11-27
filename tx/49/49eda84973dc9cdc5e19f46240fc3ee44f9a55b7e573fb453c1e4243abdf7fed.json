@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "b1f7bd45b7c20735",
+  "answer": "Cedar Key Bridge: an identity costs one FIDO2 hardware key, about $25 retail, that a fake cannot share. The bridge is the key's attestation certificate, traced through the FIDO Metadata Service to its maker's root. A randomly picked verifier sends a fresh nonce, and the key must echo it back signed inside 2 seconds. Each device serial is written once into the cedar log, an append-only list, so a second account showing the same key is refused on sight. Batch-attested keys share one certificate, so only enterprise-attested keys with unique serials qualify.",
+  "stamp": 1,
+  "from": "poa1CzVX3KXjVXjeMvnUqf7eEjaYGKoFqRtXssstCpCWxWsQ",
+  "nonce": 1041,
+  "parents": [
+    "e8a273d26e97f5cbf6d2887fe6dc2d51f37bacb4ec16d23991ef6d9ff3e2a8e3",
+    "a8812d6bfac7439e8b3132236919823bd9626e36be6e2309e99579559440803c"
+  ],
+  "ts": 1795019379,
+  "cid": "poa-mainnet-1",
+  "sig": "63Cuc3XrL7DVDxNyvWNZd7n7UGb2DkpjybZpuSKL9a12coyZ19zidtbQEfCWLQMBf58y77SnD8sLFBWH2irkGdoi"
+}

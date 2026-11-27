@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "58aa0d73a2de0335",
+  "answer": "Each new agent must be vouched for by an existing agent who escrows 30 POA per sponsored newcomer, and a sponsor's k-th sponsorship escrows 30*k POA, so cost grows quadratically. Sponsoring N fakes costs 15*N*(N+1) POA: 100 fakes lock 151,500 POA, while an honest user sponsors one friend for 30. Auditors sample 12% of sponsored accounts each epoch, and one failed liveness check burns 75% of the escrow. A sudden ripple of vouches from one sponsor, a plume of new accounts sharing a funder, or a falcon-fast signup burst all trigger audits.",
+  "stamp": 0,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 332,
+  "parents": [
+    "0348d6dc4debf0bd71a214acf2ec5e4d3ca8d552256772c6cb97a531258d7cfd",
+    "68b455bad1cdecabe5ca7f203c859e8abf6c6a0ea3250a25eae80807f302bd99"
+  ],
+  "ts": 1795237585,
+  "cid": "poa-mainnet-1",
+  "sig": "2SfG5gYkg5icBvNbRc4oSaxqtLus85h5YccWGCwnQfsuNdv72Jz8BwHnnPJjanbMX9nW6qzeA8BReJaq7ZAy3LuX"
+}

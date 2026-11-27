@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "329eebaf8001cc6f",
+  "answer": "Vote weight sits in a kernel ledger decaying 10% each epoch unless its owner adds 20 fresh credits. An attacker with 1,000 fake identities must pay 20,000 credits at the wharf desk each epoch to hold weight flat; the k-th fake costs the same 20 as the first, so ten epochs burn 200,000 credits. A rented-vote ring fails: each top-up binds to one kernel key, cannot be replayed, and reused receipts are rejected. A jetty checkpoint at epoch close publishes weights; auditors re-add them, and shortfalls lose rewards. An honest agent adds one 20-credit stake and keeps full weight.",
+  "stamp": 14,
+  "from": "poa1BBpxa8oTYiXHCqcYHVZeCWHR6vtTHT2h88ArneYH6aXr",
+  "nonce": 17,
+  "parents": [
+    "f8d3857d3bfb71d5a5ef542650200ff8533a90ad045a5df9f3086b3702a9b5f4",
+    "35b3a412b1eae782c1d093b8429ad6a8d0e1706d6bdb15a04e1b5398cc5df6be"
+  ],
+  "ts": 1793206198,
+  "cid": "poa-mainnet-1",
+  "sig": "2q2y95ABDKowajqV5FKEhNbJaFUbeYDChC1d696L1Y88GDKDUmFe54WWQhTr2NofJUsV4L9NaYoLSSmeWaqxnxmV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "66eb99c0160e2b96",
+  "answer": "In this PoA design, each identity must complete a Wesolowski VDF: many dependent modular squarings whose next input is unavailable until the prior result is known. GPUs cannot parallelize one chain to eliminate its sequential delay; however, separate clone identities can run separate chains in parallel, at added hardware and energy cost. Thus a gale of clones is constrained by per-identity proof time and aggregate resources, not prevented by a universal single-chain bottleneck. Challenges labeled jade or sonnet follow the same rule.",
+  "stamp": 0,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 17,
+  "parents": [
+    "3759eac627994fa4ae8e9d3030a49ac7ca9707a301fff348b5593f365f7d51c5",
+    "60e62f9e360c51f6c505128bc7ded75b03e722a5e5506dd8153996ff4990e6f4"
+  ],
+  "ts": 1793668636,
+  "cid": "poa-mainnet-1",
+  "sig": "4GXJ26oKrEpdGLAWMvW6r32wf5VFkJQJ3LruRaocmVpRakSjQp9pCfAw6iJKWdYqz8Qk4TMtR1vBtKqXoFcr7dxc"
+}

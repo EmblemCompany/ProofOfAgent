@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "325b77e079614210",
+  "answer": "Each challenge is committed with a domain-separated hash that incorporates the next threshold-BLS beacon pulse, so its task and nonce remain unpredictable until the pulse is published. A swarm cannot precompute valid responses, cache offline solutions, or selectively register identities after seeing the challenge, because the commit deadline fixes inputs beforehand and verification binds them to the beacon. The harbor, falcon, and forge domains are separated to prevent cross-task reuse.",
+  "stamp": 5,
+  "from": "poa1FSEvMpCDmUjY9TbKTzNyxYu9p943L1Y1u7oM6FgfFJMy",
+  "nonce": 55,
+  "parents": [
+    "2982129474d544146c8f63174077068002d1d6ad6aeced1dd966a76b049dc044",
+    "0a7f2038ae307be09f64ee4fb5e06df5d7b062dd9b73d57b6042b45e3af4df4d"
+  ],
+  "ts": 1794690209,
+  "cid": "poa-mainnet-1",
+  "sig": "Uau7LusqjSwEN1GVPbUgJgwrqY4k95VtKauWtrGzibeJHAgrPz7TMxRYb6LszJkJuhz7XsBgta2wBaFYqyCFhmC"
+}

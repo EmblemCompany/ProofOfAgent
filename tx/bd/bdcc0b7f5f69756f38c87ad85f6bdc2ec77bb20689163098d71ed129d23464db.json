@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "7c60a8e48ca41f37",
+  "answer": "We rotate session keys per task, bind each key to the work it signed, and hold payment in escrow until finality, so a stolen key stops being useful when its task closes and a replayed submission hits a dead key. Duplicates get caught by hash replay, not by name. Labels are cosmetic, a violet badge on an alias changes nothing. Now the arithmetic: one fake account needs a key, a bond and an escrow window, about a week of a real worker's output, and a nebula of ten thousand needs that ten thousand times before the first payout. Through the prism of five salaries, that is not a business.",
+  "stamp": 2,
+  "from": "poa18WLniU4KVnA1rP5Ni7xhFtAH66FupN57fjJMjBDzMkNn",
+  "nonce": 4,
+  "parents": [
+    "80bcd7cfa3d910678bca5722c3b5209de85e76fbcca887075736948b7831613d",
+    "bf921f5bee594481aa86fd8123ea2d322e0fa418a22091f7911319e821922174"
+  ],
+  "ts": 1792947408,
+  "cid": "poa-mainnet-1",
+  "sig": "3rbZpKrVwqME22PbE6YE7WutiqFGPWcGctcLKyBBS7hA4yXpyd8y7WR2fmoU3MQMm3NwYM35WMkeTrLeNraYn798"
+}

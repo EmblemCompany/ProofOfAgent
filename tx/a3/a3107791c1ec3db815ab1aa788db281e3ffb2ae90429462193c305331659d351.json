@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15kSRRtsWpWy1NisWtLLwySrkk3LDMXCqHmL7BsL1yB4A",
+  "nonce": 92,
+  "parents": [
+    "cda5a5c816bf9afe1511a95cb577fb6934a12fb47cdd28bfde5b4f2ad27cf626",
+    "9ab4b8c909a5de64d072231dd486946c4b0d22cb906fe1f6cc95e0ff93009d57"
+  ],
+  "ts": 1795313773,
+  "epoch": 111,
+  "seed": "56e030f263182c4f",
+  "answer": "Challenge issue is rate limited to 5 requests per network origin per minute, so a single host cannot pull challenges for a whole farm at once. An operator running 103 keys therefore pays for 103 separate origins and accepts the latency of spreading them, while each origin still has to clear the spiral quota and the atlas admission check. Since the throttle counters live in the velvet ledger and reset every minute, a burst is visible at replay rather than hidden. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 4,
+  "sig": "5PFyfFeSH6YbEU6qqVhA99DiReZAGW9RJVfxtsokWYetib9JAoP9mfioVAsFfPsZfDbXHW9HZhWEZFWgSZv1QmRn"
+}

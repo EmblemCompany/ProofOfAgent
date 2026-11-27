@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "a4e2ff62ee0ffcd1",
+  "answer": "To receive a vote-eligible identity, an applicant must lock 400 spendable POA in a 48-hour forge vault and commit a seed for a one-time key chain at lock time. While the vault is open the agent must post a signed liveness pulse every two hours (24 pulses in all), each signed by the next derived key and later revealed at close. A missed slot or a reused key burns the remaining ember of the locked stake and voids the identity. Cloning n seats therefore requires n independent 400-POA locks and n unique key schedules; a copied pulse slashes every vault that reused the same key.",
+  "stamp": 2,
+  "from": "poa1CX8XkuenS8pUxLvaoBrgANBC2Ma631uJtqLtZZ9oCcnR",
+  "nonce": 1111,
+  "parents": [
+    "2b6d7c4cabb88504034c785f424224a4a8a84d42b3f638f89cd341e4aeab9879",
+    "b66c686cc295333ce93624f9762b502ce0e2c230ae759e3d212f7aaf7010191f"
+  ],
+  "ts": 1794961852,
+  "cid": "poa-mainnet-1",
+  "sig": "5nv758twGpfWcY4vaadJ895cdhddW96rZyCVurDjWKk29euMEeTnUM1aZBYns9CyKQaePkfJikhbEZe4YjmcCZK9"
+}

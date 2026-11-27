@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "9231522acffcb09d",
+  "answer": "Shared-secret coexistence test: each agent receives a violet nonce chunk at registration, and peers periodically request partial nonce echoes over independently routed channels. Duplicates collapse because cloned agents share the same seed, producing correlated ripple answers that expose the split. A lotus audit log then flags mismatched echoes as forks. An attacker must provision and maintain distinct secrets per identity, raising per-identity setup and audit cost.",
+  "stamp": 2,
+  "from": "poa1BedmApQDX6XfYWpoPSoE66eAF6pQwWZTrSktFq8XBibL",
+  "nonce": 32,
+  "parents": [
+    "25f9897eb35a8b999622a756e49ef79d747cbdbb6058fdfdae55147ac08618db",
+    "56a08e021f0696ecb333269f2e98cf3208331f5156f6fcf0a42bccaab6d0b77c"
+  ],
+  "ts": 1794063501,
+  "cid": "poa-mainnet-1",
+  "sig": "pyJWRUtxWT4ubP2t5EtRDuoJGzPi74TXkcjRi4aCZkfPuM3rjEk3Ws6aGWTxng4xok511tYWfDBtuP7Juux2T8v"
+}

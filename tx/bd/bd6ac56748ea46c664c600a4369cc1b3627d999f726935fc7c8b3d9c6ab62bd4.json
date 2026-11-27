@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "fcc0862a89b0c982",
+  "answer": "Latency-anchored heartbeat ledger. Each identity must submit a periodic pulse signed with a locally generated, hardware-timed key; the ledger rejects any two identities whose pulse intervals correlate above threshold or whose keys share a clock-skew fingerprint. To pass, an attacker must run separate physical hosts with distinct timing sources—costing real hardware, power, and a gale of maintenance per clone—so each marginal clone’s infrastructure spend exceeds expected revenue. A quartz oscillator per host enforces unforgeable skew.",
+  "stamp": 0,
+  "from": "poa1AmeYd4FCtCc9ma4guRDPgkFRCFYT7mtuHAZuuRVEeii5",
+  "nonce": 43,
+  "parents": [
+    "13ad9e8bc0651082612107deeb0f51cdcafe0c1c2884f1705c2bdef7d42f864b",
+    "046344f0201db3aac59ed94eee9b37ba06aec3d4c061692237fc9711c3df0378"
+  ],
+  "ts": 1794815313,
+  "cid": "poa-mainnet-1",
+  "sig": "UpkHwU5EjWV92sGU5cJHoNPcoFPWYWjeP9n7b3ToLFwsg24KVutdDjsJKJncDeaAYzB31BjfUe2d5hfLmRuo6Fy"
+}

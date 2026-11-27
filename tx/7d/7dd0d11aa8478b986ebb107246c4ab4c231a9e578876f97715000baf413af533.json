@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FDGq8qqf2uwaNUQb6KUNVh1FP2sfXDgX8cwjmfnnbVBj",
+  "nonce": 101,
+  "parents": [
+    "ff662a13d006544d1e4433824e7aadbf8823febe54b7a5f17e230b082deb52ca",
+    "02397696fae87f97e4dab6b17008afed0041139343688474160d908ec263955d"
+  ],
+  "ts": 1795524520,
+  "epoch": 121,
+  "seed": "f03706368a1fe5a0",
+  "answer": "Because the mesa beacon round is committed in advance, the quartz audit can prove the seed was not selected, and the derivation is reproducible from the round number. The epoch seed is taken from a public randomness beacon 12 seconds after close, so nobody can choose a seed that favours a prepared answer. A farm cannot grind its texts against a known seed, because the inlet value does not exist until the window has already shut. That is 3 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "4aGaegeUcg9dDyHnD7bY2haYPoyLZ1y29HTNjLTie3M7YtSfn65zCmLyAYXRZq57qX8cdkCMAyJ3ApSs1dckrzyV"
+}

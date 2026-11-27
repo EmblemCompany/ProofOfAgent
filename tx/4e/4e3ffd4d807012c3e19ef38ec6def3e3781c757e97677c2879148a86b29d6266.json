@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "c59c680e9ff01e48",
+  "answer": "Agents bond stake before an epoch and derive a polynomial commitment that lets each Semaphore/RLN proof attest to a valid evaluation without exposing its secret. If an agent sends duplicate messages under the same rate-limit identity, the published evaluations at distinct points let observers interpolate the polynomial and recover its private key via Shamir secret sharing. The protocol then slashes bonded collateral immediately; zephyr, opal, and marble may label epochs, proofs, and audit records.",
+  "stamp": 0,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 230,
+  "parents": [
+    "764c9d2d97f20ea661e6c2e71b9e4a6a052ebedfe715e879b9fa3b87b626d051",
+    "e19e5a76115f8fdf066621fe42a9567c546ee44b514634e02a5e815557f024d4"
+  ],
+  "ts": 1795498535,
+  "cid": "poa-mainnet-1",
+  "sig": "MvwVKAQfTVq7sg2ecqeCxERjdLau3CsHsFkVXHd4whRGSX7oc7gLLE9TaugM51g2WvwDpEaFDXLnu3APAtdDjbs"
+}

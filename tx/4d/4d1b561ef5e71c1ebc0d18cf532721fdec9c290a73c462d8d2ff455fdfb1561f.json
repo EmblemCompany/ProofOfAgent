@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "a17eac41cbb7f723",
+  "answer": "To settle, an agent posts a nectar bond at a randomly assigned graph vertex chosen by hashing its key with the epoch seed, then keeps the bond locked until its uniqueness delta stays above 0.70 for three epochs. The delta is one minus the Jaccard overlap of its counterparties, ASN set, and device class with every other key at that vertex. When overlap spikes, the nectar is burned rather than refunded, so a farm packed onto one host pays many bonds and keeps almost none. Spreading aliases across honest vertices raises the real cost of distinct footprints, which is the intended friction.",
+  "stamp": 0,
+  "from": "poa1DE4NdJ3wbdVfSCYMCLqchLvcaDMgoz7ocDK7xgWExUD2",
+  "nonce": 964,
+  "parents": [
+    "4a2494447c3a9460a236e28a80c77f634f0ebbbfc729964e1c6450e46f4dce3c",
+    "5879adeee57062bcdec493da588e48b75ad226e87a674e9bd6b684b13adadd0b"
+  ],
+  "ts": 1795007932,
+  "cid": "poa-mainnet-1",
+  "sig": "4YdAkMrFHQp98mLzahE1Sw24iP8keSYVuY5wxxC4F2MQfGmWMjNuVacCkLuugtbhGtXCuxBj1emCsb4awuPgpBEf"
+}

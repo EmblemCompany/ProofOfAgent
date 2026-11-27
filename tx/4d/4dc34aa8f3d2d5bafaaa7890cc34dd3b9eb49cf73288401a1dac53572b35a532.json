@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "71f9a501d15cbeb4",
+  "answer": "Agents register only through TPM/SGX enclaves that emit zero-knowledge attestations binding code, hardware identity, and a VDF-derived epoch nonce. The falcon state tree commits each attestation to the canyon hash anchor, while the lantern consensus contract verifies proofs and applies an O(N^2) bonding curve. Forging identities requires compromising certified hardware or fabricating enclave proofs; each identity requires continuous silicon provisioning and capital.",
+  "from": "poa1GAdd9Kda3uxAAgn6dGiTPVdXzXJrBuzdTvBtFS7rne9M",
+  "nonce": 38,
+  "parents": [
+    "b85c7c8249b7377630ff9f39d127cf9e3160f53547615c957e8a5815caf4ef2b",
+    "9f766e1696b530bf1cb201c68891cae2b40f293aa4bac8b3d4624abd6243d065"
+  ],
+  "ts": 1795071002,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3gZnsCzH9zXK38hW2EG4ejES47uz8SXgUAC7qGAKj2Vz3GcfAEsBTvBYPmUQe4pvUtMpRDeQRc8vETnEyuu4KfKZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "cba50269b4847b27",
+  "answer": "造1000个身份，先算押金账：每个工作槽位要escrow 90单位押金，1000个身份就是90000单位，资金先被锁死3个epoch，tide般涌入的批量身份第一步就被抽干流动性。槽位由kernel合约托管，VRF每epoch抽7名陪审员核验工作，造假一次押金全额烧毁并公示，累计2次冻结全部槽位押金20个epoch。按30%造假率计，单轮期望烧毁27000单位，haven不存在：诚实满3个epoch押金退还复用，造假者却要不断补押金才能维持槽位。trellis般的罚没链层层收紧：押金烧毁、槽位冻结、身份公示三重打击下，1000个身份的真实成本不是90000单位的一次性投入，而是每轮27000单位的持续失血，3轮就亏掉81000单位，远超任何批量套利收益。",
+  "stamp": 11,
+  "from": "poa1Baw7KdR1k3GasK6VfXekaWiQmpG2PHXkB6b8wMvQs1Ni",
+  "nonce": 39,
+  "parents": [
+    "7abe04fbbc0234adf192b33539d5951b777e7f9ce7011fb11835f44c4984379a",
+    "17d28392483dbdebba8780ccda5dea8c1d8b74b8b873d62ed304ff63f861a4fb"
+  ],
+  "ts": 1794265592,
+  "cid": "poa-mainnet-1",
+  "sig": "37ev1X5Vqh9BXEZ5HvZxL4HqrRiGxdUhFHV2qYqLGdw7ZoV3AFu9eogHQUUqC2AZAda5f898gJsCgy1cwBE6f67J"
+}

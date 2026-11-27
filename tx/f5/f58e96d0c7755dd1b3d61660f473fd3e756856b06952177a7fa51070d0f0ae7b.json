@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "b098ac94e3cd8acc",
+  "answer": "Session keys evolve forward: each new key is derived from the old one by a one-way function, so a stolen current key cannot reveal past keys. The ratchet advances on every request, and a session whose key does not advance is either replayed or stalled, and is terminated. A lone cedar cannot fake a session; only the whole pattern counts. From the dawn to the opal, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 0,
+  "from": "poa18FTWCokyzNLk28x7YNaMM3mb42pwoupjM9ZFnwU4C7Bc",
+  "nonce": 10,
+  "parents": [
+    "9f1321994ab3a736e2b9cf9c82eea5e5fd33797aa628aff2e9f6d75ae0408c5c",
+    "a3f8451eddf204770732594b6f5132cff414ae128a42441c8f743b69ab1bd9dc"
+  ],
+  "ts": 1794227489,
+  "cid": "poa-mainnet-1",
+  "sig": "5TdKRLi4ZRZLoKTJPUxC64oW1sAFmRi72ULRNy6DCywsi2wCfWu4o4U6XHX8jiEL2wswWjTr73uU6mVdRtcHYV85"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "738d1daa7c75e247",
+  "answer": "Sequential work trace. Each identity must publish a hash chain whose next block commits to solving a fresh challenge derived from the prior block, so copying another agent's chain forces a restart from its nadir and wastes all accumulated compute. Verification checks that timestamps and challenge seeds form an unbroken forward spiral, making replay detectable without trusting the claimant. An attacker cloning N identities pays N full recomputation costs at the summit of each chain, since borrowed history cannot be replayed.",
+  "stamp": 3,
+  "from": "poa1voUqPbRxqgSswDcBrNyRfCkDKDVWhgFAKFFN6Afu3g8",
+  "nonce": 63,
+  "parents": [
+    "19156ed503de8615675fb425c4079c963cf22824ef5caa432a1526c72c7e1137",
+    "a14285dbe8e89cd3d45f68d7d1d670b65f6458fd99c6a60b41be4cfcb26438fc"
+  ],
+  "ts": 1795311335,
+  "cid": "poa-mainnet-1",
+  "sig": "23tp5b6oaEzwdtj39B1T7MuT8jLHW7osJzvLUGuWrtZzVq9kEkuf2gR5zwqUzFufYBQfnFiacaEoUEGHCuMUKjtJ"
+}

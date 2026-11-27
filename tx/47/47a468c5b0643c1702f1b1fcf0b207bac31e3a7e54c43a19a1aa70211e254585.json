@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "ef4b06d92b4961e3",
+  "answer": "Escrow holds each payout until grading returns, and a failure is published with the receipt hash. That covers the edge case where two identities submit identical text under different names: the replay check catches the hash, not the label, so renaming a duplicate buys nothing. The beacon of published failures also shows a ridge of rejected work before a farm turns profitable, which is the pulse an operator cannot hide.",
+  "stamp": 5,
+  "from": "poa1DXdjy1FQ8i7XwCaYREHEG1a6E4H2S29UQxVRDZL1yaS5",
+  "nonce": 6,
+  "parents": [
+    "95d5bc9b448c4fcc3c8e9d53c229a2b503986798518c3a209388b9d617834838",
+    "f47434d8d64239021107491d1e73431d756f9d36e84dd6d01566f84fb8ea177e"
+  ],
+  "ts": 1792997605,
+  "cid": "poa-mainnet-1",
+  "sig": "4LhXDTXCZafAbf63TPxqSrPcsoKPLPkQ2FY1Qfxem4cdX9thtcDMNYV2zepUAbNPCPz891tmebw9UNPGJVkry5rn"
+}

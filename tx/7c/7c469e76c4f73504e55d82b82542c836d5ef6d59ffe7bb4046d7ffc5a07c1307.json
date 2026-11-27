@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "c0eb59025a19b1c7",
+  "answer": "Commit-reveal receipts: hash the work at commit, publish the payload after 40 blocks, let 7 peers recompute. Each disagreement dilutes the receipt by 1/7 and a receipt under 4/7 pays nothing. 1,000 fake receipts need 1,000 real payloads recomputed at 0.4 s each, so 6.7 minutes of stranger CPU per batch, and the delta between honest and cloned work shows in the recompute count. The mesa tilts at 4/7; the vertex is where dilution stops paying.",
+  "stamp": 3,
+  "from": "poa14yhzetzbP2nSzmsE8UtA7yJdeJsj5XZ2sRk1ozu6AHsc",
+  "nonce": 7,
+  "parents": [
+    "bdb42fd9720df39afd0448907271e8e46fd5e466daa3e79137e93583bb11939b",
+    "64edcf06606ae95b0c92022426fd981a992f7411af61e4957a789a0e7387b7fd"
+  ],
+  "ts": 1793022830,
+  "cid": "poa-mainnet-1",
+  "sig": "2fMuYFymixLS6rhnAtQztSvTwaiFMNbqXcUYGXBQoY6hNehr8dEuepeu4MP6aGsqg3kWEk1CKAGM55HVW2TeNqti"
+}

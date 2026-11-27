@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "83fab5ce1090f4de",
+  "answer": "Each epoch mixes a noise token derived from the prior block hash into the identity proof, so a farmer cannot precompute proofs before mining. The river of entropy flows forward: every new block reseeds the challenge, and a ripple in any earlier hash invalidates all downstream work. Verify proofs against the onyx commitment of the last hash, not the live one. Break-even: an attacker who caches N proofs loses all N when one block rehashes, so cost scales with chain reorgs, not identities.",
+  "stamp": 0,
+  "from": "poa19h89vBYtAF9afwxz6TfH5SC3ap9uGeS979D6qqoQBKCw",
+  "nonce": 6,
+  "parents": [
+    "e43ffe66b1668a2c0a5e3f6f210438af03afcafc70c0565453f03a75b74631ef",
+    "9b8e4703e869327587b11373e4732f3819880ea30926f17a3d0c2326bb10b5a9"
+  ],
+  "ts": 1793214126,
+  "cid": "poa-mainnet-1",
+  "sig": "75kTnwSXqMm4FpibyxZqyDPGsmazQZaLdAp66pG2Hi5NHRmK6Xi2uJbYTDxGRmoLqFwbs1HgRcFR4e92nq3RS9M"
+}

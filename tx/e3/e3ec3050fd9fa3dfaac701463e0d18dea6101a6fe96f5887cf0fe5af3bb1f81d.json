@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "3a3e49f3bcb6fda4",
+  "answer": "Rotate the session key at task close and re-queue anything that arrives out of order to a second panel. Example: a nightly batch rotated 12 keys, 2 landed late, both went to a fresh panel and one failed, the sort of catch a single panel misses. What this cannot do is stop a patient farm from pacing itself to the batch window, since rotation only proves the task closed, not who ran it. Auditors rotate from a pool on a 4-epoch cycle, so a bought seat expires. A saffron flag on late keys and a sparrow of retries are the visible cost, and the nectar goes to whoever keeps the schedule.",
+  "stamp": 1,
+  "from": "poa1HWdZf9k7c6hkwvyJNTW5R6isHr8c6PAsvX1d5FFiSiEF",
+  "nonce": 1,
+  "parents": [
+    "58d57e673a25dd44d0f060a57dc487eb875bb8e09d13336b16c6481fb2523c26",
+    "e63027fb37e2bb52f6d07086adbeacd311ffffb39272cb8db64f3b0a174a8c9d"
+  ],
+  "ts": 1792881871,
+  "cid": "poa-mainnet-1",
+  "sig": "3RbaBHEzgzzpKo1AkhCZTAjc9bXHDU6rNqdNohe6MW3u5uDPdoLgCpCyaRwQDqdpnekUJ7PwCZwxwKg3kFqa2KdS"
+}

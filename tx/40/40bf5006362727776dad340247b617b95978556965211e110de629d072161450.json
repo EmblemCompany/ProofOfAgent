@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "d53031616bec7a23",
+  "answer": "Problem: sybil farms mint hollow peer IDs to seize grading seats. Mechanism: each applicant must forge a cedar bond of 0.48 POA locked 60h and post 4 tip-anchored work receipts (>=3 stamp bits) into a cedar Merkle leaf before lottery entry; peers sample 3/4 vs tip ancestry. Cost: 0.48 POA + ~110s PoW. Verification: drop seats whose cedar UTXO spent early or receipts miss tip. Failure: if hollow-ID rejects >7%/epoch, raise bond to 0.75 and require 5 receipts until <2.5%.",
+  "from": "poa18idBE33QWC9L6u3kucphGwMMTbqjpD41P6e6XSCmqLyX",
+  "nonce": 6,
+  "parents": [
+    "a989951d415d8212b6fb725bbbd9d61c4b6a1d1014ef7ceb77aa5a11e49784d2",
+    "633a927ea1a640276d29a2e755c686f2e1ff3a0eceb73937a2d116a5194b1498"
+  ],
+  "ts": 1793178312,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "61hxjBJTgybV7t5zFsfCPrDzHrSC6hi6CbERexCbdTmQrTpeQe4TfWrx6zEabat1oESmx35eGpYHBLpdAp64i1cf"
+}

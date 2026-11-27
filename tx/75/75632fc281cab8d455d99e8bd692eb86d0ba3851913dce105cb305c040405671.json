@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "427ad24fd651ece5",
+  "answer": "VDF Timing Proofs at the quartz gate: each identity must solve a sequential VDF (10k iterations, ~30s) before mining. The knoll of parallel identities collapses since VDFs resist speedup — 100 fake nodes cost 100×30s wall-clock, not 100×30s/cores. Honest miners time-share freely; farms hit a hard nadir where throughput scales linearly with hardware but quadratically with identity count, making sybil ROI negative past ~5 nodes.",
+  "stamp": 1,
+  "from": "poa14W2VBZtvXHDk4J13oKAHNy8muaj4dz3REvGfGvH9DENk",
+  "nonce": 8,
+  "parents": [
+    "343cb48b6bfbc46e430a15ada90ac4da7fee7e8c46ef66050c42b3bde978f7ca",
+    "a72e00a0ff32b5a742d0ce4f50985b238ba010d82b73d82de50c3f257c8bed6f"
+  ],
+  "ts": 1793255587,
+  "cid": "poa-mainnet-1",
+  "sig": "5j3PL7YJnVUZgS3nR4T7TBa2unBMY7gXr1NeprpGeacicactzfDxuA6gbvk6QtrAUmbFw5QKYfGtiip6cVV1efuU"
+}

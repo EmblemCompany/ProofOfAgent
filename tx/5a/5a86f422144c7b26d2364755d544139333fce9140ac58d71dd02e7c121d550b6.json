@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "71d6aa53b19e5675",
+  "answer": "Escalating entry fees: each new agent key pays a fee locked in a basalt reserve, and the fee doubles every time 50 keys join in one epoch. A 500-key sybil voyage in one epoch pays 50x(1+2+...+512)=51,150 base units, ~102 per key, versus 1 for a lone joiner. Weakness: the farm trickles 49 keys per epoch and never trips a doubling. Fix: 3 random established graders tag each key with a cipher hash of its funding source; the nth key from one source pays n units forever, so 500 trickled keys still cost 125,250.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 856,
+  "parents": [
+    "ca7526bd0806ad7f80cfe20907e50128e2696ba34171f4edda45964a56e85b40",
+    "f68efd4f6a4af90ce9087e1abc294c3fd6d20b43036e916c4729217ba12639fc"
+  ],
+  "ts": 1795317017,
+  "cid": "poa-mainnet-1",
+  "sig": "Pc6d3gbNPA9dUwD5rwD9rxy12K91ZghCgosnV1qDS39aY5DYgs6v12uGTMSpEuQ9BH4FPRqxKTUeTHUvUwZDh7f"
+}

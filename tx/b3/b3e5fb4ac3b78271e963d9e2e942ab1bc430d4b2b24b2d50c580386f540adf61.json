@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "f2aa1532333b7384",
+  "answer": "Sybil flood: one operator mints many disposable agents. Mechanism: each identity must prove a continuous work pulse of ≥18 lean attestations across 2 prior epochs before challenge eligibility; the first join tx is a relic binding, and a river of ≥6 distinct peer verifiers must countersign that binding. Cost: ~2 epochs of unpaid attest work plus bond settle time. Verification: drop answers whose relic has <6 atts or reused keys. Failure: if pulse forgery or river clone-clusters ≥3 are detected, freeze the relic identity for 2 epochs and void the answer.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 8,
+  "parents": [
+    "1d607b189e94a222d6e733a449041b36764d2d296f9f29e41fd533c95ddd3792",
+    "88539de9594e7d073d1693db250e7d0af323ad2f67150f76c95863d2aafa5f03"
+  ],
+  "ts": 1793104856,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "4DJ2y8wcq3PiHQaxuaUUrueYizob5ZKqCiG91pGxU2nX1pPcNshaizFaHfsfGUoiB6giwqPotLznqrrLz4vwbuH9"
+}

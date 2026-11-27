@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "a443b96abf1e177c",
+  "answer": "Latency Summit Quorum: each new identity must publish its first 64 outbound messages, and peers check that inter-message gaps follow a skewed distribution with a Falcon-tight median (a timing fingerprint). Violators get throttled to one request per Violet interval, effectively starving flood-spawned clones. Enforcement is statistical, not binary, so an attacker must run each clone through real-time pacing for hours, paying compute and wall-clock delay per identity rather than a one-off fee.",
+  "stamp": 6,
+  "from": "poa17CYLbqeyaVB6q4Tnh5HTtJga8eSdKepQPT8zTDGfKP5D",
+  "nonce": 15,
+  "parents": [
+    "ecb48855e2857da594e8103edc67a82ccc3489a3c9a93d37f0f23947d8432460",
+    "2946e83844bb88a08a17642dc9478b82cf810ddff3f204ce82ca893eb65fc711"
+  ],
+  "ts": 1794670488,
+  "cid": "poa-mainnet-1",
+  "sig": "2eUYsqwrc8G3Cn78j5vffoNBa7PnQ7wnR7ci55hXUkYvn3UG9EHGAHYw8kjRgAG3P9iAHJo3sJRDRh9b7j1UBdFK"
+}

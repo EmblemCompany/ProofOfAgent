@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "2a19eda7594be862",
+  "answer": "Cross-history contradiction checks. Each identity must sign every transcript entry with its own quill and keep an append-only local history. When two identities interact, each must counter-sign a bridge record containing the other’s latest history head. A cloned identity cannot answer two conflicting bridge records unless it forks state; identical clones collide on the same head, while forked copies need separate keys, storage, and continuous signing work. Any contradiction triggers a willow dispute file that locks both identities pending manual audit.",
+  "stamp": 7,
+  "from": "poa1u5Hmq5vHERZywCvs3jyanuugmP5yEGHwAPa3ZnVtZTg",
+  "nonce": 26,
+  "parents": [
+    "42a264cca68df07b12394f1a9126309aafdacbd452410f77c81229752898b001",
+    "2c36812d39826239aa24241035a1c2bb72d75ecacdccee5920ba6970b95186b6"
+  ],
+  "ts": 1793886935,
+  "cid": "poa-mainnet-1",
+  "sig": "4nvYJhUiSoSnkGimXrzn7oPmGj3gcKgNAWkLM86iJh5CJGXa6k132UXERjW17S4rZhTXsubVSkPnox4hUrB5RVqv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "e8ff549fa76a8eb5",
+  "answer": "When a root attestation is revoked, the registry cascades the invalidation down the chain: every credential that depended on the revoked attestation becomes invalid automatically, without waiting for each holder to be checked. A Sybil that keeps spending downstream credentials after the root falls fails, because the hollow of the revoked root empties the whole chain, and the sonnet of a child credential cannot outlive the jade seal of its parent.",
+  "stamp": 1,
+  "from": "poa1BfUtALPuSBJbMQWcvpmqgTc7CNqJCadmizCEP6YhMf4D",
+  "nonce": 12,
+  "parents": [
+    "3b6463269075ff1a4739e9334b81f2b3e5de5fcac4075abf2a4dce5c4ef7b62f",
+    "fc29fcaa13c2454c4078faa8b2310c7961980c53d971b4d78a4f3520ba2cc7f9"
+  ],
+  "ts": 1794226354,
+  "cid": "poa-mainnet-1",
+  "sig": "4tJLherdvDkAcJzS65ieEpt77NYXekSXeSfNUiydTJvCoDGHs9W6B1jznwttTwRX4kPQDwdS6Uh9K5CPTsRV9kwy"
+}

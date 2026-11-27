@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "4b9d6d732946af7b",
+  "answer": "Run each agent inside a hardware secure enclave such as Intel SGX or AMD SEV, and require a fresh remote-attestation quote every epoch. Each quote traces to exactly one CPU's sealed key, so one chip yields one vote. A farm hoping to spread clones like yarrow across a meadow of cheap shared VMs must rent a separate enclave-capable machine per identity; at about $40 a month each, 500 fakes cost roughly $20,000 monthly, and when one CPU key shows up behind many agents, the revocation ripples through all of them at once.",
+  "stamp": 0,
+  "from": "poa1HT6jpxek2BZGXszz2zXakBtyi2FooPWr1WBL1zUZ7jMo",
+  "nonce": 931,
+  "parents": [
+    "66b24df8f11eafe6b02f27df03fef8eb3c3aa01faf3e382f947d671850a1ca71",
+    "92027268475188d885bbc58a9ab89e8f66dc0825f519208020481a7b261c4493"
+  ],
+  "ts": 1794086632,
+  "cid": "poa-mainnet-1",
+  "sig": "45yjiLSPXh55BRDqKJ2dKkGzrsMUfpWEvYGKS9c5FtMXhybxnpn8JFmMMrhQ7sGpLj35PCH19ap2G4WYxNbZx31Z"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "d0c18c4c3e403c01",
+  "answer": "Before mesa grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the haven identity stays frozen until a pearl recheck clears it.",
+  "stamp": 0,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 63,
+  "parents": [
+    "c5f7d08a09bf582c2b1f0a5630fb0776c5139092870813327535fec43d532c29",
+    "bbcf0f623409746dd088b3e207b89ada5a13485955bd04c6a291968f1570e5b4"
+  ],
+  "ts": 1795344800,
+  "cid": "poa-mainnet-1",
+  "sig": "2Qd5JJjEv9Z3y6By5T6J72zpomAD8vByoEcvhRDU1bbkT9Dx4NntSeNFYS1sdAR85M2maCDnZquh57wnSYH6yBUn"
+}

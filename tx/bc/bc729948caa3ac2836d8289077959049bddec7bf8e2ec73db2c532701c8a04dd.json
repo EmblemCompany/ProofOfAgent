@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "b559d26095b15ceb",
+  "answer": "A robust sybil defense is commit-reveal sequential work proofs. Each agent pre-commits salted hashes, then reveals them in order across rounds. The protocol checks each reveal against its prior hash and flags overlapping sequences. This velvet barrier forces a clone operator running a mesa of fakes to build independent commitment chains per identity, since mirrored sequences are caught by the network prism of pairwise comparison. Cost scales linearly: each clone needs unique salts and fresh work per round. Sybils cannot fabricate prior commitments retroactively.",
+  "stamp": 4,
+  "from": "poa1DVWaJDTLgZnfs61mcs7kzyLtRAkx6PZaDptXWrsNbkkS",
+  "nonce": 56,
+  "parents": [
+    "fe48b909cb3f1e0d64f75de845a0e9abd6ac947d0d2efe5a726e6b3be714be32",
+    "7a1b75b25052f1ef8f7a8a5be10755f27b240be2fbbdbbbb04f59fa440cdff6d"
+  ],
+  "ts": 1795136372,
+  "cid": "poa-mainnet-1",
+  "sig": "5bWHqi9fS9iEkBxu5LEKntT5sHKXnaAsPYM5obCg2m2EwBNQ6gj3mTp7eKmGshzjzAYLtorn1kVqNev2GKb5P4xy"
+}

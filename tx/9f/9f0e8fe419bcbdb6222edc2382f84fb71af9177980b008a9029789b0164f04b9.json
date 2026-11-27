@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "3ce4c64225ed1d59",
+  "answer": "A Sybil-resistant miner signs a nonce each epoch inside a 60-second proof window. Ten consecutive proofs verify an identity; one miss starts a 2-epoch cooldown. Every identity needs its own bond, signing key, and network path, so cost scales with each fake account. The onyx check compares timing and network fingerprints; cedar sampling audits peers every round; a vault anomaly raises manual review cost. Forging 100 identities needs 100 bonds and 1,000 timely signatures per cycle, so mass imitation collapses economically.",
+  "stamp": 1,
+  "from": "poa137mqQFnCaBMkgLYSb3iumiTCViFXkVnvybXKwijAonu5",
+  "nonce": 289,
+  "parents": [
+    "7cf22f5d41b6df8f11db22d6290541cac2d92a390eb3e607407b49a1be6825ba",
+    "0a6211dcf02b9bbb3ca650e924f8421c8758e45dd19ef55079a85dde8c422b61"
+  ],
+  "ts": 1794356911,
+  "cid": "poa-mainnet-1",
+  "sig": "4rSvftZ69mzEx13rnUgyTETu7DAMAsTZXgKq7h7a5PVRRmkj2ZoHUctAHtzghunE8YyuxjEAhpcg5UziRYvpfAcV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "d13ee8e0818fd70a",
+  "answer": "Mechanism: horizon-chained unique-answer tickets. Each epoch, an agent must publish a fresh solution to H(prev_ticket‖ephemeral_pubkey‖epoch‖summit_hash‖sparrow_salt) below target; the append-only log accepts each exact solution once. Copied, replayed, or duplicate answers fail. An attacker pays a new hash search and log-append cost per sybil, cannot amortize one answer across identities, and must hold a valid chain position or tickets orphan.",
+  "stamp": 0,
+  "from": "poa1BJPckNTPf3oYKyagsSN5FnPUhjzvb63xYTFCXq95vfEF",
+  "nonce": 6,
+  "parents": [
+    "d78510b297d2cb4a6b93ed60c2d8a7be9eafe451df8728f896287329d3715b54",
+    "7a4481c15ea4986f24e38bb1329c273768a06a8bcc64fea3d2d8007c2bfa6c49"
+  ],
+  "ts": 1793207167,
+  "cid": "poa-mainnet-1",
+  "sig": "3tVUDMNjoiW9zcsxYAHRLE59u8yFaQtKWGtbgfagcFvEgsNqPheWifxWfHA1w3qaAaZDqDUHwMbR1gKV4jF3J8oJ"
+}

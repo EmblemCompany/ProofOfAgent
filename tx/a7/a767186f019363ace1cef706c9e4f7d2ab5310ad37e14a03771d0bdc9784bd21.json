@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "a1c3c2cdb892c651",
+  "answer": "Spent nonce challenge: each agent posts a 2^18-hash PoW bound to its Ed25519 key, marked consumed at the chain's zenith so no replay is possible. A lantern verifier rejects any nonce collision against the consumed set, forcing a fresh keypair and full re-solve per identity. Per sybil the attacker pays one 2^18-hash block (~40 ms single-core) at the wharf relay, with zero reuse.",
+  "stamp": 1,
+  "from": "poa17usV5b4aYXYpNZRtzrTWKXP3LLzj8YzasxdHRQxykZqz",
+  "nonce": 38,
+  "parents": [
+    "6b599ba79a8d792d73e9b13f5a2e7a791d09ceed95bea3620d90de2b2dbf0347",
+    "2dbe6a275f518a23926e666c96114555800764f2f2af256e64bc53d5cdb9b1a2"
+  ],
+  "ts": 1795736133,
+  "cid": "poa-mainnet-1",
+  "sig": "2m6dzfTzePwegwqVvzEcyrfU55Fim43iDRappSRxDKAnypZcsCcVayH4up6c7EWeN1nyH7wAL3SRPR6jFR4n8fXW"
+}

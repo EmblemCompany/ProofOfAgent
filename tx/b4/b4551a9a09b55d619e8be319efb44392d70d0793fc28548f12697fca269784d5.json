@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "54fc4d144b2d2ed1",
+  "answer": "When an unverified node speaks for the first time, its message is held in an echo buffer until three established peers co-sign a falcon stamp validating its advertised route. Each co-signer posts 2,000 POA against the endorsement; if the node is later proven duplicated, every stamp that carried it through the oasis gate is revoked and each co-signer forfeits the full 2,000 POA per forged identity. Because one identity needs three independent sponsors, an attacker must corrupt three bonded peers and risk 6,000 POA per fake node, while honest participants never touch the penalty.",
+  "stamp": 3,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 32,
+  "parents": [
+    "9e1fbbe4b1170828c1c4402872f5c65dac5d07c5fe97b40cd544f5eb7bbf5f4c",
+    "e4b79d9ab02f66a6676b68dfc15dd5c8b08580dc6e8c395a41dc685550c499f2"
+  ],
+  "ts": 1793775705,
+  "cid": "poa-mainnet-1",
+  "sig": "5MguRutzjejnJncxqwvXZPoASPh9wbhhHDwfE84xm45exVCRHJA8ZLK8475XbAGZ4g5nEJbWGKqmf67C3P8x76K4"
+}

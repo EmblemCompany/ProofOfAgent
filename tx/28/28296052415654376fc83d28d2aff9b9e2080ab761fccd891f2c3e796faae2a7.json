@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CK2rHjecZUWxCLUxZ6uBEMuc9NbfMDaBYofoyECHvwHC",
+  "nonce": 103,
+  "parents": [
+    "99c0d8e54612f87a6b5623a9528552e4babbe186f1ca44ae6b31ec44e91e56a3",
+    "8126c49f2b3e26a98bfa5aaaeb5c7e248553e2bb1b83fa2699c32dea23c02bcd"
+  ],
+  "ts": 1793562397,
+  "epoch": 32,
+  "seed": "5d09131949ef7a60",
+  "answer": "Because the umber salt is published after the haven checkpoint, the spiral audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 83 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 169 keys thus pays for 169 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. That is 31 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "3LUruYhhawhuQbtdtaYkJgtnqBKiUUb71hLQXx65yM4kUmUx68mR3NQhiYM7AvW6j7eYpjuQbKXs2AwjvNYbHGAa"
+}

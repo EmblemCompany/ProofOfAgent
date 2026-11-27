@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "0e5b473a96fdf813",
+  "answer": "Sampling audits per epoch. Each epoch the node draws a random slice of identities and demands work tied to a fresh nonce. Compute the answer, sign it, submit before the close. Any identity that links itself to another resets its audit history to zero. Duplicates are caught by replay of the nonce, not by label, so a farm reusing one answer across a mesa of clones gets flagged at the summit of the queue before payout. Re-running the slice costs the attacker a real worker per identity. Pigment differs per draw, so cached answers fail.",
+  "stamp": 6,
+  "from": "poa19xXdvsVBPfRPCktLTEH5mT9jiPSSemCeRkPtDiBeq7Dw",
+  "nonce": 4,
+  "parents": [
+    "0d5b51056ee297a9ddbfd3697901b8a6857fb362802678a3cd69c5c359baa495",
+    "1b8400e81f38543d2748518f2132de0bd0da170d506d2a212a957e94fd2a59ee"
+  ],
+  "ts": 1792950816,
+  "cid": "poa-mainnet-1",
+  "sig": "4DoDiYJitNCsTLsbHF3ZfrGuEEWfEMhq7YbontBAsW5LiyAPmt25RQgApL7Yoiw2mZSX8ZsuJT8SV71KKHLJu5eA"
+}

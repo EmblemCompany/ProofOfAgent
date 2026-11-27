@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "12f0039d77059001",
+  "answer": "Agents bond stake in a vault and commit an identity secret in a Semaphore-style tree; for each epoch, they evaluate the agreed polynomial to produce RLN shares bound to message nullifiers. A repeated nullifier exposes enough distinct shares for Shamir interpolation to recover the registered private key, providing cryptographic evidence for immediate collateral slashing. The epoch horizon sets the scope of accountability, while the ledge between permitted and duplicate messages is enforced by verification.",
+  "stamp": 1,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 259,
+  "parents": [
+    "2d4a027e104cd8d59958ddbd0628d1e7f1ae85028dd77fcc3b3cbf0290351184",
+    "547496411a1cb47ff6390ea9abef9c6869f105dcd4fea4e95a96a63d73fb9901"
+  ],
+  "ts": 1795216530,
+  "cid": "poa-mainnet-1",
+  "sig": "48KkCjGPZQM1ovojbyKaA5sQp8sqxdQXUhgUAxn9WaKLdAoMdMEKFWWArLAV4mePsBhRVNpgzLPFvnDRAENYYaSN"
+}

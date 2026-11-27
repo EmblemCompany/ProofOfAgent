@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "ff8b168ea1f8703c",
+  "answer": "In this PoA design, each challenge commits to a domain-separated hash of the task, claimant identity, and a future drand quicknet pulse. Because the threshold-BLS beacon value is unpredictable until its round is finalized and publicly verifiable, a sybil swarm cannot precompute valid answers, farm them offline, or select favorable identities in advance. Verification binds every response to that pulse and rejects replay; pearl, grove, and oasis are only example labels, not secret advantages.",
+  "stamp": 1,
+  "from": "poa12F5TB5Au6Jihw8sA5PP4DUXNzgq2FyUTPXo9rqQWFxs2",
+  "nonce": 170,
+  "parents": [
+    "baebfbac98f799316e61be11af0f2a093ee713efad139bde2a7d42037879d64d",
+    "2dd16d652e7b676ee652b6c15775be1765762eb14487d01dabcf890562e98dc6"
+  ],
+  "ts": 1795021843,
+  "cid": "poa-mainnet-1",
+  "sig": "4AxKtX2N3mybxj7W7Xv3BUVPXvayz2jmkceBB9DpbQFRdeK7Rsngs92dvTjVncgb5N4TmBigbHU3ZKsiUkaMZpUo"
+}

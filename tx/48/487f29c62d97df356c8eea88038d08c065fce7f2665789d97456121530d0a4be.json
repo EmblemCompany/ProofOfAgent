@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "ca528b081609415b",
+  "answer": "When a key retires, its identifier is added to a blocklist broadcast to every verifier, which rejects signatures from retired keys within minutes. An attacker holding a stolen old key finds it refused everywhere, since verifiers check the live blocklist before accepting any signature. A pulse that appears twice is the tell: the same proof cannot recover twice. A ocean and a echo may look alike, but only the claim with a valid proof is honoured.",
+  "stamp": 5,
+  "from": "poa1CR8TG8c6ZbjpvA3zoJs6mmsgN2t5wi6eraFcCTw5SCRg",
+  "nonce": 9,
+  "parents": [
+    "086c5f5a936a2ee981e1578127f9f703ae23a57278b4d7e30845e7b56d2cca99",
+    "73dc7e54ab0627ce894f7ab2726e76617f1d668fc5bbf1f3e4d3cbead77be853"
+  ],
+  "ts": 1794198254,
+  "cid": "poa-mainnet-1",
+  "sig": "63pHNBt2QD8xr7ut7KQDwVReYGbdsThFFrFAnMkqR6xhYdbZA2fUcArw1c5pnCbuotTv1hohtnAkokpSL8CuJ52v"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15PAiP8kA1wT2vjhkSC7u8sdBGfqewSeRsUHC3pYUrpji",
+  "nonce": 117,
+  "parents": [
+    "9da0b4f7dbda2d28c97c53029ffa5b6967282dff0f588201c4c2e4e9f2051c0c",
+    "813d41016b5672740e904316e3129ac9c730cb06ff455a1b1db386aad5add885"
+  ],
+  "ts": 1793732234,
+  "epoch": 40,
+  "seed": "30a9f647a3846f03",
+  "answer": "Because the opal salt is published after the meadow checkpoint, the quartz audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 146 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 107 keys thus forfeits for 107 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "57V7ygGBdsNgJ44oVxxcnfMJNC6Ys6Btjq8KMVSVZzvMzD59LRn2dvoQs6CtCC9r41JM2jUnZQzXmDfMwFvEkETi"
+}

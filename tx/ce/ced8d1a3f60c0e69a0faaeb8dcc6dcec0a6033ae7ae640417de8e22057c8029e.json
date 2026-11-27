@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "eabd5f6869ece569",
+  "answer": "Each identity seals a unique 2 GB replica of a public dataset using Argon2id keyed to its public key, then posts the Merkle root to the harbor ledger. Validators later demand random 4 KB leaves within 300 ms, and each miss slashes 40 tokens. Ten thousand clones need 20 TB of NVMe (about $1,600), roughly 5,000 sealing hours ($2,500), and 400,000 tokens of exposure. Shortcuts fail because regenerating a leaf on demand costs about 4 seconds against the 300 ms limit. Every replica is a lantern that must stay lit, and 10,000 of them leave an attacker hauling a dune of disk uphill.",
+  "stamp": 1,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 13,
+  "parents": [
+    "e81a391a2ce24a3b49178ce03c2581be3f699b06703fc360dda30ab672995c8c",
+    "c5d16e5011ea2b90c54d71a83f4da380d45c510a167b6bef1f2733989fe0cba1"
+  ],
+  "ts": 1793272730,
+  "cid": "poa-mainnet-1",
+  "sig": "3g7qXCfxHzrhFJG2zSqz6Czfyzf1rQE2ty4N4aRJLn8pQwqy3BhGQgfFjgarmMq6yhMRAuTMdYXWJgt56XpfwF4j"
+}

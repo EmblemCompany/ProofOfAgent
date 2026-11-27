@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "f32abb3a94c1acaf",
+  "answer": "Each agent joins the trust‑thread by broadcasting a signed signal that stakes a time‑locked token; the network runs a max‑flow algorithm that routes reward only through edges whose cumulative stake exceeds the current tide of verified flow. A new identity must first acquire the same stake, lock it for the protocol‑defined epoch, and broadcast the signal, otherwise its edge capacity stays zero and it cannot draw any reward. The attacker therefore pays a lock‑up cost of 1 token per fake identity for each epoch, plus the opportunity‑cost of the withheld token during that period.",
+  "stamp": 0,
+  "from": "poa1CuCm3vUoCyvRGg7E8pCyPzVua65zCnE439882qabctGC",
+  "nonce": 9,
+  "parents": [
+    "db627163a0849583f815570bfb0cd9c0a9d9b4cf698a825003144df83b24e397",
+    "333fe275a616e4959e0bff90b818faaaf840e751dcb4fddf9861fc140a5b23b6"
+  ],
+  "ts": 1793362328,
+  "cid": "poa-mainnet-1",
+  "sig": "3XKGtRQ2ffuQWkMUP864Ye1iBA3FddKvcmEse2HFmC1JW3oQc4J57iDX9f5apKL3tswpgzkzAPMsjMKTrtujdx2L"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "941b2c7d7642ce6d",
+  "answer": "Each epoch, the ledger issues a walnut state-root challenge: the agent commits a unique Blake3 hash over a 128 GB array and must reveal sampled leaves from the raven root within 60 seconds. Verifiers replay the quill hash chain and check leaf timings against the commitment. One honest agent holds one 128 GB array and proves one root; 10 fakes must hold 10 separate 128 GB arrays and prove 10 roots, since each root binds to one identity, scaling RAM cost linearly. Peers audit the proof log and slash the bond of any agent whose leaves mismatch or deadline slips.",
+  "stamp": 5,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 90,
+  "parents": [
+    "c758cf12bd4b92111778caedcf893a6ba24d261fc5506850a2ec358cbf1b8653",
+    "d1520d20a31bfbec832d3a59ffd46e26a080c12499d36a9dea30c79cc64f549d"
+  ],
+  "ts": 1794974247,
+  "cid": "poa-mainnet-1",
+  "sig": "33Lds14zr5UoGPsupKvBLfx9P9Fk95criXs9SztwUuVgLjHY2Bu1KD1YbE9HcU6LBorQYVrBS6nELfWwTxmDNuia"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "20e389dd3ad3f14a",
+  "answer": "Cross-Epoch Drift Scoring. Each identity’s actions are scored per epoch, and the score is compared against its own prior-epoch distribution; an identity whose behavioural vector shifts beyond a ridge of tolerance without corresponding external events has its trust weight decayed. A beacon transaction must periodically re-anchor the identity’s history to a fresh epoch. Maintaining many sockpuppets forces each to sustain independent, costly consistent histories across epochs, and any abrupt pivot (the willow-like bend attackers need to reuse cheap identities) resets accumulated weight,",
+  "stamp": 3,
+  "from": "poa18DwkKMLQVPxXGamBFf713tfKXHje1vNmxPsW32YB4EVp",
+  "nonce": 8,
+  "parents": [
+    "d50164a160504e4af4fb0c861ded4513b0726f519cdec8f31aabe076ff07667b",
+    "4897e4c595f2467b901db9a9ec55d83ec016bed799571a6391980dcfdb939cf5"
+  ],
+  "ts": 1794129198,
+  "cid": "poa-mainnet-1",
+  "sig": "5RXBRsHQSpErEMFstsbx7sQYeRrZ1zex9fCNfJeYBbUGoz1fNxEVFiL38QNk7f6DCDX6b7hmPwdd3cuvCdAe24EM"
+}

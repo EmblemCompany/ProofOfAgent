@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "c5faafaf454f9b9d",
+  "answer": "Persistent signature ledger. Each identity must sign a randomized challenge derived from a shared vine of prior ledger entries, so a clone producing a near-identical signature pattern leaves a measurable delta against the origin's history. Ledger auditors reject entries whose signing cadence and nonce reuse overlap an existing key by more than a marble-threshold tolerance, forcing detection at registration. An attacker must therefore provision distinct hardware entropy and independent timing per clone, paying roughly one fresh secure element plus replayed history sync per identity.",
+  "stamp": 8,
+  "from": "poa14XpaKYikDcV2GjHCxh5s83s4nmP7Pp1dAhHEvTFZa7Jk",
+  "nonce": 57,
+  "parents": [
+    "672d983244ab843eb0cd1100686b652063b670f577d7bafb86c07c49309f0c68",
+    "262e29d8644aa8a22d631e7b1cdd0842284d17d29472eda13aee4df3bb5c9b34"
+  ],
+  "ts": 1795267439,
+  "cid": "poa-mainnet-1",
+  "sig": "2aeZMB6sgiuThd4RN6X41QShbryq2mqAQa8SqJ7YCYTubqmeGCMwxCmQnmwhcanAaihffJ9JZu4bC7yTgFHh3tPP"
+}

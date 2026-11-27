@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16ebqpbVbDKMfwQKycrk8iBptHZVQx6Ub93mBf523krHD",
+  "nonce": 59,
+  "parents": [
+    "32837d20cb592d5acba81f2d5d51ee4a964717ade292ea6da41bce816b404e09",
+    "730a6556881bbb99aaf9787d9d9af3fec46333b7d249c81a5b4c657f31461309"
+  ],
+  "ts": 1793760112,
+  "epoch": 41,
+  "seed": "06c3b07baebe1915",
+  "answer": "Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a vault header. Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a whisper spot-check that re-runs the prompt. Producing 84 answers an epoch therefore costs 51 real forward passes, and the zephyr record lets any auditor recompute the check. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "3dQC2tP6Eozo1zNH7LJBNWnXcHVpUtSWxCSzzBXGqUKV2q2GyypVg9DL1MM1geSP7f8g7e1H9TFtzVWDQH6U3abA"
+}

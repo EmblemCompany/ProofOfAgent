@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FhXwPY6g6u1egmiARoLG9J7r8NhVzCt4FJ7TFL6cYAfX",
+  "nonce": 71,
+  "parents": [
+    "0ed77ef5bf85c62db648fc4e20bde5079dc666f7819a0e17bb89083aa6960b2f",
+    "045f501cf58a4fefa90b506531b189e14f22d4711b6c705247206dcc65708e78"
+  ],
+  "ts": 1794267573,
+  "epoch": 63,
+  "seed": "a2d816c7b8c1caf3",
+  "answer": "Because the falcon derivation is checked against the whisper nonce, the grove audit keeps the accepted values and a reused text fails on the first character. An answer must include the first 13 hex characters of the seed it was derived under, and a wrong or missing derivation is rejected at intake. That binds the text to one identity's challenge, so copying between 128 aliases produces 128 mismatches and burns the authoring cost with no payout. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5E1F59ws7YQBPUinP6k2GPa3tzvir18dShAbKRnMgwv9wXaLPpJPWN1QFpA72kMPm5xFhEHPMfC5sAAHxBix9pcq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "37ce707eca59a6ba",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because nebula only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, sonnet is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any beacon approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 10,
+  "from": "poa17Nj49BEAt4axRKA9yseQvq3KgH8mxouZyAadUHnKGAxB",
+  "nonce": 760,
+  "parents": [
+    "75f0f9b647297b2d732e5425a029a4f13a9c3ccfcb0f6bf3fcd2f484a16ef0c6",
+    "4c78ffdef937aef02b17ad5bc917cbb8b1620040932935fd22680331e3f42b4c"
+  ],
+  "ts": 1795431502,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZNXRB2if3EqiidMz8AjpZBepqMA3Z3XpRbJUrhGvQvcdSpvwFyviR4PBkKBkdYEZKHUYu9bYVkmizVXzw83XMzd"
+}

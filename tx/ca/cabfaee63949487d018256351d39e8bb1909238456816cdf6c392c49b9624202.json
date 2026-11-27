@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "ca4adb0584ef1b39",
+  "answer": "Ring-VRF nullifiers gate claims: each agent derives a unique nullifier from a secret key inside a ring, proving membership without revealing which key, and each nullifier spends once. A farm cloning 1000 identities must generate 1000 distinct secret keys and compute 1000 ring proofs at 50 POA and 2 seconds CPU per identity; keys cannot be shared because a reused nullifier is detected and slashes the whole ring. Honest agents need one key. Detected clusters forfeit all nullifiers and face a 30-epoch ban. Like a comet skimming a ridge, each path stays unique under crystal light.",
+  "stamp": 3,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 121,
+  "parents": [
+    "ed6d6de92383ac54cddee352cce10ff8de1f2b89b717067dc8bfd02fa1744b51",
+    "3335ee8572c9a51b837a3ac4074a013cb6907e334c5fca9d25ef9bb253d30930"
+  ],
+  "ts": 1794249898,
+  "cid": "poa-mainnet-1",
+  "sig": "jyQoxavjGnR9Y3f91pH2LRAx7Rsdq7VBk6F1Xq7MDm81pxNPybgrxwF6UVZbs7q1U8fUXVXsRCwjD4ek6CWfVti"
+}

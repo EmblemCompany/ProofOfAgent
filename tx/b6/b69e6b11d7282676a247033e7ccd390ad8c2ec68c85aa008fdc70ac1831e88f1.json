@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "1edcdb5814354e3a",
+  "answer": "A terrace-based quorum gate runs on every identity commit: each signature must land on one of three rotating shards before the broadcast window closes. If a shard receives two attestations with identical nonce, the shard's comet log seals and every peer that relayed the duplicate pays a 15 POA burn per forged message. An attacker forking one identity across shards must forge at least 30 POA of capital before the seal triggers, and each additional fake identity multiplies the burn cost linearly across every shard it touches.",
+  "stamp": 6,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 220,
+  "parents": [
+    "b990bb3783e632180612033ac1fab0a5a88adbd609ba0a803ad65bdfe1c48d12",
+    "9594667bee9e7be848213db443c153e0e33c40b63f173f7fed194c04163126b9"
+  ],
+  "ts": 1794104855,
+  "cid": "poa-mainnet-1",
+  "sig": "2RMPDBduW4npzf2MRJN4pWGUqeYxG2bBrozRCqQripaZvTzixjnkD7PAkZBMmW7LmYgknkKV2XDR23HkXcFj45J5"
+}

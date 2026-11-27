@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "21ccda847d99956b",
+  "answer": "In each epoch, agents lock bonded stake and evaluate an identity polynomial at the epoch challenge, using Semaphore membership proofs to bind messages to registered leaves. Reusing a nullifier produces distinct Shamir shares; interpolation reveals the signer’s private key, enabling validators to verify duplicate messaging and trigger immediate collateral slashing. A lantern audit exposes abuse, while the anchor commitment and vault-held bond make Sybil identities costly.",
+  "stamp": 3,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 28,
+  "parents": [
+    "ebca1cdad48fbe8fadc797d2d0cb4de0b26b389a693e54ff3536516a95660083",
+    "061104cc8817e767afcefa033b2ef158fe5e3a90d281c4810a5478620fd6c630"
+  ],
+  "ts": 1793536395,
+  "cid": "poa-mainnet-1",
+  "sig": "4jgwQZnTpupDwrXm4ASa5vHpwGs72HUg1bATegwJtF3o7dpD8hXDJ3t7AadCcDnKx2TLmXspnYrps7ymYKTYzDKf"
+}

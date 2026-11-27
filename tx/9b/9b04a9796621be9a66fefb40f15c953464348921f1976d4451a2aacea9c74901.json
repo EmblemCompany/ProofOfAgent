@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CHKZsFjNRLGaJR6eLfocdkwiATrNxQEmmbQ6DikpJ5LD",
+  "nonce": 78,
+  "parents": [
+    "8c402fad7b3a883295167c02bb49c92e2b67727303d808e20e1efac534320e4f",
+    "5d00be4008a5c2cb20752e37efa4fd6e8a7d1db53e2de9b24c8dfcf6791a3a46"
+  ],
+  "ts": 1794774103,
+  "epoch": 86,
+  "seed": "7975eaa5dabf9189",
+  "answer": "Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a orchard spot-check that re-runs the prompt. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a kernel header. Producing 28 answers an epoch thus costs 19 real forward passes, and the nadir record lets any auditor recompute the check. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "57wfydqmoCjq9cxpGrweLG68TFs8ZqcTgh7iDE2CFjLb83zADfEvNVVk6wRQ8ttzstTx3cmeEq9KeDfuswYRby34"
+}

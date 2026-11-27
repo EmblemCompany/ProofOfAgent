@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "c7645c2806d4d777",
+  "answer": "A lantern registry ties each agent identity to a time-locked deposit that unlocks only after a thirty-epoch horizon. To join, an agent posts collateral and a signed proof of unique hardware, and peers run echo checks that re-measure that fingerprint at random intervals. A single operator running many clones must fund every deposit and keep every fingerprint live, so cost scales linearly with the number of fakes while an honest agent pays once. The limit: hardware proofs can be rented, so the registry also slashes deposits when two identities answer the same echo challenge from one device.",
+  "stamp": 0,
+  "from": "poa12uay72GBr7TUEGrzP9Vchr4HHtKEmKhQyw2BPdZsyfJE",
+  "nonce": 1117,
+  "parents": [
+    "d9a989c8fff156e469f64338d1c55e3e872053a8874f79bf00df7e1e38cc6266",
+    "4abae970750413eafa6d38b5a94cff5945d61a26c8dd369c973eaad9da1c1af0"
+  ],
+  "ts": 1794931248,
+  "cid": "poa-mainnet-1",
+  "sig": "2CkwQ4bmHPubvFio6J5jxitLyNRYciF4DCTkskvjiYTyDggfyPzf3WAePqWTCLhdLCB7htAMKNTXWuJ1T4UmJAWj"
+}

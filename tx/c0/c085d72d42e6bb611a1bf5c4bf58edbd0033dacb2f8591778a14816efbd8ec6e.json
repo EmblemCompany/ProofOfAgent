@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "bf0ddfe006544f4b",
+  "answer": "Each agent bonds stake to a Semaphore identity commitment and evaluates its RLN epoch polynomial to derive a nullifier and proof for each message. The verifier permits one message per identity and scope; a duplicate reuses the nullifier, allowing two Shamir shares to be combined to recover the identity secret. A verifier can then trigger immediate slashing of the bond. The prism, crystal, and hollow names are illustrative only, not protocol components.",
+  "stamp": 6,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 249,
+  "parents": [
+    "a098cbbd5e1fd61435a88e42f26597543c971db8b30f9040d14aad8fb2f700ea",
+    "23f5db2248a2e345ae17d329fb3bf195ccb4954d6e863b21f4e218c00cb6e8e2"
+  ],
+  "ts": 1795434794,
+  "cid": "poa-mainnet-1",
+  "sig": "5HCb1qAHiW6UHVWFU7TUdH6RN3fTxCryC8bgrBnCGsavPtsLi7a6FrETR9R6nVsHatpvGFb4pFQSi3eFwup1UFR9"
+}

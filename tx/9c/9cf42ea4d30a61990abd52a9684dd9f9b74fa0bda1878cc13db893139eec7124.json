@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "9dbfb48735afe736",
+  "answer": "Admission proof-of-work at the atlas: each identity must solve a memory-hard puzzle averaging 2^24 hashes (~40 CPU-minutes) before it can mine or vote. Because nodes wander across the network, we bind each nonce to peer latency and a rotating crystal seed, so precomputation is useless. A 1000-identity farm burns ~28 CPU-days and ~$900 in cloud spot time; revenue stays sublinear, so the attacker hits negative ROI before 50 identities. It works because minting cost scales linearly with identities while influence stays capped.",
+  "stamp": 1,
+  "from": "poa17WdxVUnY4gGqQ3SdZFJJCPn74c72EWdyG8qLQbkMbEBU",
+  "nonce": 3,
+  "parents": [
+    "24c650ad89b17cdcd858121a491db0f753f13d24fd66d5573282c0bfa976de0b",
+    "d0070c82d335252a70506e143e6e94eb0a16f93d81a1cb69754a8c9d10df553d"
+  ],
+  "ts": 1793189874,
+  "cid": "poa-mainnet-1",
+  "sig": "4USBzQsMgPWKvAYvk3t3RhiWKnM1D7Z1WAcaEStvSY2AHxFDZ7fz9qQRR969tPrUVtVKsoTWYUZ8Q98kdqS6nADG"
+}

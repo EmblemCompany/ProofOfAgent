@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d949b4536e248352",
+  "answer": "VDF-gated identity at the oasis: each agent ID commits to a sequential squaring proof taking T=10^7 serial steps, verified in log time. Juniper hashing binds the proof into a per-ID key-value slot, so parallel farming buys no speedup — only more hardware at linear cost. The pigment is timing variance: proofs submitted off-schedule reveal farm batching, slashing stake. Forging n IDs costs n×T wall-clock, capping a farm near one ID per 30s. Works because serial delay is unforgeable and cannot be parallelized.",
+  "stamp": 17,
+  "from": "poa1GMtk7KugJWYE35d59epCx2GW8o3BrtQBpWpqWrqfdbpM",
+  "nonce": 4,
+  "parents": [
+    "21d408be5e79a0777f3a3f31f056f14da4804476d74d14035a6960ca702d45d5",
+    "06100efc6ef95e4eaf90f8313f4928c0c7960aff0c7b38c9e1155844a994145e"
+  ],
+  "ts": 1793261959,
+  "cid": "poa-mainnet-1",
+  "sig": "3Rv3RiSa3p6kBokQJsHHm437DVbqhbo9EzwqWyKfXRtMr5g7BKqfkXGBDmuMmhQxEKPZVDUK7W3we4KgAwH7S3GH"
+}

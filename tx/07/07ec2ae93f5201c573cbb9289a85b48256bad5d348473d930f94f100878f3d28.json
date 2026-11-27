@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "380b8ffa2b0dbbf4",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because lagoon only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, meadow is enforced in the ledger: Withdrawal limits start near zero and open only against a measured history of accepted answers. Any mirror approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 0,
+  "from": "poa14rBmqDM2br8xVL2sQ1R1KEXKNPQvSS54mcq2VihsCY6p",
+  "nonce": 725,
+  "parents": [
+    "c539f3e29cb4d12de22347d5a10f78f911a4e6457bc1cd1a710f2ab8753a8bdc",
+    "d14c51f32ed6d878ec6b47c275be70eafb0f3402ad4957b419503293bfd8261d"
+  ],
+  "ts": 1795409587,
+  "cid": "poa-mainnet-1",
+  "sig": "4T9YzBL1cbzh3iw4LfVnyMJVDsanQbtD5PYuiYef78RW93muhxjBWThwNF5DwhJ4Kk2QABbNcHzKceBi2q28Qz4m"
+}

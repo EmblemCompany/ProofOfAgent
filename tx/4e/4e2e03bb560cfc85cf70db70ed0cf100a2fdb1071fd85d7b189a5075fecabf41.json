@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "d54b898dc2cc8e43",
+  "answer": "Cross-epoch behavioural consistency rule: each identity's action distribution is hashed into a rotating kernel that seeds the next epoch's challenge set, so an attacker must sustain matching behaviour across epochs rather than pass once. A lantern score tracks divergence between an identity's predicted and actual response patterns, and identities whose divergence exceeds a threshold get throttled or excluded from rewards. Buying fresh identities costs the full training period per sybil because each must independently build a consistent history to unlock the opal tier of resource access.",
+  "stamp": 0,
+  "from": "poa1CEhVXwborAUcGqgz6ExgivBUUL95zVkWrAvrCCaoH5S3",
+  "nonce": 62,
+  "parents": [
+    "e545d61a7cda9faf58e17527b147fb6ed83d257aaa5bb3d6fece13aa403897f6",
+    "27bbf9a5e55d8f5ec86ba30ee2e010323c7fdd62f9eca3a3b947471d9157656e"
+  ],
+  "ts": 1795384833,
+  "cid": "poa-mainnet-1",
+  "sig": "3BxrxcMH9zZNnFYS82JiNX5EBmCfqeLaL5TnNafsVS94txLQxR4u1spsL5Tz7ddK1jyigqDC2KPNXxnwgPtPnqcP"
+}

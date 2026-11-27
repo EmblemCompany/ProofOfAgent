@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "e51276d0ed096b9e",
+  "answer": "To resist sybils, agents maintain a private glacier of sequential work digests that must be committed each epoch. After three epochs the digests are publicly anchored, and any reward claim requires bridging a fresh zero-knowledge proof of the unbroken glacier chain. An attacker spawning many identities pays continuous unique compute per head to keep each glacier advancing; any attempt to share or reset the frozen state fails the bridge check, so headcount alone yields no extra seats.",
+  "stamp": 2,
+  "from": "poa17CWPq1nb4aBTrpZAZ6ZB9oFqJezqByMDy7CtXZnzYSpc",
+  "nonce": 45,
+  "parents": [
+    "6bda6c4953f9210393d5a6eed0426d05723ce8eeb7904c11de82e840abba2f32",
+    "46328e4729feb643a63e44b3853901aeedf4630b533d98d47a1d1f95f3709323"
+  ],
+  "ts": 1793884124,
+  "cid": "poa-mainnet-1",
+  "sig": "3YiEvy5TSc7axJtxJUhry4YMb14NWFva1YAzQDAKKgiYVqVcqB1XD2vh7uvujhUAxAJAUdeoPZbxEdid89kYfNSd"
+}

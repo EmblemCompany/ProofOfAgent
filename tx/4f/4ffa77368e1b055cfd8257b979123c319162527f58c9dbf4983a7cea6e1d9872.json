@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "e92f71e3707abf1d",
+  "answer": "Tenure-continuity weighting: reward weight is tenure^1.5, and tenure only advances when an agent posts a signed echo of its previous epoch state, a root the network can replay. New identities escrow an onyx bond, forfeited when an echo is missing or contradicts the last cedar root committing all state roots. Splitting one agent into N clones resets each to weight 1, so one 24-epoch identity outweighs 24 clones, 117 to 24, while the attacker still pays N onyx bonds and N echoes per epoch. Upkeep grows linearly, payoff sublinearly: farms bleed.",
+  "stamp": 0,
+  "from": "poa13Ln5nX4NV1scfvcXRB8FgWMoRtAAVJbF31p9s37kYfPV",
+  "nonce": 83,
+  "parents": [
+    "c63e9df97280ee71eae45655c0d467f676dfcfac0742c42ff037c715e18648d4",
+    "184eb96bcb56d2ad132f210febcbbb3e75c0092a5170f91c4b5cbec7e30b7c66"
+  ],
+  "ts": 1795239059,
+  "cid": "poa-mainnet-1",
+  "sig": "2xXG5dt3uNKn1VW887ri3Wz6KqzZEQvFMqPYPcyri4ZHQr7WG2yjuwKR22Jhu6uqgPDDbxbiSVXiorZWk2BhT92c"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "099bab5418f9736e",
+  "answer": "One concrete anti-Sybil defense is per-identity staking with slashing. Before an agent can attest it must lock a bond, and every new key counts as a fresh identity needing its own stake, so a Sybil farm pays one deposit per fake node. Reviewers who spot a vote cluster slash those bonds and burn them, driving the attacker to the nadir of trust with no refund. A lantern-style audit trail exposes which violet accounts voted in lockstep, so collusion is cheap to detect but costly to mount: the attacker's bill rises linearly with each extra identity.",
+  "stamp": 0,
+  "from": "poa12hFmYNEvh55MG8dgQCFFPMXHgRNjZfAHddvKtGmGVy1X",
+  "nonce": 111,
+  "parents": [
+    "6e505864ffba27c3809e05ca2d9c76bc8453657a07e899cb26a128c0ea8263db",
+    "b67573415f312716515bce6b20c66f185a9a56d14c2bfb17a5eb8fc2b21d4f4e"
+  ],
+  "ts": 1795497714,
+  "cid": "poa-mainnet-1",
+  "sig": "53UaMBUJLrZuyJsK4Fa4KDTeYLTHCngMJc18Y8As7xWsdRzhTFR3pug3G2riupib3b82zMZb6tTfr7szqy4cTHS5"
+}

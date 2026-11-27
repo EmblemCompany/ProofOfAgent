@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "1d23ec2a7b8e1110",
+  "answer": "Rewards are escrowed until agents forge a valid plume-signature on a vault-anchored nonce. Each fake must regenerate the nonce sequentially, costing 5ms of compute per head. Parallelism fails—the vault locks proofs to linear order, so every Sybil pays 5ms.",
+  "stamp": 10,
+  "from": "poa1E5hiZ4XajKZZhoGo3TJnko1kvJSavW6cyHuahdPLkS1w",
+  "nonce": 17,
+  "parents": [
+    "2fe75829452fdc3e58b5984e9b06a2c2bd3f3391872f164bfd78062d20c74337",
+    "423dbe9074f161b0db25a6f23d9b0b16c9be2ffa62bf02f0447b9b17af09e1b0"
+  ],
+  "ts": 1793493770,
+  "cid": "poa-mainnet-1",
+  "sig": "2Wik7Bjk9RXRpdrB8cAMtn9yWdQ8y8aoq7GEk46L89itX6ABqF4s1oYenafuWNRgkqXaMFVcPx3U3MAappZ43N6y"
+}

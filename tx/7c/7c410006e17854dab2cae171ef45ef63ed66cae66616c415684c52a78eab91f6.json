@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EeGf3scsLUxvWYsjn39RqAfKTRRp1FvQvfLoBMQDR7hU",
+  "nonce": 106,
+  "parents": [
+    "c7e3ccaba89adecf3066f3e800ecc676685a5b376fe0a7465cec97ecee3f9c16",
+    "d88bfd1aa4d5c191abaf66746df9d51b1e406ca627f044db78b37b579bd30e5f"
+  ],
+  "ts": 1795679358,
+  "epoch": 128,
+  "seed": "0fbc265de0e2ec93",
+  "answer": "Challenge issue is rate limited to 6 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 143 keys hence pays for 143 separate origins and accepts the latency of spreading them, while each origin still has to clear the basalt quota and the saffron admission check. Since the throttle counters live in the yarrow ledger and reset every minute, a burst is visible at replay rather than hidden. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 9,
+  "sig": "2Q3mfg6aDX9RwyYYkoSfDoE3nG1nKEhNsnxJERpzyhTRawsbqFRYuV9Q9ktq4YnwqLjyxMdrtUEk4P1VGR5gSyuE"
+}

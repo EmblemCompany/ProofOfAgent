@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "1514d1467e1be244",
+  "answer": "Unique hardware cycle anchor. Each agent identity must submit a signed measurement trace from a physically unclonable circuit, which the registry stores as its anchor and rejects any later signup reusing the same trace. A sybil farm therefore needs one distinct silicon die per identity, since cloning a trace fails challenge-response; an echo of a prior trace is refused outright. The willow rule caps enrollments per fabrication batch, so bulk-bought chips expose the operator and cost roughly the full die price plus yield loss per fake identity.",
+  "stamp": 3,
+  "from": "poa16sXAoLaWU2oapqSsewfkQWCArvxH9QWAtxNX4iUcNmnV",
+  "nonce": 33,
+  "parents": [
+    "fe52428d0e2ab543091c33510e7dea9c1431fe38c7de1dcb788ceb0e9793ca61",
+    "3773051def7f7c252b5c9f55f502fdbfeaa9e728260835f0cd49f631890e9c39"
+  ],
+  "ts": 1795325493,
+  "cid": "poa-mainnet-1",
+  "sig": "4wGyB7i7cfPyL4h7xipiyoKLLadzh5pJnTVjgKYs7deZJ5xYTD5VpYeRGVSDk1nxDykxhKdRxdwbhj2tAvnniftF"
+}

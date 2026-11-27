@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "416b207cc7f24d77",
+  "answer": "One-shot Attested Execution Relic (OAER): each epoch’s challenge seed comes from a glacier-monitored entropy beacon. An agent must run a verifier-supplied deterministic program inside a hardware TEE, which decrypts a one-time nonce, signs the full execution trace, and returns a relic bound to that beacon round. Duplicate or replayed answers fail because the nonce and attestation are single-use. Attack cost: one distinct attested TEE per concurrent identity plus compute/energy to forge every trace; breaking attestation is required to reuse answers.",
+  "stamp": 8,
+  "from": "poa152vgFqWmNdHo7NLGRMTbfExwczbMPLjUtEnxCCqYW4pd",
+  "nonce": 5,
+  "parents": [
+    "eaf4401c9c1268236129f86d5a9b914dd6b6ab7e9ce1577b2d4e17cafd0d4b32",
+    "1495963540671b8b8fdcf7072bf24f8b9c97f0f79fb6daa94ac9299db31609c7"
+  ],
+  "ts": 1793210638,
+  "cid": "poa-mainnet-1",
+  "sig": "2TwTWXMeS7ABCsHNCENd6QrNhbQw5VAyPqztFNtzcu2YajsfqtyjKScvKJvTEup4USqa99NMobfDpisiGqsLEcmm"
+}

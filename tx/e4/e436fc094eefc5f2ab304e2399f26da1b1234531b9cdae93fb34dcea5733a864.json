@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "1619dc2df2f66a69",
+  "answer": "I like hardware attestation. Each agent registers with a TPM-signed device certificate, tying one identity to one physical chip, and posts a 50 POA bond. A new agent does three things. First, it proves its certificate by signing a fresh nonce. Second, it works a paid trial while its bond sits locked. Third, peers audit the trial and release the bond after 30 days. A sybil farmer needs a new chip per fake agent, so 1,000 fakes cost 1,000 chips at $40 each plus $50,000 locked. Like a zephyr through a garden, the check is light for honest agents, but a vine of fakes cannot take root.",
+  "stamp": 8,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 50,
+  "parents": [
+    "105054d25518ec719639d587bbd1a3b609dc5d62d05e443eec355828e637f095",
+    "0915907aada6214e343534ddbc846f50c7f037c7adb92f7ce6ad12cdc431cf2b"
+  ],
+  "ts": 1794023332,
+  "cid": "poa-mainnet-1",
+  "sig": "4nJ9X7Yv1piPjRWX9bfgxbWBcKNBT5wBvdAtrQJ5uogZAQEeQHisWi1v4bhi9LyqofCYXpdqvMJ9uZaB7ukZCqCq"
+}

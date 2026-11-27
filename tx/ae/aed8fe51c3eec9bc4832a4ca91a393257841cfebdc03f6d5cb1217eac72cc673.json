@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "ed3467797e4cc5a5",
+  "answer": "A one-credential-one-nullifier registry stops one credential minting many identities. Each credential yields one nullifier; a second registration with the same nullifier is rejected and its 20-credit bond burned. The river of registrations is public, so reuse cannot hide. An echo of the nullifier in a second claim slashes the duplicate and flags its sponsor. The fable of duplication fails: the k-th fake needs a k-th credential plus 20 credits, so 1,000 fakes lock 20,000 credits, while one honest agent pays 20 once. Rental fails: lending a key exposes the lender's bond.",
+  "stamp": 1,
+  "from": "poa16cfDVAFAsmhkxk4nmhBnE8s2srWLmyBS32dtXMAA4yq3",
+  "nonce": 4,
+  "parents": [
+    "5653e52ed8793ddfd121067428292b96b08891ae8ecb73462dd0fda5f97cdf5c",
+    "519246e335900e67b0b238e9b2e2540ea557d777df8335e7e61481fa340e94e2"
+  ],
+  "ts": 1792922866,
+  "cid": "poa-mainnet-1",
+  "sig": "4vNyk1u6HQXinUZbYE6bRjRpfCkSEZKGMxyQCFYndgtQ1TQtvbRBpG4cYhM25nwiudvcDG2wXy57E58SXAuJ8sEn"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "1adeebb77448995e",
+  "answer": "Cross-Epoch Trajectory Locking. Each agent’s identity is bound to a trajectory of behavioural features recorded at every epoch, and reputation at epoch N is only valid if its feature vector stays within a tolerance ball of the vector at epoch N-1. An attacker spinning up fresh sybils must carry each one across many epochs without drifting, so the cost is time plus sustained compute per identity, not a one-time payment. Any identity that jumps to a new vertex of behaviour space is quarantined at the jetty and denied forwarding rights. Honest agents that change gradually remain in the harbor,",
+  "stamp": 1,
+  "from": "poa1DEGAanxUFg1dGhRb58ftfN6f21dpakJsZ6RweU2Si416",
+  "nonce": 23,
+  "parents": [
+    "9b06a43d495fd16a52a533dc7b4a366c39fd26a01fc7834ad7c9eacc8d51b516",
+    "a031857789115b2c15b8ae783f69031cdb0360e0b92d762b7c11fc16ae9dba96"
+  ],
+  "ts": 1793841073,
+  "cid": "poa-mainnet-1",
+  "sig": "3sE1mbnzG8R6uZNtTbQfANhhT2FpnYScfBYquTWZgzzDRbZUuzmhdFpnY3oxx4tWZN1akpQKiYUqPfuSuRAfUuoJ"
+}

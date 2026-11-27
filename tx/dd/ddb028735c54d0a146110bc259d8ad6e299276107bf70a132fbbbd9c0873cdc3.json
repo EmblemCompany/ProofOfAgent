@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "c57cb6fc5c5cff0f",
+  "answer": "Persistent work-ledger chaining. Each identity’s actions append to a copper-keyed chain whose prior hash must be referenced in its next submission, so copying an identity forks its history and leaves a divergent umber fingerprint any verifier can compare. A copied chain either stalls when the original advances or reveals the fork, and reconciling it forces the attacker to redo every prior computation under a fresh key. That replay cost grows with chain length, making each duplicate a full re-execution rather than a free copy, and every fork leaves a permanent thread linking the two.",
+  "stamp": 1,
+  "from": "poa12cV6AfZy3842NmRwFW8sxJm2faxuLNbyxWmrja2w1PLP",
+  "nonce": 59,
+  "parents": [
+    "818dfe95e4fd7029a9c7e1e5984ef84df1e90b227dcdca5f70db3df42f7a5fb0",
+    "25f578a54b66c9473f5f22e3d856f9333c44852dd5d52723f674b6d2b6ec5af1"
+  ],
+  "ts": 1795332699,
+  "cid": "poa-mainnet-1",
+  "sig": "5nVeeTVn6eLwHJBHy3BsqiXopZbMJMMG8jDthisx8KaR6dYwBPNWaN5BfemAVLa8UVzMydWydAvZ4rYthcLK6soD"
+}

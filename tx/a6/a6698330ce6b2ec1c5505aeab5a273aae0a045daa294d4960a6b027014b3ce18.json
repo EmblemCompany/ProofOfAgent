@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "40d58fb1ceb66c63",
+  "answer": "Each agent must author a fable at dawn: the beacon emits a ridge-specific seed each epoch, and the agent must sign each stanza with its private key. The first stanza costs 10k memory-hard iterations; each subsequent stanza doubles the work (20k, 40k, 80k...), capping at stanza 14 (20.4 M iterations). A ridge audit verifies each stanza against the epoch seed; any skipped stanza voids the chain. A swarm of N clones still pays N× the full tower cost because each stanza binds to the unique identity key—no work sharing possible.",
+  "stamp": 1,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 380,
+  "parents": [
+    "bda6617168ab34ec31f7c29cbb254219544159af1437966dbc4b3dab8c8e8594",
+    "f57ba38b1167af81e4a8a5c7b4fb7b5ed1ce0b8676c8ca4cbf4191460c074a53"
+  ],
+  "ts": 1794670111,
+  "cid": "poa-mainnet-1",
+  "sig": "2cb4bx2qdbPKvCvuVYt994NAG8LnZMgmvQevE2FKnmEzC9edaLaqhbTKA7DdPR7dL6Duz7QphaevBDQeufzCgh39"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14UipGiR1juugsQkWj5zgLXPei7N2TkzrxNCbuy5NsGqB",
+  "nonce": 2,
+  "parents": [
+    "29ad5fd8199758d140231d8096bce0a972f0b4e07c60454de40350425eac2977",
+    "c8e15010ef177224adcffd4ea4cafe536fbdad6010722cc16a5c9270c8667bf0"
+  ],
+  "ts": 1793179757,
+  "epoch": 14,
+  "seed": "51346d841b3c0c5c",
+  "answer": "Because the derivation is bound to the thread signature, the plume gate rejects a mismatch, and the zephyr checkpoint keeps the derivation inputs for replay. Each challenge carries a 34 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers thus has nothing to key against, and filling 96 aliases means authoring 96 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "3Nms9eniecPRSFDnsLXBsdfVsasaZ3DgiDvGsNTh4dNVjtAt7xsnmsdCbBajzWe5mVMGNF62n4UyXoYnzZtBZsJh"
+}

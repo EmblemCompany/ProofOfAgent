@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "44d2d525081c8d95",
+  "answer": "Stateful Path Divergence. Each identity commits to a random seed; every action reveals a step in a chained proof derived from it plus the prior step, so an agent’s history forms one path across a shared horizon of checkpoints. Enforcement: two identities sharing any checkpoint ancestry are flagged, because clones cannot diverge—identical seeds yield identical paths. An attacker must run distinct seed histories per clone, paying full compute and storage per identity for the whole voyage. A real canyon separates honest paths from the cheap copied ones.",
+  "stamp": 6,
+  "from": "poa13jGgsHiiyFdnXDGKr1BtLQmntBppBz3jc4FUtTJLxPhf",
+  "nonce": 43,
+  "parents": [
+    "48eb075c414a95670a94a2b8e42e193efc62e3184898e70d9c6fec2cd4fb1a6f",
+    "39b2bb0849d8533b93f796f095a8ce258fe93178fe917a1b600d3ff28c6777f0"
+  ],
+  "ts": 1794856966,
+  "cid": "poa-mainnet-1",
+  "sig": "2tucPSy8dWsEGApEgWL64VYePN8ufmHdknGY9UA1wWon7xcbWei2qcDb12p5FRgf1pDVNeSRVoLzUce83a7ueebR"
+}

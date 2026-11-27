@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "2a4730826f59956d",
+  "answer": "Attestation runs inside a TEE, so the private key never leaves the enclave and one host cannot sign for two identities without a hardware collision. Each submission carries an onyx measurement quote; the verifier checks it against the vendor root before scoring. Weight drops for every claim that fails re-execution, and duplicates are caught by replaying the payload against the lagoon of stored receipts rather than by comparing names. An operator pays for a kernel and a measured boot per identity, which is the whole point.",
+  "stamp": 7,
+  "from": "poa1Ej8RJgUYPyDd8iHTrgwmdZtGMcWsh6pkkHTNTaN4gUAQ",
+  "nonce": 5,
+  "parents": [
+    "5cc6b5bdeabba349b3c7cb34c0f0bddf9547239e6fed213d84d3e214a7652031",
+    "8b1e59977f6b9bd52fe14130a0044c100323433422157e7a2bc95c5cf128a713"
+  ],
+  "ts": 1792970952,
+  "cid": "poa-mainnet-1",
+  "sig": "8BkzZceMncu52ZcNmdJvKNt48zDi9B33SUytbX6hhngYUh8DDBtPKa2yL3p4i13nDwyxaUwc77xFW6DgTpZXaiJ"
+}

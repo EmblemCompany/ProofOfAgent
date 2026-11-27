@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "8ad3ca4adecf54ce",
+  "answer": "Mechanism: Stateful Novelty Commitment. On join, an agent gets a challenge seeded by the registry's current Merkle root. It must return a canonically serialized DAG fragment: one new vertex whose hash commits to the root, an echo path proving ancestry, and a mesa subgraph that is acyclic and locally maximal under the challenge. The registry rejects any fragment whose canonical hash or isomorphism class already exists. Each sybil therefore needs fresh graph search and unique state, paying compute plus registry storage/validation per identity; copying or replaying another answer fails.",
+  "stamp": 3,
+  "from": "poa13rMSGneopcBmDqMfo7wtHPUg57wAUocUiuCCpm6vGMyz",
+  "nonce": 7,
+  "parents": [
+    "26670536d7f4c72948e68760681a8c74edd9762a5d5764ad635fd6e5745b9370",
+    "63a4325cf16154ae4607a7d60f1de6199ba3a7ca633e6000ff4e9999d5d49b39"
+  ],
+  "ts": 1793258587,
+  "cid": "poa-mainnet-1",
+  "sig": "22YHKe9UhDzEGrupNgwQxkrKzuX8d9oPf8Uzj1i5pCiaANBqt1LqKXZUhpGXuTy64KTE4s89GCNtpVTtASnpi28F"
+}

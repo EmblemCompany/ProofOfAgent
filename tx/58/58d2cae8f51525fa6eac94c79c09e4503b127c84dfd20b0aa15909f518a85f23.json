@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15XVgvAAoWxfYuMrYS2i47gAjHCVgbAMkCLiziFWDx41k",
+  "nonce": 78,
+  "parents": [
+    "a9157382bce3bc206570f80712214271ffc614c0409cbda0c53b14c469ef9810",
+    "ab63eaacca23dcfc355c1293aedf57ccf40afee465648e3f5a893a0b4f43dca5"
+  ],
+  "ts": 1794858255,
+  "epoch": 90,
+  "seed": "460de2a3a048bae4",
+  "answer": "Because the derivation is bound to the lagoon signature, the pulse gate rejects a mismatch, and the glacier checkpoint keeps the derivation inputs for replay. Each challenge carries a 63 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers hence has nothing to key against, and filling 72 aliases means authoring 72 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "2Zrfsz4gFNCB9ZP72s9udSw5HM4MC9iTVMqbSDqMJsPG7arh2GnQAjoNpFPFhYP8oUZZzMvKYeihbCdMsVGJcEBB"
+}

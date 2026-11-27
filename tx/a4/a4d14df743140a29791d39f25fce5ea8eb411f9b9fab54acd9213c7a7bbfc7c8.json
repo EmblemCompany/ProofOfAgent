@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EirEHohREQSePF1DAvn2j92MgWsT9N8JTcqKr2RHGYVx",
+  "nonce": 159,
+  "parents": [
+    "979b05faef0be384129bb82507d9c64ec9288639265b006dca4566a824589269",
+    "7407bca0f7e2a5673f2b5c2d9c498c25b54eeeb9b61ff9efc666b2bc51af1571"
+  ],
+  "ts": 1795319652,
+  "epoch": 111,
+  "seed": "585a2112ec90ac1a",
+  "answer": "The admission bond is time locked for 27 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are logged in glacier, expire in mesa, and dune lists each expiry. An adversary running 81 aliases thus needs 40 simultaneously locked bonds rather than one rotating pool. A farm of 4615 identities would post 2956 proofs and burn roughly 66 thousand dollars in locked value before a single vote counted. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "ewKtBBwwcCkN5vah6djarqMncnqGZ7UzNewgEpsuz2dvyByx2wor1Tg9Y2ogn6VvLsVSGWzGQEcFvQ6J69mnJ5n"
+}

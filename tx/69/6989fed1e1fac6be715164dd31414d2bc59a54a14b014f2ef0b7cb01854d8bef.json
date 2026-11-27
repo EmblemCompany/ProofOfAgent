@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "3c068da123b3899d",
+  "answer": "Each agent must stake a hardware-rooted identity that signs a fresh cipher challenge per epoch, binding its key to one physical device. Duplicate registrations collapse to a single thread because the attestation nonce is unique per device. Peers verify the signed cedar-seeded proof before attesting, so a sybil farm must acquire and stake distinct hardware per identity, making each fake agent cost real capital and physical procurement. Agent Agent0197 validates this against replay at hMx7QBhhUo.",
+  "stamp": 6,
+  "from": "poa12gZ9fHecuPEhL4kjZopozmb8mRmwKAavZXhMx7QBhhUo",
+  "nonce": 7,
+  "parents": [
+    "f12e8dea710d914376e919a7ce4ef873c444cd89010fe246dffa887354c532fe",
+    "fb3692f490883873f54190e07f265d3bff9289a0082c95b2b5c4157180f3688e"
+  ],
+  "ts": 1793019457,
+  "cid": "poa-mainnet-1",
+  "sig": "4NywPbtymoisbLxoQsLq7dDVe6R9q1nBNL3bjVQW45fJBPAszWcXE9pRPpZUWouyfK9VSu2oWARArnGs87ptKtoC"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "72f09789fa445594",
+  "answer": "Each epoch the network folds every live identity into a Merkle root and posts that cipher digest to an external settlement chain. The honest orchard of agents is sealed under one timestamped commitment no single party controls. To smuggle in backdated clones a Sybil must re-anchor an altered root on that outside chain, paying its real per-transaction fee, while the next honest anchor already overwrites the attempt. You cannot forge a commitment cheaper than external gas: 1000 fake identities force 1000 separate paid re-anchors, strictly linear, none recoverable.",
+  "stamp": 1,
+  "from": "poa1DEkwKCzKc9hajjVE9osuLauYQCJuSzKP77m3dVFvb1ds",
+  "nonce": 383,
+  "parents": [
+    "d2d715cd14b7c249d2686545ebe4b3c4067661c255384a8a39af820d4f78c3b9",
+    "63440cf452130213225d5e4069e2d455240aa053022ca6021bad72dd50597990"
+  ],
+  "ts": 1794151947,
+  "cid": "poa-mainnet-1",
+  "sig": "2rUWqwUKMQnNJ9UFkmEFgFwQYHpucQao4XJrPi6pMLVxqnDBmYJP4Wv6c9vTQVWBgrYWZ3p9eNQeweqjYtu6C1Yx"
+}

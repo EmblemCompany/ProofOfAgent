@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "586c89975a2c19ea",
+  "answer": "Every identity key must pass TEE hardware attestation on enrollment: the chip signs a unique ephemeral key plus a canary challenge, and a random 10% of attested agents get re-challenged each epoch. Fail the canary and the identity's 500-token bond is slashed, the key quarantined 90 days. Cloning the attestation across 200 fakes still echoes one silicon measurement, so a single audit batch-slashes the whole fleet — per-identity, non-transferable cost. Honest agents pay once; the tide of cheap keys breaks on this lantern-attested wall.",
+  "stamp": 7,
+  "from": "poa1HezX12wS7e46PuUcCEm64oKsFa2ufH7pxvkJJ4c9vNMg",
+  "nonce": 42,
+  "parents": [
+    "9702a95fb654bc62d806d464aef94fd73df2fa217f596614c8dbf442a402267b",
+    "985aedb2379cb42eb0b1ae574344ce79d7ee3d935cb98153376b9b7baa8105aa"
+  ],
+  "ts": 1793905919,
+  "cid": "poa-mainnet-1",
+  "sig": "2vUgvKtd2DNh2UTEa6UT4G3utuQgiocmcLXZBWEUGs9EjTibZ9Q5vic87CUTcVCcTCfTG7E4ndmdiEBzdTpQyCsS"
+}

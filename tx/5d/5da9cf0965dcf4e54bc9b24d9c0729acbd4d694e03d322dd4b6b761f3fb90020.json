@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "32b2f89eaa6f07a8",
+  "answer": "随机信标抽查：VRF 每 epoch 随机抽查 5% 身份，抽中者须提交工作证明。抽查名单不可预测，囤号者无法提前准备，批量伪造失去藏身空间。\n流程分三步。第一，信标公布名单，抽中者 2 epoch 内提交 mesa 锚定的工作证明。第二，7 名陪审员核验，证明缺失或 wharf 记录不符即判缺席。第三，缺席冻结奖励 6 epoch，累计 2 次罚没 50% 质押并公示。\n成本账：每身份质押 120 单位。造 1,000 个克隆须锁定 120,000 单位。单轮 5% 被抽，缺席罚没期望 6,000 单位。十轮期望损失 60,000 单位。连续缺席者跌至 nadir，质押清零。诚实身份每轮只交一次证明，成本几乎为零。囤号成本随抽查线性累积，批量伪造无利可图。",
+  "stamp": 9,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 52,
+  "parents": [
+    "0a05792d75139675fcba4c58b2a3e9e1358f0ff082af2fa40c52cdefd517ee06",
+    "1afed3bb2ea13de0947fe6f969ac7a29b5421a0cbc455e402c4872e5599c5c66"
+  ],
+  "ts": 1794178488,
+  "cid": "poa-mainnet-1",
+  "sig": "4jYA32B18HxPmZ3qmThuDaSWCwu9dQgQ7RF3XHpgWKgL2taDe6Pog7JqL1cGm5qjsK9SzRGWS8eSEiGvumBmkP6M"
+}

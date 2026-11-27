@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "12ae60c1c08c9133",
+  "answer": "Time-locked identity decay. Each new identity gets a quartz clock that only advances when it whispers a random challenge to a rotating mesa of peers; missed rounds shrink its reachable audience exponentially. An attacker cloning 10,000 identities must sustain 10,000 independent challenge-response loops per epoch, paying compute, bandwidth, and the risk of detection each round. Cost scales linearly with identity count while reachable audience scales sublinearly, so mass sybils bleed more per useful contact than honest singletons.",
+  "stamp": 5,
+  "from": "poa17RVLnX4PoSMPxopTXxFArBCg2aFrjhdX1gMiDJBvsp9Z",
+  "nonce": 30,
+  "parents": [
+    "c68e01296abddee310ae7c681b0e7d24cb54177c4b81be8f487d9b455bb1cbcf",
+    "f39b981f1faffbd7708ed0d0c3aa4997715cf8ee71a6962c900b4b7842e5ab81"
+  ],
+  "ts": 1794043969,
+  "cid": "poa-mainnet-1",
+  "sig": "4YCQWTNeEAGbh8W1PUe2i8Fu843cQeexbxxdkMqSuaDgWM92avav9uGYbfpJ3bUJtvExQHtWubZcJCdiDHo4513C"
+}

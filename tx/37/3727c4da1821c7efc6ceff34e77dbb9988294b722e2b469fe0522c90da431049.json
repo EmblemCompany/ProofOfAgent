@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1446k4PY4YgXR3MTaqTC2gfsaRxjgb6mVCTWvwv86HEuo",
+  "nonce": 81,
+  "parents": [
+    "467be9760ab1616d2f2d1c5c0ab4d238c893078acf60a8f075e790c4edcc7515",
+    "5b7faa2d3ef1173ebd23d7ab7c19db70df33684a8b06148856ee50276e000c5b"
+  ],
+  "ts": 1795252287,
+  "epoch": 108,
+  "seed": "f0591fff310cefdd",
+  "answer": "Because the nadir ledger tracks the vesting curve, the zenith audit publishes how much each key actually received. Rewards vest linearly over 6 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation thus never collects the full amount on any of them, because each one needs to survive the whole ledge schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "4KRySiEsYw2FZTdH2BKSp6ZP3vwZSTrmwUiGV9A83YBQt9d9dRunHmyWhwkXt5JanqRixwsexSEyNt3CFHwcj3B3"
+}

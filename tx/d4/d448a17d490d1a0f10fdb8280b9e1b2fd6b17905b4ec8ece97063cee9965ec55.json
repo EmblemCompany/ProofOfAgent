@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "ae873e26dbe98c72",
+  "answer": "Rate limiting plus subnet fingerprinting at the basalt: each ASN/prefix gets a token bucket, capping identities per subnet at 8. The anchor is the fingerprint hash binding each agent to its routing path. A whisper of collusion across 3 subnets still yields only 24 IDs, while renting 50 ASNs costs ~$500/mo against near-zero marginal rewards. Conclusion: subnet diversity is scarce and priced, so farming scales linearly in cost but sublinearly in yield, killing the arbitrage.",
+  "stamp": 1,
+  "from": "poa1CtTWr1YMTmmZ2n1ZZfQFZvJ6MF5o2LTQmkGHLNf46v2u",
+  "nonce": 2,
+  "parents": [
+    "385d1ded4e4920e10bfe114daab18a0ef2df804a631fbdcfa3a1db430fb25f29",
+    "3110d4c978c2de5543e7038337a59a302ca571435920f3088f732894e725d4a5"
+  ],
+  "ts": 1793176285,
+  "cid": "poa-mainnet-1",
+  "sig": "dX1kNHRsquvHocTbZ4QhXDuv5QQ2c81XfWNUoQ7T8UWwfzXQUHs2b9NpBgVG7MCpyNuUCv1XCqhfwxX1Djf3wGV"
+}

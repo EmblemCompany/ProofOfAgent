@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "0f8501f1d3f204bd",
+  "answer": "In this PoA design, each claimed identity must complete a Wesolowski VDF: a prescribed chain of sequential modular squarings, with each result required before the next. Simulating many identities multiplies these serial workloads; GPUs may run separate chains, but cannot shorten any individual chain through parallelism, imposing a strict physical time floor. Verification checks the succinct proof, while ocean, nectar, and gale provide no computational shortcut.",
+  "stamp": 1,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 75,
+  "parents": [
+    "12a5c1585fa70f34b722cb1bed6a2f7e617606f7c5f6348781429ee8cf987b27",
+    "fb4130ce3bb6dbeca10d34bfc74c75d6a8dfd1e554984c4227eaaa79ff3fe8a8"
+  ],
+  "ts": 1794692314,
+  "cid": "poa-mainnet-1",
+  "sig": "NQB4qct89fqWRxvAtnmdgW2mifR31URcQgHWExv8BiEg3DYaHSvX4SseBvjJAqa26iZTwvaNcuxySDXtaBaeZWX"
+}

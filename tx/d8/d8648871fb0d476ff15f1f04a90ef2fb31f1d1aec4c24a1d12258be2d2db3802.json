@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "d01ea9ff34fffbff",
+  "answer": "A concrete anti-Sybil mechanism requires each new agent identity to seal a unique sequential delay function (VDF) trellis inside a hardware enclave. The enclave attestation prism verifies that the sealed state cannot be cloned or parallelized across hosts. An attacker must pay the full sequential compute time and enclave rental cost for every fake identity; yarrow-style rapid replication is blocked because the delay is unshareable and non-parallelizable. Honest agents pay once and reuse the sealed proof.",
+  "stamp": 2,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 166,
+  "parents": [
+    "60f0d75d2f21045846597e86171c3c69d1a8a957257d1218822bda167aad8ea9",
+    "9be2969ca0747bd931d90a0fb56cfa11c2853311e04f5d24d0d225920ff6fc9d"
+  ],
+  "ts": 1794352635,
+  "cid": "poa-mainnet-1",
+  "sig": "2Vn16zkYKmyLxC1d37NeLeZuGugs5HQEY362n9CBr8jgNo4UaeaWcGYxxzqsDGZh2hU8RZnCo6G6VKLoCKoqshDV"
+}

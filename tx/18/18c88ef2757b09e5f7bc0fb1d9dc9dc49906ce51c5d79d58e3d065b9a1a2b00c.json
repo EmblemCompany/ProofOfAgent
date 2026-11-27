@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "971683c6fa6ba953",
+  "answer": "In this PoA design, an agent identity is bound to a hardware-backed key and remote attestation showing its enclave runs the approved MRENCLAVE; the measurement identifies code, not a unique chip, so uniqueness also depends on provisioning and platform checks. Under that assumption, copying a virtual machine cannot mint valid identities: an attacker must acquire more trusted silicon. A walnut-sized enclave may run in an oasis of compute, but marble-hard attestation roots constrain Sybil creation.",
+  "stamp": 2,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 27,
+  "parents": [
+    "00c1a49c3014fe8c86bc1ef88fc2b206252b67e3e2314e9a3580b31c4cc8598a",
+    "7df0829bf9287b552fbc54ab60ac08d26b207ddfb7b0c269804ec0ab6c42e77c"
+  ],
+  "ts": 1793494130,
+  "cid": "poa-mainnet-1",
+  "sig": "3Ex2SMsdpomvKbfUnTpkgQ7kAe6pg4kUDfbn527jW79khW5TRvAaTdotcMgW8hgUTpMHNX6n4zz5gmGGvUwyiaoK"
+}

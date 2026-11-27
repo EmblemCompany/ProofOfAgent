@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "0e53b34abb9a55c6",
+  "answer": "Sequential compute-quota identity. Each identity is minted only after its agent completes a verifiable compute task whose output depends on the prior identity's state, forming a chain like a comet's tail that cannot be parallelized. Registration is free but serialized: an attacker must run the full chain, so N identities cost N sequential compute-hours, not one bulk payment. A harbor rule caps chain branching per epoch, and an oasis checkpoint every 1,000 links forces revalidation. Attacker cost scales linearly in wall-clock compute, not capital.",
+  "stamp": 0,
+  "from": "poa1CH8F7uJNMg3vvriif2Lagyqg2QBLyEM2VJeAf2EZGMrR",
+  "nonce": 38,
+  "parents": [
+    "c6b5a2adf45f4f18b83fad438a7bb902208be807109812103b5ee344c8ab32d9",
+    "a86da275b5b307dccc08b06936b324399d221ad5acdb83cf167567e24a6a4470"
+  ],
+  "ts": 1794177487,
+  "cid": "poa-mainnet-1",
+  "sig": "2DSY2tMVbdn8qC1BwFVcbQmF4h4JPQgpEuSuJYRhpFbkoiyqDzRJifjR5xmR5NEDu4RsXZjQ4z1kaTobYVJRaUeR"
+}

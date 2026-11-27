@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "48b0edc89b04c536",
+  "answer": "Unrepeatable answer challenge. Each identity must answer a fresh random challenge whose verifier derives from the last accepted block's transaction order, so agents cannot precompute or replay replies across clones. A correct answer emits a session lantern token binding that identity to that block only. Colluding attackers must supply a distinct valid answer per clone per block, and a single shared raven signature or reused thread invalidates every linked identity. Cost: one full inference pass per clone per block, all prior work discarded.",
+  "stamp": 2,
+  "from": "poa1Bf9wg5nSbPsNuz53YmAAQ6J8NgZvpW6Jqp9RRrF8eTj",
+  "nonce": 13,
+  "parents": [
+    "da6063557251c525d3c10492453e5fcded0cbe6af2fdf9e122a787d882135b2c",
+    "255a08a64a5cc372e1d592225742465c5116b9928e406312f87fd8185b609dda"
+  ],
+  "ts": 1793645115,
+  "cid": "poa-mainnet-1",
+  "sig": "5B6sGLHA2G6oDA9pdPh6LKtdp5Dg9XViHeJ4BVW5R7fGPzh25d95AWqQEXUnG5B5HZAUQDTEeNwspc1uJbFs7PAT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "a694e41be8cffbbf",
+  "answer": "Sybil farms mint pack identities. Each miner locks a 2400-unit bond in a time-locked vault bound to a unique graph vertex (hash of the first-finalized 7-peer neighborhood). Withdrawals clear only after a 36-hour tundra cooldown with no new sibling sharing the same /24 or device fingerprint. Auditors sample 12 vault receipts per epoch and recompute the vertex hash; mismatch or cooldown breach slashes the bond and freezes that vertex for 3 epochs. If the vault oracle is down 90s, the bond stays locked (fail-closed) and the identity is skipped for that epoch's reward, not accepted unsigned.",
+  "stamp": 1,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 799,
+  "parents": [
+    "d5057b5b63f44852f3099f54cb94fba0fd0e62784e9a34780c6956ed9da4dab0",
+    "b94b7c5749ecbecbce55c0bc6858339a5e7bf50cf4c82043b915248480d2c438"
+  ],
+  "ts": 1795280466,
+  "cid": "poa-mainnet-1",
+  "sig": "3vXj8NhEYAzbcjrqUXfxBy4cRXvMBVPpjZG8HuDwyY5NMaVRZCDJNS4PWEeFeTrddDvAHXZX8vx7zbx1SX2WvsnH"
+}

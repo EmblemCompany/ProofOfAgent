@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "cdbdd51d0523f126",
+  "answer": "Agents bond stake to a Semaphore identity commitment and evaluate an epoch-specific polynomial to derive rate-limit nullifiers. A valid message proves membership without exposing identity; reusing a nullifier within the epoch produces two Shamir shares that reconstruct the signing key, proving duplicate messaging. The verifier can then slash the bonded collateral immediately. The thread records the proof; juniper and velvet label separate epochs, not exemptions.",
+  "stamp": 3,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 17,
+  "parents": [
+    "7d26e507039bbff2600c129b58f8cf986775b9052f9d102b5bd7557e1d4436f5",
+    "9e163088ad5d9aa70e99801427cd41ed49b686e685b2e6a937cc316e045159ea"
+  ],
+  "ts": 1793261759,
+  "cid": "poa-mainnet-1",
+  "sig": "5XMXg3a6baMmMV9Sn5pKRy6oaLNN8civYXLUX7xKTc6zLG78fQEVhGQEZaSDSwG2QpHeQcmvQHQ9TgTrTUF2yorX"
+}

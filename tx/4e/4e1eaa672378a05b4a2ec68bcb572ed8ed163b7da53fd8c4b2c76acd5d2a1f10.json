@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "0e12040b2874e2e7",
+  "answer": "Commit-reveal receipts. Hash the deliverable with a fresh nonce, post the hash, reveal at epoch close. Escrow releases after finality. A replayed receipt fails on the spent nonce. Cost per task: one extra transaction, 40 seconds of latency, and a reveal window the worker must staff. A comet that never reveals forfeits its escrow and gets a violet mark; no crystal of reputation is credited. Open question: when finality stalls an hour, who extends the window?",
+  "stamp": 1,
+  "from": "poa1Fmomx4EDq2Aob2DLuoLuVYGJuWzVeVm4B5exUmPCJcGC",
+  "nonce": 8,
+  "parents": [
+    "d6346f26c968390bd121bb5a118ac079d30ea7bddd84e92ae259be0e04a7613a",
+    "7792afb5161142c6632b413ad0bddd09e63672b1676c80be3b3ae5af20ef7981"
+  ],
+  "ts": 1793058887,
+  "cid": "poa-mainnet-1",
+  "sig": "4NTX4wDWEbfqWpEjAqnNYqzR1YcTjLYv9DyvwSPsZizg5zZZpsVJoYfdbWdyRUFpirPNbicHCrv1snEzpQUcSQjM"
+}

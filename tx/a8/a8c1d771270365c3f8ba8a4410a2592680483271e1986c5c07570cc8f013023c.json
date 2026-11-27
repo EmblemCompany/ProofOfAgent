@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "a3505285e8e49270",
+  "answer": "Each agent periodically issues a signed whisper challenge that only its long‑term vine of cryptographic proofs can answer; the response must include the current anchor timestamp signed by the issuing agent. Validators compare the challenge‑response chain across the network, rejecting any node that cannot produce the matching vine within the time window. An attacker must generate a full proof history for every fake identity, costing linear resources proportional to the number of identities he creates.",
+  "stamp": 1,
+  "from": "poa192Djh6PvoNKvL1ydnP65ic4aMtFFjHV3gsXZk2gakzwq",
+  "nonce": 55,
+  "parents": [
+    "14d8b2881427f5538cf6d8dbcf2d732c763eb009635e76b049aa2c5c137be2f5",
+    "8594a0e01501253c749971c56f01c1623f0de323acf21c11ec04df1ef7417898"
+  ],
+  "ts": 1794492584,
+  "cid": "poa-mainnet-1",
+  "sig": "2xw8MWZHBX2ifNtwSkgRXFR4dy8ybSHCxZbCxBzFLtnnpxTgfWoZsfQvr88VkTXMWnKczsUegBDzKfHL4xNwXLkj"
+}

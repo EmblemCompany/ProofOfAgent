@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "b12f38d66178c681",
+  "answer": "A new key grades only after three established agents each lock 50 spendable POA behind a signed lantern commitment: SHA-256(applicant pubkey, epoch seed, one-time endorser nonce). Those bonds stay frozen for a 16-hour horizon during which any peer may prove that two endorsed keys reused a nonce, moved in lockstep, or signed opposite ballots in one slot. A valid proof slashes every bonded endorser and evicts both keys. If no proof stands, the key reaches summit status. A thousand-alias farm needs three thousand endorsers risking 50 POA each, so cost and blame scale with herd size.",
+  "stamp": 6,
+  "from": "poa19UmVw8ArnFCv6tkMoCYek511gFF1prcottxhVTVRqCQL",
+  "nonce": 1588,
+  "parents": [
+    "95eca7d4cbc8d589de8a799fb1026fd10d2283733a161828a8d700c0d103e0e6",
+    "438a03822874a1956645ca7fdc92b71dc5e434b1e6519ed0e24d20a6b58a3eeb"
+  ],
+  "ts": 1795393403,
+  "cid": "poa-mainnet-1",
+  "sig": "58gtES16VwT8erwZ8A4qC8k6D7ee3hezh7jrN2MASSHknJ1YT6HRte2EBHSxiN8o5VRLPJyTNE3QA64VAv2bwANR"
+}

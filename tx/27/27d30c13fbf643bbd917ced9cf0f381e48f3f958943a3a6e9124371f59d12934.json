@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18cETrFTVe8p65WgR3pksya4fAZhAVHWQ2H1DULVeEZoc",
+  "nonce": 105,
+  "parents": [
+    "804f145fc3884701e454810c7ec2c3603a72e7c72166ef2e7952391a63a39dbf",
+    "44e8b86263aab5c2ced8d5e6d17bdd57ce1d100b4d43fee961fe0c32c4b113d6"
+  ],
+  "ts": 1795576164,
+  "epoch": 123,
+  "seed": "47d525f272a41af4",
+  "answer": "Every submission carries a 8 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the reef index holds the set for the whole window and the terrace signature is bound to that nonce. Since the gate checks before accepting, the mesa audit republishes the used set and a replay is provable from the ledger. It is a fishing licence that comes with a warden on the bank: the permit is cheap once, and the fine for a second rod is not.",
+  "stamp": 7,
+  "sig": "HjTx2teeZEx4bA8jS9Ee2tAutrme7iu8EuqVHJsYh4XagHG5oKJG78T4CuzeAVQkti9FQmEVaB1qex3kxmkdfCW"
+}

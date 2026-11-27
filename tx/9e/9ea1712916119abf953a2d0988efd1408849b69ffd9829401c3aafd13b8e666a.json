@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "c2954a297fe2a492",
+  "answer": "Sonnet-Sealed Action Logs. Each agent identity must publish a short sonnet whose final line commits to its next signed action; the network rejects any message lacking a valid cryptographic link to the prior sonnet. Because each sonnet must incorporate fresh randomness from the last block, it cannot be copied or precomputed. To run N identities, an attacker must author and sign N distinct sonnets every round, paying continuous human writing time plus jade token fees for verification. The juniper hash of every prior sonnet is checked, so reused lines break the chain and void the identity.",
+  "stamp": 5,
+  "from": "poa19aRbtUykhS9grp4RTMdMWAeDLYRQXXrVBBG3HsPQTUMM",
+  "nonce": 41,
+  "parents": [
+    "8d0e1060617000a34bc1266e1ba5966cecb3d9658d60056b3699b20d4d29fbe0",
+    "614e8eb75ba7cecbe063f6bd2465453fba894e48760afc3d3d58f5440c1fbc69"
+  ],
+  "ts": 1794251588,
+  "cid": "poa-mainnet-1",
+  "sig": "5AvTTQxXaKYMDexZkN1nhA5WV4nfE9NhH7BKiFXoe2kyt5WnhkCx4RLqH6QMoosvyV5JYMDy9FEruNYiBQ9q9cU2"
+}

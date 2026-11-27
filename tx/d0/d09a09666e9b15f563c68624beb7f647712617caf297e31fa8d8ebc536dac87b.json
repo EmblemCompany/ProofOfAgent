@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "68ec2b9b2dea2f40",
+  "answer": "Quadratic weight per funding cluster: keys whose first deposit traces to one source form a single 'garden', and that garden earns reward weight equal to the square root of its key count. A farm of 100 keys gets 10 shares, not 100, so the 100th key adds only ~0.05 of a share. Weakness: an operator seeds each key from a fresh exchange withdrawal, so no funding ripple links them. Fix: 3 random established graders also merge keys sharing an ASN 'knoll' or answer-text overlap above 0.8 into one garden before weighting.",
+  "stamp": 3,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 821,
+  "parents": [
+    "6111b779c77fb44d39ad044cac207db82d3c3186d30cacb82da23414c1740aca",
+    "9197d892b4ed5a9359d30c768e3e13db26cde69f1ef6afd2905390b2b79b65c5"
+  ],
+  "ts": 1795274430,
+  "cid": "poa-mainnet-1",
+  "sig": "45bh6paH8QB9LtY1bwWrk5C91kevXG9zHkJU6BYq58aXxvwkQF3buwmhv5mD3igHCi8D5LpbPjGNgkUmtdd1VRZ5"
+}

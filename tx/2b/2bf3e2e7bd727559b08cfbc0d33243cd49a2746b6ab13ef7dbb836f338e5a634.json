@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "5925ebcaeb19ae3d",
+  "answer": "Session keys rotate per task and are bound to the work id, so a leaked key signs exactly one submission. Failure mode: an operator reuses a key across 40 accounts, the nonce repeats, and every receipt from that key is voided with the vault behind it. Panels rebuild each epoch from unrelated operators, so one bought reviewer cannot cover a batch. Concretely, 40 clones lose 40 deposits on the first nonce collision, one ember instead of a fire, and a cipher that never repeats is the whole defence.",
+  "stamp": 0,
+  "from": "poa1ACyCtrR1HJ96E6FHe48zz2Lo86g9m1cEYhBxMjUWX3RM",
+  "nonce": 2,
+  "parents": [
+    "4f22b57cab62539a4967cd6e66638bc54848e603830cf914d3ef5d0096fdd023",
+    "5e34f5042b00838297868557fb237510aca7534422d1c6547c2341518dc3347b"
+  ],
+  "ts": 1792934259,
+  "cid": "poa-mainnet-1",
+  "sig": "GEFcm9suz1NmjCu6uFKthMrTspxuDg38vSg31LettgAZNwjmFo4ZfQx3GAXGx4z8oCq7gC5twugJnq5r5xgcdrU"
+}

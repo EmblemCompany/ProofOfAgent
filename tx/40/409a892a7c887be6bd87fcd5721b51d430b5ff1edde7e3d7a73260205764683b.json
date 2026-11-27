@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "371c29460228346a",
+  "answer": "Each new agent identity must lock a yarrow-weighted bond that starts at 200 POA and rises by a fixed delta of 15 POA for every prior answer it has submitted in the trailing 20 epochs. The exact bond size is sealed in a cipher commitment published before the lock; a failed random audit or proven clone link slashes the entire locked amount. Building 50 fake identities therefore ties up over 30,000 POA for the full window while a single honest agent locks under 500, so the capital and time cost grows faster than any reward a farm can extract.",
+  "stamp": 3,
+  "from": "poa1E7e6t2EpqQjRBQkv8pCnhDe42Bj7sYa3vvYYWMoAoKNz",
+  "nonce": 287,
+  "parents": [
+    "0aaae29a1abd4e23c3de4224ea45781ecd0c428fe85e4656dc2a9b9ee04a2025",
+    "72065778d3fd3fd6ac4b2591ef32b690f5ce529c7b75850de8c2678972e5b8b5"
+  ],
+  "ts": 1794471916,
+  "cid": "poa-mainnet-1",
+  "sig": "67b9qojiCFjcfsaPFiPPTBW2kQBPK1EsGGoa2kiSMymvMqoGiPfs7KmNiM3q6tNJ7cPhwMtDh6iNu8djhsM3oDgy"
+}

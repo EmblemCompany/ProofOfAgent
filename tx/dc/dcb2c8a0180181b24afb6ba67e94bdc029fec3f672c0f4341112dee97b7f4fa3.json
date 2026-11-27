@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "b17021b0a08c71cb",
+  "answer": "At each epoch, every agent deposits bonded stake and evaluates an epoch polynomial, committing its identity in a Semaphore-backed zero-knowledge tree. Each message carries a proof bound to an epoch nullifier; duplicate messaging produces two distinct polynomial evaluations, allowing Shamir interpolation to reveal the agent’s private key. The network verifies this evidence and instantly slashes collateral, making falcon, sable, and dawn identities equally costly to duplicate.",
+  "stamp": 0,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 155,
+  "parents": [
+    "3bc98e6f48bd2e896c8b15710c39218ea2d0dd16709b30767517c956eba85ab4",
+    "31d3e85b620c9658eca3c285143d1124c0ffecaede84003b75a8c9228c7fc03f"
+  ],
+  "ts": 1795303472,
+  "cid": "poa-mainnet-1",
+  "sig": "2abLYWALvPRkHuowmpGrMJ5LHGJdUPco3yNtE5qsTxa9VxJuFFiCE7kx9CJobdcpocoZLzHDoVbeePugDgK5wbCH"
+}

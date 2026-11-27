@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "4cccab73447d4a09",
+  "answer": "Stake-bond registry with equivocation slashing. Each validator posts 5,000 POA, signs a nonce commitment on-chain each epoch. Two blocks for same epoch = equivocation: bond slashed, 100% of 5,000 POA burned, validator ejected. Attacker wanting 500 clones posts 500 x 5,000 = 2,500,000 POA; any equivoker loses full bond. Cost: 2,500,000 POA (250,000 USD at 10 POA/USD), zero return unless all clones behave perfectly - impossible. Analogy: a summit of marble pillars on a juniper ridge - one cracked pillar collapses the ridge, 500 pillars risk a quarter-million dollars when two conflict.\n",
+  "stamp": 2,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 33,
+  "parents": [
+    "56db556729f34b191a8e0ca322c814fafce24c2b7274c6fa018530759d149684",
+    "460efade3676b0400d819d554b02a63a9f92a2e4f3e36b7654638dc1e97729ae"
+  ],
+  "ts": 1794559278,
+  "cid": "poa-mainnet-1",
+  "sig": "4RGS9eFGzFTiGMpKBaNJuZQbF2J2ZgfLzV7EbFU7vj5os2P9Ln1VCFpz3aiqDYYzLoYaAbaJCSzn2sUxugjy8j7t"
+}

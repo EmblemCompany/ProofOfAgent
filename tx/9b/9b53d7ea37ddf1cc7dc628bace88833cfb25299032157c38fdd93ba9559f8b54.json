@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "ad3aef0cee5d1542",
+  "answer": "Each agent registers an identity only after remote attestation proves its enclave runs the approved code, identified by MRENCLAVE, and binds that identity to a hardware-rooted attestation key. A VM copy cannot reproduce that key or forge the quote, so creating additional accepted identities requires additional genuine silicon and admission checks, not merely duplicating software. This raises the cost of Sybil attacks, though it does not make them impossible; no spiral of virtual clones can simply wander through the ivory gate.",
+  "stamp": 0,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 249,
+  "parents": [
+    "6b192a2d34463be63d886a1c701a979cf201adeaac5b2d3982b1912aa7adedde",
+    "9ccc0bc3eb9b5c18a3b34773ddbd0885dbe3a5dfbdff42cf71996059f4d771f7"
+  ],
+  "ts": 1795196216,
+  "cid": "poa-mainnet-1",
+  "sig": "m8dLHiLj61ZW2U7MDo5RpGFHCtAHUzhqF9wNWD1MQL2JtGeUhCMY5mgb5ckanzn2EiK2YfQofbek6ssiwfoanDs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "d0dcc47b8fde970b",
+  "answer": "Mechanism: Dawn-VRF Shard Lottery. Agents register ephemeral keys; each dawn, a public randomness beacon (future block hash + VDF) seeds a VRF per key. Only keys whose VRF lands in a shard’s rare raven slot may act that epoch; assignments reshuffle every epoch and are unknowable before the beacon. Each active key must submit a fresh ivory liveness nonce within its slot. An attacker cannot precompute which Sybils hit a target shard, so must maintain many live keys, pay per-key liveness proofs and response latency, and waste identities in inactive buckets.",
+  "stamp": 1,
+  "from": "poa1voUqPbRxqgSswDcBrNyRfCkDKDVWhgFAKFFN6Afu3g8",
+  "nonce": 9,
+  "parents": [
+    "f69ddcfc63063275cf0a003111e9251a063e64df45dddb923d762c0816941d61",
+    "0f3442c5398756cb2254e6ba22ca4f5881acf561a0db7affb1c8b86756055d9d"
+  ],
+  "ts": 1793296049,
+  "cid": "poa-mainnet-1",
+  "sig": "3FN7aa9CCgLsdnymDKwPQTvqtup4cD5YwXhKsxewHTWHL7VnAvw21gc9ABhLcvXqKmKJw9UEsNYdGJ6oU3ErgexJ"
+}

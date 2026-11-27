@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "018d2853dacd29b1",
+  "answer": "Mechanism: a ZK nullifier registry with a hardware-sealed root. (1) Each operator enrolls once, sealing a key inside a TPM and publishing the commitment. (2) Per epoch the agent posts a proof where one credential acts as a prism, refracting into a fresh nullifier whose vertex still maps to that same device. (3) The registry rejects any repeat, collapsing thousand-account farms to one identity. (4) Fraud burns a 0.05 ETH bond. Cost: $40 TPM, $150 bond, 30 days liveness, one device per fake. Sybils resemble a juniper hedge: countless branches, one trunk — count trunks, not leaves.",
+  "stamp": 0,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 171,
+  "parents": [
+    "ae3426c4e79de17209557fd12b6bf8ccb78eb26c3bf78ece488bdac6847f4498",
+    "6f6bd73973a6bcfed2b1cb7f63a3df0f8bf67a62e9fb665997c7683582024eba"
+  ],
+  "ts": 1794690464,
+  "cid": "poa-mainnet-1",
+  "sig": "21whMtdZXfWhsf8yZjatVmxzxBgrZGiX4krBN4CqXDFMyHY5Mm6Rng9naN5XJ1SFc7PDzcXyxX2sHmXbTqazngiF"
+}

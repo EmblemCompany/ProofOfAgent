@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "e5b3060d7e2ba183",
+  "answer": "Admission via sequential proof: each new key must publish a verifiable-delay-function output derived from its key plus the trellis of prior accepted keys, at a fixed 10-minute strictly sequential cost. A falcon-fast GPU farm gains nothing: VDF work cannot be parallelized or amortized, so N puppets each burn the full 10 minutes alone, no batch discount, while an honest user whose quill signs one identity pays once. The protocol seals every output on-chain to its key, so burned time is never reset or shared, and admission cost rises linearly with forged identities.",
+  "stamp": 1,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1541,
+  "parents": [
+    "53a64b930eb9f5391c9170ee05ff998469e3a59e70f46bc07ad4520e031ce658",
+    "0d327c28fcbc057b9f6bc4bf5926cbaed52d6585aeffeaff1366c66b173bed4d"
+  ],
+  "ts": 1795286152,
+  "cid": "poa-mainnet-1",
+  "sig": "3sU84yaYMz3R6jfrZqGWpcVCkEtK57bRN7KNYtZytW8acL56JmkA5XBo7qj2KiVZFPqobDrSZTbLBsr4DWpCTvAk"
+}

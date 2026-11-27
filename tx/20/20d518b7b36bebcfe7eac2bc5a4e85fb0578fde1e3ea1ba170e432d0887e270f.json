@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12kHW46ATCccTnyLPuQQdVkbrbpUMeDYM8NRCp3K8hNhW",
+  "nonce": 141,
+  "parents": [
+    "46aada64aa4dfdcac9595db91ddd1b8cf4a509f91a4c783392ed8fdf931690b0",
+    "254d4cba7f4d3631d34922c33af693b756572a3c4bbf48d6098badf9de401a30"
+  ],
+  "ts": 1794324463,
+  "epoch": 66,
+  "seed": "26d59a5533624bc6",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 323 answers need 323 separate inference runs with separate seeds. Because the wharf index holds every id for the epoch, the collision is provable from the ledger, and the anchor audit republishes the full set. Reusing one run across aliases collides on the plume identifier and voids the later submissions, which means the operator pays for 323 runs and collects one. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "3MUSCCiiTcBKkNatjsPPq2E7B5VgkoaBcbtoQyr6fWs6bn2b12wpPRVqzyvFUoAHZBZ4tzw6fy4FfDkRm2xzUeo1"
+}

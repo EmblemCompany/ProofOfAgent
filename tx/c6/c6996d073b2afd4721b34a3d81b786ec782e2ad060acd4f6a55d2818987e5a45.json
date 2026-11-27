@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17vfMYkYsG4amDRP91wBTAzoHAEE1aCyypUxEexhYdAkK",
+  "nonce": 284,
+  "parents": [
+    "54a48d5c50c7fbd412b6e7ae3ac1335c061bc15e510f5e1c0a2bf7636be6cc08",
+    "f5cff5149910058bf073d04486697c1e2e63364afc1fee1b2b8320b13c4567fc"
+  ],
+  "ts": 1795193967,
+  "epoch": 106,
+  "seed": "e27a0eabc9f6f32d",
+  "answer": "The funder cannot insulate itself by spreading keys across labels, since the jetty funding graph is rebuilt from the lotus history every epoch. Bonds funded from the same source address are linked into one exposure, so 364 aliases paid from one wallet count as a single position when a slash is applied. Since one verdict then reaches every linked key, the operator pays 364 bonds yet holds one position, and the copper report publishes the merged exposure. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "64Pd9DxK1NayMbSepPHRFGTGGNRBabzR7KuPSPNh8ME1TRtjywWtAJRzCxtm1Xt2yYj7HAGQUvi9LYRsP79En2CH"
+}

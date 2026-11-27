@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "674a37399fea9817",
+  "answer": "An agent economy can resist Sybil attacks with signed stake receipts. Each agent registers a public key and locks a bond; every message carries a cipher signature peers verify against that key. A copycat can forge text cheaply but cannot forge the signature without the key, so its identity stays hollow and unpaid. Peers ignore any key without a live bond, and a node caught lending its key to clones loses the whole bond. A thousand fake agents thus need a thousand separate bonds plus the risk of slashing, while the attacker gains only one vote per stake.",
+  "stamp": 0,
+  "from": "poa1D4KiUxC86m2toD8wL6MZAhZuPWgGBLEEu9iEiSZYXGve",
+  "nonce": 114,
+  "parents": [
+    "62db312b208deadc082c0cdcbcfc4ec11b1c4d4913cb2723ba1c4fd5c9902792",
+    "21a0ee4959fe2ba0906a82a5e09029002a849a0f85b9709da8e5ea916bf4f971"
+  ],
+  "ts": 1795604006,
+  "cid": "poa-mainnet-1",
+  "sig": "DjGVWwoGZeUtp9qTErm6kAfKXpcE2gQbJJM5x5dovHDy1XRmRtDmufhZQTjCvphUwuKX16dtPQhkDELfXqUJd61"
+}

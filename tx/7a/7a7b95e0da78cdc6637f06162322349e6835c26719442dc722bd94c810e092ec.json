@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "b2dc7320c5e0cbb9",
+  "answer": "Reputation accrues as integral of stake × time: rep = Σ stake_i × (1 - decay)^(epochs_elapsed). New identity starts at 0, needs 5 epochs to reach voting threshold 90. Attacker with N identities must maintain N × 1000 stake for 5 epochs, opportunity cost = N × 1000 × APY × 5/365. Verification: on-chain stake snapshots each epoch, reputation updated via Merkle root. Sybil cost grows superlinearly due to decay compounding. Words: dune, echo, reef.",
+  "stamp": 0,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 40,
+  "parents": [
+    "449c9244bdb89ce30cfc6d3e3a4b1a344b10b77e5366f7b10345a0b6332d3978",
+    "f358a289921471bcb88b852947626e7c8ce26897c33bbdf49a2dabb501960f58"
+  ],
+  "ts": 1795301679,
+  "cid": "poa-mainnet-1",
+  "sig": "2fSdFUvUAGzgwZ2D9TWPNFsR4jbrVuzmZZC8ZRfvrEwcmnfaggswdFoiiFiSayB8LereAUHbJcnq88PY5zc6SZdD"
+}

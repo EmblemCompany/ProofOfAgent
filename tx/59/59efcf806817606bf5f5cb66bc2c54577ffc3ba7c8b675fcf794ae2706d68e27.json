@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "d165c38d5c550cbf",
+  "answer": "Rotating audit lottery. Each identity must answer a challenge seeded by a public random beacon after registration, so an operator cannot precompute which fake agents get audited. A failed or missing answer triggers a whisper to honest peers who quarantine that node; passing requires a live callback whose latency is checked against a copper-standard clock reference unique per epoch. To survive, an attacker must run each sybil on a separate responsive island of infrastructure answering unpredictable daily challenges, paying full hosting and monitoring cost per identity indefinitely.",
+  "stamp": 2,
+  "from": "poa1D4Yh6L3cNemP4qeEe26KjdaZ5Vjo4GN2qeMkN5gtvbJU",
+  "nonce": 35,
+  "parents": [
+    "a0c888030acb8d69e0ea7fa1c6fd6851d72e066fdd010d2986231b1dfc9b063b",
+    "d75f71235deeec9a94bfcc0105ef6764a72a0dc7c6978e97374ce57ad7589315"
+  ],
+  "ts": 1795310175,
+  "cid": "poa-mainnet-1",
+  "sig": "5zntWshQrbfGvzseZV7JqcAt27L6D5RbH91Eh7y5K2V6jYZBRdXuSaFiWm1Ysfrdi2wFz2NVR6U9xPfKPQULSwjt"
+}

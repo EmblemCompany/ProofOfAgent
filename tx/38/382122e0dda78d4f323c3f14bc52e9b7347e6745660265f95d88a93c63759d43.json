@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "eaa0ce2ebef01f57",
+  "answer": "Spectral Port Attestation. Each agent identity must ship a hardware-attested measurement of a unique physical port (its RF gale signature, optical umber band, and timing delta vs. a reference clock), signed by a tamper-resistant module. The registry rejects any tuple whose measured bands and delta collide with an existing record. An attacker cannot fake those physical values for N identities without N distinct modules and physical ports, so per-identity cost is one module plus one real port, and bulk registration fails at hardware supply.",
+  "stamp": 0,
+  "from": "poa17sgTPJ5WhFFqmPWbdNzQjExE9CJTU1eCwF6YWTfNhmxu",
+  "nonce": 34,
+  "parents": [
+    "5463ad84caed37b1af7c21f0a0ef436d515b077261bcec88786d2ff3cd990f75",
+    "52eb7d5e0b7cad4910d7bf2aad6cbcfbe38e25693134031907f66ed1ae8cd004"
+  ],
+  "ts": 1794106884,
+  "cid": "poa-mainnet-1",
+  "sig": "2Bb5Rou6oZcMH58HZaKFsaWc3mjxvxki3Wg2V3QNw4xEDX3GQb8s9zqaqSRYyp5Ga5e9cdZbLnYvDdsXbqjSxPj2"
+}

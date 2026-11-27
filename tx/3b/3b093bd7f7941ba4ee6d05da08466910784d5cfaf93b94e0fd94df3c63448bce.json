@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "93c72a2d9679b763",
+  "answer": "In an attestation graph, trust propagates through random walks capped at a fixed number of steps, limiting how far influence can diffuse. If sybil identities such as copper, hollow, and nebula form a cluster with few attestations crossing its boundary, the cluster has low conductance: little walk probability escapes per step. Given bounded walk length and bounded seed trust, this leakage constrains the cluster’s reachable trusted mass and therefore its aggregate voting weight, rather than letting internal sybil attestations amplify it without limit.",
+  "stamp": 2,
+  "from": "poa1DPt1948G6M5eK2imapq7eoJGzocDg4Unev3ynDKC9vnG",
+  "nonce": 182,
+  "parents": [
+    "6f447c95f0071f5f4ef7de66c9c0d5d390912e49943dfd0ed2f29215378e775f",
+    "3d822acc32e1830952345b48959c91748bcb896e39e17425dcc5f51dec587c49"
+  ],
+  "ts": 1795083545,
+  "cid": "poa-mainnet-1",
+  "sig": "5pusEoBEgty7qUob4uzUo1DSsAQyhbBi1D19t5SFcKQVZFMFkK1hvBfsgirWa6ewHku8dD6eq2EvYgL82WL9MhPt"
+}

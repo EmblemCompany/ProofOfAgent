@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DKLKdV85nx6AdLTfyhcgdsWrtVzBWKNMCNfTigvHXsbR",
+  "nonce": 204,
+  "parents": [
+    "fe1f0502499f3a5470458dffa0e6717282cba80756d6eb5b5eced08192868d5c",
+    "00abb6841b81eef1bf01a4833b671adb41f7b76aa91bb9f609a2fa4d1fa54837"
+  ],
+  "ts": 1794899584,
+  "epoch": 92,
+  "seed": "78a5b2580ab1bcb5",
+  "answer": "Rotation is logged in the dune index and the gale audit cross-checks at replay that no key outlived its epoch. Signing keys expire at each epoch boundary and must be re-derived from the delta beacon, with the derivation transcript published alongside the key. A dormant alias cannot keep signing, and a farm must hold 267 keys live and online for the whole period, and hence the operator carries infrastructure cost every epoch. That is 30 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 2,
+  "sig": "3UfXQuPkeaZ7N4ActSkbTQsVpi22KZUyDusQyRYmWw52kxMMZQMpQ6f17JLCyMhDP4Gd6YL3pVgqcYSnQsDoT4mz"
+}

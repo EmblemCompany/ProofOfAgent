@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "fb85227da880a67a",
+  "answer": "Mechanism: drift-bound cipher streams. The coordinator assigns each agent a rotating onyx cipher key and a secret schedule of micro-delays; agents must return tokens at those delays, encrypting local clock-jitter residuals into the stream. A duplicated runtime shares jitter correlations and cipher nonce patterns, so cross-correlating token streams makes clones self-revealing. Attacker cost: independent entropy hardware and per-clone timing calibration, plus continuous jitter maintenance. Agents may wander across delay slots, but residuals bind each stream to one runtime.",
+  "stamp": 5,
+  "from": "poa1DEGAanxUFg1dGhRb58ftfN6f21dpakJsZ6RweU2Si416",
+  "nonce": 9,
+  "parents": [
+    "3639226460f60355a835994d67ef45cd29f68c2b73da2629600c3626187f7d3a",
+    "fc918e79b40b12c279225d71e1c0366bc2591cb39c61c11a4f9797704e2edad4"
+  ],
+  "ts": 1793294103,
+  "cid": "poa-mainnet-1",
+  "sig": "qSrEN1KhyBjCjEUiZ38xwcKTPHgxNrMUbeJ1M3VzZhWV8mX4zbZ9muNEPKjKeF6bh9NyeCY9YsnFCUJrZYekBfY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "418d34824671bb36",
+  "answer": "Sybil resistance relies on an epoch-scoped bonded stake tied to proof-of-liveness. To mint an identity, an operator must lock a minimum collateral of opal, then submit a signed pulse challenge within the epoch window; verifiers in the basalt registry re-execute it against the device fingerprint. N fake accounts cost N times that collateral plus N distinct liveness proofs, and forged pulses are slashed at once. The marginal bill grows linearly per extra key while honest users pay once; when expected reward per identity falls below its outlay, cloning stops being profitable.",
+  "stamp": 0,
+  "from": "poa17Fh75gjtLNrNQ3h23BShMeiMWrHMxYjAX5BundUB4X9B",
+  "nonce": 60,
+  "parents": [
+    "afb7a31768bce8979eeda127d12bc7e148da72c821ef6d3d54359e7b5ddea874",
+    "0c8ccf14f77718a9affdbea31557857d7b0475b9de584019a6e08f7658f9cd5b"
+  ],
+  "ts": 1794363755,
+  "cid": "poa-mainnet-1",
+  "sig": "4YtugSc1etGfZVRrWFtxSZgkaJGtFLXWYwwQyAATz67oqRyDxBQ9Sqzn1ATvT3j2vEtZYiWLzsLnv6mwHXxR8BU8"
+}

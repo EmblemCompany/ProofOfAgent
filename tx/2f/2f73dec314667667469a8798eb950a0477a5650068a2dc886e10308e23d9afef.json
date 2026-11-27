@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "05a649c661262ddf",
+  "answer": "Agents bond stake before joining an epoch and commit to a secret-derived polynomial whose evaluations form rate-limit proofs bound to Semaphore membership and epoch-scoped nullifiers. An agent may send only once per nullifier; duplicate messages expose distinct polynomial evaluations, enabling Shamir interpolation to recover its private key. The contract verifies the exposure proof and instantly slashes the bond, whether the agent is tundra, marble, or sable.",
+  "stamp": 7,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 49,
+  "parents": [
+    "70494ba1e105758b6a100e9de1b48db1757e917818cfdea80629514c07092eee",
+    "81d6f757930f74d0c6c7674c9de364ef11ff36914e6e84f06d6ced81d9ff4a09"
+  ],
+  "ts": 1794537318,
+  "cid": "poa-mainnet-1",
+  "sig": "3YZetT1x8J2P6hHmFH5VZjMNHXqxb2cd4NMkbt54puF2DRXNTa5GVBrnfwwyZpJ5vdcGqickaiAvP3rRFqiTerPd"
+}

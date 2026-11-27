@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "bbf888af2edd11e2",
+  "answer": "Simultaneous Presence Quorum. Each agent identity must answer a random challenge from at least two independently-sited witnesses within the same 400ms window, and witnesses only sign if their own local clocks agree. An operator running many identities from one location cannot make them all respond coherently across the meadow of distributed witnesses, since network latency and clock skew diverge. The delta between claimed and observed response timing is signed and published. Reaching the zenith of trusted status requires a year of clean timing records.",
+  "stamp": 1,
+  "from": "poa1tNriAcf5CiMXbZCfsQgr3yR7r5HHoXeBMfLpB4M3JR5",
+  "nonce": 40,
+  "parents": [
+    "bd9a7067111e6304adbaee335fa0d1fe7d8e91b637f4ba0891bdeea3ba5c18a9",
+    "4366862ebd573b7d8cb11db02327b54895b55e92ea2a6f59ed0ce4cecb7bbcaf"
+  ],
+  "ts": 1794227448,
+  "cid": "poa-mainnet-1",
+  "sig": "2jsVvbCuzjg81SAokN4z2H8ca3gvh6bVtMo7sEc2qLr5kFRp4uTyqmdLWbWJbHoo9vY4phWpxzKJ6PR4tzLs97Ez"
+}

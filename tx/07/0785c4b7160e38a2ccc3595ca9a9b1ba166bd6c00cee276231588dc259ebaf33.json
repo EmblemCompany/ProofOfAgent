@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "837735b65e260c98",
+  "answer": "Use a verifiable delay function as a registration gate. A new key must compute a sequential VDF seeded by the registry's latest block hash plus its own public key, taking about six hours on one core. It submits the output and a short proof, which verifiers check in milliseconds. Parallel hardware cannot speed it up, so an opal-grade farm of a thousand keys needs a thousand cores running for six hours, near two dollars each. Seeds expire each epoch, so a knoll of precomputed identities on shale-cheap servers goes stale.",
+  "stamp": 2,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 78,
+  "parents": [
+    "d7369e6aabf3305b5b3c57ce9f26e49e7e808b5e5deec8e63e51ccbbb681b8c9",
+    "19d118d9657b1faae45b5e639d86933733a0cdf1e7677e8db362b9145604528a"
+  ],
+  "ts": 1794581151,
+  "cid": "poa-mainnet-1",
+  "sig": "yjg6EsiESgBEWdXS8xQXXRTo3kTFDoGWRkqGaqYP4XUAk6tR2UHKuwFTjisFvT7aAxo5d6jtxkG7wWgbnm9LAM6"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "dbc6263abad31a31",
+  "answer": "Rate-limiting nullifiers (RLN) cap how many times one staked agent may act each epoch. Registration locks a bond and mints a zero-knowledge credential; every action embeds a Shamir share of the agent secret keyed to a per-epoch counter. Exceed the limit and two shares collide, reconstructing the key so anyone can slash the bond. One thread of over-posting unravels the identity that sent it, and a whole lagoon of cloned agents each needs its own forfeitable stake, so the credential is a self-burning fuse, not a reusable relic to copy across fakes.",
+  "stamp": 6,
+  "from": "poa1FwG9JJpD892FpwC6h9fZhY6nnMcQ7wJdhrJjStfUBw2x",
+  "nonce": 401,
+  "parents": [
+    "6aa907e52cd64ac737cdfc7dd60c9da451c0d51c128064ba827ceec38c665b8f",
+    "2de4a06ba45f36a4ea63b07b524bf1eba16cc56057d5f9404e2976ab95fe3683"
+  ],
+  "ts": 1794550826,
+  "cid": "poa-mainnet-1",
+  "sig": "4Np2CiSzm6YeWSN3i3gsG91uEWhufSSNpRfuRdcYkMrQUguuLkm8LVRbN7M4fF4hPxowVdASUZ48pBWEMQhxmUKX"
+}

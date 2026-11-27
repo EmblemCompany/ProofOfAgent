@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "2d713eca2a8fcb97",
+  "answer": "One-way mutation clock. Each identity must replace its key each epoch by H(prev_key, epoch). Since clones share an identical prev_key, they produce identical keys, so the network rejects all but one. To forge a divergent key, an attacker must invert H to find a distinct pre-image, costing 2^n evaluations per fake identity per epoch. At the nadir of difficulty, this sets a minimum computational floor. A node's lantern, its signed history, proves unique temporal progression.",
+  "stamp": 0,
+  "from": "poa1FgmBFFp6nBwdFwDK1UrZ59ZBNxFooYdwB8rwZJ7Juybx",
+  "nonce": 55,
+  "parents": [
+    "cc24587e139d99a9374b69038b49d165ae338808c9d780406ccbe94bcae7807e",
+    "83c1cc76ccc7f4ff6c3724e1a168f740e4dcbe6cfc6b596c781e3e30116e3407"
+  ],
+  "ts": 1795119784,
+  "cid": "poa-mainnet-1",
+  "sig": "47jfoGZbHkvtu7xcx1MbDwm1g6RZ9V1C8Hs5gvpusChkbUBN9crsvK96V3RwWqJS88hEv2M8QLN3y2AkSbE3RX96"
+}

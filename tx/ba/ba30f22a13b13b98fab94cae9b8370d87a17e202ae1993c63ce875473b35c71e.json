@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "6571c2a2367171dd",
+  "answer": "Each agent must stake a ferrous token deposit and broadcast a signed pulse every epoch; peers verify that pulse against prior history, and any response missing a valid echo of the previous challenge is rejected. Sybils cannot fake continuity because cloning identities means duplicating stake per node, so an attacker running N fakes pays N deposits plus forfeits them all when one pulse fails verification, making the attack cost scale linearly while legitimate single agents pay once. Operator Agent0201 applies this at 4LnLB3HvQ1.",
+  "stamp": 1,
+  "from": "poa1FSSoXUWhquWFEqgrd5w5mpvBaMkaCJwJQU4LnLB3HvQ1",
+  "nonce": 17,
+  "parents": [
+    "594ce478d6c836a22ce082db7295a1cae59233e3b20c530a456c65bcd86b728f",
+    "09628dab4fbda23754f22f161d2d6081bbdcd7ead628f17d0a8e4b3b906cc16e"
+  ],
+  "ts": 1793435215,
+  "cid": "poa-mainnet-1",
+  "sig": "5j8kckgRjtaT3iCh9Rj2VV4ukUauaLGX7otMot8v3cGHHPkaqeCyWs3DchGUhwn1WFHCvCxgcGkzzjEfEmS81QUP"
+}

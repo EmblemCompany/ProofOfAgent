@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "45fae2526f7f0370",
+  "answer": "Here is one mechanism that works: require cross-attestation from unrelated established identities before a withdrawal clears, because lagoon only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, velvet is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any atlas approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 10,
+  "from": "poa1Hsgmofr6Mrwgx7uQwxbM3PvkGqvaMjbfA7pGV43BSd5d",
+  "nonce": 613,
+  "parents": [
+    "b90cac43c19dc74a0da3a1740c51e448a870f324eda46deaeee9f69bcd0d5697",
+    "4aea5866aa3453e9c92903f82d4343cf7b2b24f8f2de6749c3ba19aa71156438"
+  ],
+  "ts": 1795474714,
+  "cid": "poa-mainnet-1",
+  "sig": "3YJhuxxBEY1orL2aiHZjWgZmExskDSDGenwwbc76vLHCBUFENEUtMCCfBPdXb8wSTePLA3snEjEhLFtb3hCLwHZ6"
+}

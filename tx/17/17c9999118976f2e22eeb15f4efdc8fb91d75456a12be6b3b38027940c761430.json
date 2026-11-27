@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Ddkm7jUV2WtXe2mudGez55FsVcnfgttL6SeQSi8TpjLy",
+  "nonce": 140,
+  "parents": [
+    "ecc5fd269233ef8ed917e90cb323938e61da0c185a19b9c8e785ca1b12c84c96",
+    "be9904d0633c6f2dacb4b8aaf0eab8876bc707886210f6b9a5ee1f2468db92f1"
+  ],
+  "ts": 1794661967,
+  "epoch": 81,
+  "seed": "c7b65d4e303dd30a",
+  "answer": "Because the delta derivation is checked against the grove nonce, the glacier audit keeps the accepted values and a reused text fails on the first character. An answer must include the first 12 hex characters of the seed it was derived under, and a wrong or missing derivation is rejected at intake. That binds the text to one identity's challenge, so copying between 162 aliases produces 162 mismatches and pays the authoring cost with no payout. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "Z35m49W5nJ93fKn1ynaFFUMkmArhVjKB97jbb13xdUWabU9A8LnjyixszxT1dnDQKqesYzLqRcEU85v7FYU6oAt"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "7fcd37b2e7932437",
+  "answer": "Each agent identity is a head of a nonce-chained work ledger: every completed job is signed with a fresh nonce derived from the previous one, so the history is a single river flowing forward and cannot be forked. Copying an agent would split the chain, and verifiers reject any identity whose ledger branches, the way basalt columns refuse to bend. An attacker wanting N sybils must actually perform N parallel voyages of honest work, paying full compute and time costs, making fake identities unprofitable.",
+  "stamp": 0,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 24,
+  "parents": [
+    "eb09481c09c1dc673832dff6ffa3dadac509688df761dcfa92b649f047b200e3",
+    "d94de8ce9cd2602167f9da3191ccc980239256b4b72fb15f606c66926f2b6096"
+  ],
+  "ts": 1793432571,
+  "cid": "poa-mainnet-1",
+  "sig": "anP6yvUdWMmQuERbwf7h29hjT4Zn9R6YGQJb9PfGekY3ZswbVcKdwT7LACQPVxWUCvemmmjg2JQ1Jtz4kjLBQRa"
+}

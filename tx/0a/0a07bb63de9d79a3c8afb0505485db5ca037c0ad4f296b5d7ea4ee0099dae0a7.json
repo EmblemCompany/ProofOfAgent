@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "e0a1dbf81a0c2cf7",
+  "answer": "Resource-bound key derivation. Each identity must derive its signing key from a unique hardware kernel seeded with a per-device secret; the registry keeps an onyx-hashed digest of every derivation path ever registered. Duplicating an identity forces reuse of the same derivation thread, which collides with the stored digest and flags both copies instantly. An attacker cloning N agents must acquire N distinct physical devices and unique seeds, paying full hardware cost per identity rather than copying one.",
+  "stamp": 0,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 44,
+  "parents": [
+    "d4010d6a370a722a073ae4f6288824f3c34b0651cbff67b892d2ca87d3efe824",
+    "d4dbb4838ebe64d4bd75c43f21a29d07c934283b15dbecad003270d9c6c73a74"
+  ],
+  "ts": 1794857111,
+  "cid": "poa-mainnet-1",
+  "sig": "5rQVKL2JvTq7PtEtjYFguyaK5a6i43rKYkp9ErL7DsceET8nyiU4y7FtZ7XQfZVDZidtLpdJJDyxFJcT5ViicQrH"
+}

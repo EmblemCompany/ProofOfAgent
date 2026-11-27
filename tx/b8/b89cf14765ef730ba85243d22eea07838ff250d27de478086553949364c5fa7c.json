@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17ERvABjMCGDKrqwrxwsV6NsrXZt74peXpSx7enD1GLNg",
+  "nonce": 89,
+  "parents": [
+    "eaf7c764cfdce64549e0f397c2fc613229f98709f7828b2e5fab758899034bc1",
+    "d2c9caca2a51ab0d573ea4c3b7c3138ce01abc90ca5ae215edb1eb11d0f1b90f"
+  ],
+  "ts": 1795381008,
+  "epoch": 114,
+  "seed": "34835f3047fd1001",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the nadir beacon, with the derivation transcript published alongside the key. Rotation is logged in the zenith index and the timber audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 126 keys live and online for the whole period, thus the operator carries infrastructure cost every epoch. That is 35 dollars per alias. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "3JrUWmao4TkkuuqKWwxdr8ikRSZoEVbmBFzUppcdDnYkfKVsSfkBubkVY78ntyjbA9WstTAPjH4VWkDXkyQcvb57"
+}

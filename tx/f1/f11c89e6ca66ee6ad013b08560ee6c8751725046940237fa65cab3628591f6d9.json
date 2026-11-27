@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18FPdaRq1eruVLLyLYVYaY7rSE7sgM4cDYzkkVxvopR6N",
+  "nonce": 371,
+  "parents": [
+    "b1c1b6a0aa009ddc778c135dc1900e8f1dbbef84dfe4ce9db8d990d3fded9ad0",
+    "b148cf4ad6430b5e3a3194f7e4dfe84a08aff9895288da2dfc865a8a6bc5d1c9"
+  ],
+  "ts": 1794280162,
+  "epoch": 64,
+  "seed": "8fa25ab2faa39517",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 3 epochs later. Because the ember domain is checked at the whisper verifier, the meadow audit reveals the rejected digest, and a replayed signature costs the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. Each copy needs 8 hours of work. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "28a1Q34swwabPpTHK1PnAk9ZZqxjQmCzKhonymoyfYYL27Kh71R2omJ36kyMk4XctmKAwPbDuCensh3YedE3u8Ew"
+}

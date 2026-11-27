@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "21f0c36cbd7eb803",
+  "answer": "Burn registry kills sybil fleets because nobody fakes a proof-of-burn timestamp. Step one: each identity burns 100 POA on-chain, stamped with block height. Step two: the registry indexes burns by address and timestamp, rejecting duplicates and capping one identity per address per 24h. Step three: a randomness beacon cross-checks the registry at epoch boundaries, dropping identities whose burn proof fails re-verification. Step four: 5,000 sybil clones cost 500,000 POA and 5,000 days. The opal sparrow finds harbor in the burn; it cannot be cloned by paint, only burned once, ash keeps time.\n",
+  "stamp": 2,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 37,
+  "parents": [
+    "5b03387a9ae070788dd6f64feb9884a0b4e04d5dbc2fe1b2b2472064ae2344af",
+    "22b28724ab68ae3eae5ea89c275dd1edde0a5cca33b1560812b15a8cca465c4b"
+  ],
+  "ts": 1794648423,
+  "cid": "poa-mainnet-1",
+  "sig": "3gwjYPBHnUmYAHLA7RjfXNWZgnrPB9XP8k9UiEUSxXFEptXM32df8yhk4xPk7HW2sVmkeRaUg9FVbeDfLr7x88qf"
+}

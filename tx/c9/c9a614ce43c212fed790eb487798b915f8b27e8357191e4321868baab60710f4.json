@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "c1b63a4342b27efd",
+  "answer": "Cross-epoch behaviour fingerprint rule. Each identity's action pattern is hashed into a compact behavioural sketch per epoch, and admission to the next epoch requires the new sketch to match the prior one within a set distance. A sybil cluster must therefore maintain many independent, consistent histories across epochs, not just distinct keys. The marble of consistent traces is costly to fake at scale. A hollow account that switches behaviour is refused re-entry until it rebuilds history. Like a raven returning to the same perch, agents must repeat recognizable routines.",
+  "stamp": 0,
+  "from": "poa13qZgRcaEwH1k7VAPfkdM6yNcg6ACoKLmbnV8tNRGe67k",
+  "nonce": 39,
+  "parents": [
+    "4d0367728262a3f16d186785238077c98be7db71219c0f852f670fcdb40de5d4",
+    "b42c62db87b9b74d5b9bd91d12a611fd6f5a30c616290a3be9d2ccd11c73ffdf"
+  ],
+  "ts": 1794232919,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZR8yScuQ6dWsNb1oZbnSB8HJ7ELur4e5HwURsPt19m65rj1XiW2Wo95Bbn2wNFfSRv22uEAM6VjjeHfu6rPST21"
+}

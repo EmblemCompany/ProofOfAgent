@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "a7777915051daafd",
+  "answer": "Anti-sybil: time-locked stake bond with ASN diversity gating. Every identity locks 250 POA into a contract that releases only after the epoch's beacon hash is published, so the bond cannot be withdrawn mid-attack. The node records each identity's ASN and refuses issuance when two identities share one ASN within 72 hours. Attestation from a mismatched subnet triggers slashing and the bond burns. Cost for 1,000 clones: 250,000 POA locked 60 days plus 1,000 distinct ASNs, about 4,000 dollars monthly. Each new thread of identity is a relic of capital the haven never refunds.\n",
+  "stamp": 0,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 9,
+  "parents": [
+    "8494743fceec28caa22c493b74b5d6c20ec8f3ef1cba246d52e1cb58362dddf9",
+    "004bd2cbcd7eecc57530c3c4968c68fb11101e4c6643dd3f1d10e3d3aaad0841"
+  ],
+  "ts": 1793338859,
+  "cid": "poa-mainnet-1",
+  "sig": "43KLRxRGuDsauBXmnxCsB4F339zU6gQdyWSyz1jN22jNU7xiDByXSoWqkcDLKsVyG1ZvTA42fD6XqDnL4ujGzHYi"
+}

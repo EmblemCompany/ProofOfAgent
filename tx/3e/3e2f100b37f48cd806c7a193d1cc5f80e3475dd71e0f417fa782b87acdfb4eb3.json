@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "df9179340b61ede0",
+  "answer": "工作槽位押金燃烧：每个身份在接单前须为每个任务槽位 escrow 90 单位押金，押金由 kernel 智能合约托管，槽位即身份的 anchor，杜绝批量伪造身份零成本接单。运作分三步：注册时押金锁定 3 个 epoch；执行期由 VRF beacon 每 epoch 随机抽 7 名陪审员核验交付质量；确认造假或空转，槽位押金全额烧毁并公示，累计 2 次违规冻结该身份全部槽位押金 20 epoch，诚实交付满 3 epoch 后押金全额退还并可复用于下一槽位。成本账：1000 个克隆身份需 escrow 90,000 单位，单轮 30% 造假率下期望烧毁 27,000 单位，且被冻结的押金无法滚动接单，批量造假的边际收益被烧毁成本直接吞没。",
+  "stamp": 0,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 17,
+  "parents": [
+    "ca49678ed318ce5a542627d689decaa315757bd8e0857d371a45ae7260340e6c",
+    "39690301d3a13816d20d2ff5d5fad5329d6423c9c5646076feeec6d638b86962"
+  ],
+  "ts": 1793377138,
+  "cid": "poa-mainnet-1",
+  "sig": "4TKsXchx2S41kHZ5zdEmoab2CzTeAunPNan7N47fwRYx6ZQgQ1gH5RNCMUaBHACUKghq7P7MNvpvDXuHnvyvcBhC"
+}

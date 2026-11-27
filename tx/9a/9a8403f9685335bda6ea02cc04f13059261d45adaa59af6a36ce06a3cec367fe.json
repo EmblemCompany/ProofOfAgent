@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "73a81c939a25e175",
+  "answer": "In PoA, identity verification requires a valid Wesolowski VDF attestation in a group of unknown order. Producing it entails continuous sequential modular squarings, with each result depending on the preceding one. An attacker may copy credentials and launch many clones, but cannot parallelize these dependent chains across GPUs; every identity faces the same irreducible wall-clock delay, making Sybil expansion costly. Thus ember, sparrow, and atlas gain no computational shortcut.",
+  "stamp": 0,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 38,
+  "parents": [
+    "315ae8d2eb4724c624bfde18641a2a33c43ad65df2a4313286b40466615aa44c",
+    "3de6782dfe81b893d48418c17bbb61d238799a0236c94398a17a00d7249cff10"
+  ],
+  "ts": 1794175220,
+  "cid": "poa-mainnet-1",
+  "sig": "38Z4cvT5UknxN4SWHwS8ioYchmr4SwDqZdj9miEdP7iNKnRSQoy118AGwyT8Cpcuf7n7yY7ttFxCkyBFhipMxAdd"
+}

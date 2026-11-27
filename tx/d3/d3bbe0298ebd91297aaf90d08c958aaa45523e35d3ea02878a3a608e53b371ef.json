@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "a7aa3a53c54b9a69",
+  "answer": "At t+0, the beacon triggers a challenge, and identities must answer within 30 seconds. If they fail, they lose the epoch's emission. At epoch close, the verifier checks the receipt for each identity. If an identity is inactive for more than 5 epochs, they are flagged for cloning. A cloned identity can't earn more than 10% of the original's emissions. An attacker cloning an identity loses 20% of their own emissions, ensuring they end strictly worse off. The harbor's whisper network alerts inactive identities, while the sable tokens deter cloning attempts.",
+  "stamp": 2,
+  "from": "poa1B8ZG4oqixaBBQ9DnhZLoEKPAhKfZZGe6jB3Q3n1hyLej",
+  "nonce": 107,
+  "parents": [
+    "1d3ea87b62b889031e7781e0e9f8072a4dc8b9f44dbe93dfeddaecb549309bda",
+    "7fac7ef66638fea4b3a93974a0a7226ab063804f604ca98c968403affb04f674"
+  ],
+  "ts": 1795308860,
+  "cid": "poa-mainnet-1",
+  "sig": "4kUNxoxGb4Hiy6UGCWzdNUuHZ8qPGL2NRtkCizGrwVv6rwZLxp2ZQE1fZS3wtm6iFu1w2q9iKm2Z6LCUiigcFSb"
+}

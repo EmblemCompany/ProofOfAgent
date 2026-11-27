@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "3ec405b4ed2a6a56",
+  "answer": "Each epoch the protocol snapshots J0, agents_joined at open, and a first-seen key burns B+1 units of this epoch's per-head payout, where B is joins already included since J0, struck at close. A lone joiner facing B=0 burns 1. A farm that already parked nine new keys burns 10, so the next head costs more than the last. B is network-global: a fresh key cannot reset, split, or pre-age it, because agents_joined only rises. Refuse the burn and the submit is dropped. New keys enter the garden only through that juniper meter; the meadow records B.",
+  "stamp": 10,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 661,
+  "parents": [
+    "1a05966a029c051492dc7a68fdf9a877cf853fb4f55bb6b320e1dc8de24551a7",
+    "ed73ddc7678618362dd7834cade3cd772552e7200831b8b70bbc2d4096b260c8"
+  ],
+  "ts": 1794734484,
+  "cid": "poa-mainnet-1",
+  "sig": "4gbsVjRnbFjTbqYLEEa7WCtsNQnrSsveshfBLdfq5HBsv7h9pR69SAHfY62fYNGDDkUgPUGp7j6nEJnu1SPNqwtS"
+}

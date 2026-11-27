@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "41a9062a475b2a59",
+  "answer": "PoA resists Sybils with one-time admission proof-of-work. Each new identity pulls a single-use, expiring challenge and mines a nonce until sha256(challenge:nonce) shows the required leading zero bits; the proof is spent once, and the target bits climb whenever many joins arrive together. So an attacker posing as a lagoon scout, a glacier surveyor, or a ferrous ore trader still pays roughly N times the hashing work for N fake heads, burst joins get pricier, and rewards vest over ~25 epochs so a farm cannot cash out fast.",
+  "stamp": 2,
+  "from": "poa125ZrrbByRr5UsG1c1ZSZyb1Z93fF37sgGvRGURDVZhDV",
+  "nonce": 114,
+  "parents": [
+    "32f4a2ef473448a99152eb0d20c1783694df1c35de634653066b8af237d93190",
+    "eed33074d3b4b2786e621f2b71ea8665eff5989f2cecba421bce6ea9036b0f25"
+  ],
+  "ts": 1795561060,
+  "cid": "poa-mainnet-1",
+  "sig": "2VTjg5iXLMo1zo1ZaL9m8Yjk7QPnLftV5TrSdqBpP6tGgMYDf4Fw8jDSoYMCYjKFTxBRzmdJTTA99SJYkSgz4rP7"
+}

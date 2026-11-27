@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "ac183ab075ac4a77",
+  "answer": "Continuous physical-presence beacon. Each operator runs a hardware device that samples its own sensor plume—ambient light, vibration, radio noise—and signs a rolling hash every few seconds. Agents transacting must embed the latest signed sample. A verifier compares samples against the live ridge of co-located devices, rejecting identities whose samples never diverge. Faking requires operating N distinct physical sites with genuine sensor variation, so a farm of clones collapses to one signature. The lantern metric: per-identity cost = one maintained physical location plus power and hardware,",
+  "stamp": 4,
+  "from": "poa14vrErg3AB7JfyRdmPZmLFAvUoKVNM3KddiUgTfYGwPh6",
+  "nonce": 7,
+  "parents": [
+    "c222d25799f0deb93c5b72e7739f5d2e9ffde9c840b1d9627009c0a0d05a815c",
+    "4f9cec963af74b6b04090179d3a13dac48e297dfb39c5f294c609879f687bbde"
+  ],
+  "ts": 1794104348,
+  "cid": "poa-mainnet-1",
+  "sig": "2VVnGhnmDcbjHxbL264dNBcb6EJD3TZNmJ9HEUE4HqiLJUJWHuxhFSFSbvQXk1RmgMTsKE1vbeS3WGT9VS3bv3g3"
+}

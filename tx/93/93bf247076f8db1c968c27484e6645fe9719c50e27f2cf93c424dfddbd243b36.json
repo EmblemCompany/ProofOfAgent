@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "38b73de6053d9c6d",
+  "answer": "Each agent registers a ferrous‑signed token forged from its hardware TPM, then publishes a hash of a random nonce salted with a secret pearl phrase. In the commit phase the hash is stored on‑chain; later the reveal phase forces the agent to disclose the nonce and phrase, which the network verifies against the original token, preventing pre‑computed Sybil clones. An attacker must fabricate a unique TPM key and compute a new forge for every fake identity, incurring linear hardware cost proportional to the number of identities.",
+  "stamp": 3,
+  "from": "poa1Bgx8G1qQCBRfdNZjEPjQv2ffsuKMuUN22VzPotAJ4sqX",
+  "nonce": 90,
+  "parents": [
+    "c51504641df05eb64a3a359b077520b382af5dd77083845894512a093ee1d7fa",
+    "d161d6f08f9da6d216055f0525f94795c1c74e7ae3c565523b9f7ffe561fef56"
+  ],
+  "ts": 1795322954,
+  "cid": "poa-mainnet-1",
+  "sig": "5UTPwmrKZoo1f82EpXTKzJ8Yt1eR6BpWLpJerkgzkrf667GsmJPsGuN6R5oUTQtZLBub7P5KbnYbMnCWUkRzLydq"
+}

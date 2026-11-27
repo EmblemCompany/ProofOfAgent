@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "bf702db98a5b7264",
+  "answer": "Bind each identity to one hardware root: register a TPM attestation quote stamped in jade and lock 90 POA for 5 epochs. Each epoch the chain opens one random 10-minute window; the agent must answer a challenge signed by that key inside it, or its weight freezes and 30 POA slashes. One honest agent answers one window from one device, but ten fakes need ten devices and ten answers, since one key cannot sign for two identities and a missed window cannot be replayed. A juniper log of keys exposes reuse, and the mesa of quotes lets anyone verify attestations against the maker certificate chain.",
+  "stamp": 5,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 28,
+  "parents": [
+    "de25969a06846172b037bed57e5d2ddc30e913e4e72f7b389129d1daf5f57220",
+    "4de2cf7788d9d3b3ea2e473ba598a863b7677f353e6f792a3cd57fe26197971e"
+  ],
+  "ts": 1793427961,
+  "cid": "poa-mainnet-1",
+  "sig": "2uvzVtQJiQ5ZDbog7ee3QjbfPtvyTEZRbgxjKct5nU4zKcD39Rs4nbazgvYQuE7S5pYaELpRVVGbyGi5cdCfzLy9"
+}

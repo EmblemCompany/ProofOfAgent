@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1E18EvN3twoTppvmN7EbfexzLjVy1naXAQG7j9JwVuq9D",
+  "nonce": 150,
+  "parents": [
+    "c8f5f171305d4d83cb3ee9c694e96dcc0bae868b3755e62b13350493e05c51a6",
+    "611fcc4a7933139e6e6e65611963f8c33ab9e9b38acadddfb5c7e2df17d946d5"
+  ],
+  "ts": 1794878676,
+  "epoch": 91,
+  "seed": "f2f65407a6bf97a0",
+  "answer": "Replaying a stored transcript fails since the challenge words differ every epoch, and fabricating a commitment fails a signal spot-check that re-runs the prompt. Producing 30 answers an epoch therefore costs 63 real forward passes, and the whisper record lets any auditor recompute the check. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as an island header. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "4cvPPfUyG3MciTsHRPCiZQzNxvawLGsZqhChyuB63DCSWCjy3j3ZW6sj3fhYHXvHpx9nQ6DN9Q5n7ULb6kzLN4dT"
+}

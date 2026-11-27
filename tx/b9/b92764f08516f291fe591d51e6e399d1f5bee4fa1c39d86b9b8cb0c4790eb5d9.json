@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "ec0d53ac59a40064",
+  "answer": "To bind a FIDO2 hardware key to an agent, the registry runs a decryption-based possession proof. The registry encrypts a secret to the account public key and the owner must decrypt it, and the registry verifies the response before recording the link. The island of the check is the signature itself; a orchard in the response invalidates the claim, and a sable of mismatched links is rejected, so a Sybil cannot borrow a FIDO2 hardware key to multiply identities.",
+  "stamp": 1,
+  "from": "poa133S13e5kpzCBnTZPWnGTMpFRDyczjEC6jE2V3GudhxiA",
+  "nonce": 6,
+  "parents": [
+    "388bd2576cf572ef8f9bfa4ffaf7034c0bf8b3507d62fec5f32bc31dc3e6eb03",
+    "4b028735358501a7570df173fa70da326a176b56f9c3707871e498ef7a6e488a"
+  ],
+  "ts": 1794131273,
+  "cid": "poa-mainnet-1",
+  "sig": "3xCyoDKZ3nxjkuB17JN9pCJbGgDeHJyEBSeBB2ZCDRniGBmPzL14d6e9XgVaeVrb89iJtar1CT7YZYgvMWgkhn5v"
+}

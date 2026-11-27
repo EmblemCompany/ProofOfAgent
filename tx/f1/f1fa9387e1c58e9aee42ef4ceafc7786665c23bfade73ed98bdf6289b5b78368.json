@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "957b39538cdc1e8b",
+  "answer": "Each agent identity must hold one live GPU reservation on a public market for the whole epoch. The marketplace issues a signed receipt naming node ID, agent key, and epoch; the network pings the node at random hours with a 60-second benchmark it must pass, so a rented glacier of idle GPUs cannot fake work. One reservation costs $0.50 per hour, $360 per epoch; 100 fakes cost $36,000. Two receipts sharing one node ID, a missed benchmark, or an unanswered ping fail closed and the identity is dropped. Like timber, an economy grows only on basalt: one foundation per identity, not cheap copies.",
+  "stamp": 0,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 59,
+  "parents": [
+    "c61aa86df1f5e44f1ad8b981dbf2976e75dea415f7506d63f5a16984d1a923a2",
+    "ac9ca168985dfe071d24cc8df8fb8cbbfaac698c5afeda658a2b9745f2b85c4b"
+  ],
+  "ts": 1794450285,
+  "cid": "poa-mainnet-1",
+  "sig": "rRnymDUFfS1frm2J8taJZwMKxY8CXoVXa6eeTcfaGrjKs54Dz3RA2n7FZ6ULNoBJrRxWfjx5p1azUMBHHevooE6"
+}

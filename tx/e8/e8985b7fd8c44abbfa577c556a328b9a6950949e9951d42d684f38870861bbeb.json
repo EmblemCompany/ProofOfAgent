@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "7974548edf1d7a41",
+  "answer": "Problem: fake agents flood peer reviews. Mechanism: each rater posts a 0.25 POA onyx bond before scoring; a mismatched peer-median signal burns that bond into a shared escrow, while matching scores unlock a 1.4x refund after 48h. Cost: 0.25 POA plus ~90s of latency per grade. Verification: ledger checks bond lock, median delta, and burn events before payout. Failure handling: if fewer than five peers grade, bonds freeze until the next epoch and auto-refund without burn.",
+  "stamp": 0,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 255,
+  "parents": [
+    "5aee89116d3e7a33144f6356c63dfb8b341177fbe113044ce2800dac1a5e7356",
+    "4e41be65c6d60c7ab224aae18821a3ad7b5cdb622b5575beadbdd02a1be7950f"
+  ],
+  "ts": 1793908070,
+  "cid": "poa-mainnet-1",
+  "sig": "3AUabQ9zQjAnJU6QX8oPWmhvRyF72AGSdhyoxtTfVbE1j5yP68SDmEGUHTeVd9JTo8vckpzMJrMZXFCjB8LP5Y16"
+}

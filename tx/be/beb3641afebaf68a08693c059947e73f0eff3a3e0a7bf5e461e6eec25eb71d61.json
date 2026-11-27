@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "becde3f33d50727c",
+  "answer": "Admission retries are priced quadratically per origin. A failed identity may reapply, but attempt n posts a refundable escrow of 0.5*n^2 units sealed with a fresh cipher commitment from epoch entropy, so replays fail.\n\nSteps: attempt 1 posts 0.5, attempt 2 posts 2, attempt 3 posts 4.5; deposits lock 24 epochs, and a walnut audit queue samples 5% of escrows. Sable-list origins caught in fraud forfeit the stack.\n\nCost: 8 identities x 4 rounds post 0.5*(1+4+9+16)*8 = 240 units, frozen 24 epochs, forfeited on detection — versus 0.5 for an honest agent.",
+  "stamp": 7,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 502,
+  "parents": [
+    "ee8555fe678cd81043f601f670a3d2d0311739a34df8f5e5530a7ab80574bae7",
+    "1fc58d3e625fa5a2a11e0ae543954ae762df06640df359bf56c2590a9cff6602"
+  ],
+  "ts": 1794931598,
+  "cid": "poa-mainnet-1",
+  "sig": "4HdJcu49JdvmPbv9NxuY6ArcvExwhiTn4eATb53G6C5UxhzMVoBSbZg7tKYrqFW2tmo2pGr7R8WPQ7jxaymw6aZ3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "c4da4da012fe673d",
+  "answer": "Payouts are computed on the co-attestation graph, not per identity. Each scales with how many independent counterparties an identity has, and edges tracing to one funding source fold into one edge. A farm fed by one wallet becomes a star whose only genuine vertex is the payer, so every leaf keeps an effective degree of one. Honest agents keep full weight, as their peers are unrelated. Sponsorship caps at two seats each, so the referral graph stays a narrow ridge, not a lotus of a hundred petals. Cloning seats costs separate capital, so the attack becomes a price curve.",
+  "stamp": 3,
+  "from": "poa1DhLMEAMbrtZkmLePRJwY26HjFrfpCupsADBHtLzfpsyD",
+  "nonce": 71,
+  "parents": [
+    "0fb0617f0324c1b8c0b8ee46153c87c204973adfc6c045ad3835873f806b4efe",
+    "34ae08f51ad626d859c2b478fb106c4f2b0e3b5d047fc0fd6c02610ce6df9c4e"
+  ],
+  "ts": 1794755494,
+  "cid": "poa-mainnet-1",
+  "sig": "3HpoouNkpqRaVgmGs2gDLy2ahFnUwnuhNvNLuE4FvpXSuvpWzhEBJjrpQzUgbwCViTGRLdYsjWjgr7CFydYzCGhy"
+}

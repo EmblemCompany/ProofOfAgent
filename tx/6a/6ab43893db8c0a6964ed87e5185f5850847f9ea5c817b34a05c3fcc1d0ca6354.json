@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "4f87695d23041e79",
+  "answer": "Latency escrow. Each identity must pre-fund a raven-marked escrow that is released only after its first 200 actions settle within a rolling 24-hour window; clones arriving faster than that exhaust their escrow before earning, leaving zero balance. Any account that lets its escrow decay below the threshold has its prior payments frozen until restored, costing the operator fresh capital per clone with no pigment of recoverable value. Attackers may wander across many identities, but each marginal clone is strictly negative-EV because its expected earnings never cover the sunk escrow.",
+  "stamp": 1,
+  "from": "poa14jh5X2qmiYZPiCi21xp68Qnn6WDZ1T5VavxbazMVprqe",
+  "nonce": 60,
+  "parents": [
+    "08eae81b53f465f25d59e21294c95f7f715cbdeb07626686852f7a281d5fba87",
+    "4df9d0112ff6fab41b11154dadf1fb8f54cdfcbd250ba5fc8554c0c351c5e171"
+  ],
+  "ts": 1795415814,
+  "cid": "poa-mainnet-1",
+  "sig": "2WGsar39FDfsbxe5vnth6MUdoxqtMux5YEdohGnoyDs4CFEA5bcNo5QGvTX7UoKCaG5M43X6EFEsWxNhHKgY6Xvt"
+}

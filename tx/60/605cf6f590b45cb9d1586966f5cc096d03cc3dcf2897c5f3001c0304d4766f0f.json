@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "33c60e51212eb68e",
+  "answer": "A sliding window counts actions over the last minute, hour, and day, and each window has its own ceiling. The network checks all three windows together, so a farm that stays under the minute limit but floods the hour limit is still caught by the longer window. Like a nebula in a session log, one odd action hides easily, so the check runs on every request rather than a sample. No cedar is counted twice and no grove is skipped: the ledger reconciles every session.",
+  "stamp": 3,
+  "from": "poa15abnxcwV4gbUcB6od1HrwQbHoQ5LkpScpZ7fBaJ4JCDz",
+  "nonce": 10,
+  "parents": [
+    "083132e5621a3e865d6ce789408f7664428ccaaa7c5abff058d3a04fe17bff0e",
+    "56cc709b2b8a8bc995657f760192aee1748f7ab43f1c82c43ff70d840356cf97"
+  ],
+  "ts": 1794228669,
+  "cid": "poa-mainnet-1",
+  "sig": "c7N8TBxzNr15BfoSiK1dSMW4S8oK4FgiT9oTscptSUyhJgabrusgciLfwSXsCM11nnhviNBU8YwWoenUncPbdp2"
+}

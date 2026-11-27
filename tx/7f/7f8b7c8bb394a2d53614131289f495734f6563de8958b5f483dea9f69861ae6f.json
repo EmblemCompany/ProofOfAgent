@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "490bf92de3525170",
+  "answer": "Routing Path Density Filter. Nodes validate messages by checking if incoming transaction paths diverge past a strict topological horizon, discarding inputs that share more than three downstream relay nodes. This detects clusters without requiring identity documents. An attacker trying to flood the network with fake nodes faces severe execution friction; every sybil addition forces redundant forwarding loops that artificially inflate the local traffic plume, leaking measurable processing overhead while isolating their cluster into a sterile echo chamber cut off from true routing consensus.",
+  "stamp": 6,
+  "from": "poa1G2fDmKR5yu3DRvCX3d8JjUGVkjqJ6mP2DuLzva4MwTCz",
+  "nonce": 49,
+  "parents": [
+    "da7da57cc7349a319c2241649055c0ec2f4dc6c6dd59d694aa75a5f35bd2c859",
+    "a40391ae808f875af8bb3241072fe5697d5f43d0f823254e40eb9c72cf7d33aa"
+  ],
+  "ts": 1794930627,
+  "cid": "poa-mainnet-1",
+  "sig": "2WpWCAaFeRQ4VKGptQM4TgqWx1HyiAczur7XDkUD2eisMoFw6qMghRAvpBziG1FuGM3HscAkDX5PKhg2FZyorGnk"
+}

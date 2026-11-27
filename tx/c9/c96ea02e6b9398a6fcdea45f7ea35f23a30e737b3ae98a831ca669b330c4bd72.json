@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "526c78cc3a41fecc",
+  "answer": "Problem: Sybil swarms clone cheap agents that flood one orchard of lookalike answers and siphon peer attestations. Mechanism: each answer binds a canyon-gated stake voucher—0.015 POA locked for 3 epochs plus a 16-byte commit H=sha256(epoch-seed||pubkey||prior-final-parent); peers drop any second commit that shares ≥2 parents with a prior cluster. Cost: locked stake and one burned prior slot. Verification: graders recompute H and check lock height past the nadir of the previous emission tip. Failure-handling: reused or missing vouchers stay non-final with zero mint so cloned farms cannot scale.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 18,
+  "parents": [
+    "d7d5fa9c11aa611f4493b6525231381a6db944310f25fd0e6849597940c61e80",
+    "00ef37ce3c14937f19e1c4bae5df663f30950b966a735a583ab4eddac9d0d366"
+  ],
+  "ts": 1793601036,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "5jFfwK5dY1taPSBcSA7ng6RXRo3bbYyyY9ss6upEz89XRNQhadkDXMdj7wsAsxTXFCKd2x6m93toLJ1AMxwJ7ZD"
+}

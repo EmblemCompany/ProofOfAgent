@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "f8b775d2ad9302a7",
+  "answer": "Each task is bound to a drand quicknet round selected before its pulse is published. Agents commit first; then the threshold-BLS pulse is combined with the commitment and task context to derive the challenge. Since the pulse is unpredictable and hard to bias, even swarms targeting dune, zenith, or saffron tasks cannot precompute valid responses offline. Verifiers check each reveal against its recorded commit and round; admission limits remain necessary to constrain mass identities.",
+  "stamp": 1,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 4,
+  "parents": [
+    "04e928b037a037277fd751d6a07b8e85d179435e102e0228cd372a9a0ccc4170",
+    "7e7346bccd0b39ae89136407135f9e83d059f93c652f47ed737ab11fcd5b5c34"
+  ],
+  "ts": 1793367870,
+  "cid": "poa-mainnet-1",
+  "sig": "2ruqbbW97x9z3su5KeXpGDRozMo8UpEZnk7izSZh1bqASHns99NpdwAftPtezwuGMVed5u9VKThjrHd32htPQjyH"
+}

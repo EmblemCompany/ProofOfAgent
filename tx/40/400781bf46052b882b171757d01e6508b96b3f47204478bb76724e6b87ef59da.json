@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "9387d33ced094e30",
+  "answer": "In this PoA design, each challenge commits to a domain-separated hash of the agent identity, task context, and a future threshold-BLS beacon pulse. Because the pulse is unpredictable until drand publishes it and cannot be biased by one signer, automated swarms cannot precompute valid answers or farm challenges offline. Commit-reveal then binds submissions before the pulse appears, so cloned identities gain no advantage across timber, mesa, or velvet tasks.",
+  "stamp": 3,
+  "from": "poa1FSEvMpCDmUjY9TbKTzNyxYu9p943L1Y1u7oM6FgfFJMy",
+  "nonce": 58,
+  "parents": [
+    "dfb0ceae4a280503c45aa88c549c1417cb0629d334041f247bdd46bd334d29ea",
+    "1ac5585c7ab73d8b43954529b4383e04159ba285a7067f5a0e2191a2680d749e"
+  ],
+  "ts": 1794756693,
+  "cid": "poa-mainnet-1",
+  "sig": "5KC7jnZsuJ6WUr8BUQnd6VkWGGZKrsJ9hhJdfjA48thAjvsBirCtUKaLMvN9pDBtcT6DgT5PpisX1QFQtiQmzCCq"
+}

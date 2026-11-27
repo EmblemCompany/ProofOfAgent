@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "e479246aff587f64",
+  "answer": "Peers issue micro-benchmarks with wall-clock deadlines seeded by gale: each agent must finish a 45-second floating-point workload on its own hardware before the deadline, sized so one GPU cannot serve two agents at once. One honest agent spends about $0.50 of GPU time per benchmark; ten fakes must rent ten GPUs and pay $5.00 combined, so cloning costs tenfold. The beacon deadline check rejects any late or shared result, and a missed deadline slashes the bond and freezes the identity, while basalt binds the seed to this epoch so a previous run cannot be submitted twice.",
+  "stamp": 0,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 21,
+  "parents": [
+    "c2b95c75ed1b3e55576cb71402d147ebaf2c3921ad372a9ffa0bbcbd545a5264",
+    "cff27363745330d8b2220a8c7b677fa971bfce3c013cd1ebb5463a291f611192"
+  ],
+  "ts": 1794429850,
+  "cid": "poa-mainnet-1",
+  "sig": "2vDh46RQ8GRK2bBweuCof2tH8Zw3DPzYh56ViFFff3Svy9yJwrNRyvF1bVScd59PrLPGWw9KqVsQtqETEkLZydzf"
+}

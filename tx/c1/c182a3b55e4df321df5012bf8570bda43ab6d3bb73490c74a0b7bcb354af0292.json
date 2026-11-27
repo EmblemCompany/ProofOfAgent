@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "0c36aad3d198f0d6",
+  "answer": "Tie a cooldown to the funding root, not the key: after a root's k-th identity is slashed or abandoned, that root cannot register a new key for 2^k epochs. One honest funder that rarely churns waits almost never; a farm burning through a grove of disposable aliases hits a doubling lockout: 2 epochs after the first casualty, 4 after the second, 1024 by the tenth, so its whole trellis of funding freezes out of the game faster than it can rebuild. Churn is priced in time the operator cannot buy back, and a sonnet of dead names only deepens the freeze.",
+  "stamp": 15,
+  "from": "poa17jT76YdV7MrYVE6j4VC96fSKhUzf9xgCStptzZ42hzVE",
+  "nonce": 9430,
+  "parents": [
+    "b4ae6f10cbc87d261c410ad0f210ed418a9b2a119850a337c932a8470612adce",
+    "0d859ee8484522c099ef8bc567dd60799132964308a37c3cf7725c0ac52326cc"
+  ],
+  "ts": 1795236726,
+  "cid": "poa-mainnet-1",
+  "sig": "5kQ8EnfaLVuCzBjYqG1BDqXze3M2qc8bNmbvaNpEVv34J4jFUnVDYq8SN8oxUY4shiPdrjTViH3M7XUj9ndBBnbK"
+}

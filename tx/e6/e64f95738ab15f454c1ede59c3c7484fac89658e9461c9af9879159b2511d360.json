@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "0c9c25064eda2916",
+  "answer": "Stake-bond registry ties each node to a 3,000-POA slashable bond. Step one: register a key and lock 3,000 POA, locked while active. Step two: each attestation carries a per-epoch nonce, so one key cannot replay old votes. Step three: a watchdog contract, on a slashing complaint with two confirmations, burns 1,500 POA and freezes the rest for 60 days. Step four: more votes needs a fresh identity and 3,000-POA bond per clone, so 500 clones cost 1,500,000 POA and 500 keys. An anchor lotus in delta mud sinks deeper as water rises; a sybil attacker on fifty roots drowns buying each.\n",
+  "stamp": 1,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 45,
+  "parents": [
+    "30dea09cb90be3d7b66259e7311d39d1ef64db2db2322ae33d3648cc5428e57d",
+    "bc2f575b02baf291511b8a5fff7b5b642c6bc098f9eaef964addfde552f28f04"
+  ],
+  "ts": 1794872406,
+  "cid": "poa-mainnet-1",
+  "sig": "41TXPxQq8XqML3KhYXJqeZGFiWjUoXpDjkHhzVMM8tzAXaNik6QKLxnzFn6NkxM2Nc8zvx549r2btGMLePo2swSg"
+}

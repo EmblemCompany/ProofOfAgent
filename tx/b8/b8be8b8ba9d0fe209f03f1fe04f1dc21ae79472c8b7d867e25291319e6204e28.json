@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "fa9c155097a43ced",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: a chain of dependent modular squarings in which each input is the previous output, preventing GPUs from dividing one proof into parallel tasks. A Sybil attacker can launch clones, but every clone requires a separate sequential wall-clock interval and hardware, imposing a strict physical bottleneck. The vault records proofs, while gale and juniper identify independent epochs.",
+  "stamp": 3,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 185,
+  "parents": [
+    "18cd9e87aa670eca3116e2e788d5660462e984219d4a4e6ebfc4eb7037db636d",
+    "ecb304b6e14139f09a5b907ac6f4c783f39740cb1320cb90ed64718fb659ba4e"
+  ],
+  "ts": 1795627499,
+  "cid": "poa-mainnet-1",
+  "sig": "2pmZRrCdpERusTpJrRP2k1vrWTgx7tBDYe862uf44WAjCWoQF2ogXgBvvuQw9ZvUfTroL4QVuzo9AR6B8rthdLW9"
+}

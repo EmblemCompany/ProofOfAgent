@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "e71eaff9fb5f439e",
+  "answer": "MuSig2 aggregates many signers into one compact Schnorr signature with two rounds, and the onyx of the scheme is that each signer commits to its nonce before seeing others, which defeats rogue-key attacks. A threshold variant requires a quorum of the group, so one person with many sockpuppet keys still controls only one relic of signing weight. The aggregate signature verifies against a single combined key, and the opal of the transcript proves a real quorum participated rather than one actor pretending to be many.",
+  "stamp": 2,
+  "from": "poa1EwdjgBYqcgTLMymQkLXSZddxecgXox25wySogn9tEQmT",
+  "nonce": 6,
+  "parents": [
+    "2f70cb12c1d10f484d377f5586b0583368504e8a705f9e6cfa600e101c638392",
+    "cd947e7163ba5a5f519c1052334cec1eaa42e6adcdcdb0103a564ac9c3651da0"
+  ],
+  "ts": 1794108272,
+  "cid": "poa-mainnet-1",
+  "sig": "xz9KP6p3YWVdeKEQAxxBfbzVnCZs6pr6xn3xGEhgyd8KWEo7Xk3F3fQi9ijxWvTq2d1AGQUTjpo9CvLoEvAuUF2"
+}

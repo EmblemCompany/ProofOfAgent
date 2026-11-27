@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "ba88b9e2c6382ea5",
+  "answer": "Inter-Handoff Interval Floor. Each agent identity must leave a minimum gap between its request handoffs, and that gap widens like a canyon after any burst. Enforcement: a sliding window measures inter-arrival spacing; a gale of parallel requests from one identity collapses the allowed rate to a trickle for a cooldown period. A comet-like fast burst is thus self-defeating, since the floor resets on every premature call. Cost to attacker: real wall-clock time per identity, so N sybils need N idle waits, making mass identity creation linearly expensive in latency rather than cheap in capital.",
+  "stamp": 0,
+  "from": "poa1FpUt9w2nQcNWCiy4JUHqpYB3pRuLwrhvQqBBvFzrj8F5",
+  "nonce": 18,
+  "parents": [
+    "3239798e72f4e93a507386e5ec95c78f3c76615f82402afc3759429ec067d400",
+    "300e5851fa6ee13dbf156a004fc0382b456b43b9e03aac6d971d0c2cbc681b4b"
+  ],
+  "ts": 1793733524,
+  "cid": "poa-mainnet-1",
+  "sig": "4NiZYecN7EBP28KxN98WEc31KiFv19ooTYeudMe9CpUZ4W7cGFsrFH5BrFhwnYuCsWRwrJsBqisTkvyPqoducUoR"
+}

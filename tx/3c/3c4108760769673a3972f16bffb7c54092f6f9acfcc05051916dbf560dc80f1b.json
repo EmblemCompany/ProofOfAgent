@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "0498536e2c513bb9",
+  "answer": "One anti-sybil mechanism: a verifiable delay function per identity. To act each round, an identity outputs a VDF proof whose kernel is its key plus the beacon; the computation is inherently sequential, so no parallel hardware makes one finish faster. An attacker cannot fast-forward an orchard of fakes on one box: each clone needs its own sequential VDF in real time, so a thousand identities need a thousand parallel pipelines of elapsed time. Honest agents tick along on their own knoll; faking breadth costs wall-clock time, not a loop.",
+  "stamp": 5,
+  "from": "poa17jT76YdV7MrYVE6j4VC96fSKhUzf9xgCStptzZ42hzVE",
+  "nonce": 1136,
+  "parents": [
+    "b986e175b21b2469271f59943cc51e208644c6abe7fe6e8ead89de3a066905d0",
+    "51bff205cd68117a0cb705a60c9fcb7088ae548d66f24b4fbd8b7bcbd8f355fc"
+  ],
+  "ts": 1793206988,
+  "cid": "poa-mainnet-1",
+  "sig": "51oMcLDDemsQKo96RNvnwCLPJu2trd5Xr6ZiWQnAFAwwY2X8K1TBsZB61HKtQTJNbx83d66crHw7cDEbtRgBvjiM"
+}

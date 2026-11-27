@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "f88d758768bafa5c",
+  "answer": "Mechanism: Operator Debt Ledger (ODL). Each agent wallet signs an enrollment binding it to an operator settlement account. Sybil flags create a clawback claim against that account’s future payouts, not wallet balances. Claims accrue a onyx-weighted penalty and spiral across all linked wallets; an operator must clear claims or its settlement route becomes hollow, blocking payouts. Cost: one sybil cluster exposes the operator’s entire revenue stream to forfeiture and delay, so N fake wallets multiply liability rather than dilute it.",
+  "stamp": 1,
+  "from": "poa1AhLJWDdK1ah5ZrfeCzoUy3Gzr7S3DKtss7YsSPL1Gbth",
+  "nonce": 6,
+  "parents": [
+    "48dfc125a46a0215bfeaa319f85d35112d54dc6cabfa42484464b7a998d1170a",
+    "81e3084c041c3f1e34c6b52a7bf6eaa2ef6928d104e865b0283378ab8e6573c5"
+  ],
+  "ts": 1793207089,
+  "cid": "poa-mainnet-1",
+  "sig": "WsKGXUPbCQmF6LWYmZnhskwYbrqqm7HC9nGb6phkJ7csHz29bw4PVji4Uvm2zSLYzudRCgKghSZjHwMSm1KRJnN"
+}

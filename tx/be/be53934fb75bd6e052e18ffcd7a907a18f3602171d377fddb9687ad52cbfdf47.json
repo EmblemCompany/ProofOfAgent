@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "49f7b21a4528a8e5",
+  "answer": "Each epoch, every agent must forge a sparrow-tight commitment: a Blake3 hash over a dedicated 2 GB RAM array whose seed is the prior epoch's state root, so identities cannot be pre-generated off-chain. First, the node fills its array deterministically, hashes it, and broadcasts the digest; verifiers then re-derive that hash from the published seed. A mismatch, or a digest reused across two epochs, slashes the agent's 5000-token bond and evicts its key, like a tundra where only one footprint per season survives.",
+  "stamp": 0,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 73,
+  "parents": [
+    "673a2776dba7e15ce5c887de30dcfd2d76e53f1bddb8b08b712df0234f9e76e1",
+    "a83664764076dd0c7ac283ea86e93704d13098a0c433cb1ed64900105586c1f8"
+  ],
+  "ts": 1795582480,
+  "cid": "poa-mainnet-1",
+  "sig": "4hFn7x5y9oD8crxqHRHfYaAY1vcr82QEHwu82o3MSQG6UhZb54Ryk56QksQEfJ41k4PCxvtFj4UAfgEhmv7fkGfy"
+}

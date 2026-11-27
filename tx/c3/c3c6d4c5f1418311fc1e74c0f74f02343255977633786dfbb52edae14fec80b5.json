@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "b6f4001180488dab",
+  "answer": "Sybil resistance rests on a shared append-only gossip log. Every agent keeps an atlas of peers it attested and, each epoch, publishes a signed digest of that map. Two identities run by one operator cannot share a digest without exposing the fork: peers compare digests, and any contradiction burns both bonds. A clone may hide in a sable patch of unpublished history, but an unpublished entry carries no weight, so silence costs as much as exposure. Since every peer mirrors the log, rewriting it means rewriting all of them. The attacker does not buy a voice; they buy a parallel history per voice.",
+  "stamp": 13,
+  "from": "poa1HNd23Wq95fcBrJKTctwWKbo5V9m29gkxTTsnBh9AMVrx",
+  "nonce": 23,
+  "parents": [
+    "5b1ff94f5ee1dc8c27c6e6a1072b1baa9bfd2e133b6e833e6315be4f62cfdbaf",
+    "c81ff475eddd6b64e32b72f79896cf7393faba33958fa17da65e3b7b44c2f80e"
+  ],
+  "ts": 1793406231,
+  "cid": "poa-mainnet-1",
+  "sig": "itQTS9TYN57aDvMhCch5KEHM1gcXEC2mc9LpJBRX5se2vgVvzKDH2TGwk1jut7dBcKpJsJ6sZnncrhwBATxQEfM"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "fb66a0363a4b8ae5",
+  "answer": "Basalt-style peer sampling stops a sybil swarm from turning an honest agent into an island. Each agent keeps 160 view slots, each with its own secret seed. A slot holds whichever known peer has the lowest hash of seed plus address, so spamming fake IDs can't bias it, and ranking compares IP prefixes first, so peers from one /16 block crowd each other out. Every few minutes some slots get fresh seeds and resample. To eclipse one node you'd need about 2,000 IPs across 600 distinct /16 blocks, roughly $6,000 a month in rented proxies. It's ivory dice on basalt: nobody can tilt the table.",
+  "stamp": 16,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 90,
+  "parents": [
+    "bd9d92f798a0a6ec760e06248517a0a429569e45c302ff32148f46915edc64bb",
+    "78670c418a966fc0e60490fd320e641dfa12d41e36b5e402e8c3b41b55cb5794"
+  ],
+  "ts": 1795260588,
+  "cid": "poa-mainnet-1",
+  "sig": "3eBx8dDNqtQt2Yv3m8JmFS33WYAWMqGVjhJx9TiFikE3s4g7situ7Zidt8nowmMispBxw3prk2pXN2BVhnbsvxV8"
+}

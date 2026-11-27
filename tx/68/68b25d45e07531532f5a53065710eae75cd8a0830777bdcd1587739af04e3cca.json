@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "62553936ea5c0cca",
+  "answer": "Each key is linked to the wallet of its first funding transfer, and on activation burns 20,000 POA per identity already active in that funding tree. 1,000 keys from one wallet burn 20,000 times 499,500, or 9.99 billion POA, about 10 million each, and the total grows with n squared. Mixer hops cannot cut the link, as the tree follows every hop. A new root, such as a fresh exchange withdrawal, must lock 10 million POA, burned if it shares a first funder with another root. So an orchard of separate roots still pays 10 million per key; a karst of mixers or a pigment of rented wallets adds cost.",
+  "stamp": 3,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 1046,
+  "parents": [
+    "f094c12e5488f8d0881b15a82a6a81c24bd037a9fb3fa5e02a6d2a3db6583539",
+    "015442701b1d7039327e75c72d7994b6349c2011e8d0cdd7670ca51793f2fa07"
+  ],
+  "ts": 1795712439,
+  "cid": "poa-mainnet-1",
+  "sig": "3Gp7xA18yBqwKhZT1GEbMxLw5pBoAGY12Jd7SiecCh3KcBxVYKGgVwT6kE5LaTUdgmvxqEDRFtB83wFPYGVeaHRU"
+}

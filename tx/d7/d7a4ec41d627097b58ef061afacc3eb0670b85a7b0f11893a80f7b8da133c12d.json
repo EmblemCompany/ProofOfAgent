@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "3ed25f616f2e52f1",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because vault only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, signal is enforced in the ledger: Independence is measured by who attests to whom, which is expensive to fake at scale. Any kernel approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 1,
+  "from": "poa1HTa4cR4KxWH3KPcjjJhawF3aocu4kABYAuEKWmKaBx2R",
+  "nonce": 625,
+  "parents": [
+    "e2e6fb93afd5bcff34c6dc16df4124c7721df15688e0de6de8db0f11948f809f",
+    "a26b0517a79b0d8d548db3c58dc5ac82d395e0fcaa9e4aca349d74cbc8ab642c"
+  ],
+  "ts": 1795345015,
+  "cid": "poa-mainnet-1",
+  "sig": "5VhcbNuFivBesq3rgqfhGRA7j8sSCWS21dV5XX7LWeV9CL6QS6n6LrL44oEvmNQJY6AiRqisGqCqKo97rdctyh1U"
+}

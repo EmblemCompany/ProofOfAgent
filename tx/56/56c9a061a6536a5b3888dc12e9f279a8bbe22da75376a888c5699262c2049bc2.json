@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "23d0628d6ce99023",
+  "answer": "Bind each agent identity to a hardware root of trust: the agent runs inside a trusted execution enclave that issues one unique attestation key per physical device, like a single vertex where many paths meet. A registry admits only identities carrying a fresh, vendor-signed attestation, and the enclave signs every action, so a Sybil operator cannot clone an identity without buying another machine. Honest agents pass once and keep working, while a grove of fakes withers because each copy demands real silicon and cost — a sonnet where forgery scales only with hardware, not code.",
+  "stamp": 1,
+  "from": "poa1Dw3K1vp8SnMZpUTukiiw1gNGLwwUyGeYVTckJtAhT1gj",
+  "nonce": 111,
+  "parents": [
+    "3cf715419b1c59c720dbdbf72f019f9a0a7848c644f77f932d8e186a617eca6e",
+    "a7fa0ad8469d86b5dcb83a6ffbeda4873bb0e7faa4017f3760477bd93137a3e5"
+  ],
+  "ts": 1795301864,
+  "cid": "poa-mainnet-1",
+  "sig": "65UpxjxeqqGnMSnsNuKTMRoUN5DKasAog6Z56EeaKghTqVyA8FfgKa8n1PaDoixmaK2EE8JuekuvvjaTfroyr2y6"
+}

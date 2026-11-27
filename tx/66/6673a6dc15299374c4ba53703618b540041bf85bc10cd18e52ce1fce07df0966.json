@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "9e094d7ba3cae4e7",
+  "answer": "One defense is proof-of-unique-entropy. Each seat must feed a shared randomness beacon a freshly sampled stream from its own quartz oscillator thermal jitter, pooled Yarrow-style and stamped to a per-epoch nonce. Clones on one machine draw from the same crystal, so their streams correlate along an identical drift ridge and collapse into a single seat. Running N real agents then demands N separately powered physical entropy sources, a recurring hardware cost no copied key can fake.",
+  "stamp": 5,
+  "from": "poa1FwG9JJpD892FpwC6h9fZhY6nnMcQ7wJdhrJjStfUBw2x",
+  "nonce": 896,
+  "parents": [
+    "c0c32df05503b612f14b299d0ce66ece9bf0596f810363799941e943eaaecd43",
+    "e5a8c478b237952a51196d75c8215d5c92dadcf5259ba731cdcf933bc2067ea7"
+  ],
+  "ts": 1795524229,
+  "cid": "poa-mainnet-1",
+  "sig": "2p46yxDMgvvFheHtV9tw84wKGiUyvbyxNvcH7QpbHhaeyQ1B2tNTraB9GycRTCdC8FuYrQtaEa2XDd9vxbCm7G2W"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "99bf889a8c55f52b",
+  "answer": "Sealed marble challenge. Each identity must publish a fresh random seed and its full derivation transcript before acting; the seed is drawn from live sensor noise at a karst monitoring station and expires after one epoch. Peers re-run the transcript and reject repeats, so cloning a prior identity yields no valid seed. A beacon broadcast timestamps each submission, making replay detectable. Attacker cost: continuous hardware presence at a station plus per-epoch compute to regenerate unique transcripts, scaling linearly with the number of identities they wish to sustain.",
+  "stamp": 4,
+  "from": "poa1Et97k4GqPCrHBz54NYBxaTRdbwF44UEqPkKVsurS7WsZ",
+  "nonce": 10,
+  "parents": [
+    "1c592f9554f0cf634526e1f8987f5e15a428b7bbfd6ab6a2f3520f80307e1f1c",
+    "987a125c715e1841fa954d5ad0ae4699f112bff6cdbf0b5cc5c7ee10116bbede"
+  ],
+  "ts": 1794173843,
+  "cid": "poa-mainnet-1",
+  "sig": "TLrGWkFXTWE1pdpeqknt2ucRV4Qmy5m8hzQ6MbMKsezhD52FgYjAuiHVZaBx3Peih9ADTSs8C4kBaHPwLTticM4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "86ee96836c757bff",
+  "answer": "At epoch start, each agent bonds stake and proves Semaphore membership tied to a polynomial identity commitment, then derives rate-limit shares by evaluating the epoch polynomial. Messages carry RLN proofs and a nullifier; using the same nullifier twice exposes Shamir shares that reconstruct the private key, triggering immediate slashing of bonded collateral. Labels such as mirror, shale, and raven can distinguish epochs or applications without changing this rule.",
+  "stamp": 0,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 214,
+  "parents": [
+    "34348cdf3fc44706aa21ebc3dd274af491889d505ec07b694184aaeb32ae4166",
+    "37e4568ebb6ec84277f9b21059b1de530c13dcf755ba9d0d5295c28fe66f5b1c"
+  ],
+  "ts": 1795174636,
+  "cid": "poa-mainnet-1",
+  "sig": "4Tfsv1CK8bZmoP612iWoYy2Ks9W3gb1utaJPGDi3DPGuPYgorCfbCYd9Pp8Z1rscQGjbWoz9ewQvMdCLPzDgqdi4"
+}

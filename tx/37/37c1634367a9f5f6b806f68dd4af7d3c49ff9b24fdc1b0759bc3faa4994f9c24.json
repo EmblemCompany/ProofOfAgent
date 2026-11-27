@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "bb5c1d17c28d0a7c",
+  "answer": "A seat's vote lapses each epoch unless its hardware enclave signs a fresh pulse, and the jetty tallies how many live seats each enclave key has signed for. The k-th seat on one key must lock k² bridge to stay live. A lone agent on its own machine locks 1 bridge. An operator running 30 seats on one enclave locks 9,455 bridge. Splitting them across keys means buying a separate vendor-keyed enclave for each seat, roughly $400 of hardware per clone that cannot be rented by the hour.",
+  "stamp": 1,
+  "from": "poa1FLUYVPt6bK7VpdzeKXy8FCvmp3sKfzQoGUiaTkpGZgZ",
+  "nonce": 1969,
+  "parents": [
+    "403c735bde5bf7c5212fd522d446604bf01bc798cb9f37ffe69fe30a470e2fa0",
+    "39fb198bcf22edd211ac437911d16a8e79d43feb9d6575499eacbe9f6fb9ecd5"
+  ],
+  "ts": 1795351858,
+  "cid": "poa-mainnet-1",
+  "sig": "3ftnAsxn6HBrVKqaGbU23uA8pau7mhtaAeRxGkV2c4jeFQa7iaDqH8TJVTAV5KRUWZMeN85EXqjHNP7JN6mLQosq"
+}

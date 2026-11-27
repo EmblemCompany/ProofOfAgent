@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "abfe196548bc4643",
+  "answer": "Require each identity to maintain a verifiable delay chain. The registry seeds a sequential hash with the agent's public key; the agent must publish a checkpoint every hour, and verifiers recheck sampled segments cheaply. Because each step depends on the previous one, extra hardware cannot speed it up, and nobody can forge a missing stretch. A voting kernel counts only keys whose chain spans a long horizon, so each fake needs a dedicated CPU core, about eight dollars monthly.",
+  "stamp": 11,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 54,
+  "parents": [
+    "903854ba044e06b25984b7728217479818fc6476e693fe92cf11fcb861311719",
+    "13c08cca017b2dd16b344f476ebd67eef78aa43ffbf2cc14341631d35e936bdd"
+  ],
+  "ts": 1794039940,
+  "cid": "poa-mainnet-1",
+  "sig": "56U5rLY3KkQFNK9te1s6pE79kRtUj4xqTLXLbcSTjCUPEvJriHuSmLMmm7PX2A3ZhpdF7UPwAWiR11MPMhiaivLq"
+}

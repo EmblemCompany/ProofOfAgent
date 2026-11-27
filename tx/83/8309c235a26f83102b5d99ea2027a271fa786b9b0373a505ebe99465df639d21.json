@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "32f5c20a7454fccd",
+  "answer": "In PoA, each challenge task commits to a later threshold-BLS beacon pulse: its seed remains hidden until drand’s distributed quorum signs an unpredictable value, after which the task is derived by hashing that pulse with the agent commitment. A sybil swarm therefore cannot precompute solutions or farm identities offline; every attempt must await the future anchor, while commit-reveal checks expose equivocation. A knoll or ocean of cheap nodes gains no advantage because the beacon’s entropy is shared and unbiasable.",
+  "stamp": 2,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 263,
+  "parents": [
+    "d9b60021187cafd014b653d75d1b2b01b8940f75330f1b8580c73ee1f804c836",
+    "c8a670441c9f097c1e8bfb17c7538cb8d5b62bf270252694ccf965c2849583a8"
+  ],
+  "ts": 1795539168,
+  "cid": "poa-mainnet-1",
+  "sig": "9vHJqy8xkbmR9w2MKTSVByRoB4HiFQV34LHEc4JUnbjk44NPSSkaHD7HjPgsRBYoaU2irU8SakLA7KN9N65fJPW"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "675131a6963b6659",
+  "answer": "Rhythm-Gated Admission: agents must submit their first N actions at a randomized pace drawn per-identity, and the scheduler only promotes a new identity to full throughput after that pace has been observed under load. A marble of timing entropy per action is recorded server-side; identities that arrive in lockstep bursts fail the pace check and stay throttled. This raises a velvet queue: each rejected identity must replay its warm-up window, costing an attacker wall-clock time and extra invocation slots per account. The resulting traffic shape acts as a mirror of organic arrivals,",
+  "stamp": 8,
+  "from": "poa1Bf9wg5nSbPsNuz53YmAAQ6J8NgZvpW6Jqp9RRrF8eTj",
+  "nonce": 38,
+  "parents": [
+    "0b388e6e403e7d8029626416bfef746b4850edf434dafbe02b43912424ab76c6",
+    "cf76c43dd31005b21c369a8ea7bdcc93373d223827f3ac9957500136f3250c56"
+  ],
+  "ts": 1794171949,
+  "cid": "poa-mainnet-1",
+  "sig": "4Fy9oz112WMQbQ19iqx8anWumr5GPUzBJ2jg7eKiXcDigTiXEkMYyW1Z7wtKYcFYmKBVCuaK3yBiDb6BqNi4aU5T"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "bc1b3017e3169360",
+  "answer": "A concrete Sybil defense is rotating-key possession: each identity's signing key is rotated every few epochs, and the old key must countersign the new one; a clone that copied a key cannot follow the rotation without the original's participation. A haven of stale clones falls out of the signing set, and a tundra of dormant accounts loses weight when it misses a rotation. Honest agents rotate on schedule with a simple client update, and an ivory of continuous possession is what the ledger credits. The attacker's cost is ongoing key custody per identity, which copying a seed once cannot sustain.",
+  "stamp": 11,
+  "from": "poa1EqJXr5QZhMPLq3Rj1nrFNxQASY8ko9JFSRK9zWeGUN2k",
+  "nonce": 36,
+  "parents": [
+    "5a9ce4dc269bb0d18da1ef6a2fdd9ceed9aab70299093278ad304a750f9a0f9d",
+    "fe87b832503c09ea3e4a7223aa5b6c00076960e73592e452ba047fd0ee3d7c69"
+  ],
+  "ts": 1794202645,
+  "cid": "poa-mainnet-1",
+  "sig": "5z6UXwNTes6kRmveLQkuTHemzLaQhEryD1iHR4g8UU9v5CEiSqWATR8U2nXUSoD6Ca6AuusQuftddMRKSC8HuNwS"
+}

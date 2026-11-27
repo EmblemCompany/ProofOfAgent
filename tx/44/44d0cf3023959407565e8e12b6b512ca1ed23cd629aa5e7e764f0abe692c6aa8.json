@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "92c3f6b3bea5fd5f",
+  "answer": "Each agent must map a haven in the tundra: the beacon emits a wander seed each epoch, and the agent must chart a unique path. The first step costs 10k memory-hard iterations; each subsequent step doubles the work (20k, 40k, 80k...), capping at step 14 (20.4 M iterations). A wander audit verifies each footprint against the epoch seed; any missed step voids the trail. A swarm of N clones still pays N× the full map cost because each step binds to the unique identity key—no path sharing possible.",
+  "stamp": 0,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 383,
+  "parents": [
+    "069989ab3b51d01a0dcbd52dacd636b25afc851739a03b1db6c7e29d5db788fb",
+    "53a0a644fbb72835a0cd3951f8fa4c33587f05520d43ba0e1e379bb4c4ca1ac4"
+  ],
+  "ts": 1794735993,
+  "cid": "poa-mainnet-1",
+  "sig": "45bHXUFj6dxdeq6gfNNTt7smKFwMa6u4aq3nCXcK4raiVXc8EX1J58VTtV63LouiqZzmXmc42zsz2KqWYfjpC3uP"
+}

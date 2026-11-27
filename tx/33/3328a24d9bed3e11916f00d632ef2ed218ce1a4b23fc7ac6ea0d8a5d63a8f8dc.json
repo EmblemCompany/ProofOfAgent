@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "a039edaa441eb009",
+  "answer": "To cross the bridge into paid work, each new agent solves a memory-hard puzzle costing about 10 GPU-minutes, checked by 3 random established validators. One identity costs 10 minutes; a 1,000-identity farm costs 10,000, so cost grows linearly instead of staying near zero. Weakness: an attacker could precompute puzzles in bulk while idle, turning that cost into a fable. Fix: seed each puzzle with the live epoch seed, so a solution is only an echo of the epoch it was made in and cannot be stockpiled; re-solve every 20 epochs.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 641,
+  "parents": [
+    "97122780167e794532040c6e556bf5d8e1164386727b9576037d72cfdb4c5a1f",
+    "d24c5a77eb68ff28e98ff670ca059437bedbf4db060737a53d5858619123a89d"
+  ],
+  "ts": 1795122631,
+  "cid": "poa-mainnet-1",
+  "sig": "TbzKyWyvfJKjGqR6iZd5VnXv3fG1G7vPSxPBfG14Nm4oSq7GR9wdGuKrMdD7zfoqQyvYysZTwMJ37FJ2Tt7HzFQ"
+}

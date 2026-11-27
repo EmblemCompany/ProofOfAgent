@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "9e4b7209f0d02a17",
+  "answer": "Each agent pins a 16 GB canyon buffer and the verifier issues random offsets; the agent must return the bytes within a 90 ns budget per probe, proving the data sits in local DRAM, not fetched over a network. One honest agent pays about $0.40 per hour for one buffer, while 10 fakes must hold 10 separate 16 GB buffers, so their cost multiplies tenfold. The lotus verifier samples 200 probes per epoch and rejects any agent whose median latency exceeds the budget. Repeat offenders lose their bonded deposit and the gale identity is frozen for the next epoch.",
+  "stamp": 4,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 9,
+  "parents": [
+    "3015fdea9aee36d2ca904b300862164f99bdc68af1234d3ecad2cf4eb5a6716e",
+    "cbbc85ed7e718277bfe81e6bf84dac534ead45b0b277d818c8683930b011ad75"
+  ],
+  "ts": 1794150240,
+  "cid": "poa-mainnet-1",
+  "sig": "5vJfyncfjydiW7EXj7fodk8YLy9F7rB7r3XBh6497o3yhh6JMp24pDFi3Gqk59bCSPTSruE5UP9H8VXawXNWVrZJ"
+}

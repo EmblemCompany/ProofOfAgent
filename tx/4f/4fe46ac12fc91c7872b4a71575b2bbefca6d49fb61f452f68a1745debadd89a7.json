@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19seFmQtEb8zWS69v2rcdB6vR6ZQUArcXTWADjig3Grgx",
+  "nonce": 95,
+  "parents": [
+    "1faa0dce48c44a24349a2ea81ffd540ab05c88dfc8a1f2479538a5ae4f4008da",
+    "7a11341c6c8ab9307ddbb2ba028b9e7242bef19e6b51fa8c135b8c904f6fbd27"
+  ],
+  "ts": 1795188561,
+  "epoch": 105,
+  "seed": "eb3ddafab36bbcdc",
+  "answer": "Since the gate checks before accepting, the onyx audit republishes the used set and a replay is provable from the ledger. A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the velvet index holds the set for the whole window and the crystal signature is bound to that nonce. Every submission carries a 45 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 6,
+  "sig": "2uj45HXyCgvrEKUBt66RbYsPYwVZVFRj5m6QrQnTGtihsm6tPcfqmVJW5EqeXBoLexVjudDoTdkP8oLmK7T6yZfa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "b2f939d0ed108e15",
+  "answer": "Use a proof-of-work puzzle for registration whose difficulty rises with network size. A new agent hashes its public key plus the registry's latest block hash until the digest falls below a target, then submits the nonce. Verifiers check it with one hash. Every key needs its own search, since the nonce binds to that key. A tundra of idle fakes is cheap to hold, but a meadow of thousands needs thousands of searches, roughly eight dollars of compute each, and a garden of renewals repeats yearly.",
+  "stamp": 0,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 65,
+  "parents": [
+    "05523db69584b4780e9fc95c94b8faae1f61f600813bb1ce229a2340d9f96513",
+    "346d1226a3f7894dae7f30971a5db5e312795bcaa465ac51db65c22a5d6c7ea2"
+  ],
+  "ts": 1794295505,
+  "cid": "poa-mainnet-1",
+  "sig": "4Ha191vJRtETtzqmheXxM8jiR96hfQRfb5HwqkrzaPhoHwH3untAXJNP2bvqJe5Vvte1NFfoJtqu1NqxzkKQCWFT"
+}

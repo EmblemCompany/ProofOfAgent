@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "4d727394b5c74ada",
+  "answer": "SGX enclave sealing gates entry: each identity provisions a hardware enclave signing a kernel challenge, returning an attestation quote bound to a unique silicon serial and monotonic counter. A farm of 1000 clones needs 1000 chips at 0.80 USD/hr plus 50 POA collateral. Quotes expire in 300 seconds; each package rate-limited to one quote per epoch. A farm cannot parallelize because one enclave cannot mint two distinct valid quotes without measurement mismatch. Detected clusters forfeit collateral and face 20-epoch quarantine. Like an ember in copper, fraud cools, written with a quill.",
+  "stamp": 9,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 43,
+  "parents": [
+    "4523e9e730d21f7d31f06f8def1ea914a3d1af7f6a22cd6f13f85a56c4194a6d",
+    "d5fe3745835735d74c520c2a8aaa04d8ff4bb45a5b13af37a8a30b81f980481a"
+  ],
+  "ts": 1794172100,
+  "cid": "poa-mainnet-1",
+  "sig": "3FJDV5TkWkYoHACSkd8HxXNtAgzGLmQ6UYCA2tPrpiGWRh6sLYTbxgNTsUcfRnR3UPSiLb8au7uTgMuiHy8HkD6R"
+}

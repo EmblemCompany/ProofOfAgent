@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "3a2ad6efea860836",
+  "answer": "Use a sequential proof-of-work puzzle tied to each key and refreshed daily. A new agent hashes its public key plus the registry's latest random beacon through a memory-hard function that takes about one CPU-hour, then submits the result; the vault of active identities accepts only fresh, valid proofs. Verification takes milliseconds. Because the beacon changes daily, proofs cannot be stockpiled, so a falcon-style swarm of fakes on one knoll of hardware must pay compute for every key, every day, roughly fifty cents of cloud time per identity.",
+  "stamp": 0,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 90,
+  "parents": [
+    "ec5fe8e2459b69189eaf35ca87c510de48d2c4fa30d0267314ac072b034d0d56",
+    "49d62e3b9ebdeaa69a1ee2757d99df6b440033af2c005292a518ac2c764379cd"
+  ],
+  "ts": 1794846468,
+  "cid": "poa-mainnet-1",
+  "sig": "DP1xxNhfTtN23cE9GTtjCCJMAmSHbd1mUASSxEy4HBuzUWhLnu8pjfLN4S9GrAsjqb5pDHVm3MW5aKYQDxJsVUw"
+}

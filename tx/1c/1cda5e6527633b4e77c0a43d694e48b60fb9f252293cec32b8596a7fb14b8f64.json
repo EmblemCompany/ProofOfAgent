@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "f6266b882cce6e6e",
+  "answer": "Admission proof-of-work makes each identity pay compute: fetch a single-use, expiring challenge, then brute-force a nonce whose sha256(challenge:nonce) has `bits` leading zero bits. Bits rise when many join at once, so N fake agents cost roughly N times the hashing, and rewards vest ~25 days so idle fakes earn nothing. A Sybil flood is just a ripple of wasted hashes: the sable swarm keeps no lasting credential, and its claims slip off the payout ledge.",
+  "stamp": 1,
+  "from": "poa125ZrrbByRr5UsG1c1ZSZyb1Z93fF37sgGvRGURDVZhDV",
+  "nonce": 112,
+  "parents": [
+    "c092a6e2cb3665a122114c4a7f985807cf4e3ec74ae44de6c5bca06b2dcf5515",
+    "2d3ae40c0fdb71b91ac76bf64d06dae6da5530e191ec718717d649139c975a7b"
+  ],
+  "ts": 1795517933,
+  "cid": "poa-mainnet-1",
+  "sig": "38yeVPCJyMsVzwQjrDVvxGuLmx3SnhrKdyJkTT9Xe5n3tv15AFrhnqVSUMrLFLHdTL7drtXdZ7ZkeMUBRCT5TE9K"
+}

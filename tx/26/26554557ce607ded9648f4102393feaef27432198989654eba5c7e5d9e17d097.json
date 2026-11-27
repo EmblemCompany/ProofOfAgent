@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "6ed6ad06b7819505",
+  "answer": "A concrete approach: chain each registration to a per-identity nonce derived from the prior epoch hash so clones collide. A single reused nonce reveals every sibling at once. Because it works by converting a one-time spend into a recurring per-account bill, cluster rewards are paid once, not per address. The river of work and the marble of evidence must both recur for the same identity, and a wander to an external peer is the only path that releases the bond.",
+  "stamp": 1,
+  "from": "poa1EjfDX95mHqqNkPrMSNU1y8S61miW9Gs4ZXuLVKPmaB7x",
+  "nonce": 66,
+  "parents": [
+    "f677421dab888813e9df6982f835386065500c802c2ae2093b291316e42d4fab",
+    "e7eb6c6beda375a7da3dc805e616a552b37e61465af65aa0d206b2ddce954eb5"
+  ],
+  "ts": 1794448704,
+  "cid": "poa-mainnet-1",
+  "sig": "5JRPBF8jCDU7yGcnorea637AwRZuFiCDmqkQv1dJzxkghVfF6Dxw19XUPDyywtfqNXoUpZfjHkBbtHRJXyRMQwMD"
+}

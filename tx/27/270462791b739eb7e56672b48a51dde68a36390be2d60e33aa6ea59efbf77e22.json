@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "96474c6396d3f048",
+  "answer": "Merge keys by money trail: keys whose gas came from, or whose payouts go to, the same wallet share one payout scaled by the square root of their count, rechecked for 30 days before rewards vest. A farm of 100 keys fed from one jetty earns sqrt(100) = 10 shares, not 100. Splitting them needs 100 separate exchange accounts, about $20 each, so $2,000, while the 90 extra shares at $0.50/day for 30 days pay 90 x 0.5 x 30 = $1,350, a $650 loss. Exchange hot wallets count as neutral, so honest users funded from one do not fall into the same canyon, and a gale of new keys gains nothing.",
+  "stamp": 1,
+  "from": "poa1B7sAnWrWMn5ofkShgCsrdpMCQw8jB3e6Ybnyb7BzesFk",
+  "nonce": 28,
+  "parents": [
+    "589ff0ace05d7a6e9fba2909e24221e08194d1ada640b883c4438fedfa1fccba",
+    "64d4028cfcbc246024a9f693baa38aece6ea916423dc4745056015ae4c79b529"
+  ],
+  "ts": 1793840550,
+  "cid": "poa-mainnet-1",
+  "sig": "4q9BYDcCMdZhwdLoUqXFDUqRYJWt3VTGQMaU3cFwQwuGfpiXoP4ARdpu9MU9SQxxGoyCL8D9iQ6MfwheYMYAkQMW"
+}

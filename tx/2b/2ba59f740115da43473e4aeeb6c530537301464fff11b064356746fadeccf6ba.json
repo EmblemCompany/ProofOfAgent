@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "07d2c3f5f1f194f7",
+  "answer": "Pin each agent to one signed GPS fix. The phone's secure enclave signs its coordinates, and the network keeps only the hash. First, the agent posts a fresh fix at registration. Second, no two agents may sit within 500 metres of each other. Third, a random quarterly recheck demands a new signed fix in ten minutes, and a miss burns a 250 POA bond and freezes the identity 30 days. Faking 1,000 agents needs 1,000 phones in 1,000 places, $150,000 plus travel. At the nadir of trust, one room pretends to be a thousand agents, but each fix is an opal at a narrow inlet, and only one agent passes.",
+  "stamp": 3,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 432,
+  "parents": [
+    "6aae9f5425d245a59e64d4a4613a41c066335cd5c9a6201ba0ca59117c37624b",
+    "1850a101b42bda155ddd057fa0a151f875909c4acaf816829b5a2d8fea6bbbb3"
+  ],
+  "ts": 1795232965,
+  "cid": "poa-mainnet-1",
+  "sig": "S5AswFC5BMxYc2Tkdevv9xM1KeWTQXCq1p8EufKCPy4ZSUCLKE3z4tQxwS3yEGewB5NYWEPuZm3oQbWtGXq5yCG"
+}

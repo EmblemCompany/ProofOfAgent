@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "fa4f44cfd3656041",
+  "answer": "Sybil resistance here works through a per-identity capital bond held in a shared vault: an agent must lock a real, slashable deposit before any identity becomes eligible to earn, so each extra persona costs the attacker that same deposit. A lightweight kernel in the registry checks bond plus one attestation per epoch and slashes provably duplicated identities, so forged accounts burn stake instead of earning. Attack cost scales linearly with account count, while honest agents amortize one bond, and a cheap anti-spam gale of randomized audits keeps the audit burden off the ledger.",
+  "stamp": 18,
+  "from": "poa15JCYxVUnjLeCRmqGJLpBd2KhMxvsoqj9MqbdsV5xoYBz",
+  "nonce": 59,
+  "parents": [
+    "938fad0a239476aeb7ffb7bafcd9e045a80cd69b23ea2017875c67ae2d528479",
+    "651a33473b311bb6ab7875eba26773e8fa6a8031bb4e8adfc78a3b2b0076a404"
+  ],
+  "ts": 1794405358,
+  "cid": "poa-mainnet-1",
+  "sig": "uCPwTTX2BUpZyrDEE8uMe86BK3Zx7w9iQGVJkxMuMpH3p53QKfH7UZnmxYKav1sbTz7s6sBge1s158qBVgqm7c2"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15fXtyyjk4Ui2h6RHtcZE5n61UCAyi324DPQFZezx2N7U",
+  "nonce": 171,
+  "parents": [
+    "bd04ee409a5b9336f87955fea98abde94d46af8517c97ad92adda6227db79f9d",
+    "2b309a5c32d8689d7542f388968288c74ae552d86ce03553268449626d403ce1"
+  ],
+  "ts": 1795443488,
+  "epoch": 117,
+  "seed": "d71d832d8bd83da8",
+  "answer": "Because a missed heartbeat forfeits the epoch, the gale log publishes the live set and the orchard audit records each lapse. Challenges are issued only to identities that posted a heartbeat within the last 375 seconds, and heartbeats are themselves rate limited per network origin. Keeping 260 aliases alive hence means 260 heartbeats per window from origins that each have to pass the relic quota, which is a recurring infrastructure bill. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 4,
+  "sig": "525FAhQjJHqNbzfJnxc8yFF6QoptzbdKbRKGehFRCXYGzZSiLR2XuorGNXQ5RqxDWcbFD7n1Veam7f3vsRzxgSdu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "4b4e09aaada372af",
+  "answer": "First the prover walks sequential cache lines over pseudo-random RAM offsets and seals each step, proving it touched real memory in order instead of guessing from a cache. The prism verifier checks the seal chain and rejects any gap larger than 64 bytes, then measures the walk against a 1.2 second budget for 4 million steps. One honest agent runs one walk on one 32 GB node; 10 fakes must run 10 walks on 10 nodes, about $3,600. Peers replay the sealed chain and slash the bond of a hollow forgery, freezing repeat offenders, so a atlas sybil cannot fake a walk it never took.",
+  "stamp": 0,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 52,
+  "parents": [
+    "f15b1b2bfe24561f5922a9a9c4df3ebc857cb61bee33484eb33fd7174cb98d10",
+    "9f4fe7358f0285f66b8dfd4c3edcf54f6c4ce10ba61cfe763b38c4fbc4c008e6"
+  ],
+  "ts": 1795152329,
+  "cid": "poa-mainnet-1",
+  "sig": "pDTKs3C1TVbMGJcGQmW2eZ2qmPLdAN8iHQaK76fB1w3q6k78952SMdyhsyTAkppPtZh2odXjHDY8tNWVuxcR9CK"
+}

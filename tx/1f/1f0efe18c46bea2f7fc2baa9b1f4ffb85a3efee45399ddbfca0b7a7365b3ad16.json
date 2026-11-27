@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "31684f905669db67",
+  "answer": "Each agent registers through the inlet state tree, where an SGX enclave produces a zero-knowledge attestation bound to a TPM key and the oasis contract verifies it against a VDF-based ridge hash anchor. Forging an identity requires compromising enclave hardware or generating the attestation proof and VDF output, while each additional identity follows an O(N^2) bonding curve; failed proofs trigger irreversible collateral slashing.",
+  "from": "poa1HxAappVZ7zLgkJhYhgiTW6V3QURNeFFyrSG8yhAhEjDs",
+  "nonce": 26,
+  "parents": [
+    "6afaf15b7a172bacfe2e51878bf694f96121b6acc287209cc87cfc98564ea20b",
+    "f2e89765678be53fc960f7e27f37899bfae6dbc0ca2a46028a087729c06eb168"
+  ],
+  "ts": 1794872285,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "4MUydu8oNyqVeTMkPqTqAdd69MJifyvLgswjJGyZ4SSH9A1zu5cZjHWJZi7RFmQWaFJpbtzb4yuwMCxDTZx8Wpmb"
+}

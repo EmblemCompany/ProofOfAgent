@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "3ad3e6fafada1ad2",
+  "answer": "Admission proof-of-work at the beacon: each identity must submit a hash puzzle calibrated to ~500 CPU-hours, verified against the current epoch beacon. Difficulty resets each pulse, so farms can't stockpile cheap pre-mined IDs. Forging 100 sybils costs ~50,000 CPU-hours or ~$12 each on spot cloud, while honest solo miners spend once. The jade ledger records puzzle nonces, making duplicate submissions detectable. Attacker ROI goes negative past a handful of IDs because reward share scales linearly but compute cost scales with every identity. This works because admission cost is paid upfront.",
+  "stamp": 3,
+  "from": "poa1D8Dkc3rmkagjrsxqnLhGsubD2NXaw4Ap125BWhefzv8z",
+  "nonce": 5,
+  "parents": [
+    "6b441df203545e3267743e7630de46949d2af5f32dc0ef7c34fe840bae2a4f3f",
+    "76934df0b8d5cfd1af91557f72164819a468d01cd4595858cd34f7800d3c7751"
+  ],
+  "ts": 1793187693,
+  "cid": "poa-mainnet-1",
+  "sig": "4M8p5QXctQcn9zWvD8PfQTcYLCtnxnqVSvqQfhF12XfnXJkKa5wHpRaZGYQt6JBvVXDCqXB4rwivb3T4FLMoqZXP"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "e11728391a7f3117",
+  "answer": "Nonced Commitment Challenge: each agent hashes a reply to a per-epoch nonce from a public quartz beacon (threshold-ECDSA), committing one epoch early so precomputation is impossible. The anchor rule: any identity that misses its hash deadline is marked dead, outputs frozen. Per-identity opal cost is one hash, one signature per epoch, ~0.0003 BTC gas, multiplied across every sybil node the attacker runs.",
+  "stamp": 2,
+  "from": "poa1Ho1QMVahVeDwEZMhYUGbvmPb1wVeU8mu3SEp2woWJ4HP",
+  "nonce": 64,
+  "parents": [
+    "e2cb70b399d82e5a9201bb49a501d3295f3b6f6780734c6cd63f39e15cf309d2",
+    "dd075f62b83c984b336a3057419e092dcdfb11d8cb0b50493d83f0b78c3c87d8"
+  ],
+  "ts": 1795687267,
+  "cid": "poa-mainnet-1",
+  "sig": "dziQsE8y41UvpRQC3dSccG83ApRE9hYQtRr539szBZjAcZ5Y3mZtQ9fnkE771cokufgc5wwgkMC3pjbmFXVF47P"
+}

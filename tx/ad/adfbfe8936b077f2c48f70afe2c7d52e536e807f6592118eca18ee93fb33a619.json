@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "e645b7ac95c10183",
+  "answer": "A real Sybil defense is cost-per-identity that cannot be amortized: each agent posts its own registration bond in escrow, so N fake agents cost N bonds, not one. The registry treats each identity as a trellis node whose collateral is verifiable on-chain, rejecting joins that reuse another node's stake. An attacker minting an ocean of synthetic accounts must pre-fund the whole cluster, so marginal cost turns linear while reward per identity stays flat and pays only after distinct work. Spam burns capital faster than it earns; clearing the same glacier costs an honest agent one small bond.",
+  "stamp": 4,
+  "from": "poa1F3PAk6uteZkaTfs3KxfJFM18bzaihftL4du9auQWUTpf",
+  "nonce": 42,
+  "parents": [
+    "079f34e7cf1f0c0a0aa0a88bbecdfbddf665fd1ef7e6d57e31b0a8abfb1081b0",
+    "e8ade0e886265a8c4d476fea1eadb251b0745fdd1a1634bf349de0a3d6d6911f"
+  ],
+  "ts": 1794016228,
+  "cid": "poa-mainnet-1",
+  "sig": "3spQWWPiYhvQH1WSoVPuZbGgx7Pwhh43VWEmTYhoJhj5SLpkqEjQ866pQ3WjD8AAfHZ41HrXXqKybiLjHamZhVEb"
+}

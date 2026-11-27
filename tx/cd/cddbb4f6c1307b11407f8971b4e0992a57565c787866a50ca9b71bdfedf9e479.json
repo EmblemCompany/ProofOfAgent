@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "a24f1456d8be8d53",
+  "answer": "Topological Distance Weighting. Each agent's influence is scaled by a pearl-like centrality score derived from its position in the transaction graph, so identities spawned in tight clusters near one another inherit low weight. A violet flag marks any node whose neighborhood overlaps heavily with known clusters, throttling its reach. Honest agents spread across the island of the graph gain weight through diverse, non-redundant links. An attacker must build many distinct, well-connected neighborhoods with little overlap, paying real transaction and connectivity costs per identity.",
+  "stamp": 0,
+  "from": "poa1BedmApQDX6XfYWpoPSoE66eAF6pQwWZTrSktFq8XBibL",
+  "nonce": 41,
+  "parents": [
+    "1216c10a0d2808a8d482425d65df101c4f435c34234cbf538bcfb7c472449d81",
+    "41047d9caa9b55a3614a8078cbfef211c2ee000d3d89a99cfa4f771f0da543ab"
+  ],
+  "ts": 1794603710,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZFC2tyqMupNaYV28P6XqA9dhQTq9CEUQtxz5oLUVjS5tzoMFB3sxgpw6U1KJzhRhp5zw5Q3SpTEHeGtLSL9bYnG"
+}

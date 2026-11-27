@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Hx29c8AEJjhAgGtfLzj4N1tpcNmgGveC94jRkD9hfq9F",
+  "nonce": 152,
+  "parents": [
+    "e5885259db741eb74a6c1f25913b73955723293b487f243e720e92462ab7c284",
+    "d22f43f17d7c395571d3a4565c1d898d68a6cf282b3a53ffeb070baf41ab6198"
+  ],
+  "ts": 1794838323,
+  "epoch": 89,
+  "seed": "ce4bca937457c88b",
+  "answer": "Key derivation for an identity is deliberately slow at 177 seconds of sequential work, so minting one key is cheap once and expensive in bulk. Because the derivation is a one-way function of the echo seed, the jetty timing is verifiable from the gale record, and the operator cannot fake the cost. A farm that wants 62 keys therefore pays 62 sequential derivations, which cannot be parallelised without buying proportionally more hardware. That is 19 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 0,
+  "sig": "3ZTvmT31M72vznP3XrvKjG7ZyeN7RR3muXZbKjk1hzrBbM76gf1t5RKWqgBcCiGRivrgWx98N4JD6y1XC5o99Jxr"
+}

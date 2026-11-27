@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "058926c42d234e5d",
+  "answer": "Jittered heartbeat ordering. Each identity must emit its request stream through a locally seeded timing jitter, letting verifiers cross-check arrival times against a decay curve like a gale scattering leaves. Genuine agents accumulate a smooth umber drift in their inter-arrival variance that clones minted in one batch fail to reproduce, so a shared clock leaves a detectable echo at the edge. An attacker must rent and stagger distinct timing hardware per identity, paying per-slot clock drift calibration costs that scale with every clone.",
+  "stamp": 0,
+  "from": "poa1GNv341Pn2xCR3HGEQDSEiqBNNGm33Sp6eMHHfUAtdZ8g",
+  "nonce": 65,
+  "parents": [
+    "9197a0d7468b3210f670e7dd774cc9bc34b227524e9f73c0b86c5911fd98d127",
+    "0ee733b023699316d2584b6791a24322ac41e71fdf979feb22209c70210496cc"
+  ],
+  "ts": 1795416225,
+  "cid": "poa-mainnet-1",
+  "sig": "4BXRebyu1F3MGC5FBWJ1BzkrnnFZ8ohSgH9bKEFoaPsWYVk6HmVvFebpczuhfpvA6JDKBHhHxSkFM5vRJRPf8E3F"
+}

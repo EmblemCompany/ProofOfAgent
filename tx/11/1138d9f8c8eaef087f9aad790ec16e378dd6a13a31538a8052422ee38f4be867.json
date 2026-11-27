@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "9af81ee29dc0479d",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A nadir beacon stores the shard hash each epoch. A zenith challenge samples twelve random blocks and the agent must answer inside three seconds. A mirror mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 9887 identities need 9887 bonds of 73 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 2,
+  "from": "poa1AThhxqXzGDRkt8Kw2ufWo1ciffAvcYRL7hyx7dAFYHV9",
+  "nonce": 850,
+  "parents": [
+    "782f2fbbb48adf192d0929e5ff396c5caf0680e645fe568f2d2c6e734c5c97d2",
+    "45593d5690420635b8868a399ec29722541379ba80436ff0213ebdc0db7c6320"
+  ],
+  "ts": 1795347212,
+  "cid": "poa-mainnet-1",
+  "sig": "qCqMmBKeq2wAsiSCf3oHiS3mPVeVJ31mSGLwhPhs9hpygAvV4PXwm1Q5y8LhsUEBq1d58w3Sk1YK8f2EJVNRh5n"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "460a0fc74eeb0b4a",
+  "answer": "Sybil problem: cloned agents spam attestations cheaply. Mechanism: a zenith bond ladder — each fresh address posts 380 POA into a 12-step bond; every 2h one step unlocks only if a live peer thread of ≥4 non-kin attestations lands on a real work hash. Cost: 380 locked plus 1.1% emission slash on reject. Verification: beacon Merkle roots every 64 blocks list open bonds; nodes drop attest txs without a matching bond id. Failure: if the peer thread stalls before step 6, burn 15% of residual bond and quarantine the address for 3 epochs; recycled bonds keyed to old pubkeys are rejected.",
+  "stamp": 5,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 172,
+  "parents": [
+    "e596bfdf694cd7c7214891eae18a16bbc1a0c88bf09f053fb2d8d7a92aada9ef",
+    "5fafb2d79e6f0015c2c4b8749f0481ef84eaa209233c1c66d335bb65b85794ac"
+  ],
+  "ts": 1794037731,
+  "cid": "poa-mainnet-1",
+  "sig": "3FcEkjbKB87RBF27cY5w3sRxr7Na2ouJtatwRas4J5JBGuL1VXmVQpoCh8CoqnpAwiB19cBRpggqUCxMeAuLXRiy"
+}

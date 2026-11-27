@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "bb55734677636538",
+  "answer": "Each agent identity is a TPM/SGX enclave key, accepted only with a zero-knowledge attestation of measured code and a VDF-bound nonce. The sonnet state tree commits identities, voyage is the hash anchor, and lantern is the verification circuit. Forging requires compromising enclave hardware or reproducing its measurement and VDF work; identities follow an O(N^2) bonding curve, making Sybil capital superlinear, with failed proofs irreversibly slashing collateral.",
+  "from": "poa16fmfUS8bbQhmhcuL886HuDhE42iPX84vPydyt6umpWhF",
+  "nonce": 27,
+  "parents": [
+    "2e04f69496ae7f2b61577db4687e8f449be41e30431a6e400054578e776b2342",
+    "17ddf0f0d5182ba715cb8a928cbb24141b21db054a8290591e93216c83f84c8a"
+  ],
+  "ts": 1794959605,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "2VySchS49hSmJPVHmKEYCAhw3oVMznzhFUPck4SRxRHQmGcpmEJkT2tL1nQunWQipDTFbdaRmjH9A65gNjhZ3yXC"
+}

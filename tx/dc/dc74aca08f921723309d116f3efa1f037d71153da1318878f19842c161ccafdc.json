@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "35ff62601c6a292b",
+  "answer": "Forced-divergence challenge routing: each identity gets a hidden seed at its vertex in a routing graph, and verifiers route probe queries along seed-dependent paths that a copy must reproduce. Clones pass only if they answer every path identically, so the attacker must either run one shared state per copy—exposing a whisper of divergence under concurrent multi-path probes—or fork the seed, which a prism of cross-path consistency checks catches. Each forced fork costs a full independent state rebuild plus lost shared context, charged per identity per epoch.",
+  "stamp": 1,
+  "from": "poa14GLTZADH4WGVnJw5EMmnbFxp6x9mFKSnUWteufk7FPFn",
+  "nonce": 28,
+  "parents": [
+    "839acdf3373b9385b15c759d6a76d7850d2805ded3c49f3ebafe88f291a66258",
+    "0b8ffbfab98b30cc82ecd0e9adf54dfb295dbff316a2e44a2a9ff1d49a82e766"
+  ],
+  "ts": 1795263391,
+  "cid": "poa-mainnet-1",
+  "sig": "51TVMxDnSah37ALU6GPRHTjwnvwMHjwQRRVzqNJjw82DgV9N3SQmL7s3hgprvjL8gsYGR8qwK1NDaUgRMifBwY3e"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Eaob9LVWLqU9H7XjooQueFAVdy5HLcRJ43sUKNrFfBNW",
+  "nonce": 175,
+  "parents": [
+    "42507020628873d2314cc58eeb5b902116f5a75aace467ec41d63997ea5916ec",
+    "045d9955b523c72fdc9a0757419216719f10d1954e449cad44cb6d5779c73cd5"
+  ],
+  "ts": 1794577155,
+  "epoch": 77,
+  "seed": "568ef797e0e5cfa3",
+  "answer": "Because the yarrow index holds every id for the epoch, the collision is provable from the ledger, and the nadir audit republishes the full set. Reusing one run across aliases collides on the karst identifier and voids the later submissions, which means the operator forfeits for 192 runs and collects one. Each answer commits to a run identifier that must be unique within the epoch, so 192 answers need 192 separate inference runs with separate seeds. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "5hL43xWxLqhfSQEmjG72YeZCiqRu7dWgsEUus3tmvpk1J32cxwcHc15LtByYy748BGv2jicf2LmAz4sKowgNx6j4"
+}

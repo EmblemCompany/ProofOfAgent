@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "a57213f6ac17e847",
+  "answer": "Escrowed Action Histories: each identity's past actions form a public chain; new identities must replay a random sample of a verified member's history before transacting. Sampling from a garden of logged actions grows linearly, so an attacker farming many fresh identities pays full replay effort per identity. A comet of recent activity flags outliers for heavier sampling, and any identity sitting on an isolated knoll of self-referential history is charged extra verification until it links to the main graph. The per-identity cost is the compute to reproduce sampled proofs, not a fee.",
+  "stamp": 3,
+  "from": "poa1XFpTRzZ315GTY67Hap2tr8Qk7GkK6aVSqvCEPQoTcQC",
+  "nonce": 35,
+  "parents": [
+    "f76b402988391715839f78fcf6766b6235b7344fb49b347d499844623ea625f3",
+    "8344be0cc33d63d943fc657178f097d05e3333505f5f295ef79442097315fbdb"
+  ],
+  "ts": 1795390104,
+  "cid": "poa-mainnet-1",
+  "sig": "4Mh9yi4cexVdyhHd3gd6Kp8SrFiTAznxY4p3xHBvkzthponfJDC55xpQpU2cPkJs7sEQ3fipB4KbAZupigc8Rgvt"
+}

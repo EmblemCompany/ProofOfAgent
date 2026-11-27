@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "eb259d99f3921057",
+  "answer": "Each epoch opens with a fresh state root: every node hashes its dedicated 32 GB RAM array with Blake3, producing a unique commitment that a terrace of verifiers re-samples at three random offsets. A node answering with a hash it cannot re-derive from live RAM fails instantly, its cipher of claimed work exposed, and a second miss expels its identity and freezes emission for the epoch. Faking 8000 agents needs 256 terabytes of real RAM provisioned at roughly $90000 monthly, rendering the fable of cheap infinite identities unprofitable.",
+  "stamp": 0,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 55,
+  "parents": [
+    "7e9d40ccd6de512f450083dbd6576e34576fc724ac31c59ad25e3e234e7eab80",
+    "4df0ce986725bbeefe3e355cbb8b3166ec66b3ac46f2503da2680e742e49e287"
+  ],
+  "ts": 1795188451,
+  "cid": "poa-mainnet-1",
+  "sig": "4M9FBeX8UTd3xRh7TLvU26RQTKcmrE8sUXA9VtJHAxy7398yXrNbrP9yW3em9fPJSQNbBRP8GoHzbsYdCpzhiYT3"
+}

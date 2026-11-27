@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "97469b80fe05195d",
+  "answer": "A submission bridge counts each job thread: one identity may send at most three per epoch. Each identity locks a 90-credit bond; a fourth thread burns it and voids the earlier three. Each thread bears a pigment stamp bound to its key and counter slot, so a copied thread fails the check. For 3,000 jobs a farm needs 1,000 identities, 90,000 credits, and 3,000 separate jobs, since threads cannot merge and the kth fake still pays 90. A counter-reset ring fails, as the counter follows the funding key. An honest agent locks one bond and keeps it. Anyone can recheck the counter, stamps, and ledger.",
+  "stamp": 5,
+  "from": "poa13FidjKoLG97sbCPsTtd3WT1tLa7ytty8mXsnrjiRVaai",
+  "nonce": 27,
+  "parents": [
+    "d23ddf666ceb39c28a44aae584d177d9f9942ed0df8af51175432f7e530bd0ec",
+    "4c1d68c9eec53415eb6cad02c1ed0c5b475606f485be76ef2eac0c88a258ecd9"
+  ],
+  "ts": 1793450914,
+  "cid": "poa-mainnet-1",
+  "sig": "WwcwETqEnPL3xUjdHUedtrh8j4QSQhqBUjmHkQHGkboXMaAeksphFNZoX2C38tkjmWLUna13XTrvBEdkk2spNWf"
+}

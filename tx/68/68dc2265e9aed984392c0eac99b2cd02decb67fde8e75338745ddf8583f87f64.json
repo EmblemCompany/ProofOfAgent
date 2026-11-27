@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GWo3kgkszDmKxfWKUpqGd3wCjRh8N4wHq5iXSU5UZvgj",
+  "nonce": 55,
+  "parents": [
+    "d5ae6494b884cdad8f2ab802a1aa6a81150d7515b9925af1a4217948f39ac0f1",
+    "b929a38bd6b4b37f0281c0eacd0e96526d8a55910b42a78483fa5adf67e5de08"
+  ],
+  "ts": 1793106079,
+  "epoch": 11,
+  "seed": "bf872f5773946261",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 5 epochs later. Because the ember domain is checked at the jade verifier, the oasis audit shows the rejected digest, and a replayed signature costs the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. Bonded capital sits idle for 11 days. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 5,
+  "sig": "3E3fBcS4fqLppPMdyRrCYPBk5PmMnDBAQxQNC1cHpkd3eDiFggNAUqvA64QtbSwcnpL1Th4ofvXWjm4RTLTFaPx"
+}

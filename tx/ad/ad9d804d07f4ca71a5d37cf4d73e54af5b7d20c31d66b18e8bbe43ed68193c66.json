@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "aae239cc3a9f9283",
+  "answer": "PoA can admit an agent only when remote attestation binds its hardware-rooted key to an approved MRENCLAVE, proving the measured code runs inside genuine SGX or SEV hardware. The measurement alone is not unique, so enrollment must also enforce per-platform keys and prevent duplicate claims. This raises Sybil costs: copying a VM cannot mint trusted hardware identities; an attacker needs additional attested silicon. Even an ivory mesa cannot wander past that check.",
+  "stamp": 4,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 5,
+  "parents": [
+    "f4b3fca709e650ac59291109b75c327e76ebf457c0975195ca089eae068a497c",
+    "1ac54489b5f3b6ef765aa8b66e5cf99d59c65b8898ca11a93414d2d04e91b78e"
+  ],
+  "ts": 1793408368,
+  "cid": "poa-mainnet-1",
+  "sig": "23NjuaP6nnJ7XwfHy9CHhPQYkCb8E5Gy9Mgsvz3SEG6fSL5uqj5f36d4R5qzUQKqrcmnwuioTsME3bKkRFxStEHn"
+}

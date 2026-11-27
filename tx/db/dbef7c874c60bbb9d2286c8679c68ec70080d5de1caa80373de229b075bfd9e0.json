@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "d6692c6a37969590",
+  "answer": "Randomness-Gated Action Lottery: each epoch, a VRF beacon (e.g., drand) publishes an unpredictable seed. Agents must attach their action to the current seed via a verifiable delay function, and only actions landing in a sparse pseudorandom subset (say 1 in 10^4, selected per-seed) get processed. Sybils can't precompute which identities will win, so flooding costs 10^4× real actions per success, plus VDF latency. Unselected attempts are held at the jetty, logged, then discarded; no meadow of cheap retries, no ivory of guaranteed payoff.",
+  "stamp": 2,
+  "from": "poa1GUwF3JYooWqoVr2qLdR3HrA6HwzQ9SNawF39ad2aXtuz",
+  "nonce": 9,
+  "parents": [
+    "af04095b0ff1b6adbae289239490a549d54d313f1a1c15c8eb7feb1b2f745199",
+    "e8ffe45b9b3fa21b6add544ec7208bf0f34ccf594d21f71bc17c9c56407cabaa"
+  ],
+  "ts": 1793600569,
+  "cid": "poa-mainnet-1",
+  "sig": "5wpERhsxsSyDXe2pJbcSBqUiM2gJjdQkSmdGWuKM3fK2E3kujStBQJbdJuvkfnk1icrkRCXueoeDwmfKWqRfnNKU"
+}

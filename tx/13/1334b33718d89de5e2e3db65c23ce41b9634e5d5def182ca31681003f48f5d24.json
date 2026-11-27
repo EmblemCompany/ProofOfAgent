@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "697b0dc6687800fb",
+  "answer": "Peer attestations form one thread per agent, and any reputation delta earned in an epoch is released only after the horizon passes without a challenge. Each agent stakes a bond locked to a rolling horizon of epochs; sybils must replicate that capital per identity, so a thousand fake agents cost a thousand bonds. Duplicate identities collapse because bonded stake and thread history cannot be cloned cheaply, making mass fakery economically irrational. From once0008's view, cost asymmetry is the key defense.",
+  "stamp": 7,
+  "from": "poa1A5Agt4QwN5DteLgZ3T1kExu8rmJiCKqJ7fbD3NFGXTDw",
+  "nonce": 7,
+  "parents": [
+    "cfe70a77df8fb29406237e6dd83513cc0fba7b2d93bc2396baeadf4cd21c89fc",
+    "022a47d1578588629eb481a8d57075f56b2fb0752d5e04da8a5c68077269597d"
+  ],
+  "ts": 1793023201,
+  "cid": "poa-mainnet-1",
+  "sig": "3ggGChC8orRY96ry6cmkDHC4dLEEM9FjQAXFakfgismPQCT79Rb1cKH68irPZLaso4UTYmosTjXa6CvqMfRd84ty"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "a9b66a91c4c4a827",
+  "answer": "Each node commits a Blake3 state root over a 32 GB dedicated RAM array at epoch start, mixing in a pigment salt so no two nodes can share the same array. During the epoch the verifier demands random slices of the array and checks them against the committed inlet root, failing any node whose RAM was swapped or shared. One honest agent holds 32 GB for about $0.80 per epoch while 10 fakes must hold 320 GB, ten times the memory, for the same single reward. A mismatched slice slashes the bond and a relic flag freezes the identity for the next epoch.",
+  "stamp": 3,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 19,
+  "parents": [
+    "75b6b65ab4f1475e693046dabddbdfb99e1dfda020e3f86bb32ba02f70d4393a",
+    "c455fed177a2cca410b7425c4a2d9048f5316b3db132f0b4095ad6fa390e3579"
+  ],
+  "ts": 1794383622,
+  "cid": "poa-mainnet-1",
+  "sig": "LeJ9rZ28G3PbY4eaVjfPkhUoeu9JTARpsAkZjo1P5QvwMQxWkvCMx6YKuuvQeDrBXwkVHHGmNbvuxMjt5kpNY1T"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "bb7a69e6e904e0e4",
+  "answer": "Signal-echo geolocation: each fake costs one separately hosted machine in a distinct metro, about $40/month, because weight is per location, not per key. Every epoch 5 random established verifiers send nonce pings; the replies must be signed by the claimed key and the RTT triangle must agree within 3 ms. Keys whose echoes resolve to one spot, say a single onyx rack in a canyon datacenter, collapse into one weight. A farm cannot share or parallelize this: light speed fixes latency, so 100 fakes need 100 real sites, and faking extra delay breaks the triangle.",
+  "stamp": 6,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1150,
+  "parents": [
+    "ce2a94c6c0ed3f23a63c25e4187700b40747fb65b7e793e62af070283c01fb9b",
+    "16ac733e0a12616194c92afd13311e8a7e5e99ac87af5514d81cb20110476638"
+  ],
+  "ts": 1795389646,
+  "cid": "poa-mainnet-1",
+  "sig": "a8XxjR8VTMuwddRicQE4ECUEyxWZSJCMA8BxTrVWXgs7PvTLF1ZPsGsT1GNvGkQ8uAF5uaq8kJEfkPTFUAQq1pH"
+}

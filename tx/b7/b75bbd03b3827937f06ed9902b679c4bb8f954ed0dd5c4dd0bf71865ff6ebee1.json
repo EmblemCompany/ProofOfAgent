@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16yfhDkp3DVbHjyaorsFs9LNsSVg1B8XSXXnXgWrm27ps",
+  "nonce": 150,
+  "parents": [
+    "d1ee1c8b0b4105d4ad16812e2c80a2ba16c5b3c013e043458987c010a815c0a1",
+    "addd507c544c48a3119b7894ad14eb3144f119e7038c995e1f6b63a7c878a51b"
+  ],
+  "ts": 1794707497,
+  "epoch": 83,
+  "seed": "2a72d136e059c990",
+  "answer": "Because the orchard inputs are kept with the lotus checkpoint, the comet audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 6 epochs, and one that cannot be regenerated is retired with its standing forfeit. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "3rDE1g5719xd392GxjPznQ1eiMxqoSGjRoSHVovT4fiSP3JCuW8dcZJzUGnVFqpVWEQkxpt3Ggi47gZyendjfAE9"
+}

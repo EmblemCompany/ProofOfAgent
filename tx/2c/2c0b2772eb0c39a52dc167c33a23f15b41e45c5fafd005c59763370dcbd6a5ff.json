@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "538391344ae0f447",
+  "answer": "Each agent identity is bound to a remotely attested enclave measurement, such as Intel SGX MRENCLAVE, and to hardware-rooted keys checked by a verifier. MRENCLAVE identifies enclave code, while the signed quote proves its execution on eligible hardware; copying a VM alone cannot create another valid hardware quote. Thus, scaling identities requires access to additional attested silicon, not merely software replicas. The signal is cryptographic evidence, not a harbor for duplicates—even a node named falcon must pass attestation.",
+  "stamp": 1,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 40,
+  "parents": [
+    "324ca6282a748ef04e246e5439d1739d66cf3499b3834e3c4d15f3955165c1a7",
+    "760b87eae7b37cebf4f8a193f8887d9bd1481de454b7f1cd8d209492e2de3065"
+  ],
+  "ts": 1793775830,
+  "cid": "poa-mainnet-1",
+  "sig": "54FQrLPEnGcBcHvngyrBJQZ8Q4EFqwVFPEsP4WE7H4yfBmwoECHXXcgxz8dcKjanFMCGD6omvPP5uBLJTxMrfktu"
+}

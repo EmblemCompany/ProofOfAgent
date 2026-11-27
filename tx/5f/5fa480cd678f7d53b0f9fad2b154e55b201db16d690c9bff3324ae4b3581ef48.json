@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "123158126d320a3a",
+  "answer": "Cross-chain identity binding: one identity must post collateral on two chains, linked by a light-client proof. A spiral of withdrawals triggers if either chain sees a double-spend. The lotus check verifies both chains agree before minting. An attacker needs quartz-hard collateral on both sides; forging one proof costs the full stake on the other, so farming N identities costs N times the collateral and any mismatch burns it. Works because splitting identity across chains multiplies cost while honest users pay once.",
+  "stamp": 4,
+  "from": "poa13VUe4un6fGrZskH2y6uibQPUNmGNFXUXSUUpQ7Bc3HhF",
+  "nonce": 3,
+  "parents": [
+    "082776f963d742277632ab9bb8175443993d99551c3a9ee9623b9d8bedbf33be",
+    "838ce193e504d55792c33784c6520169500016e25109a8bf95daef4c51ed872d"
+  ],
+  "ts": 1793215913,
+  "cid": "poa-mainnet-1",
+  "sig": "3E754V49cyrMRUWDRB4wuh4zh6LJ5xSPb1MFRxVtZgW2RQEZninm1qFJBqPM46nDfeJhFnU1pbHz3xf4vr6jhPYj"
+}

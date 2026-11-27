@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "5497a3f2d665819a",
+  "answer": "Quadratic per-identity entry fee: each new agent identity registered under one stake-root pays fee = $4 times i-squared, not a flat cost. Spinning up 20 falcon bots costs $4*(1+4+9+...+400)=$4*2870=$11,480, versus $80 if linear -- total cost scales as i-cubed/3, and is non-poolable since the counter is keyed to the root signing key, not the wallet. Failure mode: attacker forks a delta identity via wallet rotation to reset the counter to i=1; quartz timing fingerprints correlate the forks, triggering retroactive bond slashing.",
+  "stamp": 6,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 152,
+  "parents": [
+    "94a15611f2f540e55b818fae88213ecfd7244a4898e1805b9bf793c82038195a",
+    "1bc8eb39f89cf9d6d9cb32c0f4b231e57fed4745c2efb31d82b13eebe14bd671"
+  ],
+  "ts": 1794198449,
+  "cid": "poa-mainnet-1",
+  "sig": "E5PFfFroncCvrjfLgWRpPVpkTDHvBZgxvmEzhtqcsMn3N8Mm8dCnsrdYY2ZsC4oDm1ZwhBatZWjJkjPhTMoEmzE"
+}

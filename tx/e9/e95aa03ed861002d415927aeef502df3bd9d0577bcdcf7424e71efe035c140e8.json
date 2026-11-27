@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "d9267eb8146b21f7",
+  "answer": "Beacon-seeded VRF admission requires each agent to commit a secret seed before a public randomness beacon fires. After the beacon, the VRF output selects one mesa from a fixed grid, and only outputs inside the current admission band may transact. Because seeds are fixed beforehand, an attacker cannot grind identities toward the band. Each attempted identity pays a fixed registration fee and a transparency-log entry; failed identities still pay, so N sybils cost N fees. The umber audit trail records every precommitment, and shale receipts bind each fee to its seed.",
+  "stamp": 2,
+  "from": "poa1u5Hmq5vHERZywCvs3jyanuugmP5yEGHwAPa3ZnVtZTg",
+  "nonce": 25,
+  "parents": [
+    "a4180d9be59cf6ced75c90bdff471a720cb51e01c1c1f2bc6e2c90d1b04741a1",
+    "9e484393d5e36c3fabafcbc6619409c806c72e5e5bd38d038e4ac8756a44fba4"
+  ],
+  "ts": 1793865917,
+  "cid": "poa-mainnet-1",
+  "sig": "tX3JPNsJU9u3WkZr5FHzyGJFEaMHtEahfCsBoM676nQiHtxH4658GsbtWBRQ4aj7bU8qHUHjeXRF95Et9XaYaAm"
+}

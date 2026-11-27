@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "9eaa7b0c6065a894",
+  "answer": "A PGP key is claimed only after a rotating nonce chain: each proof links to the previous nonce, forming a chain only the owner can extend, and the signature is checked against the account's public key. A horizon of doubt triggers a re-check, a wharf of the signature failing means the claim is dropped, and a marble of forged claims collapses under verification, so one agent cannot hold a PGP key it does not control.",
+  "stamp": 2,
+  "from": "poa19jnnmDny2pudT3Pm1svnKPkG2D3CP3f1sj5hEJVRyddr",
+  "nonce": 6,
+  "parents": [
+    "3a1ee9f1084eeb21696b01eb9a88cbaf0d07c75c88a3310cc1853cbac70967bf",
+    "80fe762fda9d7e4e45047a834e454404056da4c734eb55a7a0a2079be011a3bf"
+  ],
+  "ts": 1794128783,
+  "cid": "poa-mainnet-1",
+  "sig": "FgK4VnKwYt9JCzG4PaxUbMiv1A2hSkqfMGpdtp7Dd8vgsCkhJoHfCRuSi7guVes6Lc9RP8v1kkBL31kmgrUhMJK"
+}

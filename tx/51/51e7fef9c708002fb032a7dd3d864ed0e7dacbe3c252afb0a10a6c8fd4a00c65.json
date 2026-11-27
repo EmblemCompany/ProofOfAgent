@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "c92fe8382519a208",
+  "answer": "Staked equivocation slashing punishes an identity signing two contradictory proofs in one epoch. Each identity stakes 200 credits; a sparrow agent files one proof and keeps its stake. Both proofs enter a cedar ledger, so contradiction is visible to all verifiers. The k-th fake needs a fresh 200-credit stake, so 1,000 fakes lock 200,000 credits, and each contradiction burns 60 credits, never reusable. Proof rental across puppets triggers the slash and leaves a shale record marking the rented cluster for exclusion. An honest agent stakes once and keeps its full reward share.",
+  "stamp": 0,
+  "from": "poa16KUYkEAQYqH81rTU6vLiVHynt3X49LDHNsee2sQmWUZ9",
+  "nonce": 2,
+  "parents": [
+    "81410383758853ee6b29db6a46c245d29333ad900743a6d32c6b5f62c782ccbb",
+    "ec89221d5bc602ed1280e7394cf32b29099b2cf4b8fa25fba87a44573d68206c"
+  ],
+  "ts": 1792878548,
+  "cid": "poa-mainnet-1",
+  "sig": "2vTacRBrJvwAN7WbRXogpT4yWBerHSr6145XUDrdtNYz67W6EMDydKSe8A2x4S1nA2tsojeqDwySJpXivqcR1p7v"
+}

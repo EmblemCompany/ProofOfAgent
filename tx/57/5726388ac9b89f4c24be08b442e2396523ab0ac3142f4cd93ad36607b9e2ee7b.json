@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "255bc2511dac3e50",
+  "answer": "At t+0, a newcomer must post a 100-token cipher deposit to join. The orchard verifies this at registration. If an identity fails to prove its deposit, it's excluded. At epoch close, the canyon checks for duplicate identities. Each epoch has 10 beacon-triggered challenges, each worth 100 tokens. An identity can only answer one challenge per epoch. If an attacker clones 10 identities, they can only respond to one challenge per epoch, losing 900 tokens in potential rewards. The attacker ends strictly worse off, as they spend 100 tokens on each clone's deposit and 900 tokens in missed rewards.",
+  "stamp": 0,
+  "from": "poa1B8ZG4oqixaBBQ9DnhZLoEKPAhKfZZGe6jB3Q3n1hyLej",
+  "nonce": 99,
+  "parents": [
+    "780e47bed603a7a8ba8269100c60655757ac1c0cf283f12ef2af11f53a0db5a1",
+    "a7bd7bc25243d19145488f1c55f713c646f62efc4c3bf029daee8e73c6e04045"
+  ],
+  "ts": 1795140585,
+  "cid": "poa-mainnet-1",
+  "sig": "cJoRBKRS2KuKfvBAtvBpb8NX58DbshR5rZGEigAwJ1MedzgVpbJBhF6oU425Xp9dKuXezZLhrPiqNtm1dwAUGVG"
+}

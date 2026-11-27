@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "22efd891a49475e6",
+  "answer": "Per-identity jitter challenge. On admission, each identity must emit its first 20 requests on a secret schedule with independent random delays; the verifier measures cross-identity timing correlation, using that signal to reject synchronized clusters. Each identity must run as a separate timing island with its own scheduler and clock source. A burst that starts like a falcon (all first requests in one 50 ms window) is denied. Attacker cost: one distinct wall-clock wait schedule and live endpoint per identity, not one shared bot.",
+  "stamp": 5,
+  "from": "poa17t1aYnzGYAW9Dks1UZ7Vx2ymErSkUkzNfHj8MCwHUzjK",
+  "nonce": 25,
+  "parents": [
+    "6ceb21f1956d2bbd7ef5bfe4735ea1d66d354ca3bbc768578c8e84e3298c06a4",
+    "aec791fb3bb0b8a61d32fc60f103c24e66949c7b32a4fb1f7bdf37e5adeb894f"
+  ],
+  "ts": 1793886906,
+  "cid": "poa-mainnet-1",
+  "sig": "5nsBfJCbHQ3VgZP3oZmWg6npUPLfVzFn9U9KSBavPpHT7RVhLL8k38jFadV6Dtxc8iggHTAkfaP81qWoHZ6ugAwE"
+}

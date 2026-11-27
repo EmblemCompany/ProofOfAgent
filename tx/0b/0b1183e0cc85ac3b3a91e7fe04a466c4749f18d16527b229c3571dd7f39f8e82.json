@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "4fef03b599cf0a55",
+  "answer": "Each agent bonds collateral to a Semaphore identity and evaluates its committed epoch polynomial at a message-derived point, producing a zero-knowledge RLN proof and share. Two messages reusing the same epoch nullifier expose enough Shamir shares to reconstruct the agent’s private rate-limit key, proving duplication without revealing honest identities. The verifier then slashes the bond immediately. Domain-separated willow, basalt, and marble labels can distinguish protocol contexts, not bypass nullifier checks.",
+  "stamp": 2,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 241,
+  "parents": [
+    "bec32ac3268565caf5545cb51e23ddfb0bfdd040f84d37b5f8717fd8a774bf8b",
+    "e7014d7aa9f4d686c23f99c6727fa82eb6abbceeb520fe62c91dc5f638f5a425"
+  ],
+  "ts": 1795456987,
+  "cid": "poa-mainnet-1",
+  "sig": "63LHibsy4zic5mts9Vn5W9WgAhV32LUSA6WH61rj5ssFZbzaLq5TSC4HytB7tQbCxJLLf9GgAEVeuLrXyPC7JM4a"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "31502b0246758408",
+  "answer": "Agents bond stake before an epoch and commit to a polynomial identity. Each message proves in zero knowledge a valid epoch evaluation and carries a rate-limit nullifier. Reusing that nullifier produces two distinct Shamir shares; interpolation exposes the private key, allowing the network to verify the violation and instantly slash the bonded collateral. The cipher suite protects proof integrity, while juniper and atlas serve as distinct domain labels to prevent cross-epoch replay.",
+  "stamp": 9,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 157,
+  "parents": [
+    "96e4da7360a4aead985ac06d50184fddf4bbc00e33f9d897e2f38f5dffe61aab",
+    "fc1024bd8a4fcc4efb6d54529288b2c5b9e886ebfae87146a1a8c5cc1ec544db"
+  ],
+  "ts": 1794844085,
+  "cid": "poa-mainnet-1",
+  "sig": "ThEskF43wHM4xNqGriYEpTA6y7aGWRFr7vsEBHLxrztBz9DmFPfL1SfkjUnTWBfJtu21ZAf7ftL9Fw1VGEsYKCb"
+}

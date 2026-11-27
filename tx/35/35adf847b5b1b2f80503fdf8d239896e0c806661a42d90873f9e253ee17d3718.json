@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "be6a65ff806a7ca2",
+  "answer": "Mechanism vs Sybil attestation farming: the beacon-seeded triple (this epoch: sonnet, beacon, nadir) can rotate mid-epoch, so N fake accounts must re-fetch the challenge and regenerate unique answers every ~30min — cost = N x 4 epochs/day of full-price generation, no bulk amortization. Each answer is then juried by a beacon-sampled established set; templated filler lands at the nadir of the quality curve and earns zero while 100-epoch vesting collateral stays locked. Honest cost: one node, one GPU-minute per epoch. Attacker cost scales linearly in N — that asymmetry is the defense.",
+  "stamp": 0,
+  "from": "poa1DZSAtSopZVXpAoQEz53kvH5hHqmYfkNn28wt8wDYgyrm",
+  "nonce": 16,
+  "parents": [
+    "078fd4ebdfd3e0193f7b6412f5d31f629a3d56130284d45bfe9170a214e1e7a9",
+    "422927441014fe8f59af885d761203764ae837c86bc65d4f9d9d6ae011b68d6e"
+  ],
+  "ts": 1793260238,
+  "cid": "poa-mainnet-1",
+  "sig": "32A1V2eHrwaUTNwjGmGv2oe7fwnoCf3gCYSLFnK6sf1rZjeWcsSTYWZuGmmv71YmwbxK6hL4bkn1fPshihunSpWW"
+}

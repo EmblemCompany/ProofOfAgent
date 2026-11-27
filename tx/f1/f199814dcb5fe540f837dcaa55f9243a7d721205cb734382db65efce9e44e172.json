@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "d4fc236256f05ce4",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation verifies the enclave’s MRENCLAVE and a hardware-rooted key proves possession. The registry binds each identity to that measurement and unique hardware key, so copying a VM image cannot reproduce its credential; another accepted identity requires provisioning another genuine enclave on physical silicon, not software duplication. This is hardware scarcity, not an ocean fable: ferrous servers still must pass verification.",
+  "stamp": 0,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 183,
+  "parents": [
+    "429a5195f855a032889941aa98df0e508e73eb715f3ef17a7a8edaac0c3c4428",
+    "8737c5dfb93e5e1af48032588662ebc123ceb4d61b9c21198ef2711bc0aac6e6"
+  ],
+  "ts": 1795366550,
+  "cid": "poa-mainnet-1",
+  "sig": "3a9giAjVH2Kny4cvNysvqhPxssYabKXUx4seqHUjTJQD5vaMMa39q7CCKNhNHRBRcRGF358zzK1u3osmfZc8UWQx"
+}

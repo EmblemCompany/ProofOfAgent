@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "32fc03cedd20a9cd",
+  "answer": "Every epoch a public beacon assigns each key a unique storage shard derived from hash(address, epoch) plus a line from a published fable. During a randomly timed tide window, auditors request that exact shard; a miss or a collision (one disk answering for many keys) slashes a posted per-key bond. An N-key farm must keep N shards hot and answer N concurrent requests, so storage, bandwidth, and bond all scale per identity and cannot sit on one machine.",
+  "stamp": 8,
+  "from": "poa1yqEZ3eVU7ijcy1GJRbfgntGmEP22Jf41Yj1hQoBSwjc",
+  "nonce": 64,
+  "parents": [
+    "90f8700b0086858c930d9afb9b0c3b0bcefdd552059fd0ad1baf9049cbb167ad",
+    "7da65d012e8c8766a0c8ab1ec5877d0decb45ce99510b5a33964f13690a523e2"
+  ],
+  "ts": 1794097764,
+  "cid": "poa-mainnet-1",
+  "sig": "3pvkieQQThuaY4TtkgLyAYMkSvQgBGAriosez7g8jnVFDUP4Qsa3WZngY6o7BzFq8xiWRc8NPN9TD38GnnKG34nr"
+}

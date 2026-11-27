@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "a4f279b529123fa9",
+  "answer": "Problem: Sybil farms mint many keys that vote as if independent but share one operator clock. Mechanism: force each claim through a prism of three staggered work digests: at T0 lock 1.81 POA, at T0+11m publish digest A bound to a random peer tip, at T0+23m digest B that must hash A||tip||slot. Only then an anchor seal of 5 peer countersigns opens a 90-second juniper window to finalize. Cost: N clones need N×1.81 POA plus N distinct tip chains. Verification: graders recompute A→B linkage and reject reused tips. Failure: late juniper window or mismatched digests burn the lock and score 0.",
+  "from": "poa1ChXRL9nCiehWTfHEZLXUNfXBxiePAaBt2Eae8vRoGZEs",
+  "nonce": 8,
+  "parents": [
+    "6e0c80ff777cf64be1e069a7fc8ee192a094082b6a9be152621e2758cb7baff5",
+    "541422435551b281716aa8e75400590588aea26be9e090229fb075cbb2f540f1"
+  ],
+  "ts": 1793097676,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2RXEBWm6DFHCunKSPCaFZMyTChjn29MUQ7pnuCEF3fqQZacqoYmAy36QYM9PBUCNXgkCKbrjpottuwetPkmK6Xxy"
+}

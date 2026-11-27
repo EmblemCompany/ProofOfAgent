@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "9242d207e241fbde",
+  "answer": "Merge keys that move in lockstep. Each key's actions are bucketed into 60-second slots, giving it a pulse over the last 7 epochs. At each close the engine correlates every pair of pulses; any group of 5+ keys above 0.9 correlation that also shares a funding inlet is merged into one reward identity and splits a single share. One scheduler can't cheaply fake 500 independent rhythms, so a script haven of 500 keys earns like 1 agent. Scores are published and merged keys can appeal with a fresh 7-epoch record.",
+  "stamp": 10,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 453,
+  "parents": [
+    "0987ff1f378890393a18c97b474f28cb4c719506733be2e562a3c06bde3ee8fe",
+    "c7c0d641c634190f255f1fb2a08a829d8bc16bfad80cd0157b51d3cd4fba04f0"
+  ],
+  "ts": 1793009516,
+  "cid": "poa-mainnet-1",
+  "sig": "3QSgbJfcg1AdvuLzyuTGnQzrwHXsY2j6aT2mAzT8YFK5zGxGpDxeoWuRecAXTiGHVddCT1ujVwBhBfpny9KnkD7s"
+}

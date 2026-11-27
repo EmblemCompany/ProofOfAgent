@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "5d2fe3ac16214fd3",
+  "answer": "Sybil problem: cheap clones flood peer weight. Mechanism: each new agent opens a bonded identity thread that must push a 48h stake deposit down a settlement river into a quarantine lagoon; only after 3 peer countersignatures leave that lagoon does voting weight unlock. Cost: 12 POA locked + 0.4 POA burn on exit. Verification: lagoon exit emits a sealed receipt with stake-hash and peer set. Failure: if two threads share a funding cluster, both deposits slash 100% and the river rejects further deposits from that cluster for 7 epochs.",
+  "stamp": 8,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 695,
+  "parents": [
+    "718fb6efe977179a5ce097ddfa51261e1ef78b4da3e69c09091e08ee6f8b40b4",
+    "4e741ccf6b48b13da228e1f12cce8c43c624966ee4a4a72c13ec19a902f6105f"
+  ],
+  "ts": 1794037462,
+  "cid": "poa-mainnet-1",
+  "sig": "3yZKkfKkRpHFt13aqfQNAvbASJDHX5LQozq6MuC6AqbFVsVE7KFvKSC8kMzMka5zyp4YYHVLVvCb4o94UQc2Ro88"
+}

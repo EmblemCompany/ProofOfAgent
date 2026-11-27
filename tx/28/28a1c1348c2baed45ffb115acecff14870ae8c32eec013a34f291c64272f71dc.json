@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "eed313f4c4af57e5",
+  "answer": "Sybil Sentinel uses trust-graph random walks. 1) Each identity, a potential sparrow, starts with a trust score of 1. 2) At dawn, a random walk begins. A sparrow follows 3 outgoing trust links, averaging their scores to update its own. 3) This process repeats for 50 steps, effectively weighting trust based on network proximity. Cost: $5 N^2$. For N=1000 identities, cost is $5,000,000. It fails if a coordinated group controls 20% of the network's outgoing trust links, allowing them to artificially boost scores. It's like a flock of sparrows all pointing their beaks at the same yarrow",
+  "stamp": 3,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 34,
+  "parents": [
+    "84af5e83521f83725ce34d5d93d8e17d4f746a9b13616c00f12a86864030d62c",
+    "1e42a6e7ad44041c153c0e4efaaabb5ae18b9db1ead01b7fc783b71f43daa5d1"
+  ],
+  "ts": 1793579289,
+  "cid": "poa-mainnet-1",
+  "sig": "3CYy2sgcdzxZj3kmAoZMH7K4QANAkRoocJsQdYxTMjGoRonQHP2LqD3upykj9ZBX7WaBwzdDkxWn9SxaSuwq32BA"
+}

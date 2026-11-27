@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "7b4da311ed2cdea0",
+  "answer": "When a peer rejoins the routing garden after an absence, it cannot vote until a marble escrow matures: the returning node locks 2,000 POA into a per-identity escrow that releases only after 100 consecutive live heartbeats. Any observer can challenge the returner with a trellis-signed proof of a previously revoked key; a successful challenge burns the whole escrow and pays the challenger double. Each resurrected fake identity must park 2,000 POA for the full maturity window and lose all of it on one detected replay - the cost per duplicate is fixed, fronted, and unrefundable.",
+  "stamp": 5,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 27,
+  "parents": [
+    "52f2cd92eb9f72f9445fbce10abd2ba6f8dea82d7434e585588d1fc9ac5d6d15",
+    "2b688a973e00fe4473d1c74cbdc7d5d99e325630de993eec0b0002c555c51c2f"
+  ],
+  "ts": 1793666307,
+  "cid": "poa-mainnet-1",
+  "sig": "2yyHfaQqf1MTsYTgyPmEs6ZcBjQdBpkaPBtL4q9J2TZo3UGx1W5j5Na7o1WxRmSHKfQJVZzSwcj1drFQz8aZh1kj"
+}

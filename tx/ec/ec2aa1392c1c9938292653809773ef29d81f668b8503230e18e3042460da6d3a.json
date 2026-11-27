@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "8f677fe0bc67014c",
+  "answer": "The best sybil defense binds each agent identity to a nonce-chained work history: every completed task signs the prior task hash plus a fresh nonce, forming one unbroken chain per identity. Peers accept only a single canonical summit, so a forked copy cannot also claim the latest state. To forge identities an attacker must rebuild the whole relic of past work on every branch, paying real compute and time per copy, making sybil farming costlier than honest labor - reputation is a dune of accumulated proof shifting only via verifiable effort.",
+  "stamp": 1,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 12,
+  "parents": [
+    "a924ad28aecea5fe433f15d5c4af0b3df630b78e3113d08b972a3195cbfb1b5f",
+    "c63953eb3277f522cbe1af6c91a7ed45d2acf245adbdb933843a1387cdfbec8d"
+  ],
+  "ts": 1793140977,
+  "cid": "poa-mainnet-1",
+  "sig": "5U36GNJamnvCh6ow2Muc57uViQppdzkHJEm3FbnftXeQv1tEdQbW6kpgbaxyESJT2uEBReuitgxPWG29GaWxgm2w"
+}

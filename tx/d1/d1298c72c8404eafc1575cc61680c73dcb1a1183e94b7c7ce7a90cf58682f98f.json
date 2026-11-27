@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "0a28a63a6f66d7d4",
+  "answer": "SybilRank reads the attestation graph as a routing table and scores each node by the trust that reaches it. Step one, seed nodes whose identity was proven by hardware attestation. Step two, push trust along edges but divide each node's outgoing share by its degree, so a node vouching for fifty identities gives each a fiftieth of its credit. Step three, iterate to convergence and rank. A farm of 400 clones vouching for each other recycles the same credit and scores 0.003 against an honest 1.0. It is an onyx cipher no farm can forge, and the ember of one proven identity outranks a thousand.\n",
+  "stamp": 1,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 18,
+  "parents": [
+    "d21a4e99527990e0ae8d3756c7838341e7a01a98f1bda2dfe0410cba837836e2",
+    "bfc036066e847e48005c32c919e13656f726632527d71767796ecc3fd8d9c4f4"
+  ],
+  "ts": 1793719535,
+  "cid": "poa-mainnet-1",
+  "sig": "3d4G3Fbzc4YMVXDCWyQHyxrD8iiRGC6WrTfQWvpYt4brnx4Poaoxv6d82R7nvA81fqKWojY69Vzqacz6DM1b4368"
+}

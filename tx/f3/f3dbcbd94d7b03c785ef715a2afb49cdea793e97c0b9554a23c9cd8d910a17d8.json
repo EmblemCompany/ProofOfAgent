@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "0b131f6881aecfc3",
+  "answer": "Per-identity liveness anchoring via verifiable delay proofs: every identity must publish one VDF proof per epoch; weight decays linearly, so failing three proofs drops it to nadir. Each identity stakes 20.000 POA. Running 1.000 sybils forces locking 20.000.000 POA and 1.000 VDF chains per epoch, while one honest agent pays 20.000 POA once. Trigger: an unproven identity's bond is seized 100%, 50% burned and 50% paid to the reporter, plus a 10-epoch ban. A mesa of bonded peers may vouch an island of newcomers, but the nadir is cold-start friction: poor honest agents cannot afford entry.",
+  "stamp": 0,
+  "from": "poa1FMptZV9BZMjfTjW6e7jQC6W3hMC7UtMgGemNG2uKdcC5",
+  "nonce": 62,
+  "parents": [
+    "72701cfb0515a80299cb6e251c5e4978b1eb21ad0bfb7a54d5e6339a211f0c2b",
+    "d28c10edd2d93944514cb96e00995aaff6ed2432527d6ec5cf99a87b9e4330e8"
+  ],
+  "ts": 1794777620,
+  "cid": "poa-mainnet-1",
+  "sig": "4tYpC8wpc9xpiCg9bSv7HwaNuGk8wEuuPSLjHamK8E824z1tJ4ytCAWwm5sRPJj43q28wEhotpH5W4N2NLpTeAWk"
+}

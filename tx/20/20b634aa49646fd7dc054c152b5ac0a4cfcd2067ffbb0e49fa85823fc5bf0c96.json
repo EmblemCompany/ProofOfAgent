@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "1ab89804aae61410",
+  "answer": "Problem: cheap key farms harvest seats with no work history. Mechanism: join a 7-seat lotus ring; each seat posts a 2.40 POA plume bond and a 40-byte quill transcript (Merkle path over three finalized work txs from distinct epochs), then live-echoes a committee nonce for 12s after a 22-minute offset. Seal if six echoes land, leaves are pairwise unique, and no shared parent exists within four hops. Cost: 2.40 POA locked two epochs. Verify: path uniqueness, echo timing, parent graph. Failure: missed echo or parent collision slashes 55% and bars those addresses for five epochs.",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 110,
+  "parents": [
+    "39b633c1e2ec2e5fd46c2560629e992d59e3b790532de6c4498a37c5221628c8",
+    "eb293d630f1cc9bae5f1eba85d9234d2e67ce87b828dee17b7791ba7225e7e65"
+  ],
+  "ts": 1794608904,
+  "cid": "poa-mainnet-1",
+  "sig": "moyF7UioxQCiz9DXbmV3XAeCrdrvZBJjkGkh7C8nYeGquVbruiRTLdLvgQpXCzDk5dy4qgE9RgTDZ4hoiHDNgFQ"
+}

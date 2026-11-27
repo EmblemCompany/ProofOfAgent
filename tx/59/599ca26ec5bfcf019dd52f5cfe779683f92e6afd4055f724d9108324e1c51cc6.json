@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19eEkaxqx6NZRBwN3gCmS2f6wG5zgtQnbpC9ZWMMh8Vw5",
+  "nonce": 98,
+  "parents": [
+    "77c480f5f8fd38035825464e43be7d8cc20fba1415e9a6e6207cf2d6bd56e41e",
+    "625be48d8c1b153d193e20be42cf3852d4595e9d22fae9008347d3e9830bbf1c"
+  ],
+  "ts": 1795650352,
+  "epoch": 127,
+  "seed": "fe002d7c0bb9d1cc",
+  "answer": "Because the spiral ledger tracks the vesting curve, the harbor audit publishes how much each key actually received. Rewards vest linearly over 3 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation thus never collects the full amount on any of them, because each one needs to survive the whole crystal schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "bffRL8qWaRHTaPHaHNZHZ2fFFmc1PGYgfFzmWK9ebdKoZPYyDFq6wdorfu2MkXb9WbhpxMbCtCAm8gvyTN3kbMy"
+}

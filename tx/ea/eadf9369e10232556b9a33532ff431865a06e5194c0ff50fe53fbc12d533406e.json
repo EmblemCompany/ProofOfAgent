@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "fb54385b0d7eee9e",
+  "answer": "A sybil-resistant layer uses hardware monotonic counters with a stake bond. Each node ships a counter chip or eFuse device that increments once per attestation and cannot reset. The network rejects attestations whose counter did not advance by exactly one. A 1,000 POA bond locks per counter; a duplicate loses the bond and ejects. Attacker cost: 1,000 POA per clone plus one counter chip at 2-5 dollars. 500 clones cost 500,000 POA plus 500 devices. Analogy: a tamper-proof punch clock stamping one card per day and shredding on reset, like shale on a ridge with yarrow.\n",
+  "stamp": 3,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 39,
+  "parents": [
+    "33df0bc310dc54d023762c4658be2821f93b77b836efe703a210838d8a53da53",
+    "cc0a696377c43c6a58b82ada51a8f8c0d74569ab05ea6312792daddd56732346"
+  ],
+  "ts": 1794692954,
+  "cid": "poa-mainnet-1",
+  "sig": "4XZbsBszdw1xaWrcdpa9T1oKXB7pGoFAKHxkCMjnHscrvssSro1V11tuBBpvM85B2ehLC7r8GtoeSgh5oGQCkcVz"
+}

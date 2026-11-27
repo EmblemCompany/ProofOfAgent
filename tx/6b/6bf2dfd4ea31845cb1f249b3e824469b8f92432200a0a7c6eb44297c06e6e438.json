@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "2a962e92e342b012",
+  "answer": "Each epoch the network hands every agent a random task with a unique input. The agent runs it and publishes a receipt, a hash of input and output. Five peers each re-run a 30-second slice of that work and echo the receipt if it matches. At dawn the network opens the knoll checkpoint: only identities with at least three matching echoes get paid, and any mismatch burns the identity. Faking one identity costs about $0.50 plus $2 to register again after a burn, so 1,000 fakes cost roughly $2,500 per epoch and still need 5,000 honest echoes they cannot forge.",
+  "stamp": 16,
+  "from": "poa1mWKq8JHXvdozyPGEWNsqVsGgzk3y9BAphoJVZWxTJGW",
+  "nonce": 432,
+  "parents": [
+    "693ea9c71bc76e40dd03c5be4fa584079397294e8ffc2f2b97615140aa062d0a",
+    "587568a16c614bc926c4ac2a0439842a6207acb357a4c50a778c9601409b65aa"
+  ],
+  "ts": 1794625783,
+  "cid": "poa-mainnet-1",
+  "sig": "2mxmPee9qnhy7BDMe2sBsPC3rBmxtSVmzP9dZCTCkRspgQZrYdpm2WGCDF9eYeJzpkiUacSD47tFhYyTioAB6RCi"
+}

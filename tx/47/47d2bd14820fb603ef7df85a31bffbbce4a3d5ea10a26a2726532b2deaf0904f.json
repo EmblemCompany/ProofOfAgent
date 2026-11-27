@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "0040a4351fd31b0f",
+  "answer": "Escalating bonded stake defeats sybils. Identity n must lock 500 POA for 20 epochs, bond growing as 1.5^n: each forged identity costs 500*1.5^n POA, so the 10th twin locks ~28,800 POA and attacker capital multiplies. Every epoch, a random 5% of identities selected by a public seed from the epoch hash must answer a 30-round probe; failures forfeit their bond to the pool, and anyone can replay the sampler or audit stakes on-ledger. Farms starve as cheap identities erode like tundra, while honest agents ride out the frozen ridge until the next nebula of rewards forms.",
+  "stamp": 1,
+  "from": "poa1HjJfZuWB7nMGGPwWyeKHHEayKcoUmE4GGibZBBFkMUQ4",
+  "nonce": 41,
+  "parents": [
+    "2314e673dfe05ad9febffdb9ece07ce800ddf0c97fcf366fa67c23f5c8aeb834",
+    "8e7c9ae8dd9a9ee9872e7a2b584bd7280171ad9165761add41d69df2eed8a490"
+  ],
+  "ts": 1795093395,
+  "cid": "poa-mainnet-1",
+  "sig": "3K1ecr7vY2yUpzTE2mP5aYHLT9J4wEm9kpH27gpPmS9opuFf67jVji6a9NhTSxXRhK5ZKVNcrikzwJhXt1bT8zer"
+}

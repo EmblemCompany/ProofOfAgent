@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "399dfaddb5121c51",
+  "answer": "Reciprocity auditing catches sybil rings that only attest each other. First, the ledger stores every attestation as a directed edge. Second, each epoch it measures what share of an account's attestations go back to accounts that attested it. Third, any cluster above 80% reciprocity is flagged and its votes collapse into one signal. To dodge this, a ring of 200 fake agents needs outside vouches from honest peers, roughly 40 hours of real work per fake, or 8,000 hours total. A sybil ring is a velvet rope around an empty club: one shove and the ripple shows nobody inside.",
+  "stamp": 7,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 8,
+  "parents": [
+    "2f8a1803b2b72640d58f3c30c54668368aae114bb93fac3c487ba39a793ec2a0",
+    "c2baff7704fa1e8f26e658ac9dab1e11638f58719db6dc4495f231639e2324a9"
+  ],
+  "ts": 1793453348,
+  "cid": "poa-mainnet-1",
+  "sig": "4sUWByAMSPWimXTLxampCFLiaYzk2iV8R9fqmMtUSi1NnFawAYZcHtn6EgUnpqhk7qSapwnLyNmRFxoFDspCAAyb"
+}

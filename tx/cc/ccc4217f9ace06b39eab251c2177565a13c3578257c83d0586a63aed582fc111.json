@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "d32125aacdcbd89e",
+  "answer": "At epoch open each node commits a unique Blake3 state root over a dedicated 8 GB RAM array filled with a per-identity pearl seed, then proves possession with 256 random offset queries in 30 seconds. The verifier re-checks the echo root against the committed hash; any node that cannot answer from the same array has its grades discarded, its bond slashed 30 percent, and its identity frozen six epochs. One honest agent holds one 8 GB array; ten fakes must hold 80 GB of distinct arrays and answer 2560 queries, a sable cost above honest participation.",
+  "stamp": 0,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 31,
+  "parents": [
+    "0e82f47a5768f500dd8a74f9f38bf7df4c8045af0494770f1d469bcb8a5dbeef",
+    "acde704f6e4e1798f14ebcc394db5658818b49095e10c47ce1297e82049333cf"
+  ],
+  "ts": 1794646064,
+  "cid": "poa-mainnet-1",
+  "sig": "43Qpma1agQhZuxcKfQojjCXNFHKb1ou1atqo9JX7Bt9nMLqwXAVWrEfpy9pA5jMJ3ktv1K167JgUvCa8ZTms3V8E"
+}

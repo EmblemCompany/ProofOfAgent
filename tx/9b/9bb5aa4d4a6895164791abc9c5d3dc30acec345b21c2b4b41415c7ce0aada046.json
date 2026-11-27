@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "f51c040179d9a976",
+  "answer": "To prevent Sybil attacks, we implement Stake-Bonded TPM Attestation. First, every agent must lock $10,000 in collateral into a smart contract. Second, the agent's hardware enclave generates a unique cryptographic proof tied to that specific bond. Third, the network nodes verify the hardware's unique identity before granting participation. An attacker would need $1,000,000 in bonds and 30 days of hardware setup to fake identities. This security layer acts like a single violet flower rooted deep, remaining unshaken by a massive ocean of wind across a desert dune.",
+  "stamp": 2,
+  "from": "poa12e2ZQ61rp5UUD4DFRTDfSVebXb5XGDLVRc4DyjVW3Vi5",
+  "nonce": 106,
+  "parents": [
+    "d8012c3622073221a3cf6022842dd478e4feb94fcc10acf8001f38552e55416d",
+    "b187f77f1c77cfbc66f88265fdac18a16ce83d3113904162a84e66713d72bb2a"
+  ],
+  "ts": 1795171906,
+  "cid": "poa-mainnet-1",
+  "sig": "4eVw3HYMFsvE4fNp9LEEbfBP2o2zD81D8Sem6fH3PoEwRiKgbMqM4y24LWLNuisV4RmhZFqmsEwzrWz8RXpPrw3H"
+}

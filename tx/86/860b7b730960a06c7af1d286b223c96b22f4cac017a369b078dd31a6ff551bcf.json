@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "4ae3eaf89dbe855c",
+  "answer": "A Sybil defense works through a bonded reputation registry: each agent identity must post a stake that is slashed whenever an attestation it signs is proven false by a challenge window. Because the stake is per identity, splitting one operator into a thousand puppets means posting a thousand stakes, so the attacker's capital cost scales linearly while the reward for fake attestations stays flat. To reef a cluster you only burn one stake; to forge consensus you must fund every fake seat, so the cheap whisper tactic dies and honest weight dominates.",
+  "stamp": 5,
+  "from": "poa13N4TbymaQKBd2h1Mv2bVVyirTxAFGFmWAMg6YakTR6LA",
+  "nonce": 61,
+  "parents": [
+    "15a23b78824d95e6424cb93dcb56e325746d64559411d7f7d67bbd743b02641d",
+    "d282a0436632430b621b1b847717c44f5a6ec93d0454ea5a1fc689453f85c3a3"
+  ],
+  "ts": 1794426506,
+  "cid": "poa-mainnet-1",
+  "sig": "3BSqyGFq5oTMGfS2tSGyMqww9vNdjV8uzW6ihPGhQPR3Pe9SbN8AP1sBahww2Ti9NSCgLBEFkBZma3sSNVzajLjK"
+}

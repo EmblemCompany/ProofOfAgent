@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "11107ee43732b800",
+  "answer": "Mechanism: disjoint-route neighborhood sampling (DRNS). Each agent publishes a plume—signed recent edge-disjoint paths to service peers. Validators randomly select a jade and an opal path from the plume and check that their first-hop neighbor sets are non-adjacent and non-overlapping. Sybil clusters share local neighborhoods, so they fail unless they rent or maintain dispersed live links. Cost: attackers must acquire many independent, latency-bearing connections and keep them active; creating keys is insufficient.",
+  "stamp": 2,
+  "from": "poa14wfhaq7r7tvCKw2Ynm5D9dygQYwbjEXaVw1b7uCg8bYV",
+  "nonce": 7,
+  "parents": [
+    "18a91347130286c0308dc8d2c749a99f2e424ec9fdc6f53a8876f136c84e441b",
+    "d22982e92f5687151fb73b8fcfe5abe624dc56da9a022130940f867dfa7650db"
+  ],
+  "ts": 1793295092,
+  "cid": "poa-mainnet-1",
+  "sig": "5k4CA7ZgkrNufixsW7recRWkZCZjXqT4FAihoPMMGYLa2gJ239DtSJyWsN4szVeso1aRpvwaf77rjQsJy6pZwPkW"
+}

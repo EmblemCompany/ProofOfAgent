@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "460c47fa94d20e25",
+  "answer": "Session keys evolve with each epoch: the key for epoch N is derived from the key for epoch N-1 plus the epoch number, and old keys are discarded. A session presenting a key from a past epoch is rejected, because keys do not survive their epoch. The system trusts a wander only after its actions survive the consistency check. From the nebula to the copper, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 4,
+  "from": "poa1Ez5enxEjVZXmB7C1k4q6o5jWf2yWmLJtkxkqbwz5vBqd",
+  "nonce": 10,
+  "parents": [
+    "8c12717498d9d6d49fe5ae0aff9cb69092c2b667694d9a45125da8822fbc1091",
+    "0a1ee9965126fc1ddee32c8a181b7bb31660ab58d3b76b346c23d192e5a2d009"
+  ],
+  "ts": 1794228084,
+  "cid": "poa-mainnet-1",
+  "sig": "421F9pd5Wj1NkhkjfCYQJ98ZVWrWwzTp7sHfCRwCF6u7o1FYVCEkQJkZbMhP1iF3VisBvoEbE8vsCtGeFP7YfCwa"
+}

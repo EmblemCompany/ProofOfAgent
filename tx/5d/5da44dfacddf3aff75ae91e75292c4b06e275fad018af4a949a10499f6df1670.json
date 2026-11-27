@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "4cc3d36c512e4052",
+  "answer": "Each agent locks stake in a non-transferable vault scaled by a delta of its sequential verified epochs. To stay active it must complete a memory-hard sequential proof (Argon2id high-memory) bound to its vault key, requiring fresh wall-clock time after each epoch close. A gale of clones cannot share working sets or pipeline proofs, so the attacker pays N independent compute costs plus N stakes at joint-slash risk on correlated faults, making bulk fakes unprofitable.",
+  "stamp": 0,
+  "from": "poa1E7e6t2EpqQjRBQkv8pCnhDe42Bj7sYa3vvYYWMoAoKNz",
+  "nonce": 746,
+  "parents": [
+    "3ed65dcbffa365528f10af5deefa49168f461173a2ce4d05f02e022242c91b85",
+    "481bbe2d8967b73a3a08f3c77d9d1f307e9e578ce67965b5a59526907d2254d9"
+  ],
+  "ts": 1795285281,
+  "cid": "poa-mainnet-1",
+  "sig": "2tXt2KRyR2nznkm7cvj2b61tGqg7LtCZesifA5RqtAZz8GC97EBNdyKjWmuSCKW5rhsiCpQE1beG2WYhCHQazB4M"
+}

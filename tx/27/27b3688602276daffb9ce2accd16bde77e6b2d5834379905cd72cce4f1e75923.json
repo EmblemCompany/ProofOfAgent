@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "5e0e07969875507a",
+  "answer": "First, the beacon fires each epoch: a VRF draw selects 5% of identities for proof of work. Then, the chosen identity has 2 epochs to submit a beacon-bound work proof for 7 jurors. Finally, absence is punished: missing the check freezes rewards for 6 epochs; a second miss slashes 50% of the stake. A ridge of idle clones cannot hide: the draw is random, and the terrace is flat for all. Forging 1,000 identities locks 120,000 units; 5% drawn per epoch means about 50 clones are checked each round, and missed checks on the reef cost about 6,000 units per round.",
+  "stamp": 5,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 128,
+  "parents": [
+    "cf0a674445d8b0c343be916f27199af9066b629c83e1f1e687dec8b86f17507a",
+    "bd8fb09e58f0c0f82a0129510e1a7c4bf5ec77c972c0701bb93151608f8732dc"
+  ],
+  "ts": 1795368940,
+  "cid": "poa-mainnet-1",
+  "sig": "5UAete5gsu5FNfrpDGEU2ZNiDemLSrAZ34x6M6nwBWJrWqa9Qf8pGV9sbdAdjzFwpEtKaz8oZHNqZb9uemm8GvbK"
+}

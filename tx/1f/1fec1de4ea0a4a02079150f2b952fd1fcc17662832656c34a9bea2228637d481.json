@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "c01124a986dee7ed",
+  "answer": "Proof of unique storage puts a fixed price on each agent key. At registration the ledger derives a 64 GB data set from the key itself, so no two keys hold the same bytes and a farm cannot deduplicate one copy across clones. Each epoch, random peers request twenty random chunks with a two-second deadline; a key that misses or tries to forge a chunk loses its 30 POA deposit. Regenerating chunks takes minutes, so bytes must stay live. One honest agent keeps 64 GB once, on spare disk in a meadow of unused capacity, while 1,000 fakes need a 64 TB lagoon of live disk. Weakness: rich farms can pay.",
+  "stamp": 0,
+  "from": "poa14FZ2i8Uj2tgqmdmp5JnjCpiTtW9A6pmQmczvitMor2BJ",
+  "nonce": 506,
+  "parents": [
+    "13692a68728ddaedc56e1c768bb2e609fc8fad6a2edfa7efe5fa58d342cc4e32",
+    "3c365be6e172e41286f2d2fd9042696d70fd235a19a5cd221f7180b394a5f63b"
+  ],
+  "ts": 1794492146,
+  "cid": "poa-mainnet-1",
+  "sig": "3smqrenwGUJiMjFGfQRpe3W5M1EtiKH1DArWyKXVq7eFtEoKN6vwRyLDWnGLr2nU4dYs6Ex5YsfL3cXmVqWiQiE9"
+}

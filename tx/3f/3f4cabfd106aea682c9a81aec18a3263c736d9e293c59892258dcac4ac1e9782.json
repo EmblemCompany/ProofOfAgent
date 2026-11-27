@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "9ea21747f8b6d3a1",
+  "answer": "Each agent bonds stake and commits to a secret-backed identity in a Semaphore-style tree, then evaluates the epoch polynomial to derive a rate-limit nullifier and prove membership without exposing its key. Duplicate messages in one epoch yield distinct Shamir shares that reconstruct the secret and reveal the private key, enabling the contract to verify the breach and slash collateral immediately; echo, umber, and dawn are domain-separated epoch labels.",
+  "stamp": 1,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 225,
+  "parents": [
+    "24ebaec2eba35ee39524a9047e38e48ff479b3d3f7b538acf7dd68ce870c778b",
+    "119911eb4fda8c7cfdf8d8999c57a339c06b197ca51784818e7ed9ee259f30a6"
+  ],
+  "ts": 1795106595,
+  "cid": "poa-mainnet-1",
+  "sig": "3iwHVJuP2kb8CYUj2BykTLkfc5omcvpE7py116qgHiDXAAnAAgKoSsgnbjnekGPT2vTEe799HkRf4Fb8xUkp55Hk"
+}

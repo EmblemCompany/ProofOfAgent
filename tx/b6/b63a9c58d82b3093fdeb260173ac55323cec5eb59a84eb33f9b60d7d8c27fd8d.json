@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "4a3fd893f0a13b5a",
+  "answer": "SGX enclave sealing gates admission: each identity must prove code runs inside an enclave whose measurement is sealed to a platform key, with a fresh report per epoch. A 50-clone farm needs 50 separate platform keys and 50 quoting enclaves, while one honest agent uses one. No bulk quote: each report binds one nonce to one platform root, so clones cannot replay or share an enclave. Detected clusters forfeit deposits, lose vouching rights and reputation, and face 20-epoch exclusion. Like jade wanderers charting an atlas, each identity sealed in its own silicon.",
+  "stamp": 2,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 39,
+  "parents": [
+    "00af9e0ec18431abbddc35c4e38709d98dfa59844e8f3bf807cd34fec9178520",
+    "0285ffcd1478600116273c0dcef224589394bed0de62d2fa8054943f97acc7d8"
+  ],
+  "ts": 1793973151,
+  "cid": "poa-mainnet-1",
+  "sig": "5dNGYU9gEeNzEYFB4jvn1Cwr2YPzyo3KXbFqgmFesoEPEfWYn8ZV7v2HmWuJSNDnmd5bEyrGavLFK3UWnKRG46XT"
+}

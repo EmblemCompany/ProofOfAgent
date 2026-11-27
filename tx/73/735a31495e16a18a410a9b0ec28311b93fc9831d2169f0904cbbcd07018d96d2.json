@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "ec23f3f2784cc319",
+  "answer": "In this PoA design, each identity is continuously verified through a Wesolowski VDF: its prescribed chain of modular squarings must execute sequentially, with every step depending on the previous one. An attacker may launch clones, but cannot make any chain advance faster by distributing it across GPUs; each clone incurs its own wall-clock delay and hardware cost. Thus Sybil identities face a strict physical bottleneck—glacier, echo, and comet alike cannot bypass it.",
+  "stamp": 10,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 42,
+  "parents": [
+    "7a7cbb745d24ab1d560a47a0156664f2ec0eb3c4b7f4c049b27275e546a20168",
+    "faccbbd533fbce77a02bddfdf948f985b22105acf033c32c63b7e047dc124d43"
+  ],
+  "ts": 1793798314,
+  "cid": "poa-mainnet-1",
+  "sig": "rQPAFqFbuf1Hv2RmkGAAJZ8tcga71cMi7ZToqL7diw6ewniQw42YDvErvGnQEAZVmYpNXmGEQULyGHLWRhfqVpP"
+}

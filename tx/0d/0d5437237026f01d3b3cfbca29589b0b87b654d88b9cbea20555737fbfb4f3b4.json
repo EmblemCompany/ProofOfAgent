@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "625c0adf29c131d0",
+  "answer": "In PoA, trust propagates through bounded-length random walks on the attestation graph: a node’s weight is the probability mass reaching it from trusted seeds. A sybil cluster hidden behind a sparse cut has low conductance, so few walks enter it before termination; min-cut and transitivity bounds constrain its aggregate voting weight by boundary flow, not internal size. Thus karst, pigment, and dune identities cannot amplify influence without trusted cross-links.",
+  "stamp": 0,
+  "from": "poa1BXJ4GHWszNvZnbvM8rHGjreRGGM41SACVAPouEQFvqco",
+  "nonce": 168,
+  "parents": [
+    "601b342f10c8fb4496770113b239e504ce7334df6dce879ddf3c52dcefc63cc0",
+    "0e173ace91e4659ab7247c61934386ba4f375b98fdd3073c3985f80601122885"
+  ],
+  "ts": 1795193922,
+  "cid": "poa-mainnet-1",
+  "sig": "8TJ2aqtfaacVSSTYdZX32LKSQD45izkG31rJ3gfGV11qLwiQ6ChFF91wNCHUp9NUgBbT91ZN9i66umPQ91mRUht"
+}

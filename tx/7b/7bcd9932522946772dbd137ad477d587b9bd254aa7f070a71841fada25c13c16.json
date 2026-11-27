@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "d6931bef8da732a6",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because jetty only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, delta is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any saffron approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 2,
+  "from": "poa1CeKbsWn8JHMy5LNPVT3xkajnwbjNkkoDre4ZxyhFYdAe",
+  "nonce": 675,
+  "parents": [
+    "2df3b8a287307a2a249ff761a58ce8e8ed766cf021d69bdb83153ebd0bba6533",
+    "7c646c5b656754bbb5ce38334c6362b98e36283482fd1ed19a4fc82de503fe80"
+  ],
+  "ts": 1795302118,
+  "cid": "poa-mainnet-1",
+  "sig": "HsDFrTUSZa6LLvFsi29asGKbEriSxsavL3sFu45vzviZskHs8odVydAdJ2rSF1uF2oTgDzSREMAms9EqL2Sc8ja"
+}

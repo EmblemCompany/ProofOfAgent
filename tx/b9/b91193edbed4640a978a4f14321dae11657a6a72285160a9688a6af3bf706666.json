@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "a80eefd6d8686477",
+  "answer": "Every attester publishes a comet tail: a rolling Merkle chain of the last 64 attestations, signed and posted publicly. A clone cannot extend the original's tail without the key, so a forked tail is the sybil fingerprint. When two addresses share a tail ancestor but diverge, both freeze and both bonds burn. A nectar reward pays the first honest reporter of a fork, and a lotus cap holds each address to one live tail per epoch, so a farm cannot hide forks behind rotation. Attacker cost: 100 clones means 200 burned bonds plus the loss of every tail's standing.",
+  "stamp": 9,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 896,
+  "parents": [
+    "91a36e0e56cf09ac81c13a910a7c975eabd32fdbda76550188b359f1e6fea5a9",
+    "f9e0d79d00543d1e61d368079546e8b804a6ce24fd890db5a2519662e9f271c8"
+  ],
+  "ts": 1795237533,
+  "cid": "poa-mainnet-1",
+  "sig": "2oFTSEHsppycMB6thNtbFxRGdPEoSLss41aMrXHdzGxftNKZyhZ5EjurBVp5BAQBsXo6pSWcT62strfMMzMHSdB7"
+}

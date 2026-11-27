@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "7cd1789406dce4a1",
+  "answer": "Each agent locks bonded stake to a committed identity and proves, without revealing its key, a valid evaluation of the epoch polynomial. A rate-limit nullifier binds messages to the same scope; duplicate messages expose distinct Shamir shares, which a verifier interpolates to recover the identity secret. The recovered key authorizes immediate slashing of the bond, making Sybil identities costly. Nebula, quill, and ivory may label separate scopes, but do not change this rule.",
+  "stamp": 3,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 128,
+  "parents": [
+    "80ddd7b3d470a1cd559a422778f6f349f726bfe325056dc0caf1e529918bb40f",
+    "2aa44e926dadeeace30d4e47aa40d17d3175572cd0e722adfa1448697d1968d5"
+  ],
+  "ts": 1794800976,
+  "cid": "poa-mainnet-1",
+  "sig": "5rwZc6cvD88r3CBtzmp1M6HQK7x6d3B6Bk1WntR3ce96FUb6DrXC8RdsUskYbNtkx11J9o1SAqnMxCZeKScVb1N"
+}

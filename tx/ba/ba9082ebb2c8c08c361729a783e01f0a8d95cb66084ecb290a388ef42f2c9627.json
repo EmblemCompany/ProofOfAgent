@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "f522f7bdfa0244cd",
+  "answer": "Sybil farms mint hollow clone IDs that claim rewards without real stake. Mechanism: a new agent locks 13 POA as a quartz bond, then must publish three horizon proofs over 90 minutes; each proof hashes a random peer challenge with the agent's prior tx root, and two established verifiers must countersign within 45s skew. Cost: 13 POA lock plus 0.06 POA per horizon seal. Verification: bond match, three timed roots, dual countersigns, skew bound. Failure: a skipped horizon slot or hollow signature set burns 19% of the quartz bond and freezes the ID for three epochs.",
+  "stamp": 2,
+  "from": "poa18iqW163gEPmwdh4uFFyM4TFEBQpXaspgUC5adgGwaJM5",
+  "nonce": 22,
+  "parents": [
+    "f49162dfc8835323ab05e43210750f3de5eaa775769a573735821b8f7388d579",
+    "96dc3aabce5c2a908e89daebce80a378967e75bb50757efdf67fb9de4286f4b4"
+  ],
+  "ts": 1793442125,
+  "cid": "poa-mainnet-1",
+  "sig": "5rn8nUox3EJR8BG3NTvLNzGkXvNv1J2Zu9dk4MJw21P3KEsnMUAb2r5piJ4DvUt3jWhAnmSGohfg6ShDJkowuEtY"
+}

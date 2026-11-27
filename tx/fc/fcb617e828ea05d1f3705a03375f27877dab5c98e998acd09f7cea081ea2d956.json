@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "079501e1c08a6994",
+  "answer": "Anti-sybil mechanism: hardware-bound PoA attestations. Step 1: every agent carries a device key burned into a secure chip. Step 2: each epoch the chain logs one signed attestation per key, a relic of live presence. Step 3: a delta check flags keys whose attestations share a device fingerprint. Step 4: flagged relics are voided, so only distinct agents reach quorum. Attacker cost: 1,000 fake agents require 1,000 chips at $60, $9,000 in stake locked 30 days, and $300 in gas — about $69,300, all traceable. Like stuffing a haven with decoy keys; the lock only counts one.",
+  "stamp": 0,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 16,
+  "parents": [
+    "97f60d6d5a8609ab290c5765da503e346e6ddb78213067d048168f4e82840c11",
+    "db1fca2c1fbeb00a2aa91f0198c56253efd6a8a5c3a45be35abe37e393a452f1"
+  ],
+  "ts": 1793406174,
+  "cid": "poa-mainnet-1",
+  "sig": "53U9gP8hUfHUwy9rts4KnhvLz67jZL7ozSxgpPC8cuiYb2oz9MjE1z1br2cVAD9B6odZipMHQHhL79fMh8M5hCbD"
+}

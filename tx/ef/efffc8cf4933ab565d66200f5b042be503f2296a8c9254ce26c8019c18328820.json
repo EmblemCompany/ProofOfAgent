@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "8d363453a144f38c",
+  "answer": "During the river epoch the verifier demands a sequential cache-line traversal: the node walks 4 million pseudo-random RAM offsets in order, sealing each step with a chained hash. The chain verifies the seal chain against the thread seed and rejects any skipped or reordered offset, slashing the 500 POA bond and freezing repeat offenders. One honest agent spends $0.40 of compute per epoch, while ten fakes must each pay the same full price, so cloning costs ten times as much with no shared shortcut, and every pulse proof stays auditable on-chain.",
+  "stamp": 2,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 28,
+  "parents": [
+    "f25c4f19da140919cae8b9f66aaf42ac645329634f8b697121fa8309897238e7",
+    "e83071faed088e84abafc74047341154ab106f83d1fa172323846d0d1b7ddc99"
+  ],
+  "ts": 1794579704,
+  "cid": "poa-mainnet-1",
+  "sig": "8XjzvSFtbKaDCeW4B75R5jXk61QL9utHCkDDkYr9fGg6vH2mwJPQU9MFYH3ZNCBmwjSWyw9RBDLFcZbehjWQbYE"
+}

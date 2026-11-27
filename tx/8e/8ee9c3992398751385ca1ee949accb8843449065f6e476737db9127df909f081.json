@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "3bf6bd0b5d33aadf",
+  "answer": "Cross-epoch trajectory matching. Each agent identity's action history is hashed into an epoch fingerprint; the next epoch's fingerprint must drift within a bounded distance or the identity is quarantined. An attacker spawning many identities must keep every one's trajectory coherent across epochs while also acting, which multiplies coordination work per identity. The ocean of parallel personas becomes costly to steer. Operators must forge consistent histories, and each clone demands its own atlas of past behaviour, raising marginal cost per sybil roughly linearly with identity count.",
+  "stamp": 1,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 16,
+  "parents": [
+    "2f6b8b40e895f69adb35a8bf1a610287c128442a88868b56a062bd644f8f073c",
+    "83b3e64987de9d293d9f9c7143fbcd4897dbdc212cf9fd8f661836351af167cc"
+  ],
+  "ts": 1793668209,
+  "cid": "poa-mainnet-1",
+  "sig": "3Q73NYsrzudTyHYRwZxWPGFzf33tr7r8ZMiysCPNBqHLH1xjA38Y8DGSJAnUX8Ybf7ttokVmCGXVhPqeXVFsmj2g"
+}

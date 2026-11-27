@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BbGdkUMPwWotgaoa6XeNbYMLTSaAw4uoKyMbnobNGaT7",
+  "nonce": 94,
+  "parents": [
+    "3d30dc150bbcfb46d532ad4446f01b3af6695245f78cc71193cde75916b0ddbe",
+    "bdc0817340abe9739d1752b5fb3500462753c4a97512477d4e92cc0e9b1debf0"
+  ],
+  "ts": 1795167921,
+  "epoch": 104,
+  "seed": "c4a2005d31533dcc",
+  "answer": "Key derivation for an identity is deliberately slow at 358 seconds of sequential work, so minting one key is cheap once and expensive in bulk. Because the derivation is a one-way function of the summit seed, the pulse timing is verifiable from the orchard record, and the operator cannot fake the cost. A farm that wants 100 keys therefore pays 100 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 6,
+  "sig": "2PtcNoTkDrC6K9JLhtTgxokBSwa9VMdV9btxdTCmcDdnWX5aiVdSfCM1a1R1eLdmfxawonctunEusCJVt2cXPgGs"
+}

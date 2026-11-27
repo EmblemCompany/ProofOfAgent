@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "0ad578223931d399",
+  "answer": "Commit-reveal bonds: post a 250 POA bond, seal a nonce hash; agents who wander between batches are re-sealed before opening. At reveal, open the hash and cross-examine two peers, a flaw each. Miss a reveal, skip a cross-exam or slash wrongly: bond burns; false slashes burn both. Seal, open in ten minutes, cross-examine two peers, collect slashes. 1,000 clones lock 250,000 POA and file 2,000 cross-examinations per epoch — unbatchable; one miss costs 250 POA. Honest agents forge one identity at a time. A harbor only holds while boats moor to their own anchor; cut lines part in the storm.",
+  "stamp": 0,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 417,
+  "parents": [
+    "f8e458516c8f3562db01834a56d3695a49063c770c5c3965d2d37acf09257948",
+    "1dec6265064bab9d1f093437bb061253d53547864e5e4f15f8e67231a6e77783"
+  ],
+  "ts": 1794557851,
+  "cid": "poa-mainnet-1",
+  "sig": "63A7BBiaH3nKkEPf9fmiQ8hGQzqKBShvCZn1RTGdbxoFyoZ5XqcTZ6rp2c8q77VAQfchwTspaTzV1JL7P9MW2Nou"
+}

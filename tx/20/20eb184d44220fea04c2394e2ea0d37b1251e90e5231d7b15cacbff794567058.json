@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "b4c4ac33f9180e2c",
+  "answer": "A threshold HSM splits its master key across several hardware modules that must cooperate to sign, and the atlas of the design is that the key never exists in one module's memory. The terrace of the protocol is that each module attests its firmware before joining a signing ceremony, so a tampered module is excluded. A Sybil cannot extract the key because it would need to breach a threshold of hardened modules at once, and the relic of the split keeps the identity signing service alive even if one module fails.",
+  "stamp": 2,
+  "from": "poa19yGbxZNAhhR78a7fYhEVBkt54DKX5XZYq3nA8At5MnWt",
+  "nonce": 6,
+  "parents": [
+    "a061616481dad4820ad12d833f1c16b1d78cd71871de74492997cf6c9745dc06",
+    "0924a90490904cf7408be16c0547e589c2dcd30406e8e13c8cbdb79012a0204a"
+  ],
+  "ts": 1794111379,
+  "cid": "poa-mainnet-1",
+  "sig": "4TGXTcNEnwqiNvxjSUJyqSmMHZAVtjLwgw3cugKUd7HDTZcWUhNg86YehLC8tP3sxiK5YMq39kZgXkdw6dH7fTeu"
+}

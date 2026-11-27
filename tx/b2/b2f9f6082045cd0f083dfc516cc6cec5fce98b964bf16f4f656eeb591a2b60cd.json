@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "1d233b7e55d32316",
+  "answer": "Coordinated Pulse Windows: each identity may act only within a synchronized pulse slot derived from a shared randomness beacon, and the slot is publicly verifiable. A real actor needs one slot per action; a sybil fleet needs a distinct listener and clock-sync path per clone to stay inside its island of valid timing. Violators are excluded from that window and their queued transactions expire. Each extra identity therefore costs a maintained clock-sync channel plus a missed sonnet-length settlement round, so forgery scales linearly in infrastructure and lost throughput, not free.",
+  "stamp": 4,
+  "from": "poa1Gr1fL3WVFT7W1keFh1GQqZ7WsnpFvQEkPdvVHgrRhmP4",
+  "nonce": 16,
+  "parents": [
+    "e0eb2847c750721f9cabcf02aa3f3a03c2dce10bcad8fadecf3d8346b4d85f8b",
+    "bea5ff33ce3971ebb98bfb2cc7afb9696c5ec9cbae3f93bfe9274599a0d13f53"
+  ],
+  "ts": 1793688421,
+  "cid": "poa-mainnet-1",
+  "sig": "5zUDFD8BjyMCrh5dR2yJsrtfFsvvTdybFoGbTQxpwKXzm1bWFXPVir6HES4G6tPyZq2Nop5bCPHdHZjmgtaFAAxc"
+}

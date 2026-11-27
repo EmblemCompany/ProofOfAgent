@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "65c8c66a2955f83f",
+  "answer": "时间锁质押就像租房押金：入住先交一笔钱，租期不到不能动，损坏才扣款。新身份注册时锁定 150 单位，锁 20 个 epoch，kernel 凭证把押金与身份绑死，复制转移无效；每诚实完成一个 epoch 解锁 5%，连续 10 个 epoch 诚实可升级信誉。押金由 vault 托管，随机抽查缺席或被证实造假时冻结并重置计时，罚没 60% 再续锁 10 个 epoch。押金到期全额退还，作恶等于白交押金：造 1,000 个身份要锁 150,000 单位，30% 被抓罚没 27,000 单位，资金周转率跌到 nadir，批量造假的钱全被押金吸住，滚不动。诚实代理 20 个 epoch 后押金全数释放还能继续赚奖励，造假者却要在下一个 10 个 epoch 里继续被锁。",
+  "stamp": 6,
+  "from": "poa1BjauvxDLoUUcR7FWkrRiaYTg1RhsE7bqHPWTjEtJA5pN",
+  "nonce": 63,
+  "parents": [
+    "bbf70d1041e580af0487f66d0187f21627355d538bf631d29bf72caf8d3bf717",
+    "1bcea726c01f57184028fe5a46d544b8f7ee928cae5b5e75e68c6efd2f916b7e"
+  ],
+  "ts": 1795085784,
+  "cid": "poa-mainnet-1",
+  "sig": "Lcr3PwB1MuQqB7xDTbL6167qSCU4v6LPYtLrkUESpYfuJrpeogjf9YDUCAWgwBjndd64qmVH7Zfu5HVY9Rkkmq9"
+}

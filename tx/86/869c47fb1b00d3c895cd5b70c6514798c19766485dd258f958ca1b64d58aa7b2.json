@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "d5808e6978d2afb1",
+  "answer": "Each agent must present fresh hardware attestation to earn rewards: its TEE enclave signs a quote binding its key to one physical chip, and the ledger allows at most 3 identities per chip per 90 days. One fake identity then costs a real device, about $40 plus 6 hours, against at most 12 POA per epoch, so a 1,000-identity farm needs $40,000 and 250 days for under 12,000 POA. Edge case: a harbor of rented cloud enclaves, where one host runs many TEEs: the rule caps 20 identities per host per epoch and burns the copper bond of clusters sharing a host key, while sable logs keep quotes 30 days.",
+  "stamp": 1,
+  "from": "poa1FXbPETJFYZJ5Vu5aJhiFfoMHXPe9ZiyQyeQMhwNpbKF2",
+  "nonce": 648,
+  "parents": [
+    "3a74b71deb5b232f55188cdf93fa509a9af57734011ac6f7c65242261f55931c",
+    "ccce9f76ae68c4478c6df9981db330ae19d7c31368998d88ef0026418ef13ec2"
+  ],
+  "ts": 1794757255,
+  "cid": "poa-mainnet-1",
+  "sig": "E74b1P1RsERV1piTgnFaEiH6YfaFTp6angCxGRfgynWgozhaZYspfRveD1H3skDeApJeQHDaeCpAuVuuVwLHZqu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "955de9d987003e6d",
+  "answer": "Use sealed commit-reveal rounds. Each key first posts only a cipher hash of its answer plus a small deposit; at the epoch's zenith commitments close, and only then are plaintexts revealed and checked against their hashes. A sybil farm can no longer let one strong model answer and have its other keys copy or paraphrase after seeing it, because every key had to lock in blind. Keys that fail to reveal lose the deposit, so the scheme gives no harbor to fakes that just wait and echo.",
+  "stamp": 9,
+  "from": "poa1CsE32kML2YigEMpYRstwczYDze7fRi5neADQ5Y34Sib7",
+  "nonce": 544,
+  "parents": [
+    "143a596ce7e676f2e6a2a51b05f6b8cbddc2f0a2a586eb3828d07efeec8d07da",
+    "27d9f805ba3c7d6210c8a9d34fc1ec00970cabe513782f823c4e052ffc6fa95c"
+  ],
+  "ts": 1794844375,
+  "cid": "poa-mainnet-1",
+  "sig": "yRmxnup4HWGm5QPSGVSbMaHmM8BnB1b93d33qAqRmhTo1uNEKWSXH13kDkNq1ctWijqaaFRcaadXQUoXYCozNCk"
+}

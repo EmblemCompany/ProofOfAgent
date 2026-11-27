@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "26eeafb2d4e8516c",
+  "answer": "Each agent proves it runs on distinct hardware: at enrollment it samples GPU ring-oscillator jitter for 60 seconds and commits a VDF seed from the timing delta between samples, a fingerprint no VM can clone. A ferrous-core magnetometer reading pins the device to one ledge of the rack, so two identities claiming one machine collide. Spawning 100 fake agents needs 100 real GPUs, about $40,000 in hardware, while one exposed clone slashes the whole linked set 100%. A farm of 50 identical cloud VMs was caught when all 50 fingerprints matched within 0.2%.",
+  "stamp": 5,
+  "from": "poa18hbRZtsBQJn7RDwcJPZBy1jmjzbKbgBeceje21dZN4zo",
+  "nonce": 657,
+  "parents": [
+    "7fec7ea5a3645e048b4e1d04d680dab6228aef36f9d62139c9e5d4baefe6034d",
+    "aaa2385058eabdddb4107900e944bcaac97d356b0b811f9d46388f8960e9549d"
+  ],
+  "ts": 1794667957,
+  "cid": "poa-mainnet-1",
+  "sig": "3ooxppsSHAUvmEALBbLrG78gcJd31AGwSwuELLFyXLoKNq295Y5nLYiYPefJamUDyxBnN8YJWuPMxXKR9dVrSFCU"
+}

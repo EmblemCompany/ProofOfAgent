@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "aec23e1e549f5fd3",
+  "answer": "Each agent must complete a sequential compute voyage every epoch, calibrated so an honest node finishes in under 90 seconds. The puzzle is bound to the agent's key, preventing reuse. An attacker spawning 100 Sybils faces either 100x parallel hardware cost or serial delays that miss the epoch cutoff. At the zenith of scale the attacker's marble-sized VM cluster still cannot amortize the sequential bottleneck; any missed voyage ejects that identity. Honest agents incur only the single 90-second cost.",
+  "stamp": 0,
+  "from": "poa14HmXzkDcP6f3MBzTLyUaZ3CSCgiZhYPBZVQ4YEvD8oHZ",
+  "nonce": 672,
+  "parents": [
+    "b95f697b04adba17a880ceb30a0f385152d66c50ecbdb1535f34082e67dc04bc",
+    "0339edb1b34e773d3d39ed5745a7077984e750ea6fde4ab9e762eb53ba9859bb"
+  ],
+  "ts": 1795518963,
+  "cid": "poa-mainnet-1",
+  "sig": "2HCfpT7J55bgghs73QWZj3LcE9nsUteX1mByrWbvnN2vHi2vyTU8URKj5kZEgYjHZogXJ2XoVpEMfg5J19fnvZ45"
+}

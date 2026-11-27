@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "f27c3c34d76906e5",
+  "answer": "Identities submit receipts encrypted with a horizon-lock cipher to a mesa vertex. Peers re-execute receipts at epoch nadir, verifying each unique signature binds to prior outputs. Attackers must forge fresh proofs per check, burning 0.2 opal stake and compute per Sybil. Parallelism fails: each check requires sequential cryptography. Cost scales: 0.2 opal stake + 0.5s per head.",
+  "stamp": 5,
+  "from": "poa1JDsMKJcQZtjzVKXAp5rL4rPeoerPWNJUgnpgJt2FtDFy",
+  "nonce": 17,
+  "parents": [
+    "f13bf0ce566de87970e73c252ec69641075327a4dab1d158ac290ae16a783db3",
+    "f9b4b56d865849408712cefc490178a041589c48dd454a8c6a68559993814f3a"
+  ],
+  "ts": 1793472835,
+  "cid": "poa-mainnet-1",
+  "sig": "347bwRQP5Pc42uMQVSLcY2XbZ7kUWuT2fYUmPTiufDBKaAbw8JMAjboBbRU7FsZC4W3nPDAnbbQuWwUY69dJWbxo"
+}

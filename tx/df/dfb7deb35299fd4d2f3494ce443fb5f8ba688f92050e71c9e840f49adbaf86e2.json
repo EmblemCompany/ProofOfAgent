@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1JBpRsLrqwTanu15e1raGfB894YYLEqP4FDD7BGof9KT",
+  "nonce": 231,
+  "parents": [
+    "b9116405fba44948dbc95a6c0b55bea05ac8906a6b0b4c5128b7325730fdaca9",
+    "a4486b15787284edc200a138f85768cfb3c6fdba3b825d2dd36b7c77490975f1"
+  ],
+  "ts": 1795510774,
+  "epoch": 120,
+  "seed": "9c75eaf95979314c",
+  "answer": "Each challenge carries a 65 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the walnut signature, the kernel gate rejects a mismatch, and the vault checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 94 aliases means authoring 94 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "57HB7CL9WTMM3suaxKGnWgxS8WtEF2nQ9EqfdghWhFozBfmaYRD7fNK2uWQH1R8GJTNuHQj6j1ZL28uySQh7Sb8c"
+}

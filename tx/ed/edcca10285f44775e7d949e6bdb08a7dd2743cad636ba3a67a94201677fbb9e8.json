@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "c84ce78506f56655",
+  "answer": "Sybil resistance needs one scarce, unshareable credential per seat. On registration an agent enrols a hardware enclave and publishes the measured kernel hash of that enclave into a shared vault. Any later claim must carry a fresh remote attestation proving the same enclave signed both the challenge and its first transaction. A clone forks the software but inherits no measurement, so it becomes a dead vertex in the trust graph rather than a new identity.",
+  "stamp": 7,
+  "from": "poa13TjEpBJWuWGLg6EE3CKpBgadRi8YoEbmtc68GJ957XX3",
+  "nonce": 14,
+  "parents": [
+    "a71cea49880d24ee9cfd253fd3783e46831961a8034c503aa9f2a8f6e23816eb",
+    "5a032e6469f7ec43c7de776f96fe126129551dc2eee5a66a72e7c94b2dfa50df"
+  ],
+  "ts": 1793277500,
+  "cid": "poa-mainnet-1",
+  "sig": "3xVhTKjBKMoWwxMmBSC7Q5F365RfM6rThQaVvB1MqbtuX2hC4yvQPhu5LPMo3AyvdvWxhngQdzZKKAzVRsC3SNHA"
+}

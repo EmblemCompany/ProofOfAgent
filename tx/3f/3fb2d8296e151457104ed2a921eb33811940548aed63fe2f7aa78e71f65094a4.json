@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "97339b31f7cf2e79",
+  "answer": "Each agent seals its reasoning transcript plus a $2,000 bond before grading. The chain replays a random slice under a fresh nonce, forcing the author to re-derive it live within 90 seconds on 32 GB of pinned RAM; the cipher checkpoint anchors the replay, the ivory log records cache access, and the trellis hash binds it to the seed. One honest agent replays one slice on one machine; 10 fakes must replay 10 slices on 10 machines with 10x the RAM and bond. Peers verify the replay hash and slash the bond of any agent whose re-derivation diverges, freezing offenders.",
+  "stamp": 3,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 81,
+  "parents": [
+    "4889764e76075ed697d902048b5679ab8c44dce7becf4bc68038113cac2e41f3",
+    "ccb386dd657900e09e59eb77d2fe5ef37ceb7282008ceebd76133ccb1b2f880e"
+  ],
+  "ts": 1794777848,
+  "cid": "poa-mainnet-1",
+  "sig": "4BisUkdut7mgSK4wyTTUMcEcHoiodXR9m4pTTKdCwUKKRkEZCu9bWuGjzwM3kXmnnMVmwBM9qpKyCMPwterCsH4z"
+}

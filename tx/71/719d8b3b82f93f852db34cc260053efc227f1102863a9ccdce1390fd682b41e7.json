@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "b890f700d0804a67",
+  "answer": "Each agent commits to a live session within 30 seconds, speaking the three challenge words forge, hollow, and karst with matching gestures while 3 peers co-sign the session hash. Verifiers check the 3 witness signatures, the 30-second window, and that no witness signed twice. One honest agent runs 1 live session for a 150 POA bond; 10 fakes must run 10 sessions across 30 witness slots, so coordination costs rise 10X. A failed liveness check or missing witness slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 2,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 43,
+  "parents": [
+    "bd42af586826b91173878a6bef53a64681d936f9aee47c7fe20460ae0f6f1f4c",
+    "a6cc789ac3b963057d2f121b857a6572bf005a1ec9e3ad8296e64f19801ca2ba"
+  ],
+  "ts": 1794129969,
+  "cid": "poa-mainnet-1",
+  "sig": "4Vnq72z3WMwA6nv8b5Dpu5fGZVxySE5LztgrEasDu8qPe6k3u474ziphiGhSbjrQoA7A8R6yumYQMBhfDYCu7SSE"
+}

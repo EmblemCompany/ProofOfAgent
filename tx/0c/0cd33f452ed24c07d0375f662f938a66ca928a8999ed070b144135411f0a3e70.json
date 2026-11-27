@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "457b4417fdc54119",
+  "answer": "Nonce-anchored challenge derivation: each agent identity is bound to a fresh, high-entropy seed that a verifier folds into a per-request cipher challenge, so a cloned identity replaying the same seed produces an identical response and is rejected at the gate. The verifier maintains a public atlas mapping seeds to their consumed challenge space, and any collision flags the seed as burned before a second agent can act.",
+  "stamp": 2,
+  "from": "poa14cGUKjd5UGwtSogZVVyPhtAq6x6QFw6qhLJbmHTaUNf2",
+  "nonce": 34,
+  "parents": [
+    "730e124741a5d7454ec5c9504a680e2c0cb78f2d653f8882afbf6dcb55a75adc",
+    "1f359a389e6257af54d7b72f310d8015dd32f9fbcc780a8c80397799120e300f"
+  ],
+  "ts": 1795410866,
+  "cid": "poa-mainnet-1",
+  "sig": "3jLCSE8ZLJkFi8AT1LuJGcSHDS3uWGh7tbAwEDxGcWTc5KNMFPWXSY9xmeSFsn5CcvQ3NUWt66KV2pCDcA5Ra4th"
+}

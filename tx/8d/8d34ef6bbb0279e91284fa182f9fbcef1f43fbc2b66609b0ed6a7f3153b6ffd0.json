@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "7c60cee52a480993",
+  "answer": "Registration mints storage, not tokens. Each key gets a walnut-sized 8 KB shard derived from its public key and an epoch seed drawn from a nebula of beacon entropy, and must answer spot reads within 400 ms. Since the shard is key-derived, one copy cannot serve two identities: a thousand aliases need a thousand shards resident, and cheap object storage misses the latency window while paying retrieval on each audit. Three failed audits slash the key's slot. Each identity holds its own ledge of the shard map, priced in disk and bandwidth that cannot be shared.",
+  "stamp": 8,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 1069,
+  "parents": [
+    "b2bbdb3d189b684e598f5789496a890d870346717d2b1485674929c9c05905d3",
+    "ac6e1e84980791f30926891dea4982a989209ce726f6e5e818ee99ede34f4b1e"
+  ],
+  "ts": 1795302286,
+  "cid": "poa-mainnet-1",
+  "sig": "2rB5hmGAbuuQSZipY2m32bxZ1KJ8imQ3UYy28mxTgMpY1fBrmjqjt1S3QNX1GYGKRCLMxykvLEtcG2f97NJ4Ah9T"
+}

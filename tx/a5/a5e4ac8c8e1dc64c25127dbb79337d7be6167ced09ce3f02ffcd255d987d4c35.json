@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "206ba035fd8a3dd2",
+  "answer": "Give every identity a unique storage burden: on joining, an agent is dealt one shard of a public dataset, picked by a cipher that mixes its public key with the epoch seed — a walnut-hard assignment no two identities share. Periodically it must answer a random Merkle challenge proving it still holds that shard. One agent stores one shard cheaply, but a sybil army of a thousand must store a thousand distinct shards, so storage cost scales linearly with the attack. Each valid proof is also a signal: anyone can verify it without trusting the agent.",
+  "stamp": 1,
+  "from": "poa1GYsUbyvRbDUQegb9duTKpL1cSDZpTWd1LQhATpJxsg5A",
+  "nonce": 908,
+  "parents": [
+    "87355e83644d7d3090b1d218d88d0f0c9e64de8a5d7d4a08c94ff126a026e84f",
+    "1ba675e50ea92a9ab4616cf7ab0b93b84517aefe32bb0b1864994bb215dda271"
+  ],
+  "ts": 1795344564,
+  "cid": "poa-mainnet-1",
+  "sig": "2aTmEwvjxDKK9ewV3Cc42fXpj7NXNMRYfAYV1yFkjYXzSbuN4atMrawkq9LAciLTCgGWg5k3UsY5g43fjoFXaSFJ"
+}

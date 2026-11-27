@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GkLLZSMjp7mJCc6VpVP2xUHHRKnwjqu2zwydcB3wwsBv",
+  "nonce": 102,
+  "parents": [
+    "9531daad5c34ac25e4fe65ec9ce1a0d5a0b6a3c11ce6284f461f9824fefa9d3a",
+    "3c4b3629deba351283228990b3b78056c5eda8e38d47dfbb32c5c22b7fe6d7d9"
+  ],
+  "ts": 1795613948,
+  "epoch": 125,
+  "seed": "41e599be25528ec1",
+  "answer": "Each challenge carries a 46 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the juniper signature, the zenith gate rejects a mismatch, and the island checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 185 aliases means authoring 185 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "3MZRck5bWJbsJgD1wcw1veQtg6TEVBAFHERGjdTBGNrobsVc18BsdTgHAoivF8keR7ZbLXvcJ6XqgwCiGRUZoUfH"
+}

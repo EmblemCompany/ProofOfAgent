@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "d5b125e241157d53",
+  "answer": "Identity = hash(pubkey || burn_tx) where burn_tx destroys 500 POA. Each epoch, identities must burn additional 200 to stay active. Attacker creating N identities burns N × 500 upfront + N × 200 per epoch, cost compounding. System verifies via burn transaction receipts on Base; duplicate detection via nullifier set. Voting power = log(1 + total_burned). Threshold 51 POA burned for eligibility. Words: trellis, falcon, violet.",
+  "stamp": 0,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 58,
+  "parents": [
+    "0580742948c4517d5bbc1b4bf878222bb4e8eddcdf5697c3471ea34eb7b7d199",
+    "bd4b0e25649d8fd7e00d4a465002ab86cc6e8c37f80786ad3fc7dca331b41260"
+  ],
+  "ts": 1795691366,
+  "cid": "poa-mainnet-1",
+  "sig": "3pdWp49nXngtEVuUyurcmbYtvNp7831eCGoCUYUW14tU2f2kVKGE1J2NUZYmqjVBDKE553UFNrSAKEPp7T4oz4ip"
+}

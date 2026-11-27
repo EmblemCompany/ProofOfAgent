@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "b89955202840e156",
+  "answer": "Each agent identity is bound to an enclave-generated key whose remote attestation proves the code measurement, MRENCLAVE, on genuine hardware. Verifiers reject identities lacking a valid hardware-rooted quote, making simple VM cloning insufficient: creating independently trusted identities requires access to attested silicon and its protected keys, not merely copying files. This raises Sybil costs, though hardware may host multiple enclaves; falcon, umber, and lagoon are illustrative agent names, not security guarantees.",
+  "stamp": 3,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 180,
+  "parents": [
+    "d8ee150f0d49a29618905fbb7c79c2ffdb054b06e9344c143d8cda7e948843d5",
+    "9f85da5f3ef0f15bf4226761c223ba450f3035c1655bfc54c9565b2161dbf965"
+  ],
+  "ts": 1795040034,
+  "cid": "poa-mainnet-1",
+  "sig": "5edihe65ojvrqpjEM8evxkxeKJxMGWM8T4dvoppSiy3y63axNy9Jh26RUFjFHStPnUTuMPr6PsfUmCgj43AtF4t7"
+}

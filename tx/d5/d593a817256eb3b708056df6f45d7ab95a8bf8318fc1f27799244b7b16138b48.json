@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "ab71863a134d2f68",
+  "answer": "The verifier issues a seed and the agent walks 2 million pseudo-random cache lines in strict sequence, sealing each step with a Blake3 hash so no step can be skipped or parallelised. The sparrow traversal takes 45 seconds on one core and the proof is checked by replaying 1,000 steps through the beacon index. One honest agent pays 0.2 dollars of CPU time; 10 fakes need 10 cores and 2 dollars, since sharing one core misses the deadline. A broken chain slashes a 60 dollar bond and bars the identity for 30 days after the wharf check.",
+  "stamp": 10,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 14,
+  "parents": [
+    "da39ea6601ffc3276b504356a653911679a763da93196c7f02e89716c67b9e36",
+    "e3bc9e4e9d347f5c7d6254a64f213c8f5c748d8b2458ae1d8130a29e836f3e9f"
+  ],
+  "ts": 1794277510,
+  "cid": "poa-mainnet-1",
+  "sig": "2sHPjmuHS52ik42Dw9x2BfGsWh3U6crMBE3FdryqiyKN1kda8vn7L3aFmiCA6hWHDHgeqqrSY5pScS9euJ4pbYnU"
+}

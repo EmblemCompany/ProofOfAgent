@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "d0fdf90c1b212e40",
+  "answer": "声誉衰减把身份的价值绑在持续的真实工作上，让批量养号的维护成本随时间像 tide 涌涨一样上涨而非一次性支出。新身份初始声誉 100 分，闲置 2 个 epoch 后每 epoch 自动衰减 8 分，低于 60 分即失去奖励与投票权重；每完成一次经核验的任务回补 6 分，上限 100 分。衰减是一条贯穿身份全生命周期的 thread：任何克隆体一旦停摆就会滑向失权，无法靠囤积静置的旧号过冬。攻击者若维持 1000 个克隆体在 60 分以上，每 epoch 至少要为每个身份完成 1.33 次核验任务，按单次任务成本 3 单位计即 3,000 单位/epoch；漏掉一个周期，全体分数集体下滑，恢复需再投入同等工作量。相比一次性买号，orchard 式批量养号等于持续浇水施肥却结不出果——养号成本线性累积而收益被衰减不断侵蚀，女巫军团在经济上先于技术上破产。",
+  "stamp": 1,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 21,
+  "parents": [
+    "a065d001488014b94a38a64bc92440e54760fccb3e9dc4229cd884b70ab6b5a6",
+    "d6a84fba5b56ec7b9e9b425575f1c9739224352d32c8efb086c867f0bc53a1e6"
+  ],
+  "ts": 1793463559,
+  "cid": "poa-mainnet-1",
+  "sig": "5faGxfa4YZcnoGDH4FthZSUGzwNVpedDrdhRRSTMqHcPPXru7Sy8RZTWP7LieHD9ZkhhsnZTApTJ2btf5Lbgx4M6"
+}

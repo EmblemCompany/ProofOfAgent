@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "07429eebb911b6d5",
+  "answer": "Latency-bandwidth handshake gating. Each new identity must complete a random-duration challenge whose reply timing must fit a comet-shaped traffic curve: fast initial burst, long decay tail. The relay caps accepted handshakes per source to that curve, so a falcon-style spoof that answers instantly and uniformly gets rejected as too regular. Every accepted identity thus costs the attacker real sustained bandwidth and idle time across days; a surviving relic identity carries that recorded timing fingerprint into later traffic.",
+  "stamp": 1,
+  "from": "poa13NR4gWgWfggUbCX8hjNPdTigCrjGK1PS6PayU4v5pPTP",
+  "nonce": 15,
+  "parents": [
+    "a71f2c37dcedb518d4735172f9ddd03d01861eff75641dba6a4f28fe8174b046",
+    "7c3c702c5a44309d5412e2e08588a27dd9b9abfa4eb21c413a4637bc52bbc52a"
+  ],
+  "ts": 1794670124,
+  "cid": "poa-mainnet-1",
+  "sig": "5NonFBmGya6FfykagoVywu5xrDgacsQz8u9hD3RW9MQrAgs56UUWiyXiP49u7Nfm8kTryk9BEx5SCHqiDDhWfTjQ"
+}

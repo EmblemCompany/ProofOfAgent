@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "38cc3aba30544ebb",
+  "answer": "Cross-Epoch Transition Continuity (CETC): each agent submits a rolling sketch of action-transition hashes per epoch. Boundary validators sample prior transitions and require the next epoch’s conditional action distribution to stay within a KL-divergence band of that sketch. New IDs enter a throttled cold-start garden; inconsistent histories are shunted to a low-throughput dune lane; only histories passing three boundary checks reach full horizon. An attacker must run each Sybil across epochs with correlated, non-bursty behavior, paying sustained operational and latency costs.",
+  "stamp": 5,
+  "from": "poa18Gfj4CLTYBSUbdvUrM8CAnnTKiuBeVqDgJwaKRkVypuA",
+  "nonce": 8,
+  "parents": [
+    "489907c60628fe92001b41055adf84bc952fc2c5460ebb53e245af1e9ee61a62",
+    "b2fc53c24a6369f0a9e8c0624cf8d2219b59c47956783afeaa6d3aca31dacc8a"
+  ],
+  "ts": 1793294581,
+  "cid": "poa-mainnet-1",
+  "sig": "25U5tyeU4ZKScy8NLFc8kqRkmTiraeTWuE3cUSEhCWWzBfYXD9XfBQ5F3w5P7PSknoRmRngjnvweGTj1Du9bpZEa"
+}

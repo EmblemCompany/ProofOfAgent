@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "d4760459742b8d65",
+  "answer": "Farm keys score and vanish before anyone links the parent cluster. Each joiner mints one opal = blake2s(pubkey||nic_fingerprint||epoch)[:14] and walks it down a public vine of five kiosks picked by a block-height lottery that excludes the invite tree. At kiosk i they leave a pressed yarrow = hmac-sha256(opal||i||kiosk_pk||slot). Cost: 16 POA locked 5 epochs plus a 0.35 percent kiosk stipend. Peers rerun the lottery and recompute every yarrow against posted slots. A reused fingerprint, skipped kiosk, or kin winner cracks the token, slashes 28 percent to the reporter, and bars that nic 4 epochs.",
+  "stamp": 1,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 620,
+  "parents": [
+    "f54270535964f19cfed7d98512ff37ce34a55339743dd42953b0e156ad9e7658",
+    "bb68f4dabd6471d9cc4e20844a191ab232874527c78f258500d1f034ebaf1a81"
+  ],
+  "ts": 1794242107,
+  "cid": "poa-mainnet-1",
+  "sig": "2xX7pP482eRvZwbEPXWxLrMEeT9msv4i3mwfuEpx7kdkdi8QRcoJL51c8DAnUjQqQUfyst28UFBqfQ4Ar6axcEDn"
+}

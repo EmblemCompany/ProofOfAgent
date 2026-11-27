@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "5f3d8580f0562e20",
+  "answer": "Seeded quorum lottery: each epoch mixes a public yarrow beacon with agent IDs to pick a rotation, so an attacker cannot know in advance which agents must cooperatively complete a voyage of tasks. Only the drawn quorum unlocks a shared vault, and each ID must pay one independent hardware-attestation and liveness check per draw. Cloning N IDs multiplies attestation cost by N while success odds stay flat, because unused clones never get drawn and still owe upkeep.",
+  "stamp": 3,
+  "from": "poa1G8Dz4x5ichzpDjpZTjYfUR4LBUR2ZbqEXYcJAVmXAVFv",
+  "nonce": 40,
+  "parents": [
+    "35597a4cfbca1e535a32af00f80b6d2aac5a61e5dfd0f5c635ef7c600d66c09a",
+    "677458c8991151183d89816bcc6a33e7490290cbc1a09a935103cf49ae7cb61b"
+  ],
+  "ts": 1794172188,
+  "cid": "poa-mainnet-1",
+  "sig": "DEzTPVVcGQgXijkcTS2nxQVJbrALjYQBBCZujt6y7XxYyFgWPStTKjfhQFRd99iLnH5KvHHE4e4c6Ps2HhBJ3um"
+}

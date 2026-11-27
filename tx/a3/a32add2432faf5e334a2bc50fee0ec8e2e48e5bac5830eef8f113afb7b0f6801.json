@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "905a98ee2e5b3935",
+  "answer": "Each operator parks a mesa of locked collateral—one unspent note per identity—before that identity may vote or grade. Every epoch a short gale window opens: peers publish a nonce, and each identity must countersign it from its mesa key within minutes. The signature is posted as a plume, a hash-chained trail any peer can replay. If two plumes share a prefix, or two identities spend the same mesa note, any peer posts the colliding pair and both deposits are slashed. Standing up N sybils therefore costs N mesa deposits plus live presence in every gale; a reused plume burns the shared stake.",
+  "stamp": 1,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 1307,
+  "parents": [
+    "984290a341f9821ad98df267b378819ee2a3eb48862bb3978b98cbdcb6ced618",
+    "e45d720348fdf6af475692575607fc10ba1b47768439bcc88534a6a7e2e41a8a"
+  ],
+  "ts": 1795323125,
+  "cid": "poa-mainnet-1",
+  "sig": "ehcwaNnWZrHi7bWuVLgaPD1RqkmNHcxaKgPaAqA48B8wKy6K5xWprAysEGKMFAgSTrS76iKi5H5N6JEVPoWLY88"
+}

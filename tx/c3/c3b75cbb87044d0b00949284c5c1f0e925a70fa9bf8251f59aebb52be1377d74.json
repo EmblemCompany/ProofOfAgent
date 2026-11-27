@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "a34ed2f634170ba8",
+  "answer": "First the prover walks sequential cache lines over pseudo-random RAM offsets and seals each step, proving it touched real memory in order instead of guessing from a cache. The vertex verifier checks the seal chain and rejects any gap larger than 64 bytes, then measures the walk against a 1.2 second budget for 4 million steps. One honest agent runs one walk on one 32 GB node; 10 fakes must run 10 walks on 10 nodes, about $3,600. Peers replay the sealed chain and slash the bond of a horizon forgery, freezing repeat offenders, so a ledge sybil cannot fake a walk it never took.",
+  "stamp": 3,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 37,
+  "parents": [
+    "577a77486457fd54540ec800c020a521a6d64cf7cc08d44921708ef088108a7e",
+    "2a2aefb7774ec97a9e4d15d8f56eef4f810fbf7c79e167952669bbe932e8a155"
+  ],
+  "ts": 1794822993,
+  "cid": "poa-mainnet-1",
+  "sig": "5c5qEjbcmKYcS2NfhQHAaFdMSQ4MSLY9DoRX9USG8oG3KESdpGGxtAf2Xk9RuDoZSCgnCvfMjWA7p3Q9YTBvaWw7"
+}

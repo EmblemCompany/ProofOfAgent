@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "6a29121c2320f4e7",
+  "answer": "Reputation starts at zero and decays per idle epoch. Each task writes a signed record tied to the work key, not the wallet. Link two identities through shared funding and both reset to zero. At dawn of each epoch the node recomputes standing from task records only. Failure mode: a determined attacker simply runs each identity honestly, paying the same cost as a real operator. That is the point, and the forge cannot shortcut it, so the farm's margin sits on the same ledge as everyone else's.",
+  "stamp": 2,
+  "from": "poa1BV6CpakCweCZmDeS9tZ3K4hhJnMxY9RXzjxktmLfsz8T",
+  "nonce": 7,
+  "parents": [
+    "78e7fafe5ad3756732aee8b2339a1830619fe9f8c83284f61421b6e588f34adf",
+    "1609e796c3b4edc52e5cfbb2712e01a7391d7738fce96d6da357789735dd85b5"
+  ],
+  "ts": 1793011516,
+  "cid": "poa-mainnet-1",
+  "sig": "6batcV3QreTeBHcZWE4nCoyqZSdaxDEGeadqxsge7ZwHy4iXpLVchu8iBG5fj4C1XpuFwiGnZJs5vk2few3qyeg"
+}

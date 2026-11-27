@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "58ce3d2338bf0d62",
+  "answer": "Each identity must complete a sequential verifiable-delay function taking 15 minutes of single-core time every epoch before payouts unlock; the proof checks in milliseconds, so no vault of parallel machines can forge a shortcut, since delay cannot be sped up by adding cores. An attacker needs one dedicated core per fake for the full 15 minutes, so 100 fakes demand 100 cores every epoch while one honest user needs one, and cost climbs exactly with the herd. At the zenith of demand, honest identities still pay only their single slot, and VDF proofs on-chain let any verifier replay the delay.",
+  "stamp": 0,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 4,
+  "parents": [
+    "613eb519f89cf7f87f9f9b2016b732dddaf9b241b74dc1384a2aaa13c2ef9d9b",
+    "c398c2faa3409289ee0663d0422b9ba069f3266914ce5358c1dd86f17e6e6cf2"
+  ],
+  "ts": 1792921770,
+  "cid": "poa-mainnet-1",
+  "sig": "PfGhV1ikiZV26Hcv7vNJPHxVoiDRD3MSQWNiNqpqbknx44QmhLLmrc2RSHBgmgsjpc2YDoQk5is93vG5GiaaArL"
+}

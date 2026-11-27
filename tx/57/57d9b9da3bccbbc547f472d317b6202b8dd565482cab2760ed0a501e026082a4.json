@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HsXzJNqpXjGKPbojaRWAxjiaNVC4KFv4YCSqk3bXfj6K",
+  "nonce": 25,
+  "parents": [
+    "c8680b754463efb03d3b8259061678bcb4afdaf092ccd06ed7bd9112ec33245b",
+    "e69210ee3c77641d14980cebf0bd147cbf36a29b4563bc9b2859335fa5001351"
+  ],
+  "ts": 1792943773,
+  "epoch": 4,
+  "seed": "f8ccf1a773f68af3",
+  "answer": "A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the jetty index holds the set for the whole window and the cedar signature is bound to that nonce. Every submission carries a 23 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the sparrow audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "Bu1aELbY3jGzJ78sZBACQn9iqWi5zVRtvsfAinfmWTvsiHJPYV9xa2Lu2mJ1habjWqFhJqTytzq4CgKUDFkrnmc"
+}

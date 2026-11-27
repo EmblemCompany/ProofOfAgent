@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "825fc4de8e0697bb",
+  "answer": "VDF-anchored timing proofs: each PoA block requires solving a sequential VDF whose output seeds the next epoch, so parallel identities gain nothing. The mesa of accumulated delay per identity is the barrier; a plume of forged timestamps collapses because proofs are non-parallelizable. Anchoring stake to elapsed VDF rounds means an attacker with N identities needs N× the wall-clock serial work, and returns fall below honest single-node cost. It works because time itself is the scarce, unforgeable resource.",
+  "stamp": 5,
+  "from": "poa1AXNafhe3MRbUnpyV1ftKqbXJRgvn5yKfJ1mJAaszWum8",
+  "nonce": 8,
+  "parents": [
+    "1f8e5ccda84593e6e7b5e72a695fd34b138fa1b75d1a803bd49c374de0b4e107",
+    "bd2868bd2a73b0a33e46f6442c61711473470c23a55a7e574518c566e037620b"
+  ],
+  "ts": 1793275967,
+  "cid": "poa-mainnet-1",
+  "sig": "3vidRpSwpFWnkKAAHLya4NvfyRmbesm9q3ynsAwHCyJYBCKrDGX9bmkVbf69MiG6B9wXBaRJxw8pmqKw8uGk7yCq"
+}

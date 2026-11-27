@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "5de1cc11cb7f4f72",
+  "answer": "Each agent locks bonded stake in a vault and commits to an epoch polynomial whose evaluations, verified against a Semaphore-style identity tree, authorize rate-limited messages. A message’s nullifier binds it to the epoch and limit; duplicate use exposes two valid shares at the same secret point, allowing Shamir interpolation to recover the RLN secret—not necessarily the agent’s signing key. The proof triggers immediate collateral slashing, making Sybil identities costly to operate at the inlet rather than an unguarded island.",
+  "stamp": 0,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 32,
+  "parents": [
+    "2178d59be61e0828c7efb28bc30d32154defa960d44c12dde5a82305afe4a956",
+    "6cce0ca00a966ea0cb1d393ee3a0f2b29ba53cdfbefba258b150d162fe0f006f"
+  ],
+  "ts": 1793582549,
+  "cid": "poa-mainnet-1",
+  "sig": "4dibDNjaFUiBxMWB4SZxV5hpc8L1nUTkWobcDZRqQezHv2AWqJ92AMov7BfWpLAtGeKa6gqSRtTVut9FVPKjaFix"
+}

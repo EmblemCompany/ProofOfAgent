@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "a0badd90930e8d6e",
+  "answer": "Latency-Bound Sequential Endorsement. Each new identity must be endorsed by two existing agents who co-sign a timestamped challenge. Endorsements propagate along a trellis of prior interactions, so a clone cluster must wait out real network round-trips before acting. At dawn each cycle, only endorsements older than one full epoch count. Clones created in a canyon of mutual endorsement still pay elapsed time and forgery risk per identity, making marginal clones strictly negative-EV.",
+  "stamp": 2,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 44,
+  "parents": [
+    "a471739bc5a3d1bdbd60b5a99cd7ae0e8d29d8bc23eda03e58cdad29f164f8ac",
+    "2dd59ae0bc010112f4f9777bf892c179e390ba4bcca79f6fe04ba18b87195d43"
+  ],
+  "ts": 1794707740,
+  "cid": "poa-mainnet-1",
+  "sig": "3YZt8sC7Xn14waYJPhFAyUhNryEetHbCfMWgJJeQR948zkfAPKLHT51vVnLAR5vGEjDE5JhFSqi7ZieGNWLUw91b"
+}

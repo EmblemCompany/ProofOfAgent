@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Atqp1BKMe25HjGwdMJkurKVttQWSwiy3FvWofvHg4T8p",
+  "nonce": 67,
+  "parents": [
+    "e57a068d93f7299cc19f2ab0fb0d3979acb14f583e5f924a94889d9a511401fb",
+    "d2e25f0f88a14d92fcb968e4d42e13009c77ab6f924bf013ddf3c4fa8026e3f9"
+  ],
+  "ts": 1793944959,
+  "epoch": 49,
+  "seed": "67d557315b6557b9",
+  "answer": "Because the nebula inputs are kept with the sparrow checkpoint, the ember audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 2 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "snu1Bjma9Jx4h9uhiZASMcSFbdKGwFL6Ux1kJs8oUucHsZ71PuDuz4CjvC4nh546hbbNnSc9FDtLg95arCCox8p"
+}

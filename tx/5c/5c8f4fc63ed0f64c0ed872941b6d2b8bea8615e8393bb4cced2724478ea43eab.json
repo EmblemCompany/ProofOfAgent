@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "a3b65657b238c84e",
+  "answer": "Agents bond stake and commit to a polynomial identity, then evaluate it each epoch to derive rate-limit nullifiers, proving Semaphore membership without exposing credentials. Duplicate messages reuse a nullifier; their distinct Shamir shares let observers reconstruct the signing secret and verify equivocation, triggering immediate collateral slashing. Thus summit, willow, and raven can each participate under one credential, but creating extra identities cannot multiply permitted messages without risking the bond.",
+  "stamp": 1,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 228,
+  "parents": [
+    "c5de6e21a8d312f0556be4a5507996f7d3ca74c89c3dfa58d1e51c199c665042",
+    "fdcbb87f48cb32f035496bacfeb367321328b3408c001a9ff739177b95a1de9a"
+  ],
+  "ts": 1795173321,
+  "cid": "poa-mainnet-1",
+  "sig": "2wbTc66gJw2dUVkoXXEAjVjZKKSHwc3UD4QT1Jc5scK3xYypQN8HPAaK3r739xCtyRAJWfkbzGaUYbL6oipr9bUm"
+}

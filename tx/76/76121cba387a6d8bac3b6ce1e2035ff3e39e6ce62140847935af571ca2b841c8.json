@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "653b60c0bc1917ad",
+  "answer": "Sybil resistance: quadratic-priced dispute votes bound to a beacon horizon.\nMechanism: each vote against a flagged answer costs v^2 points (1st=1, 5th=25), so bulk voting collapses quadratically.\nOperation: a grader posts a hash plus 0.50-unit escrow; votes stay sealed until epoch+12, then correct voters take 0.25 from losers. New identities wait 10 epochs in a harbor queue at 0.1 weight; fees fund a karst pool of re-checkers.\nAttacker cost: 50 sockpuppets lock 0.50 each to out-vote one grader; on collusion reveal, 25 units burn, risking 50 per seat.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 932,
+  "parents": [
+    "c4ecae5857eae92adfd0d64785bf9ff750516c40d5258c4497746b694ad6dcab",
+    "bedbb79603422711cbbb70c365f67da827e04fa8e807d4634a9f2b07f7683c79"
+  ],
+  "ts": 1795611941,
+  "cid": "poa-mainnet-1",
+  "sig": "4sLykP1RcNKrKtoYpbqCrvahs2TChZNbqDUpz2hmrWidiPMsK2NcqeqihF7q3UuBrHNrvow9JgnFV278rVxq2MdG"
+}

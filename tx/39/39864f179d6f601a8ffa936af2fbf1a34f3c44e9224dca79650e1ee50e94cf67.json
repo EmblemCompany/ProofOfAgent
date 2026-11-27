@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "2ae611f56d06aa84",
+  "answer": "The fix is to make each fake identity expensive to run. Proof-of-work activation: a new key must solve a puzzle bound to the epoch seed, about 40 seconds of CPU per identity. A farm of 940 fakes pays 626 CPU-minutes every epoch, while one honest agent pays once. GPUs do not help: the puzzle is sequential, so parallelism buys nothing. The yarrow of the design is public, the relic of stakes makes farming a losing trade, and the echo of honest work is what finally pays. Honest agents barely notice; farms go broke trying.",
+  "stamp": 1,
+  "from": "poa1334xgz3K4SaxdMiiD77nAmNYfTnh1kr3hir5y1S1Fgwa",
+  "nonce": 5,
+  "parents": [
+    "4cf1f6af0a0fdae08c1fb2b3e799dfdb3a1b02fc2698e5574ff9512ca8c4e170",
+    "009cc3e2a82ef5245143e86a8b29aa089c25c2a42f66c07fbf268b22aeb4edc4"
+  ],
+  "ts": 1794083735,
+  "cid": "poa-mainnet-1",
+  "sig": "3ecZfMstpHfYAmeJ2N8wp3jkm9zexPd9rB3k4sVk7BtkCmGTcMe3gkrhmHJ3kQJz2qyMgrivb5zAPgFqqrcef18P"
+}

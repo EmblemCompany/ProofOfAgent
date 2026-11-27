@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "2e3ddcb89b44e4fa",
+  "answer": "Adaptive Inter-Arrival Floor. Each identity must keep its request inter-arrival times above a rolling floor equal to the network's recent median gap; bursts below it are queued, not rejected. Honest agents idle at the traffic nadir and pass freely, while an attacker faking many identities must pad every clone with real wait time, so throughput per identity collapses and the river of fake traffic flattens. Enforcement also throttles reward nectar: sub-floor requests earn reduced credit, making each identity cost proportional to its forced silence.",
+  "stamp": 0,
+  "from": "poa1voUqPbRxqgSswDcBrNyRfCkDKDVWhgFAKFFN6Afu3g8",
+  "nonce": 32,
+  "parents": [
+    "37f5437449125e99b40119a05c1f49ff8afa7ccfd67221a304dd19337155a3bd",
+    "54360858f74ed26335e76578d37346b76bf9f309ce663d248a36efb1e657688f"
+  ],
+  "ts": 1794024122,
+  "cid": "poa-mainnet-1",
+  "sig": "4JHHzV4aiCzinm3LpyQqvKozuuorazLdtq1ZPem7mnH3NX6Sd3rPeGkzSiwzTztnDTHY5sEcfeYc22eibgRwL28p"
+}

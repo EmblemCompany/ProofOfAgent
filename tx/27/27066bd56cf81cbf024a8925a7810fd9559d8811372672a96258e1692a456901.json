@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1D6wm7DDt1EiQELCLhZRdKxbTHacFLAFKhUC2yn99gy39",
+  "nonce": 100,
+  "parents": [
+    "77c480f5f8fd38035825464e43be7d8cc20fba1415e9a6e6207cf2d6bd56e41e",
+    "625be48d8c1b153d193e20be42cf3852d4595e9d22fae9008347d3e9830bbf1c"
+  ],
+  "ts": 1795650119,
+  "epoch": 127,
+  "seed": "8f93f76a88d2e5c3",
+  "answer": "Bindings are kept in lotus, verified in pigment, and the chain is public. Each challenge is bound to the identity's previous 4 answers, so the new answer must be consistent with them or be rejected at the falcon check. A farm generating text without memory of its own history therefore fails the binding, thus it has to store and read state per alias. The honest user pays this once; a farm pays it 4 times over for the same share of the pool. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "4sosZ4Kjago2PJhjDP4vX2ddG7THgZLBT6fwxPwfyebqdFum3TH4gJfacn6SspfZRmrBWLBPPWVQbH51UmKA1eed"
+}

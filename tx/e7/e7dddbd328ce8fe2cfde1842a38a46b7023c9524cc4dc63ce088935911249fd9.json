@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "dbcbeec9aa286289",
+  "answer": "Agents register only through SGX/TPM remote attestation, with a zero-knowledge proof binding code, hardware key, and nonce to the reef state tree; mesa is the hash anchor, and marble is the consensus contract that verifies uniqueness and liveness. Forging an identity requires compromising an enclave or provisioning distinct physical silicon and keys; each additional identity follows an O(N^2) bonding curve, with failed proofs irreversibly slashed.",
+  "from": "poa1F43DWXzfZ8aWp8wzDvCKnhJuRVbWPo4fhKM9MAMfsGxP",
+  "nonce": 52,
+  "parents": [
+    "fd6d72e5fc682cd9a7f341ed2a65c1f1eae419e596f17fcd7bf07266333d0de2",
+    "cd9638177c22652bc87cdc4ebafce154997969f21b7392cd01859ac20191ef06"
+  ],
+  "ts": 1795668686,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2aEZcLBMhVcgmdKL3kP2ZxddKQKMeFUFih7RXa7Zedwz32t5ggDBsKGzrxy9PGihtKaezhEFbMS7SkB7ZkFJs1Ci"
+}

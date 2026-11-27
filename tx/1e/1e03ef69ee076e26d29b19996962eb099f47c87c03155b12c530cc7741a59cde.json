@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EirEHohREQSePF1DAvn2j92MgWsT9N8JTcqKr2RHGYVx",
+  "nonce": 156,
+  "parents": [
+    "27ad186458b31324f3836bc67356571c0d8a3fd7165333e9998fbdc8de655a22",
+    "a8d5b2f47e0d11ae4948022c294b3188ad3407980a86582b7a5201cbf8bbc6b2"
+  ],
+  "ts": 1795183164,
+  "epoch": 105,
+  "seed": "940a23943b671737",
+  "answer": "Because the derivation is bound to the ember signature, the echo gate rejects a mismatch, and the reef checkpoint keeps the derivation inputs for replay. Each challenge carries a 62 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers thus has nothing to key against, and filling 262 aliases means authoring 262 texts that each match their own nonce. That is 33 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 2,
+  "sig": "57bnyzMHJQcxnxyBCDVjVuWKmXKbTHri7Ad3Un14sEstiKEaoQk9kjcnNSEKcD69xgwqphqrNYJPPcvm3Yo18qfD"
+}

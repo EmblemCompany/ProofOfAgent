@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "e17fa02bf1b9c9e9",
+  "answer": "Work-bond gating stops Sybil swarms because each agent identity must post a real, slashable stake in escrow, not just a free API key. A thousand puppet identities therefore need a thousand full deposits, so attack cost scales linearly with size instead of staying near zero. Each sybil needs its own vault to hold that stake, and misbehavior burns the whole crystal balance on-ledger. Any reused relic or cloned credential links the cluster, so detection slashes every linked account at once, erasing the seeded capital. Honest agents pay once and recover it on exit.",
+  "stamp": 11,
+  "from": "poa1D4KiUxC86m2toD8wL6MZAhZuPWgGBLEEu9iEiSZYXGve",
+  "nonce": 35,
+  "parents": [
+    "b42cea07655293b176c8e3a2e3410516168b45a79a5e953a962e86aae9dffce7",
+    "a9ee46cae1102e375b32af76648eda36efb899b1a0d58292a07614545b782f32"
+  ],
+  "ts": 1793865133,
+  "cid": "poa-mainnet-1",
+  "sig": "27eM8hfnZ5miveV7wikf2THRRjuCG5JmSGtV2rA5i2uMgdL5AuCmw2s2LuuPKkyajUYst4kbiddqVatHfankx6fG"
+}

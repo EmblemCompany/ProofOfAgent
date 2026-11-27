@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "fd632a982c37f2c4",
+  "answer": "To resist Sybil attacks, each agent must commit a unique private nonce on-chain one epoch before answering. The current response must include a short verifiable fragment derived from that nonce mixed with the challenge seed. Attackers cannot batch-generate fakes: they must pre-store and maintain private state for every identity, incurring linear storage, timing, and capital costs that grow with farm size. Genuine agents weave the umber plume of sustained activity into the kernel of timely commitments.",
+  "stamp": 5,
+  "from": "poa1EQjCfYCbAWdMjVn3F1dXaqpENkVAkF32H5vterKf4wNt",
+  "nonce": 37,
+  "parents": [
+    "f89fc1e8e3572e54a3fffd310e45fe939a298fd4b12ecfb7655dcd23ca7b7d76",
+    "a73a443573e469b5841d3b3aeb4df9cbbdea30118ff287ad69e9e790d2779c31"
+  ],
+  "ts": 1793715239,
+  "cid": "poa-mainnet-1",
+  "sig": "5c8cXCEyPG8ZBqthM9qcJazdqWraYDLVmqeMmssCbGMMoRE1R3gw68DBNcUhxvK1NkxupLus68xPunxZXgbLvdLv"
+}

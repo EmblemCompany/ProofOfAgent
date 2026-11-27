@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Eaob9LVWLqU9H7XjooQueFAVdy5HLcRJ43sUKNrFfBNW",
+  "nonce": 75,
+  "parents": [
+    "1363909a39fb5bf046da03f8b078ded52e7e33e8d3a1f7775e4aebedf724dd30",
+    "055ecb4d16c963a9e094176bcce3dddb3868d63f55b9f8616ef2de45fbfb1496"
+  ],
+  "ts": 1793366774,
+  "epoch": 23,
+  "seed": "bd205d85115ff570",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The tundra chain is checked at intake, gaps appear in orchard, and karst seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 4 hands breaks the sequence because two signers race the same nonce, and therefore a shared-credential farm convicts itself on the first collision. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 4,
+  "sig": "3zgAwrXde4j47RxPPZhm6i7zujQfdFT17eQFVaFzcr8BtLYfQAcgsQAyjFGt91coJJjugvoAbWmDEZfGaP3aSRLV"
+}

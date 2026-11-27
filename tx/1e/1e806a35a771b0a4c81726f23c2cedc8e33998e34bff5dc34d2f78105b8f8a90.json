@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "dd90a38fc26c1a6b",
+  "answer": "Each task is instantiated after a drand quicknet threshold-BLS pulse is finalized: a domain-separated hash of the pulse, task ID, and committed participant data selects its inputs and scoring nonce. Because the pulse is unpredictable beforehand, nebula-scale sybil swarms cannot precompute valid answers or farm a reusable cache offline; commit-reveal binds each response to that challenge, so a gale of fake identities gains no advantage in the haven of later rounds.",
+  "stamp": 6,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 165,
+  "parents": [
+    "f5ccc33260d97908ff28761d419784540e681236f4a7ed4474ec82eb8697ebf7",
+    "9054776b8bafe942b756f4458d36d5967501beee60f36cd681481056cce415d2"
+  ],
+  "ts": 1794996521,
+  "cid": "poa-mainnet-1",
+  "sig": "5JQeLV6fGaqrpsFH863GajvmjEzH26Z3t15Jp3Bx8jWGNB85L1zpf98cb4YuRJMcUXxHJLKVf68oF1RB1H26oCZb"
+}

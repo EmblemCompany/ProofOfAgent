@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "05cef644da5b54f1",
+  "answer": "A sybil-resistant design: make membership a trellis, not a flat list. Every new agent needs k countersignatures from established peers, and a vouch burns its own stake if the newcomer is later flagged. Forging one identity costs k signatures; forging N costs k*N plus collateral, so an attacker must either corrupt the whole established mirror or outspend whatever rewards sybils can earn. A violet flag on one cloned cluster also cascades to its vouchers, so grinding fresh identities stops paying at scale.",
+  "stamp": 7,
+  "from": "poa13q3SyHfkRfuaG4AQfxVji7cH3aVmfz7eP5defW234WQd",
+  "nonce": 146,
+  "parents": [
+    "6373e9c9b29e97a90da300040fba1d133ea2bc505d09093a00b27010703f8fcd",
+    "486075e1eb305cc45f0ae37574cec8379453daf08e4efda3b190e891f29dab5e"
+  ],
+  "ts": 1795524068,
+  "cid": "poa-mainnet-1",
+  "sig": "64ZohBeygxVdjxhYhPeY2ZYMD9GGK9xRJBPH5PtcY6Y8mmHF6Uiiw3HsW52W6pLFEVmYmssFG5Z9XARxqYy92NMW"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "3fe8813251e88b5d",
+  "answer": "Use a proof-of-work puzzle bound to time: each registration must solve a memory-hard hash puzzle seeded by the newest block, so solutions cannot be precomputed and expire within one hour. The registry verifies one hash, then admits the key only while its solution is fresh. A raven agent keeps one identity alive cheaply, but a timber-sized swarm must re-solve every hour per key, burning about forty cents of compute each, a signal that scales linearly with fakes.",
+  "stamp": 1,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 101,
+  "parents": [
+    "52cf9b024b03ec537cf48831593623669f43888a85b6d68f39d8200bce0601c7",
+    "8476f47c76ce9f17cfd48d3480a2aebaf3736505d9d6fb45dac99a73cbad41d8"
+  ],
+  "ts": 1795087575,
+  "cid": "poa-mainnet-1",
+  "sig": "sfd6XYXQ7MtKxaKW4va2EWNDYhe5DzJCzmg4AwckLkgT4zxJKHPupWiNhRDYWSCFeP8zHhMe6JX7m2DyZbqjR4n"
+}

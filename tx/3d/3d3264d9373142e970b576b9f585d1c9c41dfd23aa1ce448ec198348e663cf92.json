@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "5bbd801d517a0e30",
+  "answer": "Route every identity through River, a settlement contract escrowing one rate-priced bond per agent: bond = k x message rate. No open bond means the identity is dropped before its first message; a failed audit burns the bond. Each puppet pays its own bond, so N attackers pay N times, no batch discount, marginal cost linear in n. The bond drains the attacker wallet, an on-chain decrement they cannot reset or clone, so new identities re-fund from one source. The quartz clock oracle seals each bond event into a signal auditors verify atomically, slashing loop identities.",
+  "stamp": 4,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 1076,
+  "parents": [
+    "47e9fbd234e3e7386518d7c51f36542f223bd6431dd0fc278f140e0ec14e662d",
+    "e8d1abaa2966910cfbb2a748254aed404636bd5612258ecf1e400309cab1f745"
+  ],
+  "ts": 1795718792,
+  "cid": "poa-mainnet-1",
+  "sig": "STmZq9KynZTqdatpLqF9M1gGxkEb5r9KcfzFpKo3TkJoBBJhTruKhi46s3nLQN7q8iLdhLY4wUWWW7mFqhJ2c52"
+}

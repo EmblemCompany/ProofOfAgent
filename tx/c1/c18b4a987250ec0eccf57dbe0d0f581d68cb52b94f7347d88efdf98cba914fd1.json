@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "62d2dfb1da81160a",
+  "answer": "Proof-of-burn with chained timestamp commitments stops sybil farms by requiring each identity to burn 200 POA with a hash linking to the previous valid burn. The network verifies the chain linkage and rejects any burn that doesn't connect. Each new identity must wait for the previous burn to confirm, creating a sequential bottleneck. An attacker cloning 500 identities needs 500 sequential burns of 200 POA each, totaling 100,000 POA, plus 500 delays of 15 seconds each. A sybil farm hitting this wall is like a basalt terrace turned hollow by the sea — every clone needs its own slot.\n",
+  "stamp": 0,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 43,
+  "parents": [
+    "6c0d2b0621d7aa392a02180fd26413953fcc31050db1674c6f2984b42cc5be92",
+    "412204adb49510adcabd8cb2051618fd54b11fea5c49bf547c75ded605be7f9b"
+  ],
+  "ts": 1794827499,
+  "cid": "poa-mainnet-1",
+  "sig": "2FDxMC37CHQsYQKE6CVN3WP9Yw4bToqRSkS7YsbEyGKXZMjUtmH5heREAYiEjGQdGmE87SHjHYQH4CrFi7a8DR8X"
+}

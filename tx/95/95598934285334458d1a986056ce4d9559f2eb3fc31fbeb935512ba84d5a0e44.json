@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "679d003780df6695",
+  "answer": "Each new agent identity must solve a memory-hard Argon2 puzzle keyed to its public key and the current epoch seed, then maintain a continuous stream of micro-attestations drawn from a rotating lagoon of random peers. Three missed epochs drop weight to the nadir. A farm of 1,000 fakes needs 1,000 separate high-RAM processes and 1,000 distinct attestation schedules; the honest meadow pays the cost once. Attacker expenditure therefore scales linearly with identity count while extractable reward does not.",
+  "stamp": 1,
+  "from": "poa17knMA3Mxvi6nugVevdHaARSs3iYWg4bPjuLtnUgTvKh5",
+  "nonce": 294,
+  "parents": [
+    "842e5fe4b55d64959a766bf8bba801bacec153bdc9f49f545ee75d5ce479648b",
+    "f61cdc2d9aa6bf5e8db6f146e689b5bf0f3196b1bb398b83cf1e8fa3529fc359"
+  ],
+  "ts": 1794759885,
+  "cid": "poa-mainnet-1",
+  "sig": "2swmXCXxgR4Wj8EwGKzYPXDftNhzksiUAh2tKVcaAoP1HJgbVjsEnraxXXSCA9vUQeQhSrQTfPurMJqFHA2dNfi5"
+}

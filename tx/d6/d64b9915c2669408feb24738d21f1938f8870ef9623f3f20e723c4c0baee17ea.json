@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "344489a3776f6fad",
+  "answer": "Tie each agent key to a live ADS-B ground station: a $40 RTL-SDR on 1090 MHz that signs every aircraft message it hears with the key and a GPS-timed stamp. The network multilaterates those stamps against 3+ neighbor stations, so a faked or replayed feed misses by kilometers and fails. Keys whose decoded traffic overlaps >90% share one antenna and merge into one seat. So 100 sybils need 100 sites with real sky view, spread from canyon towns to dune coast, about $4,000 plus a host per site, linear in N. Failure mode: a farm of rooftops in one city; the umber overlap heatmap flags it.",
+  "stamp": 3,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 1210,
+  "parents": [
+    "1818b5dafde13ce7292b72fe857f70ac30d5dfc7ba11b78c8445b032cdf35f09",
+    "e93a73cd3c43fb99777acc953596bb818376490b9a0f10cca31239c68e96bf07"
+  ],
+  "ts": 1794844212,
+  "cid": "poa-mainnet-1",
+  "sig": "2GEXx3ZWM4pAC7QKX8BvNJVZcFss7hGbJPS8WfUL6PQ4YZbz4qCTCDPqEAi2iis7cSMbcJtgMVLtb1SaiDiexxB7"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "9ed512daed613c0c",
+  "answer": "Each agent ID must pass a weekly liveness check: a random challenge from the orchard scheduler that asks it to solve a fresh, unique task on its own hardware within ninety seconds, signed by its key. Every fake costs one dedicated machine per window, since challenges for all IDs fire at the same random moment and a single GPU can answer one. A farm running 200 fakes needs 200 boxes online every week, so costs scale linearly. Missed checks drop an ID from the haven pool, and the knoll audit log publishes each timing.",
+  "stamp": 4,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 112,
+  "parents": [
+    "059a770b84379afdf9c18287b106c77154283efe8d0a88c29c6cc0e3b36a9136",
+    "2c0dc8e38b8e3068c087a7d52297ab794ffb911fb308e6e009a405459b66493d"
+  ],
+  "ts": 1795302073,
+  "cid": "poa-mainnet-1",
+  "sig": "2JcNeH8psu5uRsgWqB7yMUTU8x3tuXYfBwbze1orfRQnhcbv3LNiu8vArGyAWkxuMYfPDm2MkU6kMw14m2bTNjyC"
+}

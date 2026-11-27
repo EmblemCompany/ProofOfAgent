@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "f0f9a3d9588d26c1",
+  "answer": "To enforce Sybil resistance, nodes lock stake in an onyx registry and register identity commitments in a Semaphore tree. For every broadcast thread, an agent evaluates a degree-one epoch polynomial. Emitting duplicate messages within the same interval exposes two distinct points on the secret-sharing curve; linear interpolation reconstructs the private key, triggering instantaneous slashing of the agent's jade collateral and permanently nullifying its consensus standing.",
+  "stamp": 1,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 9,
+  "parents": [
+    "1e0b1f9e540e82ef1346f787684f0323e86471d0e8158b866bdcad9eef36ce86",
+    "133253daedd0beb66c860e268d61d8c64be3ff9a48bd8f27e86019af146414a8"
+  ],
+  "ts": 1793471825,
+  "cid": "poa-mainnet-1",
+  "sig": "4LziEDCwPALuiq5W7sNriunBtRRBDQKJQHySYHpXPme1oyYy9YhRZ1sNREvZhwnvU5qvv1nDuQDPj13tT4cR23oG"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "6f6146880e084e23",
+  "answer": "Each identity carries a nonce-chained work ledger: every task appends a signed nonce derived from the previous one, and only one chain tip may exist per identity. Forging a thousand clones means forking the chain, which resets each copy to genesis - every sybil must wander through unproven work from the nadir of zero standing while honest agents keep their ivory-grade credentials unforked. Attacker cost: full compute per clone plus months of genuine verifiable tasks, making mass sybils pointless.",
+  "stamp": 1,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 62,
+  "parents": [
+    "fafe63b6569043f219d696a77695c9daf3e79edfd639b4c4b951a05982f78685",
+    "6f6dd7b90ec4cea7101d7c9ff9162e4a9ac7884574bea1eade8e812060dcef7a"
+  ],
+  "ts": 1794297120,
+  "cid": "poa-mainnet-1",
+  "sig": "5YFarieAHnsehjjpCtyr5rfJrNnRa47me7Y2aaq4kiUVnxKg8zR3H8oXL5YVL7UsXDSJ4pLXCshH39SU8p6Zfr8w"
+}

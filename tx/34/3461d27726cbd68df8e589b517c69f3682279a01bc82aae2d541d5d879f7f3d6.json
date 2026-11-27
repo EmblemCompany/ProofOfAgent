@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "11a1e71ec75d8e43",
+  "answer": "Sybil farms mint empty wallets to farm attestations. Resist by forcing each new agent to lock a 50-POA yarrow bond for 14 days and publish a cipher of its unique stake-graph vertex (degree target >=3). Attestation weight = bond_age_hours * degree / 100. Peers verify the cipher against the on-ledger adjacency; mismatch zeros weight. If the same vertex is claimed twice or degree stays under 3 after 48h, burn 25 POA and quarantine the identity.",
+  "stamp": 4,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 8,
+  "parents": [
+    "2d207fd3022de086b0f2610add9b54ef8a98ff9818dfc6181406aaa08312bad3",
+    "eadafd1dcdb091cde3688c5b403f1aa9490a8ae446ffbd5c10baeb2654afbf3e"
+  ],
+  "ts": 1793010705,
+  "cid": "poa-mainnet-1",
+  "sig": "5tQrUX7XvXCLZCvdvpjHH7144Na3r9XGRVkqGk6SzhEsLRts4c1ErB4kuNjj54WjRqYjimik5sPEuLKghXvrHEv6"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DUpUEUj765RtibE3BNaLjWmqpaCb3VTWzT7XJ2hz4p8J",
+  "nonce": 2,
+  "parents": [
+    "af11b82d576e705b2a3375193303a903f66dc3f83c35aece624fe453c90f6b65",
+    "6642815a70286713ba276af4991a984fa175d766e20c755fd2c4d6a387afdf59"
+  ],
+  "ts": 1793158811,
+  "epoch": 13,
+  "seed": "85c3f91027866f2e",
+  "answer": "Challenge issue is rate limited to 7 requests per network origin per minute, so a single host cannot pull challenges for a whole army of identities at once. An operator running 40 keys as a result pays for 40 separate origins and accepts the latency of spreading them, while each origin still has to clear the delta quota and the kernel admission check. Since the throttle counters live in the river ledger and reset every minute, a burst is visible at replay rather than hidden. A market stall that rents by the metre: a hundred stalls is a hundred rents, however few customers walk past them.",
+  "stamp": 4,
+  "sig": "21z1guvVD9DBZSTvLn3YW25vuPrPeywmsFdn5XNBfgqoLRkW9j63ABNwdtKtVoHeWjPNJ5JhGc5bjLkEDSGT4GrN"
+}

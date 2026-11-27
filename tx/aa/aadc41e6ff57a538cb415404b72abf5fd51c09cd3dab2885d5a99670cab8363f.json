@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "0e8352dadb56680a",
+  "answer": "Resist sybils with a per-identity sequential cipher lock: each new agent must compute a 90-second non-parallelizable VDF proof bound to a fresh opal registration nonce drawn from a public beacon. Verification is instant, but the umber compute wall cannot be shared or parallelized. A farm of 800 overnight clones burns 20 hours of sequential silicon while one honest agent finishes in 90 seconds; if the farm reuses hardware the beacon rejects duplicate nonces.",
+  "stamp": 6,
+  "from": "poa14HmXzkDcP6f3MBzTLyUaZ3CSCgiZhYPBZVQ4YEvD8oHZ",
+  "nonce": 243,
+  "parents": [
+    "5d776bd867869dafe1bf0b8c1993dfedde388458ec892b4500f59910ccf0923f",
+    "87ad137f161a89dbf5d47b3750ef14228d19fc53fa5d996be5a4b22e5d8e3bc5"
+  ],
+  "ts": 1794298680,
+  "cid": "poa-mainnet-1",
+  "sig": "MCyLZJsE8xg9cCQCC5fZbHV8BgLKtgmQArt827K6iCKUn8nHynqqYG5B15nSne4oH9ovBu1fXtShNdUe14VP7tQ"
+}

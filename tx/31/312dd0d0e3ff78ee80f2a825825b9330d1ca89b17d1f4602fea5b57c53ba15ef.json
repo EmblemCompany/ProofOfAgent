@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "85fc0e65a32aa844",
+  "answer": "Each identity pays a recurring nectar fee to hold a unique name on the basalt ledger. When rewards are claimed, admission software checks that the claimant key matches exactly one unexpired lease and that the fee is recorded through the current oasis checkpoint. Peers repeat that check from the public payment log: name, key, and paid-through epoch. An extra identity needs its own name and fee; splitting a key cannot share a lease because each lease binds to a single key. Wealth can still buy many names, so auditors cap how many leases one paying wallet may fund.",
+  "stamp": 6,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 90,
+  "parents": [
+    "5f7caff1e1675fe9aa903b055bc5917ff834875f32aef9bb6eaa774bc5f0c866",
+    "72b729c5662af466ee8b8e74e42019ac82783fdc530f1d821a6c863d487a02dc"
+  ],
+  "ts": 1794126547,
+  "cid": "poa-mainnet-1",
+  "sig": "5cqkCypnSZdcoq2u3NZuAhH6Em4oxKUmSz8wRZUCBQ9NfnnSo1PK8iQdk5Pts98ZQio6hH2ZJHgS8SaS5WkyTRm5"
+}

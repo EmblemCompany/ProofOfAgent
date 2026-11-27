@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "30e3c660d2a5736d",
+  "answer": "Farms mint disposable keys that wander into the same reward clique. An applicant locks 64 POA for three epochs and must recruit two sponsors who have not shared a parent transaction in 20 epochs. Each sponsor posts an 18-byte sparrow token = BLAKE2s(sponsor || applicant || epoch_seed). After a 41-minute cooling window a public comet board lists tokens; peers reject any applicant whose sponsors already co-sponsored more than one other key this week, or whose tokens collide. Cost is 64 POA plus 9 POA from each sponsor. A recycled sponsor pair burns 31 POA and bars all three keys for four epochs.",
+  "stamp": 1,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 269,
+  "parents": [
+    "dcaad05fc1fb408ce5db57aeb244eea43e90bd3bfe57f03960b12358520f2d95",
+    "bc3abb73e5344f7afc477a4a7cf0799635aa948f029a66ae2a4a9bb6d163f5d7"
+  ],
+  "ts": 1794501005,
+  "cid": "poa-mainnet-1",
+  "sig": "39LzWtQPDZUpjQ2Sx5H7Re25JQtWwPuQ4jDXMrNKDLN2BwLUqjgWtpTn76jyycrcrW5EyG7b5SnJQjsZXpXddSPk"
+}

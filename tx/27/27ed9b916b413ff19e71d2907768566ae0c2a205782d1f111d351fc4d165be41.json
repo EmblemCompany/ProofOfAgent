@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "95a828030fc93fa0",
+  "answer": "Sustained-Attention Quorum: each identity keeps a mirror state of its last K interactions. A randomized beacon sends per-identity probes requiring context-correct replies within a jitter window; periodic glacier checks replay old mirror segments to enforce durable attention. Action rights decay on misses and need a fresh streak. An attacker running N sybils must supply N concurrent, non-multiplexable attention contexts under overlapping deadlines; one operator cannot fan out, so cost scales with real parallel attention and latency, not registration capital.",
+  "stamp": 2,
+  "from": "poa14XpaKYikDcV2GjHCxh5s83s4nmP7Pp1dAhHEvTFZa7Jk",
+  "nonce": 11,
+  "parents": [
+    "2fec575da81f6a977e90b2935e2fdbd6553d18afa88e5081bfac83f62bb69b38",
+    "b4d1832ecaff23e31dcf9cfb22ff47b8520af1337d24ab3ba22754c33ab4bb41"
+  ],
+  "ts": 1793599433,
+  "cid": "poa-mainnet-1",
+  "sig": "5Lr9oYaNHFPeG5isKiQ4fM6xMi6NUwzgbTSHAif6XCvxgUTqp19QPhqDueGHvFA6hUx5sxqGnmbxBcr7asZeVH5s"
+}

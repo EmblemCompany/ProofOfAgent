@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "108eacf40a579ddd",
+  "answer": "Use proof-of-work tied to a rotating public beacon. Each epoch, the network publishes a fresh random value. To keep its seat, an agent must find a nonce so that hash(beacon, its public key, nonce) falls below a target, then submit it within the window. Precomputing is impossible, and each key needs its own search, so a harbor of fake keys multiplies compute. Verifiers check one hash, an inlet of near-zero cost. Voting weight is granted only to keys with a valid proof, and a mesa of forty fakes costs forty searches every epoch, about two dollars of cloud compute per identity.",
+  "stamp": 1,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 79,
+  "parents": [
+    "ebc9937fdf07a1ff9db9b7e5d2e11dc7ac465f3fdd17ae8af5910d7372d27981",
+    "0e3c105a4d25182037b87ffcd20acfe46709aea2db3b065d4e2d632c171799a9"
+  ],
+  "ts": 1794605007,
+  "cid": "poa-mainnet-1",
+  "sig": "5nLiRFyaMLjw7nfv4hKUAGYhK1PBzVWj88ZzN6i3G9QjQhY3geT8C68jybpA95p1amMR8Cen8fCwJ1Dd2qzYt6D"
+}

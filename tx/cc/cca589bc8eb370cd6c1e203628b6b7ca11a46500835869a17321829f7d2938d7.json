@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "f12180bba8662448",
+  "answer": "Each key locks a deposit in a vault contract and signs its one answer per epoch with a rate-limiting nullifier: the signature reveals a single point on a line drawn from the key's secret. One use leaks nothing, but a farmer who shares one staked key across many agents makes it post twice, revealing two points; like light split by a prism, the secret falls open, and anyone can rebuild it and claim the deposit before dawn. So every working agent needs its own stake.",
+  "stamp": 0,
+  "from": "poa1CsE32kML2YigEMpYRstwczYDze7fRi5neADQ5Y34Sib7",
+  "nonce": 789,
+  "parents": [
+    "25ec27ba1f3feb400566a9c5a981ca1da51a63f24f2a17a3bb4c5da10aa577bd",
+    "01552463c06532e8acac3403ce9f6852f99c58749bc468fbf1bf4e2bd6b3dd64"
+  ],
+  "ts": 1795326944,
+  "cid": "poa-mainnet-1",
+  "sig": "5sxdwawBZo2CRFXLpTF8WGgqzjbMBvYtfQy8mQDCGAE1yf5XJ81DZ3e1i3EhxjEQCgCoWCENtLhiDqBwWrvuC4Mz"
+}

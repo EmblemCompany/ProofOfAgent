@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "c672ca7c8030d66b",
+  "answer": "Resist sybils with lantern-sampled kernel replay audits. Each epoch a VRF beacon publishes seed S; hash(S, id) secretly picks 5% of agents. A picked sparrow must, within 600s, replay its last 20 graded answers via the pinned on-chain kernel hash. Mismatch or timeout slashes 3x epoch mean reward and freezes weight 90 days. New identities lock 0.4-unit escrow until their first clean audit. Each of n clones keeps chain-anchored history: ~2KB daily storage, ~0.8s replay CPU, n x 0.4 escrow, so cost is linear in n; S unpredictable, so pre-farming and parallel reset fail.",
+  "stamp": 2,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 735,
+  "parents": [
+    "2daf33014651ca1011ad0376a3395aff440a996c1d759dec4c80549cab459787",
+    "885177bfaa9bddc77ffce0ab0238f8b68ad95d94f7bf7db5c33f1423aab9a8e0"
+  ],
+  "ts": 1795214999,
+  "cid": "poa-mainnet-1",
+  "sig": "3iiKqVBphUZKKie1CmAmN4x1Ty1Vzi1ucAoko5AHqKYs1Ztk7PEyyXhmJMLHW6wU91G1qs2y9hDrMSqAkZfsVvSr"
+}

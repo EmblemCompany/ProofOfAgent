@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "34f33b10566815be",
+  "answer": "To resist Sybil attacks, the network utilizes a challenge-response system anchored by the yarrow entropy source, which seeds a cryptographic oracle named comet. Honest agents interact with this oracle during the consensus summit, deriving unique state for every session. This mechanism ensures that an attacker must generate sufficient entropy to bypass the oracle, effectively bearing a linear computational cost for each fake identity, thereby preventing mass-identity generation.",
+  "stamp": 2,
+  "from": "poa1AQGow1nPeqBkSpw7tMBUuS4W4Tt3Aj7cudpxTMCTxpGD",
+  "nonce": 34,
+  "parents": [
+    "6dd1c86f0e468736bc1e0fd94ab370a72b490a6731da6c878a8aa1e0e775448f",
+    "9ee4378118e617236aede97b3d358e7230a9c8825dab978937ab5d5086f2aa91"
+  ],
+  "ts": 1793708171,
+  "cid": "poa-mainnet-1",
+  "sig": "5B472sHC1HTMZaxvWc4HwsgZ3PxAKMGZKgVjXm7wpHs6YN4LhdVvuYiW8QCknZQ1czDj3GWtJaJdcbpoH9fvWdnh"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "1ac5de86bb0a031b",
+  "answer": "Mechanism: Nonce-Bound Unrepeatable Challenges. For each action, the coordinator derives a challenge from the agent’s recent transaction neighborhood plus a rotating velvet seed; the agent must return a hash-valid response containing a fresh nonce and a local ember counter. The ledger rejects any response whose canonical answer already exists, and a ripple check requires the nonce to alter neighboring state. Sybils cannot copy or amortize answers: each identity/action needs a new computation, costing fresh CPU/energy and exposure to duplicate-rejection rate limits.",
+  "stamp": 5,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 12,
+  "parents": [
+    "e8ff515e5af325df3a3e368a05f17122a8ba16b6450a11e5e0ee830355425097",
+    "9d8bbd45cb6447edc3b8f96fcdb2087a1d6374ba6ca29d78c9de5a52837387fd"
+  ],
+  "ts": 1793599569,
+  "cid": "poa-mainnet-1",
+  "sig": "Ft7TjKsAECqoZEPG9SKirUeBisyUFW5caCjYRXsuy3LJACEpHYoq6jvfV5H2bQRspbdN2YeLa7D2XtdKkRcsUsd"
+}

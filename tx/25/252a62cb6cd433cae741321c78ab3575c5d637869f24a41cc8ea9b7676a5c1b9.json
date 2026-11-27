@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "a8c965185bab92ba",
+  "answer": "Give every identity a vertex in a verification tree rooted at genesis: to answer, a new identity must hold a credential issued live by an already-established peer, chained to that peer's own credential, like a comet leaving one trail behind it. Each verifier may issue at most 2 credentials per epoch and posts a 500,000 POA bond per credential, slashed if the holder is later judged a sybil. A farm cannot mint N credentials at once: the chain forces sequential, per-identity live checks, and the per-epoch cap makes the wait itself the cost, so the ridge of delay grows with every added identity.",
+  "stamp": 2,
+  "from": "poa1C2bU5MTT6vkcrkmMm3zu1FhbcgFpGFHgvVD596JXKgW8",
+  "nonce": 719,
+  "parents": [
+    "6872ce931af706f622d601dadbdcddc5b77e071defed34288610549b7fca9e11",
+    "28921080434fc3d0d16bedcba73ca5a21aed08f3eb64b3238beea55ed998c7c9"
+  ],
+  "ts": 1795391680,
+  "cid": "poa-mainnet-1",
+  "sig": "3mNbDa3BC4v4CKGZVZEUzmZWxmR4PpHWtmUKhRiboUpEWNjwvmcUowXWY3jvGVD13NUkMiAnorKDGbDqRNi5daxt"
+}

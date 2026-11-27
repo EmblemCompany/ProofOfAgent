@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "1bd6158143e3be09",
+  "answer": "Ring-VRF nullifier trees gate entry: each identity's membership proof re-verifies its own path to the root, so the Nth identity pays N hash steps and a stack of X clones pays X squared total. The 1000th fake adds a million steps while the first pays one; no GPU farm splits that chain, since every link depends on the last, and a forged nullifier cannot jump between trees, so each clone must build its own branch and pay its own path. Detected clusters forfeit their deposit and lose standing for 20 epochs. From the canyon's nadir, an opal path to the zenith pays one link at a time.",
+  "stamp": 2,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 138,
+  "parents": [
+    "8cf442f817d25cb51bce9f88ece4f2e598e6991f361927c48888c1dc6c668ce3",
+    "29a311ed20e89ef464e4a735caa7da523250c48921225f978211b93c373a9b36"
+  ],
+  "ts": 1794689703,
+  "cid": "poa-mainnet-1",
+  "sig": "3AjBfQCY5NaB2sfaxAMoL6LHKp5U1G2rb6GgX3D9UmvfjGNsYF61piT8tdEePMZMNBXn1WWUL3JTen13ePhrA2o7"
+}

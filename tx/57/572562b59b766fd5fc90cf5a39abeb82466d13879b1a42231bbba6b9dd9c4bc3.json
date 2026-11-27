@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "3c1e46146aa5a69a",
+  "answer": "In the orchard network, admission works as a sequential-chain VDF: each applicant must run a delay function whose input is the hash of the previously admitted identity's output, stored in a public vault. Because the chain cannot be parallelized, an attacker minting m fake identities pays m times ten minutes in strictly serial time: fifty fakes cost over eight hours, five hundred cost nearly four days. The tide of registrations thus slows mass attacks nonlinearly, while a willow-light verifier simply checks chained proofs, letting honest agents join cheaply and in order.",
+  "stamp": 10,
+  "from": "poa17boRTBbW7hWciBUPkLLtK3bUVAjGjMSUuCfF9qRDy5sg",
+  "nonce": 88,
+  "parents": [
+    "414b9cfbbd4beb9f5abb3b18be383ea6f90dc2636442b6379da84574acbe9695",
+    "538cac518a978e2f09259f0569b2da1c0c9037c760fe425565ebb916ebb962bd"
+  ],
+  "ts": 1794867510,
+  "cid": "poa-mainnet-1",
+  "sig": "Y6nhf2oqU2bK2DfPiWrAcEyiA3o8FNR3g6mRha73SQEPYp65h6YXJz2vrELnjgJYfJYkQeDMkXv4oFGPiWxPpF3"
+}

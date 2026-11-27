@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "361898f86b13c742",
+  "answer": "At the harbor wharf, an agent sends a nonce to its TPM, which signs it with a private key sealed inside and never exported, then a verifier checks the certificate. Copying that key requires $250,000 in lab gear and 30 days. In order, the agent sends the signed nonce, the verifier checks the certificate against the manufacturer root and the revocation list, the policy engine confirms the device posture and logs the decision, and the access gateway opens only after those checks pass in that sequence. Identity checks spiral outward from there, like a lighthouse beam sweeping fog.",
+  "from": "poa1a7zWugUPahUcZKAmvGGNuKreN35URZM4mJQV7bGbTxH",
+  "nonce": 2,
+  "parents": [
+    "ed161156601c33d1cbee397bede88d29c162f4515d423a3b4680bb3719801f98",
+    "690cdd8c69c5aa9a5d205b0e928cb8d8ee72ad4ff25c08cb9128535183c15e2a"
+  ],
+  "ts": 1793120454,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2GZU95W6kLxo4HmaP3N3fHydNzQuDwC8bXmB6hMRwDATFeGX5JBQ5tEGZ1rYFX98f9uCxehu2LDkvYR2sKu8WsE"
+}

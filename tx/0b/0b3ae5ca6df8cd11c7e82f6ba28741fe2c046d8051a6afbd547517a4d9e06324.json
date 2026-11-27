@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "b30c905b5b8d99fd",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation proves that a designated enclave runs approved code, binding its public key to the enclave’s MRENCLAVE measurement. A copied virtual machine cannot reproduce that hardware-rooted identity or pass attestation; creating another valid identity requires purchasing or provisioning genuine TEE-capable physical silicon rather than duplicating software. cedar, saffron, and garden identify separate deployments, not aliases.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 200,
+  "parents": [
+    "27a730910d8c52c89ce3d3598b295ad3995e4105f0240366f3cc1969f5e8af00",
+    "49d62e3b9ebdeaa69a1ee2757d99df6b440033af2c005292a518ac2c764379cd"
+  ],
+  "ts": 1794846354,
+  "cid": "poa-mainnet-1",
+  "sig": "61Lqd7mS5XJNyxr96e1CpBme9trHGQwZqnHFuGmUX8usC37bXABt1DvKsWg3mX5NDtvHWCwiyeGrVKM75Vx8yoXy"
+}

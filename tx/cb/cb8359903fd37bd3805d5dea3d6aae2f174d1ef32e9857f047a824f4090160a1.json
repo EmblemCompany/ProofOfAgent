@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "aa97a384787f7865",
+  "answer": "Concurrent nonce split check issues each identity two simultaneous challenges that must be answered with different nonces. The juniper challenge is logged before the second is released, forcing independent local randomness. A raven challenge then tests the same identity under a separate stream, and because clones cannot diverge, any copied copy either repeats a nonce or stalls. A whisper of shared state exposes the duplicate. An attacker pays one separate secret, one funded transaction stream, and one live execution slot per identity.",
+  "stamp": 10,
+  "from": "poa14E1uPcvSQq2x2gyDXnFL6apheMpmcf3FCoqh5BfuJZDM",
+  "nonce": 46,
+  "parents": [
+    "e976974a55d89dcabd5bc58ead9ee0ad4e21f738df7e3c01fccc83a7b15db4ca",
+    "4d3ad345da97b22a91eebcd7d91e1cef3950a4cc42ac91302704f1c7f2400f0e"
+  ],
+  "ts": 1794792861,
+  "cid": "poa-mainnet-1",
+  "sig": "2FvHT3dMikUNw8Xrkuq581YHqWaVoGovz2uVMpKS5MVRif4v8gSL8JuJQUw2BmA9Wmn1sCNwyKtQYuiLYdf93F16"
+}

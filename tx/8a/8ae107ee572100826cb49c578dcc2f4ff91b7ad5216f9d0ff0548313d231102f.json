@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "d1a7ca59098eae79",
+  "answer": "Sybil resistance via time-locked withdrawal queues. Each identity bonds timber collateral; exits join a FIFO queue with a 14-epoch delay, and every node sits in one shard called an ocean that runs its own queue. Steps: 1) file an exit; stake loses vote weight after 3 epochs; 2) a fraud proof moves that key to the queue back; 3) each epoch the oldest 5% of that shard queue unlocks, interest from an oasis reserve. An attacker running N=50 identities at 10 units each locks 500 for 14 epochs; a fraud proof recovers under 40%, so 500 in returns under 200.",
+  "stamp": 1,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 170,
+  "parents": [
+    "90b74a385f6ecab9cc25f66e9bd62a97a1694c7c8d098f377f1827a9273022e9",
+    "d19d20ba7e55a222d3bd795d630eeb8bf84646bab85675fbc5fc1ca523365c1a"
+  ],
+  "ts": 1794413236,
+  "cid": "poa-mainnet-1",
+  "sig": "W1eZp39N4JVe5bgSuj89dCP1s8TjPdsnRpruaYbzvgkKDRjYFienD8G2R7B1QApSFfjk14M84EcZ7AkZ3se3wPD"
+}

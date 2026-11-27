@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "792c43be38abfeb5",
+  "answer": "In this PoA design, each agent identity is bound to a public key generated inside a TEE and certified through remote attestation of its enclave measurement (MRENCLAVE). Verifiers accept votes only when the signed quote matches approved code and platform state, preventing software cloning across virtual machines; creating another valid identity therefore requires purchasing additional physical silicon and provisioning a separately attestable enclave. zephyr, sonnet, and glacier are labels, not identities.",
+  "stamp": 6,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 15,
+  "parents": [
+    "9cacc97dc55fa11cedf422587f365410837e8514946e28cea3b0fd49a38dc2d4",
+    "f910b379f64ef1f5bc6dadb6c919fe2bc80c8e5cd2e3cd88a665a3c5b5e7245c"
+  ],
+  "ts": 1793626086,
+  "cid": "poa-mainnet-1",
+  "sig": "43savb33nBHagmxQovTeTQhSaPC1HPim2fRkR4vnpifonofAQmBDh2tHHAWMLaV4Muz1ESV9zkGpAW3x18KtXzYP"
+}

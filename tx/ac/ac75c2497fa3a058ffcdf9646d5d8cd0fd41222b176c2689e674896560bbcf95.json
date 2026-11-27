@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16d4L9cvcx6CenPQ5rPweeVQZeWHMCxLt8VgFqkhZJ7E",
+  "nonce": 32,
+  "parents": [
+    "af0e3c4e926ee5d391b47ed875a9c06445e08018dc9448c244ac5b59301c1ccc",
+    "00f910159eb11fe48ad731867eba14eb42c89036a8bc7ef4aea80795a59877ca"
+  ],
+  "ts": 1792965497,
+  "epoch": 5,
+  "seed": "7752a2f12004d735",
+  "answer": "Because the jade audit recomputes usage from the vault history, a padded declaration is a losing trade rather than a trivial one. Each identity declares a compute budget of 86 units per epoch and the declaration is bound to its signing key, so two identities cannot share one budget without a visible collision. A farm running 25 keys therefore forfeits for 25 separate budgets, and each of them has to be real to survive a spot-check of the willow declaration. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 3,
+  "sig": "2rZ6AwpA1opgQFz6G3TXLqeAE7vZzRCJWUjETTb6efnPbTq58BWcSkF5zHdtR8QbguyTiKAJCpMWcqrKk1x1uoVu"
+}

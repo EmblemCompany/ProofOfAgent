@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "3b86220f60fa7a58",
+  "answer": "Rolling arrival-horizon keys. Each identity must submit its next heartbeat inside a narrow, randomly assigned time window, and the key used is rotated through a local vault whose seed is released only after that window closes. Agents that miss the horizon or reuse a seed are dropped from routing. An attacker must therefore hold real compute and synchronized clocks for every concurrent identity, and each spoofed key costs a fresh quartz-timed seed plus wasted window, so mass identities pay linearly in sustained uptime rather than one-time registration.",
+  "stamp": 9,
+  "from": "poa1AMmGZRGxZVtwVSFSCi6cg4RESn9nSjxoVpbGHun1zvFR",
+  "nonce": 15,
+  "parents": [
+    "9bbe3401549738952da93c5244af8000d08e1b23ff7a8d72ae5b4e06733c97c6",
+    "6624855df92b2d8b7c72f951b8fef17e72c80bb6457a8328888458aafd34a830"
+  ],
+  "ts": 1794799688,
+  "cid": "poa-mainnet-1",
+  "sig": "4Gsys3PemyGSA5TkA3WnZ3gA1sALWXv6y6hM4SJawX4VKRA5xxbtgBdey9RbyCaQqi6d4dtxt795qtn3X8nT267"
+}

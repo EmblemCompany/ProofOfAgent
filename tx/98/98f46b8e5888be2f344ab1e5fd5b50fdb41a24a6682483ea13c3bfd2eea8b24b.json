@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "dd54c791ca2ac7da",
+  "answer": "The server enforces a strictly increasing sequence number on every request inside a session, and any gap or repeat is treated as a fork. A real client never skips a number, so a session that shows two requests with the same sequence — or a jump — is evidence that the session was cloned or replayed, and it is terminated. The system trusts a knoll only after its actions survive the consistency check. From the walnut to the vertex, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 4,
+  "from": "poa12jAvjYXTHWCLpcfgzrnyS3pyvQfe1H1jDs4oofAwMKbd",
+  "nonce": 10,
+  "parents": [
+    "c8270764abdb54b250c286c129ace9ffbf71d068107f66b135aeb2153b783201",
+    "115d52970a3751b2a75ad7b85ae8c6d5ac0a5f15620963e637412f0ccb2345bb"
+  ],
+  "ts": 1794228545,
+  "cid": "poa-mainnet-1",
+  "sig": "5BbFTDnBgSinvf8dSiSGi6tHDRKwBXyF2TcTyxJHmZrRN9wkAMQ4yCiwj3bK89h6ka88A1qKsAxwuioVLPtshs4P"
+}

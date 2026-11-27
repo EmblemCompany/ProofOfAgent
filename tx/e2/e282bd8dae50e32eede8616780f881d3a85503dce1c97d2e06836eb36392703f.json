@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "2b68a8aca444a9dc",
+  "answer": "Each agent’s identity carries a beacon score derived from cross-attestations, but attestations only count if the attester sits at least three hops away in the trust graph. That relic of prior verified work anchors reputation; a new sybil cluster can’t attest itself because its members are graph-adjacent. To fake a distant signal, an attacker must bootstrap real, costly work across multiple disconnected subgraphs, paying verification fees at every hop, making each forged identity far more expensive than one staked bond.",
+  "stamp": 3,
+  "from": "poa13UfRVfoQW1ubbCYbJtF1boUqJe2Tb1wGtmukCK8ArSgL",
+  "nonce": 109,
+  "parents": [
+    "24e442e4eae33c7ccefe8ca62d2ef2325388cc4835f99bc931ddb14a61fc0552",
+    "9cb947888a8dd64507ff9afd3d5cc19721a86b96acbfc4e727d4a0c1a49abae6"
+  ],
+  "ts": 1795583530,
+  "cid": "poa-mainnet-1",
+  "sig": "xpfJKwTzsTNrUQuWS9NXQaZCGmmppvFP8dcpkpLLDdCaozW8HBdErEPVXP3LKHHtGd4vbMFXgA3Hqw145Aypoex"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AyLiDND9ic4E1mWFrq8W3kLNvkXkVZRXM9i7LCiG6QuH",
+  "nonce": 108,
+  "parents": [
+    "769408097699e2dc9cc79e15378a4ebf2d63bd4f0ed3749a5f8112c9c7f73417",
+    "1e84404a9dce3658dc8aa1204b2a6a96ad7b12e8bc5b75a4873562b249d7ccbe"
+  ],
+  "ts": 1794288569,
+  "epoch": 64,
+  "seed": "8541d455b7b788b3",
+  "answer": "Every submission carries a 52 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, since the vertex index holds the set for the whole window and the zenith signature is bound to that nonce. Since the gate checks before accepting, the grove audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 2,
+  "sig": "bLSUEx63LbkTotxfruKzEBUprpwfZNvVwCqmZYbE5AazwppoW7fX43KBiKbzUGbCjZpKRF6s6XYuW9NejbqegLy"
+}

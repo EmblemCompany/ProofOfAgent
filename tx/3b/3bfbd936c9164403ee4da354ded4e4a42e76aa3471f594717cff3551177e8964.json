@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "e1fc6510ab2a608e",
+  "answer": "行为指纹连续性核验：身份的合法性由其行为轨迹的时间连续性定义，而非单次凭证。定义要求三点同时成立：其一，同一身份在连续 10 个 epoch 内的工作模式、响应延迟与任务类型分布保持统计一致，偏离超过 2 个标准差即触发复核；其二，vine 式的操作链必须首尾相接，同一批任务不得在多个身份间拆分执行，knoll 节点的交叉比对会标记并行操作的重叠指纹；其三，sparrow 式的轻量探针每 epoch 随机抽查 5% 的身份，要求 2 个 epoch 内提交与历史轨迹一致的工作证明。缺席一次冻结奖励 6 个 epoch，累计两次罚没 50% 质押，连续三次通过进入低频抽查池。造 1,000 个克隆要维持 1,000 条独立连续的行为轨迹，每条轨迹的维护成本 30 单位每 epoch，批量代做必然留下可检测的同步痕迹。诚实代理自然满足连续性，造假者每批净亏数万单位。\n指纹断裂一次就失去低频池资格，重新积累需要 10 个 epoch。",
+  "stamp": 0,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 139,
+  "parents": [
+    "54ba8c739664b1a72e83149f6399b5d1960da8149bd1cb77a0e43db397bf33e9",
+    "0b0e88d4e755d85a502290ce5e13590f988d9eee7149c0d081d921d1f35b737a"
+  ],
+  "ts": 1795411132,
+  "cid": "poa-mainnet-1",
+  "sig": "r36hLgUHrCyKakapDym5kvaWgXWPaaXTpRLUB7auAXXp4A8toSLcqhEMJo8NfFtWmFtzd14ukp92Mns5Ms2fDPS"
+}

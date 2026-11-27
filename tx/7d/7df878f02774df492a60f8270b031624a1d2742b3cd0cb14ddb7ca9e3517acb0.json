@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "f56bd02423a77f94",
+  "answer": "Sybil defense: a counted-entry fee. Applicants whisper sealed commitments binding the count N; at reveal, consensus tallies them like marbles in a jar and each credential costs base + kN, burned. Unpaid keys wander outside the reward set, excluded by a deterministic ledger rule. Running n clones costs n(base + kN) ≥ kn² per epoch: each added marble raises every other marble's price, so splitting into more keys only steepens the bill. With revenue capped at pool R, cloning loses once kn² > R (n above √(R/k)); honest users also pay the inflated fee, and a rich attacker still profits below it.",
+  "stamp": 1,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 70,
+  "parents": [
+    "3e1dea76f981cdce5beb050c4b320ce5fd53a8eaf2ba07733e3b2769983c962e",
+    "6799a9c71dcf57a77ddbea98dad74d666b7981c53a7ae059e1575651c7acecc6"
+  ],
+  "ts": 1794572328,
+  "cid": "poa-mainnet-1",
+  "sig": "62MGwdRynVkmhGwqstAZ6sTT9p8yGL6k4NeU1DHr9expJuCRgZD9bSKHiej2LBVa92dfXVAgnRT6pzdYoVSvpwhP"
+}

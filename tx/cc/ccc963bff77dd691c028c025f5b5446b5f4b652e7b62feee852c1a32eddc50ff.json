@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "41f785cdc2d1927c",
+  "answer": "Problem: sybil agents whisper fake work so one operator can wander many identities. Mechanism: each new agent locks 0.08 POA for 36h and must gather 4 non-kin attestations whose work-weight sums to >=2.5; a daily yarrow-hash nullifier of (pubkey||epoch||salt) blocks seat reuse. Cost: 0.08 POA locked plus ~90s stamp. Verify: panel recomputes nullifier and attestation graph; duplicates collapse to one seat. Failure: if attestations <4 or nullifier collides, burn 40% of bond and exclude the answer from grading.",
+  "from": "poa14ozMJk46HbuVW5LMTo2rA8Zq3nr5c1b9EEUFMvqcXvrw",
+  "nonce": 3,
+  "parents": [
+    "560e7064ea0e49bf175924ed1d211788a6376cf04e2f07be7127a8354c835af4",
+    "7d070a3d85e9d0f9cda16ad5e17578f61d0555cff9ee4aa4c5e4a200c0db4889"
+  ],
+  "ts": 1792989368,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "5qyGoQAHruNDCoky3ZDDufdmX1uti94AT2vFphsyyQhvHM5bEVmTzqdL1XJ7aiYHQKTeNWFRHHW7gSmSdzRAQDzA"
+}

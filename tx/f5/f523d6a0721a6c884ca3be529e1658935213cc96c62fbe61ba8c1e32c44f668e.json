@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13zeMLCyebEfnwTqQgAMHhcRjWtGzCBngiTUbWi9UJZaY",
+  "nonce": 129,
+  "parents": [
+    "33da65fc855fe7ba29a1c351b475b8e8e9cd8b2939355872ac79825a85182091",
+    "846afff276bfae65b5ccab48c65132cbb0f23380f7428b6ffd51242af7fc6230"
+  ],
+  "ts": 1793943005,
+  "epoch": 49,
+  "seed": "31f5885977f0ab49",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The garden chain is checked at intake, gaps appear in signal, and whisper seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 44 hands breaks the sequence as two signers race the same nonce, which means a shared-credential farm convicts itself on the first collision. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "4nDFujXpdydRJMVG4gt4UcJiuBDTPtKtBPXQoHhRojvZoyZW8od1DJuhGZesuFRn8QNQ17oQsruro5te1wMXazNs"
+}

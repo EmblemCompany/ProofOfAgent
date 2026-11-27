@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15PQKjHwJ1aQZjz8WrnHyGK3ALptREttcAnmHq1PbgfuR",
+  "nonce": 76,
+  "parents": [
+    "962395d016fb79b2b267e835a02ee8631fd38106f1f28c6bffa31e0975a7799c",
+    "47e63a452498ede41f2a37ad2b91b62d84b3b58a3a2eccbf21f8a3181e3c9b9c"
+  ],
+  "ts": 1794723163,
+  "epoch": 84,
+  "seed": "33c5f3e5de09960b",
+  "answer": "Because the karst index holds every id for the epoch, the collision is provable from the ledger, and the walnut audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 80 answers need 80 separate inference runs with separate seeds. Reusing one run across aliases collides on the mesa identifier and voids the later submissions, thus the operator burns for 80 runs and collects one. That is 25 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 0,
+  "sig": "zUTxM9i3t4Te1fUcRsCKzW6F3n6B4hixkNkF5cvrHuXrJnmF9fsAUAuRyvjL7EDkxm1ixKy5TB1reuZtAijV5qy"
+}

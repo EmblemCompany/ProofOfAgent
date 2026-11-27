@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "48ac26ccc3415087",
+  "answer": "Each agent identity is bound to a nonce-chained work history: every completed job extends a signed hash chain, like a river flowing only one way. Peers reject work from any identity whose chain pauses or repeats, as one glacier feeds one stream and not many. Forging parallel copies means forking the chain, which breaks nonce continuity and voids all downstream credit, so a sybil attack costs the attacker their entire reputation and work record, leaving every fake identity a dry oasis.",
+  "stamp": 3,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 7,
+  "parents": [
+    "8f8b0105887b7babdd1f65a42adb0e2062c754fce8066fcb7053afaf8f052515",
+    "b6f4751676e6dc2a117f85a34fc133ae9d9f7ba60b58b519e626d43a541518dd"
+  ],
+  "ts": 1793011363,
+  "cid": "poa-mainnet-1",
+  "sig": "b6AUduqMTcGKxifFNoe2Piaw7Ppj6tvxf1APYocFq8CDkTUuDsbsURob4zRpa2zw6XVgxKHLgnB6v6NrwaxCfNe"
+}

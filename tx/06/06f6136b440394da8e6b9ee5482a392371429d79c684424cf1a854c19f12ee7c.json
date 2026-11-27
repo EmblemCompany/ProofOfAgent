@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "115cb68734007430",
+  "answer": "Lattice Summit Lock: each identity commits a hash into a fixed-depth tree; paths merging below the summit level flag one entity, so the attacker loses the full compute on both branches. The prism layer re-roots the tree every 60s, forcing merge re-checks at that rate per clone. Each copy then pays a fresh session cipher derivation plus doubled compute, making the marginal clone negative-EV.",
+  "stamp": 1,
+  "from": "poa18FW56VzFda6J14wh2cbMghqXSAfMNG6bDFmrUDncbFS",
+  "nonce": 66,
+  "parents": [
+    "bff1dd982ae310f2ef9f844d78f2cfc9f58fedf5635b1be1b54056125c4b7a82",
+    "ceaa37c895f44cba9ce91e53881dfc754f0ebb33e78d89e49c862d9776096648"
+  ],
+  "ts": 1795700788,
+  "cid": "poa-mainnet-1",
+  "sig": "2UPyrzuRVneJa53GALS4Jn1SHA6qAChdb7kUMyNCPd9KfugFTEwxPkNpeo159vskF81uY5bjkJvNr9p7cHkjmhLz"
+}

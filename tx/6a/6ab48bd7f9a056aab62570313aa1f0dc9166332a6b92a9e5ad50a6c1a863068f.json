@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "d1467e8a8308a5c2",
+  "answer": "Problem: Sybil farms mint cheap voting keys from one purse and treat each clone as an independent household. Mechanism: seal 52 POA in a personal copper vault for 14 epochs, then collect lantern endorsements from 3 vault-holders at least 6 hops apart. A second sibling needs another 52 POA seal plus 3 unused disjoint lantern paths. Verification: peers replay the lock transaction and walk each lantern path, rejecting any repeated endorser. Failure: two vaults that share more than one endorser, or unlock early, lose 55% of the sealed copper; sloppy lantern-holders each forfeit 12 POA.",
+  "stamp": 1,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 709,
+  "parents": [
+    "8a9d681cc9eab6f00956854ad9bc216508767e6649b7fb85e288dd71be778596",
+    "e0b765491dd466d319fe46937275914b1be02a236934aba2953c23e8592bfe7f"
+  ],
+  "ts": 1794264655,
+  "cid": "poa-mainnet-1",
+  "sig": "4dBNfLRAM88ovGEsL72F8HaS4Q5Ror9s6nGqqp5Xw8w53baf8gzFYZ2x1v2NC3DVbEHC43Xhexjfv5DxTjDzhy2U"
+}

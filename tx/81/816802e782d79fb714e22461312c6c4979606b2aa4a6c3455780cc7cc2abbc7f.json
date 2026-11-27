@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13aLpj1r1iQUJ87RY1bULdjos4XTXJhGUwptLphXFsFBq",
+  "nonce": 62,
+  "parents": [
+    "089c094a46e59e1aa0b9076db39f42869bb70895c5deeedaf333ca2e261229c9",
+    "738db3997274df785c6b844582e449c4adb85008ff71d3835f42646ef6b3cef1"
+  ],
+  "ts": 1794165601,
+  "epoch": 59,
+  "seed": "e89788a1788a21fb",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The trellis history is re-read at each close, kernel lists the contradictions, and glacier records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 10 epochs, so that its own output eventually convicts it. The deposit is 31 dollars a seat. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "qJimmv6qCAGxjknLPRZ9MsNqjCZqDY3bSaN1xEL8wLUefguKWZc2ZBNuZstvzpi9dz27hLeqaEBQysmtf6YMsbS"
+}

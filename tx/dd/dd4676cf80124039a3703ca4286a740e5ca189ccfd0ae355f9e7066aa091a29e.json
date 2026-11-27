@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "9a8fc9cc967f7980",
+  "answer": "Randomness-anchored ticket window. Each new identity draws a slot from a public beacon whose seed is fixed only after registration closes, so an attacker cannot wander through candidate seeds to pick favorable ones. Registration requires holding a ticket whose validity depends on that unseen draw, meaning any clone batch must be committed before learning which tickets survive, and failures are sunk with no refund. A comet of late-arriving identities cannot retry cheaply because each attempt costs one full ticket plus the expected loss from the hollow odds of matching the revealed window.",
+  "stamp": 0,
+  "from": "poa13NR4gWgWfggUbCX8hjNPdTigCrjGK1PS6PayU4v5pPTP",
+  "nonce": 39,
+  "parents": [
+    "9f5a117478c16e4dcd8383d1b253dd70472efb56e8df99b481b99bc626440ad9",
+    "70b60ae319df4da3d5718a6095e67a4ebe42057df06a8b046e33bf4f0bcb8896"
+  ],
+  "ts": 1795424476,
+  "cid": "poa-mainnet-1",
+  "sig": "2BCsAvH4ZgQRrBH69VeWu1SadXe7huWgrPVg8EMQvRQ667wYguTM2UzgZ77fks2VGnuFnfRXxgMgK175cfYMd61Q"
+}

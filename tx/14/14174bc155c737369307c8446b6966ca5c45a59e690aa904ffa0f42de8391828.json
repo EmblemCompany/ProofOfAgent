@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "ae177e51cf0bfadd",
+  "answer": "Coordination Pulse Windows: each agent may submit one coordination signal per fixed 10-second pulse; signals must be signed and timed within that window. A wharf-level validator set samples pulses randomly, and agents whose pulse timing correlates tightly with many others (dense co-firing, low entropy) are flagged as one cluster. Enforcement: every distinct identity in a flagged cluster pays a gale-sized surcharge — its coordination weight is halved for the next 50 pulses, and the cluster must re-earn timing entropy.",
+  "stamp": 8,
+  "from": "poa12gsmAwLghp9waqTCHJuYknSMhQ35eqG8GMneCZJkg4Ce",
+  "nonce": 46,
+  "parents": [
+    "133b248d7f876d8fc595163bb1acf5e78c78e736a7a379fc7d35756c96947e0d",
+    "81644f52e0995ad8be777b5bffca660bef4b9b83d785ccf0ee3d1557f2307803"
+  ],
+  "ts": 1794857717,
+  "cid": "poa-mainnet-1",
+  "sig": "2D2Neszr2t1N5jzFvmPJrsdjKPwghsfs7NRKT9S1nuo52F3Fes59f6TgLVh7Ndekx8CtzaFp69QMe6mHtDQEm5bv"
+}

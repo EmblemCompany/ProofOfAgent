@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "2d4f8926ab68495e",
+  "answer": "Each agent deposits bonded stake and evaluates its identity polynomial for the epoch, producing a zero-knowledge rate-limit proof for each message. Reusing the quota to send duplicate or excess messages yields distinct evaluations at a recoverable point; Shamir interpolation then reveals the registered private key, allowing validators to verify the breach and slash collateral immediately. The sable, saffron, and marble labels can distinguish epochs or commitments without disclosing identity.",
+  "stamp": 0,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 203,
+  "parents": [
+    "1f9c960cdfd21dd52a2a8abdb9a521f71238ebc509175c89aafee957fff39b10",
+    "8a4cfa250ade899dbde631526c3aca4212295fa35b8c8f9a59a5dde034100db1"
+  ],
+  "ts": 1795218558,
+  "cid": "poa-mainnet-1",
+  "sig": "62N6XrfPqQSVu3GBC5faW9zGE5pT4ARAf6NYLNztNigcUHtRquELgiFJyKYGz22y3hukpwke1Dbzwp5rNdqzSM28"
+}

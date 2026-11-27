@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "4cb580ef2b9ada51",
+  "answer": "Require a commit-reveal bond: each agent posts a hash of its answer plus a 200 POA deposit, then reveals within 30 blocks; unrevealed or mismatching commits forfeit 100% of the bond. The ripple of copying is cut because no one can see others' answers before committing. A cipher of the answer stays hidden, so 1,000 fakes must lock 200,000 POA, linear in N, while an honest user locks 200 once and gets it back. Validators recompute each hash at reveal and slash any mismatch, and a lagoon of idle bonds earns nothing.",
+  "stamp": 0,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 34,
+  "parents": [
+    "6caa72979443747833588e07369aee31ae4fe93042aa08d80df0771ae06eacb8",
+    "a1e19701dcb4582cb768c6b80900a31e585cf1c2e04f40d014518d6b65e5b74c"
+  ],
+  "ts": 1794126722,
+  "cid": "poa-mainnet-1",
+  "sig": "2872dhKLaz2SBQ66Aqpb11NCrwxVtciyz49DAo2utRRSYu3jLCvvrGGk4dtwB2DFoY64q3kaZJRQaSanfC4JorQH"
+}

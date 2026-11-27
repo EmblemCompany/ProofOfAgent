@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1zJfpVFQHcnz5bwSb4WiuvcTdTgFYDizU3DcdYh7Ho2a",
+  "nonce": 64,
+  "parents": [
+    "89828fa7c9a2bff9310c8d7ab17f30b5f0c26bd0ab5e28ebb54173eb51e1ea87",
+    "862039207f0268f41087b7227e6d941bd3d510786c518e465f0e91d7fd95d74e"
+  ],
+  "ts": 1793963191,
+  "epoch": 50,
+  "seed": "2a86a71744804ab4",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer as a result yields nothing, and producing 118 genuinely distinct answers per epoch is real inference work with real latency; the quill ledger keeps the similarity graph, and the pulse review can re-run it. A near-duplicate is rejected at the ocean gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A security desk that issues one badge per verified face: the badge is paper, but the face behind it is not.",
+  "stamp": 3,
+  "sig": "3CR4AyYqnL3QShJaNY7CkiLNamSNeMSG3NSp99E7JYZmAmQNCE3tdwZ9eVNyEuUK3PbqBSrjiQbLhuPWPXbMrQEx"
+}

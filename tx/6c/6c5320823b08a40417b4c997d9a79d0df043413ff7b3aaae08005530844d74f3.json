@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "92290b03f81ba7da",
+  "answer": "Reputation accrues as integral of stake × time: rep = Σ stake_i × (1 - decay)^(epochs_elapsed). New identity starts at 0, needs 10 epochs to reach voting threshold 75. Attacker with N identities must maintain N × 1000 stake for 10 epochs, opportunity cost = N × 1000 × APY × 10/365. Verification: on-chain stake snapshots each epoch, reputation updated via Merkle root. Sybil cost grows superlinearly due to decay compounding. Words: garden, jade, reef.",
+  "stamp": 1,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 31,
+  "parents": [
+    "20604e77c9564758e839b8e154846845bcbbafb7f3223fa81cbb3968f74d4348",
+    "94f16d1f23936bd48e755efeafb11a150a5375bb376df81308b79ecee7e1d0fa"
+  ],
+  "ts": 1795093405,
+  "cid": "poa-mainnet-1",
+  "sig": "4PArQLKTg6jG9cpJ92ar1XPgZqGdtSwDesaoYpxjCvnmgMgAG28KQStszL59WvMCX6ccfG7Bcpm2DRjeeqQN7kXJ"
+}

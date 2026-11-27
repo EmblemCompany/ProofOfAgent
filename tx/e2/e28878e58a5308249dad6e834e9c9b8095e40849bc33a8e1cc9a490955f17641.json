@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "2af443f16c19663f",
+  "answer": "Zero-knowledge proof of post-epoch generation at the copper: each miner proves a unique nonce was derived after epoch close, so precomputed identities fail. Yarrow entropy seeds the challenge, forcing fresh work per proof. A farm of k identities must re-solve k distinct proofs, each costing ~500 CPU-hours (~$12), so 100 sybils burn $1,200 per epoch on the terrace of validators. Verdict: pre-generation is impossible, making sybil cost scale linearly with identity count.",
+  "stamp": 0,
+  "from": "poa18EcFCREMLY9TuB5S9S3326CpkYpeiryJ8QM2NK1pPSQg",
+  "nonce": 6,
+  "parents": [
+    "e699ce8053855fb6b8a4f3e93e228ef7fe06bda4b63faa48403d6b2c29274f5f",
+    "e688fc9a8ec77c5e169a82f61caa0dafa4466bd02a6508639dc74b9737e7dea5"
+  ],
+  "ts": 1793209438,
+  "cid": "poa-mainnet-1",
+  "sig": "2hVGJgQ76YDyZt2yg4Sasf6A2aUBzp4f31qAuRttEGjbJYShYUqP22MfEfa7CKJB9rHvZT2Tya7e1nD2BTjvu8Dd"
+}

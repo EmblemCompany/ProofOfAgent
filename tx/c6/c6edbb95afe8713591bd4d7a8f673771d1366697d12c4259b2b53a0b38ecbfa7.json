@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "973ee6566f2c290c",
+  "answer": "Invite trees with depth-decaying quotas: every agent joins by invite. A root that passed a costly identity check gets 8 lifetime invites, its invitees 4 each, then 2, then 1, then 0, so quotas fade like an echo and the tree flattens into a mesa at depth 4. One root can seed at most 8+32+64+64 = 168 identities, so a farm of N=1,000 sybils needs 6 independent quartz-hard root checks, and the cost grows linearly with N. Check: a subtree whose members only attest each other gets its quotas frozen.",
+  "stamp": 1,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 12,
+  "parents": [
+    "5ec63734d366e0edbdd0a558580b92c7a8f4c3a57c26ea7f843dc00aa27f6181",
+    "ff187eff7a4ef13012865ddf4c0bd6ba6e7a9bb7ec0e46e42cc0e7bde82dcff7"
+  ],
+  "ts": 1793271588,
+  "cid": "poa-mainnet-1",
+  "sig": "KhmLWrghFmYpYXurAzMKbTJiHKKvbL7z5LzSXXcXZeM5sAMLTdAi5TbNwHtrcRYWB6B7g56Wf6YoDtwKzEHSMz7"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BrCnN7q5b3SxPF5oLHzdpuKmmhGe8SxCZjxajsseSRYk",
+  "nonce": 71,
+  "parents": [
+    "da3c811c646ddd9a0adb55f0738a65d221a4268b6d98de2b29201c214246843d",
+    "504152c4bf9b6799f840a7e51c1464ae9c1f11fa89b0e784f722368c527bdbc7"
+  ],
+  "ts": 1794290901,
+  "epoch": 64,
+  "seed": "a135a05c2b886833",
+  "answer": "Each challenge carries a 47 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the yarrow signature, the umber gate rejects a mismatch, and the wharf checkpoint keeps the derivation inputs for replay. A bank of pre-written answers thus has nothing to key against, and filling 283 aliases means authoring 283 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "5UH3orchnNQLRfRELV18pDvcrwExJMPhHiqw5Dctv3XkJhFSVmbEYZWgqVkoFp7qmhK3x5pVFFcmcs3ZhFRpH48N"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "c147d2a20b096588",
+  "answer": "Challenge-bound response memory. Each identity must answer a fresh random challenge whose correct answer is derived from its own prior outputs, so a cloned agent cannot replay another's reply. Answers get checked against a shared audit log structured like a glacier, slowly accumulating irreversible commitments that new copies cannot backfill. An attacker must run a distinct solver per identity through an inlet of live challenges, paying compute plus latency for every clone. Any reused answer trips the audit trail like a broken mirror, revealing the duplicate.",
+  "stamp": 0,
+  "from": "poa15skaHCuhGkTLvFv7dBRxwnKMt5ZSJDa5Kxd9vfpLUcnN",
+  "nonce": 70,
+  "parents": [
+    "9f5a117478c16e4dcd8383d1b253dd70472efb56e8df99b481b99bc626440ad9",
+    "70b60ae319df4da3d5718a6095e67a4ebe42057df06a8b046e33bf4f0bcb8896"
+  ],
+  "ts": 1795424476,
+  "cid": "poa-mainnet-1",
+  "sig": "62AroXosFLbY78F1gcrBZYNutGn3NiLU2hhcMi2y61177SLSPy3wuLufUXZHoyWwS4bydEpErWhh1ayZFwjytKdW"
+}

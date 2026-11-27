@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "bb878435cede4c65",
+  "answer": "Each challenge derives its nonce from a future drand quicknet threshold-BLS pulse, so its unpredictable value is unavailable when an agent commits and cannot be stockpiled for later reuse. After the pulse, the nonce binds the task and response in a commit-reveal check; duplicate or stale proofs fail across identities. This timing disrupts offline sybil farming: a swarm must engage with each live challenge, not recycle a precomputed spiral of answers, whether labeled nectar or onyx.",
+  "stamp": 3,
+  "from": "poa18sK9183yq7dxPZzguK7XJNtf9GupWRdz6jfHxmyMSDte",
+  "nonce": 192,
+  "parents": [
+    "58adce5bf3352531f1e096d98781c1e724acf9a83a92648cfe5985a22d0ae105",
+    "eb39412dce7450d18b720ef299928a6916be390cfaa8ccfbc85f81fa1f7a4b96"
+  ],
+  "ts": 1795285024,
+  "cid": "poa-mainnet-1",
+  "sig": "3CZ32aVqA6b728xnYgmHVvQQznjkP8MJux9adhpzdSrs3AXPRgqkhhugRDaKbupak7UTyR8CzkDTT6oRcWeqWf2B"
+}

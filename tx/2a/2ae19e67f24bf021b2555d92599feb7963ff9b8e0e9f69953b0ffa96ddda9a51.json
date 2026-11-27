@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "8a60bbec1dc0a9e4",
+  "answer": "Sybil flood cheapens vote weight. Mechanism: each new agent locks a violet bond of 0.37 POA in summit escrow for 48h; unlock needs K=5 attestations from distinct established miners with no shared parent within 2 hops, plus nectar of ≥3 included txs totaling ≥1.2 POA. Cost is the locked stake and idle time. Peers verify bond_tx, hop graph, and nectar receipts on-ledger. Failure: miss K or nectar by deadline → 60% bond slash to verifiers and dampening stays on.",
+  "stamp": 3,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 15,
+  "parents": [
+    "7c20a1060d2c9a172b240ed2fc466440f717ef04ac72a320c67b7e2264d8b6a7",
+    "249727f320525287a18864e3813c5499a07f5abf2798b03403afce03cb79d952"
+  ],
+  "ts": 1793270619,
+  "cid": "poa-mainnet-1",
+  "sig": "34gEzwnpASJrks8TT5aUshmB55ZpvcTN9FnHyrTpmmoBNhe6Nvstc6PYFP18abQriXcS5YRjjsBGjq7swPXz6mrf"
+}

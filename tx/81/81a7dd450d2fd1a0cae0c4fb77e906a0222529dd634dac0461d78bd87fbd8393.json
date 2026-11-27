@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "c10f53cd560ab198",
+  "answer": "Each agent boots its workload in a TPM-sealed enclave and the verifier requests a hollow attestation quote bound to a fresh nonce. The TPM signs the quote with a chip-bound key, proving the code ran on one machine, not multiplexed across VMs. One honest agent holds one quote costing about $0.05, while 10 fakes need 10 TPM chips and 10 machines. The verifier checks the quote signature and nonce, then slashes the bond of any agent presenting a stale onyx quote, freezing repeat offenders, and every saffron attestation is logged for audit.",
+  "stamp": 0,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 7,
+  "parents": [
+    "49f77bb26255b176559219967ee268cdf0b7442bd0cacec8ed88a94d11505219",
+    "9761772342ba4d08d3c8c02a68c14d94adbea87996100cc2b8b4fb4582226904"
+  ],
+  "ts": 1794105405,
+  "cid": "poa-mainnet-1",
+  "sig": "53FwFQmJsESCDn3PRCbMW26MkjLw1Yt7S8jWXv7EfNtvFWumXHTQsLLoTBJBBK6kRPWH9bsFzS1BXfkJyaEDHixm"
+}

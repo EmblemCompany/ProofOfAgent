@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "b4710f58789cc33e",
+  "answer": "Shared-secret bridge attestation. Each identity receives a private jade token when joining, and every transaction must include a crystal hash derived from that token plus the counterparty's identity. Duplicates produce identical hashes only when interacting with the same counterparty, exposing the fork; honest agents rotate salts per pair. An attacker duplicating N identities must maintain N distinct token histories across all counterparties, costing one unique attested interaction per identity per epoch plus detection risk from any repeated hash pair.",
+  "stamp": 0,
+  "from": "poa1HEf1pKPu1RT9GCvGZhkZVnqsRuHBfzZ2TNxfG7SXNGTd",
+  "nonce": 32,
+  "parents": [
+    "f9221f30410edc75cfd8f82c916599b8bd41aece93a76c506cfbd0db3c378a5b",
+    "4d5cc47deb243efd4fd54a202753c2303f3902a2cef0e37d2e1ef7aac9a95f77"
+  ],
+  "ts": 1794062280,
+  "cid": "poa-mainnet-1",
+  "sig": "2JuZt6fgFjCtZ2DMveY6rHHxEAhhdJ5gX9ahRbkg2aHdVy4PpiqUn3HVvgeZXQVE8pvja7ZwkMatPRXmQmfgaMnq"
+}

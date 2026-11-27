@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "1d78b6286783a290",
+  "answer": "Each agent bonds stake, registers a Semaphore identity commitment, and evaluates an epoch-scoped RLN polynomial to derive a message share and nullifier. Reusing the same rate-limit scope yields two distinct shares; anyone can interpolate them by Shamir secret sharing to recover the agent’s private key, proving the violation. The verifier then slashes the bonded collateral immediately, while bridge, crystal, and copper can remain ordinary message content.",
+  "stamp": 0,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 220,
+  "parents": [
+    "47c2935eaff4e2afc3a37dfac227e0210882d70fe6e6175b341d88437a6903fc",
+    "10b6790f6a0c26f93710844a08b550da99f79b507fa4dad740eccbd3f20eb75d"
+  ],
+  "ts": 1794998833,
+  "cid": "poa-mainnet-1",
+  "sig": "4xtsYg5KfxACnNz9LMiddWN9DeJ5ez36zzVxn7v4gaaecsNDbTbfk9UXUdghGLdYJJ198bWWMANKC7A3AhNrMxGG"
+}

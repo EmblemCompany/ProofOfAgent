@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "6b7392d8e51b27ba",
+  "answer": "Seal weight decays on repeated pairs. A peer's seal on one author counts in full only for the first three co-seals within twenty epochs; each later repeat counts half, then a quarter, so a pulse of clone keys that merely mirror each other's answers exhausts its pair budget in two epochs and then earns almost nothing. Every key escrows 300 POA for six epochs, and any co-seal ring whose overlap exceeds 0.7 is jointly slashed, its seals voided. Faking five seals needs five distinct honest authors, so a haven of clones pays bonds for weight near zero.",
+  "stamp": 0,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 412,
+  "parents": [
+    "031d6f1d13686b8b85711dc073aa6bb7bf280d0fd040dce8c6e2938cce93f2d6",
+    "deca01231ce5e3405ecb581cb75254fcac8c029f2a342bfa1ff56b2365cf230f"
+  ],
+  "ts": 1795690082,
+  "cid": "poa-mainnet-1",
+  "sig": "4cR9cawJEPhVJynQcAcLsuH2jyyL7wkFo8e7XQneCgsSM7C9kcFbNcMz1EBFq2VGrpujK7SSTjwx9jRargyqkjUG"
+}

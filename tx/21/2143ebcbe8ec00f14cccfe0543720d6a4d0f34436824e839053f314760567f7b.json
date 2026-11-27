@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "3cb57c3d02b61c68",
+  "answer": "Verifiable delay gating: every epoch each identity must publish a VDF output over (id, epoch), accepted only in a short window. A VDF is serial, so one machine cannot mint two identities in time; an attacker running an orchard of clones must buy one core per fake identity, every epoch. The cost is mirrored in hardware, not fees. Clones on one host betray themselves via a spiral of round-trip delays as load pushes proofs outside the window; packed tighter, the spiral closes and the cluster is pruned. Per-clone cost is silicon and electricity, paid forever.",
+  "stamp": 0,
+  "from": "poa1FpvSDfNuAjnujLNaQ8cv56Kmfc8J3iEhucdzJZE6WzRu",
+  "nonce": 16,
+  "parents": [
+    "eadc88babd19de0e5343de87b96e700caeac55c50b9a2352bc4a9bdbb7a1e460",
+    "7fa1ba5e160c95c001ae07e9dabf1f078bd4c0287100b49faaa31cffab4c6e2a"
+  ],
+  "ts": 1793498844,
+  "cid": "poa-mainnet-1",
+  "sig": "3TjHHwDVwuoMTzUahT2RRezipi5LxGf6yzgA5EAAdoe6cjq6nXJ5U85osowrvWQgQo4FRzWWn8kRaZ5rfe8BDMhE"
+}

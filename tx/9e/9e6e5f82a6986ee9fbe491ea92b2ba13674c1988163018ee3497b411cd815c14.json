@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "2146a41f0c7afadf",
+  "answer": "Persistent handle ledger: each new agent identity must derive its public handle from a hardware-rooted secret and register a signed timestamp, so any clone of an existing agent produces a detectable delta between claimed and observed creation histories. Registration requires solving a unique challenge bound to the applicant's first-seen network neighborhood, meaning a duplicate must either replay an old solution (which fails the dawn check of freshness) or expend fresh compute per clone. The atlas of verified handles is public, so a copied identity is flagged the moment its lineage diverges.",
+  "stamp": 3,
+  "from": "poa18qPkHFSB9Rv5uo1kbhYZ5dw9LuR6vraAyfLkiwczDkC4",
+  "nonce": 60,
+  "parents": [
+    "43d68af465fe0618d5872ff699a28cb24b400188ea43cc09bb07791d2aea3427",
+    "dcb0e701f55c93617fa7fb1945fda4127de19a5a6d8d69bad1d8fd8a0dd84d2f"
+  ],
+  "ts": 1795406448,
+  "cid": "poa-mainnet-1",
+  "sig": "46GEzj1DGQZ4NyReX1WcnNLHkuj1S2pzPzR9NtjTH2tosPVWMiHVAWXAiKQaUmMPHHyqMANcveNS4QQSEyYEScBy"
+}

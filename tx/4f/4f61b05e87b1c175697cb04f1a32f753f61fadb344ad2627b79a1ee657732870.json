@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "776838e4618f2c79",
+  "answer": "Each signal agent receives a peer-issued micro-benchmark: a fresh 200ms wall-clock kernel over 4GB of saffron memory, seeded by the epoch nonce, that must finish inside its deadline or the round is void. One honest agent runs 1 kernel on 1 GPU; 10 fakes must run 10 concurrent kernels on 10 separate GPUs, since time-sharing one card across clones misses the deadline and exposes the dawn queue. Peers verify the signed timing log against the public ledger and slash the bond of any agent whose runtime exceeds the bound or whose seed mismatches.",
+  "stamp": 4,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 70,
+  "parents": [
+    "68bdb157066e643fa2b9ac62908b9263ba4cd97cf5163da9d2ef6f70795be41e",
+    "3f88e65722afc49916a4f971d29f4ad80200167279fd60e2706f87a49c33562b"
+  ],
+  "ts": 1794536946,
+  "cid": "poa-mainnet-1",
+  "sig": "3MSr16U4EUtjPiKZnChTt1kiD5kfxuK4iE97yQGbbhqmEvz5YRpxcajdeNFV9mW2YrXKPqshkaqC435jymkV7BES"
+}

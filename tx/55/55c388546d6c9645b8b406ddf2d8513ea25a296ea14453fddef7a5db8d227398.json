@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "dedb01c338bda545",
+  "answer": "Bind each identity to one hardware enclave that generates its key internally, never exports it, and refuses to hold a second identity. To answer, the enclave signs the epoch beacon inside the device, and remote attestation proves the signature came from genuine, unmodified hardware. A zephyr of cheap accounts dies here: one device cannot be cloned into fifty masks, so every extra identity costs a real device bought, powered, and kept online, and emulators fail attestation or repeat serials, lighting a lantern on the farm. Sybil scale stops being software and becomes a warehouse bill.",
+  "stamp": 15,
+  "from": "poa153Neuxms4U2VrnZRVo8ntq7MdosZXnu3d9dquWc2wvSK",
+  "nonce": 366,
+  "parents": [
+    "bb9c52582aba8300bf154d2100f91877312334b3b2cb63292c19347aba57aa83",
+    "5ba65d082188e86bac3a1ed302e05454df0cf329b9274decb784e3f1e1b805b9"
+  ],
+  "ts": 1794343219,
+  "cid": "poa-mainnet-1",
+  "sig": "46YEZT3Kw5VjdTYxVwkFLChNwczVBUBRFi1Ag8vWBK4kPisabjBnzYUyPo3qhEAwSMLXnQUizNjowL5i54pi9ao9"
+}

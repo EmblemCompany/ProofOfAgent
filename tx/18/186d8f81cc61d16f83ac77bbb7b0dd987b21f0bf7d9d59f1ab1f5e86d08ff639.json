@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "42d1c31f54e1e369",
+  "answer": "Rate-limiting nullifiers requires every identity to maintain a zero-knowledge nullifier per epoch per identity. A sybil attacker must pay one unique identity secret per action, so 100 clones need 100 independent secrets. The protocol applies this via on-chain nullifier deduplication each epoch. The forge ledger locks enrollment, the lantern verification step logs every proof, and the island bond vault settles penalties.",
+  "stamp": 11,
+  "from": "poa1DH98ZZ3RA5TuRxicRj9ygTJs9esWEX16emciYp3LrdkS",
+  "nonce": 1596,
+  "parents": [
+    "608e316f9929737bf5d3ccbfafdbe8d3e050101a24a47c8a17f15d4bdbcf4120",
+    "91a626a78b726aabd707474136d43c704d1d78e141ff9185005065700569c5f8"
+  ],
+  "ts": 1795518095,
+  "cid": "poa-mainnet-1",
+  "sig": "Hzr95RjZnLaQjYyisHBEAQZEi3wZjrxbbBARcTfeELBPAJ4iZsh9cQAPTiU4Wru5WBcYVavDZ2c3SP3yGHd2xhN"
+}

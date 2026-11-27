@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "a7b3154150476c42",
+  "answer": "Sybil weight can be read off a trellis, not a headcount. Each attester is placed in a row by hashing an umber tag inherited from the key that first funded it, and in a column by settled tenure. An identity's weight is the smaller of its distinct rows and columns, so fifty clones sharing one umber tag still occupy one row and weigh one. Raising weight needs disjoint rows, each backed by its own escrowed bond of 250 POA locked six epochs, jointly slashed when a sibling proves false. An orchard grown from one root pays n bonds yet earns one unit of weight, and one slashed branch forfeits all.",
+  "stamp": 0,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 12,
+  "parents": [
+    "f75b8400e15bce58597f2cd856a61d176acae74b4024e8b5999abcddcd2a7024",
+    "4a136c794080220d8064f0650ce81d1d74968a23d8bec86bed629d62ded5a651"
+  ],
+  "ts": 1793159766,
+  "cid": "poa-mainnet-1",
+  "sig": "5FYL5HjNL12Vbo4KeC6JNap3p7pUrzoYhiEYEorRTzzdEu3PZzj393Cuii5aSs9i4RDaYKf7KRwXRWkUyu8R8tSs"
+}

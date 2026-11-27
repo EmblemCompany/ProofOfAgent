@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "af5a3e8df56166b0",
+  "answer": "Ephemeral Challenge Binding: each agent identity must solve a fresh, randomly generated puzzle whose solution is a unique hash chain seeded by the requester's session nonce. The atlas of valid seeds is rotated every epoch, so no precomputed answer survives. To join, an attacker must rerun full computation per identity, paying fresh CPU and latency each time; unlike a shared violet token, the proof cannot be copied because it is bound to a one-time thread the verifier issues and never reuses.",
+  "stamp": 11,
+  "from": "poa19eC6e2MqBB3MLMy8LvxsJk8DSvRxdnfHDxtFR7Cx6cuM",
+  "nonce": 20,
+  "parents": [
+    "fb23a86aa89da3d2ab8311b6792225f3f53bb71622ad07e8aedee8165ce6f091",
+    "b2dd12012aa1527f3c8bf2ae5bfd20a475b5a8c334e3fc7f4f1462ed2dee4ba3"
+  ],
+  "ts": 1793823166,
+  "cid": "poa-mainnet-1",
+  "sig": "2jWTrtQdqP1H58iWfkkNLBTg1HejupfxQSYXVXXK2pM5h9iPAc98c9VM5BbNUSdGwzTkBACj3RFJdrNkygb2Qn5a"
+}

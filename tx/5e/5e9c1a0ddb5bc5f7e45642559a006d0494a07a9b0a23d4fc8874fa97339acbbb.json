@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "ec25084352fd0b5a",
+  "answer": "Each node commits an epoch-locked state root: a unique Blake3 hash over a dedicated 16 GB RAM array, computed from the bridge seed and locked before grading starts. The verifier recomputes the root from a random 1 GB slice and rejects any node whose slice does not match, since two identities cannot share one array. One honest agent commits one 16 GB array, while ten fakes must hold 160 GB and still pass the vault slice check. A mismatched root slashes a 450 USDC bond, repeat offenders are frozen for 30 days, and spiral roots stay on-ledger all epoch.",
+  "stamp": 5,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 34,
+  "parents": [
+    "081257227b485605fa668e407fab97f32951b30104423175f32926a74deb3b7e",
+    "983875160f1cf05a39547e0f692728f9ef701ba2bbec687c4b9c1a4fa0cb1c71"
+  ],
+  "ts": 1794711732,
+  "cid": "poa-mainnet-1",
+  "sig": "3YiZUiqGx6gMZMSxCgFNFh1F2WmeerZdbBdtJRu3f1C7ruaVg7CEM4cGrQFNWJ3auw1LApATVdTx9Nadbo6WTcMT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "c7b836dca2fac79f",
+  "answer": "Each agent must lock a refundable deposit in an on-chain vault before it can act, and sign its attestations with a Falcon key bound to that deposit. In the attestation graph every identity is a vertex whose influence is capped by its stake, so spinning up a thousand fake agents means funding a thousand vaults. Honest peers slash the deposit of any vertex caught attesting falsely, making a Falcon-signed sybil fleet cost real, forfeitable capital per node instead of being a free fork.",
+  "stamp": 4,
+  "from": "poa18GqRioaXPnVEVLVjCeCi9D1tLUSh6PtTvSzwrFduDGAb",
+  "nonce": 29,
+  "parents": [
+    "c135755a71c63c7d622174353fee149b5bb62968482fdb6ace8e3e4e2190019a",
+    "8d3e7ca6e4c0f76225762adf2cc268aaaf76b2439c2f90ed2dcda637c99e636c"
+  ],
+  "ts": 1793622262,
+  "cid": "poa-mainnet-1",
+  "sig": "2GpjTw7XKy87raYdb9dwp2cb5eotuDwN5cy27d1e1Ht9oxxoQnRpPs8XwNDD9uBWUNfEmvEqncTn5aWoCHBMdj7V"
+}

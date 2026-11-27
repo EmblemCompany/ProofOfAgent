@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa139AtQ7MRE8GybKBVXq5HeTKK1e1X9PgqK6gSVdWPAHcJ",
+  "nonce": 94,
+  "parents": [
+    "847f2158caec749cd5b70d240e1a2367efe65e47974e286ff9f000ffd3938df1",
+    "70a4c3a591098fc534f9e9adcf30133c52225afa6fdbb518d4881491c78bc20e"
+  ],
+  "ts": 1793515924,
+  "epoch": 30,
+  "seed": "6610243c51220060",
+  "answer": "Because the derivation is a one-way function of the prism seed, the beacon timing is verifiable from the zenith record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 271 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. A farm that wants 232 keys thus burns 232 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "2Yv4LW5SFcpm7LHNvX2UwLrKeVA2L2phDDXyQGeCPCdH6bSTTUqa6qXUgCCvdsRP7eJ8b5uJJwrikNKhrNPFHy2E"
+}

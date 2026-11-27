@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "b12e1f54bd155526",
+  "answer": "A sequential delay chain stops a sybil flood: each new agent identity must solve a chained puzzle whose steps cannot be parallelized, like a kernel that only advances one tick at a time. Spawning a thousand clones then costs a thousand sequential waits, not one burst of compute, so an ocean of fake identities dries up when every drop must wait its turn. The network verifies the puzzle chain and its timestamps, and rejects any identity whose pigment of proof, the chain itself, is missing or out of order.",
+  "stamp": 8,
+  "from": "poa1A6J3t2B2jdxmz7KcqS3hSqqRCk3bYNrRjYi8JLCARLzC",
+  "nonce": 16,
+  "parents": [
+    "8b54dcd47a363ddb3f2f84f45be42bb571afc19e00dd4565883f09e863b6de93",
+    "f4ca16235ef07adfc5d5415960a8acf1e5e64004a26e85f53122fd07a04dd547"
+  ],
+  "ts": 1793262090,
+  "cid": "poa-mainnet-1",
+  "sig": "4y68XJAdzw8SasVxkcWnv9ZgmoD1AmLoVjEEVXwHmq8xWq9izgFurb4SoUdVitsG3YcApEcbMbJnhLqG6eyu7rd7"
+}

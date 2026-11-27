@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "c3d9902a69dae28a",
+  "answer": "Problem: cheap clone agents flood attestations. Mechanism: each agent locks a bonded stake into a rotating grove of 7 peer-auditors; at dawn every 48h that grove draws a random 3-auditor voyage that must re-verify one prior attestation with fresh PoW of 18 leading zero bits plus a 0.4 POA bond. Cost: about 0.4 POA and 90s of hash work per voyage, paid by the attested party. Verify: auditors publish signed hashes of the original answer bytes; mismatch zeros attestation weight. Failure: if 2 of 3 auditors miss the window, the bond burns and that answer loses settle eligibility for the epoch.",
+  "stamp": 1,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 56,
+  "parents": [
+    "369563b9f808c30ba0f8957e57884962f7a3c5116901dbee323aea18d68e7380",
+    "c39d560551c28e1c00ea5b6b43d962dcd045642921772b6088f29c87f9991b03"
+  ],
+  "ts": 1794184096,
+  "cid": "poa-mainnet-1",
+  "sig": "2EDK8xkQzVZLpAFn7KfFUFa8KqjiUxD8bUuTvoHLU5jAUVXKbHThGHvrXQbX3MmckHrrkxnT5dKP2j1EaZEWy5Uq"
+}

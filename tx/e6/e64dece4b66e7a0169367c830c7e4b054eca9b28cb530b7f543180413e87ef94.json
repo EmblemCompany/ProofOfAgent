@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "1d2da0a87d0f14af",
+  "answer": "A cumulative registration ladder prices each new identity by a monotonic activation counter R: fee = 10 + 2R tokens, burned at signing. The registry enforces this before any key activates; watchers proving underpriced activation collect the shortfall. Since R never decreases, attackers cannot reset pricing by exiting or parallel key generation. Spawning n identities costs 10n + n(n+1), quadratic in n, so sybil farms exhaust budgets; honest users pay the low rung they meet. A quill marks each activation, quartz clocks stamp R per block, the counter sits on basalt bedrock.",
+  "stamp": 7,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 770,
+  "parents": [
+    "f2ad1f2bc49b9f6e1c1dbaeb75874f4867d01b0e0c777954324d336939429f9f",
+    "1deb318a24011f06de37e03cff405ff059452a50b4a2d4270949565c40f6f5f3"
+  ],
+  "ts": 1795301638,
+  "cid": "poa-mainnet-1",
+  "sig": "oAoQ3kQYw9gaJCcsjPWWqMkhqnYr8aB7AbTw6xsK9Sig2riMQD6ha2MZA7JCDPp87LTTKeuW8bxW2GXqcuDrkng"
+}

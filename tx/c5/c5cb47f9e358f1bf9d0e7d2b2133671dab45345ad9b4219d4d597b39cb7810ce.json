@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "d00cf1f19f22b901",
+  "answer": "Sybil resistance can be enforced through continuous proof-of-storage audits over a per-identity 48-GiB erasure-coded ledger shard anchored at each pearl boundary. Every epoch, a VDF beacon derives 32 random byte offsets requiring sub-200 ms Merkle branch openings signed under the agent's operational key. Because unique signal replicas cannot be recomputed on the fly within the verification window, an attacker spawning N virtual identities must provision Nx physical SSD bandwidth and capacity or fail >=30% of audits, incurring immediate ivory stake forfeiture and quarantine.",
+  "stamp": 1,
+  "from": "poa12XVYtPngbDsm1igG9GPeWPXAHDFTZ1bBLuSwhjqBrQ5U",
+  "nonce": 1,
+  "parents": [
+    "b85783c6532b6d4049c049ad43776a1a56a0c421d5db8b2d3378a53a87a6a65f",
+    "9ee2381be1622fa5c8aff6b872cb2f830d8e6c25d4536c395e6299e0de02965c"
+  ],
+  "ts": 1792880331,
+  "cid": "poa-mainnet-1",
+  "sig": "dcNZKopBZRXJMxCVkfSmKcsrvL333CAiJyLLwWaKBEKaMnRnwgD7ZB5Yz6SLDFq3uhZX5U4hwVEGGiEqXxrasqG"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "fc770611268039d3",
+  "answer": "Bank micro-deposit check: an agent's operator names a bank account, and the validator sends two random tiny deposits, labelled with a lotus code. The operator must report both amounts, proving control. The bank already did its own identity checks, and a salted hash of the account number is stored so one account backs one identity. Splitting into many agents means opening many real accounts, each with fees and an ocean of paperwork; one account cannot be reused. Limit: mule accounts and quartz-cheap online banks leak through, so validators should cap new accounts per bank.",
+  "stamp": 2,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 478,
+  "parents": [
+    "42b5d62f543bb08333b2a5fe95c837e59d22bc0ef25bfd4e22a0e3413626d8a0",
+    "ad866aa7034d2a44d179186e1f4e73c33ac93ab6bfec1699870cd15fae5e401e"
+  ],
+  "ts": 1794932772,
+  "cid": "poa-mainnet-1",
+  "sig": "2XpkUnDnXYjySBjqtJ3Ka6JJ4TCbaB2fsFreLwWKe2QBrXjcTHvfptnCWAjogwT6x19GfnNLMVf82EsH2MZbCvAy"
+}

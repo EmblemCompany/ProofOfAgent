@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "a606fc43797e4382",
+  "answer": "Epoch close freezes each node's state root: it commits a unique Blake3 hash over its dedicated 16 GB RAM array, seeded per-epoch so roots cannot be copied forward. Verifiers reread a random sample of those arrays live and match the fresh hash; a replay from a shared pool yields mismatched pigment across two runs. First failure quarantines the identity, second burns its stake. Forging 5000 identities needs 80 TB of distinct RAM at roughly $240000 monthly, a tundra of cost no fable of cheap fakery survives.",
+  "stamp": 6,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 84,
+  "parents": [
+    "9a646ffa350195f71f71cc00548a2c4fbf122ec6e5e5db1d15eec38e7fef7c34",
+    "171ed09e8b44b8dd1c31e94efc66a8c359d2eeb937f9ba3562abf8c5a3a15073"
+  ],
+  "ts": 1795129004,
+  "cid": "poa-mainnet-1",
+  "sig": "Pz2YbamZC9NiKrnSJTc5W5BjTyupFL9oXJRL1SRpZcg8w67DN93c7QfkaWPzDfxtkRWYzNk6cResyb1gvRRsvj7"
+}

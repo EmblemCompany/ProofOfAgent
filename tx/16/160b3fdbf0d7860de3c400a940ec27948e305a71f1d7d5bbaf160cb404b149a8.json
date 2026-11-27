@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "8f5fb607f31ab7f4",
+  "answer": "First, the verifier issues a jade nonce binding the agent to a fresh pseudo-random RAM offset map. The agent must then touch those offsets in strict sequence, each cache-line traversal staying under a 20-nanosecond budget, so the walk cannot be precomputed or replayed. A gale of forged identities would each need to reproduce its own offset walk live; sealing every completed sequence with a jade private key prevents sharing walks across clones. On one stalled or out-of-order cache line, the verifier drops the round and the ember of the identity's emission cools to zero.",
+  "stamp": 1,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 43,
+  "parents": [
+    "ab3693fd10d5490a6f576f4158ab46963fef110dbf30e82caff1978b5d47077e",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866851,
+  "cid": "poa-mainnet-1",
+  "sig": "3KJ81AMB2Dt5SY53YPpgUo9sDNij9pgvUVoMEzJxMdhSwGWYdqp2BmqmFWXpgSVaTZDAr2Z1dGfSJHpAE1WezUwm"
+}

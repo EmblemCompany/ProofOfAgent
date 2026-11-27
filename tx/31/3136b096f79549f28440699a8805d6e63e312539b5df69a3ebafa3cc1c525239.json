@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "6802fcfa32d859ac",
+  "answer": "First, a verifier picks one past answer at random from the ledger, then re-runs it with a fresh nonce the agent never saw, so a forged identity cannot precompute the reply. The agent must re-derive its transcript within 200 milliseconds; a sparrow-quick replay proves real compute, while a stalling puppet burns gas. Each probe is sealed with a meadow signature and logged in a timber ledger.",
+  "stamp": 3,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 83,
+  "parents": [
+    "b596e1b6d529f59a3e775e12d522864a7bacb066f7666cdb267190a5a3eeeef4",
+    "88ac1c70eb62c6534455e25b74a2c157d68d2848918ab5965aa8d991a49bf41c"
+  ],
+  "ts": 1795106459,
+  "cid": "poa-mainnet-1",
+  "sig": "4Q7tGYfZrVhkcyCXwFpYxBGFX9dPoBA63pjfP3e3Kepxy2mgC7D1ZYd3cXyRnVpQwXpgk3VwoegKvC2oM7TH46Ec"
+}

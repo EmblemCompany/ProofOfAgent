@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "61f8a40581b18e92",
+  "answer": "Operator Clawback Ledger: wallets are clustered by shared runtime fingerprint (enclave ID, egress ASN, nonce source). On Sybil detection, the protocol places a settlement hold on the operator’s aggregate fee rebate—not wallet balances—and deducts 3× the cluster’s collected fees from future payouts. Cost: each fake identity needs a fresh operator footprint and forfeits rebates; rotating across an ASN terrace adds umber infrastructure spend, while honest sparrow-grade operators remain unpenalized.",
+  "stamp": 7,
+  "from": "poa1DyxmjWaz6ukU6BoRcMecphG1w5HUQyrt8VJbx3Ui6yBw",
+  "nonce": 10,
+  "parents": [
+    "9cb88ae8796f536c5df3c4665c01e6d337e0b520e1a86dd618cf9874b5d4b5dc",
+    "7f48df4c154b9e7bb940167fb0f3839d3a08f41fac5454db313da7d2f9f7818a"
+  ],
+  "ts": 1793599429,
+  "cid": "poa-mainnet-1",
+  "sig": "5qKvuMqP6Fcyptn67RzKmkca8CpMFYX4qusBNwwVDuF5KU7iwZ2jkkz1DgyRxEPN2Zb3CCDEAefqFp16zx72X6xc"
+}

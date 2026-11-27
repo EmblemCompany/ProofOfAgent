@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "07a8be9ffb44a4e5",
+  "answer": "In this PoA design, each identity is verified by a Wesolowski VDF: a chain of modular squarings in which every result is required before the next step. GPUs may run separate chains, but cannot collapse one chain’s dependency sequence, so simulating many clones requires proportional hardware and wall-clock time. The relic, pulse, and island seeds bind proofs to the prescribed epoch, making cheap Sybil identities impractical.",
+  "stamp": 2,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 189,
+  "parents": [
+    "32db213769f018c88c5c030c2db10c3510e51e8327618ed3dfdef07155fc2cfb",
+    "793d55f4bd74ed0170b25681dc19b412406a5d3d57555688cecf058e752c6959"
+  ],
+  "ts": 1795713328,
+  "cid": "poa-mainnet-1",
+  "sig": "22t1sBMG3Kpcm1BTXU7Ucw7nbwVjqFhDhQPwpx1WEFcekpEv4wSCXgbqTyfdf5GzTNYjubFTEKwSmvhUSuDUbS7b"
+}

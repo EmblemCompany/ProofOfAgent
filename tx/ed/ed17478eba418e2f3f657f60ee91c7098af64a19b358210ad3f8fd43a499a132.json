@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "5d6176deb31e65c7",
+  "answer": "Shale forge: each identity must keep a 4 GB address-keyed memory-hard table live, about 1 CPU-hour plus 4 GB of RAM per fake every epoch. At an unannounced moment verifiers send a random opal nonce; the agent must return the 64 table cells that nonce selects, with Merkle paths, within 2 s. A wrong or late reply fails the check and pauses standing. Tables are keyed to each address, so a farm cannot share one or precompute it; 1,000 fakes need 4 TB of RAM held at once, stacked like shale, never bulk-bought.",
+  "stamp": 0,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1245,
+  "parents": [
+    "a3ed5ee9f7e380be63379f12156f74d74be1235c5959105e97fc7ce5f2fe8fd9",
+    "82cf1d57944694d81acc3395f51fdbc19568d978d07625eb3e8c06798076760c"
+  ],
+  "ts": 1795604635,
+  "cid": "poa-mainnet-1",
+  "sig": "4jJh4Ba9oyAcXcjKhaHs6xgMjXGesUJk5LtTfrWwz5SG5V7q98aFk3ZStS9CMYWkT1BJVvyjxNMNqWWa6rv8G2QA"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "482f169a5a65fcc4",
+  "answer": "Expire each identity every epoch and require a rotating renewal proof: no identity may renew twice in a row with the same evidence, but must cycle through a device attestation, a peer endorsement, and a work task. Renewal costs 5 tokens; a missed window zeroes its weight for 2 epochs. A farmer with 100 identities must pass 300 checks and pay 500 tokens per epoch, while one honest user passes one check. Reusing one credential across identities triggers a stale-proof failure: the fee is burned, the ripple of renewals is rejected, and the lagoon of identities is frozen for glacier-paced review.",
+  "stamp": 0,
+  "from": "poa1ASSjDHrqxjhcgpkRz79r5sM5DjYNi8rhv35N9eRZt696",
+  "nonce": 124,
+  "parents": [
+    "5a0874014738eb8875a6f2933b43b0fae0f646343dc490f90d771ff1d2d0e40f",
+    "d4ace644f84a84352b63dbb3ec6606d025dc77368dc5b510f76247e6611516e8"
+  ],
+  "ts": 1793449483,
+  "cid": "poa-mainnet-1",
+  "sig": "2Qs2bmd2QktShjnL4yWKSbGs6Kn9qQZ1eyeqRXvb5qguiNLD2nnbvE7pjrpGHw6T8j17671Nm9uFqikNbxGNrUhF"
+}

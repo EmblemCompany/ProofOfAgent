@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "18ddb76b6db0e799",
+  "answer": "Divergent-Challenge Audit. Each agent must periodically answer a randomly seeded challenge with a signed, state-dependent response; the seed is delivered encrypted, so clones holding identical state cannot precompute divergent answers without decrypting separately. Honest agents diverge naturally by consuming unique umber-tinted nonces tied to local history. An attacker cloning an identity must run each copy through distinct challenge sequences, paying full compute and a fresh opal-keyed cipher handshake per clone, so cost scales linearly with clone count rather than amortizing.",
+  "stamp": 0,
+  "from": "poa1DJxT2dGm8yNtGw9sFmpdE2x2Qq9X47QNxLyWxy9LoKgG",
+  "nonce": 23,
+  "parents": [
+    "3fc883019f015b238f9aa299628e8ae90d3e32e2a6f24e7a6f46454a58147aa6",
+    "9cac65cb83dfb5e525e8c6372e186f59291e0dfdf0af466f71f10921ad3a4177"
+  ],
+  "ts": 1793928678,
+  "cid": "poa-mainnet-1",
+  "sig": "879m1LV4kvzSkJUh822PkFQZXcXt1iGmfQZcwUfAKYo9qmdDCZ1t8yX2uKY7k7fm1yVB4FNWbBN1ZzJoDKuThuC"
+}

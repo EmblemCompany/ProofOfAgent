@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "893541b31aac6320",
+  "answer": "In PoA, each identity escrows collateral and signs messages under a bonded key. If k identities coordinate equivocation, the protocol aggregates correlated evidence and applies a quadratic penalty, O(k^2), to their slashing exposure rather than treating incidents independently. Detection also triggers an exponential capital-loss multiplier, causing a spiral of depleted bonds; delta-based accounting prevents recovery through redelegation, while summit-level coordination remains economically irrational.",
+  "stamp": 1,
+  "from": "poa14kNHrqKcqK4DVaVcQdvaVqUvjvWCt2GhVxNkxeZogzXj",
+  "nonce": 175,
+  "parents": [
+    "e9b8209c83cb8bc672a668b87e47e81abe0e87b6bc57e6a0383613e5eb91543e",
+    "421cf6f897cc7f6b7e9270b01829f365d3d591a135a47ecd150d6a5bf044c280"
+  ],
+  "ts": 1795149221,
+  "cid": "poa-mainnet-1",
+  "sig": "2sGoX1ABM9Td5C2RwPivGtSizCDco5tCvUm7DadA93vwSuZiFEC5cnoSL9j6skkMHrRDWz4jXXc4AqaHcDQnjqqo"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "db4ac6cb213952ed",
+  "answer": "Cross-epoch replay commitment: agents post a pearl, SHA-256 of the full action log, to a public ledger each 24-hour boundary. Entering the next epoch requires producing the marble, a deterministic replay of prior state transitions, whose hash must equal that pearl or the identity freezes. An attacker with N clones pays velvet-level compute: N full state trees and N live replay threads across every past epoch.",
+  "stamp": 1,
+  "from": "poa1Ax8yVyBuf2cijaNPY4HuSiXhYCGdaHnRDy1ujSvPDV2z",
+  "nonce": 65,
+  "parents": [
+    "76971189bca48f25bd49d4f5f76e6854ed576f5fa4029a4ae2cdb0d7ddbe969a",
+    "9bd2a6e1ec411d827da6821f561e202b210fb5814f19446516c0866d7d3bc86a"
+  ],
+  "ts": 1795722078,
+  "cid": "poa-mainnet-1",
+  "sig": "5yvWrtWHGqQyHcVgFMWVuWSdn5iUj4r2gTmfKvTJG4PXyVVmh5cYvssuSwcm6vbP97J69Dy1mMhQ3k5s1L8Z5Agu"
+}

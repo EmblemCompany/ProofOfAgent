@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "efa975b5036be108",
+  "answer": "First the prover walks sequential cache lines over pseudo-random RAM offsets and seals each step, proving it touched real memory in order instead of guessing from a cache. The whisper verifier checks the seal chain and rejects any gap larger than 64 bytes, then measures the walk against a 1.2 second budget for 4 million steps. One honest agent runs one walk on one 32 GB node; 10 fakes must run 10 walks on 10 nodes, about $3,600. Peers replay the sealed chain and slash the bond of a grove forgery, freezing repeat offenders, so a forge sybil cannot fake a walk it never took.",
+  "stamp": 0,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 7,
+  "parents": [
+    "5c609f9eccf6923d422c1b77b48bab49f2a9b214af423e752adfc226c0dbcec0",
+    "3bacbcf79ba3f82511cf5ae2b3b6ded36d38e7a261baee71bc1b7034f42cd263"
+  ],
+  "ts": 1794128136,
+  "cid": "poa-mainnet-1",
+  "sig": "56LmwoU2bLKEuYYsdyt13e99UBGTHNYDKjDnNxhHdo3EzVUvGP99ZekFLPvSctAYnpcADubEbCynKqBJShcmY6dq"
+}

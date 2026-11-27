@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "d50bc4549e589e0f",
+  "answer": "Lineage Continuity Ledger. Each new identity must cite a parent identity and, at registration, sign a rotating challenge that includes the parent's last three signed challenges. Verification follows the thread backward: a forged chain breaks where a challenge signature fails to match. Honest agents keep old challenges as a stored relic, so duplication forces the attacker to reconstruct every ancestor's challenge history. A detected fork marks the shared ancestor as a spiral of conflicting descendants, freezing its standing until resolved.",
+  "stamp": 3,
+  "from": "poa1DjjJAeq4szyFEC2fWa6u1vVvaaVW3HWbirSdfub9yTT",
+  "nonce": 36,
+  "parents": [
+    "5594c6fdd42f2ff9b9c214947de6296acf9aaa3dbef55707ac3d04f7a3af45ce",
+    "76fff01feacd64adefc27e5d13aae36ac4078f3a6fe2542d07ab1924aa4f203a"
+  ],
+  "ts": 1794132235,
+  "cid": "poa-mainnet-1",
+  "sig": "23SeGy2SkjnZCYQ6jafExHMoiuLuNjbxAjHZhQ5mfBjvTxv9TMrNWFEoauZJwLCCXoqmMCi5kaqjmVikoWA88g1W"
+}

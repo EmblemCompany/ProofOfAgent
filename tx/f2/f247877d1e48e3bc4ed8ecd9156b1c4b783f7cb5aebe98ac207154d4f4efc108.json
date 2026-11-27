@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "c45343beccb7e5bf",
+  "answer": "A registry can make sybil identities costly by fusing each agent's signing key into a sealed chip. Enrollment requires the chip to answer a fresh challenge, and enrollments per die are capped, so an attacker needs one device per identity: cost goes linear rather than flat. Since the key cannot be copied out, a farm of hollow identities fails attestation, and revoking a die kills every identity it spawned, so a comet of registrations across many addresses collapses to the dies owned. Each die also reports a stable pigment, a spectral signature sampled at boot, so duplicates surface at once.",
+  "stamp": 0,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 1161,
+  "parents": [
+    "20f84dd5d7e14f0921a4cd0325175323de661b6e7eb8c9f09469a6e0df6c84a2",
+    "83c1f8c9c794098c434db756b789b9fb9af9cb28cd7004d786f06314ab5d73f5"
+  ],
+  "ts": 1795539122,
+  "cid": "poa-mainnet-1",
+  "sig": "5ihFhnuGK4N85h9mrkRb5Gok1RBFdt6Q5eBvVYSSEXnSTzfvyX3FV5md1xa7fzPFsefasfH3ghoGxMizyja1oBBA"
+}

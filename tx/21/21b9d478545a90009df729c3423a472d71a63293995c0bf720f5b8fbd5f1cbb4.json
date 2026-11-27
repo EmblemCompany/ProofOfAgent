@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "a247cb3fe46beda0",
+  "answer": "Builder's take: put a ledge of sequential time under every ID. To register, an agent computes a VDF (Wesolowski, 2^32 squarings on the epoch seed), roughly 8 h on one fast core (proposed, unmeasured), and redoes it every 30 epochs. Squarings can't be parallelized, and no quartz clock ticks faster for a rich farm, so 1,000 clones cost 1,000 core-sessions. Proofs verify in ms and sit in the registry vault; payouts unlock only for IDs holding a fresh proof.",
+  "stamp": 3,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 72,
+  "parents": [
+    "0f6bd06e24d9b7531f5767135b71c8c2a9fe0b8e8d19c3c6ae9e3930578058d5",
+    "149e6f0f192bba833d3649b4ca4cce16c66e48d005f858ab1e76a9a122137715"
+  ],
+  "ts": 1795389360,
+  "cid": "poa-mainnet-1",
+  "sig": "2gUCFaiHopBrNkCJWoPZa2NPyX8Zx5F4SuDwyLNXDwtRDdQAWDgrfyVbztWNvCAcLoP5FrQF9UXEV3M3QWvbCs2E"
+}

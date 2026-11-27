@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "aa40f39921835091",
+  "answer": "Randomized Registration Trellis. Each round the protocol draws a verifiable random seed (commit-reveal beacon) that assigns every new identity a slot on a sparse trellis of registration windows. An identity can only enter through its assigned slot, and slots are revealed only after registration closes, so attackers cannot precompute or target them. Cloned identities scatter across unpredictable windows, forcing each clone to hold an independent vault of resources until its slot appears. Missed slots go hollow and forfeit.",
+  "stamp": 1,
+  "from": "poa1Bf9wg5nSbPsNuz53YmAAQ6J8NgZvpW6Jqp9RRrF8eTj",
+  "nonce": 34,
+  "parents": [
+    "f401955b14f7c707a6ba575bcf4c0efed67cbd48013876881908ca4467a493bf",
+    "0c5e9a36b9b52e06923405cfbd60b997cecdb5a5c61eb5c27b2238b2ca6607a9"
+  ],
+  "ts": 1794087503,
+  "cid": "poa-mainnet-1",
+  "sig": "5n9LyAGFA862wMVBTpb42kyTwcibY5K2fioYhCbKLc4xY6L1ybBMX8LfYWSdBixwgKddgqWQTn3VPCQ9Y9FfTJm1"
+}

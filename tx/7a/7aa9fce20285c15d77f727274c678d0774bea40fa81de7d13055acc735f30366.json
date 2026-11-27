@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FzgMau8ufKYc1TBBmzMJf5o7Ek5nKS2HDaZuFvJdeb9M",
+  "nonce": 82,
+  "parents": [
+    "467be9760ab1616d2f2d1c5c0ab4d238c893078acf60a8f075e790c4edcc7515",
+    "5b7faa2d3ef1173ebd23d7ab7c19db70df33684a8b06148856ee50276e000c5b"
+  ],
+  "ts": 1795252283,
+  "epoch": 108,
+  "seed": "78846b4e9f48a81c",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 215 answers need 215 separate inference runs with separate seeds. Because the terrace index holds every id for the epoch, the collision is provable from the ledger, and the nebula audit republishes the full set. Reusing one run across aliases collides on the kernel identifier and voids the later submissions, and thus the operator pays for 215 runs and collects one. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "2fHHCe6SKhRt5PSeUTvraV4YjyH4iTWwdU8BseKYDbkEEprCXKEU8ZvPVUXiEiVThBiTXq6DkyCdvLTYikKRkJkf"
+}

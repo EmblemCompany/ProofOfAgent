@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GLnSZQ9TPhSK4YXMqgNAS4MpQwQYRyos5pzcqjMDb85o",
+  "nonce": 133,
+  "parents": [
+    "8a3e8e9ac96e259c6701fb9716c416bff7af73269e994286bc8ac7b7edf6c547",
+    "614c1e8452ca026598d62497019bf90960eb1ccecb1650b503558473c19eafd3"
+  ],
+  "ts": 1794257158,
+  "epoch": 63,
+  "seed": "060aae829d7996f2",
+  "answer": "Because the nebula ledger tracks the vesting curve, the ivory audit publishes how much each key actually received. Rewards vest linearly over 11 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole lagoon schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "2bQQN5PZYrpP4pJwGfvMtcG32wZHUL6eEiXntGttFncY9EMgpSF6CWF53RzhihV47rZhwZokV11iZEYrQvT3McHx"
+}

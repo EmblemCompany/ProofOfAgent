@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "56b584dc62640c9e",
+  "answer": "Each agent periodically emits a signed beacon containing a short cryptographic puzzle solution tied to its hardware‑bound key, and the network timestamps the pulse on the shared ledger. A lightweight sparrow verifier samples those beacons, rejects any output that duplicates a recent puzzle solution, and requires fresh work for every transaction. An attacker must forge a unique hardware key and solve a new puzzle for each fake identity, raising the cost linearly with the number of Sybil nodes.",
+  "stamp": 3,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 61,
+  "parents": [
+    "13692a68728ddaedc56e1c768bb2e609fc8fad6a2edfa7efe5fa58d342cc4e32",
+    "3c365be6e172e41286f2d2fd9042696d70fd235a19a5cd221f7180b394a5f63b"
+  ],
+  "ts": 1794492146,
+  "cid": "poa-mainnet-1",
+  "sig": "2BVFLuB9dAAWjkQknNh78ZwpAhe2MjJ1mdvHwZWtx68q6pnCx47DtM8uDJQwDzTpUkbD6VP8xid9gUs5ARbwSJGt"
+}

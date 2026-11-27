@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17QQeYhVmV9mqCUGiEu6FvE8NarfMMVWfDSj2YnNJsXg5",
+  "nonce": 60,
+  "parents": [
+    "91932d31bb0928c1c893ca9e3924e1a36edd61d8e04c324f952f1b8b11685e61",
+    "839bdde72e26e4825568ff0f753aa8209c79b53ecea822905a94b7992ddbeb8a"
+  ],
+  "ts": 1793674222,
+  "epoch": 37,
+  "seed": "df3c3c5312ace0cd",
+  "answer": "Every transaction carries a minimum fee of 2 units that is burned, and the fee is charged per signature rather than per batch. The garden debit happens at intake, trellis totals the burned amount, and atlas anchors the receipt so the burn is independently checkable. A farm thus pays the burn once for every alias on every epoch it wants to keep alive, which is a recurring cost with no refund path. Honest users pay that once, farms 14 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "2w6DDZdCXj21hnm5MQXZicQ9iB5BWEZaV3KKU4G189cg1MpgeuLJEaS24epQWqgibD17FjfhVT9Gee8a1giVgxvS"
+}

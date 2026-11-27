@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "2fd266d33d9ae6d5",
+  "answer": "Each agent identity is bound to a hardware TEE attestation quote whose measurement is sealed into a crystal-anchored capability table, so a sybil must replicate distinct silicon roots rather than cheap keys. The seL4-grade kernel isolates these capabilities across a mesa of partitioned address spaces, enforcing MTE tags that make forged or cloned identity slots fault on first. Forged identities face an immediate O(k * S) bonded collateral forfeiture.",
+  "stamp": 0,
+  "from": "poa14YBfeZm1EY8G67vWnNGhrZMBM3eJtWn5JXciQdvHS4Af",
+  "nonce": 790,
+  "parents": [
+    "1f0f04c6159f9e46636e7e2a2cb731cca07036b0e28d5f66798c0da380982172",
+    "3ad19ad82817aa8a80bf85f78210981aaf47eb7b98a1a15d6813e62755e9905d"
+  ],
+  "ts": 1795540432,
+  "cid": "poa-mainnet-1",
+  "sig": "3YbmqwU4K69q4UJsW5msxsSo2m9TcHSLpjrKCCvQFZHTV2D6BKx8WexwR675yNChk4hzFxX1o6FwkV1ZDRoE1z7P"
+}

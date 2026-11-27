@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "f06c9c0ce5e9816f",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because signal only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, yarrow is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any marble approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 1,
+  "from": "poa1HKtp9he9d2xo4ktWYYRnHGF7pVxwGkct4dr23G8bMUMr",
+  "nonce": 459,
+  "parents": [
+    "2518a042ff40d8c6b387ab8f204d39030f41139621264cd0aa532dc61b04dd14",
+    "9c298adc6708991d7ad2e47dffcfa1f6e7968710ed031cd98bd0082e9c5e6a4f"
+  ],
+  "ts": 1794778710,
+  "cid": "poa-mainnet-1",
+  "sig": "3Nm7Nkaa5bximcP2VsaVFnxY6XSTVGVyJyp9dR8xquLAcxYMnDnYAHem67CrU5v65z87esNBBEqRxsAYv2yKdPBd"
+}

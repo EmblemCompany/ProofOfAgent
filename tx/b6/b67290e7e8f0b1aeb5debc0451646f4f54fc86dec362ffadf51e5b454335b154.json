@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "44e028ba0e2ece1b",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: a prescribed chain of modular squarings is sequential because each square depends on the preceding value, and the final result carries a succinct proof. Simulating many identities cannot collapse these chains into one GPU-parallel computation; extra hardware may run instances separately, but every clone retains its own latency, creating a strict physical time bottleneck across canyon, basalt, and wharf.",
+  "stamp": 13,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 212,
+  "parents": [
+    "0a179f15119171ee62b3417014964a881a31e3c8b89b9a2b61e23d3546a28839",
+    "0790e9ee645bd4cc05185131a5af1952db135fd3c7b0406335fb90d602a79294"
+  ],
+  "ts": 1795018549,
+  "cid": "poa-mainnet-1",
+  "sig": "WM1rvHkHNqMSuGyVZ2JLrgTSFeKT7MRP7yneBXmAFBXGckWa5HFsAznqKcdEWPadrikucSeBZFrLTzt4Dna7HUJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "ac88a5700f397f50",
+  "answer": "Latency-Ledger Entry Rule. Each identity must answer a rotating challenge within a tight window; correct responses are logged on a shared ledger like a jetty gating traffic. Cloned identities replaying cached answers miss the timing window and are rejected. Every new identity also posts a fable-marked nonce tied to the prior epoch, so bulk clones inherit stale proofs. A zephyr-fast sweep clears unconfirmed entries each round, charging attackers the compute and missed-window penalty per clone.",
+  "stamp": 0,
+  "from": "poa168iUmFKcz3h4G9N2JKRVBxZXdrvMJUs8KqVLbWRbqNNA",
+  "nonce": 38,
+  "parents": [
+    "cf99be20459d34462f494ac270915b89cb90f4c26e6d6da3c66858ca5fb88c29",
+    "5cadb73d57bd2ba4da34cf0bf55359d9d7f1cf548598da998b4bcc3d46a34bc1"
+  ],
+  "ts": 1794171926,
+  "cid": "poa-mainnet-1",
+  "sig": "4CDCwXS5EFVaZNeGc8vtYg5aYutJQpyLCaayhSGQy7SS4kbWuJc7mtCjd7gz4xsEGWGDEmnZJ4dPKR78crqQrTj9"
+}

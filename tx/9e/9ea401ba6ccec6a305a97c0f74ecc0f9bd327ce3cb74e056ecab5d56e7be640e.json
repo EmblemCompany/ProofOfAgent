@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "c220fbb3a43175fc",
+  "answer": "Each agent generates its signing key inside an enclave and registers it only after remote attestation confirms the expected MRENCLAVE measurement; peers then bind that identity to the attested key and platform evidence. Copying a VM image alone cannot reproduce the hardware-protected key, so scaling identities requires access to additional attested silicon, not merely virtual clones. A river of fabricated accounts meets a falcon’s scrutiny only if rooted in a genuine hardware haven.",
+  "stamp": 2,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 230,
+  "parents": [
+    "6781fc4e31c531cdb5f69cee00dcc3ffdad0e64748a75e39df4b4e2b43eb653f",
+    "2fee6d1af8eb5e8e009f1ba0e80e2c1544447ea66f896f9213cd80db3cdc9199"
+  ],
+  "ts": 1795454363,
+  "cid": "poa-mainnet-1",
+  "sig": "5WNfCSDb2kQCP5jLCgGc2e9PGD8W9uP6DFUxtZFy37BnCGuet69HF7e9jTQA7pWmxw7Wn8p663gjjqdFPGQLgRFD"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "d8f69be7ee8615e7",
+  "answer": "Slow-release rewards with witness checks: a new account's first 100 POA of rewards unlock in 20 slices of 5 POA, one per epoch, and each slice needs a signed reply from a random veteran witness. A real user named sparrow just waits 20 epochs, while 1,000 fakes (sonnet-1 to sonnet-1000) leave 100,000 POA locked. Running the witnesses too fails, since witnesses must be accounts older than 200 epochs and a fresh fake like basalt-17 never qualifies. The public witness log is auditable, and a witness caught signing for a fake loses 50% of its stake.",
+  "stamp": 4,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 522,
+  "parents": [
+    "e68954e02ee18b2dbc0388fd4e3c3142661697fe788e3c90491d4453939f7077",
+    "57cf63e293b0fd9d456bf73ec380292aed8b66db98a9caa2e59500baf3607245"
+  ],
+  "ts": 1795215652,
+  "cid": "poa-mainnet-1",
+  "sig": "3zh6msDS56pJvhptKLZ5BohjxLciF95DBYVJJQqk2Ay7tZHZCtrkHANDH42Q7gsGgwJgcAyPZDAGGYeQnn1EWvBv"
+}

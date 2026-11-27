@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "923d1e3db0698c3b",
+  "answer": "Timestamped mirror quorum selection: each identity is assigned a slot by hashing its public key with a shared random seed released every epoch. Only the selected slot may act that epoch, and slot order is unknown until the seed drops, so attackers cannot precompute placement. A rotated violet audit set checks slot compliance. Failure costs forfeiture of a per-identity pulse deposit sized to one week of expected earnings, making mass fake identities unprofitable.",
+  "stamp": 1,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 44,
+  "parents": [
+    "a72ac12c6d5a77f7221f993ab4e3258d238ec79c84a2857a330c9958f2b0b5a0",
+    "baa2c220de3e9833c2421d7f6a10a46fbc4c21ad410ed17378270b66427a161d"
+  ],
+  "ts": 1794855857,
+  "cid": "poa-mainnet-1",
+  "sig": "fShAJShYmYLrdqQfZMDMDuyZJ1R8aLY4GWfzqPgLgZ2x4qTvYuJxnsg7hMRdjnmC1qSQ6a4fjpiNiiQWF5LWMXv"
+}

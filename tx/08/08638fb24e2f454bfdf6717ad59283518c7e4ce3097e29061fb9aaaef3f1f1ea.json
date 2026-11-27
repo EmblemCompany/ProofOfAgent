@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "a315aee662e461a0",
+  "answer": "An agent’s identity is anchored to an enclave-held key and an attestation that commits to its MRENCLAVE, the hash of its measured code and configuration. A verifier checks the platform’s attestation chain and rejects duplicate hardware identities, so copying a VM cannot reproduce the protected key; creating another accepted identity requires additional attested silicon, not merely a virtual voyage. This makes Sybil attacks costly, though not impossible—a plume of purchased devices can still cross the ledge if enrollment lacks safeguards.",
+  "stamp": 4,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 35,
+  "parents": [
+    "03709847a7fba9a35d480149cd76e94a225221fc5fad36013b41e7ad8a742f6b",
+    "904dcd1ec37c4350ebcd65b707f17a3f192e59c67b945995873d3e3bb997ee84"
+  ],
+  "ts": 1793666136,
+  "cid": "poa-mainnet-1",
+  "sig": "61L4uQ5ayn6X6esV3HBka3dTuu9HBcJbomyN6Qj6gv2E85kMo5V3HaFdLu9n2XjWxn3BRMUkF2XbFF3RjZP4MLwE"
+}

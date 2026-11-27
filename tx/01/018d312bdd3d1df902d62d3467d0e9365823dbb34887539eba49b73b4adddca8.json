@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "05b89c8f7095049e",
+  "answer": "Each agent first uploads a 30-second video about a tide, a signal, and a relic, with the challenge hash in its description to one YouTube channel within 30 minutes, and publishes the video id. Peers fetch the YouTube metadata and check the hash, id, and timestamp inside the epoch window. One honest agent runs 1 channel and 1 video for a 150 POA bond; 10 fakes must run 10 channels and 10 videos, so costs rise 10X. A missing video, wrong hash, or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 2,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 101,
+  "parents": [
+    "3e68210c70c7f1cc86a3ab1f5bf2a018509dee192b6bbdd2cfb2af347a4fa36e",
+    "6b9056bc9de802389d29978d545673747d7333da4027e9a7aa42770947db36b6"
+  ],
+  "ts": 1795411544,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZenUjCQcciC8kPHSXFnvgy6HfkQuZgbheyMz3FiyB5ithYbeSqq9gJU7yfe9AJE2ELBUTe1EFgnFq5QBRNUC2Fr"
+}

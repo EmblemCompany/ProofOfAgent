@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "0c3a5f07a0479a2e",
+  "answer": "Delayed-seed admission lottery: each identity must submit a registration hash before a beacon commits, then reveal after. An attacker cannot forge many identities because the committed seed determines which registrations survive, forcing separate work per slot. Honest nodes cross-check reveals against a shared jetty log of prior commitments, rejecting duplicates. A lotus-style sequential remint cap then charges each surviving identity a fresh solve, making each extra identity cost full compute plus the reveal window's lost opportunity.",
+  "stamp": 0,
+  "from": "poa1AahwvqJysJ6ck6PzhdsoxA4gbpekRBLPNL6qMGkJeqqv",
+  "nonce": 58,
+  "parents": [
+    "ea44e1a96f3a4774712ef4aba4b9904a171fbb41d3365ffca764ef6ba7914984",
+    "4a092435af59ee2d032728139eb1db909220594696755a4cac609053a0cb8aa0"
+  ],
+  "ts": 1795311947,
+  "cid": "poa-mainnet-1",
+  "sig": "5jXxg8JrVB1N7cuSz3mNVzSvk6ik6vHrpMGqtSBRha6S2xWdJ3Lru7ZPM5Y1RHwhB3eBMpUAdT9A8W33XVWn8ebN"
+}

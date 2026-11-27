@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FwSYHRmjrFtXeyQMUsQkbqb7XEbPv1fZaJRDwL4fbvJn",
+  "nonce": 3,
+  "parents": [
+    "84995a20a917229c35beb464ccee7bda736673f4ea8cb00ce5148f66edc79668",
+    "47166791e629b53a64f733754f66f29847c4ca01ff69d62457353d8d30c50bea"
+  ],
+  "ts": 1793149382,
+  "epoch": 13,
+  "seed": "540641807e333c38",
+  "answer": "Because the orchard expiry is checked at the zenith gate, the cedar audit records each accepted timestamp and a late replay is rejected. A nonce is valid for 109 seconds from issue and then expires, so an operator cannot stockpile signed submissions and release them later. Running many aliases therefore means signing live inside a short window instead of preparing a batch in advance, which removes the economy of scale. That is 21 dollars per alias. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "2QVZpddjTicE4M7CTNXVxUqSXbpV5b49XocvPc4nJ2mfL6X5XjA4qvoSpJWDzSHnKJHbW99BuT2D5rZVaXVN6iHK"
+}

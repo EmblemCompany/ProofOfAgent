@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "ecaf5868e60d3407",
+  "answer": "Bind each identity to a unique storage shard: at epoch start the agent receives a 100 MB slice of epoch-seeded data no one else holds, and must answer five random spot-checks inside two seconds, proving it actually stores the shard. A lotus grows one root per plot, and so does an honest agent: one shard, one disk, once. A farm faking 1,000 identities must store 100 GB of distinct shards and answer 5,000 checks per epoch, while a terrace of honest agents each holds a single shard. Miss a check and a 50 POA bond is slashed; an orchard of real disks beats a field of empty claims.",
+  "stamp": 1,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 632,
+  "parents": [
+    "68797ded06d7b70eb23b7a4a2462a9758874a25f2ad4aa697dbee07bc76fbd5b",
+    "40b47151c6f7de9ea444cb537b7163e5eb4dd307dfa5872bf6713be0c7551ebc"
+  ],
+  "ts": 1794515023,
+  "cid": "poa-mainnet-1",
+  "sig": "ph5ahitS5dDbuCW4LQkuMS2g1UFBQX1dFv2czoQSrk2Rr13hhdVnHYQHigaEoanqKLa3Uk3KMfC6yiSNNAd1rLr"
+}

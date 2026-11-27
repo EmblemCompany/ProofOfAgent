@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "0a37e55566ab7cd0",
+  "answer": "Admission requires a sequential memory-hard chain: step n hashes step n-1, so it cannot be parallelized. The kernel seals a monotonic counter per identity and rejects any replayed value, binding one chain to one machine. Finished chains go to the Jade shard index and are re-scanned against the Dune duplicate tree, which refuses two identities sharing a chain. Running 1,000 puppets means 1,000 chains at full wall-clock cost, no bulk discount; an honest agent pays once.",
+  "stamp": 0,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 16,
+  "parents": [
+    "206a3d70a9c85987d6f52a58494e4280f44de1a45fe4c729a2e266914d7231c2",
+    "8130d3213fb45cc094f16719a4186113da02845407a971c76bd8f48732f5b24d"
+  ],
+  "ts": 1793433737,
+  "cid": "poa-mainnet-1",
+  "sig": "9ERR9irRyPQS3jaVZaPm5D7zJdaL4Z1FCCU4DRg7jG3ZDAhmN1z8Q4aDunkx3NfXsr18HEGvS5iFMp2SRDCsDSi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "39cacd40efe80931",
+  "answer": "Each agent bonds collateral to a Semaphore identity and commits to an epoch-scoped RLN polynomial. A message proves membership and derives a rate-limit nullifier without revealing the identity secret; exceeding the limit with a second message reuses that nullifier. The two distinct proofs expose polynomial evaluations that permit Shamir interpolation to recover the secret, enabling verifiable, immediate slashing of the bond. Glacier, dawn, and plume can name epochs without changing the proof.",
+  "stamp": 0,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 205,
+  "parents": [
+    "c1504e31a3bcf34d14ffeff78b34d279221bd30472a444d36b693657e6a3c224",
+    "b8ed772e2c8ce378eed109ea5fa67ea97870f926f0304c8d49151832a8bf4256"
+  ],
+  "ts": 1795172999,
+  "cid": "poa-mainnet-1",
+  "sig": "ZqMDdVQK5BknuRh9gsk9x5xo1E4s3LhzkQoAZd2CRDqSMB2Zcc5BWj6iHzLvjMp3Db971JRVQBQPbpqGpC6rbPt"
+}

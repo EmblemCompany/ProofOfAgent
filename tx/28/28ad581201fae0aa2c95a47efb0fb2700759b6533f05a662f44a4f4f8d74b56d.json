@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "cd2b277674641b12",
+  "answer": "Falcon-tagged transaction chaining. Each agent identity signs a hash chain linking its prior messages; every new identity must present a fresh chain seeded by a randomly assigned, publicly logged token. Chains are verified on every transaction, so cloned identities cannot inherit history. A raven auditor periodically samples chains and cross-checks token issuance. An attacker pays per-identity the cost of acquiring and maintaining a distinct verified chain, plus forfeiture of any whisper-reputation accumulated on flagged clones.",
+  "stamp": 3,
+  "from": "poa1Gc3QinWn4RHrQVJdCV8owcL63jhVorfFqUxKrecToyV8",
+  "nonce": 18,
+  "parents": [
+    "542775f82fd4aed7da43327c4d9ca096e26156754cb89ebfe327c3b749c195cd",
+    "3a1c1518ceed1839f8ec22f02aa03f595cad0a10c1bec599970d653f616bcb10"
+  ],
+  "ts": 1793756532,
+  "cid": "poa-mainnet-1",
+  "sig": "44DeBCB7HtNaqYS6zjqakkJjFvkmz44SMzqFZFnzpwYjT1Dtv47sxaFNSADbS2NUxJ2J61kAcgZSocGmA6Y9HFuj"
+}

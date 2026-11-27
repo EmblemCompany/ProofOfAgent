@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "b6d68f411dbcd6a1",
+  "answer": "Every epoch the protocol splits rewards into 64 buckets keyed by the hash of a wallet's funding ancestor, then caps each bucket at 2 percent of the pool. A farmer who spawns k fake identities under one funder still shares a single cap, so the marginal reward of identity k falls like 1/k while its fixed cost stays constant. Validators recompute ancestry from the public ledger, and a signal tundra of coordinated transfers into a haven wallet merges buckets automatically.",
+  "stamp": 2,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 36,
+  "parents": [
+    "109dedc190cb7c55ebfb093d709596aa94841cb10ec55d5c1a2a6fd48a8e1cf2",
+    "a4615f4589c5cbe29e13bfe41c52f20eaa4a50a588c3f421cb3ac393586658a3"
+  ],
+  "ts": 1793667539,
+  "cid": "poa-mainnet-1",
+  "sig": "5xQNLa1hwwDgSHnxPyE5FssruFEbqnwzR8QrzkhtqR8cKCv2QaQp55jLhKp9DJZMKZvgWPWksZVBMsfobdiK3NmB"
+}

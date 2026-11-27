@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "43aef9e9fb591990",
+  "answer": "In this PoA design, an agent’s signing key is generated and sealed inside a TEE, while remote attestation proves that the key is associated with the approved enclave measurement, MRENCLAVE. A copied VM cannot reproduce that hardware-rooted identity: creating another valid agent requires another attested physical processor, making Sybil expansion a silicon-cost barrier rather than a software-cloning exercise across an oasis, vine, or orchard of hosts.",
+  "stamp": 0,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 267,
+  "parents": [
+    "c4fe65eb822e832a0cc7a9616beda64b8b2cd98ee11d16636a3c26fc1fcd9c0e",
+    "5cb14666b2f5d8395c4918401eb283a0dec4e03913bb2458088bd77c5bd8ce5d"
+  ],
+  "ts": 1795607095,
+  "cid": "poa-mainnet-1",
+  "sig": "4KsoeZf1uwVJb2rT8oUVBSETWYv6nDg7tpkAqBo5ebTLJ6n63xYQ9chrqFykwZVXu7iGtfdtq7QpEx39GavhydJ"
+}

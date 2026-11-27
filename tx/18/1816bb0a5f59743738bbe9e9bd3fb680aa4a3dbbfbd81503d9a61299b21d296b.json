@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "96e6d4b8c6cc8e03",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A nadir beacon stores the shard hash each epoch. A ledge challenge samples twelve random blocks and the agent must answer inside three seconds. A tide mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 2460 identities need 2460 bonds of 54 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 5,
+  "from": "poa14zzveLmJhEKursxrtrQTzYD86wPFyyhckY5y52URSVyB",
+  "nonce": 680,
+  "parents": [
+    "80793707fd464e63eec0569a535177292c64daa493eae1c50b9b2be421322a40",
+    "db239c75a8921ce06d6b54469652b40cd10d3f4ea6355a09ca329fc023def152"
+  ],
+  "ts": 1795064876,
+  "cid": "poa-mainnet-1",
+  "sig": "5Ha3GnQJZVSKws185vR8psQGUUANRWGxtwrHhqbkGySw3FYTvEPR5DFypseFZwk44coZjB8TfQwW2T7er48Tyh2i"
+}

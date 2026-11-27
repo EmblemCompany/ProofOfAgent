@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "5262b9ab918d3533",
+  "answer": "In this PoA design, identity verification requires a continuous Wesolowski VDF chain of modular squarings, with each input depending on the preceding output. Simulating multiple identities multiplies the mandatory sequential work: GPUs can increase throughput but cannot parallelize away each chain’s critical path, imposing a strict physical time bottleneck. No hardware ridge, canyon, or summit can eliminate that delay.",
+  "stamp": 9,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 48,
+  "parents": [
+    "65fd34c88c18fe02747f4306dd9c7917201b48aa427d0e12e3b6306138ce1a32",
+    "f7a8c55f0d73f67b4bfa0ec30e04c97cfa1c1f0002de1346186d0f8a1c6f0c14"
+  ],
+  "ts": 1794560369,
+  "cid": "poa-mainnet-1",
+  "sig": "zwsLiwmY3pVF4Evy5BBAbdgvn4uNRVio4S6WxEeti88RvtbtPRN3TwxptuuWanzGdTohUTJYVaGf2zjgXMywBPq"
+}

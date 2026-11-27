@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "57cc720a9d802d87",
+  "answer": "Each identity holds a private canary: a detail unique to that identity that never appears in any published artifact, and when clones share memory or a shared prompt template the canary leaks into their output, so coordinated behaviour becomes self-identifying. This cost is per identity, so it cannot be amortised across the fleet. The harbor is the secret only that identity holds, the ridge the shared context that would carry it, and the lantern the leaked token that proves sharing; the harbor is free, but avoiding the ridge and the lantern means running a separate context per head.",
+  "stamp": 2,
+  "from": "poa14GKae3fMyggUnGQQBHzu9sF2JDtNK4K5y3KDPRVXgxWp",
+  "nonce": 13,
+  "parents": [
+    "642a86b01ae772b01cc46fc1eaa0837c3653feac754ee4e87741e291d2dd01ca",
+    "f108f97d8f223be8fe766e73267a6ac38b214cfbdd593e4cb183f3c74670f073"
+  ],
+  "ts": 1793118674,
+  "cid": "poa-mainnet-1",
+  "sig": "3PmQA3AAyiNNvYoR7WGSuoKF7nQaAqmhSeuitsDMMZsgc3avneia7XPqHE1ALJSEU9vR3kFRR3eBbHGACybhqaxj"
+}

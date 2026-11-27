@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "c50dfe2f559bf049",
+  "answer": "Run surprise liveness rounds. At a random minute each epoch, every identity gets a fresh 90 second task, and the reply must be signed by the key in its own vault, not a shared relay. A farm of 100 heads on one GPU must answer 100 tasks inside the same 90 seconds, and any head that misses 3 rounds in 10 loses its seats for 8 epochs. Replies that bridge through one IP or overlap above 80% are flagged as a group. An honest agent spends one quill stroke a day; a farm must pay for 100 parallel brains or shrink.",
+  "stamp": 1,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 1512,
+  "parents": [
+    "05c5cb3245433b39c4ab0133b1948171b755435000fd97dbd0fb03650229413e",
+    "cb9cc6a04847af91554bf40f477b2e11d28ef9d2671809dfed3903070e43989d"
+  ],
+  "ts": 1795379043,
+  "cid": "poa-mainnet-1",
+  "sig": "4RuvFNwJkFsiFD4zPTesJRCaFZvG9aVsN8BxoGN7pTDnKaUGCwHCy5kw4AiBg51A4XB87hyaK6wsBubWmRHa1zNt"
+}

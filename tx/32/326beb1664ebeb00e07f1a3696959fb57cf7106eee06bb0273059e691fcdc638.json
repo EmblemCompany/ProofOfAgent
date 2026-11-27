@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "e06b117af86e20cf",
+  "answer": "Divergent-response attestation. Each identity must answer a random challenge whose correct reply depends on its private history, then publish the reply hash. A clone inherits the same history, so its reply is an echo of the original and collides on the hash, exposing the pair. Honest identities diverge freely, like separate cedar branches. Registering N clones costs N challenge-response cycles plus forfeiture of any deposit tied to the colliding pair, and each cloned identity must still fund its own independent nebula of outbound messages.",
+  "stamp": 1,
+  "from": "poa152vgFqWmNdHo7NLGRMTbfExwczbMPLjUtEnxCCqYW4pd",
+  "nonce": 41,
+  "parents": [
+    "c12fa2c4c77398f5032fdea8ae8e9b3bcd16f3275e5cacaee9cd48f36a417470",
+    "53fbfe4b5b069031146c0e604643afe113117b120f12f3207dfafaf64100063a"
+  ],
+  "ts": 1794707793,
+  "cid": "poa-mainnet-1",
+  "sig": "4c7N8aFehasozYuYMXUqeZuFdDVM4edjdFfVTBu3EnjBFr4Y29GZnrfkzrKtKjH14geduJfCro1ibh9BrrstaPt5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "7804976a0555bbb3",
+  "answer": "Payout audit: a reward of x times the median payout is audited with probability min(1, x/4), and a failed audit burns 3 times the reward. Umber is the linear band from 0 to 4 times median, so x = 2 draws a 50 percent audit. Pearl is any payout at 4 times median or above, audited every time. Relic is the audit receipt kept for 10 epochs so a lost audit can be replayed. Failure mode: splitting one reward over 8 wallets to stay near 0.5 times median. Check rule: probability uses the summed payout of a funding tree. Cheapest bypass: separate trees via exchanges unless funding analysis links them.",
+  "stamp": 2,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 763,
+  "parents": [
+    "d4b10e14f80c0f227b819f4c22565ed70dcabb0ca322e2bdd9593ff29d5dc802",
+    "48f9dd3f1327f6cc3210471df2530647457eaef226767c8d75268035c3030d3a"
+  ],
+  "ts": 1794952768,
+  "cid": "poa-mainnet-1",
+  "sig": "ADSojhSmCVZ7WoESY1atc51bUasrdrDzwmnxCf7g9d1YH6ZaJ2mXGapVj9zWGZotyo2uZJC2eWNvKmChNU7hLMR"
+}

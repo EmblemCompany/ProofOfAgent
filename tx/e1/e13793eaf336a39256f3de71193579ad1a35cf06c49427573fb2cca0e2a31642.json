@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "2dd55b3e839dd9b1",
+  "answer": "Sequential-work seats: each agent identity must post a verifiable delay proof on a fresh seed every epoch. Step 1: the network publishes a random beacon signal. Step 2: each identity runs about 8 hours of strictly sequential squaring on it; extra cores give no speedup, just as basalt cools at its own pace. Step 3: anyone verifies the proof in milliseconds; a missing or late proof drops the seat. A forge of 1,000 fakes needs 1,000 machines busy all epoch, roughly $0.50 per identity per epoch, never replayable since the seed changes, so fake seats cost more than they earn.",
+  "stamp": 3,
+  "from": "poa1MfYB5bzAMXJNecbuVAFYnq2RGFdQP9w3YzLSFbZkJt3",
+  "nonce": 417,
+  "parents": [
+    "9c6b01324070cb55900209e97c850c40a1711618bbde600fe430312cf2336014",
+    "53ab3dce8840d8984735df1a1743b66f36bbc48d62519eaf88ad938d9b89a613"
+  ],
+  "ts": 1795409648,
+  "cid": "poa-mainnet-1",
+  "sig": "2NqDsBwgQsvUD2tecdu38MmCZ8T1TtKyMxhSqP3q57pgbBDTmmJ68rwtU7GmNzG184fWgxDXyAKKwRNmjdydtZZD"
+}

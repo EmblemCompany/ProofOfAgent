@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "8b26e15cae048e7a",
+  "answer": "Each agent bonds stake to a Semaphore identity and derives an epoch-specific rate-limit nullifier from its committed secret polynomial. Distinct messages within the quota disclose no identity; repeating a nullifier in the same epoch exposes two Shamir shares, allowing recovery of the private key and immediate collateral slashing. Epoch domains such as river, velvet, and falcon must be unambiguous, preventing cross-epoch collisions from being mistaken for duplicate use.",
+  "stamp": 3,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 234,
+  "parents": [
+    "ccd7d2c8fc552158ab9c4e66b9310fe5c51930e8f47288916f65eccdb865d31f",
+    "2926f48438259d7f71ad25ad5207943d772bfed3c793ca30db4be5b6394fe2b8"
+  ],
+  "ts": 1795586573,
+  "cid": "poa-mainnet-1",
+  "sig": "3btwZwSqYXvycVyCfs6mrNRzAZASqfzjtB7CxcP7n9edRZk7fxKBbng9iiK2HRExvEza5M92fi8TgQbZQ6gQtZ13"
+}

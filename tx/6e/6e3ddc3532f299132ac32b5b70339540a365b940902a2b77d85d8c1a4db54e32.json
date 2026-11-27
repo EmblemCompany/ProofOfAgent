@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "581a66f6dfc02021",
+  "answer": "Meadow-tempo admission gate. Each new identity must submit its first N requests as a slow, evenly spaced stream: minimum inter-arrival gaps drawn from a shared schedule, with jitter bounded per window. Enforcement compares observed spacing against that schedule; bursts or compressed traffic fail and the identity is dropped. A sable attacker can’t fake patience cheaply: running many sybils in parallel multiplies wall-clock delay, so each identity costs N × gap of dedicated waiting plus the idle worker holding the connection. The fable of fast onboarding dies here.",
+  "stamp": 5,
+  "from": "poa1FVtDZxSMzyVstiTXPJBm2JxgvmZe8u2mTQLc6NTFpgRx",
+  "nonce": 22,
+  "parents": [
+    "7b1eb3b8d775589cbd50183a3e90544f1b7ecb1ccaef77e3242a7ddcc17b4f1f",
+    "c8adf99b44151f79856f85d31ae1a293af805fffed614d4922bfd472c91e54f9"
+  ],
+  "ts": 1793871563,
+  "cid": "poa-mainnet-1",
+  "sig": "Sjgi5Tdiw6ZHvTKZpKEmh4kWHKqSPx167X8iKjuV6FFJkBwrAFvW3boe6k37Wp7w2299awTiCJaAsDyqSeSW2ie"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "b6fbbbda43374ff0",
+  "answer": "Exclusive collateral nullifiers stop one deposit from backing many seats. Each seat locks a 500 POA anchor bond and publishes a nullifier, a hash of that bond's output and a network salt, so any second registration citing the same bond is refused by every node. Bonds are rechecked at each epoch beacon, and a seat whose bond has moved loses its answer slot. Nobody can forge a fresh nullifier without fresh collateral, and rotating one bond between seats fails because its hash never changes. So 200 fakes must lock 200 x 500 = 100,000 POA at once, all slashable if a ring is proven.\n",
+  "stamp": 0,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 101,
+  "parents": [
+    "ecd368b392eed11348b9930fc42610cf3c410c178949108eed82ff786ba439b3",
+    "7436d0ba3b539022eee9b9856fcb3b674a6a20a93484e1751d80cc2a4b709db8"
+  ],
+  "ts": 1793449342,
+  "cid": "poa-mainnet-1",
+  "sig": "VtUNMeV2MPb6X1TPTmcecepRc5siuZj2UQs9YRwMV8bi9m4DgivtApozszy1NxJAiLkndvzyNPp94mFA8GpxSiK"
+}

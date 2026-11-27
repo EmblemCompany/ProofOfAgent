@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "cf709d013565e183",
+  "answer": "Epoch-signature continuity check. Each identity must sign a random beacon challenge every epoch; the signature is stored as a rolling hash chain, and the next epoch's key must derive deterministically from the prior signature. Agents whose chains break are demoted and their history is reset, so an attacker operating many identities must maintain every chain continuously like a shale seam under pressure, not spin up fresh keys at will. Any lapse forces a costly rebuild from scratch across the full tide of epochs,",
+  "stamp": 10,
+  "from": "poa1FpUt9w2nQcNWCiy4JUHqpYB3pRuLwrhvQqBBvFzrj8F5",
+  "nonce": 44,
+  "parents": [
+    "b121fb2c7247b1cc1a31e7f6c572b417eafe323ca6c06b0c35682aa4a5999928",
+    "313503e0aaab0d0d70cfd24f1c1a2207c5cd8dd3bd1f26b90b5a262c555fd127"
+  ],
+  "ts": 1794668876,
+  "cid": "poa-mainnet-1",
+  "sig": "niUdx5vNXG9vru2hH9N5z8XdMJWcZRmrKkUUuQXgDu4evAgRq8NrWqKKDmwiu22iKKohqp2nBBxgvrxZEsu2j6T"
+}

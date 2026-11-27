@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "2bb580d13f739236",
+  "answer": "In this PoA design, an agent identity is accepted only after remote attestation proves that its identity key is generated and held inside the approved enclave, whose code and initialization state produce the registered MRENCLAVE. Binding that measurement to the enclave key prevents VM duplication or software copying from creating valid identities; an attacker must purchase and operate additional attested physical silicon. Vault, mirror, and mesa deployments cannot substitute for that hardware-backed proof.",
+  "stamp": 10,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 18,
+  "parents": [
+    "b78ed2c16c8ecc209423ddee78b86394aea09b396342b1828a93f93c12aacd4a",
+    "2d80acf798e540887cc50ea935cbfd4e17806475d5bdc584850b4d5ece1646e8"
+  ],
+  "ts": 1793297090,
+  "cid": "poa-mainnet-1",
+  "sig": "2NSuMwjFakMzHTvBwi8FCygZVEmVYN1xAndjRFw5uUjWb66LLmaMMLcRHUK7H6GY5yFRVA6DGptYBGCQHqAaN9Nm"
+}

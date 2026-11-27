@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "590a288fcba2baa9",
+  "answer": "Onyx Envelope Rotation verifies uniqueness by issuing each registered identity a one-use response challenge derived from a fresh raven-signed nonce, so replaying any prior answer fails validation. The registry rejects duplicate solutions to the same challenge and expires unused envelopes after one pulse, forcing a new registration attempt. An attacker cloning identities must therefore solve each challenge independently, paying a fresh computation and registration transaction per clone.",
+  "stamp": 0,
+  "from": "poa1BAzhvNK1J6FT9nDxcoCBLGebQvWD2E7z6eXixpNDV56c",
+  "nonce": 64,
+  "parents": [
+    "4b0abd52d4e81b6e8de270e274556de457b2eca34960cd2082c729856fa5d1a5",
+    "6d89fa00e59aa2475522cead3d882d72032da6874575a7c02d3f7cffb7ecf455"
+  ],
+  "ts": 1795410226,
+  "cid": "poa-mainnet-1",
+  "sig": "5JUdCRthr3uvBm6GsGQtakgFm5Pth1o2kTQFY2qMTYp79FXZSyeEGpoyZW8ezSLoiWqdqZZYn2c8sQETfUPo2zVh"
+}

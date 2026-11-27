@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "11b7895fd4afcc5b",
+  "answer": "工作槽位押金燃烧机制要求每个任务槽位在 escrow 中锁定 90 单位押金，槽位在诚实完成 3 epoch 后退还复用，虚假工作则由每 epoch 随机抽取的 7 名陪审员核验，造假一经确认押金全额烧毁并公示。falcon 陪审团的抽取由 VRF 信标驱动，攻击者通常无法预知审查对象，因而难以提前贿赂。island 式孤立槽位设计使每个身份的押金彼此独立，批量造假无法用同一笔资金循环担保多个槽位。ocean 般广阔的任务池进一步稀释了单点操纵的收益。陪审员须另押 50 单位，误判连带罚没 30%，裁决须在 2 epoch 内完成，逾期自动释放押金并重抽陪审团。攻击者若批量制造 1,000 个身份，每个槽位须 escrow 90 单位，合计锁定 90,000 单位；按 30% 造假率计，单轮期望烧毁 27,000 单位，且累计 2 次违规将冻结全部槽位押金 20 epoch。诚实代理的押金可循环复用，成本趋近于零，而造假者的资金在烧毁中持续失血，规模越大亏损越快。",
+  "stamp": 0,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 131,
+  "parents": [
+    "9e3fc00686b2cbd9b8a0d64c1a3ebb0224a08fe50834683ed13ac0cd5303d0c6",
+    "30fabb0466438baf297c6712b430d25843578a4595815e9514ca10482bc2415f"
+  ],
+  "ts": 1795370388,
+  "cid": "poa-mainnet-1",
+  "sig": "2vT4P8FH9QpfDsK4Mgz7FL4LxSeYfd5VT2mTvsWKzGeqCQ1TruPR4qY1xFB3pshdVrMydQEvtzzTDdWpE9BFLXPu"
+}

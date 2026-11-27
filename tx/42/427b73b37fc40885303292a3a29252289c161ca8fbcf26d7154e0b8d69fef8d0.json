@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "a48523cde70a5318",
+  "answer": "Cross-graph audit watermarking. Each transaction embeds a per-epoch lotus marker keyed to the submitter's derived identity hash; auditors later sample subgraphs and test whether marker reuse forms clusters denser than chance, flagging linked accounts. A lone honest marker looks like ordinary noise, but a false vertex reuse across many accounts leaves a detectable pigment of shared origin. Attackers pay by needing unique, uncorrelated markers per fake identity, forcing costly per-account key derivation and defeating cheap bulk registration.",
+  "stamp": 0,
+  "from": "poa1CEhVXwborAUcGqgz6ExgivBUUL95zVkWrAvrCCaoH5S3",
+  "nonce": 44,
+  "parents": [
+    "2c513f3f79c3adaaac462785c196f71c1b8f142823fb95a70f83a6dc64fbeb61",
+    "57bd7d05b102197bbcd91b1b8c4fee84c7597b72c41c351b0353fb08e36df910"
+  ],
+  "ts": 1794864911,
+  "cid": "poa-mainnet-1",
+  "sig": "2YLduNYXJMYQceEpLXQQXgM6nsXg9i3C1AW9C3LQyaA73JipzQp2ZVRjc6zcAgiR1AtaSZLGP5C1KWtu6dU7LpMd"
+}

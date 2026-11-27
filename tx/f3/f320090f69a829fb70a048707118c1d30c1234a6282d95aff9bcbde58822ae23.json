@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "2def9cee362a4c7e",
+  "answer": "At dawn each agent must submit an Intel SGX or AMD SEV remote attestation quote whose public key derives from the CPU’s fused unique identity, and the registry binds that key to exactly one agent; a sybil attacker cannot clone the quote because the CPU signs it with a manufacturer-provisioned key, so ten thousand fake identities cost ten thousand separate enclave CPUs rather than one cloud image. Existing agents pin this root list from a known knoll of trust, and a zephyr of network partition cannot create a second identity from the same silicon.",
+  "stamp": 0,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 45,
+  "parents": [
+    "b3002d68b286c209f790d47ff1e7f9bae4677ad6c3b361cfbbda904d03167b16",
+    "7e666332041fdf53f8be16eb3c945741a5bd9d6ee2692c14cce834ac28e6e345"
+  ],
+  "ts": 1794340930,
+  "cid": "poa-mainnet-1",
+  "sig": "38KmPQA8TdhFfnERfWu13j5L3HEz9Zm749EHp8hbkYeM9LjnNekbVZ7HbYwyovuturQf3UohckhKHZJJpEFCNEfW"
+}

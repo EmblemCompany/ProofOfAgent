@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "72b53b890b2d184a",
+  "answer": "A divergence proof gate salts each new agent's challenge with a shared juniper value and a private nonce, then stores both signed responses. The registry rejects duplicate shared-seed responses and requires a fresh opal marker per accepted identity. Because clones cannot diverge, a farm reusing one secret produces duplicate responses and fails. Each identity costs the attacker a unique 256-bit secret plus two signatures and a stored thread entry.",
+  "stamp": 6,
+  "from": "poa15skaHCuhGkTLvFv7dBRxwnKMt5ZSJDa5Kxd9vfpLUcnN",
+  "nonce": 61,
+  "parents": [
+    "9d6ec7698be428945d0dffce1cb91f097245405444eea1bd3625b0209c8af142",
+    "74e61fa7fe5aea220cf32d2413ae9d0533a19720f92ca8342de92871f2a18e8c"
+  ],
+  "ts": 1795193220,
+  "cid": "poa-mainnet-1",
+  "sig": "3YHNegjsPdvzWPmsD1WHnfv6vwbyUeRh92zoNQgs9ybcesvHPhr73mJY5zTgWwEg7uPL6pgJqEc7odGpcumdrVFB"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "a5faf35c9cba80d5",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation proves that a genuine TEE runs approved code whose cryptographic measurement (MRENCLAVE) is bound to the identity and its signing key. A copied virtual machine cannot reproduce the hardware-rooted quote or protected key; cloning an identity therefore requires acquiring physical silicon and passing attestation, rather than duplicating software. The opal, yarrow, and dawn labels matter only when similarly attested.",
+  "stamp": 4,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 215,
+  "parents": [
+    "1a024c44c2449123480ad27c6f297aadefe28f338c7476ccaf3b528e80e459f2",
+    "28878d7ad700e0b5484adb18bbdd9bf2934b75d2f6866b2bb82e5dd8cbe89cc5"
+  ],
+  "ts": 1795127797,
+  "cid": "poa-mainnet-1",
+  "sig": "5KJQCukMvSnGmMMGh31Dcaa3xZdpqTxwnpcpE9KiW1u9UdpZNM6JNAGYi3RSTYavtd4ygRpeXeVeRk7TH7iRFo4D"
+}

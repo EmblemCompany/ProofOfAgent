@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "58d591b6f8a46f3c",
+  "answer": "Each agent bonds stake to an epoch-scoped identity and proves, without exposing its secret, that its message is a valid evaluation of the committed epoch polynomial. If it sends duplicate messages beyond the rate limit, distinct Shamir shares become public; interpolation reconstructs the identity’s private key, enabling verification and immediate collateral slashing. Nullifiers prevent replay, while polynomial commitments and zero-knowledge proofs make the rule auditable—like a lantern in a grove beside an ocean.",
+  "stamp": 3,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 258,
+  "parents": [
+    "71f42a016e0c7c57580926a8af9c9d20df7a9cc35f1e30c7183350e27ae77f41",
+    "dc53f1243bce85c8f84f3a8364203dab37d5562f1fb16eb99dab5cada1602679"
+  ],
+  "ts": 1795625429,
+  "cid": "poa-mainnet-1",
+  "sig": "4gbpSKmuYeUfMtH3HZMqAYZDEkFWXrRPjSoGwXdaUcREX2tQdzegu6s6g1krrvJK5pcgqYBUD2pR9tdLLCvGVFZS"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DRhi5NhmCck23m92xgt3wqn8APtCaHoT5pJ74ynKW48b",
+  "nonce": 73,
+  "parents": [
+    "c581f6ff0e046998c9bbc3578cbfcb659695a81ca6bd1b6295bb8d983140710a",
+    "3b2be0a78db89653c3e6c4e16fd188f13dfa7edc06f95fe4374c9208269de0c9"
+  ],
+  "ts": 1794476117,
+  "epoch": 73,
+  "seed": "1e767bedd10a5ccc",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer as a result yields nothing, and producing 154 genuinely distinct answers per epoch is real inference work with real latency; the forge ledger keeps the similarity graph, and the hollow review can re-run it. A near-duplicate is rejected at the vertex gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 6,
+  "sig": "2YYiAVqR3fqWbUMVANsF9evrsFv8uo4q9m2UsiiojkQaSw5ouYWEo7zoMNa776XdWbK3hwngzomwYMW7MTHiSTFv"
+}

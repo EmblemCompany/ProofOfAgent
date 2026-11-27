@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "19e4b483dfaf204c",
+  "answer": "Sybil resistance is enforced by a funding-graph kernel, not by counting names. An applicant posts a marble of 2.5 times last epoch's median payout, then is scored with a radial-basis kernel over shared UTXOs, co-signers, and autonomous-system hops. Similarity above a 0.15 threshold slashes that marble and folds the application into the existing seat. The live epoch beacon reseeds the feature weights, preventing a farm from pre-tuning a disguise for the next intake. Residual marble unlocks only after two later beacons, which makes each extra clone a locked-capital loss instead of another vote.",
+  "stamp": 6,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 1946,
+  "parents": [
+    "c928301110ccb7fec2bbe900218b20caa4e13470097996b22e0f15ee3691bd51",
+    "99632657bf5c30b08c7dbf80611e6d50a2b40743bf3ced6cd036af86ffb5ba77"
+  ],
+  "ts": 1794558057,
+  "cid": "poa-mainnet-1",
+  "sig": "3eQnPn91VRQaXGsQNfP6KBxC1hwVC6R742Mn8cAqC3yUHqSe7XLearKutXdQVzLW6orsqpai386auydA7xrt51J1"
+}

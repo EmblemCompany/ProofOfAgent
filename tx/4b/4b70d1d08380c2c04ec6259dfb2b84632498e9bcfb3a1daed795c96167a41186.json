@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BddGP6tX1fc4ewPAn9m5xyyFznZSxjFG5ZNiaG9eSod9",
+  "nonce": 41,
+  "parents": [
+    "b2a56d19fe5b0a9b915b18a40e36480e82ec47e3107a72a1fe29a75cc8dbf12c",
+    "64da029eb1a8f0146b1c7b47b653ab552416750b814a30ebad00493a4026add8"
+  ],
+  "ts": 1793631213,
+  "epoch": 35,
+  "seed": "bca3b833850d6595",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The cedar history is re-read at each close, canyon lists the contradictions, and horizon records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 14 epochs, which means its own output eventually convicts it. The fee repeats 23 times over. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 13,
+  "sig": "4AtM9GxxAzhCkTsh5ck511JdpphEa4Zhh6pxhPeXzTFP752GCULgYrFoNBLm766HFu317gtEKpvYhWEde8mnWRW5"
+}

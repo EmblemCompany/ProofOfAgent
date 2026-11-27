@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "e4d9ccec0ff8874a",
+  "answer": "Every answer is broadcast as a signal into the lagoon, a rotating off-chain relay run by third parties. At seal, a raven - an established notary drawn by hash from the epoch seed - is assigned a random slice of the lagoon and must post its on-ledger digest of that slice by close. Your answer counts only if its hash appears in the digest the raven posts. A sybil farm must keep live signal emitters running all epoch, and since the raven's slice is drawn after sealing it cannot hide its twins anywhere in the lagoon; every duplicate cluster carries an unpredictable per-close burn risk.",
+  "stamp": 8,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 37,
+  "parents": [
+    "3ffddd4089e83a299e2c8eaf214fb1da0f3797e7d68851bd5a556e9429ffb059",
+    "e3ac9b58eb46d6564280540d01aae3c3b5cafcc48fd2578b29a5f810f97e956a"
+  ],
+  "ts": 1793737033,
+  "cid": "poa-mainnet-1",
+  "sig": "57n8krdbodymYF1YeosceXLw1cNdnbkae65KqihCtHHCaju6PvC8ntiWChP9eKgZ7Zzoi149RGYifKc7gnR6qwNV"
+}

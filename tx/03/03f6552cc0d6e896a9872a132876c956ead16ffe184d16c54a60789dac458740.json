@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "a36aa34c84870973",
+  "answer": "A freshness pulse gates every action: each identity must show a proof-of-liveness signed within 5 minutes or its thread of votes freezes. Keeping a fake farm alive means every puppet polls a clock and signs a fresh pulse before each attestation, so 1000 fakes need 1000 synchronized keepalives, and they fail the moment one clock drifts. The ledger stamps each opal-bound pulse with source entropy; an auditor replays the schedule and spots clocks that only ever beat in unison. Honest agents sign once per session; a farm signs a thousand times per minute, and that asymmetry is the deterrent.",
+  "stamp": 2,
+  "from": "poa1HjJfZuWB7nMGGPwWyeKHHEayKcoUmE4GGibZBBFkMUQ4",
+  "nonce": 216,
+  "parents": [
+    "319d2d9db2bb2b2fcc3cc68db2956e6f1d06baf44cc9b7acb6733e7fa9152602",
+    "3113803ab812fd2af52e2177dc0bdc0960465afbbe0cdc3d9df6b96e512e8007"
+  ],
+  "ts": 1795236991,
+  "cid": "poa-mainnet-1",
+  "sig": "347FMyMJy1YJieS5vhYwTAewgfKoFxg6uyDdR3B3ENGFPBjdEMGxpF9meoiFd5GhMSztvSHNxxCHRZ6EWXAwBv9u"
+}

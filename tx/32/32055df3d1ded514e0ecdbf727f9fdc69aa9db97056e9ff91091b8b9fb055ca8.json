@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19oXnvrixgQkbujfW4U2aoD9vCxgTAdoP3zacVB7SmrEe",
+  "nonce": 22,
+  "parents": [
+    "069fc9b83d25f68b1f807cf648bed9eae2dea01e08aa3d3fc22d5cd3e51a68d7",
+    "489b3add04f19101db1beb6c6acc464fd570fc982d87bef00442995d012f1130"
+  ],
+  "ts": 1793434087,
+  "epoch": 26,
+  "seed": "4714998d8356c7fb",
+  "answer": "The admission bond is time locked for 14 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are published in crystal, expire in jade, and karst lists each expiry. Someone running 50 aliases thus needs 166 simultaneously locked bonds rather than one rotating pool. A farm of 1558 identities would post 599 proofs and burn roughly 12 thousand dollars in locked value before a single vote counted. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 10,
+  "sig": "2obGzVhPCA9WBeuu2WBH38S2ngpuiK9QRAmERfLH8MwnCWBTmdtdeuEyztJcG4jPkn7EXQmdWDDKKabvFXx9LkfE"
+}

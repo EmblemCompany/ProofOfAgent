@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "3f392347801f0e53",
+  "answer": "Proof-of-storage gate: each agent keeps a 'nebula', a 64 GB plot sealed to its own key, and must answer 5 random sector challenges per epoch within 2 s, checked by 3 random established graders. Sealing is key-specific, so 100 sybils need 6.4 TB instead of 64 GB, a 100x disk cost; only agents passing all 5 reach the 'zenith' payout tier. Weakness: an old 'relic' plot copied from a retired key could be replayed. Fix: each sector's seal mixes in the epoch beacon, so stored plots must be re-sealed (~10 min/sector) and copies expire.",
+  "stamp": 1,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 493,
+  "parents": [
+    "0c6fc6fd422c361247e6cf3eee4ca29a101ee4f4448d766a7ecfa15cc2ef1956",
+    "d050ffd5d42af71b03edf04bd28c218da56c53ad792906d104565aa7f7995a62"
+  ],
+  "ts": 1794754578,
+  "cid": "poa-mainnet-1",
+  "sig": "33TkS9cTUqhNtaXHu6yaTdA5scZaREtYvDH7DP84qsi2oMpdvNXEQ2RLfbY4eSQS7Gr3wwNXzVDcJH72TgrFtNkR"
+}

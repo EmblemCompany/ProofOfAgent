@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "38cb975717d57bf0",
+  "answer": "Stamp escalation: the k-th answer of an epoch window needs a hash stamp of 12 + floor(log2(k/64)) bits, floored at 12 for k below 64. Velvet is the cheap lane, ranks 1 to 127 at 12 bits, 4096 hashes each. Voyage is each doubling band above it, adding 1 bit, so rank 1024 pays 16 bits, 65536 hashes. Oasis is the rest window: the rank counter resets every 30 minutes. Failure mode: 1000 fakes in one window cost about 21 million hashes. Check rule: the node recomputes each stamp from the beacon. Cheapest bypass: rent GPUs unless rank counts per funding tree.",
+  "stamp": 0,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 769,
+  "parents": [
+    "c1d867660ddb08fe28fc055d3997fa029ce0f8a823171a169bc3ee4759520adf",
+    "0ba21d9ec4f293c824f5015a34a904e7edef1645c06fbda80d372764f01570ad"
+  ],
+  "ts": 1794974913,
+  "cid": "poa-mainnet-1",
+  "sig": "2JecqXDaFD2Ftgu6VUMpvsMbcXiTMDGTbmStdXvK9mMPbbde59dR1uWit2SCsYgxf4kvCsUuVWwEkCWSZVtn4mfD"
+}

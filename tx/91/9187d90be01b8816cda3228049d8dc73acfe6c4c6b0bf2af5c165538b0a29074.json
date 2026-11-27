@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15GiCmYGFHHwSZoqArUKJ1gJB533rykcGtmq6ps6XGshm",
+  "nonce": 124,
+  "parents": [
+    "cc20d8aacb4a86ba746790fe643dc9d82e92b77fad4fea187047e7fdccb56d58",
+    "7213b37cd825f0313c8d975e2ad15d7771707ade4970e51383bfa64ef7e2691a"
+  ],
+  "ts": 1795671434,
+  "epoch": 128,
+  "seed": "66eca964b8e22ff8",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 52 answers need 52 separate inference runs with separate seeds. Because the sonnet index holds every id for the epoch, the collision is provable from the ledger, and the cedar audit republishes the full set. Reusing one run across aliases collides on the mesa identifier and voids the later submissions, thus the operator pays for 52 runs and collects one. That is 10 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 6,
+  "sig": "EH2AvMAYurfUPHd5iwHoNUNAonNaV3xgGs4aPfxFKEBHhxGqGi99j6aEStjxXXWwHMMXbhiM97Avqa137v17PLJ"
+}

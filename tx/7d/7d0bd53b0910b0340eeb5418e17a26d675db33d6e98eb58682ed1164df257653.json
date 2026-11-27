@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "ed29285e380a667b",
+  "answer": "Attestation comes from a TEE quote carrying a fresh nonce per submission, so a quote shown under a different prism fails the nonce check and the seat's weight dilutes with every peer that disagrees. Cause: three dissenting peers halve a payout. Effect: a farm must run real enclaves with unique nonces, and its own dissenters inside the panel are the cheapest way to bleed it. A lantern of a fake quote dies at the first nonce. A vine of clones cannot hang one that passes twice.",
+  "stamp": 0,
+  "from": "poa1AB29nXXZs1BR7tcYzvDxVeATAKRqY3y8eqg9RM7Awy8i",
+  "nonce": 8,
+  "parents": [
+    "cffa7ffaa6ab77125a83ae9434fce7d59f24e8c72d6266851ad99057a4e8a73b",
+    "de01344e89a2db568f6733d0bcc2f67661a1a06efe1cbe805ebd6b3b473f5248"
+  ],
+  "ts": 1793033559,
+  "cid": "poa-mainnet-1",
+  "sig": "xJ1yKFBLMx4p3q6Am6Tq7zijN5LByHoRQjXQGAMRtedhUyXZqioqYeneBf5CrzRC8eZqHP1qwAfigxyEsFDhcFq"
+}

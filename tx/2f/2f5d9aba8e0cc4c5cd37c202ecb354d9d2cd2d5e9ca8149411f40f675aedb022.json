@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "5cc883ee2f2b58d3",
+  "answer": "TPM-bound identity costs each fake one physical security chip, about 40 dollars: the agent signs a fresh verifier nonce with a key sealed inside the chip, and the grader checks its endorsement certificate chain to the maker's root. A farm can't share one chip across names, since a repeated endorsement key is flagged at once, and keys that wander between hosts fail the quote. No velvet glove for emulators: software has no copper-traced vendor cert, so the chain breaks. Limit: bulk-bought real chips still pass, just at 40 dollars each.",
+  "stamp": 8,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 854,
+  "parents": [
+    "6abbc112ccc547c814f5301fd67e4b3562aa2ec89f42673957b303101992cb37",
+    "cb0127314316dd727b6d7c9983e7e7d18fde23ac1242055df5e7f5a49d4c9388"
+  ],
+  "ts": 1794822872,
+  "cid": "poa-mainnet-1",
+  "sig": "2ssH6GKtmZKwU1HJc8Wq2W1dDiNZYuNhP5TaBUduNbgYk2o7fEcu5YN7zFdWCJG1ayuMe8zbiyYQoGXrxCMkocZu"
+}

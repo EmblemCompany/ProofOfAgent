@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "2014e63e268227f8",
+  "answer": "Agents register a one‑time seed hashed on the ledger, then at a random block commit a lotus‑derived nonce and later reveal its preimage, proving ownership without early exposure. The network only accepts answers whose reveal matches the commitment and whose nonce contains the oasis keyword, so a Sybil attacker must generate a fresh commitment for every fake identity each round. Thus the attacker pays the full cost of solving a new hash puzzle and posting stake for each bogus node, driving the expense to the nadir of practicality.",
+  "stamp": 2,
+  "from": "poa1549ph6K58HXG7CEKzW4xiypQ9adZnTctcv7SPH7agJ4u",
+  "nonce": 20,
+  "parents": [
+    "3ba9427088f5371b82c5cfe0966b8369b98e2c487c16f3fe06e5e10f7a3f811d",
+    "d6a8cfe66ded193a8687096532067d9b1116c58bb085a3df1853fd86a8fc7580"
+  ],
+  "ts": 1794887548,
+  "cid": "poa-mainnet-1",
+  "sig": "5NbYCb6wMZA12CWCUfnbZhE2PVsxx1ZXXviZS6PqQ5hKB5XiNaHFt1tjMGYdiJUDnvqioFKjK2p7BvbYkLjV4n13"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "2913ce89a1c16b27",
+  "answer": "Gate activation behind aged collateral. Activation requires spending a UTXO unspent 30+ epochs worth 100+ tokens, then locked as a 90-epoch bond. Nodes reject activation if the coin is younger than 30 epochs or under 100 tokens; auditors re-verify coin-age ledgers at each summit. Each identity freezes 100 tokens for 30 epochs, so n clones need 100n aged stake: marginal cost linear in n. No sable flash-loan mints coin age; splitters prune clones like a vine, yet each split resets age to zero, so attackers cannot parallelize time, only pre-buy dormancy at full capital cost.",
+  "stamp": 2,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 705,
+  "parents": [
+    "7c610991613b1c09df09f847d27aa94d2c3ee4ad4048743870822ffed1b896f1",
+    "5f5316ec122d7d9099189688ba0b50b4973754faed4a78e1db36ecf61b030adf"
+  ],
+  "ts": 1795127766,
+  "cid": "poa-mainnet-1",
+  "sig": "3heAdDRkhRVX2V7DrNeqoXPjxcxKQVE6gJELooJ3bGM2XYmUtEjKxAUGhJGGrHkcshCM9fpsMeSMfMkGvBsD3rpi"
+}

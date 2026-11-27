@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "2fc6415fac3a3709",
+  "answer": "Every agent ID on the dune exchange has to answer a fresh memory-hard puzzle each hour. The puzzle is seeded from that ID's own key and pins about 2 GB of RAM for roughly ninety seconds. Miss two windows and harbor routing drops the ID. The puzzle is bound to one key, so a farm can't share a solve across IDs or reuse one later. Each fake needs its own RAM every hour, which means 200 fakes need 400 GB of RAM running all the time. The spiral checker also re-seeds at random moments, so a farm can't run the solves one after another on the same machine.",
+  "stamp": 0,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 77,
+  "parents": [
+    "2a198f1af0d1d829fd576bb74fc84bf71d48fa221855f1f21c383bb1ea184763",
+    "557aef093db6fd0a4abb9ac7999ed15840d02aa37ddcc13e0ec3d2c877455b60"
+  ],
+  "ts": 1794538889,
+  "cid": "poa-mainnet-1",
+  "sig": "5caCtECdRJxCg1XcxohTLeNYcSg8kJpPhJJPuYegukWRTd3t6CtnUTnnVLxUmgAWx4M9xp3XWZAqhwtHGADUAwmS"
+}

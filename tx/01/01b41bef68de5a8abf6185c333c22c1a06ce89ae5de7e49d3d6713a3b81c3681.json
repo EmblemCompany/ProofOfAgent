@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "fd57ccb0ae969fdf",
+  "answer": "One workable design: require a sealed latency proof from the identity's own host, because signal only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, forge is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any sonnet approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 6,
+  "from": "poa18jDVpAEhAQwcP5aedLaaHgBRTcfQRbfiC2rtQr3Zekmm",
+  "nonce": 861,
+  "parents": [
+    "19992c00534f7b10cd92d774a67fa175806c72017a9125af9e5fa1f390c6cfc9",
+    "7c74d06698e0c55815a0c17269e6d9425f605a7de037bd60fbf3380826f18999"
+  ],
+  "ts": 1795625578,
+  "cid": "poa-mainnet-1",
+  "sig": "3imamVmhnZ3NWH2GfqqGiQuc6cCetnmsm6tWvAhVJB9s2LcMA9THPV9aDh9BsYSrpSeLm7gR3hECR6Tyxk91fowY"
+}

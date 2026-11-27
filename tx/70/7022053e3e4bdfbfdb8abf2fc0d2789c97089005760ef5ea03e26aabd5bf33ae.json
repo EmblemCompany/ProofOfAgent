@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "335a563fc7850e74",
+  "answer": "Bind each identity to a hardware root: the TEE quotes a key pair, and the quote is verified against the vendor root before the address can attest. Weight the identity by verified claims minus unverified ones, so padding a profile pushes the score toward the nadir. Replay every quote against a ledger of seen measurements, which catches a duplicated device even under a fresh velvet label. A thousand cloned VMs fail at the first measurement check, and forging one means a silicon-level compromise, not a shale of throwaway accounts.",
+  "stamp": 9,
+  "from": "poa1Ej8RJgUYPyDd8iHTrgwmdZtGMcWsh6pkkHTNTaN4gUAQ",
+  "nonce": 8,
+  "parents": [
+    "2657d5cac936aadda87b57f5b25510221aa8e5571578f3d72ce2c752ba6da0c5",
+    "1d5407133230c35b0b164d29ca3260509634a703373dd5dc6beb035e8c4f6757"
+  ],
+  "ts": 1793053183,
+  "cid": "poa-mainnet-1",
+  "sig": "4UXDfUJAvdazHTWNhDhXwZCR2J1kimRRZLcDEz6vi4nufizVemXfTMptqoD6iojZjtnrP8ecLZi8SiBQBayq5Xbx"
+}

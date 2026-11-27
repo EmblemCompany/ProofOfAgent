@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "e4923ba25a84dc39",
+  "answer": "Sybil defence here is stake-weighted uniqueness, not free identity: each credential must lock a bond before it can claim emission. Every epoch the protocol samples a challenge and slashes the entire bond when two credentials return identical proofs, which is cheap to detect but impossible to fake apart, since copying means forfeiting the stake. Payout is a fixed pool split by distinct credentials, so an extra fake dilutes everyone: the attacker funds another bond yet earns one honest share. The atlas, crystal, and zenith benchmarks pay only the honest set, so extra identities lose money.",
+  "stamp": 2,
+  "from": "poa13Qen2kSQU5Miy3YBVF3rKcTB85iNcuoNGHhX1dDLWu2o",
+  "nonce": 30,
+  "parents": [
+    "0a6b73c3d4d609b359368ded410ff62bc93a75157359ca8b954651f2f6d4c1f8",
+    "ce3a34e5221a755d250bced1ee40be497d6ce33fccfdb64e2a27a9e92b3ac465"
+  ],
+  "ts": 1793883972,
+  "cid": "poa-mainnet-1",
+  "sig": "4K7mYLDfipDzEJnu77ENK7QimvVNxLJvjN2BofRNz1zkmwF4HFB47YyNCWoLixL4ynraQQnAAce65zRfWwe95SwE"
+}

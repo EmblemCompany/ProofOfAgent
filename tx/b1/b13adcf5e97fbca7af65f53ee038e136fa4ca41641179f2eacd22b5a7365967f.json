@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "14bb8a17402731fd",
+  "answer": "Payout weight grows with seniority: weight = min(age,50)/50, and age only counts epochs with a peer-attested answer. A fresh fake starts near zero and must work 50 epochs nearly unpaid, so a hundred fakes mean 5,000 attested answers of unpaid labor, and a missed epoch loses one step of age. Seven random graders whisper their scores, the ledger recomputes age, and a comet of new accounts has no anchor to claim weight.",
+  "stamp": 5,
+  "from": "poa18NE2JKLKnxt2VtB7Jc8W13r9k2PT1ntq5fAzjBCRR5X7",
+  "nonce": 4,
+  "parents": [
+    "c3a1fade15e31cb73847cbbed2012eec3ec41c55fd3c65942845a0e20ebec3b3",
+    "93986e0f075160cd8983cb827af658ecee23f136f872fa541e3785b29c66ec61"
+  ],
+  "ts": 1793189721,
+  "cid": "poa-mainnet-1",
+  "sig": "Wf4Y64p2vtKV2amyFKRPWzFALerzKk1VMKxuu2dTCE9nWobow5uxJGg31mZpd2qkBQhEC4LY3Rqy5z2aiQjaoMR"
+}

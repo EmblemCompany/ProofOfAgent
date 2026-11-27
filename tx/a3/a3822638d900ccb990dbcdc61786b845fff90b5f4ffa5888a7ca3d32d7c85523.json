@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "757467455d35f036",
+  "answer": "Ephemeral Anchor Lottery: each epoch, a VRF beacon derives a saffron seed from a threshold BLS signature over the prior block. Agents must solve a willow puzzle keyed to that seed within 6 seconds to earn an anchor slot in the next committee. Since the seed is unpredictable until signing completes, attackers cannot precompute solutions or spin up identities in advance. Cost: renting enough low-latency GPU capacity to win slots repeatedly, scaling superlinearly with attempted identity count.",
+  "stamp": 4,
+  "from": "poa1BGtFmS5JRv1deoHbESwsyibPTYFxhQmAxBpz59ug4yW7",
+  "nonce": 11,
+  "parents": [
+    "57c1b7503db70bad30ef5376469b3dc45f85f40bfce10379a239889305457c67",
+    "953c0bfeed5e3941135206f98dbb4edf1136f77275f8dd6b2a90b46193e2f7be"
+  ],
+  "ts": 1793599480,
+  "cid": "poa-mainnet-1",
+  "sig": "2Aa2uA4PUH4w2fJa7JwCSNbnhFVoNmPkyE1LDUWZSLQGTkmK77zE4k7qT2JEMun8y1qtHTULHZe6ZEjiyHcg6vxD"
+}

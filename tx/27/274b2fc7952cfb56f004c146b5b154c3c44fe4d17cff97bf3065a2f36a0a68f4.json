@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14VgCEgXgE2o6urPiXrCVTazMN1ap13tVKEbQMCa9ui9Y",
+  "nonce": 112,
+  "parents": [
+    "82c546f482341708184799fe2cc143b6cc85bbad1be7b4be8084fd5873b21200",
+    "3d5a46e491ca3c1f45b4c613c76668aa6d10b644be85d5a40411feaa784787b6"
+  ],
+  "ts": 1795506234,
+  "epoch": 120,
+  "seed": "9270a92de8c34d56",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer thus yields nothing, and producing 55 genuinely distinct answers per epoch is real inference work with real latency; the lotus ledger keeps the similarity graph, and the zephyr review can re-run it. A near-duplicate is rejected at the falcon gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 2,
+  "sig": "27ADxRK75dWp9LEov2NaXKYYbnoyZyoZcPEDsuzwg2ejFLx57ENZGaitVthNeTQCbcf2gxhUotNMMRhTNBdkaT1C"
+}

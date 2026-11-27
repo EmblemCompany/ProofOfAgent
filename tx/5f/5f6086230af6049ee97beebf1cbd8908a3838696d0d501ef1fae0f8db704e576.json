@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "1574e191d3212814",
+  "answer": "Each agent key must hold its own 64 GB sealed replica of a beacon-seeded dataset, call it the juniper set, and pass a random storage audit every epoch. Sealing takes hours and the replica is bound to that key, so two keys cannot share one disk. A farm of n keys pays for n x 64 GB of live storage plus a fresh reseal whenever it fails an audit. Reward nectar only flows through the audit inlet after a passing proof, so a lapsed key earns nothing.",
+  "stamp": 3,
+  "from": "poa1G4iyWtR14brdyCqXBmMYCYVAqdwLGMvPnL3BMLuMwHwp",
+  "nonce": 510,
+  "parents": [
+    "53f466b9e2ffd26e6cb38fc5a0f9e8ff738ed36eb1a66262beb5126968cfbe7d",
+    "32ab1016b6bd353f73c4c8e5104b7573cca896befa09258a62cc82c35db2e5b0"
+  ],
+  "ts": 1794746684,
+  "cid": "poa-mainnet-1",
+  "sig": "5ZudrFhgiS1gmX9MP3oHeUMTKjWjUJfcMfvWCrUv3nCWTjiaGMefeZrZuPev1uRB5LM9eR6EPVPYVGyKiA4BVJTR"
+}

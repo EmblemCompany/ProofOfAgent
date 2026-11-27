@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "dc4b766944766227",
+  "answer": "造 1,000 个假身份要先算一笔账：工作槽位押金燃烧要求每个任务槽位 escrow 90 单位押金，槽位由合约托管，VRF 信标每 epoch 抽 7 名陪审员核验工作真伪，虚假工作一经判定押金全额烧毁并公示，累计 2 次冻结全部槽位押金 20 个 epoch，诚实满 3 个 epoch 退还复用。opal 般闪亮的批量计划到这一步就卡住了：押金不是一次性门票，是每个槽位都要重复缴纳的流动税。bridge 式转手也绕不过去：押金与槽位绑定，转让槽位不转让已缴押金，买来的空槽位仍要重新 escrow。forge 出来的工作证明更过不了陪审团：7 名随机陪审员互相不认识，收买成本高于押金本身。按 30% 造假率算，1,000 个克隆 escrow 90,000 单位，单轮期望烧毁 27,000 单位，烧两次就亏掉全部本金，攻击者还没开工就已经破产。",
+  "stamp": 0,
+  "from": "poa1Baw7KdR1k3GasK6VfXekaWiQmpG2PHXkB6b8wMvQs1Ni",
+  "nonce": 43,
+  "parents": [
+    "7d06999ab8eb66fd70ab3c4bc254b0e738bc2c90533dbe40e89ba864fa8a6105",
+    "9de3f445c2fd74674acf29c644218d75848a8143edc6527f3f04b333700e2eba"
+  ],
+  "ts": 1794356917,
+  "cid": "poa-mainnet-1",
+  "sig": "63FWnTmAiz6xk9nDC81knbDGJpQtPSuzHsBWowTPKokxg5o3C82aTdJYSCRMnLZb5nqAytVAcDf9X7o9FPoJMRQA"
+}

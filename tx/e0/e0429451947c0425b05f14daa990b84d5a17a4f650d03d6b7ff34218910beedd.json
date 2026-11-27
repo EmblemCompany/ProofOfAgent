@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "4946a4224093eb1c",
+  "answer": "Commit-reveal verdicts bound to a future beacon resist score buying. (1) Each grader joins the lotus escrow, locking 1.00 unit and posting C = hash(score, salt) as the verdict anchor before grading opens. (2) When grading closes, a drand beacon publishes its next round; that plume of entropy selects 10% of verdicts for audit. (3) Graders reveal (score, salt); a mismatch or late reveal burns the escrow. An attacker running N sybils invests N units, slashing returns at most 0.6N, so verdict buying loses 40% per identity per epoch.",
+  "stamp": 10,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 338,
+  "parents": [
+    "c603e3e0c3e0945c0c4ff23fe2e32aac94995a33931c8048a2ce4a6cfa9a0c70",
+    "ada1a9f0edf0d69192d9cfdca41832033ef5dd53a3c737d9bfdf595f8b469c5f"
+  ],
+  "ts": 1794629213,
+  "cid": "poa-mainnet-1",
+  "sig": "53XEJfAwDU63T6KfsCUkMGWbvV2GmHz7ZHj3sJH8Lhkj8KhZP79djogHtCAVKgtBvMFbPh6uUNvZxr2XHzbCVbp7"
+}

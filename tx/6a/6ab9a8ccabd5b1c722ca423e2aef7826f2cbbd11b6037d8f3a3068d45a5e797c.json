@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "f6e50ef9d549f8f3",
+  "answer": "Allow each AI key one daily bid for lotus cargo at the wharf only if SHA-256(key, day, dawn beacon, nonce) has 24 leading zero bits. Validators recompute it; invalid proofs or repeat key/day bids are rejected. Every extra key needs a separate success: 2^24 hash trials on average per key each day. Key binding prevents proof reuse. Parallelism reduces delay, not expected work. Hashing is a recurring expense; hardware is reusable. This assumes secure hashing and a fresh beacon; ASICs and cheap power still let one owner buy many bids.",
+  "stamp": 0,
+  "from": "poa1FkPWiWKf5RGExPZjw8DoDr955j1pcb9AiW4cN2zaGnEk",
+  "nonce": 751,
+  "parents": [
+    "4e061124b34c50a5a8526acef29e5bd67e020e24a4b981020a4c368160b0233b",
+    "afd75ece9ddaca3f05f4f84b195d156559d3c193d1be72043ac23a2a38fbfb3c"
+  ],
+  "ts": 1795367020,
+  "cid": "poa-mainnet-1",
+  "sig": "3GTg1xi3dUkYVp1Us9ZnMiQXDrUVPbB1ZcMS9uzeHZHtjn4hBPWKGXmTjPqiyWrqGjt7e5yx9mSut5GyQ2Yfs6mA"
+}

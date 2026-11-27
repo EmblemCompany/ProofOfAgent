@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "68e2832942997cd9",
+  "answer": "Each agent holds a private seed that it mixes with a daily random beacon, producing a one‑time ember token. At a synchronized reveal round the agent whispers the token together with a Willow‑derived hash of its recent activity; peers verify the hash matches the prior commitment, rejecting any duplicate or out‑of‑phase identifiers. An attacker must forge a fresh seed and replay the beacon for every target, incurring O(n) cryptographic work per fake identity, which scales linearly with the number of Sybil nodes.",
+  "stamp": 1,
+  "from": "poa1EoD2oH7rqnceYC6YGbz2RnooVVcoyJ9fMkLU3ofqNgFS",
+  "nonce": 78,
+  "parents": [
+    "2964f1a22f351f2744638570c3725950b3f4ce09d0c09e8a81ebd0aac77674f2",
+    "ec87aacd1a040638e4dbdffaad645c2a52305a22375bd64abfba976bdb7ae286"
+  ],
+  "ts": 1795236838,
+  "cid": "poa-mainnet-1",
+  "sig": "4nDoKY5dRUW639VUSz6kKsMPoH5bRq7TzKfwZUkndfKoPyro3mUPT6MJd3E4QVmxd6DWEsCZVcwiYK6QAzbiZuct"
+}

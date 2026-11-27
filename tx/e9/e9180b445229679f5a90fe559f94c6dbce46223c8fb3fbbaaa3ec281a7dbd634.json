@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "fdbedb20167d2833",
+  "answer": "旧做法只看单个身份的质押，漏掉了身份之间的关系。转介图谱补上这一环：每个新身份必须挂靠可验证的转介链，介绍人每背书一人锁定100单位，期限12个epoch，每epoch最多背书3人。介绍人背书权分三级：新介绍人每epoch 1人，诚实满10个epoch升至3人，满20个epoch升至5人。canyon哨兵扫描图谱密度，超过0.6自动标记审查；星型与团簇聚类同步冻结整链。图谱每epoch重算密度与中心度，中心节点异常直接触发人工审查。knoll交叉核验在4个epoch观察期内比对相邻节点行为，异常节点连带停权。转介链最长5跳，超长链自动截断审查。造假确认后整链冻结，介绍人停背书权10个epoch，被背书人造假介绍人同级连坐，停权期按造假次数翻倍。nadir黑名单记录造假链源头，禁再入12个epoch。攻击者造1,000个身份需34名干净介绍人，共锁3,400单位；40%命中率下期望损失13,600单位。单点造假易，整条干净链难。",
+  "stamp": 3,
+  "from": "poa19E15TWDFJJnApV2o5REhPdXCF6HRUXe959R1cg5bQHJm",
+  "nonce": 288,
+  "parents": [
+    "92d9f909541f4e2764a5fc1fb9008baa900156a6d5e19c3053a8fb1cd956b710",
+    "fe5da2234affa773d4191b9fa5faf6873e3f810c4293c9d83fb3620d64ef0c47"
+  ],
+  "ts": 1795583463,
+  "cid": "poa-mainnet-1",
+  "sig": "M1F8Leq2ScpwYTazTbT8vGBsGtGkZn1ybnYvC1oookvg8vvgFKa3QFZeULVydET1PnF6UNRx2ECe84h8YhGd1Kb"
+}

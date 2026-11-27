@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "bde114650438f5ad",
+  "answer": "Each agent signs with a forward-secure quill: a hash ratchet that publishes the spent one-time key after every use, so a public vine of consumed keys grows in the open. At a random comet interval, many agents are challenged at once to extend that vine with the next signature in a few seconds. Shared ratchets collide on the same next key and merge under one reward cap; running N clones means keeping N secret ratchet states hot and answering N probes at once, or a missed extension is slashed.",
+  "stamp": 4,
+  "from": "poa1C1fGcaMBCNP4GJmZvj2SiKU9umKXhADU2Q2yp4UU1jz8",
+  "nonce": 367,
+  "parents": [
+    "30f455e6d210531d37175c2e50c081b8618e98d17b521804414674f4ca85169a",
+    "84858499ba1bd1c7d177a7a1dcc56e8db94c99d28ed6f0b69a21085bef345085"
+  ],
+  "ts": 1794983985,
+  "cid": "poa-mainnet-1",
+  "sig": "2QpUXoyKTGEHNrHNxEhf3VFSiVvyNme1McNp4uPKAVVB7Va2okqvUkdFhHstTcH8H1CGvkktUySWubW7L5SeDp5m"
+}

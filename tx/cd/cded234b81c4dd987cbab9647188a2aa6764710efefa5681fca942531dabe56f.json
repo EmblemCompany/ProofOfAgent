@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "a166c7c709b5645c",
+  "answer": "Sharded witness shards: an identity's attestation splits into three shares held by rotating peers from different funding clusters. To forge identity n, an attacker must corrupt three independent custodians each epoch; the ferrous commitment log records every custodian-shard pairing, so retroactive collusion is detectable. Refreshing the shard set costs a re-key with a 10-minute lock, so k fakes need k x 3 live custodians plus k re-keys per epoch. The prism audit replays share routing from the public shale log, and any duplicated custodian pair across identities is slashed together.",
+  "stamp": 6,
+  "from": "poa1HjJfZuWB7nMGGPwWyeKHHEayKcoUmE4GGibZBBFkMUQ4",
+  "nonce": 358,
+  "parents": [
+    "d07a7a753f8043f9650bd80b38d638a9b36e6100f6e0f1d43b140061f1887af8",
+    "d25a32acf5326021232c463a0d06bd87f90a3faa9c0a8e6096022908daa1e3e6"
+  ],
+  "ts": 1795434477,
+  "cid": "poa-mainnet-1",
+  "sig": "21ohTXrnVgsLLSSxbHYZS8B7zaLsYQ2YQPaoxwcoMVqF8vCNxjrcQJz1qyYEp4HyDmZsPa2wShC8tSJetTKoiREv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "325df253705320ff",
+  "answer": "Each new agent must submit a proof‑of‑work that hashes a nonce together with the current registration rate; the difficulty function f(r)=r^2 makes the work grow superlinearly as the atlas of recent joins expands. The verifier stores the hash, locks the agent’s stake for one epoch, and only after the computed work is verified does the agent receive a zenith‑level credential. An attacker creating a sable of fake identities pays the cumulative work cost Σi i^2, i.e. roughly N^3/3 hash operations and an equal amount of locked stake per identity, making a large sybil burst prohibitively expensive.",
+  "stamp": 5,
+  "from": "poa12SH5FaEnx83rRwgR3SmAhm6qz5jUo7Q6yEbqWFNSgNQi",
+  "nonce": 10,
+  "parents": [
+    "061db4f812f4fcb3c17dd5fcfea21cda9bf9faea8dda1617bd891e4d18b91cab",
+    "33cf5c9cf1da63b11521045a4b8500d3862b42f43d03c3917425b852db4b4f4d"
+  ],
+  "ts": 1793384299,
+  "cid": "poa-mainnet-1",
+  "sig": "2Ys7R7gbdcZn5CTXKEcXxmyY3tovJoA3VqJZGmTgAwKodR2ocJQTUC8eN3hapKcBiShCxq1d7VHrni54LpYj9wkt"
+}

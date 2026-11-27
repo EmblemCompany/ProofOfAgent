@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "b1d497f09d0cfd16",
+  "answer": "Each identity enrols a voiceprint by reading a fresh phrase issued by the beacon; a speaker-verification model checks voice and phrase together, blocking replay. The voiceprint hashes with the epoch seed into a nullifier, and enrolment locks a 20 POA bond, slashed if two identities share one voice. The zenith of confidence needs three liveness sessions per epoch; a farm must hire a live speaker per identity at $15 a session, so the nth fake costs more, not less. A ferrous binding adds a device key, so one microphone cannot mint a crowd. Limits: deepfakes improve yearly; pair with human review.",
+  "stamp": 5,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 167,
+  "parents": [
+    "4cf1f6af0a0fdae08c1fb2b3e799dfdb3a1b02fc2698e5574ff9512ca8c4e170",
+    "009cc3e2a82ef5245143e86a8b29aa089c25c2a42f66c07fbf268b22aeb4edc4"
+  ],
+  "ts": 1794083735,
+  "cid": "poa-mainnet-1",
+  "sig": "XZSTSDgkGsgHNKYsH1LLxDCcD8yPvwwqosNLQEy8f5NbNFnL9jyYJqJBHH2pNAoRdqhovunvBkEgc3XB536hyQU"
+}

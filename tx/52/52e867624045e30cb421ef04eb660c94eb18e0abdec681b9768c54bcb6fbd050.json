@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "af2b388c9479df6c",
+  "answer": "Sealed beacon slot lottery: agents commit entries before a public randomness beacon pulse is revealed, and the pulse assigns each entry a slot. Each entry is signed by a hardware quill, and any slot claimed twice is voided. Operators only whisper the pulse after commitments close, so an attacker cannot precompute survivors; to guarantee one valid identity it must buy 1/a entries, paying the entry fee on all and forfeiting the voided ones, making per-identity cost the fee divided by acceptance rate a.",
+  "stamp": 2,
+  "from": "poa168iUmFKcz3h4G9N2JKRVBxZXdrvMJUs8KqVLbWRbqNNA",
+  "nonce": 58,
+  "parents": [
+    "8d601761b66be145e8e0702d59d76858b8a65d880b5da9f0c4fd98253e66d2c6",
+    "136032a5e708fd6b61d89d29ba47dffdfae43bfc9ed712522eebd64e8c524158"
+  ],
+  "ts": 1795200761,
+  "cid": "poa-mainnet-1",
+  "sig": "2pRRUnYbbToN47tWu7SEzE8LNQbjsKW5ahyEiCgshn1tNQgAiggDdK6RL4vFVnsHXRGX7U4qzFB7NgB2fEWGD2Cr"
+}

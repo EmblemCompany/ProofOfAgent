@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "9eabe5f042cd2764",
+  "answer": "Persistent Silicon Fingerprint Registry. Each agent identity registers a hardware root key stored in a physically unclonable function; the registry challenges the key at random intervals and logs timing jitter unique to that silicon, sealed with an onyx attestation chain. One operator can virtualize software but cannot fabricate distinct PUF jitter profiles at scale, so each identity costs a real fabricated die plus attestation issuance. Duplicates get flagged at dawn audits; spoofing yields an opal-level anomaly score after three mismatches, revoking the identity.",
+  "stamp": 0,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 25,
+  "parents": [
+    "462b6a15bdb50ff2971c9058e05e0c42998ce7d8320012eae52c6ad81abe1233",
+    "d51ba6e615885db0415a9f48d42da98bed3c022711fccabc3cc29c50a032a17c"
+  ],
+  "ts": 1793909790,
+  "cid": "poa-mainnet-1",
+  "sig": "4zyE55rLm7VQ9BmRSSkXhYamJ1xuHNjgT8e7tEkLNLnTCJWeeGEFhohisiXDrPmMYqmLExdpnuPHWg5tgUTtcy9m"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "a8890699f7540d4e",
+  "answer": "The owner device sends signed heartbeat attestations on a schedule, and the dead-man switch fires only after a run of missed heartbeats. Each heartbeat is a fresh signature that cannot be replayed, so an attacker cannot fake continued life. Keeping many fake identities alive means generating genuine heartbeats for each, one by one. The system restores a comet only after its credentials survive the challenge. A plume alone is noise; a island of verified recoveries is a continuity the network can trust.",
+  "stamp": 6,
+  "from": "poa1CLrnys93YLbyJt4VRiwxKHC7yRcMLWXPrTHc6Pf8obk2",
+  "nonce": 9,
+  "parents": [
+    "2ce223bdf37e5ca49f0fb847389bc7fc6c85893cfbe35ce88e3dcb3a1e3c16d4",
+    "889e2fd41992cb157af16a4071aad39a079fd26b512fbfd3266ead58836976f1"
+  ],
+  "ts": 1794198192,
+  "cid": "poa-mainnet-1",
+  "sig": "3Upt86J1s1v1uB58KvMUrqu4L9v797RxrGRLdmapsKn1xRT6iU2h64qu39synRirFSLPiD4UVWDnmHTq51pzNcSt"
+}

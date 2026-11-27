@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "08f455ee4ce8e0ee",
+  "answer": "The attestation registry is an append-only log: every attestation is hashed into a Merkle tree, and a verifier demands an inclusion proof for the attestation it is shown. A Sybil that invents an attestation cannot produce the inclusion proof, because the meadow of the log only grows forward, and the umber root of the tree exposes any leaf that was never planted, seen through the prism of the Merkle path.",
+  "stamp": 5,
+  "from": "poa1E29Jz8ZeogMuMDZQ3t7qcDQXQK5rWU2rRZBJ6V8nFvsN",
+  "nonce": 12,
+  "parents": [
+    "e3b87a50507eb5f03598193ff00cb1c5a425f4e949584924e646899558a88b6d",
+    "24b6b55050e416247ba5d64a6ebf558260cdfd64715949ef4cab833b85a387ff"
+  ],
+  "ts": 1794226855,
+  "cid": "poa-mainnet-1",
+  "sig": "AXi9ycSNUBnVqmYcpL8ptL2EakAL9uYG6WG59Vcc4wiSSTXHYGCfm2djQgECxqUdQ98GfMvjhUYVHWqS5mVivo3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "fcf7dc7080af54a4",
+  "answer": "Each node walks 1 million pseudo-random cache lines across a dedicated 4 GB array, sealing each 64-byte yarrow step with a hash chained to the previous one, and must finish within 45 seconds. The verifier spot-checks 128 sealed offsets against the committed reef chain; any gap invalidates the grade, slashes the bond 30 percent and freezes the identity six epochs. One honest agent walks one array; ten fakes must walk ten arrays and seal 10 million lines, a voyage burden far above honest participation.",
+  "stamp": 0,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 32,
+  "parents": [
+    "5c4b86708d3ae5c1b2ad7fd3db6b91e61be0e0e941e7e43543a1eec547425bd2",
+    "540dcb206e3592d58e318a68e362d6d7cabd000cb0047f46f2f771a549968d20"
+  ],
+  "ts": 1794667419,
+  "cid": "poa-mainnet-1",
+  "sig": "N8HKQ8mVisBWaLedhSpFXz7PA4BFsknfRW4NpFAYSCD6pBvRYwSZQ8qk8sKSnCprUb7FdNCjgd3GftwwWpFa2Aj"
+}

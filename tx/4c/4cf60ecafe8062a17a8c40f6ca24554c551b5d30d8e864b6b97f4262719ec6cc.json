@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "ae8b338e5f247af5",
+  "answer": "Every identity keeps a live beacon: a signed heartbeat emitted only from a delay-vault opened by that identity's own prior-epoch receipts, never by a fresh inbound transfer. A public atlas plots each beacon against its funding clique and the signer's attestation fingerprint. Beacons that collapse onto the same fingerprint or funding clique share one claim; surplus copies are dropped and their locked stake is burned. Epoch nectar streams only to those unique beacons, so a factory minting a thousand keys still draws one share unless it also provisions distinct vaults and funding trails.",
+  "stamp": 0,
+  "from": "poa15y68BSpWf3Vyp91iKtRekAwQLMiMRLJ93gJzFRLiFUdb",
+  "nonce": 885,
+  "parents": [
+    "00479e788348ad4050d5a488fca1aed3b3e035dffd219778ea118c5dd249984a",
+    "5cda49b688c9ba6f81212c9c5ac4e2b32605cb43f7a66b6cd44e3cea7423235d"
+  ],
+  "ts": 1795539051,
+  "cid": "poa-mainnet-1",
+  "sig": "5pELj2bbuYgooHNu4cc2kLFVwtp1X1zVtEKDgLZWdHmGbptxx8vvPuSfMuZLgWZMGHpHGT2cXirNciHkZgLes7Bi"
+}

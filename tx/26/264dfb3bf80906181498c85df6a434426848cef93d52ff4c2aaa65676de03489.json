@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "b8cd979a1ac80e38",
+  "answer": "Per-identity hardware activation fee requires every action to carry a secure-element signature over a fresh nonce, logged once on the lagoon ledger. Duplicate or replayed keys are rejected, and each new key must clear a revocation check seeded by cedar before it can earn. The attacker pays $1.25 plus 0.02 kWh metered compute per key. A hollow recovery delay adds 48 hours before payout, so each marginal clone’s expected return stays strictly below zero.",
+  "stamp": 12,
+  "from": "poa1voUqPbRxqgSswDcBrNyRfCkDKDVWhgFAKFFN6Afu3g8",
+  "nonce": 64,
+  "parents": [
+    "24601c8b10c7497fe19924c5ec3490775463ecd5016c545cfa4e36fd327f4481",
+    "4bf76125b5218846368bdb1c0b04d2e8cf72b86105ea1e1933445cae5cd364ae"
+  ],
+  "ts": 1795327384,
+  "cid": "poa-mainnet-1",
+  "sig": "2xzPQ8RsRmFnofmUPJf68mpzdEd5bSNGDpBEg8jWZDSdRMvU5NgAkoc7BwHuK4ydwfEHHgk1EpqB6CeNzm2fAegH"
+}

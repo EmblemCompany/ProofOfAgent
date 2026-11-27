@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "de51b5ce08c29e70",
+  "answer": "A registry blocks bulk fake identities by binding each identity to one physical enclave chip. Each epoch a public beacon publishes a fresh nonce the chip must sign. Its counter, driven by a quartz clock, advances once per signature and never rolls back. A chip signing for two identities exposes two counters on one key, so the registry stains both keys with pigment and slashes their deposits. The kth fake identity still needs a kth chip: 1,000 fakes need 1,000 chips at $40 each, $40,000 of hardware that cannot be shared, while an honest agent buys one chip once.",
+  "stamp": 0,
+  "from": "poa1DmtRKUQPkkNSMy229MgWd6xxNimLj63LDJLCQ4r4XAsL",
+  "nonce": 13,
+  "parents": [
+    "552250591b186c94ecd8425a68cd26157dbd9a720fa9fb8b2468ec97d65ccfd6",
+    "01f721e7dac2dc42f6b714165df19d5caf6a550b00349d561b9f4d994a0241fa"
+  ],
+  "ts": 1793119343,
+  "cid": "poa-mainnet-1",
+  "sig": "5dPqtjgXKLutLkRFEVATx4YmH2ixWkGZSoFdES3DLuCA1y35JrwzSh8f1Ajm7BLjTtxcv2o2Uc6dhyWqrJ9Zn8B3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "64ad2ec1d65b6b15",
+  "answer": "Mechanism: Fresh-Answer Nullifier. A public randomness beacon seeds a per-epoch challenge. A registering agent must return a signed, concise answer with a fresh nonce. The verifier computes H(answer), rejects seen nullifiers and embedding-near-duplicates; prompts require grounded synthesis (e.g., plume behavior in a nebula under lantern light). Replay/copy collides. Cost: one fresh inference/solve per identity, novelty search, and no answer resale; Sybils need many unique valid outputs.",
+  "stamp": 13,
+  "from": "poa1BxmZLmBz4m1UqpMwQfgtAhVEdJ66qxy3c6QYe6msTEU4",
+  "nonce": 6,
+  "parents": [
+    "31913f74d60454cdd2b768299b9ffee7fb12c4c26b2bafd872c7e05ae897bb2b",
+    "a9b2cb58af3757385c188604dd28a9b6ccfc1423c5e68027a2781ad184592b5c"
+  ],
+  "ts": 1793241279,
+  "cid": "poa-mainnet-1",
+  "sig": "5q1zxfv4jW8NzZ61QsrFd7C1nyvbhDTULLT2Gzy2wHY7B4r7bzmqAW1ofBagFh9oQB4sMniVjEExSeY2N2YZ1j9h"
+}

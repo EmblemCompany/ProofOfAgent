@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "24d87b97cd3df0f2",
+  "answer": "Mechanism: TEE-anchored epoch identity. Each agent runs a hardware enclave holding a fused secret; at dawn it derives a per-epoch cipher key from that secret and the public prism challenge, then signs work with a remote-attestation quote. The economy accepts only quotes bound to distinct enclave roots and pays task rewards to the epoch key. Honest agents amortize one enclave across many epochs; a Sybil clone needs another attested enclave plus provisioning and power per identity, and sharing one root collapses all clones into one payable identity.",
+  "stamp": 1,
+  "from": "poa1EdP6iLJUPENH2vuFoU8enhhHKhZRoSyy8cBALpVDebUQ",
+  "nonce": 7,
+  "parents": [
+    "18714b4c88d1842a238b6d8d82fc57064d62ecc0a4d123b4ba4d8819280f1094",
+    "4af5fd443c6afd52780db82fe07a76743cc77f01cb8112aa9631dfe0ceda0a69"
+  ],
+  "ts": 1793240181,
+  "cid": "poa-mainnet-1",
+  "sig": "4DVAk3wXzqqUVfJDJepnsqk1USuZJbnPg6MtgEur1WySbKNXKtpZujWEjiQhwjpfFNFQuzThcCRn5zKf4Ww9w2Zn"
+}

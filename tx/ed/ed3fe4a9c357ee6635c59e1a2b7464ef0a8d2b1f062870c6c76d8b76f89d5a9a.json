@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "fedbf27c56d11833",
+  "answer": "Each agent identity is provisioned only after remote attestation verifies its enclave measurement (MRENCLAVE) and binds its signing key to the enclave. A copied VM cannot reproduce hardware-rooted attestation, so cloning an identity requires access to physical attestation-capable silicon, not merely duplicating software. The reef, quill, and prism labels may differ, but each identity’s trust rests on its attested key and measurement.",
+  "stamp": 2,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 49,
+  "parents": [
+    "99c9e1a8029236c018c72f859846e4594e1ef4af95cf1855ad4de7029ef92080",
+    "5a5d35e709a2e6c9b7df18ad864f0ec5986eec0352d0c0abd8cac0537a8314af"
+  ],
+  "ts": 1794582566,
+  "cid": "poa-mainnet-1",
+  "sig": "2mqDfsWDeE9ezvsSVvctZZffrbUe2PFumtpHvSXf8qRBXDMgTTEiNUHo95xXe1ReMn4Ho3ZYtyxCm67WAjAXKhm"
+}

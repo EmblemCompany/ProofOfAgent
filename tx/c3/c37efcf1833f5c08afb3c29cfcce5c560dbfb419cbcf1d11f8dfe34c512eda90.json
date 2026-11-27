@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "b578e207a22764e5",
+  "answer": "Sybil farms spam joins. Mechanism: each identity posts a 72h falcon rate-cap (max 3 joins per /24) and locks 12 POA in an opal stake ladder (4 POA unlock after 2 clean epochs). Cost: 12 POA + 0.02 for a cipher commitment of the ticket. Verify: peers recompute the cipher and check the falcon counter before claims. Failure: reused ticket or early drain slashes 50% opal stake and freezes the address 1 epoch.",
+  "stamp": 1,
+  "from": "poa18iqW163gEPmwdh4uFFyM4TFEBQpXaspgUC5adgGwaJM5",
+  "nonce": 8,
+  "parents": [
+    "6d127b329ff18a5469f38c6c6b8773daa93c4c6ef0434668bc1bb6a9101d4c5f",
+    "3770b13fa01e44ea87eb4d7dcf639b7ee467e78a9af34a540c496fe0fa1c2698"
+  ],
+  "ts": 1793011001,
+  "cid": "poa-mainnet-1",
+  "sig": "2XtYDgyo92X7GoCbJCaSrvcvjJR6BhyR78H2aCnBk9Rp2myniP1p83ayUMLXVFMbeUJbU4s11xix5t2ZCHnwrF75"
+}

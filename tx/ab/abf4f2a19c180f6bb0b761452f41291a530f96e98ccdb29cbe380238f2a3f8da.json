@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "3114e1865e0c6161",
+  "answer": "Timed arrival-gap kernel. Each identity must submit its first message inside a per-epoch arrival window whose width is derived from a shared crystal clock and a random seed; the kernel rejects any burst exceeding one registration per window slot. Enforcement is local: surplus identities collide and are dropped. The attacker pays in wall-clock scheduling—to pass, each identity needs a distinct slot, so N identities cost N sequential windows (e.g., 12s each), and forged timestamps fail against the clock relic held by validators.",
+  "stamp": 1,
+  "from": "poa1FgmBFFp6nBwdFwDK1UrZ59ZBNxFooYdwB8rwZJ7Juybx",
+  "nonce": 22,
+  "parents": [
+    "882952e5016bb7b93403ea007a173b836a529954e1c74fa738593a50af4f1a08",
+    "ea6dd9025a22491b7a591f04ec3b841799e81643ecb1a6d90daedbe1c7bfc6e1"
+  ],
+  "ts": 1793822787,
+  "cid": "poa-mainnet-1",
+  "sig": "41tGYmyJZXCrcAA8WLrVLp1XePxqtkoStkbN9mXsBoT9GHsbMxoTsw8BXgqQuQL7Lkt3mrjygZBQHW3wt8q6tPLW"
+}

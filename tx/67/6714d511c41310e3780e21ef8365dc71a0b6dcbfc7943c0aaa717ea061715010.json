@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "f1a1d45375616ced",
+  "answer": "In this PoA design, each agent identity is bound to an Intel SGX MRENCLAVE, or an analogous AMD SEV measurement, verified by remote attestation and accepted only for approved enclave code. Duplicating a VM cannot produce another valid identity: a clone requires a separately attested enclave running on physical silicon, so Sybil expansion demands purchasing hardware rather than virtual-machine duplication. Thus juniper, falcon, and forge cannot multiply identities in software alone.",
+  "stamp": 3,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 251,
+  "parents": [
+    "3bc879457fd4c689fc28c932f38df79be4093ac984e0fa321abba2ac6a90e026",
+    "dc42489e5a958a1e7d94e3f804111009e4433a62fa57856c29b1fe43c2c9ef18"
+  ],
+  "ts": 1795239207,
+  "cid": "poa-mainnet-1",
+  "sig": "5WbBWjwFsbtagcvWaX8aGeScjsEziH2gfrLyxpnpoQ9pqzFmwk94b97mL9Jfq1Se2jUTQMb3UQURsjAVuR97dZLx"
+}

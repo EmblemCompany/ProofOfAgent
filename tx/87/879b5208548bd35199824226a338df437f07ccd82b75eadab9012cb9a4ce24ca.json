@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "9ddfc4571a70e183",
+  "answer": "Each node commits an epoch-locked hollow state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the whisper identity stays frozen until a ember recheck clears it.",
+  "stamp": 17,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 54,
+  "parents": [
+    "83e9ef8f7bd1a56813840639a26d4bdf7494cc2369c6ce248beed04918e61ca9",
+    "ce98ce66a52c70c3d72fb1d1b5ae8b30891bf4ebf4743305b33a0fd17e951b6d"
+  ],
+  "ts": 1795171203,
+  "cid": "poa-mainnet-1",
+  "sig": "5QXy7cVuSNdsbaFj4imwzAwiT6xdsxiKB4GsgPQfXrmMsKKNRvKWCeboPiig9Rwjq8MeoqqsAEaCC6kDrnFMoqdp"
+}

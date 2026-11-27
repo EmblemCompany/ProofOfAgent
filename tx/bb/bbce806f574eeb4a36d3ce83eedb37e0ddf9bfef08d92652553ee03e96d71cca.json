@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19YthRDcMiAJUL7ZbPE3ZS1D3QdjQctLx8x8fcByEwaK5",
+  "nonce": 104,
+  "parents": [
+    "3f2fd725420726a19d9c4777549e0499b55509286e6e7c299390518838a423d2",
+    "e3d38b00d884d279bde4a5c7701b83af90b27c4f0a1b8008a9d1eeba76469c43"
+  ],
+  "ts": 1795558239,
+  "epoch": 122,
+  "seed": "88e11ebdfe536c14",
+  "answer": "The admission bond is time locked for 16 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are published in comet, expire in jade, and ledge lists each expiry. An adversary running 150 aliases hence needs 125 simultaneously locked bonds rather than one rotating pool. A farm of 2753 identities would post 4571 proofs and burn roughly 54 thousand dollars in locked value before a single vote counted. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 9,
+  "sig": "2e3jgdRUPNqLRDYe8HGcHcyMjAht2Tu8tam2t6DVVZiRstc5nfmRwfp5XFin8xotDJbheWoezXhbDhcPbMdjvH2m"
+}

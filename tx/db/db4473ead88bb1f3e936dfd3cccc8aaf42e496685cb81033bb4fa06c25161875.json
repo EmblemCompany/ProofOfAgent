@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "91d3c0a6a86a21a7",
+  "answer": "In a Wesolowski VDF, each identity’s challenge requires a prescribed chain of modular squarings, where every step depends on the previous one. GPUs can run separate chains for separate clones, but cannot shortcut one chain through parallelism; each clone therefore incurs a real sequential delay, limiting how quickly identities can be produced. Quartz, velvet, and opal may label instances, but do not change this physical time bottleneck.",
+  "stamp": 1,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 11,
+  "parents": [
+    "138005ce3521a4808cd149d58a7f58ea7ebf015a015d03174c4b6ce8c94ef4e6",
+    "b89a21f1296ce3f5eef340b32e9b505605145ef0a4162084c9ca8a8bff931aaa"
+  ],
+  "ts": 1793076968,
+  "cid": "poa-mainnet-1",
+  "sig": "3D4G7RCbuABU1T7gHeRvQqmZ9x1afBLoUTmNavMR2autMy6hLp9Zxu3CsuzuVUiEvRwjfJ2MeZE3ZZ2Qtx5UwStG"
+}

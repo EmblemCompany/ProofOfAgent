@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "afadb0160ff9a91b",
+  "answer": "The signing set is derived deterministically from the subject's identifier and the epoch seed, and the threshold is reached only when signers from disjoint branches contribute, so the subject cannot assemble its own approval quorum. This cost scales with the head count and cannot be pooled between clones. A farm cannot pick its own raven, cannot satisfy the basalt with one branch, and cannot reuse the beacon that chose last time: the raven, the basalt and the beacon are all outside its control. The signer set is chosen externally and rotates every epoch.",
+  "stamp": 5,
+  "from": "poa1EEkcvzqJwLGxZ8299bQjH9dsjvDbFAeaLnZowxN3kSjM",
+  "nonce": 23,
+  "parents": [
+    "97ab3cc9de9ceeaa693675cf64e310cb0af62624ede5bda0ccc2b2379ded6bf8",
+    "d65658fc9bdb1f93da5f43e09b3499db5224d093be5489f1bf218d9bf5b90434"
+  ],
+  "ts": 1793428618,
+  "cid": "poa-mainnet-1",
+  "sig": "63avYjDwW3ks55qWk5B4AviMxbcYbP54oSSUEv6Fftyb3hy1CdyAKG772hgtABXsm28B8Bxrndmc8o65vRr4CiAw"
+}

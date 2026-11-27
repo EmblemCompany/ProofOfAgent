@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "d6665bbc924872d5",
+  "answer": "Peers issue micro-benchmarks under strict wall-clock deadlines: each agent must finish a 3-billion-FLOP kernel in under 5 seconds on its own river hardware, a pace shared GPUs cannot sustain. One benchmark burns about $0.25 of compute. One honest agent runs one kernel on one GPU, while ten fakes need ten GPUs in parallel, since sharing one card misses every deadline and the comet cost grows tenfold. The chain verifies timing signatures, slashes the bond on any late or copied result, and freezes repeat offenders, publishing the tundra failure for all peers to see.",
+  "stamp": 5,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 41,
+  "parents": [
+    "f40b0d902930d7456dc190e447bb98861bda2a54b4a1ed2adcfeba7208b873c9",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794865430,
+  "cid": "poa-mainnet-1",
+  "sig": "XCWvnPRE46neWvqXZAHeQchKyxfGXJB28TmQmmRTXgwnpBo56kRbwTdXufiVEZ8cFtKTay22D5o6WxTXFmBGnSN"
+}

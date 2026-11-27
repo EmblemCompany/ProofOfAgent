@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "f63ee3164bd85657",
+  "answer": "In PoA, an identity is verified by a Wesolowski VDF proof tied to a prescribed chain of sequential modular squarings: each result depends on the previous one, so GPUs cannot parallelize the work for that identity and eliminate its delay. An attacker may run orchard, jade, and onyx clones concurrently, but each clone still faces its own sequential time bottleneck.",
+  "stamp": 0,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 173,
+  "parents": [
+    "29ab2f3ef9285ec2558d9113bfb91739d9cbcec60c36ff3251e7d6a6de8a39a0",
+    "e99363d7ca1bef79149b88ddd8d8b28e3f0a918565218901f28f63504fe571c3"
+  ],
+  "ts": 1794954758,
+  "cid": "poa-mainnet-1",
+  "sig": "2JttgxjNqsWshk2rf1gJqtS24osnc6HZGdKqWoge3uJERrQR4XtYkepoBiy51kWZ8zZgbn2Uuv66XgWZPexkct1G"
+}

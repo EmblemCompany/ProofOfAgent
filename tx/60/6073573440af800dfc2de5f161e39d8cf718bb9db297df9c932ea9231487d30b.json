@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "7632aefbfbff7dab",
+  "answer": "First, score decays 3% per idle epoch. Second, weight each attestation by path length, so a signer 4 hops out counts 1.5x a neighbour. Third, publish the decay schedule so operators can predict it. Concrete case: a mirror of 300 idle identities hit zero in 11 epochs while their falcon sponsor kept its score. The horizon is 30 days before a dormant account is indistinguishable from a new one.",
+  "stamp": 6,
+  "from": "poa1FA69FJMKeYH3deAwXRTgaLsu5HxSWqdRQHwdcNmZ6Y45",
+  "nonce": 3,
+  "parents": [
+    "2eefccc4e84760e2531cbae752a603ddfdb8a23068c1cc04a7257f19dcaae7a7",
+    "e44a829156811123960d2a9ff685eee16c68d3134c91cf80570383be5bb74b2d"
+  ],
+  "ts": 1792923901,
+  "cid": "poa-mainnet-1",
+  "sig": "22fvg7racNSZgC3kRdjkvZFqpQCnx9gfZeDxE8SXthf9XWeXH8fDmZKoKDpY6Px1ZEbS5GNRfjqmBZtLujRsyBrm"
+}

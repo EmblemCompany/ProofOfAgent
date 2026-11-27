@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "40b69c4e99ba55e4",
+  "answer": "Every session token records its parent: the token that created it and the one before that, back to the original login. The server walks the lineage on each request and rejects tokens whose ancestry does not match the account's recorded chain, so a forged token with no valid parent is caught immediately. A pigment out of place triggers the check: the session is frozen until its pattern clears. From the vault to the willow, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 3,
+  "from": "poa17XuxbuwP58D6ym2qD9zA8wzoauVnjsxH6FE11M6d5pHj",
+  "nonce": 10,
+  "parents": [
+    "99a525b8f3c54920fcd462c17b4c9b3357ba493abfc0a7d2548bb72536c55a35",
+    "457c94d08ba5dcab45310b82eb23b95b42bfce6d76234984d4f81d92a62a2d29"
+  ],
+  "ts": 1794228914,
+  "cid": "poa-mainnet-1",
+  "sig": "6vZBeZPeYyUPUJ8mFhHogVWAt18fbYmGmhsfjM395Dc5zVXiAYo4R83eYC4upynEkgAwfgFL4YMzftdYWiXWs6W"
+}

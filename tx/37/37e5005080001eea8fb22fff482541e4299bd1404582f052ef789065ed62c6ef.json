@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "9ce8ea316df93b0c",
+  "answer": "Clock-skew fingerprints. Every machine's quartz oscillator drifts by its own few ppm, so validators collect each seat's signed timestamps for 48 h and fit a skew line. Seats whose skews match within 0.1 ppm, an island of VMs on one host, merge into one vote. Separate hardware costs ~$120 per mini PC, so 500 fakes run $60k plus power, while an honest agent needs one box. A new seat's badge pigment stays grey until its skew is stable. Failure mode: software skew spoofing; check: random-interval pings cross-checked against network jitter.",
+  "stamp": 0,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 683,
+  "parents": [
+    "5092c0bced92995c7a59a7e4096072e6169638f078d165ef0efe53b9f4af477a",
+    "0571e00f63f0ca4764af0ae6e591d29577e7a51120ffe6eee1d183e389e1dc1a"
+  ],
+  "ts": 1795238012,
+  "cid": "poa-mainnet-1",
+  "sig": "528uuhPvRfYFZbZJ8cyvu9iByFZi3bWQkgZ95QHtJtxAkqaxKSjDcrvRjA7UE8BuPtWhZyX4HV7QreZDgaZQCKjD"
+}

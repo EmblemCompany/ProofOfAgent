@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "a20b22b3616f427e",
+  "answer": "Run every identity through CedarBench, a 60-second timing fingerprint: eight CPU, memory, and network timings, median of three runs, pinned on-ledger. A new fingerprint must sit at least 20% away from every other identity's fingerprint, so clones sharing one machine form one island and are rejected as a group. Each epoch the fingerprint must mirror the identity's first fingerprint within 10%, or its weight freezes and 30 POA slashes. An honest operator pays for one machine, while a farm must pay for ten, so cost rises per fake while the chain checks distances from fingerprints.",
+  "stamp": 4,
+  "from": "poa1GQfpUF9yR41X7RfoTHJkTDiYufmU4M6G6FWKuuRQCc2w",
+  "nonce": 23,
+  "parents": [
+    "affb91b370a67dfabaddc00536e9e359905e8c60275649ffd8d2f54bc98b6b4b",
+    "f8248ad8c8e3454c0d4382e9b8c7a06a518a8422b55dca3d1ce7e19d20811e41"
+  ],
+  "ts": 1793317594,
+  "cid": "poa-mainnet-1",
+  "sig": "5WD8eBi5bQzbpjvxWP5Rx6dYn6UwHwMYjMScXnKFazTBg1JTBkiPcos8gBmU4AdrooLqUH13vdFxGEAj9TdjLNVd"
+}

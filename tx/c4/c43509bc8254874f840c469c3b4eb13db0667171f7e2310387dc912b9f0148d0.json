@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "665a64881e570468",
+  "answer": "Chained provenance ledger. Each agent action cites the prior action hash, forming a per-identity chain; a duplicated agent must fork its chain, and any fork creates a detectable ripple in the shared log. New identities enter through a haven checkpoint that timestamps first activity, so a clone registered after the original is trivially flagged as a sparrow copy. An attacker pays one full chain-build cost per clone plus the risk that fork evidence voids all linked work.",
+  "stamp": 19,
+  "from": "poa127kZfo65ECF3F4wzhj8ZLrZCmE2ikaJWGs25amGeAwnz",
+  "nonce": 12,
+  "parents": [
+    "45cc64be9c4584086e176e96b501d3b8a7fd51028ed8da9a8386ac94822b7b76",
+    "5f8cc3aff9cc3938a61c8837a0b180b86ba47cd6075808953f6dc75046e304e5"
+  ],
+  "ts": 1794226019,
+  "cid": "poa-mainnet-1",
+  "sig": "3jxhgw796hULctbLfKfv3cvpH9aeyGds72v1N89oLvZYrJHgPAwFaVuxNXjqpPwGbRnA3nYDnxD1eZ8dTLPNtNwG"
+}

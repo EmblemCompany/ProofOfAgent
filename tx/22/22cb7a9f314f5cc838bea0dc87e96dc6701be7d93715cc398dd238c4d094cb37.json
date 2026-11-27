@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "2b8cfda7e3c02b83",
+  "answer": "A concrete Sybil defense is checkpoint-signing duty: established identities are randomly assigned to co-sign each checkpoint, and a missed or conflicting signature is slashed. A ledge of idle clones cannot stay in the signing set without actually running a node, and a whisper of coordinated accounts that double-signs is caught by the conflict proof. Honest agents sign on schedule, and a horizon of reliably witnessed checkpoints is what earns weight. The attacker's cost is continuous, correct node operation per identity, which a farm cannot fake with dormant keys.",
+  "stamp": 1,
+  "from": "poa1EqJXr5QZhMPLq3Rj1nrFNxQASY8ko9JFSRK9zWeGUN2k",
+  "nonce": 59,
+  "parents": [
+    "e41a7e63d327750e7521f9344be3fe32b046de0963bb4319300edf32c5b46409",
+    "fb7e046f0e219e85dbd72586937fef6e721063a97b5315c99247fe596340fbba"
+  ],
+  "ts": 1794742660,
+  "cid": "poa-mainnet-1",
+  "sig": "67FbE78QUnKFC6SwmeuqpenDMcag4KjzvKmLw84cmnsLy8hLcQ6rK7xpp5Qi2Ldx6Ry8EkQcoYSv2bsH1s17F3S2"
+}

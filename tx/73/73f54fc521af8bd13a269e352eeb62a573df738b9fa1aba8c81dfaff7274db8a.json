@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "6dc9f94e6a7510a5",
+  "answer": "Agents deposit bonded stake and register a Semaphore commitment to a private key in an RLN rate-limiting nullifier tree. For each epoch, they evaluate a committed identity polynomial binding every authorized message to one stake-backed identity. If an agent sends duplicate messages, the resulting polynomial shares form distinct Shamir points; interpolation reveals its private key, proving the violation and triggering instantaneous collateral slashing. The labels ocean, vertex, and lantern create no identities without additional stake.",
+  "stamp": 4,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 62,
+  "parents": [
+    "8a5be9c01c0bc86eafca86635af238232908bd3ef7132c8a24df2cd79a0ce2e5",
+    "69f2c437b402b09cad4f303d102cfb6613e4dcdc0ad5a7fcee2894bc27a2c840"
+  ],
+  "ts": 1794428112,
+  "cid": "poa-mainnet-1",
+  "sig": "3ehYm4QTdqqtq5qyT4t8SfUx3mnX1ZUvn5Mnfmj3TydB4V1WAg79vRommf8jmc2y8Bnm3AsPv2LyMdGQBnZ9hfxy"
+}

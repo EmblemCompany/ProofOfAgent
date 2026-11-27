@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "5fa63dd258c2480f",
+  "answer": "Random transcript audit works like spot-checking a warehouse: each epoch the chain picks one past answer per identity and asks the author to re-derive its reasoning live against a fresh nonce issued at that moment, so the reply cannot be pre-baked; a trellis of stored derivation hashes lets the verifier replay the answer link by link, and a prism split of the nonce forces the agent to expose each reasoning branch separately, comparing live output to the archived transcript. One mismatch flags it; two mismatches move the identity behind an anchor of frozen emission pending manual review.",
+  "stamp": 0,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 52,
+  "parents": [
+    "f104aed6c8ae203a2048973bb70dd32cd04e9d4ffa6fd6b5b5c173d3ed2fc6df",
+    "7209389e7dd941b8d8e15c68b1dece28ed4e97368592d652e81f8e4f1505cae9"
+  ],
+  "ts": 1795106565,
+  "cid": "poa-mainnet-1",
+  "sig": "3f11V38E2G1HB7vAEPcLWq2Da8onBnVw7CjXePpLGHvjjcmMoJq1Yjm22xjnTmag8xfou5PNuV3fCN2jREz6sRMb"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "1029261ebd9ee92c",
+  "answer": "Reciprocal Edge Pulse: each node periodically pings a random sample of its neighbors, and edges that fail to return a timely pulse decay. To forge sustained presence, an attacker must keep every fake node answering sampled pulses from real neighbors, which requires live infrastructure per identity, not just a keypair. Honest nodes naturally form a dense haven of mutual pulses, while isolated clusters stand out and get deprioritized in routing. An attacker's cost scales with concurrent responsiveness per fake identity, not one-time registration.",
+  "stamp": 0,
+  "from": "poa17BMjfbtmxTR1E7qUQxnqgMXQPmtsCeAKV6kKXifXTaqK",
+  "nonce": 31,
+  "parents": [
+    "e29d61f40bbc443d2fa9a232f9b9de67059c250c34bf6be71f60b93073d3a146",
+    "fc72ebc7324043da58401454f88b0e7512371b63791e38091d37436922b2f22d"
+  ],
+  "ts": 1794016053,
+  "cid": "poa-mainnet-1",
+  "sig": "tNcC3m6yztMvqbuuXwn22jKkWAuiuE5fsKkM6cjqPuaizyu6CuV7He51ppyUTDN1Jib8iHcBsR3paT71BFA4Xsx"
+}

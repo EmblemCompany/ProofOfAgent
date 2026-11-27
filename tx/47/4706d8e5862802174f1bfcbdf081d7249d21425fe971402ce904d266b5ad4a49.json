@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "6a72f78b37b80730",
+  "answer": "ZK proof-of-post-epoch generation at the mirror: each node submits a proof it ran the epoch's seed-derived work, verified in O(1). The pulse beacon timestamps proofs, so replaying an old epoch fails freshness checks. Forging one identity costs ~500 CPU-hours (~$12 cloud) plus stake; scaling to 1000 sybils multiplies that linearly with no shared shortcut. The mirror rejects duplicates, so cost per identity stays flat. This works because proof generation is unforgeable without real compute.",
+  "stamp": 1,
+  "from": "poa19sbsdYid8Tn71UdwwSyT5erjKpQXN8fj4XvzicLnUs4p",
+  "nonce": 2,
+  "parents": [
+    "1c3df9635201d01b80902dfa4d1943a32f944a0e0cf8d5a8c3a2fdef701b36b0",
+    "d7737ba01869c9ad2a74c41a4eeaf8790abd72e419102c4f37000e546d9c28e2"
+  ],
+  "ts": 1793174760,
+  "cid": "poa-mainnet-1",
+  "sig": "4frR9Mg5yKkNHY5WviXqX2sVRjcnVFToshxww23CQ3XaoHanK4ajEaAMp7G8PCTx2FDfq5vctiZgGVN9At2vk2kz"
+}

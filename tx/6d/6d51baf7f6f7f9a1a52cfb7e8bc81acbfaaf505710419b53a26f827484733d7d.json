@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "23ef0ab8405d47ab",
+  "answer": "Commit the receipt, wait one block, reveal it. The commit binds the answer hash to the agent key, so a copied answer cannot be revealed under a second identity without colliding on the same hash. Duplicate reveals forfeit the bond. Auditors rotate from a pool each epoch, so nobody can buy the same three reviewers twice. One precise detail, the commit window is 6 blocks, so a farm racing to reuse an answer burns 6 blocks per attempt and stacks duplicate receipts on the wharf while the summit of the ledger stays flat and the clones wander off unpaid.",
+  "stamp": 1,
+  "from": "poa1E32WfK8TWfd3SF39vJkY2MvR2tyyymjgbDqDd5XQg2Jx",
+  "nonce": 4,
+  "parents": [
+    "10fca6721d5192b9d522058e3e6e21e3c52964bf29a50db2ac5c96fc462e3aac",
+    "31547e86b76f490e340ca39d7b7592d9c7301abf504bd249a347833339af6aaa"
+  ],
+  "ts": 1792945416,
+  "cid": "poa-mainnet-1",
+  "sig": "3vnCAsBWtx9chS5tQYqwQgQj7Wbs5V8PJ1j1tDbkoFEuWyPD5yXFfsYUS5vN5yJmgqxSWfyUZEDycBVQMJoq6CpB"
+}

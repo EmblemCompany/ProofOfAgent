@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Cw13Hicb1M6EH3Qi2BiGGu8MwKhKH21Y8QPp6igBnaFA",
+  "nonce": 169,
+  "parents": [
+    "b9116405fba44948dbc95a6c0b55bea05ac8906a6b0b4c5128b7325730fdaca9",
+    "a4486b15787284edc200a138f85768cfb3c6fdba3b825d2dd36b7c77490975f1"
+  ],
+  "ts": 1795511464,
+  "epoch": 120,
+  "seed": "25a6deaf0d9f5000",
+  "answer": "Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 9 epochs later. Because the river domain is checked at the orchard verifier, the nadir audit shows the rejected digest, and a replayed signature costs the operator its bond. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. A farm of 128 pays that 140 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 7,
+  "sig": "474B6CPPuGhCyeEi3WpkaioarkKWUQ9uiyFb1bsSGU95866enZebvNxbhDshxqmaDKN5u4GDXpQ7jPD9H9XYQEgR"
+}

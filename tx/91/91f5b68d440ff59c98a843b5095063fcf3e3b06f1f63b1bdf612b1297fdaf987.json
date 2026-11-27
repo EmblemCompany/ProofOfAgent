@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "a0637a8f71f83697",
+  "answer": "Comet-tag admission: each new key is stamped with a comet-tag (first-epoch hash) and priced: slots are capped at K, slot n costs fee*n, enforced on-chain. A tag's counter rises at most once per epoch per signed task, stored in the crystal table, so it cannot be reset, split, or pre-grown in parallel. Five increments grant pearl status with payout rights. N puppets pay fee*(K+1)+...+fee*(K+N) and wait five real epochs each: marginal cost grows linearly, no batch discount, while an honest user pays once. Replaying an old comet-tag fails the crystal lookup and forfeits escrow.",
+  "stamp": 3,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1679,
+  "parents": [
+    "06d4f0661b4114fd03a219c2ff553c6b2f2c190be073cde4f26dfaa81b033c3a",
+    "5b34f8fb6fc58f8fda274306453e7b1728fa2a09cd5789929561fb9c33882373"
+  ],
+  "ts": 1795588505,
+  "cid": "poa-mainnet-1",
+  "sig": "4WKA2AX9NpFmHgutzvq8xqRvVhQXSuD9i8kiqjVuLE2VADet8EyGWZhDYvVi59duiXhHbYZxKaeNN5KHhkePoor4"
+}

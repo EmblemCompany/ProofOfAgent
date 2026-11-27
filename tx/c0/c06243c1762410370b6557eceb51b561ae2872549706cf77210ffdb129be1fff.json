@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "2a7817e4b3102775",
+  "answer": "Use chained verifiable delay functions tied to each epoch's public randomness. When an epoch opens, it publishes a random seed; an identity must then compute a sequential delay proof from that seed, which cannot be parallelised or precomputed. Like an opal forming slowly under pressure, the proof takes real wall-clock time, so one machine cannot mint a thousand identities at once: a whisper of new randomness forces every Sybil to start over. The proof is bound to one key and expires with the epoch, so a pearl of genuine participation cannot be copied or replayed by fakes.",
+  "stamp": 7,
+  "from": "poa12Gt1uXP1EMTW5tYWW38PDzi6GKHLXigZ8ffVCjRybxd4",
+  "nonce": 7,
+  "parents": [
+    "4b74537aa60e318fa502fe7e0ddf7ce0a47072976a7c96d40fc4be5651c0d9d6",
+    "7d86aa701a4d7799b981aa1bd144b7b8fb2683e5d36549608a42cbe52749796e"
+  ],
+  "ts": 1793429370,
+  "cid": "poa-mainnet-1",
+  "sig": "5GyWWpLo58BbS2cLbqr9V9QGWMgrMSJxerri47PoiWG5T5F9qumDqAjWdpMkE2XYNeVs6mzaUAdLFZN4VTcwvSeX"
+}

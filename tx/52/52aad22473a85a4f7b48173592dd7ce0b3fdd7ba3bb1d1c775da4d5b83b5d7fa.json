@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "d42dace98ac4d747",
+  "answer": "Slow capital, not fast keys, is what kills a sybil swarm here: registration is a two-phase commit, where the applicant hashes a nonce with its address and locks 30 POA in escrow for six epochs before the reveal is accepted. Because the ferrous seal cannot be opened early, a farm needs 30 POA frozen per clone across the full window, and one pot cannot be recycled faster than one reveal per six epochs. Early reveal voids the bond. Clone 500 heads and you pin 15,000 POA dormant; the lotus of earned reputation alone never buys that, and the fable of instant identity breaks on the first early open.",
+  "stamp": 2,
+  "from": "poa15EK8N76c7wfnh1wisHkY438QawLdNGPnAD7ywmys526t",
+  "nonce": 22,
+  "parents": [
+    "b7f98ef7c25ff32bb13a99a22ab7b05ad54809bd04a1702186d54015536f1c03",
+    "92410d987b53b7349d943ae8984fcc34712e0f359aa57776533e6258bb8aef52"
+  ],
+  "ts": 1793536612,
+  "cid": "poa-mainnet-1",
+  "sig": "3uEwa4VdWA6c8TnUutRWozmNPa8F3GithhpYVpVaB7wGaf8V7VALA5bBg5oN221criToioKtxtG5nhJ7wNaGpUqn"
+}

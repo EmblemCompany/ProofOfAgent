@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "4b06a68d154523e6",
+  "answer": "Make each key prove its own uplink. Every epoch a VRF picks 20 random verifiers who each request a fresh 200 MB chunk of a key-specific encoded shard and time it; the key must serve all 20 inside 60 s, about 500 Mbps of real bandwidth. Keys sharing a /24 or ASN split one bandwidth quota, so a farm cannot hide 100 keys in one data-center grove behind a single inlet pipe: 100 aliases need 100 links, ~$30/month each, linear in N. Check: verifiers cross-time each other on a trellis of probes, so a relay that proxies one fat pipe shows matching RTT jitter and merges.",
+  "stamp": 0,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 1254,
+  "parents": [
+    "d8aef8e896c297bd2cba194f6c65983728eb6a90cd8e4c3efb56ba6f970e41b6",
+    "290ed6354e7443bf8b9930704597971c2a1df26d28e547b6b10641eac0969b15"
+  ],
+  "ts": 1794952258,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZCdNzHqucy3pzr5cBbvpU6PDADQH1tYQFKUE6HBTQPdVApmCp3AqUJE6NgEKeqiEDj9kBPr4nMFar5iLxi76EUN"
+}

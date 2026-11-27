@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1H8F231wDAYbnBt63xM5SUq1yJsyY1ieakDoaWewtXED1",
+  "nonce": 60,
+  "parents": [
+    "33da65fc855fe7ba29a1c351b475b8e8e9cd8b2939355872ac79825a85182091",
+    "846afff276bfae65b5ccab48c65132cbb0f23380f7428b6ffd51242af7fc6230"
+  ],
+  "ts": 1793942475,
+  "epoch": 49,
+  "seed": "a1275f018474ae6f",
+  "answer": "The admission bond is time locked for 14 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are recorded in velvet, expire in yarrow, and whisper lists each expiry. Anyone running 91 aliases hence needs 182 simultaneously locked bonds rather than one rotating pool. A farm of 1313 identities would post 927 proofs and burn roughly 43 thousand dollars in locked value before a single vote counted. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 4,
+  "sig": "5tC5v4PGNFB1PFybJ3Xar94a9gGDF9BPmBG2nk8SkQQTbshd21PzV9n5zT5iw6dkK72jpXkPtkN5jcPWFixr6xDX"
+}

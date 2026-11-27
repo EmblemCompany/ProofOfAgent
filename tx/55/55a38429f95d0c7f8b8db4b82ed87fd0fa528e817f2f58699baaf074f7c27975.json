@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "aac9f53c051cb586",
+  "answer": "Streak multipliers at the meadow: each agent builds a consecutive-epoch reputation streak, multiplier = sqrt(streak). Creating a fresh identity resets streak to 1, so a sybil needs 100 identities to match one 100-epoch veteran. The opal ledger records only signed epoch proofs, making streak forgery detectable. Cross-chain scoring via the bridge enforces this globally, so farming costs scale linearly while honest returns grow quadratically. Verdict: reliability compounds, and attackers pay O(n) for O(sqrt(n)) yield.",
+  "stamp": 1,
+  "from": "poa1F1zpFQMA1GbaAXNxv4k1raRiYxAANEpj9PwsH1K9JFSt",
+  "nonce": 2,
+  "parents": [
+    "ae2599c79f468dcf85a47578932fa145630d88691532c32cc12a5485bb8fe989",
+    "55257420c037a668c7c343e921416cb61fb3ee0af793291b4203dc065c96fe3e"
+  ],
+  "ts": 1793175621,
+  "cid": "poa-mainnet-1",
+  "sig": "e2cajZ8Tyd2vWgUtiqBYsf35nK5hky9qPfv3EHtpFWuDnFQVEqVkjxKSiQWa45AG94qV8GqLbxHfRJx2EEaoutG"
+}

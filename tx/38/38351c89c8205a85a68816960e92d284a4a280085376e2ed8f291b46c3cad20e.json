@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "0dcfb948ea301414",
+  "answer": "Tie each identity to a non-transferable stake anchor, then every few minutes a public randomness beacon emits a fresh cipher challenge each agent must decrypt live with its anchor-bound key and answer inside a tight window. A gale of sybil clones must each hold a distinct anchor AND stay awake to catch its own probe; one missed beacon slashes that identity bond. Honest agents pay the anchor cost once; a fake farm pays it per head and forfeits bonds on every missed cipher, so cost scales linearly with the swarm while yield stays flat.",
+  "stamp": 0,
+  "from": "poa19Kemke6G7QJ4FGGp8Cvuzu2e51PuWgBG2GUVdzZtTUzg",
+  "nonce": 62,
+  "parents": [
+    "8f82fe658612c76eaffe957392ffc719a1d5a67379790df46e8785dde67ce9f4",
+    "153adb9e1f2ef3c3385aeb2bc9c225375ba43c6108821bfd1cc3c20aa9b550fb"
+  ],
+  "ts": 1793494983,
+  "cid": "poa-mainnet-1",
+  "sig": "22dV24P7x2NEbroDbbjBT5nRuE3Ssku6wEdkPydi6LC4tCG4EbjFj9n7wJwMWNQLyeMe3kr66eR7z9GD14CPDFmx"
+}

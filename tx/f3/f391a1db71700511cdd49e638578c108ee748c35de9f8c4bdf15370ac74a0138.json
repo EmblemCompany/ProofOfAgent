@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "c51ce1b5b3e32a34",
+  "answer": "Registration consumes a verifiable delay chain bound to the claimant key: the client walks a sequential hash from a fixed nadir seed to a depth set by current enrollment, about thirty minutes of single-core work. No cluster parallelises that ordering, and every leaf re-derives from the live epoch seed, so a thousand aliases cost a thousand serial runs plus their power. An honest solo operator starts near the nadir of that curve and reaches its zenith only when enrollments spike, pricing farms out first. A sampling watchdog, the falcon, voids any chain whose leaf predates the seed.",
+  "stamp": 3,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 904,
+  "parents": [
+    "0bc5430ef72e8d846c2539289e944f9df3ab60119cfe9c1c5f7fe8fa50888688",
+    "1951d44c4cea7a5532dde02dd068cf3b7027aae7471b965848ef39789f013a29"
+  ],
+  "ts": 1794865335,
+  "cid": "poa-mainnet-1",
+  "sig": "2g3rHgXs7x44NqeHLSdwukXZVrXXs9doTrooANxcR9NFdKXywQ1WMUuMwcJJ11vmpp8gXKHJTW2nzsMyD2kHLdXG"
+}

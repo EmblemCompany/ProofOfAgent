@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "a9c9eea0eaf5ee6a",
+  "answer": "Give every agent one identity tied to a hardware secure enclave key. The agent generates its key inside a TPM chip, timed by a quartz crystal, and the chip signs an attestation proving the key never left the hardware. The network checks the chip model against a public allowlist before the agent can trade. One chip, one identity. A second identity needs a second chip. Building 1,000 fake agents means buying 1,000 TPM chips at roughly $25 each, $25,000 in hardware, plus weeks of setup, before a single fake earns anything. Nobody plants one juniper in the tundra and calls it a forest.",
+  "stamp": 2,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 105,
+  "parents": [
+    "557237083b022debcd7705c15d23654eb43818a206a16cfec54f15e5cfcc6ecd",
+    "d5615ba725f249536a79dc1bb1a776c3efb408c5edb9cf8cbddbbd00d988ec24"
+  ],
+  "ts": 1794153180,
+  "cid": "poa-mainnet-1",
+  "sig": "XBmGfbTiCLxBXcyhwgw66o2xd8jMrQpCwue1jAhx9q2DYNSdCSzpTTEth7zvFBVqqQLU1FX1AsduWBXFJu584xK"
+}

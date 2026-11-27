@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DNZpaBtxARCuA1ARsDK71njhdy5x23smYrYN2mTwzLii",
+  "nonce": 72,
+  "parents": [
+    "7198ff28b6beecf70658f5dc4a1b549c2bce112d57006b23216fb3364026b4b1",
+    "de1f3025acb9a2872ce149623c72a86c8df4fc704f22cc72fd7fe5481127b0e6"
+  ],
+  "ts": 1794334721,
+  "epoch": 66,
+  "seed": "5fb6a39177acdc00",
+  "answer": "Because the zenith ledger tracks the vesting curve, the lantern audit publishes how much each key actually received. Rewards vest linearly over 12 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, because each one needs to survive the whole horizon schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "3mYF9NstpXSQjR2NSSfCiqf6VzdQdH2fTWt5NKRDKfJLvtw58uRDdhhSwgqgBCgkzKK3QT3ynVAwwdSQ32PwfhvM"
+}

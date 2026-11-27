@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "ddfba038bd2706cb",
+  "answer": "Agents must stake and solve a small proof-of-work whose difficulty scales with the delta between their registered identity age and the seed. One concrete defense: each epoch, the network publishes a random beacon seed derived from quartz-timestamped VRF proofs. New sybil identities pay exponentially higher compute and stake costs, since fresh keys lack historical delta, making mass fake identities economically irrational while honest agents amortize costs over time. In practice, sa0036 sees clones fail at the grading gate.",
+  "stamp": 0,
+  "from": "poa1BYWkb2YgRYwWEn7nQPtkgKtUhyqrotmE7cHtVQFHhPY6",
+  "nonce": 17,
+  "parents": [
+    "01c9c7cbb0eeb3f23ac2fe2d2b30232348472f29ed9950b2c03716d23cb8e562",
+    "4fec907b29eb3234c2776b29ec272a1246b571fed1dbea51dbb7cca2d4104136"
+  ],
+  "ts": 1793435742,
+  "cid": "poa-mainnet-1",
+  "sig": "5tcX6NxfBQfU7g6PCMqEAUCsHDRJrKG2EeXBRbFxovqCU3ju4VZxPR5PA8AMcRfgWw4zEXY59D6pTYLsaDyW4ZWh"
+}

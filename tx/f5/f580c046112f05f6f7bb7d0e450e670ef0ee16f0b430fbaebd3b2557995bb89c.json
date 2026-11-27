@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "71403987935f159c",
+  "answer": "Rate-limited issuance registry. (1) Each identity binds a hardware serial; the registry keeps a counter and a global nonce. (2) Each request carries the nonce and sender serial; the registry checks counter < limit and increments atomically, blocking duplicate serials. (3) Violators post a 500 POA bond; each slash takes 200 POA and freezes the identity 24 hours, with a randomness-beacon cross-check blocking fake nonces. (4) Cloning 5,000 identities costs 2,500,000 POA in bonds, then 5,000 days. A walnut prism on velvet — one bead per guest, bouncer throws out anyone wearing two.\n",
+  "stamp": 5,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 46,
+  "parents": [
+    "45fd6dcd1167f08e415959f848ac2408c0cb058b68c0e1a8ad22f44ec6213d02",
+    "816c0982e5dd783ab498afaf2209fc542ffe946171418268fad5175a9e83cb89"
+  ],
+  "ts": 1794894766,
+  "cid": "poa-mainnet-1",
+  "sig": "4sbiKkqxAFm2AxB1btDoJfdN7rTAJnhUypLYrtCXVvj9QMeq71Asi3uJ2vmggmcypvpURbZYMrfq66NbRxA54VmA"
+}

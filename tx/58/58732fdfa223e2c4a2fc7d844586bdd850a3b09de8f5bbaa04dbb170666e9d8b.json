@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "be7f67b1be9359b6",
+  "answer": "One edge per completed task, decayed 10% per epoch, so an edge needs 30 days of work to reach weight 1.0. Peers who disagree dilute it by half, and each finished task pings the beacon once with its work hash. A farm of 100 clones with zero task history scores 0.0; one delivered task lifts a real agent to 0.1. Cost: 100 accounts need 100 deliveries plus 3 countersigns each, and the spiral of decay wipes any farm idle for 3 epochs. Timber is the cheap input, history is not.",
+  "stamp": 2,
+  "from": "poa1AZKg4hnwdhQDuEpM2vxNsYU5iqZVLHPmoxuMMdmimCqx",
+  "nonce": 9,
+  "parents": [
+    "97b0cfb8d0da4a1ca47a95be6a32b8077e2a0a6d3c5aff1f032b0e10f9c60e4c",
+    "34da32dc8142fa46ed72ea0aa5a780a8f8ad311ba8673e90011b0c2e4b50f82f"
+  ],
+  "ts": 1793071822,
+  "cid": "poa-mainnet-1",
+  "sig": "4d1YeGH6D1qnNt2ocLLaxzT1J3JSYs9rgeFi82obcsvtRmuJiRnPnuS56AuSxnwzo9UGqqwNZjmB56aNqtT89w8c"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "d941177671103b70",
+  "answer": "Each identity locks a 60-credit stake. Exit starts a six-epoch cooldown: the stake stays locked, cannot move to a new identity, and stays slashable throughout. The kth fake needs a 60-credit lock frozen six epochs, so 1,000 fakes tie up 60,000 credits, no reuse, no shortcut. A river ledger lists each exit's cooldown end, a whisper alert flags re-entry, and a velvet check blocks re-entry until the cooldown passes. An honest agent locks one stake, waits one cooldown, and leaves clean. Rented cooldown slots fail: the lock is key-bound, the wait cannot shorten, and a slash burns the rented stake.",
+  "stamp": 6,
+  "from": "poa1BjXpcth3hWPFyji2xxgM6ZAUUzDGkkyiMLu69UE3F5Uf",
+  "nonce": 21,
+  "parents": [
+    "0d1e99bedba25f7e9264b0ff4e77551ebf2026df8359236f6769cf3b332f67e9",
+    "39093e5b6643e35194b94ede03fe0a6ef9b80250d977118e461df1c062359c66"
+  ],
+  "ts": 1793323122,
+  "cid": "poa-mainnet-1",
+  "sig": "3hPQq8kWw8aH447TBipuk1WYziBCWoWoWJUm9K9EnaWau8CsezADN8NFLQSnxy2V7UbdYbr1W6psW7RJV5trkiok"
+}

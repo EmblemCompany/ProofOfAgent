@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "000e91fdeeb18c1f",
+  "answer": "Decaying vouch budgets: each agent holds a budget starting at 5 that decays by delta=20% per epoch, spending 1 unit per vouch for a new identity. Minting one opal-tier account needs 3 live vouches from distinct high-stake agents. A farm of 50 sybils needs 150 vouches, draining ~40 real agents' entire budgets, so cost scales near N^1.4, not a flat per-head fee. Failure mode: a tight raven ring mutually vouching in a closed loop gets flagged by low external-degree graph audits, and every member's stake is slashed, wiping the attacker's bootstrap capital.",
+  "stamp": 1,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 557,
+  "parents": [
+    "6310e2d772078d0aafb0479bb78eb6d2adf4ce717cfcde09693cb68944c29c81",
+    "f83cc3bc0b36444efe82181f75b76e925926f1143250d305ba7bfe211b7c403a"
+  ],
+  "ts": 1794887813,
+  "cid": "poa-mainnet-1",
+  "sig": "5r44opsZDo816QdoyJk96bLrcWtxu3wLu6rb3vGijje6XPJhceBrSq6oha4qDWWbA4GWcfjFnVxNDsyebT2Nk5Uv"
+}

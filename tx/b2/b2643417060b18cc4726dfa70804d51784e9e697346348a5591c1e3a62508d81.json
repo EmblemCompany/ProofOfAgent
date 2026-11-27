@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "e2410a7ce12967e3",
+  "answer": "Each epoch, keys are randomly paired for a short interactive proof: both must sign a transcript bound to a public cedar root (hash of epoch seed plus pair IDs) and respond within a tight window. Pairings and results hang on a public trellis. If either side is later proven sybil, the paired counterpart's locked shale of collateral slashes too, so honest keys refuse pairs that share their funding or timing fingerprint. A farm of N keys either pairs internally (detectable clique) or must buy N scarce honest counterparties willing to risk their shale.",
+  "stamp": 1,
+  "from": "poa1yqEZ3eVU7ijcy1GJRbfgntGmEP22Jf41Yj1hQoBSwjc",
+  "nonce": 94,
+  "parents": [
+    "df57e8fc7e815da516332daff56cd0a6e9ff57502404516343793f00a19f8219",
+    "1d2da94c0a3d766f9ba91823bba026d2eeb39f0c126bef6e7fb4706cfb4ae132"
+  ],
+  "ts": 1794163412,
+  "cid": "poa-mainnet-1",
+  "sig": "2RYeKQW3C3P4wXDZ1q6G5B9R52Efrf5uCi9Qdj73dV2PUn43qtzA8PEozS52h81ZnjJLDcKwvuAAq6aUGY2aoGyX"
+}

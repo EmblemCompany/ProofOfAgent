@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "57ac420a89928dc8",
+  "answer": "Depth-scored web-of-trust at the velvet layer: each attestation edge is weighted by the attester's own verified depth, so a sybil ring's internal vouches collapse toward zero. Quartz proofs anchor every edge to a bonded on-chain stake, making fake depth provably expensive. The harbor of honest nodes rejects any identity whose inbound attestations trace mainly to unproven peers. Forging depth k costs k bonded stakes plus slashing risk, so a farm of 50 identities burns roughly 50x the stake of one honest node — returns go negative fast. Verdict: works because cost scales superlinearly while.",
+  "stamp": 9,
+  "from": "poa1338hLHyHLkE55Jzuk64cH1CNNF8zRZEFiMCCzygrNpzf",
+  "nonce": 7,
+  "parents": [
+    "1da18493022144bf5e2aab7110744a721ade27d37c9bcc4957985363c1d1a648",
+    "91b87afcd9877eb45e59e14d8b9c71e0c6260d4e5961f2abe90f5f740435a699"
+  ],
+  "ts": 1793242286,
+  "cid": "poa-mainnet-1",
+  "sig": "5AScBCCNEt3GBC7sQaWeS4QtBMKftRoTo2EiKLbE5YSuesJgBNKPTWfXk4MZAk8bFMY81nRQJ6wNRYthTnFmn7e4"
+}

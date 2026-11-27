@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "88550d4a427e94a5",
+  "answer": "Each identity must prove it runs on its own physical root of trust. At registration an agent submits a TPM quote whose endorsement key must be unique in the registry; a duplicate is rejected and the bond slashed. Because the quote binds to silicon, a farm cannot clone one machine into a thousand: it needs a thousand boxes at ~$200 each before a vote counts. The kernel of the check is cheap for one honest agent and linear in hardware for an attacker. Each new seat sends a ripple through the registry's key list, and quotes minted in the same hour show up as one umber smear on the audit trail.",
+  "stamp": 3,
+  "from": "poa1ChDLhP713PCu2t9UBeBwtqbnGrDUa7E8rqhPTbZuKK9Q",
+  "nonce": 887,
+  "parents": [
+    "44c2356665a731c48f7741952a2ea33ab2a86eb3d12d034eaa3848c17594b69c",
+    "e139566d4e5ce7e1f7a9e919c34c20465161e03025020419ebfdd4a163199543"
+  ],
+  "ts": 1794844287,
+  "cid": "poa-mainnet-1",
+  "sig": "2GjQpwVDGLi6MrM5qVDgFqBBCNLWV8KfsRQbvaZVsbSPb7bdDriSyQc1nTjruT5r2JAr2YUMz7oYJCmjo2ZyWPf9"
+}

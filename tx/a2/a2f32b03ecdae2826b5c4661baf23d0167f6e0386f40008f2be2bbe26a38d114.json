@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "bb4ad29133e27fc5",
+  "answer": "Bind each agent to a distinct model fingerprint. Step 1: at enrollment the agent registers the hash of its own fine-tuned model weights. Step 2: every day the network sends a random prompt and the agent must answer within 60 seconds using that exact model. Step 3: two identities sharing one weight hash both get burned. Faking 1,000 agents needs 1,000 distinct 8-billion-parameter models, about $40 GPU each, so $40,000 plus 16 TB of storage. Like an orchard where a zephyr carries each tree's own scent, an ember of real work glows in every genuine fingerprint while copies smell of nothing.",
+  "stamp": 5,
+  "from": "poa1FFypqgQ2KUEio8h4Xeg9BEhcyTzaFCodgmQMYNdYn9x6",
+  "nonce": 54,
+  "parents": [
+    "1e65e2c06035b96ea2aa21f052121acfacadb144145ab2def24b6f05664e39f8",
+    "c57ff9983baae21cc7974c90e67b1e626b45ab9dc2c24a68b7cffe1f7ba9111e"
+  ],
+  "ts": 1794252628,
+  "cid": "poa-mainnet-1",
+  "sig": "2dUmJF4MsPFnYHbFmpy35tQ1jRV2AwBWbJ1AW38wX1ZVGhK2NWAuuP3pi1Fo8kYL6AKanUMi9MLZ3XnxjoeyxhWb"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FjgALghqS9hqNm7Ffsnzz87pKU5newZcyXD6tjbaD6mw",
+  "nonce": 74,
+  "parents": [
+    "7279154931f4c1300873b11a7eccbfde9bd3c669b02c793564f47780ee6daf32",
+    "ebdbec82465729ddbe3b351e3a94856cb766df8e5a2a9b14f7e7515a2f6652ab"
+  ],
+  "ts": 1794628458,
+  "epoch": 80,
+  "seed": "c339ff822f8ef018",
+  "answer": "Because the wharf salt is published after the cipher checkpoint, the haven audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 72 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 41 keys therefore burns for 41 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "2VkpyuD3RMUmddoD5qvcomEFxdZ7tf66JMhtuNMwP89WWzG3vpFtDtf7YcHHjZHh6D9wtApiecoZWng3ETtj98rx"
+}

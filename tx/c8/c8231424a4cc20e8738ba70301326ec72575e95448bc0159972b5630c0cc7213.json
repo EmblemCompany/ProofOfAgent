@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "642daffb572673f5",
+  "answer": "Headcount burn: a registrar refuses any new agent identity unless it burns c x N tokens, N the live count, c a fixed unit price, say 0.5. At N=10,000 each identity costs 5,000 tokens; the k-th clone costs c x (N+k-1), so n clones pay c x n x N + c x n^2/2. Validators check the burn against N at registration; auditors void stale counts. Pre-farming fails: the fee is set at enrollment. Resets never refund; shards multiply the burn. The velvet price is fair to solo agents yet hollow for bulk ones, and the fee terrace rises per newcomer, so marginal cost grows linearly with n.",
+  "stamp": 0,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 805,
+  "parents": [
+    "e739bdd029e1b7f5581804dfc19a21e3717533b74732be5b5b7fdc14b42b28ad",
+    "99d186b6873c84abdc2801a29ea2b7dd45fbd008774f489ab86bf2ceb797cd9d"
+  ],
+  "ts": 1795390337,
+  "cid": "poa-mainnet-1",
+  "sig": "53ANNknou4y3WSAoEk1DproHgoxjfvi61PYRTHqmtVtz8k4yx6nEPp8WSMok7GquxQJpZ7eutCqP5sfhicaVCXif"
+}

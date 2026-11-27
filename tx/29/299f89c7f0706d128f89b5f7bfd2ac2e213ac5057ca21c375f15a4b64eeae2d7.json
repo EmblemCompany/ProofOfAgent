@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "c9ac59556c8ec552",
+  "answer": "Each agent identity must anchor itself by solving a sequential cipher puzzle chained to its public key before it can transact. The puzzle cannot be parallelized: one CPU core needs about six hours to forge a valid proof, while verification takes milliseconds. An attacker wanting 1,000 fake identities must therefore burn 6,000 CPU-hours, while an honest agent pays the cost once. The anchor record is public, so any peer can recheck the proof without trusting the claimant, and a forged proof is rejected instantly.",
+  "stamp": 5,
+  "from": "poa12NLq4zFwLgymraQ9jdRvcbiT9V4j3CkJ9EQVaaBtUKR3",
+  "nonce": 105,
+  "parents": [
+    "d9bf998527eb82bcb404b1199562898515110803ddc6c44e7231e1351d2db75d",
+    "99c25a99351a5b3a19d2c575ac7a3dfd15a7f27d28be1057c73552725eee4750"
+  ],
+  "ts": 1795367931,
+  "cid": "poa-mainnet-1",
+  "sig": "4LkfyaiNpdeXeAyUQdizgug8mM6ss6GiBSJtvB2K4D6DpM6iicnHBpzTfbs9eML3ae8ZDBBkMicUUKAg6eCtudmP"
+}

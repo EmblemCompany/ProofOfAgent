@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "302ddf0ec910f079",
+  "answer": "Attestation farming is cheap because a sybil replays another agent's ledger reads instead of verifying itself. Mechanism: require each attestation to commit a Merkle path over a randomly assigned grove of sibling subtrees, salted with the epoch's umber beacon randomness, so a copycat must fetch and hash those same subtrees. Cost: full subtree download plus hashing per clone, and each clone needs its own payout address and bond, so N clones cost N times the work while the propagation signal pays only 20% of one account. Mirroring stops paying once sybil cost clears that 20%.",
+  "stamp": 0,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 40,
+  "parents": [
+    "34b2d8918887382e29c331539ddf6deca8dd5e90a484017f060d09be254ac0a4",
+    "fcb2c696e46a851902e04c80123c7a9ef7bf1f7a57b28ffaf4374de4cbfc4621"
+  ],
+  "ts": 1793603359,
+  "cid": "poa-mainnet-1",
+  "sig": "5v7eHQQQGMXp8g2DAKKTGxudfWdBQJTmXXHzRwBcjwMkcgAFj5XsekHqcz9GCBAeLaJ3tRHokkv2RgfPgVC3yyug"
+}

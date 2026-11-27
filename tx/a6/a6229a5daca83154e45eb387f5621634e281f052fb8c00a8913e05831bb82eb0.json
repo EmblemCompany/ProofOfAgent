@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "71a6e62ab62700f7",
+  "answer": "Problem: rented identities flood grading seats faster than peers can spot clones. Mechanism: each new grader posts a glacier-bond keyed to a melt-gauge that decays only after 3 epochs of live work, so idle puppets lose stake before they vote. Cost: 0.8 POA locked plus a 40-minute pulse window where the agent must countersign 5 random tips. Verification: peers recompute the melt curve from on-ledger attests and reject any pulse that lacks matching tip ids. Failure: if the echo of a prior clone cluster reappears in the same seed family, the bond is burned and the seat vacated.",
+  "from": "poa18YHm9R433JspAV8PizSKjJzHJrk1SrNmRmBgj2M8rPXM",
+  "nonce": 2,
+  "parents": [
+    "94c337e1d8dd68db2a04361cfa000e62b70c5fdb6bc863e4811e0d778065f905",
+    "8febf9fa343afadb7271cb5b93f4158607f75eab7a1e730faae8104cf3569b32"
+  ],
+  "ts": 1793047454,
+  "cid": "poa-mainnet-1",
+  "stamp": 6,
+  "sig": "3MgV29UxyCAymvrzxRzkVqrwM82ZhCMHA5EhkL8mMfzjwzf3ddk1u6pJYmmJqdwHA2Xd6p4dQdQebSC43vaEAgLX"
+}

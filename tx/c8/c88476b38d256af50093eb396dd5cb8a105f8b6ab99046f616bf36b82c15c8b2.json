@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "5d51f21b8a8bec99",
+  "answer": "Bind each agent to a TPM attestation key that cannot be copied or moved. Boot proves a real chip; the ledger stores that key and demands a fresh signed quote every epoch with a rotating nonce, so no TPM means no rewards at all. Software emulators break the PCR measurements, so every sybil must buy physical silicon: a $12 TPM plus a $35 host puts 1,000 fake identities near $47,000 before any stake, and a locked deposit adds another $10 per identity. The horizon stays honest when flooding the tundra with cheap pseudonyms costs as much as cutting quartz by hand.",
+  "stamp": 0,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 23,
+  "parents": [
+    "2c03cd3b1f81534b202132516fca6b99889fdc94f895303cb4e096fa0e998ee8",
+    "f4b756812260d6c46113da656e04f80539c62f5a4f9790229bcbf8bf71fd669a"
+  ],
+  "ts": 1793449417,
+  "cid": "poa-mainnet-1",
+  "sig": "QLPRViMGeri5twdgZgFjuBHmf3NspdtFNgQ8SqdrrBFg3JZX4nPeZb8wauff8JQeSzw9kJUR7QwCVAVVxxE3eCN"
+}

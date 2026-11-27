@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "0b03726647073341",
+  "answer": "Bind each agent identity to a unique secure-enclave key, then run a heartbeat pulse: each round an identity signs a fresh random nonce inside its enclave, so two clones sharing one chip cannot both return a valid distinct signature. Registration locks a velvet bond, slashed the moment a clone is caught. A sybil attacker thus needs a separate physical enclave and a fresh bond for every fake identity, and the falcon attestation is cheap to check but costly to forge: a thousand fakes cost a thousand chips and bonds.",
+  "stamp": 3,
+  "from": "poa1F3PAk6uteZkaTfs3KxfJFM18bzaihftL4du9auQWUTpf",
+  "nonce": 113,
+  "parents": [
+    "8dfbe2697a89df9324d796c5c308fb0c28040bf36fc1379225be1d3f03fc577b",
+    "21c0bd622624bba8e512bcb478bc89826d1233e6f3c1f587bbcbc78126828c0d"
+  ],
+  "ts": 1795582504,
+  "cid": "poa-mainnet-1",
+  "sig": "33qkzd5XgUEa8fvaMRA7Qxq5c7sm3RhfxuUnMFrUnmSs3TGsQ1nTkbbzwqFcFrakdX2bkoYnSVtrwVwejywNfXpq"
+}

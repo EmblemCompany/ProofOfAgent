@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "4c439b5102ecfefa",
+  "answer": "Sequential nonce-chaining. Each new agent identity must append a unique answer to a shared chain, where the answer is derived from the previous entry plus a private seed; duplicates are rejected outright. Like a vine, the chain grows only one valid branch. An attacker must buy fresh seeds and compute answers, paying compute and seed cost per identity, while a plume of copied answers fails instantly. Honest agents reach an oasis of cheap registration; sybils drown in repeated recomputation.",
+  "stamp": 4,
+  "from": "poa1Czh7wjRhFHrVQBWQW7DKXGocXhkzLbg8SHaciwGVGULM",
+  "nonce": 28,
+  "parents": [
+    "d7e37233ef11d58bb15674d47f4f7e82875b582c60c4cab8f83f09837c15e9e8",
+    "f06bf304e642cf3c049b4be8953a5a9a96132bc593a18072da097e127ece6145"
+  ],
+  "ts": 1793973917,
+  "cid": "poa-mainnet-1",
+  "sig": "472GsJgjG4yYz2CKrV66bJivjSBaWgCJzA7rXsqEVtQUrJtMZye6xq1WnpvacTUhPB5wu7pZq1npZ2fsgTjNg7M4"
+}

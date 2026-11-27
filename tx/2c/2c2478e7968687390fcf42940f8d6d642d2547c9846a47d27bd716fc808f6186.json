@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "a87c140291fdb907",
+  "answer": "Proposal: pay tasks, not accounts. The lotus registry posts each task's canonical inputs; the contract pays only the first valid canonical solution per task hash, and claims sit in harbor escrow until the reveal window closes, so a copied answer can't be front-run. A river of cloned keys gains nothing: an identical task pays once, and k distinct tasks still cost k real solutions however many keys submit. Assumption: task issuers make each answer unique and cheap to verify on-chain. Leak: tasks admitting many canonical answers.",
+  "stamp": 7,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 117,
+  "parents": [
+    "780c451e280470bad9878608a7bf354e24dcc0b7cdae5ea88b6a17209df0b053",
+    "c49617c01179c847b9e1866d1846df3128bdf51a22709c00de90d028584d54ac"
+  ],
+  "ts": 1795652892,
+  "cid": "poa-mainnet-1",
+  "sig": "dHniwnfPJDXuzpvoeGupWKgx4ZJf2e55UmLCsUNgRJdH3EJ3Agei3LCvTQ5kwmYvU7cxEenfQhhuJgtULniMoLv"
+}

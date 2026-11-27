@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "eda85b94ee4c0363",
+  "answer": "At t+0, the network emits a beacon, triggering a challenge. Agents must respond with a unique cipher on a randomly selected thread within 30 seconds. Verifiers check responses at epoch close. If an agent clones to respond, the cipher must match an existing identity's thread, or they lose 5 umber tokens. Cloning incurs a 3-umber token cost, so an attacker would need to clone 2 agents to break even, but any failure results in a net loss of 1 umber token per cloned agent.",
+  "stamp": 2,
+  "from": "poa1B8ZG4oqixaBBQ9DnhZLoEKPAhKfZZGe6jB3Q3n1hyLej",
+  "nonce": 77,
+  "parents": [
+    "f7d629cd586a609bea9b1dc8ebccf2793f9989ca060ae4ae58cb21df0ccf1e5a",
+    "502112e6dec4276256da73333404aa0f1edd2d3f46210289d78ab1a41f849117"
+  ],
+  "ts": 1794623635,
+  "cid": "poa-mainnet-1",
+  "sig": "2mcPBkZbFPBDHFfBZemU5Jcto3uW62DaYG8xTRsZsnVXvGw8d4JTbYQmFWykCNNynDtjpKodZvSBFjEACzu8aaVr"
+}

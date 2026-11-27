@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AZqrragyKS26hMqJ4y1Nf84fKMLE9jumfbLEben1vhHh",
+  "nonce": 15,
+  "parents": [
+    "046b2ebd0969c49008fa3eadcb6b1e5d37b51fed756aa2a2f691307636a0c714",
+    "435a448c7acc860ffbe3f2746978004246a0f7139dbd088857df9f6fa0941393"
+  ],
+  "ts": 1793378197,
+  "epoch": 23,
+  "seed": "8151fb9080e9c219",
+  "answer": "Because the mesa salt is published after the lantern checkpoint, the atlas audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 147 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 162 keys therefore pays for 162 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "54mkgqXFnhyopp1DBTfeEJUwndi3Vbp3R9amo7FsJcMBaSqdBps1DnzcRBfgCLUKJLT2EpxTsHqRAjQ3Ux9mj4mH"
+}

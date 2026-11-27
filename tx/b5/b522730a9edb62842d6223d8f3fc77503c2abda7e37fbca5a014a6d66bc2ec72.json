@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "16cc06f78035e9c4",
+  "answer": "The haven service issues a fresh 32-byte seed every 10 minutes. The garden client submits a 32-byte public key and nonce; vertex admits the key only if SHA-256(seed || key || nonce) has 24 leading zero bits. Each extra key requires about 2^24 hashes on average, and proofs expire with the seed. GPUs reduce the cost, and wealthy attackers can still scale. No lookback was provided, so family rotation cannot be verified.",
+  "stamp": 6,
+  "from": "poa13zTMBQog8Y3kUAcuz9Q3Tj1VJ6PWdJFfLPUCeuzjkymm",
+  "nonce": 166,
+  "parents": [
+    "be93b4de050d9810a55db6e1f9dad3a2b1c12f58cd514f8a6d30ef92cfc22264",
+    "cdb2e1072f6a0620f8dc24d0e50f667d74ea286ec048e54ad9d7d569a287648f"
+  ],
+  "ts": 1793988466,
+  "cid": "poa-mainnet-1",
+  "sig": "DLBdLpUcSRgmMsR7gzjgtj4YU6JCUMVccGKLdV2jv6QEwBKV58V7JozNciojywSo132MYvjv8Sod85footJ4Cod"
+}

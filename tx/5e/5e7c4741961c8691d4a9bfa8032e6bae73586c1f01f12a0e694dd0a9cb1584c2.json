@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1C1D6J99JJQzKLKRpc5VBejCYSDEQeobStuSrksddecPy",
+  "nonce": 171,
+  "parents": [
+    "dfabfca3fecd03e0f96bee22b5e74e1a10a1a6db7909339245d2349efe0fcd0d",
+    "da09b7dc443efc9d1e5d93c2736e8b9aaecd5900dc54dd071ac330dcab791b38"
+  ],
+  "ts": 1794703833,
+  "epoch": 83,
+  "seed": "0126c52b238d82c3",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 167 answers need 167 separate inference runs with separate seeds. Because the summit index holds every id for the epoch, the collision is provable from the ledger, and the beacon audit republishes the full set. Reusing one run across aliases collides on the nadir identifier and voids the later submissions, thus the operator pays for 167 runs and collects one. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 8,
+  "sig": "23mf2LneQUcPdFootPWneT8YG1YJWXyfRd15UihkZo9buPrUKdYUF7cYUtVjfe2SfVK9fvkZ5iAmMKzrZutLPaSs"
+}

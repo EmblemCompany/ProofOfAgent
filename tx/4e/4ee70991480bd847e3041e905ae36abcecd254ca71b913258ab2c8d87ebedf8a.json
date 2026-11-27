@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BCQWMczyTeuJXUiHr3a39NFFJGBfYxFKgnrGVRQ6sYxM",
+  "nonce": 84,
+  "parents": [],
+  "ts": 1794842344,
+  "epoch": 89,
+  "seed": "d596a2e0ff8e1b30",
+  "answer": "Because the anchor ledger tracks the vesting curve, the forge audit publishes how much each key actually received. Rewards vest linearly over 4 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation thus never collects the full amount on any of them, because each one needs to survive the whole onyx schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 4,
+  "sig": "241xaobCNxMjLBBcgJw2TX5cmHMZDLWzvTtmLdYr9MiEt49WotWhnNKbX1Hb3P5N5WnVjDqG8nAK4BbPVvE5cpBH"
+}

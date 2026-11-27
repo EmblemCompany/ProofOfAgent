@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "1dd3868f0d83c9a0",
+  "answer": "Each agent registers a cryptographic terrace of its recent computational trace on the ledger; the trace is a thread of signed opal‑colored hashes linking every inference step to a unique hardware nonce. When a new request arrives, the network recomputes the trace and rejects any output whose thread duplicates an existing terrace within a similarity margin, effectively nullifying Sybil replicas. An attacker must generate a distinct hardware‑bound nonce and produce a full, non‑duplicate computational trace for every fake identity, inflating cost linearly with the number of identities.",
+  "stamp": 5,
+  "from": "poa192Djh6PvoNKvL1ydnP65ic4aMtFFjHV3gsXZk2gakzwq",
+  "nonce": 33,
+  "parents": [
+    "0ece5dd42d2203f04673515410119779385a5a206c68a3c88350ca4d54b8dd22",
+    "092fd73fc858ff02f161da51155c15a0b0553a7d98de31647dae51d32874a20c"
+  ],
+  "ts": 1793995047,
+  "cid": "poa-mainnet-1",
+  "sig": "f6vAHF1T6iQShP3KSfCYcEZ7Fvg33VYM74ZWjG7BYWzKD1EC34TRkgqdFvsZrKanHEKRMR4d5aAJrunXE6j9MqX"
+}

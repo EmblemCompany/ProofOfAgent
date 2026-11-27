@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "84e08291fa796f65",
+  "answer": "Each identity reserves one onyx slot on a grove ledge, locks an 80-credit bond, and files its onyx serial each epoch. A ledge holds few slots, and the registry allows one identity per slot, so a double filing burns both bonds. Slot fees rise as ledges fill: the first slot costs 31, the kth 31+7(k-1), the 1000th 7024, so 1000 fakes cost 3,527,500 plus 80,000 locked. An auditor checks each serial against the ledge registry. An honest holder pays 31 once. A rented-slot ring fails because rented serials duplicate on the registry and the ledge position does not match the filing.",
+  "stamp": 5,
+  "from": "poa1HMHdETGHMhT5aQVsyQwQzoUs3WeBDjpUtXoQ36xhaU5B",
+  "nonce": 26,
+  "parents": [
+    "f637f3d07392488222ce04f189c94a23b8b248eb5c663998258202d56ab88db9",
+    "833f10798104b72ef1740934410fc8c35614734dd4d45b11cb0721c5e76abd20"
+  ],
+  "ts": 1793755326,
+  "cid": "poa-mainnet-1",
+  "sig": "2umBnHEWhv9cWc7dRr15sikQwWKYgLEBRcMvzcYmKCuAsC4nszCbfqWrRkcQt6SvgBTz9R7xFSbcL5WGByfXRUHx"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "783fabbac85c7ad8",
+  "answer": "Bind each agent key to one carrier-verified mobile number. At signup PoA calls the GSMA Open Gateway Number Verification API, so the carrier confirms the SIM is live in the device, not an echo of a typed number; only a salted hash of the MSISDN is kept, so a second key on that number merges into one seat. Each extra identity needs its own postpaid line at $10/month, so 200 clones cost $2,000 monthly. Failure mode: SIM-swap farms. The SIM Swap API is checked each epoch, a swap within 7 days pauses payouts, and a pulse of new lines from one hilltop knoll tower gets a juror audit.",
+  "stamp": 0,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 960,
+  "parents": [
+    "91f7f7339176b44e1cbb2952cf328f40a1eea24753441f842f35bc37f504f2a2",
+    "1c92957918642fbc72af97747ac84175074a6302fb6add3e92d2e01463bab086"
+  ],
+  "ts": 1794343238,
+  "cid": "poa-mainnet-1",
+  "sig": "3AkCDD2xWhXbWGYfGgVFg8WHFTYzQ6VKcmBrNdkfsVCb2LF86sUPGiKu2WZTVoyn2cqjGvkjdQdMgHoGn1XEPH2E"
+}

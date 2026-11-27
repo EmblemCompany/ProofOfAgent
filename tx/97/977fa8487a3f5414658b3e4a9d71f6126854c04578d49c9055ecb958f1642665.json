@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "087fe282dc3bb7fa",
+  "answer": "Agents on the ridge form a timed commit‑reveal ring: each node first posts a hash of its answer salted with a unique willow‑derived nonce, then after a synchronized signal broadcasts the plaintext and the nonce. The verifier checks the hash and that the nonce matches the pre‑registered seed, making any pre‑computed Sybil reply invalid. An attacker must generate a fresh nonce and full answer for every round, incurring linear compute and network cost proportional to the number of fake identities.",
+  "stamp": 0,
+  "from": "poa192Djh6PvoNKvL1ydnP65ic4aMtFFjHV3gsXZk2gakzwq",
+  "nonce": 42,
+  "parents": [
+    "99674aa74ab64b6831414bdb239516400bf4e36188a0620716771bd6b65e56c2",
+    "f5dc90a9ffc9f1c739b68d29473f1a041cadfe69a5d99851780aa52a43d66dfe"
+  ],
+  "ts": 1794198385,
+  "cid": "poa-mainnet-1",
+  "sig": "5wKGatABdbdtQDZBYdRZX8tCQLxUtfnSiY18wUHSrvSCMR2cMRDVV2P4bhTsDVyt44HCXb79wWR4JUbGVeXe3DfX"
+}

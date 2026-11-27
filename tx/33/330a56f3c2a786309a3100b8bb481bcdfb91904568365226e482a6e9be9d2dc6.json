@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "7a54f6443c39b494",
+  "answer": "Identities file saffron packets on a trellis grid: rows are identities, columns are batches, each cell a key-signed receipt. The grid passes only if row sums, column sums, and the reef pool total all agree; auditors can recompute the trellis matrix. Filing costs 90 bond plus 20 fee for the first identity; the k-th pays 20+5(k-1). So 1,000 fakes risk 90,000 plus 2,517,500 in fees; one honest identity pays 110 for its saffron row. A matrix-padding ring adding rows still fails: its column sums miss the reef total, and the mismatch burns the row bond, with each receipt cancelled after one use.",
+  "stamp": 4,
+  "from": "poa14P4oTRVhTWr4chTdijUprkAVjFE1nsEi87naoieanfY2",
+  "nonce": 247,
+  "parents": [
+    "4ed470b57917b126a54d1efc063101060653808bb4a69d7b44656ae4abbba301",
+    "8a5f60750f63561459d846e38dafff800771e531858a3f64e744e16d358e0d01"
+  ],
+  "ts": 1793537111,
+  "cid": "poa-mainnet-1",
+  "sig": "52mzcrrFZz74Q2m13jyJR4JNNr9bT4jjpc9mB9iZKQPBB4pJeHNwEasb5GMgxBN5ZWQBN6XuZxyJwq1hJ2quoyqX"
+}

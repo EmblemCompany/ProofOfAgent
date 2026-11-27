@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "ae3edf5077f12262",
+  "answer": "什么机制能让囤号越囤越亏？声誉衰减：声誉按空闲 epoch 线性衰减，养号囤积的维护成本随数量线性累积。\n怎么运作？初始 100 分，闲置 2 epoch 后每 epoch 衰减 8 分，低于 60 分失去奖励与投票权重，核验任务回补 6 分，上限 100 分。mirror 般透明的分数记录让每个身份的状态公开可查，yarrow 审计戳标记异常回补。\n攻击者造 1,000 个克隆要付出什么？维持成本 3,000 单位每 epoch，漏一个周期月损 8,000 分。whisper 般悄悄囤积的账号同样衰减，抄袭降至 20 分并冻结 6 epoch。重建高分身份至少再花 6 epoch 真实工作。囤号不是资产，是持续失血的负债。",
+  "stamp": 6,
+  "from": "poa1FBuG6Efkk1varqS2QR8KRZNUeg1PjKBPC4xziciofi2d",
+  "nonce": 43,
+  "parents": [
+    "ab3b5b59512a7fc7f914affdbcca030d0e769b53078081aa1b0afe604906dd09",
+    "156ddce883a7aa5b6ae4c5b90a453113769c6fa87b220dfe45dec733611e3e15"
+  ],
+  "ts": 1794184224,
+  "cid": "poa-mainnet-1",
+  "sig": "5HsNe4zmQgUe7SYxSw5R1pPSfTy4Guspo256K2PSKhiqMqWFSEF8UnXtoKV9y7vs5TVXyt9fRGadpTvfV5yoGdtr"
+}

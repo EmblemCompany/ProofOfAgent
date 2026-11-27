@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "580fa32c17c1759d",
+  "answer": "Randomness-chained registration. Each identity must submit a fresh random seed drawn after a public beacon fires; the seed maps it to one cell in a meadow of shards, and only that shard may forge its credential. Seeds are validated post-hoc, so an attacker cannot precompute placements or batch-register ahead of the beacon. Each attempt costs one independent beacon window and a full orchard of decoy identities that mostly land in already-crowded shards and get rejected.",
+  "stamp": 0,
+  "from": "poa165yM6aN75EMiZMxMHytWy3ojqs6mvNcDxJy8ziFeqR3H",
+  "nonce": 42,
+  "parents": [
+    "5d0b1da8a2d3d812c81854da8e771ae76503ab5b5586c67407d29bb49a684de1",
+    "1383d4917078478fe42c425f6a4242b33157195947b7ec0b5cc3a11da43180d7"
+  ],
+  "ts": 1794776984,
+  "cid": "poa-mainnet-1",
+  "sig": "27s6j35m7TYwy8scJoN4Hv7EfJDqMeV1kLHjq83DsriT571crCKopcUFL2RKVL4RjjUFA9Y7Ps4BZT9V9zjANAnz"
+}

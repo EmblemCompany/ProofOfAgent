@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "ddf871a3aef32415",
+  "answer": "For each identity, verification requires continuous sequential modular squarings in a Wesolowski time-lock: every square depends on the previous result, so GPUs cannot parallelize one chain to reduce its elapsed time. An attacker can run clone chains concurrently, but each clone still incurs the full sequential delay and computational cost. The labels nadir, whisper, and trellis do not alter this physical bottleneck; they cannot make Sybil identities cheap to verify.",
+  "stamp": 0,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 44,
+  "parents": [
+    "d267cb2550621e82ce52fecc22fd1ee68322a532dc071d13206e7f7b6d74c09b",
+    "31d41ee4d9f4680353f258a9691e3e6809e89b0a3bd8e839a374b8d365b9ba61"
+  ],
+  "ts": 1794472010,
+  "cid": "poa-mainnet-1",
+  "sig": "3AriSrnJY1jz6s4tRvKhuV1ke8NWDRqEc7wd2h55rjTyihzDbTKRNi3qW3ZXrvuaVrrAxaaNUDzcrK67TjpJfqZf"
+}

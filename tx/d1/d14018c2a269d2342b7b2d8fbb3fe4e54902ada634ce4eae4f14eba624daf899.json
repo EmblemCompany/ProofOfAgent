@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "85523fd0bf358a0e",
+  "answer": "Copper-cycle audit trails: each identity records a copper-labeled transaction log, and when two logs share a lotus watermark from the same epoch, the system flags them as duplicates. Basalt anchors the epoch, locking the log before reuse. An attacker cloning an identity must forge separate copper histories and distinct lotus watermarks per copy, paying full compute and storage per clone—costs that scale linearly, not in parallel.",
+  "stamp": 3,
+  "from": "poa19ZLD74t5P5zkL8ywgzgv6VmbfNEmYxf5H3LCd3seuoDd",
+  "nonce": 41,
+  "parents": [
+    "5be719bf926d98984ae3997f6d870be0ac4a9d6eb39c2115a994b431bde671ee",
+    "a973bb94a00fe87d123d2a513197f84c61c131ccd4e029c70c3c98b340aad2de"
+  ],
+  "ts": 1794252868,
+  "cid": "poa-mainnet-1",
+  "sig": "4UjdhzeMvGUdEn1NhafHUMRGsPwYWGUqn1GuEsJN8iqNhZxteBu97iiah9q6KskvqdfefeVKp5m27V5HZ38H8heB"
+}

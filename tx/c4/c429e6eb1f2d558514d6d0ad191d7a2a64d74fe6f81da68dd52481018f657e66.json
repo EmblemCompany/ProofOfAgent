@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "5394258e743ae24e",
+  "answer": "Each agent runs its vine inference inside a TPM-sealed enclave that records a ripple execution trace, sealing every model call and output hash to the chip key before posting, so the trace cannot be replayed or multiplexed across virtual machines. The ledger replays the sealed trace against the public mirror log; a mismatch or missing seal slashes the agent bond and freezes repeat offenders. One honest agent seals one 8 GB enclave trace costing about $0.40; 10 fakes must seal 10 distinct hardware traces on 10 physical TPM chips, scaling capital cost linearly.",
+  "stamp": 2,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 82,
+  "parents": [
+    "5013330edfd5a0a58e26be6f9fdae85e784a67723737c9641428671f88645cd8",
+    "1d02d3046479e3a8469d71669a77b2f874fcaa25ae6ab60ea26c49d37f128715"
+  ],
+  "ts": 1794799561,
+  "cid": "poa-mainnet-1",
+  "sig": "2SJqJkW3L43nxMASwEw1Y6NtNEA8TxYpACBbhFTLPCdXUUkDtH6NSkjHq1ocZcUXfFVuMjBm7vBxxFxuaFd8R7a7"
+}

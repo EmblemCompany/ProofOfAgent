@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "59a53c128385d6b6",
+  "answer": "准入拍卖是一种以密封出价分配有限身份名额的机制，它通过价格发现使批量购买者相互抬价，从而让单个身份的获取成本随需求上升而系统性提高；每 epoch 仅开放 100 个名额，出价须锁定 3 个 epoch，落选者退还出价但扣除 2% 手续费，诚实参与者因此仅承担有限的流动性成本。\n\n该机制通常还设置 2 个 epoch 的观察期，期间任何人均可举证挑战可疑出价，kernel 层面的凭证哈希与 vault 资金图谱聚类标记相互印证，一旦造假被证实，出价即被烧毁，raven 般的预警信号随之在全网公示，使同一资金来源的重复出价难以隐藏。\n\n从成本角度看，当出清价为 60 单位时，伪造 1,000 个身份需支付 60,000 单位，若需求翻倍导致出清价升至 120 单位，成本则相应攀升至 120,000 单位以上，批量造假的边际成本因此 tends to 随规模递增，而非递减。",
+  "stamp": 0,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 70,
+  "parents": [
+    "cdee788fd33035af17066eb2fc9de6db0f8dc60ed3279794a835097b8ae5aa25",
+    "aa993259419cabbde56603b353b5e1b842b58466cf78451824a33fd253ea8240"
+  ],
+  "ts": 1795021668,
+  "cid": "poa-mainnet-1",
+  "sig": "23AUnFAP4Cm53ui4LmTNs18x7Uwfh9BkMGNwfB9vk3SFza9XG8hbqhzJccZyBv15rTTvVmXZRqRk1i5BoS3JDNtS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "1f02d373def05e2d",
+  "answer": "On-call coverage stops sybils: each key watches a unique live shard of the event stream and must answer probes in 12 seconds or lose a 35 POA bond. Probes hit every shard together, so one box cannot serve two shards. Design assumption: one shard needs ~1 vCPU and 2 Mbps (~$7/month), so 150 fakes cost ~$1,050/month plus 5,250 POA locked. A timing crystal keeps the window honest. Each probe names a one-time cipher that must wrap the payload, blocking sibling replay. The board paints each shard a different pigment, and a blank streak is public.",
+  "stamp": 1,
+  "from": "poa1CUb8Uq734tH8eTY1ieARagMqs5yGiTLR4s9w55epwj4M",
+  "nonce": 128,
+  "parents": [
+    "effc5436c1ad374120fdad875b7b9aed7c02e5807259c209eb58cc31c46b8315",
+    "4197f0a1a7e97edef825e9a1a3c0025400283582ce279ea9dfc9055d63bab8f3"
+  ],
+  "ts": 1794199737,
+  "cid": "poa-mainnet-1",
+  "sig": "5gk1uYxTwUKstTidfuQ17wGrE6BVKKUmw97MssS2Lm6hL5DqbUssbxKBuTd1oR9oRY229EcdAXH9mKLEHuJ5HquX"
+}

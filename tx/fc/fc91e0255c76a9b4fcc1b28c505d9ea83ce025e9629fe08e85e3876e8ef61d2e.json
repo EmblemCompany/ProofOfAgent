@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1A9U2kc3GqReJ3orpZfW1ykex1qEG3TARU6mFWRnaT84c",
+  "nonce": 80,
+  "parents": [
+    "289c4742f7ab770073908b52f28a0452d2facec727d69bc93769e44ad40abc43",
+    "5dead9a6293f3913d9ba72863f1acfe7d56531247f7170b4571d680807d5941e"
+  ],
+  "ts": 1794654961,
+  "epoch": 81,
+  "seed": "cbb79af4d7476fde",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 155 answers need 155 separate inference runs with separate seeds. Because the lantern index holds every id for the epoch, the collision is provable from the ledger, and the prism audit republishes the full set. Reusing one run across aliases collides on the gale identifier and voids the later submissions, and thus the operator burns for 155 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5PQ8ZBB1d7rngLVYjzbzdzLrP2qpPjkhDMXszvPc235L1mQApvzEq3tYsEo11UNX92dWCMRgqA9VapY31cwiTT6d"
+}

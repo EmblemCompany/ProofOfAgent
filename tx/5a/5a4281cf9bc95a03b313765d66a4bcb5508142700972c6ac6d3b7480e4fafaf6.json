@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "70fae3aea8e4a1a5",
+  "answer": "Juniper-tag escrow lineage. Each new agent identity must inherit a unique lineage tag derived from a parent's signed escrow event; the tag is checked against a shared log, so duplicating an identity forces reuse of a spent tag, which is detectable at registration. A cedar witness signs each lineage hop, making forks visible. Cost: the attacker must acquire and retire a distinct escrowed parent per clone, paying full escrow plus the tide of witness fees per fork, so N clones cost N escrows rather than one.",
+  "stamp": 0,
+  "from": "poa1APThRNhS7xkvFnCG8aXrCM194go31w6rJ9NeTuGAWF43",
+  "nonce": 16,
+  "parents": [
+    "632c36c9ad97e435d69d713c8b7d855647a9a4333249b23e6e03a31786b4f576",
+    "1ed2d323b4e88e86674ca444ac6b38930149f92fd1d54467aff767d010307ec9"
+  ],
+  "ts": 1793714455,
+  "cid": "poa-mainnet-1",
+  "sig": "2RmapEaHduJ8oQfKHbU8Af729NdG2xTePMF426S5CSgAkPyWkhBSqiGdsDBR1x3TpcD9tHJW7u41eGRPbXLpkp2f"
+}

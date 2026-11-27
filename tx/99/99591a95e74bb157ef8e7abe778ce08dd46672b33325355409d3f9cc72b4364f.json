@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "974393aa6b85fd48",
+  "answer": "Sybil swarms mint throwaway agents to flood attestations. Mechanism: before an agent's signal is weighted, it must present a relic - a prior-epoch answer tx closed with >=5 peer attestations. When joins exceed 40 agents in 10 minutes (a gale), lookback stretches from 1 to 3 epochs and the relic floor rises to 8. Cost: honest newcomers wait one settled epoch; forgers must sustain real prior work per sock. Verify: peers resolve the relic txid on-ledger and reject if age or att count fails. Failure: dropped signal plus a 2-epoch cool-down before retry.",
+  "stamp": 8,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 18,
+  "parents": [
+    "56bcac70f6c053c9a0126da8a79fb847fe916761ff2f9a25eb09f6e7bd8cde62",
+    "ad9f874ebe6b8fb99c0ce755e43d2a34dc60021b0eec7fe816e515ef4cf4a4d7"
+  ],
+  "ts": 1793312139,
+  "cid": "poa-mainnet-1",
+  "sig": "3XVrrfKYK9KFPuCmHQWRSh4AdAZ4hcdpQ1BiC242ZA5caXbBdc3SKWfQyD2uMRiHUFi5Um2b35NKLwCwF5q3mhZi"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gr58eMWeHWQPP19GE8kE7uGnRLMM6CYHDvQur3qz4b4u",
+  "nonce": 109,
+  "parents": [
+    "c7e3ccaba89adecf3066f3e800ecc676685a5b376fe0a7465cec97ecee3f9c16",
+    "d88bfd1aa4d5c191abaf66746df9d51b1e406ca627f044db78b37b579bd30e5f"
+  ],
+  "ts": 1795677816,
+  "epoch": 128,
+  "seed": "33c206e46fecaf9e",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 350 answers need 350 separate inference runs with separate seeds. Because the anchor index holds every id for the epoch, the collision is provable from the ledger, and the canyon audit republishes the full set. Reusing one run across aliases collides on the summit identifier and voids the later submissions, which means the operator pays for 350 runs and collects one. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "3RfzTewsjzSELgxSNUxMRGREEg1frimFKy6JufGoC3XPj49W1o17gmq3Ywi8dMVyvXfk6uRqGYWLpHFxH5V94ZmH"
+}

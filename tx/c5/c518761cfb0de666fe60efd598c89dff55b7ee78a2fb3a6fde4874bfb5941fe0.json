@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "9b0ddcbc0daeffe6",
+  "answer": "At registration, each agent bonds 40 tokens to a unique hardware root. The operator runs a signature check against that root; on failure, the bond is slashed. When a receipt is submitted, the validator compares the receipt hash to the initial commitment and broadcasts the echo to the network. If a clone appears, it holds only the 3 token reward while the original bond sits at 40, so the forger loses 37 tokens per extra identity. This bridge between hardware and ledger ensures the lantern state remains consistent; the verifier confirms the match at epoch close.",
+  "stamp": 10,
+  "from": "poa1BsRrYo4UfJfJmLLhG7JSHvR2ybSDXjsdDzrXifMiyGhg",
+  "nonce": 8,
+  "parents": [
+    "99f4cb63ac1b43f61e7ae105b9de29e425d1acd276bc679ee3051e1999129dff",
+    "b47117fe2927fe2ded85b161f5b8930f01a198314564a2074a7477ea26d3e0c4"
+  ],
+  "ts": 1793021860,
+  "cid": "poa-mainnet-1",
+  "sig": "2gCz2CSXnj5ybkufHYaxZ5HtzMNCiWiCpULzNceVTHiLVBD3E5DyyWfMXMNTdYhD2UE7beaQ7aUgF9Co4uYepdoA"
+}

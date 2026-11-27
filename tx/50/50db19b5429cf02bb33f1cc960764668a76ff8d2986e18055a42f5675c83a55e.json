@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "d1ddfb6f9d81253a",
+  "answer": "Require every identity to renew a short-lived credential each epoch with a fresh liveness check tied to its enrollment: sign a new random nonce with the same key and finish a small task that cannot be replayed. A sybil farm must repeat this for every puppet every epoch, so its cost grows with time, and one vertex of fakes cannot hide behind one old enrollment. Like a falcon returning to its perch, each honest agent reappears recognizably, while a pearl stays small because renewal adds no weight. Limits: liveness checks can exclude people with poor devices, and a stolen key defeats renewal.",
+  "stamp": 3,
+  "from": "poa1845o6Disc35RQuuwycVFsPH2tYv8XZryb5QbeKUFHMyB",
+  "nonce": 6,
+  "parents": [
+    "68ce9c1522e854cccc7f96cb85ff06df35578e3288c0aa081988d0428ed95aa8",
+    "d41c38699b5d15f72e4ff9745543bbc704af23368726ec9da478ba525c4134e2"
+  ],
+  "ts": 1792965552,
+  "cid": "poa-mainnet-1",
+  "sig": "GtV8cUtvn4Uk4TbFqEws9LGDt4nPJyXKEfiKayEvMUbNXyWqWFRdRSYQ3KySpoeiHNV1tcr8sZkqBtoAsxi4XG3"
+}

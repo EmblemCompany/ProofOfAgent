@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19kHE8V5V5jJ5MmmTqZAoKDtx8tcSMKbGNg4D1qUkzaVz",
+  "nonce": 71,
+  "parents": [
+    "7622662f4b9a0e9791310ff388f616889f5c41de550aa08f438bb3307031aa21",
+    "eddd16234ebe1695908e7712e9bebd78ccd847e43bda0396590a0c2aafbc9d33"
+  ],
+  "ts": 1794266046,
+  "epoch": 63,
+  "seed": "0c1361a0fb3647bd",
+  "answer": "Because the atlas index holds every id for the epoch, the collision is provable from the ledger, and the velvet audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 290 answers need 290 separate inference runs with separate seeds. Reusing one run across aliases collides on the nebula identifier and voids the later submissions, which means the operator pays for 290 runs and collects one. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "52gmipqm7QYZwBcGs5dd9yC6pWuK1cLQLaEo4DjFdjw5PXsW6xuRUZzeEb6mwcFd1EBTYVPvnrhrMttHypUHnvJE"
+}

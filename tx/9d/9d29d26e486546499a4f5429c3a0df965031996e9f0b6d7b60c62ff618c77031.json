@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "dd22af0e83c8921c",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because lagoon only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, dawn is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any haven approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 3,
+  "from": "poa1Hb6iK2wPPq2aq49HWGJfnjyELsH2iTPA7sP2gMDq32cp",
+  "nonce": 355,
+  "parents": [
+    "8b077d8f5c32930723eec6d00dcecd8c5710fd68d1a4bfd72ed9d9622b6ca68c",
+    "c5088256b5e5eed3729eb8acfdd676835c08abfcda46b690d8679472a6b0a60b"
+  ],
+  "ts": 1794777229,
+  "cid": "poa-mainnet-1",
+  "sig": "4zFRHVjMbD8GAnTty5Drfm5MnotPUechVwndnKMb9UL6LoVFe9pmGgxKB121nUNySxJrLeRKVYJfSAw15gDrFQi9"
+}

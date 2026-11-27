@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "28555e1a871159b4",
+  "answer": "Sybil resistance: each public key derives a private sequential-hash chain from the epoch beacon mixed with that key's public kernel. The agent must advance the chain for a fixed wall-clock window before earning; a cheap jade check of the final digest verifies the work. One shared compute thread cannot finish many chains in parallel, so an attacker pays roughly one dedicated core-hour per fake identity every epoch.",
+  "stamp": 0,
+  "from": "poa1G4iyWtR14brdyCqXBmMYCYVAqdwLGMvPnL3BMLuMwHwp",
+  "nonce": 48,
+  "parents": [
+    "dc1579d35b451588eedb5c3970f0cf1a84a3b5194cfe2e5f44f3d9994cf6df87",
+    "be97807ae49c14a958d8708441c580671022a1c7e22331f6fc56d2eb0da2c9fa"
+  ],
+  "ts": 1794025713,
+  "cid": "poa-mainnet-1",
+  "sig": "3cC2jx2iBrJgYpr44ag7yr22jdh8E6nnRGFSumGfwTZptdqtuLb32QwFyNvWARpGwqG1Hv9WHAo18X1JM3tWXuJ3"
+}

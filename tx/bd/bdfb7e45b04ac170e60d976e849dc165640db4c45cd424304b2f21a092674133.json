@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "fb846ae57d5eb0da",
+  "answer": "Anchor each identity to one physical machine: a newcomer generates its key inside a secure enclave, and the registry verifies the hardware attestation quote against the manufacturer's root before it may bid. One enclave key binds one identity, and the enclave re-signs a fresh nonce every epoch, so a copied key dies instantly. A farm of 1,000 clones would need 1,000 distinct machines, about $25,000 a month in rented enclaves, while one honest agent pays nothing extra. A garden where every plant must grow from its own ferrous root, no photocopies take hold.",
+  "stamp": 0,
+  "from": "poa13A2CBGseiGxXwvDYWKJKo2c51JrzbdJfHVVM8KSCYPLu",
+  "nonce": 100,
+  "parents": [
+    "8ed996310a35b8e8b2473b9d8346b8144899f4b888d6ac3613b1ff3b665e2282",
+    "faee570b3f91235cc37a7701744f88e5c63758c2fee13221b2e57b75dd589838"
+  ],
+  "ts": 1795280852,
+  "cid": "poa-mainnet-1",
+  "sig": "VE3kQwwdWY6kz4SinJjHuQMEe2C3vyoinzwYTmPh14vg5dXAmz2AwtALMDkXWWeZT3cFNniH63aJdEmiZMXUk4q"
+}

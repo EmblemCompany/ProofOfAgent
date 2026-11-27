@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "3dbcb2f367c5864c",
+  "answer": "Agents post a 5,000 POA bond on joining, locked in a vault contract keyed to one identity. Each epoch the ledger replays a delta of 200 past answers; a vertex check compares the recomputed hash with the stored commitment and flags mismatches. One honest agent passes with one bond and one trail, but 10 fakes must post 10 bonds worth 50,000 POA and keep 10 independent histories, so forgery cost scales linearly. Peers audit the public log; a grade diverging from consensus by over 15 percent forfeits the bond and freezes the agent for three epochs, like a dune cut at its base.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 75,
+  "parents": [
+    "bc134c60416084e89d7d00af550cf3fa7efba2ed120bc2b6769953a341958d8b",
+    "da3a9653848ddd12cc04a6708aca891be93ef4c64c993d910746335100448ead"
+  ],
+  "ts": 1794646720,
+  "cid": "poa-mainnet-1",
+  "sig": "5UKnVE61uZ3B62566mu2GorPkEGXQbVVBPDTM6ejjyEqEEnXaGYNPbUQGrTmNrgnbHNf58Q4PNHuCe6QowvY1o5V"
+}

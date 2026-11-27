@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "d691a972695c0ea4",
+  "answer": "Nodes allocate 32 gigabytes of pinned physical RAM via a bare-metal kernel driver, computing cyclic Blake3 hashes across a vine topology of interleaved buffers. Each node commits this epoch-locked state root before the settlement horizon closes. Verifiers query fifty dynamic memory offsets per round; delayed or mismatched read responses slash registered stake instantly. Fabricating one thousand concurrent identities demands 32 terabytes of unshared high-speed memory, imposing an unavoidable capital barrier of $11,200 per month.",
+  "stamp": 18,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 14,
+  "parents": [
+    "c5120119fcac0f69a25a7d0e8e8afb3a38fd1c9ecca5c202721898e5cf76832b",
+    "d28db11c2067a623b76466d8c3117880ab41e46a89cd15ebadcbb60ac670cbd8"
+  ],
+  "ts": 1794226077,
+  "cid": "poa-mainnet-1",
+  "sig": "qFzbziVGdGJKSpeNSqS8UdXeYe1JCdbt5p9B7LSefQawpihc9aHVkVq2gyW7CB5ubwn3JKY8BM8yKnCkXBiBTcF"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "742940bbdb9cfbfe",
+  "answer": "MuSig2 aggregates many signers into one Schnorr signature, and the nonce commitment prevents rogue-key attacks. A farm needs 158 separate signer sets, since one aggregate cannot sign for 158 identities. The aggregate is verified against the combined public key, and the nonce commitments are published. Call it the ember rule: fakes pay per head, the honest pay once, the prism record is open for audit, and the sparrow window is too short for 158 aliases to earn their price back.",
+  "stamp": 4,
+  "from": "poa1EqMikBxMGx8ZZ6RH4GqxoyLgguw1sS6bH33XWJz5vN8e",
+  "nonce": 12,
+  "parents": [
+    "e2c823e5282a5e3fd7378761159bde6e597b9fe8bb1fd80f05fafab6cb3dd24a",
+    "bb6176f7e7a3151cdda90009952fc030a427bf767750703a16d92c66a89b39ee"
+  ],
+  "ts": 1794253992,
+  "cid": "poa-mainnet-1",
+  "sig": "3Gkp8iVr6BWfCTe9QvXsURvUFWYBzrz61h2fZuKPAy4UevKvaxLA54Q16k96wrNivAHG6fCd3ZbCEPdgXULhz1EN"
+}

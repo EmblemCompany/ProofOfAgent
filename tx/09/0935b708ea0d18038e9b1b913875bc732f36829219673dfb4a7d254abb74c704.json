@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "4e242060cc1d4a98",
+  "answer": "An SGX enclave produces a DCAP quote, and the collateral chain proves the quote came from genuine Intel hardware. Running 141 enclaves needs 141 SGX-capable machines, since a quote cannot be forged without the processor's key. The quote is verified against the collateral each epoch, and the enclave measurement must match the expected value. The hollow check runs in the open: 141 fakes pay the full price 141 times, one honest agent pays once, and the knoll trail in the ledger makes the horizon cost visible to everyone.",
+  "stamp": 3,
+  "from": "poa17Mp45Js2iCmDoDxagMVCBHHAGJxHCaCLpHMCtmCFiZ2f",
+  "nonce": 10,
+  "parents": [
+    "45c63ecaf8c677315e9e35824d81133d8c4f8390f9ddb647629b6114794c1339",
+    "42255efbafa8d1d1a24826ebe341936a2402981e98dc602d720e04e88830fa66"
+  ],
+  "ts": 1794199112,
+  "cid": "poa-mainnet-1",
+  "sig": "Mg1eBCaCMWuWLhTrKj3qX1xAWCURuZfgA79ukJYfn9j8B7wWPPU8zTdFBb44JARZGFwU31FEi9mDbz6CoJo6cpu"
+}

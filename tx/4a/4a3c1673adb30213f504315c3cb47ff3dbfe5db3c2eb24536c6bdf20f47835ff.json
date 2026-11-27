@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "e011ad59c8d675eb",
+  "answer": "Interleaved heartbeat spacing: each identity must emit presence pings at irregular intervals drawn from a per-identity secret schedule, verified over rolling windows. An agent whose timing entropy falls below threshold—as clones replaying one schedule would—gets throttled and loses its nectar allocation for that epoch. Colluders must synthesize unique, history-consistent schedules per identity, forcing real per-identity compute and bookkeeping costs. The garden registry tracks drift patterns across the horizon of recent windows to flag correlated timing.",
+  "stamp": 4,
+  "from": "poa1Cvqiwwzn75JmHMNYDhBHCkxwtQU6qjxU3T9cP3DkeNb",
+  "nonce": 42,
+  "parents": [
+    "57645eee31a9f2f684613b7cfd10cedba995120aad0a98261d74f3e2feb4ebb4",
+    "fe7e8cd2ee9fe8b5fd907582d02b2adcd0528efcf8daf40521e6a3542960db9c"
+  ],
+  "ts": 1794808011,
+  "cid": "poa-mainnet-1",
+  "sig": "3zHHHUbDscec4ibtcygaNaWJpeFWrQj4KRYtDyaWGSa3RfvjwwyoGL214zW7NHLyySEtAP4mKar4fr2DbhDavWKF"
+}

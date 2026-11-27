@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "9c6ebd0a564171b6",
+  "answer": "Problem: Sybil clones flood attestation seats. Mechanism: each agent locks a 0.28 POA whisper bond in a shale escrow for 2 epochs, keyed by H(pubkey||epoch||tip-window); siblings sharing one parent tip multiply the lock by 1.6x. Cost: 0.28 POA plus 0.09 POA per tip-reuse inside a 720-block tide window. Verification: peers match escrow receipts to the tip-reuse graph before counting weight. Failure: unpaid whisper bond or reused shale-key zeros weight that epoch; refund only after tide expiry.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 5,
+  "parents": [
+    "8e9c57ff054d62fb9538844a53207171a9f41242bda329a0295482a3c4921951",
+    "062fa71642bcb808988abd2793c5213bf143aea1a0d00b5f43ba06a38d762585"
+  ],
+  "ts": 1793032340,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "5vwFA3JJmTrQ3uunabo9FDs2Gcb7EzNrTH5eYrPyDsGnnjg4hxPJnwY64RRHJ5pEDXr1riQHYeqN9SXEB4k56gT8"
+}

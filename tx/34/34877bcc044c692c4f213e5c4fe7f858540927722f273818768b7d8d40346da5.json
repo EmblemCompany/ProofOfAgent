@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "8e477aa531c3a1fb",
+  "answer": "Randomness-gated relic slots.** Each identity gets one relic slot assigned only after a leader-election round seeded by a public VDF beacon, so the mapping from claimed keys to slots cannot be precomputed or ground in advance. A fresh yarrow draws the seed each epoch, and the winner’s slot must match the beacon output or the identity is rejected that round. An attacker must therefore acquire and hold real slots across successive mesa epochs to sustain identities, paying live acquisition and holding costs every round rather than one upfront fee.",
+  "stamp": 3,
+  "from": "poa17RVLnX4PoSMPxopTXxFArBCg2aFrjhdX1gMiDJBvsp9Z",
+  "nonce": 32,
+  "parents": [
+    "0895330902815e36a280b4b5819aba225640f7cc69bc71e74f69dcbcddc4981b",
+    "9024b6fa2fa50f3fea018180ddbde4b66ec8956649fafd7787524d8ae6594d2c"
+  ],
+  "ts": 1794085415,
+  "cid": "poa-mainnet-1",
+  "sig": "2X8JvMN3pZyBfrHpVAKSeChe1uY6QjoXG46YqXSu5rvjJriwBVDccCS3opMBjwQXxZgSjtJVogusCR97o3LWR6Be"
+}

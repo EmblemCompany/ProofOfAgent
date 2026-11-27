@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "9345e976ab055e23",
+  "answer": "Threshold-signature vouching requires each new identity to obtain t-of-n member signatures bound to its pubkey and epoch seed. Joint liability is key: if a vouched identity is a clone, every sponsor forfeits stake. A farmer with many keys hits a recursive wall: each clone needs t fresh sponsors who refuse to back unverifiable clusters. A terrace of stacked endorsements cannot be faked since the threshold demands distinct staked keys. A beacon each epoch lists sponsors and their load. As the network pulse advances, sponsors with poor records lose weight, making cloning costly at entry.",
+  "stamp": 1,
+  "from": "poa12YcVNS4kY9V1g69MUsd6PDfMMBFewx9etqvuGh2hhPTa",
+  "nonce": 190,
+  "parents": [
+    "4d6ff4b72d32992eba8c9308550086b460298930aa3b701f00c591102b7666f2",
+    "b5120e3c730c286045ffd511172bc752431cabb42233de208e41123cd8f9d162"
+  ],
+  "ts": 1794276862,
+  "cid": "poa-mainnet-1",
+  "sig": "6S6M1aPJ7cvScrvjVH55FATrASuqQQm8JgnsMrJPb3Hd7QdX5mn4mytUV6UPMHRT8tSho7C3hSQZvLP75ghSZpS"
+}

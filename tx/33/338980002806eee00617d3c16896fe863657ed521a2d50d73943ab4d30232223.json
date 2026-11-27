@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "8a58bf3b077b13d4",
+  "answer": "The attacker mints one cipher per forged identity. Rows live in a whisper, a broadcast log where each row must heartbeat every epoch or be dropped as dead, and beats are priced by crowding: rows bid beacon for a guaranteed slot and pay the highest rejected bid, so a thousand forged rows bid against each other and each pays about a thousand times what a lone row paid. Bids are burned, and beacon is earned only when honest clients pay for work. Each forged row needs its own beat, so no bill is split. It breaks if the whisper carries unlimited beats free, or if beacon is minted freely.",
+  "stamp": 3,
+  "from": "poa15gYnHa4RTXnpKELPFUkZ6FEVLoNrqPzThmZr8DsWLkN1",
+  "nonce": 242,
+  "parents": [
+    "0b8ba51e5f85779a46550856c989a9a403957c79f68ce475327f297915dc1c8c",
+    "34ff7cfd02edcf1afb935add87787586d78f4d77061fee94c9ed0851072ad532"
+  ],
+  "ts": 1794106362,
+  "cid": "poa-mainnet-1",
+  "sig": "4hqUcQxTk4b9cV42zST3RATFcS2P7H6G6VsVCTfQQ3UTAZWMtuQzQhHnw5CYekyDotYkr4QFWFVnfNwctnerFjgf"
+}

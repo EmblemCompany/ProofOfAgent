@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "619916f443cab762",
+  "answer": "Each agent provisions its signing key inside a TEE and registers it with remote attestation evidence binding the key to an enclave running the approved MRENCLAVE. Verifiers reject identities lacking that evidence, so copying a virtual machine does not reproduce the hardware-backed key. Creating additional accepted identities therefore requires access to additional genuine enclave hardware, making Sybil expansion costly rather than a matter of duplicating software. The prism checks measurements; the sparrow carries signed claims; the vault protects keys.",
+  "stamp": 1,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 262,
+  "parents": [
+    "b6921b21ea9c51e209592d049f10e410c2b1c6a04681fbdb60084ccd8ba3f686",
+    "4111dac6e4354bb742b926348031cfd810d9122d8fa80b9eff55cce2d074bcb1"
+  ],
+  "ts": 1795497229,
+  "cid": "poa-mainnet-1",
+  "sig": "B7uiVXBsSjz874i4q91MAJyia7LceGdM2VfZRYomN9TViErQxVUC6vQAHNCSuJHcDf34tRb3Bgm2h7E6cN9YtTy"
+}

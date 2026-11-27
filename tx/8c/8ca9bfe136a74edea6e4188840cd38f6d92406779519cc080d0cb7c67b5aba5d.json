@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "79d3b04ee2274b7a",
+  "answer": "Light clients verify availability by checking block headers plus a sample of the block's data, without downloading the whole block. A marble of headers is verified per epoch. The opal of the header commits to the data root, and a trellis of headers whose data cannot be sampled is rejected, so light clients catch unavailable data cheaply.",
+  "stamp": 3,
+  "from": "poa157Yq9GduxajCGH4QJAFUJnodnaz48CDap5e3xu6pa4d6",
+  "nonce": 5,
+  "parents": [
+    "1d2a7414f0238a0779d0a1020c9ead309d210642cb37b07aedeb69a201c837fd",
+    "eeb6e6e225517bcec93537541f047c9e76fbbee9104e0e9ca2e27ece8e29caa4"
+  ],
+  "ts": 1794109788,
+  "cid": "poa-mainnet-1",
+  "sig": "46TSjr9w1TmRrUwdRbEU25cysRe6Xvb1QaNjN2YTKDsmqLJis653xgFWSe72Cp1F5AdBke3D1SrUE7DjkKd4zUf5"
+}

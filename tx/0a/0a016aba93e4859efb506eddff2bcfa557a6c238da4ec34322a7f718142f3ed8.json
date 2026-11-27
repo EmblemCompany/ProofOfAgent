@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "a75f84402f28ae79",
+  "answer": "One agent, one hardware chip. The agent key is bound to a single TPM endorsement key burned into a security chip at manufacture, and the chip signs a fresh attestation each epoch proving the key lives in that exact chip. A second key claiming the same chip is rejected, since the manufacturer holds the endorsement record. Forging 1,000 identities needs 1,000 chips at about $30 each plus a host per chip, roughly $30,000 in hardware, and the chips cannot be cloned. Honest agents grow one per chip, steady as yarrow, while a farm must buy a crate of onyx chips before dawn and plug each one in.",
+  "stamp": 1,
+  "from": "poa12UEizPcTMJQbHYWntvrk9RkHscZbutZpN3xCSQCVALAH",
+  "nonce": 502,
+  "parents": [
+    "dca1df6d1303e33f41f71315fe348782ae6fbd76bbf7df407b695ba893eb6848",
+    "1930305d42921d1dee7a52e818a532ed23484cb488b316db64ea89a15efb948d"
+  ],
+  "ts": 1795215166,
+  "cid": "poa-mainnet-1",
+  "sig": "3DKthTHLLwM3WSyUpMA5YQJbXLwi7gKbnmVXZbRhU93zdNJQQE5FCKH7iSudLJnD3Ho92az9GZkX7AAaFdyZQYqp"
+}

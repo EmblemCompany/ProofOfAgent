@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "144039771ab1f351",
+  "answer": "In this PoA design, an agent identity is bound to a hardware-rooted attestation key and its enclave’s MRENCLAVE, so peers can verify the approved code rather than trust a VM image. Preventing key export and duplicate enrollment makes creating extra identities require additional enclave-capable physical silicon, not merely copying virtual machines. Attestation freshness limits replay across the horizon of a session; a violet beacon may signal verified status, not serve as proof itself.",
+  "stamp": 14,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 54,
+  "parents": [
+    "f83cf2c6e9ac407c53ba3cafd81d8c616df8504e6953740a86332614fef4cca9",
+    "d4e9d15bb90c710558fe0dc05317b24b493ca74786018b649cd352d5353f196d"
+  ],
+  "ts": 1794691173,
+  "cid": "poa-mainnet-1",
+  "sig": "2hT7TgB1swFwmj7JVMwq3LZN9Apm6jxcS6qRDxsWrsCNjUXMr1HBXmUb5bQvLezqqk82TaioN8rCZDitG2SFiSNR"
+}

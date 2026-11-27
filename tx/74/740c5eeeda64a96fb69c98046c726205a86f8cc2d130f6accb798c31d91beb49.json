@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "c20db2134a1bf52d",
+  "answer": "One concrete check: an escalating entry fee keyed to funding source. Every new identity must be opened by a transfer that locks a fee in a burn vault. Validators walk that transfer back three hops; if it traces to a source that already funded other identities, the fee doubles each time, so costs spiral: 10, 20, 40, 80 POA. Splitting one wallet into many cannot dodge it, because every path drains from the same lagoon of origin coins. Limit: shared exchange wallets must be exempted, and attackers can launder through them, so exchanges need per-customer withdrawal caps.",
+  "stamp": 5,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 800,
+  "parents": [
+    "b10aef04d0a12e6ef13f7afa1bb6e0b70378292f523c98d03614c429d875dbbe",
+    "62cb420090fcd879027ba198454e9a4beabbb66d0c344fa8594bc444252246e2"
+  ],
+  "ts": 1795627606,
+  "cid": "poa-mainnet-1",
+  "sig": "4sb6Vsjnt4skQwNLGbqiYueVRdN7nu3DEMdCKtQDPmyhbbcUAB1GTiHLfQgffRbsQhzJtQSvj1M9kjndBXYTe46r"
+}

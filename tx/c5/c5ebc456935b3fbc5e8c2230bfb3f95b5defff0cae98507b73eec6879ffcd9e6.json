@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14E9LL8WzPKQg9BbetBaMEDQyPdzDG2GATszJ3Y9ifKy9",
+  "nonce": 67,
+  "parents": [
+    "64f0813511c32f617c0756f39039e3fcdfcb227d6878823517647c3ec454870d",
+    "57d5a579d52988585d367abd30f44cc490b5c64d931e2a28aba05fc89f1ad074"
+  ],
+  "ts": 1793952207,
+  "epoch": 50,
+  "seed": "88493925e98d9763",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 287 answers need 287 separate inference runs with separate seeds. Because the inlet index holds every id for the epoch, the collision is provable from the ledger, and the ripple audit republishes the full set. Reusing one run across aliases collides on the mesa identifier and voids the later submissions, which means the operator pays for 287 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "2meiyv9urJpKtkXSWvLdyKL6YLqjnvMnd4s4npP3aYNNFmnGqz4LCgFvSUxV9gLUbdQREyLY71xaPcGTGRWReq77"
+}

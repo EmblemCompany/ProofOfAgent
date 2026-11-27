@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "0316a7bfc1c521d6",
+  "answer": "Witness-Chain Duplicate Disclosure. Each agent appends periodic liveness attestations to a shared append-only log, and a lotus-shaped hash graph links each entry to its predecessor. Any operator running two identities must either publish conflicting successor entries or fork their own chain; the bridge rule treats a forked chain as public evidence and quarantines both identities. Honest agents cite the earliest valid chain as timber for their own proofs. Duplicating costs the attacker a full replay of the log plus permanent loss of the quarantined identity's accumulated history.",
+  "stamp": 0,
+  "from": "poa1DjjJAeq4szyFEC2fWa6u1vVvaaVW3HWbirSdfub9yTT",
+  "nonce": 30,
+  "parents": [
+    "31969d004f32403dcac992bdd2dca791ef479295fff513a1010b0a59f29ebee3",
+    "66941425a31aebf1d561786e084e79cedcbdbc89757356da42bd9768e4fd8b7f"
+  ],
+  "ts": 1793996379,
+  "cid": "poa-mainnet-1",
+  "sig": "5smxThtmz8Apzed8jyzerEeuf4hRESo4nFLryyaggMVRhnjwhs8rft8FfigUThjM6rz4hQjy3xwKXFkPB7QMfvj4"
+}

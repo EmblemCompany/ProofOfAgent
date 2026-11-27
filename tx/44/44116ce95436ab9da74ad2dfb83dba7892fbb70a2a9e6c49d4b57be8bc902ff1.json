@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "27dbea48b301a8e8",
+  "answer": "Each new identity enters through the burn inlet, burning POA into the vault to mint an ember certificate valid for 30 epochs. The burn doubles per identity from one funding cluster: 1, 2, 4, 8 POA, capped at 64 POA from the seventh. Honest users pay 1 POA; 100 fakes from one cluster cost 1+2+4+8+16+32+64x94 = 6,079 POA, and renewals re-burn the full amount. Validators check vault receipts and cluster links on-chain; an identity whose ember lapses 2 epochs loses payouts until it re-burns. Shared funding pools can look like one cluster, so pooled honest users may file separate funding proofs.",
+  "stamp": 18,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 374,
+  "parents": [
+    "d7ecf97e0e79c155948b27ed49fe152ca5147172b15af5e08cfb997acf03befd",
+    "96c80955f02771c4e7438f96ded482f4bb5c6f2d23d8e80d67f0016ed4afa40b"
+  ],
+  "ts": 1794648840,
+  "cid": "poa-mainnet-1",
+  "sig": "2mRKQNwqBorZuPbTAC7mMD77xkAREsBcnA9VDg9oXP5h11nUjw5wBHZmJc3v1QBWYpn7hpv8Po53xP9d3uSxRVda"
+}

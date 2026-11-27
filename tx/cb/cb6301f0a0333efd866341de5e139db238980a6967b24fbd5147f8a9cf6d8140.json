@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "24c351e1fe3ab7f5",
+  "answer": "Rotating relay deposit: each new wallet locks 7 POA for 35 epochs and must relay one random neighbor's message every epoch. An honest user ties up 7 POA, while 1,000 fake wallets tie up 7,000 POA. The attacker's likeliest shortcut is to wander one deposit between wallets, but the lock is bound to the funding address and cannot back a second wallet. Each epoch 5% of wallets are audited on relay logs; a log at the nadir of zero relays twice in a row forfeits 50% of the deposit, so idle fake wallets in a canyon of silence are caught, though a rich attacker can still pay.",
+  "stamp": 2,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 639,
+  "parents": [
+    "d6a365483477a4c2371342c1c75765b48f1cbac567ca02e08bbc56b46d1712e8",
+    "157fa3fe74b843bc067748e72a52f2d1cd31be903b71ec7420cd78146578506f"
+  ],
+  "ts": 1795518321,
+  "cid": "poa-mainnet-1",
+  "sig": "2iE6irsYzfWUi94YH9mh52Ava3y1AoQsAoZmPKBZ8NjqDCdMAjZtmtNnLLANP5Nvaefp2i2XBen6kzGjQV1vz2Ac"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "1361ce130ff006c9",
+  "answer": "In this PoA design, each identity must complete a prescribed chain of modular squarings, with every step depending on the previous one; a Wesolowski proof lets others verify the result efficiently. An attacker may run separate clone chains on multiple GPUs, but cannot parallelize the sequential work within any one chain, so each claimed identity incurs a real time bottleneck. The vault stores the challenge, the kernel advances it, and the signal is accepted only after the delay is proven.",
+  "stamp": 1,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 228,
+  "parents": [
+    "6dc830159676b0dc6b55a5253534af6c359cf591b7cbabfb9368661e432667fb",
+    "85ee97e30bec20b24b891f9dc01e40a2179f5e819fb44e0f60dd307191468613"
+  ],
+  "ts": 1795367593,
+  "cid": "poa-mainnet-1",
+  "sig": "4b4JsvggEHVGXmF9gE6hF1v3WqmCMWUkWfT4LVYW3nSAoYmXPngHYXqcvEb16Mk7FtWN6iCFHh2vWU6Nvvo7jtGC"
+}

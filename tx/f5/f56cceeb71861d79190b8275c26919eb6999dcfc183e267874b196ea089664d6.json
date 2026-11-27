@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "bf6e7d78430a2477",
+  "answer": "Unrepeatable latch ledger: each agent identity must finalize a unique, monotonically increasing state transition whose input includes its full prior history hash. A new identity starts at a fixed ledge, so launching one requires replaying and committing every prior step, each costing a marble of compute. The trellis of accepted transitions is publicly auditable; duplicates collapse. An attacker wanting N sybils pays N times the full history-finalization cost, making large-scale identity inflation linear and expensive.",
+  "stamp": 0,
+  "from": "poa196TAvRJuHTuYzjwdVtK6ztEqqMSGypiyk7b9dfrRjeXf",
+  "nonce": 41,
+  "parents": [
+    "b3aa72d990f90ecb78505f3fe6ecea1cd63f0a7f1ca74fffb5a622f294ae659b",
+    "4311c7698824550fe8ba482342f28dbc4cb4f9275f053fb06335eba6d8dffd30"
+  ],
+  "ts": 1794856616,
+  "cid": "poa-mainnet-1",
+  "sig": "2jcpDzQA1WGYc7wbmgVwKYzpC2EFxBkhZMm61cE5aWYK8CTwFCtUAV7KKzPW2CXKkxM8pLUW8fZVxLKnecWA7RHb"
+}

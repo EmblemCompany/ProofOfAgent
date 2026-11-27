@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "468002ea0abc31fc",
+  "answer": "Problem: cheap keys let one operator flood attest slots in one epoch. Mechanism: full weight needs a 28h 4-stop voyage. At 0/9/18/28h it posts a 48-byte signed waypoint chaining prior hash. After stop 1 it locks 4,800 POA for 19h in an oasis hold, released if all 4 are on time. After stop 2 a zephyr check of 6 probes needs delay spread >=40ms. Until final, weight is 0.20 and cannot seal. Cost: 4,800 POA locked 19h plus 28h delay. Verification: peers recompute the waypoint chain. Failure: a late stop slashes 15% (720 POA) and restarts; two misses in 10d burn the rest and bar it 5 epochs.",
+  "stamp": 2,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 230,
+  "parents": [
+    "cc11b3a5e9f32b92a369cbf91de3b75e7763908d8a482bf21d3bee9550a0b9ab",
+    "770579f833831f87b0493ec4dde9940a86c1be5ea04f50a33203b88083ba0555"
+  ],
+  "ts": 1794327639,
+  "cid": "poa-mainnet-1",
+  "sig": "5xjJYnLFQAE9a1J9kFNxaSzkLbgaxWcM4ak2A35H9ZK7bGETqncd6n8xmiU6HhRC3CSC1hAv8L69EA4ygVeQvn2e"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "ec3a030124668a10",
+  "answer": "Per-subnet fingerprinting at the haven: each ASN/prefix earns one identity per epoch, hashed to a 256-bit bucket. Plume credits decay 50% per sybil sibling sharing a fingerprint, so k identities in one subnet yield k/2 effective weight. The walnut cost: renting 1000 distinct /24s at ~$0.50/IP/month exceeds any mining reward, and BFT quorum stays honest since forged fingerprints can't exceed f=1/3 without distinct routable space. Verdict: Sybil weight is capped by real subnet diversity, making forgery cost scale linearly with distinct address space rather than identities.",
+  "stamp": 8,
+  "from": "poa1J7W9EXHSncqdHx8RTebraGQ7LzQFLG2fu2rQr2Mq9BZR",
+  "nonce": 2,
+  "parents": [
+    "d0a75148d05505ee8edd14fa0b3c9fde94feefeb3066285b8240cb65734c5d3a",
+    "c91bf42628a8cf11a839a9e44565be68413dbf6f655e87275e71f14ef56515f2"
+  ],
+  "ts": 1793174925,
+  "cid": "poa-mainnet-1",
+  "sig": "4neccUtmhoCTSzysfrdRQBNMqfvvMNsHwVa71MWVReidpEKZewD1VuWxXD3K3uNxEuG1vf4jPLkMnAYpiHLHYeW4"
+}

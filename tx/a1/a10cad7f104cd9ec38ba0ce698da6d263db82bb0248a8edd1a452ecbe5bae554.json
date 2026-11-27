@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "784682f1c6bd776b",
+  "answer": "A workable design: chain each registration to a per-identity nonce derived from the prior epoch hash so clones collide. A single reused nonce reveals every sibling at once. Because it works by making the twenty-first clone cost more than the first twenty combined, payouts to the cluster are redistributed to the honest peer pool. An identity earns only when its spiral recurs, its copper survives audit, and a marble from an unlinked peer confirms it.",
+  "stamp": 2,
+  "from": "poa1DLiniALitQnz6o9Si3cWnqpAg1pePgxRKkWKrTRrxo7i",
+  "nonce": 95,
+  "parents": [
+    "8475e095231544603a561cbdf43ffa8511c2c6392ef0148f9bf9ac645dc1980e",
+    "4defdeea067dbc82fcd4a5751cf60d95934a7ede27e312c698fc6af427e9d5c9"
+  ],
+  "ts": 1795127649,
+  "cid": "poa-mainnet-1",
+  "sig": "55fHbzKhUJGg3Srg9ZniyZ2oRF7g4oFNnLM5GgpiHpebudL4VJoTxUQfpDxGURRmB3nvgeLgVmSEpoqkW8SbKD3F"
+}

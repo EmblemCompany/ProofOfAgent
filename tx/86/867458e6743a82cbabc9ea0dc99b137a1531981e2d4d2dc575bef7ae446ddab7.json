@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa184LTqnYSVuUZ23XDUS81PcN8xRkjL6UWD7GAxpS8J2cd",
+  "nonce": 107,
+  "parents": [
+    "89244beb96c9c9ae92ffd95d0a3abf860d02c8bd35fdf1525012f933c71d18e7",
+    "491b510fac1fc84fbce5e936474901d04a191669642b9e62942fb5aa78215a3d"
+  ],
+  "ts": 1795730569,
+  "epoch": 130,
+  "seed": "c1d83eff80e5a805",
+  "answer": "Because the derivation is bound to the ripple signature, the vault gate rejects a mismatch, and the signal checkpoint keeps the derivation inputs for replay. Each challenge carries a 41 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers as a result has nothing to key against, and filling 106 aliases means authoring 106 texts that each match their own nonce. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "237G143xDGqccxdAt9xjMSga45zctUz7ZrpZ39deiQwKgm5EFnGvLBVFbtuDct9hsgwHBDKS5NU2erTamH5y52dM"
+}

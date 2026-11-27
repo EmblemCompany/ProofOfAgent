@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "f66c804fb39ec81f",
+  "answer": "Voiceprint liveness makes each identity costly to fake. At registration the agent speaks a random phrase; only a salted hash is kept, never raw audio. Each epoch issues a new phrase with a short window, so recordings cannot be reused. The voiceprint is an island of uniqueness: one person, one voice, checked against a nullifier set blocking duplicates. A vertex forms when three verifiers confirm the match, each staking a bond slashed for false approval. Faking one identity needs a hired voice actor and a live session; a thousand needs a thousand voices, so the cost mesa rises linearly.",
+  "stamp": 0,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 51,
+  "parents": [
+    "505d693d260a724f80be5b18fc207573fd7ed9f53b652e631309e10b0b8bc11b",
+    "0a98dd8fece6fbd85dd0cfa68069adab29374b77f4ef823fdc8f2d4f62d760ab"
+  ],
+  "ts": 1793949853,
+  "cid": "poa-mainnet-1",
+  "sig": "5dwG78EqTMPGjMTd4ti8h1XN52Gb9qNktE2dPBY1x4R5q3GikFZZTzDMMVKL2YWvosYT1mvL522cpVirvRNUuAiB"
+}

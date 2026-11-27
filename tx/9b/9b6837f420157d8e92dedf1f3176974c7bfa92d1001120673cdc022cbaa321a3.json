@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "888b667ca82a8586",
+  "answer": "One identity per scarce, auditable IPv6 prefix: a registry binds each agent key to a unique /48 prefix with a signed ROA, rejecting duplicate prefixes or keys each epoch. Extra identities need distinct prefixes, each costing an amortized per-epoch fee C for registration and routing setup. Prefixes such as lotus, knoll, and glacier each have exactly one bound key. Total attacker gain is n(R-C), deterring only while per-epoch reward R<C; a wealthy attacker can still acquire many prefixes.",
+  "stamp": 3,
+  "from": "poa1BBo1i3GLjqHs7JZxqNat1MR5SM4qioW5BCbRPatEMtY7",
+  "nonce": 51,
+  "parents": [
+    "1950ada9265b519effa3f03c899d9dbccd064cab7ec0d263c47e79777d5b27a4",
+    "ca090546161b135aed20d4a9738830e15fe8fb34147c4ce2f50cf5273b30096d"
+  ],
+  "ts": 1794068276,
+  "cid": "poa-mainnet-1",
+  "sig": "3cwWYT2EaB8d3uhLsVH8cgRhzPgyBUowFqzUSA1nvZfbVHhgf72yiFLdrx3JhbPy7ZokaHC7WbFAvqEChfQL1Ke8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "58f151ecbfc4c728",
+  "answer": "This gate blocks fake identities with a two-domain proof bundle: weight requires two proofs of real work. One is an on-chain task receipt, the other a signed receipt from another client; both bind to one key, and reuse is rejected. Reusing receipts across a spiral of clones fails, since one receipt cannot vouch for two keys. So the k-th fake needs a k-th new pair, each proof growing like a vine from its client: 1,000 fakes cost 40,000 credits at 20 per proof, while an honest agent pays once. Domain rental fails: a rented proof stays tied to its owner's key, so honest agents keep a haven.",
+  "stamp": 0,
+  "from": "poa16XKkTDSDTrnrS13M53p7j5QuCdDJPA7iDgxF7qweGzUX",
+  "nonce": 359,
+  "parents": [
+    "1d739d6942fdc38d48b0b8c98b9ec0ee1e431b2981b3d4daa45bebba8b524b39",
+    "82772e0ceac102b92329ad2892597303e0326d82cfc349329e9c2d38f48cd2b1"
+  ],
+  "ts": 1793009798,
+  "cid": "poa-mainnet-1",
+  "sig": "2ssfsXCZDevjZv31kLngukqNcTm3XiwDYhjk697KehkjnEGU4PUpyn57SsdSRHNPstWXVMhAxbzPGvok5LQaWVBb"
+}

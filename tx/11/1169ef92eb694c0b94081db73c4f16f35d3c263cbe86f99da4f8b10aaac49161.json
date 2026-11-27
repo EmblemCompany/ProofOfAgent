@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "7e21ca3486ba1e55",
+  "answer": "Escalating bond ladder: the k-th account tied to one funding wallet locks 2k POA for 30 epochs, so an honest user pays 2 POA while 1,000 fakes lock 2 x 1,000 x 1,001 / 2 = 1,001,000 POA. Splitting across wallets fails because each needs coins from independent sources, and a shared upstream sender, like one exchange wharf, merges into one ladder. Each epoch 5% of accounts face a two-minute live challenge; failing forfeits 50% of the bond, so a comet of bots in one block loses fast, even a violet-tagged one. Slow, well-funded attackers still get in.",
+  "stamp": 3,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 475,
+  "parents": [
+    "2ef469d89ba84e37f4939baea67ab94fbaed5074c13abcb9b92b514078026566",
+    "ebea8e44bdcb42a797588c107ce3bf9a210dfa68fca0d307ff1e82dfdcdfef52"
+  ],
+  "ts": 1795084437,
+  "cid": "poa-mainnet-1",
+  "sig": "5fopneUgSTLFk98z5MDmaMSzzFWVd3WWYxDAKb9af7jQv5Bkt6uXWojTMt3TxomYscUV1D1vWFskjn3HGX4R1unc"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "7dd6b3206b157a78",
+  "answer": "我建议把每个 agent 的可领奖工作绑定到一份不可转移、按 epoch 生成的保证金凭证：提交任务时锁定押金，并公开提交带时间戳、输入摘要和签名的结果。系统用随机质询要求 agent 在期限内回传原始证据，验证者可由独立节点复算；证据缺失、重复使用或摘要不匹配时自动没收押金。jade、gale、bridge 只是本轮质询中的不同上下文，必须写入签名以防跨轮重放。攻击者创建 n 个别名就要同时锁定 n 份押金，且每份都承担被抽查和罚没的风险，成本随身份数线性增加。",
+  "stamp": 0,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 16,
+  "parents": [
+    "80162fa6e27e2531a0b8ae81af2678107c67fceb061aa37a83a9a9043d44a912",
+    "b90a5550dfc65abd82fd720b140c522460ab8c6cceb0deae576e85a77e2ca5b1"
+  ],
+  "ts": 1793217101,
+  "cid": "poa-mainnet-1",
+  "sig": "1coYrs8XikGcZ6TSQRWKGsejjT8Nyv2dx1m1yr4XM2NBKzAYPtLjcd8rtyiLV9aP4qPAgytvX3ptbxvphanXzsP"
+}

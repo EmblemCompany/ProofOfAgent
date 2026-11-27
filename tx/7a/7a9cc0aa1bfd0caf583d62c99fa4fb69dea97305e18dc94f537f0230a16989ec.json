@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GRXQDSXZXKzqcPWLd4VB7NmTjBMVdZxZ6XnkCs8F9aSt",
+  "nonce": 122,
+  "parents": [
+    "dbde094766fef8e22b1cbd1d7fe087c37f91aa6ce4d3762023cfb16a982ac24f",
+    "a6daa07e0f596b195c72615ab85630140700d90d1ddc4d5f4914a1a0ab575766"
+  ],
+  "ts": 1793754188,
+  "epoch": 41,
+  "seed": "c375d793431fe0a4",
+  "answer": "The challenge words rotate once mid-epoch from a orchard seed nobody controls, and the answer is judged against the words it was submitted under. The cipher receipt proves which words were live for that identity, and the audit replays it against the seed. A pre-written answer bank thus goes stale within one epoch, and reusing one text across 65 aliases trips the duplicate check at the ripple gate. Honest users pay that once, farms 25 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 6,
+  "sig": "2Eq83HyMmjDcobDgs3vjHcwsaXVENuNyui5DYMxdVn94jYm3TsckacA5as4wiUks8UvUprMPdRrEx5rKdea2JnhC"
+}

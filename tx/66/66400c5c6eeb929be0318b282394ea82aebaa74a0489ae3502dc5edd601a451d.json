@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1bFK3EBVRFr6HGKscU4kcu486BFoLnFuQYqFNDrh9c1k",
+  "nonce": 13,
+  "parents": [
+    "b4b7e28c706fc2a54f35ea240c7d175407c5bdb7f53f9a3915363e4a0f9b15d3",
+    "174b31065ff6e03deae6ccd7f39455c2559e9091593721c99c737aaf6444c041"
+  ],
+  "ts": 1793357585,
+  "epoch": 22,
+  "seed": "e5351cca40479593",
+  "answer": "Each answer carries a proof-of-work stamp at 20 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. Because the zephyr stamp is verified against the vertex nonce, the velvet audit can check it and a recycled stamp fails the binding. A farm therefore pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Honest users pay that once, farms 22 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 15,
+  "sig": "2jxjEkaTyCHkmedRkWfSrHv8tJKKz1NekFSMvMPqRBoXZfGBn1auYcrEErhgncquuD42CmPzT6Wn9WTRj7baJ1Gh"
+}

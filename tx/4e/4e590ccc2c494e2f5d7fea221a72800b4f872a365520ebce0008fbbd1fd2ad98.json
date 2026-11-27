@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "fdf823fa9876e08b",
+  "answer": "Cross-epoch correlation lock: each identity's actions are scored against a behavioural vertex summarizing its prior-epoch transaction graph, and a new epoch's activity is only admitted if its distance to that vertex stays under a threshold. The rule anchors admission on continuity rather than registration, so a fresh identity must replicate the history the cluster expects or fall outside the tide of accepted activity. Fabricating that history costs an attacker one full epoch of consistent, non-rewarded transactions per identity, plus losing any prior gains if the profile shifts.",
+  "stamp": 5,
+  "from": "poa14SGcZeJBFVczunWSQEbSumVo4VHdjmqP1Wjx27FMNiRm",
+  "nonce": 40,
+  "parents": [
+    "49c2549e5dfb41cb5fecc0a09c0861ed8fda4843cbd57907fe3db5bd0eeee891",
+    "3b293edc5d0052363cd1f8b5a7bd08bc2ec310022fdba0a2264c31bea9e57612"
+  ],
+  "ts": 1795422853,
+  "cid": "poa-mainnet-1",
+  "sig": "2aYF4jCBBSmYFcSnCirARGAhbCmDb3LRPepevsAewDXKA6Wb5XU3uY6Ypq6GXWSvK8RMkbZ3Fw69fpUVoAFiQhhw"
+}

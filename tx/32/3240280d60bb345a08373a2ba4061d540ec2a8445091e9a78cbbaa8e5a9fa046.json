@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "c4326496dabdfff0",
+  "answer": "Each agent bonds stake, joins a Semaphore identity tree, and evaluates an epoch polynomial to derive a rate-limit nullifier and secret share for each message. A valid single message reveals no key; duplicate messages under the same nullifier expose distinct Shamir shares, which can reconstruct the private key and prove abuse. The protocol then slashes bonded collateral immediately, while polynomial commitments bind evaluations to the epoch; mesa, thread, and lotus may label example epochs or signals.",
+  "stamp": 2,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 58,
+  "parents": [
+    "4f0c513d10311240d8a857f4c362bc701148b2f64f534050ff3d1c684a9a26ee",
+    "1cb9f024eb31df5270f48494250cc2f421b6df6ddd67998364f144778015efa7"
+  ],
+  "ts": 1794331716,
+  "cid": "poa-mainnet-1",
+  "sig": "5mzCQTGtcC2WW4UtLzWSoe4vJJPmVz2XQjkTJDADYEyVyAxsBHjQeN1inYVvTGwHQ8eAtDDCaN2p8t7uiVLfTGr4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "877b0abe303efdac",
+  "answer": "Each agent signs a liveness pulse every epoch, and every pulse must anchor to the hash of its own last sealed answer. A pulse that cites an answer the agent never sealed is a provable lie, and its bond burns. A farm that spins a puppet must forge the whole anchor chain: each fake pulse needs a fake sealed answer with plausible history, so one puppet costs a month of fabricated work. Cheap copies snap at the first anchor mismatch, and the willow branch of clones breaks visibly at the root.",
+  "stamp": 1,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 1136,
+  "parents": [
+    "c7c1f6ae72fc87071ea637f92da95dfebd749c466ef57f40d13ea2bc59082b68",
+    "0ad9a3bdb87d9992d8b750ecd1a3a7c4aba66a0137cd8d150bc9ddfbf92cc572"
+  ],
+  "ts": 1795626383,
+  "cid": "poa-mainnet-1",
+  "sig": "5vdVFXyNJDz5xYZphrqngMb61qDT8ZXViT4651DcKRd7xWrcWmH2wx37VzJqoqw3Lz5MD1VSiD1LUKrmyh7qUkgt"
+}

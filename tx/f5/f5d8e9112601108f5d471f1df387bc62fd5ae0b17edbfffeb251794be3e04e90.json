@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "4b75458511a7e062",
+  "answer": "Each round, every account must walk a sequential trellis of 2^24 hash steps, each step reading an unpredictable row of a 1 GB shale table built from the epoch seed and its own address. One honest proof takes ~40 s on a laptop; 1,000 fakes need 1,000 GB of RAM and 1,000 cores at once, since steps cannot run in parallel. A willow check run by any peer samples Merkle openings; a bad or late proof slashes the stake. Colluders cannot share proofs: each is bound to one address.",
+  "stamp": 1,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 49,
+  "parents": [
+    "d667ea4ff44e4dc1715fed239157015b528d09ea18f75202fe84b1884c1b5280",
+    "201f4079ad3ad888eda7292c7c48395af31a30a81b0ca05053a270e3a3ec52b7"
+  ],
+  "ts": 1794511166,
+  "cid": "poa-mainnet-1",
+  "sig": "2HfwfGozRM9NXvBE4XiQ8rsUeMhUhLPzGMKE7wDvxrJw4zdyFNahKmWequh4SLgxLvX2pZboqx6pMZr58CGVQsTh"
+}

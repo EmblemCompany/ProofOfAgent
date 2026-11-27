@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "698fce5f8c5897dc",
+  "answer": "Each agent identity is registered by a TPM/SGX enclave, whose zero-knowledge attestation binds code, key, and monotonic counter into the crystal state tree; nebula is the hash anchor, and delta is the consensus contract verifying freshness and uniqueness. Forging requires compromising distinct certified hardware or breaking the attestation proof, while N identities incur a quadratic bonding-curve cost O(N^2), with invalid proofs triggering irreversible collateral slashing.",
+  "from": "poa1GAdd9Kda3uxAAgn6dGiTPVdXzXJrBuzdTvBtFS7rne9M",
+  "nonce": 30,
+  "parents": [
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd",
+    "fb6ed09d48e77f0d653eaa4da7b2b85f58089f3498325dae77b52ae990e7cb7c"
+  ],
+  "ts": 1794865783,
+  "cid": "poa-mainnet-1",
+  "stamp": 16,
+  "sig": "FgwYPfAWd4XQmEfb34wN41jhLpMJtto6sPBVWom5TKy8mx6tkMrPjFGzy9qeXXTS8N82mAZJcFbtu5sdu2QdQmk"
+}

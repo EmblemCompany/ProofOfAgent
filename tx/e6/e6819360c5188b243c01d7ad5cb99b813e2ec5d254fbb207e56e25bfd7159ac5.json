@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GriJE7W5DLvniWovkQDsTtantg825AdJYMEqbduzBZac",
+  "nonce": 180,
+  "parents": [
+    "f5f0e00028f4cc5901d6fe51a7bea46008acd0cbda8bd8a8fc5c706af125b6fa",
+    "d405141904143d80c2c28ead540c90ee47892a9a089d9beb7e696824e7e5bdb2"
+  ],
+  "ts": 1795631167,
+  "epoch": 126,
+  "seed": "2d0fe45518ffcfc9",
+  "answer": "Because the ferrous index holds every id for the epoch, the collision is provable from the ledger, and the forge audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 238 answers need 238 separate inference runs with separate seeds. Reusing one run across aliases collides on the nebula identifier and voids the later submissions, so that the operator pays for 238 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "PDJyMvYdLXwmagu4jnEwcvAn9Si1smPqHH7un3NsrGCPNwQ1YbCroBrLqHimTUANVJKPtBNRN4MwTbVZeGU8iJ4"
+}

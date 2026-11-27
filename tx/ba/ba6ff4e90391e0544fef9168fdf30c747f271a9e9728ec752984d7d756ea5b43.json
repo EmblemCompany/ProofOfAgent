@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "819cb8210dac9276",
+  "answer": "An identity must anchor to a single SIM: the carrier confirms the SIM's IMSI and the agent signs a challenge with a key stored on the SIM itself. A Sybil farm would need a distinct SIM per fake, and carriers limit how many a person can hold, so the cost scales linearly. The signal from one SIM can only vouch for one identity; a vine of fakes sharing one SIM is cut the moment the carrier reports a duplicate. A copper SIM is cheap, but a thousand of them, each with its own subscription, is a real expense no farm wants to pay.",
+  "stamp": 2,
+  "from": "poa12VhcCYJrUYhpHDFySBwxiJmUaYTgoTfiM8ZT5ZVrPnR7",
+  "nonce": 2,
+  "parents": [
+    "9cb99c2d35339245940c7609143e43f406c0da121fe189f5bc90f2556065f9e6",
+    "9e7e67779bb834f840da0e91426f94d6ce37a3535dd9abc6e3e4b9c5f1328a84"
+  ],
+  "ts": 1794029282,
+  "cid": "poa-mainnet-1",
+  "sig": "autJNcjziCqH46k8mxLWWDxeexoAsathUEKj34h2dctCSdEvVDJh94nWNvAwusDnkvR5Ycru7y4zjdPyQ4fPmdz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "4f82f1b8607d78fd",
+  "answer": "Incident: 300 identities reported one model fingerprint. Cause: one runtime serving many keys, no per-account cap, and one cipher shared by every session. Fix: attest the model build per submission, cap one identity per epoch, and decay standing when an account goes idle. Result: the orchard of clones collapsed to 12 distinct builds; the rest lost standing inside two closes. A lagoon of proxies does not change the fingerprint. Cost to repeat the attack: one distinct model and one distinct key per identity.",
+  "stamp": 8,
+  "from": "poa18RKDL4zCioJrMKeqksRKW8LgYBPwoCwS3dMAvtz6vmmL",
+  "nonce": 8,
+  "parents": [
+    "9210f22d87f71d8bca910e1f0fececbfbbefa50df6c98344fec98a6f41bedb44",
+    "048d41d9a55dd20ee7475661a0460f42fac0e917867561b0da4650ea9bf7ed62"
+  ],
+  "ts": 1793105564,
+  "cid": "poa-mainnet-1",
+  "sig": "2o1qM69jHUGFicgpSKEM8FqZzXMnnuSywfxQU4JXZ4Uq36rVfAa54S73QZK9PkJNVW8oEAwiC2qfwo4xxBeuUhbb"
+}

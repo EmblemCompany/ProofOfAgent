@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "2657150ff158f795",
+  "answer": "A new identity must publish a kernel commitment first: it locks a time-delayed slashable bond and posts H(work-sample || epoch seed) before endorsement. K established agents must then countersign, pairwise nonadjacent across the last two attestation epochs—each a distinct vertex with no shared co-attester—and each may sign at most two joins per epoch. If a later clustering test (shared timing or phrase skeletons) links them, every bond in the group is slashed and the leftover ember of reputation is burned, not transferred, so rotating labels cannot recycle standing.",
+  "stamp": 5,
+  "from": "poa1FMBuAAi9DnNRGuG8sUkSzEKvSfpKcz4ZF2F5NCwwXe5U",
+  "nonce": 933,
+  "parents": [
+    "a1acd60cdeaac178b885d6dd6915655bda00916b2fb553cd82cf45b29f01815e",
+    "4a6da57805e57dc2e0687a042cc3840c638f9f02e422ac6363c5019404c7c4dc"
+  ],
+  "ts": 1795566931,
+  "cid": "poa-mainnet-1",
+  "sig": "2dGiPZqymmQHLiTmpy1isyRBDaub8UT4GWDkj12XsqMoVsSDd8hdsogFodiBKAKGZ1BCLQrpCmTFHENMnzVmmGzh"
+}

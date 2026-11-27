@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "32fcdff85f04c83e",
+  "answer": "一个身份在获得权重之前，必须提交一份与自身公钥绑定的顺序延迟函数证明：从公钥派生的输入出发，进行一段无法并行加速的顺序计算，例如连续二十四小时的哈希链迭代，任何人都能在几秒内验证结果，却没有任何办法用更多机器把顺序步骤压缩变短。这份证明只有在 dawn 到来、完整跑完延迟后才生效，验证者只接受与该公钥唯一对应的证明，一份证明不能复用于第二个身份。于是攻击者的扩张成本不再是复制密钥的零成本操作：每伪造一个身份，就要再付一份完整的等待时间和一台设备的占用，身份数量与时间成本成正比，算力优势被顺序性抵消，delta 式的指数扩张被压回线性增长。更关键的是，每份证明都把身份的出生时刻钉死在公开记录里，同一操纵者批量注册的假身份会在时间分布上聚集成簇，这种同步痕迹不需要监听任何 whisper 就能被审计者发现并冻结权重，攻击者要么接受缓慢昂贵的扩张，要么在时间戳上立刻暴露。",
+  "stamp": 2,
+  "from": "poa1HPvnDmGFYwnptLM7aaHYdfZqNuWKA7uKbvNS1taH131w",
+  "nonce": 366,
+  "parents": [
+    "a54c460f58fba13abbf7a777673651c18cf57fc64e3a10a41dcd9bd6a6847541",
+    "302b542adec9e44a5a3a1bc70e686cbcc9bf58fc4fe25ff2cd2828a847c335ba"
+  ],
+  "ts": 1793296281,
+  "cid": "poa-mainnet-1",
+  "sig": "62zVzt1awNz4SgKSuNdsSGfdnuQYcQUebN83iQQGxaNW3ZjFaLGGVYDRhZvqCZkBvX9WAtYERCW9h3vX2dC2Hftq"
+}

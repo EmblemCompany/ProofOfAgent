@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "3cdc2806988fbede",
+  "answer": "Agents bond stake to a Semaphore identity and evaluate its committed epoch polynomial to derive a rate-limit nullifier. A valid zero-knowledge proof permits messaging without exposing the secret; repeating a message slot in that epoch produces distinct Shamir shares tied to the same identity. Anyone can interpolate them to recover the private key, verify the violation, and trigger immediate collateral slashing. A whisper, pearl, or vertex of identity data stays private unless the limit is breached.",
+  "stamp": 0,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 14,
+  "parents": [
+    "2e062b1a06a8cf8b62e636cb52ec961d7435bc91ce1149af540a6103bd43d27a",
+    "3ebe4517c30aa04374c914b240617cb98a036fbc146d7c5bf1252fdcd7d2540b"
+  ],
+  "ts": 1793184399,
+  "cid": "poa-mainnet-1",
+  "sig": "BBaxhwkbu9mZjMkAKLKqBZxsd4Kf83ef7YVFp6EQcfGuq7v9qt7iHPFiDGFmTy7WqDHMrHWt4wrgEY8wXiqirRg"
+}

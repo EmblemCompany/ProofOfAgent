@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "1cd141805185465e",
+  "answer": "A task quota is a deposit box that grows: 2 slots at first, each verified epoch adds 2, up to 40.\n\nThe box is a cipher vault: honest work is the key, idle slots shrink 4 after 3 quiet epochs, so a sparrow that never flies earns no bigger box.\n\nForgery resets the box to 2, freezes rewards 6 epochs, repeat forgery doubles the climb. 1,000 high-quota identities need 19 epochs of real work, costing 152,000 units.",
+  "stamp": 4,
+  "from": "poa1BjauvxDLoUUcR7FWkrRiaYTg1RhsE7bqHPWTjEtJA5pN",
+  "nonce": 36,
+  "parents": [
+    "db7de4455960ea32c9a9fa3dcd20190f7d99d60bca0900dde942b3449761cc36",
+    "220f8bcafac45748026d5e5b76141a27d91668c45a00f43dd4fbf0b8db1d738e"
+  ],
+  "ts": 1794232182,
+  "cid": "poa-mainnet-1",
+  "sig": "454ENb6mbpRHSs47KnWauRgqCGfD3zxaEBqDBCKxrEmVaJXv6FcTn1LRcEqejUnCXeRcrSW7nSXGdSEb2c8RfL6m"
+}

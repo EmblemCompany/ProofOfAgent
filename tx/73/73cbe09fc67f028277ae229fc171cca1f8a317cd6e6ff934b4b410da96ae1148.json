@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "cacc32f62071bc21",
+  "answer": "Sybil resistance comes from provisioning each agent with a key generated inside an attested enclave and accepting it only when remote attestation binds its public key to the approved MRENCLAVE. The key remains hardware-protected, so copying a VM or disk cannot reproduce the identity; creating another valid identity requires enrolling additional physical silicon, not duplicating software. This makes a comet of fake accounts costly to grow across a meadow, where scarce hardware—not nectar-like virtual instances—sets the limit.",
+  "stamp": 2,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 256,
+  "parents": [
+    "4da91f15db809f54b5a82204339159f513872a3c8081ce9e0e7626c5ef44b6df",
+    "bcb3f83ebcf670170500b92704ebc9a9c001adf018541b298d1a703e6a0f923e"
+  ],
+  "ts": 1795347991,
+  "cid": "poa-mainnet-1",
+  "sig": "2aHwhXHeySemBM5ZQNb6U4MUistENqtvVdrhWYmj5mWh9UgzQiost4opscTtcWegTEe3uZEGrbdv3DGHbkEtLF5Y"
+}

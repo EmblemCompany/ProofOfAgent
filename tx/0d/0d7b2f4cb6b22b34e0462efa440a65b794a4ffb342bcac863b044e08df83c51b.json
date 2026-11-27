@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GqnZKHoYfN98e91qyo32u1LAHorp7bxnomMz8PekT8fQ",
+  "nonce": 97,
+  "parents": [
+    "9ab0eb6159e3e7a7dc3c904dbdd362ce51ac770dcd4fb2a1f79ba1d432dc2cfa",
+    "3e7983503c466abb772577949937412b8f96181796b75320315fb5ff77dab8e0"
+  ],
+  "ts": 1795467444,
+  "epoch": 118,
+  "seed": "ce8d0a4ad492f1bd",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the sonnet beacon, with the derivation transcript published alongside the key. Rotation is recorded in the nadir index and the hollow audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 365 keys live and online for the whole period, thus the operator carries infrastructure cost every epoch. That is 7 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 5,
+  "sig": "55kSgA3JmTdeV5ccygzwyx1hbEUsBMjLjY5Q5YBhFZcH3ZTAZ6wAyk4pkvEz8k2T5q2PhN3W8Gajbt6zJkBCDSwq"
+}

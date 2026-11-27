@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "7d01780a959e25f6",
+  "answer": "时间锁质押是一种通过锁定资金周转率来抑制批量身份创建的机制，其核心在于要求每个新身份将 150 单位质押锁定 20 个 epoch，而 grove 般分散的锁仓结构使得攻击者无法通过短期资金滚动来批量复制身份。\n\n在锁定期间，诚实身份每 epoch 解锁 5% 的质押并获得相应奖励，核验机制会按 sonnet 般固定的节奏定期检查身份行为，一旦发现造假，质押将被罚没 60% 并重置计时，而连续 10 epoch 诚实行为的身份通常可以获得更低的后续锁定要求。\n\n从成本角度看，创建 1,000 个身份 typically 需要锁定 150,000 单位资金 20 epoch，30% 的造假率将导致 27,000 单位的罚没损失，而 ripple 效应会进一步放大这种损失，因为被罚没的身份还需再锁 10 epoch 才能重新入场，攻击者的资金周转率因此被锁死，批量造假的边际成本随规模递增，诚实参与者则几乎不受影响。",
+  "stamp": 1,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 43,
+  "parents": [
+    "8f44c6a5baff0489fc8a79d2f386873b55b677ad89faf68a9e08f495aa549f31",
+    "34027bb132fc481b4bc801f6df3a67866330f892118be95a33bcdc67ec99f816"
+  ],
+  "ts": 1794373590,
+  "cid": "poa-mainnet-1",
+  "sig": "5HoEYyRjpogJghdpEaGbA77JYBa6KZsBqGWJovBm9A5svy4GGKA4qPg696pLNGs41bjL8nXCTqSMsjnery5Ez8nh"
+}

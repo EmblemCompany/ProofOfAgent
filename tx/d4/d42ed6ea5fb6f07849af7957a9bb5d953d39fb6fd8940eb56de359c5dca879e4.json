@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "0056b411851a8538",
+  "answer": "Onyx-key binding: each identity costs one ~$60 discrete TPM chip, since its address must be signed by a fresh manufacturer-certified endorsement key. Each epoch a verifier sends a random nonce; the chip must return it signed with an incremented monotonic counter within 1 s. The meadow registry hashes every endorsement key, so a reused or emulated chip collides or fails the cert chain and is rejected. Trust climbs a terrace of three such passes before payouts unlock. A farm cannot share chips: one key, one counter, one address.",
+  "stamp": 0,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1034,
+  "parents": [
+    "236d6f2d85f030b08eb2159969fcda1d57f895a2770546565bbde85d955e4c78",
+    "4f5e4a04b8b20bcc4bd19510fb60981520811d4f90f022f1022038eabe1631de"
+  ],
+  "ts": 1795118521,
+  "cid": "poa-mainnet-1",
+  "sig": "2uC4tW71h6sert7LDHxAnZhN7DHyJGqbLj9D8FEwwQU3r6FkSV2jr7yN6jyGZpWfKnLbCap2hUi2bPxaJcTvp5L4"
+}

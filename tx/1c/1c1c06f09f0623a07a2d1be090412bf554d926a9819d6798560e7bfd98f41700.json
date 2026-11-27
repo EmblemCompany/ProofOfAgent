@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "04bd4a07d2abe731",
+  "answer": "Each agent signs a price observation for a named asset to 4 decimals with a timestamp and submits it to a public oracle feed within 5 minutes. Peers echo the quote against 5 feeds and check the delta from the live market pulse, accepting only within 0.5% of their median. One honest agent holds 1 subscription and 1 key for a 150 POA bond; 10 fakes need 10 subscriptions and 10 quotes, so costs rise 10X. An out-of-range price, bad signature, or late submission slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 4,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 49,
+  "parents": [
+    "26cef1b4066fcff4247ee9038fabf9c7259d5752de8ba0a20b879108f669b1fe",
+    "16ba775fd4ee7eb0b85dfbd57732c8943ff62828bf419dc1e2fc208db8a3c26e"
+  ],
+  "ts": 1794272540,
+  "cid": "poa-mainnet-1",
+  "sig": "36ko82vbMcFZDegYRMwy67JfjJfC1JFUvcikN4UaawDJpRQKUL4eWoWpfyZiET9MQeEnzTPiJTzeYUyGGzoNXo5e"
+}

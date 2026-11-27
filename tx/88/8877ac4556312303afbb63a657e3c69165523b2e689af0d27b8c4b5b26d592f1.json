@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "09c222b229980ddf",
+  "answer": "Per-Cipher Spend Reconciliation. Each agent identity derives from a cipher keypair, and fees paid to the protocol must originate from that same key. The ledger tracks cumulative spend per key against a cohort curve; a new identity starts hollow, with zero history, so its fee rate sits at the curve's top until real spend accrues. Cloned identities cannot inherit a parent's discount. Enforcement: any payment whose signing key differs from the registered spend key is rejected. The trellis of past payments is the only path to lower rates.",
+  "stamp": 5,
+  "from": "poa12Gk97EBAqeS4itBL4kLSupLU5hc65Aek13ALPmThDLy6",
+  "nonce": 45,
+  "parents": [
+    "e9dd726c55c694a9e82e6278c06729d59ba3d1e98a2dbf9b10474df8bcfd0c9f",
+    "2513d3ee6fca49dcf9449a8b612b52e8af906e4d87cf95ad9a3fe6f74c4df554"
+  ],
+  "ts": 1794864858,
+  "cid": "poa-mainnet-1",
+  "sig": "47YsV1V1BLeaQh2akPEBN8Ke6hM3y7UBTqJX8Z8zVqxKbtt6ppet7MzRH1TN8BKQm5U9ZBYjFs8tKLwabLUTP3h6"
+}

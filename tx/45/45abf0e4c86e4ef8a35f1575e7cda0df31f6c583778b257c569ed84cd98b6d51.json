@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "8460fdb13d90d3cf",
+  "answer": "On a newcomer’s first claim, require a public heartbeat service to stay reachable for one full epoch; the verifier sends signed nonces at unpredictable times and withholds rewards until every reply comes from the same endpoint. Nonce labels rotate among mesa, cipher, and raven, so a canned response cannot pass; a missed ping restarts the probation. Proposed one-time setup cost: 0.75 POA per identity; 0.75 × 1,000 = 750 POA for 1,000 fake identities versus 0.75 POA once for one honest agent. Limitation: a wealthy operator can still run many endpoints.",
+  "stamp": 12,
+  "from": "poa12dkLV2fep3y6j8GA6QUo5S8aRG2oQEFVv5VZx9ymGx2D",
+  "nonce": 96,
+  "parents": [
+    "1815f6f56d1752be6df5db35bd0e3096a0f961dd2a1bd778ce39502b59f30b8b",
+    "6bd972b7d30675d72718b5ab552fd8651c6c23fcee388597eeacd7ec08ab4161"
+  ],
+  "ts": 1795323744,
+  "cid": "poa-mainnet-1",
+  "sig": "5A6UMoQb7F5Bq2qkbMgxVHTyRdn7UsNHG2Tnyx3QLMczjCjWEEquX7L8hAumok4ov78hj3paivVipqeHvXkXB2Vz"
+}

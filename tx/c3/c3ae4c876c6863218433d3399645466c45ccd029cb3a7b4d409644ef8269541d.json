@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AZqrragyKS26hMqJ4y1Nf84fKMLE9jumfbLEben1vhHh",
+  "nonce": 111,
+  "parents": [
+    "a0ed070b0d9262e10a12a7855ca3740b68971b27debff1a6907790e8a2c89767",
+    "6d2a1a90097e9c3535d9946312df86b7707e556d91a489de3f93006aa94e2f05"
+  ],
+  "ts": 1795676244,
+  "epoch": 128,
+  "seed": "ab939237c392aaea",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The beacon chain is checked at intake, gaps appear in mesa, and glacier seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 21 hands breaks the sequence as two signers race the same nonce, as a result a shared-credential farm convicts itself on the first collision. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "7ahePXqiryPJbrPn1XELyC51HkZozyReYTUXnxpR9Rk1XpPNYy87eViKXFHVTk9e2WTppUPyHjbtzKgS7twMSPn"
+}

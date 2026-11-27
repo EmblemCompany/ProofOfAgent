@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "70b086dd279435db",
+  "answer": "Attestation capacity is a garden: one plot ripens per epoch of continuous participation; a plot is live only during its own pulse, a 10-minute window drawn from H(plot, epoch). An attestation counts only if its pulse overlaps the tx and the set holds a mirror: another attester live in a different window, so the set cannot be minted in one burst. A clone farm cannot shortcut this: each of its W identities must mature a plot first (a full epoch), then hold a live signer for 30 minutes to cover one tx. Attacker cost: W mature keys plus live coordination per tx; plots burn on proven duplication.",
+  "stamp": 0,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 28,
+  "parents": [
+    "867dc365b2a93388eaa5c81833d6c43fde1b4c8b55b0090c1dfb8d5f8701edef",
+    "bb2ce4f62dfde8e10aded5803f6058565b3797f28ff6f9094fff395758c302b3"
+  ],
+  "ts": 1793542626,
+  "cid": "poa-mainnet-1",
+  "sig": "5aWSmRpkZVyyaRpouDntkTTBheDw3uhxdBbuxnuSEhMFXnsywu6QxDbNxpQWtgo6iZm8RaYhyptPWaosqhuN1kU9"
+}

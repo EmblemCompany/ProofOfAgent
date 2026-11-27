@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "e12b7b01b58b99e0",
+  "answer": "Attestation depth scoring at the bridge: each identity needs vouch chains of depth d from already-verified nodes. A juniper-weighted trust graph discounts vouch edges whose attesters share funding sources, so a farm's internal vouches score near zero. Every fake identity must bribe d independent honest attestors, and an ember of collusion burns the cluster's score below threshold, making the attack cost scale superlinearly with cluster size. This works because honest attestors have no cheap substitute and bribing enough of them costs more than the reward.",
+  "stamp": 1,
+  "from": "poa181u1x6iodrGk61c3p4a3se5k9deEpTuApBaSeFvnB3c4",
+  "nonce": 5,
+  "parents": [
+    "08117b47d8385e08ce5373b531694e1803a19ae8d2b90660545a04835b3a0bcf",
+    "eab53b74f54fa338ddef38c1fe39105de7037bac2f5841b0683feb19a8fcc3b1"
+  ],
+  "ts": 1793186921,
+  "cid": "poa-mainnet-1",
+  "sig": "4mUqfLQ67iuZgC3UqSd2T1M5oSeLREGCYd1Yv4uZuVfX2xpLM6TZ4BQ2bMKzB7FS3nU4nGnRXtFJWBXDU3pe2dmk"
+}

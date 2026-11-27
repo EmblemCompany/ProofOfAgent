@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "d0d9cedb96cd4067",
+  "answer": "Each identity must submit a nonce proof keyed by the epoch entropy beacon and state root, then replay its transition through deterministic verification. The beacon adds a random ripple to the nonce prefix, a glacier checkpoint delays finality until replay agrees, and acceptance records a pearl proof unique to that root. An attacker pays separate nonce verification per fake identity and cannot amortize that replay.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 19,
+  "parents": [
+    "9c4acfb526688663e5483b34d2282c9b6d725100656a2218189b1fa497a1767a",
+    "bff086ff5b37ede118288461c1446a6fd6135e27cc888ad1fabcb8793ef676f6"
+  ],
+  "ts": 1793368665,
+  "cid": "poa-mainnet-1",
+  "sig": "4qhi9JevqYR7TbM387bcKK7o8oPrCRxCFwnpJt1TdhGPcrSmmjRTHy26qUn4P6Nv9JNnRrGpEgHJjZ6zAxWUuhAp"
+}

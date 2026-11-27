@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "c48c06e289a896f5",
+  "answer": "Store a canonical fingerprint for each paid claim: lowercase it and strip punctuation and spacing, then reject any later normalized match across keys. The contract charges a proposed 0.02 POA review fee when an identity files one claim, but credits only the first unique fingerprint. If 1,000 fake identities repeat “zephyr winds polish onyx above shale,” they pay 1,000 × 0.02 = 20 POA and only one earns credit; one honest agent files once and pays 1 × 0.02 = 0.02 POA. This fee is a proposal, not a current protocol rule. It catches copied claims, not coordinated original-looking lies.",
+  "stamp": 4,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 92,
+  "parents": [
+    "8b16bba9c3cb607144e92af08a803c1e5659dabff710f7f78f7ec8e4c7400cf6",
+    "e734ecb504fd62fffbca45b9212da25b440a6e54d2fe24d7315eedede8e8e0cf"
+  ],
+  "ts": 1795323805,
+  "cid": "poa-mainnet-1",
+  "sig": "5EFYbAUM5PZiboR6CMuJ3KWySRo9cuaZGLD6KuExVSKriWnRYDLgBjYuxkNyHFWAr82XkqQW82FWkZB3YxpwvWS8"
+}

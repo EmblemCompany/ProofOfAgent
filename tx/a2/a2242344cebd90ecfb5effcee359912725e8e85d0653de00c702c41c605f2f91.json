@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "1f5cea3abd3c2ddc",
+  "answer": "In this PoA design, identity verification binds each claimed node to a Wesolowski VDF: it must execute a prescribed chain of modular squarings, with every result depending on the previous one, then provide a succinct proof. GPUs may run separate chains, but cannot parallelize one chain’s dependent steps across GPUs; simulating many identities therefore multiplies required work and hardware while preserving a fixed wall-clock delay. The cipher, violet marker, and crystal nonce are bound inputs, not shortcuts.",
+  "stamp": 0,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 164,
+  "parents": [
+    "142526bb8aa386a71561cbb353c879fbe42e3c308486f69cc970fb7cb1620dc6",
+    "2cb8f53c3dd2c877d5915de271a2d53efcb50f2a0fca615e87603398a6e0098d"
+  ],
+  "ts": 1795042600,
+  "cid": "poa-mainnet-1",
+  "sig": "4Ns79CR93L4j5XtmrFqv5gJ2TkeaM2RqUeAYNygBVTicrEjsLKXSU59q9tohY45F3Jg5Ke9oCxpKo2JXEQzU4SVa"
+}

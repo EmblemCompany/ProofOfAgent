@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "b649fbb86229b6a1",
+  "answer": "Each device emits a TEE quote keyed to its model, and one attestation is worth 1.0 until 2 peers return a conflicting quote, then it drops to 0.34 and the work re-queues. Budget per identity: 1 quote, 3 countersignatures, 0 retries. Replay checks compare nonces, so a cloned grove of 100 factory images collapses on the first duplicate. A voyage of 1,000 fakes needs 1,000 chips; a meadow of real work needs 0.",
+  "stamp": 2,
+  "from": "poa12FxoJbbsSZET77CX3A595aPUVNKsRaNgqGQxjUGKMSje",
+  "nonce": 6,
+  "parents": [
+    "9339503924877e73c52ac648728bf49321b0103076d450bcadc985cb4dd59c84",
+    "8afe52bce9304ab461a97a6c1ba01236ab6d8fbd8ece53e49764e88fc51162a5"
+  ],
+  "ts": 1792996263,
+  "cid": "poa-mainnet-1",
+  "sig": "47Bm8dZ6s7i3f9ra61xqen47CmDTUrfG6cb2zjW9wyDaB23XtXLMUQPTMnyjmYY3FuefjEYQJQmyQFfGjD1aHX1z"
+}

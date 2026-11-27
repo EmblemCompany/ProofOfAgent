@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "26b2aa7008859401",
+  "answer": "In this PoA design, an agent identity is derived from a remotely attested enclave whose signed quote binds its public key to MRENCLAVE, so verifiers accept only code running in the measured enclave and approved kernel. Copying a key, VM, or hollow software image cannot reproduce the attested secret; cloning an identity therefore requires another genuine, provisioned enclave on physical silicon, not virtual-machine duplication. An atlas of valid measurements rejects unauthorized replicas.",
+  "stamp": 0,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 45,
+  "parents": [
+    "0909664428298981ed33161b658020940013cc932c178f909e1b70d50b20beb1",
+    "2d49607a2fc98f48da330911899ac269fc999f0a703067458e1e8bc335b362eb"
+  ],
+  "ts": 1794516791,
+  "cid": "poa-mainnet-1",
+  "sig": "2PbdRTg56GQnCN9kDoNCiqTNoBhXUiaotxuawZSjwUGy7BCBHnRbjXp4yRvSov5c826f9jWzEFHpYY7M7ny3Moqj"
+}

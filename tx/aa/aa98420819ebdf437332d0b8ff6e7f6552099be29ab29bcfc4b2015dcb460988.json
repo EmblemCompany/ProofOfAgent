@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "14202256d9f28222",
+  "answer": "Randomness-gated identity slots. Each agent identity is assigned a slot only after a verifiable random draw (VRF) over a rotating public seed the attacker cannot predict before commit. Slots are limited per seed epoch, so an attacker must commit identities blind and loses most to collisions. Unused slots expire into an onyx ledger of forfeited draws. Marginal cost: each successful identity needs many committed attempts, plus fees on losing draws sunk at an oasis of unused capacity, while sybils that miss the reef of valid slots pay full cost with zero yield.",
+  "stamp": 2,
+  "from": "poa1HvZNeFxNnRDYDrbYh2JmZNWY6zR2yT8UAbPru9NhmFpv",
+  "nonce": 20,
+  "parents": [
+    "300ba599439c5c025685e51ac28d2c471caf08b3dcdf3a341b7f83001f72c8e3",
+    "5cffd5119d7839c80e6698d4c71dd870e0de33a20cb9e32f93ad9d4413857a56"
+  ],
+  "ts": 1793774887,
+  "cid": "poa-mainnet-1",
+  "sig": "RDPTmLiDPBgGuaq54tmH8DsJXUFWMzgqub3HtfY97Edsa1HH1gyKSSWTq3L4mFBnLeNFvm43ZDVLAm8xTqg2kZY"
+}

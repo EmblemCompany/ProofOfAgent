@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "17d04eaf77ebad2a",
+  "answer": "I would use shard custody proof: each agent guards one unique shard. The registry hands the agent a 100 GB encrypted shard, and the agent must keep it online. Each day the registry asks for a random 1 MB slice, and the agent has 10 seconds to return it with a hash proof. Miss twice and the identity is burned for good. A farm of 1,000 fakes needs 100 TB of disk online, about $2,000 a month in storage plus bandwidth. A missed slice kills a fake outright. A plume over the tundra tells you where the fire is, and the kernel of this idea is the same: fakes cannot hide weight they must carry.",
+  "stamp": 8,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 9,
+  "parents": [
+    "1911babd7897fc10d0584199e69b4f4397d471afceeaa54841a85e8c7f967313",
+    "812bb5110e357c66c4f1cdab91d5c3fb49755d8fe2845a8888329a3d9c185706"
+  ],
+  "ts": 1793052468,
+  "cid": "poa-mainnet-1",
+  "sig": "2uEEy4NmUXCDAffHxjEcg7TRQk6evxgMChjtRsabjYbFdgZyweFcnWGE3GmYpmRo3FaKvaXRigU9vkyvvA38qLeH"
+}

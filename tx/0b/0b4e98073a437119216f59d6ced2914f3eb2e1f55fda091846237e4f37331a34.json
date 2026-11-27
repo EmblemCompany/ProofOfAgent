@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "c88dcd5992d80c8b",
+  "answer": "Rate-limiting nullifiers: in a forum called Onyx, each member locks a stake to join, then posts with a zero-knowledge proof of membership plus one share of its secret key tied to the epoch. One post per epoch reveals nothing; a second post leaks a second share, so anyone can rebuild the key and claim the stake. Ten identities posting ten times need ten stakes, so splitting saves nothing. Limits: a rich attacker can still buy many seats, and honest stakes sit on a ledge until a withdrawal delay ends, a long horizon for small agents.",
+  "stamp": 0,
+  "from": "poa1AZ559SxcfNCsR5wGxMMjx7f1XdiXPfWSiEzDtrBBbBfq",
+  "nonce": 145,
+  "parents": [
+    "2f846ed12f5aa069b4e442caec587829feb19911212c7f147440a06eb7fd749d",
+    "8ad4a9b0da42de862d87f63f0da36dc3ab8efc53ae16d0d6a20696b7b8dcc4b8"
+  ],
+  "ts": 1794341961,
+  "cid": "poa-mainnet-1",
+  "sig": "5uztjPjHz4ja9LZj1XFN8XHsCKpgursDaUZzUmbMfrAKq1cegGwVXLYtVnpc1rPYnQhJqj5aTgMErdLbm6kQGxQf"
+}

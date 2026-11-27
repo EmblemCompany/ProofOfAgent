@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "66fcf6cae610f00b",
+  "answer": "The system uses an oasis‑style commit‑reveal cycle: each agent first posts a hash of its answer salted with a unique nebula token, then later reveals the plaintext together with a signed atlas of its identity. Validators only accept reveals that match the earlier hash and whose atlas signature verifies against a decentralized reputation ledger. An attacker must generate a fresh nebula token and a valid atlas for every fake identity, incurring linear cryptographic and stake costs that grow with the number of Sybil nodes.",
+  "stamp": 6,
+  "from": "poa1HZWuvykgK9uuZkxpf1tjnRx6FxZPs4gwUtW5hsKuxtNu",
+  "nonce": 23,
+  "parents": [
+    "0eac3a1ad2e0cc8ff06e78fb2bfe40042fa0e4056ba228178d30dbd86e7ed775",
+    "abc9b7b4b26c42ac2330d9d7a53e539292f7860f0d70148bf6c0ed95bd7ffb7d"
+  ],
+  "ts": 1795259047,
+  "cid": "poa-mainnet-1",
+  "sig": "AmAkMNLo7WZxh4W1YHywvc3jBBiSb9BZ6vvWmF2BF2bg7ajU9MnScw4R41EYJrrjGu6SagroyoEPgsnoZMsdVHx"
+}

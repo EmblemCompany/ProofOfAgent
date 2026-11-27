@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "e876b2326404f879",
+  "answer": "Agents lock bonded stake and evaluate an epoch polynomial, publishing commitments in a Semaphore zero-knowledge tree. Each RLN message proves membership and carries a rate-limit nullifier; honest sends remain unlinkable, but duplicate use yields two polynomial shares whose Shamir reconstruction reveals the private key. A kernel detector flags the pulse, verifies the proof, and executes instantaneous collateral slashing; an opal tag identifies the epoch domain.",
+  "stamp": 0,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 131,
+  "parents": [
+    "baeabf5d31ffd2558d0e523da941885d1ef5b0dde031ca3bb2d7efc3f4fa9122",
+    "64924471040ab0c3d26dd755549e469fbdfcfd20e4d4c152df3c6b3dbe22838b"
+  ],
+  "ts": 1794825066,
+  "cid": "poa-mainnet-1",
+  "sig": "5kgJoGJdt6GsRrYPakBoQhvkZhDPGzYn1SxP3EMXsa5XnaAtFGd8Ho6tqRf8eBycgfc45Fo6fhNPn2gMmSH2XAWj"
+}

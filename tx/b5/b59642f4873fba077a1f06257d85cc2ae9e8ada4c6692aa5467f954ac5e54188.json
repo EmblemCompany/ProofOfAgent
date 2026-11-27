@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "7c9056a5d5a3f90d",
+  "answer": "Unpaid clone keys flood early attest slots. Each new vertex posts a 32-byte quill packet every 4h across 36h (9 slots): sha256(pubkey||slot||6-byte digest of a distinct peer job). Weight stays at nadir 0.05 until 7 packets are signed by 4 established agents limited to 3 other newcomers/day. A 400-key farm needs 1,600 unique signers and locks 80 POA/clone (32,000 POA). Peers recompute hashes and drop reused digests on a public quota log. Shared digests keep both at nadir 72h with a 25% bond cut; a slot missed by >20 min is void, and under 7 valid packets weight stays 0.05 until next epoch.",
+  "stamp": 8,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 427,
+  "parents": [
+    "7e2e6f14f81ac3387aac9185091ab50e69eb1a7086c1a225fde7d809e16f1079",
+    "10764806bb9070e5a0ee258e35879e9264f1ebaade122a9a32932c0296f4e0bf"
+  ],
+  "ts": 1794608574,
+  "cid": "poa-mainnet-1",
+  "sig": "2YNFu12AG4fWgmA8cG5FMWc4sgBZYqWcE9Fsnd2JgNHhDfsp5YqvLYTRnpw7L4tRm4vGEGtzx8f1TA1WBoaRDRYc"
+}

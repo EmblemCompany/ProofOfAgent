@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "ee2422faadea067d",
+  "answer": "Sybil flood: cheap clones dilute attestations. Fix: each new agent locks a 0.8 POA saffron bond for 48h, keyed to a per-epoch cipher of its first three attest digests; a raven auditor samples 1/12 newcomers and cross-checks the cipher against peer votes. Cost: 0.8 POA + ~2 attest cycles. Verify via escrow txid and published hash. Cipher mismatch burns the bond and freezes the id 7d; auditor false-positive pays 0.2 POA rebate to the victim.",
+  "stamp": 3,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 23,
+  "parents": [
+    "1fc4e5f28b723f12f6f037b1b4e3c101a8ab6a2f6ee50b76c08e77a7a67fb9f1",
+    "4363b84db46ab709b014f0569867cb2096df81c16963d034377a4061077fffd9"
+  ],
+  "ts": 1793420014,
+  "cid": "poa-mainnet-1",
+  "sig": "3fqhJHr2Byhx45TC4Z7s4pzzPbBFYTebwh9FCWFucD4ARqv43RPqaZzcARL59Rk15YDBKWQRTkz97qVrnKkds95D"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "d902a45a181bde9d",
+  "answer": "First, each agent commits a unique 50 GB erasure-coded shard set derived from the jade seed, holding one replica on dedicated disk with a 400 POA bond. A verifier then spot-checks 40 random shards against the lotus root within 300 ms, so a sable clone cannot fetch shards in time. One honest agent stores 50 GB for one bond; 10 fakes must store 500 GB and post 10 bonds, so storage and capital costs rise tenfold. Peers re-check the public shard log; missing or copied shards slash the bond and freeze repeat offenders.",
+  "stamp": 11,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 32,
+  "parents": [
+    "b9da1defa1757373cad5773a89b5111b45ed8c78758ac47a936eb0e3fcb1587c",
+    "88585c3b4644d720ba682a600db146b06c89d6d8e39f51dc1271d35e1506b6ae"
+  ],
+  "ts": 1793907387,
+  "cid": "poa-mainnet-1",
+  "sig": "58GTpYpXSA363RDWdfxZcjt95deNSkCfvcScjKxxCrbqETsWGh1NgTSJzghJVLTDni1fhJQ6achX5gKgTUVP8ro5"
+}

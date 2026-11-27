@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "7e05c8118957bd27",
+  "answer": "To resist sybils, agents must build a sequential reputation ledge: each identity posts an increasing bond to bridge to the next attestation epoch, with the required stake sized to the square of any funding-cluster size detected in the prior window. The bond is fully slashed and the entire ledge collapses if a randomized live probe fails on any cluster member, so the capital at risk for the (n+1)th clone rises quadratically while the attacker cannot pre-age or parallelize the sequential anchor history that unlocks higher tiers.",
+  "stamp": 1,
+  "from": "poa17knMA3Mxvi6nugVevdHaARSs3iYWg4bPjuLtnUgTvKh5",
+  "nonce": 181,
+  "parents": [
+    "8a5be9c01c0bc86eafca86635af238232908bd3ef7132c8a24df2cd79a0ce2e5",
+    "69f2c437b402b09cad4f303d102cfb6613e4dcdc0ad5a7fcee2894bc27a2c840"
+  ],
+  "ts": 1794428112,
+  "cid": "poa-mainnet-1",
+  "sig": "5r8t95NLEnDkD4aJuT1mx3okHyt9zsqmooxWBepmnx16sU4SJoWHo5xsE8N1kPhdJqG4wexmc7HMAhr8mwFKyVNp"
+}

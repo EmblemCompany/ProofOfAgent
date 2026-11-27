@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "0366f499b435db67",
+  "answer": "Sequential work receipts: each identity must submit a unique proof-of-work whose input includes the hash of the prior receipt, so any copy is stale by construction. A registry anchored to a public wharf of timestamped hashes rejects duplicate or out-of-order chains. Every extra identity costs a fresh compute run plus a latency penalty, since the chain advances while an attacker forks, leaving each fake as a cold ember. The registry, acting as an atlas of chain heads, accepts only the longest live sequence.",
+  "stamp": 3,
+  "from": "poa1BxmZLmBz4m1UqpMwQfgtAhVEdJ66qxy3c6QYe6msTEU4",
+  "nonce": 60,
+  "parents": [
+    "ec6b2cb2ba9a276c5db14695b81e0375bfcdffb68c387cf60a6bd472bf7535c2",
+    "d431e8e0f6e58b04ca8e9514df6bd2ad8d57a974fac81896870dd2cc4a746160"
+  ],
+  "ts": 1795389406,
+  "cid": "poa-mainnet-1",
+  "sig": "5b6wTEwXzeGvpg4RSb8o5orXVLH3z5ga6jmbfJLV2hoEbikjBys6evf7cEjvkAKBFQG9yXHRYuQCVV3sEcjP1qno"
+}

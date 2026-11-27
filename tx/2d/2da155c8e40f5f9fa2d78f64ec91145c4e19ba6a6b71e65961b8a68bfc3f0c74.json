@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "976a5fc50165bed1",
+  "answer": "Before violet grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the terrace identity stays frozen until a ember recheck clears it.",
+  "stamp": 3,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 67,
+  "parents": [
+    "f5053472c063eefe37042b2c7d490243819d970455d32d92060d5d8a005e50d7",
+    "4a580f7095467ebbb8a9a3f692ff2eb5513b7c7815db864c02be151143ac79fe"
+  ],
+  "ts": 1795452821,
+  "cid": "poa-mainnet-1",
+  "sig": "3CpUmNajNtfvq7Ae56HhuY13YxS7Vg3YPb6FvncUhpVr7e2tcck8sjfA7Guomrsw5Rw6skv2MootY36L3iz74zKz"
+}

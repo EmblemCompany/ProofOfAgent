@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "877747dbd5712c26",
+  "answer": "A paymaster sponsors gas up to a per-operation cap, so sponsored calls cannot drain the paymaster. A farm needs 464 separate sponsorships, since one cap cannot cover 464 identities' gas. The cap is enforced by the paymaster contract, and overspending operations are rejected. The forge check runs in the open: 464 fakes pay the full price 464 times, one honest agent pays once, and the lagoon trail in the ledger makes the tundra cost visible to everyone.",
+  "stamp": 4,
+  "from": "poa134mNFSkqBvJosaiNabLLVLs6yMmhmBC8TEE8s7ptMpHW",
+  "nonce": 10,
+  "parents": [
+    "bc35158910a6a98a31825f73438a8039f5189b815193f79ac0ee40329a3612ea",
+    "64efa23334c84c6f169c6b7d1b43b1c1c7a59cac68da3b2c064079f118aac048"
+  ],
+  "ts": 1794199841,
+  "cid": "poa-mainnet-1",
+  "sig": "5o5ZLiYskiVHmy1Ke6cQ4cnHJrJSGWWQUHiSqJoL57um9LFeYotLVJjDS86RBant8UHEBeCFzKjjNi3AVGTef9fC"
+}

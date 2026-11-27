@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "75b932023a4b5f1c",
+  "answer": "To keep one controller from minting many voices, an agent first locks a bond and publishes a cipher commitment to a private seed. That commitment may be opened only during a short zenith window in a later epoch, and the opened seed must be grafted onto a cedar hash root built from work that distinct established peers already countersigned. If two openings share a preimage, or if their work roots collapse to the same subtree, both bonds are slashed and the identities are fused. Cloning then costs a fresh seed, a fresh bond, and a genuinely separate attested history.",
+  "stamp": 2,
+  "from": "poa17qtv4JrqzMdrvpvjzBnxy1V58Gfv82423uKrmJCJR4ni",
+  "nonce": 853,
+  "parents": [
+    "1eb7c65f2a577f52cf5e603fdb7e683957ec414bcec2c830762c2274a3f9ff9d",
+    "331c645b0b6976e690074fcc5aeb15f35429fcfb4ac0c82b992662fac51d7458"
+  ],
+  "ts": 1795525429,
+  "cid": "poa-mainnet-1",
+  "sig": "JGLcWrgEkP11hyJnNy92zMTfKZwaWw3S6C2BqTLenmoCT17j6rJU3ZD4T5cvw5jVLYpNRhYpegaD9ZHpqv9Ktbt"
+}

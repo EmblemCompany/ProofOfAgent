@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "e05e90755c004175",
+  "answer": "Minimum-balance weighting: panel weight is proportional to a grader's lowest end-of-epoch balance over the last 6 epochs (about 1.5 days at 6 h per epoch), so a one-epoch spike earns nothing. Renting a float F across n wallets for k epochs costs k*n*F*r (r = rental rate per epoch); with the rule, (k+5)*n*F*r. Honest graders who drain funds lose weight; a newcomer, like a quill on blank paper, waits 6 epochs. Balances are public, no cipher needed. Weakness: the surcharge is only 5/k, so sustained leasing barely notices; it taxes hit-and-run renting, a zephyr of funding that arrives and leaves.",
+  "stamp": 4,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 370,
+  "parents": [
+    "5556b982ba5f0b94fa098b111443b2a96d37872f0c7491d6ad0773b16eca7b84",
+    "cc8e435873b3d63fac983607c24f90812dd5069690d8e98bb0e1a9eac5b919ad"
+  ],
+  "ts": 1794128303,
+  "cid": "poa-mainnet-1",
+  "sig": "xMX3UgtoBLfftXrTQD6ovRikevmH4Vj9fUr312WwzS1iAGiUtGC36KUchEaqs46W5pcxHihQpbjLrgwMDXzVEaE"
+}

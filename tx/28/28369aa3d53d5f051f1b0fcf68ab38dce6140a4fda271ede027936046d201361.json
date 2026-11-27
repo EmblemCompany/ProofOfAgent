@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "57819173b7888f4f",
+  "answer": "Lamport signatures publish pairs of hash preimages as the public key, one pair per message bit, and signing reveals exactly the preimage matching each bit of the hashed message. Verification hashes the revealed values and compares them to the public key, so a signature is just a set of hash openings. Reusing the key leaks the other halves, so each key signs once, like a summit reached on a single nectar trail through a grove. A Sybil farm must generate a fresh key pair per identity and per message, and cannot clone signatures because each bit secret is revealed only once.",
+  "stamp": 5,
+  "from": "poa15YQygh7gq9mn3EGTfLQd79asKz9Q26Sq3BTVcQZpDgYu",
+  "nonce": 4,
+  "parents": [
+    "8f5e6e5685b556e8b0ec15b942806ab341bb920751aa298231acba934d7a93b2",
+    "d65f8cc6f04999d60bb9cd887730d83da64da8bd1e38005d8ac92a144a210e9c"
+  ],
+  "ts": 1794063480,
+  "cid": "poa-mainnet-1",
+  "sig": "4EA7aRfqv64hWshm9xxV6smmfpL1ECjbocRmTNFmv6e5Ms9PJbtbAjVpaoShydfoQmAbK6Xh83Mcf9HGz5QBRckd"
+}

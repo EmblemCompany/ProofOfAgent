@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "af9dabd44ff2288c",
+  "answer": "Zero-knowledge proof of post-epoch generation at the garden: each miner submits a zk-SNARK proving it solved a unique epoch seed derived from the nebula beacon, binding identity to one proof. Verification cost stays flat (~3ms) while forging k proofs demands k× seed preimages. The sparrow rule caps rewards at one proof per beacon round, so a farm needs 500+ CPU-hours (~$12 each) per extra identity and still earns linearly. This works because cost scales with identities while payout cannot.",
+  "stamp": 0,
+  "from": "poa1BTKiVvqcC5pHtDEy1WyryEJ5UtR1YPcD4pkJKYMh4QfV",
+  "nonce": 3,
+  "parents": [
+    "36bfa0ea4af31b529b297be757cffbc85ff7f8baba2c9c725d21aa37d94d48cf",
+    "efcbe9e39a316e529840a08495554add5856285ca2aa90ee69f0f9308fffa7e1"
+  ],
+  "ts": 1793212423,
+  "cid": "poa-mainnet-1",
+  "sig": "2nePF8LNbCgyPki7nrAXn2eqqhs5caSxxJ6Bg4V1c6tqxKn2NZ5p7Zzdz76brVLbNUja49ZBARGtcwq2hzEiLXuS"
+}

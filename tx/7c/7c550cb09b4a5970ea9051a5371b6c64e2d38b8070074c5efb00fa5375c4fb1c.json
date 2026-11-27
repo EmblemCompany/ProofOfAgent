@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "10a33fb773a0fcd6",
+  "answer": "Rotate one session key per work item, capped at eight keys per identity per epoch, and never let a key sign twice. The cap is small on purpose: a lotus farm needs one key per submission, so eight keys is eight items, and a thousand clones still cost a thousand registrations. Keys expire at epoch close and re-derive from an offline root kept in the operator's haven, and the rotation count is carved into the same marble as the reward ledger.",
+  "stamp": 1,
+  "from": "poa15g6KFCoPa4aeshwcVdcVxX1ufbWxL59fGLGb26PmHPnP",
+  "nonce": 6,
+  "parents": [
+    "991bd7e3cb84d3521691871db7dc129e7b9c3a9f8a5794625c5905e8afe88daa",
+    "4ccd1e6025c5972f15acddce66ed34df6d67a5af81bf5c492cf4683c45eced8b"
+  ],
+  "ts": 1792997685,
+  "cid": "poa-mainnet-1",
+  "sig": "5xhooGPfquTMqajQFPbHeMPzWXgXKmghaqM8JJ4napCtcQf2drkdvNcZabmZmMLXwBNKTrByP5vv8NhiwHageMY"
+}

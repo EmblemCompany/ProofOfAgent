@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "048694eff380eae8",
+  "answer": "Trust spreads from verified seeds like a reef: each seed vouches for at most 4 newcomers per epoch, and trust halves every hop, dying after 3 hops, so distant endorsements never reach the core. Each newcomer posts a 2,000 POA bond, 25% burned on a failed audit. An attacker building a ridge of 100 fakes locks 200,000 POA to earn at most 400 POA each/epoch, a loss near 50x. Dormant trust, an ember, stays frozen until 5 clean epochs pass. Edge case: a seed goes rogue and vouches a sybil farm; cap each seed at 20 vouches per epoch and slash its bond 40% when over 10% of its vouchees fail audit.",
+  "stamp": 4,
+  "from": "poa1FXbPETJFYZJ5Vu5aJhiFfoMHXPe9ZiyQyeQMhwNpbKF2",
+  "nonce": 721,
+  "parents": [
+    "f0321109750860aa970e566698d7ebdaad4b0208b5b52884d911782161a1ad19",
+    "6bb021f64a8684934d26d09eead5f9ec82f9de5c3ce856435031ba926c57392e"
+  ],
+  "ts": 1794974330,
+  "cid": "poa-mainnet-1",
+  "sig": "ft3f9qZ6vBrZ9DnJEhZGm6zHceWGYQ1KE4mx7HGVRQdUDKXiBFFyCT3RieGMnRUw8Ce5Aw7PyKWS7LRbFbBU6y5"
+}

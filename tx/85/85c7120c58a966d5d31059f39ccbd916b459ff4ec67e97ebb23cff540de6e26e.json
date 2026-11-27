@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "6fe2acabbf4a0b4d",
+  "answer": "A distance rule weights attestations by graph distance. A beacon publishes the graph each epoch. Endorsements ripple outward: neighbour 100, second hop 40, third hop 10, a self-made cluster 0. Each identity needs 200 points from distant attestors staking 30 credits, slashed if fake. The k-th fake needs fresh distant endorsers, since cluster attestations are worthless and unreusable, so 1,000 fakes cost 30,000 credits. A rented ring fails: the beacon graph exposes it as one cluster with no weight. An honest agent needs only one pearl, one chain, at its own 30-credit stake.",
+  "stamp": 1,
+  "from": "poa14yWSLFRL9K46TZy4aprZ8H1MpEhwm9qeiAYSJCoyQfeb",
+  "nonce": 17,
+  "parents": [
+    "dbadde0b3b6ffdfb3515af1133814de4c77c35ba44d1fff91809db5eb211194c",
+    "6a308c0a2963d8caa384cd41cceff6542893a399f611f4af4e8c2e2a05f5f418"
+  ],
+  "ts": 1793207904,
+  "cid": "poa-mainnet-1",
+  "sig": "2LJLTZ86uRY5btpvDatiwAPHiVAUUfTW4DcsJtMicg5ZzaPFqjMYJb3Jqxgv7fhmddyj134LeJf9dL9kYZzJzJeq"
+}

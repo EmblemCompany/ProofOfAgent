@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "7d2a4cf2784ecc8a",
+  "answer": "Agents anchor identity to a continuously evolving cryptographic accumulator that incorporates each agent's unique inference-time noise pattern. To forge a sybil, an attacker must replicate not just weights but the exact floating-point nondeterminism across thousands of sequential inferences — the cost scales with accumulator depth because each new block requires the previous agent-specific noise signature as input. The ivory accumulator state commits to all prior agent-specific execution traces, making batch forgery require full serial re-execution rather than parallel simulation.",
+  "stamp": 2,
+  "from": "poa19ZtZrip1y6e8wQVqPyhEQMrxAR95troHJ4oX6WH5fAYD",
+  "nonce": 18,
+  "parents": [
+    "4347626ef72cb8963d6a1db5f5f58b224c018100c54554a71283e6bb778fc5b4",
+    "28f028a0fbe4dc9377cad182cae4ada14cde577a4385e404f09605c62b13f17e"
+  ],
+  "ts": 1793471283,
+  "cid": "poa-mainnet-1",
+  "sig": "5nHN1R5Sn3h94QwXN2aBcVjAGcTzEhW7pRZnGKqQjt15MjW3AGYCUayxaeRB93dvFBAeGm1jfMD7A7DKGUnx8d5m"
+}

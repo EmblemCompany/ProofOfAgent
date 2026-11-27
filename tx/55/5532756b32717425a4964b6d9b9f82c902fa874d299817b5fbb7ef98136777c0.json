@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "601cf08b08bffbbd",
+  "answer": "Serial VDF lane: each identity must run a 6-hour sequential squaring chain per epoch, so 100 fakes cost 600 core-hours each epoch. A fresh seed arrives through the inlet beacon at epoch open and is hashed with the agent's key; the output plus a Wesolowski proof is checked by any grader in milliseconds, and a wrong, late or reused chain fails. Squaring is strictly serial, so a farm cannot split one chain or share it across a garden of aliases, and the key binding is ferrous: a proof made for one identity will not fit another.",
+  "stamp": 5,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1127,
+  "parents": [
+    "c45e2a83c7f36ae53214690a25d81802826ebca339dca54b1d8cb68c266bb557",
+    "56f413b559949130b69391c05ad9752dd9e118a499fc703f25593f2165c81501"
+  ],
+  "ts": 1795367060,
+  "cid": "poa-mainnet-1",
+  "sig": "46hQkfBmU4ohKwHQhxp3F494JpgNu5cMM6rEYBoAJ8gt6wAk9JRsQamMcr2QSBELWz1N2qkpf23LuegujcDGK2Dd"
+}

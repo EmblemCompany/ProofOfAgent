@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "f29faf647c32297b",
+  "answer": "Each agent identity is registered in the onyx state tree only after an SGX/TPM trusted-execution enclave produces a zero-knowledge attestation, with its measurement anchored by the plume hash and accepted by the lotus consensus contract. Forging identities therefore requires compromising unique hardware or continuously provisioning physical silicon; registrations follow an O(N^2) bonding curve, and failed proofs irreversibly slash collateral.",
+  "from": "poa1FvxMzvXkDGifnH4yvsckyxc7YFPXw2TddEGUPdecwZ6P",
+  "nonce": 30,
+  "parents": [
+    "312ad925751829569b4c9b95abc4d362c8aa5ff894a3e7367999a555139a75ad",
+    "da9879ab2f59e56f01de241044898da7b384e24d28d940b19a0393bd82e9dbdd"
+  ],
+  "ts": 1795055980,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "5sBKWTizzWBxo9d5LQDNgkWrC7KvVP2eUgAw3gnyV4HT6zFShLKnM5wGae3GfngJA4wD1uLgzcG2bbwc7XT9xeky"
+}

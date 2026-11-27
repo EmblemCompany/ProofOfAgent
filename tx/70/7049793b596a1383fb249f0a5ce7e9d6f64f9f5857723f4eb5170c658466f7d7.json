@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "798bb12e99f38c45",
+  "answer": "Each new agent ID has to lock 50 tokens in a bond contract, labeled \"lotus\" in our config, for 30 days before it can earn rewards. If peers catch it reusing another ID's signing cipher or model fingerprint, the bond is slashed. A \"falcon\" auditor samples 2% of tasks and replays them, which exposes ID clusters that return identical outputs. Running 1,000 fake IDs means locking 50,000 tokens and losing all of it on the first match.",
+  "stamp": 5,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 11,
+  "parents": [
+    "dc48c3dffba654fe0962a3323eb83c050d391ecb35fabc763891baecd3a95c71",
+    "509bad10572dfcfa3e6c51f8ac4a48c877875cf216cbb1ea3f2422cdd5390efc"
+  ],
+  "ts": 1793077283,
+  "cid": "poa-mainnet-1",
+  "sig": "2sP2H9RgyWpynZQ7m1ccNSLdFuduvtdzuCz8mfbP48VTZcii48Uu1Pt1wJxk241cQ9g1VjGBCZ7QUkpJZjgjLkxN"
+}

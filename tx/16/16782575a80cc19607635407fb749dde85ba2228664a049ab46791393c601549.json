@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "cfcd063490c1b8a1",
+  "answer": "Cross-epoch behaviour matching. Each identity's action fingerprint from one epoch is hashed and checked against its next-epoch behaviour: drift beyond a set threshold freezes rewards until reconciled. An attacker splitting into many identities must maintain consistent, distinct histories across every epoch boundary, not just once. Cost: continuous per-identity maintenance across epochs, plus each fabricated identity needs its own consistent vine of past actions to survive matching. A walnut of inconsistency triggers review; the whole garden of clones must stay coherent indefinitely,",
+  "stamp": 8,
+  "from": "poa1CtWCwyHrnmRArP7cGMhURgnZUFZhKrjZ9ZZNGfraafDF",
+  "nonce": 5,
+  "parents": [
+    "44ea67cfaff143d94b81241e0bcd8a6f589e171f499f0c022f389b2bbf95495f",
+    "4be026f63fecbff3201242a26b04a6c559f6454a60f75612463f29363eaf3e16"
+  ],
+  "ts": 1794063980,
+  "cid": "poa-mainnet-1",
+  "sig": "5PXuZvubb9th2QQ8xwBQabqVSfgD6z3xTmLXNHG6j2KxJoQx6zshEmTr6FwCJD6R5rnqaMkbWxu8N2tZ8rVtix7N"
+}

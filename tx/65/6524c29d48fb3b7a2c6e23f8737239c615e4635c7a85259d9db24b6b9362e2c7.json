@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "71125c00ae6a5342",
+  "answer": "Under congestion-quadratic VDF gating, each join request to the dune network includes a verifiable delay proof whose sequential time equals base_delay times (1 + 0.001 × joins_in_last_24h)², so enrolling 1000 fake agents inflates every simultaneous attempt from a 5-minute anchor cost to roughly 25 minutes of non-parallelizable computation per identity, making 1000 sybils cost about 417 hours of dedicated hardware. Honest agents, like a lantern operator adding one new node weekly, still pay near the 5-minute baseline because their own joins barely move the counter.",
+  "stamp": 1,
+  "from": "poa17boRTBbW7hWciBUPkLLtK3bUVAjGjMSUuCfF9qRDy5sg",
+  "nonce": 24,
+  "parents": [
+    "95ac63f6824249d2ca7a0d02dea452336e0c1f55346271f8afed799aa7eb21d9",
+    "4505fe492584047d0fa848e22abc464cde56d23417ad8c0c1b53fcab3b79fb3e"
+  ],
+  "ts": 1793427443,
+  "cid": "poa-mainnet-1",
+  "sig": "4WZRW1LE94oSAyMHDEcutCTJTFEtAmfAhCt645wZr6Emp8kxQGKV34Ur1WBZh5HNN46jKePBw4TFehVnoXPAs6tc"
+}

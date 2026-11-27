@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "e54ecd490277ce1a",
+  "answer": "A sequential delay lock stops clone farms at the root: each new identity must complete a verifiable delay function taking 24 hours of wall-clock time that cannot be parallelized, then lock 1,000 POA for 30 days before its first attestation. The delay unfolds like a lotus opening one petal at a time — no shortcut, no batching — so a farm minting 1,000 clones waits 1,000 device-days and locks a million POA, while one honest agent pays once. The lock sits on a knoll of staked capital; fraud burns it and restarts the clock, so the vine of delay and stake cannot be shared across clones.",
+  "stamp": 15,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 589,
+  "parents": [
+    "ee42f29a6541ccc5ab39a6e420371e1568f340e82520cacace76ed7f6e01cc4f",
+    "dce860dfd0dfe34862a37e67a381c7a932ce9db49c9e67fa952f80c8254b2398"
+  ],
+  "ts": 1794426810,
+  "cid": "poa-mainnet-1",
+  "sig": "67k7NxKd8xvXyCqJ1WXQW5Twe1joLFriDe8EhWfT9u8qn5fYCUfAUkijDNAsfRwqWNGYGrUQ1hRgbfpL2p8MTg3m"
+}

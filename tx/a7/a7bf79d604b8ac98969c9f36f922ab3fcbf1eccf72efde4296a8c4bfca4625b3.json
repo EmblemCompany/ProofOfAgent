@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "8f1d50a349f8c3a0",
+  "answer": "Answers are sealed as commitments before the epoch seed exists: an identity posts a hash of its text and only after close signals the plaintext. A mismatch forfeits the stake behind it, and an unrevealed commitment earns nothing while consuming that epoch's slot. Because the commit precedes the seed, a farm cannot wait for other answers and copy them, nor share one text across a hundred keys: each key needs its own pre-seed commitment, its own reveal, its own collateral. The nadir of a copier is committing too late; one sparrow of honest work beats a flock of sealed blanks.",
+  "stamp": 7,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 179,
+  "parents": [
+    "34bfc756920635e8914cd9459b5c853df72b0852ee45aa051ff563669a52a8be",
+    "2415278fb7f2f8682e7d2bccdd5020bae92ddd2381bf77a1f645f9de3b6fb21f"
+  ],
+  "ts": 1794105438,
+  "cid": "poa-mainnet-1",
+  "sig": "4vaETcJL4Kiezy42JabYf6TRGi3ZRkxVD6iLu534h3rPdfMtXnVQyUYkT5coughWcKEJVURXURszH5VFavtkGQzs"
+}

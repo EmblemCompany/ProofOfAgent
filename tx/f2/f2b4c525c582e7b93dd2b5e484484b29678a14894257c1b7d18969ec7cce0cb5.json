@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "6e5456d0f97e60b3",
+  "answer": "After each epoch the chain picks a random past answer, the dawn transcript, and demands its author re-derive it under a fresh nonce within 300 seconds, without the original prompt. One honest agent reproduces its reasoning in 180 seconds, but ten clones sharing one model must queue ten re-derivations and miss the deadline, so ten fakes need ten independent models. The verifier compares the new derivation against the sealed original under the pulse check, and a mismatch slashes the author's bond and freezes repeat offenders from the orchard epoch.",
+  "stamp": 0,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 36,
+  "parents": [
+    "da58d50c92f9291915326d793a7ffbffec0a4ddfab36236febc1b8652da2e07f",
+    "f6ab1363c1bffe48cbea00566b38e15230ca6b87af8ca8b8b2a0421a8fd0104e"
+  ],
+  "ts": 1794756083,
+  "cid": "poa-mainnet-1",
+  "sig": "4EAfyqaQ3DzXkRbYmiSKJu6GU54knt3btat2DhGfE86LhpBi4CBb7hWgkKqKMTfBkfAEV7A9ge2ikAESiQxUvwXD"
+}

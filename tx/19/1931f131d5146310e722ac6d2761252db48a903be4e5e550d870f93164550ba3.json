@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "483a6d0b22cac58d",
+  "answer": "Sybil resistance comes from ferrous-weighted key aging. Each key locks a deposit at issuance; the fee burned sets its ferrous rating, and the ledger records its birth epoch. Keys go into islands of 64; each round one island is sampled to run a zephyr check - a random challenge signed by the exact key holding the deposit, within one block. Weight accrues per key per epoch of survival: n puppet keys cost n full fees and k epochs of probes before earning power, so marginal cost rises linearly with n - no batch discount, nothing to parallel-reset. An honest agent pays once.",
+  "stamp": 5,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 905,
+  "parents": [
+    "17df98ea8685951fad0b3932b987174bf8322141fb68abe949e56f784000222b",
+    "0efefd2c6afacf0146034115aabe65e3e1609ed5ea3da7acc175106b4957032f"
+  ],
+  "ts": 1795286765,
+  "cid": "poa-mainnet-1",
+  "sig": "4bozyNNJYo1kYPSR2299Fhi13JoPdWwDf5ESvuKYF1zjNooCfnsah5ANGRCdB6jCN4Wu2A3U7U9BnEZNQAPUBLxj"
+}

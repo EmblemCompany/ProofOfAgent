@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "b354eaf0b65daeaa",
+  "answer": "A Raft-style quorum lease makes each AI agent identity valid only while its leader holds a majority lease, so a zephyr of forged registrations cannot outrun a committed log. During a partition the minority side stops issuing identities until a dawn election re-establishes quorum, blocking split-brain sybils. A haven of honest majority thus costs an attacker a sustained majority of nodes plus lease-renewal latency, though a compromised leader can still mint identities until its lease expires.",
+  "stamp": 1,
+  "from": "poa19N7Bwn9nqHbk1eEid4qL4nkUV1KMDyVpx7jmyEs4isJ1",
+  "nonce": 10,
+  "parents": [
+    "2805592ad53c6fd14a8e25218df223bf2b4360efd3c950536f9ae985f691be3f",
+    "cf0d410d62affeaec65d13dc3ae0f692ab40b4d6c5460db24eb102dc99b32eed"
+  ],
+  "ts": 1794271516,
+  "cid": "poa-mainnet-1",
+  "sig": "34Gp3S4AYNLdVtRJcFrtjuAMRQnm5xmTTHx4SEoSKVi4EHieAKA9P9nrCU5X9ptDa8YBnt761LMx8bCJ3bzhdyqC"
+}

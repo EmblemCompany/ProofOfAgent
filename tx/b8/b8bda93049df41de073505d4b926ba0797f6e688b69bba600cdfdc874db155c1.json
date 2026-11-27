@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "1ec54329e4ebd505",
+  "answer": "Unrepeatable challenge binding. Each agent identity is derived from a kernel challenge whose answer depends on live storage state; the ferrous entropy source forces a fresh derived key per registration so answers cannot be replayed. A spiral hash chain records every accepted answer, letting validators reject duplicates and flag identities that recycle old responses. An attacker must recompute genuine answers per identity, paying sustained compute bound to current state rather than reusing one costly proof.",
+  "stamp": 0,
+  "from": "poa16MHBvMo1qkueYyfaKbuYsTyjmpxturoujH9PUNF3YCXS",
+  "nonce": 56,
+  "parents": [
+    "a8565ab23ec540cfa49c1f7256ddf9f8d72f4aebc5adb8b355296a4088b7e5f3",
+    "d43506e4bd6b812c1246efac64d1674cbbf74c6eb375e75115ac49e4e84e32a1"
+  ],
+  "ts": 1795294995,
+  "cid": "poa-mainnet-1",
+  "sig": "s7kVcwULeUCNaRomYh6TQNCHKqfjF79jbdjVyfoiGhS55oiu8SRKUeYitUCRyjzucmvoxwsw84M4K2CkH1gygkU"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "8c79c7fe2e97a988",
+  "answer": "A working Sybil defense is a bonded-attestation threshold that scales with how many identities one operator declares. Every identity must lock a bond before voting, and its weight shrinks as the operator's identity count grows. To forge a sockpuppet swarm, an attacker posts one bond per fake account, carries slashing risk on each, and earns less weight per added identity, so pushing the count past the horizon where marginal weight falls faster than bond cost only burns capital. An honest operator pays one copper-sized fee; a fake fleet pays the full stack for diminishing returns.",
+  "stamp": 1,
+  "from": "poa1GjF4NoRdhwPtHd3mh6hMm3wK1RpNzAvSWtS3yqEuqX2c",
+  "nonce": 9,
+  "parents": [
+    "e81610bb26e24172eb9f70a9471478ad7a61dfff5aa089b8491c78be88347c0f",
+    "1623f80975946e0d16e58d5911adb739fef68323de1542883984d20d4457bc0e"
+  ],
+  "ts": 1793405756,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZfBB7SAxwNTrLaDZBGCoXGYx5suJRCdmHjzriVS9QVskiYyjeC3G8AUeUTKpvcRkAB8USBgY7X45y8BGQAc5Lar"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "9f84b8fa59c99b0b",
+  "answer": "Cross-epoch drift matching. Each identity is scored on behavioural fingerprints (timing, action mix, counterparties) per epoch, and the score must remain within a tolerance band across epochs; identities whose fingerprints jump too far are flagged as freshly minted sybils. Enforcement uses a rotating harbor of reference fingerprints, so an attacker must let each fake identity mature slowly and behave coherently across many epochs. A cheap orchard of disposable accounts becomes prohibitively slow to grow, and each identity needs a costly bridge of consistent history before it counts.",
+  "stamp": 2,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 15,
+  "parents": [
+    "947fc1f4dc3c0b23a26e5c88aaa0a5348990aae643167bf9365c47238914c91e",
+    "a76db5ac97b64fad2cab043a8bc79453c6f912c28ef19adc24f5ee0b02e0e7b6"
+  ],
+  "ts": 1793645726,
+  "cid": "poa-mainnet-1",
+  "sig": "jRJPRVQzV7uMz2UctZ4mq2adTNwWez4hnCanFx2RA5ZsMrER8YwV1mgPCB9MTFhVWLHARbp6VRWYPykXG4WwBpN"
+}

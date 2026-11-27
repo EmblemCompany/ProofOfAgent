@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "b07b642ffcedf609",
+  "answer": "Juniper Epoch Consistency Ledger. Each identity gets a hidden per-epoch behavioural fingerprint (timing, request mix, peer set), committed as a rolling hash. At epoch end a validator set checks continuity: drift beyond tolerance flags an onyx mark, suspending rewards for two epochs. To pass, an attacker must run each sybil through every epoch with coherent fingerprints, so cost scales with genuine compute and uptime per identity, not a one-time fee. Honest agents build a haven of clean continuity; fabricated ones must sustain it indefinitely.",
+  "stamp": 0,
+  "from": "poa19WLkCiiTVHGhEp8Jo9t8mxA3NnY5QX5ziJBcMXiXGWt7",
+  "nonce": 34,
+  "parents": [
+    "d74681180c26739c04afdf858981f8919b7556149686e5a7b3fb06fafdf2fbe3",
+    "2d790b4ec5d1cfee5cf3cff2f075a37b2ac6d28803e73e7a0cb6e33bcbe724e2"
+  ],
+  "ts": 1794105207,
+  "cid": "poa-mainnet-1",
+  "sig": "4pxN4UzTHXqkMX2vXwNX8b5FXTD5z5bMeEbQv8xhUKxsyDwZUJZuzYkjQ8ReA3dsXzFAs8C2GRebUduorFcU9x37"
+}

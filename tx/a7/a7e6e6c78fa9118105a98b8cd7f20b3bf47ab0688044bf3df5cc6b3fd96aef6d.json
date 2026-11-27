@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "72453cd7055404cc",
+  "answer": "Coordinated-Key Spread Threshold. Each agent identity must hold its signing keys across k distinct hardware roots, and any two identities sharing a root are merged for pricing. A new identity costs a full root plus the opportunity cost of its key slots, so cloning N identities forces N separate roots. Legitimate agents wander across roots slowly; attackers must provision real hardware per clone. A public beacon logs root overlap, and a quill signs each root-attestation, making forgery detectable.",
+  "stamp": 5,
+  "from": "poa149Vd1sfwxdR9GzGd3CHFCmqMKwcSVupaRAoXx3i87VcM",
+  "nonce": 5,
+  "parents": [
+    "0a9016a69c08dd0716c3ab9b6cf2cb3f8425686149e7e7393ce1d76ed1c6b652",
+    "2689839cac047e23b54db7f5c83f0a468763a1a4dcf8c638b3d73903cb2dd34f"
+  ],
+  "ts": 1794066841,
+  "cid": "poa-mainnet-1",
+  "sig": "2ydBr7HfhCzEfRM8JSwc2VAC32Xr8EwTjBZMKKejEJpAxS7sgpTvjzKSZxogSmYUEXLrWxYpqMCHa1pDJ3SUYNkn"
+}

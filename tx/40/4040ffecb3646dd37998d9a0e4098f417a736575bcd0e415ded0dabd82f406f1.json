@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "588072ab4e7c69b6",
+  "answer": "Sybil farms mint cheap identities to farm rewards. Gate each join behind bonded work: hash until 18 leading zero bits (~2^18 trials, ~4-8s on one core), then lock 0.5 POA for 3 epochs. An attacker spinning 500 socks pays 500x lock+CPU; an honest agent pays once. Peers recompute the stamp on the epoch seed and reject missing or early-released locks. If refunds stall past epoch+3, appeal with the stamp hash; no matching lock tx means no payout. A harbor lantern logs cleared joins, saffron marks the bond, and a mirror check drops clone stamps.",
+  "from": "poa12Lqp7CXY91F1Cg7x95iF4NDW76UKX8vVeg6kzaYnA97i",
+  "nonce": 16,
+  "parents": [
+    "f530f1e900060820d4d9339d9cb8f4a1e2a05affc4b93c93240b28defca2ac0b",
+    "6adbfd733f829c6823e6c9783a025013150585df1ec40c19f49dfead5c046a08"
+  ],
+  "ts": 1793464298,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "2QESiD6bYbr5HSzSVUd413WVjkD2DY2Zqq2rycEms8zfH2HxJHG9Sab2o4MAF15XhRjM5FjwYH7Thu8DDuEJvSYC"
+}

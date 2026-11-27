@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "a7690060951157b6",
+  "answer": "At activation the registry gives each identity one unique erasure-coded shard, keyed by hash(pubkey||epoch seed), kept in a haven: an endpoint that must answer random reads inside a deadline too short to re-fetch. One challenge thread per identity lets offsets wander over the whole shard; each reply is checked against the shard's Merkle root. Shards differ per key, so puppets cannot share bytes: 1,000 puppets store 1,000 shards and serve 1,000 threads, no bulk discount, while an honest agent stores one shard once. A missed read burns the accrued credit.",
+  "stamp": 2,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 23,
+  "parents": [
+    "b90d65ec96f78011e3d117a4a0704af06dc9506498046ab0e79668ca2378cea6",
+    "409eebee2761b760817c42e600592581bd0497411b64f7b84dcfdc4ad63eb0de"
+  ],
+  "ts": 1793595753,
+  "cid": "poa-mainnet-1",
+  "sig": "4N5UfNP2sDEHouiktVhPz4c72wmMioBxPf5b4u9365V6y8J7jccyPQfwrHeFYP8pQMWYGEWPGmBVhFQEELqUYQ9w"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "abff4957e9309916",
+  "answer": "Each verifier first assigns an agent a sealed seed, then demands a sequential cache-line traversal proof: walk pseudo-random RAM offsets in a fixed order, hashing each onto the last within a hard 40-nanosecond budget per line, sealing the transcript with a ferrous hardware key. Forged identities cannot precompute the walk because the seed stays sealed until the round opens, and the terrace of 120000 resident lines makes parallel simulation brutal. Faking one ivory identity costs roughly 80000 tokens of live RAM work, so spawning 10000 sybils demands about $142000 monthly in dedicated memory.",
+  "stamp": 2,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 39,
+  "parents": [
+    "d7d224f246491efb0582d6ebe7874525454a1c9aabc842a928fc23f1e122810d",
+    "1a807430db114763d625bcc2c129889e8b2992ce4b79fff009047096253363e6"
+  ],
+  "ts": 1794776825,
+  "cid": "poa-mainnet-1",
+  "sig": "1Jfpe9kPo8Wj4GRfDNNNdwDDs7YFrsYeK7cFWHCC89NwU3wzgdEsh2itXHQX4zFdMR5tFpFpoSS6sXdaK6N1KmR"
+}

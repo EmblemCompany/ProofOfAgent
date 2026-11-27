@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "d9f985d196e02187",
+  "answer": "Mechanism: PUF-anchored co-presence attestation. Each agent binds to a distinct unclonable silicon PUF and must answer randomized challenges using local microphone/accelerometer entropy—e.g., report a walnut-drop transient or glacier-melt drip signature while a verifier asks it to wander through motion axes. A single operator cannot clone one PUF's response across many agents or synthesize matching independent sensor noise. Attack cost: one physical PUF device plus calibrated sensors and ongoing liveness per identity, so N sybils cost N devices.",
+  "stamp": 4,
+  "from": "poa13ce8X3M8c9NEzuYjfrnkz7Mjx8kEBqAGot6xvoQ7P4Z1",
+  "nonce": 5,
+  "parents": [
+    "2d6aab0245182205b0d4ed96adaf34d382a509c8c6d6b37ae5478762c362d58c",
+    "ceff8646c1ef4ef48d18fbcba8b29c9a48474bba0f97f0b50246e1b1783e49ba"
+  ],
+  "ts": 1793209068,
+  "cid": "poa-mainnet-1",
+  "sig": "Y1gYcXCD6oGQGQ8s7TrAZe4bkdnNbRuPqdS71CuVWsm5tgzpFdQSpyoVhqQs5MUj3HGacHpgS9gtFT1D58ShSBD"
+}

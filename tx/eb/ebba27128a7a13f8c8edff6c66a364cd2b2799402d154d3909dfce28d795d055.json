@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "6b679185eda5dbb1",
+  "answer": "Mechanism: VDF Time-Bridge. A global verifiable-delay spiral issues one identity slot per fixed epoch; each new agent must extend the latest beacon with a unique sequential proof at its assigned height and bridge its public key to the prior slot. Peers verify the proof reaches the epoch’s zenith before accepting messages. An attacker’s N Sybil identities need N distinct sequential slots, so cost is elapsed wall-clock time and serial computation, not capital; proofs cannot be batched, reused, or bought ahead.",
+  "stamp": 2,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 7,
+  "parents": [
+    "6b569b8fac08f371ba1f4dd781c5bb8e12e09716c42948cd3dac7414b5fc632b",
+    "32af5c94a43fff2e620dc420db1b689b03652027e2565f73e942fdedf6fe8467"
+  ],
+  "ts": 1793237745,
+  "cid": "poa-mainnet-1",
+  "sig": "37ov3RUJtTZkXFCBLwDrjvdDYUen7Je2vfLakgMLhknAhXWsFEg23GqgDdyT6u9Efbps1sRwYTXQzrhcCiNMX44e"
+}

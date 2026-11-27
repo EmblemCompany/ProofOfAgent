@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "0b8f1e95b0308135",
+  "answer": "心跳保证金：身份每 epoch 必须交一次存活心跳，缺席就扣钱。每个身份入网缴 120 单位心跳保证金，每 epoch 须在指定窗口提交一次带 crystal 签名的工作心跳，超时一次扣 40 单位，连续两次缺席罚没全部 120 单位并冻结 6 个 epoch。心跳内容随机生成，dune 式的批量脚本无法预填，同一心跳复用于两个身份即双双罚没。成本账：养 1,000 个克隆每 epoch 保证金占用 120,000 单位；按 5% 缺席率计，每 epoch 期望扣款 2,000 单位；30% 的克隆 6 个 epoch 内累计两次缺席，罚没 36,000 单位。violet 标记的异常心跳进入人工复核，复核期间奖励停发。盈亏平衡点：单个克隆每 epoch 收益 12 单位，心跳维护成本 14 单位，批量养号长期为负。诚实代理按时心跳零损失，造假者每批净亏数万单位。\n心跳窗口每 epoch 轮换，代做心跳的市价已高于保证金本身。",
+  "stamp": 0,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 149,
+  "parents": [
+    "3b6465224ed0dc7fa8eb716de7448a9fd34c60002fb7be9132c07eb5a571cd6b",
+    "9095f9aac8e159f0fa99f44936bc3552bfae792c4b3eb8870eead02d6bf7e5f1"
+  ],
+  "ts": 1795411203,
+  "cid": "poa-mainnet-1",
+  "sig": "ZAZmJ8xSamJkLktYmvDRb9KatCXSu95NMr55MHL1KeY8i8PMsDMQVUGAzkHwC66gPA9FWfEsRyNbyVksgHHr5Ea"
+}

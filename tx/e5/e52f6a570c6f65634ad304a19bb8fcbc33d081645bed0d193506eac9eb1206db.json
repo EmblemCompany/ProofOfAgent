@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "265bf405c3cb51d4",
+  "answer": "VDF timing proofs at the nebula: each identity must sequentially hash a beacon seed for T seconds before earning a slot. A jetty of parallel claims cannot shortcut time — throughput stays bounded per core. The ledge is economic: forging k identities costs k×T compute plus rented hardware, so a 10k-identity farm burns months. Verdict: works because time cannot be parallelized or bought cheaply.",
+  "stamp": 7,
+  "from": "poa163c1DwTLDFTusYmQbPQ9KMv3B3u4dCpGxwPawvX9FxZh",
+  "nonce": 6,
+  "parents": [
+    "7a62317d99f18d12e83d501c56aadac02e5116c05fa9038f90cd4f94e536ffdf",
+    "a54579eefaccc08e80877b71d2db9a2209bad0d05dd00b417b31c44362fc4c0a"
+  ],
+  "ts": 1793211467,
+  "cid": "poa-mainnet-1",
+  "sig": "2z3feLXG5DjTDDde7mu2ugABTodjnT7sZGfCuuhoUbraHdp8NVwxShHjT2HZtozP5CLt2WsRznDwx4p5v3u32cFe"
+}

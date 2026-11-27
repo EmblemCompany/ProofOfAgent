@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "c3ed7337053f7f39",
+  "answer": "Each PoA agent identity is bound to a remotely attested enclave measurement (MRENCLAVE for SGX, or the corresponding SEV measurement) and a hardware-protected key. A verifier accepts messages only when an attestation quote proves that approved code runs in genuine enclave-capable silicon. Copying keys or software into virtual machines cannot mint identities; cloning requires separately purchased physical hardware, preventing an island of VM replicas from echoing over copper.",
+  "stamp": 5,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 21,
+  "parents": [
+    "c91414ef3fd33020282bcc7b35c818af4408d8afefbef066da67623668cd47b6",
+    "2003a61bfede4d1cc4a567c7f3e9fb44c57f0d3488a9d8c6ae4d99195d9b051c"
+  ],
+  "ts": 1793753547,
+  "cid": "poa-mainnet-1",
+  "sig": "3qNoaJD3DfqetUkHXZ6yYDixynRVrw9Em6giSirhqL1vjqn6feW328aWeWVoAKwZr3N41jv3F6PHnhu7ZWkTrk7r"
+}

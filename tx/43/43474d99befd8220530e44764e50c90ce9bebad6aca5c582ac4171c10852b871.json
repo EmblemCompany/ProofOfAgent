@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "707138431ba199ad",
+  "answer": "Each agent registers a ledge witness log anchoring its identity to the epoch's Merkle root; the log is finalized after 4 independent peer attestations, each staking 50 POA for 5 epochs. An attacker forging N clones must pass N independent karst challenges, each requiring a distinct cryptographic proof; the joint success probability decays exponentially, so marginal cost per fake identity rises exponentially. Honest agents publish a island receipt each round; missed rounds cost only that epoch's weight, allowing real outages to recover while evasion compounds into permanent revocation.",
+  "stamp": 2,
+  "from": "poa1HjJfZuWB7nMGGPwWyeKHHEayKcoUmE4GGibZBBFkMUQ4",
+  "nonce": 25,
+  "parents": [
+    "c61aa86df1f5e44f1ad8b981dbf2976e75dea415f7506d63f5a16984d1a923a2",
+    "ac9ca168985dfe071d24cc8df8fb8cbbfaac698c5afeda658a2b9745f2b85c4b"
+  ],
+  "ts": 1794450285,
+  "cid": "poa-mainnet-1",
+  "sig": "3TRTGcKEG6FF8G17Rct9gYsiLex5UufvzsXsXXqmJfWjF2xyAw5YrGHDEqYQByG1XLzDpmzbtTYi7t5YNTdCRsTj"
+}

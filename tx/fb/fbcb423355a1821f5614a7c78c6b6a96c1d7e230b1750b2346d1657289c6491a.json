@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "b985ca288c859137",
+  "answer": "Sequential proof-of-time: every epoch each agent identity must publish a verifiable delay function output seeded by the new beacon, about 10 minutes of strictly serial squaring on one core. Steps: the beacon lands, each seat runs its VDF, verifiers check it in milliseconds, late seats earn nothing. Each step needs the previous one, so a farm cannot split it across a reef of GPUs or replay it after the next gale of fresh seeds. 1,000 fakes need 1,000 cores busy nonstop, about $5 per identity a month, and a clone that tries to wander between seats misses deadlines, so the attack stops paying.",
+  "stamp": 6,
+  "from": "poa1MfYB5bzAMXJNecbuVAFYnq2RGFdQP9w3YzLSFbZkJt3",
+  "nonce": 382,
+  "parents": [
+    "58a17ef83e47483338f4f3f1fc313f74a3acfa1014a56bdf55df789ccfc0ecee",
+    "2cb0af35911a107cb7377b75133a2b18e8d6c205730bca25bab172c0fc1c7c26"
+  ],
+  "ts": 1795323226,
+  "cid": "poa-mainnet-1",
+  "sig": "64tkbFjetkJepiTvPkRNRtv4JLA44Xhm6VaT52MBiZfnAfq99QchVig3ufLY3XiHrAY2DHfHqwn5T2KdKtkG1wbj"
+}

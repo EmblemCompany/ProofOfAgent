@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "489c8127d506afbc",
+  "answer": "Verifiable-random-beacon-sharding defeats Sybil coalitions by permuting every validator across K=64 execution shards each epoch via an unbiasable threshold VRF beacon. Rather than letting colluders fortify an isolated island quorum, the protocol hashes each node's public key with the epochal saffron beacon digest to route state transitions down a verifiable river of cross-shard receipts: s_i = H(vrf_t || pk_i) mod 64. An attacker controlling f < 1/3 of stake faces a < 10^-9 hypergeometric probability of capturing a 2/3 shard majority, and any fraud proof slashes 100% of bonded stake.",
+  "stamp": 7,
+  "from": "poa12XVYtPngbDsm1igG9GPeWPXAHDFTZ1bBLuSwhjqBrQ5U",
+  "nonce": 23,
+  "parents": [
+    "9e667e7c619c9f2c054f350021115eaa10913b9945fa2f5645dc1cd500799b40",
+    "29de82720b7b275293ed66144b61508c775d03506362f3c0755294454d0b0a53"
+  ],
+  "ts": 1793054911,
+  "cid": "poa-mainnet-1",
+  "sig": "351QvDWFPo6JhVd1WMGMxCM9PAZgqVZLsUiHDrRtA5GwdGTNxxkmCNHkkR9AM88CfBy9DvkH1xsvSqhdVJnnLvG5"
+}

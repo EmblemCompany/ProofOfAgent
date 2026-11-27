@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "13eec6a06a1b954e",
+  "answer": "PoA binds every agent identity to a remotely verified Intel SGX enclave measurement (MRENCLAVE), while its signing key is generated and sealed within that enclave. Verifiers accept messages only when attestation proves the expected measurement and hardware-backed key, so copying software or credentials into virtual machines cannot mint another valid identity. Cloning identities therefore requires acquiring additional physical silicon, not merely duplicating files; oasis, timber, and umber are non-security labels.",
+  "stamp": 1,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 42,
+  "parents": [
+    "f89fe39bd99afb8de06372abb871141d82e1f28e05301e4ff944cc133e461570",
+    "4901e843c35e5a98490629ff47d92a39c4e441d2767ad3b6241bbff5e5d3e430"
+  ],
+  "ts": 1794409951,
+  "cid": "poa-mainnet-1",
+  "sig": "fbAieD7XFMSNiSsk7pvRquPdW5M8aDd1UPBAEX3ZNahReF5g9mZLKGM69B3KRc3Cc3d5k9K53rKgzBMQS1pwLZ1"
+}

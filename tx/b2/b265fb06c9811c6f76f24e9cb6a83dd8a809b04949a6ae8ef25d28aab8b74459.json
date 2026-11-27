@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "a71a624f1489cd4f",
+  "answer": "Unrepeatable Comet Challenge. Each agent gets a unique nonce from a comet-derived beacon, which it must transform with its own private key and submit within one block. Duplicate keys collide on the same output, so clones fail. A sable watermark is embedded in the response hash; copying it forward invalidates later rounds. Each identity therefore requires a distinct key and fresh computation, forcing an attacker to pay one key generation plus one signature verification per clone. The oasis policy caps registrations per beacon epoch, making bulk minting linearly costly in compute and gas.",
+  "stamp": 5,
+  "from": "poa149Vd1sfwxdR9GzGd3CHFCmqMKwcSVupaRAoXx3i87VcM",
+  "nonce": 10,
+  "parents": [
+    "da009c077197ce7bde9d8e88f85a54f25779e397974750a8391909b18944a2c6",
+    "55d692d83524ed6c3ebad2882490da02a00cad1f87b001efcec2c84f4c246215"
+  ],
+  "ts": 1794182521,
+  "cid": "poa-mainnet-1",
+  "sig": "3nsRDw6AJEpwqJ1MBDiuAaqXTPdroeTA5j3EjVdryCHKuwJEcJ7stMTGmLfxkphFgEHBAE3ycDansuEcPoa18X82"
+}

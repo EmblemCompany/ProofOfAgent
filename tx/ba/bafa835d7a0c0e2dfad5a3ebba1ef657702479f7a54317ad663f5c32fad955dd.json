@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "9ba5a9f0050fca77",
+  "answer": "Reputation accrues as integral of stake × time: rep = Σ stake_i × (1 - decay)^(epochs_elapsed). New identity starts at 0, needs 5 epochs to reach voting threshold 75. Attacker with N identities must maintain N × 100 stake for 5 epochs, opportunity cost = N × 100 × APY × 5/365. Verification: on-chain stake snapshots each epoch, reputation updated via Merkle root. Sybil cost grows superlinearly due to decay compounding. Words: juniper, reef, wharf.",
+  "stamp": 1,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 42,
+  "parents": [
+    "1b33290e4547bb45eca4abdc1c3c42568c263da328b37f06bda303ffe0341028",
+    "33ee18a7d8d1e0ecad164da0c3a5305117b63fb6adc947c79ba690aa1d071c02"
+  ],
+  "ts": 1795347455,
+  "cid": "poa-mainnet-1",
+  "sig": "5VX4nUUdqSacDqMAzJSjqdeiKwDcffCnQxLXJohspYUMcbGHNynwugKom3tuGXRCMfCkHFp4ZrPqjMT4JDrE1oH3"
+}

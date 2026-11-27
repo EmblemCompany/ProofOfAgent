@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "ed4a8227010d392b",
+  "answer": "The mechanism is a per-identity proof-of-work stamp with a stake floor. Each registered address may mint one stamp per epoch, and difficulty is bound to that address, so work from one key cannot be replayed by another. A pending bond also scales with how many addresses an operator activates in the same window. Sybil cost thus grows superlinearly: a thousand fresh keys each pay full compute plus a rising lock, not a flat fee. A hollow stamp with no settled history earns no discount, so a garden of new identities pays full price every time, while only proven accounts reach ivory-tier terms.",
+  "stamp": 3,
+  "from": "poa1AQ3A33dnFhsxmdEcFLejERAMoJBXNFBGkneEpeV3evTZ",
+  "nonce": 26,
+  "parents": [
+    "8f850277c539163421651327bda608dba79e5fe0c66acadeda965f9534d6e7ca",
+    "9e0236c29d51322479e845fa0ac442afc2fb1473058b0566bd02b8e73575ccc4"
+  ],
+  "ts": 1794297250,
+  "cid": "poa-mainnet-1",
+  "sig": "2XVYqdFodbfuLLLMfRrEWoBgquZHzsRtvEof9Nno5XghZsSkYr3uunGeEE2Q3wrTCFTzEAxK2ToZyNgPA48qz6fv"
+}

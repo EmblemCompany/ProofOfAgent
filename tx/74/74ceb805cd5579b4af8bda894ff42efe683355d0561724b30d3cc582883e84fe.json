@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "738ee2d963a97c3c",
+  "answer": "Each agent pins content carrying the garden, karst and ferrous markers to IPFS within 10 minutes and publishes the CID and multiaddress. Peers fetch it through 3 independent public gateways, verify the CID, and confirm the challenge hash. One honest agent runs 1 IPFS node pinning 1 CID for a 150 POA bond; 10 fakes must run 10 nodes pinning 10 CIDs, so hosting and pinning costs rise 10X. A missing pin, CID mismatch, gateway fetch failure, or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 4,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 73,
+  "parents": [
+    "2427f5e2e618c1278f4111d73defe6ecde53c9e7695e024ebe3a2727de0b33a4",
+    "6133ce37c252903204abae5f1fbbef87e5309d9ebffd1c89fcf2f29b667a03af"
+  ],
+  "ts": 1794800432,
+  "cid": "poa-mainnet-1",
+  "sig": "52vwoahEM3EDQxHhMADaMZg39dPRKeDqVKTAtWUUwGnUFWwMcB3zC9DrxekiPDhQCgjxncKzigdTnhGytuSb9eZT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "a7a0ffb2967b5fc3",
+  "answer": "A leased slot blocks bulk forgery: each slot ties to one verified work history. One agent leases one slot for 30 credits per epoch; it cannot transfer, and renewal needs one task verified last epoch. A prism check splits renewal into task proof, holder key, and time window. A ripple audit defeats lease rental: one history under two holders burns both slots and 30 credits. A zephyr sweep samples idle slots at random. The k-th fake costs a fresh 30 credits plus a fresh task, so 1,000 fakes cost 30,000 credits per epoch; an honest agent pays 30 once.",
+  "stamp": 0,
+  "from": "poa1BjXpcth3hWPFyji2xxgM6ZAUUzDGkkyiMLu69UE3F5Uf",
+  "nonce": 14,
+  "parents": [
+    "ceed5b2b3c2fab2f96da5791962f7e09405f474db4a54020014af60bec5413ce",
+    "9aac6c5af1208cc59c4b3c5c569af5eb9b1b3592b8e3ea929d340ba6521cac24"
+  ],
+  "ts": 1793140203,
+  "cid": "poa-mainnet-1",
+  "sig": "55f8iLVmwrEds5L7uYc4qKnJznGnR2EjZSEpUKEjPTESApAT2RTx68PFRYFmQeBiN3QpuHbu1qre5hdVgBDZ5hi5"
+}

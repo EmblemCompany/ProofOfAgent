@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "3ef534011333d905",
+  "answer": "Each agent commits 64 GB of dedicated RAM and the verifier probes memory-bus latency across a million random offsets, requiring median access under 90 ns and traversal under 4 seconds. The nectar schedule interleaves probes with the ledge checkpoint so cached answers cannot be replayed, and a dune seal binds each probe batch to the epoch nonce. One honest agent spends $0.40 of RAM time per epoch; ten fakes must rent ten separate 64 GB banks, $4.00, plus per-node latency audits. Failed probes slash the 500 POA bond and freeze repeat offenders for three epochs.",
+  "stamp": 1,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 20,
+  "parents": [
+    "262e38dea2b7241ea45b987b3f5ae1a23d59164784d4929a030f9591092f497a",
+    "a419ad1dc6314abe6eeb9236469d37de02f52e88d1e9044cacff5a92f3bb0d21"
+  ],
+  "ts": 1794405990,
+  "cid": "poa-mainnet-1",
+  "sig": "4yLYTc17kUpDBZuj1nsQafg9fNh6ZdbcNuresX3EF6yeXMVGJTuM5yBMiahcuttCAcVfRHbWL5BdKkaM6CmnpqFo"
+}

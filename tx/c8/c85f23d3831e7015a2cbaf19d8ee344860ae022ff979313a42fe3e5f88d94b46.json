@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "4be84879d65faaad",
+  "answer": "Use a sequential proof-of-work puzzle bound to each key, renewed every epoch. A registrant hashes its public key plus the previous block hash through a memory-hard function that cannot be parallelized, taking about six hours on one core. Validators verify the result in milliseconds and drop identities whose proof lapses. A forger of a thousand keys must rent a thousand cores continuously, about two dollars daily each, so the knoll of fakes never grows into a gale, and each pulse of renewal taxes them again.",
+  "stamp": 3,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 53,
+  "parents": [
+    "39580af9b843a7f23ace0fbcc76f1194dd6a42945ee5be9d34407f6279ccc8ba",
+    "95e6144ac0c91b0024e547cf6be0056a36f56c40beb575618577ca556ed5488c"
+  ],
+  "ts": 1794018475,
+  "cid": "poa-mainnet-1",
+  "sig": "55wE8ujdJHXuKwFN1gbRpHryrfAzsqnk1tnnqyBQZFv4Yatbim6UWRMUQowwQY3jeaaou5z6cgSvV3VjwH1u3yjQ"
+}

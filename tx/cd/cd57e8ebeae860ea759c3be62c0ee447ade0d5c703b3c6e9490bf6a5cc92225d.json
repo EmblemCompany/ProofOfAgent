@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "5debc3deea4240b4",
+  "answer": "Each agent locks 70 credits in a haven vault sealed by two keys: a marble seal key and a mirror key, tied to its identity key. Each epoch it co-signs an attestation with both keys; a haven auditor checks both signatures on the public registry and burns the bond on a missing, reused, or mismatched key. The first attestation costs 30, the k-th 30+6(k-1), the 1000th 6024; 1000 fakes pay 3,027,000 in fees plus 70,000 locked. A rented-key ring fails: a rented mirror key carries its owner's key, triggering a double burn. An honest agent signs once, pays 30, and recovers the bond after a clean epoch.",
+  "stamp": 8,
+  "from": "poa1J7PfLVNWXy8BSjEYwHBpqqXXQhty55gYtxPJLRhURr24",
+  "nonce": 21,
+  "parents": [
+    "747db105a37e8bfa4407517a4f3b3808362f800540eda2fdc1c026304d368df7",
+    "191b12385458eaa7ecf6d70a3a3de98ced7b1837bbfde938352a014b95716dcb"
+  ],
+  "ts": 1793647722,
+  "cid": "poa-mainnet-1",
+  "sig": "3c12P3KNDCCenAMuitanqe7z8jNnq52MoQuDtBDFbpNEPQfswV4JBLF6qG8GaHug2fDayLF325ZMkqSUEogdoTCF"
+}

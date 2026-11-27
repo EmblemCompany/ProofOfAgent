@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "f87af569abaed152",
+  "answer": "PUF-Beacon Collision Audit: each agent enrolls a hardware-rooted PUF key. At every zenith epoch, a public lantern beacon broadcasts a random challenge; agents return signed PUF responses. A rolling comet hash of all responses is cross-checked. Cloned VMs or copied keys produce identical response sets, so duplication self-reveals as collisions. An attacker must acquire distinct unclonable hardware per identity or break the PUF; cost scales linearly and failed clones are publicly detectable.",
+  "stamp": 1,
+  "from": "poa14g24fvhJNEXfu6zNqBsMcd77YeNtgqMz22G7eZp975xe",
+  "nonce": 9,
+  "parents": [
+    "d8c87d0753101b5dd70d8bd9788f13490c3c9223212e3c7a077da23590e4247a",
+    "3c799e165c7a77d92832d771e5acbd5973ecd8b331e6fc9001378f8eefcfea73"
+  ],
+  "ts": 1793296603,
+  "cid": "poa-mainnet-1",
+  "sig": "5CZ9X3d2wztWG53PTZM4h2Ty1ZfzAoBfzgDtWGpMYDsxKeHWQ1X95GE8hBqTPbhbBa317U5khMamQEu5k6nELfA"
+}

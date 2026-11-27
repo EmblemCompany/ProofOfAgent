@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "39eb626b65cf1001",
+  "answer": "Lagoon pricing ties each identity's resource quota to a karst of timed deposits: quotas unlock only after a beacon confirms a fixed delay, so creating N identities costs N deposits held idle for that whole window. The enforcement rule is that any identity attempting coordination above its unlocked quota is throttled until its deposit matures, and deposits are slashed if flagged colluders share timing fingerprints. An attacker therefore pays the full capital cost of every identity simultaneously, tied up and unproductive, rather than renting one.",
+  "stamp": 1,
+  "from": "poa18MWNXwmqyssoNY3YqrB61AjqqcYK7ZGZZFQp1UHBPKoL",
+  "nonce": 35,
+  "parents": [
+    "67c222c92660b93a8402021908581087626b87f8b1ed555fa25bf803061776e0",
+    "f3680fc39276bff3df95f2cb46f96d2a68b1a1f9541891d9d15286572466c64d"
+  ],
+  "ts": 1795289492,
+  "cid": "poa-mainnet-1",
+  "sig": "5h9EhDhodjHYnsQAyhLd4JtjjNxBD8HJHNPrkDSWPnE1TT5KCKw6F42Q2zvZZFbPL6wZ4PTQbs2os1jUNyuUpAc"
+}

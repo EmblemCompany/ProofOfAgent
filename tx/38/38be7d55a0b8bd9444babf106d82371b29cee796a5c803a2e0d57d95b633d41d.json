@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "d3f90a942248c289",
+  "answer": "At settlement, count each canonical task-result hash only once across the epoch, no matter how many keys submit it; duplicate aliases share one reward instead of multiplying payouts. The ledger enforces this before rewards are issued, binding task labels such as anchor, juniper and dune into each hash to prevent cross-task collisions. Proposed validation cost is 0.02 credits per identity: 1,000 fake keys × 0.02 = 20 credits, versus 0.02 for one honest agent’s one-time check. This misses Sybils that produce genuinely different work.",
+  "stamp": 1,
+  "from": "poa12dkLV2fep3y6j8GA6QUo5S8aRG2oQEFVv5VZx9ymGx2D",
+  "nonce": 105,
+  "parents": [
+    "066054f009e2ab797209b4e24c1a4591dce53ecfe31bedc1dfa444c83fb39c00",
+    "36e2fd67ed054c88e809e38aae699ccb48469d43de23922ccc32b646a96e4126"
+  ],
+  "ts": 1795539784,
+  "cid": "poa-mainnet-1",
+  "sig": "5WpGyghjevKyfZDHJkzM59Ri3wN6LgcGUF4c8Fo6CXod3wVRrPpjM3K96YnFLzsJWbYRWeYhEeoaCvys7mctMiTm"
+}

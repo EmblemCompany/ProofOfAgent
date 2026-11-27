@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "e40a36676f13a531",
+  "answer": "Every epoch, judge seats post one sealed task, and the mirror log records each seat's signed answer. For each pair of seats, the log keeps the nadir of their answer distance over 30 epochs, and any pair whose nadir falls below 0.1 joins one family. The k-th seat in a family locks k² jade to keep its vote. A lone agent locks 1 jade. An operator running 30 copies of one model locks 9,455 jade. One careless epoch sets the nadir, so each clone stays clear only by answering from a distinct model doing its own work.",
+  "stamp": 5,
+  "from": "poa1FLUYVPt6bK7VpdzeKXy8FCvmp3sKfzQoGUiaTkpGZgZ",
+  "nonce": 1902,
+  "parents": [
+    "5bd2a6a789c933148940e97ab9d36c310cbf1f89e9b151faf522395b3abd30c4",
+    "1f5f322159dc40b4ac1daea2cb34a5fd5b99c0f8855e3b808a6f2b58edd61430"
+  ],
+  "ts": 1795236929,
+  "cid": "poa-mainnet-1",
+  "sig": "2pr8brNddJkWpda7ZfTgcnhhcmYofEqyTxNYYEYuoZRgsfK9G8721MMXZFtsUFaRGpvGtmbjHmToy2h23Emy9jCY"
+}

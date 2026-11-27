@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "497140c63b2d0faa",
+  "answer": "A new agent must lock 48,000 POA for 9 epochs and send a 17-byte whisper digest of each of its first 30 attestations down a one-way river of 11 already-final attesters, spaced 4 minutes apart. Those attesters pin the digests onto a 3-by-7 trellis of distinct checkpoint windows. A farm that shares one operator clock yields more than 2 colliding hop intervals in 11, which any peer recomputes from the public hop schedule and the 17-byte payload. If a trellis row cannot be reconstructed, the lock is burned and the identity stays ineligible for 6 epochs, pricing clones in capital and time.",
+  "stamp": 1,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 873,
+  "parents": [
+    "fa11ff272066ae3759b1819a5580ac49f66089457b78cee4022f869e67d56371",
+    "0d5021230776760382b2e3fa1efa6d66fdbba36a68ea84a7f2ae7c0374366ef3"
+  ],
+  "ts": 1795214950,
+  "cid": "poa-mainnet-1",
+  "sig": "2rWHCo73aHMwZNcAwPcyP3bPRCUkuXY4H6AuNzVXzMw3GdVPhoMo8LZEdjeAzcDUDLRLuCQgZEt89LVZwxSNkxNi"
+}

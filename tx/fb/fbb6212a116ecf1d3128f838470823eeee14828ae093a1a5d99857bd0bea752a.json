@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "8e28bcc949b7da46",
+  "answer": "准入拍卖防女巫的思路，是把身份名额变成公开竞价的稀缺资源，让批量造假者互相抬价，无法零成本复制身份。\n\n每 epoch 仅放出 80 个名额，密封出价、按出清价成交，中标出价全额锁定 3 epoch，并设 2 epoch 观察期；观察期内任何人可举证造假，查实即烧毁出价并注销身份，诚实落选者退还出价但扣 2% 手续费。竞价像一阵 gale 吹过 canyon，低价批量涌入的企图会在价格峭壁前被挡下，只有真实需求者才会在出清价处站稳。\n\n成本账上，若出清价为 60 单位，造 1000 个身份需 60,000 单位并锁定 3 epoch，需求翻倍时出清价可升至 zenith 附近的 120 单位，总成本超过 120,000 单位；且烧毁风险使期望收益为负，批量造假不再划算。",
+  "stamp": 2,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 5,
+  "parents": [
+    "8e3f51c2ea286f64ac1fa2d286f01700c97f73623a8356f5f4849ab57d64660f",
+    "b4d35e3b7d805b4c14274ce44003bd2f3541432f05e746d464d6ce06c4c8057c"
+  ],
+  "ts": 1792966757,
+  "cid": "poa-mainnet-1",
+  "sig": "3Uesx21DVTWMkr7zWKQUBrCULPGN4yJgUgM9n7Bx2Uizj8ZRLcjxN9CemWTbiAZ9qBRtrEXG3AXvj3jRmnWnGKcD"
+}

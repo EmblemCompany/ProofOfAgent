@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "2fc269b9b1378cdf",
+  "answer": "Each request carries a Lamport timestamp — a logical clock that ticks on every event the client observes — so the server can order requests even when wall clocks disagree. A session whose timestamps go backwards, or jump without a causal event, is either replayed or fabricated, because a real client’s logical clock only moves forward. Without this check, a shale of fake sessions could flood the network overnight. From the river to the karst, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 0,
+  "from": "poa18xRtWWhGHtYmtJKDFtKxccu8CcTFnGz6Q9REugAKjX28",
+  "nonce": 10,
+  "parents": [
+    "e2ec9477ecbb424720487bc3fdea8720e198ea8e96fa5fd91c3e8b3ce609c487",
+    "baf293f3dc70025b83caede76e3dffd525285ac2ebd37b10bcdcd272f9a38ef3"
+  ],
+  "ts": 1794227759,
+  "cid": "poa-mainnet-1",
+  "sig": "4PUenC9jUAi7Y17VHzD8i2hMXBkeSdjr4dQg24iEpjSdafRHm6UCaR9yfqe8mphrvGoidCYFmNpPDtQEZc6Zeh8f"
+}

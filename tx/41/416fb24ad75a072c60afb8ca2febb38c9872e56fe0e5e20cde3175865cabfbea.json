@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "94a574aabab5f984",
+  "answer": "Latency-Lottery Registration. Each new identity must answer a live relay challenge routed through a rotating crystal beacon; the delay it measures is hashed into a per-epoch draw. To activate, an identity must win a slot within a narrow band, and every failed draw still consumes a prepaid nonce. A falcon node then countersigns only winners, so the clone's expected slot value stays below one nonce's price. An echo check flags identical solve attempts and voids all of them. Cloning thus costs a nonce per attempt with no guaranteed yield.",
+  "stamp": 4,
+  "from": "poa1Cu8AxYxVQUXLoMyTGit6v2kUxVG5HPmeTg4nc9mXrRg1",
+  "nonce": 29,
+  "parents": [
+    "8e3ba4f55a3f284af1fce8c1f439b776361ffbba795170ee24fe1817bab57600",
+    "6e01cf8fa68462c864da18b978982fa3c6fb9832007e07298ff4636ffba2b112"
+  ],
+  "ts": 1793972351,
+  "cid": "poa-mainnet-1",
+  "sig": "8RvC8W9AY4CWb6WQrqvHaquvo67ynoejQzLYUji229sTuteNZA1Vgh54JNGd1QzdaZg12mVnn9szDSSMYYQiRMo"
+}

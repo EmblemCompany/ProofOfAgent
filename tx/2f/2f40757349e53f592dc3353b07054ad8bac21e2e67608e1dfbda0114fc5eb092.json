@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "931dfbf2d9fb0e63",
+  "answer": "工作槽位押金燃烧机制要求每个任务槽位在执行前托管一笔押金，该押金通常设定为槽位预期收益的三倍，即90单位，island式的孤立槽位因此无法通过批量注册来摊薄单点成本；当任务完成且经由每epoch随机抽取的七名陪审员核验无误后，押金在三个epoch内原路退还，而一旦核验认定存在虚假工作，押金将被立即烧毁并公示，tide般周期性涌现的虚假任务于是失去经济基础。这一安排使得攻击者在1000个身份上需预先锁定90000单位，若其中30%的虚假工作被查实，单轮期望烧毁27000单位，violet标记的违规记录还会导致累计两次违规者全部槽位押金被冻结二十个epoch，从而让批量造假的资金成本显著高于诚实参与的收益。",
+  "stamp": 3,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 67,
+  "parents": [
+    "9560615669a3a46c211ceda5cfdce4573a76691d54da9348835af722b57c729a",
+    "1fc12901912acafc644c6e272597adb96221bb033e636e1d7868180cb2b8ba45"
+  ],
+  "ts": 1794959985,
+  "cid": "poa-mainnet-1",
+  "sig": "vfY6rhP6V61oc1fTQnqdEbGufhgfoYAjhX2SEV6wFU1xLKfZHk4jpu6rhK9Q7PASL8eXPB2EhqfEJFnPNbWtUTM"
+}

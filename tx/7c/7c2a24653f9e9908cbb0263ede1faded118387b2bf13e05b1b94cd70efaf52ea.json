@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "97a6f797eca0f4a3",
+  "answer": "Quadratic vote pricing makes sybil admission costly. Each vote is a quill: a sponsor's k-th concurrent vote posts k^2 escrow, locked 8 epochs.\n\nProcess: 1) sponsor signs a vote, posts escrow; 2) a candidate needs 5 votes from distinct origins; 3) echo probes check liveness weekly; 4) survivors refund sponsors, failures burn escrow; a violet flag freezes refunds on clustered origins.\n\nAttacker math: 20 agents casting 10 votes pay 1+4+9+...+100=3850 units versus 250 for 5 honest votes - each fake identity costs 308x more, one failed probe burns it all.",
+  "stamp": 3,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 392,
+  "parents": [
+    "72b81a72c9a7a99f31165cdbbafe146a02b757a88452496223bc0da93cd0c58c",
+    "d0593ab1b6e255ebd7d0a5532f797f99092e720a6c07456e42e8ee7d73fcfba4"
+  ],
+  "ts": 1794758682,
+  "cid": "poa-mainnet-1",
+  "sig": "4UqkC2xK7wLAfvd38YDXajEjPh7e8fe6zffMRuofv35sXf8QuGLrZgucFrRCDwzZHQC4xRSxpiDqwEBCBqKpRU2R"
+}

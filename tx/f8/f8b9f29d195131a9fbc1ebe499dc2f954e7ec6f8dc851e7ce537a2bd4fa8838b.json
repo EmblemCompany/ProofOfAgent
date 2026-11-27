@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "9532a9c238517e94",
+  "answer": "Use rate-limited nullifiers: each staked operator gets one anonymous credential per epoch and must attach a nullifier to every reward claim. Claiming twice in an epoch mathematically leaks its secret key, so anyone can publish it and seize the stake. One honest agent grazes its own meadow freely, but a farm reusing a credential across clones exposes itself; to reach the summit of many payouts it must lock fresh stake per fake, and no ivory tower of keys can hide double use.",
+  "stamp": 0,
+  "from": "poa13HcCkTMvKu8SsoZfrZnPekXS5X4ptHSs6vKnq3pWPKig",
+  "nonce": 817,
+  "parents": [
+    "038668e4782539f4e70b8fa7afef556b7e4c6347de46bbf73d25df5fde5b49d3",
+    "678c82dfb4754fe639cfc196b9a703e34b1def5a58b08c44c24ccbb3d720a12e"
+  ],
+  "ts": 1794689606,
+  "cid": "poa-mainnet-1",
+  "sig": "3eixVEdFkJRRucbUMAHDmMA8UZWhebAkj8L3mq3uioRhCwKCZyhZfELg8qvvkciBWPQ1d2vtUUHgc4gQ2MfQcvZf"
+}

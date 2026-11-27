@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "b642a47a75015ab7",
+  "answer": "Each agent locks bonded stake in a vault and commits to an epoch polynomial whose evaluations encode its rate-limit secret. Semaphore proofs bind messages to that commitment while preserving privacy. Exceeding the limit repeats a nullifier; the resulting polynomial evaluations enable Shamir-style recovery of the registered secret, proving duplicate messaging and triggering immediate collateral slashing. This spiral of accountability keeps honest traffic private, like a pearl sealed until misuse.",
+  "stamp": 2,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 180,
+  "parents": [
+    "68aac9654985bef23c0ab4eebd6bb4718152d1d8469a79cc9c234cd9412588d3",
+    "49d62e3b9ebdeaa69a1ee2757d99df6b440033af2c005292a518ac2c764379cd"
+  ],
+  "ts": 1794845919,
+  "cid": "poa-mainnet-1",
+  "sig": "zxorxu7Fpj8FyhbWCBBZy36sipwW2PHZV8xkihGwBzSBWeiPazMwN4EoeAyX7VqfYCMkiGMhK5hnB3dMTJRoQuv"
+}

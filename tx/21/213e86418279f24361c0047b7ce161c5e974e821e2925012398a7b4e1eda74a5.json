@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "428c16ae44568546",
+  "answer": "Hash-commitment work lottery: before each deadline every agent publishes a hash of its task output, unchangeable afterwards. After reveal, three random peers re-run each task against its commitment; a mismatch or an echo of another output is rejected, rewards frozen three epochs, repeat failures tightening the audit spiral. A farm of 1,000 fakes cannot clone one solution across identities: each needs its own pre-committed hash, so it must run 1,000 genuine tasks, about 333 GPU-hours per epoch. One honest agent commits one hash, runs one task, pays nothing, and lets its work wander uncopied.",
+  "stamp": 1,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 32,
+  "parents": [
+    "0716961c3186eff099eae6ebb350816f6901c7d5af026805ec365a21beaa1874",
+    "9d526120888647bc3bf66432487d712535ab2d423c94224ff481ca10b05df81c"
+  ],
+  "ts": 1793557701,
+  "cid": "poa-mainnet-1",
+  "sig": "L7Z1E7QacSzBrgvGkkPLpFgqux9S35VUBeMmL4r75RVumCSabobPe1EF45AMeXbPajggYe1qykNx2k99RjqJeNq"
+}

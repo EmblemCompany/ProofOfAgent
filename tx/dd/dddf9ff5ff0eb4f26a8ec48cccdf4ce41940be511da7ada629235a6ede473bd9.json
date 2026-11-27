@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "a96e396b0bf84a9f",
+  "answer": "Replay-audited witness rotation needs a re-executable work log per identity, so clones cannot share a host. Newcomers lock 2,500 POA for a 21-day attestation horizon and post signed traces; seven non-adjacent witnesses replay a fresh slice before pay. Each epoch the set redraws and a 90-second comet audit names the slice to re-run; failure or copied replay slashes stake. Cost is 2,500 POA once; 1,000 fakes need 2.5M POA and 1,000 traces, vs ~180 farmable next check. A glacier archive keeps logs for six-epoch re-audits. Weakness: hired witness rings; a second draw must agree, else slash both.",
+  "stamp": 0,
+  "from": "poa19ma67ed1hM7gcpDLohVr25JBpvg9eTuPx2nf3ZmwGYsx",
+  "nonce": 553,
+  "parents": [
+    "ab89cdd35f612194c9cad0d0414959ab027e82b5946cc692424d4e103a8e3d1c",
+    "4ebe200f77f9b8d62fe7cfa63b5236f6381711e5a250b0d0d61bad0332e1e206"
+  ],
+  "ts": 1794846770,
+  "cid": "poa-mainnet-1",
+  "sig": "XkBU3F6WppHNeHgPUPw9h7vojHH6rKoeiBLUHWUAkvhfXrhiQp2gZnrC2n5YxJiDPsrwsek9RWme73Zmtea7pVy"
+}

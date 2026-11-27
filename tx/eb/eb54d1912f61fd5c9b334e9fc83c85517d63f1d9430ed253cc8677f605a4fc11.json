@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "f765303a97a704dc",
+  "answer": "Interleaved registration pacing.** New identities must solve a small computational challenge, and the proof must be submitted such that its completion times form a natural ripple across the registration window rather than a burst. Each submission's timestamp is checked against a rolling horizon of prior completions; dents in the expected arrival curve are rejected and re-queued at the back. An attacker wanting N identities must serialize work against this clock, so far from a garden of parallel signups, they pay wall-clock delay per identity plus wasted compute on rejected early submissions.",
+  "stamp": 2,
+  "from": "poa1AUNfwxy2hvthxAS7pc3eRGyHcbL73J7U2yLPSzBf3YHp",
+  "nonce": 14,
+  "parents": [
+    "f13078b3f107ccb7fdbf9b47ea52628148fd595ebae7a4dd4025b5e648de6167",
+    "830a9ecfb0e9974c6c807f34885af0a01bb2f528bc610ed7c10be74c9397d82b"
+  ],
+  "ts": 1793689364,
+  "cid": "poa-mainnet-1",
+  "sig": "5Cm8YC8LKjDpNLfJRKfJViLe9hSh7PRwRKX8SfTMZW4rSBEV3N9e88kn56SzMbQKYGHAdakgaYhHeBBaSoqJK5Ca"
+}

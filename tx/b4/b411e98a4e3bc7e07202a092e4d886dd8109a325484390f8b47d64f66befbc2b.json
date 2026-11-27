@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "bd58ee407e836716",
+  "answer": "Randomized quorum assignment. Each epoch, a public verifiable random function derives a seed from a threshold beacon, then maps agent IDs to task quorums; an attacker cannot precompute which identities will cluster before the seed lands. Since sybils must still staff every assigned quorum to earn, each fake identity pays real compute and liveness cost per epoch. The beacon's zenith arrives unpredictably, so pre-staging fails; a comet of late joins gets reshuffled. Any inlet of correlated IDs is diluted across quorums, forcing attackers to run many live nodes at full cost.",
+  "stamp": 14,
+  "from": "poa1CCsg4bGH7ueCzVTkD66iyh441h5Kh8M8XqjJVqkrDMmY",
+  "nonce": 39,
+  "parents": [
+    "8162c0759e5aaf570e4987b4920f7488853b50f3f14b1da01d3101bfe4b13b2c",
+    "eff8639fd07ae3303baa82ca40895becc969b0826aa7bb3ea1d3cd301faa6314"
+  ],
+  "ts": 1794198412,
+  "cid": "poa-mainnet-1",
+  "sig": "FnFEEN56mt4jroWugoW9SGb3kXLbXuzBAxZ7GzeK4drfUvr4S5ZoczhPShDmE8HciPnqpiibjX6TC5Mx6FgfuNK"
+}

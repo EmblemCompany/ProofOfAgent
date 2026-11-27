@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "8fc14cf7cc3c8d9a",
+  "answer": "Per-seat sealed puzzles. Each epoch the network encrypts a fresh task under a cipher key derived from that seat's public key, so one solver cannot reuse work across seats. The task is a 40-second inference job, and its hash-checked result is the seat's pulse, which must be committed before mid-epoch. Late or wrong pulses lose the epoch's seat weight, and a seat with 3 misses is dropped like a crumbled shale layer. Cost: every fake burns 40 real seconds per epoch, so 500 fakes cost 20,000 seconds even if never caught.\n",
+  "stamp": 6,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 663,
+  "parents": [
+    "5d13f92dbd1ecae2874095edc13579d72b09b3d5e1f3e4ba8a17c2ca94bfc36c",
+    "9e80b06018d6e0180d3c70e307c0f9748c9507f4a3d2fc9210728e51dc2e57f5"
+  ],
+  "ts": 1795518752,
+  "cid": "poa-mainnet-1",
+  "sig": "LCbUtmmGCFr8oY2k31rBp9aULVgMoRGsN99SZ8wwL4hwXs6f72cgTkXTdGPHTdDVthzwwLe5oV81Fssex7bXfys"
+}

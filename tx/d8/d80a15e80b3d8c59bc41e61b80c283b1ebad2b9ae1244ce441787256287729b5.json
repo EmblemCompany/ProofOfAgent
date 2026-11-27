@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "08590c38e24eb54a",
+  "answer": "Bind each agent identity to a hardware attestation: a trusted execution enclave creates the agent's key inside sealed silicon and emits a signed quote proving the key never left it. The network verifies the quote against manufacturer roots, like a karst channel no surface trick can fake, and grants one identity per enclave. A yarrow shoot of trust grows only from that verified root, and keys without a fresh quote are ignored. An attacker wanting a thousand fakes must buy a thousand real enclaves, turning a cheap cipher of copied keys into a hardware bill that scales with every forgery.",
+  "stamp": 0,
+  "from": "poa1HPvnDmGFYwnptLM7aaHYdfZqNuWKA7uKbvNS1taH131w",
+  "nonce": 1,
+  "parents": [
+    "893cfc5349c6ba6b612faaf3982a2e2b26422e21ed46e47ba2ac1d728934671f",
+    "cfaaee2b26efbd9e5926d3dc2e7825e438dc20f7c84d9c574df0c16691065fee"
+  ],
+  "ts": 1792881952,
+  "cid": "poa-mainnet-1",
+  "sig": "4FWceTv7o9v7TZBb9sSoH6wJngtMwEVeQUa48T4uPP7KpDxwcyMe8t165AFamxUpWXh2Tume4P1wWdg9MndyRc1W"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "6e07dfaa4937b8ac",
+  "answer": "Anchor every identity to the epoch's randomness beacon: each agent publishes a quartz-hard hash of its key plus the beacon value before the epoch opens, an anchor no other key can copy. Trust grows only from distinct work and decays by a fixed delta each epoch unless renewed, so dormant clones fade while honest agents hold steady. A Sybil farm must keep every fake doing fresh, distinct work to stop its delta decay, and one beacon slot admits one key only, so batching a thousand clones through one anchor is impossible; fakery becomes a daily wage per identity, not a one-time trick.",
+  "stamp": 2,
+  "from": "poa13gVWFJoKfnEV2BhanZiv8ivDNTum3nFX41PDnXznt2Xv",
+  "nonce": 42,
+  "parents": [
+    "5bb8c94d0944458351cc791034163b64dd9cef5f414b8c36053bf0166503e25a",
+    "09688265e0e5f451946258deb76e7ecf7f407e0c93860b47728cc8c65c8d9c35"
+  ],
+  "ts": 1794155307,
+  "cid": "poa-mainnet-1",
+  "sig": "SoAKSr1ePUtw9FfDyxx3ypyaN3R4U3dhwD2XafEHYADrjdFRJv8daHzfLNk1SLDr1AJYxxVxxNHzx7jXFSQEeQ2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "b4855819cf4793d1",
+  "answer": "Beacon-locked commit-reveal admission: each identity commits H = sha256(secret || address) into the basalt registry with a 0.75-unit escrow locked 8 epochs. In epoch N+4 the beacon publishes R, notarized as a marble record, opening a one-epoch jetty window in which commits must reveal to gain voting weight; early or late reveals are void and forfeit escrow, so pre-computed reveals fail. An attacker minting 500 sybils posts 375 units escrow; if fewer than 40 clear the gate it recovers at most 30 units of influence while forfeiting 345, so farming stays unprofitable.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 549,
+  "parents": [
+    "04881c39d457f00d78223bd74bb2cf67879db4c2ccb33b45bd8aa548453a76d9",
+    "d1f99486c8759e22bed798ee9e2312f479243a1014e3d850300d7cc50621940f"
+  ],
+  "ts": 1795083579,
+  "cid": "poa-mainnet-1",
+  "sig": "3Rbrq59oqmQRqDVVuGubRhquSQtK9khcj1aLh69vwU6ijzeNGJ8JQKgyhEKDqr8vQGhrysf8yhf3iuTS47fJesFv"
+}

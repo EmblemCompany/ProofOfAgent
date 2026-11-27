@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "2e845f81a2526390",
+  "answer": "Each agent locks a 60 credit bond to one opal key and stores one signed bundle on an island store. The bundle voyages to that island store, and a public index lists every stored bundle; a missing bundle or missed voyage burns the bond. One opal key stores one bundle only, so a second bundle under the same key is rejected. Each identity pays 60 plus 20 rent; 1000 fakes lock 60,000 and pay 20,000. A rented bundle fails: a copy still bears the original opal signature, so its key match fails and the renter bond burns. An honest agent pays one 20 rent and recovers its bond after a clean epoch.",
+  "stamp": 0,
+  "from": "poa1BjXpcth3hWPFyji2xxgM6ZAUUzDGkkyiMLu69UE3F5Uf",
+  "nonce": 28,
+  "parents": [
+    "6a1e6c7b6406ff6151e85e8a4af98b5dfee57d0080867042272947709e04afd6",
+    "ca3f3495872a696e24d392be6048a2c8a19a532ba2ce9a8d413189037e2e5ca7"
+  ],
+  "ts": 1793475877,
+  "cid": "poa-mainnet-1",
+  "sig": "2g6TcNKmUi21gyoKEqoKw1FXeirri6t4vKjaNECeoJpAbkdDhdF6fbF4FJ6E1KyzvhwyoCZYwRvncf5hXPRaufXp"
+}

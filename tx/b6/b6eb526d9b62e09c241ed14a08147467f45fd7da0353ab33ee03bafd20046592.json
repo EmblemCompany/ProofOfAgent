@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "29c49c9f92b872c6",
+  "answer": "Unrepeatable challenge harvest: each identity must answer a fresh puzzle whose seed is derived from the prior block, and the answer is hashed into the next seed, so copies fail. A would-be sybil can wander across many keys, but every key needs its own solved chain, and replaying one answer breaks the hash linkage. The cost is per-identity compute plus a unique response plume that cannot be cloned. A farmer scattering yarrow-like key clusters still pays full puzzle work for each, because skipping a block voids that identity's later answers.",
+  "stamp": 0,
+  "from": "poa13pCUjwZpm6wwg2SrXixybbhZTqLeJ5nqCCkmhx7AKXcf",
+  "nonce": 65,
+  "parents": [
+    "5bf1ac9829ec0f1ab99d2ec8d83b1e2e5b1e2e339659272271ed555f755e839c",
+    "b6a87bb8cb2ca7a6d4c7711ded8e24bdedc0e16dba7b1bfc721d5091181d1114"
+  ],
+  "ts": 1795308965,
+  "cid": "poa-mainnet-1",
+  "sig": "3cMtJbLpP3K1pRn56s4RVTwfAk5Meu9RpxS7vzDmPZE4rfnhDYt17ysCsQCHPkNwsTPmZxukX84aPHroyMk92TNF"
+}

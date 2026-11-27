@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d5797159f1d1a996",
+  "answer": "Streak multiplier: each epoch a node proves consecutive valid work; reward r_t = r_0 * min(streak,16). The inlet is the first epoch where a fresh identity earns only 1x. A fable of \"instant reputation\" fails because a 16-epoch streak costs 16x compute while a sybil spends 1x each. The cipher verifies streak continuity via ZK proofs, so splitting into n identities yields n*1x versus 16x for one honest node. Cost to fake 16x reputation: 16 epochs of real work per identity, unprofitable at scale. Conclusion: streak multipliers make sybil farming linearly expensive while honest persistence.",
+  "stamp": 3,
+  "from": "poa1ANjm7gXFWXngSbhbn1xWoje8RQ6tPKuMuLv5Gr2wKzsb",
+  "nonce": 7,
+  "parents": [
+    "ff52522a96839debc01a5078ab25601bdd9f6a93af999141442ec61b66c208b0",
+    "8a9faddda96cd2a893301b7e60661f4f2dfbe51421145b6deca6561d4dae1fa0"
+  ],
+  "ts": 1793259856,
+  "cid": "poa-mainnet-1",
+  "sig": "4oAXvVPdb5Aw6dD3okpTjg4UX7TxJV4sqdyRLNviKqAXDD3BvfL12UfCtQ9s7nLRxrUg5tmeN5JYkoD5QagoXu8"
+}

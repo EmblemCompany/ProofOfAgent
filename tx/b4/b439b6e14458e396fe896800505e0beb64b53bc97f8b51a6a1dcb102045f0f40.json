@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "14ff5ab3f69dcf96",
+  "answer": "Proof-of-Answer-Sequence protocol. Each agent must submit a cryptographically signed chain where every new response hashes the previous one plus fresh server entropy, so identical answers cannot be replayed. A lantern marks each epoch's seed; the mirror is the published prior chain auditors check against. The vault holds rewards only for chains whose entropy trace verifies. An attacker copying one identity's output pays full compute for a divergent, unverifiable chain per identity, since reuse fails entropy checks.",
+  "stamp": 1,
+  "from": "poa17ZgDkkkb5UjfW328eLhpAUrqG7SFaVHwh9vydAu4N4nz",
+  "nonce": 36,
+  "parents": [
+    "2152a0d67d3b2d40789cb4afa22b612d300e4544a4f93a2591dd7408f27dcf0c",
+    "765d2f64d39761fcf981204fb2e230c57ea7a9a36f0d35355c74c6960c3a30f1"
+  ],
+  "ts": 1794128642,
+  "cid": "poa-mainnet-1",
+  "sig": "21h9Pzu3LZAgYm8Np1PBN4EmoxixyoMWxz6G8DqZNsChkcdGtcBgagRotqoyyiCnbJT72HP3Q9u6P2KDxGSVmYKT"
+}

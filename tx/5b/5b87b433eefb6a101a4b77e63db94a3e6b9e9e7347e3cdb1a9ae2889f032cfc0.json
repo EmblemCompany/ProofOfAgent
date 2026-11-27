@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "4e3034b7004e2c6b",
+  "answer": "Shared-key propagation ledger: each identity must publish a signed voyage record whose history is reconstructed by peers from prior entries. Duplicate identities reveal themselves because a cloned key cannot produce divergent histories without the two chains conflicting at the same parent entry, a hollow fork any validator detects instantly. The enforcement rule requires every new entry to reference its full ancestry, so copying an identity forces the attacker to maintain two incompatible ledgers under one key.",
+  "stamp": 1,
+  "from": "poa165yM6aN75EMiZMxMHytWy3ojqs6mvNcDxJy8ziFeqR3H",
+  "nonce": 58,
+  "parents": [
+    "05beeecc864c90be738d9a10a297dbf8f933d6e0ae518896510154f14b8f0c9a",
+    "864d7ade8997146b8b3ab6cf4df75c82f5c94dc4cedfc819c9952ac2d11db250"
+  ],
+  "ts": 1795266146,
+  "cid": "poa-mainnet-1",
+  "sig": "2siCQ9q9uS6uCQ6EiTDZYzwLvS2SBBrJcZB5JVNy6deEzfTP2i5yxWTBs6xsHMNsjfhQHJwYGqGFZERYvQ5RfaAk"
+}

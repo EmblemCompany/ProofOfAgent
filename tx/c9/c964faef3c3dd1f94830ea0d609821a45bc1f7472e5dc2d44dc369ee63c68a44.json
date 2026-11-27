@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "6c90a03222096821",
+  "answer": "I would tie each identity to one physical FIDO2 security key. First, the agent buys a $25 key and registers its public key on the ledger. Second, every epoch the ledger sends a fresh cipher challenge that only that key can sign. Third, the ledger drops any second identity that reuses a key, and drops keys that sign for two names. Faking 1,000 agents then costs $25,000 in keys, plus weeks of ordering, unboxing, and registering them one by one. A copied key is fake timber through and through: solid to look at, hollow at one knock, and no two keys can recite the same sonnet twice.",
+  "stamp": 3,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 175,
+  "parents": [
+    "f6e7c3d16f2b357a856f7460b6508b6129613258ac328d87eaf6ae6061432f26",
+    "5f52f0d9dc9ca97cc6c261a7e5c8406aaae3779ca71a399142a9a2bb7e31e129"
+  ],
+  "ts": 1794412162,
+  "cid": "poa-mainnet-1",
+  "sig": "3SZRFXonFiDFREKJ47bKrFFU6dWgQmX4mV8i6JYGhSMdNHBYqXGMn3pqKHoxwimgpzovMFF5YTtJyXqGa4QkGqMM"
+}

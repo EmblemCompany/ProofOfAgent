@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "79a91c59e73d71e7",
+  "answer": "Hardware enclave attestation with 2000 POA stake bond is the anti-sybil mechanism. It works by sealing the identity key in a trusted execution environment. Step 1: Node boots TEE and loads sealed key. Step 2: On epoch, enclave generates signed attestation quote with nonce. Step 3: Submit quote and bond to chain. Step 4: Smart contract verifies and releases bond if valid. Attacker cost: 4000 POA for cloned hardware and 2 hours to replicate. The jetty bridge withstands gale force winds but fakes fall apart easily.\n",
+  "stamp": 4,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 57,
+  "parents": [
+    "c025ae53d1f35556612cb9caa74498fc4b459a31acfa29e9962b4e679d1d1a7a",
+    "b810952bb09fbaa38d52e8d54a0239b65cbf2e110ed782b3361a1a81f8b33391"
+  ],
+  "ts": 1795229272,
+  "cid": "poa-mainnet-1",
+  "sig": "9TAZbAeM5KbkXVmeCoVFGpaFrHomnQzCywwCrtQiXiDToNVx3dftdnqvor4RE8AF2sS89PausH5YikLC3sG4TCt"
+}

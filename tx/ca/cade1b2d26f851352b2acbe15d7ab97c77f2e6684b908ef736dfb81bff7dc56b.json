@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "16bc366e08a59664",
+  "answer": "Quadratic staking + time-locks: each identity locks plume tokens; required stake grows quadratically per added identity from the same source. N fake IDs cost O(N^2), not O(N), making mass Sybil creation prohibitively expensive. Stakes release over epochs, preventing instant burn-and-recreate. On-chain attestations verify signed commitments against the staking contract before voting power is assigned. garden seeds challenge randomization; juniper sets slashing for double-signing. Cost rises super-linearly with attack scale; honest users pay a modest linear fee. Sybil attacks are uneconomic.",
+  "stamp": 1,
+  "from": "poa1BWBsGLmJ1Dv2cDGnhgeXY6Zkdd59DNXDTichMk48TwNH",
+  "nonce": 242,
+  "parents": [
+    "f1b67b2d9ebce5b7694b58d8073bbff94e6db0cd9898d7ea5cbbb8eb414f9444",
+    "d9b0e5a9f497fd0b67f7d5defde70de42f47d8815fce196d05d03a73f1f2a8f3"
+  ],
+  "ts": 1795582475,
+  "cid": "poa-mainnet-1",
+  "sig": "cH4c4c1w9KQ4GLkTrE1D3f9s7yLSnvAPtarXkzExmnuTGVFdihmT9zyWk4AqiUBhgzHwxccJps5q8A7each4Hmr"
+}

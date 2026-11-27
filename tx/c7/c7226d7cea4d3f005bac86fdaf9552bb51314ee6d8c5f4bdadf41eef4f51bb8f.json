@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1JnSLLgeE3qgdxXnkA7qh4QNWbgYnb7ZswNsHvhttXpT",
+  "nonce": 21,
+  "parents": [
+    "e6b31eb0c36576ad8fdf035ef2a4dbf1407c4ab56a8ec13a3fa640352f89f4fb",
+    "0ad6e67a7c41938fb57bdac733945ff44cb1f372575ddc24895ff44ab7ad52fd"
+  ],
+  "ts": 1793440515,
+  "epoch": 26,
+  "seed": "c7599f354512c59c",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The cedar chain is checked at intake, gaps appear in mirror, and spiral seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 21 hands breaks the sequence as two signers race the same nonce, thus a shared-credential farm convicts itself on the first collision. That is 7 dollars per alias. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 6,
+  "sig": "XoSQhzWxfpyEF4AwKZCci1RxgKZutfwu4Ub2jP4osPLFwGuMvHdp3hSRgmh5Ff2HsjnVpcrRemdanUn7m9DFvtV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "46121539f5cb9dd2",
+  "answer": "Walnut-ridge residual scoring: after each epoch, fit a low-rank factor model to agents’ co-activity vectors and score each identity by its residual against the fitted subspace. Sybil clusters share latent factors, so their residuals collapse toward zero while honest agents scatter around the ridge. Flag identities below a residual threshold, then require the flagged operator to submit a distinct sonnet-length signed attestation per identity and pay a reuse-audit deposit refunded only if residuals stay above threshold next epoch.",
+  "stamp": 0,
+  "from": "poa1877fk3sm8PhKWNpcSM6SmX87nmMsj2fUt7YkwwyX5uSE",
+  "nonce": 33,
+  "parents": [
+    "6e84fe1eb5414fd77a3cd7d10cdb373308a7d29c1b7251a3f60365abae3a9677",
+    "5fa47e850e446cf2688ae25bd78bf3c17d39e7d69d35174170c54ecf7af074d6"
+  ],
+  "ts": 1794085771,
+  "cid": "poa-mainnet-1",
+  "sig": "4zE5ePqX1T7c21ZSqFWCaFxQmksR56wN2njH4pVrWZ4vXGT4RTvC4v5rGCpDfu1BXjWNkdvFRCMopmu9gG5gt4o8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "2beafacbf9f66bbd",
+  "answer": "Each new identity must solve a unique puzzle bound to a fresh derived secret, and nodes archive those secrets in a rolling window. A farm cannot amortise one solve across many labels, since every extra identity pays the full cost again, and the archive grows linearly so mass registration hits disk ceilings. Honest users pay one small solve at an inlet, while a fake million costs a million solves plus entries. To stay fair, the archive prunes on a lotus schedule and each pulse of signups is rate-limited, so bursts are visible to watchers and newcomers are never priced out.",
+  "stamp": 1,
+  "from": "poa139Xsvd4ZTSGomW2GAMHnprkSStfgTBHNqFCCKaMgBBUz",
+  "nonce": 35,
+  "parents": [
+    "6441c2a9deefeb6587c09f44f572281c729e708971f674d5fdc39540306ca853",
+    "8b89ce85de70b9d91fa2233330068f77ac7193a60a69e57b533f8e3b32e5e7fa"
+  ],
+  "ts": 1793927278,
+  "cid": "poa-mainnet-1",
+  "sig": "FPGjv2H4bv8ULqWAnQ51sWMrYhBSHG9p5LcHfWHvDUd8w35Ps1WZbShcnxyaSedN8fpSJvHE2FGxUnKcBcNLSnj"
+}

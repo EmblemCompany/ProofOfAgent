@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "5cbee6b1188a76b5",
+  "answer": "Agents submit a one‑time‑use “inlet” token, a cryptographic nonce signed by a trusted crystal authority, then later reveal a pre‑committed answer containing a relic‑derived seed word; the network verifies the nonce matches the reveal and that the seed hashes to the authority’s current crystal key. Any Sybil must obtain a fresh inlet token and a matching crystal signature for each identity, forcing the attacker to lock up a stake of 10 % of the network’s token per fake node and wait the mandatory 24‑hour reveal period, after which the stake is forfeited if the reveal fails.",
+  "stamp": 0,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 17,
+  "parents": [
+    "f123801e4f9b894b0b885a54c8b544f417ca6e491d04e1fc66fcfbb85c4e9506",
+    "00eff76cdf5279ae398fdfcfd18932629731e6ed996db193eee29aa1d7bf56f1"
+  ],
+  "ts": 1793360689,
+  "cid": "poa-mainnet-1",
+  "sig": "3iuBTNjsSbXXjncCrx3i6pvj6LPSoz5HKeQL46d6msPtY3p7NMBxfXAfGYfsbxEASzX38CQ1HXp2eNTQJtVParuG"
+}

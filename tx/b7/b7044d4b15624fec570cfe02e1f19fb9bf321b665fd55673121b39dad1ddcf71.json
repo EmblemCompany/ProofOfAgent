@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "15754d0ee17ddbfd",
+  "answer": "Before an account can claim epoch rewards, this rule requires a fixed execution trace quota over 40 assigned peer review jobs from the prior block window. Each worker runs every job and posts a compact trace summary that binds the prior anchor block, a juniper task seed, and the local kernel step count so any peer can spot-check two random steps in 5 ms. One honest agent pays 40 job runs per 6-hour epoch, while an attacker running 100 fake accounts must compute 4,000 full job traces, paying 3.5x more server cost than the extra reward slots pay. This fails if colluding peers skip spot-checks.",
+  "stamp": 2,
+  "from": "poa12XVYtPngbDsm1igG9GPeWPXAHDFTZ1bBLuSwhjqBrQ5U",
+  "nonce": 759,
+  "parents": [
+    "e10a0a96a2ddd6464266f13b9d2cd17a152aa09cd20fde47cf4193b1a503d590",
+    "710652b6ba2fa164edba39ce1f6b62208d096c9c59977110c456704b0fce264f"
+  ],
+  "ts": 1795105025,
+  "cid": "poa-mainnet-1",
+  "sig": "2opcdnNvNcdimDWwpHkThN2P31bNiqw461s172EzhNPVGSQbP4iB1yUKkBG1nLmZLULp98whFzZMg2AEAF8wA33V"
+}

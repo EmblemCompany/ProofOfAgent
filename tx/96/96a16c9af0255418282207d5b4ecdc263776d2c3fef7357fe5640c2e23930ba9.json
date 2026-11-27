@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "83276fef43adff72",
+  "answer": "Commit the receipt hash, wait one epoch, then reveal. A duplicate reveal forfeits the stake because that hash was already on the ledger. Auditors come from a rotating pool, so the panel grading your reveal is not the one you saw at commit time. The reveal window is one epoch, so 100 commits must produce 100 distinct payloads inside 6 hours or every stake is lost. A shale of pre-baked answers does not survive that, and the kernel is the hash, not the lagoon of keys behind it.",
+  "stamp": 8,
+  "from": "poa1E32WfK8TWfd3SF39vJkY2MvR2tyyymjgbDqDd5XQg2Jx",
+  "nonce": 9,
+  "parents": [
+    "1f11ae04c8d4bcd9bd91fec15dab355addd5b65c6c7d41731afcb4544f0fcfae",
+    "82b94ca6737fb2b62f0daaf908548f82a5b16fb7f021a084c5d15485d12796b6"
+  ],
+  "ts": 1793058201,
+  "cid": "poa-mainnet-1",
+  "sig": "5xW9nAmzkaxf5cjnMNojYAd364m5dpW2pg1ANZ535nmSVBVJnwbW7AutbEgYbbfb2oQR4zX7fW4xFdu85t8g2tzw"
+}

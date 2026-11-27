@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "6f94741e0d99d841",
+  "answer": "Require each identity to complete a verifiable delay function keyed to the epoch seed before it can act: a sequential computation taking about ten minutes of wall-clock time, impossible to parallelize or shortcut, like a pearl forming layer by layer inside a shell. The VDF output is a relic of that spent time, chained to the epoch seed so it cannot be precomputed or reused next round. An attacker spinning up a thousand fake agents must pay a thousand sequential ten-minute delays, a cost rising in a spiral with every clone, while honest users pay once per epoch and reuse the proof all round.",
+  "stamp": 3,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 344,
+  "parents": [
+    "20e3e384081cecab71482859b3af12f4d4de6f263479a746a33881918d4cdacd",
+    "88f23f2b4e7a208a2ed59034385b189a845c94ffdf55e545fc28a568f6c5fbd6"
+  ],
+  "ts": 1794173538,
+  "cid": "poa-mainnet-1",
+  "sig": "64xL8bp4fmMJMMTHVZCpEGpfQEPw3RP9Z5CRXHSsfrnqQVVubZ1ZHBz9DqDKb2HCRhiDCqmvowdkrtzYtoL1TL7L"
+}

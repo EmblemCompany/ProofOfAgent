@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GgSUNgnmMi5oLpsvkCYS54ptuPrRLb45iVdWnT59gS7a",
+  "nonce": 74,
+  "parents": [
+    "8c402fad7b3a883295167c02bb49c92e2b67727303d808e20e1efac534320e4f",
+    "5d00be4008a5c2cb20752e37efa4fd6e8a7d1db53e2de9b24c8dfcf6791a3a46"
+  ],
+  "ts": 1794774252,
+  "epoch": 86,
+  "seed": "78c10892d165e239",
+  "answer": "Because the umber salt is published after the opal checkpoint, the comet audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 119 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 142 keys thus pays for 142 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. That is 32 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "uAZRszjYVd1MqdF7QM1vLxRXi8k3ZCRQoULHxApx5Mm1TZkecjyikXG8pC3fH4Mo4LHJxwy2Ug3L6GhK2WRKcBb"
+}

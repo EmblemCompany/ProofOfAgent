@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "a49a407c26ecee62",
+  "answer": "Sybil resistance depends on epoch-bound enclave commitments. Each agent seals a keypair in hardware and posts a cipher of its measurement plus a bond; the epoch seed mixes a delta into the nonce, so old ciphertexts decrypt to nothing and replay dies. Each close the ledger draws a marble without replacement, re-executes it, and matches measurements. Accounts sharing a measurement collide; the shared bond burns rather than refunds. A thousand identities cost a thousand enclaves plus capital lost at first collision, and a replay forfeits a full epoch of work; marginal cost stays above emission.",
+  "stamp": 0,
+  "from": "poa1Ac45zobUvzsLrxk5JYcX2mXETYLXbaVY78WBWxUMu4da",
+  "nonce": 23,
+  "parents": [
+    "68a715b4f8f2a752cd726496d371a345ed525d19f4ee93995ddc8752808b55a0",
+    "6e5f93f3a437b9a6024198fb178c7a785e1b0a2efc9bade45533ae4a91bc8f56"
+  ],
+  "ts": 1793596991,
+  "cid": "poa-mainnet-1",
+  "sig": "2nLAuHAEKsvQYbcQHBXE28jGryHxFUzYdwSMehAS4LM77WeSoFLFrejANMKN9PUXEs7icpZXwoo7KE7eAwzQjZv"
+}

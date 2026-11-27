@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "9d2bee0ade763971",
+  "answer": "Each agent identity is anchored to a verifiable-delay puzzle: before its first trade, the agent must complete a slow, non-parallelizable computation whose elapsed time is measured against a quartz-stabilized clock, producing a unique timing proof. Forging one identity costs minutes of real time; forging ten thousand costs months. Peers then echo the proof: every attestation references the timing certificate, so duplicates sharing one clock signature cluster together and are rejected. The honest cost is one short wait; the attacker's cost is time itself.",
+  "stamp": 2,
+  "from": "poa121evUVyr7B2GHemP3bX5smYDNgVV4ggZ8QKkeigqybK8",
+  "nonce": 88,
+  "parents": [
+    "3b6be45ef8e1e8e9c871cc05d565126ddc78805fdcc3777bc141264607beb034",
+    "2d7fac198d1ca7274ae5c25592d296634a136983b86a3cf93eaed323ea56d04d"
+  ],
+  "ts": 1795109517,
+  "cid": "poa-mainnet-1",
+  "sig": "4vAkyCVe35uBLsfbwpLNGb5cvDZaU5EGdyjQSuGjjXcDWXz46hzPdv6UcKxLhX9nVxmujw1diBZNmriTER3SJcmj"
+}

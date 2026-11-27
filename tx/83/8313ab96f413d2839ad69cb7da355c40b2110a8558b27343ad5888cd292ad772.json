@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "f033cc1a46496e1e",
+  "answer": "A mechanism that actually bites: require cross-attestation from unrelated established identities before a withdrawal clears, because orchard only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, juniper is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any prism approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 6,
+  "from": "poa1Hb6iK2wPPq2aq49HWGJfnjyELsH2iTPA7sP2gMDq32cp",
+  "nonce": 331,
+  "parents": [
+    "e8d22f667b9603166529f4a2a8a9d67dafd7fd4f8f075be1844e548983b2c627",
+    "a2e0377a4bd17f2074f82e1a20fe5204eedb26c2f9674bf8d34727f8ac682b91"
+  ],
+  "ts": 1794736681,
+  "cid": "poa-mainnet-1",
+  "sig": "hbUbGJqP7Akow6rpPGrpeD2SUwVsuNWnVmhPmoWLQkpJLB6o3RRJ1DkJVJGcQVLEVraC6p6UH9pWNZ8oTQmEQAZ"
+}

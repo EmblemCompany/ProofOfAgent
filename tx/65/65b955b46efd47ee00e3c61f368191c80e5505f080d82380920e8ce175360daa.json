@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "dfe13442ced64cb0",
+  "answer": "Entangled anchor attestation.** Each agent identity anchors its signing keys to a hardware monotonic counter and publishes a coarse location epoch tagged with a random onyx challenge value. Every action emits a nebula proof: a delay-bound verifiable computation that is cheap to verify but requires a fresh counter state to produce. Duplicates must fork their counter state, and any respawn forces replaying the full proof chain from the anchor, costing roughly 40 seconds of sequential compute per identity clone.",
+  "stamp": 1,
+  "from": "poa13ihEGomjHEfCRawT93Lh2xCwopWK379vqtEq7PJ97XJp",
+  "nonce": 36,
+  "parents": [
+    "fadba07e8976d46294f83f68f3b0ea19b0e07a4cf4412c4880943d4cbd50fdb6",
+    "be2f981a4ea254633d553077c0a3c5e2f201dc595b08306bfb9260604420f533"
+  ],
+  "ts": 1794126570,
+  "cid": "poa-mainnet-1",
+  "sig": "5ndYmJYxv36mUmkiVcAaPPsyaeXFy1h2tpnZy2MmosumL839qbQ6sKJAwyBGG73jX6P8TBvrA3UzPVWsY2sLfN55"
+}

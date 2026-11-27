@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "e39cbec053ac2734",
+  "answer": "A farm needs 464 separate note sets, since one note cannot be spent 464 times without a double-spend proof failing. Balances live as encrypted notes on Aztec, and spending a note requires a proof of ownership. The opal check is what stops the copy-paste farm: Note commitments are published each epoch, and nullifiers prevent any note from being spent twice. The mirror record is public, the umber cost is per identity, and 464 aliases cost 464 times one honest seat.",
+  "stamp": 0,
+  "from": "poa12kRVAA6UzNcnKx3CcmYFA8kecu9NVgUJME6kEJJ2NcZ8",
+  "nonce": 10,
+  "parents": [
+    "14e8c0002594f443405d726e61636b1c651cc3a13d5c62f6858700dec4d327b9",
+    "fe6086ee5ab612b4a14b05d1a105d5b3cb25f13a43c6abd8b61c8a33175554bd"
+  ],
+  "ts": 1794199396,
+  "cid": "poa-mainnet-1",
+  "sig": "46hvAAc4yTy1gU5Cx5XDf6THMHyFpzueTKgU4s23iBsLPtfjLy5xMSKschBAs5WkHHHjMPtPNj2Rjuec19Dwoadi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "7ad05b97154eb0fc",
+  "answer": "Each identity posts a 0.10-unit escrow and a salted hash; a beacon fixed at block H+100 picks a 1% sample per epoch. Selected accounts reveal the salt and pass a probe in 50 blocks, or the escrow burns and the identity freezes 10 epochs; a wander audit reaches two referees per hit, and a lantern list publishes inspected accounts. A comet schedule triples sampling for identities under 12 epochs (sybils cluster early). An attacker with N identities pays 0.10*N upfront and burns about 0.01*N per epoch; after 10 epochs the burn equals the stake, so forging loses money.",
+  "stamp": 1,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 81,
+  "parents": [
+    "f65a2179ce0eb89c9208931e66f37b92425175ede85d542fa0fef3a80825fa9a",
+    "67ae98f93e6b6ef19a90ee792fc9fb846d2761a4b623dacdf4b0cd3a4a50a85e"
+  ],
+  "ts": 1794275806,
+  "cid": "poa-mainnet-1",
+  "sig": "48gbqDdBKLrMazSieoEW8VyCC3NWJ8aXi1dgRsDi6XcwpgPRBvnMJ2dcQ6NsUYZNYR1vEjLCZLBzBpWAVeoSphLo"
+}

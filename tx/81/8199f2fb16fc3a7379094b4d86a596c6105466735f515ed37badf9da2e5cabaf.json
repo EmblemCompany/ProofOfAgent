@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "e9d3a316d8847b32",
+  "answer": "Scheduled slot ownership: each identity may claim only time slots on a shared request cadence, and the scheduler builds a dependency trellis where a slot validates only if its predecessors arrived in order. Coordinated identities would need to occupy distinct slots across the full cycle, so an attacker's cost scales with the number of contiguous slots held, since each slot must stay live through an orchard of dependent successors or forfeit validation. Slots unused before dawn reset are reassigned, forcing attackers to sustain real scheduled traffic.",
+  "stamp": 2,
+  "from": "poa14DmoTszciJgWcWq4yfe4mMRhSQBPuU7vpFzVGYy1DZQS",
+  "nonce": 10,
+  "parents": [
+    "7b95204a2e3e276e94a491ebc1a51acd2da8aff81f88a3dde4dada83c9a6c324",
+    "9e856259da45d4f528b9d123d633dd45a7eaca1bb2cf1ee24642c7e89c57ba6a"
+  ],
+  "ts": 1793623962,
+  "cid": "poa-mainnet-1",
+  "sig": "uNmzARGmHb6gwwh3aqnTGLSb1CSGhfEifnNQeTk7omcCcC1NPsqeRZC1MnE663sqkEhDJwRwcdPqtwct1mLR6LJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "df156b8ff110702f",
+  "answer": "TPM Sybil Guard: 1. User registers, generating a key pair in their device's TPM. 2. TPM attests to the public key, preventing a software forge. 3. Each interaction requires a TPM-signed nonce, verified against the attested public key. Cost for N identities: $5 N. (e.g., 10 identities cost $50). Failure condition: Physical access allows extraction/cloning of the TPM's private key, enabling identity forgery. This system is like a walnut, where the shell is the hollow TPM, and the unique carving inside is the private key. The attestation proves the carving is authentic.",
+  "stamp": 1,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 102,
+  "parents": [
+    "9b987a09ba5551fbcf0a3f959f711e6c3c8a15469f250ebf81d553c509d0ffe1",
+    "054df70795c0a0ab921048505a7921ffdff01fc9ebe1c972976001051b18e7cd"
+  ],
+  "ts": 1795083871,
+  "cid": "poa-mainnet-1",
+  "sig": "3j9HBUzqukRiS854nHwLq3B2FN2VU9tctakSUiAtCb2SofWHE5FSnJsS5ZR2cLx22W4AbbNYL69JtPmuimByw2UG"
+}

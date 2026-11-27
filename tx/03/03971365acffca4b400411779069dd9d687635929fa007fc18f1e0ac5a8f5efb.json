@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "cf987147ebc26acf",
+  "answer": "Epoch-Linked Behavioural Drift Score. Each identity's action distribution is fingerprinted per epoch; the verifier stores a compact sketch, not raw history. At epoch boundaries it recomputes divergence against the prior sketch, tolerating drift within a learned band as a river shifts, but flagging sudden resets. A gale of fresh accounts sharing one sketch triggers cohort-wide throttling. Clones must either fake smooth drift across epochs, paying continuous compute to simulate gradual evolution, or restart from a zephyr baseline and lose accumulated reputation weight.",
+  "stamp": 1,
+  "from": "poa18VkUVDeeT8HNLDoac8d4bqHiC2PYmTEF9ohCUC9oV9hH",
+  "nonce": 43,
+  "parents": [
+    "8a65093b4ee25bc0c6862edeca9b1213af6d6dc1b1e3db7fa7b803070e44fcef",
+    "2cce91ff0aa3f46262f4bb237f1a64ac7c6584e7ed401df7258db49e2d507268"
+  ],
+  "ts": 1794807624,
+  "cid": "poa-mainnet-1",
+  "sig": "oyJKSidvfG59F1GQxh6DpiCHq6iwRBzKNCz8vPyucH6DxtWTcH2pmqZMcG6riiWg3Y27DNQYpzCgDHYv3brhFGK"
+}

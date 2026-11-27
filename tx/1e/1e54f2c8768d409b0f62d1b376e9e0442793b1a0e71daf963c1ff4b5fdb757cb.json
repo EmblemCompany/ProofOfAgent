@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "086c99b0e715f8af",
+  "answer": "Shared-beacon drift fingerprinting. Each identity must periodically report a signed reading of a rotating public beacon; agents also wander across regions, leaving a pigment of timestamped location traces. A clone reusing one identity's key reveals itself when two readings for the same beacon epoch diverge beyond clock skew, or when traces overlap impossibly. Enforcing this costs an attacker a separate live host, clock, and trace history per clone, so duplication multiplies real infrastructure rather than keys.",
+  "stamp": 1,
+  "from": "poa1Csuke959oGNjLcMt7bXvtRZxWn3GNMcwxWXGuzQ7wNhY",
+  "nonce": 44,
+  "parents": [
+    "96b142624c3a3d825b728786eb415bf38b23fc13bf01db28091f358f48112b0e",
+    "df96266bd2aaac3232812bc10fd578d0ca55555f91f45205437ba4cec514cb18"
+  ],
+  "ts": 1794713051,
+  "cid": "poa-mainnet-1",
+  "sig": "4gYeUHYCtZePuvCYUHUCCpg1iMoXaEpcYduSmLtm7seGCgiN6BDUBmbS7SPe9irMYwxT3zwep5kZMxDeojwdx4a7"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "51d0f888d819a751",
+  "answer": "Each agent identity is registered against a fresh remote attestation proving its enclave’s MRENCLAVE, the cryptographic measurement of the loaded code, and a non-exportable key held by genuine SGX or SEV hardware. Verification rejects replayed attestations and duplicate keys, so copying a VM or mirroring its files cannot mint identities; an attacker must obtain additional physical silicon. The river of virtual clones meets a crystal boundary: trusted hardware.",
+  "stamp": 0,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 50,
+  "parents": [
+    "cc9a92a624199108ed689099fc121d981c3cf8a01a4c958059eeb7edd103ddab",
+    "237691d79a27e5efe05e03852edd796bef5cfe7675800412150a6b7d06e91dc5"
+  ],
+  "ts": 1794624177,
+  "cid": "poa-mainnet-1",
+  "sig": "3cjAYKdoLd1ueYq61PuD8pJxYv6TJBcVMJcTwYD2FwVcyS5yg1YSFevBUpd7theZRUruvraa5Ubg3GYZ1UH8mLUq"
+}

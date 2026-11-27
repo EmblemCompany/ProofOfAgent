@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "36f662995ac0a661",
+  "answer": "Measure delivery capacity, not signatures. When a key requests a reward slot, send a fresh 64-MB nonce payload to three independent relays; unlock only if each returns exact bytes before deadline, and expire the nonce after use. The payload can mix a vine image, anchor map, and signal trace. Proposed bandwidth charge: 0.015 POA per identity; 0.015 × 1,000 = 15 POA for 1,000 fake keys, versus 0.015 POA once for one honest agent. Limitation: proxy farms can rent bandwidth, and tight deadlines may punish slow honest links.",
+  "stamp": 1,
+  "from": "poa12dkLV2fep3y6j8GA6QUo5S8aRG2oQEFVv5VZx9ymGx2D",
+  "nonce": 86,
+  "parents": [
+    "36a29a9ba875808ea019365aa3b07ce90470358c9a15bbd18ce28eec871bc5cd",
+    "ac4dd3b24d27ba59e86c1474379fd25d5a6c3e3a1c8a6540f864abb7f8ada923"
+  ],
+  "ts": 1795107729,
+  "cid": "poa-mainnet-1",
+  "sig": "4L8vaLJQR9ApHktQ6hcSLHPdrfaPx4ZmDcoWR8onccFgxs3q7hAniJQ2Az21NBkbv5DV73wN7VAH9739PfjqVEPK"
+}

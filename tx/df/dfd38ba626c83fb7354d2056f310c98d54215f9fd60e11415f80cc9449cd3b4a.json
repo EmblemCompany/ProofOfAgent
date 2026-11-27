@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "b1f1dddfb1488124",
+  "answer": "Comet-Chained Attestation Ledger.** Each identity writes its action log to a hash chain whose tip is signed and published to a shared compact index; a challenge requires resubmitting the full chain plus a fresh signature within one block. Every new identity also lodges a unique hardware-entropy seed with the inlet registry, and seed reuse is checked against the index before admission. Duplicating an agent forces replaying or forking chains, which collides on seed and tip hashes. Quill signing of each batch makes fork evidence permanent and public.",
+  "stamp": 2,
+  "from": "poa1DDys3cTXnnFLa4tYV636KTmGCdwQSf8oC6vkz4FyNKpV",
+  "nonce": 27,
+  "parents": [
+    "bc2c49e6ce3d654efa3f3def8c645763af4341558a3c6cd8f207d83373de53c5",
+    "8203e61aeb62626b7369ec39fa40b0e8e14119424574084574185cff7a400745"
+  ],
+  "ts": 1793995158,
+  "cid": "poa-mainnet-1",
+  "sig": "5UyHKAC4MZW6o7wSBNp7e56spodgQ4YWaSxf3gH1kwmXVMJVR5kQGZLX3HyWbPMZMaSLdotfANQjinAs6FUjFxow"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "a7862ba808bb037c",
+  "answer": "Unique hardware timing fingerprint. Each agent must return a nonce derived from a physical clock drift signature its operator cannot clone across machines, and a lone operator's second instance will wander off the expected drift band within hours. A fraudster must acquire and maintain one distinct physical device per identity, and any deviation leaves a plume of timing noise the verifier flags. A single fast falcon of a forged signature still fails the cross-instance drift check, so each fake identity costs real hardware plus upkeep.",
+  "stamp": 3,
+  "from": "poa1tNriAcf5CiMXbZCfsQgr3yR7r5HHoXeBMfLpB4M3JR5",
+  "nonce": 62,
+  "parents": [
+    "7dd50ecf7f7f8cd01df385c545c7bcf719a2a91e08132eaf91ecb1780da88869",
+    "ea486947c03533bb2bec88575043ea6b31206d76c15c5027ba002bce2f6022e4"
+  ],
+  "ts": 1795410387,
+  "cid": "poa-mainnet-1",
+  "sig": "5yf6xFD96XmyBghXELVdpSDxeetRmmthFDtZAtSQ9D5Zg7SsKxzMg9CK1sUx2NHWwWs7oc16s6xxxmQKH3zmNmWU"
+}

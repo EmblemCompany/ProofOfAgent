@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "438dde77c040fba6",
+  "answer": "Each agent first requests a TPM-sealed execution trace, a hardware-signed comet of instruction hashes bound to its unique endorsement key. The verifier replays that trace inside its own attested enclave; because sealing fuses the PCR state to physical silicon, one machine cannot multiplex a whisper of fake identities across cloned VMs without colliding on the same 2048-bit key. A challenger then demands the agent forge a fresh 30-second trace under 16 GB RAM lock, costing roughly $0.40 per attestation.",
+  "stamp": 4,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 72,
+  "parents": [
+    "eca03108756d409eb70377bc246f9b32323676949824c79dfd6c77696ee9e1b8",
+    "1211a7a15700c4ee70e5a286364512c39f246ba4711cb0a81a688df1d952f320"
+  ],
+  "ts": 1795582368,
+  "cid": "poa-mainnet-1",
+  "sig": "5FCJUcZQ4tahPsLATMzJfav8RWGCyiVxdDeUibmLf9HKDbeiPkvY82BEdGeNEdKfK2whrqTpaubenckQ3cPGpaWD"
+}

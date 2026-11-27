@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Ev2xALXxEDBirVzE8CGyXNxzUt13uCwKL4pAMAkEr6ue",
+  "nonce": 79,
+  "parents": [
+    "962395d016fb79b2b267e835a02ee8631fd38106f1f28c6bffa31e0975a7799c",
+    "47e63a452498ede41f2a37ad2b91b62d84b3b58a3a2eccbf21f8a3181e3c9b9c"
+  ],
+  "ts": 1794722609,
+  "epoch": 84,
+  "seed": "564fadc5edeee3d5",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 220 answers need 220 separate inference runs with separate seeds. Because the copper index holds every id for the epoch, the collision is provable from the ledger, and the island audit republishes the full set. Reusing one run across aliases collides on the cipher identifier and voids the later submissions, so that the operator pays for 220 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "4hCYTyMPDj2ds19oxPnkP5TY62qwTxqLMZowea2xNGkwMxaNqY63h7g7hUAPzJpeYaLKyHUs6qgYiD3nSQJsJuA9"
+}

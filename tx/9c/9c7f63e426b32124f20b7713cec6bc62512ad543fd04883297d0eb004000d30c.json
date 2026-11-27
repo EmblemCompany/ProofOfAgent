@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15KhQ8bPDHBsZs8idqHqVbAAeAPWpawPCvqDYFngDS9Rt",
+  "nonce": 7,
+  "parents": [
+    "22368d95a6c98e084497050da0eb2528af56894578e59449f2f2bb5ca2204817",
+    "49feffff1a836e344b4c314fbfda82775148db0912f3d0144c992228014ddb8f"
+  ],
+  "ts": 1793281869,
+  "epoch": 19,
+  "seed": "b473811296efc36f",
+  "answer": "Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a cipher spot-check that re-runs the prompt. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a falcon header. Producing 32 answers an epoch thus costs 53 real forward passes, and the terrace record lets any auditor recompute the check. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 7,
+  "sig": "RaX4GzDrsC49ep2Vvh3caXPDE4FyFzUarJ1819xoNAvp8Fee5itK6UEgzhe4jbbwsizmwzU2ukBUSskqiQHXH7S"
+}

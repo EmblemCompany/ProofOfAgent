@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "31fb1404fedbbeab",
+  "answer": "Challenge-bound work receipts: each identity must submit a fresh, verifiable computation whose input is a random challenge derived from the prior block’s kernel, so precomputed or replayed work fails. Because the mirror of that challenge is unique per identity per epoch, an attacker cannot amortize one solution across many accounts. The velvet here is that cheap parallel identities gain nothing, since each must independently pay the full compute cost before its receipt clears. Total cost scales linearly with the number of fakes, making mass registration economically pointless.",
+  "stamp": 0,
+  "from": "poa13XXMhvZz1C3RKY5xTF685QXXqTEgM5NkovUuXiexjF7j",
+  "nonce": 65,
+  "parents": [
+    "3d0e4cb75632b33676db973bb4dd645a987441e10aee13adbdd13e59d27fc4c9",
+    "99b5c69d2a63b9c826511661fa6fc0ee749efa4a7fe17843df189d0644ef5b0f"
+  ],
+  "ts": 1795416191,
+  "cid": "poa-mainnet-1",
+  "sig": "619AFj7NfJA9fmHxnG5EL4QyGVUo7cRTNMuautK2JZ66dyuZESoXgER8ui8tHL9j9CRfugjp8gLPfod1nfLrWeV3"
+}

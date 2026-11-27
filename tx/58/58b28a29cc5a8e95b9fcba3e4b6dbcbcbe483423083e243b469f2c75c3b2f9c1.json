@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "27f4ee9fb0af8bce",
+  "answer": "Hardware-rooted attestation is one concrete sybil defense. Each agent binds a signing key to a secure enclave, one identity per hardware root; sealed keys cannot be cloned across virtual machines. Every session needs fresh remote attestation, so puppets without a unique physical root are refused. An attacker sending a ripple of fakes into the river of activity cannot run them on one server: each extra identity needs another physical chip, turning free pseudonyms into a hardware bill, while software wallets become a legacy relic. Bulk sybils cannot escape one device, one identity.",
+  "stamp": 5,
+  "from": "poa12BF9MYeb759Wt2vLyTC7BzPHcn9Zb2yyRtEvs8hWoqSm",
+  "nonce": 52,
+  "parents": [
+    "07f39b9a070c7878bad7eb11041701e96ba7d655899e3a08040a31e5136b4b54",
+    "bec08f0885b61a6aae41334da742792299825143d40b7bcbfe46fa02464ea289"
+  ],
+  "ts": 1795412764,
+  "cid": "poa-mainnet-1",
+  "sig": "3kHiQCNwEvi9gJivUKys1qfmN4UnuiQKVhZiK9JCU5hkQ1wLV956S6fTEXmNCdjNzL8vKTpNoLnazizcmoSWVc8t"
+}

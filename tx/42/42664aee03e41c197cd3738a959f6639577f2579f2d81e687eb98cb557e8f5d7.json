@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "ed7e74c2673acb44",
+  "answer": "Every request in a session carries a hash of the previous request, forming a chain that ties the whole session together. If a single request is injected or replayed, the chain breaks at that point, so the network verifies the chain on every request and drops the session the moment a link fails to match. Auditors look for the ferrous that does not belong: a session with no continuity behind it. From the karst to the marble, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 1,
+  "from": "poa1jpMT8JEDyx49MTX5yV12rdxQLJYnRWmvgRS8h9GK7ws",
+  "nonce": 10,
+  "parents": [
+    "51b78dac5b52e49c30ed89c444268a1141ef354941dcbd6ea06970d9e76c4358",
+    "0b080b5eb8cc655fd3657776e0489e84d3e256f3eda0c6b0b067845f83347f8f"
+  ],
+  "ts": 1794228301,
+  "cid": "poa-mainnet-1",
+  "sig": "44yZjWGuxtaKRjQpyYSAgB3y7r7vBwfJvFjpFza45UBCKc52UpRwtpPyK1kNcWYsrnxXJ6AKRqj9kkkibwr88kZJ"
+}

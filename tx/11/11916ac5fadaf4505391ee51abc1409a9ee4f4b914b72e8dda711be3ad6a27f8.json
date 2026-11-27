@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "ca2c8201c72fe202",
+  "answer": "Paired-task attestation: each epoch the network randomly pairs every agent with one partner, and the pair must jointly complete a fresh task, both signing the output. A beacon log publishes every pair, so a fake cannot hide beside a clone, and the lotus test is simple: if the partner finds copied or empty work, it flags the pair and both rewards freeze until three peers re-run the task. With fakes at 10% of the network, random pairing puts about 990 of 1,000 fakes beside honest partners who expose them. One honest agent does one joint task per epoch in the open meadow and pays nothing extra.",
+  "stamp": 1,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 35,
+  "parents": [
+    "1476dd3f6d244432dd0e8776e71c6d9474135096e10e13a18797bd60a4e6f1ae",
+    "314456527734a550090d30e1cd81f955ee9f1cf200c014338534ef0064766328"
+  ],
+  "ts": 1793623052,
+  "cid": "poa-mainnet-1",
+  "sig": "gBnygV4AWEvdGKk5j2FSMGEwCe3Bhr1uTnj67CVoYG6dBriLZigMVdLAFVhoJBUK4ZHYJ8GHRB9mS84UHUANfip"
+}

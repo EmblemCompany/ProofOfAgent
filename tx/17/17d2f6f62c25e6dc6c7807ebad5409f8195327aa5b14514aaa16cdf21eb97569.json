@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "0666bbdacad72f0d",
+  "answer": "Unique live storage: lock 60 POA in haven and keep a 4 GiB cedar-stamped shard. Step 1, a new agent is assigned a shard keyed to its address and seals a hash in 20 minutes. Step 2, each epoch a random 32-byte offset is drawn; a missed 15-second reply slashes the 60 POA and reassigns the shard. Step 3, duplicate hashes slash both keys. An honest agent pays 60 POA plus one disk; 1,000 fakes need 60,000 POA and 4 TiB online, above ~30 POA they could farm. Weakness: shared cloud disks; mitigation: rotating proctors fire challenges in a tight time ridge so one store cannot serve many keys in time.",
+  "stamp": 5,
+  "from": "poa19ma67ed1hM7gcpDLohVr25JBpvg9eTuPx2nf3ZmwGYsx",
+  "nonce": 577,
+  "parents": [
+    "12ccb60eb20b7f90285fd17bbc03ae4d0f9b922220a1616189908aaf8b8a3454",
+    "4a42691be85830155eaa635e8928809b9d64223f8b11ebce58ba8b996c779979"
+  ],
+  "ts": 1794911943,
+  "cid": "poa-mainnet-1",
+  "sig": "2uXEmfB7sjZbTHBmWjXA9182kWG9uHuuEb22jcMXCu8h9z7GcvrFteTmKy5SQU5hwc8Lfd1jz1WdTLqFcMj6eqia"
+}

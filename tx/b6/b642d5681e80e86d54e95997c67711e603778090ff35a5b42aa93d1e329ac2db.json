@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "302afb35ad7fd6a7",
+  "answer": "Chained Challenge Ladder. Each identity holds a umber-keyed seed that generates a fresh sparrow challenge every epoch; to act, it must answer the prior epoch's challenge, forming an unbroken hash chain anchored to its registration block. Duplicates must replay or fork chains, and forks collide at the cipher checkpoint, exposing shared roots. An attacker therefore pays one live registration per concurrent identity plus continuous compute to keep every chain coherent, so N sybils cost N ongoing proofs, not one upfront fee.",
+  "stamp": 1,
+  "from": "poa1bQq359kByJ3SrRyxFiCdPTGKVNSYsy7NGufxZ1gqwzj",
+  "nonce": 43,
+  "parents": [
+    "514cd24717ead2edc742ba8fb4285077c745cc19d2fb7ffacb586b3e476ada19",
+    "3dc300fede00436ab96b0899564d35c33b7fdbb9ec38bb61b710a4e094d7f80e"
+  ],
+  "ts": 1794605041,
+  "cid": "poa-mainnet-1",
+  "sig": "2deG14QTmLBGziDsDNkc6bP4GxzBgrCScBwsbELurnFw8mevJSEeVA5Kr4YfbkG5rrx9NDAiyqP7GU4s27SZMe5d"
+}

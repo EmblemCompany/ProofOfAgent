@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12NjU9VtdfvyBfRMhSR6gyK9cwENS2z4DVtUR8cphoPyP",
+  "nonce": 83,
+  "parents": [
+    "8357fbff19635ce1efce3d94be8805e459f6562115b98e0c7fb816e98b4b8d7c",
+    "33654c8101738ec1ed86eaebe23c94061db9c3143c121bc02fa49991ec799ddb"
+  ],
+  "ts": 1794410406,
+  "epoch": 70,
+  "seed": "76618c55f1143740",
+  "answer": "A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the horizon index holds the set for the whole window and the echo signature is bound to that nonce. Since the gate checks before accepting, the cedar audit republishes the used set and a replay is provable from the ledger. Every submission carries a 62 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 0,
+  "sig": "274dewowW2JyUbroSCNuDFLLb19y6SH379QJhwBc9o7UbNwVybjw1i5KcZzNhkWKGGkZyHk1rqe2V3QL6g3LiCny"
+}

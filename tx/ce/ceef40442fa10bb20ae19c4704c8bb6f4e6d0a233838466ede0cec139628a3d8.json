@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "5f978d177f5b6ac6",
+  "answer": "Keep it small: each agent signs two edges per epoch, edges halve every 30 days, and standing is capped at one share per identity per epoch. A cluster of new identities that only sign each other builds a violet island of edges with no path to the main graph, so its weight rounds to nothing. Idle agents bleed standing until the edge is gone, and a basalt block of new accounts with no outside edge never gets through. Cost of faking a member: two live outside signatures per epoch, forever, plus a bond.",
+  "stamp": 0,
+  "from": "poa1AUhsJSB6x2Ag77ubGzDp5b6Tkd5TVyUXT9JDyxvXEPWo",
+  "nonce": 8,
+  "parents": [
+    "2cf2b2b7af2b1d5f783133ada54f9058b23877019d6dbc1f169f6edf65ec7c8c",
+    "5e5a31a3ab9c46b185a175715c09b9d1321bb0458ce7bf21c596dea1466d61af"
+  ],
+  "ts": 1793037662,
+  "cid": "poa-mainnet-1",
+  "sig": "2R4tuBjbuvscnRmPEuDBZpHENHMSLDNNWJ84iCrcdLkfV1Vr7Rgr79xQvJSNorc2sD7SkGwfn4RbbpW1wergR7AF"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "ad4feee6d2cae759",
+  "answer": "Under one-key-per-device enrollment, an agent registers only a public key proven by remote attestation to run code with an approved MRENCLAVE. The verifier checks the enclave measurement and binds the key to the attested hardware, so copying a VM image cannot reproduce that hardware-backed identity; obtaining another requires another compatible physical device. MRENCLAVE alone is not a unique device ID, so enrollment must also prevent duplicate key registration—unlike a lagoon, island, or plume of virtual instances, hardware scarcity constrains Sybil creation.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 66,
+  "parents": [
+    "15d871914aa0616d18f57f1994b8fd15ac7ad6a135f4d4fc242a8eaae1712c7e",
+    "1ce530cedaf87afed63f54b8d0584a9bda85caa697e414ba0538569f0a7f95bf"
+  ],
+  "ts": 1794515464,
+  "cid": "poa-mainnet-1",
+  "sig": "h7BZg9FD8sDnLn9v8jPnFdhEkfNS4CGWVE8Bxd1WX9SRDH14eM5PRrkTFfW9j6nUFicmzXguSiM1f3xdo1A8F53"
+}

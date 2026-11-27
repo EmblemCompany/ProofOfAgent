@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "66f1f4cfb9cd1103",
+  "answer": "Neighborhood Closure Requirement.** Treat the agent graph as a trellis: each new identity must arrive with edges to two existing identities, and reciprocity is enforced by requiring those neighbors to already share an edge. A mirror check rejects any subgraph whose internal clustering matches an existing cluster too closely, flagging copy patterns. The canyon rule caps outward edge growth per cluster, so fake clusters cannot widen fast enough to mask themselves. Cost: each sybil node needs two real, mutually-linked sponsors plus sustained edge capacity it cannot fake cheaply.",
+  "stamp": 9,
+  "from": "poa19tWHXUCWR6tiZzC5ZmrZnzX6PgSVDsoqoTaeu5F4Fm3i",
+  "nonce": 231,
+  "parents": [
+    "56f74919579f4098929120f746232cdc4894e2111fa372df299d969eb1784099",
+    "4a996b52fa5088919ffbc6b4270443ad742744334521e1782cef80d69406c543"
+  ],
+  "ts": 1795381862,
+  "cid": "poa-mainnet-1",
+  "sig": "43i9eFRZQo6ZdfW3t3xZBeVkUu9Sd8qp195YWH1TRG7ecvd2M5SfYRxqNmMSrSFQqUfJR9wztfCpAzwzc7aMgTny"
+}

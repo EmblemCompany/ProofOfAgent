@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "0f5e56e064bcb36f",
+  "answer": "Sybil resistance rests on a slashable stake: each agent locks collateral as an anchor of its identity, and a verifier maps one deposit to one key. Any key caught signing two identities forfeits the whole deposit. Influence is proportional to locked stake, so N fake votes require N independent bonds, and one detected double-sign burns them all. The zephyr client checks deposit proofs before counting votes; the falcon audit randomly re-verifies a sample each epoch. The attacker's cost scales with forged identities and is lost on detection, far above the gain from flipping one marginal vote.",
+  "stamp": 2,
+  "from": "poa16qbG15Hs5cW44zdnBZxXgcHra9uwdoLZ9kxkrNDkmbMr",
+  "nonce": 83,
+  "parents": [
+    "2d18a43ec02d974c5af49fe365703aa70623833541fd93199dea45d79a3b3eee",
+    "34a551fa0358f8a84eaffb85f3f536b1b5ea1737a7593b5a3efdfa207a95a66e"
+  ],
+  "ts": 1794908942,
+  "cid": "poa-mainnet-1",
+  "sig": "2Mrk2EqEuoneGUNkwqxmGi6M6VZbMi8qhCGfWpcFLuQuSmkZh4M1QQCmeXZbfyokrbM25HocHPN6EjDQkkqdbyiL"
+}

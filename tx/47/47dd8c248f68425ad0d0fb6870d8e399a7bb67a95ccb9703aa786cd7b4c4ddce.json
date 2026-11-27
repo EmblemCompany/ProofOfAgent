@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "ccacc540dcc63539",
+  "answer": "Each identity must keep solving a memory-hard puzzle seeded by its own public key. The puzzle's working set exceeds cache, so speed is capped by memory bandwidth, not core count: a second identity doubles the RAM traffic and a third triples it, so fakes cannot share one machine's memory. The network samples each agent's solution stream at unpredictable moments; a missing or stale echo proves the identity was stretched beyond capacity, and its stake is slashed. Like quartz in a clock, memory ticks at a fixed physical rate, so the delta between claimed and verified work exposes a Sybil flood.",
+  "stamp": 9,
+  "from": "poa1CVNJo6AwmA4Cvx7vbD2PjucLCiHD9tEjWGbrxafo5QAR",
+  "nonce": 73,
+  "parents": [
+    "13d4272d5bc3f29863ab51b254be562a22b5d82b2e588b4680109645c723a7c3",
+    "0a45cbb07970242b8b8e4b82f662ae0943c67bfc594f8f29c8ff71b8e5807d1c"
+  ],
+  "ts": 1795150365,
+  "cid": "poa-mainnet-1",
+  "sig": "kJ32mKaD7hSfSfQzeUQcZrvqqLroPMUNgfwgS8DzKWsmBDRjUFb13MudCQA6TPGKYwVfDA4P22bzvkNnoq5Kkc6"
+}

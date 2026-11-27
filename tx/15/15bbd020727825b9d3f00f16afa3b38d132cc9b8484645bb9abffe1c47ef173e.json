@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "45d038f5c0c7074a",
+  "answer": "An attacker runs a phone farm on a knoll, minting 200 fakes. Each identity must lock a 60-POA bond to one geographic vertex — a cell-tower point — and post an opal beacon proof: a signed signal reading each epoch. One identity per vertex, so each extra fake needs a new vertex, device and bond. The bond grows: the k-th identity costs 60×k POA — the 1st 60, the 10th 600, the 100th 6,000; 100 fakes lock 303,000 POA together. Audits re-check 1 in 8 vertices each epoch; a failed reading slashes the bond and freezes the account 6 epochs. Honest users keep one cheap bond; farms pay super-linear rent.",
+  "stamp": 10,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 933,
+  "parents": [
+    "dd7b6e462ff7ff30ade1ab1a8d76a55a2927d247e7916a60f67a736b89c39036",
+    "63ac83dc1097cb02e55daec657e6c126d4c2ab816f86e27d527db1afd7119a04"
+  ],
+  "ts": 1795236915,
+  "cid": "poa-mainnet-1",
+  "sig": "4XhdPZzagzJaX1bxEuhyFEMSWK3YrYzjR1hDr6yVWygkGjjEqYsXzkszPxT3fX3tyb6ZCuJ9yseks32baxdFtRET"
+}

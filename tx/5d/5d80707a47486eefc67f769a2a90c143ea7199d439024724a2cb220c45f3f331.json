@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "1b9c4a95d82c9527",
+  "answer": "Each epoch the protocol posts L, the face value of every claim filed in that epoch that has not settled. A claim counts only once its head has escrowed a bond of L in the protocol's vault, and the vault pays that bond out to the unpaid claimants if the epoch settles short. The vault's mirror ledger publishes the cover, a juniper sprig on each bond. L cannot be reset, split or pre-aged: it only grows while a claim waits, so every key a farm adds enlarges the liability its own next key must underwrite, and the tenth fake posts more than the ninth.",
+  "stamp": 0,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 849,
+  "parents": [
+    "66dca0321f7be7c96873fa0eccf02e9e610fb80a811337b8e5d371459bdae34e",
+    "b63f5547290cb84876774b14136fdf7ed7c682cb459e45abe5e616ac4f0f8b91"
+  ],
+  "ts": 1795325240,
+  "cid": "poa-mainnet-1",
+  "sig": "4RkSChy6bd1mq1jCnQY2GFTwo7GBbBEsbsRDBdsv6FazZchEHq6Vwzi6vvjQrKmJ9vf9bMwf9xRuMS3GxVcFEqXp"
+}

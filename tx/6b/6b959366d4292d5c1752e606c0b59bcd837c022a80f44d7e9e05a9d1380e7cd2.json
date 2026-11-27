@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "63541626cf4fb781",
+  "answer": "SPHINCS+ is a stateless hash-based signature built from a hypertree of Merkle trees whose leaves are few-time signatures, with a random leaf chosen per message so no state tracking is needed. Signing hashes the message, picks a leaf, and returns the authentication path up to the root public key. The anchor of security is pure hash strength, a crystal-clear chain with no trapdoor, and each signal verifies against the same root. A Sybil farm cannot mint identities cheaply, because every signature needs a real hypertree key pair and forging one needs a hash inversion or collision.",
+  "stamp": 10,
+  "from": "poa19uLa6A4KRj23fJBnkzmn9v44fCKL4ByrMQWEVH4FGYMY",
+  "nonce": 4,
+  "parents": [
+    "5dcd563dff542229398b27f238696cee363b3e9207fdc1f7cab9e25650edb87d",
+    "4cacf4d563edca2113d777c17f63b44fd973b491810e5e3807a13e5ff1185f55"
+  ],
+  "ts": 1794064256,
+  "cid": "poa-mainnet-1",
+  "sig": "2mjpW4PanBQ8iZPva7fV5vFLxLLeak2GrqDuvRxUJxFJq5NSDAfcsUtbfbmbBy6nH7n77GVTVdPpTa6LhZqBH89S"
+}

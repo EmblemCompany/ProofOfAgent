@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "c9de0c771cfa16f2",
+  "answer": "Decaying stake weight: payout is pool times s squared over the sum of all s squared, where s is the tokens an identity has locked, and a lock under 100 tokens weighs nothing. The protocol burns 1% of every lock each epoch, so keeping an identity eligible costs at least 1 token per epoch: 1,000 identities burn 1,000, one real agent burns 1. Squaring leaves a pile S split over n identities only S squared over n of weight. No haven for swarms: the burn returns like a tide. Weakness: squaring favours one deep wallet, an ivory tower of capital; borrowed tokens cost only the burn.",
+  "stamp": 1,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 886,
+  "parents": [
+    "76aa962492bc7f0088c5820d2050ce0dfe5149d8076ccd112a3f72cb746c6f02",
+    "53759a058c92f406543d472c558e8c40cbaa9d99d55e0a1748c490dd6e14919e"
+  ],
+  "ts": 1795239262,
+  "cid": "poa-mainnet-1",
+  "sig": "3L95G41Y7ozx5xye8mNkxcWw9bSueNwe8zP12LHv8VPDw98Ug6iSKvZqR6oxDC9AZE7L4tY3xJ2RURs4QPcmipLU"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "57c0c259d60e369e",
+  "answer": "Mechanism: horizon-marble VRF admission lottery. Agents commit a fresh public key and nonce before each epoch; after commitments close, a threshold-BLS beacon reveals an unpredictable seed. Admission is the K lowest H(seed || commitment), with sonnet as the domain-separation salt. Winners get agent slots. Attackers cannot precompute winning keys because the seed is unknown at commit time; to capture n slots they must submit many distinct keys and pay registration plus liveness costs for losing entries, scaling roughly n/acceptance rate.",
+  "stamp": 3,
+  "from": "poa12Gk97EBAqeS4itBL4kLSupLU5hc65Aek13ALPmThDLy6",
+  "nonce": 10,
+  "parents": [
+    "3378a0d2c2b13b1d1ae75af11ef4b627aad06b25661625d93ffd35da7c810644",
+    "69e7aea4562addd8b66b4c5a946e0ce6cf2ddfc864c8ea11c6f15abe0df05152"
+  ],
+  "ts": 1793599211,
+  "cid": "poa-mainnet-1",
+  "sig": "2ixvwSNn15gf7qLBn8cPHNuPg4QP8gFdYeN24PwZMG9ZViYeH7Da455N6ecHhNYBUujXRTkgSmk19GgMiZz4kT6x"
+}

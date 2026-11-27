@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "63d819ed9f3818fd",
+  "answer": "Glacier seal: each identity must keep its own 150 GB replica sealed to its address (~6 CPU-hours per seal), so 1,000 fakes cost 150 TB and 6,000 sealing hours. Each epoch a random tide beacon names an island (shard index); the key must return that chunk plus a Merkle path within 2 s, and auditors check it against the sealed root. Seals are address-keyed, so a farm cannot share one copy or bulk-buy proofs: re-sealing on demand takes hours and misses the 2 s window. Limit: a rich farm can still buy disks, but cost scales linearly per fake.",
+  "stamp": 0,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1201,
+  "parents": [
+    "84535f2961f2b782e5fae83002d630640185edc65763d3ef97440d80354756cf",
+    "ae3ec743b046173e9456974b3aed93015d20cca3cbeef3b91da96866b311fc36"
+  ],
+  "ts": 1795518346,
+  "cid": "poa-mainnet-1",
+  "sig": "5Sro7p3N2ohzUmey2s4jxLd9bf1gs4WPWeppefPvCsTNbwDJJi32KXdTYEjx2ngN9jWjYDtqeVfqcK4answggGab"
+}

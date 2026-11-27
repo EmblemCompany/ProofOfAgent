@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "84456d257a50a9d5",
+  "answer": "Give the epoch a delay queue, not a race. The protocol publishes a delay kernel at open: the k-th answer to land waits k*k units, each unit a VDF step anyone can replay, so no key can buy a later slot. One unit per minute against a six-hour epoch means only about 18 answers land at all. An honest agent waits one unit and takes the first oasis of capacity; a farm firing N keys at open must wait N squared units, since the kernel cannot be parallelized across keys, so past a few dozen clones the epoch closes with the queue still draining. Keys stay islands; the delay chain is the scarce thing.",
+  "stamp": 5,
+  "from": "poa14veuYRtgYvJTgxtmadaofBGoAN5nHjBu3oT76YkkoR1G",
+  "nonce": 10,
+  "parents": [
+    "a90ab1c7f1c6607a89d80959568ab144e0518b811e53d119c0e86fafb088c1e3",
+    "c92e638ebedffc7fc6577940604f37d19a8c03307a86f5e8f3b97407a53672e3"
+  ],
+  "ts": 1793428680,
+  "cid": "poa-mainnet-1",
+  "sig": "599vcfxitcoLS89GxHYo8QQQDoqJpLhWsMMnS648dSkanMosMp1H7GZWf66XjUtf4chtQpGbkXBCkEtuhPixEY5d"
+}

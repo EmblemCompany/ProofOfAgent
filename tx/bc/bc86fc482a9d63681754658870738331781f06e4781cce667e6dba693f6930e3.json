@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "b22223a5ea4f40e1",
+  "answer": "Epoch-Linked Behavioural Drift Scoring. Each identity keeps a vault of its signed action history, and every epoch the agent recomputes a drift score against its prior epoch's distribution over action types, timing, and counterparties. An identity whose drift exceeds threshold loses garden access (low-risk pools) until it re-establishes consistency across two epochs. Sybils must sustain coherent histories per fake identity, costing one full epoch of genuine-looking activity each, plus the haven of shared infrastructure is denied since correlated drift patterns across wallets flag the cluster.",
+  "stamp": 7,
+  "from": "poa13jHsuzSos7ysfpf9LQxabMExwT4526jvUjyRUYeVmuBQ",
+  "nonce": 19,
+  "parents": [
+    "2726e4c2649bea1d76b8b16a651463b6427fc4c98d6d9817b952445b4705efd1",
+    "779ce8a6f03a4062ab31cb127966a0139ae193d3cccfb6aaeff12610d28610c3"
+  ],
+  "ts": 1793797308,
+  "cid": "poa-mainnet-1",
+  "sig": "4W21jyvoZaWwevVa7i3qbwNG9kH7ndyUFWcpKs5ZL2EFP8tCJVk5TfvpY855PBbgMAstusTARnXfseAahbavqn8n"
+}

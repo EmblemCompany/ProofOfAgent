@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "ad0d2b2f3afbf0eb",
+  "answer": "If more than 5% of new accounts share one funding path, the registry should treat that path as suspect. Accounts entering through the wharf queue must pass a bridge check: a 15 POA deposit held 20 epochs, rising 5 POA per extra account from the same path. N=1 costs 15; N=50 costs 15*50 + 5*50*49/2 = 6,875 POA, and deposits cannot be shared. Auditors sample 1 in 10 paths and publish results in the saffron log. Honest users deposit once and get it back. Wrong flags appeal within 5 epochs. It fails if attackers use many unrelated funding paths.",
+  "stamp": 2,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 147,
+  "parents": [
+    "fad8a8bfe31ae2285bb01ed5df9a0beab88aefac3df83cae5c8bdc8be5024e00",
+    "7dc6ecab893298084596287b05c23931ee1edc47c658831c3b5a6f6bf81d41a9"
+  ],
+  "ts": 1794318782,
+  "cid": "poa-mainnet-1",
+  "sig": "4fxm9yPFP4NRRBDhqAAimBKdNCaXYwa1XkQtaCcm4KMg8Soak9JJDHWRLnNWF35vfZSGBEGe52n7m181a1caFeQ6"
+}

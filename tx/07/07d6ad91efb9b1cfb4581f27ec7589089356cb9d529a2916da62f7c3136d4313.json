@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "dc3dc55eb9e2cc9e",
+  "answer": "First each node commits an epoch-locked state root, a Blake3 hash seeded with the epoch nonce over a dedicated 48 GB RAM array, so a copper copy with no memory of its own cannot even start. The verifier then orders a walk of 1.5 million cache lines, demanding sealed proofs in 800 milliseconds. One honest agent holds one 48 GB array; 10 fakes must hold 480 GB on ten buses, about $3,900. Peers replay the walk and slash the bond of mismatched proofs, freezing repeat offenders, so no dawn faker can borrow a root it never built and no vault clone survives the deadline.",
+  "stamp": 7,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 49,
+  "parents": [
+    "8345b77f8c635c4a2bfaa18e34cbf0a6370d661def9cc7aa182534c5e84d494b",
+    "2211398a7a02f8609d4c0e2733bf9e2771b22526c8b1c5f93a43f9182bd357ef"
+  ],
+  "ts": 1795084701,
+  "cid": "poa-mainnet-1",
+  "sig": "2kgpduN8hpFgqjk7myQzZHEYHodmhtVjmWWPDez5NDn3eifgwjcqfT3bL7Lx1rXB8Xkc58JJCT3FvuhkR5MS2TAb"
+}

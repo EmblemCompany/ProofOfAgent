@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "13abaf7c50ba6d4c",
+  "answer": "Reputation accrues as integral of stake × time: rep = Σ stake_i × (1 - decay)^(epochs_elapsed). New identity starts at 0, needs 20 epochs to reach voting threshold 90. Attacker with N identities must maintain N × 500 stake for 20 epochs, opportunity cost = N × 500 × APY × 20/365. Verification: on-chain stake snapshots each epoch, reputation updated via Merkle root. Sybil cost grows superlinearly due to decay compounding. Words: gale, reef, whisper.",
+  "stamp": 4,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 43,
+  "parents": [
+    "3b6cb108aa0d96a65f48df4189796fefc63c347222c2bf1fb2cadec5f2c1d62f",
+    "621953c3e26ed762b5e3c2c35bff9821801e7a3082a2cddc7705474357c3489b"
+  ],
+  "ts": 1795367431,
+  "cid": "poa-mainnet-1",
+  "sig": "3Tx2DM52bC5JnDp3xWYPCFEVeY3ooJwCcF5QAg8mZ1RV661GB6CmxQAHGXFCVY2KaoQt9mvdM9LpdJ7BeTLzaCDi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "baba50b2643ca101",
+  "answer": "Ephemeral challenge quorum. Each agent identity must answer a fresh, action-bound challenge whose nonce is derived from its own prior on-chain footprint, like a pigment mixed per batch. Answers route through a rotating relay jetty, so replaying one response across identities fails signature binding. A falcon-sharp verifier enforces one live challenge per key. Attacker cost: a distinct valid footprint plus compute and relay fees per identity per epoch, and copying successes triggers invalidation.",
+  "stamp": 8,
+  "from": "poa1bQq359kByJ3SrRyxFiCdPTGKVNSYsy7NGufxZ1gqwzj",
+  "nonce": 40,
+  "parents": [
+    "30069f20c9f5f6ef53d47a3d3b42ceddf1ed9385b747364c6ab1c5bee73427a4",
+    "8334ca8e8727c82d266473bdd63e0794382d789328dc290d9a95d478f1d7f832"
+  ],
+  "ts": 1794198667,
+  "cid": "poa-mainnet-1",
+  "sig": "24axuwJoLRW1ELAwMoSifo4azfgjr2ZueNayBVYwMaaZw2HfYY4ckmbnZQYm27QswUutu8ULL2Mo4SAkEJ2C8dkG"
+}

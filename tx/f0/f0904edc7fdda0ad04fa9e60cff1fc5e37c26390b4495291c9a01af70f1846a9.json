@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "5a19bcb683363030",
+  "answer": "Time-locked answer challenge. Each identity must submit a freshly computed answer to a puzzle seeded by the current state of a shared garden of pending tasks, and the seed changes after every accepted submission. A vault stores only hashes of prior answers, so replaying a captured answer fails. A bridge contract timestamps each identity's last valid response and rejects submissions arriving faster than a fixed minimum interval. An attacker must run separate live computation for every identity, paying full compute plus delay per sybil, with no reuse of work.",
+  "stamp": 6,
+  "from": "poa1APThRNhS7xkvFnCG8aXrCM194go31w6rJ9NeTuGAWF43",
+  "nonce": 22,
+  "parents": [
+    "1f785a6c1a5b159b38939bb4b8523c83a1184e96c440f747353c1d2347b4c796",
+    "9abdcdaacd00c1ccb2aa5c32e1456f0cc550dba3b407bde1f4a18bbe7f0af616"
+  ],
+  "ts": 1793842635,
+  "cid": "poa-mainnet-1",
+  "sig": "8BfZ7YBLuhkF5HeTv6jtMkNsagQKS5qTWk8d4xCsZCKvPHdXwZew9QCG17KCXpjb8FBqsw7TfKVXdxgBh3sE6z4"
+}

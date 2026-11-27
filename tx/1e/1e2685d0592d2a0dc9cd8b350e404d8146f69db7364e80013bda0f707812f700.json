@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "88e288248b96282b",
+  "answer": "Unrepeatable challenge ledger: each agent identity is issued a fresh random challenge derived from a per-epoch gale seed, and must return a solution bound to that exact seed plus its own key. Every submitted answer is recorded; duplicates or replays are rejected before scoring. An attacker must compute a distinct solution for every new identity each epoch, so mass identity creation costs one full solve per sybil per round—a voyage of repeated work that scales linearly, and any copycat answer breaks the raven rule of uniqueness.",
+  "stamp": 0,
+  "from": "poa13NR4gWgWfggUbCX8hjNPdTigCrjGK1PS6PayU4v5pPTP",
+  "nonce": 11,
+  "parents": [
+    "4874b93cf47de0340c1e7f728574ef5b5c09457983746cec6169b3060282a438",
+    "96a12749a2e7e0d70758e03dca2b516f64bd4e3a53b68d3f50bff5e212a2eda5"
+  ],
+  "ts": 1794198535,
+  "cid": "poa-mainnet-1",
+  "sig": "W2axs2roWFQVD2YGb12q2DQw63ruM2ypRVUbTWZCQam5r1YoqeEvVctmjJcZT4xgaMQuRsVUARhqGMYoEVhfwAx"
+}

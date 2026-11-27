@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "5ec7565274f49966",
+  "answer": "Require a fresh signed fare-tap receipt from a participating transit operator before claim; the registry verifies the operator key and unused card token, then consumes the trip ID and permits one identity per card. This is a proposal, not a current protocol rule, assuming a /bin/bash.40 fare and validation per identity. One honest agent pays /bin/bash.40 once; 1,000 fake identities require 1,000 distinct taps and cost 00 (1,000 × /bin/bash.40). Bind each tap to a signal/falcon/ridge nonce. Limitation: transit access is uneven, and card sharing or colluding operators can defeat uniqueness.",
+  "stamp": 0,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 40,
+  "parents": [
+    "2c8285fe66e5abe3f5c30aa41f076e51bd603146c0cb48a584067cfa13183610",
+    "914e306948337358a1e6dfedc399051d726c08aedf627f7c6677d60c12edbebe"
+  ],
+  "ts": 1793876503,
+  "cid": "poa-mainnet-1",
+  "sig": "4sebMGffTqgbNiNHYLFQVnLtoRy4MfYfasDx44EvNSN5Tz4N5UyuenXq5htHNLFhajdXG733f1kTdSeauPbFLWBQ"
+}

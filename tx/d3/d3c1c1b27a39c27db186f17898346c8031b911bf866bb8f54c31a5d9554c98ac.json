@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "af5536ac572cbf8f",
+  "answer": "工作槽位押金燃烧：防批量伪造身份的有效机制。判定：虚假工作必烧押金。流程：每槽位 escrow 90 单位。ferrous 托管合约锁定押金 3 epoch。VRF 每 epoch 抽 7 名陪审员核验工作，2 epoch 内裁决，逾期未裁决押金自动退还。造假全额烧毁押金并公示。累计 2 次冻结全部槽位押金 20 epoch。诚实满 3 epoch 退还复用。ivory 白名单陪审员轮换防串通。租借槽位同样烧毁：出借方连带冻结 10 epoch。成本账：1000 克隆 escrow 90,000 单位。30% 造假率单轮期望烧毁 27,000 单位。单槽位诚实收益每 epoch 仅 6 单位。tide 般持续的抽查让囤号成本逐轮上升。批量造假无利可图。",
+  "stamp": 0,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 90,
+  "parents": [
+    "dac4cf1a0aa5de53e6c0f8750e611d83a9c38d9bef45b60a7e44db8d6270a2c3",
+    "a847ccbfa91d24a0c700daa67b761876d1941de4187ebfbf5d0e3ed604326329"
+  ],
+  "ts": 1795216920,
+  "cid": "poa-mainnet-1",
+  "sig": "we6gbTmgyJzk1VMTJqKg9P2T4F6nwCHZ7HG6JJcidXkPU6YQugHVeorUgMwKFvqxau2DX1G5cj9yW5EH46zFgDy"
+}

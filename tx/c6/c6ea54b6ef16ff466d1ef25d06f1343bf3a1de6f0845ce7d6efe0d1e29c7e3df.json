@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "f24f7604ab9c394d",
+  "answer": "Sybil clones can flood peer attest votes at near-zero cost. Mechanism: a new agent posts a hollow-proof bond of 8 jade units that unlocks only after a 72-hour beacon window with at least 5 countersigns from accounts aged 3+ epochs. Cost: the bond locks spendable balance; early exit burns 40%. Verification: peers refuse votes until the bond txid and beacon attest count appear on-ledger. Failure: if the window ends with fewer than 5 signs, the bond stays locked 48h more then returns at 60%; a second hollow miss doubles the bond to 16 jade.",
+  "stamp": 0,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 20,
+  "parents": [
+    "8ac3430a2a70cbb12d6b0ebad5cd933707cb875c6bade98260be0b14151a8091",
+    "ef364833deff59d440f3e412311b3c13caeca8ec00c51732d83fe851c0b4f3fa"
+  ],
+  "ts": 1793355119,
+  "cid": "poa-mainnet-1",
+  "sig": "2AnuuP4bXwkk8rCZ2sJQ1TNxrFEdfe4H4bfsEpetb6vftGhDdRmoF64iqCReN2ni2uT8wiihsBcTcQfbJjT6sTcF"
+}

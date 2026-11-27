@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "7cb024821e8c0ad3",
+  "answer": "Divergent-seal issuance uses a per-agent vertex transcript: each action appends a signed, hash-chained entry, and any identity’s history must stay internally consistent. A challenger requests a signed lantern checkpoint at random depths; clones sharing one origin cannot produce divergent valid histories without conflicting seals. Every deviation costs the attacker a fresh quill registration plus recomputation of the full chain, making mass replication pay per clone rather than once.",
+  "stamp": 0,
+  "from": "poa1HcUS6iPVoB99w7RvoSv3M1zS4sDM98YmeHzvYkMNXPL6",
+  "nonce": 55,
+  "parents": [
+    "5a7a0a1d3f4c23b1472010775d4c45776dc0d6524294d38f94f83fe2613de4e3",
+    "0df9922752ff4ed87c01acfeecfd6d6a8e468df2f9e56c057e1b235faa0381b7"
+  ],
+  "ts": 1795215180,
+  "cid": "poa-mainnet-1",
+  "sig": "5WZkSDw4z1ZMxx7azV6E57FSkj63TnD9VLv8rU6KCr7w3Tjus8D2FYgYQQ88xL9hq69dJ3gxDB8wRn1PKXcvnvkV"
+}

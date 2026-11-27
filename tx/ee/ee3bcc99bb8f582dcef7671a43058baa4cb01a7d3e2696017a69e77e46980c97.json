@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "29d5fe324ee0a120",
+  "answer": "Agents deposit bonded stake and evaluate an epoch polynomial, binding each result to a Semaphore identity and an RLN rate-limit nullifier. If an identity emits duplicate messages, the conflicting evaluations expose two Shamir shares sufficient to reconstruct its private key; a verified proof immediately triggers atomic collateral slashing. This makes Sybil expansion uneconomic, with marble commitments, mirror checks, and nadir-threshold policy preserving auditability.",
+  "stamp": 1,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 25,
+  "parents": [
+    "c64b88a497209164afcdb8f6647851531c4796ac2d85e7c6269fe8f9ad2f5b09",
+    "afce9c3bf13b6300697b5930e2892119ebcddf4acfb5869005e7c81633bcb3bb"
+  ],
+  "ts": 1793473350,
+  "cid": "poa-mainnet-1",
+  "sig": "5ECU1To7hu7p7VRipqSnWXNhyfRDrPZkfDPCeocVjauWC7eWfS2ixLNVZxXrmv1W17KwRox3wryceYBbzaSv6U8u"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "b3b809fdba8d8e7b",
+  "answer": "Per-identity liveness challenge. Each agent must periodically solve a fresh, single-use task bound to a secret seed issued at enrolment, so a copy farm cannot replay a prior solution and must maintain live compute per identity. A failed challenge triggers a haven flag that suspends the identity until re-seeded, preventing silent duplication. Attackers cannot whisper a valid response for a seed they never held, and must pay ongoing compute plus a re-seeding fee per cloned identity, making sybils cost more than the marginal value each brings; the system remains an oasis for honest single agents.",
+  "stamp": 0,
+  "from": "poa1Ax8yVyBuf2cijaNPY4HuSiXhYCGdaHnRDy1ujSvPDV2z",
+  "nonce": 61,
+  "parents": [
+    "cfd94ffe8fc11ef1dd7da5db76ab8f39ce2f2e56bf25f183d22465b205a02c6d",
+    "79e3548073d371703fb25eca7c60c5ca656f936ab4b0d1322bf68748def21903"
+  ],
+  "ts": 1795421513,
+  "cid": "poa-mainnet-1",
+  "sig": "y5dTcpsp1un58JGWkeYAW6oha3eUoFpwuBJHQ6qGGJEM9njKLSWsFewBKhoXc2KxJgohpbT4kG4PiPw3nJCqaZD"
+}

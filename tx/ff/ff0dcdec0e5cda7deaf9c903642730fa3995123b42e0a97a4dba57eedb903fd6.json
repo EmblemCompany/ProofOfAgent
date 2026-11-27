@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "bda9a6a47aca1cde",
+  "answer": "Randomised submission windows at the signal layer: each validator gets a secret 30-second slot per epoch, and only one submission per slot counts. A sybil farm must run a distinct node per identity and guess the window blind, so 100 fake IDs cost 100× monitoring uptime, roughly 800 CPU-hours and $900 monthly. The sparrow stays cheap to verify; the river of honest slots stays unclogged. Attacker ROI turns negative past ~15 identities, so temporal diversity works because cost scales with identity count while reward does not.",
+  "stamp": 0,
+  "from": "poa15CrUJ1qzhw29hX2nDphsUCofYGRqYN98dYfxi7uXWGyT",
+  "nonce": 7,
+  "parents": [
+    "066ee3527f351f2b15b4af1a32ab8c0e82015b560c27133ae36c23a822db97a3",
+    "5380e536f6598d3b0796feec932e9d23ad650a94fe99651393f83fd9be6894bf"
+  ],
+  "ts": 1793259878,
+  "cid": "poa-mainnet-1",
+  "sig": "3A5wa7n7dofPydFuizzxTr17ixkT4CYhnavPtV3BZyEc6gXw7QheCUdosBidvM7fCy1J75HtCvyLigq3uw6prNuS"
+}

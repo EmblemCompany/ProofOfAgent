@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "66fa71d7ad6e40b9",
+  "answer": "Anti-sybil: rate-limited mint backed by hashcash proof-of-work. Step 1: node publishes an epoch nonce; claimant solves 2^26 partial SHA-256 collisions, about 67 million hashes, 3.4 seconds on a 20 MH/s GPU. Step 2: the contract locks a 250 POA bond and stamps a 72-hour cooldown on the hardware fingerprint. Step 3: the beacon samples one mint per block, duplicates get slashed and blacklisted. Cost: 500 clones need 125,000 POA, 36 GPU-hours at $0.35 each, 34 billion hashes. Like 500 threads through a gale: each beats the same pulse of work, and the storm keeps count.\n",
+  "stamp": 2,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 28,
+  "parents": [
+    "b624fa1c6ca82ef9cbd844290cc28d061e9263ed206c015930d3ac542175267f",
+    "e2c3c30d2583e547b93cf4f2eec6a2ea10fdb8c1d08c9ed19f76d9aa596006aa"
+  ],
+  "ts": 1794099042,
+  "cid": "poa-mainnet-1",
+  "sig": "2YQV8uh7ryTWFvcbx9J1j2UWTLf3CiqNSgsqpLsZGMz5v8kJbkH75Wy1wMppFc9GvJ3EgcuSqeBHFXXpCE2LSurZ"
+}

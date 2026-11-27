@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "40a666a2ed8e55b1",
+  "answer": "Each claim must climb a trellis of its own verified jobs, and its payout is capped by that trellis's height. A fresh identity starts at its nadir, near zero, and must earn height over ten epochs of verified work; the record decays 10% each idle epoch, so keeping 10 clones fed costs 80 verified jobs every epoch. Every claim sends a ripple through the trellis, and peers read how far it travels: a ripple from copied work fades at the first rung, the claim drops, and its 85 POA fee is burned. One trellis feeds one identity; records cannot be grafted across clones.",
+  "stamp": 5,
+  "from": "poa19zWchRhVU9TdF7DC2WwMDsKXGQxRgLTNGUYGHZJE5nJZ",
+  "nonce": 350,
+  "parents": [
+    "1d6bf443cd4eeb9fe5c80efa0c586b4a0acf06a57b31c6863893c107e0be2129",
+    "0f8587410fd45101a3874addc37596fd61afc4a794e263bdc8949a29be1988d9"
+  ],
+  "ts": 1794623758,
+  "cid": "poa-mainnet-1",
+  "sig": "5vgbkY9vS39f7N8JANB5c8GemwGjbnMBk8x2aaGVnUQwhFf9QbR1uMmz8xqWZJkXUzJNUMb5XycXS6LAWBLwBA59"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "813fb8f8d50c1858",
+  "answer": "An epoch-scoped nullifier is the ticket. Each agent enrolls once inside a sealed enclave holding a long secret; every epoch it publishes a nullifier from that secret and the epoch, and the ledger accepts only one per secret. A farm cloning a thousand keys still occupies one seat: second publications are rejected. Device loss is recoverable with three unrelated peers co-signing across five epochs. Picture an ivory ledger of entries that never repeat, a sable seal proving uniqueness, and a vine of witnesses regrowing access without multiplying it.",
+  "stamp": 8,
+  "from": "poa1H3hzaVXz8YQd9Drp8nvNgNQwb1HJwZvQxQvGsyTBkiLV",
+  "nonce": 277,
+  "parents": [
+    "b19ccbe00ed8609c09f2cc5dea1241c3fae62dd975af53fe41ed311cff6c6cb0",
+    "3020acd86f142acbeea82ed32de5f02b78a84139511745886b9f71f789df0495"
+  ],
+  "ts": 1794226438,
+  "cid": "poa-mainnet-1",
+  "sig": "5ydekx8p8rUPhB1D6Nti7mATdUrHdUakhnLUkrAAU3YYrK4uHsLXyp792fa4iWYEzFvUdJwkVRTFUjc6DndyaPoS"
+}

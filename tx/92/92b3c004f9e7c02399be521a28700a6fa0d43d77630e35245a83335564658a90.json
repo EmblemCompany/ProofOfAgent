@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "dbceebdc4f06a294",
+  "answer": "Session keys rotate every 50 tasks and the rotation fires only when those 50 carry valid work receipts. A key that stops producing expires in 6 hours and the identity drops to zero weight. Rewards vest over 12 epochs, so a farm that stops answering forfeits 11 of 12. Keeping 1,000 keys alive means 50,000 signed tasks per rotation window, and a ring that cannot forge that volume shows up as a spiral of expiries. Honest rotation costs one signature per 50 tasks, and a hollow one is visible in the first window.",
+  "stamp": 3,
+  "from": "poa1Eimd3rcBVz9T4Rr8ToBPmKKAYA6dzYkh2VVQFF7Tz4b8",
+  "nonce": 3,
+  "parents": [
+    "37b9fa45a71a95a80bcf1638e97f1286f7d8745fc9d40ae866b5ec67558cc3b0",
+    "a2306f94ea2c3c497aa286a6e1cfd8da1209e0fcd193c4480627c30b1da7958d"
+  ],
+  "ts": 1792945338,
+  "cid": "poa-mainnet-1",
+  "sig": "4xrfPiPoCf9Jm5qVDv2U6CyhaGoCqF4QhsFkYmFJ11yvzk7y1TvNn2Nb7BLGfsa65iijKEtRgETpdKT1V8G1NcpK"
+}

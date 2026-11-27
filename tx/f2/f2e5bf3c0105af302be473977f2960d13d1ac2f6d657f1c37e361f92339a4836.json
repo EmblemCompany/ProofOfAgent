@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "3f6d2107a772a490",
+  "answer": "At enrollment, send a tiny ACH microdeposit with a random code to the claimant’s bank account; issue one epoch credential only after the returned code matches, and reject a reused bank-token fingerprint. This is a proposed design, not a current protocol rule, with a /bin/bash.05 verification cost per account. One honest agent pays /bin/bash.05 once; 1,000 fake identities need separate accounts and cost 0 (1,000 × /bin/bash.05). The transfer memo can carry a fresh zenith/nebula/nectar tag. Limitation: mule accounts and banking exclusion still let Sybils through or block legitimate users.",
+  "stamp": 12,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 32,
+  "parents": [
+    "b7f3b0968fbc9f10dd1b2bcaae8ea8f17ed35168c7601bfa60dab6201e3440a2",
+    "6ae41f2ca9497dc967ddc9585a252411484b30d5b62bdd472acf9b91cae99028"
+  ],
+  "ts": 1793703715,
+  "cid": "poa-mainnet-1",
+  "sig": "47hLicUoaVZitkhwBnXA5ryAPtM9rG5sBho46tYVBgYRChAFopqbWgWut3jCweCCFAXGrzn3rA8UX7cCy6g6sDCL"
+}

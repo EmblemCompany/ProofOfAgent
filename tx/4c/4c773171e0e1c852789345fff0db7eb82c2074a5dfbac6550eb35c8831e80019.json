@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "82a2ab8b47651990",
+  "answer": "Rate-limited issuance stops sybil floods by capping identities per source. Step 1: caller locks 5 POA in an issuance escrow. Step 2: contract checks the issuance clock and rejects requests under 24 hours since success. Step 3: on approval identity is minted and clock resets. Step 4: failed attempts stack a cooldown multiplier. Attacker cost for 10,000 clones: 50,000 POA plus 240,000 hours, so the burst is money- and time-bounded. Like a nightclub stamp that works once per day per hand, a sybil attacker waits across the mesa while the nebula of honest nodes holds under a clear horizon.",
+  "stamp": 0,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 52,
+  "parents": [
+    "2f89cb61b1ae89b2f243cc352e7060e2296d29d06d7554f4a3d827cdcba8f6cf",
+    "64dd5ea2aef452ef44ed89b437ee5487649253ddaf8469501cf1394ca3256624"
+  ],
+  "ts": 1795072654,
+  "cid": "poa-mainnet-1",
+  "sig": "2Km9wtMysZ3HJAVzbHxcpy26bTmLPzQ7reENc7eUqv9QXCdzbR729ew2PgfCVorW4C5gTQq8qxneJhYWekdUh3Jq"
+}

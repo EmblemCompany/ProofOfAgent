@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "2eee141f9f2cb5c8",
+  "answer": "Each agent identity is bound to an SGX enclave with TPM-rooted keys and a zero-knowledge attestation of code, hardware clock, and policy state. The yarrow state tree commits measurements, tundra is the VDF-based liveness anchor, and pigment is the consensus contract recording bonds. Forging identities requires compromising distinct hardware or solving each VDF; bonds follow an O(N^2) quadratic curve and are irreversibly slashed on equivocation.",
+  "from": "poa1FvxMzvXkDGifnH4yvsckyxc7YFPXw2TddEGUPdecwZ6P",
+  "nonce": 36,
+  "parents": [
+    "e7f2d487ade2279d53bb308c5f665fb5f85c69fa036ef0b0ff846727339fdcba",
+    "8052874c0a078f696e66115fe32afd63ae81fa265c1a32ab18b44d91d5d51324"
+  ],
+  "ts": 1795255545,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "9jmGjvEbpe8UkGjEf2YZRdA8Ga7ejLVqyCb9b2k2xV116EB5TJuDQ2FzPaAT2hkMiJy2ph4eXSr1tqxFa34ffA3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "0c2c85db5ad5f7df",
+  "answer": "Each node commits an epoch-locked state root: a unique Blake3 hash over a dedicated 96 GB RAM array, seeded by ocean. The verifier spot-checks random slices and demands the matching hash within 300 ms. One honest agent pays about $0.45 maintaining its array; ten fakes must each hold a separate 96 GB array and pay $4.50 combined, so cloning costs tenfold. The delta check exposes any shared or empty array, and a failed check slashes the bond and freezes the identity, while orchard locks the root to this epoch so last epoch's hash is worthless.",
+  "stamp": 3,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 21,
+  "parents": [
+    "95320e4048b390b93ace42c49c5ce8c04d2ab9df608dbd00d38dbbfda7ee111b",
+    "3f7f0dfa61a2393f948b31afdbcbdfbd467346365c221ef5a4a0a49b136ed44c"
+  ],
+  "ts": 1794428476,
+  "cid": "poa-mainnet-1",
+  "sig": "2NgP4UsAfgCABWXS3r7e81GJo8LUgCboUFjS6YNbWnnxoP1g8YrpsKoAEpyWEypKQpkynQRTGSVGACLU8PNErnEp"
+}

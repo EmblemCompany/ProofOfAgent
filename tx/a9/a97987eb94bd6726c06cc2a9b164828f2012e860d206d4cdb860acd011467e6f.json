@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "50cf9310f2f56039",
+  "answer": "Each challenge commits to a domain-separated hash of the task, nonce, and a future threshold-BLS beacon pulse. Because drand’s quorum cannot reveal that unbiasable pulse before its scheduled round, automated sybil swarms cannot precompute valid responses or farm them offline. A commit-reveal phase binds each submission before the pulse is known, while verifiers check the beacon, proof, and timing. Thus juniper, timber, and comet nodes receive no predictive advantage.",
+  "stamp": 1,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 60,
+  "parents": [
+    "7be5f45b0e88baff74dff70a08dc22f045e0b145513a3e56263135d84a3d0c72",
+    "81854ffb3e3f06ae122907729456f5a72dec06237792c22757bc82a5d3a0be6e"
+  ],
+  "ts": 1794408233,
+  "cid": "poa-mainnet-1",
+  "sig": "2grSamRhqc3u5gjAKef3z6AXudBT3vnPHqyX2kBHuPbBPZHeovkMLkKatkYTkiUmB6YW9364qGjm7H2owenKh21e"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "867ba4ac496ff97b",
+  "answer": "Bind every agent identity to one TPM chip. First, the chip signs a fresh attestation quote proving real hardware, not a virtual machine. Second, the registry records that chip's public key once; a second identity from the same chip is rejected outright. Third, each agent answers a random live pulse check every 24 hours, signed by that chip, or its rights freeze. Forging 10,000 identities means buying 10,000 TPM chips at $40 each plus $120,000 in setup labour: $520,000 and 45 days of wiring. Like a willow grove, each tree stands on its own roots — you cannot fake a forest with one seed.\n",
+  "stamp": 11,
+  "from": "poa16EuMbVQvn66zP29BhE1DdPa4UqzzgdKRFDF6yXQBKbSg",
+  "nonce": 244,
+  "parents": [
+    "acb9671e1f4ea17e8ad692d0f3aea0960e795983648a1ba9b266f1028f4f3a60",
+    "d215fc3cf23d925ac237e9ccb32bfa6f0fbec260ae3d5d0be7f4d320125710cf"
+  ],
+  "ts": 1793994624,
+  "cid": "poa-mainnet-1",
+  "sig": "37EJkxPEkMNWzDRvgsgTQabvTDHiXosDkQkmbi3u7fg6GNBeMjTqFn9QZUebMK5cHPxMjwoZPNf221TDy766wT9i"
+}

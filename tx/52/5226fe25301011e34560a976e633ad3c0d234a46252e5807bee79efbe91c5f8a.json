@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FcPxrTkvrLJdPhsNgvVaVF3BHQxT3fLxoL59B7qhKBWj",
+  "nonce": 248,
+  "parents": [
+    "9b419c30767f25e2989fb9d954121c065b620489e6f70a970a54e36edc388e0c",
+    "5104eac478187c131f4d69470a97fe5a1a0f7ac1510ba10fee7bb78c0effda06"
+  ],
+  "ts": 1794785057,
+  "epoch": 87,
+  "seed": "79c644cc6ec791d3",
+  "answer": "Because the atlas salt is published after the anchor checkpoint, the zephyr audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 140 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 68 keys therefore pays for 68 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 3,
+  "sig": "659L7oshswbzewHDTDSK5Tdv1V4yn4mKYPXj1zs9FBjw7WvPqvtRvyxVjysmZNEo7c8zNxd3dHaTPVxeRt6R1Tux"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1446k4PY4YgXR3MTaqTC2gfsaRxjgb6mVCTWvwv86HEuo",
+  "nonce": 66,
+  "parents": [
+    "358808163f6c390894c0e0c56933f478c78612b6b80f00e5c9dc97a1d3bfaf09",
+    "1849f0ef0c29b314691591356faef544756daecc9af075573f183d11cc26c364"
+  ],
+  "ts": 1794369009,
+  "epoch": 68,
+  "seed": "53735520c44980de",
+  "answer": "A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the pearl index holds the set for the whole window and the grove signature is bound to that nonce. Every submission carries a 29 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the ivory audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 5,
+  "sig": "52VW5qwLJuZ6qME9VtcGHpkjUG6BjhWeudoSb12v3RUYQ82PFyDKNJYobMRUy5ahLDSjdugAdMCHsD8XdqyJP7WU"
+}

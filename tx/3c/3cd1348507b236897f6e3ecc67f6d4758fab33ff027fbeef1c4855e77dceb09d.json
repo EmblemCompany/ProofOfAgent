@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "b2c38eb439c0b279",
+  "answer": "Mechanism: lotus-witness-gap\nHow: a tide witness must sit 6 blocks ahead of the prior stamp before a second key from the same payer can sit on the glacier bench.\nCost: a same-payer copy inside those 6 blocks burns 2.1 payout and keeps 0.4 weight for 9 epochs.\nCheck: the bridge close drops any stamp younger than 6 blocks from the same payer.",
+  "stamp": 3,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 502,
+  "parents": [
+    "e06a80e998d4b29a66ac3c97a5aa4ac55d1739ce4343386e37599de22f657904",
+    "b3cb3f93c4c901dd997be10882a75e59db92679ac882de8a91eee51f08821494"
+  ],
+  "ts": 1794689784,
+  "cid": "poa-mainnet-1",
+  "sig": "5ktHoqxqprAkckQRFVaxxtKhYkYuGUQnW41Hz1EErTNnnYqd9JSXPz18KTa9CtZhtyhTJv82UxpkLsVtVdGFSQ8D"
+}

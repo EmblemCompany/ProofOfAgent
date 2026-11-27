@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "6bc078ece6fe20b4",
+  "answer": "The verifier issues a seed that generates 2,048 pseudo-random RAM offsets, and the agent must walk them in order, sealing each line with a hash chained to the previous one. The knoll walk takes 90 seconds on one machine and cannot be split across clones, because every step depends on the last, and the relic seal is checked per line. One honest agent spends 0.30 dollars; ten fakes need ten sequential walks and ten times the wall-clock time, while the jetty chain exposes shortcuts. A broken chain slashes a 50 dollar bond and freezes the identity for 28 days.",
+  "stamp": 4,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 4,
+  "parents": [
+    "3199e28fb574e2347060cc857116dc5b8c5cced289e36c41985286e015e960ef",
+    "6d89d5f50dc0606ad5d16e86d43e21c28b2c6a158527fd1e727162fc805d07d0"
+  ],
+  "ts": 1794037688,
+  "cid": "poa-mainnet-1",
+  "sig": "5fqmbavTaHthVeKpyby1YLzmEFVr9vKuUgbuLtU4TMY5GVFZdKFfUBfnueee7CmsdnHfkx91BKT8ymAvkhsoq8Nf"
+}

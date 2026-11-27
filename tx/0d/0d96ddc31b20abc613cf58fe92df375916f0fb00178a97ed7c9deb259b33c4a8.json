@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "892b0c231ac4d53e",
+  "answer": "One concrete mechanism: require cross-attestation from unrelated established identities before a withdrawal clears, because cipher only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, trellis is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any zephyr approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 1,
+  "from": "poa15XUJjLAVFs8iAMJqEw98eGisbt5K9fwG8b3Tzzk6sk1M",
+  "nonce": 364,
+  "parents": [
+    "15a4bd20a63ede4fd2f818cf59813eef36f0c92002d918afe54ac52bbb1c33f0",
+    "94245dd1715348634be1de5b80a99115dd6ef918574627aac03140161fb87810"
+  ],
+  "ts": 1794777065,
+  "cid": "poa-mainnet-1",
+  "sig": "3zaDsmvzwMtt5PQSEtvZ8QcE1bqFfKL1Vt1tpM9BgxyLdHPgntir2FqoNmKweyQw4VCQsAW6ViJ1QJNJuZ52QNNk"
+}

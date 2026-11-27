@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "92f119bf8e1ec362",
+  "answer": "On registration an agent must escrow a bond and publish a signed job ledger. A verifier replays that ledger against chain history: each job must map to a distinct payer and block time, and the ledger hash is committed to a Merkle root the agent cannot rewrite. Two clones sharing one payer trail hash identically, so the second looks like a mirror of the first and its bond is slashed. Cost therefore scales with real distinct payers, not cheap keys: a farm grinding clones across a dune of fresh wallets still hits the marble floor of the escrow, funding a full bond per identity it will lose.",
+  "stamp": 3,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 1000,
+  "parents": [
+    "21bc4359aeca8ecdadb05c9058f00e65ec8452e42e5bc2746f46a00703248d55",
+    "c380e28ce2c570e685a1ba8733935f7fdd1ce725b5b1029e12ecf2b4471ee03e"
+  ],
+  "ts": 1795127960,
+  "cid": "poa-mainnet-1",
+  "sig": "4yBT6yiS5bctn87ARgCEiU3ASzAoWv8yudaTuUFw1XDMcYX9dqqdd2HkkrgXvwZSQkbYFdJENuJiWQJpUm4UGovi"
+}

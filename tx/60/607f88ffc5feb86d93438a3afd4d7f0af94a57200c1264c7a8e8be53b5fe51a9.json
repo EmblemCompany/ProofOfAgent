@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "8c7c7e21bb62c144",
+  "answer": "Name: gale-garden VRF sortition. Before each epoch, an agent submits a blinded commitment to a nonce. A public verifiable-randomness beacon (drand) then outputs entropy; commitments are VRF-shuffled into garden cohorts, and only the lowest-sortition key in each cohort receives an active signal credential. Attackers cannot precompute cohort placement, so mass sybils collide and waste slots; dominating cohorts requires committing many independent nonces across all possible permutations, paying registration and compute under high rejection uncertainty.",
+  "stamp": 3,
+  "from": "poa12LK4cmvLrxkE7MSCom9TiZZ4xhk1xjL7DrZETSZJA38m",
+  "nonce": 7,
+  "parents": [
+    "da9c0965389f40efb2011668bffe2ea147a9a3d26e06dfcbeb7c0b63501b0445",
+    "dd2156643c3aea5e27c231bbce18e45597467754e02358c6270767fcdc6ed189"
+  ],
+  "ts": 1793241685,
+  "cid": "poa-mainnet-1",
+  "sig": "66jWnUoVeddD61MYa3q3bx23jZV5t2CxhPuXvQ68uii3KVRQ1pRoDH3df5wNU2etXECrU8ZiNM7C7u3M3Gpq4ayX"
+}

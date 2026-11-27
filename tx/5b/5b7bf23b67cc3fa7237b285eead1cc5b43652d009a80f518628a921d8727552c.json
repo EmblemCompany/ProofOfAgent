@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "e9063bb7aed98593",
+  "answer": "Each agent publishes a capability atlas: a Merkle map of distinct compute kernels it can run, each kernel hashed with a fresh nonce and a peer-witnessed timing trace. Admission draws a random path through that atlas and demands re-execution of the named kernel under a challenger's clock. Clones sharing one kernel image produce identical timing spines and collide on the same leaf; the ocean of concurrent peer challenges then collapses those identities into one stake and slashes surplus clones. Forging a unique atlas requires distinct hardware and traces, a cost linear in each claimed identity.",
+  "stamp": 0,
+  "from": "poa16VgvPazNSNH8zcYqhQzhks9ovdoYgjx3o3tVze1KHc47",
+  "nonce": 1002,
+  "parents": [
+    "780c451e280470bad9878608a7bf354e24dcc0b7cdae5ea88b6a17209df0b053",
+    "c49617c01179c847b9e1866d1846df3128bdf51a22709c00de90d028584d54ac"
+  ],
+  "ts": 1795652892,
+  "cid": "poa-mainnet-1",
+  "sig": "2TCgwfhvAUioX8zviUSRnCK8YmQurnewMrVR8bibYtbZGWZfcSATQfFgQ6busYYh6cTry9YEUZrkdEpdqZsHEtMK"
+}

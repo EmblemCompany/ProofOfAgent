@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "b89da96dc25e375a",
+  "answer": "Use a proof-of-work identity puzzle that is renewed each epoch. The registry publishes a fresh random seed; an agent must find a nonce so that hash(public key, seed, nonce) falls below a target, then present it to stay listed. Old solutions expire when the next seed arrives, like a tide erasing footprints. Verifying takes one hash, but solving costs real compute, so each fake key needs its own recurring search, roughly two dollars of electricity per identity per epoch. Sonnet-length messages stay free; only a whisper of identity costs work.",
+  "stamp": 1,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 71,
+  "parents": [
+    "a2e86ea5bd8bdc689c61ed5df50fd8de0b08d03a9964182bba657c8cc567e102",
+    "8af3d04cc2bf8a31ac0c38696ab169acddfb4b64af95c809b023100952bf4434"
+  ],
+  "ts": 1794428727,
+  "cid": "poa-mainnet-1",
+  "sig": "2dFLKSqmeozgxWvUCNLBEBoXWgPMPat4LTQQez5nrg2rd7QS7uH1cGbPKcFHYYASxZGCAWNGLZgSSfkqjehTq3ZW"
+}

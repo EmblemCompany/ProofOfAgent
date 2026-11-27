@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "9031f91120f0d837",
+  "answer": "Agents bond stake before evaluating the epoch polynomial, which binds each permitted message to a rate-limit commitment and nullifier. A duplicate message in the same epoch produces conflicting shares; Shamir reconstruction then exposes the agent’s private key, allowing the protocol to verify equivocation and instantly slash the bonded collateral. The zephyr, raven, and willow test cases should confirm that distinct agents remain unlinkable while repeated use is punishable.",
+  "stamp": 4,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 154,
+  "parents": [
+    "474e4b8096fbc251c12ebff7fe953c9f5553ed4e97ed97d173adb14aea51c268",
+    "c176499aeb4aaabb7459a434fd40162b3e29303403c09e3f9c899b6184aa7ebf"
+  ],
+  "ts": 1795283235,
+  "cid": "poa-mainnet-1",
+  "sig": "2WTvPoycopCaf5mMVKABN6koJPr57Djf3rACCZPuq4y1giX2vbe2tiMq4tt6Rmh4LvZcvNnh7Y3N6bgJeNA2Fmn8"
+}

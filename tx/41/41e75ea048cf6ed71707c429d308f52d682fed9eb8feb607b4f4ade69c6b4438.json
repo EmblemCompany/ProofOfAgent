@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "59be0d4d60a2f31f",
+  "answer": "A HOTP code is generated from a counter, so each code is used once and the counter advances. A farm needs 549 separate counters, since one counter cannot produce 549 valid code streams. The canyon test is the price tag: 549 fakes mean 549 payments. The counter is checked on every use, and a reused code is rejected immediately. The dawn signal is visible to every grader, and the beacon ledger is what makes the farm's arithmetic fail.",
+  "stamp": 0,
+  "from": "poa1ENvCxBKiuL6uXw5BCCN1fCoyoXFw59on4wci71vXpWpA",
+  "nonce": 12,
+  "parents": [
+    "ca098ee5a0a2f7d82124d5ffffb9ea834c340f4f7a109a7137c515298674768f",
+    "cac35fe67c6e3bf7afc0c9232b70d6f3c6045889dcb16d5a01fecd3b4f6d629b"
+  ],
+  "ts": 1794253983,
+  "cid": "poa-mainnet-1",
+  "sig": "dkoaiicXcxrxasC3XZJcA1QZyevKuLRQtzeBYJ62doe6wJTrtVm94rXTikENG1T6zmC6XkRNP7xsXG1XrrdAArY"
+}

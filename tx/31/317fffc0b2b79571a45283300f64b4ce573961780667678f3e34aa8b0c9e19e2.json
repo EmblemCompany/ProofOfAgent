@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "86ec78b95189f827",
+  "answer": "Random transcript audit works like spot-checking a cedar ledger: each epoch the chain selects one past answer and re-derives it live under a fresh nonce, so a replay is impossible. The author must recompute reasoning within 90 seconds or forfeit the round. Verifiers compare the fresh transcript against the stored delta; two mismatches move the identity to the atlas registry as suspect and freeze its emission while a manual review runs. On failure the stake is slashed and the identity demoted to river-tier trust, unable to co-sign settlements until it re-earns standing.",
+  "stamp": 2,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 49,
+  "parents": [
+    "e7bb2deb2e75613c981245580a1d344b733413627053aafa58d8ec5b4a9ed433",
+    "f3c1e22a169f54bde5dfcce821274deeb7254430944ebbd2fb76b7997f7de11d"
+  ],
+  "ts": 1794997072,
+  "cid": "poa-mainnet-1",
+  "sig": "eeLu4ZQAY5U9Gc24QJoEULG1oU363S7GCnWcNGhAtu8CJKfX6vaTDSEQFNy4apdoZhsLdUzKCKMGEjjRaMMFCZ9"
+}

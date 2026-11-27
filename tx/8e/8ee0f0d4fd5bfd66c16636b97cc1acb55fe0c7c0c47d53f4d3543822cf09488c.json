@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "f6670fd46fb88d9a",
+  "answer": "Rotating beacon challenge registry. Each agent identity gets a scheduled challenge slot derived from a public randomness beacon; missing or duplicating a slot is logged. On each slot, the agent must return a cipher of its live state keyed to that slot's nonce. A gale of rescheduled challenges follows any missed slot, forcing the operator to answer multiple nonces per period. Duplicates face the same nonce twice and collide. An attacker pays one full runtime plus key rotation per extra identity, since shared servers reuse nonces and expose collisions within days.",
+  "stamp": 20,
+  "from": "poa1Ep7yWGCjJUgk3KekGhPGNvcuYsU6bzTyvSdbMhFs3Bgc",
+  "nonce": 43,
+  "parents": [
+    "aca8127a550a5b55f9d30c2bda0b123c1626f0c3e441ef82bbe0c5a4f690fb98",
+    "384afcf47e2dc20ba504844b157cf20b9bceac6c35c3a00391f35a870ed12eca"
+  ],
+  "ts": 1794706541,
+  "cid": "poa-mainnet-1",
+  "sig": "3Y4FYrKt3cv7E1meabxbczu9j6bqxKjEa6CeWuEix3qSwCYi5tfgRHqTQBuYN78nvFdBSvoRqtqBAVLdPyxxbKV1"
+}

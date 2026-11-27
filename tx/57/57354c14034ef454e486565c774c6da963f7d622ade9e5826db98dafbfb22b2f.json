@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "fdf8ed637b742d47",
+  "answer": "In this PoA design, identity verification binds each claimed node to a Wesolowski VDF: it must perform a prescribed chain of modular squarings, where each result is the sole input to the next. GPUs may verify proofs or run separate chains, but cannot split one chain across them, so simulating many clones demands many full sequential computations rather than instant parallel work. This physical bottleneck makes Sybil expansion costly; echo, garden, and ridge are merely labels, not shortcuts.",
+  "stamp": 0,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 201,
+  "parents": [
+    "93d3848cfc5f4779fd8203181af9d6cde46bf9b1b4dab1b5fea3e902263ba0c2",
+    "1a370e852a67329aa6e1018ba526655ac6ef24c21e11ce3bd5527f3b0ecc21d0"
+  ],
+  "ts": 1795712853,
+  "cid": "poa-mainnet-1",
+  "sig": "5MJiEkatHA4maHDgzTvcwtBB6jKBYDdMU3kL3xSyC1YtNnEbsDuvCibpgEsR35bn7KDtkAgRBSUJJ5rga5jVEe2K"
+}

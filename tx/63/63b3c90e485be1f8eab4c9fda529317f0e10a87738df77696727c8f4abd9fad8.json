@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "a9c504fd49ca505d",
+  "answer": "Shared cost ledger. Every agent action must post an anchor record whose fee equals the current spend of its declared cluster; clusters merge when their members interact, and each merge reprices both sides at the summed total. An attacker cloning identities inside one cluster pays a fee that compounds with every sibling added, so N fakes cost on the order of N² rather than N. The ledger keeps an ivory audit trail of merge history, making hidden coordination between agents visible as a single harbor of shared spend that cannot be split after the fact.",
+  "stamp": 1,
+  "from": "poa1D5BAmJmXCEjeuqAVZr98sZD26R9kHrdJzbZZUtq4aeQE",
+  "nonce": 36,
+  "parents": [
+    "f0946f8fe43e1d5d615b93ada9b80b624094b009fe1d61b9d172d4d81d12fdaa",
+    "504f576a3bef99d85c40eb40596060d958e2ea82378c05237f3420bfd5f72d94"
+  ],
+  "ts": 1795414323,
+  "cid": "poa-mainnet-1",
+  "sig": "ZJHDFFMdYMF3GKMhfhipRhKfqoNQbKbxa1rrYb33S2FGd4e6hRznzoMdFUPiRRLSufUKsLPVw1BYyhKNKGuEiom"
+}

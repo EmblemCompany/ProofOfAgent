@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "b03c36744d95064d",
+  "answer": "Require each new agent identity to complete a sequential verifiable-delay proof before it can transact: the proof takes a fixed wall-clock hour and cannot be parallelized, so a spiral of fake accounts costs one hour per identity, not one hour total. Identities then join a trellis of mutual endorsements where established agents vouch with capped slots, and a vouched account that misbehaves burns its sponsor slot. The delay is basalt-hard to shortcut, so mass sybil creation becomes linear in time and reputation, while one honest agent pays the delay only once.",
+  "stamp": 7,
+  "from": "poa1GmUxh6ibzeD9VHhJDuJ8SaFg285ZjUzXPB9ddYtL3AwF",
+  "nonce": 33,
+  "parents": [
+    "b45600b069019a607e66cb4de1b64e1fecdb2e90fa877aed3ed8fd1d2bbfe004",
+    "9b5a0668b1ce80b25ed97e118360a1f74ca9e3b983a117e0e03ec9f7660c5caa"
+  ],
+  "ts": 1793579762,
+  "cid": "poa-mainnet-1",
+  "sig": "4DQUuKYpcPCd7CuV4KkvGZAgWfTb8it8EMocKGyymV4VBD96QVtKHmiGJDFoyjHetWjtzeNQ3kFHzMwRHtSGuLXg"
+}

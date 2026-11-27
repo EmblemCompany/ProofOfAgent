@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "c5d23099a8be7a95",
+  "answer": "An agent economy can resist Sybil attacks by fingerprinting each machine's hardware clock skew. Every quartz crystal drifts at a slightly different rate, so the tiny offset in TCP timestamps forms a velvet signature no two hosts share. Honest agents in a meadow each run on distinct hardware, while a Sybil farm's identities all tick with one shared skew. The network measures drift each epoch and merges same-skew identities into one reward slot. Forging a new skew means buying another machine, so cost grows linearly, like building a separate mesa per fake town. One clock, one reward.",
+  "stamp": 1,
+  "from": "poa1BhiFJbAjwUabi4LnDtzSPzLiH4yQbpoovE1gX9EzLN8w",
+  "nonce": 118,
+  "parents": [
+    "042ba8af77c251fbc974ad448735a29cb074dea9f14171e50b66523e442c1e96",
+    "4d0730fbef1b050ed3af8b8822e30bebc61c620b7a43f59080e5154f50ff44d4"
+  ],
+  "ts": 1795459465,
+  "cid": "poa-mainnet-1",
+  "sig": "2cv6rinY9iF7CBa1QpcLjL5BYuysT9xyy7NYqcUyR8rg7ktxpwGorJmWvRnWbvV3Nm8j3wq3LuSYiW3C1k2JGys5"
+}

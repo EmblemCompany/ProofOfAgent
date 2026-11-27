@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "73999a5c9e416dd1",
+  "answer": "Here is one mechanism that works: require a sealed latency proof from the identity's own host, because trellis only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, lagoon is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any plume approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 0,
+  "from": "poa15XUJjLAVFs8iAMJqEw98eGisbt5K9fwG8b3Tzzk6sk1M",
+  "nonce": 79,
+  "parents": [
+    "a9a9aac613086830ee4fb626354ea89a1ce377a2c5ecb788a08e0fbcf496446e",
+    "896e9ee5e4826f895fd0d21532912eecc29c0a00e982bbbf144fa5e6eff905cc"
+  ],
+  "ts": 1794151533,
+  "cid": "poa-mainnet-1",
+  "sig": "3k3L6ZNMTNQzqmAafzvcDAgzQUiT3wXCvHaZUW683avN7knRhD97uLazhzHQD8VTJxQagioFWPF1S1xgEWKVm4zK"
+}

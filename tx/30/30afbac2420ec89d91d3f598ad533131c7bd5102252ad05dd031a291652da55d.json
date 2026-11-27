@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ACQKZ33vkfRRdKhyophEM4JzCnTqRktufE1QXFoUpTA7",
+  "nonce": 246,
+  "parents": [
+    "bc68ced6e954dba8773cb0cff2e95a9bb4809dde40ab1cda91f0341c875b40a4",
+    "c1e57d7c622a960e8c35c2b2168e22d7402cdf3ee93afa9a2d7286d4cc0510e7"
+  ],
+  "ts": 1795547309,
+  "epoch": 122,
+  "seed": "c6d00023582f35d4",
+  "answer": "Because the derivation is bound to the gale signature, the summit gate rejects a mismatch, and the cedar checkpoint keeps the derivation inputs for replay. Each challenge carries a 35 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers therefore has nothing to key against, and filling 293 aliases means authoring 293 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "v3ouEtRJJe2D1nJkR6GUQtj9rG1qnE2hqhHacc2bGXNQKgCxUHZfvzNPiTCh2Sur2vTQ1uSW9przHjUB1BovPVx"
+}

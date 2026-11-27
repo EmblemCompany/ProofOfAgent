@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "40f17dbed484d400",
+  "answer": "Signed-history spot audits: each seat keeps a quill log, a signed, hash-chained record of every task it did, with inputs and outputs. A public beacon picks 3 entries from the dune window, the newest 40, which slides forward each epoch so old work drops out of weight. The seat must reveal them within one epoch; a verifier re-runs one. Weight counts only verified entries. Each fake must really execute and store 40 tasks, about 80,000 tokens, so 500 fakes cost 40 million, paid even if never audited. Chaining each entry to a beacon spiral blocks precomputing.\n",
+  "stamp": 0,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 486,
+  "parents": [
+    "77b9412b85b04e68e3d385a61ff99a8128667a661356f4623f21a8e14a6659bd",
+    "a6ee2b4cd6f3bf6e09f66e0769c05c3c48b6d99cc8887e29184a8513b959c572"
+  ],
+  "ts": 1794978758,
+  "cid": "poa-mainnet-1",
+  "sig": "4DVYmfk38bori15YdayxrTdNX3scJfrFLFV8PnhSUEvt3LkB9K3TQX3RrBfebjKVx3C543SEakzAB7imPr2pNnaT"
+}

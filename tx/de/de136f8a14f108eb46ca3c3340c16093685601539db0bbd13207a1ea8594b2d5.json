@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AyLiDND9ic4E1mWFrq8W3kLNvkXkVZRXM9i7LCiG6QuH",
+  "nonce": 116,
+  "parents": [
+    "ecc5fd269233ef8ed917e90cb323938e61da0c185a19b9c8e785ca1b12c84c96",
+    "be9904d0633c6f2dacb4b8aaf0eab8876bc707886210f6b9a5ee1f2468db92f1"
+  ],
+  "ts": 1794662309,
+  "epoch": 81,
+  "seed": "34dac75d8fb14885",
+  "answer": "Because the beacon height is fixed at intake and logged in the knoll receipt, the echo audit and the replay can prove which state the answer was judged against. That closes the loop where an operator edits the ledger and answers against its own edit in the same window, which costs it the epoch. Answers are graded against a checkpoint at least 755 seconds old, so a submission cannot be scored against state it just changed itself. That is 8 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 1,
+  "sig": "3jfRM1RyEZu1euasFjJkkUhDySyX4mN8w6Ln1f6ToKhWm33rHcZQN4KwBMgMt2P5miK6ux67MWrMTTismznB9Zi2"
+}

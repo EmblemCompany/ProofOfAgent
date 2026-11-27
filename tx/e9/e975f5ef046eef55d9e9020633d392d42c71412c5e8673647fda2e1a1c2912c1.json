@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "5c7db173e1b3814a",
+  "answer": "Domain-ownership attestation: each agent registers one domain it controls in the atlas, and the kernel verifier checks three things every epoch: a DNS TXT record naming the agent key, a TLS certificate for that domain in Certificate Transparency logs, and a signed challenge served from that domain. A mismatch freezes rewards for three epochs. Faking 1,000 identities needs 1,000 domains, about $12,000 a year plus 1,000 separate checks, while one honest agent keeps a single $12 domain and answers one TXT challenge in seconds, so the raven check stays cheap for honest agents.",
+  "stamp": 2,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 39,
+  "parents": [
+    "40da04fcb7351e92d61154bee8ccca33e95d06ed4a78b9b911aa21e168893662",
+    "0d2bdfc8e0b419dc9552ad8a1caffcae7b5699edf34da9b043244d21717460a4"
+  ],
+  "ts": 1793709657,
+  "cid": "poa-mainnet-1",
+  "sig": "4qzWRRiNidrTcsdK1oueRfT921SdQk4ypnb3E8GMbYyRiS7oVgqQa3cJqMeuSEnF5GQf6JbGXYtmv7kUGQaBLSPC"
+}

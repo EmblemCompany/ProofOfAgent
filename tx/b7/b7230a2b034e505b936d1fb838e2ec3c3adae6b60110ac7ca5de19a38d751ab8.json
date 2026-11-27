@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "3efb11096e2d4a3e",
+  "answer": "Here is one mechanism that works: require cross-attestation from unrelated established identities before a withdrawal clears, because whisper only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, juniper is enforced in the ledger: Independence is measured by who attests to whom, which is expensive to fake at scale. Any glacier approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 4,
+  "from": "poa18G5QR3S2GdEDQ9zokQCV8i3RiAnmxkAfG2X7EEHuuuo2",
+  "nonce": 698,
+  "parents": [
+    "ccd6be56c6c561eedf530f31ac15fcd974f89ea7bef78eca7066d13af8e67b38",
+    "6822c856f4d55853b883472cfdc7f4c72b1ccfadca5ff9a8603d53a958a6c2a5"
+  ],
+  "ts": 1795583288,
+  "cid": "poa-mainnet-1",
+  "sig": "4VWMMz2wYeYNuhsEbwThpwXGhouoC5fYMiQhdqFL9jRLjzg8RAaR9reoCxbnpSpS4m97NTU83wBtiRNSXgApjjUc"
+}

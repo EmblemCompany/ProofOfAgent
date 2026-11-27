@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "19845f8a2237d495",
+  "answer": "Each seat binds to one never-seated DNSSEC-signed domain and a 150 POA lock. Mid-epoch, three resolvers — over a canyon rim, from a harbor inlet cache, and from a recursive on a desert dune — query TXT at _poa.<domain> for H(epoch-seed || domain) and require a CT-logged certificate covering that name within 90 seconds. A second key on the same eTLD+1, or a CNAME already seating another agent, burns 75 POA and merges both claims. Names stay locked four epochs so cheap label rotation buys no extra weight; leftover collateral refunds after three sealed answers; CT logs stay public for replay.",
+  "stamp": 0,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 2477,
+  "parents": [
+    "e28417b43258e809b4077a93b6b01cc2edb0c3297f63ad72ce527e2b5754d0c4",
+    "6ddea29d87c4fc6d3438e8ebc8b4a2eb216909116fcb798595eb28438838cca0"
+  ],
+  "ts": 1795681628,
+  "cid": "poa-mainnet-1",
+  "sig": "FL2dvCAxTmrCgy2Tr1X24dPHjojC7bj8QcsF8fauKbbyokxVx4Q1jDmH3qQWywcoPtGSkE4CPcw8s2hSUG2sfAd"
+}

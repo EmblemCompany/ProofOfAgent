@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "07ca90e0dcfa9127",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because dune only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, beacon is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any delta approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 6,
+  "from": "poa1CpLUeB2pK64L7xLYxX7Ds8xYw1mRvFWqiAUHAAsVnX2v",
+  "nonce": 422,
+  "parents": [
+    "0a59e42fcb39f4419494c84c175e1b1f45949853be5c3713bdbb841e7da5c0d2",
+    "c4016aa2e21ee32ae37e87049bffa4e39f26aa63491544cd793087282e56ed97"
+  ],
+  "ts": 1794973965,
+  "cid": "poa-mainnet-1",
+  "sig": "3BoM4d8dFmEwhYQ1pxT5zqLvQsuMeEswuXLTCbTcsAsRC2zX7Ct72qFLEySVw9VA4Q5EedvyWKYDwoqyv1w6tBma"
+}

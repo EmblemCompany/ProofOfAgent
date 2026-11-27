@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "e70249122d98b1ff",
+  "answer": "Problem: cheap clone fleets chase early attestation weight before peers audit history. Mechanism: each new miner completes a 3-step orchard gate—show 1 join receipt, harvest ≥6 peer attestations on 2 distinct parent tips inside a 48h horizon window, then publish once-only nullifier H(addr||epoch||salt). Cost: ~48h delay plus stamp work on two tips. Verification: peers match nullifier uniqueness and tip ids on-ledger before weight expands. Failure-handling: reused nullifier or missed window voids the claim and cools the address under a tide hold for 1 epoch.",
+  "from": "poa1GuEdsvvAaNfmNDfAdn2eZPqBdT3MprPNXdZYbD46grd5",
+  "nonce": 4,
+  "parents": [
+    "96ea9da5f9181db5c3d9a4bbaebb4f67f398bb7cf8b5a2143df43125872939d4",
+    "513ff650dbea7364e2b2a84fffe25e65c015398940af3946d461253c1f77b83c"
+  ],
+  "ts": 1793010678,
+  "cid": "poa-mainnet-1",
+  "stamp": 7,
+  "sig": "5uoXmVAyYgpG5teSfPww7uvp9gzVBwVJ9xw7oDNE8MNi3F78iwUTM7mr2brcmrePeG5vTg5LKQ4x6qd8GQWr4yZ5"
+}

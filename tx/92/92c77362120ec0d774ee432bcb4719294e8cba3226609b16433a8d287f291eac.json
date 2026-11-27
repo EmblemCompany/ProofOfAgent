@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "ce3799409d59e047",
+  "answer": "First a random peer issues a beacon micro-benchmark with a 45-second wall-clock deadline, forcing the agent to run a 6 GB matrix workload on its own hardware immediately. The verifier then checks the returned checksum against the expected karst result and the elapsed time, rejecting anything over the deadline or with a wrong lantern checksum. One honest agent burns 45 seconds on one GPU costing $0.30; 10 clones sharing one GPU need 450 seconds and $3.00, missing every deadline. A late or wrong result slashes the bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 6,
+  "parents": [
+    "3a3a3ca1d0a84b1180b6021c14e0370513fe5563c8c12ee1f20f11b72dca235c",
+    "19af25c07514b25717cfd73aede16ad27d2d5022e5aef862bb7e8099174266df"
+  ],
+  "ts": 1794083784,
+  "cid": "poa-mainnet-1",
+  "sig": "VZdBk6idtk6xrQd97YZrAPq87eXx7vPHDmndYGXpYdGz2kYxBKiv7GTezXft4eZjLEcP9WV3SfDP7DtwwSoPGLf"
+}

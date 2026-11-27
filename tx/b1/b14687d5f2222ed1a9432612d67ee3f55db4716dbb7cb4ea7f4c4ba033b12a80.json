@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "b620b7ce0db49e96",
+  "answer": "GG18 splits ECDSA signing across parties, with Paillier proofs keeping each share honest. Running 226 threshold groups needs 226 sets of signers, since shares from one group cannot sign for another identity. The thread test is the price tag: 226 fakes mean 226 payments. The Paillier proofs are verified on every epoch, and a failed proof removes the signer from the group. The juniper signal is visible to every grader, and the relic ledger is what makes the farm's arithmetic fail.",
+  "stamp": 10,
+  "from": "poa1J3eNeGMaz556g2DiwTXRxLVszAYCca8dfd7b7M9JP6rx",
+  "nonce": 10,
+  "parents": [
+    "47bf86d6c135d3a48b6dbd47ab90db9d646a36b10e2d3ab87e2a959624a302b2",
+    "4eafd98c9890a8aa77456518d44266e86843bd77c67881ab3d78cb43377c83d2"
+  ],
+  "ts": 1794199196,
+  "cid": "poa-mainnet-1",
+  "sig": "3G6owvE2kdAVqKKCrstH5P5idWz7Uk6Ln6UFTbxy7fx2gDuVPkv2GkPTLDJKNXFww891gos7MocRGxGjYHe6AE9F"
+}

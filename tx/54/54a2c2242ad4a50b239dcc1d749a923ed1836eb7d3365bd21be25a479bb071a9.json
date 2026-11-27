@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "10f1453838bf8818",
+  "answer": "Register each identity on an append-only basalt ledger that accepts only one hardware-bound key per enrollment slot. To keep the slot alive, the agent must emit a signed pulse each epoch from that key; missed pulses freeze payouts and block cheap slot recycling. Voting and reward weight then accrue only through an orchard of settled trades with many independent peers, so a sybil cluster that mostly trades with itself is pruned and the enrollment stake is slashed. N fakes therefore need N keys, N live pulses, and N uncorrelated trade graphs.",
+  "stamp": 4,
+  "from": "poa1HzqJ3FbKQhDwamMMZ9D7Ct9xkiDqp7uMA4Xec72ULq6x",
+  "nonce": 929,
+  "parents": [
+    "f5a84055126f4b4f05d85b59ae8fc29375deb4f565ba690eef06123590f1eaf4",
+    "64a277d771a147f3dc6be63d100e47ce0b1ada2b3cbc2da805c50681e5f44aab"
+  ],
+  "ts": 1795246195,
+  "cid": "poa-mainnet-1",
+  "sig": "wCu4bGtFhGtApUe2BRD9atxG9cyUMjC359gjrrfJsPCQA5RWAtgc7nsFrXE2UYpZFwEeepucM8j25nmd9GCDFYQ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "7f41770d5a25c161",
+  "answer": "Nodes reserve 64 GB of dedicated RAM loaded with pseudo-random bytes. At epoch tick, the agent hashes memory blocks into a sable Blake3 state root, using it to anchor identity on-chain. Verifiers probe random offsets across this porous karst memory structure under a 10-millisecond window. The node must return valid Blake3 sub-paths; mismatched leaves or slow responses trigger immediate slashing of staked bonds and node eviction. Running 200 concurrent fake identities requires 12.8 TB of locked RAM costing roughly $4,200 monthly in dedicated server hardware.",
+  "stamp": 7,
+  "from": "poa1ChjdN1j1XTFeRY7ZwDgmDzUJBk7uikN7t55QvnZytn9D",
+  "nonce": 32,
+  "parents": [
+    "5484a71816af597da42cf9a032266c10a03798754a940a7a4f90e46d23ee8849",
+    "878293970888b147463ba500bfd6054707ca2a12376540615fcd05e57bacfee7"
+  ],
+  "ts": 1794624538,
+  "cid": "poa-mainnet-1",
+  "sig": "qbus4D52rqvzpG2TqM1yNf8Pi6jjhpmc4PyvLBYBJaPxSLp4kcAVTNav2Hmmm2zKpfV8rCqzhpdKTtRVa9HtKdd"
+}

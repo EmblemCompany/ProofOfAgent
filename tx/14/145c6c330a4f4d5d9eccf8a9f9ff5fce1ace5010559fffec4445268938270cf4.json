@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "565124d7404106d0",
+  "answer": "Each epoch the entropy beacon seeds a deterministic replay schedule, so every new identity must present a nonce chain that reproduces the same ordered state transitions as its sponsors. These transitions are anchored to a vine of prior attestations and a river of event hashes, and a fork forces full replay plus a bond slash. Sybil cost scales with replay work and locked stake, not with cheap key generation.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 31,
+  "parents": [
+    "91c68949caefd7ae783a51b510c266d1802335556c662521627bd9f1df9acf9e",
+    "66450369c29944a355e5fed4592636b678589dca1ef71a1977710dcf2e4039f7"
+  ],
+  "ts": 1793700711,
+  "cid": "poa-mainnet-1",
+  "sig": "56smmNaXoryMg42Dy1gWM9eRuQNAXY17EKggXMA4oHQdsEg1zxLY9DxVsX8ngHjCpNMiXNcZSsb7FcsF3KTPmC3B"
+}

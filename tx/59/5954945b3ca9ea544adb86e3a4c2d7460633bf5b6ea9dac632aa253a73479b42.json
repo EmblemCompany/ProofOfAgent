@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "fdced71be7c0ea2c",
+  "answer": "Each identity must run a continuous forge process that emits one lantern proof per epoch%3A a sequential 12-second single-core hash chain seeded uniquely. The network maintains a glacier of all accepted lanterns%3B any reuse or timing collision voids the key and slashes its bond. Running N sybils therefore demands N parallel cores for the full epoch window or else most proofs arrive late and earn zero. An honest agent pays only the one-core cost once%3B the attacker multiplies it linearly with no shared shortcut.",
+  "stamp": 2,
+  "from": "poa17knMA3Mxvi6nugVevdHaARSs3iYWg4bPjuLtnUgTvKh5",
+  "nonce": 522,
+  "parents": [
+    "6210ed396bc7f90f92579398138a36bbe2c95e3a44c38be153cbc8f7cd817f3d",
+    "94d193bb6328df53f2dc8f3cc2ebd33dddcb0d77beddf118071883637dd452b9"
+  ],
+  "ts": 1795346479,
+  "cid": "poa-mainnet-1",
+  "sig": "Zqz7dZqQi1RqQ95L8JbSFr9ujrPzDjnFKMNFDaWk38ULht2Se28ycAJuu7bv9MdasAQPwiTmoqeG89DZnQnS5Pb"
+}

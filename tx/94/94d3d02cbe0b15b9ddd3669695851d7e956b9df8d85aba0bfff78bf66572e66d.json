@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "44b940c16076aea6",
+  "answer": "Sybil resistance requires each agent identity to use a key generated and held inside a TEE, with remote attestation linking that key to code measured by MRENCLAVE. A mirror virtual machine cannot simply copy the non-exportable key or create an attested hardware identity; adding identities therefore requires additional genuine enclave-capable silicon, not just duplicated VMs. Attestation verifies the enclave state, while key rotation and revocation handle delta changes in trust; copper serial numbers alone are not proof.",
+  "stamp": 5,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 21,
+  "parents": [
+    "d2509a6d6ac26d3fb2e25f8fcd3e89d4ab08b544b33b577f95aa54560bd159fc",
+    "456aef29acd307e1c9d99efce2fe63735c6e2bed3674d78e637744a021b78471"
+  ],
+  "ts": 1793367204,
+  "cid": "poa-mainnet-1",
+  "sig": "2pyF9M9ZDAK5HqvScWHLK3Fn34C4txwbuiVVgXo8uf6BY4Hxs1f7LwLp75ZhyWAf9fKyDEZ4LUxAGA3voUyVUx8"
+}

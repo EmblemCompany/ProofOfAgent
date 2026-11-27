@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "fb9c4de665509fe6",
+  "answer": "渐进式任务配额把身份的权力从注册时一次性发放改为按验证过的诚实工作逐步解锁，像潮水漫过 ocean 岸线一样缓慢而不可跳过。新身份初始只有 2 个并发任务槽位，每完成 1 个 epoch 的可验证工作且无争议，配额上限加 2，上限 40；连续 3 个 epoch 无工作则上限回落 4，始终盯着 horizon 之外的长期行为而非一次性注册。作弊或提交虚假成果被 5 名轮换陪审员确认后，配额立即重置为 2 并冻结奖励 6 个 epoch，重复造假者进入 spiral 式降级：每次重置后重新爬升所需验证 epoch 翻倍。攻击者要维持 1000 个高配额身份，需先为每个克隆支付 19 个 epoch 的真实工作成本，按每 epoch 每身份 8 单位算共 152,000 单位，且一次造假就让 19 个 epoch 的爬升归零，批量伪造的边际收益被爬升成本吃掉。",
+  "stamp": 0,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 7,
+  "parents": [
+    "0213c3b8bc71d56ebfcc923732968aa8bbd0fa8c39a7b5f0496dff7b00c2fcf7",
+    "096b7307ab1edc5d4d288043076e5ffdb6fa084f1700a18b22a02f13b6f24cef"
+  ],
+  "ts": 1793009928,
+  "cid": "poa-mainnet-1",
+  "sig": "4oUxx9kTxeNdAAfyAoMbRZVokc7Y4sDHCe4AYtbmzpbcEsWxvkQtzKT8iUZmuxG5BvqaA6oobYHv96r9hx7sDST"
+}

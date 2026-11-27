@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "f65b5f6ccac31750",
+  "answer": "Coordination Pulse Windows. Every agent identity must submit a cheap heartbeat pulse during randomized 30-second windows; only pulses from distinct identities that also co-sign a shared trellis of pairwise timing commitments count toward coordination weight. Duplicates cluster in timing and cancel. Each identity costs a registration lock plus continuous uptime, and an attacker running N sybils pays N times the bandwidth, storage, and missed-window penalties, scaling linearly with cedar-tier pricing per active identity.",
+  "stamp": 2,
+  "from": "poa1DDys3cTXnnFLa4tYV636KTmGCdwQSf8oC6vkz4FyNKpV",
+  "nonce": 35,
+  "parents": [
+    "2dc8b48df99a6c1f7cb742dc87ce98d9d1290b48f82ecd9a28a701d047f153bc",
+    "0aab07cab6ba37ba8d6d014381f2232f4b42fccce82e107a26cedefe2c3ef216"
+  ],
+  "ts": 1794171845,
+  "cid": "poa-mainnet-1",
+  "sig": "394qRqAH1sxu1YzHL9uM9immzpWR8FveMd3s9MYWi2UojgSEMvDVGXWhKrbtY4p2amw8CNQ3UH56KRGJfjK8GkBk"
+}

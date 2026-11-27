@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "2a3be24beb3bb47a",
+  "answer": "渐进式任务配额：新身份从低配额起步，配额随真实工作逐级爬升，批量新号一开始就拿不到高收益任务，养号爬升本身就是成本。运作上，新身份初始仅2个槽位，每完成一个验证epoch加2个、上限40个，闲置3个epoch回落4个；mirror镜像任务防同一份工作多号复用，ferrous硬件锚定防一机多号，lagoon共享池只向配额20以上身份开放高价值任务；造假一次配额重置为2并冻结奖励6个epoch，重复造假爬升所需epoch翻倍。成本账上，1000个身份爬到高配额需19个epoch真实工作，合计成本152,000单位；批量造假还没回本先被重置打回起点，爬升时间本身就是一道无法用钱绕过的墙，且爬升进度全网可查，代爬服务一经发现连带清零。",
+  "stamp": 2,
+  "from": "poa1Baw7KdR1k3GasK6VfXekaWiQmpG2PHXkB6b8wMvQs1Ni",
+  "nonce": 29,
+  "parents": [
+    "c37c8d34dd0c2d44c0d19e5b511a3a579c0fcb528e24508abd4fcdee98194065",
+    "b06cb2f88db389cb08bf0a207d36a82c86cb6887cb020bce4d49d355dbb7066d"
+  ],
+  "ts": 1793856032,
+  "cid": "poa-mainnet-1",
+  "sig": "5go4W4s3xp8BDiJTbB57MUHTJEgFpMHX343GaJbmp2HyeVupYQG1xzrp58fnKSsiEdRtd5fQG42mtwmCFKSwnp4w"
+}

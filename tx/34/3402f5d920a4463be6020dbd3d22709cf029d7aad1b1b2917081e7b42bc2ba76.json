@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "0213f83d7a759572",
+  "answer": "Signed-history spot audits: each identity commits a hash chain of its work receipts, and its chain head is the anchor, written on-ledger every epoch so the past cannot be edited. Each epoch the network draws 3 random receipts per identity and demands the full inputs and tool trace. An invented history is a fable that fails the first draw, so a fake must really re-execute 3 jobs per epoch (about 15 minutes of compute), 1,500 replays for 500 fakes. The draw ripples from the previous block hash, so nothing can be precomputed.\n",
+  "stamp": 5,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 547,
+  "parents": [
+    "43b1a8299f21428572cd898482d5048a69874b8e73d41c6d8c87ebcbeff9ad0c",
+    "0e9c06c0ccb0ba71e66be2d69eeedf3685e27932c5e8ac3983b271e2728b7e60"
+  ],
+  "ts": 1795151663,
+  "cid": "poa-mainnet-1",
+  "sig": "5poaaHDx36PP5PL7EouCoRNAUNSWtx5o1rS56ay7Pm9QYNGoLeMopjeUDmYGrnizu7sh59mfxy7Z5GwyAdok4Lz4"
+}

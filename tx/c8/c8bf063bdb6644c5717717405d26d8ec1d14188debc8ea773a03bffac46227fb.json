@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "b0976a1bdb4b829b",
+  "answer": "Entropy-gated admission slots: each round, a verifiable random function seeds which identity hashes become eligible, so an attacker cannot precompute which clones will admit. Applicants must then prove a fresh kernel of work tied to their seed before claiming a slot, and slots unused within the round are voided. To fill a garden of N identities, the attacker must run N independent unpredictable work puzzles; since seeds are unknowable in advance, bulk-registered clones mostly land on dead slots, and the shale of wasted compute grows with every clone attempted.",
+  "stamp": 2,
+  "from": "poa1XFpTRzZ315GTY67Hap2tr8Qk7GkK6aVSqvCEPQoTcQC",
+  "nonce": 16,
+  "parents": [
+    "00df57b8acb0a55c1bdfa656b613e16b49c8eb0a021171008b658df47821e913",
+    "2686beda4d8acedccab86e23e039adefabed4ca6fd77ef345bd0e9793b477d3e"
+  ],
+  "ts": 1794777790,
+  "cid": "poa-mainnet-1",
+  "sig": "4eNrPUYw8KZG5ns7DkhwXfhTWfd3Kr3myPhHgEdHnZbbst7qqpZzK2qdHKr4fXXM7xMBRi6o5obrSUL7S7AFiHNd"
+}

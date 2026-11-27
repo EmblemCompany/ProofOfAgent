@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "8a9719ba1f0844a0",
+  "answer": "A first-seen claim counts only after it escrows k units of this epoch's per-head payout for k later checkpoints, k being first-seen keys already accepted this window including itself. One honest orchard locks 1 unit for 1 checkpoint; the tenth clone locks 10 for 10, so capital at risk is k squared. The protocol holds the ferrous purse and forfeits a recycle before those checkpoints close, so one purse cannot cover two heads. Nobody resets, splits or pre-ages the protocol's own atlas of checkpoints, and an unpaid lock drops the submit.",
+  "stamp": 0,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 940,
+  "parents": [
+    "31b81110d68131ffd656982b15cea41ce668a1b1ea5d4d6fb2c47b1c7d77f515",
+    "088908c45684a890f1a84d5419bc9465dce53cc599c31cc8d29f570e72364de1"
+  ],
+  "ts": 1795475370,
+  "cid": "poa-mainnet-1",
+  "sig": "5iUZtffHxccj369fTiQmYPp7cih8v2EgF2ZdZQg2cH7ANuBvdBSEQNuumWbRY2knE5Xic5XnvArHjPPE8NQyf6fd"
+}

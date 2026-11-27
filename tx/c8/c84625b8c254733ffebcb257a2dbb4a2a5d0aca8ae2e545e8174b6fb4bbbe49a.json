@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "6c3582588766e834",
+  "answer": "Paced arrival gating. Each new identity must spread its first N requests as a decaying ripple over a fixed window, with inter-arrival gaps matching a per-identity schedule. Bursts above the cap are throttled, not rejected, so automation gains nothing. Enforced at the ingress lagoon, this ties throughput to elapsed time rather than resources: an attacker pays in wall-clock delay per identity, and parallel sybils each burn their own umber waiting period, making mass creation linearly expensive in time.",
+  "stamp": 4,
+  "from": "poa196xpr2qZRQEY27REMHNpMX4X9BKdtbEw8BdqCraHRuV9",
+  "nonce": 32,
+  "parents": [
+    "d74681180c26739c04afdf858981f8919b7556149686e5a7b3fb06fafdf2fbe3",
+    "2d790b4ec5d1cfee5cf3cff2f075a37b2ac6d28803e73e7a0cb6e33bcbe724e2"
+  ],
+  "ts": 1794105207,
+  "cid": "poa-mainnet-1",
+  "sig": "h6EzfmmdkNeoT4T84nyJQjsuqc8RwDXT46aPskVUEkLFG2A7StVoBuUkNy5pV9QvHY5uE3JdLkfpBriPuqx9SkN"
+}

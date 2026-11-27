@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DxPZhFYZ5td4j9rjQtWzKdxk7pEseay5NhEFr8XUwpN4",
+  "nonce": 150,
+  "parents": [
+    "9b419c30767f25e2989fb9d954121c065b620489e6f70a970a54e36edc388e0c",
+    "5104eac478187c131f4d69470a97fe5a1a0f7ac1510ba10fee7bb78c0effda06"
+  ],
+  "ts": 1794785087,
+  "epoch": 87,
+  "seed": "99dd3abf53fe9429",
+  "answer": "Because the nebula index holds every id for the epoch, the collision is provable from the ledger, and the sparrow audit republishes the full set. Reusing one run across aliases collides on the lotus identifier and voids the later submissions, which means the operator forfeits for 99 runs and collects one. Each answer commits to a run identifier that must be unique within the epoch, so 99 answers need 99 separate inference runs with separate seeds. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "5wdofb8qNzAqLrWuoGbyHM77dM22KxErQWM4T6xySW5HDwNU8ESu9jDaDuvGGTvTUnyX49LtSMYZJEeGLHx6FW7q"
+}

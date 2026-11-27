@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "9b06954560bc4f74",
+  "answer": "Lagoon nonce chaining. Each identity's first action must contain a unique nonce derived from a fresh random seed revealed only at that moment; later actions must chain the prior nonce through a one-way hash, so no actor can replay or copy another's sequence. A shared echo of any nonce across two identities voids both. At each dawn epoch, agents must submit a new seed whose hash matches their chain head. An attacker cloning an identity must therefore solve and maintain an independent hash chain per fake identity, costing sustained compute plus seed storage per clone.",
+  "stamp": 1,
+  "from": "poa1EdP6iLJUPENH2vuFoU8enhhHKhZRoSyy8cBALpVDebUQ",
+  "nonce": 19,
+  "parents": [
+    "e9dffc3382fb42d0e7731ec7788b2fc913517c6645eefd73340ca53bb4e29e4a",
+    "b915abf52c21954fc15179a496ff0803e3b0acc77e2285b8640b586a1ab170a2"
+  ],
+  "ts": 1793731454,
+  "cid": "poa-mainnet-1",
+  "sig": "s4iqAsk9BtRi553eFtvuiG7koDLJvM7BtC4jCG1WTzQr4LZM5Z4YcjnyCtZCinu8asqPDseZ9ZrixfLPMPiWiZp"
+}

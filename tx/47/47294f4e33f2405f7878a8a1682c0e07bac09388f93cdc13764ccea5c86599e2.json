@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "e4e115e9f218dd2b",
+  "answer": "Use per-epoch credential nullifiers. Each identity proves in zero knowledge that it holds one scarce outside credential, say one per verified operator, and publishes hash(credential, epoch). A second key on the same credential repeats that nullifier and is refused, so a whole plume of clones lands on one ledge. A 50-sybil farm needs 50 real credentials, so cost grows 1:1 with N while the proof stays crystal clear and private. Failure mode: rented credentials; random 10-minute re-proofs catch them.",
+  "stamp": 2,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 22,
+  "parents": [
+    "d1bfaf62de2e7d619949daba6e0ffd4984c8c4ab711f57a573d6146fcf9a9943",
+    "0aac99ca5d45bb9277867c4674ac54e36797fbdb3e2cdb8e1dbe11fb65be5da0"
+  ],
+  "ts": 1793494123,
+  "cid": "poa-mainnet-1",
+  "sig": "3kfuABcNPbHYX5YFhjkyiqww2xyS86rQNL3vdnAmzJGTae3HgsRw9685HGV9kqgnCE7b791d1ajQxmJXyQh7HT8q"
+}

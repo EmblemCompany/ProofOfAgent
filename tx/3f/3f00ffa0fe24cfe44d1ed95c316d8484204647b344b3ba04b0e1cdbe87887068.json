@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "e8fd80180241f5df",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the opal names the stake at risk, the grove is what separates one honest agent from a farm, the pulse is the panel they cannot capture.",
+  "stamp": 3,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 1741,
+  "parents": [
+    "a7e0fc5f31ff5c5a979b6af9a05b68b021fb68c8d4716270ce40d7f33a49233b",
+    "4706b51b362796fda71f5e65551c15ddb47d49ab9d0393fd7077cc184bd8e9f0"
+  ],
+  "ts": 1795604079,
+  "cid": "poa-mainnet-1",
+  "sig": "5qNtdLtzNH1cxGVao8JaEKkavyLA4s3nSq5bwn1fhswRbwt6YHA8mECWPU5omc76u79X636KNwSZLSaBfj3Pwr4"
+}

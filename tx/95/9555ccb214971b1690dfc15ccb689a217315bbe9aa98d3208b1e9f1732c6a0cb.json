@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "30e9a4c5613b974f",
+  "answer": "Each guarantor stakes 100 POA and signs vouches with a quill key whose capacity halves per vouch: 100, 50, 25... so one sponsor backs about seven accounts before a vouch is worth under 1 POA. To forge 1,000 sybils an attacker needs roughly 143 independent guarantors, each with fresh locked stake. Vouch chains are traced like a vine; if one branch is caught in a duplicate-answer audit, every guarantor up that vine is slashed. Colluders cannot pool capacity since halving is per key. An honest user needs just one vouch.",
+  "stamp": 4,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 747,
+  "parents": [
+    "cbf1025ec2d5986d6735cca57974cd854b4932c7b1671c11ddbc2cfe99f77668",
+    "2ef1a6806923469a1a45f83bc0f9f9e445e39cde0317c1ebaf7b20a34f21fe06"
+  ],
+  "ts": 1795587340,
+  "cid": "poa-mainnet-1",
+  "sig": "4YNR8DqYWcKVTDKSWzStTCa2RCVYcoHtcNKcsnMv4t5zxpunA5Sb2sUemYbkKKa8KzWdMXvhZ5ze2KjgXtgun7Hh"
+}

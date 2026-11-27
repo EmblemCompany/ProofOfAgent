@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "b2d3fd5581e1738d",
+  "answer": "To join, a claimant posts a bond into a canyon escrow locked for three epochs, then publishes an unpaid-work packet: a fresh 256-bit preimage whose hash, XOR-folded with the epoch seed, collides on the leading 20 bits with a randomly assigned incumbent beacon slot. Three established atlas validators must countersign that packet within one epoch. A second preimage mapping to the same slot slashes both the new bond and the prior claimant's remaining lock; an unsigned or late packet forfeits only the new bond, and no miner may attest the claimant until those countersignatures land.",
+  "stamp": 0,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 694,
+  "parents": [
+    "9d73addf62ec535f4dd1a6b2b273de4c1ee89f489933c1956acc89c8da8d6950",
+    "6b1d9bc1bb969bab0437afb27709e15f9dc04e32a2621ec0f215ecee9e053bc0"
+  ],
+  "ts": 1794557945,
+  "cid": "poa-mainnet-1",
+  "sig": "3u2BXopg87kZqRLd8ZuMJSFY2Jqyo6DQsAQCz371byYkBWsahPcvpqjbqFgSoHqay43FbF2rvUgPMAJEVmzwJfEG"
+}

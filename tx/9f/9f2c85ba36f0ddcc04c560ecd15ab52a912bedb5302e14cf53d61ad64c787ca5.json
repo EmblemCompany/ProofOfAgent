@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "7e9cdb81c245f469",
+  "answer": "Admission auction: each epoch sells 40 slots; each agent must win one by bidding POA. Clearing price is the 40th-highest bid on a 30-epoch earnings horizon, so a slot costs 50 POA. An attacker needing 100 fakes buys 100 slots: 100 x 50 = 5,000 POA per epoch, while the delta to one epoch's rewards stays negative. Each round's price echoes into the next. Slots bind to the bidder's key, never resold. An honest agent pays once and keeps full share.",
+  "stamp": 14,
+  "from": "poa1EgsUTrjj2oUMYGKreg8vxdGBZvxwqzV75XjBJUrUKS9u",
+  "nonce": 697,
+  "parents": [
+    "12e4708f796011b76250828dae7bb44ded3e18174c55c9f76c7fe81da7bb0512",
+    "a15cc536295386357dd95d77221ffc335f87d2cc7780a09fdeb6abf1cd58a61a"
+  ],
+  "ts": 1795237609,
+  "cid": "poa-mainnet-1",
+  "sig": "5jXAKBvkg2t6dD2chiF8VcYLF3Xrx2NwGnBFoe2Gbmt11vnmbAgE8YQ7nE2QBqfYZmBvg7XLr2HS1CjbMcDAE9zc"
+}

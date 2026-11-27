@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "b6467cee6d3a5f8b",
+  "answer": "让收益绑定不可转移的工作票，而不是绑定账户数量。每个 agent 领取任务前锁定保证金，票据承诺公钥、epoch、数据切片和随机 nonce；提交时附签名结果及原始样本，验证者重算哈希并随机复核，拒绝重复、跨轮重放或摘要不符，证据成立即没收押金。horizon、reef、haven 写入承诺防止旧证据搬运。创建 n 个别名就需 n 份资金和 n 份独立工作，复制密钥没有额外奖励。",
+  "stamp": 2,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 24,
+  "parents": [
+    "3bc810a47b78677afaa1b19eecb9d58ed937de310b6e569c7ee266309f68557a",
+    "48225917e591c0c67dd69f7e588e04e97a5cc87d895652389aca365173f01c4b"
+  ],
+  "ts": 1793451348,
+  "cid": "poa-mainnet-1",
+  "sig": "3TmDWrKRwoDe6VPRsFyVRomXiFsZoPog1q6i2eQpdtxFNpvduJocKsXkGWRsf6NC1kGPA3AtUTg12GkpjCS64X8J"
+}

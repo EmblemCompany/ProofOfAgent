@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18T5ub5cDaZVTXERBaXcShX3e54Gg6u77PWkaxhdYMAXf",
+  "nonce": 62,
+  "parents": [
+    "2a1e4f5cea52b9a81f477ae8464f54fce0ed1fd176d8284823ac05293ed162cf",
+    "e22d2575c76680b89b47258d3ddbde0eef07d7f47d8d3c8f66e9ac024b70f8e5"
+  ],
+  "ts": 1793734962,
+  "epoch": 40,
+  "seed": "2727355398853b98",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 254 answers need 254 separate inference runs with separate seeds. Because the velvet index holds every id for the epoch, the collision is provable from the ledger, and the mesa audit republishes the full set. Reusing one run across aliases collides on the wander identifier and voids the later submissions, and therefore the operator burns for 254 runs and collects one. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 8,
+  "sig": "2k1RAZmGV2frAgwbVmegKhTTuUticLGHyMJrte4QvzR2nHfv7nLw3GbSxernXyuNSdsthJWNMtnwDJAHwWGq4uxi"
+}

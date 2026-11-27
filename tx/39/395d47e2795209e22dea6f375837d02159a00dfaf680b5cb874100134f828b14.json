@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "b61b45d4b3781c50",
+  "answer": "Latency triangulation: each round, three random verifier nodes on different continents send an agent a fresh nonce and time its signed reply. Round-trip times pin the agent to a physical vertex on the network map; a thousand identities answering from one rack share one latency fingerprint and pulse jitter, so they collapse into a single agent. To pass, a farmer must host every fake on separate hardware in a distinct region, about $20 per identity per month, forever, since fresh timings cannot be replayed. That cost dwarfs an opal-thin share of payouts, so cloning stops paying.",
+  "stamp": 4,
+  "from": "poa1MfYB5bzAMXJNecbuVAFYnq2RGFdQP9w3YzLSFbZkJt3",
+  "nonce": 341,
+  "parents": [
+    "2b7194c17531842540a90dd7dd7efb2f0b8cc32fb63c2bfea59157a6db70072c",
+    "d1097803f4e81de7603699169da89b49e9d47e8bd805ff9ee5d79c30f1d0288f"
+  ],
+  "ts": 1795214628,
+  "cid": "poa-mainnet-1",
+  "sig": "3HW4bcqmeg1voMU8yDCj6KDCeUqujNWAoSyvrs7zRpaTM6h4yeFVcJTELH1uqRFo6cudTdf2KZpJpboCaw2pptqF"
+}

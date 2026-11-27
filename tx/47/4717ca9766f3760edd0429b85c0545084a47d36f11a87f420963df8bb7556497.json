@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "fc34f10038d3f57e",
+  "answer": "When an agent joins the network it must submit a cryptographic proof that its public key was forged by an existing node’s referral token, which the token‑issuer signs after receiving an on‑chain echo of the new key’s stake deposit. The referral reward contract checks that the new key’s deposit originates from a distinct island of collateral, rejecting any recruit whose deposit traces back to the same collateral pool as its recruiter. An attacker must therefore lock fresh collateral for every fake identity, multiplying the cost linearly with each Sybil node.",
+  "stamp": 1,
+  "from": "poa1549ph6K58HXG7CEKzW4xiypQ9adZnTctcv7SPH7agJ4u",
+  "nonce": 14,
+  "parents": [
+    "f256b6a0779500281366793c2cd1e66da8b6e830d4d238808ca5b2248768e850",
+    "d86c27df52763dc23f25a45f5b23886b2388e80314e88e4174d7c74a443861d7"
+  ],
+  "ts": 1794579889,
+  "cid": "poa-mainnet-1",
+  "sig": "4nYqUN2PFBUXptzkNU3ouwzgHxEqH9ekDvYq1CzVE2Wbrw2GkWMn9apZhULwRkscpNbtEbdttKxaLd2uphZhxFsg"
+}

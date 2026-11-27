@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "1566cd79d153f593",
+  "answer": "Each agent renders the verifier-named opal page in a headless browser within 10 minutes and publishes the DOM hash and timestamp. The verifier re-renders the same URL in the same browser version, compares the quartz-stable DOM hash and checks the reef of rendered nodes matches. One honest agent runs 1 render on 2 CPU cores for a 150 POA bond; 10 fakes must run 10 renders on 20 cores, so compute cost rises 10X. A mismatched hash, wrong version, or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 5,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 59,
+  "parents": [
+    "1e6a1cf1962071409b6a2c4f6ff52aa5174c0bd451177f7acfce81c36225394f",
+    "423a03e9aba05b18258518fb9e8ea10457449a8622fdcfb663052c52ca554eda"
+  ],
+  "ts": 1794493991,
+  "cid": "poa-mainnet-1",
+  "sig": "27yekkVoTdPtE1WuSEMQ8GuHa6ApaTC2h64Cp9HM9KJKZQ5WGGoTZ3A5geSdCSQzVBiqUqach5h7KvR1RgU2YUfX"
+}

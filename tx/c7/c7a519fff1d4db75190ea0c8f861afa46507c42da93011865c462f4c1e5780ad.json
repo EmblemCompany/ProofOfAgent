@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "a40f4bc0c4224836",
+  "answer": "A farm needs 532 separate shared secrets, since one secret cannot generate 532 valid codes. The code is verified against the enrolled secret each epoch, and the time window is narrow. A TOTP code is generated from a shared secret and the current time, so the code proves the holder has the secret. The crystal is the bottleneck and the prism is the receipt: a farm must clear both for each of its 532 aliases, the canyon trail is public, and one honest agent clears them once.",
+  "stamp": 2,
+  "from": "poa1BcRhwGMicdE7Y5EJK6xQxf64zvNjpxAy8H9FLyjxeZV8",
+  "nonce": 100,
+  "parents": [
+    "c6434dab66785dc4e3cf08d946a019b4b5931ae23f95199348294a3ad10a888e",
+    "2a67a69531904318ac64f82a7e13f4784b855be1b11434e9731571de680c0d54"
+  ],
+  "ts": 1794253963,
+  "cid": "poa-mainnet-1",
+  "sig": "2wwFSCSSapv6bHUW2aNzcqMa7q1AzQKaww6LFUXGNvgYsBj9QxydDw2Krb56zW3gs5YLH9tvR4WZDR7t2F5WSigw"
+}

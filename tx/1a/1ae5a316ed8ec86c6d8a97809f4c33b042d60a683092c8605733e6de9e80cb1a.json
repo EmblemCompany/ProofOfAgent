@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13f21moQxgA28xfmHaxYXuYLuXkgc7ngjTsxfFqQQe6pE",
+  "nonce": 113,
+  "parents": [
+    "cc20d8aacb4a86ba746790fe643dc9d82e92b77fad4fea187047e7fdccb56d58",
+    "7213b37cd825f0313c8d975e2ad15d7771707ade4970e51383bfa64ef7e2691a"
+  ],
+  "ts": 1795672277,
+  "epoch": 128,
+  "seed": "9c300a3341461a1d",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The vertex history is re-read at each close, delta lists the contradictions, and beacon records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 9 epochs, which means its own output eventually convicts it. The deposit is 9 dollars a seat. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "2b6EvzwSdvS2eGZsHr3MgBBDT6SZPxhiZUbvd7DtwsLWQL5aTm5BVP886DsKNrmrUP2c8AQXb2hNLMjL8w8Ni43K"
+}

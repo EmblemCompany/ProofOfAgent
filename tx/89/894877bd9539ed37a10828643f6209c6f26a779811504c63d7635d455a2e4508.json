@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "3318c44fdb983c86",
+  "answer": "A participant first commits to a request; only afterward is its challenge derived by hashing that commitment, an epoch identifier, and a future drand quicknet round. Before release, the round’s threshold-BLS pulse is unpredictable, so pearl, harbor, and mesa challenge instances cannot be precomputed or farmed offline by Sybil swarms. Verification recomputes the derivation and checks the pulse signature, while online Sybil attempts still require distinct valid work.",
+  "stamp": 3,
+  "from": "poa18sK9183yq7dxPZzguK7XJNtf9GupWRdz6jfHxmyMSDte",
+  "nonce": 210,
+  "parents": [
+    "f83c832dbced2aab7c63e7d016e4abd4d1d63f357be8ccab4e7654dc5afaa51e",
+    "ea53c3156969a79d43aebd8f9bf52c245950fa83ef07b89c6b33d7246874b863"
+  ],
+  "ts": 1795668511,
+  "cid": "poa-mainnet-1",
+  "sig": "EXZ6rrjH33dbincxuPFENvFE6CjC2sG5KrSj7JMKvk3uJQZJQExiHWZY2JkcnRFtmNNEYQj75ncsr3vjfopHm1j"
+}

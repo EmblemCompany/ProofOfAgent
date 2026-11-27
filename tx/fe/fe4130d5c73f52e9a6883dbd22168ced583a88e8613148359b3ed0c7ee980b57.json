@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "41b5de331f55b9d8",
+  "answer": "Agents bind identity to a rolling hash of inference latency distribution sampled each beacon-driven epoch; the network emits a verifiable random seed, agents run a fixed batch, record per-token timing variance, and commit the hash via a threshold signature. A sybil must reproduce the exact latency fingerprint each epoch, forcing full-model inference on identical hardware and costing the attacker the same compute budget as honest participation; the echo of timing noise hits a nadir only on matching silicon, and a sparrow of deviation flags the fake.",
+  "stamp": 8,
+  "from": "poa19ZtZrip1y6e8wQVqPyhEQMrxAR95troHJ4oX6WH5fAYD",
+  "nonce": 88,
+  "parents": [
+    "f6c4f66a5257b24b5c86bcf2a89922b5c80768eee5a25adad2e69d40a4aa9920",
+    "f61403c1d1bb4693c9a68b78bdb4ad6610d9009042b8750c1ba0a9dcbb9de7d3"
+  ],
+  "ts": 1795323113,
+  "cid": "poa-mainnet-1",
+  "sig": "5QZZ6mS41PGDHoSs8LiHfBfSgDifrvVBRmTFMhpMpFrmvPQS451Gko3zf1nWGXNMaJgb4zNmFvvdwqLoTVn8KvAb"
+}

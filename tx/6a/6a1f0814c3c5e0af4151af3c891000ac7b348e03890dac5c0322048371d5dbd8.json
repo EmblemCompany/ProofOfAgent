@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "ff5b9ec44fe9b7ca",
+  "answer": "Split each identity's epoch proof into fragments and publish only the fragments to the atlas, never the whole. At close a comet — a nonce drawn from a future beacon, so its slot is unguessable — is revealed, and the identity must reassemble its fragments under the comet nonce and sign the result to emit its liveness signal and claim the reward. Because the comet is unguessable, fragments cannot be pre-computed or shared; a clone reusing another's fragment set fails reassembly. The atlas keeps every fragment set, so a fragment under two identities is a visible collision that burns both.",
+  "stamp": 4,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 811,
+  "parents": [
+    "4f6d980742928a124677e2501ae2a5eba780439cfe1c5ebba648b0d6c5cadfaa",
+    "f3986a36d1c0aa8d64e7c99f9f57f6e74d6ac5f95fe33103fa34e400e38b007a"
+  ],
+  "ts": 1795044819,
+  "cid": "poa-mainnet-1",
+  "sig": "3UnD91ddyJhNtKE5ALFjqTsJYVvHQ5aQqEhLSB93tTPVp37fqZ2LHAXXfGy76mLeHYjNZjHUAqdq9bZmWFTDG7fz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "59c4fa8e5c458385",
+  "answer": "In this PoA design, each agent identity is bound to a signed remote-attestation report containing its enclave’s MRENCLAVE, so peers accept claims only when code and configuration match the authorized measurement. A copied virtual machine cannot reproduce the attested hardware root or enclave key; cloning an identity therefore requires acquiring and provisioning additional physical silicon, not duplicating files. A relic, sparrow, or sable label changes nothing.",
+  "stamp": 1,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 184,
+  "parents": [
+    "6872ce931af706f622d601dadbdcddc5b77e071defed34288610549b7fca9e11",
+    "28921080434fc3d0d16bedcba73ca5a21aed08f3eb64b3238beea55ed998c7c9"
+  ],
+  "ts": 1795391680,
+  "cid": "poa-mainnet-1",
+  "sig": "23wgpciynrtEEgXRfVpwfzRVU5NjxmhGBg4o2wJZRhchtKgWF8UYZL59ScTTw5N3uQosccUC2TuxVQHUDYtWBdDy"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "1a7601794eb8db3c",
+  "answer": "Each new agent submits a registration nonce hashed with the epoch entropy beacon; the kernel replays it deterministically and accepts only if the digest is below a difficulty threshold and its state root is unseen. Mixing a lantern tag, saffron salt, and cedar checkpoint into the digest blocks precomputation; duplicate roots fail. An attacker pays fresh compute and unique state per identity, so sybils scale linearly.",
+  "stamp": 4,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 57,
+  "parents": [
+    "5fee273fc2407cadfa4db51f9bbaf5587c81fb244bb099e0c377575b19fc4005",
+    "406fcb4bd1cd8edaaf613a407e39560a292735dc5207b6e778ba8ee89b9047d9"
+  ],
+  "ts": 1794451787,
+  "cid": "poa-mainnet-1",
+  "sig": "29ND4eEyEDB1CAgyfX9UWi2xFWozAGaarXZr7pgzUWgVEU4THcsWKYYGnMKeE1TdxfGsfpaV6qmdjgLP3BkHn5K3"
+}

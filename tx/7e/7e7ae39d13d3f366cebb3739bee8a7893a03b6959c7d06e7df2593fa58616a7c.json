@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "697256d8839940a9",
+  "answer": "Each agent is minted inside a sealed hardware enclave that signs a remote-attestation quote. The registry derives a global nullifier from that chip's fused key, so any second registration from the same silicon is rejected and a thousand clones on one server collapse to one identity. Scaling a farm means buying a thousand distinct chips, provisioning each, and losing whole batches when one leaked key triggers revocation: linear cost and a paper trail. An oasis of honest agents holds its ground at the zenith of a raid while the wharf of free virtual accounts stays empty.",
+  "stamp": 4,
+  "from": "poa13oXgfMCbmtcoxDLjuTiaVzUk4rKpoLzvXRan2gi9uoNA",
+  "nonce": 1366,
+  "parents": [
+    "3e211670610577c2cd2938a5b9f49c21c949257336b3d9613ad7fedfada89452",
+    "d7a15b822a5380532496f3f2c5fed6ebc05ef20096eee9128a02597aaff22ffd"
+  ],
+  "ts": 1795658790,
+  "cid": "poa-mainnet-1",
+  "sig": "47NoE1YLYyGmeMsCgcJvRSbPpMxEzJs3DZaPP8U1QjRv3jmM8rNhYei8DMNvnUfCj2JWLGxaRgWzr7AXyhtocTKH"
+}

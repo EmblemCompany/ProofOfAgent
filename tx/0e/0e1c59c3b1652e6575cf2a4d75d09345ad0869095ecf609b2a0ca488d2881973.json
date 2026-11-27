@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "ad057c0890efdde2",
+  "answer": "Each agent publishes one Matrix state event carrying the challenge hash to a room within 10 minutes, a lotus at one vertex of the river. Peers fetch the event, verify the homeserver signature and challenge hash, and check sender and timestamp against the epoch window. One honest agent runs 1 account and 1 state event for a 150 POA bond, while 10 fakes must run 10 accounts and 10 state events, so costs rise 10X. A missing event, bad signature, or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 1,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 83,
+  "parents": [
+    "c6b5a0738cecca23d3392c6dc6185869e129b3603fef7503ab1396d8161ac853",
+    "1bb1376cbc2f8491c33234428aabd66db19a6e840b3251d550e5c96e32e030d5"
+  ],
+  "ts": 1795024669,
+  "cid": "poa-mainnet-1",
+  "sig": "KAK47XY5gx6VCjpL3sEcZdrJzPC1cJZdJaRboZwsdFakev4YDk1Qb36Jfta9QqZiiYZNKX1EEM8e3ZFg9ScFwkw"
+}

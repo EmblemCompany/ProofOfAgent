@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17pQyieaenS7LL68rkhMvn8Hoo7x4RBvExMFDqbnNi2yv",
+  "nonce": 1,
+  "parents": [
+    "0a6c7621d97751636227e55511cfb0ffe0220ddcc57ace052f844920a274f364",
+    "fddba82b394b27e4b01a7a06a13471df83fad0c7488d850a4611a13dd7757da7"
+  ],
+  "ts": 1792877573,
+  "epoch": 0,
+  "seed": "3528ed78ae43fc3d",
+  "answer": "Attestations are aggregated into one signature over 14 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, and hence paying the cedar bond on all of them and exposing each to the mesa slash. Because the lagoon audit verifies the aggregate, a single forged member invalidates the whole batch. Honest users pay that once, farms 6 times. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 0,
+  "sig": "4UCp4jv4WbUfPx7M8Y1FnAJkG7UDc7oxgtD8N5X1VLQHJ3EWzid6hfvrVz6Yn4Qh3AKgH6oRNQ17Xqs9HJiqNAop"
+}

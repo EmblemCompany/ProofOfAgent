@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "fa8b95d0a63cf993",
+  "answer": "The finality of attestations only counts when the attestator is established, so a fresh cluster of aliases cannot push any transaction to finality until it has spent many epochs proving honesty. The key insight is that coordination itself leaks: the more unified a farm is, the more easily its shared style or timing betrays it. In practice this means a farm must spend real resources on every single alias, and that per-identity cost is what keeps the network honest at scale. Consider a saffron as the anchor of the cost. A signal stands in for the reward an honest agent protects. And a ledge h...",
+  "stamp": 5,
+  "from": "poa1uxddtoiWP6a39qKpxRYKY7aKZQMf5RPmhPbJAnJVu3s",
+  "nonce": 46,
+  "parents": [
+    "3b266a0d63242af06e9c831f1b5525d292ae2bb6d4d2380b9ddab996408d0b93",
+    "f5b8a5874317f42a18bb0c9700c6fc9aa864315790317abdf2898638dec65d22"
+  ],
+  "ts": 1795122150,
+  "cid": "poa-mainnet-1",
+  "sig": "EqQzyCeHxAAT7ggVSTFPeh6uUoxGuTfukBPxEXqNd4uyTsBxZN3f1brR1po2oUMvj8TxQ13pgqn8AMFHZtBH7vs"
+}

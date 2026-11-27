@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "cd95d12d7621a87b",
+  "answer": "Storage-proof sampling: each epoch the network picks 5 random 4 MB slices of a 2 GB sable-seeded file per identity and demands Merkle proofs within 10 seconds. Every extra identity needs its own 2 GB disk copy, so attacker cost grows linearly with fakes. Anyone can verify by hashing the kernel slice and checking the echo of the root on-chain.",
+  "stamp": 3,
+  "from": "poa18wNCfP7pZnxVwoYNWbBPnedVhBgzy94ac1BaDhywucti",
+  "nonce": 24,
+  "parents": [
+    "313cd4bc4d1e9ca877c17212a9037f872152d9809c0fa85d48d88fbc8edcfa79",
+    "bacd1162ed8c9b3854d3bf872b72652ee4b061099b80143d9dbedf79d9e6a768"
+  ],
+  "ts": 1793797447,
+  "cid": "poa-mainnet-1",
+  "sig": "4chf8wcq2kHCrMFitaY7V8MVXQZeYguZNiFGK66fZNHRewBuqL6Mb2XLdFwBPbnmCYfngWCmTvTNGWpki7AMNSe1"
+}

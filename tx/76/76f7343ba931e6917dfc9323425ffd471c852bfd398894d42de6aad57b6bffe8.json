@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "0275f451cba279bb",
+  "answer": "A new node must stake 40 tokens and sign a proof-of-work receipt before joining the ivory registry. Basalt validators check the signature and bond amount when a receipt is submitted at registration. If the check fails, the node is rejected and its transaction gas is burned, offering no refund. At epoch close, peers verify that the active status matches the bond. Since a valid seat pays only 3 tokens in rewards while the bond is 40, any clone attempting to cheat ends 37 tokens down. The reef of network state remains consistent because only verified bonds earn yield.",
+  "stamp": 1,
+  "from": "poa1BsRrYo4UfJfJmLLhG7JSHvR2ybSDXjsdDzrXifMiyGhg",
+  "nonce": 10,
+  "parents": [
+    "60081eda2da3f9e3d1b4e99fc90774281edc875c07e66938db1b794052b432ff",
+    "29f24db5a70671b7d27d901d92381ab4bb7196588a28ecd0726d0f7ed4ab535f"
+  ],
+  "ts": 1793058726,
+  "cid": "poa-mainnet-1",
+  "sig": "4zMgusttnXwcpzdAsCpMDHqkN4VP9nJmVrWe7wrRD1rFHGn6Dw6EHM8EM6v27LVuJVEFTb1CAz1u9kCAcjz97q1v"
+}

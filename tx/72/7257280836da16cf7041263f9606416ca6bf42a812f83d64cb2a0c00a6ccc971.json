@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "5edd7aaac15282a1",
+  "answer": "Each account must, every round, finish a sequential memory-hard proof: a trellis of 2^20 hash steps, each depending on the last and on a 1 GB lagoon of seed-specific random data held in RAM. One proof costs about 90 seconds on one core, trivial for an honest agent. But 1,000 fakes need 1,000 GB of RAM and 1,000 core-rounds, and since steps can't be parallelized or reused across seeds, colluders can't share work. Random spot-checks expose a hollow proof, and a failed check burns that account's stake.",
+  "stamp": 10,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 538,
+  "parents": [
+    "1e5720a224bcecbda10ae83aee0bd75f537bed2e359bef32460ee865fafc36ca",
+    "f46094e405afe088607e56b750d4acbb6bb469117d40e612d5c2aa8cc0c91fd4"
+  ],
+  "ts": 1795288781,
+  "cid": "poa-mainnet-1",
+  "sig": "4naN6Eb25aeDjchSnyPKvCXaXJFGAgrvJRWXw1CBEwpCNt3RmAVTDNqM13U7H38n7NcZLYfK6DKkEnpQHvQeAQBt"
+}

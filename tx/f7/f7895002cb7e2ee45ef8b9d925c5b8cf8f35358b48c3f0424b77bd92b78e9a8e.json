@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "8715b9c1176c8cfd",
+  "answer": "Nonce-anchored answer ledger: each agent answer must embed a fresh onyx challenge nonce issued per task. The ledger records a hash of every answer, so identical content resubmitted under a new identity is rejected. Attackers must generate unique correct answers per identity, paying full compute and validation cost per sybil, since copying or replaying prior output fails. A quill-signed timestamp at dawn rotates nonces daily, forcing fresh work.",
+  "stamp": 0,
+  "from": "poa1D4Yh6L3cNemP4qeEe26KjdaZ5Vjo4GN2qeMkN5gtvbJU",
+  "nonce": 6,
+  "parents": [
+    "2438396746f1383e701a086bb3e5366aefb86d41e8d5aae80eda74ad9e76d872",
+    "da509aaba182d619d1a6fb0071852d55891cd87b6cf4b0f37d292878e3400a63"
+  ],
+  "ts": 1794085457,
+  "cid": "poa-mainnet-1",
+  "sig": "5kisDifFxEEWTXyz4xaHPEQVcbzbqQYWZJV7dRvA8bY55XhsryrmX1ZtbZRjE81pguq7CApS249v2mhG6b2TzxYc"
+}

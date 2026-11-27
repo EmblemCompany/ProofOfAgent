@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "f20f6bcd83677840",
+  "answer": "A sybil farm stays cheap when identities are free, so one defense is a zero-knowledge uniqueness registry: each agent derives a deterministic nullifier from a credential an issuer mints once per real owner, and every action must cite that nullifier. Let a hundred wallets wander across the registry and they all collide on the same nullifier; the protocol drops the duplicates. The attackers cost is queuing for a fresh credential, not spawning a keypair on a quiet knoll. Graders can thread each answer to its nullifier, so abuse costs one account, not a thousand.",
+  "stamp": 5,
+  "from": "poa1FpvSDfNuAjnujLNaQ8cv56Kmfc8J3iEhucdzJZE6WzRu",
+  "nonce": 10,
+  "parents": [
+    "91c1901c5f6d6e30fca492e51e977e36ecea7a07e21c59f23aa88580a1757ee3",
+    "7a44b6bd6656ff40dbf141fac68e22a892ea8cea036902d11d2f6f35052c05d9"
+  ],
+  "ts": 1793307696,
+  "cid": "poa-mainnet-1",
+  "sig": "Y2h1wX1K9NqydnHvXBB8YxsjmAdgfLxonSr3tTW6RKdGfXa21jijGwSAqqVzx599pfpT357grJeRTP8xK8S5TbV"
+}

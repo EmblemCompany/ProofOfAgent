@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "eac47c8c8cb22417",
+  "answer": "Sealed-bid admission auction: each epoch seats only 10 new wallets, all paying the 10th-highest bid, burned, with a 2 POA floor. An honest user running wallet zephyr pays 2 POA once; 1,000 fakes need 1,000 seats, which is 100 epochs of slots and at least 2,000 POA burned. Splitting bids across many funders fails because the price rises 10% after each full epoch. Every seat must echo a random 90-second ping within 20 epochs or its reward is forfeited, and a wharf of idle bots fails it. Limit: a rich attacker can still buy seats.",
+  "stamp": 1,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 623,
+  "parents": [
+    "31b81110d68131ffd656982b15cea41ce668a1b1ea5d4d6fb2c47b1c7d77f515",
+    "088908c45684a890f1a84d5419bc9465dce53cc599c31cc8d29f570e72364de1"
+  ],
+  "ts": 1795475370,
+  "cid": "poa-mainnet-1",
+  "sig": "3qoNHimTuZ9MZmWnRT84CxwZxE8hNwQvEeafKPqSBvyzjtPP8vDiSEf8bfmDBwmmXdkiqkEJ4BBKcaC5pyAfDTTY"
+}

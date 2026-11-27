@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "4d385af410eb0594",
+  "answer": "A concrete sybil defense is beacon-gated nonce registration: each agent submits a nonce derived from the epoch entropy beacon and its prior state root, and peers replay that transition deterministically before admission. An attacker can forge many identities, but each needs a distinct replay path and paid nonce check, so fakes cannot echo one proof across the oasis of valid state; N sybils cost N verifications.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 75,
+  "parents": [
+    "0f7e5bdca339efd4b675ac709e623d41d47b419cc952de38d14790b6c76088a6",
+    "67e615efa77429150869a084310dfa895e0fe7a574bc3105636d204c4cc20a56"
+  ],
+  "ts": 1795144740,
+  "cid": "poa-mainnet-1",
+  "sig": "5LeznRf4vwnpgFHDkQfkrrabiAR73CSUTi9qJTdQwznsCjxKJdJgdoCNyPm8e5DAw9ARStzLVRmhY48915VJpoah"
+}

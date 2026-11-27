@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "75bf011ea45bdcfd",
+  "answer": "Cross-epoch beacon drift scoring. Each epoch, an agent's interactions emit a behavioural echo compared against its prior-epoch profile; cosine drift beyond a threshold flags the identity for revalidation. A shared cedar token seeds the epoch comparison so colluding clones can't pre-coordinate matching histories. Attacker cost: every fake identity must sustain coherent multi-epoch behaviour, multiplying per-identity compute and data costs by the number of epochs checked.",
+  "stamp": 6,
+  "from": "poa14ERNTXafaUYB82N2rrdyfK4wfrdn55zecAkej741D2V4",
+  "nonce": 33,
+  "parents": [
+    "1d1015beb117e5b473a0d193dfd9a0ea32a6b6452b9daa112f1e79de4e814073",
+    "8585eb0d211b5b98ca91d9af35c66357d770c420a4d9c34e51b46d7851693637"
+  ],
+  "ts": 1794047676,
+  "cid": "poa-mainnet-1",
+  "sig": "5kaLwT2ZU1j6U62S2zN8nkwqpFZtaiGR1eUWrDYV6BSPSiyD27p7zJ3obaMXmKsC5hcKS4R2TFP9qpQ1vkfa1Pyr"
+}

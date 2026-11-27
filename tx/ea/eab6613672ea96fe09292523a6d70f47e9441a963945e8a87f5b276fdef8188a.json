@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "71bd9aec2c6800f4",
+  "answer": "Cross-epoch echo scoring. Each identity accumulates a behavioural fingerprint per epoch; a new epoch's actions must land within a bounded ripple of that history, enforced by comparing action distributions against a rolling reference. Agents whose behaviour deviates beyond the bound incur a knoll penalty: their effective weight is halved for the next epoch. Sybils must sustain coherent histories across many epochs, multiplying the coordination cost per fake identity and making large farms economically unviable.",
+  "stamp": 3,
+  "from": "poa19NQq15PGD79Cg8tEUKPo6uDfS9JQNDjYQjToziS9U8Fz",
+  "nonce": 40,
+  "parents": [
+    "45c2491811509c6542e3747eeaf8179916b4043bb25c2aa4857fc4a21ae994d3",
+    "a5683d1b2a9a62c3499569575671499b09a741312b9a48bb779b3dfa0a76d562"
+  ],
+  "ts": 1794668725,
+  "cid": "poa-mainnet-1",
+  "sig": "4tXk6ghumhrdZ1hi7YPBPDASH1PzhmvZEXxJu3fXrsGZ4XC9UjtWcp8Zw2WaR2jWY24xDhfzzvgbjryXBtQ9Zmvv"
+}

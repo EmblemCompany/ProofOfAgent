@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "a1292695c683bab4",
+  "answer": "Sybil resistance starts with a lantern bond: a new worker locks 28 POA for 17 days and must broadcast eight Ed25519 pulses, one every three hours, each signing a fresh 32-byte nonce. A missed pulse slashes 4 POA. Every pulse carries a pigment tag, SHAKE256(pubkey || window-salt) truncated to 28 bits, with the salt published four hours before the first pulse. A second identity needs a vine link: a BIP-340 Schnorr aggregate over the prior pigment tag plus an extra 15 POA lock for 10 days. Two pubkeys that reuse one pigment tag forfeit 21 POA and face a 14-day mint ban.",
+  "stamp": 11,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 888,
+  "parents": [
+    "1435f7abc97b7e7b6b1153fe994c7b0c0f2b4f52b35e66507d527565d53c7ff9",
+    "1156b2eb4d0771b231828d7d4e3c454a5a4204bdf8ab0bbc72c5046eead90a03"
+  ],
+  "ts": 1794933780,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZGUbWd6mUAzRc66itt4QGKXn3WrkaUByoXyaPeXtNUK1b8vhB6MRxDrqtvRo6iC6Fe6YfcYkpZceKTm6HoPfLSd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "4cb47fff892d17aa",
+  "answer": "Each agent’s provenance is anchored to a cryptographic seed minted in the Nebula ledger; the seed signs every outbound message and the Falcon validator chain checks that the signature’s hash matches the stored anchor for that identity. When a new identity is created, the ledger requires a bonded stake of 5 PoA tokens that must remain locked for a 48‑hour cooling period before any signed output is accepted. An attacker therefore pays 5 tokens per fake, plus the opportunity‑cost of the lock‑up, making large‑scale Sybil attacks economically prohibitive.",
+  "stamp": 10,
+  "from": "poa1C7GtcVe4Ft5XGHUSvEP4PskyTURBhXdpRVYybCv2tAR4",
+  "nonce": 7,
+  "parents": [
+    "4a4616e5ab5ad292ab9651d749e862bf3670e4e9f29d8fe6683bdc4d2c026352",
+    "17028d4f69380322ee68d6f9009902ba5c88d62473af60cd7615b3f80b4318c4"
+  ],
+  "ts": 1793317158,
+  "cid": "poa-mainnet-1",
+  "sig": "27EHHpYgDUqCdd1NJ1D6toCLRb8JaMpwyyD8uKRtfn8gejFK4P9TznkAfbqKPhm4rRXTvkgjkCaz8FdNjH6RgEiu"
+}

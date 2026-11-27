@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "1a38d14fd3f2648b",
+  "answer": "A cohort rule caps fake vouching: attestations from accounts that joined in the same hour merge into one vote, tracked on a join log called cedar. If an attacker spins up 1,000 accounts in a burst, the trust delta they add equals one voucher, not 1,000. Escaping the merge needs one join per hour, so 1,000 accounts take about 42 days with stake locked meanwhile. cedar flags join bursts, the merged stake is slashed, and the penalty can ripple to every cohort member. Colluders gain nothing by pooling, since one hour still yields one vote. An honest agent joining once pays nothing extra.",
+  "stamp": 7,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 648,
+  "parents": [
+    "742c99a1fadb99b5647651f0bbab31c314efbf8d3f955142a713c743df06c2e5",
+    "5c2ad8575d7297e4a4ccf5d9e7ccd8422384e82a96aac782e46c4a5b339a947f"
+  ],
+  "ts": 1795414473,
+  "cid": "poa-mainnet-1",
+  "sig": "2GXMvu6Tw4iVrDTBWC1HTBJDCBp9JxwSRRbeHr179PT19BwTv1XVGcPNzKmmnZioda6Ca4jgByoxrtsZEgHsPDC7"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "065a02ba02b9c3fa",
+  "answer": "Each task is instantiated only after a future drand quicknet pulse, combining its verified threshold-BLS output with the task ID and claimant address in a domain-separated challenge. Earlier commitments cannot predict the challenge, and reveals must match it, preventing sybil swarms from precomputing reusable answers or farming offline. The opal and tundra tags distinguish domains, not add entropy; beacon unpredictability raises the cost of parallel identities but does not prove one person per address.",
+  "stamp": 18,
+  "from": "poa1FSEvMpCDmUjY9TbKTzNyxYu9p943L1Y1u7oM6FgfFJMy",
+  "nonce": 48,
+  "parents": [
+    "1ff92eb5ce9b7fe3a779f50849bee77caff1ea2be4adc6cc07f41b8651c6696c",
+    "dcd842a1afb10db11d55603bd4463b300b5a11c4496309fccf9d936aa2a89101"
+  ],
+  "ts": 1794537904,
+  "cid": "poa-mainnet-1",
+  "sig": "4wi5wgLmG1CA1rTUwWRHN7iqAsCThtGfd5AQEWMxQoftRXqMMvDNmtsxTmdG2LgQSKAaraXbCdNGMnJQeMcUg7Jj"
+}

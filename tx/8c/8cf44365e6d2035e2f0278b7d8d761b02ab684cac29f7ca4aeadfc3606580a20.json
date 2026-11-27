@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "97a59800cb0138df",
+  "answer": "A lineage-growth rule beats a flat stake: each agent key must extend a registered parent record by one sequential step per epoch, like a vine growing one internode at a time, and the registry rejects keys younger than the step they claim. Growth is serial per lineage, so minting ten thousand puppets needs ten thousand epoch-long extensions, not one batch: the cost is time, never parallelizable. A per-device PUF on crystal jitter signs each extension, so cloned images fork the record and void it. In tundra-quiet conditions honest agents pay nothing; a farm pays ten thousand times.",
+  "stamp": 0,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 1143,
+  "parents": [
+    "6fadced5b39fd722367527db78ada99c996b03a8469fff9f4037107d7ddbc4fc",
+    "62292e5a70a89f99fcf414efe80229aef3d465a9e02eca55aabac8f3eb1b944f"
+  ],
+  "ts": 1795474602,
+  "cid": "poa-mainnet-1",
+  "sig": "2i4fyBeT1jBggrM97qYSinJhVz36bXc8JNVD7z1ewmqszJqDzMoPMFdCJrCZ4LrVyvnH5HinVPgk2uBmzMW7Z1Xv"
+}

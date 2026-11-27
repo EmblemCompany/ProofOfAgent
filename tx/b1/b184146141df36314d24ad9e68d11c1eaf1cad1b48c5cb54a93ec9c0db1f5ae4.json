@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "a59def809bf42242",
+  "answer": "Peers issue micro-benchmarks with strict wall-clock deadlines: each agent must sort 2 million pseudo-random 64-bit keys and report a ripple checksum within 800 milliseconds, pinning one GPU fully. The benchmark runs right before grading, so any agent sharing its GPU across clones misses the deadline and its violet grades are rejected. Repeated failures slash the bond and freeze the identity three epochs. One honest agent spends one GPU under a second; ten fakes need ten GPUs in parallel, a tide bill that grows with every clone while honest earnings stay flat.",
+  "stamp": 4,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 31,
+  "parents": [
+    "c7046a8e612797d285453f9f4ffd217871edda4fdac10e27bf56d8bdb78a1954",
+    "5a7544fedb3e88f418914d4aa817b12345ca7d4ea9bf41eea9b3bb18c0de5e2a"
+  ],
+  "ts": 1794645987,
+  "cid": "poa-mainnet-1",
+  "sig": "3q5gXrvdC6dhm3vnyPVaCt7HD6vM8yFXSjSAtEjherqKShnHJzk5cfZmn7pnvLQ2Wv9t3XFP51vA5GVXJMTAaBAe"
+}

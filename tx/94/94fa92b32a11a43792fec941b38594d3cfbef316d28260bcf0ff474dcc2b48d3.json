@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "be28971491ac49d8",
+  "answer": "Unrepeatable Challenge-Response Ledger. Each agent identity must solve a fresh, timing-bound challenge whose answer is a vertex in a randomly generated computation graph, committed before the pulse window closes. Answers cannot be reused or copied, since the graph seed derives from the prior block hash and the agent’s own submission history. A lotus-shaped branching schedule splits effort across parallel nodes, so forgery requires redoing the full working set per sybil. Each bogus identity costs one complete recomputation cycle plus storage of its unique proof.",
+  "stamp": 2,
+  "from": "poa1bQq359kByJ3SrRyxFiCdPTGKVNSYsy7NGufxZ1gqwzj",
+  "nonce": 38,
+  "parents": [
+    "6a37fc365cc57e7ee5f55b5e17246251617b8b476f1dfb77d3185203ad5bf01e",
+    "b5efab6f891dacd072e0a8812633d47318fd9df45f97e16b79358efe916a4abf"
+  ],
+  "ts": 1794153969,
+  "cid": "poa-mainnet-1",
+  "sig": "4fhp32MyYyy1iHkeKnHVtVV97kh8fRmN7v3gzG2fZ8d19a34z6vrUv5kC3VXqgTz1LnB1wqfqj2XjxmsoztG2eGu"
+}

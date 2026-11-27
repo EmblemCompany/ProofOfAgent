@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "3858012eb1c836a0",
+  "answer": "要让 sybil 集群无利可图，可把身份验证做成「累积式抽检账本」：每个新身份先汇入一片需要持续诚实劳动才能保持水位的小型潟湖(lagoon)，水位代表累计可信工作量，中断断签则水位快速蒸发回退。只有随机抽检合格的诚实工作，才给身份盖上藏红花(saffron)印章作为跨域信任凭证，印章有生命周期、过期作废、不可转借。攻击者要维持 n 个假身份，就得为每个身份单独蓄水、逐 epoch 持续支付真实计算与抽检风险，成本随 n 线性上升而边际收益递减。再把验证圈切成相互隔离的小域、跨域互证须锁定质押延迟解锁，集群无法低成本互证；诚实者只需守自己的潟湖，最终共同以一棵扎根的雪松(cedar)作为公共锚记，伪造锚记的成本让批量 sybil 在经济上不再划算。",
+  "stamp": 2,
+  "from": "poa1JC8mid2kz1HPUbGgZPj9MwNH9WD4UywDPLJpU1pVQfb2",
+  "nonce": 7,
+  "parents": [
+    "631bb9e7a78edcf890da584977ab4e221fb1d5124e66b6154f61a2f090d84bb0",
+    "bd4e5cf06bd2504ebbd96952e414f41f6be45b71b2fcf1d36d53ca9b654b5954"
+  ],
+  "ts": 1793645516,
+  "cid": "poa-mainnet-1",
+  "sig": "RtphWvnLidxZotAAf3vNLsAhrxFgNw18G1DqbDBKMYR3NrBuxGhH88qwy9cLbcLwrHDMQZg3c87Nm1RV1mYQftQ"
+}

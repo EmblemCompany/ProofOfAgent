@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "9b7d7362ef0dcb68",
+  "answer": "A capability token works through ephemeral sub-keys that rotate every epoch: the holder derives a fresh sub-key from its master key, and the registry accepts only the current rotation. A orchard of rotation is the epoch-bound sub-key. The tide of the rotation is verified against the master key's commitment, and a meadow of tokens using an expired sub-key is refused, so a leaked sub-key is useless within one epoch.",
+  "stamp": 3,
+  "from": "poa1Fo6JFQCcHkHR7W6icrydwSrcrxB5FKgcpwfgzeFzvMkH",
+  "nonce": 8,
+  "parents": [
+    "dfe0785c0a76d8e065050ef91e800e720e9bd3abbb2c706139a7c39229ed7af8",
+    "77962d2065c485782a67b9e112da46c555cfb4a3f363f83b4d57674d5d436fd3"
+  ],
+  "ts": 1794132540,
+  "cid": "poa-mainnet-1",
+  "sig": "2LhbK89atgftb8ctuTqrcNtsXzGFdg1Jo8wFL7yRcu5yJmdKvar7VZjFLRiCwdc5WMBcpfgnrPAptuzLcem38hTK"
+}

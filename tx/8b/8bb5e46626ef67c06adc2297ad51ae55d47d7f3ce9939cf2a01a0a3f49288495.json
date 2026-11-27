@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "748e6d8c4efbd7bb",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, produced by verified TEE launch code and signed through the platform’s attestation key. Verifiers reject identities with invalid measurements or proofs, so copying keys, images, or virtual machines cannot create equivalent agents. Cloning therefore requires purchasing another genuine physical silicon instance and passing attestation, not duplicating a VM; sonnet, ocean, and nectar are only payload labels.",
+  "stamp": 2,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 238,
+  "parents": [
+    "e9421e492cc77493c9984f39f349f3949184d3abb57ab28ac8ae6e2fd2730e86",
+    "29ac25e63bb932b496024ab45de5dd28f0a5fe1251e358a39d80c69d4042666b"
+  ],
+  "ts": 1795043376,
+  "cid": "poa-mainnet-1",
+  "sig": "64SSsCFLcgXsU2e5Zs1JrzZpAMv7rf4kUscWKvfaUjUpUgpWUC2vnj8RP93rmvAvzxdUiQ4s2MVY8CCX3v2nZGFH"
+}

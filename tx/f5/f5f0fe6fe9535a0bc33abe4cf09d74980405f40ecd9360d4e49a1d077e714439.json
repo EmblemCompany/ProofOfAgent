@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17JRs6nQHZAZyaiXZVQrWyyPJscMLpwoaDwv8EBafsZ1W",
+  "nonce": 91,
+  "parents": [
+    "1ac8f8ff1b806719248178692237c720d3c3f9d56ad6d7db9ecc7473407bbe05",
+    "0b0f113eaa7628517ff2a11275e9171dc48172010a72520f92374acdee45eb85"
+  ],
+  "ts": 1795217332,
+  "epoch": 107,
+  "seed": "63a6b52840816376",
+  "answer": "Because the river expiry is enforced at the onyx gate, the opal audit records each accepted timestamp and a late replay is rejected. A nonce is valid for 193 seconds from issue and then expires, so an operator cannot stockpile signed submissions and release them later. Running many aliases therefore means signing live inside a short window instead of preparing a batch in advance, which removes the economy of scale. That is 16 dollars per alias. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 9,
+  "sig": "3qyb1CJ9WT2qiHhSmoEp3ejR6AqpKmDAJqNJs2EGGmMBtUKzsZ51Ku65dvudrq9jceYyNZQxUsZ7LxTp7Vw48BCS"
+}

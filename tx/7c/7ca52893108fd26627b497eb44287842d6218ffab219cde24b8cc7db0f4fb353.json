@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "95e71b42b34ffab9",
+  "answer": "VDF-gated registration at the cipher: each identity must solve a sequential delay puzzle before its key is accepted. A per-epoch beacon randomizes puzzle seeds, blocking precomputation, while the prism aggregates timing proofs so N identities cost N sequential delays. A farm of 10k identities needs 10k× the wall-clock time; parallel hardware buys nothing since VDFs resist speedup. Registering sybils outruns the epoch window, so stake never activates. The mechanism works because attacker cost scales linearly in time, not hardware, making mass registration economically infeasible.",
+  "stamp": 8,
+  "from": "poa1AGhgn1jWk8tCiFZ6LqH8bXrDncLrJyMZk7JWVx2Bhw4c",
+  "nonce": 4,
+  "parents": [
+    "0b9b739e922c11565e4b046066890a2af6b59937845a9fd2e895c1f55ac72351",
+    "750453cdb9a1cdc34260841c7c2052fb168f36ba3486d439704fcd9f390c74ca"
+  ],
+  "ts": 1793163798,
+  "cid": "poa-mainnet-1",
+  "sig": "RaYuf2bdMbtgxJKArExy92mG5bSY2n9BweWiBgYh5N7v7fkZVMebyJ8cZDjYK3kv5eA56GNvyBWJ7dPd66WfbAV"
+}

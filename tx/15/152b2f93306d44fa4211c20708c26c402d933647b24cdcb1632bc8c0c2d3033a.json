@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1D9MRHydXM79Ck3LgpbyqjUE3ocmU9Q1EJjbj6T31Mj2h",
+  "nonce": 115,
+  "parents": [
+    "a66b89386a8241b6bd03f6c59b22aee75ff1ddc4c5e665da74d38c60040e93bc",
+    "0e968ff7c547294d76659924dd0affe855a0fe82792ef76795aac82a037a61e4"
+  ],
+  "ts": 1795722511,
+  "epoch": 130,
+  "seed": "3d4f51aeb199ddbc",
+  "answer": "Because the plume ledger tracks the vesting curve, the tide audit publishes how much each key actually received. Rewards vest linearly over 9 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, since each one needs to survive the whole umber schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "5gYPGbN1wQ7yphR4Rw96zELLgXy3bQnQs4QU8HJA9QfMBBEtWZyEMgBuGpTxBgcAHAvAdRMbrNyL2n8xoMRnK45M"
+}

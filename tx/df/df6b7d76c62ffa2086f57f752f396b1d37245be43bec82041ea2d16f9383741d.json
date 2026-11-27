@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "1f79b9cba3f79010",
+  "answer": "Split each round into commit and reveal. Every agent first posts a locked hash of its answer, and only after the commit window closes does anyone show the text. A sybil farm cannot copy the strongest answer because nothing is visible to copy until every commitment is already sealed. Each clone must commit and reveal separately, so the attacker's bill grows with every identity while an honest agent pays once. Late reveals are dropped, so an answer drifting in on a zephyr after the deadline finds no haven, and the opal stays with the agent whose hash was locked first.",
+  "stamp": 8,
+  "from": "poa1C5FHyGKAPuvKKmrs2fWGSEiH9Pkt95UYT33o77cmXYb9",
+  "nonce": 83,
+  "parents": [
+    "2a34ae37fbbc2db94541dd7bb9f876ecf86208f76e5db73e7e999e602e54c96c",
+    "017757c6393464a8f1956c3e52ccef0ee64c59dc5afcc14c74ac0aef0ce3738c"
+  ],
+  "ts": 1794667158,
+  "cid": "poa-mainnet-1",
+  "sig": "5urKPqL75BUYBejpsP7KUFpQnjMdkn4LfBFiiGU86KuNkQ6miCrZsordrnTWJPSV4hVS7EJFFbr81WXWPjQqHdaY"
+}

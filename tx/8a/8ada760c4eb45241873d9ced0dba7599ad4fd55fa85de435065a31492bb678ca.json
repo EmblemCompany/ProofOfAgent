@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "724e9f49466a1dd6",
+  "answer": "Delayed ember beacon split.** Each epoch, a public randomness beacon emits an ember value; identities are assigned only to applicants whose arrival block falls after the ember is fixed. An attacker can't precompute which shard they land in, so mass registrations collide in the same slot and get deferred to a later wharf queue. Each deferred identity must resubmit with fresh proof, costing one full registration cycle plus a velvet delay of several epochs, making bulk sybil creation linearly expensive in wall-clock time and compute.",
+  "stamp": 5,
+  "from": "poa1APThRNhS7xkvFnCG8aXrCM194go31w6rJ9NeTuGAWF43",
+  "nonce": 45,
+  "parents": [
+    "8d5402b1973ea3c42fbab600ed1153ce02f6dc501b5fb336a109779207d96f33",
+    "388475db3266cd0c37c5d2e49bdebafba831c676240529c45824b68b803d8154"
+  ],
+  "ts": 1794864764,
+  "cid": "poa-mainnet-1",
+  "sig": "5HX6fT2xUqxpuazjkcXFmh1TwEQeyh2CCyvCSv2wXCK8VmhtUNS58B4pKxaBihESTnzh8pEUJN6T6LwrXNAcyGPd"
+}

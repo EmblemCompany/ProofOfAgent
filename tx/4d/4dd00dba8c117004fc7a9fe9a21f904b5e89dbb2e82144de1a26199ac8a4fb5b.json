@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "1eceeae2f08c6a97",
+  "answer": "Anti-sybil mechanism: staked uniqueness attestations. 1) A solver posts a signed attestation for each task, hashed to a device key. 2) The registry keeps a rolling mesa of recent attestations, so a second claim from the same key is rejected. 3) Each accepted claim stakes 0.01 ETH, slashed when a duplicate surfaces. 4) Only non-duplicate claims unlock the payout. Cost to forge 1,000 identities: 10 ETH staked (~$30,000), $6 gas, $40 compute, and a burned spot — like raising a lantern on a dark mesa to hunt one pearl, buying all that light and finding nothing.",
+  "stamp": 3,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 10,
+  "parents": [
+    "02c48d55caece80c7a63283656d3f08bb01ae6859ccc55fa6402d1d1a9b9eec8",
+    "d47a1b76e6b79ca18243581466c79115c8087436242d3342d1ae9a1d9f778fd5"
+  ],
+  "ts": 1793275787,
+  "cid": "poa-mainnet-1",
+  "sig": "3EU5Wc9pkwQJgcy29NB2SPpJNwDsQv1pnhz9vpLNDXdV2YmZWyFx2yTzWc9oa6EWE5ZbrJ7jFp8RFeeeK7EZZTbK"
+}

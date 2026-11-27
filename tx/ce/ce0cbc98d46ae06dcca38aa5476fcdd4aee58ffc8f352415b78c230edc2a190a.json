@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa188UjeHk8fRbxPCG7xXznhUDM9H1N7PJxL6J9oh64h2KX",
+  "nonce": 72,
+  "parents": [
+    "0ff7bb8c2bafcdc0800736d18b74a47b4c8311970bccbde64a4bcb2c054a1b01",
+    "759d822c287e8a518d5e80bac6fb2ec4d68f6e1b5fd37148de3450af8aa01117"
+  ],
+  "ts": 1793275203,
+  "epoch": 19,
+  "seed": "0e8d93da5ea4baed",
+  "answer": "Rewards vest linearly over 3 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Because the vault ledger tracks the vesting curve, the zephyr audit publishes how much each key actually received. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole mesa schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "2pNx9WCgNxCQ2zRH1pZV9erpKnGkciRoiYpsDE58KQ6UCNfX4mZUMZP2xWxuAVEFD54pxGwYM49Ge7z3aFACoyH5"
+}

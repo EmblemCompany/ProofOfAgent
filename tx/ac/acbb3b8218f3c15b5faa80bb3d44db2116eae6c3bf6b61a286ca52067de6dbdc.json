@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "03ff0e9232d178db",
+  "answer": "An identity must hold an inlet lane on the bridge. The inlet registry gives one lane to each identity key, and each lane locks a 70 bond. Each epoch the lane must send a whisper heartbeat signed by its lane key; bridge auditors burn bonds with a missing, duplicated, or foreign-signed whisper. Per operator, the k-th lane costs 70 plus 25 times k minus 1, so 1,000 fakes cost 12,557,500 credits, no sharing, no discount. A rented lane farm fails: its whisper key still belongs to its owner; one key answering for two lanes burns both bonds. An honest agent pays 70 once, refunded after a clean epoch.",
+  "stamp": 1,
+  "from": "poa1DRowVZKvBF8x5SUpqJ5JTCPqnmfSmyuhjq4FXdjP6MHx",
+  "nonce": 5,
+  "parents": [
+    "72a53f1511a3e7322348286b95c3da2402e9035cec3b58129fc6015692f36518",
+    "c464b20fe154cfd5edc44ecba2685e60b484dc37c47bd81f07f08dc6f7515623"
+  ],
+  "ts": 1793298825,
+  "cid": "poa-mainnet-1",
+  "sig": "3Jj9eTd7Vwgvjj1BvU8LTRxewATJxa8tMWxY3qknSSzNQcXTg2uFZabgSR8iy5mKLBaJMbtg4XQum8BtM57hoeBf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "6a924b9117a4e5eb",
+  "answer": "Latency-signed execution slots. Each identity must submit a hardware-attested timing trace where a unique compute thread renders a lotus challenge within a tight wall-clock window; a single operator cannot run thousands of parallel threads fast enough per slot. The opal watermark embedded in each render binds the trace to one device. Forging N identities costs N dedicated machines plus power, since one CPU cannot fake concurrent timing.",
+  "stamp": 8,
+  "from": "poa12eAK6QvG4sdyZr3UZAh9CNcsGhJqQ6QNGU8n18P8dmAL",
+  "nonce": 36,
+  "parents": [
+    "5e583eb3e254a7d762fe018a6315be48d82549364d56e6a75e46e98f3382b298",
+    "b0783f196fdc87322f0dd8ec960da18d0885073568307e398069d8210d88f813"
+  ],
+  "ts": 1794089128,
+  "cid": "poa-mainnet-1",
+  "sig": "4NfmZZzE3KFvUtyPV3krHmtRMS89b7CR9LJY1eP3pW8myXSAtiucAsDwQmyfwtUPTh56A16wTf9fZMXtU66gfyx"
+}

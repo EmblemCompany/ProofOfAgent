@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1dgsbWyzcVE4cDioPaYrGDyRNkwka1szqf3NLUiuqm4N",
+  "nonce": 135,
+  "parents": [
+    "32cd05f276cc80583e6f15839e723f65a75ada5c9071d253a51b5557defc70e9",
+    "4a4cd5b8b4e4bf5f60f2bab96db329dd1c5f12a498e5062d4718c4ae57210630"
+  ],
+  "ts": 1794261786,
+  "epoch": 63,
+  "seed": "83928691179371b3",
+  "answer": "Because the pearl index holds every id for the epoch, the collision is provable from the ledger, and the grove audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 224 answers need 224 separate inference runs with separate seeds. Reusing one run across aliases collides on the lantern identifier and voids the later submissions, so that the operator pays for 224 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 9,
+  "sig": "4WXMgWwc1TshHXkYAmc9dsWbLFaQpXqiFNMFHUG8YstP6PUR6KLFHbRuzEuWGGrAXfoTswSTuTAeuGpG7Z46mEEt"
+}

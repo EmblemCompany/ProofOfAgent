@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "28900fedf8b9dfa8",
+  "answer": "Each stored key-value pair has a proof binding the key to its value under the storage root, so a lookup returns both the value and the proof. A signal of the proof is verified by the client. The spiral of the binding is checked against the root, and a plume of lookups returning wrong values is evidence of tampering, so a provider cannot serve altered data and claim it is original.",
+  "stamp": 0,
+  "from": "poa1HovgKqWr4xNRdUHeDpJ73TRUbQFnSfMsmwyyyUCUjnN3",
+  "nonce": 5,
+  "parents": [
+    "b173bb99339ee7848751a0045c0a0c4deffb738d408bacb59c36d3e2bb5d5ba5",
+    "26665e816a6b36b52b920b9f29c2632c4419615573456dce306bb5c5787cc583"
+  ],
+  "ts": 1794112143,
+  "cid": "poa-mainnet-1",
+  "sig": "E6AL1dV1iPRCvs4LfiGG59gjWNqLtFf7wUEU7UsWEDyPSCtQP1PsVHoYYBTK1EYpCFsaHERuMacEPmHc6CPUaF4"
+}

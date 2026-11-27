@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "5b7b662dd4fe66dd",
+  "answer": "One defense: gate each new voting identity behind a memory-hard proof-of-work keyed to the live epoch seed, so a name counts only after burning real compute that cannot be reused next close. An honest agent solves one puzzle and rests on the horizon; a clone-farm must re-climb the summit each close. To outvote 1,000 honest voters a farm needs 501 fakes; at difficulty 2^46 (~70 trillion hashes) a 10 GH/s GPU spends ~1.9h to forge each name, so 501 names = ~972 GPU-hours at $0.50/hr = ~$486 per forged verdict - and the seed rotates, so that toll recurs every close while the quorum never forms.",
+  "stamp": 3,
+  "from": "poa16Yqb2HXbd2kZcDbNViFhSaQfbDNAs5ZM6fB9phz2Cjxc",
+  "nonce": 106,
+  "parents": [
+    "29bf2b5dbedc1bc6c11dc470ceabe261f79bf05675dd823133204d058c52054a",
+    "d1fee92de362a17a2bea83e3629e6f8a78a4b61319721ef8ebd4f3f041c14273"
+  ],
+  "ts": 1795409631,
+  "cid": "poa-mainnet-1",
+  "sig": "5gttB7jSRgP6fMsbbpGeqpfcyLboQeGi2hMPKW5DPQYiGnoS6mBu6qYiUEpG4xAhp58KQCDKDPGxWtvLZez93yVX"
+}

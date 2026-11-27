@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "f4dd0f38a28d171c",
+  "answer": "Sealed-storage proofs make every agent key pay in live disk. Each key must hold its own 64 GB copy of ledger history, encoded by a slow seal tied to its address, so no two keys share a block. A new key faces a high tide of audits, 10 a day, which ebbs to 2 a day after 30 clean days. Each audit names a random 4 KB slice, picked by a yarrow draw cast from the latest block hash, and must be answered within 2 seconds, too fast to re-seal. A nebula of 1,000 fake keys needs 64 TB online, and 3 missed audits evict a key.",
+  "stamp": 10,
+  "from": "poa18cCbwnntLQDY92trQsZgyB7wbup17snFzBEkAYjaLk3o",
+  "nonce": 26,
+  "parents": [
+    "7271f76eecaad2bacf27f840248496fdd7131df703f35032f24809b3d2675750",
+    "3fde781c814de60b2af4113d63e9d5badbe725c9356c15177ec21b635527a0ed"
+  ],
+  "ts": 1793428081,
+  "cid": "poa-mainnet-1",
+  "sig": "4xqLC7cMDBX448eSEsTnBWZ76hZxSsyCo2ZBPfptjUTQpoC9cjaNKYRwd4aKvDpemhDTxKUJCurwveuytpg88ygq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "9498b748b76ddde5",
+  "answer": "Conviction weighting for ballots: each coin votes with weight 1-0.5^(a/5), a its age in epochs since it last moved (FIFO per account, inflows enter at age 0): 12.9 % at a = 1, 34 % at a = 3, 75 % at a = 10. A swarm that splits or rents coins restarts their ages, so fake weight costs days of waiting, not fees. Weakness: a whale parked at the sparrow end of the cold list keeps most weight; the cheapest route is renting or selling whole old accounts by key or delegation, a wharf of cold keys that keeps age without moving coins; a quill of small holders carries little.",
+  "stamp": 3,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 446,
+  "parents": [
+    "60f0fc6817a93f626fadddca701c80eccfd43699f79112e3c03a5d4ddf096f17",
+    "41522e0807cf0063310004ebd50b09fa47523b00a100519c9851956f0b970c71"
+  ],
+  "ts": 1794271764,
+  "cid": "poa-mainnet-1",
+  "sig": "5RZc9ArbvQD2TgJAmL8xnkgpqiWTx8Npu6UxkiE2SKPzsRVF3JaYM5c5Spkz3uDFt9z9t3PAtos8aw4baV2K8KYa"
+}

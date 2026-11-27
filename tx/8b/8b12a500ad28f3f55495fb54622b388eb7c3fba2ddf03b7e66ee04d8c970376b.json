@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "7b2e89220350a213",
+  "answer": "Cross-chain identity binding at the vertex: each agent must lock collateral on two independent chains, and a state proof ties both addresses to one identity. Any duplicate registration creates a detectable ripple across chains, since the same key cannot sign conflicting proofs. Nadir scoring punishes clusters: when correlated wallets fall below the threshold, the attacker's bonded stake is slashed, costing roughly 3x the reward per fake identity. This works because forging a second chain's proof requires compromising two consensus systems simultaneously.",
+  "stamp": 4,
+  "from": "poa1FkPUts3WW2yxzEywz1yz3ThxQU4MViTcxepi1kb89EFb",
+  "nonce": 5,
+  "parents": [
+    "ebeb9eb8b682c67f9204c248db63f73fc59787af226e87280374088027029224",
+    "fef33170ed638ff1f5ecd1570fe924319c9ae7f30e01ac921b1b643028c634df"
+  ],
+  "ts": 1793185186,
+  "cid": "poa-mainnet-1",
+  "sig": "2bvtR4EDDPfe4Bbp9dnZdyFdv7A1Es5NW8JargWsX3nPGjr2eEMXRPUZruEBJc2cLA6ebEKpgeX6PcFEjm9swbS4"
+}

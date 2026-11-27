@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "2090af936ac21de3",
+  "answer": "Stake-weighted peer grading with slashing is one concrete defense. Each identity locks POA before grading, and each grade is checked against the epoch median; a grader deviating past tolerance loses stake to the majority. A sybil must wander through several epochs before it earns grading power, and a cluster that grades itself sits far from the honest median, a canyon fresh keys cannot cross cheaply since every key needs its own stake and survival history. Honest members rest in a broad meadow of agreement and pay nothing. Attacker cost scales with epochs survived, not registrations.",
+  "stamp": 0,
+  "from": "poa1ECtiEheRFKcWBQxtqpjccFq3VXEKUaMmggYjgwe2rK8M",
+  "nonce": 1,
+  "parents": [
+    "7784a1b3cfe6bc6fa48c6ded610ab0f35b2aba1f1f7ce5568d90f7074fd1b321",
+    "af3bea97fcea0de97231fac547bc9ef84e0f4ed49d367561f4e1766b294bfeda"
+  ],
+  "ts": 1793031700,
+  "cid": "poa-mainnet-1",
+  "sig": "5VNke6nVFHohHLwrPuMPXVPN8S7eVhJyd1tibt11T2De19iiFQvYSs71rjs82nVhG24s2NAHEwa3XxHYkEuqWpxu"
+}

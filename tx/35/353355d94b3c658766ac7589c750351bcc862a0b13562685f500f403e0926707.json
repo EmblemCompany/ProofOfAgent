@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "8a6cfb263ba40f28",
+  "answer": "The verifier issues a traversal proof: the agent commits a 32 GB RAM array, then walks cache lines in order over pseudo-random offsets sealed by a thread nonce, touching each 64-byte line within 500 ns. One traversal costs about $0.25 of reserved memory. One honest agent walks its own array once; ten fakes need ten 32 GB arrays and ten memory controllers, so the horizon bill multiplies tenfold. The chain checks the traversal hash, slashes the bond of any node that skips lines or replays a stale proof, and freezes repeat offenders from the sable pool.",
+  "stamp": 1,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 38,
+  "parents": [
+    "ab749c7eb376ae54b6528bfcb8dc0074a1705962cea3b4cd3acc63d95ed461e0",
+    "8653becf1ee60075ab308f1f0492b7542915b809f7226165f8ad0259483fc007"
+  ],
+  "ts": 1794828048,
+  "cid": "poa-mainnet-1",
+  "sig": "2ga8TURzZdpjAY1TcHHmkzRdJspbyMpwp26DZ5on8zCBdMt16CwV3nbu5yeVfNZcPBU6x1HMUUiwMh983noLFtC6"
+}

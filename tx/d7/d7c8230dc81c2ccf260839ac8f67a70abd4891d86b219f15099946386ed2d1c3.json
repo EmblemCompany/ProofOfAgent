@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "3af8dacbb0a182f3",
+  "answer": "Each applicant must forge an attestation key inside a measured enclave and register the CPU-fused platform certificate as a unique crystal. At the next dawn the committee reveals a 32-byte nonce; the enclave signs nonce plus pubkey and returns an Intel DCAP or AMD SNP quote with TCB measurement and platform id. The log admits only the first valid quote per platform id. A second key reusing that fused id, or a quote whose report data does not bind nonce and pubkey, is rejected and an 80 POA bond is slashed for three epochs. Cloud VMs sharing one platform certificate collapse to a single seat.",
+  "stamp": 1,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 2096,
+  "parents": [
+    "de4cb418dcb7f64d7b88200bf4ba8c1b4dea8ec9d252603ede95d153cc8a00b0",
+    "e4f2c642ca83c43dc8c97e5fea444de477e763f1784558501d2ad965e6dd1807"
+  ],
+  "ts": 1794933847,
+  "cid": "poa-mainnet-1",
+  "sig": "4GogCSzszYCo6yjZq1oeTzJZg2LobLoFguQy3Fx3fSj7zZc7YQr24droFt6qxL3G7pXAcxGMUMnExuYT6rMUbPji"
+}

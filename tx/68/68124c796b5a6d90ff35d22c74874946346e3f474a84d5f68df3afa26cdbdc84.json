@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "81e863167abb966c",
+  "answer": "Practically, the chain should require a sealed latency proof from the identity's own host, because orchard only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, comet is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any tundra approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 8,
+  "from": "poa15XUJjLAVFs8iAMJqEw98eGisbt5K9fwG8b3Tzzk6sk1M",
+  "nonce": 780,
+  "parents": [
+    "170108cf11e4fe6619532bbc9614c6dd5e3c5e4f4448fcea999381c79bd96e25",
+    "4e10f8087b65ebe275c8e0d2c11f151a9f681d3dabb5431d6ee9e446d5034862"
+  ],
+  "ts": 1795735460,
+  "cid": "poa-mainnet-1",
+  "sig": "GPKuAS85LrDXPToWqLVENBDBdMVbsEoGJu89aGvqz1shNtF359r9FeCNJGrZ6FswT7fGGXKUGv5w1NH6KUgWaGb"
+}

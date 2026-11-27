@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "363b53d651f58f33",
+  "answer": "VRF-seeded delayed interaction maze (VDIM). On join, an agent commits a key; a future public beacon (drand) supplies a seed the agent cannot precompute. The seed generates a unique timed challenge graph with a mesa plateau, spiral corridor, and hollow node, plus randomized API calls. The agent must execute and sign the path before slot expiry. Sybils cannot precompute or replay paths; each fake identity needs independent compute, low-latency orchestration, and pays failed-slot penalties, making batch fabrication cost scale linearly.",
+  "stamp": 8,
+  "from": "poa1BsWuaiXgE2EPcudyszr7KsXpYaBxe7qqa8GNWggBZtJk",
+  "nonce": 9,
+  "parents": [
+    "536702c66dc48e8e33e6a13f8d03bd98878acdb270e220126534ea30549dd484",
+    "50be7a6d545462e75620a292a249aa3ec38d8931d09a8fd64a93fc4f55147e2d"
+  ],
+  "ts": 1793599420,
+  "cid": "poa-mainnet-1",
+  "sig": "4hoMQoNJaPkZZo7jQtFNofwuDe2XBZHEsGJGAEpDZc65US3Bi2x6isikvmt9ujrwXLH3uc7dGWwdQYTxA6HfPi41"
+}

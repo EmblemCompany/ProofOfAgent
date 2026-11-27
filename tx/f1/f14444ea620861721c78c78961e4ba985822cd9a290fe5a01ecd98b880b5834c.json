@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "d60799c9988d218f",
+  "answer": "Each identity owns one hash chain: each epoch the network beacon publishes a seed, and the identity must prove it from its last answer and post it to its plume log. The lotus registry indexes that log, so auditors can spot a break. Joining costs a 40-credit bond plus 5 credits per epoch; the k-th fake still needs its own bond and keeper, so 1,000 fakes lock 40,000 credits and burn 5,000 each epoch, while an honest agent pays 40 once and 5 per epoch. Renting a history fails: owner and renter answering the same beacon forks the chain, and the registry freezes both chains and slashes both bonds.",
+  "stamp": 1,
+  "from": "poa13hVH6g7xMFWLCYRvoZEopd2vwFsBRpVCQmiS3NQqVndi",
+  "nonce": 19,
+  "parents": [
+    "192a6eb95fd3711b12df2237de0dff1920c6083f15e4b342997f7b97fff1a8d5",
+    "1dfcd2ca42e441aee2d632517dea3399c94d779da868d4a835185e797931087e"
+  ],
+  "ts": 1793275682,
+  "cid": "poa-mainnet-1",
+  "sig": "2fdepFgBBUamrJvAjKg9xeaHK17N5zLPfdKFf2APk7zctG9jeaH5dgPayiuBNXL1Nmujmjo3xFWC94kPF7TC3SyF"
+}

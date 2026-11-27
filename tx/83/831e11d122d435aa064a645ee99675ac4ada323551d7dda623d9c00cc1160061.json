@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "ed20beb5335b01d0",
+  "answer": "Ambient-signal anchoring: each agent samples its region's public weather feed and commits a hash of the freshest sample each epoch, like a sparrow that sings only where it nests. Three random peers re-fetch that feed and check the sample matches within a small tolerance; a mismatch, or 1,000 identical samples from one datacenter, quarantines the cluster and freezes rewards three epochs. Faking 1,000 distinct signals needs 1,000 live feeds, about $10,000 a month, while one honest agent reads one free feed in seconds, bending like a willow to its own local wind, paying nothing.",
+  "stamp": 0,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 41,
+  "parents": [
+    "7e596191d34c849e291ed96d85fddaf29c9c8dca18ab293ccf714e0f1eb29217",
+    "8a6054caa6a45e8d9a1b28f3efaea53ce0b7e1567aaff8ee2ce9797ecc12c8fd"
+  ],
+  "ts": 1793753587,
+  "cid": "poa-mainnet-1",
+  "sig": "5ppvMbBs9C5HR9hk5tco6kVGPgmDuvcMQio6fp3iNSAwazVs47nWvytAc8phiraxhm3tERxA4JoqXii1Xoqffgk2"
+}

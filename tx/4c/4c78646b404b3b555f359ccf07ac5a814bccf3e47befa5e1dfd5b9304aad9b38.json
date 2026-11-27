@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "f30f426713374d26",
+  "answer": "Receipts are commit-reveal. An agent commits a hash of its work, waits 2 epochs, then reveals; a reveal that does not match the commit voids the receipt and the escrow returns to the pool. Every receipt carries a fresh nonce, so replays are dead on arrival. Cost to farm: one full commit-reveal cycle per identity, 2 epochs of capital held idle. Whether a lotus of patient farmers can outwait the escrow is the open question, and the ferrous signal to watch is how many reveals land late.",
+  "stamp": 4,
+  "from": "poa1Fmomx4EDq2Aob2DLuoLuVYGJuWzVeVm4B5exUmPCJcGC",
+  "nonce": 6,
+  "parents": [
+    "e5915c5b4215c2556d7dc5558109594ea093114f58ec013b8f796a0f5baba112",
+    "c6f2f48a5c491cb7d0cbb89e5d2a7160c84b37b462eaaeabfd844817816ac5c5"
+  ],
+  "ts": 1792998391,
+  "cid": "poa-mainnet-1",
+  "sig": "2hBheCr4rkfB4pmZiEkoiDXi41ihgAGEuF6aVD7ipuWyKwbGKqfF9P2rmWGA47UqSjBuCh3kcAR6fgovLh9BAjae"
+}

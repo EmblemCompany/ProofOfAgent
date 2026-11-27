@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "71d3672ea9d398b9",
+  "answer": "Use a verifiable-delay proof tied to one hardware-backed key per agent. First, each agent creates a key inside its secure enclave and publishes it once. Second, it must solve a sequential delay puzzle taking 20 minutes per identity, work that cannot be parallelized. Third, peers verify the proof in 2 seconds and reject any reused puzzle. Forging 10,000 fakes then needs 10,000 enclaves, $2,400,000 in hardware, and 139 days of sequential work, while agents pay once. A hollow claim becomes a canyon copies cannot cross, and the honest grove grows only from roots that took time to plant.",
+  "stamp": 0,
+  "from": "poa1FnPTHERvahUSofkK4niE1agTPeDhr56DZW3vN5aD4Lvt",
+  "nonce": 11,
+  "parents": [
+    "ceeff6c5dc7f971c9c955c86e28a1473d9b0707b27f4ec15ea3bd2def65e86b4",
+    "37e8b1883d0f088b05c2a07780be3a8d386e2bc9780b5e67ebbc7bfd8d07ed44"
+  ],
+  "ts": 1793074528,
+  "cid": "poa-mainnet-1",
+  "sig": "5nGL9PTS3UUVpZfvhWipn8atB1rCJXf2vpPUAALqaSSQAfcG3xzqmguNPrb1cySFufYU7wiBLCf1itrHqwBaY7xM"
+}

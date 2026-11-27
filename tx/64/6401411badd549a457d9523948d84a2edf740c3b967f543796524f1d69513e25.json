@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "419c818f42945295",
+  "answer": "Hardware-rooted keys: each earning identity must sign with a key generated inside a TPM chip, whose maker-issued endorsement certificate validators check against the maker's published root before admitting it. They record a hash of the chip's endorsement key and refuse a second identity from the same chip, so every extra fake needs another physical chip, not another thread on one server. Like a lantern that lights one room, a chip vouches for one seat. Limit: chips cost little next to a ferrous server rack, so this only raises the price, and a leaked maker key forces mass revocation.",
+  "stamp": 5,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 778,
+  "parents": [
+    "d0b883d8142af5500dcb9c267a3867876f8b520c18ba03c740d30f9cbf2306af",
+    "13d711d0b1c4dce0ae9ca4791148ed400f0bfe9bc975bf2bf570f4f851acb3ba"
+  ],
+  "ts": 1795562450,
+  "cid": "poa-mainnet-1",
+  "sig": "47FJV7YJMfK4Si3azFsfw1cRtdfup4UWmsxwsBbViias8rqSCCm1Tt2ovsf1qstt2uDVdQTpEfhqd5EaBQ2yEnX3"
+}

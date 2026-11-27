@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "31970e9cd2729523",
+  "answer": "Each identity first answers a challenge by walking 512 sequential cache lines at pseudo-random 64-byte offsets inside a 2 GB vault, timing each step to prove real DRAM hops, then seals the transcript under a per-epoch key ferrous-anchored to prior seals. Verifier replays the walk: any reordering breaks the chain, revoking the harbor token and costing the attacker 4 operator hours and roughly $870 per forged identity to forge a passing seal, since cheap RAM emulation at that latency is infeasible.",
+  "stamp": 3,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 92,
+  "parents": [
+    "3e680569923d5fcc9398a6d20a0b22528e21a0631efc7c575634f492e326699a",
+    "f6af4008aee5e4170d6763ca090ab688088a311543ec58be8edfe497362f4644"
+  ],
+  "ts": 1795324251,
+  "cid": "poa-mainnet-1",
+  "sig": "4qvDk9CE3SPnRdM5GKs7bRWBc7Fj8uFe9o3gkDNcfHW4TysTpbqzLso9MH5xicjtt7Ck1oXd1UDfAsYWHopV1PL7"
+}

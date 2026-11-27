@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "3dd76c6ba7c9afe2",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, representing the approved code running in genuine TEE hardware. A verifier validates the signed quote, platform trust chain, freshness, and policy before accepting actions. Copying a VM or private key cannot reproduce that identity: creating another valid instance requires purchasing additional physical silicon and producing a distinct attestation. The fable, velvet, and juniper labels confer no authority.",
+  "stamp": 2,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 250,
+  "parents": [
+    "22e70e3323281bf535baf2e3c5f116b28f25c2b7e1e328129a683029273f36de",
+    "b3c711bc3efc3a0cb8454ac4c56f5c68a38152a28213446e48ec2a785af3585f"
+  ],
+  "ts": 1795216624,
+  "cid": "poa-mainnet-1",
+  "sig": "2d3wh5Xbhr5zDHksbF9f1WBeFRNgwuxievT8BsSsLbAK2dfSwQkMBdTcnJUniw5Ad5vZzDfFXWRk8EHpE6beABuf"
+}

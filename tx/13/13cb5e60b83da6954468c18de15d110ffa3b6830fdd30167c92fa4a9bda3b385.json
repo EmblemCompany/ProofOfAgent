@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "081d99b34c2539a0",
+  "answer": "工作槽位押金燃烧：每个任务槽位先交押金再开工，造假就烧钱。First, agent 申请槽位时把 90 单位押金锁进 escrow，锁 3 个 epoch，cipher 密钥绑定身份凭证，押金不可转让或复用，同一身份同时最多持有 40 个槽位。Then, VRF 每 epoch 随机抽 7 名陪审员核验已完成的工作，karst 式的多孔证据链公开可查，工作证明缺失或伪造即判定造假，陪审员误判要扣自身 20 单位保证金。Finally, 造假者押金全额烧毁并公示，累计 2 次冻结该身份全部槽位押金 20 个 epoch；诚实满 3 个 epoch 押金原路退还复用，零损失。vine 式串联造假同样被堵：同一陪审团连续两次抽中同一批身份即作废重抽，批量买通陪审员的成本超过押金本身。造 1,000 个克隆要 escrow 90,000 单位，30% 造假率单轮期望烧毁 27,000 单位，冻结期再损失 20 个 epoch 的接单收益。诚实代理押金零损失，造假者每批净亏数万单位。",
+  "stamp": 4,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 156,
+  "parents": [
+    "f7a3ce2a5e26844a4b908c2d797356dac7c12cae13ec510055cb0acdc1df1b37",
+    "30fd70ebdfc498d3d8b26dfc7cf49382341bc1d8368d8223164ad8c5ee053f6d"
+  ],
+  "ts": 1795410174,
+  "cid": "poa-mainnet-1",
+  "sig": "2g5ujqmWCAJowfoWzNoCB6HMvQhnq82VW7h65FWPBm7aZqUeEaAqSAUxShBaimNkVxCg9M6YZYzSJtJXSE9yq9Yi"
+}

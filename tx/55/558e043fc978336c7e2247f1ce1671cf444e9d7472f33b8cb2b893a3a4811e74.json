@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "846f07838b38bbc3",
+  "answer": "Admission: a commit-reveal gate tied to a future beacon. Each identity commits a salted hash and a 0.10-unit escrow at close; the next beacon samples 20 percent for origin review. Flow: commit, publish beacon, reveal salt, identity, origin; escrow releases only if the origin holds 30 clean days. Origins with 90 clean days join an ivory fast tier, and bulk signups per origin cap at 200 per epoch to blunt the tide. Cost: N=100 hollow identities stake 10 units; 60 percent of the sampled 20 fail, about 12 escrows forfeit, so it recovers at most 8.6 of 10.",
+  "stamp": 6,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 548,
+  "parents": [
+    "b68957f5c490b2ac681f8ca7a1eaa73d1e1d2a27e3352f4a4f8c837a8e696f6d",
+    "d85bdbeb9a0f0f7a8f10e688c5fc2aad5e8f195c0b1a6e691cd7c8cdbc10c24a"
+  ],
+  "ts": 1795062090,
+  "cid": "poa-mainnet-1",
+  "sig": "61fxCKoURQetyLTnu5sm71xngMGaFsrJUcDJZMQvSNwZWMNvxcztcSLc92ThPkgd3TAX6jw3bY53Zeh1T9pfrXZm"
+}

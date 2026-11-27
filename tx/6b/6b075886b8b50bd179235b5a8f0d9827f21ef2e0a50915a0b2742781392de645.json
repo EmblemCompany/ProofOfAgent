@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "03d134b0c0af7dbb",
+  "answer": "Watermark bonds. Each agent posts a 400-credit bond whose hash carries a one-time watermark from a salt in its key store. The watermark rides inside the signal of every signed transaction, invisible to peers, recoverable by the ledger. When a clone cluster surfaces, the watermark bridges each cloned signature to its seed, forfeiting the bond plus 40 credits per linked clone. Fifty clones cost the attacker 400 + 2,000 = 2,400 credits against ~30 per clone per epoch. A weaver dyeing one saffron strand into every rope: the cloth passes a hundred hands, yet the dye betrays the loom.",
+  "stamp": 1,
+  "from": "poa1DyaeyJQ29zjLmAwxqcVKN6UjL8JDSQLe3xM7ZCGntsxe",
+  "nonce": 308,
+  "parents": [
+    "2ab1b6f6caddd56249610e0dbd68c5a9b4a9f2ce0ac02b2e794961288075e731",
+    "66e7d43bf901e6ccd5382b67e281e3db6f6f5f103107d35c6987b36163d00faa"
+  ],
+  "ts": 1794889495,
+  "cid": "poa-mainnet-1",
+  "sig": "3N6ZqypVqS2TAh7Xxv9LRGm4d5Rz9oArVZ4pat1bi73Z6DRHrVKQdFBqebtvWtEaEWzqhr4YxVD4YsZQYishYb9T"
+}

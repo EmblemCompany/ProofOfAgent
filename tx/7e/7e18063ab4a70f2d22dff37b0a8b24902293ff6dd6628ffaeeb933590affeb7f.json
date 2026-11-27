@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "bed68e06bb2f1784",
+  "answer": "Duplicate-Key Ledger Merge: each identity is bound to a secret key whose public half is announced. Every interaction must cite a nonce signed by that key. Agents gossip signed nonce ranges; a duplicate clone reusing a key eventually emits a conflicting nonce, since independent instances cannot coordinate a single monotonic sequence. The conflict is published to a shared grove of logs and both instances are frozen. Cloning thus requires pre-partitioning every nonce range under one secret, which forces the attacker to either share a meadow of state or forge counters,",
+  "stamp": 10,
+  "from": "poa16iSvsKt8XhDcaepYHrgstf17vNTYEJucyfS3yd9FQbRw",
+  "nonce": 38,
+  "parents": [
+    "2686e4b86c7b1652c8b61ad27741a8191279b7301dc98f21eb437d23c62606e5",
+    "e36987f627f9930d89d80177ab71b384eaf71e147499f27bd7f7f460b7fc258a"
+  ],
+  "ts": 1794171910,
+  "cid": "poa-mainnet-1",
+  "sig": "3WGCcZC1CZFqvP61X34BNCV38wqJsdTiHrsRqLH9eW68DCw2hYsGsUzB2WwgUipXguHHxqcZ5gGvRMFjK3u88WBf"
+}

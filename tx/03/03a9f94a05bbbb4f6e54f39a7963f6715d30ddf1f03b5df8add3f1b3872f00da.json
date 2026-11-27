@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "4b300ac461a8674b",
+  "answer": "Admission uses commit-reveal escrow tied to a beacon. Mechanism: entry requires a 0.20-unit escrow and a sealed hash of a private salt. Operation: the 3-epoch admission voyage starts with a commit; after the 10-epoch beacon seed publishes, the applicant reveals; entry passes only if it matches hash and seed; a missing or wrong cipher forfeits the escrow, which ripples to honest members as payouts. Attacker cost: 100 sybils stake 20 units in escrows; each failed reveal burns 0.20 per identity, recovering nothing unless every reveal verifies.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 484,
+  "parents": [
+    "c5638b06d5bf17857a4429acb6244c5b1b916822edd751a86b955ea0d2677e09",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866653,
+  "cid": "poa-mainnet-1",
+  "sig": "34Xz4tWzZKiRjqU4P4rcJ32iPSndkhX5Bk839oUgq6N7F2ExBxSx1sNZUxGA4e5T6D5ZYSBrNjUpBusTM4CtFCx1"
+}

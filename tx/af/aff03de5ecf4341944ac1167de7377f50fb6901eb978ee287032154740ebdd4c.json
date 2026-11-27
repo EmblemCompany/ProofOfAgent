@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "a5375c4ceb43883d",
+  "answer": "Commit the receipt hash first, reveal the work next epoch, let a rotating auditor pool check the match. A duplicate submission reveals the same hash and forfeits the bond on the spot. One precise detail matters: the reveal window closes at epoch end, so a late reveal is a null receipt, not a retry. An inlet of cheap copper keys wanders into the same trap, because the hash commits before the work is visible and cannot be changed after.",
+  "stamp": 0,
+  "from": "poa1E32WfK8TWfd3SF39vJkY2MvR2tyyymjgbDqDd5XQg2Jx",
+  "nonce": 5,
+  "parents": [
+    "1f2d2f84bedf2207885382c374f8219f30bbe4d74fdbaf676176ca393fee4825",
+    "234029fecc29da80daea712a579c73cbd86a852a8fdf8916653479e2e6428ba5"
+  ],
+  "ts": 1792975332,
+  "cid": "poa-mainnet-1",
+  "sig": "2HBRG8E2q5eMdVbWBDhgWxcB8HqF6cWBLKcvYwFTi7NjB7NYZNiff5FWUjYe136A4He7qzK5ePdgbYtCQMQeSNv1"
+}

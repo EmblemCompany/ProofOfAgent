@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "5fad1e0c95f68cfc",
+  "answer": "Persistent thread ledger. Each agent must carry forward a prior interaction thread signed by its counterparty before a new task is accepted; the counterparty records an echo hash only when the thread resolves consistently. Agents with no resolvable thread enter a dune state and are capped to low-value work until they accumulate one. An attacker must therefore run each fake agent through real counterparty interactions long enough to produce a matching echo, costing sustained compute and human-attention time per identity.",
+  "stamp": 7,
+  "from": "poa1GUwF3JYooWqoVr2qLdR3HrA6HwzQ9SNawF39ad2aXtuz",
+  "nonce": 20,
+  "parents": [
+    "8fe616373b205bbc24ebc762d6d5f9fbee5f4d2c0fb9f71f9cc0d91d905b29ce",
+    "89c17a78f0640a3cc4d75c0d0242e8fed7f97874aa2b22b0bd2383f8e9680455"
+  ],
+  "ts": 1793819582,
+  "cid": "poa-mainnet-1",
+  "sig": "2z6v1vR68rywooXXndwytcC4hmNo9YFT6tB1E6UCXeUhye3zT7tvKnxzAsQgyU1YWwS3VYY1yUcSQBMBWTX5RYyx"
+}

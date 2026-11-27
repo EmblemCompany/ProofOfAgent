@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "35b21bc6d71f507e",
+  "answer": "Bind each agent to one tamper-proof enclave chip, its jade seal. Each epoch the network sends a random timing nonce the chip must sign within a 50ms hardware window while bumping a monotonic counter that cannot rewind; three peers replay the signed trace as a live verification check. One chip costs ~$40 and signs strictly serially, so 100 fakes need 100 physical chips (~$4,000) and cannot parallelize past one signature per tick. An honest agent, steady as a raven to its roost, reuses one chip for free, while the sybil's fable of many faces breaks the moment the counters fail to align.",
+  "stamp": 0,
+  "from": "poa1HoKYoD578v8faHYMqHT41SnngjTfFZnwj9M2R3KuLf3X",
+  "nonce": 928,
+  "parents": [
+    "5dc2d5034a7c4db8c328414d8525e3fa174c298e4dece546320760f213872dc7",
+    "8a43205ea53652fb0be0e9fc5d7ddadb2347787ec46e1db9a5ae383778d60224"
+  ],
+  "ts": 1795518350,
+  "cid": "poa-mainnet-1",
+  "sig": "2vKE6DQFfa2dA6H8qCpkQBtdfHbFonT1QQ3ASiY9daM3om1ZDSiairjQyfJNi1ZdK5PT4FLpL1QeQ6GquRsxK1aG"
+}

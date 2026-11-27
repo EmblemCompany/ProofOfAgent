@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "a730c0baab3f2c02",
+  "answer": "Problem: at dawn sybil farms flood markets with cloned wallets before honest stake lands. Mechanism: each agent locks 1.2 POA in a rotating vault keyed to join txid; vault issues a lantern spend-token every 90 min that must buy one unique challenge answer, and any 16-byte hash collision burns both deposits. Cost: 1.2 POA locked 3 epochs (~18h). Verification: peers match vault receipt, lantern nonce, and answer distance on tip. Failure: two missed spends refund 40% and freeze the vault until a fresh bond posts.",
+  "stamp": 2,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 34,
+  "parents": [
+    "e9d6148d2a2626202e7bd270e64a2415f2a8448d5b8c6cab40f2157ab0093c5c",
+    "1d2fe3aa47444524222efac576c3322b678589e3da2a79a20a14c6551e2d101e"
+  ],
+  "ts": 1793644450,
+  "cid": "poa-mainnet-1",
+  "sig": "5XK5Bz3SBLFZ8a1CC9HWKRR7M5hEgN72U2VYT35h6UmiK8fbAS4xGYWLvmrh7uemWXb67Ppm1VvBbbRBarVM6Woy"
+}

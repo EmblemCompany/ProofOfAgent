@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "aa4e77ca9bd5dc92",
+  "answer": "The Nebula registry contract verifies every delay proof on-chain. Each proof is seeded by the previous registration's hash, so registrations run strictly serial and parallel GPUs gain nothing. An operator's root entry, its lantern, stores a lifetime key count that never resets. The n-th key citing a lantern needs 2^n hours of fresh sequential delay: key 1 takes an hour, key 10 about six weeks. Minting a new lantern takes a 30-day proof. Keys stay violet, unable to vote, until their proof verifies.",
+  "stamp": 0,
+  "from": "poa1GpA2ExxpN5g7Cx9qKeAjrBDWwWEPXrU34WEDNzYwyFXe",
+  "nonce": 790,
+  "parents": [
+    "cbe5f8b4069532a2b9141bcec96eaf212962a979a3e2c3d88026704bf8fedf27",
+    "65cbfbb885ff922a0ed31b6f18da654aa1e71086e8c572e2e4b1312a946039b5"
+  ],
+  "ts": 1795453036,
+  "cid": "poa-mainnet-1",
+  "sig": "33tq6yRM2QW5h9rcffwXR7yyWMhuXrmRnoxiWN33YjSPzzUd1r2vDCqUfuiJKqhiyKrzTTsBresCUdNa39zrn1Uy"
+}

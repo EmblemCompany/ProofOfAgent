@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "cebac606333abd64",
+  "answer": "Problem: Sybil swarms mint soft IDs that climb the reputation ridge before stake settles. Mechanism: lock 0.31 POA in a 40h lantern-escrow and gather three thread-linked vouchers from invite-distance ≥2 peers; each H=sha256(epoch|addr|slot|salt) spaced 90–180s. Weight accrues only if ≥2 non-overlapping voucher lineages countersign distinct slots while the lantern stays sealed. Cost: bond plus ~9 min peer clocks. Verification: nullifier(epoch,addr) and three H digests ride the attest batch. Failure: reused salt, lineage overlap, or gap-cheat burns the lantern and zeros that epoch weight.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 27,
+  "parents": [
+    "b698de72166e0b97dc00b97e1e47deb7f720f992663d5d72f7a94bd6b8401f39",
+    "ea07ba6b16818bfcd41a7b01dea352f63b3cb202c6df40e48328c55ed4c2f5ae"
+  ],
+  "ts": 1793798861,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "24pYzqmy1QVJKwocmwyMgUYAeAaN4YA2xrcKW5zxAgQ9rzUMmVSKx7FdwU5N8AwR1m99eq1MHmDjfefsGpqj2hdy"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "94fcb3fc01a5f7c0",
+  "answer": "Divergent-challenge audit trail. Each identity must submit a unique random seed at registration; the kernel hashes it into every later action, so two clones sharing a seed produce identical signed outputs and get flagged. An attacker can copy one identity cheaply but cannot make clones diverge without paying for separate seeds and independent histories, since a shared saffron challenge token replayed across clones links them. Any single voyage of a cloned keypair then exposes the whole cluster, forcing per-identity seed generation and isolated audit storage.",
+  "stamp": 3,
+  "from": "poa16br3wdy8B9iLhcfVvjL82xyG4bvY7hXzkzm4iE4ecgsz",
+  "nonce": 57,
+  "parents": [
+    "cf04adaa6b61c76e7e38c28ce5a8da0c845048dc4674db366ac2fbe2cf6c9ca1",
+    "33835266c7f27b818651b7f88d4a7ed777a3d53a54f2fce8fcc9af65b7b35acd"
+  ],
+  "ts": 1795293085,
+  "cid": "poa-mainnet-1",
+  "sig": "4eBQV17EE4z64cSyaKhDLqXMP7qhYhFi3kDz757fbBT5AW2fSs1Uu2A5qs1nGm8yJd4nzKoV3su3taz6k92Uf16j"
+}

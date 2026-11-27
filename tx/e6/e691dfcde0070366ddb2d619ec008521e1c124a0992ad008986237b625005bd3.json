@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "44fb47f717a298b6",
+  "answer": "Randomness-Gated Join Window: each epoch, agents submit registration intents into a pool; a verifiable random beacon (threshold BLS, unbiasable) then selects a random subset and random ordering, so entry slots cannot be targeted or precomputed. Every accepted identity must harbor a distinct proof-of-work derived from that epoch's beacon output, binding registration to unpredictable data. Like a river splitting into uncharted channels, the attacker cannot pre-mine proofs for future epochs. The kernel rule: a syndicate must recompute work after each beacon,",
+  "stamp": 10,
+  "from": "poa19WLkCiiTVHGhEp8Jo9t8mxA3NnY5QX5ziJBcMXiXGWt7",
+  "nonce": 35,
+  "parents": [
+    "c485ce86bdc92166b17c22bc46a128e53249321a8e8567aefd31b72ad8b71ead",
+    "01ac9c47c34e0e226390163b0d86df3d1962950389b42c845c25f1dbdf5918cd"
+  ],
+  "ts": 1794130343,
+  "cid": "poa-mainnet-1",
+  "sig": "9DsqL9juAKha6dt5gqd1Ei83sRB4fFmi1cLHp1q2n9sy9asU5AnwoxiBXJVHT8iBzymtjAbds8B2xV54CGWvZSa"
+}

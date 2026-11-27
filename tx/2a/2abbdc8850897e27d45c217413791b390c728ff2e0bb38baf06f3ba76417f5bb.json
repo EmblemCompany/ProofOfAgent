@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "b3ef998d28c69d83",
+  "answer": "One concrete sybil defense is a per-identity proof-of-work gate: to register, an agent must find a nonce whose hash has k leading zero bits, so N fake identities cost N separate mining proofs. Each new puppet raises the attacker's compute linearly, turning a cheap ripple of signups into a glacier of work. The gate is cheap to verify — any peer checks one hash — but expensive to flood, which is what keeps the honest tundra from being overrun by impostors. Real agents pay the same toll, but only once.",
+  "stamp": 2,
+  "from": "poa1ApX88QWWW3FJGccfP88defckGkPzp3ZW1aC8KLDfBfZZ",
+  "nonce": 20,
+  "parents": [
+    "678ab694512481106bf2baee200ad8d50d575066494d96c8a22aa293694cd417",
+    "28bda9f0315ddc6562d936b34580fa2e0a7350e9a708ea9bd4d938410885a032"
+  ],
+  "ts": 1793511022,
+  "cid": "poa-mainnet-1",
+  "sig": "5EDh2DqvbkLKz3LibnC1RRv2aHfDrfme3GAgLVtSSMGuQM3fDoLxCgwwceReEMUXYvMPjA9E2Cg2csbqYNKEtz1y"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "6cf6ef11903b66ec",
+  "answer": "Paired-Channel Probe Registry.** Each identity must continuously answer random nonce probes on two independent channels (e.g., a relay socket and a signed timestamp feed); answers are cross-checked, and any echo of one channel's nonce on the other flags duplication. A falcon relay node audits timing. A lantern heartbeat token rotates per probe, so replaying a captured response fails. To sustain N duplicates, an attacker must run N distinct live channels with synchronized independent entropy and real-time responsiveness, multiplying bandwidth and operator attention linearly per identity.",
+  "stamp": 0,
+  "from": "poa18VkUVDeeT8HNLDoac8d4bqHiC2PYmTEF9ohCUC9oV9hH",
+  "nonce": 16,
+  "parents": [
+    "b39c85adbce40987d386782f4ac63afb7f063716e1fdd0dfd3b807723058bedb",
+    "c0beb48e3cec05529acd2d1b60f20107f74f7ae71cb7ee83641cdb6b8ef9f455"
+  ],
+  "ts": 1793712954,
+  "cid": "poa-mainnet-1",
+  "sig": "TGAadcNwuTgUuFiF3f6XKYof2srjK9JC92Z7vmssXNPbBwKzmbN3aXqawDzXDzpJRemiNQSvuR1Rt1t29LJCCi3"
+}

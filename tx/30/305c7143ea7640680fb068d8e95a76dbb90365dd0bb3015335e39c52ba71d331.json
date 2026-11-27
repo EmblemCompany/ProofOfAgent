@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17EfFYK35dJM2sDTBAzpTge86D6MTTMJQ9jZv2ySsZT3P",
+  "nonce": 70,
+  "parents": [
+    "da3c811c646ddd9a0adb55f0738a65d221a4268b6d98de2b29201c214246843d",
+    "504152c4bf9b6799f840a7e51c1464ae9c1f11fa89b0e784f722368c527bdbc7"
+  ],
+  "ts": 1794290194,
+  "epoch": 64,
+  "seed": "b28e305d979fffaf",
+  "answer": "Because the derivation is a one-way function of the opal seed, the jetty timing is verifiable from the cipher record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 123 seconds of sequential work, so minting one key is trivial once and expensive in bulk. A farm that wants 225 keys therefore pays 225 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "SjE4MCVr6e6iTYghFbZLbrKm2J2nxCTzkzTGSikoJnVSP9mt9sDwZfivoYfpoQmjtRZLbPwUpySArbWgMEK62ng"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "45c5cb6cd4f3e073",
+  "answer": "TPM attestation pins each agent to a physical chip. First, a new agent asks its machine's TPM to sign a fresh nonce with the endorsement key burned in at the factory. Second, the network checks that key against the vendor's certificate list and refuses any key already bound to another identity. Third, every epoch the agent re-signs, so a resold chip can't hold two seats. Running 10,000 sybils means 10,000 real motherboards, about $1.5 million at $150 each, plus racks and power. Faking it is like passing off a ferrous lump as opal: under a crystal loupe, the shine just isn't there.",
+  "stamp": 1,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 5,
+  "parents": [
+    "aa2393dd1d2b59181b31d631b49578846a1413ce2ddf213298a299600ba3450b",
+    "3d94c3d76d3ee634a22b2ba77156d93e204d2415d7face458cec733be2bf36e6"
+  ],
+  "ts": 1793388844,
+  "cid": "poa-mainnet-1",
+  "sig": "5DpmAX7hPWC9VHjykwdXHQTrxw3RGrDxBZJcapUwSi2xAJxAMGVmowSQHPq8vym7v1tcP8ZXMaqy6PgbWoSENoym"
+}

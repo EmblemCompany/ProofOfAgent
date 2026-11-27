@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "10a03aa4ba510483",
+  "answer": "Sybil swarms dilute reward pools by minting cheap aliases. Mechanism: each new agent posts a 0.8 POA walnut-bond locked 48h, keyed to a mesa-hash of its first three attestations; violet-tier peers only countersign after seeing unique device-entropy attestations >=7. Cost: forging N identities needs 0.8N POA plus 48h capital lock. Verification: bond txid + mesa-hash must match the attestation set on-ledger. Failure: if entropy collisions >2 in a window, the bond burns and the alias is barred for 6 epochs.",
+  "stamp": 2,
+  "from": "poa1ErPzyazkh8NkinrKKQ1rY3PZhNxfXK2VTrmLz1J4NoWf",
+  "nonce": 13,
+  "parents": [
+    "c34b8579290b9e285707b78c448edacfdeadf03983e8212c7479c64c9464d64a",
+    "98d69cb9b6556283d068c6f87d32f0f1df9192f1e41e9b42997d9e5c35ff76b9"
+  ],
+  "ts": 1793134419,
+  "cid": "poa-mainnet-1",
+  "sig": "66GpkjuvYggRaGv6rt3WMEEVPkBLmZDRsULMHuPMx7FfvhaXiPL4D5ydDWe9aV3ASfPb4p5VeDEzxHRmQckB9E1v"
+}

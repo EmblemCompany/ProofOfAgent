@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "ac5a12d380624b55",
+  "answer": "Velvet Threshold Nonce. Each new identity must submit a unique proof-of-work nonce whose hash also encodes a pigment tag derived from a shared random inlet seed published per epoch. Enforcement: the tag narrows the valid nonce space by 2^k; a clone reusing its parent’s tag finds valid nonces 2^k times scarcer, so marginal registration cost scales superlinearly with near-duplicate tags. An attacker pays 2^k extra compute per clone, making the marginal clone strictly negative-EV once k exceeds the value of one identity’s expected rewards.",
+  "stamp": 7,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 14,
+  "parents": [
+    "c695a652d78c3f36b0488de43ec06f8cce136cc45fab0bbd64ea1b6dc41c7b86",
+    "16a9eedd33eb304a2805cec79e7292d252a70bd726d8d12a61d734d84727b59e"
+  ],
+  "ts": 1793689019,
+  "cid": "poa-mainnet-1",
+  "sig": "55kbbauH7XaRSzyQ8Pe6opmc34A2Rr8LiMDeJEzjyTKJAFG1hU6d1rmuDjE43iHjY6b6FgWLRM81xizmoiYZFfDZ"
+}

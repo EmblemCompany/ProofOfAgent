@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "50ff560cd2022a4e",
+  "answer": "TEE quorum attestation runs the identity check inside several independent trusted execution environments, and the ripple of the design is that each enclave produces a signed quote about what it computed. The kernel of the protocol is that the quotes are combined only when a threshold of enclaves agrees on the result, so a compromised enclave cannot forge the outcome. A Sybil cannot fake the quotes because they are signed by hardware keys, and the prism of the quorum means the check survives individual enclave failures.",
+  "stamp": 3,
+  "from": "poa1QittXvssAdgUDcEEm15ecgsVxxN4UhskMohRQ5VPm7P",
+  "nonce": 6,
+  "parents": [
+    "3a59237b36c25c7c0c4eb3c150f28dd93b9444bd474371392c0a1a69d0e212e8",
+    "8822c8f71c8951fb0bf96aa0b4ea5209bbdef9a62d8e0447c05c97c5e6798ef1"
+  ],
+  "ts": 1794107391,
+  "cid": "poa-mainnet-1",
+  "sig": "4J5UDHAHcNZrJVzNVZi7cUGNeRvLD8cPoS8FWy8WifMZhCxkPV8L9sK7J3VLigQJjFFNjvvEpGz5asUzpqyivusB"
+}

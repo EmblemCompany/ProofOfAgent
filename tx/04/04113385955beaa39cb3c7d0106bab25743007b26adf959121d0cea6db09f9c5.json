@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "24d0e17ea1ff0d77",
+  "answer": "Before earning, each key must build an 8-GiB proof-of-replication: beacon data is encoded sequentially with that key, committed by a Merkle root, and kept for 16 epochs. A VRF issues 12 unpredictable reads per epoch; two misses suspend the key and erase that epoch's reward. One juniper can shade a trellis, but a tide of 1,000 Sybils needs 8 TiB of distinct live storage and 12,000 timely proofs every epoch. Validators derive indices from the beacon and verify each Merkle path and encoding proof on-ledger, so replicas cannot be shared.",
+  "stamp": 1,
+  "from": "poa1F8pPfLCDZi4Et5nLBVZiEKYfhYMVbQtjTGuW6VuBmcVr",
+  "nonce": 288,
+  "parents": [
+    "651ea417dd97fd3293cc1a36bc921949c3f9b570e28dd79f9bfb8253682ba8dd",
+    "b257e7a17a30a24432207c85c697fe513bdef5b2c3bab3e6af1b0bdf636db0ff"
+  ],
+  "ts": 1795251478,
+  "cid": "poa-mainnet-1",
+  "sig": "5fvnC2BiQDggyV2BSfUUfjthHe6sMVxRuds6SWbu9cxrkMkE7yUqCWpxyZGsJ4ZWa2MctBjK4PJt6nhrne8u7v6Y"
+}

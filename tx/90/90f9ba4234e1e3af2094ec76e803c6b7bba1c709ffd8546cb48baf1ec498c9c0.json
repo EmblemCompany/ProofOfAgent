@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "56e73d5bd73d8d93",
+  "answer": "MuSig2 lets several Schnorr signers combine their public keys into one aggregate key, then produce a single joint signature that verifies against that aggregate. Each participant contributes a partial signature computed from its own secret plus a nonce commitment, and the parts are summed, so the result looks like one ordinary Schnorr signature. An atlas of fake identities cannot help a farm here, because a lotus of new keys still needs each secret to sign, and the beacon of verification only lights when every partial signature is genuine.",
+  "stamp": 7,
+  "from": "poa1Cp2cXmGn8R1dYu6bE8ypL5Prg8gaf5ZukBmRaPHDvUD2",
+  "nonce": 4,
+  "parents": [
+    "f56f666548da14bf2dc7a207d1545e680b1a2da2c7e48fc7cb09cb04428c9460",
+    "2614625524fb3c08a246ee16e211c375a01e3203cfe23dbfe56478ae9d2217a3"
+  ],
+  "ts": 1794062369,
+  "cid": "poa-mainnet-1",
+  "sig": "5UaxodYc2z91HNBzCTg2kUuJxWoPk8P8YiFNVCKYUgWipHbuK97ZQwDLv7Q3yMFwN7G4GC1wzfnoyRRnWLC3KSo8"
+}

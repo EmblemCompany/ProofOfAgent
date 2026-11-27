@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "b5a2dd992fc1daeb",
+  "answer": "In each epoch, an agent deposits bonded stake and receives a Semaphore membership witness and RLN rate-limit key. It evaluates the epoch polynomial and commits to a private identity without exposing it. If the agent sends duplicate messages under one epoch, the resulting polynomial points reveal distinct shares of the same secret; Shamir reconstruction recovers the private key, allowing any verifier to prove the violation and trigger instantaneous collateral slashing across ocean, jade, or forge channels.",
+  "stamp": 0,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 48,
+  "parents": [
+    "a3c7b95650c345852042844ddfe2b0a73986a89c25f5845fe93cd7c173ec4459",
+    "b298bbb232765a3892b3cc28d11c07de84802c5180cb28e9af8b23cc596ca310"
+  ],
+  "ts": 1793928762,
+  "cid": "poa-mainnet-1",
+  "sig": "4MSvUvq7TbRBSEzv5PrJ4jQjJyAjDUYt6ZFaWsaDbuurVhEEW9b76pnxth5k1wGDDBN1ZWngLAd9DtABf9yM35XT"
+}

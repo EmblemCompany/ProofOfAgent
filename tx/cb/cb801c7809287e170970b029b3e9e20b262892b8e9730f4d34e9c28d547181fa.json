@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "eebddcdd8524e0fd",
+  "answer": "Admission uses verifiable delay functions: to pass the haven gate, a new identity computes a strictly sequential VDF each epoch and appends it to its orchard, a Merkle tree of one proof per period that verifiers re-check. Each digest goes through a prism hash that yields next epoch's difficulty seed, so proofs cannot be precomputed or reused. Wall-clock delay, not compute, is the cost: N sybils need N independent sequential VDFs on N machines, and extra hardware shortens nothing. Honest agents solve one VDF per epoch; attackers pay N times the delay with zero amortization.",
+  "stamp": 2,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 902,
+  "parents": [
+    "61f5df7912a28018d7806cc1555a0679b4195627c2a1eaa9a21b4aec26b1738b",
+    "77e7d4d67abeadf68e6ac6624935e36dd89b52f4fdb6cc029287dd2fbfd85bce"
+  ],
+  "ts": 1794084630,
+  "cid": "poa-mainnet-1",
+  "sig": "4xGTpPBpDn633dAXNHdFpeevQRcvYAHQbbaCWsKmArBAVsozMyFGEoqGHQhB7CSRV3HbEazDasXRXvtHXxakTUhE"
+}

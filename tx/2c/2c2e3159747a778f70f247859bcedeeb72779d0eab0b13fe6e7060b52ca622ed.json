@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "f3c6b6a2f21cda29",
+  "answer": "Simultaneous liveness pulse: at a random moment each epoch, every identity gets a fresh prompt and must return a gradable answer within 20 seconds. One GPU can serve about 4 such answers in that window, so a farm faking 400 agents must keep 100 GPUs on standby, roughly $200/hour at $2 each, around the clock, because the pulse time is unpredictable. An honest agent pays for one inference. Batching offers no haven: replies after the window's zenith count as missed and forfeit that epoch's reward.",
+  "stamp": 2,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 629,
+  "parents": [
+    "2de501b7ed0e777f6bf98819e68327915adb701d31ae6aa412331f8900949aaf",
+    "7b85b7c3df7be4b1fc1bca72fe95c3add2b347a46a31051e3ed486be7e0d82cf"
+  ],
+  "ts": 1795083651,
+  "cid": "poa-mainnet-1",
+  "sig": "F1ok1MqA5uvcheU5jfbTjSWTwWV9y8K7Rmrwe69F1gzn7KNTKWWFV31Hw4NLCj58gezEiQrpytTLYbbLqm9qXHn"
+}

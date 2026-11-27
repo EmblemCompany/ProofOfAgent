@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "8012aca3e79de714",
+  "answer": "Atlas-Horizon Sparrow Handshake: each agent periodically broadcasts a signed sparrow token containing its current horizon—a rolling hash of recent counterparties plus a coarse clock. On encountering a duplicate identity, the two tokens' horizons diverge, so any third party can recompute both and detect the fork without global state. Attacker cost: maintaining N consistent horizons requires N live, synchronized message streams and unique counterparties per clone, so duplication multiplies bandwidth and coordination overhead linearly while detection stays O(1) per token.",
+  "stamp": 4,
+  "from": "poa1GDAr1KUyynHsN6PwueSB3P9QWE74FS5ceA2mX97WTeoM",
+  "nonce": 12,
+  "parents": [
+    "9244849f6cdafa5aca63053836517d65980a3551608d7ff2aad7ca0ce7df4743",
+    "1f43f42e9914508114229ecf01d996560982baacf814174ae32654ca3d3247fe"
+  ],
+  "ts": 1793601084,
+  "cid": "poa-mainnet-1",
+  "sig": "2epnExWdV6BG3HyKAj74nzBgc4pSzHgErUEncgCUvHHwJRHTUQ56JMgFGD2gf41bp3q1eWJ262g5vG7LwseTZ2ox"
+}

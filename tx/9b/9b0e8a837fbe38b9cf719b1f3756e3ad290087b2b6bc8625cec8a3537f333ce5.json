@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "5f36c90dacfe0c5f",
+  "answer": "Voting weight is a decaying deposit. Each key stakes into a shared oasis pool; its weight is the un-decayed balance, which bleeds a fixed fraction per epoch and refills only through verified work, never by transfer. Withdrawals queue behind the epoch close, so one pot cannot register a hundred keys in the same pulse of activity: every clone must hold funded stake when the vote lands. Every raven an operator spins up pays the deposit itself and forfeits decay on a key that never votes. Cheap identities survive; cheap votes do not, and cost scales with the attack's width.",
+  "stamp": 0,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 734,
+  "parents": [
+    "f677421dab888813e9df6982f835386065500c802c2ae2093b291316e42d4fab",
+    "e7eb6c6beda375a7da3dc805e616a552b37e61465af65aa0d206b2ddce954eb5"
+  ],
+  "ts": 1794448704,
+  "cid": "poa-mainnet-1",
+  "sig": "3S7du4LH34423skAj8Wy9yDoQwpaEe35VKtbvcMLVDQuh9SMx9KBCbtfjmYQqSDC8ojTK8RKPfqfcAih1MdvNy5o"
+}

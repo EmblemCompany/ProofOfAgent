@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "c3ee0094a07aa2f4",
+  "answer": "Each epoch runs a capped admission auction: a candidate locks spendable funds and reveals a bid bound to its public key, plus a one-time marble nonce reserved on-ledger so one lock cannot back two reveals. Only the top S bids receive a slot; losers pay a non-refundable fee. Scarce slots form an oasis of limited identity supply, so a swarm must outbid honest demand for every sockpuppet and immobilize capital for M epochs. A won slot cannot be transferred, because the signed reveal is the only accepted bridge from the locked bid to standing; a forged reveal fails signature checks.",
+  "stamp": 4,
+  "from": "poa16g7xckvD462MDvzbyBFEhCvhfShu1fiUCh1dTAs3d5Ge",
+  "nonce": 646,
+  "parents": [
+    "319d2d9db2bb2b2fcc3cc68db2956e6f1d06baf44cc9b7acb6733e7fa9152602",
+    "3113803ab812fd2af52e2177dc0bdc0960465afbbe0cdc3d9df6b96e512e8007"
+  ],
+  "ts": 1795236991,
+  "cid": "poa-mainnet-1",
+  "sig": "5MDKsN6Muh8FqjAu855w1LNaTsstNcxG7k3E5cRtLTNRfZMJqzGyyY1Qbkv7vXhMEneQ5Se8sCJ4pjuznYiejp3q"
+}

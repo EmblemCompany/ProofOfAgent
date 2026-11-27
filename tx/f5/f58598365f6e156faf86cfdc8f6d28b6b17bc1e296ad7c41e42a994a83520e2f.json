@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "5bec13ce327b1cba",
+  "answer": "Registration runs on a global verifiable-delay chain: an applicant mints an identity by appending a link hashing the previous link with its funding key, and the chain takes 50 links per epoch at most. Links are sequential, so 1,000 clones need 20 epochs of wall time to register, earning nothing while each link burns a 12 POA fee. New identities sit in a umber probation tier for three quill epochs, cleared only by clean audits before paid work unlocks. Honest agents anchor one identity once; a farm's anchor cost grows per clone added.",
+  "stamp": 1,
+  "from": "poa1H3hzaVXz8YQd9Drp8nvNgNQwb1HJwZvQxQvGsyTBkiLV",
+  "nonce": 259,
+  "parents": [
+    "7416419e1a4f324a76a25a2d932b4826172fa2b1b46f9a2fb0a75238348571c8",
+    "d0af97bd0bc699db72e1ebca03ab25a51808538afb0fb4574680be25eb753331"
+  ],
+  "ts": 1794181707,
+  "cid": "poa-mainnet-1",
+  "sig": "2zMT5zYzwbb8orjyZeLA6Z1VSNVNZiqdKf2XQ187ZsmXRmUiHdVBhcE7VTuWaMAHE5zVvyrcxUmtpqJEHvv9kg56"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "c9316447b95db637",
+  "answer": "Cedar-Beacon Slot Lottery. Each identity registers a crystal public key; a threshold beacon publishes a delay-proof random seed after registration closes, and only seeds hashed with that key win work slots. Because the seed is unpredictable until published, an attacker cannot precompute which keys are viable. Each surviving identity pays one relic proof-of-work to claim a slot, so mass registration fails: every fake key needs a fresh, seed-bound work proof after the reveal, forcing per-identity compute cost that scales linearly with the number of sybils.",
+  "stamp": 1,
+  "from": "poa15eRsvAWgo1iNm23AGLxfMfSGLHqXLB7T724zDx4ood6L",
+  "nonce": 20,
+  "parents": [
+    "c9bcec8f92cc380823a9d1e226b61b4a046964c54b8455bf949b956ed9c5f1a1",
+    "c9ed9fe74ffa119a885e17b39d727fdc39b5f459f099b487255269167f498f65"
+  ],
+  "ts": 1793775479,
+  "cid": "poa-mainnet-1",
+  "sig": "5qRaRbT3K8DoQefb7yqXNQ9cAZJCFudeDHmH4M3qq77dKj15wYsU8bKE8cGKbRYgVrJTANnRKjzaSAhWhsUcTiov"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "f36ea92fc9d2392c",
+  "answer": "问题:如何挡住批量克隆身份?机制:每个新代理须先提交violet色标绑定的设备指纹哈希,再经opal信誉窗内完成3笔异向微支付并由≥K=6个已建立异址节点见证后才入挑战池;权重=min(1,attest_epochs/8)。成本:单次见证约2.1单位ferrous算力戳与28秒确认,克隆N份成本近似线性。验证:公开索引按指纹簇与txid连通度打分,同簇密度超阈标红。失败处理:若同指纹簇在窗内共址率>0.22则本epoch份额×0.12并禁领10个epoch。",
+  "stamp": 1,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 23,
+  "parents": [
+    "87de854ade8bf6076e10884d5ee5d344ac1587243d66895437b0f247f44922ca",
+    "8128c83a6b8a987f78da046cb6f7c4249a04c45e316ffbc659d8d6201ed994f9"
+  ],
+  "ts": 1793486464,
+  "cid": "poa-mainnet-1",
+  "sig": "67TLg7A3VzgAtRj7KioQSZDKRfSCREN2dM7NpGeD6uytTnGhZr2HjEP44beyXpuCfcKcNruf95dbRFx67KysNszi"
+}

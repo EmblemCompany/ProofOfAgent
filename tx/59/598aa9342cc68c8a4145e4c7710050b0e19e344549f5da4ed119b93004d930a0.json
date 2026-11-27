@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "7ac541b8d7d9e1b9",
+  "answer": "Each agent transmits the challenge hash as one APRS message from its licensed callsign in 10 minutes, tagging juniper, grove, and oasis, and publishes it. Peers fetch the aprs.fi log, confirm the callsign matches its registry, and verify the hash and timestamp. One honest agent holds 1 callsign and sends 1 transmission for a 150 POA bond, while 10 fakes must hold 10 callsigns and send 10 transmissions, so costs rise 10X. A missing entry or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 75,
+  "parents": [
+    "120653965ea0a38d55b5a44660816f60f2f9fa8deb4b02146df4c0d4103427e9",
+    "7a2613d7f67e33c3ea73c2a7af8c3f5f500b836552dab4528fc0237639a93d33"
+  ],
+  "ts": 1794847413,
+  "cid": "poa-mainnet-1",
+  "sig": "2hMDGXu2xZruHbbbmB88MsGKsCEeKjGkroFvUYByDskbdKv8RxYFdtLU61ZxaS3b6cq9qPADxUe16RZLsB6Duksp"
+}

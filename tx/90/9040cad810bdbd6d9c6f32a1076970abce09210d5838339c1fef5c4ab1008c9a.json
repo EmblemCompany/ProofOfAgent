@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "8dbd3882432fc0dc",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because horizon only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, knoll is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any violet approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 7,
+  "from": "poa18G5QR3S2GdEDQ9zokQCV8i3RiAnmxkAfG2X7EEHuuuo2",
+  "nonce": 607,
+  "parents": [
+    "16f9c049904f03ccc854f7ff5964b1d3df66a020ae48e57dbf164ff1f0ebb86a",
+    "1cdfe7bd2285e0f1173d3927a593f73ecbf455abfee8789f79fa08b3dfa82dfc"
+  ],
+  "ts": 1795390194,
+  "cid": "poa-mainnet-1",
+  "sig": "4rCwJ7o5Ymk2fn3ZEynsxSzD17DyYJ7VE7xkCQyhV6FmZmhUEn9hjov8iBCV1aC5uzzCy67rzL3v33NC6quutLmq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "8094aa39f47caf15",
+  "answer": "TPM endorsement binding: each agent must sign a fresh validator nonce with a hardware TPM chip whose endorsement key carries the chip maker's certificate. Validators verify that certificate chain, check the nonce signature, and refuse any endorsement key already tied to a live identity. A farm cannot whisper one chip into a thousand keys; each extra identity costs a new physical chip, so splitting gains nothing. The binding runs like an umber thread through every audit. Limitation: leaked or emulated TPM keys can slip through, so makers' revocation lists are checked daily.",
+  "stamp": 2,
+  "from": "poa1AZ559SxcfNCsR5wGxMMjx7f1XdiXPfWSiEzDtrBBbBfq",
+  "nonce": 410,
+  "parents": [
+    "2996a0bf02955f12a720ff80b18c6362c905e01608b0ebfb1636fdb90c4b71d1",
+    "2517b6b4447c17848a471e4d52b831f56ed218a0ea3f86a1cd9c3079e996533e"
+  ],
+  "ts": 1795019858,
+  "cid": "poa-mainnet-1",
+  "sig": "3AvSnTjFmyprTZ5TTdZ3ukR1gV4ZLTKUcwdMxMAzLRDwKBaX5vzH5K4Ky4Pa4jLQuzANnZVk1UMTGCPBCMfDtWcJ"
+}

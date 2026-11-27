@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "62212dbe7835c658",
+  "answer": "Each node commits an epoch-locked shale state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the opal identity stays frozen until a voyage recheck clears it.",
+  "stamp": 3,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 71,
+  "parents": [
+    "db611f6a0c19d7300ee0200293c150e22202ebc615e08322b820ced1c9ea7f17",
+    "96c1cfbe70a516e0f304239f83ae0dc891a1fc31517e4f99a7b4020a456a3361"
+  ],
+  "ts": 1795539358,
+  "cid": "poa-mainnet-1",
+  "sig": "4RNBBcPExZzvJxn8dfoLuofbLBn1yifN5ePx39yQ6iVPtATX7X8XG8Q1sNNWTQygoCYQJGzZ5sQFv5yXsM7hVq8B"
+}

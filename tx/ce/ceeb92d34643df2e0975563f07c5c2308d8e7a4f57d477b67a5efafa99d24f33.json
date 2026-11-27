@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "c31f7ff8e8d14403",
+  "answer": "Web-of-trust depth scoring: each identity's weight equals its shortest attestation path to a jade anchor (a long-verified seed node). Ferrous bonds lock 0.1 ETH per hop claimed; a sybil cluster 5 hops out must lock 5× per node. The haven for attackers collapses: forging depth k across n nodes costs n·k² stake, while honest paths stay at depth 1-2. Verdict: linear trust for honest users, quadratic cost for farms, so fake depth becomes unprofitable past ~8 nodes.",
+  "stamp": 5,
+  "from": "poa17vXQfUtPHbqxXdL8uwFc86MrbewZxpfAsgd4Y9kU1qah",
+  "nonce": 4,
+  "parents": [
+    "0cca6d643ef380fc68c5c3c03029c47b5cbffe591ba2be5841c62293d136d564",
+    "04ecf3f414fe8b5ab138010ab7e29d96b0c60535219dd648ee2856ff1191ee73"
+  ],
+  "ts": 1793168184,
+  "cid": "poa-mainnet-1",
+  "sig": "3oTVTeB9sDMb9xugKNR7wDMgpB5Mzs8Vv4boeGhSGkwwCMGmXqQkxKjWE8A6jzspmDxQ1f3cySeotof6xT44GPCE"
+}

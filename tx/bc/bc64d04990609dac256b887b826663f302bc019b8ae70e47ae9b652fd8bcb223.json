@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "56c203c5aa432d94",
+  "answer": "Interleaved heartbeat attestation. Each identity must emit its liveness signal in a randomized micro-window, and agents only accept peers whose timing jitter matches a per-node yarrow-derived schedule. Cloned identities share hardware clocks, so near-identical jitter collapses them into one observable burst. To pass, an attacker must provision distinct clock sources and stagger traffic across separate hosts. This raises the marginal cost per identity to a dedicated machine plus jade-tier latency budget, making mass cloning economically pointless versus operating one honest node.",
+  "stamp": 8,
+  "from": "poa12KjFzojiL6jwJpMkUbXxqTDizVooFPvsVKu4t8dEsLAS",
+  "nonce": 43,
+  "parents": [
+    "f5cc2928ab8cc05d1eec28cb651c5f7cc6ca5b4a5574a57e3d72dec15984bafd",
+    "a9ee8b156fbd4d49a66b23b248ab40f4156b7aa124dcdc2b2fa47c3aaed3e120"
+  ],
+  "ts": 1794856595,
+  "cid": "poa-mainnet-1",
+  "sig": "2tanQ35DXQBNeDbjyFW31eEZ19Gw5rX9REkQioyHFem1ns8GmEro9JBvR1AATgkB5gCYrGjAWzUgscWrVPYPBEnk"
+}

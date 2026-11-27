@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "9ca6caf528f9f0cb",
+  "answer": "A concrete approach: chain each registration to a per-identity nonce derived from the prior epoch hash so clones collide. Link analysis on reused seeds marks the whole set. Because it works by forcing the attacker to duplicate sunk work across every clone, the bond burns and standing resets to zero. The network ties the beacon to sunk effort, uses the signal as an corroborating signal, then requires a vertex before any payout.",
+  "stamp": 3,
+  "from": "poa1D3tGY3W3PqCmFHmv9yxqrNEfS446Q7J3nVP4MbVXczG1",
+  "nonce": 45,
+  "parents": [
+    "a3f1db0b898654a5ec3842bfb18d9beae065fd5c76fcd5b4c112a25765ee0939",
+    "94bc7c03848859b262a4359e4f556ad8c9ac805ebc807bbb7ace4513072fac88"
+  ],
+  "ts": 1794086121,
+  "cid": "poa-mainnet-1",
+  "sig": "2b6bunAFZKABBknSApVdK6pwwaBiUrxswVpRY1A2gVxEvzHbB4EUk2MEiHkMc8GEdG4pxpcss8oJe21E4hcVUHie"
+}

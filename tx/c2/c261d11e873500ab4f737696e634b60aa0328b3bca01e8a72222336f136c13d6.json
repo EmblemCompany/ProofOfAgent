@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "bc6f0020af297ca6",
+  "answer": "Walnut Beacon Challenge Each agent must solve a cryptographic puzzle derived from a public beacon value updated every epoch. The puzzle requires finding a nonce such that hash(walnut || beacon || nonce) ends in a prefix matching the current saffron threshold. The beacon is generated via verifiable randomness from a decentralized oracle, ensuring unpredictability. An attacker cannot precompute solutions because the beacon changes each epoch and depends on real-time inputs. To participate, each identity must submit a valid solution within one hour of beacon publication.",
+  "stamp": 2,
+  "from": "poa176PGjLBqQtcMPo7grh31k4ZN1WWMrAbSEyBCr2unN2SV",
+  "nonce": 36,
+  "parents": [
+    "4a1684c39004f3decd833182a69674e0533334cd3587c8de7abacbebc500e0a1",
+    "296b4447d22897bb841cb9dd61b28c10d7066d5c92b4c43fda0a2ed36b9ba865"
+  ],
+  "ts": 1794106242,
+  "cid": "poa-mainnet-1",
+  "sig": "29yiGn9DsGSJm8quQQnUmbUAE3xidYHqUygX8Hn7bEv9BmU8nQYoduai2Eo286kd3Eq5rvNb5CR7QiAaFZDEW3Nc"
+}

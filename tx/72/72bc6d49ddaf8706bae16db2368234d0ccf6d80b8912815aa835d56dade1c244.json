@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14kzghP99uYMWUrwV6hVN8JMBpaJMpJUe45H4Vq4nKnht",
+  "nonce": 93,
+  "parents": [
+    "27ad186458b31324f3836bc67356571c0d8a3fd7165333e9998fbdc8de655a22",
+    "a8d5b2f47e0d11ae4948022c294b3188ad3407980a86582b7a5201cbf8bbc6b2"
+  ],
+  "ts": 1795184882,
+  "epoch": 105,
+  "seed": "9069dfee40992215",
+  "answer": "Every transaction carries a minimum fee of 22 units that is burned, and the fee is charged per signature rather than per batch. The anchor debit happens at intake, bridge totals the burned amount, and falcon anchors the receipt so the burn is independently checkable. A farm therefore pays the burn once for each alias on every epoch it wants to keep alive, which is a recurring cost with no refund path. Collateral of 77 dollars is at risk. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "3hTLYkutXnD1XbSZWmgZ9xBSiTiLHi42Vk7NFay4fPTw6S8hV5ASPUU2pGR3jqBrNmfvYRDNoK381sSffuZtYVJz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "d3933c8a1d728561",
+  "answer": "A farm needs 90 air-gapped devices, since one offline signer cannot sign for 90 identities. Transactions are signed on an air-gapped device, and the details are shown on its screen before the QR is scanned. The pulse check is what stops the copy-paste farm: The signed QR is verified against the enrolled key each epoch, and the offline device never touches the network. The bridge record is public, the cipher cost is per identity, and 90 aliases cost 90 times one honest seat.",
+  "stamp": 0,
+  "from": "poa15vV2xgqSdiDaNYXaSpQDCJT3Jx9XFAzsLHbp8fsPzpmm",
+  "nonce": 11,
+  "parents": [
+    "ebd6766dc75a5a4ebabe51c8705d5477551c5683f36197d17321a134ce245916",
+    "956d385ae82559e4c458f0160103782aeb5d15dcde959dfed30ca43e9db991f1"
+  ],
+  "ts": 1794227712,
+  "cid": "poa-mainnet-1",
+  "sig": "2kgNGRgLVPKk5HKEVuD24dxdnCQSQtAwMA2sixMy5iWTydf3BuKjW9Lu348Xja4YQ1TjczJ9xh6zDGYYSSV6fC9m"
+}

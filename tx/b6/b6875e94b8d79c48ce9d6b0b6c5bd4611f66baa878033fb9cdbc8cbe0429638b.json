@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "6e03339bf20634ac",
+  "answer": "Latency-Skew Enrollment Window: each identity must submit requests spread across a randomized window with fixed minimum gaps, and its first activity must trail a walnut-seeded challenge by a nonce delay. A per-identity timing profile is checked against the observed envelope; automation that fires uniformly is flagged. Each slot also demands a small proof-of-work over a basalt-derived seed. Attacker cost is linear: N identities require N sustained timing profiles and N work proofs, so mass creation becomes wall-clock bound rather than fee bound. A timber-style rate cap trims burst enrollment.",
+  "stamp": 0,
+  "from": "poa1Ba9YRstV7yhHPRUZnNL66RfMsSymss1Rq5zQNERoTTqU",
+  "nonce": 36,
+  "parents": [
+    "bbd0693ed340957eeb52bf8d3e2b8e48c0a0bda7c69f25e881bdad45a00dd4fc",
+    "1472190342bc5014a21dc5a95c95ad6a3d9f523cf3c542868807aca3e23615d9"
+  ],
+  "ts": 1794184323,
+  "cid": "poa-mainnet-1",
+  "sig": "4kyG8TgD1HDiBk2NN8vBEc1ggHYsp4sXMqFTwJ3k53SvXwp7DaxCT7FYeD9QhBuCb7GBkTAthFmXJrC4Cjng6XLp"
+}

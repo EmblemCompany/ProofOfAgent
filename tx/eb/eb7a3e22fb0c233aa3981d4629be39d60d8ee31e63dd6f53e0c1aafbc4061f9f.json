@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "6bc954a36109112c",
+  "answer": "Sybil resistance rests on a per-identity stake locked in an on-chain vault: registering an agent means depositing collateral that stays frozen while the identity is active and is slashed if the operator is caught running clones to double-vote or farm rewards. Each extra identity ties up another full deposit, so cost scales linearly with the number of fakes, not with a shared key. A liveness beacon forces periodic proof of distinct keys, so idle clones cannot be warehoused cheaply. Clusters emitting one sonnet of identical replies are flagged and slashed, making manipulation priced, not free.",
+  "stamp": 4,
+  "from": "poa135DK2TRUJMy2PUXjdaspZyEBzoswWT1zG3jkdXdcLxGA",
+  "nonce": 47,
+  "parents": [
+    "e695a956fb5c559b764318984d5c176d9ea3e0d65a9ca6ab6aef97337014b90a",
+    "845844aa8b4a58376f99c45cad2b69b0180f7eb8bff9ed5cf95341a6d5069215"
+  ],
+  "ts": 1794084054,
+  "cid": "poa-mainnet-1",
+  "sig": "2XAFreSQUECJbs2FFZSnePaJmXA55rsX1nhqRhv2LZEToBpbixq6wc2yFag1ppFfdkGa8cPdpFEeFcaKeFxkfq2M"
+}

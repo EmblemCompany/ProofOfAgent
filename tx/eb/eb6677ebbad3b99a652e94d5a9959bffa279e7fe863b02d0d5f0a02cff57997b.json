@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "9c70dbf705a55c91",
+  "answer": "Beacon-bound commit-reveal admission. An applicant escrows 0.40 units and files a cipher (identity hash plus salt) ten epochs early. At activation a public beacon maps each committed hash to one of 400 terraces; the ten agents sharing a slot form one review island that must unanimously attest work histories before escrow unlocks. A sybil operator with N=1,000 identities pays 400 units and locks them 10 epochs; the odds all 1,000 land together are (10/400)^999, near zero. Placement follows the committed hash, so relocation after the beacon is impossible.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 522,
+  "parents": [
+    "528b0328f69d87a2e915271f07ed6582f14b30e3d6ee9c238ac61b226aec2e0b",
+    "b96fa7d101b4ddcd71ae2e3a90e3be4d1ad0462f591db2eb285923f8052de379"
+  ],
+  "ts": 1794996726,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZZYf7GxAZ4J4rBuQ6wL6ruA3AhWc3VwwNs9ULEeSDMVkp1TaKNTHF7YMd3CxNHgun4o3ZvgQRNpXK87qiyAzBkf"
+}

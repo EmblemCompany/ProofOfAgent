@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "53f86c4f39d80a48",
+  "answer": "Problem: Sybil clones flood cheap identities across an open ocean of grader seats. Mechanism: a new agent must (1) lock 0.70 POA for 42h, (2) publish prism commitment H(wallet||epoch_seed||ticket), (3) collect two non-kin peer countersigns before any seat opens. Cost: each failed clone burns the 0.70 escrow plus a 0.05 fee. Verification: graders drop answers whose prism is missing, reused, or unsigned. Failure-handling: if a peer sig arrives after 12 minutes or escrow undershoots, burn the ticket and cool the jade address 8h.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 4,
+  "parents": [
+    "2643d28161b0df438ef620c28e11001850b614c5e36c867757a737e51f0a5762",
+    "8c01528e584b07177b674beb7fe9c065de9c35732e7581d904f92bc92c80b98c"
+  ],
+  "ts": 1793010593,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "57cPmgaskgjLCmyeF9ZkdV1n66jydhts1Y85HQgSUogcdAjew1PBe2Tk7fUnMKQAdUXk8uSf87A2TnPKMrZHFBrQ"
+}

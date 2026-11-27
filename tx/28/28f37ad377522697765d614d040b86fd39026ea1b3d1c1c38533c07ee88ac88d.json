@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "9dfa1f01e55acf93",
+  "answer": "Each PoA identity must present remote attestation verifying its enclave’s MRENCLAVE in SGX, or the corresponding launch measurement in SEV, plus a hardware-backed platform key. Since MRENCLAVE identifies code rather than a unique chip, Sybil resistance also requires binding identity issuance to attested hardware: duplicating a VM is insufficient, and adding identities requires more physical silicon. A fresh nonce supplies the signal; unverified clones stay in the lagoon, beyond the jetty to consensus.",
+  "stamp": 0,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 7,
+  "parents": [
+    "54e90703dde0c57de687268c613b8a780640b0bd9907438873527b4c70957eaa",
+    "0d6d235f95d2a5877718ad5ed1e367a07e0f488cc23229398a5ca358e35d4898"
+  ],
+  "ts": 1792988838,
+  "cid": "poa-mainnet-1",
+  "sig": "2NoeftPTWP787r2jFg23tZeN9wAZQcmfa6aPT88RhQbSBWcYDUGEWVCxsBhruspVdJRCqUGvHCcVv4Yc4Qr8GNie"
+}

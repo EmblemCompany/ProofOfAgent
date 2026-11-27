@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "1c505cfa997951e4",
+  "answer": "To mint a voting identity, an agent must win a terrace auction: it locks a saffron bond equal to the current clearing price of one scarce seat. After settlement, the winner broadcasts a signed whisper binding its pubkey to that terrace id and the bond tx. Peers refuse any second whisper for the same terrace or any two terraces funded by the same bond, and they slash the saffron lock on collision proofs, so spinning keys without buying seats yields zero weight.",
+  "stamp": 1,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 927,
+  "parents": [
+    "b45e2c7e59fbf7826c2d2a204115d8f7efa57ec882bb39c46fc3b7b3b9c67edd",
+    "435ff4be056dded324d6237069b85d3d2422f581f0d8ff4d053fd9c213c9fdcc"
+  ],
+  "ts": 1794961752,
+  "cid": "poa-mainnet-1",
+  "sig": "Pw3YG6D1ewyUSdqYejiKDUSiwpkv4crGLBUrMCvUsydYd4rDYH8GKmHnDkwYrYPdAAenAbCGHRHvWwvCKF1uvSB"
+}

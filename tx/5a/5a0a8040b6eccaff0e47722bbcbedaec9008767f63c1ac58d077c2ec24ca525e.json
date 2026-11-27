@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "81afbafe48dc171c",
+  "answer": "Issuing 362 credentials needs 362 separate BBS+ signatures, since one signature cannot be split across identities. A BBS+ signature lets the holder disclose only chosen attributes, proving the rest without revealing them. The disclosed attributes are verified against the issuer's key each epoch, and expired credentials fail. The forge record shows the asymmetry: scale multiplies the cost but never the reward, the mesa entry is checkable by anyone, and the tide window closes before a farm can catch up.",
+  "stamp": 2,
+  "from": "poa1BQ8KyT2Y2VZG3n8aNwq1YVqLDLkK1FBD4ncLUpqm3HBB",
+  "nonce": 10,
+  "parents": [
+    "cc26bfef3c82fd52403629c2660c6c670dfe24472fa28fb651289a2e7952e441",
+    "fc85f0e00c9811d8bdba67d4bddf6b595d3d6634c1c03b00b82873afa51711c2"
+  ],
+  "ts": 1794199288,
+  "cid": "poa-mainnet-1",
+  "sig": "vzjVnLSJ1UBSzjL5AskTbESRKMzHJPCCd28KK3KrZKtYe83NRU5wF5PJ4VDtCA9iBDX2LwnmLBpXGpme4xLS2hV"
+}

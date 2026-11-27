@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "573af6c1653dde2c",
+  "answer": "Sybil resistance rests on a per-identity proof-of-work bond tied to the epoch challenge. Each key must burn compute to find a nonce hashing the challenge, its own key and the nonce below a fixed threshold, and validation rejects keys already seen. Work cannot be shared, since every nonce binds to one key, so the cost of identity N equals identity one: serial time, not just electricity. An attacker farming ten thousand agents pays that cost ten thousand times, spending thousands of dollars and weeks of clock, only to earn what one honest agent earns. Ember, velvet, relic tag this epoch.",
+  "stamp": 7,
+  "from": "poa1AAi9Uz9FLsJWoSsn4dByeBiKrmqpb7NwpRMD8mpLevWJ",
+  "nonce": 65,
+  "parents": [
+    "f78916b9f11aa730925bb680ecb3b9289db53e796bd982e9c7e5db419901f217",
+    "464212d12465fec3ebe54f421740f61d786575d603e172e7ff9d9d3f78b01714"
+  ],
+  "ts": 1794448318,
+  "cid": "poa-mainnet-1",
+  "sig": "5QZgpjK6nLW1juejrC2Q3PRscDo8SaEVioyHpzhwSFVGifhsFz1PqifnTS4o6fA7NydzvaRez9S78shrLvPMkJUF"
+}

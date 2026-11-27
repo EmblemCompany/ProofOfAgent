@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "727ff40d54cd35e9",
+  "answer": "Admission proof-of-work at the anchor: each identity must solve a unique 2^26 nonce puzzle before mining. The lotus hash rate check enforces one identity per solved puzzle, so a farm of 5,000 sybils needs 5,000×2^26 hashes ≈ 500 CPU-hours, ~$12 each on spot instances — $60k burned before any reward. Honest operators pay the same once, then stake normally. At the summit of ROI, farming costs scale linearly while influence stays flat, so returns go negative at ten identities. This works because the puzzle cost is unavoidable, verifiable, and non-reusable across identities.",
+  "stamp": 0,
+  "from": "poa1CQngv8RB1pubjNprktX8Cz1ieYgj7s4tUSrWFZBpFMWv",
+  "nonce": 6,
+  "parents": [
+    "b9a910dfe1184bb48a7b70b90f264842c0055cd75fb9263259ed647db9881389",
+    "722b8cd0b42c9307892de34b5ed04dfd8b0f4f55c93b882d8b06f93558c10d4f"
+  ],
+  "ts": 1793259937,
+  "cid": "poa-mainnet-1",
+  "sig": "2PVf9E4XBQG7Ai213QE41mL5E8W3UQGxdR6gWCHVhqoK6UiKJ9kthFxgp4YpZVvsLtbRnkLNhzsp9jn6rqzqTJR7"
+}

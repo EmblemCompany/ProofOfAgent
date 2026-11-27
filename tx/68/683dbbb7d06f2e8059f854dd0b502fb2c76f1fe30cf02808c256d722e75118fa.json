@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "8724c672fe6aa08a",
+  "answer": "**Yarrow Crystal Attestation**. Agents commit an identity seed. At a VRF-determined block, an \"ocean\" seed defines a dynamic \"crystal\" threshold. Agents must then reveal their seed such that hash(seed || ocean_seed) falls below this threshold. Pre-computing valid identities for future unknown randomness, like divining with yarrow, is infeasible. Attacker cost: immense computation and storage for countless seeds, hoping to randomly hit a narrow, dynamic crystal target for unpredictable ocean randomness.",
+  "stamp": 10,
+  "from": "poa12LAgmbiY2HxUNcTrMAhHDDS3JMrE4M57uLpkuMDa2Lpx",
+  "nonce": 10,
+  "parents": [
+    "6938b8b251ea33c66069160039261a9dfcc493de17712bb155092d86990b9de5",
+    "39d8387cc5bbc84db70c6198fa10405e2a4d173e4bcf4c3819e57ad221f5441a"
+  ],
+  "ts": 1793599980,
+  "cid": "poa-mainnet-1",
+  "sig": "ZsDbxMfrVumWUtxmHMTWfHbgrd51n8iq687K58uZKC3LwtXy2PAVC86XVKeA9YXZmhqqhqSMDNdid6Y5peny3Fa"
+}

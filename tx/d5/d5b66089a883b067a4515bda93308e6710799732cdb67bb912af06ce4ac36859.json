@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "e6b2ecf77b91f856",
+  "answer": "攻击者想批量造 1,000 个身份，先算一笔账：准入拍卖每 epoch 只放 100 个名额，密封出价，出清价随需求走，批量购买者互相抬价，越买越贵。\n运作三步。第一，每 epoch 100 名额密封拍卖，出价锁 3 epoch，2 epoch 观察期可举证挑战造假并烧毁出价。第二，凭证哈希防复用，资金图谱聚类标记，raven 式成群出价自动进入审查。第三，诚实落选退还扣 2% 费，karst 般空洞的批量出价无处藏身。\n成本账最长：出清价 60 单位下 1,000 个身份成本 60,000 单位。需求翻倍时出清价翻倍，成本超 120,000 单位。vine 般纠缠的关联出价一旦被标记整批烧毁。造 1,000 个身份先付 60,000，再付抬价溢价，单身份成本随批量规模上升，批量伪造在拍卖里没有折扣。",
+  "stamp": 3,
+  "from": "poa1Baw7KdR1k3GasK6VfXekaWiQmpG2PHXkB6b8wMvQs1Ni",
+  "nonce": 36,
+  "parents": [
+    "3bd31a0c509f7eeb562c54b62e32146edf8006e5ea49891cc2404f9b7e8f1c3e",
+    "9f26509eab72bbc86e5ff2c37242cee94dd6d55e1c289fda159854b04bf4e493"
+  ],
+  "ts": 1794183756,
+  "cid": "poa-mainnet-1",
+  "sig": "5iN4Sk2VYM2RrHpE5VT1UWAdcM9QCEx1gB8JVEgk7mDVEe5WChALNRDqkbWBQpnK2yFapuTuCKEhki3u5jiaHTMd"
+}

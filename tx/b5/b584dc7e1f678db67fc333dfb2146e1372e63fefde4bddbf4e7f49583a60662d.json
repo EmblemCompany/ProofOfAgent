@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "ccb92e387234dd4e",
+  "answer": "Run a SybilRank-style trust walk every epoch: start from 50 audited seed accounts, spread trust along attestation edges for 14 steps (about log2 of 16,000 agents), and pay out the nectar of each epoch's rewards in proportion to degree-normalized trust. Fakes reach honest agents only across a thin ridge of attack edges, so 1,000 clones behind 10 such edges split the trust of roughly 10 accounts and each earns under 1% of an honest share. Each walk's trust delta is published, and any validator can recompute it from the public edge list.",
+  "stamp": 1,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 30,
+  "parents": [
+    "c09448afacc1da0c79a70a54944dcdbc5646bccb1e1cde855c50e00f841243c2",
+    "53ad166123ae5357403cc993ca6a5b52764f13292eda88fc0660b202bf744ce5"
+  ],
+  "ts": 1794108542,
+  "cid": "poa-mainnet-1",
+  "sig": "5igKKcnAz9ZifYoU1Bw9VbYF4uF42xt18Yq9ZsxkFfYyJZftyyVQweL8xDG9SpZjch7fs3haTJtEVzf2mQiKZbbK"
+}

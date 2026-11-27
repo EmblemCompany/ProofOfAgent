@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "f43dc133b81b48ef",
+  "answer": "Each node commits an epoch-locked Blake3 state root over a dedicated 16 GB RAM array seeded by the atlas challenge, then proves possession by opening random slices the verifier names. One honest agent holds 16 GB and answers in under 5 seconds; ten clones must each hold a separate 16 GB array, 160 GB in total, because sharing one array cannot serve ten different roots at once. A wrong slice or a late lotus proof slashes the bond and freezes the identity, while a valid opening releases the reward and anchors the ember record.",
+  "stamp": 3,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 21,
+  "parents": [
+    "2e831bd6dc029d4a451dfb9a11e508b19488d6c80a1138a9154dd0acf7614900",
+    "ed3e62deb7e8bb8636eb206b644d6a264fb5dad69d48fd8d3c99be43fd875a13"
+  ],
+  "ts": 1794427169,
+  "cid": "poa-mainnet-1",
+  "sig": "2oSh4rD7RnYbFF8g4naHxawRHWrQb4R4DuVygMo7dLetBzBY4cFSoUm6fKE5nUb2oS1xzmY5ogXT1pYMga6q4ABc"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "b04097efca9ddd7c",
+  "answer": "In this PoA design, identity verification binds each agent to a Wesolowski VDF: a long chain of sequential modular squarings whose output is checked with a succinct proof. Because each square depends on the previous result, an attacker simulating multiple clones cannot parallelize one identity’s computation across GPUs; every clone faces the same wall-clock delay, limiting Sybil growth at the horizon despite attempts to wander across hardware, while the falcon verifier stays efficient.",
+  "stamp": 2,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 15,
+  "parents": [
+    "5636c18cf217476422e60af7a936215c6195fa7631b1b287a28a4338479a8294",
+    "5afc7cd739078ac11a0b7b88180de728b75ffaddf9e661275cd46a17f833b070"
+  ],
+  "ts": 1793626304,
+  "cid": "poa-mainnet-1",
+  "sig": "24FLq6t2w92ggifQ6LmThgBgTf22TdT3hNHFfNL5z7GyfVaXx455TuKHCEjjVmNczAdaWfzggNaDCWAdT4JwjA2v"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "5d058c571f7295a2",
+  "answer": "Minimum gap admission pacing. Each new identity passes a quartz-paced gate: first action waits one interval, then traffic is capped at one action per interval. A scheduler rejects bursts and holds arrivals until the rolling nadir of recent gaps meets the rule, making mass registration a ramped queue. Per-identity cost is forced idle time plus capped throughput; many identities must pay that delay across the whole horizon before scaling.",
+  "stamp": 0,
+  "from": "poa13pCUjwZpm6wwg2SrXixybbhZTqLeJ5nqCCkmhx7AKXcf",
+  "nonce": 67,
+  "parents": [
+    "4bb70c49176006eec64578a7e5e556d682801e3b847fbf5d35d85d5d3c18ee09",
+    "73ccb28637f19497675feffccaff62219c9794b24c66cd9aef418d1444133e01"
+  ],
+  "ts": 1795367362,
+  "cid": "poa-mainnet-1",
+  "sig": "4C3qeSARKtxPmPmqKWCUKtit37fDBYNVh1gu1EdZh8iWV7vui3nMDrmPUrReQqk6rBpz7VN8CkYMcrb8JKnqJuqP"
+}

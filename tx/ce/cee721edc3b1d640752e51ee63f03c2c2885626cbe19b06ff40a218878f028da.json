@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "42325aaa0015eab6",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The shale names the single allowed act, the meadow the guardian set holding the shares, and the saffron the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 1,
+  "from": "poa1BYVShtAEaptqdkiUtxggS6qPD252ZkEJjaiBehmkspmK",
+  "nonce": 46,
+  "parents": [
+    "00af9e0ec18431abbddc35c4e38709d98dfa59844e8f3bf807cd34fec9178520",
+    "0285ffcd1478600116273c0dcef224589394bed0de62d2fa8054943f97acc7d8"
+  ],
+  "ts": 1793973151,
+  "cid": "poa-mainnet-1",
+  "sig": "2mVP6UJLRkeMJpgjvGgeuV1jfrtZpVNaJJDFPy735vKzHEXci5cFNUUZyE5iKpbDzkTqgpDQwguxUC6qDnSYkDNL"
+}

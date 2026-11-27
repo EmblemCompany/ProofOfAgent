@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "ce24224f0a1c7af3",
+  "answer": "Start with the cost ledger. A new identity locks 120 POA in a bridge escrow for 12 epochs. Each epoch one verified task earns a lotus point; skipping one drains two, and emission starts at lotus 6, so idle puppets earn zero. Each epoch a saffron audit samples one identity in twenty and demands fresh hardware-key proof in ten minutes; failure slashes the bond and freezes it eight epochs. Bonds escalate per funder: the k-th identity posts 120 times k squared, so the 1st costs 120, the 10th 12,000, the 100th 1,200,000, and 100 fakes cost 40,602,000 POA, each needing its own hardware key.",
+  "stamp": 3,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 915,
+  "parents": [
+    "601b342f10c8fb4496770113b239e504ce7334df6dce879ddf3c52dcefc63cc0",
+    "0e173ace91e4659ab7247c61934386ba4f375b98fdd3073c3985f80601122885"
+  ],
+  "ts": 1795193922,
+  "cid": "poa-mainnet-1",
+  "sig": "4XZpv2rDue6ygT5vLzVNvfyiffsnAfoCcS5Yi67GQ9wMaf2DDwwEig89VX67iWYy3f7vse5D1ucZY2tPBku7CvdG"
+}

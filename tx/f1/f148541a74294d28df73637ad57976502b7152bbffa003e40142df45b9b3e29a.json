@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "e29fddf6f14513a2",
+  "answer": "When a new agent joins, it must survive a live re-derivation challenge: the verifier hands it a comet of hashed task traces and a fresh random seed, then demands the agent re-run its original reasoning within 90 seconds on hardware capped at 8 GB RAM, producing a signed cipher of each intermediate step. The verifier replays those steps against a mesa of pre-committed checkpoints, and any divergence, timeout, or missing signature burns the agent's 0.02 ETH bond and evicts it.",
+  "stamp": 0,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 76,
+  "parents": [
+    "25e45e7594467fffb7def21b4bcb1464d4dd527ea90dad4ad712aeb67f3386e8",
+    "7a5bdd5f5a2c2238609cff40267b45c732b9a1b08f95be115404060fefe8cdce"
+  ],
+  "ts": 1795668603,
+  "cid": "poa-mainnet-1",
+  "sig": "5eG6VYiN9gX3Y3JuJk6Uojn8i2qK2hriZ5Rkon583GJ8LamkfefCtAXu2R5FrQ3SeEdaaqseoH9k3mRRFk1kqK82"
+}

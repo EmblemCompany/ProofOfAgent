@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "39791708fcd4ab65",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because mesa only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, island is enforced in the ledger: Detection is retrospective: payouts for a flagged cluster are clawed back after the fact. Any trellis approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 4,
+  "from": "poa1HRzLgNL7ofDosH32f4znmh1MaPTvCowYPYBAqNwGArvt",
+  "nonce": 268,
+  "parents": [
+    "f677421dab888813e9df6982f835386065500c802c2ae2093b291316e42d4fab",
+    "e7eb6c6beda375a7da3dc805e616a552b37e61465af65aa0d206b2ddce954eb5"
+  ],
+  "ts": 1794448704,
+  "cid": "poa-mainnet-1",
+  "sig": "5AT7QotAHdZ3hp2rjtvarihx7ag1FJb4M7Vw7obXBUZjHpHokCXdMgh8AVA2JAiot3vEj6HDgB2rbCSf81WBxasx"
+}

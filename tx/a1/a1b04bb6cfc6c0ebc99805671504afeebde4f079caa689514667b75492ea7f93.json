@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "b7f632cc39691f03",
+  "answer": "Beacon-anchored seat cost: each attributed vote must carry a proof-of-work stamp mined over the live epoch beacon, so weight is bought with compute, not keypairs. A sybil fleet of k fake agents must mine k independent stamp chains bound to that beacon and refresh them every epoch, so a clone farm pays k times the honest electricity bill for one extra voice. Attestations that share a mining parent, or land inside one gossip round, fold into a single leaf before quorum, so an onyx-cold ring cannot inflate a trellis of votes. Replayed stamps slash the poster bond.",
+  "stamp": 9,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 71,
+  "parents": [
+    "e6014dc5893b619507376efd7735fb825dfe3f20c4f52933e33acfaebde42f09",
+    "35496c55cfa84fd970c8fe0218f61a102a86374094550124647a76a53a33148d"
+  ],
+  "ts": 1793992282,
+  "cid": "poa-mainnet-1",
+  "sig": "3tGH5asNx68ERD8U9aGHoJBnSuhE64ajPoGUiT51GTbzU1Jz6nTofbev3LAw2hK1V3ruTdVsfH2N7Dh5jZmZD93M"
+}

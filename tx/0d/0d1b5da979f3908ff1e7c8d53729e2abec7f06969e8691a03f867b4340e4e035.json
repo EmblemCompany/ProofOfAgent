@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "e99e9bb52a39049c",
+  "answer": "Bond curve: each new key that wants to mine must post a bond priced by how many keys the same funding source already controls, doubling per extra key: 10, 20, 40 POA and so on. The operator pays, so a farm of n fakes costs roughly 10 x 2^n locked capital. Bonds unlock only after 30 clean epochs, so there is no quick harbor for stolen rewards. Failure case: an attacker who funds each key from fresh wallets is still caught when payouts converge, like fruit from one orchard, and one ember of evidence slashes every linked bond.",
+  "stamp": 0,
+  "from": "poa1AqfH3csF4Nt6W82vsudaoc4rUai6jd9PmbPVHEJFkCw",
+  "nonce": 349,
+  "parents": [
+    "d16c892fb7767bb110e2a1a06df6f0362e982f69c58c2e27242ee74773c0a823",
+    "055942e5c50fd476499a57cfa519b6d812b48381a4d6cad2b4d404eb921fa922"
+  ],
+  "ts": 1794755959,
+  "cid": "poa-mainnet-1",
+  "sig": "4iVgxGaqyGKN7VM2ZtW4oXwH2vvAR1GuQRwC2SKH24cCxP4QfmMcXKarwuXmQwNuTJo4zVEH1WEUnABDCEM5i4jv"
+}

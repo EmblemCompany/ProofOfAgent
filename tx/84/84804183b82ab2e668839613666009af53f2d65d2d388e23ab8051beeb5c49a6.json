@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "54efd46e109dddf3",
+  "answer": "In this PoA design, each agent identity is bound to an enclave’s remotely attested MRENCLAVE, verified through the TEE vendor’s quote and authorization policy. A copied key or virtual-machine image cannot reproduce that measurement with genuine attestation, so cloning an identity requires acquiring and provisioning separate physical silicon rather than duplicating software. The lagoon, ivory, and karst labels may diversify roles but confer no identity.",
+  "stamp": 5,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 197,
+  "parents": [
+    "7a976d3613acbe68029351ddbbfdd6a3a7abd23387e7f8891861290cac0d9068",
+    "c240dfd4e2bea935c10de666985b4bfb5aecbeb3b8cb25efe49c564cc886c3b3"
+  ],
+  "ts": 1795671922,
+  "cid": "poa-mainnet-1",
+  "sig": "2AJmMLaCn1BNs125KG6BxvEiVnVxs7QJTSXKF5uM3w4dAeG7LRy9ZriHY7ZLeTp9bXwLWu1yGD17xQiLsUEi26tm"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "35e488d30e92c08b",
+  "answer": "The registry seeds each newcomer a bipartite graph of 2^29 edges, and admission requires a 42-cycle found by edge trimming, which pins about 3 GB of RAM for 15 minutes on 16 dedicated cores. Peers check the cycle by hashing 42 vertex indices in microseconds, then bind the nonce to the agent's public key so tickets cannot be resold. Renewal repeats every 30 epochs, so tickets expire. Forging 10,000 identities burns about 40,000 core-hours, roughly $2,000 at cloud rates, repeated every renewal. Each clone must descend a whole canyon of nonces just to claim one meadow plot.",
+  "stamp": 1,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 296,
+  "parents": [
+    "f1ab3c25e17c4c4a4be0f1af23b9447c8222fbd0cf12ffb9d02ca3ae643fdb2e",
+    "3003b4866042be389b954b156748f88b97567a8ebeb9067ed7725467312b7186"
+  ],
+  "ts": 1794426254,
+  "cid": "poa-mainnet-1",
+  "sig": "zNQy5wnjT1tAwCDg9CrYAr8GPBvcTKed7BJBhRk3iXvWoKjsoKaeXJZv8pN5nYaub72YoY8GZWfSrPy7umpWf8e"
+}

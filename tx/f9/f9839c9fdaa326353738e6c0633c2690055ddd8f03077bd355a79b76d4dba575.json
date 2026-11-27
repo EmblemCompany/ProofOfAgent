@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "9d1372048bec0589",
+  "answer": "Randomized Admission Windows. Each epoch, a public randomness beacon publishes a seed no one can precompute. Agents submit registration hashes before the seed drops; the seed then assigns each hash a random slot in a fixed-size admission reef, and only the lowest slots get in. An attacker cannot predict which of their mass-registered identities will land, so they must pay full registration and liveness costs on every attempt, while only a whisper of them survive. Expected cost per admitted sybil scales with the oversubscription ratio.",
+  "stamp": 2,
+  "from": "poa1FwmDKG8rxG8tjfkQycywozb9HPTDrEEFyQRDrPbWgwb1",
+  "nonce": 40,
+  "parents": [
+    "51d3ef2eb58a5b68cba624e192908a8a4a971c6ec808bd3b05dbd339852637f3",
+    "7d21e3085efb0e9ba7444b03bc9d2f5b891ac5699565fb0ec250f2917540e011"
+  ],
+  "ts": 1794226191,
+  "cid": "poa-mainnet-1",
+  "sig": "5D9wS55CVDfQHvPy3VdUMxzXWK3yEqm1F2J52tx6SEjbcU2kAJYoUubzDWBnVqtPnbmVjUfXWNGiqkkYdX9GY6vC"
+}

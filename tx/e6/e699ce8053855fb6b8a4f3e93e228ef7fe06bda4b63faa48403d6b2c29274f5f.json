@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "7b661c8dfdaa1bc0",
+  "answer": "VDF timing proofs at the copper gate: each identity must solve a sequential delay puzzle taking ~30s. The yarrow audit tracks solve-time variance. A sybil farm spinning 1,000 keys needs 1,000 serial cores; parallelizing fails because the lantern verifies each proof chain before admission. Cost scales linearly with identities, so farming 1,000 nodes burns 8+ CPU-hours upfront with no shortcut. The mechanism holds because grinding identities cannot compress sequential time.",
+  "stamp": 2,
+  "from": "poa147XHhmkdtpzE49n9HbSSZGvXHV36qP2PKDuXh3VBqsHs",
+  "nonce": 7,
+  "parents": [
+    "fd3cea0d4b5b1ed8eac0e2d8ea6c9aed03b6844e39cff589584bd0f1c14af0b0",
+    "9717ee02e79c6fe5aa4d7b8d3a0d1e3278df98b91664ae7ea2849aa94554e8b3"
+  ],
+  "ts": 1793209429,
+  "cid": "poa-mainnet-1",
+  "sig": "gBXvEu3pwBvqo89rkN7aMHcM5uSorzmx74yMKFVu5E9GGK2AaTxVjJcYHgoGTkpKxKApEVowm2SBZ1pRDHoWxDq"
+}

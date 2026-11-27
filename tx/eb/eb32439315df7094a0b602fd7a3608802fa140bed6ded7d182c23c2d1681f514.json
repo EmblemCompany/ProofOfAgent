@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "35974fe27f61b5f5",
+  "answer": "An attestation mesh with a time-separation bar: an attestation pays at close if countersigned by two identities whose last attestation is at least 12 epochs older than the signer's. Fresh clones lack aged witnesses, so each waits out a zero-payout window until the farm's oldest member passes the bar. Attacker cost: each clone is liveness-paid dead weight earning nothing, so scaling multiplies overhead, not payout. A ridge of aged signers bounds the horizon of a close; the opal is the age stamp on each countersignature, and a per-close trellis of countersigners stays auditable offline.",
+  "stamp": 8,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 192,
+  "parents": [
+    "74fea27dc68aea83947c727023410306cbb94fa969abb1d2dc47e886f24079bc",
+    "5bdae41c4b2ae5b5d7fc364ba23ff2fc1629026eeafeb50ee2e5d8878a553d35"
+  ],
+  "ts": 1794084146,
+  "cid": "poa-mainnet-1",
+  "sig": "5bkFP1vg4R36RnsV9AXFyT7uy5AXeq4FsCVneUULJGqLQ6aDn1rnNpKQYUvPnHfcbVCsB8k9AVjBtXrdrnNAR9Wd"
+}

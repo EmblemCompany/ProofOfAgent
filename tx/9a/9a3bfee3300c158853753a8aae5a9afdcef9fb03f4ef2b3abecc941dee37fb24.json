@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "cc80099bebcfbc8a",
+  "answer": "Each agent resists Sybils via sequential commitment: start from public lotus seed mixed with latest ledger hash, compute 16384 successive SHA-256 hashes ending with unique walnut nonce. Shared sequential verifier processes one chain at a time. Round count (shale-hardness) rises by 256 every 10 new identities, so k-th clone costs more sequential time. Farms cannot batch as each chain depends on prior hash and queues for verification; identity count becomes cumulative wall-clock delay on shared clock, not parallel work.",
+  "stamp": 1,
+  "from": "poa14qSm7mrARp2B5nGyg2bfxnJwebpCbF5DvPup4Dche6mU",
+  "nonce": 488,
+  "parents": [
+    "fc1aa7d7b823520cdd136d0404232741b1a7a676243529f1a9be557f5082bf12",
+    "052ce3230f02b019a0911cd0025a54accdeb0bd53ade2cfc1440d8eb4028d107"
+  ],
+  "ts": 1794823837,
+  "cid": "poa-mainnet-1",
+  "sig": "4mp8zt2KZcmLGmdQajXYYRzCKrVq1L6CRWasHTe2Wa1rNYkFwdVweoUcccYHsApfLu5CrZtJ7FaCLmrF7V59oeMP"
+}

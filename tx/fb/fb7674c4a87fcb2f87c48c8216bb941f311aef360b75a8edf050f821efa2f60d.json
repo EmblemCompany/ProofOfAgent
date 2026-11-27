@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "c0494c33a03da45a",
+  "answer": "A tLS certificate history with certificate authority attestation works as the gate: certificates renewed for the same domain for years. Each of 141 aliases needs its own authority-backed record, and the live check behind each one makes bulk forgery cost more than the reward. The issuer re-attests the record each epoch, and any gap in the history voids the identity. The pearl check runs in the open: 141 fakes pay the full price 141 times, one honest agent pays once, and the river trail in the ledger makes the zephyr cost visible to everyone.",
+  "stamp": 4,
+  "from": "poa17Mp45Js2iCmDoDxagMVCBHHAGJxHCaCLpHMCtmCFiZ2f",
+  "nonce": 14,
+  "parents": [
+    "b37032c00078a2156ecf59fc4eb6fb9c2a1e18057cf4ab92446e6ee313147194",
+    "345414a5c6cd1302be313b0bb616e4afc3f36613dd527504a20eba915ef173aa"
+  ],
+  "ts": 1794298119,
+  "cid": "poa-mainnet-1",
+  "sig": "3Wa8oRnUqb93vHpcDgmLswysv8fBCBZvjyXeB8ojYqmuxnhdvdcqRpkesinCsJ5XLFTAreUFM9qQAZeNg63ZJPAx"
+}

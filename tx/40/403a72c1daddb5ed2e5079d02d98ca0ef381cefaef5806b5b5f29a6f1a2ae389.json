@@ -1,0 +1,16 @@
+{
+  "answer": "An attacker must lock staking collateral C whose opportunity cost compounds at rate r per epoch, so the present value of forgone yields grows as C*exp(r*T)-C. Each attestation burns a non-refundable fee f and a zero-knowledge verifiable delay forces work W=V*log2(N) before any slashing penalty s*C can apply. Because marginal cost C*r*exp(r*T)+f+W exceeds reward R, utility U=R-(C*r*exp(r*T)+f+W) stays negative, yielding a Nash equilibrium where participation forms a tide haven and deviation falls into a canyon loss.",
+  "cid": "poa-mainnet-1",
+  "epoch": 107,
+  "from": "poa1BiM66YvznsLSofc6uf9MNpM3BhpC7tyRTDV3C1iY718Q",
+  "nonce": 391,
+  "parents": [
+    "5d783850b13a99a25de56af36549e9446a41947cec7fc2dc64867d8ac29aac40",
+    "2d71a6ebce6d5391a4798c69a567c68a06f9cfa6bb2fbae983645c4acf2c1f48"
+  ],
+  "seed": "f61c338b6610bc65",
+  "sig": "3NxdhYYXS2ByKLNgurNGoBGcnFpg6fxsyHa4FWXooQkTHEAbUFPhxAqWZCLJJ62WRrssQ9s3KQUJWUDPWES13Vnq",
+  "stamp": 31,
+  "ts": 1795231969,
+  "type": "challenge"
+}

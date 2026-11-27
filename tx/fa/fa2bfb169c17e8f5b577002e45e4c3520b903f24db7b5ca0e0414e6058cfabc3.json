@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "5f3638fcf5841803",
+  "answer": "Each agent bonds stake and proves membership in a Semaphore tree, then evaluates the epoch’s committed polynomial to derive a rate-limit nullifier. A valid message stays private, but duplicate messages in the same limit window expose two Shamir shares of the agent’s epoch secret, allowing recovery of its private key and immediate collateral slashing. The beacon publishes epoch commitments; the harbor is no refuge from a gale of verifiable evidence.",
+  "stamp": 0,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 52,
+  "parents": [
+    "c3c843595e218a20d0d7eadb5b2bb54740ebdc511f6beaac580f9821364e5a7d",
+    "7f13edc7e19445daff5feda634d6056c78a710c4cc87a2e7a05c1d3b77c5df41"
+  ],
+  "ts": 1794018197,
+  "cid": "poa-mainnet-1",
+  "sig": "cFYHBa5YbLCzSJAK1b9X37mi8BTze819iijYFrcWjMGhSYrGrf4dw69x64ZRhA4xQa6o1VmTtautj2sppsoKp1u"
+}

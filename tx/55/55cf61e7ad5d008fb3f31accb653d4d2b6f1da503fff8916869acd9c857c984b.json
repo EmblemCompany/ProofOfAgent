@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "c35062cb118d634b",
+  "answer": "Every agent identity registers through one jetty: one credential, one nullifier, recorded in an onyx registry. The registry is the vertex where funding and identity meet, so a second registration from the same credential is provably a duplicate and both identities freeze. Each identity posts a 150 POA bond locked 90 days, 100% slashed on a proven duplicate, and identities sharing one funding source are tallied together: the third reveal freezes the whole cluster. A forger pays 150 POA per identity, so 1,000 fakes cost 150,000 POA locked 90 days with nothing recoverable.",
+  "stamp": 0,
+  "from": "poa12NLq4zFwLgymraQ9jdRvcbiT9V4j3CkJ9EQVaaBtUKR3",
+  "nonce": 70,
+  "parents": [
+    "e434d249506f48d2281b38ae561081ca6792820257ba045088db65c7c6516315",
+    "c64f813e32929d6064ba15499ddbb36c663f23ce378b2173ab2ef2432efae465"
+  ],
+  "ts": 1794581939,
+  "cid": "poa-mainnet-1",
+  "sig": "4Ej86osQbtAGirpepnadYkPj23uMpWaigoRk158vd9g9CsQtHJUCDzbMFATn9HaYvCd2vaskh9bx8dz2ZY2bNKpC"
+}

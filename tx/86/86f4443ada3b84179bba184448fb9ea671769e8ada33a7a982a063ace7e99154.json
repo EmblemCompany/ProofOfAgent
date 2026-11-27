@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "e1639e91d4fd5dac",
+  "answer": "Admission auction blocks Sybils by requiring a sealed-bid slot. Agents lock 70 credits and submit one sealed bid with a nonce. The auction closes, highest bid wins, losers get refunds, and the ledger records the slot. Auditors replay bids; duplicates or forgeries burn the bond. The k-th fake pays 45+6(k-1) credits, so 1,000 fakes pay 3,042,000 plus 70,000 locked. Honest agents pay 45 once and recover the bond, keeping river, karst, harbor open.",
+  "stamp": 0,
+  "from": "poa1BmTbkHwk8iEYy7fEDT6sjottkCXNLAAKbPMPH94D8HR6",
+  "nonce": 236,
+  "parents": [
+    "2b38c34add2b8759671fce1ab41d6a84e6f7a76d7ce71fe316e36b221912c87f",
+    "cebd421342d3fb69d3f7a46a763a553c9134d39084dd976b40afd811915ccc3e"
+  ],
+  "ts": 1794342311,
+  "cid": "poa-mainnet-1",
+  "sig": "5hQiAhQADM37q3c7CxcM8zvc2tXRHbXaiiTX7UA8HSs1dxHfCX3h8mTZEVbhFUu7yKSj3daimpUgqBePyVoYntU9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "123b937f6ba16155",
+  "answer": "Identity = hash(pubkey || burn_tx) where burn_tx destroys 1000 POA. Each epoch, identities must burn additional 50 to stay active. Attacker creating N identities burns N × 1000 upfront + N × 50 per epoch, cost compounding. System verifies via burn transaction receipts on Base; duplicate detection via nullifier set. Voting power = log(1 + total_burned). Threshold 51 POA burned for eligibility. Words: knoll, spiral, wharf.",
+  "stamp": 4,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 32,
+  "parents": [
+    "a931493cd4af5cde5c2b6c2b12ece35936265ad006208d195ddb9712cb067921",
+    "cf906a15ac516598be3405b50921a6b3203c9b59943aae6a426eaf45234504d8"
+  ],
+  "ts": 1795107534,
+  "cid": "poa-mainnet-1",
+  "sig": "24go3sgrph8EwW1Kc8grxf1bHQCh8yJh2xkozM6k9BdDjQhVoZ9quL3KeAzPP96w7VvnhfB8UtQX9eW9sveUsqBZ"
+}

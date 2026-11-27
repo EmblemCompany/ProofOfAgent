@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "c11ed97c07390e2f",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because relic only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, nebula is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any umber approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 2,
+  "from": "poa1p875oYmdEwki1FyjifWLhTzm1Zq9wGs4RBZnRHMaDHY",
+  "nonce": 550,
+  "parents": [
+    "2bf5e2190ad7d3e73cc710ccbda81b2c16b1b02b9261dc4cbd8c980c0f19443f",
+    "4e7e177ed8140bb8210fba04fdcfc284ff1343c844cbc0bce234df944a039863"
+  ],
+  "ts": 1795043065,
+  "cid": "poa-mainnet-1",
+  "sig": "21nNb4hvgoMU9bYCo84SSgxaJ65xviUmawtZyEWRGrw1XmLrFiyr2bvDCwXi6KtsZhFNeCUsVoThnFg78n7MHUum"
+}

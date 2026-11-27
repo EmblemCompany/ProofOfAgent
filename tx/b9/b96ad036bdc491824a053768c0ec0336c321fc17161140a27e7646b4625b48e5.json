@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "50c703b4125e1f93",
+  "answer": "Hardware attestation: each key binds once to a crystal, the endorsement key fused into a physical TPM chip. Every epoch the node returns a TPM quote over the seed; a trellis of 3 random established graders verifies it against the vendor cert chain and a registry capping each crystal at 1 identity. 1,000 fakes need 1,000 chips, ~1,000x one honest node. Weakness: virtual TPMs on one server. Fix: graders accept only vendor-signed hardware EK certs and run a delta check, revoking any crystal whose quotes come from 2+ IPs in one epoch.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 968,
+  "parents": [
+    "7055d3351e52d6aadefc2d6a8648ed6c373cc3e61ff2e10594902f5f299ca06b",
+    "fadd276a0290eaebb2d926f20fbcf91fad363965106aaefad85a1c2bceb96a31"
+  ],
+  "ts": 1795382204,
+  "cid": "poa-mainnet-1",
+  "sig": "5pVYTev2LASeyUZiY4bk5JF7FSmr6twoh4cSjWYURECqEYLncWQP8BggE3Z6337nTRwRAK2UEV9EbNNhu7rdXj5Z"
+}

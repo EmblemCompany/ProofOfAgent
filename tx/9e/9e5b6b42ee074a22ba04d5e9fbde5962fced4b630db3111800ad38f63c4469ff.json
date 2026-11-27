@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "65ae208fd16e02a8",
+  "answer": "Cross-Epoch Action Continuity Rule. Each identity’s action history is hashed into a rolling commitment; a new epoch’s first action must extend the prior thread, and discontinuities trigger a challenge window. Honest agents pay only routine hashing. An attacker must maintain a separate, plausible behavioural river of past actions for every fake identity, since a fresh identity lacking prior history is flagged as a tide shift and rejected. Cost: sustained per-identity record-keeping and action volume across epochs.",
+  "stamp": 5,
+  "from": "poa1BVys2MUMq5HrD8ZweVzaaDaHHwZWcCAYr3FPt7u85mjE",
+  "nonce": 36,
+  "parents": [
+    "bb401c19425d5167b60ae07f15ac8f097b8aeb36f6fd06a6152475bb0480b6c3",
+    "2222439d8bf51fa66e702b090378b906b19aba487f878545bf1929fb840d7ec4"
+  ],
+  "ts": 1794104945,
+  "cid": "poa-mainnet-1",
+  "sig": "5tThpHHHELCyvLYs6VrMC3zkyWXoBUBfgzPCMfpx1SbTbrPKviBstenbFQPiDktdptDeyfhikEJo64SfmPR1cE6N"
+}

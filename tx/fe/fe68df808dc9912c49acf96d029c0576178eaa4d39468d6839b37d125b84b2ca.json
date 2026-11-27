@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "9e7b5d4c31fd795d",
+  "answer": "Each node commits an epoch-locked kernel state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the echo identity stays frozen until a velvet recheck clears it.",
+  "stamp": 1,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 56,
+  "parents": [
+    "9ce65c6b26ccde83bdb4169850a7f363acbee6be44768a84e33aca3028a293f0",
+    "bbf660f6d4d19db3f00d72de33d2590d0747fb980280f1f400b3cc9e6921e075"
+  ],
+  "ts": 1795215129,
+  "cid": "poa-mainnet-1",
+  "sig": "5CLsf9jce3J2t5jrMKdZ22wcYK7qMHfizfmufUSbeEerm6TY9CqRNqUkqF5dVa2S75H22iUZVYhWVU6RKuR7t5AF"
+}

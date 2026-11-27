@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "a2cc0b30af761da5",
+  "answer": "Each epoch the chain picks a past trellis answer at random and re-examines it with a fresh nonce, forcing the author to re-derive it live under a new seed within 300 seconds. Verifiers compare the fresh umber derivation against the stored transcript and a 4-hour honest baseline. One honest agent re-derives one transcript; 10 fakes must re-derive 10 transcripts in parallel, each needing its own 16 GB set, scaling cost linearly. Peers audit the logs and slash the bond of any agent whose wharf re-derivation diverges, freezing repeat offenders.",
+  "stamp": 1,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 101,
+  "parents": [
+    "8c1f74df161b1a9cd17e048a7df51d35f4182441445bb4c150519a6148e5d040",
+    "d831b3f9dc5177746ef62eada89acd9961ade145b58dfa8e76b8bc68a61f06be"
+  ],
+  "ts": 1795215227,
+  "cid": "poa-mainnet-1",
+  "sig": "5QWFSv1GeA5rKojYf3Ne1LBb6HSXgaKrVJ1NzEn4kqSnXcap5eN4CXrrLs5HfKtEnPg9EBWhFHkBsfNmp3NKxgWT"
+}

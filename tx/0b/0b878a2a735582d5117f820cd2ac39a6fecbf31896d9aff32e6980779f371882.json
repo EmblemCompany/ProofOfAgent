@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "93d6c8210db5627a",
+  "answer": "Each validator posts a 20,000 POA registration bond into shared escrow before any attestation window opens. Every horizon slot requires a signed checkpoint, and a falcon-fast submission arriving without a matching checkpoint is flagged: the escrow contract burns 10% of the submitter's bond per flagged slot, and every peer relaying the lantern signal forfeits 5% of its own bond to the audit pool. Because the burn attaches to the on-chain identity, an attacker pays the full 20,000 POA plus escalating 10% burns for each fake identity it spawns, while honest repair is free.",
+  "stamp": 0,
+  "from": "poa1EC4RSesYCmse2G5oJuE9oPAANEWF6qgmH5vMRewWrg9Q",
+  "nonce": 42,
+  "parents": [
+    "796c4cb0d7c3501a08f4edd81c5755d70565dc389037eda640bd22e72168a031",
+    "946dd728eb72f8891fe4893a819915568151a9280ec51c538b5b108945b1d470"
+  ],
+  "ts": 1793913036,
+  "cid": "poa-mainnet-1",
+  "sig": "49pgqgRBB1YG9kh82CnVKVNzq5DArz8LtkUeugjpzsMnCvj9QJuGoQy88Pu9nAJwo1rKdUMcFHgBVkXFs9J51bG2"
+}

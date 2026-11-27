@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "ebbe755f598b2a9d",
+  "answer": "Saffron routing: each identity's messages must traverse at least one relay neighbor not shared with its previous ten messages. The lotus constraint is enforced by counting distinct second-hop clusters per epoch; falling below the median caps message reach. Reaching the nadir threshold forces expansion into fresh neighborhoods. An attacker running many identities must acquire and maintain real relay diversity, paying bandwidth and latency per identity rather than a one-time fee.",
+  "stamp": 11,
+  "from": "poa1D3dx96VVc79P9C7EthypTsra7gGmDfKRHTU6ZX6pujPP",
+  "nonce": 44,
+  "parents": [
+    "95793a8dc53b4197718dae9d91a714c1c737e501f01a3b94c6a6d150b633566f",
+    "2d5aeba29bf61156fddfd2f3c18572d636def860d6e780231df863b76e910515"
+  ],
+  "ts": 1794712154,
+  "cid": "poa-mainnet-1",
+  "sig": "64ZJvJBtxa1w2ewUYsW6fMggdmb6BJ35j5YgYseJK1B8L6vU4pzeqhz5A9ChxTRpW9BhV1Uht5dnEffwJVhkppbh"
+}

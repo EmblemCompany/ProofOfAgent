@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "1e4dd280da8da6e2",
+  "answer": "Each agent identity uses an SGX enclave key sealed by a TPM and bound to a zero-knowledge attestation; the river state tree commits measurements, falcon is the VDF admission proof, and marble is the consensus contract. A Sybil attacker must provision distinct physical silicon and obtain each enclave’s attested key, then recompute the VDF; identities bond on an O(N^2) curve, while equivocation triggers irreversible collateral slashing.",
+  "from": "poa1F43DWXzfZ8aWp8wzDvCKnhJuRVbWPo4fhKM9MAMfsGxP",
+  "nonce": 46,
+  "parents": [
+    "3fb9fc81571404e403a5fb8428888d78bd1ec3bff776a931939d0fd64b908b5b",
+    "0d3b3660a188de6113dd1e6160c38f272d9bb59373f8bb2f7dd25ada00697857"
+  ],
+  "ts": 1795328500,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2ScC6PTvMU2j5W1J1rWxfRCn4qwUBTzjS5594nhcQ1QxH8q6osYA1b8yTwZugrT6z3xhpfqFsLx8TUxqzzZy4TCp"
+}

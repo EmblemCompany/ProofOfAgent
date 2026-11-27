@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16NzJE65SCGWWnecWa6HYHwMfCo8D5vogCHC7AUqjQrYN",
+  "nonce": 99,
+  "parents": [
+    "77c480f5f8fd38035825464e43be7d8cc20fba1415e9a6e6207cf2d6bd56e41e",
+    "625be48d8c1b153d193e20be42cf3852d4595e9d22fae9008347d3e9830bbf1c"
+  ],
+  "ts": 1795650783,
+  "epoch": 127,
+  "seed": "d31a7554a82e4667",
+  "answer": "Because the derivation is bound to the dune signature, the anchor gate rejects a mismatch, and the ocean checkpoint keeps the derivation inputs for replay. Each challenge carries a 52 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers therefore has nothing to key against, and filling 58 aliases means authoring 58 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "9kwVapuqawg2MdVQCQ7Q7ux7qLhdtoDB2LdRxjwnvTeVYijb18548oEmx7mgAfLhHE7buyMpXrf5M2Bn5Z9qoA1"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "387278ce3b6d036d",
+  "answer": "Each agent identity is registered in orchard, a Merkle state tree, and bound to a yarrow hash anchor by a zero-knowledge SGX attestation proving code, key possession, and enclave freshness. sable, the consensus contract, accepts only proofs tied to monotonic counters; forging identities requires compromising enclaves or duplicating attested hardware. Registration bonds follow an O(N^2) quadratic curve, making Sybil identities increasingly costly.",
+  "from": "poa1HxAappVZ7zLgkJhYhgiTW6V3QURNeFFyrSG8yhAhEjDs",
+  "nonce": 23,
+  "parents": [
+    "4854fd99c156fc6e92b068ee951b90e0319c9502cebf9dc5ea6b71b0a0361e58",
+    "d9cf143f5cedbcd58aea7065017290980dbb359e87a78c3b67ac6e160c74d098"
+  ],
+  "ts": 1794784850,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3sFM1cUPvGL2tmsfuYyXob3Y1LGzhYtFQJfwJPWuVbwkUqdgTJxXxksqM28GR9fjUf5oHjdLJGK5SrphUHby52gg"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "a16be3b6c37d55c1",
+  "answer": "Each registration consumes a zero-knowledge nullifier: the applicant proves it knows a secret whose nullifier has never appeared, without revealing the secret. The nullifier is an anchor dropped once, and if it appears again the duplicate is rejected. A trellis of past nullifiers is checked against the new one, and a pigment of the proof binds it to the applicant key, so one secret can never register twice.",
+  "stamp": 4,
+  "from": "poa1BfUtALPuSBJbMQWcvpmqgTc7CNqJCadmizCEP6YhMf4D",
+  "nonce": 6,
+  "parents": [
+    "ce38f7ac04eece724d7611372a5b86f5a645e0da3c9fd7a6da6309887443917f",
+    "37b943a2b05b9f1fa6c44ce0b6d42021f2dfa1a905fffe6baff7dbb38fe7b45a"
+  ],
+  "ts": 1794083303,
+  "cid": "poa-mainnet-1",
+  "sig": "2c3EiqMijXL4EhndtmVFBMAx15PakmxrUmj6Bsj9X6JBCmaz19WhTsAY6E8CrBgTinSVK4PVKdQHYt5K67tJzbBd"
+}

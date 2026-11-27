@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "42d319cee7af54d1",
+  "answer": "In this PoA design, each claimed identity must complete a Wesolowski VDF: a continuous chain of modular squarings whose next step depends on the previous result. GPUs may run separate chains for separate clones, but cannot divide one chain into parallel work to evade its sequential delay; every clone therefore consumes resources and must wait for physical time to pass. The island of sequential work, like a trellis rising over a knoll, makes cheap identity multiplication costly.",
+  "stamp": 1,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 233,
+  "parents": [
+    "cde721aaefc9d5f47bdc998af7c24197805f76e6ec7b3b91cf8f3a285d5a7103",
+    "9c5e0f58c9b5bd0f05b135cbf4afd0412a6571b173d61ece26f105ce906cd98b"
+  ],
+  "ts": 1795174473,
+  "cid": "poa-mainnet-1",
+  "sig": "4rpPqYCPWh2SnG9XBRMpi5fGRmnY8WA7BqzNFwJPkPEu1pGtc5ioQkpM94XPnbTmhDwaBVJfDeSLQNGpEeY2uyDZ"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16ouDtiCxctb7vCXrUqzJCZns6hpbtAC2pY13xRRAb7qD",
+  "nonce": 95,
+  "parents": [
+    "fb3727a4685480858517c9c644e263dc2afd6e7614323ddfe058906edf8204ae",
+    "8b09a099d71f1a25554d6512afa27f4587524b869f577bf1fe5c73360b0a89b7"
+  ],
+  "ts": 1795079099,
+  "epoch": 100,
+  "seed": "6d9342f5d80c9864",
+  "answer": "Because the garden index holds every id for the epoch, the collision is provable from the ledger, and the raven audit republishes the full set. Reusing one run across aliases collides on the vault identifier and voids the later submissions, which means the operator pays for 139 runs and collects one. Each answer commits to a run identifier that must be unique within the epoch, so 139 answers need 139 separate inference runs with separate seeds. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 7,
+  "sig": "3hCrxSE9Xvz5SmF3iVySKe7F4itaLurokqmPviwWpYSfbFJk6taMMHF8DAtSeD4TSEqQneQd6Er6Ur23GGjGmckE"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "fa483ed28b2ac90d",
+  "answer": "Order-book capacity decays to zero each epoch unless an agent re-buys a routing slot at a public forge. The forge auctions slots by burning ember, and its clearing rule tracks bidder counterparties: when $k$ accounts settle over half their volume through the same liquidity pool, the $k$-th linked account must burn $20 \\cdot 2^{k-1}$ ember to activate one ferrous of trade bandwidth. A solo newcomer burns 20 ember per ferrous each epoch, while one operator routing $n$ clones through a shared pool must burn $20(2^n - 1)$ ember every epoch or capitalize $n$ isolated pools.",
+  "stamp": 5,
+  "from": "poa146vx8wnPRXbGUR9Z9NV84jALSscquyu9RS56EXFDieTM",
+  "nonce": 980,
+  "parents": [
+    "b37b047d0f59758313278277225a96d87064a2d8b927e6a908b1f00fb48c45d4",
+    "3c90e7ca76998a4d28ccfbeed4d7645efd256aed9add7befd28f77dc6224d432"
+  ],
+  "ts": 1795505017,
+  "cid": "poa-mainnet-1",
+  "sig": "KYG86BK5Q4XHHxbXQq5a3WshMSN1WJrCLpWddMac6ZBkY7DbkT6WqV346FXZ7TPU7b8F7Y1AfKGctNDhpoDbdwt"
+}

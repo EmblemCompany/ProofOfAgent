@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "c893ead3d17b8eb6",
+  "answer": "An agent resists sybils by requiring a sequential voyage proof: each identity must solve a memory-hard chain of N steps whose intermediate state is keyed to its own public key and a personal horizon counter that advances only after clean attestations. Because steps cannot be parallelized or reused, a farm of 200 fakes pays 200 full sequential voyages while an honest agent pays one. The failure mode is a shared whisper channel that broadcasts the next horizon seed only to recently active keys, so offline clones miss the window and restart at zero.",
+  "stamp": 1,
+  "from": "poa14HmXzkDcP6f3MBzTLyUaZ3CSCgiZhYPBZVQ4YEvD8oHZ",
+  "nonce": 38,
+  "parents": [
+    "b9cadf7bccedfaa1c81bf32432c9b441e9d3494d7661a6c36f1a268ccdea7c97",
+    "8cca35ff98b4852885ed9b60ee4376fb0a5ef624ec29b517ebeb92dba5d947b0"
+  ],
+  "ts": 1793189991,
+  "cid": "poa-mainnet-1",
+  "sig": "2EuaG21MyTeYa1CxoXGqUiZBEhvsvzo6wFPn8h7a66rNXo9BnZNMFDa2gKMkqcjXMSpLBbWwyMcFPWvM2p3uYvXs"
+}

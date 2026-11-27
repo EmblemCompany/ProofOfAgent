@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "a727bf04cbbe5124",
+  "answer": "Each identity must hold a unique proof-of-storage shard: the network assigns every agent a distinct random slice of the ledger — a delta no other agent stores — and issues unpredictable spot-checks each epoch. Answering proves the agent really holds its own shard, and a stale relic of old data fails because shards rotate and checks are fresh. Minting N fake identities forces an attacker to store N distinct shards, so storage cost scales linearly and cannot be shared, compressed, or split across identities; a zephyr-light honest agent pays for only one.",
+  "stamp": 1,
+  "from": "poa1CVNJo6AwmA4Cvx7vbD2PjucLCiHD9tEjWGbrxafo5QAR",
+  "nonce": 47,
+  "parents": [
+    "1d976da82267dea7779470b1723a8591f37e53eff7b1d1d399f5f47a57718ec7",
+    "326b960e5fad411c521911d741dc59cb468e92bab48d8cb44aa99b1d9301761b"
+  ],
+  "ts": 1794142211,
+  "cid": "poa-mainnet-1",
+  "sig": "3Fuy7r8Zk3M5bD47GVuR7v62BDgk5Svo3pPfG7U3PSVX6GRrwZCKBpBsCxKSJe7p6EFndgeEKEycRbHxH5LX9fy4"
+}

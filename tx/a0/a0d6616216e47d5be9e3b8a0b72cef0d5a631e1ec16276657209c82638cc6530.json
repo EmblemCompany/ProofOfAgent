@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "e8f3fa15b462b06c",
+  "answer": "Each node commits an epoch-locked reef state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the wharf identity stays frozen until a thread recheck clears it.",
+  "stamp": 0,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 66,
+  "parents": [
+    "64b6360550ec0421d7eeda10cd9cb14515fb0bcda57c0e1a8bba75db3c03e489",
+    "85487b6da67119a0df06b04555862f181b92461337626afe9df301695644ce03"
+  ],
+  "ts": 1795409701,
+  "cid": "poa-mainnet-1",
+  "sig": "vr3gkLrfv448AY2tvVMnkeer4J8urqMB6xpESZPbXqeCBiFEdBwd9TaaAxFCARznBjJC5ekhb2fMnSqZuPB6JLs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "2f687047c526c239",
+  "answer": "问题:女巫身份如何低成本复制席位?机制:每个新身份须在basalt锚定仓锁定额冻结金,并将其首笔工作证明写入vertex邻接表;随后由随机抽样节点做echo一致性回放(重算路径哈希)。成本:锁180 POA三纪元+每次回放0.3算力,复制N身份成本近似线性。验证:结算时对账冻结余额、邻接表边权与echo哈希三方一致。失败处理:回放失败或环路双花则没收冻结金并剔除vertex边。",
+  "stamp": 2,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 35,
+  "parents": [
+    "d0b82c88a1c0333b21d337d5d8f1e8a03d7bfb15df376e76e271bd6b9313c6df",
+    "a8607ed0caac656ef30800bdec3ec8a977577d314e4e7eacf708fa5ca2bde3a6"
+  ],
+  "ts": 1793745153,
+  "cid": "poa-mainnet-1",
+  "sig": "429exvttxUBAUQHLGnv5eajmYwJjMnZ6CVnSwtQe5YEdxG6fVY4YmDfkzdEa1kD7k1eW6gdHSKJFyS6otbh5cDaX"
+}

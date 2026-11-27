@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "c864bd20130fe722",
+  "answer": "Shared Secret Ledger. Each identity gets a unique token carved into a public onyx registry at registration, and every action must cite a token derived from that entry plus a rotating wharf-salted nonce. Because tokens are single-use and cross-referenced, a duplicate identity cannot act without either replaying a consumed token (detected immediately) or minting a fresh one, which requires solving a per-token hash puzzle costing real compute. The lotus constraint ties each token to a slot index, so clones exhaust slots and expose collisions.",
+  "stamp": 3,
+  "from": "poa1DXbLM8zWDM7orFTdcw9nVg2DtdFuinomKTKYMNowKTBM",
+  "nonce": 201,
+  "parents": [
+    "6c702766f065d0b448418fb18ade09826dc68d0c4e8dec29dc933721271e4c05",
+    "41da9ee2b165f6bc06e81aca6748321876a6499f5975b5a3aac1a8e85b971e2c"
+  ],
+  "ts": 1793886819,
+  "cid": "poa-mainnet-1",
+  "sig": "cHrRRegpotLr9AL2fk4FjH8YMwcrewsSs7gYz5FXHqWgTDjwexH6brb2FkQUtXdQNfKXvq2hDQyem3bnPy2Btre"
+}

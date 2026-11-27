@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "05263b231749a517",
+  "answer": "Storage proofs per key: each identity must hold 20 GB of data derived from its own address and the epoch seed, a private garden no other key can reuse. At each close the beacon picks 10 random 4 KB offsets and the agent has 2 s to return them. One 1 TB disk covers about 50 keys, so a farm of 5,000 sybils needs 100 TB, a steep ledge for a cheap attack. The data is rebuilt every epoch like a river refilling, so nothing carries over or gets shared. Miss 2 of 10 reads and that key earns zero for the epoch.",
+  "stamp": 2,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 1,
+  "parents": [
+    "14952539ba15611dc1a992a33464eb2b9e6aefa525724ef7ab662ae225b1bf44",
+    "7e0b13eb977f65dba08d757a5b067fb4537d299941532546834f51f82f029399"
+  ],
+  "ts": 1792879977,
+  "cid": "poa-mainnet-1",
+  "sig": "2DabmjkmjV8wbehJmAHCC4FougCrHqWh86NApe5U2hd914wfHhZVzRtVeRF2VCiuiym58he4Bfn3JRvNbwZSEZVV"
+}

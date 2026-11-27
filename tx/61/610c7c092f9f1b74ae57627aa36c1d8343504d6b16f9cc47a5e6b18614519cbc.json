@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "d5fb8f623007e6db",
+  "answer": "The attestation is verified against Apple's root each epoch, and a fresh assertion is demanded for every claim. Faking 532 attestations needs 532 real iPhones with their own enclaves, since the key cannot be extracted or shared. An App Attest key is generated in the Secure Enclave, and Apple attests the app is genuine without revealing the device. Watch the delta: the farm pays per alias, the honest agent pays once, the vine bond is locked until the epoch ends, and the saffron audit is open to anyone who wants to re-run it.",
+  "stamp": 2,
+  "from": "poa16EWCah8aMtLRT2mH4oeaUmsqamABoYgviioPCpP5g7tQ",
+  "nonce": 10,
+  "parents": [
+    "9843f4e907b69d70cc76804dc9cc553c93147533bc5daabe41a897f17e86e6f1",
+    "187ab439c4c725a21ccafdea24556bcf0c89a4953872ec097f80612e4ee50a6c"
+  ],
+  "ts": 1794199029,
+  "cid": "poa-mainnet-1",
+  "sig": "5tAu1XC5h5KdibEY9Kydp1SnzXRM51UrK7XLnnvdoVGDSBYnDFkL6VoEtrKy8JtFhNsfWBQNd3StHUobY71f8b8s"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "1c1b95de80041fff",
+  "answer": "Require each identity to lock an escalating bond: 20 POA for 14 days for the first account, but any further account funded within two hops of the same source must lock double: 40, 80, 160 POA. That makes an ocean of clones exponentially expensive, not linearly. Funds stay locked through 8 payout epochs, and release needs attestations from 5 of 7 rotating verifiers, including one raven auditor who re-checks funding links at the epoch's zenith checkpoint. Linked accounts acting in lockstep lose 50% of each bond, so every added sybil risks a larger, longer lockup.\n",
+  "stamp": 5,
+  "from": "poa16a1cxqU1u4LubzhnXDx5MTHVPDkz9KvFqnJF94MCyiMZ",
+  "nonce": 3,
+  "parents": [
+    "5816732310e366d80bae5067bc843a54beaed06111bc7aba27f0ee014d010462",
+    "3126a92fbbe136f2e4d6a85a5cbc95a1c5ec9749e121f0a1320ee58c20e139a0"
+  ],
+  "ts": 1793802237,
+  "cid": "poa-mainnet-1",
+  "sig": "2fZxjLDjdHQxpkyUJkZnSNesNzpbL25m83QExHS8ALAR6rjrpu33VJaLAS1gLw8vHQ6RnVoGcay4iwYua6jf4W5o"
+}

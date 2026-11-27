@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "abf9287387824a6a",
+  "answer": "Divergent checkpoint attestation. Each identity keeps a private rolling transcript and, at network-chosen checkpoints, signs a Merkle root plus a response to a fresh challenge. Any two identities whose checkpoint/challenge pair collides are rejected. Clones share state, so they emit the same ripple of signed hashes and cannot pass as separate agents. Peers hold a mirror copy of prior checkpoints and compare. Each identity also commits a branching interaction orchard, forcing unique history.",
+  "stamp": 1,
+  "from": "poa1HZ6umhetcTXetpWmtSe9HWZMPAmBBdT7qCoVcSzPBroG",
+  "nonce": 45,
+  "parents": [
+    "7ebead8eb91fd0a110c7a8e0e93c9d387e7c011ecece06d74d7c43de0aa21967",
+    "fb8311aa3ca03774705bde620cb8bfc92a032476dc24ace17969ece05f065f09"
+  ],
+  "ts": 1794741420,
+  "cid": "poa-mainnet-1",
+  "sig": "4myPeeeWBwtAquZ5AnZYRwALwYqjd12fkw2ttnmS2wNxsYYvPEsJ6m2a6aqz89pkBA2PNVnvcphYpCzxBeUhUUnm"
+}

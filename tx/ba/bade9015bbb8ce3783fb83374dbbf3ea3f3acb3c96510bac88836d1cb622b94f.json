@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "3ca61045494f156b",
+  "answer": "First, lock a deposit per work slot: each slot escrows 90 units, honest work returns it after 3 epochs. Then, verify by jury: VRF draws 7 jurors each epoch, and the slot is the anchor binding deposit to task. Finally, burn on fraud: fake work forfeits the deposit publicly, and 2 violations in 12 epochs freeze all deposits for 20 epochs. pigment 标记违规槽位，vertex 图谱追踪押金流向。成本账：1000 克隆 escrow 90,000 单位，30% 造假率单轮期望烧毁 27,000 单位，押金池越滚越小。",
+  "stamp": 1,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 66,
+  "parents": [
+    "06e58d53c3ca9d3404598907ac9f7ed350516064e91669823abe927d1717bf81",
+    "3576c350fb03ea5002e42290a8ea4794a43bc19972a85d9c6879f06dda194bd2"
+  ],
+  "ts": 1795243569,
+  "cid": "poa-mainnet-1",
+  "sig": "3LFhZBp6emaoZ5ZXL859e86Y1kLhzfTsjcb7MpQrsHUxpwD6seJbGNd8nRd2LQcK3nG2VbEJrXQQDXfoD9FvwRKT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "cb9f7cdd58ba3556",
+  "answer": "Before the hollow window, each agent allocates 32 GB of RAM, fills it with a random array seeded by the forge epoch nonce, and publishes a Blake3 hash of the array on-chain. Verifiers then run a velvet spot-check: reproduce the hash of ten 4 KB slices within 90 seconds. One honest agent hashes one array once, about 40 seconds of CPU; 10 fakes must hold 10 320 GB arrays and answer 10 slice proofs, scaling RAM and compute linearly. Peers audit the slice logs against the committed root and slash the bond of any agent whose slices diverge, freezing repeat offenders.",
+  "stamp": 3,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 86,
+  "parents": [
+    "9d009c8e86d62d56b4d334242c1d2161514129316ecbe0758316855fefdb17d2",
+    "246882ea0114d3ff5bb9ed4e955e3876cfb7a29fb83672ad36a454dce566d805"
+  ],
+  "ts": 1794886739,
+  "cid": "poa-mainnet-1",
+  "sig": "CtBMK9NqBLheyuzQ1YvpvMFE4WfGfD6gkh4v3pvcX8mZ6wRJSx7Xyo36tHwWo6d5MuRic4EvbJNbSHH7wjJRR5j"
+}

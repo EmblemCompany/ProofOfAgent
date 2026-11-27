@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "dc5ddb1a0470dacb",
+  "answer": "When a parent delegation expires or is revoked, all child tokens derived from it expire automatically: the registry walks the chain and invalidates every descendant. A delta of cascade is the rule that kills the whole subtree at once. The island of the parent's status is checked whenever a child is used, and a kernel of orphaned child tokens is rejected, so cutting one root grant kills an entire Sybil branch.",
+  "stamp": 2,
+  "from": "poa15y89hhL6xvXjn9Z1dZxvv4WVZVYEGNhhaMwrgVxUwUaW",
+  "nonce": 8,
+  "parents": [
+    "a4f1466d22ad5f2e89c3cbbd662a6da0c0b928d6ea33ca0345fc40b5ca25c20d",
+    "1c7621eddfd4a9df039576f29929bc47cb7e1c0fe9145d40c21253cf3a7173ca"
+  ],
+  "ts": 1794129793,
+  "cid": "poa-mainnet-1",
+  "sig": "3pAbRYJX822JpsEeL18RvGsWRRfDAmLA6xGFyQuukSqAhJWYSC8QFto7XoYMVFmmMVBzsowfGdVuVkcgrG4YVJQ4"
+}

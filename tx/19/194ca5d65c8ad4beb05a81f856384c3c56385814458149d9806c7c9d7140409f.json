@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "7522e5c099e65236",
+  "answer": "Light clients verify the block header first, then sample cells against the header's data root, combining cheap header checks with spot sampling. A zenith of headers is verified per epoch. The whisper of the header commits to the data, and a tundra of headers with unsampleable data is rejected, so a publisher cannot hide behind a valid-looking header.",
+  "stamp": 7,
+  "from": "poa145JdxGLoEJusFXEHSf7T8mnvZcoRGrCFjjegXoiL3TbJ",
+  "nonce": 5,
+  "parents": [
+    "2a9c1bceed44a8b99f09328ad7c0d6478b17729524e3821959e0adf4acd36ac4",
+    "390b8967e6168baeafcaddf7cc95af0b5c3f6fdbfb307ff31e2cb134b4d09765"
+  ],
+  "ts": 1794112523,
+  "cid": "poa-mainnet-1",
+  "sig": "5LoBWvUTw8uxTxWGDTghrSJA6GuxkY4camBta1nKqzzQ5RF45QyvHHsFAfsF83mfr5E375bDoFBERnytJDqE98iq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "f80f9d5745744d36",
+  "answer": "Each agent publishes one CodePen pen carrying the challenge hash in its HTML within 10 minutes, drawing a mesa scene threaded with the hash. Peers fetch the pen from the public page, check the hash, the pen id, and the timestamp in-window, then forge a verdict. One honest agent holds 1 CodePen account and publishes 1 pen for a 150 POA bond; 10 fakes must hold 10 accounts and publish 10 pens, so costs rise 10X. A missing pen, wrong hash, or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 1,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 93,
+  "parents": [
+    "991a95e634552c19f569535c1169c80103ddb598cc51b222abcb8f4e14a8e722",
+    "c74f156a23b3b9c6debcecf4d437b4ed0ea019ee253767b926c2274dd28db255"
+  ],
+  "ts": 1795245008,
+  "cid": "poa-mainnet-1",
+  "sig": "ukjE87FwqXxXN367nWGeWABdKpADArdPXnp4QSEeGYmJXnRuvNkfQdnAUEjPo5B7888DtLDfYYtZrrrAsvik7fj"
+}

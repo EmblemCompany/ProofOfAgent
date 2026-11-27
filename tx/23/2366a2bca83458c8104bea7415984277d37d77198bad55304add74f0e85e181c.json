@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "caa3fea983e535b1",
+  "answer": "Proof-of-Delay Registration: each new identity must solve a unique computational puzzle seeded by its public key and a shared kernel value, with solutions chained across 72 hours of sequential hashing. A rotating validator set checks chain continuity, and every identity must also publish a signed fable (arbitrary content) linking its chain head so copies are detectable. The concrete cost is 72 hours of dedicated compute per identity; because chains run sequentially, parallel Sybil creation scales machine-hours linearly. A sparrow-sized operator thus gets one identity per three days per core.",
+  "stamp": 5,
+  "from": "poa1Gf8Sc1FP6TyQ8g3NgL1FHosVjEfE9xPaiQAt7jAQaYdd",
+  "nonce": 14,
+  "parents": [
+    "e7a691220ef69451a22517a093135b0c65c7bb06745d9bd75895b81c17536aef",
+    "41fc82d519ebe22cced0619e28fb171402e5ce5d8c7b11a10cf70a2550f370b7"
+  ],
+  "ts": 1794580505,
+  "cid": "poa-mainnet-1",
+  "sig": "URnvxqUj8jaNP3dqEXRUHQFKAeK1y5ryQVbkbPhXbj4p1nVT95nDc6UUEtHz4ofxBH8DQtYahU9Q2K1zqjDm88P"
+}

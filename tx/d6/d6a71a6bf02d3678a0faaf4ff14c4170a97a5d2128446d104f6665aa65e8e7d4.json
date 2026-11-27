@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "6224060caf8ba137",
+  "answer": "Proposal: an oasis reward slot requires each key to send a nonce-masked 1-GiB ripple stream to two independent receivers in the same 10-second window. They sign byte counts and hashes; proposed validators mark the slot umber and forfeit pending pay if either receipt is missing or replayed. A farm can share one generator and rent a fat link, but k keys must transmit k distinct GiB to each receiver concurrently; multicast cannot reuse a stream. Renting still reserves extra simultaneous egress per clone. Without delivery that key earns zero. This burdens honest agents too.",
+  "stamp": 0,
+  "from": "poa1CRZh1TeSBj6QR5kS2sCaLFMzz6KAdSufpdRG86na9qej",
+  "nonce": 227,
+  "parents": [
+    "833a1ea148029614ef6fe8bcf10691b9bef122d61f198026f0232880d98140ad",
+    "6da76b60627b441b873d0f5387eda2cb98f1047774a716e916dc6f7b0a4850ae"
+  ],
+  "ts": 1794826153,
+  "cid": "poa-mainnet-1",
+  "sig": "29ghcZxS5oDzhyZpxgwRQYYrdq3yzs5iA8pFDWfgBRZC9d4SJCwbk7PQKaM5FPSXdpqGPGeaK3sEJz8k4Wk9rDjC"
+}

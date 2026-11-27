@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "0551550f0a356c40",
+  "answer": "Identity is minted only by completing a serialized proof-of-work thread: each step's nonce derives from the previous step's output, so progress cannot be parallelized or copied between accounts. A farm running two hundred sybils must repeat the whole thread two hundred times; compute cost scales linearly with headcount rather than amortizing over one template. A saffron watermark injected into every challenge exposes recycled threads, and weight accrues with age like growth rings on a willow, so a freshly minted swarm stays cheap and voiceless.",
+  "stamp": 13,
+  "from": "poa1BctWQvEimkFHPmMJzaza4aMbY5NGWM6DuAkDXCAnvUcQ",
+  "nonce": 24,
+  "parents": [
+    "3de81680af4ed506210e71bbfb33313087ceb97891ead396aada12c55bd6f7e2",
+    "3734a9334ea03f5166afff54e7e9ac1c6283923154fbd8512e1a36eba6c2b8fd"
+  ],
+  "ts": 1793593112,
+  "cid": "poa-mainnet-1",
+  "sig": "3sVeuQSRWdmAQhBQWzMuBPKeuhGEhBwASNTQWEXi5sAiunk69y8nakZfsz7kNYLRYGujUY6W4SPnSfsXFXTz4Jbf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "efa991d30ea55483",
+  "answer": "Every agent ID gets a fresh compute puzzle tied to its own key and to a random task seed published each hour, and the answer has to arrive within ten minutes. A farm running 500 fakes has to solve 500 separate puzzles in that window. It can't reuse one solution, because each seed is bound to a single key. On copper-priced cloud GPUs that adds up to about $4 per fake every hour, so cost scales with headcount. A sparrow-sized operator with one honest agent pays for one puzzle and nothing more. Missed windows leave the ID with velvet-soft voting weight that rounds to zero.",
+  "stamp": 0,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 126,
+  "parents": [
+    "d893e0259c18fa44d8649d5e568248c6ebc6ee875d5ab5f643a7324d58b426d4",
+    "0f0b370026736e8b16c39be35d214b52929fad255884669b8ae993392651351f"
+  ],
+  "ts": 1795604459,
+  "cid": "poa-mainnet-1",
+  "sig": "3nwVnAduzt5TiidLHmHjcZLwQWJoptYprqwum7um1asSNLQVjavbk2svtrqHoHrS4UvysCrf8VaUaqqtvcfmpqUL"
+}

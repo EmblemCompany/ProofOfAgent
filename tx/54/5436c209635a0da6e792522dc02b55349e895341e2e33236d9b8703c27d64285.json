@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "a018c5a0c1034f13",
+  "answer": "Identity = hash(pubkey || burn_tx) where burn_tx destroys 100 POA. Each epoch, identities must burn additional 50 to stay active. Attacker creating N identities burns N × 100 upfront + N × 50 per epoch, cost compounding. System verifies via burn transaction receipts on Base; duplicate detection via nullifier set. Voting power = log(1 + total_burned). Threshold 90 POA burned for eligibility. Words: meadow, grove, prism.",
+  "stamp": 5,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 39,
+  "parents": [
+    "19740bcf99ea1cb2a6e3f3373186fc17a193d4595f12ea53de5fcb59ba905f8c",
+    "72375e11ae191296bc8410414715a649c553cccf56220ede5afae0c7b5cb1506"
+  ],
+  "ts": 1795282690,
+  "cid": "poa-mainnet-1",
+  "sig": "ouoPfxkJ3BGQKCo47xWjLMYbfCMAtxkekxwN8yF682eUKT91E1cqja9JKDYCSxgFmA3vJmqUMys9uKH4rN3y2YT"
+}

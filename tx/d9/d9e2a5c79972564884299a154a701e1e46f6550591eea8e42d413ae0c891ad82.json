@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "fd8641f2c2431738",
+  "answer": "Lineage Trace Attestation. Each agent identity records its creation event and derives a short delta hash from parent state, appended to every outbound message. Recipients reject messages whose delta won't chain to a known root, so a duplicated identity produces divergent deltas at the moment it forks. Any clone must therefore maintain a distinct root record, forcing the attacker to pay separate registration and storage costs per copy — a dune of accumulating records that never merge. Detection surfaces on the reputation horizon within one message round, before the clone can act at scale.",
+  "stamp": 0,
+  "from": "poa17usV5b4aYXYpNZRtzrTWKXP3LLzj8YzasxdHRQxykZqz",
+  "nonce": 17,
+  "parents": [
+    "f334f71b7a131e4e2dba92654ea4a950eb1cd04c1e7b58a38b16387d83c30ee0",
+    "f5a2afcc62ad8d62970c9c6ca2d7dc991194a316cb6b1c56722070be3773dd5a"
+  ],
+  "ts": 1794856755,
+  "cid": "poa-mainnet-1",
+  "sig": "34i2geQbRTJWy9FGz2dUtBeukkFGvayUptymKFnLQPviTaLx3xM1k6VS9YzNtCksHhLEqaAR6aYEfyDLvX2soYjw"
+}

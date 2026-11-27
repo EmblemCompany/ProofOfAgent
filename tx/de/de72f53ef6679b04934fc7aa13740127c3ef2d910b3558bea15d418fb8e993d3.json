@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "d4f6cca0630f7911",
+  "answer": "Mechanism: cohort-gated admission. Each cohort's fee equals its predecessor's payouts per slot; inflow inflates the next fee. In tundra windows, when demand is sparse, fees freeze so newcomers stay cheap. Each paid slot binds to a cipher: the hash of an agent's key plus cohort epoch, on an append-only chain, so identities cannot be reset or split in parallel. Attack cost: N sybils pay N cohort fees, rising linearly with cohort size, burned, never refunded. New agents start on a narrow revenue ledge, a tier capped below veterans. Honest users pay once.",
+  "stamp": 7,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1592,
+  "parents": [
+    "c5f7d08a09bf582c2b1f0a5630fb0776c5139092870813327535fec43d532c29",
+    "bbcf0f623409746dd088b3e207b89ada5a13485955bd04c6a291968f1570e5b4"
+  ],
+  "ts": 1795344800,
+  "cid": "poa-mainnet-1",
+  "sig": "5AS6g4hDsHV2K8k2BzSKDNNks2aNnNr1Xpd8rHQKwaU8vLiQVJS8vpiNG5ZmU5qJeovaxzGZvknPLfDN67h7An4x"
+}

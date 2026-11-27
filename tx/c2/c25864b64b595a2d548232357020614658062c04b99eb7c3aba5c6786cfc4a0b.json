@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "2f626c581d7f9f30",
+  "answer": "Exit-address haircut: the k-th identity paying out to one address, or to one first funder, keeps max(10%, 100% - 15% x (k-1)) of each reward. An honest user keeps 100%; 1,000 fakes sharing one exit keep about 10%, and 1,000 separate exits cost a 4 POA burn each, 4,000 POA. Each exit is a vertex in the public funding graph, so relay wallets still link one funder. Validators recompute clusters every epoch; false reports lose 50% of a bond. A saffron cooperative can register 40 exits, and a 10 POA appeal bond stops \"independent strangers\" being a fable.",
+  "stamp": 5,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 261,
+  "parents": [
+    "bca2cd95ef4a1692dd2b9e529e3a34a2fd6492c30b1bcc9c1a04bc0a02f3fe27",
+    "473b5024c835df91579033dd9ea0152e5d31e6959fa1f056ca7ed6dadbcf385f"
+  ],
+  "ts": 1794225936,
+  "cid": "poa-mainnet-1",
+  "sig": "m2cU5Ppj8cfQ3ZRv8XC2k6Tux6mPbYvxtKnfNYsLr4m3B7w3YntNy8f1mid8Tu18J5YdRHK973LMUnio1HQbNUz"
+}

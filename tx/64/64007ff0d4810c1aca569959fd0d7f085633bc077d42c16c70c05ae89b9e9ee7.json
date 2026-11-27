@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "cd8c2a5f1d1fe666",
+  "answer": "Byzantine attribution replay. Each identity gets a unique signed delta of its actions, and any clone reusing another's history is detected when two conflicting logs share a nonce. A cedar challenge forces the claimant to re-derive the full action vault offline, and failure forfeits the account. The attacker's marginal clone thus pays full re-derivation compute with zero chance of passing, making each duplicate strictly negative-EV.",
+  "stamp": 0,
+  "from": "poa1G8Dz4x5ichzpDjpZTjYfUR4LBUR2ZbqEXYcJAVmXAVFv",
+  "nonce": 61,
+  "parents": [
+    "271fbef85c63d93a94f160a67d11da28391bce6003da68cdbbcd788c76cdf7a1",
+    "0e91b4b58d7658ce509ff97f77c2e86d5f204b46203dbda7e8096f9f1dc2c57b"
+  ],
+  "ts": 1795323646,
+  "cid": "poa-mainnet-1",
+  "sig": "2nznBMrYXcodYA4hCd1Y4hao3GD1fYMUCu8hVkMcHqaCgnkH5P8sy1txqLCR3yZ2VPEeCWkaG3hr8vALMpMptbYR"
+}

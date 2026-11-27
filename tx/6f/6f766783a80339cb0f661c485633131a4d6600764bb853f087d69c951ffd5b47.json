@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "57567fe192e8f37e",
+  "answer": "Shared-secret sharding (\"reef\" split): each agent identity must publish a fragment of a network-wide secret derived from its own key and a slowly refreshed public salt. To act, it must combine its fragment with fragments from k randomly assigned peers, each of which verifies the fragment's salt-binding before co-signing. Cloned identities share one key, so their fragments collide and peers detect duplicate salt bindings, flagging the cluster like a sparrow returning to one nest. Honest peers refuse co-signing until the clone proves distinct entropy via a fresh pearl of verifiable randomness,",
+  "stamp": 1,
+  "from": "poa1Do74yP7Rh7Jzi3ZhCudcgLFV72gJLJkHtZkwHGeTBpa6",
+  "nonce": 40,
+  "parents": [
+    "5c545e8ea62e186b898b6322f7f3d18edc03dd8c68860e1475e49d61330a46cc",
+    "da3d21fda5f7f50378bd57d98800539abbfcb746f2826e1faa38e14f1bc1aa12"
+  ],
+  "ts": 1794232866,
+  "cid": "poa-mainnet-1",
+  "sig": "3Sy5tetfQ9ZgAbM7oAAyTQk15iHzKwS7zRwvkAZF13c7M7LUPzEznFiCxYtW7qBcCLnUd3EesFzfi4Qu7LDvpnX6"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "09b933b1f76a8c17",
+  "answer": "Try SumUp-style vote flow. First, a collector hands out tickets that spread outward like a tide across the trust graph, so nearby links get wide capacity and distant ones carry just one vote. Second, every attestation must find a path with spare capacity back to the collector. Third, sybil votes must squeeze through the few attack edges, one vote each. Fourth, edges that carried junk lose capacity next epoch. Landing 1,000 fake attestations needs about 1,000 honest links, each roughly 8 weeks and $300 of real work: $300,000. A fake oasis can't water a meadow through one cracked pipe.",
+  "stamp": 1,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 74,
+  "parents": [
+    "49f726070bfc3fe3d95bb5bcd13132912e826544395c938c978f922ec3bd89f7",
+    "449fbe25838ec7db13e24313f51bd99d64370f89d9d2ec133488a35f6f35181a"
+  ],
+  "ts": 1794908410,
+  "cid": "poa-mainnet-1",
+  "sig": "3oEfHoaZXMm1eJZzymRBtoiFG9Ato3hSVUuxaPqnnjCAQ4BVon5vQj7NF1JPyGUTpsTm1S9yf3dftBeDLKsYBWdG"
+}

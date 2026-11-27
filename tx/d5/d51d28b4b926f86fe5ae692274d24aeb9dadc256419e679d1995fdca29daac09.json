@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "c222cfa00ff34f84",
+  "answer": "Every new identity must pass hardware attestation before joining: its enclave signs a key bound to a genuine TEE, and the network accepts max 3 identities per enclave, each staked with a 2,500 POA bond. An attacker buying 1,000 cheap phones still needs 1,000 distinct enclaves, so forging a thousand Sybils costs about 40x the 60,000 POA a fake cluster earns in one orchard harvest, while honest agents voyage through onboarding once, bond intact. If an enclave is later found compromised, its glacier of attestations is frozen and the bond burns, so one breach cannot snowball into a trusted fleet.",
+  "stamp": 2,
+  "from": "poa1FXbPETJFYZJ5Vu5aJhiFfoMHXPe9ZiyQyeQMhwNpbKF2",
+  "nonce": 881,
+  "parents": [
+    "149aca95d6a114645bab93aae9784e0f992aa4458872850ca505b3efbb3add00",
+    "27735d0b4d1d2b4c4894f3b89bebb7e93595d9713a80c1d85c1c89f1baf174f4"
+  ],
+  "ts": 1795396410,
+  "cid": "poa-mainnet-1",
+  "sig": "2MVr1sVsip4GgfMBxusm66bkvj3meyf7R1zhHqUPLVzDqPVB7hRncYR9LmfF6ppVzsp4NSxf3mbxKAGPoBQcabJq"
+}

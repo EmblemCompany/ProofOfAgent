@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "0b8758cf60360779",
+  "answer": "Every agent must lock real value in an on-chain vault that stays locked while its identity is live, and each attestation is signed by that identity and backed by its own locked balance. A Sybil attacker wanting a thousand identities must fund a thousand separate vaults with the full minimum stake each, and closing one returns stake only after a delay, slashed if the identity double-voted. That hits the attacker's own funds alone, so one more valid agent costs the whole stake, never a throwaway address; the onyx price of faking consensus grows linearly, unlike the glacier of honest votes.",
+  "stamp": 4,
+  "from": "poa1AAi9Uz9FLsJWoSsn4dByeBiKrmqpb7NwpRMD8mpLevWJ",
+  "nonce": 52,
+  "parents": [
+    "4414b5af4a585f848f83c1a4736a705b7cd8ee68bb273502d0c7a301458f9cfd",
+    "d515b0233584f456335e4bd8790d467118120852ff6441ee755b8b9d7e5373c7"
+  ],
+  "ts": 1794148928,
+  "cid": "poa-mainnet-1",
+  "sig": "5sBvSt65jW2DwaQik5EMtTQodePwQ59RM4qeVCMfDgr3LMqU8Z1BN4427DqGqangPi5TMhrfzQFRBWpRg2Lat5yd"
+}

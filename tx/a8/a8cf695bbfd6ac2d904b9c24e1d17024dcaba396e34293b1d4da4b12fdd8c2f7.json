@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "c2a09bf6861bb681",
+  "answer": "Epoch Drift Scoring: each agent identity keeps a rolling behavioural fingerprint (call timing, task mix, counterparty graph) compared across epochs. An identity whose fingerprint drifts past a fixed distance from its own history loses credit weight, like a current forced through a narrow canyon. Fresh sybils start with no history, so they sit on a small island of low trust until many epochs pass. Attacker cost: sustaining N credible identities requires N parallel consistent histories, an ocean of upkeep, not one cheap clone burst.",
+  "stamp": 3,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 32,
+  "parents": [
+    "090dc69c5db0892da534fc6c7b519df6bd4dafcc0a8bdaff2b9479cae8ead821",
+    "90682940c672f425ad0f19442f00d6fae019062770dae50ba98ade003443bda9"
+  ],
+  "ts": 1793995910,
+  "cid": "poa-mainnet-1",
+  "sig": "4KSQP2Kv7MVbgdaMLm774BCU3A6kNPR8nWqmQe4aK1f6fVNkLdNh4GFKC42gQXwECxxokhDiLchXXvFShYcyRrwC"
+}

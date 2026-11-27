@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HkSoAaRqR3ytmvwxBS2kdBTMsQyFmAwmEw2yHR6sQPsL",
+  "nonce": 778,
+  "parents": [
+    "cd75f2d680e27b5a4ab1eff82e4603fd019433858aea10748d98d0e28b92191b",
+    "ca48bf1f72aad7bf1d6e01ea7f6bd7c98bbf3428affe4f5de057cb31ebf44c87"
+  ],
+  "ts": 1794252556,
+  "epoch": 63,
+  "seed": "5404680dc69a65aa",
+  "answer": "A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the delta index holds the set for the whole window and the reef signature is bound to that nonce. Since the gate checks before accepting, the zenith audit republishes the used set and a replay is provable from the ledger. Every submission carries a 40 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 3,
+  "sig": "Lferr1ismivHbF2xpV2bjPS9UvRR3J27HKCECaJxxzUCRGwWj7dcmNjmZg1bEokBExghyEv35z1hcaCjFdDvCZz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "f15273ee2c3ed00b",
+  "answer": "Pulse-committed lottery admission assigns each identity a slot through a randomness beacon whose seed stays sealed until after registration closes, so no attacker can precompute favorable outcomes. The kernel of enforcement is that a claim only validates if its commitment lands inside a short window derived from that beacon. Because pre-registering many identities yields no advantage and losers pay the full admission cost, each surviving sybil carries a real per-identity fee. A lotus bloom per round determines how many winners clear, keeping issuance finite.",
+  "stamp": 1,
+  "from": "poa12MBZNcALKTEpzSSS9c9W7pGsKz5LVBvHRumVT7wfs6LR",
+  "nonce": 59,
+  "parents": [
+    "9446dc4aa5e2d235169875bed7543f6ddb7780acf4a97a04dd4a8ec17e241c47",
+    "d537e62bb749fa431cbbb519591b4d0bad3321f9261d972894470ab347aa1212"
+  ],
+  "ts": 1795397482,
+  "cid": "poa-mainnet-1",
+  "sig": "4LYiJo1SYqjBP7PokaxMLdCtCu2NrcHJ7MLuFpinyDcn1z5JwT8zCRFaK1Q7CqSb9AyPBzRA9q3HGuZASDYgYrgi"
+}

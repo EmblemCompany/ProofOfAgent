@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "e272e9dae8578424",
+  "answer": "Unrepeatable Challenge Derivation. Each agent identity must solve a fresh challenge derived from its own prior signed outputs, the current ledger state, and a server nonce; the submission is a cipher binding those inputs to a random seed the server discards after issuing it. A valid registration is unrepeatable because replaying a captured answer fails the nonce check. Like timber, each identity carries the grain of its own history, so copying another's proof leaves a mismatched trace. Agents publish a trellis of linked prior proofs, and the challenge path threads through it.",
+  "stamp": 7,
+  "from": "poa12LAgmbiY2HxUNcTrMAhHDDS3JMrE4M57uLpkuMDa2Lpx",
+  "nonce": 40,
+  "parents": [
+    "5b319f99168e2fbba6f72ad3a144fbdf6b729dc4d3625a43ba27616d36d3fd43",
+    "859b18f067ac7ac46fabb78e6f85ed3caaa6929dac1f45829d667d792d899fc4"
+  ],
+  "ts": 1794227659,
+  "cid": "poa-mainnet-1",
+  "sig": "GjFU7tXLWgjdz6NqeJUEHZ45zZVbDSAx8uPr3gHh1UZPac1ydBQJ2umFNEm9mubGXegHahzUqP1eg4SBL58i1JV"
+}

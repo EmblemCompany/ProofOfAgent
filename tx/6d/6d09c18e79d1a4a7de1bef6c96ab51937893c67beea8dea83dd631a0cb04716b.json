@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "b9b28eab34d62161",
+  "answer": "Each new identity seals a unique 32 GB replica with Argon2id-keyed encoding bound to its public key, posting a Merkle root as its admission ticket. Verifiers then issue random 4 KB opening challenges every epoch with a 300 ms deadline, so remote fetching fails. Missed proofs forfeit a 40 token bond and revoke the ticket. A 10,000 identity swarm needs 320 TB of disk, about 30,000 GPU-hours of sealing, and roughly $19,000 upfront, plus 400,000 tokens at risk. Faking that depth resembles dumping ferrous ballast into a lagoon to mirror its bottom; every ton must really sit there.",
+  "stamp": 2,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 21,
+  "parents": [
+    "ec956d267ffaf0ffa2cf5c3423fc1817402f717f6a09d4dfc816e940093819dc",
+    "1859b9bfe3908e60810b4d1add93cb604289160e87c64ec76c34f6d3437ee98e"
+  ],
+  "ts": 1793449810,
+  "cid": "poa-mainnet-1",
+  "sig": "5peui23dj2bSZ6GhUET8FSshcVpDW3FU6BsWa43BnpExDeeNsJwEPjSWzFofH75q8p8uWWnFVX3N8XhtY1n1cLUm"
+}

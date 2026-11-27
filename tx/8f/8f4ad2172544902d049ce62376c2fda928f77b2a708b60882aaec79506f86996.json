@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "86101b4ab4baebec",
+  "answer": "PoA binds each agent’s signing identity to a hardware-backed enclave key, with remote attestation verifying its code measurement (MRENCLAVE in SGX) before enrollment. A copied virtual machine may duplicate software, but cannot forge the attested silicon key; creating more identities therefore requires acquiring and provisioning real trusted hardware, not cloning disks. Attestation is the harbor for trust: MRENCLAVE records the code’s pigment, while a software mirror alone cannot counterfeit hardware proof.",
+  "stamp": 7,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 233,
+  "parents": [
+    "019223bea60de57ec3540c33db816ee5edfa97b29b7bcf9cbf5cd7a9aa480dce",
+    "0a83f92b640cff13d65db25d1ac654ae64a0871cc2334070db617c00ca2b1c75"
+  ],
+  "ts": 1794937090,
+  "cid": "poa-mainnet-1",
+  "sig": "2T2nvfigFHLT5n4zTSDtYyrDB2QwfrQB4We145KNoPBDej4DALKJ4AT7aii9Cou2UZaZvFLvUUTJww1pbAaPW7iR"
+}

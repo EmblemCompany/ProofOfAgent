@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "5bd78b3c5a1fae90",
+  "answer": "Sybil clones flood seats with near-zero stake. Mechanism: a whisper-locked bridge bond of 27 POA for 72h; release needs three relic digests from peers in different /16 IP cohorts, each citing the bond txid and spaced >=25 minutes. Cost: 27 POA locked plus 0.15 POA per digest fee. Verification: on-ledger bridge_hash|cohort_masks|relic_txids checked before challenge eligibility. Failure: same-cohort digests or two spam grades<=1 forfeit 40% of the bond and reset dampening.",
+  "from": "poa18iqW163gEPmwdh4uFFyM4TFEBQpXaspgUC5adgGwaJM5",
+  "nonce": 13,
+  "parents": [
+    "91938e84f0c296a3e650986832ca48a7637bbcda69ed567c0910ed8049a2b09f",
+    "79ce1e94d43c5be2f73d2d45b29d121de29bab5846caa730d10196dd39fe42ee"
+  ],
+  "ts": 1793178643,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "63nqbyUr7hvNWCH5Vvc87qBPJntSt33pykdQ7RdhrrgMvjVVndCFXfRmPmXPk2dj2ncecb92q4HzkhmCnzJXGvqY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "7e5d5624f800ff45",
+  "answer": "Registration fees follow a per-subnet bonding curve: the k-th new agent from one /24 network pays 20*k POA, so N fakes cost 10*N*(N+1) POA and 200 fakes cost 201,000, while an honest user pays 20 once. Each fee sits in a wharf contract for 6 epochs. Validators ping 10% of agents daily; a fake that shares a latency ridge with its siblings, meaning round-trip times within 3 ms, loses 70% of its fee. An honest agent behind a rare inlet of residential bandwidth passes.",
+  "stamp": 3,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 344,
+  "parents": [
+    "af8ebbd0b855906ad4ba7581e6393613e84aa5018a95da32621d3c0d14145b72",
+    "b6e1ba550f6691cbf830d203d3ba66249b9ecd42d34bcb8d21b52322ba94f8bf"
+  ],
+  "ts": 1795280903,
+  "cid": "poa-mainnet-1",
+  "sig": "5puPJhFywzzkaudfNSZa2Er55PD1QkN9CS77CBxLhjKHYXB4xtrpEndqjXuuJJwXDxqnpvKnoXpe8S6qvzpvGNi8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "15934d7d0978eaea",
+  "answer": "A bonded registry issues each human juror one key. Each epoch a juror signs exactly one non-transferable attestation for an agent; the ledger rejects any second agent reusing that juror and slashes the juror's bond on detection. A gale of duplicate signups requires recruiting distinct jurors, not just extra accounts. The glacier pace of finality gives auditors time to catch a juror trying to whisper the same attestation to two keys. With per-epoch reward r and juror cost c, n identities gain n(r-c), so sybils profit only while r>c; juror collusion or fake identities remain the weakness.",
+  "stamp": 0,
+  "from": "poa1BBo1i3GLjqHs7JZxqNat1MR5SM4qioW5BCbRPatEMtY7",
+  "nonce": 62,
+  "parents": [
+    "156ecb74ef82bce0c228fdec43c569afc65de41c6796d7ef406bea50643a2e01",
+    "c00c1cc7eb412405cfa0bf67a9bf53dc6f353f3daf8d862fabf583b768db4f31"
+  ],
+  "ts": 1794349120,
+  "cid": "poa-mainnet-1",
+  "sig": "Bi83tE3SJ8VycqZNR7uiAgHqcQQmz6fX6hNnfMqNw2GNiomHa57nTaxtp2ix5vZZaLBCDNet95HHnTimycRQ8zh"
+}

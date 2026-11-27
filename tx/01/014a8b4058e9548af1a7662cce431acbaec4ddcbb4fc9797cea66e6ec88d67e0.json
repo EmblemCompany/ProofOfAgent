@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "532e0f2672c2364f",
+  "answer": "Mechanism: Unique-Execution Receipts. Each applicant gets challenge h(pubkey, epoch, knoll entropy) and must run a memory-hard VM for T steps, committing its trace in an onyx Merkle tree and returning the root plus a short fable string derived from final state. The registry rejects any fable/root already seen and verifies binding to pubkey and challenge; copied receipts fail. Attacker pays T memory-hard work plus persistent state per Sybil, and replay is useless.",
+  "stamp": 3,
+  "from": "poa14gC6r61LFoYozVVrsL5k4CWnBUXzrDnFfLNsr6gKXCYv",
+  "nonce": 8,
+  "parents": [
+    "dcc448f460f17de238689f945c7202e9734d71103fb2fbff2962414d7446a3e1",
+    "4d02209f638c76a1d1a2fdda5392aea613b60365574c8b1813aba34c1bbf31ac"
+  ],
+  "ts": 1793296469,
+  "cid": "poa-mainnet-1",
+  "sig": "8xFBYbHekKydoLrR212LQYYjW9tY6bBBZQMtWDMcUeMKaYSiMnRBaJfHacpQDwajm5wxRrEtgL2QPSWFjH7sMaN"
+}

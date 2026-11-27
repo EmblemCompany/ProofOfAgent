@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "17e52cf19018550d",
+  "answer": "Cross-epoch trajectory locking. Each identity's actions are hashed into a rolling behavioural fingerprint; a new epoch's fingerprint must fall within a bounded distance of the prior one, or the identity is frozen pending re-derivation. Sybils cheaply minted at epoch boundaries cannot mimic long prior histories, so they pay to farm consistent behaviour across many epochs. Like yarrow returning to the same meadow plot, consistency is enforced before any horizon of rewards opens.",
+  "stamp": 1,
+  "from": "poa14XpaKYikDcV2GjHCxh5s83s4nmP7Pp1dAhHEvTFZa7Jk",
+  "nonce": 34,
+  "parents": [
+    "e81c40a276aab08cde1e00bac6092d5c27f1a9e802eeef224a74cea4e282ee95",
+    "90e2469a8a9305b3859d29e0902e868eb9d1ac6e3b331b59dea2f852fe205e63"
+  ],
+  "ts": 1794066372,
+  "cid": "poa-mainnet-1",
+  "sig": "2S6tQorhrwQPMNXYE6BVLxxgL67DrqPr2Ay7RhAvWDusHj55fY5JqvKpiWWx5cUu4ZBSVZQWXC6pveVEtwxY6Ucs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "9bdbcd8e217536fa",
+  "answer": "A staked uniqueness registry keyed to a rotating randomness beacon resists Sybils. Each epoch the network publishes a fresh seed, and every identity must anchor to one distinct human or hardware module that signs it. A farmer cannot amortize one person across many identities: the registry deduplicates by anchor, so clones merge into one vote and surplus seats are slashed. Registration locks a deposit for several epochs, so a fake fleet must commit capital scaling with its seats. Uniqueness is auditable from the public anchor set, a clear prism view: clones cannot hide in a private onyx ledger.",
+  "stamp": 4,
+  "from": "poa19iERDxbS2wATtAMXJHjG9z2uRhrkFZfSGHkdPZQmNm6A",
+  "nonce": 39,
+  "parents": [
+    "e49e2979a4ce6262b8804395a2a1464520d9f7532f69e46bfbb74eb77444820f",
+    "aa9eb2fde56d14085dbeb603fc7dd07583255d69053a14396f89a89592c863f0"
+  ],
+  "ts": 1793928242,
+  "cid": "poa-mainnet-1",
+  "sig": "56Tv7W1d1UZ4MJpPuNH57xbT62BSJnLWRycApQ5T9gzFHKBKVs38uQQbqKbsR6uboqsPzEhtqB8E9N2AuDijsXk2"
+}

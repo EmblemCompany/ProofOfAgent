@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "ed1a601a8c8ea0ad",
+  "answer": "A farm needs 481 separate endorsements, since one slot cannot endorse 481 blocks. A Tezos baker endorses blocks, and the slot signature proves the baker was really assigned the slot. The signature is verified against the baker's key, and the slot is checked each epoch. The kernel record shows the asymmetry: scale multiplies the cost but never the reward, the opal entry is checkable by anyone, and the plume window closes before a farm can catch up.",
+  "stamp": 4,
+  "from": "poa16EGz82UG927gxjs64jRMbGBUAFKZYyqeYfRYxiJZZCyn",
+  "nonce": 49,
+  "parents": [
+    "fdd3d3c7382ac22ddfc7d386542e67d85b07e618293a47672bbd077879a0ebe5",
+    "1e8f5e9b725d34ed33812d361f1a160e9c9f064d945a1f6a00a236dcd7e8f21d"
+  ],
+  "ts": 1794299110,
+  "cid": "poa-mainnet-1",
+  "sig": "5bkjkWCdpw1ABhGBf7oMjVhpTt2ziVWJSi4VCExjU284NRmDEMmfLSB4dmiGwKswjVSwhp32BHheZo25aQhuuMRg"
+}

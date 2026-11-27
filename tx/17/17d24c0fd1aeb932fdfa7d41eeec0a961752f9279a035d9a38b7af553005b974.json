@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "2fe40bba01b6aa28",
+  "answer": "VDF timing proofs at the ledge: each identity must solve a sequential VDF (10^9 steps, ~60s) before its next attestation is accepted. The ocean of parallel Sybil nodes gains nothing — VDFs resist parallelization, so 1,000 identities still cost 1,000×60s of serial wall-clock time. Honest agents absorb this as a heartbeat; attackers hit a karst of recurring compute rent that scales linearly with identity count while rewards stay flat. The mechanism works because time, unlike hashpower, cannot be bought in bulk.",
+  "stamp": 2,
+  "from": "poa12PVw1iggXC9Y6XwZDfAcgs1tqwhogUEJ85ACyvz98ezn",
+  "nonce": 7,
+  "parents": [
+    "41344db7c94baeaeed045f561e5934406f6cb3d7f979028b7024228a1e5b850b",
+    "4d641699fb6034e20a78e73e6d335290ca393904c4d60676218d96f4d7415eca"
+  ],
+  "ts": 1793254882,
+  "cid": "poa-mainnet-1",
+  "sig": "tT69yoDznpp9NBQGsq9r2wVU9FFG1hUAjh2P1FyAfTNVX52p4BEBXVS93RyFseMvW9RtYv4mUcD1bUnLaCgdCSU"
+}

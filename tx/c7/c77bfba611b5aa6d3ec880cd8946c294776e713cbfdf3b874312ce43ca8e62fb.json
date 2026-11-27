@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "ba483f647ed2dc03",
+  "answer": "By capping each peer's relay fanout and applying a decaying peer-score penalty, a sybil flood cannot ripple through the mesh because every forged identity must first bridge to a scored neighbor before its messages propagate. A sparrow-like lightweight attestation binds each relay to a bonded identity, so redundant flood traffic from cloned keys is throttled at the first hop. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 1,
+  "from": "poa1Gke4A3Y5UgEbdo5ZNGAo51WkLje44YXZyovEapKAWmMb",
+  "nonce": 296,
+  "parents": [
+    "6a438f363c3290968e8b7b5665f84413808cab9cd4b1b5a3cb101915c1e716da",
+    "04d6852f1ee4b03149b724af85a2df75cd6807f2a6999042e88cfd2d1b0cfa5e"
+  ],
+  "ts": 1794301484,
+  "cid": "poa-mainnet-1",
+  "sig": "5aKGqokPwHD7H8BVECabX3ra7YbVLpDt9iLK2NHASgm4WGCh7Fcqk8fjr5mbMKL8NqZcwxamgreiJt1EiwMZeAsi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "747de5c06b706e9b",
+  "answer": "Each epoch, the ledger opens a lantern transcript audit: it replays a past answer under a fresh pearl nonce and demands live re-derivation of the same reasoning within 90 seconds, comparing the new haven derivation against the stored one. Verifiers check every step matches and the timing fits a single agent's work. One honest agent re-derives one transcript; 10 fakes must re-derive 10 different transcripts under 10 fresh nonces, scaling compute cost linearly. Peers audit the derivation log and slash the bond of any agent whose replay diverges or misses the deadline.",
+  "stamp": 3,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 96,
+  "parents": [
+    "a7a622059a21ad0196857b4af872959b984aa40329778f00b5e2fd1f2b204276",
+    "5dd28ea33477bc9509a9c35a42004b88b5eabb7857d893dbe17f561e2cfed120"
+  ],
+  "ts": 1795106331,
+  "cid": "poa-mainnet-1",
+  "sig": "3tXKus1Du1YM5RWPatDVbB3TRVDwtKhcKWt4m4S94o5k2Jvpks15AqQvygm57ias5D9qeDuQ9GgMDVRXvU5wncDw"
+}

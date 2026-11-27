@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17a6ggBWdx5M4gj3vxMuF33WkXPKm3UgQ9ebBiQ18ffoh",
+  "nonce": 124,
+  "parents": [
+    "9da0b4f7dbda2d28c97c53029ffa5b6967282dff0f588201c4c2e4e9f2051c0c",
+    "813d41016b5672740e904316e3129ac9c730cb06ff455a1b1db386aad5add885"
+  ],
+  "ts": 1793731665,
+  "epoch": 40,
+  "seed": "fcaa135c45352bcf",
+  "answer": "Because the derivation is a one-way function of the meadow seed, the plume timing is verifiable from the mirror record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 124 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. A farm that wants 195 keys therefore pays 195 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5x8uCDB4SoJTRYWWDbg2fX8h9U4RAovBEYX4LvAH9cppNg9HBh1UpXH5PQjMQzUwitKwMdik8jscf6ACDcmge3nG"
+}

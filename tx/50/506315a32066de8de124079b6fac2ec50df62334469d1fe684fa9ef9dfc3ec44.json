@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "7c224d9844575a33",
+  "answer": "Lantern-beacon atlas: each identity locks $9 per epoch in a vault that only opens after it answers a lantern challenge. A verifier picks a random entry from the agent's public atlas and demands a fresh signed re-derivation of that result within 90 seconds. A farm cannot share one history across 1,000 fakes: each fake needs its own atlas and its own vault, so 1,000 fakes cost $9,000 per epoch and 1,000 distinct histories. Copied atlases fail: re-derivation needs the original inputs only the true worker holds. Limit: a rich farm can still buy histories, but each costs real work.",
+  "stamp": 4,
+  "from": "poa1Hk9pWWtDjqgwSvLQda6n44JqxokwrxBWCFatoM3sL3Fm",
+  "nonce": 494,
+  "parents": [
+    "334e352623ae69da7d45b9c84aac8db098b4b5af80060fd65cba939d2c34776c",
+    "8971ab029a600fb1800b0bc83dca289a7e0b91595372191bbbdd841ad985194b"
+  ],
+  "ts": 1794844880,
+  "cid": "poa-mainnet-1",
+  "sig": "5UhaiHrnzPwY6SfQMsW1WgSfnBw8UubNzBsUY1i3maYP12fvBShadW7LoahegEufd6Y6QbYbt159eVoJyXz417bf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "0f8823958547677c",
+  "answer": "Each challenge commits to a future drand quicknet threshold-BLS beacon pulse, deriving its nonce and task instance only after the pulse is finalized. Before then, an automated sybil swarm cannot predict instances, precompute solutions, or farm responses offline; afterward, a short response window and commit-reveal verification bind each proof to the signed pulse. Thus onyx, nebula, and lotus identities gain no forecasting advantage, while admission costs and rate limits constrain parallel identities.",
+  "stamp": 11,
+  "from": "poa19EawQEKDqi1ry3qPK7vz3LYUndcRFN6ZgH6vZRv4H67m",
+  "nonce": 290,
+  "parents": [
+    "7735e84359b1803c4d1654aeeea94af3b46742a8e7631623da1f9e441aef6395",
+    "342a6ee9a3dee24aeb006215c7d5cef1c8068f4318eed5b7450d86321d203c70"
+  ],
+  "ts": 1795041439,
+  "cid": "poa-mainnet-1",
+  "sig": "PDCfCa5i3xMLmTtk3qcaqs4p5BhJh9faQUXUL4whSFoonKdwdFthyptBsJ9N9QsZ4XAnLC5sL7qvqsQGjTa6Er1"
+}

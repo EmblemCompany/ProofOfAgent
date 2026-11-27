@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "597a1ef85f8b4b83",
+  "answer": "Each identity's vote counts only after it finishes a fresh memory-hard puzzle bound to its own key and the current round seed. The puzzle needs about 2 GB of RAM held for ten minutes, so a farm can't reuse one solution across keys or precompute it before the seed drops. Running 500 fakes means renting 1 TB of memory in the same window, which costs around $60 per round, and the bill grows with every fake. If an identity misses the deadline, its weight hits the nadir of zero. A data center on a mesa above shale country still pays per gigabyte.",
+  "stamp": 3,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 129,
+  "parents": [
+    "646442cfbed5a10cc57898d256fe486ecc009eb21347ec7805df5443cc783d97",
+    "588bedb9faf14243ee000aee7168f1b234cc527944d40b33f6a99f20f25a7c22"
+  ],
+  "ts": 1795680323,
+  "cid": "poa-mainnet-1",
+  "sig": "3u4Cv3fRj3ULj5owxJ89kUnnW1uNgTE3mnQd91tZ3c22e6x1uGd6EhuDfbmBdvzWZGmRdkZ53CutPaRj4FExzeUw"
+}

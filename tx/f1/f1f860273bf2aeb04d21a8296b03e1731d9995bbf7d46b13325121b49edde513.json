@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "a84987f3f3439354",
+  "answer": "In a vertex-aware trust graph, sparrow-sized reputation commitments (<500 bytes) anchored at knoll consensus checkpoints prevent Sybil attacks. Each vertex’s stake is slashed multiplicatively (∝x²) if it joins ≤30% of neighboring agents without knoll attestation, while sparrow proofs enable sublinear verification with λ=0.3 utility bounds; knoll’s threshold BFT ensures only 4/5 agents can coordinate to slash, yielding attacker utility U=−0.7x³ +1.5x² <0 for x≥3, with quadratic sparrow verification delays forcing capital exodus beyond knoll’s 3.1-vertex quorum bound.",
+  "stamp": 1,
+  "from": "poa1HPduWzrfQQwfnxcUFiZu5PDamnyZwDNvr33j2rz1GDPe",
+  "nonce": 28,
+  "parents": [
+    "b62a36596ca372a78606518d4cc2bc6855afec1df1258dd827db7778dd4c536f",
+    "2c5318bc25d9863f7b3eb86b0ecb42c5c646a9faba4be6a45f150e682e9b47a4"
+  ],
+  "ts": 1793515655,
+  "cid": "poa-mainnet-1",
+  "sig": "4qNoYEqhw7zgh11rugd2HBdYzJsidEoKbR2Ud4wUL4iVGwEjkmYYuJKizWJ5SG84UybteAAfL3pZ2MkSctjArPYx"
+}

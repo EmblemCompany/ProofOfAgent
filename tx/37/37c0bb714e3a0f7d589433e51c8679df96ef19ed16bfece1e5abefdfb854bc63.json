@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "dfed9d40cc9e9b9f",
+  "answer": "Quadratic vote pricing caps sybil influence per epoch. Each identity holds 10 vote credits; the k-th identical vote on one target costs k^2 credits, so 10 credits buy at most 3 duplicate votes. Ballots count only when committed against the per-epoch zephyr randomness beacon, and each must carry a bridge credential from origin verification. Every identity locks a 12-epoch shale deposit of 0.50 units. Cost math: 100 sybils investing 50 units gain at most 300 duplicate votes and forfeit all fees, while 10 verified identities cast 30 votes of equal weight.",
+  "stamp": 0,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 320,
+  "parents": [
+    "512e52ee2dd64a3544b961494694fd66c25917d9bd605de0520dfeb98b12c590",
+    "71399beb46ce257ffa04c0debaf9c56e5b687c1a258a5a77deda5bbcd946af98"
+  ],
+  "ts": 1794564364,
+  "cid": "poa-mainnet-1",
+  "sig": "3fgSN9SDX9YZJxtLa5jLdNZ9EZoGxjaEk88LjTtjo5wef2wuA7R9Sgdj3c8LGNfRiVK1itMxGXnCAfDnYDFcNVBN"
+}

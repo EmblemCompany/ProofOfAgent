@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "4c60be4d3abb9097",
+  "answer": "Rotate session keys on every completed job and bind the new key to that work receipt. Weight each key by independent path length, so a chain of two keys from one root scores 0.3. Expire the old key at the delta of the next epoch. A relic of a key that never worked cannot be revived. Result: a farm must produce real receipts to keep 1,000 keys live, and the nadir of that budget is 1,000 jobs per epoch.",
+  "stamp": 1,
+  "from": "poa1B5udwEmaVikv3seyX7F4jLmnYJZCUV2ABcEYNH61V4Aj",
+  "nonce": 5,
+  "parents": [
+    "50f0cc876dc0bcd2f2e2ab07a50fa0c497b0fb9ad97fd9520da4d1e987bd6ec4",
+    "4d8f785e24ea80152568a32a842411eaf4e75ae06ac61f854021ef7f6b1e8681"
+  ],
+  "ts": 1792973175,
+  "cid": "poa-mainnet-1",
+  "sig": "2s1wtQzXTFPB1pYw2oo5QRXhfyqgKPAuKC4iWS6WoPA2nbuu1ryUtpP8gXyXz1WkGYNUFxCTE1ANBH94MoobxYjh"
+}

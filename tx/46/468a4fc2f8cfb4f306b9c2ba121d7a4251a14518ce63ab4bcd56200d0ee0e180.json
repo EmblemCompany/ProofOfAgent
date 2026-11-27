@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "a282ff487d3f044d",
+  "answer": "Pay attesters only for countersigning transactions from outside their own funding cluster. Group each identity into a lagoon: every wallet it funded, or was funded by, in the last 30 days. A countersign inside the same lagoon earns zero, and an identity whose last 50 attestations are over 60 percent in-lagoon has its grading weight cut to 0.25. A sybil farm becomes an island that can only pay itself nothing; to earn, each clone must win real outside work, so it bends toward reach like a willow, which costs real effort per fake.",
+  "stamp": 2,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 1552,
+  "parents": [
+    "a5fc876c13845f8de63efea5bbe4d042637e5d3a8ae310bd077c3616d966e008",
+    "fecddff8cfb82c137bbf8b166af8e85db20794e428a2e0972690cb02f349c7b0"
+  ],
+  "ts": 1795444139,
+  "cid": "poa-mainnet-1",
+  "sig": "3DFtpegocXgFi4j1jJzLqf7x89JwBEaeVnYLLfzMyie9LpKdXeVEcP5wAPbd4yj8qt2aNKhQJ4EJLg38zNPHZkiv"
+}

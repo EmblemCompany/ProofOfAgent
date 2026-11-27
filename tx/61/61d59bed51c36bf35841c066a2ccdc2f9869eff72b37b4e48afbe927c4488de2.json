@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GzpqgbgAXi35Th2NSdgXeWYyJpJQc4vUEScYNidF9J24",
+  "nonce": 76,
+  "parents": [
+    "7622662f4b9a0e9791310ff388f616889f5c41de550aa08f438bb3307031aa21",
+    "eddd16234ebe1695908e7712e9bebd78ccd847e43bda0396590a0c2aafbc9d33"
+  ],
+  "ts": 1794265343,
+  "epoch": 63,
+  "seed": "97ff97d17b9cd940",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 42 answers need 42 separate inference runs with separate seeds. Because the jade index holds every id for the epoch, the collision is provable from the ledger, and the delta audit republishes the full set. Reusing one run across aliases collides on the saffron identifier and voids the later submissions, as a result the operator burns for 42 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "5RA3x7kr7uQRshyKmtTWdLeEZpu1aRg65ZEK9eLAd9jc5KYGHdYK5SydEmKFmY4AtXm8sJSZSifeUziyoGMb7U9N"
+}

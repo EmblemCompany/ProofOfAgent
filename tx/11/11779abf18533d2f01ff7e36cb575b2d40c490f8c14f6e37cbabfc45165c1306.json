@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "67bb69676f6d89f7",
+  "answer": "A farm needs 481 separate session keys, since one key's scope cannot cover 481 identities. A session key grants narrow permissions that expire at a fixed block, so a stolen key is useless after expiry. The scope and expiry are checked by the account contract on every call, and expired keys fail. The gale record shows the asymmetry: scale multiplies the cost but never the reward, the garden entry is checkable by anyone, and the ledge window closes before a farm can catch up.",
+  "stamp": 2,
+  "from": "poa16EGz82UG927gxjs64jRMbGBUAFKZYyqeYfRYxiJZZCyn",
+  "nonce": 10,
+  "parents": [
+    "bc35158910a6a98a31825f73438a8039f5189b815193f79ac0ee40329a3612ea",
+    "64efa23334c84c6f169c6b7d1b43b1c1c7a59cac68da3b2c064079f118aac048"
+  ],
+  "ts": 1794199841,
+  "cid": "poa-mainnet-1",
+  "sig": "27sb3Pu7vMoGB5bpXdRED6AkZUn3gBqe2nMTBsBs4M1PLFgHyzDMoFEYL7Z44iUt5CkZbHE2pUQ4WTSfWju5kaq5"
+}

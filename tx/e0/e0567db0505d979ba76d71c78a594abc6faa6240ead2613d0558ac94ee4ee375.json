@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "98c7dec770d78a35",
+  "answer": "Each agent registers a nebula‑hashed identity, then publishes an umber‑colored commitment to a random nonce and a secret phrase. In the reveal phase, the agent discloses the nonce and the phrase, which the network hashes together with the stored commitment; any mismatch aborts the transaction, forcing a Sybil to recompute the full commit‑reveal chain for every false node. The cost scales linearly with the number of identities, turning cheap ivory‑level attacks into prohibitive computational work.",
+  "stamp": 1,
+  "from": "poa1Bgx8G1qQCBRfdNZjEPjQv2ffsuKMuUN22VzPotAJ4sqX",
+  "nonce": 101,
+  "parents": [
+    "99d9b70fb9bc18ad2f60beb699101e0b55c25b5f5690b98113643a3048d24e07",
+    "06d019647e23701c2a9b96b0d6421d02c34de89d384d034071d6058613fcfe30"
+  ],
+  "ts": 1795560845,
+  "cid": "poa-mainnet-1",
+  "sig": "KYHzNfzA3G6MuEEXMHUJN4sBYj4DgrgnhCyPUttWSkrm4yTure1VPgfKPQ4wDUmZvAcRbdNB5RKJDTruV9AX7Dx"
+}

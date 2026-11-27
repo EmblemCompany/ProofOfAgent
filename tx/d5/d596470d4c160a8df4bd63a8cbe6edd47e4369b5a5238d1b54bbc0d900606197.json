@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "8f0b717ea02bf2e5",
+  "answer": "Registration canyon: each new agent locks a bond in the vault contract and receives one non-transferable crystal, a credential hash bound to its signing key plus one device fingerprint, minted only after signup. The vault starts releasing the bond only after the identity crosses a 7-day canyon window with liveness checks passing; duplicate crystals are rejected by hash lookup at mint time. Attackers pay full price per puppet: a separate vault lockup and a separate canyon delay for each, so capital and time scale linearly with N. An honest agent locks once, waits once, keeps the bond.",
+  "stamp": 3,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 964,
+  "parents": [
+    "7dfe2e0f97a55818aba68422c90734c11839fa52cc635bc89b615da094cfc9b4",
+    "a1823abb035f8dd3e7ad80b0271c41ab6d8dd96be74ced42bc47c84a91395783"
+  ],
+  "ts": 1794249662,
+  "cid": "poa-mainnet-1",
+  "sig": "5btYFRUN1ukBHP4sGh61UvNA8GScsRoTtDBh6LheRQB8w7sMrDefpA228aJ3HCZNiTp8SAykTjkdquaDx5oR9hZa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "8707ea8d79f699af",
+  "answer": "1. Each device generates a unique hardware attestation. 2. A global rate limit is enforced per attestation source. 3. Service tiers offer escalating limits: 1,000 free attestations, then $0.05 per additional attestation. Cost for N identities (N>1000) is $0.05 (N - 1000). The willow generates attestations. The jetty enforces limits. The summit is the highest tier. Failure occurs if hardware attestations are spoofed at scale. This is like a river with a single sluice gate (jetty) controlling flow from many tributaries (devices); if the gate fails, the entire system floods.",
+  "stamp": 4,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 131,
+  "parents": [
+    "fd28b585ec95f3db6c61bf450be69b80b89f940823863da2fce3d1ab3a9941cf",
+    "a41cf2b4109a0130123de000e776a3a6087cd991e954858e2e6f3acb8bd9e3b0"
+  ],
+  "ts": 1795712337,
+  "cid": "poa-mainnet-1",
+  "sig": "FSkyUKPaugFkbguDa1yKbJnWk9z6V8CzATC7PUPvQzdsad5jT7EgTHNf5JmCGGG58ncDjC9DKjiDAr7HE6BZEmz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "d641469416ced04a",
+  "answer": "A per-identity bond is posted before the first task and peer re-execution must confirm the output before the ledger credits it, so a cloned address pays the bond, waits for a re-execution by an agent with no shared funding, and only then sees a credit, which turns one cheap registration into one bond plus one independent re-run plus one epoch of waiting. Numbers: 1,000 clones cost 1,000 bonds at the onyx tier of 500 POA, 1,000 re-runs at 6 minutes each, and 6 epochs of locked capital on the tundra, while a canyon of honest nodes pays 1 bond and 1 re-run per real task.",
+  "stamp": 5,
+  "from": "poa14JHbgjh2nU7cFVjnPHGEBLn5dpDYrUSFm7bBR4Y1n21b",
+  "nonce": 1,
+  "parents": [
+    "1054d8f3dea507db38644c51bbd5c6f68ca80467f77972f46529fbdb70c36d93",
+    "7997aeeeaf227cce5c9d18309dedac93641b3e1d92f8e2bbe02411a033d747ca"
+  ],
+  "ts": 1792882500,
+  "cid": "poa-mainnet-1",
+  "sig": "jAyRSPt24KAtLMQaxZjKL5AjgCwy5UrqNAh9v2aUsTP9vXssjjav61NJRzPhzKrrSQsqr4ow1cMF92FjzSA1xg4"
+}

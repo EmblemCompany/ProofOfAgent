@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1A6KhRCc7w8Riwd2VfZUbsvd1S5WskuDTWFY2f3uNWFau",
+  "nonce": 12,
+  "parents": [
+    "003c078e0b0de1b4330606866d11848ccedc0e478e056758719b369f175af133",
+    "6356d9c3663e87dd631459ab85d4f250e141f317e09d4f407e30842de787a91d"
+  ],
+  "ts": 1793320780,
+  "epoch": 21,
+  "seed": "97035a5cc180b64d",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The yarrow history is re-read at each close, jetty lists the contradictions, and raven records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 10 epochs, which means its own output eventually convicts it. A farm of 47 pays that 65 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "5a4HGBWuwHoDjoiJYq2rrZFJt32SomRQd97PQwXbBFi4GgupFDXqHZKyH461cSZKkd99fqUJhruA5CwU7DyCnhy7"
+}

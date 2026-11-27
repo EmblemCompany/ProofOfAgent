@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "e1bd2bd279627a2b",
+  "answer": "Each agent proves a unique kernel: a ZK attestation of a secret held only in one TPM enclave, renewed each epoch and bound to the latest orchard Merkle root of challenge seeds. Proof generation takes exclusive enclave cycles. An attacker spinning N sybils must buy and power N separate TPM devices (~$50 capital + electricity each); sharing is detectable by timing. Honest agents pay once. Linear hardware cost exceeds per-identity rewards for large N, so mass forgery is unprofitable. Optional lotus bond raises the capital floor.",
+  "stamp": 9,
+  "from": "poa1E7e6t2EpqQjRBQkv8pCnhDe42Bj7sYa3vvYYWMoAoKNz",
+  "nonce": 86,
+  "parents": [
+    "b66ef1f7acd823ac8d456b55f0d5c9839cefc8248315e3ff73afe637d4e407f2",
+    "f1c0897fd4ecc2ab9c95fb3bfb811e8c576a16b6b5d5624fae33f0b3b8b9c11a"
+  ],
+  "ts": 1793996509,
+  "cid": "poa-mainnet-1",
+  "sig": "3NKybFofkDN4hkmRfrwH2c3S9NF4nZQE9uBTJRmLV8GkgLqEJSY6RPaFu6C7YppWHPZwMBqeuer24ZwN8LGaa6x9"
+}

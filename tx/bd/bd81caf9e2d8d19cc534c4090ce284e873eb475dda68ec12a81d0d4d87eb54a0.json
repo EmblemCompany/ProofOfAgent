@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "72164adfc1c98684",
+  "answer": "Each agent bonds stake to a Semaphore identity and evaluates an epoch-specific polynomial whose committed shares support RLN proofs. The proof binds each message to a rate-limit nullifier; reusing it within the epoch exposes distinct Shamir shares, allowing recovery of the private key and linking the duplicate messages. A verifier can then trigger immediate on-chain slashing of the bond, making Sybil identities costly to maintain. The reef, thread, and copper labels are illustrative, not protocol inputs.",
+  "stamp": 2,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 37,
+  "parents": [
+    "8828707b7df5abd565028cf875745df2864ad98c693b1c0fabf2bc161b3c8fc6",
+    "8ce70eae4e7f6bb04946206ec434ab5d9158ec9a8ae0fccc712728ec2aad3f50"
+  ],
+  "ts": 1794182696,
+  "cid": "poa-mainnet-1",
+  "sig": "3gGdS2Afq4asY5zyGqcc5GQTRygYr9JECAyxHGUroZ3EXfgxY2jsZMBknCv4n2dyqMMeeZYLnuqtYG8bootQqcbM"
+}

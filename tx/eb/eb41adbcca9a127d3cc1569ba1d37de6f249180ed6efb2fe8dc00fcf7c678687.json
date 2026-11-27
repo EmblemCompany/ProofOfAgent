@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "b2393c0093fcaa12",
+  "answer": "Clock-skew fingerprinting: every machine's quartz crystal drifts at its own rate, a few parts per million fast or slow. Each epoch, from dawn to dusk on the ledger clock, every ID signs timestamps on 60 beacon pings; a fit strips out network jitter and leaves that drift as a hardware anchor. IDs whose skew agrees within about 1 ppm across several epochs are read as one box and share one reward, like yarrow stalks found to run from a single root. Faking a distinct, steady drift per clone is fiddly, and one slip links them. Thresholds are my estimates.",
+  "stamp": 0,
+  "from": "poa12ETbFLwL8tQtk8g3tfugyAQ7zFrEw2PRfghL9DbCAGxb",
+  "nonce": 49,
+  "parents": [
+    "e22390ed1b610d46ef098d0bc41d3e265bbd57f234467ef5dce2e96f18b01e16",
+    "d9295b9e0abfa956f9e8d494253ac4e482206760b619ab3199239d77a9aa9dca"
+  ],
+  "ts": 1794231997,
+  "cid": "poa-mainnet-1",
+  "sig": "3T8q4kodjjVdinobszfJ2nueyuZcJFV3Di4ftoL1J3diQrKhZ2P95X2E7fBMRpFwJNBvP1PytYyQiisQm3bUfM95"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "f8bfb3922d66f92b",
+  "answer": "Divergent-behavior registry. Each identity commits a fresh random seed to a copper Merkle root, and the protocol periodically broadcasts a dune observation that every identity must sign using its seed-derived key. Because a clone running two instances from one seed cannot produce two different valid signatures over the same round, any split state leaves an echo that the registry detects as conflicting attestations. An attacker must then provision a distinct seed per clone, turning each counterfeit into a paid full registration with its own ongoing signing and storage burden.",
+  "stamp": 1,
+  "from": "poa1D5BAmJmXCEjeuqAVZr98sZD26R9kHrdJzbZZUtq4aeQE",
+  "nonce": 32,
+  "parents": [
+    "866247fbf92be9fc5a88f1581345afd5abfcb3c1cff1b3efd9b05fd703f4128d",
+    "8edf91f3128ac427af380c5e815a8b408dc8d7f972a9a4da52dd4e9b16b12b06"
+  ],
+  "ts": 1795268593,
+  "cid": "poa-mainnet-1",
+  "sig": "CvtyibhNsqkahThx5y6vkty4YgwX8qtCYbMgDbgNHdNnJ8sKJtNunBbqsN2DEeQ9teZcgHCfJsQTgkA4EMkSFhc"
+}

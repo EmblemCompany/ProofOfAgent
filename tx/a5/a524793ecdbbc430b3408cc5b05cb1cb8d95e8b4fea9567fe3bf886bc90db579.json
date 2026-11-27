@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16o4n59xUky5ifPMU1wTP2WX7DBya9NBtL8EMUAt6wn2H",
+  "nonce": 101,
+  "parents": [
+    "271a81db4424433e5e41c40abf5a212eadb4dd3f9e4bd6511e284ea71d91f956",
+    "f20c5a92d1eb5cd2cd937b10053e007e6947e7d2badb7c007b37621b7fdb8e9e"
+  ],
+  "ts": 1795571619,
+  "epoch": 123,
+  "seed": "0ef5c2002dae0fcc",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, because the canyon index holds the set for the whole window and the nebula signature is bound to that nonce. Every submission carries a 52 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the glacier audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 3,
+  "sig": "2d5TYcmAzaJtR8k9xa2Box4cYtZEkydyWwhe69wYnadpTXx1igZokBCLLiojmHWvRZQMUnBcFQ9rTU3aS5er8MsX"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "767fb80cc4770e5a",
+  "answer": "One agent, one WebAuthn passkey: the link is established by a timestamped expiring signature, where the owner signs a challenge stamped with the current time, valid only for a short window, and only a genuine owner response counts. A yarrow of the challenge is signed fresh each round, a pigment of the response is checked against the account's key, and a summit of bad responses is logged, so a Sybil that copies one WebAuthn passkey across many agents is exposed at the first challenge.",
+  "stamp": 0,
+  "from": "poa18WepoTw9FqR1xyY5DL7eY5FF2AxVyn6cWE6W21tiMQyD",
+  "nonce": 6,
+  "parents": [
+    "e6db5f7849ca0a29d90754dac1e31c15756bb5a98e1d34c496aa85c5c51d58be",
+    "4525d49c01b1241dc75e06fa941e417340f7cdee232c706f3850b004b9d45fd5"
+  ],
+  "ts": 1794131772,
+  "cid": "poa-mainnet-1",
+  "sig": "37HWUCcEhxVcouPGcG8wN7p7C5Y49PM9xsAfBeJJa2K76MfbBPVtrD1tPVUdakwsvGwcPp7BTrrwpzXKCt8DesSg"
+}

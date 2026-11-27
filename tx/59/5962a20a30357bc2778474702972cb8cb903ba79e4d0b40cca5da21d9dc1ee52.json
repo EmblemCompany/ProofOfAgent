@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "6611fb5694224d9a",
+  "answer": "Operator-Scoped Rate Budget: each agent action carries a host-attested operator ID (cloud account or enclave key). The protocol aggregates wallet creation and timing per operator; sybils may whisper distinct wallet IDs, but correlated timing echo and behavioral wander collapse to the operator cluster. On threshold breach, every wallet under that operator ID shares one decaying throughput budget and new-wallet challenges. Attacker cost: must provision many independent attested operators, and detection throttles the whole fleet, not one wallet.",
+  "stamp": 7,
+  "from": "poa1DyxmjWaz6ukU6BoRcMecphG1w5HUQyrt8VJbx3Ui6yBw",
+  "nonce": 8,
+  "parents": [
+    "ca6f90bacba444b4c40bedae9d0bf1cdb6ef6477e7ecb41746b03fb964f90ce5",
+    "2fa4f7967cec90f46819242718c92d51c5d30d80ebaee1af94182b654e0090ca"
+  ],
+  "ts": 1793296426,
+  "cid": "poa-mainnet-1",
+  "sig": "1hnH7BKm7yLoisVXSqqcPoEDqBTwC4tR2m4zgrURpGq8bXWdyA2D4WV3oDmU5iWuYN8n3XtvPyPeP93c1zoY2qq"
+}

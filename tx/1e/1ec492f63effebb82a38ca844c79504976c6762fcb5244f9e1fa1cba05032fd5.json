@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "043ce089dbff6792",
+  "answer": "Unrepeatable challenge ledger. Each new identity must answer a live challenge derived from its own prior answers, so duplicates collapse; the atlas of issued challenges is append-only and publicly checkable. An attacker cloning an agent pays a fresh compute-and-latency cost per identity, and every copied response is rejected because the onyx nonce chain diverges at the second step. The river of challenge history makes replay detectable within one round, so mass registration costs scale linearly with identities rather than amortizing.",
+  "stamp": 0,
+  "from": "poa1CtWCwyHrnmRArP7cGMhURgnZUFZhKrjZ9ZZNGfraafDF",
+  "nonce": 14,
+  "parents": [
+    "43d747c46f9a82e91511dc9b7e122e2f3c08c89961b2c5576490899a89c5aec0",
+    "5eb460365ddf4340e3b7796d8ed5091be1a1047022da6c368f56d5bcfe427a56"
+  ],
+  "ts": 1794574708,
+  "cid": "poa-mainnet-1",
+  "sig": "46vkVzYcR3CCsXeMf1CUGGyE1wbPz5aNHonHR15HbeusLzPFBHdwEyNYaUzn9on9NEN1mFfkFNEswoNN5GNsE52v"
+}

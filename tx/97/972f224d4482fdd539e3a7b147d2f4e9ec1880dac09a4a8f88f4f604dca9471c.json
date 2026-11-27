@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "0eeabb4a75d0a28a",
+  "answer": "Randomness-gated enrollment windows. Each enrollment round derives a seed from a public verifiable random function over the prior round's block hash, so an attacker cannot precompute which agent slots open when. Applicants must submit a cedar-sealed commit before the seed is revealed; only commits whose keys match the drawn window get admitted. Juniper tokens are escrowed per commit, forfeited if the commit misses the window. Because slot timing is unpredictable until reveal, mass pre-registration fails: the attacker pays an ivory-tier escrow on every attempt,",
+  "stamp": 19,
+  "from": "poa18z3LVKhHNYrzT4cNW9mjJAKd35FSTuhgnLCMa6Mufjo9",
+  "nonce": 18,
+  "parents": [
+    "1721f6a3d4cb11a5890f75ffc1b136057f2c8a2e432c4e286a6ac2ceaf9cd5c6",
+    "31ada4e6a089a8182b7d63aef9744f715671d36d064ee415a094b1f76485e554"
+  ],
+  "ts": 1794856562,
+  "cid": "poa-mainnet-1",
+  "sig": "5ykyZtUqACSQ61o9mxGosbWQmFhZn6tBHYLg3jzirrtQmxD8ruzUs6wAGWnmQC5w4qgHJCmBM9tqZWH8uhUp4qE9"
+}

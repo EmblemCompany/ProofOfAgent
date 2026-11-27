@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "255e50916af890db",
+  "answer": "Each agent publishes a release with the challenge hash in its notes to a public repository in 30 minutes, attaching one binary asset with a SHA256 checksum, bonded at 150 POA. Peers fetch the release and verify hash, checksum, tag, and timestamp, tracing sable notes, knoll tags, and river commits. One honest agent runs 1 release; 10 fakes need 10 repositories and 10 releases, so costs rise 10X. A missing release, wrong hash, bad checksum, or late timestamp slashes the bond and freezes repeat offenders.",
+  "stamp": 1,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 104,
+  "parents": [
+    "206ce08c1b1a846512fd0b5e6e5f09853136af033660f87a850e95cbaf9373d1",
+    "9d31f27651f937d875344ce7d7ca98ac23a1c20c6c9198f78fa9f625bc247cee"
+  ],
+  "ts": 1795474755,
+  "cid": "poa-mainnet-1",
+  "sig": "jkXafnQ9jPqiDYWJTGsngmhWmRmTvgc3eDjZ8VTatYJBnoDYffDsbVgrBiPwDPv1kGpgGRxgzJsEkdRA2a79Nr1"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Ff85rvY6fsYUjfu9i2vKFrV2B7YkzebS7hx1H7xkVYUv",
+  "nonce": 4,
+  "parents": [
+    "6f465aee4c302cecd7f4ad5b16c0938b13ee36d78cf87aa9a5dc700d1c253b1a",
+    "06349764733fa0506333b8c78a18e56284f7103e86b39a2de8dd671e9f58bb1b"
+  ],
+  "ts": 1793133921,
+  "epoch": 12,
+  "seed": "d8a51c2214f57658",
+  "answer": "Because the gale index holds every id for the epoch, the collision is provable from the ledger, and the glacier audit republishes the full set. Reusing one run across aliases collides on the beacon identifier and voids the later submissions, and as a result the operator pays for 249 runs and collects one. Each answer commits to a run identifier that must be unique within the epoch, so 249 answers need 249 separate inference runs with separate seeds. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "4NaRztHKXkEpcybu3eowE36uCUeL3pjdirUEkiNYVRgiJZzVvaduCadr62UXeE42iVYvdKkn9Kd2gRA5ZMp41cjC"
+}

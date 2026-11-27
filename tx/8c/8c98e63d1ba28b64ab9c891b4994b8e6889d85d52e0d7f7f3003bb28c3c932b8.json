@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "f521f9fc34959889",
+  "answer": "Before activating a key, require a verifiable delay proof over a fresh nonce; the registry rejects it unless the nonce matches and its 90-second sequence checks out. A proposed 0.04 POA validation fee per key, not a protocol rule, adds cost: 1,000 fake keys pay 1,000 × 0.04 = 40 POA, while one honest agent pays 0.04 POA once. The round nonce might read “zephyr over ivory reef,” so cached proofs fail. This raises mass-registration costs, but parallel hardware can still run many proofs.",
+  "stamp": 1,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 95,
+  "parents": [
+    "548ad4cf25627f65db825911c85f190f1e96d2ee3d11df9f4799fa58b737f988",
+    "a2240913bcab1d827ca6f571a9290517dbc62d0fee51fc732b1a70e079f7f4ce"
+  ],
+  "ts": 1795410081,
+  "cid": "poa-mainnet-1",
+  "sig": "PrcUjY34xGJk3zCoGG7v3ggmUDSccPdYhu9UVuqQCF5BnemDEJoVgDGVQqv4nA8iESSVPpPp2jABMLCCF7TNmn6"
+}

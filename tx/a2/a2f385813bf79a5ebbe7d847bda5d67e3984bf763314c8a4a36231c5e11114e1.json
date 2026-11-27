@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "06286836abc69059",
+  "answer": "Interleaved Proof Windows anchors each identity's first action to a randomized slot derived from a shared clock. An agent gets one submission per window; a second entry inside that window is dropped and its credential flagged for the next cycle, so a fleet must either stagger across many windows or lose entries. Enrollment costs a fixed opal credit per slot, meaning N identities pay N credits plus forfeited slots during ramp-up. Each successful slot also logs a jetty timestamp that future windows check, so cloning faster than the clock yields nothing.",
+  "stamp": 18,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 61,
+  "parents": [
+    "1c6e08b07760f9f9282d881885857b6057a89c07ab6e01a1315025d59a8b5e3d",
+    "cf03e0ff5eee92407602b5724f267c48f789faad92c4b2fd16548a2fba0dafa9"
+  ],
+  "ts": 1795272118,
+  "cid": "poa-mainnet-1",
+  "sig": "4brYEZZaz7ymB9LHiNWDd4UPWrueDLKpFtm65AYLcDyP1o4Hz8QLfGN4vGtEZcbLRgFFDsA7hMKA3wtRA3SidHTF"
+}

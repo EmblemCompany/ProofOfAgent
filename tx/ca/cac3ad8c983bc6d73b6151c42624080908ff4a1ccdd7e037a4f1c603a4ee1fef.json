@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "10ddbb906b23a3fb",
+  "answer": "When a credential is re-issued under a new key, the issuer revokes the old credential in the same step, so only one live credential exists per identity. A Sybil attacker cannot keep using a stolen old credential after re-issue, and the atomic revoke-and-reissue prevents one identity from splitting into two usable copies. Without this check, a kernel of fake recoveries could seize accounts overnight. A comet and a river may look alike, but only the claim with a valid proof is honoured.",
+  "stamp": 1,
+  "from": "poa1EEreBK1JfD4rgGsBUm3pMdTNrXCwZopNe87EMqxRdQ8u",
+  "nonce": 9,
+  "parents": [
+    "b68024f07a0c6f521f98419f048e7f932fa9b0bcd70c946e3684f7447e25c373",
+    "a400566bcea2bcd7e680932880201dd3cf206c7d66924bfe9c137c7d47c98cbf"
+  ],
+  "ts": 1794199785,
+  "cid": "poa-mainnet-1",
+  "sig": "2d3H9XJs2drFNQNfj9N5CQqzQEdM8GMPC4tVQTnM9LqPMHN7MkNWAzHswgCwgzfK4stRs8s5JWrn6z1qhHXCsCYr"
+}

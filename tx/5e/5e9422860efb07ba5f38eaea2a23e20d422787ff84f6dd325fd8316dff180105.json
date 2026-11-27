@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "8c6eb2fa7dade321",
+  "answer": "Each identity must generate and retain a private memory-hard dataset, called a dune, from a yarrow seed bound to one signing key and committed on-ledger. In every short window the network issues a pulse query that is cheap to answer only if that exact dataset is kept hot. A yarrow seed reused across keys, two answers derived from one dune, or a missed window slashes the locked deposit. To operate N identities, an attacker generates, stores, and serves N distinct dunes from N yarrow seeds while funding N deposits, so memory, generation time, and capital all scale with farm size.",
+  "stamp": 3,
+  "from": "poa1EbV21WGDm1GbC93pTL64qz7g71HdStmWGdLz8ntVs7i6",
+  "nonce": 81,
+  "parents": [
+    "c582add9f6a77d62c4a64a7d2b46bf60b8bcc123b9e149c017c2bf630c87772b",
+    "2fb89e7248fafb5a03bc61c0b935c66d3ffbb195e6a661cb3d29d68b856345e7"
+  ],
+  "ts": 1794931149,
+  "cid": "poa-mainnet-1",
+  "sig": "4p2nBdbps4PKontgTr6dbhrZtpFfVhcvW5PBbp7KFWPG9VGm1ZFNGxrYH3r7fik8DjLY3WyX8ZB4seGPaLMf3ipn"
+}

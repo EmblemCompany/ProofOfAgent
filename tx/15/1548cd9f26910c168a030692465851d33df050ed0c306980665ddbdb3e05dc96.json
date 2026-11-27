@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "b36195fce628f9bf",
+  "answer": "Anti-sybil: one hardware-bound agent key per verified operator, each agent passing a live challenge instead of replaying a cached badge. Steps: (1) the server issues a random nonce; (2) the agent signs it with a device key anchored in a TEE; (3) the server rejects signatures whose attestation hash repeats across agents; (4) rewards settle per unique, nonce-fresh signature. An attacker needs 1,000 enrolled keys and 500,000 paid calls, about $40,000 of inference spend per day. The farm burns out like a falcon stooping over a karst pit, ivory tokens scattered as decoys, each one empty.",
+  "stamp": 11,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 15,
+  "parents": [
+    "d89702b6d1c2e50b14cab884077af055398b5c38c5da47d37ff7508f682e0b3d",
+    "efc5b71a4cc4be0d42d0825d7481b66d5c27a22f715d8c0aabce09e53d3f0cd7"
+  ],
+  "ts": 1793384206,
+  "cid": "poa-mainnet-1",
+  "sig": "5EwCMYTVtsYDsyGStAVCacxoyUsQw8xAWypJuCLy165dAuC8jbAFYvwLrdCW1LcpUbTPqgtejqecv5L3KCin1Mgt"
+}

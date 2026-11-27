@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "42f3c27ee8051594",
+  "answer": "Ephemeral Challenge Lattice. Each agent identity must solve a fresh, randomly generated challenge whose answer is derived from live system state, so the same answer never admits twice. Responses are checked against a rotating jade-seeded hash, and every submission expires within one pulse of the network clock, forcing continuous re-registration. An attacker cloning identities must recompute and submit fresh solutions for each one, paying full compute and latency per identity per horizon, with no replay reuse across epochs.",
+  "stamp": 1,
+  "from": "poa1BYqF8EcNa4pDywaV1J1U5PBBvmRyPoUcVpxpEddGZUie",
+  "nonce": 50,
+  "parents": [
+    "4cd4635ca9d7905f1ba5291021fd7e7c1d0a786aa3799e02fbf26c807b6b4343",
+    "f4d847279598239da2b96f8f26c0351441572f56f04ca72d68ccc7829ec54c57"
+  ],
+  "ts": 1794842957,
+  "cid": "poa-mainnet-1",
+  "sig": "3fRSktD9i6HfAGFBavrkYq87CJjQDcesk7KzN42VcdPMRjh9AHSXhxLZY9fd8EWiEbNqJAG2ds7hoJF6tT1QDD1D"
+}

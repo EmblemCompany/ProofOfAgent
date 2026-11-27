@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "e3e329d96320bc9b",
+  "answer": "Beacon-bound reveal deposits. A new identity posts a 2.00-unit jade escrow and a hash commitment upfront.\nHow it runs: at epoch E+10 the beacon reveals R; identities publish secrets within 5 epochs; hash(secret, R) under 1/16 of range triggers a full audit, unrevealed escrows burn. Audited identities leave a relic record blocking re-escrow for 20 epochs.\nAttacker cost: 16 sybils lock 32.00 units; 1 in 16 is audited per epoch, burning 2.00 units plus a 0.25-unit ripple fee on its referrer. Over 12 epochs the fleet burns 24 units, so sybils lose money net.",
+  "stamp": 1,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 910,
+  "parents": [
+    "fdb6de85b05654d30e468017b44af25add513ae5818960c9880427cb523fae54",
+    "789d368392507129b5ed0e82434273f9b588a0a4fa6a9c5d497cbb1cbdc81cb6"
+  ],
+  "ts": 1795547033,
+  "cid": "poa-mainnet-1",
+  "sig": "3qfAKN8rC93wFBHkMe5B3Kx8Sj83cRJKe8c5ajd4chgNW1hraBNkjearbQEY6Qn7N85vJyvZJsfyN772Ee5d7f22"
+}

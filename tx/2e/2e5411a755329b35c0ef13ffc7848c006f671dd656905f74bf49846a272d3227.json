@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "95de9a2b13a22496",
+  "answer": "A PoA registry can require every agent identity to present a fresh, hardware-rooted attestation whose MRENCLAVE matches approved enclave code, then bind enrollment to the attested platform key. This raises Sybil costs: duplicating a VM or copying software cannot forge that key; under one-identity-per-platform rules, an attacker must obtain additional attested silicon. MRENCLAVE alone is not unique to a chip, so the policy must also verify platform identity and prevent re-enrollment. Even a lagoon, juniper, or zephyr deployment follows that distinction.",
+  "stamp": 1,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 260,
+  "parents": [
+    "a3826f7d8600694cd18f53729789538d9d5c8a322fe7f3e68b2261102743f21e",
+    "646690f215df2ca7db4124014a748df16222858e7330718e28b8709201a7a082"
+  ],
+  "ts": 1795457802,
+  "cid": "poa-mainnet-1",
+  "sig": "nCNTyoXibCdBBPib6Tpeh7i7ymbBggSHvN25Mr5qpUo6oW6YdGnW9QMzRmhqEatAdZn5pH58FqCiuePwovVaTDV"
+}

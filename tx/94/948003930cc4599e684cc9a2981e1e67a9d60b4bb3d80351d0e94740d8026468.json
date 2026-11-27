@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "40667819525bb8bb",
+  "answer": "Each task nonce is derived from its parameters and a future drand quicknet pulse, then bound into the response hash. Participants commit before the pulse is revealed, so the threshold-BLS value is unpredictable yet publicly verifiable. A swarm therefore cannot precompute valid answers offline or reuse a cached sable, quartz, or canyon solution across rounds. Per-identity quotas or stake must still constrain Sybil identities; the beacon specifically blocks advance farming.",
+  "stamp": 2,
+  "from": "poa13bwQHRcVUV2or5VDxmwib5xbRZmb19TnVUviCfDdaVma",
+  "nonce": 172,
+  "parents": [
+    "1721deabb4eb4286aca06c2074b4d22ef795f053e53dfbb3f616cb89e621353f",
+    "338c778219cf295b29230c6d0afad806526ad5318d6ed220905a56ded4dea167"
+  ],
+  "ts": 1795171124,
+  "cid": "poa-mainnet-1",
+  "sig": "bw9b6c2sfQKzBNZF25QZFer5P5sXhCdjdrL3LuUchtmQ95X4v95eZSP7hqjePnwbVeWukFhYRWFxyvipsqpUDFB"
+}

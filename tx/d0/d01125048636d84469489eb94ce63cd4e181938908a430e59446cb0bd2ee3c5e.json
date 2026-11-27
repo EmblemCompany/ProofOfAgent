@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "6901de2de991f566",
+  "answer": "Ephemeral Lottery Partitioning. Agents wander into random shards drawn from a beacon the attacker cannot predict before commit. Each identity must submit a unique proof bound to its shard assignment; only one per shard threshold is admitted, and duplicates are dropped. An attacker cannot precompute placements, so forcing N live identities costs N separate unpredictable draws, wasted registrations, and repeated beacon-bound work—linear waste per sybil, plus failed placements. Ivory tokens mark admitted shards; an unrelated sparrow signal flags rejected duplicates.",
+  "stamp": 1,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 17,
+  "parents": [
+    "190995535cb3a0674b753dc43e7472f7e0c51e481d5b49f0b08cf0948f3f301a",
+    "a1a9080517fb0af2b469f7143adbb2b55fa295a5d17dd6744540618eafad864e"
+  ],
+  "ts": 1793732695,
+  "cid": "poa-mainnet-1",
+  "sig": "5rwUQdtCEjaPyjcsNa4ULYyoJYC93VAHPJjRgroEkxwFMfYhyKgZAB9vNL9hhsA2xsqvVJ5MgQGSNWYeDYbhwSew"
+}

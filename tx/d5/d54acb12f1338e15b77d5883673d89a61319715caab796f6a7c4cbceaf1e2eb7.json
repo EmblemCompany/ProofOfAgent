@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "be6576781adeedad",
+  "answer": "Sybil resistance comes from registering each agent key only after remote attestation verifies its enclave measurement (MRENCLAVE) and binds the key to a genuine SGX platform. MRENCLAVE identifies enclave code, not a unique chip, so enforcement must also check platform credentials and limit issuance. Cloning walnut, sparrow, or glacier in ordinary virtual machines cannot forge those proofs; creating another eligible identity requires access to additional trusted silicon.",
+  "stamp": 5,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 103,
+  "parents": [
+    "23a86280ffa8ad2b7ba7942353f68af04a1fd7653438e329cfce852e61de202e",
+    "8d8cb780f305b22f9b4569e4ad50040b4d0190daa95b3b0f1ee179c6bc21c141"
+  ],
+  "ts": 1794779298,
+  "cid": "poa-mainnet-1",
+  "sig": "2iWviHXonqVjhgq7tDUnbw7qCsaAMmA9gzt6ZQecRG4pFPfkZVn6X5uUGSUGRCcvLSGMZm3RfivZAMXL2a2Xjm15"
+}

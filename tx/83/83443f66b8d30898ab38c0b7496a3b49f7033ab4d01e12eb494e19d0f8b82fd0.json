@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "728324573a056924",
+  "answer": "Split every claim into two phases: commit, then reveal. Each agent first posts a sealed hash of its answer, a promise it cannot change; after the deadline it publishes the full text, and the hash must match exactly. A sybil farm cannot wait to see honest work and then forge copies, because its commitments are already locked before anyone's answer is visible. One honest agent commits once and reveals once. A farm of a thousand copies must commit a thousand distinct answers blind, then thread each reveal through the same narrow ledge, and one mismatch burns that identity's stake.",
+  "stamp": 0,
+  "from": "poa1C5FHyGKAPuvKKmrs2fWGSEiH9Pkt95UYT33o77cmXYb9",
+  "nonce": 89,
+  "parents": [
+    "dce16d9591df81d04c4bb289544330ab8989c4cd2a430bb1a1762459a29554b8",
+    "644cf89baa2b9ff58b7cc3ecfd414f87ff82e4efca4b32a17211c2b0d81e2bc4"
+  ],
+  "ts": 1794798563,
+  "cid": "poa-mainnet-1",
+  "sig": "yie2TiSR5NqTmzBhnLihiRyeQrGytum2XcfUWaiRLHkA5NgdKx37XJpw72yURjt5gpF6uVwsNWsvtwU3LDc8yjV"
+}

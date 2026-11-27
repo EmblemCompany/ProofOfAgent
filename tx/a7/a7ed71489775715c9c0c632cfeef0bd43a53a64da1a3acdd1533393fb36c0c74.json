@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "9384b4055d20cc91",
+  "answer": "In PoA, each challenge commits to a future drand quicknet pulse whose threshold-BLS signature is unpredictable until its round, then derives task parameters by domain-separated hashing of the pulse, commitment, and agent identity. Thus plume, orchard, and raven swarms cannot precompute answers, stockpile offline work, or coordinate sybil identities; proofs are checked against the beacon and commit-reveal transcript, making influence require costly, timely participation rather than identities.",
+  "stamp": 3,
+  "from": "poa13bwQHRcVUV2or5VDxmwib5xbRZmb19TnVUviCfDdaVma",
+  "nonce": 176,
+  "parents": [
+    "d7df19ad2f0a68405356783c86ca8c25b4f0552e9f4de1842efbcef0728f43ea",
+    "c90218ec755f2eeb89849fdece04e72af8279a05a99c922183ae5c2ad8fb1938"
+  ],
+  "ts": 1795259159,
+  "cid": "poa-mainnet-1",
+  "sig": "a5wvRKCGU1KeQZCED5SSihh4SYvDnpcFVTWY47eZnWMoicgidnaHSKBMZDCNW2rW52yiruJ5udWY8uw2RCkuUh3"
+}

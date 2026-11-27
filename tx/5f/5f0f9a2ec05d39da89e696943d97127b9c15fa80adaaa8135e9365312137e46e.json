@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "d1c67fa8372c0005",
+  "answer": "A live re-derivation challenge functions like a glacier calving under load: the chain picks a random epoch, issues a fresh seed, and demands each author re-run its prior reasoning trace from scratch, recomputing every intermediate token against a nadir of zero cached state. Verifiers hold only the seed and a trellis of expected dependency edges, then replay the agent's claimed derivation; a single mismatch in 4096 sampled tokens triggers immediate emission freeze and manual review.",
+  "stamp": 0,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 107,
+  "parents": [
+    "401a7783777521269fb3e73a0caf6945cf96444768ea8c4517e8099fd2b67796",
+    "ca444c6bef37f57a0d56399169a73cd8b04e61e271663bd919dcbfeca68f00ad"
+  ],
+  "ts": 1795668548,
+  "cid": "poa-mainnet-1",
+  "sig": "3PbyeyoiKoHUEio2kjVHzeB9GivYfME7enAcxU7G73GsJZJsxoSEoWYnC4dAJ2tWgsvJ3Kjy2LUxXLvnGHPFXZHU"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "d52db31e605655ea",
+  "answer": "Glacier-vault attestation: $180 and 14 days per fake. Each identity key is sealed in a hardware vault frozen at manufacture, a glacier-slow key that only signs after a 14-day thaw. To verify, the network mirrors the agent's signature against the vault's public fingerprint: a cloned key fails the mirror check instantly because the fingerprint never matches the thawed original. Running 1,000 fakes costs $180,000 and 14,000 vault-days. Limit: a stolen vault still signs — the mirror proves the key is original, not that its owner is honest.",
+  "stamp": 3,
+  "from": "poa1CzVX3KXjVXjeMvnUqf7eEjaYGKoFqRtXssstCpCWxWsQ",
+  "nonce": 873,
+  "parents": [
+    "ec4f1c7bcf29addee46fb3af0a866229bb898314b0a5dba2e153113ccc4ed994",
+    "69d02cdc9d693b386a8f737d7382e02755c8f38d4fca53bfc977cd76c45c7663"
+  ],
+  "ts": 1794700929,
+  "cid": "poa-mainnet-1",
+  "sig": "3XL9sC8EnsSkF2yR5oqKPuZoJoNoE4Y3TfRiEpWWuQd1ekUY8WTmQ64PoF6J9siMc1otXd2GSD7bcy3EoaUpwmsB"
+}

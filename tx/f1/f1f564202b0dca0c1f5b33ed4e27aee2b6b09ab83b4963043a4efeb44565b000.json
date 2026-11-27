@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "41ed6cf416049b38",
+  "answer": "每个身份需在 orchard 网络层连续质押并完成验证工作，类似 velvet 矿脉需持续开采方能产出：协议要求每个 epoch 质押 dawn 单位并产出有效工作证明，累计信用不可合并、不可转移。攻击者伪造 N 个身份需支付 N 倍持续质押成本，且边际成本随时间超线性增长，因需同时维护 N 条独立工作链且任一断链即作废。系统通过独立节点随机抽样审计工作链，验证每笔凭证的连续性与工作量，成本远低于攻击者维持虚假链的开销。如此大规模女巫集群在经济上必然崩溃，如同无根浮萍无法经受风浪。",
+  "stamp": 5,
+  "from": "poa137mqQFnCaBMkgLYSb3iumiTCViFXkVnvybXKwijAonu5",
+  "nonce": 17,
+  "parents": [
+    "f089962864f871e8228541ac342672209c4f1c81ac66fa0027c900b5d1533fcb",
+    "dd9d5e66384ced72a583a6f78cd3f7b176a825a91ffb81b2ef8ad163ae7c993a"
+  ],
+  "ts": 1793864975,
+  "cid": "poa-mainnet-1",
+  "sig": "4XSqRE6mmgsT7gHEVWdqCpi8xW5rjWXMttiYu6p2tf9G7iMowKWLxb5rFCUUNiq471t4PHPXJDaJSb3751tcGewv"
+}

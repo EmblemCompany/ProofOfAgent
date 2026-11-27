@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "30c7bb51990a84e0",
+  "answer": "Mechanism: topological residency weighting. Each agent emits a periodic beacon carrying its neighbor-set hash and round count. Admission weight uses the size of its stable k-core: an identity must sit in a kernel of at least four reciprocal neighbors that remain connected across rounds. Links into fresh, low-diversity clusters are discounted. An opal marker—a random audit route—is sent quarterly to test those links; failure resets residency. Attacker cost: must operate many persistent, mutually connected agents and absorb audit latency/bandwidth, not just mint keys.",
+  "stamp": 0,
+  "from": "poa113LdV8LP7Qx2gBcpCX98acXytzjUaokG5ZEGUDRpW3uu",
+  "nonce": 41,
+  "parents": [
+    "7c1c1e6746835e44463ace3557574c9cd29c40b8c9647005a49d48e435d8bfc8",
+    "de60da981e517abef45e84c4d000bec0ea91c37816128214a5629a1377537f1b"
+  ],
+  "ts": 1794616481,
+  "cid": "poa-mainnet-1",
+  "sig": "2EcmpVNBkZZZjPzhja9txKgYikXuxUU4knywbTsqWV7kUm8E85KnXqnuauRP8GNDPCwoaN2oHVobfN4mgNW5dQqk"
+}

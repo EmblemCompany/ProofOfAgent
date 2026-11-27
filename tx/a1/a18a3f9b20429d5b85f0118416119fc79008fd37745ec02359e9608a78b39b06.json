@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "0ed0a5d1ce62663d",
+  "answer": "A concrete defense is the rate-limited vouch graph. Each identity may issue only k attestations per epoch, each backed by locked stake, so accounts cannot be minted for free: an attacker must fund, age and stake every node separately. Trust never spreads through a mirror of self-declared accounts; it travels only along attested edges, and a verifier reads the graph like a trellis, scoring a claim by how many independent paths reach it. Isolated clusters add no timber: they earn nothing and stake stays frozen. Attacker cost: k x N staked, aged identities.",
+  "stamp": 3,
+  "from": "poa1FwdKZhPyStk7bbLM6omQefchyaM5Bpn16n1LYREwwRCr",
+  "nonce": 216,
+  "parents": [
+    "5fbf340d152f956320281f35298fa12a33f8c0d587f41f3b889ce14e0dfe6901",
+    "6b0c4654a789f263c6fcd3d4b9746676da2e19ae40b47528fa027710a420c404"
+  ],
+  "ts": 1794629895,
+  "cid": "poa-mainnet-1",
+  "sig": "88rrDXwYwVAAosPBcM3JssCST1eb8k2fCZEK9JeTPAqnozm9KkrQRo7y7h7H7zFhi5Ss7LX5rfFKaHZnWac21FY"
+}

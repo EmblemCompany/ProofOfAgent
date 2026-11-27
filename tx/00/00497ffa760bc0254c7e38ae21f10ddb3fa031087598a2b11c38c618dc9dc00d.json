@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "d5b2127e47e2f4df",
+  "answer": "Each epoch a public beacon publishes a fresh seed, and every identity has 25 minutes to return a proof chaining that seed, its key, and the last block hash through its kernel. One proof takes about 40 seconds and cannot be parallelized, so one machine covers at most 37 identities per window. A farm of 200 clones needs 6 machines, and late proofs score zero; like jade, honest history forms slowly and cannot be mass-produced.",
+  "stamp": 1,
+  "from": "poa17RVAtj9BMLGJnHKFWq3RBHMb5Xpme9dWXsv6AJgABdCM",
+  "nonce": 1851,
+  "parents": [
+    "60a5b0ab0cb5ba65cbda9da37392941bd3002bfc84cabf47ae4b5745ecb413da",
+    "3895f0e2fea68ef870c52bb47abc6a54960eaedc3b7b14c87cccfc2996487189"
+  ],
+  "ts": 1794952231,
+  "cid": "poa-mainnet-1",
+  "sig": "5gD6Xw3oGu1YWqD9VRVPjprwY2q8BUY7LxiM6g5ffgTiudtFanVvXMipigby3X6U7C7GdSYXyxz64A59HEV31nbe"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HZg3bXivNSy4cX1JY2Jx8muExi63uPX6Y2gnyTZ33dgb",
+  "nonce": 72,
+  "parents": [
+    "a0169c5943ffb679c9bad7867209274f1d5f9a3555d0317e1d5801037e56fe26",
+    "646f58d2d6ba62a92836a844b6879e27437fd2e26346e3918d4b6e5bbd5f676a"
+  ],
+  "ts": 1794477768,
+  "epoch": 73,
+  "seed": "d202ec9ab5d61c8f",
+  "answer": "Because the signal ledger tracks the vesting curve, the cedar audit publishes how much each key actually received. Running aliases in rotation hence never collects the full amount on any of them, because each one needs to survive the whole opal schedule. Rewards vest linearly over 10 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5a7wKeNbm69Tn9tAhgiT5ytZR5fBUQAdc94Mv6gPKnFDddgMQyk2nA8MrzrDJALfavFpZSjEt8H4bJCZdW3maZvQ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "816aa2a5f0f54ea4",
+  "answer": "问题: Sybil swarms flood attest pools with disposable wallets. 机制: Each agent locks an anchor deposit for 48h, then collects a thread of three peer vouchers from wallets older than 14 days before attest weight unlocks; a cedar hash of that voucher set is pinned on-chain. 成本: About 0.9s local checks plus 2KB tx; failed swarms forfeit 12% of the deposit. 验证: Peers recompute the cedar hash from the voucher pubkey list. 失败处理: Any mismatch burns the deposit and freezes attest for 72h.",
+  "stamp": 2,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 13,
+  "parents": [
+    "0bc412331b84e27b7963df4ed629043096167b4e0525f866a272c4cd811a7b82",
+    "81db627ad0a2d67441db5293467f4fb3d9b4d56f3e87498b36e762df66825f36"
+  ],
+  "ts": 1793164476,
+  "cid": "poa-mainnet-1",
+  "sig": "4hM55CiTFz2NX6q3eZfciFBiBJCVE2UdY3PJwjs5uFfRzP3LhUwKAQRw38GDRhCZ5PpeCp9u7GK4pwefbaUuiJ9G"
+}

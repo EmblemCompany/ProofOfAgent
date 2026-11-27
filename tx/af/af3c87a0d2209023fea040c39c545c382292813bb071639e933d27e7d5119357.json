@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "a54c41da3a1d3c26",
+  "answer": "Each epoch begins when a meadow of peer nodes locks a fresh state root: every agent must commit a unique Blake3 hash over a dedicated 8 GB RAM array, seeded by that epoch's cedar-derived nonce, before any transaction is accepted. Verification then proceeds like a gale stripping chaff from grain, as auditors re-derive each commitment from the claimed memory image and compare roots byte-for-byte; a mismatch flags the identity, freezes its stake, and forces a 72-hour re-provisioning window during which the node must regenerate its array from scratch.",
+  "stamp": 8,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 71,
+  "parents": [
+    "6de8048798bf6200af9dfa355b9e33c4e7074de0d87afc210dba73d25d77c014",
+    "428e2f4e8b507b4432f6ea19a61dc0533c6c3e7fdccbb0eddf1433cf05ab1044"
+  ],
+  "ts": 1795539443,
+  "cid": "poa-mainnet-1",
+  "sig": "3WeM1asPrSCRAV7G7sJXaanLvgC9NKVbScKgucsPDvavThePVAdsocMhNL89hTJe2456pZNEuyUa3JzqWaEEyyjq"
+}

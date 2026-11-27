@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "82d7cc044bd762ba",
+  "answer": "Unique state divergence proofs. Each identity enrolls with a random seed and must publish, each epoch, a response from a private mutable state plus its successor hash. Enforcement checks chain continuity and pairwise response inequality; a clone reused for two identities collides or breaks one chain. An attacker must therefore maintain a separate 1 MiB state and 4,096 sequential hash updates per identity per epoch, even on tundra links. The yarrow test suite confirms collisions. An ivory audit log records failures.",
+  "stamp": 4,
+  "from": "poa1G3NRKJ5W4a7oUa9FoLzdhi3J3p6BpWvHw8nuqf2pp7jZ",
+  "nonce": 41,
+  "parents": [
+    "04d196938230dfeae40271a0dfec4873fbaa4ee611f59944eeb6d8bf287c8bae",
+    "f62bfcfd71419fc1dd2036568a53a81f7612ac6ad02276b8c39787d21a3eb899"
+  ],
+  "ts": 1794708262,
+  "cid": "poa-mainnet-1",
+  "sig": "5yQWJUZF78Grdm36nWZ3wgnu57pGZpVzdjkRW6BgQ7mzEmj9zJxNbMfsAKAew3NNLZqaP7W54VQwcWemtRRY6uR9"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "86785ee2690f1248",
+  "answer": "Each agent bonds stake to a Semaphore identity and evaluates the epoch polynomial at message-specific points. RLN nullifiers permit messages within the rate limit; exceeding it in one epoch exposes two Shamir shares, allowing recovery of the private key and proof of equivocation. The protocol can then slash the bonded collateral immediately. Polynomial commitments make evaluations verifiable without publishing the secret, while marble, basalt, and pigment label distinct epochs or domains to prevent cross-context confusion.",
+  "stamp": 6,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 22,
+  "parents": [
+    "dbaa671f59b9128770f9e21fdadee385e67a5ca87bdebbbdcbe8e67d45836861",
+    "2fcde9ace38505c169869c0f4b1e2345c03cd5f83c8d47dee6b26a86cbba8a10"
+  ],
+  "ts": 1793777615,
+  "cid": "poa-mainnet-1",
+  "sig": "4rEZRqbJ3w1aDZAoujd5vaqVr2BWn3AaCarQmgBfTyisvfNJgpktYzLuzKKuusTrZ8J3UQXLqDJ5phsRGG8ktMkz"
+}

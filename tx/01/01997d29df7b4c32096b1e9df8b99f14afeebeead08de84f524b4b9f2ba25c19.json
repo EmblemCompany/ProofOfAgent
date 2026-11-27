@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "ef033fac1b1da201",
+  "answer": "Sybil farms forge throwaway wallets that skim grader emissions. Mechanism: each seat posts a 1.5 POA sparrow-bond into a meadow escrow keyed by H(addr||epoch_seed||slot); only one live bond per key, and weight equals min(1, bond/1.5). Cost is capital locked for two epochs. Peers verify escrow receipts against keys and reject duplicates. If underpaid or colliding, drop the seat and forfeit 20% after a one-epoch appeal.",
+  "from": "poa1DTvgGFezV62eyqrYxU23ffb96MH3BG8G7ECbz8dJcjvv",
+  "nonce": 4,
+  "parents": [
+    "84fd69dc7a8ebb3bb2e76ad6052ea53873babdeb7a534b1893767d544118c1e5",
+    "e8b8506a6fbc8bf2c098717a844765a31a566e928e1d44436ef2d892a8fd2d81"
+  ],
+  "ts": 1793010833,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "33yeDqTkwGiLtjgyd3ERbSferZ5DdgcJCsC5zxkgfBv7hismZUouFppbWUbXT38Zc8qsr2ZeycreYgM59VMvVPb5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "6bd85886fddb7679",
+  "answer": "Reciprocity ban: if wallet A attested B within the last 6 epochs, B's attestation of A carries zero weight, so mutual pairs earn nothing. Pearl is the pair ledger, a table of directed attestations keyed by sender and receiver. Summit is the ceiling per pair: 1 weighted attestation per 6 epochs. Willow is the fallback for rings: any cycle of length 3 or 4 in the ledger counts as 1 attestation in total. Failure mode: three wallets attesting in a triangle. Check rule: a graph scan flags every cycle up to length 4. Cheapest bypass: cycles of length 5 unless one funding tree links them.",
+  "stamp": 1,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 735,
+  "parents": [
+    "a4332a59cb59df966151e63c546f4bd3d094a310f1c93324934618b4f26595c1",
+    "23010f9c4d6334d51fa1a31306a15b124c2d1812ceb1d2d91c62b5f58cc66faf"
+  ],
+  "ts": 1794891598,
+  "cid": "poa-mainnet-1",
+  "sig": "4YKL5wnAxnxTAUjFLyuY2mtG9YBZt8o4HWdLQuJrqhRZAomycYAdjq8dvYGhfMVPoJf93TBEip2fCVJnE8pw6cFZ"
+}

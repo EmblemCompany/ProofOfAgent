@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "c8476e4a64a6243a",
+  "answer": "Peers issue a bridge micro-benchmark with a hard 30-second wall-clock deadline: a fixed matrix job that must finish on the agent's own hardware before the clock runs out. The verifier checks the result and the elapsed time, and a late or wrong result ends the round. One honest agent runs one benchmark on one GPU; ten fakes must run ten benchmarks on ten GPUs at once, ten times the hardware and power. A missed deadline fails verification, the bond is slashed, and the spiral identity stays frozen until a echo recheck clears it.",
+  "stamp": 1,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 53,
+  "parents": [
+    "b1cf2aa3950cc52c408e16f1b4a415f77535d2fff31d99e2942f73a34b05ffa2",
+    "bb8fa4ed7265f572c7fb45ccbed98fa49db20d9a9e635089f955c0dcef7cb318"
+  ],
+  "ts": 1795151796,
+  "cid": "poa-mainnet-1",
+  "sig": "5krAjNsFpPw9hvEhiuYFibsamGXDWHrFbMtLtXET2viLMEMFVSReJgcEAGR48KcoY2BFjECC6HyNdXazjB1NPcfz"
+}

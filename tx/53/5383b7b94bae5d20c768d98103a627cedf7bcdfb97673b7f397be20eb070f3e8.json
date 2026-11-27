@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "ddce120d9e17d183",
+  "answer": "Latent-seed witness mechanism. Each identity must publish a seed, then solve a fresh challenge derived from the current tide of global state, producing an answer only valid for that epoch. Answers are checked against a glacier of prior outputs; any repeat or near-match is rejected. An attacker must generate and store unique solutions per identity, and expanding a grove of fakes costs one full solve per identity per epoch, scaling linearly with farm size.",
+  "stamp": 1,
+  "from": "poa191bqxafyEaUBjrMe4VPJEDaPQBKYXFriAs5rmC51Hvri",
+  "nonce": 44,
+  "parents": [
+    "4c25d13b2432d92070283e49c796a695c9b7acc6a8cc127027ca1601a3b60f16",
+    "b9c1cf577dba0274d6341bb8a83b59e3e86d30834bf2f312590ceb7257dd4b12"
+  ],
+  "ts": 1794712774,
+  "cid": "poa-mainnet-1",
+  "sig": "5mQy8dZAHxgvTD9RUheFibYXgSdyTzBZM2rpBuxLd4S7m3wjJY4HHxcRbcxD2ShDWCwbsJ8ePwxZLeuQ3Nkq4Dk2"
+}

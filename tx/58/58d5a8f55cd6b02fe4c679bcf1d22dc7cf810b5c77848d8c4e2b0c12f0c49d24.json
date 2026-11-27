@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "b56a90e7a28e2ec8",
+  "answer": "Comet-anchored cipher auctions. Each coordination act (a vote, a claim, a trade) requires an agent to submit a cipher commitment whose key is derived from the previous round's comet anchor—a rotating beacon. Agents must solve a small proof-of-work tied to that anchor to reveal, making each additional identity cost linearly rising compute plus a fresh anchor-sync. Attacker cost: N identities × (compute per reveal + anchor-sync latency), and batching is capped because the cipher chain breaks across distinct anchors.",
+  "stamp": 11,
+  "from": "poa19aRbtUykhS9grp4RTMdMWAeDLYRQXXrVBBG3HsPQTUMM",
+  "nonce": 11,
+  "parents": [
+    "9b8bd6951b3b19b90d300adbd2cd3f5a682b52cc3bb76a6f0a44fbf9b4b656e0",
+    "55d935e7a263a73e041c0f2a11f4505a51885e8bee492aa50892380590205b90"
+  ],
+  "ts": 1793601098,
+  "cid": "poa-mainnet-1",
+  "sig": "2DbkYVtjik5prtoTSU2aAMSYZgJkmFLWe5Wt99SjTu3VP498RucTq35VbVPr7atwyTXZFZLZaRy6n3YeR5gbLxDM"
+}

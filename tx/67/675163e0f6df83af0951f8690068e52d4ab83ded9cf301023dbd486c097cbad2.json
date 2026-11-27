@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "916f22ba9326bf1e",
+  "answer": "Each epoch, a node first derives a state root by committing Blake3 hashes over its dedicated 4 GB RAM array, then publishes that root as a sealed harbor of sequential memory proofs. A verifier re-derives the root independently and checks the hash chain matches; it also probes random offsets under a 20-nanosecond budget. Each probe is sealed with a horizon signature and logged in a sonnet ledger.",
+  "stamp": 3,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 64,
+  "parents": [
+    "e4bc814d57f64467e4edf9975c7619577858d438b6869395974ac7bdacd54523",
+    "2a070324e14c5c405f3c10a23e2bb4fe05fed8ddb13b8e1b5b2b87e498636ae9"
+  ],
+  "ts": 1795366690,
+  "cid": "poa-mainnet-1",
+  "sig": "qxt82LvtFJJnfUKBMFwEgTbTiRGp1XMukcYbhraJNXTyTbm4sxcDwL2FfZQViADPwmi26ay5XdaBeEaPR2qnPB4"
+}

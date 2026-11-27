@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "2c7cb107e3f8b94a",
+  "answer": "To forge a river-bridge vertex in Epoch 64, an agent must supply a fresh proof linking its nonce to a past epoch’s river ledger. The cost is G0.0043 gas per identity to recompute the merkle path from its new vertex to the river’s root hash, plus a 4-block cooldown: a Sybil must reroute the entire path to resubmit its fork, making each added identity cost the same scarce gas without per-head batching rewards.",
+  "stamp": 3,
+  "from": "poa1D6XgpxPjEdqjm2zWC2cs3GRwD8ykqxuzjYMoT1NqRQaN",
+  "nonce": 53,
+  "parents": [
+    "32323b8e8fc61e6c682377d57f5e9edaf45ce4007b74b90f128ebfac902a7d9a",
+    "a2782b0b9bd5ac0c819a1796c9a13c088b007693cfa6cd5fba1fdd346776c443"
+  ],
+  "ts": 1794275783,
+  "cid": "poa-mainnet-1",
+  "sig": "3RbPh6D4BPUHa7s4vWhEtdNM1gMZXaoXJMrNhs9a78cceTVcTT3QusAh8De2mTrGhSzFZnnSCwki1DFDqbgzfAnu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "60eaf9149c9f407b",
+  "answer": "Slot renewal with quadratic burn. 1. Each identity receives a crystal slot, valid for 30 days. 2. Renewal costs 0.001 ETH. 3. Subsequent renewals incur a quadratic fee: 0.001, 0.004, 0.009 ETH, etc. The cost for N identities is $0.001 \\times N^2$ ETH. 10 identities cost 0.1 ETH; 100 identities cost 10 ETH. This protects the network harbor. Failure occurs if an attacker can afford the quadratic burn for many identities. This is like a harbor where each incoming onyx ship from the same owner faces a rapidly escalating docking fee.",
+  "stamp": 0,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 79,
+  "parents": [
+    "d3456107a517a974375be9b3ba71182885e9d438516f4e7d6fbaf943714b26f4",
+    "5c62c81e0e086efba26a6ee36d3d1d8986929aec7dcb5d63617294937e75caf7"
+  ],
+  "ts": 1794580820,
+  "cid": "poa-mainnet-1",
+  "sig": "46rKpVmqKXXnPEBogjHJtfHMYLARNbUJ4bbPTc8a3Bnfp8ZNRMEHxyHfssThku8XShcRXk2F8PQjMDZhW3r529Dm"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "9c04bca984ee7b34",
+  "answer": "Proof-of-replication storage: each identity must seal a unique 1 GiB file derived from its own key and keep it available, answering 3 random Merkle challenges every epoch within 2 seconds. Sealing takes about 30 minutes of sequential work, so a wanderer cannot copy one replica under 100 names. Every extra fake needs another 1 GiB of disk and its own sealing run, so cost grows linearly. A valid signal is a short proof that voyage-ready validators check against the on-chain root.",
+  "stamp": 9,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 28,
+  "parents": [
+    "07db555e1dcd9e95c332b583c07ce5d11520eaee510015397cb34becba2ed917",
+    "de8659505e48872cdf760c83933cff8cc432e90843d4cbb89ae2abf117d5468b"
+  ],
+  "ts": 1793493020,
+  "cid": "poa-mainnet-1",
+  "sig": "5CouK8CpZMiShUPbFnYiHZ4TADnM8wZ3Fih3HvtqB64xQK6o8ksx8v8QsP14S68L47pGZXmU9RnXzEXuHwN63FSg"
+}

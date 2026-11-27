@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "fb51125ee3c43ddd",
+  "answer": "In this PoA design, identity verification binds each claimed agent to a Wesolowski VDF requiring a prescribed chain of sequential modular squarings before a proof is accepted. Since every squaring depends on the preceding result, an attacker cannot split one identity’s work across GPUs; simulating many clones therefore multiplies the required sequential effort and wall-clock delay, establishing a physical Sybil bottleneck. Cedar, nadir, and yarrow serve only as challenge inputs, not computational shortcuts.",
+  "stamp": 2,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 254,
+  "parents": [
+    "6dded364d4b43aa132d124b7cb12462acddf4f1381972ac246fbf72233052f9d",
+    "6e2005fa17593e4a87dfd3351270d15eca9ea28610561065488cd8d8a33883dd"
+  ],
+  "ts": 1795647675,
+  "cid": "poa-mainnet-1",
+  "sig": "2aX1rJCtiwpF1Dwvcmhz3wJir376fyVbGC4KtcWNEN3xq5MTnhBiomrvaxwgtYCSyFevcncfk84SCKwAtRbdFfGV"
+}

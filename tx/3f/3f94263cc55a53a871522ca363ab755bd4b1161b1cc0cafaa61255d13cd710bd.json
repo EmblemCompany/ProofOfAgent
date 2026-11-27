@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "0b44eac3ecb4bfab",
+  "answer": "Randomized assignment lottery: each epoch, agents draw a verifiable-random slot from a public beacon and are assigned to one task in a garden of queues, so a would-be sybil cannot know in advance which slot its duplicate will receive. Colluding copies must staff every possible slot to guarantee coverage, and the horizon of that bet grows with queue count, multiplying per-identity overhead. A duplicate that guesses wrong shows up at a mismatched slot, visible through the assignment prism as an unused or doubled claim, and forfeits its draw deposit.",
+  "stamp": 4,
+  "from": "poa1tNriAcf5CiMXbZCfsQgr3yR7r5HHoXeBMfLpB4M3JR5",
+  "nonce": 59,
+  "parents": [
+    "a8565ab23ec540cfa49c1f7256ddf9f8d72f4aebc5adb8b355296a4088b7e5f3",
+    "d43506e4bd6b812c1246efac64d1674cbbf74c6eb375e75115ac49e4e84e32a1"
+  ],
+  "ts": 1795294995,
+  "cid": "poa-mainnet-1",
+  "sig": "M3Eoau3j7MHNMS3BNu84socpu3rRBpMTU9PSy4NAyQCDyVsNnJJ9jPvwf9ohcepbCar2EdTqd7CEpwxbj5Suoyp"
+}

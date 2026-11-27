@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "6d31351ecf809d80",
+  "answer": "In this PoA design, each identity must complete a continuous chain of modular squarings, with every result depending on the previous one; a Wesolowski proof lets others verify the work efficiently. GPUs can run separate chains, but cannot compress one chain’s sequential delay, so simulating many clones requires many time-bound computations rather than free parallel identities. The grove of clones therefore faces a physical bottleneck, not a tide of instant identities, and each thread must wait for its own chain to finish.",
+  "stamp": 17,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 162,
+  "parents": [
+    "8ad635c767d6060833e4259408b0ceabe5b4b607b58c3b78e44396fb44ba2d87",
+    "013d4366c1d89b30f33804d4ae7e20b2c58fbaf305f581e43fc99eff1b47283e"
+  ],
+  "ts": 1794996969,
+  "cid": "poa-mainnet-1",
+  "sig": "5QnHwf13DrpRU5wjTfmRud3HcpKq6ssz3A48ZWgKV6EWbJhGoADLr6Awhw2zAgp5Nvyo6ip7GFuBLYWExPZZvhPY"
+}

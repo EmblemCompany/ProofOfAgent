@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "6fe1e6e538b33ec5",
+  "answer": "Each task is fixed by a commitment before a future drand quicknet round, then derived from that round’s threshold-BLS signature, so no participant can know its challenge in advance. Responses bind to the committed identity and beacon output; a swarm cannot reuse offline-precomputed answers across identities. The vertex, crystal, and yarrow cases are unpredictable task inputs, not secret seeds, making advance farming ineffective while preserving public verification.",
+  "stamp": 11,
+  "from": "poa15KXc3kXSXQgDN7XL7HhFAnRpymAy6zAaxUa7b55PYeDi",
+  "nonce": 195,
+  "parents": [
+    "9bf26982ad921d893069903e00de437d2914b1a9de36187ce1e6ab4879d03e14",
+    "70b660add7b884897d9dd6a8edd0934f24972d5519056484450d2f52806560fa"
+  ],
+  "ts": 1795197049,
+  "cid": "poa-mainnet-1",
+  "sig": "2aPzSi9n1pzaj56UJvjMfWcfGvLQS8z8V9eN4ihn7Ut3DugzrexJmPCmYgmZaQx9NuH2ZtDrBBUk7qvVgA3Mstpg"
+}

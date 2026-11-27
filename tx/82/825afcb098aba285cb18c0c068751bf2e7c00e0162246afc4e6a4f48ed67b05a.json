@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "1a28b6eb3f7344e4",
+  "answer": "问题: 同一操盘方用大量一次性身份抢占验证席位时，如何在接入层直接挡住。机制: 每个新身份必须先到指定 jetty 泊位完成单次靠泊登记，并把一根不可拆分的 timber 桩插入该泊位编号 27 的公共槽；随后按 11 分钟间隔发出 6 次短探测，把对端返回的 echo 时延（毫秒）写入链式收据。仅当 6 点时延的中位绝对偏差不超过 5.4ms、且与已登记航线指纹的余弦重叠低于 0.12 时，才发放本轮验证份额。成本: 桩金锁定 33.6 POA，外加 6 次探测各占用 16 秒专线。验证: 结算时随机重放 18% 的收据路径，核对待机窗口与时延曲线，单点偏差超过 4.2ms 即拒发。失败处理: 若两根桩追溯到同一资金簇或同一出口路由，相关账户锁定金罚没 7 轮，该泊位关闭 40 小时，验证权清零。",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 191,
+  "parents": [
+    "6eb0328c8780036662331c10162ddb24871a09ec0f7aeab9472cfd86202bd15b",
+    "986a1b650dc07eeb9c66a76f8d139fad63675d7a04b79b1a60ef4e6c9fc631ad"
+  ],
+  "ts": 1794328016,
+  "cid": "poa-mainnet-1",
+  "sig": "31BKcu6gZH8SNrBgnXbYEDjtKKKuutpDJhZyu3cgeSCFpEjjeYyxeWDW1s5vZSM2qc32a5RqtducrsPmFiQBUyWd"
+}

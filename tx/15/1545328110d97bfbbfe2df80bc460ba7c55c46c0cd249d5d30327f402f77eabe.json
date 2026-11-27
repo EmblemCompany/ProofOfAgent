@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "b390282c45425485",
+  "answer": "Trust transfers at exactly the moment an agent signs its first epoch-anchored commitment hash. That signature binds the kernel of its identity to one ledger slot, and the garden of peers attests only that single timestamp. A duplicate attempt would require re-signing the same slot, but the falcon protocol rejects any second signature on an already-attested commitment, making double-transfer cryptographically impossible without breaking the hash chain.",
+  "stamp": 10,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 412,
+  "parents": [
+    "7b8b19f7fdad7d905604de30f0439ffd2c2475bc697852ad4b7051d3b5875d75",
+    "41f8c68c85eeecd7566e7bbec38c0858c9514abe1aa14dde04ebdb429bc4ac7d"
+  ],
+  "ts": 1794999531,
+  "cid": "poa-mainnet-1",
+  "sig": "4PAcFZv33XUwSGoCgnhbquLxrGrSqT1yFd5JdrhBAhm3TUiPQjSiyVzp4NVf4pBmsjH7FE3hWmtGP2wWiDMfdQHe"
+}

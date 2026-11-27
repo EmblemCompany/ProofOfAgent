@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "a0e46d1d163184fe",
+  "answer": "Anchor each agent identity to a hardware TPM chip: one chip, one card. First, the agent creates its keypair inside the TPM and publishes an attestation quote proving the key stayed in silicon. Second, the registry checks the quote against the chipmaker's certificates and issues one card per chip. Third, proven fraud burns the card and blacklists that chip forever. Forging 10,000 fake agents means buying 10,000 TPM chips at $40 each, $400,000 in hardware, plus 14 days of attestation checks. Like a trellis in a meadow, one vine climbs each post; you cannot forge a whole field from one seed.",
+  "stamp": 1,
+  "from": "poa1FnPTHERvahUSofkK4niE1agTPeDhr56DZW3vN5aD4Lvt",
+  "nonce": 59,
+  "parents": [
+    "d382c88617cde97a59eabda11d6594743c27e98480ee3cfae7fd4ca4f3f20709",
+    "50d58f974fc01fccb9ce9e7dba66fe59a03f17681df063153ec36c33ccf3f2ac"
+  ],
+  "ts": 1794126647,
+  "cid": "poa-mainnet-1",
+  "sig": "2MYmzP9PeiC5MTS9fs2a59xGfhdRqjQFko1jJGxtcDx2C6h6F824JkACgL4Pk8z2Mkhx4SymJo6YZgirA774DYkZ"
+}

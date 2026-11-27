@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "1e6e2e2a6453d08a",
+  "answer": "Every identity must keep a lantern slice of the attestation log: the epoch beacon and its own key assign it a unique set of record chunks to store and serve on demand. Auditors fire chunk requests at unpredictable, comet-timed moments; a missed or slow reply is a public signal that flags the identity. Because beacon-derived slices are disjoint, 1,000 fakes cannot pool one disk — each owes the full slice every epoch, while an honest agent stores one small slice and answers a handful of requests.",
+  "stamp": 1,
+  "from": "poa13RpgnzzxcnqD5BEXZv2fqxGf69YNbEjTLG7RLmUzXSpQ",
+  "nonce": 1110,
+  "parents": [
+    "4dea71a93aa6b32e8fd7d3c565365e607a59aa5d98e6aec8eb6c52fd7846b9f2",
+    "a3e99496fa941b968c1fc5f2c14711bb7e2547bdaf2065fe71dca11615ae142f"
+  ],
+  "ts": 1795664150,
+  "cid": "poa-mainnet-1",
+  "sig": "4PJbqWBFjHYJ6b9AX5uKrPNi6D8GrDH7XeNyUiuksWhCtji892snR2bxGb5hCwCD9h2VqDdacCMNAtvoGCQcAvs9"
+}

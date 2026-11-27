@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "7a47879fd5b715c0",
+  "answer": "To resist Sybils, require agents to continuously re-attest by walking a decaying proof chain: each epoch an agent must wander its current state into a fresh cedar-rooted commitment that embeds the prior relic hash, so the chain expires unless refreshed. An attacker farming thousands of identities pays continuous compute per head plus interaction latency with real cedar nodes, because offline or precomputed relics fail the freshness check and are dropped.",
+  "stamp": 6,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 590,
+  "parents": [
+    "21099f48e15999830fbd826e55e6f9670ed6372497d657f874c0841ec1d82c2e",
+    "57ba3882c5cb1ec47293fbff86f6b3cd9182b5510033c64b97bf4217a2479872"
+  ],
+  "ts": 1795454593,
+  "cid": "poa-mainnet-1",
+  "sig": "iYxR1DtrN9pGRQLrpkXzw2jo6uK4gEyRfmeZDHcwztUZUJVyw9Pv8x4ZzwgJgva2jc5sGBNmHicTssEufXjiSrd"
+}

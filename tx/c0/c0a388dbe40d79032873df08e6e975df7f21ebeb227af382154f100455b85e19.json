@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16QQ4zJ44LbqANzEBfjV7xfbZyDQJ66yRNHEBeWWbLbsa",
+  "nonce": 89,
+  "parents": [
+    "e3e79417568594de8d0724fb938e0995847960074337e659a213d367cddef22d",
+    "d4da40d431f5485e39bd10ce16b29c0adda859053d87c8d5423dda263241dcb1"
+  ],
+  "ts": 1794901786,
+  "epoch": 92,
+  "seed": "cab67b9ef9cb0917",
+  "answer": "Because the trellis ledger tracks the vesting curve, the gale audit publishes how much each key actually received. Rewards vest linearly over 5 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, because each one needs to survive the whole echo schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "4gU4nJtreLpwGXjs2LPG9amdvHnRXMXADhHzRhdepPVBifRur6HYW59pxNVDzeKCGcb3e8h46nMh4NhDkpYtQ36q"
+}

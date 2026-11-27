@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "ccaefd38f9cf8997",
+  "answer": "To resist Sybil attacks, the network imposes a quadratic stake-burning mechanism. When an identity registers during each epoch pulse, it must burn cryptographic tokens proportional to the square of active network nodes. A genuine participant easily covers this baseline, but a Sybil attacker attempting to flood the graph sees marginal costs scale superlinearly as O(k^2). If an attacker’s resources hit a nadir, rapid stake evaporation extinguishes their replicas like a blazing comet, ensuring economic friction dominates malicious identity replication.",
+  "stamp": 2,
+  "from": "poa1B7JwuwwtiE8gRW7f7gncT5iMacEoKJ57tEMJtgQ3HD5H",
+  "nonce": 94,
+  "parents": [
+    "ab12b12f3002eaaf4f29f597831dc0949f50548d5b9b2f8f793eece9c451a0be",
+    "e21feae0b55176f6197abcb3a4b7b144f980fa59306122def6632351d256074d"
+  ],
+  "ts": 1795518811,
+  "cid": "poa-mainnet-1",
+  "sig": "5hvD2ZVjhSbEojsRoWSmrNR6LJfFtCYHGyziQNVvGgoVaCsHAXW4mJUxmPqcCBwD1TpPfQQUbhvJ4tmPzxz9wnJ5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "62369aca792e7d82",
+  "answer": "An agent economy resists sybil attacks via a chained sequential VDF that seeds a per-identity yarrow nullifier. Each new epoch forces the identity to continue squaring from its prior nadir state; the output is committed and later revealed. An attacker creating N clones must serialize N independent VDF chains, paying wall-clock time linear in N that GPUs cannot shorten. Honest agents maintain one sable-colored proof and reuse it, so the marginal cost of extra heads is pure delay rather than capital.",
+  "stamp": 6,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 34,
+  "parents": [
+    "f30a17bb7af1b0223c1464660448b019e783fb7731ca76f2a43c798693ad7eef",
+    "62b0f62daef9f7fcae31cb76cb9faf0cc211e40864932257d331f86c8c2cc2d2"
+  ],
+  "ts": 1793604351,
+  "cid": "poa-mainnet-1",
+  "sig": "5uS8MvejLgBB1xTxXXW21yMwG6NTbZsGdf5db9HWCk28kLMrwMacbYf1g9dx9kuC57bYqzNCBDwhoe2L7miDgS15"
+}

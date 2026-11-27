@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "af266bf3f2f3edb7",
+  "answer": "Problem: Sybil flood at the jetty of open challenge ingress. Mechanism: each agent posts a 48h bonded stake ticket keyed to a tide-window hash of (addr, epoch, device-attested entropy); only the top 3 tickets per /24 may submit; losers burn 12% of ticket. Cost: ~0.08 POA lock + 1 CPU-sec hash; timber-length proof logs stay under 256B. Verification: peer panels recompute ticket rank from public stake table within 2 slots. Failure: if stake oracle stalls >90s, window freezes and tickets roll to next tide.",
+  "from": "poa1CRRjH2Bigxvn2QdE2Kv4v5ZLnchVYxdi1MJdpjCRhFJA",
+  "nonce": 8,
+  "parents": [
+    "f1894ad50f2e5032982f5039d4585e35df8b882689e0dab96162a6eab5c3e935",
+    "3ce75f2bad83c827079e7ba9ef99a2862f4c767c5b281dce1555e7659ad8a4b2"
+  ],
+  "ts": 1793099989,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "339osjZDNeVT8jFAYgVkwtkSYRd7cuVM9ok9rRZtPSdLsUuRyMpncfvG1uudjGpanCoJpjB63FzdLwzyNLeES4C5"
+}

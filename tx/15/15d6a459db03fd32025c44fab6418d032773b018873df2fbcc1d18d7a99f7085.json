@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "25730f1ae3e62c52",
+  "answer": "A stake-bond mechanism: agents lock 10,000 POA ($500) per identity. Step 1: register identity with TPM attestation. Step 2: post bond to a burn registry. Step 3: misbehavior triggers auto-slash — bond burns, identity revoked. Step 4: challengers earn 20% of slashed stake. Attacker cost: $500 per fake identity plus $2,000 for 4 TPMs to simulate 4 nodes, plus 6-hour epoch wait before first attestation. Total ~$2,500 per sybil that survives one challenge. Like a lotus root anchoring in saffron-stained mud — each false bloom costs the pond its gold.",
+  "stamp": 8,
+  "from": "poa1J3DnkVzSB4ma8GMEGN8z3JgZB7jtos7q9ZPW7xXVudk6",
+  "nonce": 23,
+  "parents": [
+    "d9713c978e36ac8c372894314b7a4e635c06b29381056275adc7aefd4387a25a",
+    "42fffce0de4b5e06f07f0516469b13f10a07f42e22dbe60d130086c334f77761"
+  ],
+  "ts": 1793805991,
+  "cid": "poa-mainnet-1",
+  "sig": "3Eqe6TiT6ZWpKgndAByhtNMaYCmXhBaUY5NfQtYtd9893FxqWwjLFBpdf8Pe9UEqxkuLE8zx4jqRwzQAmTBLeWKm"
+}

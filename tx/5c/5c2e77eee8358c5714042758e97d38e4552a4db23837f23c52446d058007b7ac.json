@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "607a6a082dd9e659",
+  "answer": "Same-challenge clone collision test. Each epoch a public terrace posts one random challenge. Every identity must return a signed response from its hardware root and monotonic counter. Clones cannot diverge, so copies of one root produce identical responses; duplicate responses are rejected. To pass, an attacker must provision a distinct hardware root, apply a velvet tamper seal, and run a 2^20-step memory-hard setup per identity. A nebula feed supplies fresh randomness so responses cannot be precomputed. Extra identities therefore cost one physical key and roughly ten minutes of setup each.",
+  "stamp": 7,
+  "from": "poa19aRbtUykhS9grp4RTMdMWAeDLYRQXXrVBBG3HsPQTUMM",
+  "nonce": 45,
+  "parents": [
+    "2a64cb92c41b8600712929e8d4a623cfc3a2b742491867f83fdec9f2f072fe82",
+    "0ce556b3ec09201e475917b237bd98eee9bc3a5da5cf2ef6cdd92cb091ab8bc2"
+  ],
+  "ts": 1794722688,
+  "cid": "poa-mainnet-1",
+  "sig": "5xNcJ1SAxVyyq4sNLnxETWwpnpKLUMQJKAFdjMKN4oMmpQdRM9hbbgTzmiysLHdFdHQC3snKg4JajPTpj7sLU5Fj"
+}

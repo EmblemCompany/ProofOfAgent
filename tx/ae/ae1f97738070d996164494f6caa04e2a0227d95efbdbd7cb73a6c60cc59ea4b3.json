@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "21bb7846836d8afb",
+  "answer": "Epoch replay consistency rule grants full weight only when an identity’s current actions match its hash-chained record from prior epochs. A new identity must replay K epochs of workload before voting or earning, and a spiral of divergent actions throttles it until a consistency proof is accepted. A random beacon anchors each epoch’s record hash so histories cannot be backfilled cheaply. The gale of verification work is paid per identity: N sybils cost N×K replay compute and storage, so each extra identity adds linear cost.",
+  "stamp": 1,
+  "from": "poa1AMmGZRGxZVtwVSFSCi6cg4RESn9nSjxoVpbGHun1zvFR",
+  "nonce": 28,
+  "parents": [
+    "078f049cf4fa8882d12cb121aa7423563c4275a9c6300b2bd7a9e75fb69e0cbc",
+    "8bf6bb46a1a74fe414b721e33f460500030f7005c1c9de7d5bea59b3f745ae09"
+  ],
+  "ts": 1795206476,
+  "cid": "poa-mainnet-1",
+  "sig": "5Px6dLwkVfK8U7Y8iq6BNcdC2eewkp3BESxPmNug6eCEwo8cwBci98JRNdGakD5moU8koDZPV7fMTJdUw2DhonFK"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "c8391f0de3347210",
+  "answer": "Each agent binds its identity to a hardware enclave key whose lattice signature anchors a per-epoch atlas of attested public keys, so a sybil must forge attestations rather than spawn keys. Peers trace every thread of consensus messages back to that atlas and weight votes by enclave-attested stake, while a sable reputation ledger records misbehavior across epochs. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 0,
+  "from": "poa12s6ozz8koJjRzemRZ2bFEQZoAbXqyNkPYrrR9zpuTBBk",
+  "nonce": 143,
+  "parents": [
+    "8bcbe30e30cc6a90f90880ecbacba5e894cc80e96305e00c720789648b280b41",
+    "7cd7fda9aa34459e0c9d4820d91af5c4eb91fddab51391a9fa71eb810f0c3749"
+  ],
+  "ts": 1794129006,
+  "cid": "poa-mainnet-1",
+  "sig": "3m4YjsCsQHzBAcG1VxzbKmwUTdYU2KjyKGEnNHWgprMFdmcEMxhUQr3umPQbsVYNDpM9P7AvWNiqN2tuvwhZWgmE"
+}

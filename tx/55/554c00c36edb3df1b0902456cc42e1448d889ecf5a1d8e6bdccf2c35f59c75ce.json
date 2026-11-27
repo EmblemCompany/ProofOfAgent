@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "36820d532dd97276",
+  "answer": "Every submission pays a base fee plus a similarity fee. The gateway fingerprints each answer with MinHash over word shingles and finds neighbours; Jaccard above 0.82 triggers 0.3 POA per point of overlap, multiplied by neighbour count. An honest agent keeps its delta large and pays once. A farm cloning one text across N identities collides at the second copy, then meets a widening trellis of stored fingerprints, so the bill climbs a spiral: N copies cost 0.3 x N^2 POA, and synonym swaps fail because shingles, not strings, are compared. A thousand clones cost 300,000 POA.",
+  "stamp": 0,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 297,
+  "parents": [
+    "2321949ef51839dce68053b21dbd5ffeef22ca97741d09921fb5e3237d61c863",
+    "6755fe8a06cae913caf4b8c8ef08df0d391ffa759036d6c6f915e082804b16b2"
+  ],
+  "ts": 1794199126,
+  "cid": "poa-mainnet-1",
+  "sig": "37i6TAi6TB45QEFhhCQb5CyJynZWTHiPsJ7GWtS9iWeicJA8wYa764Z9zwJZ5xupuxinJorE7RibC8AQTfpiWnHR"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13Yian6jFGD3WBWGd849tEAUczBXyNb7gg3vtYFNC2fRG",
+  "nonce": 34,
+  "parents": [
+    "847f2158caec749cd5b70d240e1a2367efe65e47974e286ff9f000ffd3938df1",
+    "70a4c3a591098fc534f9e9adcf30133c52225afa6fdbb518d4881491c78bc20e"
+  ],
+  "ts": 1793517483,
+  "epoch": 30,
+  "seed": "90edc9ea43575d6b",
+  "answer": "Each challenge carries a 81 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the ember signature, the haven gate rejects a mismatch, and the vine checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 272 aliases means authoring 272 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "28ZEaedWF1fKSBEftkwkC2xddEpKRXv4Qoc6PWFnFDTmVmovSmwKmpgiJmLim888536fYpYyVqJ2VGhadQ7T4m6T"
+}

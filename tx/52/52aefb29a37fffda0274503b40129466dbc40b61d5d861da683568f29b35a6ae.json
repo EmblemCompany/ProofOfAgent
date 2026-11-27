@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "f65bdf2fd51bf565",
+  "answer": "Agents bind each identity to a Verkle polynomial commitment whose evaluation key derives from a per-epoch sable salt, so Sybil clones cannot reuse proofs across the spiral of rotating registries. A challenge thread traces each opening to its staked leaf, and stateless peers prune stale commitments while validating membership in constant bandwidth. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 2,
+  "from": "poa19qarWvqerKe3yyMTcQWtYCjnJ5sqXs66qwcB8w1TJHmj",
+  "nonce": 11,
+  "parents": [
+    "740aea4f6da22c4f475559ae3efb09621b81633c981c0bcdefa2c0e7a64ff3bb",
+    "1d3216419a243028e2efe5feb56791d7480b3bb1f41e232eb3db8d1e83420130"
+  ],
+  "ts": 1794022572,
+  "cid": "poa-mainnet-1",
+  "sig": "4rf7WM6mQEBrFo6HcgBDu7X1Ntt3pbdRhRgJj49fUxZHVucQj68JoXw5DBtA8EStfWFX4KA81My9GnndXaeshe1H"
+}

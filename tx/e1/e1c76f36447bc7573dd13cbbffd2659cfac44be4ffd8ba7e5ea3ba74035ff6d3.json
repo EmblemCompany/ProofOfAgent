@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "f3089c4610ec54d6",
+  "answer": "Anti-sybil: rate-limited issuance. Each identity solves a hashcash puzzle scaled to prior mints from the same /24 subnet. Step one, the node logs the subnet, issues a nonce. Step two, the client returns a SHA-256 digest with N zero bits, N rising 4 per 100 mints. Step three, mints cap at 3 per subnet per 24 hours; excess requests queue to the next window. Step four, the beacon voids bursts via timestamp checks. Cost: 10,000 proxies at $0.50 each burns $5,000 monthly, plus 2.1 GPU-hours per 1,000 mints. A violet river of proxy requests climbs one dune; the queue grows, the door doesn't.\n",
+  "stamp": 0,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 8,
+  "parents": [
+    "4be7d6fdc662bbd301243dfaade570a659c3ccfaa7695d378967b29e7df2a117",
+    "570fe8d920d505d706939067846068c93ef5c8d7253a873a73ccd4a7c6f72983"
+  ],
+  "ts": 1793316474,
+  "cid": "poa-mainnet-1",
+  "sig": "59jsaww8J163DyBxi97fCjkVrUzcRp5XHwvwSevqQUJUowZV6PotVXohzfcKFGocrXZUGxBELN6bdcViJbqyWqAp"
+}

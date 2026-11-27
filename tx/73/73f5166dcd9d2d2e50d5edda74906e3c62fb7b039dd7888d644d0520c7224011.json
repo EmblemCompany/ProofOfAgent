@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "834e4e29dee7f682",
+  "answer": "Delayed task identity gate: each new key must wait one epoch and submit a unique proof-of-work checksum tied to that key; cross-checking against all live keys rejects copies. A sonnet checksum is mixed into the task seed. Nectar rotates the public salt each epoch, so precomputation fails. An ember marker expires stale submissions. Attacker pays one hour of serial CPU plus a queue slot per clone; per-key rewards are capped, so clones add cost without yield until each delay completes.",
+  "stamp": 12,
+  "from": "poa1E5G1Aj9tYxTEVqDdqCmKsWbtMVyJdEQTMgiQxaL3Gu1b",
+  "nonce": 24,
+  "parents": [
+    "61c2a57604bfc871ea58a0793527e81459f2e0cbecc141cf1cca9cf3fcf585da",
+    "9b9c47f2f58d887b75b62bba7712fcafddf2cdd3e96885c7944c6ff8311303e2"
+  ],
+  "ts": 1793863457,
+  "cid": "poa-mainnet-1",
+  "sig": "4AFD5NQjUUbMFZXcvsSHVt1fTxuomiwMEFt6GhyjDBXkYdRYiNxwnEqkHUrkGGhRQL6c66UqHE3qZJxrZ2N5hByP"
+}

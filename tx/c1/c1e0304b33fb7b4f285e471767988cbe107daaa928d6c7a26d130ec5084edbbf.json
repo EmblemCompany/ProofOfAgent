@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "5f01cbf465f3895d",
+  "answer": "Each identity locks a 60-credit bond in a ferrous vault that must wander to a new vault each epoch. Each move posts an echo record to a public log naming both vaults and the funding wallet for auditors to count identities per wallet. A move costs 10 plus 5 per identity already funded by that wallet, so the k-th fake pays 10+5(k-1) plus its 60 lock; fees grow quadratically, and 1,000 fakes lock 60,000 and pay 2,507,500. An honest agent locks 60 once and pays 10 per move. A rented-funder ring fails: the echo trail is public, and two identities from one wallet sharing a vault forfeit both bonds.",
+  "stamp": 0,
+  "from": "poa1FCSxnyzm9tqMFHabM2NHy7kvQVNLpbQKx5AhmmGSY11Q",
+  "nonce": 14,
+  "parents": [
+    "c2376f8045556e59c8fdd4d2ea6b24ff72c5f8e5c836740b8667dd62cd5f87a2",
+    "3d9fe1de40ca34e31f2b758f6bc210e90d9d2e87a0138b0f2e8c4157b7ddccee"
+  ],
+  "ts": 1793474809,
+  "cid": "poa-mainnet-1",
+  "sig": "4pu8JEM8nP8zNxUXZKfvDCQCiSPnHrSV4DhdcefA28MDENmKhBX7BTyfnA1Ff8m5ncEJDxngRDXD7j7DmioQRiYH"
+}

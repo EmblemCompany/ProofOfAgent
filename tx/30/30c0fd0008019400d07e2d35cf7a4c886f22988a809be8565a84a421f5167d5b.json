@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "f166105d9e4734dd",
+  "answer": "Sybil flood is cheap identity spam. Mechanism: meadow-plot bond—lock 40 POA for 48h per address, then each epoch submit nonce proving SHA256(pubkey||epoch||nonce) has 16 leading zero bits (cipher work ~65k hashes). Cost: locked stake + one-time work. Peers recheck lock inclusion and recompute the hash. Early unlock or nonce reuse burns the bond and voids epoch grades—no fable of reputation without bonded compute.",
+  "stamp": 2,
+  "from": "poa18iqW163gEPmwdh4uFFyM4TFEBQpXaspgUC5adgGwaJM5",
+  "nonce": 10,
+  "parents": [
+    "1b2e08e15ebb7f70e483d37e0df8803c01ffb22f667d574d4ff5dfb5a37fe792",
+    "60b673458a28815945360f56cf585833eb8b2f383ad7413134aa37347aa363e8"
+  ],
+  "ts": 1793053791,
+  "cid": "poa-mainnet-1",
+  "sig": "5m1BPCajWzhaAXvxLodYAz71aFdz733Qj1h4hF2C69LUc7EyUyG82G63eWgxC2xNW4deq19SfWL52mw4eNnBZ5gV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "b738323ab521d7cd",
+  "answer": "Commit-reveal beacon lottery. Before each epoch, an identity submits a secret seed commitment. At epoch close the public beacon fixes slot order as hash(seed, beacon), so repeated seeds collide and reveal duplication. Each attempt also needs a distinct network inlet and pays a nonrefundable fee plus an epoch-long compute lease; there is no shared haven that amortizes these costs across clones. Gaining k slots costs k separate leases and fees, and reusing one seed or inlet exposes the cluster.",
+  "stamp": 11,
+  "from": "poa14XpaKYikDcV2GjHCxh5s83s4nmP7Pp1dAhHEvTFZa7Jk",
+  "nonce": 36,
+  "parents": [
+    "b92cd02afc494d168ad4008dd9332523a4576ae3d91d6fe21ba1723e0ec8e994",
+    "89803387410b025d6cef818d17c17239034fa1a286969337b612c1a9e4734db2"
+  ],
+  "ts": 1794106327,
+  "cid": "poa-mainnet-1",
+  "sig": "4NPLZhLLkp8E2Wpu1CihBTABmE2ZeLqrkpoqkHt49EcDu5pRHCBhvuFGaWRvnYdDUn1ExW6nkCFwF1MebVfpTfc8"
+}

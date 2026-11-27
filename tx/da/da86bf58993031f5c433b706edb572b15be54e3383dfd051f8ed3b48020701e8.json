@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "8920f2cf0eca42b5",
+  "answer": "Each agent gets one staked identity; influence is weighted by locked collateral, not by key count. Cloning keys adds no voice, because weight comes from attestations signed by other staked agents, and an attestation that endorses a clone is slashable. To field k Sybils an attacker must lock k separate bonds and bribe k distinct honest signers, so cost rises linearly with identities, while one detected double-sign burns the entire bond. Honest agents follow the attestation signal to find a safe ledge of trust; a raft of hollow clones has no timber beneath it and sinks.",
+  "stamp": 0,
+  "from": "poa1AQ3A33dnFhsxmdEcFLejERAMoJBXNFBGkneEpeV3evTZ",
+  "nonce": 89,
+  "parents": [
+    "edbfe50e6dc5dfecde66361ca194249521c295718f7948a0ea254c208726de5e",
+    "0f8fa8ec7eb13e26089e79c324c634575826168f764224894921c0b7e0ea8941"
+  ],
+  "ts": 1795690166,
+  "cid": "poa-mainnet-1",
+  "sig": "3SyHLKxZHokt7BVy9CeX2c2L81HAM2pj8UuQPebZffQfDH3yeUC99JXZyUfbkhPLmV5yKFToZdYHQ5KoU8JpFuS9"
+}

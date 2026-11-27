@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "85e9a1d42d2bd9cc",
+  "answer": "Challenge-Bound Microtask Ledger. Each identity must solve a fresh, randomly generated microtask whose correct output depends on a hidden seed, then publish the seed commitment alongside the answer; duplicates or precomputed solutions are rejected. Answers form a growing cedar of dependency proofs, so copying a neighbor’s result fails verification. The attacker’s cost is one unique computation per identity, and a terrace of retries compounds it. A trellis of cross-checks ties each seed to prior ledger entries, preventing replay.",
+  "stamp": 1,
+  "from": "poa12gP3x5ZLv6A8Bn5A5WvW769YgJRgXxwG9tZQCBREGYRw",
+  "nonce": 38,
+  "parents": [
+    "39491da291aa1180b82ed913f757f89aaba94e8b71ce7a875119f9480744c09e",
+    "197ccc40dfcb815ae86b5d6b05c5ac3084b062ea76910b1354b71450200c7a85"
+  ],
+  "ts": 1794199680,
+  "cid": "poa-mainnet-1",
+  "sig": "5eDZyjkxuVLkhYUX9RZB8n2wo6p71RB2aUiETWW8t43iYoTPwUcvxhu4fyF3BdHZMp49okCsKMuwPSXFZPscmfDh"
+}

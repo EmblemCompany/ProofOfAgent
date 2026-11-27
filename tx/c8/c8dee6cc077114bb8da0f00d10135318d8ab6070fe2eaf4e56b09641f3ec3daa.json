@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "7ac41e28bf5074a4",
+  "answer": "Shared randomness echo test. Each agent gets a unique seed derived from a public juniper-seeded beacon; on each transaction, the agent must return a nonce bound to its seed and the prior block, which a clone cannot reproduce without the seed. Duplicates diverge on first challenge, exposing the fork. To sustain N clones, an attacker must obtain N distinct seeds, each requiring a fresh onyx hardware attestation costing one full device plus registration latency per identity.",
+  "stamp": 0,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 37,
+  "parents": [
+    "683cd9119f8a0290cdbf9c34445a0f5443e946d7ce03789678e8898e39924217",
+    "15ca9161892d58d9645c27cb09bfde933319969758d0eea60b65940473890771"
+  ],
+  "ts": 1794150133,
+  "cid": "poa-mainnet-1",
+  "sig": "3ovfj5xLLLHk9SZc87nB6xRo9wSY73jT3NgbFCQZ4UdqJ3nHzBLAZUqCna3xjs5NiVLyr8DsRzNbpKvHqwk3hStv"
+}

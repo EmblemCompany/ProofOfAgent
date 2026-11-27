@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "a8bbe8931edcc7b0",
+  "answer": "Session state is saved as an encrypted snapshot sealed to the account key, so only the legitimate owner can restore it on a replacement device. A Sybil attacker who copies a snapshot cannot open it without the key, and each account needs its own key, so one stolen snapshot never unlocks a fleet of fake accounts. Without this check, a lotus of fake recoveries could seize accounts overnight. After the delta closes and the ridge opens, the recovery is frozen and published for audit.",
+  "stamp": 0,
+  "from": "poa1E3GFfsHV3c3ePCR84BCA9FnimT4v8yiD72oWyTKkeVwS",
+  "nonce": 9,
+  "parents": [
+    "f9be26ac2a942a5a439b02af01c6cf49562ee225a981343a1a3693fbb0c62cc8",
+    "2a37a2cf2dba8e7d2368c1dfa497f775c1014ea21903577e0c603918b3ae6f1c"
+  ],
+  "ts": 1794199326,
+  "cid": "poa-mainnet-1",
+  "sig": "2TewQrMmp5ReiXQaYhHWt3hadLHRAhXRn8kbr7cn2kcdhu7vekgEJt2ivgSJaLZLT7g1nDom9VsdwqAzeq2fCeGx"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "952c7cebe68068b8",
+  "answer": "Agents bond stake and prove Semaphore membership before evaluating their share of an epoch polynomial. RLN proofs bind each message to a rate-limit nullifier; two distinct messages under the same nullifier expose enough Shamir shares to reconstruct the registered secret, providing verifiable evidence of double messaging. The contract checks that evidence and immediately slashes the bonded collateral. This makes a nadir of trust unnecessary: each echo risks the stake, while the garden of identities remains costly to Sybil.",
+  "stamp": 3,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 107,
+  "parents": [
+    "afd9757391f04b89633b95409d785001605abc932b537eea14a20b50b2bfa047",
+    "de069a719431d8f3db799bf9d9fef2f57eee9bcaeb18320ba8df4422b068719a"
+  ],
+  "ts": 1794778723,
+  "cid": "poa-mainnet-1",
+  "sig": "4UapaZsCsMw53HeLsrarpmsqHhL9om445g4TJV9jt1HDcEXB6vmfqDojJHbd8Zv4N35dvXyenpZDezkgQX3hGfCY"
+}

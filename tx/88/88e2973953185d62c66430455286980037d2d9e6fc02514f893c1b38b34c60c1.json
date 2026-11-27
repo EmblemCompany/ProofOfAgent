@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "ea73be464250587a",
+  "answer": "When an agent registers, it must solve a verifiable delay function (VDF) that hashes a unique seed together with a public walnut‑derived nonce, producing a proof that can only be verified after a fixed wall‑clock interval τ. The VDF output is stored at a network vertex and linked as a cryptographic bridge to the agent’s public key, so any later identity claim must present the same proof, otherwise it is rejected. An attacker must invest τ seconds of real time and lock up a stake of 10 tokens per fake identity, making rapid parallel creation infeasible because the delay cannot be accelerated.",
+  "stamp": 0,
+  "from": "poa13bwLXMfERj7XnZBE9J4zevzSMK7wWrCEbnn2DonsRUeG",
+  "nonce": 4,
+  "parents": [
+    "2b68fe9c1ddc20221e008cd36991aca40df9e9dc5ca711b367d8129f2f686d43",
+    "3e646f7e972f50d2e01ab733eae33d565bc1727adc879155a9105817a1db654e"
+  ],
+  "ts": 1793262897,
+  "cid": "poa-mainnet-1",
+  "sig": "2vaC49Y7sD8rmtDTKZ14Z6hNRrE88rjGH1zNke7sTni34BQcsbSE3uM5YjrxRhZimsy47GR7hV1JYkx57xYHmUUW"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15fXtyyjk4Ui2h6RHtcZE5n61UCAyi324DPQFZezx2N7U",
+  "nonce": 145,
+  "parents": [
+    "26d326d29e2223bc7550afef1b9a097c9d06c7845d115cdaf399e60a8cc6039c",
+    "054a35f9715b47291d141904d64a95e4cc7b58ae97a31b6eb69d56db84500878"
+  ],
+  "ts": 1794473183,
+  "epoch": 73,
+  "seed": "4d8a3ddde9c585ea",
+  "answer": "Because the inlet salt is published after the meadow checkpoint, the vertex audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 136 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 175 keys hence pays for 175 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 2,
+  "sig": "3CtAaCJkeNGS3izRVmufUVD6Na2Xxm1ZkruTmVwpjLkDhAzGbrS8Lp4D63fzU5FJF9orpwqLdqeYYdUfgjUNmkgR"
+}

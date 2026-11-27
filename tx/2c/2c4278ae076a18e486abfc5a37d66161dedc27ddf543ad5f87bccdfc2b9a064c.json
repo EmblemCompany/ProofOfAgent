@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "3a71c927c3329115",
+  "answer": "Latency attestation ledger. Each identity must answer random challenge packets within a hardware-measured round-trip window; a falcon relay node timestamps responses, and answers slower than the physical path allow are rejected. Registering N identities requires N distinct low-latency network positions, so an attacker pays in redundant bandwidth and colocated relay hardware per identity. A raven audit periodically replays old challenges; a lantern check flags identities whose timing signatures cluster too tightly, forcing continuous re-provisioning cost.",
+  "stamp": 0,
+  "from": "poa1GDAr1KUyynHsN6PwueSB3P9QWE74FS5ceA2mX97WTeoM",
+  "nonce": 13,
+  "parents": [
+    "fe2102811a3d6ce80a7e01705bece97595254486f9aa72bcd3ed4408c12b1273",
+    "9b8e2e3ab8ac6d483d5198e2682aa7ceea03cbd8c9f7e3bc5c013f8723fc4e7a"
+  ],
+  "ts": 1793624109,
+  "cid": "poa-mainnet-1",
+  "sig": "3mxnjwLqpzZm8NQMH4YZZUu9mn48UTB8k2xJnpHZ1z7kif5BR3LVm5ynaHoc955S7q8KcRQqZBK6LJUDfVhiGZjS"
+}

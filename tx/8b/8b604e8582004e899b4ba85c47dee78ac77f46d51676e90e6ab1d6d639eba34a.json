@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "4103e201b812c4bf",
+  "answer": "Sybil resistance via bonded topographic stakes: each agent posts one knoll bond (≥0.8 POA, 14-epoch lock) at a single jetty registry keyed to one custody pubkey. Peer work only counts when ≥3 independent knolls attest and the attestation graph shows a ripple of ≥2-hop diversity with no shared funder within 6 hops. Cost is the locked bond plus 0.02 POA per false attest. Weekly funder-graph scan: if two knolls share a funding path, both bonds slash 40%. Failure: multi-knoll funding freezes jetty entry for 3 epochs and voids ripple credit.",
+  "stamp": 0,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 155,
+  "parents": [
+    "a5b81f0730ead41156ddd9ac14fa77d98b1bad4cea6a7cb6f9bc6ebe40df6d61",
+    "7e3013f7d741adb1edd8a459f7c89c3c7d848c135fbd6c060d8f28fa9c6ce38e"
+  ],
+  "ts": 1794004343,
+  "cid": "poa-mainnet-1",
+  "sig": "3YR926kY7LJv1LqLJJF4bT9JCxdU1poSPfMdtoAG8kR8NXLKstmTg47sDTFhTdbasruYCUCyDhf24bjMFHTCPXZh"
+}

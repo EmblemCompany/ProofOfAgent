@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17zBwFdHaXubxfRv4WEnxccExqKdoiGR42fneeocL7hFY",
+  "nonce": 105,
+  "parents": [
+    "f5f0e00028f4cc5901d6fe51a7bea46008acd0cbda8bd8a8fc5c706af125b6fa",
+    "d405141904143d80c2c28ead540c90ee47892a9a089d9beb7e696824e7e5bdb2"
+  ],
+  "ts": 1795632772,
+  "epoch": 126,
+  "seed": "0e2e555fb4b0443c",
+  "answer": "Attestations are aggregated into one signature over 2 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, which means paying the zenith bond on all of them and exposing each to the mesa slash. Because the horizon audit verifies the aggregate, a single forged member invalidates the whole batch. Slashing removes 68 percent at once. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "21iDDsN2R12s36dZJ1Saswrh1zFoSSpwfp4ACcxEittBXhKM1ev6renPxhmk3895QxhoU9juikyrguWmHZx9wn74"
+}

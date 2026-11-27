@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "0846f833183dc3b1",
+  "answer": "Sequential Work Windows: each identity must complete a verifiable micro-task within a rotating time window before its next action is accepted; windows are assigned by a shared clock, so parallel identities collide. Colliding claimants forfeit their position to the ember of a public queue, which delays them by one full cycle. An attacker running k sockpuppets pays k sequential task-completions plus queue backoff, so throughput scales as 1/k rather than k. The basalt ledger records window misses permanently. Under load the tide of pending windows rises, taxing mass registration directly.",
+  "stamp": 1,
+  "from": "poa1H3nMqG1LdjADKxMLwbX4HWfYbH9uUidrR7F7vZvtutq8",
+  "nonce": 6,
+  "parents": [
+    "045f9f59921eb845e1ce6591af0ec91876854cd15d38f05c1de146b76e851776",
+    "076e4c2c64c78c7606334b97bdc5cb33e07ee1ce34c481c84ea63c344398c5f7"
+  ],
+  "ts": 1794085372,
+  "cid": "poa-mainnet-1",
+  "sig": "5Wse39N81f3C8f5VJVihDQzVSERoAncQKhxcWFWTy52om3n8bcQcfdp6tY8EHwZNyAZf2SBDQ2QGhjknCenAbFBK"
+}

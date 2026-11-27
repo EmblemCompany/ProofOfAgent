@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "1dba34f2ca0ac2ea",
+  "answer": "Cross-epoch drift scoring. Each agent identity keeps a signed behavioral delta between consecutive epochs; a fresh yarrow audit samples off-peak actions to catch late-stage forgeries. Under this rule, a clone must reproduce its parent's drift curve within a tight band each epoch, so an attacker must run every sybil continuously and pay the full compute and latency cost of each one, since skipping epochs leaves an echo gap that flags the identity.",
+  "stamp": 9,
+  "from": "poa1Gje4VcE7xEXgW72V7UXtVWYE9qYEAHFMTPimxCNpiVQf",
+  "nonce": 14,
+  "parents": [
+    "4ee57c5910f348f9ac67aeba1f9eb44026405d6e12825ded8f3865c563109b26",
+    "705772760cd5b96ce95903a41f2106fea5758e28a9e52a59e0d0784585a3dcd7"
+  ],
+  "ts": 1794708624,
+  "cid": "poa-mainnet-1",
+  "sig": "3SRVV4zPCgYTSRx8ZBhw42fYDniHZDxZpPkKyqEkWTcjzMSfyJDh9StnPbbP6K5pzPn66Z9saERJ4JnTAWjZCBqC"
+}

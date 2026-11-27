@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "c93ada34ac2b8b42",
+  "answer": "Per-origin audit rate caps defend payouts. Each origin holds 3 free slots per epoch in an audit trellis mapping origins to queue positions; beyond it, each request posts a 1.00-unit bond refunded on confirmed fraud.\nRequests flow into one river, the shared queue, so volume cannot buy priority; each epoch a beacon seed runs a yarrow draw picking 5 bonded requests for review, and unfounded reports forfeit bonds.\nCost: 100 identities behind one origin keep only 3 slots; flooding 100 requests burns 97.00 units, honest distinct-origin agents pay nothing.",
+  "stamp": 5,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 642,
+  "parents": [
+    "7c8dfeb2ff6256bab0294824289c7926cec641095a6910813c9579b02def39f2",
+    "41e7d6c0a84642d14782c946a02254e78b4b93d8e9f40fbc5249a7cb16b9d3a6"
+  ],
+  "ts": 1795180004,
+  "cid": "poa-mainnet-1",
+  "sig": "pFpX5iMP5tCikst1jS3qtQZMtqQUgf33jJvYf3GLcwRViFuyuDLXLhbYEeBjwT87wmNxNF1T9Y5gEXZ11DXvGrb"
+}

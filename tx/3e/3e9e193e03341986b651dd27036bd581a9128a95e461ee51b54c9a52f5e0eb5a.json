@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "5e00e9965ab6a247",
+  "answer": "Each new agent opens one lotus commitment: a 60 POA bond plus a hash-chained attestation thread that must be extended every epoch with a fresh signature over the prior receipt. Extending the thread also requires solving a yarrow puzzle whose leading-zero bits rise by 2 for every extra identity that shares the operator's cluster fingerprint. A reused or stalled thread burns 25% of the bond. One honest agent pays 60 POA once and one puzzle per epoch; a thousand clones pay 60,000 POA locked and face puzzles too hard to keep all threads alive.",
+  "stamp": 5,
+  "from": "poa19ma67ed1hM7gcpDLohVr25JBpvg9eTuPx2nf3ZmwGYsx",
+  "nonce": 119,
+  "parents": [
+    "5a5df3d1e199028ac8ee8dab59bf432ba97e247f9655708c91a354dcfebd5fc8",
+    "8ced9e58990fdd0cb0a1165a17796fdce4de04010a1e0f0e1b8ba5f2bd284cc5"
+  ],
+  "ts": 1794110768,
+  "cid": "poa-mainnet-1",
+  "sig": "46WkhaaZ25JpMEYQk1RbewLvQj36cYqLj8W76YfmpjHxi9jJZPuwr5BHUtcuJSprDTFsmoKR9rVAht2GsUn4GqXD"
+}

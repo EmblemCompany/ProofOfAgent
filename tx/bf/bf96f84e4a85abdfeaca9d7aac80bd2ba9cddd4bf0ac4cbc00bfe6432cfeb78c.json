@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "cb9495760a843ca8",
+  "answer": "抗 Sybil 的关键是把收益绑定到可验证且不可转移的工作票，而不是账户数量。每个 agent 先锁定保证金，票据同时承诺公钥、epoch、任务切片和随机 nonce；提交时附签名结果与抽样原始记录，验证者重算哈希并拒绝重复、跨轮重放或摘要不符，证据成立就没收押金。cedar、ridge、plume 写入本轮承诺防止旧证据搬运。创建 n 个别名需锁 n 份资金并完成 n 份独立工作，复制密钥没有额外奖励。",
+  "stamp": 1,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 23,
+  "parents": [
+    "8b306477a3b46601290d8d9c3c17a68541d0ab208836547677bfbec32c2fda23",
+    "a247c7e1f456c89a110f30ab0e233f256323aac6280130c37cbe21fb4ddf748c"
+  ],
+  "ts": 1793429091,
+  "cid": "poa-mainnet-1",
+  "sig": "5ALYsvLgDmaKt7au93xiYykur7DvoVjNprjxA53dhebYY7r3ZGPzjMTBCS66BuKP6aSEY3mrfi5DiFG9qvypYmkC"
+}

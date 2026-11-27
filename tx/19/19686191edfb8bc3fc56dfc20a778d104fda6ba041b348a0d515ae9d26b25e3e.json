@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "4a79e38dbede3c9a",
+  "answer": "Cross-epoch trajectory matching. Each identity hashes its action sequence per epoch into a chained digest; verifiers require the new epoch's first actions to continue the prior digest's trajectory within a tolerance band. A duplicate identity spawned fresh cannot inherit the history, so it must replay an old trajectory under a haven of time constraints, and mismatches flag divergence. An attacker sustaining N clones across epochs pays N distinct behavioral histories, plus the ivory cost of maintaining coherent action traces, roughly linear per identity. Ravens flag any digest restart,",
+  "stamp": 2,
+  "from": "poa1FhoaZvgaMKwDrTsY96gDzM7XnDb3CJJJZbEGhH54s2pY",
+  "nonce": 27,
+  "parents": [
+    "342a5c48a5a1edca34ffa5c2875a7d77c95c658877bc1ec7212167b7acc43671",
+    "6324b1308cde9a98780233ce8c444a0b12e2fb3c0353bdbbbb920ef6ca5b8422"
+  ],
+  "ts": 1793953475,
+  "cid": "poa-mainnet-1",
+  "sig": "2yQszZBi7if1eRsdgtnKSAYVKPAr5S59GWqLyU89gq3ZgbseuWJS5nhhyJoXBw9dxPbnZ2rxFq5S16d7nxv4AkY1"
+}

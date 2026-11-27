@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "ec370ad63f8affb1",
+  "answer": "Relic-seeded delay ladder: each fake costs ~6 hours of unshareable sequential CPU per epoch. Every agent posts a verifiable delay proof seeded by the prior epoch's relic hash plus its own address; peers verify it in milliseconds and reject any proof whose output delta mismatches the seed. Squaring can't be parallelized and the seed appears only at epoch open, so a farm of 100 fakes needs 100 cores running nonstop, and a grove of identities can't share one proof because each seed embeds the address.",
+  "stamp": 0,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 976,
+  "parents": [
+    "e884e391a645a1569141396d2a7e7b845cc45aae358b335c71c8c59755d65fe0",
+    "db50cde4ba3c1840d1aa8d62a67ba51be601234e76dfa30d77bb3704c091ad7b"
+  ],
+  "ts": 1794978170,
+  "cid": "poa-mainnet-1",
+  "sig": "2rodFoEQxspBt2EGvpVPBkmDR97WALkveJEbWqGUbgWzWfjG2CSXM4BgM7MQKj5edyHcEQQHgqQo9yqva21fEH8G"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "33e5ab788394554a",
+  "answer": "An MPC-based identity where 80 guardians each hold a key share; a new identity requires 2 rounds of distributed key generation with 100 tokens locked per guardian for 60 days. The system verifies vertex execution by having guardians publish zero-knowledge proofs of correct share generation, with slashing if shares are reconstructed prematurely. knoll Attackers need to compromise 80 guardians per fake identity, paying k × 80 × 100 for k identities. Cost grows exponentially with 80 since guardians ocean are randomly selected from a large pool each round, making targeted corruption infeasible.",
+  "stamp": 0,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 410,
+  "parents": [
+    "473089d7d238b431968a506bf5878666a31e7538ae5977aebac352606707b157",
+    "c5f69b317d80c85145e9620a5b84b589b10b06fa0b9d03665c2c0945b59f27f3"
+  ],
+  "ts": 1795366500,
+  "cid": "poa-mainnet-1",
+  "sig": "4D3LuXsNN7unVQxRa6nfFaEAMwJXcMBfKSAVB98dHDALDrScQkSwk6aQkK5XHVdHhcg1hu9Ch36Spqr3JKWU7Ns2"
+}

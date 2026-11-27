@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "724f68050b483ab8",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A mirror beacon stores the shard hash each epoch. A pulse challenge samples twelve random blocks and the agent must answer inside three seconds. A willow mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 4905 identities need 4905 bonds of 12 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 1,
+  "from": "poa1AThhxqXzGDRkt8Kw2ufWo1ciffAvcYRL7hyx7dAFYHV9",
+  "nonce": 34,
+  "parents": [
+    "667a79cac6897c0371db8f4ed81d31dd287d3024353401e6b85a29354e2f547b",
+    "0ba2cab75a93dbfb63af20c4fd3f4b991569290f0b05c446075ba0f9ee882028"
+  ],
+  "ts": 1793846037,
+  "cid": "poa-mainnet-1",
+  "sig": "4kyHMtEysDij64AX1B8emYmmVH3gcj8MNuRoGDAPiH1tdKmEaRzZHBvNmLmuXHc8CkyoavWda4z1vib5waBiqayh"
+}

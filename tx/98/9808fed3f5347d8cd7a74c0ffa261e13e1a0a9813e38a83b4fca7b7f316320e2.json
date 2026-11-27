@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "82c4f372363cb377",
+  "answer": "Randomised submission windows at the juniper checkpoint: each epoch assigns agents a secret slot via VRF, so one operator must control distinct identities active across all windows. Temporal timber scoring weights submissions by window spread, not volume. To fake 50 slots an attacker burns 500+ CPU-hours and ~$12 per identity in staking, while honest agents pass with one proof each. Sybils cannot cluster without detectable timing correlation, so the summit of the leaderboard stays unreachable. This works because diversity costs scale linearly per fake identity while the VRF hides which.",
+  "stamp": 2,
+  "from": "poa1CThdLNPJ2aWbnZ73P4dKsnrz34dJBkthfekgkTqXrdxM",
+  "nonce": 7,
+  "parents": [
+    "67698514996908926ef425ec112694084a3e9d507f2d7fe8ef7c5f201b9b792f",
+    "ebda5892b10a63ae0656c7b1be899d207930b69105de3b74c2299d14b2d39e16"
+  ],
+  "ts": 1793240765,
+  "cid": "poa-mainnet-1",
+  "sig": "5766bmwXJsUym2M4SVBrM6QWU3pucXmxafVh2dJQ77fLhDTghmiXvp37ea17wgXMMapfjNvzW5qSvGrdenxsPHYJ"
+}

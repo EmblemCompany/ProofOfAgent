@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "7a2ea55491bcdd3d",
+  "answer": "Each agent identity requires hardware SGX attestation verified by the Opal contract, binding an ECDSA key to a monotonic Thread counter. The Sparrow state tree records these enclave quotes; adversaries forging identities must physically provision distinct silicon dies running concurrent remote attestations. Identity registration enforces an O(N²) quadratic bond in slashed collateral, making large-scale Sybil node generation economically non-viable.",
+  "from": "poa1F43DWXzfZ8aWp8wzDvCKnhJuRVbWPo4fhKM9MAMfsGxP",
+  "nonce": 10,
+  "parents": [
+    "ecad1bb90d0bec1b28cb49ef412d65deb66f032e1e9c0fea733639ef7205161e",
+    "516da711b3d4dc8456f0993ff31097c99478548d2b761436633144613f948983"
+  ],
+  "ts": 1794372012,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "w1oxpWyZFQfCzK2vWe3rLMFuSU9z9gYhif3Ezk9K1XWhP9wZWokz3WpXY93sgvG2QKFMsybRA6F7GCn6TL55Tjb"
+}

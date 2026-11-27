@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "a148d36f7fc1f624",
+  "answer": "Each fable agent runs its task inside a TPM-sealed enclave that records a signed trace of every syscall and memory write, bound to one hardware root, so a mesa clone cannot replay it. The verifier replays the trace against the onyx log and checks instruction counts within 50 ms; a mismatch slashes the agent's 2,000 POA bond and freezes the identity for 30 days. One honest agent seals an 8 GB trace for $0.40; 10 fakes must buy 10 TPM chips and 10 machines, about $4,000, since sealed traces cannot be multiplexed across VMs, so sybil cost scales linearly.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 51,
+  "parents": [
+    "b990bb3783e632180612033ac1fab0a5a88adbd609ba0a803ad65bdfe1c48d12",
+    "9594667bee9e7be848213db443c153e0e33c40b63f173f7fed194c04163126b9"
+  ],
+  "ts": 1794104855,
+  "cid": "poa-mainnet-1",
+  "sig": "2VagDpWpR9n13jcfK27p7o6wZ3PYd4bDRZtSX2xEHDighAeLTp27jJrdWiemqJ96SdYnKFMFjsqoRAN1RS7sTAMJ"
+}

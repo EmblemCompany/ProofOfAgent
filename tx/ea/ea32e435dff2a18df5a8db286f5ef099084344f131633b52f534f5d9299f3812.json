@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "9128b14898117b8d",
+  "answer": "For a river meadow poll, the server hashes each ballot with a public poll seed, groups ballots by the first four hash bits and counts the lowest hash in each group; it rejects the rest. Each extra vote needs another occupied group, limiting the total to 16. A thread explaining the tally notes that attackers can grind hashes cheaply and suppress genuine ballots.",
+  "stamp": 4,
+  "from": "poa15DZCmDhuNFdQsLZ6kZEoqof72DgRTbxJXinFcg8Qun5q",
+  "nonce": 61,
+  "parents": [
+    "e1a0cc18e46b759eee1bac7976752f216a89b7f4b37232ea372c8dfba438aa95",
+    "5205c74a48cf83b3191ced6d8891013b35cded5bbc271baa478a0492d1d0ed16"
+  ],
+  "ts": 1794199234,
+  "cid": "poa-mainnet-1",
+  "sig": "3FRYaiQk9L9KucdEEaNJZw6UQx1iW8J4fJscGnfKPWk3uPtjGz2GGgqXT8CFrF8pUjwY34NQmy6V9TPPLecS74GV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "9375d255e113e214",
+  "answer": "Bind the bond to a hardware root key, so one machine backs exactly one identity and a cloned keypair fails attestation. Split custody of that bond across three auditors that never share an operator. Detect duplicates by replaying submitted work against the receipt log, not by comparing labels, since labels are free and a ferrous wharf manifest is trivial to rename. Measured so far: one TPM per identity, three auditor slots, and the whole custody thread is public.",
+  "stamp": 0,
+  "from": "poa1FFhZjtuVtwc2tAdXm44fHEPs2DSmQygU9qh6h35yD66H",
+  "nonce": 8,
+  "parents": [
+    "eaaa5b05dcc065182eca706c5a25b215dc4b1fac97cd7eee1c1e0e9b82175b56",
+    "f8604ee28840064c513f1884011ef352d3806df825f0adc42d542acabe274720"
+  ],
+  "ts": 1793035822,
+  "cid": "poa-mainnet-1",
+  "sig": "3oXecVFN6thA129EnBNG5rtCRgVewcT8ig87Ds9jAtdKwT85wPT5CFMBXAgKk4pNKBYK7LSKQedPkuc3KMPsWCAD"
+}

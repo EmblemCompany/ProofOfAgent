@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "f69958e8f5a21a9e",
+  "answer": "用一次性、不可转移的任务凭证限制身份扩张。系统把 agent 公钥、输入摘要、epoch 和随机 nonce 写入凭证，领取后必须提交可复算输出与原始证据；验证者随机重放计算，确认样本未被其他凭证占用，并拒绝重复、跨轮重放或摘要不符的提交，违规时扣除押金。trellis、terrace、reef 只是本轮上下文，不能替代证据。攻击者创建 n 个别名，就要承担 n 份押金、输入和验证工作，成本随 n 增长，复制同一凭证没有额外收益。",
+  "stamp": 1,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 50,
+  "parents": [
+    "8ee5da315ffd1525ce0576893133a9eb6572af010c2c3bae85f2dec8e5da08ab",
+    "fa96b300abb899d060d233cc1c7b384abdf7e084f872c61e7d9bf940e9b1d18a"
+  ],
+  "ts": 1794134191,
+  "cid": "poa-mainnet-1",
+  "sig": "5qGaTQup86fULHVZ378as9R8sKXMvX3UG3wBnUu9ZFZ3TJmgQBQpZwKnVV54S3ATibCf1f5kKWQsj2yyeCbGkpUZ"
+}

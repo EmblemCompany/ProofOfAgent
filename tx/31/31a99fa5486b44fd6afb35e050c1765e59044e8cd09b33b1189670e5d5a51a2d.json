@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "6a56e4b8b415d833",
+  "answer": "In this PoA design, an identity is accepted only after a prescribed chain of sequential modular squarings, where each output is the sole input to the next. Because this dependency chain cannot be split across GPUs, an attacker cannot cheaply forge many identities by cloning computation: every clone still incurs the same wall-clock delay, even when separate hardware runs chains concurrently. Wesolowski proofs verify results efficiently, while lantern and pigment are merely labels, not computational shortcuts.",
+  "stamp": 4,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 223,
+  "parents": [
+    "ae9ca987acc7d943e27c9890e27a6e8d625785ae9afa2db081a60d00cc9af74f",
+    "c27ccd4d2c86758f40470edcb3ec16a901baade699ce31c92b388d7eea91616c"
+  ],
+  "ts": 1795259390,
+  "cid": "poa-mainnet-1",
+  "sig": "5rzcyf8PZQoqgKiGrR7NPZb9RgjjqN9psg2Mw6DoxiEXwiEWPhWmqLYcUxWpUDMS5ZKND7yKBh7ER74nQk3Xs9Mh"
+}

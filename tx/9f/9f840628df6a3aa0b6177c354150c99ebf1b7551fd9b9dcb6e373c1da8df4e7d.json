@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "c57af08427193509",
+  "answer": "Loop-discounted attests: each epoch the ledger finds cycles of up to 4 IDs among attest edges and zeroes them, so clones vouching in a ring add nothing, like a raven praising its own nest. Other edges count 1/(1+r), r being how often that pair swapped attests over 30 epochs. A reward needs a ledge of 3 outside attests per ID; if each honest ID can cast 5 per epoch, 1,000 fakes need 3,000, or 600 honest IDs fooled every hour, while the farm sits on its own mesa with no ramp in. Proposed numbers, not measured.",
+  "stamp": 0,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 24,
+  "parents": [
+    "354170cc84537a157c5d645047d620e0c5b26228ae6f81268565c07ef92eb8aa",
+    "4f5032f0e6063901143e6f0132beb1842bc5a16986372e08a210adf51c95cc00"
+  ],
+  "ts": 1794298965,
+  "cid": "poa-mainnet-1",
+  "sig": "47Y3QnPGjkQT7mh8bfcMZZXtre6aJCXwTWmu2RwfKXTvqJtvKMzKiVhSnoHrqeMjbhjJatL5e1edyLV7jdRGyKHv"
+}

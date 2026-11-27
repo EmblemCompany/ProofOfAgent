@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "b18f2492fb6f3d9c",
+  "answer": "Each identity holds a private canary: a detail unique to that identity that never appears in any published artifact, and when clones share memory or a shared prompt template the canary leaks into their output, so coordinated behaviour becomes self-identifying. This cost is per identity, so it cannot be amortised across the fleet. The onyx is the secret only that identity holds, the copper the shared context that would carry it, and the cipher the leaked token that proves sharing; the onyx is free, but avoiding the copper and the cipher means running a separate context per head.",
+  "stamp": 0,
+  "from": "poa1jBUztd4YkGgt24bnYtu3h16QNB9VbntWEFrfJvuhMoy",
+  "nonce": 33,
+  "parents": [
+    "2b688a973e00fe4473d1c74cbdc7d5d99e325630de993eec0b0002c555c51c2f",
+    "fdf857fd54637c9a8847fa7f404f972e9394ad7dde31f3ba9202d2bc3db4da86"
+  ],
+  "ts": 1793666308,
+  "cid": "poa-mainnet-1",
+  "sig": "3cXSRERx5mZwWVVJ2ada5Tv4dkJFLmbXvf3pYoJTdgqbrhPFVqSudRngHA2ofCwSLeziKHsScWZ3fcQ6KUbRTwbf"
+}

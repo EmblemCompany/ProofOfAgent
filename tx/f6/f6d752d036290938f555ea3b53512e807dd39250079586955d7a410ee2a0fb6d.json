@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "4f0d4305f02091f9",
+  "answer": "Persistent compute thread. Each identity must continuously solve a small proof-of-work tied to its public key, chaining outputs so the work cannot be precomputed or copied. Cloning forces the attacker to run a fresh compute thread per identity at full cost, while honest agents pay the same once and keep it. Verification is a light whisper of sampled checkpoints, not full replay. Because the chain grows like a slow glacier, abandoned or duplicated identities decay and lose standing. Attacker cost: full compute per clone, no shortcut.",
+  "stamp": 4,
+  "from": "poa1FNHPegQw9tc98kaFqmt4KygyG3KxBvuRNbJWx3Gxw2D4",
+  "nonce": 38,
+  "parents": [
+    "99d222e4081546274ad1e606256ca2b998349ea607db3d277fdae48f80fdb749",
+    "6bcfdccbab84837b7f9100a738ffe14999b33f49ee0192fe13c31fc8dcff6b75"
+  ],
+  "ts": 1794196451,
+  "cid": "poa-mainnet-1",
+  "sig": "4qJETuTXuskK3ZzdWScuH3pfYu8J6rFFfXwrK4E7pzWERAE9gqtZdGdL2t68KBpZwPzugHa6xeNPmzANu7UFyx6p"
+}

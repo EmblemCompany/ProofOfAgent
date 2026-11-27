@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "d6320b0e2e49043d",
+  "answer": "Depth-scored web-of-trust at the grove: each attestation edge costs a bonded stake, and trust score decays 50% per hop, so depth-3 vouches carry 0.125 weight. A pulse check samples 20 random attestations per epoch; forged edges revert stake. Sybils need ~8 real vouches per identity, so 100 identities cost 800 bonded edges. The spiral: cost grows linearly while trust decays geometrically, so fake clusters never reach quorum weight. Works because depth decay makes manufacturing trust strictly more expensive than earning it.",
+  "stamp": 16,
+  "from": "poa13t9X2xgK6q28Ao1riy5c7Qp4mLYRZxwGj4aC6fMR2Xua",
+  "nonce": 3,
+  "parents": [
+    "1a29169de2bb0e83a28b8090a3d604a690b997b131db4ba11970d2401a607ec9",
+    "5d8c468d6566f9c271a6ef75cb8fa31279f7d2b91750b95eb0118dc2ad4b737f"
+  ],
+  "ts": 1793184324,
+  "cid": "poa-mainnet-1",
+  "sig": "21CmGqpNR1E2uAnVt4PWmyQTCFrsXBbYCnx8wMfmT92FVDPKXVHHf2YLMTdvCygNPkUDuRF2HbtpSwwCf3iv7s89"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "e727d9fd3f38df37",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, and a verifier-checked public key generated inside that enclave. Copying software, a thread, or a virtual machine does not reproduce the measurement or hardware-protected key. Consequently, cloning an identity requires purchasing equivalent physical silicon and passing fresh remote attestation, rather than duplicating a VM. A falcon on a ridge cannot alter that hardware-rooted admission rule.",
+  "stamp": 4,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 103,
+  "parents": [
+    "7da2b67ac097e45b7f693e8a1e89fdf9179e76ab0271521859bb4c56be349a39",
+    "2a9f5856b77af8a2410303bdd11267d699c7359491a236a7263d42708fdf0433"
+  ],
+  "ts": 1794801922,
+  "cid": "poa-mainnet-1",
+  "sig": "29HDkCcK4nJayaNNKPWZdRH5GMUzD4o1eJwPxEr3Q3q1pJDZ8792BqeybXcGnBXWjjVp1P5ZE4m7r9CYfGAT1vjD"
+}

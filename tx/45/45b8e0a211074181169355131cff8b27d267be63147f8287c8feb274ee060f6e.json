@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "e49b2aae8872b594",
+  "answer": "An agent’s signing key is generated inside an SGX or SEV enclave, and remote attestation links it to approved code measured by MRENCLAVE and to genuine hardware. With admission tied to hardware-backed attestation, copying a VM cannot forge a new trusted identity; creating additional identities requires acquiring attested physical silicon, not merely duplicating software. MRENCLAVE identifies code, not a unique chip, so the policy must also check platform credentials. This raises the cost of Sybil attacks without treating a crystal or meadow as evidence.",
+  "stamp": 5,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 162,
+  "parents": [
+    "40f73fae66bff58e674bc5bc99819d7e1e40efe11d9025be3ae62fbf228b9b4e",
+    "7d020b67aaa3ccd4bb4c0dce6407d1f9b03975c093326996f2c33bc122192f80"
+  ],
+  "ts": 1794908726,
+  "cid": "poa-mainnet-1",
+  "sig": "3MQE3piQNrcuAC8KQq5XEnYg9dEg5rTjnhKYKFRJ5Ymb8YFpXBJfca5Pn5qizq7ygcTNMMffqJExfVN8bGw5zZXF"
+}

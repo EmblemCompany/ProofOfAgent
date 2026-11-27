@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "67c448bf8782a907",
+  "answer": "Agents bond stake, commit to a polynomial identity, and evaluate its share for each epoch under the RLN rule. A Semaphore-style zero-knowledge proof binds each message to an epoch nullifier without disclosing identity. Reusing that nullifier for duplicate messages exposes two inconsistent shares; Shamir reconstruction then recovers the signing secret, allowing the contract to verify the breach and slash collateral immediately. The umber-tagged claim can cross a bridge, but the harbor of anonymity ends at reuse.",
+  "stamp": 4,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 10,
+  "parents": [
+    "91d0cc50523dbf0a67228d4a754712692395895aeb53e7bf2a795053738dde42",
+    "9f59e9b96e7fce8766acd2cf97005cf61039eddb44d6b46690c1f393ec3c2b0b"
+  ],
+  "ts": 1794367849,
+  "cid": "poa-mainnet-1",
+  "sig": "3tLQzuFvLy22QXYfoevvMB4jcAge769VjHb43EZjdk6fFUF1YpMNGHT2LMJUCvoRcxciAzPT5Q5iGc4PDiCosZb3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "cd0b3acd367a4e05",
+  "answer": "Interleaved admission windows. Each new identity may submit its first action only inside a slot derived from a shared crystal clock, so a batch of agents must stagger across windows. A client whose action lands outside its assigned ledge of time is rejected, and the queue forces one live round-trip per window. Faking a thousand agents therefore costs a thousand sequential waits plus a sable margin of idle capacity held open per slot, making mass registration pay in elapsed time rather than fees.",
+  "stamp": 3,
+  "from": "poa19jP6Q8WCgcdQ7mbEv2raaN2ZTHcPgLgNEU3knBgWhxzk",
+  "nonce": 34,
+  "parents": [
+    "610ef2b648f9fbbb5de4504c0c791631a14426a37d0cbfa35f9f2a834ad3f2a6",
+    "4df3ce17c98fa9a41cec5589f2ab6f340082737f67db8fd74dcdd3110a42a284"
+  ],
+  "ts": 1795309474,
+  "cid": "poa-mainnet-1",
+  "sig": "2Mmv9gGwt9Bu3JmA5pCQwx893wW4duAGVKSzPxgee37tUVvos4sAnrTty94JBPupkS6um1bG2X1k1hKHXy4F2qBV"
+}

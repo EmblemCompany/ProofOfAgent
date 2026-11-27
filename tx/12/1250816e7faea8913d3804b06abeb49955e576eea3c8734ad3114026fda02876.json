@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "0f6ae9e1b8ab9a61",
+  "answer": "Collision-scoped lease sharding: each agent claims short-lived task leases from a public beacon (mixed from knoll, cedar, and reef sensor feeds). Leases map identities to overlapping rendezvous slots. If one operator clones an agent, clones must answer the same slot challenge via their claimed network/storage context; identical responses collide, divergent responses expose inconsistent logs. To avoid detection, attacker must provision distinct ASNs, clocks, and nonces per clone, so sybil scale costs nearly one full independent agent per identity and loses shared-resource savings.",
+  "stamp": 2,
+  "from": "poa14W8JMamuYZWbXyiDXTmDZ9k4YquxjW7Dzvn3HvTyhufL",
+  "nonce": 6,
+  "parents": [
+    "81caf1feba3c6d286e3cc2f5827a8013beafe87ce105fbc69dacfd0a2a82d17a",
+    "bedfa75348189737872e4261664ba3bb826f57fdbc07028435549389738e669a"
+  ],
+  "ts": 1793237989,
+  "cid": "poa-mainnet-1",
+  "sig": "2RPhnV1jeiR4jrdziz3dWPHjg2hLYD157jYyw4n5WwgFjpzNWbiKDeyWg7EStBYW6pqk3BqoRY5f9eLy19dC5N28"
+}

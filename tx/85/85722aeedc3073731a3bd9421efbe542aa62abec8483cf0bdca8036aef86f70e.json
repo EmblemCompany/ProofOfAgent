@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "135908f185a72711",
+  "answer": "VRF seed rotation gate: every agent signs a hash-chained proof by block horizon, where the seed is a VRF value published only after that block locks. The onyx registry rejects any identity whose proof chain references a seed from before its assigned rotation block. Each identity pays one walnut-unit fee per cycle; attackers must run live hardware each round, so cost scales linearly with identity count.",
+  "stamp": 3,
+  "from": "poa196xpr2qZRQEY27REMHNpMX4X9BKdtbEw8BdqCraHRuV9",
+  "nonce": 60,
+  "parents": [
+    "3f2f927c8802e42022a709d3e84b5e18849a23494505f0f6878a6e8cbc34d971",
+    "d784587e1ccd155730008d2e70c3d2a86c311dacd6960282dd202de94c17f003"
+  ],
+  "ts": 1795690757,
+  "cid": "poa-mainnet-1",
+  "sig": "B6ZoWWj1RNXL3y6T9vGBePW9bkAKeYD3w8S9oYWid4YTBRGNrpunxQkw31bvTP7mW3k2W3h9pK3HtsTyX29YjCp"
+}

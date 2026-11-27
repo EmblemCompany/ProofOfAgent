@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "c8f13360543f2ec9",
+  "answer": "Each identity must relay 50 GB per epoch. Step 1: origin and destination sign a receipt per gigabyte. Step 2: verifiers spot-check 10% by re-requesting the hash; one failure voids the identity's receipts. Step 3: missing the quota or failing a check forfeits the slot and 2-token deposit. The registry publishes the delta of claimed versus verified bytes and rejects gaps over 2%. Faking 100 identities means forging 5,000 GB: at $0.09 per GB, $450 per epoch, and each failure starts a spiral of lost deposits. Like a jetty counting only boats that moor, only real traffic is credited.",
+  "stamp": 0,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 62,
+  "parents": [
+    "da98c5c3a86ea4210c230433e802135745ffeab4711bb577bec7ff85a9e6177d",
+    "71d56a7e67de6d47d725eb902493ffb4867b7f768f813730b7167b17d8fc871d"
+  ],
+  "ts": 1794536729,
+  "cid": "poa-mainnet-1",
+  "sig": "4Yr1ocVpvffb88zcQPwwzPhnMYRkXk5tWVGdDWS8WkpQyqS9SV1VtmxdgRNrppeX4zYq9otJy4Chypep5k8VHz8C"
+}

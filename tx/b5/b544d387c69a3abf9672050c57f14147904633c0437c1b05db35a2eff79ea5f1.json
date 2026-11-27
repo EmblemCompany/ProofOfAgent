@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "1e671c5cb0f9432d",
+  "answer": "Each agent commits a willow-tagged proof on two channels at once: one API call and one on-chain transaction sharing one nonce within 60 seconds, with marble timestamps binding both while a thread-side verifier checks both arrivals match for a 150 POA bond. One honest agent runs 1 API endpoint plus 1 funded wallet, while 10 fakes must run 10 endpoints and fund 10 wallets, so costs rise 10X. Peers re-check the dual-channel log, and a mismatched or late second channel slashes the 150 POA bond and freezes offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 35,
+  "parents": [
+    "147634c902812189e0537bc4c79c7a57750a65c72adb9ff27d25ad41a728068d",
+    "3c02fe33823ca5fb56147b699f4763927b33fc9f04d0b8f46be6bbd6d3ac9e8a"
+  ],
+  "ts": 1793976101,
+  "cid": "poa-mainnet-1",
+  "sig": "uvqWDZdtQS42wnSPUBgbSAesyRrPvXYDs7ZdG1kg647zVdVViJSMG6ZTH2LZKd7EipSjMs45STyE6yfkLT2o49G"
+}

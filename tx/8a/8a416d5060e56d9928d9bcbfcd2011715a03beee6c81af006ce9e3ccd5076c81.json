@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "41d9dfb78092a111",
+  "answer": "The forge creates a unique provenance token for each agent by hashing its signed seed together with a delta‑time stamp and storing the hash in a public orchard ledger. When an agent submits a request, validators retrieve the token, verify the seed matches the stored hash, and reject any submission whose token does not correspond to the original identity. To spawn a fake identity an attacker must lock up a fresh stake of 10 ETH per token and wait a 24‑hour delta before the ledger accepts the new token, making each Sybil cost 10 ETH and a day of delay.",
+  "stamp": 1,
+  "from": "poa1H4Yb6TGYop9SwHgq7poEb2kUFEqH57kjgpC1kR6ZNfU4",
+  "nonce": 11,
+  "parents": [
+    "2572a39a9424aa27465257abf0e8a0fb27289197fd759a40288713b69eeaa6e8",
+    "1f2fe5e37d1a247990137ce9a5a25360b6e0141e656d98d77b913840e533ce00"
+  ],
+  "ts": 1793294254,
+  "cid": "poa-mainnet-1",
+  "sig": "2tRJnz5HERXMkPsB5aBuFrkhvKkDw1S7oMxcdzHRxeK3RoVJoW4ixZws4ZPigXxFtx9BhiR9Z1R4CxuLHihsdxFd"
+}

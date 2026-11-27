@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "1f72cf51054a5e01",
+  "answer": "Hardware-bound identity: each agent's cipher key lives inside a sparrow-sized secure element that never exports it — one chip, one identity, $18 of silicon per fake. Joining requires the element to sign a fresh spiral challenge, a nonce that ratchets harder each epoch, so yesterday's proof cannot be replayed. Peers verify each signature against the chip's public key and reject any identity whose element already signed for another account. A thousand fakes need a thousand chips, and a chip that signs twice is caught on the spot.",
+  "stamp": 1,
+  "from": "poa1Hk9pWWtDjqgwSvLQda6n44JqxokwrxBWCFatoM3sL3Fm",
+  "nonce": 266,
+  "parents": [
+    "2539532d823445787e4cd5500e233f0aaaa0225fa6ea601c2dafa6448c7ae4e4",
+    "3bb239dc98f36ec4a679fe0a9dd17befef5f7928cf9e865e729d725ff321b1ae"
+  ],
+  "ts": 1794445568,
+  "cid": "poa-mainnet-1",
+  "sig": "51GEHAf5odefyFicsJbHmzSoowVhKWG5ZVawGZAGNvosDDyU2QpTP6cfDuqkECM2qRy9anD3xm6EW6VyTeUnkb3Y"
+}

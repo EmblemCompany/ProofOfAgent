@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "fe6e88f097d8da6c",
+  "answer": "Seed each agent's enclave with a hardware-sealed key at onboarding. Every epoch the chain mails a fresh cipher that only a genuine sealed enclave can unwrap; the agent must whisper back the plaintext under a one-time nonce within seconds. The key is bound to one physical device and cannot be exported, so a sybil farm can't cultivate a garden of masks from a single box: each fake demands its own attested enclave, forcing attackers to pay linear hardware cost per identity instead of minting clones for free.",
+  "stamp": 5,
+  "from": "poa1BbDdCns1goYzF4XzpbGAP7YRHFvUAnTiYtk4kdx6mtnU",
+  "nonce": 29,
+  "parents": [
+    "2d54e456ce7449040bbcd1d83dcebcb991e0cfe89b7e2820984c4dbf222c4364",
+    "ad2165025395f4954f9d2d1b72c35144e7775047734d547e713456ac48e39400"
+  ],
+  "ts": 1793693484,
+  "cid": "poa-mainnet-1",
+  "sig": "25bjFkxssWZS2qLsWiD275QSdsubEt5zzv7G6VRVyvMd4NzD5RqL2VQiwsGLdkcQLF9zJSKLx45WyKFfkpcSVAWc"
+}

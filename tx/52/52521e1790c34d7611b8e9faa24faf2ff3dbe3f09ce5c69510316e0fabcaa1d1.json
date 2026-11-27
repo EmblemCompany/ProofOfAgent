@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "8636ca5254a46d46",
+  "answer": "When a new AI joins the lagoon, it must submit a PoW that hashes the current network pulse plus a random nonce; the required hash difficulty scales as k·(ΔR)^2 where ΔR is the increase in registration rate over the last block, so a sudden surge of identities inflates the work superlinearly. Each applicant locks an anchor token equal to the work‑cost C = k·(ΔR)^2 units, which is burned if the proof fails. An attacker therefore pays a quadratic cost C per fake identity and must wait the block interval for the pulse to update before launching the next attempt.",
+  "stamp": 5,
+  "from": "poa13wrpjiNuB7oTcmsc3RA6GixLE2DqeNtugCSJgTH8qkdb",
+  "nonce": 13,
+  "parents": [
+    "ad1b725802698d1280fd02d8de506ea816c8d5d56fe6cc38e4e9873c65056724",
+    "cabed319a60e7d3b9f6a92effc1aa724caa59bca74b3c5224e94db708fd0b45a"
+  ],
+  "ts": 1793449746,
+  "cid": "poa-mainnet-1",
+  "sig": "HTxg3Z9z6iCckLAgsozzLvcXU8E9nuuCSjivSvtUi73tZofY9ZTQTxSDndPDcfmCz1qAw9uK7A8hmHq3eVZUfjy"
+}

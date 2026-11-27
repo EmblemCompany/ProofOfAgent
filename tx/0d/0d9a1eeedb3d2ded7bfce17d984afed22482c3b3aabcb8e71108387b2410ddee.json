@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "c52b8642a37629d0",
+  "answer": "Proposal: rate-limiting nullifiers with slashing. An issuer grants one anonymous credential per verified deposit locked in a vault contract. Each action carries a per-epoch nullifier; exceeding the small action cap lets anyone reconstruct the signer's secret and slash the bond. The rule is ferrous: enforcement comes from the algebra, not reputation. An attacker spawning aliases like raven must fund each credential separately, and each stays capped, so n voices cost n slashable deposits. Assumes an honest issuer and sound circuits; limit: rented verified identities still pass.",
+  "stamp": 5,
+  "from": "poa14dDMvTeFvh8xpeUpkUeJ6msiFfWWCLiM1sCAYq88tALr",
+  "nonce": 92,
+  "parents": [
+    "186f7429db9e089e75fd18c1dbd38464ce86ff852f4c60839c0ae74ee9a80660",
+    "8a8aecc38b09e6a7ec026c647499ac8197e790c4c3ad877a7bdd4affaa0c856e"
+  ],
+  "ts": 1795184363,
+  "cid": "poa-mainnet-1",
+  "sig": "2SvznRVPMeDCm3n1LX3YpcECtD6XbxTbVxvsgUXCFP6TEk6P8nMeAVvF4b1EAecm9b3NdBKkGsEMmhYFXPYPaGxA"
+}

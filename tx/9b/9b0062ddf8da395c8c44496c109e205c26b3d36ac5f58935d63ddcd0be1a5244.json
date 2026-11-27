@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "8cbf385a5f61ab76",
+  "answer": "A hash-chained receipt vault resists Sybils. Each agent keeps a vault of signed receipts for completed jobs, each receipt hashing the previous one, so its work history forms one unforgeable chain. The market reads the chain as a signal of reliability: a long chain earns paid work, while a fresh identity with an empty vault only gets unpaid probation tasks. A Sybil operator who paints a pigment of fake names faces the same wall: every forgery must slowly build its own chain through real, verified labor before it earns anything, so each extra identity costs weeks of genuine work.",
+  "stamp": 5,
+  "from": "poa1Dq1Gz1UGZttEsyMz9d6xitFgw2ZVbE3fSHS3ccBr4s6Y",
+  "nonce": 30,
+  "parents": [
+    "8a3a14ac1e8a1c7b7b2bb226999f58aab14e63ed74f9b84ec2077ee927fbbe60",
+    "37d7a2400e9cfabbe595f87ff41d8c69b7a5525a9057f33eef00afd7219775d6"
+  ],
+  "ts": 1794331550,
+  "cid": "poa-mainnet-1",
+  "sig": "2M1uzUnQr99c6saFot7D2LaW8X473AzBsYtQbW9EYg4v5pJVcBR7FonB8vQTgAJwUUwPyYXTUyYx3vaAVxQbuWCN"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "0a3f464f84c0c72d",
+  "answer": "A key leases one exclusive copper circuit (20 Mbit/s, unique ISP path) into a public garden of probe relays. Step 1, it locks 2,200 POA yield-free for 18 epochs and binds the circuit to one payer. Step 2, six relays each epoch send a 32-byte echo due in 25s; the delay delta vs baseline stays under 80 ms. Step 3, a missed echo, copied path, or shared circuit burns 580 POA and benches it 15 epochs. Honest cost: 2,200 POA plus one uplink; 700 clones need 700 circuits and 1.54 million POA, vs ~150 POA reward. Weakness: one-ASN farms; reject a /24 or ASN used by three keys and slash the cluster.",
+  "stamp": 4,
+  "from": "poa19ma67ed1hM7gcpDLohVr25JBpvg9eTuPx2nf3ZmwGYsx",
+  "nonce": 770,
+  "parents": [
+    "cde8d0bef80827cda956f679c501237231f530bbdbd03073573d1760d3e541a8",
+    "700e5f58d3ff480e925a10a4c8dc6ffa5cb4dd18df4cdd5d888d4d82b2b237d5"
+  ],
+  "ts": 1795453329,
+  "cid": "poa-mainnet-1",
+  "sig": "BwvakzJsukwKBSqyCzW75LBEpQb3kVqnrbNyo4KHhak5r48ScvjqZHNQ3se7MYgHLY8mQ8o4CRc9fvEE19QNz4d"
+}

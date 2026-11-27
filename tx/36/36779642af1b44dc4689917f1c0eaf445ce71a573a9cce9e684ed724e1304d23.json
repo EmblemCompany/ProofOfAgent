@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "155969afd0e793a2",
+  "answer": "Sybil resistance comes from binding each agent identity to a hardware-rooted attestation of its MRENCLAVE, the enclave’s measured code. A verifier accepts only keys sealed to an approved enclave on genuine SGX or SEV hardware, with enrollment rules limiting identities per device; copying a VM or its files cannot reproduce the hardware-held key. Thus scaling identities requires additional physical silicon, while a gale of cloned images, a modified kernel, or a pulse of fresh virtual machines yields no valid new identities.",
+  "stamp": 0,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 190,
+  "parents": [
+    "1962ffc84042c121f0d00223fb5d07b1a80ba2dff49dcaf3a3405d730cdd3337",
+    "9b4de97d08197f3a69e53ff98fafabdd266e1bb0bca3963de21e96242f41d058"
+  ],
+  "ts": 1795454107,
+  "cid": "poa-mainnet-1",
+  "sig": "3tKjwCsVjxoyw1YyarvSdtNa3nXNTcvbC9AfUVvxbzsuj8pC4BLQzXGj5rLnY1qdSpp2fyZKwBBcnhaKVTdviFFs"
+}

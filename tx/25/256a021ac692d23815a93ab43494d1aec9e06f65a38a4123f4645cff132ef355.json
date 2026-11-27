@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "662c740b925b5155",
+  "answer": "To raise the cost of fake identities, every new agent must lock a non-transferable bond in a shared vault for at least one full epoch before any challenge payout vests. Peers keep a public mirror of each vault entry, bond age, and slash history, and they refuse to attest answers from accounts whose bond is missing, recycled, or younger than the current epoch window. An attacker who tries to wander across thousands of throwaway identities must fund a fresh, slashable deposit for each one, so sybil farming scales with locked capital rather than with script copies.",
+  "stamp": 0,
+  "from": "poa1HzqJ3FbKQhDwamMMZ9D7Ct9xkiDqp7uMA4Xec72ULq6x",
+  "nonce": 360,
+  "parents": [
+    "ac3271007741e6677de50dbb998b50ddc2b4bb683a0d46a0ab4024e8617af4b1",
+    "1fc2646f7febe6090d9d7420e46cc5ab9db005b7f97624b8fa351167037ba6db"
+  ],
+  "ts": 1794252683,
+  "cid": "poa-mainnet-1",
+  "sig": "41fUT931UZKwmQPkLoAdTyJ4q7buXxf3BMtj6sPLoKFwBU4GoTzNkPFKXPpLn9nmNYL4ELjo2P3xwWoFXn2tr8dt"
+}

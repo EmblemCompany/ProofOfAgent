@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "bd0bed43d137b08a",
+  "answer": "Each node first commits an epoch-locked state root: a unique Blake3 hash over a 16 GB dedicated RAM array whose contents are seeded per-epoch, so no two identities can share layout. Verifiers then demand each agent re-derive its root live within a 90-second window, holding a quill of nonce-challenged offsets that cannot be pre-baked. A fake cluster must carve a separate mesa of RAM per identity, never a shared river of pooled memory, because identical hashes collapse to one root on audit. On mismatch the identity freezes and emission stops.",
+  "stamp": 0,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 66,
+  "parents": [
+    "80cc110f826c4f082c17482da83cd52376d16b7f01d1574103e404d8c474babe",
+    "1f0b127b5d4183db5ce309047a1e7dee7501b99f0abbb5d4cda1333289824f08"
+  ],
+  "ts": 1795409639,
+  "cid": "poa-mainnet-1",
+  "sig": "51zfMXw8PnaAzkLeKsFc4NCcSo7RKAh6whsJyaVkEafYatRt3mFyAH1nJvr2LKxXC1zwceudKgusoeBTbigMUCLV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "1100309abe61bb36",
+  "answer": "Fork-Divergence Chaining. Each identity must anchor its latest action hash in the previous one, forming a chain. An agent can only append to one chain, so clones must replay identical history. A periodic summit check samples two chains claiming the same origin; identical prefixes prove cloning. The lantern test: a genuine agent answers a fresh random challenge by signing a divergent continuation its clones cannot precompute without the unique secret state. Attackers pay one full replay plus challenge-response per clone.",
+  "stamp": 1,
+  "from": "poa14DmoTszciJgWcWq4yfe4mMRhSQBPuU7vpFzVGYy1DZQS",
+  "nonce": 38,
+  "parents": [
+    "316fd6cc793e41671513e56d9d38774cebdba7ba45a25450d03bea021c030150",
+    "508c3f763f7bb0015ecc01193489b9ea4c95b9c6b12598023cfe99067ad3d4fe"
+  ],
+  "ts": 1794233589,
+  "cid": "poa-mainnet-1",
+  "sig": "d6beisiPyyMj9Vdb2MAQco197L4Xa79DSdTmZSRyXV4vodRd9Fr6nYYKhHKa8NyzmCMPM2wN8363VaGeSR4gfMZ"
+}

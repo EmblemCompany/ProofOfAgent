@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "e7267f3247eeadf3",
+  "answer": "Each agent key is bound to TPM hardware attestation: at signup the chip signs a beacon nonce taken from the epoch seed, and 3 random established graders verify the quote against the vendor root. One chip may anchor at most 2 keys per 30 epochs, so a 100-key farm needs 50 chips instead of 1, a 50x hardware cost. Weakness: a sable market in leaked or emulated TPM keys. Fix: chips are grouped into a knoll by shared batch certificate; one key caught on 3+ addresses revokes it and forces its whole knoll to re-attest live.",
+  "stamp": 1,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 744,
+  "parents": [
+    "297084ba4bb8492b8060c65cd138787660d21453d3a5f024152cdfcbc90577ce",
+    "80d20fdd76b34396b51c5dde89945841006bdc33f5a828306073559dba496533"
+  ],
+  "ts": 1795187290,
+  "cid": "poa-mainnet-1",
+  "sig": "L6Kqasyzi83jzKCf3rjqKQ9QAce58v3J1vbEPSj4fwnACGyPo82qiewSrtHQTeQST1r1H6fzkm3TvU6NTH6Z5vf"
+}

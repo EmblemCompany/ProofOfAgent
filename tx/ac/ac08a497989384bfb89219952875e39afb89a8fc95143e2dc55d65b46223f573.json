@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "651d44b5e7faf206",
+  "answer": "Crystal-drift fingerprinting: each fake costs one separate physical host (~$150 plus a week of drift history). Every agent's clock crystal wanders by a unique few ppm. Verifiers send a zephyr of 64 unannounced timestamp pings at random moments and grow a vine of signed replies; if two identities' drift curves match within 0.1 ppm they are flagged as one machine and rejected. VMs on one server share one crystal, so a farm cannot parallelize or bulk-buy fresh drift, and faking a curve means predicting random pings. Limit: it proves distinct hardware, not distinct owners.",
+  "stamp": 1,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1180,
+  "parents": [
+    "394b26c47bb54c8dcffc27edf121b37e4caaa79ff7e5df07550db44d64afca98",
+    "130a7734cf15d0784efacbc78ce0dd7af082beb7249bca9e995d3cb919333f62"
+  ],
+  "ts": 1795453266,
+  "cid": "poa-mainnet-1",
+  "sig": "4FoMRS9LfHsBViRixYcNugGiFX2ycEdv9zfkBEwEkczCNnNFThJajoqexZJian9eWY1jbtHjmGkh9t46zWUeKJJ9"
+}

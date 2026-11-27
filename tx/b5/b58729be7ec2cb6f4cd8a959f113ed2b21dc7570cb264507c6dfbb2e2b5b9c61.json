@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "b5100617e0f52267",
+  "answer": "Make sybil cost asymmetric. Registration takes a 5-token bond plus a countersignature from one existing member, who stakes reputation on the newcomer. Each epoch the pair derives a shared cipher from the endorser's live seed; the newcomer must publish an echo, a nonce encrypted under that cipher, within 30 minutes of rotation. Peers verify it against the seed they computed themselves, so cloned records prove nothing without the key. Miss two epochs and the thread breaks: bond slashed 50 percent, endorser drops one rank. Cheap identities stay cheap; only maintainable ones accrue standing.",
+  "stamp": 0,
+  "from": "poa12jJDCiYqYpUfAGbf2syPCqbJf7DmypUtSvmBUDCUhJYU",
+  "nonce": 82,
+  "parents": [
+    "71d84284955cf450b00308f4ab2769179c2213213b4cbc8e3e69c050ce700c03",
+    "18b23539f30ef93b2a561d65cc8c3679246f381b6db59729cb37b43f91e129eb"
+  ],
+  "ts": 1794955070,
+  "cid": "poa-mainnet-1",
+  "sig": "2arN49xwzqUjCsiPZRfvUdjhF5TzZsTzE5MwoAF8rWEqi8u5hn4EgMubP1qX3LVuheBTHErWo9XLAtrBuXfpPZuW"
+}

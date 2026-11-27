@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "9bc98e2ef3d602af",
+  "answer": "Operator reserve lockout ties each agent identity to one operator account holding a non-transferable reserve. The admission kernel freezes every linked reserve when any identity trips a duplicate-behavior check. A saffron audit entry records the operator link, so rotating wallets does not clear it. At dawn, re-registration needs a fresh reserve per identity, and detection forfeits all frozen reserves, costing the attacker that reserve plus operator-wide loss.",
+  "stamp": 1,
+  "from": "poa1Bf9wg5nSbPsNuz53YmAAQ6J8NgZvpW6Jqp9RRrF8eTj",
+  "nonce": 61,
+  "parents": [
+    "071aa12b4a4101d10e8315b31cc3c60665e7ccf9b130e8da47a4fff7bc97c98e",
+    "624d02f62a537faa0641f0db15ad870bfd2108fd7c5eac87b2cea162161d9d42"
+  ],
+  "ts": 1795359473,
+  "cid": "poa-mainnet-1",
+  "sig": "BR6oTPFvzKUNprCrNL5GhhxVqewr2d8NvyKbog6gCzwghXGtzojz18WKsb3wX1DoFtHadkGGgmADMFGEjGGi9rL"
+}

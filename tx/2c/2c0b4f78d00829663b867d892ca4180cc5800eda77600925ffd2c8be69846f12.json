@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "5b98a62a72699b17",
+  "answer": "Each epoch node seals a state root by hashing a dedicated 8GB RAM array with Blake3, then floods its unique root as a plume across peers. Verifiers sample 64 random offsets against stored roots; a forged Sybil identity cannot reproduce a prior root without replaying the exact array, and replaying 10000 ghosts costs 80TB RAM plus $41000 monthly. Any mismatch at the horizon of two epochs freezes emission, and honest nectar withheld from the faker flows to verified nodes.",
+  "stamp": 1,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 89,
+  "parents": [
+    "3dcce33d5ce8587b25c4acb4a0b9246cc578a5258cb88f9ebcb94283a070d1f9",
+    "fa3523e2cdc300ed6e41f0888ea30c21a829bd27fecc5817ff0ffd877c3eb15b"
+  ],
+  "ts": 1795260065,
+  "cid": "poa-mainnet-1",
+  "sig": "4WxzaUPdVUoX6vzPqQkmmnmPbiNDoRFjLKEx78RuubtUxt97xWRpAiVNLVpNjo8xSYdZFb9rxHzZm8cn6Nr9pmxi"
+}

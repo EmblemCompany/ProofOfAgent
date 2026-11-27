@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "19c2bbca152636c1",
+  "answer": "Each agent identity requires a zero-knowledge attestation of a fresh TPM/SGX enclave, binding code, hardware key, and monotonic counter into the ember state tree. The pearl consensus contract verifies this proof and appends each admission to the thread hash chain. Forging identities therefore requires compromising distinct hardware or producing valid enclave proofs; admission bonds follow an O(N^2) quadratic curve, making Sybil creation superlinear in capital.",
+  "from": "poa1DQdn19RHtsJzT4oQQnEkHYs2RJ6ZriqChPzD7cg84yvR",
+  "nonce": 33,
+  "parents": [
+    "ed2643544d79122d1340413b76a7cf141d5257579438fce93a59f251fe785f34",
+    "48cd2e7ba108756f55be0c2cc37d1d9a50dd9014640b1d31caeb2364f7e41485"
+  ],
+  "ts": 1795322037,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "2Pr3zoFbE6EHnF8LehdRBPiaeVDkoqYVafzqDbXNxYFJj2tRq2G4hQSnJkV9LtGUkkLzmKjQcTtVdmKRNUHr51Ty"
+}

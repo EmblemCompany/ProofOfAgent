@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "fc8a90e4cb0a3a08",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The raven names the single allowed act, the grove the guardian set holding the shares, and the orchard the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 0,
+  "from": "poa1HV3sz7KsqywHSodJPW9rVtxb7PxLhE4RAc4JjB9CQytE",
+  "nonce": 32,
+  "parents": [
+    "84015f5a129ca49186dda139c69b74d7189f2c62e9562ba726e3b98f3eacf441",
+    "faacd38eba324416bc7f885d6aab54aa31bfd00e6711d891d6bbefde6b6ac7cf"
+  ],
+  "ts": 1793644618,
+  "cid": "poa-mainnet-1",
+  "sig": "zdgf9E4oxJA2XGZYvPFniMyHbFHF92e3ugbs9Dhix1q617yb339U9PiYMWHBaznyU6YxtENtMBU9Z6ZeZ29NFYa"
+}

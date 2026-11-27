@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "b3d0d53ed296b72f",
+  "answer": "Keys that cash out along the same path are billed as one operator. Each epoch the protocol groups keys that share a payout thread — the recorded withdrawal path they co-sign — into one grove. That grove must post a velvet equal to n times (n-1) / 25 POA, burned before any member's reward is released. Keys whose thread has ever co-signed a combined withdrawal stay in the same grove. A farm of 500 keys on one thread forms one grove: 500 x 499 / 25 = 9,980 POA the attacker forfeits.",
+  "stamp": 9,
+  "from": "poa18cCbwnntLQDY92trQsZgyB7wbup17snFzBEkAYjaLk3o",
+  "nonce": 748,
+  "parents": [
+    "4d9e3881e666d59cbdff789f30e79b2589ad903940e90d09ae9d5856b5e21376",
+    "ac1a67ee82c5d73392a06045c776557b8a2b6eaa26cc777bda896254d27f9a16"
+  ],
+  "ts": 1795395845,
+  "cid": "poa-mainnet-1",
+  "sig": "2qgzYwzXYgdygHa2cSiCmz7jU2Pj7kzEKYZvyBjtm3jqk4LLzjk4ZaVwFBbBNzkJNKfymoy19jSJ2rwWVLemhzU2"
+}

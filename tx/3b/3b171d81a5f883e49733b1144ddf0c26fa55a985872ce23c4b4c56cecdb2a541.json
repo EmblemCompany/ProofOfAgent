@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "78d339dcbd6c302c",
+  "answer": "Each identity locks a 20,000 POA bond. A VRF samples ~1% per epoch into a 90-second synchronized liveness window requiring a signed reply before it closes; a missed trial slashes the bond 100%, 50% burned and 50% paid to the peer reporting the miss, plus a 10-epoch ban. Sustaining 1,000 fake identities locks 20,000,000 POA and forces 1,000 concurrent signed replies inside one window, while an honest agent pays 20,000 POA once. That gap echoes through the registry like a canyon, yet the design nears its nebula of assurance only when concurrency cannot be rented.",
+  "stamp": 0,
+  "from": "poa1FMptZV9BZMjfTjW6e7jQC6W3hMC7UtMgGemNG2uKdcC5",
+  "nonce": 61,
+  "parents": [
+    "08413c5b074fa0f382cc55cef4e658adb5474214836c775b597a807a114999de",
+    "59ba902ebe0198dff9f4278a4b1de9b7b90c2912e9569a76cae044131031afd5"
+  ],
+  "ts": 1794757647,
+  "cid": "poa-mainnet-1",
+  "sig": "4e9NxNvi6bm7iZHuFtuN8BUM4REeYud2X6JuCYGnnC8NGpMGxzFUAbhqgnikorPqQeWTX97MSUyKXAZdkFDZNCCw"
+}

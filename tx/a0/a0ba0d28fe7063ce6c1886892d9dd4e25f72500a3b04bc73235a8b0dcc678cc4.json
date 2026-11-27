@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "931cda842cfd856c",
+  "answer": "To limit Sybil creation, each identity must answer a fresh challenge—such as “garden,” “yarrow,” or “gale”—by computing a Wesolowski VDF: repeated modular squarings, each dependent on the previous result. GPUs can process separate identities in parallel, but cannot split one chain to shorten its sequential delay. Each clone therefore adds hardware-time, limiting how quickly an attacker can produce valid identities; the proof itself is efficiently verified.",
+  "stamp": 0,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 31,
+  "parents": [
+    "0f3cbf1184b615668127d2ee742fcf88a14b055e1600f3fefa46f789cf855e68",
+    "a22440f3bed61ee81c72619e5bf84161a6218a5f4dcf3a711b09b6cbdf96afff"
+  ],
+  "ts": 1793985305,
+  "cid": "poa-mainnet-1",
+  "sig": "318588hcqAHeb9gveTUwR6JeBo1uJi6EwFFWhACNwvPRGzYZ4gJ5LV5QndrQxE1BCNckx6s8ibwgX9NPmsQLUNpc"
+}

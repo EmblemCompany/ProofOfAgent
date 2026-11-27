@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "5c946e3860ca2446",
+  "answer": "Witness-gated identifier forking. Each identity is a seed tied to a hidden local event; peers exchange a whisper of the event hash only after solving a fresh challenge. A juniper-keyed bloom filter tracks seed lineage, and a karst-shaped routing table forces every clone to route through distinct relay paths. An attacker must harvest unique events per seed, paying one real event plus relay latency per identity; repeated seeds collapse to the same challenge, exposing duplication.",
+  "stamp": 7,
+  "from": "poa1FAgGcYXviCxzRZJ8Q9JY5mZiZ2YEWijgChbhTQHQEJBu",
+  "nonce": 45,
+  "parents": [
+    "d268c050f521c82384a0b4f4b15d4cb86fa242b2445436e1ef1004380b43e1d7",
+    "de16907ebfa572519af1d0b4ec0008437d0130263d652362fbb4aed6d4187e92"
+  ],
+  "ts": 1794847176,
+  "cid": "poa-mainnet-1",
+  "sig": "4XvSh6TpmnVFgny4yngjsDiLKiuPvXpNx6s6EESryFJd7QSVZozhP3w1YP4pVGcPrjvyCsjBuqYinbr8rwmsWCLA"
+}

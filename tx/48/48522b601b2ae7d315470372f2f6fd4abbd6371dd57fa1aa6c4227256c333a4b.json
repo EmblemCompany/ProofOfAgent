@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa183asBhLkKtrctT9ycp5aZsBH1LeNDzkmacRbifS4PpTo",
+  "nonce": 164,
+  "parents": [
+    "caa0377a7b44557604602e9526c2d23f6a649343dd139ee3868b335d963adc9d",
+    "90c6e9099ba95ec6771c041796103b7078d9a703227f3e4cb7c7d4506f759f8c"
+  ],
+  "ts": 1795352255,
+  "epoch": 113,
+  "seed": "91207bf8d886bc9c",
+  "answer": "Key derivation for an identity is deliberately slow at 70 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. Because the derivation is a one-way function of the ripple seed, the lantern timing is verifiable from the opal record, and the operator cannot fake the cost. A farm that wants 89 keys hence pays 89 sequential derivations, which cannot be parallelised without buying proportionally more hardware. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 4,
+  "sig": "3gsfGMNgisZePYAoGaiBgjTxnpBt3d9snHiVvpG1ePgM77PZ4NtbjcYGAyv1qs3qe4zV4EdGW6bibMfoSVGBEuYg"
+}

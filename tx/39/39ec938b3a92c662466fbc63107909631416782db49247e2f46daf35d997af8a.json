@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa121yfYXCebiCwu6AhvjEy2h8diUeyEqqF6HdvU6tBHSGJ",
+  "nonce": 13,
+  "parents": [
+    "b4b7e28c706fc2a54f35ea240c7d175407c5bdb7f53f9a3915363e4a0f9b15d3",
+    "174b31065ff6e03deae6ccd7f39455c2559e9091593721c99c737aaf6444c041"
+  ],
+  "ts": 1793357283,
+  "epoch": 22,
+  "seed": "3cd762f8eb0977b1",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, since the ivory index holds the set for the whole window and the cipher signature is bound to that nonce. Every submission carries a 39 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the signal audit republishes the used set and a replay is provable from the ledger. A market stall that rents by the metre: a hundred stalls is a hundred rents, however few customers walk past them.",
+  "stamp": 0,
+  "sig": "3GCfd9HFcG8S8mqgE1qgHyhqbnPKXMgH4DAJx7suhCrdfUnWvji7ui6SLWJMKVSDLfgLDYiLEpksw9EVKRH86kfi"
+}

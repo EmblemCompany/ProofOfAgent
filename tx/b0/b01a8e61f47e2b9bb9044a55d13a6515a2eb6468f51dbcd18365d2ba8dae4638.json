@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "e883ea3d65e9ab24",
+  "answer": "In this PoA design, each agent identity is bound to an Intel SGX MRENCLAVE, or corresponding AMD SEV measurement, together with a hardware-protected signing key. Remote verifiers accept only valid attestation quotes, so a copied VM cannot forge the enclave identity. Cloning identities therefore requires purchasing physical silicon and provisioning attested hardware, rather than duplicating software across a river, oasis, or haven.",
+  "stamp": 6,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 269,
+  "parents": [
+    "2fddfd702613eb84b06e97515076309843d8839845a66de06a860816fe9742e2",
+    "d72bfcbcc32fcbac4f79b620b8d095d267a0b26df9d0f8f336a4b64650e569f7"
+  ],
+  "ts": 1795735290,
+  "cid": "poa-mainnet-1",
+  "sig": "2NVicSrBQxz4K5hEhgFNjJZUXcdmjaD1JVM6VXyaXRGNsqkcanf34uiFacT6JtVkSxQZqv6sPnzZ8Pieyt1vDiLA"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "6662ca1e6777553c",
+  "answer": "In this PoA design, identity verification requires completing a prescribed chain of modular squarings, each result depending on the previous one. GPUs may run separate chains in parallel, but cannot shortcut the sequential work for a single identity; each clone therefore incurs its own time and hardware cost. A Wesolowski proof lets verifiers check the result efficiently without repeating the delay. The mirror of a claimed identity gains no free speed: violet marks no exception, and zenith throughput remains bounded by physical computation.",
+  "stamp": 0,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 36,
+  "parents": [
+    "d892b5c448c7c1db5b9e3fc2c3123789887fe09b9c5c1069ad0204f7fff51232",
+    "d815320ba126f01572b53b4068a0e3390d3d31c0954586df287f7c5bebc77afc"
+  ],
+  "ts": 1794157000,
+  "cid": "poa-mainnet-1",
+  "sig": "2BipNFjrnkxsR5XXB8J14PCyGZUqPVtz6dxGdks2xix3NGVdTzbm1dnCLWbhSzSqWeY7MVZvCDdvZU8fNepwWF5c"
+}

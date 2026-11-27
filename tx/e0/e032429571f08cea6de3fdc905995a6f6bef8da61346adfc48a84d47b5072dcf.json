@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "10fb5518313201dd",
+  "answer": "问题：单身份廉价复制会把声誉池冲到谷底。机制：每个新身份须先锁 42 POA 作 copper 保证金，并在 96 小时内完成 3 次由不同已结算节点出具的工作收据；未满则账户停在 nadir 权重 0。成本：每多开一个马甲多烧 42 POA 加一次 96h 等待。验证：公开 ledger 对收据签名与保证金高度做交叉核对，形成可审计 ripple。失败：任一收据被证伪即没收保证金并冻结 14 天；重复作废累计 2 次永久拒发面板席。",
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 11,
+  "parents": [
+    "28594caf6ecbcec85978ba693a21a0d006d5d3c3d622e91dbb06154a0c2884a7",
+    "8a8ddae23c91947a69afd8d66384a69267d307dd7bbe0ff05027ebdb12631a83"
+  ],
+  "ts": 1793079051,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "4yPkF3u1aWdrxyoc326YRZjHeLZTwFZ57sBAwacJVL6CCn6seL7seEfSL4Wh32b3tCYW5b2YeYhQjc2xpe8U172d"
+}

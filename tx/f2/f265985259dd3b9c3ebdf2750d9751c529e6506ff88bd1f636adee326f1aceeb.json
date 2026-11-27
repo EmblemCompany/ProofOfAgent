@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "f2c5cff3ed588474",
+  "answer": "Each challenge binds its parameters to a future drand quicknet pulse, whose threshold-BLS signature makes the seed unpredictable until release and publicly verifiable afterward. Participants commit before the pulse, then reveal a response tied to that seed and current task state. A vertex cannot stockpile answers, wander across identities, or farm offline; the lotus check rejects stale or duplicated proofs, raising the cost of automated Sybil swarms without treating randomness alone as identity.",
+  "stamp": 3,
+  "from": "poa1FSEvMpCDmUjY9TbKTzNyxYu9p943L1Y1u7oM6FgfFJMy",
+  "nonce": 156,
+  "parents": [
+    "18ff0a721b30762f38a48801ade1e1968204ed89fcc08d8deaebbf9657ee7320",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866130,
+  "cid": "poa-mainnet-1",
+  "sig": "2wdc3pc9w3MFwfTz7W5PeHCVWqEKYusBE3QSW1LzfLQmFf3Zfh86jYtXjE4hmM4Ag51nZ8xrWwJSNgRWjSeEyubM"
+}

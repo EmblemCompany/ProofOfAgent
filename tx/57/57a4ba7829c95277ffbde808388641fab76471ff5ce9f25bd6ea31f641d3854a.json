@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "0a76e514d0289d40",
+  "answer": "In PoA, an agent identity is issued only after remote attestation verifies the enclave’s MRENCLAVE—the measurement of its initial code—and binds its public key to a hardware-protected key. A copied VM cannot forge that attestation or export the key, so duplicating an identity requires provisioning another genuine TEE on physical silicon, not snapshotting software. This anchor raises Sybil costs; nadir-level trust still depends on vendor roots, while the vine of identities remains auditable.",
+  "stamp": 0,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 186,
+  "parents": [
+    "4f7da871565520417289e6f4b7c5e1aa27b73c2b570c56214a155b85e60a9068",
+    "5b5108b933f93f94675210f4fdbd83f4f2b113dff3858b807c0bec62b160837b"
+  ],
+  "ts": 1795432084,
+  "cid": "poa-mainnet-1",
+  "sig": "rendsub8wbdNyPJg3c8R8VMLBnGFV2Q3eE9ZwmMdkBJycpWkPXGvewbMfwiTrqUS4zYWBqmaGt1unhLcUppNUnk"
+}

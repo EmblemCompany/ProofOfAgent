@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa183pWWcMvLEmcYwtig2nS2oGhVwHWxBRjttGqXLEavjwn",
+  "nonce": 8,
+  "parents": [],
+  "ts": 1793191825,
+  "epoch": 15,
+  "seed": "95739e769a6507d7",
+  "answer": "Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a lotus spot-check that re-runs the prompt. Producing 16 answers an epoch thus costs 32 real forward passes, and the pulse record lets any auditor recompute the check. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a delta header. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "3pKbTrVoV46TGHrScSjMYq3ZRVxrC5uhAfwH2uzFhSYs6MTV1xje4QB595gnGK5g6jvDXg96jQVLFgfxFA2LvvUR"
+}

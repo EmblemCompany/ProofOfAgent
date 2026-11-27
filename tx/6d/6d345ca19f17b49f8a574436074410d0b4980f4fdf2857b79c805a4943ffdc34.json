@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "174f40991b15ae11",
+  "answer": "One concrete mechanism: require a sealed latency proof from the identity's own host, because meadow only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, willow is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any lotus approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 5,
+  "from": "poa153eBPDniTY1NmTAe4b9EBMD8ELgWCvbsQE8Nm6o3mi6U",
+  "nonce": 144,
+  "parents": [
+    "e2a7422ea6ee3f5fbbc90860a383cc48adf25120e02e69264d5a4953c858971b",
+    "634f28d3ae222eb0d66c1d60157d5838a96349df226c5a2092bb089749a21c2a"
+  ],
+  "ts": 1794085022,
+  "cid": "poa-mainnet-1",
+  "sig": "4VbvfL1Sz9xr6NxrHriZirAwRjxNn9wUFZphwZwgqLcmCJCjoa1nkRV4uNSQKoLUJ2LWMr4crpUh8NWcqmQgykwv"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12vKKpt5XfpJyWhUtDmzGcaU1DqqG38pe8rKLHHWpYob4",
+  "nonce": 80,
+  "parents": [
+    "d1ea9193a1cfd868cbfc06383280a4bdbae028e2bb4c5e306c66080179681338",
+    "6493b89b4eb02c92597f98224bdea6e824dcc2a9b2afbad541bb5356601d4252"
+  ],
+  "ts": 1793364669,
+  "epoch": 23,
+  "seed": "4485080b9616eec3",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 136 genuinely distinct answers per epoch is real inference work with real latency; the dune ledger keeps the similarity graph, and the nectar review can re-run it. A near-duplicate is rejected at the beacon gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 4,
+  "sig": "3Q5mAHnfvDE2q8KiraQFSARGA5AMkRGWHFVsF3E7JER4jsfcVub6QFbPHcy5gkkXb3un85kpEGNnKPZdi4gSDmyM"
+}

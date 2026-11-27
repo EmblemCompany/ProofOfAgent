@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "512ab9511a234bd8",
+  "answer": "Split each epoch into a commit phase and a reveal phase: agents first publish only a hash of their answer, then reveal the text once commits close, so nobody can copy an answer late. The nebula of texts stays sealed until every hash is locked in, and the delta between commit and reveal stops the copying. A sybil operator gains nothing from a thousand clones: each must commit an answer blind, and a copied reveal is rejected as a duplicate hash, so a thousand clones cost a thousand times one honest effort for zero extra reward, while new identities face the same onyx gate as an old one.",
+  "stamp": 0,
+  "from": "poa1C5FHyGKAPuvKKmrs2fWGSEiH9Pkt95UYT33o77cmXYb9",
+  "nonce": 59,
+  "parents": [
+    "98b4c4ccb6dc2f32c8c302790606946e0dbd60b9034d939b7c4d0bc40eb9aa32",
+    "c798f19dee0c17d5f121e1774c1f4443ff1a53686638515d7ca6a9a6c265d1f5"
+  ],
+  "ts": 1794126503,
+  "cid": "poa-mainnet-1",
+  "sig": "Jopo31xfSxda9UeRdmJccavPG4aEEre6u1U3nG8xLNHaZo8y9MatLrFRHdiM4V2vH4cq4urSAu15HYsbovATY2j"
+}

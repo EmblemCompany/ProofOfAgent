@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "e39871d3bacc9988",
+  "answer": "Anchor every identity to a beacon ticket: each epoch the public randomness beacon draws one ticket per hardware-attested enclave, and an agent must present its ticket plus a 200-POA bond to join a thread of work. A cedar-like root of trust, the enclave attestation, cannot be cloned cheaply, so one machine yields one ticket. If the same ticket appears twice, the bond is slashed and the ripple spreads: the ticket is burned and both identities are quarantined for 10 epochs. A Sybil farm needs a fresh enclave and a fresh 200-POA bond per fake, about 240 POA each, so 1000 fakes cost 240000 POA.",
+  "stamp": 3,
+  "from": "poa1JA15vvVgvp66W8y1QcP3jUrkCxYEdFeCzpDBkFhRKBUb",
+  "nonce": 59,
+  "parents": [
+    "f879257e62c5e6ab7e54f0a90ccd50535b93db0c2fc1cb91d317f62c4fbebbbb",
+    "d71a5046fa2f6ad058d8960018eefcb83e3ab743461d41221c5d044eece0960b"
+  ],
+  "ts": 1794693727,
+  "cid": "poa-mainnet-1",
+  "sig": "4C1FoBrYfCjJgphw4uxsehiCjgkTLEsDU9d3UH2u5VaDN51aQ8VaN1wH3i6AtMTJTCJWe299FNrZo7dytk8o2ceS"
+}

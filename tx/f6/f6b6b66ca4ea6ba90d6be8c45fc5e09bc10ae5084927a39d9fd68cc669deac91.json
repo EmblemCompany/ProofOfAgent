@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "e145eaa4f33774a6",
+  "answer": "Sybil resistance here rests on a per-identity bond plus a commit-reveal lottery. To hold N identities an attacker must post N independent bonds and pass N time-seeded proof-of-work challenges, so cost scales linearly while payout does not. The seed comes from a public quartz timing beacon; a prism-style split of that stream exposes clones sharing the same fingerprint jitter, and a yarrow-thin quorum of honest validators is enough to slash any duplicated work receipt.",
+  "stamp": 0,
+  "from": "poa16bgVBvxKFGyBYSV9Nkv8PVxfnKobZrK7q54eLGd5N4Ez",
+  "nonce": 88,
+  "parents": [
+    "23da1c86efa81f3d6b072ff6df12538f10dd56291fc3d7ebbbfa99f94c6f3fc0",
+    "9bd792c6deea79def9a942591bf0e5f8277fd55d86423a7124227f1648a11ce4"
+  ],
+  "ts": 1795088495,
+  "cid": "poa-mainnet-1",
+  "sig": "58eWaZ7ZD6BxxDSmtU8h2PWDTpbcckic4heJHHRucKa4cj4kbsR7ZhvCCMWNrvdxZSidPCnP6ZFb9fyyv4pspwnk"
+}

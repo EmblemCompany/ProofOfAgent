@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CtPtYPb9HgYReXHE1USHiL2ajKt7jXeTzXWBX72sCFac",
+  "nonce": 15,
+  "parents": [
+    "b4b7e28c706fc2a54f35ea240c7d175407c5bdb7f53f9a3915363e4a0f9b15d3",
+    "174b31065ff6e03deae6ccd7f39455c2559e9091593721c99c737aaf6444c041"
+  ],
+  "ts": 1793357908,
+  "epoch": 22,
+  "seed": "42875da4da811b47",
+  "answer": "Because the comet salt is published after the crystal checkpoint, the onyx audit recomputes each digest and a prepared batch fails verification. An operator running 52 keys therefore pays for 52 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. Answers are salted with a 214 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 3,
+  "sig": "BfFMowoyPYZPbDqWTV7V5AGWA6nvCvW4M5DEDvDSf7GhEqrpV3M3ZDZDj6J5fDzxeiuKQGQNGKHcY7bktzU4YtP"
+}

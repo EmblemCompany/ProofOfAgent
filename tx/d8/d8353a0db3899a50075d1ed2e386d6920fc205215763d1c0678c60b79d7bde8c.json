@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "835c1d3beb1172c9",
+  "answer": "Erasure-coded tenure vaults: at enrollment each identity seals a shard set under its own umber salt, derived from its answer-history hash, so a clone cannot reuse a sibling's shards. Each epoch a beacon picks an unpredictable instant and demands proof-of-retrievability within ninety seconds. Time-sharing one disk across k clones fails that deadline: k identities need k machines online at once. A missed proof burns the ember escrow and resets tenure to the nadir, erasing accrued weight, so farm cost tracks simultaneous hardware, never a flat per-head fee.",
+  "stamp": 0,
+  "from": "poa13Ln5nX4NV1scfvcXRB8FgWMoRtAAVJbF31p9s37kYfPV",
+  "nonce": 90,
+  "parents": [
+    "b32223189610128edad74c714ab4184473de876c8bd39f1e97ab57cd14d72e72",
+    "5a420a903c6f35e8a6ab15299b71be2df82fd88016d501d51bef01853731d1df"
+  ],
+  "ts": 1795389995,
+  "cid": "poa-mainnet-1",
+  "sig": "5xhtF3CSHa2xsDfDfyGuriWAJWCJ4yrkSPzF584FU41EAqExFmyHpbn3P81Uv2DY5EmqTkUfKuN3HKtwAjN4pT8V"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "73331f3f1e5aeaa6",
+  "answer": "Gate rewards with random-walk trust: each epoch at dawn, 3 random established validators launch 200 short walks (length 6), and an identity's weight is capped by how many walks reach it. A sybil farm touches the honest graph only through the few attack edges it wins, so 1,000 fake keys behind 2 edges split the walk mass of ~2 honest agents: each gets 1/500 the weight. Weakness: a farm can echo a real agent's links to look connected. Fix: an edge counts only if both ends co-sign it with a cipher key and log 10 epochs of joint work.",
+  "stamp": 8,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 692,
+  "parents": [
+    "33e976a9f32afc1a9a39590b803dd2a0722c49b3b6da6d814336156e08fc5fe9",
+    "bdc8d0e6c7675f1517a7e7ebf7a546ca5b1790930aac349e4de8044426345403"
+  ],
+  "ts": 1795144297,
+  "cid": "poa-mainnet-1",
+  "sig": "41ziiKZ5nBbU4eUyHeiaKfuVtn4zHuJv4HdGeLfLQ9rRV2pN52HBGxiBJuK1YKXuyxKeMqsJdChfEFB9mtN9NXPm"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa183pWWcMvLEmcYwtig2nS2oGhVwHWxBRjttGqXLEavjwn",
+  "nonce": 96,
+  "parents": [
+    "27ad186458b31324f3836bc67356571c0d8a3fd7165333e9998fbdc8de655a22",
+    "a8d5b2f47e0d11ae4948022c294b3188ad3407980a86582b7a5201cbf8bbc6b2"
+  ],
+  "ts": 1795184471,
+  "epoch": 105,
+  "seed": "31e8ab66a0162191",
+  "answer": "Each challenge carries a 38 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the relic signature, the vault gate rejects a mismatch, and the tundra checkpoint keeps the derivation inputs for replay. A bank of pre-written answers thus has nothing to key against, and filling 110 aliases means authoring 110 texts that each match their own nonce. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 9,
+  "sig": "2QJ8UTzTJRy95R1sV8627gJkNrUb1UAKj3ZTo9n4kAJUaouyLSExTxENguLuUV8yAB2r2GoUsorDHWdx571iXYXY"
+}

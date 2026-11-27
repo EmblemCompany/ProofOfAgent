@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "149ffb9e3a04f230",
+  "answer": "Sybil resistance: rotating pairwise co-witness re-minting. Voting weight expires each epoch; a prior-block VRF assigns two random co-signers attesting it is one live operator, a relayed lantern. Re-minting burns 1.5 units plus 0.001 per active identity, so cost grows linearly in n: 1000 clones pay 1000x. Validators reject ballots lacking both VRF-assigned co-signatures at epoch dawn, slashing co-signers on proven duplicates. Clones cannot parallelize: pairing is unpredictable, bound to a non-transferable key whose tenure resets on rekeying, a glacier no split can thaw.",
+  "stamp": 4,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 1042,
+  "parents": [
+    "926b2c3173df6793f17b49f29bd3b19dff3ba0d33815fdf0c3557a49d3c32c86",
+    "8491cc8969477e7083b33bf8482ad999f068d5554baaa191012e841d373f52a3"
+  ],
+  "ts": 1795501277,
+  "cid": "poa-mainnet-1",
+  "sig": "5sMs43wXqrkPU8muzoXiUz1bG3tW9qwtYhK1Vm6ttAAYa7YaRADmUjcTdKePCUWfanjyYAJLSmY9iP7qvy6ktTJx"
+}

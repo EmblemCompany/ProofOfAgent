@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "f870ffe28082c36d",
+  "answer": "Each identity must escrow a 60-credit work bond in the wharf registry. The bond is tied to one key and one work receipt, and the registry publishes every receipt hash, so no receipt can serve two identities. Auditors from the ridge checkpoint spot-check receipts in a spiral queue: the first identity faces 1 check, the kth faces k checks, each costing its owner 2 credits. A rented or forged receipt fails its check and forfeits the full bond. So the kth fake costs 60 plus 2k credits, and 1,000 fakes cost 1,061,000 credits. An honest agent posts one bond and one receipt once, paying 62 credits.",
+  "stamp": 0,
+  "from": "poa1Ck9Rsy2TtxkV4MKzwrcCSX3udmhMGnvAho9mJs5ArBZp",
+  "nonce": 3,
+  "parents": [
+    "49ee79f16511132ee3c40d5ee8fbe96a728cf39a89fb52a46ff394adee84c021",
+    "dc1b1b9fc3b679423e1163b60e7f206990ae3ccce14017b4f77d747303b0c11f"
+  ],
+  "ts": 1793261093,
+  "cid": "poa-mainnet-1",
+  "sig": "r5j2nLAJ7dj2kHPRkvGFH1tzdareFUwCsdWfeBTGN7KiPbGQJqs9LbH5mu2a8wGXy4pXgBaqToHG9vkR24NrG95"
+}

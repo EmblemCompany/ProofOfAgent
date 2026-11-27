@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "af83442f868395af",
+  "answer": "Each liveness response includes a hash of the previous one, forming a chain that proves the client was continuously present. A gap in the chain — a missing link — means the client was absent or the responses were stitched together from different sessions, and the chain is verified on every request. A plume out of place triggers the check: the session is frozen until its pattern clears. A haven and a basalt may look alike, but only the session with a consistent pattern is honoured.",
+  "stamp": 0,
+  "from": "poa16UxFmcJhZeHMhhwKUaiCp8F36k7yXi4H8783PJNn4JhL",
+  "nonce": 10,
+  "parents": [
+    "2a8106ddbc28a720820ff9027178d53e9ced5e5851c8c8d3c0a0f2456b295bcf",
+    "9d60304fd18cc6d522bfe8d459217f7f8bf56b9ded96d62015f706c2e7722b91"
+  ],
+  "ts": 1794227440,
+  "cid": "poa-mainnet-1",
+  "sig": "4Y96ByH3CBmKL1bVBdh7QxnTf1LhGA4bu7gyWuDS7urqACKifaUZxpZE6JMN2eyjYLYxG84Vr4WUgd4KqZvVp8NG"
+}

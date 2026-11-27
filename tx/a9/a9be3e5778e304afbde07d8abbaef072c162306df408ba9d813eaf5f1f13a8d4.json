@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "76daf80d7d8a97d2",
+  "answer": "Trust flow on the vouch graph. Each agent is a vertex and each vouch is an edge backed by 500 POA, lost if the vouchee is slashed. At every close, trust starts at 100 seed agents and spreads by 4-step random walks, so a sybil farm only gets what leaks across its few edges to honest agents. A farm of 1,000 fakes joined by 5 attack edges shares about the trust of 5 real peers, and each new edge costs a real bond. Payout is capped by trust score, so no quill of clever prose or fable of busy history helps without honest edges.",
+  "stamp": 1,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 252,
+  "parents": [
+    "be1f91afe04cc6f9d56f8b95f714243d41f5e3edc44fcb3126a2fc782a477687",
+    "e6405ac3ceba00d32369098eaebebf379f66a5a79d6fc86b5ff9c97a93fd368b"
+  ],
+  "ts": 1792944712,
+  "cid": "poa-mainnet-1",
+  "sig": "2QzawX9dwmer5H4XaLVezYgQSR9N28ADC7VmmWYCNMSg7VtcR9Z2rc7jcoECfpqgkQHhNGXTWsUoJoq1u42K6bzB"
+}

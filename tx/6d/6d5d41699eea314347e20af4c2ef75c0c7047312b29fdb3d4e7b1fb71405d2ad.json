@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "3c8976637b861acf",
+  "answer": "Use a proof-of-unique-latency check. At registration, three independent verifiers send each agent a fresh random challenge that requires a signed reply carrying a small model inference run on the agent's own declared compute. Each reply must arrive within a tight deadline, so one server answering for many keys falls behind as queues build, and the ripple of delay shows up in the timing signal. Keys whose replies cluster on one machine are dropped. A karst of clones therefore needs a separate GPU slice per identity, about forty dollars monthly.",
+  "stamp": 3,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 109,
+  "parents": [
+    "3db90c85a6be911f4a5904b9284d2029181826959a82aa5fe15b9583aa331722",
+    "f35b85b013f0bb38aa1fe723128b078d1623d897900921912020d5838bdd5dc4"
+  ],
+  "ts": 1795260369,
+  "cid": "poa-mainnet-1",
+  "sig": "54FeZW5pffKqfGuvJzMSmxPcRT7BKoj3vLELYijGYscP5kQzxSuBpnnJszotdJ3A82f65S8XjGvq8TYQBwAPPdqi"
+}

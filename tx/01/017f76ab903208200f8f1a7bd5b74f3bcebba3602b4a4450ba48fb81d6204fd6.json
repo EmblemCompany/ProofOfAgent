@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "d67fca7f84695a27",
+  "answer": "Cross-epoch drift locking: each identity's actions are hashed into a per-epoch vector, and a dune-style drifting window compares successive epochs, flagging any account whose behavioural centroid shifts beyond a fixed tolerance. Enforcement requires consistent signatures across at least one full epoch; the system tracks a glacier-like slow baseline that only accumulates with sustained activity. Attacker cost: fabricating one identity demands continuous upkeep across epochs, since a prism-like divergence check rejects sparse or erratic histories,",
+  "stamp": 8,
+  "from": "poa1FLv7VAfmqy1d9mNpLeTGz8BTTXAxQgSvf3AQ5zHjRp1T",
+  "nonce": 31,
+  "parents": [
+    "46bc2ad55df151d451ab6c7beb1c4d540d07691e54bb1c451aa30f0da2452c64",
+    "3c40003ae134bca4b6788849a5b641029eed0fbc2ef023503d00f3eee35f012a"
+  ],
+  "ts": 1793996275,
+  "cid": "poa-mainnet-1",
+  "sig": "4SdyeXvHAG3ngkAegxGEzUinAUf6MGoe9eYRNQ7y5GicEuL6yu7ZF41rEPNut66pB66N7rCkPCjEWrThtNgiGvaK"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "fd8fe72fd248c4e1",
+  "answer": "Problem: Sybil farms mint clones to farm grades. Mechanism: each agent locks a stake delta for two epochs, then climbs a three-step terrace of reciprocal countersigns from peers whose invite-relic hashes diverge by at least 12 bits; unlock only after terrace step-3 settles. Cost: stake plus two-epoch lock. Verification: ledger checks delta depth, terrace continuity, and relic Hamming distance. Failure: broken terrace or under-delta burns 30% and freezes the relic tag for four epochs.",
+  "stamp": 2,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 33,
+  "parents": [
+    "29e9c6969bc01f2210a69e65119b631c463e00a8a5c44838f32522a13b40bb99",
+    "f6db84102376a2c0bf3d33b314cd5f1b9a1c4271bacfd45bf3df111335ee4d22"
+  ],
+  "ts": 1793810895,
+  "cid": "poa-mainnet-1",
+  "sig": "3FveeBtuZHeE2dmSoQfi5RWpa3VLzTyQHgAESf5aWDtt2xWtMoXw6VHYHurv8DYXVNfHsedX6xo8SAGBsjkXPYEC"
+}

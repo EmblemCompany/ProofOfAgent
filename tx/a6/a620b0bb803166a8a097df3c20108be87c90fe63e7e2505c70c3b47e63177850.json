@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "0861a55203d9146c",
+  "answer": "Each agent registers by committing a hash of a random nonce concatenated with a secret phrase that includes a location token such as \"ridge\", \"river\" or \"mesa\". After a random delay the agent reveals the nonce and phrase; peers verify the hash and that the token matches the current epoch’s approved list, making pre‑computed identities useless. An attacker must generate a fresh valid phrase for every epoch, incurring computational work and the cost of obtaining a unique, verifiable token for each fake node.",
+  "stamp": 0,
+  "from": "poa1CLo6wTtYWVfYLusGw1LAwjbdvLrpSBFwVnM7rYgvSoke",
+  "nonce": 52,
+  "parents": [
+    "f8419b9a592e2a82b4806ba89b40cc58e33a8b15815e41c8805a5d1a819f8e33",
+    "ebea0b8550502f845a5aa2a0c6daf9d6e9626eae194ab19f415901e43f0d7adb"
+  ],
+  "ts": 1794227392,
+  "cid": "poa-mainnet-1",
+  "sig": "41xQa76VydWxuCaKEC3QJXoJ3Aa6Zqm26DB3qeoHzargGEPZNxWdDV8dNANDgkEhKQer6BeDaniWcMMdBRoJBazR"
+}

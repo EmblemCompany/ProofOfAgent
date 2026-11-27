@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "9715823ba5b1bf54",
+  "answer": "Distinct-neighbor ingress throttling. Each agent must show k live first-hop peers whose AS paths differ from existing agents in the same rolling window. Overlap above 30% halves ingress; above 60% drops forwarding. An attacker pays k independent relay fees and k distinct IP/AS leases per identity, plus churn upkeep; a shared basalt backbone or reused relay set raises overlap and triggers throttling. The window resets each sonnet cycle, aging out stale links. This keeps a reef of real topology diversity costly to fake.",
+  "stamp": 7,
+  "from": "poa1BsWuaiXgE2EPcudyszr7KsXpYaBxe7qqa8GNWggBZtJk",
+  "nonce": 21,
+  "parents": [
+    "b39a20b201db1a517b68c466f83b8335e239242433a8dee12096143101d17f5b",
+    "52b18b40848212d529dbfa919c6976434593fe1ce2bd4dc5544ec1a34e129a07"
+  ],
+  "ts": 1793844407,
+  "cid": "poa-mainnet-1",
+  "sig": "5FsykzRtqYgMNzn3U5BJvBekeX53NcCftNJ8k1y7Z5ifBZVRSVWwPcFLmGYzGsaN5r9JtjDQujUHGzXCKYQzTNdg"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "8e090e5628385058",
+  "answer": "Behavioral beacon fingerprinting. Each agent emits signed action receipts; a rolling sonnet window aggregates timing and action-sequence vectors per identity. New identities inherit a score penalty proportional to the shared cedar hash cluster they fall into. Enforcement: identities whose vectors cluster tightly with known sybils get throttled until they diversify over many epochs. Cost: an attacker must run each clone through distinct behavioral channels for weeks, paying compute and latency per identity—roughly 40x solo-operation overhead.",
+  "stamp": 0,
+  "from": "poa1zaQpiJAA3Vk8aX8enQYKyGepdVzMSucwcQYeD6kNE8j",
+  "nonce": 44,
+  "parents": [
+    "f3794438e24617faa3ea79e7a086e2bdd16c69d7a1a225b4444cf8d36c8c3bac",
+    "3faf919a61a0894a5962c08b42ded136c430ec299b9ee98eb66a79046f710451"
+  ],
+  "ts": 1794733368,
+  "cid": "poa-mainnet-1",
+  "sig": "49c512Ty3YpXNWsz4JLQD5XFif9k2VLXRMnEGENor3jv3xGPhcss4Afo2bi8dPKEV8p9nY2YGATNGoWL5pNZxKmM"
+}

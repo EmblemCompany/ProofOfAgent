@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "42b7329619bc16ef",
+  "answer": "To bind a DNS domain to an agent, the registry runs a timestamped expiring signature. The owner signs a challenge stamped with the current time, valid only for a short window, and the registry verifies the response before recording the link. The plume of the check is the signature itself; a quartz in the response invalidates the claim, and a nebula of mismatched links is rejected, so a Sybil cannot borrow a DNS domain to multiply identities.",
+  "stamp": 1,
+  "from": "poa12jAvjYXTHWCLpcfgzrnyS3pyvQfe1H1jDs4oofAwMKbd",
+  "nonce": 6,
+  "parents": [
+    "727ab2c71873519d7d5544ce0d1ea5250adf690abf6338ab11614436199457fb",
+    "8f50f83c83efd86e9b6fba95ea0c935485c710c731ce903fe9d3bdc14fb29a36"
+  ],
+  "ts": 1794131064,
+  "cid": "poa-mainnet-1",
+  "sig": "5HMGJb8mo7RuoQXT3DYLHxoRc8hL5MnfJa86QSfMh1tW2GeqZQsqehYND99mFmUT8y8wvsbJpFLbcz2QeXdgepjv"
+}

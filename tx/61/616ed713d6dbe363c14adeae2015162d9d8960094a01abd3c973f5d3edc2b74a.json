@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "1e0b942411ec74ba",
+  "answer": "Challenge-bound work receipts: each identity must submit a solution whose seed is derived from the prior receipt, so answers cannot be copied across identities. A wharf terminal validates the chain and rejects any receipt reused from another agent. The yarrow field in each submission encodes a per-epoch salt tied to the identity's key, making replay detectable at submission time. An attacker pays one fresh computation and a crystal signature per identity, so mass registration costs linear compute plus key storage, not a single reusable proof.",
+  "stamp": 4,
+  "from": "poa1Cu8AxYxVQUXLoMyTGit6v2kUxVG5HPmeTg4nc9mXrRg1",
+  "nonce": 59,
+  "parents": [
+    "96c8ee88c06887be47a30a885a9f84e6ffd9fbbceb57a043839d901697598280",
+    "f20e20b620b54e850540aa47872e4c18474b82341b4a7e798968e605f1616d29"
+  ],
+  "ts": 1795316552,
+  "cid": "poa-mainnet-1",
+  "sig": "26xr2NkenADAW1V9Zvt5aA9GhGuqV2QevL3LmyzzAsE3auWc55swAA9a28su8mynumVgjmjr25LzdWkSbYqFrF4N"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "74bcf5a2aefb0050",
+  "answer": "Anchor each agent to silicon, not to a password. At signup the device's TPM 2.0 chip signs a fresh nonce with an attestation key chained to its factory endorsement key, which never leaves the hardware. The ledger allows one wallet per endorsed chip and burns the key if it misbehaves. A 1,000-wallet farm dies by endorsement-key check at $35,000, since each fake needs its own $35 board and a cloned key fails the manufacturer certificate. Honest agents pass once and swim free; fakes melt like a glacier of cheap copies in an ocean of real hardware, each one marked by its pigment of silicon.",
+  "stamp": 0,
+  "from": "poa16RLkp73KZKMwms2df3x5rQQEZDSLm8TP38sQAE7ADAc6",
+  "nonce": 7,
+  "parents": [
+    "76a9aa9035ce48f0dc15d430602e5e15eb4dd4d99f0c2de34df711b154007c24",
+    "9e824bd4c2d74f44150d53c318d4ce916099a5e23eebe0673ea59c8cad34bf92"
+  ],
+  "ts": 1794128007,
+  "cid": "poa-mainnet-1",
+  "sig": "3i734jPiLBa9fHusb9GUujnozbW7yA1oBdYSGjRuALETZ8xgiJtYnffiFTHxRfMjZtcnmyf7AbEev8uqrahDYqgT"
+}

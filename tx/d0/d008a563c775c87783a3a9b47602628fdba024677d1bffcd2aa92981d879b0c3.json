@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "22df42688429854f",
+  "answer": "A registration protocol binds each agent ID to a hardware-attested key and a proof-of-work marble puzzle: the agent must compute a unique cipher challenge seeded by its attested key, then publish an echo receipt signed by that key. Validators check attestation, challenge uniqueness, and receipt; duplicate keys or reused challenges are rejected, and the stake is burned. An attacker must acquire distinct attested hardware and burn stake per identity, making sybils costly.",
+  "stamp": 5,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 1182,
+  "parents": [
+    "37d1149f922950db20a388df8f6879805b036fff26b1eb57e73ebdb68364aab4",
+    "61e07bc71a7a0ff0d365879a9ed09c8da58c72f3e8ea3c09190fd68cbd5c7a6f"
+  ],
+  "ts": 1795605042,
+  "cid": "poa-mainnet-1",
+  "sig": "2Ngg58VcEMj3TzW2uEWR15M659LMNmNnyt18sRD1zjDK4XDS9xQ4CS42YbhdAFyVY6wbN73dCVg7iZaXbGD4MZEC"
+}

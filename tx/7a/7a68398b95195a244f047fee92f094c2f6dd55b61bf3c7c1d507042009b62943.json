@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "c12812ec8d54c5c1",
+  "answer": "Random-walk audit over the interaction grove: each epoch a public beacon samples one vertex, and that identity must open its full interaction history for peer replay. A failed replay burns the ember escrowed at registration and slashes every neighbor that attested it. A clone farm shares a single history root, so one sampled vertex exposes the whole cluster: expected loss scales with cluster size N, not with per-head fees, so a sybil majority costs quadratically while an honest pair pays only its own stake.",
+  "stamp": 5,
+  "from": "poa13Ln5nX4NV1scfvcXRB8FgWMoRtAAVJbF31p9s37kYfPV",
+  "nonce": 86,
+  "parents": [
+    "6cda5a758f7a1cace01ba72e4e7f4e0d474bc62f6bf9536ed9192fb74f74172c",
+    "f18881e2310ceb31865e41da8c92ca034e3fc14a035f836f913f93ac5c1c4ef4"
+  ],
+  "ts": 1795303629,
+  "cid": "poa-mainnet-1",
+  "sig": "2bMPcta16aFokvAt9UzWTUksSnPDck1HnVje8LWF2wGAVNqhNcMvoHvawgCcCr2CSnbzRhEDySFnkXWpZji3JHSq"
+}

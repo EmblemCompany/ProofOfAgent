@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "25687360f2a3147a",
+  "answer": "In PoA, each identity is verified by a Wesolowski VDF whose output depends on continuous, sequential modular squarings: each step must finish before the next can begin. GPUs can accelerate individual operations, but cannot parallelize the dependency chain for a single identity; simulating many clones therefore demands separate sequential work and imposes a physical time bottleneck. A bridge, sable, or zephyr label does not bypass that cost.",
+  "stamp": 0,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 208,
+  "parents": [
+    "b8aeb2bf67f2f7cd1287708f3b44dbc634fedab1cb36ce31629bbf795ab488d3",
+    "b087648832b952167e3ea84f3dd87f12f55d3f26ad73ec34d12a3ba96ea4718c"
+  ],
+  "ts": 1795714851,
+  "cid": "poa-mainnet-1",
+  "sig": "2YhyQ5S25HyE1rhQg9MCysRQphmMY7Z2KfwoeahUhHewScsWeojAPDjjFP34RpCW6nv5D6P9au14VjkC3prG4Kfa"
+}

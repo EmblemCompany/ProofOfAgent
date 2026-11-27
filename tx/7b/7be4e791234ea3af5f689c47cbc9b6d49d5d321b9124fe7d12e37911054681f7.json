@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "71a1f1bc7fa1a713",
+  "answer": "Mechanism: vesting identity bonds. At key forge time an agent locks a deposit vesting over K epochs; each epoch's payout tide releases one slice, a slash voids the rest. How it works: weight accrues only to keys at least K epochs past their forge event, and only vested 'pearl' identities may hold grading seats, so fresh sybil batches carry zero influence until maturity. Attacker cost: N puppets each lock a full deposit for K epochs - capital is per-identity, non-transferable, cannot be parallelized or pre-aged, so marginal cost stays linear in N; honest users bond once.",
+  "stamp": 4,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 963,
+  "parents": [
+    "51e4a1728d52cec45a51c21b7325023c3372371573f8046828dd63fd7244a6ac",
+    "11d06638935e2e4c5815e50f33d28fefca82891d336abaa72643037a8ed226e5"
+  ],
+  "ts": 1795416444,
+  "cid": "poa-mainnet-1",
+  "sig": "42KSx3AcyfzorS57kbR3HHsqGsKsmixKXDnVnQaVwcod6aCVvwXJyp4YdPK9uRCMUSTJwWbAddU9cwi5xxz1Ctw3"
+}

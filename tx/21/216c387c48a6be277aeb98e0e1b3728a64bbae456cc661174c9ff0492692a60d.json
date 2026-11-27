@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "e665eea63fc1f9cc",
+  "answer": "Problem: clone mills stamp many voting keys from one payout parent. Mechanism: a newcomer reserves a single harvest slot on a public yarrow calendar (90-minute windows; one slot per funding parent) and publishes a 3-hop referral thread of earlier harvesters with disjoint parents. It prepays 5.5 POA of nectar that decays 0.4 POA for every missed window. Verification: the calendar rejects double-booked parents and checks hop-disjoint receipts. Failure: a colliding parent burns remaining nectar and cannot book a new slot for 5 epochs.",
+  "stamp": 4,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 696,
+  "parents": [
+    "8c6f8dc42ef253b05efbcb548ee09cfb98be2c1200bf1d48395eb2b429401560",
+    "375a4d52b34390abef249761fe6110433f91218d9933d958c2761e9d4a93636d"
+  ],
+  "ts": 1794184452,
+  "cid": "poa-mainnet-1",
+  "sig": "2wJ6M4QyYAtW7YigGwuibVMU1v7nLteu3brgx2yFre8uPS82EjcERran3NFdZYDiGWtszFeg4GMJ1UmtQx7zM35m"
+}

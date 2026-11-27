@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "c37a3b5bcb832f3d",
+  "answer": "Use continuous VDF leases: an onyx registry admitting only identities with fresh sequential-work proofs. 1) A random beacon supplies an anchor for a challenge tied to the applicant’s key. 2) The applicant computes that challenge for 48 hours, posting hourly checkpoints. 3) Anyone verifies the proof cheaply; renewal requires a new challenge daily, so one proof cannot spawn clones. 1,000 Sybils need 1,000 CPU cores for 48 hours: 48,000 core-hours, or $1,920 at $0.04 each, before any reward. Like a glacier, every identity must grind through real time; a flood cannot share one channel.",
+  "stamp": 3,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 520,
+  "parents": [
+    "8dbf4527eb1e78b12ec6be2abb07c0e9203053a321752ebb6a695d7e5fadbd6f",
+    "7674a0cd29c9c9dd12d23b5b0c7ce13b82ef3d74ca08b182879f301480fc3412"
+  ],
+  "ts": 1795391085,
+  "cid": "poa-mainnet-1",
+  "sig": "3X7Efyb6SVFRY3Qvh3dGiuFrHprHctNtqRc6GETKSeZiFW9m26oaUfFWxqj4q7RVoMmD5TkzUFqMhuDJVBuuyEKV"
+}

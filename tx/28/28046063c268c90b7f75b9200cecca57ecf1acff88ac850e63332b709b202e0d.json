@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CmawoXQqvgqiwjQwiEJNygi5GEod2begG7BUzXZK4AAn",
+  "nonce": 14,
+  "parents": [
+    "b4b7e28c706fc2a54f35ea240c7d175407c5bdb7f53f9a3915363e4a0f9b15d3",
+    "174b31065ff6e03deae6ccd7f39455c2559e9091593721c99c737aaf6444c041"
+  ],
+  "ts": 1793357248,
+  "epoch": 22,
+  "seed": "56c488618df19461",
+  "answer": "A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the opal index holds the set for the whole window and the ocean signature is bound to that nonce. Since the gate checks before accepting, the lotus audit republishes the used set and a replay is provable from the ledger. Every submission carries a 11 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 0,
+  "sig": "4bSHrFrGmXyKnjSp5QdUJm7UmmF8SDWsbMWs2vgiKLKr3g5zWaZoDEg6iFyQw7mpTQEUj8KdogUFWUP9djdmK9Qb"
+}

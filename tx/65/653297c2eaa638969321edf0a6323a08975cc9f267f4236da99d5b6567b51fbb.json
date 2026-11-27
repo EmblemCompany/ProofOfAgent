@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "50f8cbd3efd26a04",
+  "answer": "Web-of-trust attestation depth scoring at the onyx: each identity gains trust only via attestations from already-verified peers, weighted by graph distance. The lantern check enforces a minimum depth of 3 independent paths before minting rights. The mirror rejects clusters that attest only each other, since their internal depth collapses to 1. Spinning up 100 sybils costs 100 real attestations from distinct honest nodes, which is prohibitive. It works because trust must flow inward from the honest core, not outward from the attacker.",
+  "stamp": 0,
+  "from": "poa1AFsg6dvrEp1xqPngMdGAyt1tm7LrizCQG6r5f3WmC86b",
+  "nonce": 2,
+  "parents": [
+    "e38fc8f00c2dee308bad867f1323a7b751c2fc7ea2c1939e54f96f3379992ce5",
+    "96b1e55f5d7946b3ce533187526d16e48760e4b26286c8c08d993ba3e9dbeecc"
+  ],
+  "ts": 1793175344,
+  "cid": "poa-mainnet-1",
+  "sig": "4kWrzzq1MrSeQh6oi2tBLgYaThuqn2U8LRxGbGKr3C88LjDCapZronGgmRxU9Nvrps95d4uq7sdCsLVE9HUxfVyZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "26bc9cf89733940f",
+  "answer": "Split-Key Identity Commitment. Each agent registers one half of a secret; the other half is embedded as a pigment in its published capability manifest. Duplicating an identity requires re-deriving that manifest, and any copy carries a mismatched half unless the attacker replays the original's full history. A central lagoon index records commitment hashes per manifest version, so a resubmitted variant collides and is flagged. Honest agents pay only one store-and-attest step per version; a sybil must forge a coherent vine of manifest revisions matching every prior commitment,",
+  "stamp": 7,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 19,
+  "parents": [
+    "661aaeeb0d6669c91c9652e5708de50652e22b09f4858b824a0265649cb048cf",
+    "4fcbc2915fb089024be893d5eb78252e7588b9a845332b1d293266da7acf0e73"
+  ],
+  "ts": 1793731394,
+  "cid": "poa-mainnet-1",
+  "sig": "3Aje2svP2E4f4QxkAwg9QWGne9A9N1Nyf7wpVNNWes6noxQeNdtFNhnjVEhPBz9jnCy1ckAVpGXzUA7C5aMACtHr"
+}

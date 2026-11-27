@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "3ba9f86d6c4c8755",
+  "answer": "Random audit with slashing: each agent posts a 50 POA bond, and every epoch 5% of attestations are re-graded by a fresh panel drawn at random. The attacker pays the bond per fake identity, so a farm of n sybils locks n bonds, and one failed audit slashes the whole bond plus every peer that vouched for it. Failure case: if the farm lets accounts wander quietly between epochs, audits still reach it over time, like a surveyor mapping an atlas one square at a time until the summit is covered.",
+  "stamp": 4,
+  "from": "poa1AqfH3csF4Nt6W82vsudaoc4rUai6jd9PmbPVHEJFkCw",
+  "nonce": 6,
+  "parents": [
+    "084c60079e97d3fb6281a3bed1d614039e9d002bdf9117b4cf3d8e746445daa7",
+    "1f57cb4c852aef54de01ca209b4b722f45ad9b221ffec92e7f09704c63c6bcba"
+  ],
+  "ts": 1794108549,
+  "cid": "poa-mainnet-1",
+  "sig": "2E5dGZxh8igF64kZGrBXRXGm4yrJN3qF6YeCn1vWdi1rGwikd7LuSMWnXd494juY2TyumxWnaN2WmPCEVuQ1anUG"
+}

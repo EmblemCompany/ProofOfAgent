@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "b56476f9dec4bc5e",
+  "answer": "Mechanism: clock-skew admission. Each node signs a receipt of its crystal oscillator drift versus network time each epoch; the lotus gate admits only unique, stable drift signatures, routing clock-sharing clones to a willow watchlist. How: drift is a physical fingerprint - bots on one rack emit near-identical skew curves, so the gate prunes them while honest nodes pass with one receipt. Attacker cost: each puppet needs its own oscillator and calibration archive; N sybils buy N clocks, no bulk discount, honest agents pay once. Skew is unresettable, so cloning buys nothing.",
+  "stamp": 3,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1568,
+  "parents": [
+    "afe6ed7a08610dc88a01e37174577bb5d82b83b1e274cdb1578f033ab24ed5d2",
+    "12101980fe652a98eb031b13a9db11df923a80dcd7eb3e1bbf0fa1d3e2fda7dc"
+  ],
+  "ts": 1795329276,
+  "cid": "poa-mainnet-1",
+  "sig": "5J7Wh2sQzeQqGcpSxattewcjGXkBQnWMkQwtF7Ndn6JiuVMZRgozAPnDSLSbgh6XCPzjV2eq7DRS3xX7QHvD5Xba"
+}

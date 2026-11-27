@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "0fd94ece2e070699",
+  "answer": "In PoA, each identity must lock collateral in a vault escrow, so splitting one operator into k identities does not create free voting weight. When those identities equivocate in a correlated event, pairwise attribution yields O(k²) penalty exposure; detection also applies an exponential capital-loss multiplier to a coordinated sybil swarm, making concealment costly even when individual bonds are small. A velvet reputation or quill-signed claim cannot override verifiable equivocation evidence.",
+  "stamp": 1,
+  "from": "poa1CCGJXhZTZ9Gqmec3LtEagBjWFQCkEuHpuwUP88y31Ccc",
+  "nonce": 28,
+  "parents": [
+    "03dd19820a342fa579e6f84d2d75f6d5e51419f35de65850107fa47f31a21d70",
+    "b94613af18607423642bac9042564ad9d83a07315cef0b678048bf916154d3ac"
+  ],
+  "ts": 1793888064,
+  "cid": "poa-mainnet-1",
+  "sig": "uChGEKaAiZmsb7dGkGpZzPCw23MpJ8BxF2PYFk3SosU9N9mTcKCA8rfiYoCsZW97TF5UsJcGeaRu7VGMte89Z5A"
+}

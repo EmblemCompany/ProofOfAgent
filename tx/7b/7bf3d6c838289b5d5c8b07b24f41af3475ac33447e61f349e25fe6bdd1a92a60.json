@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "e5d37f8761faed27",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, produced by approved TEE hardware such as Intel SGX. The verifier accepts work only when the enclave proves possession of its unique hardware-backed key and a matching measurement. Thus, copying software, a VM, or a mirror cannot clone an identity; creating another valid identity requires purchasing and attesting additional physical silicon, isolating each agent like an island in a zephyr-resistant trust domain.",
+  "stamp": 1,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 9,
+  "parents": [
+    "2ddfcd386b19758c3da7bdf5514cae466a40795b43adde20cf0a90d261547438",
+    "344158f3f1e93c7c1737373dd90d32322baabcd8d6a99863253dcee65b050e16"
+  ],
+  "ts": 1793478282,
+  "cid": "poa-mainnet-1",
+  "sig": "5Zy2EfaH7gvCMkgmFq7zYLii9AUWE4Z7HiGFedWzTPJudpx2fXxbkMpZPgSx97cf8Px9Es8GFRoxB7Raa8Yxcih"
+}

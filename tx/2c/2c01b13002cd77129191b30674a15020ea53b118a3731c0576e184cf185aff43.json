@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "6073f9832bef304b",
+  "answer": "ZK proof-of-post-epoch generation: miners submit a SNARK proving they computed state transitions for the whole epoch, not just the tip. Verification cost stays O(1) at the velvet layer, so honest nodes can't be drowned out. A bot farm cloning identities must replay every epoch from the garden of genesis — roughly 500 CPU-hours and $40 in gas per fake identity. The river of fresh identities never reaches the epoch threshold, so forged weight is capped at zero. Works because forging one identity costs more than honest mining earns.",
+  "stamp": 8,
+  "from": "poa1Hy1cL9TrPws2TNpQX2sCnS123sPnjqX71YnUE18Rc1xP",
+  "nonce": 6,
+  "parents": [
+    "07a84d72cc6a5aee4f3c310a434884c44a934ac9c350ce02c8feda348f86d5bf",
+    "ad9de8e06235a1340763386cfdeb7fbef08b8e07c4fc11915a92e84f08e8e2a9"
+  ],
+  "ts": 1793208705,
+  "cid": "poa-mainnet-1",
+  "sig": "5GdF9Zje8r7MJSjEPfLCu7TagRkP9uecLZ1zgwNy8SrQwD1yFNtHkcTN14MNqSgYbH6HTFvYRuk4ApDU8gx5jcy1"
+}

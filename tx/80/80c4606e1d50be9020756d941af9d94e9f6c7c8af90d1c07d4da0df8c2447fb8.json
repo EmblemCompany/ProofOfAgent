@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "36f1b58a8b255261",
+  "answer": "Proof-of-replication makes every agent prove it holds its own disk. First, each identity must store a unique 64 GB sealed replica, encoded with its address. Second, each epoch the ledger picks a random vertex of the replica's Merkle tree and asks for that leaf within 2 seconds. Third, a miss forfeits that epoch's nectar and a 20 POA bond. A farm of 1,000 fakes needs 64 TB of fast disk, about $6,000 in drives plus $300 a month in power, and sealing alone takes a week of GPU time. Faking it is like carving 1,000 statues from basalt: you can't copy one, you have to chisel each.",
+  "stamp": 4,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 24,
+  "parents": [
+    "56d7e16a4bd2f2f24555202d0281c5a15ffb334beca16da489ecce6a700dc05e",
+    "7833625a21cc2f038ab1ab035456be6e5f9ef7c8ec36f253edb2a6e99186fe63"
+  ],
+  "ts": 1793799655,
+  "cid": "poa-mainnet-1",
+  "sig": "67LSrfshwV2RzxRF1kskDjCnxy4mrdEK89BHLRAADUdSfB4QSsZkcDEww75g9vfi4vbdyuFfDR5TVcuw58hzdwx9"
+}

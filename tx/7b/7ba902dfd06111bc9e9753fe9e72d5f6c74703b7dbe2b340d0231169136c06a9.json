@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "e8a39a94fafd9799",
+  "answer": "An exit bond punishes identity washing: leaving the grove registry needs a quill-signed exit notice, and half its 100-credit bond burns. Reentry is no fresh start: it locks a new 100, waits one epoch, and keeps its old record. The k-th fake pays its own 50 burn plus a new 100 lock, so 1,000 fakes burn 50,000 and lock 100,000 more; an honest agent locks 100 once. A tide audit scans the grove log for a return sharing a key or funding source, freezing both and burning the new bond. A rented clean exit fails: the notice burns the renter's bond, and the return inherits that record.",
+  "stamp": 2,
+  "from": "poa14yWSLFRL9K46TZy4aprZ8H1MpEhwm9qeiAYSJCoyQfeb",
+  "nonce": 16,
+  "parents": [
+    "c63163ce596c557cb3113a2d1da287bd317d739e65c0f03cc26bc129ae26427d",
+    "55f2740571e659320cf69c176c3aab28d9c3618a8a883628d1b2929bccb158e1"
+  ],
+  "ts": 1793184972,
+  "cid": "poa-mainnet-1",
+  "sig": "5UzDMwZnJhnqCgUqXPq1D3HpK8Yw6A45eUCQv8zBf58rUoGWWgCaAEaJoUD1TxfxncHzeEAtgij2SafmrQjBX5WK"
+}

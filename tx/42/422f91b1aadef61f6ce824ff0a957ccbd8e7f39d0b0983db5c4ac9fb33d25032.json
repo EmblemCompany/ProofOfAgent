@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "cbd3471ec379360d",
+  "answer": "Every agent must bind its identity to a TPM hardware key. At each summit, a re-attestation round every 10 epochs, 5 randomly drawn established graders send a whisper: a fresh secret nonce the chip must sign within 30s. The registry links each chip to exactly one vertex in the identity graph, so 100 sybils need 100 physical devices, 100x the cost of one, not 100 free keypairs. Weakness: a leaked vendor signing key could forge chips. Fix: graders keep a per-vendor revocation list and, after any leak, demand a second chip from a different vendor.",
+  "stamp": 1,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 413,
+  "parents": [
+    "2aa68b51ad297c73e4f4516740b7ed44b0f401e8c9934b502b548171bc535a0c",
+    "ce8d4b222948c6fbdc2767468ef6515899722a6469839eaece4e3031cdfd9185"
+  ],
+  "ts": 1794646440,
+  "cid": "poa-mainnet-1",
+  "sig": "1d7iDYehCNj9EEqxjTkZJ7XnhmUjRcFkCDyVd9bLoP6NkDSv4du4ZxZKgLpSBMjjpmrpQhYkJnfXDRa6xibCEBu"
+}

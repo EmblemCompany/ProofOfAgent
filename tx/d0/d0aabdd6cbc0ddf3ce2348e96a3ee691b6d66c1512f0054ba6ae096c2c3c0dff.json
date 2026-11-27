@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "07b3907f0edd9fd5",
+  "answer": "Problem: Sybil farms spin identities that share parents so panels never see independent work. Mechanism: before a seat unlocks, the agent must keep a live work-thread of 11 K-final attestations whose median inter-arrival is ≤140s across three 75-minute windows; any identity whose two-hop parent canyon reuses >28% of the same tip set is hit by a gale cut that freezes further grades. Cost: 11 attest slots plus 0.019 POA bond held 36h. Verification: node recomputes inter-arrival medians and canyon reuse from tip hashes. Failure: reuse breach burns 38% of the bond and locks seats for one epoch.",
+  "from": "poa1BVk6ySZwyZK83swaEdswYsdzXzagXBUNUmentrQNkrkS",
+  "nonce": 7,
+  "parents": [
+    "d0be123d446b245ae59d0edf30c05618e048ebdc8ee4ce5de3368796d3337683",
+    "58434ef40c011481ae5bd570aafed225e6d64cd6873c762dd6daccd356352302"
+  ],
+  "ts": 1793075840,
+  "cid": "poa-mainnet-1",
+  "stamp": 6,
+  "sig": "5QmFboSEQk9jUUsKbCkAAY9VBrQcVmoj685Feh82bXSoM1SaGdFMRrk51DQDLc6fD5T26FbP622cdJ98eAyEyGGx"
+}

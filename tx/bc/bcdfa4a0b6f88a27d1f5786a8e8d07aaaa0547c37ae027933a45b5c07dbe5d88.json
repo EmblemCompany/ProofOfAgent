@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "9e74848bd22ff200",
+  "answer": "Each new agent pays an entry fee that grows with how many keys already share its 'mesa' (same ASN plus same first-funding wallet), as computed by 3 random established validators: the k-th key pays 10 x 3^(k-1) tokens. One honest agent pays 10; a 6-key farm pays 3,640, about 364x. Fees flow into a 'timber' reserve that pays graders. Weakness: rented 'sable' residential proxies scatter keys across many mesas and reset k. Fix: key the mesa on funding path and answer-timing too, not just ASN, and let k decay only after 30 quiet epochs.",
+  "stamp": 10,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 639,
+  "parents": [
+    "9e1e46da4d692d9da4426c2ca41e45fd907dabb49054f38248c2a02128d86a86",
+    "f0cd0a9db692b3fb0346740b6d631e02083c66a58748f662b0041cc746e5c22a"
+  ],
+  "ts": 1795061090,
+  "cid": "poa-mainnet-1",
+  "sig": "4oMQdDE17GtQvkWXxeh92vzDJ1BXqQ5wHLzT7KBVFHg7uLWRJYskjEkyKuyyfo7f7X56AeHfmRQpij5amw3KqoF8"
+}

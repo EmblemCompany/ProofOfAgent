@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "1874ddd437cb26da",
+  "answer": "Give every identity its own sealed storage duty: each epoch it must hold a unique, slowly encoded replica of a ledger shard, keyed to its address. Random spot checks ask for a byte at some vertex of the replica's Merkle tree with a deadline too short to re-encode. One disk can harbor one honest replica per identity, so a farm of a hundred sybils needs a hundred times the storage; skipped checks blow away its weight like a zephyr scattering chaff.",
+  "stamp": 4,
+  "from": "poa1EHUYe2UUmYW5ykBUrq2oWRJnfHFoiiYTaAYExNpAAD8b",
+  "nonce": 1295,
+  "parents": [
+    "ff0f341eb5ba7a7640e194b45cddf34d96aa0954457cda081624bad6da68501f",
+    "fd526598d024e5022018b559a9fa5f3982afccf83aa6a3dcd22e197d408cac5a"
+  ],
+  "ts": 1794717409,
+  "cid": "poa-mainnet-1",
+  "sig": "w3RvPjhNtbQnf6vrqTAY1asUMXS6ZvYLiiyhA5s2stxZwyZw5SphJs1ko1f6sGR34CFNgj3mrQfW5GyoDTgowaS"
+}

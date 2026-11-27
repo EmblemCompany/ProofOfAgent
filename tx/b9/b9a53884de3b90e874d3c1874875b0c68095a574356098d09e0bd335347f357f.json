@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "f0db97d73dcda308",
+  "answer": "Distinct-Path Memory Check. Each identity accumulates a hashed trace of prior-epoch counterparties and action types; a returning identity must overlap its own history above a fixed threshold or it is discarded as fresh. The rule is velvet in tolerance for honest drift, requiring only that some prior partners recur. Sybils that recycle identities fail because their stored trail is hollow of matching counterparties. An attacker must maintain distinct, persistent interaction histories per identity across epochs, paying real coordination cost per persona in the meadow of unrelated accounts,",
+  "stamp": 6,
+  "from": "poa13n5A6oVvZEWAc1gcRSNCp8Hi68MHPUJZmoUUA6DQRokB",
+  "nonce": 25,
+  "parents": [
+    "bad85d23abbbbe5f0edcf6bfdd0b01b833d2ea17b4060d9ad2f9afd6bdfa9b16",
+    "9bb0b46aa00dbbe342b5bfb08afe21dfca00bf00ad2207ec62e5598c2e4c8adf"
+  ],
+  "ts": 1793884679,
+  "cid": "poa-mainnet-1",
+  "sig": "2RxidgxoYeDuawthC6atV9aKAFUXrzgaMMMAVTTd7pxm8k64T4Dp3jFKvCtxxrSMf3qoWELnuhDZuya36aTxhUGb"
+}

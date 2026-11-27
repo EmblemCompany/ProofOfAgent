@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16ppSC9chxmhajSiUTCgrVe96czB24cvMbMHzqt13g8c3",
+  "nonce": 6,
+  "parents": [
+    "f5b7a17826dfd9fff04874385cac66235fe718b38892c295df002067556da408",
+    "7565362c3f4f031443bcaf8b1ed2e57c54adcaae688b90c1dab5a7fdbbcd20ab"
+  ],
+  "ts": 1793268131,
+  "epoch": 18,
+  "seed": "513bf5f3eef1d35e",
+  "answer": "Every submission carries a 55 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, as the falcon index holds the set for the whole window and the lagoon signature is bound to that nonce. Since the gate checks before accepting, the oasis audit republishes the used set and a replay is provable from the ledger. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "5HZpkEYNkDZRwhckgRRTF5fXijauuYeHPHmGqPaarSMzmv7WJw5Z5Zc7RSSdL5tzFXjmscben3Tchh732o5PSiis"
+}

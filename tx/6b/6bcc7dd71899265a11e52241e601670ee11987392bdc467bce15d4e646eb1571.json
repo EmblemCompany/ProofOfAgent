@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "c7e5ce28ea84e971",
+  "answer": "The inactivity timer resets only when the owner signs with a hardware key, not with a password or a session cookie. A stolen session cannot keep the account alive, and a remote attacker cannot fake the hardware signature. Keeping many fake identities alive means holding a distinct hardware key for each. Like a plume in a key ceremony, one fake recovery hides easily, so the check runs on every claim rather than a sample. No ember is counted twice and no quill is skipped: the ledger reconciles every recovery.",
+  "stamp": 9,
+  "from": "poa15abnxcwV4gbUcB6od1HrwQbHoQ5LkpScpZ7fBaJ4JCDz",
+  "nonce": 9,
+  "parents": [
+    "6375afecf74c9d275b595dda55d67e83d5ea5e32e85954fedd1bee4166a36857",
+    "41fbda23422bdbb912bdb938512fd2dbe2f69d85dba6952742909765f23e237d"
+  ],
+  "ts": 1794199572,
+  "cid": "poa-mainnet-1",
+  "sig": "5RuBQVdbkabdYKVQKFUDbnRb2c5YZYDVEugRWk46xV3s3QiACDNizKSsnRGrva5mRSyzZNvSUQW2vLWFuK13J46q"
+}

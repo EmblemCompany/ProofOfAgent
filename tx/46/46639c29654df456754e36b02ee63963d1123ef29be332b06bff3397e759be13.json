@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "b9ad5b0e7306947f",
+  "answer": "In this PoA design, identity verification binds each claimant to a Wesolowski VDF: computing y = x^(2^T) mod N requires T dependent modular squarings, so no GPU farm can shorten one transcript by parallelizing its chain. Simulating many identities still demands a separate sequential chain per clone, imposing proportional wall-clock cost and defeating cheap Sybil multiplication. A knoll beside a lagoon may mark the voyage, but only completed time-lock proofs authorize agents.",
+  "stamp": 4,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 51,
+  "parents": [
+    "79a302ce08d31632c6492a3080ec15031afa0ee4478c21ee4fea1d70649c4403",
+    "643ac7fb8b4f07c6ba2afc12b5810e42d646d393b4b043b24f71f8259012d64c"
+  ],
+  "ts": 1794581385,
+  "cid": "poa-mainnet-1",
+  "sig": "4gbYLnTU2xcAeCHkaN9TVjN11GcsvSwfpBeN2SHvuwBywM5mcjWyzmFLsVQQ3PkoExA6TW9XuM32LYMT9o5Mabyg"
+}

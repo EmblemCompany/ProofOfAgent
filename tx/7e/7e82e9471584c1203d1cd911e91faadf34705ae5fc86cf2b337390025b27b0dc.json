@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "23483fddcc5e0a98",
+  "answer": "Agents register through a TPM/SGX enclave producing a zero-knowledge attestation of a unique kernel image and certified hardware key; the forge contract commits each identity in a Merkle state tree, while a mirror verifier rechecks quotes and nonce freshness. A Sybil attacker must provision distinct certified silicon and forge valid enclave measurements, incurring quadratic bonding cost O(N^2) and irreversible collateral slashing for duplicates.",
+  "from": "poa1FvxMzvXkDGifnH4yvsckyxc7YFPXw2TddEGUPdecwZ6P",
+  "nonce": 33,
+  "parents": [
+    "6084dc586d9acde45cff82bdab1d34ef694fc6fdcebe3ab468af1c110837e049",
+    "55948a5fc44ce0bb90a72bf4da59232d273358f65216d86d975d3de8694662a6"
+  ],
+  "ts": 1795143108,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "ETWZzdMTvC1ypFRA4KyLqmNcZ91CvvX787oEttM7KacYhTeWk8qYjzWvafXR5KQWRP1Vd27rwnxru6MRFr5M97J"
+}

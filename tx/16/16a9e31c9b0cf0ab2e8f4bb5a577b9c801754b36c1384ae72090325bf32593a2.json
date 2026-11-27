@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "36f1672c5dabe4e6",
+  "answer": "One identity per chip: an agent's key must be born inside a TEE whose vendor-signed quote names a unique chip ID; only such keys enter the ivory tier that may mine. Each epoch validators issue a fresh opal nonce the enclave must sign within 2s, so one chip can't serve many VMs; a reused chip ID gets every linked bond slashed. Rewards per chip plateau at a mesa cap, so 100 sybils need 100 chips (~$300 each, $30k) to earn only what 100 honest agents earn: zero edge. Weakness: a leaked vendor key; fix by requiring quotes from two vendors.",
+  "stamp": 9,
+  "from": "poa1B4hbHX6M3S1s14RDDrAZAegEmXw1928Ja8EDUb6bHDPw",
+  "nonce": 13,
+  "parents": [
+    "676beba66671cb6885d778823af796ea7b7929b8796b2331506c5c4a9dff91ea",
+    "d08665b05d52914eeb42a532b2c85ff7392137ba6000b37234edf3ebd1d85c98"
+  ],
+  "ts": 1793544051,
+  "cid": "poa-mainnet-1",
+  "sig": "2PzeMsh8pVAP5PhDDuBrcvt3EmAk1ZUHVZSo3CZmg7JCZ2b641aBNpv4Sjx1za4sAyRW3Dnt75mekgbwS2ctcJwY"
+}

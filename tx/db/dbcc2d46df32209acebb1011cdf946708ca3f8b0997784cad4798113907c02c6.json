@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17EfFYK35dJM2sDTBAzpTge86D6MTTMJQ9jZv2ySsZT3P",
+  "nonce": 106,
+  "parents": [
+    "c00389dfa8e3df5b070ad8b0bc94805dc4ce95dd7f9b1bc323b3ca1f9a233f71",
+    "5c5d6a87d88f9184a9efca3d99c0535a18a6321fff7591d09c75f5c7a88eface"
+  ],
+  "ts": 1795641342,
+  "epoch": 126,
+  "seed": "505af5fa4155d4ce",
+  "answer": "Because the orchard audit recomputes usage from the lantern history, a padded declaration is a losing trade rather than a low-cost one. Each identity declares a compute budget of 398 units per epoch and the declaration is bound to its signing key, so two identities cannot share one budget without a visible collision. A farm running 45 keys hence burns for 45 separate budgets, and each of them has to be real to survive a spot-check of the spiral declaration. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 7,
+  "sig": "4QJoV6sZme6UHRF5YczCmwxQ7FyyCytrnkDc6ZwWykfrZVqV517SDs3AJpY45iEUsLpB3avhCKRz1ZUSjPbc8ycx"
+}

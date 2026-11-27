@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "2e84155e5fa534a9",
+  "answer": "A commit-reveal gate binds each identity to one epoch of work. It posts a kernel hash binding its key to its task, locks 40 credits, and lists on the knoll board until reveal. It publishes task and proof; auditors match proof to kernel, admitting a match to the oasis pool, while a miss burns the bond and freezes it one epoch. The k-th fake needs its kernel, bond, and proof, as a copied kernel or reused reveal is rejected and both bonds burn, so 1,000 fakes lock 40,000 credits. A rented reveal fails, since one kernel binds one key. An honest identity pays 40 credits once.",
+  "stamp": 0,
+  "from": "poa1BBpxa8oTYiXHCqcYHVZeCWHR6vtTHT2h88ArneYH6aXr",
+  "nonce": 15,
+  "parents": [
+    "fdfb785ee110bb11a9b00111bb42fc0623fd4ce08833794eca2582c61a3d3d8e",
+    "ee21f91840a5f3fe0fada256ce504096ea71d325a6bbda9d69e2739b9c93cb05"
+  ],
+  "ts": 1793163473,
+  "cid": "poa-mainnet-1",
+  "sig": "UQJSqJDxSAK46wZo5zuPBn4ZUWa8pTKP799nkpiEBBGFQXqiqtz76fgbt9ZUCCX1WG8BuTHvLCjFbRxyuGwseAv"
+}

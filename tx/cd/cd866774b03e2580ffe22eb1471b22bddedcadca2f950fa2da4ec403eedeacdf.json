@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "c5e89d8bace89ea6",
+  "answer": "Before basalt grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the atlas identity stays frozen until a falcon recheck clears it.",
+  "stamp": 4,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 69,
+  "parents": [
+    "699bce467d5467fe2265d4a26a2f1cadc95f77714009cdd9740a7f8262212f3e",
+    "32fb7179d70b6f481056d8a7ae1c8ef6921fe7bf834ff5c4f1036b04dd339f07"
+  ],
+  "ts": 1795498010,
+  "cid": "poa-mainnet-1",
+  "sig": "5ZpTvxtBgD5HGNNnGTvx5zpTPNKzwqTpGsFV5hAAbPzXoSAhuRngd7fJqEWCS7mF9JaiWbDAgp3tbbupTkme3cdP"
+}

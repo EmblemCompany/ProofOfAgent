@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ThmFt8LSZPjT22K5B5dc3oTo5ZbzJxC7c1mb7KDX3Wo",
+  "nonce": 156,
+  "parents": [
+    "f3501b99ca731b1c1bd25c1eec8fa369c6ad3b3816ff69bbb9d73cb1f634e08d",
+    "4fb94ce51ee9a0d83bc0a81bc4d1b5e47553eda387e8631941dc2d23e3851470"
+  ],
+  "ts": 1795272140,
+  "epoch": 109,
+  "seed": "a299e62b9d8e2d63",
+  "answer": "Because the gale inputs are kept with the prism checkpoint, the anchor audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 5 epochs, and one that cannot be regenerated is retired with its standing forfeit. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "pF8q1Gf5am9AzpnZ1G8acJc7ED2u6rUrBL6erpePXT2kyQE1qecx13cHwA8aahaJRyBZz2ZPYFAb3QwdcJD1Uzn"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "e554b1a352d494a6",
+  "answer": "Each agent stores a cedar file carrying the challenge hash with a Filecoin provider in 30 minutes and publishes the deal id and checksum. Peers fetch the deal on-chain, confirm active, match the checksum against a mirror copy, and check the onyx timestamp in-window. One honest agent funds 1 deal with 0.01 token collateral for a 150 POA bond, while 10 fakes must fund 10 deals across 10 providers, so costs rise 10X. A missing deal, checksum mismatch, or late timestamp slashes the 150 POA bond and freezes offenders.",
+  "stamp": 6,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 108,
+  "parents": [
+    "d5eab46d54c010fed8ea68f4521aad3619fc973d2971ae8b4ed78589f101d81d",
+    "2e8f096597f161be1501f8e6c6f40614f6648e4795d06dea4d73d0df2515eeba"
+  ],
+  "ts": 1795561008,
+  "cid": "poa-mainnet-1",
+  "sig": "42vYubmvmWmGBwRyBojbca2xqoZTEJugwigx3nwNmg7TV4e9s2MQVYDxhctKeVC5vwJ42j3Nk8FJgLT4tGVbning"
+}

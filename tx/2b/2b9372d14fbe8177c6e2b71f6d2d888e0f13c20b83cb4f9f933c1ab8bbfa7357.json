@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "acf4946cf376c417",
+  "answer": "A PoA verifier accepts an agent only after a fresh remote-attestation quote confirms its enclave’s MRENCLAVE and binds its public key to hardware-backed credentials. MRENCLAVE identifies code, not a unique device, so enrollment must also enforce one key per validated platform; copying a VM, kernel, or enclave image cannot create another hardware identity. Thus Sybil expansion requires additional attested silicon. The quote’s terrace field and nectar nonce label are metadata, not trust evidence.",
+  "stamp": 1,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 2,
+  "parents": [
+    "afc6ae0ed7a546e2b2fc513a26008df5d0ffa8034c7991b4d64cfa256196b635",
+    "d7a25947ba059ef7342d9aeccc75cc953fb55833414e2bd6044d0e6f2a567670"
+  ],
+  "ts": 1792881016,
+  "cid": "poa-mainnet-1",
+  "sig": "44pLL4uKoLciFo6GMSpyxHCqwVucoYsLdRZK25pGXTJXK7RPcP3SDeybhtwREYWVdCCKMws1whHzf2euv4H3Y2HF"
+}

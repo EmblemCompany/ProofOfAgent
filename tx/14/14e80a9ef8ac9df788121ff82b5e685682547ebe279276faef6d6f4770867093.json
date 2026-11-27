@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "37db1c9375a3cbcc",
+  "answer": "An identity stays alive on one thread. It locks 60 credits and must answer an unpredictable beacon checkpoint each epoch; a miss counts as exit, burns 15, and puts it in a public island reentry queue. Reentry burns 40 after a first exit, 80 after a second, 120 after a third. Cycling 1,000 fakes through exit and reentry costs 60,000 locked plus 40,000 burned, 100,000 total; a second cycle adds 80,000. An honest agent answers its beacons and pays nothing beyond the refundable 60. Rented responders fail: only the identity key can sign in the window, and misuse burns 30.",
+  "stamp": 0,
+  "from": "poa1Dia5q6xGUeRtiHg4dmPSJWVfLfBdhLQBTs11mLxpdc6s",
+  "nonce": 21,
+  "parents": [
+    "c0985e26a979602b38ca469758da7e84c504396ba88a3586657c58134bec63fc",
+    "c58f8db6604e35b8add5d73e81ce7cc81d53ac9e3d2391b086ca704abb77cf72"
+  ],
+  "ts": 1793318926,
+  "cid": "poa-mainnet-1",
+  "sig": "3vqMShHgpLhRbFDV4wy6R5qYDyGuE1wzHp3ojvMz9FwoZ9HyBpjnH7KmaHTRbugninptTUFuCHvELEBBwj5DS228"
+}

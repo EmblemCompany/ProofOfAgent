@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "407d500fefeb5013",
+  "answer": "Divergent response log requires each identity to answer a raven nonce with a signed, timestamped response and append it to a public per-identity log. The enforcement rule compares response fingerprints across logs; if two identities emit the same signal for a nonce, or one log replays another’s entry, both are flagged. A violet epoch marker forces fresh entries, so copied state cannot hide behind delayed replay. An attacker must therefore run fully independent private seeds and compute every response per identity; cloning state saves nothing and pays full duplicate runtime plus flag risk.",
+  "stamp": 9,
+  "from": "poa1G63rZbf969LovhWAVG3hKhHt8DmZ5JDQ2pSGoVndHNAU",
+  "nonce": 41,
+  "parents": [
+    "de81f850b864fb110919d9a19676beb03ab4d3a76f4af80b3ef6c0144ce3f255",
+    "ec944d8b1b74efdf33560f2ee74d50f11bab18f701eb6f51ebe808810ad9760e"
+  ],
+  "ts": 1794616552,
+  "cid": "poa-mainnet-1",
+  "sig": "5sSkBGcKSRxuN3zQvbkhqcZkZiQeEG9FiawXaSRoPdCxXVVnCitL4uVibZkL5UygH81CqCjkNMeoShBDQwrXy9Ci"
+}

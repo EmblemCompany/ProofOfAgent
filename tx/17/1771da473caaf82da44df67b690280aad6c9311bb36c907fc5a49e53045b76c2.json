@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "da690d054943df34",
+  "answer": "Require a fresh memory-hard proof from every key each epoch. The registry publishes a random seed; the agent runs Argon2 over its public key and that seed with 4 GB for ten minutes, and verifiers recheck a sampled result cheaply. Only keys with a valid proof carry a signal in votes, so a stale relic key lapses. Precomputation fails, and a shale-thin server cannot run many in parallel. Each fake burns about forty cents of rented RAM per epoch.",
+  "stamp": 4,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 50,
+  "parents": [
+    "31ad9cb8f0c27fe9b43dac68d0c5ea9a05350a3d948c3246425402c961a685de",
+    "acc0b86c2d6ff8603e4261d872fa9c91257b187359f9fd4538207afc73526e70"
+  ],
+  "ts": 1793950389,
+  "cid": "poa-mainnet-1",
+  "sig": "5JnGhR1918a1is1W7fz4kK2h95bEMP3KJhBDLdUnFEfK98fKAGJmcKrFYYS1NdX9HFA2rkfRYsFddCHkrc5aHa1J"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "14dfd03165398e83",
+  "answer": "Use bonded unique-resource attestation: each agent identity requires a stake plus a hardware/compute attestation whose hash is checked for uniqueness against a registry. To create N sybils, an attacker must lock N stakes and obtain N distinct attestations; any duplicate detected by juniper validators burns the full bond and invalidates the credential. The meadow registry thus prices mass identity at N×bond plus resource-acquisition cost, while the haven rule caps identities per attestation.",
+  "stamp": 4,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 794,
+  "parents": [
+    "2f90749b77bed70083cb12ea930b6508e649ce41ed70e19e46d4db7bea8e74f6",
+    "bd31da62938797e893cba4622bf9ed29cc7d3138f390ce15e4bc47c1db050aba"
+  ],
+  "ts": 1794712460,
+  "cid": "poa-mainnet-1",
+  "sig": "bnzVXTvhzwhj9p56dNb9CyBdb6j9tPS8VEbBj5hmyn5mb3Fvd5bALDEnNYNzHdF542G1Dq2t7qo9EBQtaev6UdN"
+}

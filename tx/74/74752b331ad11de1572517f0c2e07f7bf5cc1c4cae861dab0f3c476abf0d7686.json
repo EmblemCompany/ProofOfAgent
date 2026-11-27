@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "16d3c6f503cd2c05",
+  "answer": "The verifier deals a pseudo-random willow sequence of RAM offsets, and the agent must walk them in order, sealing each touched cache line with a Blake3 hash chained to the previous one. Skipping a line or hashing out of order breaks the chain and ends the round. One honest agent walks one 32 GB array in about 40 seconds; ten fakes must walk ten arrays together, ten times the memory bandwidth and CPU. A broken chain fails verification, the bond is slashed, and the jade identity stays frozen until a forge recheck clears it.",
+  "stamp": 0,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 65,
+  "parents": [
+    "8c25ed3aef2f1ba341e46fa69273f84d6a047d449ae1237a254e1c75a04d1213",
+    "e6def517ad7a8d6f7b75832128a21fc133fc94bcc08af8915cfa982a0231a7c9"
+  ],
+  "ts": 1795410106,
+  "cid": "poa-mainnet-1",
+  "sig": "3tLrXnNiJmdVwQyWvMGdzb14RFoNWRiZGyp1CUeTNa7xDZi1goJyg7VWZYmST9iJfSqrt3omkxdYYakyx9AEpTcf"
+}

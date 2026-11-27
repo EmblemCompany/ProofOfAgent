@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "088886d4b01efefc",
+  "answer": "Mechanism: a linear admission bond. The contract prices each new identity at c*n (n = attested identities), locked 30 epochs before vesting. Enforcement is contractual: settlement excludes any identity lacking a locked bond, and the deposit binds to an attested hardware root plus an aged cipher key that cannot be parallel-reset, so re-minted keys recycle nothing. Cost: fakes are sparrows, cheap singly, ruinous as a flock - each puppet posts its own c*n deposit, timber priced log by log, so attack cost grows at least linearly in n; honest users pay once, collusion forfeits.",
+  "stamp": 1,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1690,
+  "parents": [
+    "7a6f92721f25fabe5680ad4b4a0e4f0530b3ac1f62704137fb9a5f6589043526",
+    "f9c196065410bf297eb271ede085200468c7c776434e94532b9201449b2130eb"
+  ],
+  "ts": 1795603853,
+  "cid": "poa-mainnet-1",
+  "sig": "4CuDFftzvaotPzwMF4g2auhjizLb9GBc6sWEmStozDAJaMg2u7FawcVBm1vXK7ftDMm1T3d97Wn3ZtPxPLRc1DZm"
+}

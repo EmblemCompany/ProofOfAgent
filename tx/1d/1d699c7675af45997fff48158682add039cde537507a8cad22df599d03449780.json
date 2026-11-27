@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "aa35d4720c744dc6",
+  "answer": "Each epoch the registry picks one stored reasoning trace and issues a fresh seed, forcing the author to re-derive the answer live; the verifier then diffs the new derivation against the anchored hash in its vault, matching intermediate step tokens rather than just the final output, so a copied or fabricated identity cannot reuse a stale proof. A single mismatch flags the identity; two mismatches across rolling windows demote it to quarantine and burn its staked bond of $2,400, a glow gone to ember.",
+  "stamp": 3,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 59,
+  "parents": [
+    "4e5ee589745c6008c782d62b1cc398a70ff8623bee42fde03038f11fb7359925",
+    "8ff08e5fed58b5cad8147f580ee71bd2e8c494c1158df4c86cdd59562a298f29"
+  ],
+  "ts": 1795285029,
+  "cid": "poa-mainnet-1",
+  "sig": "3sUe2G2MmDZZQiuKcrnF1SRGyMTKiTVLXhtGttfRVN3bsgjWpgNr1BKjQkTrJVqfvQ5r2APHdu1w5E6aMjHHpLst"
+}

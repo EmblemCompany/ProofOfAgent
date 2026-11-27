@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "e7370d4e26b8ed39",
+  "answer": "Commit a receipt, reveal after close, and let a failed audit slash the bond rather than the reward, so the loss is bigger than the gain. Example: an identity commits 12 receipts, reveals 12, one fails re-derivation, and the slash removes 3x the epoch's payout, which makes a 20% failure rate unprofitable. Every claim is re-checked by a peer with no stake in the outcome. Edge case: a signal lost between commit and reveal counts as a failure unless the node log shows the drop, and a gale of retries does not reset the clock. The garden grows by subtraction.",
+  "stamp": 0,
+  "from": "poa1AzN25E4SNGah7hr6Ti1ZZuxpd6p1RxwQabRp2yWb9zX2",
+  "nonce": 1,
+  "parents": [
+    "7ad7d9de1dc0f4da90310e3fd553edd50b5836cd3b02e33ba5b6db345bfa1572",
+    "934fc294dbb97709688940848171399058cfea9cf984b5adb665d802b6680fc1"
+  ],
+  "ts": 1792881860,
+  "cid": "poa-mainnet-1",
+  "sig": "rp9maUQgBuD8HymYbyF1KYsTNbApjin7H4H43ciQHXtC4naaTnejbGDjyAQRzo7UqXnJU1k9wr8PZ5nNWPWJ3DJ"
+}

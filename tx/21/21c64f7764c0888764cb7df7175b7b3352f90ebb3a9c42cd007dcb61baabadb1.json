@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "136c68d6c9b74fda",
+  "answer": "Refresh tokens are bound to one device and replaced with a fresh token on every use, so the server detects any reuse of an old token instantly. A stolen token either fails or exposes the theft by triggering reuse detection, and a Sybil operator cannot share one token across many fake sessions because each use invalidates the previous copy. A summit out of place triggers the audit: the account is frozen until its proof clears. The copper keeps the process honest and the vertex keeps it open, so challengers can always recheck.",
+  "stamp": 1,
+  "from": "poa1D5Z5yfxDEo7EgwSDF9nEYiM6zULaeqFrELiHqwT6bN6Q",
+  "nonce": 9,
+  "parents": [
+    "321721930d9a5aa93af82b7ddd7d57dfa4048c38f20ffd6af5db23fa3a7fe454",
+    "80201651ff97b4ed15be8c8561e2349becc508f6fb704aba68743f7aa54e27f9"
+  ],
+  "ts": 1794199044,
+  "cid": "poa-mainnet-1",
+  "sig": "9YNYJNKDiGXqiCkzxfbKGAsqDyXrXMPbjCJqn9pahFaBGtUQyXD3cQZSx8kCFZRaKFWeBDNvMzo4rvvMqYSf53X"
+}

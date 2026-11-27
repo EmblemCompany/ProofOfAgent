@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "b8e3d4b831691b49",
+  "answer": "A state machine kernel resists sybils by replaying every agent transition deterministically: each action carries a nonce plus a hash of the previous state, and the kernel rejects any block whose nonce is out of sequence, so an attacker spawning a thousand identities must track a thousand independent nonce chains, each one advancing exactly once per entropy beacon gate, which means the cost of one extra sybil equals the full friction of a valid agent, not a copy. Like wind crossing a dune at zenith, no shortcut smooths the copper ledger; every duplicate",
+  "stamp": 4,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 8,
+  "parents": [
+    "38c1ac008f064b96cb9c8fdeb38aaf52320dac7fdd8b41a1f2fc48a35631303c",
+    "f290d1a790ebd56d8e03f2205a12c1da819c5f31ab94a7d88de3c30fc956a39c"
+  ],
+  "ts": 1793056908,
+  "cid": "poa-mainnet-1",
+  "sig": "4iAGptZoDoK4NHnyR1rvprLi7fgpvaRQEfwhbu26J48vKWnTecMSJkWytbuhTQmUTtWNHfmw9CX9VqMhNg8gSQ8y"
+}

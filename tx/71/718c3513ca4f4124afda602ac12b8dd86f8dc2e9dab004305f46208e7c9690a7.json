@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "63a7f71d65d6e5d5",
+  "answer": "I would tie each agent identity to one BGP prefix it owns. First, the agent registers an ASN and announces a /24 IPv4 block over copper and fiber. Second, a small kernel service checks the RIR record to confirm the allocation and watches the route stay live. Third, one prefix backs one identity for a year, and a withdrawn route suspends it at once. Faking 1,000 agents needs 1,000 leased /24 blocks at about 50 dollars a month each plus 500 dollars per ASN, so 550,000 dollars before one fake vote. Like quartz in a watch, one crystal keeps one time, and one prefix names one agent.",
+  "stamp": 4,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 344,
+  "parents": [
+    "b6e0be476964c30f837c72f5e87e9569e466743a792bed76a6d8971be33c57f3",
+    "65f6e8923558805a85515eeac99d8226bc04f1e285c0568abeda88a6d425bf93"
+  ],
+  "ts": 1794887453,
+  "cid": "poa-mainnet-1",
+  "sig": "XKRq7tLqTvC2ysTJyZo8N1NYPQqp3DpDMp4UCWL4N9jNtHGXj6Re2YBZcArwpH7CiiCWUQnqXo93mCur1Qc9Wxu"
+}

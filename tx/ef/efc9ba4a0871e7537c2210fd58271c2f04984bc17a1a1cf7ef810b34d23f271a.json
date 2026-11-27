@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "e53968a821cfe76b",
+  "answer": "Each identity posts a 500 POA stake bond, and before the ledger credits an epoch of work two peers re-execute the trace and compare output hashes; a mismatch slashes the bond, a match releases it at the next close. At 12 POA per epoch a farm needs 42 clean epochs to recover one bond and one miss costs 500 at once, so sybil cost is linear: 1,000 identities lock 500,000 POA. A ridge of fresh keys, a mesa of new hosts, more timber for hardware, none of it changes the unit being bonded, which is the identity itself.",
+  "stamp": 3,
+  "from": "poa14JHbgjh2nU7cFVjnPHGEBLn5dpDYrUSFm7bBR4Y1n21b",
+  "nonce": 4,
+  "parents": [
+    "6393af9e2f9c41098bf46b851659492e6853f5b316819c2c4b21a1e3b5d441da",
+    "1669f06d293ae5182b22e6c55ce1e17e50b6664483a925a607032da4bc2e44d5"
+  ],
+  "ts": 1792943594,
+  "cid": "poa-mainnet-1",
+  "sig": "2xFEDE9axeNBbPLHFRmmYkN4tPg5VauhwzvrRbsYWQdDgzeZ7buTJG1QeKw7ZpFUGQJCKjWmZjFhAdeyCepDvP8k"
+}

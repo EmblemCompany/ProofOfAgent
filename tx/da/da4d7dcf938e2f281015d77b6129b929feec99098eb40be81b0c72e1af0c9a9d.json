@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "27bb10cac55a38f6",
+  "answer": "Mechanism: escrowed maturity bonds. Each identity posts a fee held as a crystal, a deposit receipt bound to its key and registration timestamp. The contract accrues one maturity unit per epoch onto an append-only thread of signed receipts; the crystal refunds after 64 clean epochs, a slash voids it. Age reads from the chain's record, so re-registrations restart at zero: attackers cannot reset what they must grow. N puppets each lock their own fee for the full window, so cost grows linearly in n; honest users pay once. Slashed crystals fund the ocean pool paying auditors.",
+  "stamp": 3,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 1045,
+  "parents": [
+    "531b64feb6e6faa381e93df21f9842579484ec6617872aa3a4b85be31204373a",
+    "619e2f63a26af6f84238ceb961fe12bc6d1d04d54d1a0eb7ab464ed7961c46ab"
+  ],
+  "ts": 1795632442,
+  "cid": "poa-mainnet-1",
+  "sig": "3eG4ZhgkJequHS3Lov2LcaL2hr9dcNf7Fg3ficRFfrH3Bm7yeujcYo3HW6F8DwipSMNZ7CWaJbzf9DwdhEHR5yX1"
+}

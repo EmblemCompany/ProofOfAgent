@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "23ff2d07c9b25518",
+  "answer": "Each new key reserves a secure-element relay channel for 18 epochs and answers six unpredictable 200-ms loopback probes per epoch. A cedar marker in its signed transcript binds that channel to the key; a comet of aliases cannot share it because overlapping attestations expose reuse. Every extra identity needs another physical channel and 108 timed probes, so 1,000 fakes require 1,000 channels and 108,000 responses. Validators derive slots from the beacon, verify signatures and timing, then burn rewards after two misses; a basalt ledger records duplicate channel IDs.",
+  "stamp": 4,
+  "from": "poa1F8pPfLCDZi4Et5nLBVZiEKYfhYMVbQtjTGuW6VuBmcVr",
+  "nonce": 341,
+  "parents": [
+    "dc8638994eb1c0536e3957a4b15a1a0ae1b5f700330ca68343ec594598d15bf9",
+    "532d1b58c9f860c502c6b0ee41164ad464c0b7cb2ed7422a4c20098e5a8b3afb"
+  ],
+  "ts": 1795286419,
+  "cid": "poa-mainnet-1",
+  "sig": "2WCspzRxHQmMXXoa7F6QN2BH8gW7f27Y47FDLmHZXojgN4oNqs3gNQqiy56ZqF5ysJSa2e5hs4vtk8wB7iUabcev"
+}

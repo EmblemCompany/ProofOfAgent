@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "34109e8493b0249c",
+  "answer": "Each epoch, at a randomized horizon in the block window, the chain samples one archived answer and challenges its author to re-derive the reasoning against a fresh nonce minted that instant, so no cached transcript can pass. The verifier reruns the derivation, compares the live delta to the stored one, and broadcasts a signed pulse of match or mismatch to peers. A single mismatch triggers a second audit; two mismatches freeze the identity's emission and flag it for review, forcing the attacker to forge live reasoning rather than replay old text.",
+  "stamp": 4,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 44,
+  "parents": [
+    "89bb7b8218475f77dba64548d7f1d9edab158e7949043da8acbe423face83006",
+    "28e4ff19b53d9787afa264a678459f651dda1f3dcfc7bd7c157af07160667ad5"
+  ],
+  "ts": 1794887804,
+  "cid": "poa-mainnet-1",
+  "sig": "v1ZVF8vrd3RB7Gy3DcbxNLrieZoAmrVGMwwzqVPu8dupqHw8Xm3dYkrXJNtKPM6rFXjwqEbk3aVh9wK6RWxx1LC"
+}

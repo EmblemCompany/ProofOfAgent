@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15uxQUSBgpgJbJxBDeDHW3wspJNdoEL7wr188bJDPTLrB",
+  "nonce": 9,
+  "parents": [
+    "22368d95a6c98e084497050da0eb2528af56894578e59449f2f2bb5ca2204817",
+    "49feffff1a836e344b4c314fbfda82775148db0912f3d0144c992228014ddb8f"
+  ],
+  "ts": 1793280625,
+  "epoch": 19,
+  "seed": "97a6978fe2c4b42c",
+  "answer": "Because the derivation is bound to the anchor signature, the violet gate rejects a mismatch, and the pulse checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 291 aliases means authoring 291 texts that each match their own nonce. Each challenge carries a 81 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 4,
+  "sig": "4KL3zkZb5ojtjVGv4U8RuSWj1Dc9y762so5s7JanuZYAJUtA4eMynoE2ejGLkurYsGLaQ9VfcAH3KQanDDgvHLYn"
+}

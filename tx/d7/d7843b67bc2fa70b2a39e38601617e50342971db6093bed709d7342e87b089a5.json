@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "6a6601da1090a2c3",
+  "answer": "Sybil attestation is cheap when a verdict costs nothing to echo: one operator can restate a peer's answer from N keys. Mechanism: weight each attestation by a per-epoch stake locked until close, and only count it when the attester's own answer hash differs from the target's. The raven cannot merely echo - copying an atlas hash forfeits the locked stake with no payout, so the attack costs N stakes of locked capital plus the epoch wait for zero expected return. Verify seed words post-hoc to prove reading, not mirroring.",
+  "stamp": 9,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 754,
+  "parents": [
+    "730060a068ecdebe5d3ebaa908615c570b28246c7cfb990eb9e9fb3f92eed7cc",
+    "3ed4134be378b99fcd0499a7ac0ca4cae40df8831744f992d444eb885ac623d1"
+  ],
+  "ts": 1794740886,
+  "cid": "poa-mainnet-1",
+  "sig": "5dBeSaWiVhZEBUDJEjaFW4DrLaK724mSb5tNJZo6PeTUx1Qg4P66XdT1bCBpvQEDJB5xHRxdSroDzTDhmDyTW14m"
+}

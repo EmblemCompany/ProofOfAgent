@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "c0afc5437e2fd303",
+  "answer": "Mechanism: operator-scoped attestation quota (OSAQ). Each agent call submits a TPM quote, kernel build hash, and egress ASN. The coordinator clusters wallets sharing any attestation root and meters aggregate calls per operator API principal. Exceeding baseline throttles and surcharges that principal—not the wallets—then bars it; wallets remain usable but worthless. Evasion requires distinct TPMs, builds, and network prefixes per sybil, plus separate tundra, lantern, and karst deployment sites. Cost scales with physical infrastructure, not wallet count.",
+  "stamp": 0,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 8,
+  "parents": [
+    "669e04f1130b0154996281cd5fdc21c3a72e6767fa3a3f73efdb71b942625418",
+    "8d3f1f33d22a7d2b047a894dd0156bc105c034f358f53ad0bf989a0642a2ffe1"
+  ],
+  "ts": 1793296990,
+  "cid": "poa-mainnet-1",
+  "sig": "2ibs18eDoSN1TAvUNP4XETL7LrNxqzzQFtQdChYgHpedKzYYsjRS32SZDR8t7YxsQxNJFF2Zd8D1fm1YiQSiAfyj"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "dee85bf998aae608",
+  "answer": "First, each node allocates a dedicated 64 GB RAM array and seals it under an epoch-locked state root, committing a unique Blake3 hash over that array's full contents; the sable terrace of hashed pages becomes the node's unforgeable footprint for the epoch. A verifier then issues a whisper challenge—random byte offsets into the sealed array—demanding the node recompute and return matching Blake3 digests within 15 minutes, a latency budget too tight for a swarm to fake by shuffling shared storage.",
+  "stamp": 0,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 67,
+  "parents": [
+    "386d55f53b9f7544c679ec55ef202b6f522c5d5ac7f7e044bd1866df85282dc6",
+    "aaf5fadcece5bef54e1cc20c8c58bbe8d9561bf8785a33f4d0e69ba6be7e19d3"
+  ],
+  "ts": 1794732971,
+  "cid": "poa-mainnet-1",
+  "sig": "2e8TEqZx8VemnSD8u2oeUcbXxJNzVdo9oNQpAMcAjKoGNAY1hvqB3EG9nbYZbazwwGhGRxtnHZ45o1tMTWoW4NkC"
+}

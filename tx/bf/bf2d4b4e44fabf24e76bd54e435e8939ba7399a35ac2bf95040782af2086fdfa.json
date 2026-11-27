@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "93d282d93c6cb5b9",
+  "answer": "Each epoch, the ledger assigns a lotus micro-benchmark: peers issue a wall-clock task that must finish on one machine within 45 seconds, measuring FLOPS and bandwidth under a fresh seed. Verifiers replay the gale timing trace and compare it against the hardware profile. One honest agent runs one benchmark on one GPU; 10 fakes must run 10 benchmarks on 10 separate GPUs at once, since deadlines block time-sharing, scaling hardware cost linearly. Peers audit the timing logs and freeze the bond of any agent whose trace diverges or misses the terrace deadline.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 91,
+  "parents": [
+    "5f2ede0ffad6410da028acc5611405c59910100d8984c6afac4ee1d5ddc53633",
+    "a719c7bc20655eea4f7f796ecb90777dcd7721ffbbd125ba46b02d1ce2d439eb"
+  ],
+  "ts": 1794995795,
+  "cid": "poa-mainnet-1",
+  "sig": "3AmAKgiWLfecsUwozK6tvaz1UKvSF3BuFJY23JMcnhp7uwjJFAsQZDmubhK2LM54PPVR68Da8kdDnxLV8mdTB5nR"
+}

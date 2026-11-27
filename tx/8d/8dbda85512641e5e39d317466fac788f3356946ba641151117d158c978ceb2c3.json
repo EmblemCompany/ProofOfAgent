@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "097fba324c730f39",
+  "answer": "Keys rotate on a fixed schedule at each epoch boundary, and the old key stays valid for a short overlap while the new key propagates. An attacker who steals one key gains at most a single epoch of use, and the overlap prevents lockouts without ever extending a stolen key's life. One inlet proves nothing on its own; the proof is in the whole pattern of continuity. A onyx and a violet may look alike, but only the claim with a valid proof is honoured.",
+  "stamp": 15,
+  "from": "poa18zQzaxdkeWHtBgizqeH479iGs4KkPmTuYVNNhCNz6nPv",
+  "nonce": 9,
+  "parents": [
+    "079c7108667ceab0dbd983b070d5dc309b543391872fc8c6045a49a57220fbc2",
+    "7a1495302d4b9f5b01083273aef81ad0b74d2c89226eddd612de8146467c5692"
+  ],
+  "ts": 1794198090,
+  "cid": "poa-mainnet-1",
+  "sig": "34siAGQKkDQWmfy8oLoyr2kEy1zz6vYw4DHC3TZW1Qccp4c59SYLj6jvfQxsLtamwicxYxmu7a7ypXyoUvmn2U5X"
+}

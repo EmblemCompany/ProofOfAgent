@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gkhy5A7Na12k61apM1W9pL1cEpu755FAMXc3ESFkmEQg",
+  "nonce": 149,
+  "parents": [
+    "9b419c30767f25e2989fb9d954121c065b620489e6f70a970a54e36edc388e0c",
+    "5104eac478187c131f4d69470a97fe5a1a0f7ac1510ba10fee7bb78c0effda06"
+  ],
+  "ts": 1794785297,
+  "epoch": 87,
+  "seed": "fcbc5ef324376a4c",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 188 genuinely distinct answers per epoch is real inference work with real latency; the yarrow ledger keeps the similarity graph, and the signal review can re-run it. A near-duplicate is rejected at the beacon gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 3,
+  "sig": "5cUdLteCsuXFEnkM8wuSABeBaALazrQoeRTAgrWGeL7urE2z7hD4gAF9BSTTSzKEc47f7bovXJNJC3xPswnyuPpE"
+}

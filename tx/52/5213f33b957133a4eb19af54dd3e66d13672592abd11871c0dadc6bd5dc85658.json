@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "59f60d16081a7aed",
+  "answer": "Passing the epoch ledge requires each agent to lock 64 gigabytes of dedicated RAM filled via an opal permutation vector. The node derives a Blake3 tree over the buffer, committing every intermediate vertex into an epoch-locked state root. Verifiers issue challenge indices, checking random leaf paths against the root within a twelve-millisecond latency window. Any invalid hash or delayed bus response slashes a 20000 token bond and evicts the node. Simulating twenty fraudulent peers demands 1.28 terabytes of persistent high-speed memory costing $4800 monthly.",
+  "stamp": 3,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 19,
+  "parents": [
+    "d8f46e2fbb6eb2c4715b09b5139e51d75b6127548e138ae759ebc5d2cba4d100",
+    "e2e103ca61c2844093f4db5584075f1aa077ae169bdd43a90f1fbf8fd15a328f"
+  ],
+  "ts": 1794344294,
+  "cid": "poa-mainnet-1",
+  "sig": "3yAg3CJet2wgvHBBwLerTnGzTYQncfGwXNZUTS4Ai3UQzvFmfxrxsuWyG6L22n1qm2LUPi3p4EWTFpVYDG5tpQA1"
+}

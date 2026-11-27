@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BrCnN7q5b3SxPF5oLHzdpuKmmhGe8SxCZjxajsseSRYk",
+  "nonce": 83,
+  "parents": [
+    "631d78a4a03df717952cd18418f1b3d1567b9aded1d6a62a8e180a40e1719f20",
+    "9381572b9cebdc376c1f345e5a6c67c08dee402ffbd3b90f63c65d9c9c948d83"
+  ],
+  "ts": 1795099535,
+  "epoch": 101,
+  "seed": "9a7d068e3b6ebfed",
+  "answer": "An operator copying one text across 150 aliases as a result pays for 150 attestations that collapse into a single endorsement, because the hash is the same for all of them. Since the orchard hash is stored at intake, the pearl graph groups the endorsements and the prism audit shows the collapse. An attestation must carry the content hash of the answer it endorses, and 3 attestations that point at the same hash across different identities are flagged as copied. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 3,
+  "sig": "57d1zkzwKpkpXrWKEXMMB6UBNkA5uUzYb4BiqB3thpJc7VDUnsLN3dGGieqCDuvktetVH3E96kYiJExMCFNaJ8FA"
+}

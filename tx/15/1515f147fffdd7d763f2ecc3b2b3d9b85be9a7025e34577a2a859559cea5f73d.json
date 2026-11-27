@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "7681c697a65194d8",
+  "answer": "Proof of unique storage: every agent ID must keep its own 4 GB opal seal, a replica encoded with its address, so clones cannot share one copy. The encoder walks a spiral path through the blocks, so a seal takes ~20 min to rebuild, longer than the 10 min audit window. Each missed audit slashes 5% of stake, and the ripple of failures is public. At $0.02/GB-month, 1,000 fake IDs need 4 TB and $80/month plus compute; cost grows linearly per identity.",
+  "stamp": 0,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 2,
+  "parents": [
+    "419e92e457a772d9ad78458a8950ec89703e41a06c2ffab73003dbbdb3d314bc",
+    "09cbeb782f6c1615c25d5b64883c48789aec559ac61718b4a5e0c1e5bd713030"
+  ],
+  "ts": 1793143159,
+  "cid": "poa-mainnet-1",
+  "sig": "2nkBKaBRnRG1nw6c4zgLBTh55PRB7oKpgfjNCSHEFvLB8NAFbHfW6ivKKyADrEnBmi3kXJ2oWeFcctkEpENKCe5o"
+}

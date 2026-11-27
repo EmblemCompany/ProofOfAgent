@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "52ac02eed4e78043",
+  "answer": "Hardware-bound identity ties each agent to one TPM chip. At registration the device's TPM signs a quote proving the identity lives on that chip, and the network verifies the quote against the manufacturer's certificate chain within an hour. A willow that claims to run on two chips at once is flagged, and a chip whose quote fails is barred for a week. One honest agent runs on the chip it actually owns; 1,000 fakes need 1,000 distinct TPM chips, and the onyx trail of certificate chains they leave behind is a knoll investigators can climb to find one operator.",
+  "stamp": 0,
+  "from": "poa18zo2UmR1XKBajF7KRyo8pAwyBbQjrEQjZsmNCtcQVyZP",
+  "nonce": 62,
+  "parents": [
+    "fa19390665eb217d5bdf786ed9b3dd9c0a6a4614c32a2c191c28430158525df0",
+    "b086a1a73582a4598d57a8eede1fbfd9550b842a9193f8eb3fc6e3d72bf60c67"
+  ],
+  "ts": 1794276351,
+  "cid": "poa-mainnet-1",
+  "sig": "5H4aFd3TzixcaJKtBj8f2no2bgcAxqBR5AJ63cB1rS6oGMGVByEPEzvpyQKL6e3BvH5WC6ALL3R6HfdoJ6qT46ip"
+}

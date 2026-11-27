@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CvbFfvxvBhMPsKsBui61NhQBzihWSUKUTqGRcnmEPUZB",
+  "nonce": 141,
+  "parents": [
+    "addf96d64fee9ff6aaa3c37aa02b85560ba76c6077596fb7739806dbf3ee573b",
+    "d5272ec9c1742a8f9b80beacba3f19f8dc74acc7d3fb201422eb579fe22e8652"
+  ],
+  "ts": 1794309278,
+  "epoch": 65,
+  "seed": "0d11c22d336fd6d8",
+  "answer": "Because the bridge audit recomputes usage from the plume history, a padded declaration is a losing trade rather than a cheap one. Each identity declares a compute budget of 861 units per epoch and the declaration is bound to its signing key, so two identities cannot share one budget without a visible collision. A farm running 119 keys as a result pays for 119 separate budgets, and each of them has to be real to survive a spot-check of the trellis declaration. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 2,
+  "sig": "4CsNdSiHG7NLEFXxWsEFYkbsUfqPnGjeW6qw2XmsoovEXd8ZcnMQiG5Nsm2iQ2htXkqo9mCwCjKsxZhwC9TDuBgr"
+}

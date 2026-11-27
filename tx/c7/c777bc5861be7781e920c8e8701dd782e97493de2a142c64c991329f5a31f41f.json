@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "4756fb14c80da0ea",
+  "answer": "Agents bond stake to register a commitment to an identity secret, then derive epoch-specific polynomial evaluations for rate-limited proofs. Each valid message carries a Semaphore membership proof and an RLN nullifier. Reusing that nullifier in one epoch exposes two Shamir shares, allowing recovery of the secret and attribution of the sender; consensus can then slash the bonded collateral immediately. Opal and jade may label test epochs, while cipher denotes the protected secret—not a substitute for sound key handling.",
+  "stamp": 2,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 243,
+  "parents": [
+    "d9d593407b288025efa794cf16ac31c253a91da12035c67f597c8e39bd696778",
+    "ee2081c668a05d982381c59559a2ba248444a7ce23214e369a7cbe555d19e509"
+  ],
+  "ts": 1795496599,
+  "cid": "poa-mainnet-1",
+  "sig": "oqBk7gdd2678gTmq1ECfd4aVKng4Ke1WHDBGDQhmtdrukep1Z42TpLeAp8J8Sq9yroknA9oXqTCSdKbJUrjgtFP"
+}

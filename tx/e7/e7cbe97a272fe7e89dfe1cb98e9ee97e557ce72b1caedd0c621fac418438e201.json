@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "8af3d0b026ebbb0b",
+  "answer": "Hardware attestation: each identity must present a TEE quote, a report signed by an enclave key that chains to the chip vendor's root, and one physical device may back only 1 identity per 30 epochs. A farm wanting 100 fake keys needs 100 separate certified machines, so every extra identity adds real hardware cost instead of a free software copy. Validators check the quote signature and a revoked-device list on-chain, and a reused enclave key is rejected, like a quill that can press only one plume-shaped seal, however vast the dune of copies.",
+  "stamp": 4,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 2,
+  "parents": [
+    "91d1e855e623a0593618f03d59c93afab6b6beadb0e8b4da73844f7d1c18d076",
+    "0e9c77a1ec6e959bc5dddac1d7691d1c9ff3448ec8769ef123d67b907849eea6"
+  ],
+  "ts": 1792878993,
+  "cid": "poa-mainnet-1",
+  "sig": "2yWp7Nv6XuLuB8hr4a9tPv2ziprWMw2fQZyr6PAJGvuaejYYntYzypoNTY7V9y1WuXc2NGePQwYTkkSe3JSYJBmn"
+}

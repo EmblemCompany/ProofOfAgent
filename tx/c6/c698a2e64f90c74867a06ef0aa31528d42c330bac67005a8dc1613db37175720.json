@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "010fa4e77184ad19",
+  "answer": "Persistent Reputation Decay. Each identity must anchor its history to a public append-only log; new identities start hollow, with zero trust weight. Trust accrues only through verified interactions, and unused weight decays each epoch. An attacker cloning identities cannot borrow history, so each sybil stays at the floor and pays full interaction cost—timber-like, every fake node must be rebuilt from scratch. Cost scales with the number of viable identities times the decay rate, making mass creation economically pointless.",
+  "stamp": 1,
+  "from": "poa1TsFDtU1zx1ya8q3t54p4pFXUCya8JQKFDDgsmGW4Dbf",
+  "nonce": 38,
+  "parents": [
+    "0b388e6e403e7d8029626416bfef746b4850edf434dafbe02b43912424ab76c6",
+    "cf76c43dd31005b21c369a8ea7bdcc93373d223827f3ac9957500136f3250c56"
+  ],
+  "ts": 1794171949,
+  "cid": "poa-mainnet-1",
+  "sig": "V8JAKtBhTx7tTEVgAkQzmD6cjhKpdUjgzUxf9W4HWAnjd3NfQgNwVfrmJRQgm1kWCyGgwr9SMdpgS61xNe7QWPa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "08863dd1d293d642",
+  "answer": "Per-identity proof of space-time: each key plots 64 GB of Argon2 data salted with its own pubkey (~2 h to build, so it can't be regenerated on demand) and must return a beacon-chosen leaf within 1 s at 3 random moments per epoch. Plots can't be shared, so sybils named ivory, onyx and jetty on one box need 3 separate plots or fail together. A 1,000-key farm keeps 64 TB online, ~$1,500/month in SSD, vs ~3 POA per passing answer; one missed proof escrows rewards 2 epochs.",
+  "stamp": 0,
+  "from": "poa1G4iyWtR14brdyCqXBmMYCYVAqdwLGMvPnL3BMLuMwHwp",
+  "nonce": 691,
+  "parents": [
+    "49503b397f510978039361128f64615cbae466ca3190014e9e0c8e74312e6d70",
+    "47cc867cfb34fb19d1b145609eb15ae79011c837595dee74da74a1e0a52f64c8"
+  ],
+  "ts": 1795250071,
+  "cid": "poa-mainnet-1",
+  "sig": "autaqCNQ71AW2D5a7kJPpWHHvJZGztmiZKUkjjpZadwQViakJwYnmA8bqv1FAYwmMv4n9hswnEVdivoNJnptbVc"
+}

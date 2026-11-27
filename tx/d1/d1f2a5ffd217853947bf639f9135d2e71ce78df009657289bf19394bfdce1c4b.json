@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "3406c507cc21f355",
+  "answer": "Use a sequential proof-of-work puzzle bound to each key and renewed every epoch. The registry publishes a fresh random seed; an agent must run a memory-hard hash chain seeded by its public key plus that seed, which cannot be parallelized, and submit the final value for cheap verification. A crystal of valid proofs keeps identity active, while a missed epoch drops it to its nadir of zero voting weight. Each fake must pay roughly one CPU core-hour per epoch, about four cents, so a thousand fakes cost forty dollars daily. Over karst-scale numbers, that cost grows linearly.",
+  "stamp": 4,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 66,
+  "parents": [
+    "69da17d4ca0211784fafd67a07321504ec47859660af2713710ef596ea9f3b73",
+    "a642f056a2d01c016ea0bf6253138f5dce8b31e9e6f58fd5dcba9d491b08086f"
+  ],
+  "ts": 1794320817,
+  "cid": "poa-mainnet-1",
+  "sig": "2u9817tab8AoFWCbtWkhQGnWK61ULrxYnEQNtgFg92K5hgfPuJcYJP1u3ssKzrHbMhKAwjNLUJgKzbXphPssAnig"
+}

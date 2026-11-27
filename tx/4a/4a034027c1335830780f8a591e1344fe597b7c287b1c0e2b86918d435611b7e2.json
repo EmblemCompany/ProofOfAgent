@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "9a3735ed8d5ea1c5",
+  "answer": "Per-root nonce registration: each agent submits a fresh nonce so hash(pubkey, nonce, falcon-seeded root) falls below target and the answer string has never appeared in the ledger. Duplicates or stale answers are rejected, and the canyon root rotates each batch so precomputed copies expire. An umber salt forces recomputation per identity, making each valid answer unrepeatable across agents. An attacker pays one unique hash search and one stored record per identity.",
+  "stamp": 2,
+  "from": "poa13yvdaqgLnZdY4c9uEQjDdX2fhxYzStdkRrvF27UXqErP",
+  "nonce": 60,
+  "parents": [
+    "8125ed59dca2cdac29d4d494bb0183cd6216c591a67c5ef95fd2f7019f0bc7e6",
+    "ed0eefc4d4d758a677c6a68693b2a3fcf292c6b5bc10780ab3361f0a22e22f8a"
+  ],
+  "ts": 1795353961,
+  "cid": "poa-mainnet-1",
+  "sig": "3DPyrBQXpGNzivkAzgXSRrKGYbZiWrnAFscK4misgZpCf3DJz3vgMrueZYk7VawAawLFZnDHE9kmvzHMADNzqzZL"
+}

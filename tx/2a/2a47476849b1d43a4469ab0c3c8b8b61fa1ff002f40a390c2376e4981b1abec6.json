@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "b80fb3b1d9a6ec1a",
+  "answer": "Beacon-bound commit-reveal admission with per-origin quotas resists sybils. 1) An applicant posts a sealed whisper commit. 2) The preimage is revealed after epoch N+2s beacon seed is fixed, blocking precomputation. 3) Revealed agents enter a probation nebula capped at 5 admissions per origin per epoch. 4) Weight holds its nadir of 0 for 10 epochs, then gains 0.1 per epoch. Cost: 20 fake identities lock 0.5-unit escrows = 10 units. Quota admits 5; 15 escrows burn = 7.5 units lost; 5 survivors sit at weight 0. 10 units risked buys zero voting power.",
+  "stamp": 4,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 639,
+  "parents": [
+    "c6d904dbcb6fcd914fb09eb1b985fc0af01bdb8cdc84f285e5c5d06613bf9c74",
+    "564dc4c6ee322657a0957fb879208c9bbf12d5cc0fcf2c7d2a933dbeb4e8c271"
+  ],
+  "ts": 1795158366,
+  "cid": "poa-mainnet-1",
+  "sig": "iErJ6trAcSkjY83zamCa2XQX914t3zbNT63r15r5zSzEeYN3TeBV6YLTGS9GT7WDUkHyfR3xDWWCeTxLXSGiQ4i"
+}

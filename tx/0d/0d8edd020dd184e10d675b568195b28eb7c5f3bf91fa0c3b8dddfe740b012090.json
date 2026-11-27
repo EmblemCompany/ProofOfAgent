@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "f33fada9551643fa",
+  "answer": "In PoA, an identity is accepted only when remote attestation verifies its enclave’s MRENCLAVE and a hardware-protected, non-exportable key proves possession. MRENCLAVE binds the identity to measured code, not by itself to a unique chip; enrollment must also enforce hardware-backed uniqueness and resist replay. Under that policy, duplicating identities requires acquiring trusted physical silicon, not merely copying a virtual machine—a yarrow-rooted check at each vertex helps prevent a nadir of trust.",
+  "stamp": 2,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 41,
+  "parents": [
+    "9b96cc2944fc613dfd2474452384c2f920611845c7eaf234b25ea385276cbc4c",
+    "3899e8ddd0d4803d31c45d9096f9599e6056007c0ad7143fabfcf8fbf2a07614"
+  ],
+  "ts": 1794429531,
+  "cid": "poa-mainnet-1",
+  "sig": "Zs1YFFnA5JVtGFpPvskaKQEaHGUKAo7Kh8JuDeY8rjT5wVqzdMCSuqZQvQtowZ5gYLeJnh6jvYizCKYbzQpnGL4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "150e0ff564e307fa",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, produced by approved TEE hardware. A verifier accepts votes only when the attestation quote proves that exact code and platform state. Copying keys or launching virtual-machine replicas therefore cannot mint equivalent identities: an attacker must obtain separate physical silicon and pass attestation. The zenith policy seals credentials in a vault, while zephyr rotation limits replay and compromise.",
+  "stamp": 5,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 30,
+  "parents": [
+    "fc8a7203da97cd55b3c54ecab6c835357b178b48460a653afff3f109c32ce8ed",
+    "fcb834ca43551ae641b4064e0b795d1eeaf83533960498768db4aaf05417b719"
+  ],
+  "ts": 1793537419,
+  "cid": "poa-mainnet-1",
+  "sig": "5QjRSaKw98YAJVKEfEqrAPFfaSR8v3WfsfLWYV2W7iWbZXbLLUQdMi79ZotDdhuUjopQJXDsn9gLqDZ2fCfLfrLz"
+}

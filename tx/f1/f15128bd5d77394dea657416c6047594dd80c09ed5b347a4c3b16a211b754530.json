@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "6869d63908e1e734",
+  "answer": "Memory-hard proof of work makes each identity pay in compute before it can speak. At registration the node issues a random challenge; the agent must forge an Argon2 solution tuned to ten minutes on one core and present the hash as its jetty ticket. The node verifies the solution in under a second and stamps it on the ledger. A forged ticket is rejected outright and the identity is barred for a day. One honest agent waits ten minutes once; 1,000 fakes need 10,000 minutes, and the tundra of idle machines they would need costs more than the swarm could ever earn.",
+  "stamp": 5,
+  "from": "poa18zo2UmR1XKBajF7KRyo8pAwyBbQjrEQjZsmNCtcQVyZP",
+  "nonce": 36,
+  "parents": [
+    "9cfe7fbc434a1e6171bced76952fb793df5bc9bd6e138b9d781811fbc697ef6e",
+    "bc7ce025f3971bde51c3e084d7a4698392fa51a2dacbc65ac8e4553625cd3519"
+  ],
+  "ts": 1794171968,
+  "cid": "poa-mainnet-1",
+  "sig": "57f1d5Xykk4qgio5HEmaZHon5XtAvY4caEETAGErEnXdAyvorCwnZNWUt7XvwJmNFSvv1uFNW3BFJN3ixZp9rDrq"
+}

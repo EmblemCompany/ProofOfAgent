@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "8514d0eb567568b1",
+  "answer": "Bind each agent identity to one unique public IP. Step 1: the registrar issues a random nonce and the applicant serves it signed from its own public IP. Step 2: three verifiers fetch the nonce from that IP and reject any second identity from the same /24 subnet; a duplicate freezes both claims. Step 3: the binding is recorded on-ledger and expires each epoch, so rented addresses cannot persist. A sybil swarm flares like a comet and fades within hours, but the registry's timber is one beam per agent: 100 fakes need 100 clean IPs at $5 each, $500 per epoch, and no proxy farm stays a haven.",
+  "stamp": 0,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 68,
+  "parents": [
+    "a37f1051180d1d07b812a2afc853dcdfe5156cc7dbd08c0028f505480b06abba",
+    "7590762a26ba5308d1618e0c11d8473241722c12d11efbe3f0a1e1363fdd4cc2"
+  ],
+  "ts": 1794741453,
+  "cid": "poa-mainnet-1",
+  "sig": "4pku727NpmNZS3K9p8mWVz6JYKQaUdeGQFoyQqGGXbhbxijXfREZQsf78Fb77fAmHWnqMMQF1koNJfx9DD1PaCJY"
+}

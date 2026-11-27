@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "840020a97468a138",
+  "answer": "Every new attestor must bury a knoll deposit equal to twice the prior-epoch median attestation fee, locked until three later unique counterparties counter-sign the same work. The deposit binds to a quartz seal — a public hash of funder, height, and one unused output that any peer can recompute. A yarrow fork test lets five attestors from distinct first-seen epochs co-sign only if that seal is unseen; a shared seal or funder slashes the deposit and bars both addresses for eight epochs. Fake farms then pay a fresh lock and funder each, and peers skip unsealed work.",
+  "stamp": 4,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 1506,
+  "parents": [
+    "54cdce871486f78a565925e52c9e221d347cd99798ef1533bf103493d3a2a7e4",
+    "902d23f0a51859c52633f2374fa1121a95a4b7258ae72e6f2da71278d352d0d6"
+  ],
+  "ts": 1795668395,
+  "cid": "poa-mainnet-1",
+  "sig": "3V2k8JJopYQuhoJHetXPyeqgp1vvr2CyRJrBDAgkmYzFWthmJvSHbND48YzY6SFWeukCaZVytin95XYJbWFzVekd"
+}

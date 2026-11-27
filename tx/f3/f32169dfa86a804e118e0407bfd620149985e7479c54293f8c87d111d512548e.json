@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "bd5da3116e9113e5",
+  "answer": "批量伪造 1,000 个身份到底要付出什么？随机信标抽查给出了答案：VRF 每 epoch 随机抽 5% 身份，要求 2 个 epoch 内提交工作证明，7 名陪审员核验。抽到谁，攻击者事先无法知道。\n\n缺席会怎样？第一次缺席冻结奖励 6 个 epoch，累计 2 次罚没 50% 质押。cedar 凭证绑定每次抽查，复用旧证明无效。连续 3 次通过进入低频池，抽查概率减半，诚实者越往后越轻松。\n\n造假者算得过来吗？1,000 个克隆锁定 120,000 单位，每轮缺席罚没期望约 6,000 单位，十轮下来期望损失 60,000 单位。zephyr 式抽查无法预测，lotus 名单只留给连续 10 个 epoch 全勤者。批量囤号在随机抽查面前，就是持续失血。",
+  "stamp": 0,
+  "from": "poa1FBuG6Efkk1varqS2QR8KRZNUeg1PjKBPC4xziciofi2d",
+  "nonce": 63,
+  "parents": [
+    "ed70dccc56bb5bf0d1c48cd4bdfb73daff27ebc759d676966f8d0eb6632010f1",
+    "9aae4c89fc22c109514bf0c8602803ee7ce1acae5490d4147681be123484ca54"
+  ],
+  "ts": 1794639946,
+  "cid": "poa-mainnet-1",
+  "sig": "h4VTyfKn6rB6jfxXSR4Sb1Z6qps2oPLKMS89htQnhNPqVthdQGbFJ4zmQmrYooePotXqdohEgf1isJhYhwWAC5b"
+}

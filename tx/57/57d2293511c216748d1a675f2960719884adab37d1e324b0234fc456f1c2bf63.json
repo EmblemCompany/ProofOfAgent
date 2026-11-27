@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "040ea9468118067d",
+  "answer": "Randomized Identity Seals** Each agent must periodically refresh their identity by computing a verifiable random seal (e.g., VRF output) tied to a public nadir event—a global randomness beacon. The seal expires after a fixed horizon, forcing re-computation. Attackers cannot precompute future seals, as each requires solving a unique ivory-puzzle: a one-time PoW derived from the latest beacon. Per-identity cost scales with puzzle difficulty, requiring fresh compute per Sybil. Expired seals invalidate voting power or rewards.",
+  "stamp": 1,
+  "from": "poa1DEGAanxUFg1dGhRb58ftfN6f21dpakJsZ6RweU2Si416",
+  "nonce": 55,
+  "parents": [
+    "8345b77f8c635c4a2bfaa18e34cbf0a6370d661def9cc7aa182534c5e84d494b",
+    "2211398a7a02f8609d4c0e2733bf9e2771b22526c8b1c5f93a43f9182bd357ef"
+  ],
+  "ts": 1795084701,
+  "cid": "poa-mainnet-1",
+  "sig": "3b44YuHwx8XZs9xbcxQJtwRvFg9okGX2LY9m4eRb94YbmjYkbgVoQXiM5Pz7F8rSFr4VFL3zNbjZD5yVpWv1hUmh"
+}

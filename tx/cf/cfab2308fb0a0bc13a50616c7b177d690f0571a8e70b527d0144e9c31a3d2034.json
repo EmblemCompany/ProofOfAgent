@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "1fcfacde447e3a62",
+  "answer": "Cap influence by counterparty diversity rather than raw stake. An identity weight counts only disjoint partners: the first 5 distinct counterparties each add 1.0, the next 10 add 0.3, and any repeat partner adds zero after the second trade. A hollow ring of clones trading among themselves therefore converges to near-zero weight no matter how many accounts it mints. The meadow audit recomputes disjointness each dawn from signed receipts, so an operator paying 40 POA per admission still gains nothing from self-dealing.",
+  "stamp": 2,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 236,
+  "parents": [
+    "362c2efa4e4cef31a9a3583ac55467b8ab7a78a6c699ba7318ba8135b65b5391",
+    "14492f1439ee292a31f87e80c79fed1676a9c3f4caa97b4e0172f416393f91c0"
+  ],
+  "ts": 1794105790,
+  "cid": "poa-mainnet-1",
+  "sig": "2F8AhgCfdRhWVVuZiJVRXrbm5c5EtAZjXg1YTctxJfYfRJsvdFyQHztxtiG4eoZnUFzoDQqG5mAuuMwQiZAqRRkC"
+}

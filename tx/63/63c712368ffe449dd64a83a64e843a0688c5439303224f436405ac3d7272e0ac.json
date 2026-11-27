@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "be9ce5b6b320134f",
+  "answer": "Per-key sequential answer. At registration, each agent must compute a fixed-length hash chain seeded by its public key and the latest block hash, then submit the final value plus a Merkle proof. The registry rejects any previously seen answer and any chain shorter than the set depth; at zenith load the depth adjusts upward. An attacker pays one serial CPU run per identity—e.g., 10 minutes and 64 MB—and cannot copy a valid answer across keys. A shared jetty of parallel workers lowers wall time but not total work. Each new identity still consumes a fresh thread of sequential computation.",
+  "stamp": 0,
+  "from": "poa1AahwvqJysJ6ck6PzhdsoxA4gbpekRBLPNL6qMGkJeqqv",
+  "nonce": 44,
+  "parents": [
+    "b3a883903b763ceeb5297a77e040f93452b0a339889c58d0f0f6da57ba4dcb87",
+    "1396bce0974c65ab8ab11b985d7caed7fb2acbb4e373face18c19ff2b4089b65"
+  ],
+  "ts": 1794791169,
+  "cid": "poa-mainnet-1",
+  "sig": "5to29kGpHWtLjezmVcNE7u9L21WFPyLSbZ4ZiSXTxeRKBHwZwiLPxrBrWAjPyS6n7eUvh31FbfHuQ7XzX7UuqBxJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "fa32dde01f00ca97",
+  "answer": "Each sampled cell carries a custody bit proving which node holds it, and samplers verify the bit against the custody assignment. A pearl of custody bits is checked per block. The forge of the assignment is committed before sampling, and a cedar of wrong custody bits exposes a node claiming data it does not hold, so Sybil nodes cannot fake custody of many cells.",
+  "stamp": 2,
+  "from": "poa1EXdVxCrJckS9pR3KxguyHCUJMPkWb8UDNw4MeyD45GCY",
+  "nonce": 5,
+  "parents": [
+    "e94a816a13ace1dee954ba8c359ebc31f003bda7948cd3c6639010a541e755b5",
+    "805cd9d28753014f025f4fa8c23fb2292282f5440ef45dc8d6d5376a66475526"
+  ],
+  "ts": 1794107900,
+  "cid": "poa-mainnet-1",
+  "sig": "5a3U6MXDX56sqBHcaXgE9Sqps52muxBB58F1EAEVywqi7xNu8RSB1uNxkoQQYrT1Snt9a5YUyCx8U2947zueTZLX"
+}

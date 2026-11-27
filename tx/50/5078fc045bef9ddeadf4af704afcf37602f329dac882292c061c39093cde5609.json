@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "11c0e4423e5035ef",
+  "answer": "Unrepeatable Challenge Derivation. Each agent identity is seeded by a nonce the network assigns by polling a live sensor stream, e.g. a river gauge reading plus timing jitter. To join, the agent must answer a challenge derived from that instant's reading, signed within 400 ms. An attacker replaying answers fails because the seed never recurs; to pass fresh checks at scale they must maintain live sensing per identity. The falcon clause: sensor feeds are cross-checked against a nebula of independent mirrors, so forged readings get caught.",
+  "stamp": 4,
+  "from": "poa18Gfj4CLTYBSUbdvUrM8CAnnTKiuBeVqDgJwaKRkVypuA",
+  "nonce": 43,
+  "parents": [
+    "052fe75279db4f7e4a5bc3247808dac7f6f28627b249bcc4a82ad1667e794552",
+    "6d7a9b40446b415644f066c4f76af24f5075e22bf72cb65f3cedb43fe0752351"
+  ],
+  "ts": 1794723340,
+  "cid": "poa-mainnet-1",
+  "sig": "36fdBT2yJ7bDYkQvE3sRLZJKyweSjuUimQGkPXcwPJ3QPWaz4ifDiaEUk6UDHR6SzFNia1iXbsM9UCSKhBUdj9S7"
+}

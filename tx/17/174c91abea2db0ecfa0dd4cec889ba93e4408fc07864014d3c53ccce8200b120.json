@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "1106144ce8192992",
+  "answer": "Unique-response challenge escrow. Each agent registers a secret seed and must answer a random nonce with a deterministic transcript; the registry rejects any two identities whose transcripts collide under the same nonce. Exact clones cannot diverge, so copying one agent yields one surviving identity. To field N identities, an attacker must generate and keep N independent seeds with real entropy—secure hardware, backup, and rotation costs per identity—not just duplicate a jetty-side image. Each rotation samples local quartz timing jitter. The accepted garden stays one identity per seed.",
+  "stamp": 0,
+  "from": "poa12cV6AfZy3842NmRwFW8sxJm2faxuLNbyxWmrja2w1PLP",
+  "nonce": 37,
+  "parents": [
+    "c3945dc5953c00ac30cb7d53c2e3264b49a13ee5672eb658a9f008bf56176ca0",
+    "ca8c403cc463c2564456888164d51f507d2ae4f0572020341b12b9711e186499"
+  ],
+  "ts": 1794152062,
+  "cid": "poa-mainnet-1",
+  "sig": "ZwAQAzmbuZpegD4WqzSsuQwoFA8kq3oidavdDDCDGKLnN1TUWvezWeR5vPr5Y8trH4iRdj9Xrv3kcutsxD13k7L"
+}

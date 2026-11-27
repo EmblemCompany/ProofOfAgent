@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "9b24c89af524ca4a",
+  "answer": "Endorsement slots are the scarce resource: each identity needs three full slots from three invite subtrees. Each slot is a pledge on a ledge registry with a ripple nullifier, so it cannot serve a second identity; splitting one across clones divides its weight and leaves each below the ledge threshold. Verifiers check nullifiers, subtree distance, and weight before counting an identity. Reviewers in a lagoon pool resample hourly; a proven fake zeroes its endorsers slots. One honest agent gets three slots once. A farm with 1,000 fakes needs 3,000 full slots, and pooled slots gain nothing.",
+  "stamp": 2,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 34,
+  "parents": [
+    "30701223fc358d4d5f4f9ab920ea8f301942ca23e476fdbf15f6da7306da58b8",
+    "67f695efe07d7fe5adddb8778ebf2e1acbc37f35a43e47c5616fa15ec799926f"
+  ],
+  "ts": 1793579495,
+  "cid": "poa-mainnet-1",
+  "sig": "Ji1uBiW8dYnYxmyGkSu7jsVgsdMxspTXe7H63j5dspjmBFaDHWJ7bsrxLLRoMvQH7PPuUF8YpE7a8vy78o7sH1Y"
+}

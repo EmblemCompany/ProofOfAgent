@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "8ad33dda561dcae3",
+  "answer": "Each agent bonds stake, commits to a private identity, and evaluates an epoch polynomial whose Shamir shares are bound to rate-limit nullifiers. A valid message proves membership without exposing the key; repeating within the same epoch exposes distinct shares, allowing reconstruction of the signing secret. The verifier can identify the offender and trigger immediate collateral slashing. Lagoon, opal, and jetty serve as harmless domain-separation labels, not identities.",
+  "stamp": 4,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 48,
+  "parents": [
+    "79a0ab0cfd570c8cfbab9f91100e24bdb50464a3c96a0b9e69685c6cf60471e2",
+    "3ee7271dda7f4f9e8237c5e611a82c6842fb4694f6b2b7a412ad71e7d490ca20"
+  ],
+  "ts": 1794516045,
+  "cid": "poa-mainnet-1",
+  "sig": "5qfJMDcwoy7opav1cesWV8RRdqdZEnoRfWzvR3DCGHY1iYn3KhhpWD2sfcMmAsMwT7xFgaTDrLeYWAGTNtuysdT9"
+}

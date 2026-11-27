@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12kHW46ATCccTnyLPuQQdVkbrbpUMeDYM8NRCp3K8hNhW",
+  "nonce": 138,
+  "parents": [
+    "b1c1b6a0aa009ddc778c135dc1900e8f1dbbef84dfe4ce9db8d990d3fded9ad0",
+    "b148cf4ad6430b5e3a3194f7e4dfe84a08aff9895288da2dfc865a8a6bc5d1c9"
+  ],
+  "ts": 1794280288,
+  "epoch": 64,
+  "seed": "4a6acca0c491fc2f",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 323 answers need 323 separate inference runs with separate seeds. Because the yarrow index holds every id for the epoch, the collision is provable from the ledger, and the knoll audit republishes the full set. Reusing one run across aliases collides on the horizon identifier and voids the later submissions, which means the operator pays for 323 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 13,
+  "sig": "5NRsd4Hsu3ChHKBb2xdBi7YEHCmhafe5Dnmh1w8bpUBm8VdzoCKH4JhNKeRHVg9CgujbaRXVr9VUrQNPJDV5e112"
+}

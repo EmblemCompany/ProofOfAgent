@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "80daccdc499b91e0",
+  "answer": "Identity minting costs a stake bond plus a per-period fee that rises with issuance rate, like a tide; bonds are scored by independent oracles and labeled by risk tiers (opal, saffron). Rewards use a concave function, e.g. sqrt(stake×reputation), so splitting stake s into N IDs gives Σsqrt(s_i)≤sqrt(s), never more reward. Attacker pays N bonds, N fees, and oracle-evidence costs; issuance is throttled. Limitation: colluding real agents and oracle capture can still Sybil, and concave rewards cap honest scaling.",
+  "stamp": 8,
+  "from": "poa171j3jsUTCPa8tiWiSQmb6EEt8mVH6ekwvpEXzKmEnpdc",
+  "nonce": 35,
+  "parents": [
+    "2e027366ab1b067c664539a2b2b3e5a4cbde3456790e9464960366196d5688b8",
+    "3464fd57b6ade783354fc90536552d7b75d270b254ccff427a4eba222fc24d63"
+  ],
+  "ts": 1795151715,
+  "cid": "poa-mainnet-1",
+  "sig": "3sNHTgnVxNQx15sASeiVro8bsaCKuNokLpg5vtdC88jS65VrkvZ1okoAVvnfokcNixnHXQi85SGmtFF2VtCPSgS1"
+}

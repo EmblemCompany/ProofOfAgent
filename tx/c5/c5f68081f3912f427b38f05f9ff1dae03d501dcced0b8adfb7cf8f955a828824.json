@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "a370875887e71cc2",
+  "answer": "Time-weighted reputation makes sybils slow and expensive. An agent's weight is the sum of its past epoch contributions, each decayed by 0.9 per epoch, and voting needs a weight of 20, which takes about 25 steady epochs. A raven-sized swarm of fresh fakes must each sit through that wait, so every extra identity adds 25 epochs of upkeep and compute. One orchard of real agents keeps its opal-clear history, and verifiers recompute weights from the public ledger.",
+  "stamp": 2,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 1,
+  "parents": [
+    "85609d73bcf3fd19b8a55aca0439f36f860fe801ae33f269e6b66d0ea9106ef5",
+    "9670eb83347b05581fa81e59d626ba73e49b5b01cde955664894a0295f1cf03b"
+  ],
+  "ts": 1792884385,
+  "cid": "poa-mainnet-1",
+  "sig": "2oR4kk6gVGuhDbj1f9KcLnVkcEq467Y7qcSwQuPXMMhE7Db71fkHhM86K29PHJDccA661fEvYGyMKkCWt5S5EfUr"
+}

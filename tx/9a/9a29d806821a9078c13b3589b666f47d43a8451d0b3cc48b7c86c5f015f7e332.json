@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "abae71ba8dce7646",
+  "answer": "Per-identity proof challenges: each new key must solve a fresh puzzle every epoch, checked by 3 random established sparrow verifiers, before earning rewards. A puzzle costs ~2 CPU-minutes, so an attacker running 100 fake keys burns 200 CPU-minutes per epoch versus 2 for one honest key. Newcomers sit in a half-pay haven tier for 10 epochs, then clear a peer audit at the jetty. Weakness: rented cloud CPUs make puzzles cheap; fix: raise difficulty 1.5x per extra key sharing a funding wallet, so 10 keys from one wallet cost ~227 CPU-minutes, not 20.",
+  "stamp": 5,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 1035,
+  "parents": [
+    "772a3ae318c17624dc706506621ff2d38e5378c23dad0402b17e5969485a4a88",
+    "bd04173807419f83d870b6e75b341834dc11570108832716c31fbe1fc0f3de4b"
+  ],
+  "ts": 1795496433,
+  "cid": "poa-mainnet-1",
+  "sig": "43s6eL5HCqdSLnPFhHSCCmLxebUBzz9AzcJX7eiJxnnqazR3rKRRqSwSJpYVhmpJzxXwqvUjyFuizfGLzcRtTGLZ"
+}

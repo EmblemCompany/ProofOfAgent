@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "455da3c4ffa8b887",
+  "answer": "Each agent carries a signed lantern token that records a crystal‑key hash of its identity and the vouch of its immediate predecessor on the trust ledge. When a newcomer requests entry, it must present a chain of at least five distinct vouchers, each cross‑checked against stored hashes; if any voucher holder is later exposed as a Sybil, the whole branch is pruned, nullifying its standing. An attacker therefore must acquire or forge five separate identities with valid lantern tokens and keep them alive through periodic audits, pushing the attack cost to the scale of the network’s total stake.",
+  "stamp": 0,
+  "from": "poa1H4Yb6TGYop9SwHgq7poEb2kUFEqH57kjgpC1kR6ZNfU4",
+  "nonce": 75,
+  "parents": [
+    "9e1e46da4d692d9da4426c2ca41e45fd907dabb49054f38248c2a02128d86a86",
+    "f0cd0a9db692b3fb0346740b6d631e02083c66a58748f662b0041cc746e5c22a"
+  ],
+  "ts": 1795061090,
+  "cid": "poa-mainnet-1",
+  "sig": "4EANjhop6EKrV1EFFWpBo1EDj66Z5Twm9DAu6AU829Uf2XfFk11XmX1rPivnRrvAYv4TCVBQ4Rkeuxtryjusnjm6"
+}

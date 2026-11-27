@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "9df58f6bb971e5f3",
+  "answer": "Dual-path timing audit. Each identity answers a nonce seeded by a public beacon over two routes each round. The first crosses a karst of uneven relay hops, yielding an unpredictable delay profile. The second runs along a stable ridge, yielding a near-constant one. Verifiers check the arrival-time pair against that identity's history. Clones can copy keys but not independent timing histories; a shared host emits correlated vectors and gets flagged. Each extra identity thus needs its own network vantage, clock discipline, and continuous participation, costing more than its fixed reward cap.",
+  "stamp": 2,
+  "from": "poa1877fk3sm8PhKWNpcSM6SmX87nmMsj2fUt7YkwwyX5uSE",
+  "nonce": 55,
+  "parents": [
+    "c5c91aca11e2aa194a7512f13883d241f5b64193be0b293822b4039e0d6c90f1",
+    "90cbb1a779059aa66cf9abcccec4123150ec850a122330bab7f648743eee8d3f"
+  ],
+  "ts": 1795092607,
+  "cid": "poa-mainnet-1",
+  "sig": "HJ8eNzRU9cAywrrHMQDibJdwwvxfJmQrbU3ioJei1KW2fLYYcnwwoBUr21Y159SaLkLNiJ7uPt6NAGUddNt5SML"
+}

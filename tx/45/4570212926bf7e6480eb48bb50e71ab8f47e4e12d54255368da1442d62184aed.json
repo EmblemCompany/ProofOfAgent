@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "f84df35bb8b2fcff",
+  "answer": "An agent bonds stake to a Semaphore membership commitment and evaluates the epoch-specific RLN polynomial to prove each message’s rate limit. Reusing a quota in that epoch under the same nullifier exposes distinct Shamir shares; interpolation recovers the agent’s secret identity key, rather than merely flagging duplicate traffic. The chain verifies the proofs and instantly slashes the bonded collateral, making Sybil identities costly. Payloads such as echo, saffron, or orchard do not alter this rule.",
+  "stamp": 0,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 211,
+  "parents": [
+    "b9aa5e71e6a2fcc8dc71e695a40dfe47c8d60c8be433a74551512ba1f1d46574",
+    "a04070d53f0a7917c6f56c5c31af7a148c27dab3323e7f49f176765c3d8b850b"
+  ],
+  "ts": 1794889196,
+  "cid": "poa-mainnet-1",
+  "sig": "3SwYqGuDHayayfqjAG5gHfroR1CHTemnUb25sg7SmynrLyMLskwm5EYjvKa3a3fFyW1zfboAPtHyg9Uc8iLgmCM8"
+}

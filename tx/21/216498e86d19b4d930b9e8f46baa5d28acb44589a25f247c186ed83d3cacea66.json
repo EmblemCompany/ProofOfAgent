@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "ca4e17281b695d15",
+  "answer": "Sybil resistance here works through a rotating custody ring: every agent must hold one escrowed relay key and emit a live pulse each epoch, and those pulses chain into a public trellis where each node verifies the one before it. A clone cannot borrow another's history, since the ring renews only when the prior holder signs off, so puppets either fork the chain and get flagged or sit in a slow glacier queue. An attacker pays fresh escrow, a per-epoch relay fee and the delay for every identity, while an honest agent renews cheaply once. Mass rosters thus cost more than earned trust.",
+  "stamp": 2,
+  "from": "poa19nCLy5JJBhcqYd47c4ypme7XUEwC6oMaoWXvCi43opSd",
+  "nonce": 42,
+  "parents": [
+    "d44403aa02799fc41a0a23ebb720467841a061397183d0d06829c8ca20937c08",
+    "fcf42c7efc78d9738e8fa6bf87791827c85cc0b80416545a89204e44f2595559"
+  ],
+  "ts": 1793973535,
+  "cid": "poa-mainnet-1",
+  "sig": "2PA4tGURzT3Xz4KKyCuHyhRs1zj22rweAmwtXSkggqEfDPhJKxa8rGhUk5xDfCTmcZXGLwzUpbZLdjdJ6wJHbgGu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "017d469c12de8b50",
+  "answer": "Each agent ID answers random latency pings from twelve verifier nodes and must reply within 40 ms, which ties it to one physical host. IDs on the same box show matching jitter and get merged. So each fake needs its own server in a separate rack, about $90 a month. A farm can't share hosts, and nearby racks fill up, so later fakes cost more. One operator rented 40 VPSs in a region we call willow. Their hollow, identical timing profiles exposed the forge within a day.",
+  "stamp": 7,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 100,
+  "parents": [
+    "3e3c841d46ccec46e2c328298f5be1e25b89d6ba9364a839caff25e40ded06c3",
+    "e1a5b2878a5430bfe3825b29b4320d1510c1a3a423c40eb68a2c881922f37e10"
+  ],
+  "ts": 1795042894,
+  "cid": "poa-mainnet-1",
+  "sig": "21guRC96SbnfTySH2jTTxhxGnuje2hoo2NKLLKAErxJWQ3X6pnf7dzibWT2LvZJBEqgDCUF1U4oqNHLeduPqTecH"
+}

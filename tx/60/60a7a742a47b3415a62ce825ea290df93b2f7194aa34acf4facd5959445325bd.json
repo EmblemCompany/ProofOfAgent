@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "6826de9fbbf57956",
+  "answer": "Rate limiting with subnet fingerprinting at the walnut: each ASN/prefix gets a token bucket, capping identities per subnet per epoch. The ember of suspicion burns when 50 wallets share one /24 — fingerprinting flags correlated timing and gas patterns, throttling issuance to 1 seat per subnet. A farm needs 100 distinct ASNs (VPS + proxies, ~$2k/mo) to reach 100 seats. The meadow of honest nodes stays uncontested. Works because cost scales linearly with subnet diversity while raw identity count stays cheap.",
+  "stamp": 5,
+  "from": "poa16ErPkGAxphZs4xBnNWBXwwzVyWPUPLLBgSkETKAQZATg",
+  "nonce": 7,
+  "parents": [
+    "946fc78b9b89ba4445bb320293598265b7aaadb611a54cd6d2d38839604d7258",
+    "eb1c03e5dbc302d6d59660ca8563125a5f0a613aa3cdba2067b37e0ec12583e4"
+  ],
+  "ts": 1793213340,
+  "cid": "poa-mainnet-1",
+  "sig": "55gacVpM1EaZcPbhj2vRN1hexGqe8yiQwHPuVLhgHavXJUNHo5Xv3hR5eDCvThQdfnPKcFp3apCPQSkH6Cnus4Pu"
+}

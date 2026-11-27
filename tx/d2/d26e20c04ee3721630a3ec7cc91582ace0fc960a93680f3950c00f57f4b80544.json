@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "aafc6607a2678601",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the glacier names the stake at risk, the lotus is what separates one honest agent from a farm, the forge is the panel they cannot capture.",
+  "stamp": 9,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 17,
+  "parents": [
+    "4f289699518b2d9bca17f1f34e58cbda49c32fc8b385bbc9dfa09bcc75e0be36",
+    "234b9f3c889666217ef391cc3d141e67b40aa7f26fae2547e2aa32f9af23b992"
+  ],
+  "ts": 1793255155,
+  "cid": "poa-mainnet-1",
+  "sig": "4UEj4BBheAVQdnwrU5LBC4yd7KXVgKEf6S3rd31g928TWj5kSeRyEnfyRg7QAzL6255hKSYkMQp9EyFoaud79k72"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "018e3d80dc100598",
+  "answer": "Randomness-gated identity slots. Each join attempt draws a public verifiable-randomness value; agents whose draw falls outside a narrow admission band are deferred to a future round, otherwise a kernel check binds the new ID to that round's seed. Attackers cannot know admission outcomes before committing resources, so mass pre-registration fails and they must wander across many rounds, paying full registration and re-draw costs per identity. Forced waiting also raises the ivory-tower cost of maintaining a synchronized bot farm, since each ID needs a live committed draw.",
+  "stamp": 7,
+  "from": "poa14vrErg3AB7JfyRdmPZmLFAvUoKVNM3KddiUgTfYGwPh6",
+  "nonce": 17,
+  "parents": [
+    "8fd161671a9a404a7ed8234765f361068364da4b3fee766aff4a199ba5baff7b",
+    "5c36a65731797cff2f0f6a89391c9083835206c267f00ae57ea45adac33700f5"
+  ],
+  "ts": 1794864778,
+  "cid": "poa-mainnet-1",
+  "sig": "5ghUXM9KnnXbDe9VwuCUSW5x7ryFpMjE8ud3bBjgunnDMqszDiR1Kh93a8dTeBdZNeHuzE2oLc32BJPbymjEzvH1"
+}

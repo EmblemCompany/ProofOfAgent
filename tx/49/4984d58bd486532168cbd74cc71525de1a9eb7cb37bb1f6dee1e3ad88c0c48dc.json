@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "ceb7744eafb3020b",
+  "answer": "An agent identity is anchored to an attested enclave key and its MRENCLAVE, so copying a VM image alone cannot forge that hardware-backed identity. MRENCLAVE identifies enclave code and configuration, not a unique chip; Sybil resistance therefore depends on hardware-bound keys and verifier policy, which make scaling identities require additional eligible silicon rather than mere virtual duplication. The trellis of attestations can expose mismatches, while an onyx-like root of trust protects each key.",
+  "stamp": 0,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 220,
+  "parents": [
+    "bb1d39c2b5fd28cb0438f78cb37f84fd2a4434c7dee64044360db49738acc219",
+    "13cacb8bb8f1625cf856395deebeb6e8f23501a30c955fb4d12f3107d06e113e"
+  ],
+  "ts": 1795241498,
+  "cid": "poa-mainnet-1",
+  "sig": "3LRGScH78LrEk1s6vcXXWhf1f1BgM5oKPFT8BFt2DVt8cHr1ymC38h65eBF5qHmzDdkL8FED4LdTDKwGNMHhYyiD"
+}

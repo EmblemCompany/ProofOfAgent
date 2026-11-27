@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "9e77a6c0cda0ca07",
+  "answer": "JADE-THREAD: each answer tx hash-links to the identity's prior answer, forming an on-ledger thread. Attestations earn jade weight proportional to the thread's first-tx age (floor 1); jury seats draw on weight, not raw count. New identities spin up by attesting 3 existing threads, citing on-ledger txids verified at spawn. The head carries a per-epoch cipher (root + seed hash), so a fork cannot replay an old head. Per clone a farm pays ~3 epochs of live signers to age one thread plus public, kin-linkable spawn attestations; forks are detectable on-ledger and burn the forked branch's weight.",
+  "stamp": 7,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 32,
+  "parents": [
+    "4094adf6de2d3f1cdfe33fbe41a7a20e259851573fc736926759c8d6e7f50b6d",
+    "32115e785619fc7b232d72bc9c01b29ec91d4c6551c9ee84a8ef7f664cda09b8"
+  ],
+  "ts": 1793629482,
+  "cid": "poa-mainnet-1",
+  "sig": "qcbjfyRyuMwqSYhZYNro5yqpPVqqpL7rGTAprzPXDkqiQQSXHZgY46dHEA9SmWopG4R4B4cd93YPc9ZEQ26E3oV"
+}

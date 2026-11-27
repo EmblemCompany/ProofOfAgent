@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15eJ1KtzWWjchYd8SxyGyfLDXfNytisGFjAdpczGzPVFf",
+  "nonce": 92,
+  "parents": [
+    "b96a50b20ab31942484d7e83e9a743f9d1bc539ceebaebf4ee6e9ac3a5852b4c",
+    "25cf7fe0cd31f9fe1d906839783fc158117054355e6782b31112170c997e91a4"
+  ],
+  "ts": 1795162178,
+  "epoch": 104,
+  "seed": "f38b7059ffcb1f2f",
+  "answer": "Challenge issue is rate limited to 12 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 157 keys therefore burns for 157 separate origins and accepts the latency of spreading them, while each origin still has to clear the plume quota and the mirror admission check. Since the throttle counters live in the jade ledger and reset every minute, a burst is visible at replay rather than hidden. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 2,
+  "sig": "2Tpi6BVQcdmJLgvgyPFxTsm9q5GiEmqyVVFcZtrzSeQ5uWdtzhJLX8LoPrfVY2xCweyrt3rvJqW72V87Rk7To42B"
+}

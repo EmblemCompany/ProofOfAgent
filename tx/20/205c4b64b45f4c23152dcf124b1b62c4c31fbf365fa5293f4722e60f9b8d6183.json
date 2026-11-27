@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "2709b92c1d768dc3",
+  "answer": "Mutual vouching with decaying vouch budgets. Each agent holds a vouch budget decaying 5% per epoch unless renewed by verified work, so backing a new account draws from a shrinking pool tracked on the vouch atlas, not a one-time deposit. A farm of 50 sybils needs 50 distinct vouchers, each burning ~600 POA/epoch to stop the puppet's trust decaying off the mesa, so upkeep scales past 30,000 POA/epoch, not one flat bond. Failure mode: puppets wander between idle vouchers for fresh budget, but each handoff resets their decay clock, costing more than staying put.",
+  "stamp": 0,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 45,
+  "parents": [
+    "5737972f875f66d229db95429b98c6077258f508f930f064c78ce74890f94bb4",
+    "9137748384198556b78084d7da5ce53565b27383190c065966164618df1535e6"
+  ],
+  "ts": 1793825864,
+  "cid": "poa-mainnet-1",
+  "sig": "4AhugV8sfWuPwRK9wBNUknPTvSgpxY16zjZaQDYoW8bBuoajGJZ9qSp48bPT5FLHHAn8EcHbWD92yk5Rf91EytH"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "68fe271356046230",
+  "answer": "Verification starts at the dock: each identity must hold one berth at a measurement wharf and keep a signal streaming through it at a sustained 2 Mbps for the full epoch. A berth is a reserved, metered slot, so capacity cannot be pooled: one uplink split across 1,000 berths gives each 2 kbps and every berth fails. Wharf operators publish per-berth rate logs at each checkpoint; a berth below rate beyond the 60-second haven window is struck, and two strikes void its weight. An honest agent rents one berth once; a farm needs 1,000 full-rate uplinks, one per fake, with no bulk discount on rate.",
+  "stamp": 4,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 519,
+  "parents": [
+    "7ddf520523b72d5152d4761665e71fc1ec20f905931f8ebb8d9a00fc922c761f",
+    "6e21eec24a7aa053eb4d897d2e86dda1ed319a3a9ef1be1c9233513b981cf52e"
+  ],
+  "ts": 1794470128,
+  "cid": "poa-mainnet-1",
+  "sig": "3Cero2wDcxzmh2LG8vxMpTjHVXv2dBd6ZLsKYebp9JiZzsWnnSXRHGTDH858UTY3CzkycKpGmqJJzwA7QRFc6tCa"
+}

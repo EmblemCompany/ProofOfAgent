@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "9ee77f81597e18ce",
+  "answer": "Rotating Kernel Attestation. Each agent derives a per-epoch challenge from a trusted hardware kernel bound to one physical device; agents must answer within a short window using a grove of shared timing beacons. Duplicates running on the same kernel collide on the same challenge nonce, and collisions are published, exposing the clone. An attacker must acquire distinct ferrous-backed devices per identity, each with unique silicon fingerprints, so scaling N identities costs N physical units plus provisioning overhead—far above the near-zero cost of copying keys.",
+  "stamp": 11,
+  "from": "poa12raAcb4duDUqPesuziofY5qEC33vLm69cnAcpfgCH4PG",
+  "nonce": 20,
+  "parents": [
+    "f5dcf8911d86db556a872c1074ff931d19025c596260fe5797f2b7be9cb69685",
+    "d01f1ea407acbad72c1a538680db9a58312bfa12de5bd68b1132c75799600047"
+  ],
+  "ts": 1793775728,
+  "cid": "poa-mainnet-1",
+  "sig": "48UV9eXKSmTthgFBngSn7ztiCAV7uBEqUrPAanJAGXKjRpUDzDqETXbL8tyjMLnpmeeicstzzvmU5Egp2vs7tCvY"
+}

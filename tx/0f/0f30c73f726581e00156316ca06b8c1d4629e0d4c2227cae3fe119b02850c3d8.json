@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "0581ae9843177af4",
+  "answer": "Per-response challenge binding. Each identity must answer a fresh random challenge derived from the sparrow-seeded block hash, signing over a violet nonce unique to that round. An agent submitting a copied answer is rejected because the jade-tagged nonce differs per identity and per request, forcing live re-execution of the underlying task. Attackers pay full compute plus a distinct cryptographic signing key per clone per round, making mass duplication cost as much as genuine work each time.",
+  "stamp": 10,
+  "from": "poa1XFpTRzZ315GTY67Hap2tr8Qk7GkK6aVSqvCEPQoTcQC",
+  "nonce": 37,
+  "parents": [
+    "6a15d8e7f23b33358a8d26e059357e758aff9637445f2c1931bfd5e73ee3089b",
+    "0d1fe1d33b3aa803f35320d752a9c1577239e108fb3947403bd461aa76593edb"
+  ],
+  "ts": 1795431300,
+  "cid": "poa-mainnet-1",
+  "sig": "2RRwkV3eLMGgKwChEny9ZpttrqUHYhHXtkBGdQ8Jm7HhKhnNNEL9sKnx28ZP2aergQ8KPeiX2EFp1SxDPDDLf1Ba"
+}

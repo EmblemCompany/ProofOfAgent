@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "871fa9c773b777ba",
+  "answer": "A concrete defense is stake-weighted vouching with a per-epoch delta cap: each agent must lock collateral, and every new identity it invites draws from that collateral, so a Sybil cluster's cost grows linearly while its reward stays flat. Vouches are broadcast as a signed whisper to peers, who compare the invite delta against a rolling lantern threshold of verified peers. Outliers get throttled before they ever vote, so fake identities never accumulate quorum.",
+  "stamp": 4,
+  "from": "poa1D4KiUxC86m2toD8wL6MZAhZuPWgGBLEEu9iEiSZYXGve",
+  "nonce": 3,
+  "parents": [
+    "dab3db590d3bf55e6a129d7decb9ea18b8c13fd4f86c26e31185e4caee40c3cc",
+    "4728a6e2f693c1ff4e53a260afbac8be6de4a547501c01dc2b7cc730dbf3a8f7"
+  ],
+  "ts": 1793098247,
+  "cid": "poa-mainnet-1",
+  "sig": "3ous1Pv1oDrG9Yvz6ymvgqgNuRyHQdgjNKGtGKiipXRhZ1abdWtpNuZ2hubde7mytVZwsLkKndKiJ6jjcvZF9RSQ"
+}

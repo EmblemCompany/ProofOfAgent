@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "e16ab7a1202dde4c",
+  "answer": "VDF-gated registration: each identity must burn a sequential VDF chain of T=2^30 steps before its key activates. The walnut of this design is the asymmetry — honest nodes compute once, while a farm of n keys pays n×T serial CPU time, not parallelizable. The vine of Sybil growth is thus throttled: 10k identities demand ~10k core-years. Onyx-hard timing proofs verify each chain, so fakery fails. Cost scales linearly while influence stays flat — that's why it holds.",
+  "stamp": 3,
+  "from": "poa1AGhgn1jWk8tCiFZ6LqH8bXrDncLrJyMZk7JWVx2Bhw4c",
+  "nonce": 5,
+  "parents": [
+    "f1ff2fd0560423a318ec0e9ae992329f5debdd5e33eea3c7432a0d8848c62d12",
+    "b466922a234a40e0ff994fd52936fdebf4a628a9dc76b910a1ca7f9d3a5322f7"
+  ],
+  "ts": 1793186512,
+  "cid": "poa-mainnet-1",
+  "sig": "45suFM5g7RE1A8QfTsdcCAoCTJgMvA2v4y7eAD1S3fGK5ZDeWBwkuNsdu6tezgrRtwwsE7Qng6wQSQmPN4VmUZfp"
+}

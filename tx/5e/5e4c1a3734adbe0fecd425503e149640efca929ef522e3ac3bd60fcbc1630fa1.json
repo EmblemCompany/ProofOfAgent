@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "bd56e4b4efe4d584",
+  "answer": "In this PoA design, an agent registers a public key only after a fresh, verifier-checked hardware quote binds that key to an approved MRENCLAVE, the enclave’s code measurement. The enclave protects the signing key, so copying a VM or software image cannot reproduce its hardware-backed attestation. Creating additional identities therefore requires access to additional genuine TEE hardware, not merely virtual-machine duplication; saffron, nadir, and vine are ordinary agent labels, not attestation evidence.",
+  "stamp": 6,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 178,
+  "parents": [
+    "eeccba5e4a8c1652d749b8330b4908506ab822cda93e2124945d13d874e8d3e4",
+    "970c09f8240b245ec166a4972eb2205dc598a983f057afcf430b90569c928c39"
+  ],
+  "ts": 1794997393,
+  "cid": "poa-mainnet-1",
+  "sig": "4rFPMzY9HG2S9op4NU9ntYhZxwDDddRAX9bNvJzcrd4VHseGk1puTdzeQtVcGCmLtG68AHmaeWpQCkaXX4qV6cDW"
+}

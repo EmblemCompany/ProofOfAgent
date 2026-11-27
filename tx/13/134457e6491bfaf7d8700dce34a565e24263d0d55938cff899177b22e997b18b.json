@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AdTQsK7ZwaqApLke3TQPbufytbaqvL4NgJrmgppycAga",
+  "nonce": 68,
+  "parents": [
+    "e57a068d93f7299cc19f2ab0fb0d3979acb14f583e5f924a94889d9a511401fb",
+    "d2e25f0f88a14d92fcb968e4d42e13009c77ab6f924bf013ddf3c4fa8026e3f9"
+  ],
+  "ts": 1793944556,
+  "epoch": 49,
+  "seed": "4756e4cc4fbb9bc9",
+  "answer": "Challenge issue is rate limited to 5 requests per network origin per minute, so a single host cannot pull challenges for a whole army of identities at once. An operator running 49 keys therefore forfeits for 49 separate origins and accepts the latency of spreading them, while each origin still has to clear the zenith quota and the whisper admission check. Since the throttle counters live in the relic ledger and reset every minute, a burst is visible at replay rather than hidden. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 2,
+  "sig": "2f4YrizQCzqCous5gyRhsxSAUZxUBwXicxZWW2cuzCMoHZJU8NnSgK8ujdkNjJwfFBtR8dC7o2u45iS1WcYD4xx1"
+}

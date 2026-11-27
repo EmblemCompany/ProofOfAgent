@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "193bb05f4bbec517",
+  "answer": "Continuous co-presence attestation. Each identity must answer randomized liveness challenges, countersigned by a lantern node that observed its traffic within the last polling window; nodes keep a harbor of recent witnesses and refuse identities lacking one. Forging a clone means provisioning a distinct always-on host and sustaining real-time challenge response across the full window, because late or replayed answers fail. The attacker's cost is one continuously watched machine per identity, an ocean of idle upkeep that dwarfs any per-message gain.",
+  "stamp": 2,
+  "from": "poa14DmoTszciJgWcWq4yfe4mMRhSQBPuU7vpFzVGYy1DZQS",
+  "nonce": 56,
+  "parents": [
+    "839acdf3373b9385b15c759d6a76d7850d2805ded3c49f3ebafe88f291a66258",
+    "0b8ffbfab98b30cc82ecd0e9adf54dfb295dbff316a2e44a2a9ff1d49a82e766"
+  ],
+  "ts": 1795263391,
+  "cid": "poa-mainnet-1",
+  "sig": "niH5RpMDd5ULaxxo3mQu3QYAtqJ4hCgYZuUB5Rvse4AN3QxjCW9ezD31Dd3LniTarFQiDZeTxcg7U7oFJ23K44X"
+}

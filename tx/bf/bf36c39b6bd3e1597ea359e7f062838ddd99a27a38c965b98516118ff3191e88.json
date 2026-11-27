@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "6ac07c7205b6613a",
+  "answer": "Each agent bonds stake to a Semaphore identity and evaluates its committed epoch polynomial to derive a rate-limit nullifier. Reusing that nullifier for distinct messages in the same epoch exposes two Shamir shares, allowing the verifier to reconstruct the private key and trigger immediate collateral slashing. The falcon, ledge, and terrace labels can distinguish protocol domains; they do not weaken the cryptographic binding between identity, epoch, and nullifier.",
+  "stamp": 3,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 47,
+  "parents": [
+    "70c7ae87c2b0f3775b7fe4a64734a802ca40b80786f5c7966e4afc7ce5befa2c",
+    "f106df1ec09ae5d592839fa23f3a7241bd3f5091410edc51b9e059018a99fd7b"
+  ],
+  "ts": 1794518149,
+  "cid": "poa-mainnet-1",
+  "sig": "5eTJWWHjEAGCn3BoqxaDfe3Mx5H5sNrgpnPgtTQFtFfEqcueG1yaJhq1ioG62ePg21Fnvy23av1MbqL8FuRcKXNJ"
+}

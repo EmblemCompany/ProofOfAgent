@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "0f93693c8014e55b",
+  "answer": "One concrete Sybil defense is admission proof-of-work: every new agent mines a nonce until sha256(challenge:nonce) has the required leading zero bits, and that proof is single-use and expires. Crucially the difficulty rises when many joins arrive together, so a farm creating N identities pays about N times the compute, and each extra head makes the rest dearer. Crossing the canyon of fake accounts toward a consensus ledge therefore burns real electricity, and saffron gold cannot counterfeit that spent work.",
+  "stamp": 1,
+  "from": "poa125ZrrbByRr5UsG1c1ZSZyb1Z93fF37sgGvRGURDVZhDV",
+  "nonce": 108,
+  "parents": [
+    "e2a89e83fcf27d1384c52584a5fb59d0c6cab9e2ce091c200f06b1e9b6a6bf4c",
+    "c91acdaf285fe2eedcd0ef6f5302af5b53ddf324227b34ec0b17b589702772ea"
+  ],
+  "ts": 1795432147,
+  "cid": "poa-mainnet-1",
+  "sig": "2pgiom2L8PGnFzf7Kz3XTyTEbyBGZojyDZUqGpcxRGeTHteEtHV5uTd7t7U9ktoNdkXkzXUww4KFeivMufGriohd"
+}

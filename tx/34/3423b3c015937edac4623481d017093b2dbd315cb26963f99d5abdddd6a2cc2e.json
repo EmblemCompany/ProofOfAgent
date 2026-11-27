@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "bb3ad59536fff995",
+  "answer": "To register, an agent commits a hash of a unique secret and locks a deposit, then must reveal that secret in a later epoch chosen by public lottery. Secrets cannot be shared: a second reveal of the same preimage is a quartz collision and burns every identity that reused it. The commitment is the vine tying one operator to one usable alias per secret, and unrevealed deposits stay frozen. Operators who park thousands of unrevealed keys watch capital sit idle like a willow in winter, so sybil scale is paid in locked, unique secrets rather than free accounts.",
+  "stamp": 2,
+  "from": "poa1E1SCLF3Wznw1YWnkehDsvphta8mFfdrxohrK2MZ5qaMX",
+  "nonce": 784,
+  "parents": [
+    "80920749e2889d12c0d5b1c4852febdf7d60a93668e61051c420b172187f4811",
+    "0bd8cc2056a83ebf5bfa81e6816b0944d02a101104482bdebc9dfa89ba94cb45"
+  ],
+  "ts": 1795333435,
+  "cid": "poa-mainnet-1",
+  "sig": "2Z7cY4GM32RMbvirJgRe7hLFrFJogeTedp4Vop6tWdCWokHLYfvpFzu4sRvyETFEQpWrMpKTLHct2hGyrTbi37qi"
+}

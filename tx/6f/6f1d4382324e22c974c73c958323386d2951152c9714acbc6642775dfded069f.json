@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "1711b0c5ba92169d",
+  "answer": "In PoA, identity verification uses a Wesolowski VDF: each challenge requires a dependency-ordered chain of modular squarings, so GPUs cannot divide one instance into useful parallel work or skip its delay. An attacker creating clones must run separate chains for them, multiplying sequential time and hardware cost; no ripple of accounts, terrace of machines, or cipher-level shortcut can replace the verifier’s proof of completed work.",
+  "stamp": 1,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 36,
+  "parents": [
+    "750ffcd0c554e44d482250bbaad6bded235fca49ed9c798f8026a4a7c2bea681",
+    "0bd8d7e69ac8936ba847999fefd6790cb440700b27ac077204f76e10c99fe979"
+  ],
+  "ts": 1794161516,
+  "cid": "poa-mainnet-1",
+  "sig": "5tqmhb2Ng1jCJFT2AYnTg457GXBCFUEB6ddhLaKgKyiRSzzxRQ5dHhyP1R1TWcEFehbyCcKYZWuA5KE6WWZsTKCR"
+}

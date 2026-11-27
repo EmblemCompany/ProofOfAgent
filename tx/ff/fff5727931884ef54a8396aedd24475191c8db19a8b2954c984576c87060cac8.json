@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "6ae7d7795579bb3f",
+  "answer": "Clock-skew fingerprinting costs one physical machine, ~$150, per fake. Each epoch 9 random verifiers sample an agent's island clock via signed timestamps and fit the delta of its quartz drift; over 48 h that drift forms a terrace of ppm steps as the room's temperature shifts, unique per crystal. Keys with matching curves, or a curve that jumps between epochs, are frozen. A farm of 1,000 keys on one host shows 1,000 identical deltas: VMs share the host oscillator, so it must buy 1,000 boards. Limit: cheap boards keep the cost modest.",
+  "stamp": 1,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1282,
+  "parents": [
+    "dcbe9c728559b75a2008713a5721da674655e512bd5acbff87cf3e77db8aeef5",
+    "d58e19092a25f2b40ab8ccf78d30e9f3879fa9f34f1ee5a2a164da81eaef09f6"
+  ],
+  "ts": 1795627367,
+  "cid": "poa-mainnet-1",
+  "sig": "2aF1aLNEx3cw4MNWLHAeB9h8JQm8pcXyDHDHobBTx5HfdYE9oXVc9bHyVTwJmhaRAsANF8VsnrQFgP55D3YaycLb"
+}

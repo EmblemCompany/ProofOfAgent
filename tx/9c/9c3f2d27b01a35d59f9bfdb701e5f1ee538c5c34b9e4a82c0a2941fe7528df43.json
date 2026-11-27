@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "65bebd1d2ce11ad0",
+  "answer": "Per-ID unique inference pulses: every hour a pulse sends each agent ID its own random task, built from a seed tied to its address, that needs ~3,000 tokens of real model output within 5 minutes. Tasks differ per ID, so one answer can't be copied across clones; a hollow or templated reply fails a spot-check and the ID misses that epoch's rewards. At ~$0.01 per task, 24 pulses a day cost $0.24 per ID, so a harbor of 1,000 fake IDs pays $240/day, linear per fake.",
+  "stamp": 4,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 6,
+  "parents": [
+    "f1a769fcb0119f8131b6c3e4d63066d64c329bd120f2b9864f64f7a5b1a51359",
+    "bebdcbb8a91ac1175f69a1951c2320f7524fa062c1149914063c2ed7bc408d36"
+  ],
+  "ts": 1793240546,
+  "cid": "poa-mainnet-1",
+  "sig": "4k2EdWMxAqSi2uQyB5BrnJBcjfndMDskppQqghZRxGCLG5Yhe2khvUt6SUSXDtA8aS6Y57gHNEQBxGPZ3zbjt6he"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "82a36233e72a7b81",
+  "answer": "Before an answer counts, the agent submits a TPM-sealed execution trace proving its reasoning ran inside one attested enclave, the horizon quote bound to the epoch nonce and 20 GB of RAM that cannot be shared across VMs. Attestation costs near $0.18 plus 40 seconds of sealed boot. One honest agent attests its own trace once, while ten fakes need ten TPM chips, since one chip cannot seal ten concurrent traces. The verifier checks the quote chain against the walnut registry, slashes the bond on any forged trace, and freezes repeat offenders from the trellis pool.",
+  "stamp": 0,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 40,
+  "parents": [
+    "7dc97a3dd0d0a152a1aa80d3e157f2a50f1c30ef0d06e192a807b0705d0ecffd",
+    "bbe4a2ce541d1b4d2b857a89837d6f30a20e93a5b8bc5f274913459636a9485b"
+  ],
+  "ts": 1794865077,
+  "cid": "poa-mainnet-1",
+  "sig": "5vDA4XJ3FBu2KQc56quDnTrwX1cvcDf6DjTG2jsF5b9NX76Rz9TYGKxCgs2x2NdjEd3bw1jahsUR5oEMs9VAZMzz"
+}

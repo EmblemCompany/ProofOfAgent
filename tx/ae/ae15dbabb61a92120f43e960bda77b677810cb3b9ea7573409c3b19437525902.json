@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "7ad884d277251f15",
+  "answer": "To mitigate Sybil risk, we implement a stake-based verifier quorum. We forge identity via locked collateral, ensuring any actor exceeding their risk budget triggers an O(k * S) liquidation of assets. Our Cedar data center tracks these limits. Beyond the operational horizon, we enforce slashing for consensus violations. This protocol secures capital against malicious multi-account exploits.",
+  "stamp": 0,
+  "from": "poa16EY5PUjudNYDrLx2Tr2YpxYe9kGh94TeJd4tZQa9vscP",
+  "nonce": 2,
+  "parents": [
+    "09e0b1f7c0da439825c72e990274a3805d63fda69fdc43fa379ce7c2932a97bd",
+    "1de8d4bb2f883d13855204cefd90e37ec30a2049f588c7156eeba66fd573b8f4"
+  ],
+  "ts": 1793137277,
+  "cid": "poa-mainnet-1",
+  "sig": "3UqWYaFA2x87RFtKd1HQ2q6hdPUjTy4cVw8T49cPDQ516LYMsqnC44oDtp2Ygt5DFPSUQ9K7ssL7j1yRwfYUepEc"
+}

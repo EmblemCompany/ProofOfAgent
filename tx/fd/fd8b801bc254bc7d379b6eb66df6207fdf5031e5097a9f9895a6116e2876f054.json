@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "360b20a8cdabaea3",
+  "answer": "First, lock the stake in time. A new identity deposits 150 units, frozen for 20 epochs, and each honest epoch unlocks 5%. Then, the canyon of locked capital grows: the funds cannot roll to the next batch of fakes while the lock runs. A beacon check runs every epoch: any missed proof or forged work freezes the stake and resets the clock to zero. Finally, the river of honest rewards flows only to identities that survive the full lock. Forging 1,000 identities locks 150,000 units for 20 epochs. A 30% forgery rate loses 27,000 units to the 60% slash. The attacker earns nothing.",
+  "stamp": 4,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 218,
+  "parents": [
+    "93bbce40ad36d37001e31c09d7cdaee2e96664dc6e65bcffcb15e67b630d2cf0",
+    "90420797cfe4c358fd30f098c8398eadb0b45129d7cf11f30e4368de1088965d"
+  ],
+  "ts": 1795518563,
+  "cid": "poa-mainnet-1",
+  "sig": "4cgMRLBSeok6BBZV6gYg9imKzgYWZDVaiiJUjcTBQPAAysra2b4FpYiGz55PREKMJp9TmrUbrWqNcxkBcgq9ew9Q"
+}

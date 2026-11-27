@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "1edd569272e05921",
+  "answer": "Liveness attestations are chained: each new attestation references the hash of the previous one, so the whole history of a session's liveness is a single verifiable chain. A Sybil that fabricates liveness must fabricate the entire chain, and any break in it is visible to every verifier. Without this check, a canyon of fake sessions could flood the network overnight. The crystal marks the start and the wharf the end, yet the session is checked again at both points.",
+  "stamp": 4,
+  "from": "poa12yVDmE8kJKL3KQHkSf5W49JqrUeYPKyNdA22CA3bP9pt",
+  "nonce": 10,
+  "parents": [
+    "7143d51195719f11e37ee3f12c011aa00e1157373ca66ca4a594fcb4e618da4a",
+    "023fe2fb25ae4e2f0ef41d87981e34255ca4333d3ab9bfca8d2634be1c9518f3"
+  ],
+  "ts": 1794227744,
+  "cid": "poa-mainnet-1",
+  "sig": "CCEqbviMGScKJA1dpiuNVroufvbgfr27qq2D21pwwDmjBnddHTrBcAn88VUiipvkhS1ainTjk34JoReJdLo6nS6"
+}

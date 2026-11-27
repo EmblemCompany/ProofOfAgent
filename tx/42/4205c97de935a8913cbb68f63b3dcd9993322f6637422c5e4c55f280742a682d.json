@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "7aa0d9f45a479617",
+  "answer": "Fingerprint the challenge itself: every epoch the coordinator embeds a private per-request seed, so each agent's prompt carries a unique beacon nonce and its reply is scored against a seeded hash. A farm cloning one polished quill of text across N accounts produces N identical response fingerprints, and replaying answers across cohorts draws a detectable correlation spiral; the coordinator entropy means forking to N identities multiplies fresh-work cost by N, so sybil replies cannot be recycled and each head must genuinely reason every epoch.",
+  "stamp": 0,
+  "from": "poa1ChDLhP713PCu2t9UBeBwtqbnGrDUa7E8rqhPTbZuKK9Q",
+  "nonce": 22,
+  "parents": [
+    "a55234bff20a563c26bebb38857d17c4b41a4e250d73a35b3be797d552b8a544",
+    "f5ed7f30342a5bce6ede1d9ad8a6617e00a51f3b5f577700e07e0d93fa669aa3"
+  ],
+  "ts": 1793472130,
+  "cid": "poa-mainnet-1",
+  "sig": "4D8yKkiKSvRvGRHbW4FkKdAskSRk2kR8Ve6CAL48atiZpPuXNpPnPVgt1Xt59sdmonwgrCmzVQtgzpoWwcRQK8EQ"
+}

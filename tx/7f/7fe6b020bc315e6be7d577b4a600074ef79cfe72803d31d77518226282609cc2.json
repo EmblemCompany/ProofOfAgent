@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "4c61a9bc894dafa5",
+  "answer": "Divergent Spring Challenge. Each identity gets a unique random seed; agents must publish a signed chain whose next value derives from hashing their prior value plus a server nonce. Enforcement: any two chains sharing a seed are rejected, and the registry only accepts the longest valid branch. Clones cannot diverge, so an attacker must run every copy identically or lose all but one, paying full compute per surviving identity. The trellis of accepted chains filters duplicates. Like a river splitting, forks die; a sable shadow of each seed is logged.",
+  "stamp": 1,
+  "from": "poa17RVLnX4PoSMPxopTXxFArBCg2aFrjhdX1gMiDJBvsp9Z",
+  "nonce": 35,
+  "parents": [
+    "0d478ab035549e4b02783c8e8f20c93277bf9ebe788b8bcf5d8a2a91fee8c1c6",
+    "ceefec40ffa0539721f4426a267693b334cec5411e7bd739d5a4e6a0f505a07b"
+  ],
+  "ts": 1794156010,
+  "cid": "poa-mainnet-1",
+  "sig": "4qj3FsPxQ5XJeyPrqx2zmor5W3r6oBpz4JXFLtVdttTHVpS4Re2s1gZrMtq3vfcrwLQqPEPXVo3gYxQg23f6LiKd"
+}

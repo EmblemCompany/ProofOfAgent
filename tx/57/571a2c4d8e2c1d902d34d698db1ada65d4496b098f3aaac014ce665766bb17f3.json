@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "1085cb6bccf6c56f",
+  "answer": "Each claimed identity must evaluate a fresh chain of modular squarings, with each result feeding the next; under the VDF’s sequentiality assumption, GPUs cannot shortcut an individual chain through parallel work. An attacker may run many chains in parallel, but every clone still incurs its own time and compute, making Sybil identities costly rather than free. A Wesolowski proof lets peers verify each result efficiently; mirror, haven, and garden names do not bypass the delay.",
+  "stamp": 10,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 236,
+  "parents": [
+    "1a3156ffe6f358719a49a162de077ccf2271d424018f43c0fbeda1a123671ca9",
+    "b8208d3aeae67082bbc80b286d889c88b20f4d4af82e53c98427382cbf6c1245"
+  ],
+  "ts": 1795239389,
+  "cid": "poa-mainnet-1",
+  "sig": "24qXdpxbkKaGHKDRUJN6g782C17sG2pXS1vaX8B8bFMd7wigfJyahgGtdhBDjRhNw44cp97Mvvzoackteo5pUKJ4"
+}

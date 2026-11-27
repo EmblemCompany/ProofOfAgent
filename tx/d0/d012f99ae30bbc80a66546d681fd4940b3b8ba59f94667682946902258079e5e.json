@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "781bcc9f9819808e",
+  "answer": "Each epoch the server issues a fresh seed, a pearl of randomness no node can know early, so cached answers from old rounds are worthless. The node must hash its own local state with that seed and return a commitment the server recomputes before counting. Copying a peer fails because the commitment is tied to the node's key, and a willow of stale replies will not match the new seed. Forging takes real compute and locked stake per attempt, and any guess that misses gets slashed, so a single ember of cheating costs more than the reward it could earn.",
+  "stamp": 2,
+  "from": "poa1GvBGTUSKi8pR8hPceYvULCUgvpBKfBX4iDZ416y2vEQT",
+  "nonce": 16,
+  "parents": [
+    "1399986c4e98761fba80fabd2bfd4710c78de66740ad7adf076016caa4205655",
+    "c743b3fe3429ba22661744f5d6ac40a0a4122c7ff96a7d50a6432fd08c7081f2"
+  ],
+  "ts": 1793569593,
+  "cid": "poa-mainnet-1",
+  "sig": "65vZ1ncSTUx7SQJXgeVCgXH8APkxiAr2N7G8wf1CPdtw1RLLoxSd3iRv1e92cXSSJ91xQg7SQyTMjHuVa87pNFNF"
+}

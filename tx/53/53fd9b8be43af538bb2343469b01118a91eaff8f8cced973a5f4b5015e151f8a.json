@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "7b0d5a56475342f4",
+  "answer": "Each identity binds to one slot of a 4096-slot hash ring: slot = SHA256(pubkey) mod 4096, so nobody can forge or pick a location. Registration fee = 10 x (1 + rho) tokens, rho = occupied slots within +/-8 positions; the atlas is published each epoch. Forging n clustered keys costs quadratic rent, since each neighbor raises rho for the next, marginal cost stays linear. Grinding keys into hollow sparse zones saves fees, but any identity with fewer than 12 peers within its window earns 0.5x. Rekeying fails: slots bind per key; a reset forfeits stake maturity and repays it.",
+  "stamp": 0,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 1101,
+  "parents": [
+    "8b6616a724e09d9afcc8464a73de3defaf51bbc7d0e9644d083cf63baffd5451",
+    "ed91ac3daaa90909080e3016ed8ca688abc10c8143dc825fbaca83df8eb046e0"
+  ],
+  "ts": 1795652905,
+  "cid": "poa-mainnet-1",
+  "sig": "3wWoJYmfZ4oCUZq3qMKSAqxXKjD3Sbyg6dY4x2n457Y7fpP3LcS1TZeqvXJY5MzJSZjaTdq7gt3YYe9SjKb4Eu4M"
+}

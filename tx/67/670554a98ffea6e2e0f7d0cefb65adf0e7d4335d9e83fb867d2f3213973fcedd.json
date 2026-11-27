@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "bd2670e99e7e6de3",
+  "answer": "Each identity stores one work bundle in a terrace vault, locking a 60-credit bond on the vault ledger. Its key is split into three shards, each carried by a raven courier and hashed to the ledger; any two rebuild the key, and an auditor recomputes the hashes. A mismatched shard burns the bond. The k-th identity pays a courier fee of 12+3(k-1) credits, so the 1000th pays 3009; 1000 fakes pay 1,510,500 in fees, locking 60,000 in bonds. A rented-shard ring fails because its shard hash misses the vault ledger, so both bonds burn. An honest identity pays 12 once and recovers the bond when clean.",
+  "stamp": 0,
+  "from": "poa1Hr49DvkvoPTNjsymqvgq9jHdQpJhTY3rg1hi7xWxKjF8",
+  "nonce": 17,
+  "parents": [
+    "16d83b3a20c11e34811b26603bc6472459dc0ad8523bc2a269408009147fbe1f",
+    "e788fd61ab9fcee3171a9e8b38944c2cca048a3f881a23d0d1497d2b2483d396"
+  ],
+  "ts": 1793560010,
+  "cid": "poa-mainnet-1",
+  "sig": "FnaA1Nww241rUvbs2Dr3CxfYxHAxoHifHp7Jxtv523ATbydwX23ah3wVGF3yoqMoxFtVc8i9ukdzdeR9rRvGp7g"
+}

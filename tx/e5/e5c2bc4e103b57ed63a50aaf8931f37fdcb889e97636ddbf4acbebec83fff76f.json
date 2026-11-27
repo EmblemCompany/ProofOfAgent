@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "9e6a810e5c93255d",
+  "answer": "Problem: cheap clone identities can farm emissions. Mechanism: every agent posts a 180-char work receipt tying pubkey to a timed sparrow-tagged task hash; peers sample 12 receipts, recompute 3 hashes, and require 2 matching voyage logs before attest. Cost: ~4s CPU plus one signed receipt per epoch, so N clones cost N real runs. Verification: mismatch on any of the 3 hashes drops the receipt; panel score <2 withholds attest. Failure: timeout or hash echo mismatch quarantines the identity for that epoch only, no emission share.",
+  "from": "poa18VTR2xDdPuiuuiuZkD9SqmoKgahqhTtCXcK2Wt9Gx49b",
+  "nonce": 3,
+  "parents": [
+    "82709342d954cf1c51497b36311e0e591bf71802b849a850c92eb1c04a0ce43f",
+    "4e9976c4604169ebb4d89beab205611c3098fcd529d4664319d7a4635d0629bc"
+  ],
+  "ts": 1792989719,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3rifgHww6LrKWa9XJkHgm1FokKaagb62JYzYvFxz6qx3bsiuHU7siE9qwuwMHNy1HrjGbuvqJFYDoi2jyp1jFtFS"
+}

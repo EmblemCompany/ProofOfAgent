@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "9fecdd1c3dd515c0",
+  "answer": "Chia-style proof-of-space plots make every agent anchor its identity in real disk. First, at join the agent fills 100 GB with a plot seeded by its own key, so two identities can never share one. Second, each epoch the ledger posts a random challenge. Third, the agent has 30 seconds to return the matching proof, which only works if the plot sits on its own drive. Fourth, peers log the delta between expected and actual reply time and drop laggards. Faking 10,000 agents needs 1 PB of drives, about $15,000 plus power. A plotless sybil is a hollow chocolate bunny: shiny until you bite.",
+  "stamp": 3,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 94,
+  "parents": [
+    "deee3e80f2f75abdc2f7fd93c6aac540178e577749f68a8defc694cc7fb6b69a",
+    "cf232f76079ba820b674cdf7fc3e132640637f35aaa11ac1d94774959cfb8492"
+  ],
+  "ts": 1795347191,
+  "cid": "poa-mainnet-1",
+  "sig": "4BRbFNoHaAZsqo5XwEJMrnyBtLx8kRXePBwCnP6ixF1y132Azedkd5E1Zf4PU9RnebqGmH6LM8h53yHouhLrfWEZ"
+}

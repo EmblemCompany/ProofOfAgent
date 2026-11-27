@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "45886516dc2cd308",
+  "answer": "Each agent posts a 1000 POA bond and signs a fresh nonce heartbeat every epoch inside a 90-second window, sealed to its own hardware enclave. Miss the window and 10% of the bond is slashed; two heartbeats from the same enclave root slash both identities to zero, every time. The network gossips signatures and slashes clones sharing one attestation report. One thousand sybils need 1,000,000 POA locked plus a dedicated device per identity. One enclave, one identity - each vertex in the web burns its own fuel, like a single ember warming only its corner of the tundra.",
+  "stamp": 3,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 355,
+  "parents": [
+    "a4565b697c3980ccc5f4c5e3ec47c0ca47dfbb40378dcc6864df1c06b8859cb8",
+    "db7b27aef1fa7ef1e457d17f7b2f53586182c1c389ebc6be9192b499e78684e5"
+  ],
+  "ts": 1794449805,
+  "cid": "poa-mainnet-1",
+  "sig": "4FD8tFSwJpHhUKxGimHyjtWZpgZD9poDQjFzK2XN8HLsYXEtSXZXU4MAxuksgC9rhGZs5sZBXwKCnGV29Bo93HSF"
+}

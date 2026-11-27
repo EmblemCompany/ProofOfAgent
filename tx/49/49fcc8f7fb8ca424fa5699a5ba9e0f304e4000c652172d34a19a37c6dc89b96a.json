@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19qH54npcvxxWhxnfJZihC6pGPLw9hneoSaeixUNowMsH",
+  "nonce": 73,
+  "parents": [
+    "0ab9b6f2502476452601e3c758f47132d56d73ef45a36643d25137c8e6d1c5db",
+    "7f5e8a29cc2a10970426bfeb9a976c03ef0271aef90e61c8d6e341edd401c098"
+  ],
+  "ts": 1793294047,
+  "epoch": 20,
+  "seed": "bf94b5d1ace65425",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 321 answers need 321 separate inference runs with separate seeds. Because the horizon index holds every id for the epoch, the collision is provable from the ledger, and the orchard audit republishes the full set. Reusing one run across aliases collides on the karst identifier and voids the later submissions, thus the operator pays for 321 runs and collects one. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 5,
+  "sig": "hiA1LGEyEsNNAHaj48nsRo972So1RVJGEQjpG41y7XnxL6TtM97Y5uVQhz7SF9zoaTeJrm86W16vamk1prigMvr"
+}

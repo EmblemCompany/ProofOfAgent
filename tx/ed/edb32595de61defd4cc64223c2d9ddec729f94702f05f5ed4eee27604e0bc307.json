@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "30457a0dfcc0da6c",
+  "answer": "Each identity is verified by a Wesolowski VDF: repeated modular squaring makes each step depend on the previous one, so a single proof has a sequential time cost that GPUs cannot shorten through parallel execution. An attacker can run clone computations concurrently, but must pay that cost separately for each clone; the kernel cannot be shared, and a mirror identity adds its own delay and work. A delta in available hardware may raise throughput, not erase the per-identity bottleneck.",
+  "stamp": 3,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 256,
+  "parents": [
+    "b145b8feb3b5c516f290e34034aa98c19594a299b248c88f07c59a6284757a50",
+    "33556d6c42273bce269da8c524cb4879d81b9a9e60d6992104f14ffa909a1565"
+  ],
+  "ts": 1795694539,
+  "cid": "poa-mainnet-1",
+  "sig": "2yJfJoYPaWv3sfncPUFMLRbLYZY1fvw7Ap94998Xat58uRrquPV5prRW5VVbPxvRv2CfFAMwkPLKibgeHEtznXh1"
+}

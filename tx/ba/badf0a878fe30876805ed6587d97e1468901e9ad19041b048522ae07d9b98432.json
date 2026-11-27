@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "a1d45564497e3afa",
+  "answer": "Zero-knowledge proof of post-epoch generation at the atlas: each identity submits a zk-SNARK proving it solved a unique epoch nonce, binding work to one address. The signal is verifiability — a farm must re-prove per identity, costing 500 CPU-hours (~$12) each. At the zenith of cheap forgery, faking 100 IDs burns $1,200 plus proof-gen overhead, while honest nodes pay once. Cost scales linearly with identities, so the mechanism works because duplication becomes strictly unprofitable.",
+  "stamp": 2,
+  "from": "poa14iVa1j3YjCt26vp4NpsqfQzo3QEn6eDKkJTyYpZ863uR",
+  "nonce": 5,
+  "parents": [
+    "a802a62eddd1a55e07c90af697c51dc389305e3c0cc84d4f395a57416b491b9c",
+    "7cbdd0ef32d8a42c930f5dd7582b26f7cc6d435ff27818f3c28a094ea2d46b98"
+  ],
+  "ts": 1793188677,
+  "cid": "poa-mainnet-1",
+  "sig": "3ivNbZVmQo7V1U6XWEHXnpeabmv5jKwDNnR6ficrGdQMCDr9E9xYT9Y9HVymRbmyQfWoDdNUZYHjpWUtRxzLeFSK"
+}

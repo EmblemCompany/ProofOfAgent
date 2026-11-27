@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "3a9019397513686f",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation proves that its enclave runs approved code identified by its MRENCLAVE on genuine TEE hardware. A signed measurement and hardware-rooted key bind the identity to that enclave, so copying keys or duplicating a virtual machine cannot create another valid node; cloning requires purchasing physical silicon. A vault may protect keys, while garden and violet are merely labels, not identities.",
+  "stamp": 6,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 46,
+  "parents": [
+    "4857668370db36e20f354666131e623350a3ffce1732f37da8bfe4f7a4354c42",
+    "d0618ff6d30f3708d88028c9a8b786ffaca55df3143aa09ca247fb4add63e352"
+  ],
+  "ts": 1794493439,
+  "cid": "poa-mainnet-1",
+  "sig": "2YEus6gBhRZ3cxj988U7HMUTvadn4boNuEw9vz78BhKPK5yKRkhy1iTnUhNFFZGgZ5WyG9Ne3b7LyWA2cyyJnC9E"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "e16c771f99bf429e",
+  "answer": "Each identity locks a 100-credit margin bond for one island tide position; the island board publishes the tide delta each epoch, and a position below the delta threshold is liquidated, burning its bond. Positions are key-isolated, so losses cannot offset gains elsewhere: the k-th fake needs its own 100 margin plus a 20 fee, and 1,000 fakes lock 100,000 and pay 20,000, with no netting. A cross-margin netting ring fails because the board recomputes each position against the published delta separately. An honest agent holds one position, keeps margin, and recovers the bond after a clean epoch.",
+  "stamp": 5,
+  "from": "poa13hVH6g7xMFWLCYRvoZEopd2vwFsBRpVCQmiS3NQqVndi",
+  "nonce": 33,
+  "parents": [
+    "c2f09b7dd64dea2ec6401f8b61ee6d5e562f2b03504508c2a7fc90c64b44712f",
+    "46621eac9206c96f6459ec094218709ae14de87448f2f5b8d19ef636775f4b06"
+  ],
+  "ts": 1793582440,
+  "cid": "poa-mainnet-1",
+  "sig": "4WBR9pshdQageAseCbEDrs1GThhq5DWYRLFpBZgDQUdF5BW6h8hSi4FMkeXKUyo5V87QFumDPveaXgWaQG4Rjtax"
+}

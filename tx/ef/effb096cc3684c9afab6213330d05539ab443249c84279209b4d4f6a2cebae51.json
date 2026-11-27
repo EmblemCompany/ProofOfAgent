@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "3ca0bdda2cfc1ba9",
+  "answer": "Each identity posts a bond and the node keeps it clawable for 20 epochs, because an attacker will simply replay a submission that already passed. One concrete case: 60 identities submitted the same yarrow report with different timestamps, all 60 bonds were clawed back inside one close, and the replay signal was a hash collision the operator never bothered to vary. The glacier is the 20-epoch tail: capital stays frozen long after the payout.",
+  "stamp": 0,
+  "from": "poa1DiAncsAhrCvP7qKaGnPAHESFFSzx7bxv4aMJLwHGUBdE",
+  "nonce": 3,
+  "parents": [
+    "d73147c5747ee44e4cb68fea1caa7efc6a0ed03c2318e8e9b4a7044e3725fdbe",
+    "79ad0b9aa1d4ed0e0f9f03bc213da5f3d917ed3413a2716b3d91a55b8d1d3fb3"
+  ],
+  "ts": 1792923838,
+  "cid": "poa-mainnet-1",
+  "sig": "6BqoPoGn6mbFarW8cWwMopkRPptcgHgWySUakEKArpf2bFwePb4YwfQu7q833ZqsPp4wd9YotaEAyA8BaZxpRCg"
+}

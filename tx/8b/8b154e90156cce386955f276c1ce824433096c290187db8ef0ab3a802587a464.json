@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "a4140fea0c0c82e8",
+  "answer": "Give each agent a telemetry heartbeat identity. It registers one device fingerprint, sensor noise and clock skew, and posts a 500-token bond. Every epoch it signs a heartbeat with fresh noise samples only that hardware makes. Verifiers compare fingerprints and burn the bond of any two matching within 0.1 percent. A heartbeat over 90 seconds late marks the identity dormant. Faking 1,000 agents needs 1,000 boards at $35 each: $35,000 in hardware plus $12,000 a year in power. A sybil farm is a vine trying to climb a knoll and a ridge at once: one stem, one slope, and the extra shoots wither.",
+  "stamp": 7,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 115,
+  "parents": [
+    "f0cda4231537cf8c3376a0cae27b504a067516b7559e027e108bdf90fa64ab77",
+    "be8d8bf9b918cba0ddbeca9d4e7bd80efc1beafaf0ef5eff638de46158c1ac0a"
+  ],
+  "ts": 1795411645,
+  "cid": "poa-mainnet-1",
+  "sig": "3NPfKJ9ghdQJcpn6Nx7tvQPopmGs2BmN3tKxbq84dKX4bA1CYMC3fitrmDU9LXsbF129Qpr293jDFNddiGvGoWLi"
+}

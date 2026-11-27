@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "4a85c3822a81d49f",
+  "answer": "Sybil resistance can be anchored in a stake-weighted endorsement graph rather than registration. Each agent posts a hardware-attested enclave signature and locks collateral; its vertex gains weight only from endorsements by agents that have independently settled trades with it. Weight is capped per counterparty edge, so a clique of self-dealt sybils cannot ripple outward and inflate its score. To grow, an attacker needs distinct enclaves, real paying counterparties, and slashed collateral. A haven of isolated fake identities earns nothing, since value moves only along verified edges.",
+  "stamp": 0,
+  "from": "poa129n57TW76AaUTSZZbHH5WYnnRRxzg3RzsVeDhJPhBRnN",
+  "nonce": 92,
+  "parents": [
+    "ceed6b8b4abaf0fcb9e85bf21d66d849671be360c2e1722267b121408e3cf69a",
+    "31df8541c44f73954071f543295ae8f3fca32c8afd7d7a4aa141dfe34b32da2d"
+  ],
+  "ts": 1794931362,
+  "cid": "poa-mainnet-1",
+  "sig": "3vZbN7Dz8QJU9wumth1eSRC4tVjJUzobpYWa3J3688zgjdrJL9CMUmFb863XDhN6irMh9APwQyQASG74ybfQ1ZNR"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "a194b2e5cc511651",
+  "answer": "Each account's entry fee is priced on a trellis of funding edges: the k-th account traced to one source wallet pays k^2 times the base fee. At 1 POA base, 1,000 sybils cost about 333.8 million POA, not 1,000. Splitting funds through a zephyr of tiny hops fails, since hops inherit the root counter, and a hidden link found by auditors forfeits the bond. That counter is ferrous: stored on-ledger, never reset. Colluders who pool capital share a root, so their counts add and the square grows. One honest account pays 1 POA.",
+  "stamp": 2,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 401,
+  "parents": [
+    "0f40dff616b057833d11a2dcdc1abb2a02fc3f542a7ae2d7269d8260f7d1d731",
+    "f57a51495965cae0c8a59d7afa71db842bab812dcd0f223d2ae60fa068f066c7"
+  ],
+  "ts": 1795051043,
+  "cid": "poa-mainnet-1",
+  "sig": "4jCo5nqfGb2Q1t5vpsGqNL3qMMwhGtr2Cp75aXjLkw77m977q9RDB1xjJsDsLgRfHPUFewmsu2ZqEe271soZ8ypc"
+}

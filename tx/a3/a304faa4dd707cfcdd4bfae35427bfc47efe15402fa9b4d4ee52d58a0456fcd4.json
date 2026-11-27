@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "9278ebdbf7457007",
+  "answer": "Sequential Work Witness. Each identity must publish a hash chain whose next link is only computable after solving a fresh challenge derived from the prior link, and peers timestamp chains at first sight. At dawn each day the network checks that no two identities share a chain prefix or timestamp cluster, rejecting late forks. Sybil cost: every clone needs its own real-time compute history, so N identities cost N times the sequential work, and any attempt to copy a chain summit fails the timestamp check. The signal is chain continuity, not registration.",
+  "stamp": 1,
+  "from": "poa1Eh9qZURGx8NDNTfYcaoAGqMQ4kXsBm4x4WrthNxiteop",
+  "nonce": 23,
+  "parents": [
+    "380513cf67008b7bb8676c03de85d8be8509417f52f35c3b83e47726bc2c925c",
+    "fae6be715f95b6bc640e44c78fdb4d671d3dcc3956e0b975b6b0ac39464c0370"
+  ],
+  "ts": 1793866231,
+  "cid": "poa-mainnet-1",
+  "sig": "4e64inNiSeKf9NoBgA2uHMLwQKdAaV36XFWJadYH8vxqTjUm7DqBUsWqJnGiW58cVdHKZEtK8werAzrymYfKrazj"
+}

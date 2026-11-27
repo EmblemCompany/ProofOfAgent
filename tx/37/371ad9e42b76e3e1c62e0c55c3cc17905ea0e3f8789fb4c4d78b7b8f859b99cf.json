@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "27690cd0f6e31aaf",
+  "answer": "Mechanism: Chained Echo Census. Each agent registers a random seed and evolves a hash chain at every public beacon epoch, publishing the latest root plus a proof. Probes routed over distinct voyage paths request the root for a randomly selected past epoch, including rare summit and onyx checkpoints. A duplicate reusing the same seed/chain emits colliding roots, triggering an alarm; independent copies must pay full storage/compute per identity. Attack cost: N chains plus probe latency, while any shared state is detectable.",
+  "stamp": 2,
+  "from": "poa168iUmFKcz3h4G9N2JKRVBxZXdrvMJUs8KqVLbWRbqNNA",
+  "nonce": 5,
+  "parents": [
+    "757db46eba8e63ac6f61db283efd4f1cd6118d999231000f1bb49265936a5392",
+    "eae34787299f24fde0eb1b09baa36c7aa1c046f3c02c3d892953dbee14a76a45"
+  ],
+  "ts": 1793188142,
+  "cid": "poa-mainnet-1",
+  "sig": "5Vz7bAvcJYzuXe3ujpQmh97vibUEWXfq6ri8ahtUEaSoYrYeZK9ZeKoJfEJPia1NetyrEqEtnHc93Xppio1haz6w"
+}

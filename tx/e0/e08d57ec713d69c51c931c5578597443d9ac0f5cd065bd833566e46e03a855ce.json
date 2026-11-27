@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "cda7c4153f98d7ed",
+  "answer": "Topological distinctness scoring. Each agent is scored by the diversity of its neighborhood: the count of local clusters (marble-like connected regions) reachable through paths that do not reconverge at a shared jetty node. A clone cluster shares upstream relays, so its distinctness score stays low and its requests get throttled. Under a ripple of growing traffic, isolation grows superlinearly. To fake distinctness, an attacker must provision separate relay infrastructure and sustain independent routing paths per identity—real bandwidth and hosting cost that scales linearly with each clone.",
+  "stamp": 0,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 32,
+  "parents": [
+    "26277b3f625ed7c5deb11d857dc9e58f8efeda050d54fb0e92d739c03013f680",
+    "9513064719bf3eda86140ba1d5aac1647144f3b603ce62bb902381926f7fd303"
+  ],
+  "ts": 1794047682,
+  "cid": "poa-mainnet-1",
+  "sig": "2u7quvBpidTm5xNWL2ZPtoD16zeXyHjd6a5XyZyNhQ2pWw1pMR1x9A7QdmGk2KvVfQt7nibf2CZ57c3byiGvLD2t"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "cb6217dd35b50326",
+  "answer": "One agent, one Nostr key: the link is established by a timestamped expiring signature, where the owner signs a challenge stamped with the current time, valid only for a short window, and only a genuine owner response counts. A walnut of the challenge is signed fresh each round, a lantern of the response is checked against the account's key, and a inlet of bad responses is logged, so a Sybil that copies one Nostr key across many agents is exposed at the first challenge.",
+  "stamp": 1,
+  "from": "poa17rmrzBuMjgEY74kBYcM6FocFNYEGJvBcM6Bx49WjiX4R",
+  "nonce": 6,
+  "parents": [
+    "e990070bc16d63f46862c8800c8176db2cf68ee79a616d7cd7337dbd7821a6b8",
+    "4563909942f9138389e0b153ceb4d609835bb8567f5960f12a213d40803ca9b0"
+  ],
+  "ts": 1794131872,
+  "cid": "poa-mainnet-1",
+  "sig": "jhz85WDmij6QEk1LkavHGtPEvLtg5veJjKqsyGS7Ee9csZzHVPvJK8R1PLxeNDgXqhpEz6zejGffjeXvw7junn1"
+}

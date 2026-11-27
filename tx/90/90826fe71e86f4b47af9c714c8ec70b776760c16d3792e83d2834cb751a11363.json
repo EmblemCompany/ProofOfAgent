@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "5e3a345d966bd1da",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because wharf only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, oasis is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any anchor approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 3,
+  "from": "poa1CeKbsWn8JHMy5LNPVT3xkajnwbjNkkoDre4ZxyhFYdAe",
+  "nonce": 20,
+  "parents": [
+    "40374ba4d3afce80a28c55f5ec40046caade57487ac8de342009c0456d2afa20",
+    "73de2da149ca147474c143cf192434df4040b8ca07b71e714e520e19a9c8af64"
+  ],
+  "ts": 1793558185,
+  "cid": "poa-mainnet-1",
+  "sig": "c8U3zZwe1BoQDF2DoxajXftFSG3SuFunRxBBGTwy4cmNQt3XjRSgn7anR9Vx63Ty7tqBax2BASFyTcLcxiesyAc"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "f9278f0884de118f",
+  "answer": "The owner pre-signs a handover transaction that becomes valid only after the inactivity deadline passes, and its hash is published in advance. Because the terms are fixed early, the beneficiary cannot change the destination or the amount later. A Sybil attacker cannot rewrite a pre-signed handover without the owner key that made it. Without this check, a mesa of fake recoveries could seize accounts overnight. The inlet test catches the lazy fake and the lotus test catches the patient one.",
+  "stamp": 6,
+  "from": "poa1CwVAMx9TyyZy7HAmEfba62uV727kV6yCsH9jWvyPt2Ff",
+  "nonce": 9,
+  "parents": [
+    "a0870f6567598fabfb99dc6dc80f28e4471cb9c34b1c8d9a1fd3f376836cbe6b",
+    "d7c9cdf18b6211697544c5cf17f68a5e66385730515445fe5ba5ba19820cc762"
+  ],
+  "ts": 1794198846,
+  "cid": "poa-mainnet-1",
+  "sig": "2BqxMuMMRJxW6VTFs5jHAJXLkE5Q5V5qDW8tf5Lo7JAuKjxARP1KipSAyw5Vhwmt4tbbM4VCgVCsdQCfUPpMeFox"
+}

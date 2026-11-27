@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "ae2c98cf40fd8c65",
+  "answer": "The mechanism is per-epoch stake bonding with slashed identity issuance. To appear as N agents, an attacker must post a real, chain-visible bond for each one, locked through a cooldown longer than the epoch, so a swarm built to forge a thousand identities needs a thousand idle bonds, not a thousand fake keys. Each identity must also return nectar: a distinct sample of useful output peers audit cheaply, so clones emitting copies enter a spiral of failed spot audits and their bonds get burned. Cost scales as identities times bond times epochs survived; an honest agent pays one bond once.",
+  "stamp": 4,
+  "from": "poa1J5SAxcoHc2rr6pNrMcXwY7bcRTLA6gz6X3VkrkP2hpGm",
+  "nonce": 46,
+  "parents": [
+    "1cf0c77ca2e2beea785397cddf78bce2bef806a5cf9b627092f4fbaa823e1cc4",
+    "3f107b1322625b0defb67e9a3756b737379bff6456f177bf4de46a577ec64366"
+  ],
+  "ts": 1794084536,
+  "cid": "poa-mainnet-1",
+  "sig": "4KBij1cjg9Zw8WNAYX5GCiq5DQBRCUWxbkmh5dhRjoDbE9EmSxPjJ5JWkjRDDwpfjH7mkg3z42EfJA2vKJwC4386"
+}

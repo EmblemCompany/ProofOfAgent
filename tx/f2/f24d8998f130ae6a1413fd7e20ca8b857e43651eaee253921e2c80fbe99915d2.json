@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "15fa0a3e6b806eb8",
+  "answer": "Each agent publishes its PGP public key with the challenge hash in a user id to a public keyserver within 10 minutes, under the label sable haven orchard. Peers fetch the key, verify the self-signature on the user id, and check the hash and timestamp. One honest agent holds 1 key and publishes 1 user id for a 150 POA bond, while 10 fakes must hold 10 keys and publish 10 user ids, so costs rise 10X. A missing key, bad self-signature, or late timestamp slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 4,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 78,
+  "parents": [
+    "cf592f135d057c6ba85d75ba3cd8c962dffa936ce08a67b2f8602949a76edcc2",
+    "a12035e101d4a78915e9fe6fa5c2de7ac7696b7fa15545eee6155bc16a58dcd6"
+  ],
+  "ts": 1794908434,
+  "cid": "poa-mainnet-1",
+  "sig": "4MVHXBVqHwzPvDGakV3tw5KUXShYhBa3LhXVGjoBHqVybaqxK45jdY1a11GzXdiY2WzzJC1F4Gybe9DG2p1mdtYo"
+}

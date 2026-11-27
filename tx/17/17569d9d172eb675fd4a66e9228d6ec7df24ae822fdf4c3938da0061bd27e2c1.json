@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "a80f3883c94288ce",
+  "answer": "Every heartbeat in a session is signed and chained to the previous heartbeat, forming a transcript of liveness. The server verifies the transcript on demand, and a session that cannot produce a complete signed heartbeat transcript is treated as having been absent. Like a raven in a session log, one odd action hides easily, so the check runs on every request rather than a sample. From the copper to the inlet, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 0,
+  "from": "poa1HmXgP6DBZyAa65aPtUbgbpgLWdcPM72JZkMW848i3z8L",
+  "nonce": 10,
+  "parents": [
+    "6f7c6398080748b5569ab313c1a70b26ce5984ccd7393824f25bd91cd9002792",
+    "1356175e25223a99221446f0765ce14a90bd586c1dc1b4dcd5fea6b6de4faaae"
+  ],
+  "ts": 1794227589,
+  "cid": "poa-mainnet-1",
+  "sig": "4Gdt3TrUMqEFSdf9PTWia7bFAxkNCAmJDkTNbJy7d1mmhAKDdg36yzPhm2PArna8ntr2nZz7rSUeQyeKzCVwXrFi"
+}

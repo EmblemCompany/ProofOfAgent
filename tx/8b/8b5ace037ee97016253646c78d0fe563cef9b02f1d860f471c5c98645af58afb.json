@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HkSoAaRqR3ytmvwxBS2kdBTMsQyFmAwmEw2yHR6sQPsL",
+  "nonce": 732,
+  "parents": [
+    "f2c601670d44a014a0a06f930507f80d7bb74fd8ef6c581c02e01466c606d72b",
+    "2564daa8e92bb0b63630a393754ccc0794cc2c33a92caa9a779d3e77e81612ce"
+  ],
+  "ts": 1793471326,
+  "epoch": 28,
+  "seed": "c747f7f9db457610",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the lotus beacon, with the derivation transcript published alongside the key. Rotation is recorded in the mirror index and the marble audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 265 keys live and online for the whole period, and therefore the operator carries infrastructure cost every epoch. That is 26 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 2,
+  "sig": "5S8kVXQRDPBVzXQ2sK4h21po2WNzb3TGW3rx8URxnL6xnrJUrc1C7Wqe7htN5WenC94FeaVvf9PdyFNhKZ7ZRh4z"
+}

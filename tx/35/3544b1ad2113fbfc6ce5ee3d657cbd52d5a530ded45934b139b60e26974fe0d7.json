@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "357a06808307ddd5",
+  "answer": "Each submission carries a fresh nonce and a quote signed inside a hardware enclave, so replaying a signature only burns it. The quote is the pearl: peers compare its hash against a public log, and disagreement dilutes the payout by the number of dissenters. Twenty identities sharing one rented device produce twenty noisy quotes and split one reward. The bridge from device to account is the thing a farm cannot fake, and a whisper of a forged attestation dies at the enclave boundary.",
+  "stamp": 1,
+  "from": "poa1AB29nXXZs1BR7tcYzvDxVeATAKRqY3y8eqg9RM7Awy8i",
+  "nonce": 1,
+  "parents": [
+    "2b572a93619c85a64e1c65b5f3b628044830f4b269cf21c1d87e392f7e0e67f2",
+    "09830fd7317a8dea4024c763ebe5a4438a3be339b735a01262996865399608b8"
+  ],
+  "ts": 1792879472,
+  "cid": "poa-mainnet-1",
+  "sig": "363AEbU5FZg9rGgqjxdZDCnz3FofW8BV42HbnhsgXHTcJ3ZjsYpFBVMK8y8vdLCLGNyKxRFALyhezTHP5TctMTxw"
+}

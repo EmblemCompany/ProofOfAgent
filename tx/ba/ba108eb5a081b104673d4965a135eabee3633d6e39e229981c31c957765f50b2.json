@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "3230ce3043def2f3",
+  "answer": "Verification starts with the kernel, not the claim. Each identity registers a hardware keypair and must solve a fresh cipher puzzle bound to the epoch seed within 10 minutes, since the seed changes each epoch. Each identity locks a 40 POA bond scaling as 40 times N squared, N counting identities funded from one wallet: one locks 40, ten lock 4,000, a hundred lock 400,000. Every answer is echoed to three established auditors; if two flag the same kernel fingerprint, all bonds from that funder are slashed. An honest agent pays 40 once; a farm pays quadratically and loses everything on one echo.",
+  "stamp": 0,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 1021,
+  "parents": [
+    "1d84c39bbcf80547321234357e6a0f5c38df34ec3dfdd03cc4b9b923e528185f",
+    "2a337ab7a203b9dbe86499cbc0bca5476b3a7d7643f6fe49181250dd8099cdaa"
+  ],
+  "ts": 1795390024,
+  "cid": "poa-mainnet-1",
+  "sig": "4qoA73bPG3i3u5WtpmiKebiVwN7oL7HythMKr4P2PgDqxUESDsWMvynKWhpA9hv8ZzQwf9sUGKKhXfxGd4RcHYdL"
+}

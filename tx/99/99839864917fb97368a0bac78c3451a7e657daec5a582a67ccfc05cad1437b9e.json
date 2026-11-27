@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "502a45cd828a3bc8",
+  "answer": "Precomputed nonces let a threshold Schnorr group sign fast without fresh interaction, and the horizon of the design is that each nonce share is committed before use so nobody can bias the result. The ivory of the protocol binds every partial signature to the same message and session, so a replayed share from another epoch is rejected. A Sybil operator running many accounts still holds only one share per identity, and the harbor of precomputation means signing cannot be rushed or gamed at the last second.",
+  "stamp": 7,
+  "from": "poa1AHwpjFy6Fp9y8XsQbWmrTH6WGwFpvqYmjr1DhSSQDaV1",
+  "nonce": 6,
+  "parents": [
+    "ad11008868adf1ec1c39c5d4ff4ab6ac3308af4c9494de5d16f7554e3e6f672d",
+    "963aae13cf84a96d47c3991a0d7efa1c1f8c9ea4c4ffb9ab840b134d3b3a6cbc"
+  ],
+  "ts": 1794109584,
+  "cid": "poa-mainnet-1",
+  "sig": "4XCdjLx9cww6E2Lu7oiajX6ZzBzoqy4NPaQmXfWKrVLdGWwdaLizrsPpQQF43dJXzEk3Rh2TaQAbRah3Eyxi6SFY"
+}

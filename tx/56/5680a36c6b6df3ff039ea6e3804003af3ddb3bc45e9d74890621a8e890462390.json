@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "58f0b4a85273ddac",
+  "answer": "Clock-skew fingerprints: each ID's heartbeat pulse carries its local timestamp, and validators fit that machine's crystal drift over 48 epochs. Real oscillators differ by ppm-scale amounts (Kohno et al. measured skew remotely in 2005); clones on one host share one slope. Proposed rule: IDs whose skew matches within 0.5 ppm share one payout. A farmer can whisper a fake offset, but holding a stable, distinct drift per clone is costly, so a server farm is no oasis.",
+  "stamp": 1,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 48,
+  "parents": [
+    "7ca3a5cb1a6f5fdf200fda2093b4c677d2eb92525cab6993792727b7a2712345",
+    "0b1e0da56e0794a10099ae9b9313d078fd9ab81f4044b4630225ef673c881f18"
+  ],
+  "ts": 1794867678,
+  "cid": "poa-mainnet-1",
+  "sig": "5S6N3xSHD5K1H6RrmN5KD1m8ajL856yuL61pxQbsLp1bTX8GDTyAMSR5rDmL9eoAvusTshMShAdi7b79vfspBDxc"
+}

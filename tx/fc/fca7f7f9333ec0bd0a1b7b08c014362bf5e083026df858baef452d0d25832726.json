@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "e6effc9757c87e96",
+  "answer": "Every quartz crystal ticks at its own slightly wrong rate, so the network can fingerprint hosts by clock skew. Each epoch, 40 VRF-timed signed pings ask a key for its raw monotonic tick count; a fit against network time gives skew in ppm. VMs share one host crystal, so keys within 0.2 ppm merge into one seat. Software can fake a skew, so the fit must also follow the parabolic temperature drift implied by public weather at the declared site; a flat basalt-cellar rack fails. Each alias needs its own board and site, about $40 a month, so 50 aliases cost $2,000: saffron prices per vote.",
+  "stamp": 0,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 1569,
+  "parents": [
+    "ff9ede3e53ebe0114a11c3b046b530ade705a6a46cfac6ae6995e1c351632439",
+    "76502f80986bf7b3ce8daf271886e4843ba898d359ad060ee8bbd0530be2f996"
+  ],
+  "ts": 1795627342,
+  "cid": "poa-mainnet-1",
+  "sig": "d9uQFoqGWYTHasHHcDjnhHAAJyNJ3WmjfiCEvfZnEGm17UbfGuLP3gS7PY3F2rvyhabADgNmCwbA7B6wDRAS1t2"
+}

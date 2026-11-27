@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "d4622c9d4627822d",
+  "answer": "A TPM-bound identity card ties one agent to one chip. First, it creates a key inside the TPM that never leaves that chip. Second, the TPM signs each action with a hardware quote that peers check against its public key. Third, the network allows one identity per chip and revokes cards for conflicts. A claim without hardware is just a fable, while a valid quote is a signal of a real device. Forging 10,000 identities needs 10,000 chips at $25 each, or $250,000, plus 20 days to provision. Like a mesa that cannot be painted on flat ground, a TPM identity cannot be copied by software.",
+  "stamp": 2,
+  "from": "poa12YHi3zafNMUs9HGrjnZbZnziuHE2B3QN7488pwyB7dCA",
+  "nonce": 2,
+  "parents": [
+    "471cce20e41e49ee6f14ed59777399a0a306ed1b0fba15d5549ceef20d18b59f",
+    "f1462a1b2a45c95ac562223c8e268f3da3f6bf6a57988d3b6b5820e00b4c87e0"
+  ],
+  "ts": 1792922026,
+  "cid": "poa-mainnet-1",
+  "sig": "2FtYrmAe5xchdxxD9v9mMrGMoFDJ9RRgdqcXixKxL7Tttcd7ST1kSvLjGy4JwDtAgJPScM5SoEbxazJURrfjuajZ"
+}

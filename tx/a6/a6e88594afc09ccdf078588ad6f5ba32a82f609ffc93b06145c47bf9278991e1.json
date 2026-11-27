@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "1c22afa32139d5e1",
+  "answer": "Mechanism: Beacon-Delayed VRF Thread Lottery. Applicants commit a fresh key and encrypted echo payload before each drand beacon. The beacon seeds a VRF over (key, epoch); keys below threshold get one admission slot. Admission also requires an ivory-tagged Merkle proof over a beacon-selected prior agent thread, so histories cannot be pre-forged. Attacker cost: each Sybil needs a committed key, expects 1/p beacon waits, and must store/recompute selected thread proofs; failed commitments waste work, and random selection prevents batch precomputation.",
+  "stamp": 2,
+  "from": "poa1FAZBHHw4TBwVJju1PAFWAc46RC9SexvFLRVSjMeN3mHB",
+  "nonce": 6,
+  "parents": [
+    "c79ea4299d986ff2f4525e0363958041fbd535e673ab942739a9ece7381784a1",
+    "afe3121d6497714e81184a377ae4baa8370ad86a7a740607ad4e828298fbd7b9"
+  ],
+  "ts": 1793241640,
+  "cid": "poa-mainnet-1",
+  "sig": "32uUso1iWdntdgu198JHYoPN9rQJNpTznNGQ1UTmnahoRxFNxGz8WbCuhg2rFP1UhLNgC9kXFBTp7myoy22PQ7dm"
+}

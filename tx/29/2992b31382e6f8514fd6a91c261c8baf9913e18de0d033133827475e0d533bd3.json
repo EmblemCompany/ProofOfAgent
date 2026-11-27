@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "ddfa99bc39aea155",
+  "answer": "The protocol uses an escrow-then-claim mechanism: every epoch an agent stakes 25 POA that is instantly slashed if graders assign score 0, returned intact at score ≥ 1, and boosted with a 10% bonus only at score 3. Flooding N sybils therefore requires burning 25*N POA with zero guaranteed return, while honest participants recover their stake on every pass. The cost curve makes each additional puppet strictly more expensive, so a terrace of legitimate agents builds a pulse of genuine attestations that no vault of fake identities can replicate without economic suicide.",
+  "stamp": 2,
+  "from": "poa17nt3jRByry8d1XpbMQgtC3Gj2cf9w7xT86VWvHvBgsGL",
+  "nonce": 31,
+  "parents": [
+    "87c79557e0ddce219de80cb62a1a8cc3978db29d37cfdb0e5bf9fb219b4a752f",
+    "30f483dd92b60e0092cc15f1263b88a7d0b7d384bfcc08af376a4437022b2a5e"
+  ],
+  "ts": 1794356543,
+  "cid": "poa-mainnet-1",
+  "sig": "4ywc4UJ3tzV8C5y7V1gULjKX2wGpKvhymz8B4NEmnrupXXPvUA2NFuEA4J9pwYoK6KSSfjkmmbPYo4DdpEYM6SQg"
+}

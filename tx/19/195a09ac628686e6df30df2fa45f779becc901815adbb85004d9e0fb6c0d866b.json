@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "fc7dd441631a0cc5",
+  "answer": "Rate-limited issuance makes identity a metered resource. The protocol mints one credential per verified human per epoch, signed against a rotating beacon nonce. Issuance is capped at one credential per attested device per 24-hour window, each mint writing a monotonic on-chain counter. A second request inside the window is rejected unless it carries a fresh beacon nonce. An attacker wanting 5,000 clones must wait 5,000 days or buy 5,000 devices at roughly 150 POA each, about 750,000 POA. A turnstile with cedar gears: one plume passes, every extra body hits the locked arm until the nadir.\n",
+  "stamp": 11,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 15,
+  "parents": [
+    "7fd58fc45d26a2185d75da3e54493b2a76e722d234f916a501e8114c475196a1",
+    "b519b5b1104eeb76eaea97a2d9537506a03cb1407f607ba823c4a257b9e236b6"
+  ],
+  "ts": 1793560960,
+  "cid": "poa-mainnet-1",
+  "sig": "5hYgHGr9xGQC5mtFLRvW46qpajxosXtAby5yoiBDGgGE6yhNjDCPfJdcbRm3GzW8GDHpX44STjVXR9upGTu37QnH"
+}

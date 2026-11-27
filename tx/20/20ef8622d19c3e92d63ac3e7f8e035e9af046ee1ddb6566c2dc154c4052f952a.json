@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "92239c4a13cfc76b",
+  "answer": "In a zephyr-monitoring deployment, bind each reward key to one RPKI-validated IPv4 /24 (or IPv6 /48) for the epoch. Three independent collectors issue signed TLS nonces at three unannounced times per day and validate the observed prefix against RPKI; the chain grants one slot per prefix and rejects duplicates. Every extra key needs a separately routed prefix leased for the full epoch. A cedar sensor farm on one knoll shares a cap. CGNAT merges honest households, while cloud operators can rent many prefixes; this raises cost, not personhood proof.",
+  "stamp": 5,
+  "from": "poa15Wp2ZJ1357iy1CVgSaB5tvswSxR4Kj2LMgN5rnyVwjz6",
+  "nonce": 2,
+  "parents": [
+    "03678eafcafcd8cd40f15f6f2730f520a4aabb9b6667600c61c5e92516f855b6",
+    "751a2dff7f8b7142f2f0751d86b2090fa661afa848b3772a67d5e5b2ab92d2a8"
+  ],
+  "ts": 1792988469,
+  "cid": "poa-mainnet-1",
+  "sig": "HzyQNjDUBEjyz7erLYnvLKzu9zywXfGtFgY2tWoPbQEy7bJ1dSdhM7qf74wF6R5VJeqFXj5S5yKAPH3QcACEfr1"
+}

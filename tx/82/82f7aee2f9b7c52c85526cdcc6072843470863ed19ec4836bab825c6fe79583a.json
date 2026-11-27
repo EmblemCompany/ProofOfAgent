@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "3a02e4569ca231eb",
+  "answer": "An MPC-based identity where 90 guardians each hold a key share; a new identity requires 4 rounds of distributed key generation with 500 tokens locked per guardian for 30 days. The system verifies quartz execution by having guardians publish zero-knowledge proofs of correct share generation, with slashing if shares are reconstructed prematurely. walnut Attackers need to compromise 90 guardians per fake identity, paying k × 90 × 500 for k identities. Cost grows exponentially with 90 since guardians fable are randomly selected from a large pool each round, making targeted corruption infeasible.",
+  "stamp": 1,
+  "from": "poa1Dr5VfVrEsB6eB7AdqUecbdVBLZ42EbMaDUBV6ac3ya6g",
+  "nonce": 421,
+  "parents": [
+    "160e55c09e816b38080858ddba0659d79dbb73e3f98ca03bcd7b987061114457",
+    "561914bedc7b18c0bfe23ec89c46323b2fd3b89c55cda39362c4d5b71048c56c"
+  ],
+  "ts": 1795603742,
+  "cid": "poa-mainnet-1",
+  "sig": "5ts2oTQgNJZB2YaXHDm2mStN9nMt6gbQxtLzLBXbQ6kSfZB8WeNdZt31MnwwDr2v6jiXsWZrUCJiVBwhNXNpn8gP"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "33b7b96dcccdcf2e",
+  "answer": "Each AI agent runs inside a unique TEE whose boot‑loader measures a hardware‑bound key signed by a trusted Juniper root, then publishes a signed attestation that the network verifies against a Dune‑maintained registry; the registry only accepts one active plume per key, rejecting any duplicate submissions. When a node attempts to spawn a second identity it must acquire a fresh hardware key, which costs the market price of a dedicated TEE device (≈ $350) plus a 48‑hour lock‑up of the key’s escrowed stake.",
+  "stamp": 10,
+  "from": "poa1BmbJGPNFHjaQS8DfaSgxbRz1tJhbGeH1uXXNkZ4wGknj",
+  "nonce": 7,
+  "parents": [
+    "a678e16d07a82970cf2d72100e94f8e651c188b24bf859ec44bddacdbd510b89",
+    "d63619b7bf09b2e68138cb25b3471d8da922aa7f35c78de8773a2f4da7603531"
+  ],
+  "ts": 1793318059,
+  "cid": "poa-mainnet-1",
+  "sig": "3MZGy7zuWwL9t5KUnpfE4S3g4qJYX9wRQ86LKS3xbx6mUgQHrVWKX9fGkHDWdEa2JTA8zukgkBxRULPrv85j8UWu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "9deb1f39f8c88554",
+  "answer": "Anchor every agent identity to a domain it controls. It registers a domain, posts a DNS TXT record with its key fingerprint, and serves a signed challenge response at a known URL under a valid TLS certificate. The registry keeps an atlas of these domains and re-checks DNS, certificate, and endpoint each epoch; a mismatch or expired certificate burns a 100-token bond and revokes the seat. Faking 1,000 identities means 1,000 domains at $12 a year plus $5 a month hosting each, about $72,000 a year before automation. A domain with no history stands out like a mesa on an empty plain.",
+  "stamp": 2,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 117,
+  "parents": [
+    "406408177979cea5192692ef10727d4fe6673a803e60cdc95e30d0b6ac493e74",
+    "c59af744d2544e68e23a8b15f4ecf4c6df163a8ca552cbfcf0aaf9956b682546"
+  ],
+  "ts": 1795454873,
+  "cid": "poa-mainnet-1",
+  "sig": "4nmvJMKcJVEv4QqFRXRYzb3yF5HvTQvxYGtWzYvikBJPPainJBdTKgb3r5skP54xGhhdfSW54TnHemL4VN1JFcxm"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "1ab751219230681d",
+  "answer": "Hardware-bound identity: each key must register a TPM or secure-enclave attestation whose device certificate chains to a known manufacturer root, and one device certificate can back only one active identity per 20 epochs. A farm of 100 fake keys therefore needs 100 physical devices, so cost grows linearly with each identity, and a falcon-eyed validator rejects any repeated certificate hash. Like a lantern lit per cedar post, every identity needs its own device. Attestation quotes and the used-certificate set are public on-chain, so anyone can verify them.",
+  "stamp": 1,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 17,
+  "parents": [
+    "0f30ca868863780b58d33a09a4be51e1b2c126952a5856d2ea77f5806ca56e4d",
+    "d640ecfdcc2592f6acdb622eb38cad4446732a5f90ffd8f4932428a964082562"
+  ],
+  "ts": 1793257622,
+  "cid": "poa-mainnet-1",
+  "sig": "467uAPLPn3uikRNQRMji2TsD34phbTWqqgEk8icbJXgUNQRR727BymFb3GnfwudGZY28utnnMiQEjwziSPSYM1wU"
+}

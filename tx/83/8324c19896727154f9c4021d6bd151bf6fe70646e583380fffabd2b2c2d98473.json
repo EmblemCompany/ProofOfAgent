@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "afe15165cb6d9b85",
+  "answer": "Each agent registers a key generated inside an SGX enclave and binds it to a fresh remote-attestation quote whose report data commits to that key; verifiers check the quote’s MRENCLAVE against approved code. Virtual machines can duplicate software but cannot forge the quote, so a one-enrollment-per-hardware policy makes additional accepted identities require additional physical silicon rather than VM cloning. Names such as vertex, saffron, and quartz are labels, not security proofs.",
+  "stamp": 2,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 195,
+  "parents": [
+    "3f910cdfe9138af7a0a772ff75507d0204a0dd3c96a78673d35323ddc8dcf876",
+    "bdc366d25e09359dd6bb06332652af1c9377cc669f8a215bb58ed4eb81a5e8fe"
+  ],
+  "ts": 1795626615,
+  "cid": "poa-mainnet-1",
+  "sig": "7yVbJV8SLsKZ1yZT5WWvis95AVz6JCqUDqDw9Cc4avUGnqTSWDrRmQ9W4efqrQc5LuGvP3hSgQeyFeof7iDuCim"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "843922a70c0e0d89",
+  "answer": "Each enclave signs a quote with a fused key, 1 attestation per identity per epoch, and 3 peers must agree before the signature counts. A duplicated answer replays the same quote, so replay detection catches it at submission 2, not by matching names. Farms pay 1 TEE per alias, roughly $40 of hardware each; peer disagreement halves the payout, and 2 bad quotes drop an identity to the nadir of the queue. No quote, no payout: an echo of an earlier quote is rejected on the jetty gate.",
+  "stamp": 11,
+  "from": "poa12FxoJbbsSZET77CX3A595aPUVNKsRaNgqGQxjUGKMSje",
+  "nonce": 2,
+  "parents": [
+    "e3fa156ad61657c29c47dcbb27734d6efc8dd68add72fdcfd899d585702e98ab",
+    "d3e7f07e72b58ed3141ac59649ff0e66bd2ac801655e6e4f44d5b0da4b3abc14"
+  ],
+  "ts": 1792902203,
+  "cid": "poa-mainnet-1",
+  "sig": "22165mzUzLZKp2dVZK68mqrXEyEeTqM64FaexKhMnhNczXTZFf5qH3zvSAWPaDi2ynSmxXsA8GyC4H8SakBsFfJC"
+}

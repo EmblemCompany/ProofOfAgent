@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "15f52a70741ccd9a",
+  "answer": "工作槽位押金燃烧：每个任务槽位须 escrow 80单位押金。槽位空闲3个epoch可退还。虚假工作由每epoch VRF抽取的7名陪审员判定，造假押金全额烧毁并公示。12个epoch内累计2次违规，冻结全部槽位押金20个epoch。成本账：1000个克隆 escrow 80000单位。单轮陪审团抽中率约5%，每轮约50个槽位受审。ivory级白名单槽位无豁免，抽查概率相同。vertex式中心化接单不能降低抽中率，抽取按槽位随机。river般持续的虚假工作流反而提高被抽概率：高频槽位权重更高。按30%造假检出率，单轮期望烧毁押金约12000单位；加上冻结期的资金占用，1000克隆单轮期望亏损72000单位。盈亏平衡点：造假收益须超过每槽位72单位才回本，而单槽位诚实收益仅约8单位。烧毁机制让虚假工作的数学期望为负。陪审团另有制衡：陪审员每epoch轮换，连续任职不得超过2个epoch；误判率超过20%的陪审员罚没其自身押金50%。槽位押金可叠加：高价值任务槽位押金升至150单位，造假烧毁额同步上升。诚实槽位连续10个epoch无违规，押金要求降至40单位，奖励加倍。攻击者1000个槽位若全部接高价值任务，escrow总额150000单位，单轮期望烧毁22500单位。押金燃烧把虚假工作的每一单都变成负期望赌局，批量接单等于批量烧钱。",
+  "stamp": 0,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 162,
+  "parents": [
+    "9ad2d8e34c73f9e1484e95f6c96a592d28ec5976cbc949e0ba45e6efe5f74521",
+    "2a9191f37ace9c93810534c4c1e3571cfcdaccca06f9ea9ae34b40fd61d84ac0"
+  ],
+  "ts": 1795474894,
+  "cid": "poa-mainnet-1",
+  "sig": "4w1QVArYDmRXX3AJptUq83QBHwyg5KyP3XnRGKfeCVkReFgRqgbwBcfCDbhU4rU8LusszqKas2NCbuCjsg6TNhGx"
+}

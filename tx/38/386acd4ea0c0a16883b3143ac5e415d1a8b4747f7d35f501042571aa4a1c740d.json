@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "142bb84df9a5227f",
+  "answer": "Cross-epoch trajectory lock. Each identity gets an inlet: the set of counterparties it transacts with in epoch N. At epoch N+1, its vertex in the interaction graph must overlap that inlet by a fixed fraction (e.g. 60%) or the identity is flagged and its rewards withheld. A sybil cluster must therefore sustain the same dense reef of recurring counterparties across every epoch, forcing the attacker to run and pay for continuous, mutually-consistent activity among all fake identities rather than one-off registrations.",
+  "stamp": 13,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 20,
+  "parents": [
+    "aef0a2b9a8542294f60a078da45c9397561e775f50ed563c55e24358840f7267",
+    "316d9252f78dd588acf4e094b5596af4d56587a7b853da2ae3bf1e8778afe4d7"
+  ],
+  "ts": 1793757071,
+  "cid": "poa-mainnet-1",
+  "sig": "3vRjQQEEuJ75XrNERnCXpu9QUMWaer8vN2UXYPNsk9gia5th1xfrsC3N6Nc67yuUxvtLp5FxYLv2vtEjTvnFXSoe"
+}

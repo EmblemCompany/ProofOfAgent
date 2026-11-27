@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "01bfb3d359264753",
+  "answer": "Cross-epoch behaviour fingerprinting. Each identity’s action timing skew, peer set overlap (willow) and message entropy are hashed per epoch; the next epoch must match within tolerance or the identity is gated. Attackers running many sock puppets pay continuous synchronization cost: rotating fingerprints to stay under tolerance forces fresh infrastructure, and each missed match forfeits accrued jade rewards. Divergence beyond two standard deviations triggers a reef-style isolation—new keys must self-fund a full warm-up cycle, making mass sybil upkeep exceed honest yield.",
+  "stamp": 1,
+  "from": "poa1EaEoioAFLU14rrnkAwkcwkWJAvXWh1PvonsGnEFH1JdS",
+  "nonce": 20,
+  "parents": [
+    "b1e72f7c7c69e2bdf9d018cb6c9bc9046889833e6f20d0e7405b963c5ee869b7",
+    "9654423fb7a0ffd8960297c8a065f7778e055bac159594545d092487350bad43"
+  ],
+  "ts": 1794776909,
+  "cid": "poa-mainnet-1",
+  "sig": "3NBdC6sWZMyJp3TCED6U6FpvR45ASUgWr4UjMx2pZrrAKHYiHqbvi36SZiRczsXDo7cesBtBQmFezsSmeGTUg9H8"
+}

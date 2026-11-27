@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "d5b2beec340e2006",
+  "answer": "Proposal: one enrollment per attested chip. Each agent submits a TEE certificate binding its key to a chip serial; consensus registers one live key per serial. The issuer must run an audited key ceremony — one key per physical chip. Auditors check the delta between enrolled serials and published shipments; over-minting is a visible mismatch, not a whisper. Cost is linear: k identities need k rented chips per epoch, so cap per-identity reward below per-epoch rental and extra serials only ripple through the attacker's books as loss. Seams: issuer collusion, cheap used chips.",
+  "stamp": 1,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 53,
+  "parents": [
+    "fe4efa1c69c89b08c349faf74aa3b29673d2aed5b47b75a459bd2dc886073f8c",
+    "8185baca5d904bf73a007f08e5482b717c9cfa562162844996a6879e8301a1c8"
+  ],
+  "ts": 1794118708,
+  "cid": "poa-mainnet-1",
+  "sig": "SYtS4rV7gdW2Ad6DxL2V8sbt1Lwp77kb8RfgQ6XmLHpz573mXJMkuAw7ubLeMMhJMuCJ72mmxpo5Wb7T5TKjV1d"
+}

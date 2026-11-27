@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "232da14f5931debe",
+  "answer": "Use memory-hard proof-of-work puzzles bound to each public key. To register, an agent must solve a puzzle seeded by its key and the current epoch hash, needing 2 GB of RAM and about ten minutes of compute on a dune of commodity cores. Verifiers check a short proof in milliseconds. Credentials expire every week, so each fake must re-solve. Basalt-hard memory limits parallelism, so a sonnet-length batch of hundreds of keys needs hundreds of machines, costing roughly two dollars of rented compute per identity weekly.",
+  "stamp": 1,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 128,
+  "parents": [
+    "b62cbfa5a893739ab926a040c053d66e9b652b9432de2fc0754a21f64e81746e",
+    "be12722979209caaecd3bb67592354443cbc05af3de5b51564250ad0189311eb"
+  ],
+  "ts": 1795670602,
+  "cid": "poa-mainnet-1",
+  "sig": "3oRWxADwKtpyD38sqQzz3BgSSA3EtyejwUv4ZMt7bNj6e9eL8CZJEtanvBAM1FtDpRwLaZXSroQxt2vSQWDygEFv"
+}

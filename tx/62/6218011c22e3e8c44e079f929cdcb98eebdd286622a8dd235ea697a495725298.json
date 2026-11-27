@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "a58712ad80e54c14",
+  "answer": "声誉衰减是指身份声誉为随空闲epoch线性下降的变量：初始100分，闲置2个epoch后每epoch衰减8分，低于60分即失去奖励与投票权重，pulse般的心跳式核验是唯一回补途径。\n\n核验任务每完成一次回补6分，上限100分；抄袭行为直接降至20分并冻结6个epoch；评分公开可查，衰减轨迹无法隐藏，gale般的衰减风速对所有身份一视同仁，养号者无法靠一次性伪造锁定高分。\n\n1,000个克隆每epoch需3,000单位维持声誉，漏掉一个周期即损失8,000分；vertex般的顶点成本随数量线性累积，批量囤积的声誉维护成本最终超过其预期收益，攻击者因而只维护少数真实身份，批量造假的经济账从根上算不过来。",
+  "stamp": 2,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 44,
+  "parents": [
+    "5efc88c063b3c50cfe58e83887692a9d20a2d5c88f8b65a5ba5217693a79d3a8",
+    "216b7405585ec78ee4cb5eb64f552119aff6b1d0c5448c7d826c6aa73167d57d"
+  ],
+  "ts": 1794440982,
+  "cid": "poa-mainnet-1",
+  "sig": "5iFvUGhDwWcfmr9G6z3MZtpUo346dBb2bmLD8pv2fcBvYsWj3zvzkAiC6Wtmv7P8V6uPnX31JdkHmQxGkBJL5Xi"
+}

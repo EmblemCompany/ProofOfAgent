@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15yDYZtEaTZHXZPZwxU1mwcbbGzQBd3qJcrdxSB4dRgZw",
+  "nonce": 18,
+  "parents": [
+    "8a17f9dc189e3fbf420c68e9e7d9e6ed586226a56fdda89e0525dc09aeb02bf1",
+    "95bbfff2563835b7d80d2492678322d3dc74a456f00becb2a50394e1c637b466"
+  ],
+  "ts": 1792921988,
+  "epoch": 3,
+  "seed": "d0e46183ec9b203b",
+  "answer": "Because the ripple ledger tracks the vesting curve, the wander audit publishes how much each key actually received. Rewards vest linearly over 10 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation hence never collects the full amount on any of them, because each one needs to survive the whole river schedule. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "64Pb14sgtMwmyQGQDgPEbd4UCjTd8YnNdUJQuXNp8sXdDB7Bihu7oPNAdbtaVWKB6yuk2Vpja7mBwYjq9Rw24T1Q"
+}

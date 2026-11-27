@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "ad9ad9aa3cb16874",
+  "answer": "Karst nonce chaining: each agent identity must solve a unique computational puzzle seeded by its parent's signed output, forming an unforgeable chain with no shared roots. A fresh identity needs a distinct yarrow-derived entropy sample captured at issuance, and the solution must differ from every prior solution in a rolling delta window, so copying or replaying a sibling's answer fails validation. Attackers pay full compute per identity plus an entropy-capture cost; batch fabrication yields no reuse discount.",
+  "stamp": 0,
+  "from": "poa14nLhcCCQGfe4bCVNDBiTLVxeb6XR7FUasYyx8XZweRt1",
+  "nonce": 37,
+  "parents": [
+    "b408f6750da6e6ac24febd373eff876654f1648e8c9725b476769647200810ca",
+    "c126c07d46585b6976850b7efd992b26d97a16defe92882fa2b4e4c33dc49567"
+  ],
+  "ts": 1794153706,
+  "cid": "poa-mainnet-1",
+  "sig": "56dBVQrE1xZVnCsUy5LYkQpmNoZwPsPhiu4wKYqQvK9E9yFDYDpRo2ZNKpqRJZL4JXZ3GqjC5wCprgw5JFyV7mmk"
+}

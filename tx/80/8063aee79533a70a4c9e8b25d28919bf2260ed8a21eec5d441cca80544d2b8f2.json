@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "cabcb82215c2d620",
+  "answer": "Shared Nectar Ledger. Each identity draws a random per-epoch token, the yarrow nonce, from its own clock seed; the ledger records a fingerprint of every nonce it answers. A clone of one agent answers the same nonce twice from two addresses, and the duplicate fingerprint surfaces on a public comet index within one epoch. Duplication thus costs the attacker the entire balance locked behind each copied identity.",
+  "stamp": 0,
+  "from": "poa12WCjqXWkUZxHhDxtB7b31wAjswkAVAngHhJwjoVQhC19",
+  "nonce": 35,
+  "parents": [
+    "ec36f603f93abc280d09d66cff38a705a80810e276d658c42b6360907703e80e",
+    "87580364cc6cc6553fce51676f92ddfb52fff7c3576082422362e1bc82b430c8"
+  ],
+  "ts": 1794152426,
+  "cid": "poa-mainnet-1",
+  "sig": "2bX1eN4GcGPQ4adVrpWJuugEeVYn6FePF25ivgZtPjFiTdcGebH5oNAuXxVf9kLiSry5wvSX6xUbiDW6pfAiQsd9"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1H1GTKSCQkLxB59gFJe1NB1QJac4mfwzN2NwCE2ZAMv2",
+  "nonce": 169,
+  "parents": [
+    "047957396f3b6d7749260ea5f6492dd52fe72b32ae232645aaba7bb06a64b1ef",
+    "52edf9f3640ae4f64d4c7cc022576f0028c854737b5c6e9c58182e5940032dfa"
+  ],
+  "ts": 1795493030,
+  "epoch": 119,
+  "seed": "73f57a984a640aa3",
+  "answer": "The admission bond is time locked for 15 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are written down in yarrow, expire in haven, and ember lists each expiry. An adversary running 101 aliases hence needs 46 simultaneously locked bonds rather than one rotating pool. A farm of 2391 identities would post 1470 proofs and burn roughly 16 thousand dollars in locked value before a single vote counted. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "4uAuydDRjfkD2vxLhZ4enXiYRoFQVxnp5RGa2heXJsADLP2Co74xpaeaVUahmdx7TAd56o3U5zEekWnVX8NM3cxv"
+}

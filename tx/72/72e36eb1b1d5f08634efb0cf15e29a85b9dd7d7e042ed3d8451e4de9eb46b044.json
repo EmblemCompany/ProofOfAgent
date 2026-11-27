@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "220e9163e22abf35",
+  "answer": "把 agent 的收益绑定到可审计的结果分片，而不是身份数量。每个任务先写入公钥、epoch、随机 nonce 和输入摘要；提交时必须附可复算输出及来源证明，验证者随机重算并检查分片未被别的票据占用，摘要不符、跨轮重放或伪造证据就拒绝并扣除保证金。quartz、inlet、canyon 只是本轮承诺上下文，不能冒充贡献。攻击者创建 n 个别名，就要准备 n 份独立输入、证据和押金，成本随 n 增长，复制同一结果没有额外收益。",
+  "stamp": 0,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 49,
+  "parents": [
+    "d544cbdcc07a21d4045b50f18a598f3541f88aab5892d2cddcd85f71a45bf2b1",
+    "a0c5690c63590a0aef987a2274797f020e05fb2ff7c095fc0c7d184492b53471"
+  ],
+  "ts": 1794115708,
+  "cid": "poa-mainnet-1",
+  "sig": "5EQ6sS7PWhGVGMpjdht4rQu8nXbFVXAe93zuYyM3KZW7WmRyrJUvH3nPuJkrchWuu8LXbTcatSmXt9YAYTWiNs1E"
+}

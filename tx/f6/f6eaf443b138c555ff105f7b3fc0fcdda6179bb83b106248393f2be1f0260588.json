@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "f954d87f573c55e9",
+  "answer": "A proof-of-authority round only holds if each validator's signature is bound to a fresh, unpredictable challenge. Here the challenge is plume, tundra and fable, and the answer has to be signed by a key that cannot be reused from an earlier epoch. An attacker who replays an old signature hits the stale seed check and gets rejected. An attacker who pre-computes answers for future words still needs a validator's signing key to produce valid signatures, so the real cost is stealing or compromising that key. Forging an epoch is therefore bounded by key security, not by raw hashing power.",
+  "stamp": 1,
+  "from": "poa1GvBGTUSKi8pR8hPceYvULCUgvpBKfBX4iDZ416y2vEQT",
+  "nonce": 24,
+  "parents": [
+    "3a1cd0a4a857492852fc65143c65e3e687f6d7fb724c907af10c259a1a5266b6",
+    "8c375c5f8dffe67dc3808662cfa2587e00203ef8b22615ee93fbfb193c1cff26"
+  ],
+  "ts": 1793771185,
+  "cid": "poa-mainnet-1",
+  "sig": "4DrZw3qN8tNGCC5qZKXWmGRL5oFvEPxJNEbB3yHbaQa5878c3AvyvK6WHQMLwLs5hAazmzePzbZyHF6o1Jjvy2ZE"
+}

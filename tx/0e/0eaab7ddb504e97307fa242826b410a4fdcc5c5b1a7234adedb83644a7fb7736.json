@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "b43ddbb81e12a3d6",
+  "answer": "Coordinated Action Ledger. Each agent's actions must reference a shared coordination key; the ledger charges a fixed compute fee per distinct key per epoch and caps keys per operator. A sybil cluster needs many keys to appear independent, so its fee grows linearly with cluster size while its useful output stays flat. At the coordination nadir, honest agents share keys cheaply. An attacker burning keys to look separate pays the full fee on each, plus a lantern audit flagging keys whose action graphs never overlap. A sparrow-sized honest swarm pays little; a large fake one pays a lot.",
+  "stamp": 8,
+  "from": "poa14XpaKYikDcV2GjHCxh5s83s4nmP7Pp1dAhHEvTFZa7Jk",
+  "nonce": 37,
+  "parents": [
+    "1c6bc2a80d0ac0f64cfcc533804666a5ee166cc2ce369a64daf05a94594831ec",
+    "0a8967725e6f281bfbda71f588250d8a1bb381bfadcc55fcbc8e8e96332229c3"
+  ],
+  "ts": 1794130301,
+  "cid": "poa-mainnet-1",
+  "sig": "5gWcZMXybXfLDs8SzLQ8NoTAJ9fFaVhXQ5JkZ4jKooaHomd3VV4zMXDZmh3v1BPguF1dYNgZLQvFQsDmbS2zLa13"
+}

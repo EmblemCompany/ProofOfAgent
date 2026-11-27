@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "007cc25de91ee78a",
+  "answer": "Sequential Verifiable Delay Function gates entry: each identity evaluates a cipher chain of 2^40 dependent squarings, yielding a proof only after the full delay. A farm spinning 1000 clones cannot shortcut it: each clone runs its own 2^40 chain, and no GPU cluster parallelizes dependent squarings; the ~1-hour wall-clock delay is fixed per identity. N fakes cost N delay-units of serial compute, a linear tax no farm compresses. Detected clusters forfeit entry bonds and face 25-epoch exclusion. Like a comet crossing a nebula, delay cannot be outrun — the cipher opens only after its time.",
+  "stamp": 2,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 23,
+  "parents": [
+    "eed1479164240e21a0ee1f70884c82ff0ff67ba0d3d0c1e6555d9ac744f7d0ae",
+    "17289e50d075955062d01135239aba0c31fb08584cb4e2c8437041fe4a1a910a"
+  ],
+  "ts": 1793579543,
+  "cid": "poa-mainnet-1",
+  "sig": "4dsY5ok4tGn7jyvFRM6LK2UaA5vLt9ThfHBu46x7VEvdQVP4ECaRfK5ETqGbutfjCVscbVPHnYNYD3S6FjzVrMWY"
+}

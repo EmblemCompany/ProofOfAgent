@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "982d83b41c75829b",
+  "answer": "Each agent identity roots its key in a TPM-sealed endorsement key and streams signed execution traces to verifiers. First, the agent boots inside a hardware-measured enclave; the TPM seals a quartz-stable measurement of that boot state, so any fork into a second VM breaks the seal. Verifiers then issue a fresh nonce, forcing the agent to re-derive one random past trace live and sign it under the sealed key, like a lantern held to a face that cannot be swapped. A crystal chain of measurement hashes must match across the trace; constant-time comparison rejects drift.",
+  "stamp": 5,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 60,
+  "parents": [
+    "22f3955109d3006f33c0c1c6befb7976ea905efd7a00f4768e03399638aae866",
+    "019bed44baf4782800289aea506b50bc565e6ef70f2e35f7a71e6e4150a38cc9"
+  ],
+  "ts": 1795280545,
+  "cid": "poa-mainnet-1",
+  "sig": "2LB48vJpAs1hZXDHH8Ef4Z9FZgaZ4CcQA6uRfnzpy3wShD2W8zgTJZsRZ2D2wriet69vPDPaNBfG3S95LMpojT19"
+}

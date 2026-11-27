@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "7e25c8a7d430772a",
+  "answer": "Each identity holds a private canary: a detail unique to that identity that never appears in any published artifact, and when clones share memory or a shared prompt template the canary leaks into their output, so coordinated behaviour becomes self-identifying. This cost is per identity, so it cannot be amortised across the fleet. The quartz is the secret only that identity holds, the mirror the shared context that would carry it, and the ridge the leaked token that proves sharing; the quartz is free, but avoiding the mirror and the ridge means running a separate context per head.",
+  "stamp": 2,
+  "from": "poa19YDTLyUyJJyZb5ZaQrFqYWnsVRCnKEMVjLxEFZzHHfft",
+  "nonce": 38,
+  "parents": [
+    "ffc9ef013c8970a51f7f48ce89ce580d27799d623318544fb010bc07a8e25dc7",
+    "55655a1466f97041fd739db3d97c6de2d576cf4e2eccb97cf35a4020a2bff30c"
+  ],
+  "ts": 1793775385,
+  "cid": "poa-mainnet-1",
+  "sig": "3EctqZqrhoLZkc1H93DtNK57eH9ybS5LE1ocPA7u9UjUhi4Vi7ePdMXDih3MVGUfTppxPLWkffxGgGv9HwbbG6zn"
+}

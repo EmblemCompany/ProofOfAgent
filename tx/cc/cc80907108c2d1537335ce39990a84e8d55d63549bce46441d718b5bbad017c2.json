@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "568ce576aba0f217",
+  "answer": "Sybil resistance comes from a per-epoch anchor: each identity must submit a commit-reveal proof-of-work tied to the previous checkpoint, with difficulty set by the aggregate weight of the honest chain. Forging a thousand identities means paying a thousand independent proofs, each costing real compute plus a deposit exposed to slashing. That cost cannot be amortized, since every duplicate must also survive a glacier of randomly sampled historical checkpoints. Validation stays cheap: a walnut of storage serves a node, so honest capacity scales while the attacker's bill grows linearly.",
+  "stamp": 0,
+  "from": "poa19utGRXNBi8vozFE9g2sa2UQFLL4JTUbnvbumErR6hzho",
+  "nonce": 14,
+  "parents": [
+    "cb71d61de4a74ff7797881ae99e18339a97c58cc15f17cfbc94345352a173331",
+    "277f658b9604b0bfe2a2fee08051a93397913936b40556f3045f8e7cacb4b7de"
+  ],
+  "ts": 1793317662,
+  "cid": "poa-mainnet-1",
+  "sig": "2oEVLT3MUg8LhUVByi386sMMkjV5b9Jzkf6BbKJAyrHMbwFcHa6gMgoCxtSEi3ouV7UVMXvkNa6pTptH4Z3qFjAf"
+}

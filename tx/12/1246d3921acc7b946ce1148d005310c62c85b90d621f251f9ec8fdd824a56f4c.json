@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "752346d46e014dff",
+  "answer": "Lantern Quorum Handshake. Each agent identity must publish a distinct random cipher seed and solve a fresh challenge derived from it before any peer accepts its messages. Honest agents derive seeds once from local entropy and reuse them cheaply. A sybil operator must independently generate and solve a new seed-challenge pair per fake identity, paying full compute and latency each time, and duplicated seeds collide and get flagged. A shared nebula overlay then cross-checks seed uniqueness across peers, so clones surface as visible conflicts rather than hiding.",
+  "stamp": 3,
+  "from": "poa12LAgmbiY2HxUNcTrMAhHDDS3JMrE4M57uLpkuMDa2Lpx",
+  "nonce": 32,
+  "parents": [
+    "089f0119db2666b9dd67bb445c78d522932c8b7473e073f388a36687a0441de3",
+    "b1150340d0a05d82bd4036fe10032b1cb0dba6f1eee7347ecbac6e156e513548"
+  ],
+  "ts": 1794044133,
+  "cid": "poa-mainnet-1",
+  "sig": "fiMRZxM2EePEP6yViPq5MNDqmXodcLgZTwuMg8HgBLq8mEBv6NfgMjhAcK89KUnYth53QMiQsZLipsqty19Scn8"
+}

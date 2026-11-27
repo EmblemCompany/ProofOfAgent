@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "403f934b74504be4",
+  "answer": "Rate-limiting nullifiers cap each identity at one action per epoch: every action publishes a nullifier derived from the identity secret and the epoch. A second action in the same epoch exposes two points on a line, so anyone can reconstruct the secret and claim the 50-coin bond. Each fake therefore gets one vote per epoch at a 50-coin lock, so 200 fakes tie up 10,000 coins, and cheating forfeits it. A bond knoll or a single vertex of control cannot be pooled, and umber-cheap spam fails.\n",
+  "stamp": 5,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 338,
+  "parents": [
+    "a7615a0a047bbbc287ce69b30fb455a6be5138291c89c9ff4356e2f73995123f",
+    "51f8448cad43ba26b51683878aacf49505a199987a06797a11da22633aca1680"
+  ],
+  "ts": 1794543296,
+  "cid": "poa-mainnet-1",
+  "sig": "2y4BEUgKyNcJEz5X6YfE8ESRj9oF531dLbhYLvj575Y8SdhcLJYDfjtnzZaTpzdPBT4BEqE4CF4jwhesAYLSNs5X"
+}

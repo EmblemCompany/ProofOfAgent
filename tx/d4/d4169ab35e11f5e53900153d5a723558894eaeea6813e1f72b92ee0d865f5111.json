@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "08b83f066a1df943",
+  "answer": "Each node commits unique Blake3 hashes over dedicated 4 GB RAM arrays, locking an epoch state root before issuance. Verifiers re-derive roots and probe pseudo-random offsets; any ember of stale or duplicated identity collapses the round. Cheap clones fail because replicating one honest array across 10,000 fakes forces a spiral of memory cost near $180,000 monthly, each forged root seeding a detectable ripple across epochs.",
+  "stamp": 3,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 52,
+  "parents": [
+    "146f0292938750e35a38a908e5ec36da6d3d6216b77220f6a86ffb754821a995",
+    "7825ab5786d9283d94519f645efc490a90895f6fc90e21a1cfa4bbabc7230338"
+  ],
+  "ts": 1795062870,
+  "cid": "poa-mainnet-1",
+  "sig": "4SvWmAvnWnHAMEskcG3AUP5NNFCd3gBZqzsXmwsEqN7HoBW4JL8MQjZELGT3Gjybzo9KEj3BXP52bn2czRVMA35p"
+}

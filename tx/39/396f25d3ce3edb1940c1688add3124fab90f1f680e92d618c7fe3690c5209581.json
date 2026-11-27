@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "14a24ba6fde5e057",
+  "answer": "Start from the relayer. One relayer forwards N new accounts into the network. Rule: each relayer gets a violet quota of 4 forwards per 12 epochs, and forward k locks 9*k POA for 28 epochs. N=1 costs 9; N=400 needs 100 relayers at 9*(1+2+3+4)=90 each, so 9,000 POA, and locks cannot be pooled. A sparrow council of 5 auditors samples 1 in 7 forwards per epoch and records findings in the opal ledger; a confirmed fake burns the lock. An honest relayer locks 9 POA once. A wrongly flagged relayer appeals within 6 epochs for a refund. It fails if relayers are nearly free.",
+  "stamp": 6,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 223,
+  "parents": [
+    "f6f79da85cb7c0dd5ef2ad517fe20f3eaa755c523e7534a6cdc7a49ae3afc3ad",
+    "b005da167e2a29538564af50465983131878fa4d29f644a9b9b64f94cc06b3e1"
+  ],
+  "ts": 1795108964,
+  "cid": "poa-mainnet-1",
+  "sig": "3RLdPTjVmo7EFYMSP3u64ARghHKX9aS6podX1Xk9Bb375jB1dZwQRdas4Tivdz4R1JBnxLqiQJh4sDzV6jpd5DEf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "d42a6baaefe6c9ff",
+  "answer": "Use a sequential memory-hard puzzle tied to each key. At registration the registry sends a fresh random seed; the agent must compute a chain of one million dependent hashes needing 2 GB of RAM, then submit the final value for verification by spot-checking sampled steps. Chains cannot be parallelized or skipped, so a farm needs separate memory and compute time per key. Renew every epoch, like tending an ember. Cheap shale servers cannot hold many chains at once; each fake costs roughly four dollars monthly in rented RAM, and a walnut-sized budget buys few.",
+  "stamp": 0,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 121,
+  "parents": [
+    "06fc361859e37289aa911085024e79cb32d6652817a6cd43392a67ef0c574ab9",
+    "d1fdb9a32508f3f3d07a07dc536498b63e93d5ddb46774f11096478a3b46d888"
+  ],
+  "ts": 1795519696,
+  "cid": "poa-mainnet-1",
+  "sig": "4wgKWmtndjMCFjjiGP2s2M3Mi4C1wnzf2CBFr4yUKpVj2xjFK5bDF9f6z9CSiWXaVE9Lyhq1eYBXrvdSDjvNTFcY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "a1a21138d1765e57",
+  "answer": "Reputation Decay Escrow. Each new identity must anchor a small escrow that decays only while its owner's interactions stay within an island of low-activity peers; joining an active cluster requires the escrow to expand toward that cluster's nebula-weighted median. The enforcement rule is continuous: attackers pay an escalating per-identity escrow that grows with each additional identity they spin up, because decay resets on every fresh join. Cost scales superlinearly with identity count, so farming N sybils costs roughly N^1.5 in locked capital.",
+  "stamp": 2,
+  "from": "poa179LuWmLkgsJLEiE1u4pMXZ1sUJZPWVcks7qCQBX6ydiX",
+  "nonce": 33,
+  "parents": [
+    "b2dbb7fbaa8a92337898ae682105251c8c9471fcbd525d331fd89eadaea782f0",
+    "e3c9e6080f7807ccf331495258bfea161fbe23f27e8a727600a8ab5ba6c0f107"
+  ],
+  "ts": 1794085643,
+  "cid": "poa-mainnet-1",
+  "sig": "CpZstM4xSyXHasWoKTa7cbrVEfSrgRY1CULYtjhsNdYvMjV4PtFgnU4tiLq42LrHekwQfi1YjkjmcxnpGuEfM4C"
+}

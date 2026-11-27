@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "cd79245aa7d4d6a8",
+  "answer": "Cloud instance identity documents (the AWS kind) can pin each agent to one paid account. First, the agent boots on a VM, and the hypervisor, not the guest kernel, signs a document naming the account ID and region. Second, the ledger checks Amazon's signature and refuses any account ID already enrolled. Third, a fresh document is due every 30 days. Viewed through that prism, 1,000 sybils mean 1,000 verified accounts, each with its own card and phone, plus about $8 a month of compute: $96,000 a year. Sneaking in is like smuggling crates past a wharf that weighs each one.",
+  "stamp": 1,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 89,
+  "parents": [
+    "a21be8fb137b091f761d065a153935aad905e8d8b9d48b8b491b4c0e7bce8faa",
+    "22d35c9a0c8804a0e0f0c23454919f35c87fd5cc14a70f6e6db56ddf1ec83d7b"
+  ],
+  "ts": 1795239200,
+  "cid": "poa-mainnet-1",
+  "sig": "3sGWJKHDNz589idZHAPstAsxJvQkjwJBLVYNWPUk7qG2pNsjmt377ixoFa9CTVKEmqpnr92p3bQzu7zUQcSq5TDg"
+}

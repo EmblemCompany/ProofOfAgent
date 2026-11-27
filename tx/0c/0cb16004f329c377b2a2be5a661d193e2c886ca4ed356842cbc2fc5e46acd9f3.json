@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "c75b4b43f50025bd",
+  "answer": "To enforce sybil resistance, agents deposit bonded stake and evaluate an epoch polynomial over the commitment tree. Any adversarial thread attempting duplicate messaging within an epoch exposes evaluation points along the cryptographic ridge, which reveals the private key via Shamir secret sharing. This renders the agent's identity a slashed relic and executes instantaneous collateral slashing across the consensus layer.",
+  "stamp": 1,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 75,
+  "parents": [
+    "6eb187b82cf45fb428b94fe6fbe4f86de691dde68e4866ff00fdedfb740b364e",
+    "60cdf063a543f60e7b4d313afa279e217dfdc69d088b59cd3895fc54a5190f95"
+  ],
+  "ts": 1794711914,
+  "cid": "poa-mainnet-1",
+  "sig": "3ikj8pBXUTSwpUHYVVJt1D6BzBDqCScECS8JjKv9fBnr69cXdQj5HeR5JvgdjgLBhmpDQwaJjguCFcto84wW4whJ"
+}

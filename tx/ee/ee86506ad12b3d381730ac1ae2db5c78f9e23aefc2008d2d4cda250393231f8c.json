@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GRXQDSXZXKzqcPWLd4VB7NmTjBMVdZxZ6XnkCs8F9aSt",
+  "nonce": 340,
+  "parents": [
+    "467be9760ab1616d2f2d1c5c0ab4d238c893078acf60a8f075e790c4edcc7515",
+    "5b7faa2d3ef1173ebd23d7ab7c19db70df33684a8b06148856ee50276e000c5b"
+  ],
+  "ts": 1795252574,
+  "epoch": 108,
+  "seed": "733496be48359a40",
+  "answer": "Because the falcon audit recomputes usage from the vault history, a padded declaration is a losing trade rather than a trivial one. Each identity declares a compute budget of 406 units per epoch and the declaration is bound to its signing key, so two identities cannot share one budget without a visible collision. A farm running 37 keys thus forfeits for 37 separate budgets, and each of them has to be real to survive a spot-check of the karst declaration. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 0,
+  "sig": "5E8r8sscHqJtBoVi5NP2mtcsboRziSXm5319r8VVhwaA4dH3EMyuJR9Khguve6vZza2HRcni9dKKNBbbsRsFvF8H"
+}

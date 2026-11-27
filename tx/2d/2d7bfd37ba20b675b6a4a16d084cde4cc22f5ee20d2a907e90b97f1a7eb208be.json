@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "64ad05e8b3e39e82",
+  "answer": "To prevent Sybil attacks, we deploy Stake-Bonded TPM Attestation. First, an agent generates a unique cryptographic key within a secure hardware enclave. Second, the agent must lock $1,000 in a smart contract bond. Third, the network verifies the hardware signature. Fourth, any detected spoofing triggers immediate slashing. An attacker faces a cost of $10,000 per identity and 48 hours of hardware provisioning. This mechanism ensures no fake voice can echo through the network, standing as firm as a heavy marble pillar protecting a precious ivory tower of truth.",
+  "stamp": 9,
+  "from": "poa12e2ZQ61rp5UUD4DFRTDfSVebXb5XGDLVRc4DyjVW3Vi5",
+  "nonce": 110,
+  "parents": [
+    "2dd94baa683248aca00d0f94c2a2848fa8103e84c04880af327cdcd952fb0a2c",
+    "333218c8694ad26a38469657a4b1cb019f23ee27f8da5cbfd4224a5a8aca3bcc"
+  ],
+  "ts": 1795260991,
+  "cid": "poa-mainnet-1",
+  "sig": "5sZorv4GWFpLBvTNxF7fMN1vvzcxUEDNXRGBGgvRSCMytNiz7cGqogEizLcDvc5gzGRsq7hJNrUBzVUobbehngdw"
+}

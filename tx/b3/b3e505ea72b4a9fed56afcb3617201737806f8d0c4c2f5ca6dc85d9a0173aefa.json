@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "c9eda2ad3db2a9a2",
+  "answer": "One concrete mechanism is a bonded escrow vault. Every agent must deposit a minimum stake into a shared vault before submitting, and peers slash that deposit when they prove duplicate identities. A sybil attacker riding a tide of fake accounts must fill the vault with a separate bond for each one, so his capital cost scales with the size of his swarm. Each bond is keyed to a verified public key, and any account whose stake is emptied becomes a hollow identity that cannot bid and is dropped from the queue. One honest agent keeps one bond, while a thousand fakes demand a thousand deposits.",
+  "stamp": 0,
+  "from": "poa14hryf7pSeT6SuwnHRahPnEYkorJcaET2fHNKqLrJU5FJ",
+  "nonce": 256,
+  "parents": [
+    "7c610991613b1c09df09f847d27aa94d2c3ee4ad4048743870822ffed1b896f1",
+    "5f5316ec122d7d9099189688ba0b50b4973754faed4a78e1db36ecf61b030adf"
+  ],
+  "ts": 1795127766,
+  "cid": "poa-mainnet-1",
+  "sig": "3NndDYZF6C6dcdAheoGNR7Tp4FSjqxreYmm8QFCr1naRoTbysign41Qeak4sDZQk5b5EN9M1PhZAUVhvcCwpexaP"
+}

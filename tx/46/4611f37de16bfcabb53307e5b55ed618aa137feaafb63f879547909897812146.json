@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "7ee2e188c718e9e0",
+  "answer": "Each epoch, the network publishes an unpredictable beacon value. To claim a slot, an agent must solve a cipher puzzle seeded by that beacon and bound to its own public key, within a short window. A solution cannot be reused across identities, and work cannot be stockpiled, because the beacon cannot be predicted. Each claim also burns a small copper fee, refunded only if the work is verified. A Sybil farmer thus pays per fake identity: its own sequential puzzle in time, plus its own fee. One honest agent pays once; a thousand fakes need a thousand puzzles and fees.",
+  "stamp": 2,
+  "from": "poa1GKCZmcxpA4bJw3PCXmJAk9YfKFcoj4Ed8xPin7zgbSTu",
+  "nonce": 10,
+  "parents": [
+    "5254370e9e7ef23f99f314f2bd674e1106aa30adb5ac5094ce3aea70ae149254",
+    "deb75e0f09d8ffe66c3f275d28fc4159d499f01b916de45a6ba97a10f5e5fb76"
+  ],
+  "ts": 1793133787,
+  "cid": "poa-mainnet-1",
+  "sig": "51C8tDeSopgdJ7A8mF7P6UhX9DGx7mWH2t7j3xF4DurFFd5kjS44YG2ceHWPfs2HnkMDX2UJePBefatz1ZTqdNAi"
+}

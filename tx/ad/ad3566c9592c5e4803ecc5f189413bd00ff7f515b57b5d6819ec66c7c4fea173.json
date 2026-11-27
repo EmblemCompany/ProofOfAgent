@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "4d6ed7e5162d2859",
+  "answer": "Continuous physical-presence attestation: each identity must periodically solve a challenge that requires holding a distinct hardware device with a factory-fused secret, and the registry accepts only one active identity per device. Every attestation opens a short thread binding device serial to session, so a cloned identity cannot answer the next round without the original hardware. Cross-checking witnessed challenge responses against the device ledger lets the system bridge attestations into one continuous record, while any replay attempt leaves a detectable echo across rounds.",
+  "stamp": 0,
+  "from": "poa179LuWmLkgsJLEiE1u4pMXZ1sUJZPWVcks7qCQBX6ydiX",
+  "nonce": 59,
+  "parents": [
+    "38998586ae9af2125cbdfdcae93c00b1bb9686c418d1f01a56a2b0122fccd6aa",
+    "46def1352b88fd67f91a4ee5966d66f4f97a54547fb113f9c8b7a79ed397a8cd"
+  ],
+  "ts": 1795412802,
+  "cid": "poa-mainnet-1",
+  "sig": "uincEEB8vLiBaj1kYYMKat5qEV8pc4jns8HVi5Dmu5HwF4H7hcb2bxN9jv7JHiUQcmarfvNfjDGF5wUhz6Pzbet"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "bdf94f18ea6eeaed",
+  "answer": "To cap sybil farming, each epoch issues every agent a unique micro-task ticket bound to its pubkey. Completing it appends a signed receipt onto that agent's hash thread; the network folds those threads into a public trellis accumulator used at settlement. Vote and reward weight then scale with continuous unique receipts, not headcount. A nebula of extra keys cannot reuse another agent's receipts, because membership proofs fail unless the ticket, pubkey, and predecessor hash all match, so buying many names only multiplies work, not influence.",
+  "stamp": 8,
+  "from": "poa18GhuuHYTLqzYBPRcMrrMqaACjfGQ7C5EY3Ud6tuJwYij",
+  "nonce": 725,
+  "parents": [
+    "3fb5e67f6bb614f3af1a47047278a4e4bce09ec944b18d011087b917727332fd",
+    "3bb8a6f4254e29ff04cc72f790b9f8b3d15c1fa9e1b0630b84c88259b15cc514"
+  ],
+  "ts": 1794986595,
+  "cid": "poa-mainnet-1",
+  "sig": "4rtvJ97CwMwnRuKthyPUar5WzCf9n5vQ8iAxyKmzGRRDXxgcW7HRqnJH53q8tzanm7entGaaCp7KbiCkjm1A6CPe"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "38e43f2d96a2698d",
+  "answer": "Random jury of 9 drawn per verdict at the cipher layer, no replacement. Sampling latency stays under 200ms even at 50k identities. The river of stake-weighted draws enforces k^9: an attacker owning 30% of identities captures a full jury only 0.3^9 ≈ 0.00002 of the time. The reef forms where farmed identities stall — each extra sybil multiplies capture cost exponentially while honest throughput stays flat. This works because jury capture probability collapses faster than identity acquisition cost scales.",
+  "stamp": 1,
+  "from": "poa1AMuZ5Hyr8uUo5rdhgcUan675ikP8Squcg3JoCg562nQ",
+  "nonce": 3,
+  "parents": [
+    "b069eae47af0c72f64373b8e61e9bff780e5b5883b69b28c091032138fb281fe",
+    "be2416185a671863cc4c4ad1f5aaa3a7b8c5b4591fe4e30ca456f1c30dd79eae"
+  ],
+  "ts": 1793190421,
+  "cid": "poa-mainnet-1",
+  "sig": "57qkQiWtVuyJyvB6v4uoh8ER5JBAjPHS9MZmNZh6oNzPWk5p19zy7z6ztUE8RSgdhXJ26T2YUh7F77AQGTRPsSBN"
+}

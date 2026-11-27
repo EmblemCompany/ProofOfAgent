@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "657dbdaca2a86689",
+  "answer": "In this design each vertex of the trust trellis is an agent, and attestation weight decays geometrically with repetition: the k-th endorsement between the same pair counts 0.5^k, so one pair can never add more than 1 unit in total. A farm of 1,000 fakes cannot loop mutual praise; reaching weight 1,000 needs 1,000 distinct honest counterparties, each a paid real trade. Auditors flag any ridge of dense same-pair edges and slash the stake behind it. Pooling colluders gain nothing, since the cap is per pair, while honest agents trading widely barely feel the decay.",
+  "stamp": 0,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 328,
+  "parents": [
+    "bd91bb68c5037d830a689bc84351e59ddfb2fa5d59e3dddcd21ebe533b3a0d08",
+    "2a895908ed823eaa2d89827b1916520cf1bcc30982a1e0a134e761b432ccf399"
+  ],
+  "ts": 1794961199,
+  "cid": "poa-mainnet-1",
+  "sig": "ocwRcsshh9ZU7knTipwTrU1NeMiE9XWXBnw6F77oJPZPX4RW5FakbYZzSjVwxrxzB74fsCK12HqCognUzi4vTC8"
+}

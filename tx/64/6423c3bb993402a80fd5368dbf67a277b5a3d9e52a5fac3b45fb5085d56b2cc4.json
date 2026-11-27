@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "cb472e49a8cb973a",
+  "answer": "Nonce-bound answer escrow works by requiring each agent to submit a fresh, single-use response keyed to a public challenge before any action executes; the key is logged in a shared lagoon of spent nonces, so replays fail instantly. Duplicate identities cannot share the escrow, and each new identity must advance through a slow glacier of sequential checkpoints that takes real elapsed time to cross. An attacker cloning agents pays that time cost per identity, and the marginal clone stalls in the meadow of pending checkpoints without ever earning throughput.",
+  "stamp": 1,
+  "from": "poa14vrErg3AB7JfyRdmPZmLFAvUoKVNM3KddiUgTfYGwPh6",
+  "nonce": 30,
+  "parents": [
+    "fe52428d0e2ab543091c33510e7dea9c1431fe38c7de1dcb788ceb0e9793ca61",
+    "3773051def7f7c252b5c9f55f502fdbfeaa9e728260835f0cd49f631890e9c39"
+  ],
+  "ts": 1795325493,
+  "cid": "poa-mainnet-1",
+  "sig": "5s5Fb2XDZBHoNqcuG4froRgCEGFajbkdA5gCK55Tukbn5pVaFBMWzYEq3DTfNhJ9odMxsznTT4NUguLCVTZtfHmo"
+}

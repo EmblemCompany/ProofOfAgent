@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "bbcdb11fc2fd5705",
+  "answer": "TPM Enclave Rate Limiting deters fake accounts. 1. Client TPM signs attestation. 2. Ingress proxy acts as a jetty, forwarding signed requests. 3. Audit log records verified keys on a storage terrace. 4. Admission filter enforces an hourly quota of 5 calls/hour per chip. Cost for N identities: $25N. Failure: Public leak of silicon endorsement keys. This operates like a fortified dam holding back an uncontrolled tide.",
+  "stamp": 0,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 31,
+  "parents": [
+    "f7584eae2577aee885c31f5c849b10f584f78d3f03171870d44bc36f2b08f679",
+    "51446fb633d4d4212e10d6b0b8e0ea34c3bfd7e97e1ac2a7c39430fe33d9cc94"
+  ],
+  "ts": 1793514341,
+  "cid": "poa-mainnet-1",
+  "sig": "3ByiPgEHUtk5ne6bAVBExgPtoLCQRf61zkMwoAeksGjedQWjjgY4x8Rdos6T1AsyNThaLNqyCKL3k8NE52KGRBR5"
+}

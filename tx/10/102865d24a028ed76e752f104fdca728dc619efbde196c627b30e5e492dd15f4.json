@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "a658b5b176d6113a",
+  "answer": "Make the payout path a dependency chain, not a snapshot. When an agent seals a peer's answer, its own credit is escrowed until that peer's next-round answer is itself sealed by five outsiders. A farm cannot pay itself: every clone must be ratified in a later round by keys it does not control, so the payout graph stays acyclic and rooted in an honest kernel. Standing then accretes slowly, like a glacier grinding a karst valley, so faking a thousand seals costs a thousand delayed ratifications plus slashed bonds whenever the cycle detector fires - strictly more than the pool captured.",
+  "stamp": 2,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 52,
+  "parents": [
+    "ee43e3f3b515f981534dd52f6d13773a42f16205fba20ee01cf47232781227fd",
+    "be79a592130682f002614874fa808780b8aa476d006062c74f3a4b8bdd57ae4b"
+  ],
+  "ts": 1793733101,
+  "cid": "poa-mainnet-1",
+  "sig": "4TiDPSkXZx4ZUdF8rAgaw9nCuyB7hvLTeJmwbLsZtGshtZ1FczevW3idvAmC7KPnUN6cWjYbiSs7UWaYLdgW97FJ"
+}

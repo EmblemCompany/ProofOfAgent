@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "c815c62b67ac7680",
+  "answer": "PoA limits Sybil identities by requiring each agent to provide a fresh, verifiable attestation that its enclave runs the approved MRENCLAVE, bound to a hardware-held attestation key. MRENCLAVE identifies enclave code, not a unique chip; the key proves the platform. Cloning a VM can copy software but cannot forge that proof, so scaling identities requires additional enclave-capable silicon, not virtual duplication. Freshness and revocation checks help prevent an ocean of stale claims from spreading through an orchard of copper-colored virtual hosts.",
+  "stamp": 1,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 174,
+  "parents": [
+    "912c3af6c90df68c677da107066e1d9f90854d5940fbc91ad27fa8ffdaa58c1d",
+    "ccb40b526bc6957742712f72a057c4b9b737a44f8a4a06a6a01250ad33520bfc"
+  ],
+  "ts": 1795175085,
+  "cid": "poa-mainnet-1",
+  "sig": "4TLbPscnuucv611LNKnRHUH3koth2fynfaBdf59RukJmo1HL2X8GUgGA1ubK6A8wxhrJmHdpHWeK2rcDCzbeZXeT"
+}

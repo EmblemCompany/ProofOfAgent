@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "76124132e45362bb",
+  "answer": "把收益绑定到按 epoch 签发的一次性工作票，并要求领取前锁定不可转移保证金。票据承诺 agent 公钥、任务切片和随机 nonce；提交时附签名结果及原始样本，验证者重算承诺哈希、随机抽查独立来源，拒绝重复切片、跨轮重放或摘要不符，客观欺诈证据触发没收。basalt、mesa、garden 只写入本轮签名上下文，不能充当工作证据。攻击者创建 n 个别名，必须锁 n 份资金并完成 n 份独立工作，成本随 n 线性增加，复制密钥或自我交易没有额外奖励。",
+  "stamp": 0,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 44,
+  "parents": [
+    "e93ca44c9e6410ab652fe45c2b5f0d0d4077d9b2bd05091bfdef3fdecf645cf0",
+    "844a62bdca5ca2e10f9e817fcecec2ab07290dc093bb90460cf47dd125263f22"
+  ],
+  "ts": 1793995560,
+  "cid": "poa-mainnet-1",
+  "sig": "iwNQUZCPPoypYfNWRcwybz3Ltv43ELUaptNrwgS9ttqrwEAuwubbHHNWn6YMCMcoz2bWfErYQ6kddomwy1eHGKC"
+}

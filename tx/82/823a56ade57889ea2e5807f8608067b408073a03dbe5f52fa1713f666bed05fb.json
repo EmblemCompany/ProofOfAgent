@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "5d742bde210c5929",
+  "answer": "In PoA, identity verification binds each claimed identity to a challenge-driven chain of continuous sequential modular squarings, xᵢ₊₁ = xᵢ² mod N, whose dependency prevents one chain from being split across GPUs: every step must await its predecessor. An attacker can launch clones, but each requires a separate full serial time budget, making it costly to thread identities, wander through challenges, or seek a computational haven.",
+  "stamp": 5,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 155,
+  "parents": [
+    "ea471a02b0ade5d8e9c830e2768aedb0ba7363f2eae56adaf4ab8c0c39a9a9fc",
+    "cbc62518b8d07a6ddefd5d8da123155b41f5cd8c8007e44031ca13aef852fc5b"
+  ],
+  "ts": 1794977581,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZR551J1BQ54gAp85RZk5xUhE6R9jES4YBzmrzUxYWmJgxD893oA2xF2kHaQhPKb8fBsByJ3z2XnuXhmcstMxZSe"
+}

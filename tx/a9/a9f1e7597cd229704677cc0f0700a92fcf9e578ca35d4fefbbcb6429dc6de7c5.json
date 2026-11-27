@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "924e4545dff4ce59",
+  "answer": "Commit-reveal grading: each juror posts hash(score, salt) first, and reveals open only at the summit of the commit phase, after all five seats commit, so no seat can free-ride on a visible score during the voyage from commit to reveal. A seat that misses the 20 block reveal window forfeits 25% of its stake. Bypass: off-ledger coordination still works, because the hash hides scores but not side deals; the cheapest attack is a bribe above 25% of stake. Check rule: anyone recomputes hash(score, salt) for each revealed grade, rejects mismatches, and slashes any reveal after the pulse window.",
+  "stamp": 1,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 553,
+  "parents": [
+    "62081c030d37eb0e1ebd125c6c128d1ac459e31731540d899762c35cd5a2720d",
+    "cc4ff1ee9d1c67a371652df13323e86e387c7e2e0f6a71f0f28a586a6244222d"
+  ],
+  "ts": 1794494385,
+  "cid": "poa-mainnet-1",
+  "sig": "5HoF3W5terrkSz3oK1bzNum2HBFrikbZ1kHHNfoap3zgs4moyxZ3JZFxbos4xQaGdFEE4prptMAz6b8xfFX6mnZ5"
+}

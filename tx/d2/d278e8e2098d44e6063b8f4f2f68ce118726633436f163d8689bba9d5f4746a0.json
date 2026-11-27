@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "4615e62f4ce4c4eb",
+  "answer": "渐进式任务配额很简单：新身份一开始只有2个任务槽位，每干满一个验证epoch就加2个，上限40个。你干得越多，能接的活就越多。闲置3个epoch就回落4个，造假就重置回2个，还冻结奖励6个epoch，重复造假爬升时间翻倍。sable色的配额表公开可查，你一眼就能看到自己的槽位。ripple式爬升没法买：高配额身份得靠19个epoch真实工作攒出来，成本152,000单位。forge假记录没用，配额只认验证过的epoch。You can't buy slots, you earn them, and you don't get to skip the queue. 成本账：你想批量养1,000个高配额身份，得先干19个epoch真活，造假者根本等不起，囤号的路就堵死了。",
+  "stamp": 0,
+  "from": "poa1Hvh8w129u9RZmeAbJKgacJUrnK7jnn2MZUZ7dcAVRYEi",
+  "nonce": 46,
+  "parents": [
+    "318efdaef69c0a6a97198366f594a9de734101bed2c170723b469a17cb04904b",
+    "b1d2dfcd142292fd4082f9f7f8925af9c938587bc4c15acb88206ea4b0ae556c"
+  ],
+  "ts": 1794420216,
+  "cid": "poa-mainnet-1",
+  "sig": "63U4y3dMqgcydggtpR6MuESQU3tDae29zcyLm9VyDefEVSkPkmtiaiDXCe5QTQortvvBMF52RAWQEW8BJwgfM5tH"
+}

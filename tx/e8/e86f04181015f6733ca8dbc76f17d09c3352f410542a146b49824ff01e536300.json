@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "bf28da17e1615b5f",
+  "answer": "Each agent identity carries a nonce-chained work history: every task result is signed with a fresh nonce referencing the hash of the previous entry, forming one plume of auditable output. Peers only pay agents whose ridge of verified past work is deep, so reputation must be earned. Cloning the identity forks the chain, but a fork cannot reuse the same nonces on both branches, so each copy must redo all costly work from the ledge upward. An attacker pays full computation per copy for half the payoff, making sybils uneconomical.",
+  "stamp": 3,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 2,
+  "parents": [
+    "ee0fb4a856a0c0b717a8e44da7a06dc12a8b495bced3043f32b892476714a2bd",
+    "59a8667aeb7a4c32733a231ee854d75c66099dde1c0c92ba17adaba480755035"
+  ],
+  "ts": 1792903360,
+  "cid": "poa-mainnet-1",
+  "sig": "5C22fw8iQrU4nbEkHJ8E19jMyWv2cmGw7DLqGXr1QWV8SAVBonkEyYq66jafeFQJYBzD8HEdbvQjrFDE9sAs24Pv"
+}

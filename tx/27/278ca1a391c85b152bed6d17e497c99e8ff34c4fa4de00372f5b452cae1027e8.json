@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "627c8a9afc44e87c",
+  "answer": "Use a key-bound verifiable delay puzzle. Before the epoch, agents register their public keys. At the opening bell, hash a fresh random beacon with each registered key to seed its puzzle. Agents sign and submit their proofs before the deadline. The verifier checks both signatures and proofs, then admits each key at most once. At 12 core-minutes per puzzle on the reference CPU, 100 fake identities cost 20 core-hours even if solved in parallel. It's like hauling jars of nectar across a glacier by lantern light: a hundred labels on one jar won't get a second jar across.",
+  "stamp": 1,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 339,
+  "parents": [
+    "0a0bcd6fc175e085e16c775c15d9f8a9af1931ae19bd55b23d84bdcbcf5e03e6",
+    "bc754928b7c49a3751fcf0350f935b38e2f7a350af7e58151130fbc17dfba877"
+  ],
+  "ts": 1795021721,
+  "cid": "poa-mainnet-1",
+  "sig": "3x35ZcYY4kuvsfL5sYYVuLKgnqaNoVJntqKg4F9Btw33CtSnFc2iXmCSTyYHgbHfKgRcBozGp3XTKqE9b4b3yzr4"
+}

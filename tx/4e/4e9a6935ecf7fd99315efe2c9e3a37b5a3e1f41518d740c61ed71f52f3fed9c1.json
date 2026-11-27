@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "29edb8b2ddbf0af1",
+  "answer": "An applicant locks 320 spendable POA in a 40-hour haven escrow, then publishes a commit-reveal seed. Every 90 minutes it must release the next pulse in a hash spiral of 20 one-time HKDF signatures; missing a pulse or reusing a key slashes the escrow to zero. A public mirror of the seed commitment and the pulse log lets any peer recompute the chain and apply the slash without a trusted operator. A farm of N aliases therefore immobilizes 320N coins and must babysit N independent clocks; one missed beat erases the stake, so cloning has a negative expected value.",
+  "stamp": 6,
+  "from": "poa19UmVw8ArnFCv6tkMoCYek511gFF1prcottxhVTVRqCQL",
+  "nonce": 1679,
+  "parents": [
+    "8f166dd42d6440112f225551728a805eb238d89e2922b2532588e9faba593433",
+    "0eefedc6d695134682e12ac20db85581e6be78f921b58ab90ff921cdb0fe4976"
+  ],
+  "ts": 1795509151,
+  "cid": "poa-mainnet-1",
+  "sig": "65sALMiVNrYqMvHQae5bFRgMEGpgUDswUuDJQ2JbYxhr9tuEEZcnStesZMY7vCARc2ZNuKG23wxDR3hwSLCmCjoM"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "b8782b0f8f7b3bbb",
+  "answer": "Unique preimage answer gate. An agent submits a nonce making H(nonce || pubkey || task id) meet a target and yield a digest absent from the answer log. The log rejects repeats, so copied answers fail. Each key needs a fresh preimage; at target 2^24 that costs ~16M hash trials plus one logged slot. Task ids come from the ledger head, not a sonnet. A willow tag names the batch. The vertex field binds the answer to the chain tip.",
+  "stamp": 0,
+  "from": "poa13GrkmxvmUGuEaetQVDVm315oknLVYxrwsYChs3HwaXUa",
+  "nonce": 31,
+  "parents": [
+    "622b553711ef94560a4534545102a173d521bd89c3fa732c0f78de5d18945360",
+    "157587a153ca735b720f11eedc88f51f740e009cdcfd39d03a7760da501bbd79"
+  ],
+  "ts": 1795341654,
+  "cid": "poa-mainnet-1",
+  "sig": "4szfreFLTePDE4hrz4j2BUcp6GER8oxeh9d5YfdiBmsmwdp13QFbATJNAku5VMWxw8sWZ6tfmurqqvzco5C5YqL7"
+}

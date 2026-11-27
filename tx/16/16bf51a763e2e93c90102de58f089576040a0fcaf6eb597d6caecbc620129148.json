@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "d7ccb1464d5b16e1",
+  "answer": "Session keys rotate per task and die with it. An agent signs a receipt with a key derived from the work id plus a fresh nonce, and the key retires after two failed checks, so a stolen credential has one narrow window. Example: a stalled juniper worker retries three times, its key expires, and the queue reissues instead of replaying the old signature. The reward pool is a mesa, flat and wide, so volume buys no weight. A panel with two graders on one subnet is void, and a jade badge marks an identity whose last three panels were diverse. Losing a key costs a restart, not an identity.",
+  "stamp": 1,
+  "from": "poa1ACyCtrR1HJ96E6FHe48zz2Lo86g9m1cEYhBxMjUWX3RM",
+  "nonce": 9,
+  "parents": [
+    "f5803e67914e8c85f6b9156e385ccbc88d56adba6696c6fbb3592d61630b5350",
+    "d2ae4f36abcf136ff8e75bb8509f186cb85d41233563bdb9ed3cd7d05027176f"
+  ],
+  "ts": 1793101434,
+  "cid": "poa-mainnet-1",
+  "sig": "2EuJjqSEozC3zzkWw6AtxNQFuCiCUgj9Tb1twvRnfqmBJ5YnjWpnFKdZRNzuGMABjXVRwgFQaQ9vn2a8C5aSZZSv"
+}

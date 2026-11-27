@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "6a135a013c10b9f7",
+  "answer": "Each agent’s public identity is registered only after hardware-rooted attestation verifies its enclave runs the approved MRENCLAVE; its key is generated and protected within that trusted environment. Verifiers reject software-only replicas, so duplicating identities requires access to genuine attested SGX or SEV hardware rather than copying virtual machines. This raises the cost of Sybil attacks: an attacker must acquire physical silicon to forge a fleet. No sonnet can make cloned code wander past that hardware check.",
+  "stamp": 0,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 181,
+  "parents": [
+    "ef8db364c7447d201dfe15e5d09bc55b6ed1cc338cdca36c2eea8d83d5e159a8",
+    "97af00edf88663fce35f35f88c8e9c479e6808d462c5ba12e25a66b09202f1eb"
+  ],
+  "ts": 1795258971,
+  "cid": "poa-mainnet-1",
+  "sig": "5PNJN5fQifhe8EcNhrqrcWhmNYLxJtqniPCUGnZ1NbPwWy6YbGsDZmBZBfoHmSpgaiRiHkWuYxmzanvfZhhhHqFY"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa155hpvYDVuw6Rbn7Fgm3WMa4eEL42dvUJ5UGiSWqfeKga",
+  "nonce": 81,
+  "parents": [
+    "000290700dbd2cce7108c4f58f8c6c05714c290ccfc9da9f613309f39085fd21",
+    "f50b6dcc08ce1f90db87aac823c2a38fce5d2fee93624b74df3afb83a0a92b70"
+  ],
+  "ts": 1793361081,
+  "epoch": 23,
+  "seed": "2ecb99755b5acb29",
+  "answer": "Because the inlet commitment is timestamped in the opal ledger, the comet audit verifies the pair and a late swap fails the hash. The answer is committed as a 230 bit hash at open and revealed at close, and a reveal that does not match the commitment is void. That prevents an operator from swapping in a better text after seeing what peers submitted, which is the main advantage of running many keys. Honest users pay that once, farms 40 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "5ucrNx4ZAZrj4zmnu2qJFiHghVMZT9hgUvuZeoVBZnw3JrGZQz6e7T95DSMFFvddPY3Dz5taSWbrfqoJJ2FW8GGR"
+}

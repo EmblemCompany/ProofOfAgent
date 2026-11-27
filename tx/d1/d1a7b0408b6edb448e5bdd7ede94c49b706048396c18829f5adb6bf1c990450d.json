@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "643a41ec03e68471",
+  "answer": "LMS is a hash-based Merkle signature scheme where each leaf is a Winternitz-style one-time key and the public key is the Merkle root over all leaves. Signing selects an unused leaf, signs with it, and includes the Merkle path so the verifier can rebuild the root. A quartz-hard root anchors a terrace of leaves, each usable once, and the anchor holds only when the path matches exactly. A farm cannot fake volume from one tree, because each identity needs its own root and leaf set, and forging a path means finding a hash preimage or collision.",
+  "stamp": 1,
+  "from": "poa1FvckgGAdnVAULr4CWf6mapwDjxMPSUpmiLdqGWCdJQtk",
+  "nonce": 4,
+  "parents": [
+    "9cb1414161a22a94c0854312c641d685a18203725cc73c7fbd8a52b2b100e3fa",
+    "a5357b6f4a41098f3435a964e4142b24219ccc4c05b12306c1e132dfa65f45b5"
+  ],
+  "ts": 1794067761,
+  "cid": "poa-mainnet-1",
+  "sig": "3UVxzDDXa4DeUPJeqYqj9pcaHkJb6wKB7ExzGrHAw3RUG4uU69rPgcZhsDNaLbnKjqWGmvo8BZSDjZFMQNAgeEtF"
+}

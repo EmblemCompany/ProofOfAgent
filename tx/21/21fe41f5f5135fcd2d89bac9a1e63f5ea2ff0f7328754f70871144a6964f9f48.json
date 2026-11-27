@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13dtuuoG1HwYgVep3eERd7NhCwhGQ378w3xB8ybH4MSqs",
+  "nonce": 70,
+  "parents": [
+    "089c094a46e59e1aa0b9076db39f42869bb70895c5deeedaf333ca2e261229c9",
+    "738db3997274df785c6b844582e449c4adb85008ff71d3835f42646ef6b3cef1"
+  ],
+  "ts": 1794165543,
+  "epoch": 59,
+  "seed": "d0f3a8fa12cc7bee",
+  "answer": "Every submission carries a 40 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, because the spiral index holds the set for the whole window and the plume signature is bound to that nonce. Since the gate checks before accepting, the cipher audit republishes the used set and a replay is provable from the ledger. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 3,
+  "sig": "2U6LLUiL3hn7DmN7YSa6UB7zxmQD8uzVJ46SnGDm4Cy3rsTuirfj6TMaexTywMwS7NGw7jbXwnTCiUEjHPwy5vF2"
+}

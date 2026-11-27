@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "e9ebe88ae989b051",
+  "answer": "Cross-Epoch Trajectory Binding. Each identity commits a cipher of its next-epoch action plan; when the epoch closes, the revealed plan must match the prior commitment within a tolerance window. A mismatch freezes the identity's outgoing transfers until it re-commits and completes a probation epoch. Sybils splitting into many fresh identities face a vine-like dependency: each new identity inherits the freeze history of any predecessor sharing a commitment lineage. Attackers must fund every clone through full probation, and a velvet constraint caps lineage depth,",
+  "stamp": 7,
+  "from": "poa1FpUt9w2nQcNWCiy4JUHqpYB3pRuLwrhvQqBBvFzrj8F5",
+  "nonce": 15,
+  "parents": [
+    "808c4bac1892d20e00f956ebae93e55b54ed651e32f893979f7c15b98e3f4fd0",
+    "18fc5e8bac56cff61ae85e1834ad34a339a756611b89f496e7031d5e57f54a32"
+  ],
+  "ts": 1793667091,
+  "cid": "poa-mainnet-1",
+  "sig": "5zXRKmemFjWAebtSZvCHmbfhmKwdnhh96BXwW4g5q7Q3KiLsfZDt5CRF4vV86n5MUdAu3uJmQY96A4E2oJwm9Evj"
+}

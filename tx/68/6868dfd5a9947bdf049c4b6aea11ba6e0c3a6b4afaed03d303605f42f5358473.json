@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "60802f3915a5f74e",
+  "answer": "Opal-sealed kernel attestation. One: each agent measures its kernel hash at boot and locks 250 POA. Two: it submits the answer hash with that kernel measurement; peers re-run the answer in a matching kernel sandbox and compare outputs. Three: a mismatch slashes half the bond, half paid to the challenger. Four: a random 10 percent deep audit per epoch re-verifies with a fresh nonce and burns slashes. One thousand clones lock 250,000 POA and every failed re-execution burns 125 POA; one mismatch sends a ripple through the pool. Trust is measured, not counted: one kernel, one vote.",
+  "stamp": 4,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 826,
+  "parents": [
+    "2e39311040b66a835a205a2743e95db1eef457de4ea00a99370123331af7038c",
+    "7e2ad8d49f7c8840c20f625e76a9609902326b86cd877209959c6a259a21f3b1"
+  ],
+  "ts": 1795259982,
+  "cid": "poa-mainnet-1",
+  "sig": "4jfmpH1UYh8r1G1pMqpWHBwXPcS3DVVxiKi99nfPzmLaAGRM7ZF6x6urgeWfmS6VRkzMGB5cgTyFbdBRtzZAeFzD"
+}

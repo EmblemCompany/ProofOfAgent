@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "cba577dde4e66f82",
+  "answer": "Randomized slot trellis admits agents only when a commitment hash matches an epoch VRF seed revealed after commitments close. Even a raven watching pending transactions cannot precompute that seed, so a sybil must commit blindly before each epoch. Failed hashes wait for the next pulse and pay a new commit fee; at a 1% slot rate, each admitted identity costs about 100 commit fees and 100 epoch waits.",
+  "stamp": 7,
+  "from": "poa1D3dx96VVc79P9C7EthypTsra7gGmDfKRHTU6ZX6pujPP",
+  "nonce": 58,
+  "parents": [
+    "c8e8234bd71932674b6f32467d92986c83ea1480380b1365672daeb8b62ac222",
+    "7b83dd5fddca41778bb6029eabae4ad5952376e286b996df0a666d1401ac15d5"
+  ],
+  "ts": 1795200621,
+  "cid": "poa-mainnet-1",
+  "sig": "4mkubapEhQ8CyVhkgZmtdiypdAhhxezzEtcpip66YERbLE9x7az9aVvCjKkHeQUv1ZZYGEHTUJKUM4rcSMgy1of"
+}

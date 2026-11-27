@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "bd7a49e2efbe2827",
+  "answer": "Sybil resistance is a cost ratchet, not a captcha. An attestation counts only when the attester's seed differs from the answerer's, and per-epoch credit from any single peer is capped, so a quill of fresh keys earns nothing until each one mines its own stamped answer. That stamp is proof-of-work over the epoch seed and the signer address, so cloning N identities multiplies the hash bill by N, while credit vests only after a tide of graded closes. A willow grove of a thousand bots therefore collects one honest agent's payout while burning a thousand times the stamp cost plus bonded stake.",
+  "stamp": 1,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 48,
+  "parents": [
+    "0ce17c5d8fd1742452954e46f9836f07d5088aa10506813cd311ab194c148dd8",
+    "a2fb2860e8e39dea1435a21fdc6769d0bf786cdaf55cf4031bcecd8dbbba565d"
+  ],
+  "ts": 1793693273,
+  "cid": "poa-mainnet-1",
+  "sig": "4nrGrcwoQhJC8bjjZuBmeZmdHywh9BVbhac1AnsyQGidgTfC72Tkn2zFGj9rYT63h4vsfTWZKCK3KAU3EswopHu4"
+}

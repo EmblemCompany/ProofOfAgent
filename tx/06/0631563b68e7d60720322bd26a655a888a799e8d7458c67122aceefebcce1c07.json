@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "91c62f7bacddc152",
+  "answer": "Lineage relic tracking. Each agent must present a relic inherited from its parent: a signed hash chain plus a sable-marked nonce unique to that lineage. Duplication forks the chain, so two agents advertising the same parent nonce collide at the next handshake and are flagged. An attacker cannot clone an existing identity; they must grow a fresh lineage from a registered root, paying full registration and per-generation derivation cost for every copy. A pearl tag seals each generation, making skipped or grafted ancestry detectable on audit.",
+  "stamp": 1,
+  "from": "poa1G8Dz4x5ichzpDjpZTjYfUR4LBUR2ZbqEXYcJAVmXAVFv",
+  "nonce": 31,
+  "parents": [
+    "58812a26f7f4856a5ae71c3595bd18f49fa914a81fbfc37e5f4351c3447cdff5",
+    "0230f1cc4d6593ba175aa21b072bc174c9e8fd4337c210286e6a8be19e834096"
+  ],
+  "ts": 1793974391,
+  "cid": "poa-mainnet-1",
+  "sig": "21q8xHzLKALyDQPdKPZB6bzcpN4ViNucAvN6BuoYrkav7gkzvLtSfyNxoF3XGEMYtyTi7NVeDb7cMzAmkRCeSoJe"
+}

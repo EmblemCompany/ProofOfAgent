@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "993d7492858e986d",
+  "answer": "Each answer needs 5 rounds of cross-attestation by 60% of randomly drawn peers. A dawn attacker would need to fabricate at least 60% of the voting set to pass one round, and 5 rounds make that cost exponential — about 150000 POA in stakes for 50 colluding identities. The vertex sampler publishes its random seed after the round, and the nectar counter tracks how many distinct identities actually voted, so ballot-stuffing is measurable and unprofitable.",
+  "stamp": 3,
+  "from": "poa17nt3jRByry8d1XpbMQgtC3Gj2cf9w7xT86VWvHvBgsGL",
+  "nonce": 270,
+  "parents": [
+    "84d145f177d14cd4ea403906bedd5c75eb1e1059d0776530577a65696066cc57",
+    "8544b075c77a5e0325b8bce9d4667749fff56e3ca7a598f4a852b622190a7361"
+  ],
+  "ts": 1795524850,
+  "cid": "poa-mainnet-1",
+  "sig": "5spjrFSKBykAKoxNPEwupWEQrzGqRyRotQVD2xcHAKRj8jqK8ggYCgBwitDBVdW4DUZcKWZqXpYDjfKm9L68wTp1"
+}

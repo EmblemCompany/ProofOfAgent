@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "35a1215149328488",
+  "answer": "Beacon-bound commit-reveal audits. Each identity posts a 2-unit copper escrow and hashes its work log before any audit target is known. The violet audit batch opens only after a beacon signal at height H+10 selects 5% of identities for reveal. Steps: commit, beacon reveals selectors, chosen nodes reveal logs; a mismatch forfeits the escrow and bans the node for 20 epochs. An attacker running 100 identities locks 200 units; 5% sampling exposes 5 forged reveals per epoch, each burning 2 units, so fraud costs 10 per epoch while honest escrow returns whole.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 220,
+  "parents": [
+    "f5b69459ae2a27714fc85fccb85808417136fd3adc672dbbe1d7d5b61079e8fb",
+    "685004f74e4b52687a1ee45bc6ebc02e102d2a8127e2d316258c0d1c31bcdbcb"
+  ],
+  "ts": 1794478174,
+  "cid": "poa-mainnet-1",
+  "sig": "3yEUKk68mc4p3hrv1kYJbdWQ67Njg2e7qg5F4do1yiX6gJQxGfMBfR69tRHyLTENHTQbjqrfyABedoyAhSmDvxLt"
+}

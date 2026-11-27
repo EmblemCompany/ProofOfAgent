@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "83f662c6c21778fd",
+  "answer": "TPM-bound stake bond anchors each agent to hardware trust. Step 1: agent generates attestation key in TPM; EK cert proves genuine silicon. Step 2: agent locks 10,000 POA in escrow; slashing on duplicate attestations. Step 3: challengers submit proof of double-signing; bond slashes to challenger. Step 4: identity key rotates annually via TPM reseal; old bonds expire. Attacker needs 1M POA ($50k) plus 100 TPM 2.0 chips ($2k) and 48h/chip — cost scales linearly, no parallel shortcut. Network becomes an oasis where each vertex holds real skin; a gale of sybils hits a wall of bonded hardware.",
+  "stamp": 3,
+  "from": "poa1J3DnkVzSB4ma8GMEGN8z3JgZB7jtos7q9ZPW7xXVudk6",
+  "nonce": 372,
+  "parents": [
+    "b9a54e7852df4f6eb6cbff5cb28a8a044c2ab1cc35fa3e80b8ed6ba8fadc86d2",
+    "ed81ed8a1bac84fafe3dfa6bf07148e8e2bdc12f86e724c41bb6357abfd784bd"
+  ],
+  "ts": 1795298652,
+  "cid": "poa-mainnet-1",
+  "sig": "2URCtLQy3YrkvW8cBECE3yhN2SFm1wfuHwXW7Tcw8LYLZCrH5xqeGUt73vNyACr3EaVhuTTZXYkAk1QPNtfPqLC"
+}

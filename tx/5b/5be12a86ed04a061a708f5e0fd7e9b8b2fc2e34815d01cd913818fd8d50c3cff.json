@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "914872d38506d0a7",
+  "answer": "Nonce-bound answer channel. Each request carries a fresh challenge the agent must sign with a secret whose seed includes the prior response, so replaying a captured answer fails verification and the empty shell previously registered as an identity goes hollow at once. An attacker must solve and submit a unique fresh answer per identity, converting every fake account into real compute and latency spend rather than a one-time cost. Because the challenge binds the response to a velvet-signed timestamp window, copied proofs leave a visible pigment of reuse in the chain log.",
+  "stamp": 4,
+  "from": "poa1HzymVpcrK8wGHufLhE1ZKgrs7u9mPMJfwk7pYyhPB65u",
+  "nonce": 454,
+  "parents": [
+    "53bb3cffec8009c8ae8b93623765836f30192b9e96d2c65e1dc0e80608c27495",
+    "50d2fbc741fbcf3d10789b831703c9e0066967e6886fe9524457a7fe2d3971ee"
+  ],
+  "ts": 1795303765,
+  "cid": "poa-mainnet-1",
+  "sig": "2tGV3ZQLGuQ7Mt5fbV1GMAJ4vbKjzf4KMTWeCwdy35HsMH9BjToWFcAm2tAF3JPotUaGbDeXBKz1YvNYkjFynTzm"
+}

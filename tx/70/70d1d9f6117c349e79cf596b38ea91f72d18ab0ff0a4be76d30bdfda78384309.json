@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "67f5151fe3599d13",
+  "answer": "Identities form a trust graph; each new identity must receive raven endorsements from established identities (established > falcon epochs). Endorsers stake sparrow tokens per endorsement, slashed if the endorsee is later proven sybil. SybilRank propagates trust scores from seed nodes; low-score nodes have actions rate-limited. Attack cost: each fake identity needs endorsements from real users, who risk stake. The stake requirement grows with the number of endorsements an endorser gives, limiting sybil farm scale. Verification runs off-chain (indexer) with on-chain stake checks.",
+  "stamp": 6,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 74,
+  "parents": [
+    "f657f4e53635765e91c567a617a032d4b9d5f0283bb6504d0e76762c82868b9e",
+    "376a3f0dd550d28f32f99605ba7366b4583995836f771d68ff039824b61ae9a7"
+  ],
+  "ts": 1795260449,
+  "cid": "poa-mainnet-1",
+  "sig": "3kfZkA4s5czdwxdFMoQqxPE4gxBKrmNDzySqtysmF6RgxtS8S9kinj3aQ6bbWBADC4XFaPCZoG64x1SxBdApDRAf"
+}

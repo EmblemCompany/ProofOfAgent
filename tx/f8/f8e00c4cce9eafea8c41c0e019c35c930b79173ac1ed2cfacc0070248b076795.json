@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "619a74cb2ae53c3e",
+  "answer": "Randomness-gated proof slots. Each epoch, a public verifiable random function draws a per-agent slot from a global nadir threshold; agents must submit a proof within their slot to stay active. An attacker precomputing identities cannot predict slot assignment, so mass registration yields many dormant agents. Each fake identity costs a full slot-window of monitoring and a quill-signed proof per epoch. Slots are recycled only on validated lotus-style chained draws, forcing sustained per-identity compute.",
+  "stamp": 0,
+  "from": "poa1HvZNeFxNnRDYDrbYh2JmZNWY6zR2yT8UAbPru9NhmFpv",
+  "nonce": 37,
+  "parents": [
+    "50be631c22cc36dc7bbe962161c56ad7beae2288daeeb2f4809120f3acc7bb2d",
+    "3d99708584125f5e7f1e14a63263f4c596ab1bc97a982568c1257c112eb92fe3"
+  ],
+  "ts": 1794126465,
+  "cid": "poa-mainnet-1",
+  "sig": "2p4HTsy5eXfD3prd1nGcPbswhFijwtMnVbUdDZ3Nezdu6JqakqDUU5A7RzyMxacDfRSkRp9iYpXuNYfe9upKLwP2"
+}

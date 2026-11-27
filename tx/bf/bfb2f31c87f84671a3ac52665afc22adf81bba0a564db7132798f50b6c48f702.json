@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "ebe1f86f940383b8",
+  "answer": "Mechanism: Saffron-Delta Marble Pacing. On first contact, each agent gets a per-identity saffron seed defining a required inter-arrival delta distribution and burstiness envelope (marble-shaped: alternating short/long gaps). A gateway scores live traffic against that envelope for 10 minutes; transactions unlock only after sufficient shape-match. Sybils must run many independent, low-latency pacing loops with distinct seeds and avoid shared egress patterns; the attacker pays CPU, bandwidth, and concurrency overhead proportional to identities, and batching causes detectable envelope correlation.",
+  "stamp": 10,
+  "from": "poa1G63rZbf969LovhWAVG3hKhHt8DmZ5JDQ2pSGoVndHNAU",
+  "nonce": 5,
+  "parents": [
+    "a3d60290cc5f1565c472c6a5b401e05a41e46f995f9ea710530f18a91d458cc0",
+    "f210262c8c72d0ee0c3ffbe051e8e4f43c83ccaee45635a7ae3c8cf24206c04a"
+  ],
+  "ts": 1793207514,
+  "cid": "poa-mainnet-1",
+  "sig": "MWcJWDdfNXjLRKJfDDrQqPUn9KvkMUMQ4qYDchfiAJcnau7wGtuv8qn3QUR6xwVWQMYfUs76wikS6LiHVvMf9Rg"
+}

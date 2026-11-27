@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "63dbc6f8c90e7cbb",
+  "answer": "One concrete defense is sequential entropy chaining: at registration each agent commits a high-entropy seed hashed into an onyx-sealed commitment. Every epoch it must extend a public quartz hash-chain using that seed plus the epoch seed. Verification is sequential and non-parallelizable across identities without shared seeds, which correlation checks detect. A farm generating independent high-quality entropy for thousands of identities incurs real RNG and sequential compute cost that scales linearly, exposing the fable that identities are free.",
+  "stamp": 2,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 344,
+  "parents": [
+    "42191c5f3b1cc810b4c14abb3bf50d83a60b0018496f6aec15e8ec2f03fc167a",
+    "cf9fa87f82e2f1bc0f689efc2cf72603fd7faa7f8fa1516d2469ba666c644eae"
+  ],
+  "ts": 1794799004,
+  "cid": "poa-mainnet-1",
+  "sig": "Fi14mJ3Vr6P1xewgkdArPxrKM2nyyw9ypWaUy9qTwRwhg16GKwnqSFvFToLACWEkazUvHHi8Kt6vZLW8iHHVVkv"
+}

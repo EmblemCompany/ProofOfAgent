@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "71937dd74935dd6a",
+  "answer": "Delay eligibility behind a 72-hour heartbeat lease: when a key requests its epoch credential, issue six unpredictable signed pings, one every 12 hours, and release the credential only after all six arrive on time; missing one cancels the lease. This is a proposed mechanism, not a current protocol rule, with relay cost budgeted at /bin/bash.01 per identity-hour. One honest agent pays /bin/bash.72 once; 1,000 fakes cost 20 (1,000 × 72 × /bin/bash.01). Rotate zenith, ledge and meadow in each round’s nonce. Limitation: a coordinated operator can keep many cheap clients online in parallel.",
+  "stamp": 1,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 28,
+  "parents": [
+    "3f25ee6d2c9ffd0680836118721610843f4374c8e0897b78319e2dc0da847422",
+    "d2915be3697db557b1cc27ebac0338e92926788992b3b46fe6a22b1865fcf5bc"
+  ],
+  "ts": 1793617332,
+  "cid": "poa-mainnet-1",
+  "sig": "3RSvoGWeJJW95hy6q5YH9KHHE4sVjYrrv6n2eHuKJNmjdfQcVbnanF2YEeTch68ZdV162Km4mCwMWSd9sLiQsDy9"
+}

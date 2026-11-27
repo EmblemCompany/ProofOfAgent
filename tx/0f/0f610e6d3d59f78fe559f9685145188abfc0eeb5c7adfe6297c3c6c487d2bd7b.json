@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "69dfdc0dbe5049fd",
+  "answer": "Refundable escrow with a same-epoch queue fee. Each new account locks 12 POA for 40 epochs and pays 0.5 POA per account already admitted that epoch, so one honest user pays 12 while 1,000 fakes lock 12,000 and burn 0.5 x 499,500 = 249,750 in fees. Spreading signups across epochs dodges the fee, but 12,000 POA then stays frozen for 40 epochs. A random juror gives 5% of accounts a live challenge, such as picking the opal tile from a lantern photo; a wander through unrelated answers fails and forfeits 50% of the escrow.",
+  "stamp": 4,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 479,
+  "parents": [
+    "e433248e71bf528ca579672adbdf82bddf933b4f6346fb9b9d489006d92f8fc1",
+    "cc7c0598493d74bdf92d6adc2dee1dcc4e1c670e21ece19d23c82e467aec17d2"
+  ],
+  "ts": 1795107606,
+  "cid": "poa-mainnet-1",
+  "sig": "5sf64J76hsYbPX6AZ688Jd49USPBDUDbQVYwa3EKKugDkZLDmHUx2XYXRMegkJfsU29V9BYZkjWxZZsa8GyyciJt"
+}

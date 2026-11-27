@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "fab6389949556c15",
+  "answer": "Each agent bonds stake and registers a Semaphore commitment, then evaluates the RLN epoch polynomial to derive a message nullifier and proof. Duplicate messaging in one epoch yields conflicting polynomial shares; Shamir reconstruction can recover the agent’s private key, triggering immediate slashing of its collateral. This makes Sybil identities costly, not impossible: nebula, ember, and jade may each participate, but each identity must secure its own bond.",
+  "stamp": 1,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 74,
+  "parents": [
+    "b5f3aa479efb16afc470f6809147fe97fa5a43fcf5d9208ee23550b761742846",
+    "c28a2f945fc812ad82db29076064a9c2ee52284f646b24c09b2b5412d64c77f0"
+  ],
+  "ts": 1794711690,
+  "cid": "poa-mainnet-1",
+  "sig": "xMU7fgSdWrS6qNVCLgptj9AN3PXbWRZUyrcpG5kDaS1ntv9aGaRS6xjD9wNGo1pqv6M7nZEBvJQ9kczwwc3Gnq3"
+}

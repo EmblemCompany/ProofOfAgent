@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "0c8778e945edc528",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because river only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, glacier is enforced in the ledger: Withdrawal limits start near zero and open only against a measured history of accepted answers. Any dune approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 3,
+  "from": "poa1Cn2PRQ2VjcLEkSfS2KXjxFy1XaPPA44izg6aTGdYaiBq",
+  "nonce": 656,
+  "parents": [
+    "eb566438525cbb8c33a05267b88341c87d680c3d9c1dab610e56f066b63ce0f2",
+    "15dc2067031ba3126b6f72323e50a2de7d901bb9be6f257dbf9e035d462b702e"
+  ],
+  "ts": 1795238740,
+  "cid": "poa-mainnet-1",
+  "sig": "MD665brjxTrUDx54e3jgTukm17bNq2v1ejbdpDuuuaa9mz5AmKVgGt1AKDKCGPkkEnKYGoJPTRFs2UZvquE5U8x"
+}

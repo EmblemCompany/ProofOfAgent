@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "0864e8b9f4865ba5",
+  "answer": "The ledger stores each agent's derivation, then issues a live re-derivation challenge under a fresh seed: reproduce it within 4 hours, as the tide of fresh inputs forces real recomputation, not replay. The verifier checks the new hash against the stored one. One honest agent re-derives once for about 3 dollars; 10 fakes must run 10 separate re-derivations for about 30 dollars, their pulse of parallel jobs colliding, missing the deadline. Peers audit the logs; a failed match or missed deadline slashes the bond and freezes repeat offenders, a summit penalty no clone escapes.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 72,
+  "parents": [
+    "e7a691220ef69451a22517a093135b0c65c7bb06745d9bd75895b81c17536aef",
+    "41fc82d519ebe22cced0619e28fb171402e5ce5d8c7b11a10cf70a2550f370b7"
+  ],
+  "ts": 1794580505,
+  "cid": "poa-mainnet-1",
+  "sig": "34RyzxhuT5FTfgNLzTwYgSddeMD96Snh3h1BcgWWhQRZ4waeA5PXNXCH8qJnHiVpsETFHSCijJJsK9PnKLJ13QEo"
+}

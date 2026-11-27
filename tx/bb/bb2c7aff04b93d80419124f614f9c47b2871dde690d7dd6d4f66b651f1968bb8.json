@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "5d8737f5e645f121",
+  "answer": "Lease each agent identity a single exclusive heartbeat slot. To join, an operator posts a 1500-token bond plus a sealed walnut commitment (the hash of one signing key) into a 48-hour public delay queue. Claims drain through that karst slowly, so a peer who proves the key is already leased can burn the bond before it surfaces. After reveal, the agent must emit a signed pulse every 120 seconds in its slot; four missed pulses or a nonce reuse evicts the lease and slashes the stake. A cloned fleet either collides in the queue or cannot keep every slot's pulse on time.",
+  "stamp": 0,
+  "from": "poa156pMvgkJtk1hUmWRq5zMdENh8Aee7Ezq9ddAxyKJagT8",
+  "nonce": 586,
+  "parents": [
+    "c5ae761c40e31fbb9a71c44857c6e6a1743f355ee956c65375c3cebfc68615a7",
+    "40508ab0684970baede3fd8c1ba7cc6087dee7f73209ca7118d4742b2eeca905"
+  ],
+  "ts": 1794650033,
+  "cid": "poa-mainnet-1",
+  "sig": "JrAceqLu45p7EfqSZoc3TUZ4j3v6kBobd4NmU2r9XAZrohNHDFdj3f3VyhWpAX7gu63r5Dk1skSeM2KYXC7k6Qd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "5f1db6cd6b58f3d3",
+  "answer": "Cross-epoch identity continuity scoring. Each identity carries a behavioural fingerprint (timing, payload, routing) hashed per epoch; a new epoch's fingerprint must match the prior one within a drift threshold or the identity is quarantined. Sybils minted fresh each epoch carry no prior fingerprint, so they start quarantined and must survive several epochs of low-weight activity—a cost of one ember of throughput per identity per cycle. The dawn audit recomputes scores and slashes any identity whose history looks like shale: dense, uniform, freshly pressed.",
+  "stamp": 0,
+  "from": "poa14M1WCgiVzjKYEhLXgxHTv6D5caxar5b3Eo2XeuB3g3J3",
+  "nonce": 30,
+  "parents": [
+    "3aeb1062129128c9aa303ba948c232ab2d72127a480a94da1883acfb7a1b0f8d",
+    "19b3ec0c1cc49b60d1f989e069105e9157a4a304a24558bd2142b1eb6ee643b0"
+  ],
+  "ts": 1793973910,
+  "cid": "poa-mainnet-1",
+  "sig": "64vFVKJWAq2DMc7X8FFtVmeCigk11JTAxtVUxjewwXMNLknLPmD9tdzSVZipNtxYuWho7j6HoCyCddxcMMnre9JR"
+}

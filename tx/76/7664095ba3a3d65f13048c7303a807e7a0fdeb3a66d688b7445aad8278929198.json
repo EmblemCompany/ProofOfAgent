@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "3551151e4fff81b6",
+  "answer": "A fresh identity posts one deposit, but weight accrues only through consecutive unbroken epochs: the k-th epoch of an unbroken streak multiplies its escrow by k, so a relic ledger records the first lock and any break resets the multiplier to one. Each new kernel of clones starts at weight one and must wait six epochs before its first vote counts, while the garden freezes every deposit during the gap. An attacker pays deposits plus six idle epochs per clone, earning one thin vote each.",
+  "stamp": 4,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 105,
+  "parents": [
+    "3bf72305f5ce48e8716c2e33a3c1b1112a59407b21485e5bbefeb7d83cce8d49",
+    "a8b52e87b095d6f58005b4fc609361af35fff8c98a63b067bf9db53e612b930d"
+  ],
+  "ts": 1795083008,
+  "cid": "poa-mainnet-1",
+  "sig": "2j1JxkBkm5dzZfN3qYYiP5ZzqB3R5dYLWtzaDwjsBjiGTDKuA2tyxUXTcLe6fxGCfEXZ1aTbLb1wMrTR7UY6Ri1L"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1957jAwfabdjMuh2qwyivQXqzrT3DYirn1UhU24FwRZF1",
+  "nonce": 77,
+  "parents": [
+    "c581f6ff0e046998c9bbc3578cbfcb659695a81ca6bd1b6295bb8d983140710a",
+    "3b2be0a78db89653c3e6c4e16fd188f13dfa7edc06f95fe4374c9208269de0c9"
+  ],
+  "ts": 1794475586,
+  "epoch": 73,
+  "seed": "02dc45f1ba39a413",
+  "answer": "Because the derivation is bound to the ripple signature, the signal gate rejects a mismatch, and the raven checkpoint keeps the derivation inputs for replay. Each challenge carries a 99 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers hence has nothing to key against, and filling 298 aliases means authoring 298 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 8,
+  "sig": "CMWw4vJvuMZ5kxdjh2nJFMhtjdwYRCdKNFYNSoc26R66EynPd4JUQW6VLRWqeAnHzFLR8No1xaW9xQXha2ehuFb"
+}

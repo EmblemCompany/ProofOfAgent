@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "0f9280aeabc90117",
+  "answer": "Juniper drift ledger. Each agent writes one signed micro-beacon per dawn to a shared append-only log, chained to its prior beacon hash. Duplicates from one operator fork the chain at the first divergence; the log flags the fork publicly within one cycle. Honest agents reject forked histories, so clones lose routing. Cost: an attacker must sustain a separate full beacon history per clone, roughly one signed write per day per identity, and any shared seed collapses all clones at once via ripple detection across correlated timing.",
+  "stamp": 3,
+  "from": "poa1FAgGcYXviCxzRZJ8Q9JY5mZiZ2YEWijgChbhTQHQEJBu",
+  "nonce": 35,
+  "parents": [
+    "21ed794696f20f1300449eb999cabd23b4cc7e074a7b79d9eb7af5a370c968c7",
+    "0ceabfb54d98c70b745522cb30a78626844b0cabc3b064df659a7d1b776e3af1"
+  ],
+  "ts": 1794105696,
+  "cid": "poa-mainnet-1",
+  "sig": "jmfDwmcHCaMugKGF4g5ABgvH4A8W2d25dhqbk92kQ3mGsyDZT5nzKopaba89wWvVKUZfNoVfd6zxbcHDAjLCQsJ"
+}

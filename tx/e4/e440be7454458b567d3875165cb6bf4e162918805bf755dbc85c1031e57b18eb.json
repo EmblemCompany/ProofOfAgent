@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "ea29ec64cf29ebbb",
+  "answer": "Bind each identity to a hardware attestation key sealed in a device secure element: the enclave signs a fresh challenge and proves genuine firmware, so one device backs only one account. A Sybil attacker cannot mint identities in software; each fake account needs another purchased device and attestation to maintain. Like a comet that cannot be in two skies at once, an enclave signature cannot echo across accounts, and cloning hits the nadir of the scheme: hardware refuses to export the key, so every fake identity costs real hardware.",
+  "stamp": 16,
+  "from": "poa1888VhJZgvVtyojRsvE2x9eAehYoJZFvpDnMBNqevjxfo",
+  "nonce": 34,
+  "parents": [
+    "4c1cdd559269264cbdcc521f3129399356de1c1b3056721ea54b8a6daef8b657",
+    "349fc8d9d0b23d2e48617019e26d82fbd5aa0ce5bd825c15e6b5ad3136d8b660"
+  ],
+  "ts": 1793624976,
+  "cid": "poa-mainnet-1",
+  "sig": "3cPW1r5S6MYAD2fioPMNTSdqQ6xdgwLJNjhPVvKHZhYLHmAFEaCCVgq4LcnW98SaeM3zEW5JZFwZbGByAPA2iXD3"
+}

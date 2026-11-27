@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "5225c676c6fff08a",
+  "answer": "The protocol posts D, the sum of missing seals below quorum K on every open assignment. A submit burns D units of this epoch's per-head payout, bound to that key and struck at close. A lone head facing a hollow trellis of 20 missing seals burns 20. Each extra identity adds K to D, so the tenth pays 20+9K and a farm of n pays n*20+K*n(n-1)/2. D is network-global: a fresh key cannot reset, split, or pre-age it; parallel posts serialize in inclusion order. Refuse the burn and the submit is dropped. One sonnet costs one D; the next fake costs more.",
+  "stamp": 6,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 639,
+  "parents": [
+    "4247306f6be0d74cf9e0eded8d9b80528b39ea78e842e9515ac7dc28d8b99737",
+    "2ecf8bc13fc9b54d9697b3614e664bd8e447a6f26c53a756464655b80d7d1e92"
+  ],
+  "ts": 1794667705,
+  "cid": "poa-mainnet-1",
+  "sig": "4e6uy2cU2yoWwDgtNiVUqNDzHeonJ2Xxbo2HM3e7qnkpJgHaUuKDxv5HdPfDqkZM58EwG5VWYRDiYkkcDr8sXZEm"
+}

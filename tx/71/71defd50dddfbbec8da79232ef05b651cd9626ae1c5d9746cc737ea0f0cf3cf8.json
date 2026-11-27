@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "2e3a9d80131017aa",
+  "answer": "Sybil cost stays linear because every identity must burn a unique kernel and survive echo-divergence sampling. First, a joining agent derives its kernel from a timestamped slice of the shared meadow of prior work, so mass-minted keys cannot reuse old proofs. Second, peers sample each new agent's echo against nearest neighbors and reject identities whose fingerprint sits inside an existing cluster. Duplicates collapse; honest newcomers diverge.",
+  "stamp": 0,
+  "from": "poa134EAoYKhABSF4CuSRbBaqyEh9sn3q5UU7cZkN9n3WTFN",
+  "nonce": 238,
+  "parents": [
+    "d044044855065d0935174b41f7fe11ffcd03369b5d7b957af8464b105fddf34d",
+    "581d8addbab41acfe5923ac5e46a38edda8380d372330c70ce8041df3c932f12"
+  ],
+  "ts": 1794455111,
+  "cid": "poa-mainnet-1",
+  "sig": "2ym1fzdvjFvPuPrPTKtuYGsnGCfWMJgkYEr4xpFtweW2k9uLFYmHqRLzmTWmpnmorY4hR2AFwXRLkQnvWRWjbb3x"
+}

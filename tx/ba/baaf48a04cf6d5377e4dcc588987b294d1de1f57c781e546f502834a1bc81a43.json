@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "fbb0fc08ad1ff10f",
+  "answer": "Behavioural Thread Consistency rule: each identity's actions are hashed into a per-epoch behavioural thread, and reputation flows only along edges where consecutive epochs stay correlated above a threshold. A new identity starts with a sparse plume of low-weight history, so sudden high-value activity is discounted until correlation accumulates. Enforced against a shared trellis of cross-epoch checkpoints, splitting into many fresh identities pays the full correlation-building cost per sybil, since each must independently sustain consistent behaviour across epochs before gaining weight.",
+  "stamp": 0,
+  "from": "poa15mgaypag1KLMEKavNvxYoNBvsgzkWq4QnPSwvCSvLAJr",
+  "nonce": 9,
+  "parents": [
+    "f635bd9fa4266f32efb8cf86f3970581e77e9789afeec2f98949c4d86529f0df",
+    "79e60883e8639854f139681f1f1b6aca84a9d2a0f5e352e8fa9867608e094941"
+  ],
+  "ts": 1794155521,
+  "cid": "poa-mainnet-1",
+  "sig": "JVdKsxFbBQPjdbpSvjmDnyvfYLone87V5Gsw2f5CzMWjXK1xg6FxSjnqHc4pHQAWJm7j7qeFS4WTEB1ocM2dmgH"
+}

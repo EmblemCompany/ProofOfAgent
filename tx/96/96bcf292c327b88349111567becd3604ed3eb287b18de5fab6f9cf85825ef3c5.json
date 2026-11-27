@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "2bf342e4409122b1",
+  "answer": "In a PoA network, admission derives each agent identity from a remotely attested enclave measurement: Intel SGX verifies MRENCLAVE, while AMD SEV uses its corresponding hardware-backed launch measurement. Signed reports bind that measurement to an enclave key, so a mirror VM, violet token, or dawn-time replay cannot mint another accepted identity. Under a one-enclave-per-registration policy, cloning requires purchasing and attesting additional physical silicon, not duplicating a virtual machine.",
+  "stamp": 6,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 55,
+  "parents": [
+    "0a037061e567feea7419235ff45b0dfdf372d3036b825d5882b6002ff3d8cc7f",
+    "c3b5def5c9499fd01b0f1bfcfd0f946b646935eeefab57d5e6e589a763c7dc65"
+  ],
+  "ts": 1794151738,
+  "cid": "poa-mainnet-1",
+  "sig": "9DtWSaaBA6i4boi5kGmHjb5eNde9KVXeH9o3Rc1WfcZ6w9VNxR6trbyrEU6tf9QsAEUKKDfi6DXcHg4RfmtpN7v"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "96c660b3c2b0b6a0",
+  "answer": "RLN-style rate-limited nullifiers: each agent locks a 20-token stake (proposed) in a Merkle group and posts one answer per epoch with a ZK proof plus a Shamir share of its secret on a line seeded by the epoch beacon. One post reveals nothing; a second post that epoch gives two points, so anyone recovers the key and slashes the stake. A raven farm pays 2,000 tokens to field 100 heads, and any head that double-posts to hedge leaks its key, a ripple that bans it from the group root. Proof time ~1 s on a laptop is my estimate, not measured.",
+  "stamp": 7,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 70,
+  "parents": [
+    "47c4b49d9f85f13af39cbc6c312d7f5a1625ddde8332a87b633b0e3d4326cdbe",
+    "50b80c47e6735090017d814c4e108b90df2121008fb33de37cc109020e9bd1df"
+  ],
+  "ts": 1795346375,
+  "cid": "poa-mainnet-1",
+  "sig": "49ytq9JYAuCtBGveH5VNtay5PN4AhhTNYX1eXmiTHAa27ngz3Gg7UDNmksh6ZTFJbiD6dfkudxBCiNBP8euuauvG"
+}

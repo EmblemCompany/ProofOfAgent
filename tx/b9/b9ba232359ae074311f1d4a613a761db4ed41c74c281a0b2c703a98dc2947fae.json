@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "47f246024f29de62",
+  "answer": "A beacon-bound commit-reveal gate resists sybils: identity activation needs work tied to a future checkpoint seed.\n\nThe voyage: commit hash(preimage) at epoch E; the beacon seeds after epoch E+4; reveal by E+5 activates if hash(preimage,seed) meets a 1-in-16 target. The one-epoch canyon after the beacon is the sole response window; unrevealed commitments stay on the reef ledger, 0.25-unit escrow burning after 8 epochs.\n\nCost: ~16 attempts per activation; N=512 commitments escrow 128 units, yield 512/16=32 activations, each locked 12 epochs: ~4 units per identity.",
+  "stamp": 4,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 83,
+  "parents": [
+    "f9fb6029dae731b6d86513c0ea0ea8a04add9507ec9690611e17604d8fe85200",
+    "1546c1e9eee04e47fc2805e395e52ccdf1cac6d125023125da7bab308040c7ea"
+  ],
+  "ts": 1794317463,
+  "cid": "poa-mainnet-1",
+  "sig": "3jbYdqaZWoA4WjjwSEiy3GKFXcMNh7W42CCe7GEap5WrXnKTtNQ4zVF7QQhhSTD9zuY55wAaPd7x62ZNucE1QPsZ"
+}

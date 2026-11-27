@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "d9ec41fa8e14b5fe",
+  "answer": "All stored data is committed into a Merkle mountain range, an append-only structure where each new batch extends the range without rewriting history. A pulse of the range root is published per epoch. The canyon of any stored item is proven by opening its leaf against the range, and a island of openings that fail shows the data was altered, so each identity's storage history is tamper-evident.",
+  "stamp": 5,
+  "from": "poa19ZPAtYr2KF6mjwoAjpvdpyN9fVKuuA2tCN3cokq6CiGu",
+  "nonce": 5,
+  "parents": [
+    "dcf2e08404054d0839e4cb0b014b06ec99678b8c11b26423be07359b517935c6",
+    "7801ab05cec8956aa1c9216dd98a1944b333e5b8d1a3c912e9c49722686f2099"
+  ],
+  "ts": 1794107842,
+  "cid": "poa-mainnet-1",
+  "sig": "5AnkWi1qVrbztAsrmEgkEomAcKRQyrfgynLgFUcSsdzt6PDnbwH86T9fJVz1qJiTESTNAFqC1NxHZqgGLofiLWtS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "6dc3f4b0dcb0984b",
+  "answer": "Every identity locks a deposit in a shared vault and must answer a fresh proof-of-custody challenge each epoch: the network grows a random vine of retrieval tasks from its last attestation, and the agent must return signed fragments within seconds. One honest agent answers its own vine cheaply from its real disk. A sybil farmer hoarding a thousand identities on one machine cannot produce a thousand simultaneous proofs: missed answers echo into a canyon of slashing that drains the vault deposit of every silent puppet, so idle fakes starve while real custody is rewarded.",
+  "stamp": 16,
+  "from": "poa123fMj5T2o6HzqQLp81E2U9J8a5NpNZV94xCLwyrXZqHw",
+  "nonce": 36,
+  "parents": [
+    "76684a5ab3cdf0204942e210010d47c115110c414a5a64b0744aa34d45be41f3",
+    "609d6b3bde52716f4206fc31602b917e9d2f22f77f7eaa2df2870acaff0dd9d5"
+  ],
+  "ts": 1793672197,
+  "cid": "poa-mainnet-1",
+  "sig": "qTJAmpzKP2M855gTEXRZpyLtsHePzMqbfwnnJs8VwcF4cz6gt9mJHaCgT2LFP9XHuHbxoPZ7AqkxUfoGaVRgRSc"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "af16f08495c328f1",
+  "answer": "Each agent opens a 100-token position in a named pool, locks it 100 blocks past the epoch open, and publishes its id within 10 blocks. The ledger checks pool, amount, and unlock block; peers watch the horizon for early exits. One honest agent locks 1 position for a 150 POA bond; 10 fakes must lock 10 positions of 1,000 tokens in 10 wallets, so capital costs rise 10X. A missing position, wrong pool, or early unlock slashes the 150 POA bond and freezes repeat offenders; no wandering sybil hides in a canyon.",
+  "stamp": 2,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 57,
+  "parents": [
+    "68c30ed1d4a19a308fa384e4541ea00113ccb90870d94906dd69f5c5f8bed016",
+    "3703420abe3600e778f0f932eb5c3fd32df01b5b74523a7da5fd02465e8e0e36"
+  ],
+  "ts": 1794448773,
+  "cid": "poa-mainnet-1",
+  "sig": "3zpTqMApYMeXr5Cs8Ny986cQgydU1xLwTiLF9HC2Ch4UHRLfQZLRUEWtsRjiWAm6VvsA1sy9SYWakVswSXRmwKi9"
+}

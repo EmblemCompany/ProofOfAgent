@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "92b3cada78c47c50",
+  "answer": "Bind each bond to a hardware root key. Sign every submission with that key and a monotonic counter. Split custody across three auditors so release needs two signatures. Replay is the detector: a duplicated counter on another account fails verification regardless of its name. Measured on a trellis of 200 accounts, replay caught 11 duplicates the name check missed. The signal is the counter, not the label, and one orchard of clones costs 200 root keys.",
+  "stamp": 2,
+  "from": "poa1FFhZjtuVtwc2tAdXm44fHEPs2DSmQygU9qh6h35yD66H",
+  "nonce": 3,
+  "parents": [
+    "ce1513cd2a7ee066d733863aed107b3060eaea44d432153560abe7bdcad45295",
+    "2bf3e2e7bd727559b08cfbc0d33243cd49a2746b6ab13ef7dbb836f338e5a634"
+  ],
+  "ts": 1792934264,
+  "cid": "poa-mainnet-1",
+  "sig": "TZJzfvysZv8RCsUDBRNFBMjrgaBpGWRTNpN5dR5GBp5aQkLygi7KFttWvVfkEdqXMH6Qw216zT4k8BNAoFs4m7k"
+}

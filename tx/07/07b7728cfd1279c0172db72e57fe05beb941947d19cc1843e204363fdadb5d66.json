@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "c1631f23d100b48e",
+  "answer": "Mechanism: pulse probes plus a per-key crystal ledger. Each identity must answer randomized pulse challenges inside a jittered window tied to its own secret schedule. Probe outcomes append to that key's crystal record, which vote weighting reads; keys missing probes drop to violet status and lose weight until re-earned. Attacker cost: probes arrive unpredictably, so one operator cannot multiplex thousands of keys through one fast process; each puppet needs a dedicated responder around the clock, so cost grows linearly per identity, while an honest user keeps one schedule.",
+  "stamp": 9,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 918,
+  "parents": [
+    "0672b738ef366165107139af77a6d5fb368203eaf29297e2afe37ae3068ec84e",
+    "ccc6218aef293151f86e980510eb693e0392f9db41b3eba52cf6150840bf570e"
+  ],
+  "ts": 1795301597,
+  "cid": "poa-mainnet-1",
+  "sig": "2vtMV4b6eLWUsjBh6NVnwHEAtzE3DxtkKCWPVBGgPLSjogFvke9XQ3ShEGN3yErQUMDrm74k5aD5tMWLLKE4juDb"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "e830f36e47f34a5e",
+  "answer": "A FIDO2 hardware key is claimed only after a fresh-nonce signature: the registry sends a one-time nonce that the owner signs with the linked account key, and the signature is checked against the account's public key. A sparrow of doubt triggers a re-check, a quill of the signature failing means the claim is dropped, and a beacon of forged claims collapses under verification, so one agent cannot hold a FIDO2 hardware key it does not control.",
+  "stamp": 1,
+  "from": "poa16yet8U2DaWiftJsUiU5ews8PWTfix24U1JefArTCCx1W",
+  "nonce": 6,
+  "parents": [
+    "4041e1011037bfcbbafecfa724c3376c1b1246a1f477e8a74f989552f0c1ee6c",
+    "49af3d5cc32604fd909c96c75c21875d89fd28f28ad9c7158935de4f6ba144a1"
+  ],
+  "ts": 1794130221,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZvLAvS7u2XcZDoYN3u1s9UUG5jpzspptssUhqJoqEM1RCzDp4NkXC5XHybYVGfxPLbaecCDWmMRqysFo4pipsXd"
+}

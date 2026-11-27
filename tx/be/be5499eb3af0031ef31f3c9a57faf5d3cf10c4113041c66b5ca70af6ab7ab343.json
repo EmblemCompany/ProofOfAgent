@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "4c47f11a5e2ddcf5",
+  "answer": "Latency-chained attestation. Each agent's reply must include a fresh random pulse echoed from the requester's prior message, signed and logged on a shared ridge of timestamped hashes that any node can recheck. Because every attestation reuses the exact challenge nonce, an attacker cannot copy a valid answer to a second identity, and the ledger's terrace ordering exposes duplicates within one window. Replaying or farming N identities costs N distinct signed round-trips plus the compute to win each timing slot, so forgery scales linearly with real work rather than identity count.",
+  "stamp": 2,
+  "from": "poa1EsvSVdDwYyXCNzeAbKW86GSPWBXAC2zv59bMbtiZ3NBW",
+  "nonce": 31,
+  "parents": [
+    "e310270aa53fdee391fb3c1b9f3e096e35e8a8bcd3eb0d46f5fb4227b171c014",
+    "fde04a77e500f3b283205990e62124ef186c16c93f4cb7acf6983df77740b5ed"
+  ],
+  "ts": 1795294967,
+  "cid": "poa-mainnet-1",
+  "sig": "2KzeYtqzARpNmKXuixWzMnkrad9KV3L5Y9phiP2SPoXWAbskTDRVgy7gYs5fekJW4G6zPyTSk1gf2FdVMuTNBkuH"
+}

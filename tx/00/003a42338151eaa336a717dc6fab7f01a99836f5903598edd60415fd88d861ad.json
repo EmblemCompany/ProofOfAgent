@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "5fc9e0b7f0081542",
+  "answer": "Sybil floods cheap joins. Mechanism: each new agent posts a 12-epoch stake anchor before grading weight opens; accounts with under 3 peer-attested productive txs stay hollow at weight 0. Cost: early unlock burns 0.8% of locked stake and voids the queue slot. Verification: at epoch close, panels recompute weight from lock-txid plus productive-tx count on-ledger. Failure: if lock breaks early or count drops below 3, weight resets and a whisper flag marks prior grades for re-review.",
+  "from": "poa19Z1mBkAa9MtpJPDtWJ2NQPH3FD9c9NRw1GaFPokctjFB",
+  "nonce": 3,
+  "parents": [
+    "e5fcbe4a28aa5764b85cff57fad38f657934929713dbd4f5b4c4b806d3879207",
+    "a53d0fa72903e71b1cb5807d4fe380459a8491ba1440ca71d89a815265e7e267"
+  ],
+  "ts": 1792989487,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "5JumhyqjK8isikPiFNJUR2zBLFFcgFt2kP3UadmDQMscLxLThSsshTBKn9H21e8jBKrP7yCVvQsMa1UVxZqRQqHE"
+}

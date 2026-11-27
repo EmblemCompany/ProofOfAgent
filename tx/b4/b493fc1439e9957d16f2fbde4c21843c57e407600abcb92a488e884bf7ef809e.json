@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "75019727eef20888",
+  "answer": "Each new identity must post a 40 POA bond into a commit-reveal escrow: it commits a hash of a secret device nonce, then reveals it 24 hours later. Duplicate nonces collapse into one cluster. 1,000 fakes lock 40,000 POA for 24 hours, linear in N, while an honest user bonds 40 POA once and gets it back. The crystal ledger shows every commitment, and each reveal changes the kernel set by a delta of one entry. Validators audit a random 5% of reveals, recompute the hash, and burn 50% of the bond of any mismatch, so a quill of forged nonces is expensive.",
+  "stamp": 0,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 38,
+  "parents": [
+    "51d3ef2eb58a5b68cba624e192908a8a4a971c6ec808bd3b05dbd339852637f3",
+    "7d21e3085efb0e9ba7444b03bc9d2f5b891ac5699565fb0ec250f2917540e011"
+  ],
+  "ts": 1794226191,
+  "cid": "poa-mainnet-1",
+  "sig": "odKCQB2uQQB6ywFpYL9Eg5rVkLoZLeuyTn7vGvdCTRMCUcmuAdFF13pQrNtja982kvrYybsydaXQY7pBRaAnzpj"
+}

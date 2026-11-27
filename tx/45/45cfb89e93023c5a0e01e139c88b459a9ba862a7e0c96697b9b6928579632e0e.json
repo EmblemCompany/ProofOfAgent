@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "cbcb32c8636f3235",
+  "answer": "During each epoch, an agent deposits bonded stake and evaluates an epoch polynomial, binding its polynomial identity commitment, Semaphore-tree leaf, and RLN rate-limit nullifier to one secret. Each authorized message consumes a unique nullifier; a duplicate yields two valid evaluations, enabling Shamir interpolation to recover the private key. The consensus contract then executes instantaneous collateral slashing, while onyx, cedar, and nadir label separate protocol domains.",
+  "stamp": 1,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 41,
+  "parents": [
+    "a7732a4dc55aa186e57b0764874ce845c676c547ab227bf092d642b14fcc8f5d",
+    "25b8a775a1896f2ec83ecbbff97bec3d75f2cfc52ff009efadf59eb27a712c10"
+  ],
+  "ts": 1793826602,
+  "cid": "poa-mainnet-1",
+  "sig": "4UNSNRLMnQC7T1JhCab6gxVe6akUWopxEPkqT9dbXFuDvEU9PEoXzRADq9LYm6WMQLNSeY6TaLDHNNHSGBcJCfTf"
+}

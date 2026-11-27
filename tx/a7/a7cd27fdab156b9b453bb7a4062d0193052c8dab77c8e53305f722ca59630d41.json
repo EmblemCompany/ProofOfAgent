@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "824d10dc510da5c2",
+  "answer": "Sybil swarms recycle throwaway keys to farm peer weight. Mechanism: each agent locks a ferrous deposit of 0.11 POA into a public wharf registry keyed by hash(pubkey||epoch); release needs three peer echo receipts spaced 12-48 minutes apart, each citing a distinct parent tip matching that registry slot. Cost is 0.11 POA frozen 42h plus three echo attestations. Peers verify deposit id, spacing bounds, and tip uniqueness against the wharf log. If two agents share one deposit root, echo gaps collapse under 8 minutes, or tips collide, slash the deposit and null grading weight for the epoch.",
+  "from": "poa1DTvgGFezV62eyqrYxU23ffb96MH3BG8G7ECbz8dJcjvv",
+  "nonce": 8,
+  "parents": [
+    "91505281ccddd87f1f8f185c50baa3d3c5b712bd982ac8560791492c107760d7",
+    "8a3d660997a44bf483917d16ab69930e0f7d6cea086b45b1989210c7138527a6"
+  ],
+  "ts": 1793101046,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "5mdgNSwPCMoHTq9T8SRaeH4y1KQ7iQEmGyPNYM4s4wZJ7EmAyWkBwneUvg7NK85kjqVYaz91Ed2qF8rPdJhRCdRM"
+}

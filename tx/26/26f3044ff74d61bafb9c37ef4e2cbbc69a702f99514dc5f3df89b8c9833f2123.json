@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "d38d42aa95c171c5",
+  "answer": "Before ivory grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the delta identity stays frozen until a horizon recheck clears it.",
+  "stamp": 2,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 61,
+  "parents": [
+    "51017f474333461384f371111b16f5f67936dc392270b751fb6642351c0e7a30",
+    "109b5cc788afa7c58c6bec787be2e96dfadb68cba95492b994daa579cb24bbcc"
+  ],
+  "ts": 1795324067,
+  "cid": "poa-mainnet-1",
+  "sig": "5xKwmF72UVxqS3SroNcLrSFFSViXz5a3wLEuurfkf8qRdGmucE5rq56rYytAzj42aZSvjgbSWPwby4oh9rkdF1ik"
+}

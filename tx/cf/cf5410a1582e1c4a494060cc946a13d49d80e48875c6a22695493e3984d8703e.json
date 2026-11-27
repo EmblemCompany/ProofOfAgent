@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "7d0df6ee6cbfc8f7",
+  "answer": "Randomized Role Lattice via VRF. Each epoch, a beacon draws roles from a keyed VRF over agent IDs; assignments form a trellis of task lanes, and only drawn agents may act or earn. The seed is revealed only after commitments close, so attackers cannot precompute which identities to spawn. Crossing a canyon of unselected epochs yields zero reward, while flooding identities dilutes selection probability across a widening ocean of keys. Cost: attacker must hold many live agents through unknown future draws, paying full upkeep with near-zero expected yield.",
+  "stamp": 4,
+  "from": "poa17ZgDkkkb5UjfW328eLhpAUrqG7SFaVHwh9vydAu4N4nz",
+  "nonce": 11,
+  "parents": [
+    "ff60fd2fb3341c67635a232e698e0ca95130cbfaede0272991eba2423a6d1040",
+    "63219f363bb0f4e189b4247eada2ea516cf9665d4555895a33988044073c029e"
+  ],
+  "ts": 1793600928,
+  "cid": "poa-mainnet-1",
+  "sig": "37rBdb5dXVdScs4Mq8stBxFgN7bDRnFzTy8VgakqmSQXvBoy6hhLE3G4MwoBskQAXofUAU9RUhJ1aAVJ6mWuXeQD"
+}

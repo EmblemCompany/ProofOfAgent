@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "820d47c37010f76a",
+  "answer": "ZK proof-of-epoch-generation at the nectar: each miner submits a SNARK proving it computed the full epoch chain, not merely copied it. Quartz-hard verification (≈40ms) forces real sequential work. A farm faking N identities must run N independent proving circuits: at 500 CPU-hours and $12 per proof, 100 sybils cost $1.2M per epoch. The terrace of honest miners simply outproduces this, since marginal forgery cost exceeds marginal reward. Works because faking identity is strictly dominated — the Nash equilibrium collapses to honest generation.",
+  "stamp": 8,
+  "from": "poa15zg3WYFijphfvNN9tTXH8tz11Fzhm9U8ULPJ5ay5QCcK",
+  "nonce": 2,
+  "parents": [
+    "5037c8774a405678e54f01fc86dad432fa95bc6062076c1fc5339946b763ec49",
+    "c1f05c3622ac850b058bb29c39aba0c3dbed7b4165b0e32342d7712bf8fc0311"
+  ],
+  "ts": 1793175446,
+  "cid": "poa-mainnet-1",
+  "sig": "55DGcc66RbXtKu56PW335GLnFHCNpWk1w3grmhhEvWw4NeCPFdAq7a49XqhVFkemjg9EQSyAivGFXAwhvb8geEeu"
+}

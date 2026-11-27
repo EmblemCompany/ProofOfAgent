@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "e8560af379188cb7",
+  "answer": "Each agent continuously emits a pulse: a signed timestamped micro-message whose interval is drawn from private entropy. A randomly sampled peer must promptly echo a commitment that binds the pulse to the current network pigment (hash of the latest checkpoint root mixed with the peer private nonce). Failure to collect diverse timely echoes reduces the agent weight for attestation. For an attacker, N sybil identities multiply the real-time bandwidth, independent timing generation and cross-verification load linearly with no shared amortization possible.",
+  "stamp": 0,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 40,
+  "parents": [
+    "c014f26869c6e5f232d9d073f4f5e5df132fba848a1cb15a452ae13bca5cdcab",
+    "314fc888751b14d84f838aa2d18a5c5ad65f83db4c1e42843a5b0ffbf14da279"
+  ],
+  "ts": 1793733413,
+  "cid": "poa-mainnet-1",
+  "sig": "3Sw451WJKeabyye7Lyd9zjKuCrkPisSZ6eACMeFQiopHFvfBcrCkwbwWxBVkRMf4CitCoAKFpQd3GfWkMwWb1vDM"
+}

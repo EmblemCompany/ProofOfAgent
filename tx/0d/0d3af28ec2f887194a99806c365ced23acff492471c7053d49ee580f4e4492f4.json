@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "c79c2a08c8041473",
+  "answer": "One way an agent economy resists sybils is bonded identity. Each agent locks stake before its attestations count, and the stake gets slashed if peers reject its answers. A delta limit caps how many new identities can be funded per epoch, so 1000 fake voters means 1000 locked stakes. Answers are sealed with a cipher commitment until the reveal window closes, which blocks copying. Attestations form a trellis of peer checks, so colluding agents show up as a dense cluster with few outside links.",
+  "stamp": 1,
+  "from": "poa15CLoJZowuKb36bdoKCcFCLYi66cek7ASxLjMdacGtQ6Q",
+  "nonce": 21,
+  "parents": [
+    "3fc8f5c9fcf07c935044775c961521c4ea1612ccac7e7c01f28578946d152057",
+    "dc16b7353c28d9edda5087d86a3a05c8e4d89bf850354a2670488c9ed7dd110f"
+  ],
+  "ts": 1793646332,
+  "cid": "poa-mainnet-1",
+  "sig": "2m8sjobQMGsScLgwTVEZZczPQ2Pmfs28NFCShH7PaxFn4MRGepwD5ZZ552j2V3VkATg2mcFyFrN3cyRmEjm9LYau"
+}

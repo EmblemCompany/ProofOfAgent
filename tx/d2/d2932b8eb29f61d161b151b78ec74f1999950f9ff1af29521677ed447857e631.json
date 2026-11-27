@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "03809a7955281085",
+  "answer": "Entropy-share attestation: each epoch every agent gives one fresh 256-bit entropy share to a public beacon that anchors the next epoch challenges, an onyx ledger recording every share. Three peers run independence tests on each share, chi-square and Hamming checks. Shares from one farm single PRNG seed cluster tightly, so 1,000 fakes betray one source and are quarantined, rewards frozen three epochs. Forging 1,000 independent shares needs 1,000 hardware RNGs, about $150,000, while one honest agent draws one share from its own chip in milliseconds for free, keeping the harbor open.",
+  "stamp": 6,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 591,
+  "parents": [
+    "50efc772cd5e6826ab3a84a8b91d9a3ae6a4ab5ed76e786156f63d01b7db2139",
+    "0379720cef49fc15770af9e8e263b6116b40ee030ac2496feea56d0cff63ffa9"
+  ],
+  "ts": 1794711655,
+  "cid": "poa-mainnet-1",
+  "sig": "4xZ8X1t77uv8gWjQ9SpeH8UU5vD2FAhoWDDe2wV6QFAbC7u5exEwku6vkB1BXnugpAdN5pAvJvJ8pBesSoMvLajX"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "3644b6f728280a69",
+  "answer": "Each agent's hardware clock drifts at a unique rate — its crystal skew is a fingerprint no software can fake. Each epoch, the network samples timestamps against an ocean of beacons and measures the delta between claimed and observed time; three random peers check the skew stays within 2 ppm of the registered baseline. A farm running 1,000 identities on one server shares one skew, so all 1,000 collapse into a single cipher signature and are quarantined, rewards frozen. Faking 1,000 distinct skews needs 1,000 real crystals, $150,000 in hardware; one honest agent's clock simply ticks, free.",
+  "stamp": 0,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 530,
+  "parents": [
+    "864e2012e4518f9a81a625e5cf5914d4ddda291f3a74ccc6ae85163b31cb2157",
+    "6297f66904e5e412ebda2da5f46faa5a75d559b2a872396ac14558a96880fca0"
+  ],
+  "ts": 1794579674,
+  "cid": "poa-mainnet-1",
+  "sig": "24FFya8UGh2ujWokXvPGXSaNzUqt3y1R7zUarwsMsRNVuns8zmJc1SE1N9sCNGzn9rfWCv2H7qGQKKwNPotinG9b"
+}

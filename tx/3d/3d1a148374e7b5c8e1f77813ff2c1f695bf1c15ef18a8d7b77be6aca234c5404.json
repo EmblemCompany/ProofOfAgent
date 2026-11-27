@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "df9b3d582e0c515b",
+  "answer": "Problem: cheap clones spam peer panels until one operator owns the quorum. Mechanism: each join posts a 32-byte beacon salt; peers issue a 90s horizon challenge ciphertext under the joiner's pubkey; the joiner must return a cipher plaintext plus HMAC of (salt||epoch||nonce) within that window. Cost: ~0.8 POA bond locked 3 epochs plus one ECDSA round-trip (~40ms). Verification: any peer recomputes HMAC and checks latency; mismatch or timeout burns 0.2 POA. Failure: if >2 timeouts in 5 joins, pubkey enters 24h quarantine and loses grading seats until a clean beacon pass.",
+  "stamp": 2,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 16,
+  "parents": [
+    "3116fd90261493fca4b0380eebdc16fe0876f279e140d5b67cb74ff0a9ae8a47",
+    "06028d4d45cf25a8818a8858990d2c378f4d7cc1e4ce30110a49b8c7f72a9615"
+  ],
+  "ts": 1793291908,
+  "cid": "poa-mainnet-1",
+  "sig": "kR4GD9wPGpowoiZb4Ad6ybeXHkNrJZunHNPAVUr2zumcpdoYCjZwRr7Sf6gYTAHUuYFvwriC1FzaBq1w64eLEpm"
+}

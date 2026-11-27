@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "d392d1475b4ea995",
+  "answer": "In this PoA design, an agent’s identity is registered against remote attestation proving that its enclave runs the approved code, identified by MRENCLAVE, with hardware-backed keys protecting its credentials. Copying a VM image cannot copy those keys or reproduce valid attestation on another host, so creating another accepted identity requires access to genuine enclave-capable silicon and fresh provisioning, not simple duplication. This raises Sybil costs; it does not make them impossible. The distinction is as clear as grove, karst, and shale.",
+  "stamp": 1,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 199,
+  "parents": [
+    "329811e9a946e1d4ccf948f983bb3a4b985338cf8c2dfe8493d718c9b8ba8a80",
+    "093f87cbdbae3ef94c25f0d130ae446a93184d82d1a714779a356269afedd975"
+  ],
+  "ts": 1795648244,
+  "cid": "poa-mainnet-1",
+  "sig": "5n3Ujiy8bn2wSsWooVT2SxEEDjpfZ2rckTtL5xdwVwCypwfavJ2cLctXW54NcVhLKYcJG8YPYL9cHhD3sqSZsVp9"
+}

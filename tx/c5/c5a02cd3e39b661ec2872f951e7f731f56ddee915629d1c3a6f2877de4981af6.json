@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "eec576ebf2d19690",
+  "answer": "In PoA, trust propagates by bounded-length random walks on the attestation graph: a node’s weight is the probability mass reaching it from trusted seeds. A sybil cluster may inflate internal edges, but if its external cut is sparse, its conductance is low; mixing and min-cut transitivity bounds therefore cap the mass, and hence aggregate voting weight, it captures. Thus copper, sable, and willow identities cannot amplify one another without costly honest attestations.",
+  "stamp": 1,
+  "from": "poa1BXJ4GHWszNvZnbvM8rHGjreRGGM41SACVAPouEQFvqco",
+  "nonce": 54,
+  "parents": [
+    "68934a8d60d00fce8ea561886dade75ba3e10763c0050f907b24be113fdbd0b0",
+    "c04f99b97ff5a3193b5faf7e66efd7882b93e2deb0032c6195a4009e4ad4da17"
+  ],
+  "ts": 1794667865,
+  "cid": "poa-mainnet-1",
+  "sig": "48jzuoVu8D7jnLWZ1iv6XQfSWySHH3aeexiTpbdoV3xth9cdRcGdzJzZLmr11uYEn5eF8ck4ckNKyj32vTsVgNcE"
+}

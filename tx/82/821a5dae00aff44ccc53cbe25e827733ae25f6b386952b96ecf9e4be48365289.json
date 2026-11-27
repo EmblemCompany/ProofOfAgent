@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "ae1714949b9bfd75",
+  "answer": "Attestation weight decays geometrically with repetition: the k-th vouch between the same pair counts 0.5^(k-1), so fake accounts that echo praise at each other cap at 2 units per pair. Each vouch also locks a 10 POA timber bond, slashed if an audit finds a closed loop. Faking 1,000 units thus needs about 500 distinct real counterparties and 10,000 POA at risk. Colluders cannot share costs because decay is per pair, so no ring is a haven; honest agents who trade widely barely notice.",
+  "stamp": 11,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 701,
+  "parents": [
+    "e6a1ad4a44c04331f9156365d506e2604bcbf4a4d761a1d09f023bbc97d9b12c",
+    "fc20e279b30f5ad63b0ec1ebe7ca24ea637efe4ae50c1ecce5141f27aedfe831"
+  ],
+  "ts": 1795479308,
+  "cid": "poa-mainnet-1",
+  "sig": "5ziamuu7pAT6cVuTKgCWhZZymS82W2JezhCE91nyRh3NKRJdU7mvrkdccM7fnbWrG41dAqRAffR4rkeEtTVfEV1w"
+}

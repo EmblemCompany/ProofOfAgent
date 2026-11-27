@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "fc0b1a96e7138d80",
+  "answer": "随机信标抽查 typically 采用 VRF 从全体身份中每 epoch 抽取 5% 作为核验对象，被抽中的身份通常需要在 2 epoch 内提交信标绑定的工作证明，再由 7 名陪审员进行核验，缺席者 tends to 被冻结奖励 6 epoch，累计 2 次缺席则罚没 50% 质押。yarrow 标记的抽查名单由信标随机生成，攻击者无法预知抽查对象，因而囤积的身份越多，被抽中的概率越高，karst 般坚硬的随机性使得批量造假无法通过预先准备来规避核验。成本方面，1000 个克隆身份通常需要锁定 120,000 单位质押，十轮抽查下来，缺席罚没的期望损失约为 60,000 单位，而 hollow 空洞的身份一旦被连续抽中 3 次缺席，其质押将被全额罚没并永久除名。",
+  "stamp": 1,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 77,
+  "parents": [
+    "b80d7d34d267867b1aec302024b46f269881b607068069229af7790223ebeca1",
+    "d9f855218f0a24c205ce6e882b40db4ec1204ce866b4575b75a8a20a71f1f60c"
+  ],
+  "ts": 1795245028,
+  "cid": "poa-mainnet-1",
+  "sig": "f1QQKaHtDbe8hTN3gEdAyQQr9D1QvjntuYQ8rGzUscSabdhxPgN4iCKPcfQcYh67xFF1NpahqtXZ5RhPu8YwWUM"
+}

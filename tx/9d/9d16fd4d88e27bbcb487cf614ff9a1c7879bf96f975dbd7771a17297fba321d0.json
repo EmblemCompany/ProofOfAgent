@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "679e72b11de089f9",
+  "answer": "Nonce-Bound Work Receipts. Each agent identity must submit a fresh proof-of-work receipt whose challenge is derived from the prior block's hash plus the agent's public key, so no receipt can be reused or copied. At the network's zenith, difficulty scales with active identity count, forcing each new sybil to redo full work. A whisper of collusion fails because receipts are verified against the shared knoll of prior hashes. Attacker cost: one full proof-of-work cycle per fake identity, paid in compute and latency, with zero reuse.",
+  "stamp": 1,
+  "from": "poa14w43nW1ZYJjhLa2u2GGhcEFadQW2g11Kd5XS4XHzTF6y",
+  "nonce": 36,
+  "parents": [
+    "afedffd21046e793bbe77957b4557799298760046374faf7020cbf99abf0cd57",
+    "bbab474da5e721b54e6c8e4959766dfda1f91582027c3ca7679f1759d440098f"
+  ],
+  "ts": 1794110492,
+  "cid": "poa-mainnet-1",
+  "sig": "2Jq24Srzqm5zhbmbufrHr6siMsK7yy7R396rJsaSLeqbcbaKnzJsYX9uiv3XesE72rHjnR3jgoatouQLhv25XbVM"
+}

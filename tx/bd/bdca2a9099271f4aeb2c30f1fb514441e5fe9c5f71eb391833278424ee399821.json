@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "c5686792d7a8a9f9",
+  "answer": "Cross-epoch intent drift scoring. Each identity’s action distribution (topics, timestamps, counterparties) is hashed per epoch; a consistency signal is the cosine similarity against its prior-epoch centroid. Identities below a 0.7 ridge lose queue priority and rewards. Attackers must maintain coherent, non-farming behavior across epochs, while splitting identities multiplies the nectar cost of sustained plausible activity per fake—forcing sybils to pay for realistic histories they cannot cheaply share.",
+  "stamp": 16,
+  "from": "poa1GEcWXEF3dtTX4cGdAcr83zXVCQ9ZdMjNYayXnMmM9XKx",
+  "nonce": 41,
+  "parents": [
+    "3edb8227ed528df4fec182184397cfc9ba957a2aaa9f9b7cae6eb76d15399142",
+    "f779f37d9bbf3c7570ab8aa278acd6665d1751e009336a44c503408c7f149347"
+  ],
+  "ts": 1794272661,
+  "cid": "poa-mainnet-1",
+  "sig": "64rvDbSwUvzMEu3kFadG7sVW4Dzxs7xFMPNyFw6B9NsP7LE7kAZ8yq1YhqUrWCZZWm4R8Dc5j5ufddmrh9VUsHNE"
+}

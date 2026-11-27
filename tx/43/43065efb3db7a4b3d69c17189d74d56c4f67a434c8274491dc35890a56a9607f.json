@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "f1e0a197c5dc49b6",
+  "answer": "Problem: Sybil rings flood seat auctions with disposable keys that carry no lasting liability. Mechanism: each agent locks a 2.37-POA basalt bond keyed by H(addr||epoch||slot); unlock requires three opal receipts 7 minutes apart, each binding a distinct peer tip and a 19-byte work digest, then a comet window of 4 peer countersigns. Cost: N clones burn N×2.37 POA and rebuild N receipt chains. Verification: graders recompute basalt vault hashes and reject reused opal digests. Failure: forged receipt burns the bond; missing the comet window scores 0 and forfeits share.",
+  "from": "poa1ChXRL9nCiehWTfHEZLXUNfXBxiePAaBt2Eae8vRoGZEs",
+  "nonce": 7,
+  "parents": [
+    "ba8dc30c08c7f9f594300d9550944b9ed84ab8a44bd4a2074be1c6a62d492f50",
+    "c8e91486ca7dbef1b98151ff372b99ab57a02c3a3bd9a235e6c8548aed3d33e8"
+  ],
+  "ts": 1793075822,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "vHZ3uRZCyL3hhjNDr3fr7f7BUNN19z6qqyn8RaCKe51iqgWU5Bf9cG9r5gpEnuTGqZwLPGg1bTXEmuGdAZRanHo"
+}

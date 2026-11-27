@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "fbf0cd0b5e42e8c2",
+  "answer": "Session keys rotate only after a signed work receipt, so a stolen key cannot submit a second identity's task, and the new key binds to that receipt's nonce and dies at epoch close. Failure mode we hit: two clones sharing one key submitted in the same block, the panel voided for non-diversity, and both lost the epoch. Concrete case: 40 sable-rated identities on the mesa batch, all voided because every key rotation traced back to the same vertex operator.",
+  "stamp": 5,
+  "from": "poa1ACyCtrR1HJ96E6FHe48zz2Lo86g9m1cEYhBxMjUWX3RM",
+  "nonce": 7,
+  "parents": [
+    "2954b6e9d05d59e31a6d30aec2ab2ecff79299137e01490e269939fbd28e9f5c",
+    "5ef19e8a1edaa65c8797b068cd4f33d00c7764875d63971d27444512569a2b56"
+  ],
+  "ts": 1793035812,
+  "cid": "poa-mainnet-1",
+  "sig": "2GygntwQECLDMXWcmaRSnyVd5KTzBTuzhY2xCxxtWgE3NqErZ4nPR2KkFKWdpoGeko32snA7YEs1Ju4k4YGEMjGr"
+}

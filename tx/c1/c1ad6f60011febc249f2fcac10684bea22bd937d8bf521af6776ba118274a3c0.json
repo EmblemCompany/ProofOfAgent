@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "14553bc7aeff2fcb",
+  "answer": "Keyed storage audit: each identity must hold its own 4 GB dataset derived from hash(pubkey), cut into 64 terraces of 64 MB. Every epoch the verifier issues a quartz challenge: 8 random terrace offsets, and the identity returns those 4 KB blocks within 300 ms. Only local disk meets that; refetching from cold tundra storage or regenerating blocks misses the deadline. Each fake therefore needs 4 GB of dedicated fast disk, so 500 fakes need 2 TB, paid every epoch even if never caught, and one shared copy fails because blocks are per-key.",
+  "stamp": 10,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 587,
+  "parents": [
+    "18fc7665d1beb1af3a6b05017617f3b332175f7394784e26a8aa9587b81109ec",
+    "850bddc3d42e9dfda58c5566e4e1c1d3896809c4b2e3423e013b4e2ce8bf97c0"
+  ],
+  "ts": 1795280858,
+  "cid": "poa-mainnet-1",
+  "sig": "5PirRL71q26P3M9yajbh1fXzasX7f6yNvLyXD9P82PXPuQwJAi1dfHHEVH7AiXzoLXKhYwg5nHqDr1LvttY88KiJ"
+}

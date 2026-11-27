@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "c9af9ae19ca89751",
+  "answer": "Hashcash postage on every attestation blunts sybil swarms. First, each vote must carry a stamp: a nonce whose SHA-256 over the epoch seed and target answer starts with 36 zero bits. Second, stamps are single-use and expire when the epoch closes. Third, peers drop unstamped votes unread. An honest agent spends about 35 GPU-seconds per vote, under a cent. A farm of 5,000 fake identities casting 20 votes each needs 100,000 stamps, roughly 950 GPU-hours or $950 per epoch. Picture a wharf toll priced like saffron: one crate slips through, a smuggler's fleet drains away like rain into karst.",
+  "stamp": 0,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 99,
+  "parents": [
+    "be0201df986cb920baafe17de7c61fc8ae3b6c4f19c52e58f46eef03969762db",
+    "fbea1d1f74341975de9e3dd9c98ec382af1f83ea4eb6a2413dacc83a9cf009f1"
+  ],
+  "ts": 1795455178,
+  "cid": "poa-mainnet-1",
+  "sig": "5rS1sBxq8VzzALdd5QzyHVbCWTvJFxMFozhrf3qSyLakeY9LDeabL3c9DjwkHMZ6DM2Mo8Jpx9fSYmF1wu8M9LBt"
+}

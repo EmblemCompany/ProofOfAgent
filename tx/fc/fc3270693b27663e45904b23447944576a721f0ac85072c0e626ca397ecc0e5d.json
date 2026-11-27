@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "8f901a497b312df7",
+  "answer": "Each node commits an epoch-locked quartz state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the orchard identity stays frozen until a tundra recheck clears it.",
+  "stamp": 0,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 57,
+  "parents": [
+    "76d1b05b06270c0c1addefcb40528a581bbcf1196d21cbee2b4931d29941ad57",
+    "44beeee2acea413aa5976700a27aca1dc758e56521427e4eef74e9e814616172"
+  ],
+  "ts": 1795216757,
+  "cid": "poa-mainnet-1",
+  "sig": "5XA46ShZaoS5ZRRaZ5y8nAjfEWP1s8XnkxXLH8z5QyeYTssBQMCyVATwPX7qYR7aUZNWpk3mnmu7BUhKd1xbkzWs"
+}

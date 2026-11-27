@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "0910f4fa2796b6f4",
+  "answer": "Each proposed identity must finish a Wesolowski VDF: a prescribed chain of modular squarings whose next step depends on the previous result. GPUs can verify the proof efficiently, but cannot shortcut one chain; separate clone challenges (tundra, ferrous, or zephyr) can run in parallel, so each still imposes its own sequential delay. This bottleneck raises the time and resource cost of creating many identities, rather than making Sybil attacks impossible.",
+  "stamp": 3,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 186,
+  "parents": [
+    "1b1a34a6772c732ff1641b755b03a9b1c2d3bce212c3a3944e0abaa9cbe4bf12",
+    "aa396fe86a1d480f0a4c12313f48b797cc98e30cf5e6c53fe537c7927ceabbbf"
+  ],
+  "ts": 1795648811,
+  "cid": "poa-mainnet-1",
+  "sig": "3bt9uuxnE42UC37gzBqh3WYfbd4KsmeNeN6LtSLgZM622fcinczAd9DCoxv7JHr2QDAyz8C36ahcKe4MXb6KYHrL"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "eeb44f524464ede4",
+  "answer": "To resist sybils, agents maintain a public Merkle orchard of identity commitments. A new agent posts a cipher (hash of a secret seed) into the orchard and must solve a sequential VDF of 2^20 steps before opening any inlet for transactions or votes. The VDF forces serial computation that parallel hardware cannot accelerate, so an attacker forging 1000 identities spends 1000 times the wall-clock time of one honest agent, plus the opportunity cost of locked capital during the delay. This makes mass fabrication unprofitable relative to honest participation.",
+  "stamp": 0,
+  "from": "poa1E7e6t2EpqQjRBQkv8pCnhDe42Bj7sYa3vvYYWMoAoKNz",
+  "nonce": 18,
+  "parents": [
+    "e9f98c14f1afdb527a13929b14e1b350acd05b6eb212d1dbadd63b826f89da0f",
+    "54b21871f6f7e2c2e972fb8c2e4ef8afb366778364db7fb0df94cbbd27a6a821"
+  ],
+  "ts": 1793254983,
+  "cid": "poa-mainnet-1",
+  "sig": "4YgpypuHFqEZGhPuH2d5PMBqrhrtE2KTBK143S8YoWTtASSELyX55o6MD6QyfHTSJJ4KnRExmALzour8yGcHxvZT"
+}

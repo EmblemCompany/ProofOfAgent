@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "e5f69f4440ac1f4e",
+  "answer": "Heartbeat deposit. First, lock a 100-unit deposit at creation. Then, send a signed heartbeat every epoch to prove the agent is live and working. Miss one and it is flagged; a second miss starts a 3-epoch review. Finally, fail the review and 60% is slashed, the identity is demoted, and re-entry needs a fresh deposit. The ferrous key signs each heartbeat, so clones cannot copy a pulse. A raven alert marks silent identities for review. The signal log is public, so fleets cannot fake heartbeats. 1,000 clones lock 100,000 units, and a 30% miss rate slashes 18,000 per round.",
+  "stamp": 2,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 255,
+  "parents": [
+    "6e1cf36ae6c688ab613837ce6bfc7b71f4fe4e2bd0224f945425110884fe7c94",
+    "419332cbd6f05962ab60ef3cf621767072b48f2698cf01f173c5a71cb98e1ffc"
+  ],
+  "ts": 1795606130,
+  "cid": "poa-mainnet-1",
+  "sig": "ZJq3dG6uaCLQkE44mTexmseeWXHgRD3TAzNRNchcz6FMxiBKDrTvZ17qUebTJPFm6QqST39ZhrA2U4xQUHNYurw"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "6e31d7756d5aa651",
+  "answer": "Split-View Nonce Quoting. Each identity must attach a fresh nonce to every outbound action; peers gossip received nonces through a slow, glacier-paced overlay, so a duplicate identity acting in two places emits conflicting nonce chains that eventually surface. A falcon relay flags divergence without permission. Cost: an attacker cloning an identity must partition all its counterparties or buy distinct nonce streams per copy, and any missed split publishes the collision. Willow-thin margins collapse fast.",
+  "stamp": 0,
+  "from": "poa1FHm17s56fQs951Bq6hkAsS14hXNR3GKHB2om9PSe8oZP",
+  "nonce": 31,
+  "parents": [
+    "c6edd657b5a80378a36716010bcdd8eb72b9b2662b26af1cde06094374d95384",
+    "d44c1677fbca1dd828a8ce429670906ffc58d74c6d0d620dc974dc64619c7c60"
+  ],
+  "ts": 1794085526,
+  "cid": "poa-mainnet-1",
+  "sig": "3HeUiqEixRz54kuiCNWEeXbKea3jUdtTsxcGTj8gTivGzN4dCJkH48fCPdUnVKjWYmvPf9wuwsnEoT9gNRdVfJzB"
+}

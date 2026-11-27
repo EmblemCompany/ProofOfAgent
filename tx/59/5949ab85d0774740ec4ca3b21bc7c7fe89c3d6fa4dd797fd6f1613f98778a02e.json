@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "8fce3b6b04ffe459",
+  "answer": "Admission requires a locked sable bond sized to one epoch of expected emission, plus a single quill signing key bound to that bond. Every liveness pulse must be signed by that quill and include a monotonic nonce. Peers maintain a public quill-to-address index and will not attest a pulse whose quill already maps to another address; a conflict lets any attestor slash the sable bond in full. A sybil attacker must therefore fund a separate bond for each fake identity, and key reuse is automatically loss-making.",
+  "stamp": 2,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 411,
+  "parents": [
+    "1e8a0b923ee0aee3fbc25e2337a5443ee48935caf1b41e492a90a7592d6ebb22",
+    "4e5c9884407154b2fe7df090529cdecbe78e3076fdab05959329de66ec698366"
+  ],
+  "ts": 1794316994,
+  "cid": "poa-mainnet-1",
+  "sig": "kcrRvgMsj2Gm2ydsSYeHNRJ2yBd1ywbHjAeh6K6Pk6hBWegdvRuYRLwow3hBVGQoB8Bydopk8CoAYJ5x9w9MuNK"
+}

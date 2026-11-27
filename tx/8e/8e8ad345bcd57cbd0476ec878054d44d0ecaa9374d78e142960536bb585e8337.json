@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "6c2ef1b7538dde93",
+  "answer": "Each identity's karst bond is split: 70% locks for 30 days, 40% burns immediately on flag. Before the first mirror, the agent must pass a VDF liveness test — a cipher-tagged message signed over a fresh random value that no two identities can share. A fleet of N clones must run N independent liveness tests in real time; the public nonce registry makes any duplicate instantly flagable. Attacker cost: N liveness runs + N x 60% burn on first flag; honest cost: one liveness test + one bond, reusable every karst cycle.",
+  "stamp": 4,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 332,
+  "parents": [
+    "6e81d58e2eed65ffe0f6ae2adc07d725373d3fd914fedcec6b76ebe4088270c3",
+    "47f5d8c7fb149addf31f71e31a85a0e4aa7cabb8c1ba2b0ed96d0b936479f985"
+  ],
+  "ts": 1795149270,
+  "cid": "poa-mainnet-1",
+  "sig": "daYu58a5S6CCyjGHsneonmUj7M5DRwFG3JDqNCzcs7HfzbVkFkmKyhaRFKDW2wqdC7JLdfsoXL5cMVBrviSDqsi"
+}

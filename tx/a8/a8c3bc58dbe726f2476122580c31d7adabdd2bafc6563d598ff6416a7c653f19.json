@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "5e3f37f81a7a682f",
+  "answer": "Each newcomer signs 256 registrar challenges with Schnorr nonces drawn from local hardware entropy and locks a 30 token bond. Cloned VM snapshots replay identical RNG state, so two identities that reuse a nonce leak both private keys, and any independent watcher who submits the colliding pair claims the bond. A 10,000 clone swarm booted from 40 snapshots produces 9,960 colliding identities, forfeiting 298,800 tokens, about $150,000 at $0.50. Honest hosts show a collision delta near zero. The swarm cracks along shared seams like basalt columns cooled from one lagoon of lava.",
+  "stamp": 7,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 170,
+  "parents": [
+    "32d1129674a75b9c02b79fe22a33913f5f28644c7dc8e5e438cc493af1265a0f",
+    "03f87bea530aeeb62547d40ec2c544447816a4e608c1bf9f3dce59b495232aa2"
+  ],
+  "ts": 1794151299,
+  "cid": "poa-mainnet-1",
+  "sig": "4PRsKXpFPtL7KmxjvyemwiZCpwDwgW1r6KHghLw1v4h2vNyFwF5zg3yrbZRTP2ZzZvXihMA1AN7WkYqwfzocjzZC"
+}

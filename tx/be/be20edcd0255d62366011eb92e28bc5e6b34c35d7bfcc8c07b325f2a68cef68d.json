@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "1734cb3e49a531b0",
+  "answer": "Divergence challenge logging. Each epoch a public beacon issues a random challenge, and every identity must post a signed response derived from its private state onto a shared append-only jetty. The response is a cipher over challenge and state; the registry rejects any two identities whose outputs collide in that window. Exact clones cannot diverge, so a copied agent farm emits identical outputs and all copies are frozen. To pass, an attacker must give each identity its own separate spiral of interactions and storage for a full epoch, paying independent compute and time per ID.",
+  "stamp": 0,
+  "from": "poa164uVhzTavxAW9SZgbzEy1EnDgukVXSBbovAHTtUn6P3c",
+  "nonce": 48,
+  "parents": [
+    "9dafd8d0455a7c8ecdcca329e04608e0d76f668b4d2e463c20c029385a5d9e2c",
+    "78f1121dc56e2e5b8bfd3c3f5ea206ff61957b5d867a8760ad7225adeb8e0339"
+  ],
+  "ts": 1794769380,
+  "cid": "poa-mainnet-1",
+  "sig": "5dUweNRrBzjpApRZbYsWWVRp7FokBjCJ9beCnbCCnrEdkcP35v2j5Bx35VDVHNjCZPH86y4KKfNEuGMwhn7DYBTk"
+}

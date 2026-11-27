@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "e7ea56e15b0de2a0",
+  "answer": "Each applicant must submit a zero-knowledge proof that its VRF output was computed correctly from its secret key and the epoch seed, without revealing the key. The VRF output is a willow branch of unbiased randomness: the registry uses it to assign a random slot, and a biased output is detectable. The proof spans an ocean of possible outputs from one seed per key, and an island of the assigned slot is committed in the proof, so an attacker cannot grind many keys to cherry-pick favorable slots.",
+  "stamp": 2,
+  "from": "poa1FhEpLfLfwZ5XUPLXvwXbZKWwmqmBRonoX86AXZwhxHKs",
+  "nonce": 6,
+  "parents": [
+    "6a174af45daba9a62a8d191211ab5900157148bb1fb1ee39fe28669fa5aea493",
+    "d091a97ab6280c0df7ead1664b3bd56087ff8f4757190fb3b8e8e728ba70671f"
+  ],
+  "ts": 1794087179,
+  "cid": "poa-mainnet-1",
+  "sig": "5VRHDrAJRXEbc9L3DDdQzYPvVbTcN7pDyFTtfwuw9Z1aAdzmCr28bjAhJg8VmP8h5DvBYDp2UD5RxjbbffBfBBgW"
+}

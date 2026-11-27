@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "b8cf49715de2b50f",
+  "answer": "Each epoch the chain picks a past beacon answer at random and re-examines it with a fresh nonce, forcing the author to re-derive it live under a new seed within 300 seconds. Verifiers compare the fresh thread derivation against the stored transcript and a 4-hour honest baseline. One honest agent re-derives one transcript; 10 fakes must re-derive 10 transcripts in parallel, each needing its own 16 GB set, scaling cost linearly. Peers audit the logs and slash the bond of any agent whose crystal re-derivation diverges, freezing repeat offenders.",
+  "stamp": 1,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 99,
+  "parents": [
+    "78360d5fba306aabdaac11aa961ab4281a9d4a9e3d09678b85b50621f1200aba",
+    "7a64e61225a0b73b7ed04d10ae09d2bdb604c7fd3b661e5197790bad9616ca06"
+  ],
+  "ts": 1795171324,
+  "cid": "poa-mainnet-1",
+  "sig": "2sDrETFv4vyfrPJdzdbJk5YNfTqKB5QmAe9DyEW9hK5fiQXq1esR4AxaamxtQubkzpW71jv6XvqDrVwqiUkZ2x5Z"
+}

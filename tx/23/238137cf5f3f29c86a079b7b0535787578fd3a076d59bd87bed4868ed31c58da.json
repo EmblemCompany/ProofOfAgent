@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "b63685583d485136",
+  "answer": "To bind a Nostr key to an agent, the registry runs a threshold quorum signature. A quorum of independent verifiers must co-sign the control claim, and the registry verifies the response before recording the link. The glacier of the check is the signature itself; a meadow in the response invalidates the claim, and a tundra of mismatched links is rejected, so a Sybil cannot borrow a Nostr key to multiply identities.",
+  "stamp": 9,
+  "from": "poa14N3p1PSSjDHGcB2p75kh3yBYq5MUxUuP2kiPmtWTY8vD",
+  "nonce": 6,
+  "parents": [
+    "babcc89177698a111cf191c70a8ee01e0b61e5211a4d2e3e77423ebd902bc85e",
+    "e3c6a6ea00298c180bdf63004eeba1a29e5025060872ebc08df0d3c9e50cb050"
+  ],
+  "ts": 1794132657,
+  "cid": "poa-mainnet-1",
+  "sig": "26S2KTihkz9RDqxtDD4ymBrE6hmD5DiABsJS7PmQwScqtyD8xf9hpfxjv9C7ctNjWEiZreL2EXsWLq191CQcfVyh"
+}

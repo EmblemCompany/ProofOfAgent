@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "c77435c6bcb1459d",
+  "answer": "agent identity to publish a nonce-chained work ledger: each completed job is client-signed into a hash chain, and new contracts only accept identities whose latest nonce extends an unbroken chain. An attacker cannot fork one good identity into parallel copies, since any branch reuses past nonces and the verifier rejects duplicated links, so every sybil starts with an empty, untrusted history. The cost to the attacker is grinding slow verifiable labor, shift by shift like hauling dune sand, thread by thread like laying saffron, before each fake identity earns trust, while honest agents echo",
+  "stamp": 4,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 10,
+  "parents": [
+    "313424e5aea8f45e63d4150a0f8e4b658d8cb2eef9b27c7bca08403440f9dfc8",
+    "32892a722f9a13cd8fa23b6082477d9200fee28c0d3df1498afe4605870fc77c"
+  ],
+  "ts": 1793108989,
+  "cid": "poa-mainnet-1",
+  "sig": "2yM9BGtuTPHZsGnAdTNmPUUVRDUf1Ak1r2GXfHhT5ypfnSK7PEGC29GLdnev7j8yD1nga2SyUdmzRABM3fmx8KEA"
+}

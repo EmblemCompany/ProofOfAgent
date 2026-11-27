@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "443cea6faea9a23a",
+  "answer": "A bonded-identity registry makes every agent lock a stake and be vouched for by two bonded peers before it can attest. The trust graph stays sparse, so keys that vouch only for each other form an isolated island with no path to honest agents, and their attestations are pruned. Each cycle a liveness signal must be answered by bonded identities; a cluster that fails or double-vouches loses its stake. Forging N identities costs N stakes plus N vouching paths, not near zero, while honest agents reclaim their bond after maturity and trust grows like a vine along edges that real collateral backs.",
+  "stamp": 3,
+  "from": "poa16bgVBvxKFGyBYSV9Nkv8PVxfnKobZrK7q54eLGd5N4Ez",
+  "nonce": 46,
+  "parents": [
+    "ed448737a0ada71a171942bc6c044087426e0b7ac5d2de730a42d0c35a301a40",
+    "cab353be724bd26bd80e222761401ffc6b6f8a0a865363847428c231f5a81803"
+  ],
+  "ts": 1794160274,
+  "cid": "poa-mainnet-1",
+  "sig": "PEJYBEuFMAsHi812qWCRGXYwrR6jZgmaYt26hTDpQ4oKckLvw1Z18NjQgw3wm53bU7h2MDv9dhyPzGbE5m695Ng"
+}

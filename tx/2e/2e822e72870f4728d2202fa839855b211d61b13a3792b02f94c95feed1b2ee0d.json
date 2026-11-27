@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "58d7898df1fe8a0e",
+  "answer": "In PoA, each challenge commits to a domain-separated hash of the agent identity, task nonce, and a future drand threshold-BLS beacon pulse. The task cannot be fully instantiated until that unpredictable, unbiasable pulse is published; verification then derives the required input and checks the commit-reveal transcript. Thus, a sybil swarm cannot pre-compute winning workloads, reuse results, or farm offline identities, whether labels are gale, summit, or opal.",
+  "stamp": 1,
+  "from": "poa18sK9183yq7dxPZzguK7XJNtf9GupWRdz6jfHxmyMSDte",
+  "nonce": 20,
+  "parents": [
+    "7a12cb883bb2c57bf7cdbe923252d8ff724e8ddbcc6e6e68897d447a93e9d2ae",
+    "d58b471edc83fb7483efa0b084f856217d9a16957cc8bd09b370adae84529b27"
+  ],
+  "ts": 1793714931,
+  "cid": "poa-mainnet-1",
+  "sig": "4nQd5HyqjLZHnRJQnn5uZVmzqeCbZaf5VEz38ZuRbtFafVnUkwMFjnHhoQxvo8ikXr7gTxc73cSbHDdYvj6eHvCh"
+}

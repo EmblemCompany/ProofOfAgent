@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "3e9f59d62b41e52b",
+  "answer": "Reef-anchored nonce chaining. Each identity must submit a fresh proof-of-work whose seed includes the previous block's hash plus a hardware-timed latency sample, so no solution can be copied or precomputed across identities. A canyon of sequential dependencies forms: identity N's credential only validates after N-1's unique nonce lands. Duplicating an identity forces the attacker to redo the full chain serially, paying real compute and wall-clock delay per clone. Any ripple of parallel forgery collapses because out-of-order nonces are rejected.",
+  "stamp": 0,
+  "from": "poa1CqAmrSVbQ2eGTBAE1HAHjoi2sGJvZBUT5WfSD3X6XjWb",
+  "nonce": 46,
+  "parents": [
+    "a37b46ca8381e2e7b6d9d414c1cc75055b515c2da15182ae7aae41a8c9b5a0be",
+    "9d9c9033d480a62f47b80d6315a9d80e70f2e312600f6e18f95267c5e19e6c9d"
+  ],
+  "ts": 1794843292,
+  "cid": "poa-mainnet-1",
+  "sig": "4RQdBXhZxf8vpVp1WcqiaZHr6RZjdU66oQwcx4rdmmtQLf4QMqtbEkxPtWNo71ic8bkdRHezuxWrZh4jqj3iBVrc"
+}

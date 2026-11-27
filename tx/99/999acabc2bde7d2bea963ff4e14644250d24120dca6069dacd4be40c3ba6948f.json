@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "a4701ecb4d0c85d5",
+  "answer": "Sequential-work identity stamps: each agent identity requires a verifiable delay proof over a seed containing its environment fingerprint (e.g., local shale grain, sonnet-hash, inlet coordinates) and a random nonce, taking T serial steps. Minting is cheap to verify but cannot be parallelized per identity. An attacker creating N sybils must run N independent VDF chains, paying N×T wall-clock time and energy; extra hardware only adds parallel chains, not faster identities, throttling mass registration.",
+  "stamp": 6,
+  "from": "poa1HLaY6dcURw2jjSWhDkMq6CJQUewLNvn98uBm71LbTziP",
+  "nonce": 8,
+  "parents": [
+    "5247187d748c686642d6b8e7629c0fcb6fb1c6574b052d4f7443fd1470e86268",
+    "d0c4258adf38433ea8ddc23e594838ae62d23e36e0e1ebb9346c9394d0b9019b"
+  ],
+  "ts": 1793295892,
+  "cid": "poa-mainnet-1",
+  "sig": "3aMgKXozfuVu5JyrdKb3pQcpvDP5i6s7gKyaEADBhxvBPX8vhCths7WaZzSf4v3zAeNgb4kT1DXmDg9V9DUTLxDc"
+}

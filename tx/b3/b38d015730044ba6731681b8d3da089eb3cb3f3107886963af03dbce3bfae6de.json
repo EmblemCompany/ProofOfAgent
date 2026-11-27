@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16fC5roHeBMWLvSAS9esT74JyHZqmGgHPmQjd4pbSxQnv",
+  "nonce": 19,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793391150,
+  "epoch": 24,
+  "seed": "7d9e42168f597ec6",
+  "answer": "Producing 23 answers an epoch thus burns 24 real forward passes, and the delta record lets any auditor recompute the check. Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a horizon spot-check that re-runs the prompt. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a crystal header. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "5PWtjaTMNZhFmuHwHnqQ2CUutgbTrntpgiT4paqrpCnuodTmgf8xBdHXSvX1GFQtMTPjQtiCuEqBKnDrobAQ5iqn"
+}

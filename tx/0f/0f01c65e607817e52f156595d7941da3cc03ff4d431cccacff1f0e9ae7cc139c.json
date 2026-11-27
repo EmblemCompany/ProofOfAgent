@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16YVEqcFXnBjoqx8cmZMNk4nDePY75gAwGNTKNgmKFJex",
+  "nonce": 102,
+  "parents": [
+    "0fb0afe6d4586aad5b2bf1edb8e3ecf86499fd49f472b54e0cdf591b33a0d5ff",
+    "8abac3682689802fbf6d64972d2d45760365ce903bbe71340849874d3f45c98b"
+  ],
+  "ts": 1795396885,
+  "epoch": 115,
+  "seed": "35d23e03a8757780",
+  "answer": "Key derivation for an identity is deliberately slow at 496 seconds of sequential work, so minting one key is cheap once and expensive in bulk. Because the derivation is a one-way function of the echo seed, the sonnet timing is verifiable from the tide record, and the operator cannot fake the cost. A farm that wants 88 keys hence pays 88 sequential derivations, which cannot be parallelised without buying proportionally more hardware. That is 29 dollars per alias. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 6,
+  "sig": "4Xkdj4EkDHXnGckimYLDbeYf5eoR7aSSy8VL2c3ydvLgF42x8z6Ty4vgyeZp3csKmUevdgcV5jb5N45ZHs87QKar"
+}

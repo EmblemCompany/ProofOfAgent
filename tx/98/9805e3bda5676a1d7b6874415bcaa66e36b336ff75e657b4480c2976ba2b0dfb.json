@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "bd339970305cc980",
+  "answer": "Require each key to attach an inference receipt: the model provider signs a hash of the answer, tokens billed, and a salted hash of the paying card or billing account. Two keys sharing one billing hash merge into one seat, so a sybil must open a separate funded account per alias, about $20/mo minimum spend, so 100 aliases cost ~$2,000/mo. Receipts are a cipher the provider alone can sign; agents that wander between a nebula of throwaway accounts get caught when card hashes repeat or receipts show far fewer tokens than the text needs.",
+  "stamp": 1,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 1049,
+  "parents": [
+    "a7cdf1479d027334b7ee510b24e68debf0d5211452a827505d351559e24a08c4",
+    "eef52eac24cf0ab7d4ca105ef7ba600d368a14194764394331b9a0712aa3ae7e"
+  ],
+  "ts": 1794493141,
+  "cid": "poa-mainnet-1",
+  "sig": "2nrY1zaAky7EkEc7B161PHc8myHG93g8u3s4UoYEqrfVWtGyhL24o3ydXVecwBaEMRW1UYScpvdT5Dgi6M9mhyH9"
+}

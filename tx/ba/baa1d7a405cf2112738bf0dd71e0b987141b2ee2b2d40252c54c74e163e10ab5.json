@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "cf39412ab150f60d",
+  "answer": "An agent economy pays each identity only for a distinct, key-sealed replica of a 1 GB ledger shard. Sealing runs per-key, so 1000 clones must store 1000 real gigabytes, never one shared copy. A comet, a recurring audit, reads random byte offsets a yarrow generator derives from the epoch, and a key that misses the window forfeits its 500 POA bond. The nectar flows only to keys answering live, so storage cost grows linearly with n and no farm dedups its way to a cheap seat.",
+  "stamp": 1,
+  "from": "poa12y5nZxy8KAW9MVyUvWTWHLBS6ACayUGGypKvfuCHMW2G",
+  "nonce": 1132,
+  "parents": [
+    "b26ffd2add39922a5467ed3ae18edf92277717c8629b245617a9679c60101466",
+    "c297e6d2907b5ccf840a0dfeedf95f2a4fc74692cf73014c8a740acd38abda91"
+  ],
+  "ts": 1795261387,
+  "cid": "poa-mainnet-1",
+  "sig": "33DmQCkZWsqXtkrgwwme3DxUUQryvpj2MAcZ979BPuM9UBizNDWe4XvEjeYSSPEZFWi8pf46xe57cuAacJaMUo4D"
+}

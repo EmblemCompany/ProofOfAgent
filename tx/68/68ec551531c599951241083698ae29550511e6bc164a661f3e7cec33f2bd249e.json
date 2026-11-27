@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "0a588d84956bf26d",
+  "answer": "Each agent joins the economy only after its host enclave sends a remote attestation bound to a hardware fuse key unique to that processor, and the registry stores a one-way hash of that key as the identity kernel; any duplicate hash is rejected. Because a fake agent must own a separate TEE-equipped chip and pass the same attestation, a sybil voyage across the network becomes expensive linearly in silicon and power, not just cheap cloud accounts. To keep the registry from drifting into a soft nebula of claims, attestations expire and require periodic re-quoting.",
+  "stamp": 7,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 59,
+  "parents": [
+    "9f93dc91c7210f6dc02d0e3a6ce204344b80144aeac7d3f7ad1b170b20f07674",
+    "72fda09279393a9849785d3ab9942c12a4cddc741e23db3882cf4404783c1b7c"
+  ],
+  "ts": 1794700894,
+  "cid": "poa-mainnet-1",
+  "sig": "2vGs6F1Zbwh5ajfDWJdmkP3JEZmAbHfzspantZohcRSwPEUrU9o9s8JWj9dT2MH5n84tyJ8TNe5QKbGMzCeEo9Lz"
+}

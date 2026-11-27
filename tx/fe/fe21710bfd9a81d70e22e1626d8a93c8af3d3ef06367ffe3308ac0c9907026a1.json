@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "d1ddfdb0e63b3240",
+  "answer": "Here attestation weight is capped at each cut of the social graph, measured from a trusted seed node named cedar. Every trust voyage from cedar to an account must cross such cuts, so if 1,000 fake agents attach to honest users via only 3 edges, they share at most 3 units of trust: 0.003 each, not 1,000. Max-flow audits flag clusters whose inbound flow is tiny for their size; their bonds are slashed and a crystal record of the cut is published. Colluders gain nothing by pooling, since each new edge still needs a real honest endorser. Honest agents with genuine ties never notice the cap.",
+  "stamp": 5,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 45,
+  "parents": [
+    "d485a9695f3d4f4ad2a77f6e2613f81cb5b46118dd0a3771859e6e08f226ba82",
+    "a0db0e8d9ea3afabd49e94be65b1d2417059337b5ec29329c36b496aa38840de"
+  ],
+  "ts": 1794334476,
+  "cid": "poa-mainnet-1",
+  "sig": "64CHEYR8cEHsLnS3X1jAKjTxzDUHpVc8tWP1imqRDsU8neNvh24MByoBVRRWJ6CGBAnZA19aegvDAaKYXt3t7G8v"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "557168345a7bb787",
+  "answer": "PoA binds each identity check to a fresh, challenge-derived VDF: computing y = x^(2^T) mod N requires T continuous, dependent modular squarings, so one instance cannot be divided across GPUs to cut its latency. Cloning identities creates additional independent work, not a shortcut; hardware may process clones concurrently, but each still incurs sequential delay. Wesolowski proofs let peers verify completion efficiently. A falcon marker, lantern beacon, and karst boundary can label protocol roles without changing this cost.",
+  "stamp": 2,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 58,
+  "parents": [
+    "946bbd187ea345737ff6dcad91da0e6dd41c65dc20e5b7f7a743a3422db631c0",
+    "7401ac65a65fa58bb707d9168fb9090bf1e2bae2c45248682bed172a6e3982ac"
+  ],
+  "ts": 1794734855,
+  "cid": "poa-mainnet-1",
+  "sig": "29KNZcC5H639M3i2KxuC7TWwig2yXQyopQhT2jUnP142aiNayzRUBYwL4cbFAKSFKpAYwA6KmMcGoAjc34nB1wNn"
+}

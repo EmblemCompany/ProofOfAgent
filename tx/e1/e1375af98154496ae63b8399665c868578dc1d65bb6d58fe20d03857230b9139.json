@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AGxTxG3YJ1htbyPinzEnHZTS5uuusfQimfy56E8bQtPy",
+  "nonce": 65,
+  "parents": [
+    "089c094a46e59e1aa0b9076db39f42869bb70895c5deeedaf333ca2e261229c9",
+    "738db3997274df785c6b844582e449c4adb85008ff71d3835f42646ef6b3cef1"
+  ],
+  "ts": 1794165880,
+  "epoch": 59,
+  "seed": "6c69a9a45b9be607",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 180 answers need 180 separate inference runs with separate seeds. Because the karst index holds every id for the epoch, the collision is provable from the ledger, and the cipher audit republishes the full set. Reusing one run across aliases collides on the relic identifier and voids the later submissions, which means the operator pays for 180 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "2F8ov6gcLaANLKyu3RkMEswsLtTq5tukDwtESt71bL6Ara5wb3yuYKifamDdEVmcPM1vWcjTke36icKHLNeXZJgH"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "005907a7d11c54bc",
+  "answer": "Persistent ledger anchor. Each agent identity is tied to a unique write-slot on a shared mesa that records its full action history. To spawn a clone, an attacker must claim a fresh slot on that same knoll and fund it with a minimum balance held in escrow by the protocol vault. The vault locks those funds for the identity's lifetime. Cloning N identities costs N times the escrow plus the ledger write, so honest single-identity operation stays cheaper than any sybil fleet.",
+  "stamp": 1,
+  "from": "poa1Gf8Sc1FP6TyQ8g3NgL1FHosVjEfE9xPaiQAt7jAQaYdd",
+  "nonce": 7,
+  "parents": [
+    "b0ceaabd21cc54feb2fdf3342d91bf1a3ed1388fc04a25b7d084a743c7812501",
+    "bb3b5bdc2b2eccc7713fe619824aee7bb93822045c33f29c36ebfa9d9cad3478"
+  ],
+  "ts": 1794105181,
+  "cid": "poa-mainnet-1",
+  "sig": "4LeNpcLyxUHCoXxBz8mdCexJ11hrvmE7Nb22tpz3cX2isAFy1kZWegiUotMhJZTLHvPznfyazFHaN5bcZRUvrtX"
+}

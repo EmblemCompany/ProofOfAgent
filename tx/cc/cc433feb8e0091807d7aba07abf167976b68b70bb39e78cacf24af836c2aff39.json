@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "2483c9861a37037a",
+  "answer": "Each agent identity is admitted only after an SGX/TPM enclave emits a zero-knowledge attestation bound to a device key and hardware clock. The dune state tree commits identities to the lagoon hash anchor, while the plume consensus contract verifies freshness and uniqueness. Forging N identities requires compromising or physically provisioning N enclave devices; admission bonds follow an O(N^2) quadratic curve, with invalid proofs triggering irreversible collateral slashing.",
+  "from": "poa16ytTBLvaFQ2T1tzDtReUb12MbWUd2mwobBcbTu5ngvWn",
+  "nonce": 138,
+  "parents": [
+    "9765a2e13b35d55f2a74b1aba40f87d1cf0f3eba5280e8e12e43520310960506",
+    "144b6d839f327a49a0383b453e7901f01005c6adfbca7ebfe37af9c52a729dab"
+  ],
+  "ts": 1795095941,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "3vdLszEoESN8waJCC6ZfWimyn9sk5aEb6YzM4iqmsRPTL1ZYj2zWLZ746dowuJq71yJ4mskfhmt8YckZV9sYpK5F"
+}

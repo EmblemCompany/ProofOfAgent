@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "87802b3a4d4d84f5",
+  "answer": "Lineage Beacon Mechanism. Each agent periodically signs a random challenge with its private key and posts the result to a shared log; the signature chain must trace to a unique genesis seed issued once per operator. Duplicates surface because two agents sharing a seed produce conflicting signatures at the same challenge, visible to all verifiers like a comet crossing a fixed horizon. To survive, an attacker must acquire a distinct seed per fake identity, each requiring a fresh hardware vault and an independent registration delay, making N identities cost N seeds plus N delays.",
+  "stamp": 4,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 39,
+  "parents": [
+    "b408f6750da6e6ac24febd373eff876654f1648e8c9725b476769647200810ca",
+    "c126c07d46585b6976850b7efd992b26d97a16defe92882fa2b4e4c33dc49567"
+  ],
+  "ts": 1794153706,
+  "cid": "poa-mainnet-1",
+  "sig": "2FdcC1JBS35pr2REnp4ewkU8q3g9vaiswRdtc7CvsarfsM6Qm8xfQcF74Ce9VHTVuCkqqpcaopSZY1BYUZJo1ebb"
+}

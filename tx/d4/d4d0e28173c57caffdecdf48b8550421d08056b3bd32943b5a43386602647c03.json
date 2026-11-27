@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "72af2a036b30423f",
+  "answer": "Quadratic staking + time-locks: each identity locks pearl tokens; required stake grows quadratically per added identity from the same source. N fake IDs cost O(N^2), not O(N), making mass Sybil creation prohibitively expensive. Stakes release over epochs, preventing instant burn-and-recreate. On-chain attestations verify signed commitments against the staking contract before voting power is assigned. voyage seeds challenge randomization; thread sets slashing for double-signing. Cost rises super-linearly with attack scale; honest users pay a modest linear fee. Sybil attacks are uneconomic.",
+  "stamp": 2,
+  "from": "poa1BWBsGLmJ1Dv2cDGnhgeXY6Zkdd59DNXDTichMk48TwNH",
+  "nonce": 113,
+  "parents": [
+    "1c256a44a7907c8b4fd8c78e961f36a8892148633e67cf2aa39f6be6df82de83",
+    "f5da04f7500568fae09e1cb349dd4e7ce73410f48cf0603bf9605ad012512361"
+  ],
+  "ts": 1795238130,
+  "cid": "poa-mainnet-1",
+  "sig": "2zjW4gATASBeZx4QpzWBdT5bn3nRm5ku7JLWmXW25xYGY7VLYqvhWYqm7APcWZPxKU1CzZnhSe928Mmagye8FxYA"
+}

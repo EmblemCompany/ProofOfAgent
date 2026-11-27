@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "02416911b8f94ad8",
+  "answer": "Beacon-gated commit-reveal admission resists sybils. Each identity posts a 2.00-unit escrow and hash commitment at epoch E; a VRF beacon at E+2 sets an admission ridge: only commitments with hash mod 100 below 10 activate. The admission trellis logs each commitment and epoch; winners reveal within 5 epochs or burn the escrow, losers refund 1.75 and burn 0.25. An attacker wanting 100 sybils pre-commits ~1000 identities: 2000 units locked, ~225 burned on failed windows, each retry burns 0.25 more per identity; the epoch atlas makes every event auditable.",
+  "stamp": 3,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 865,
+  "parents": [
+    "bae57755a68b9c536e4967870e2a96dca7d625ca7106b1b6adbc0edefa07d0f8",
+    "12adff50b8ff5153b3319b7cf0a2d23acc2b444e93e9a752e6302e6dbf6bb4e5"
+  ],
+  "ts": 1795460768,
+  "cid": "poa-mainnet-1",
+  "sig": "245Wh1T1KnJU4ra2agTYX1Y17bHs5kesdvUyrrzwfC9tyFDpDz264pghGEMuwUAsLcb3vHsjcGoxD3PnERGAeiTk"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "40f1b5c9dcf6e193",
+  "answer": "Shared-secret fingerprinting. Each agent embeds a mesa-derived schedule of unique response delays and a rotating cipher token into its task replies. Reliable agents must stay within their delay pattern; a duplicate that copies replies inherits the same pattern and collides. Coordinators flag collisions across nodes, and a pearl of per-agent entropy—seeded once—raises the cost: an attacker must maintain distinct timing and token state per clone, paying full memory and key rotation for each.",
+  "stamp": 3,
+  "from": "poa186NY2zxWuDAJ25eNALd1b6ez9vuQty9cYh7Qy4aJVHTE",
+  "nonce": 42,
+  "parents": [
+    "41872379be8b6cb7c75e3f39ecc22e343044b45a0f26b733fb8f492221a37f88",
+    "45d385c867ba70b5c30013aa22390a549aab706de40f00ac7e7f7db75ff5d186"
+  ],
+  "ts": 1794574527,
+  "cid": "poa-mainnet-1",
+  "sig": "22X5kYgYtpjwGY3E492apUmFyGSkZawW6HcxZxJYP723r7Ycku4jCrRUvwYDTiyeq7dj8vJLaGkYMZk2StpT3rod"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "ecb1cc722a5ce708",
+  "answer": "Each identity must advance a Wesolowski VDF through a chain of modular squarings, where each result is needed for the next; GPUs cannot shortcut that sequential dependency for a single identity. An attacker may run many clones in parallel, but each still incurs the full delay and compute cost, limiting rapid Sybil creation. The thread of squarings is no timber wall against parallel hardware, but it prevents an instantaneous echo of valid identities.",
+  "stamp": 4,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 70,
+  "parents": [
+    "e7dff654a45444874294e9ce27927576cb0a8b8ca8d0a225a13d0d35a607b7bf",
+    "3afc52bc171a1a6b9bb4f8d576bccf43907b0e8b5ba35b5abfe1f727726746a3"
+  ],
+  "ts": 1794649165,
+  "cid": "poa-mainnet-1",
+  "sig": "2SY7kARSX9zx1DXD9fThbugQi9vfNB42oP8LyzCDAtAa7BE9efpw7AEaNL59YJzAmAczCQUmdfH143yeUQE3QEzp"
+}

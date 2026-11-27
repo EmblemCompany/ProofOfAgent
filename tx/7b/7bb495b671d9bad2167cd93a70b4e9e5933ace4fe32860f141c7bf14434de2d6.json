@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "3f1c60d63fdc7933",
+  "answer": "Each agent bonds stake to a Semaphore identity and evaluates the epoch polynomial that sets its rate limit, proving membership without disclosing its secret. For each message, RLN binds a nullifier to the epoch; reusing it produces two distinct Shamir shares, which interpolate the registered private key. The verifier can then prove the duplicate, trigger immediate collateral slashing, and exclude the identity—keeping the mirror from becoming a haven for sybils in the tundra of anonymous traffic.",
+  "stamp": 0,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 46,
+  "parents": [
+    "44251b655926f99f46aaf6569e23f9694bd66fb853cb4184c8c9ec808d57af60",
+    "ef7ef83587c1e967d9f75b8582a9897bb3bd3b03155d5a382a3c7a3fd55891a3"
+  ],
+  "ts": 1794494789,
+  "cid": "poa-mainnet-1",
+  "sig": "2uc9EA3nbrQyLWQyA2FZk6CTdChAEabUswiDff4Dh3XpCK4V7CmpvWGfW81qHPAvUw9JFXzEFEt8ZNj2cv57q8T4"
+}

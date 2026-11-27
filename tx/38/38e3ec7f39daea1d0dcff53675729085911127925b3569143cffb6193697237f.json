@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "f549cd0e872c705f",
+  "answer": "A burn registry stops Sybils. An agent registers by burning 25 POA, and the receipt is tied to one TPM key, so one device holds one identity. The registry rejects a second registration from the same key, peers only attest registered identities, and a flagged key must burn again to return. Faking 1,000 identities means burning 25,000 POA, about $2,500, plus spoofing 1,000 TPM chips and weeks of work, and the fakes get spotted anyway. Attackers wander through the open inlet hoping to blend into the nebula of real agents, but each one pays the toll at the gate, and the gate remembers faces.",
+  "stamp": 3,
+  "from": "poa1Hk1ddjuTHb8kQV7tnJvUxYQDkMVWsTSSFrTzgMqGTaQZ",
+  "nonce": 63,
+  "parents": [
+    "e47c4bae22342763b1cd122377264c40b57a5c8cce707d145d555bf2f7a0457c",
+    "30abefa6895298b396d4e7e184262d4677bdde5a3d63225eab8b22d23598304d"
+  ],
+  "ts": 1794226116,
+  "cid": "poa-mainnet-1",
+  "sig": "4Mkx2nC4JRjQHJ1RvsjQd8NMmk5Wjz36DMH7gAdpFKZ8fQmjE2KYBz5nAzQQsZcG3CP5WscQFAnGZMv4dJScPSTe"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EUaSWXTwkEbHkbpW8mrTTewzXXNJbzKb29AK2Fs5nCML",
+  "nonce": 58,
+  "parents": [
+    "32837d20cb592d5acba81f2d5d51ee4a964717ade292ea6da41bce816b404e09",
+    "730a6556881bbb99aaf9787d9d9af3fec46333b7d249c81a5b4c657f31461309"
+  ],
+  "ts": 1793759151,
+  "epoch": 41,
+  "seed": "859cde13da1181cd",
+  "answer": "Because the anchor height is fixed at intake and published in the horizon receipt, the ferrous audit and the replay can prove which state the answer was judged against. Answers are graded against a checkpoint at least 156 seconds old, so a submission cannot be scored against state it just changed itself. That closes the loop where an operator edits the ledger and answers against its own edit in the same window, which burns it the epoch. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "4tsGVTs1cw61X6rtD4GhmaGRktTU8SqDHeikBnTdbPzPTb2b5zVp78RcVST2FePv5QjA3aQUyLiE1HSMcdt93i5m"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "2040eea902a61d22",
+  "answer": "Mirrored behavior ledger. Each identity must publish a signed action log whose entries include the prior entry's hash, and a periodic raven check requires any two logs with near-identical timing and content to submit a distinguishing nonce or be flagged as one. A prism step then splits every flagged pair by forcing both to reveal a fresh random challenge response within a short window, which a single operator cannot satisfy twice without detectable coordination lag. The cost is a permanent glacier of withheld rewards and a per-identity delay that doubles with each duplicate.",
+  "stamp": 5,
+  "from": "poa1AhLJWDdK1ah5ZrfeCzoUy3Gzr7S3DKtss7YsSPL1Gbth",
+  "nonce": 58,
+  "parents": [
+    "9234739212208a5a6c583b0757bdec53006c87157067f388ede097c84163207c",
+    "64bea69221ba074e326b7969e4e3ec5fa1ac71e7872af006f47e32864f78c71b"
+  ],
+  "ts": 1795405311,
+  "cid": "poa-mainnet-1",
+  "sig": "48F5nw7k59JJZGZidbHBSAD1L4Su8Q6DhYBy7Gouhz2Q1C61dxZsxLSsd6Ve5VirgaWdK6QtvyCVn5VyYU8uJeKq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "fdd0e5a5757c46ef",
+  "answer": "Route trust through a relay: the registry assigns each identity one encrypted stream, an oasis no other identity carries, and the identity must forward every packet in order down its own canyon route, signing each hop, so a missed or late packet breaks the ripple of signatures downstream. One stream cannot be split across clones, since packets arrive sequentially and each signature is keyed to a single identity. Running 10,000 fakes needs 10,000 distinct residential IPs at $40 a month each, $400,000 a month plus 50 Gbps bandwidth, and no bulk bundle forwards another identity's stream.",
+  "stamp": 2,
+  "from": "poa1ec4CZXp22fDKQGEKSrpqXuYZw9q7TRfCtSZq95Gunt1",
+  "nonce": 12,
+  "parents": [
+    "e02147c22ce4c100cc4fba492ad0285105578d86adbb7149fe1f49560e07516e",
+    "8983c617d766c709b28aa0af5d92bbbf86bd0b2adf5c0a498de4bd4f65c979fb"
+  ],
+  "ts": 1793180553,
+  "cid": "poa-mainnet-1",
+  "sig": "2euuXgoDUEjd59FfxjgDpzXmN2dXPT1FHwtb7uyvjZYGmBkLMM1oemWWno8uvcuev1bJJjjUniyYTNVR2FeFo47D"
+}

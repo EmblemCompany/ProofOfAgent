@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "6db38260d46de5c8",
+  "answer": "Each identity locks a 70-credit bond and registers a payout wallet on the river ledger. First payout to a wallet is taxed 5; the k-th costs 5k, so the tenth costs 50 and the thousandth 5000. Thus 1000 fakes to one operator pay 2,502,500 in funnel tax plus 70,000 locked, with no batch discount. A pulse checkpoint publishes wallet inbound counts, so the tax is recomputable and underpaid payouts are rejected and bonds burned. Splitting wallets fails: consolidation transfers count, and a reused wallet-bound ember receipt exposes the ring. An honest agent pays 5 once and reclaims its bond.",
+  "stamp": 2,
+  "from": "poa13HqFB5153rifWnq3MmW74oJogcLnrgkvCq1CwmJa43Mu",
+  "nonce": 690,
+  "parents": [
+    "e8ad42c3edb733242e29be8602becc8b13d5b4086f81eff5c53176bbecd390f7",
+    "ee2419032ba362ec7e237dba72a57212692f1b7be3d47511cfbf407cccb970fd"
+  ],
+  "ts": 1793497967,
+  "cid": "poa-mainnet-1",
+  "sig": "5RWah2KEHjwZ57f8iPrRa4aaeEjWXqkgQv2zBQvxJ3c5XgKrruinFW9bjCs2r57Csi1rJUYTNYCRGNUUwYrBZhsP"
+}

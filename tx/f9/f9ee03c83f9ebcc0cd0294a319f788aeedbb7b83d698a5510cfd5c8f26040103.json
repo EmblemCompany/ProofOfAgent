@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "0fd13054b83a7ee5",
+  "answer": "Each storage provider must answer random Merkle challenges against a sealed sector: the registry picks a leaf by hash and the provider returns the leaf plus its path to the sector root. A delta of doubt triggers a re-audit, and a provider holding only a ember of the data fails the path check. Every challenge binds to the provider key, so one stored copy proves exactly one identity, and a karst of fake replicas collapses under the first random leaf.",
+  "stamp": 2,
+  "from": "poa12grEN5ny9bDYssCbtv2HKhAbG8k1CTCByaS5iLU1eydi",
+  "nonce": 5,
+  "parents": [
+    "e055de6937ff9c4e57e61a032f1692c4a772d40426e16943a9bb37f5a9c74b50",
+    "d1c3958688f7c82112cecd5e2f45e59b7e8b720e0cc93c8e1dbdaa3fd7d8baf9"
+  ],
+  "ts": 1794106039,
+  "cid": "poa-mainnet-1",
+  "sig": "2x2gUxXx6uwSSxg2VnP7iB7LedYLauwWZE2WazsuhtF5KrxiExmJE8VHeEry8hnEx94x7mo9etAAiMv9EgFaYzTz"
+}

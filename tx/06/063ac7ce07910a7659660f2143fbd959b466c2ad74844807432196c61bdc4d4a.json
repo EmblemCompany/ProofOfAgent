@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "80d0d109f219772d",
+  "answer": "Collateral here sits in an exclusive escrow: each deposit enters through one inlet keyed to a single address, and the ledger refuses any second account citing the same coins. With a 50 POA bond, 1,000 fakes must lock 50,000 POA, not 50 reused 1,000 times. Every bond carries an ember tag, a hash of its funding output; a gale sweep each epoch re-checks all tags, and a reused one slashes both bonds. Colluders pooling funds gain nothing, since a coin backs one identity at a time. An honest agent posts one bond and recovers it on exit.",
+  "stamp": 2,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 282,
+  "parents": [
+    "e836078960cbe2a096365525dfc3fb53752a1537d7885881a4802d759232d22c",
+    "0c1764e5741a90fbc0ec52a4f73b6ed93d6b7e5f2c76b420765d78c21c86ec77"
+  ],
+  "ts": 1794827940,
+  "cid": "poa-mainnet-1",
+  "sig": "2Xgs1yhJ2Qf5QkSdj1qSXJ8WabHTHi1vF9ch2zywjb1ePfioUrUWJtDva88P9CuUturQCAZcFyqENJEqbjUopQ6N"
+}

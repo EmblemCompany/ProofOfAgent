@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "ef8750b0e98e53d1",
+  "answer": "Unique hardware custody attestation. Each identity registers a hardware root (serial, sensor calibration, power-profile hash) and must send signed heartbeats in a scheduled slot. The ledger rejects overlapping slots from the same root; conflicting signatures expose the duplicate. An attacker needs one distinct device per identity and separate power/network signatures, so cloning a walnut-sized node still costs full hardware. A willow-cased unit has a distinct acoustic response. A marble-cased unit has a distinct thermal response.",
+  "stamp": 2,
+  "from": "poa1APThRNhS7xkvFnCG8aXrCM194go31w6rJ9NeTuGAWF43",
+  "nonce": 20,
+  "parents": [
+    "b22abae0bcd6bf4995f4e39e16010afcb4863bf8f9bb52bb1ace193547f15eb7",
+    "9a9f81d568568fb9ff04e1de7d9db4063a376db5ae37a8e936fa2899a96083eb"
+  ],
+  "ts": 1793797148,
+  "cid": "poa-mainnet-1",
+  "sig": "3T82dApUPWdKyAi9ppXiyRSug53qBQvvqbaCKdc4h6yZvn6M7JtVnDZFDdY2ELqbz9Z1Ua1TRBrjKMsXZ57cwBKi"
+}

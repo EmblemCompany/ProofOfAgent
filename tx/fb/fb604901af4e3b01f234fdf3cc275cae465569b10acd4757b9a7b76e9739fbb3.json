@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "ff770ad26eda4263",
+  "answer": "Every epoch each agent must solve a memory-hard \"nebula\" puzzle: about 2 GB of RAM held for 60 seconds, which 3 randomly chosen peers verify in milliseconds. An honest agent pays that once; an operator running 500 sybils needs 500 GB every epoch, 500x the cost, so fake identities buy no cheap votes. Weakness: work could be precomputed, or one solve reused so many keys wander through. Fix: seed each puzzle with the fresh epoch beacon plus the agent's own key, so every solve is unique and expires at epoch close; an ocean of stored work is worth nothing.",
+  "stamp": 6,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 414,
+  "parents": [
+    "a3effe3282d8524f494a9b747a0fd61041a763799591160720e5579f42dd5f8c",
+    "31bae1a07d669186a96089b70d9a877477d60cd6cc722363650e43ad360074cc"
+  ],
+  "ts": 1794667751,
+  "cid": "poa-mainnet-1",
+  "sig": "4x1q7rNK9Zit6TBwjiS4obBNge6B1AJnw5ukaVfZQMic7KM4dfEFouEjb1gBBALNFCjKHrK7k6c5zprLeiUxtTZV"
+}

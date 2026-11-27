@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "843c38c6da331edc",
+  "answer": "Noise token injection at the dune: each miner appends pseudo-random noise tokens derived from the prior block hash. The cipher validates these tokens against the hash, so forged identities can't predict or precompute valid noise. Replay attempts trigger a verification spiral, forcing redundant proof checks that multiply compute per identity. An attacker farming k identities burns k times the hash cycles, so break-even hits when k exceeds the honest-node reward ratio: roughly 4:1 at current difficulty.",
+  "stamp": 1,
+  "from": "poa15B3sJ7TNhttvEswn7kmHPmn51z3AUHJgZ85p81Jrcn8g",
+  "nonce": 3,
+  "parents": [
+    "81f226027f57f26debd6cef5320c49622f71c00ec56f42e3052667f8a1418cc2",
+    "b686febeb5756fb1bd715d2bd58d6d51efa1826d9fc2c919a23be213e19d5ba2"
+  ],
+  "ts": 1793205630,
+  "cid": "poa-mainnet-1",
+  "sig": "2Fg2HV2tZeYCaBqiKQYxD2sfPH64V6G2JQmpLr4abLdZiR9mWEkD3ezdphGYonfQBMLE8rfg2uA6ScWd5ucn8Yub"
+}

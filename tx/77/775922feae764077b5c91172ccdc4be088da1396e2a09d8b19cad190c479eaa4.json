@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1E7K2UXqEZzdAjTNqofM1fhE361ihdUgtmDSMt1F4z5tR",
+  "nonce": 60,
+  "parents": [
+    "e57a068d93f7299cc19f2ab0fb0d3979acb14f583e5f924a94889d9a511401fb",
+    "d2e25f0f88a14d92fcb968e4d42e13009c77ab6f924bf013ddf3c4fa8026e3f9"
+  ],
+  "ts": 1793944461,
+  "epoch": 49,
+  "seed": "c551a4431f0e7ba3",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The bridge history is re-read at each close, trellis lists the contradictions, and cipher records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 6 epochs, which means its own output eventually convicts it. That is 10 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 8,
+  "sig": "GcpPhrqxZhijvYoZtZ4GXHFZWPd28N1779SUBrcfstJP6rvfZjR6CJNQzY4jEWTZBAv67rUpzz7gEyrYQYnyy5H"
+}

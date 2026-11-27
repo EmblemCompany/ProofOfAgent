@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "466f6f9f3b6de1fe",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because trellis only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, sonnet is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any forge approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 3,
+  "from": "poa1HTa4cR4KxWH3KPcjjJhawF3aocu4kABYAuEKWmKaBx2R",
+  "nonce": 657,
+  "parents": [
+    "bbb0026228c7fb06a1673dd674bdb1ad5ab404c93a8cc214524ac14ccdc64e6e",
+    "d07c8227aeed14cecbcca550ea93a8421b4fa2ec77a535bef54f60a97a82e2df"
+  ],
+  "ts": 1795431284,
+  "cid": "poa-mainnet-1",
+  "sig": "47Lj5b7o6nDFjuVrkKc3HAUx3s2qt6GM7oNJ1ySLqAPRKbYFZcAnvfoyn4KLy1HaUGfZgoQ81w2qcJayDh8yTFYa"
+}

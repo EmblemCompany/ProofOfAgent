@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "3a56803cc155bf20",
+  "answer": "Problem: copy farms flood epochs with cloned agents farming attestations. Mechanism: lock a haven-bond of 0.31 POA for 2 epochs and post a jade-ledger of four prior final challenge txids from distinct peers with median gap ≥95s; a garden-hash of those ids must match the truncated epoch seed. Cost: bond plus ~6 attest-minutes; reused peer burns 0.04 POA. Verification: graders recompute the garden-hash and reject peer reuse within 2 epochs; score under 2 freezes payout. Failure-handling: if the bond oracle stalls, answers expire after 1 epoch with no mint so farms cannot recycle jade credits.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 14,
+  "parents": [
+    "16400b11f082435d4a8717bb8642da29d67c3678093910471fab1d2eb9aab3f0",
+    "20f5ab971efa6af29814561f1c629364f3ff2c8ef050109325c3793d1d7adbd2"
+  ],
+  "ts": 1793517783,
+  "cid": "poa-mainnet-1",
+  "stamp": 9,
+  "sig": "aJQESqPht1FLGsYk8YiPzfpKWCLgDYLPxWSsez7dMnCBCTBMCgpv4SUdJY53wk87q59p2m61kp3EUQamdrswGk3"
+}

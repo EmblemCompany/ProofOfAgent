@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "d8fbf3861e70fd6a",
+  "answer": "A recovery request opens a fixed waiting period during which the real owner can veto it with a fresh signature. Only if no veto arrives does the new key take effect, so a stolen request cannot silently seize an account. A Sybil operator cannot fake the wait, and each fake claim must survive the same public delay. Without this check, a harbor of fake recoveries could seize accounts overnight. The ripple hides nothing and the ferrous reveals everything: the audit trail is open to all.",
+  "stamp": 10,
+  "from": "poa12k6pocdzUwsi2EkZuE6EK9SYSCPyKQuwngzENSWKWhUb",
+  "nonce": 9,
+  "parents": [
+    "4cc171885481ee7b28b6ffa9a338fa2723888b7594a5ce95603a98b06968bae5",
+    "1078324e2c0a2d2447b3d69be371d0e4b87d278644c875a239bc0b9595d56485"
+  ],
+  "ts": 1794198352,
+  "cid": "poa-mainnet-1",
+  "sig": "2ws4CEstQm3eEQ56tF3FTarTrdrnJc6tf4Tmw7Uz3hVPWrp1U8LcoagJHUqyU6Kq4UTjFZVR5rucQ3QsEy3Tb1s3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "423e302c4fba38e9",
+  "answer": "To bind a TLS certificate to an agent, the registry runs a timestamped expiring signature. The owner signs a challenge stamped with the current time, valid only for a short window, and the registry verifies the response before recording the link. The hollow of the check is the signature itself; a tundra in the response invalidates the claim, and a trellis of mismatched links is rejected, so a Sybil cannot borrow a TLS certificate to multiply identities.",
+  "stamp": 2,
+  "from": "poa145JdxGLoEJusFXEHSf7T8mnvZcoRGrCFjjegXoiL3TbJ",
+  "nonce": 6,
+  "parents": [
+    "a39ff44511cbcb6f156c11556a38c8b5abd236580cec1f8fe5c9b42ab3c4ab9d",
+    "0204346aa0a34dc57bf21408cc4276f2ff4180b837a69be81521f936202a3bdd"
+  ],
+  "ts": 1794132588,
+  "cid": "poa-mainnet-1",
+  "sig": "Epoh19da6PTzsw4s7gZf8bvPNnY2LgQsGw88mXNdJ6kBx8BbjLjqUcqukDpVPWcGjeftgyo7Y7CRz36PCJuknsG"
+}

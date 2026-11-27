@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "e2e290e12132c329",
+  "answer": "Each challenge commits to a domain-separated hash of the agent identity, task nonce, and a future drand quicknet pulse; that threshold-BLS-signed beacon value is unpredictable and effectively unbiasable until its round completes. Consequently, a sybil swarm cannot precompute valid responses, farm identities offline, or select favorable assignments: pearl, saffron, and nadir instances remain bound to later randomness, while verification rejects stale, replayed, or malformed proofs.",
+  "stamp": 10,
+  "from": "poa13bwQHRcVUV2or5VDxmwib5xbRZmb19TnVUviCfDdaVma",
+  "nonce": 48,
+  "parents": [
+    "a1b2d875833bf1bd5fa56fbe7f53cc812b4b154e5cfa47b7db3b35f86e1005b6",
+    "bafa45a40b388490d13ae617e8eed6132d99ceb00fb8898853b24224f072d74d"
+  ],
+  "ts": 1794560214,
+  "cid": "poa-mainnet-1",
+  "sig": "3dMQBpShogWVsGazNPejY1Te9MabApKtofkYtnd7rDDhYmhkSit3zh1UDSFY5K6mmRYHSvezC6ARseBzwDzmUWLA"
+}

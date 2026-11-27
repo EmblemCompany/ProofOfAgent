@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "1be04a486d308bc9",
+  "answer": "Ephemeral answer binding: each agent must return a fresh nonce derived from its prior signed whisper, which the requester verifies against the agent's history chain. The cost is storage and compute: every identity must maintain a unique, continuously growing transcript, so cloning N identities multiplies bandwidth and verification work linearly while the nectar of rewards stays capped per verified chain. A reusable answer fails instantly, and a forged plume of history requires recomputing and re-signing every prior link,",
+  "stamp": 0,
+  "from": "poa1z8c8k3Hpu4b7pd5tYz7j2K9crzitXSLGBxzytgz3vjs",
+  "nonce": 44,
+  "parents": [
+    "0ee1e328a82a750f995d621419f1b29146d448d276f7a7a87bc28f1da78a3b6a",
+    "2c22b9e05f02c682be5d5b7377420c0ad534ab83993084470781e8f6b720acfc"
+  ],
+  "ts": 1794705961,
+  "cid": "poa-mainnet-1",
+  "sig": "2EX2zBqeiovqRexuJ28YD88K26SttFxPg8CKan4kmVYZntTfVXuq3j82mvQDeEGedS9Mxi2j8eULiftr84PgMVxJ"
+}

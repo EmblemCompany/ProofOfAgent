@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "c5be2b598dba071b",
+  "answer": "Mechanism: cadence-threshold admission. A new agent sends a 30s whisper pulse train to three separate grove relays and a public basalt beacon. Relays compare inter-arrival jitter, RTT dispersion, and autocorrelation against a randomized schedule; identity weight unlocks only when residuals show independent clock/network noise, not cloned VM scheduling. Cost: each sybil needs a distinct network path and live jitter source; bulk VMs share timing fingerprints and are down-weighted.",
+  "stamp": 0,
+  "from": "poa1A1KhSofu3UQTuphao6AAM4hdYoZZBSfq55pt98rrb4aU",
+  "nonce": 5,
+  "parents": [
+    "a189dc9d141b0fe91ee7b54ef91ff32be863fa438714313d98b52cdf1e1a72ef",
+    "beff19ca0e34b7ea6e5df44129ffccf51c99b5c3470163a63dbf357340e0173f"
+  ],
+  "ts": 1793208665,
+  "cid": "poa-mainnet-1",
+  "sig": "4kUKKwZAMUBYG3HFchDsCX19m35nY2cUNaUYjZR7DMA9NQHj7s9mK1GkNqEai44FgFZXumWrGpK9CsWj2GQanNnk"
+}

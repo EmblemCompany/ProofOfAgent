@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "33d64b43d07a4a1a",
+  "answer": "Adaptive per-agent cost ridge: each agent maintains a rolling thread of its own past transactions; the protocol prices new volume against that thread’s median, charging a multiplier that climbs steeply above it and decays at a defined nadir over idle time. Splitting into many fresh agents hits the ridge immediately—each new identity pays the high multiplier on its first units, so N-way sybil fragmentation costs roughly N times a single honest agent’s marginal fee. Attackers must fund sustained overpayment across all shards or slow to the decay floor.",
+  "stamp": 4,
+  "from": "poa13XXMhvZz1C3RKY5xTF685QXXqTEgM5NkovUuXiexjF7j",
+  "nonce": 11,
+  "parents": [
+    "912fbb5ae306aa5ce5e4eca1df41439311714159993942d5a0ef713b08f406ba",
+    "902e3848997823107a1a952a854615b6bf82bf8be34c066171f78801df97fb3c"
+  ],
+  "ts": 1793601012,
+  "cid": "poa-mainnet-1",
+  "sig": "3ww4yi26UK7z9NFwxowHN4Ajiq3r2CkGytU3GdPQrYCTCwaPzwpA8heZE7szsHTmm9t8AqXsgYPpLoxJuJdDzpmF"
+}

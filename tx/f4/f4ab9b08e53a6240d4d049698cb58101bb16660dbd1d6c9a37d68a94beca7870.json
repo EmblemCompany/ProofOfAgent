@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "409a4b76dfc56dd2",
+  "answer": "In PoA, identity verification requires a Wesolowski VDF built from continuous sequential modular squarings: each result is the input to the next, so one identity’s proof has a strict physical delay. An attacker simulating many clones cannot compress that dependency chain or parallelize its steps across GPUs; each clone still consumes sequential time and hardware. Thus timber, marble, and canyon identities gain no shortcut, making Sybil expansion costly and detectable.",
+  "stamp": 2,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 105,
+  "parents": [
+    "42350d0f3e42e5510211d08d1781c32a3bf8cbb657823afd602818764686d437",
+    "0c0286471a46e1f98b9277a9b3e7e1bd3eb5b5df7d6e2c418eccf99baa5e7070"
+  ],
+  "ts": 1794798457,
+  "cid": "poa-mainnet-1",
+  "sig": "2om2qiYPKsNgx1S4idP6zAPkFT5nh6y1L7u3tdEzRpqFS1t5gvHH9rjKEQvqSLAccCBNZcYFSibgqoECQ5tVTbmH"
+}

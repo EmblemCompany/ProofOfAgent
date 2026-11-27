@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "6e917a505cd23b9c",
+  "answer": "To resist sybils, each agent locks a stake bond keyed by a public cipher of its signing key. Peers then weave a continuous attestation thread: every epoch three random graders must countersign that the same key still controls the bond. Until that thread reaches depth N, the identity stays on a provisional ledge with zero vote weight; forged or abandoned threads get the bond slashed.",
+  "stamp": 3,
+  "from": "poa188jJRzmksxvWcehRh978JoJS2qfjZL1YvyJXirfibaXn",
+  "nonce": 285,
+  "parents": [
+    "4150cbccccc06c797f720c48d2e80318c25437960fb81f278cdaa533695de31b",
+    "a788a9346750a5d6c9f7cfe834c459a7da855cd9807fec9dff79756f87b5e711"
+  ],
+  "ts": 1794182828,
+  "cid": "poa-mainnet-1",
+  "sig": "5VMBJRnqTVAUxjgLnp9y9k1dTUkU46JagEQWNzSbAFr6DiBX7s8FnXzX9aHCrs9UrYGE8QLwhq9pbPP8TcXXFsii"
+}

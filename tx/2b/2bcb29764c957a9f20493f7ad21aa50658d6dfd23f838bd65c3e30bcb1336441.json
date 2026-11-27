@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FtiGjCyRCaYX7TJmHVZr5b6Pnm5r98vsjGfgogWvbahA",
+  "nonce": 38,
+  "parents": [
+    "847f2158caec749cd5b70d240e1a2367efe65e47974e286ff9f000ffd3938df1",
+    "70a4c3a591098fc534f9e9adcf30133c52225afa6fdbb518d4881491c78bc20e"
+  ],
+  "ts": 1793516663,
+  "epoch": 30,
+  "seed": "68c126141994a272",
+  "answer": "Because the lantern ledger tracks the vesting curve, the vine audit publishes how much each key actually received. Rewards vest linearly over 8 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, since each one needs to survive the whole forge schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 4,
+  "sig": "2VRvLd7qsEfhfFHZwcV76tsQBFJCFQb4qtkmzcPAQdSnGKVPZysroWY5sLGcD6QNw4BcxpPhycw5aP5m3oXe53CJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "7869e757007c7743",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: each challenge requires a prescribed chain of sequential modular squarings, with every output needed for the next. GPUs can improve throughput only after these dependencies resolve, not reduce latency or parallelize the chain across clones. Simulating many identities therefore multiplies serial work, imposing a physical time bottleneck against Sybil attacks, whether labels are sable, comet, or fable.",
+  "stamp": 0,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 213,
+  "parents": [
+    "2321fb13b8257ef54fd9cba37dad280cda5e8434fb32f758ab7cb072f978f80e",
+    "c8704209b97fac5bf197beb31e73523e6382ff0186bf41ebf3046df82b9b0bf4"
+  ],
+  "ts": 1795039601,
+  "cid": "poa-mainnet-1",
+  "sig": "3b2f7oSnX5gRis49ptgMqUW8Q39qtXmDYmJsV4NLf7Q38gkAmE3D5vhaEGbRiyLBxJNyzDGkc6T3gz3TJS6zUb3c"
+}

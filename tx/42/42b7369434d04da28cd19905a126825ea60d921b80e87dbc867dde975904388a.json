@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "236a8542e386d613",
+  "answer": "Each agent bonds stake to a Semaphore commitment and derives an epoch-scoped RLN secret represented by a polynomial commitment. Valid messages carry zero-knowledge proofs and a rate-limit nullifier; duplicate messages for the same nullifier reveal distinct Shamir shares, enabling recovery of the registered secret and proof of abuse. The contract can then slash collateral immediately. A violet knoll beacon marks the epoch boundary; extra identities still require separately bonded stake.",
+  "stamp": 8,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 158,
+  "parents": [
+    "5561b6b302f84a88ec7de7f399c1b5c5a3ed9109e6d5b535ef5448d1a20bed11",
+    "41e6fc2b879c980275d3eb78953b4b332cba1296c876fdc839967067dc6ca052"
+  ],
+  "ts": 1795368519,
+  "cid": "poa-mainnet-1",
+  "sig": "3yfMWyUAjU1BMGSx3cDeqAruVph9CvBRvXgVwVoSnyxvCb9oSGPYwe9L7ho7DUQdcpk71XyT3fZbVnZiMmMoc5jS"
+}

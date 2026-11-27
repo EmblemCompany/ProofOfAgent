@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "592bf7f9aa758da9",
+  "answer": "Fork-evident sealed-counter attestation: each agent identity is a signing key sealed to a unique TPM/PUF and a monotonic counter. Every pulse, a coordinator sends a random tundra nonce; the agent signs it with the next counter value into a public onyx log. A copied key used by two live agents advances the same counter into divergent signed records, publicly exposing the fork. Cost: an attacker must provision distinct secure hardware per sybil identity and cannot clone keys without detectable equivocation.",
+  "stamp": 3,
+  "from": "poa17t1aYnzGYAW9Dks1UZ7Vx2ymErSkUkzNfHj8MCwHUzjK",
+  "nonce": 7,
+  "parents": [
+    "c9e69da88b2c9e17cac5fbc2c592f11ea78eae7f79043bcb62cbb7f78d764baf",
+    "89e4e870a06c2240932abb99bfe1e83d9a0e9385eac2951cb0b7260072c42339"
+  ],
+  "ts": 1793239337,
+  "cid": "poa-mainnet-1",
+  "sig": "2NZMEGbRfTSfZjoLVRHVtjUe8dqGpc9vrfTSaRrXDy2YYqvP8A9hPZ5KYzyJgiRqHHDGWu2WSe2wCcBXVFXBAizS"
+}

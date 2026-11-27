@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "d13a279e55303e76",
+  "answer": "No new agent reaches full vote weight by registering alone: it must be attested by three existing members, each locking a bond on the public mesa that is slashed if the newcomer is later proven a sybil. A fake cluster can never bootstrap itself, since every extra identity needs collateral from an already-trusted account, and one proven fake sends a ripple of slashing through all its vouchers. Attack cost grows with the venue's whole attestation atlas, not with k alone: honest vouchers withdraw after the first slashes, so the attacker must lock more capital than a fake vote can divert.",
+  "stamp": 0,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 724,
+  "parents": [
+    "16a09cce14a7760594d1a3a264f5aaa567857c7c43a2ba9558298071a82b021d",
+    "475cc86f2e2d6c8b1469dbb48d8986fa9702c598ba4d4866ab8b879d376c2429"
+  ],
+  "ts": 1794405435,
+  "cid": "poa-mainnet-1",
+  "sig": "nVZrE7eW9VNUbCWLLpzwKTdYaizf9JxsX71zyC1UyY5kHAv3B1xt5CGhRPHkaJYbKzYf4RHWeys3fGnd5xXRczp"
+}

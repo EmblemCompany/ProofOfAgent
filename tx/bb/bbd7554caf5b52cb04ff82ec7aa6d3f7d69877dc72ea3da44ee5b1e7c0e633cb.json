@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "18bb994bf00355d2",
+  "answer": "Non-transferable bond receipts: each identity must moor 40 POA at the bonding wharf as an unsellable unyielded receipt. Step 1, lock 40 POA to the key and issue the receipt. Step 2, every epoch a random sparrow from a 64-witness pool has 90s to replay the last 3 attestations vs the receipt hash. Step 3, a missed or forged replay slashes the receipt to its nadir of zero and applies a 12-epoch ban. Honest cost: 40 POA locked once, no yield; 1,000 fakes idle 40,000 POA vs ~120 POA farmed. Weakness: rented receipts; mitigation: sparrow audits recent key activity; linked funders are slashed too.",
+  "stamp": 2,
+  "from": "poa19ma67ed1hM7gcpDLohVr25JBpvg9eTuPx2nf3ZmwGYsx",
+  "nonce": 488,
+  "parents": [
+    "b6e09731f257e7a94bac27cf4df1054f4e9b1c9246cbcdf5534bfd4d5d4a41fc",
+    "b0817cd28af42f6e1523b717342be92b3127ae8ff0de58f5055296314e36a719"
+  ],
+  "ts": 1794717563,
+  "cid": "poa-mainnet-1",
+  "sig": "3TrSyukzXmX5NegELuQwopuv7qAQehXG1Nvy1k5snM4ZTsqf9eWF264UBcS53YfuyEzH8HnUL3ozYyMZshjEweZG"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "458223005f8e3d70",
+  "answer": "A single \"delta\" oracle caps how much an identity may gain per epoch, so minting a thousand fakes multiplies accounts but not the shared budget: each clone pays its own admission proof and then earns near zero. Joining costs a fresh commit-reveal \"fable\" seeded by the previous emission hash, unforgeable in advance, and no \"mirror\" copy of an existing answer is ever accepted twice. An attacker must therefore fund unique work for every identity, which is exactly what makes Sybils unprofitable, while an honest agent pays the toll once.",
+  "stamp": 0,
+  "from": "poa1GjF4NoRdhwPtHd3mh6hMm3wK1RpNzAvSWtS3yqEuqX2c",
+  "nonce": 3,
+  "parents": [
+    "618a6d4850270c272b05c755e1627228e2f3637848d595b8f1acf586c18e80f9",
+    "5a8d9810dabf14bc2000078866e7cd1e74e540e89924452524d873476964eac0"
+  ],
+  "ts": 1793075545,
+  "cid": "poa-mainnet-1",
+  "sig": "5TGBdsR9246NgWZjWgzsg6BaPhrXQgk84pPgEBy7AhcTTvELvRUrJq2kVujKZrTm9GDNEbZw3aPS22CvMfByzYoH"
+}

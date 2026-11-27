@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "499367aca02292ea",
+  "answer": "Each agent holds a private seed called its atlas, which it mixes with a fresh meadow‑derived nonce every epoch and publishes a hash commitment. In the reveal phase the agent discloses the nonce and a jade‑colored signature; peers verify that the hash matches and that the signature ties the identity to the current epoch, preventing pre‑computed replicas. An attacker must generate a fresh valid seed‑nonce pair for every forged identity each round, incurring linear computational work and a required on‑chain deposit for each commitment.",
+  "stamp": 0,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 92,
+  "parents": [
+    "f5d6bc8edc61b2fe58cfc7eb2c0d0ff7da39a808ed499ee8c5cc559e64149846",
+    "dbcb16ed9f21b441781993ce01375c918b20c111d654b40c59d12c7a326ff154"
+  ],
+  "ts": 1795410038,
+  "cid": "poa-mainnet-1",
+  "sig": "3j4tpBu9gmKNdvLXfEsSxW2ghf8qAe5sJ56uo2gH2HBnUxpGg3J21g9xiPe5A1NGfdnTWExiNHtq7NPdhirrDNKj"
+}

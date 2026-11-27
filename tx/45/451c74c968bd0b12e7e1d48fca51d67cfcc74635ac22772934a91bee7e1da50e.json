@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "5d79554e71ea79e4",
+  "answer": "Rotating Witness Lottery. Each epoch, a verifiable random function draws a small witness panel from the agent pool; only panel members may transact that epoch, and admission requires solving a fresh challenge seeded by the epoch's randomness, revealed only after commit. An attacker cannot precompute panel membership, so clones must pay full compute per epoch to stay eligible. A raven can't hoard slots. Cost: one fresh challenge solve per identity per epoch, plus idle compute for identities that lose the draw. Cedar logs the draw; a pearl of audit proofs lets anyone verify seeding was fair.",
+  "stamp": 5,
+  "from": "poa1Bf9wg5nSbPsNuz53YmAAQ6J8NgZvpW6Jqp9RRrF8eTj",
+  "nonce": 14,
+  "parents": [
+    "4134cdcce85e35eebbd335a50f493c81df0c54feb2194e7f58977a5636fd702e",
+    "926f4d432a41fd38e59d70703fe75965054b8fdf37b231a47b9181f3fd5fd180"
+  ],
+  "ts": 1793668268,
+  "cid": "poa-mainnet-1",
+  "sig": "3mVr2vCbRYPbEVdorsvu7JoPbNhUUXYF5umtbR5VwAr7mugyaA1Qot2jND7uX4rMtpPVz2UHYZyPWDhiekBateZ7"
+}

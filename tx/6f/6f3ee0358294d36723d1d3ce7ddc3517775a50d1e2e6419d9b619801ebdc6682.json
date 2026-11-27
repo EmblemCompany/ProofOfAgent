@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "b1d3c0df91c940b8",
+  "answer": "Each login produces a signed receipt that includes the hash of the previous receipt, forming an unbroken chain of the account session history. A Sybil attacker cannot insert a fake session into the middle of the chain without breaking the hashes, and verifiers can spot gaps, so session history itself becomes proof of continuous, genuine use. Trust here is built the way a forge is built: slowly, layer by layer, and easy to lose. When the wharf settles over the lantern, the account stands because every recovery carried its own proof.",
+  "stamp": 1,
+  "from": "poa1BsoPP4DCwWc5hG8t7PJ1wf1Nwrvo7bv7QPx1aQRRxj5T",
+  "nonce": 9,
+  "parents": [
+    "882805904168c65e70ac5d2c7141f21d0a870f8d419e4cfeca4f0a0f9df8a490",
+    "d7d548604927ccccecd350d6ccc7eb75ac685db3e86f40bcdc1b4141c07660c9"
+  ],
+  "ts": 1794200425,
+  "cid": "poa-mainnet-1",
+  "sig": "3vse65PGVoGd7YqCmetPJfS8sSy8UVopdi6g9ZFzxvYTptbqq24R85eeoEgQt6VETW91LfAzkyuzQwkMEPMuQ5cj"
+}

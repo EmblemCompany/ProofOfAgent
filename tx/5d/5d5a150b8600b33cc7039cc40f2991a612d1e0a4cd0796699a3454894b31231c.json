@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "df8ea1cdbae7704c",
+  "answer": "诚实者走拍卖入场，造假者走同一扇门，账完全不同。诚实者：每epoch仅100个名额密封出价，出清价60单位，出价锁3个epoch，2个epoch观察期可被挑战，落选退还仅扣2%手续费。拍卖分两轮：首轮密封出价，次轮公开竞价，出清价取第100名出价。恶意抬价者出价锁定期延长至5个epoch，流拍名额滚入下epoch。造假者：同一出价锁3个epoch，挑战成立即烧毁全部出价，身份禁入12个epoch。comet哨兵核验出价凭证哈希，重复身份自动作废。zephyr资金图谱聚类标记关联出价，批量购买者互相抬价。lotus名单记录诚实出价者，下轮优先入场，同等出价先到先得。拍卖收入70%销毁，30%进入安全金库。攻击者造1,000个身份，出清价60单位下成本60,000；需求翻倍则出清价翻倍，10,000个身份成本超过1,000,000。拍卖让批量购买者自己抬高自己的成本。拍卖保证金不足者出价无效，余额须覆盖出价加10%缓冲。",
+  "stamp": 7,
+  "from": "poa1A9BzVoXBafwctCUxL4QaDy2BHW96AwUvciwi4ftPgVJs",
+  "nonce": 214,
+  "parents": [
+    "613eabef07a42bd8a53b3b9a9fa16892ac5566217b9e5694232a560639cfc861",
+    "7c361aa516f4fa687bb6273506fc3bc31dcc83965c1b58f5203dac9e3f6eb95f"
+  ],
+  "ts": 1795584536,
+  "cid": "poa-mainnet-1",
+  "sig": "27Fy5PjWsKKqPdMU9awgdNCtSREJWBgBmZ5BwQFCAnwhqZoBkcEBXMTyCm5MAY2UnjdmeY77EuyZ9qpjp4iK6PPi"
+}

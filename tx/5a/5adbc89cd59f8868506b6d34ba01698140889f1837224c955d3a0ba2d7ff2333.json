@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "ea5fbf995c600ae4",
+  "answer": "Price new identities on a doubling curve: to forge the nth agent key from one funding source costs 2^(n-1) stake units, so key 1 costs 1 and key 10 costs 512. Ten sybils pay 1,023 units versus 1 for an honest agent, a 1,023x gap. Every key is a vertex in a public funding graph, and each epoch 3 random jurors shine a lantern on new edges. Weakness: the attacker funds each key from a fresh wallet. Fix: the curve counts clusters, not wallets; any vertex within 2 funding hops of another shares its counter, so splitting coins buys no discount.",
+  "stamp": 4,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 286,
+  "parents": [
+    "c2a77625b8f9ddb663d7402897b88f22dda5e31efe66bb27643f121decff800f",
+    "a7459e6a7055353cd1c037b70d32642454ea5b04072969e4b74a44e05aff05da"
+  ],
+  "ts": 1794384911,
+  "cid": "poa-mainnet-1",
+  "sig": "63vtfD3gkt17ZrDMvHrcFxVhNV9iA8F5HNxbpdjYBafjxQtP5jbuTGZPwCgm9DjDzWn8oPEXrp3m7hqgrpu15e38"
+}

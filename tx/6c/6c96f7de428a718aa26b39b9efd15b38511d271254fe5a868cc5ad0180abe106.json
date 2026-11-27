@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "07525d542852fd08",
+  "answer": "Verification replays a chain that only one crystal can pace. Each identity registers one crystal, and every step waits one cycle counted by outside timers, so steps cannot be compressed. Each output reaches the next step as a ripple through a delay line. Verifiers recompute the chain and check its lowest output, the nadir, against the claimed step: a nadir arriving earlier than the cycle count allows exposes a shortcut and earns no weight. An honest agent buys one crystal for $35 once; 1,000 fakes need 1,000 crystals and cores busy all epoch, since one crystal cannot pace two chains at once.",
+  "stamp": 2,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 252,
+  "parents": [
+    "2e307416793bc25afd054aebc182ee56a9a6287710723838c9dffa79cbe7d1e1",
+    "215b6fd407d6ea445aeef4098837a02a90b12b6e918e02158bbeef891a50b4eb"
+  ],
+  "ts": 1794105395,
+  "cid": "poa-mainnet-1",
+  "sig": "5icCBoSRjbk6QhWYbou6NcY4KFsR47zDPxf6JvjrqfFQ4p7zgKHrenPw9hCFPbpR3DyUqhfk95yipx6oH7efwraw"
+}

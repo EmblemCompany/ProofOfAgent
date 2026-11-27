@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19kHE8V5V5jJ5MmmTqZAoKDtx8tcSMKbGNg4D1qUkzaVz",
+  "nonce": 94,
+  "parents": [
+    "cda5a5c816bf9afe1511a95cb577fb6934a12fb47cdd28bfde5b4f2ad27cf626",
+    "9ab4b8c909a5de64d072231dd486946c4b0d22cb906fe1f6cc95e0ff93009d57"
+  ],
+  "ts": 1795313267,
+  "epoch": 111,
+  "seed": "4122b09519945e0f",
+  "answer": "Bonds funded from the same source address are linked into one exposure, so 326 aliases paid from one wallet count as a single position when a slash is applied. The funder cannot insulate itself by spreading keys across labels, because the pulse funding graph is rebuilt from the lagoon history every epoch. Since one verdict then reaches every linked key, the operator pays 326 bonds yet holds one position, and the trellis report publishes the merged exposure. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 3,
+  "sig": "4446oeoeRrfmqoWzGDDLvQou5ZinW589C4CqJAu3b67u1UA3wiP5YNxsjnxoYb2UVKJWfBY2yEVfM6xXBMmzFL1U"
+}

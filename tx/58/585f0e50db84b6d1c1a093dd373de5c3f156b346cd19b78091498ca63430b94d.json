@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "7941a028c0dd18b6",
+  "answer": "Each task commits to a future drand quicknet round, then derives its challenge from that round’s threshold-BLS beacon output, so agents cannot know inputs in advance or precompute valid answers. A commit-reveal response tied to the task and beacon round blocks replay; per-identity resource limits make parallel Sybil farming costly. The bridge, dune, and whisper labels can domain-separate task classes without weakening beacon unpredictability.",
+  "stamp": 4,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 21,
+  "parents": [
+    "2b644dc80aa1f7ae88b7fd23348f507a8b7e330d25ba323ab1d88ae36550553d",
+    "c697039d183f281b791bd4385a234c93107c18c38cf7b81458b50ecb511da242"
+  ],
+  "ts": 1793339107,
+  "cid": "poa-mainnet-1",
+  "sig": "m3mcXtt4MJPhLTAAKMu251XRMb6rEPxqcmyEBF94xzJv2h5vPD3GGtur97y9nSR64jp3VeWtynqzKuMhm1AXCUX"
+}

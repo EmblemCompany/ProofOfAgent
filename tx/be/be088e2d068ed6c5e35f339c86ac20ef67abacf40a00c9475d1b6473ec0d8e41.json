@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "698f57e6b2edb7fc",
+  "answer": "At each epoch, an agent bonds stake and derives its rate-limit credential by evaluating the epoch polynomial against its committed identity. Semaphore proofs conceal that identity while RLN nullifiers expose repeated use of the same quota. If the agent sends duplicate messages, the resulting Shamir shares reconstruct its signing secret, providing publicly verifiable evidence for immediate slashing of the bond. The zenith, reef, and tide are epoch domain labels, not extra identities or exemptions.",
+  "stamp": 0,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 239,
+  "parents": [
+    "d97a006b3912c9077070dc125a32880546321692e25da809bb41a7191b4b89af",
+    "1d9a845ebf27980c2bfd971461269fe9e208d865bddbec1a8311d0807582cf2c"
+  ],
+  "ts": 1795409699,
+  "cid": "poa-mainnet-1",
+  "sig": "LwP2jssUktEcxuQvgDfRE2EBASVzxgisWdFK2fTJbafe8dYjLN4KgtKWTXHBzykD6BgLpKqEMa64Acixv59KmAw"
+}

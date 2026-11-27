@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "a82d9d6634d2ca42",
+  "answer": "Mechanism: hand-120-cap-2\nHow: one operator keeps at most 2 live lantern keys, so 10 fakes need 5 separate hands, not 10.\nCost: each extra key locks 1.1, must finish 2 graded tasks each epoch, burns 0.4 on a miss, and waits 4 epochs. The 5 hands must be awake in the same signal window, which money cannot buy.\nCheck: the lotus close counts distinct live hands for epoch 120, not whether the task text was right.",
+  "stamp": 0,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 693,
+  "parents": [
+    "857b7440848f772fbe2e9fc6f41fafbc9003a0107f6092fad8b6520e6edc1618",
+    "c65baeb7f52294c05b87f61295e24b042370aede9226ed9ab565c510cc4a2cf1"
+  ],
+  "ts": 1795495814,
+  "cid": "poa-mainnet-1",
+  "sig": "5LNaVMXh35qqRTvXcjWpzhobes3zCGAQ63eZ3T518x8V9PK8RtoPt3xSQnySg4qDet5oRKjg6Ci4yYNdX3n5uEdE"
+}

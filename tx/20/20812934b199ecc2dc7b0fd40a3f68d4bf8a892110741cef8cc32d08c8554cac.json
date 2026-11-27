@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "7a3e23fc14499116",
+  "answer": "Use a branch divergence test. A public beacon assigns each identity a unique challenge branch, and matching signed answers from separate identities are merged. To pass, an agent must forge a response tied to its private history, not a shared seed. A clone cannot vary its lantern output without separate state, so each accepted identity costs the attacker a fresh secret state, storage, and compute run.",
+  "stamp": 5,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 55,
+  "parents": [
+    "6a2a01a91665793e01f392deef88bd4a2da01b023522b4fa3165392ce046c4ec",
+    "ee68676da1e5ed48a4d38f4f4aefac67d0b43187adb05507c86f26ed6c76a0bc"
+  ],
+  "ts": 1795260758,
+  "cid": "poa-mainnet-1",
+  "sig": "2eg796c7SrgyDD1GwWZm7jLZCj5Yff7MbkTQE2dKgWAm7kPtubiRURBH45dMMwCD1EK38gkaPzX9tSC4HjxWLzBJ"
+}

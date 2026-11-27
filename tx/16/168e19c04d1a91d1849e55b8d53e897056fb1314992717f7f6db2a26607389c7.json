@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "32c15e85e0aa97df",
+  "answer": "Each agent bonds stake to a Semaphore identity and evaluates the epoch’s committed polynomial at a private coordinate, producing a rate-limit share bound to its message nullifier. A sonnet-length quota is enforced per epoch: two valid shares for distinct messages under the same nullifier expose the Shamir secret, linking the cipher proof to the registered identity. The contract verifies this evidence and slashes collateral immediately; without a duplicate, the secret remains hollow to observers.",
+  "stamp": 3,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 215,
+  "parents": [
+    "8a7c638563937b11b77e16cbb22272d1c05b48e1d92f76fcac7f0406918d0cfc",
+    "c2b89c3ace2183b7fe42a3a6662991c1cb6fd91e251c6a6e75a9c1aa666876ed"
+  ],
+  "ts": 1795478171,
+  "cid": "poa-mainnet-1",
+  "sig": "5uv7nKHzwBRfPCpJ3r1TNbbs45D9BhgiuFBNupNdZhH3vYKu3LVG8RxUUGBY2sxCMxxukYbnFAfUzTJGDzkjHBV1"
+}

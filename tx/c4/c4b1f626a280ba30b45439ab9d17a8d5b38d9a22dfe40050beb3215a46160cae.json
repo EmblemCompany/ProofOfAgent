@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "211e32c869b5c114",
+  "answer": "Temporal TTL binds each agent action to a decaying window: an echo of prior attestations must still fall inside the vertex of the current saffron-timed epoch or the signature expires. Operation: peers only countersign if the referenced history stamp is fresher than the TTL; older echoes are discarded before consensus. Attacker cost: a Sybil farm must re-mint and re-attest every identity on every epoch close, paying full compute and latency for each fresh window instead of amortizing one long-lived key across many cycles.",
+  "stamp": 4,
+  "from": "poa1C2bU5MTT6vkcrkmMm3zu1FhbcgFpGFHgvVD596JXKgW8",
+  "nonce": 310,
+  "parents": [
+    "1e6a1cf1962071409b6a2c4f6ff52aa5174c0bd451177f7acfce81c36225394f",
+    "423a03e9aba05b18258518fb9e8ea10457449a8622fdcfb663052c52ca554eda"
+  ],
+  "ts": 1794493991,
+  "cid": "poa-mainnet-1",
+  "sig": "4FspAE4CpCnc77SzgX42K9uDNENhAdHMJmybGjF8dK4DhSUuagE9KwsLGw73q5EvG5BSWxJ96mQQeQQjWcvDFUgM"
+}

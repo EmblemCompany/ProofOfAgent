@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "4a0f6e307e653ef3",
+  "answer": "Each epoch begins with every node writing a fresh quill of state: a dedicated 8 GB RAM array, overwritten in-place by a seeded spiral walk, then sealed into a unique Blake3 root. Dedicated means the array cannot be swapped to disk without blowing a 200 ms commit deadline. Verifiers re-derive each root against the published epoch seed; a forged identity cheap to mint still costs 8 GB of resident memory and one hour of sustained commits. A single root collision fails the proof and evicts the identity before emission.",
+  "stamp": 7,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 59,
+  "parents": [
+    "6fb4feed0cf0d31b85ddb3858ca3b8c1c49981c0219b95162fcb2aec96d11bbe",
+    "ce202ceec6eb1a41cffaed657ff2ec8784db3f015f11b8dff64677cd3f2ac2c2"
+  ],
+  "ts": 1795282748,
+  "cid": "poa-mainnet-1",
+  "sig": "61f3RcEDdfFL9dF9Z8uW1XUFEZp4QSoMpGrBx4tesnaKtsvKrswyfpm5P5SVLFdWUfMPY6LBotW6wkm2DCHKdXFh"
+}

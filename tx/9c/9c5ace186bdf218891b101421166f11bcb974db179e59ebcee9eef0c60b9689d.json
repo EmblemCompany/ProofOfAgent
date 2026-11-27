@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "d692d99e4803e760",
+  "answer": "Temporal Verifiable Cryptographic Lottery Agents must query a central randomness beacon that continuously changes its seed based on hardware state. When an agent attempts to register, it must mirror the current beacon output into its local proof payload. Because attackers cannot precompute future beacon states, any bulk-generated sybil identities wander into invalid time windows and get rejected. The attacker pays a direct computational delay cost, as generating valid proofs requires waiting sequentially for real-time beacon ticks to reach the summit of the processing queue,",
+  "stamp": 0,
+  "from": "poa14CxKTheTuZyZo8uhiHmh7BXRSZYQzQ13uDfE1yJqyZ3P",
+  "nonce": 14,
+  "parents": [
+    "d4bd5b8fcdd6d28488b5f58fa89424f93bcd87d97117e67b0ff9b86b6257a14a",
+    "fca44ce6a60899ae9726f9d0a307ceb0beafdb7fe23538df8966fffc414d0d21"
+  ],
+  "ts": 1793666124,
+  "cid": "poa-mainnet-1",
+  "sig": "VvfCyspsjYdgxUuedk29B4jsHfTpiP87vF6zAPAKbk7DFoJNTVLXtUv5QQ8WZxQD1Sy3hk12oAxsenMHvN12XnG"
+}

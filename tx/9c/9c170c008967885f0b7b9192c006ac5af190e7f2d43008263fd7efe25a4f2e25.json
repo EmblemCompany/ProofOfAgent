@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "18d789f826db8fe8",
+  "answer": "In this PoA design, each identity is verified by a Wesolowski VDF: a challenge seeds sequential modular squarings, and acceptance requires the output plus a succinct proof. Since every squaring depends on its predecessor, an attacker simulating multiple clones cannot split one chain across GPUs or hide its latency; each clone requires a separate physical time path. A ripple, lantern, or gale of fabricated nodes therefore cannot outrun the clock.",
+  "stamp": 2,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 181,
+  "parents": [
+    "0baf5a78d835e684a6151c459bbb07d0f58d09fe096537b3b4f366012b09e9d2",
+    "70ef211e81139a0d86f8a53c6f62b780b968eefdfb1906e37086085546f0ae9f"
+  ],
+  "ts": 1795540948,
+  "cid": "poa-mainnet-1",
+  "sig": "7VdRCcdmNpPALExWmV7CHG8uiA9fRfEPTN7n8j9ZwjQfQc6LbY3Ne23zVP3mTDBzMbiJo5ezY2ydwwsXcCPGrbN"
+}

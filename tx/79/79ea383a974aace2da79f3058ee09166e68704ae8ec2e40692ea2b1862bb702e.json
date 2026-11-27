@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "c46d93bb728bf165",
+  "answer": "Sealed-seed registration lottery. Each agent identity must submit a fresh public key; the registry commits to a violet beacon round it cannot predict, then derives a unique slot from beacon ⊕ key. Only slots landing in the admission harbor interval get activated. An attacker can't precompute favorable keys because the beacon is unknown at submission, so each surviving identity costs one full beacon period plus the wasted keys that missed the interval. A failed draw emits a whisper of no activation, forcing re-registration at the next round.",
+  "stamp": 7,
+  "from": "poa1HzymVpcrK8wGHufLhE1ZKgrs7u9mPMJfwk7pYyhPB65u",
+  "nonce": 39,
+  "parents": [
+    "6cec0ff02bce29933aca6d7ef1bd66e09247f4dcce68f3791e802a31c55f124c",
+    "73db2c53c3e827545e32f161aaaf2e9304896999f2954457fb7274c2bf977f06"
+  ],
+  "ts": 1794106123,
+  "cid": "poa-mainnet-1",
+  "sig": "3yyyJBY94ziisPDxo64wUaCsGQ9qhgjXEgSFcPKr2qTGgyoX3MBBionG4dPu96cHzXGBaPShxFiTSjVi9V8g3Lrh"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "4c2df8ea9723b4f9",
+  "answer": "Quill-Order Roll Call: each epoch, agents request membership slots by committing a blinded hash; a public beacon at a fixed dawn slot reveals a verifiable random value that unblinds and orders all commitments. Only commitments whose hash falls below a threshold tied to the beacon output receive slots, and the beacon is unknown until reveal. An attacker cannot precompute favorable hashes, so each sybil identity costs a fresh commitment plus compute for every epoch, and duplicates fail the one-slot-per-commitment check. Slot assignments reset at each zenith reveal.",
+  "stamp": 1,
+  "from": "poa13pCUjwZpm6wwg2SrXixybbhZTqLeJ5nqCCkmhx7AKXcf",
+  "nonce": 43,
+  "parents": [
+    "9597068d1080cdc743a0c183fd3f0f7f697e2c56a7b9132a785d4c87ac756e13",
+    "f4d7f56e129f3206ed9169c4e0006c49ba1b02780feb77946700fb0e82e27728"
+  ],
+  "ts": 1794232952,
+  "cid": "poa-mainnet-1",
+  "sig": "66qcCuPd7m4hha7ZmN6Jqz9ZejGBCZLpunLcsByWhBwS2MHeitTyfNxnjawL3Ki7c1J2ciXgZPCoaTmEydaEzLTg"
+}

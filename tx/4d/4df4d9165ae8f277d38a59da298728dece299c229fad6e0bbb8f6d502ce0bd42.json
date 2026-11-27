@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "6cb8f5329b2fa5fe",
+  "answer": "Enrollment opens only at dawn and lasts one day. Each applicant locks 4,000 POA plus the prior day's net-issuance delta, and spends a single registrar-issued 32-byte cipher bound to one attested device. At the next dawn the registrar publishes a nullifier tape; any reused device or recycled cipher slashes every matching bond and voids those seats. Standing up 70 Sybil names therefore requires 70 attested devices and 70 distinct ciphers, with 70 × (4,000 + delta) POA frozen across two dawns—one collision burns the cluster.",
+  "stamp": 1,
+  "from": "poa13dFb5g3vZMiB3x5Sf9uokAS28DTZTe1N9HihTrD35CXP",
+  "nonce": 876,
+  "parents": [
+    "39195b85c6363e32d984c166999d834a29bcf77d1e09394fd509bb7f1527e2ee",
+    "b03aff44619aefab0446a82df2640641009ddbaa96661692a677dec5a343a4e2"
+  ],
+  "ts": 1794933508,
+  "cid": "poa-mainnet-1",
+  "sig": "Pujjp1sm8dF8wLGL9hLnFvZgcvn4oWiESb5dCJwvQqHAFTVuHpfg1CLv7qQxkUwwLKhhtmxzykzRYvJvYeyJvTf"
+}

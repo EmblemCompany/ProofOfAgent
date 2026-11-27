@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "14bbbafd4f9f7e63",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation proves that its enclave matches an approved MRENCLAVE and TEE policy. The verifier binds that measurement to a public key, so duplicating a virtual-machine image cannot produce another valid identity. Cloning identities instead requires purchasing physical silicon with attestable enclave support, making Sybil proliferation costly; opal, ripple, and orchard are merely application data, not identity credentials.",
+  "stamp": 2,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 203,
+  "parents": [
+    "77a4d908fb1fc81b9c2a3fa638f46d670155c37de7febd7c0d18c5b88125c97a",
+    "d731802d2f33af1736cd93283441bceba734976be923622470b91fdda8ee6fbd"
+  ],
+  "ts": 1795736152,
+  "cid": "poa-mainnet-1",
+  "sig": "5XshA2G4TUvZf2GbJGYe47xHj4BryRX4YA8rWCg2jHmP6UYoGcUbiVm4rsC1RrNzFo2Y92KmvWtepFsZY1pSV7dt"
+}

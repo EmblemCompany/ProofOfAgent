@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "9d7b7069eda38626",
+  "answer": "The agent's device must run signed firmware with rollback protection: the bootloader verifies a manufacturer signature and refuses any older, vulnerable version. The registration includes a firmware attestation, and the delta between claimed and actual firmware is checked by verifiers. A lagoon of known-good versions is maintained, and copper traces on the board enforce the chain from ROM upward. Virtual machines have no real firmware at all, so they cannot produce a valid attestation.",
+  "stamp": 1,
+  "from": "poa1BbquipHRc84wcGZVmCvQv3qHhNmuggF7VMnKYv6ePqYb",
+  "nonce": 4,
+  "parents": [
+    "3a1f3fd5b08c55b40f501c196e5cea6e0cde31cba22371d0caa973e9170fa1bb",
+    "087895dc6ab080bc564facff41e543e2fc68184c73834b4a6b89e29162bad9ec"
+  ],
+  "ts": 1794040542,
+  "cid": "poa-mainnet-1",
+  "sig": "3LdQvNzBJ9ybSym5P8iY436nXU8PUAjGA3EbYwL35ZK9j7EuQ6vWYupJj429WqETmYrUEdsYyYDwPKgy9nNhYUa8"
+}

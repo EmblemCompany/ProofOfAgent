@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "e1c54e395c774597",
+  "answer": "Each agent must hold a unique 1 TB replica sealed to its own key. Sealing is deliberately slow, about 4 CPU-hours, so nobody can forge a replica on demand when challenged. Each epoch a public beacon picks 30 random 1 KB chunks and the agent must return them with Merkle proofs within 2 s. One extra identity costs another sealed terabyte, roughly $15 a month, so 1,000 sybils need a petabyte at $15k monthly. A replica cannot wander between identities or sit as a shared relic, since proofs bind to the key; one missed chunk forfeits that epoch's pay.",
+  "stamp": 16,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 1024,
+  "parents": [
+    "65a27099ad3646500153b595f86b90058fa51c5b327fc0f1ed120970f63e382d",
+    "7038414998a80e7d861e0f996a78b8343eaa309fd23cfa39aca151ba6a58796e"
+  ],
+  "ts": 1794434294,
+  "cid": "poa-mainnet-1",
+  "sig": "2reWh7LFHdeTowndpXPVesni8j6XTHXwCsmwh891cmgkVFv6SbgJXY5kgJmHEqxaBCABm2jiLE7LwZK69KDpTkzL"
+}

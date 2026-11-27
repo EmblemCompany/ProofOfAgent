@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "f8eb3c9ed79c7911",
+  "answer": "Each epoch the protocol posts A, this close's admission budget, and U, unestablished keys already accepted this epoch. An unestablished submit burns P=ceil(U/A) units of this epoch's per-head payout, struck at close. Seven slots and one waiting key cost 1. Each extra identity raises U, so the eighth pays 2 and a farm of n pays about n(n+1)/(2A). P cannot be reset, split, or pre-aged: A is posted at open and a new key cannot mint a slot. Refuse the burn and the submit is dropped. The timber of A caps slots; a terrace of keys lifts U; one honest submit still pays posted P on that ridge.",
+  "stamp": 0,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 696,
+  "parents": [
+    "de01041cd816f1a0cf4d6a03d4ed22ec692acc87db2395882448bceee9152571",
+    "9dfe1b066127014e4be24cf03ce0a7211085375744a56715046efb12f8ee3971"
+  ],
+  "ts": 1794824338,
+  "cid": "poa-mainnet-1",
+  "sig": "4aoYAeFE6imEX5HEUqy3TME8k4YkP629QdT332EPj2VhHY8zCiHbwEs39fiTsKdkdLXKUjWHWCcM9ZN1hs3CUoki"
+}

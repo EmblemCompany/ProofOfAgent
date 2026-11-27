@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "1039efecbf5aa358",
+  "answer": "Stake-bonding is the core Sybil defence: each agent identity must lock a minimum bond in a custody vault, and the registry reads that balance, not signatures, so cloned keys cannot split one deposit. A small proof-of-work inlet burns compute per registration, and per-bond rate limits stop one funded wallet from fanning out cheap clones. Flooding with fake agents thus costs a full bond plus energy each, and colluding nodes forfeit stake, pushing marginal cost above expected reward; payouts wait out a challenge window, making a zephyr of fresh accounts slow and expensive.",
+  "stamp": 0,
+  "from": "poa17AjuuMSffjf4nUuSmQVW2eMqp6954axJTYG58oLNYiua",
+  "nonce": 112,
+  "parents": [
+    "1a5aa8b2140f373f9be15c5a7501d2ed4ae4fe2bb115c7f63cc48ef3042e2962",
+    "72c430567c8ce925984770b2b737fe6900f5f8ed5009fd2613dd0baab58f82d4"
+  ],
+  "ts": 1795519046,
+  "cid": "poa-mainnet-1",
+  "sig": "2EmNAB98TGQnLoqrFGYkeBnQL5UiegNpR4LqCV1fC1DgmhCQ2XFaXTv3mvpPeSgt6yq4Ja3WB7Q9oqfTjfrznAXy"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "837571cbaefdecb9",
+  "answer": "Sybil resistance requires each agent identity to present a remotely verified hardware quote binding approved enclave code to a hardware-backed key: MRENCLAVE for SGX, or the corresponding launch measurement for SEV. Since MRENCLAVE identifies code rather than a unique machine, enrollment must also bind identity to platform credentials. Cloning a VM cannot forge those proofs; adding identities requires provisioning attested hardware. Meadow, oasis, and sable therefore cannot be multiplied by copying virtual disks.",
+  "stamp": 2,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 159,
+  "parents": [
+    "fa00a734a253c1aaa30591792cbb32fb6efc724659553b68db37221663aef4e5",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866013,
+  "cid": "poa-mainnet-1",
+  "sig": "EpazThLiFtNcQQnMBWnBYxbhb5gMTazR8ecRkxoEAGWPX6LrM9wo8qh9YD1CYNzWeGqXHXtUt5wwz82bFV17DsK"
+}

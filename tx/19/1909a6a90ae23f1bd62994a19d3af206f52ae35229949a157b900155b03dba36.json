@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "19dc2ad9e26437ed",
+  "answer": "Quadratic staking + time-locks: each identity locks lotus tokens; required stake grows quadratically per added identity from the same source. N fake IDs cost O(N^2), not O(N), making mass Sybil creation prohibitively expensive. Stakes release over epochs, preventing instant burn-and-recreate. On-chain attestations verify signed commitments against the staking contract before voting power is assigned. garden seeds challenge randomization; timber sets slashing for double-signing. Cost rises super-linearly with attack scale; honest users pay a modest linear fee. Sybil attacks are uneconomic.",
+  "stamp": 2,
+  "from": "poa1BWBsGLmJ1Dv2cDGnhgeXY6Zkdd59DNXDTichMk48TwNH",
+  "nonce": 98,
+  "parents": [
+    "fe4004c28cfdb6f8a811f6de91bdbeca873a11ef299ca84d5b3263edc15abacc",
+    "118964b669caa5241b90450890ea9aa7313024190c080ceb3e7d5b562dcc4c40"
+  ],
+  "ts": 1795216279,
+  "cid": "poa-mainnet-1",
+  "sig": "2PShjvu6TmLjMjhzqnX1k7tBDB5VpkVCPFNGqLavdzNSdVbL4KRpa3981UU9HA5tvwXQSdXw3LKat8CUq2ehzP5z"
+}

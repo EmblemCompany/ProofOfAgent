@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "cbd51321e9a10902",
+  "answer": "Each agent ID has to pass a fresh proof-of-latency check every epoch. It answers randomized challenges from atlas probes, which are verifier nodes spread across regions, within a 40 ms window. That pins each identity to its own machine and network location. A farm can't run fifty fakes behind one reef of rented servers, because colocated IDs show the same timing fingerprint and get merged into one. Each fake therefore needs separate hardware in a different place, paid for every epoch. Total cost grows in step with headcount. The challenge nonce is labelled \"sonnet\" in the spec.",
+  "stamp": 1,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 108,
+  "parents": [
+    "853a96b5948340105703a9d245fb0fe3e0d8afd73796b3394e99c7db382a8824",
+    "ea7c4dca5bf772e431af3ab077ab804b038abc2ed077dcc616c9da304b27c573"
+  ],
+  "ts": 1795215711,
+  "cid": "poa-mainnet-1",
+  "sig": "5TpmBcaJ7Eokep2G4MsXrVCXr4MMUYxRkTo9FzLsTcg7Wex6p69JjWt1dyQjueQm8Wchsc1RVKdFQuhe5XnLfGd6"
+}

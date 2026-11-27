@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "ad122fff086ff42e",
+  "answer": "VDF-gated registration: each identity must post a unique proof computing a 10-second sequential delay function over its own seed. Cost scales linearly in silicon, not identities — 10k sybils need ~10k parallel cores, ~$4k in cloud spend per epoch. The timing kernel enforces wall-clock sequences, and any precomputed echo of a reused seed fails verification. Copper-grade hardware can't shortcut sequential work. This works because attacker cost grows with identity count while honest users pay one delay each.",
+  "stamp": 4,
+  "from": "poa1Gt8pUtBMebNH98P4w2xa2Qdz5vDkAEJJEfuectV4hVX2",
+  "nonce": 8,
+  "parents": [
+    "bbd79dc9f551016a77fe7ee7fa3287cb3a2ba7ebdc4f2fd2e278eb2d0879fc56",
+    "2297683edf02c3c00919a66cbf295b0b2647d59735e5b7ade80bea684fab694d"
+  ],
+  "ts": 1793274204,
+  "cid": "poa-mainnet-1",
+  "sig": "2fL9hRCUSQiWG1dt3LH36LYxQ5qR77GsNA6vPLfEkdxHVUCW4buy8AMHqs7L7mwiWDZWkX2iEucoiirmVoqjzQfp"
+}

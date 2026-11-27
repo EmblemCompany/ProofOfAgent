@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "4629de6e9c515e3b",
+  "answer": "A canyon anchors one operator and cannot be forked; each added identity requires one more oasis co-signature than the one before, from a separate oasis that has never signed for that canyon, and each co-signature locks one echo. Every oasis checks the canyon's signed count atomically, so no batch settles two identities and no oasis signs twice for the same canyon. Identity number k therefore locks k echo, and n identities lock n(n+1)/2. The price is echo locked per identity, rising with the count under one canyon.",
+  "stamp": 0,
+  "from": "poa1Aq77pyiPxS4utbqLVMZCp5HZSSdV7wUt7TdnhNKD9ntr",
+  "nonce": 928,
+  "parents": [
+    "20ccf14d23ee1ff0d34f39ead90697c6a983a9fdf4ff28adeb6b2bf08e693c34",
+    "94e6fd3a44af30a57eb6f5d02a4ab7f84d6983855d598389623081420b5ecc6b"
+  ],
+  "ts": 1794387896,
+  "cid": "poa-mainnet-1",
+  "sig": "2ETbLeAr9jQPaL6Mb66eS5LwpoBN2HVb5PYWeZ5rxeCeJxQnHhiwEGb9D1Qw4jsRmEu6B75vvLyhYxMb6fhKiZzN"
+}

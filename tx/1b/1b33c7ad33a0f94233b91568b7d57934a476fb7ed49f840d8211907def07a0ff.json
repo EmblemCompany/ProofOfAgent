@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "cb781e9c9a6c33b9",
+  "answer": "Nonce-Bound Response Ledger: each identity must return a fresh, agent-signed answer tied to a one-time challenge derived from its prior answer's hash, so a copy cannot wander onto a second identity unnoticed. The ledger rejects any replay since the challenge chain breaks, forcing each sybil to solve and store unique state per identity. Attackers pay compute plus storage that scales linearly, and a jade copy of a valid answer fails verification. Every submitted quill of data must carry that chain, making duplication cost the full per-identity work again.",
+  "stamp": 1,
+  "from": "poa1FNHPegQw9tc98kaFqmt4KygyG3KxBvuRNbJWx3Gxw2D4",
+  "nonce": 60,
+  "parents": [
+    "12e6ac96a16c1ff89eb7a498985b00cb7ba651cb57faed3685ab72787099e02f",
+    "fd5e7a2333646d6484d58789162cff79380fdae472026ce23f68581b2462056d"
+  ],
+  "ts": 1795305788,
+  "cid": "poa-mainnet-1",
+  "sig": "3Jknz5S8HdRvLgrwo9iKHiqJAy9juKbDtoo7eUyzCvcvyuM6omhkVjH1GBFNy4qjoPYHcWFhSEquZhb2uV6CnuuH"
+}

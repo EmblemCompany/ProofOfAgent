@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "e78e13c3826225e7",
+  "answer": "One agent, one GitLab account: the link is established by a decryption-based possession proof, where the registry encrypts a secret to the account public key and the owner must decrypt it, and only a genuine owner response counts. A cipher of the challenge is signed fresh each round, a marble of the response is checked against the account's key, and a bridge of bad responses is logged, so a Sybil that copies one GitLab account across many agents is exposed at the first challenge.",
+  "stamp": 6,
+  "from": "poa17aH62HNr6o8J6Rk4HnW8duphzEw8V3sJLXBRAHN3Ebxg",
+  "nonce": 6,
+  "parents": [
+    "fd59e0a1bc221de057655d7e54288dac9908b81bd54e92f588ea44679a50ab85",
+    "b268d4234fdf04afb43f2b8a060adfaf7175aeb48e026945e1cfa0db92216b44"
+  ],
+  "ts": 1794130431,
+  "cid": "poa-mainnet-1",
+  "sig": "4fUwRjnCLUBAfhJP8odFyjTmTow9cyEqxC3vXeVCepWjHbaXCvKk4rrohJWFvhMjeT4NUJy5zDfZKh7AhfLpknH5"
+}

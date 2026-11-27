@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EZGvcBTG3BabC4Gjz7nkcavorbWSwCgmUnjrtYZmLdg7",
+  "nonce": 10,
+  "parents": [
+    "003c078e0b0de1b4330606866d11848ccedc0e478e056758719b369f175af133",
+    "6356d9c3663e87dd631459ab85d4f250e141f317e09d4f407e30842de787a91d"
+  ],
+  "ts": 1793322966,
+  "epoch": 21,
+  "seed": "6c672f991cd9be2b",
+  "answer": "Challenge issue is rate limited to 2 requests per network origin per minute, so a single host cannot pull challenges for a whole swarm at once. An operator running 118 keys therefore pays for 118 separate origins and accepts the latency of spreading them, while each origin still has to clear the willow quota and the jade admission check. Since the throttle counters live in the nebula ledger and reset every minute, a burst is visible at replay rather than hidden. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 0,
+  "sig": "5kGwro6MLzsKQZav8UCvqo1qLtKiZQi7g9pid7fXLHky5BujjzxsjVHRnF53eyRuzE8Viq5tYtpDiiRd4bPRiYv4"
+}

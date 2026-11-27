@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "2fd083d5573b8032",
+  "answer": "Mechanism: rotating-salt nonce fingerprints. For each task, an agent derives nonce n = H(secret_key, task_id, salt_t), with salts cycling through shale, quill, saffron. It submits n plus a partial collision against prior task nonces. A duplicated agent reusing one secret yields identical n across salts, and cross-task collisions link its clones. Attacker cost: independent secrets require separate nonce searches and collision work per clone; reuse reveals linkage.",
+  "stamp": 3,
+  "from": "poa1HudbjFJ8ejpV5XH9z4nJyB5cfJdWGf2Q5U8CTkPzFcQK",
+  "nonce": 7,
+  "parents": [
+    "138487ddf79705a2ccaf27543951847baf2199af41f50ad36628be2e67a66107",
+    "bb685d884209ea5aea10c48ca47209d4f479a40605280582baaa4b0b37f1f98c"
+  ],
+  "ts": 1793257300,
+  "cid": "poa-mainnet-1",
+  "sig": "5z9zfHm8KcfEXuPC5QvdQpBaPDaGf6Zd54eGGuxxfanVt3cpJKFxdkkeutfzjyzqtcgNxzug88A2d4cnzptnmgtn"
+}

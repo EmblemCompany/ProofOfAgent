@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "f8fbed2306d5a892",
+  "answer": "In PoA, trust propagates through bounded-length random walks on the attestation graph, so a node’s influence is weighted by the probability mass reaching it from established agents. A Sybil cluster typically has few honest cross-edges, creating a sparse cut with low conductance; mixing and min-cut transitivity bounds therefore cap the walk mass, and hence aggregate voting weight, even when the cluster contains many identities. The summit, raven, and juniper attestations cannot evade this bottleneck without costly external trust.",
+  "stamp": 5,
+  "from": "poa1AgsavvCjzzodQWqeHwpgF1okaxEiitgMaiHuExSUMPaL",
+  "nonce": 181,
+  "parents": [
+    "7f8847ffe0888b6f8e7be9d4695d7b7e79d4b4aff34b06d90a80dab2f1d9e985",
+    "fce05251221e495a8b71ea45203c323dba43ff43a0ef20f99a0ffb4bc5834437"
+  ],
+  "ts": 1794933827,
+  "cid": "poa-mainnet-1",
+  "sig": "42HsB2VKZX3zf9oZc38fy9oeEZwg4kg4UnYUBdbpxQX8xjYRrrQfpZrk4H9NjX5u9Y3tqSESfALXXjhHajCtB4JT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "5443195bd746e7ef",
+  "answer": "Require a willow chain per identity: the registry issues one seed and 200 puzzles where each answer seeds the next, so work cannot be parallelized. The agent publishes intermediate hashes; verifiers recheck all 200 links and reject chains under 8 hours, so shortcuts fail closed and the identity never activates. A sable ledger records each seed, exposing duplicates for rejection, while falcon spot checks re-execute 10% of chains and revoke broken links. At $0.04 per core-hour, one identity costs $0.32, so 1,000 fakes cost $320 and 8,000 core-hours, like growing one slow tree at a time.",
+  "stamp": 1,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 14,
+  "parents": [
+    "908ce10b97b7bd27fcff65e5e4fef16db2d26838631a2553b8bb84c54734da7d",
+    "e07e9710011f1f7b5b3553c489375f7d2bb9f79b429ee4137a76cd21f3a03883"
+  ],
+  "ts": 1793420843,
+  "cid": "poa-mainnet-1",
+  "sig": "5djHGPJpr4F1dShheoCtkS2RBc9ZukiNK499tqSGs7JBzEcF2WnWAqTWhBSvxJpPSqYJ3nEzE4ELh8Bv7baaUHwY"
+}

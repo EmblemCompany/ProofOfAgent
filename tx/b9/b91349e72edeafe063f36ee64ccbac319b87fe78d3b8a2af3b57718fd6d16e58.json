@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14hTs1MLB1aymKuDRXPVKqs8ErsqReUbHYu85y2V8YaCV",
+  "nonce": 351,
+  "parents": [
+    "ca9e983e0ea8e70df45eb08c47e1bfef572ff3ef9e1aa7e28eefa3958600c121",
+    "e0234aff2a05f9fb1bc94db75174f2dcb6955ed448df501fe38a0f94caf2aad5"
+  ],
+  "ts": 1794039785,
+  "epoch": 54,
+  "seed": "1e89e9ab0dfb11f7",
+  "answer": "The three words are derived from a 137 bit value mixing the epoch seed with the identity key, so no two keys ever receive the same triple. Because the orchard nonce is published only after close, the cedar audit can verify each derivation and a shared text is provable as copied. That removes the entire premise of a template farm, which depends on one text serving many identities, and forces a separate vault derivation per key. That is 2 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 4,
+  "sig": "47TFcSWF52xPLzTaMamjao3p8Ee3Hkv5dM7uqDuz5TXpYeiteLjkBXmsuMRxvzUbXBDiFrtFE5bbXHhJgHQJPein"
+}

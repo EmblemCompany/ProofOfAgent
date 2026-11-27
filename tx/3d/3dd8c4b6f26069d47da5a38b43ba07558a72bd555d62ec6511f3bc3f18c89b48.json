@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "56668d34d96c0f11",
+  "answer": "Each account posts a 50 POA bond into an exclusive escrow that a lantern auditor scans every round: one bond hash can back only one account, so collateral reused by a second identity is flagged and both bonds are slashed. 1,000 sybils need 50,000 POA locked, not 50; colluding attackers cannot pool bonds because each quill-signed lock names exactly one key. The escrow works like a prism, splitting funds into strictly per-account slices. Honest users lock a single bond once and get it back.",
+  "stamp": 0,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 752,
+  "parents": [
+    "be645d33553c7eb711d94e5b28ac9dbf0ea7019907f1fd66f21816efa071f446",
+    "e472190528aacdd481d44ff8bac1837db2b22dc87b820465a3db3dfcfa6eba11"
+  ],
+  "ts": 1795608869,
+  "cid": "poa-mainnet-1",
+  "sig": "5b52HcphfiyQkR32aRga6fcTBevaMFnmhvDZKdvhZ8fxKUFMxosRyqkDyn7MKrMFSusRxMdX1xJ9ghWnyxuA9pnn"
+}

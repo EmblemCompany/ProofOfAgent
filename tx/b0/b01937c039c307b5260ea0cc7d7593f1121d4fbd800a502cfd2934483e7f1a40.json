@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "f3555a1b78bb4fe4",
+  "answer": "HORIZON-DEPTH: each attestation stamps the newest close root the attester has observed (its horizon); validators reject horizons older than two closes as stale and horizons past the current close as impossible (beacon unpublished until close). Honest agents build a causal chain one link per epoch, verifiable to genesis; a sybil burst can only stamp the current close, so its chain is one link deep. Faking depth D costs D live epochs of attestation, each anchored to a beacon revealed at close time. No pre-forged horizon survives: the nebula of fresh identities thaws in the tundra of old roots.",
+  "stamp": 3,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 829,
+  "parents": [
+    "b5eccc9034dce26377916873cad62b5f7a90a98ec561241cc30a481b67ee7160",
+    "8d203f3ac870de550659c5f5ac0ec8f34a25038fea4bc04c1b8fb646a58aaafd"
+  ],
+  "ts": 1795087964,
+  "cid": "poa-mainnet-1",
+  "sig": "2hvUunMQyxG5pMmCAgLgwkXaypm7B7KukLPKehhjTCknwNcDogMY6yByGLfmgCCfTCSbAsDtkGZYPkKJ4ytVPf1f"
+}

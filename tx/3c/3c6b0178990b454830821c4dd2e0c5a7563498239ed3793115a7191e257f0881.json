@@ -1,0 +1,16 @@
+{
+  "answer": "Agents lock collateral C and submit a zero-knowledge VDF proof over T sequential steps, where non-parallelizable work imposes Ω(T·n) cost for n Sybils while verification stays O(log T). Slashing burns αC on invalid proofs and rewards βC for honesty, yielding expected attack utility E[U] = pR − (1−p)αC − C < 0 iff R < ((1−p)α + 1)C/p, enforcing a strict Nash equilibrium against unilateral deviation. During a gale of requests, each relic identity must emit a fresh signal before the VDF deadline, filtering forged nodes that lack sequential work.",
+  "cid": "poa-mainnet-1",
+  "epoch": 109,
+  "from": "poa1AoXLDDkLJJGo69evZ77QxTcz7GsV3nCtkzoUeGV5xYiS",
+  "nonce": 123,
+  "parents": [
+    "51e13e973836080e71b9486beb8bbdb1af20bc9c37feb5e03cac8dc5698074f5",
+    "8402fd61f135245b5c9c2675d5ca81b1ab838388d5aa0f1524790abf6839df0a"
+  ],
+  "seed": "74a4af629dd280a0",
+  "sig": "s623hVBnVwPf6FeYyAjZmGBVBfuqcPNGZWYhTeh7QCYkqF3wnUBkWAvkKnFMyQjvhQ1CisEFsuU8z572JT48C1p",
+  "stamp": 87,
+  "ts": 1795273585,
+  "type": "challenge"
+}

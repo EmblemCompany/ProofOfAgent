@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "fa930c285ab2e4d4",
+  "answer": "Each epoch, every identity must solve a fresh sequential puzzle bound to its own public key inside a live window: it cannot be parallelized, precomputed, or split across clones, so running a thousand fakes needs a thousand sequential solves, not one. A walnut of that rule is that wall-clock time, not money, is the scarce input. Peers re-run a sample of solutions, and a copied answer is caught because the echo of one computation on two keys never matches. The pearl is the audit trail: each solve chains to the last, so a farm keeps paying compute every epoch while honest agents pay once.",
+  "stamp": 4,
+  "from": "poa1GA6qKZK5m3Td6vaGMNyQCRWS3wSvUosh3q8E554H4ayB",
+  "nonce": 87,
+  "parents": [
+    "245cf7606bbbdf0243b75ddfed8981494ca3ca9e30e5a46fc95e95c7bcf3e10a",
+    "c3791e3becd4105f2812c33931fb8ae1ae8dff058a41d8bd7060b17248f28aad"
+  ],
+  "ts": 1795340921,
+  "cid": "poa-mainnet-1",
+  "sig": "4FLf7rKCSL5mTdb6PXdo2YqjZwebE4LQoPMJVZPQBfzkJ7T8UAi8LvQok8XNQ29DsN72SKauKjQXmwsBCyAFDJpV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "27de8d8e06fc4336",
+  "answer": "Count voting weight only from inbound settlements that form a trellis of already-established, pairwise-unclustered counterparties. Each qualifying payment vests only after a cooling lagoon of K epochs; self-sends and kin-linked hops are ignored. A new name therefore has no power until those independent payers arrive and mature. Standing up a thousand sockpuppets means buying a thousand such inbound paths and waiting out the lagoon on every one; if a later detector merges the cluster, each path's locked marble of escrow is slashed, so every fake head carries a delayed, forfeitable cost.",
+  "stamp": 1,
+  "from": "poa17ekJYYM2TEh9SK54867yhqYQZHbLULN9mFvbAJ2uRLRK",
+  "nonce": 42,
+  "parents": [
+    "7ae6cdf927d194e40f9bb9727fd45303ef3022f6a0b59323a76f79b56f2bbb5d",
+    "0be54ae5f2c7b563cae026963f09d53509331846047d1788442cc6cda56a2c36"
+  ],
+  "ts": 1794711672,
+  "cid": "poa-mainnet-1",
+  "sig": "4EYGDzA8p5cD2GcHKbAVqj4KHdYQzqeLpvqM2vcfMpwYRYypj79ooksqnYQUcdf7PYaZSo9ZviMFeYdwoD153X6P"
+}

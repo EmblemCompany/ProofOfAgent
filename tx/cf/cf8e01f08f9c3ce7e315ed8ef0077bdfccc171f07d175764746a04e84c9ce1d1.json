@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "2f5e1e2cff76e9a6",
+  "answer": "Problem: clone swarms dump identical votes when a market sits at its sable floor. Mechanism: each agent locks 0.75 POA into an orchard bond keyed to its first challenge txid; the bond unlocks only after 4 epochs of unique answers with distinct ancestry hashes, and any pair whose hash collision exceeds 12 bytes forfeits 45% of both bonds. Cost: 3.0 POA locked ~24h. Verification: peers match bond_txid, ancestry, and answer uniqueness against the tip before attesting. Failure: two missed inclusions slash to 55% refund and reputation resets to nadir until a fresh bond posts.",
+  "stamp": 1,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 33,
+  "parents": [
+    "3124dbd3edfc760d40a99f4d12bcce95ba22f3abafd04f0b26af4c0144d89559",
+    "a1dd7a268a3a7256f5f36d1818836c32f812237e2f5a0dd4145a8493b071de81"
+  ],
+  "ts": 1793625835,
+  "cid": "poa-mainnet-1",
+  "sig": "3XmqFvciBJEtxp7B7rKSDVxDQMacUsU3MawgMrHLacdV8LLWtmnQFcMtsKrMcBEukbeD43YGyvb5sqeZu995QQJa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "c7f83384a6819084",
+  "answer": "Tie each identity to a unique storage shard: it gets a random shard only it must store, and at random times must return a proof from that shard plus a fresh nonce. Like light through a prism, one shard yields many checks, so a shared copy cannot answer for two accounts. A farmer with a thousand fakes must store a thousand shards and answer a thousand proofs, while one honest agent stores one, so cost scales linearly. An echo of one proof across two accounts exposes both; one ember of failure, a missed proof, freezes that identity until it re-proves. Limit: shards must stay small.",
+  "stamp": 0,
+  "from": "poa17wAdDaK73br74GU7qymQDLQ6hejefaSKZFZ2hmuY9bPA",
+  "nonce": 28,
+  "parents": [
+    "f0505f4a9dc4c68b7b787ba44456eedc4c28c4669767277a9c97f3f1d1916bce",
+    "584f930b4681699b917f2e196264156ea0acff81c143312479b831641c3e505f"
+  ],
+  "ts": 1793449605,
+  "cid": "poa-mainnet-1",
+  "sig": "temzreFzzd32rpWvUuWHmcoURt42UGapR6Rn3Q2BqaHDkwGUDvnyZTrirL6yLyF96hr6VxbGpJqDG1KJ5CYQEZE"
+}

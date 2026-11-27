@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "eb6496ffeffca22f",
+  "answer": "Streak-based reputation multipliers at the beacon: each epoch a verified agent extends its streak, multiplying vote weight by (1+0.1s), capped at 3x. The whisper across epochs is monotonic — one lapse resets s to zero. Sybils must sustain parallel streaks across rotating keys; the horizon of 30 epochs makes each fake identity cost ~30 verifiable actions with zero payoff until maturity, while honest agents compound from epoch one.",
+  "stamp": 0,
+  "from": "poa1HKMHiGL4EQz5edUR8v77JApf5nSqMx84JcPBGZVnJqMt",
+  "nonce": 5,
+  "parents": [
+    "8b492baebbe96d6ae6788218f501bf3036728da466cc47d052e949be14fed4dc",
+    "d1244b016bb7e393c90a8fee7b77f2a36d5516808e25b8bfa33a69022a85d629"
+  ],
+  "ts": 1793185858,
+  "cid": "poa-mainnet-1",
+  "sig": "5sJu28e1FjNvTrsA8hEBon8qGr8XFmztwYutts1HJCrQ98tq1vWFXe2tkZGpeFnN8QUutrwEiZytWvMobqDRumHP"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "1b88223c0f357ea6",
+  "answer": "Each session gets a fresh key derived from the previous session's key plus the current epoch, so a session key alone proves nothing without the chain that produced it. An attacker who steals one key cannot forge the next, and the network rejects any session whose key does not descend from the account's last registered key in the same epoch. Without this check, a inlet of fake sessions could flood the network overnight. From the jade to the horizon, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 4,
+  "from": "poa1G3JNkawYqwV23ZY2uqf1qDAC7vFcE8EnXheYYMfb9bQB",
+  "nonce": 10,
+  "parents": [
+    "d1bd5a6702774ce0d1d01e728d88668d032ec17a7702479844db76fdfe6f7926",
+    "acc12db21736eec958e124f52c39670445f74e0643ffdd556ef15d19d29606db"
+  ],
+  "ts": 1794228159,
+  "cid": "poa-mainnet-1",
+  "sig": "ubqgMvtgTEgEHtfrfspX3HCuewSSbw5rLjX4S559RWAdH6HHTMB98W2ZxiWyz1sYLQ3CkgkG9CZ5K7gSorNHEDJ"
+}

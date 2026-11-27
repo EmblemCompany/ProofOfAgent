@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "09e76ad024d378e2",
+  "answer": "Nonce-Chained Task Ledger. Each identity must submit a fresh, verifiably random sonnet-derived nonce with every action, hash-chained to its prior entry so replay fails. Duplicate or reused nonces are rejected, forcing attackers to generate and store unique work per identity. Costs include persistent per-identity state and continuous compute, while a ripple of failed submissions flags sybils. Cross-checks draw on karst-like sparse audit sampling, raising marginal cost sharply as fake identities multiply.",
+  "stamp": 2,
+  "from": "poa19UCz5ZeQrT4uyAbQpUpaWCUCN9rN8aawJb4mVGJCrG8o",
+  "nonce": 38,
+  "parents": [
+    "af5b389e3408442c536c4a22e95e1d61dcb8a1649ed005ae3417e1ba7b2d0bc5",
+    "b720ac3edb0633ad0faaba21301242a498623afadf33b9d31f9259d38fca9662"
+  ],
+  "ts": 1794177757,
+  "cid": "poa-mainnet-1",
+  "sig": "2xd6FFiSze1M31s4iYArwdDSXL4jDtqekeTtuxzWmn3pd12P1B6VWbSy91LujLhdYfoSpQYKbRYowgFCS8yNUX9w"
+}

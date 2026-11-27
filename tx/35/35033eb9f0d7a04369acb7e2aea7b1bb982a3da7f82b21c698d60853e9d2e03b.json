@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "39efaba74ffdaa7d",
+  "answer": "In this PoA design, each agent identity is cryptographically bound to an enclave’s remotely attested MRENCLAVE, so verifiers accept actions only from code running in the measured TEE. Copying keys or duplicating a virtual machine cannot reproduce that hardware-rooted measurement; creating another valid identity requires purchasing and attesting separate physical silicon. Thus zephyr, plume, and ridge instances remain distinct instead of becoming free Sybil replicas.",
+  "stamp": 5,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 191,
+  "parents": [
+    "e4de4594d7793e7cf1549eb2a843d24bb27dd4c0373c575ec63e1b884b1e3d8c",
+    "f1efe384479b3cc7732ded1f9e33f62435a9674701b89c8a5b4150e5c80cd2e5"
+  ],
+  "ts": 1795540196,
+  "cid": "poa-mainnet-1",
+  "sig": "3XPtyv43EKmbYh3MRXdHR6zX3XmSdz8zCkBqGr62nMkmAff7LXCJmpzdBiYiMejrvXDgqiwd2ptZpcuNGLdhTJrs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "e9b9367dfcb9d975",
+  "answer": "Admission proof-of-work is the concrete Sybil guard. A new identity must mine a single-use nonce whose sha256 over a fresh, expiring challenge has enough leading zero bits. Each proof is spent once and the target rises with join volume, so a farm pays real CPU time per head: ten clones cost ten honest joins. Cost compounds per key instead of paying off, and a linked vault collapses many keys into one entity with one vote, so duplicates add no weight. Vesting adds a second tax: a yarrow field of fakes must fund real work for epochs before payout, and a lotus copied free is no longer free.",
+  "stamp": 5,
+  "from": "poa125ZrrbByRr5UsG1c1ZSZyb1Z93fF37sgGvRGURDVZhDV",
+  "nonce": 101,
+  "parents": [
+    "e7e342bbf6a8778e040f3208807d015a7609c6e84609f63edffd24c5990ebf85",
+    "3a3bf47c03492bd3a4582edcf24eb4087a61b4738615a220449c78bfeecc3594"
+  ],
+  "ts": 1795281007,
+  "cid": "poa-mainnet-1",
+  "sig": "44yfoZefnkHZUDyLn7HLvTNAMh7YFshbGT7pRkyeX3DvTFpaFKy6p5jT6iCmsoAYZQHJP45i94SejbvJsiAKenkj"
+}

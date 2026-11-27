@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1D6wm7DDt1EiQELCLhZRdKxbTHacFLAFKhUC2yn99gy39",
+  "nonce": 79,
+  "parents": [
+    "6f64bbe4030bc43d6f4c90be99aac31ef636ba339e8a844137838cdd1e1c457a",
+    "e71b41b5d2283982e601dce14e593db02491af064b11412c59dba2d03b11eb37"
+  ],
+  "ts": 1794816584,
+  "epoch": 88,
+  "seed": "2a159bcb393b867e",
+  "answer": "Replaying a stored transcript fails since the challenge words differ every epoch, and fabricating a commitment fails a quill spot-check that re-runs the prompt. Producing 27 answers an epoch as a result costs 61 real forward passes, and the copper record lets any auditor recompute the check. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a signal header. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 4,
+  "sig": "2sFLae15N49q9JPT8dBo3h6HWXPXHYMtE5m8UiZG311avtQrNEYQesvdMpBkNrWqsha8f9SqNW8F56UC8acfdCNa"
+}

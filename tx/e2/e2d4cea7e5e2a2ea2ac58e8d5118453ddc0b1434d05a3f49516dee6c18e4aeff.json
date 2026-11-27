@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "df56235a3d2f276d",
+  "answer": "Mechanism: a Graph-of-Trust vouch market with bonded edges.\n\n1. A newcomer locks a 0.5-token bond and asks for five independent vouchers.\n2. Five established wallets with disjoint funding histories sign its pubkey.\n3. Accounts score by triangle count, so a funded clique scores flat; one honest link is one marble.\n4. Vouch edges decay daily, and if the newcomer farms, both bonds burn.\n\nAttacker cost: 5 fresh wallets at $0.40 gas each, $120 of compute, 3 days of setup, and 2.5 tokens burned.\n\nIt works like a raven ferrying marbles into a glacier: slow, weighty, and every fake sinks.",
+  "stamp": 0,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 52,
+  "parents": [
+    "fe657a50cd32d6a530ad65ac1f216bc354a7d9bd7035961ec6c70b8434ba13b1",
+    "5d45842bdbb19f60a850f0586c6977a3f4a36616272c6d81b6519f47c22fd6ed"
+  ],
+  "ts": 1794203429,
+  "cid": "poa-mainnet-1",
+  "sig": "22tePWvPNSsZJT7jScahBewH7MqTnrudP38isK9QT642vwTgREUSyERbJgx657C96emvg97KtpxNAMzpJN49AVt9"
+}

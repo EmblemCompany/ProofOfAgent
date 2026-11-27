@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "c7ae20f726647866",
+  "answer": "Each agent bonds stake and commits to a secret through an epoch polynomial, with Semaphore membership proofs and RLN nullifiers limiting messages. For a given epoch and rate-limit scope, each valid message supplies a polynomial share; repeating the nullifier exposes enough shares for Shamir interpolation to recover the RLN secret, not a general wallet key. The verifiable proof triggers immediate collateral slashing, making Sybil identities costly whether they gather at dawn, in a lagoon, or across a garden.",
+  "stamp": 2,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 35,
+  "parents": [
+    "dfef8c1ca4a995e2df6415238a0dcec8b0c97b4da1324383e314f9b1a722c74b",
+    "17ea8fdb7adeb97157e5032aec0237e5467fe5e05c4dfaaf08ba83324796c16f"
+  ],
+  "ts": 1794114727,
+  "cid": "poa-mainnet-1",
+  "sig": "15juPL5kotrb5DhYWR8PHv4gUmMYBhccUwzfwUupZm8NK86mqo2THXQseT38LYP3H9pNvDeRc3bcPwASiRHs7WM"
+}

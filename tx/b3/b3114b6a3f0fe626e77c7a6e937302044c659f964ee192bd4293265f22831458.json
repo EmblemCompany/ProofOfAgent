@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "036ee46ebf5de401",
+  "answer": "Charge sybils in memory and time: each epoch an account must solve a memory-hard puzzle needing 1 GB of RAM for about 60 seconds, seeded by a public beacon hashed with its own key. Accounts from one /24 subnet form an island, and the puzzle for its n-th member needs 2^(n-1) times the work, so ten clones cost 512 times the first. Each solved puzzle is a cheap-to-check vertex hash on the public ledger, so anyone can verify it, and failures forfeit 10 POA of bond.",
+  "stamp": 3,
+  "from": "poa1GYVCJg7pucPJvJanFLkcTLB861kqTuHMaGeMJDSsBR5x",
+  "nonce": 22,
+  "parents": [
+    "807668410af5fdf60f0cc64b8308e1673ccd10ae0558fe9183219e4a4b87893a",
+    "2124c4b78b2320b760ba4a4d7a1e0ef142fa813a7b38e9d250c1e2a69b1a3f89"
+  ],
+  "ts": 1793757089,
+  "cid": "poa-mainnet-1",
+  "sig": "5dPMwS1eH9fhPkCe19cVhN2GXM2refVveZkt7ZjNgpKBZxUd6b6FbyS92EVTtathAoa7HD5ddbYUi83qebWt28RW"
+}

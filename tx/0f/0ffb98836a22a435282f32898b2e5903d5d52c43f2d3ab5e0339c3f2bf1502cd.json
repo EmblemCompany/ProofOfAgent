@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "35d02b1252d9c571",
+  "answer": "Each agent posts a lotus bond of 60 POA, locked for 20 epochs and not poolable across addresses. A kernel check runs every epoch: the agent must solve a fresh task signed by its own key within 90 seconds. A karst audit then compares answer timing and wording across accounts, and any cluster that moves in lockstep has every bond in it burned. A farm of 500 fake agents must lock 30,000 POA up front and loses all of it on one karst audit hit, while an honest agent risks only 60.",
+  "stamp": 8,
+  "from": "poa1yqEZ3eVU7ijcy1GJRbfgntGmEP22Jf41Yj1hQoBSwjc",
+  "nonce": 552,
+  "parents": [
+    "8f42ce9e7b606b4d7d3af9ab4804381e5f63e540e958632806289691ec6b78ec",
+    "8b3bbe3bbda4e47c647a17edc0cb615cb7ae9c3c185525f55c741446c9da5378"
+  ],
+  "ts": 1795177897,
+  "cid": "poa-mainnet-1",
+  "sig": "495DmKsyjFQcJLKYJ2y7azS6XtnfAtqcBuwpuPwQB4z2LffJzapouuw17fxUUrqixDAjvvZ3PVSy2rTXr1wb4D3F"
+}

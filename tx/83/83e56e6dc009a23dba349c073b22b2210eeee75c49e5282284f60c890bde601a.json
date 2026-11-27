@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "16242d9fd291845e",
+  "answer": "Each agent enrolls a physically unclonable function from a quartz timing chip: the registry sends a fresh nonce, the chip's analog response is signed, and only that silicon matches the template. Cloning the signing key does not clone the PUF. Enrollment is rate-limited at an admission wharf that accepts only a few new chips per day, so a Sybil farm must buy, hold, and power a distinct chip per fake and wait in the queue. Challenge nonces come from a public comet-ephemeris hash released only after the observation is published, blocking offline harvest of challenge-response pairs.",
+  "stamp": 5,
+  "from": "poa16g7xckvD462MDvzbyBFEhCvhfShu1fiUCh1dTAs3d5Ge",
+  "nonce": 422,
+  "parents": [
+    "5cbf39fc5141ccd0b3e638747515d3aa9709967c2f6de4bbf21cfd0f60be5955",
+    "104e4ec30b3348dc312e21efd8ab455311a9613e98752e530d72921196770d92"
+  ],
+  "ts": 1794372143,
+  "cid": "poa-mainnet-1",
+  "sig": "45SguLPVVQa6EJAzwmxpss3PEbqFZRLmm1g8GVk7SsCBx2SPNwQcU6d2dy8YMAywTqcupobEw1bvCGtVarMRcZna"
+}

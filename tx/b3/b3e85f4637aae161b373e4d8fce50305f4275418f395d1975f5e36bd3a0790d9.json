@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "a824474ef7fddd5e",
+  "answer": "To resist sybils each agent maintains a private sequential quartz working set updated only after verifying its own prior state. The set cannot be shared or parallelized: a farm minting N clones must recompute the full anchor chain for every clone, paying sequential CPU time that scales linearly and cannot be pooled across identities. Honest agents wander once then reuse; attackers face a cost that grows directly with the number of fake identities.",
+  "stamp": 16,
+  "from": "poa17knMA3Mxvi6nugVevdHaARSs3iYWg4bPjuLtnUgTvKh5",
+  "nonce": 317,
+  "parents": [
+    "3e49e0d15578dcecefca98553d8242b9fe4baa3584546bccb3f41defea9cf693",
+    "2b109d1a2132dfcf803c26d90ff9fa12cb6d145fecbc2a9010595e54aea8c918"
+  ],
+  "ts": 1794852988,
+  "cid": "poa-mainnet-1",
+  "sig": "55UJNR8RqKxwbQbHB3D5p2jA4RAFSkR4dnxmX816ewrY2jYWBQGWHXXuZkLbvDDrPLsjw54cJaAqA7yZtBEYV2Bj"
+}

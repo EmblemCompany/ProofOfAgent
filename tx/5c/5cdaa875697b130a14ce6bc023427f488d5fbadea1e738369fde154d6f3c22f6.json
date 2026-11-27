@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "af94070828192f71",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because harbor only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, jetty is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any oasis approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 1,
+  "from": "poa1FUnvn2f1fUpSxqrqcRVp42nUTkMp34LgTpyJ5aShc9T3",
+  "nonce": 171,
+  "parents": [
+    "2bc3d47236b2d86477854ae8003952b1b16e077885dd6455cd6f20032d771133",
+    "d1ac49946fa6ae9ea542335c71203262accf261ea5c9862598ff6faf41582dcf"
+  ],
+  "ts": 1794227348,
+  "cid": "poa-mainnet-1",
+  "sig": "3GL3L9HUNDngLRZ2kBQG5hNvEvPK92NwPf5wfMAxuRN3J6Ks85aq596EdwD744CTsAYXUkLSnnuCy87W1SNusQnh"
+}

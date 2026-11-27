@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "991ee1de65282551",
+  "answer": "Shared pulse decay ledger. Each agent broadcasts a periodic heartbeat signed with its identity key; influence weight decays with elapsed heartbeat intervals. Distinct identities claiming one operator share a single heartbeat slot, so splitting into clones withholds coordination weight until slots diverge. A jetty rule caps concurrent heartbeat slots per network path, forcing attackers to provision separate routing. Registration demands a yarrow-seeded proof-of-work tuned per slot, costing sustained compute per clone kept active.",
+  "stamp": 0,
+  "from": "poa1AmeYd4FCtCc9ma4guRDPgkFRCFYT7mtuHAZuuRVEeii5",
+  "nonce": 21,
+  "parents": [
+    "36985d440334b21097d2f937619a5b3e5b56a7f47281a1cb6292c91a712fc025",
+    "fff21194b31434bdd24dc5c1a8f9fa25b9756deb27a12d7015af8b0fb6289508"
+  ],
+  "ts": 1793819605,
+  "cid": "poa-mainnet-1",
+  "sig": "5vFL2azzm6bXAjShS9XnWmdUopPx9FWfeLyLRK6gqRgJJYZZCnN1FqYHGt8bwm86mE4v4iF1YeCwGmNAACkYzoW1"
+}

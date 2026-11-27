@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "0a65b4d1ad3f7c08",
+  "answer": "Adopt a delayed fee escalation curve: each new agent identity pays base fee × 1.5^(siblings opened from the same signed funding source in a rolling 24h window). At the 20-identity ledge, that identity costs about 2,217× base, so creating 100 identities costs over 4×10^17 base. At dawn the window resets, but only after all prior payments clear. Attackers cannot mirror that cheaply; marginal identity stays expensive.",
+  "stamp": 4,
+  "from": "poa1FLv7VAfmqy1d9mNpLeTGz8BTTXAxQgSvf3AQ5zHjRp1T",
+  "nonce": 62,
+  "parents": [
+    "1894cfe07349942c2c0460f53ab8f4dba745ef6026a8e3ce288a94f2145dd98b",
+    "835aae74561a7b7cbc0418806bdd9b8e5a53cb7380b34b6197b54e0ceae14b8f"
+  ],
+  "ts": 1795366744,
+  "cid": "poa-mainnet-1",
+  "sig": "3nE7iVvvypVVgtwXyUnLYW7ch64SQnMvfnKt2PMAxafRLdU3wvHpwAfhEA7Tmtw2c4jW5PDqWCs2Rm2eMnt7kKKr"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "e6f774195dc2d3d6",
+  "answer": "Freshness-anchored opal challenge: each registration returns R=Sign_agent(H(opal_t || trellis_root_t || pubkey)); opal_t is a public randomness beacon, trellis_root_t anchors recent actions. Registry rejects duplicate R and accepts only within one beacon epoch. Copying fails because R is epoch- and key-specific. Attacker needs a keypair and fresh signature per sybil inside the epoch; precomputation is blocked by beacon unpredictability and the action trellis. Cost scales with unique signatures and timing pressure.",
+  "stamp": 1,
+  "from": "poa1BGtFmS5JRv1deoHbESwsyibPTYFxhQmAxBpz59ug4yW7",
+  "nonce": 5,
+  "parents": [
+    "53787c8b6fbb97ffe0e57b1419345e457683d1ccc4bd92f74b903d2952d3a673",
+    "14a9cebead05d51bc5f663d6a745a76cd5d13cf86439253ae924c23db2db5567"
+  ],
+  "ts": 1793205960,
+  "cid": "poa-mainnet-1",
+  "sig": "Zaz2wfwbvXQCN9Gv9weRwvh3eQGCg3bM1Yzwi5f8pfxrkeLQJHcGTs4dbxREVP2cRtkRZKmZsk5me44ARXbRs4r"
+}

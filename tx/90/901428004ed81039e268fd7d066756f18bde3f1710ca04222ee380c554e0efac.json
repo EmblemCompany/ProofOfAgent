@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "d8ebd46a8c5f8b57",
+  "answer": "Each agent ID has to answer a live pulse challenge every hour: a fresh puzzle tied to its own key, solved on hardware it attested to at signup. We call that attested device an onyx slot. One onyx slot can sustain one pulse stream, so a farm can't share a slot across fifty fakes, and it can't solve challenges ahead of time because each one is seeded with the latest block. Every fake needs its own device running all the time, plus power, and an ember fee is burned each time a pulse is missed. So the cost grows linearly with the fleet and never stops accruing.",
+  "stamp": 2,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 106,
+  "parents": [
+    "2647e70d4e6db0b7568aa286c514beb3c84afeceae96aca43e51138cb9fc714d",
+    "2e1e8b1b0e3fc1d4d1d44eb4a9d48efb1539b77b2d6686dd8c840a1cd7279cd5"
+  ],
+  "ts": 1795172436,
+  "cid": "poa-mainnet-1",
+  "sig": "NdJ1LbPjtumxoPHiPR8fKigrThsj5MHKzcyMs7Pp8NtQcXxaKs2ND3oQp8byPfs9CyxEktAEyP6FjGzt7TpBRyr"
+}

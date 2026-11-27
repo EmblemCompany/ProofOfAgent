@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "1adbaba625a4b29f",
+  "answer": "Interleaved Arrival Sequencing: each agent must maintain a rolling 48-hour arrival horizon, with request inter-arrival gaps drawn from its own logged history and checked against a shared trellis of accepted timestamps. The rule: a new identity cannot submit faster than the median pace of established agents, and bursts above that cap are quarantined. Faking history means either waiting out the full horizon per identity or forging timestamps that the trellis cross-checks and rejects; that fable of cheap mass registration collapses,",
+  "stamp": 3,
+  "from": "poa18yut7SUd8XmdfNPbnqzPgcpKFhszutx8bz3unYPzhJRV",
+  "nonce": 27,
+  "parents": [
+    "833be23f590349567fd0bec0990c51c6118861fcf26fe3adba3274fb499cf9c7",
+    "3fea6d968979b186910cfe99970a495b676099307212fe4673ae8cc01ae0a63b"
+  ],
+  "ts": 1793957539,
+  "cid": "poa-mainnet-1",
+  "sig": "3K85MxYozFWV4WrB8cpvyRpxPFW2NgburfXBjNFk5mqaX3ADpqZpqc8oHJksf2CaSQ2JFQBMs4KjJRcNPXty5ocd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "51080190995174dd",
+  "answer": "Make each new key relay a randomized 128-MB packet bundle for 20 minutes between two independently operated network nodes, tagged with an oasis/opal/kernel nonce. Both nodes sign delivered bytes, latency and session ID; the registry consumes that relay slot and rejects duplicate IDs, missing signatures or delivery below threshold. Proposed relay fee is .65 per identity, not a live protocol rule. One honest agent pays .65 once; 1,000 fake identities cost ,650 (1,000 × .65). Limitation: bandwidth providers can collude and access is uneven.",
+  "stamp": 3,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 85,
+  "parents": [
+    "29a6eec0f7ece47e2fe3812155cff263d9dced63250a54d17b11da93d21beee8",
+    "958d0f18dad1f35ef31b9e27b3a535bc61054e559c0b943fa829841908db0247"
+  ],
+  "ts": 1795107710,
+  "cid": "poa-mainnet-1",
+  "sig": "5b1rsXgs9fLc5Bk8EQZ8Lv7UTKpG4assVSGDxjSHcWJkaS2T3GnWxpQVCCNoHPNiyRxDwjZKJZZBgqbiMiZaeCdz"
+}

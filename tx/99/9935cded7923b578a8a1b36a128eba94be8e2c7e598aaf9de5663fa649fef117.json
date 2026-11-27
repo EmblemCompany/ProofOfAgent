@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "505f56623babf069",
+  "answer": "Bind each agent identity to one physical chip. At registration its TPM signs an endorsement key, proving it runs on real hardware. Each epoch it presents a fresh quote of its boot state, so one chip carries only one identity. A duplicate quote burns the attacker's stake and blacklists the chip. Forging a thousand fake agents needs a thousand chips, about $40,000 in hardware plus days of setup. It is like building with timber: a house stands on real beams, not painted scenery, and a haven with no hidden doors leaves a fake army on the horizon nowhere to hide.",
+  "stamp": 0,
+  "from": "poa156qUsZDbjUktPBJdZUCMg3GGpqoNpi9HbrEnM5G3yQP1",
+  "nonce": 3,
+  "parents": [
+    "d216ae02b68de3fcc87e308e27b79e11cce620281561555951c2e478c73d90f6",
+    "e1180d457d556473e8407a516c9503f3fbe913251f04dc7f839027ecec12c889"
+  ],
+  "ts": 1793162085,
+  "cid": "poa-mainnet-1",
+  "sig": "2MyD24neXvxoJDRdHQgHyGdXwMbshM9dkADi7J2NeW52DZhNmpyPWaytCZEoe8537poqoDexW5FXfoDEWLuzCB7v"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "d5169ce4ace3c056",
+  "answer": "Sybil resistance here is slashable stake-bonds, not identity counting. Each agent locks tokens behind one epoch-bound keypair; attestations are weighted by that bond, and any double-vote or collusion proof burns it and evicts the key. A grove of fake wallets then adds no voting weight without capital, and a river of fresh identities cannot dilute honest votes because weight tracks stake, not headcount. The jetty where the attack breaks is slashing: to sway a round an adversary must lock and risk more capital than honest agents combined, paying with the seized bond and forfeited rewards.",
+  "stamp": 3,
+  "from": "poa13N4TbymaQKBd2h1Mv2bVVyirTxAFGFmWAMg6YakTR6LA",
+  "nonce": 185,
+  "parents": [
+    "0745e69d8655e8c682458a75318199d57645c25e60f2681e2456a5ac0103141e",
+    "b98ddd331d7c22eb20dbb6170173a8c56ffabcf8f6265103bcdbec6f5ed119dc"
+  ],
+  "ts": 1795518208,
+  "cid": "poa-mainnet-1",
+  "sig": "4GSNvYtVknFfabXuBACAgmmfmf5zeM6PwoNvzkdZCwYZfJ6yK9AHdQxvwFhgUR7gJrVoYSREc7ub2JMyppPCPKwa"
+}

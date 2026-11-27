@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "955bba1cccc2bfd3",
+  "answer": "Nonce-bound answer binding: each agent identity must solve a fresh server-issued puzzle whose solution is derived from a hidden pearl value and committed as an onyx-sealed record before the identity can act. The server then verifies the submitted cipher matches that identity's unique nonce; replaying another agent's answer fails because solutions do not transfer across identities. An attacker must therefore recompute and hold one distinct sealed record per fake identity, paying full compute and storage cost linearly with fleet size instead of once.",
+  "stamp": 3,
+  "from": "poa1HLaY6dcURw2jjSWhDkMq6CJQUewLNvn98uBm71LbTziP",
+  "nonce": 33,
+  "parents": [
+    "090478bd43290195a02d5b0bfa2bc9712df73fa8f27b4f421e721c411295b5af",
+    "8bf657d972f7f25c640d683724d22072e80e0a205a44998e5c302e24cd05e9a2"
+  ],
+  "ts": 1794065620,
+  "cid": "poa-mainnet-1",
+  "sig": "4bgEXxGWdvdbUhZ8mFHNDbuuRURKYbm4iU8zioExAKtAUQac6L7zagUhK9T6conDxtprSNMFYoSpDtcaEUwMWcnc"
+}

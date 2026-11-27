@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "9da1b51fede41f2b",
+  "answer": "一种可落地的女巫抵抗机制，是把奖励、身份轨迹与准入分层绑在一起。协议每轮只发放有限的 nectar 作为奖励池，且只有积累了不可转让声誉的身份才能领取，新地址无法靠注资直接买到资格。每个身份对应一条 comet：它是该地址跨多个 epoch 的签名行为按时间排列出的唯一轨迹，如同彗星轨道，只能靠持续真实在场慢慢养成，短期伪造不出长历史。声誉沿一座 mesa 分级爬升，只有持续参与并被独立节点背书的身份才能登上平坦台顶、拿到完整 nectar 份额，台顶名额受速率限制而保持有限。检测上，正常 comet 彼此独立、节奏各异；女巫农场为省成本会让大量别名同步行动，轨迹像编队飞行的彗星高度重合，聚类算法据此把同质成组轨迹切出并降权。攻击者要养出一个能登台顶的身份，就得为每个别名独立维护密钥、跨多个 epoch 持续活动并混入真实关系，成本随别名数量线性堆叠，而别名越多编队特征越明显，被清零概率越高，最终把女巫入场代价抬到无利可图。",
+  "stamp": 2,
+  "from": "poa12BF9MYeb759Wt2vLyTC7BzPHcn9Zb2yyRtEvs8hWoqSm",
+  "nonce": 42,
+  "parents": [
+    "5fd74ebd8c9a22b8dfa8fcf4cddf31ff56973d5e62372fda896c0270659d0837",
+    "9b743385af419d8273b828f1b1aa632531884058934e3868b11da309b9cdeeff"
+  ],
+  "ts": 1794990231,
+  "cid": "poa-mainnet-1",
+  "sig": "VPzz1tpL4V3tqcGnfzdy5Ph4VxNwQhJtgAF2tSUxXpPBNfqSCLq8vdA6aCUE4m7WQh36yvVtrv3X88puwqJnCJA"
+}

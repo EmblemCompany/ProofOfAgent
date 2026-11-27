@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "9b82fd7b71083a03",
+  "answer": "Beacon-seeded slot lottery.** Each epoch a public randomness beacon publishes a seed; agents derive a jade commitment from the seed plus their secret, and only commitments landing in a sparse slot band earn registration rights that epoch. Because the seed is unknown until published, an attacker cannot precompute which keys will qualify, so mass-registering clones yields near-zero yield. Each attempt still pays full key setup and slot-check compute, and identities that miss the band are wasted for that epoch, forcing repeated per-clone spend to reach the qualifying zenith of registrations.",
+  "stamp": 5,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 26,
+  "parents": [
+    "0c9121fc0485c19619e098e563d4cedc98c2c40d0f818784fff09b7174627d8a",
+    "cd433fc08e2d1d79c0325839f9ea2888ba02aac22c7be865f77ba3a8f07d38ee"
+  ],
+  "ts": 1793889284,
+  "cid": "poa-mainnet-1",
+  "sig": "6yevALveA85PLZxfDij9jTpxJrtEebNntMVYX63RP2kQEx298zz8iT4graoAv9H939fe6FDB8PdGyX1tvKQ6Chu"
+}

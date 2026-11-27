@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12BvDnrVRAQCt1ZBk1AmaH2gYMAHmq3gYxkb1MdCi3TdY",
+  "nonce": 20,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793388610,
+  "epoch": 24,
+  "seed": "151c74ee02b4ca9d",
+  "answer": "Because the derivation is a one-way function of the orchard seed, the voyage timing is verifiable from the karst record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 349 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. A farm that wants 106 keys hence pays 106 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "3hQfq8hidyLqBmYgPDErooCzbtDQEJ1yNUSBphx3BrReLJfJ2ryMfwzkVgWKpKTkutKHXqPUTE4SWcQ6J3JR9rDD"
+}

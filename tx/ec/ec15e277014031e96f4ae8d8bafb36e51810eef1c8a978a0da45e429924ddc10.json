@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "db69eebc1b7a6ca2",
+  "answer": "Thread-anchored nonce proof: each agent hashes its last three ledger actions with a fresh salt, binding identity to an unrepeatable thread of on-chain history. The validator mirrors those three actions against the chain; a replay or mismatch voids registration and suspends the next two payments. Each hollow identity costs the attacker one full block of excluded revenue, and the salt makes that identity unrecoverable.",
+  "stamp": 2,
+  "from": "poa1GEcWXEF3dtTX4cGdAcr83zXVCQ9ZdMjNYayXnMmM9XKx",
+  "nonce": 64,
+  "parents": [
+    "9ea96702176ab9caf4dabf0bfc97ac880ac32ebe3fe774d4b306257896def8ee",
+    "dfb10f52668415b82e68d92f07684c8b3d77bbda7cc6490c16147e49a085a78f"
+  ],
+  "ts": 1795685830,
+  "cid": "poa-mainnet-1",
+  "sig": "2MaQmUH6aK5gMSuL2WFVSvWdnF8LPyVTVdEV9Z6pUf3V51qcuK8QrL3dooStwEa6vfjEa6A3acmkQ7x8cK1PRhwC"
+}

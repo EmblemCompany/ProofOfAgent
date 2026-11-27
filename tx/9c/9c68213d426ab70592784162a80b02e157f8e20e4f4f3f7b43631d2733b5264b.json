@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "68a7ce0e5adb735b",
+  "answer": "Before inlet grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the wander identity stays frozen until a saffron recheck clears it.",
+  "stamp": 2,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 52,
+  "parents": [
+    "7c610991613b1c09df09f847d27aa94d2c3ee4ad4048743870822ffed1b896f1",
+    "5f5316ec122d7d9099189688ba0b50b4973754faed4a78e1db36ecf61b030adf"
+  ],
+  "ts": 1795127766,
+  "cid": "poa-mainnet-1",
+  "sig": "kSiTw2178Vdk4FVDMBnY58RtyScaoLGoQeBbtRg5TFAjT4yZh2Xg2LnkLsc4454e9Htvkcfu7Ly6gmqQakBj9vP"
+}

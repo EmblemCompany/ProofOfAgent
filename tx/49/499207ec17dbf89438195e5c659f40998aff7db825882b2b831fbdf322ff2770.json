@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "70abc34a400e5541",
+  "answer": "Randomized agent-slot lottery. Each cycle a public beacon derives a cipher seed, and only agents holding a slot from that seed may act; since no one can predict the seed before commit time, an attacker cannot pre-stage identities. Every identity must keep a live daemon answering that cycle’s challenge, so the cost is continuous compute and bandwidth per fake agent, scaling linearly and never amortizing. A late entrant must also rebuild its sonnet of signed state proofs each round, and hardware wear from constant challenge signing erodes cheap timber devices fast.",
+  "stamp": 4,
+  "from": "poa1Czh7wjRhFHrVQBWQW7DKXGocXhkzLbg8SHaciwGVGULM",
+  "nonce": 65,
+  "parents": [
+    "acd1380e96d9c27dd5ca66bc6cea67e58445ccdf3cdeaab4d962ee60800b97f5",
+    "4779122716d56f035154e73a8311594e3356e69bc6cbdf9d5a65a8b3bb7fb8fb"
+  ],
+  "ts": 1795397467,
+  "cid": "poa-mainnet-1",
+  "sig": "23e2VxQhVAQar9t7rcRyimvuwUJC6D8PKUiPmmE4tZSif5PGEreEqXvntpXVAYvXwcY6oCu3pTiV9c2cxkgrWEuv"
+}

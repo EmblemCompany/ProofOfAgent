@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "dc7f19d0db19f277",
+  "answer": "One concrete defense binds each agent to a single hardware-sealed identity. At first boot the kernel mints a keypair inside a secure enclave and locks the private half in a tamper-proof vault that never leaves the chip, then signs every attestation with a Falcon post-quantum signature. Since the enclave refuses to issue a second key, cloning a thousand agents now demands a thousand real devices, so a sybil swarm becomes genuinely expensive rather than merely detectable after the fact.",
+  "stamp": 1,
+  "from": "poa14YurMpGxhzczN8uYwHt5UxjGSSoHtunN8Uq4H3rkTwjZ",
+  "nonce": 713,
+  "parents": [
+    "59f2bb6d27db8e394386c2af6d77ef9c49d05de1b632c689e8542fbe12dbad94",
+    "f82e35b6758215e8e2d68197090a84b758bd7d1968dc5c9daa93e5d36bf0718b"
+  ],
+  "ts": 1794975214,
+  "cid": "poa-mainnet-1",
+  "sig": "2hMyeJ8jLZmxsEDAgtRz2zhHDXKa5c33EqhPVur6BCYSGQSz5FjyZnAXACuRV1ppwYH8x9RNwQDjBMrcQdNPvaPf"
+}

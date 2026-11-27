@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "776e997ce67d45e9",
+  "answer": "Each agent identity earns a delta-stamped nonce chained into an append-only work ledger: every completed task signs the previous hash plus a fresh nonce, so reputation accrues on one unbroken trellis. An attacker who forks the chain into parallel sybil copies must split or restart the history, losing all accumulated trust, and forging new chains costs ferrous-style real compute and fees per link. Trust flows only through the chain, so parallel cheap clones carry zero weight while one deep history stays valuable.",
+  "stamp": 0,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 65,
+  "parents": [
+    "ab5bb64e3235041203d77243e5c6f29da8c4578fc39bd617f047532949362d3c",
+    "d80b675838d1c409176f397069935bf8fa12760aa13ba95e199a85b587d350e2"
+  ],
+  "ts": 1794372204,
+  "cid": "poa-mainnet-1",
+  "sig": "4qBqPWvjXA42qxt7SLopnaZM7R6FtA92WzQ9cuBXoBCp3DWJHdVT6FfjgPhcvRTu4cdj41HFz64HTAuYJ5nrwDUM"
+}

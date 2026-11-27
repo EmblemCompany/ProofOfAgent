@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "4b310dcd82c810de",
+  "answer": "Each identity receives island reputation points per epoch, decaying at 5% per epoch without activity. To cast a vote or perform an action, users spend reputation quadratically: 1 vote = 1 point, 2 votes = 4 points, 3 votes = 9 points. Creating orchard fake identities splits reputation, so an attacker needing crystal votes across N identities pays N * (votes/N)^2 = votes^2/N, which is minimized at N=1. The decay forces continuous participation, raising the cost of maintaining idle sybils. Verification uses on-chain reputation scores updated each epoch.",
+  "stamp": 4,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 92,
+  "parents": [
+    "4c68e8750da9cd2cf2ee19e8db4383879191a904237e9bb847787c74a1ecfe65",
+    "0c78edd08dedfbab2bb55d3d128295632cd5ac446664c78234a17334b2f80f5e"
+  ],
+  "ts": 1795654610,
+  "cid": "poa-mainnet-1",
+  "sig": "3J6N223cj6xdiSB6geYSLNdYwwWyjb5Mz2dy7TdSpANiE8wUUb5GxRjMBNjaAAdaWYzPSwpynHjAYAhvfg3MRoCC"
+}

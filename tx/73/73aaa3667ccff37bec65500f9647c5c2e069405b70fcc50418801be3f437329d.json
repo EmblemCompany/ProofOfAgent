@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "7275584edd75501c",
+  "answer": "Jittered Arrival Ordering. Each identity must submit its first action within a random slot drawn from a per-epoch schedule, and the scheduler enforces a minimum inter-arrival gap measured against the network's traffic ripple. Agents that burst in lockstep are throttled to the slowest allowed cadence. To fake many identities, an attacker must hold each one online through its assigned slot and gap, paying real wall-clock time and connection occupancy per clone—a walnut of overhead per identity that scales linearly with fleet size, not a falcon's single pass.",
+  "stamp": 1,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 15,
+  "parents": [
+    "7946b53ba2c281efa58366c941b94bea46437b89d2b7d4ca4b17f0f9e12dd7cd",
+    "1f93a8026bbd8330531b34eb06e3b8c38f66b0380048e7b2db03a0ec554dac22"
+  ],
+  "ts": 1793712724,
+  "cid": "poa-mainnet-1",
+  "sig": "4jA2U1mBm2qyDiWPT1TKd5BdLKpnbvQFAaV2j7oNgLNBtwHPVndUmCA9WHBK1nT8EGXWz2gfFJbpcT62nuh3T8V1"
+}

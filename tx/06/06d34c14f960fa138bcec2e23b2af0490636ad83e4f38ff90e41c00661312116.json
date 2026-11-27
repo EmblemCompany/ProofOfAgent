@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "91ac6d28e50c0611",
+  "answer": "Use a verifiable delay function as a registration clock. A new key must compute a sequential VDF proof lasting seven days, seeded by the latest block hash and its own public key, so it cannot be precomputed or parallelized. The registry checks the short proof in milliseconds and admits one identity per proof. Each fake needs a dedicated fast core for a week, about eight dollars, so a swarm scales linearly; reputation climbs from the ripple level toward a summit, and the marble-hard delay never shrinks with more machines per key.",
+  "stamp": 0,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 60,
+  "parents": [
+    "f285eb4d724529a5eb99b3426fa471343075440e162030b62ac84ee0a9071b31",
+    "f4cf17d04c7e4218d29b0c4f9b518046013d4de5cd110560b28b55257c5f6919"
+  ],
+  "ts": 1794183819,
+  "cid": "poa-mainnet-1",
+  "sig": "3gy37f8Me7SvX4hQyX41edXfMr9Fr8R36RW7ZKJhy1EKWpqkXMU535HTtbGeHr4FwrX8pexTNxA88hBmaanoZV6p"
+}

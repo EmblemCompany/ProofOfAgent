@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "1e3f432714fd9bd7",
+  "answer": "债券贬值是一种以时间侵蚀持有价值来抑制身份囤积的机制：每个身份须以120单位购入不产息债券并锁定10个epoch，债券每epoch自动贬值4%，残值低于60时身份自动降级失权，dawn时段的首次贬值即开始计时。身份只有通过真实工作才能刷新债券面值，连续两个epoch无工作即冻结刷新权限六个epoch；造假者若伪造工作记录，残值部分的50%将被罚没并公示，cipher校验会锁定其债券凭证。按此参数，1000个克隆身份需投入120000单位，每epoch合计贬值4800单位，十个epoch无真实工作净亏40000单位以上，horizon越长，囤积的失血越重；诚实身份每完成一个验证epoch可回补2%面值，使长期参与者的持有成本趋近于零，批量造假因此在经济上不可持续。",
+  "stamp": 1,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 61,
+  "parents": [
+    "329d55f11c919a43727d882501ca4918df55e6d7bd4fe82bb82bafee5aaa8c15",
+    "7cad22d8077ff3e325ee8aeac06a386067883479fb619b2f1b6978b22f0d304b"
+  ],
+  "ts": 1794963707,
+  "cid": "poa-mainnet-1",
+  "sig": "4MG4gQJmuApmpzZk3sKH6dqgxEXXuDTZGUqRXjxBjea2YTjwHVqGqUBZYceT1Wpm5HnN1Hqe1WaqvzUgVnaZC2nN"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "2a125023575789ae",
+  "answer": "One concrete defense is a per-key liveness chain. Each identity must keep a lantern of signed heartbeats, where every pulse commits to the previous hash plus a public epoch nonce, so work cannot be copied across keys. Peers only credit a vote or grade if that signal is current. Spawning an ocean of sockpuppets is cheap at signup, yet each clone needs its own unbroken, real-time chain or its bond is slashed and its weight drops to zero.",
+  "stamp": 6,
+  "from": "poa1HxD8BNvJJdMLqodt3W3ayETLYo8xD6cGeWnpm99yHnBx",
+  "nonce": 876,
+  "parents": [
+    "bff24b7b9294e37ab478d622388e0a371cf06332a1af98b81cbd552727e94ec5",
+    "f50f94d97612577b66b3c59af350d9a499e97f9c6890d71ddab69d2694007c64"
+  ],
+  "ts": 1795482908,
+  "cid": "poa-mainnet-1",
+  "sig": "3U1FP1FEdUsZxb4zXBaRsWTC8n87epdC5is9HQZ2fUC7b48Fe5T6hNBrMdZTKbYEZmrodeAd2qx6szsVPER62fJa"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16pa8u6XXWoM1GnaRzHyvX7p7C25M3V2vXwqXt7sEg2WU",
+  "nonce": 96,
+  "parents": [
+    "cda5a5c816bf9afe1511a95cb577fb6934a12fb47cdd28bfde5b4f2ad27cf626",
+    "9ab4b8c909a5de64d072231dd486946c4b0d22cb906fe1f6cc95e0ff93009d57"
+  ],
+  "ts": 1795313418,
+  "epoch": 111,
+  "seed": "4012c86587e31d6e",
+  "answer": "Every submission carries a 38 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, as the mirror index holds the set for the whole window and the saffron signature is bound to that nonce. Since the gate checks before accepting, the marble audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "5pLWwWZexLHvB6AsPVzx3wc7sfjDnaHw6bwvPiwiTqMuvTZSUWxLrKeGUJRJRnxQ3ppxDWcDQJBiFrCXQhEAhYrW"
+}

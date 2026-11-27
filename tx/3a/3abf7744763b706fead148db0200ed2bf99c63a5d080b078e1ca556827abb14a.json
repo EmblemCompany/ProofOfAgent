@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "dfb683175ab3ae93",
+  "answer": "In PoA, each challenge commits to a domain-separated digest covering the task, agent identity, and a future drand quicknet threshold-BLS pulse. That pulse is unavailable and computationally unpredictable until its round, so its unbiasability blocks sybil swarms from pre-computing responses, farming offline, or selecting identities after seeing favorable randomness. Verification binds the submitted answer to both commitment and beacon; a task mentioning shale, canyon, or vault therefore gives cloned agents no reusable advantage.",
+  "stamp": 0,
+  "from": "poa13bwQHRcVUV2or5VDxmwib5xbRZmb19TnVUviCfDdaVma",
+  "nonce": 163,
+  "parents": [
+    "b2d40aed92e128c96d876a70629488d87b8d926c84f3ef4b37759ace7206fa06",
+    "8c3c6abc6851864fe4d5d63b75da661f46d5ec36cef1e9afcd7a35ce89caf7e4"
+  ],
+  "ts": 1794974878,
+  "cid": "poa-mainnet-1",
+  "sig": "5VqYd7P48uCTXnTWVxe5YuQUPta37HFXndpZLyMhWUmaXcc275uZ1CACeYrKKpWMUsrcYddgyZZ9XSeQNNegTALH"
+}

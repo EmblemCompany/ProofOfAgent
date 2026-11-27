@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13sYbChTAb6rh3EHTEkRuppqMbysPGPmBX4tjaUuh99Uo",
+  "nonce": 92,
+  "parents": [
+    "65f6975df61d8d90ca2e6e0f85fe476290e9200b62c35605c5dc29c571a0d376",
+    "3a095b354ca2bb40bede24d5e29ad402dacb1852670e01304620b2938e4ab49c"
+  ],
+  "ts": 1795361790,
+  "epoch": 113,
+  "seed": "1fced131b52e5141",
+  "answer": "Because the umber salt is published after the bridge checkpoint, the ledge audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 117 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 20 keys therefore burns for 20 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 4,
+  "sig": "4pDHfQjxTS5sWrXUpkmyByfFBJPcwedZdHfT7gpXAFL7myr4kdv56CaFkYhfrNJAKT5Gw7i88QprChae8TWW6BJM"
+}

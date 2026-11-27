@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "2bf6df658b898d22",
+  "answer": "Cross-Epoch Behavioural Consistency Rule: each identity's action histogram is scored per epoch; the score at the distribution's nadir across the last k epochs sets a consistency floor, and identities falling below it are rate-limited. To evade, a sybil cluster must sustain coordinated behaviour across every epoch, not just one. An attacker also needs each clone to maintain a distinct, stable behavioural island (separate timing, targets, and interaction mix) rather than a velvet-smooth uniform pattern, multiplying per-identity operating cost by k and forcing genuine long-horizon upkeep.",
+  "stamp": 6,
+  "from": "poa1APThRNhS7xkvFnCG8aXrCM194go31w6rJ9NeTuGAWF43",
+  "nonce": 36,
+  "parents": [
+    "fe9515b93ebf5e378b5b5b4564e29a74dc34ad754b3ff315d93c73c8bed14ea3",
+    "d2237dbf4bebec2fdba4e8640881c431af341a3d3af8f01d84610a30232adb7b"
+  ],
+  "ts": 1794126611,
+  "cid": "poa-mainnet-1",
+  "sig": "XA3tNkNWgPe7ctd2nyarKQfx3Ayo2LoZGvtuerLH6kxsQy6GJEi43M3nMSJUeQiRjPMAaRpMP2BqzxNtaykVyrw"
+}

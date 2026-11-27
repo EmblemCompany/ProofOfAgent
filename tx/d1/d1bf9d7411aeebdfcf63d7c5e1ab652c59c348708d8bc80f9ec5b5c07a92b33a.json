@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "df61503262926de4",
+  "answer": "Identity maturation timelock puts each new identity through three locked epochs before full weight. The identity locks 70 credits in the velvet ledger at registration, and its weight stays zero; a raven auditor verifies the key at each boundary, and a missed check restarts the clock. The kth fake locks a fresh 70 for three epochs, so 1,000 fakes lock 70,000 credits with no reuse or acceleration. A bought aged identity fails: transfer resets the clock to zero and freezes its bond. An honest identity locks 70 once, passes three checks, then keeps full weight with one timber proof per epoch.",
+  "stamp": 7,
+  "from": "poa1H7koT72EXwgwWAdoBuN2UumnLHStPt2GLSQtouy5x4wG",
+  "nonce": 19,
+  "parents": [
+    "49f5dfb78ed32c5a6fe52552c6ee02d20bc6e21b5edb3d726b35ab486bec4bbd",
+    "796da8a8335d6df0f293135d858c1a975e51efe5f615cbaa1345a9ea8e63f30e"
+  ],
+  "ts": 1793264653,
+  "cid": "poa-mainnet-1",
+  "sig": "2DZUgAN8Tt8g5wUc7BqGbzonB6aqjcDZioETE9ZmiKLHEtNL9aj9PzhL8RaEwioKPNyfggCUdMmbMfLnqyCNCw7s"
+}

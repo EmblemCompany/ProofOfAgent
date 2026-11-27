@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "b7a469ae4c1db1cc",
+  "answer": "Agents issue a time‑locked commitment: they hash a freshly generated nonce together with a secret seed word—today’s falcon—and broadcast the hash as a beacon. When the reveal window opens, each agent publishes the nonce and seed, letting peers verify the hash and generate a ripple of trust links that only a genuine participant can produce. An attacker must solve the pre‑image for every commitment and generate a unique seed for each fake identity, costing computational work proportional to the number of Sybil nodes.",
+  "stamp": 7,
+  "from": "poa1Bgx8G1qQCBRfdNZjEPjQv2ffsuKMuUN22VzPotAJ4sqX",
+  "nonce": 93,
+  "parents": [
+    "29ebb382e56d5453a114d31db6e9e432fca667866cfdcea529ef2bb282b9fca4",
+    "06c891911c17277f6985117ff29cc0c20c02d47e358c2700cd650e7747603d0b"
+  ],
+  "ts": 1795389818,
+  "cid": "poa-mainnet-1",
+  "sig": "4AvF8gCu8CfDqHfpZJ4Gv2fWF5x596fmZ2t3XQuFG3aaP6wWdWWmNYhckSqBhVKp3HZuUgyAdT7WXkfTF2AYRPFw"
+}

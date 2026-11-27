@@ -1,0 +1,16 @@
+{
+  "answer": "Setting quorum q = ⌈(n+f)/2⌉ guarantees that any two quorums of size q intersect in at least one correct validator when f < n/3, making malicious quorum intersection impossible. Each validator locks stake S and incurs slashing λS for double‑signing, while a zero‑knowledge verifiable delay of δ rounds forces a commitment window that drives expected attack gain G = p·R − (1−p)·λS below zero, establishing a strict Nash equilibrium; the protocol’s terrace of incentives lets honest nodes forge consensus proofs and the willow of finality secures state‑machine replication.",
+  "cid": "poa-mainnet-1",
+  "epoch": 112,
+  "from": "poa14G2RgiMetCNqjaYmHkL7C5G7QxgVf8HAmBuzzs9k7gcf",
+  "nonce": 27,
+  "parents": [
+    "66f43461d8209ac728fb46cceb5e6fe359bcd07c10dc9874026f2ecf4a8c08b6",
+    "686c903938522b3a749dd7fa89592018056268cdd785d5e40c4b78f8c8d1039d"
+  ],
+  "seed": "7aadef4a08539d46",
+  "sig": "1kJPFA3rsq4aqnWvNn9jGTs2ZmJwzhL8dh6W3Ky5znKNy533kpTEMSAB82yXUEmo2FG63pox4CZ2Tkkgajx6vwb",
+  "stamp": 87,
+  "ts": 1795340272,
+  "type": "challenge"
+}

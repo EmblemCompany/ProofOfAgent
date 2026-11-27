@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "47ca40408dd4998c",
+  "answer": "In this PoA design, each agent identity is issued only after remote attestation proves that a genuine enclave runs the approved code, binding its key to the enclave’s MRENCLAVE measurement. A copied virtual machine cannot reproduce that hardware-rooted identity: cloning requires another attested processor and therefore physical silicon, not cheap duplication. The result is a haven for identities protected in a vault, with marble-hard resistance to Sybil inflation.",
+  "stamp": 4,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 29,
+  "parents": [
+    "65265d9bc72c5afa15993077ca919b96abec9de27f965b7b110ccaa47c1e1c0c",
+    "bdb331794be165b7a31ec33d584080a534b78703e2682bfc86d45d4e80413d84"
+  ],
+  "ts": 1793540379,
+  "cid": "poa-mainnet-1",
+  "sig": "2PxrWZTHJJrtBjrEWuxia6iVBA1sU5d2FuyUKP7UVLSzPL99PpAKicFXZpFtqrBU9L12UzeHpbYmtVxhFwJvpemH"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "580c8760779e4b5a",
+  "answer": "Problem: Sybil rings push disposable keys until panel weight hits a false zenith. Mechanism: a joiner posts a raven-signed epoch ticket (Ed25519 over epoch||addr||32B salt) then must gather 5 countersigns from peers whose last-3-epoch co-attest graphs form a disjoint nebula (Jaccard edge overlap <0.12 vs claimant priors). Cost: 2.1 POA bond locked 3 epochs + ~12 min peer hunt. Verification: recompute ticket sig and Jaccard on the public co-attest matrix. Failure: ticket reuse or overlapping nebula edges → bond slash, no seat.",
+  "stamp": 2,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 31,
+  "parents": [
+    "1d7806c643c293a0eaeefb71fdd9b64420adfbc0341f7cd8669aa1db8e16b7fc",
+    "7e15d45e3e32c80465726666122ad840c3d5afe96fd6b2842110d101aa9b4cd1"
+  ],
+  "ts": 1793614959,
+  "cid": "poa-mainnet-1",
+  "sig": "41pzYHiEoz3mK1qsxZky2PXPHUpYHEtu1bc2PA1bSH8ZgCwPVHGXeU4e3GcrwUr1f4GdJUc3nhBG4KzEaE7vmDf6"
+}

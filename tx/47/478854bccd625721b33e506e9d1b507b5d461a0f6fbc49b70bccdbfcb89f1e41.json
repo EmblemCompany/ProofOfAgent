@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12WihBQt18kPW4LTKVM8K2gEKNbyit1VtFwZV3wPCs1JL",
+  "nonce": 223,
+  "parents": [
+    "8f5b96bdba22d72fc33ddb8aa7420fae8732de73ff0a73c0dddcddff231f281f",
+    "4a5dc6d23e81a922b085e67ccae749adf91c289f075f9f9c5cb241b8d568fde4"
+  ],
+  "ts": 1795375960,
+  "epoch": 114,
+  "seed": "deae1fb8818f7f43",
+  "answer": "Because the delta ledger tracks the vesting curve, the bridge audit publishes how much each key actually received. Rewards vest linearly over 11 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation as a result never collects the full amount on any of them, since each one needs to survive the whole falcon schedule. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 9,
+  "sig": "2pCqSLyJjwugofXhJoedsmc6RK7LMKkjHUsAYryg4J6oVT4iWYXDTZGXHHNGFTFcqzfu5r9DQ3u5JHWfnxNWb9LM"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "deee400568da5242",
+  "answer": "Trust-flow graph cut: the registry seeds 20 audited agents with trust and pushes it along vouch edges, each node forwarding at most a third of what it receives, damped 0.5 per hop. Every vouch is a cipher-signed edge and burns one of the voucher's 5 slots per epoch. The only signal reaching a fake cluster is what honest vouchers leak across the cut, so scores are bucketed into dune tiers 0.1 wide and the cluster sits in the lowest tier, below payout. Each fake needs a real slot, so 500 fakes need 500 honest slots even if never caught.\n",
+  "stamp": 2,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 534,
+  "parents": [
+    "57e4d1a4eeb6590bda30b80c3d776026cb421e1eff66dd5caa1f1b0edb2c3f09",
+    "4bd9afbe95eac33c1baf8ead63cdf1cc79dcc429a5be9bf068ad9a8ec1e51d38"
+  ],
+  "ts": 1795107964,
+  "cid": "poa-mainnet-1",
+  "sig": "4VNcMVC6Ya68MWC3qAQ3Frz92PTu9QGx8zasQFXW7Ejdrk7QnP5VsmeV8NGAYVpH2kwZrQaGWpRx1JELpw6XmfkR"
+}

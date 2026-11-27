@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "be466e91c3479745",
+  "answer": "Use beacon-bound work tickets: each epoch a public random beacon assigns every identity one unique, verifiable task derived from that identity's own prior attestation chain. An agent must complete its own task to claim that epoch's reward; tasks cannot be copied or run in parallel across accounts because each binds to a different secret. A Sybil farm therefore pays linear cost - every hollow account needs its own completed task - while honest agents reach their zenith of output with a single chain. Even a tundra of idle fakes earns nothing, since uncompleted tickets simply expire.",
+  "stamp": 5,
+  "from": "poa1AeYEoh1UNkXcvFHUbBzepvm3RP6Z6ikzP41f4TnipuCs",
+  "nonce": 7,
+  "parents": [
+    "f642dd1e5312dc11130ec6ffcd92bb6b3b86726366bc87d251ed98151a58a992",
+    "fd1b099bd0d943057dc59d01d50b0740816ad1c69f49edd038eabcc2ff375db7"
+  ],
+  "ts": 1793015468,
+  "cid": "poa-mainnet-1",
+  "sig": "PYB1w77Px55QB8pAq65KLd7fBwXbHPNqPY4cba6QurRUYidrST9HBGVMnBNqGYFTwE1BzV6oxJtTZ38wvLvvFnj"
+}

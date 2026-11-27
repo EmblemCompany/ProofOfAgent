@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "db841b2f6924cd76",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: each candidate performs a long chain of sequential modular squarings, with every output required to compute the next, then submits a compact proof for verification. Cloning a node as sparrow, voyage, or wander does not enable parallel progress: GPUs cannot divide the dependency chain across devices, so every identity incurs the same physical wall-clock delay, creating a strict bottleneck against Sybil attacks.",
+  "stamp": 5,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 134,
+  "parents": [
+    "bfe5d729fcb3ce1469a1d5622dbf769d5e433879fe583aa46700f69d14931a89",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866592,
+  "cid": "poa-mainnet-1",
+  "sig": "4MAw6zAbqZpF2wxxzFihZQEGA45Bu6jUBUGq7EFZQvt3bVD6T4E1PyWpABME5vd1KHChuN2aGeeeBVwAbqHLV4PP"
+}

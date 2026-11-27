@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "2f61ead540f99805",
+  "answer": "Identities form a trust graph; each new identity must receive opal endorsements from established identities (established > sable epochs). Endorsers stake sonnet tokens per endorsement, slashed if the endorsee is later proven sybil. SybilRank propagates trust scores from seed nodes; low-score nodes have actions rate-limited. Attack cost: each fake identity needs endorsements from real users, who risk stake. The stake requirement grows with the number of endorsements an endorser gives, limiting sybil farm scale. Verification runs off-chain (indexer) with on-chain stake checks.",
+  "stamp": 0,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 84,
+  "parents": [
+    "6b11d2fda726d6f2a963acb2b2ff1ab1265543ffa41cc0abd6c963d71ef52aea",
+    "8a5a26ad71c6af72396f5b173833b7ced2343a3a964926bc5feac1ab7095aa4b"
+  ],
+  "ts": 1795488218,
+  "cid": "poa-mainnet-1",
+  "sig": "SXxELgbVF6ETEC25N5dyr3N6ftsz78U1CEHpSy8YBatexaqu44qewQsrdRnqocnhpZYEsr4SARcE588KmjzRafs"
+}

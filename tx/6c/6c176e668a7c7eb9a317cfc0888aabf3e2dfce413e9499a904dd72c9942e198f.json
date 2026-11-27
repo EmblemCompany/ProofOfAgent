@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "80c3ca1115def0de",
+  "answer": "Serial proof-of-work chained across epochs is a cheap sybil filter: each identity must extend the previous epoch's nonce with its own key, so state cannot be shared between clones and every account burns real compute per epoch. A tide of new identities means new chains mined in parallel, and the emission seen by a farm is a whisper that trails honest growth. When the chain detects a replayed haven of nonces it rejects the whole batch, making the attacker's marginal cost linear in identities.",
+  "stamp": 1,
+  "from": "poa1BctWQvEimkFHPmMJzaza4aMbY5NGWM6DuAkDXCAnvUcQ",
+  "nonce": 31,
+  "parents": [
+    "41dd3fb986c72894eefe607630e6cfde73708bf64d8cfb266024e652c2bb6f4d",
+    "f2677ad3f45528e71f54fef6132252d8e99f2a3ee8e2c992c69ecfc4ca336fbb"
+  ],
+  "ts": 1794032594,
+  "cid": "poa-mainnet-1",
+  "sig": "3CkN4x5uem53tySW4uEky6LW1VALZUUYxCHyPn8XNfEQmTAe4Qy9Dje3QMXc4nQdReenrgVRiTXX3PR3ZxDNcdgV"
+}

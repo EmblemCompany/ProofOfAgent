@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "4e8d0310658e35ba",
+  "answer": "Sybil resistance requires each agent to present a remotely verifiable attestation that its MRENCLAVE matches approved enclave code, alongside a key bound to the attested platform. Cloning a virtual machine cannot forge that hardware-rooted proof or duplicate the platform-bound key; creating another accepted identity requires provisioning another eligible physical enclave, not merely copying software. Verifiers assess measurement changes as a delta, validate the attestation signal, and use a freshness pulse to reject replayed proofs.",
+  "stamp": 2,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 58,
+  "parents": [
+    "61a4bfb75123fcdd3d42f239846c743e6202f4530589b0f6829bb4368ece37fb",
+    "35977b0902c228965dd139d44aa329845421edb609a1067c74eb6f9fc89c8ebf"
+  ],
+  "ts": 1794780288,
+  "cid": "poa-mainnet-1",
+  "sig": "4B7BABJbTEmSpeaUFJnqkpDtZisK4GAmSbBZmh1hbvP3uALEUpwPG6ZaoS2xSsBwBjWa9CzS8z2QK93hSVpsf3u2"
+}

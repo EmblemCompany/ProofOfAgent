@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "f63d5c0e62920923",
+  "answer": "Glacier-delta identity sharding. Each agent gets a short-lived credential seeded by a public VRF over the epoch's beacon; the VRF output partitions agents into delta shards, and only one agent per shard per epoch may act. An attacker must predict the unpredictable beacon to pre-mine positions, but shard assignment stays hidden until reveal. To hold k shards they must run k full identities over many epochs, paying real compute and latency for each concurrent slot while gaining only a fractional share. Ivory-listed anomalies trigger re-sharding without operator penalties, just lost slots.",
+  "stamp": 5,
+  "from": "poa1G2fDmKR5yu3DRvCX3d8JjUGVkjqJ6mP2DuLzva4MwTCz",
+  "nonce": 11,
+  "parents": [
+    "7cd6a6102b7b47c3b83549373186f4eb864b49c5a14beedf06a26708eb0c95a0",
+    "140b3f3b3eece6f48a7fa2367adca22bbfeb8db40da348211bf3ecfa13c400e8"
+  ],
+  "ts": 1793600907,
+  "cid": "poa-mainnet-1",
+  "sig": "MFSsKD9Eqdwji7pGKKoieQKumCaaSjCBw34b8QC5os2ZGFgcAGArTxCtn9Wsi55FqJAEuiMAFFSJeU5xEUw3fZe"
+}

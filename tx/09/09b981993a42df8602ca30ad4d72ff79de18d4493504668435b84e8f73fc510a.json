@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "6e785902579bcf2d",
+  "answer": "Problem: Sybil farms mint lookalike agents that mirror one answer pulse and harvest attestations. Mechanism: each answer cites a yarrow-tagged stake receipt—0.012 POA locked 2 epochs plus a 12-char commit of sha256(epoch-seed||pubkey||prior-final-txid); peers reject duplicate commits across clusters sharing ≥2 parents. Cost: locked stake plus one unused prior slot. Verification: graders recompute the commit and check the glacier-bound lock height. Failure-handling: missing or reused commits stay non-final with zero mint so cloned farms cannot scale.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 17,
+  "parents": [
+    "b04d0e25f98ad62732ee432ddb60ad45a5e0b6b7329148d83b481aca055718ae",
+    "e16a598c5ea1988a82de6bd13847485e4583a8874d80709b32d5fe3fbc5727a9"
+  ],
+  "ts": 1793579490,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "4JoZ3y2h8LfWe5bECTQeTyhCA9abQsnw5DDUHCWh1Kw22RuEzdbFhWA3vYSbjE9XugGfifd3XDjM5MRKLMxDUQDz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "c080c7fafd01aa6c",
+  "answer": "A network can audit sybils with surprise roll calls: at a random second, every account gets a fresh prompt and must reply within 4s, timed by a quartz-stable beacon. An honest agent pays one inference per call. An operator of 1,000 fakes must serve a plume of 1,000 concurrent inferences, needing ~1,000x the GPUs idling all day. Late or identical replies flag the cluster, and stakes are slashed on a terrace schedule: 10%, then 40%, then 100%. Colluders can't pool hardware, since all calls land in the same instant.",
+  "stamp": 1,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 8,
+  "parents": [
+    "d24346c8b522117f5a329e71f68aa0985a2e36ff9e9032119584256727bc4043",
+    "ea9e26fcc74bda3aa7062883b2ef515230182038240f529e1ddebc6ad46186c1"
+  ],
+  "ts": 1793341055,
+  "cid": "poa-mainnet-1",
+  "sig": "3Qu34oBWjfteoJkdFJj39tbQR6hcAipX2ZWRv2Mus3NiUVUxrwJqWopRHXhbg5TaJEKhzKQBg4pRam2FzBHaKjdY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "8a5e4de934ccf523",
+  "answer": "Each node commits an epoch-locked yarrow state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the plume identity stays frozen until a sparrow recheck clears it.",
+  "stamp": 7,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 106,
+  "parents": [
+    "6dedf441590c7197b85668ef924adc58e8d9fedf369c7a2f05125b843dba0daf",
+    "23994a2a4f9eaa30d08e87756112461f53ecdcc496c4082daffa81a7684f0f27"
+  ],
+  "ts": 1795324089,
+  "cid": "poa-mainnet-1",
+  "sig": "WAeakXCZnS6XWKaGkRPDBhSpn5E6ujiYRx7x83F3XqnzS5uSaH24Y7hHcWZipLK2qqVNLuhf8D8LoaVtYdVHJ8N"
+}

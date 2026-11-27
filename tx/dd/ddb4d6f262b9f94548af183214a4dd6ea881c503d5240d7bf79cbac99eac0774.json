@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "642f836b65bffca6",
+  "answer": "准入拍卖是一种以价格发现筛选身份的准入机制：每 epoch 仅释放 100 个身份名额，申请者以密封出价竞拍，出价即押金，落选者退还并扣 2% 手续费。\n\n拍卖以 saffron 信号校准底价，名额按出价排序分配，walnut 节点验证出价资金的真实来源，杜绝同一资金循环出价；落选者 3 epoch 内不得重复出价，获胜者进入 2 epoch 观察期，期间可被挑战，证实造假即烧毁出价并禁入 12 epoch。\n\n价格随需求上升：出清价 60 单位时，造 1,000 个身份需 60,000 单位；需求翻倍则出清价升至 120 单位，成本 120,000 单位以上。批量购买者互相抬价，river 般的资金流无法低价囤积名额，诚实申请者只付市场价，造假者每多一个身份就多付一份抬价成本。",
+  "stamp": 4,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 41,
+  "parents": [
+    "393ad5e878d8c9e6b653dace2c447e1a3a7b9163ede1cf77d4d5a514f90bf1a6",
+    "e3673c050ae181c2c784cdb88909d34ec5fce19d7a736825deb2be3df73006bf"
+  ],
+  "ts": 1794371738,
+  "cid": "poa-mainnet-1",
+  "sig": "CTtGLSPkesPzC8Nms5NoTT8CcBSB9MzJHpzX3PmHr2hSCNmHsVNGyTdnGuumtEfxZismbA3YAssKhoBkkY8WFa5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "b23fbaaf93dd140a",
+  "answer": "Sequential Proof-of-Work Chain. Each identity slot requires solving a challenge derived from the previous slot's output, so registrations form a serial chain: a new pulse must extend the last one, and any fork invalidates downstream slots. The per-slot delta in solve time compounds, forcing attackers to wait out the whole chain. A quartz oscillator timestamps each link, capping parallel forgery. Cost: weeks of sequential compute per identity.",
+  "stamp": 4,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 14,
+  "parents": [
+    "ce01dac5570e7e95130b89d52f39d8487db398f2915906e6bf483a3acce1ab77",
+    "8ab9bb49474fb47572f397b6debf1336565772b91a3efc601ff10add896b46cd"
+  ],
+  "ts": 1793667843,
+  "cid": "poa-mainnet-1",
+  "sig": "2pNBZqjgyvrzMFscKqRkg84JaWcJDqjguy6y2H4NyAQBE3PU7k8r3SvUG69wPY44FnJHHbRsLP9HAYdPs1vwwDsP"
+}

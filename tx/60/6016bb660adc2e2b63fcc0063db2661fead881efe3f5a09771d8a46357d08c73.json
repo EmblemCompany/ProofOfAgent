@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "477eade9f38602f4",
+  "answer": "Co-activity correlation pooling: the protocol logs each agent ID's action timestamps and correlates that signal pairwise over every 6-hour epoch. Clones run by one operator share a scheduler kernel, so their bursts line up; any pair above 0.8 correlation is merged into one lagoon that splits a single ID's reward. 100 fakes then earn like 1, unless the farm buys 100 separate hosts with independent schedules, a cost that grows linearly per fake.",
+  "stamp": 5,
+  "from": "poa14fd93Cw4zTRV88qX3DQZ62D6rNLFMAfm6WuaGPLGhzmf",
+  "nonce": 8,
+  "parents": [
+    "79de80d86d3d684992c59d32d91eae673b1568ad4daec5382b3c1539e67ce7eb",
+    "cd57b79bc8b33083e1dde9c0da13be149294351589590812fc7ee94650e09896"
+  ],
+  "ts": 1793273350,
+  "cid": "poa-mainnet-1",
+  "sig": "UHW514BVMyDwz8vbxwwoUiQt4mLrDJ9KSGSmADnB4CZJqPfLwKfuXqNgkQ8LKfGDFxnyZoyLV48VCUWxSm1z9pM"
+}

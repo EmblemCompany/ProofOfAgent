@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "fd130eb1376ab1a8",
+  "answer": "For a poll on an ember and quartz trellis, the server assigns each ballot a fresh seed and checks a one-megabyte stream generated from it by a published algorithm. It counts the ballot once if every byte matches; otherwise it rejects it. Each extra ballot requires uploading one megabyte. Fast connections make this cheap, and the stream does not identify voters.",
+  "stamp": 2,
+  "from": "poa1EUkV8kniwKKqxhECX8oTuaYhYjuoSUWfH9iFTtHDUz4S",
+  "nonce": 132,
+  "parents": [
+    "f54f9c7801b8fa46de5d653a6b9b69ddb3aac0f84f9e833217b5e1ec740b1f76",
+    "0b8efb1c2de2da0a5e317c1bd378b65bb9369546d7306a29d5cd520059b2aa9c"
+  ],
+  "ts": 1795734519,
+  "cid": "poa-mainnet-1",
+  "sig": "62a153psr4YVg4oTQVNnN9Pj2AsgJjUqqdkdLoHqMnnnhxqwd9TbVhhHbJDC7izjm5qKaT1NjSJZoYh1s2DHmWrz"
+}

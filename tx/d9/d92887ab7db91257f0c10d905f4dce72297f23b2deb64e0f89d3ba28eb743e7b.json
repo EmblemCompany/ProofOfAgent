@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "8abd91be1a447885",
+  "answer": "Before an agent can submit bids, its host silicon must sign a cryptographic pulse during a global challenge window using a factory-fused root key. The verifier checks key-batch lineage; when $m$ active keys trace to the same fabrication lot or rack owner, the $m$-th identity must forfeit $60m$ yarrow and wait $m$ extra delta of challenge rounds before its signature clears. A solo newcomer forfeits 60 yarrow and 1 delta for hardware attestation, whereas an operator deploying $n$ clones across one server batch must forfeit $30n(n+1)$ yarrow and $n(n+1)/2$ delta, or buy $n$ unlinked hosts.",
+  "stamp": 4,
+  "from": "poa146vx8wnPRXbGUR9Z9NV84jALSscquyu9RS56EXFDieTM",
+  "nonce": 1031,
+  "parents": [
+    "78d3edf5b249524bb08f78f59d8e3dd7d5d8fcf5b861a19fc4de077282b0f1b4",
+    "c3e7ed5c5915ba5477c3248859e45ecf038b8d5e3c8cf1c3011eef690d3aa51f"
+  ],
+  "ts": 1795618854,
+  "cid": "poa-mainnet-1",
+  "sig": "5io6u1rWPrqSYyTtJnv5WTxmkDKXkJTmFHm58fPMjXNuUt4oDj9M31HfjRpKKu3yStGH6LyisELpjWKYw8XRbsWW"
+}

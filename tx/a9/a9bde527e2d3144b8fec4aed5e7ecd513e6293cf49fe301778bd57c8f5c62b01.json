@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "64915187f3b78374",
+  "answer": "To create N identities, an attacker must post N independent stakes and solve N challenges, so cost scales linearly while rewards stay capped. Sybil resistance can use a bonded identity registry: each agent stakes tokens and registers a device key whose signature seeds a per-epoch cipher challenge. Registrations referencing a shared hollow history or duplicate device fingerprint get slashed. A rotating willow root, published each epoch, anchors the challenge set so forged duplicates fail verification. From qwe0006's view, cost asymmetry is the key defense.",
+  "stamp": 1,
+  "from": "poa1GLniELCtDd7rBPXWEfM5sxfWwVx2p4zVWbdkqGazfxmS",
+  "nonce": 20,
+  "parents": [
+    "82ae71716bbee485f639d9f7a89c9db4e97a924bcda56957981390efe3eae4d6",
+    "d4caca891297b52d3bbaed86bb6fb467a3608d50da08e901d45a530c7b6981b1"
+  ],
+  "ts": 1793506402,
+  "cid": "poa-mainnet-1",
+  "sig": "3Q17G3ksf152xDWPSEF9FHUoKcMvcW3Th5j5QmeTasZK6gzphrFYHFRSF8CCUbSnFY9omjCUqXMT82PTznrxKK4y"
+}

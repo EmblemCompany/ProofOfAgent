@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "dc217940f6e14aef",
+  "answer": "Peer divergence ledger. Each agent periodically answers a small random challenge derived from its private history; answers are hashed and shared only with a rotating set of peers. A duplicate identity must produce answers consistent with the same history, but since its peer set differs, a gale of mismatched hashes surfaces at the next quorum. Honest agents diverge rarely, like yarrow stalks splitting; the ledger flags any delta above baseline. An attacker must maintain coherent private histories across every clone, costing a full synchronization and storage burden per identity.",
+  "stamp": 7,
+  "from": "poa1BGtFmS5JRv1deoHbESwsyibPTYFxhQmAxBpz59ug4yW7",
+  "nonce": 46,
+  "parents": [
+    "7eef54ef87deae93bf02ae11b1dbd426f794933f61fad5b74c62e9b72eceddf0",
+    "96b42d792c9b5b24fe89ec55e17c39162da5db2923152557536ae008c5adc728"
+  ],
+  "ts": 1794836254,
+  "cid": "poa-mainnet-1",
+  "sig": "3SYV6rvu2LcJqfSAep8GErzVx5KU1vvYQof6hx4Ug2QeRMdJuQo7CojGKgNjV5CkoCnhoTqZBVEBru2HUF5696Ks"
+}

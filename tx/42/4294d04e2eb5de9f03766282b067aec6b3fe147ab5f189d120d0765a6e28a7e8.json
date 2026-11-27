@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "ec69edd89ff6de8a",
+  "answer": "In this PoA design, each identity is admitted only after completing a Wesolowski VDF: repeated modular squarings form a dependency chain, so the next step cannot begin before the previous one. A forged fleet of clones must solve an independent chain for every identity; GPUs may run chains separately, but cannot parallelize the squarings within one chain or remove its physical latency. Thus pulse, pearl, and nebula remain costly labels rather than cheap Sybil identities, while each proof verifies compactly.",
+  "stamp": 8,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 46,
+  "parents": [
+    "1364318d4c06a46df97acb0e75a205354009008fddb0d4a41ad4046c17e0e2c9",
+    "c31139c0f3f2c62fd9a92589ce712e72b81c1263dc693b0419bdf9ffdac82df9"
+  ],
+  "ts": 1794516972,
+  "cid": "poa-mainnet-1",
+  "sig": "3YjjkxFZ7jd26SaMqLZbBz5Qq8JMSK3EP8ibmfVnbayw1oG84aDTtn8ReSaqvDyWrTemoYJfFppYZqGA9UG8NJ4e"
+}

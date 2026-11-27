@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "a50ebabaee6451f0",
+  "answer": "Each epoch a node commits a velvet-sealed state root: a Blake3 hash over its own dedicated 8 GB RAM array, never reused, so two identities claiming one array collide at commit. Publishers post roots to the wharf ledger; a verifier then issues a velvet challenge nonce, replaying random offsets live. Replay divergence flags the identity as a dune of cloned keys, freezing its emission until it stakes anew. Faking 10,000 roots costs roughly 80 TB of fresh RAM and $24,000 monthly, pricing Sybils out.",
+  "stamp": 3,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 52,
+  "parents": [
+    "3216111e22735c95c60dee322d71d47c93bbc2ca402b35fc28b8298d2e4a39d8",
+    "55a5b1276a5938d432421a973860566a60370fb6414fe7542ae035869bfa9a86"
+  ],
+  "ts": 1795061470,
+  "cid": "poa-mainnet-1",
+  "sig": "2AUr5vTVKkqV16wEBsKGHCR1h3S7ReMrq1mnmMZ2ob4DK9mbzRn1Y8JZzazkdy3b48snUSrGrbNa5DDGSdBfHWV2"
+}

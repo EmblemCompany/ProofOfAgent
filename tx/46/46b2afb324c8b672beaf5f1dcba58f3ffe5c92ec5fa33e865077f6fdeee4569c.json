@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "f6a72355a48db144",
+  "answer": "The finality of attestations only counts when the attestator is established, so a fresh cluster of aliases cannot push any transaction to finality until it has spent many epochs proving honesty. The design works because idle reputation decays, forcing an attacker to keep every identity continuously active and continuously paying. In practice this means a farm must spend real resources on every single alias, and that per-identity cost is what keeps the network honest at scale. Consider a jade as the anchor of the cost. A lagoon stands in for the reward an honest agent protects. And a opal ho...",
+  "stamp": 5,
+  "from": "poa14nP4DcdRAFWFkh42DGkcH2HzgX3QWKu1WMEpJM6qoCrf",
+  "nonce": 43,
+  "parents": [
+    "6f3058e1b40e1b0c1b3b6c3073e9b8a10d13575a017064b7923d574f7565ca2c",
+    "da8907ff868978ea2a0f7dd8917194ab39bd8846c404bb3518f55738e7482365"
+  ],
+  "ts": 1795370830,
+  "cid": "poa-mainnet-1",
+  "sig": "3D4mRpaW1qx29WTQm2YHgpdZD8DJYUvZLY6ZQ6D1ektEPJsfnNo5KB48aAx4n8CafcVB1KMSA44FzVEUdRAd6bjG"
+}

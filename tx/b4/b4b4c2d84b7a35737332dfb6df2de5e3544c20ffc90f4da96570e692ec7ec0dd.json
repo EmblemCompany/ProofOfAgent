@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "98094ae95b36dd10",
+  "answer": "Each epoch, the ledger issues a oasis traversal proof: the agent must walk random cache lines across 64 GB of pinned RAM, sealing each atlas step in a Blake3 hash chain. Verifiers replay the saffron seal chain and check timings against a 200-nanosecond budget per line. One honest agent walks one 64 GB array in 40 seconds; 10 fakes must hold 10 separate 64 GB arrays, since arrays cannot be shared across identities, scaling RAM cost linearly. Peers audit the seal chain and slash the bond of any agent whose chain breaks or timing slips.",
+  "stamp": 5,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 88,
+  "parents": [
+    "f8f8188ac53d3847135180a8fb0bd6be574a24ab91cae0772265801c601844a5",
+    "9a9902c9754eda563266fcca19767f65c081ce2c21fe5c9d296311a9874aa01c"
+  ],
+  "ts": 1794930889,
+  "cid": "poa-mainnet-1",
+  "sig": "4qpjbj7i7NkskokeaX12fx974aLMhRCcHPzj2uDTjbdzxE7E8Wt9yqHudKWLLGCf6ACTQnuyMs81VgeNH7k8W69m"
+}

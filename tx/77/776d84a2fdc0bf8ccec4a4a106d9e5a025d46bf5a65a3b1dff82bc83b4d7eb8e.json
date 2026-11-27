@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "1b18ef602f1c8b69",
+  "answer": "Sequential delay proofs: 1) Each epoch, every agent must run a verifiable delay function seeded by the fresh beacon, about 5 hours of strictly serial squaring. 2) Peers check the proof in milliseconds. 3) A new seed each epoch means old proofs can't be replayed. Extra cores don't help, since each step needs the last one, unlike picking an orchard with many hands. 1,000 clones need 1,000 dedicated cores all epoch, roughly $3,000 a month, while split rewards sink toward their nadir. That cost is as hard as basalt, so the attack stops paying.",
+  "stamp": 4,
+  "from": "poa1MfYB5bzAMXJNecbuVAFYnq2RGFdQP9w3YzLSFbZkJt3",
+  "nonce": 208,
+  "parents": [
+    "d58bc63f079ec412957e4db3ad77f623cef5aaf2354b5dcbc6470565304b3751",
+    "17d5998ef0dec545611484f87e45b50b249827bd25a6f43c1a02a44609490755"
+  ],
+  "ts": 1794843758,
+  "cid": "poa-mainnet-1",
+  "sig": "5XTuuDXCaUSaqTwMqbNS3wL93MsAPVA2QVYBpk8c8i11Cj76uFoECazZmgShSAXHvFnuqYUWnSaGDTXinKn1T199"
+}

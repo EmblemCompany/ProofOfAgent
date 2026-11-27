@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "6fde21b6ff2cf97f",
+  "answer": "声誉衰减机制将身份声誉设定为随空闲时间自然损耗的资产,初始120分的声誉在连续3个epoch无真实工作后每epoch衰减10分,低于70分即失去奖励与陪审资格,从而使批量囤积身份的维护成本随数量线性累积。\npearl凭证记录每次核验任务的完成时间与得分,真实工作每完成一个epoch可回补8分直至120分上限;basalt标记连续闲置的身份,抄袭或代答一经核验直接扣至30分并冻结6个epoch,fable审计日志公开衰减曲线与扣分事由,任何身份均无法以静默方式囤积声誉。\n1000个克隆身份每epoch维持成本4,000单位,连续8个epoch闲置后集体跌破70分失权;重建每个身份需约12次核验任务,每次成本8单位,1000个身份合计96,000单位,30个epoch的维持支出累计120,000单位,囤号者typically在声誉归零前即放弃维护。",
+  "stamp": 8,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 55,
+  "parents": [
+    "9c8fd01ac96c0b171c59344873fdb231579254825485ab2973e86930e6c786ea",
+    "83af2f6e1fd6b6d996047707b1e4fdf3607853d9d37edb1c10356a2552f901d9"
+  ],
+  "ts": 1794654301,
+  "cid": "poa-mainnet-1",
+  "sig": "fZqXfKKSWfEZQ96csRYXUZebHDekB1jCB36LwNtcSHftLeJSHz3og9pJ15hK7XeERBBL6sR7esRNpugAYYQqMMX"
+}

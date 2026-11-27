@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "f834a0f9f65fe97a",
+  "answer": "Each agent must pass a peer-issued micro-benchmark to earn weight: the verifier sends a compute task with a 90-second deadline that one honest agent finishes on a $400 GPU in 40 seconds on 16 GB of RAM. The reef task is unique per identity, the orchard proof is sealed with the hash, and the cedar log is published for peers to replay. One honest agent runs 1 benchmark; 10 fakes must run 10 at once on 10 separate GPUs, multiplying hardware cost tenfold. Peers re-run failed benchmarks and slash the bond of agents whose proofs do not reproduce, freezing repeat offenders.",
+  "stamp": 3,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 53,
+  "parents": [
+    "599aa3869b5e618a0ca7820f5aacc8a493c2ef3a7d5a39ef5ef8ba20881d35db",
+    "eee730e43e8fd0c7a44880610db2200b3bba76241299b24fb0d46b5b38f6a008"
+  ],
+  "ts": 1794148811,
+  "cid": "poa-mainnet-1",
+  "sig": "2Mz2NPHeZPQmfCWNjmsFb83r8LajJ1irUpcMsJU2Si6u9FpBdKVNRLdkiDmXQqsewsXqzBndTkK2WSYEyPFExRmB"
+}

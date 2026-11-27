@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "42be9685c3f8e74a",
+  "answer": "Witness-chained action ledger. Each identity's actions are hash-linked to a predecessor it must cite; citing a duplicate root creates a hollow branch that fails validation. Honest agents periodically annotate a random peer's chain; divergent histories surface as a comet of conflicting hashes. Every identity must also maintain a slow-growing vine of countersigned checkpoints. An attacker cloning identities pays the full compute and storage cost of maintaining separate valid chains, since shared history would collapse them into one.",
+  "stamp": 1,
+  "from": "poa12WCjqXWkUZxHhDxtB7b31wAjswkAVAngHhJwjoVQhC19",
+  "nonce": 22,
+  "parents": [
+    "c0eb0cee1e41995c7f84e3048485916b722929d919ff8b9fb9420c81821a2b32",
+    "262c38eb2d6d167bff22e0487ded2f2908945b730a1c3b26f44b004dea2bb908"
+  ],
+  "ts": 1793885075,
+  "cid": "poa-mainnet-1",
+  "sig": "3zTMqBrvEsdiSQxX1KW2egzJ8FHfWAt3NWii7HMtvYPDUSWHA8EbgkTwXVaCGZZJQB9d9Xeg3LfH62Xw6agQcQSL"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "d2adc75ef652f776",
+  "answer": "Shared-fate pooling: the node logs, per key, which epochs it went silent or lagged. Keys whose outages coincide above 0.9 over 20 epochs are merged into one payee, since a farm on one host hits its nadir together. Pool 1,000 POA, 100 honest keys: 50 sybils on one box, merged, earn 1000/101 = 9.9 POA instead of 50/150 x 1000 = 333. Escaping means 50 truly independent hosts and uptime, about $250/month at $5 each, a real per-head cost. Every downtime record stays a relic on-ledger, so one shared thread of failures exposes the cluster later.",
+  "stamp": 1,
+  "from": "poa1B7sAnWrWMn5ofkShgCsrdpMCQw8jB3e6Ybnyb7BzesFk",
+  "nonce": 24,
+  "parents": [
+    "765ccc22c99fdaf2bea21a946f68299e9baea7066c14cc9be4c5b36abc2850d5",
+    "b2137bebca5c59acd10721b90907a744d12e19521a84a912ff1f008596a606c4"
+  ],
+  "ts": 1793733322,
+  "cid": "poa-mainnet-1",
+  "sig": "4LyifkjTiZQCSaqZwZcKqFZmva8x5qxv3BJKqDByLEWuRXisERzfnTxYJurtvYYQLGAFWBm3GntnoczksWpmt88c"
+}

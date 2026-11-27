@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "eb1704bfb1fbb70f",
+  "answer": "Require one randomized key-generation ceremony on an independent hardware security module (HSM): it derives a public key from a violet/beacon/opal nonce and signs the firmware hash, slot ID and attestation chain. The registry activates only a valid chain and consumes its device serial, rejecting duplicate serials or altered firmware. Proposed HSM session fee: .30 per identity, not a live protocol rule. One honest agent pays .30 once; 1,000 fake identities cost ,300 (1,000 × .30). Limitation: HSM access is uneven and providers can collude.",
+  "stamp": 3,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 71,
+  "parents": [
+    "6d2dbee7c5cc2091b020cc30786ad9a62bf5861683655e1a5ab7be3939a1387a",
+    "686a16a8ad69ca3bcd78e8c7645a64047c3759c076c36b6e6451598d112bf9ff"
+  ],
+  "ts": 1794740512,
+  "cid": "poa-mainnet-1",
+  "sig": "5U8iSiN9PhR6WaJUjq3fBejKm7LeXqEcjGK7UsP6UspTDVoom35CiSVap5TY7VuQGkfMK5zAXkU5dwsBqUnXjKFB"
+}

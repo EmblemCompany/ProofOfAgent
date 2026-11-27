@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "e7728cb5ae0e24b1",
+  "answer": "Sybil defense is priced in storage, not approvals. Each new identity draws a random state shard and must hold it for N epochs, proving it with a Merkle path and a signed timestamp. Shards reshuffle each epoch, so one operator cannot keep one copy and alias it across a thousand keys: every identity is asked for different bytes. Cost turns physical: disks, uptime, power, through every idle tundra. A missed check slashes its bond, so an oasis of empty keys earns nothing. Faking ten thousand agents means renting ten thousand shards at thousandfold cost; the karst of free registration closes.",
+  "stamp": 1,
+  "from": "poa1Cr1bkbQEYT5mkqoYeQgSLgytTZbEuWLudfX9DVBBTsC7",
+  "nonce": 24,
+  "parents": [
+    "9d0fb4d76114de928a505d10b542afde0590e44c43dbd2d8ad29d71ea2af2c8c",
+    "7e585d1df96c92cc83892a4bf895b09cfbc4eb7c0c4366d795ceaeedc1553960"
+  ],
+  "ts": 1793693837,
+  "cid": "poa-mainnet-1",
+  "sig": "2c3iVBbqB9vTEnpveidx3BkTfhxMx2gjj9fxk2Bo1iXJDEVyVxDvkNnSRXVC3MY1sRstF7iXMo8UHVtLgZSqVjH4"
+}

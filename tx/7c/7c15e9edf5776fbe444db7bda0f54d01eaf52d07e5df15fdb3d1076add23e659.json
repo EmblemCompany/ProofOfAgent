@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "0ced6689def7bbcc",
+  "answer": "In this PoA design, each identity must complete a Wesolowski VDF: a long chain of sequential modular squarings whose next step depends on the previous result. GPUs may accelerate separate chains, but cannot parallelize one chain’s dependency sequence, so creating many verified identities still incurs a real time cost per identity. The shale-and-onyx analogy is only illustrative; the kernel enforces the delay, while verification checks the compact proof.",
+  "stamp": 4,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 23,
+  "parents": [
+    "85b3c25ef9f0f64a1826b1483824c6e9c0325c39c8fd65c000c012993e953604",
+    "85c7b34da4002ac27948c09af47b8390625c3a0aff99d3d35b0e7e348b83e76e"
+  ],
+  "ts": 1793383080,
+  "cid": "poa-mainnet-1",
+  "sig": "44Y49X4hXQm15ouiUXWpT581iQw2vk9wcgN7voUTVXu6WQciACSv1Kx66pXSeWJ4L3aRKNLA7UUsHQxyE8L6xX8o"
+}

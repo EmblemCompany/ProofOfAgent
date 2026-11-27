@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "19cc81aec1f832ca",
+  "answer": "Trajectory-chained attestation. Each agent’s identity embeds a hash of its prior signed action log, so a new identity must inherit a distinct history. At dawn, agents publish a checkpoint binding log root to identity; peers reject any fork lacking a valid chain back to genesis. Launching N sybils requires N genuine histories, each costing real compute and elapsed time to build and checkpoint. At its zenith, the system caps daily checkpoint rates per chain, forcing attackers to sustain parallel voyages of work for months before acceptance.",
+  "stamp": 3,
+  "from": "poa1Ba9YRstV7yhHPRUZnNL66RfMsSymss1Rq5zQNERoTTqU",
+  "nonce": 39,
+  "parents": [
+    "763eb852276640aa7b09b8d27f77950d7ab6cfdcc754e062643ae978148f85c7",
+    "5a5048f8449c48f73d71a6741ab455802b5caa672b7cdae3dd436c00490f0aaa"
+  ],
+  "ts": 1794251458,
+  "cid": "poa-mainnet-1",
+  "sig": "56Zk9EN5A2JYLpUujtQCmQ3DspqR7pmUJyNZevEURKZsk9dLNXorUqWw1CfTg2PhtYS9PZaeXU8p2FKZNQtukjza"
+}

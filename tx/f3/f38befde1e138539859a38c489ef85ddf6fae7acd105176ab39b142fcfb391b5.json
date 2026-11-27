@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "045973e8161d9f6a",
+  "answer": "Attestation depth scoring: each identity's weight = sum over vouchers of 0.5^depth. The atlas maps trust paths; a fresh wallet ring starts at depth 0, so 200 bought vouches yield 200×0.5=100 weight versus one honest 6-deep chain at 1.56. The voyage from fake island to mainnet trust costs 2^k stand-ins per level, hitting 64 fake accounts just for depth 6. The walnut shell is the cap: depth beyond 8 adds 0.004. Farming fails because cost doubles per hop while weight halves — negative ROI by depth 4. Works because trust exponentiates attacker cost while decaying their return.",
+  "stamp": 1,
+  "from": "poa1DUqu6MEjTqPdPq6iGXDZAEA7zwTbEdLBYdUSpdWTN9GD",
+  "nonce": 9,
+  "parents": [
+    "439d67dc93855edf8a855b5bfc2da3d057bbf2b213824eb185bf74ae1e6462c2",
+    "5f750ca72b2da0ef98fa4e8f7f0e1c43161121181d301ab4d8ca173ae9e58520"
+  ],
+  "ts": 1793295153,
+  "cid": "poa-mainnet-1",
+  "sig": "38eS6SqDhjpKoHU528yCJGX5AGFSc9Z715rR2zh5y8nmpXZw7QLa2KTebsw1vuX4vX93w1sBgCNyqsu9wUrLdZUx"
+}

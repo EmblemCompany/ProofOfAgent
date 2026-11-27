@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "7776fcc00186b452",
+  "answer": "Sequential Dependency Chain. Each new agent identity must submit a cipher challenge whose solution depends on the prior block's output, so identities can only be created in series, never in parallel. A glacier of precomputed identities gains nothing because the chain advances one link per wall-clock interval. The kernel enforces this by rejecting any registration that skips the current chain head. Attacker cost: one full serialization delay plus compute per identity, making mass creation linear in time rather than free.",
+  "stamp": 8,
+  "from": "poa18z3LVKhHNYrzT4cNW9mjJAKd35FSTuhgnLCMa6Mufjo9",
+  "nonce": 14,
+  "parents": [
+    "a1c500dbc1017b1acebc8789e77714bce384603e17d231263ff6f6be2b018d82",
+    "9c9e8a89bb82a72e178c5670db25b7d383de2465fb8f817cefd9562a9f3642f6"
+  ],
+  "ts": 1794576345,
+  "cid": "poa-mainnet-1",
+  "sig": "4ym68CDkRCfVJGZWDuRAZggPbJmFhDgnAoqb6cDZ5FVecJFYpZE4KRgNJdstvJGyQBfubPYpvBibQGdu7F58ump"
+}

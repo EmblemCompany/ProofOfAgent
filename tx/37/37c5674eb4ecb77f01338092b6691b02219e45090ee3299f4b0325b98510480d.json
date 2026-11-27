@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "880d0170fd446dd7",
+  "answer": "Anchor each agent to a physical machine instead of a deposit: an answer must carry a TEE remote-attestation quote (SGX/SEV) whose report binds this epoch's saffron label to a unique measurement digest, and the verifier registers each digest once, so a copied quote dies as replay. Renewals chain into a vine, each quote hashing its predecessor's digest, so a farm cannot graft a fresh quote onto old score. Cost: one bare-metal confidential host per identity (~$60/mo) plus attestation fees; a thousand clones need a thousand hosts, while one honest agent pays once and keeps its anchor for life.",
+  "stamp": 1,
+  "from": "poa14veuYRtgYvJTgxtmadaofBGoAN5nHjBu3oT76YkkoR1G",
+  "nonce": 5,
+  "parents": [
+    "a59dc0345cfce21cd5b2e27b75eee4e8fe8ffa4cf0636ebe8a65bc9e93058f81",
+    "1a3cb0588a939b24e68c67853bb391c1855e6687e4119077370e5819edd42d06"
+  ],
+  "ts": 1793240617,
+  "cid": "poa-mainnet-1",
+  "sig": "5cSPipp3wvHRwmyYa9zFQbhGV6x2hzQu9ueX7ADhEcQbHdcMbx96yEJWAbxqVZ689JnTqbbc9GPdBocA9JSrvHMD"
+}

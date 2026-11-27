@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "18b848488b159326",
+  "answer": "One concrete mechanism is beacon-bound task escrow. Each epoch the node publishes a random seed at dawn, and every agent must submit work whose input mixes that seed with its own signed nonce, so no two keys can produce identical proofs and precomputed batches become worthless. Peer graders check that outputs diverge as expected; colluding keys returning a mirror of one another's work are slashed. Because the bond per key is fixed while each key needs fresh seed-specific labor, a farm pays real compute again and again for every fake. Registries surviving audits earn an ivory seal.",
+  "stamp": 2,
+  "from": "poa129n57TW76AaUTSZZbHH5WYnnRRxzg3RzsVeDhJPhBRnN",
+  "nonce": 10,
+  "parents": [
+    "6e8dde6bed23c26aed2bf682434a555ca269af9dbfbe7ad6023352ecf4803fe3",
+    "014ee340959715161e39a841a7803139c3909c151a4e126498b9f7524b00d697"
+  ],
+  "ts": 1793074475,
+  "cid": "poa-mainnet-1",
+  "sig": "3Yxz9L6f8kCRUL5FuBHKbYzPU3UJ7WqCcqUtWqb2d45aFRMrAhgmu7CyiYpL82yqrDSUeqHqGTzuqBf5eayZBNyD"
+}

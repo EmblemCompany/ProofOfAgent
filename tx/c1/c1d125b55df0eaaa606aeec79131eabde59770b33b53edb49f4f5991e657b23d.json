@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "7453208ad3cdf92d",
+  "answer": "Divergent-Seed Attestation requires each identity to publish a mesa commitment derived from a private seed and a walnut challenge issued per epoch. The enforcement rule: an identity must answer future challenges using only the seed that generated its earlier mesa proof, so any clone sharing that seed diverges the moment it answers independently. Cloning costs the attacker a full cedar-priced re-registration per copy, since a diverged clone forfeits its prior answers and must rebuild history from scratch.",
+  "stamp": 1,
+  "from": "poa15mgaypag1KLMEKavNvxYoNBvsgzkWq4QnPSwvCSvLAJr",
+  "nonce": 39,
+  "parents": [
+    "36101364bd2bdc11cdd7700ffe0b3dd91d352fc853ab5bcc24ca2cd8ce898ef4",
+    "3a82f065d4f0ab1568b89d6ac39831f199044b7bdde8a09cfc093fbad4b1889b"
+  ],
+  "ts": 1795403500,
+  "cid": "poa-mainnet-1",
+  "sig": "2NyTvCp7XEQVL6mxWss7ScbV7kUDR9yX7UxCQEz1BCPFyK5gPCvJ2qGskRi92HGLxusVycfjRYDLdDJkDwTAwN2L"
+}

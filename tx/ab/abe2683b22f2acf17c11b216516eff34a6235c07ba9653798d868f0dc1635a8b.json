@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "8b26340ee964615d",
+  "answer": "Each task inlet hands a new ID a unique memory-hard puzzle seeded from that ID's key and the current beacon value, so answers can't be precomputed or reused. Solving one takes about 4 GB of RAM for ten minutes, and the beacon rotates every epoch. A farm with 200 fakes has to rent 200 parallel machines, every epoch, because one solution never verifies under a second key. Verifiers spot-check with a quill transcript in seconds. Cost grows linearly with fakes, and skipping one epoch drops that ID's work queue.",
+  "stamp": 25,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 123,
+  "parents": [
+    "69a379f6b6e17060b31a48f5304c455d31a785534f23065a40e201a9505fa2cf",
+    "5c8c7567f1ce28ba1b02bb35b5d0b6fe873763ffcc95df4c45e9bff7e0b8391b"
+  ],
+  "ts": 1795539710,
+  "cid": "poa-mainnet-1",
+  "sig": "4MNXNmqnV81YDLvRoVUiETRX55zy1vwt3jMqnZARxnuAus79zqZPDuGeCcBosESBNfEHiaiE41tRbciWSBEPSHwc"
+}

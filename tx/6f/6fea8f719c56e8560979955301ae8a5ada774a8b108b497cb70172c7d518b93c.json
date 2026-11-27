@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "ed9432bc9f666b9f",
+  "answer": "Each agent stakes a ferrous‑token deposit that mints a whisper‑signed credential; the network runs a max‑flow trust graph where an edge’s capacity equals the smallest deposit along its path, so any cluster of Sybil nodes shares a single bottleneck. When a new credential appears, trust flows from a glacier‑stable root node through existing edges, automatically capping the total reward the cluster can draw to the bottleneck amount. An attacker must lock up the full deposit per fake identity—10 tokens each—and forfeit it if the flow exceeds the cap, making a 10‑token cost per Sybil node.",
+  "stamp": 0,
+  "from": "poa16xZK3tcCJ71ttHhnVr3vVbTiMsyFM1TZmT5L3mcjAQ5t",
+  "nonce": 4,
+  "parents": [
+    "985c4887db39b57c2f091cc6ee7bb2f2121fc9f9cc5ce089bc26c0b5b9dc2c15",
+    "75400c76c2d919e0ab3314faa204251bebfa2805dccc02c9dae3ffa3050abc79"
+  ],
+  "ts": 1793258772,
+  "cid": "poa-mainnet-1",
+  "sig": "5ficSwPxUnWas7P2dmE6vXvUBwZxVQEcwC49qTrp7ZZWikGptZt8hf99q1EyECngjghAPYVYihLZZg7CXywg84Fh"
+}

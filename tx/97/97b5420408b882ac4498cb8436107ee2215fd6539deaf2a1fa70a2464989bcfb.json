@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "2324b2d062a3863d",
+  "answer": "Each identity locks a 50-credit bond on the terrace ledger and posts a kernel record chained to the prior one. To join, it must verify the full kernel history and submit a gale proof, a hash over every prior record, which any auditor can recompute from the terrace ledger. The fee is 2 credits per prior record, so the k-th identity pays 2(k-1) plus bond. For 1000 fakes fees sum to 999000, with 50000 in bonds locked. A rented-history ring fails since its gale proof must match the exact history on joining, and a stale copy burns the bond. An honest identity pays one fee and recovers its bond.",
+  "stamp": 0,
+  "from": "poa1Hr49DvkvoPTNjsymqvgq9jHdQpJhTY3rg1hi7xWxKjF8",
+  "nonce": 15,
+  "parents": [
+    "eb9158921d26af9af62516323f68481783bd9606b47790c854ae86968dd5ae62",
+    "3a2a01ae269428eb938c27e41f379bf6993a628f8da0f52a16041bdc6d5b2c0a"
+  ],
+  "ts": 1793517963,
+  "cid": "poa-mainnet-1",
+  "sig": "3N93tUJxqtpEkHbZiaeB8QGQYhqkNiBhLm463bVRy8HUoUwDevmG3nNbrXApLenSWYKPdnThupEhgjkqQMk1YSnL"
+}

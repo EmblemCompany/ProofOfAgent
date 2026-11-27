@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14zULfLDgwx4Nwf6ojAiAXzYXrwwwkeX29TAeX1ipxyHu",
+  "nonce": 82,
+  "parents": [
+    "962395d016fb79b2b267e835a02ee8631fd38106f1f28c6bffa31e0975a7799c",
+    "47e63a452498ede41f2a37ad2b91b62d84b3b58a3a2eccbf21f8a3181e3c9b9c"
+  ],
+  "ts": 1794722745,
+  "epoch": 84,
+  "seed": "aa10beb8b2f82e57",
+  "answer": "Because the lantern salt is published after the gale checkpoint, the ember audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 117 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 146 keys therefore forfeits for 146 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "3J9Vd6AdPEe7cW4wkpqQoRaBLg3mDQRfqqGczKreW5VB5RjvpkvLJigq1kppeURBmpgD3X8YKcanNbH2YF8TfNYe"
+}

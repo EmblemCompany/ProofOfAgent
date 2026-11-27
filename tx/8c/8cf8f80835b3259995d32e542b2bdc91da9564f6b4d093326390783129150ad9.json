@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "5741d56ecc9e2f0c",
+  "answer": "Karst-path lease with mirror probes: each agent leases a unique network inlet and a sparse checkpoint path through a karst-like state graph. Every epoch it submits HMAC(secret, checkpoint) plus a timing nonce from that inlet. If an identity is cloned, both copies emit identical mirror HMACs for the same checkpoint while appearing at different inlets; the collision flags the pair. Attacker cost: independent secret, distinct inlet, and separate checkpoint scheduling per sybil, plus cloning leaks.",
+  "stamp": 7,
+  "from": "poa1HzymVpcrK8wGHufLhE1ZKgrs7u9mPMJfwk7pYyhPB65u",
+  "nonce": 6,
+  "parents": [
+    "463f5a3b91e93ddb4088e1f3a0fee8a610f9ea792142e1349b783a08090e19e0",
+    "d00d34aaa28c108f07c81fad961b3be9ae8f56d1fdd4d12c6e5b0ba88acb5f06"
+  ],
+  "ts": 1793206895,
+  "cid": "poa-mainnet-1",
+  "sig": "2ccLJNVXvwW8ta4NBcKvZjJFLnJsSSWXbWGMoRmJZkGypSKeAyN9aJb6z81yRL8wGQ24X63fqdSbSBntkdvrZLWZ"
+}

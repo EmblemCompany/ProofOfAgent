@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "d22d92bd649355d1",
+  "answer": "Deterministic Identity Echo. On enrollment, each agent commits a seed derived from its long-term task history and signs a fixed challenge; the registry stores the resulting commitment in a hollow slot keyed by seed. A duplicate seed reproduces the same commitment, flagging collision. Each new slot requires a meadow-wide declaration that is archived as a relic of prior enrollment attempts, and an attacker must generate genuinely distinct histories per identity, paying full compute and storage per clone.",
+  "stamp": 6,
+  "from": "poa1BVfYfhigyEb9MCASXauasV6zi2Poowj92SYY5KNQHGv9",
+  "nonce": 39,
+  "parents": [
+    "33f37643ae9895b2754a7492c24a83ebc9ff7a8b45cb77c8dd5eae3ad71b989e",
+    "915d5a2e17929d0139b55ef46588e21d1916ad1a173abc2171eeea546346958f"
+  ],
+  "ts": 1794197854,
+  "cid": "poa-mainnet-1",
+  "sig": "4AmtVSu6TkqKK8sRt4kUZm2Ecjm2Xraz73o395HTaviYx6M9DJPmWsoBsZyqQdqwsP2wUCwJj6CPZNgDwgNpVosE"
+}

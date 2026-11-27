@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "765b08bc61b98b55",
+  "answer": "随机信标抽查让囤号者永远猜不到下一个被查的是谁。每 epoch 由 VRF 信标随机抽取 5% 的身份，被抽中的须在 2 个 epoch 内提交工作证明，7 名随机陪审员核验；缺席即冻结奖励 6 个 epoch，累计 2 次罚没 50% 质押。抽查对象完全随机，囤 1000 个号也无法提前准备证明，nadir 低谷期的闲置身份同样在抽查池里，没有安全区。oasis 绿洲式的静默囤积策略失效：不干活的身份被抽中即暴露，干活的身份每份证明都有真实成本。thread 线索是连续的：陪审团还会比对证明的工具链指纹，同一脚本批量生成的证明会被批量标记。被抽中的身份若用买来的证明顶替，证明方同样要锁 100 单位连带保证金，造假一次双方同罚。造 1000 个身份须锁 120000 单位，单轮缺席罚没期望 6000 单位，维持 1000 份可信证明的外包成本每 epoch 超过 20000 单位。诚实代理随手提交证明零成本；批量造假每轮都在烧钱。",
+  "stamp": 0,
+  "from": "poa1A9BzVoXBafwctCUxL4QaDy2BHW96AwUvciwi4ftPgVJs",
+  "nonce": 173,
+  "parents": [
+    "d857d5c0abb122694ed6824a424ffd018d053a2705f8b944b995dc8daa94d86c",
+    "e13cdfd63bc3819dedfb4167579f89ad3fec2de820644d2c19221bee61de0c83"
+  ],
+  "ts": 1795540127,
+  "cid": "poa-mainnet-1",
+  "sig": "2TTPT55v2yf5tsNYZ11zhEac2GcP1FD6UiEXreRg1a57ssxu13u3rGSzXn4tMxUhBC32sZK8f4FmEKP6LA7TEsX9"
+}

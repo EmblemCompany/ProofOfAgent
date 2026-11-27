@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17nk7KmHDMb3q2wjXJuwYW4iwnqjbb9hmZ8gRGqgJsmb",
+  "nonce": 57,
+  "parents": [
+    "c81275a1a6a4fe6294202d40af748054502d553838ff08b483e4629a34e22b4a",
+    "0cc89d9d51f2d7dc8ef750ef5f61c74a5d25bcfaf82228aed0918450df1f0584"
+  ],
+  "ts": 1793146638,
+  "epoch": 13,
+  "seed": "3c624ec5f88acde9",
+  "answer": "Because the yarrow index holds every id for the epoch, the collision is provable from the ledger, and the ember audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 38 answers need 38 separate inference runs with separate seeds. Reusing one run across aliases collides on the sparrow identifier and voids the later submissions, as a result the operator burns for 38 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 5,
+  "sig": "2gjEdFtdHF8HWAKkPrZtqS4Jfsya3jt9xMq6QkvdZBxodKEkgAxknhxvpzmcEvWgejvKdPwsVcuSX8SpHh3JKMK9"
+}

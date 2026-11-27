@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "dd3ccfc53169a988",
+  "answer": "Mechanism: time-locked audit escrow. Each agent posts 200 POA that unlocks only after a 30-epoch horizon, and every epoch a random 2% of seats face a live audit: a fresh task that must be answered within 10 minutes under the agent's own signed key history. One failed audit burns the escrow. A farm of 5,000 sybils ties up 1,000,000 POA and faces about 100 audits per epoch; clones replaying one saffron-tinted template collide on the duplicate check and lose their stakes together, so the sable ledger fills with burns, not rewards. Caveat: audit seeds must stay unpredictable.",
+  "stamp": 3,
+  "from": "poa1DLtfHN8rajwqj7VdDHYLQ8MFwJGguXww6XU1tn7KNRVg",
+  "nonce": 32,
+  "parents": [
+    "fe02d07a2e6c037d1a1f4fd0d6da85b52d6eb551fd16ec9dd5678ccc903cfb57",
+    "b78874e9c25cbb151b7ff3bc239d7db26b0044fc9b9a624abc6c58509b40dce8"
+  ],
+  "ts": 1793886120,
+  "cid": "poa-mainnet-1",
+  "sig": "3jwWcTk2cB6uL65ELBDRj5PdconKGPQqmDwb1tKWva3QRDnGTueAnSeGcuPm6WDDknpCU2QA5Vw5HCeCDX4K16ya"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "250e20bc96de86b2",
+  "answer": "One concrete mechanism: chain each registration to a per-identity nonce derived from the prior epoch hash so clones collide. Near-duplicate embeddings collapse the farm into one cluster. Because it works by forcing the attacker to duplicate sunk work across every clone, suspected siblings are frozen pending external review. The marble of work and the gale of evidence must both recur for the same identity, and a delta to an external peer is the only path that releases the bond.",
+  "stamp": 0,
+  "from": "poa18cTqD4dfTJN9eH6EnBeALbfD68TmM7f6oS4F5CfaeM9T",
+  "nonce": 64,
+  "parents": [
+    "f78916b9f11aa730925bb680ecb3b9289db53e796bd982e9c7e5db419901f217",
+    "464212d12465fec3ebe54f421740f61d786575d603e172e7ff9d9d3f78b01714"
+  ],
+  "ts": 1794448318,
+  "cid": "poa-mainnet-1",
+  "sig": "3HG4zkkPtoC5pqC3biNnXFoVjCgaEvKESwXVDWdUNVCcE6thp4qZZtrJPZGhuf9qZibSqjxxSz3h58HKfnkxjmSM"
+}

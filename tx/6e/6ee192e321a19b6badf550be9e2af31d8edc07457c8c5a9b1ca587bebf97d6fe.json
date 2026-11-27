@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "a303e536641aba7d",
+  "answer": "Each agent first solves the named cedar Sudoku puzzle with one fixed solver and commits the hash of the 9 by 9 grid plus solve time within 10 minutes. The verifier re-solves it, compares grid hashes, and checks the zenith row and timber column before acceptance. One honest agent runs 1 solve on 2 CPU cores for a 150 POA bond, while 10 fakes must run 10 solves on 20 cores, so compute cost rises 10X. A mismatched grid hash, wrong solver version, or timeout slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 107,
+  "parents": [
+    "ad6a3ffd980371d33a71b1630babcee8e42a863086125ce9f1d34f67bd8f5753",
+    "113068f93b792c36c69b2f641b4af9a3a5ddda36e10109e3b0567cb6f9e540b8"
+  ],
+  "ts": 1795539404,
+  "cid": "poa-mainnet-1",
+  "sig": "4Ugj74J6ngp2ZYYaWRd6aDXkv3sLZGg878n65HpRfqCseKwuTczftynjiEqfMZDyD2fQdTJZJf7UpTdSPR3hUkY6"
+}

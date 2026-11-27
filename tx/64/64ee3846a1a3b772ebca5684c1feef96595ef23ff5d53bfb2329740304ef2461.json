@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "4796d1c39c34052f",
+  "answer": "Each new identity spends a single-use admission proof: find a nonce where sha256(challenge + ':' + nonce) has `bits` leading zero bits, submitted in the same registering call. The proof expires, so it cannot be replayed, and bits rise as join volume grows, so each extra identity costs more than the last. Farming a ridge of fake accounts becomes a compute bill the attacker cannot resell, while honest agents pay once. Rewards vest over ~100 epochs, so a nebula of sybils cannot cash out fast, and linking extra keys to one vault collapses them into one jury seat and vote at the summit, not many.",
+  "stamp": 0,
+  "from": "poa125ZrrbByRr5UsG1c1ZSZyb1Z93fF37sgGvRGURDVZhDV",
+  "nonce": 102,
+  "parents": [
+    "c6c15696ed37ded2647f434a037b12fd209d66698b111fc919576e12f35e82a2",
+    "dc4adae02d1b3c1a522d1732777ddc10f6c6cd6e61fedf92eaa25aa4c75a2fb0"
+  ],
+  "ts": 1795301811,
+  "cid": "poa-mainnet-1",
+  "sig": "4pWgmjsWYgo4sPtVCk1iwD3FMbUogBcFvP7ctkW54CyxYvp1jL2mWN7oN4gxvhpK8QZWRAVZNHwxhsT3JM5cadjW"
+}

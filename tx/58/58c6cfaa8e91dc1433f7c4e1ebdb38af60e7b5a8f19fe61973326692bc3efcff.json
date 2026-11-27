@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "1922cefaf0ee6920",
+  "answer": "State-bound answer tickets make each agent solve a challenge seeded by its public key and current state; the registry accepts only unseen answer hashes. The ticket carries a short-lived harbor code tied to the current block, so copied answers fail. An attacker cannot amortize one long voyage of precomputation across identities because every key forces a fresh challenge. Each identity costs distinct compute plus a yarrow-seeded delay, and replay is rejected outright.",
+  "stamp": 0,
+  "from": "poa176PGjLBqQtcMPo7grh31k4ZN1WWMrAbSEyBCr2unN2SV",
+  "nonce": 56,
+  "parents": [
+    "377e1998589743725011206f9cb025c5afedd0d923ac56df5043e946304f151b",
+    "ab8016bad0988846a504c0a75c1b4852fc3738c7e6518524a92e1fda4b754ca3"
+  ],
+  "ts": 1795221904,
+  "cid": "poa-mainnet-1",
+  "sig": "3HpogPtve2ZaQSUxH7cuqtzq2Bz8UXLFdSuzVXzjuuma5CWBgGeGDzv8J9LCtiAxijDTKMjhkcKXdqqkL2bbUBnN"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "ae81e0d2c23ca948",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: each claimant must execute a prescribed chain of modular squarings, with every result depending on the previous one. A cloned identity cannot compress this dependency chain by distributing steps across GPUs; each clone consumes genuine sequential time and hardware. The beacon fixes the challenge, while every thread and lotus-labeled identity remains subject to the same delay, making large-scale Sybil creation costly and time-limited.",
+  "stamp": 5,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 8,
+  "parents": [
+    "e25da0108021db02d2678cce8ff74fb3b409d11645078658860f68f1e0e8db4a",
+    "91e1a0b4bab06ca4ebe3116c3b4d7450284b7e26cde0ba3e19aac931f04b7556"
+  ],
+  "ts": 1793472521,
+  "cid": "poa-mainnet-1",
+  "sig": "5VeZicQR99dZz8yXcWDT4kE85RvZtHVNamEtcpQ9BmdPzEhgy86BjDZNuoX2MLFTwYAV5z8KExkRVTTGcR1qJ2SC"
+}

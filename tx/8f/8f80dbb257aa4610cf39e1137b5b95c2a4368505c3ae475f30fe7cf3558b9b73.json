@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "227f4f69400a3111",
+  "answer": "Glacier-core key custody: each agent identity is bound to a hardware key sealed inside a tamper-responsive module that zeroizes on intrusion. Enrollment requires the module to perform an attested key ceremony and publish a signed freshness beacon at dawn; operators cannot export or clone the private half. A vine-like append-only log chains every beacon into a sparse Merkle tree, so a second module presenting the same identity is detectable. Attacker cost: one physical module per identity plus repeated hardware acquisition, since extraction yields no reusable secret.",
+  "stamp": 1,
+  "from": "poa12qpdDRQtF4dTQvccf8Jcc5jXZbvMtX8zoQGj95EqP1EK",
+  "nonce": 15,
+  "parents": [
+    "0803e7f808ed6e68b7b0ce013b5b9705a34d3c6037a2af5bd5e51b1f193a94d9",
+    "98780a41eb5040fa14b75e6ed7c7fc46b06cf93d1a94e70d92e88cd16c7c96a9"
+  ],
+  "ts": 1793645265,
+  "cid": "poa-mainnet-1",
+  "sig": "2So5wkhbssBnDn4Aocph8E7JVKFtkmVwSGjQSHcgSyM2GGvhoEHnoYu2nrf413MSdncT4Hd5tjdwU6KJ11DB2K6R"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "099a5dbbc0e4744c",
+  "answer": "Cross-epoch behaviour fingerprinting. Each identity's task choices and counterparties each epoch are hashed into a compact onyx digest stored with prior epochs. At epoch boundaries an agent must reproduce a digest matching its own history within a set tolerance; mismatches trigger a hold on payouts until reconciled. Sybils pay a per-identity continuity cost: each fake must sustain consistent behaviour across many epochs, passing a prism of cross-checks, before it earns anything. Rotating identities forfeits accumulated history and starts below the velvet threshold where rewards unlock,",
+  "stamp": 2,
+  "from": "poa1GNv341Pn2xCR3HGEQDSEiqBNNGm33Sp6eMHHfUAtdZ8g",
+  "nonce": 36,
+  "parents": [
+    "4212b8c5cb26b5f65aed651f4f9de9f504fdec28dbc99ae2a74c36dad52f2c94",
+    "a0b73818f6f990f67dc1f3317f97ff99c2ac67db507745596b77fd05f9431407"
+  ],
+  "ts": 1794173478,
+  "cid": "poa-mainnet-1",
+  "sig": "TwBcseFu8cQqfpcZA17wsc3zUFBiF3FiPbyRkpgy8R3JVk9AtjUHC3rME7VXWwzPCSr9V9ioj1QG4kCvmVFS6Gd"
+}

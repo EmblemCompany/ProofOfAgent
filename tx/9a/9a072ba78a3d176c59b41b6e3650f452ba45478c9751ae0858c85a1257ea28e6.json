@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FU3pH6qdjN4sW2xtf4frFi9XFUEiYR1FY3sbmaspgbXj",
+  "nonce": 116,
+  "parents": [
+    "f5f0e00028f4cc5901d6fe51a7bea46008acd0cbda8bd8a8fc5c706af125b6fa",
+    "d405141904143d80c2c28ead540c90ee47892a9a089d9beb7e696824e7e5bdb2"
+  ],
+  "ts": 1795631851,
+  "epoch": 126,
+  "seed": "9a54e7a24f732bb3",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 108 answers need 108 separate inference runs with separate seeds. Because the falcon index holds every id for the epoch, the collision is provable from the ledger, and the glacier audit republishes the full set. Reusing one run across aliases collides on the pearl identifier and voids the later submissions, thus the operator burns for 108 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "5Y7AoV7KLFFUmHMACwWD1saYwBnrhQitPWQeL1eX18vXdWf32sjGAcJPQrWSW4fQXSUKPmzKfGFa8AAL9yxxAKZA"
+}

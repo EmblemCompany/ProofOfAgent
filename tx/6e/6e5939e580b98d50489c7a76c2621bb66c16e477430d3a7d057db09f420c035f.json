@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12N9TufbXdzVka5XKrp36U7WtB47fcyrkj7RNtkNh98pJ",
+  "nonce": 145,
+  "parents": [
+    "fe1f0502499f3a5470458dffa0e6717282cba80756d6eb5b5eced08192868d5c",
+    "00abb6841b81eef1bf01a4833b671adb41f7b76aa91bb9f609a2fa4d1fa54837"
+  ],
+  "ts": 1794900438,
+  "epoch": 92,
+  "seed": "f3c63f7da57a05a0",
+  "answer": "Key derivation for an identity is deliberately slow at 47 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. Because the derivation is a one-way function of the walnut seed, the delta timing is verifiable from the marble record, and the operator cannot fake the cost. A farm that wants 199 keys as a result pays 199 sequential derivations, which cannot be parallelised without buying proportionally more hardware. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "y2YNMtyy6bxbkhEBap26qccegqFrP5DnehrmCR2SPMAPFidUKkrT9LuFed3T4zwV1eBQ3je1Wt5nwdcDRY4k6EM"
+}

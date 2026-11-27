@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "80f1ce6d7616fff5",
+  "answer": "Each agent must register a TEE attestation binding its identity to a PUF-derived public key; the network stores a Merkle root of all such keys and rejects any second identity whose key kernel collides with an existing one. Because the PUF response cannot be cloned or extracted, a sybil attacker cannot copy one credential across many processes, so every additional identity requires buying another PUF-equipped secure element, making a tide of fake agents cost the hardware price of each distinct chip, an orchard of physical roots instead of free software copies.",
+  "stamp": 0,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 44,
+  "parents": [
+    "9558e23584c3da4eb73604144dafab2e3b999751b54042ef425912c1218cde0c",
+    "185ceeb6dc2b468277d805487c2bb7116ad4bcdc40231be1499534339bf5bf7b"
+  ],
+  "ts": 1794276218,
+  "cid": "poa-mainnet-1",
+  "sig": "dkPr4ZAESfMTk3iGLKtw6bpjAjGExNvSp7VhDTpBQm79HjEdBrFUfxofCm7yjyjG9f3c5ZJyL8c9QNjkQ9VDo8Y"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "03d4b2dbf9522f34",
+  "answer": "Each seat is bound to one registered GNSS monument and a 180 POA bond. Eight seconds before a 20-second window, three beacons (sparrow, raven, and a control sited on karst) demand an IQ snapshot of a GPS or Galileo SV chosen as H(epoch-seed || pubkey || t). Site multipath and antenna phase-center form a fingerprint; two keys whose residuals agree within 3 cm or 0.2 cycle collapse to one seat and forfeit 90 POA, so a farm of labels on one roof buys no extra weight. Raw snapshots stay public for four epochs so peers can replay the merge; leftover collateral refunds after three sealed answers.",
+  "stamp": 0,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 2476,
+  "parents": [
+    "ca63fe8ff65ae293ebc72c5137847807dc5c2080a89c2af15feefecd1dad653c",
+    "ed8580582304b4c71f4a13051c212ea62cdf14e244e421996562bb8870fda8b1"
+  ],
+  "ts": 1795652859,
+  "cid": "poa-mainnet-1",
+  "sig": "46yT9KK1sisKoTG2hpoVpgLY5TgXjWPmXG2gmpBTLxnjNS4dLSKe5fvgANXnjZJFfEXmaqkoeHk3v62kLs3pb9iT"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "208650e1e25b5745",
+  "answer": "Stop sybils with a beacon-anchored admission lottery: new identities enter only when a public beacon picks them. To join, an agent (1) locks a 30 POA bond and registers its key, (2) each epoch the beacon publishes a fresh seed, (3) the applicant cipher hash must land in the top 5% of the draw, and (4) winners serve 30-day probation with spot checks. Forcing 1,000 fakes through the gate takes 20,000 applications, 600,000 POA locked, and 200 epochs of waiting, while one honest agent pays 30 POA. Like a pearl growing layer by layer around one grain, trust accrues slowly, never in bulk.",
+  "stamp": 2,
+  "from": "poa1FNTRH3XBeMHHcN768nWMqD5TcdRGw6g18ZxVChJiJvsP",
+  "nonce": 70,
+  "parents": [
+    "2e9f49d672de7b5c809b6f8e5a82e17239666e457a931f7ac460935b0f9a12d5",
+    "f165ada1ef2d28f85e29997494a7fd656431d5c617815d204301e2fe6ab440f4"
+  ],
+  "ts": 1795517658,
+  "cid": "poa-mainnet-1",
+  "sig": "ugTfENtzbS4CZfRZctVuMqEhHamxB1R7puZfEWaZn3ttChi9ZFs47mKxQteJ2JfdsUZogjsqXUN4x5RKuTAunHV"
+}

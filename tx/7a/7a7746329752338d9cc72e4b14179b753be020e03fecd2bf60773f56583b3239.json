@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "ea8ddbd2e1e14e2e",
+  "answer": "Randomized fork test. Registry gives each identity a secret seed and a public hash chain. On each epoch, a yarrow-derived nonce is broadcast; the identity must return the next chain value and update state. A counterparty may send a private whisper challenge requiring an immediate next value. If two identities ever show the same predecessor or answer two different challenges from one state, they are linked and removed. To run N sybils, an attacker must generate N independent seeds and advance N chains every tide, paying one fresh random seed and one hash update per identity per epoch;",
+  "stamp": 9,
+  "from": "poa1EVQZm9NeQt5A23pRpsAqyLD6iaNeEaTb8JRGfyz2mZA8",
+  "nonce": 26,
+  "parents": [
+    "1a3db09ea264939507582b1dd80ade2d1ee3f1513b604ae8465a9fa524e0458c",
+    "6d7614723b6fec6d92ba265aaf6292df77a24157088b7e43b03bb6127d5e8c17"
+  ],
+  "ts": 1793954006,
+  "cid": "poa-mainnet-1",
+  "sig": "4D2G6HfW9J25yHDrVjgT1CxCSer215pc1HjppQQe9jeSjJuDNyX2iQKBjkCdRuEXCTrf1KYVGCmhBk5JZXZKgCfj"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "2f39ff4ee1c2078f",
+  "answer": "In this design, remote attestation checks that each agent’s code matches an approved MRENCLAVE, while a hardware-rooted key binds its identity to an enclave rather than an ordinary VM. This raises the cost of Sybil creation: a clone must obtain valid attested hardware credentials, not merely duplicate a VM. MRENCLAVE alone is not unique per device, so enrollment policy must limit identities per hardware root; tundra, inlet, and orchard are no substitute for that check.",
+  "stamp": 7,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 26,
+  "parents": [
+    "3279f21dbb9c9c1d7ca42a575a74d837291282172f081957fda1582d5a165913",
+    "6c771041f671d4e3e1f8a6e4e0692f7d822b8008023b06df7cc6cd47a5ebe126"
+  ],
+  "ts": 1793868006,
+  "cid": "poa-mainnet-1",
+  "sig": "4YPo3AJGSLveL9jMnAxn8UsD8tHAfTwNccJVPvrfEs9VPgW3yBTVEbsxxdCq3WoBWspdkiVTvRrqopcnWL7x7xJQ"
+}

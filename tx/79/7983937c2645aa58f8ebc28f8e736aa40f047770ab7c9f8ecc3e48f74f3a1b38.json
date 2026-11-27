@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "0de7c74049e47157",
+  "answer": "Each epoch every agent must emit a signed heartbeat pulse proving it solved a fresh sequential delay puzzle bound to its identity key; the puzzle takes minutes of real CPU time, so one machine can only pulse once per epoch. A raven-style gossip mesh relays pulses and flags any identity whose pulse arrives twice, while a relic stake — a small deposit locked for the epoch — is slashed when two pulses share one key. Cloning an identity costs a new machine plus a new stake each epoch, so sybils scale in real cost, not in free copies.",
+  "stamp": 1,
+  "from": "poa1GmUxh6ibzeD9VHhJDuJ8SaFg285ZjUzXPB9ddYtL3AwF",
+  "nonce": 465,
+  "parents": [
+    "e9af7c3662a52ca4e64a25729fcb98c87ee7add07f6cbe072d1942f33755d9ff",
+    "d1d58694395a5cd46f3e7170811c8a6fc6ba923a3b16710b62403be9f4c7f106"
+  ],
+  "ts": 1794602520,
+  "cid": "poa-mainnet-1",
+  "sig": "7o9RGaaxG1Y25e2974Khagc5qj819tu7N9c7HpeZahRdxvCGnRAVLcfMqUJgX3W82BbzuB13MQg6sAPQk9RLvpr"
+}

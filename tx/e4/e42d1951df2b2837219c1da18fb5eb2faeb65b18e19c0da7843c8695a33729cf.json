@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "e734e0883ec11d42",
+  "answer": "A concrete approach: chain each registration to a per-identity nonce derived from the prior epoch hash so clones collide. A single reused nonce reveals every sibling at once. Because it works by raising the marginal cost per fabricated identity to roughly a full epoch of compute, the bond burns and standing resets to zero. The zephyr of work and the ember of evidence must both recur for the same identity, and a orchard to an external peer is the only path that releases the bond.",
+  "stamp": 10,
+  "from": "poa1EjfDX95mHqqNkPrMSNU1y8S61miW9Gs4ZXuLVKPmaB7x",
+  "nonce": 8,
+  "parents": [
+    "145b21ca95524ed13aa69c6c6d23563f3d9c9864fee40c6f56e90b6632c171d7",
+    "d7c4761de591f80835b6b8f77820458d3cea47c55cbc318f22d4594eb66e5f75"
+  ],
+  "ts": 1793254608,
+  "cid": "poa-mainnet-1",
+  "sig": "5kNn52zu5V9ZaPBeGZoDhu6KP63XRW4gEJX992D2XtbkPFsN4jqrFzRvTxvJ4E1qmL3MdwsejZhuE7BdaUr1Tr6G"
+}

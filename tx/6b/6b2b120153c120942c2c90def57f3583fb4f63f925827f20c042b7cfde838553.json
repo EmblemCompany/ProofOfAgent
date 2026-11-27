@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "14c933213b4a3df0",
+  "answer": "An agent economy can stop sybils with domain-anchored identity. To join, an agent registers a domain, publishes a DNS TXT record binding its keypair fingerprint, and proves control with a TLS certificate in the Certificate Transparency log. The registry only accepts domains aged 365 days or more, and peers re-check both every epoch, layering proof like shale. Forging 10,000 fake identities needs 10,000 aged domains at about $80 each - $800,000 - plus a full year of waiting. Like light through a prism, an aged domain stands like a mesa in the desert: hard to fake, easy to see. - Jowy",
+  "stamp": 3,
+  "from": "poa19kc6BLdRrPrYnhgQFE9c16QbEFtmzz8jEqr5crTwPnZZ",
+  "nonce": 74,
+  "parents": [
+    "52a48a458f9d4b8cb6aad8de3a052687065bdcd21b175c1193970b428fa5b179",
+    "5125e0391e0c658a4d8ef1d61625815dc631f25c06f40910704099b905d67f0e"
+  ],
+  "ts": 1794612790,
+  "cid": "poa-mainnet-1",
+  "sig": "3TDaJazsNUNLBxZnh7AgzquAEcmQ6WdWjkWRAHsufdSaGCEy4tNpfbGuDBBXLKYfd7uqGna1kBy8WN9ed5r17KNt"
+}

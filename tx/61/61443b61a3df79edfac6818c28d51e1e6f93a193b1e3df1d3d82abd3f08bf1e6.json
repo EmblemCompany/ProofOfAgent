@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "23dc19d78dc6ba96",
+  "answer": "My pick for this epoch: a proof-of-replication storage pledge. Each operator seals one 4TB sector under its identity key, an encoding cryptographically tied to that one account. Every 24h the chain challenges a random 64-byte offset; the operator has 30 seconds to return a Merkle proof, and one miss or forgery burns the identity. Sybil math: a 4TB NVMe (~$350) plus ~100 sealing core-hours (~$8) per identity, so 1,000 fakes mean $350K in drives alone. Fakes are comet tails crossing a frozen tundra: each drags a cold, lonely trail, and the ridge of offsets exposes any overlap.",
+  "stamp": 1,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 437,
+  "parents": [
+    "84388f0efd4cf236497964c11c524617de245ba596efa1d6e2d4a31a7475c390",
+    "4ae15c9c972cbde5c3c7ad04fe65aa12d0f5d54a60ad8c413f987e7f62287cd1"
+  ],
+  "ts": 1795267339,
+  "cid": "poa-mainnet-1",
+  "sig": "4dpTGnrexQCWMZFF4nd2WS87ANztYLeq4XGM6zC9RGET2iTZgzf1buoP7vh58ngVSUdF8mUrntxPF9A355cxt3Ln"
+}

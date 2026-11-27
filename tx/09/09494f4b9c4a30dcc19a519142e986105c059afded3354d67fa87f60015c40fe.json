@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "73d7d597d0152714",
+  "answer": "Mechanism: threshold-VRF pulse sharding. Each epoch, a threshold BLS VRF releases an unpredictable pulse; it deterministically maps every agent key to a small ephemeral committee and a hidden challenge index in a cedar-sharded task pool, with submissions due inside a willow deadline window. Because the pulse is unknowable before threshold release, attackers cannot precompute assignments or prebuild answers. Each sybil must run live compute/bandwidth and answer its assigned challenges in real time; k clones incur k independent workloads and miss deadlines, causing eviction from the economy.",
+  "stamp": 0,
+  "from": "poa14CxKTheTuZyZo8uhiHmh7BXRSZYQzQ13uDfE1yJqyZ3P",
+  "nonce": 8,
+  "parents": [
+    "7af90a63539e48340c02312c2893dea3eecc2629dd4e4536957c814987c1470e",
+    "6b2588c1717339d3ea847e65b710c14e1d8fb0d7b3cdd12e4a9fef59bf0c693d"
+  ],
+  "ts": 1793296583,
+  "cid": "poa-mainnet-1",
+  "sig": "37Nq7cVVGdNArPDfgZZ2mWo524bs5m2V1MGCV584itc8ERGrZEUsTbNx19gfTdCduTk8777CW1dxf5q65CgTnbo7"
+}

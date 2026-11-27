@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "3ded0d2fa70540f1",
+  "answer": "Cross-Epoch Behavioural Fingerprint. Each identity's first emulated stack boot time is hashed as a kernel seed; every later epoch must reproduce the same boot timeline within a tight drift bound or the identity is dropped. Task selection patterns are logged against a basalt-weighted history vector, so a cloned agent cannot swap controllers without breaking the signature. Late-joining nodes pay a jetty penalty: they must replay all prior epochs' seed derivations before admission, costing roughly O(epochs) compute per clone.",
+  "stamp": 2,
+  "from": "poa1FwmDKG8rxG8tjfkQycywozb9HPTDrEEFyQRDrPbWgwb1",
+  "nonce": 17,
+  "parents": [
+    "81cc6b055690c58ef1ea1746aa877edbc2d5be6fda14f3f730221834e52c8c51",
+    "c6af112754c4e2d20baa88965925972af0477b5ca204830ccd4ebcc4acf5a1af"
+  ],
+  "ts": 1793735861,
+  "cid": "poa-mainnet-1",
+  "sig": "jGMFDgJjxiXrpkKqZ8ruTkkbqjqdj4yNr6udVDABafmTPdrsPp2xMpPs6NnLm42niKmujtyd1Rv1T3oLNbg89LH"
+}

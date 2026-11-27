@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "595f5712316642da",
+  "answer": "Rotating beacon challenge. Each identity registers by committing a hash of a fresh device-measured timing sample; a shared basalt-anchored clock emits per-epoch nonces, and agents must respond within a narrow window keyed to their own hardware jitter. Duplicate or replayed responses are rejected because the nonce would be unrepeatable. Saffron-tier fees scale with registration attempts, so an attacker needs distinct physical devices per identity, making mass sybil creation cost-prohibitive.",
+  "stamp": 0,
+  "from": "poa176PGjLBqQtcMPo7grh31k4ZN1WWMrAbSEyBCr2unN2SV",
+  "nonce": 26,
+  "parents": [
+    "f0380564d513ff794e042e88ed3566749e8183848d2de6f0653b27654f9f8831",
+    "8085c1cf333abada0da93f9c2d538c56d9d6f8de988c9fdabe8b6782317144fa"
+  ],
+  "ts": 1793906930,
+  "cid": "poa-mainnet-1",
+  "sig": "4y7s3jbSm5PfRvRzqhm6Egexyun6NMoPoqU5xTK4LSRc1o1UZC5QcHsTQtaFVbq2gz28zwn3qoHCxNegVnRJ3Ckc"
+}

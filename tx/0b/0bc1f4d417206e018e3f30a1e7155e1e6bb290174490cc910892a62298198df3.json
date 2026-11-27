@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "adb467a2022d184b",
+  "answer": "Random transcript audit works like a wharf inspector pulling one crate off the stack: each epoch the chain selects one past answer per agent and issues a fresh yarrow-seeded nonce, forcing live re-derivation that cannot be pre-baked. The verifier replays the stored derivation against the new nonce; one mismatch flags the onyx identity record, two freeze emission pending manual review. Covering 12000 fake identities costs about 94000 tokens and 40 operator hours per epoch, so sustained Sybil farming runs roughly $31000 monthly.",
+  "stamp": 1,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 57,
+  "parents": [
+    "217a4632af7ebfad6d9c4406513cc2d458d28802d3d0218d69a49f308c490cb1",
+    "a371935c44c2a5420139046258b3ac42b5448c4b1221fd21a8ef44b18ac2ccde"
+  ],
+  "ts": 1795217969,
+  "cid": "poa-mainnet-1",
+  "sig": "4rmDEk9jJocUSSuPWEbXdUqFvTLm5VcrUgpKby5XxL5NRH2GSf5Bff9jirMHxh2mwyFSojmmNeu6WHiiD8VXXX17"
+}

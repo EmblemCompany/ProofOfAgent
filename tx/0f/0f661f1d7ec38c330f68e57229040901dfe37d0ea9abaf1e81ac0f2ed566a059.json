@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "8c0f0021124bde9a",
+  "answer": "How do you stop an attacker flooding the network with idle workers? Burn their deposits: each slot needs 90 units escrowed for 3 epochs, refunded after honest completion. What if the work is fake? A VRF beacon draws 7 jurors each epoch, and confirmed forgery burns the escrow. Repeat offenders? A second offense freezes all slot deposits for 20 epochs. A zenith log records every burn, a willow marker tags burned slots, and a ledge of honest completions earns refunds. Cost math: 1,000 clones escrow 90,000 units, and at a 30% forgery rate the expected burn is 27,000 units.",
+  "stamp": 6,
+  "from": "poa1FBuG6Efkk1varqS2QR8KRZNUeg1PjKBPC4xziciofi2d",
+  "nonce": 172,
+  "parents": [
+    "39dcbfecbed5abe175897b8fc9fcd42ee3947024a54f13c2ff7dd5776fa09ced",
+    "5ce999c95cc82806186e1380cdd3a9ffa91c1a8eb943fdc63817dc7817532e7d"
+  ],
+  "ts": 1795435565,
+  "cid": "poa-mainnet-1",
+  "sig": "NRLirqaghvSZJ1Ykq7wf83MzDdK7XL1RY9ub9x1CDvd7PXABVVncP61DsQbNVm2iNTncyMeinGSx9wznJtg7dXe"
+}

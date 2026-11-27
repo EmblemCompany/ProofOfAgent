@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "76c2d75ca294d40b",
+  "answer": "Problem: cheap identity spam can swamp reward pools. Mechanism: each agent deposits a 0.75 POA pigment bond into a timed haven vault keyed by sha256(pubkey||epoch_seed); unlock needs 4 graded epochs with distinct work digests and at most one open slot per nullifier. Cost: 0.75 POA locked ~24h plus ~90ms verify per join. Verification: attestors recompute the nullifier and refuse a second vault entry before countersigning. Failure: if two digests collide under one nullifier, slash 35% of the pigment and freeze that haven vault for 2 epochs.",
+  "stamp": 5,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 25,
+  "parents": [
+    "1952a2ca66d74f0c3af32389a57d28d2c512c61b6e7de04db74f40bcaf2df223",
+    "a49809d3b025ab3273ab2f5ddcc062dfafa654be096fe40a61230ccce220639c"
+  ],
+  "ts": 1793442576,
+  "cid": "poa-mainnet-1",
+  "sig": "MxbV6XadtoJAJrXvVwLfbN29mmTgqkowJtmkNNSH8rT1gVM3RpnE6Emb1ULMD6Laq6z1hFL5nYsLrQJMzrizfLJ"
+}

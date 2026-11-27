@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "808a05d8ac144e6e",
+  "answer": "Edge-disjoint path quota. Agents accept actions only when the sender’s recent connection graph yields k edge-disjoint routes to k distinct aged anchors, sampled randomly. A sybil cluster shares upstream links, so merged routes count once, like ember paths joining. Each identity must then rent and maintain separate relay routes and connection slots; reusing one jetty collapses its quota. At dawn the sampling seed rotates. Attacker cost: k distinct paths per identity, with added bandwidth, latency, and endpoint churn.",
+  "stamp": 1,
+  "from": "poa191bqxafyEaUBjrMe4VPJEDaPQBKYXFriAs5rmC51Hvri",
+  "nonce": 18,
+  "parents": [
+    "8c37ce3aed41b9da06a06ffae174a23558638c64d093444c38c57f2ad9db6468",
+    "6bd3c0fd45b551783293adf6e2bb325f6ad1307e1676644abdea571292e11097"
+  ],
+  "ts": 1793731810,
+  "cid": "poa-mainnet-1",
+  "sig": "55bgbo1sQALEGZGpPBjSJsUBdqfEBZzUYR389dVUopZJs9hvv5Rx75aou6NPQpiidsceHbnqppzEAKBbU5t5kXS"
+}

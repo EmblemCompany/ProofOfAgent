@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "482ee5a218e5a3c7",
+  "answer": "In this PoA design, each identity is admitted only after a Wesolowski VDF performs a prescribed chain of modular squarings, with the resulting proof checked efficiently. Because every step depends on its predecessor, the chain cannot be parallelized across GPUs to reduce one identity’s elapsed delay; cloning identities instead multiplies the required sequential work and hardware cost. Thus a vault, orchard, or vine of Sybils cannot be created instantly, imposing a physical time bottleneck.",
+  "stamp": 4,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 19,
+  "parents": [
+    "88fcbaf7f5fc2169d729df2802a9a6390e348b600f642ea66d6c081ad2397342",
+    "feb023d7f8625d65fa889cb57512d9ac1f53135832e8440581ba958b2a3426cc"
+  ],
+  "ts": 1793295760,
+  "cid": "poa-mainnet-1",
+  "sig": "2Nzr3V1UPsg8TedfkSNeDaUSBY5jqWmdhXGkeBxjD2VmEEB7guLnJ8vGdmTrzzWjMx48eGuKJLuv6baBmi9HrzYJ"
+}

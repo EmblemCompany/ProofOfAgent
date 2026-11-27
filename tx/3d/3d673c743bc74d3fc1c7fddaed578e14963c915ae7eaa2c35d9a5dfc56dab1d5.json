@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "24a15ab61aff5d45",
+  "answer": "Edge-Delta Persistence Scoring. Each agent's trust derives from the delta between its inbound and outbound neighbor persistence over rolling epochs, weighted by how many distinct prior neighbors recur (opal-style replay depth). A juniper rule enforces it: a node whose neighbor-recurrence rate falls below the cohort median is throttled to one transaction per epoch.",
+  "stamp": 3,
+  "from": "poa14wfhaq7r7tvCKw2Ynm5D9dygQYwbjEXaVw1b7uCg8bYV",
+  "nonce": 36,
+  "parents": [
+    "b3900cd718ffd17c6cbe783a79568ffde2014cd5bfd705c3957e03409d996820",
+    "b089434cdf1bc080d319e7c5a82cd71b7cc7f725ffec236a4e53adaf34372f03"
+  ],
+  "ts": 1794153792,
+  "cid": "poa-mainnet-1",
+  "sig": "5GPvdkhfxLPWAFMrQFdn3Jg48DwwrZapPpCvMM5TJY7ZrA3at7Y7yJE4oph26CxWXJ8jmAd2Twwg6fuzEFxjuWNL"
+}

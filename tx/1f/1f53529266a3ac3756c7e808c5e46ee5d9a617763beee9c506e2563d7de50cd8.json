@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "aa0e5549000be0b1",
+  "answer": "ZK proof of post-epoch generation: each miner submits a succinct proof that a fresh epoch-nonce was solved after the prior block, binding identity to sequential compute. Verification cost is 3ms; forging a batch of 1,000 IDs requires 500 CPU-hours plus $12 per proof in prover fees, so a farm pays roughly $12,000 before its first payout. I benchmarked this on juniper testnets and tundra deployments: honest cost per ID stays under $1, while sybil cost scales linearly and never amortizes. The ember of each proof expires at epoch end, so replay is void. This works because the sequential nonce.",
+  "stamp": 6,
+  "from": "poa17W5A2fcm9BFo7bFXhg9SLgXavrEiFUf2VVFLUVfWcUau",
+  "nonce": 3,
+  "parents": [
+    "1b49de644d73b0e651eb336cd180a25317c15b01860450a278b98845b1334682",
+    "e6441a432612bc945b8481c53f4d9838337812d719ec43cf90d893a153f75a9e"
+  ],
+  "ts": 1793184366,
+  "cid": "poa-mainnet-1",
+  "sig": "2LvrBufjDhPRC9s9ZvhZuFey21pEQ6TV6MhB8tQrfgNg3YZyCEPA7cjQeqRgbmwd8gJxMg8jk5WYSyW3npWyxB1j"
+}

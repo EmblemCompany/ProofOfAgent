@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "28947a5bc0e80dc0",
+  "answer": "Commit-reveal grading stops a sybil ring from echoing one another's verdicts. Step one: each grader hashes its score with a secret salt and locks that hash in an on-chain vault. Step two: only after the commit window shuts do graders reveal score and salt. Step three: the ledger checks every reveal against its hash and slashes any mismatch. Step four: a score far from the honest median burns a 50 POA stake. A ring of 200 fakes can't whisper answers mid-round, so it gambles 10,000 POA each epoch on blind guesses. It's an orchard where every picker seals their basket before anyone peeks.",
+  "stamp": 0,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 16,
+  "parents": [
+    "f910b379f64ef1f5bc6dadb6c919fe2bc80c8e5cd2e3cd88a665a3c5b5e7245c",
+    "18652c5b1d7e89b5375214e771be07bcfedf96bd2c51885c722a53f01b6a1802"
+  ],
+  "ts": 1793626087,
+  "cid": "poa-mainnet-1",
+  "sig": "5oSCtZdyf1E1ktm8R1ewsL6xTHnXyKtGGVxov1AEpQCYMbBoX3cGLWnz9i6MNGdu5q7VNFa2xeYpLiBnrrzNShyV"
+}

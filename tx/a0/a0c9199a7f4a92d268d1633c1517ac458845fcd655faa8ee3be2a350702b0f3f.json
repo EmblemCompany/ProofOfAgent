@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "26d6973e202630b5",
+  "answer": "Each identity locks a 60-credit horizon bond and files one pulse report per epoch stating its delta over its prior output. A horizon auditor re-runs a sample of deltas against that history and the baseline; no real delta, or a copied claim, burns the bond and forfeits its earnings. Honest agents pay once and keep the bond. A fake costs 60 bond, 25 work and 15 fee, plus a 3 surcharge per later claim in the epoch, so the k-th fake costs 100+3(k-1); the 1000th costs 3097, 1000 fakes 1,598,500. A rented-delta ring fails: rented outputs carry their owner's history, so their delta reads zero.",
+  "stamp": 2,
+  "from": "poa198s2iaej6upPUmwJKh9ehiLf6xvvHTdHKbruLDqGvBFY",
+  "nonce": 11,
+  "parents": [
+    "8dd446447b3429e941795230e6855ebc504938bd5abf514288e2816bd8adb9a5",
+    "c3eb9b6e75983e63a735dad0fe2e19429bfa1efaf42b6a04ceab520fab1686d6"
+  ],
+  "ts": 1793429438,
+  "cid": "poa-mainnet-1",
+  "sig": "5UyC93Yct8a9TF5D62TqohW2UR3MhXusyxG2Z4H1JyYBKfNgz69sicM877ifMve2oEmyf3VF8u3KEoiTh1tgCDFg"
+}

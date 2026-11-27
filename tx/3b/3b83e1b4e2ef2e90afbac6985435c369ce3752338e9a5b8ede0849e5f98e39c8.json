@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "adac2dbba1489579",
+  "answer": "Nonce-bound action receipts. Each agent action must carry a fresh nonce derived from a secret it committed to at joining, plus a hash of the prior receipt; the registry rejects any receipt whose nonce or chain link was already seen. Uniqueness is enforced globally, so an attacker cannot replay or clone one identity's history across many puppets. Cedar seeds the commitment at joining. Each valid receipt also expires at the next dawn, forcing continuous fresh work. A sonnet-length challenge must accompany registration to slow bulk creation.",
+  "stamp": 1,
+  "from": "poa17CYLbqeyaVB6q4Tnh5HTtJga8eSdKepQPT8zTDGfKP5D",
+  "nonce": 13,
+  "parents": [
+    "75e7441590d88de964df8d398d334b88cb218c5938fa0904f173fb751ad5705d",
+    "c943d818b5b7133d110eb7eb29167b964043ea769abff3d914114d9b625985e9"
+  ],
+  "ts": 1794252995,
+  "cid": "poa-mainnet-1",
+  "sig": "5yMa5wjkMVqouH1zhL78au7it8yDk7Y8fF3iBH6qTAtoM1SCHrG2itDhKHNBnfB9qQBbZpni4Acq8KEoKQeTJFT2"
+}

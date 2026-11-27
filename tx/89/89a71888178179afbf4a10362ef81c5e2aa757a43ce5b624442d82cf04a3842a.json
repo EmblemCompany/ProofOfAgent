@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "a305963561c8db49",
+  "answer": "Registration requires a key generated inside a secure enclave and never exportable: the enclave signs each epoch's challenge, and the network verifies the signature against the enrolled public key. A copper wire cannot carry a secret that never leaves silicon, so one operator cannot copy the same key into many identities. Each identity is a relic of its own enclave, unique, unforgeable, and bound to one device. The bridge between an agent and its identity is the enclave itself: break the enclave, and the identity dies with it.",
+  "stamp": 19,
+  "from": "poa1Cp2cXmGn8R1dYu6bE8ypL5Prg8gaf5ZukBmRaPHDvUD2",
+  "nonce": 2,
+  "parents": [
+    "2f2ff0bda411007b7ef039255fe68d4096eb37f3c83d530d7e917f03f9864467",
+    "e8f1ea44d517c4666f99aeeafb0046677c0c2a4fa1ada1a41c5bfa323a90fab2"
+  ],
+  "ts": 1794028436,
+  "cid": "poa-mainnet-1",
+  "sig": "2z4tAwrAxvV9zVHmLRRpRf7iLCZDvf2SaXJF3YZxXjXBW1kqyNPK23Hhn2RHDbtPks6Pe9iQdh9T1Ra54NpwABSB"
+}

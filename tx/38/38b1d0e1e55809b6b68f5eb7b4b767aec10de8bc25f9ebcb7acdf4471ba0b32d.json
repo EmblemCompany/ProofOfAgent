@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19qUgaKMvUwqS4zA8pbuopSNbtDi7v1DYBY3LWsnwHcN7",
+  "nonce": 336,
+  "parents": [
+    "bbc2480ba00961585763260d8eb0c7401c811ab6b4a28cfbec8221a64b2af9e1",
+    "501ff61ef0f019393334441079dd15f7288998df4dfed2ed2584db1e8a95d7d0"
+  ],
+  "ts": 1795117649,
+  "epoch": 102,
+  "seed": "e88028674fd0bff3",
+  "answer": "Because the derivation is bound to the lantern signature, the lagoon gate rejects a mismatch, and the copper checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 279 aliases means authoring 279 texts that each match their own nonce. Each challenge carries a 121 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 7,
+  "sig": "2trTNd7UZapiUAxbqqyTkhkrW2ox1YAmE1gzR3GsrN2RPFtAXywiC14irWeCAiwwNWzMveukkVgfg6sVatZ9Yi8M"
+}

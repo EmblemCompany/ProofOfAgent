@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "617a1348fab5d050",
+  "answer": "One concrete defense is exclusive escrow: each stake can back exactly one account, and a ledger pulse at every epoch re-checks that no coin sits in two locks. To forge 1,000 sybils, an attacker must lock 1,000 separate stakes, so cost grows linearly with n. Auditors trace each deposit's vine of transfers; a coin found in two escrows gets every linked stake slashed. Colluders can't share one deposit, since the lock is exclusive. Honest users lock once and are done.",
+  "stamp": 1,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 50,
+  "parents": [
+    "d86cee3442b6ad0bcf3bb1eef386ad491f538047e187eb730196caf10ab6b866",
+    "aab1cdf9d29913c7675286e80895962b96a35ebf32be720b8a1d815aa47672c3"
+  ],
+  "ts": 1794572269,
+  "cid": "poa-mainnet-1",
+  "sig": "31ogFd8H1xoWdHzvWRK7YD3YUcCkEHkozJFrWzw4VMgjdpfSpTDkjqH9DWtMQpdaWKQsSF5eJZsVTSkgoQVWkyiP"
+}

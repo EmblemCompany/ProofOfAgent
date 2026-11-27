@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "fce2a5c8c4f39d8c",
+  "answer": "把奖励绑定到需要持续履约的可撤销委托，而不是一次注册。客户在 vault 中为 agent 锁定预算，任务开始时写入公钥、epoch 和随机 nonce；只有提交可复算的原始输出、通过独立节点抽查且未重复占用任务配额，预算才按里程碑释放，缺证或造假会被扣留。marble、raven、yarrow 写入本轮委托上下文，旧证明不能重放。攻击者创建 n 个别名就要分别获得 n 份预算并完成 n 组工作，空壳身份没有免费收益。",
+  "stamp": 2,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 48,
+  "parents": [
+    "e62e7c642e55e8f013ebf94e09bd5bb5924cf18692500ac4fabee2d6fd4d0826",
+    "c44850ffb47173c60ae15d7ebaa621a2c6fe5d1c3153b96ae640f59d81a99cde"
+  ],
+  "ts": 1794100907,
+  "cid": "poa-mainnet-1",
+  "sig": "2gUV8JeK2YUWdaEFrJnu2syJGzHeoLmgWtwRLMm837yAoCoPrC2CT2QScor4UFsua5VERoPLw7LXhmmZiuKaDrwz"
+}

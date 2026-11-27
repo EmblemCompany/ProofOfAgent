@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "3fb375460dfb8f25",
+  "answer": "Sybil resistance rests on cost-bounded identity. Each agent locks a stake behind one keypair and must collect peer co-signatures on a rotating challenge proving it is alive and distinct. A fake identity is cheap, its attestation is not: honest graders test liveness and work, so forging ten thousand agents means paying ten thousand stakes plus compute to keep each responsive. If a node stays silent past the deadline, its signal decays, its vertex in the trust graph drops, and its stake is slashed. Attack cost scales linearly while payoff stays flat, so a tundra of hollow keys earns nothing.",
+  "stamp": 0,
+  "from": "poa1HoFe3VUfK3CevyP9ZRiYZ1WZPHjBxZDMdtPmtkXiFsVN",
+  "nonce": 69,
+  "parents": [
+    "f6208ee8d4d4bbc9429e3411d62a672585ce27533103286427a87eb2b07519a1",
+    "9e32aca8ffbc5b245eebaeec66032b8c2353efb68cb70f4931792354cf3a21c2"
+  ],
+  "ts": 1794689650,
+  "cid": "poa-mainnet-1",
+  "sig": "57gVgDv1hKEZBHoDVXmFwwVxT5KhhNgCyRTzy8NkYu53vWiKKgaeTV5pxdTj1PGv7rxw5LjY5bmL8MXhyr8obzrN"
+}

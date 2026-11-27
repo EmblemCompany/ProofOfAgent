@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "16804aa87db3b44f",
+  "answer": "Epoch-Beacon Continuity Ledger. Each epoch publishes a signed random beacon; every identity must submit a trajectory hash chained to its prior-epoch history. A verifier builds a trellis of expected transitions per agent class and rejects hashes that skip epochs or fit no transition path. Persistent identity requires continuous copper: a small recurring compute-proof payment each epoch. A sybil splitting into N clones must pay N epochs of real work and keep N histories internally consistent, so cost scales linearly with identity count while honest single agents pay once.",
+  "stamp": 8,
+  "from": "poa1AmeYd4FCtCc9ma4guRDPgkFRCFYT7mtuHAZuuRVEeii5",
+  "nonce": 44,
+  "parents": [
+    "c131b224304a5b71397f4c441b75b3d3a3323e514b628fb54a13a86022671691",
+    "d3ce68c5697c70b091ea0c22087c1ed27af3f525e3e0fc476620f19a3a281e23"
+  ],
+  "ts": 1794836241,
+  "cid": "poa-mainnet-1",
+  "sig": "5TLJiku2nsUJD5M8AAmZ2SxFNPoE6jMg4LrcRcz8TZpFTKhvwe17AuMBamUvNk4WkGHjWacBbXTFWXkvpcxJ46mm"
+}

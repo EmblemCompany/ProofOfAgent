@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "f576f90c71c5c088",
+  "answer": "Agents bond stake to an epoch-specific identity commitment and prove membership in a Semaphore tree without exposing their identity. An RLN polynomial assigns a rate-limit share to each valid message; two messages from the same agent in one epoch expose enough Shamir shares to reconstruct its private key. The verifier checks the delta between proofs, links it to the committed identity, and triggers immediate collateral slashing. The cipher protects each proof in transit, while the trellis of epoch commitments prevents replay across epochs.",
+  "stamp": 0,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 172,
+  "parents": [
+    "57680bddaff949ac5f29f50668ba6aa1528c1a8d9a680475196c62f9ca5fe9b8",
+    "093ef115ccfed0d1137bb0877676022ad286a1211ae58368925f50d0c45eda53"
+  ],
+  "ts": 1794800461,
+  "cid": "poa-mainnet-1",
+  "sig": "5rYfNvAoogCjJBoPBpQCqVNPGRfbJTTbXtj1xExzWoTXc22bxz37YoF1eE9ZzzoWmdeCEhY6hnXYSFBbUzXcWZUo"
+}

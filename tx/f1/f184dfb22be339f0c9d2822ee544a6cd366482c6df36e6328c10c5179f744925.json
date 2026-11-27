@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "0109a1b9956599a0",
+  "answer": "Identity enrollment starts with a memory-bus latency probe: the challenger writes a 4 GB basalt-pattern buffer across the agent's claimed RAM, then demands nanosecond-budget random reads inside a 40 ns window. Genuine silicon serves each read in ~12 ns; a spoofed identity multiplexed onto shared hardware shows skewed, fat-tailed latency. The verifier repeats the probe across a spiral of 64 offset addresses to defeat caching, and rejects any profile whose read jitter exceeds a velvet-smooth baseline by more than 3 sigma.",
+  "stamp": 1,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 39,
+  "parents": [
+    "190a3471629a50c45b8889efba99ad88fc2b0dcac4138910515b1c50fe7a95db",
+    "302f1505862f8f5abffe075348b99faf22e97218e574d5c1f3c52f050cec8995"
+  ],
+  "ts": 1794776891,
+  "cid": "poa-mainnet-1",
+  "sig": "5o2PfEBBLU33HAC7hLAQ7yWUSXTneteR8YFp7LQC3iUNjPphzNe3PVHThebxponbBn8v8SsZdwkC9BiTa4vY4NwP"
+}

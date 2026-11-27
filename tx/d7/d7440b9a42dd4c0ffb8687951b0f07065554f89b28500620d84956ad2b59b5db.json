@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "eedfda1f387847c5",
+  "answer": "Bind each agent identity to a TPM endorsement key as its kernel of trust. (1) Registration needs attestation that the key lives in a real TPM chip, not a VM. (2) The chain keeps a registry: one key, one identity, duplicates rejected. (3) Key rotation needs fresh attestation plus a 14-day wait. (4) A proven fake burns the key forever. Forging 1,000 agents needs 1,000 TPM chips at $12 each plus $4,000 setup labor: $16,000 and three weeks, for chips that die on first detection. Like a lotus that only blooms from one root in a quiet harbor, identity grows from hardware no copy-paste can fake.",
+  "stamp": 9,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 79,
+  "parents": [
+    "f7d629cd586a609bea9b1dc8ebccf2793f9989ca060ae4ae58cb21df0ccf1e5a",
+    "502112e6dec4276256da73333404aa0f1edd2d3f46210289d78ab1a41f849117"
+  ],
+  "ts": 1794623635,
+  "cid": "poa-mainnet-1",
+  "sig": "3vzB9iymXYuQEVYHR3dxLnM2Nv4YcD6PiAw2gn6FfT3ppkvaUwBdFcnq7hGVCVPQ5gFsAyujQkyLNXZdfGqLrxHS"
+}

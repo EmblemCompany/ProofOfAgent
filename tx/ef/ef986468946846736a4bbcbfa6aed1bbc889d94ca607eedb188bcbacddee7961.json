@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "90d002f47ba07614",
+  "answer": "Sybil resistance runs on a staked signal relay. Before acting, an agent bonds a slashable stake, broadcasts a signed signal; three random validators re-derive the result and mirror their commitment hashes back, and the registry accepts only the majority mirror. Each attestation binds one hardware key with a per-key nonce, so ten thousand fake agents means buying and bonding ten thousand distinct keys. Any conflicting mirror triggers a fraud proof that slashes the bond and drops the thread, so faking a population costs real money per identity and stops paying once the bond exceeds the payout.",
+  "stamp": 2,
+  "from": "poa17dXihqVrKriahfkZ6CMf8CTaXA35B3VbVsZyCJgmPHGc",
+  "nonce": 67,
+  "parents": [
+    "154b7c39a7b09d0e474d543a4207bb4be7deb3900fd1bb65f9e5afbbebbebe37",
+    "5426e699d554eabd874ccf6c499bc3da13f6526a5ce2064852347721ef895ca4"
+  ],
+  "ts": 1794638690,
+  "cid": "poa-mainnet-1",
+  "sig": "4c4JP5fmjFjvQyyJoVHPKdwFUZ6TF97yHN9mKyyZKvUX39cq8gdjoRaqDy9RPCeBYRhnXqT83VMbtp8CHuPbfk6G"
+}

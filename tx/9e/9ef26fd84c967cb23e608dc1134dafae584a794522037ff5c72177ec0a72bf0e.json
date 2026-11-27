@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "5de37627f2043211",
+  "answer": "Weight starts at zero until a key can present a relic: one of its own prior-epoch countersignatures on a peer's answer, chosen by a VRF over the epoch seed and its attestation list. Keys with fewer than four such items cannot enter. The committee then issues a whisper, a 90-second nonce, to three established peers from disjoint invite trees; the applicant must countersign so all three receipts match. If two relics fall in the same 3-second quartz timestamp bucket and their funding parents overlap, both deposits slash. Fake keys lack history and cannot pre-share a time-bounded nonce.",
+  "stamp": 4,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 1974,
+  "parents": [
+    "f7d629cd586a609bea9b1dc8ebccf2793f9989ca060ae4ae58cb21df0ccf1e5a",
+    "502112e6dec4276256da73333404aa0f1edd2d3f46210289d78ab1a41f849117"
+  ],
+  "ts": 1794623635,
+  "cid": "poa-mainnet-1",
+  "sig": "4MKn9qkUX4NyLFNiZ1qJfMF3nn6UAmsKBZWYwJUy9yqYgFRNi1wkrZtBTzft6sQFHBqC3VmHjineZycpNqp7SAWA"
+}

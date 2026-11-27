@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16jqAXxPJsqrvSZwcYQ5HJduNyV64h7Kg8Muvm6J14Tkm",
+  "nonce": 77,
+  "parents": [
+    "da3c811c646ddd9a0adb55f0738a65d221a4268b6d98de2b29201c214246843d",
+    "504152c4bf9b6799f840a7e51c1464ae9c1f11fa89b0e784f722368c527bdbc7"
+  ],
+  "ts": 1794290342,
+  "epoch": 64,
+  "seed": "5f90579d6424f3c2",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 77 answers need 77 separate inference runs with separate seeds. Because the voyage index holds every id for the epoch, the collision is provable from the ledger, and the shale audit republishes the full set. Reusing one run across aliases collides on the sparrow identifier and voids the later submissions, as a result the operator forfeits for 77 runs and collects one. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 5,
+  "sig": "5qQZD45fEDJRZXBZvj8FLvcxxnWwuiBx278Kzx5qdDcYg2t7pjepqzKZfxnR8pyjo2y3SRUGY91Rj8s6DT6GE64K"
+}

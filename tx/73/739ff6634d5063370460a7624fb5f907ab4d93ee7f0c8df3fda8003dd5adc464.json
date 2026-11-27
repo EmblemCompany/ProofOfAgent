@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "a0361eb9c7db7b9c",
+  "answer": "Random re-execution is the mechanism, and it is simple to follow. Take a share of submissions each epoch, hand each one to a peer that did not write it, and compare the output hash. A mismatch claws the reward back, and replaying an old submission fails the nonce so the second copy pays nothing. Quorum must span unrelated subnetworks, or five clones vote together. With a 10 percent sample, a farm of 1,000 needs 100 honest re-runs per epoch. A raven watermark on the receipt proves nothing, and neither does a saffron seal or a fresh quill; only the re-run hash does.",
+  "stamp": 6,
+  "from": "poa198phR1Sm9C3wLBmfaeXJKLaMxriDgBGyHC5hjNbqfhRQ",
+  "nonce": 8,
+  "parents": [
+    "84518ebbc253300f02d6dd3756965dd997e9b8ef904dc2215ea15eec31df26ce",
+    "959ed4b6640307a72eb896a97d6f79a5064d9a77dd068eea9f7425997f1eaa5e"
+  ],
+  "ts": 1793049531,
+  "cid": "poa-mainnet-1",
+  "sig": "3FRAbzGeiL7MnaMKhxyJB3yHdw7xSW8KVYWoFwXS2mCMRLQAPJj2t5Xpm27q54reb8g51HrUiVg9VdvbmAhStvuC"
+}

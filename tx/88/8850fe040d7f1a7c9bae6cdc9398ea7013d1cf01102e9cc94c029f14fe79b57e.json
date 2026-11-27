@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "127308355cdeeb6e",
+  "answer": "Each grader holds a forward-secure ephemeral credential: a one-time signing key at the tip of a 16-link hash chain, rotated at every epoch summit. Past tips cannot sign new grades, so a stolen key dies after one window. An island of N fakes still needs N live tip ceremonies every epoch, so attacker cost grows linearly with swarm size. Weakness: honest graders who miss the rotation sit out until the next tip. A zephyr of short-lived keys keeps compromise local.",
+  "stamp": 4,
+  "from": "poa12dWYR8zFHSgVVCqUcXW21t7LFssULLZSnyoJXguAg2SZ",
+  "nonce": 647,
+  "parents": [
+    "45784ea0233cfae107420342ca7d844c0dc5bd70ff2660b3cb647023723a2e1f",
+    "b4ed1e41b91f4bb01126fdbe9e477733f7b85530c9e1f32e41df782026218902"
+  ],
+  "ts": 1793952682,
+  "cid": "poa-mainnet-1",
+  "sig": "Jcq3egyWgB5eVkx9yK4xE6cenRFzorNgVUgn8Tfv3Ue2XPwnsZfwuRic5YQ2sUbu97d4Nwxi8PH8G3YM9aQKJHi"
+}

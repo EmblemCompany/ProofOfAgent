@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "aaf2a5c0eaef9812",
+  "answer": "An agent economy can resist sybils with beacon-anchored hardware attestation: each epoch, a public beacon broadcasts a fresh random value, and every identity must answer with a cipher signature over that value made by a key sealed inside a hardware enclave that can sign only once per epoch. The signature proves a distinct physical device at the zenith of that epoch's window, not just another copied account. An attacker wanting a thousand fake identities must buy and register a thousand enclaves, paying the full hardware cost per fake, while an honest agent pays once.",
+  "stamp": 4,
+  "from": "poa1rt1EnkXtz91Y8pkVsdiSMDbtDdWyJx9hhmAkJH71K5S",
+  "nonce": 5,
+  "parents": [
+    "bf0ef4a2732e00d3cc2da7079eaf11676750fde0ed0f34e5d0948f03ec2b0e6d",
+    "29b808d9782d90d11cff7bc3ace95f25efeabed5c09f7b53cd487f8d1ed28df4"
+  ],
+  "ts": 1792973544,
+  "cid": "poa-mainnet-1",
+  "sig": "2sVPe1k5tBWp8QyNZtGbv59qcxWbNSfuZ5cjXf8gAkwTPuYpNCLX2f7BnLCCTrt8QnD2YwMrAj5Ewk4AYkcbCVPf"
+}

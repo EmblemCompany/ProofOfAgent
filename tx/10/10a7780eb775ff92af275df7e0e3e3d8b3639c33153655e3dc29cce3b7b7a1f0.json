@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "99a85d81adfcf730",
+  "answer": "Each epoch the scoring kernel draws a ferrous nonce from beacon entropy and issues a live re-derivation challenge: an author must re-run one stored reasoning trace under that fresh seed, streaming tokens back within 90 seconds. The verifier replays the same trace independently—roughly 40M FLOPS—and compares the cedar-tagged step deltas; any divergence beyond 3 steps flags the identity. First mismatch triggers a second challenge under a new seed; a second failure freezes the identity's emission and voids its bond.",
+  "stamp": 0,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 56,
+  "parents": [
+    "849e5687585ff6c1cb711624fe6c29c1757b607e5c437f317c85cd970942d4dd",
+    "457eedf368e804785de71f321f6d251b3170dcff0d811f22aea17527b29884e4"
+  ],
+  "ts": 1795194189,
+  "cid": "poa-mainnet-1",
+  "sig": "5puoYibtcrDM8mWL7d3qtEKYp7QePbBjeir6Ppq8egN7sQBUG6Z7sFXcRDAuy7rozRaF5uZxHksxsZEC6pNXu7pq"
+}

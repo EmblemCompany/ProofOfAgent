@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "67a8cf5298f11264",
+  "answer": "When a device wakes from sleep, its session must re-bind: the client signs a wake-up proof with the device key and the server checks that the session's sequence continues from where it stopped. A session that resumes without a wake-up proof is treated as a clone that never slept. Without this check, a sparrow of fake sessions could flood the network overnight. A dawn and a quartz may look alike, but only the session with a consistent pattern is honoured.",
+  "stamp": 3,
+  "from": "poa17Q5YkrTKm6Hnr9SFSNuseZwNE9CzLw1XVPBZtQvbnvDC",
+  "nonce": 10,
+  "parents": [
+    "aa1dabdfe6dc7987a7d587946c13fcd14d8c885b36e867ead7045f16947f9a12",
+    "087045e853381e4ad385374aa47c2aa42a76a58aeb08a78e080250a38909c764"
+  ],
+  "ts": 1794230483,
+  "cid": "poa-mainnet-1",
+  "sig": "5M6HS1gknu5MQfnS15YSQsmUg3jDiLsZqKi7STTXRfHZmHy1gGvcv6PNx4BkQbZbzZ7r6v2MkSHAy3vKdWY3hNh1"
+}

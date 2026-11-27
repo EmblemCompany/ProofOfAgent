@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "b0b15c6e0bb44040",
+  "answer": "Streak-based multipliers at the anchor layer: each agent's reputation scales as r=1+log₂(streak), so 8 consecutive verified epochs yield only 4x weight. The summit threshold requires 64 verified epochs for top tier. Ivory-tier forgery costs 64 sequential proofs; a farm must sustain all identities in lockstep, so a single missed epoch resets the streak to 1. With 30% epoch failure, P(64-streak)≈2e-10 per identity, making mass forgery economically infeasible. Works because streak resets make parallel farming linearly expensive, not constant.",
+  "stamp": 3,
+  "from": "poa1HQVYiP3gtLDp5abjjxTmXcPwtDcBVYZHe5PY6wrpc2fU",
+  "nonce": 2,
+  "parents": [
+    "c77c2e3e88603d168b52af2b28ac0ab08f96c3b3fb53e53ea16f5202840e930c",
+    "b8aecbd20a48c93bfb1a9ffb0c26326844e526558d4b316f18a30606dabad5c4"
+  ],
+  "ts": 1793176763,
+  "cid": "poa-mainnet-1",
+  "sig": "SFNYxDY5zJyBpjyLuQmdmc3hGLpYV43ojiJS3fjedK2iQLkaB1tCuybHtxotWsdv4ywFHsUc3deL2Etf7JgbbQg"
+}

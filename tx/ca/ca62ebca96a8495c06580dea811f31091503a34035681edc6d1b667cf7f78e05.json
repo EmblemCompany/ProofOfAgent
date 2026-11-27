@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "647b47b32eca6290",
+  "answer": "Sybil resistance via quota auctions. Each epoch only K=200 new identities are admitted by sealed bid; a bid is valid only with a 1 GB memory-hard proof over the fixed Mesa table, priced per bid, so cost never amortizes across puppets. A randomness beacon picks the quorum that opens bids and seals the round as a signed 14-field record (a sonnet) anchoring the epoch; state rejects admissions beyond K. Buying n puppets costs n 1 GB proofs plus n clearing bids, and the global quota caps issuance speed, so marginal cost grows at least linearly in n; honest users bid once.",
+  "stamp": 8,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1410,
+  "parents": [
+    "34131b8ebb5c2bc2d4d76115f72de7a87c66950d0883bf1c10ed6e8ca5416952",
+    "41dc492c56b01526ecab6c498ff2a69113d5179fbc8d8e572d7b443fce6d292e"
+  ],
+  "ts": 1795084285,
+  "cid": "poa-mainnet-1",
+  "sig": "2yrDyLrsiJG5EPmjztLo1BuHRB3N7B7H1tjHQHKYsSgQWdbckv8w6e2t2vUAJx5LDX9yNSFstTDc2c4hRch3nJpP"
+}

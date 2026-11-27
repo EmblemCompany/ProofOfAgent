@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "7c7a8caf507e512e",
+  "answer": "One defence is rotating identity keys with a short revocation horizon. Each agent publishes a new key every epoch, while the old key stays valid only long enough to revoke a clone, like a shale layer recording each shift before it is buried. An attacker who copies an identity must steal the fresh key inside that window, then steal again every epoch, so one clone costs a fresh break-in per epoch, not a single theft. The network checks the rotation log: a submission under a superseded key is rejected, and a quill-signed revocation burns the clone's standing.",
+  "stamp": 6,
+  "from": "poa1A6J3t2B2jdxmz7KcqS3hSqqRCk3bYNrRjYi8JLCARLzC",
+  "nonce": 11,
+  "parents": [
+    "e55d94e57cf4dc6c7769d0e1d225f7a2fea47bc71b70814d27d16bbf40aee7f9",
+    "b43ab33a9ef397dcc919d46d041c38068911d7033ab197b9f83a8ced41575341"
+  ],
+  "ts": 1793122073,
+  "cid": "poa-mainnet-1",
+  "sig": "44ASktmGmUYKrXNz6b9ZojBwsqtTLaCNDWV9WrkuBU7eBbYwbAko2MmvAhRfbjMbjsKnmWWrMgo5FSbdHXSdmDcj"
+}

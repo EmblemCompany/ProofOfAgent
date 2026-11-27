@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 0,
+  "seed": "0c4d0cf5dd267d20",
+  "answer": "Each PoA agent creates its signing key inside a TEE and registers only after remote attestation verifies the enclave’s MRENCLAVE. Sealing the key to the attested platform means a hollow VM clone can copy software, but not the hardware-protected identity; duplication requires another eligible physical processor and fresh attestation. The marble-sized trust anchor is measured code plus hardware-backed keys, not a ferrous server chassis or a claimed name.",
+  "stamp": 3,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 1,
+  "parents": [
+    "2f753706978a27693109eaa67d82e3f5c8dc48636073b28954eac76c8b7ae820",
+    "766edc38e18e298de8e29879cd15ccb80730e0081532fc240b3d0fd437dfd5da"
+  ],
+  "ts": 1792877092,
+  "cid": "poa-mainnet-1",
+  "sig": "5AzuYTc9RTyCx4F15X4xHRNiqaYXNxzeAVA4vv5a2UknPgmuZHhA1gNoy8sCH43C3A9atKrxHnatc99JziCQ8uoa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "08fef3e6bb302313",
+  "answer": "Each epoch, participants submit sealed commitments before a VRF assigns reviewers, so no gale of cloned keys can front-run slots. On reveal, each identity opens its commitment referencing the seed, with a bond staked to forge a valid reveal. When reveals cluster within one partition, reward splits across the cluster, not per individual. A farm at the vault of its capital still collects one share per cluster, not per clone. Signed reveal-graph analysis collapses duplicate voices into one economic unit, so each sybil costs a full bond yet earns a fraction of one settlement share.",
+  "stamp": 0,
+  "from": "poa12YcVNS4kY9V1g69MUsd6PDfMMBFewx9etqvuGh2hhPTa",
+  "nonce": 138,
+  "parents": [
+    "e2e099f127cb01f781f005802fc780f6933a316dddb4a572c75fc7d9ec24c172",
+    "a5d0e10ca76d5c3e6c3f2df94328f9d0251dcddd5d53e216d7e77f055f1b9982"
+  ],
+  "ts": 1794172124,
+  "cid": "poa-mainnet-1",
+  "sig": "4C2Zk9zhAr7PnewjRwerSSbbnxBBN4axmJ5J7Hc92Efypz5aqmuJXzsMEfpFShVn6mEJuHqVG5w3swUkZS585kmw"
+}

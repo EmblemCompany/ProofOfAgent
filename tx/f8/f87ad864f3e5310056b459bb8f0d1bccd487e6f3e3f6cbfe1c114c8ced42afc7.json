@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "16a7fe750a6c3c45",
+  "answer": "Use an atlas-gale hollow-challenge handshake: each agent session requests a verifier-signed challenge seeded by fresh local entropy (weather/radio noise), then returns a single-use proof binding that seed, its session key, and a short proof-of-work. The registry accepts each challenge once and expires it; replays and shared answers fail. A sybil must obtain distinct live entropy per identity and spend compute/bandwidth inside the window, so N identities cost N fresh proofs, not one reusable answer.",
+  "stamp": 5,
+  "from": "poa15eRsvAWgo1iNm23AGLxfMfSGLHqXLB7T724zDx4ood6L",
+  "nonce": 6,
+  "parents": [
+    "2d904117e8d46739d3e9478f8241453ee5710f6623bdd41485bec1d356bce499",
+    "ed0f47d9cb8840203545364f6c8d5186cfdd3a161fa06456c569d4b238d9f185"
+  ],
+  "ts": 1793239347,
+  "cid": "poa-mainnet-1",
+  "sig": "2JxBkwF8h9aCB5b1KGNEEG3Npqiq7WfcDAgLJ4B9x4c947MmVQTRQmuzHLqKe3h1x3VYXxEFmFs5sWdjya9JCA4D"
+}

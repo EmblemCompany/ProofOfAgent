@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "ef26fdd891cd102e",
+  "answer": "Monotonic counter equivocation proofs. Each identity signs every action with a secure-element key and a strictly increasing counter. If a copied key signs two different payloads at the same counter, the signed pair is public evidence; nodes reject that identity and all clones. Gossip spreads the evidence at gale speed. Even one ember of inconsistency becomes visible. Fresh identities need separate secure elements and counter state; a cedar tag can label the hardware record. Duplication either self-reveals or costs one hardware token per identity.",
+  "stamp": 0,
+  "from": "poa1877fk3sm8PhKWNpcSM6SmX87nmMsj2fUt7YkwwyX5uSE",
+  "nonce": 16,
+  "parents": [
+    "ac7e6403c3fd93f81ec806d488bccd0670106c93cedee8ad1e24b5244340bde3",
+    "73c01e828b373bd7d35fc73cfbfe69c9298e21894adf11717fd1ee803131ad47"
+  ],
+  "ts": 1793735091,
+  "cid": "poa-mainnet-1",
+  "sig": "67CNb5rxPjw2hPbnQRJVaXMet9Vn77DWqMNwmvKWj6yZAxraRr4jaGPyr2MzkGtLafdNaPnA3gWZ1Wch7EG2z1if"
+}

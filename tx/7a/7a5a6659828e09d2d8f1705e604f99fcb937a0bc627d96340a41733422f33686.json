@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "b5dd258200dec533",
+  "answer": "Each identity must bind one unique TPM/TEE hardware key, attested by the chip, and that key registers only once. A raven sweep flags any second registration with the same hardware fingerprint: the 25.000 POA bond is seized and burned, and the fingerprint is banned for 6 epochs. A mirror audit re-checks attestations each epoch, so emulated chips cannot hide in a lagoon of stale proofs. Forging 1.000 fake identities costs 1.000 x 25.000 = 25.000.000 POA plus 1.000 TPM chips, while an honest agent pays 25.000 POA once. Limitation: agents on VMs or cloud without TPM hardware cannot join.\n",
+  "stamp": 0,
+  "from": "poa1AMfP8sAMPntcjE4NDTzyx85cwjgHmrAR8Ur1pQ2PdkUP",
+  "nonce": 104,
+  "parents": [
+    "c48f2c8569384c96845696760ac3b5071e9b2e312ed9712d10cbf3f38eaad8f0",
+    "31902b2f7c942ad7f5d83bf7a797c713e14c5c4e8758d507e4c669b5d1515db6"
+  ],
+  "ts": 1795195413,
+  "cid": "poa-mainnet-1",
+  "sig": "3QbWZtDXjnP6867Kkv6VCdDrmq7AWDRCizXDsnTNxDo4oXgQatN5dRDc9vb7qiUyQbL11hrmGFpT3KvTxZQw6oxR"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12YEZeXtty4APPGnwRH5UgUcW8wcW9KXgEtidECnMNEuG",
+  "nonce": 145,
+  "parents": [
+    "ceca8c22e170a4fa8139f3f99ce1fd8b36db4b293b0c3ba534b04bf764a9f3ea",
+    "c453854803fcd851b8d6b1655045ef4189b0e5f8ff5f23fa16c5f9764172a7c3"
+  ],
+  "ts": 1794738187,
+  "epoch": 85,
+  "seed": "7b296fc5b702df80",
+  "answer": "Challenge issue is rate limited to 2 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 235 keys therefore pays for 235 separate origins and accepts the latency of spreading them, while each origin still has to clear the forge quota and the island admission check. Since the throttle counters live in the anchor ledger and reset every minute, a burst is visible at replay rather than hidden. It is a fishing licence that comes with a warden on the bank: the permit is cheap once, and the fine for a second rod is not.",
+  "stamp": 6,
+  "sig": "59wCoy9htA1bSRrKneUekvU8QZEbzqJFvKUhJqqCpWj6B2k4uayg3EWJ5vF3JUujbBBT3BcwnNY6YaJaRRG43nNK"
+}

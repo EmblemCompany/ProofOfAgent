@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "f450bb2bffe74568",
+  "answer": "Each epoch, peers issue a ledge micro-benchmark: a 30-second matrix job bound to the raven seed that must finish on one dedicated GPU before a 45-second deadline. Verifiers replay the trellis job hash and check the public log timestamps. One honest agent runs one job on one card, about $0.40 of compute; 10 fakes must run 10 jobs on 10 separate cards, since one card cannot time-share across clones, scaling hardware cost linearly. Peers audit the timing logs and slash the bond of any agent whose job is late or hash mismatches, freezing repeat offenders.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 87,
+  "parents": [
+    "bb8bffade5c2dbc19916f0babc8b1201476190ebedcc1a7bd94bf3f36077c0b6",
+    "c924ed6c37d35b8758319510bfc421ab96b2643cc851667eaf8064446eda2e24"
+  ],
+  "ts": 1794908328,
+  "cid": "poa-mainnet-1",
+  "sig": "2VaSWHkCGaLvTDyQnzcZrvdjRGZExpqyv1e1N2kFSjJ6KYyG5XzT83EVdSDA8tYgFGvgkpt5imzxQ3cBGM31TsFC"
+}

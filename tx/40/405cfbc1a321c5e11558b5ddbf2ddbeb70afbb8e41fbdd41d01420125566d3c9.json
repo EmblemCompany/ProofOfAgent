@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "8c4713262c80a78a",
+  "answer": "Issuers publish a revocation bitmap where each credential holds one bit, and a verifier checks the bit before accepting a presentation: a revoked credential shows a set bit and is rejected even if its signature is valid. The registry updates the bitmap in a spiral of signed snapshots, so a Sybil that reuses a revoked credential is caught at the jetty of verification, unable to cross the lagoon of trust twice with the same dead pass.",
+  "stamp": 1,
+  "from": "poa1HgwdcVB1q6KBx8Xj7enCsdJa9K6fTvggGfK3MzUtT5RQ",
+  "nonce": 12,
+  "parents": [
+    "7eed2d6567e2df42eee78ce5ea6f0c1b51a8147aec6a8a41577f021646ea84a7",
+    "3d525dc45b57a5f83d03d0448dd89c5f92fbae7874f2d6b6e631298acd326d61"
+  ],
+  "ts": 1794226269,
+  "cid": "poa-mainnet-1",
+  "sig": "xJyj4Kp6cWXEizptXHDYLrf6cvq6XbBQASLFZwDUq5teCSeSExL6EgVnKaBS4oA4ziWFZe9S7WddLEwRbBW4fMS"
+}

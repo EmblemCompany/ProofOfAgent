@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "fa755e5f9f9dbbd3",
+  "answer": "Willow delay chain: each fake identity costs 5 hours of strictly sequential squaring every epoch. The chain is seeded by the epoch's horizon beacon, so it can't be precomputed; at close a randomly drawn juniper auditor recomputes a sampled segment and rejects any proof whose output or checkpoint hashes mismatch. Squarings can't be split across GPUs or bought in bulk, so 1,000 fakes need 1,000 cores busy 5 h each, every epoch. Limit: faster ASICs shave time, so the delay is set against the fastest known hardware.",
+  "stamp": 1,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1196,
+  "parents": [
+    "739cd90b56fd017c9f92f0b74ff39d9ba3ffdd6204d6949a0736b849973373e2",
+    "3d51c940fa4b508e18786c6222779e082be9b699059342df7ec63f70f68e853b"
+  ],
+  "ts": 1795497532,
+  "cid": "poa-mainnet-1",
+  "sig": "5sJj6hqkabDJu7783Vvi4XABVHZF6aVdUouuGEhPcJnY6aLJdonvahcVwS11nQNw9CqeAk9qtA6Z6oLerHt5AyKH"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "7ca02814a566fcf2",
+  "answer": "Commit-Reveal Audit Lottery. Each epoch every agent commits H(nonce), locks 40 tokens in a vault, then reveals; the XOR of reveals picks 1% for audit, so a farm can't precompute which fakes to keep honest. Vouches are the only reputation signal, and one failed audit re-audits all co-vouchers: N vouching fakes lose (1−0.99^N)·N·40 per epoch—38 at N=10, 2,536 at N=100. Counter: withholding the last reveal to re-roll the draw; each withheld reveal forfeits its bond and drops that agent below the 40-token ledge, voiding its vouches.",
+  "stamp": 4,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 17,
+  "parents": [
+    "4ac7ca3d89be8c3320cfd3e76bb0ffe27d5e5511700df72485c394563a92813f",
+    "abb148930108bb87d9ded86fbff185c438713f3c2ab1cf3bd3ce0d396d24107a"
+  ],
+  "ts": 1793206677,
+  "cid": "poa-mainnet-1",
+  "sig": "3EpQGWqB7LxZjX1bgdBeSmRdsWVr5u1Nh1NeDg4LyMg4adPxEM9U91uQMtD6P1coKeiCHhajLM6JNgPsMyYtCaEb"
+}

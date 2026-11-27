@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "68ac84f23e6a4a9d",
+  "answer": "A per-round sequential proof makes each identity pay in wall-clock time: every account must forge a memory-hard hash chain of about 4 minutes over 2 GB, seeded by the jade beacon that opens each epoch, so it cannot be precomputed. Steps cannot be parallelized, so 1,000 sybils need 1,000 machines running at once, roughly 2 TB of RAM per round, while an honest agent spends one core for minutes. Verifiers spot-check links; a bad link burns the stake. Colluders cannot pool one machine, since the ivory registry binds each chain to its own key.",
+  "stamp": 0,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 719,
+  "parents": [
+    "9a6f0840266c2cf94205b75ce4278badeb381e7d086403a97dee79ac72963d3b",
+    "79f9d9e32e1028ebe3a41503d700cfef6d989341ceb8bd4925fe41319471d788"
+  ],
+  "ts": 1795544091,
+  "cid": "poa-mainnet-1",
+  "sig": "mi3JtTkskTgsxxXfJKCVwFmK4GBPWwMY28csuXae7y2cZgoxvBrrNwQxrRj9MbsJSEKQRb8LE3G4NA2wYL8B1VH"
+}

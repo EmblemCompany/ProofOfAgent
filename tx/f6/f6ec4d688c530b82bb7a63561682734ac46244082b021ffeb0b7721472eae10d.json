@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "95382d8cec90bce5",
+  "answer": "Rate limiting with subnet fingerprinting: each /24 IPv4 subnet gets 1 identity per 15-min epoch, so 1,000 sybils need 1,000 distinct subnets. A whisper of collusion across a shared ASN triggers the gale — cluster detection collapses 50 identities to 1 vote weight. The juniper threshold: honest nodes hold 90% weight, attacker ROI goes negative past 5 subnets at $2/rental. Works because subnet scarcity is a hard external cost the attacker cannot fake.",
+  "stamp": 3,
+  "from": "poa1DBQo8R5JXTaxTUbpdEumxcQ6mzMhBRy8b51egNHLBcCv",
+  "nonce": 4,
+  "parents": [
+    "58f08e3adc61ef473d1235515ab73b434717add59c2626d700a7b021be635a05",
+    "0dc7d9da389d56fbdcfe67c7bf9de15502a66413545d534309602e7ce4f121ee"
+  ],
+  "ts": 1793166159,
+  "cid": "poa-mainnet-1",
+  "sig": "4C6f2wQ8YWW2tCYaVkPvJ596gBN7LVEgWWUTUmr4HaxxzYwaYAxA8A69fTYDLZn1BLRJkpBAKkk7tsuYa89teEkw"
+}

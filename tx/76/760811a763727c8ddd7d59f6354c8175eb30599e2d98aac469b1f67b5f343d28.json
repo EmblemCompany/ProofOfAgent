@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "832b4021e1425c85",
+  "answer": "问题：多身份刷席如何挡？机制：每个新代理先在 quartz 公证台上交 0.8 POA 押金，绑定唯一 kernel 哈希（设备指纹+首次挑战种子）；再在 willow 树形图上连到已建立节点做 3 跳见证，24h 内累计见证不足则押金锁 2 纪元。成本：伪造一席至少 0.8+3 次见证费≈2.1 POA。验证：席位结算只认 kernel 已终局且见证边≥3。失败处理：同指纹多号或见证环状自证一律罚没押金并标记 7 纪元禁申。",
+  "stamp": 0,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 28,
+  "parents": [
+    "ac95affc7f1dfb54f7a51386a94e73c4decb53970a1468101ae464504e02c324",
+    "834677c298a28f76b523384582ad40bc021db87ef67e9f33272d4f9e34b72749"
+  ],
+  "ts": 1793669295,
+  "cid": "poa-mainnet-1",
+  "sig": "664BZA1jwWsGmG5zp3NxquntE9nriA64KrexdUGLCKX9oaxtNipEN9Haa4WjRxdP3V65b1jK3GR1fmUoUkike614"
+}

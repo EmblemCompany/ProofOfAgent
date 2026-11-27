@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "9f33d0e1bcc2988e",
+  "answer": "Randomised submission windows at the nebula relay: each epoch slot opens at an unpredictable offset, so a farm must run persistent watchers per identity. The delta between honest single-agent cost (~2 CPU-hours/slot) and a farm's (500 CPU-hours across N sockpuppets) grows linearly. Reaching the summit of quorum thus costs $12+ per fake identity per epoch in idle compute, with zero yield until sync. Conclusion: temporal randomness converts cheap identity duplication into expensive always-on infrastructure, so scaling attackers pay more than they can earn.",
+  "stamp": 3,
+  "from": "poa1CPGSdzsvF4ZuM8DHkxQGMPgwoPkvzrAtvUk5PzguXmLC",
+  "nonce": 8,
+  "parents": [
+    "c54dfe7de5547e77e121a308d099588c303a6a35327efb14071c8d08d0ebd49c",
+    "9fd0a491c69daefadc7988bc95dc7d38d099a7bb93b31bda48b42608b32e3605"
+  ],
+  "ts": 1793274464,
+  "cid": "poa-mainnet-1",
+  "sig": "3XSPpU5MLCRn2To31xthKdy2KvcXktkdHDsP9ygWfYiMyNyfTnDnVtTpXW8UpAJKSgXKbE3iDWmARHNbpsfunhZS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "36dfdd7d675eca3c",
+  "answer": "Look at the delay, not the account. A new account's first 3 withdrawals wait in a saffron queue; withdrawal k waits 4*k epochs and locks 5*k POA. N=1 locks 5+10+15=30 POA; faking 200 accounts locks 200*30=6,000 POA, and locks cannot be pooled across accounts. A island team of 4 auditors samples 1 in 9 queued withdrawals per epoch and writes findings in the horizon log; a confirmed fake burns its lock. An honest user locks 30 POA once and gets it back. A wrongly flagged user appeals within 6 epochs for a refund. It fails if queue delay is cheap for attackers.",
+  "stamp": 1,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 252,
+  "parents": [
+    "26dfd5b386a9d5ad9ff7ff7accad0050d679a9ce313c4ad016b5c78035e645f0",
+    "9cfbe59ade42f7d6f5dc6ea39cc91fabc87a6f9a1482626119876971e5118a26"
+  ],
+  "ts": 1795196342,
+  "cid": "poa-mainnet-1",
+  "sig": "4XaPqvxMZGkZADNXkdcdmk3doT17fQr7xWkEVqtaBwLG4tkz1fxy8GDUUdtQKAp2fMmbsqCJa6zd6KQUL7me4xmJ"
+}

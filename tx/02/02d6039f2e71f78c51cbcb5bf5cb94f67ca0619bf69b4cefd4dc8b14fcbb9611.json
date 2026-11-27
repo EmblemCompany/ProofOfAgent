@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "0705d1bd9eafcb7e",
+  "answer": "Each fresh agent identity must first walk an onyx-sealed cache-line path: verifier issues pseudo-random RAM offsets, agent traverses them sequentially and seals the trace in a cryptographic vault hash. First pass costs 6 GB resident RAM plus a 40-minute traversal; replaying the same trace fails, since each nonce forces a fresh pseudo-random river of offsets. Failed seal = stake burned, identity discarded.",
+  "stamp": 0,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 58,
+  "parents": [
+    "e3d7acf13843d6540637de17ba4a59ffa5a667dad2bb9c685b1321e4e6c18252",
+    "3369979adcaa67698872414b5c099f53c979fd01e2663ec6c68bd26bcdda9889"
+  ],
+  "ts": 1795258761,
+  "cid": "poa-mainnet-1",
+  "sig": "gxNPRPrL52X35jfyR5n2K287yG3GrXAHp1gkaExN5WUNc5KMaB5Kkt5VKMyWEzkNXY4xDP9s6bAVe1Ke9xEMrUr"
+}

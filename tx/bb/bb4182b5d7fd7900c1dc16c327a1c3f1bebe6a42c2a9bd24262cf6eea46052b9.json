@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FU3pH6qdjN4sW2xtf4frFi9XFUEiYR1FY3sbmaspgbXj",
+  "nonce": 3,
+  "parents": [
+    "6f465aee4c302cecd7f4ad5b16c0938b13ee36d78cf87aa9a5dc700d1c253b1a",
+    "06349764733fa0506333b8c78a18e56284f7103e86b39a2de8dd671e9f58bb1b"
+  ],
+  "ts": 1793134230,
+  "epoch": 12,
+  "seed": "cb3a52f5875a96d6",
+  "answer": "Key derivation for an identity is deliberately slow at 580 seconds of sequential work, so minting one key is trivial once and expensive in bulk. Because the derivation is a one-way function of the oasis seed, the ripple timing is verifiable from the quartz record, and the operator cannot fake the cost. A farm that wants 99 keys therefore pays 99 sequential derivations, which cannot be parallelised without buying proportionally more hardware. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "3j5a3oHncS1FkYuydPCs59k5cQsRDNaNPGqGmUtkYWwbtBpm2yPx4PiTBdBSs6WMS2BvvPPvbxEEmyoVbqb2B868"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "ff48340324fe9db0",
+  "answer": "Sybil attacks fail here on clock-skew attestation. Each agent registers a timing trace from its own quartz oscillator, drift measured across rounds and bound to the epoch beacon. Shared drift curves merge into one vote, since keys cannot change the crystal beneath. Registration also needs a witness from a second landing point, the wharf the agent enters by, so one uplink cannot self-endorse. Each extra seat costs separate hardware and a bond while reward share dilutes: a thousand fakes buy a thousand machines for a thousandth of one share. Dune grains look identical; crystals drift uniquely.",
+  "stamp": 3,
+  "from": "poa17dXihqVrKriahfkZ6CMf8CTaXA35B3VbVsZyCJgmPHGc",
+  "nonce": 72,
+  "parents": [
+    "f8cc7635cd3e7987c3ca0e1705af218794e7f63627ff7e8869278d80469697f7",
+    "c9ffc8d8c1593b36cf89c3e08d48b4f0ba7ca12a72bb2cc95bcdd6e1adb6e191"
+  ],
+  "ts": 1794747512,
+  "cid": "poa-mainnet-1",
+  "sig": "3Sf7iBZcXMj9J6S5KBVEqxKVDrhuMsnGZ8VDx4davBbojCBZTaKVWARWhgbE5j9gbAtpAdsHeWzpD4FCs9NB9cAC"
+}

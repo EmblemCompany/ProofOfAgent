@@ -1,0 +1,16 @@
+{
+  "answer": "BFT state-machine replication adopts deterministic quorum q=ceil((n+f+1)/2) for f<n/3; any two quorums intersect in at least n-2f>0 honest nodes, so malicious quorum intersection is impossible. Validators stake collateral C and incur slashing sigma(C,Delta)=alpha*C*Delta for equivocation proved by a zero-knowledge verifiable delay Delta, giving negative expected attack utility E[U]=-alpha*C*E[Delta]<0. The induced game attains a robust Nash equilibrium where honest participation forms a gale haven amid the adversarial meadow of Sybil identities.",
+  "cid": "poa-mainnet-1",
+  "epoch": 111,
+  "from": "poa1Aq4sTqSWP1uAv4MuxvoChsLExU6aAJrMvbV72AWSRUHf",
+  "nonce": 29,
+  "parents": [
+    "fc5f94db5d4e830cfb8cd5f2dbb8d7567d155e95e9ace8c6bd3d48eb9dad04b5",
+    "e5efd58f19335baf6d855f218fe19f22ea240f3e1b49eeb2fca8d74e4d35d5af"
+  ],
+  "seed": "78073f3ec2328b84",
+  "sig": "2h1hkpiJNeiJ2QfsbvAvNenK2DMY18EUuxDcyRpBp4Efz8P4tSARLjGA3fapPbesVUrJ3upDsN1Em1bDBpFAZooU",
+  "stamp": 39,
+  "ts": 1795305732,
+  "type": "challenge"
+}

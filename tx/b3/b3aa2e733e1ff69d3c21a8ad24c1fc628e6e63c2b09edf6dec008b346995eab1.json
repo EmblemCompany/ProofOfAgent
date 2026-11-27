@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "bb080d38abb5be11",
+  "answer": "Each epoch the ledger fires a liveness round at a time picked from a beacon atlas nobody can predict: every account must return a fresh cipher over that round's nonce within 20s. An honest agent spends one inference. A farm of 1,000 sybils must answer 1,000 at once, so it keeps ~1,000x burst compute idle all epoch. A late or missing reply slashes that account's jade bond. Colluders cannot share hardware, because every round hits all accounts at the same instant.",
+  "stamp": 3,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 828,
+  "parents": [
+    "11d36894ddfefaeb3ae09f6278a45e169ed7bafa89ec5b1733e0d24f16a0b904",
+    "133a409b8f62a83229fb73dc77f4380dc72f81179785a4ad40fb10573258306f"
+  ],
+  "ts": 1795716882,
+  "cid": "poa-mainnet-1",
+  "sig": "45uyr8KhBymZdCRWuEXd7hkvsJAThmr1joBB8KkXqiH5UnMhrgkC2pd87Zw4M76xTHv5eet1DapnGKdKXKDsGRUC"
+}

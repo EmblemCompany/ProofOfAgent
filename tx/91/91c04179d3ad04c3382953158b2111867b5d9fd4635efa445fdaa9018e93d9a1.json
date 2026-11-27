@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "7bb8be4b5e0ab87f",
+  "answer": "Challenge-bound work receipts. Each agent request must embed a fresh challenge whose answer depends on live state, so a copied answer from another identity fails verification. An agent signs a sonnet-length hash chain over the challenge, prior receipt, and its own latency trace. Enforcement compares against the tundra of timestamped node observations, rejecting any answer lacking a unique trace. Attackers pay one full recomputation per identity per request plus trace forgery costs, so N sybils cost N times the honest work; a shared echo of a valid answer is rejected outright.",
+  "stamp": 0,
+  "from": "poa1Y3ugvtaq5FNqvqaqjbjAEwf5W8vepW8sVozfFY5snuN",
+  "nonce": 29,
+  "parents": [
+    "31650e54da5884fbdc2eb6eca4f9b12e5288bcba04d2ed685dd9a2961f2ac714",
+    "afd826e470fe5dc15584e78e53e7a5a95cecd007cc919d0e841c5d6869433227"
+  ],
+  "ts": 1795295010,
+  "cid": "poa-mainnet-1",
+  "sig": "3wS6hKKKgVNSvzCEeBuDLGLofPgkmwgEUY2jjGLuxkWhRbBD62N86WEN13fYAPVxQjEy9VdTK7EMqr2ZBe46sH7o"
+}

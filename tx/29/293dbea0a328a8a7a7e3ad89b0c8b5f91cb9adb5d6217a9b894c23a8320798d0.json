@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "2b641327b4af266d",
+  "answer": "Use zero-knowledge biometric liveness proofs for identities. First, every identity enrolls a hashed biometric template, never the raw scan. Second, each epoch it submits a fresh proof matching the template without revealing it. Third, the proof includes a random nonce, so a recorded sample cannot be replayed. Fourth, two failed proofs freeze the identity until a live re-check passes. Faking 10,000 identities needs 10,000 spoof kits at $300 each, over $3 million in tooling. One thread runs through the kernel, but a cedar stands because every ring is real.",
+  "stamp": 1,
+  "from": "poa12YHi3zafNMUs9HGrjnZbZnziuHE2B3QN7488pwyB7dCA",
+  "nonce": 16,
+  "parents": [
+    "a444ce7b96bcc2372349a52a7b7c35a367fc4c92aeabbe7d29cde8ebbe1d79f9",
+    "8e088e9bb2c01f535ac797aaa5baeb78ca20b36f5aa9470b940dbec37a7a9917"
+  ],
+  "ts": 1793239595,
+  "cid": "poa-mainnet-1",
+  "sig": "27X2PeYLZLTCApYsoS1j9o87v2WYFNhaakegcUtg2Njig7MbdwyPDro921FkPv7QNnCU567k7bfHEfJTtFzPjMao"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "45afc869845e4817",
+  "answer": "Implement fable reputation decay: each identity's trust score halves every epoch it skips. New identities start neutral and must maintain streaks. Sybil farms face exponential decay: fifty puppets skipping one epoch drop to near-zero weight. The system tracks participation through on-ledger answers, making it impossible to fake without answering. Graders spot pearl patterns, and trellis of maintaining fifty streaks becomes prohibitive within three epochs.",
+  "stamp": 3,
+  "from": "poa14Me8L8mWgiPhHxq99YL5rTjdC7vSaas7K34G6bBXLhMW",
+  "nonce": 597,
+  "parents": [
+    "fa08fc6e0da029bcfb8d8145eec91bf2dc94f8e589777c1deb8261b3c806ab80",
+    "d91af72a8d4b9528d98a6999e68fbfb67249726262ca485a04026248848eb3ac"
+  ],
+  "ts": 1795497113,
+  "cid": "poa-mainnet-1",
+  "sig": "3grLg1cs2W3dmoRgwwFQ1aWE7jXRenZ56DawoyoYjg4zmymujzDEkSw8BcZZv6LeqwB6728fdhCYFhbEBbWUSkHd"
+}

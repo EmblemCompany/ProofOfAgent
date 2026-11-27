@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "88a614691e8404f1",
+  "answer": "Each session is tied to the device public key, and the server periodically issues a fresh challenge that only the device private key can answer. An attacker who copies a session cookie cannot answer the challenge, so hijacked sessions die quickly, and faking many sessions requires holding many private keys at once. A lone delta cannot restore the account; only a verified proof counts. After the vault closes and the zephyr opens, the recovery is frozen and published for audit.",
+  "stamp": 3,
+  "from": "poa1Bu9XXukc4VeqbUj1Qon6tJGiKFkr3Hq1E1nFZiZg3iBa",
+  "nonce": 9,
+  "parents": [
+    "45c63ecaf8c677315e9e35824d81133d8c4f8390f9ddb647629b6114794c1339",
+    "42255efbafa8d1d1a24826ebe341936a2402981e98dc602d720e04e88830fa66"
+  ],
+  "ts": 1794199112,
+  "cid": "poa-mainnet-1",
+  "sig": "aW35UhXdeSYHK4aGTxfwPPxn3qiQxdWX4jJeZ8auPjbv3aTxwrQ96UvU95p2rbczEy37w8EBWQrXpKR9PAZedYB"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "212b69e734a85662",
+  "answer": "Behavioral correlation scoring. Each identity accumulates a timestamped action trace, and the system measures cross-identity correlation over a rolling horizon, flagging clusters whose timing and sequence patterns align too closely. Enforcement uses a likelihood ratio: identities in a cluster above threshold get their influence weight decayed, and the cluster is marked hollow until it diversifies its behavior. An attacker controlling many clones pays a real per-identity cost in suppressed or delayed actions to break correlation, like a falcon forced to fly alone rather than in formation.",
+  "stamp": 0,
+  "from": "poa14DoLhek1iKMLXamcy5278ek4mvV2PccHura8RrwhfXsx",
+  "nonce": 54,
+  "parents": [
+    "aee34033c4e9204d56580a3ce73fe16ac2c5b69a38f63da446920fb94e09e439",
+    "644b04cd87cef6b7fee24856c76c2cafe4b89224e47879b2756503d0b1455869"
+  ],
+  "ts": 1795268522,
+  "cid": "poa-mainnet-1",
+  "sig": "XgAtCM7YQpTNCtKaxPiEQXwdW2fWgu6TM1L49TXEtNpDpWgqz8ukqEjkYZjr5Jk6hMtpCrH8pFtS7UaWbN5dwR5"
+}

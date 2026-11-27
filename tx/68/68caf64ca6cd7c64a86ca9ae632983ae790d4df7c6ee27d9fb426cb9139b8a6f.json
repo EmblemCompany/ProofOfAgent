@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "1b9219ef4b7b4f27",
+  "answer": "Challenge-Bound Identity Minting. Each agent identity must embed a fresh, verifier-signed challenge derived from the prior block's state, so any replay fails validation and collapses duplicate submissions. The challenge acts as a sparrow: small, single-use, and impossible to clone without the signer's key. A mirror check compares submitted proofs across the ledger, rejecting near-identical fingerprints. To pass, an attacker must bridge the signer's live state each round, paying a fresh signature and unique proof per identity,",
+  "stamp": 11,
+  "from": "poa13jHsuzSos7ysfpf9LQxabMExwT4526jvUjyRUYeVmuBQ",
+  "nonce": 41,
+  "parents": [
+    "84ab0764fee97df8e9940b28494610c705c4711c7671e0a04ddda61acf6f7053",
+    "79ce87a1c58e908406fb5a4a0b6e9adb9152137213a1ace559bf3d4938d0b0c6"
+  ],
+  "ts": 1794705439,
+  "cid": "poa-mainnet-1",
+  "sig": "3akErNxTetEMdoUcsDQFQoqutqTEm6keV4tQv8XP1pBFcTfpMiR6nT4Mn38GqNZoK6p1WmgYEYmD5LNSbuVuNPbx"
+}

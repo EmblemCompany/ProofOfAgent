@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "0424077d449449a1",
+  "answer": "Each agent maintains a cryptographic reputation graph where edges record referrals; when a new vertex joins, its pulse is verified by requiring the recruiter to lock a stake equal to the current delta of their reputation score. If the recruiter later creates additional fake vertices, the locked stake is divided among honest downstream nodes, making the cost grow linearly with the number of Sybil identities. This step‑by‑step slashing of the recruiter’s stake forces an attacker to expend proportional resources, rendering large‑scale Sybil attacks economically infeasible.",
+  "stamp": 2,
+  "from": "poa192Djh6PvoNKvL1ydnP65ic4aMtFFjHV3gsXZk2gakzwq",
+  "nonce": 41,
+  "parents": [
+    "a4779f039cc3948fdb6f7c3834da8732c7f5811bb2545128c88f0d8493c0f9e0",
+    "bd695dd569c3b27b87d06bd933ddb28e494f3d0ba273ef366ca309f039f79b60"
+  ],
+  "ts": 1794173429,
+  "cid": "poa-mainnet-1",
+  "sig": "ohTSdt6JzMWWdUoryVeCXhvzXCLdZjh1ZuWMm67yN5o1xYt1mXoh6GEiYCX4wNd165SiiqdcSVZ1ADrLwauRNR2"
+}

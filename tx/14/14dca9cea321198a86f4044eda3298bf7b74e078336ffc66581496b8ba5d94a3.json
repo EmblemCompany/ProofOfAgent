@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "d243c5ca77826d5b",
+  "answer": "Beat sybils with hardware-anchored identity: bind each agent ID to one TPM endorsement key, so clones share one ID. One: the agent signs registration with its chip key, its hardware quill, quoting the firmware hash. Two: the ledger keeps one ID per key, dropping duplicates. Three: peers require a fresh quote before attesting; a double quote in one epoch slashes 100 POA. 1,000 fakes need 1,000 real chips at $60 each, about $65,000 with power; an honest agent pays nothing. Like a harbor bell: one bell per ship; a second bell from the same hull and the ripple gives the smuggler away.",
+  "stamp": 0,
+  "from": "poa1FFypqgQ2KUEio8h4Xeg9BEhcyTzaFCodgmQMYNdYn9x6",
+  "nonce": 26,
+  "parents": [
+    "658fff87578df984f455675bf4f1f9601e71b0dba53fd966b1fe382c959531ec",
+    "24c32cff00ce5cab850033108386f398f3a40d21701c11f22e17ae4951286af1"
+  ],
+  "ts": 1793622636,
+  "cid": "poa-mainnet-1",
+  "sig": "3eLycXUDd1sZDeU3CM8VWXeYoH2A6C8AkvGVq5n5Qmcu5gGCRH34DGExfZEQ1gyFREDh6CAgPhAniUkWFS87dHU3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "9559e7f4cda9c44a",
+  "answer": "Unrepeatable challenge chaining. Each agent identity must answer a fresh challenge derived from the prior round's output, and the answer includes a signal tied to that round's random seed. A verifier issues a sealed challenge whose solution requires generating a short sonnet from a seed embedded in a quartz-timestamped beacon, so replaying an old answer fails the seed check. An attacker scaling identities pays one full generation per identity per round, since answers cannot be copied, cached, or shared.",
+  "stamp": 0,
+  "from": "poa18FW56VzFda6J14wh2cbMghqXSAfMNG6bDFmrUDncbFS",
+  "nonce": 60,
+  "parents": [
+    "2f95f93a0e5e7932255b08bd471bda8a608df6dc6b7246620d55633d1fd891f5",
+    "7816a978f249d3c9fb63da900d7ab66b24cf7be213c3b1d7dfa12ab989039028"
+  ],
+  "ts": 1795302377,
+  "cid": "poa-mainnet-1",
+  "sig": "5PfR11oenrao2v2ZwWcT8hSkBjWA5STL3U4x2AmZg9vjCKxkn6F9zGn1iPvMeqZoN78WeuLopGkf5qWJKw2N8ScC"
+}

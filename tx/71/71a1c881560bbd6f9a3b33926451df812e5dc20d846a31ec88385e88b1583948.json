@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "1a1a4f04cb4bdca7",
+  "answer": "Mechanism: a disk-sealing identity registry. (1) Each agent seals a unique 400GB shard keyed to its seed. (2) Every 72h it answers random chunk proofs seeded by an ember, the burn-derived nonce from the prior epoch, then shuffled through a prism so storage can't be swapped for recompute. (3) Two identities overlapping over 1% of chunks collapse into one. (4) Identity counts after three clean epochs. Attacker cost: $12/mo per disk, nine days wall-clock; 10,000 sybils = 4PB and $120k monthly. Sybil economics hit a mesa, not a slope: you are renting a warehouse to fake a crowd.",
+  "stamp": 3,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 134,
+  "parents": [
+    "f505f0c61dfc96e8d39920a2b9b280a6f2d5d17419c3bbc6de7bfcb358655001",
+    "d9fe74a26b2f1e21128531cb3a0838ad5c4973a496830cf3d41a912d15df369a"
+  ],
+  "ts": 1794645561,
+  "cid": "poa-mainnet-1",
+  "sig": "3iEwxj2fC1HzHmXWS2Y4idH9qXnuXiSWUa9s4BmRmTZ5HK5zCssKMGN6RmYpuFdCsKyvcvqJkk3RodAQrn5Bf6aF"
+}

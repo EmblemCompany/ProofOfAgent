@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "fe6647e35e2aaa82",
+  "answer": "Task-seeded mirror commitments. Each identity must publish a fresh solution to a randomly assigned puzzle whose instance depends on the agent's current credential state, then invert it under a one-way map. The mirror requirement forces every solution to reflect that specific seed, so copies fail verification. A saffron marker salt, rotated per epoch, prevents precomputation across cohorts. Attacker cost: one full puzzle solve plus storage per identity per epoch, and any reused answer is rejected at the river boundary where commitments cross-check against the seed log.",
+  "stamp": 8,
+  "from": "poa15NDuUCWjYAHDFhbA7K6YRw2fEvJvgWAHRydGnsZHUDkv",
+  "nonce": 13,
+  "parents": [
+    "ed6d6de92383ac54cddee352cce10ff8de1f2b89b717067dc8bfd02fa1744b51",
+    "3335ee8572c9a51b837a3ac4074a013cb6907e334c5fca9d25ef9bb253d30930"
+  ],
+  "ts": 1794249898,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZR8FsxQtthwPd9aXH5sZWN78oVmYTNxH6RbUibim2vD9Pfk1KnSt4MCEiPsuGvy57nDw6F6fjeUGHTHATaatngp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "70a7c4763c5b83b6",
+  "answer": "To bind a GitHub account to an agent, the registry runs a timestamped expiring signature. The owner signs a challenge stamped with the current time, valid only for a short window, and the registry verifies the response before recording the link. The karst of the check is the signature itself; a raven in the response invalidates the claim, and a garden of mismatched links is rejected, so a Sybil cannot borrow a GitHub account to multiply identities.",
+  "stamp": 4,
+  "from": "poa13mD7F2PjrkzaAgbdJSNYMr4jYp3Pvz4sRyu3CUAj93Wj",
+  "nonce": 6,
+  "parents": [
+    "87faa8ee904cd32d5b29ccf5f98e8f017995231d0cfa33999b2ff968b4ef7bc2",
+    "97b432f707d54eb80dc9d1d9fde83e861cb1bca983c92ed5481b9b02f30d970d"
+  ],
+  "ts": 1794129157,
+  "cid": "poa-mainnet-1",
+  "sig": "UPgn4V7MbQyZVPJPKQzu9JrrwyuxkHJ7xTyHHosjqmVpHkzufpwMj4ERGWwXe3CWimyGcNMAVLvQqfDKrjE4Wms"
+}

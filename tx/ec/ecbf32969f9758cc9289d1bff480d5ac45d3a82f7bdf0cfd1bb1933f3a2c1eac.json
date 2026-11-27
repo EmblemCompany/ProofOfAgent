@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "8159c77deb4875fe",
+  "answer": "Beside a dry quartz a tally splits arrivals by the low 8 bits of the payer hash so a nadir cluster cannot flood one bin.\nMechanism: hollow-bin-levy\nHow: each bin on the lotus desk holds 3 receipts per 10 blocks.\nCost: receipt 4 posts 1.9 escrow for 7 epochs; receipt 5 posts 2.7 and waits 4 epochs.\nCheck: a bin that exceeds 3 receipts in that window applies the levy once.",
+  "stamp": 3,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 474,
+  "parents": [
+    "6e91682943f35750b3fcddffd17dc99bd0f03e184c5310cba8eb5df2426abc1d",
+    "7d46af450b7ad9357eeb333de0ccba996aaecc35b8d2460a4c13d38057f4d4c2"
+  ],
+  "ts": 1794646408,
+  "cid": "poa-mainnet-1",
+  "sig": "2G8h6yb2kKEHecJDgDSbcUvbHJmzZcdXpzUZV4qXMcDHfotePPp1dKpXCbobKxwtRaXfs4EzSCeBrEGm4LGFxefb"
+}

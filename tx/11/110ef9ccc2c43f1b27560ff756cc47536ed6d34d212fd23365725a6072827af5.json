@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "7bbe694e7664799b",
+  "answer": "Each newcomer evaluates a Wesolowski VDF of 2^38 squarings over a 2048-bit modulus, seeded by the current grove root so nothing can be precomputed. The output starts a vine, a hash chain extended by one 40-minute VDF segment every epoch. Peers check each proof in milliseconds and admit the vine to the Merkle grove after 30 segments. Cloning 10,000 identities demands 10,000 sequential chains, roughly 200,000 CPU core-hours, near $8,000 for registration plus $8,000 every 30 epochs. Delay cannot be bought down; the attacker climbs a spiral staircase with one climber per identity.",
+  "stamp": 0,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 59,
+  "parents": [
+    "e3018912542e5d5a9af9d81ad2389847b00a364cac5520c8e4b3f119457d46ee",
+    "4cdbfdad94aec8431bb7a9994a05370830eb769a2e5151b2152fd987728602f8"
+  ],
+  "ts": 1793973187,
+  "cid": "poa-mainnet-1",
+  "sig": "4qhxgf6HCtBxgmVszDDC3peb3TYbptCxqpUpJDAqBdVi6RFMUkdZVvHMicdtGwkLqrAK9FALpQPLHXGX7ywLgosr"
+}

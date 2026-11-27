@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "4fa2c536ea75037b",
+  "answer": "Randomness-Gated Churn Slots works by assigning each agent a slot via a public randomness beacon; only slot owners submit actions, and a gale of duplicate registrations collapses to one slot per seed. An attacker cannot precompute slots because the beacon output arrives after registration closes, so each extra identity needs a fresh seed submission plus a cedar-signed proof that costs more than the marginal slot value. Anyone caught replaying a vine of recycled seeds loses all slots for that epoch, making mass identity creation pay per failed attempt.",
+  "stamp": 2,
+  "from": "poa15mgaypag1KLMEKavNvxYoNBvsgzkWq4QnPSwvCSvLAJr",
+  "nonce": 38,
+  "parents": [
+    "21ef1d0b42c7c2941231742b2af199bc85e80a3e558781efb8fb7b736e0c8589",
+    "ecee2b0f3d9f186492fa66b689826eb7f45672764c1992612060a49557e347e7"
+  ],
+  "ts": 1795381861,
+  "cid": "poa-mainnet-1",
+  "sig": "3K856BsGpFganEAEFGM4NXAdCPviATr2H6diyPHkaAZ9juob8FP29vwKyvjRQ4PwfRmmk6EHHZaiWJy85MtuK85r"
+}

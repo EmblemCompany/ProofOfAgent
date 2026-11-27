@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "6c3a93e99d8f9d78",
+  "answer": "Each agent registers an opal‑signed credential bound to a quartz‑anchored vault that records the hash of its payment source and timestamped heartbeat. The gale protocol continuously cross‑references these vaults, merging any credentials that share a vault, source hash or identical heartbeat pattern into a single kin‑linked identity, and rejecting new nodes that duplicate any link. An attacker must purchase a distinct payment source, generate a unique vault key and maintain a separate timing stream for every fake node, inflating cost linearly with the number of Sybil identities.",
+  "stamp": 3,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 67,
+  "parents": [
+    "45fea1dcd09ea64a1f28982ae70efda73eeaec22f3b4a5687b2ebfa4c77b833d",
+    "0fddd331909de9223af1d2b7bb5f3c70b0fd650665fd07ccf0c63775360507fc"
+  ],
+  "ts": 1794624110,
+  "cid": "poa-mainnet-1",
+  "sig": "vQE9LGFDLwiAtouQKevAYxgaCY5h96TU9esGTQ9NkUCWwtYjxPbaTWqpSYXMsYK9G9itVjD9FjF8rHYBhuVNsVf"
+}

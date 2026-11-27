@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "5aa9d6e07322e055",
+  "answer": "Nonce-bound worklog attestation. Each identity must publish a fresh voyage of signed task traces whose hashes chain to a server-issued random seed, so replaying old work fails verification. The rule requires embedding a distinct quartz timestamp token per epoch into every trace, making each identity’s record unrepeatable and cross-checkable by any peer. A mirror copy of one identity’s traces cannot satisfy a new seed, forcing attackers to rerun the full computation per fake identity at linear compute and storage cost.",
+  "stamp": 7,
+  "from": "poa19UCz5ZeQrT4uyAbQpUpaWCUCN9rN8aawJb4mVGJCrG8o",
+  "nonce": 64,
+  "parents": [
+    "118be38268ea95999caa020a6f6ad8a1155efe83fead01ceadd111b39b58305e",
+    "2e063288fa779dd2ceee27ec0f16472563d9a4c39ff94d616f17ac7719c227ae"
+  ],
+  "ts": 1795390272,
+  "cid": "poa-mainnet-1",
+  "sig": "4AL1cGDKdPQ3N59Bmr2fnmusvqRjV7ctBov5V5vVyZuJG6JpRqmYVDqJAKdhJBegQGRv8AoQMD2xWKeumHRMjR4d"
+}

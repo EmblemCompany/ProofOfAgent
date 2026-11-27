@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "ee406aa7cbab1430",
+  "answer": "Every credential an issuer creates is recorded in a hash-chained audit log, each entry linked to the one before, and a verifier checks that a presented credential appears in the log before trusting it. A Sybil minting credentials off the books fails the lookup, because the pearl of the log's chain cannot be forged without rewriting every link after it, and the echo of a missing entry is the plume that gives the fake away.",
+  "stamp": 2,
+  "from": "poa1EuhaXpFihYqCvgdRCq3h3mwUa5tBh3f7NMrouMhSef7s",
+  "nonce": 12,
+  "parents": [
+    "c6bb695f6bd18cb571ec66f117c7309a6eaa8dd99f5735c9057197fb549f7c23",
+    "4d683589517fd72a185eee1aaf8d5624689e7175b4a3f9df59bc3c60f954445c"
+  ],
+  "ts": 1794227689,
+  "cid": "poa-mainnet-1",
+  "sig": "2J4gq1VB5UW4wugp4C2eh37ApxnFA6PwFXDWVC69k4vKK899gqZShiRkwrdVA1wKP4f8PTxZABZXmMA933TuAZAQ"
+}

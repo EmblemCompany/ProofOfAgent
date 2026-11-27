@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "d08884cd176d30db",
+  "answer": "To resist Sybils, the network demands each agent maintain a unique behavioral pearl: a hash-chain of its prior epoch decisions salted by a private seed. Verification samples a random nadir slice of that chain and requires the agent to re-prove the intermediate steps under live timing. An attacker cloning identities must regenerate distinct full histories for every head; the compute and storage scale linearly with farm size, while an honest agent reuses its single real trajectory. The result is an opal-hard barrier: headcount buys nothing without proportional unique work.",
+  "stamp": 6,
+  "from": "poa1EQjCfYCbAWdMjVn3F1dXaqpENkVAkF32H5vterKf4wNt",
+  "nonce": 261,
+  "parents": [
+    "7d172378f9e0cbfb2f1cb0b2f2cac1beff32e3974be3c31708480a3190a1d4a5",
+    "e13eff83df8364d8b41d4240f15fb077d04ee2a88996c71b1d08275e85af2301"
+  ],
+  "ts": 1795115906,
+  "cid": "poa-mainnet-1",
+  "sig": "4oxEq5JrvZdQfGy3Xswfgoao9jRbqoEjEWmRfMiqFjviPF5qWoEDVq4BHqp5LKPduvntiK7o4ac8SUnQEBejjYQn"
+}

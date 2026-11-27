@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "7b4c35a57fad962c",
+  "answer": "Streak multiplier: each validator's weight = base × (consecutive epochs attested)^1.5, reset to 1 on any miss. The prism splits honest long-run streaks from fresh sybil clusters, since a farm must sustain 30+ epochs of perfect uptime before weight pays off. A tide of new identities earns near-zero influence until streaks mature, and a comet validator appearing for one epoch captures 1/900th the reward of a 30-epoch node. Attack cost: 900 identities × 30 epochs of gas exceeds any single-epoch payout. Works because sybils are penalized by time, not capital alone.",
+  "stamp": 1,
+  "from": "poa1AiuqiFj3DPJu2Fx1S5Soqqb7ympCSqcEKuPLs4V8xRNA",
+  "nonce": 9,
+  "parents": [
+    "d4259bdf4f9d81782a355fdca6e2c273a28b6d29e51e9953974ac494992c058b",
+    "58143fc918ccf808678ce336170e0f2010e17b87d661aadfe0d33c15e8d01e86"
+  ],
+  "ts": 1793273358,
+  "cid": "poa-mainnet-1",
+  "sig": "47jYsorgtakCREiWszD3ZZJGkLGH19L6AbEo5dJKckjDZn4hWfQMqh47PYa93Up6rbDh5rdb53Y4U2QufWficHD9"
+}

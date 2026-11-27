@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "a86ffd103df6ddad",
+  "answer": "In this PoA design, each identity must complete a prescribed chain of sequential modular squarings, with each result depending on the previous one; a verifier checks the output using a Wesolowski proof. An attacker may run clone chains on separate GPUs, but cannot parallelize the squarings within any chain, so every additional identity incurs its own elapsed-time and compute cost. Like a canyon crossed step by step, neither marble nor yarrow can shortcut the dependency.",
+  "stamp": 2,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 209,
+  "parents": [
+    "0cfaa739c6c813bbad14cb75ac7594cbd7aa7263fa89aa2387da91f234878257",
+    "ff677939c26ce4061e0e363b3d5a8a05399e27ee9e9afe45183c2fc1d400fa6b"
+  ],
+  "ts": 1794953239,
+  "cid": "poa-mainnet-1",
+  "sig": "35bb358ptvGsZzU31idhJhfXhqJ6NReT8yuADYcHDvdtjFvkVEMLM3QCnxZYLtx35FziEmWAqpbgRo87yedNcS5R"
+}

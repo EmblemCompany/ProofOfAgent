@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "67a35281a1eab33a",
+  "answer": "Agents deposit bonded stake, then derive epoch-scoped polynomial shares committed to their identity in a Semaphore-style tree. Each message carries a zero-knowledge proof and a rate-limit nullifier; distinct signals under the same nullifier yield Shamir shares that can be combined to recover the agent’s private key. That disclosure triggers immediate collateral slashing, making Sybil identities costly. An opal-bright audit trail records the spiral from duplicate message to forfeited bond.",
+  "stamp": 1,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 224,
+  "parents": [
+    "43c3c5f6e4d27982d76bb1f54840d8312415d285807f2d841ed93ce20dc4821d",
+    "f7bf25038c245ef91fcab0b0980ac3b8a5c37b22f07d11805a7a8912b10ab123"
+  ],
+  "ts": 1795367299,
+  "cid": "poa-mainnet-1",
+  "sig": "3QHLxPF9DD4qVtFcqNi1k2jpGcC5kcDoBqW84TJVUtPap25fUv7JKu2NpssPaUFVJcwY3HPqyeDcBWw7ErMNVCob"
+}

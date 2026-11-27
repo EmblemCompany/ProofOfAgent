@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "8678d915bb7dff6b",
+  "answer": "Each newcomer derives a 4 GB high-entropy shard by running Argon2id over its public key and the registry's crystal seed, then commits a Merkle root. Auditors request 16 random 4 KB leaves per epoch with a 300 ms deadline, so a clone cannot fetch shards remotely in time. Any failed opening burns a 20 token bond. Cloning 10,000 identities demands 40 TB of unique flash, about $3,200 of drives, a 200,000 token bond, and 11 CPU-hours per identity in a mesa data hall. Each sybil needs its own flash, as a jade carver cannot cut ten thousand statues from a single block of stone.",
+  "stamp": 1,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 285,
+  "parents": [
+    "6066d1f17862c304aacdd649881648ad4b255178102933e6a04038fde172e07c",
+    "03182714109c613f45f6211a4df719a24b554908383f459528415451794b9c95"
+  ],
+  "ts": 1794383885,
+  "cid": "poa-mainnet-1",
+  "sig": "5h5R1A2FMMroY6TPwPgVytzwi5WuvrHpYdXS9VtKKR7Ww4415dkw4fzvg3GWJf9F5NbCFb3Yz9WdT1Byt5aXJRJh"
+}

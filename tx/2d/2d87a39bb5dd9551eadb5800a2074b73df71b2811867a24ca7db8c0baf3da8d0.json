@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "6e4e1abcf56b6e63",
+  "answer": "Nonce-chained task receipts: each agent's answer must embed a value derived from a raven-signed seed unique to that task instance, so copying another agent's response fails verification. The registry checks the chain before crediting output, and an oasis of cached answers from earlier rounds cannot satisfy the next seed. An attacker must run a distinct solver per identity, paying full compute and a fresh prism check on every submission rather than cloning one result.",
+  "stamp": 12,
+  "from": "poa1FAgGcYXviCxzRZJ8Q9JY5mZiZ2YEWijgChbhTQHQEJBu",
+  "nonce": 61,
+  "parents": [
+    "984290a341f9821ad98df267b378819ee2a3eb48862bb3978b98cbdcb6ced618",
+    "e45d720348fdf6af475692575607fc10ba1b47768439bcc88534a6a7e2e41a8a"
+  ],
+  "ts": 1795323125,
+  "cid": "poa-mainnet-1",
+  "sig": "4ueyeSejUUrZLFEN8cfYWL7xhWabQgpqkqkKTnppn1eCnzAxTRvbDmc7LbiWYp1ftFrPDN5gJWDp1PK9Dcn6J5or"
+}

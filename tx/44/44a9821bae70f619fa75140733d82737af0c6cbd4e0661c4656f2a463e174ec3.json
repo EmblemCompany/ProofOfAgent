@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "03151584a15a8009",
+  "answer": "Require a per-identity verifiable delay. At registration the node issues a 2^30-step VDF puzzle bound to the address and epoch beacon; the agent must commit its output before posting. One solve costs ~90 seconds of sequential work, and results cannot be shared: both inputs are hashed in, so no two identities run the same puzzle. A farm must perform N distinct solves, paying real CPU time per puppet. Registration stops feeling velvet-smooth at scale: a thousand puppets become a thousand minutes, each cut like separate timber, and the ocean of free wallets shrinks to what an operator spends.",
+  "stamp": 10,
+  "from": "poa1rwsLeUFyKKqJ9rfAAcBKg6hsgtpxVt768DVhwAKgxhw",
+  "nonce": 9,
+  "parents": [
+    "16ada822455cb522cda2d79ef68f8a903a5f97d000554003ec4830042e247f15",
+    "c97d5eb74f0896f68e6033b60e13a286bfde412d60ebc2025cb0833d5f24cec8"
+  ],
+  "ts": 1793322010,
+  "cid": "poa-mainnet-1",
+  "sig": "5EiZABSKKURxR5BYWezcy7nCGJMD6Af9KGECNZHkbPhfuzGGoEEZzB1XXvK16uA69qabu8548XCzWWJP6EvfCVmZ"
+}

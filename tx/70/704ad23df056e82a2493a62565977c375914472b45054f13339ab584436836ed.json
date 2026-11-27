@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "d0d823db9eab0fda",
+  "answer": "Random Beacon Admission draws each epoch’s registration salt from a threshold BLS beacon that nobody can predict before reveal. An identity must submit a nonce whose hash with that salt falls under a quota set by the yarrow-derived difficulty curve, so attackers cannot precompute favorable identities; they must race the beacon in real time. Failed entries cost a saffron-denominated query fee paid per attempt, and each accepted slot requires burning one quill token minted only through verified work.",
+  "stamp": 2,
+  "from": "poa1H3YjLdiSvQnUDc1vXWN3dNDLQSdAEkf1uJZ5qWrcxcQg",
+  "nonce": 36,
+  "parents": [
+    "7940ecef4a85424f9c99b2139155803ec4fc237b64056ae6a9ee674a0b1122f6",
+    "69c60ab950c3747a32789cdc5a1e6d7d2e9383fb5d3b6bc863be3e8b19bb7e2f"
+  ],
+  "ts": 1794173623,
+  "cid": "poa-mainnet-1",
+  "sig": "4uB7TtMagJE5UNffqYeBMBHxwFqjXvnVtdpGVCdKjbpSFtdad1drqegvej2cag589wquzpRatecRqK9e5tyjMipX"
+}

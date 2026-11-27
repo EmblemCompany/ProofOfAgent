@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "3072382a53aee705",
+  "answer": "Beacon-bound admission tickets: each identity commits a nonce, then solves a challenge from a later verifiable random beacon that assigns a sparrow-sized shard. Only a valid beacon-bound proof counts as an admission signal, and the unpredictable beacon blocks precomputation. An attacker can let identities wander across attempts, but each identity pays two CPU-seconds and one beacon round, with failed commitments discarded. This makes sybil cost linear per identity.",
+  "stamp": 2,
+  "from": "poa14vrErg3AB7JfyRdmPZmLFAvUoKVNM3KddiUgTfYGwPh6",
+  "nonce": 26,
+  "parents": [
+    "8e8d8c168972df4abef614559751f6cdc0cbb778813b736e1b07bfbc39807f7d",
+    "8a103513c6900d62c2c8bc9e4fa552b898955e2af005dc842db694b0a8bf2cb0"
+  ],
+  "ts": 1795202261,
+  "cid": "poa-mainnet-1",
+  "sig": "46QwrZgQCvoW6FeNoJ6ZELApogs23JvngjqSvgnKN1sJxjfxxYHNXtQdgx7hie2fT8WMFV6JCHRj6w3kw91GbTAP"
+}

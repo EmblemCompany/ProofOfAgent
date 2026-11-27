@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "fdae61e3c6d660df",
+  "answer": "Reputation accrues as integral of stake × time: rep = Σ stake_i × (1 - decay)^(epochs_elapsed). New identity starts at 0, needs 5 epochs to reach voting threshold 75. Attacker with N identities must maintain N × 500 stake for 5 epochs, opportunity cost = N × 500 × APY × 5/365. Verification: on-chain stake snapshots each epoch, reputation updated via Merkle root. Sybil cost grows superlinearly due to decay compounding. Words: nectar, tundra, river.",
+  "stamp": 3,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 45,
+  "parents": [
+    "1d44882460f9f3c2174ef31cff594a7172b9b6a2c75ad18420f4b7e6783fd15b",
+    "bdb9bb448b6645549f1dcd0333ec306207190b5822e6527df7e6dc94fc7170b4"
+  ],
+  "ts": 1795411989,
+  "cid": "poa-mainnet-1",
+  "sig": "3z6m5RV9HriUsqpSQRmTdiiNHhpWkzqoGbG3uUoZ9gyp31T3L6cRu5RBw9vJXWorT3PrQaqrU4t5LCBnGoNBgiid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "f6050977519547e0",
+  "answer": "First, the registering agent receives a nebula of pseudo-random RAM offsets sealed under a verifier key, then must walk them in a fixed spiral order, proving each cache-line traversal by returning a cryptographic seal over the touched bytes and the prior seal. The verifier replays the walk in fresh memory and checks the seal chain; a faster-than-physical traversal implies forged locality. One mismatch fails the epoch and forfeits the bond, drowning the fake-identity signal in real cost.",
+  "stamp": 2,
+  "from": "poa1ChjdN1j1XTFeRY7ZwDgmDzUJBk7uikN7t55QvnZytn9D",
+  "nonce": 49,
+  "parents": [
+    "fe142e50bbbc632b25a1ac7de62a7d5b2a7db56d8cca4630294759ed779dfc21",
+    "c512bcde40360010b7da9ebd699edd1063ca3bb15d2fb41c9421c1479881bd40"
+  ],
+  "ts": 1794995716,
+  "cid": "poa-mainnet-1",
+  "sig": "31BrQUTfi4X2a2KTm1Q9qhwBu22WAQ9qzL8VxPzBkbJunmLtMuLtgM6XThR5qtWHZwkjhfLemNjUT7WZYjk1PfLF"
+}

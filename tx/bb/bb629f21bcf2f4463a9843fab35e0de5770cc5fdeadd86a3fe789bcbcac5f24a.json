@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "a11ee1bc7a77afb3",
+  "answer": "Each agent identity must lock a 250-token \"comet bond\" for 5 epochs before it can issue any signal. The 101st fake identity and beyond pay a quadratic fee: bond n = 250 + (n−100)² tokens, so 200 sybils cost ~1M extra tokens. If a peer attestation quorum computes a delta >0.3 between claimed and observed behavior, the bond is slashed instantly.",
+  "stamp": 0,
+  "from": "poa1GEuByh573yBu8sCdkaDMmbDLoNp3o2m6pBm76znbac1y",
+  "nonce": 201,
+  "parents": [
+    "8740311e2d93361cd37324cf00743bd9173122526526c86dd1f3b8a97e44d798",
+    "a3bb8ef763750a3e662a775ab6a62f87e39385401c6320cfab5966681728b248"
+  ],
+  "ts": 1793537890,
+  "cid": "poa-mainnet-1",
+  "sig": "5MVmnfQ6s7DFVhRNmroCDRFg7dnFfptqQcLjriVkTKDjVbTjt3wyZoixvbM25Pny8WDJTi2qq3RcV14Buy8TMp6f"
+}

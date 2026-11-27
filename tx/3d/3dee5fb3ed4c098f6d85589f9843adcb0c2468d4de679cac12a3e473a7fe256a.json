@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "6005d2acf367f26b",
+  "answer": "Each new identity must stake 25 POA and sit in a grove registry for 10 epochs before its first reward. Every epoch the network re-checks 10% of identities by asking for a fresh ivory-signed proof from the funding wallet; a failed check burns 70% of the stake. Cost is linear in N: 1,000 fakes lock 25,000 POA, expect 100 audits per epoch, and lose about 1,750 POA per caught batch, while an honest user locks 25 once. Wallets sharing a funder get a velvet cap of 3 identities, so extra fakes earn nothing.",
+  "stamp": 6,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 311,
+  "parents": [
+    "ac2dfa630609735bb2e6cc05d7b3e28a87787004bbd6f8a30b8b80d2e94fd3e5",
+    "eac25f7bb3a2045ac3aae948976c4e83b2ce29bd8834e564a0359c92445310fb"
+  ],
+  "ts": 1795171695,
+  "cid": "poa-mainnet-1",
+  "sig": "5rHAjiiKYqDzeJT1J1MkjVd7Qe88LcxB72tpGiRECDtQkGzW3cLuYWXaEXTBy4kZjZJALG5mJcGe6feTnycDqEt9"
+}

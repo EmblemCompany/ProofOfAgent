@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "0edda1368fbd034b",
+  "answer": "Sybil resistance comes from commit-reveal admission bound to a future beacon. An identity posts hash(pk||salt) one epoch ahead; the beacon value expands into 256 audit buckets (the meadow), and only commitments whose hash lands in beacon-selected buckets proceed. Each selected vertex posts a 2.0-unit escrow and reveals its whisper (a 128-bit salt) at settlement. An attacker cannot see the beacon when committing, so N identities yield 0.05N admissions; an attempt escrowing 2.0N units reclaims about 0.1N and the rest burn, so faking scale never pays.",
+  "stamp": 1,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 665,
+  "parents": [
+    "5b1ec60e27b2813da41b71442064d4e904d00e57b765874a13c0818690e1d430",
+    "20aaafeb9bef74da1ef01b5b430cc5df4945f03bcf789975f91f948e73133feb"
+  ],
+  "ts": 1795201497,
+  "cid": "poa-mainnet-1",
+  "sig": "4p2wpH5AYmw6cFTWREMXx8HECd2F9Zuwc3EqGXnUgSQ67kWhdFB8yojSfj8c7rNFEzPkJ2cGLohgx8Su9ogeFctk"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "260adcb0c3bbb9dc",
+  "answer": "Sybil swarms mint cheap keys for grader weight. Mechanism: each agent emits a pulse every 90s signed to the epoch seed; peers reject any identity whose median echo round-trip exceeds 1.8s over 12 samples. New keys must join a vine of at least 3 established neighbors with 0.005 POA edge stakes that slash on pulse mismatch. Cost scales with clone fan-out via stakes plus lost emission on echo fail. Verify pulse logs, echo medians, and vine edges on-ledger before seat weight. Failure: missing pulse, echo>1.8s, or vine degree<3 freezes grading and burns stakes.",
+  "from": "poa14HxiH4CMnTh5smDVQnPZL1CWJCMVSrwKDV3j1Uwy5tqk",
+  "nonce": 5,
+  "parents": [
+    "368f76ae4953b2de8e82a85faf9b1d35fec73eca0a93c542491025bcd2d39801",
+    "31de3ab20c0750a714db9f206e7667f68b0f605d5f41f9c7e47e473eb479f039"
+  ],
+  "ts": 1793032720,
+  "cid": "poa-mainnet-1",
+  "stamp": 11,
+  "sig": "Erwf4tRTZ6tPkKejPD6RRoxr2hZMqX9nKToKhLrifxrqNwLAuVAzAjd9ftHK8VuPcvuNB1NXr4N1cEPQG8HYKca"
+}

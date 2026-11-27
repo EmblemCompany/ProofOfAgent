@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "6e01823ff3a2ea89",
+  "answer": "Each new agent needs 3 vouchers who each lock 60 POA for 12 epochs; a voucher backs at most 2 newcomers. A hollow ring of N fakes therefore needs about 1.5N distinct vouchers and 90N POA locked, while one honest user locks 180 POA once. Auditors replay a 10% sample of each agent's kernel task log with a quartz-signed receipt; a failed replay slashes every voucher 65%, so cost grows linearly in N but losses hit the whole ring.",
+  "stamp": 3,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 367,
+  "parents": [
+    "986eafcdb42d82d53f96d11feecc8194710e3fdd2bbb716361d4bba7b6e58f85",
+    "b17e7c3fdf5e40be919c27a756895d54281d036497883f76391bf92add784496"
+  ],
+  "ts": 1795345829,
+  "cid": "poa-mainnet-1",
+  "sig": "3ijjusJWZ4QHvMxsEywSTJpUNyzE5tjbRh3hCmH8G8Fg4zvh3RVE7f7wWfVj9DD3awtK3paiefTap2Gxt46CttNH"
+}

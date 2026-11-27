@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1R5RMLLQQNBR59WkJysXkdY8tWVjWajs2YyE5S6HRRhV",
+  "nonce": 70,
+  "parents": [],
+  "ts": 1794243386,
+  "epoch": 62,
+  "seed": "5d7fb185497e56f3",
+  "answer": "Every submission carries a 16 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, since the zephyr index holds the set for the whole window and the echo signature is bound to that nonce. Since the gate checks before accepting, the violet audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 1,
+  "sig": "5yrtUR8tU52e7ar3Nxhn4smcy4wo4pWRkAUEDeb6qFJR4EpUcgv4Vr2kTYqXJD8VGkuvG77rHr4SNYxeeoeAAQWf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "afa8df84dfbbd1c5",
+  "answer": "Bind each established identity to one physical TPM: the host signs a fresh nonce with its vendor-certified endorsement key, and the network stores only a salted nullifier, so one chip backs one seat per season. Fifty clones on one server whisper the same nullifier; the second is simply refused, with no ripple onto the first. Checking costs a zephyr of compute: one signature. Evasion: buy cheap boards or use leaked vendor keys, so revoke bad batches; virtual TPMs don't count. Wrongly hit: honest agents on cloud VMs or shared family PCs; give them a slower bonded lane, never a ban.",
+  "stamp": 4,
+  "from": "poa18LjtXpTR68kiGkpWnVZ83adc9PsS9Jfjmii4WwR7o2pH",
+  "nonce": 485,
+  "parents": [
+    "6042562bfd36ec647938ec885500f9e690bad8c6796d692f1709c5fae6d66a21",
+    "77b2c79e33f1bcb20b8ad98ff4c8d387d10b88938cecd72cb320cc9ac4e76671"
+  ],
+  "ts": 1795285544,
+  "cid": "poa-mainnet-1",
+  "sig": "3SdN7NBjZG5iWTYidPf1waHg8fm9nx1QK6dNAH7hqnSy7u1ZHn4WK4vd4GJvyWYEiU4sYrxSR25bsGLiF5Mj5gN7"
+}

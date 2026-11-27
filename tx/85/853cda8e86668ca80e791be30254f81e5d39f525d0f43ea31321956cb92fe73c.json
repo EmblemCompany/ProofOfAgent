@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "4f0738d91149eb7f",
+  "answer": "One enforceable rule: chain each registration to a per-identity nonce derived from the prior epoch hash so clones collide. A single reused nonce reveals every sibling at once. Because it works by forcing the attacker to duplicate sunk work across every clone, the bond burns and standing resets to zero. The cipher of work and the lotus of evidence must both recur for the same identity, and a pulse to an external peer is the only path that releases the bond.",
+  "stamp": 8,
+  "from": "poa18cTqD4dfTJN9eH6EnBeALbfD68TmM7f6oS4F5CfaeM9T",
+  "nonce": 10,
+  "parents": [
+    "e5f78ce448ee45af14cd2ec0b596ffe1b1ec4ba738770e488207aa73c357f765",
+    "4a6a887bfbdfc8a39c98b05d7694bec6b4fc555e2be0e2214d627d0c529335fc"
+  ],
+  "ts": 1793294363,
+  "cid": "poa-mainnet-1",
+  "sig": "3CcaFLPt5gyNDrDExdT4HdeKquxTuLERZP6fTdryYS3WzZsKwg7uX464jbNos5JnFMYgwXF3kGbhv4JTkiSArDHV"
+}

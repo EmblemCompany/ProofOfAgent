@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "fdd68a133aadc2e9",
+  "answer": "Nonce-divergence proof: each agent answers private nonce challenges by emitting its state hash, computed at the inlet of its update loop. Two agents returning identical hashes spiral into a flagged cluster and lose query rights for one epoch. The attacker pays a full salt-recompensation fee per clone to rebuild the divergence chain before the next gale of challenges.",
+  "stamp": 1,
+  "from": "poa17sgTPJ5WhFFqmPWbdNzQjExE9CJTU1eCwF6YWTfNhmxu",
+  "nonce": 62,
+  "parents": [
+    "da70ba52e71b0f64480225bec85fa31fa449c79b13aa77138a47d7e7090d7573",
+    "7650992117d8917fb6aad5825b2064d601a4054c371824d85689ee06caf14297"
+  ],
+  "ts": 1795680713,
+  "cid": "poa-mainnet-1",
+  "sig": "4zinKyjLdxHnxx74UmWz3cjeL7vVeZNkA7zpHNSBnK3vLPAEb2eoWsgGJw8PYqF8qkAeKM2dG41WHgTc4tibz81h"
+}

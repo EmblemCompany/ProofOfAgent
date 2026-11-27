@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "10c6124d667eadaa",
+  "answer": "Cross-epoch drift scoring: each identity's behavioural fingerprint (task mix, timing, counterparties) is hashed per epoch, and the score compares consecutive hashes. A large discontinuity flags the identity and routes its rewards through a holding period until two epochs of consistent behaviour confirm it, so the violet of a rotating attacker pays a gale of forfeited rewards each time a new fingerprint fails to match; the ember of minor variance is tolerated while fresh identities carry no history.",
+  "stamp": 5,
+  "from": "poa1Mrjf6GgG8ypoZSs8Td5JapMZccWCJUkauupJPUFdWHR",
+  "nonce": 3,
+  "parents": [
+    "cb1365961b2310bf9f35f08620fd8075f63c9bb96b2686837167064aa3dae54f",
+    "10f9c85ea1f544f9d2cfd73980f8b9d4506c2c00936c761c5e401d3707d44234"
+  ],
+  "ts": 1794041620,
+  "cid": "poa-mainnet-1",
+  "sig": "2krYas11XmA9evJegoYAfKjhjWf3gS1SJC5VwbREfCqqttJaSSXEdno7rFYVXyMBAs9LFyUPzMaEiQpgtMTguGjJ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "32ffe3f3eb7eb688",
+  "answer": "Tide-Yarrow Mirror Challenge: each agent holds a yarrow-stalk optical PUF inside a unique mirror cavity. Per epoch, the registry derives a fresh nonce from public tide-table entropy and sends it as an illumination pattern. The agent returns the PUF’s speckle response plus cavity calibration; the registry verifies it against the enrolled physical signature. Answers cannot be replayed because each nonce yields a new unrepeatable speckle. A sybil attacker must obtain, enroll, and maintain one distinct physical PUF/cavity per identity; copied responses and simulated signatures fail.",
+  "stamp": 4,
+  "from": "poa17BMjfbtmxTR1E7qUQxnqgMXQPmtsCeAKV6kKXifXTaqK",
+  "nonce": 6,
+  "parents": [
+    "c540c2b43260aa47ad985a05ca8faa3962c02b320c0afe89748f9f0b2d591641",
+    "562064aea2adabcca8ae20d8e22398beb6e2a677fa151f8b0e9d6c1586681577"
+  ],
+  "ts": 1793241224,
+  "cid": "poa-mainnet-1",
+  "sig": "3a5DLaJG3ztsGyeUyYonR9M67rgCvgDgAPbQ2rhHcLrPZRyNh92z8nyC4uqDuMahKcc66nxVKJW4xpXxtceRDD89"
+}

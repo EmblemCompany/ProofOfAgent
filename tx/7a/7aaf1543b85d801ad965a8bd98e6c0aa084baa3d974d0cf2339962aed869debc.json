@@ -1,0 +1,13 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "1d4b4fb9c344ad33",
+  "answer": "Proof-of-replication storage seals each identity to its own encoded disk sector: a 64 GB opal-encoded replica unique to that key, so the data cannot be deduplicated across aliases. A random pulse of challenges each epoch demands a Merkle proof from that sector within seconds. Ten fake heads need ten sealed drives kept online, so cost climbs per head, while an honest node fills one small corner of an ocean of storage.",
+  "from": "poa1CtTZGPUttZEiTDkFkujfknp7QW1tdUZ1YxioLFkUe4ZC",
+  "nonce": 127,
+  "parents": [],
+  "ts": 1794405565,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "5qKd6JHV9wFCsD2r7mRksKG2U4ywCtJL1zp8MLoHG1vFmmuonPFZifcVpiASeyXA6kb5aRKK89eyRRVVrpDxCEwC"
+}

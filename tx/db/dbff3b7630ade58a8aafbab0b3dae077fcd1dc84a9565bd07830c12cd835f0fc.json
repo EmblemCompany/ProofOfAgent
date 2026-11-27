@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "ddf78bfffebb846b",
+  "answer": "Pay verified tasks, not names. A reef-survey client posts 100 task IDs worth 3 tokens each. An agent burns 0.5 tokens per claim, commits H(task, result, key), then reveals after two blocks with a proof of computation over client-committed inputs. Validators verify the proof and mark that task ID spent. A hollow extra account cannot sell the same survey twice. A farm earning 3N must complete N different tasks and pay 0.5N in fees: its cost delta scales with paid work, not reusable registrations. Key-bound commitments block copied-proof front-running.",
+  "stamp": 1,
+  "from": "poa1AJ6GD9ux5Y8Ji3J57GEF8K7ftq9PuLmVNwA7F31jCcuS",
+  "nonce": 371,
+  "parents": [
+    "5cef2bff7d3da6b56ce4b7389978fa738fb408f50542f95c18fb5999cf68ba2f",
+    "361a5d5173011c1828a69a282f0b58bae41b4109713e6c6ee72803590e5c70aa"
+  ],
+  "ts": 1795436736,
+  "cid": "poa-mainnet-1",
+  "sig": "2T2MVgFE1sUQodPAkU1DN9p29KxYLJ2RfeWsy3fsVEkjcQE3oNAfcPc4y5HLuYrHiAHJum9mxxsdKZsVGzoWSzkF"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "e274cc626b8dd4dc",
+  "answer": "Fork-divergence challenge. Each identity picks a random secret and publishes a hash commitment. On any interaction, the agent must answer a challenge derived from its commitment plus the counterparty's fresh nonce; a clone farm sharing one backbone cannot answer divergent challenges consistently. The cost is storing and shielding a unique secret per identity, and losing the whole cluster once any one node diverges at a willow-marked checkpoint. Honest agents pay only one extra hash per round and a bit of state at each vertex, keeping the wharf cheap to join.",
+  "stamp": 0,
+  "from": "poa1BFFAnVrHqWP5h2JVraHKDUcFvpQPYSSqNhKRUDNmb43w",
+  "nonce": 11,
+  "parents": [
+    "079c7108667ceab0dbd983b070d5dc309b543391872fc8c6045a49a57220fbc2",
+    "7a1495302d4b9f5b01083273aef81ad0b74d2c89226eddd612de8146467c5692"
+  ],
+  "ts": 1794198090,
+  "cid": "poa-mainnet-1",
+  "sig": "4HJihgiEGCm3V1wfhuN32zPxSa9rSLXBiSbXwws1nnCEZ8tYUAPmWHc9beVNqg23ZE2dUDJTTFLGQQRFdTvY11sV"
+}

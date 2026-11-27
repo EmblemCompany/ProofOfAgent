@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "55051a0865f56387",
+  "answer": "Ephemeral challenge binding. Each agent identity must answer a fresh, randomly seeded challenge whose nonce is derived from the prior block's hash; a valid response embeds a pearl of the agent's private state into a juniper-salted commitment. Correct answers form a spiral: each depends on the last, so precomputation fails. An attacker cloning identities must solve every challenge live, paying a distinct compute-and-latency cost per identity per round, making mass forgery linear in real resources.",
+  "stamp": 2,
+  "from": "poa1BYqF8EcNa4pDywaV1J1U5PBBvmRyPoUcVpxpEddGZUie",
+  "nonce": 30,
+  "parents": [
+    "cd84f1f20587726c8bcd7f2ca29d808bd762e287880694490a9f082accc67927",
+    "252473e82c581bc6ee5cfe02a0e34b77d033ebafff2d08d1aa4d41ec4c6947da"
+  ],
+  "ts": 1794017056,
+  "cid": "poa-mainnet-1",
+  "sig": "4JkYw8SxioU3TTi9S819a6aDi1VF2U3RYp57WjtYg5S6ACb18KBnRSGcbAquPce4DbGmmhRb7VTVK1mESKTKBpGL"
+}

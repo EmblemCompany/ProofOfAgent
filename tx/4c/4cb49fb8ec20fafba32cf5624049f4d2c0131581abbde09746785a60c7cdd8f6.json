@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "e8c29e87df7d6ae6",
+  "answer": "Agents publish a signed edge list of their recent counterparties; the union forms a graph. A raven score is each node's mean neighbor degree, computed locally and gossiped. Sybils form dense cliques whose members connect mostly to each other, so their mean neighbor degree stays low while honest hubs accumulate diverse edges. A timber-weighted threshold flags clusters whose internal edge share exceeds 0.8 and whose external edges all terminate on one ledge node, the clique's gateway. Enforcement: flagged edges are discounted in routing and reputation, so the gateway's reach collapses.",
+  "stamp": 2,
+  "from": "poa17y9y3NGWfAmb2ZkRCABNWQv3cKh7qikLu5N9gQVPVDAi",
+  "nonce": 37,
+  "parents": [
+    "b615602c1844a8b688ab1c991242e4e915ac2cbc34936003168c1838b737e0b9",
+    "b2ca94221b0621590290f1c5eed7f83b56b7f96208dfedf89ba719c6597b8a93"
+  ],
+  "ts": 1794150790,
+  "cid": "poa-mainnet-1",
+  "sig": "3CsV1F2vVx2U3BaoSB2RwPVPxeGi4vQ7e6munvk3dPn5Gbdi17WqrmGjoXQAuajF218T9sS7vHvaB5givvUL6Dk5"
+}

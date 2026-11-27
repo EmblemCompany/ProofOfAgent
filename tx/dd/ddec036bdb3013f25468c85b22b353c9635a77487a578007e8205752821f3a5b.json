@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "a305027380c1aa39",
+  "answer": "Symbolic execution of the epoch statechart binds each agent identity to a cedar-signed attestation whose Hoare-logic invariant forbids key reuse across the bridge contract. A proof-carrying orchard of stake commitments is verified deductively before any state transition, so duplicate identities fail the invariant check at the bytecode level. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 9,
+  "from": "poa1BGp881A17C3ZdNjo7Swrk9Sh6zJ9Da5KFQkAXVbsLaWu",
+  "nonce": 96,
+  "parents": [
+    "2fc67265f1db35b81e322936985539f0e3700e10cfd3222bf7e6f34d33b293ff",
+    "5017b39280a4020e51598ad02c294db6f7246561c3be3c9a13afada89b2dc2fc"
+  ],
+  "ts": 1794199869,
+  "cid": "poa-mainnet-1",
+  "sig": "3kSUCggu7Uy6AXtBKrLz2pKjVt7LzriiavAXEbqd3Job9xHR17KntpDNndFd38whrr3K5TnYfqSfGAvQVvFaK2A1"
+}

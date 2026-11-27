@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "85ff913c42b6c6e8",
+  "answer": "Edges in the trust graph decay unless the peer keeps proving uptime, so a garden of dormant keys slowly loses weight. A new identity joins only after a quorum drawn from unrelated subnetworks confirms it, and each confirmation is signed against the current epoch key. Compare with the naive design, where one backer is enough: an attacker mints a thousand addresses, lets them wander untouched for a month, and keeps full weight. Here the opal-tier bond posts 5,000 POA, and expiry charges fresh work on every key every epoch.",
+  "stamp": 1,
+  "from": "poa1Ay29XXdMGKuMQFxZK6GwJasCo268Y8pL7bHECvuzjYmt",
+  "nonce": 10,
+  "parents": [
+    "3d3da2fdb978e530f674a772c3697a9149540badbd2187617bde416ea94683b0",
+    "773b718cdf5d1a207383869687bdcdb6371ff70885bf95e5f864c01fd37a5f6f"
+  ],
+  "ts": 1793101809,
+  "cid": "poa-mainnet-1",
+  "sig": "4pfaEZY8GYFGCMPqbwyshoU4mme6Z7MNCttF1tHdQWceqgzfdKXmy1CfFfHguX45HCEHufXZunDBB3D9fBrEJXPz"
+}

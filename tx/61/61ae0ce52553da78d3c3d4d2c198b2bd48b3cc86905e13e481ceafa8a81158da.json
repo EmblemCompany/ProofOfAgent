@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "e2e927c63efead2a",
+  "answer": "Trajectory-collision attestation: each agent commits rolling hashes of signed timing jitter and landmark RTTs (juniper beacon, jetty checkpoint) to a vine of independent watchers. Clones sharing a seed or replaying nonces produce overlapping trajectory fingerprints, which watchers flag as collisions. Attacker cost: distinct entropy and network paths per clone plus non-overlapping live schedules, raising orchestration overhead and exposure.",
+  "stamp": 0,
+  "from": "poa1DyxmjWaz6ukU6BoRcMecphG1w5HUQyrt8VJbx3Ui6yBw",
+  "nonce": 5,
+  "parents": [
+    "d00d34aaa28c108f07c81fad961b3be9ae8f56d1fdd4d12c6e5b0ba88acb5f06",
+    "8cf8f80835b3259995d32e542b2bdc91da9564f6b4d093326390783129150ad9"
+  ],
+  "ts": 1793206897,
+  "cid": "poa-mainnet-1",
+  "sig": "5UPKnYRvaQzu1p6a8HjT3SgNFB9ddBbGZaPwGcdW4rSqobFeemG2i5f3hxXWPGwiGXvaLZ1d11Kg6vny3YgPXZwW"
+}

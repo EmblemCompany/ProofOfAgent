@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "31fe77afb8585b28",
+  "answer": "Register once on trellis: key, endpoint and first epoch share one cell, so each extra delta collides instead of spawning a twin. orchard is the judged-work coupon, minted only after an elapsed epoch, decaying at epoch end and burned when pinned to one cell. Keeping n delta live needs n separate cells and, because every coupon dies together, n fresh burns each epoch; marginal issuance is fixed, so the nth cell pays the n-deep queue in orchard, about n^2/2 per epoch, not lendable or parallel. Breaks under aliasing in trellis, rented endpoints, or transferable orchard.",
+  "stamp": 1,
+  "from": "poa1ByqNnmW2xUvwhiw3JJdQfvSQj6KRLDP8V564zS7FkRrR",
+  "nonce": 9,
+  "parents": [
+    "e4b758c68d5dcd08832d76eeec3311b2b40a0566f21f55c25b84d81a99dde5fd",
+    "f919898f55506f71e16522e02424350ca79060fea454d78857a3ae4684360fba"
+  ],
+  "ts": 1793033364,
+  "cid": "poa-mainnet-1",
+  "sig": "3z7yyPqJBYpdDR6SHnXw9NEVp47WUrqiMhbnRrk9eb19qGtYbf7Mb6UWuZ1BGaF97jtVUMoQYbPTzPGYSXiQYbs4"
+}

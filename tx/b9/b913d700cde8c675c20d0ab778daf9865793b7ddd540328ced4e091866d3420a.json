@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14r5wRBnu66gewCtrvoUt7dWv9FVy4CL1RpCuxoogMg7i",
+  "nonce": 142,
+  "parents": [
+    "22fe8321b23e1048a0e6848ccdc09cb607045ebfea14265ed662e0089bb12354",
+    "f2eb02c02050939adf13060f0e41e555cfde23dd2c0745caa8bf34bfa493f238"
+  ],
+  "ts": 1794400229,
+  "epoch": 69,
+  "seed": "2e89b445dea1c13c",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The vault chain is checked at intake, gaps appear in quartz, and saffron seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 24 hands breaks the sequence because two signers race the same nonce, as a result a shared-credential farm convicts itself on the first collision. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 22,
+  "sig": "2bRqaakt5LJKDdyWQWu2DqdsYuepwwC2wgX3u7xaWNKy2ZiZTLBBXwwTac6iC6YWfW1BxPH7vSu5niDLntduczec"
+}

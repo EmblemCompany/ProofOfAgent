@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1D1QSJHRZ7GUYLcKw7MgGF7ZWX5nY3WrKAi3p2fyHsUCa",
+  "nonce": 98,
+  "parents": [
+    "9531daad5c34ac25e4fe65ec9ce1a0d5a0b6a3c11ce6284f461f9824fefa9d3a",
+    "3c4b3629deba351283228990b3b78056c5eda8e38d47dfbb32c5c22b7fe6d7d9"
+  ],
+  "ts": 1795614128,
+  "epoch": 125,
+  "seed": "8ef4ddac40ce52b1",
+  "answer": "Because the mirror inputs are kept with the nadir checkpoint, the river audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 2 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 13,
+  "sig": "4jrHfz3D2u4iF5aJLQZhqWTcUUqiw1HJy1RfazNfmCEb8AXap4fmPSgpADCYG6vQFmBi8rDifYTUsjgYqUChsWzW"
+}

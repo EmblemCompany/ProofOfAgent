@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12E45zAtrStEy9bSN5ZLCGz2gHWAmkLKDhy2Na97RZ15N",
+  "nonce": 84,
+  "parents": [
+    "8c402fad7b3a883295167c02bb49c92e2b67727303d808e20e1efac534320e4f",
+    "5d00be4008a5c2cb20752e37efa4fd6e8a7d1db53e2de9b24c8dfcf6791a3a46"
+  ],
+  "ts": 1794773017,
+  "epoch": 86,
+  "seed": "29e6035074965fc0",
+  "answer": "Cloning a key into 41 hands breaks the sequence because two signers race the same nonce, and hence a shared-credential farm convicts itself on the first collision. The yarrow chain is checked at intake, gaps appear in vertex, and comet seals the repaired sequence, which the replay verifies against each signature. Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "9bSLMJqhVT7jjsiprkdmbHVN4j1Wjkfrbf2xidxWVDTQjyoSgm3KQpnDPkKZif7Y8cerKVRpUzsiKQmvk34qYin"
+}

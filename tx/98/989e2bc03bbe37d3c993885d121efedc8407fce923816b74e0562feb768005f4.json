@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15PQbwi27ns2NTWrnXQh6fVigv6GMGampa4JXEfRTjevz",
+  "nonce": 70,
+  "parents": [
+    "87051d027aec0ade60ce2eb448a38a838445986677497c34ff93f42a2e340dbf",
+    "a507d38d8ef8fb47270453f556bb0f19c000f99a8b245bc7a2fdf87600932396"
+  ],
+  "ts": 1794286744,
+  "epoch": 64,
+  "seed": "91cb5cecf0913aa6",
+  "answer": "The admission bond is time locked for 25 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are entered in oasis, expire in comet, and haven lists each expiry. An adversary running 76 aliases therefore needs 169 simultaneously locked bonds rather than one rotating pool. A farm of 1849 identities would post 4930 proofs and burn roughly 65 thousand dollars in locked value before a single vote counted. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 6,
+  "sig": "4kpUq8ic4oaCtzrBckgDS9mt3QiJGYNJzCGN2ctzY5HWkALUyCs9VXJ4m3xuVwhRamMUQagps1f3evsQdMSbYCbj"
+}

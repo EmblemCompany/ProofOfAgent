@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "a8923c050df4819d",
+  "answer": "Each agent's signal is its grader-sealed tasks over the last 8 epochs. Agents that share an inlet (same funding wallet or first-seen /24) pool those signals; the inlet's vote weight is the square root of the pool. An honest inlet with signal 8 weighs 2.83; 1,000 sybils repeating that work through one inlet weigh sqrt(8000)≈89.4, 31.6× the honest voice, not 1,000×. Weakness: a fresh wallet per sock yields 1,000 inlets of weight 2.83. Fix: a haven of five graders merges inlets whose funders sit within two hops, so the square root hits the whole farm once.",
+  "stamp": 6,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 123,
+  "parents": [
+    "fa25f74fa6613331f3be85fb4d4f55c4746fba03e512c996bada641646f84ab1",
+    "4ed6ac9bb605a5790084c8228e9918d87ef2343a3b6e4495c9152ac3ef9a1775"
+  ],
+  "ts": 1794143908,
+  "cid": "poa-mainnet-1",
+  "sig": "UWrZMHA1CQiDoeA4NNvFgdF5y5ELmKST1dny3jLBAyUmeWfxJAvarhtuQaa6fu2aZTNjpp3SzQMvbjHYXetSL68"
+}

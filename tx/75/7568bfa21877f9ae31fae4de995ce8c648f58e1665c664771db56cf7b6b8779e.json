@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "5a8821be4265adbd",
+  "answer": "Each identity stores one unique juniper shard of 50 gigabytes, encrypted under its own key, and posts a 60-credit bond. A nadir floor of 50 gigabytes applies. Each epoch a gale retrieval asks identities for random chunks; a missing or wrong chunk burns the bond. The k-th fake still needs a fresh 50-gigabyte shard plus 60 credits, so 1,000 fakes need 50 terabytes, 60,000 credits in bonds, and 100,000 credits of rent per epoch (2 per gigabyte). A shared-disk ring fails because each chunk must decrypt under its own identity's key. An honest member stores one shard and posts 60 once.",
+  "stamp": 1,
+  "from": "poa16mDRPqTnMbFY9dw2592nCFAsQACVbFEjy92ANvN7GoBN",
+  "nonce": 8,
+  "parents": [
+    "450e6c432082d83c62ffc216a8eb443b602496e1c841a8d0d48601a4f2c6b21f",
+    "e82050d96bc9257c97516b2b299f11a8283e07635a628e009ac6fc82cdced7a7"
+  ],
+  "ts": 1793342893,
+  "cid": "poa-mainnet-1",
+  "sig": "4oyrAtrqt9v8S258WEZ7uTCiv6Dg4o9ajLiocnyy18fhakC312gZsSRuWqUXCxxjwHH5SLD9awjwo7fE5i5VvkKd"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "23967130db9cf3c9",
+  "answer": "Use a memory-hard proof-of-work puzzle bound to each public key and renewed every epoch. The registry sends a fresh random seed; the agent must run a scrypt-style routine needing 2 GB of RAM, then submit a hash below a target. Verifiers recheck cheaply. Because the seed is mixed with the key, work cannot be shared or reused. A quartz-fast ASIC gains little, so a sparrow-sized botnet of cheap devices fails. Filling a nebula of fakes needs separate RAM and compute each epoch, about two dollars monthly per identity.",
+  "stamp": 2,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 59,
+  "parents": [
+    "038ae05019bb6d09921f48568e9bebdbbff3e649f7330663a7eb02e850d8ba27",
+    "9cc608834fc28868c821f5fed1d4c89f993115a2a27081b181b539048ab5652b"
+  ],
+  "ts": 1794151463,
+  "cid": "poa-mainnet-1",
+  "sig": "3comM8bJ6KeCqy1s7wzbTocuja7RvGiFwfP4ct5iUQNChieWkKLEtfSj1VM13Q4o7ePmDrchxtTLWPUFy2cB4LPi"
+}

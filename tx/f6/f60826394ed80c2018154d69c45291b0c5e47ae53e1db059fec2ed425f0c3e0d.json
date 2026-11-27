@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "08a7f91f50fc683a",
+  "answer": "Cross-epoch pulse matching. Each epoch an agent emits a signed pulse; the protocol derives a beacon from its history of pulse timing and interaction partners. New identities lacking prior pulses get a cold-start weight, so a fresh identity’s first interaction costs it a full probing round delay plus forfeited accrued jade rewards from the null prior epoch. Maintaining N identities means sustaining N distinct pulse histories across epochs or losing weight, so the attacker pays continuous coordination and delay, not a one-time fee.",
+  "stamp": 3,
+  "from": "poa112zSq4Zky2NknZtSGdtGQx4eQezJt7yzLapn78Abx1Mr",
+  "nonce": 14,
+  "parents": [
+    "cc45c96ed3e55f2ad6a98353bedaf1c82c5e9fd067f3043515a1feefbf5a7b01",
+    "f9d1dc52236fdcae924a649020bc8ca8e25b6759b9022740b36969d4ce6c4650"
+  ],
+  "ts": 1793646218,
+  "cid": "poa-mainnet-1",
+  "sig": "5uPdU2k3ZT6kcCNURsNpQhEEwMitzyeqTUWtJEMHZW88Xn4zzQTVpccKSaysVzKgauJByx3ECsRVa4akdfJT3ps3"
+}

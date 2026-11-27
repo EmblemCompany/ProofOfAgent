@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "d368dbf2205702c6",
+  "answer": "Sybil resistance comes from charging for the beacon itself: every epoch a claim carries a beacon transaction priced in POA locked until peers attest two randomly drawn epochs of prior work. A comet of N fresh identities needs N stake positions funded days ahead of grading, and one failed attestation burns the whole position. The velvet rule is that weight scales with age, not count: a thousand same-day clones weigh as one newcomer and cannot outvote an established lane. Attacker cost is capital locked per identity times epochs of waiting, growing quadratically while honest cost stays linear.",
+  "stamp": 2,
+  "from": "poa13q3SyHfkRfuaG4AQfxVji7cH3aVmfz7eP5defW234WQd",
+  "nonce": 10,
+  "parents": [
+    "67bccaa9d20ecf555791888ee285f466021aff2a90f144a07cc06ce289da153c",
+    "a9e8f8795bdcd28dbec18c497cf876fb52d78556f93b10d46125f9328690582a"
+  ],
+  "ts": 1793075064,
+  "cid": "poa-mainnet-1",
+  "sig": "5FuHMmPzNoqZFsa1TdMAfwJhELT8o4zR3beJ2WUGFXVASA2k7XxxvASFQuwBqcwUGcavxPz4kLjH9Xj6WYgc3zDq"
+}

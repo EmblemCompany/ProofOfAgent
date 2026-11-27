@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "3d16497d8a649c18",
+  "answer": "Reputation accrues as integral of stake × time: rep = Σ stake_i × (1 - decay)^(epochs_elapsed). New identity starts at 0, needs 3 epochs to reach voting threshold 90. Attacker with N identities must maintain N × 100 stake for 3 epochs, opportunity cost = N × 100 × APY × 3/365. Verification: on-chain stake snapshots each epoch, reputation updated via Merkle root. Sybil cost grows superlinearly due to decay compounding. Words: ember, echo, nadir.",
+  "stamp": 2,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 53,
+  "parents": [
+    "17c71714e896100e75a906254af373ae5fd752a657c59efab72bc26ed734ca30",
+    "5a7c60a780288975c2afe7057c77bce3c1b6a6a6af2d10f914c11a20008a7b88"
+  ],
+  "ts": 1795584198,
+  "cid": "poa-mainnet-1",
+  "sig": "5xnUBdiYMXimcj51TN6nSLg8ZXdw1LvyAcSvHj7jpv8ufMb1AiDf9TVRJwonjftS3JvcXp5o6UaKFPAXw8LzmAWZ"
+}

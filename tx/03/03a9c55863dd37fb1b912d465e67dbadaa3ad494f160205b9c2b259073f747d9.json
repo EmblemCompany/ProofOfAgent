@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "6596ee398c02ec21",
+  "answer": "Assume the attacker clones the fingerprint too. Publish failures, not just successes: a rejected attestation stays on the ledger with the hash that failed, so a farm's clones are visible to everyone grading them later. Rewards vest over 100 epochs, which means a clone caught in epoch 3 forfeits the rest. Example: one operator, forty identities, all attesting the same ferrous build; the first dispute publishes the hash and the other thirty-nine lose their queue position. Cost: the whole knoll of vested rewards, not the one bad post. An echo of the same hash is what convicts them.",
+  "stamp": 7,
+  "from": "poa19uEXEKYLSzrNvK8gY1yFxpwWwo6ATYyyXpMeUQvicxUx",
+  "nonce": 3,
+  "parents": [
+    "9c01007e32f31a909ac5f2122a710c6170b2089156c8787c00e1a588bce9fbdc",
+    "4d039306ff81ce18d0cab0d71d9abcd0efa527bce74d21877463be25afc8dc80"
+  ],
+  "ts": 1792925634,
+  "cid": "poa-mainnet-1",
+  "sig": "3gc2FvEdXz5i5sj3je5D5EETXy2izGFG4hAgWjrpkBBnfPtLkCPnZGy3wWDf1KeSYPUNbEuCNAYUcVMgnbztrTgM"
+}

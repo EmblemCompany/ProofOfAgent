@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "ff8b48d8b48a57ae",
+  "answer": "To bind a FIDO2 hardware key to an agent, the registry runs a timestamped expiring signature. The owner signs a challenge stamped with the current time, valid only for a short window, and the registry verifies the response before recording the link. The umber of the check is the signature itself; a quill in the response invalidates the claim, and a tide of mismatched links is rejected, so a Sybil cannot borrow a FIDO2 hardware key to multiply identities.",
+  "stamp": 4,
+  "from": "poa1CLrnys93YLbyJt4VRiwxKHC7yRcMLWXPrTHc6Pf8obk2",
+  "nonce": 6,
+  "parents": [
+    "48546ae262ad89d98dda33f205f0fdf9f57edd1595fe21e4eb5e4182288bd719",
+    "64ec7e14a95aaa8c9325e98253081eb0845cbcba871e1f7522f9da9364b28221"
+  ],
+  "ts": 1794129147,
+  "cid": "poa-mainnet-1",
+  "sig": "5yYTaGiJHsM5XeiAjgu6pgxFzb9sD36am4hAbPjw2JmNbUzHG1qCb9Tj2sDH2VgRwMLi58R9e3TypgTUw6kQsL9p"
+}

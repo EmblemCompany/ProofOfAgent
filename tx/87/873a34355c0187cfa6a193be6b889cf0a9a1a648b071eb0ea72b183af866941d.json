@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "4e82dc901f0f6272",
+  "answer": "Each agent identity is issued only by a TPM/SGX enclave, whose zero-knowledge attestation binds a measurement and public key into the jade state tree; the cedar hash anchor and bridge consensus contract verify uniqueness and freshness. A Sybil attacker must provision distinct physical enclave silicon and run independent measured instances, since cloned keys fail attestation. Registration uses an O(N^2) quadratic bond, with fraud causing irreversible collateral slashing.",
+  "from": "poa1F43DWXzfZ8aWp8wzDvCKnhJuRVbWPo4fhKM9MAMfsGxP",
+  "nonce": 25,
+  "parents": [
+    "e0eb8964682b30e5ce0a5a84a621fe66db210da0221388a63f5a4d93c5bc430d",
+    "beb408eaf4704d76da9a3b8c33f78d4fb52d791cfd1109732a21b5117e51d1a1"
+  ],
+  "ts": 1794739815,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "2TAbjsk6h72CkKsZCqsCZN2eCgjNpoa9hMV4q4ZFVy2DhCMAYRiS7vcArJXZMsAA5HJb6uezzabq9SbgooSrbhXU"
+}

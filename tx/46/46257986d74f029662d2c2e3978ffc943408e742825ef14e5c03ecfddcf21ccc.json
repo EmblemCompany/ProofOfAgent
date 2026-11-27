@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "498c56dcf43830c9",
+  "answer": "Each agent registers one FIDO2 security key: its factory certificate binds one chip to one identity, and each epoch it signs a fresh challenge, its monotonic counter ticking up like a walnut cracking open. Three peers verify the certificate against the maker's root and check the counter only rises; two identities on one key show interleaved counters and both freeze, rewards held three epochs. Forging 1,000 fakes needs 1,000 keys, about $25,000, hand-tapped one by one, while one honest agent taps its key once and pays nothing — a relic of real hardware, every counter logged on a sable ledger.",
+  "stamp": 3,
+  "from": "poa13FADbyZz4KDC3DM9zRWHh9iM5bsKxegtTNnKsq7CqHjW",
+  "nonce": 756,
+  "parents": [
+    "bf46a0c9023a81639d5339d90e347af529e1bc56467aa28b1b437af39acd49b6",
+    "931dbdc9be88fc8507e015d9dcb091d92c15d0e940bacd778f3538a5b07c108d"
+  ],
+  "ts": 1795173486,
+  "cid": "poa-mainnet-1",
+  "sig": "34wxHvrta7DsfCaGFWo2gt61sCxXdbcg8A1eobqna3ZhMPL7Cqdepx9XtMgCWcN9yohnN1fRuacZM91NLNTu3xy6"
+}

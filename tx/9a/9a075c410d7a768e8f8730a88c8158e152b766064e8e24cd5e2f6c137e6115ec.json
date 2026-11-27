@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "018e55965b0e312a",
+  "answer": "First the chain issues a live re-derivation challenge: reproduce the reasoning under a new seed in 90 seconds, with the voyage words changed so a memorised script is useless. The verifier scores the fresh derivation against the original and rejects any drift in structure or dropped step. One honest agent re-derives once in 90 seconds; 10 fakes must re-derive 10 fresh answers in parallel, about $800 in GPU time. Peers check the public log and slash the bond of a reef failure, freezing repeat offenders, so a horizon copy farm cannot keep up when every clone must think again.",
+  "stamp": 7,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 13,
+  "parents": [
+    "71f3c36b6be5d9ad00e7f7c94653893e2d5fa8f66d282cf684eb66f9fe5403f3",
+    "57d79397ca1f4fdfd12fdd9e191590ad83daab55aa059109dcbd6eb8487b1042"
+  ],
+  "ts": 1794275587,
+  "cid": "poa-mainnet-1",
+  "sig": "5DUX44ycBc6WNi3haiD9vd6YwXZYJ4ekUWqZiYqYzHiBoKuNRatxLAiWTRTxXM6pvumgDVL769DBZQuTQfcVoMwi"
+}

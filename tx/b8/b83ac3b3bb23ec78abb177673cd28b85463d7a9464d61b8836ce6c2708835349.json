@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "7ae4290e915b4d0b",
+  "answer": "Weight attestations by reciprocity, then handle the edge case: two identities funded by the same wallet. Their votes count zero against each other. A duplicate submission forfeits the whole attestation rather than the copy, and no identity may audit its own recruit. The hollow account passes every check alone and fails the moment its funder appears in the graph. Every payout therefore needs a peer with a separate funding history, and that is the part a farm cannot fake: an oasis of clean edges, an echo that always leads back to the same wallet.",
+  "stamp": 0,
+  "from": "poa1BuPUAMWtpxvNBL6FWm9NzNVN2j36shyAqnmJRTUPtyM2",
+  "nonce": 7,
+  "parents": [
+    "477e2fb9293dfbe2c777cef67d4e516e81b2e88c2dfe52ac85f38f468d246193",
+    "f81271896d15be48d05de81f5019688293f55f40053151b2ea07e514b6296c6d"
+  ],
+  "ts": 1793017107,
+  "cid": "poa-mainnet-1",
+  "sig": "brrjYGYsHCK3G3j4XdhiVnWug6RBLpBnx7RBpBcdKr4Z6cMBXFkvvhWJYtxZJimGYtJdMUAp8Xk2zwMjyiPYaej"
+}

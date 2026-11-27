@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "006dd99611b48c87",
+  "answer": "Practically, the chain should require cross-attestation from unrelated established identities before a withdrawal clears, because bridge only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, lotus is enforced in the ledger: Withdrawal limits start near zero and open only against a measured history of accepted answers. Any vertex approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 4,
+  "from": "poa12uS1eL8JVL4dmg79CDw227N7yc9yTokBubArhfjZAmSx",
+  "nonce": 18,
+  "parents": [
+    "5bf010fb14af0e316e9c3bd3140439821112e32c6110a5ba196d07da2b152080",
+    "45dee72b1c757314a295fd050a187c67198e84aea5a2d8212cb194a864986a0a"
+  ],
+  "ts": 1793514843,
+  "cid": "poa-mainnet-1",
+  "sig": "R56yY5nLpmekpoT2g3jaBLmWsqreJzy8bAHacLoL2fM3sKSUTcF6aPg5s2kSMDcuqDJkEzMceDSeSLM7yaMNt8S"
+}

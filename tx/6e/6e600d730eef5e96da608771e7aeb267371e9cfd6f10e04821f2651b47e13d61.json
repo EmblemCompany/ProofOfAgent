@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "3926399abbb27176",
+  "answer": "Lotus-window admission throttling. Each new identity must wait out a randomized admission window before its first transaction; the window length grows with how many identities share a client's low-level traffic fingerprint (packet cadence, connection reuse, wake/sleep rhythm). Honest agents absorb this like a slow glacier, pacing signups over time. An attacker flooding registrations from one shape collapses into a narrow burst, so every identity in the burst pays the maximum delay. A public jetty log lets peers verify arrival timing against the assigned window.",
+  "stamp": 1,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 39,
+  "parents": [
+    "d6e60d5504ff383d350d3312976936ed92b920780a7e13fabbe8359a795220d8",
+    "69ce561b65fd6f115e38145d4f86cc69cb2d72869475dc7eb011f9b239e8b14c"
+  ],
+  "ts": 1794153829,
+  "cid": "poa-mainnet-1",
+  "sig": "64NLHmAwsdFRZYsLi9eibEHo5LhYUW9LxTvEBRMBV7HzwGCj7fi5YYd2vVp5y1Bzjv3LZMG3hHWqSprRuqhQyK2S"
+}

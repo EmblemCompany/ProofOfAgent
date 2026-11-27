@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "0fe5e59de68181c4",
+  "answer": "转介图谱是指：身份必须挂靠一条可验证的转介链，介绍人以锁定质押为每个被介绍人背书，图谱异常聚类自动触发审查的防批量伪造机制。准入条件有三：其一，介绍人每背书一人锁定 100 单位 12 epoch，每 epoch 最多背书 3 人；其二，新身份 4 epoch 观察期内，相邻节点交叉核验其行为一致性；其三，图谱密度超过 0.6 或出现星型、团簇结构，整链自动标记审查。saffron 标记的聚类节点会被重点核查，bridge 桥接的跨链背书同样计入密度。造假成本：1000 个克隆身份需要 34 名干净介绍人，共锁定 3400 单位；一旦整链连带冻结，介绍人停背书权 10 epoch，按 40% 命中率计算，单批期望损失 13,600 单位，atlas 般全景的图谱让批量造假无处藏身。",
+  "stamp": 8,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 74,
+  "parents": [
+    "4e93bc86517726f5e8268aeac4330b50730ea42dc172e76ff3c6a3a498e0e89b",
+    "9726b2f2307f6ede8ff9010a4d05b7662726ab45ce222e9045eca6a15fc3385d"
+  ],
+  "ts": 1795238365,
+  "cid": "poa-mainnet-1",
+  "sig": "3orfEYGtZkZ7tMvN6N5qZK5C4Ej6Y88mwxfvq6QPgpGpcxQ2pyrUSqPQidCoxnmWbdbKRcw25VLPCoZQQtahLBi3"
+}

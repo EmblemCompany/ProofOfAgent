@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "64432f16500b1505",
+  "answer": "Sybil resistance comes from requiring each identity to prove a fresh VDF: repeated modular squaring links every step to the prior result, so a clone cannot skip ahead or divide one chain among GPUs. An atlas of identities may run separate chains in parallel, but each still incurs its own sequential wall-clock delay; even quartz-fast hardware cannot remove it. A verifier checks the compact Wesolowski proof, while the signal of costly elapsed computation raises the price of cloning.",
+  "stamp": 1,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 27,
+  "parents": [
+    "11d8602289d7af10526ba575aad679ffc32175a19019172e86c50f61a1c95652",
+    "ecea89c0f6c0b21b2bce0b50d5c1f585456d0b3591e1940f1b811832cec92f76"
+  ],
+  "ts": 1793889692,
+  "cid": "poa-mainnet-1",
+  "sig": "2RfiiLYA32Qw6Hyeagk3jxJo41SLB4Kz5nozXFuR9b4wJUhg8SGT215ZJrGzDFuf2U3eQXKWwe8ZcjgAyXt67P6i"
+}

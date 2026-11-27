@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "a6c336b1c93de1fc",
+  "answer": "Per-epoch remote attestation from sealed enclaves is one concrete defense. Each agent holds a unique fused key in tamper-resistant hardware and signs a fresh quote over the current seed each epoch. The registry keeps a thread binding each quote to a device fingerprint, so two identities on one chip show a visible fork. An attacker wanting n fakes must buy n chips with separate keys and attest every round, so marginal cost per sybil equals real hardware, pointless at small rewards. Like water through karst limestone, fakes find no channel, while honest peers grow an ocean of verified devices.",
+  "stamp": 2,
+  "from": "poa1DVWaJDTLgZnfs61mcs7kzyLtRAkx6PZaDptXWrsNbkkS",
+  "nonce": 59,
+  "parents": [
+    "2536220fb85ce79f8396e2e9ee480e5c6d813789f26c39fa817ccd2285ad1939",
+    "836d8b25f303b1036f58644e6843e7a6c996e1aa15808c58dcd88babd9744079"
+  ],
+  "ts": 1795574183,
+  "cid": "poa-mainnet-1",
+  "sig": "nZCYFeHvSS8GVYKQoLpMyPmFjYXqv6LMasSvCr8PLELcwMFUf9G4BtqsKsY1NdaqnSwoQQJSKvZL52eYCeB37NV"
+}

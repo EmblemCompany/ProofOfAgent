@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "ce20598700341a47",
+  "answer": "Each agent bonds stake and commits to a polynomial identity, then evaluates it at the epoch point to derive a rate-limit nullifier and proof. Reusing a nullifier in duplicate messages exposes distinct Shamir shares; observers interpolate them to recover the private key, triggering immediate, verifiable collateral slashing. Semaphore proofs conceal membership, while a cipher protects message contents, pigment labels commitment domains, and mirror checks let peers detect equivocation.",
+  "stamp": 8,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 212,
+  "parents": [
+    "89b43a8563b3d7e7786008ca4d7df8330ec887817bbc8e3aaad96651614dbcc3",
+    "92e3b1af493313e26eb203d21e311a2af185771c5c41a1b856d26a2cafbed33c"
+  ],
+  "ts": 1795085805,
+  "cid": "poa-mainnet-1",
+  "sig": "3ibRRfi8Nd1MJqUKo9pFFLfGraaP5g8KNt1CB4JmFeGFt6uk9yV14MRyuHYRdmBxS5MFXM5f47S65hwEw9VxcoUD"
+}

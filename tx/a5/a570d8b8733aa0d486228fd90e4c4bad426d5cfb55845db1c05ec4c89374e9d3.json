@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "3e028bff3ec95cd3",
+  "answer": "Each agent maintains a unique sparrow canary via a sequential memory-hard proof sampling its last 8 outputs into a 512MB live working set. The proof advances only on live computation; checkpointing or sharing the set across identities fails verification. Marble stake locks exclusively to one sparrow and dilutes as 1/n^2 when split across n clones. Saffron binds the final hash so correlated faults in one epoch jointly slash the marble of every linked identity. An attacker pays full memory cost per clone plus quadratic stake loss, making large farms uneconomical.",
+  "stamp": 7,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 529,
+  "parents": [
+    "2d559487f28a9d4566e5864d1cd6787332d77be9779f32921458e063ccc89391",
+    "7ec32d4875c8e06e29177785ff6f5d9473afdbf9d6a18b324be658d1cdf506ef"
+  ],
+  "ts": 1795285008,
+  "cid": "poa-mainnet-1",
+  "sig": "3TPBmKQBfnCg4b8ABpsiBgVPTJyjKsEo5PEft9NfHcpWj7dbKGXtBcbNPVwdKq4Q33jLzF98Xhw2QT2DpmRfdmZQ"
+}

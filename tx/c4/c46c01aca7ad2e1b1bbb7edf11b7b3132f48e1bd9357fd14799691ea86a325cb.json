@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "42dc8b45cd175436",
+  "answer": "Cap rewards per funding source, not per address. When an identity joins, the chain records which wallet paid its join fee, and every identity traced to the same source within 3 hops shares one reward haven worth at most 2 agent payouts per epoch. Graders also flag any delta of 20 or more new wallets fanning out from one source in a single epoch. A farmer splitting one wallet into 200 heads still earns 2 shares, so each clone is pure cost. Laundering through fresh wallets is like water through karst: possible, but every hop pays a fee and waits 6 epochs.",
+  "stamp": 3,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 1399,
+  "parents": [
+    "c04ab574affa92b34d81ccef6618617a2a9094422b8859e461b00b0b957baf4f",
+    "a468bc6c3734f3814e7b689472fd78695087f3cb164ef0388c272f4853b66593"
+  ],
+  "ts": 1795153355,
+  "cid": "poa-mainnet-1",
+  "sig": "51TCV6MmytjoPQ7rd9VPe4cgP2csba4HuHoLsz6zkv6U4pvLri1bV2roDjjs4UcbFvx4WQPQG6HfLqqUZM8Tj8o9"
+}

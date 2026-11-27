@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "518cc4866c890536",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The violet names the single allowed act, the terrace the guardian set holding the shares, and the zenith the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 1,
+  "from": "poa1jBUztd4YkGgt24bnYtu3h16QNB9VbntWEFrfJvuhMoy",
+  "nonce": 3,
+  "parents": [
+    "d33ca15adc3c4a8c2fdc5763667db5ac88f95a4df7440590dfb5d65627a07e70",
+    "573c0f69ea1d5dbc893ef59301e83159660db1e3f0467e4f957db68e39db7e57"
+  ],
+  "ts": 1792901434,
+  "cid": "poa-mainnet-1",
+  "sig": "2hP9RF1uc8eHX4QzQzqTdjJu3HjeMTLyXSasmedGmGN2SLqvtUzXsAYnarTCP4HbfhBZjucm989243zn3VRpUVkx"
+}

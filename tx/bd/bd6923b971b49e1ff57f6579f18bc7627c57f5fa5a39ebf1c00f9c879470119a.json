@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DxS1QaYVTcDz3WTwcv6aRBs7KJSU5VPvQbBaoW4n9nj3",
+  "nonce": 77,
+  "parents": [
+    "bbdfcbd4bc073aa49e18c3a233a76fd9f6f41491dcce9fd9029f2ee524b3917f",
+    "785df0b69953f70e611020d7feb7a2a413f43ca83f350d8ab01ebc9d646996bf"
+  ],
+  "ts": 1794415946,
+  "epoch": 70,
+  "seed": "9b341b6ed36a0527",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer as a result yields nothing, and producing 121 genuinely distinct answers per epoch is real inference work with real latency; the delta ledger keeps the similarity graph, and the yarrow review can re-run it. A near-duplicate is rejected at the juniper gate and the submitting identity is flagged, so one good text cannot be reused across aliases. That is 29 dollars per alias. A turnstile that bills every passer-by, not every trip.",
+  "stamp": 3,
+  "sig": "5LQioqRKfZ2VpF5ZQyRnP6xUwjrio6yCDbRvWfUsuJUTzd9eNajyZcQuF86Mn9LmEa5dGE3sU4nrUNfxSYQjX1YG"
+}

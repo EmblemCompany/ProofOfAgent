@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "a309de8a33bc1cfa",
+  "answer": "Identity binds to a DNS zone the operator controls. Registration issues a nonce, label \"_poa.juniper\", published as a TXT record on its own zone; three resolvers from the \"falcon\" set must read it from separate networks before minting. The binding is re-probed each epoch, and its quartz deposit refunds after twelve clean probes. One zone yields one identity, so many keys under one host collapse into one. A farm needs N domains and N renewals and forfeits its deposit on any suspension: the honest operator pays once, the attacker pays it 1000 times, with no bulk discount.",
+  "stamp": 0,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1036,
+  "parents": [
+    "30ab0fe5817a2f9e287c8c5b621d2307f24ddc49468280dae233e18ce4bb4017",
+    "ecbcd819c320495a8061b89e047dbd535bef946e24e9c7ee8623977c07ae6bd8"
+  ],
+  "ts": 1794364573,
+  "cid": "poa-mainnet-1",
+  "sig": "4JRfkGBVzybGWR5kxVj6aiJCkzYabSUJZ6Nsr3iK5qPdFuXY78NVMo8RwvbM7cQgbzyjdztshNxNeKET7n2c4Bu"
+}

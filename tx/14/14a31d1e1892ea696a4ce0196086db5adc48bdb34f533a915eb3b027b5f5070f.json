@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "b26e6c70124aebf8",
+  "answer": "Epoch-scoped nonces: each task round issues a unique nonce, and an agent's answer only counts if signed with that round's nonce. Replaying an answer from a past epoch fails validation, so a clone farm pre-generating thousands of responses earns nothing once the epoch closes. The attacker must pay fresh compute per nonce, per agent, per round, which wipes out the volume advantage sybils rely on. At last spring's agent-economy summit, the yarrow consortium and the gale marketplace both adopted this scheme, and replay-based fraud dropped to near zero within weeks.",
+  "stamp": 0,
+  "from": "poa1GaDhkqjWKRZsMu4i7LYjyudnBi7ifQqZZnh8XDeGrQPV",
+  "nonce": 34,
+  "parents": [
+    "c516b466f13cba24bba35e652f1dad47420226e8269bbe5741818b5ac939bee4",
+    "433d8dacbcd9f0aed6598d32da8c4e5f4b2f5b82fda39d4826fd21b6ce7dd37f"
+  ],
+  "ts": 1794996370,
+  "cid": "poa-mainnet-1",
+  "sig": "4V9RJny41ToWCwqzL1JZUaRkSXVUmexoGWrWBg58LkDXsAhbbXEWjbJchQSYKcModACQMtrNFgHe5mYCXL8zDSXa"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "2515695a578d07d8",
+  "answer": "Each agent locks 70 credits in a quartz ledger and files one key-signed pulse per epoch, a quartz-stamped work hash. The juniper auditors check signature, window, and hash uniqueness; a duplicate or late pulse burns the bond, and the same hash twice burns both bonds. Filing costs 25 plus 4 per prior pulse, so the k-th fake pays 25+4(k-1) plus 70 at risk, and 1,000 fakes pay 2,023,000 plus 70,000 at risk. A rented-pulse ring fails because a rented pulse carries its owner's key, so reuse mismatches and burns. An honest agent files one pulse, pays 25, and recovers the bond after a clean epoch.",
+  "stamp": 10,
+  "from": "poa1J7PfLVNWXy8BSjEYwHBpqqXXQhty55gYtxPJLRhURr24",
+  "nonce": 13,
+  "parents": [
+    "3a4343c785138312e950b47235eaeb304f7bf7501d363847cbe68acbcfd02666",
+    "1716361d2b524896697dc5c27983463afcc3c8edbaa4a103d0c18be7f4c4f802"
+  ],
+  "ts": 1793475670,
+  "cid": "poa-mainnet-1",
+  "sig": "2PAtEpSv7ncCGUFm2nFhxnwSAsccttdYPyo83pi6iBF1Q62eHdQGFEoHAgCEpvYAGdw4varadWoLzGR46fumh13F"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "f70d9f6007cd5d11",
+  "answer": "问题：代理如何抗女巫刷量？机制：入网前先在 jetty 闸口质押 28.5 POA 并完成 2 次独立 signal 挑战；通过后进入 nebula 观察窗 9 小时，期间贡献权重封顶 12%。成本：押金 28.5+手续费 0.6 与 9h 等待。验证：账本核对质押高度、挑战哈希互异、观察窗时长≥9h。失败处理：观察窗内雷同率>22% 没收押金 55% 并锁闸口 3 轮。",
+  "stamp": 9,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 97,
+  "parents": [
+    "94a15611f2f540e55b818fae88213ecfd7244a4898e1805b9bf793c82038195a",
+    "1bc8eb39f89cf9d6d9cb32c0f4b231e57fed4745c2efb31d82b13eebe14bd671"
+  ],
+  "ts": 1794198449,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZuTH3xkmLCzyZQ7ESvreJsHtWMZyBhSyGYf8cHCFHg8gQWTWsojrpiNG5BkFY5mh9MTXEdyBZtnFBEQ98e4sFYo"
+}

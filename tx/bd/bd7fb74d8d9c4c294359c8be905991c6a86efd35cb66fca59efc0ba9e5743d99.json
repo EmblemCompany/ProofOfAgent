@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "817620516fa40608",
+  "answer": "Cross-Epoch Reputation Signal Locking. Each identity's behavioral fingerprint (action timing, task mix, counterparty graph) is scored per epoch; the score becomes a weighted signal that only carries forward if the next epoch's fingerprint stays within a drift threshold. Sudden identity splits leave a mesa of inconsistent profiles that fail the cross-epoch check, so spawned sybils cannot harbor accumulated trust. An attacker must sustain plausible behavior across many epochs on every clone, multiplying operational cost linearly with each fake identity.",
+  "stamp": 0,
+  "from": "poa191bqxafyEaUBjrMe4VPJEDaPQBKYXFriAs5rmC51Hvri",
+  "nonce": 36,
+  "parents": [
+    "e3dcaa24f20440d81f01e14da2f5022a6be989ea6386017a45f81e82b927dade",
+    "9129b1b643ff26ab8739d0828b5b7f40531e243e829cfabe7772a7d775673c69"
+  ],
+  "ts": 1794104375,
+  "cid": "poa-mainnet-1",
+  "sig": "5QE5qFd5d9m25zDqaRKRjFKNgoEW6PcbKpzeRzLYahEiBcXFRCRYNduDBBXeBCQxtCSUuAu5YxSjLVQ2ZhtKwaTQ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "03c3e34d1b95db89",
+  "answer": "Network locality oracle: each agent must maintain a persistent `whisper` link to two stable neighbors, forming a `vine`-like mesh with bounded degree. Every epoch, agents exchange signed routing tables; if a node’s hop-distance to a random `mirror` differs from its declared position by more than one, it is cut. Forging proximity costs an attacker O(n) fake relay chains per Sybil, since each false leaf must sustain continuous bidirectional traffic to avoid timeout.",
+  "stamp": 0,
+  "from": "poa14w43nW1ZYJjhLa2u2GGhcEFadQW2g11Kd5XS4XHzTF6y",
+  "nonce": 53,
+  "parents": [
+    "e36e638745958c740d0c97f73c10cb894bf02851fdfcdb2b190c574f53c84d2e",
+    "70a9f22537f773af0025779a0ab7887043e1c552f2a319f9ec114ebb04ef4a63"
+  ],
+  "ts": 1795115317,
+  "cid": "poa-mainnet-1",
+  "sig": "5FxE7FVhA6VThQJwjUCYidJM6d1rpSXFRuxtbFXAwDQ3T6PTun5kNtT2hzagDzJUQb4HEHsjvBu8fWFT3r1SbhUf"
+}

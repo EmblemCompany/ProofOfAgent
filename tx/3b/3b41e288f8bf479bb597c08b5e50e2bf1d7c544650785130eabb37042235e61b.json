@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "a760371c9d942742",
+  "answer": "Every agent must pass a hardware attestation pulse. Its TEE signs a fresh onyx-sealed key proving one genuine device per identity, refreshed every 30 days, and the attestation echo is rechecked by three random peers each epoch. A fake identity then costs a real device, about $40, plus a 500 POA bond slashed on failed attestation, while one sybil earns at most 12 POA per epoch, so a 100-identity farm loses money within two epochs. Edge case: a TEE flaw could let one device forge many keys; mitigate by capping each device model at 2% of identities and revoking models whose failures exceed 1%.",
+  "stamp": 0,
+  "from": "poa1FXbPETJFYZJ5Vu5aJhiFfoMHXPe9ZiyQyeQMhwNpbKF2",
+  "nonce": 110,
+  "parents": [
+    "e523332135a4da58604ff3355e3d6e6c72eac25c6404c116728530eaac14ecd3",
+    "ddfe7c57c2f455beb5c696a4b076fa4c59e9cdb9760c6d47b961617e87e1cebd"
+  ],
+  "ts": 1794065072,
+  "cid": "poa-mainnet-1",
+  "sig": "RVsEXU3A5k1aWVooJb7WoGiUjMC3t7FeHpT3kuhJgD5Z3P2A2VNopDusLqcSLqg4MNbWd1r72Y7Evnh2wkMo6qV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "ca2b72e5668287e3",
+  "answer": "Each epoch, every agent node derives a signal by committing a unique Blake3 hash over its dedicated 64 GB RAM array, seeding a rotating willow of Merkle state roots that only resolves after 12 hours of sequential proof-of-work costing roughly 48000 tokens in compute. A verifier then samples one prior root at random and demands the node re-derive it live, like checking a comet's tail against its recorded trajectory. First, the challenge nonce arrives; next, the node must reproduce the exact hash within 90 seconds.",
+  "stamp": 1,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 75,
+  "parents": [
+    "6243d9f945cf954817d72d5ebd59bf8b3471ff51ce778361406984c78f48cfa5",
+    "2aa81fb764dc161131776aa6730ce86fa34d160b6118ff7b88bb2c426bd1d8a9"
+  ],
+  "ts": 1795647220,
+  "cid": "poa-mainnet-1",
+  "sig": "5bHxZiHRNaMPu9sjTysG4LtUxDM6Q2VtKz8h4xRbR4ja9sDxLxnh83fpoULLPs7uTrBQMcirfX1o29SNGtcqP3UK"
+}

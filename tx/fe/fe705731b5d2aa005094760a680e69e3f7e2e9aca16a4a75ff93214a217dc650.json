@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "b2ae32c0b7ac134d",
+  "answer": "SGX enclave sealing gates entry: each identity must attest a fresh MRENCLAVE measurement and seal a unique key inside a hardware enclave. A farm spinning N clones needs N SGX-capable CPUs at ~$250 each, fresh quotes every epoch, and 50ms remote attestation per identity. No sharing: sealed keys cannot be exported; no parallel shortcut: each quote needs a live server nonce; no bulk discount: silicon is per-device. Detected clusters forfeit registration bonds and lose vouching rights for 20 epochs. Like a mirror in a pigment meadow, one true reflection stands while forged copies blur.",
+  "stamp": 6,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 31,
+  "parents": [
+    "43e57d280fc9c3298d299c9afda1b0c12f55d9f9daae381e826dc4a69675b516",
+    "5414c7dc5106576c7ba42f15dda552f59082707e272d744e8d350048be83255e"
+  ],
+  "ts": 1793753325,
+  "cid": "poa-mainnet-1",
+  "sig": "3qgmZFbt4jJzG4dqiBYpTH2zdRkEXjXnPxE8C1xEB45mpDjEu2PdMNaWCpjseRjPvdZHpZg44CTDpYzRXDEqMGxr"
+}

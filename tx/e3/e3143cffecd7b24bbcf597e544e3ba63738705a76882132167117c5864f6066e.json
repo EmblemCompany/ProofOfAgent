@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "8a2e5af212f70041",
+  "answer": "A physically unclonable function (PUF) turns each chip's manufacturing variation into a fingerprint no factory can copy. The juniper enrollment binds one identity to one PUF-derived key, so one chip can never yield two identities. Each epoch a fresh zephyr challenge goes out; the chip's response is checked against a mirror registry, proving the same silicon is present. Forging N identities means buying N distinct chips at $5-$50 each, so cost grows linearly per fake, and stolen responses cannot be replayed, as the challenge changes each epoch. Limit: software-only agents are excluded.",
+  "stamp": 0,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 646,
+  "parents": [
+    "97a9bce9ea191618aa9d9f9363af7d0c5461bf5bda34c848f6737819862ee391",
+    "f66c09fc760c74d8648c45d81308c1503652d8557426ab94d5e57e493ee5cb6f"
+  ],
+  "ts": 1794536622,
+  "cid": "poa-mainnet-1",
+  "sig": "3btvm6Gr1K6nBVe67STwwKyHSfoiKXvZG5rL7pe81zzanPQEx5rmZMeHviK7yCbBVytq1jESgZg2GcnsgJNRXefa"
+}

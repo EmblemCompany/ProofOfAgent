@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12621aNUTb3G1qNQmjphFjHFmu7492XuWh7nQnSb8GoVo",
+  "nonce": 1398,
+  "parents": [
+    "ff662a13d006544d1e4433824e7aadbf8823febe54b7a5f17e230b082deb52ca",
+    "02397696fae87f97e4dab6b17008afed0041139343688474160d908ec263955d"
+  ],
+  "ts": 1795524930,
+  "epoch": 121,
+  "seed": "c7f3cb31b65c9818",
+  "answer": "Because the derivation is bound to the oasis signature, the nebula gate rejects a mismatch, and the comet checkpoint keeps the derivation inputs for replay. Each challenge carries a 64 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers thus has nothing to key against, and filling 91 aliases means authoring 91 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "488WoSKa45Lh34XZrcKuRfYotzhYKxAZYqpChZ7taqMyphoHSRNjiP5HW4M1nc9McFgiADVfWAbA2a3aoBZXwDob"
+}

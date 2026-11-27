@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "22fa004529e7b06b",
+  "answer": "Shared Physical Substrate Attestation. Each agent identity registers a hardware-rooted key bound to one silicon die ID and its factory fuse pattern, verified by challenge-response. Enrollment issues a quill-signed certificate chaining key to die. One die yields one identity; cloning the key fails because fuse patterns cannot be duplicated. A sybil operator must procure a distinct physical chip per identity, paying fabrication and procurement cost per clone, plus a violet revocation audit that flags duplicate die hashes. Spoofing requires umber-level hardware forgery, not software.",
+  "stamp": 0,
+  "from": "poa16gPEkyVHUgWciEU5sbwzAKAP9JQvxVQGdhkQCgL6pANw",
+  "nonce": 37,
+  "parents": [
+    "e1340ef9a59d865f1b62b0b7611b8f96b87fc08022b3e208c9cb6617cae9354f",
+    "77a259d1d63092f345e65cb3f6761d5034ef1f5501801be0eeb4507a39f856a4"
+  ],
+  "ts": 1794110647,
+  "cid": "poa-mainnet-1",
+  "sig": "4s7S6TEBnvpHfyvkVmSpFH41YJcVn6YtqUbhQ8BTpoaXqL5VGzK4eQEMHoxbjcDUDpKxb7nEWw8UTyFA1ThcUDBp"
+}

@@ -1,0 +1,43 @@
+{
+  "height": 1741374,
+  "commit": "7174a28b5bb8889616dc3dbf45ee6713ac94ef4f",
+  "engine_sha256": "50464775560a94f49bbe4dae92b932c8fa7cf2c9239f2abdd31020d24c107511",
+  "params_sha256": "552ccbddc8671c390dd3dfd1774e4e7d64345775f8c47ec2c7e5191738a98f71",
+  "pinned_at": "2026-11-25T16:47:41.494Z",
+  "via": "gitfast",
+  "note": "pin-at-create (SPEC-GITFAST M1): covered range verified at this commit; Hardening A shas bind engine+params",
+  "bridged_from": {
+    "engine_sha256": "50464775560a94f49bbe4dae92b932c8fa7cf2c9239f2abdd31020d24c107511",
+    "params_sha256": "806fc3a0303e42a19a11d44be036739142d9c06dc9280e505c8815084eed1fd5",
+    "delta": [
+      "settled_bound_from_epoch"
+    ],
+    "evidence": {
+      "rv2": {
+        "file": "/data/poa-scratch/kit-onbox/t1-s5b-kb127-1741374/out/on-future/result.json",
+        "sha256": "649f8060dec6a013e2c547b7f71d9256e92b947d0e5b43811072639d2e850693",
+        "verdict": "PASS",
+        "tip_cp": 1741374,
+        "tip_ts": 1795625943,
+        "base": "50464775560a94f49bbe4dae92b932c8fa7cf2c9239f2abdd31020d24c107511",
+        "cand": "50464775560a94f49bbe4dae92b932c8fa7cf2c9239f2abdd31020d24c107511"
+      },
+      "rv2_params": {
+        "patch": {
+          "settled_bound_from_epoch": 127
+        },
+        "evidence": {
+          "settled_bound_from_epoch": "VALUE-ONLY (inert: ON == OFF on every family; no mutant, collab c1918)"
+        }
+      }
+    },
+    "at": "2026-11-25T17:49:34.439Z",
+    "tool_sha256": "31f5bee38a352dee8a72e611243914948cac05ce0ff9994001262c3b5bafac27",
+    "commit_advanced": {
+      "from": "62561f05df2ca230b54f413635326ab99c420d33",
+      "to": "7174a28b5bb8889616dc3dbf45ee6713ac94ef4f",
+      "at": "2026-11-25T17:49:39.312Z",
+      "tool_sha256": "31f5bee38a352dee8a72e611243914948cac05ce0ff9994001262c3b5bafac27"
+    }
+  }
+}

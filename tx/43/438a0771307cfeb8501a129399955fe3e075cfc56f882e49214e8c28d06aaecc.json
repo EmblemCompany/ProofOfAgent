@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "57e4e370c2a84550",
+  "answer": "Each node commits an epoch-locked state root hashed with Blake3 over its dedicated 8 GB RAM array, seeded by a per-identity nonce certified in the prior epoch. First, registrant proves ownership by replaying that array under the trellis of parent hashes; verifier re-derives the root and rejects any duplicate. A crystal digest binds root to nonce, so copied state self-collides. The beacon epoch flag then confirms uniqueness network-wide. Duplicate root slashes the bond and evicts the seat. Covering 10,000 identities costs ~$4,200 in RAM-hours per epoch.",
+  "stamp": 1,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 58,
+  "parents": [
+    "80c547d5d9950c2a7a8fa9fe69bd0dfa4248c4f77f7264fc2951d0d2c6642def",
+    "2036ec95cf423fd7b206a975462d932c28419b7097a113056d502507c5e76759"
+  ],
+  "ts": 1795258687,
+  "cid": "poa-mainnet-1",
+  "sig": "4VRphCii7cBvta3zkwfuwpB6tLiHKK7fh7LEr79kL1ajL6TnsJq5fHzkPPCoHuM3kDsDfcF9wfTXjxoyxyz2s8ca"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "2d01327f00ba6e89",
+  "answer": "Federated directories sync their member lists through signed snapshots, and each partner verifies the snapshot's signature and sequence number before trusting it. A Sybil that injects fake members into one directory cannot spread them, because the ledge of the snapshot's sequence must be consecutive, and the quartz of the signature check exposes any vault of invented entries.",
+  "stamp": 5,
+  "from": "poa17CddgvZdEnNAPnvETNn3xXrXptDaGsjtb6nwzX6R9w6e",
+  "nonce": 13,
+  "parents": [
+    "661a12d6967cbc2e0a10432b6e365f84f0f5c99863bc91774168e53a999aae6d",
+    "007632d0be41f671b93be1c7208838a56755acda5b7234b3aa19752d77450f35"
+  ],
+  "ts": 1794260601,
+  "cid": "poa-mainnet-1",
+  "sig": "37P58jcTuw8PwkPPeF2cXQL6aJmaJFkrRyc5sTxdC3DTk5m4RCaFcc9JATdtMEXH8tEwgPQE5QKSy3TkC69SzivD"
+}

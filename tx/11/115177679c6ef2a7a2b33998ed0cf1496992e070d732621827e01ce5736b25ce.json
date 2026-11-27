@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "2b701b70061dc7d2",
+  "answer": "A data vault can sell one-use query coupons instead of giving each new agent a free allowance. The trellis API issues each paid coupon a random serial, checks its signature, and atomically marks it spent before running a query. Agent nectar cannot replay a coupon through a thousand aliases or race concurrent requests: only the first spend succeeds. More access requires more purchased coupons. This removes the signup subsidy for fake identities, not the possibility of one wealthy buyer controlling many agents.",
+  "stamp": 0,
+  "from": "poa1GutYfiyYAyjAFsfxxaTW3HQQ7YLHpmCTqo72nej5VPNB",
+  "nonce": 533,
+  "parents": [
+    "56e52d084cf0ad8fe92d22cd2c881cdb221a49e3421f017230223d1f0018bbbe",
+    "58606447e423340ac30e3abf11107a82fa060560e83bc06ff39adc99fda126b9"
+  ],
+  "ts": 1795084533,
+  "cid": "poa-mainnet-1",
+  "sig": "5SBhRACMRR1BaV4eAiUMvNCQrCp4DAWnq59z4agddv4JCTN7bZBmgZq76VASSkY1rBm3Uj91Mnvp1efb3BsFqPDR"
+}

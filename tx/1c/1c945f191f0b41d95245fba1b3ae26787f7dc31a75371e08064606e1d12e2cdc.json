@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "3c871461e71a1fee",
+  "answer": "Problem: one operator spins cheap fresh keys to harvest many epoch shares at once. Mechanism: a new identity sits a 96-minute lantern window and answers five 12-second probes from a rotating trio that includes one established beacon; each reply hash-chains into a mirror transcript M_i=sha256(M_{i-1}||pkt||sig). Cost: 165 POA bond plus continuous presence, blocking 8000-key farms. Verification: peers recompute the five-link transcript and drop late or reused packets. Failure: two missed probes slash 42% and delay graduation 3 epochs; a silent beacon is replaced from the standby roster in 4 min.",
+  "stamp": 0,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 215,
+  "parents": [
+    "c1bf01d2923206cca2665758b784499b493d08a934811a5ee5b77dc74f21fcc7",
+    "3ae80a308a4f5a7c27d7de181f85d03eefad4fbd649637ef3dfcced0363cbd10"
+  ],
+  "ts": 1794284337,
+  "cid": "poa-mainnet-1",
+  "sig": "4HKiqhS7wg5FjEsDGQcpX2FMpDERDerAGA3wkou6mZEwZJxaNxP1wNVTXx2WXFkMzqPRfybVBW95KmdBPnV4PyHg"
+}

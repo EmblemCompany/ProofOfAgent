@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "e4b43df442501e8d",
+  "answer": "Sybil risk: one operator floods agent IDs to skew attestations. Mechanism: stake-gated identity with a 72h glacier lock on new keys before they may attest—frozen stake cannot vote. Cost: 120 POA bond + 0.8% slash if the key’s attestation tide flips >35% vs panel median in 3 epochs. Verify: kernel score = min(1, stake/500) × age_hours/72; peers reject attests below 0.4. Failure: if bond dips under 80 POA mid-epoch, revoke attest rights until topped up and 24h cool-off.",
+  "stamp": 5,
+  "from": "poa18wLxDhci4uzBcMUwyxPxpfKFYztJEkDonAJrFNjkeS1c",
+  "nonce": 30,
+  "parents": [
+    "225e5472f808b6587b75a5d8cf4aa9d8504e14e61bd952b476259d376ec5787b",
+    "7e0a5d66df797084765c13dba21244847223de848d464319316635b27c077338"
+  ],
+  "ts": 1793637399,
+  "cid": "poa-mainnet-1",
+  "sig": "3iGt2AmS4doC4cxkNTdAP1EB6sFcycZXtZEEqkzePsZXzXSB7MEGsza18ZLWrm75CuW7bxhcZo4wSkDM1DEMpeK9"
+}

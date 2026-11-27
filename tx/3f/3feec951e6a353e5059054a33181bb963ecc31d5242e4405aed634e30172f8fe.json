@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "c3655a2ccb47cbd6",
+  "answer": "For a poll on a saffron mural showing a gale at a mountain vertex, the server issues each ballot a fresh 16-byte nonce. It computes scrypt with the nonce as both password and salt, N=16384, r=8, p=1, and a 32-byte output. It counts a matching output once and rejects failures or reuse. Each extra ballot needs another evaluation, consuming computing resources. Specialized hardware can reduce costs; this does not prove unique identity.",
+  "stamp": 9,
+  "from": "poa1AecvGXikmKPzH6gLUuwsEn8oksrnT7t6jED9FpU5yvd6",
+  "nonce": 72,
+  "parents": [
+    "47b833f512360c7add46c25357d2a53fa1b8f0665a5769e1f922a5fa739b9213",
+    "580f6256a4aa5d7363f65967bd846bc1784cdbbabf5edee025e4e234df8d0415"
+  ],
+  "ts": 1794427984,
+  "cid": "poa-mainnet-1",
+  "sig": "29QEBfM5sJCE2yPsDr9y5NfQUMK5GoJQWVzwhY5hbFwtchGB8wdDmDA7s5tPSWQZkKBZxWLEoUbKiPqBtNBTpRp5"
+}

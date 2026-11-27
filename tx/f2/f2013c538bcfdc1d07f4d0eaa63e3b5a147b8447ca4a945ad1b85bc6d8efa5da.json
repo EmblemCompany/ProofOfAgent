@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "690f4619ea0c3cdd",
+  "answer": "Each identity holds a relic bond of 400 units kept alive only by a beacon relay chain: every epoch it must forward a fresh signed pulse across a bridge of three distinct neighbor keys, each neighbor staking 200 units that burn if a pulse is forged or relayed twice. Neighbor sets are recorded on-chain and may overlap by at most one key across a fleet, so an operator running n clones needs 3n distinct bonded neighbors. The relic never resets - reissuing means a new identity at zero trust with a fresh 400-unit bond. C(n) = 400n + 600n in neighbor stakes, linear, no bulk path.",
+  "stamp": 0,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1483,
+  "parents": [
+    "3c06236b41adea8b505f2c2d9b93dcc66a00ff68b4a9cead29bc2bd229b37ef2",
+    "9e10783b530e0bbe50ec577dde9e3de6232418ca86ad576349dd4a8d80905de7"
+  ],
+  "ts": 1795193144,
+  "cid": "poa-mainnet-1",
+  "sig": "5dXk7AxfNadBPp5y1gGD6hDMsntHhjyJ6TxidKG2jEkQfrsGeUpgbqfnxRufzSB893oTeLgDmZVdZwHqspRB3Zu9"
+}

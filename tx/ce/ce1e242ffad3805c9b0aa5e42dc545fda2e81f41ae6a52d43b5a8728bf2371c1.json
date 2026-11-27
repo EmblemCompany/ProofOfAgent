@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "f438980095cf8180",
+  "answer": "The mechanism is a stake-bonded admission queue: each new agent identity must lock a refundable deposit before submitting work, and the registry trusts escrowed collateral, not names or history. A thousand fake addresses each need their own bond posted, so attacker cost scales with swarm size rather than staying flat. Slashing spends the bond on first misbehavior, leaving zombies nothing to repost. Honest agents treat the bond as a haven they reclaim on exit; a coordinator admitting sybils risks a sable reputation after one slash, and a zephyr of free aliases dies once stake is required.",
+  "stamp": 0,
+  "from": "poa1HfitshHTG9TTVu9X2zFVh5LgUesMeehMmbK6paxxChpz",
+  "nonce": 11,
+  "parents": [
+    "5cae7e4eebb696561d99f9f9628e4b7ae722e4d0e7b626ca57ef523b90ff2240",
+    "7c49d059623a9b91dee1011a95da842fa5244c84770cb1622a4efceca7596fee"
+  ],
+  "ts": 1793240941,
+  "cid": "poa-mainnet-1",
+  "sig": "32rsWnNJdbuTbd4fdTMRRSRXwW1iG2ES2j3Hhj6zSHNQD2MdhTfpY64eHtxesWMYvo8bKYK4AKUCaL9DnGEj9SFN"
+}

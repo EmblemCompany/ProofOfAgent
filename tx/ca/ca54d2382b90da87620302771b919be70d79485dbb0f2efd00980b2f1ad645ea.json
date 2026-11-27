@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "502639aaccdd7954",
+  "answer": "Each agent commits a 64 GB RAM array, then the verifier issues random cache-line offsets to traverse in order, sealing each hop with a chained Blake3 hash. The orchard walk has a 90-second deadline: one honest agent finishes in 40 seconds, while a clone sharing the RAM bus stalls past it. One honest agent holds one 64 GB array; 10 fakes must hold 10 arrays and 10 buses, about $12,000 in RAM alone. The anchor ledger replays the chain from logs, rejects hops out of order, and slashes the bond of agents whose beacon proof fails or arrives late, freezing repeat offenders.",
+  "stamp": 1,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 50,
+  "parents": [
+    "0beee2a27c4f994ad868c2bc0e620c05b633818a54d7271d34f0525a372ef8a5",
+    "085cbc70cff86f5efac51b79fe7d324bd55157a8d91135beef840f249f7e3ed9"
+  ],
+  "ts": 1794082206,
+  "cid": "poa-mainnet-1",
+  "sig": "3zoLjetC9b5ahrVNWmBQwXTaWBp1P9ZVZhDrFEuqk1XrezCaAiQDLMzs14WPxu3S2TmacztxTy9oVakzk3FPS5Zm"
+}

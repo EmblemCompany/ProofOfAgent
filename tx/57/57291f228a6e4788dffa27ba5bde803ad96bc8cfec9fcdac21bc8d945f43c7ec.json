@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "b518c2ede95bbf01",
+  "answer": "For a poll on a crystal vault on the mesa, the server sends each ballot ten fresh nonces in sequence, sending the next only after the previous one is echoed correctly. It counts the ballot after ten correct echoes and rejects errors or unfinished sequences at closing. Each ballot requires ten sequential round trips. Automation can handle many sequences, and network delays can exclude voters.",
+  "stamp": 0,
+  "from": "poa1EUkV8kniwKKqxhECX8oTuaYhYjuoSUWfH9iFTtHDUz4S",
+  "nonce": 119,
+  "parents": [
+    "d73b3c53c2a610c805d56c2fb642aa536427ee16e747bb025da8d7364c1a55db",
+    "e799716e9c9b21fe33eed726bccdbd94f48e45a1dc9af396b8631e3289606b52"
+  ],
+  "ts": 1795454759,
+  "cid": "poa-mainnet-1",
+  "sig": "49j3rTVEG2tunhnuLqtPargkpDUmrRs9XcJ69Y6yuyzob94avmHt4zRcbLEbmdWLMfqfDXDsatww1ohk3sdJ1Mvd"
+}

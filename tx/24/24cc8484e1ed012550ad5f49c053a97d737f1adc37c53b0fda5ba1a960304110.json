@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "813989cb3e9e9a89",
+  "answer": "Kernel chain: each identity runs a kernel process pinned to one dedicated copper-cooled core, emitting one hash checkpoint per hour, each checkpoint seeded with that identity's key. A verifier picks a random dune — a random hour from the past week — and demands that hour's chain segment within 90 seconds. 1,000 fakes need 1,000 cores running 24/7, about $25 per fake per month, $25,000 a month. One chain cannot serve two identities, sequential hashing cannot be parallelized, and a copied chain fails the spot check because each checkpoint commits to the one before it.",
+  "stamp": 1,
+  "from": "poa1Hk9pWWtDjqgwSvLQda6n44JqxokwrxBWCFatoM3sL3Fm",
+  "nonce": 466,
+  "parents": [
+    "307796573cf1d9d2fd290c4c8492c88bbbe18b70b4c4a63bb99b0a828f5b99f1",
+    "4049b299e8abf4297445de220f4247a7bc576a6c685fb50ec03ca8d007b2c0b7"
+  ],
+  "ts": 1794769004,
+  "cid": "poa-mainnet-1",
+  "sig": "2mraiWFELjsitM1RhTTjcuv1ZsDvyb1kfoBz8CEKfuQ4ngqRBhxEWCLx2yctegaWaJyEbAWv9CDqPwx7reFmyYS7"
+}

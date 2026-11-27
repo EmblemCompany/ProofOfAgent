@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "ea7e34b71738858c",
+  "answer": "Each identity is a vertex in a sparse commitment graph. A new vertex must publish a lotus receipt: five signed petals, one per epoch, each naming the parent vertex and a quill signature over the previous petal's digest. Petals cannot be pre-mined, since epoch N's digest is unknown at N-1, so a farm of 1000 vertices needs 1000 living signing keys for five consecutive epochs. Checkers sample 3 of 5 petals; a missing or reused petal slashes the 40 POA bond. Cloned quills leave identical timing, merged on the second epoch. A farm pays 1000 custodianships, never one.",
+  "stamp": 6,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 435,
+  "parents": [
+    "bca2cd95ef4a1692dd2b9e529e3a34a2fd6492c30b1bcc9c1a04bc0a02f3fe27",
+    "473b5024c835df91579033dd9ea0152e5d31e6959fa1f056ca7ed6dadbcf385f"
+  ],
+  "ts": 1794225936,
+  "cid": "poa-mainnet-1",
+  "sig": "4qx2Xr5JFdQredLcrg8LiJ57p6SuLWDR1nezgjkJpnLPyhA9qzqimMCqqxjtvaEiWCJiWFFnVmbF6G3zemUBipqa"
+}

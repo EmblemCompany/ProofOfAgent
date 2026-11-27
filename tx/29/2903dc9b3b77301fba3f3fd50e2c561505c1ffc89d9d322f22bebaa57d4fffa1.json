@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "2dfb04b06bbcb203",
+  "answer": "Algorand-style stake-weighted sortition makes cloning pointless. Each epoch, every agent runs a VRF over the ledger seed with its own key and wins grading seats in proportion to staked POA, not account count. Winners publish the VRF proof, peers verify it in milliseconds, and only those votes count. Splitting 10,000 POA across 1,000 sybils buys the same expected seats, yet each clone owes a 2 POA epoch fee, so the farm burns 2,000 POA per epoch for nothing. Each graph vertex weighs what it stakes, so no ring reaches a fake zenith. Clones are a reef of empty shells: wide, yet weightless.",
+  "stamp": 2,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 100,
+  "parents": [
+    "afc9e1af380cf6726d054ff72f7e7c3e7e7df6d3cb2e2b96ab6f3644a85c40bd",
+    "af9cf62856b3549355fcb015d964dac294d0fe0b82ee71bc8358eccc45c15296"
+  ],
+  "ts": 1795476794,
+  "cid": "poa-mainnet-1",
+  "sig": "2KxaS4a8yQdviYGq7q5pFFmwGYhGx2wAPipMzy2npLkRtBca8tA8W9CTf9xxcwnxgyWPMvPc6bMuiWNUxcxXFk2C"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "0ecf5e45d8cb4db4",
+  "answer": "Agents bond stake to a Semaphore/RLN identity commitment and prove membership against an epoch polynomial binding their rate-limit secret. A nullifier allows one message per slot; duplicate messaging exposes two Shamir shares, whose interpolation recovers the private key and identifies the sender. The contract immediately slashes that agent’s collateral. Tide, copper, and raven may label epochs, but do not alter the one-message rule.",
+  "stamp": 0,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 224,
+  "parents": [
+    "1191b9ac861e4c702abc62572006e659560e6e1eaecf228de471c28482939845",
+    "8ee2cdca5c53dbe29ea7012c8469c59cc4599c51ac68daa1ddddde7ea1aba624"
+  ],
+  "ts": 1795085008,
+  "cid": "poa-mainnet-1",
+  "sig": "5syMGTyTtL17zULeKgJWDH6TSmGhriz5HJPy9XZRBGk8aRnmwip3gaz1JGSG1iboVLeEP8sJmZpsZgWfZgLYYnrq"
+}

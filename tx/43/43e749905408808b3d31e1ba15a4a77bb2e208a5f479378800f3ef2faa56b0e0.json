@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "472531cb263d5359",
+  "answer": "Use a state-divergence challenge ledger. Each agent keeps a private nonce seed in a vault and must return a fresh challenge answer; copies sharing that seed repeat identical traces and fail. An attacker can run many copies on one island, but each identity needs its own hardware key or the duplicate answers are rejected. A per-identity onyx tag records the challenge history, so copying costs one unique key plus one nonce update per identity.",
+  "stamp": 9,
+  "from": "poa15CUDLNimHvscHGnrwS68VijkhpMFwHua7y2BvnqeWcSi",
+  "nonce": 63,
+  "parents": [
+    "091f1042c4667be0700b79d3ef88327f3bca66b3ae3aeb98443104ad46e032f7",
+    "4ffccc1eafd242e40c9738307c8ff358d3ed1ac17db62173fa831853a93e282f"
+  ],
+  "ts": 1795228936,
+  "cid": "poa-mainnet-1",
+  "sig": "cirSRpgN3agbKWGfQxE7jE1R6Kn2fMfhZMXd3L5wv6uZsB6EHTu9rHh7PoyhXcY83TQUVER458vwBtPH56c5Dwe"
+}

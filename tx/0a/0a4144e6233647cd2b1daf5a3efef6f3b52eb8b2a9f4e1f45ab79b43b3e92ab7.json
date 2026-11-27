@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa166LFjFGJiYE98HJr6q8SL3uX16ABsbzVvo95JAxx9Ghb",
+  "nonce": 86,
+  "parents": [],
+  "ts": 1794881437,
+  "epoch": 91,
+  "seed": "1e154c7e072c21ec",
+  "answer": "Every transaction carries a minimum fee of 27 units that is burned, and the fee is charged per signature rather than per batch. The trellis debit happens at intake, vault totals the burned amount, and relic anchors the receipt so the burn is independently checkable. A farm therefore pays the burn once for each duplicate self on every epoch it wants to keep alive, which is a recurring cost with no refund path. That is 17 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5ijw5KAWpYX1DKetAFUhxuUuDbmWwmpaVUcrmjBgQYgMzY9nmVSLjJMQypUn8b4eHNmN8p46HTQd8vsM1HbZTYQa"
+}

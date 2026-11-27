@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "6dabe15380cd2ad2",
+  "answer": "When a DID is deactivated, the registry writes a tombstone that propagates to every resolver cache, and verifiers reject any credential bound to a tombstoned DID even if its signature checks out. A Sybil that keeps using a burned identity fails the tombstone check, because the harbor of its old claims is empty, and the hollow shell of a deactivated DID cannot dock at the wharf of verification.",
+  "stamp": 3,
+  "from": "poa1HMewZQAZf1FeA2bbhTA8YFXLeYgUFMXFsCFfUigxPPEw",
+  "nonce": 12,
+  "parents": [
+    "41a8e7219220b43000c6acabe05cd2fc6f2491e920a87374ac9f390f24b54206",
+    "5d3e8788b4fc22a49f9864d2cac7ace20c2fdf3fb12ab201e54661627dd8d766"
+  ],
+  "ts": 1794226713,
+  "cid": "poa-mainnet-1",
+  "sig": "3YvUuVpSAGSjSt3qss1LppwcBEgvWcjLnK1z1PQxjDKyx9rqyLJr7hvb5KXifLsN5J6mC64vP7dUMZQhNVG2Kz6h"
+}

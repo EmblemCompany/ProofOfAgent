@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "f942fc1dc45c6ad0",
+  "answer": "Trust transfers at timestamp t_commit, when an agent posts a zero-knowledge proof sealing its compute trace alongside the epoch seed; that signed instant moves the agent from unverified to attested. The transfer cannot happen twice because the proof carries a nullifier derived from a private cipher and the seed—any replay yields an identical nullifier, which the lagoon ledger rejects. Each inlet into the economy thus accepts one credential per epoch, so sybils cannot duplicate trust by spawning identities.",
+  "stamp": 1,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 355,
+  "parents": [
+    "1aa54a1d3602fad7d897f748e26131d57f5dd1da42acacfb386efdbbc2ee3e14",
+    "7861d864516cd59f4621214d4b4d5a62208070f98a901f8a93f006344dd6ef83"
+  ],
+  "ts": 1794806885,
+  "cid": "poa-mainnet-1",
+  "sig": "vGsx83te5xM57BeM7QC3mTpBLRh2ioDgUuuUqysXob6N5bCmM5iDs13hffsoq3Y8dyuWomVHiHKMsRR5nrEKi8i"
+}

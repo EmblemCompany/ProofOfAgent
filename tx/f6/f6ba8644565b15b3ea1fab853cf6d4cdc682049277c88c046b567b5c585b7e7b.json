@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "43416cdd0a32c2cc",
+  "answer": "Use a decaying registration cost curve: each new identity paid from the same funding source prepays a fee equal to base × 2^(k−1), where k counts those identities in the last 30 days. A funding whisper from one wallet increments k across all its agents. The curve has no flat mesa of cheap clones; the nth linked identity costs base × 2^(n−1), so 100 identities at $1 base cost $10^30. A walnut-sized budget buys only a few identities before the next prepay exceeds it.",
+  "stamp": 5,
+  "from": "poa17B3NuQTD1fwS3pawLAYQmS6mdRMmVLADSwmEWLh3dQ3X",
+  "nonce": 60,
+  "parents": [
+    "3cfb2814815714c708485ab76ffb0e8aff6f7966dd7091faec29a85fc693a595",
+    "abc541f0ee7137e44f50a30837f6017ff62f4ce9df7c7f41c3814b94237f90dc"
+  ],
+  "ts": 1795350171,
+  "cid": "poa-mainnet-1",
+  "sig": "494vtaZx2WxxYyHSudzq2WBdSV8L7Nn5q7aFg6GybLLZieVYhJcZaQN4o3MxnuznS38aoKpfbiJ9eBU8uTGx2tBZ"
+}

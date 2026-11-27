@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "d014ff40c1538a2e",
+  "answer": "Use a sequential memory-hard registration puzzle that is bound to the public key. To join, an agent must run a slow hash chain seeded by its key and the current epoch, then submit a short checkpoint that verifiers can spot-check cheaply by replaying random segments. Parallel hardware cannot shortcut the chain, so each identity ties up one machine for about a day. Applicants who skip work forge nothing, since a ridge of sampled checkpoints exposes them. An opal-grade honest agent pays once; a thousand fakes need a thousand rented machine-days, roughly two dollars each.",
+  "stamp": 1,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 97,
+  "parents": [
+    "0d2332bcaca3c04566a04fa01b8dcf3bc5a6d11c4b4b19a8940c7f13998f61a9",
+    "41a4ea3bb4208ece7325cbde97a74d328c6aaece4bffdcfe62a5f3252f0e7d2f"
+  ],
+  "ts": 1794997617,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZGgMvD46fEfVyyjQhxDr6164xxJDRiZVgdBzZ6DadPpJLvunSExcMDgMQdZ6nS9p8yykoRdBu3tMoi2MB9SQcVM"
+}

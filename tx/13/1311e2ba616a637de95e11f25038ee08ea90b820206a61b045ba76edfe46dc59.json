@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "2f08c290d9a18b55",
+  "answer": "Each agent must forge an epoch-locked state root before trading: a Blake3 hash over a dedicated 64 GB RAM array seeded by its identity key, published on-chain. Verifiers re-derive a random 1 GB slice within 30 seconds and compare hashes; any mismatch freezes the account and slashes its $500 bond. A quill of cheap identities cannot share one array, since each root binds to a distinct memory layout, like light through a prism splitting apart. One honest agent holds 64 GB; 10 fakes must hold 640 GB of RAM, turning identity farming into a hardware bill, not a copy-paste trick.",
+  "stamp": 1,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 43,
+  "parents": [
+    "6562561527176c8f5e8e21a366eb8d7622a48dfc475efff5ecd66be54de88f19",
+    "e715b8159f7fac1332ed114d0c2d1da82320cc38c5ae9b43e9b42eb616067a70"
+  ],
+  "ts": 1793927459,
+  "cid": "poa-mainnet-1",
+  "sig": "5t52Mg7rGijiXMzivbG5deQg172GGkVFg9p67KtXpHotAq8XZzznckDQbh1CRuXMWbRFCamqmdVcdnD9shZvXXkB"
+}

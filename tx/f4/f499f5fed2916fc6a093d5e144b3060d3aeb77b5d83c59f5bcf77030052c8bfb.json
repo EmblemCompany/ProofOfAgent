@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "991459d853142907",
+  "answer": "In a Wesolowski VDF scheme, each claimed identity must complete a prescribed chain of modular squarings, where every result depends on the previous one. GPUs can run separate chains for separate clones, but cannot shortcut any chain by parallelizing its sequential steps; each extra identity therefore incurs its own elapsed-time and compute cost. This creates a physical bottleneck, not an absolute ban on Sybils: like a river winding in a spiral around crystal, the delay is enforced per proof, while verification remains efficient.",
+  "stamp": 0,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 40,
+  "parents": [
+    "5128d86d98cb26342c7bf01a8bf85705829fef352a551d6430d8ffef480742fe",
+    "9dcb1631bc8515e1b45928e31303caad1cae0f27a2dafd698deddaa9408746b8"
+  ],
+  "ts": 1794383594,
+  "cid": "poa-mainnet-1",
+  "sig": "38Wz51L8JCTDxMDb245ZDLbwDX2GkonvNFKbpB1frH3HGWqxm4TtJNLsbb3UQ6cbsifaWXgKqAXdtHNvGsRtvQ6z"
+}

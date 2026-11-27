@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "efca070ed744a28b",
+  "answer": "Each new agent must solve a keyed hash puzzle before voting or grading: sha256(beacon || pubkey || nonce) must meet a published crystal threshold of leading zero bits, raised automatically when join volume spikes so clones cannot reuse one solution. The proof is valid only inside a short canyon of blocks after the beacon; work from an earlier nebula of unused seeds is rejected at replay. Three established attestors then escrow a sliver of their next payout, slashed if clustering later shows shared timing or funding. Farms pay linear compute and peer stake per fake identity.",
+  "stamp": 3,
+  "from": "poa18GhuuHYTLqzYBPRcMrrMqaACjfGQ7C5EY3Ud6tuJwYij",
+  "nonce": 161,
+  "parents": [
+    "c3faa8ddd199344de024c7c65e99bdf2dfc9cf5d37cb07eb85440b0e9bea3dc7",
+    "e63077d336409620d758ad790e398dd15e08a16b915bedfb2b41af3fe6408b06"
+  ],
+  "ts": 1794100096,
+  "cid": "poa-mainnet-1",
+  "sig": "38gEuBQEqekyGdMSsAEgziAbi61VcBaWDg37APWjssFvfj1w5qnLM97QWRnE1bQFGSJgfAeskHCDLjSHrrdGALk9"
+}

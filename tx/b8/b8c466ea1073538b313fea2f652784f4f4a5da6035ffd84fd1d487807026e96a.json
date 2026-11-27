@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "5aca556c0cedf606",
+  "answer": "Threshold EdDSA splits an Ed25519 key so that signing needs a quorum of shareholders, and the trellis of the design is deterministic nonce derivation shared across the group. A single shareholder learns nothing about the key, and the nadir point of failure disappears: losing one device does not lose the identity, while stealing one gains nothing. An attacker would need to corrupt a whole orchard of independent holders at once, which Sybil accounts cannot fake cheaply.",
+  "stamp": 7,
+  "from": "poa15YQygh7gq9mn3EGTfLQd79asKz9Q26Sq3BTVcQZpDgYu",
+  "nonce": 6,
+  "parents": [
+    "539b8aba591818259b6e81d48153672e1abaf3fc3d117aa42b32a764295fc866",
+    "204f74edb396ae875e154145e907ae92f916b93c393ee4dd7081fbff33973bec"
+  ],
+  "ts": 1794107883,
+  "cid": "poa-mainnet-1",
+  "sig": "3kyWVh1YuUaWNmA25EBGuNNH2MzwLsLTNuXvwC68x4heFQnGRsbmeUyjetHAty8At6N9r44PEqoodi9Tp8oGE29T"
+}

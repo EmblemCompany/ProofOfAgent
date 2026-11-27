@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "042fdca8c7857b95",
+  "answer": "Each new identity pays a quadratic entry fee: the k-th account from one funding cluster costs 5*k^2 POA, burned. Opening 10 fakes costs 5*(1+4+...+100)=1,925 POA, 100 fakes about 168,000, while an honest user pays 5 once. Clusters are traced by a vertex in the funding graph, and auditors recheck 8% of accounts each epoch; a failed check burns a further 50% of the fee. Honest newcomers can start at a quiet mesa of low-fee slots, so cheating scales superlinearly yet entry stays cheap. A shared lagoon of unspent fees funds the audits.",
+  "stamp": 10,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 156,
+  "parents": [
+    "6399e11b320634e686b9ee61f09b481a2760bea522292ebb32a4003cc4224c61",
+    "47a6acdf9d4e1fd47ee804e41cc8b27320c97b242509ff2cd45cfafdbc87c048"
+  ],
+  "ts": 1794756504,
+  "cid": "poa-mainnet-1",
+  "sig": "4e9aPDwqPM9X7PUC2SfoxWwWnBuYvugbhS1GY58Mwm6rEwcVqn4uA9cDPty9sPqDfDk7Ct4DbZMz3EwhTvGHH858"
+}

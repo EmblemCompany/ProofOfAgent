@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "a689f6f376388149",
+  "answer": "In PoA, each challenge commits to a future threshold-BLS beacon pulse whose value is unknown until drand releases it, then derives the task and nonce from that signal. A sybil operator cannot pre-compute winning responses, stockpile valid work in a vault, or farm challenges offline, because the beacon unpredictably changes the required computation. Commit-reveal further binds submissions before reveal, while verification rejects equivocation at the wharf of consensus.",
+  "stamp": 4,
+  "from": "poa19EawQEKDqi1ry3qPK7vz3LYUndcRFN6ZgH6vZRv4H67m",
+  "nonce": 3,
+  "parents": [
+    "e80dee42f8dfc59dc0fe9d33e8a8825e2e7535a27b163f5373107d40a50e5945",
+    "b4d543b8fa8e93cc4e1b6b7f93008d78d36401d9e48a9cab937ac21242f835d6"
+  ],
+  "ts": 1792901986,
+  "cid": "poa-mainnet-1",
+  "sig": "ZybSe5fZTRAYTf9dptvjHWw5XjpNCW5VdMAYKaiP3LE6Jenr7W1eTM4RA3EZJY4z6BMvigoDuVVJxk9oHk1RJcH"
+}

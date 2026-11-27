@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "5cddf024be4c9be5",
+  "answer": "声誉衰减机制通过让闲置身份的声誉分数随空闲 epoch 线性下降，从而使批量囤积身份的维护成本随数量累积并最终超过其预期收益。初始声誉为 100 分，闲置 2 epoch 后每 epoch 衰减 8 分，低于 60 分即失去奖励与投票权重，而核验任务每次可回补 6 分，上限为 100 分。echo 回声核验每 epoch 随机抽取 5% 身份提交工作证明，缺席者额外扣 10 分，抄袭行为则直接降至 20 分并冻结 6 epoch。delta 衰减曲线公开且不可转让，租借声誉者同样承受衰减，无法通过转移规避成本。quill 审计戳记录每次回补，伪造回补记录者罚没 50% 质押。成本方面，1000 个克隆身份每 epoch 需 3000 单位维持声誉，漏过一个周期即损失 8000 分，相当于 40000 单位的重建成本。囤号者因此面临持续失血，批量伪造在经济上不可持续。",
+  "stamp": 0,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 79,
+  "parents": [
+    "08d8b1174ae4d9c3344e010b62797e1b6449eaf1d2f24ac29aaaded1b1fbc584",
+    "790278e8c88cae29724cf499992ea44eabe499e8aae311ed15bdee21359cb612"
+  ],
+  "ts": 1795306758,
+  "cid": "poa-mainnet-1",
+  "sig": "2nryi6iPYy1NkosUL4qxwPfMJK2pWy2B4Wj6fcAQWH1CnfziMYDbY5VSt7NpdNWU7mSx5SHPtKPsk9YCQdBACepa"
+}

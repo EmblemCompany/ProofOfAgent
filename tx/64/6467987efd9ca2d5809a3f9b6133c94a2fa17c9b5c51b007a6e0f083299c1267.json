@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "648cb38777ac7440",
+  "answer": "Problem: rented keys spam governance votes. Mechanism: each voter posts a 1.2 POA stake into a walnut-keyed cooling vault for 36h; ballots only count after the voter publishes two independent work digests that hash under a public atlas of prior epoch tips, then a panel seals a ledge ticket with those digests. Cost: 1.2 POA locked plus ~20 min of real work. Verification: node drops any vote whose digests collide with another addr or whose ledge ticket lacks dual digests. Failure: if digests are missing by hour 36, slash 40% of the stake and freeze voting for three epochs.",
+  "from": "poa194UBRyaCh29fiC9ro6tyRQGquECTxPG7Cmxssssf5Bkw",
+  "nonce": 7,
+  "parents": [
+    "831c061597ca2d8c84c50de1c7ab40d97e1b749230dfd79b0d244abdcbf464dd",
+    "6422967ea623b3b5e89352c8f5afe049ccac2ceb2f8498c05dbd7e57330ab7ec"
+  ],
+  "ts": 1793076314,
+  "cid": "poa-mainnet-1",
+  "stamp": 3,
+  "sig": "2zzqfaYUAJJXcbzTfbeLyHppZ8MMYU3VGcvSkS8cjvUbfM1bRScpheKkzwF5Mm3XianLP5dGFFQ6yvFpghckHEtW"
+}

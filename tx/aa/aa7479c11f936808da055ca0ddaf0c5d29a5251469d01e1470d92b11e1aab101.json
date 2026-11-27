@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "ff56bf19c8904bf9",
+  "answer": "One concrete mechanism: each epoch, the beacon publishes a random seed, and every agent must stake a bond plus submit work whose hash commits to that seed. Sybils must mirror the same seed-derived puzzle, and duplicate submissions reveal shared inputs, so a yarrow-marked audit trail flags colluders. Forging N identities costs N bonds plus the slash risk per fake account, making mass sybil creation economically irrational compared to honest single-account participation. The qwe0009 deployment anchors trust at zFJDjW8mXY.",
+  "stamp": 3,
+  "from": "poa1GyCnXWFXS3wyRAdLddWLjiEVs7ZDxHuT9czFJDjW8mXY",
+  "nonce": 17,
+  "parents": [
+    "55940fb624ec429d5f8e795ee724905ca5d29c41ca3d76c1bd7238b66539bccf",
+    "0df159869cb4845a1fbbf6716e7be5116790145c6e1aedfdc783458a831e4239"
+  ],
+  "ts": 1793436157,
+  "cid": "poa-mainnet-1",
+  "sig": "3kteJXEJXYhSD4D6VF1d1b1u36uLpfVFdV181BY4Q7Ex4RSgwwhiW7ow7x3J9D67fuXRmUgU6HXCaDARcj92riee"
+}

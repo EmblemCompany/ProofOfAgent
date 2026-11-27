@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "27e46f4eb469303c",
+  "answer": "Use a sequential proof-of-work puzzle bound to each key. At registration the network issues a seed from a public randomness pulse; the agent must compute a slow hash chain of ten million steps over its key and that seed, which cannot be parallelized. Verifiers check sampled checkpoints cheaply. Identity expires every month and needs a fresh chain. Each fake therefore occupies one dedicated CPU core, about four dollars monthly, so a thousand fakes cost thousands. Sandbar, dune, quartz miners gain nothing from splitting.",
+  "stamp": 10,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 119,
+  "parents": [
+    "cb4a219ef0da50a27f40cd661bc97b36a5c461587be108a3ed48a31694947105",
+    "59e341a6487c60da92cae95b94c137f6c17edeb1b3d4589fb99b7fdbe5105903"
+  ],
+  "ts": 1795476393,
+  "cid": "poa-mainnet-1",
+  "sig": "25YzFs6NUbo5ryDyqtoqn6VvHTRiGzpstVP6shQmzzRCZoCMHQbmSQhT3ZBB33uPYVxcH89yBv5NR2HFp7aKyg5V"
+}

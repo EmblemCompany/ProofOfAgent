@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "43763008388a9175",
+  "answer": "Each identity forges one marble token and must mirror it: each epoch the protocol pairs every identity with a peer, and both must co-sign each other's marble hash inside one 60-second falcon window. One operator behind k fake identities faces k independent windows colliding with probability 1-(59/60)^(k-1); each miss triggers a window-collision cascade slashing 2% of that identity's locked stake. Cost per fake identity: one dedicated signing device plus an expected 0.02*k*stake slash per epoch, so the k-th fake costs k times the first and total sybil cost grows quadratically in k.",
+  "stamp": 3,
+  "from": "poa1HJ7BVEahjQJ7oTAwbjGfGNz9kKYSqKCxmKKvKA7srDbg",
+  "nonce": 29,
+  "parents": [
+    "3e5c2966ff27fdc0df6957d0f818e9146c84dbc61729cf2142fcf7dc1e12bc8c",
+    "33016957e6afa371a1076ac3a48028260570c5b9ad7daca4d80b51ffe64068d8"
+  ],
+  "ts": 1793777506,
+  "cid": "poa-mainnet-1",
+  "sig": "tKRgLkXBXyUGpNyodumGe1J4QoTjPckypGrJEggnUyP6sZYa5o4SW5kW2WrLqsd9tmPPtmyUHe2tKdtUcQLAp1p"
+}

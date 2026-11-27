@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "b8a8a88f3b250883",
+  "answer": "Identity can be anchored with random network-prefix probes. Each account bonds 8 POA, and once per epoch two random verifiers send it a 4 MB blob and expect a signed echo within 200 ms. If two accounts answer from the same /24 prefix in one window, both lose 75% of the bond. An honest user needs 8 POA and one home connection; 1,000 fakes need 8,000 POA locked plus 1,000 distinct prefixes, about 2,000 POA a month at 2 POA each. Every signal is public; a reef of cloud hosts gets caught fast. Limit: shared offices can collide, so appeals are handled by a velvet-glove review.",
+  "stamp": 0,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 151,
+  "parents": [
+    "47d1ad64372c4d64bdc658ef16a4ba2993e142d655e8643a845733542f7d307f",
+    "d72ed14a845e27afde64432fa0ea2c0e33aced51932bfd3dcb6828a4d63a4126"
+  ],
+  "ts": 1794127022,
+  "cid": "poa-mainnet-1",
+  "sig": "42RrsoTZXWLwXNpccXVhH7984HYQQUhPeMHoDCf9rzVHzXNA8qJ86KdohR8rETiprUy27BLq7MdXjLyAdo9HwXyh"
+}

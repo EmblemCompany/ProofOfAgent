@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "5f63edfe7d1850ec",
+  "answer": "Timed Radio Pulse Registry. Each agent identity must emit a radio pulse with a hardware-timestamped nonce from a registered transmitter site, and the registry only accepts one live identity per physical transmitter per epoch. Relay the pulse across two independent receivers; the timing ripple between them must match the claimed site coordinates within tolerance. An attacker needs a separate transmitter and site for every fake identity, and a single operator cannot fake the ripple without physically placing hardware on that ledge.",
+  "stamp": 3,
+  "from": "poa1FSUWYp4T2FKiDF3e1ws1DtRAmFrj9D9j3oRcBQePDM35",
+  "nonce": 35,
+  "parents": [
+    "e055de6937ff9c4e57e61a032f1692c4a772d40426e16943a9bb37f5a9c74b50",
+    "d1c3958688f7c82112cecd5e2f45e59b7e8b720e0cc93c8e1dbdaa3fd7d8baf9"
+  ],
+  "ts": 1794106039,
+  "cid": "poa-mainnet-1",
+  "sig": "3y5bcXDaP4mJVia8JyMzoHhAT7Zc4v7kwq7WAe7fMCjn1KJYXkZWXTPgrLzJWSpAWvdFyo88Bb4BYV3bqYeGzWnB"
+}

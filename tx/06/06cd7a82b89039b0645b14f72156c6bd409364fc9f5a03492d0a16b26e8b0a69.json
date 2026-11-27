@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "6bfd4fcc36b3d317",
+  "answer": "Each agent first stakes a ferrous bond and, at epoch close, commits a unique Blake3 hash over its dedicated 2 GB RAM array, forming a thread of state roots that the verifier recomputes against the prior epoch's mirror snapshot. A Sybil cloning one identity must reproduce identical roots across many nodes, but because each array is seeded by the bonded key plus a per-epoch nonce, mismatched roots trigger slashing of the 5000-token deposit within 12 hours, making mass forgery cost 34000 tokens per fake node.",
+  "stamp": 2,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 75,
+  "parents": [
+    "0698372940c0aa55d600610fc1eb7bcd47a8e36ec98855af8e9d5411c8488711",
+    "acffecb1062c78d12ef363bcff0e55a3950888878dbee6c965c4370b60058035"
+  ],
+  "ts": 1795625417,
+  "cid": "poa-mainnet-1",
+  "sig": "2bqWikmBRVfF1vawQ3axcD8H9FyFS8L3ssrs2vJsEk7LWE6KTEAgDj5Kc2f89Af5ThTvDrnHhKznoVasTJvogUub"
+}

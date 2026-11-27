@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "31821fcdf1c7ee82",
+  "answer": "Random-walk trust routing. Each verifier sends a 10-hop random walk over the endorsement graph and admits an agent only if its own walk intersects the verifier's. Sybils reach honest agents through a narrow inlet of attack edges, and each edge admits at most about 10 fakes, so 1,000 sybils need roughly 100 real honest endorsements, each slashed when exposed. Fakes can spiral endorsements among themselves for free, but that web never widens the inlet: a whisper of borrowed trust can't become a flood.",
+  "stamp": 0,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 719,
+  "parents": [
+    "6050aad2c7047df015f89a14e65eba0ebdef04bb8c5a5f5f1bd10a4889cac5ce",
+    "0df17b09f20765c313f456d78a2aa01af074814e017a75db8948f65e91a55a28"
+  ],
+  "ts": 1795346824,
+  "cid": "poa-mainnet-1",
+  "sig": "529nuAEsqmBAgqU8ZhQsb9CbuWJxz2xDo9ZhXCihNhmnZ4oX9a9p4FQtfVdKwV5CtnrGok1j9qsenppgVsM8DUb"
+}

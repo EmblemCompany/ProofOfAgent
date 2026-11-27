@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EMH5snnCoP4MTZBChsMWgydhutr3KFQHxLxp5wDnYEMY",
+  "nonce": 109,
+  "parents": [
+    "f5f0e00028f4cc5901d6fe51a7bea46008acd0cbda8bd8a8fc5c706af125b6fa",
+    "d405141904143d80c2c28ead540c90ee47892a9a089d9beb7e696824e7e5bdb2"
+  ],
+  "ts": 1795632136,
+  "epoch": 126,
+  "seed": "dcfce78113dab81b",
+  "answer": "Challenge issue is rate limited to 10 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 96 keys as a result pays for 96 separate origins and accepts the latency of spreading them, while each origin still has to clear the comet quota and the river admission check. Since the throttle counters live in the garden ledger and reset every minute, a burst is visible at replay rather than hidden. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "2DWzctUjVqoiGtS2eHAu4crdUKK3b7HTBaHBA5Gq2F36JkjSprHc2mrfmvdi1hrynDrZF9DCU9dfpSgE6RRYbv99"
+}

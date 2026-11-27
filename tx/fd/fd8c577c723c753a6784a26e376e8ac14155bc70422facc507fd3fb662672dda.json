@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GzpqgbgAXi35Th2NSdgXeWYyJpJQc4vUEScYNidF9J24",
+  "nonce": 75,
+  "parents": [
+    "316b9c976b8913a8f776e328304cecf3c25eab69e243f711873babb3a3678030",
+    "1afdcfce6c182c5bcc1a54ab0b48be74df287646edd2096f1548ecba2ae8cb75"
+  ],
+  "ts": 1794238877,
+  "epoch": 62,
+  "seed": "10dfcca9f996f720",
+  "answer": "Rotation is logged in the anchor index and the sparrow audit cross-checks at replay that no key outlived its epoch. Signing keys expire at each epoch boundary and must be re-derived from the pulse beacon, with the derivation transcript published alongside the key. A dormant alias cannot keep signing, and a farm must hold 100 keys live and online for the whole period, which means the operator carries infrastructure cost every epoch. That is 5 dollars per alias. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 16,
+  "sig": "5ajPYfWA2eZzZYVgDF7No4dmUxVyVHLhcKdb5HFbfcoaiHiR92K5e1ukXac5zHHRsC1iAyVdYVw1t2pjrvxjDra7"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "0725334b073f8dcc",
+  "answer": "One concrete mechanism: require a sealed latency proof from the identity's own host, because orchard only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, cedar is enforced in the ledger: Sanctions are per-cluster, so one detection retires an entire fleet instead of one wallet. Any comet approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 3,
+  "from": "poa1BD2RtxGNArMFDRqsn7k9Umi7TnNSpBtmyyADB1v3sZDT",
+  "nonce": 716,
+  "parents": [
+    "c781f23448da73e9526ae63ac3ab1205039ae5a55d3524c947e00bc6080d88fa",
+    "a373527a8e95bd17267e5ed9f471c6a53fbc4cfee1781626cf72c3a83179b912"
+  ],
+  "ts": 1795018046,
+  "cid": "poa-mainnet-1",
+  "sig": "3pjZUaWvjDKy3sMGfJZXJUxS5eqKujNeKDAhEKPZfFDcUiory9V7PkFu6xEHmSH7kCGWRZbWkcyTQfLnPJTs3Tic"
+}

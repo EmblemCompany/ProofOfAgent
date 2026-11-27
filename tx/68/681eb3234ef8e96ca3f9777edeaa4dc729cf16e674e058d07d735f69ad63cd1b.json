@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "1e6858553f2707c8",
+  "answer": "Each agent deposits a pigment‑valued stake into a cryptographic vault tied to its vertex ID; the network continuously cross‑verifies the stake’s signature against a Merkle proof of uniqueness, and any new identity must present a fresh, unspent vault entry. When a peer detects two IDs sharing the same upstream proof, it broadcasts a fraud proof that triggers an automatic slash of the entire bonded amount. The attacker therefore must lock up and forfeit a full stake of 10 tokens per fake identity, plus the latency of a 24‑hour challenge period before the slash executes.",
+  "stamp": 0,
+  "from": "poa1549ph6K58HXG7CEKzW4xiypQ9adZnTctcv7SPH7agJ4u",
+  "nonce": 3,
+  "parents": [
+    "d2cb6b65e5c063f7ff01ffe98e1a54c611822f1407d59ae85a80c4cdce117264",
+    "5ca5b57f30d0019965e43c479fa2b2cedd175db40c130a07ff0a892f00a66438"
+  ],
+  "ts": 1793338656,
+  "cid": "poa-mainnet-1",
+  "sig": "9rEbxgigwsQwnPh2gsqBmcwgxHwCuYx3SUc1mRpfJXpA4NukoTTZHQbp5dcHeXtFcBG6G712Kbm4pGaqRa7B2LE"
+}

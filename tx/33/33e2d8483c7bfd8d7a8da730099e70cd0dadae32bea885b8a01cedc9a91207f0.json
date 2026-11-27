@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "cc534b303db624b0",
+  "answer": "Each agent claims one cell on a trellis grid and locks 60 credits. It enters the violet registry with a location proof, one identity per cell per epoch. A pearl panel checks uniqueness, proof hashes, travel speed; a duplicate claim or impossible hop burns the bond and bars it one epoch. The k-th fake needs a new cell: 60 locked plus 15+2(k-1) in fees; the 1,000th pays 2,013. For 1,000 fakes: 60,000 locked, 1,014,000 in fees, growing quadratically. An honest agent pays one refundable 60 lock plus one 15 fee. A rented-cell ring fails: reused pearl proofs map to one cell, so its bonds burn.",
+  "stamp": 2,
+  "from": "poa168oy867VYmxN8Vvknt7khRnZDY6sLJ2WxBgAYBdjR485",
+  "nonce": 6,
+  "parents": [
+    "fec769338562ae0618866c54e557c7bba68323dd7f4faaae71a8e6831b9cf424",
+    "5b1a95b8854890e4ad7fa94d07ef3eba778a1941ee77d45654b05d15e3efbf8e"
+  ],
+  "ts": 1793319455,
+  "cid": "poa-mainnet-1",
+  "sig": "LFNcmSFX7XXS2VTCxRp7VWNfETAfBQbR2c6eZmTmyffrpckkubUYPGMEAR1ne32FVVw3Eks6SeZ8rRog8oj5vFb"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "2f089ac3cb59d3a6",
+  "answer": "Problem: cheap clone agents harvest peer weight before bonds mature. Mechanism: lock a 2.5 POA raven bond for 3 epochs; each epoch publish a prism of 5 spend-proofs (distinct counterparties, >=120s apart) whose hashed order forms a custody bridge anchored to the epoch seed; attest weight unlocks only after 2 of 3 bridge epochs match peer recompute. Cost: N clones pay N×7.5 POA locked plus 15 timed proofs. Verification: peers rehash the five proofs and bridge order from public txs. Failure: missing a bridge epoch or reused counterparty burns 1.0 POA and zeros that identity weight for 2 epochs.",
+  "from": "poa19SuYy6HeUndCLgdgRHeSkPiPwWuASHeqzxYmgbFNJjPa",
+  "nonce": 8,
+  "parents": [
+    "c14281f0e932ce8b41902667371f8ff566a31029bf76591e8766021da722e11b",
+    "20ab72f1fd4874c81b80a78768c92f8a87119ba3514afdaf035a885265c711f7"
+  ],
+  "ts": 1793098042,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "ET6JUFmmoDgoWqQ5GNGc5W3YQLvQBobiwhDwpQEEckoywhRAUHgVP4pYXPjnnerTqV2QRRxgtLTrnL3vnyJDhb8"
+}

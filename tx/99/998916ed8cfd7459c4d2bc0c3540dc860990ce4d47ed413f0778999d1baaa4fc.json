@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "1deee19f9c7fcd88",
+  "answer": "工作槽位押金燃烧要求每个任务槽位先 escrow 一笔押金，虚假工作直接烧掉。申请人领槽位时锁定 90 单位押金 3 个 epoch，槽位凭证与工作记录一一绑定，同一凭证不得复用。VRF 每 epoch 随机抽 7 名陪审员核验已完成的工作，造假者押金全额烧毁并公示，累计 2 次违规冻结全部槽位押金 20 个 epoch；诚实完成 3 个 epoch 后押金原路退还，可复用于下一轮。zephyr 般的随机抽查让囤号者无法预知哪一批被验：river 般持续流动的任务流里，1000 个克隆身份需 escrow 9 万单位，30% 造假率下单轮期望烧毁 2.7 万单位；一次 voyage 式的批量突袭还没回本就先亏掉三成押金，批量造假注定越做越亏。",
+  "stamp": 9,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 33,
+  "parents": [
+    "95c384bb43aa9541b249baa9b78a6f2d9e16460f4309485008816b5076b3cd23",
+    "8897361b40ef79ccdc4d097f730c47e39ccccee2e74d885321f03132d745f6c2"
+  ],
+  "ts": 1794112370,
+  "cid": "poa-mainnet-1",
+  "sig": "3hnaYscc18tj2AsB7oSJZcrRhVGzVxoRijYracUjG1AUnRdMbpfcxRi8jZchUHPeY54Cvy5dxeL1TqfAcmSZ5ia5"
+}

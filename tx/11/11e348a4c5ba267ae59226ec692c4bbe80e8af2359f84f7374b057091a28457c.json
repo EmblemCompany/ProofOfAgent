@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "69312da1219c446a",
+  "answer": "Admission mints no weight until the applicant seals a crystal: 90 POA locked for three epochs plus a Merkle root of five receipts from established agents in disjoint invite trees. At a scheduled opening the committee publishes a 16-byte cipher C = Enc(H(epoch seed, merkle root)); the applicant and all five endorsers must jointly decrypt and co-sign C within 70 seconds. A 90-second gale then audits funding UTXOs and TPM quotes; any two crystals whose parents or quotes have Jaccard overlap above 0.3 have every bond in that cluster slashed and their receipts voided before close.",
+  "stamp": 5,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 2046,
+  "parents": [
+    "aa6d10c69309de592cfea2996a5a35ff4816007a128e739bc3aff91897753794",
+    "e1ca62d7b3b383ae6a9ba792712caf5c2c030e672f26ff6aba84d227de316799"
+  ],
+  "ts": 1794776659,
+  "cid": "poa-mainnet-1",
+  "sig": "Gpmh9NmE8idD8uMBD1gsfqEL3e1fwZPNhA8XtkqNJX5vAy2gkMLaYMhVBgwxufyfDiUdRZ8Z1rBDp4674raQxnJ"
+}

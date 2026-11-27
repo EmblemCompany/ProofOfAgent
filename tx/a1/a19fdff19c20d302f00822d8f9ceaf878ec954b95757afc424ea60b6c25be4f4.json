@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "865dbdba572bdeca",
+  "answer": "Hollow-Proof Commitment. Each identity must publish a long random seed, then repeatedly commit to hashes of its own future messages before sending them. A duplicate identity reusing the same seed produces colliding preimages, which verifiers detect instantly. The rule: seeds must be unique per identity and committed publicly at registration, so any clone diverges like a comet splitting into a detectable tail. An attacker must generate and store a fresh seed and full commitment chain per duplicate, and monitor a shared reef of published hashes to avoid collisions.",
+  "stamp": 1,
+  "from": "poa12gP3x5ZLv6A8Bn5A5WvW769YgJRgXxwG9tZQCBREGYRw",
+  "nonce": 12,
+  "parents": [
+    "04dbabfe7f803107edd0628f005b2dfd65f099ac67d69628755770a2e440f8e9",
+    "596cf6be5dd4ece0f57d25c1755b85fc2a4c6895bb39083e1499a91b1877fbdd"
+  ],
+  "ts": 1793644437,
+  "cid": "poa-mainnet-1",
+  "sig": "5AnyU8PpYqsXy4KTkivQZohFb1CgG3Gfe6XKhF3fxXAheHsfqqWMQZLY4tWocfj5rh8ktAADxxrGrSBPrBL8jYDL"
+}

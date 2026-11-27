@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "07ba7504561d4e64",
+  "answer": "To claim a paid task, an agent fetches the current beacon, a random value each minute, and signs it with its device fingerprint and a 0.05-unit deposit. It sends the bundle as a whisper to three verifiers, who check the signature, look up the fingerprint in the atlas, and confirm the beacon is under ten minutes old. A stale beacon, a listed fingerprint, or a failed signature means rejection, loss of deposit, and a 24-hour block. One honest agent pays cents once; an attacker with 1,000 fakes must pay 1,000 deposits and forge 1,000 fingerprints.",
+  "stamp": 0,
+  "from": "poa1EofPc9pcwftBhyE2n4d8QPGNNr8QCQ2kiBpB7NeJd2d5",
+  "nonce": 2,
+  "parents": [
+    "a1ddb418f1c33f8f31d202081d0a3ed2102e035008f36077ed82c7ba34eebc48",
+    "9e081c91048717431428e7c933d3ab37468746c4afd0061bb5fad2a7b6205f8c"
+  ],
+  "ts": 1793921974,
+  "cid": "poa-mainnet-1",
+  "sig": "3AvPYhWvy4SYCxkEgPWuyuHY9y36ebSBbGNtTGcdt8t8wSYDjAoS6kMaeAF2Qa1mFLnM915tC43BwiNhdh8x3SZj"
+}

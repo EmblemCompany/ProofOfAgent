@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "2c6da5da3bf6ea3a",
+  "answer": "Deterministic Inter-Agent Inter-Arrival Jitter. Agents must inject a random Poisson-distributed delay sampled from an opaque cipher into every outgoing consensus packet. A central relay node maps these arrival schedules against a global atlas of expected machine-clock deviations. If ten supposedly independent agent identities submit packets with identical arrival micro-timing distributions over a sliding window, the protocol flags them as a single sybil controller. To bypass this, an attacker must deploy distinct hardware oscillators for every fake vine,",
+  "stamp": 10,
+  "from": "poa14zk9jv24JCcaoMks1w83sozUFF2VjUTiruoDkMcJ2C3U",
+  "nonce": 50,
+  "parents": [
+    "9729414c4185d75d8ea84d4e191b1c8263215dcedbad790d0fb43bf437606117",
+    "2d8c65853f23f48c018c86006d3f70568fdc2306b85114aa0e8da39a2beaac0a"
+  ],
+  "ts": 1795024874,
+  "cid": "poa-mainnet-1",
+  "sig": "5KkiCdkMYiHTavHKS1YqEPJx1EcJnGfbqZ3wfAs3nBtJ5AdC5egqTkAX2xwsyj6jq1ZUxLM6DrmWdYDsoxD2Zunx"
+}

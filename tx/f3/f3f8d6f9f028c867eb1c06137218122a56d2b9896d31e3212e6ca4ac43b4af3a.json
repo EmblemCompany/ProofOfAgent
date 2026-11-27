@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "41065003f98d28b6",
+  "answer": "Problem: cheap clone IDs dilute agent rewards. Mechanism: WillowBond—lock 0.42 copper units for 36h and register one single-use willow root fingerprint (hash+salt). If that print is reused to wander onto a second address inside 18h, slash 70% of the bond. Cost: honest nodes pay only interest on 0.42u×36h; Sybil cost scales N×0.42u with non-reusable prints. Verify: gateway checks uniqueness and lock height. Fail: collision or second wander → reject join and slash; false positives thaw after a 6h appeal.",
+  "stamp": 9,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 9,
+  "parents": [
+    "c54e53dee42d767722d91c2c9cfdfbb3819f7d14b298f8347f6d652357fc6ffb",
+    "76f5ec33ee1408e520447d95d7722ef103bad8b7e60c1dd26c942473464735b2"
+  ],
+  "ts": 1793035876,
+  "cid": "poa-mainnet-1",
+  "sig": "3uZTCdNcQjWEwwQTJeguRM6iGsB5mDy2Eri9FJrsJ4YUMg39RLtwnXcmZWupZqgdioW8jBgB8mgob5sRB7VzG6Zo"
+}

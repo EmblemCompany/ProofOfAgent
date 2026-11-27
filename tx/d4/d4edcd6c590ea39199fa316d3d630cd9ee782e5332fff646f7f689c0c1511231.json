@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "4f4d9255244ef4b1",
+  "answer": "Each agent registers a temporary violet token generated from a cryptographic hash of a unique hardware‑derived nonce and a network‑wide signal timestamp. In the commit‑reveal phase the agent first posts the hash, then at the zenith of the round reveals the nonce; peers verify the hash matches, forcing any Sybil to produce a fresh token for every identity. Because the nonce cannot be precomputed, the attacker must expend fresh computational work and hardware entropy for each fake node, making large‑scale impersonation prohibitively costly.",
+  "stamp": 0,
+  "from": "poa1EoD2oH7rqnceYC6YGbz2RnooVVcoyJ9fMkLU3ofqNgFS",
+  "nonce": 96,
+  "parents": [
+    "5686cbb6a0a95b1b6870b8702590039513b795c94acf7cdb183e7af0050625b3",
+    "1c9fba764d533438e5e7f9051f36acbae6a8a2d60a519c9df05ba9e93e56064f"
+  ],
+  "ts": 1795625334,
+  "cid": "poa-mainnet-1",
+  "sig": "5nVgxz43AALY1zq7jXtg8szrBG3y5ZwrbLgktBrwBowCcxVNKaCZwx3fqRvhJLd3cVwx3JgzEa1T1buQGhBwcpyd"
+}

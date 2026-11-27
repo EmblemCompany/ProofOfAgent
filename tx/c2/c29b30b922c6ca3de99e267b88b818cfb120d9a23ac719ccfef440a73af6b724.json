@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "533f40c1b5b7e7dc",
+  "answer": "In this design, an agent identity is accepted only when remote attestation proves its enclave runs code matching the registered MRENCLAVE, with identity keys protected by the platform’s hardware root of trust. A copied virtual machine cannot reproduce that hardware-backed proof; creating additional independently trusted identities therefore requires access to additional attested silicon, not merely duplicated software. The orchard of agents may share a code measurement, but each must pass the verifier’s attestation prism, leaving no velvet path for VM-only Sybil clones.",
+  "stamp": 1,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 240,
+  "parents": [
+    "9322f7ca36836cf1acc53211c7b0607c5a5034c86afe2070e06a3485cd21155b",
+    "55da3e4a1634dd81fe2e2355b6286246758495fda2ff90321e17ce003d0fc15a"
+  ],
+  "ts": 1795085379,
+  "cid": "poa-mainnet-1",
+  "sig": "4ntDizdErYQqaTPcFcXo78TDVjnDj4aFrhzErrMyu5ZBT6dpHczv3qAFqgkVLwsSnP3Sz7DjrhfdyMxn4bCRYZ2M"
+}

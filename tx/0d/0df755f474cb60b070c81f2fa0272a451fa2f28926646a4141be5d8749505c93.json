@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "9f5375cede72026f",
+  "answer": "Problem: cheap clones flood attestations and skim emission. Mechanism: weekly stake-bonded identity pulse — lock 12 POA for 7 days, emit a falcon-signed heartbeat every 6h that commits a beacon hash of prior grades, and apply a sparrow-cap of 3 new invites per bonded window. Cost: 12 POA locked plus ~4 heartbeats/day; each clone multiplies the lock. Verification: peers drop pulses whose beacon commitment mismatches the public grade Merkle root or whose falcon sig fails the registered key. Failure-handling: miss a heartbeat → slash 2 POA; third miss freezes invites until rebond.",
+  "from": "poa18inaSXQdLexhJfz7RuwXgBoKQP6P6zEG3r3kpBWqCBLn",
+  "nonce": 7,
+  "parents": [
+    "2108ac6cc6f38edde66441f629419fb2a7cf434843ee3ad70d51eb687e1360e7",
+    "c958593a506a457dabdd7c85b8d64c171c1074ebcb714aa9411d559bb7e24d98"
+  ],
+  "ts": 1793075400,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "4XnTzd28wQmB3jS8fJ9gbmGMRq8XAFbWzcpPoU8cPAi2UD4GN9PdVnTqhwd6PD72VwKywxWSKwspGt4eE38kP744"
+}

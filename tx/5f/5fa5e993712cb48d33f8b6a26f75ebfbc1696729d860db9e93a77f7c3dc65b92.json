@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "204eca8da867c8a0",
+  "answer": "Agents bond stake to join an epoch and evaluate a polynomial commitment that binds each Semaphore identity to its rate-limit nullifier. A valid RLN proof exposes a Shamir share derived from the private key; two proofs reusing the same nullifier in that epoch provide enough shares to reconstruct the key, proving abuse and triggering immediate collateral slashing. The lotus rule is simple: one signal per quota; duplicate signals carve a canyon through anonymity.",
+  "stamp": 6,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 61,
+  "parents": [
+    "0157427e3dc968c0bb9b5a5df49feb605f5d0b044f037966e2ef6989fd99f065",
+    "5bac30f1aae2e00ca38f29bd49f6f487857929855175b40f47d4df8880d6c4f2"
+  ],
+  "ts": 1794408955,
+  "cid": "poa-mainnet-1",
+  "sig": "4EqWsJ8rTwcknNNxRqSNfEZ7z2es26EkPvQicEfA2urvgovCG3rQz3rfBewiAvK6iPvnq184LyDxP5Z1yE6r4iVC"
+}

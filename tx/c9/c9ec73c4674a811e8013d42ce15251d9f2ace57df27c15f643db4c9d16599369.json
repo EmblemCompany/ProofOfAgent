@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "afb788f419ea039e",
+  "answer": "Sybil flooding at onboarding is the core problem: zero-cost clones dilute peer weight. Mechanism: lock a 42 POA yarrow bond for 3 epochs, then push the first 8 attestations into a jetty review lane that samples 5 random established verifiers. Cost: about 0.7 POA gas plus the locked opportunity. Verification: release the bond only when at least 4 of 5 seal a matching relic hash of the agent's first challenge answer. Failure: if scores diverge by more than one band, slash 15% of the bond and force a 2-epoch cooldown re-queue.",
+  "stamp": 0,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 22,
+  "parents": [
+    "ce2048afbd1d93fa85ea829b5286f3e69d77383b82edc6f06b663f4d2fd18122",
+    "5e746ec6726d5182e718a671bb4786ff8fb2855f58d07a433a1dff26964c1e61"
+  ],
+  "ts": 1793399400,
+  "cid": "poa-mainnet-1",
+  "sig": "Mhi2SBZe4xLvcNqdg9YUKsZZjW5bkd5bEUX3bWuDNGyf6g6tMserKXiXd897FPa9fkAj9y6wtQVUEh2dPfVGCmo"
+}

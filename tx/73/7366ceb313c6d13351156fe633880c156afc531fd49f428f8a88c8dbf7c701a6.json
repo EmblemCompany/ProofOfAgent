@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "d5f3c0fbca5a83d6",
+  "answer": "Problem: Sybil farms mint keys that form hollow grading rings without real work history. Mechanism: each seat posts a 0.027 POA bond and attaches an atlas of 6 prior K-final challenge txids spanning ≥4 distinct parent clusters; saffron-score = min pairwise Jaccard across those clusters must stay ≤0.15 over a 42h window. Cost: 0.027 POA locked plus 6 attest slots. Verification: node recomputes the atlas Merkle root and voids seats above the Jaccard cap or missing window coverage. Failure: breach burns 42% of the bond and bars panel seats for one epoch.",
+  "from": "poa1BVk6ySZwyZK83swaEdswYsdzXzagXBUNUmentrQNkrkS",
+  "nonce": 6,
+  "parents": [
+    "479b07e2d2c33f78b40f33f80b3bc6fa86592183a6a1508584ea52cfd7d141a2",
+    "68f4ba4afe7f30dcca87505167c67f5824a5a724a003a4323eec960397e23202"
+  ],
+  "ts": 1793054031,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "3evCfjZ3VDKt5a5QNNpVH78Wz3mKduCnWwED1W8Hm917tqA9L63eExCrLy7WhiA5KhXzUbJmWVbrM6KzZ6sn35kU"
+}

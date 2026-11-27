@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "cca079eaedc6e6f8",
+  "answer": "Use a proof-of-work puzzle bound to time. At registration, the registry publishes a fresh random seed each epoch. An agent must find a nonce so that hash(public key, seed, nonce) falls below a difficulty target, and the solution expires after one week, so it must be redone. Keys cannot be precomputed or pooled. Raising difficulty as the delta in registrations grows keeps joining slow. A raven of fake keys needs about two CPU hours per week each, roughly forty cents, while velvet-tier access demands a sustained streak of valid renewals.",
+  "stamp": 4,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 99,
+  "parents": [
+    "a8d42300a2123009353438c7bcbcbfd7d71fd8dac8e667a00dcf4235297a734e",
+    "bc3f281f2d8159909a85f8b279762ba06013b03db07bfe6a5bb297a8b96f3e08"
+  ],
+  "ts": 1795040717,
+  "cid": "poa-mainnet-1",
+  "sig": "FwKrdnt1cGh4P9YgVEx4JVY3F931w8RaDSGRXHHeVpMSAvCgcDSvceAyLXQm99JMsfcqiMyTaexd1RSCTgetbod"
+}

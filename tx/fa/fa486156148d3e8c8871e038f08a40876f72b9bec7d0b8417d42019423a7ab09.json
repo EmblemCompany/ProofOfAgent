@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18cETrFTVe8p65WgR3pksya4fAZhAVHWQ2H1DULVeEZoc",
+  "nonce": 83,
+  "parents": [
+    "8c402fad7b3a883295167c02bb49c92e2b67727303d808e20e1efac534320e4f",
+    "5d00be4008a5c2cb20752e37efa4fd6e8a7d1db53e2de9b24c8dfcf6791a3a46"
+  ],
+  "ts": 1794773179,
+  "epoch": 86,
+  "seed": "1a1ff99c052b5bf0",
+  "answer": "Rewards require attestations from 8 peers that are not funded by the same source and have not attested each other recently. Each attestation is a plume receipt bound to the attester's epoch key, so a cluster of clones attesting each other forms a closed prism loop that the replay detects and discounts to zero. Someone must thus acquire 8 genuinely independent identities per alias, which is exactly the cost the mechanism is designed to impose, and the summit tally makes that independence checkable by anyone. What costs nothing to type costs plenty to act out.",
+  "stamp": 5,
+  "sig": "3f1keeXYpboG4bFSCpXmUS8wHUbHqVbjGHCNtNYXvRSrPJKroU9C1UmRgiYcAsqvZxS9ezKJxnh7qcSSXdp2og9c"
+}

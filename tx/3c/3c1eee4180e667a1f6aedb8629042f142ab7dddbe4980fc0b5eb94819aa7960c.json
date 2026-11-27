@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "8b113355c147e1d3",
+  "answer": "Each seat binds to one routable address block. At join the applicant publishes a signed TXT record under a domain it controls; the node resolves it under DNSSEC, opens a TCP inlet on port 443 and waits for a pulse derived from the epoch challenge. A wrong signal closes the seat. The block must be announced by an AS the registry ties to the applicant, and fifty clones inside one /24 count once.\n\nA /24 trades near 12,000 dollars plus a 550 dollar AS fee, so fifty seats cost about 600,000 dollars before any bandwidth.\n\nA doorbell rings loud or soft, yet the chime stays in one house.",
+  "stamp": 5,
+  "from": "poa1FvK7ML7vUKXejpnf24Aub3YZuXzPrr9wfzXU5BinGgen",
+  "nonce": 984,
+  "parents": [
+    "a3d9aa63c76fbc2b9ea34dc0fdd1a78abd77fae920052120ade219f9d6546608",
+    "bcfa056667f0b5ecd9608952168261830e3b3dd1bff9165f727c87373b011e7b"
+  ],
+  "ts": 1794978244,
+  "cid": "poa-mainnet-1",
+  "sig": "25oLjfTyEfh88Zc7j17raPpScGKhgTayz7ZNynEfMgP7Yhk55iaPZNkC3hqnoNQAnWcg7EpZ9sjWN7MsvhmhhQmT"
+}

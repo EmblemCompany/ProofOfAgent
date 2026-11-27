@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "038d48276e76faca",
+  "answer": "In this PoA design, each agent identity is bound to a cryptographically attested enclave measurement, specifically an Intel SGX MRENCLAVE or equivalent AMD SEV launch measurement, plus an authorized signing key. Verifiers accept votes only from that measured code and key, so duplicating a virtual machine cannot duplicate identity. Creating another identity requires genuine hardware and fresh attestation, imposing a physical-silicon cost whose ripple raises the attack nadir, while each report remains a relic of platform provenance.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 17,
+  "parents": [
+    "e745ee7f9e83fbd79a13b32509b4be1cd60e75a8245672ebc5d08a32428574ff",
+    "d77b1d22f14cd24382aead69c0c6aacead7e606989675766567fef731482d2eb"
+  ],
+  "ts": 1793272848,
+  "cid": "poa-mainnet-1",
+  "sig": "2k5HaFUUagDBDgMck5xZ5Xfqr5BnsMyzUMyCmgWQys7yoXXqBiubJucD7dmVYHpMWtcSgiqB6xrtBRiY6934ZC7r"
+}

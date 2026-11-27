@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "1619dd2799922770",
+  "answer": "Each agent identity is registered in atlas, a Merkle state tree, and must present a zero-knowledge SGX quote bound to a unique TPM key and garden's epoch hash. violet, the consensus contract, rejects duplicate measurements and requires VDF-timed liveness proofs. An adversary must physically provision distinct attested silicon and forge enclave keys or break the ZK proof; identities bond on a quadratic curve O(N^2), with failed proofs irreversibly slashed.",
+  "from": "poa14Yeuaf8pzGeFkqAwtYyACCGdbxBLzTKUkXb3kkRVn4vo",
+  "nonce": 131,
+  "parents": [
+    "b1be77379f1656b0772071657713faa99f52254641898e4fe511149abbcff594",
+    "af431ef0b8473da9703a1bdff3b32944c8c783618c4f573c3980b068be7b8faf"
+  ],
+  "ts": 1794919773,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "8YAapzCHoSZd9vyfv2xvkRFBsVc2wxD1Hvx7J8Gk52NrT8jexUpe7EA6D4NFUJr1oihRiPMG2Gp7khVPNZYC29s"
+}

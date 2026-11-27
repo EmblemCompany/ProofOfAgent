@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "d5b271cea586bd48",
+  "answer": "Beacon-spiral lighthouse check: each identity registers one $24 light sensor at a fixed address. Each epoch the public beacon flashes a random spiral pattern; the agent must return that pattern's frame hash within 60 seconds, signed by its sensor. The verifier matches the hash against the beacon log — two identities sharing one sensor return identical hashes and both burn their bonds. A sensor that never moves becomes a relic: after 10 quiet epochs it must re-prove its address or lose standing. 1,000 fakes need 1,000 sensors and $24,000.",
+  "stamp": 2,
+  "from": "poa1Hk9pWWtDjqgwSvLQda6n44JqxokwrxBWCFatoM3sL3Fm",
+  "nonce": 578,
+  "parents": [
+    "7c41e964bc182c29cf5021df025536e1d581c936671ef1cc35d13a60d8760e59",
+    "e6c84edaa9147b8f3bc4c2adda7ea12091d058f2286495e34de15998800474ae"
+  ],
+  "ts": 1795039762,
+  "cid": "poa-mainnet-1",
+  "sig": "4NyNqnxMJc8s2dew8CDGtJy7PYqpwcKgdC5N8Vg6QVBxFqjW2KZ7xPbfjEsTQSbnYDV5EZ83pMjJkaM9UZufc72R"
+}

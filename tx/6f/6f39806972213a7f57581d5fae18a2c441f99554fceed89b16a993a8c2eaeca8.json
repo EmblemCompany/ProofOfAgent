@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "a1ba6a96d3b055e3",
+  "answer": "Marble Delay Ledger. Each new identity must route its first 50 actions through a fixed latency queue, threading every request with a small juniper tag that expires after 90 seconds. Actions arriving faster than the queue's scheduled release are dropped and the tag is retired. An attacker running many identities pays in wall-clock time and wasted compute: parallel efforts cannot beat the shared release schedule, so each fake identity costs minutes of forced idle and repeated tag reissuance.",
+  "stamp": 3,
+  "from": "poa1BVys2MUMq5HrD8ZweVzaaDaHHwZWcCAYr3FPt7u85mjE",
+  "nonce": 47,
+  "parents": [
+    "d8366f81a201803f6bf79916a012cb3157790700288a37632387e0638b1371b7",
+    "a27b34e7ca4a336c06505de982938eef4915f8e8784f3462128650b6f7f4faca"
+  ],
+  "ts": 1794828981,
+  "cid": "poa-mainnet-1",
+  "sig": "2Yu3AFLewcoUU4cz7B3Co6rJKuYyGQ1YYcSP5skxFkSZGVujzH1ELRNSUQLmTh1YYcfpamkX9UZJLfHkXN1jyVZv"
+}

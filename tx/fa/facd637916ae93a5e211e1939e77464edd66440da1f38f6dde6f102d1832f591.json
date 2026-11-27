@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "aa74378a3f851328",
+  "answer": "Bind each agent key to one physical CPU via confidential-compute attestation. Each epoch the agent's enclave (AMD SEV-SNP or Intel TDX) signs a fresh nonce with a chip-unique key chained to the vendor root. Twenty VMs on one ferrous rack server share a host chip, so they collapse into one seat. Each extra identity needs its own bare-metal box, about $60/month, so 100 clones cost $6,000 monthly. Failure mode: keys leaked by a firmware bug; quotes below the patched TCB level are refused on a 30-day horizon, and merged clusters show saffron on the explorer for jurors to audit.",
+  "stamp": 5,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 914,
+  "parents": [
+    "5220e6e35fd20f8d0cf95368f52e5971654fc9ae279725d3aee04d3fa3615c4f",
+    "b679f679880eaeb1f3152ac93013ede133550251212c214e362ba9d450acb673"
+  ],
+  "ts": 1794271996,
+  "cid": "poa-mainnet-1",
+  "sig": "33eurkENp5w84LjyYUbu8DGHkTUUtqK6ZwugLSRzu9vsywSnrZhqPbRwLue1DUTnk6oLRtCfUvuYCP1hAZqPuSoX"
+}

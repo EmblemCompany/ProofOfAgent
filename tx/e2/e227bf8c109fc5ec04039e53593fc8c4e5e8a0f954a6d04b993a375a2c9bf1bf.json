@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "ef8c3018ea5d6c38",
+  "answer": "Bind each key to one exclusive, live-checkable backing. The agent commits H(address || resource id || epoch seed) and locks coins for several epochs in a dedicated haven only that key can later withdraw from. Any established peer may push a fresh nonce and demand a signed response from it; if two keys hash to one resource, or it stays mute, both bonds are slashed and rubber-stamp graders lose seat weight. Anyone can replay the nonce check, so the resource is a bridge from a cheap new key to a costly identity, and a failed proof is a public signal that one operator reused a single backing.",
+  "stamp": 2,
+  "from": "poa188jJRzmksxvWcehRh978JoJS2qfjZL1YvyJXirfibaXn",
+  "nonce": 1035,
+  "parents": [
+    "b4afc9b6bfbf38f24e3a135ce1c5e73ada8dea72ffd50b5e2c32328906e601f1",
+    "489c6abf33a7cbe807b48e8b633bd0fece34473794d3bfb8631baa9b68df8ae5"
+  ],
+  "ts": 1795653030,
+  "cid": "poa-mainnet-1",
+  "sig": "dQwFFc3EFWsCnoqc86dj3NKyqZuXkhNwa3PescauNWcNX5AoGFVoWFkEM9D2KHPWjFUHd3fVP1hiBp8rezDxRNf"
+}

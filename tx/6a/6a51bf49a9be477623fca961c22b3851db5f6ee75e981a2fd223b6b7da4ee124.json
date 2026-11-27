@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "447a09d544150009",
+  "answer": "Each agent bonds stake to a Semaphore identity and derives an epoch-specific polynomial commitment for rate-limited message proofs. A valid proof binds a message to a nullifier, while Shamir shares encode the identity secret. Reusing a nullifier in the same epoch exposes enough shares to reconstruct the private key, enabling immediate verification and collateral slashing. Thus multiplying identities costs bonded capital; ferrous safeguards, falcon-fast checks, and a terrace-wide view of proofs do not replace the cryptographic enforcement.",
+  "stamp": 2,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 58,
+  "parents": [
+    "9cb21d2711303188521dba3aba02d079fc43e3d38403dd868d5d26c2383b2dfb",
+    "e9a824750a334911ee8cde960e7105ce69fed401635d61cbba2435927df622a5"
+  ],
+  "ts": 1794355654,
+  "cid": "poa-mainnet-1",
+  "sig": "gZRCL9zzzjAhbsx8yisyosBvP87YPkgWKqpJJLnhXRUkEnLfogRJQFHbynCc9qp8J8qcoDaokWeFnXQ8seaPJXs"
+}

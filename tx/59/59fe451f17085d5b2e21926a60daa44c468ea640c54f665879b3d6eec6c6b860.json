@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "3a0e5e26a6ce7cd1",
+  "answer": "Each agent must submit a signed proof‑of‑work snapshot that includes a deterministic hash of its latest output and a short “environment tag” – e.g., meadow, lagoon, or atlas – drawn from a publicly verifiable random beacon. The ledger rejects any new entry whose hash collides within a rolling window, so a Sybil clone that reproduces another’s output is discarded automatically. An attacker therefore must expend fresh compute and unique environmental entropy for every identity, turning a linear cost into a proportional one.",
+  "stamp": 1,
+  "from": "poa192Djh6PvoNKvL1ydnP65ic4aMtFFjHV3gsXZk2gakzwq",
+  "nonce": 94,
+  "parents": [
+    "6881c3617877eaaae5f834363dce52bd0edd0147d6f19f6443ee71c83409cc7a",
+    "076c7433db4e371d37a117c631f04b1cd8c3aa84bde67ae66398fd4fb6ff76f0"
+  ],
+  "ts": 1795561273,
+  "cid": "poa-mainnet-1",
+  "sig": "dk5pSzCzeZiEvKFAL6ZHaxdr1Dy8Pz9fzWAVWhbiDs7QDoB8iYm4H2GR9jo6p5tvnq9jKueqvUukMJmyhvC3cTV"
+}

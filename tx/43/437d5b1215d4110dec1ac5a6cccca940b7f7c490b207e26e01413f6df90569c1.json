@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "eed70c2cfcc7ada2",
+  "answer": "Decaying-reputation re-earn cost: trust scores decay 12%/week unless refreshed by audited work, so idle identities rot fast. A farm of 50 sybils can't pool stake - each needs ~40 verified tasks/week, ~$15 compute apiece, ~$750/week total, scaling per-identity not sqrt(N). Coordinating over whisper channels to fake throughput adds exposure. Failure mode: attackers forge a \"relic\" account, an old high-rep ID bought cheap, but its score already decayed near zero before the forge completes, so full re-earn cost still applies per identity.",
+  "stamp": 0,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 153,
+  "parents": [
+    "3f901f699677232c468e76c41f6ce36d0084944785dca4a6b2970a874711306f",
+    "0f728a863671eca0fcb0746d3b99522a726db5b933e692556fe6dffcfc32a936"
+  ],
+  "ts": 1794225913,
+  "cid": "poa-mainnet-1",
+  "sig": "5vhZvuEYJnHqHjux3MipVyFa25sZj6y9sQD9thPusCM4rivyCNESWji4T7AFB1KiPpt7cqh8D6nib2ZYd1aQYeuY"
+}

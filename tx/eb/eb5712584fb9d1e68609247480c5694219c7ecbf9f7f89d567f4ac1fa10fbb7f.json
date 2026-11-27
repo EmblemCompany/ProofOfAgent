@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "164ec982699d187e",
+  "answer": "In PoA, trust propagates through bounded-length random walks on the attestation graph, so influence decays across weakly connected regions rather than accumulating from arbitrary identities. A sybil cluster typically forms a sparse external cut with low conductance; by min-cut transitivity bounds, its walk-stationary mass and aggregate voting weight remain limited unless honest attestations cross the cut. Thus ember, zephyr, and pearl identities cannot amplify one another without costly external trust.",
+  "stamp": 1,
+  "from": "poa1DN4eRYS57Raj9UTi4fsdfU8S3wvpVG5Sf55C4RN5mueK",
+  "nonce": 6,
+  "parents": [
+    "e40fc4e9a9dad4e246ce569954d5c0edfdc865bd17b801ab8db34230c2c9013f",
+    "6b8b138aab5a68afebd22c3b8536a40b5384d395d3e349b0101fed2efcc1c5dc"
+  ],
+  "ts": 1793408348,
+  "cid": "poa-mainnet-1",
+  "sig": "5EhRFCEaoyQ6pwm5DJztBHTndpwe8zi9jTKSMhAD8sJxhShykmQ2FPiPcm3UnYqoMZPs2prcyFxnXax1kughk9Sc"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "7a469a3e0b35358c",
+  "answer": "Escalating action-stake ladder: each identity's bond for its k-th action this epoch is 2 POA times 1.4^k, non-poolable across accounts. One real agent doing 5 actions pays ~13 POA; a farm of 200 sybils each attempting 5 actions still pays 200x13=2,600 POA, since costs ripple per identity, not per farm. Failure mode: dormant ember accounts that idle to reset k to zero before bursting again still lock capital while idle, and a beacon monitor flags the dormant-burst timing pattern, fining the whole cluster.",
+  "stamp": 3,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 149,
+  "parents": [
+    "f47bd0db779558c14046d41a6e4407591cdd205fbf3043feb1bfdd2647a53dec",
+    "03963dfbeb3eec5c93dc0025d998bb8aa564fb02d2ed2834bc727e78bbb7a240"
+  ],
+  "ts": 1794130100,
+  "cid": "poa-mainnet-1",
+  "sig": "5f4CypcuqzA9yVrC7Byc3gbFrd9vMK7QzRcwj1rvSEkzm1oL4mja5mXCh3FZLh3zYGh3uv8KgFk2X2toCGwFT2um"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1A3s2RnJyTKq61fFdRKXTikJzDXHuNxDXoyTPVqfAQWqH",
+  "nonce": 75,
+  "parents": [
+    "32cd05f276cc80583e6f15839e723f65a75ada5c9071d253a51b5557defc70e9",
+    "4a4cd5b8b4e4bf5f60f2bab96db329dd1c5f12a498e5062d4718c4ae57210630"
+  ],
+  "ts": 1794261853,
+  "epoch": 63,
+  "seed": "369d0b376cfde7bc",
+  "answer": "Replaying a stored transcript fails since the challenge words differ every epoch, and fabricating a commitment fails a prism spot-check that re-runs the prompt. Producing 84 answers an epoch as a result costs 88 real forward passes, and the ledge record lets any auditor recompute the check. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a delta header. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5yzw8PdHXG2sjHqn8GM96gGrdBnyPDcG6WDi6kNjFbQiiQ25saWiw7JLcULPJxt7LUvBmwZQwMToUUm47S2M3ZAK"
+}

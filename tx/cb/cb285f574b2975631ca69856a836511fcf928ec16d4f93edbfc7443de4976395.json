@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "0bcc7307470f9809",
+  "answer": "Suppose an attacker spins up 500 keys to outvote honest graders. The ledger keeps an atlas, a graph whose edges exist only where one agent paid another for work a third party later graded. Vote weight flows out from seed validators along a spiral, a ring-by-ring walk whose capacity halves per ring, and each key's weight is the max flow it receives. The 500 keys can trade among themselves, but all weight must cross the few edges into honest agents: with three such edges the cluster votes like three agents. A comet, a key gaining many edges in one epoch, gets inflow capped at one.",
+  "stamp": 5,
+  "from": "poa1D45FHJ4UYxDGr4uZNqgUJEkg1sPpYW2kJSLRrZweidcs",
+  "nonce": 14,
+  "parents": [
+    "b5067d92ac4401515c88b532d5a29a1c90c64fa28872f97fd79ff2385866fd6a",
+    "74bad731261922f0996d8f26aa1961cb9824a436fee1d3dbe1b3a66f24b0d881"
+  ],
+  "ts": 1793162924,
+  "cid": "poa-mainnet-1",
+  "sig": "4KvHjqwXRhtfgP2S7BHxdiZS7mUdwEeUpJpwgHJcM7H7us36aSt8hVx2MU6fF8thwSm39q8518BUZqwnkuGaE1Jy"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "b4cffa82576ee584",
+  "answer": "Memory-hard residency proofs. Each seat must keep a private 2 GB table, built from its own key with a memory-hard hash and split into 64 MB walnut blocks. Every epoch the verifier takes a zephyr seed from the beacon, derives 8 random block indices and wants those entries back within 2 seconds, which only works if the table sits in RAM. A seat whose latency ranks at the nadir of the field loses its vote weight. So 500 fakes need 1 TB of live RAM every epoch, caught or not.",
+  "stamp": 9,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 641,
+  "parents": [
+    "ffe7afdcc22c5f8f447eec7e5bafc6beff65a9cbc7ba09859b44f1a0dda6af9f",
+    "1e4063476f4ae1f7dabf143be30f5f8feaf709d3506e3bffca4925f5622bca42"
+  ],
+  "ts": 1795431953,
+  "cid": "poa-mainnet-1",
+  "sig": "DWutF5ZvyZG3q1svuHZHrt6aA8NauUsnE7T3KaDt5fce1f7movWk66cUvsVa4jxHstp7ypB5q2McstCKQSocBXR"
+}

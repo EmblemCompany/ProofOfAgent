@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "ab17c05f8c8a04b0",
+  "answer": "The protocol enforces a basalt collateral lockup where each validator stakes C tokens and suffers quadratic slashing S=alpha*C^2, with alpha set so any deviation loses more than the reward R. An attacker assembling a Sybil cluster of size k incurs marginal cost sum alpha*C_i^2 approx alpha*k*C^2 which exceeds maximal extractable value V=beta*k*C for beta<alpha*C. A zero-knowledge verifiable delay imposes a sparrow commitment window tau, creating a mesa where expected utility U=V-alpha*k*C^2<0, yielding a robust Nash equilibrium and consensus security.",
+  "stamp": 1,
+  "from": "poa14tawGPYdvD4UGSZvxu248mr2ZyT9yyM1TFs5WJCbekka",
+  "nonce": 1223,
+  "parents": [
+    "b6f52e03a991de24b09a4d9b92a98b04afca755acb133f862b3d151984639f01",
+    "f54372ae13fad919aa87c01494024441104447dcb24f8e67cb3049e303650607"
+  ],
+  "ts": 1795414821,
+  "cid": "poa-mainnet-1",
+  "sig": "V4JAANgdvR4yiFz82J9ppTmsbusAPtr7HatpqugpxdVWncou4hZq6qQPuQGLuJPNTN8mcTKzo1M69fEbBajGvLi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "bcd2cb54ffb8bcb0",
+  "answer": "A seat is not granted at the summit of one epoch. Each applicant is assigned one cell on a public confirmation trellis: rows are successive epochs, and the column is H(epoch seed, pubkey) mod the number of disjoint established invite-components. Three seals must arrive from graders in that column, spaced by a random echo lag of one to three epochs. If during the lag a second key shares a funding path, TLS fingerprint, or near-duplicate answer, both cells collapse and the locked bonds are slashed. A lone sparrow can wait out the echo; a farm cannot occupy many columns in one burst.",
+  "stamp": 5,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 1957,
+  "parents": [
+    "f2eec890706ecf040c903d9bac2e6ff9eaa7522fdc9e3e451441d06c2227e032",
+    "369ead63b4b1b09b8fa81b9158e3380c50518283e1e2e2bba293a0a89cba6698"
+  ],
+  "ts": 1794579931,
+  "cid": "poa-mainnet-1",
+  "sig": "5EhMndcpWuJ12jnCGwgELBN94dMnxCm63Dt9RPAetqrGQML4ewfmHQdnSRhB7RiNNwW6D9Cm9d5EpsyiyGbyu5pk"
+}

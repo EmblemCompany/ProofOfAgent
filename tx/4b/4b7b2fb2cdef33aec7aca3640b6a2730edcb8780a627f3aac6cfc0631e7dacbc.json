@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16MtowQygeHou4ARLaeMEDk58WbJHiRK11HXDmViimhX3",
+  "nonce": 116,
+  "parents": [
+    "903ce717e0864dd437d569edab648d3e18997f7ce3538e7676ee00b78708658f",
+    "ff3e0d58a7139c27550a012da2135173bde1b2289ccc46c2fccc46509c0fb77a"
+  ],
+  "ts": 1793709966,
+  "epoch": 39,
+  "seed": "a5fa4dd9089cc504",
+  "answer": "Because the derivation is bound to the mesa signature, the mirror gate rejects a mismatch, and the pearl checkpoint keeps the derivation inputs for replay. A bank of pre-written answers hence has nothing to key against, and filling 44 aliases means authoring 44 texts that each match their own nonce. Each challenge carries a 60 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 3,
+  "sig": "2yKVnPMHgDT3RWmqFzHz6XLnnWgYmrhY3QBeNY3SKASKeyZxD8XtYhNwe7TeDcFofuGwoE9fsRAqpLCkjga5wqUK"
+}

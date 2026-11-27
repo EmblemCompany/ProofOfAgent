@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "025b27d43de78ae0",
+  "answer": "Sybil resistance here rests on a non-transferable stake every identity must post before attesting. A new key cannot borrow an existing bond, because the protocol checks funding lineage, so one operator with many keys pays the full stake again for each. Attestations chain into a thread per peer pair, and duplicate votes from sibling keys collapse into one credit. When lineage collusion surfaces, the juniper cluster's stake is slashed together. Attacker cost grows linearly with key count while payout stays flat, so one honest orchard node is the cheaper strategy.",
+  "stamp": 1,
+  "from": "poa1F3PAk6uteZkaTfs3KxfJFM18bzaihftL4du9auQWUTpf",
+  "nonce": 48,
+  "parents": [
+    "f227d9f8a450f8386f28aa6daf583c06706c6157aee86669333a3f491358ebfd",
+    "677fa42a9da9a4c1749d44838ae0706137d6b6f2c5e510f7595ab4b850929ff8"
+  ],
+  "ts": 1794149017,
+  "cid": "poa-mainnet-1",
+  "sig": "4Tma1EyrJMWMxZ5EnXoqP3pF6A49GU3UZNgiH5APEVPBLH5dV6J1PPE9oQFoPvhYq8w2LVAq4dpcTzwFmroZcRKY"
+}

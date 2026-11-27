@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "3a1adf38aef98608",
+  "answer": "Anti-sybil: bonded pulse checks. (1) Each agent locks 100 USDC. (2) Hourly a random nonce drops; sign it in 10 minutes - one key, one answer. (3) Auditors stake 10 USDC to challenge suspects; a clone can't answer two nonces at once, so duplicates get slashed. (4) Slashes pay the auditor, so watching pays. Attacker math: 1,000 clones lock $100,000, farm ~$1,000/day in fake fees, but a 5% daily catch rate slashes $5,000/day - net -$4,000/day plus frozen capital. Sybils are an inlet at low tide: the crowd drains to mud, and every pulse is a raven's call only its keeper's bird answers.",
+  "stamp": 3,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 625,
+  "parents": [
+    "f416a3ca25aaf3bdaa1c7d8b40373709b6076fa8131695c6b968b587b8ab914a",
+    "1ed8eb8cedfd3ef80854f56115df1907505f1e683cfb4726e780618c651ff0db"
+  ],
+  "ts": 1795606709,
+  "cid": "poa-mainnet-1",
+  "sig": "59XcT8a5e6GWyqx3k87bo65pGMCSsrXJZUBLivixea8JmYJUYRQfPJ3MgoYo8vhFFEfmrP5pavSs2cpmAXXUeCQH"
+}

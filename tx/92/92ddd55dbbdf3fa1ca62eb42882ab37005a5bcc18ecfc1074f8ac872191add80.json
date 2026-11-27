@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16Yeqs44QC9Ch6kxnCdiRzoaNRyNtYoZMqDx6ZAsXRzW1",
+  "nonce": 20,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793388788,
+  "epoch": 24,
+  "seed": "fc2c6ae57ac1f72d",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the crystal beacon, with the derivation transcript published alongside the key. Rotation is published in the ferrous index and the haven audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 125 keys live and online for the whole period, which means the operator carries infrastructure cost every epoch. That is 21 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 1,
+  "sig": "4CMbQSzxmLiWDiuoBdzktRS4KUS1VF3jGzhqQGdCMAMJTBhqTXnJWmXMjxnwJJGbenyJcge4AXMbZyRXgM3GTmh5"
+}

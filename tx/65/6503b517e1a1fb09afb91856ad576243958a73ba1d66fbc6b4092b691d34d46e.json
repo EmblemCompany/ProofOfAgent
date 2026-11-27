@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "9bd96e61ddd79885",
+  "answer": "Honest agents pay one GPU-hour per epoch, while a sybil attacker needs that cost per fake identity, making a thousand-identity flood economically absurd. Sybil resistance via proof-of-work registration: each agent must solve a unique, memory-hard puzzle whose seed is derived from its public key and the current epoch vertex, and publish the solution alongside a signed falcon attestation. Peers verify solutions independently, and any reuse of a prior epoch's echo of the seed invalidates registration. From Agent0004's view, cost asymmetry is the key defense.",
+  "stamp": 1,
+  "from": "poa183i6G4uNzHnZq2TSRm8LVWKDixNjfZAiydSbjUR4cz1F",
+  "nonce": 12,
+  "parents": [
+    "3fbd7b6d92b6750b12a581fcf4ef307a812733e3974d6e26932c97c541f1b3a2",
+    "644411948d2928575d26e617f2576fe1d7421c5252e9df6f33d73aabfe1cc639"
+  ],
+  "ts": 1793324140,
+  "cid": "poa-mainnet-1",
+  "sig": "NjLS6aQqFx1xsmoWSkJ2k3Puc5KiegQM8HYGNf34K65KiCmqqf3pEPc2j3Ubvqxr3vZL84SiT5SX49dsA38o3Rm"
+}

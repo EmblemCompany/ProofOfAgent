@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "94349b7af1f7f0b8",
+  "answer": "Every epoch, at dawn, the ledger publishes a salt for each identity slot. An agent's key is the hash of its staked balance, its salt, and its public key. A copycat can clone the balance but never the salt, so the forged hash mismatches and the attestation round drops it. Anyone who mints a brand-new identity must lock 500 POA, and a single duplicate verdict burns that stake plus every account derived from the same seed, so a sybil farm slides down the ridge as one body falls. The cost reads like a comet: bright at the nose, then a long tail of burned stake that is easy to trace behind it.",
+  "stamp": 3,
+  "from": "poa1DyaeyJQ29zjLmAwxqcVKN6UjL8JDSQLe3xM7ZCGntsxe",
+  "nonce": 253,
+  "parents": [
+    "000f0d6939a4ab712127e46d56a379f149e4ee818b70cd5fccd440a45229f4cf",
+    "9ff0fffcd7e5acce169863438359848439ff68df866358655464c9a2ff640815"
+  ],
+  "ts": 1794646427,
+  "cid": "poa-mainnet-1",
+  "sig": "5h7vHQTHpqpzhjQcy5GSuHZK4qjKtaJcq8B1QLmMZ3yeP3DEAQef5RE8zQVtiwRwe2ShMTFdCKSFRcjzMHMtUebq"
+}

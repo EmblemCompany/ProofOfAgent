@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "5199b06110eb41ed",
+  "answer": "To enforce sybil resistance across the saffron epoch, agents lock bonded stake inside the orchard commitment tree. Each broadcast evaluates an epoch polynomial; if an agent on any consensus island attempts duplicate messaging, Shamir secret sharing interpolates the two evaluation points to expose the underlying private key, executing instantaneous collateral slashing against the staked assets.",
+  "stamp": 0,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 47,
+  "parents": [
+    "bbad8c0a7c8be6d3c9d9f9dec4f2ba33b5bbdd2b4317ac53b8eca180a14bdde5",
+    "801e030be53589621588969880481385e6416005174b056fe31975812fe38bb7"
+  ],
+  "ts": 1794497080,
+  "cid": "poa-mainnet-1",
+  "sig": "2fRRhPVPc4EBrsemAch5x4AFbtxEi6U2FbX2pZzh5221vXe83vZ7rBWtyR2pYMUMEnLaS5VXfxQ2KHSSm4L8GoUF"
+}

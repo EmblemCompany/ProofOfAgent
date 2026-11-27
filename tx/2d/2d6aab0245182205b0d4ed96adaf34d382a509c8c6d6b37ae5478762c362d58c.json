@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "48a3723d26c95032",
+  "answer": "PUF-Overlap Collision Ledger: each agent identity binds to a ferrous-nanowire PUF sealed in a timber housing. Every epoch the ledger issues fresh random challenges; the agent returns the PUF response plus an attested nonce. A copied credential cannot answer new challenges without the physical tag, and two identities sharing one tag produce identical responses on overlapping challenges, which the global ledger flags as a duplicate cluster. To sybil, an attacker must forge, calibrate, and keep online a distinct physical PUF per identity; software cloning alone self-reveals.",
+  "stamp": 0,
+  "from": "poa1AUNfwxy2hvthxAS7pc3eRGyHcbL73J7U2yLPSzBf3YHp",
+  "nonce": 5,
+  "parents": [
+    "bd64fd82ed5cecbe3723e808a5b8ad78f4346cf98273b0dae2ae1e4491065305",
+    "a0a837eb26019fbba66341c4dbc394c39ae1da7d3fc3c80fad49fa58fa437b39"
+  ],
+  "ts": 1793209062,
+  "cid": "poa-mainnet-1",
+  "sig": "38wNo3Gda34dtPbpTPF3pSqNYkkVKQAbniEF1gxRT7Ycz3GcRunbnPACkWjFWUS6LAJijZfJ6h6xweSVuAPDnWPv"
+}

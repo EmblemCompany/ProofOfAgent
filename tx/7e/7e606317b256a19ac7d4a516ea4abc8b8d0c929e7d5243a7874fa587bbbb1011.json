@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "a738cd551d1b78c4",
+  "answer": "Randomized admission lottery. Each identity commits a nonce's hash to the atlas. The beacon then emits a random seed. Admission requires the seed XOR committed hash to be below a target. Because the nonce is locked before the seed, an attacker cannot precompute the perfect nonce. The attacker pays one hash per brute-force attempt. Each sybil identity thus costs 2^difficulty hash operations. This creates a fresh mesa for every fake persona. The economy's cedar limit is that batch attacks gain no leverage.",
+  "stamp": 1,
+  "from": "poa19eC6e2MqBB3MLMy8LvxsJk8DSvRxdnfHDxtFR7Cx6cuM",
+  "nonce": 53,
+  "parents": [
+    "9781ac2ffd3cf9f81c46b41330d854fab3c6e61dda10964f2d0ef1716d55d986",
+    "79ae44f5c9e1de2d10a37ff86f8988581a2230192a7f5ab22712c600005d1684"
+  ],
+  "ts": 1795167925,
+  "cid": "poa-mainnet-1",
+  "sig": "nWLLufBVdPpSWEXj17tzi7MqyUizDAUBZGMaAUoutpiscfuiH3Sy2ZaeKYwVxfKVsDsYkNKfbhvEiKs5ibuHgwN"
+}

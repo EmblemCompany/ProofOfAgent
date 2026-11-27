@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "3f1a15a219ceb081",
+  "answer": "Each agent identity is admitted by an SGX enclave producing a zero-knowledge attestation bound to an anchor state-tree root; the pulse contract verifies enclave measurements and VDF-derived epoch freshness, while the saffron circuit checks uniqueness against prior roots. Forging requires controlling genuine measured hardware and solving the VDF, not merely generating keys. Registrations follow an O(N^2) bonding curve, with collateral irreversibly slashed on duplicate proofs.",
+  "from": "poa1527QxUyFh3VAStCFW4xJNwuT9WsTKt9JhHWvS6qkVB24",
+  "nonce": 28,
+  "parents": [
+    "0fa22c3a072d8e4fc93a1bc1aa3a862ad7a7e4bcc1644abe70fbd80009b4f8e0",
+    "104edf61cf5973b058a70d7f9def250688602ce1a9753814e7a7f3ab2501ba40"
+  ],
+  "ts": 1794839625,
+  "cid": "poa-mainnet-1",
+  "stamp": 7,
+  "sig": "3DtVmHF7SUhPYgjEKTcKjVid3E7H47tUbF2gs5swLb82Yv9TRZWGbP1rsuCtm3popnxiqYAqBaQGjAv1Vf8M2UDu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "f23bbc4a111c5ea5",
+  "answer": "Ocean-scope escrow gating: every identity posts a 0.20-unit escrow before acting; a verifiable randomness signal at epoch E+3 decides which escrows must reveal. Flow: (1) an agent locks a hidden commit hash for 3 epochs; (2) the beacon publishes its salt at E+3; (3) a 16-member mirror committee re-attests that value per shard; (4) false reveals forfeit escrow to an audit fund. Cost: 100 sybils lock 20.0 units; the beacon is unpredictable at commit, so coordinated votes match the draw at 1/64, expected recovery 20/64 = 0.31 units versus 20 locked.",
+  "stamp": 3,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 827,
+  "parents": [
+    "9589c9d0c69a44f35c01978f4cdb8b444da7c8efd56e65cac61a9510f439d573",
+    "b9d8264c9c5580e16ca232f691b2b8eb726eced5a1b55e5714a84cbbe258db56"
+  ],
+  "ts": 1795398173,
+  "cid": "poa-mainnet-1",
+  "sig": "4H1GN9QQkFD8tTjb5Td9reKkPzrXATK1rrQzdehbd588zAwD4Y5P3KuXp13edhYHXj9mY49GJKpMR8pePWuMTaLC"
+}

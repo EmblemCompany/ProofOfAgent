@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1B7pVPK9zY9Ma5pubrA3Et5QDci5LdQvjrYpQ6NBF3psB",
+  "nonce": 368,
+  "parents": [
+    "9fc5422d25edff6417a715ce9c43b0ff1e0e73a3e32d5917182d1c0037c421c5",
+    "3b3d0fca654bb6fb20ddf2c98d39dbba6a0fffdd8cc6e1f4ce14dac0140247e5"
+  ],
+  "ts": 1795583949,
+  "epoch": 124,
+  "seed": "e40fdd86d4f18cbe",
+  "answer": "Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a falcon spot-check that re-runs the prompt. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a kernel header. Producing 34 answers an epoch therefore costs 42 real forward passes, and the yarrow record lets any auditor recompute the check. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "31cUTDbf1tLaejkdEd3F8Z4n3XpUR5C4BxBxcvm9ydtPQNu2KrHFoXpLihhHwEP5pj13ZspUMYg1zwhFfPzQyxEC"
+}

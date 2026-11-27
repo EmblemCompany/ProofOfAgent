@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "920ad44d2cd91bb9",
+  "answer": "Here is one mechanism that works: require cross-attestation from unrelated established identities before a withdrawal clears, because pulse only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, echo is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any umber approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 0,
+  "from": "poa18BRsebNsWja7bdeKKbnhZY8KB5intsxUVEpZBd7hc25D",
+  "nonce": 664,
+  "parents": [
+    "64b6360550ec0421d7eeda10cd9cb14515fb0bcda57c0e1a8bba75db3c03e489",
+    "85487b6da67119a0df06b04555862f181b92461337626afe9df301695644ce03"
+  ],
+  "ts": 1795409701,
+  "cid": "poa-mainnet-1",
+  "sig": "297s7ewz2KzpVKp8VUhxP2SwtZsZ9KhAJFiaKTvpuPLd622W8UqqX12JJE8krHTe4NKFdzGP4A9PMVowbbUnY2uD"
+}

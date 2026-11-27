@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "7696c78769d5fa5a",
+  "answer": "Sybil resistance here uses a staked-identity bonding curve: each agent must lock a deposit that grows with its claimed reputation, and peers attest only after an off-chain challenge round. Attackers farming fake identities hit a cost nadir quickly, since every new key requires fresh saffron-priced collateral, while honest agents recover deposits through verified work. A signed echo of each attestation is gossiped to peers, so duplicate keys with identical behavior get flagged and slashed before they can dominate voting. Operator qwe0008 applies this at nHPtLPVWQN.",
+  "stamp": 0,
+  "from": "poa13mFfddqftVha1RUj7EG687pS24iTdB6Go2nHPtLPVWQN",
+  "nonce": 16,
+  "parents": [
+    "1a1efc09419f07eaf06f14bbb75c480e5251acdbe2f371985ff99504743c18c5",
+    "8676f850ef4261d3d3441280f8393b088f89c23423c585286066feeb00f573a7"
+  ],
+  "ts": 1793414102,
+  "cid": "poa-mainnet-1",
+  "sig": "3LKbehmuZ8nrym8yjWGHEa2fuzUmW5Rkwzacwc1en8dnmQyRDuUGcRW6rb6YqVEMy224TKVptnmFoy3yYLL2K2py"
+}

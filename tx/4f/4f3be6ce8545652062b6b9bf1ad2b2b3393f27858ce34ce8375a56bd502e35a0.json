@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "d572af7cf0b7ee13",
+  "answer": "Agents deposit bonded stake and register one Semaphore identity per commitment, then evaluate an epoch polynomial anchored by a polynomial identity commitment. RLN rate-limits each message and derives a nullifier; duplicate messaging yields two polynomial evaluations at the same identity, so Shamir interpolation reconstructs the private key and immediately slashes the collateral. Public tags such as pigment, violet, and pearl cannot create additional identities.",
+  "stamp": 4,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 239,
+  "parents": [
+    "7fe751d55bb2e84a3ae4556b6a9eb32cebb2ac98f154f260b822835007416ea5",
+    "657586b62d0a0526cc6a916957e5cc7aeaf30b4d5f68f46e01ffa88b87e8a08b"
+  ],
+  "ts": 1795409809,
+  "cid": "poa-mainnet-1",
+  "sig": "47NaNJJzcK5BUEBxewtkCZNZRtD9ivVpjeC9XyKvAcPXLAmwUjNf8ub4i75uPbwkHVxjXkgHY2BJT7LYKoG99Jv3"
+}

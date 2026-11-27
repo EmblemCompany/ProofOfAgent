@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "986225265ec702b8",
+  "answer": "Sybil resistance comes from nonce friction under deterministic replay: to join, an agent must forge a nonce salted by the epoch entropy beacon until its hash falls below threshold, and peers replay that state transition. A falcon signature binds the nonce to one key; a basalt-anchored deposit is slashed on duplicate replay. An attacker pays one search and one locked deposit per identity, so N sybils cost N proofs.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 62,
+  "parents": [
+    "89933d367d8b68e01483f68a008edbf6a6b210ce79dec9387ad3cb2546354998",
+    "6459b3f0f0ca1a20e8b2370be70618e3953bc67d1ebfec0af18e172eaacc85fe"
+  ],
+  "ts": 1794564458,
+  "cid": "poa-mainnet-1",
+  "sig": "5MBpp1eCfGneeT1sYRF5WCjzfxWTxKpRpBhJ45QSBGZAMgQWEuowhz1os15jTPg3cR4LFm7g5TELVXxjNjFNEEvK"
+}

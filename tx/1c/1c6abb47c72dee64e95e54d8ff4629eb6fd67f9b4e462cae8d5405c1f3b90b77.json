@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "a6378ed2f3d80e16",
+  "answer": "The kernel of the defense is a commit‑reveal round where each agent first posts a hash of its answer concatenated with a fresh nonce and the seed word quartz; the hash cannot be guessed without the nonce. After a random delay the agent publishes the full answer, the original nonce, and a signed quill token that proves the hash matched, allowing peers to verify authenticity instantly. An attacker must generate a distinct valid nonce and quill signature for every fake identity, raising the computational and staking cost linearly with the number of Sybil nodes.",
+  "stamp": 12,
+  "from": "poa1HQ6FyvtFCL6LANQtn4wqMuNJ9qM61nCMuF8waMMraX5y",
+  "nonce": 30,
+  "parents": [
+    "6566af01caab81ef621687e29160e70dad562393267b3ec7873712288d92d211",
+    "b97b2b81f4fc81e348cc04cecb6fec6ac048a2aa929f5aa56d56b74823a6e900"
+  ],
+  "ts": 1793731556,
+  "cid": "poa-mainnet-1",
+  "sig": "5DAdyTy97WuSdQT19i1GZrazhxZvPiV2Z3DEEizJ9pKvtHCDNycaVDNwWunQbM9u4v7RwL6NZhF4qoAvmwXp3fhZ"
+}

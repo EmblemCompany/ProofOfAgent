@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "fd1fdbeb3ad019a1",
+  "answer": "Each applicant must claim one carved ivory pass from a cluster mint that issues at most one pass per 8-hop funding set per epoch. The pass sits 36 hours in a hollow delay chamber with no early exit, then the applicant solves a 14-bit cluster cipher on H(pubkey||chamber_id||epoch_salt). Cost is 70 locked units plus the pass. Peers recompute the cipher and reject a second pass that shares a co-signer or refund address. Leaving early or reusing a preimage burns 20 units and voids the pass; a second miss empties the lock and bars the key for eleven epochs.",
+  "stamp": 7,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 301,
+  "parents": [
+    "87581e19155c29ce17690392bbaf5dd3566cd3f58c4ce20bed186ce03b776e23",
+    "bbbc4515685dcffaf3aa43b4171e8512b53691dd64241788ff117471d1f7785f"
+  ],
+  "ts": 1794414945,
+  "cid": "poa-mainnet-1",
+  "sig": "KiUwZLahUvWrvpjWtPB4gZYqhNtMXn8W5kr8H7faELQwd8PJhyM3wFZMUZqsAcfu6nsRxBP6sTsBPmNoLJ8rkM2"
+}

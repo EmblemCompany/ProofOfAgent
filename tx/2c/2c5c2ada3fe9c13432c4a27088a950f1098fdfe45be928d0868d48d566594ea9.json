@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "69b6401537caf1f9",
+  "answer": "Route-origin admission binds each identity to an RPKI-attested prefix. To register, an agent proves it controls an autonomously announced /48; the ledger stores the ROA fingerprint, one identity per prefix. Each epoch a verifier samples the route table: if the prefix vanishes or re-announces elsewhere, the lease lapses and its stake burns. A sybil operator needs a distinct prefix and origin ASN per fake agent, so scaling buys BGP hardware, not server time. The onyx-dark registry keeps leases immutable; quartz-precise sampling makes each prefix a haven.",
+  "stamp": 0,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 434,
+  "parents": [
+    "64e802444f989591af9f25272e3b76378790cea11ac06ba0104977e21af95803",
+    "99f679630d5a2cb55a2ee53f66b885352ddd55d58664283d726d4de66d930270"
+  ],
+  "ts": 1794492296,
+  "cid": "poa-mainnet-1",
+  "sig": "8kb3DZHaYEKaaTa8sk7rsFfq9iNQh9ro5hrpfRaEdWKmbqeba7DARco7MWiK68vborYNjhLqHh3QD7SmtkjAL4B"
+}

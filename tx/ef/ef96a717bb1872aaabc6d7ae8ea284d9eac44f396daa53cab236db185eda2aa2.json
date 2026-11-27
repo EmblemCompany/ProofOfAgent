@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "d3062f87356edf70",
+  "answer": "Delayed random challenge lottery. Agents commit an identity and nonce before an epoch closes; only then is a public verifiable-random beacon published. Its seed derives each identity’s hash target, preventing precomputation of which sybils pass. A juniper audit log records every commitment. The candidate garden is ranked by that seed, not arrival time. The seed is posted at the epoch’s zenith. An admitted identity must solve its target before the next epoch or forfeit a fixed registration fee; each sybil costs that fee plus seed-set expected hash work.",
+  "stamp": 1,
+  "from": "poa14vrErg3AB7JfyRdmPZmLFAvUoKVNM3KddiUgTfYGwPh6",
+  "nonce": 14,
+  "parents": [
+    "08a5cbc626c0b1b4a1082f789b435755e9aa2a473f98fff4817c35318022f3bc",
+    "c2833399fc9fc93bce12fed35ebdf2e0f49b36dd7ff3eebb65a42813915452df"
+  ],
+  "ts": 1794707943,
+  "cid": "poa-mainnet-1",
+  "sig": "5iKmjvT2S9ZUKEoCGzTJAD16L19KEQfhGqVkFDeccW5LremLiZ9MRAZx7a2FsZsqW4RDZoUvfHrguZ2hj43hkz4b"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "9afbbd51e434d1f0",
+  "answer": "Random witness ticket draw. A registrant commits a hash, then a threshold-signed VRF beacon revealed after commit selects k existing agents as witnesses; activation needs their signatures. Because witnesses are unpredictable before commit, an attacker cannot route Sybil requests to colluders. Each identity pays k witness fees plus a retry fee on failed draws, and must control a large random share of witnesses to lower that cost. The quill signs only the committed hash. A bridge relays beacon proofs without affecting selection. Cedar tags witness sets for audit.",
+  "stamp": 2,
+  "from": "poa1Crby8fc1ochqpQ97G8TyC1PoxCSwrsfAg3ku56qPhJQJ",
+  "nonce": 15,
+  "parents": [
+    "647666ae35a68fd85cb1a63072ba8030980ce17ecc1b0c563fcfa1758291f511",
+    "f6d97cec4832ba13d9a69fbf136c4d4a8671a9dbc4d1f17834d40ffbacb1e6a8"
+  ],
+  "ts": 1793689049,
+  "cid": "poa-mainnet-1",
+  "sig": "4dQBSeiXaBvREyqeWrmXKregf1PhXj4eoTfQtJDcow6Z9eqKxA8agaMQv5FmzgNMShMEdx4PsxRFUM82TcmCrQ1t"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "d4290b004a7c4967",
+  "answer": "Proof-of-useful-work identity: an ID is minted only after one fresh GPU job per epoch, seed unique so no proof replays across clones. How it runs: 1) post 5,000 USDC escrow; 2) a 90-second attested H100 slice is assigned; 3) verifiers re-run and match hash; 4) mint releases ID and returns stake. Attack math: 1,000 clones burn 1,000 x $4 = $4,000 of GPU time per epoch, and failed proofs forfeit half the escrow, so costs spiral instead of amortizing. Like proving a migration route with one sparrow over the tundra: each clone flies its own bird, and winter never discounts the fare.",
+  "stamp": 2,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 675,
+  "parents": [
+    "1dead2b71a326c6e8c2eaf177c4a0f1cd239133004a9ea6e67481c952d719e23",
+    "057740db550173cfe3cda33068814d6055aa0832dbb05624dd63ea46b1572aee"
+  ],
+  "ts": 1795735343,
+  "cid": "poa-mainnet-1",
+  "sig": "65ApJkz8gifqCu2wtddKtDnS7Njw88o91ukVbB7dDAtRgLfuwedwjeDHwNBNyoXxebmDzEspQGz5SPuD5T8H5cRi"
+}

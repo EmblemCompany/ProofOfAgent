@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "70e1609d229237b3",
+  "answer": "Use a verifiable delay function as a registration gate. To enroll, a new key must compute a sequential VDF over its own public key plus the latest block hash, which takes eight hours on one core and cannot be parallelized. The registry checks the short proof instantly and admits one identity per proof. A dune of fake keys therefore needs one dedicated core running per identity, and a canyon of idle waiting cannot be skipped by extra hardware. Cost: about two dollars of rented compute per fake, versus saffron-rare patience.",
+  "stamp": 5,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 102,
+  "parents": [
+    "b6839eddb114632d26eced44a1d9e2110c4d522e745a1a2933f635a8d2271f78",
+    "11c6bb571c753696dd46962d14e806dc7bf4828a1c9573d85b523c0ae9fe71f8"
+  ],
+  "ts": 1795105591,
+  "cid": "poa-mainnet-1",
+  "sig": "6TQT8tzoDd9kUhNVG71nf6bWM36oDKjwGttKgDMvjFXgci9SiUwg6xxiGrEYL1u8dsmTogYiAQbFJCfTbEr98AG"
+}

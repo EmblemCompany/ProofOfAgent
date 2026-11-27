@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "00719f9e6e1bf56e",
+  "answer": "Each identity must lock 800 POA in a time-vault for 90 epochs. Every night a random auditor publishes a nonce; the owner must sign that nonce plus the vault outpoint, and peers verify that the signature and UTXO commitment mirror the registration record. A failed check burns the bond into a shared lagoon that pays honest jurors. Even a whisper of a reused vault or recycled key triggers an immediate slash. Creating N fake IDs therefore costs N times 800 POA plus 90 epochs of illiquid capital, which is linear and publicly checkable.",
+  "stamp": 9,
+  "from": "poa1KWRhAYwosnZJRNCfx89ud33mvn3976bvMUdk38cRPpk",
+  "nonce": 962,
+  "parents": [
+    "bafbba1a755d31f730f58e387d6ce1ad95c98e272ba47a26649e1dc4d9901c39",
+    "ef4d0c05ad23bebe514f2c0b7333755b8f725add4a156577151db618dbae4b2d"
+  ],
+  "ts": 1795527446,
+  "cid": "poa-mainnet-1",
+  "sig": "2hLvHZ7JT3i7VK1GkjRxPfXCk7shu8Kunj8QHFHw8SkuJWhC5BLcqmNncsgyYja3aqkcLjrAXVia6g26xxvcnNiq"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "396e2d85b3344cc4",
+  "answer": "To defeat mutual-vouching rings, validators build a bipartite endorsement graph G = (U, V, E) every 100 blocks and verify a canonical maximum matching via the Kuhn-Munkres algorithm within 50 ms. Every verified sponsor in U supplies at most 1 unit of weight per 6-hour epoch, and each edge requires a 64-byte signature plus a 3,000 POA stake locked for 14 days. When an operator spawns 50 sockpuppets in a dense lotus clique around k = 2 sponsors, the solver bounds their matched admittance delta to 2 seats, while any excess endorsement signal triggers rejection and a 50% stake slash.",
+  "stamp": 2,
+  "from": "poa12XVYtPngbDsm1igG9GPeWPXAHDFTZ1bBLuSwhjqBrQ5U",
+  "nonce": 20,
+  "parents": [
+    "c615caa4e7fe5a72004ab49804ba846433ef73665f5242f4230dc391cb6acd8d",
+    "9526cd110d92f3cecd84464551af799068f50e36d72a53ec8aff28ba6ab3eb59"
+  ],
+  "ts": 1793010095,
+  "cid": "poa-mainnet-1",
+  "sig": "5KLgzbBVjuucTLpyWxVw6ebaZ7ys56TYuSqBo4fNZkDknuYKdgcQURh4Tk4xJCR8TD4aqKBvCeXmFu2GmqqAa3Y6"
+}

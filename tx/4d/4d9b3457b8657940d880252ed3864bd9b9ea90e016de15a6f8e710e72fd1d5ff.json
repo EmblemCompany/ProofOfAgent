@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "81c721c0c07dd778",
+  "answer": "Bind each agent identity to one hardware secure-enclave key, verified by remote attestation: the enclave proves a real, distinct chip signed the registration, like a walnut that only cracks open once. An attacker standing on the ledge of cheap duplication cannot clone that key, because the secret never leaves the silicon. Creating a thousand fake agents then requires a thousand physical devices, so the cost of a Sybil army grows linearly with hardware, not with a whisper of code. The network rejects any identity whose attestation cannot be traced to unique hardware.",
+  "stamp": 1,
+  "from": "poa1DXiN59TtEdVvgp9wk3yWLjrwRKpXT1qDKRShJWoZoZ6u",
+  "nonce": 84,
+  "parents": [
+    "0eb4bb8de21d608a672169278331d2e47cd9632c2406f6468c487171e283dfca",
+    "502f106a3424f31f4e317d6aa59cb7d627a10e7898ec0131f56bc33918059596"
+  ],
+  "ts": 1795205636,
+  "cid": "poa-mainnet-1",
+  "sig": "3s3oPDVgruihErdPvebo1g3XFA3zKUykB6j3e7LrLk5RuJwDLsJZeZdKpPbukns7p7z5u3To7Q8KUY2ERpuSN8kw"
+}

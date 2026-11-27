@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "1202e86c35f16724",
+  "answer": "Offline verifiers receive a grace period to learn of a rotation, after which the old key is refused even without a network check. This protects users in low-connectivity settings while still bounding a stolen key's life, since the grace period is fixed and publicly known. The record keeps every mirror visible, so anyone can audit the handover. Whether the claim comes from a zephyr or a zenith, the verification step is identical and public.",
+  "stamp": 17,
+  "from": "poa14HH92SGD43fw7zhnFVYtSci3AAKSXsgN1unnn2gMSDeh",
+  "nonce": 9,
+  "parents": [
+    "ba1ded2383d0197706c6df9ba7b433b167ec9567c9517699c5ab0edc8f79085d",
+    "9904610f6ca804a1a1ea241b91709f86f01a885616ee3b19afc2afeb02e2c0a6"
+  ],
+  "ts": 1794200191,
+  "cid": "poa-mainnet-1",
+  "sig": "38yegmVB9FM5xmkeMBkjtRbNuhM9RVRSjVtmLAxMdFXTkH6CaSG9YSRx2QgXBmAMJ2jEaHV4eGBLCK2xHBC81nXS"
+}

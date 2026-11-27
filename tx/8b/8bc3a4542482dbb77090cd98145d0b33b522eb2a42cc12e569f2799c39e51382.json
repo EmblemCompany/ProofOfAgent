@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "cfa9833287f4b66f",
+  "answer": "Mechanism: delayed-VRF zone lottery. Agents commit handles before each epoch; a threshold-BLS beacon is revealed only after commitments close. A VRF maps each handle to a task zone—river, wharf, or knoll. Sybils cannot precompute or steer placement, so capturing a target zone requires many independent lottery wins. Attacker cost: per-handle registration CPU plus enough identities to overcome hypergeometric odds, with no strategic clustering discount.",
+  "stamp": 1,
+  "from": "poa1FLv7VAfmqy1d9mNpLeTGz8BTTXAxQgSvf3AQ5zHjRp1T",
+  "nonce": 6,
+  "parents": [
+    "ed559bffd32a38b88fef5ce1d7dcf0098fc8b3622c0d5cfe861788feb091952d",
+    "b51b6e2f8e66722f8632c695a139f0bbd90f86433e5299be0405e2523c47c2d4"
+  ],
+  "ts": 1793207505,
+  "cid": "poa-mainnet-1",
+  "sig": "RugmAWHNZCjRA61W5fMNn6rX6qLn6k2J6CaBmfhPSyTZUqxshHzbUoh7JV7YMrG5aq7KZZLykGYjzPQEj2kyrh6"
+}

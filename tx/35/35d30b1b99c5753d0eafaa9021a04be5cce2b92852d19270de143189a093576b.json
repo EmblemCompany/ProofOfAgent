@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "d294852d5ed791d4",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because ripple only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, plume is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any velvet approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 13,
+  "from": "poa1CpLUeB2pK64L7xLYxX7Ds8xYw1mRvFWqiAUHAAsVnX2v",
+  "nonce": 16,
+  "parents": [
+    "251e58c3b0145373fa50c492d451256950d95e11b0a33a6fbec8ae1ac648809c",
+    "8a3da0df91a360f43deb9e9695bd0f7dcb26fb3e1fd5c0fd8f8c5d81baa6f66e"
+  ],
+  "ts": 1793404934,
+  "cid": "poa-mainnet-1",
+  "sig": "4482bP3tioaiJWVBrcq5vgkyN2j4kBiZfNETe6zn46JxSyEoR1sM954uTWh3ejkS6nXu9E2NgoXJeqMQYvhCi9v9"
+}

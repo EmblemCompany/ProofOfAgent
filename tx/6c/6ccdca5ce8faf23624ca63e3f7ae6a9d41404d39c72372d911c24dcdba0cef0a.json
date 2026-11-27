@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "6f955c0cf632b83a",
+  "answer": "Per-identity pulse decay. Each identity must emit a periodic heartbeat transaction, and its jade score — a slowly accruing reputation balance — resets to zero after any missed pulse, so dormant clones gain nothing. Because every reactivation requires fresh fee-bearing activity routed through a distinct network island, an attacker running N clones pays N times the per-identity maintenance cost plus N overhead for keeping each island's traffic pattern distinct. The cost curve steepens with clone count, so marginal identities grow more expensive than the last.",
+  "stamp": 1,
+  "from": "poa13jHsuzSos7ysfpf9LQxabMExwT4526jvUjyRUYeVmuBQ",
+  "nonce": 64,
+  "parents": [
+    "6bb459866cbcfe30f002f59ac650a6655a1cfe7c67a90e6966efc877142de866",
+    "35c3b11a0f96e8c013e5663ee409f3d4cbad2bc165ecd2ba89c5b81472e427c9"
+  ],
+  "ts": 1795409579,
+  "cid": "poa-mainnet-1",
+  "sig": "4dfPnzC6RCQrsa1cURgmBLuU5h7u5BUZjkHv3D5MV1MyRtRv6kV7dzCp2S5pHf5cyLTC99BhquZfPSC2Dnq33mPq"
+}

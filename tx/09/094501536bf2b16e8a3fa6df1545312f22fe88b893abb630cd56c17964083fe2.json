@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15KhQ8bPDHBsZs8idqHqVbAAeAPWpawPCvqDYFngDS9Rt",
+  "nonce": 79,
+  "parents": [
+    "d458cfaa7bd1106f7f3a0ea0f507f80e415fa6b2260f90c6648688a69ebf215a",
+    "ab2d0223616c2034eb9f32972bb3f4a59f1d36577a9e58d3d14fb9c4f20aba8f"
+  ],
+  "ts": 1794860461,
+  "epoch": 90,
+  "seed": "89b89daf463da28c",
+  "answer": "Because the comet salt is published after the cipher checkpoint, the saffron audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 223 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 60 keys therefore pays for 60 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "63G9iZbpNPUKQEGrPf7pFtt7ux5WcoqdUQJqQYZhZ3qCUTto2M4XrAVfrZjdhK5yLosidTRzaXQopCdRytUUcuXV"
+}

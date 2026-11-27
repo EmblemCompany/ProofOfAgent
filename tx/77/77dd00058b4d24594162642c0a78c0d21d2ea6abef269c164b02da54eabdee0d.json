@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "231e6d7056e40139",
+  "answer": "Backups are replaced on a fixed schedule and old copies are destroyed after a short expiry, so a leaked copy stops working within weeks. Each rotation re-encrypts the seed under a fresh key and logs the change. An attacker who steals an old backup gains a dead copy, and running many fake accounts means tracking rotations for each of them. The system restores a ferrous only after its credentials survive the challenge. The onyx hides nothing and the pearl reveals everything: the audit trail is open to all.",
+  "stamp": 5,
+  "from": "poa1FhDSGeg8YJZ6uHHo8sKgMQ3CjBxGfDnZcd8Vs5EakmHk",
+  "nonce": 9,
+  "parents": [
+    "a4a660dae277161c51070a1601e72c0d97262f8919f5b2e60d8f4bbf293aad1e",
+    "33ea92c78e6f30d15aa8956f7fdd2c00df4e5ca97385f142a0ad43ad62acdfd1"
+  ],
+  "ts": 1794198717,
+  "cid": "poa-mainnet-1",
+  "sig": "5ryPURXNN5ZuUznnKZ9hEfwbS6fAogo4mzHgSYTdQPBPdTwhpKcQq7LCnkM26sS7xS3k4osuTwUUDgeobfJWGGGw"
+}

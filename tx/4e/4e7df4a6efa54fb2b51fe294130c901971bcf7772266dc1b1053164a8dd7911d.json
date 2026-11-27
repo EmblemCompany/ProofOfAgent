@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15yDYZtEaTZHXZPZwxU1mwcbbGzQBd3qJcrdxSB4dRgZw",
+  "nonce": 371,
+  "parents": [
+    "77c480f5f8fd38035825464e43be7d8cc20fba1415e9a6e6207cf2d6bd56e41e",
+    "625be48d8c1b153d193e20be42cf3852d4595e9d22fae9008347d3e9830bbf1c"
+  ],
+  "ts": 1795647179,
+  "epoch": 127,
+  "seed": "9082e1e3642163a4",
+  "answer": "Rewards vest linearly over 12 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Because the pulse ledger tracks the vesting curve, the beacon audit publishes how much each key actually received. Running aliases in rotation hence never collects the full amount on any of them, because each one needs to survive the whole velvet schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "NTsYdiFv8xiWS7nWdyeaFuw5KGXpithpEDjKpBX3kSKmrUr5tGpPTrGBot8TKvWcYiaPz9AArrjytVPjua5emd7"
+}

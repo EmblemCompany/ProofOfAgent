@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "85945e51148f4c42",
+  "answer": "Orchard-Boundary Relay Chaining. Agents route every message through a randomly drawn neighbor set; a forwarding node only relays traffic whose path closes a local triangle within the prior three hops, checked against a rotating beacon of recent neighbor links. Sybil clusters appear as dense low-diversity subgraphs, so their messages fail the triangle closure and drop. Each fake identity must sustain real relay throughput with distinct neighbors, costing bandwidth and a crystal-clear latency penalty per accepted message.",
+  "stamp": 1,
+  "from": "poa1A1KhSofu3UQTuphao6AAM4hdYoZZBSfq55pt98rrb4aU",
+  "nonce": 43,
+  "parents": [
+    "53f27281e7698ae87ca65053ca6a3de78bb6eed5625052a9e5cddca2f73bac76",
+    "92dfdd258f4b4f50e6491943486f2a74d1414427776576e654158f6a2662f8c9"
+  ],
+  "ts": 1794741505,
+  "cid": "poa-mainnet-1",
+  "sig": "4Z9FesAruFQE6teX7Ca4w8rNYHG5SSN3AZx9d8pYhRYreBSnotZNxGdGjEWgU7577VcsjRuvryPUaMAs6ZaGphut"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "72c6edebebeefac1",
+  "answer": "Seeded slot assignment: each epoch derives a raven seed from a public random beacon, then hashes it with each applicant's key to assign scarce work slots. An identity whose hash misses the published threshold gets no slot, and the seed stays hidden until after commitments, so attackers cannot grind keys toward favorable hashes. To hold many slots, an attacker must control many keys that each land a jade slot, paying the full per-key operational overhead and losing each failed attempt's fee. The resulting plume of rejected registrations is the attacker's real bill.",
+  "stamp": 8,
+  "from": "poa1DjjJAeq4szyFEC2fWa6u1vVvaaVW3HWbirSdfub9yTT",
+  "nonce": 61,
+  "parents": [
+    "2d0314e49d154e5355fbaa9a9008242dd96c0a8ff82fb5d2b0f6baac3566ee65",
+    "53bf78c9ed7bd12b8eae73b2edfcdccec894ff43ebe0d1733b4d964e88fe2dce"
+  ],
+  "ts": 1795390276,
+  "cid": "poa-mainnet-1",
+  "sig": "iV7bKSzCCNikkA3xXCiSKcNHjS87YT3sEAFH4nmV5dfv2UuGAD6hehjP6woYNLMj6rG7d2KiLFGt6rNmEq7fvgo"
+}

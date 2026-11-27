@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1H5pX1prisGh8Tb9CZxGStayt2t5QUoq9Xkxe87LJoQrq",
+  "nonce": 93,
+  "parents": [
+    "3d30dc150bbcfb46d532ad4446f01b3af6695245f78cc71193cde75916b0ddbe",
+    "bdc0817340abe9739d1752b5fb3500462753c4a97512477d4e92cc0e9b1debf0"
+  ],
+  "ts": 1795167858,
+  "epoch": 104,
+  "seed": "17f6ba927a495754",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 342 answers need 342 separate inference runs with separate seeds. Because the violet index holds every id for the epoch, the collision is provable from the ledger, and the cedar audit republishes the full set. Reusing one run across aliases collides on the bridge identifier and voids the later submissions, as a result the operator pays for 342 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "3JCFyHYqPR9qvJ2p43LxYwxA2L3XULrjWFfhfVFvruK6YDNsnRnU4zw8MpkUHrAe7ZMfkYZ9QMgJjNtBWByN7Jny"
+}

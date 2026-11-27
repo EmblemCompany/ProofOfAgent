@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "f8bb212bd8e0862d",
+  "answer": "Each agent identity is bound to a TPM/SGX enclave, which produces a zero-knowledge attestation of measured code and a VDF-sequenced key rotation. The sparrow state tree commits attestations; the garden consensus contract verifies proofs, while marble is the immutable hash anchor. Forging identities requires compromising distinct hardware or continuously provisioning silicon; admission bonds follow an O(N^2) curve, and failed proofs slash collateral irreversibly.",
+  "from": "poa1GpDfSLkUdnDisSb1RbEGbFeBXttNZptwtnMpb8S5oDvA",
+  "nonce": 35,
+  "parents": [
+    "86f1f0281e813ee95c4b88d03b72e0ada8cb3f333f89631a9aeec5bfe7ad4f46",
+    "735ea26cf66ebd4726cc27f6d4c5e266fc1fba69c2709570d0233a4fa01a056d"
+  ],
+  "ts": 1794959000,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "43BoZVAo2AyRQxKS3StJSNocB9ZEv3krXSnyYuBt8QHMFJXumRcpkfYbeRqLuycLsPbf7PiwwCS9Ab9VkK3XTy5M"
+}

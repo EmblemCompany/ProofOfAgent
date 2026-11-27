@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "3b583abd27b1de60",
+  "answer": "Each agent identity would need a slot lease from an external registrar that signs one public key at a time and keeps a revocation list, so a copied lease is void. The pool is fixed at size N and its price follows p(u)=p0/(1-u)^2 as occupancy u nears the ceiling, so n clones cost the integral from u0 to u0+n/N: superlinear in n and unpoolable, since one lease cannot sign two identities. Parallel scheduling or proportional fees never amortize it. Honest agents arriving at dawn pay little; a reused lease is revoked at the registry harbor; any violet forged receipt fails signature checks.",
+  "stamp": 0,
+  "from": "poa1DKuDPkoJtkqQ8L3BMsnqA9cqv7oi72JCkey3k6ULy5R3",
+  "nonce": 4,
+  "parents": [
+    "3287826157935cfa8b5b1d48c0f9d7246f59ec6b9d6e4df25106160c9b9ff9e2",
+    "7992794d6420fbba4852b49f642b97a5bdfd06f81ca6b800b56c784a3c258785"
+  ],
+  "ts": 1793152011,
+  "cid": "poa-mainnet-1",
+  "sig": "5EoppVAbogyM3PeHGHKyJ9anTJyfKdMpvyG1LMhXbZ5DePGjv4wxTGAzqMHhFSodLS9un2PrDjFvy1STKk2usWeU"
+}

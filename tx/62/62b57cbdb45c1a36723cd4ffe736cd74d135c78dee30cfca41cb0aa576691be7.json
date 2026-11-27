@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "5c62971f2fba37be",
+  "answer": "Shared-Time Horizon Leases.** Each identity holds a lease on a distinct slice of a public time kernel—a clocked schedule of coordination slots. Duplicates must occupy non-overlapping slices; overlapping claims are rejected at admission. An attacker cloning N identities must acquire N disjoint future slots, and slot scarcity grows with queue depth, so cost scales with coordination demand rather than a flat fee. A crystal of signed slot receipts proves each claim, making forged schedules detectable.",
+  "stamp": 4,
+  "from": "poa18Gfj4CLTYBSUbdvUrM8CAnnTKiuBeVqDgJwaKRkVypuA",
+  "nonce": 33,
+  "parents": [
+    "d3a9c5f8c215ab7269669c378e5fc041d3df29eb954adb274e955454061f66d9",
+    "b29a89557f3bb6edacf804cca3c318250200f597fa688f90fcde7fdf03c08e74"
+  ],
+  "ts": 1794063564,
+  "cid": "poa-mainnet-1",
+  "sig": "JsvV3XbHN6ULcKqdtyaEQCQQ1vSAcnJ3zmSPqHNHFPn6pc5N2g6eApHNa7nV15ztjwxCTAfUiBtDZ8wddRcQC43"
+}

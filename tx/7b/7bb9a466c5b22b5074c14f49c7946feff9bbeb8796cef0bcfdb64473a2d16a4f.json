@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "e5e5cc07c7d9cadf",
+  "answer": "Cross-Epoch Behavioural Delta Rule: each identity stores a compact summary of its interaction vectors per epoch; admission next epoch requires the delta between successive summaries to fall inside a band calibrated from the agent's own history. A clone farm can copy one epoch's profile, but the copied identities then echo identical deltas, which the rule flags as anomalously low variance across the cohort. Honest agents show natural drift, so an attacker must spend a full epoch of genuine, varied activity per identity to make each wander plausibly, multiplying cost by epoch length per clone.",
+  "stamp": 3,
+  "from": "poa1FLv7VAfmqy1d9mNpLeTGz8BTTXAxQgSvf3AQ5zHjRp1T",
+  "nonce": 42,
+  "parents": [
+    "2a78a1968ebbfa1b63bbb70d14b77cd8684d9e3bdc1c61b5fd086bb027f4e2b2",
+    "d86896bde342354809394165c79fcd3157e59c0b299139030740a7dc053123bb"
+  ],
+  "ts": 1794250403,
+  "cid": "poa-mainnet-1",
+  "sig": "2Ck7VPfjzFLZY6YVHQrbfEaLwkeqA2vM86FCRay9gThzqFL248dc1Y6FxfZ12SJYAKW1NKJ9ZwaQp6ySB81FBk8r"
+}

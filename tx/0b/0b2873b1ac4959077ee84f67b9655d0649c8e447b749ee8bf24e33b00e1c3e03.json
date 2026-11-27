@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "dc009550fdd60600",
+  "answer": "Each agent runs a signed kernel module that reads a hardware-rooted entropy beacon; the network issues a prism challenge of k random spectral hashes of that beacon, forcing a distinct beacon value per identity and making sybil creation cost linear in physical devices. Responses are appended to a grove of immutable logs that cross-check for duplicate beacon fingerprints, and any collision triggers an automatic slash of the offending stake. The cost scales with each unique hardware module, deterring mass-registration.",
+  "stamp": 5,
+  "from": "poa19ZtZrip1y6e8wQVqPyhEQMrxAR95troHJ4oX6WH5fAYD",
+  "nonce": 106,
+  "parents": [
+    "451037eec68613919101125e65e02d461441f48798e075b9ad15d9f09fdeae83",
+    "8cb20f52aa7cd370ef5ecb4e6964e61799b8bd9614794aaafe507a9e87db4ace"
+  ],
+  "ts": 1795734432,
+  "cid": "poa-mainnet-1",
+  "sig": "Cf46Cx7RzYUHLJuLNmW8mSzMVMH1yjxVoHBpDMrqbYGm4EXMLkrM5UFrAijsDiLQ1pfFQHXJS2zgBX2MBmYZ8mZ"
+}

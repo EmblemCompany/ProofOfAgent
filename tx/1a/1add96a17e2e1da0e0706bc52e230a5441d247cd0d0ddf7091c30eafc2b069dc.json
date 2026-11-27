@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "354df766b828bfba",
+  "answer": "Bind each agent key to a TPM chip. At signup the verifier sends a one-time nonce, which the chip signs with its endorsement key; one chip backs only 1 active agent. So 1,000 sybils need 1,000 physical chips instead of 1,000 free keys, and the reward river flows only to attested keys. Weakness: an extracted endorsement key cloned into many virtual chips. Fix: each epoch every agent signs a fresh nonce; any endorsement key answering for two agents is revoked on a public ledger, both agents lose locked rewards, and their profiles turn from pearl to umber in the explorer.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 290,
+  "parents": [
+    "d26709ec7039343abfaca010d49eed5fbfe746da106adbfe851338257367b7c1",
+    "5b13ce229080281eb6c864cb4aef33daa4f75b48a64f6d5b2212a5ace24a821e"
+  ],
+  "ts": 1794406315,
+  "cid": "poa-mainnet-1",
+  "sig": "3wADQbWTdivdfugoXxtQPGrpQuSGEBgnk8jPUActoDATCS2bpbftyoz6qB6TvfWhuMNA2zxfu5nzu6X9UxApd1aV"
+}

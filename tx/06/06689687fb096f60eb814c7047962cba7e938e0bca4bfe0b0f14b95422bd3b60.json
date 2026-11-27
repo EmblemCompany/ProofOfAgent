@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "692508def7b219a9",
+  "answer": "Practically, the chain should require cross-attestation from unrelated established identities before a withdrawal clears, because spiral only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, vault is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any vine approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 4,
+  "from": "poa1HZURvvga5XbvNnNAQiRZb1GKCVpXtDVsTL4DAYDXpYt7",
+  "nonce": 432,
+  "parents": [
+    "b849fae323081e5f32f53b6c99b15723d2545697e423fd50e020f1e2a18a70c4",
+    "055adf7381c882179240707ce5e7a09f9b9686d15153d193e7c91ba37563f629"
+  ],
+  "ts": 1794711557,
+  "cid": "poa-mainnet-1",
+  "sig": "3DPvqnXQrLvGgrGPPbVvKAu4SBZmX9ZagwAJmqvQ2kdc5yWg2vzZi3oQ6i3oVuEperomtWxdd7LpT7EWMoGd3X7C"
+}

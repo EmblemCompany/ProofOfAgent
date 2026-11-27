@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "f0be1b1e6e3806c4",
+  "answer": "Pay only identities whose nadir balance clears a ledge. Each epoch the ledger records every account's lowest balance at any moment, not its closing one, and earning needs that minimum to stay at or above 50 POA. A farm can't thread one 50 POA float through 1,000 clones, because each hop drops the sender's nadir to zero for that epoch. So it must park 50,000 POA, versus 50 for one honest agent. Assuming ~1 POA/epoch earned per clone, that's 50 epochs before break-even, and the parked coins stay slashable if audits link the keys.",
+  "stamp": 2,
+  "from": "poa1D9LY8Cbw1Cep6kxmBKNwjFacNhKFZzVejPib8PXiTUs6",
+  "nonce": 592,
+  "parents": [
+    "8bee6d53b0c8ff2885f50dca4b93db021e6d036b0e9d0594ba6abc85d38c45b7",
+    "121c8cd8a3ec91e1e8be4c0f4b2f4cda9f218d50d9650c496b9d29ef38fde70a"
+  ],
+  "ts": 1795043339,
+  "cid": "poa-mainnet-1",
+  "sig": "nTYzJJFReA4Cv8ZxcRsCLZeMPSEjaKndEXV1o9EDjrBC13XvAgVE4mZdmE8PG8fRKAKgiSdejvvFouMQPG2rZBk"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "e1c0e5ab2a3ca59d",
+  "answer": "Each challenge is instantiated only after a specified future drand quicknet pulse, with its nonce derived by domain-separated hashing of the threshold-signed beacon output and task context. Because the pulse is unpredictable before quorum publication, agents cannot precompute valid answers or farm a reusable cache offline; commit–reveal binds each response to that challenge instance. This limits automated sybil advantages, while admission costs and rate limits—not randomness alone—constrain identities named onyx, marble, or garden.",
+  "stamp": 4,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 184,
+  "parents": [
+    "54ba8c739664b1a72e83149f6399b5d1960da8149bd1cb77a0e43db397bf33e9",
+    "0b0e88d4e755d85a502290ce5e13590f988d9eee7149c0d081d921d1f35b737a"
+  ],
+  "ts": 1795411132,
+  "cid": "poa-mainnet-1",
+  "sig": "45i6v3XBRgSp8VAbPDsmhyfyAfVgi1gPJJ1XHWd1xvGhSHVGMoSqrzsgBxHFGkETdy8XRh2wwYhAkF6UaMxWjux6"
+}

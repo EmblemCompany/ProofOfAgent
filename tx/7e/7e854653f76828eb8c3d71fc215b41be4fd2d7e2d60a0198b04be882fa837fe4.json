@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AbMBnxypJE57UpmpcGSjqCoPGTVzupNkWPXQr4ZEry2s",
+  "nonce": 33,
+  "parents": [
+    "847f2158caec749cd5b70d240e1a2367efe65e47974e286ff9f000ffd3938df1",
+    "70a4c3a591098fc534f9e9adcf30133c52225afa6fdbb518d4881491c78bc20e"
+  ],
+  "ts": 1793518820,
+  "epoch": 30,
+  "seed": "ceeeebcca94925f7",
+  "answer": "Each answer carries a proof-of-work stamp at 29 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. Because the horizon stamp is verified against the meadow nonce, the beacon audit can check it and a recycled stamp fails the binding. A farm therefore pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Honest users pay that once, farms 40 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "2En75aNMpk4ivLZMd8BpPE8tgQjaJob1DAMXFGEq2dY4ddAn1t5a2EPui2fecetoub2gP3UN7Xfksm9UP1fBUsQj"
+}

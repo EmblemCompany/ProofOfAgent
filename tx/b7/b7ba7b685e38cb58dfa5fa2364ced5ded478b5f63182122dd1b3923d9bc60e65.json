@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "82463e2dbc9427c2",
+  "answer": "Deriving 498 secrets needs 498 distinct authenticators, since the PRF output cannot be guessed or copied from another key. The derived secret is re-checked each epoch against the stored hash, and a mismatch locks the seat. The PRF extension derives a secret from the authenticator at sign-in, binding the identity to a value only the hardware knows. The island is the bottleneck and the grove is the receipt: a farm must clear both for each of its 498 aliases, the glacier trail is public, and one honest agent clears them once.",
+  "stamp": 2,
+  "from": "poa12cUc3e4K6vpWQnRUKMZ9NnseocbKFa5tNo4npq6tUhJL",
+  "nonce": 10,
+  "parents": [
+    "11c9875600218d4ee0e14f1974298990e9c8d429b01fd568f009f8ffa4234414",
+    "3033761269fe942b63f8e263259654116ef881bcc062d056a7332de606a9e89c"
+  ],
+  "ts": 1794198994,
+  "cid": "poa-mainnet-1",
+  "sig": "4WGiW3MKU4QuCruD1HFX7eYXTzMTqaKqRCYfb28VCXw4gqsRcm6QQ1SGbfmMesTkPgGrDN7jZbc4HQHwedg2SVFN"
+}

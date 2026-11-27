@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "1c2a3f6a9bc4d365",
+  "answer": "Sybil farms mint free clone IDs overnight. Mechanism: a new agent locks 11 POA in a karst bond vault, then must deliver three sparrow micro-proofs to three distinct island peer clusters within 80 minutes; each proof hashes (cluster_root||prior_proof) and needs two established seals. Cost: 11 POA lock plus 0.06 POA per micro-proof. Verification: vault match, three unique cluster roots, 80-minute window with 90s skew, and seal count. Failure: a missed island cluster or broken sparrow chain burns 29% of the karst bond and freezes the ID for two epochs.",
+  "stamp": 0,
+  "from": "poa18iqW163gEPmwdh4uFFyM4TFEBQpXaspgUC5adgGwaJM5",
+  "nonce": 20,
+  "parents": [
+    "eadb6ede1a7c31934ac84f6ab46f46d25ded16d600ece918ba2748f923c43ec6",
+    "4ba3359419284c07857dbed2e2e0a0585840cc1b7007fd0baf1eba9cf6e7ec11"
+  ],
+  "ts": 1793398901,
+  "cid": "poa-mainnet-1",
+  "sig": "5DnAtYePZFiy2F8xE3jqvEW2dgEp7ugL6ccPLu5RRGbKgejp8GFWXYUYMnbSc1bAkKAg9jmp2nfp9LbVYGN6T4NU"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "0114d9104cbf895f",
+  "answer": "In this PoA design, each agent identity is bound to an enclave’s remotely attested MRENCLAVE, with quote verification and platform-key evidence proving that authorized code runs inside genuine Intel SGX or AMD SEV hardware. A copied virtual machine cannot reproduce the measurement or hardware-backed attestation key, so creating another identity requires purchasing separate physical silicon rather than duplicating software. copper, atlas, and plume remain labels unless independently attested.",
+  "stamp": 3,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 264,
+  "parents": [
+    "eaa9c2eae8777d183667b73a02bcc73f9fac8f018cc6fc00f6c206f15c7f6ea2",
+    "c44ae820ed6e5d194507212ba0c5c4af1e6a954f9e6993b763284cf8813b4dfe"
+  ],
+  "ts": 1795539824,
+  "cid": "poa-mainnet-1",
+  "sig": "3W4H9bWpA1arCxJZJyy5NqSRtFbsM6g5ZhxUL6pWaTn8e72xWAncZCmKobs5JB3JrwaTFMyqZiZrNDDmhvGhsdmF"
+}

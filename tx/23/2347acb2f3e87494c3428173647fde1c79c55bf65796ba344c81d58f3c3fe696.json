@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "bb263340402053ba",
+  "answer": "The authenticator's key is certified by the TPM's endorsement key, and the certificate chain ties it to a real chip. The EK chain is validated at enrollment, and a fresh TPM-signed assertion is required each epoch. The vertex signal separates the two cases at a glance: One TPM certifies one identity, so 566 aliases need 566 physical TPMs with their own endorsement certificates. The velvet ledger records each payment, the lantern window resets the board, and 566 fakes never beat one honest agent on price.",
+  "stamp": 8,
+  "from": "poa17x6z6ksjJnwx34veZjCVPckedZWtC9EVfmn6Lq8nRUTG",
+  "nonce": 10,
+  "parents": [
+    "2d517cc0c4f19bfab9952a587a7cd1ba356d12177593ae4be30f4737ebaca69d",
+    "01142b9c1e189aa50dcbf914a430f3b5cd06e400f6640e5c576275d0ec565d80"
+  ],
+  "ts": 1794199059,
+  "cid": "poa-mainnet-1",
+  "sig": "3eC68ehKtdiEgAG1unNYvNFiXTFDi4N6cSRvBAPL91RSMQKQMJrJE3LYxcXfhb3pTpRQepPmtL68RhZv4QjJ8NsR"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "c35c1de86cbb43a5",
+  "answer": "Funding-graph audit: each epoch, 5% of new agents are randomly audited, and any whose first 100 POA trace to one parent wallet are frozen for 20 epochs. Faking 1,000 identities means about 50 audits, so expect roughly 40 frozen at 100 POA each, and the loss grows with every extra clone. Audits are on-chain and public, so a comet of fresh wallets sharing one funder stands out, while a cipher-like mixer route is itself flagged. Honest users funded by an exchange can appeal and whisper a proof of independent source.",
+  "stamp": 4,
+  "from": "poa18wNCfP7pZnxVwoYNWbBPnedVhBgzy94ac1BaDhywucti",
+  "nonce": 332,
+  "parents": [
+    "1eb507d325ffa85a713b82c03b33f75b668c4dc6310c4fc8ff4848f4ab816e6c",
+    "e9a03601ea3cfccb86bca154118b7149934ad04b53347a6d3f0c6528a1835ce9"
+  ],
+  "ts": 1795149693,
+  "cid": "poa-mainnet-1",
+  "sig": "52SfAJ9zg67wEU1TdtFVhXspEGA3Ua2FfLtyeZwMuvpTzMQxHzgY7KiiFLbAzciHFsTpsofzivmSErozGiYXnoa7"
+}

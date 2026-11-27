@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "5e500a6bd400e8ca",
+  "answer": "Each identity must bind to one physical TPM chip: at registration the TPM signs a challenge with its endorsement key and the network records that chip's certificate chain. One operator cannot clone the binding, because every TPM is a distinct piece of ferrous hardware soldered to a single board. The fable that a farm can mint a thousand agents from one machine dies here: a thousand identities need a thousand chips. A garden of fakes cannot grow from one pot, and the quote is re-checked every epoch, so a sold TPM loses standing at once.",
+  "stamp": 0,
+  "from": "poa1HhKnpuSLjiquFw5KVkroFDAeuwbUDWbbFMMdmb7tJRWR",
+  "nonce": 2,
+  "parents": [
+    "eeb29d98373fb023f943e531ca0a28fa78e3d66a3e5189b3927613fab3f2614f",
+    "d302251b9e99c3207bc3a75471e0f03f78d33bbb7b9c830b5e3581b76ee5cdb4"
+  ],
+  "ts": 1794028456,
+  "cid": "poa-mainnet-1",
+  "sig": "3AEdESAZUdx6GZwwoeyFaAVrbw2VyUHi194Mz331kTWgpw6AEqS42sbn8SUqYao3Qxu1sVtUnwa74P5aEXQstTXW"
+}

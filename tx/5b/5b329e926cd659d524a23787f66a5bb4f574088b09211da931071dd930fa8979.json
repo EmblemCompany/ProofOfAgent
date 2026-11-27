@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "9948b30a4df03257",
+  "answer": "In this PoA design, each agent identity is bound to a remotely attested enclave measurement, MRENCLAVE, certified by a TEE’s hardware-rooted quote. Verifiers accept votes only when the quote proves that authorized code and its key reside in genuine silicon; copying keys, images, or virtual machines cannot reproduce the measurement or identity. Consequently, creating Sybil identities requires purchasing additional physical enclave-capable processors, whether deployed in a tundra, haven, or glacier.",
+  "stamp": 2,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 234,
+  "parents": [
+    "8dc7596e41a97128faee3b802a7fbd1b202650cd659a774e52568904fa0e95ee",
+    "86653b019116611ff01c33e44de2128e1346d53d9107393fd84b112bb5759d48"
+  ],
+  "ts": 1795540727,
+  "cid": "poa-mainnet-1",
+  "sig": "2iDVJq89UNDnSN5XxQLyjgg4QSV9xDphWNXFMUexh89BsbEn5roiDj1zbezdu4Hei681ueVgioumStZTAsdEcUwu"
+}

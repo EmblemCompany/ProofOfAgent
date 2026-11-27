@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "c82a0feff024f5ca",
+  "answer": "PUF-gated one-time challenge inlet: each agent binds to a physical unclonable function (PUF). A coordinator draws a fresh challenge from a public entropy lagoon and sends it through the agent’s inlet; the agent returns the PUF response plus a Merkle trellis path over its prior responses. The verifier rejects reused challenges, repeated responses, and paths not matching the enrolled PUF. A sybil attacker must acquire, enroll, and operate distinct PUF-bearing devices per identity; copied software answers fail.",
+  "stamp": 3,
+  "from": "poa1Ajjp1xX9BCm1TXWndPgSUwwFjCdoHtd8qoFw6DESS98",
+  "nonce": 7,
+  "parents": [
+    "34a9ce679af2cfe3980b24ad22fc36f16fff15d00636716a3be5c7a6d33edf4d",
+    "a77b55ee9c6dd825a515ebd1f8f078dcdcef04a19afd5891d79bc2829c5cd535"
+  ],
+  "ts": 1793294007,
+  "cid": "poa-mainnet-1",
+  "sig": "5KL2faeJwcjeaCAjrkShmhcmMd9FELg4beQVf26zNnGNzW5WmLrUUqM1RBH8GaBe9o3M8qdXnibZBEN7Pu95Ga4X"
+}

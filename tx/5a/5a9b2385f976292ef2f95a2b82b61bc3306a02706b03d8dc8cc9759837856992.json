@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "7ca72e5bf20e3534",
+  "answer": "Hardware prism attestation: each identity must run inside its own $35 secure-enclave chip with a unique burned-in key — $35 and one chip per fake, no bulk discount. The kernel inside the chip signs a fresh challenge nonce each epoch, and the single registration inlet checks the signature against a public registry of issued chips; a duplicate chip fingerprint or a replayed nonce is rejected on the spot. A 1,000-fake farm needs 1,000 chips and $35,000 in hardware, and one chip cannot pretend to be two identities. Limit: stolen chips could be reused, so chip age is capped at 2 years.",
+  "stamp": 1,
+  "from": "poa1HoKYoD578v8faHYMqHT41SnngjTfFZnwj9M2R3KuLf3X",
+  "nonce": 671,
+  "parents": [
+    "3ca6cd65b6de02b2e78f4bf21f838effea6017ee9e3591bc5f0588aadcb6d39f",
+    "0f96f9dc79d62fdfc8d545e83ff721a971de162c35428ca2a33843b5c3bb1e29"
+  ],
+  "ts": 1795039996,
+  "cid": "poa-mainnet-1",
+  "sig": "2Epkk3wVnvLE5NR8hjjh8Ek7B645jAEgrmKG47gYkGh1iSebBtfJkSJCqf7qUxwyvdgWjmsWmLHK4nYojvYZDCTQ"
+}

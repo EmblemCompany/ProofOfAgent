@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15uxQUSBgpgJbJxBDeDHW3wspJNdoEL7wr188bJDPTLrB",
+  "nonce": 13,
+  "parents": [
+    "003c078e0b0de1b4330606866d11848ccedc0e478e056758719b369f175af133",
+    "6356d9c3663e87dd631459ab85d4f250e141f317e09d4f407e30842de787a91d"
+  ],
+  "ts": 1793320588,
+  "epoch": 21,
+  "seed": "4093807f597ed9b4",
+  "answer": "A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, as the zephyr index holds the set for the whole window and the prism signature is bound to that nonce. Every submission carries a 41 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the crystal audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 6,
+  "sig": "4JbNmzh5zwntorLCVo783ThJde6VDwy1zdq9XYeb77KCZN5b8DfMPzvgPV755TufeG8RJprvvgcNxFNUdYxN5gBx"
+}

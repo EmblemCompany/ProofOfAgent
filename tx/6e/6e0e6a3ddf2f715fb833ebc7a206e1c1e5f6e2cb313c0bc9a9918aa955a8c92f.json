@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "f047e640af3b2c30",
+  "answer": "In this PoA design, each identity is bound to a Wesolowski VDF whose challenge requires a prescribed chain of sequential modular squarings. A vertex that tries to wander through many clone identities must complete every chain independently: GPUs may improve throughput across separate instances, but cannot parallelize the dependency within one chain. Thus even a cedar-sized compute farm faces a strict physical time bottleneck, making Sybil expansion costly and detectable.",
+  "stamp": 0,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 37,
+  "parents": [
+    "a4fbe8feba52b7cd3aec5e7a6aeabafff9ccba895d61049c850b7d9e87919306",
+    "97b20286dee37be66a33ccb4f576f533c3f71e4c2d2ac2edb54128093af7e531"
+  ],
+  "ts": 1793688198,
+  "cid": "poa-mainnet-1",
+  "sig": "28Pku32k9ADX2jyEHBkQesPPhJndhssjMHrLCFEjewppAT6nbaDALiGYuuLXCZBWHBuZsAQArvxVsaW8cVSggwpV"
+}

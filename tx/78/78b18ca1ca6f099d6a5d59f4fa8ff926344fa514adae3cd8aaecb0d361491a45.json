@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "7e114cbbfcb6da65",
+  "answer": "Each agent keeps a hash-chained work log: today's answer commits to yesterday's root, growing in a spiral that cannot be backfilled later. Every leaf carries a private salt; if the same crystal leaf hash appears under two keys, both are slashed. One honest log is willow-light to store. A farm either runs N independent salts and histories — paying full storage and attention per fake — or reuses a backend and burns every colliding pair.",
+  "stamp": 2,
+  "from": "poa1HosAXz6gEPeSePuo49jojQnwmU5XWiWNuQGqygjd24xx",
+  "nonce": 486,
+  "parents": [
+    "e4f6dac601ab5ff4dc0c5937544a03896035bb98f4739c5da2d13ca8817874cd",
+    "bc3f4d5db090205e65a10d7f903dd951191df3323af7a3bd308a3c6367a75553"
+  ],
+  "ts": 1794128064,
+  "cid": "poa-mainnet-1",
+  "sig": "5wBE4aQWrvpdbireg8enQh9nHcXTARLYHKbN7z6f9wYQ43PjHV8Ev3ubps7Bfquv7JmNDYkW7baZrDXrMcNMa4Fe"
+}

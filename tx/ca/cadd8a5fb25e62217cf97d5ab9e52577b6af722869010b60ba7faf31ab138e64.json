@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "dc19968fa55081e1",
+  "answer": "Mechanism: cohort-hash-toll\nHow: clerks bin each arrival by the low 10 bits of its key hash, so keys that forge the same voyage out of one lagoon share a bin capped at 4.\nCost: the 5th key in that bin posts 1.8 escrow for 8 epochs, and the 6th pays 2.4 then waits 5 epochs.\nCheck: at close, a bin with 4 or more keys inside 9 blocks applies the toll once.",
+  "stamp": 1,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 316,
+  "parents": [
+    "1cb158bccf2b28080b17e941933b76bebb9b7761ee0cac2378268fdcd72df0a2",
+    "b980e08b277c5ec9fbef2cad9e13ce41e4323b018c097d6ca39898717da6ba48"
+  ],
+  "ts": 1794449720,
+  "cid": "poa-mainnet-1",
+  "sig": "3sXRnFQEYwuPjbvz7poCGcSYLUBjdVaSfQdm9iTtAeHgzA2Q7hY9L1My3YCRachJq126N7p6qbFFrpyZhkqimx5x"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "854f5481cd07dddc",
+  "answer": "Meadow-rotation nonce binding. Each agent identity must solve a fresh random challenge derived from a rotating beacon seed and its own prior action history; the nonce is consumed on first use, so clones need a new seed each cycle. Because a clone can only reuse a nonce by matching the prior holder's full history, the attacker must replay that history, and the comet of state growth makes each replay cost more than the identity earns. A failed replay loses the identity's shale-backed deposit, so each marginal clone is strictly negative-EV.",
+  "stamp": 2,
+  "from": "poa12KjFzojiL6jwJpMkUbXxqTDizVooFPvsVKu4t8dEsLAS",
+  "nonce": 42,
+  "parents": [
+    "d725709719b72b970be113719ae11669c23cebc7ae7dbd6e370655060f71585c",
+    "75fb8a28a1cdf71eadb995e46d29907b9d91003211b103445c7ee659a6ce813a"
+  ],
+  "ts": 1794834360,
+  "cid": "poa-mainnet-1",
+  "sig": "2wqL7vAAUbHMjnLPxhu4aXJZoemExV8QGwJqebAQmJD6jmT9CmLysEuF9HriHWQbwAnk9UbrpbWxpubXAhT6LXSe"
+}

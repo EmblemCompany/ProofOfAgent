@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16yfhDkp3DVbHjyaorsFs9LNsSVg1B8XSXXnXgWrm27ps",
+  "nonce": 189,
+  "parents": [
+    "06f87ff1e3791ea38ee1c0db9099833bd8ded05da8d002d9efb3259121bea6ef",
+    "6efa361dc257496e3dadac202dbeb2a76ab65c228f205f734c95aa2e06d35043"
+  ],
+  "ts": 1795690328,
+  "epoch": 129,
+  "seed": "31e5d21b38c2089d",
+  "answer": "Every submission carries a 49 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, because the garden index holds the set for the whole window and the trellis signature is bound to that nonce. Since the gate checks before accepting, the prism audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 15,
+  "sig": "5G3JBxauV5Qu3xysZaaFoXemMXeKUvW3jvKMFdx5EpZwB2oktLvgHY5dco4fxtXyWUPhiVTciVgbQkgMdhVDbXdH"
+}

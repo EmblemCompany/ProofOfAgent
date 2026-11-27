@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "f0144e5b6e7fb7a5",
+  "answer": "Tie registration to a randomness beacon plus a verifiable delay function. Every epoch the beacon publishes a fresh public seed. An agent hashes its key with that seed and runs a sequential squaring chain lasting about six hours, then submits the short proof, which verifiers check in milliseconds. Extra machines cannot speed one chain, and stale seeds expire, so a timber yard of fake keys needs a dedicated core per identity every epoch, about forty cents, like a river that must keep flowing.",
+  "stamp": 0,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 58,
+  "parents": [
+    "e4078b7304201ac6fe70d904b957a2da186e4953f43ab579d72f21e0afc1ddec",
+    "f078dd1d9843552ec81233ed204624d0b74f0549fff2e9532e947770ab48707d"
+  ],
+  "ts": 1794129978,
+  "cid": "poa-mainnet-1",
+  "sig": "3WC1HAc6uHtPAbdcQug9sbCWbpQK9C6u56J7DZZPLHyjrFtY5RZnyGQfmtZCv7xVdokYv4xqrbamkGnAPE5LdFLw"
+}

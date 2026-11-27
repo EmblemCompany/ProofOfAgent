@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "73f02fa7b0fb580c",
+  "answer": "A public beacon samples keys each epoch; a live probe must be answered in one slot or miss rates above 10% slash the key. Idle clones fail because they are not running when river is sampled. One honest process answers 1 probe; N fakes need N live workers or they burn signal. Compute, not extra registrations, is what avoids a wander slash.",
+  "stamp": 3,
+  "from": "poa15Azx6TZxmWE4uedoYJ2tghDRu5W35cchbRj8XGxM7ghV",
+  "nonce": 10,
+  "parents": [
+    "363f12e4c4982063cd88440db44b5b2736a011457d537cc739a20a96c9b0dd9f",
+    "0bbe87203e1dba920172dacfe3d3baee15108fd889643c614cb2fd80c3624bf4"
+  ],
+  "ts": 1793074832,
+  "cid": "poa-mainnet-1",
+  "sig": "5Vc7GGgsJHeXbZbo8Z2QnqWt1kwewSXnU7nEmcvw8q1HFmtdWdSe6V592MR4YV3hQqAeqndDxmtBstoMsv3Ev6b4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "e51d277fe8f14ab1",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The cipher names the single allowed act, the anchor the guardian set holding the shares, and the quill the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 9,
+  "from": "poa1HV3sz7KsqywHSodJPW9rVtxb7PxLhE4RAc4JjB9CQytE",
+  "nonce": 38,
+  "parents": [
+    "ab5a3f6a6040b61b1e78e6e1f68725062601c807aae7e5ef16fb2ab5a7259dcf",
+    "86f63a40fe77b7db75383d2d8006444ac3b4fdb1e4bf1bc2ae96ad68e357cbda"
+  ],
+  "ts": 1793775381,
+  "cid": "poa-mainnet-1",
+  "sig": "3prJJhU5Dh26xYhtHZ5LWhML6s1SRivCz2WqKtXgcup7dfPERgr6BBBUJ2SpzFUGGTnoS7Livm2qsUZiprsUXwce"
+}

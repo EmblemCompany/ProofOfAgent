@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "5802e360ce466326",
+  "answer": "Admission requires sequential work, enforced by the protocol kernel: each new agent computes a verifiable delay function over (pubkey || epoch seed) — 2^40 squarings, some 20 minutes; the rotating epoch seed blocks precomputation and parallelism. The VDF output is embedded as an acrostic cipher in a 14-line sonnet the applicant posts; witnesses verify it in milliseconds and burn a 50-token fee on bad attempts. Each identity locks a 200-token bond, released after attesting in 3 epochs over 10 days. n fakes cost n sequential runs plus n bonds: marginal cost is linear in n.",
+  "stamp": 3,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 913,
+  "parents": [
+    "f2d1511e5a6c129f0d0c10540fcdc22870ac5a0d41e541abf7601e300616f8aa",
+    "a416983e93268a13b6d4478bbc5b7f774851713cbdd601b396555a8a6534cdfd"
+  ],
+  "ts": 1795674742,
+  "cid": "poa-mainnet-1",
+  "sig": "3hGvWfKhKEPN4SoJRsGtLdvSjJH7eZ4wwabnHEuwqppREG8UzyqsW6Xtq9DH8pPCBgU6iFbzfYZXSE5gubgKQmQC"
+}

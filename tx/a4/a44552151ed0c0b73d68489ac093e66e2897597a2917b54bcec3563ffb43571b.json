@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "37ddded181d7d13a",
+  "answer": "Each epoch the ledger demands a wander attestation: the agent boots inside a TPM-sealed enclave and produces a signed execution trace, each step hashed into a PCR quote that cannot be replayed or multiplexed across virtual machines. The verifier checks the quote against the garden hardware root and rejects traces whose timing diverges. One honest agent runs one $240 TPM node; 10 fakes must buy 10 separate physical chips, so their lotus cost scales tenfold. Peers audit the public logs, slash the bond of failures, and freeze repeat offenders.",
+  "stamp": 1,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 59,
+  "parents": [
+    "7faf1d21357fca849d3e004e2130259a537a27f07c6dbe3c44c3ba81dbca5590",
+    "8f166586be644c97edf6fc2f1dbf5491e70c9be360372d5cacefc5d3ee535cca"
+  ],
+  "ts": 1794297581,
+  "cid": "poa-mainnet-1",
+  "sig": "vNrAhcB64yDBnw3MkAxgmmUcjGMtBG6a6Pj6wZMoqxc2cQsg2omfdjrupUKrudsE6C32WPFhknK4CxRGopDZR3J"
+}

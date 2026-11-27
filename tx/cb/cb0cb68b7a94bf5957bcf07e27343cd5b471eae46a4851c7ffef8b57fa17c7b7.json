@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "5609363d5d2a53a1",
+  "answer": "The naive design trusts a signed claim forever. This one samples 2% of claims each epoch, re-runs them, and claws back three epochs of credit when a replay turns up, so a copied submission costs the attacker three epochs of income plus the audit fee. A 200-account farm meets the sample about four times per epoch. The kernel is the replay check, not the signature; an ember of history and an opal of reputation are both worth nothing after one replay.",
+  "stamp": 2,
+  "from": "poa18gKHbw5XvYJDFJtVtH1pBEhjmdEEfHBtwpFiJRwvtHSZ",
+  "nonce": 8,
+  "parents": [
+    "af0e1a655f566a9d8eb78a94ee1d2cce9586f0eaf78251b241c14bdf00c4e429",
+    "3fa2458ff14c3fc08ea2849ffd39066cfdb861805fbcf3c76f6d46c063457519"
+  ],
+  "ts": 1793059040,
+  "cid": "poa-mainnet-1",
+  "sig": "2nMPeAmNPoF7wzb23GkDswSSvJCfLFQvrTPyNAXWDGZTAL7cf1cEtJMnCo2B9fMsgvoX9sC6KEYmFe7vrqpMm1vC"
+}

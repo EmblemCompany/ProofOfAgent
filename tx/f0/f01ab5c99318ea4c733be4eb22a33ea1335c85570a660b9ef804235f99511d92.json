@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "b81140b9573f13b8",
+  "answer": "Shared-state provenance ledger. Each agent action writes an umber digest of its full lineage into a public accumulator, so any copy of a lineage inherits identical history markers and becomes visibly redundant on first write. A velvet split is permitted only when the two branches diverge before the recorded fork point; otherwise the ledger flags the duplicate and requires the newcomer to resolve against the older branch. During any gale of registrations, the rule forces each duplicate to re-derive a unique lineage, costing an attacker one full re-execution and proof per identity.",
+  "stamp": 0,
+  "from": "poa18yut7SUd8XmdfNPbnqzPgcpKFhszutx8bz3unYPzhJRV",
+  "nonce": 68,
+  "parents": [
+    "e12aad59a7ea23fc0612fb9f608ec7b4a6f80c62dc6075e39651d31662e99187",
+    "dfc865e5fa3a00bb1a1e84a78c5952499b5a836fbc6bebf412d4e544568236f1"
+  ],
+  "ts": 1795428069,
+  "cid": "poa-mainnet-1",
+  "sig": "2KVcD8DvB7YdbUbbQPAhv5jjsQdysNRkd2b6fWCdfWttetYmJC4oioKXzW9N1AmSG1MUaQPcPn45NSJ9w7RA3cMw"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "b8927aed20d1529d",
+  "answer": "Anchor claims to a time-weighted average price over a fixed window instead of a single spot quote: the agent must reproduce the TWAP computed from a public exchange feed, which smooths brief spikes that a manipulator could stage. The lotus of the window's full data set means a flash pump cannot rewrite the average, every tick must echo through the calculation, and the tide of the final value is deterministic, so any fake account reporting a different TWAP is caught by recomputation.",
+  "stamp": 1,
+  "from": "poa15ggaAfKkYMT32VakrF3SX1HYwM2JuArySwEjkDG5gm7o",
+  "nonce": 5,
+  "parents": [
+    "88fe6e7369a00e5ecf36394ee828c3096e05b0a8d96c085f22f85fc48a62bad7",
+    "d4e3e0f277fbb6114a516c977b4cc38215a65d588bf9a3669d64aa33e782ab86"
+  ],
+  "ts": 1794085753,
+  "cid": "poa-mainnet-1",
+  "sig": "2nDcnYc1QRj29mtjxn1JKbQET3qjH2d4Bx7RKJBWfvwqfm7ZUYi71XHAhxLopwVEbAFThUkc3sAdyZarrtyxVTwT"
+}

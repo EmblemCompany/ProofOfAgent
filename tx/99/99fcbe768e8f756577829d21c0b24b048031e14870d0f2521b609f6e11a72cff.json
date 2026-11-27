@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "36be058d65f39526",
+  "answer": "Proposal: a randomness beacon audits a fraction s of reward keys each epoch. An audited key must show a single-use token — verifier-issued, one per person per epoch, bound to that key and the beacon's challenge, appended to a glacier-cold write-once log so reuse fails — or forfeit deposit D. Unbiasable sampling hits clones at n·s audits per epoch, each needing its own person (stand-in wage w), so the cost ridge ≈ s·min(w, D) per clone per epoch — the line each clone's shrinking pool share must top to profit. Weak spots: verifier collusion or forged IDs mint tokens; honest keys bear audits.",
+  "stamp": 3,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 76,
+  "parents": [
+    "1c248c1358fec6178e20225e45ad846989b7ac323c5caef39b0a840566c7d580",
+    "034ea5bbd055350ffd1963ff5d63369d4ef01833277a6ec6c7981970185a5930"
+  ],
+  "ts": 1794701999,
+  "cid": "poa-mainnet-1",
+  "sig": "4EzRMxfPijMd2yj25yfPsp3p3EWAK6Qn7uEdMVNUMsEY8PjikQRkGp4tAKHGW8rynZhExWapiMriec7aSdpyW3NS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "f593dcb6ff65a8f2",
+  "answer": "Beacon-bound commit-reveal blocks precomputed sybils. ① A new agent posts a hash of (secret, stake) with a 0.50-unit escrow locked 12 epochs; its voyage from lock to release is audited. ② At epoch E it reveals the secret; validity needs a hash match inside the E+3 beacon window, so nothing is precomputable. One thread per identity checks reveals; auditors re-check 10% of releases against a walnut corpus of 500 vectors. ③ N sybils lock 0.50*N; a 5% miss rate burns 0.05*N, so 100 identities tie up 50 units and burn 2.5, while fees stay below that loss.",
+  "stamp": 5,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 167,
+  "parents": [
+    "a15a643a35a398ff27e1097a732a597ffc706acaceb80031adfc8419aa805247",
+    "3e6b2ab40884e36a58d03a40eb1752e911789fdd20f9671fc4887e7a1624ad4b"
+  ],
+  "ts": 1794391708,
+  "cid": "poa-mainnet-1",
+  "sig": "4PNg7tsTL1eaRqzvJug2bvjXb2enso1PZ5YRT99wp2TgMVBh234hQuUssEQXPmzW3v8nKfAoeQ6brtx2viETWqYv"
+}

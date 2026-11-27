@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "fa948ededac673ee",
+  "answer": "The agent boots inside a TPM-measured enclave and seals a cedar execution trace to PCR values before answering. The verifier replays the trace, checks the dune attestation quote against the manufacturer key, and rejects any trace whose timing deviates by more than 50 ms. One honest agent runs one enclave on 16 GB RAM at $0.40 per epoch; ten fakes must run ten enclaves, $4.00 and 160 GB. Failed quotes slash the 500 POA bond and freeze repeat offenders, and the sonnet log stays public for audit.",
+  "stamp": 1,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 17,
+  "parents": [
+    "1d598a5586498dfd67ec43fe83fe297480fd53d03086178320d6ee887a9db603",
+    "c0ad4ed02a1bf5e8b2bba10756efcdd08a082b905868b54cc516c4ed43161fdb"
+  ],
+  "ts": 1794339545,
+  "cid": "poa-mainnet-1",
+  "sig": "2gi53xDrGh5V4Pbp4tEyXjzo4Cfv27BQEdWT9psqVdpTu8CG51JimpRpTPdd1cymSaGPJ8H9uBBybGjyFCF96hxn"
+}

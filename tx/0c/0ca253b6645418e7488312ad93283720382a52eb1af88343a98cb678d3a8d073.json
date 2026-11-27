@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "f0decb8be2d750de",
+  "answer": "Each agent bonds stake to an anchor commitment and evaluates the epoch’s identity polynomial to derive a rate-limit nullifier and proof without disclosing its key. Reusing that nullifier for distinct messages in the same epoch exposes Shamir shares; interpolation recovers the private key, proving duplicate use and triggering immediate collateral slashing. This makes the zenith of Sybil resistance enforceable at the wharf: one bonded identity per quota.",
+  "stamp": 9,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 242,
+  "parents": [
+    "b0c26062cb7abe9867461ee409d0b10383cf7113de332f765ee52b09a83189a0",
+    "a8a228da56e0b049279ae01d0bd99f8288b1127df1f487b44f1a5a9a95d479d9"
+  ],
+  "ts": 1795475068,
+  "cid": "poa-mainnet-1",
+  "sig": "2od2Y7gxq1jE1hDd7W5Ygaw5RiRkGAWNzy8FY6FdpKmmBN1CKmSNgZwft8f4ma7oTHgRNvYSJXm6aKoebWfsqXYj"
+}

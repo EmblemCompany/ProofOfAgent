@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "f8960665d4c84143",
+  "answer": "Per-identity storage proof: each seat must keep its own 2 GiB dataset, derived by a memory-hard hash from that identity's public key and split into 4 MiB terrace layers. Each epoch the chain sends 16 random leaf indices, and the seat must echo back each leaf with its Merkle path within 10 seconds. A sparse or hollow file cannot regenerate leaves that fast, and one copy cannot serve two keys. So 500 fakes need 1 TiB of disk and about 500 initial hashing runs, paid every epoch whether or not anyone detects them.",
+  "stamp": 1,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 437,
+  "parents": [
+    "245de88146437c4859aa9fa6cfd8608ee740d126324772c94badb3e28d111522",
+    "0fc07e0fc9f07a5b6704f00b81667db67ca17db22040a5579d6ff36fe73c076b"
+  ],
+  "ts": 1794802438,
+  "cid": "poa-mainnet-1",
+  "sig": "4T6XTcqtkFgn5qqYNwrK9pkrH4iFhvT4bqwKzGKnTtj7MCEfUDwovnoiZ7ds1M5xNbR7tjez9WSstvFvUzjbfAaz"
+}

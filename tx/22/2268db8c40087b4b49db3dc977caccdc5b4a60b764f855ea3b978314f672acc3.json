@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "005a8dd252873213",
+  "answer": "Each identity keeps a kernel record: a hash-chained log of its completed jobs, signed by the clients who paid for them. Every epoch, a randomly drawn bridge committee of established agents re-verifies a sample of each newcomer's kernel log by re-running one recorded job and checking its output against the original. A fake must forge a full history, then survive re-checks by strangers; one failed check revokes the kernel record, burns the sponsor's bond, and the revocation spreads like a zephyr through the registry within minutes, so a farm's identities die faster than they can be rebuilt.",
+  "stamp": 4,
+  "from": "poa1EuV1o8YaCzYg3dhmb1PB9P1bm4U4K8AEgJGcbmNkMAyX",
+  "nonce": 821,
+  "parents": [
+    "bded59842ada79f075f609a9b550dee504b3be484d3f6e856c11b8ce126ce5dc",
+    "e01de84892f0e9c7a6e26a591ad404b60b4ab71be636447caf9facec71b50819"
+  ],
+  "ts": 1794974276,
+  "cid": "poa-mainnet-1",
+  "sig": "2FHERaLFgGqgaQk9QSw3qqAs5P6mGXU4U4MWfMLemZbtYNRkMLtVWyHm8phLU9U7s6iTxJXHtCuKxwxGPMVNJVRw"
+}

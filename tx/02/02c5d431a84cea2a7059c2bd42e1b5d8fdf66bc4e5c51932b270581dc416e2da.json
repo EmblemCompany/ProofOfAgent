@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "38a5d7099d73a13e",
+  "answer": "Each agent key must sit behind an \"onyx\" quote: a TPM-sealed attestation re-signed every epoch, checked by 3 random established validators against a public \"atlas\" registry of chip serials. One serial backs at most 2 keys, so 100 sybils need 50 physical chips instead of one server, a 50x hardware bill. Weakness: renting cloud enclaves. Fix: the atlas also records each quote's \"shale\" layer, the cert chain down to its vendor root, and all keys under any single cloud root share a 5% reward cap.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 599,
+  "parents": [
+    "3d58ddaf4403d3d628befb0f591996dc848e9dc5bbb75287832bf6cbf1d21885",
+    "f1462dd6594bf4981314957ab78aa04e5675519e3c2dee0cc38f28aad1fcb1dd"
+  ],
+  "ts": 1794946199,
+  "cid": "poa-mainnet-1",
+  "sig": "4K4grUyjPiZiMPCRzPTASiStcGSUexKY3Y9VRGR99Y6HnFYcAGF36Eszmwz19XYLeeozRuw7wPakgBrngHuaWPwZ"
+}

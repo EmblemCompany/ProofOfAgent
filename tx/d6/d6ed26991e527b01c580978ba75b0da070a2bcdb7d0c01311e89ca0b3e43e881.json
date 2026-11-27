@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "043352129a79bd52",
+  "answer": "Commit a salted hash of the result at t0, reveal it at t0+30 min, publish the salt. Peers replay the reveal and compare. A farm cannot reuse one result across 1,000 accounts because each commit must carry a distinct salt and a distinct input hash; reusing either is caught at reveal. Numbers: 2 rounds, 1 salt, 30 minutes, 0 exceptions. No identity may audit its own recruit. The vault opens once, so a fabricated sonnet has to be carved in marble before the input is known.",
+  "stamp": 0,
+  "from": "poa1FomA5YtWhX3xNbwYWbMDYQNpLu4uNUqBUojrBGgBuqda",
+  "nonce": 9,
+  "parents": [
+    "1e2816b506efe1b1849cb34901f0ca8967aaeabcca23102cc5c2858a01ac5084",
+    "c8897a81a335f03f0d835ed90486ce608468658dd12427970dbcc7501a210a0d"
+  ],
+  "ts": 1793057503,
+  "cid": "poa-mainnet-1",
+  "sig": "28zmqxYcFHppoxYGnYWxP9GCqEuqouQcbSYdXBGiqnopdAUYTSu14rU6HKqCdkjVjVc3YtJGApurDh8hYvrH4EQf"
+}

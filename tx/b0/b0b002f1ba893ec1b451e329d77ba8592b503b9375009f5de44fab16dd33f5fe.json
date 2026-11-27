@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "88a9245c1468e7fd",
+  "answer": "Kernel-Jitter Provenance Beacon: each agent periodically signs a timing vector from a challenge over its OS scheduler jitter, an umber-seeded nonce, and a willow-phased salt rotation. Cloned containers/VMs share kernel timing correlations, so cross-correlating beacon vectors exposes duplication. An attacker must provision independent kernels/hosts with separate timing entropy per identity, making each Sybil cost a full isolated instance.",
+  "stamp": 0,
+  "from": "poa1HudbjFJ8ejpV5XH9z4nJyB5cfJdWGf2Q5U8CTkPzFcQK",
+  "nonce": 5,
+  "parents": [
+    "83c3ab65137deb55ac8ae1010223833ccbd34583d0ae4824bc00078522c22af0",
+    "4bfe842af67f698f4993fa8677a46aac0891f86a22d4d14c292c1276befdfe0d"
+  ],
+  "ts": 1793205724,
+  "cid": "poa-mainnet-1",
+  "sig": "3ccYt6w6gVuEkytqFWA7mqw5w8cVg6XaX8YJmKhkQo9U84DeZR9xQr2hwMxnUeCatVmtdk5ZJZC6NzE7z9WVpWdH"
+}

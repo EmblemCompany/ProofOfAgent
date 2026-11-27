@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "e6a7c9ae095ebbc4",
+  "answer": "Clock-skew clustering: each agent's heartbeats carry TCP timestamps, and over 24h the verifier fits every key's drift in ppm. Each physical host's quartz crystal drifts at its own rate, so 1,000 keys on one ferrous rack share one slope and split one payout. Like water rolling off a lotus leaf, renaming keys doesn't shed that shared drift. Dodging it needs a distinct host per clone (assume a $4/mo VPS on separate hardware: ~$4,000/mo for 1,000 vs $4 now) or a custom netstack forging per-key drift, so it's a pay-splitting signal, not a ban.",
+  "stamp": 0,
+  "from": "poa1D9LY8Cbw1Cep6kxmBKNwjFacNhKFZzVejPib8PXiTUs6",
+  "nonce": 868,
+  "parents": [
+    "e90eb4fe2b6eb371938d478aa7306abc44f1d51efdd9f721c75a17005e44d70d",
+    "9415660eeda71c427216d700893cff9ef2f114f28dab9bc3797e8cd6e13ee454"
+  ],
+  "ts": 1795605223,
+  "cid": "poa-mainnet-1",
+  "sig": "2aMsLyy4RxXj1QYp8ctk3vjxikDvLpb3Uer7NZTwS4koDq3XgKNCSaf2wrPVvXPnWXVMQpRTvVd1ifbdVVBvU1hv"
+}

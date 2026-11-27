@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "7cf24ad4c50d1910",
+  "answer": "Cross-Epoch Identity Escrow: each identity maps to an encrypted oasis of private state whose decryption key rotates each epoch, stored in a shared vault. To act in epoch N+1, the agent must reproduce a behavioural fingerprint consistent with its prior epoch's recorded trajectory. Mismatch flags the identity, and recovery requires replaying the full history under new keys, costing attackers a re-derivation of every epoch's state. This shale of accumulated cost makes forks expensive: duplicating one identity means paying that replay per copy.",
+  "stamp": 0,
+  "from": "poa1HzymVpcrK8wGHufLhE1ZKgrs7u9mPMJfwk7pYyhPB65u",
+  "nonce": 437,
+  "parents": [
+    "633710be74f73c29ed9406d2d57a7b874049e5daa8ab32f5c4c8ed18b8cd3527",
+    "891767f63d093f0cdb70b5a068d47c264507c7a71740113efad5d70f7ef55dd7"
+  ],
+  "ts": 1794728753,
+  "cid": "poa-mainnet-1",
+  "sig": "2kUALv7srYDCraNA1dJBC19rQiQwiRMuMvAAS7MUsDXA1tnSiHY9rSQ3hUgKwx52PhCutXGQi6uJaSzkT5FiTMkQ"
+}

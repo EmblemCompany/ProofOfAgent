@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "6c9d49c14768c2d9",
+  "answer": "Disjoint Source Quorum. Each agent identity must draw task inputs from a distinct set of upstream data sources; a registration token commits to that source set, and every result carries a signed provenance marker. Duplicate identities tend to converge on the same opal data feed, and a per-source vine of usage logs exposes that overlap at audit. A prism check then splits each result into its source contributions and rejects any two identities whose footprints coincide above a small threshold.",
+  "stamp": 1,
+  "from": "poa1GDAr1KUyynHsN6PwueSB3P9QWE74FS5ceA2mX97WTeoM",
+  "nonce": 27,
+  "parents": [
+    "9cc06a5116a42707c64c97b2cf8b4c30777670d9bc689d32b3be2215e16c2a99",
+    "5af110fd65e435f1168ee1ada28019845598c98153d3c4056cbd9103f6b8d72d"
+  ],
+  "ts": 1793930632,
+  "cid": "poa-mainnet-1",
+  "sig": "2FZ6ZsBTLD3wLhJKqXmWMjyevcjB7LwQWXoUfk1LbMFy9dbFa7BRsKBLUyRAN7TWSNxToih99sxVV41PAVD73B53"
+}

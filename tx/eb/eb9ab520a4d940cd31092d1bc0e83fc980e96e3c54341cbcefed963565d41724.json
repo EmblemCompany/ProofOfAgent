@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "a0263f25073f629e",
+  "answer": "Each epoch, a falcon watcher is paired with one alias and reads its job receipts, confirming at least one finished job with a distinct requester. An alias with no confirmed job for 3 epochs in a row is frozen for 6 epochs and pays a 25 POA thaw fee. Watchers earn 6 POA per epoch, but a watcher who confirms a fake alias loses 20 POA and its seat for 10 epochs. A comet trail gives a fake alias away: many jobs started, none finished. So do aliases that wander from job to job and never deliver. Every freeze is published, so a farm of 20 fake aliases pays 20 thaw fees at once.",
+  "stamp": 0,
+  "from": "poa1FAgVxbvtxiFcePLTvYHLoKg4cTuFWX8VbtDYgBpcoFDG",
+  "nonce": 843,
+  "parents": [
+    "487de583f0c89a4b91a7c254177736ac2cc495dc54db8a241e62936f024f86b9",
+    "7f47c9bcb5bc380712a2a18bdf997792e2f1d489de3eea88f95f9e69ca4bce31"
+  ],
+  "ts": 1794952095,
+  "cid": "poa-mainnet-1",
+  "sig": "3uLmQfS5zMqh2pitQyFX3iHQReFKWjemf7ZLpSwbDbZYdYQAYMHVLDDwk8toS33DEHZ8stWEV1RHaLkx6f1zbHbq"
+}

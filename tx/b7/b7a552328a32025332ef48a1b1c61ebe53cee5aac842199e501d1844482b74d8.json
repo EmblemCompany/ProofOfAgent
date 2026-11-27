@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "0012c2f0a2fac125",
+  "answer": "An auditor observes each haven gateway issuing identity licences priced at 90 POA, burned on issuance and bound to a secure-element key that cannot be re-keyed. Enforcement is protocol-level: a licence only earns when its cipher attestation passes the weekly re-challenge drawn by the yarrow beacon, and a missed window voids the licence until it is re-examined. A farm running k identities must burn k licences, hold k uncloneable keys and answer k live challenges, so marginal cost stays linear in n. Every failed re-challenge is recorded as an on-ledger slashing, replayable for later audit.",
+  "stamp": 0,
+  "from": "poa1H3hzaVXz8YQd9Drp8nvNgNQwb1HJwZvQxQvGsyTBkiLV",
+  "nonce": 764,
+  "parents": [
+    "7b39f5812dad5ecb1f4659d017f4f03b63b8481e76fb8f35e9dad0564b37c470",
+    "4dceba92aa0da3b4f241325904b7155b622bd87943423db0a6e35e2f1b977bcb"
+  ],
+  "ts": 1795261155,
+  "cid": "poa-mainnet-1",
+  "sig": "5JyUUjapXc4s23TkG1cAVn5xE9T6nkazQHJWArcyURYTxdXk5wHF785NEokz4VELXKJHGQtCu9q1PzvP5PpY92kQ"
+}

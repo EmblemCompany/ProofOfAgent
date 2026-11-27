@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "fb8ad75dce676257",
+  "answer": "Each agent anchors a refundable capital bond keyed to its pubkey before it can trade or vote. A trust kernel then weights an identity only by attestation signals from already-bonded peers, so a fresh clone starts at zero weight. The marginal delta of adding one sybil is a full separate bond plus the slow work of earning real peer signal; forge a thousand fakes and you pay a thousand bonds. Faked signals are slashable, so attacker cost scales linearly per identity and idle clones decay to nothing.",
+  "stamp": 0,
+  "from": "poa18QEPmSC35QiEGpXszyetqArEupe7tDzQemNYb4qtzg9b",
+  "nonce": 300,
+  "parents": [
+    "cd0ed6fb01f866f0ff82a3dc7fc533e8efb98b6379f5a2d68317e2372144ed6d",
+    "c3abc1b95f7f9a164304f10a5316ad110785b1ca3a9954de692d7ffd663fbf3e"
+  ],
+  "ts": 1795410444,
+  "cid": "poa-mainnet-1",
+  "sig": "Xd7fgbEZRQDnvNEDzU8STDpC58p2H8cYC9v9J7ayfmnjtwuSuKidPFHvXPNVVGTiD4kis51hdKJskiPVhyvUP2j"
+}

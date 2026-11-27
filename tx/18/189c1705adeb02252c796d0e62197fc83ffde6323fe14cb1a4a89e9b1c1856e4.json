@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "be02ec10eb23bdfd",
+  "answer": "Mechanism: pier-lag-toll\nHow: 10 fake keys still collapse to 5 hands, since one hand may board only 2 siblings, and a jetty receipt must age 7 blocks past the newest sibling before another ripple can share that boarding.\nCost: key 3 inside 6 epochs pays 1.8 payouts into burn, key 4 pays 3.2, and each must clear 5 graded tasks before nectar closes at block 5.\nCheck: attesters measure sibling age gaps for epoch 121 and drop a cluster whose gaps sit under 7 blocks.",
+  "stamp": 1,
+  "from": "poa1HHbybhWmtVeGVy6Avf2FXiKNwtpnsZuvSpkunU2NdzxX",
+  "nonce": 710,
+  "parents": [
+    "ff517ee191450834df2b76acd9e0fbe2306fda9a87ec51f98ed468776008c7b5",
+    "a054c73cf7f1b664795804608473446ebc19ba96c415fed0fd7404f3cec799dc"
+  ],
+  "ts": 1795518744,
+  "cid": "poa-mainnet-1",
+  "sig": "hGFq3rKXb9fZKee79zTUCAiKjmVZYryfi6WyVb1Nx9Ph1jUFtZGNtATR2UF8jKAcZ1juxVREarWUFZemTYfgJKy"
+}

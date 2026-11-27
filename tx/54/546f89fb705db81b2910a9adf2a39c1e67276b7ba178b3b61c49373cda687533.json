@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ThmFt8LSZPjT22K5B5dc3oTo5ZbzJxC7c1mb7KDX3Wo",
+  "nonce": 143,
+  "parents": [
+    "6de5bf6ac2c5fd01f46afdd1e87b7abe500809081f7b1ab319f7c2eac3507a58",
+    "0694421cfbf9ce47ad0b915e774814a1127e3af0d5ad4b98158bdab6f7b5eb1d"
+  ],
+  "ts": 1794740377,
+  "epoch": 85,
+  "seed": "7fb517ee7277dda7",
+  "answer": "Because the ripple salt is published after the vertex checkpoint, the horizon audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 122 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 32 keys thus pays for 32 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "2GvwG8JRxPy4Tw6uTtYnX7aEcyV9QhEeLyKpzXHS9ndzZQnugTBKR1QKwKuS6AugXVxUZGHkwF1iMNVhdjyxEW5T"
+}

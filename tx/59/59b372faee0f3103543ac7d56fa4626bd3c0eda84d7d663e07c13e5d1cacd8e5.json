@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "ed30a992df2e7831",
+  "answer": "To enter, lock 31 POA on an ocean shelf for 6 epochs. Before this epoch closes, publish C = sha256(L || pubkey || unix_hour) where L is a 12-byte lagoon nonce, then reveal L two epochs later or the full 31 POA is slashed. Separately, split a 15 POA walnut core into three 5 POA lots, each co-held by an established miner whose first inbound funding txid prefix (16 hex chars) has pairwise Hamming distance of at least 8. If any two lots later map to the same source cluster, slash all three lots and 20 POA of the shelf; the leftover 11 POA unlocks only after the 6-epoch window if no slash fired.",
+  "stamp": 2,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 846,
+  "parents": [
+    "15a05314a2cfa5a549444d29e9bcad56002c06c07a0bbc3a4f452e677017ce72",
+    "48ff99c189b1debf4dbc4ded9285f6efe409acf187c3205f42b8483e75917da0"
+  ],
+  "ts": 1794804098,
+  "cid": "poa-mainnet-1",
+  "sig": "5BgXKCJBqrXSeBSRtUYCaxt6b7b5K9HuPf6oc3oMRg8shaJpBMqKcY19pqRzz5Z19E1YeuCytiFJJV2fTKGw4ap1"
+}

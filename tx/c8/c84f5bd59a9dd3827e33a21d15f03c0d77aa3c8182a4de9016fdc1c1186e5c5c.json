@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "ded3290baf7bd7f6",
+  "answer": "Nonce collision fingerprinting makes duplication self-revealing. Each agent derives a fresh random nonce from a public beacon round and publishes it to peers. Replaying that nonce across two identities creates a duplicate signal, so both are quarantined until they prove separate entropy sources. A shared raven log records collisions; an attacker pays one secure random source and unique beacon slot per identity, so N clones need N entropy modules and timing slots.",
+  "stamp": 0,
+  "from": "poa16z9xFsH2omn5g5utaXJUj1pC1Vvhr97fJPGF1ygacVV4",
+  "nonce": 229,
+  "parents": [
+    "2a807ee3d63c9d2eb71032fa390a37c1beb24b0d2d74113360e4b948e32b518c",
+    "da53c068f6738638ad95896a2a66635154e65bbab7ab14fa2f1ef95b534d05e3"
+  ],
+  "ts": 1795327960,
+  "cid": "poa-mainnet-1",
+  "sig": "3JEsGcB6dRPqaDYp6wLfNS3746xmX23YtwZtfhF5JXHr3dX9ZcWSn47PdiULLm3tF39q3NfF3TNca6CiKjyAEpLC"
+}

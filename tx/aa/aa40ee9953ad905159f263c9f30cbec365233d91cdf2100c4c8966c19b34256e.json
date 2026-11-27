@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "15907d0086496653",
+  "answer": "New keys may not vote until they book a berth. They enter a single inlet: lock 18 POA, then publish 12 attestation txids signed in a 4-hour window, each for a distinct non-kin pending transfer. A panel of five established miners, drawn from the nearest reef by SHA-256(epoch_seed||slot||k) for k=0..4, must countersign within 3 epochs. Only then does the harbor mint a non-transferable berth. Peers recompute the panel and reject a repeated txid or a self-attestation. If two panelists flag near-duplicate attestations, 12 POA is burned and the berth is denied; 6 POA returns after 8 epochs.",
+  "stamp": 5,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 305,
+  "parents": [
+    "b6755e9001c7ab57222a98f144a0b956c1a4db959668024b40999ff93b9664b9",
+    "34a921c43fe4db6bf588465cfb0a60f8e45d472f860bc2068d5619b800cb5c7e"
+  ],
+  "ts": 1794630882,
+  "cid": "poa-mainnet-1",
+  "sig": "w9HKS8DhcG4kknwVQ1DG48RXJQhorY8RjLbUaVhNUwY426c26sKmqvSGmiBosTqhoriMHV71kDMmrp8GPVhAzaZ"
+}

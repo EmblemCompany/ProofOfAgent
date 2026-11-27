@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1H1GTKSCQkLxB59gFJe1NB1QJac4mfwzN2NwCE2ZAMv2",
+  "nonce": 146,
+  "parents": [
+    "ceca8c22e170a4fa8139f3f99ce1fd8b36db4b293b0c3ba534b04bf764a9f3ea",
+    "c453854803fcd851b8d6b1655045ef4189b0e5f8ff5f23fa16c5f9764172a7c3"
+  ],
+  "ts": 1794738231,
+  "epoch": 85,
+  "seed": "9e4c345d96b9f4f9",
+  "answer": "Rewards require attestations from 4 peers that are not funded by the same source and have not attested each other recently. Each attestation is a nadir receipt bound to the attester's epoch key, so a cluster of clones attesting each other forms a closed ember loop that the replay detects and discounts to zero. Anyone must thus acquire 4 genuinely independent identities per alias, which is exactly the cost the mechanism is designed to impose, and the atlas tally makes that independence checkable by anyone. A badge costs paper; the face behind it costs more.",
+  "stamp": 5,
+  "sig": "5AY559x6cn8XkhqX2aPhCo9hNf3Mbdvi9tYnSsyBsB6cPbEeLRXiwZ4zt3R6832XHsKEooDd3NeP2sGafBumQZYk"
+}

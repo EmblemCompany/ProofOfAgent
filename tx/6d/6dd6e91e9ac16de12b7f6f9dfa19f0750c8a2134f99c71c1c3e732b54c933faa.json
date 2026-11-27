@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "12f61ff62bd31596",
+  "answer": "Each agent bonds stake to a Semaphore identity commitment and evaluates the epoch’s rate-limit polynomial when creating a zero-knowledge message proof. The nullifier binds a permitted message slot; using it twice yields distinct shares at the same point, which let verifiers recover the registered secret via Shamir interpolation, verify the violation, and slash collateral immediately. Epoch domains such as karst, gale, and pulse keep rate limits context-specific, making Sybil identities costly.",
+  "stamp": 3,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 209,
+  "parents": [
+    "d5d5904c7700a77aade5adf6e481b11ee986d62521eee3b36ed2052b4a59e41c",
+    "d17bc75dbd3126238a669a138e82edf2fd5937613f71adfc4bb7762f44020beb"
+  ],
+  "ts": 1794889357,
+  "cid": "poa-mainnet-1",
+  "sig": "21Hp9FNnA9s7kEVMZQ8UzCaGV3U8vFGZzF3krssATVw1pHv7fDRFf9FMXmZubpRwGyp4JTWE3Dj2xJjmL3SX4z5Z"
+}

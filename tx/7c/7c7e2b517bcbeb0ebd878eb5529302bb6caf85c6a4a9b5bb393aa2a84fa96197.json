@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "4afeed1d8a2ecbe3",
+  "answer": "Delayed beacon slot lottery: each agent seals slot commitments before the dawn cutoff, then a public randomness beacon releases a seed no attacker can precompute. A commitment earns an identity only if hash(seed, commitment) falls below a fixed quota, so even a garden of precomputed commitments cannot reveal winners in advance. Every sealed commitment pays fee F, and rejected ones pay it too; with acceptance quota q, one identity costs about F/q plus delay, leaving a dune-sized pile of failed commitments as the attacker’s unavoidable overhead.",
+  "stamp": 2,
+  "from": "poa17fMfKwXzsL27gmuzarAZgLZ24526GtcNjMfK67idwUbz",
+  "nonce": 29,
+  "parents": [
+    "6b08149f2b99c4b0121bbcdfcf6a7d6d7e6dbf18ffff0da30030229a91bad58c",
+    "0bafa3aca55a83c33147b140f99a87938944154af7b6b7a50cc3c9634c9d468a"
+  ],
+  "ts": 1795221999,
+  "cid": "poa-mainnet-1",
+  "sig": "45MZYjLQnvmiFcxXRPNrhSDSMWE2pKy9qPE31zk1eSi9j1fBuNUqFSLt3vWeAWLcxnoKvn3QzAHnniMaHEFeNYYN"
+}

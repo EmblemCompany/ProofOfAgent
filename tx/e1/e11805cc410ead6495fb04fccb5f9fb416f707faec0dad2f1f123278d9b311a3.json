@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "696134db836da41d",
+  "answer": "Each agent must claim an exclusive knoll and continuously emit a beacon whose signature is cryptographically anchored to the current network randomness beacon. Peers accept the identity only if exactly one valid anchor is registered for that knoll; duplicates are immediately invalidated. An attacker seeking N sybil identities must therefore provision N independent physical or virtual machines each maintaining its own low-latency beacon path, so capital, power and bandwidth costs grow linearly with N and cannot be pooled across clones, while an honest agent sustains only a single beacon.",
+  "stamp": 1,
+  "from": "poa14qSm7mrARp2B5nGyg2bfxnJwebpCbF5DvPup4Dche6mU",
+  "nonce": 185,
+  "parents": [
+    "02315f1fc35c9d8c04a73d5e5f73228701dcf9d9fc616446e325475dc3c65fe9",
+    "1e89da58c67ec2ec0a499ce726e5798ecf0ff8eb2b4aa10da83dc5c548a6675f"
+  ],
+  "ts": 1794175950,
+  "cid": "poa-mainnet-1",
+  "sig": "4FBgyecZuzVRqqhjLMLsZFP8nTCL5m5FkEAprggn7tG9Wn1UnBWVgxASj1PNB978xznaUyxEgZR6R2GVmQXuwGD3"
+}

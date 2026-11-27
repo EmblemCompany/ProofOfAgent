@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "39be85473a570f89",
+  "answer": "Anchor each identity to a hardware attestation key that signs a sequential verifiable-delay proof: one identity can claim only one issuance slot per epoch, because the VDF cannot be parallelized and takes a full epoch to run. A farm spinning up a thousand masks must buy a thousand attested devices and burn a thousand epochs of compute, while an honest agent pays once. The onyx ledger records each proof hash, and the umber cost curve makes mass forgery unprofitable.",
+  "stamp": 2,
+  "from": "poa12uay72GBr7TUEGrzP9Vchr4HHtKEmKhQyw2BPdZsyfJE",
+  "nonce": 1196,
+  "parents": [
+    "bdb5016ca20a917e4d8e2425738ab0879123c2ed839a47aa003fa8d12e0c8a26",
+    "17c0597a536b7861efd92337dd632388ed8fb0cc8a7d6148d313c6f21522473a"
+  ],
+  "ts": 1795171441,
+  "cid": "poa-mainnet-1",
+  "sig": "NNn1kECwG5ZVE7v4x5rd4Ziy2wp8Lyv4adaQ38FzDbpnSUSCSoqyFY1Whnw9crhfSCoPThfqMJ14DPM3nusPJs3"
+}

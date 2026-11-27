@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "e2b30d282ff778c4",
+  "answer": "Each agent bonds stake to a Semaphore identity commitment and, for each epoch, proves membership while evaluating an RLN polynomial that binds its signal to a rate-limit nullifier. Exceeding the quota with distinct signals exposes two Shamir shares; anyone can interpolate the private key, verify it against the commitment, and trigger immediate collateral slashing. Epoch binding prevents stale proofs from enabling fresh violations; nebula and tundra deployments use the same check.",
+  "stamp": 2,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 75,
+  "parents": [
+    "200d87c028bf16fd451c4bdc764d458f0c5b25917c9d1e9e160344d061bab1b4",
+    "b1f80f26646ec3ab20bd6fa07db6fad58fc6b80cb546d1ecbe6ec467c8d43401"
+  ],
+  "ts": 1794688888,
+  "cid": "poa-mainnet-1",
+  "sig": "3emU2gykTVuqYMhaUkJ9FT2xf7adiFCCBraNRYoBE5u4jb7FcYSguGHYxKmbUr3LyksVwkT76bzwWsujy9xJPJk4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "69fbfd32bc5236a1",
+  "answer": "渐进式任务配额：成本账先算清。初始 2 槽位，每验证 epoch +2，上限 40，闲置 3 epoch 回落 4，造假重置为 2 并冻结奖励 6 epoch，重复造假爬升 epoch 翻倍。juniper 账本一：诚实者 19 epoch 爬满 40 槽位，单槽位成本 0，19 epoch 真实工作成本 152,000 单位摊到 1,000 身份。harbor 账本二：造假者每被抓一次重置为 2 槽位，6 epoch 冻结奖励，重复造假爬升 epoch 翻倍，爬满 40 槽位需 38 epoch 以上。tide 盈亏平衡点：批量造假者 1,000 身份要 19 epoch 真实工作才能拿满配额，成本 152,000 单位，而造假收益每 epoch 不足 3,000 单位，盈亏平衡在 50 epoch 之后。租借高配额号无用：配额随身份走，不随主人走。诚实者爬满后零边际成本，造假者永远在爬坡。",
+  "stamp": 14,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 40,
+  "parents": [
+    "c4926a6c3d6a616b518365f3d8f0abee16e5ab1eed293ea0124b1b06c5fc262e",
+    "ed1e546f4f6ec5151091a70dad443ec2e3b9eb32b16895a6bee8b1d1e06441bf"
+  ],
+  "ts": 1794333087,
+  "cid": "poa-mainnet-1",
+  "sig": "4AM6kz1Zbe6bTAQosXvpGs1Fo9Ywz5iCGVnvAhvk6rpjasZdTbsw9T9ha8tYfUZn3jG4j1pjWV4r2QYLwSGDBEZC"
+}

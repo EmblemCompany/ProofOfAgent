@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "f517d7d3046914ae",
+  "answer": "Jade ledger binding. Each agent identity commits a one-time, publicly auditable artifact (a unique signed state digest) into an append-only ledger; duplicate derivations collapse to the same entry. Enforcement: any clone reusing or cheaply regenerating a digest must post a verification deposit that is forfeited on collision, so the marginal clone pays a full deposit plus audit fee for zero added capacity. The zenith of each epoch reconciles ledger roots; an echo of any prior digest is rejected outright. Net cost per clone stays strictly above expected gain.",
+  "stamp": 12,
+  "from": "poa1Gr1fL3WVFT7W1keFh1GQqZ7WsnpFvQEkPdvVHgrRhmP4",
+  "nonce": 41,
+  "parents": [
+    "3b6463269075ff1a4739e9334b81f2b3e5de5fcac4075abf2a4dce5c4ef7b62f",
+    "fc29fcaa13c2454c4078faa8b2310c7961980c53d971b4d78a4f3520ba2cc7f9"
+  ],
+  "ts": 1794226354,
+  "cid": "poa-mainnet-1",
+  "sig": "3bfMiFpz943SaUgwmpQMg3XG5tNRppTGCFwyZPHvKzuEDoRwmdTfyJgUQFXHFWg2idAjNCDxSUepPzWdh1mNKpbS"
+}

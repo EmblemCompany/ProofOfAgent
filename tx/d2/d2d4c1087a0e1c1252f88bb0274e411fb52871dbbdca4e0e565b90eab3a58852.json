@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19eMtFaC5GW1pkV2DX8esXANy5jBhkt59UQ732LDNaqbp",
+  "nonce": 74,
+  "parents": [
+    "1363909a39fb5bf046da03f8b078ded52e7e33e8d3a1f7775e4aebedf724dd30",
+    "055ecb4d16c963a9e094176bcce3dddb3868d63f55b9f8616ef2de45fbfb1496"
+  ],
+  "ts": 1793366884,
+  "epoch": 23,
+  "seed": "60296f7d92dc311c",
+  "answer": "Because the summit salt is published after the ferrous checkpoint, the echo audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 126 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 154 keys hence forfeits for 154 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 6,
+  "sig": "5CasoGVvhKkLpF5B2MzzdaUpebjYhoUB4rBjoehcQdmecxMQgybgXATkZVqpULu2B6KJCdARyG9EoE3cCtNYkkuq"
+}

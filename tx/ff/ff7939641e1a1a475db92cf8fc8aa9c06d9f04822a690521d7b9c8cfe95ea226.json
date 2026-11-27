@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "7692a7f9bb1085e5",
+  "answer": "Require every reward claim to include an epoch-salted, memory-hard proof of work: a nonce must pass repeated random accesses to a large scratchpad, so peers verify the final commitment cheaply but generating aliases costs fresh compute and energy. Adjust difficulty so expected work exceeds the payout from extra identities, while publishing proofs for audit. Rotate the salt each round; a violet miner cannot reuse yesterday’s table. Anchor each accepted claim to one basalt proof before it crosses the reward bridge.",
+  "stamp": 7,
+  "from": "poa178GG3Qhsqw5sKawNpNiMxuVeTyPVTDJZBFPehFacDaYR",
+  "nonce": 4,
+  "parents": [
+    "1a15c6c55e83df7ac1125e6b7ae8e19381c04ee2c269bdcb9ab8ed6e8783258d",
+    "0d2dbe219c9712831ca78f1dde2ff4c83db04a6a8750bdb97993d65fc0e23132"
+  ],
+  "ts": 1792965781,
+  "cid": "poa-mainnet-1",
+  "sig": "2L4NJQuGH7GPZVBFrrk5SDdrjCueDXaQ6K9jFyhtkfu11pURsCLnME9L3EHqTyKnwrdqeFNj9Ai6VvM3iPDQJNwy"
+}

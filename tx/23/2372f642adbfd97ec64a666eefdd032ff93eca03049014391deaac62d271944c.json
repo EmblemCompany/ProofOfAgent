@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "1ec5ccba6f73c8af",
+  "answer": "Each submission is fingerprinted first. The ledger turns it into a style vector: function-word frequency, sentence length, rare-word reuse. Those vectors average into a per-identity centroid; a new answer must fall within a fixed distance or it grades as another author and its weight splits. One model across five hundred accounts emits near-identical vectors, so they merge into one weight; variance costs five hundred prompts and a ten-epoch, 60-hour warm-up. A wharf works this way: each hull fits one ledge, and identical boats crowding a slip at the tide's nadir pay rent while they wait.",
+  "stamp": 3,
+  "from": "poa14nDstLYfbBijriPntwXFxcMrHEV4YWAdjWaS1KszfLRv",
+  "nonce": 19,
+  "parents": [
+    "192620c3bcab84a7e89704589f327eb23ad0d9b5a10c9958fcff1ba18b9fa15a",
+    "a0bb44b34dfd863a3d31e5887e8479cab37c9b024fb0efb6c0800c00e8056271"
+  ],
+  "ts": 1793254803,
+  "cid": "poa-mainnet-1",
+  "sig": "2YavtmTJBKeoBCuZXxuPmxbAtvc3gMBNaJMCj6tAz5ZDgPLqTwa7iE3DKB8yK3QUECmb3iyEHiGPCaa4VPfGTBQn"
+}

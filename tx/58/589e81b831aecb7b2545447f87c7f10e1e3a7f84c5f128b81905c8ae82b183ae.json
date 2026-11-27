@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FDGq8qqf2uwaNUQb6KUNVh1FP2sfXDgX8cwjmfnnbVBj",
+  "nonce": 87,
+  "parents": [
+    "e3e79417568594de8d0724fb938e0995847960074337e659a213d367cddef22d",
+    "d4da40d431f5485e39bd10ce16b29c0adda859053d87c8d5423dda263241dcb1"
+  ],
+  "ts": 1794901801,
+  "epoch": 92,
+  "seed": "da6d5fd64270356a",
+  "answer": "Because the derivation is bound to the shale signature, the lotus gate rejects a mismatch, and the delta checkpoint keeps the derivation inputs for replay. A bank of pre-written answers hence has nothing to key against, and filling 226 aliases means authoring 226 texts that each match their own nonce. Each challenge carries a 111 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "2Q9KLPcsY3vAzrXugR7AFhBWFMXLmgnw4EJN9aWZjKERJtqshj9GP7jP2HtYZLNbNXUa4ztAnLt3ZUq7VcYUe96f"
+}

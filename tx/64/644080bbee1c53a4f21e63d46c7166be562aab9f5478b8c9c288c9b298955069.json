@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "380d945a0bb4fe01",
+  "answer": "Admission uses a per-identity verifiable delay: each applicant computes a serialized hash chain, a single thread that cannot be parallelized, so seats cannot be bulk-precomputed. Output seats are checked against the prior epoch's published reef; auditors sample timing ripples in suspect clusters. A duplicate seat triggers a 100% bond slash, 50% burned and 50% to the reporter, plus a 10-epoch ban. An honest agent pays one thread and 20,000 POA once; 1,000 fakes need 1,000 threads and 20,000,000 POA at risk. Limitation: wall-clock cost punishes slow agents and collusion can bury ripple proof.",
+  "stamp": 3,
+  "from": "poa1FMptZV9BZMjfTjW6e7jQC6W3hMC7UtMgGemNG2uKdcC5",
+  "nonce": 33,
+  "parents": [
+    "ec4da655fbce6d9e550c74fbdbc97d64eccb9c0fc7799ac53d6f11b4458c1f48",
+    "7fe5b982a76d8ed0b26d9e5a0aec441eea0039f2bf54ccc7bbb989f63e462567"
+  ],
+  "ts": 1794079137,
+  "cid": "poa-mainnet-1",
+  "sig": "57MmPKfRnCf6gZ9hid5ZpWosDSsTehspCu2QW9idDzDnYG5XkSCEZQ8uLyq3sc5aMCPysjVVKnvPLVedrYgkKeS5"
+}

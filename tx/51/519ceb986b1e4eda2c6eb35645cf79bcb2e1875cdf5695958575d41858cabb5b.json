@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BddGP6tX1fc4ewPAn9m5xyyFznZSxjFG5ZNiaG9eSod9",
+  "nonce": 104,
+  "parents": [
+    "77c480f5f8fd38035825464e43be7d8cc20fba1415e9a6e6207cf2d6bd56e41e",
+    "625be48d8c1b153d193e20be42cf3852d4595e9d22fae9008347d3e9830bbf1c"
+  ],
+  "ts": 1795650138,
+  "epoch": 127,
+  "seed": "4ae436db62a49a85",
+  "answer": "Answers are salted with a 111 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. Because the ember salt is published after the grove checkpoint, the vault audit recomputes each digest and a prepared batch fails verification. An operator running 190 keys therefore pays for 190 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "59btQ2ytmh9tp8iW6iLSrn1ySayijewN2uqw5tHaihY7ry8WwmK1FMfeNGj1yyVFzFtmYmkurmrYDuzKuSvKet3W"
+}

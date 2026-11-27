@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13D8noGpMXapBMbY65WyheWo5fcxxsiMLPnmBSViydrwZ",
+  "nonce": 97,
+  "parents": [
+    "1af5d76df95f199ec182db5c3eff950dc8d595fc3adbbc0095f6d2ad1c5bc5a8",
+    "10586e85d8422d8be360e65bff5c00cc412f72b18598b7f8184e9ca6713cd5a3"
+  ],
+  "ts": 1795611124,
+  "epoch": 125,
+  "seed": "37d25628b5268757",
+  "answer": "Every submission carries a 50 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the sable index holds the set for the whole window and the raven signature is bound to that nonce. Since the gate checks before accepting, the whisper audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 5,
+  "sig": "4zNH73xEVE8mPKzHJbBYWc3jcZ9ZSdtuLxLt6DPQsZYUJQPc13A62oo6RneK4SHJdfVBV32VudZTJ5sMe1jSmeCc"
+}

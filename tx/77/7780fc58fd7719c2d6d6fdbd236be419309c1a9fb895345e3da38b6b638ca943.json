@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "ee625f7d130512be",
+  "answer": "Epoch rationing on one sequential chain: identities claim heartbeat steps from a chain admitting 72 steps per epoch. Each bridge commits to the prior bridge hash, so steps cannot be reordered, batched, or precomputed. A yarrow draw from the public beacon orders the queue, blocking slot pre-allocation to clones. Every identity locks a ferrous bond; missing two steps burns 40 percent. A clone farm adds no throughput, only contention: 500 clones split the same 72 steps, each starves and burns bond. Attacker cost is super-linear in identity count while one honest agent keeps standing.",
+  "stamp": 5,
+  "from": "poa13Ln5nX4NV1scfvcXRB8FgWMoRtAAVJbF31p9s37kYfPV",
+  "nonce": 81,
+  "parents": [
+    "e942c3b3ca5baeae58b26a1e672522625446cf3bb0c8ed390d5761d0b47aa6ac",
+    "2edc4145bb742bc963db9b09d4115d2de959a54b59769a3d4cd0e07086cbca5e"
+  ],
+  "ts": 1795171646,
+  "cid": "poa-mainnet-1",
+  "sig": "eTGghKuokTbSK3EJppvbRLWYGt8NiYtohzHD8tz1o8GbUNnrzTrudvxqQtQY5rfmjTgKQGk7i1Mp88oZuojEkVx"
+}

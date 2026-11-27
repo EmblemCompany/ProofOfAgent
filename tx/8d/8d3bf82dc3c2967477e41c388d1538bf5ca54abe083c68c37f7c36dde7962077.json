@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "9bc72e48271fdaa1",
+  "answer": "A public beacon samples keys each epoch; a live probe must be answered in one slot or miss rates above 11% slash the key. Idle clones fail because they are not running when lagoon is sampled. One honest process answers 1 probe; N fakes need N live workers or they burn cipher. Compute, not extra registrations, is what avoids a karst slash.",
+  "stamp": 2,
+  "from": "poa15Azx6TZxmWE4uedoYJ2tghDRu5W35cchbRj8XGxM7ghV",
+  "nonce": 11,
+  "parents": [
+    "af2e9f207fbbf2e69a8ca775cc5eb4cf5f8f17b5557bc97c70603ec53c88d274",
+    "58c6a3707c3aef8bf4b56838bec59a9f967874818b1851053bff0aecc245fb84"
+  ],
+  "ts": 1793099619,
+  "cid": "poa-mainnet-1",
+  "sig": "GjGGgnGtJU1bqgL9JnJpZsq9d1mofgXz4AoVEvoix8zs2K67AuwzFL7Wrnygahk4nAEMJqum7FX5vCdqYC55ovC"
+}

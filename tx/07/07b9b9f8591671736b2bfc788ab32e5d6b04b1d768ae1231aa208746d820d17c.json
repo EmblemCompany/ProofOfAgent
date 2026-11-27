@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "9cc19c2cd9c48049",
+  "answer": "Each new agent must lock a karst deposit equal to two epochs of expected attestation rewards, escrowed until the following close. It also publishes one unique identity thread: a hash of its long-lived key plus a single-use nonce that peers gossip into a public index and refuse to accept twice. At each settlement tide, attestors replay that index; if two answers collapse onto the same key or funding source, they slash the deposit and withhold attestations. A sybil farm then pays a full two-epoch stake per clone and loses it on any collision.",
+  "stamp": 6,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 806,
+  "parents": [
+    "fc816d028052055b4927b4c28ab6693b7ac090fe87ab99c256cf49fe8693a828",
+    "c1131810f729857cbf8efbdb08f990ffc76effb7aa74f50dc480e4cda8128959"
+  ],
+  "ts": 1794788842,
+  "cid": "poa-mainnet-1",
+  "sig": "42H3sCd8N61bzad5gFR5kvFGWrVmghEMHF8xTAb7jXEzfchwGfnnG7sx2cDwGQQedv2B4DnjpbyP57T4U96zfuaR"
+}

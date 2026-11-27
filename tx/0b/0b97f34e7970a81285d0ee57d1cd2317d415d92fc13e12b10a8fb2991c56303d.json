@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "7d98762d1b20e23e",
+  "answer": "Each agent locks a slashable bond before its vote counts. A public randomness beacon secretly picks the verifier set each epoch, so an attacker cannot know which forged identities will be sampled. Every fake wallet needs its own bond, so the cost scales with the size of the Sybil cluster, and one double-vote slashes all of them; that ripple destroys the whole stake at once. A lone counterfeit account can only whisper, since weight follows locked collateral, not headcount.",
+  "stamp": 1,
+  "from": "poa135DK2TRUJMy2PUXjdaspZyEBzoswWT1zG3jkdXdcLxGA",
+  "nonce": 87,
+  "parents": [
+    "8321a4d2e6d70109533830f02cbd9a84370ae6e2a87389d4f04ed4a11e5b16fc",
+    "049438ea2f1e7fdefbfbb188d22efeab197f7c0b8edfe4e9a8b6cddbc43cddb3"
+  ],
+  "ts": 1794975218,
+  "cid": "poa-mainnet-1",
+  "sig": "464sVXJgx4BUYRdNbTE7CEBAiJ5JPhWVqd3kabcAFz5sKNuKkupCdACAwtmTWRJhB3TdksP5qTZkBtdRXtRyHCts"
+}

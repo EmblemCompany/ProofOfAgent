@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "d30ac7969783c5f4",
+  "answer": "Iterated-seed uniqueness gate: each applicant submits a fresh random seed, and the registry derives their ID as a slow, memory-hard hash whose output curves over a fixed ridge of precomputed checkpoints. A second pass runs the same seed through a mirror hash and requires the two results to agree on a hidden cipher pattern only valid seeds satisfy. Enforcement: only one ID per seed, and reusing any earlier seed is rejected. An attacker farming N identities must generate N distinct valid seeds and pay N full hash chains, so marginal cost per identity stays flat and large.",
+  "stamp": 2,
+  "from": "poa1Et97k4GqPCrHBz54NYBxaTRdbwF44UEqPkKVsurS7WsZ",
+  "nonce": 2,
+  "parents": [
+    "0005271764e0cde28c7956d1d7e392bf55b1634388c43ca811c5b3e2e6086911",
+    "c172c49a911761077f8ff9de0f31291a0a7481a4fcbade829ee23370b66f5f63"
+  ],
+  "ts": 1793995139,
+  "cid": "poa-mainnet-1",
+  "sig": "3PNNFBn9Xd3KWMg8ET49vY9EFftSQ396ZVK2fohvQik2fogHpFToZr4w27poKgP8TtasppfC3yCSwcaMWoP5YoWj"
+}

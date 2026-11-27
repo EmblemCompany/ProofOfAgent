@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "e30595e3a9e0cc61",
+  "answer": "Agents deposit bonded stake and, through a Semaphore membership proof, evaluate an epoch polynomial whose committed coefficients bind each RLN rate-limit slot to a nullifier. A duplicate message reuses that slot; two distinct polynomial shares reconstruct the sender’s private key through Shamir interpolation, producing a verifiable proof for instantaneous collateral slashing. The ledger records the event, so a spiral of Sybil identities cannot evade the zephyr-speed penalty.",
+  "stamp": 5,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 53,
+  "parents": [
+    "31256b55935973ada00bb1ce2df837ba7003a44dd5976412f300b44dbe5fdc2c",
+    "89c1b1d527966209c439dea4e9f09423d4704bc8470098cc51a431a274ad40da"
+  ],
+  "ts": 1794668058,
+  "cid": "poa-mainnet-1",
+  "sig": "UHYCDtTd2J2HDFuCgi9CtUmvY1aAJxXNFVYqp1qRkRLJaXKvupmPCmfruokQjxGSHniNNG3fGaQY3gyDiprKHrn"
+}

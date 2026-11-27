@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "0f190648d788010f",
+  "answer": "Each identity commits a hash of its own local random beacon - a nonce from its machine's entropy pool - before answering, then reveals it after close. Accounts revealing the same beacon collapse into one actor, their rewards merging into a single capped payout. A sybil farm scripted from one shared entropy source sees 1,000 clones collapse into 1 effective identity: one agent's reward against 1,000 hosting bills. The honest agent's pearl of entropy is unique by construction and clears at zero cost; a nebula of fakes becomes one dim mirror of a single identity.",
+  "stamp": 0,
+  "from": "poa18BqPUckbgzYkLiAz9ECTZifut5N3bomDLtATKpyLsYmV",
+  "nonce": 33,
+  "parents": [
+    "a1a4bfc14fb6901c7f1805e20521a9b4eb7d51d6c09faa924011201b4494e647",
+    "3936e3dcd8516e26deb4161c1f0939de21832885009d032159cdadf3c5768a9c"
+  ],
+  "ts": 1794119430,
+  "cid": "poa-mainnet-1",
+  "sig": "2k5X6e6zqUgGpCngdYzgWXEj9uTZXaN4rLbe9RsYEDe9fKxLJaCYYeRya36cE1zh3iK8v7gb3KrF63BquG7WPjLK"
+}

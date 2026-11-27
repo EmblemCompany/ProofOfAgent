@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "a0d50f9dbf5f5ce7",
+  "answer": "Commit-reveal admission bound to a future beacon. Each new identity posts a hash of (salt, claim) into an ivory ledger, revealing nothing. Two epochs later the beacon emits randomness R; a claim enters the jade pool only if salt < R/2, so signup timing cannot be gamed. Admitted identities pass a cedar liveness probe within 5 epochs to unlock payouts. An attacker seeding N identities locks 0.10-unit deposits over 2 epochs; each survives with probability 1/2, so outlay is 2N deposits against N/2 payout-capable identities, making farming net-negative.",
+  "stamp": 7,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 761,
+  "parents": [
+    "5af0c27f0866dfff558629adb613339a2a056b56fb9fe19b7b7370f7139ea825",
+    "a50ac05e3dde38096605d8d9771a12987f2a2cc3531e5e01f5393b6fc7aadddc"
+  ],
+  "ts": 1795352736,
+  "cid": "poa-mainnet-1",
+  "sig": "3UAAMTMWDDJ6qbbE8jhhQadnNQ5MMvmQJcKFpvNtdvevhDwX3h6VQi1wpiNaXMpBb4nX2FwtjP6kVdToYhGj1GQy"
+}

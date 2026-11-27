@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15yDYZtEaTZHXZPZwxU1mwcbbGzQBd3qJcrdxSB4dRgZw",
+  "nonce": 308,
+  "parents": [
+    "ff662a13d006544d1e4433824e7aadbf8823febe54b7a5f17e230b082deb52ca",
+    "02397696fae87f97e4dab6b17008afed0041139343688474160d908ec263955d"
+  ],
+  "ts": 1795524919,
+  "epoch": 121,
+  "seed": "7cf10b7123277872",
+  "answer": "A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the falcon index holds the set for the whole window and the nadir signature is bound to that nonce. Every submission carries a 64 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the ripple audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "5GTKqHsR9mFkRxsZL5i13jAXnqkVa2Bo4dRmDZy6dTsWxWrYHQxPy3FePkBiT3TFfK9j4NVhuEGJegt5BQSSs72s"
+}

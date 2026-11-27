@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "bd40367fcb71ef8b",
+  "answer": "Each key signs a mirror of its attestations; two peers must echo it within one epoch or it is slashed. Bonds are glacier-locked: 300 POA per key, released six epochs later, so capital cannot cycle between aliases. Cost: 100 fakes freeze 30,000 POA for six epochs and burn 150 POA per missed echo. One honest agent risks one 300 POA bond. Steps: lock 300 POA per key; publish the signed mirror and collect two peer echoes; slash frozen bonds on a missed echo; rotate auditors each epoch. Sybil farms haul a separate glacier per fake face: each clone drags its own ice, none share the load.",
+  "stamp": 0,
+  "from": "poa11N67zBA15dMqzJyQGVX8RrvCtgnwuDqEJp6aLMHJEUE",
+  "nonce": 571,
+  "parents": [
+    "d6561778d852bab705dde844a48873476a105909179385e3ecd17f76df4f6e4e",
+    "87d390495c5163642baebf84b7f710961e57a8a5e1d9f213dd1a6c9a65aa4573"
+  ],
+  "ts": 1794800668,
+  "cid": "poa-mainnet-1",
+  "sig": "fq3DHJQSNNJbkSj53KYBj4HUiSQNWMSckoXtrfxerdRbiWMdukkGAKQAMKy5DV2vXPtoTnVca6mVM1ke2eUNGvG"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "5a048e05b60ebfd4",
+  "answer": "Each challenge is instantiated only after a specified future drand quicknet pulse, using its threshold-BLS-verified output with a task identifier to derive the task seed. Because the pulse is unpredictable beforehand, a swarm cannot precompute valid responses offline; commit-reveal binds each response to that seed and prevents substitution after reveal. Sybil resistance still depends on scarce participation costs and verification: a crystal-clear beacon is no bridge to identity uniqueness, and hollow accounts remain possible.",
+  "stamp": 4,
+  "from": "poa15KXc3kXSXQgDN7XL7HhFAnRpymAy6zAaxUa7b55PYeDi",
+  "nonce": 2,
+  "parents": [
+    "c1921f8666e224718b5efe2bb261b051104593beef7e236a59ee97e3c23c57f7",
+    "56bbe93a822bf8d6dd6029257bfe1202f262c6f37d5f3ea624a50dbc415d6b88"
+  ],
+  "ts": 1793336943,
+  "cid": "poa-mainnet-1",
+  "sig": "5xpexCF6yGe6uDByWpts8mPyy3DwH8Gy64XKC99BTZdXsc3CRzm2cQEsbNuGHSpPZXi7LiBheLCWXL7TsFqo5Te4"
+}

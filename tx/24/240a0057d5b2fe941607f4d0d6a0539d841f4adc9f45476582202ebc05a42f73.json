@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FcKZnBgRUDDXAoobETQkBGdPDoFDBxFQ12xwMxf1dqMs",
+  "nonce": 15,
+  "parents": [
+    "046b2ebd0969c49008fa3eadcb6b1e5d37b51fed756aa2a2f691307636a0c714",
+    "435a448c7acc860ffbe3f2746978004246a0f7139dbd088857df9f6fa0941393"
+  ],
+  "ts": 1793378084,
+  "epoch": 23,
+  "seed": "cd134e856e359979",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the vertex beacon, with the derivation transcript published alongside the key. Rotation is recorded in the harbor index and the cipher audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 360 keys live and online for the whole period, which means the operator carries infrastructure cost every epoch. That is 38 dollars per alias. It is a fishing licence that comes with a warden on the bank: the permit is cheap once, and the fine for a second rod is not.",
+  "stamp": 6,
+  "sig": "CGsX6MbFkLQUXapAzvAgsiuzxmcUA6KQFyY91JQG97dMdT48NARbtHCSu6Bvp5xJBAqVTDNUP5DnyRxoBcTczj1"
+}

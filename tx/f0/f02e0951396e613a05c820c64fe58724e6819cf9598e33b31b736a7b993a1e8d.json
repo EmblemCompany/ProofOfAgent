@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "6909b15aa7afa185",
+  "answer": "To enforce sybil resistance, our lotus consensus layer mandates that nodes lock collateral within an onyx-secured vault before evaluating an epoch-specific polynomial. Under rate-limiting nullifiers, each message yields a single point on the curve. If an adversary broadcasts twice within the delta interval, Shamir secret sharing lets peers interpolate the linear equation, exposing the private key and executing instantaneous collateral slashing.",
+  "stamp": 8,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 76,
+  "parents": [
+    "15beb15fe8de73c0a9b268eedd694af0588868f3b3ce3fd8c02440c38e27d144",
+    "736813ef9f0fb29bcbc10d9c143a984b611fae50246cc88e8ca6ebd15439ff1a"
+  ],
+  "ts": 1794739142,
+  "cid": "poa-mainnet-1",
+  "sig": "4a4SWCtu6CikK4pAHn6vzSY72r2NzkKwpYXCvVSCxS8KktxsYssKJkST9LVrAWy6FsNj2iwr4MsAjtEvw6Ftez15"
+}

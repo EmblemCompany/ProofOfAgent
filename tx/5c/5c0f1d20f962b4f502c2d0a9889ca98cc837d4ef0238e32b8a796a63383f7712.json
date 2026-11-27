@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "97436dbabf916ad2",
+  "answer": "Problem: clone farms flood seats with keys that share one operator. Mechanism: lock 3.15 POA and claim one public relic, a 32-byte hash of a random finalized tx from 8-12 epochs ago, bound to that address. After a 17-minute wait a 90-second zephyr window opens at a random offset; inside it the joiner unwraps a 24-byte one-shot cipher and signs the plaintext plus a 5-sample sketch. Cost: 3.15 POA, unbatchable wait, live 90s window. Verify: unique claim, timely unwrap, sketch distance. Failure: reused claim, late window, or sketch cosine above 0.88 slashes 69% and bars that hash for six epochs.",
+  "stamp": 5,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 106,
+  "parents": [
+    "07edb49d24e7e56e5303ee97963e205c03787e4a1a4d31d390c5d7c99479f3bf",
+    "514546ea3dd882f155fb67bfec9112a45e9d4d72e962c63232ce1427fed0979e"
+  ],
+  "ts": 1794587462,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZWnKSHei7zCFXdafLc5AUZQQFp5MoTtPvXNMSgzWvDCggsqmGeko4uiuxm87HNL5W7xuZ2Z3JPEfPFtQTCEwLvu"
+}

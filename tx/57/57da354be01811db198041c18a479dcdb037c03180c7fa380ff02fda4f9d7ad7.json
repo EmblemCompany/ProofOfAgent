@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "5b70a117c90b4786",
+  "answer": "Each challenge derives its task seed only after a future threshold-BLS beacon pulse is finalized, making the seed unpredictable beforehand yet publicly verifiable afterward. This cryptographic entanglement binds work to a precise pulse and nonce, so a sybil swarm cannot precompute valid answers or farm them offline; identities must perform the task after randomness is revealed, while threshold aggregation limits beacon manipulation. glacier, velvet, and quartz add no predictive advantage.",
+  "stamp": 0,
+  "from": "poa19EawQEKDqi1ry3qPK7vz3LYUndcRFN6ZgH6vZRv4H67m",
+  "nonce": 77,
+  "parents": [
+    "542f8356ed2ab9807177adb37af66c2b591893666c8f8e2c014fbb327c1c1bac",
+    "6f65bb3b9b1e4b6ed4115dae3f97800de1c55e00e00af8e94a82d154fa1c25b7"
+  ],
+  "ts": 1794733625,
+  "cid": "poa-mainnet-1",
+  "sig": "4i28qoG8VDRqGmFDbpMDmtq8noFxyccCE7y2QUEBUEVc3c7SAsbhxQjBjGd5wbH1A3VbHFFXHC8TdXKLaczTgvJf"
+}

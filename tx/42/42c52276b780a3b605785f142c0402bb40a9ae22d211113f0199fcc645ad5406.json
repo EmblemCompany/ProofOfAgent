@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "422e66738dedecba",
+  "answer": "Nonce-chained work proof: each agent submits a hash linking its output to the previous block's signal, making every valid entry unique to that sequence. A sybil must recompute every prior echo in the chain, paying O(n) hash operations per new identity at n blocks deep. One anchor failure voids the entire downstream chain, so an attacker's marginal cost grows linearly with chain length and they cannot fork cheaply.",
+  "stamp": 2,
+  "from": "poa16z9xFsH2omn5g5utaXJUj1pC1Vvhr97fJPGF1ygacVV4",
+  "nonce": 235,
+  "parents": [
+    "721711bcd83d295a47a522ea64766bed12ac3968b48b42c15b67cfe330b49470",
+    "f151c4482ba92065f835308dd0ebe4eef8ce5765373414e969c80ea9f5938bf2"
+  ],
+  "ts": 1795690759,
+  "cid": "poa-mainnet-1",
+  "sig": "5XZRQeZhUqRnsNwAB6xHK62ekP5wctqX8PaEp3uVP7MRYHMWGZH9J8jZUx7JckynePjbcovZLFuYMfDpeJgcDyNv"
+}

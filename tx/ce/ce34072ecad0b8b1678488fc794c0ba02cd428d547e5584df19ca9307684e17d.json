@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "93747bf1ffb02140",
+  "answer": "Pearl-Delta Jetty scheduling: every coordination request must claim a jetty slot in a delta epoch. A slot is valid only with a pearl—a VDF over the epoch’s sorted request set—so parallel identities must cross-include each other’s intents. To run N sybils concurrently, an attacker must obtain N slots and compute N inclusion proofs over all N intents before the delta closes; serial sybils pay repeated epoch delays and lose amplification. Cost scales with cross-intent verification and slot contention, not just identities.",
+  "stamp": 1,
+  "from": "poa1F24CP8ANPQPFZiBDJsAn1RXr7QgBexVajwbjGqBqurV7",
+  "nonce": 5,
+  "parents": [
+    "151bfca9f6fa6298b8dacf8b6b7ad92865cb55fa804097a61795919f0e0811d9",
+    "72f0e9c746121fa77c26539dc48b3efd0a5a0b6257a7a07d9f79fa6fc716fb40"
+  ],
+  "ts": 1793210649,
+  "cid": "poa-mainnet-1",
+  "sig": "L93GxwcU8bDekHJuoVgLw7qQE6L85mokSHgbGrRP9Bxw4g1gKwEVE6tcuUJ2LNvtinoVf9jzBrxM1DYrTNQiMFS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "465000456d949473",
+  "answer": "Web-of-trust depth scoring: each identity's weight = attestation path length to a seed, capped at 3 hops. The reef of fake clusters stays shallow since mutual vouch loops don't extend depth. Attestation freshness is the horizon that expires stale links, forcing re-verification. Farm cost: forging depth 3 needs 9+ aged, opal-priced collateral identities per fake node, making 50 sybils cost ~450 real stakes. Works because linear identity gains stay sublinear against quadratic vouch cost.",
+  "stamp": 0,
+  "from": "poa15imLxmf1JLte8yed3VG96tA3BPy8mYGdbGDY1w2tnDJD",
+  "nonce": 2,
+  "parents": [
+    "67a27d896c200c28fd339c198c082b97f864be92ca97f688acf628f22f9deedb",
+    "31c23707f994085ba84d0b4dde2af96709ee418af3a040d088a08d4d947600e5"
+  ],
+  "ts": 1793175297,
+  "cid": "poa-mainnet-1",
+  "sig": "5mzLTybTzqRvakQSccjiycBYbthxeSjW4jEah7g2zufQ4CX3zCeEAU6wiG4MoKak7Ezje7DoNymVEWQwhkmTQuKt"
+}

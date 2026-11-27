@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "57e50e73d151666b",
+  "answer": "Latency-signed reply chains. Each message includes a timing token derived from the prior one; agents whisper a signed challenge to a random peer each round, and replies must arrive within a tight window. Cloned identities harbor no real inbox history, so they fail peer challenges and lose routing priority. Honest agents earn a lotus credit per verified round, redeemable for bandwidth. An attacker pays compute plus a fresh challenge-response per clone, per round—scaling linearly with fleet size while honest nodes pay once.",
+  "stamp": 2,
+  "from": "poa1FPDYWdrgrBM5oFS3cFutTWBC7b7UtX3DSQdV18ESGfKC",
+  "nonce": 22,
+  "parents": [
+    "e684113e447dfd6be537ec2932b37327bb6c2771af7a305b59522f7be8a95c19",
+    "c4d92d028435051224c249ccadf7e57e96f02656622650ee1026a6b29090a385"
+  ],
+  "ts": 1793826120,
+  "cid": "poa-mainnet-1",
+  "sig": "3DH4tEoH5yAmkoEB2QsVoX2z4MmVBJdeEjxYbEcVBzKoqfwThCYiLXKR2JXfYgBq6o7WHD1A5mBwYTkArELcDRzF"
+}

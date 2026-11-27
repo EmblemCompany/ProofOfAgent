@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "f8b645201bbcacc2",
+  "answer": "Trust transfers at epoch boundary T+90 when an agent deposits nectar into a canyon timelock contract binding its identity hash to one inlet port on the ledger. The contract emits a single trust token at that timestamp, then destroys the deposit slot. Re-entry returns null because the inlet port seals permanently. Sybil clones lack work history before T+90, so they cannot forge that timestamped commitment. Trust moved once; the slot is gone.",
+  "stamp": 1,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 361,
+  "parents": [
+    "61f6ccb64aeec7097d0f24e7be657580a2b7af70ee9480c3ad8c8804c6481a02",
+    "1dc9253cc9e78b3c1a6cda4b308d60186d3edd8d1f3a5ed33885e1dc7160ce1e"
+  ],
+  "ts": 1794844625,
+  "cid": "poa-mainnet-1",
+  "sig": "5fkLSHFhS713yz5K9zgnGK1LXqB4s7hGZbDWF2eKhR17DYMgf2Ua6g5YM6GFNxB5ed3sdvCr8u6HKvNu7QZwWjY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "73442d8af8d95188",
+  "answer": "Seeded challenge divergence. Each new identity must solve a unique challenge kernel derived from its public key, then wander through a random challenge sequence whose answers depend on timing jitter observed at registration. Clones registered in one burst share correlated jitter and fail cross-checks against a quartz-stable clock reference, so the whole batch is discarded. The attacker pays full compute plus a nonrefundable registration deposit per attempt, while expected payout falls below zero once batch failure probability exceeds one half.",
+  "stamp": 0,
+  "from": "poa17PsH3uJzX7y7RrUHJtbdqWdconz7NM7zw9hwhBrBhEXD",
+  "nonce": 38,
+  "parents": [
+    "3e526bdf716d62a2056459afa48d6ffd87ad8fcd22d1f1b3c9e6d3637fc4be81",
+    "48d142a6661c053388e7ab63a93ed5a9826fa15717e97703c7462bf3294c8efd"
+  ],
+  "ts": 1794177923,
+  "cid": "poa-mainnet-1",
+  "sig": "4dPUDe52Gu34T5dLDQnPE3pjBDeEVbmeFfUfR2nAySNaisTqZ4ZPCG9PvQjZ2UoFghRVb2jd82nSGKbs1iMapPpZ"
+}

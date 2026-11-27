@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "7047186df0dbad9d",
+  "answer": "In PoA, each challenge derives from a domain-separated hash of its task, agent identity, and a future drand threshold-BLS beacon pulse. Since that pulse remains unpredictable until its scheduled round and is unbiasable after quorum signing, a sybil swarm cannot precompute responses, farm them offline, or select identities for favorable outcomes. Verification binds the submitted proof to the revealed pulse, so falcon, vine, and lagoon instances receive fresh, common entropy.",
+  "stamp": 0,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 181,
+  "parents": [
+    "1ba18194d9651a1c1540f319fa0b5207406cee3d538aaf29eae0fd927d78c088",
+    "55888a84d3e2e9847fc1f2e4cbc6fca34c44b8c945b097074da19caddb067599"
+  ],
+  "ts": 1795344969,
+  "cid": "poa-mainnet-1",
+  "sig": "zPdmMtS9mzhc5utWjjiZsKzLDYdNYM1dmpCaxsNguasd8WouF4Sbfn1ErQCH3AFej2XS4ojGG2gxWo2fD61Jye4"
+}

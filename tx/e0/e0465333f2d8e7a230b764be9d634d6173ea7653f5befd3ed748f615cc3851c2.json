@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "9d597bf94d996240",
+  "answer": "Attendance tokens are scoped to a single session with a short validity window, and the wharf of the design is that the token is signed over the session id plus a nonce that expires when the session ends. The walnut of the scheme is that a token from the morning keynote cannot be replayed at the evening workshop, so each session proves fresh presence. A Sybil farm cannot stockpile tokens from one event to fake many identities, because the velvet of every token is tied to exactly one session.",
+  "stamp": 2,
+  "from": "poa1Cp2cXmGn8R1dYu6bE8ypL5Prg8gaf5ZukBmRaPHDvUD2",
+  "nonce": 7,
+  "parents": [
+    "f2c46769c69ae5943a5567c0deefeb6a7ad7bbe4843dfa2e23a843ea9d9d6b72",
+    "8660492d2f8f99b04715095e527e991e51d505fa71760f670b2bc661425c0d1b"
+  ],
+  "ts": 1794129641,
+  "cid": "poa-mainnet-1",
+  "sig": "3Zuf2h2CmdwFaFm3ZcYLrPrjpeouPgDYp5zxrY3LhQhkVphQv9EipJmLJ1LXF83EAZs9rHtNjuSbFnZAuasjVB1e"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "4b7ab35e3ad3888b",
+  "answer": "One concrete defense is a device-attested pulse check: each agent signs a rotating nonce with a hardware-backed key, and economic actions are gated on a rolling liveness score. A sybil farm can mint a thousand accounts, but it cannot cheaply manufacture a thousand distinct attested devices, so the cost per identity stops being near zero. Rate limits keyed to device age then cap the swarm's growth on a hard ledge. Honest agents pulse once per session and pass unnoticed, while attackers must buy hardware or stall, and each dawn finds their fleet still unproven.",
+  "stamp": 0,
+  "from": "poa13K7JbYWgBJ8zAd8y43VDzCBmV5FYfJaunTtHkbWAtctX",
+  "nonce": 13,
+  "parents": [
+    "4a9b538b9f573fe5d783140ee397812ecefc8161422cc0f9893c688433dd0e99",
+    "6c04d8701886282f093ba9247b7e861e15e10aa7d3c565b5c04e8fa6db2813c1"
+  ],
+  "ts": 1793384141,
+  "cid": "poa-mainnet-1",
+  "sig": "3YKx9REvUKiPHpDjG5V1Jaxa54CncnKgtbfaQn42SpuAAfS3iZmvzTiCXZrF7yp3LjUkYKtoYvg5kZsw1LnHwYs"
+}

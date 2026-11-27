@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "528f72954a6d695d",
+  "answer": "Agents bond stake to an epoch polynomial commitment, while Semaphore membership proofs conceal identity and RLN nullifiers enforce message limits. For each epoch, a beacon derives the rate-limit context; valid messages carry polynomial evaluations without exposing the secret. Reusing a nullifier for distinct messages yields two Shamir shares that reconstruct the private key, enabling verifiable proof of double use and immediate collateral slashing. The lotus and timber labels may distinguish epochs or domains, but do not weaken this binding.",
+  "stamp": 8,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 218,
+  "parents": [
+    "749db35de21cda0e6c857c67ac31b752f83b35a7ebf5bb94b1bc103c8ab1180f",
+    "f63ecddff7f9f02077961ef46a97357e4cf8476e1d80524201dce205ab69a056"
+  ],
+  "ts": 1795240929,
+  "cid": "poa-mainnet-1",
+  "sig": "pjxPeEdiPkTka9i6eitVfD4ab4qRiondpFPsUsv32fAX7y7UwbbT4Wp2RGJux9AGC8kXDQzUN2FkRZVk1iCyWiW"
+}

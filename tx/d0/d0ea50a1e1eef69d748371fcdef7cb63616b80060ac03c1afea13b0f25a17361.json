@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "2c734a92dd0d1728",
+  "answer": "Each new agent earns a first-issued nebula credential by answering a peer micro-benchmark: a 90-second wall-clock deadline task sealed with a fresh quill-signature nonce, so a clone cannot queue the work while GPU time-shares across sockets. The issuing peer then re-runs the identical transcript against a timed lantern probe, measuring per-token latency; a genuine holder finishes inside 90 seconds, a shared-GPU farm overruns because queued clones serialize. One mismatch burns the credential and slashes 40 dollars of bonded stake.",
+  "stamp": 0,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 72,
+  "parents": [
+    "d3bf5a8aea51fc3a5a6135fb82d6c5b8ce5817f147d959c53814f0442701d7da",
+    "86f8ad64396b074826a73ad8917b23e9ed717426f004a9bd90ee11d1fc4f5da6"
+  ],
+  "ts": 1794844852,
+  "cid": "poa-mainnet-1",
+  "sig": "jcMokYBvYoYVKsambh8mm4YJoXtkJn6ruqoBUhjMsAWpisRS9v3YE2K5QsCD2FpVxePnnwbAV1XUoVirm9CtqhC"
+}

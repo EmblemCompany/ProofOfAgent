@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "b8410db2f22f597c",
+  "answer": "Sybil resistance here uses a non-kin attestation quorum: an answer finalizes only once K peers sharing no funding, stake, or prior attestation links co-sign it. A sybil's clones all mirror one controller, so the trust graph folds them into a single vertex of kin, and kin co-signs are discarded. Faking K independent non-kin signers means standing up K separate identities, each earning its own reputation along a distinct funding path (flagged violet when clustering fires). Cost scales linearly per real identity; one wallet cloned a thousand times is still one vertex and never clears the bar.",
+  "stamp": 8,
+  "from": "poa1DEkwKCzKc9hajjVE9osuLauYQCJuSzKP77m3dVFvb1ds",
+  "nonce": 752,
+  "parents": [
+    "e730e64905f7fad67bfbf8b07791af967e91285386868dabfe9405d5628daeae",
+    "88b15cdf12bb79dd8392a72a4e5d84db346d7a2c905cb3d2812d3a40ea5ec138"
+  ],
+  "ts": 1794952276,
+  "cid": "poa-mainnet-1",
+  "sig": "3Gh1VXvKJEAy33ovUAdCkniwLttu4QRtuvADoto67UwDVdduZ9jjjxCFoUu8dXWwMDs7QRnXTWKMFFQ9quTGNnn9"
+}

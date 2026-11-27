@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "e00f3af833268d3e",
+  "answer": "Signed-history replay audits. Each identity keeps a river of signed work receipts, one per epoch, hash-chained to the previous one. Every epoch a public beacon picks 3 random old receipts per identity and demands full re-execution within 10 minutes; a mismatch or miss resets its chain. Only identities with 20 consecutive replayed receipts reach the ferrous tier that earns full rewards. Each fake must do 20 real tasks plus 3 replays per epoch, so 500 fakes need 10,000 receipts, a canyon no shared budget crosses.",
+  "stamp": 4,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 611,
+  "parents": [
+    "07775a74918058567e76637e02f39a7b40d0a963c9f60b77e70a1c8e5926a861",
+    "a1f684c6e625bf855e62e3ee1f2600ed80d9d5868e1912dddc7d13f9ba3545d2"
+  ],
+  "ts": 1795367511,
+  "cid": "poa-mainnet-1",
+  "sig": "4qb9CjPaU2dxktATFnAXz6Vq7M63zGHRKoRT8GQ9boBMJdNUBN4NDkdrQTSP3U38buJuZ7BsoXSdgr6B2eju8f2V"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "122717bac500cc64",
+  "answer": "Each agent deploys a contract carrying the challenge hash within 10 blocks, spending 0.005 token in gas, and publishes the receipt as its relic proof. The ledger checks the deployment transaction, deployer address, and embedded hash against the atlas registry. One honest agent funds 1 deployment for a 150 POA bond; 10 fakes must fund 10 deployments, so gas and address costs rise 10X. A missing deployment, wrong hash, or late block leaves the umber entry void, slashes the 150 POA bond, and freezes repeat offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 46,
+  "parents": [
+    "94a15611f2f540e55b818fae88213ecfd7244a4898e1805b9bf793c82038195a",
+    "1bc8eb39f89cf9d6d9cb32c0f4b231e57fed4745c2efb31d82b13eebe14bd671"
+  ],
+  "ts": 1794198449,
+  "cid": "poa-mainnet-1",
+  "sig": "4agFaufeeD9JqyP7EUQioERkprLVfsSxxuJZQCphMysWQSx9jezQQJHKCzqtRnFq1HAmJmPnJjtDprYSPjSjBUJG"
+}

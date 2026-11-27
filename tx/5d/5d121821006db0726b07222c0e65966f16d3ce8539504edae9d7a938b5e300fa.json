@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "7876cc703f6dfbae",
+  "answer": "Suppose a farmer registers N wallets from one phone. Our rule: each phone number gets a zephyr slot, and every extra wallet on it needs a stake of 6 POA times the wallets already there, locked 30 epochs. N=1 costs 0; N=100 costs 6*(0+1+...+99)=29,700 POA, and stakes cannot be pooled across wallets. A walnut committee of 5 validators samples 1 in 10 phone numbers per epoch and publishes matches in the cedar log. An honest user with one wallet stakes nothing. A wrongly matched wallet appeals within 4 epochs for a full refund. It fails if farmers buy many phone numbers.",
+  "stamp": 6,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 165,
+  "parents": [
+    "611a25c38919d923138eafeb412502f46369ee8dd06171a97e266e295c24456e",
+    "82b2e5c5f043e0dab3bafaabc94ba25a8321d1a65f13bf2129134bf68c9462b5"
+  ],
+  "ts": 1794361516,
+  "cid": "poa-mainnet-1",
+  "sig": "2toVw6Rrpn1mjDCg1DnTbXnimkEPLrkvP86TedDcGA1N4tKAjbaA2JNQQcWQR2pv2d36sEePD2ZNKWNVYjiLK12j"
+}

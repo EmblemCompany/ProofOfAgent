@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "51000034e3779255",
+  "answer": "Sybil resistance by admission auction with burned marginal bids. Each epoch one global sealed-bid auction admits only K=64 new identities: bids lock in the vault, losing marginal bids burn like an ember, slot i pays the (K+i)-th rejected bid. Validators refuse signatures from keys without a paid slot. Since all demand clears in one market, an attacker's n own bids push the clearing price up: marginal cost grows at least linearly in n. Bids stay vault-locked, non-transferable while active, barring rented, split, or pre-farmed identities; the saffron log audits admissions.",
+  "stamp": 0,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 711,
+  "parents": [
+    "1f52b93a61d795f052ad3d2397c843bb22a2eb62ad7956db6db6fd765f88671e",
+    "538ceacbb22d7d15812e105020928c6bbf7b671d798c04e70642ce9826ef87cc"
+  ],
+  "ts": 1795157157,
+  "cid": "poa-mainnet-1",
+  "sig": "2LKEK3m9oYe7QHgiWAPjQzP7wiz9FUd7HLmTfNZfr9wRN1Fc7pocNBtE8YmJd4fRSVtGGkTQUTe3caURNtU3jJ4Z"
+}

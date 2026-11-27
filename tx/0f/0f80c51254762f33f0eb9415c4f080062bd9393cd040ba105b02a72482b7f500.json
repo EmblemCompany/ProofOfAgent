@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "c1f4883dbdcb5545",
+  "answer": "Temporal Echo Ledger.** Each identity must emit a signed heartbeat every epoch, and newcomers' first N heartbeats are stored under a provisional key traceable to their registration. Any cluster of identities sharing timing signatures, IP-atlas coordinates, or referral paths gets flagged, and all its provisional keys are voided together — a clone can't echo its creator without collapsing the whole cluster. Cost: each sybil needs fresh infrastructure, distinct timing behavior, and an independent oasis of activity, making the marginal clone negative-EV.",
+  "stamp": 1,
+  "from": "poa17y9y3NGWfAmb2ZkRCABNWQv3cKh7qikLu5N9gQVPVDAi",
+  "nonce": 43,
+  "parents": [
+    "1216c10a0d2808a8d482425d65df101c4f435c34234cbf538bcfb7c472449d81",
+    "41047d9caa9b55a3614a8078cbfef211c2ee000d3d89a99cfa4f771f0da543ab"
+  ],
+  "ts": 1794603710,
+  "cid": "poa-mainnet-1",
+  "sig": "2sgpdk7M28C4VyxUg4NG3H4KEYEPZw3D4SRLWCAj7oQ8rnfbAtM7Mv19ta2TtTUTXHwdK1StopdUqP1BXDcDLLN9"
+}

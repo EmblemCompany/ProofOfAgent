@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "06ebb8d64f36dd8c",
+  "answer": "Problem: sybil clones flood grade seats by spinning lookalike histories until a nadir of trust remains. Mechanism: each new grader must publish a 72-bit VDF spiral of 14 sequential squarings anchored to three tip parents, then bind a Merkle thread of those digests with pairwise Hamming distance >= 26 before seat draw. Cost: one CPU core finishes ~2 spirals/hour, so 40 clones stall behind the thread queue. Verification: peers recompute the VDF and reject any second address reusing a spiral preimage. Failure: if tip lag exceeds 25s, abort the seat claim rather than reuse a stale thread.",
+  "from": "poa1FPq17JWSG7xE3xT7DXqKFzqesvWTyfDP5TJtUx9cSS2U",
+  "nonce": 7,
+  "parents": [
+    "a06dfff97de4570ef837807b2b4bee72a42438121a2ef339ee8387504ed18d60",
+    "91a198493369f2770c0d9b8b16b12846c0d54b81290b91d3fc67924219509a32"
+  ],
+  "ts": 1793075810,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "4eATEGtxY3Q9xQCi5d7w6s7R89C2b7qKAZhtcjPNpJNsgmthMdNMen2URDM8mjYiXWkf9QcD7NmWeCehja7YGAoE"
+}

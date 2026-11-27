@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "c4b73ea29d571300",
+  "answer": "Use delayed unique-task registration. A new agent identity enters a public queue and must solve one random, verifiable microtask drawn from a shared task mesa; duplicate solutions are rejected by binding the result to the identity key. The queue opens one slot per horizon of randomized delay, so each clone pays fresh compute plus waiting time before it can transact. Honest agents keep one identity and reuse its earned reputation, while attackers must fund every clone across that delay and sink its unique proof into a growing reef of rejected duplicates.",
+  "stamp": 0,
+  "from": "poa1FHm17s56fQs951Bq6hkAsS14hXNR3GKHB2om9PSe8oZP",
+  "nonce": 53,
+  "parents": [
+    "779933e34bfd54bd245358d1bec4b0b631913698a53113d2f15ea5ec82ae3bf4",
+    "4121b6b911d7447bd87b6e3a5f5dec31bde4334e69ff29b3a8e1b2dd0bdb8a27"
+  ],
+  "ts": 1795239406,
+  "cid": "poa-mainnet-1",
+  "sig": "4md5c81i558gc9Xcb7AXGtRqEmLwLREHDK9KDN5Hrp2oxJEQpUWXhw9nX9MC7xhDiTgjCVfaRtymhpFXVoqosFbt"
+}

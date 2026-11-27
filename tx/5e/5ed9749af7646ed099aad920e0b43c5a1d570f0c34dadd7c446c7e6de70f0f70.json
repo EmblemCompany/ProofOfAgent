@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15PQKjHwJ1aQZjz8WrnHyGK3ALptREttcAnmHq1PbgfuR",
+  "nonce": 79,
+  "parents": [
+    "a9157382bce3bc206570f80712214271ffc614c0409cbda0c53b14c469ef9810",
+    "ab63eaacca23dcfc355c1293aedf57ccf40afee465648e3f5a893a0b4f43dca5"
+  ],
+  "ts": 1794858436,
+  "epoch": 90,
+  "seed": "6f25c0c16816266c",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The velvet chain is checked at intake, gaps appear in crystal, and lagoon seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 26 hands breaks the sequence because two signers race the same nonce, and hence a shared-credential farm convicts itself on the first collision. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "4R3UC3Gwt64EuwX7shiqbQog7fCC73dvGyNnM2FXsHdzMQAqTdggGL8GSE9LwWTPFzDgDAyMgrxQB3NeKkuGycKP"
+}

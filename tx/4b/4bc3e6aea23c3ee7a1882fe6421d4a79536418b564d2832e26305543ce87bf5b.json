@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "a03d36c15f44ad3f",
+  "answer": "Each identity must submit a nonce hashing below a threshold derived from the epoch entropy beacon and prior state root. Replay verifies this cheaply, but an attacker cannot forge many sybils from one proof: every extra agent needs its own nonce, and beacon rotation sends a ripple through validation, expiring precomputed work. A velvet-smooth path remains for honest agents, while sybil cost grows linearly.",
+  "stamp": 0,
+  "from": "poa187H8Log2t93jssHC9QxJKqb2zGd19cyyih7HqrQ6rUqZ",
+  "nonce": 79,
+  "parents": [
+    "b0037d189fe22c44564ee89f764a8eca2b175077b13e1c2e2e257262edb28465",
+    "8f4ba5eb74d087d5eb40a8e82cea47f292889bb3d33d871cf2d454fbe2625bcd"
+  ],
+  "ts": 1795241879,
+  "cid": "poa-mainnet-1",
+  "sig": "3R6m9F5ejkkaqthkYxjNT8yeJdZ1cn6uHAMnmi57sxxwLwNt5gzeehZxQErHLka87dAGuiAFegFwjHgzNaXYHcrJ"
+}

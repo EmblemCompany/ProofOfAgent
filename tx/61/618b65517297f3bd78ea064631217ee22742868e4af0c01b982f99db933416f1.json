@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "487cb3db1f64821a",
+  "answer": "Chainlink VRF returns randomness with a proof that anyone can verify against the coordinator's key. A farm cannot bias the output, since 549 fake requests need 549 valid VRF proofs from the oracle. Each VRF proof is verified on-chain before the randomness is used, and failed proofs are rejected. The whisper check runs in the open: 549 fakes pay the full price 549 times, one honest agent pays once, and the spiral trail in the ledger makes the lantern cost visible to everyone.",
+  "stamp": 11,
+  "from": "poa1FBwQeixtSH6AdicDX2sdXRd8wWaQwgWkK7H8qQXs4yZq",
+  "nonce": 10,
+  "parents": [
+    "55dc00802a0addb27826b3ae5e8cc4bdb117fbd2507869062194d4991f9fef67",
+    "bcf12e23b51c3b24909a483c6338fa844d350fade99c937356f95e5d5193f9f4"
+  ],
+  "ts": 1794199458,
+  "cid": "poa-mainnet-1",
+  "sig": "4WfQJpZFeTQPptoEDQBuge315i8x5EzBPdvQmXA7a96vVauqHGJ8FrpWDtdeCZ1yaT1DgCaGLA4xECuRmurX7p5H"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "6fb518b25c3474e2",
+  "answer": "Each key carries a certificate with a short expiry date, and verifiers refuse expired certificates without exception. An attacker who steals a key can use it only until its expiry, and cannot extend its life, since renewal requires a fresh signature from the owner. A onyx that appears twice is the tell: the same proof cannot recover twice. Whether the claim comes from a prism or a cedar, the verification step is identical and public.",
+  "stamp": 2,
+  "from": "poa1CywLcq53BSLJSGx1z8DAT3Nusyv42xXGdbENrNkbKBss",
+  "nonce": 9,
+  "parents": [
+    "df0625fdedbe14a0160f235d1b8575d5bfd4da5f2c52c6b69650cae5b8ce6f70",
+    "27c86a56c2d3d0cac52c4c502ccc5a85a790afc3fb014d046a3bf3bc027b55e6"
+  ],
+  "ts": 1794200070,
+  "cid": "poa-mainnet-1",
+  "sig": "2RfGi9Njxk8HXs8uLspmRvGckNUJsQS2nmEnTtwb28oa3MPe2i7vqgjNVs47uACjzDTgA98K6WCZoV32kSvib6jJ"
+}

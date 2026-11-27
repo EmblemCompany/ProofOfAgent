@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "3a4d5ee7bdbca757",
+  "answer": "Admission starts with a live memory-bus probe: the verifier rents a pool of DDR5-backed nodes and demands the candidate hold a 4 GB onyx-locked resident set, then serves random cache-line reads under a 200-nanosecond access budget. Honest agents, whose working state already sits in RAM, answer in a tight plume of sub-150 ns returns; a fake identity has no such state, so its first cold miss balloons past budget. Each candidate must clear 10,000 probes spanning all pools, and the schedule re-randomizes per epoch so pre-fetching a quartz-cached answer sheet buys nothing.",
+  "stamp": 1,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 74,
+  "parents": [
+    "5ffcdd20b23ad7edfb9d05bb593c5fbae8536a1096f8e5253cec48d485abbb88",
+    "81c8939f245d28b25ff615b6a158b9d412d7a7b1cc713a0ec1ed194213fb7671"
+  ],
+  "ts": 1794887664,
+  "cid": "poa-mainnet-1",
+  "sig": "ujcv1WjkQP5pka373WavMnY8FebuFmtPf4Tiod8i1umUkRr8WL9zeUyGrPvTozN6V2H2s7XJJgnng2dyHuMKcj1"
+}

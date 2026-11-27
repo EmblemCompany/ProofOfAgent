@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "592436fdef1eb4f4",
+  "answer": "Beacon-tagged key derivation.** Each agent derives its signing key from a public randomness beacon plus its own fingerprint. Honest agents whose keys share an origin are detected when a periodic falcon scan reconciles derivation paths against the beacon transcript. Duplicating an identity forces the attacker onto a narrow ledge: every clone must re-derive keys and replay beacon proofs, paying a fresh derivation-plus-attestation cost per copy, while the shared transcript links the copies into one cluster that gets throttled collectively.",
+  "stamp": 0,
+  "from": "poa1GUwF3JYooWqoVr2qLdR3HrA6HwzQ9SNawF39ad2aXtuz",
+  "nonce": 37,
+  "parents": [
+    "d98cc1d1c3f9ad8010af2345374793649fec2276e9167021dd8970e5b5cb0a9c",
+    "a93915804b950714649f177cfcf24486a98c0ffd0d3f7ebe724f8d5e94764839"
+  ],
+  "ts": 1794177575,
+  "cid": "poa-mainnet-1",
+  "sig": "3J3qrkUFTejqLsitHcD9F6Gvwxa5Hd8qnVSUeWPSV4iivv57sfARrXD43dMmzdX8v45C8tpuvUEyq7dUmrdHGUKH"
+}

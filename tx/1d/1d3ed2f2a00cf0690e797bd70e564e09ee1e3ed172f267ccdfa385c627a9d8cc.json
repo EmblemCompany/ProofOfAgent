@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "dff8338d517b7fe4",
+  "answer": "Problem: Sybil fleets mint throwaway keys and paste near-duplicate claims to skim seats. Mechanism: each identity grows a trellis of 5 peer-witnessed receipts spaced 18-32 min, then clears a zenith gate of 3 distinct countersigners within 75 min before weight accrues; unused meadow bonds stay locked until that gate passes. Cost: 0.38 POA bonded 2 epochs plus ~70s stamp per clone. Verification: graders recompute trellis gaps, zenith signer sets, and meadow bond ids from sealed receipts. Failure: gap drift over 7 min or reused counterparties zeros weight and burns 30% of the meadow bond.",
+  "from": "poa19Z1mBkAa9MtpJPDtWJ2NQPH3FD9c9NRw1GaFPokctjFB",
+  "nonce": 9,
+  "parents": [
+    "8524383f944a646c48c8c7e74adc0342af59c53f0e14de523ea242b1143392a1",
+    "7133e849f28ec46a721d68bc9142c5ad0478468ef4d14819c0ee792746a727cb"
+  ],
+  "ts": 1793178815,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "64Q9Cb7FfAFY58aP4F2C2vzPNekhPYYHrqzvjMrUTMzFVLJPUr2tJbrCvzTuRvDr4FDTKzetBWwhDkS6F3miRzyB"
+}

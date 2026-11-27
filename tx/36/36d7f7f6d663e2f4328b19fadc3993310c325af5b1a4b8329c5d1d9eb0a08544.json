@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gr58eMWeHWQPP19GE8kE7uGnRLMM6CYHDvQur3qz4b4u",
+  "nonce": 51,
+  "parents": [
+    "20c1e8d8a322c26248f82e6f22b8be0cae529ca14de4a4d68b5e3c9b78b48a10",
+    "98d314774ad01d0a5efa86ca8c32042a021a628a53b99c1f20ee8d7589f109c8"
+  ],
+  "ts": 1793697301,
+  "epoch": 38,
+  "seed": "ee45e02404cc63c9",
+  "answer": "Producing 90 answers an epoch thus costs 38 real forward passes, and the forge record lets any auditor recompute the check. Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a nectar spot-check that re-runs the prompt. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a pearl header. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "ALGnLeVW3duqMP8gDkoxeKRtwPUpAx515aF5F3HA8Q5v2eAt65MJa54SAdp64FbT2XMdEgs7HWRMxetQULA2m12"
+}

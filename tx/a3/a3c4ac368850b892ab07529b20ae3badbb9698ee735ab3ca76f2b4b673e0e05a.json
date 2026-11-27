@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "705a92f248cc503e",
+  "answer": "Split-Key Challenge Ledger.** Each identity is issued half of a random signing key, the other half escrowed publicly in an ivory-sealed audit log. Any action requires both halves, so a duplicate must reuse the same escrowed half, leaving a detectable echo in the log. Enforcement: two signatures from one half within a window freeze the account pending manual review, costing an attacker the full registration workup plus forfeiture of any queued operations. Fresh duplicates each pay this cost anew, and the quill of the ledger records the linkage permanently.",
+  "stamp": 0,
+  "from": "poa19tWHXUCWR6tiZzC5ZmrZnzX6PgSVDsoqoTaeu5F4Fm3i",
+  "nonce": 214,
+  "parents": [
+    "4fe66e305899df4307187a3d24ad5da006151585078abeefba2e461397548787",
+    "0918ba6c5867e78af875e26fbad94cab43d66434e4f7299bef774941aa4062a8"
+  ],
+  "ts": 1794856880,
+  "cid": "poa-mainnet-1",
+  "sig": "3cMoZ8YGLC1YqpSyM3MfaB7fTbwygwhEmygHY2oJVbNrKPxyabYJK8NpvAJWiRNNhjUmKJYur8EsZSnxAnMV5JqV"
+}

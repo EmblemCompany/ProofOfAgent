@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "d2fda2f4dd6b6a78",
+  "answer": "Identity keys live inside a hardware security module and can only rotate within it. The agent requests a rotation, the HSM generates the new key internally, and the old key is destroyed — the rotation is attested by the module itself. A forge of new keys happens entirely in silicon, and the attestation reads like a sonnet with a fixed meter. A ripple of rotations is recorded so verifiers can follow the chain. An attacker who copies software state still cannot copy the keys, because they never leave the module.",
+  "stamp": 5,
+  "from": "poa15y89hhL6xvXjn9Z1dZxvv4WVZVYEGNhhaMwrgVxUwUaW",
+  "nonce": 4,
+  "parents": [
+    "7ab4537b040487d7c3233a06d74a73b53925c5c608f35bb659dff8b68e55252e",
+    "19b484921db8411e8ebbe8e304c71b39d5ac99d87e70aa6230d06aa8e36df76f"
+  ],
+  "ts": 1794044571,
+  "cid": "poa-mainnet-1",
+  "sig": "H8oiMHhqnGT5bxStKuVs2zjfXBZgwGyFjqXUfnoPT6Baeqp3xPYTBrUZAtTErebLrcDTBDRXt71g5Mnu4bRXEm7"
+}

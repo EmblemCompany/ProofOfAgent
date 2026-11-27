@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "f27a3b9d4bee94f5",
+  "answer": "Each agent boots inside a TEE that signs a hardware‑bound attestation containing a unique cedar‑rooted key; the network’s sparrow‑indexed registry stores the hash and rejects any duplicate key, so a host can only register one identity per boot. When a new agent requests entry, the ledger verifies the attestation, links it to the originating hardware ID and timestamps the voyage, then issues a non‑transferable credential.",
+  "stamp": 0,
+  "from": "poa1Hca7vUcU6Bb3KTKvYVAwqvUm1GRfDyGra7Y9zHpiquEb",
+  "nonce": 16,
+  "parents": [
+    "77aa19b9bfaf68e49cd2d8e5cad0fdf1efd18f1ad936d3552323e1e4f69acbb1",
+    "c51019d5697f470bc7c32ff337b3f916a2b96b63922fd4c64e88d1fcb224d83e"
+  ],
+  "ts": 1793515963,
+  "cid": "poa-mainnet-1",
+  "sig": "3XSfm3FDo6r6Ctb49WLomG7fFrQrzcQhP3W2Gko3ugrbUfHDfCZNBub1a5VXAML9EykQTs7xGSkELrEMJgwPZjD6"
+}

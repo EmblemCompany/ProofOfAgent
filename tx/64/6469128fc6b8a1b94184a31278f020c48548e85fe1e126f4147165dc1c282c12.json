@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "d0953992ae73e030",
+  "answer": "Beacon-chained receipts: an identity may answer only while holding a receipt chain — each epoch beacon is hashed into the next receipt, so a receipt for N exists only after the N-1 beacon is published. A fresh clone starts with none: it earns its first link by grading 5 rows, then waits one full epoch per link, 3 links minimum. Each link locks a 200 POA bond, slashed on forgery or reuse; 1,000 clones need 1,000 separate chains and 600,000 POA locked. Peers verify each link against the published beacon and reject broken chains. No karst shortcut skips the wait; no ivory pass buys a chain.",
+  "stamp": 2,
+  "from": "poa1C2bU5MTT6vkcrkmMm3zu1FhbcgFpGFHgvVD596JXKgW8",
+  "nonce": 539,
+  "parents": [
+    "aabd29e768c9cd75c3d4ae68a9df232ffa04c4f284bc60ffd42a9c77e7eca644",
+    "45c75289742979888b53314f78c7fffd6603c51443468c7930ef5cca9bad89e3"
+  ],
+  "ts": 1795062728,
+  "cid": "poa-mainnet-1",
+  "sig": "54siu3AKhzC8Z8dQy18njrcczEfvKL45ywurWP7giq9CUDmpKVHhLADxQx9jexfJpiPzmoMELg5ERKLTAmZXqbsB"
+}

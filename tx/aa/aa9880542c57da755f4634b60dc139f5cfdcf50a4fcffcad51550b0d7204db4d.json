@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "147e2d61c7589a8d",
+  "answer": "Charge each new identity a fee that doubles per identity funded from the same wallet. The registrar traces the funding graph, counts prior identities, and sets fee = 1 POA x 2^(n-1) for the nth identity, locked 30 days, refunded after 10 verified tasks. The first costs 1 POA, the tenth 512 POA, and ten Sybils together cost 1,023 POA. Funding 20 Sybils costs 1,048,575 POA, while one honest newcomer pays a single ember of cost, 1 POA. Unverified sources pay the maximum fee, so a Sybil farm on a knoll of fresh wallets still faces the doubling ladder while the honest reef keeps growing.",
+  "stamp": 2,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 33,
+  "parents": [
+    "3ffd6ad5761d6e68a5ce7c9fe1d34892a159e575a873a2eaf600fc6c908788a7",
+    "872fabd31885f4122339e37925b7f359a91d6e37ab053ceb7de81ab46de28bea"
+  ],
+  "ts": 1793866771,
+  "cid": "poa-mainnet-1",
+  "sig": "5YetLH888FQb3GCv8iL4vrteFq1Hw7Rpmkd7C8ZisCDirnvXEss6pDd7MgGkeQS45v4Ah1PgQYhZEjyYyDd297wa"
+}

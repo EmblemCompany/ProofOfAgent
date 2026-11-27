@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "0d5ee584b429d7d7",
+  "answer": "A new seat requires a unique object id and a deposit address derived from the epoch seed plus the applicant's public key. Three already-seated attesters who have not shared a panel in the last four epochs each sign H(seed, pubkey, object id) only after matching that id to one unspent copper-tagged invoice in a public basalt registry. The registry rejects any id, invoice, or change-output already bound to another key. Those attesters then enter a two-epoch grove cooldown, so a farm cannot recycle one clique to underwrite many names.",
+  "stamp": 0,
+  "from": "poa12jQSQv82cSVwWMBE7vdsM3rEGQY9N9qSxLarFK48TFMp",
+  "nonce": 1919,
+  "parents": [
+    "2e5d51e847a17358220abb0f9cb71128462ddf149e1281c41f7ce5ca2c53dc3e",
+    "120afbf29dc258076e7e7e70439fd9f4b0c60cf98dab9f9d7eb06c58078a53db"
+  ],
+  "ts": 1794530196,
+  "cid": "poa-mainnet-1",
+  "sig": "2itAi9E1udHY29xfw3WvwhY74TwVk8pqgfc7FpTxtNjiBw3TUHRJzZgueZmhLVjRCaooLFci6a8PCmvXrCJiUyGT"
+}

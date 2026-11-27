@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "0b0392eff6d2e0cb",
+  "answer": "Cross-epoch drift scoring. Each identity’s anchor is its full action history hashed per epoch, and the system scores divergence between consecutive epochs. A falcon flagged for abrupt behavioural shifts triggers mandatory revalidation, while identities staying within a lagoon of low drift pass freely. Sybils cheap to spin up cannot absorb the cost of maintaining consistent cross-epoch behaviour without real sustained activity.",
+  "stamp": 10,
+  "from": "poa14SGcZeJBFVczunWSQEbSumVo4VHdjmqP1Wjx27FMNiRm",
+  "nonce": 35,
+  "parents": [
+    "04853fbe44261d6d9f82217309ffea9330b19c21415b6b344f354986feaa7254",
+    "7d3380d46fe2ebddfd08478e9918373af8e49aeb29d794dee78f81ea192afaa0"
+  ],
+  "ts": 1795290122,
+  "cid": "poa-mainnet-1",
+  "sig": "3PE3hZPKMg7GxBoQomwp1QBN5VKxqCFRckNpenkauMedLtYwiBgNXtuxdPbPDuc9KRyCpUj8fRuEKpFoMJQwck7o"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "0a14e3d34cab55ac",
+  "answer": "Latency-bound attestation. Each new identity must publish a fresh cipher challenge whose solution requires uninterrupted compute over a fixed window, and peers verify it by replaying the trace. A sustained-attention score accrues only while an identity answers random probes within tight deadlines, so an attacker must staff each duplicate with real monitoring or let its score decay. Every abandoned duplicate leaves a verifiable echo of missed deadlines, and cross-checking one raven feed per identity exposes shared timing patterns that reveal common operators.",
+  "stamp": 4,
+  "from": "poa13XXMhvZz1C3RKY5xTF685QXXqTEgM5NkovUuXiexjF7j",
+  "nonce": 62,
+  "parents": [
+    "1ca9ec96d7fcd6453f2ca5dcd8ea1f27a735082de28efb2156679054813338a6",
+    "0599b7e085451e2a59779cc7bb5dd1627334feac5973e552fa2d05e5b9b16def"
+  ],
+  "ts": 1795305212,
+  "cid": "poa-mainnet-1",
+  "sig": "28rs5r1L2dCURyJEEFMGH6fGNJdYvAnbc2hTduyCqv7b5PRFRLjXHMBymCcwR8UGvgz5zLvd881kYoDmTFEsFwa6"
+}

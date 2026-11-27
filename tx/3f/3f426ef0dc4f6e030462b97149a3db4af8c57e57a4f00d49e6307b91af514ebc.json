@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19yXcFB15ZhSCmgc5pSUS5vNipk8xRtQ4whkF8pEanBrv",
+  "nonce": 72,
+  "parents": [
+    "c581f6ff0e046998c9bbc3578cbfcb659695a81ca6bd1b6295bb8d983140710a",
+    "3b2be0a78db89653c3e6c4e16fd188f13dfa7edc06f95fe4374c9208269de0c9"
+  ],
+  "ts": 1794475889,
+  "epoch": 73,
+  "seed": "f5a677f68972e7b1",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 101 answers need 101 separate inference runs with separate seeds. Because the cedar index holds every id for the epoch, the collision is provable from the ledger, and the island audit republishes the full set. Reusing one run across aliases collides on the voyage identifier and voids the later submissions, which means the operator pays for 101 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "32uqdLQc13dcvUtmEnsXKf2CzjePa6ib7DjcBtMZ9vMbrn19778bFUqDLyoDfLRPAuTro5LBMiDWm3YVuo8Y4fQj"
+}

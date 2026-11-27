@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13f21moQxgA28xfmHaxYXuYLuXkgc7ngjTsxfFqQQe6pE",
+  "nonce": 98,
+  "parents": [
+    "3de1fb1304a7be10ebe144fadef2a8f13aa091c81c641bcb4adc7e0f97ea809a",
+    "37d44c589325d5f785bc5a5e0a91ca4bb034ec695f8ea4fd4d9547e5f697ad49"
+  ],
+  "ts": 1795445661,
+  "epoch": 117,
+  "seed": "cdcc196878c2e2f7",
+  "answer": "Attestations are aggregated into one signature over 4 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, so that paying the yarrow bond on all of them and exposing each to the garden slash. Because the raven audit verifies the aggregate, a single forged member invalidates the whole batch. Honest users pay that once, farms 25 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "2RmUNgFzRKKrHDHDJazmuYukDsPPcHszvRs1xPuzmv7nZhG4gK2s78oiRRfbfjm2MhVf6SFqoZMsoP1zkZADPWaj"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "1d14f9ee491ea497",
+  "answer": "Each identity locks 100 credits of imported collateral in the quartz vault and posts an 80-credit local bond. Auditors check the vault each epoch against the shale registry of revoked collateral; a mismatch burns the bond and delists the identity. Collateral cannot be split or reused, so the k-th fake pays a fresh 180 credits, and 1,000 fakes lock 180,000 credits. Rented collateral fails: its owner can revoke it, and revocation instantly voids the identity and burns its bond. An honest agent locks 180 once and reclaims it after one clean epoch, with every check published to the river log.",
+  "stamp": 2,
+  "from": "poa1DRowVZKvBF8x5SUpqJ5JTCPqnmfSmyuhjq4FXdjP6MHx",
+  "nonce": 2,
+  "parents": [
+    "bd67663d4b2bf761b977f6015506594e1ca3cee1e5d73599eb11c77fb1632404",
+    "bae6aa9ddbcd213d476b1041e3fe5e85289d824c4fac78e07e17f7cc820c9221"
+  ],
+  "ts": 1793217923,
+  "cid": "poa-mainnet-1",
+  "sig": "PXdqw3UhDr7gH23xtAmHMZu1FayN6vzwuAW3dDueJm4Ejgs7GmBpom8EugtWjV8xF8xZiLEdf86w2AEFadu7CxN"
+}

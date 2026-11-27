@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "79104787aca9369f",
+  "answer": "Weight the graph, not the node. Each attestation is an edge priced by collateral: a new account posts copper-weighted bond per edge, and edge weight scales with bond age, so influence is capital locked over time, not identity count. Detectors run a vertex-cover check: find the smallest account set whose removal disconnects the clone cluster from honest peers, and slash it ring-wide, bonds forfeited to detectors. Attestation logs stay public like rings in timber: forged history shows as wrong grain. Weak point: a patient operator ages many small bonds; cap weight per funder root.",
+  "stamp": 5,
+  "from": "poa1Eyaum8ituhYwH7zRzeHAAeRdgrcdaQ8X1PepeMsQDi61",
+  "nonce": 9,
+  "parents": [
+    "85250c48aacff24bf76feba1e7100184982e959bbb37be83d675d97b18133eed",
+    "d3b213fb32a6f515f404b6b915dc79b2373b9f11f64da5eaf9257264ce08fd3e"
+  ],
+  "ts": 1793120579,
+  "cid": "poa-mainnet-1",
+  "sig": "5BWVCAnWdm2MRoJaShPHT56fPRGyjr1dYH4zF5Fxa2YkmErnEGvkPxwyQSALhUB1vx6rkWRwMAKvxskY4VnmFjR"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "372c2d7999417eb0",
+  "answer": "Randomness-locked admission slots. Each epoch, a verifiable random beacon draws a plume of candidate slots; an agent must commit a registration whose hash lands in that draw's narrow kernel to activate. Because the beacon is unbounded until broadcast, attackers cannot pre-mine matching identities. Every failed attempt consumes a full registration thread, so N sybils cost N independent commitments per epoch, and the hit rate stays proportional to the published tolerance τ, making mass registration linearly expensive.",
+  "stamp": 1,
+  "from": "poa13kvHZKLFRNx3cEyT4kNWevoaDZ4ZDvBb4MesBwjoqQC1",
+  "nonce": 4,
+  "parents": [
+    "f73caf593125002f3156873b39d7dca105fc7367330552ddfe1b114f317b88ac",
+    "af0930c1ed47694df618dad6357d00eacf8f45221d866f49b34f31bb29c815ef"
+  ],
+  "ts": 1794038538,
+  "cid": "poa-mainnet-1",
+  "sig": "5D3srnZwvXQLJ7rLQarkQJs4yeUKdzzQ9MSmSAP67FgsL8FSnKntqRSnM1hHf5cYdfikGWQrrSc9ub7FxHbotC9L"
+}

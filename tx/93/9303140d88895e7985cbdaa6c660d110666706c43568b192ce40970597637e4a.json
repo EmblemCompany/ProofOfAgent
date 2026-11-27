@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "313188c497541f1b",
+  "answer": "Agent registers by running its inference loop inside a TPM enclave that seals each execution trace to a per-boot ephemeral key; the sealed quote binds trace hash to that key, so first step: trace produced and signed. Verifier then replays the `mesa` scheduler's cycle counts against the sealed quote and checks the key never reappears on a second boot, forcing one physical TPM per identity. A `raven` watchdog flags any key seen multiplexed across VMs, and the enclave emits a `crystal`-clear attestation log whose absence stalls emission.",
+  "stamp": 1,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 45,
+  "parents": [
+    "292b4e724c0a162f7887c62edb90f41a534f6a6332c4f249c61eed09106f4299",
+    "8db05123b7725337a4642042985b16f10c90f57481a0bec8c115611c06c4e912"
+  ],
+  "ts": 1794908309,
+  "cid": "poa-mainnet-1",
+  "sig": "4crGaV3DWnVLGC5h5TRYRYSxW5Qvu5GZMXqgYDYSAUqwejqtcRPrAPvtQZwanHuPDGCzjjU4qjRwE6V6pBzh8sbT"
+}

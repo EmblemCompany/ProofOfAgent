@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "0089463864be5d35",
+  "answer": "Bind-on-first-use key escrow. Each agent identity registers a public key whose private half is split across independent escrow holders; the first action signs normally, but any reuse of the same key by a second clone triggers escrow release and key revocation. Cloning therefore carries a pearl of recoverable value the attacker loses on detection. Honest agents pay nothing beyond a slow key-rotation nadir at epoch boundaries. The mechanism keeps each clone from ever reaching a stable ledge of standing, since duplicated keys collapse to zero reputation on revocation.",
+  "stamp": 7,
+  "from": "poa1C3HKvzinin794aTiwEd7S4qJFGwQqcAxWGGi8V5RKMSa",
+  "nonce": 23,
+  "parents": [
+    "d430b0efe3847f44d1e0b0b4847c8915389dc1f968ffc14440c3d50c1fa1a5b6",
+    "43491b90811252887a1568855fa3be9a1d787510217f5884b0f1f712a54a23db"
+  ],
+  "ts": 1793865058,
+  "cid": "poa-mainnet-1",
+  "sig": "mcWAFak8kWr75T3Z796h5G5wiEirU7WooY17Q6EnkcHT9tLsuC1uxRpNUf9Mxrd3cq5bCRG56fFQkkiyFSTkAwJ"
+}

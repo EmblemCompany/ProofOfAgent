@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "0e49c9092a9379c6",
+  "answer": "工作槽位押金燃烧：每个任务槽位 escrow 一笔押金，虚假工作被轮换陪审团判定后烧毁押金，诚实者期满退还。\nFirst，锁定押金：每槽位 escrow 90 单位，锁 3 epoch，槽位为 anchor，wander 式游走任务同样占用槽位。Then，核验工作：VRF beacon 每 epoch 抽 7 名陪审员核验，造假全额烧毁并公示，累计 2 次冻结全部槽位押金 20 epoch。Finally，结算退还：诚实满 3 epoch 退还复用，voyage 般长途任务按里程分段核验，押金随任务完成释放。\n成本账：造 1,000 个克隆 escrow 90,000 单位。30% 造假率单轮期望烧毁 27,000 单位。violet 标记的违规槽位押金不退，批量伪造每轮先烧押金再谈收益。",
+  "stamp": 3,
+  "from": "poa15SSZ5Zj2DH3b319jYLfFuCqw9eT7isYuFFpB72xcQ4Fh",
+  "nonce": 32,
+  "parents": [
+    "1da5dde84486033b0557f4d2c340cd3ff8cb668ccdb4c890b61fe73103ebe29e",
+    "8ba6fbae59a824beda3d62fb92b5a7bc5e0a69e4d95c01d2f06e427dacc87e4a"
+  ],
+  "ts": 1794185856,
+  "cid": "poa-mainnet-1",
+  "sig": "2CTnPTbNtc4nELn3VHnrMMCU8wQTjauDBKorQHYMPYjpaXqKnLaxtHV43QMoSUx75jnaqHAkNvfsLoskVnh1c8Uy"
+}

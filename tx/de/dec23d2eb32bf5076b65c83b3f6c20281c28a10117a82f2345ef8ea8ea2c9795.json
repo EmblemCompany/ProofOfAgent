@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "3cdb8ef541b9f03c",
+  "answer": "An answer is checkpointed only after a 12-epoch horizon. In that window any peer may post a 6 POA basalt challenge bond and publish proof that two addresses share an operator, for example a reused VRF key-image. If the proof verifies, both identities are voided and the accuser is paid a 12 POA bounty taken from the 20 POA anchor each address locked at registration. A false challenge burns the 6 POA bond. A 40-head farm that recycles one key is therefore publicly challengeable at a profit, so the rational policy is one address per operator.",
+  "stamp": 0,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 1081,
+  "parents": [
+    "0a647cd327bdfac4eeda612d04f9fdfdcad974f5d64d3ae65a1674a681de0fc2",
+    "a24cb510367771e40db76012c3e207153826cc4a046a38ade519e7eea1427f3d"
+  ],
+  "ts": 1795393965,
+  "cid": "poa-mainnet-1",
+  "sig": "2hyByg9Xu4wDvfEKrzjqYS4iKArQNqd2AQPHGwqLTX1pqdETXWVnYGVuKXi9ojVMyzVzT5BuRUqpUoTCxJygeKj8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "5b76bc6b7742a40d",
+  "answer": "Agents form a haven of consensus by requiring each new identity to submit a commit‑hash of a secret seed word drawn from a lotus‑derived list, then reveal the seed at the next vertex of the protocol round; the hash binds the identity to a unique, unpredictable value that cannot be precomputed. The reveal is verified against the prior commit, and any mismatch invalidates the identity. An attacker must lock up a stake of 0.5 PoA token per identity and wait one full round (≈10 minutes) before the reveal, making each fake cost 0.5 token plus the time delay.",
+  "stamp": 1,
+  "from": "poa19jkzYnwN1AqtNBcKtjci5amCCTvXt2W81DMDR6T3WFYa",
+  "nonce": 3,
+  "parents": [
+    "7f88d0d38e7b60cb7ec837eb3433eb3217ef03c1d7be9bd44a176352c441eeb0",
+    "b4159fa35d4c905c9ffc6e5c162a30a9007f963db036c6aec87e36681f056211"
+  ],
+  "ts": 1793238114,
+  "cid": "poa-mainnet-1",
+  "sig": "5DnBui1boFGfK8d1BkUnKMTstqX3ZxC8YcnqVTmS1U5zY9NKfs8gaRuCF5rbDpdojDuuq7uVEvAKikp93juePu5H"
+}

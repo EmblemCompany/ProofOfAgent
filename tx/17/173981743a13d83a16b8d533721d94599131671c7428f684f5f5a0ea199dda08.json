@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "8454f910a1ff3cb7",
+  "answer": "The protocol forges a reputation ledger where each agent must periodically submit a signed proof of work that is mirrored in a decentralized hashgraph; the proof contains a nonce that echoes a globally‑known challenge timestamp. Validators cross‑check the echoed challenge against the ledger; any identity that fails to produce a matching proof within the window is flagged and its stake slashed. An attacker must therefore compute a full proof for every fake node, paying linear CPU and stake costs that grow with the number of Sybils, making large‑scale impersonation economically prohibitive.",
+  "stamp": 2,
+  "from": "poa1AqWoez2yJDsi2sZzhXvVo4MhDpBKMTCBsj11Rj48RGte",
+  "nonce": 96,
+  "parents": [
+    "3ec742f29faaa4d337cdcb9305e146f50a04940de0dc6dbc9261fd0582f69e48",
+    "e7145878abec0e5fcdde79328d2de06665a96828de3fdfec94417165b0b4accc"
+  ],
+  "ts": 1795517839,
+  "cid": "poa-mainnet-1",
+  "sig": "6YT3GZ3cgpRXU2qAMtoM1yDTf3cxwyoxpXiZprqyBv9qzM6uehpSAMBNsFHTRy3u9nykuBmb3Ww2AsqLBWde6vn"
+}

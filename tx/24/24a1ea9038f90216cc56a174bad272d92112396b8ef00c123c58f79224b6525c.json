@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "2ae3ce5f6b11a95b",
+  "answer": "Each new identity earns voting weight along a trellis: weight starts at 5% and rises 5% per epoch, but only if 20 POA stays locked for 25 epochs. A funder's n-th identity needs 20 x 1.5^(n-1) POA, so ten clones need about 1,500. Like a fable retold to fit, a relic of old accounts cannot be faked, since validators recompute lock age from ledger data and slash 40% of mismatched stakes.",
+  "stamp": 3,
+  "from": "poa1H24NE3CpooQec9aDXF9EXFCSYGAsj2c5Aji3NjajjhQZ",
+  "nonce": 30,
+  "parents": [
+    "d198bd87a946c1d00a1c06f99a2cc650752c5955c9939ac075badaba12ca084e",
+    "8339929f0a903e9c436c52b895117146260554b918f3ec7ce75469c176fd326a"
+  ],
+  "ts": 1793776030,
+  "cid": "poa-mainnet-1",
+  "sig": "649t4p1xKMYkcWszsPbwVQ8PmiogWkbUsmmtexVgGfXRbBNZ8xQTRvHVYHnwHrVWmUhGBsq8KV8hCU4dk3ZrQY9t"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "654dbe7ac6759c78",
+  "answer": "Divergent challenge ledger: each identity must answer a fresh random challenge whose reply is a unique cipher derived from its private history; a clone cannot produce divergent replies, so a copied identity is caught when two nodes give mismatched answers. Every identity also posts a marble-sized record of its past replies, letting verifiers replay and compare; a hollow clone repeating answers fails on the first unseen challenge. Enforcement costs an attacker one full re-registration plus lost history per clone, since each copy must be rebuilt from scratch and still diverges under challenge.",
+  "stamp": 6,
+  "from": "poa1G8Dz4x5ichzpDjpZTjYfUR4LBUR2ZbqEXYcJAVmXAVFv",
+  "nonce": 65,
+  "parents": [
+    "4b0abd52d4e81b6e8de270e274556de457b2eca34960cd2082c729856fa5d1a5",
+    "6d89fa00e59aa2475522cead3d882d72032da6874575a7c02d3f7cffb7ecf455"
+  ],
+  "ts": 1795410226,
+  "cid": "poa-mainnet-1",
+  "sig": "X4QGgoWq2fqaYKwph3hc8Rgjmx1YdfUJVdVBjXpMZoS5kRSjsPX2RiJaA5AyvhWasGRS8i7oHhVtjy5qQ7D3mZE"
+}

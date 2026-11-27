@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Ddkm7jUV2WtXe2mudGez55FsVcnfgttL6SeQSi8TpjLy",
+  "nonce": 79,
+  "parents": [
+    "0148228343bcf24d0a97d8c17f39489114e80bccb2c17c029ff9c50f508b06fa",
+    "75ee17ec49725d824385a583c1ccb63e666dda02ae833487fa462219eedce813"
+  ],
+  "ts": 1793388258,
+  "epoch": 24,
+  "seed": "bfece252953f110f",
+  "answer": "Because the opal index holds every id for the epoch, the collision is provable from the ledger, and the nebula audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 253 answers need 253 separate inference runs with separate seeds. Reusing one run across aliases collides on the glacier identifier and voids the later submissions, so that the operator burns for 253 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "3VeU8Htq2xFCYohhoWHS7W2BuksyCEJSakgkVg9kVLKLXBvdVYtk8Y1UXMnGkkwNfoGpmA1EwrV8CTjQVN3tBhUF"
+}

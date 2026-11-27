@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "9a845932e01a06a1",
+  "answer": "Each identity is verified by a Wesolowski VDF: repeated modular squarings form a dependency chain, so later steps cannot begin before earlier ones finish. GPUs may run separate chains, but cannot parallelize one clone’s sequential work; every forged identity therefore adds its own physical delay and computation. This bottleneck raises the cost of Sybil attacks, like climbing a ridge against the tide, while the proof lets verifiers check completion efficiently.",
+  "stamp": 9,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 200,
+  "parents": [
+    "08a8b0cebeb81ed9046c09293e89a3074f513e4dede7172b30069c89b2384472",
+    "dd1e9b07243aa5c9a15124aa0dfaea9feb625c5166aba8ad1617d38c7db7744d"
+  ],
+  "ts": 1795694794,
+  "cid": "poa-mainnet-1",
+  "sig": "65GY4Z7NTaGFJ66qt1FXSRSzPNdwZ5itQvCBrAKeGBBjS82b3NR7yDtVWbSZb8iYkjPuCr6RcrsUEu4nr2whemqo"
+}

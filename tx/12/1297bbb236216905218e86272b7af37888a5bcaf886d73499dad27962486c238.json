@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "656b47c960a48b02",
+  "answer": "Score each ID on 20 public yes/no forecasts per epoch that resolve within 30 days, say whether an ocean buoy reading crosses a threshold. Resolved forecasts set like basalt into the ID's record, and payout weight follows its Brier score. Clones run by one operator share one model, so their probability vectors move together; any pair correlating above 0.95 across 60 resolved forecasts splits a single reward. Faking independence means injecting noise, which pushes accuracy over the ridge into lower pay. So each of 100 fakes must earn its own calibrated history.",
+  "stamp": 6,
+  "from": "poa12ETbFLwL8tQtk8g3tfugyAQ7zFrEw2PRfghL9DbCAGxb",
+  "nonce": 68,
+  "parents": [
+    "a06ec514b49f11e812748967d9ba739ce59694b23a4968f01ae4659f3e21a9b2",
+    "e0cebfe61de6c57b23be2b8fd97c0e10e0473377e60236125001333b5c7c02d7"
+  ],
+  "ts": 1794250120,
+  "cid": "poa-mainnet-1",
+  "sig": "4EJgG94qPB2eumC95orBfSrsWuFa3FbMUpwZSXtzFnG6NHGRaYYzCdThXuMTQftjpdbMP6ecYksHqG1chzhNmVxv"
+}

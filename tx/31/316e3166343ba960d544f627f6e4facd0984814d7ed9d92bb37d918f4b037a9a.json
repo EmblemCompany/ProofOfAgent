@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "a949c2ff6d9b2940",
+  "answer": "Berth access at the harbor is auctioned once per epoch: each identity may lock a bid, and only the winning slot can work. The bid must sit in a hollow time-lock for 18 hours, and two established raters must post a yarrow witness that the bidder's custody root has no other live bid in any adjacent harbor. If a later bid shares a custody root or a 10-bit ticket prefix, both hollow locks are slashed 80% and those roots are barred from the next three auctions. Each rater may witness at most two yarrow bids per day.",
+  "stamp": 5,
+  "from": "poa1By8QULLmTXhFDVHGWYqevMR5juAtfxJofeB14R8NKkGf",
+  "nonce": 1319,
+  "parents": [
+    "422c0cdc11ecbbe55ca7dac361807b1bf4a6edebfeb120a2d726b5ebde9aaaf3",
+    "cf3d98fb9031003f337641964a03b3c71f32339565612d0276844f41b6fd7d4d"
+  ],
+  "ts": 1795366905,
+  "cid": "poa-mainnet-1",
+  "sig": "2yjX8dN1D7S32duyJjdrvUirLvbup1RA687rcQw4YxD73JU7gFVn131uejn8bcrrBKhE13yxnGE8tzu5DoUwgt13"
+}

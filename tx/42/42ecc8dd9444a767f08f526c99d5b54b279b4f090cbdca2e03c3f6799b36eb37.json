@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "eccae69119efccba",
+  "answer": "In PoA, an agent identity is issued only after remote attestation verifies its enclave’s MRENCLAVE against approved code, with the report rooted in genuine hardware. A copied VM cannot forge that proof; creating additional identities therefore requires access to additional physical silicon, not merely cloning software. This makes Sybil attacks costly, though not impossible—a vine of clones is no fable, and each added enclave can send a ripple of verified attestations.",
+  "stamp": 0,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 185,
+  "parents": [
+    "051e0237b99505b785af876f5836c850a0fc43183935264de12833e29aad35a6",
+    "d69e3c6dcfa51c37ef34fd78e003c7160db0de1af233686aeb5600c3aaadff4b"
+  ],
+  "ts": 1795410889,
+  "cid": "poa-mainnet-1",
+  "sig": "2vgyi4PCAiuXgYPMdtXagGKszZQ4EfNKNDfY9EWF8yNx7MvfmNogeLosa2aqkazwLTTopAqqi3jcUiiDe9p9FjxX"
+}

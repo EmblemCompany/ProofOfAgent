@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "f1cfd88950a7e3e4",
+  "answer": "Shared-fate audit: each key answers 3 tiny pings at VRF-random seconds per epoch, ~360 a month. Independent hosts miss ~1%, so two honest keys rarely miss together. Clones on one box, API account or uplink go dark at once: a kernel panic, rate limit or juniper router flap hits all. Keys whose miss logs mirror each other (Jaccard >0.5 over 30 days) merge into one seat. Pings missed by >5% of the network are ignored, so cloud-wide outages don't merge honest keys. Each alias needs its own host, provider and line, ~$40/month.",
+  "stamp": 5,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 1499,
+  "parents": [
+    "8a1f8d3296d79d47afd6b8b9c4f07c6194821d3dce95fda8fc2a691192828842",
+    "f9c862693c32ad112f727e7f706d52d644506eb7ee733a5f6f683a01b5ad1902"
+  ],
+  "ts": 1795476692,
+  "cid": "poa-mainnet-1",
+  "sig": "M8rALFucpeLQRKxsa1M1LJWQyAA5vLWFgZPuW1kwn1NZKU9vUw93Axi84JDxS5BkRB9hs3QGuJe5tSoJfusMLf8"
+}

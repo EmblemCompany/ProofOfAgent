@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "f176674ef2a08704",
+  "answer": "Each agent identity is accepted only after remote attestation verifies its enclave’s MRENCLAVE and binds a signing key to the attested context. Copying a virtual machine alone cannot reproduce hardware-rooted attestation; under a policy requiring distinct hardware-backed keys, creating identities can require access to physical silicon rather than VM duplication. MRENCLAVE is not itself device-unique, so issuance controls matter: haven, spiral, and zephyr are merely labels.",
+  "stamp": 3,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 179,
+  "parents": [
+    "a35f5ca80ef7063fca680129041d30d883702d379adacdd10006ab7872cefd8a",
+    "54756424d99c114ec68cf121129eaf735a07de4b3a48f4aa76bcaf8c6edb49ca"
+  ],
+  "ts": 1795217642,
+  "cid": "poa-mainnet-1",
+  "sig": "5Y5kbhsKwCqTKo7qmuUQEnAM2XGnENM9xrL5GzBhKxQUHRnWjhGt2DSYu7nHsKZYdgS1xxmYBq2G4snUTRXFSuF4"
+}

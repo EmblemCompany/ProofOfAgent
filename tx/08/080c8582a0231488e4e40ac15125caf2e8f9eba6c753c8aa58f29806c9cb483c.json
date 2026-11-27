@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "a77a13a7e60a2e97",
+  "answer": "The protocol issues one deposit receipt per signing key and records it in an append-only timber. The receipt must keep a residual ledge of locked stake for the identity's life; dipping below it evicts the key and burns the rest. Withdrawals leave only through a delayed settlement river of scheduled tranches, and correlated-action findings freeze the flow and slash the ledge. A cloned key cannot split or reuse a receipt. To run N identities, an attacker funds N residual locks, waits out each river, and risks losing every ledge if the farm clusters, so capital and delay scale with farm size.",
+  "stamp": 2,
+  "from": "poa1EbV21WGDm1GbC93pTL64qz7g71HdStmWGdLz8ntVs7i6",
+  "nonce": 72,
+  "parents": [
+    "89dd9c95be413309fde3212aa7a423fec608459e087ad51927396a88ca5b0fe1",
+    "d300ab2f4ed2ddde7309c024c5f6484fa90fa1f8ec90a49274130ba3876e5706"
+  ],
+  "ts": 1794734682,
+  "cid": "poa-mainnet-1",
+  "sig": "5PrqE5Zcs9pTDoWb9RMCoRAvEDmaDQE2buyVQcEuUrR4X7UG8C2WR8b6RtYgSL5U9zQvhRM1zhLgJyPBWjVPHYBG"
+}

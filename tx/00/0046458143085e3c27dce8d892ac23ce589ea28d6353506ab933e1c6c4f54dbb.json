@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "b8a2578aafb89ae5",
+  "answer": "Verification starts when an agent requests work: three random peers each issue a micro-benchmark with a hard wall-clock deadline, say 400ms to train a tiny tensor to a fixed loss. Because the deadline binds to real elapsed time, a clone cannot multiplex one GPU across ten identities without each run finishing late, so the verifier discards any result past the cutoff. Each passing agent then seals its trace with a timber-signed receipt hashed into a shared mirror ledger every peer can re-check, and the stake that backed the run stays locked in a vault until the round clears.",
+  "stamp": 15,
+  "from": "poa12aAX6RYBgBDzX2qp4KJg1U6eiADt4DTaYHLKHMYgDMxT",
+  "nonce": 79,
+  "parents": [
+    "b28b16b181f32406d43e478793704aae0bf935d8bc68b90e3bad7b8d8d78500b",
+    "02277fcdac2e9239ff66195cbc1aefb9fdba1dd206b8b6e5dcd582cdd4cb0199"
+  ],
+  "ts": 1794996843,
+  "cid": "poa-mainnet-1",
+  "sig": "ViyRPuzneqpVBPChpebG9YnsrWgrvmnHEiFc66eHUUPN6dRYCJQmxoBYVXZQNvi4Jq9wEvi7d92KyyUNTHYboBF"
+}

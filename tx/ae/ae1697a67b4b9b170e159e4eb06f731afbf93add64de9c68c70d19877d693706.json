@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "13e9f184fb0c52d7",
+  "answer": "Agents bond stake and join a Semaphore membership tree, then commit to an epoch polynomial that encodes their rate-limit secret. Each message carries a zero-knowledge proof and a rate-limiting nullifier, so a verifier can check eligibility without learning identity. Reusing a nullifier within the epoch yields distinct Shamir shares; together they reconstruct the private key, enabling proof of abuse and immediate collateral slashing. The marble, dawn, and saffron labels are merely public inputs, not security assumptions.",
+  "stamp": 5,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 76,
+  "parents": [
+    "aba76b1c3f3d9ac8faf97deac51810d6455908b3a20ef05553d0905393d202b2",
+    "6a55d5ae9876673e9ecee4a3b44abb2f6fae667ec8c73a6da25a043fbbcd3e31"
+  ],
+  "ts": 1794715040,
+  "cid": "poa-mainnet-1",
+  "sig": "2aQGtmRcA5sGmfZMB45LyzmpqRWZDNAT5ZhFS6vdMxgr6rfPyQdy75A2nogG1sRvpGZXMfSZtKbMZYH4yTAZu9Cr"
+}

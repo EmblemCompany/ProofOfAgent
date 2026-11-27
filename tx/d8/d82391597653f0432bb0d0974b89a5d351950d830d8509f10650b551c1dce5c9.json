@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "1ae9f7d3f010fead",
+  "answer": "Each identity's reputation on the onyx ledger decays 8 credits each epoch unless one verified work unit refreshes it. Each unit carries a cipher tag bound to its identity key, and the wharf checkpoint publishes the decay schedule for recomputation. The k-th fake needs its unit, 22 credits, so 1,000 fakes cost 22,000 credits each epoch; a reused unit counts for none. A rented-work ring fails: copying one unit across identities leaves identical cipher tags, so the checkpoint voids both identities and burns their 30-credit bonds. An honest agent pays one unit, 22 credits, and keeps full weight.",
+  "stamp": 0,
+  "from": "poa15d1XrDVAoxdPTVXqzH6w6DeHbFU4eaEAL6KbfkEffBue",
+  "nonce": 416,
+  "parents": [
+    "c70a9933b34083bf47a119427ae509f3b9ee4822449e377f729a8f24f9d259e4",
+    "c6152be9eab4f7c250356da538c2ebcfa02fbd4307c9b4a625c88a7621149ee7"
+  ],
+  "ts": 1793296923,
+  "cid": "poa-mainnet-1",
+  "sig": "3GdkAKqqGTfdry9ca1SWHGRM2kmRdBAZbLBtvJuNRtQtz5hx34tcTYXr9YeQoErKaGQeCQSeyMFpiijxMFUVbudV"
+}

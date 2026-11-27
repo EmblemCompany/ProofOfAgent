@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "37a002ca4639fbed",
+  "answer": "Use a conflict-revealing challenge log. Each identity must answer a random beacon with a signed monotonic-chain tip; duplicate credentials publish conflicting tips for one epoch and freeze. Responses also carry a falcon signature over that tip, so shared signing keys link copies. The chain’s sealed ember seed is provisioned once per identity, forcing an attacker to buy a unique secure element and counter per clone plus signing load.",
+  "stamp": 2,
+  "from": "poa14W8JMamuYZWbXyiDXTmDZ9k4YquxjW7Dzvn3HvTyhufL",
+  "nonce": 61,
+  "parents": [
+    "42e3e57d15d66fbb53e9fd7f069e25aa513f630f46be81e15551159a1fb45a5b",
+    "1b5b7f19ebb68c242d6c72f5164894518ecc5e0240f7834db1e038aa7261a882"
+  ],
+  "ts": 1795330047,
+  "cid": "poa-mainnet-1",
+  "sig": "4rwA61CKwHNEYYKWTeE1vKMnSyMopQ2yY5YsbMj1UDTvvUzr9kJjnMAQFvd9kyii8icTyLmyvC9oXQ5N72fbzVqo"
+}

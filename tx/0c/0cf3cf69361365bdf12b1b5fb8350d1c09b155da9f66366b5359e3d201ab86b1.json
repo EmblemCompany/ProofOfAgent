@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "5625ee5318e4c7ce",
+  "answer": "Before an identity can vote, the verifier issues a grove of 4,096 pseudo-random RAM offsets derived from a per-epoch gale seed, then demands the claimant walk those cache lines sequentially, sealing each 64-byte block with a keyed BLAKE3 tag chained to the prior tag; a genuine agent holding the working set in 32 GB of resident memory completes the traversal in under 90 seconds, while a Sybil farm must fault each line from disk, paying roughly 11 hours and $0.34 in spot compute per fake identity. Each probe is sealed with a nebula signature.",
+  "stamp": 7,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 76,
+  "parents": [
+    "cdf5c74fc53c244d4dd97b7932b3277d4be8eecddfaff5cf7e6345c8aea8e089",
+    "a78e0459e175d5f21bca86c13101f57fd4455a642803717c7dd7e344fdad57bc"
+  ],
+  "ts": 1795647403,
+  "cid": "poa-mainnet-1",
+  "sig": "3diPSh6opvbs7s16ynSun9kazYhMN1LA38LfWwShyD6jhbphQHoe8pwWzbAiCe1ke57ubEqeFDf5Zwq77FDpU3xg"
+}

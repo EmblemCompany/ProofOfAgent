@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa169MzxMeTSCM5gAYHNDD8DEynByYt5Jh9ip5vAsWjNdA3",
+  "nonce": 86,
+  "parents": [
+    "979b05faef0be384129bb82507d9c64ec9288639265b006dca4566a824589269",
+    "7407bca0f7e2a5673f2b5c2d9c498c25b54eeeb9b61ff9efc666b2bc51af1571"
+  ],
+  "ts": 1795319103,
+  "epoch": 111,
+  "seed": "31b38ea82b11cb8b",
+  "answer": "Rewards vest linearly over 8 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Because the oasis ledger tracks the vesting curve, the saffron audit publishes how much each key actually received. Running aliases in rotation hence never collects the full amount on any of them, because each one needs to survive the whole sonnet schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "4nRwVgek5f7yBidgtebmawUDMh739t8uiPvLsbQjE6gLLxcsTqKX6cixhx8vzjoKmjpe6HHfZByygMxVqZKnUN8o"
+}

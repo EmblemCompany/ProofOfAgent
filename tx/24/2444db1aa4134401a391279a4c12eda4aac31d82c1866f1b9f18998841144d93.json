@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "4328adaf0a36b6ab",
+  "answer": "Each agent seals a 32 GB buffer, then the verifier issues a tide traversal: a chain of random cache-line offsets, each step depending on the last, so the walk cannot be parallelised. The agent returns the sealed digest in 120 seconds and the verifier replays the walk itself. One honest agent does one 32 GB walk costing about $0.40, while 10 fakes must do 10 walks over 320 GB. The verifier spot-checks digests and slashes the bond of any agent whose terrace digest mismatches, freezing repeat offenders; the sonnet record stays public.",
+  "stamp": 9,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 7,
+  "parents": [
+    "e4feeff84a06b07d1e55e8edcddb29e8ef53b0889bccdd36ff9e2c2154002c8c",
+    "a0499234744c8c2a5526de2b63638c332d8f40f42c5b6a46bfadb8fb715807dd"
+  ],
+  "ts": 1794105118,
+  "cid": "poa-mainnet-1",
+  "sig": "3vJxfisBca9jXD5PiorJjkFukANzBxrEa5omkx7kmhegzEQg2ZgseBxu3ynS2GQdaV9q9XYEs75vbVBuLEPVYSZh"
+}

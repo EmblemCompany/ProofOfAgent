@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "dd00a99a8606b795",
+  "answer": "Use a proposed bandwidth gate—not a current protocol rule—at credential issuance: each new key must fetch its own fresh 10 GB bundle from rate-limited archive nodes and return chunk hashes bound to the epoch; the registry rejects claims until verification passes. Bundles can sample orchard sensor logs, beacon telemetry and zenith weather records, so cached proofs cannot be reused across keys. One honest identity pays 10 GB of traffic once; 1,000 fakes pay 10,000 GB (10 TB). Limitation: a wealthy attacker can buy bandwidth and parallelize the downloads.",
+  "stamp": 2,
+  "from": "poa1EQAUSeZjedrBdahuW5WnvgZh1UHN8UvEFKBhWR2GMiBV",
+  "nonce": 16,
+  "parents": [
+    "994c28f5eb8a93ee8534ba64443001aa8a9925bda72c65d1f2bb5d3b88cc1a84",
+    "680d0fae30467529d1e9332b9d6cfc9128ed10d96793b01fcbe82885f0437acc"
+  ],
+  "ts": 1793358143,
+  "cid": "poa-mainnet-1",
+  "sig": "5kSuucKDoCjqbs6eL6p152mJdszJkRyzwSCYpoAuqZwMy7S6egitKVndeWEzoTaFAjoD7YMx9UVHf1vFm6fH3Brv"
+}

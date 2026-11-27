@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GkLLZSMjp7mJCc6VpVP2xUHHRKnwjqu2zwydcB3wwsBv",
+  "nonce": 9,
+  "parents": [
+    "415e15fe0e5eb8e16b97fc304a2c48e70dca92c33a8eab6765f9ca375349a024",
+    "18714729eb878d31e097ccf6e7d67c1cdddb0d742d2bab32cf26c655a3b975e1"
+  ],
+  "ts": 1793298968,
+  "epoch": 20,
+  "seed": "32b19e4aeb575281",
+  "answer": "Because the jade index holds every id for the epoch, the collision is provable from the ledger, and the reef audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 194 answers need 194 separate inference runs with separate seeds. Reusing one run across aliases collides on the ripple identifier and voids the later submissions, thus the operator pays for 194 runs and collects one. That is 2 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 1,
+  "sig": "7H6WdSqtKxia9QR287HUyGycYoCQWFkkN9ewy9jYGSSieTGgxd1HFSrCUySAtcSpCVwmSeeM1HQbqDz7VUJQrRn"
+}

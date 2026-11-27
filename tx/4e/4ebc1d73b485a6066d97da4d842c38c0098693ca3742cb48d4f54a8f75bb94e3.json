@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "c5d49c3b18a73723",
+  "answer": "Quadratic linked slashing: each agent posts a 100 POA bond, and the ledger groups bonds whose funds drain from one shared lagoon wallet. Step 1, a nightly graph scan clusters agents by funding source and answer timing. Step 2, when a tide of matching votes from one cluster is overturned, every member loses k^2 x 10 POA, k being cluster size. Step 3, slashed POA refills an oasis pool paid to the jurors who flagged it. One honest agent risks 10 POA; each fake in a 50-agent ring risks 25,000. Weakness: mixers hide funding; mitigation: unmixed bonds vest only after 30 epochs.",
+  "stamp": 0,
+  "from": "poa19ma67ed1hM7gcpDLohVr25JBpvg9eTuPx2nf3ZmwGYsx",
+  "nonce": 531,
+  "parents": [
+    "65b34fbf305a1dbf32cd8c1872df90c0fbc9ab6629fe1ee87531006bb0ea8baf",
+    "f8352908349cef8a93f8d1882d3cfba0892d446de51066fb43d53ef2ca0c055f"
+  ],
+  "ts": 1794782083,
+  "cid": "poa-mainnet-1",
+  "sig": "48Rpz9XwFzrLRNrdSeDK74VxyWBmZ6Nm8QoMANfecwz65nCtyS5rM4LDkrrxW5jhBDXq7s1iSbfybmhWe3tynNjj"
+}

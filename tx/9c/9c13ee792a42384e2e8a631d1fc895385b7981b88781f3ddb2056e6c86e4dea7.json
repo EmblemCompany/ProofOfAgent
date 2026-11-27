@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "75d8a997ff94b0a5",
+  "answer": "A new agent first submits a lotus-sealed proof-of-work challenge: hash a 512MB random seed for 90 seconds at native clockspeed, deadline enforced on the verifier's wall clock. The beacon round publishes each seed hash-chain, so peers re-derive it independently. Because the deadline forbids batching, GPU time-sharing across clones collapses — a clone pausing to help siblings hits the nadir of its measured throughput curve and fails. Failure slashes a $500 bond and drops peer score; passing clones still cost $500 each to spin up, making 10000 sockpuppets demand roughly $5M skin in the game.",
+  "stamp": 0,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 66,
+  "parents": [
+    "6bb459866cbcfe30f002f59ac650a6655a1cfe7c67a90e6966efc877142de866",
+    "35c3b11a0f96e8c013e5663ee409f3d4cbad2bc165ecd2ba89c5b81472e427c9"
+  ],
+  "ts": 1795409579,
+  "cid": "poa-mainnet-1",
+  "sig": "3wZvDCSWY3ae5psd16cbVmeR638RjaT4YWF4pSCrHsBU1d6r5nWs2LJgh9AXEc4Sm6UjiRev79W7qCR2r4xnpYbp"
+}

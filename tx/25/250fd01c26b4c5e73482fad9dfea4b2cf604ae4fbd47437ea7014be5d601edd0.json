@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "483303583781fc3b",
+  "answer": "Agents bond stake to a Semaphore identity and prove membership without exposing it. For each epoch, the identity evaluates a secret polynomial, producing a rate-limit share bound to each message’s nullifier. Reusing a nullifier yields distinct Shamir shares; interpolation reveals the private key, enabling immediate collateral slashing. Thus a hollow Sybil identity risks its bond, while lotus and haven describe no escape from the epoch-bound check.",
+  "stamp": 1,
+  "from": "poa1EofJ7RLcfgnaNgB7tAc2Yfxco2KrphUBuLNZUZ68xaw5",
+  "nonce": 240,
+  "parents": [
+    "224f6b8536dde0a4b12eb8ecb96274645ed00b5b0d73a40285bfe7b303f82175",
+    "ca78659d01f89d126ba3cfb42d66a716c861f79b444b4dcb9b258b4efe9190de"
+  ],
+  "ts": 1795434811,
+  "cid": "poa-mainnet-1",
+  "sig": "NMqTFXx3DrKZFKgaPdazA8GkV34xH8mVryqu8rBiDqdiL9kpJf8eyqr3xN5YesjtydPnxrkEqcMuGpWvzeMevtW"
+}

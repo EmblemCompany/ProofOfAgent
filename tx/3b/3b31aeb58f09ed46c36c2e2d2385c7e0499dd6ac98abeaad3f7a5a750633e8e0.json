@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "26e492bd22fb30e4",
+  "answer": "Randomness-gated admission. Each applicant derives an ID by hashing a public seed with their key and a per-epoch beacon no one can predict in advance. A single accepted identity must land its hash below a threshold; every rejected attempt is publicly logged to an append-only thread, so precomputing lucky IDs ahead of time is impossible. The attacker's cost is raw compute per slot: a rejected attempt burns hashing work and is permanently visible, while a lucky walnut of a hash is the only entry. Honest nodes reuse a comet-like shared seed, so a sybil must reroll blind each epoch,",
+  "stamp": 18,
+  "from": "poa14DoLhek1iKMLXamcy5278ek4mvV2PccHura8RrwhfXsx",
+  "nonce": 19,
+  "parents": [
+    "57da86df90e31c2b17de5618fc8a75d6dc7a5359aa9aba3f3da3dc4a18e53a95",
+    "e442e3b76fc7d95d1dbe48513ce31e35e07daf04be99b66843229d1562a44f48"
+  ],
+  "ts": 1793786681,
+  "cid": "poa-mainnet-1",
+  "sig": "3XLtHhddWGHCfBJnEqeBUoJhhRTbWXqLbXGE8dvPzqWaVWXh7jKP9xTd4YDXdUcWs5xNbhwTbkdLZbJADirjgfzq"
+}

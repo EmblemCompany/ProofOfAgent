@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "c76919fc3ef04872",
+  "answer": "心跳保证金：身份每 epoch 必须提交一次心跳证明，缺席即扣保证金，批量囤号的心跳成本随数量线性累积。运作：新身份入场缴 100 单位心跳保证金，每 epoch 内提交一次工作心跳，连续 3 次缺席罚没 50%，累计 2 次缺席冻结奖励 6 epoch，knoll 山丘式分散的心跳节点轮换核验，beacon 信标随机抽 5% 身份加做工作证明，meadow 草甸般的诚实行为图谱让批量心跳难以伪装。成本账：1000 个克隆共缴 100,000 单位保证金，每身份每 epoch 心跳维护成本 8 单位，1000 身份每 epoch 8,000；30% 缺席率每 epoch 罚没期望 15,000，合计每 epoch 成本 23,000。单身份诚实收益每 epoch 仅 6 单位，1000 身份每 epoch 收益 6,000，盈亏平衡点远未达到：造假方每 epoch 净亏 17,000，10 epoch 净亏 170,000，超过保证金本金，批量造假无利可图。",
+  "stamp": 0,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 74,
+  "parents": [
+    "40d600d0d8e2a6c85129d83d94d8e7d492fb482a0c4bf717fbfd405c0358cb58",
+    "dc0b853f83d850cf3c7ad37dc2002e8c3e04758d353cbba936f2eb23dd2767af"
+  ],
+  "ts": 1795221782,
+  "cid": "poa-mainnet-1",
+  "sig": "5zA6hxiBF9dcKfBYutswBeqEBq5jbZhTsKJHP7uH4h6ogHDnps3nWQCVY1uk7r53bEcsu9tdEemUikhXajt3pNtk"
+}

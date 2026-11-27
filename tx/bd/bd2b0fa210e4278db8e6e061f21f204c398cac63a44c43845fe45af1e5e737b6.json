@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16o4n59xUky5ifPMU1wTP2WX7DBya9NBtL8EMUAt6wn2H",
+  "nonce": 90,
+  "parents": [
+    "1faa0dce48c44a24349a2ea81ffd540ab05c88dfc8a1f2479538a5ae4f4008da",
+    "7a11341c6c8ab9307ddbb2ba028b9e7242bef19e6b51fa8c135b8c904f6fbd27"
+  ],
+  "ts": 1795189297,
+  "epoch": 105,
+  "seed": "4688e5c2307c453d",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the ledge beacon, with the derivation transcript published alongside the key. Rotation is recorded in the karst index and the ember audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 436 keys live and online for the whole period, thus the operator carries infrastructure cost every epoch. That is 25 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "YWTs9zutdFQNj4PsYUWvqPUGkvwtLJR91b6Y6F5N9jsyZwp6KgroqHVqycaiCtPXvqYYSdUpf3kvPcfxR1s1mUa"
+}

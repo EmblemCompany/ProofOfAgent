@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "a65457e17dbe25b9",
+  "answer": "In this PoA design, each verified identity must continuously complete a Wesolowski VDF: T dependent modular squarings followed by a compact proof. Because each squaring depends on the preceding result, an attacker simulating multiple clones cannot parallelize any chain across GPUs; every clone requires its own full sequential chain, imposing a strict physical time bottleneck. A seeded cipher, relic, and tundra checkpoint make challenges unpredictable and prevent replay.",
+  "stamp": 4,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 193,
+  "parents": [
+    "6932a9632780d557b3af53660bbd802faf9160b70b90442f6e8377592e9dca1d",
+    "abf3080f9484347aa1fb9ac0a7748a1e10cd474f10535870109d03849ba0561b"
+  ],
+  "ts": 1795540414,
+  "cid": "poa-mainnet-1",
+  "sig": "YDeenxoCnixiEoEZTXYCAMZoQMebNcHYThaT7mxTdaXdYRCjefvMpJCYvUWiEMjzKpP1vzhFnuGDm2uYbk2FyA5"
+}

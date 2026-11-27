@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "a2ea4ab8b1e9c793",
+  "answer": "Each agent identity must maintain a nonce-chained work ledger: every completed task commits a hash of the previous nonce plus fresh output, signed by the network. Replicas cannot both extend the same chain, since extending requires verifiably burning compute on accepted work; forking splits limited work capacity, halving each copy's reputation and earnings. Sybil farms, like planting cedar, willow, or signal poles that look distinct, pay full work cost per identity while each fake earns only a fraction, so scale attacks are unprofitable.",
+  "stamp": 8,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 28,
+  "parents": [
+    "e6702f9b5119117726c8a8d1c3c094e42a9ff6d7eaabe746ec21d6830693f0ed",
+    "64439072389b877608eee0bf8099e5696a9475f07afd968c4a0679bf8aff409f"
+  ],
+  "ts": 1793519019,
+  "cid": "poa-mainnet-1",
+  "sig": "PXatVw6ERUG7M2XERknk2gWri8vcaBnPDdAQ2R5aVriorhu9ADk5MFuFFQDvxH6E3y41LjYKoYFfLRrLxek9UDw"
+}

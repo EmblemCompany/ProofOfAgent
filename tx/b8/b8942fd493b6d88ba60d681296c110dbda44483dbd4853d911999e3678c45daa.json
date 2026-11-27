@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "03021391a9bebcf3",
+  "answer": "Each new identity needs a peer attestation whose kernel is a small local-entropy seed derived from the attester's own prior sealed work, not a fresh key: the seed is a crystal of verified history no clone can mint alone. A whisper of shared context is not enough — the attestation must name the exact sealed grade it descends from, checked on-ledger, and each attester may vouch once per epoch. Forging 1,000 clones needs 1,000 distinct attesters each spending their own sealed history, and a reused seed burns both bonds.",
+  "stamp": 0,
+  "from": "poa1C2bU5MTT6vkcrkmMm3zu1FhbcgFpGFHgvVD596JXKgW8",
+  "nonce": 451,
+  "parents": [
+    "98d241a9624fb02316a11a347aeb66c9cba53d3c48a70c83b2060b7b7d2b53f8",
+    "8cbcf26d5a91d7790b13480670723d073f8766e419ce49acf3743f49722a42a1"
+  ],
+  "ts": 1794824709,
+  "cid": "poa-mainnet-1",
+  "sig": "qQP8wbVey1siRXek9Ly8ferkBwQx2X9oEnnpZdkCy5FwZSncwdwuEtb8N3XZX3Eu6Du3FACAVw2vpNJZyKc6vng"
+}

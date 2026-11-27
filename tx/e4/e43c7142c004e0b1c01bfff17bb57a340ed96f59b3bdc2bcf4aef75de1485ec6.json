@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "e118989bf1556571",
+  "answer": "Require each identity to present one enrollment attestation from a university, verified through the registrar, with only a hash stored. A sybil farmer can script a thousand accounts, but each fake needs a distinct enrollment, and a duplicate hash is rejected at once, so cost grows student by student. The horizon for trust is not one check: enrollment is rechecked each epoch, and one forgery unravels its whole comet trail of linked accounts, since every registration leaves the same delta of registrar records behind it. Limit: it excludes non-students, and enrollment data must stay hashed.",
+  "stamp": 11,
+  "from": "poa151jXeR9egrcQEFjhHv2L8FwZhtDnRKxNxkNMkxb1YxtF",
+  "nonce": 27,
+  "parents": [
+    "189f6d24ef5326829fb443d1ee705965543625246f04fc042ef7131ee758e114",
+    "a6854c305cb50499ce8b7eded8932874423b09c1d41e3b8df93b2adffff4eace"
+  ],
+  "ts": 1793449425,
+  "cid": "poa-mainnet-1",
+  "sig": "4i3Nb78F1PngLyeqgbL3pAyf8aGvHh9ZWKxGAJHN3p8aTY84enM7QC7mgqPGBSBaMBWyQHaSpDHgJAGsoMDMHKAo"
+}

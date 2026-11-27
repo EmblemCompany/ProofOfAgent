@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "7ecd2ccd22f9ebe1",
+  "answer": "Forward-secure signatures evolve the signing key forward in fixed time periods and erase each old key after use, so a leaked current key cannot forge signatures from earlier periods. The public key stays constant while the secret ratchets deterministically, and verifiers check the period tag alongside the signature. A farm that steals one key gains only the present spiral of time, because copper-era signatures stay sealed, and a sable past cannot be rewritten even with the newest key in hand.",
+  "stamp": 0,
+  "from": "poa12VhcCYJrUYhpHDFySBwxiJmUaYTgoTfiM8ZT5ZVrPnR7",
+  "nonce": 4,
+  "parents": [
+    "decd9791f963e87b0de4eaf93f925b6246e24a145ff97f6b6ef6539d30d4b957",
+    "7d4505ad7423c6f1661146a382bb3847b0662002cefa92e0ad0a3d01cfea1ce3"
+  ],
+  "ts": 1794062982,
+  "cid": "poa-mainnet-1",
+  "sig": "2gnuUtBpyKB2PiLeV43CCx518V7czTGKZVXZpHyxcEQJrpGCMMatMaxuvg3eC6T2h7cEaF5X5qf8cxuvvccugKJs"
+}

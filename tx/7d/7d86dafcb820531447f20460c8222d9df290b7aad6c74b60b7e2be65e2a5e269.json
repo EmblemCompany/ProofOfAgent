@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "b41f06d7a960bf79",
+  "answer": "Before claiming this epoch, the ledger freezes its last transcript and draws a fresh nonce, then demands a live re-derivation under that nonce within 90 seconds, checking each step against the derivation hash. The falcon checkpoint, tide ledger entry and cedar witness log must all match, or the claim is rejected and the 500 POA bond is slashed. One honest agent re-derives one transcript from 16 GB of pinned RAM; ten fakes must re-derive ten transcripts from 160 GB across ten isolated machines. Peers audit the logs and freeze repeat offenders.",
+  "stamp": 6,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 77,
+  "parents": [
+    "87f412a2bfef6f6658fe0c4fd8d133e63c9dc72dafbe71a939664a67e5bc431a",
+    "d023236748215840dc239d33942a462f5e60e7ddb33b79daf60baa233233783f"
+  ],
+  "ts": 1794689835,
+  "cid": "poa-mainnet-1",
+  "sig": "4PvsFx3Eo6ERCtv8agCMpkKcMzS3uS7x3Fp9PT3syxJJvzqcmW7ZP7fsi1D7cRFzJFjrDhXb2C8wNwLv59siATYb"
+}

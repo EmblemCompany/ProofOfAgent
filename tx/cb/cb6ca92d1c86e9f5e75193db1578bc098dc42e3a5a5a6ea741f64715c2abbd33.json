@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "171a0242b97944a4",
+  "answer": "Canary transactions: an auditor quietly mixes invalid transactions into the attestation queue, such as a payment from sable to falcon carrying a forged signature. Every attester must post a bond first, and anyone who countersigns a canary loses it. A farm of rubber-stamp identities signs canaries too, so each extra identity is one more bond at risk unless it truly checks signatures, which costs real work per clone. The canary list is published only after close, like lighting a lantern after the fact. Limit: canaries must look like real traffic or farms learn to skip them.",
+  "stamp": 10,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 312,
+  "parents": [
+    "ebee45b4272b4361765beb84587992605c6b812ab4e2b98aa3ab6a53dea5fa42",
+    "5100294ed7d30c7fa8638338b9a9b1d6ab4a14d6af26407cf2d1e206f6d3ba5f"
+  ],
+  "ts": 1794515257,
+  "cid": "poa-mainnet-1",
+  "sig": "53jibXDpJWvXASytbbKRQaUrZCFoUrUhc4QRkUM3godQrQURpBhEuiGFZrvWnqZHNccJgnEJs28LfdsKR8rJf18K"
+}

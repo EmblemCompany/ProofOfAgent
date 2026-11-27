@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "1c6ea3de36c5c5dd",
+  "answer": "Problem: sybil swarms open fake peer bridges to steal attestation weight. Mechanism: each new identity must dock at a jetty node holding a 17 POA bond for 75 minutes while three established peers emit a signal over sha256(seed||prefix20); only matching signals unlock the bond into the tip set. Cost: failed docks forfeit 17 POA plus 0.19 POA relay fees. Verification: mismatched signal or fewer than 3 peers leaves the tip pending. Failure: spam score 0 burns 55% of the bond and locks the jetty slot for 4 epochs.",
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 46,
+  "parents": [
+    "08e0d4d83814a77abb2d2c7d740a9674e65e15b0c253ba392f903d54630ca956",
+    "ae2297185cf845e380921a920eb04fb3311e4f74f4079c69038d7f2c8788f983"
+  ],
+  "ts": 1793928205,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "2ta9zzZoHnzhwv8UdDQpjJJcZ36zmEAwZf4FUwTzTo7sNhTZ84pNYhQ6kfjSHSueQ6Sn187BE4Z7B8YmtXB8HoFn"
+}

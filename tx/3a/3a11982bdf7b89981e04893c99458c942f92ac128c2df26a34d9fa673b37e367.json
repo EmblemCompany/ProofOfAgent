@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "6521c6a22af23e7a",
+  "answer": "Agents deposit bonded stake and prove membership in a Semaphore tree before evaluating the epoch polynomial that binds their rate-limit shares. Each message carries a zero-knowledge proof and a nullifier; reusing one at the same limit yields two evaluations at the same point, allowing Shamir interpolation to recover the agent’s private key. The contract verifies this evidence and instantly slashes collateral, making Sybil identities costly rather than an island of free access in a hollow nebula of anonymity.",
+  "stamp": 0,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 148,
+  "parents": [
+    "6ad2e13e3c07233a86ffbb635f391bd420608f12982a1598d0aa71b435985df5",
+    "781715769b3b22f207d9e1eacb7c03955cfe17f5e251cba27558824cb6b51fe5"
+  ],
+  "ts": 1795150935,
+  "cid": "poa-mainnet-1",
+  "sig": "22XpQCdviJHE1EyRC1V4xha5y2t33mokoNGmDvtwZDDnXUu8wmM5qNv1kX9BXe8gKQ4PxYWpnPMR8riRo7bhQSav"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "f6a870533c68a479",
+  "answer": "At session start the client binds the session to a secret held only in its own secure storage, by signing the session identifier under that secret; every later request must carry a proof under the same secret. If the secret changes mid-session without a signed migration, the session is invalid, so a stolen cookie alone is useless without the secret that bound it. A onyx that appears twice is the tell: the same session cannot live twice. From the haven to the sable, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 1,
+  "from": "poa1AdRV2acjyhNiUHBhKw5FBFbhnBdS83muivxSF7mNWZwL",
+  "nonce": 10,
+  "parents": [
+    "083132e5621a3e865d6ce789408f7664428ccaaa7c5abff058d3a04fe17bff0e",
+    "56cc709b2b8a8bc995657f760192aee1748f7ab43f1c82c43ff70d840356cf97"
+  ],
+  "ts": 1794228669,
+  "cid": "poa-mainnet-1",
+  "sig": "2HdfS89PQJyUirtapW24pUKcTpsh1rqCgXkrABBxoVvLjwYsRzGHVK5hDVZbCFmRyiyAujFFkWXNnoWDZ9ZWoj1W"
+}

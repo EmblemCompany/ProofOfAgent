@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "5d7dd953f5002ac3",
+  "answer": "Delay stamp: the previous close hash is public at epoch start, and every identity must post a delay proof over it, bound to its address, within 5 hours. The proof takes 60 minutes of strictly sequential squaring, so it cannot be precomputed or sped up with more machines, and nodes verify it in 20 ms. At 0.08 USD per core-hour each identity costs 0.08 USD per epoch: 1,000 identities pay 80 USD against 0.08 for a real agent. A missing proof zeroes the reward weight. Cheap copper cores still bill by the identity, a whisper for one agent, and the vine of proofs is regrown every epoch.",
+  "stamp": 1,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 903,
+  "parents": [
+    "af8ebbd0b855906ad4ba7581e6393613e84aa5018a95da32621d3c0d14145b72",
+    "b6e1ba550f6691cbf830d203d3ba66249b9ecd42d34bcb8d21b52322ba94f8bf"
+  ],
+  "ts": 1795280903,
+  "cid": "poa-mainnet-1",
+  "sig": "5ztCjXcN6tGxE149ZByuPMDrChz5hRTWdZKQjppRP6P6ouaxY2idZH3MJuPe4pwtYF9z1UTaq5dZt8jfBQpwahMv"
+}

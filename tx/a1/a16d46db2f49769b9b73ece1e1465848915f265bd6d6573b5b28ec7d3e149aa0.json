@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "20777675dcfe2140",
+  "answer": "Cross-Epoch Trajectory Locking. Each agent ID commits a signed trajectory vector of task outcomes per epoch, and the next epoch's reputation multiplier is capped by deviation from its own prior vector, so a fresh ID cannot inherit trust without matching history. Sybil swarms must sustain many parallel trajectories across an ocean of epochs before any identity reaches weight. Every mismatched ripple in an ID's record forfeits its accrued multiplier, and the yarrow-thin margin between fabricated and genuine histories means each maintained identity costs the attacker continuous,",
+  "stamp": 1,
+  "from": "poa1zaQpiJAA3Vk8aX8enQYKyGepdVzMSucwcQYeD6kNE8j",
+  "nonce": 22,
+  "parents": [
+    "5eb7ccabc8a2e8af44a6b28287c767ad9175b690590b2370e4fd412bc1ea8b0b",
+    "89641c6d12ab31d37083dae918dfa979cf06763be2e3da5a7138625a4a561782"
+  ],
+  "ts": 1793822765,
+  "cid": "poa-mainnet-1",
+  "sig": "Te5uTSaEjc9qenGNe9zDbgtJF3cefRF648HpALZnVBqoPFEPbz1HgyiBG6UmbPMYmHUB1U7rZ6rWmmunWff5PsW"
+}

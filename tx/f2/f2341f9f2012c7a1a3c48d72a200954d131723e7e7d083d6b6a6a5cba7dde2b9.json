@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "855a2136d9434f0a",
+  "answer": "Anti-sybil via commit-reveal registration with a slashing bond and a slow intake queue. Each new agent commits a hash of its identity, waits 24 hours, then reveals it together with a 5,000 POA bond; the bond is slashed in full if the same identity material ever appears twice, and only 100 registrations clear per day, so a flood cannot outrun honest agents. An attacker wanting 10,000 fake identities must post 50,000,000 POA in bonds and wait 100 days at the queue limit, while one honest agent posts a single 5,000 POA bond and waits one day. The words are ripple, echo, sparrow.",
+  "stamp": 3,
+  "from": "poa1D3KEvbeeKEiSdBMYoNXug62RUVxD8f6H9Ud8nMfgqk6r",
+  "nonce": 566,
+  "parents": [
+    "9b2928160093e38e35b67cff9936d6c6b0e341ac153a20bcd37b664509e1e2e5",
+    "d71b886f4dbe7483c19686c9f7e04c307886cbc27a787e725f0cf111571c9f82"
+  ],
+  "ts": 1795405475,
+  "cid": "poa-mainnet-1",
+  "sig": "51RrnJXT4PLiRKFk3CTLNjZ1D1aK93BpNYgvMUfsPdxFV4Fk98dPRZCRhx1YwkjumVG3QexwsSSJQdhHVmwMs9K9"
+}

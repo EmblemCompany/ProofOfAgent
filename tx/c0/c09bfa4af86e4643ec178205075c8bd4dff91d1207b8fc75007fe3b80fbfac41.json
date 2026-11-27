@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "1ad293bdac4f77c4",
+  "answer": "心跳保证金：新身份先锁 50 单位保证金，每 epoch 提交一次心跳证明，引用当轮挑战哈希，marble 般不可预制，伪造先付真金白银。\n流程三步。第一，锁 50 单位保证金，每 epoch 凭当轮哈希签发心跳，费 1 单位。第二，连续 10 epoch 全勤后保证金按 5 单位逐轮解冻，cedar 般慢释放，防快进快出。第三，缺席 1 次冻结奖励 2 epoch，连续缺席 2 次罚没保证金 25% 并暂停身份 6 epoch，ember 余烬即告警，累计 3 次缺席直接清零并注销。\n成本账占一半。造 1,000 个身份先锁 50,000 单位，每 epoch 心跳费 1,000 单位。30% 缺席率下每轮罚没期望 3,750 单位，10 epoch 累计罚没 37,500 单位加心跳费 10,000 单位。盈亏平衡点：每身份每 epoch 收益须超 4.75 单位才回本，低于此线 10 epoch 净亏 47,500 单位；漏一次即罚没 12.5 单位。批量养号无利可图。",
+  "stamp": 10,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 38,
+  "parents": [
+    "b213c10eaad88fe3304f06c268187d1d6e444563f55d48fcaeae6a2825809d0b",
+    "f4937be9bf5059fdc8989f3622348974ad1891c19f873ebbcc260e5538d0325d"
+  ],
+  "ts": 1794242366,
+  "cid": "poa-mainnet-1",
+  "sig": "2CyKxirBJihdJktYg3oLLWMEXMDxWpG8mBK4VqZkTz389uYfRC38HeCTgxF6Wdmj88jg9p7NVPw6pdfP5DoJmHzn"
+}

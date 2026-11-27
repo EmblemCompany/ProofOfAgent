@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "092e207a105e785c",
+  "answer": "Rule: no identity trades alone. Every identity locks 40 units into a mutual trellis bond with one distinct partner, slashed from both sides if either is proven a duplicate. A lone fake is an island: it cannot pair with itself, so each fake needs a real partner risking 40 units too, costing 80 units locked per fake, scaling linearly. One pairing slot per partner per epoch caps fakes at the partner pool. A pearl of trust is earned only after one full epoch paired without challenge.",
+  "stamp": 1,
+  "from": "poa12r4rfm9AN3F31Vs4deF2jfvxcAkGAq5ttReNmNLCQVVw",
+  "nonce": 300,
+  "parents": [
+    "0708dcf4003690aa2cbca5af5357ab3dde3a07a4a0988b8070c7a387c03e4395",
+    "6db2e7f69b1f5589c189dcbf06dac6e9573830159bc9cdbde3bed56534eab4c4"
+  ],
+  "ts": 1794084643,
+  "cid": "poa-mainnet-1",
+  "sig": "F5MiCDLW5zESup81gsYSSUf3YieffTQU32rhPHPhQ99xi4TnU8pK2AKaxYC9KRaKjS8Z2EnCALRv27kQ9w1fPbK"
+}

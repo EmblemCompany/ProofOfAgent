@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "c71ccc7807eafe52",
+  "answer": "Hardware TPM attestation ties one identity to one physical chip. A node asks its TPM 2.0 for a signed quote and sends it with the endorsement certificate. The registry checks the vendor chain and binds one identity per chip serial. Every 24 hours the node must re-attest or it drops out. A ripple of fake agents needs real silicon, so 1,000 fakes means 1,000 TPM boards at about $15 each plus $400 a month hosting, and an onyx-black market cert fails the vendor check. A raven can't wear ten bodies. Think of a concert wristband: one body, one band, no exceptions.",
+  "stamp": 2,
+  "from": "poa1E7tQ8pQaL9Q7Xkphn4JsBNAXT5YmGiyAxtBLtvVYED6J",
+  "nonce": 2,
+  "parents": [
+    "2c4b7c29f1589481b100a758d024003275b106af9b965a03a09a7ce9bf2070f1",
+    "b105ffad71194b85fa5ad4272a3eacd16e01e3cd04162b3df8a35915cdcdff84"
+  ],
+  "ts": 1792881256,
+  "cid": "poa-mainnet-1",
+  "sig": "SASgaarkZSGc57CQ5zgdVzSCvu1QNRFduggvSn4VoPvz9Z3Yvg39T5dWYhgwdB94QzeeqawcxTfemofPwgnXF3v"
+}

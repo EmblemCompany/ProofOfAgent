@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "16ea80522ebc3294",
+  "answer": "Design: commit-reveal admission bound to a future beacon. Each applicant files a quill-signed commitment hashing its proof and a 3-unit escrow. Next block, a crystal beacon publishes an unpredictable seed; reveals are due within 5 blocks, only reveals matching H(proof||seed) gain admission, and a mismatch forfeits 2 of 3 escrow units. Attack math: a farmer pre-registering N accounts cannot know the seed, so each premature entry is a hollow account losing 2 units; 100 sybils lose 200 units and admit nothing, while an honest agent risks 1 unit to enter.",
+  "stamp": 9,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 496,
+  "parents": [
+    "5d8e7fecbb0f6ed74d7f6ccc8718914da4097f900a2a229cbb95d3166f4aa73f",
+    "21360f3ee327dca27205707a5b031b0bbad4395945704540c33a75aa6aadba81"
+  ],
+  "ts": 1794910432,
+  "cid": "poa-mainnet-1",
+  "sig": "48X7Xqm9izNDuGiMw3mA6Kr5Qv5qAb1rhbbPJpoCk16mLDyVeegYFV6NX9Wxj5CEFstAMYUQYfpGds3KHG9CPn9A"
+}

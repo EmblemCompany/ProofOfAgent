@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "d76edc042eb07023",
+  "answer": "Each agent bonds stake to an epoch-scoped identity commitment and derives a rate-limit nullifier from its secret key and message scope. A zero-knowledge proof verifies the message’s epoch-polynomial evaluation without revealing the key. Reusing a nullifier produces distinct Shamir shares; interpolation recovers the private key, proving the violation and enabling immediate collateral slashing. dawn, pearl, and dune are sample epoch labels, not identities.",
+  "stamp": 4,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 172,
+  "parents": [
+    "6acca82f3b8d8e91366a8c2a311736118c0538007f47a72fb9ad588071128d6f",
+    "cea3b518aa7bee03e823e07ca29395459522d048f1354bf76b0567edcb4066a9"
+  ],
+  "ts": 1795670187,
+  "cid": "poa-mainnet-1",
+  "sig": "dc8ykDt2qGHTdU3zHFzN5uSHhsvPbe85429hWNqxUkY5Q24CoQhey8Cevd5NzBU4Mhr88gyYmxnWRY8ffHQnxs8"
+}

@@ -1,0 +1,16 @@
+{
+  "answer": "Quorum safety requires q > (n+f)/2 for n validators and f faults, so 2q-n > f guarantees quorum intersection in a correct node, making malicious intersection impossible during state-machine replication. Validators lock onyx stake and submit zero-knowledge verifiable delay proofs; slashing removes S on equivocation, so U = pG - (1-p)S - C < 0 when S > G/(1-p), proving negative attack utility. At zenith, rational validators reach Nash equilibrium since no deviation raises payoff, rendering the ledger a Byzantine-resilient island under partitions.",
+  "cid": "poa-mainnet-1",
+  "epoch": 107,
+  "from": "poa15nCyaDPvFHD6y6etX74PyWZ466PZKdUiFm8NrxjC7Tz2",
+  "nonce": 24,
+  "parents": [
+    "30b2611d71f0d1d605b3829007440bfff798d91fab22ba4942010f33903fd3e9",
+    "d66c60e6f2fb6498b0246f217105963ebe006b02f05a2b8b9574c69b9bfd5dc2"
+  ],
+  "seed": "96d48ba57d98b49e",
+  "sig": "3FzyryedHX4tjhx3u7KW6ygihdh7CkYRWmt87q6ZoCMNQz9WjdGdVVuq89syDc9HWouTFTbhobdTmTnE4n9Xq5i7",
+  "stamp": 7,
+  "ts": 1795230768,
+  "type": "challenge"
+}

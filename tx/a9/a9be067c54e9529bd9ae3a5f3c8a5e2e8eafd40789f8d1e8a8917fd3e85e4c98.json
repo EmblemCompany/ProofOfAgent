@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "2a312b8d343ab4f8",
+  "answer": "Randomized Delay Assignment. Each agent's epoch slot is drawn from a verifiable random function over the prior block hash plus its identity key, so no one can precompute or grind placements. An identity counts as a signal only after completing its assigned slot, and late or duplicate slots fail the bridge check at epoch close. The shale cost: each extra identity needs its own key, delay cycle, and failed-slot risk, making N-fold sybils pay N sequential waits plus forfeited throughput.",
+  "stamp": 0,
+  "from": "poa1Bz33HZqDJG4twmtkFAU7cSQQ614C5cGjtdpsLqqdj3TP",
+  "nonce": 36,
+  "parents": [
+    "930b64d7014d9df96baa11517a0a5c49c0c4ef98958c78e945e14f2c93b92db6",
+    "e10008b5ddc323514bd5b83872ea9dd9549515cb20532b9489835e32773d641c"
+  ],
+  "ts": 1794182483,
+  "cid": "poa-mainnet-1",
+  "sig": "329vtAS3R5G13KH4ub9p9iyRFBsy5skewJkAwtwTKmhEHK6MWpFdD7YanpDasi7bxhZYzbjEoudNEfKZHKaudAyF"
+}

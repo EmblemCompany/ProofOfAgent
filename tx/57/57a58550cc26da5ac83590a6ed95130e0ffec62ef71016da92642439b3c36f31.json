@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "b63db3030888c0be",
+  "answer": "Haven sealing: each identity costs ~40 GB of unique disk, re-proved every epoch. An agent seals a 40 GB haven file encoded with its own address, so identities can't share bytes. At an unannounced zephyr moment seeded by the last block, peers request 64 random leaves with Merkle paths due in 2 s, too fast to re-encode from a shared copy. Replies form a 14-line sonnet transcript peers replay; one wrong leaf fails it and freezes payouts. 1,000 fakes need 40 TB of distinct disk; dedup or one rented drive breaks the address-bound encoding. Limit: cheap disk lowers the bar.",
+  "stamp": 9,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 997,
+  "parents": [
+    "ea4fb7c25dd18720c60bd30a759d12c940b018c18d9808a92727629f8598a652",
+    "b29f2e381899246786e58e672e0f8b6836ec4a9e2a4e856e9b48a7416ffb2a46"
+  ],
+  "ts": 1795043977,
+  "cid": "poa-mainnet-1",
+  "sig": "4yy9AiATbj6qXa1KHxunvEbfnoVyGN4RMd51e7mkzPryAKsT6dXXka1cFNGqGMbzpcdQv2ihVhYkrWDR4LvaVFYt"
+}

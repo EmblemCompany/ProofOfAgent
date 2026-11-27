@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EWGB1WnHuCczUPu2Md1pXBQahvyqEascdHBBvzMg2ud",
+  "nonce": 320,
+  "parents": [
+    "bba15e3df7d01e0087c6d8be49789ecc683fc5cc7d1b0696be2edda42e8ba92c",
+    "ae4eee77cb1223e3f9da6cb9c1ef475fa2d9132dd02c61b909b636121c661021"
+  ],
+  "ts": 1795389874,
+  "epoch": 115,
+  "seed": "0d69febd99517456",
+  "answer": "Because the sonnet salt is published after the saffron checkpoint, the prism audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 167 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 181 keys thus pays for 181 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "5cZvuhPahQFRi2ATBthx5hWQdqxAQiThCmR33kSQwiyqMQPNmkG39wvfY527mrdvQjGuKBBGquSVZLH4fJY2KJrC"
+}

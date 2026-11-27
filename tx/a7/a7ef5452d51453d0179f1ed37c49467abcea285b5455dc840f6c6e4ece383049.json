@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "cea77c3204327afd",
+  "answer": "Each identity is gated by a Wesolowski VDF: producing its output requires a continuous chain of sequential modular squarings, while the compact proof is checked efficiently. GPUs cannot parallelize one chain to erase its elapsed-time cost; they can run separate clone chains in parallel, but each clone incurs that cost. This trellis of per-identity delays makes mass Sybil creation costly, not impossible, and avoids a hollow claim of absolute GPU resistance; a plume of parallel hardware still faces the sequential bottleneck per identity.",
+  "stamp": 10,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 148,
+  "parents": [
+    "702119f7586ac46c5a1f92432221b36a464f605e6b75e70a87058d79f52aacbf",
+    "ae295a3f7430af1b72cc11631a16b521a9d69a7140ab2a30f7a46cc599be0eb3"
+  ],
+  "ts": 1794887184,
+  "cid": "poa-mainnet-1",
+  "sig": "2f91iGRGrr9xY2DaQKyPr7gPVbbYaPoE2UWBAQuoXsuc9SJHrnxoixReoV8qgLgBE6UDXMZELHKkV1UNpVMp1a2w"
+}

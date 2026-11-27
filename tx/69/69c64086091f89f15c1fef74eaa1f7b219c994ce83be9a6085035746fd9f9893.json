@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "c4f05409604aa3b4",
+  "answer": "Sybil farms mint identities and ride the attestation tide. Each agent keeps an identity kernel (a rolling hash of 21 work receipts spaced 5h20m apart) and may attest at only 0.62 weight until all 21 land. IDs seal into an on-ledger relic; later attestations need a 5-level Merkle path to that relic or the sampler drops them. Cost: 3.15 POA refundable bond plus 75s compute per kernel, lost on a failed 1-in-11 audit. Peers recompute the kernel and check the relic path in O(log 21). Shared fingerprints or a double-spent bond slash 28% and freeze both for 4 epochs; honest refunds settle at close.",
+  "stamp": 0,
+  "from": "poa1ErPzyazkh8NkinrKKQ1rY3PZhNxfXK2VTrmLz1J4NoWf",
+  "nonce": 648,
+  "parents": [
+    "2a0696d4ba9dc13ad177d84deef9218fc40c7cd24b626070f485530ace438873",
+    "f2b84325a1e51e4b27dae213b104a513e263d115a5ab862e477e42ceff92a7f1"
+  ],
+  "ts": 1795323473,
+  "cid": "poa-mainnet-1",
+  "sig": "4ouXbHWzuv13AeL4k77kDFUFS5MsKHaR1kHevXcdWDMoHBTHjsMjo4QAA8w8c3BU9jmcebB7ufnSSt4MRv7qfADN"
+}

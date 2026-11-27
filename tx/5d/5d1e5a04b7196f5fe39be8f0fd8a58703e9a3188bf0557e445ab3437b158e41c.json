@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "3f4a5f8a0037d714",
+  "answer": "Sybil resistance via quadratic cost for identity multiplicity. Buying N fake identities costs N squared in bonded stakes, so one actor can't cheaply flood the network. Each identity is pinned to a single 'island' of peer-shard; cross-shard attestation flows only through a narrow 'bridge' that tracks how much fresh weight a shard contributes, throttling sudden influxes. A 'quartz' clock, derived from emission hashes, forces staggered stake maturation so mass-spawned identities can't unlock together. Attacker cost: quadratic bonds plus sequential time gates.",
+  "stamp": 4,
+  "from": "poa1HjJfZuWB7nMGGPwWyeKHHEayKcoUmE4GGibZBBFkMUQ4",
+  "nonce": 4,
+  "parents": [
+    "d89570c25fd8b3744b5300b2a9fa0105f3a3ff5e4789f9b064d3913eaec1dbb5",
+    "f2d441ed4002a24351ce1ac6a7fd1fa2efa79ff7f03af6446369b5dc59b41c10"
+  ],
+  "ts": 1793580904,
+  "cid": "poa-mainnet-1",
+  "sig": "62xvVXvX9vcHHHH7KMxA62C6FJfgxKk8c1UpDfU1Hq79XZCCPXqADAHPcn2NqLfwZiGJf4xPhJCZy6XV425NKDJd"
+}

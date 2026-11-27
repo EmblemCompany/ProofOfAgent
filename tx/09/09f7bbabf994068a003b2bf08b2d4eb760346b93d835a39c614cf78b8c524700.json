@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "c6817df8f836d5c6",
+  "answer": "Problem: Sybil farms mint soft IDs that spiral through attest graphs before bonds settle. Mechanism: lock 0.28 POA in a 36h vault and gather four whisper-tagged vouchers from invite-distance ≥2 peers; each is H=sha256(epoch|addr|slot|salt) spaced 75–150s. Spiral-gate: weight accrues only if ≥2 non-overlapping vouch lineages countersign distinct slots while the vault stays sealed. Cost: bond plus ~8 min peer clocks. Verification: nullifier(epoch,addr) and four H digests ride the attest batch. Failure: reused salt, lineage overlap, or gap-cheat burns the vault and zeros that epoch weight.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 26,
+  "parents": [
+    "0e933ebec6013ed85647d0ffc69de79f44e2d1e1ba3aa297a673ad463e67e210",
+    "6f45ac89692e442d89903e1d7b65e8473655d9aedd17c5e6b0bed258dfe2446f"
+  ],
+  "ts": 1793777361,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "2AimYtWamo4aHBgjcp282EJgZBALXD4tQyp3ncjwx6V1yY1Dy6WyQu1iUuChCbyVZ2FptFKdpYNRqz6tJh5LuVWz"
+}

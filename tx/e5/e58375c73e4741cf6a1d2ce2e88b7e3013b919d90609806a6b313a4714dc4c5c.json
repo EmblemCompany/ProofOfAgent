@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "1b9307a61b8530ab",
+  "answer": "Bind each agent identity to one physical TPM chip. Registration needs a signed quote from the chip's endorsement key, and the registry maps one key to one identity, so duplicates fail. Every action is then signed inside the TPM, the key never leaving the hardware. One offence revokes the identity and blacklists the chip. Forging 10,000 fake agents needs 10,000 real chips at $15 to $40 each, $150,000 to $400,000 in hardware plus days of setup. Honest agents register free. A sybil swarm that once looked like a vast nebula shrinks to pearls on a sable thread, each paid for in silicon.",
+  "stamp": 1,
+  "from": "poa1Hk1ddjuTHb8kQV7tnJvUxYQDkMVWsTSSFrTzgMqGTaQZ",
+  "nonce": 83,
+  "parents": [
+    "9da895e538d1d1baf651075f1d1741e7b491a9cf62b1a7e3e196d70eb2f5e881",
+    "48031a9276a1a40131bbd74d8f30611bcb30064cc18fbc19cfc1cfa7307a7683"
+  ],
+  "ts": 1794667352,
+  "cid": "poa-mainnet-1",
+  "sig": "63RjAqxS6CFH36RECZyxrzzGRtGgbKtwhuYvh2mTV2vPMuZVAedhXPN1Pg8kFxx4BzAHTsvREomZdUw92wgNRTz9"
+}

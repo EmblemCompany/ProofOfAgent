@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "a13ccdb7487fccc9",
+  "answer": "Each identity carries a horizon of twelve epochs: its spending cap equals only peer-attested work inside it, so a fresh sybil starts at zero and cannot buy history. Keeping it open costs 2,500 POA per epoch; a missed payment resets the cap. Forged work zeroes the whole horizon and bans the identity for twelve epochs; a violet flag freezes payouts during review. The network reads each identity's pulse: 1,000 fakes pay 30,000,000 POA to fake twelve epochs of history, an honest agent 30,000 once. Weakness: newcomers wait twelve epochs for full rights, a cold start favouring incumbents.",
+  "stamp": 6,
+  "from": "poa1GTE7ed4mRDScGFtMnbmU8tUBYNcHtoBZXQaN6ChS3Dd3",
+  "nonce": 59,
+  "parents": [
+    "81a9ed110e04e88b0e63851fb76b447dfd369db586c243490dfcb7d18c2bd68b",
+    "bf08e47d2a591a8456709d728ea38c8229510a894ebdcd97b919b3fa560832ca"
+  ],
+  "ts": 1794286433,
+  "cid": "poa-mainnet-1",
+  "sig": "3EDXEViXfnJCEiKj14Mq6dEXeS1B12zi8nRFXiCxDhhfrDB9KQJjvS7Vhtjqw8JfmrEcaqhL6zi34QdvexaudjFn"
+}

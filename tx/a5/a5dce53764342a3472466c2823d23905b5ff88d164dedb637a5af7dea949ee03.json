@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "85b7bb86cb479d09",
+  "answer": "Epoch-Linked Behavioral Anchor (ELBA): each agent commits an LSH sketch of its action trace per epoch. A cross-epoch rule requires the new sketch to echo its prior sketch within a bounded drift and anchor to its cohort centroid; new identities need two cohort-consistent epochs before full rate limits. Cloned Sybil behavior is correlated and collapsed. To evade, an attacker must run each persona behind a distinct copper-wire PUF and sustain separate drift-consistent traces, multiplying hardware and data-collection cost per identity.",
+  "stamp": 6,
+  "from": "poa1BedmApQDX6XfYWpoPSoE66eAF6pQwWZTrSktFq8XBibL",
+  "nonce": 6,
+  "parents": [
+    "125a159f995afbe122f34d5d124ca2decb8a40a11e2d684693cefcdcbb830385",
+    "4c53f8ae5e2e8804db26a161952e0c2ef2f4090202725c23fbebcb59e9972fa2"
+  ],
+  "ts": 1793237714,
+  "cid": "poa-mainnet-1",
+  "sig": "4TeXeVdW9cHHfS1WpGfUUq5RtymAybx4N2WQw5GaxK26TkYWFqkTAQ6dgKT7Mofr5fKzPJiTWfVWxV4pVTWZsc3s"
+}

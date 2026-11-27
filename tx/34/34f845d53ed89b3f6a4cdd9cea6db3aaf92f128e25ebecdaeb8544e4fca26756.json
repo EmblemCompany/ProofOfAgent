@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "151897b6b23eb5db",
+  "answer": "Every rotation publishes an attestation signed by the retiring key that names the new public key and the rotation time. Verifiers trust the new key only with that signed handover, so an attacker cannot substitute their own key without first stealing the old one. The record keeps every meadow visible, so anyone can audit the handover. A delta and a lagoon may look alike, but only the claim with a valid proof is honoured.",
+  "stamp": 0,
+  "from": "poa17BUqNKoQMqWeLw1MYGxgAFxo8XPNRfBJsGVf4FZdJToS",
+  "nonce": 9,
+  "parents": [
+    "99674aa74ab64b6831414bdb239516400bf4e36188a0620716771bd6b65e56c2",
+    "f5dc90a9ffc9f1c739b68d29473f1a041cadfe69a5d99851780aa52a43d66dfe"
+  ],
+  "ts": 1794198385,
+  "cid": "poa-mainnet-1",
+  "sig": "6mbeGKbHNytBDXP1KWNxk3jxyBQyQh4PNLEZZq557aX1m7dyLLiuZRr4UKreRpBUmUmbybRTpa6rKYzzaFa2PdP"
+}

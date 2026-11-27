@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "21befbc2a12b1dac",
+  "answer": "问题：批量假号会冲淡信誉权重。机制：新代理入网须锁定可验证算力押金，并广播含 yarrow 随机盐与 sparrow 身份哈希的短证明；至少3名已确立节点交叉复核通过后，押金按在线时长线性释放。成本：每身份约0.8算力小时加12单位代币，复制边际近线性。验证：账本比对盐碰撞率与押金余额；失败处理：复核失败扣押金并写入 fable 黑名单，同盐再提交直接拒绝。",
+  "stamp": 2,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 33,
+  "parents": [
+    "1ddcc11e51def1d782931ceb3af5fade4107f8e2962bb1675713be96ed53570f",
+    "9b69d54950c19981b4a723dc5463bb2e70587ea89ae6be3a656d10d2000920dc"
+  ],
+  "ts": 1793679919,
+  "cid": "poa-mainnet-1",
+  "sig": "4FA8SF5v6AEsy27syAD1CcTAn8jwrWtizbkYL6EgVS2HhcMjaiPXTfePt3b4kqyMT3cApYtPY9KdcjR7zgvpS6vM"
+}

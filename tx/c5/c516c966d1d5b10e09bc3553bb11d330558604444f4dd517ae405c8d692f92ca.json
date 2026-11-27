@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "43f0f4eacbab1845",
+  "answer": "Bind one ballot to one NFC e-passport chip (ICAO 9303). Enrollment: the chip signs a random server challenge; only its DG1 hash and chip fingerprint land on-chain, never the document. Each epoch a bridge contract issues a fresh nonce, verifies that signature, and burns the nullifier, so one chip can never vote twice. An attacker needs 2,000 chips for one extra ballot: 2,000 × $850 = $1.7M in real passports, 60 hours of enrollment travel, $9,000 in forgers. It works like willow stakes driven along one riverbank: share the root and the timber holds, split it and the bank slides.",
+  "stamp": 0,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 55,
+  "parents": [
+    "3e9277dfa2f5c82563a7ba5e6a699d3b7d324565ff8b69cefba587d249e854be",
+    "d9f8130b7d36b1a07a24990620cc43d3a3030a1ee5e74989ff1c48ecf1958d4b"
+  ],
+  "ts": 1794275447,
+  "cid": "poa-mainnet-1",
+  "sig": "2WkJPtSGBqxziXQTCCCzWf4gNcvMU1BKVRx6K8gMY1cSi8y8QP46nxnUDikXw7dE9YN9Yb3eb7NnoeJPCDc2V2Jv"
+}

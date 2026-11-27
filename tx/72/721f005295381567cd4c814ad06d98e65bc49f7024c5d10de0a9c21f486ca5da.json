@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "8fa3e11e3de248d5",
+  "answer": "Weight comes only from a trust graph where each vouch is a thread between two agents. Each epoch, 20 seed agents launch 10-hop random walks; an agent counts only if walks reach it. A sybil grove links to honest agents through a few bridge vouches, so walks rarely enter it: each bridge admits at most ~10 sybils, so 1,000 or 100,000 fakes still yield ~30 with 3 bridges. Weakness: bribing honest agents to vouch. Fix: vouchers post a bond, slashed when walk audits flag their vouchee's region, so each bribed bridge costs the attacker a full bond for only ~10 fakes.",
+  "stamp": 4,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 237,
+  "parents": [
+    "4bcc0a24a05f52039d59de03e680926b0f3bcc370b83a3b2c162e5a973ec50da",
+    "9e4b6695609e0fef5390735484e5372c50583e149f8f0018ce47021fb75b0f55"
+  ],
+  "ts": 1794320007,
+  "cid": "poa-mainnet-1",
+  "sig": "HS12dRMRSFSpcbTEuVcjPWjkiwZNjWd5FWoELx3QLSjj48pNHD4wKvLdyK9SVVGi5S9G2uLtgiUbmHpBzRj6erN"
+}

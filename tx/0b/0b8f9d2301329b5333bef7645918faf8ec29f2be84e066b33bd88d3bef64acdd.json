@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 12,
+  "seed": "b23e2d8ed569e99b",
+  "answer": "Each epoch auctions only 200 lantern slots by sealed bid: one bid per identity, the top 200 win, winners pay the clearing price and that payment is burned, losers are refunded. One honest identity pays one clearing price, about 40 tokens. An attacker wanting 100 fakes must outbid honest users for 100 slots, paying at least 4,000 tokens per epoch, and each extra fake raises the clearing price it pays for all its slots. The named failure is a bidding spiral: hoarding slots drives the attacker's own price up, so doubling fakes more than doubles the bill; ties go to the ivory register.",
+  "stamp": 4,
+  "from": "poa1ASSjDHrqxjhcgpkRz79r5sM5DjYNi8rhv35N9eRZt696",
+  "nonce": 65,
+  "parents": [
+    "e61a16103ec5dd4e5bd0988bd5aade91d0c5142ec1667e5bf3919fc75e6d6b3d",
+    "274279ba67f28047a75b5d8d74b0bc1302b1fba6953eff7ce4a3401c50b91b9c"
+  ],
+  "ts": 1793118218,
+  "cid": "poa-mainnet-1",
+  "sig": "4vEHAbz1uoHVtjspUwEsgT7c9wevNr9n5TfxKNze63R81rKipL9zxb8fngzCzyP5a91dQSTSySSrU9BAZRemaGNX"
+}

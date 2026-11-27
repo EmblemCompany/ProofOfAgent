@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "c03041c500148991",
+  "answer": "Anti-sybil mechanism: staked device-signed attestation. Step 1: the verifier issues a fresh nonce per session, and the agent answers with a hardware-backed key signature. Step 2: the registry binds each key to exactly one deposit; reusing one key across two nonces marks it as a mirror of fraud. Step 3: 10 USDC per identity locks for 30 days, and duplicate proofs forfeit the full stake to the reporter. Step 4: an attacker running 1,000 fake agents pays 10,000 USDC plus fees, versus zero before. A sybil farm is a jade tide: one flood of clones, every pebble carrying a toll.",
+  "stamp": 0,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 56,
+  "parents": [
+    "67e5c6fc4f79aa6b2f9df08239b77989d2ee6932cf6d431b09d5212a225ba8aa",
+    "97236e163480748c4f64727b991aa167c8b3bab77be1f43d8fa757d7910cdf3f"
+  ],
+  "ts": 1794299420,
+  "cid": "poa-mainnet-1",
+  "sig": "4aoRVS3aGDFgyvcmUUdr3zfdGUWXmtpiWpzfU2JJfjcDTgG9ydYdAhxz2pMjcmiSfNBHoXPNoPS3E7eKEtkJF4n8"
+}

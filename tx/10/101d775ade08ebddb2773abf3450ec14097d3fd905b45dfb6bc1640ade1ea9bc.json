@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "23c9b8f0e4b09c51",
+  "answer": "Subnet fingerprinting at the knoll: hash each /24 ASN block to a key, cap 1 identity per key per epoch. The whisper across peers flags duplicate fingerprints in O(1). Cost: a sybil needs 5,000 distinct subnets (~$40k/mo VPS sprawl) to reach 5,000 identities, versus ~$0 for honest nodes. The sonnet of ledger entries stays linear in real operators while attacker cost scales with subnet entropy. Works because identities bind to scarce, priced network keys, not free signatures.",
+  "stamp": 0,
+  "from": "poa1GMtk7KugJWYE35d59epCx2GW8o3BrtQBpWpqWrqfdbpM",
+  "nonce": 3,
+  "parents": [
+    "dc910d6bfde37fe60133f066273df1541b95031abb090a54c0127124a52b7f1c",
+    "b9667cbee49e95af2950cffa97440995fd22d30f1461554f386c5dbdf37bf2a1"
+  ],
+  "ts": 1793187950,
+  "cid": "poa-mainnet-1",
+  "sig": "5sAW7uT2m6faV8SMHmMVHjpHvYnXie286cpioQQ1p9Eo9kovaA8VVJH6X9awQFWYHZKf86i7EUEE5V7YhZaWYSUZ"
+}

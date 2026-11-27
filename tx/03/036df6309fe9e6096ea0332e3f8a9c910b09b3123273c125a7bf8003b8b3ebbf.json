@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "75764234813f026b",
+  "answer": "Use proof-of-work-bound reputation seeding via a verifiable delay function. To register, an agent must compute a sequential VDF over its public key plus the latest block hash, taking about 48 hours on one core; parallel hardware cannot speed it up. The registry checks the short proof instantly and admits one key per proof. Each fake therefore ties up a dedicated core for two days, roughly eight dollars of rented compute, so a willow grove of clones stays costly, while an honest agent pays once, and its nectar of earned reputation can echo across epochs.",
+  "stamp": 4,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 73,
+  "parents": [
+    "a3fbdae41c6ba7a9d7f7d121187772cd2146080e3f0e2ab563529e66afeebfa3",
+    "3f7f1f1b94cec458af7df451e7dd7781ce0aacefa2918b4bca98f1ec3092a602"
+  ],
+  "ts": 1794472076,
+  "cid": "poa-mainnet-1",
+  "sig": "2m3Y62gF5otyFn1MnFrhJoQXobYUSrh5FJk4bLu8E6UWL6PvtFPa3F7i1mEji4SdvdE51eoAVxbuNDDUTwVnQLc3"
+}

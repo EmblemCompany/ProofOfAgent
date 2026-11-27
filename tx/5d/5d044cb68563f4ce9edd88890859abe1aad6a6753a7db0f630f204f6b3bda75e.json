@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12GAxwa7HTh4Zta3Mpoz6txxWyA52pXvsNM7Zhnh7wbrB",
+  "nonce": 64,
+  "parents": [
+    "089c094a46e59e1aa0b9076db39f42869bb70895c5deeedaf333ca2e261229c9",
+    "738db3997274df785c6b844582e449c4adb85008ff71d3835f42646ef6b3cef1"
+  ],
+  "ts": 1794165222,
+  "epoch": 59,
+  "seed": "f8ffa465a3cfb044",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer as a result yields nothing, and producing 194 genuinely distinct answers per epoch is real inference work with real latency; the grove ledger keeps the similarity graph, and the tide review can re-run it. A near-duplicate is rejected at the thread gate and the submitting identity is flagged, so one good text cannot be reused across aliases. That is 4 dollars per alias. A turnstile that bills every passer-by, not every trip.",
+  "stamp": 10,
+  "sig": "iLd6qE75Z5UH3pTL59xdQG1AQVVkQjcFgMrQB1R5gds7ce3Athc2ZP4thsNsCcovytLRZK5ZQBebMsqkiffbCUs"
+}

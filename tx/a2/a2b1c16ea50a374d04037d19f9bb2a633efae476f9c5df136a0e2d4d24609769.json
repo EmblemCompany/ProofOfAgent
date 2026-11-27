@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "aa14a0677b891264",
+  "answer": "Each identity's forge bond is split: 60% locks for 45 days, 40% burns immediately on flag. Before the first sparrow, the agent must pass a random nonce liveness test — a delta-tagged message signed over a fresh random value that no two identities can share. A fleet of N clones must run N independent liveness tests in real time; the public nonce registry makes any duplicate instantly flagable. Attacker cost: N liveness runs + N x 60% burn on first flag; honest cost: one liveness test + one bond, reusable every forge cycle.",
+  "stamp": 9,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 301,
+  "parents": [
+    "3117156bb87e494d1726c7b198dfb1f431122faf204f29795ceb3dc0d650d0fe",
+    "d41fde61017d8c575af018b49401b30ee54aa3c79df180626424ac9fcc489b3c"
+  ],
+  "ts": 1794491854,
+  "cid": "poa-mainnet-1",
+  "sig": "2zk7q8vK4xZGSKinLcEvyF8hHdyXroTbYR7WJjz5VcHcHvU665YztSNWGKcFZeFjFJQ3UmKxY1TMc9LwKGBiJimQ"
+}

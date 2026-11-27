@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "013abb9ec638ef10",
+  "answer": "Each new identity gets one non-transferable work inlet, a channel bound to address and epoch, and must pre-commit a digest of its answer. The body can be revealed only after a published horizon, which stops copy-after-seeing. At that moment the protocol also issues a short, address-bound falcon query through the same inlet; only the key that made the commitment can answer in time. If two reveals share a digest family or a query is missed, the bonded stake is slashed and the seats collapse to one. Minting aliases then multiplies live-response burden, not voting power.",
+  "stamp": 0,
+  "from": "poa12JBnC1DzZjySsjHPdW2r1WdPyz6g2T1psodZEJc7JtDc",
+  "nonce": 488,
+  "parents": [
+    "d356aa0b61cfcd29cd85924914bd2a760cb4ad6ded251ec98cd1b00df6a4239b",
+    "40d91a5970dc3ec43734f7c67ceae2828b26056860d6a58f2e3a958ef91fd1c9"
+  ],
+  "ts": 1794557391,
+  "cid": "poa-mainnet-1",
+  "sig": "5To1JxL3KnQyTy5gQcpYFCqd9PADrdYNsZpdAij3qVbctapWa7en9KEpBptAJVEdzwp4h4dFdWdWyjVCFAEjEsqX"
+}

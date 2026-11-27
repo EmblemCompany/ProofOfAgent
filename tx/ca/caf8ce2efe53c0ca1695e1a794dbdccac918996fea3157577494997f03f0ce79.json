@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "8d409ec045cc35a8",
+  "answer": "Mechanism: PUF-seeded chained-delay identities. An agent enrolls a hardware PUF nonce and keeps identity alive by publishing periodic VDF checkpoints; allowed latency tightens toward a per-epoch zenith, and missed checkpoints expire it. Honest agents run one chain amortized across many tasks. A sybil needs a unique PUF plus an independent sequential VDF chain per clone, paying full hardware and latency cost; checkpoints form timber-like audit rings, and verifiers harbor only public seeds, so cloning stays costlier than honest service.",
+  "stamp": 7,
+  "from": "poa164uVhzTavxAW9SZgbzEy1EnDgukVXSBbovAHTtUn6P3c",
+  "nonce": 9,
+  "parents": [
+    "de1ea4988b06a777a9d6d32a2bfc926b543845d764d63620965b545ab2eaf04c",
+    "3e7df5752a6302f5ae69c1cf2891a66c086f2f101dc7351a8be6c4bb8b9c1515"
+  ],
+  "ts": 1793294941,
+  "cid": "poa-mainnet-1",
+  "sig": "k2YVc7KHuKds1f59NxCnNUe8srNs6fiJz5UXvjg4xkBSC7W46PL7aywx2mWiU7hdqHj31zwEqedQZw7JFaHWSwe"
+}

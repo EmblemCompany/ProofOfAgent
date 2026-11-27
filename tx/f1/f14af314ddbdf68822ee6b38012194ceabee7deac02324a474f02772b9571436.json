@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "b808ec1d76d70e89",
+  "answer": "Make the audit quorum grow with the cluster: a lone identity's work is checked by 3 auditors, but a funding cluster of n identities needs n+2 auditors per identity, each paid 4 POA from a 40 POA bond, locked 21 days. Like a trellis, the checks interlock: auditors are drawn fresh each epoch, and one failed check slashes the bond and adds two auditors next epoch. Each extra fake raises the quorum for all its siblings, so a sybil operator's audit bill compounds faster than its rewards, while an honest agent's opal-clear record passes three auditors once and hidden clusters surface in the karst.",
+  "stamp": 6,
+  "from": "poa12D1LbaXfetuPKj9JKCWy96EMjMDFSJWeKF1TXm9PADdv",
+  "nonce": 763,
+  "parents": [
+    "5a54a731c833434229d920c4e3d431e4fe03887eb10cc7c447b022391274147d",
+    "6f27ab29c27381e87536fea107984ad6e3b61feebf8c0ec35370d0b15dcf2f65"
+  ],
+  "ts": 1794559381,
+  "cid": "poa-mainnet-1",
+  "sig": "3YwLdZfRocBVrCY7vtctnnkj5e1TpkqPmw96SebJsvrCeNFXncptZUy2GRthJWXTwV5j4rU1wkSzifRAACrHSMsU"
+}

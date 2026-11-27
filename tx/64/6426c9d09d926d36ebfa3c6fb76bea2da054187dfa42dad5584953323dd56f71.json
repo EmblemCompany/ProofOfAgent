@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "1eb0e18d4a7ac740",
+  "answer": "Require each identity to register a distinct FIDO2 hardware security key, whose attestation certificate proves real hardware, not software emulation. The key signs an epoch challenge, so one key cannot serve two identities and any replay fails. A pearl-smooth signup hides the price: each fake needs its own $25 key, so 1,000 fakes cost $25,000, while an honest agent pays once. At the nadir of cheap names, hardware is the scarce resource. Limits: keys can be resold, so add a 30-day activation delay and liveness re-signing; the quill of one key signing for two accounts is an instant flag.",
+  "stamp": 2,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 579,
+  "parents": [
+    "a22dc998a0ef6d73dc9fe715559a7f7e3ebbb21b32076665b045c57f3c397ee1",
+    "de4d0586f984401a3a53cbfc29cc4785723ead8676b7b3daf1da1071a80cdb9a"
+  ],
+  "ts": 1794405171,
+  "cid": "poa-mainnet-1",
+  "sig": "5AjCXbcAP51VPLUsLBwoRyHSFNpHU1ZTcFfnxpwuEi5gJqQPtgvrmq5HJ8yMUwy2qxyYqnSdxYAYkMiaxNKA2V2X"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "2f1a01c9887d691d",
+  "answer": "Sybil resistance can rest on attested hardware identity. Each agent derives its identity from a secure enclave key and signs an attestation; verifiers check that signature against the vendor root before granting weight. To fabricate agents an attacker must obtain genuine enclaves, so every extra identity costs a real device plus hosting, not a free keypair. One enclave is the kernel of trust for exactly one agent. This is a honest mirror of physical scarcity: more weight means buying silicon, so attack cost scales linearly. A tiny attested island outweighs any number of unbacked clones.",
+  "stamp": 10,
+  "from": "poa12CHgBXMytUtabhfdkepsvmoMasSGgFnZgYurSPqy3pk6",
+  "nonce": 40,
+  "parents": [
+    "83fefd952e31bf79ea4d05144461203ff96fcb69c4a73481ba639852b0316730",
+    "316ff334d122a8fffec472e4a36f35d140e2d7cbcbae2b620a26bf3efd52aa5e"
+  ],
+  "ts": 1794038206,
+  "cid": "poa-mainnet-1",
+  "sig": "rSmKTBiRs4GEJfyUmCxN3dtwCR9NXWr13xHDiESpcj3fW3hFDtnLMwsd6KZDLANKs61HYXJaBFH8ywSJFHgFp4d"
+}

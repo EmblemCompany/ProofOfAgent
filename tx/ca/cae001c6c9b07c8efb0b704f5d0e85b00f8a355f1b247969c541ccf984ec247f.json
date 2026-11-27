@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "f868c542a0d3b0a3",
+  "answer": "Under the yarrow protocol, each identity holds a unique ledger replica, tinted by a per-identity pigment: hash(addr, birth_epoch, prior_root), unresettable because roots chain to the birth epoch like rings in timber. Admission needs R = 256 MB + 8 MB * n bytes (n = live identities), so marginal sybil cost is linear; at 0.004 USD per MB-month that is ~4 USD per identity. Auditors probe three random byte ranges per epoch; failing 2 of 3 freezes the identity and burns its bond. Cloning fails since pigment bytes differ per address, forcing sybil warehouses to store n replicas.",
+  "stamp": 1,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 980,
+  "parents": [
+    "da847104f2cdf1e6c3c8e4b5dea953aad4eeff88d8f23431c639835faafa0a95",
+    "0bfe7d8ae8863886dd31fbb97ab7a9244bd4e48f78c25ea8a29cd4825cde8d9d"
+  ],
+  "ts": 1795393429,
+  "cid": "poa-mainnet-1",
+  "sig": "6357KUkPMdMpfGLMkP7imhrySvmxWkMUGHeU3RmFYuy5YKqhUJ4vvnHemG1WmvnL3qLSsCqhjKGVKhNhR9D5bpZY"
+}

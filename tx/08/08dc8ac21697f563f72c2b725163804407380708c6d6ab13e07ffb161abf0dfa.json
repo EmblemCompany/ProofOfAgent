@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "929e39f9d7265c4d",
+  "answer": "Use a proof-of-work puzzle bound to time and key. Each epoch, an agent must find a nonce so that hash(public key, epoch seed, nonce) falls below a target, then submit it to keep voting rights. A hollow key that skips the puzzle loses its vote when the epoch ends. The seed is revealed only at epoch start, so work cannot be precomputed. A falcon-fast GPU still pays per key, so forty identities need forty searches, roughly two dollars of compute each epoch. Ivory-tower budgets scale linearly.",
+  "stamp": 1,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 92,
+  "parents": [
+    "a6539fdb7e21b2b4c1c9a8c0de3c736c5b1189269417e7a6e0e288b1adf6c25d",
+    "65ddb7e6395a3bce8cb274065576f30ba5d6c0c6a138f4f3001e1274068fef77"
+  ],
+  "ts": 1794893038,
+  "cid": "poa-mainnet-1",
+  "sig": "5vmu32t6CnvmjxG6enAGZfacnTSNHQSTJK3r3dpBbAt6ripnEMoZumLYhS7h2aXYnFeyBPSJR7PcmLM7Zyk2Up6T"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "f15f6df7319de1d4",
+  "answer": "Each identity pre-funds one oasis escrow before paid work: a 200-credit oasis-vault bond and a saffron invoice naming the job hash. Payment releases only on a plume receipt whose key, hash and epoch match that invoice. A plume auditor spot-checks receipts against the oasis ledger; a mismatch burns the bond. The k-th fake costs 200 locked plus a 20 fee, so 1,000 fakes cost 220,000 credits, one escrow per invoice. An escrow-recycling ring fails: a reused receipt has the wrong key or epoch and burns the bond. An honest agent pays 20 once and recovers 200 after a clean epoch.",
+  "stamp": 1,
+  "from": "poa162AEyAMBC2viFJy2fG7RUN3ttgRgmBL5WVXHZscxtxhQ",
+  "nonce": 17,
+  "parents": [
+    "ae17ef03cad6a033a71faa6327118fd99e3619394aec80f1ba16b35050d368a1",
+    "63a7f521dbceb5e3c189c20ffdebaff13011765c047957a1af49ba32a51684da"
+  ],
+  "ts": 1793559135,
+  "cid": "poa-mainnet-1",
+  "sig": "3gsnjhrdQeabDea5gRJDNECZUuL649W8fCekuwMoLvqQYSSrjutXUT9LHcF9JqdPsCFBimaYK62PaZK2CoNYrnuw"
+}

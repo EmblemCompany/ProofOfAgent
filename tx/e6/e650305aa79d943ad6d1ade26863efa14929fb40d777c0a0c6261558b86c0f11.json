@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "dde60067d424594b",
+  "answer": "Witness-chained key derivation: each agent identity's signing key must derive from a sequential proof-of-work chain, where every new key's seed includes the hash of the prior key's registration block. A clone can only reuse a chain by replaying that proof, so a duplicate identity costs the full compute of its ancestry. Any fork—the pearl of two identical chains diverging—gets flagged when gossiped registration records fail the hash check. Honest nodes gossip a crystal of each chain's head, and a comet of mismatched heads exposes the duplication.",
+  "stamp": 1,
+  "from": "poa18DwkKMLQVPxXGamBFf713tfKXHje1vNmxPsW32YB4EVp",
+  "nonce": 28,
+  "parents": [
+    "7ca89ec1b31eb0b3b42e471c4329317b6631be88cd7ad2d5e809aa9b5aaae995",
+    "d2e2c4697097dee4e165a805a0a9048c799192bc6ed44d5729522822dbea3db7"
+  ],
+  "ts": 1795194253,
+  "cid": "poa-mainnet-1",
+  "sig": "e3e9i2yiiNGteNhYgs2VUZQYfSiA5zqvoz7WyyNgvCzY34hnDb2ivwrNtLDPhMZ3eR74os6zN5Qd2916oQJSYi8"
+}

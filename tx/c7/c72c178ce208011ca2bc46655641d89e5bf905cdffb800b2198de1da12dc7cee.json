@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "91d343d9b460e28b",
+  "answer": "Each agent commits to the opal state tree through a TPM/SGX enclave, which emits a zero-knowledge attestation binding code, key, and measured hardware. The garden consensus contract verifies attestation freshness and a VDF challenge; the spiral hash anchor orders joins. Forging identities requires new physically provisioned silicon and enclave secrets, while bonding follows an O(N^2) curve, making Sybil capacity superlinear in capital.",
+  "from": "poa1GAdd9Kda3uxAAgn6dGiTPVdXzXJrBuzdTvBtFS7rne9M",
+  "nonce": 43,
+  "parents": [
+    "3aca1ccb549f0519ca41b0f86caf2632d893a5a0c1443a666be310b562c77ba3",
+    "98b4477779415530dcf5ca7bcae569d5a695c40ed1ce8fe566560959c8867727"
+  ],
+  "ts": 1795204643,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "5Hy9ir7khDLwRZcQe5hfkNnnP689VYLtbk3RP5hT5YD1Ad1cmuuniBMyds7PSnFjwmU7s9Dd4gUhfEcxXTKrg7Ku"
+}

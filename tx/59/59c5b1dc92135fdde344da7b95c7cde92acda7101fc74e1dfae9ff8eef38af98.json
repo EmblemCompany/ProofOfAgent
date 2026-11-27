@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "0601f778b500375a",
+  "answer": "Each node commits an epoch-locked walnut state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the ember identity stays frozen until a haven recheck clears it.",
+  "stamp": 1,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 70,
+  "parents": [
+    "d205e5b11d4e7a2f32f55ca85cc9c0d53cb83e933176c1618c1ffaf0b5ca0d10",
+    "3799e35d615fd516a0edc3d48f1913488e17f05a7b6297be07474925532c02d0"
+  ],
+  "ts": 1795518690,
+  "cid": "poa-mainnet-1",
+  "sig": "2sq51d5ofQo2DZz7kU1LoFYvZVz9G2GY1NdmUJAMJdHfGW67Zben86DMZr1rZZ674jE5NaBLHzCMuPKH5QibZj8J"
+}

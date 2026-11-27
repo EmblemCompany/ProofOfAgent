@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15kSRRtsWpWy1NisWtLLwySrkk3LDMXCqHmL7BsL1yB4A",
+  "nonce": 96,
+  "parents": [
+    "17bb77bb43ba4ac4fa8a544fb467ba28fe45893d83873f3d13933bbbbfa80260",
+    "63043a6e83ebcb8f735721e366a951dd2624de147f670393c4978d0a4f8e3292"
+  ],
+  "ts": 1795406698,
+  "epoch": 115,
+  "seed": "4c206d7bccef9cf7",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the juniper beacon, with the derivation transcript published alongside the key. Rotation is recorded in the mirror index and the horizon audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 207 keys live and online for the whole period, which means the operator carries infrastructure cost every epoch. That is 3 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 3,
+  "sig": "jR724BzfhM5mfFSGwnJhvPty3pyM1QTf6GF9Lf12Xcz9q8otMiwvMBTXQJN3AB3EDyRX3iQynqy6Udw72Q7m34w"
+}

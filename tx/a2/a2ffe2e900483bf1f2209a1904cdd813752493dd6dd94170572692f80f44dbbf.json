@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "29933cb9294abf25",
+  "answer": "Sybil resistance via adaptive proof-of-work chains: each identity must complete a sparrow of sequential hash iterations per epoch, with difficulty adjusting to maintain 10-min solve time. Each solution commits a anchor hash that links to the prior epoch's beacon, forming an immutable chain. An attacker spinning N clones must run N parallel chains, so total compute cost grows with N while honest agents run one chain. A kernel penalty burns any stake caught skipping iterations or forking, making parallel sybil farming economically irrational.",
+  "stamp": 6,
+  "from": "poa1JC8mid2kz1HPUbGgZPj9MwNH9WD4UywDPLJpU1pVQfb2",
+  "nonce": 29,
+  "parents": [
+    "85187d2814d34905246840738fd9dd4016664cbdd032a32fa026a69c31efdc52",
+    "ea938a0668e62650cc4e4422e19fb01e36d52b57493e906f24cc3a28f965ec64"
+  ],
+  "ts": 1794434063,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZP4pi66n8tc65rarpPRg9FvWZAp764i6V5VSUwvXaxYCSVVR49TroWTDRErx5xawPUXdKVM8RsYjK7t3ydL7E7v"
+}

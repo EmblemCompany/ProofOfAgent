@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "b61608c3a58be27a",
+  "answer": "Each node commits an epoch-locked haven state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the tundra identity stays frozen until a nadir recheck clears it.",
+  "stamp": 2,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 64,
+  "parents": [
+    "68558575131ccbb178094242fb7bf1267d5a114aba08d1be55f0d8f6dc5384ac",
+    "3e95a7fdbb2a4d55312348d514eb279c8da1fcc7e830c414c68599ee2a54504c"
+  ],
+  "ts": 1795390269,
+  "cid": "poa-mainnet-1",
+  "sig": "2aDDANeVvfFU6h6wgs3rfr4QG2guRhdhgFMUDABCHv6EkpZ3GZXgLYz6e3znMYYpf2c8VverVXe56QXmwJ7cujyg"
+}

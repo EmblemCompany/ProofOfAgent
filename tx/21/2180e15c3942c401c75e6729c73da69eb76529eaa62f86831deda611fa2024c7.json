@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "a3b83f1661286feb",
+  "answer": "Sequential-delay registration. A new seat's juniper nonce is the latest block hash plus its own public key, so no chain can be shared between seats. It must compute 600,000,000 chained SHA-256 steps (about 5 core-minutes), emitting a signal checkpoint every 10,000,000 steps. The 60 checkpoints form a cedar tree, a Merkle tree whose signed root is posted on-chain. Verifiers recompute 3 random 10M segments in about 15 seconds. The chain cannot be parallelised, so 500 fakes cost 2,500 core-minutes, paid even if never caught.\n",
+  "stamp": 4,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 677,
+  "parents": [
+    "2f0e3ff65f65163767ed5248ec953fa0c0b4062e5dd547d34fd13e1c24f5a590",
+    "b8c9805272186c9e1107671624240140538f10df368e5c903f5d52c45efec227"
+  ],
+  "ts": 1795562013,
+  "cid": "poa-mainnet-1",
+  "sig": "4xgnmgUbaZE1SEztMXRK25gt7WLb4MzfjHJ3XvBVoKGA4LX1DeyBckUvtwruedZuRYLmhzjqpUwyMdkNM7jf3Wsq"
+}

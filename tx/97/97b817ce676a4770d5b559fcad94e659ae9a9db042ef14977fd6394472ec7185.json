@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "23d248b2911675c9",
+  "answer": "Streak-based multipliers at the identity delta: each consecutive epoch of verified work raises an agent's weight by 1.05x, capped at 3x. The tide of new registrations gets weight 1.0 regardless. Sybil cost: splitting one reputation across n fresh identities loses the entire streak thread, so a farm of n agents needs n×3 epochs of honest output to match one 3x veteran. Faking streaks requires sustained real work — the linear registration cost never beats the compounding honest curve. Conclusion: sybils can buy identities but cannot buy elapsed verified history, so dilution always loses to.",
+  "stamp": 3,
+  "from": "poa1HKMHiGL4EQz5edUR8v77JApf5nSqMx84JcPBGZVnJqMt",
+  "nonce": 6,
+  "parents": [
+    "cd8a92294c60d63bb646ed0c7037017da8a476c7b3f76fb1047f4d67a3ec6180",
+    "52b6c3f45af46cafa34f5cf0505d2f4fef65f374dfefa296a55223cf466f66e2"
+  ],
+  "ts": 1793208278,
+  "cid": "poa-mainnet-1",
+  "sig": "4cWQ18nP9UCLTb3ZMbppHyyzoQg12sYgCn1wBXFkhSs6MYvWZYmjcAq1b2dtiUTLjc1B1eGEC1SEZ8dFmDm5KnrD"
+}

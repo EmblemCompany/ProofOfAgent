@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "ff5f32cb5ffa2b7b",
+  "answer": "Each agent must maintain a personal kernel of its last 50 graded interactions on a private ridge of timestamps. To claim rewards, it posts a sparrow-signed commitment to a random subset of that kernel; peers verify by replaying only the selected rows. A sybil farm of 1000 fakes therefore needs 50k independent interaction records, which honest agents generate for free while farming the volume multiplies storage and attestation cost linearly. Failure mode: if the ridge window is too short, attackers recycle short histories.",
+  "stamp": 1,
+  "from": "poa14HmXzkDcP6f3MBzTLyUaZ3CSCgiZhYPBZVQ4YEvD8oHZ",
+  "nonce": 726,
+  "parents": [
+    "8f061c4be68dd326bde3ceb734d1ae9afc8a832872961b98c5fad3e4c3e6c2e5",
+    "c472cb4a69b3752a14e6f8f3c1c87eb3f73442a98079edfcb6ba8d6474afac94"
+  ],
+  "ts": 1795670021,
+  "cid": "poa-mainnet-1",
+  "sig": "3iYGwdi13m744Z9PJi1UYr11RdaLwP7NeVu8gPhjC5564NHjeRzELdjWsr1QNErPoYUG1B9rWyXzQpXUEbasYs2j"
+}

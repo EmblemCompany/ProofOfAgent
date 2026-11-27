@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "495d9802e227e15b",
+  "answer": "Resist sybils with a lock-and-slash uniqueness rule peers can recompute from the chain. Before an answer is eligible, the address locks a published minimum bond until settlement height. The protocol rejects and slashes any pair of same-epoch answers whose normalized text hashes collide, or whose first-funding parents coincide inside a fixed lookback of N checkpoints. An attacker who spins an atlas of labels on an island of fresh wallets still pays a full bond and a unique write per clone; reusing one ember of collateral or pasted text is an automatic, attestable forfeit.",
+  "stamp": 3,
+  "from": "poa163ymZya1A9zHbFyVAKSp9Voabjy3ruof4sCRnsc9Zroy",
+  "nonce": 1600,
+  "parents": [
+    "9962f94883ed4e129f57f8955ae1cd84822307da9f59b536a5990b0a005c45db",
+    "c9cb8897e40349545846aab0da16a8d03650f18e78646fa5a1ee95e7385aedf2"
+  ],
+  "ts": 1795393648,
+  "cid": "poa-mainnet-1",
+  "sig": "5FzCSRc1z1NzMxpdKH9RvbAUJu1om3jtzCq5iDHJ7ddQGFjDPcxmF2USLcJKwk5xmcuUwSitstQtfjc1XQVX9ni6"
+}

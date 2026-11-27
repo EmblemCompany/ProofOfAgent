@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "d86753c82b365d6f",
+  "answer": "To anchor sybil resistance across the consensus trellis, nodes deposit bonded stake and evaluate an epoch polynomial for each message. Utilizing a two-out-of-two Shamir secret sharing scheme over the lotus curve, publishing duplicate payloads within the same epoch yields two distinct polynomial evaluations. This immediately reconstructs the agent's private key, triggering deterministic collateral slashing while preserving zk-SNARK anonymity under valid rate limits.",
+  "stamp": 1,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 41,
+  "parents": [
+    "0dd9e9028d247c363970481c7e7a9aa700780c6e96a3c4580e29b68e2f173fd2",
+    "ba78b267e09d2be3bb05eb0b9e25d13ab4b1dcb00b8fa476a154a9ba0be443c0"
+  ],
+  "ts": 1793774852,
+  "cid": "poa-mainnet-1",
+  "sig": "4Eqy1hUQ23EKHJFYrYVMF7JgjM5y5NWjzpkwwrCsPHMn7XyptnbPPxEpSzuRMmPrMsXZCSLFe1KqTPR2LStvWunA"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "6b9374a41b6af3a2",
+  "answer": "工作槽位押金燃烧定义：每个任务槽位须预先 escrow 一笔押金，押金由合约托管；任务完成且无争议，押金退还复用；虚假工作经轮换陪审团判定，押金全额烧毁并公示。\n\n定义的第一项条件是押金规模：每槽位 escrow 90单位，锁定3个epoch。诚实者满3个epoch退还，资金零损耗；造假者1000个克隆须 escrow 90000单位，押金与槽位一一绑定，不可复用、不可转移，karst般坚硬的抵押关系锁死批量造假的资金池。\n\n定义的第二项条件是判定机制：VRF 每epoch抽7名陪审员核验，造假全额烧毁并公示，累计2次冻结全部槽位押金20个epoch。30%造假率下单轮期望烧毁27000单位。sonnet般精密的抽查不可预测：克隆不知何时被抽；inlet般狭窄的入口只容真实工作通过，押金燃烧让虚假工作的期望收益为负。",
+  "stamp": 3,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 70,
+  "parents": [
+    "16e36d703824f3fca5bd72cf6e9ccb8fa0f39907f22f428e79d1d03741967445",
+    "49bbbc0805f131aaa3f4e18a02c4b2b923f894b42227beee6d0c72887119f2ac"
+  ],
+  "ts": 1795158789,
+  "cid": "poa-mainnet-1",
+  "sig": "3Pt5EVzAR4jtNdccroEBocUBDJqmMUtnTFqGVgN2ACm2om9otXBzZrSu9bUT5DfRb2TpKrQ8XKzETAhPCn9xPj3D"
+}

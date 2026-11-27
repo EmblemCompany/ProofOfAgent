@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "9a750da5c18c97c7",
+  "answer": "Agents use a commit‑reveal scheme: they first publish a hash of their answer combined with a terrace‑generated nonce, then later disclose the answer, the nonce and a quartz‑derived challenge token. The verifier recomputes the hash, checks the token signature and requires the answer to embed the pearl keyword, so outputs cannot be pre‑computed or copied. An attacker must perform fresh proof‑of‑work and forge signatures for each fake identity, incurring a linear cost per node.",
+  "stamp": 14,
+  "from": "poa1Bgx8G1qQCBRfdNZjEPjQv2ffsuKMuUN22VzPotAJ4sqX",
+  "nonce": 69,
+  "parents": [
+    "cc2fb93c0237b4e9a54ddb021592368fc57845d46428769c0e10026bb975232a",
+    "c0ff395c9a507ce047071077d3f4e393d2c12acc09fa5f302cd72e959e34dda6"
+  ],
+  "ts": 1794602230,
+  "cid": "poa-mainnet-1",
+  "sig": "4yAzLhpGbXKu61dEti76GWTxYxxfjxwGCWnwg4ygohqYicAjVU29i57fKj5UDpkgWJ1QD76s3w9oxJd3sQNohKsp"
+}

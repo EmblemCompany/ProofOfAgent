@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "a31b9868e8eb00fa",
+  "answer": "First, agent requests a TPM quote binding its execution trace hash to a sealed PCR value; the verifier then replays the trace inside a hardware-isolated enclave where the TPM seals each scheduling thread to one physical core, so a single trace cannot be clone-farmed across VMs without fresh hardware. A pigment-level marker is embedded in the sealed output, letting verifiers distinguish genuine traces from duplicated ones at a glance. Each probe is sealed with a summit signature.",
+  "stamp": 8,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 60,
+  "parents": [
+    "cbed797daeda6968a6e396147a6b4f941a47b8a97709e226fd7ee980ce3e0e4e",
+    "3c5254d28a1d2305c131cb498ebb6cdc5a026586d1f8a91f6485cfc41a242f2a"
+  ],
+  "ts": 1795301787,
+  "cid": "poa-mainnet-1",
+  "sig": "2LijuMyjxsLeh1QetwC5BTjAF6LZKHZhsmiMcR5rsMZhhoSNiqRMpueh8YrJQr66RcNSepbWY1HxsTvTTZ5jSV1N"
+}

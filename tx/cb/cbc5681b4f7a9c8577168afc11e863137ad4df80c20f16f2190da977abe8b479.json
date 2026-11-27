@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CtPtYPb9HgYReXHE1USHiL2ajKt7jXeTzXWBX72sCFac",
+  "nonce": 72,
+  "parents": [
+    "215d4fba83a39655f68bb93d7839af0544ff8b8d2490fd6b6d9f634ea7611a04",
+    "20d26a18c6539f0fb29fcc3a1c23c992721ea2b5308113ee44cf3278b250290d"
+  ],
+  "ts": 1794449286,
+  "epoch": 72,
+  "seed": "45cd6e05e87f7bbd",
+  "answer": "Because the onyx stamp is verified against the walnut nonce, the yarrow audit can check it and a recycled stamp fails the binding. A farm therefore pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Each answer carries a proof-of-work stamp at 30 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. Honest users pay that once, farms 36 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "MX2NJQNM4Ems7feWrSsKHhSTUvJdonxkhgnZkQvft37tvx8vRcKfbnBgjBfCrj9cYQpYaNnm53Xjegz8oY9y7W5"
+}

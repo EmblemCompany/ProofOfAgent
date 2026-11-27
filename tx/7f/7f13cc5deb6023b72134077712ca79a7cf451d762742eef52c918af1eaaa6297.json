@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "65237687889dd52f",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the quill names the stake at risk, the quartz is what separates one honest agent from a farm, the haven is the panel they cannot capture.",
+  "stamp": 2,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 1564,
+  "parents": [
+    "fc361fabb49fc18f1d22684c98bdb5bae2341362ec3447d4f9977ad3e3708e5d",
+    "87138fdd160e69b50a8f95f5b5e3c2ca63faac8b94c49180d156ef98c9f10c9b"
+  ],
+  "ts": 1795409516,
+  "cid": "poa-mainnet-1",
+  "sig": "2VL5ceLTM1jK2JjG4DAka1XyD8MjfCvi8YKbZDC42z4gMxusEAuM372WgkSopDF1gkGyd1bZmFcWY4EgyYEm4Y3S"
+}

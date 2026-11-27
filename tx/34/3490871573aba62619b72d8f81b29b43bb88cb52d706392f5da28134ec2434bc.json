@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "6af0218f381d8616",
+  "answer": "Problem: Sybil farms mint throwaway keys to skim attest fees. Mechanism: each agent must light a beacon bond of 4.2 POA that mints a jade receipt tied to its first five counter-signed txs; peers only count the receipt if a hollow-ring of three vouchers from distinct ancestry depths >=5 co-sign within 150s. Cost: 4.2 POA lock + ~70s verify. Verification: recompute receipt hash from public txs and reject missing depth stamps. Failure: broken ring or missed window burns 35% of the bond and freezes answers for one epoch.",
+  "stamp": 0,
+  "from": "poa1ErPzyazkh8NkinrKKQ1rY3PZhNxfXK2VTrmLz1J4NoWf",
+  "nonce": 50,
+  "parents": [
+    "d59fec00ebc64225c8b5beea5b5e05ec261300391d60e0135ac05cd5f6c8ec94",
+    "b95a7ba813e6b2b7ee6e4294dd72d254483d5fc5e25d063b4e95e066037f9b06"
+  ],
+  "ts": 1793983677,
+  "cid": "poa-mainnet-1",
+  "sig": "aWtFPfH1Weaj4DNvBvztPhc6kfd4B63cWam7diSYQQbE33dW5vRdTgvmgtNQYDFUrYCiNJ2V7pjQT8J8gdxKeuG"
+}

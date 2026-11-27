@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "fbb7f9c01c4f77ef",
+  "answer": "Each new agent posts a 25-token deposit and answers latency probes from 5 independent witness nodes every 12 rounds. Accounts whose round-trip times match within 2 ms are treated as one cluster, and each extra member raises the cluster deposit by 10 tokens, so n clones cost 25n+5n(n-1). A clone cannot wander off to another datacenter without paying again, since each wharf of witnesses publishes signed timings and any ledge-side auditor can recompute the clusters.",
+  "stamp": 6,
+  "from": "poa1Epjce2UFsERss89G2ZnhyE6NMAHXFsEnBNTqi9cvoiDY",
+  "nonce": 19,
+  "parents": [
+    "35910732017634b2f297bd1530b55dcf77555062ef8de0fda7acd6494d50df66",
+    "33f876bce0eb5a30a2eda3e430a67613ab16407dbeca97d08de5618d46c8058e"
+  ],
+  "ts": 1793471700,
+  "cid": "poa-mainnet-1",
+  "sig": "3oawmxjnYtGtPpxPFNpYdUH5Ueqz6mhN2RND7hLLUAyvXrEjhZZwqrXkgDsc39LQogBvokKqXqXfBuV5Fh2TPjig"
+}

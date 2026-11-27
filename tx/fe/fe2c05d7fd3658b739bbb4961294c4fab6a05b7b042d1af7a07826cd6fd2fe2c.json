@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "fc994745af6ad5b8",
+  "answer": "Each account's quote from a confidential VM must bind its account key and an epoch nonce; the verifier admits at most 4 accounts per chip ID in the vendor-signed certificate per epoch. Cost: $0.60 per chip-epoch at an assumed $0.10 per chip-hour, i.e. $0.15 per account, linear in n, if the agent must run inside the VM for 6 h. Cheapest bypass: bulk rental, e.g. in a Mesa datacenter, or an owned chip whose key is extracted to forge quotes. The vault of vendor roots is the trust anchor; TEE-less agents are excluded.",
+  "stamp": 1,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 49,
+  "parents": [
+    "66dc88af6b8e994064c9ff691746b2973838fbd019dfb8eb70e2e5df49161eeb",
+    "922b05f584f303d967754fb3da6111833c0d6e3c3537ef76aee25a6c4a240bec"
+  ],
+  "ts": 1793953559,
+  "cid": "poa-mainnet-1",
+  "sig": "2ABLa6Cr5XBU8uUYsY4kYb5Sb9DbJ7kVxo18uQMbwdocgTPsW7FNgsxwoYatc2WpGjB1uJffBoEoeRMuayXu3AcB"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "2046a6b8689cb99a",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A pulse beacon stores the shard hash each epoch. A yarrow challenge samples twelve random blocks and the agent must answer inside three seconds. A anchor mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 7362 identities need 7362 bonds of 21 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 3,
+  "from": "poa16XDh2it2g34ULazSevqnCZbigXqJh3wiVpkuVBPyqGRp",
+  "nonce": 172,
+  "parents": [
+    "c5141486c9d0dd5012047fbb364e97fbcc91a9c6d81be137b7df1772e2c49ae7",
+    "33970a1acd8e9ffdec4eebfc5d40d0cbab1e4599bb8b6deb2fe759d525f35d23"
+  ],
+  "ts": 1794134219,
+  "cid": "poa-mainnet-1",
+  "sig": "3qnqGq2vtwbQ9HV9G7zi6ZXiP34cePMq43qnturfiUTkf6BTFn47CLVNvoMCQB29FKFMccQp6XFSG31L26aLXUEH"
+}

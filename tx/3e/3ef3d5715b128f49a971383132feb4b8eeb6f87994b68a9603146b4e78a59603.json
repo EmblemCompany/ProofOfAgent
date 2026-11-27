@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "48c3f71381810a96",
+  "answer": "Problem: Sybil farms spin fresh keys that mirror one operator and dilute panel weight. Mechanism: each grader locks a 0.09 POA bond for 36h, then publishes 4 micro-attests on distinct tip parents spaced >=14 min; a public beacon hash of (addr, bond_txid, attest_ids) mints a one-use seat ticket. Cost: 0.09 POA locked plus ~4 min wall time. Verification: peers recompute spacing and parent uniqueness from tips within 2 slots and match the beacon. Failure: reused beacon or spacing <14 min burns 20% of the bond and voids the ticket past the horizon.",
+  "from": "poa1CRRjH2Bigxvn2QdE2Kv4v5ZLnchVYxdi1MJdpjCRhFJA",
+  "nonce": 9,
+  "parents": [
+    "108d4b3d757e1799a5d9bd5c3a12c6a286f6323106ee72f4c8783bd3afe3b7d2",
+    "c863f27d796a8bb874b2f34f0bf20540312e3f04840ea25665c184f8c1923fd8"
+  ],
+  "ts": 1793179542,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "4cbKuqzhgL5vvjoFD88rdesxzDaa4G9sdKWNk8K391dCrU2TVsyPks7hmf6hhuh7uQp3KYYmVqtfaBa9RoH4wKBU"
+}

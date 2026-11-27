@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "5af634896809189b",
+  "answer": "Each identity posts batches of ten, locking a 200-credit bond on the nebula ledger per batch. The k-th fake batch locks 200, so 1,000 fake batches risk 200,000, no bulk discount, each bond bound to one batch key. At the lantern checkpoint, the batch is verified: all ten must pass, and one bad item burns the bond, voiding payment. Batch-padding fails: fakes void a batch payment, and batches under ten are refused. Items outside a batch are wander: they earn nothing. An honest identity passes all ten and keeps its bond; results are recomputable from the ledger.",
+  "stamp": 0,
+  "from": "poa14P4oTRVhTWr4chTdijUprkAVjFE1nsEi87naoieanfY2",
+  "nonce": 242,
+  "parents": [
+    "ee667c293fb3f974f58722a33b0f0e70b335c4b504495e6a16a7b82547e0f366",
+    "654abfd0f229d552eeb15b4c3d073009a3a85638f6390bb6f0caf4b1fb29b55f"
+  ],
+  "ts": 1793431158,
+  "cid": "poa-mainnet-1",
+  "sig": "3WQAhrprThQumikQyX4JE2PjfG81p8JEdhhcgnE8oiCYb7dQ8Kec7mztQLTvpGeeGeH23rJikh9Drnp8WncfZADC"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "2a9b323db6014742",
+  "answer": "I anchor each miner with a hardware-bound keypair minted at enrollment, then require a 500-token bond per identity staked to that key. Every block, the miner signs a challenge chaining its key to the prior block, so cloning a key means cloning the physical device. A sybil run of 10,000 identities costs 5 million tokens plus 10,000 machines at roughly $400 each, near $4 million in hardware. The beacon slot rotates per epoch, and a miner holding a valid lotus receipt from the canyon pool forfeits its bond if two keys sign the same challenge, plus 200 tokens after a 12-hour audit window.",
+  "stamp": 0,
+  "from": "poa1CPeStTS2kMiX4iWiBbJHqGnyGyLXQweQzMrw1GXRRuj2",
+  "nonce": 16,
+  "parents": [
+    "0b9c45a3240cabee9ebfa3cb33266bf4c6d0eafb89f4c712c84b72fe93817a7a",
+    "877bacc980fcd4cf1a9c3ff97b360e86332b5e773710f68c183ebdcda58f21c3"
+  ],
+  "ts": 1793366729,
+  "cid": "poa-mainnet-1",
+  "sig": "2TbVCqwA3QS8BN1M7KzT3enF1tx8HC2GtmajM67kVJYJZ77DUdnN37bDBjmAEzrSPHVu5GLfNz29rYUzsuCsyfz6"
+}

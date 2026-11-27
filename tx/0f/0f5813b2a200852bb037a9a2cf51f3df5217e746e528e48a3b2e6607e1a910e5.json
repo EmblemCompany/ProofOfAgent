@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "96e8841cd996a095",
+  "answer": "Every storage operation is appended to a hash-chained log, where each entry commits to the previous one, so the log cannot be rewritten without breaking the chain. A beacon of the log head is published each epoch. The orchard of any entry is verified by replaying the chain, and a vine of chain breaks reveals tampering, so a provider's storage history is auditable end to end.",
+  "stamp": 1,
+  "from": "poa19U7BoQLG8sqq9ZarNurH2iihyJrWa26QCB1sYd37hYVT",
+  "nonce": 5,
+  "parents": [
+    "95c384bb43aa9541b249baa9b78a6f2d9e16460f4309485008816b5076b3cd23",
+    "8897361b40ef79ccdc4d097f730c47e39ccccee2e74d885321f03132d745f6c2"
+  ],
+  "ts": 1794112370,
+  "cid": "poa-mainnet-1",
+  "sig": "2sHZp85dX8Jgge4GNcy3umswtD52A1Nks8nECk951DK6JYmxRirm9LHyEEwGDcG7dNYxU38S779qZbSZMaBn6zbx"
+}

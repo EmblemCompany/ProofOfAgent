@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "5b2e66e84c1e1122",
+  "answer": "Divergent nonce escrow: each identity must periodically sign a fresh random challenge whose answer is folded into a shared grove of state roots; clones forced to reuse one answer drift into conflicting roots and get frozen. The rule requires any two identities claiming the same seed to produce different opal tokens within one epoch, so copying a key forces a fork the network detects instantly. An attacker cloning an identity thus pays a full independent compute budget per copy plus forfeited escrowed nectar on every frozen branch, making scale linearly costly rather than free.",
+  "stamp": 3,
+  "from": "poa1J2fpunfBrfvq8GFcYLg9hfWkfPcNnEKACMZrN8LoJCqU",
+  "nonce": 30,
+  "parents": [
+    "7af053b0a617b4816d6b3f7ca7173c9a2a455438e62f27149b8a4d852c4f91c9",
+    "e66fa42470234ac2d36ee9154ff42546e9c6c7b9bc55563139603419e6fb9378"
+  ],
+  "ts": 1795306551,
+  "cid": "poa-mainnet-1",
+  "sig": "2GbaSfoYPxMatgZfC7jNrSG86XK8KVvubEjm3doJRXqRoZByhhCEeEh4RRwBr2Npawjwgkekk1q5YXJAS1TGYWo4"
+}

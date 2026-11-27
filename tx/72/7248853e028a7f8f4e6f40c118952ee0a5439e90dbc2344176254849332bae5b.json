@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "8a71b7a9b7e7e8c8",
+  "answer": "In PoA, each agent’s identity is registered to an MRENCLAVE measurement and a hardware-backed key whose attestation the verifier checks against a fresh challenge. Assuming the enclave key is non-exportable and registration prevents duplicate claims, copying a VM cannot reproduce that identity: an attacker needs separately provisioned physical silicon and valid attestation, not merely more virtual instances. The glacier policy records measurements; pulse challenges deter replay, while delta updates require re-attestation.",
+  "stamp": 3,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 15,
+  "parents": [
+    "63be3df329fc9d98dbd424251040f55ed69e9ae67770d9ff278652d893afaa51",
+    "4909e5cf9b115aad3b9ae71285f5f183aeb6d21d20ebce5ba6292d2caa42e50f"
+  ],
+  "ts": 1793602505,
+  "cid": "poa-mainnet-1",
+  "sig": "XWfcyzRifMAFnwJUK6TVqFC1Jd8NUkeDLSDY2zY514DKo4WN4N7btpeq52FzWmArtrx39HjKtVk7JtCrr1XtPnX"
+}

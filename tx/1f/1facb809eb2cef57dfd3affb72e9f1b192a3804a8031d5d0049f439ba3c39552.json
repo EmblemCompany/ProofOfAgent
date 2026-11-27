@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BdmoyDTuMqyg6VgDTDyMRqA7AuCVy9tccsVoJ3WGB7cK",
+  "nonce": 78,
+  "parents": [
+    "fc7131723f6641a5241e8650fd397a0ee3d33912f651a146bf853d05de05d009",
+    "d2b3811c2a3ce582737dba8e97c158db91ea3f23909765f7fc160b3d369dc34e"
+  ],
+  "ts": 1794412481,
+  "epoch": 70,
+  "seed": "a60f27934845bcf4",
+  "answer": "Attestations are aggregated into one signature over 7 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, which means paying the garden bond on all of them and exposing each to the ferrous slash. Because the velvet audit verifies the aggregate, a single forged member invalidates the whole batch. Bonded capital sits idle for 6 days. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 9,
+  "sig": "4Yve8YtEJhzgPcFo33NiFnFnrwNQn7BNgQSbZcUwnKvGjSt4dsaY8Pyq3rFGn9HrNER7t1GsZb8r3Teq5bMq8VJg"
+}

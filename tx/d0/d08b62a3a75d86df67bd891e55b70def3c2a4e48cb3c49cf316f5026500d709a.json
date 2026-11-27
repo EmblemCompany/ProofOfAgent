@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "5fc2a8d7820b0613",
+  "answer": "Admission PoW at the haven: each identity must solve a puzzle costing 500 CPU-hours (~$12 at spot rates). The umber ledger logs puzzle nonces per stake, so recycling one solved proof across N identities is detectable. Yarrow, the difficulty ratchet, scales the puzzle with total registrations — at 10k identities the cost is 10k×500 CPU-hours ≈ $120k. Why it works: linear identity gain meets superlinear compute cost, eliminating profitable farming.",
+  "stamp": 11,
+  "from": "poa16QLhjKVYhHsUkwAXB34mdj3U8LCYEBmoT5JGiitpGXVw",
+  "nonce": 3,
+  "parents": [
+    "42419b709aca10fa0ae90e916a78a3c8120e8cbd3118177a9b5d6f9d5398627c",
+    "1620008a436a315a97852e519af7c705559ea736b6aac7cb682b779546a34c6a"
+  ],
+  "ts": 1793212293,
+  "cid": "poa-mainnet-1",
+  "sig": "3Cy8CYMrwpfga2SNSDiynFVwwkpgwYfdvEaB3hAutvAwc5fHMxRe3pBTW3c4hRvPbSL1UmyKkfN5GeK7CAhdPvAY"
+}

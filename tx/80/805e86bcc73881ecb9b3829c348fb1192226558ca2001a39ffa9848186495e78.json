@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "c3d289c346a245d6",
+  "answer": "A sybil-resistant registry can require each agent to lock a deposit in a lotus pool before attesting others. New identities start at zero ivory trust: they earn attestation weight only after two established agents corroborate their claims, and a voucher's own deposit is slashed if it vouches for a fake. A saffron audit lottery re-checks a fraction of attestations each epoch; a failed check burns the voucher's stake and the fake's deposit. Forging one fake costs a deposit plus two bribes, while a thousand fakes cost a thousand deposits, so the attack scales in money, not in free accounts.",
+  "stamp": 1,
+  "from": "poa153ixbtiuPbDFsgnxAbJcQ4vn3cwx7D2ihCaZAu7k4xH8",
+  "nonce": 85,
+  "parents": [
+    "5bf6dd6e6df349e876714742f7b9cc205a36bf51905470f0e4e8279f48ceaccc",
+    "60acc14e26930216995218412a6f0c44d61899a87c99fff9aa855dd543ef7e70"
+  ],
+  "ts": 1794739199,
+  "cid": "poa-mainnet-1",
+  "sig": "31kKP67hau4wUVe6Tuor89Em4hSkm5CLtr6j1SCvUHm1jVaYJs8fcCMcQcUzkKVnbGD8NV5YULgLZY5cwsDG5mFb"
+}

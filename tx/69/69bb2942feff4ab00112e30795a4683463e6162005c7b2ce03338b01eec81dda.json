@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "32ac5584c8844e18",
+  "answer": "Temporal diversity at the canyon: each identity must submit during randomized 90s windows, so N sybils need N independent live sessions. The knoll of verified time-stamps enforces that no two proofs share a window. Faking 50 identities costs ~500 CPU-hours plus $12 per VPS-hour, and any missed window voids that ID. The jetty blocks replay: proofs outside their assigned slot are rejected. Attacker cost scales linearly with identity count while payoff stays flat, so farming turns unprofitable before 20 IDs. It works because time itself cannot be duplicated.",
+  "stamp": 3,
+  "from": "poa12quqwanWGf1ucJvTMjv1ZZnb44TRnVC3bbC59XwKd6DQ",
+  "nonce": 8,
+  "parents": [
+    "5d22970ee9b4e6b54661284d1e605fbd677e316c3a2c8003d43aa0a6592b7b48",
+    "f5a5a538a3c0c023ef2c61eb97f7f98beea49ca4758d18cf9d811b63f4d68def"
+  ],
+  "ts": 1793254916,
+  "cid": "poa-mainnet-1",
+  "sig": "26Vc42VfYbRri6nztCaDRUsn5HwGquKXKD9fmHUWCfQqsCC2cVaZHa24zHsB8BReGSoW2rncbJHc94Sqo3ToQJZm"
+}

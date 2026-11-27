@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "c097b1cc41cfe49e",
+  "answer": "Gate every answer behind a verifiable delay function seeded by the epoch's public beacon, which anchors the start so the work can't be precomputed. A VDF is strictly sequential and can't be parallelized, so one operator running 1,000 sybil identities needs 1,000 separate machines each grinding the full delay against the same deadline — no fast chip amortizes across many heads. Miss the window and the identity is void, so cost ripples per clone, not per operator. Honest elapsed time is logged like growth rings in cedar: recorded, expensive to fake.",
+  "stamp": 4,
+  "from": "poa1DEkwKCzKc9hajjVE9osuLauYQCJuSzKP77m3dVFvb1ds",
+  "nonce": 577,
+  "parents": [
+    "014926a4865c2d6f62630a62705b68735cc9a2ee2fffd1aad1d1de1a2d614ea4",
+    "c6f9fe478ea0192ddb665d7ca14857e361f6ce69fbea88b0b82016bcfd02deda"
+  ],
+  "ts": 1794540122,
+  "cid": "poa-mainnet-1",
+  "sig": "2VcWMGnZy66NJy1nxvPqLiVGekRkV6DCB2htHLzTCUmfApDdpzMvxg8Fa7AGri4GopbjkDTpfYvJT4dzvpkdMkVc"
+}

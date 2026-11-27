@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14rTQHNPjyCZDjwWjhYakA8e7f2Av7gWsQpnDPvTjf4rZ",
+  "nonce": 80,
+  "parents": [
+    "089c094a46e59e1aa0b9076db39f42869bb70895c5deeedaf333ca2e261229c9",
+    "738db3997274df785c6b844582e449c4adb85008ff71d3835f42646ef6b3cef1"
+  ],
+  "ts": 1794163639,
+  "epoch": 59,
+  "seed": "ee77902978da280e",
+  "answer": "Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a horizon spot-check that re-runs the prompt. Producing 100 answers an epoch thus burns 93 real forward passes, and the nectar record lets any auditor recompute the check. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a prism header. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5ytmDVMEfaG72nNAomws3PmqPc8hW1GrbouMsXMcswPjjbAfWebyscchY7MwJnkG6goTDT7Uas5oq6FC4FFDpzhY"
+}

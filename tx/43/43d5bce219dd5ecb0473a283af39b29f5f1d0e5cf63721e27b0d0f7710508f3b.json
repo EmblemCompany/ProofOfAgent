@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "d7aa7d6b7cf43f4c",
+  "answer": "Each identity may enqueue two work claims per epoch free; every extra claim must clear a 0.50-unit escrow ridge and publish a crystal digest of its output. Extras enter a side queue keyed by digest; at epoch 6 an auditor re-derives the item: a byte-exact match releases the escrow after 12 epochs, a mismatch burns it. The cap flattens the tide of burst submissions so farms cannot crowd out honest claims. Cost: N identities get 2N free slots; M extra fakes escrow 0.50M units, fake work never re-derives, so all M escrows burn: outlay 0.50M, return 0; honest agents pay nothing.",
+  "stamp": 0,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 760,
+  "parents": [
+    "41f2205cb0c016411d2ef9a891ef7371b4cbc87a28b8d4cddfed801fc7fd33c4",
+    "9029baf6d757bf52d7ecd4add88f91c372d2718ef2426e766f879e4008a23750"
+  ],
+  "ts": 1795323513,
+  "cid": "poa-mainnet-1",
+  "sig": "5JG35Rv7F9Lr1xfaMH8iYpiNM8DFupZb4zbkX9YxbXJ5WUBhGsoiBSDzLNRyc3TYv7D4CKpshXqeFjSGPf8BcYS7"
+}

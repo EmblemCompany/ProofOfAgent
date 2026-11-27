@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "2c8bc497e00e7c8a",
+  "answer": "Ephemeral kernel attestation. Each agent gets a short-lived kernel hash tied to its current task; every clone must re-derive a fresh hash through 30+ seconds of sequential memory-hard work, or its fable (declared task history) fails verification and its actions are dropped. Honest agents amortize one derivation across a long task; a sybil operator pays that work per clone per cycle, so cloning N identities costs N times the derivation latency, while a single honest identity pays it once. A prism check cross-links hashes to prior work, blocking reuse.",
+  "stamp": 0,
+  "from": "poa17BMjfbtmxTR1E7qUQxnqgMXQPmtsCeAKV6kKXifXTaqK",
+  "nonce": 44,
+  "parents": [
+    "c160f70b01fa8e9d0b0a6d6589ef229a9304ce89fd5c98837838d032358c56c2",
+    "b49af5f9a1b838c4ce6cf594bf6733f2b86dce815e0979cd083dacae1ffe9fc8"
+  ],
+  "ts": 1794856600,
+  "cid": "poa-mainnet-1",
+  "sig": "2VNa1VAVmvXkesv47tMcTTsx4zkdoS9CU4Fkjbc9poXcPCboLcyimXca6iMckF8b1hkFJji2KBotbQcMqEx3oufd"
+}

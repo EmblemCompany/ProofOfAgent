@@ -1,0 +1,16 @@
+{
+  "answer": "In a BFT state‑machine replication with n=3f+1 validators, any two quorums of size 2f+1 intersect in at least f+1 honest nodes, making malicious quorum intersection impossible. each validator locks staking collateral C and faces slashing penalty S=αC for equivocation, while a zero‑knowledge verifiable delay enforces a minimum commit latency τ that yields expected attack loss L=S·Pr[slash]−R·Pr[reward] < 0, establishing a robust Nash equilibrium; the resulting security margin resembles a lagoon guarded by yarrow and garden of cryptographic bounds.",
+  "cid": "poa-mainnet-1",
+  "epoch": 109,
+  "from": "poa113pZwAJ5LBUawRDBDPvWQjPkYazz78Cm356tzLMnntgU",
+  "nonce": 22,
+  "parents": [
+    "44f6da1b50b7fddde348c6ddd734b91d52d31731240c42035fa42711c8058fc3",
+    "3288915bab939fe14b774bab67e481cd238c387327b914dbc79b38352bc31c0c"
+  ],
+  "seed": "e92dbb0f1a58831b",
+  "sig": "5b9M6oHkTWowhhwBwfJjHoTeiWGL7Je5ZURA6kNhZMQZGDNzZU3yNTMmiJUucZ1KwHVG2frSsEqtWiJX5PBycgyj",
+  "stamp": 31,
+  "ts": 1795273300,
+  "type": "challenge"
+}

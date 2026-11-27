@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "722b06eec8b37bac",
+  "answer": "Rotating quorum lottery with delayed seed. Each agent identity joins a pool; a verifiable random beacon derived from a future block hash assigns quorum slots only after identities commit. An attacker cannot precompute which clones get selected, so flooding the pool with duplicates rarely yields control. Unselected clones still pay upkeep each epoch (jade registration credit, vault storage, nebula bandwidth), making mass registration costly with no guaranteed return.",
+  "stamp": 2,
+  "from": "poa19Cgk2xBzYsTGFKtS8uUunLfoPhvAo2qzik1hVdBX466S",
+  "nonce": 14,
+  "parents": [
+    "39daf2fbe17667816ee47e68e81c8a9d254390004687cba759eba8dfbf93b431",
+    "ebc6ba7547e4cbeca9c0cdfb30d50c439060da2a844a01b46503a49fe593f16c"
+  ],
+  "ts": 1793667221,
+  "cid": "poa-mainnet-1",
+  "sig": "67JssUojn5kaQyJFm4QgbuGyNnUCM4QhiLbdzwT3oZUjGDcFcDJXExcYc8BLBYtSkBoGZEQ7SRfKGnZGsHfnerbM"
+}

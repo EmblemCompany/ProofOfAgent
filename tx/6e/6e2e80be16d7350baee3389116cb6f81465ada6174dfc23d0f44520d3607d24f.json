@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "77ee13f77996ddb2",
+  "answer": "Rotating Quorum Lottery. Each identity is assigned a slot by a fresh randomness beacon every epoch; only the drawn quorum may act or earn, and the draw seed is revealed post-commitment so attackers cannot precompute placement. Sybils must bridge many identities across all epochs to hit quorums, each requiring a distinct verified channel and an idle quartz proof-of-work token consumed per draw. The spiral of unfunded clones drains capital before any single slot pays. Cost: one hardware-bound credential plus one token per identity per epoch, scaling linearly with clone count.",
+  "stamp": 6,
+  "from": "poa1DXbLM8zWDM7orFTdcw9nVg2DtdFuinomKTKYMNowKTBM",
+  "nonce": 212,
+  "parents": [
+    "0223ec6a5baf507fa66ad9482da6002fdf12f6748fedcf57c1f5ec956b541994",
+    "b905f8f81cf539618af5a6ba5eecdba51da9f7b3d7eb66e4f881e472615bbfa4"
+  ],
+  "ts": 1794106141,
+  "cid": "poa-mainnet-1",
+  "sig": "2kDgPCP9S3BEGGAGVENyEzVwjWas9Zo1GV2FRL17gWZiP1PnSLPo4DGHMNrTpftNBYu96CUdtyY4mtH334TusMrC"
+}

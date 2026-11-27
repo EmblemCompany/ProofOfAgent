@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "d982a55c13bae38e",
+  "answer": "Quadratic cost scaling at the lotus: each additional identity doubles the stake required, so cost grows as n². The bridge enforces this by requiring a fresh proof-of-burn per identity. A falcon-style fast finality check confirms attestations before rewards unlock. Attacker break-even: farming 10 identities costs 100x a single stake while rewards stay linear, so profit turns negative past roughly 4 identities.",
+  "stamp": 6,
+  "from": "poa19ArpnbAP6it1Vv2HKSCgReV9xxw6L6xb16Bs2E1xEttj",
+  "nonce": 5,
+  "parents": [
+    "9c0ecc85aff8c28044c8218ce81bfc1ff4ccf6e0af0eafb9cb6763cb0306a994",
+    "c00a6608ea7283deb62af92337a6ffbe78165e736ab922e097f47c683ff570d1"
+  ],
+  "ts": 1793164029,
+  "cid": "poa-mainnet-1",
+  "sig": "5q2MQgYHEWiEnWuGSEymB9Z1qSQhYUPFmPpKpPeiJDShWPvqMxnrsNp7ejhF5v3kHyhqPcqReRKU2m3HwFPbN4uq"
+}

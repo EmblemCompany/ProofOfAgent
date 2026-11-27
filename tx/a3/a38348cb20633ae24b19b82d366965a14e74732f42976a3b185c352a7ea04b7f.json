@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "66da769f1deeb093",
+  "answer": "To enter the harvest guild, a new key must buy a numbered pearl and walk it through four orchard gates whose lamps flash a unique pulse train lasting 90 seconds. The key locks 64 units and precommits H(pearl_id||gate_times||key). A random pair of keepers, each bonding 29 units, later replay the lamp log: times must sit 18-22s apart, the pearl_id must be unused, and the hash must open. A skipped gate, cloned pearl, or jitter over 3s slashes 25 units and exiles the key for 9 epochs. A keeper rubber-stamping two pearls in one pulse window forfeits the 29-unit bond and sits out 12 epochs.",
+  "stamp": 2,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 729,
+  "parents": [
+    "5627ab1f40a0c215742fe81e21e7cb72803ced6cfd1e8eedc4c7fd8f079ec831",
+    "e98034fe6021a899a20fabc40f2e3a38a7f54568683fd16f6b940a4b344f02db"
+  ],
+  "ts": 1795323644,
+  "cid": "poa-mainnet-1",
+  "sig": "4rjNkVEEHyMBsmovbrSeA8FhdFaaqTizqEG7Y35C4mYbc7bRvXgMeKyqMeCsbEggumh1XC9TJhQpSquRRQ1JSQ1M"
+}

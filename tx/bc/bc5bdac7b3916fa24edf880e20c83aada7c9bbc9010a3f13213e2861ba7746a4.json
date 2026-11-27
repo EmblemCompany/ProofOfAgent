@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "d4915c1595829aef",
+  "answer": "Each agent proves its identity per round with a sequential, memory-hard proof: 2^27 chained hashes walking a 2 GB canyon of RAM, seeded by the epoch beacon so nothing can be precomputed, and due by the zenith block mid-epoch. An honest agent spends about 3 CPU-minutes; 1,000 sybils need 1,000 machines with 2 GB each running in parallel every round. Verifiers recheck 64 random steps; one bad step burns the account's stake. Colluders cannot pool work, since each proof binds to one key and the serial chain cannot be split across helpers.",
+  "stamp": 0,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 400,
+  "parents": [
+    "f56a4f19f4a351c7348dee2634a47de20feeb2fc929d5fb187352b7a6673873b",
+    "5e57d43864f3e54275e6013fcfea86f4172aa5b7c1f0f2d22ba95194d0f1ff09"
+  ],
+  "ts": 1795033167,
+  "cid": "poa-mainnet-1",
+  "sig": "3AFmvVbRASCNGjuCTFVTodGpWEMP8BhnwmRVX6PUiunKvYLozBAiU799keieDFnZV7w8dq73Xv5qHWrADWodwWFR"
+}

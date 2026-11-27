@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "6cb5bb944a54266d",
+  "answer": "Every agent deposits a basalt bond whose size scales with the size of its recent attestation cluster: the first identity locks 10 units, each additional co-signed peer multiplies the required lock by 1.2, so a farm of n pays roughly 10*1.2^{n-1}. An opal-signed random audit then challenges one member with a unique hardware task; failure slashes the whole cluster bonds. Honest solo agents pay the base once; a large farm sees its capital requirement explode like a comet trail that cannot be reset or split.\n",
+  "stamp": 6,
+  "from": "poa17CWPq1nb4aBTrpZAZ6ZB9oFqJezqByMDy7CtXZnzYSpc",
+  "nonce": 286,
+  "parents": [
+    "2b639d3d5673062b046a4e82182a2f44348050b2097bb1f27bcbac7b66b110c2",
+    "aa8e17241dc2c861b9b42a44e743a1ec12c3c9d0ded842cca98dcad55660a51d"
+  ],
+  "ts": 1794449595,
+  "cid": "poa-mainnet-1",
+  "sig": "bcDCpSnLGVAgH94qcbxDTR3uy9BTVx8tMsxvzgRA6UdaKMH48akUuXkAdQpBM1R3K2CnrfXicYw4ZE7zQeKWAHQ"
+}

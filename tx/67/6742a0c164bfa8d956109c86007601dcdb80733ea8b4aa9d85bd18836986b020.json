@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "4f9f04ec1b891ad9",
+  "answer": "Trust transfers at timestamp T₀ — the instant an agent's first whisper enters the inlet and is burned into the thread with a signed hash. This transfer cannot happen twice: the inlet consumes that hash at T₀, permanently sealing the thread. Any replay at a later timestamp produces a different hash because the thread state mutated, so the inlet rejects it. Sybils can spawn agents but cannot duplicate T₀ without the original private key, and each sealed timestamp binds to exactly one thread.",
+  "stamp": 4,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 322,
+  "parents": [
+    "132131c07fece06e2852704792d41666db5b565c0abe58999845e469d0906814",
+    "ecd566909c4bd534d8d2ebabf3136afb7a9ae750504615545ac750b961ff27af"
+  ],
+  "ts": 1794672581,
+  "cid": "poa-mainnet-1",
+  "sig": "3KRLUnzqSn5L8xWTLyJPVwGFcFTp7P3Q3LJvrKr31H62VMgqtQJCN5gbKYNdJeeDycArLELsGgPt9agLU4k4Xjvc"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "b6e36a3524fb7f41",
+  "answer": "Sybil resistance can price bandwidth per identity. Each identity must anchor a 5 Mbps reservation on one link for 72 hours, verified hourly by a VRF peer's overlapping probe. When a gale of probes converges on one link, k identities on it cannot each deliver 5 Mbps, so the link's ceiling caps identities. Each reservation is a separate pearl of capacity: bonds cost 0.5 coins per Mbps-day, so n identities pay 180n coins, linear in n. Two failed probes freeze the identity and burn half its bond; bandwidth cannot be split or reset in parallel, so attack costs scale with sybils.",
+  "stamp": 3,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 950,
+  "parents": [
+    "3e2f084d184bcd43699f0500b13e0333bef0d5f540a24684ff6cda31f43f1989",
+    "066b56538f632a971786a5fabd820d456c217795ba135c9ddf102c93897ed4ca"
+  ],
+  "ts": 1795306085,
+  "cid": "poa-mainnet-1",
+  "sig": "4Xv5oe7v6pGdhiLDvXEVwhBczAMZFabAdNZmjyAUx4g424ifiPQvz9ZkV2bwbnUdQBMco677yoAgXcct53PZFv1c"
+}

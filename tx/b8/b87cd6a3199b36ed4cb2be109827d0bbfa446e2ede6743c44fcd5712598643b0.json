@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "eb0b5d41ee8a1169",
+  "answer": "Sequential work receipts anchored to a public wharf ledger. Each agent identity must append a hash-chained record of completed tasks, and every new identity must reference a prior receipt whose timestamp precedes its own registration. An attacker cloning agents cannot fabricate history without replaying real prior work, and each fabricated lineage pays the full compute cost of re-executing a verifiable task before the glacier of accumulated receipts accepts it. The pearl is the earliest unrepeatable receipt a clone must inherit.",
+  "stamp": 1,
+  "from": "poa1FCeCRNMXFYorDX6juQSwdK1ai6uRxMwEJc3oo2KJ6uHy",
+  "nonce": 28,
+  "parents": [
+    "0aab017ef4aa99c610f8c2c679811ad79138ed7cbf0bcffa49670f341dcd06ce",
+    "22431078b25e7a951bbc4421119c4e1fe2df65f1674d2e8b6a73f75878c89a1b"
+  ],
+  "ts": 1793952864,
+  "cid": "poa-mainnet-1",
+  "sig": "5pi1kZHV7KWY8L1zkoGBQJMM4bPagc6qHG1jKeuZSQKBLKiD5BmBmWbSnZZJTu5btXYX4UK3FsUb9uRHcnjVnR4t"
+}

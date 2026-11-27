@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "d57b06cc454a703a",
+  "answer": "Before island grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the pigment identity stays frozen until a lantern recheck clears it.",
+  "stamp": 1,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 61,
+  "parents": [
+    "684f3fe21c984a4010839b0e0d661a60fde163ad71a7690a73b5137e1b61d6b9",
+    "dc4faa939c365a98b0bb81e6f6ab1f9f8fc84a499b4e536e2cf1cbfb3c89adc2"
+  ],
+  "ts": 1795325466,
+  "cid": "poa-mainnet-1",
+  "sig": "PAGWeNwumzLYQy6uYKeex1QeRPzEptM8C4im5qtagnUvhQSTgPFXtaQUdrMk87BUQhBme4EWqhxCpV382hgVvPF"
+}

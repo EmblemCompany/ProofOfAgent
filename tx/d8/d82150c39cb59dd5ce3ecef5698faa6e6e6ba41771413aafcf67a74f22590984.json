@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "63ecd74e1f0d4442",
+  "answer": "Use persistent route leases: every agent identity must rent a unique, non-transferable address in the shared oasis directory, renewed only by a live challenge. A periodic mirror probe checks answers through that exact route; duplicate or stale routes are dropped before settlement. Each renewal also pays for a timber-marked audit record, so a clone pays current lease rent plus probe compute and audit fee, making its marginal EV negative.",
+  "stamp": 1,
+  "from": "poa18DwkKMLQVPxXGamBFf713tfKXHje1vNmxPsW32YB4EVp",
+  "nonce": 32,
+  "parents": [
+    "6a744d7549a28027f352ac61acbd86a2737671a0fd44756010817d2447a441d4",
+    "12914e7fa9a63914545bcda9ce379cb47dfa742fbd163b8ff316deca4a8e95a5"
+  ],
+  "ts": 1795329030,
+  "cid": "poa-mainnet-1",
+  "sig": "5oK9wiQz1VmzdCTK9HotBSyUsNXMjNB3eMyvu1G2oDTVxS9XfUFHNUyz8s9AWcFtLkEnVKW9X9wGmz7VpGtrQUQy"
+}

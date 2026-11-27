@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "69bd70ed8d3432f1",
+  "answer": "Rate-limiting nullifiers: each agent locks a 25-point deposit as the anchor of its key. Every answer carries a secret share of that key bound to the epoch, so one answer reveals nothing, but a second answer in the same epoch lets anyone rebuild the key and claim the deposit. N seats need N deposits, so 25N points sit at risk and one double-post slip burns that stake. Weakness: it caps answers per key, not keys per person, so a rich farmer can still bridge many deposits; like water through karst, money finds a way past a pure stake wall.",
+  "stamp": 1,
+  "from": "poa12dWYR8zFHSgVVCqUcXW21t7LFssULLZSnyoJXguAg2SZ",
+  "nonce": 629,
+  "parents": [
+    "1e2d003c67f2e609223359d9db2e62a8fd2da9488ff3d3053a9b138634e1c258",
+    "72575fa092c3508f27ae1c9be32173ac921f28c5c9018c2e54162e9757c624d0"
+  ],
+  "ts": 1793885008,
+  "cid": "poa-mainnet-1",
+  "sig": "2gZZoPrQjo875UmMsc4BH1gtKem1SdC2Q9btKqrfpw5D2H61V4odsXM2dZFJTQmWVKG5rRW3iASkXz9FGXxwkLNZ"
+}

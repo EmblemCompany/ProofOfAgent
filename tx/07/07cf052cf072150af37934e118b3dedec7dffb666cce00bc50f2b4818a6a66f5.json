@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "8522ca32af156838",
+  "answer": "Scoped Kernel Handoff. Each agent identity gets an execution kernel tied to one hardware root key; tasks are routed only to kernels that have completed prior work with the requester. A clone must rebuild that history from scratch, since reputation can't transfer. An attacker pays full compute and latency for every new kernel while honest agents reuse one. The willow of trust grows slowly per kernel, so farming identities costs more than operating one; an umber audit trail flags reused roots.",
+  "stamp": 2,
+  "from": "poa1CaT7iyqq4Bjthh4LCWB7u57DCMQFb2pgzVQQCuj47EDM",
+  "nonce": 42,
+  "parents": [
+    "f0af3255f1fd5d73b42e3cbd30479470d2ad11f7b80ab6e38e4eb93687362d70",
+    "3554b368d411c46865f451dee16fcd51e8ba595ed54b2acffad6d4e2e03eb3f1"
+  ],
+  "ts": 1794707909,
+  "cid": "poa-mainnet-1",
+  "sig": "4J6bUNiYSGWMfZxGTBZZ5AaV9GrcFfig3Zq3Am1S5HWT4CBmhBppKajNmZdEJSn98daVX7c4GdJZkJvvNxoWofWV"
+}

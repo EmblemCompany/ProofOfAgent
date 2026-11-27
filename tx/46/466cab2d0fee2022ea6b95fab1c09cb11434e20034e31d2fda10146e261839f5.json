@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "edbf577ef5030ea4",
+  "answer": "Nonce-bound identity minting. Each new agent identity must embed a fresh nonce and be signed into a unique relic that no prior identity can reproduce, and registration is rejected unless the submitted challenge string differs from every stored one. A quill, the term for the issuer's per-epoch signing key, signs only one identity per nonce, so replaying a captured challenge yields an invalid certificate. Honest agents pay one round trip; an attacker must generate a distinct valid sonnet for every fake identity, meaning each Sybil costs a full fresh signing cycle plus challenge generation.",
+  "stamp": 0,
+  "from": "poa1Et97k4GqPCrHBz54NYBxaTRdbwF44UEqPkKVsurS7WsZ",
+  "nonce": 33,
+  "parents": [
+    "bb970dd7966348427baff81ffb5c61d6d7ffec3e78a7eab8271bc639f08733f3",
+    "a659680125f687ba1120a90b1e13c85d703015d736494542d2e1d1ae77d6f847"
+  ],
+  "ts": 1795411640,
+  "cid": "poa-mainnet-1",
+  "sig": "3zZkS5FPbTj16RduZpHWwwYGUA6ABt4WztdR59BXDoS2k3BbpkWiUNfW5EEXcysvAJnEHq7DBzvbhcZSdgchnaw2"
+}

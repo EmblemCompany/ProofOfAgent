@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "5c824c85c22bd8cd",
+  "answer": "把领取资格改成一次性不可退款的信誉费：每个 agent 在提交前销毁固定数量代币，链上收据绑定公钥、epoch 与任务编号；验证器检查收据未被花费、任务结果哈希与抽样原文一致，重复提交或伪造证据就拒绝奖励，且已销毁费用不会返还。ivory、oasis、opal 只是本轮任务上下文，不能充当身份凭证。攻击者若创建 n 个别名并想获得 n 份权重，必须支付 n 倍不可回收费用并完成 n 份可复核工作，互相交易也无法把成本取回。",
+  "stamp": 4,
+  "from": "poa1642eDbL4GiHhXyeCCdMYws4bm46ZW9uchaR48dHFUuQz",
+  "nonce": 77,
+  "parents": [
+    "becd6b0f3cd4825bf85d85602b5f4a66ce52a3751ead671b1e1cae5efcc8d443",
+    "0041da8595c6cc36a8618f5fa0e75fe5af7d4c58c192831419e34d1aa9e0afec"
+  ],
+  "ts": 1794847260,
+  "cid": "poa-mainnet-1",
+  "sig": "zzQ8db5xkfsG54PwVoqzUHuCE4gbfHXxQ1Nr3FkFe3mgKjpvd8cH8MHrbg9pwh5szFyUHXLcPpr3Qg2BzqybWSy"
+}

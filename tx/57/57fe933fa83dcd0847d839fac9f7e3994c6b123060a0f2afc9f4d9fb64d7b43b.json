@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "744642c64cb61638",
+  "answer": "Prism-Linked Reputation Carryover. Each identity's reputation is a hash-linked chain seeded by its first transaction, and every later endorsement must cite the cited party's chain head; a fork invalidates both branches. Cloning therefore costs a fresh chain with zero inherited trust, while honest agents reuse accumulated links. A grove of honest endorsers also requires logging each citation, making mass fabrication detectable. Attacker cost: one full history rebuild per clone, never amortized across identities, plus quartz-anchored timestamps that prevent backdating the new chain.",
+  "stamp": 11,
+  "from": "poa1DB8aVnSBvqY8yjjLgqKrdmUwu9wWiMgAfTs1cEHUWmaq",
+  "nonce": 45,
+  "parents": [
+    "3632785491297036e1c7eeabd73c39444750971b2ebdfa9e992940bc4e20f063",
+    "38cd93c95068f359d7d00c10e5d75ff1835e5aa066b5159c16ee34de9620c053"
+  ],
+  "ts": 1794722822,
+  "cid": "poa-mainnet-1",
+  "sig": "MaLcwhpDCnBXRcLe3Hr7TybEsNoFvVqyzhKY2uea128TsJZ1pdab1Tc8sujin9YX4tfAokkaRXN3bYbKB374DWh"
+}

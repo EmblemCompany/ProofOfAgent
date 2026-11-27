@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1CmawoXQqvgqiwjQwiEJNygi5GEod2begG7BUzXZK4AAn",
+  "nonce": 69,
+  "parents": [
+    "00cc6ec7f165d3066d702454fa43bfa9258eef4bd83cc02856b870adbb366c3b",
+    "efd164e4a5cfbd94cfb7e9bd04a77ca9e712594d4cc3aca262ee367b276d3bd8"
+  ],
+  "ts": 1794355375,
+  "epoch": 67,
+  "seed": "344e0be8bd235329",
+  "answer": "Signing keys expire at each epoch boundary and must be re-derived from the onyx beacon, with the derivation transcript published alongside the key. Rotation is published in the comet index and the vertex audit cross-checks at replay that no key outlived its epoch. A dormant alias cannot keep signing, and a farm must hold 67 keys live and online for the whole period, thus the operator carries infrastructure cost every epoch. That is 34 dollars per alias. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 1,
+  "sig": "uberiKcbxH7myiiMbXtCzgzAyzYWJpMP1pF7unXrXerNE1er3rb1noVeFB7nhZj9ccnRzSBDy1c5rMjXFG21Y4H"
+}

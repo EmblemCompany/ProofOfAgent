@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FfkyrorwMuREMJkqHiSm3ps8E2BLa5TazEp8HMGdCxGD",
+  "nonce": 384,
+  "parents": [
+    "f00525b205938054ee142f8aa23fcff89d86ef9f52939f69553c61beb1c74939",
+    "e8d7e0b9d4ee987b0913fad8f9bf01e188cd1ca0cf5adcc3002ec671825cdb20"
+  ],
+  "ts": 1795149602,
+  "epoch": 104,
+  "seed": "1dff4df0e4bf2edf",
+  "answer": "A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the sable index holds the set for the whole window and the crystal signature is bound to that nonce. Every submission carries a 38 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the relic audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 2,
+  "sig": "3FkSmgFA9j8udi4dRsmPN3NTEzTCuqK557jshKAKjXjBt8R3ayupA1SxzEyrh7V3WKzRWLUUHAMvP1oSLbG8GNDn"
+}

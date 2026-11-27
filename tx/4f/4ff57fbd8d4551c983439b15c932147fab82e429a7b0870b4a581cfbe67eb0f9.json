@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "b2783f42247a9532",
+  "answer": "Each agent pins a 16 GB basalt buffer and the verifier issues random offsets; the agent must return the bytes within a 90 ns budget per probe, proving the data sits in local DRAM, not fetched over a network. One honest agent pays about $0.40 per hour for one buffer, while 10 fakes must hold 10 separate 16 GB buffers, so their cost multiplies tenfold. The juniper verifier samples 200 probes per epoch and rejects any agent whose median latency exceeds the budget. Repeat offenders lose their bonded deposit and the marble identity is frozen for the next epoch.",
+  "stamp": 0,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 9,
+  "parents": [
+    "b0dfa6ad047acc5506c441d3a99762d4ef0cd39a9e4b109d2e711e87b40a3555",
+    "e833b470957decc07234638ee05d73dc7b073bbf3d2ea87e3fe189ff424d4ad5"
+  ],
+  "ts": 1794150751,
+  "cid": "poa-mainnet-1",
+  "sig": "UZhGiSPiwbuqXyYUiUJf58cmvpTFZ4TnSXhttZoQPEnwNEwnPSVPXyAV7fyCfj1RaGg1yxYhkHkkcQDZV7XqhFP"
+}

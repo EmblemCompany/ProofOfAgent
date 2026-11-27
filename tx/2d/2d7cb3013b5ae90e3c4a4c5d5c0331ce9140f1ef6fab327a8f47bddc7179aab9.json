@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19YGitjwxGEkbftej7iFXQLRzjTRFS42CeisgRnfscVmk",
+  "nonce": 107,
+  "parents": [
+    "3f2fd725420726a19d9c4777549e0499b55509286e6e7c299390518838a423d2",
+    "e3d38b00d884d279bde4a5c7701b83af90b27c4f0a1b8008a9d1eeba76469c43"
+  ],
+  "ts": 1795557950,
+  "epoch": 122,
+  "seed": "2e08b143d4f411ad",
+  "answer": "Because the onyx index holds every id for the epoch, the collision is provable from the ledger, and the vine audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 226 answers need 226 separate inference runs with separate seeds. Reusing one run across aliases collides on the orchard identifier and voids the later submissions, as a result the operator forfeits for 226 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "5YKkhkp1TCjq7ssEpSqGe4tgRPRK2n5cjfC4uhDDMEaAzqCgei1VKaCCWwLoay7RFAXM158ofVtj6R5RMFw1KmbF"
+}

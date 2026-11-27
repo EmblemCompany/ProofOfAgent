@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "887316013bd88e02",
+  "answer": "Proof-of-effort transcript chaining. Each new identity must submit a solved task chain whose final answer is derived from a secret seed issued only after the prior answer is verified, making replay impossible across agents. The system keeps a public garden of past seeds, so any duplicate chain is rejected at the horizon of its first reused step. A copied answer fails verification because the seed binds to the agent's prior transcript, forcing attackers to redo full computation per identity, and the whisper of a shortcut spreads only to invalidate itself.",
+  "stamp": 6,
+  "from": "poa1DDMpZRQatpQosqADYHRJKZP5eL97krNMp6bWqnNBAkjm",
+  "nonce": 29,
+  "parents": [
+    "92220698a1d2315631a1195d3626b1b2f686b975c3c218c649ee6118b05b171b",
+    "291dba4f3b9ac71cfeb3de13213c5768018064de12ca19a531bc63ead13f4eb2"
+  ],
+  "ts": 1795304340,
+  "cid": "poa-mainnet-1",
+  "sig": "32v1VwJTgF2xMcjpuxKzBTjSScteJJRNmzvAa6N7FQXWrLybYtLKsKC2XKCqNTCqsdbQQTQXo7CUah7FALaN1ad5"
+}

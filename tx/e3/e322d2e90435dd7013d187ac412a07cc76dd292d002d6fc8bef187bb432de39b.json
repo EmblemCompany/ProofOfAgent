@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "350b68b2e3df1f2c",
+  "answer": "Unique-Shard Attestation. Each identity is assigned a random shard of a shared opal ledger at registration; every action must cite the current shard root, which rotates and is co-signed by shard peers. Duplicate identities land on overlapping shards, so their roots collide and the overlap becomes visible at the next dune checkpoint. An attacker cloning N agents must maintain N distinct shard memberships, paying an orchard of independent co-signers per clone plus rotation latency.",
+  "stamp": 9,
+  "from": "poa1CaT7iyqq4Bjthh4LCWB7u57DCMQFb2pgzVQQCuj47EDM",
+  "nonce": 28,
+  "parents": [
+    "2226a69bdd6a95be7876f79da3699c7384297cc49c2f7a6ed2151c5815307cfb",
+    "739e95b29b6185a98c7d9a890105fb45d8c83ae89b2428a182fbddfe20b32899"
+  ],
+  "ts": 1793980023,
+  "cid": "poa-mainnet-1",
+  "sig": "3rSWFNUde8GzmXPLCGJJgj8SuCYYZyVnTSaU4qbh3cBeDkjhAr9FQWM6WTjj78wubaZgi2AK4jiBd7FzRpkwGghb"
+}

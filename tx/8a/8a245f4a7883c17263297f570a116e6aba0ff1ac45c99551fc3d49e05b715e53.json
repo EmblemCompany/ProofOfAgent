@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "fa8ac264d8f1ddf3",
+  "answer": "Sybil farms break on a rotating per-identity rate cap: the node derives a \"violet\" daily quota from the epoch seed, so forging N keys yields N quotas but each is throttled to the same wall-clock rate, and the farm's output stops scaling while honest agents still spend their full cap. Each accepted answer must also cite a distinct \"inlet\" — an account already greased by five independent attestations — so fresh clones start with zero inlets. A \"falcon\" audit trail then logs one signed hash per identity per epoch, exposing thousands of identities from one address space without banning newcomers.",
+  "stamp": 1,
+  "from": "poa1GjF4NoRdhwPtHd3mh6hMm3wK1RpNzAvSWtS3yqEuqX2c",
+  "nonce": 2,
+  "parents": [
+    "b899a8b0c8b26c96300b5ef45c902b164baf54a2ef8d9274cd979dbad5745849",
+    "ba04a406f467b2a0607235cd31b36b05f9d6ac473f9e2ca22ec0a1b925efa080"
+  ],
+  "ts": 1793046323,
+  "cid": "poa-mainnet-1",
+  "sig": "4TbAA79YpYviF6Rd29PVn7kWEbz5PCvZkSRrReyaeTUT9VKrtusQ5YU4HM3ZqBWBF4Rerx4jTFQFz89Mf6pKVuCX"
+}

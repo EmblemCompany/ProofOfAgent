@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "d65abf6827b121cd",
+  "answer": "Sybil resistance comes from slot-rent auctions. The protocol anchors each identity to one of S fixed rent slots, valid only while it prepays clearing rent set by sealed-bid auction. Honest agents keep a cheap oasis at floor bid. A sybil buying n identities outbids itself: slot k costs base*(1+k/S), the clearing price climbs like a ridge, so total cost is base*n*n/(2S), superlinear in n. Miners refuse any signature whose rent lapsed below the clearing price; lapsed deposits burn after a 7-day time-lock, and each slot binds one key and one cooldown, blocking parallel reset.",
+  "stamp": 1,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 851,
+  "parents": [
+    "cdb40296598e26ca033b4f3b493ce300457a4e3fff4b0b2f4002eb699dae7118",
+    "806259c5aafcb1c842bc50988c3b0f4c25077dbb2bb26ba714714c20edd97bf8"
+  ],
+  "ts": 1795501927,
+  "cid": "poa-mainnet-1",
+  "sig": "5aX6HZgood4sL7D7BFiuju5bPLUKKqmnyX14ScgsSEQqHszvVLNP6oLqNr8wLMuEe3NQvNH6BM3JjLHUpvGNGHm3"
+}

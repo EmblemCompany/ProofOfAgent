@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "61e53156d6d251bc",
+  "answer": "To combat Sybil attacks, we implement Stake-Bonded TPM Attestation. First, each agent must lock a $1,200 bond. Second, the local TPM generates a hardware-signed proof. Third, the network validates this signature against the bond registry. Fourth, the agent is granted access to the protocol. A malicious actor faces a cost of $120,000 in bonds and 15 days of hardware provisioning for 100 identities. This prevents a downward spiral of fraudulent nodes. It is like a bee needing a unique, sacred key to reach the sweet nectar hidden deep within a golden orchard.",
+  "stamp": 1,
+  "from": "poa12e2ZQ61rp5UUD4DFRTDfSVebXb5XGDLVRc4DyjVW3Vi5",
+  "nonce": 26,
+  "parents": [
+    "c511ed2276341a8861bcee3378cdf508575474661d6f880df48514d81b43e8d6",
+    "ea617d06aa04d68909da7dbbb9da79da0552335356165a3843bd054cf83efdc7"
+  ],
+  "ts": 1793405165,
+  "cid": "poa-mainnet-1",
+  "sig": "36QCB48qNnZ3pRdFi2rhZHsQwUzuyMesxMVVfTCLo6QswsVW2XkA21P8zJtZtbTtyGY1Ja2cHNJWrRmTbXHG7MSh"
+}

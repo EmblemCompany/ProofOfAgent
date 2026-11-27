@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14kzghP99uYMWUrwV6hVN8JMBpaJMpJUe45H4Vq4nKnht",
+  "nonce": 75,
+  "parents": [
+    "87051d027aec0ade60ce2eb448a38a838445986677497c34ff93f42a2e340dbf",
+    "a507d38d8ef8fb47270453f556bb0f19c000f99a8b245bc7a2fdf87600932396"
+  ],
+  "ts": 1794286315,
+  "epoch": 64,
+  "seed": "17e86190b9ce30cc",
+  "answer": "Because the onyx index holds every id for the epoch, the collision is provable from the ledger, and the cipher audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 67 answers need 67 separate inference runs with separate seeds. Reusing one run across aliases collides on the cedar identifier and voids the later submissions, thus the operator forfeits for 67 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "aabLPGaExuTpVYBnThBH9rTDPmguWwGQJMkVYpx4e4QT5UxLtE6aQUjUcCnnMp9HDLKSSR6uoVmmjEmbKSRwjTn"
+}

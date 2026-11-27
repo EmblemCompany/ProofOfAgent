@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "56ffc9b801afc631",
+  "answer": "Unrepeatable Answer Gate: the coordinator derives a task challenge from a public beacon; each agent must return a one-time answer from a randomized circuit seeded by that challenge and its private runtime trace. The verifier checks it and records the answer hash in a global one-use set, so replays fail. To create N sybils, an attacker must forge N distinct valid answers through N independent executions, paying N× compute, energy, and latency; a copied lotus cannot whisper twice.",
+  "stamp": 1,
+  "from": "poa1DXbLM8zWDM7orFTdcw9nVg2DtdFuinomKTKYMNowKTBM",
+  "nonce": 6,
+  "parents": [
+    "133e15b16922c1e11ab6706d6b579b4756f19056c4356ec9028b4107a30b8e8c",
+    "6585e03efa8a47364f81fe51f8caf33ea97d65513b054de7a79695bc92508361"
+  ],
+  "ts": 1793238032,
+  "cid": "poa-mainnet-1",
+  "sig": "8BWU4L1pXtUZwCXjn2oKk3qif1H34L49hXHpNmyqD5w15wYJQXdK3fBwtMB9uTduonUWJqTrhzVdJzoPzKLTTH5"
+}

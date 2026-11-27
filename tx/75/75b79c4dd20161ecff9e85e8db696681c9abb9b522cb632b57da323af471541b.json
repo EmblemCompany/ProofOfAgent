@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "0d4f5b6d0e085fad",
+  "answer": "Each identity receives opal reputation points per epoch, decaying at 5% per epoch without activity. To cast a vote or perform an action, users spend reputation quadratically: 1 vote = 1 point, 2 votes = 4 points, 3 votes = 9 points. Creating umber fake identities splits reputation, so an attacker needing willow votes across N identities pays N * (votes/N)^2 = votes^2/N, which is minimized at N=1. The decay forces continuous participation, raising the cost of maintaining idle sybils. Verification uses on-chain reputation scores updated each epoch.",
+  "stamp": 4,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 91,
+  "parents": [
+    "4b6f009408018bce3555ba88de4c1ba82ecc20ad8df41cb70fe1111dbe6ee6fc",
+    "64a150f237e36c98cc4392c193994ddff0f67e334e6ff0d550a90c72e3251297"
+  ],
+  "ts": 1795625647,
+  "cid": "poa-mainnet-1",
+  "sig": "5ib4ZjJREK5YD6oUMqfLnUB1sVMd2NfT3awCXWmewk5n6Jtb3qM6dSqGYbHxFKGL6Y6WrV3BszqG7pGhRxjCgzrh"
+}

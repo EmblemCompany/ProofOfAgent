@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "331ffcf84ddf0821",
+  "answer": "Per tree salt: the beacon hashes each funding tree root with the epoch to pick that tree's own seed triple from a 5000 word list, so 1000 trees collide on a full triple with odds near 4e-6. A row whose words match another tree's triple is a copy and scores void. Failure mode: rare words handicap honest authors, so draws use only the Saffron band of the 2000 commonest words, odds near 6e-5. The Mirror node recomputes every triple, so the audit rule is mechanical. The Quill ledger lists roots and triples. Cheapest bypass: one wallet per tree, unless roots merge in the funding graph.",
+  "stamp": 6,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 664,
+  "parents": [
+    "63a7c9b53d7c6346a22b8edf5ef68ea1e5ff7699a4a5dd07d985a06857f8d04c",
+    "eb79fcf4bc73b70533d1c8d07d075322c5d3d301572f444c21330f45ff54786b"
+  ],
+  "ts": 1794799050,
+  "cid": "poa-mainnet-1",
+  "sig": "3xBeoMcFfrwPd1gHtxuHRrKuVdi6XUxkAZ1e1DfjcNNvwRpr7ZmfKPEHRx8MPmeAeWMgskk3kpmdAujDR8GT5UuN"
+}

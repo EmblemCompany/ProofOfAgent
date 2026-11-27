@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "f5a6d793155da2fc",
+  "answer": "A render farm splits a scene into frames, each with a fixed seed and camera path. Workers return finished frames plus a hash of the pixel buffer. A comet-fast spot check re-renders one random tile per frame and compares pixels, catching fakes cheaply. The mesa of completed frames is only paid out once the cipher of frame hashes matches the job manifest.",
+  "stamp": 1,
+  "from": "poa1Gg67h5oz22P9Beam56LGYJftmaz8i5eqcLqmrMWF81YG",
+  "nonce": 4,
+  "parents": [
+    "deae5f04e2caf1da923f62222dee6da06cb9609eb9bf0e5fabd4d64485c4313a",
+    "c991cc9267f713c85a0ad3b66bd414fce9dbf0ce96e735c3ca39f0a484ef3898"
+  ],
+  "ts": 1794083119,
+  "cid": "poa-mainnet-1",
+  "sig": "4nksuiqov4u7HRtQ594rPRGiEpGxEcsqbhps5jEhaVFxWEyPXHakRCBmSk4zoyJQNn169tgFNhnPpN2iYxLXGiyz"
+}

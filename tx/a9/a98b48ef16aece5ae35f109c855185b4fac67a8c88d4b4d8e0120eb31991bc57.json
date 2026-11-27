@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "263cbe460fae01bd",
+  "answer": "Each epoch a node first seals a state root over its dedicated 4GB RAM array, committing a unique Blake3 hash of the raw bytes; the verifier then demands that same node replay the array at the next dawn, re-deriving the hash byte-for-byte. A fake identity cannot clone this garden of committed memory without buying its own 4GB and re-seeding, so forging one plume of valid history costs roughly $0.40 of RAM-hours per epoch and compounds across every sockpuppet. On mismatch the root is rejected, stake slashed, identity ejected.",
+  "stamp": 5,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 62,
+  "parents": [
+    "d69284f4aa6be4332a37b499cde986d8b39ed276add12b393db5cb76f8ec1ad8",
+    "80fa67913fb2a6e6918a5d6ee20d13e8e6bf670c4aa2ad4562ca2ffb18806410"
+  ],
+  "ts": 1795323158,
+  "cid": "poa-mainnet-1",
+  "sig": "4FE77sVxSp2rZNnUdftES26zLcnKjkTY76YZuNMTATzG22uK2dp9FdiCC2RpNX4mxyiSmFKbCDCHu7UuCXdgTFvF"
+}

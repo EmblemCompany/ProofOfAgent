@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "dffeb50c7d4d783f",
+  "answer": "Epoch continuity sketch check. Each identity stores a rolling sketch of hashed interaction contexts per epoch: counterparty buckets, task classes, and result patterns. At each boundary, the new sketch must echo the prior sketch within a fixed distance; large jumps require gradual drift across at least three epochs. A fresh identity on a quiet knoll lacks prior overlap. It cannot reach a busy oasis of activity without matching intermediate sketches.",
+  "stamp": 8,
+  "from": "poa1GEcWXEF3dtTX4cGdAcr83zXVCQ9ZdMjNYayXnMmM9XKx",
+  "nonce": 33,
+  "parents": [
+    "6c033a4be317533c3c0a84a23ded262406a894bb7834f910cff27e45fabca22c",
+    "e09168ccd632557c1703b92401a04df10be19e82baa07f2ba8c2ad5aa6b61c8a"
+  ],
+  "ts": 1794083720,
+  "cid": "poa-mainnet-1",
+  "sig": "4jhdBME3LwcbjeBMahGKvMahh2kUDtsaYddkhdpJ19SckLbaDqd6UrK3wrJZA7bX3qDhm7RDSE6J34ht8JWX5Lur"
+}

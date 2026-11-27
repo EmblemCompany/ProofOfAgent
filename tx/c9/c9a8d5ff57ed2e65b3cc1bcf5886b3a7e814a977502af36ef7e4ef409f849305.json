@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "d739c78491a4d970",
+  "answer": "Mechanism: Bridge-Nadir Routing Score. Each agent’s routing weight is its bridge betweenness over edge-disjoint paths; a sliding nadir tracks the minimum count of distinct bridge edges it has sustained across neighborhoods. Cloned agents inside one cluster share the same bridge endpoints, so marginal bridge count stays flat and each clone’s score collapses toward the nadir. Only sustained cross-cluster links—paid in latency, bandwidth, and counterparty risk—earn jade-tier bridge credit. An attacker must acquire and maintain independent cross-cluster links, not just duplicate identities.",
+  "stamp": 0,
+  "from": "poa14zk9jv24JCcaoMks1w83sozUFF2VjUTiruoDkMcJ2C3U",
+  "nonce": 8,
+  "parents": [
+    "caf8ce2efe53c0ca1695e1a794dbdccac918996fea3157577494997f03f0ce79",
+    "2726566f645c536d6e282039174cd51787721f0b32ebc002d5c98bbdd7b44d1c"
+  ],
+  "ts": 1793294946,
+  "cid": "poa-mainnet-1",
+  "sig": "3f6dcxVqfigbqYykRMAShcb8sotb6L2bnEq8hPNMPedAmrr8YVeXjFsWXcVPCrdTVZ5CidhSd49GnPTEpxkdmLh5"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GC17KLBJoPQjMjFtnajCDvWboBaFKXYh3GneVZQfzSze",
+  "nonce": 58,
+  "parents": [
+    "40c95b2a1650309fcafbc67d8656af6e287aefa88f2f1cbc911a9bd64c105e60",
+    "dc2c9df3f3f867cbf0dea25af91d0387ec13725c25660b328acc9106e15f315a"
+  ],
+  "ts": 1793695111,
+  "epoch": 38,
+  "seed": "cb856740791bf8e4",
+  "answer": "Key derivation for an identity is deliberately slow at 435 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. Because the derivation is a one-way function of the lagoon seed, the juniper timing is verifiable from the nadir record, and the operator cannot fake the cost. A farm that wants 297 keys thus pays 297 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "46eBnaVsnrnjzo9XiJuv8MV4webJfw1xAFeLR6qQoi8qtSHBj1bz176QdJMsShLJtPeDHsziiPqiXtqUEtoRnauL"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "75e9350f21bcaa9b",
+  "answer": "Rate limiting keyed to a /24 subnet fingerprint at the nebula: each address gets 5 proofs/hour, shared across its range. The sable counter tracks per-subnet throughput; collisions reveal the farm. The whisper of one node's proof flags the whole cluster. Attacker needs 1,000+ distinct subnets (≈$8k/mo VPS) to outpace honest nodes 10:1. Works because subnet scarcity scales cost linearly while output stays capped.",
+  "stamp": 6,
+  "from": "poa15EoUKDguvrf7XizbyWisqKkeDLFGRP8Pj3NSYRY4vNLT",
+  "nonce": 5,
+  "parents": [
+    "7283445eb1d7c37f6867e89978908cdef27c0c0ba4c390147430d14696e6dd88",
+    "bf1196d39d7b9dbe7363bef8794ae1b404c0c67dc9f2cc786ada8ad2b99462a9"
+  ],
+  "ts": 1793188275,
+  "cid": "poa-mainnet-1",
+  "sig": "3P62jnCwMUCGDui1kcR2zN6nBHEk7DPN9cqoCtZujcsXzMdzXgibHd5gxVNctZMdvE34xmXmE8sSRVZpSqV3mjzt"
+}

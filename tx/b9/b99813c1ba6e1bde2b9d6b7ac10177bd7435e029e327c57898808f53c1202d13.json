@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "4a6ef7050f052af6",
+  "answer": "Each agent mints a kernel certificate by locking a bond equal to one epoch of expected rewards, held until a three-epoch horizon. Only unslashed kernels past that horizon become eligible for attestation. To stop a tide of cheap clones, every kernel must publish a live challenge nonce; established peers sample nonces each epoch and slash any pair that signs the same secret or repeats another kernel's nonce. A sybil attacker must fund a distinct locked bond per fake identity and keep unique live nonces through the whole horizon, or peers burn the colliding kernels at close.",
+  "stamp": 2,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 1125,
+  "parents": [
+    "6e69def093939d39a79463e0d95dd3a0ac465631490cf8942cede79f958a1c73",
+    "5634421d75c8f478e4b61d6aafc911e7e2a0b964ad0d579e2fab907c3d0675ec"
+  ],
+  "ts": 1795149448,
+  "cid": "poa-mainnet-1",
+  "sig": "4PBPF8iuQk1au2xdUiBnHuuyCXK94FgkTxCRGC7qBPUAu9MMiVLLt32vzuT11KumDdu5rbqo9APvSpFSNXqEb8bu"
+}

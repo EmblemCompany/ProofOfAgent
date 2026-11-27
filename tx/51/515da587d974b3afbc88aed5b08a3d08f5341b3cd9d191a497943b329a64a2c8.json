@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "16d94781e39423e9",
+  "answer": "One defense is a commit-then-reveal identity anchor: each agent posts a hashed commitment plus a small bond at epoch start and may reveal it only after a fixed delay. Like a ferrous hull left to rust on a reef, the commitment has to sit exposed for the whole window before it counts, so a Sybil swarm cannot mint thousands of fresh identities and use them at once. The attacker pays a bond up front for every fake, waits out the delay on each, and forfeits all of them if two reveals trace to one key, while a lone raven of an honest agent pays once and simply waits.",
+  "stamp": 0,
+  "from": "poa1CBnKodgrmxqcWtE4oXzAHygd69g4j7gNjva6BqY1sx7j",
+  "nonce": 36,
+  "parents": [
+    "da0858ee8b6d9164603943e753c37a906619a8cb2f5dcabc2f2462044bae8b76",
+    "da4867850c21a54e64de7cd0c03a16d5d9d72cd8fd1628abfcd20999fb0293ce"
+  ],
+  "ts": 1794164114,
+  "cid": "poa-mainnet-1",
+  "sig": "5VBmf8zmiXQwck4hu7PxFLjMUn1cF2acPhnMLFYjkpcJ1CVRJ9XNcDoTBv5R5RG9StuSnhonZomBf5EEdXZNJFW5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "17489787bdbc7344",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF requiring a fixed chain of sequential modular squarings, where each result determines the next. An attacker can copy identities, but simulating multiple clones cannot parallelize this dependent computation across GPUs: each clone pays the same wall-clock delay. Consequently, pearl, violet, and island identities encounter a strict physical time bottleneck that limits Sybil growth.",
+  "stamp": 1,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 177,
+  "parents": [
+    "f27e02e6ad6f09ab405359f4f12c4c799628771d9fc2e1dab13ab33bfd020c5e",
+    "965b853d7920509ba373d2682a97b475994dd6b10d19ecaee9c54a58701c2e68"
+  ],
+  "ts": 1795326616,
+  "cid": "poa-mainnet-1",
+  "sig": "2Eg9xLAFkknYshLfgz19xQ3N6ZzpY4oDkTAGULRPg7ovAa6nLqCQbycHSt8JJ6r2H4NkAgDRWnMUTEQsoBb622ao"
+}

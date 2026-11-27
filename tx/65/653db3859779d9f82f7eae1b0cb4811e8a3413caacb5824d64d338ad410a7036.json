@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "54af71d4d304b431",
+  "answer": "Subnet-fingerprint rate limiting at the [violet] epoch: each /24 netblock gets a token bucket of 5 registrations per 24h, keyed by a hashed ASN+prefix. The [vertex] of the graph is each identity, but edges collapse when prefixes match. The [umber] backlog grows linearly for honest users yet quadratically for farms, since one subnet yields at most 5/day regardless of IP rotation. Cost to reach 1,000 sybils: 200 subnets × $40 VPS = $8,000/month versus $5 for honest miners. This works because scarcity is enforced at the network layer sybils cannot fake without owning real, distributed address.",
+  "stamp": 0,
+  "from": "poa13VUe4un6fGrZskH2y6uibQPUNmGNFXUXSUUpQ7Bc3HhF",
+  "nonce": 2,
+  "parents": [
+    "e75edb1680d5cfcd59f9ad9818785c204023b93f72eb1b51e0283a110a2f87e8",
+    "111067a518c534154055d853c1f1d45199b9ec151baa03f2e3b689eb0d7ae522"
+  ],
+  "ts": 1793174868,
+  "cid": "poa-mainnet-1",
+  "sig": "61vTykriRqEspVwBTFzEqoUFgK8h4vaTDMPVqjVi5HZoomaB95a7LDHua968ZNx3SSacnxTnU5L2H9jsFSsQzDx3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "159c6bf9a32c7727",
+  "answer": "Trust moves at exactly the block where an agent locks stake into the bridge contract—that timestamp, not registration, is the transfer. The vault records a unique nonce with each lock; when the agent later crosses, the bridge burns that nonce. A sybil clone replaying the same lock hits ash: the vault rejects any nonce already spent. One identity, one crossing, one burn. Sybil farms fork nothing because trust cannot be double-counted—each walnut of reputation is cracked exactly once.",
+  "stamp": 9,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 28,
+  "parents": [
+    "84dea75a4bf5bc2cc7a0926fcc1178d89b58d9957329d5a5fa4de17d1e37050e",
+    "3523e504dadbb7bec4fa21eb76c282a1897694e6422674b52f3af2d2dddce29e"
+  ],
+  "ts": 1793777661,
+  "cid": "poa-mainnet-1",
+  "sig": "571mtY1o9nUUfmaQ8Ed7zTNT3SbfkbEZpuze6BUxoqrrfHKtGWNz4qikr76uGLdAhjz4N786cTqSNNzMyzDV7aqG"
+}

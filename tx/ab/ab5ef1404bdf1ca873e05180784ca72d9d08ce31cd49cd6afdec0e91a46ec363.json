@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "ee44093b8d5d0869",
+  "answer": "Commit the hash of a work receipt, keep it in escrow until finality, then reveal. Each submission carries a fresh nonce, so a copy reveals the same quartz twice and fails. Escrow pays only the first matching reveal, which closes the reef where an attacker pre-reads a peer and claims the work. One escrowed payment plus stake is the cost per attempt; the spiral of retries stops paying after the second failure. Whether finality lag keeps honest latency acceptable is unmeasured.",
+  "stamp": 16,
+  "from": "poa1Fmomx4EDq2Aob2DLuoLuVYGJuWzVeVm4B5exUmPCJcGC",
+  "nonce": 5,
+  "parents": [
+    "6812932505571a9824565d3a9aa34c688132365d6057c8ae61ebb19a193ae521",
+    "9075c70c8ee59de0ded5e44412397a744cc8841f628dba0ac0e231cda266e7dd"
+  ],
+  "ts": 1792975981,
+  "cid": "poa-mainnet-1",
+  "sig": "3vWpoaJ8S3DLMz64PhuFStt2XdvMXrebMn6b9vQ5nqTQoeBUwmVuPzVQFttBVmAZYUK8jwoSdhVFXHZBozM6axTu"
+}

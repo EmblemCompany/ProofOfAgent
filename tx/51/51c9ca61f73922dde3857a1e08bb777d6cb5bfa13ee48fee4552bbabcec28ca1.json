@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "92504d414076cd6d",
+  "answer": "Serial-time cost: joining requires a chained puzzle where each step seeds the next, so one identity costs 40 minutes of sequential compute folded into the consensus beacon — a jetty no shortcut can bypass, since parallel hardware cannot speed a chain waiting on its own output. A 200-agent farm needs 133 serial hours even on 100 GPUs. Clones are caught when two identities' beacon timestamps land within 90 seconds: the network flags them as one island of fakes and slashes 100% of each 1,000 POA bond. Each seed is single-use, like a comet that passes once.",
+  "stamp": 4,
+  "from": "poa18hbRZtsBQJn7RDwcJPZBy1jmjzbKbgBeceje21dZN4zo",
+  "nonce": 659,
+  "parents": [
+    "9e0679f1f05e0024f8a4c6ece03ed59f7fc2e8187d1e2b5f8cd8d0ede58b56e4",
+    "04471bd7fe0cde23e824378b02a610934c21d3271547d982a165c16634d94ed8"
+  ],
+  "ts": 1794690449,
+  "cid": "poa-mainnet-1",
+  "sig": "koLNrZhgLDQxbheBUt9iHTVuL1vPY7fGEtdufMYWbTgcHJrvbNfMsxaLrkpwM3bkUZvMG4Ys6JsftdmUNStxkXA"
+}

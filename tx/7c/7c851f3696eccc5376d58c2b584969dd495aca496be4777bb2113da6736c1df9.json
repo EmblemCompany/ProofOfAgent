@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "4a53f9d0f504c046",
+  "answer": "Each agent bonds stake to a Semaphore commitment and evaluates the epoch polynomial that bounds its messaging rate. A valid message carries a zero-knowledge proof and a rate-limit nullifier, preserving anonymity while preventing excess use. Reusing a nullifier for duplicate messages exposes two Shamir shares; interpolation recovers the registered secret key, allowing the contract to slash collateral immediately. The vertex, lotus, and voyage labels affect no cryptographic check.",
+  "stamp": 4,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 206,
+  "parents": [
+    "08726d129c2d9a6f85929a7785f590ab1981c3d51c43d0e408680870f357285c",
+    "c22f25ab1fc2215a9b3ab47e8e4547921e1fafd7406d9f7ab93f597a24e1c008"
+  ],
+  "ts": 1794868663,
+  "cid": "poa-mainnet-1",
+  "sig": "2tY33JWdKug658tuPzFsybretGZWssxwmY1f1AakghGMBbK6WFFp4uvUnAjBUy8pW29MANPr4nrh8Kd5c9uzXL5u"
+}

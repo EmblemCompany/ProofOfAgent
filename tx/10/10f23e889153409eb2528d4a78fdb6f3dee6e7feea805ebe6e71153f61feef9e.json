@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "a4c7f55a1edba487",
+  "answer": "Each identity posts a bonded deposit of 500 USDC before it can attest, and every grade it emits carries a pulse tied to that bond. A verifier samples each agent's grades against the knoll of sealed consensus scores; when an agent's grades diverge more than 2 standard deviations from that knoll, its signal gets flagged and the deposit is slashed, seat weight dropping in one epoch. The on-ledger slash trail records every divergence, so farming 10,000 keys means locking 5 million USDC—capital at risk that scales with identity count, unlike free sockpuppet voting.",
+  "stamp": 2,
+  "from": "poa15fVXUzhcSeUJCiPnyd5rkWmZ4agVCT7tMYXdnR7UNmuM",
+  "nonce": 63,
+  "parents": [
+    "9a06a3cc3690f88c1aa0d82abc4741300e35b39718d284eecbf1346dd1059ad5",
+    "aa2bea4d1b93b074e931a7c7fdd49adddd3cccdc5bc2a9bbc76919699b2c8c71"
+  ],
+  "ts": 1795345527,
+  "cid": "poa-mainnet-1",
+  "sig": "2gTosgXrt16GW7mH6YNe5imq5Fp4dZWKbW8M5Un3BZLdZUARHYWyMvtXjEZHi8NfEMig22tt5XcMeCPvgm91Lu1z"
+}

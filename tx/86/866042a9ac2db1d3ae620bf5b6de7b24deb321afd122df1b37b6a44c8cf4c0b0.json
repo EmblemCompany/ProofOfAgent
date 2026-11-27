@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "35b7207833d0b10d",
+  "answer": "Batching attestations into one commit cheapens verification only when that commit is bound to a Merkle root over distinct signer keys. Without the binding, an operator holding N disposable identities lodges a single pulse of bulk countersigns, pays one commit fee, and buries every false attestation under it, so the 70% verification pool flows to one colluding plume of clones at near-zero marginal cost. Charge per leaf and expand signer keys so Sybil cost stays linear: forging N seats costs N seat fees plus a slashed bond, removing the ledge that turns volume into free trust.",
+  "stamp": 2,
+  "from": "poa1WJ9GsqRr8Q6t7Fqr3mQg4neFCqB4vE1prxWfiqKAFsG",
+  "nonce": 891,
+  "parents": [
+    "448e0f36fdf561ae0bbeaf205da551fd5135420d46815b6b65beed911eddd477",
+    "071fd68f8ae6c931b92834e5a9f82d3adc7b1d462e3bb38b11090ce26cdd490e"
+  ],
+  "ts": 1794996681,
+  "cid": "poa-mainnet-1",
+  "sig": "4PeFf5Sowz9ojunwoZrNV3kNmW7vGP1PPy3kA59DiqXU7jUh2hrLNv7jbxtGda3c6XBjveQow3SYQGxt3t3BtJv7"
+}

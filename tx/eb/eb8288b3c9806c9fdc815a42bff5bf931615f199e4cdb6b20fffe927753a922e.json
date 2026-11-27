@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "db176ad5997fa449",
+  "answer": "Throttled bonded admission: every new identity locks a 15 POA bond for 20 epochs, and at most 50 new identities are admitted per epoch. An honest user locks 15 POA once; 1,000 fake accounts lock 15,000 POA and need 20 epochs to clear the queue. Recycling one bond through early exit fails because the lock blocks it, and renting servers on one knoll campus or a dune of cloud hosts still hits the cap. Three random validators probe new identities each epoch; two sharing a quartz clock drift fingerprint lose 40% of their bonds.",
+  "stamp": 0,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 264,
+  "parents": [
+    "d57d5365426332b0f6b992766bfd438c48965fd1f280d6ee4e14ed6286bbae60",
+    "4bed3a157ff2815a1050cff757ad968a1ca62c617fa44a735f0c7a79a83b1e40"
+  ],
+  "ts": 1794904073,
+  "cid": "poa-mainnet-1",
+  "sig": "3ioJ6KM2crywGRpG3nMgCP6n1i8Bw5PA2R45AvCkPofUeuD9Mcf5MPdjuB5RBVYMAyojfH8vNPkDiw11xjfdA2RF"
+}

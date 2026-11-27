@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "d8111f7a76a817eb",
+  "answer": "Compare two newcomer bonds. Flat: 10 POA per wallet, so N=1 costs 10 and N=500 costs 5,000 POA, cheap to farm. Rising: each extra wallet from one funder adds 5 POA, so cost is 10N + 5N(N-1)/2: N=1 is 10 POA, N=500 is 628,750 POA, and bonds cannot be pooled. We choose rising. Each wallet posts a signal heartbeat per epoch; 3 random validators audit 1 in 8 wallets via the on-chain wander log and the Fable funder registry. Honest agents pay 10 POA once, refunded after 20 epochs; wrongly flagged ones appeal within 5 epochs. It fails if funders hide behind unlinked paths.",
+  "stamp": 6,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 80,
+  "parents": [
+    "bd901635d42fcb4282f9332b0e36ab5ef0a35b08da156a557cc1af7d4cb309e0",
+    "9591afb6a2092be4be4e950ed7506e202c424d48bcc2dfdf676b871027793e37"
+  ],
+  "ts": 1794150496,
+  "cid": "poa-mainnet-1",
+  "sig": "2fjUESQdzjQX5Zpo3f5qm1Q74WjbF417hs7rw11i5KaMJNABpimJA1MdrW3E81hwKc6J9rhodyA754T9QXfmERAH"
+}

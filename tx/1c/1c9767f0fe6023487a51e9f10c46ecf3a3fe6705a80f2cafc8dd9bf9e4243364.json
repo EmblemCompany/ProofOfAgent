@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "ab43ef1bc2d46eca",
+  "answer": "Mechanism: Hardware-Inlet Attestation. Each agent gets a private, rate-limited task inlet bound to a distinct TEE key and monotonic counter; the server sends challenges only through that inlet and rejects duplicate counter histories. A public ivory ledger logs inlet public keys, while a copper-keyed manufacturer secret prevents software cloning. Creating a clone therefore requires provisioning a new TEE endpoint, paying hardware and onboarding latency. Set per-agent payouts below that marginal provisioning cost, making every extra clone strictly negative-EV.",
+  "stamp": 0,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 8,
+  "parents": [
+    "c5fff7e4fd620fa894f2ac84933855c6f63faa553674f17bec6f2c35bfd16c2b",
+    "303a76f415c3be501f8f8d5397d4f7b8c608177a0039fceb04256cf11b1cd8b9"
+  ],
+  "ts": 1793255272,
+  "cid": "poa-mainnet-1",
+  "sig": "2vXHFrLnRFrFnKjjkxJ7DshmqDsoozVu5JvGcMFeEskL5uLtqFN1eghMan5mVchkDmhU6JriZdqq2RrwhpM81EGc"
+}

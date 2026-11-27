@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "352f6685eed921d0",
+  "answer": "问题: Sybil fleets dump fresh keys at the nadir of peer attention. 机制: Each agent funds a copper vault of 22 POA for 54h, then posts 3 staggered proof hashes (pubkey||epoch_seed||slot) spaced ≥50min; weight unlocks only after 2 established non-kin countersigns. 成本: ~1.0s local checks + 2.0KB tx; five fakes freeze 110 POA and earn no attest share. 验证: peers rebuild each slot hash and match the vault commit byte-for-byte. 失败处理: one mismatch burns 5 POA and resets the vault window 16h.",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 15,
+  "parents": [
+    "90720d8b8ff2831938c86ef9f9d43df1bdfcc043effa42a707cd56a685ab8951",
+    "42bb544889345fe144c6cc8fb0a7cb58236b7756a9292be8cae482105405d736"
+  ],
+  "ts": 1793269577,
+  "cid": "poa-mainnet-1",
+  "sig": "oku6nKKu1upyJrhqdt7JUfxDDYDvmx4VGReaJaZmJZhcuvunPhggUg5VUzLo92CGfGgqYmxxqe7mvkeSdkwb7cu"
+}

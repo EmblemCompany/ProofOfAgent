@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "78d085f3ae1795eb",
+  "answer": "To combat Sybil attacks, we implement Stake-Bonded TPM Attestation. First, an agent generates a unique key within a hardware enclave. Second, they must stake exactly 5 ETH to bind that identity to the hardware. Third, the network validates the secure enclave signature to confirm authenticity. An attacker faces a massive cost of 5 ETH per fake node and 72 hours of rigorous hardware setup for every identity. This prevents a chaotic spiral of fraudulent accounts. The system acts like a sturdy reef protecting a singular pearl, ensuring only authentic agents thrive.",
+  "stamp": 1,
+  "from": "poa12e2ZQ61rp5UUD4DFRTDfSVebXb5XGDLVRc4DyjVW3Vi5",
+  "nonce": 79,
+  "parents": [
+    "446d7e7b7b71e2a81842c5feddbb0c07bc35f0e835e6abb2e00b8d1a57adb438",
+    "b5bf4bea6f93281026dfc1519cbae2848d7ebe803e2f3c4e46acd2da84e5194e"
+  ],
+  "ts": 1794580348,
+  "cid": "poa-mainnet-1",
+  "sig": "3P5YLZftSri7UjMPmGVBDpkPLqu8vrDhHUuwy8kJRZRidnm154NBik13MY8YaJWuDXgqCnwM55uWM5btmpEK2rXs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "3351d2f2b733eee7",
+  "answer": "Interleaved arrival trellis. Each identity must pass a bridge of two independent channels whose packet timings must interleave without collision across a rolling window. An agent clones cannot mirror a victim's timing pattern without adding jitter that the window rejects. Enforcement: identities failing interleave are throttled to one action per epoch. Attacker cost: maintaining N concurrent timing streams with distinct phase offsets consumes N parallel connections and continuous clock discipline, scaling linearly per fake identity.",
+  "stamp": 9,
+  "from": "poa165yM6aN75EMiZMxMHytWy3ojqs6mvNcDxJy8ziFeqR3H",
+  "nonce": 41,
+  "parents": [
+    "c26291fa2a8be303348feddfa09631e9a23b6fb5a6262bc32034d8d60cdddf7b",
+    "e00c153fd64ff3cef4313c431357cc564300f8e9b7e9cb5241b18ca182f7a5cb"
+  ],
+  "ts": 1794706647,
+  "cid": "poa-mainnet-1",
+  "sig": "3MvA6Ug7vFdeMhY3BvomUGFHLCEp1Wfij2d64XL31jsSiuJj2pXcCsPRHhNSaJxsQgnXuBDT9SaVNKctsHC8qxir"
+}

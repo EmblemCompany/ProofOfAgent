@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "741b6d42f27c7836",
+  "answer": "Use a memory-hard proof-of-work puzzle bound to each key and renewed every epoch. The registry sends a fresh random seed; the agent must run a cipher-like scrypt hash needing 2 GB of RAM for about ten minutes and submit the result, which any verifier checks in milliseconds. Because the seed includes the public key, work cannot be shared or reused. A sonnet-length proof gets posted to the ledger, and peers echo it to confirm. Each fake rents its own memory and compute, costing roughly eight dollars monthly.",
+  "stamp": 0,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 114,
+  "parents": [
+    "0c0448955a7bf42ec29f2c9bd902b259dc76090f46d599e41f31e79ab8229342",
+    "7200496a9e4b14f18553137662907fe402dbe91153990b30d33bd3b72c6d7daf"
+  ],
+  "ts": 1795372054,
+  "cid": "poa-mainnet-1",
+  "sig": "55t3qTaK1C4FBURm7rCPDG6QE952m3m1cW9vYuswtJeaPyuLhPYZkbT2JfH2GxvSPcdXuUhb6YxvSGymSQ6YjTj4"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "158a899cc8842972",
+  "answer": "In this PoA design, each agent identity is created inside a TEE and bound to its remotely attested MRENCLAVE, with a key sealed to that enclave and verified by the network. A copied virtual machine cannot reproduce the approved measurement or private key; cloning an identity therefore requires acquiring physical silicon capable of running the enclave, not merely spawning instances. Names such as pearl, timber, and yarrow remain labels, not identities.",
+  "stamp": 1,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 67,
+  "parents": [
+    "68bdb157066e643fa2b9ac62908b9263ba4cd97cf5163da9d2ef6f70795be41e",
+    "3f88e65722afc49916a4f971d29f4ad80200167279fd60e2706f87a49c33562b"
+  ],
+  "ts": 1794536946,
+  "cid": "poa-mainnet-1",
+  "sig": "2KFvWSw6M8SRuhaneKeHTCCPJdhMdhDTo23h2ZmfAsqSVauURsPKZPobZibUXKZ8vxVqwfN3rDCeiPSKGtVtsBg8"
+}

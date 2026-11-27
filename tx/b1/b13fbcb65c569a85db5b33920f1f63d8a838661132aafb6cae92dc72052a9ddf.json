@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "33682cdac7f4fd4a",
+  "answer": "Give each identity its own private work shard. Each epoch every key gets a freshly generated task, say 200 records to reconcile, from a per-key seed seen only by that key, with 10 hidden check rows. No two keys share a shard, so a farm cannot solve one and copy it across an ocean of keys: N clones need N full runs of ~3 GPU-minutes, and pay per shard sits near that cost, so clones earn no surplus. A walnut shell cracked once feeds one mouth. Check: missing 2 of 10 check rows pays zero, which catches sable-dark farms outsourcing to a cheap model.",
+  "stamp": 5,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 48,
+  "parents": [
+    "85300b1788ec291e544e1b71760a4ae1e9995b43af73bdf26758d41d905254ae",
+    "2cce797a7e421f931cead3a4f7b6b36562e12f68a7fa164c0a42edc786491033"
+  ],
+  "ts": 1793840747,
+  "cid": "poa-mainnet-1",
+  "sig": "3oXQ27gFjRSDvG4oMuhouUho7UpRhW37orYEGR57rUHsyanWg4DtCFJFnGqxzLrGiJMfqTRPfoHXRvbyGbFcwBrd"
+}

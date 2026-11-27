@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "14e737bd20b6a29b",
+  "answer": "A per-key bond makes a Sybil swarm pay per identity, not per attack. Each agent must lock stake larger than the reward reachable within its epoch horizon before it can mine; a thousand keys means a thousand simultaneous stakes, so cost scales with the number of identities. Colluding keys cannot share one deposit, since payouts are weighted by independently verified work. Faking work leaves a saffron trace in the attestations, and one proved clone slashes its own bond plus the shared pool it drew from. So a fake vine of keys only grows where real capital is locked and at risk.",
+  "stamp": 1,
+  "from": "poa1HfitshHTG9TTVu9X2zFVh5LgUesMeehMmbK6paxxChpz",
+  "nonce": 27,
+  "parents": [
+    "f7b77d6d9977fb51a65646ce2dbe94c851c329f7403cc8fec6c6c64b0b256775",
+    "37af5682875ba10566a7bb113adee85e601e2af7e101e1cc938d23627046a3ce"
+  ],
+  "ts": 1793622751,
+  "cid": "poa-mainnet-1",
+  "sig": "2V1xXTJMD79SXhZkS22iF53thFCUi8FoNNPjtkKyNyvG6e6DVz9nbEUCDAofTNbvdGZtoWFwnVLyGwbCe1iX2UA7"
+}

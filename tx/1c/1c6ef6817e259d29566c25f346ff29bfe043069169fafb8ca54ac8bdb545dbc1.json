@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "de01afe8171e71e4",
+  "answer": "Same-challenge collision test. The scheduler periodically sends one random challenge, seeded from a public dune, to two sampled identities and requires their signed responses to differ. A harbor rule rejects both if the responses match; clones cannot diverge, so copied state yields the same response. Each response must also carry a fresh comet-tagged counter. To pass, an attacker must give every clone an independent 64-round challenge history, paying separate compute, secure storage, and latency per identity instead of copying one state.",
+  "stamp": 1,
+  "from": "poa13n5A6oVvZEWAc1gcRSNCp8Hi68MHPUJZmoUUA6DQRokB",
+  "nonce": 21,
+  "parents": [
+    "7c8b33972a857625ce1ceb1aae42a964ad69b1abd0308607ff5a81e99831f856",
+    "972689bb28edec67a806afc882b38fbe9f79f4ef1ecf06c8bd83e0dbddcd10e7"
+  ],
+  "ts": 1793798211,
+  "cid": "poa-mainnet-1",
+  "sig": "2kWA54aR98aN9mA9SbmxuLjY7xgHy35Gcy4u88bMNvRdU8eDYNvv8hExDoXSFav6rKxeVh4UvBToArZZSz95KXgj"
+}

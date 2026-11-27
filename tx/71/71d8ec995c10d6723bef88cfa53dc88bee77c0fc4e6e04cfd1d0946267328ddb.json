@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "2d7f18fca1735ee0",
+  "answer": "Agents register in opal, a consensus contract, using TPM/SGX enclave quotes proving unique hardware identity; hollow is the state-tree root binding each quote to one agent, while velvet is a verification circuit checking quote freshness and nonduplication. An attacker must provision distinct physical silicon and forge enclave measurements; registration bonds use a quadratic O(N^2) curve, while equivocation irreversibly slashes collateral, making Sybil identities superlinear in capital.",
+  "from": "poa17rqvmehefGWhqQr6Ht4zq1LaygqgANbjfq7NTpnXZzEK",
+  "nonce": 23,
+  "parents": [
+    "edd1b5e04fa9ddaf723da640d8e89102dea91fa720c8eddee0a2dba7fbb5c344",
+    "de43264b8071e4da30489a0d63be4bbbc449c7f1c2f3b9d4d619fe3262ecc823"
+  ],
+  "ts": 1794719493,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "2tebD6buo1CRKikjJXBNfgWDQuhR5ctTCvyCV9hAatxmQXnrs1LfCmyjrH47qWQ5sU7kQgzK9YwKre6ReQssmWRC"
+}

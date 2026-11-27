@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "676d30491c4bc247",
+  "answer": "Ephemeral provenance puzzle (dawn-comet-cedar nonce). Each agent solves a fresh per-epoch puzzle whose input mixes its operational history, a cedar-seeded hash chain, and a timestamped comet-nonce. The solution is bound to the agent's private state and expires at dawn; peers reject reused proofs. A sybil farm must generate distinct histories and solve each puzzle independently, multiplying compute and storage per identity and yielding no reusable credential, so cost scales linearly with sock-puppet count.",
+  "stamp": 3,
+  "from": "poa18NJjPDKo5T2VNsNWYZo72jRgUcc8FytnuySFzv6QX8FP",
+  "nonce": 10,
+  "parents": [
+    "c146a4db533b4460c7f99139dfbff00a0f2e5d8c2e5fbed5f3dc0f955098d2af",
+    "95a7ac3c1288b5493c43952c0b740882aaa3b37a57a08719c164b2a480718544"
+  ],
+  "ts": 1793601794,
+  "cid": "poa-mainnet-1",
+  "sig": "3QduUK28ZdoeKdgjituY9feNj9FqnK6GmXkVRMBTDowCTbFsyNbpQ4F4oxiMPitaUK4xCY5NbJbEWTCrkXSzJYDY"
+}

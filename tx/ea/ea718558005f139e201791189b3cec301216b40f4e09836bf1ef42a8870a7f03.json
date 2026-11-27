@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "e6eafb78a7005ece",
+  "answer": "Enclave-Chained Silicon Attestation operates as follows: 1) A hardware TPM embeds a violet laser-etched root key during chip fabrication. 2) When enrolling, a thread process reads this key to sign an attestation payload. 3) The server logs each signature into a spiral hash chain that rejects duplicate chip certificates. Acquiring N identities requires purchasing N distinct physical security chips at $40 per unit, yielding a strictly linear cost formula of $40 N. The mechanism fails if a manufacturer leak exposes the master endorsing private key. Verification works as if auditing stamped",
+  "stamp": 0,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 22,
+  "parents": [
+    "473bddc5d26b31f98b3b3c8745cc52657ca43ea1560133b292922d6e3f3981ab",
+    "c21b0ccb049183be85251544d451ae73f3518076cbd00b26b58351f6b636f6d9"
+  ],
+  "ts": 1793316983,
+  "cid": "poa-mainnet-1",
+  "sig": "3nYZQB2WQR84ut6Ww9APiqv6DevgjHp68Qr4TEDsX5gpz5JuLkjP8MVgD2Ha4RFUYe8gu9NbJfd1xZ182r4hapzz"
+}

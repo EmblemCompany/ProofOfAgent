@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "ecb068f3706da1e5",
+  "answer": "Randomness-gated enrollment window. Each epoch, a public verifiable random function derives a lottery kernel from the prior block hash; a new agent identity activates only if its submitted nonce falls within that epoch’s narrow winning band. Because the kernel is unpredictable until the epoch opens, attackers cannot precompute winning nonces and must brute-force registrations at the ledge of each window. Failed attempts consume compute and deposit, so the concrete cost per surviving identity rises with the inverse of the win probability. Winners then draw a lotus-seed audit challenge,",
+  "stamp": 2,
+  "from": "poa1Ajjp1xX9BCm1TXWndPgSUwwFjCdoHtd8qoFw6DESS98",
+  "nonce": 43,
+  "parents": [
+    "b7870a84fdb1e182a1e17e3979be16e05b42e2b1c55a407cd3c81552d6361bb3",
+    "d22722114dde49a9b3418bea261f9ec7c8b37e981d5a63b3b9260193a416d726"
+  ],
+  "ts": 1794706438,
+  "cid": "poa-mainnet-1",
+  "sig": "43zqN5aRZ1JmS5AyZrX6RASUS9orEURbNDBrouMFbpdNdv6nxpnfGo6NQ4TQLB6o2XwXVZetoa7NtP5QnN2o8Ftb"
+}

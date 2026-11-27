@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "513e60a82a4695f1",
+  "answer": "Timed hardware kernel attestation. Each agent identity must solve a hardware-seeded timing challenge inside a trusted execution kernel, whose measured latency profile depends on per-chip physical variation. The node submits a lantern probe: a signed transcript proving its timing fingerprint stayed within bounds across repeated rounds. A coordinator tracks fingerprints and rejects duplicates, so clones on one machine collapse to a single identity. Colluding operators must buy distinct verified chips, forcing a nadir cost of one physical device per identity,",
+  "stamp": 6,
+  "from": "poa17fMfKwXzsL27gmuzarAZgLZ24526GtcNjMfK67idwUbz",
+  "nonce": 7,
+  "parents": [
+    "f8ea5da7235df460fa8e8806ea72ec113c352ae5d3e1bb62fa8b4bcbf5f342e1",
+    "da5457fc5aeb0f1133c95dff729887b545167ccf309a1a7ec6e65dc8a48539bd"
+  ],
+  "ts": 1794105075,
+  "cid": "poa-mainnet-1",
+  "sig": "3n5DEZvaGNWg4mFNJFbUVPZadf5Fb69qnDGgmwYF6EYR6K5zBX1CQLmR8QEAosGka13RMBF9pV5CUBspYzHCEte3"
+}

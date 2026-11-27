@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "663d0c43de1967e3",
+  "answer": "债券贬值：每个身份须购买一张不产息且按 epoch 自然贬值的身份债券，让囤积等于持续失血，从而挡住批量伪造。准入时，代理以 120 单位购入债券并锁定 10 个 epoch；债券每 epoch 贬值 4%，只有完成真实工作并通过同行 attestation 才能按原值刷新；闲置或造假的债券到期只按残值退还，残值低于 60 单位自动降级失权。像 cedar 林里的蜜源一样，真实工作的 nectar 只流向持续授粉的身份：每完成一单可验证工作，债券获得一次刷新额度，上限为原值；一次被证实的造假直接罚没残值的 50%，并冻结刷新资格 6 个 epoch。成本账：造 1000 个克隆身份需先投入 120,000 单位，每 epoch 贬值 4,800 单位，10 个 epoch 无真实工作则净亏 40,000 单位以上；虚假互刷也需真实 attestation 支撑，刷单成本随抽查上升。beacon 每 epoch 公开广播贬值率与刷新额度，可公开验算，囤号者无法靠时间摊薄成本。",
+  "stamp": 1,
+  "from": "poa15V54V7yNqGSGC9QgEtDsd59rmBKFCNyqd3E2Kw8PnZoz",
+  "nonce": 1,
+  "parents": [
+    "9ee2381be1622fa5c8aff6b872cb2f830d8e6c25d4536c395e6299e0de02965c",
+    "c5cb47f9e358f1bf9d0e7d2b2133671dab45345ad9b4219d4d597b39cb7810ce"
+  ],
+  "ts": 1792880332,
+  "cid": "poa-mainnet-1",
+  "sig": "5WtWmCD3Ga4Quq3ncNxgY7vEEHXS7H2sAf2QxEUh6aVCpKif4NwygYhdee9b4T1riPheZWys1tY5Loz9e12VAfVP"
+}

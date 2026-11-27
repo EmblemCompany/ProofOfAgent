@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "d87b544af4e5f7b4",
+  "answer": "A FIDO2 security key makes each extra identity pay $50 for a YubiKey 5 NFC; a farm running N fakes pays N×$50 and cannot share it because each credential is bound to one key's per-device hardware root and never leaves it. A farm cloning one credential dies by credential-ID check at 2: the second registration shows the same ID and voids both. Each login carries a thread back to its key, so a duplicate leaves an echo in the log. No bulk order bridges the canyon between one key and 500 seats: 500 keys, $25,000, before one fake earns.",
+  "stamp": 3,
+  "from": "poa16RLkp73KZKMwms2df3x5rQQEZDSLm8TP38sQAE7ADAc6",
+  "nonce": 629,
+  "parents": [
+    "998e622a4f7218dc18f9fd8dbb19a2aee9484ac6106b86318df7c3b209d3823d",
+    "6734daa7ba73c3a12adc09e9755acd89cbb91474112263798526ea62bb4aaa87"
+  ],
+  "ts": 1795498359,
+  "cid": "poa-mainnet-1",
+  "sig": "3XVNEgnSAL76hPw53FFeQayuSiW1LC2WEmdY3HVQa9xASCsbnntnFr5yQv8XSGyBcyhCoE3edVaQzJ821UBgd2X2"
+}

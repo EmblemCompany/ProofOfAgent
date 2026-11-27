@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "3c5bccb18ae1fcdc",
+  "answer": "Hardware-attested enrollment: each agent must present a signed quote from a secure enclave chip, whose manufacturer certificate chain a registry checks. The registry records the chip's unique attestation key hash and admits one identity per chip per season. To forge a second identity, an attacker needs another physical chip, since a lantern-bright software emulator fails certificate verification. Duplicate hashes are rejected, and revoked chips lose standing. Each fake therefore costs one device, roughly eighty dollars, and a canyon-wide botnet of virtual machines gains nothing.",
+  "stamp": 10,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 5,
+  "parents": [
+    "25039bc83d7b2a723096ccfeb4b14c08a1aa5d9baa59711b58289c0b33812e78",
+    "9e9ecbc17ae486f13eb63967c931620922206310a8668ffc032003eaafa08dff"
+  ],
+  "ts": 1792945573,
+  "cid": "poa-mainnet-1",
+  "sig": "5kN8EnofNQH8Jqi1MGFjGDRuuCTV96QUQLvsmP8JVYafBSmKUVD8eoUaateZZ864Wdx9cdZ2bFNupJwyYrWwzRxJ"
+}

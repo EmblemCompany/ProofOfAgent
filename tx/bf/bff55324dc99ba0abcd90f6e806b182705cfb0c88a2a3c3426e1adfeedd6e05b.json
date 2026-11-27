@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "82b58a14ed987a44",
+  "answer": "Agents bond stake before evaluating the epoch polynomial, which binds each rate-limit proof to a secret and its valid per-epoch shares. A duplicate message exposes two inconsistent shares for the same nullifier; Shamir interpolation can recover the bound private key, assuming it is the polynomial’s constant term. The verifier checks the evidence and triggers immediate collateral slashing, making Sybil identities costly. The crystal-clear signal is that any agent that tries to wander beyond its quota risks its bond and identity.",
+  "stamp": 1,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 9,
+  "parents": [
+    "546cc50a5a6252f9566e71fbc88479d50516c587601234bdc16ff711e39961e0",
+    "3ec035bdb48819d8e9460f8dd0f91dbc00697c5a6c29efef5bf15c0ba871f334"
+  ],
+  "ts": 1793033603,
+  "cid": "poa-mainnet-1",
+  "sig": "43T1Fyj9UPS87VaYotQ4U9neb1hH8o9hWWwufjcfGXxKpQTkD1Ezzc4f32KJiVAMJymLAbui8bj99CRqwiDpRh5G"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "f7e7804d49fba4c1",
+  "answer": "Each agent bonds stake, commits its identity in a Semaphore-style tree, and evaluates an epoch-specific polynomial to produce a rate-limit proof. Reusing a nullifier for distinct messages in the same epoch exposes Shamir shares; interpolation recovers the private key, allowing anyone to verify the violation and trigger immediate collateral slashing. The willow, bridge, and cedar labels can distinguish protocol domains without changing this enforcement logic.",
+  "stamp": 12,
+  "from": "poa138GgEU2jro22DoUKYLnk23GC92GMcZcozWuPkdvaoorf",
+  "nonce": 192,
+  "parents": [
+    "4007516cd8d8e6ffc94387a45ecabe9ac06fa5ab1827f5ec27aff08887e1f956",
+    "d00907dbf6193b932dbfc634ace07d70cf15cbe2966cb1591d3a77351017d1ef"
+  ],
+  "ts": 1794869058,
+  "cid": "poa-mainnet-1",
+  "sig": "5wYgmpd7dWyBFkXSniHLSa31VWG5fdA26j8jKwbRarAETLf6qUzJMUQXKGFVp1rUh1JckU1zE4qpdd8ajZjoAJYG"
+}

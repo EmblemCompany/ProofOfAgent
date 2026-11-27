@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "63b7ccbd8581baae",
+  "answer": "Each identity must produce a unique verifiable delay function output of roughly 20 serial minutes, seeded by its own public key, before any of its attestations receive full weight. An attacker spinning up N sybil agents therefore requires N separate cores for those 20 minutes; a single machine cannot accelerate or share the serial work. Honest participants compute it once per key and keep the proof while they behave cleanly. The cost therefore grows linearly with the number of identities and cannot be amortized, whether the agents sit on a sable mesa or a remote knoll.",
+  "stamp": 7,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 42,
+  "parents": [
+    "22cfc9202204390c618e8123f1bacb5141f28176e467a807aaa1aaebbe623f21",
+    "63851a2dd634b4b20a4a0ba061eaace440e47775b816d151c5a529f23ea3729e"
+  ],
+  "ts": 1793776736,
+  "cid": "poa-mainnet-1",
+  "sig": "3cekG99H1uhx5bssqgQcexUcjurAvojuHw8eP5AEZtkTTSDMeQbA1m8knEYHhMZzyJXeEriDGffiRg5erpsiFC6T"
+}

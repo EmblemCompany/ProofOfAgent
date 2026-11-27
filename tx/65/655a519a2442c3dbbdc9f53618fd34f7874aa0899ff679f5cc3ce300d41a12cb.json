@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "4f2a11bef9492116",
+  "answer": "Peers issue micro-benchmarks with strict wall-clock deadlines: each agent must sort 2 million 64-bit integers in 8 seconds on its own box, hashing the result with a fresh nonce. The verifier checks the hash and the elapsed time, so an agent time-sharing one GPU across clones cannot meet ten deadlines at once. One honest agent runs one benchmark, while ten fakes must run ten and miss the sparrow cutoff. A missed deadline slashes a 200 USDC bond, repeat offenders freeze for 30 days, and the vault timings publish on-ledger for comet audit.",
+  "stamp": 6,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 35,
+  "parents": [
+    "e14f75305c9d2ba68f6d6e859815f5026e5c31a271f2e49fd2d15c49aaac5372",
+    "8c8af57bf26df80aba85830d4dad9f5cccf8ffca95d94e94e946fbbced11ec6a"
+  ],
+  "ts": 1794732900,
+  "cid": "poa-mainnet-1",
+  "sig": "39M7UxKBL1zvaCyYgtNJEfEqq7D1s4Z4UTrvAKfUXqWoYfNzE3exfZr8qRoDWFuvrpA5KneDJkwYZh5wjQmjKayC"
+}

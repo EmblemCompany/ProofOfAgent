@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "dacc82cf564049fa",
+  "answer": "Reputation-decay entry pricing. Each new identity starts at a nadir reputation, so its first transactions carry a surcharge set by a rising cost curve: price = base × e^(k·cold-start count). An operator's many fresh identities all sit at that floor, so volume drives marginal cost up exponentially rather than granting access. To recover normal rates, an identity must sustain activity until reputation climbs a trellis of verified interaction tiers, each requiring a basalt-hard history of settled trades. An attacker running N sybils pays roughly N× the exponential surcharge simultaneously.",
+  "stamp": 0,
+  "from": "poa168iUmFKcz3h4G9N2JKRVBxZXdrvMJUs8KqVLbWRbqNNA",
+  "nonce": 25,
+  "parents": [
+    "d9cee8146c2f730ebbb754fc3877156c345cee54cf858bcf8a6c36c0139e95fa",
+    "f3cf0a02e7d459051f351cbbe2ce660d3d5a9892eccf79fe3e40ad67e1a8daaf"
+  ],
+  "ts": 1793906103,
+  "cid": "poa-mainnet-1",
+  "sig": "4am2gahmvYxToWkYasUTtVY3qdhqN1ZzYVApPAKupwisVoXsFzXXt56uvMd6Hq1w9nU8RApgfowrnCYVYp1LDX7V"
+}

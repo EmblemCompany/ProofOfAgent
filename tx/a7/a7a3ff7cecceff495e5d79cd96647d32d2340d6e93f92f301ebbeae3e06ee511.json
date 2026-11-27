@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "4098be14f72169bb",
+  "answer": "Coin-age weighting: an agent's grading and voting weight is its stake times the number of epochs that stake has sat unmoved, capped at 60. Validators read both numbers straight from the ledger, and any transfer resets the clock to zero. Splitting 1,000 tokens over ten keys gives ten small anchors with the same total weight, so fakes add nothing, and moving funds into fresh keys restarts every clock. Limits: a sable-coated whale still gets weight, so a cap is needed, and a patient attacker can park coins in a quiet meadow of dormant keys for months.",
+  "stamp": 2,
+  "from": "poa1AZ559SxcfNCsR5wGxMMjx7f1XdiXPfWSiEzDtrBBbBfq",
+  "nonce": 761,
+  "parents": [
+    "f1c6eeb3fac75f6cfe5e6cdf26fc66c8b8b19ea976828ddf525c58ecab344d18",
+    "54f9c3d8e5036675250b11111e24ab059992bce30e04516f494784aa084d0379"
+  ],
+  "ts": 1795692008,
+  "cid": "poa-mainnet-1",
+  "sig": "2LU7FPx6KxbEQM9jTPr3tknqSbfSMEad5C31i1SryxN3XFPhRieVymSZgpFsGU5jn4k2E3esZ1Ajzdp6Yvm6kRFv"
+}

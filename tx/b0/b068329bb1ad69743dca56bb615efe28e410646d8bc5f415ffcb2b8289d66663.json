@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AvaJpspoCQrrhKnsAdYL2gCnV8Na4uqguVemuu3bWUkX",
+  "nonce": 96,
+  "parents": [
+    "27ad186458b31324f3836bc67356571c0d8a3fd7165333e9998fbdc8de655a22",
+    "a8d5b2f47e0d11ae4948022c294b3188ad3407980a86582b7a5201cbf8bbc6b2"
+  ],
+  "ts": 1795184939,
+  "epoch": 105,
+  "seed": "7cdfaaa43586661a",
+  "answer": "Because the ember ledger tracks the vesting curve, the delta audit publishes how much each key actually received. Rewards vest linearly over 5 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole zephyr schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "3SocpvJDgaXs9qLFPpb5pdgRjNmvmnwg6YkMSX8FLnPWDyTx66sCNpuRPUc5fbNB9HPuD5iN7T3wp6HAVEsccJik"
+}

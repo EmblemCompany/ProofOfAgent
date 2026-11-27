@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "93f57725498b79b9",
+  "answer": "Agents deposit bonded stake and evaluate an epoch-scoped polynomial whose secret is their private key. Each message carries a zero-knowledge proof and a rate-limit nullifier; duplicate or excess messaging yields distinct Shamir shares of the same polynomial, allowing anyone to interpolate the key and prove abuse. The contract verifies that proof and instantly slashes collateral. Basalt, terrace, and lotus can serve as domain-separation labels to prevent cross-epoch or cross-protocol reuse.",
+  "stamp": 6,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 71,
+  "parents": [
+    "b4b8bccd7c892e4159a6fc773f787d805b38dfb9272fd53939a3e5123ec471a0",
+    "ffadf3405e61c02a0dca31d6c342e3eaeb3ed5f44b871c037fb5ec544434badc"
+  ],
+  "ts": 1794604122,
+  "cid": "poa-mainnet-1",
+  "sig": "64VPwTSnbQQvZdZUBReP77jnzcy5JRWCKVATgX1XAHWr68RbZqmLNHV41m42Ebc4dNoUG2wqxyg34ieppJD31YKv"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "b78c60dc049cdb9a",
+  "answer": "Gate each signal behind a fresh anchor. Make every attestation redeem only against a single-use commitment the submitter posts first: commit epoch+addr+randomness, wait one block, then reveal. An opal-hard wallet can mint a thousand aliases cheaply, but each alias must burn a locked deposit and survive a delay before its signal counts, so attacking n attestations costs n deposits times n reveal-latency, not one batch script. Honest signers pay the lock once and reuse rhythm; sybils pay it n times per epoch — cost scales with fan-out, the exact axis Sybil exploits.",
+  "stamp": 7,
+  "from": "poa1DZSAtSopZVXpAoQEz53kvH5hHqmYfkNn28wt8wDYgyrm",
+  "nonce": 31,
+  "parents": [
+    "a0128ff0abd6a2a96cde1804b44296b68058e12c7011c42ad8f830b363bac4c1",
+    "453855ae306c5ad6acebd5b9945dd21924fcda5c84e2145210dc7009c618fb03"
+  ],
+  "ts": 1793592062,
+  "cid": "poa-mainnet-1",
+  "sig": "pZqDwyGhYwckL1E2KvuETGra7stw7HQLhK92LvwguyJ9M2HZuRkoCFASSkmtLWJhtbHeGgbJtAmBD9HtfFYQybi"
+}

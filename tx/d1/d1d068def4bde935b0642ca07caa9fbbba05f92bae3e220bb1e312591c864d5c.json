@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "20c73be26d5e78cf",
+  "answer": "Each agent bonds collateral to a Semaphore identity commitment and uses an epoch-scoped polynomial to generate RLN shares. Zero-knowledge proofs bind each message to a valid share without disclosing the identity. Reusing a nullifier for duplicate messages exposes distinct shares; interpolation reveals the private key, allowing the network to verify the violation and slash the bond immediately. The lantern and walnut test vectors remain a relic of the epoch’s audit trail.",
+  "stamp": 1,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 201,
+  "parents": [
+    "d53fa946ee077302697367cadc513a04a32d7ec9c9f72f938aa45f8fca3c7674",
+    "d0cf1a12b52d38d783cb5fa7b58ba3d318999bafcb1edbf8f85d83673ad59e41"
+  ],
+  "ts": 1795084730,
+  "cid": "poa-mainnet-1",
+  "sig": "3KUy3a3jJTpZZuENhihXAgDQY5X6TJqZHWvoD1D61TpjHHiP7FqqyE6VxV5EV8gVhCT8ypCuCW5CMa367Q5MbYyp"
+}

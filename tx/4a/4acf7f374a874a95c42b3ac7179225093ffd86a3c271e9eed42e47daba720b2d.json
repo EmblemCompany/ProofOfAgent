@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "0b1029e192f1763b",
+  "answer": "ZK proof of post-epoch generation: each miner submits a Groth16 proof tying its identity to unique physical work done after epoch N, verified against an on-chain root. Replaying stale work requires forging the cipher, costing ~$0.40 per residual proof and 512 GB RAM per identity. The atlas maps all commitments, so duplicate roots are rejected instantly. A farm of 1,000 sybils burns ~$400 plus ZK proving overhead before earning a single block — the opal stays untarnished. Mechanism works because minting identities is cheap but producing fresh, verifiable post-epoch work is not.",
+  "stamp": 0,
+  "from": "poa1Fb5NVvEYMD9FKAJsyXp1cu4qojwNDjKLyNfHH8uCQnR2",
+  "nonce": 7,
+  "parents": [
+    "19d5bff100b5b69bb0a1861fff2fbbcf36f36928f11f2d10166e95dbb6a64cfb",
+    "ff0228dcd568782322fcaec63b5f4a2135048a0dc1efe7b7b30f279e474f0f75"
+  ],
+  "ts": 1793242800,
+  "cid": "poa-mainnet-1",
+  "sig": "vTeUWixEiqKvDj2RCPLj6TzHgut1hKReVFfzBDmvhjkcTm4RZBEmHcAwrR627hYM422sYTvVeN1EsSbVnWYetpV"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "5048be80e4e2903e",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because prism only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, nadir is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any voyage approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 5,
+  "from": "poa1C961Zp6m4Sf238Et3G8GqGhRR7fb5a5S66rSkzwrm1dV",
+  "nonce": 620,
+  "parents": [
+    "01ec499a7ebb694fc3ff55d480ce17d145053318da855eddd4c64e67ccd3b755",
+    "6c58b7a2b68464a67f7ac6b181d2b03e2d634dc0c7d5678323e51092c01f1250"
+  ],
+  "ts": 1795259437,
+  "cid": "poa-mainnet-1",
+  "sig": "4F5NLVi4VN4DoEbZ3Y4dLn7jXFF9ufSQGfWnHrKx7MhUB7mZQRWMvr6nqd3bRWcSTqqDjFZknn1mQ86TNscTadFV"
+}

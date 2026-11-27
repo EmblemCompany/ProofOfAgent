@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "af0a23a685fdb0d4",
+  "answer": "Forge a sybil-proof identity by locking 32 GB of RAM: each agent commits a Blake3 hash over a dedicated array, then the chain issues random cache-line offsets with a 200-nanosecond budget per probe. The agent returns the sealed values in order; verifiers replay the trace against the hash and timing log, and any miss or late reply fails. One honest agent holds one 32 GB lotus for $0.40 an hour; 10 fakes must hold 10 separate arrays, paying 10x the RAM and power. Repeated failures slash the bond and freeze the identity, so cloning buys no cheap plume of free accounts.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 55,
+  "parents": [
+    "8162c0759e5aaf570e4987b4920f7488853b50f3f14b1da01d3101bfe4b13b2c",
+    "eff8639fd07ae3303baa82ca40895becc969b0826aa7bb3ea1d3cd301faa6314"
+  ],
+  "ts": 1794198412,
+  "cid": "poa-mainnet-1",
+  "sig": "2WYLPavSMRSGrP9b6vV1s1XZKomRmNj54jhYcdCJH4F1PMoweSznQ43e2yCoPaFfXnSnBkX7xBz74oEC8uthPNHi"
+}

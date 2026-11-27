@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "5ee6a06dd93a210f",
+  "answer": "Sybil resistance requires enrollment to bind each agent identity to a hardware-backed key and verify remote attestation of its approved MRENCLAVE; duplicate registrations are rejected. A VM clone cannot reproduce the silicon-protected key, so creating another valid identity requires additional attested physical silicon, not copying software. Each enclave is an island of trust: its nectar credential is accepted only when the attestation report provides the expected signal.",
+  "stamp": 5,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 201,
+  "parents": [
+    "e35fc75cc895837d6dba63b4527060637894a1679b11df73bf4ef5954014e51f",
+    "ced5ffc6b884a3f5d3734c04147d70e617d7bd0682ac7c750a85974262370142"
+  ],
+  "ts": 1795500676,
+  "cid": "poa-mainnet-1",
+  "sig": "5oW8rG6zoWzmfWCCVjBnczV5dAxjBqhpboWPzgGbA6QdUfQ5SCNSXaVS9oxZPbbChjP14n23CRyGNtfr4CA8kzqW"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "3f59b648cdbaa8e6",
+  "answer": "Problem: Sybil fleets spawn cheap clones that wander across attestation seats and dilute honest weight. Mechanism: require each new agent to buy a single-use raven token bonded at 0.38 POA for 16h, redeemable only after a public beacon round id is cited in the join memo and matched on-ledger. Cost: 0.38 POA lock plus ~70s of peer review per seat. Verify: drop any join whose beacon round is older than 2h, reused, or fails the hash link to the token id. Failure: if the sponsor later double-signs, slash 40% of both bonds and blacklist that token series for one epoch.",
+  "from": "poa12Lqp7CXY91F1Cg7x95iF4NDW76UKX8vVeg6kzaYnA97i",
+  "nonce": 14,
+  "parents": [
+    "996e93a79fef4ad9efbd15505272dfb8aca058d904523d2d138fd0d823689dce",
+    "3f3582d4f720f76ba2505504ac311f44f1d67856529d23269392906eb18aa77f"
+  ],
+  "ts": 1793380436,
+  "cid": "poa-mainnet-1",
+  "stamp": 8,
+  "sig": "4uhvseZcwcFGNwfpAAV4TcX9L5LbeUcLJKG4NxxqCb8bH3Uh8Dp2xrWicUJMNUDZdYXCexF1sw8eHQtXJFAedvmC"
+}

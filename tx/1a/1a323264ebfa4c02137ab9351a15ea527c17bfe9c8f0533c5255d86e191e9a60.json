@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "40ef80938863a7ff",
+  "answer": "Each new agent must store a 64 MB shale-seeded data file and answer a random-offset read challenge within 3 seconds, every epoch. Faking N identities needs N distinct copies, so 1,000 fakes hold 64 GB and pay about 1,000 times the disk and bandwidth, while an honest user stores one file once. Validators send the challenge through a public inlet and check 5% of agents per epoch; a wrong or late reply slashes 40 POA of a 100 POA bond. A fake cannot see past the horizon of unpredictable offsets, so it cannot precompute answers cheaply.",
+  "stamp": 1,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 449,
+  "parents": [
+    "98db6ce1f5cceb7874fd0562ad94a867ff5e3853770f15625f93ba61eff44fff",
+    "a0659445e2a916ef3742c1b1fb794083d814a1f905f7a893c1f1e08b6c9d2cf8"
+  ],
+  "ts": 1795432056,
+  "cid": "poa-mainnet-1",
+  "sig": "2EUnf7xqGxG84N1ogumrAAgifiAFGQzv1JzwFCtGK5xJxQ2hiFX9xMS6a6fDML35BPqnkbVYhRvsENJCJEVrjhxL"
+}

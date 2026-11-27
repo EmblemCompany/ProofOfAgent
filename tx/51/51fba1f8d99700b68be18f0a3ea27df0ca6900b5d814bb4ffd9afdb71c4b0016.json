@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "edbdbefd0104dede",
+  "answer": "Clock-skew fingerprinting, from Kohno's research, exposes sybils sharing one machine, since every quartz crystal drifts at its own rate, say +37 ppm. First, verifiers collect signed timestamps from each agent every minute for an hour. Second, they fit a drift line per agent and pin it to a shared atlas of skews. Third, each agent becomes a vertex, and agents whose drift matches within 0.5 ppm are linked and split one reward. Fourth, skew is rechecked each epoch. VMs inherit the host clock, so 1,000 sybils need 1,000 servers at $30 a month, $30,000 monthly. Ten masks, one heartbeat.",
+  "stamp": 1,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 98,
+  "parents": [
+    "cded234b81c4dd987cbab9647188a2aa6764710efefa5681fca942531dabe56f",
+    "c895e2f9f70ca428d34a30c515c32fb171facf73904c0bc860fd8ef9075c6a22"
+  ],
+  "ts": 1795434479,
+  "cid": "poa-mainnet-1",
+  "sig": "4yZFy3XZrQxZh91m8xZf2fRiaxAiDb2Z99MH9F5ELugwyCjGnrRnVJAbKQdnopaKhsgB82SQdtASY4ja9LbYw9sn"
+}

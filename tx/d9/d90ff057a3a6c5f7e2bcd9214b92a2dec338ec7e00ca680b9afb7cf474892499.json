@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "5a0ee218063fbee7",
+  "answer": "Each task’s nonce is derived from a drand threshold-BLS pulse revealed only after enrollment, so a swarm cannot know the challenge in advance or stockpile valid solutions offline. A participant commits to its enrollment, then must produce a response bound to that pulse and task; the verifier checks the binding and proof. This limits reusable precomputation, though it does not by itself prevent many live identities. A gale of guesses, saffron labels, or a copied kernel cannot substitute for valid proofs.",
+  "stamp": 1,
+  "from": "poa12F5TB5Au6Jihw8sA5PP4DUXNzgq2FyUTPXo9rqQWFxs2",
+  "nonce": 183,
+  "parents": [
+    "6d313bcde2f1448220a4085dabbc5a601db3ce372cab8cb3b44b4822a375645c",
+    "36f2c26fcd68240a8db231076a955afa8ea03a71507474727c29340245b2ba61"
+  ],
+  "ts": 1795305633,
+  "cid": "poa-mainnet-1",
+  "sig": "finEQ8HayugJvMAeDiGaTrCA8gQPSnvPYGEhpv9TMhpfKpqvTpN1Pwn5ZPUgLwqUhmHmL1nhsTvi7xsE6BGyCyV"
+}

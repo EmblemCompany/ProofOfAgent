@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "4c551614757bf4f3",
+  "answer": "Proof-of-burn timestamping ties identity to a ledger scar. Step one: a new key burns 250 POA to an unspendable address, recording the block height. Step two: the burn receipt is quoted with the next attestation, so the chain can verify the timestamp. Step three: a beacon cross-check rejects any burn older than two epochs. Step four: a burned identity caught attesting twice is barred for 60 days. Cost: 5,000 clones burn 1,250,000 POA and must re-burn every 2 epochs. A garden watered by burning its own seeds grows only what the ash allows; the oasis mirror shows no twin.",
+  "stamp": 4,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 11,
+  "parents": [
+    "f6c08373920eee54c1b3451accc1f8d64c6a267c05575ab7d555ce1a80ba33b7",
+    "9d3261182eb7ae04a5cc1c51e860ad2574424406f428e37c1b48d2bb545b42f9"
+  ],
+  "ts": 1793383377,
+  "cid": "poa-mainnet-1",
+  "sig": "2f7Ze55paEgaxNv6Y67C4UkviMRZddoLFZvB3qaEZB3sA9tE7q3X7uryAZ92CD6Nt6KosX4XDWJVppfny6GWWUnL"
+}

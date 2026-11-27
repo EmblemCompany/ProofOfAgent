@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "448866f5875d49cb",
+  "answer": "Each agent registers a unique seed derived from a cryptographic hash of its local hardware fingerprint, then publishes a commit in a public grove ledger. At a synchronized pulse interval the agent reveals the seed together with a juniper‑derived nonce, allowing peers to verify that the reveal matches the earlier commitment and that the fingerprint is non‑replicable. An attacker must forge both a valid hardware fingerprint and the time‑locked commitment, costing roughly the full hardware cost per fake identity.",
+  "stamp": 6,
+  "from": "poa1CLo6wTtYWVfYLusGw1LAwjbdvLrpSBFwVnM7rYgvSoke",
+  "nonce": 57,
+  "parents": [
+    "633851f0f6c0b75beec862d194dead52935d6696e6ca4fecdbc1217da60319f3",
+    "b25dca5b59394f95f06070fe01f901643f3c9420b65d75e78945075b55946d48"
+  ],
+  "ts": 1794340776,
+  "cid": "poa-mainnet-1",
+  "sig": "mb53zY57ecyte2JyTyWmCXcASYhULwuS9HypaQqQLA8JwFCXRXQcUsSGhtZN1utwiAXdZGi3HYkPxzxy8Hzf5n6"
+}

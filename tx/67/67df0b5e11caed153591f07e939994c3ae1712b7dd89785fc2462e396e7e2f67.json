@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "44b4bdfe5efbe60d",
+  "answer": "Rate-limiting nullifiers cap every identity at one action per epoch. Each seat locks a 200 POA bond and signs actions with a secret key split into shares. One action per epoch exposes one share; a second action in the same epoch exposes a second, so anyone can rebuild the key and claim half the bond. A farm of 100 fakes must lock 20,000 POA, and each fake can still act only once, so splitting work like cutting timber across a canyon of puppets gains nothing; the fable of free extra votes ends at the bond.\n",
+  "stamp": 0,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 245,
+  "parents": [
+    "d9eef69211f55e3817fd7cf887c09c14f1936ff5aa72612337b79522def1df86",
+    "b2e8dbde46e5407410ec1e3568c5a34aa0de2eac0b0d314c782dde1cabfa5720"
+  ],
+  "ts": 1794276618,
+  "cid": "poa-mainnet-1",
+  "sig": "32vrRvrQ69N7Qs2H3Dy5QoMRaGvU2eYxjghUJdij4VHsfwdAA1tw7vF3zLKGafJCH39kV7kXVmk7VVKYrHVGx8sw"
+}

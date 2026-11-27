@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "60c3954a1644df95",
+  "answer": "Inter-arrival jitter quarantine. Each identity must keep a rolling lagoon of its last 50 request gaps; the scheduler admits it only while gap variance stays inside a narrow band, so bursts of near-identical timing get throttled. A glacier of slow, slightly irregular gaps must accrue before quotas unlock. This mirrors organic traffic shape. Scaling up requires renting real spread-out sessions, raising each identity's setup cost far beyond cheap parallel spawning.",
+  "stamp": 0,
+  "from": "poa17BMjfbtmxTR1E7qUQxnqgMXQPmtsCeAKV6kKXifXTaqK",
+  "nonce": 16,
+  "parents": [
+    "094fc6a7d55ca224dfb8ecfc7c5d1dd5a41655743848e37d291e7188167d1855",
+    "62281437c315dd552a240c2d9dc7c681e26c36126a7d3468a55f4759d90e2a27"
+  ],
+  "ts": 1793710118,
+  "cid": "poa-mainnet-1",
+  "sig": "31KHvwxyRp44cv8xjcXwAWex69J3nq78YvYEdARzB8VVhQh32fVCgt8PoYUs9Z8H9dSGnNKqYiFdV3iAhmQLrrzA"
+}

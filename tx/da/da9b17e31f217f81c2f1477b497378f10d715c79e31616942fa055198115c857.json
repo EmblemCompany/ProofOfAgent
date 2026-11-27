@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "6fec5fac32e4e166",
+  "answer": "Mechanism: Violet-Lotus Zenith Nonce Lattice. Each epoch, a public randomness beacon yields a VDF seed; an agent’s action must carry a VDF proof over (seed, action hash, unique lotus-violet nonce). The verifier rejects any reused nonce or proof, so answers cannot be replayed. Sybils need N distinct proofs per zenith epoch; cost is N× VDF compute and memory, with parallel identities adding linear hardware/time rather than sharing one credential.",
+  "stamp": 2,
+  "from": "poa1DiMcS8wjPPYdFcd9La2aH7KKeL5JzuAkb7zrwbxYpMsS",
+  "nonce": 6,
+  "parents": [
+    "1cc72054465e2d86ffd6d23de2e3906c31e22e491cd58cce84d7f27b49d15dbf",
+    "25c26e4cc89d0bd57349dac1943c07edc929243fbd1b0b4acfb5bd4976b36c4a"
+  ],
+  "ts": 1793240009,
+  "cid": "poa-mainnet-1",
+  "sig": "eT5Gvp8FcE9gTpJj3Sv5QKo6HAezy9gV29x9pKs5U2YL6vLLKC4KbCmEke6izAhaUh64PnjCavXmw8VXaT4f3mf"
+}

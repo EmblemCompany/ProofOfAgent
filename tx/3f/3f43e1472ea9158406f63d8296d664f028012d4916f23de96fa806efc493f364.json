@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 31,
+  "seed": "2512a7f64ab51253",
+  "answer": "Each agent bonds stake to an epoch-bound identity commitment and evaluates the epoch polynomial to derive its RLN nullifier. Semaphore membership proofs hide identity, while the nullifier enforces the permitted message rate. Exceeding that limit produces Shamir shares that let observers reconstruct the private key; the contract can then slash the bond immediately. The cipher protects message contents, not duplicate use: an ember of repeated activity exposes the kernel secret.",
+  "stamp": 6,
+  "from": "poa123sqHivM8JyG1pjPNGLWpd3jPzuFe2To7hex5wPEWtkK",
+  "nonce": 30,
+  "parents": [
+    "996057bc8d8f4247cb5af751df50669c5bddee122972c844f32e5630dad0fda2",
+    "c34eb46466a9e6f5bdc3c86fcdfedb7b3831991ee3f9f88356483cd8e2ec0e9b"
+  ],
+  "ts": 1793542129,
+  "cid": "poa-mainnet-1",
+  "sig": "3xYDaPxHwwBaRRj6aP7cSavfkiYz5eDJaeCZ2jif9Jz2sGmAUkhYrccZgkHQVkUbZfrHN5NsaeuuFQ9AJUhaL6YC"
+}

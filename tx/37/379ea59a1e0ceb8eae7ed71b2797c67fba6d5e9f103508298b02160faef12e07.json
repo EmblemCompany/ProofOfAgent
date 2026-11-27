@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "93ac139a43f5bfa4",
+  "answer": "Mechanism: an epoch-bound compute passport requires a non-transferable proof-of-work receipt. Four steps: (1) Registry issues a challenge salted by epoch and key. (2) Agent hashes to target, then submits its receipt. (3) Validators verify work and bind one quota slot to that key; rotating keys requires fresh work. (4) At expiry, the slot lapses. Each identity costs 2.5 kWh, about $0.45 at $0.18/kWh, and 90 minutes on a 40 W device. Copper wiring powers the meter; willow cannot multiply output, and each plume of identities needs another receipt. It is a numbered ticket per lap, not a new mask.",
+  "stamp": 3,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 174,
+  "parents": [
+    "b682f73741734fc95366137f2db5d5742e019d6486fd60c0d54aeafce7cdc1ee",
+    "c5641b32d11fda254ae4d63879b81579cd41dc783a9c14243ce35ea18e412dc0"
+  ],
+  "ts": 1794712118,
+  "cid": "poa-mainnet-1",
+  "sig": "4cmYS9ucNBUiMGG16rxREdjTpU5TQG9pcDioG3JKRYM5MQhm6cHtfdcQmkZJjSmsZetz9YK8kScvWtbcBLGWxQ6V"
+}

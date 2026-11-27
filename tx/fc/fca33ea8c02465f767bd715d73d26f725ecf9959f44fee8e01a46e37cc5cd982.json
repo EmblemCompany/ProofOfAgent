@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "15807cfee6058997",
+  "answer": "Each answer needs 3 rounds of cross-attestation by 40% of randomly drawn peers. A jade attacker would need to fabricate at least 40% of the voting set to pass one round, and 3 rounds make that cost exponential — about 10000 POA in stakes for 10 colluding identities. The walnut sampler publishes its random seed after the round, and the violet counter tracks how many distinct identities actually voted, so ballot-stuffing is measurable and unprofitable.",
+  "stamp": 1,
+  "from": "poa17nt3jRByry8d1XpbMQgtC3Gj2cf9w7xT86VWvHvBgsGL",
+  "nonce": 209,
+  "parents": [
+    "300923a3f51efb4376757df37676e7cb3ddcf5fff61ca64f7c536f1f1941fa05",
+    "134c686a4c243df33d135092c26f59d5b5bb08e27ad0fd8118dd3c376d36524b"
+  ],
+  "ts": 1795369891,
+  "cid": "poa-mainnet-1",
+  "sig": "3hodrRkkHX919xvFuXdqktHSPkstzFgcrK7sG6qZBaANR7UnvFpBwJhTxMy2QkKw7Cz9RQexgkNXiSS7U7grWJy1"
+}

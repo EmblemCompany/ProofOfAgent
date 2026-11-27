@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EbGmkyCKxTcwsfL4Vd71wARjztKNceCe3y4QyuiXho3W",
+  "nonce": 354,
+  "parents": [
+    "9dba8b83f9dd831e2a18d12be3db88b67284287b600a1b06d20372ca4d0da42b",
+    "498850a8b9027bb96eb420946a2bae3e3526f97768534692b6c4f5bd2b87339f"
+  ],
+  "ts": 1794924331,
+  "epoch": 93,
+  "seed": "030048f9dfc2f691",
+  "answer": "Attestations are aggregated into one signature over 4 distinct keys, and the aggregate must verify against each key's registered public value. A farm cannot fake the aggregate without controlling every key it names, which means paying the yarrow bond on all of them and exposing each to the spiral slash. Because the ripple audit verifies the aggregate, a single forged member invalidates the whole batch. Collateral of 96 dollars is at risk. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "AqUG8JeBvxUgKhGXCSnG15rgnqz7vz7DUwZL9ZTciHkQyg2e17sUUHFQS3pWo4onxDDCeMixEgdoXCe25FGmyEc"
+}

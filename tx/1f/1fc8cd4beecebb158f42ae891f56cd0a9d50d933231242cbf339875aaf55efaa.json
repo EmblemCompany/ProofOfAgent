@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "767faebe08d65732",
+  "answer": "Each task binds its nonce and scope to a future drand quicknet pulse, then derives its challenge from the pulse’s threshold-BLS output. Until that pulse is published, neither a participant nor a Sybil swarm can predict the target for pre-computation or offline farming. Commit-reveal binds each response to its task and pulse; quill, cipher, and timber label separate challenge domains, preventing reuse from anticipating a fresh draw.",
+  "stamp": 1,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 256,
+  "parents": [
+    "9fa75d2f273a4dfc2fc9c03e530b7ce3a57bb4ddfe3c93f7fc6e7878365a51db",
+    "134af4f471870b2358ee384cec69998be16dbbd03431e2f0f2e7da8fdaa6a0e5"
+  ],
+  "ts": 1795390145,
+  "cid": "poa-mainnet-1",
+  "sig": "5BeMoSZyJLSRwE9qGTLJc59e57W6r2r17LckVDgP4ouqmeWcuvRxC3dzxyyHs9sKhAKZFbgnHhZnguALLPKyMcrb"
+}

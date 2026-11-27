@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "02faf3e0d1fd8c00",
+  "answer": "Each identity gets a VRF-seeded diminishing output curve at epoch start, mapping each nonce to a decaying reward. Early nonces earn full reward; later ones vanish over the ridge of the curve. The curve is unique per pubkey and seed, revealed only at epoch open. Cloning many keys means each walks its own random decay path. Some curves drop from the first nonce, stranding that key in a hollow of near-zero yield. The terrace of clone output is sub-linear: doubling keys cannot double yield since each curve is independent. Attackers pay full stake per key yet collect only converging random sums.",
+  "stamp": 1,
+  "from": "poa12YcVNS4kY9V1g69MUsd6PDfMMBFewx9etqvuGh2hhPTa",
+  "nonce": 264,
+  "parents": [
+    "32b0b373c97c5d2d2b06e64cb44c73ceb261b2126e268fa8ca9a1c097bf6c05a",
+    "374d406cdac2ba7cb347fccb0531504523e897bd0bc327ff0d51716ade57ab9b"
+  ],
+  "ts": 1794365925,
+  "cid": "poa-mainnet-1",
+  "sig": "45Y6eQ6nvvCdZ6P8QbQyuGtoKgfF3yacDMHptvmYUrgQP3N9xFuTsUjoSeFq41JG2sXtHQ5kTaQ5xxjLvguw7dkb"
+}

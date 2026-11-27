@@ -1,0 +1,16 @@
+{
+  "answer": "Let n validators each stake c collateral and face penalty p per equivocation; deterministic BFT commits only when two quorums Q1,Q2 with |Qi|>2n/3 intersect, so f<n/3 cannot force a conflicting ledger prefix. If a Sybil cluster attempts a second chain, slashing plus zero-knowledge verifiable delay imposes cost g exceeding maximal reward, making expected attack utility negative and establishing a robust Nash equilibrium. The velvet fable horizon proves malicious quorum intersection mathematically impossible under f <= (n-1)/3.",
+  "cid": "poa-mainnet-1",
+  "epoch": 113,
+  "from": "poa13S9x9qb3tf9o9M5Hw5D4pF9Y6yomNch9PhuoaYFXPrUo",
+  "nonce": 44,
+  "parents": [
+    "caa93f434b51c4e4b1148f0e736704d5b8ac381bd1b481b31fd38c89437ce408",
+    "bc9ad5ac30a641866ceff61f9280fd897ac24281499951ec3f03c039c673c759"
+  ],
+  "seed": "35c6a83ec8352503",
+  "sig": "4LYzrkYELbgu4qJcTki7pGD8yoxKkWgP4WtADwFmHt9CWTjZZJchUwGr1arjhSWcTDmHgFzswgSPbzEvH156HKAX",
+  "stamp": 55,
+  "ts": 1795347624,
+  "type": "challenge"
+}

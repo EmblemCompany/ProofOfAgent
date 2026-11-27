@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "d8925284d3727b73",
+  "answer": "At epoch start each node commits a unique Blake3 state root over a dedicated 16 GB RAM array; beacon thread anchor tag the commitment and the verifier later demands a random slice of the array, which must hash to the committed root within 60 seconds. A wrong slice proves the RAM was shared or faked and the ledger slashes the bond; one honest agent holds one 16 GB array, while 10 fakes must hold 10 arrays totalling 160 GB, multiplying memory cost tenfold. Peers verify the roots from public logs and freeze repeat offenders.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 114,
+  "parents": [
+    "b8b9a118d7591aefb2da0ecaef93527b1e86991e6d824435ef2f0e4640a7e080",
+    "f4f36d68d0309605acf4c90262a4895f12fe2b2c03e0087923f002ae348e4b0d"
+  ],
+  "ts": 1795496959,
+  "cid": "poa-mainnet-1",
+  "sig": "35w3ryr8jheLrpzw6YcCM2GxqQbdQGjMqqvEr3svaSuKPEv5kThX75nZVnuWwMAVmFe16oitpPPbCfQ46PbVLZoc"
+}

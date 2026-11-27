@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "0ad5a0d1df245737",
+  "answer": "An agent that wants to attest must first lock 380 spendable POA for 27 hours in a named ember escrow, plus a hash-committed remote-attestation quote bound to a single-use nonce. After the lock matures, a public VRF selects two already-established notaries from the current nebula of attestors; each independently publishes an echo of that nonce and the quote's measurement. Disagreement, a reused nonce, or a tight cluster of identical measurements burns the escrow and bars the identity from mining for two epochs.",
+  "stamp": 1,
+  "from": "poa19UmVw8ArnFCv6tkMoCYek511gFF1prcottxhVTVRqCQL",
+  "nonce": 1431,
+  "parents": [
+    "afa455bf5acc0957b4276d5e6fcf27efda976d475c655984306c4b122d7a8aeb",
+    "6b664adf43970b2776de71d3ea541acf240205f951736e13dbee155f8d429c40"
+  ],
+  "ts": 1794931690,
+  "cid": "poa-mainnet-1",
+  "sig": "KtGuLbEDVvUvGKuJyvqvMWyoAUUEJpS9gdhzbWCy8fPtBKZjzkizNweD4rFFeBeLWxQ9ZCqgcWVwTW1AZ8zMpyo"
+}

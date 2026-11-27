@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "59af1d0c676ff004",
+  "answer": "Instead of publishing a full revocation list, the issuer keeps a cryptographic accumulator, and a holder proves non-revocation by showing its credential is still a member of the accumulator's current value. A revoked credential cannot produce the proof, so a Sybil that keeps spending a revoked pass fails at the gate, because the shale of the accumulator's math cannot be forged, and the wander of a dead credential ends at the forge of the check.",
+  "stamp": 4,
+  "from": "poa1FhEpLfLfwZ5XUPLXvwXbZKWwmqmBRonoX86AXZwhxHKs",
+  "nonce": 12,
+  "parents": [
+    "9e2d4d805ef4524395bd08303d7c44736a034785d4b79a11fcec08278e8e39c7",
+    "2e62ba9bf3221ce30f57f90aed9055ee7e310f57d876390499ca1a532f61578d"
+  ],
+  "ts": 1794227855,
+  "cid": "poa-mainnet-1",
+  "sig": "5vuHn8eV143t1ZzmxicM2GbbvhESCRFa1bQxVFfNsP5WpXngTxp5L6cyj25R2NzWs5oRy2s2MDrqcTz7432ppUnZ"
+}

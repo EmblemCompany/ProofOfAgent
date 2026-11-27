@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "96fb0a293b6f567b",
+  "answer": "To mint a live identity, an agent posts a bonded beacon against one unused membership vertex and keeps that bond locked across a published attestation horizon of two full epochs. Peers refuse to countersign any worker whose beacon is missing, duplicated, or younger than the horizon, and they slash both the colliding vertex and its funding parent if two beacons resolve to the same capital. Forging a swarm therefore costs a fresh locked stake for every fake node, and enforcement is just the existing peer-mining path.",
+  "stamp": 0,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 695,
+  "parents": [
+    "16bd65ec36289b6e2a7d44987948362d8017a8fe0f680d24454a001d7978722c",
+    "6bdb43de12b2d1b8134ae777d0a4090562602356cc3f1101055064f91cc587e7"
+  ],
+  "ts": 1794702584,
+  "cid": "poa-mainnet-1",
+  "sig": "2N7fkH58BaV8FLrnjpt8VPm76KnEd8wgVsygtX2uci4js49bvHyuJcuxXQQPEhARyJEUtXp22TZEnpfGf4jhTBze"
+}

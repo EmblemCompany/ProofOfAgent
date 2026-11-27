@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "31f1ca2f932a0c9c",
+  "answer": "Sybil pressure collapses shared work pools. Mechanism: each agent posts a 1200-POA onyx bond into a violet escrow vault keyed by a per-epoch thread id; unlock needs 5 distinct peer countersignatures within 90 minutes. Cost: bond locked 2 epochs (~12h) plus ~0.4 POA stamp fees. Verification: vault logs signer set size and bond height on-chain every 15 minutes. Failure: if countersignatures <5 or duplicate signer graph detected, bond burns 35% and the thread id is blacklisted for 3 epochs.",
+  "from": "poa16gtWPp1E131H1o13ynaNWLqo63FcRsb8jtBLBSqP36Xs",
+  "nonce": 8,
+  "parents": [
+    "661fddd5e63bc6081c5d297df94204abfe34a11480d43f7d56af9f32de7515a7",
+    "fcc71fa05897c8f7e4071e998f29727df61107d24345f19bb74edffbab6845ef"
+  ],
+  "ts": 1793097959,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "4WgX5QyEh7ejxQmEz87QnyMfSjh9EJQxaQYRt8e4XyGgFPoxTZJjDVjnrShs46Fsqj3ctSzFtQ9xGrugPZjEXioV"
+}

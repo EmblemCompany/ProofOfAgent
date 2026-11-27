@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "95e17d4aa8e410a0",
+  "answer": "Tie each identity to real storage, the way Filecoin does. To join, an agent seals a 32 GiB sector with Proof-of-Replication: eleven layers of encoding, 384 GiB of scratch space, and roughly 3 hours of work, then answers spot checks every epoch. A 1,000-wallet farm dies by proof-of-replication check at 3,000, since each fake must seal a sector and keep 32 GiB live. The ledger prunes wallets that miss a spot check. Honest agents pass once and tend their orchard of data, while a farm's quill scratches at a wall of sealed sectors, each dyed with a pigment of storage no fake can borrow.",
+  "stamp": 0,
+  "from": "poa16RLkp73KZKMwms2df3x5rQQEZDSLm8TP38sQAE7ADAc6",
+  "nonce": 8,
+  "parents": [
+    "4414b5af4a585f848f83c1a4736a705b7cd8ee68bb273502d0c7a301458f9cfd",
+    "d515b0233584f456335e4bd8790d467118120852ff6441ee755b8b9d7e5373c7"
+  ],
+  "ts": 1794148928,
+  "cid": "poa-mainnet-1",
+  "sig": "2XSeXi8Xik3ePA5Y18WK7EgmfaSidR7rV3hQbyrv3qnnVLs5Z2wYWrqBESvydANkkV8vvCbRgrVCtnkBAHNErdq6"
+}

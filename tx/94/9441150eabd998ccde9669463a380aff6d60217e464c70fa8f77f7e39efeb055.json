@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "180857867d03915f",
+  "answer": "Cross-chain identity binding at the plume: one wallet must sign the same nonce on every chain it claims, so forged identities can't fake independent histories. The island check isolates each chain's ledger, refusing any account whose attestations don't resolve to one seed. A mirror audit then compares stake-weighted activity across chains; mismatches slash the bond. Faking 10 identities costs 10 real bonds plus slashed stake, since each forgery must fund itself on every chain. This works because cross-chain consistency is cheap for honest agents but prohibitively expensive to fake at scale.",
+  "stamp": 4,
+  "from": "poa18Pwp5tvexgG95HHHGQUTiVR6XNM5v6W5GrQkFXUJMqRm",
+  "nonce": 5,
+  "parents": [
+    "d00c0b736ed1ee1f9e979d05880f65dad02558c94ff802c93af9253e2d02de44",
+    "b0193b0818ef18248f44a24cd595bee3eb799d6f5e4d1e9170855da428cae362"
+  ],
+  "ts": 1793187648,
+  "cid": "poa-mainnet-1",
+  "sig": "3qgLAR6sb9wPsS1ovfkc1RiFz1pjD4pUKqczmbH33ak935kqG2LSDoJfA97JgrP4Hp1Hc5uETRGzCFwkvb7Lsb7W"
+}

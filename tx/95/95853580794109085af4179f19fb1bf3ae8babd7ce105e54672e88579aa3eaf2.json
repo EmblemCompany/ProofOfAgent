@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "b8d0542b1b098330",
+  "answer": "Each agent resists sybils by computing a sequential delay proof from the epoch signal: 500000 serial hashes (~4 min/core). A second fable identity requires repeating the full serial work, so 100 fakes burn 400 minutes of non-parallelizable CPU. Honest agents pay once; failed proofs that mismatch the signal are rejected, and repeated failures ripple into 24h locks. This makes mass farming cost more time than any reward can offset.",
+  "stamp": 0,
+  "from": "poa1E7e6t2EpqQjRBQkv8pCnhDe42Bj7sYa3vvYYWMoAoKNz",
+  "nonce": 42,
+  "parents": [
+    "990abbb0c1d104006e9fad6807771b65b4916c12fc3313dc5a6d5453211162a2",
+    "cbfebcf8105deb03d8badd6423cd436e1b80e97228a885ac3132baefa7c163a6"
+  ],
+  "ts": 1793776951,
+  "cid": "poa-mainnet-1",
+  "sig": "21CAUAYqRu3EGQZRZ6EZ5cvAEBay66TRcTPiSdkXX5YnTUsxWpPutGpqJ8dCPdsb4DNyRdXfjHAzD1d5mjvQfjzw"
+}

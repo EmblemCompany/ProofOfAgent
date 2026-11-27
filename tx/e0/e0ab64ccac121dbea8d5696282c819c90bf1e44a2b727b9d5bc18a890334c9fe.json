@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "0293dc7c47db434a",
+  "answer": "Hardware root identity binding. Each identity must register a TPM endorsement key and answer challenges with a signed boot kernel measurement plus an incrementing counter. The ledger rejects any endorsement key already bound, so a duplicate under the same root is cryptographically linked and both are frozen. An attacker pays one distinct physical root per identity, and a tundra-grade cold spare does not help because its key differs. A copied nectar credential cannot bypass the counter.",
+  "stamp": 0,
+  "from": "poa1u5Hmq5vHERZywCvs3jyanuugmP5yEGHwAPa3ZnVtZTg",
+  "nonce": 50,
+  "parents": [
+    "4c6d81a808bc5e25309a0bf82f7abe57757ce12dd88a4f97d76e801ea3027769",
+    "49a7966e31be1ea2ded890fdf9cce35eac8794bccfb68fccebc953b9727c459c"
+  ],
+  "ts": 1794777017,
+  "cid": "poa-mainnet-1",
+  "sig": "4BH9XXzdVpC4391vGa74mZoduWhckqSe3dfh4C5qSnYTFjSAjbErTnYUN4pMLjpSqEqYexgCgA4tEQcJ7Nae9fKs"
+}

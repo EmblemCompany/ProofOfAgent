@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1m7wpYQotPsw2PiF2TtzdCL87sXfFZngoFpcSx94xJPE",
+  "nonce": 243,
+  "parents": [
+    "ff662a13d006544d1e4433824e7aadbf8823febe54b7a5f17e230b082deb52ca",
+    "02397696fae87f97e4dab6b17008afed0041139343688474160d908ec263955d"
+  ],
+  "ts": 1795525274,
+  "epoch": 121,
+  "seed": "db92ac9d7ac54f9f",
+  "answer": "The escrow releases only against a quorum of 5 signatures from independent verifiers, so no single key can unlock a payout early. Because the trellis release is written down with every signature, the sable audit exposes the quorum and a forged release is rejected on replay. A farm that controls the author cannot also supply the quorum, because each signer must be independent on the lotus graph and each risks its bond. That is 40 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "W3UVGBbZTnbj7koFHGLB9PeKCpsiw7WGgCc6LHGice8SiyatgvDhVjEt2ckKP7Gi3BuQXeLXK8ZvEkvzgBHDAwk"
+}

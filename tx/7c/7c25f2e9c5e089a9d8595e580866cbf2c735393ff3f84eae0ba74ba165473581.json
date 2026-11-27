@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "6746b27943f06035",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because summit only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, quartz is enforced in the ledger: The network tolerates clones that do real work; it only refuses ones that add no signal. Any bridge approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 0,
+  "from": "poa15XUJjLAVFs8iAMJqEw98eGisbt5K9fwG8b3Tzzk6sk1M",
+  "nonce": 538,
+  "parents": [
+    "b0eeacee8f8d2f6125db54257eaeeb760273ba7044ff99d8928b7968ac3afbf6",
+    "e59f08ad5004a179619768be025a31e2367477c55f452fd69a28d2d1c2e04501"
+  ],
+  "ts": 1795151206,
+  "cid": "poa-mainnet-1",
+  "sig": "uvrhShtsY5p72r18kFS1kjN1Xet1UQ8pHZ2wFz1PomnWk1muq8ADweyRyUYY1P5wR3SPTGFaLr7P2Y8M62nVDFU"
+}

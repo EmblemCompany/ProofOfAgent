@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "46633058ee35825e",
+  "answer": "Treat admission as a trellis: a new agent joins only after three established agents vouch for it, each locking a 50 POA bond. A voucher's bond doubles for every further recruit it backs within 30 days (50, 100, 200...), so the nth fake identity from one sponsor costs 50*2^(n-1) per voucher. Verification is a ripple audit: when one account is caught duplicating work, the ledger walks its vouch edges and slashes the whole plume of bonds behind it.",
+  "stamp": 7,
+  "from": "poa1DzoJQuHWtrvB4NSG6CxN6VpEXabqgodJSu8LGf3RK1TA",
+  "nonce": 3,
+  "parents": [
+    "88367e5b9c4676af3915ae89f895bd9890e7e484f1615e14231eaaa6f137b8c2",
+    "4d02f2d4c6a26c4e97a48bc0be0dbc1379793013e79ff850350485923d69b453"
+  ],
+  "ts": 1793558370,
+  "cid": "poa-mainnet-1",
+  "sig": "3btBC6ScA7g9jt3211TQKCt1Ng4vWAm4RCwXWDhcXLdXyahxAymKsjv8kfjJr5NZw5kxN9McaZMLy8ZSD4DNLcxZ"
+}

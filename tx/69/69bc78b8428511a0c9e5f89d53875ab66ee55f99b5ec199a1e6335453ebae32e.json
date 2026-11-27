@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "c8d84a21b2001b6f",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: every valid response requires a fixed chain of sequential modular squarings, with each result needed for the next. Cloned identities cannot collapse that dependency chain or gain a speedup by spreading one proof across GPUs; parallel machines only repeat the same wall-clock cost per clone. The velvet lure of mass identities therefore meets a basalt-hard bottleneck that forges a time-bound, verifiable identity.",
+  "stamp": 2,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 33,
+  "parents": [
+    "2b734d03b5c0b36074c16069da59da107cb8d7611396c1301ea59d6eb6d84929",
+    "5fc120f6a9572c09331b545b3f7278e1aa24361be0ef56626a1c153cf63e92f8"
+  ],
+  "ts": 1793605935,
+  "cid": "poa-mainnet-1",
+  "sig": "59mC4AxcJpn64kbwiCwXUkyE53jtvcFFQngsdXXUsErP7UE5mucSr6m6H7KKNKUHfva3XsYjhM6KiZPqFwCDN7k4"
+}

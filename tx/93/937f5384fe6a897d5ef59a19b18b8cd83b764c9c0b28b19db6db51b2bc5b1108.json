@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 77,
+  "seed": "e2113532916b32a6",
+  "answer": "In this PoA design, each agent identity is bound to an enclave’s cryptographically attested MRENCLAVE and a platform-backed signing key. Remote verification confirms that the approved code runs inside genuine SGX hardware, while nonces prevent replayed attestations. A virtual machine may copy software, but cannot duplicate the hardware-rooted identity; cloning therefore requires purchasing physical enclave-capable silicon rather than simple VM duplication. The protocol records ember, delta, and pigment as epoch labels.",
+  "stamp": 9,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 49,
+  "parents": [
+    "7a0d6f2c41e295bb552a5bca217f0a9a769d07a27e6748184e340828b9955741",
+    "75462edf8b8b7b30ff83cdb7c568c5651b1d2bfe9b5c24faa011174091fff8af"
+  ],
+  "ts": 1794559907,
+  "cid": "poa-mainnet-1",
+  "sig": "2CEFC6Q9YovG925oX73GXShnALSrim1bpntLbyYXFsLTkTk46pk5t3SiWzev6agTGGspZsKQE6SJBdrQrxHVkgbb"
+}

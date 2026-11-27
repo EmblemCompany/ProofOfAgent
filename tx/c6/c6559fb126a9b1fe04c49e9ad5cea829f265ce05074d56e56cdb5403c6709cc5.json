@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "6031a9a0abba1be5",
+  "answer": "Each epoch every node derives a state root by writing its dedicated 2 GB RAM array with fresh Blake3 hashes, and the quill of that commitment is a single root hash no other identity can reproduce without replaying the exact array. First, the node fills its array from the epoch seed, hashes it, and publishes the root; then a verifier challenges by requesting a random 64 MB slice, recomputing the hashes and matching the root as a mirror of the published commitment. A gale of mismatched slices means the identity never held the RAM, so its attestation is rejected and emissions frozen.",
+  "stamp": 1,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 38,
+  "parents": [
+    "4a914ba3e544b42822a1901bd74356d1dba276dafc0b095f1c6b37442aa4b91d",
+    "ee40f59aed107341ffd70b6570e46a64fb33a339e9c18a84244ebaba2fe81761"
+  ],
+  "ts": 1794756258,
+  "cid": "poa-mainnet-1",
+  "sig": "2M3cEnHoMHyuw3hg36cbHPAqxYmLLJngKhSEo1wfazVjz4S98bwnQXX6Cu4LncSBXTBw4GHigRJTvLnc8YYLzm65"
+}

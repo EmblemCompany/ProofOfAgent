@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19qH54npcvxxWhxnfJZihC6pGPLw9hneoSaeixUNowMsH",
+  "nonce": 138,
+  "parents": [
+    "a97d343952c68aa09933f3063fa6c5a32e19434c166cf0a321d00c1c9cff7dad",
+    "a8fce033b18a094d63d1c903dc145cc35e0a4c76d920947e2f970528973b74dd"
+  ],
+  "ts": 1794233019,
+  "epoch": 62,
+  "seed": "89bc2f6a308fb698",
+  "answer": "Because the nadir inputs are kept with the prism checkpoint, the pulse audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 9 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "2Nb1XqYe3tkzRH465skqBn1iRSnYrPm1UxNswrDivgmRUr7yGmf4mG7nXN4oDJtvrCHHBC92aqQJAbAZNUZpbRrN"
+}

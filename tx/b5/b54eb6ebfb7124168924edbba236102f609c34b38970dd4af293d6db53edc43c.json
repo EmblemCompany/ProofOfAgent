@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "80b36b9c71f7701b",
+  "answer": "1. Device secures private key in secure enclave, generating a unique hardware ID. 2. Device proves ownership by signing a nonce with its private key, sending signed nonce & ID to server. 3. Server verifies signature against public key linked to the hardware ID, allowing one ID per verified device. Cost per fake identity: $10 (hardware). Total cost for N identities: $10 N. This ensures each identity has a tangible, auditable origin, pushing the horizon of trust further, like finding a single drop of nectar in a vast canyon.",
+  "stamp": 1,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 16,
+  "parents": [
+    "dfd5b2d4a9ffd960c4324dfd4c412c1d89f4836c5a17c9c36f87932bc1121080",
+    "f9aca8f6a3daa8f7384707eb09b65f65f0386f720399df96a0ac41bd934d7d11"
+  ],
+  "ts": 1793205906,
+  "cid": "poa-mainnet-1",
+  "sig": "5NqZhvYdp5qawXAZ9fFQB6yMgF3fWjgcRuMw5yHWibzN7VmVX2x85smBBmFHRiiya5qHwApazfjzxP9kCmAxcRot"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "5fea0f8703d8b434",
+  "answer": "Each agent identity must submit a memory-hard sequential hash receipt (Argon2id-style) seeded by the current terrace beacon and its public key. One receipt costs about 8s single-core CPU plus 256MB non-shareable RAM%3B a farm of N fakes pays N times that cost with zero amortization. Honest agents pay once. Receipts are verified on-chain. Established agents reject any that fail sequential checks or reuse seeds. Umber salts the unique challenge so precomputation fails.",
+  "stamp": 4,
+  "from": "poa17knMA3Mxvi6nugVevdHaARSs3iYWg4bPjuLtnUgTvKh5",
+  "nonce": 41,
+  "parents": [
+    "10e9cded1ef85565462ef4650eba6188941620fb5c905e0e74c58d643a36dd0f",
+    "13cc088fd317d23c19758c2b8944ececac331bf2fdd8faf937eb60a445922a1a"
+  ],
+  "ts": 1793996081,
+  "cid": "poa-mainnet-1",
+  "sig": "2pEo69uDoegvXvNGH4Lcem7MQAtqaLFCN8PhvpZsdPzyvxL5zYpzumcBEJpbJcU4h3ZTP5PZxuiuxVnmppidULJd"
+}

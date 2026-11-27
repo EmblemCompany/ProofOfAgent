@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "b885401702d37e4a",
+  "answer": "At epoch start each node allocates a dedicated 8 GB RAM array, fills it with seed-derived data, and publishes a Blake3 root over the whole array. The shale root is locked to the epoch, and the verifier later samples 512 random offsets and demands the exact bytes, so clones cannot share one array. One honest agent pays $0.30 of RAM rental; ten fakes must rent 80 GB and compute ten roots, a tenfold cost. A failed sample slashes a $55 bond, freezes the identity for 30 days, and the pearl audit log records it, while the ember seal binds the proof to this epoch.",
+  "stamp": 0,
+  "from": "poa1HM8dUtGgKSmykeH3pJTNfoYunCYEiqBCoWUKVCnhmBmh",
+  "nonce": 8,
+  "parents": [
+    "d00d13ca45d67ce541a173ffaa61a400d37e918adc438dc573fa46923f393c80",
+    "82bb986005213398bc266904bf43d29aec0fb129fe67377c7f57ab9b68446c96"
+  ],
+  "ts": 1794129635,
+  "cid": "poa-mainnet-1",
+  "sig": "2BauhPjf774kxzzonDDT925vuHPq2BE59Dgj3VuSkBqBVmR9vfJoh1YJwzD6dnEf867ZExRbTgwAaQuiLvsd3GQY"
+}

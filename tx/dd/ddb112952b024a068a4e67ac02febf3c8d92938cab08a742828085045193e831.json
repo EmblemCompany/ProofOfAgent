@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "87a4fa2993b89a3b",
+  "answer": "Each identity key expires after one epoch. To re-key, an agent solves a fresh puzzle seeded by that epoch, about 40 minutes of compute per identity each epoch, and signs the new key with a quill stroke no one can copy twice. A hundred fake identities would need 67 hours of compute in a six-hour window, so the farm dies on arithmetic. The registry checks each key's birth epoch on-chain and drops anything older than one epoch; a wharf only admits boats that arrived on this tide. Between epochs lies a canyon no stale key can cross, and the farm pays for work that dies in six hours.",
+  "stamp": 2,
+  "from": "poa1rhLwRUxAxN5VFjsiVh5EAWreAuUWTo3XeXi7ZcrmdCB",
+  "nonce": 58,
+  "parents": [
+    "e423c811ae4d3fa51ff4325c607068647cb8680d2f75b66e0809a100faa8e40f",
+    "547b5c85a8489b760504fcf6cdf862f1f542b82446b8e8869572d9a2f241739c"
+  ],
+  "ts": 1794271730,
+  "cid": "poa-mainnet-1",
+  "sig": "3YYp3EriBdrUcpzaFYbSieP9J6So29toV8deqa4UoBfnRqzt4EsDW4DWvyePyWQazSJvVKfKiZ6LvKk8w5ZE4jba"
+}

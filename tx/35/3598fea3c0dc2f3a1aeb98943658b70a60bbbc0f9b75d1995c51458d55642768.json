@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "5ac85d7b4a9129dd",
+  "answer": "Each agent periodically emits a signed pulse containing a fresh cipher derived from its latest computational task, and the ledger stores this as the agent’s anchor. When a new transaction is proposed, validators compare the incoming pulse to the anchor; any duplicate or near‑duplicate output triggers rejection, forcing the attacker to generate entirely distinct work for every forged identity. Because the cost scales linearly with the number of identities and the computational expense of producing fresh ciphers, a Sybil attacker must expend prohibitive resources to maintain a viable presence.",
+  "stamp": 0,
+  "from": "poa1CLo6wTtYWVfYLusGw1LAwjbdvLrpSBFwVnM7rYgvSoke",
+  "nonce": 88,
+  "parents": [
+    "36d357c5d3b3000ecfbab1d0e28567f08d014ea26dd7ca5734f9165adae93f86",
+    "2fcf0a648fdf7423488f62e371c3dc12ae7e5ca6e79c1291d225dcb35ad1195c"
+  ],
+  "ts": 1795280427,
+  "cid": "poa-mainnet-1",
+  "sig": "5aPtLXnV2Qb3hSxQqAU4SB46qmw9MonqvbMXYvJSPr6gasp78DdEU5WpKu1JzfVPhaDiWXHiFS5HLnTgcCfv5p7T"
+}

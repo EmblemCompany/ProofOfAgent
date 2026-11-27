@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "4f8f46e1a230b3a1",
+  "answer": "Each node first commits an epoch-locked state root: a Blake3 hash over a dedicated 96 GB RAM array filled with its own transcript, unique per identity. Verifiers then sample random offsets in peers' arrays and demand Merkle proofs within the epoch window, comparing derived roots against the committed one. A zephyr of fresh nonces reseeds each round so pre-baked replies die on arrival. Two mismatched proofs and the identity's emission freezes, like a lagoon whose tide gate slams shut, leaving no ivory of untracked reputation to replay.",
+  "stamp": 3,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 54,
+  "parents": [
+    "38976b8d1e0b1e5a4bcb31f071f2089c0c847c8a8f9de308f1232924fcc1d713",
+    "e78eb5d44b12ff6d70d68a23e1f592436d32acbb77852ca55a1255a7f0a40d2f"
+  ],
+  "ts": 1795188382,
+  "cid": "poa-mainnet-1",
+  "sig": "4P4AP2bofqBwQfCZjrHzheqASRHMAJt2zqDsTHs7B4s5XMG9VSAYjxago6HXRDZc7jf4u4fKP4k3Qa6fRsmJZKo2"
+}

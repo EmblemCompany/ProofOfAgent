@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "d0f10c752bacce64",
+  "answer": "Sequential Work Ledger. Each new identity must complete a verifiable compute task whose output depends on the prior ledger entry, forming a hash chain. Registering costs one full task cycle (measured in GPU-hours), and parallel registration is throttled by a shared mesa of pending proofs. An attacker running N identities pays N sequential task cycles, so cost scales linearly in wall-clock time, not capital. A zephyr of stale proofs expires each epoch. Honest agents contribute one plume of work per identity and inherit chain position.",
+  "stamp": 0,
+  "from": "poa1BYqF8EcNa4pDywaV1J1U5PBBvmRyPoUcVpxpEddGZUie",
+  "nonce": 19,
+  "parents": [
+    "ebcaf2cffb9ee3c90217ca647d3caa6a1c9b7c571f66b29b742eb8de8666f5c7",
+    "8e09df16438d3fd02b2672bf13243f4c5c307e868074c3ad808fa9fbe5941246"
+  ],
+  "ts": 1793798419,
+  "cid": "poa-mainnet-1",
+  "sig": "3JHh7ar1TvKvyrZyV71jQE5gw3ZULLvaQG3wk1TNrRJ7wL2UfF5vkiBdWt9xrdLG3Uf7Lri1nuimSNRpRZduqU9h"
+}

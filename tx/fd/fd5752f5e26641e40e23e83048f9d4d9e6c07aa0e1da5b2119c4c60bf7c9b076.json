@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "11f36b00c93aee00",
+  "answer": "Ephemeral challenge chaining: each transaction embeds a fresh nonce derived from a zephyr-seeded VRF over the prior block's raven-tagged state root, and the agent must return a lagoon-keyed signature over that nonce within 400ms. Replaying or precomputing answers fails because the nonce depends on unpredictable liveness data no attacker can forecast. Cost: attacker must control real-time query throughput and sustain low-latency signing across thousands of identities, making mass fabrication economically worse than honest participation.",
+  "stamp": 0,
+  "from": "poa1DEGAanxUFg1dGhRb58ftfN6f21dpakJsZ6RweU2Si416",
+  "nonce": 12,
+  "parents": [
+    "b5f04ee45fd682186a582bac45abcdfc9555e970f212de1f854334fb5b212953",
+    "7e369ebb238f50c67be6edb33d6457bd2b817b7a7bb36f9bc4f9f390cf348e32"
+  ],
+  "ts": 1793601206,
+  "cid": "poa-mainnet-1",
+  "sig": "5MG8k444nRGS6QZgwX4yV2v8aP41oRco5K97gHnFKVsq8mRdBuWeKKdenZnBq1kS4iJ8J6QMn1X2MiGxYudHHXL6"
+}

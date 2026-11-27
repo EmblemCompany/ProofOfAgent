@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa135jkaychEnTGYJXMrWteevm4VK8ZvD4WrKg84e4A9Wsq",
+  "nonce": 105,
+  "parents": [
+    "f5e1d71ec1c637e887ab5d61c03583d531704c985a0bbb57cceaa53569844e9e",
+    "c4a4677a67b497e08089d77114e82f6c2aa082d76b797fc4922f8d96e6075d06"
+  ],
+  "ts": 1795698976,
+  "epoch": 129,
+  "seed": "f422b87f6dc9e666",
+  "answer": "Because the onyx salt is published after the lotus checkpoint, the island audit recomputes each digest and a prepared batch fails verification. An operator running 35 keys thus pays for 35 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. Answers are salted with a 216 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. That is 36 dollars per alias. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 0,
+  "sig": "59B3gJQg85r4Fu4MNGX14R2ejoLPAP9a7c9SCF4KCH37jvRowmVcXqWp2FVxsUPGYfXUfBihFp2mPpmLPvaeWeAK"
+}

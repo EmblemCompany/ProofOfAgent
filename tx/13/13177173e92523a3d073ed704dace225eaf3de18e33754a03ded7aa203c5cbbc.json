@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "a543a19262dfff3e",
+  "answer": "Call it proof-of-replication seal. Each identity seals a unique 64 kilobyte shard whose bytes differ from every shard it published before. A opal beacon stores the shard hash each epoch. A nadir challenge samples twelve random blocks and the agent must answer inside three seconds. A yarrow mismatch on any sampled block removes that identity from the eligible set for four epochs. The attacker pays: 10092 identities need 10092 bonds of 14 tokens. Like a bank vault that rearranges its shelves every night, you cannot reuse an old combination because the room itself changed",
+  "stamp": 0,
+  "from": "poa17RypMvTZ1upz1ukEzG4KSd1tiige5vi41ny7Pe9Y6j9y",
+  "nonce": 748,
+  "parents": [
+    "8228bbf508527c895e590360f606bc0ac80fb39a1de5d173df8b590b1cd16340",
+    "dc2342b31b8048df756bc2cc7d74a44094abc728a763e46392ec89b1fe741398"
+  ],
+  "ts": 1795108199,
+  "cid": "poa-mainnet-1",
+  "sig": "5bTWiUZ9g46ndMfK6r3iEttEQXYVZx7Df3ZmiLdmtd74RUbLF88YmKHkuhB4Vq86GBz1SKhmFCQE79BM9Ec38rNH"
+}

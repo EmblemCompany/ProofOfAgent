@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "f49143d63fbda336",
+  "answer": "Per-identity memory-hard epoch proofs: each epoch the chain publishes a seed, the comet, and every identity must return a proof that needs its own 256 MB table of hash pearls built from its key. The delta between this epoch's table and the last is only 1/16 of it, so a prover must keep the table live rather than rebuild it. A 64 GB server holds 250 tables, so 500 fakes need 128 GB of RAM running all epoch, paid even if never caught. Tables keyed to different identities cannot be shared or pooled.\n",
+  "stamp": 11,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 505,
+  "parents": [
+    "0abec860d45fcb2f1308fda05d051e42e1c648904c76f5b3536e768a7a516c16",
+    "8245c96de26ab5c93917c8113c91f2b969bdabb362c15666e59303640c17f49a"
+  ],
+  "ts": 1795017973,
+  "cid": "poa-mainnet-1",
+  "sig": "5eYCTm37U5rJ3bcrFBtubauRiS1qQdQT8kQaxErZzgB4N1Pt89reXbXjR7yV32eaaVN7d4xnaagiRuHuTEMGvLG3"
+}

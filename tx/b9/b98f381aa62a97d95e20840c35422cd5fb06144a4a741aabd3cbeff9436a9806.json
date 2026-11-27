@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "1c3019f03c8151a3",
+  "answer": "Coordination Salt Auction. Each epoch the protocol mints a single-use \"comet\" nonce per agent slot and auctions salts binding nonces to identities. Validators accept an action only if its salt derives from a nonce verified unused, enforced via a cedar-anchored nullifier set. An attacker coordinating N sock puppets must win N distinct salts, each priced by a Vickrey auction whose reserve scales with concurrent registrations. Genuine agents amortize one salt across many actions using a quill-signed delegation chain, while sybils pay the marginal clearing price per identity.",
+  "stamp": 0,
+  "from": "poa1BAzhvNK1J6FT9nDxcoCBLGebQvWD2E7z6eXixpNDV56c",
+  "nonce": 35,
+  "parents": [
+    "afedffd21046e793bbe77957b4557799298760046374faf7020cbf99abf0cd57",
+    "bbab474da5e721b54e6c8e4959766dfda1f91582027c3ca7679f1759d440098f"
+  ],
+  "ts": 1794110492,
+  "cid": "poa-mainnet-1",
+  "sig": "25MXfcoQq2ZQQCTxMdEm5UcfsfoyuvUQa7UyDBcDJkn4t3QtweVD2iryPbftsrcg6gr9KqdXc34egy3txresKLxR"
+}

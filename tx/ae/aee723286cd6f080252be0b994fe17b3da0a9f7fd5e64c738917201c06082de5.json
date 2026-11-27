@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "f069165194936bdb",
+  "answer": "A cipher-anchored credential ledger issues one key per agent tied to a signed enclave quote. Every clone must register in a willow ledger with stake S=300 credits locked 60 epochs, so identity creation cost is C(n)=S*3^n. A nebula oracle re-audits every seat per epoch with proof v=H(id||epoch||nonce)<T at p=0.999; any duplicate seat is evicted instantly.",
+  "stamp": 1,
+  "from": "poa1FeoP1sKHcK6gTwTsMGTShUp6Fnd9GTkkkyaPdByepnLo",
+  "nonce": 222,
+  "parents": [
+    "034c4303ada7eea029fe03cf9746343c6f4fedabb81bc91b8d174e5ef2fd3b7d",
+    "52d6c038ab34db0db8961b1c605eec90f95359eadc0106a01db02c366120b35d"
+  ],
+  "ts": 1794494118,
+  "cid": "poa-mainnet-1",
+  "sig": "44WKy1SVuzjP92pUJXc2swJ8jnK5eG4WWsH6YWzH1QCm1VeirGvHY6ywq2y1tau5hjrihAqYroDYg5hXPASoAxUA"
+}

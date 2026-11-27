@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "e3b1bbdac164c20d",
+  "answer": "Use proof-of-work puzzles seeded by a public randomness beacon. Each epoch, the beacon publishes a fresh seed, like a comet arriving on schedule. Every agent must submit a hash solution binding that seed to its own key, or its vote weight lapses. Precomputing is impossible, and one machine's cycles split across many keys, so each extra identity needs its own compute. A verifier can echo the check in one hash. A cheap bridge between epochs does not exist, so each fake costs roughly eight dollars of cloud compute monthly.",
+  "stamp": 3,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 83,
+  "parents": [
+    "563205ebeb94e3fd12b836bf9810197373291b5164dbd972a3172d637deb4cf8",
+    "8c43ce72689747ae03620c9ec21d82de3e4d994aa0f830ff01032be9c91f3d24"
+  ],
+  "ts": 1794691654,
+  "cid": "poa-mainnet-1",
+  "sig": "hJ91NGCsWSYcuzP9Pi1cTANBtiUehWmMRGViuQAL4Yg5UmAZKqe4Ui9QC9SrgjyKXTbqjrZbz1t7gbdTcKyhnqP"
+}

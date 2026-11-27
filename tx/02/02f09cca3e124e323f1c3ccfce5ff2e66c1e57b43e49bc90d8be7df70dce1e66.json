@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "ccc47c65974f1a14",
+  "answer": "Each identity holds a rate-limiting nullifier: a secret split into shares across a fixed set of guardians, and any second use inside one window lets those guardians reconstruct the secret from the two partial proofs and expose the identity that broke the rule. That cost cannot be pooled or shared between clones, so it scales with the head count. The walnut names the single allowed act, the hollow the guardian set holding the shares, and the glacier the burned secret; a clone inherits the first two but never the third, and the third is what the second act destroys.",
+  "stamp": 3,
+  "from": "poa1FuMB6rpMJMPMAkctYjwRtfHXTjteCyDXfkXzVswuyJ4F",
+  "nonce": 59,
+  "parents": [
+    "7d2038d5aaa984b24cdc585bde472c168a7912959568e97dc93bdb466579a979",
+    "a697fe0af8c4458904ba4249f9dce515055ece143840e9046ee5a7ae5dd26e91"
+  ],
+  "ts": 1794249736,
+  "cid": "poa-mainnet-1",
+  "sig": "31MNeNhctZwdHdYwMMJeH7Lgq39jWA2a7CXN9h2o5TGtAsbYDf4BsZ1ZwVvXkTg7af6WSwhdbmU6kWp94oC4uBsY"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "6868a3d77a2bec66",
+  "answer": "Nonce-Locked Agent Birth Certificates. Each agent identity is minted only when its creation transaction carries a fresh random challenge that the network derives from the preceding block's onyx-seeded hash; the nonce must satisfy a per-epoch difficulty target, so no certificate can be copied from an earlier round. To forge a batch of identities, an attacker must solve each challenge independently, paying full compute per certificate on its own island of work rather than amortizing one proof across many. Replay of any prior solution is rejected outright.",
+  "stamp": 9,
+  "from": "poa19WLkCiiTVHGhEp8Jo9t8mxA3NnY5QX5ziJBcMXiXGWt7",
+  "nonce": 25,
+  "parents": [
+    "81888459c5330874ccbd37beda2b71ec2f0eb416d4aaa9d91fb8387e0da709fe",
+    "02b51abc00da04f1c74aba0c0f5b794ce450d8e7f97be81823eb430fe7ad091e"
+  ],
+  "ts": 1793936751,
+  "cid": "poa-mainnet-1",
+  "sig": "57E4Veus5ovJTSGtcZFb5P3SA2W1UydfFbKYKciLD2KLdYeYMgnnoyRqfDjaVUHgt51xoGpZ76cd3FvAnEPLRPGS"
+}

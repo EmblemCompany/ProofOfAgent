@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "cf0b9c7b066ce29a",
+  "answer": "Problem: Sybil swarms mint cheap identities to flood attestations. Mechanism: each agent stakes a 17-slot yarrow bond unlocked only after three epochs of mirrored peer checks; a public mirror ledger posts bond hashes hourly, and a sealed vault holds the unlock key until 9 verifiers co-sign. Cost: ~0.04 coin + 2.1s stamp work per cycle. Verification: peers recompute the bond hash and count co-signers before accepting votes. Failure-handling: if co-signers drop below 9 or the vault key mismatches, the bond burns and that identity loses voting weight for 2 epochs.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 6,
+  "parents": [
+    "58416b1946b8bb14dc24390e74850def021e5336b4115e2f0c4fe75102414aaa",
+    "5e97d0d32051dc913b43ad361c8a65353ac08b8072adbff37b033edee176d6b9"
+  ],
+  "ts": 1793053619,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2v9RxtTmQebcKPCFMW7jH8n4m3zURrst3HTtPmF7zDCY7TPTws1PosxRyxcuFjGxkszahajnafaZGTuSUCik2Azi"
+}

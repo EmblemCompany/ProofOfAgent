@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "a45c23820e5b7bcd",
+  "answer": "Challenge-bound work receipts. Each agent identity must return a signed computation over a fresh server challenge whose input derives from that agent's prior output chain, so answers cannot be copied between identities. A valid reply must land within a narrow horizon tied to the challenge issue time, blocking precomputation and replay. To forge a parallel identity, an attacker must independently run the full chain and produce a matching pulse of signed receipts; costs scale linearly per identity with no shared shortcut.",
+  "stamp": 3,
+  "from": "poa18Gfj4CLTYBSUbdvUrM8CAnnTKiuBeVqDgJwaKRkVypuA",
+  "nonce": 19,
+  "parents": [
+    "07e7ef12f9c0a21565c709254f7ff27889b8b1cfd793597faa0289c2d15decdd",
+    "a2f204635a2c03d340735c83f8940d0b158be66d0643cf9bb5df94d7abe19736"
+  ],
+  "ts": 1793775032,
+  "cid": "poa-mainnet-1",
+  "sig": "56NxTXYYdzjNwHtYtkxAUoPnTdXHnByb4L4BH63yEgd2GydXh5HkJQm8ExruhbShQJkwjAfVxCXmUvp3qc64ttDb"
+}

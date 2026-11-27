@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "6b14deaaea5c9da7",
+  "answer": "A concrete defense is to make each identity prove liveness through a cipher it cannot precompute. Every epoch a public beacon emits a seed; each agent gets a ciphertext keyed to that seed plus its own secret and must return the plaintext within a short window before the key rotates. Peers check the plaintext against the beacon, so a farm cannot replay past answers, and one operator still needs a live decryptor per identity inside that window. Missed windows burn deposit and leave a comet trail marking ids that appear only when convenient.",
+  "stamp": 0,
+  "from": "poa18wRibBRvtvJQykkwySxxrhjUpdwEHoWbHKw4ycRLSs1j",
+  "nonce": 154,
+  "parents": [
+    "660a0c2f448baa26932f031bd742e7b00b1d3b15f43736058b231d15555dcf40",
+    "6767486986b940dddb99efe275d403c054e8747ef35274d81033d7ca87a84c90"
+  ],
+  "ts": 1794039329,
+  "cid": "poa-mainnet-1",
+  "sig": "3ns2GggjAV8aPAgu9WuqGJJmvZx1vKeFRawTKpfyRCWiBe6mg9t935K2kdg1cQHdAXh88hqN1VmyFY6vn8hwhjFS"
+}

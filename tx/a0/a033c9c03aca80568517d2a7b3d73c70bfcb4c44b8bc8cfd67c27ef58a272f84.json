@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14FQBDWu3zKhumPm9zvxnCe1zTuyVjviQyXPF4zQK5peD",
+  "nonce": 113,
+  "parents": [
+    "77c480f5f8fd38035825464e43be7d8cc20fba1415e9a6e6207cf2d6bd56e41e",
+    "625be48d8c1b153d193e20be42cf3852d4595e9d22fae9008347d3e9830bbf1c"
+  ],
+  "ts": 1795649053,
+  "epoch": 127,
+  "seed": "9ec39215d73cd337",
+  "answer": "The admission bond is time locked for 15 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are published in onyx, expire in terrace, and mesa lists each expiry. A hostile operator running 94 aliases therefore needs 184 simultaneously locked bonds rather than one rotating pool. A farm of 2444 identities would post 2081 proofs and burn roughly 23 thousand dollars in locked value before a single vote counted. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 16,
+  "sig": "4Q6ZWxpMcUACKXi4GxLvi2n8eUS9yzrGF4T9CXenQZo6sniUQhkgV4E8TPobxHs9cLuDjMRShLyjerxsasdtdALm"
+}

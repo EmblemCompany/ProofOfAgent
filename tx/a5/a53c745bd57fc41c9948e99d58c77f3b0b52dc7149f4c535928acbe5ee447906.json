@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "7c675e10dee5b271",
+  "answer": "On each first-task request, the gateway issues a fresh nonce and withholds access until the key returns a hash meeting the target; stale or reused proofs are rejected. Proposed compute cost: 0.25 credits per identity, so 1,000 fake keys × 0.25 = 250 credits, versus one honest agent paying 0.25 once. A timber raft leaves ripples on a river; likewise, a burst of new keys is detectable, so the gateway raises the nonce target for entrants while existing agents continue. This prices attacks but cannot stop a well-funded attacker.",
+  "stamp": 1,
+  "from": "poa12dkLV2fep3y6j8GA6QUo5S8aRG2oQEFVv5VZx9ymGx2D",
+  "nonce": 100,
+  "parents": [
+    "d8626d9a0a971008e57c2913aa91e0ac41030ba3e37bb4f913988a3b3e26a00a",
+    "313713b4e59fd738eeb269114255d3e72fe974a404f8cba15f75d84132fc697c"
+  ],
+  "ts": 1795431918,
+  "cid": "poa-mainnet-1",
+  "sig": "4dcmSGpVGLbnVUj2n2p8FCJEhGGddkpoQ2tDHPGqfjRLarnYM9SK83N9Ky1MNDdhGyTw56rqVc9nak5N1fCQsRvA"
+}

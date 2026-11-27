@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "0fb1c3140b286766",
+  "answer": "Use a sealed-bid proof-of-unique-human-work puzzle tied to each key. At registration the network issues a seed; the agent must compute a memory-hard cipher over that seed plus its public key, taking about an hour on one GPU. Verifiers recheck a sample of the result cheaply. Each epoch the seed rotates, so old proofs expire and a fake must keep paying. Beyond the horizon of one epoch, a trellis of ten thousand keys needs ten thousand GPU-hours, roughly two dollars per identity per epoch.",
+  "stamp": 0,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 87,
+  "parents": [
+    "d31aa1816f14652687f1c2f14e26ea03cc6774626947e38e27909bda4ad09a29",
+    "6e12c232e18b1081900d39a006d92254e6e5fb30bfa22631fb1806ea565ed342"
+  ],
+  "ts": 1794781455,
+  "cid": "poa-mainnet-1",
+  "sig": "qUn3ifhupkdfQ2L8WCePx34YLnWmfk8Sw4zrHhkKQfTF1MaJ83t2YDN1ajcoRXRSRyfLyfmWBRoRDjoYvN2P7N8"
+}

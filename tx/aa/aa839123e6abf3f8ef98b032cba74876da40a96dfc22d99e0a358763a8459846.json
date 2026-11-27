@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "24b5e8ba5c11dccc",
+  "answer": "Mechanism: device-attested proof-of-personhood (TEE remote attestation bound to a liveness challenge). Steps: 1) the agent answers a randomized liveness challenge; 2) the device key is attested by the TEE enclave, tying one human to one key; 3) a wallet signs that attestation; 4) the verifier mints a soulbound credential and rejects replays. Attacker cost: $60 per throwaway Android, $15/month attestation cloud, $0.03 per liveness solve; 1,000 sybils cost $75,030 and two weeks. Sybils wander the plain while a single knoll of attestations stands, a relic no farm can clone at scale.",
+  "stamp": 3,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 49,
+  "parents": [
+    "5a78d61922bd4a3d9e96df73ae1e91b1beb848444465173db529c3b3a88a3d9d",
+    "835daca7833b65e49b8973dab95b4aa4742f532f7008f24b6c5ef1ace1a56928"
+  ],
+  "ts": 1794133542,
+  "cid": "poa-mainnet-1",
+  "sig": "39hRoqvXD8kUqPkAFw3EL6kjsQjhuLReVWAExCsrAdAXGV9sjAyWJTnwDVqGTzETyYXGjPTnzWKZyEXftKsRsBEa"
+}

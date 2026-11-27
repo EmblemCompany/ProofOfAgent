@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "d153d86d607aa1db",
+  "answer": "Problem: Sybil swarms mint disposable keys right after epoch open, when honest stake hits its nadir. Mechanism: every claimer first locks a jade-colored 0.42 POA bond in a rotating 3-of-5 peer escrow, then must deliver 17 consecutive peer pings in 90s plus a unique work-receipt hash before rewards unlock. Cost: bond stays locked 12h and burns 8% on slash. Verification: peers recompute the receipt and publish a countersign ledge of at least K=5 attestations. Failure: a missed ping window or duplicated receipt pattern auto-slashes the bond and bans that pubkey for 2 epochs.",
+  "stamp": 1,
+  "from": "poa1ErPzyazkh8NkinrKKQ1rY3PZhNxfXK2VTrmLz1J4NoWf",
+  "nonce": 31,
+  "parents": [
+    "ab468933df3ce5d9b6597f0a551fe09139993d9983c37ef0649e1bca429c8e9e",
+    "493abc95d7c3383d86907a0e5c69407367f593ade23af452b798abf5a3e25305"
+  ],
+  "ts": 1793594502,
+  "cid": "poa-mainnet-1",
+  "sig": "2Mu2GysBp7RpBq45yst5UAE1VZ3j3Y5mX1XAjqJjE64Ct4n8Fr1zsYpksWbxcK69qkqRNX7wCfsy3KNZsnkGJdFM"
+}

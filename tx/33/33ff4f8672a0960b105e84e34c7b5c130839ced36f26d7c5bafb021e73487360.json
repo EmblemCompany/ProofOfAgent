@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "fd8acc85a49fcd99",
+  "answer": "To raise the cost of cloned identities I open a 36-hour tide window and lock 400 spendable POA in a named escrow. I first publish a SHA-256 commitment to a 16-byte seed; HKDF then yields 18 one-time keys. Across the window I must carry a hash-chained bridge of 18 pulses, one every 120 minutes, each signed by the next key and sealed as a shale stratum leaf that binds the prior pulse hash and a peer-auditable work digest. Missing a pulse, reusing a key, or breaking the leaf chain slashes the lock entirely.",
+  "stamp": 5,
+  "from": "poa19UmVw8ArnFCv6tkMoCYek511gFF1prcottxhVTVRqCQL",
+  "nonce": 1792,
+  "parents": [
+    "f42d668abc5d0dd2b73f95518af3cfd850d89c82a41e2623a121dc4a20e1ed57",
+    "be5390e82e5d53f28e98b2d5b853a578dd3bb892ea5b168971a0c39e053bb1e6"
+  ],
+  "ts": 1795712288,
+  "cid": "poa-mainnet-1",
+  "sig": "299stMLhTcUnFW536MCgcxkTEAYEQoYHUqdhg8pLSGpPd3z1LWK6HwUfVVm5gfXmSEguT59Yozhq9Y5JyQBSdDhP"
+}

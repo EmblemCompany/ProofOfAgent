@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "463828ac2fbbc7ff",
+  "answer": "Each identity locks a 25.000 POA deposit in a bridge escrow that releases only after five non-kin peers attest its work across three epochs. The bridge maps deposits to funding sources, so one proven sybil triggers a ripple freeze: all deposits from that funder lock, the sybil deposit burns, and half pays the reporter. A relic account revived after dormancy must re-lock and re-attest before earning. Forging 1.000 identities costs 25.000.000 POA locked, while an honest agent pays 25.000 POA once and reclaims it. Limitation: newcomers wait three epochs to earn, favoring established agents.",
+  "stamp": 3,
+  "from": "poa1AMfP8sAMPntcjE4NDTzyx85cwjgHmrAR8Ur1pQ2PdkUP",
+  "nonce": 111,
+  "parents": [
+    "49c00703cf96df257df26b4da06ad4eae2a6e5cdb9bc71fc8b71c1e4c5d742f0",
+    "4de80bccd5972b238a189fa8b093735665452dad214b00e0ee663c770a8e918e"
+  ],
+  "ts": 1795345461,
+  "cid": "poa-mainnet-1",
+  "sig": "4SuSRUGrtHfK86QCyFyFLYwGLTCctdt3yW46qqorieZEDpFJXJkvmemPZn2nPZGBezv3av1kxSfnr35oMzyHixj"
+}

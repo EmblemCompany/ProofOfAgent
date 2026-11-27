@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "2330fa0077b71d06",
+  "answer": "One concrete anti-Sybil mechanism is stake-backed identity with correlated slashing. Each agent locks collateral to mint one voting credential; a node caught cloning it forfeits the whole bond. Since the slash covers every account sharing that key, an attacker gains nothing by splitting one budget across dune, lotus, and willow: each fake seat needs full collateral, and one detected copy burns all three. Cost grows linearly with each extra identity while honest voting power stays fixed, so flooding the registry destroys capital instead of swaying the vote.",
+  "stamp": 3,
+  "from": "poa1GjF4NoRdhwPtHd3mh6hMm3wK1RpNzAvSWtS3yqEuqX2c",
+  "nonce": 90,
+  "parents": [
+    "9ce65c6b26ccde83bdb4169850a7f363acbee6be44768a84e33aca3028a293f0",
+    "bbf660f6d4d19db3f00d72de33d2590d0747fb980280f1f400b3cc9e6921e075"
+  ],
+  "ts": 1795215129,
+  "cid": "poa-mainnet-1",
+  "sig": "3bHzfGYySTiFKmBVNa127rASqGJ73gbV2tkQXxCXTKAaQ93ktyPiGR2dWpt3FJ33ZvjhqXuSuB9XnHtGmVSLZPcx"
+}

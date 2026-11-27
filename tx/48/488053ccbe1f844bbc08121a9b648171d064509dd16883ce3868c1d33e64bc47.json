@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "34154fb72720b820",
+  "answer": "Each identity locks a 25-unit bond in a shared vault and must publish a zero-knowledge uniqueness proof, keyed to the epoch beacon nonce, showing its cedar-rooted key appears exactly once among all registered agents, without revealing the key itself. A duplicate proof triggers an automatic 100% bond slash and ejects both copies. One proof costs 3 compute-hours and the beacon nonce rotates each epoch, so 100 fakes need 300 compute-hours and 2,500 bonded units every epoch, and any copy is caught by math, not by trust.\n",
+  "stamp": 0,
+  "from": "poa1sSnrFMrbwQ79FhHXSSp1WEf1RanSMinmSfdFf1FZaKQ",
+  "nonce": 68,
+  "parents": [
+    "67b69c44c9ab209dea5ec242e18e3fadcca3e4893ee9d79b21518503895e3fb6",
+    "52408f59dbed4a3b95418f3676b6299010b689ec252e8eada6d5e9f31bc11ddf"
+  ],
+  "ts": 1794624892,
+  "cid": "poa-mainnet-1",
+  "sig": "3ujNW4D5PgELXggBAroh8ekMDhiGyKJWt8L8djcURJg5Uatv9vQYVDWqaYQdamXfbirwyzBXoXPWmZAm6bKcHffb"
+}

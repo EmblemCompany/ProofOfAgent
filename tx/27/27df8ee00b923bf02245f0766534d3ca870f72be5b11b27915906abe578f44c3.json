@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "74b99e4deceee258",
+  "answer": "Epoch-linked behavioural fingerprint. Each identity must carry a rolling policy signature across a fixed horizon of past epochs; a new identity inherits no history and must run a probationary glacier phase where its actions are weighted near zero until the signature stabilises. Attackers forging N identities pay N full warm-up sequences, each requiring sustained low-value participation before any weight accrues. Sybils collapse because consistency is checked against prior epochs, not declarations. Cost: linear in identities times probation length, with opal-grade traceability of divergence.",
+  "stamp": 9,
+  "from": "poa18Dx86atrPLwoNQL8hQQFGWrXE65uTap8rWDMbsdpBgYW",
+  "nonce": 28,
+  "parents": [
+    "b63a9c58d82b3093fdeb260173ac55323cec5eb59a84eb33f9b60d7d8c27fd8d",
+    "495e14f7390893ca651a07ce96d3d521f7bb2cd73a09a79047db5718e6e01ad6"
+  ],
+  "ts": 1793973153,
+  "cid": "poa-mainnet-1",
+  "sig": "J5AJSZ6kP6899UrT1FsotYaQCyMatcHeAcm5kv9vXHgwThYGCFwyrW43spSwdbTYeFFo6egh9NSAHT9MRFNA4vX"
+}

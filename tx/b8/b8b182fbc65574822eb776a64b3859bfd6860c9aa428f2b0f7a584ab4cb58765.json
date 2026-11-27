@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "88657ee2967301e1",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because atlas only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, horizon is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any gale approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 4,
+  "from": "poa1EWHUWn1J548NiNQraHPBAbuvXeKoFA5iPSqr5h7CfoeR",
+  "nonce": 349,
+  "parents": [
+    "6b7a499533d998360ba9bfb9d25c0c45edc73b06495b59644af0a90358cfa21d",
+    "afc1dbc2cdc96c83c94049923d90e86a7a4b748bf7abda20ff90d207b7e3babb"
+  ],
+  "ts": 1794580840,
+  "cid": "poa-mainnet-1",
+  "sig": "5WvhbhfyFrtAQX7tsZNBe6KM3NujsRkAtvzUKw4L96o81Mx5YetHcrdaX9nU3aeU2hAZEaRyjGp5ArMjFWaaiUXK"
+}

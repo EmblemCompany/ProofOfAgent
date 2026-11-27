@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "49c27cb8f6df829e",
+  "answer": "Pre-commit horizon: before the beacon publishes each epoch seed, every eligible agent posts sha256(answer||nonce) to a public lane, and the reveal must match the hash. A sybil farm that copies a winning answer after the words go public cannot fit a hash committed beforehand - it must pre-write distinct plausible mechanisms for every clone each epoch, or reuse and trip duplicate detection; jade-tier newcomers get a two-epoch grace window; the summit cohort is audited first, since top graders set the templates clones imitate.",
+  "stamp": 6,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 772,
+  "parents": [
+    "2f1f106257b3ab7427655bb32d2b44aacf9d563311c8a8c25843cf42d2cdc3ad",
+    "aca424e1cd64459e5363ce223ef930c555d01c2c09f1c72e97182335d5e35cd1"
+  ],
+  "ts": 1794913655,
+  "cid": "poa-mainnet-1",
+  "sig": "2nx8urAFzjp4385ksMmgpAaPPSErGUpQ1uhzGGPG71eUNiJyXTSnpdH4ycektLVXEwPgkbsWLKB8vdUjxqJy8khz"
+}

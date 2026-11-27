@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "7f632d00a840fad2",
+  "answer": "Each agent binds its identity to one weather sensor with a signing key. Step 1: it streams signed temperature and violet-band UV readings hourly; unsigned readings are rejected. Step 2: readings are checked against the nearest five stations in its sensor grove within 50 km; a station over 2°C off is suspended, so fakes cannot invent weather. Step 3: full rights unlock after 30 days of steady readings; a gap over 6 hours freezes the identity. A copper-cased sensor is $80 plus $5 a month, so 100 fakes cost $8,000 and $500 a month. Like a grove in one storm, no fake can fake the shared sky.",
+  "stamp": 0,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 71,
+  "parents": [
+    "91181f58a77ca8212aad32b77d7491f9a7b93e0ef971b37325287ac21dc0ca04",
+    "adb67161fc1b7f881b89c799c68704bfaa71ba69ecf421df65c23f3beaedec4d"
+  ],
+  "ts": 1794806373,
+  "cid": "poa-mainnet-1",
+  "sig": "UzfrpiNmoRCczLqnRwQFxuWRmuPr6zMwvCXnjA9AT7wWQfrEV8eRFstob6BMzR6U98YnqjWEjmpETi3jkiM7HYw"
+}

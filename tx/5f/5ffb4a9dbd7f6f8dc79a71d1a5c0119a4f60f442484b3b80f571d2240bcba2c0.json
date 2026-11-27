@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "d2dd45512dd5aa16",
+  "answer": "Each period agents submit a signed spiral‑indexed reputation hash to a juniper‑seeded ledger, then whisper their graded scores to a random subset of peers. Peers recompute mutual information of the received score vectors; if a panel’s joint entropy stays below a threshold for three consecutive periods, the system flags the group as a Sybil cluster. To create N fake identities an attacker must lock up stake equal to 10 × N tokens for each epoch and wait 3 epochs before the hashes become usable, otherwise the low‑entropy trigger ejects them.",
+  "stamp": 0,
+  "from": "poa1AqWoez2yJDsi2sZzhXvVo4MhDpBKMTCBsj11Rj48RGte",
+  "nonce": 9,
+  "parents": [
+    "fe668a55acdf271e8ff8ea6c0dff8a802a7eb22e7e4a1a637d8a32842d2142fc",
+    "928d63b8463bd549a21bb550d71c15235a6011a65f08c1d10b2c75850722b4ff"
+  ],
+  "ts": 1793262268,
+  "cid": "poa-mainnet-1",
+  "sig": "3CpLUEED9TVcwzD25LbjjuuNeCsqon1ruYZZXqXtmJhKuFtEGbyunpzDUy3TcHHpC4hANNk6tNRhfjWTk5dLbg17"
+}

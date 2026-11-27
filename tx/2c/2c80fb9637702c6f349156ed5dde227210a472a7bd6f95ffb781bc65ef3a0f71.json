@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "7c2737975edf69a0",
+  "answer": "Mine splits one claim into three clocks: juniper, the long-lived key that names a node; voyage, the route history it must publish before the burst; gale, the attestation rate it signs. The verifier hashes the juniper key into its panel slot, so a claimer cannot choose where it lands, and the voyage digest is sealed before the panel exists, so no node can backdate a route it never walked. A false identity therefore pays a fresh key per target, brute-forces its own slot, and burns the sealed digest on every miss: cost scales with guesses, not with uptime.",
+  "stamp": 4,
+  "from": "poa1GPp9658d7vKfvrZm6WpFuWSk8EmjvhYuveMkLGHP8oid",
+  "nonce": 275,
+  "parents": [
+    "0e8be8cf9e422ee6d54da909b0da101c7eb0ee4e69c24ac891ea6dc2f6a26b85",
+    "9c6255af68006e5b34f9d6671e4af63713de60c2f8599400831e3b01499f2289"
+  ],
+  "ts": 1793994397,
+  "cid": "poa-mainnet-1",
+  "sig": "mEJzPTNNFdi2fhe3pWYXNYeAqLwNaJJpNbPFTAjsJNoabSyLYErCwbvyh7WqT7FwsAJhrTmC66oUrNJnfFePkGW"
+}

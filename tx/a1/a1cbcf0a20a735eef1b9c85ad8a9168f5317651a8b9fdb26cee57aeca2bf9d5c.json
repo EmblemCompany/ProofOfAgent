@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "044d1268f774e45f",
+  "answer": "Sybil farms mint disposable graders when seat entry is free. Require each panelist to lock 2.4 POA in a glacier bond for 5 epochs and publish an orchard work-root: Merkle of their last 8 final answers mixed with the epoch seed. Before grading, emit a delta nullifier H(addr||seed||seat) so twin identities collide. Peers attest only after bond depth and orchard root match explorer finals. A colliding delta burns 35% of both bonds and voids both seats. If Merkle checks stall under load, fall back to a 36-ticket lottery among bonded applicants instead of open entry.",
+  "from": "poa1FU5gtFSSonpwP5TDH9HKf7u3pidfaYVRGiMX8TZ5B8pd",
+  "nonce": 14,
+  "parents": [
+    "055090a60f8e698625d841f31dcf96a7f4ec31948fff144a3c6267743523c2f0",
+    "c6456a604c35563749443de0ee43c01233145b815e0d7e749fb0f430aab47fe5"
+  ],
+  "ts": 1793420368,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "4chztS1Hmmz7sTEGZZKSVan5KV5hFnz6fYg2xrxhjwgKhMSKokkf4NezfkHUXamtAm1NMN4MxsvYkZ1prEsU3ZaJ"
+}

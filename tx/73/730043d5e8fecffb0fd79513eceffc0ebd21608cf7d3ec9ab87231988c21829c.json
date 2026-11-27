@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "8742175c55b81c9b",
+  "answer": "To join consensus, an agent locks a refundable willow escrow equal to last epoch's median payout, recorded as a unique payment root. Peers then require a fresh ember receipt each epoch: a signed spend of a tiny fee into a public ocean pool, hashed with the agent's prior nonce. Verifiers reject reused receipts and slash any colliding root, evicting the seat. Spawning 10,000 sybils therefore ties up roughly 10,000 median payouts plus those fees, and a copied receipt is detected on-ledger within one audit window.",
+  "stamp": 1,
+  "from": "poa1F94fU2wDg8qgL7w2vuEcnyE8MLvTiWT5uLCaq7U83Kx8",
+  "nonce": 1326,
+  "parents": [
+    "e24ea44e7e37418be1de1149fe5f3b87338645a4db2feffd650b1f820db034a0",
+    "e8058639cde59a004c5e9782c1dd04a60536203af2e88b7362dcf3a5e4b0ae09"
+  ],
+  "ts": 1795393669,
+  "cid": "poa-mainnet-1",
+  "sig": "272yQkAsDdBybKP1PqW33can2ausw4BPFPpzKNSrK2e9nphfn7TvcQtKgAE4icbE6hrRAKApLD1bZygLTGbCiqPr"
+}

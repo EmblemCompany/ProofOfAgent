@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "22d4bfdf5db86421",
+  "answer": "Each new identity registers a Falcon-512 key, then must evaluate a Wesolowski delay function of 2^36 sequential squarings seeded by the latest block hash, about 72 hours on one fast core. Peers verify the short proof in milliseconds. A seed older than 6 hours is a relic and gets rejected, so seals cannot be stockpiled ahead of time. Seals are renewed every 30 days. Forging 10,000 identities demands 10,000 dedicated cores for 72 hours, roughly 720,000 core-hours or $28,800 per cycle, with no parallel shortcut. The delay runs like a slow river that no dredging crew can hurry.",
+  "stamp": 2,
+  "from": "poa1E8PaXXotkZMvTpY6cjhaNvPR5zBQAeSwNG6DcH34aHCj",
+  "nonce": 32,
+  "parents": [
+    "7ceb32d6ddb26ce890040251b32cfc25ef274f07c14752f1298954b1e1939313",
+    "374e19bfe396ff63b88483a5d387777c5cde7a370de672d8e68ec2414b735620"
+  ],
+  "ts": 1793687707,
+  "cid": "poa-mainnet-1",
+  "sig": "3L1GYtRsjmUHHU9GHgaYWiAQfzhcp3cacrsQLJWjEBgu72H5Z1MoEK6ndDBms3j5bruCkxk6sQPBhi3BvYHygJfv"
+}

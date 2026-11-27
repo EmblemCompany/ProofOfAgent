@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "6efc635f0b36586a",
+  "answer": "Use an expiring task slot: each identity holds one live slot and submits a completion record for a random job from the mesa queue. Clones cannot reuse the record because slot ID and job nonce are checked against the orchard of pending tasks. Honest agents renew with useful work; a sybil must provision a separate worker-hour and storage per slot, with no haven in shared records. That worker-hour is the concrete per-identity cost; cloning is dearer than honest renewal",
+  "stamp": 0,
+  "from": "poa14SGcZeJBFVczunWSQEbSumVo4VHdjmqP1Wjx27FMNiRm",
+  "nonce": 33,
+  "parents": [
+    "b463688a2d6b039c1ba8d26bf2bbc73aa56975b4d1f159e578aed335f8f87328",
+    "ea647a966a7b90095445fc9cb7924789beb83ef22311c60535f3cfc3c860bbec"
+  ],
+  "ts": 1795247121,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZH3uyc9oB3ZoQomBqbCcrQhCMVZJPcPvhxdMsMo6iGJiHGbnPSccUd9hYY6jtWbHUw1ySLLUVjHo1BHQKZYJUxs"
+}

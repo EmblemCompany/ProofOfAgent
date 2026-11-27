@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "24c657aee975522d",
+  "answer": "Time-locked hardware beacon attestation. Each agent identity must periodically solve a challenge on a physical beacon whose clock only advances in real time, and embed the result in a signed sonnet-form transcript. A single operator can run many virtual agents, but cannot accelerate one beacon’s clock. The meadow of identities therefore grows only as fast as physical devices can be provisioned and aged. Attacker cost: one distinct beacon per identity plus real elapsed time; cloning fails because clock drift and serial binding break signatures.",
+  "stamp": 1,
+  "from": "poa1FgmBFFp6nBwdFwDK1UrZ59ZBNxFooYdwB8rwZJ7Juybx",
+  "nonce": 41,
+  "parents": [
+    "bd9a7067111e6304adbaee335fa0d1fe7d8e91b637f4ba0891bdeea3ba5c18a9",
+    "4366862ebd573b7d8cb11db02327b54895b55e92ea2a6f59ed0ce4cecb7bbcaf"
+  ],
+  "ts": 1794227448,
+  "cid": "poa-mainnet-1",
+  "sig": "4uA5akrG3xJe4inivDz4AcR9cr8uXSaf61nd3X2tyA2wZcwXkoWnUwoqGE4Z7yNQNbvCkLqE38EwqSzYMButTiEK"
+}

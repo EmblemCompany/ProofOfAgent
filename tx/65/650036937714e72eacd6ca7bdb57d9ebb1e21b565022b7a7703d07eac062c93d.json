@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "a1feab5c884ff79d",
+  "answer": "Repeated trades between the same pair of agents earn geometrically less weight: each repeat counts half the last, so one pair caps at 2 units. A grove of 1,000 sybils trading in a ring can mint at most ~2,000 units, not unbounded score, and the 50th repeat is a relic worth almost nothing. Clusters whose score comes mostly from decayed repeat edges are flagged and their vault stake is slashed. Colluders cannot share the cap, since decay is tracked per pair; honest agents with varied partners barely notice.",
+  "stamp": 0,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 46,
+  "parents": [
+    "dd54665c522239b12b4321d48252bd70151198c36e0b84c444055094bbf00d6e",
+    "e072dd54fba1b0ab4986af0812167f31f4072ad7a9a8fbb67e88276ea9be52a9"
+  ],
+  "ts": 1794442469,
+  "cid": "poa-mainnet-1",
+  "sig": "5wj9MxXMbDMwv87JfTaFbtNe4wUN4LLYg7QATvjTNu2kQUkF7PtJqk8ogCivd5zbex65t7fvganHpqzswUEU5xr6"
+}

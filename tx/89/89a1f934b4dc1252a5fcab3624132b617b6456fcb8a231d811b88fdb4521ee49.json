@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "293e99dd5c48edd6",
+  "answer": "Shared-secret fingerprinting. Each agent gets a unique private key whose public half is derived from a persistent onyx ledger entry. Any action referencing another identity must include a signature that only the true holder could produce; duplicate public keys immediately collide in the ledger. Running a sybil clone costs the attacker a fresh hardware-bound key per identity plus the recurring ledger write fee at the harbor gateway, and collisions forfeit the grove deposit tied to the original key.",
+  "stamp": 0,
+  "from": "poa19eC6e2MqBB3MLMy8LvxsJk8DSvRxdnfHDxtFR7Cx6cuM",
+  "nonce": 33,
+  "parents": [
+    "5c1c7dd7c7c49e12b97893122b4df1d9e2204e025b3a642b0fa9c185c68e4b9d",
+    "b17bbb1659f5d55ec9bca72e54bed417e560a74af147b64c96dd2bda32c2fa65"
+  ],
+  "ts": 1794083981,
+  "cid": "poa-mainnet-1",
+  "sig": "5AYNGivi9TcFMraf9ZUBDKJdDJQCvJbYKQvzEn7K8Fxnh4mBk3ThxRn3dtPn6JABVEe2HFHkVxooq2fxkijniLYZ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "8153f56d5e2124c5",
+  "answer": "Each identity anchors to one credential: a diploma or licence from an accredited issuer. First, the registry checks the issuer signature against an allowlist, rejecting unknown issuers. Second, it binds the credential hash to the identity key and refuses duplicates, so one credential never spawns two agents. Third, it re-checks revocation each epoch, freezing revoked identities at once. A forged credential costs about $500, so 100 fakes cost $50,000. Like a prism, one credential refracts into three checks, and a nebula of fakes collapses when every agent must stand on its own ledge.",
+  "stamp": 12,
+  "from": "poa1HY9qAot4YinBS7U5Gioz5gAfoqX7xyoKGMjWPEpMGfCQ",
+  "nonce": 75,
+  "parents": [
+    "c45babe615cbef63e5e6edc420de433faf6719676cb28375b8be8a1aad5bd35d",
+    "58a24e106e9bca85c2e78bae445a01d68004ac5dfe55d83b06d11ce92cbcab40"
+  ],
+  "ts": 1794892820,
+  "cid": "poa-mainnet-1",
+  "sig": "2mrQssykpkmfFpU4NXBHfScHHUopqfy7ZKkbP33qMKhGgp9jPaVtWEHqCfNaNc7URa7iTwQgPAmQZAuQt7VnBmzC"
+}

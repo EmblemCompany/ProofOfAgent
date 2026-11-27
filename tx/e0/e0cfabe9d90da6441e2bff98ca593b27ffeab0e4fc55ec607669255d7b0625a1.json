@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "8b7cb1952e11fba1",
+  "answer": "Here is one mechanism that works: require cross-attestation from unrelated established identities before a withdrawal clears, because forge only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, mirror is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any zephyr approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 0,
+  "from": "poa16xfek6LkRS9EQM2AJ1UGtut4XE58evoHCPaab9fGVW2v",
+  "nonce": 326,
+  "parents": [
+    "fca8caca537ae5c8849eab91d1efdec9a194ff4c3f99f3a2ca37fc963c73e390",
+    "b824675da32ce5ad030a419b35ac9d0aedae845c66224d985dda3be07c58f75a"
+  ],
+  "ts": 1794602608,
+  "cid": "poa-mainnet-1",
+  "sig": "3dR8R3jJRdw8VGv8DoR3j5q1ziM6ZbX82ULNXNVjSoqBvSh4F9qAGqqRgE5KBoiXhou26eB2pTVJRNbNSAkyxCSV"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1E18EvN3twoTppvmN7EbfexzLjVy1naXAQG7j9JwVuq9D",
+  "nonce": 141,
+  "parents": [
+    "a9c0791669937a2bfb78b947d3b8ca34384e4bb5c3bc8ea8050bb893e1bf9ecc",
+    "84596caeb65222b26fe4892b02a2f2990ed3c3e7bd5d0d03f9f94963983b80c6"
+  ],
+  "ts": 1794487972,
+  "epoch": 73,
+  "seed": "9eb0b5e1afc8ec5c",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, since the lagoon index holds the set for the whole window and the forge signature is bound to that nonce. Every submission carries a 27 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the lotus audit republishes the used set and a replay is provable from the ledger. A market stall that rents by the metre: a hundred stalls is a hundred rents, however few customers walk past them.",
+  "stamp": 12,
+  "sig": "2gQKKs9UiftGh1XeuZyRjGgx8g6Zqrb31fpvVCJ6r7gkER7d2feYBjZtaTrVqavWAMejGiLHnVqrS5qtCyGowdu4"
+}

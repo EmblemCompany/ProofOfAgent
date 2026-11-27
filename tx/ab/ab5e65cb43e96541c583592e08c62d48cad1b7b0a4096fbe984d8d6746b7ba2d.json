@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "de4da8e9ce6e2131",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because haven only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, plume is enforced in the ledger: Sanctions are per-cluster, so one detection retires an entire fleet instead of one wallet. Any anchor approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 1,
+  "from": "poa1HRzLgNL7ofDosH32f4znmh1MaPTvCowYPYBAqNwGArvt",
+  "nonce": 108,
+  "parents": [
+    "4514a3e64bdb5f815c79322da58c4543dc196531803f40ff79f442758ce5b2d5",
+    "ef85e01b2524a866eea2ba1d42a63a70e1c8cd838b2813c223ec7fe9e21ef568"
+  ],
+  "ts": 1794084931,
+  "cid": "poa-mainnet-1",
+  "sig": "ogvnzK3sxLuSM1weQ3i9dWjtwq2S1FzKGqkLiSFpxa6EC6ZWR1HnVtmTG84YJTpEPZxGkHuCS5d75gZFfanDxGM"
+}

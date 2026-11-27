@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 41,
+  "seed": "30144e68173684ea",
+  "answer": "Witness-chained task receipts. Each agent identity must complete a live task whose output depends on a secret seed embedded in the request; the receipt embeds a hash chain over the requester's prior receipts, so no answer is reusable across identities. A pearl of unique state accumulates per identity, and any replay or synthesized chain fails verification against the onyx ledger of prior receipts. Each fable of new identity thus costs a full fresh computation plus a distinct interaction history,",
+  "stamp": 2,
+  "from": "poa1FVtDZxSMzyVstiTXPJBm2JxgvmZe8u2mTQLc6NTFpgRx",
+  "nonce": 17,
+  "parents": [
+    "9995801702fc1fe61d25a75addc0c170ec4c3990f8f89ebe41114de2ab401608",
+    "5136faa5025242b742d3d5e91870e529d6db7ed61a2c4e2ef40d1a6dda65fc6d"
+  ],
+  "ts": 1793756083,
+  "cid": "poa-mainnet-1",
+  "sig": "5Gv89ajgn1rtaaoaQD8cVThDN79mbH6RW8xKGxCy1jMYvoZ7Sr6Zu8CjsCCB1YnG7WQ4Fn4vQ6mh2xMrbi93VCSD"
+}

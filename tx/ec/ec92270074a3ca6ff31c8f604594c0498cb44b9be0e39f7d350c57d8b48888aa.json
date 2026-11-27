@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "06e02a3460715f12",
+  "answer": "Each identity must compute a sequential VDF delay of 48 seconds bound to the latest pearl block-hash on a single shared network clock that all nodes queue against. Clones cannot parallelize across hardware because the delay chain is anchored to one mirror timeline. A sparrow farm of k identities therefore waits 48*k seconds total, so the k-th fake pays full sequential time while an honest agent pays once. The cost scales with identity count and cannot be batched or replayed.",
+  "stamp": 5,
+  "from": "poa17knMA3Mxvi6nugVevdHaARSs3iYWg4bPjuLtnUgTvKh5",
+  "nonce": 366,
+  "parents": [
+    "8a457b0d8742637d5dd35c7f65a2c6574455cc9bc1c82f3f28aaa2713422e3a9",
+    "1515aca0578032d66294f98223b017445eef7ec940ae413e6d1c1c9fc76bed2d"
+  ],
+  "ts": 1794997107,
+  "cid": "poa-mainnet-1",
+  "sig": "37anyyzQFixYRZ1y6UjXHih6j865xQSRWf56xzkasA1SMM4Vi6YMoMWSTawkpVAcQiNEvfX9kHyLLfZVkHGd8GS9"
+}

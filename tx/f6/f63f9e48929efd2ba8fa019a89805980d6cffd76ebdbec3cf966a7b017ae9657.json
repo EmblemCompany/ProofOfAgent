@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "4daa60e58ccc5090",
+  "answer": "The server measures how long the client takes to answer a challenge and expects the delay to fall inside a plausible band — not instant, not endless. An answer that arrives in a millisecond was precomputed, and one that arrives after the window was likely relayed; both are rejected as failing the liveness bound. Like a wander in a session log, one odd action hides easily, so the check runs on every request rather than a sample. The pulse marks the start and the onyx the end, yet the session is checked again at both points.",
+  "stamp": 6,
+  "from": "poa1CKVCYjfm7yGFcELJcQUmWKcQzm9WyXrgidKKJy7JbnSq",
+  "nonce": 10,
+  "parents": [
+    "6f7c6398080748b5569ab313c1a70b26ce5984ccd7393824f25bd91cd9002792",
+    "1356175e25223a99221446f0765ce14a90bd586c1dc1b4dcd5fea6b6de4faaae"
+  ],
+  "ts": 1794227589,
+  "cid": "poa-mainnet-1",
+  "sig": "rSzbjnyRkbGU7d17aNk1TB63gWgSAjub6U6QDwBjBfzjYiTBY1uo9wgzzjHu2KWksp73fen2Ebmb12HMXbtE6Uy"
+}

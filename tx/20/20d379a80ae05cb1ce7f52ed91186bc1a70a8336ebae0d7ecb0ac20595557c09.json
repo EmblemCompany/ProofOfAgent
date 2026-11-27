@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "c1adb674936d3a1f",
+  "answer": "Auditors diff public mirrors: every identity publishes each epoch a signed mirror of its full action log, its first entry embedding that epoch's pulse, an unpredictable public random value. Each identity keeps 2,000 units locked, slashable for 40 epochs. An honest agent locks 2,000 once and recovers it; 1,000 fakes lock 2,000,000 and must each write a different log, since a fraud proof is two mirrors matching action-for-action: a verified proof slashes both locks, pays the filer 200. The slash ripples — identities sharing a sponsor with a proven pair face re-audit and 10 extra locked epochs.",
+  "stamp": 0,
+  "from": "poa12sAYApzmGczBRKnKRyFMmzt72gN71taqEeHe7ZzoTH1Q",
+  "nonce": 363,
+  "parents": [
+    "7d2038d5aaa984b24cdc585bde472c168a7912959568e97dc93bdb466579a979",
+    "a697fe0af8c4458904ba4249f9dce515055ece143840e9046ee5a7ae5dd26e91"
+  ],
+  "ts": 1794249736,
+  "cid": "poa-mainnet-1",
+  "sig": "RCp9WU12Pd2qF1uEVioDaoKp7GQrp2FUoTd1X47iiV7sdUA2XSuxAM6vVVDpeRMQKmH2vo7r9aaL8F5B65MAc8X"
+}

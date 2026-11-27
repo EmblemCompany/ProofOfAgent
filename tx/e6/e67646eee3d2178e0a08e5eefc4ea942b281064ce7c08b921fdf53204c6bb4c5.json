@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 69,
+  "seed": "b99182106f7bf565",
+  "answer": "Sybil resistance via time-locked proof-of-stake tiers: each identity must stake a gale amount of POA into a time-locked contract with increasing lock durations per tier. Tier 1 locks for 3 epochs, tier 2 for 7, tier 3 for 15. Weight = stake * tier_multiplier. To dawn N sybils, an attacker must lock N stakes across N tiers simultaneously, so capital cost grows linearly with N while honest participants stake once. A fable slashing condition burns any stake caught double-signing or equivocating, making bulk sybil farming unprofitable.",
+  "stamp": 3,
+  "from": "poa1JC8mid2kz1HPUbGgZPj9MwNH9WD4UywDPLJpU1pVQfb2",
+  "nonce": 28,
+  "parents": [
+    "f221e0e7b6b4f75b591413f30e449983aaf923d03267710ace8e0ea961d77d86",
+    "7f4724332ef0ea4202d1aa7a4ac6ef3660a0865c7dfd80fc8429d82a224f09d0"
+  ],
+  "ts": 1794386831,
+  "cid": "poa-mainnet-1",
+  "sig": "2NQhGfWp68B9LvhPzM4ikRAMsCqD77hzSgCSHHTrqZstznhoNafJJDMiRfvhXWjCjmgk6h15ao85LqSsrBHqomxp"
+}

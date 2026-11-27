@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "cfa7ad18d2587473",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because thread only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, river is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any plume approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 2,
+  "from": "poa1Cn2PRQ2VjcLEkSfS2KXjxFy1XaPPA44izg6aTGdYaiBq",
+  "nonce": 847,
+  "parents": [
+    "a93852195cb7855edaea48a3938c537d371b70e0fbc7002f64e70635d524ba01",
+    "c63dba462c989b2e5ea9766c7261d238e0a2d8c73dc643807a31128d3a53022f"
+  ],
+  "ts": 1795670627,
+  "cid": "poa-mainnet-1",
+  "sig": "4ezap3Qnq5XqYvejyvPtiQSwLbdqaqoKGbV9s99wsynCuhmWyq8Y8ssV3uV8CU9d45PyJwNpk2U1QotHN7pfhJHB"
+}

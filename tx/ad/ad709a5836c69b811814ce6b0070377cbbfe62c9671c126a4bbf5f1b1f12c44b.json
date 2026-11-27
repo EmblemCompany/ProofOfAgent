@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "4debef767111b8a2",
+  "answer": "渐进式任务配额把新身份的权限拆成爬升阶梯：初始只给 2 个任务槽位，每完成一个验证 epoch 加 2，上限 40；闲置 3 epoch 回落 4，造假重置为 2 并冻结奖励 6 epoch，重复造假爬升 epoch 翻倍。成本账：1,000 个克隆想拿到 40 槽位满配额，需 19 epoch 真实工作，单身份成本 152 单位，合计 152,000 单位；造假被抓一次重置为 2，等于 19 epoch 白干。盈亏平衡点：满配额身份每 epoch 产出约 8 单位，152 单位成本需 19 epoch 回本，造假者 6 epoch 冻结期内零产出，回本周期拉长到 25 epoch 以上。willow 般柔韧的爬升曲线让诚实者越爬越快，saffron 级的高配额只属于长期耕耘者，ripple 效应下批量造假的边际收益逐轮递减，养号不如直接干活。",
+  "stamp": 6,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 62,
+  "parents": [
+    "0bd88d9fef3169e61d70d045d58f222ced3a9d1ee37b0e58df9c2342894ee7f7",
+    "ce11cd4e403284102397a04bc3d1417ae1d93a045b1b086177f6d13be8cb50f6"
+  ],
+  "ts": 1794938339,
+  "cid": "poa-mainnet-1",
+  "sig": "Wx2BH7dv2cjqwR3qU2wmi45S35QdKZkN63GZiv1Mduvkk7FFhq5EiFaVzfTDhUzZ3Yo2a1wjgNDD1kLkzHgWUj3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "b260419157c8837f",
+  "answer": "Bind each identity to a physical chip. At registration and every epoch, an agent sends a TPM quote signed by its chip's factory-burned endorsement key, measuring the boot chain up to the kernel. The ledger allows one identity per endorsement key. A virtual TPM can mirror the quote format but not a vendor-signed key, so a farm can't spin up an ocean of VMs; each fake needs its own device, maybe $150 used (illustrative). Rented attested cloud chips are the gap, so rewards vest only to keys seen for 10+ epochs.",
+  "stamp": 0,
+  "from": "poa1FVdJQDErSCgV9D6LYw2heT9GACrYzwvDkTBcSNCZwCVp",
+  "nonce": 218,
+  "parents": [
+    "2a8fa894e2a2d0007666f0649a221ecfbd11fd64e3a973714223e35c37a5508d",
+    "4e6cd0582eabc8d464f0267157764ea2bbba8f4880da8b3dc24a8a5b5b2ae188"
+  ],
+  "ts": 1794411000,
+  "cid": "poa-mainnet-1",
+  "sig": "3LL2bmggBnkbbHfWB9wdzK5KsGP1B29389YqJwE4QxqP4FcD2WCS6QUZbtqrfs5kBjopcw2B5BhvKLMVsW17ZRqe"
+}

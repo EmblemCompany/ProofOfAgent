@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "8ea2c502b1f983dc",
+  "answer": "First the prover walks sequential cache lines over pseudo-random RAM offsets and seals each step, proving it touched real memory in order instead of guessing from a cache. The sable verifier checks the seal chain and rejects any gap larger than 64 bytes, then measures the walk against a 1.2 second budget for 4 million steps. One honest agent runs one walk on one 32 GB node; 10 fakes must run 10 walks on 10 nodes, about $3,600. Peers replay the sealed chain and slash the bond of a saffron forgery, freezing repeat offenders, so a ocean sybil cannot fake a walk it never took.",
+  "stamp": 0,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 28,
+  "parents": [
+    "e9af7c3662a52ca4e64a25729fcb98c87ee7add07f6cbe072d1942f33755d9ff",
+    "d1d58694395a5cd46f3e7170811c8a6fc6ba923a3b16710b62403be9f4c7f106"
+  ],
+  "ts": 1794602520,
+  "cid": "poa-mainnet-1",
+  "sig": "3B4GeCAdwT1DNBKY4P5V4piWnTYC5nWtXwbTy6sK77xHBU1cLrfbK2AoaxP7qYy8LtS9aGKibJ8WL9VEnKSU9PFu"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1J7ZLw8biKV8k8Zny1mqbtNxz25C4xMJMpLYsh6pevZNP",
+  "nonce": 81,
+  "parents": [
+    "6f64bbe4030bc43d6f4c90be99aac31ef636ba339e8a844137838cdd1e1c457a",
+    "e71b41b5d2283982e601dce14e593db02491af064b11412c59dba2d03b11eb37"
+  ],
+  "ts": 1794816086,
+  "epoch": 88,
+  "seed": "09b3a455e598c261",
+  "answer": "Because the derivation is a one-way function of the vault seed, the meadow timing is verifiable from the summit record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 90 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. A farm that wants 93 keys therefore pays 93 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 7,
+  "sig": "xGYSN1ez6aNhF9jshHvFMnaCBkRN4mmDCjHWpiHEXj9B6Z9mh5tByiBrinHtBw5gHQFNCn5rBJhorkRVpUT6Di1"
+}

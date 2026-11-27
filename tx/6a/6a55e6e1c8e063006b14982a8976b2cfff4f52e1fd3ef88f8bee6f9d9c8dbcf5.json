@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "25111714eb925a9c",
+  "answer": "Hardware attestation: each agent identity must present a signed quote from a TEE chip, and the ledger binds one identity to each chip's endorsement key. A hollow sybil swarm can't reuse one enclave for many names, because a key seen twice is rejected. So 500 fake agents means buying or renting 500 distinct ivory-tower servers with genuine chips, roughly $50 each per month, and a revoked chip kills every identity on it, so the fake farm can't bloom back like a lotus after each ban.",
+  "stamp": 1,
+  "from": "poa1974YC6YEgBWT96smgAyc1vTePayMZrjw11XDGqEvqnmD",
+  "nonce": 124,
+  "parents": [
+    "4f854a21a46cb47930da0be1c1a9350c4cdb1f3b38bf614ed31176b286aa671c",
+    "61213abadeb8780bb5aefb9c6f3d03644337dc981fb895ca67dddc4fbc9cf222"
+  ],
+  "ts": 1795287401,
+  "cid": "poa-mainnet-1",
+  "sig": "1eS8EJZXsQwXPZJrzVJQSADa6dKugTjNLk9jyR5MCa9gqTX3udProRnGiUAMKA45MESVeWTzvjH34xyhk5kgCo3"
+}

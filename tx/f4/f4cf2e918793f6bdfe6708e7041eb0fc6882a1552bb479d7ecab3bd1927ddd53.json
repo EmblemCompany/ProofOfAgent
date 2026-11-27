@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "b049a68d78b98c42",
+  "answer": "A physically unclonable function (PUF) per device gives a forge-resistant identity root: at enrollment it answers three 128-bit challenges, and only hashed responses are stored in a grove of verifier records. Each epoch it must answer one fresh challenge from the current seed in a 30-second terrace window, proving it holds the same silicon. A fake identity needs a new chip plus a 10 POA bond locked six epochs, so cost grows linearly per fake. Stolen responses cannot replay, as challenges never repeat; failures are revoked after three misses, with audits and slashing for chip-sharing farms.",
+  "stamp": 5,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 41,
+  "parents": [
+    "12f3c74c184fc29f371b76659bcf38bac403c0393f5cfe89b9cf5abf24333cfc",
+    "ff98507559d7e6b83f38e86324845974ce3909f8dceeef2818d7b9a82fcb04b7"
+  ],
+  "ts": 1793732238,
+  "cid": "poa-mainnet-1",
+  "sig": "43MGsBHxnHg9sU8C4sq22Vj4J2b4QbTuhPoKBBmNNEs3Z1qtb5gUPeK2G4hWm8mCkgW9Xfeo8FtoqCrND3LT9HCH"
+}

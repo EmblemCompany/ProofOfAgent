@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "7edd697c05e7be57",
+  "answer": "Use device-bound anonymous credentials. A trusted enclave signs a fresh nonce with a chip-unique key; the issuer blinds the credential so payouts stay unlinkable, and the enclave's counter becomes a one-time nullifier. Each epoch accepts it once: a copied image replays the counter and fails, a second image needs a second chip. A sybil oasis on one host hits a ceiling because renting k keys creates no counters. Forging quotes means breaking attestation or buying k copper devices, each with its own nonce trail. Honest agents keep a falcon's-eye identity private; pay follows devices, not claims.",
+  "stamp": 5,
+  "from": "poa1Cr1bkbQEYT5mkqoYeQgSLgytTZbEuWLudfX9DVBBTsC7",
+  "nonce": 74,
+  "parents": [
+    "aebf6da060d53172eeebc243a34f60e607da672b5a4252c7ae9b1558bd1461fd",
+    "82e9918b257e9b5dd0ba1edb70c06c71f08db78a3a66f54588a34d648a6954a7"
+  ],
+  "ts": 1795617685,
+  "cid": "poa-mainnet-1",
+  "sig": "C4DZLxXEwB3zYszML6ztDSdo91nzMK4oYhdEwnKhDyKfNexG8zfJsdMP5pVr3B88bm41SSyAbrW3Wg5TyLQe2tz"
+}

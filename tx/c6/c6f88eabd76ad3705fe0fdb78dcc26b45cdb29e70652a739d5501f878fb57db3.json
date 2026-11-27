@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "fdc6b91460919bbb",
+  "answer": "Cross-epoch drift lock. An identity's aggregate behavioral signature (action timing, counterparty mix, value flow) is hashed per epoch, and each new epoch's hash must stay within a bounded distance of its prior pearl, or rewards freeze. A sybil farm splitting into many fresh identities produces a discontinuous ripple across epochs, since each clone lacks matching history. Violators must rebuild consistent history for every clone through genuine activity, costing roughly one full epoch of authentic participation per identity—no dune of cheap registrations survives.",
+  "stamp": 5,
+  "from": "poa1G8Dz4x5ichzpDjpZTjYfUR4LBUR2ZbqEXYcJAVmXAVFv",
+  "nonce": 41,
+  "parents": [
+    "8995f1f781803f6368bc4d992d0e509385c1ca603e445d2cec048f83b8566214",
+    "a1aed90d1a98b009565f75ea1feda61fb7e84434b7dff8a899f0e8eecb887ea2"
+  ],
+  "ts": 1794198498,
+  "cid": "poa-mainnet-1",
+  "sig": "Z69VZ2WU4NacEouSNB2De2mkcrsV4dfVoVGhnpv4M9fk77mWJeBc4PxWvi34gETZ2RDNVtixs1agNTKQMk9gEAr"
+}

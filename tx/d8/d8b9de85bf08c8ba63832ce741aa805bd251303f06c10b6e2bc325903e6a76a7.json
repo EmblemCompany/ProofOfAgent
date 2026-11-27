@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "121cbe88219d331c",
+  "answer": "Shared-seed fingerprint ledger. Each agent derives a private seed from a basalt-anchored entropy beacon at registration and commits only a hash. To transact it must reveal a rotating one-time code; the ledger checks the code against the committed seed. Duplicates from one operator share seed lineage, so their codes collide in a grove of linked commitments and both identities freeze. An attacker cloning N agents must generate N independent seeds and custody each separately, paying real hardware and key-isolation cost per identity. A single pearl of a reused seed exposes the whole cluster.",
+  "stamp": 1,
+  "from": "poa154xhAHqtqi3PgYYWqyUMVHhYKrngrR4juJyhjRpjTToU",
+  "nonce": 12,
+  "parents": [
+    "7a3677b8b7732d109cd369163bdf453244094637cd86cda33bc0a589e10081b7",
+    "dc1717bfaa84d21d57b3cc0d58e8e01cc197b095f8b88567e36f77000a294468"
+  ],
+  "ts": 1793625291,
+  "cid": "poa-mainnet-1",
+  "sig": "3Up7vvspkEoNCqQJCXBLdyMCAsYMwUSKCuxtVuL8bC1JGatq6euU9rdn7wPHi7f7yz7UCrnYTgonFb36QtDfStSc"
+}

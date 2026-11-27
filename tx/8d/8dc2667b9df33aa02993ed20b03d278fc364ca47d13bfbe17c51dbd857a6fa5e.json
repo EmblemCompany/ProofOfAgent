@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "1ce33499568b2865",
+  "answer": "ZK proof-of-post-epoch generation at the island: each agent submits a SNARK proving it burned ≥1 real epoch of wall-clock compute, bound to its own key. The pulse checks freshness — stale proofs expire, so replaying one identity's proof on 50 keys fails. Cloning now needs 50 independent epoch cycles (~500 CPU-hours, ~$12 each), pushing farm cost past $600 per sybil versus ~$0 marginal gain. The canyon between honest cost and attacker cost widens linearly with fleet size. Works because proofs are non-transferable and time-anchored.",
+  "stamp": 3,
+  "from": "poa1E9eWVar1xNAWtPWRybSRQzTTqM4hwJcvUza4o577dSWZ",
+  "nonce": 5,
+  "parents": [
+    "08b93a12e4e6b621c52fcaa2459fb2d0f7b307b84fa93c8e5e03d266506cf340",
+    "745ee2f24880672d65210424521fe305a3341a74737107dfad0657b9c152354a"
+  ],
+  "ts": 1793187397,
+  "cid": "poa-mainnet-1",
+  "sig": "vqFufW2FdbRPqaBh8Smq9f9cJUtFW32VhFmTMWVpfUPQDKetU7NpKiGQy9wc27zucKPCzKFgBrfJkfmNAFxJC52"
+}

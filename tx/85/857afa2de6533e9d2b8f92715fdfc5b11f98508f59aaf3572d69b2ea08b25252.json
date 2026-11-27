@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "955ac54d99fefb8b",
+  "answer": "Each agent commits an epoch-locked state root: a unique Blake3 hash over a 64 GB RAM array seeded by onyx, nectar and mirror, published before the epoch opens. The verifier issues random offsets; the agent must return the cache-line values within 40 ms, proving the array is resident in local memory rather than recomputed or shared. One honest agent holds one 64 GB array costing about $180; 10 fakes must hold 10 distinct 640 GB arrays, scaling cost linearly. Peers re-check the log of roots and responses; mismatched or late proofs slash the bond and freeze repeat offenders.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 56,
+  "parents": [
+    "7eed2d6567e2df42eee78ce5ea6f0c1b51a8147aec6a8a41577f021646ea84a7",
+    "3d525dc45b57a5f83d03d0448dd89c5f92fbae7874f2d6b6e631298acd326d61"
+  ],
+  "ts": 1794226269,
+  "cid": "poa-mainnet-1",
+  "sig": "25zh1Bd3zBeBpCzfshuVd5LyfW44Zrkxpx6dWcriH7T8K8KMAhVoG2XjHJ9Jk9G6U4ckhwTs935ufQXNCHwZLqEX"
+}

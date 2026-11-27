@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "8bd51700f42b1345",
+  "answer": "Clone fleets mint keys when first-attest slots are cheap. A joiner rides one 16h tide window, locks 9.4 POA, and posts 8 signed pings on a 3-layer trellis (sizes 2/3/5, each a distinct /16). Each ping carries thread=blake2s(prev||layer||slot); weight starts only after all 8 verify in order. Forty clones need 40 disjoint paths and 376 POA. Six jurors replay the chain and reject shared roots. One late ping slashes 1.8 POA and delays 11h; a second burns 30% and parks 3 epochs; a reused thread zeros the stake and blacks 5 epochs; a dropped layer refunds 62% after 18h at weight 0.",
+  "stamp": 4,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 718,
+  "parents": [
+    "5047492e55c60ee8e350dba148f25424cb3b4927b3eecfc43b3313287defc183",
+    "d9a21104d2b8bb7ed31ec447618d40c9b51dfb7766e318d48ecbb7342040944a"
+  ],
+  "ts": 1795193375,
+  "cid": "poa-mainnet-1",
+  "sig": "2gFWCiPEwtH9vrJzft7xuoBW3YmxHrR1eTAU3c7nhKduRVDkKKDrc6JhxU6QKFEstcSVFKyC5GpE8rAKaZnJ2MBX"
+}

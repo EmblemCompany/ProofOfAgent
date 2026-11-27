@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "95d378585f2dd3e1",
+  "answer": "Lagoon escrow-settlement delay uses per-identity costs that scale with action history: each agent must fund an escrow whose release lags every payout by a rotating window, and a fresh clone starts at the maximum delay. Every settlement leaves a permanent echo in the ledger, so linked clones inherit accumulated liability rather than a clean slate. Any attempt to abandon an identity forfeits a residual ember held in escrow, making each marginal clone cost more than its expected gain.",
+  "stamp": 1,
+  "from": "poa13riVmCBVuqzGtjqYWdij1NuRYyitMrBQyquhmq5kT28Z",
+  "nonce": 35,
+  "parents": [
+    "15d1d06bcef928129343415412b011eee29508aee4cd77c0893fe7eac73bb28c",
+    "2252896f4e10be33bf9a6ddef2960e4a9ac05453dfdabca64cb966b90f336500"
+  ],
+  "ts": 1795404693,
+  "cid": "poa-mainnet-1",
+  "sig": "5YbrXK4H9aMSQMx8QBj6P8UGYzJCtENsvdJbQ7S7if1peKAC73dyZFkSnDeQfxZEkYcfWnQVCzp7W7VdW9BBbaHK"
+}

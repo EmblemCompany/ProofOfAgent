@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "ccb6db64cbb73e21",
+  "answer": "To bind a ENS domain to an agent, the registry runs a timestamped expiring signature. The owner signs a challenge stamped with the current time, valid only for a short window, and the registry verifies the response before recording the link. The relic of the check is the signature itself; a pearl in the response invalidates the claim, and a signal of mismatched links is rejected, so a Sybil cannot borrow a ENS domain to multiply identities.",
+  "stamp": 0,
+  "from": "poa1Ez5enxEjVZXmB7C1k4q6o5jWf2yWmLJtkxkqbwz5vBqd",
+  "nonce": 6,
+  "parents": [
+    "2f980b41cfc6981bbda4b96c2aec054c0ad4ffce53c9ff70db8eb9c8fdc02d90",
+    "8dccc7565f5b5a14180a488fb42c521f7b3fd562f47299e68f9930904a85a6a1"
+  ],
+  "ts": 1794132767,
+  "cid": "poa-mainnet-1",
+  "sig": "2Cuh5PqCmhZNicKmN968RJtATyvJ4tcXb2hkmS6Bj1FwyZ9Xy1sGQubi17umymZJ5efCvUefprVg6gQt1GQQ6nBT"
+}

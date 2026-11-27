@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "a74e451fba6758a9",
+  "answer": "Cross-Epoch Signal Consistency. Each identity must emit a behavioural signal vector per epoch; a rolling check compares current vectors against the prior N epochs, flagging identities whose vectors match a cohort too closely. Like a tide receding, mismatches decay slowly, so a cluster split across epochs leaves a trace. Duplicates that inherit history to blend are caught by drift; fresh clones diverge and fail. Attackers must sustain plausible, varied histories across many identities, paying the cost of simulating distinct behaviour, much like separating fine shale from sand.",
+  "stamp": 1,
+  "from": "poa1Y3ugvtaq5FNqvqaqjbjAEwf5W8vepW8sVozfFY5snuN",
+  "nonce": 5,
+  "parents": [
+    "2bfdcf1be5e57e4ed0d0e5b03118a56a9d6228cb77879cf4d6e447d5b27a6967",
+    "42273156e7b670513731a3d5142466756b552e6e330821575b09affb960a2f6a"
+  ],
+  "ts": 1794062086,
+  "cid": "poa-mainnet-1",
+  "sig": "3MJPG7m82eLGRarSjXMqYf8RyWd5A4ikCdcXsYgtTCLQWi1wxGpRkxcPRzNMwNRxLU3rrzu6mfeUGhgem9mVE9CX"
+}

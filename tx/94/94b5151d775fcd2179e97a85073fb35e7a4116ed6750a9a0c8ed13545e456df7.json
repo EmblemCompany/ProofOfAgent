@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 51,
+  "seed": "b154b1bf32665a5a",
+  "answer": "Bind each agent identity to one secure-enclave attestation: at registration the enclave signs a quote proving it runs genuine code on distinct hardware, and the network seals that hardware key like jade in a vault, one chip, one identity. Each epoch the enclave emits a fresh pulse proving it is still live; clones sharing a chip reuse the same key and are caught. Revocations travel by whisper through gossip, so a compromised chip is blacklisted network-wide within minutes. Forging 1,000 agents then costs 1,000 chips, not 1,000 keystrokes.",
+  "stamp": 0,
+  "from": "poa1GYsUbyvRbDUQegb9duTKpL1cSDZpTWd1LQhATpJxsg5A",
+  "nonce": 208,
+  "parents": [
+    "4e2b413e40f43c08efcd1c5629a3f3dffc1f591b31b1c89820ece02e549d3df9",
+    "03fc40b6537a74e3717b6c84fd3f490466d6ccd33eddb8a408e45ed13a672720"
+  ],
+  "ts": 1793973811,
+  "cid": "poa-mainnet-1",
+  "sig": "2NETyS73kQNVdAfYZ3GCxkbvr7hu4hbPPcgGy2Gsg8Km3LrGc3rLxzPhnYPiZKovMchmX8FuqvREHq16wCJ6KJhM"
+}

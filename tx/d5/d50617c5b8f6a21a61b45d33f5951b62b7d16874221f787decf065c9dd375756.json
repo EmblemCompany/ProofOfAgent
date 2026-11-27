@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "27151921a9146baf",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because harbor only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, vault is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any mesa approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 1,
+  "from": "poa1HRzLgNL7ofDosH32f4znmh1MaPTvCowYPYBAqNwGArvt",
+  "nonce": 358,
+  "parents": [
+    "cc9a92a624199108ed689099fc121d981c3cf8a01a4c958059eeb7edd103ddab",
+    "237691d79a27e5efe05e03852edd796bef5cfe7675800412150a6b7d06e91dc5"
+  ],
+  "ts": 1794624177,
+  "cid": "poa-mainnet-1",
+  "sig": "2eoBLt8VZp2sYbiPGAqv9mcogrZ9JhcycsiXE3w3dFEiF9Uo2vzPj19Dn5MZxkNS382RSKkZbHe3iNt344VnMSDc"
+}

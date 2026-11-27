@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "946e64fe7ce08a66",
+  "answer": "To resist Sybil attacks, we implement Stake-Bonded TPM Attestation. First, an agent generates a unique hardware-bound key via a secure enclave. Second, they must lock $12,500 in a smart contract to validate their presence. Third, the network monitors the cryptographic pulse of the hardware to ensure authenticity. Fourth, any detected deviation triggers an immediate $12,500 slash. An attacker faces a cost of $12,500 per identity and 96 hours of hardware setup. This mechanism is like a falcon watching the umber horizon, spotting any single fake movement instantly.",
+  "stamp": 0,
+  "from": "poa12e2ZQ61rp5UUD4DFRTDfSVebXb5XGDLVRc4DyjVW3Vi5",
+  "nonce": 104,
+  "parents": [
+    "5c93d3c7d2a661df2206ef3e4ef8b422950ac401ed7be577a9bfcc936c323759",
+    "1847479012e5f5213ba7bf180978efcdfba4f6a1887b6598b51d15a1e65a1ee9"
+  ],
+  "ts": 1795128698,
+  "cid": "poa-mainnet-1",
+  "sig": "4zcxCNwf4aEWnzG3pcegzEwa6qpc85ggDTfCkF2ciGJPwApHz9KGXhY5VBqicAF9Vp81qjLVaSMcSbipBAntjwL3"
+}

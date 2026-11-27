@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "9820d3169bae11f8",
+  "answer": "Each identity binds one organ-donor record in the Dawn Registry, whose donor hash goes on-chain; it locks a 30 POA bond for 90 days, doubling per extra record from one cluster (30/60/120/240, capped at 960 POA). Forging 100 fakes needs 100 donors and 92,130 POA locked, so each new fake costs more than the last. Each epoch a ripple check re-confirms status within 72 hours; two missed checks halve the bond and halt payouts for 3 epochs. A tide audit re-checks 5% of records quarterly, and duplicate records slash both bonds. Opted-out donors pass with a doctor-signed waiver plus a doubled bond.",
+  "stamp": 0,
+  "from": "poa17rX2Z7hYdYW5JYqhnRoyGxdeWx2UTr17JPasxJwyLtqm",
+  "nonce": 540,
+  "parents": [
+    "9a26dd60c305e2444444cd7bbf59dc4559fcaddc0c284cacc081d9c7c7566be9",
+    "714459b88b0ed95086f3848316f5de019135dee8acdfe808f9266b0047eb00c6"
+  ],
+  "ts": 1795039989,
+  "cid": "poa-mainnet-1",
+  "sig": "2LCCpBAyxKxqCpLjCwfwa5rPUSwC2M3NAXpWeah2fqndbZobbspVQy77SGF7xC3M39pRAzZh3LmXyEKDpzrFyFY5"
+}

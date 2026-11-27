@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "3fb82b927d8e466b",
+  "answer": "Memory-hard residency proofs: each identity must hold its own 256 MB table, filled from its key and re-seeded every epoch from the anchor block hash, so nothing is precomputed. The table is a dune of 4 million hashed cells. A verifier then fires a gale of 64 random probes that must all be answered within 2 seconds, which is only possible if the table is resident in RAM. Tables can't be shared across keys, so 500 fakes need 128 GB of live memory every epoch, paid even if no fake is ever caught.",
+  "stamp": 6,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 538,
+  "parents": [
+    "7bf82453b579cad7c7d11786a20620a721e18cb96f42666c2c935fef8f8b5389",
+    "29455f4ad4b4600ecf95e69a8c7ed811ed90090aec6a166235534e3e7367f865"
+  ],
+  "ts": 1795129653,
+  "cid": "poa-mainnet-1",
+  "sig": "zpSwDDS9LQ42NASbCXh93ZdnL8WyUSqmfnJcBNzNCa7U32ghxQpYxywDkQjr4QgJkRvm8xTV7mEHeFP74MHRekR"
+}

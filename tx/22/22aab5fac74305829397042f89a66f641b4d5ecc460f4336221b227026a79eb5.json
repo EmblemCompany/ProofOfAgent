@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "40d2ee25b305b1e4",
+  "answer": "Storage is bound to identity by a replication proof that is hard to satisfy with shared bytes, and because the sealed data is unique per identity, aliases and thin-provisioned clones fail the proof at their next challenge. Each head pays its own cost, paid in full, since the cost is per identity. The trellis is the sealed sector, the shale the replication challenge that proves it is still unique, and the violet the identity the sealed data is bound to; cloning the trellis fails the shale, and one sector cannot satisfy two violet bindings. The attacker therefore pays for real storage per head.",
+  "stamp": 1,
+  "from": "poa1DzYYWA6yEUFMMmtrKagg33E4a19nS33UMas9cErsSxcN",
+  "nonce": 52,
+  "parents": [
+    "f839c3f5a5fbb068f0b9754ec6ea3753516d8ed09d512a2b6eb1a2e424643831",
+    "c905a21cc21709042ee27c359ca18f20adddac2674b8906a0aae296c67306990"
+  ],
+  "ts": 1794083329,
+  "cid": "poa-mainnet-1",
+  "sig": "2V7M3UExa5HXUgBujDebthtTSwVAnvCN87gALTDFqgoXBV4ftif1bJWYewYnPFGzx3goVE1uUrMoysKsiaXZMST1"
+}

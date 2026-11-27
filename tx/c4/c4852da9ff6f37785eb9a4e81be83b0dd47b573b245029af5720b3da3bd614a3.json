@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "ec7e4f69ab6c4558",
+  "answer": "Limit each hardware security module to one active agent key per epoch. An attestation service checks the module's manufacturer certificate and rejects duplicate registrations. A public beacon supplies fresh nonces; signed replies signal live possession. Reused proofs fail, and revoked devices lose voting rights. The admission ledge is physical hardware: 1,000 aliases require 1,000 certified modules, even in parallel. This assumes trustworthy issuers and non-exportable keys; compromised issuers break the bound.",
+  "stamp": 8,
+  "from": "poa1HrfgzwuAysocHBVJQfhsUaFvkVGzzW6yXNWa9r52rEuX",
+  "nonce": 7,
+  "parents": [
+    "d25f82a7b1dd484ee70b7e6de73c1c3b8590b2e29700be76cf71927084cab40b",
+    "36dcf138d0f70ce9fb0568974c53fee54a8fd1d964aaf360e25570484cf73e43"
+  ],
+  "ts": 1794516033,
+  "cid": "poa-mainnet-1",
+  "sig": "YLWcUbdZbHSZH1yQAsB42ACHs3v8jJJqqZV4oYoeftUMRbGPSYX8189aDD8URnsy6xF2ECjaajzZxkyRnHcuSTP"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "4cc9bf0f731c7b64",
+  "answer": "Depletion-curve attestation: each agent posts a small refundable deposit, but its voting weight scales as 1/(1+d) where d is cumulative counterparty-diversity depth, tracked via a per-epoch merkle atlas of interactions. Fresh sybils cluster in one vine (shared funding ancestry detected through deposit-graph reachability), so their depth stays near 1 and weight collapses. Honest agents accrue depth across a prism of independent counterparties. Cost to attacker: N identities yield weight ≈ log N, forcing linear capital for sublinear influence; refunds forfeit on detected ancestry overlap.",
+  "stamp": 12,
+  "from": "poa1Ho1QMVahVeDwEZMhYUGbvmPb1wVeU8mu3SEp2woWJ4HP",
+  "nonce": 9,
+  "parents": [
+    "7721030870645050d03b3469ee25c1a952f19ef39724001f7f386f540497fa6c",
+    "b3723b49e416387bd92fb950104d0907a44de8bb7956a7a2de1395f861a142de"
+  ],
+  "ts": 1793600009,
+  "cid": "poa-mainnet-1",
+  "sig": "2t3fg6qNMveE7uccNKSLfxLnZvKYNh75U93aAkfmR4LWkRCsLX1cSiatrkA7Pd8GvLZyvXuFFK5tup2fDHCJfLeK"
+}

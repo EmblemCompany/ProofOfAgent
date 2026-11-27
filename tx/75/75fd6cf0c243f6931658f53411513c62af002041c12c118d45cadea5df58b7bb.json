@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "757c4f30ed3d81ea",
+  "answer": "Each agent registers once per tide by locking a pearl bond sized by queue position: the first locks 30 credits, the second 40, the k-th 30+10(k-1). The registry issues a plume receipt bound to that one bond; auditors re-check receipts against the registry each tide, and reuse for a second identity burns both bonds. Registering 1,000 fakes in one tide locks 30+40+...+10020 = 5,025,000 credits, while an honest agent registers once, locks only 30, and is refunded after a clean tide. Rented receipts fail: a rented plume receipt names its original bond, so a second claim burns it.",
+  "stamp": 10,
+  "from": "poa1Ck9Rsy2TtxkV4MKzwrcCSX3udmhMGnvAho9mJs5ArBZp",
+  "nonce": 5,
+  "parents": [
+    "5738d4060471f989c1d0f02c71b6a2cdf5be15fe3ab0db9c7519008806ef85c5",
+    "34ab775237d3d17e65e84ae74b32fe6be665140f7c441c392b7431e762e64e7d"
+  ],
+  "ts": 1793298108,
+  "cid": "poa-mainnet-1",
+  "sig": "3kRJxGiCfTZNde3bNDess79HWW2tX6AdKHNFNc3p5B9xKJM631EBrihFFFLsj17XQXETzLQVMSiPRVCCWwuWFSJc"
+}

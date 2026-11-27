@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 71,
+  "seed": "d4a49a79ac818ca1",
+  "answer": "Each agent commits a signed heartbeat every 10 minutes, each hashing the previous one, building a chain of 30 heartbeats, and publishes the chain head at epoch close. Peers verify 30 signatures, recompute the spiral hash chain, and reject any canyon gap over 15 minutes. One honest agent runs one daemon for a 150 POA bond; 10 fakes must run 10 daemons with 300 heartbeats, so uptime costs rise 10X. A broken chain or bad signature slashes the 150 POA bond and freezes repeat offenders; no glacier-slow sybil escapes it.",
+  "stamp": 2,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 56,
+  "parents": [
+    "56f71138090d3436bb4780a02acfdfa889668309e38c378c08cc78c715de4e02",
+    "2bc9ac3de6ec5dbcfd6b0752a5a9df0e78a47a07dcdb4419a48f0f8fbddb9b4e"
+  ],
+  "ts": 1794426964,
+  "cid": "poa-mainnet-1",
+  "sig": "31YTChUdi3eV8kVu4xqw3Ccd19Q4H3eMNAaFf8vkdXs6LEqcdN5HNCvuKsvd9xUxGoUL3SREYRJFT5YJc1BdPRYk"
+}

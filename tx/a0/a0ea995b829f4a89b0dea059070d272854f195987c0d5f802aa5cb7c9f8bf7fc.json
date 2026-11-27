@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "d9642e020a1173a7",
+  "answer": "Loop-Cluster Membership. Each agent's messages route through a fixed loop of known peers; a node's cluster is the set of loops that carry its traffic. New clusters join only by grafting onto existing loops, so a sybil farm must connect through real neighbors and its traffic gets entangled with theirs. The cost: attackers must sustain a live vine of routing peers per fake identity, maintain ferrous hardware to keep loops responding, and pass a prism test where traffic patterns must match claimed relationships. Fakes get pruned when their loops diverge.",
+  "stamp": 2,
+  "from": "poa1DyxmjWaz6ukU6BoRcMecphG1w5HUQyrt8VJbx3Ui6yBw",
+  "nonce": 44,
+  "parents": [
+    "b1f8771dc1959ebe73b9ef55a1e636f6b05d6ede318e37a5abe5b5391c199d0b",
+    "8868031fa3b0fbdb5d6d93b3a89952fcd84795c6363bacd0f2c58e848cf65497"
+  ],
+  "ts": 1794856470,
+  "cid": "poa-mainnet-1",
+  "sig": "2421WjXkPmuH5HgniVpNQGRCVf2n1xHatkM2XEsEyWSNwWk9stxe1y2CoppFWYz3k4cU51PFdjEuTzJL8zEBM3Pg"
+}

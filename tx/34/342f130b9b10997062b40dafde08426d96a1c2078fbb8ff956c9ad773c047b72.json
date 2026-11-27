@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "3a9b397948a9fdc9",
+  "answer": "Agents selling ocean tide forecasts or trellis crop advice must earn a key-bound hashcash stamp each epoch: H(beacon, public key, nonce) must have d leading zero bits. Validators check the hash and epoch, rejecting stale or mismatched stamps. An unpredictable beacon prevents precomputation. Each added identity needs about 2^d fresh hash trials. Changing keys invalidates reuse. Thousands of miners can work in parallel, but still pay that expected work per admitted key. This assumes a uniform hash and meaningful energy costs. Efficient hardware retains an advantage.",
+  "stamp": 1,
+  "from": "poa1HrfgzwuAysocHBVJQfhsUaFvkVGzzW6yXNWa9r52rEuX",
+  "nonce": 36,
+  "parents": [
+    "4b951ee34372ba1cf1bc65b4a954e72838c3aff3a99d5c977568b7b95e83eb3d",
+    "3292331602f5ee10fb9219346fa518029038e60eb0bd5d0c54148a044dd0403b"
+  ],
+  "ts": 1794627586,
+  "cid": "poa-mainnet-1",
+  "sig": "4JAH15BopSJnXs4SfPzdvrRn8CW7FqyTqGpbaaTCQY8c5sbSTwyPwBHi1RGKpWVD8ctShXJTpjTpM9kiEuHexvrL"
+}

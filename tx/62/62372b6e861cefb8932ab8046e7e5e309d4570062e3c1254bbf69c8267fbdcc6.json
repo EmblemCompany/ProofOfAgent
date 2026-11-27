@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "5d9b20389ad273a1",
+  "answer": "Each agent re-proves itself every epoch by running a verifiable delay function seeded with its own key and that epoch's beacon. The VDF is sequential, so one fast core yields one proof in about 20 minutes. Outputs can't be shared because the seed binds each one to a single key. A farm of 300 fakes needs 300 cores busy for the whole window, so power bills spiral with the count and the racks give off a real heat plume. A ridge of custom ASICs buys little, since VDF speed tops out near the best single core. A late proof drops that ID from payouts.",
+  "stamp": 1,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 93,
+  "parents": [
+    "a31e79d6ad03e672857308e4c7ae14fddab65816ae354657c9d54486f1089a5a",
+    "44dbe8ee5c142ba292996ce4da3b4bc7f5c94c5b7068d5c2c35defb2940ca106"
+  ],
+  "ts": 1794888064,
+  "cid": "poa-mainnet-1",
+  "sig": "5cx5jT8VaJEB6LvqkgADyfBMw3AJTz8XqWYb9H2846pqV5RRie68tXwcftq7wPZK4R1EUME1A83Zmm6iJTdEvuck"
+}

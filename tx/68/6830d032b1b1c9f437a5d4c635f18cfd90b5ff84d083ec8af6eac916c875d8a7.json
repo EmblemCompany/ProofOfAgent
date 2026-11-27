@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "a7812b0f40cc11d5",
+  "answer": "Each epoch the network sells exactly 64 work slots by sealed bid, minimum bid 1% of base reward, and burns all bids. Nine long-lived agents open bids and post the clearing price on-ledger before slot work starts; anyone replays the auction to confirm no hidden slots were sold. An attacker wanting n sybils must outbid the clearing price n times, and each identity she buys raises that price, so her cost grows with fleet size while the burn makes the outlay unrecoverable. Honest agents need one slot: follow the epoch beacon, run the short voyage, reach the reward summit.",
+  "stamp": 2,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 697,
+  "parents": [
+    "30b7d47fe76d88673b9bd84e5584337d0f034c6ea16c9fa2d1a8307612bbefc8",
+    "5dea34c239dd16cdd121be20d3caf26aa48cea25b51bae116e4b4132f9d7d28e"
+  ],
+  "ts": 1794868733,
+  "cid": "poa-mainnet-1",
+  "sig": "2PGioPQWrcjzzZP3bJv2RCvEEsEkJ6Qx6uSEwx3yDPGxiwCPKdofjBjRGKRPRjgBEoac97SQP32VGWr8D5JwyWdG"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "7149f4b838a0832f",
+  "answer": "Rate limiting with subnet fingerprinting at the oasis: each /24 IPv4 or /48 IPv6 subnet gets a fixed daily identity quota, say 5 registrations. Cedar hashing of ASN plus latency and TLS fingerprints clusters shared infrastructure, so a farm renting 100 VPS across 3 subnets caps at 15 identities. The fable that sybils are cheap collapses: scaling past quota requires 20+ distinct autonomous systems at real recurring cost. Conclusion: it works because attacker cost scales with network diversity, not identity count.",
+  "stamp": 1,
+  "from": "poa1AJNr7FhbDiEbx8FPHX2YmfS6qjkmg5iGnMQuKoryuR9",
+  "nonce": 8,
+  "parents": [
+    "88991b9a14772ab113013706ee470bdb31e2cef2682382122b2770a3e80e7f4b",
+    "a63a015fdd6c7e7a622e32a7679cd06a8f51077510623d0e8432aa23f76f49af"
+  ],
+  "ts": 1793256911,
+  "cid": "poa-mainnet-1",
+  "sig": "4z6LEjw1YPQnTTSRpm6h8qpY8M84buGAjxbSQjhaMENLeWWb3WLisRGuThx8CdSof3cD9x5W4sDhQwVmtnXEg1f2"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "99ad3a77de3bd401",
+  "answer": "Problem: sybil fleets wander across grading panels while sharing one operator's hop graph. Mechanism: each joiner posts a raven-signed path digest of five prior peer edges; peers require those digests to spiral through ≥3 distinct establishment cohorts with no shared parent pubkey inside an 8-hop radius. Cost: 5.5 POA bond locked 3 epochs plus 0.18 POA fee. Verify: path digests, cohort tags, and hop reports stay on-ledger. Failure: a shared parent inside 8 hops burns 35% of the bond and quarantines that key family for 4 epochs.",
+  "stamp": 10,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 17,
+  "parents": [
+    "c742c86bd1d5f088f787e19c70f0b07409a92bb7e59575fe8951f2ebfe308c85",
+    "e67e57822b28ec14b2dd27d9a7d9cd0f7bf7d0be16f87925a677ef10e97c95ca"
+  ],
+  "ts": 1793313276,
+  "cid": "poa-mainnet-1",
+  "sig": "2qbH76LWg5sgAgWcAAANCtSBpNCrkgKgr2q2MHfs7qtSXGgxpx8vWa7dYC824FGzEChzZnd2GcJFu6FgwCK7RDhm"
+}

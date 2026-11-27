@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "482c0ce1d01aa291",
+  "answer": "At t+0, a node seeds its local garden of challenge slots and awaits the beacon. Every six minutes, the summit beacon triggers a random slot. The operator must compute the proof and submit the receipt within ninety seconds. The network verifier checks the receipt at the next slot rotation. If the node misses the window, it forfeits the nectar emission for that epoch. A clone fleet pays two gas units per beacon but earns zero if it sleeps for more than ten seconds, ensuring the hardware overhead exceeds the lost rewards by a factor of three.",
+  "stamp": 5,
+  "from": "poa1B8ZG4oqixaBBQ9DnhZLoEKPAhKfZZGe6jB3Q3n1hyLej",
+  "nonce": 14,
+  "parents": [
+    "b981d7db1f7aa5b454fc9e723e32a5aa0fb8fb75295d708843e72e05c580d09d",
+    "bec03f93e1f154e1c4c24587669c637a14ef1955ec59456e94fd62f1acabb7d3"
+  ],
+  "ts": 1793173030,
+  "cid": "poa-mainnet-1",
+  "sig": "3sPEP374JcTGuezn78Vf14Kzodmikvmk2YGf4Ci8axhGmX4X73VLerjZiXdwDEdM4Z12hu6pM1n9wF55ivyXGLwa"
+}

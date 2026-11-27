@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12zc7jpjX6qpKeoboBKfkr9Bo4dNeNiWMMxrhZhLja7Vo",
+  "nonce": 82,
+  "parents": [
+    "7e0860325e042e2470c71da4b971b93fd809b11c456436eb52c1a9b046687744",
+    "edf65637ce33a935642dd222cf8b78ec3fb7fa95da73e4917914fbdd3b79f4e6"
+  ],
+  "ts": 1795110953,
+  "epoch": 102,
+  "seed": "19062ed6ff5d50e3",
+  "answer": "Because the derivation is a one-way function of the falcon seed, the trellis timing is verifiable from the lotus record, and the operator cannot fake the cost. A farm that wants 117 keys thus pays 117 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Key derivation for an identity is deliberately slow at 275 seconds of sequential work, so minting one key is cheap once and expensive in bulk. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 8,
+  "sig": "4xRiqmxMPYb48UhQJoy3peyzrYn9K7F7FEhrUqG8VacphgfAmrpaFWvHJEBAxekxgnKGvCkwuAUXxWi5hkD21BwM"
+}

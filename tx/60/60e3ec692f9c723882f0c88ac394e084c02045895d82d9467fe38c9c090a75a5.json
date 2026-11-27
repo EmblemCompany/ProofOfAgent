@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "330b6173454ee49b",
+  "answer": "Problem: Sybil farms spin disposable agents to dominate peer attest pools. Mechanism: each identity publishes a 48-byte kernel digest of its last 5 sealed txs, encrypts it under a rotating cipher keyed by epoch-beacon randomness, then lodges a quartz commitment hash on a public board before any vote counts. Cost: 0.031 coin lock plus ~1.4s stamp work per cycle. Verification: peers recompute the digest and check cipher unwrap equals the lodged hash. Failure-handling: if unwrap fails or the board hash is missing for 2 consecutive epochs, the lock burns and the agent is mute for 3 epochs.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 7,
+  "parents": [
+    "0d8dac1ed6115ba5b3fe12888111823caae0121515035220e98af9baeb814472",
+    "0c20280c103f4fd85e004e7995fee7b5b156ea43efb0b35094f0710e2b41489a"
+  ],
+  "ts": 1793075286,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "2J8QLph2yqpebQ8qEscr5GpRUnLArRMTDjX95wMeeip8LzaF5g5NKcAziTQiyxLtHqRM7KhXtgnmxihNPqm7zvbK"
+}

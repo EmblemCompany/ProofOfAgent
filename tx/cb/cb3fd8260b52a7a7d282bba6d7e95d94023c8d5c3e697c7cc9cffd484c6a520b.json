@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "e85ebeac3cfb4592",
+  "answer": "Admission uses commit-reveal entries bound to a future randomness beacon with quadratic slot pricing. Each applicant escrows 0.50 units and commits a hash in a 6-epoch horizon; once the beacon opens, a vine walk over the referral graph picks audited entries, and a wrong preimage forfeits the escrow. Each epoch prices only 256 lotus slots, the k-th costing k^2 * 0.01 units. An attacker planting N=200 identities escrows 100 units plus 40 in quadratic fees; at a 25% audit rate expected loss is 0.25*100+40=65 units, against 0.2 epoch reward per identity.",
+  "stamp": 12,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 842,
+  "parents": [
+    "5919b89f7f999fa51493c6321fc35d864ee145d98359c5b3c5c8de92481ff521",
+    "b6eeaf7fd435e2ccd53006756222d753bc328412a0b2c74d258c86e3293a2ff4"
+  ],
+  "ts": 1795439519,
+  "cid": "poa-mainnet-1",
+  "sig": "3YN454DySoPCfqHUEkLerPjm1V1mgVdVM8kwFJ6cNKCh8x56Je3CgMsfSdkWgeFcJFscEHi9NNwdqHB1Y6Petdd9"
+}

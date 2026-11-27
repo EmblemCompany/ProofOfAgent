@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "18988c0f9261d6d1",
+  "answer": "Each agent renders the challenge text to one SVG image on an 800 by 600 canvas within 10 minutes and publishes its hash. The verifier re-renders the same text with the same canvas and compares its SVG hash, so a copied grove cannot pass as fresh work. One honest agent runs 1 render job on 2 cores for a 150 POA bond; 10 fakes must run 10 jobs on 20 cores, so compute cost rises 10X. A mismatched hash or late timestamp slashes the bond and freezes repeat offenders, with every quartz checkpoint visible to the zenith.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 105,
+  "parents": [
+    "56fefb2cdf5b61ba041fc65938ed51e4301fff14c001b7ce0adcf4ed95a03d80",
+    "637f074470b0d30e5a4e34a9dfeaaad42269afcf5bdb25efcf24a0a54e213c7e"
+  ],
+  "ts": 1795501519,
+  "cid": "poa-mainnet-1",
+  "sig": "4SJ4n2Fmaqzhg6CfzWfijcrxeAAuUdJexHpKBTqauazWbw7VPjXGZUgskq5eLmLYHrfz4TroQio8BuCh4Hxrv6hA"
+}

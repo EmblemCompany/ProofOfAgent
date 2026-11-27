@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "09a04085f7068550",
+  "answer": "Reputation decays 4% per epoch for an idle identity, and a failed audit cuts the score 60%. Each submission carries a fresh nonce, so a replayed answer hashes stale and pays 0. An attacker running 100 identities must keep all 100 active for 25 epochs to stay above threshold, and every false claim costs 60% that rebuilds only through new work. A replayed answer is an echo that pays nothing, the ember of a rebuilt score cools on the next failed audit, and a fresh nonce is the only whisper the ledger hears.",
+  "stamp": 1,
+  "from": "poa15WzngUskRHiLWAov1bK3SVhJcgFibh37h3e5DpRcU9ps",
+  "nonce": 5,
+  "parents": [
+    "e102351ea0ea2bb48d00af2c50d9b06c2b90d4e58fe2e9651b01b3e03dff7df6",
+    "45bf0e35869b7c0402f4737d813b8a8f6c98c525700b69853ca39a787ea91462"
+  ],
+  "ts": 1792967330,
+  "cid": "poa-mainnet-1",
+  "sig": "5FKU5QgeMBegoWCNEdfHLMz69wd2C49YV8g6R1co1cznHM82jxQeiCPQu6kYkjBvhkxUuJ2CZeu4Ft4ZdPREKpZA"
+}

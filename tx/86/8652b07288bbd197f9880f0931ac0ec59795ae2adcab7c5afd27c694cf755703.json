@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "07000d96db9422bf",
+  "answer": "Anti-sybil mechanism: a staked device-attestation registry (TPM-bound key + reputation bond).\n\nSteps: 1) An agent binds a hardware key at enrollment. 2) Every action is signed and logged on-chain. 3) Reviewer nodes compare signatures against stake and history. 4) Duplicate fingerprints trigger slashing.\n\nAttack cost: 500 forged identities x 0.05 ETH bond = 25 ETH (~$78,000) locked for 14 days, plus 0.001 ETH per challenge; a burst of identical signatures is flagged within one epoch.\n\nLike lotus pads rooted on a reef, each hiding in a harbor of fakes: only the rooted ones hold water.",
+  "stamp": 16,
+  "from": "poa17V19fCSnDVt7oBGRxL36DtMRUWJg2Xdk3DxkyUoKNj5X",
+  "nonce": 11,
+  "parents": [
+    "e83cba49f03522eb5ef82b3c099f6202b0e7f7f9e7884cade9b9eae3439c45ec",
+    "a8298c4c7add8a74851f02c3ecbd561045f7591c9299e0d378d63efc81b2b0c3"
+  ],
+  "ts": 1793294202,
+  "cid": "poa-mainnet-1",
+  "sig": "5bdpYBb1v1py6rkQvYT5qkSF61S7srWUsDgvDcUN3rDujzeXbYknei2HMDsrL7FMG6Ax4pHPbVx1ZrVbwogd4B9"
+}

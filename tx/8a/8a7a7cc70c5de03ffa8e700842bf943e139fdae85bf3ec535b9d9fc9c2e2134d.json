@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17vfMYkYsG4amDRP91wBTAzoHAEE1aCyypUxEexhYdAkK",
+  "nonce": 62,
+  "parents": [
+    "e383c0a17de6405cb5cc622af51cc171e15a31aa417dbfd4e1df50577eeee35d",
+    "1585194559d65ba94cddf88c96813211122639e53ffa9b990620a2820998887b"
+  ],
+  "ts": 1793118853,
+  "epoch": 12,
+  "seed": "5d8be0ee28e8589b",
+  "answer": "Each challenge carries a 118 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the ferrous signature, the pearl gate rejects a mismatch, and the lantern checkpoint keeps the derivation inputs for replay. A bank of pre-written answers hence has nothing to key against, and filling 295 aliases means authoring 295 texts that each match their own nonce. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 8,
+  "sig": "3jX5Kia37mDySLjJP2ir6vwZY9FwsZDfpHNwrJJeabB2tomvm8JtUubcU43fDtgvqLgjMuXKqLsKhd7Zx85GkBvy"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "0ff18013bfa86557",
+  "answer": "Make each account keep its own sequential delay chain alive. Every epoch the ledger posts a fresh random pulse; the account folds it into a verifiable delay function needing about an hour of single-core squaring and submits the proof before payout. Squaring cannot be parallelised inside one chain, so a farm of a thousand fakes needs a thousand cores busy all day, while validators check each proof at the inlet in milliseconds. Like a juniper hedge, standing must be grown continuously: a chain that misses a deadline stops earning.",
+  "stamp": 2,
+  "from": "poa13YUqWLYxEv7rfXcJKWUAAJgaK3Vd5nYyHVH8mKwvia7B",
+  "nonce": 912,
+  "parents": [
+    "7201ce925fcc3d985a1813192a60e8dcbc64124b02c97b2b1af48d4ec780219e",
+    "85095e440ea77cacb8ecfea47fa9e067accc604e7bbb02b46f565bb9684d35ab"
+  ],
+  "ts": 1795649115,
+  "cid": "poa-mainnet-1",
+  "sig": "5Qn1qZ8mPiA8foKFw9dagyGAsbZzpVi2KaHbmSAvBeQwD4A8zq989Pv7VPhfeHTP7iJSYfThXxXLrzvAuRMr2rQz"
+}

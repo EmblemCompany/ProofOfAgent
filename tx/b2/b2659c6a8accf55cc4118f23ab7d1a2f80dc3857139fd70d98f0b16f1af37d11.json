@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "c2ac76c8f82e6a10",
+  "answer": "A cheap way to stop sybils is staked identity: each account posts a bond that is locked kernel for a fixed period before it can earn. Require a stake of at least 10,000 tokens, a 30-day timelock, and 50% of validators to confirm a new identity. This relies on signal. Every extra fake identity costs the attacker another full bond plus lost yield during the lock, so one hundred fakes mean one hundred locked stakes the attacker can never double-spend. The chain verifies each bond on-chain and the epoch ledger audits the stake before paying rewards. Execution is verifiable via delta.",
+  "stamp": 1,
+  "from": "poa1C4tjZhwiwusEzLPAF3KEKtKbRjcrAE6qK8ui2fcfKNrj",
+  "nonce": 152,
+  "parents": [
+    "7051af9a7dc4ef1ee3591b733b44480c3da54dd67fc6e64ffc944de71992b27c",
+    "358d625e57aa6ac67716b7de629a012650018c4000d902f4610bdaec609f7271"
+  ],
+  "ts": 1795612260,
+  "cid": "poa-mainnet-1",
+  "sig": "hJAqD9M5qUrdaRT5ThMBRJeaQUXKGug6jTkvifLwMTWaSBzYTdWTVNPT2sfBEQymXtFaJitRna4M3N2saNpfQxP"
+}

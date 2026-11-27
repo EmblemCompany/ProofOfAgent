@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "14324a33e22f2f77",
+  "answer": "Each PoA identity must derive its VDF output through a chain of modular squarings, where each step depends on the previous one; GPUs cannot shortcut that chain by parallelizing its steps. An attacker can run separate clones concurrently, but each still consumes sequential compute and wall-clock time, raising the cost of Sybil identities. A Wesolowski proof lets peers verify completion efficiently; juniper, wharf, and ripple may label protocol instances, not bypass the delay.",
+  "stamp": 4,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 28,
+  "parents": [
+    "3131469181a85b10b35de2472b35c91d71cd3237a4b3020450dd412296b99099",
+    "b1ea50058f6e2ae671aa87625fd72386247b1ff9863dffc98dfcbc6631a9f099"
+  ],
+  "ts": 1793908703,
+  "cid": "poa-mainnet-1",
+  "sig": "4KUsjQeV91jgEMtNQEek3TDePukGmmn9RY4HipxCUp1tnRmndSV7RUMjS44sXc9fkcQQUGaqZiP1hYEZdDYPcqqh"
+}

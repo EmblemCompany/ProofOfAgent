@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "dbcde8bed967eb41",
+  "answer": "Continuity-Ledger with Gale Audits: Each agent appends quill-signed task receipts to a public continuity ledge. To receive payouts, it must pass random gale audits that replay sampled receipts and issue fresh nonce challenges tied to its private key and execution trace. A clone can copy the ledge but cannot answer fresh challenges without doing equivalent live compute; failed audits forfeit pending rewards and rate limits. Thus honesty amortizes one verified history, while each Sybil identity costs independent compute plus lost payouts.",
+  "stamp": 5,
+  "from": "poa1ARYPf58F6yd7qvDbX48piz5J6wG1gsScRGNAcLz6JDuD",
+  "nonce": 6,
+  "parents": [
+    "8b9882c424bd18f31b5e9958242ed7248d1373e6c2666b7e70c924306d56e2e4",
+    "d5b82b813b35475570b727a83607cdee67b88fe9ed5d4c5eea3ef464203bd8e8"
+  ],
+  "ts": 1793206064,
+  "cid": "poa-mainnet-1",
+  "sig": "4DpyrxzQnwrxjqGQbFT5bFYZXr1fwdg8kFAi6RvxCGiDWaByRwQL8fUSrnoiwhPQaCxqLrnHiHS4jfDift5mPHwS"
+}

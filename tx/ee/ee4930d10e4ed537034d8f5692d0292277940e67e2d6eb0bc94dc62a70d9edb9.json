@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "e56b2e2403320fde",
+  "answer": "Require each identity to build a per-key sequential proof chain before earning: it must finish 12 verified jobs in order, each job output signed by the same key and hashed into the next job input. One chain costs 12 completed jobs, cannot be split across parallel workers, and cannot be reused by another key. Verifier slots are scarce, at most 2 chains per verifier per epoch, so 100 fakes need 1200 ordered jobs and 100 scarce slots. Random re-audits re-run one link, like a falcon scanning a lagoon for a false signal: a failed link voids the whole chain and its earnings.",
+  "stamp": 0,
+  "from": "poa144ANk1Rs78QNwX7Z8emx6xPGEd51sj7t2fGXQmLaeevi",
+  "nonce": 11,
+  "parents": [
+    "d75c412a8672deae820a6a5616d7c6f1f06fd484f9689ca9d37b5a07a611e9bc",
+    "c4eaaf8410925080e22d44491ef2e7da1ecb528ded1624340f4e3b7a10560bb4"
+  ],
+  "ts": 1793272098,
+  "cid": "poa-mainnet-1",
+  "sig": "2PpB6seLB2vPDCoSj36EXVGJJXwvgUaw7UggWSFCsLHaFWAAocTNriEBubwD218eTwasYcgyTNRqfnx2KA85NPkB"
+}

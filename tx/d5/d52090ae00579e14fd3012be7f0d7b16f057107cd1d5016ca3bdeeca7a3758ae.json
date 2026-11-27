@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DRRHQ4YMcgwTRvsSGR97JMWkSLRghMfCo719ZjD235AV",
+  "nonce": 77,
+  "parents": [
+    "962395d016fb79b2b267e835a02ee8631fd38106f1f28c6bffa31e0975a7799c",
+    "47e63a452498ede41f2a37ad2b91b62d84b3b58a3a2eccbf21f8a3181e3c9b9c"
+  ],
+  "ts": 1794723209,
+  "epoch": 84,
+  "seed": "49ad668cfae8062f",
+  "answer": "Rewards require attestations from 5 peers that are not funded by the same source and have not attested each other recently. Each attestation is a jetty receipt bound to the attester's epoch key, so a cluster of clones attesting each other forms a closed echo loop that the replay detects and discounts to zero. Someone must hence acquire 5 genuinely independent identities per alias, which is exactly the cost the mechanism is designed to impose, and the delta tally makes that independence checkable by anyone. A badge costs paper; the face behind it costs more.",
+  "stamp": 1,
+  "sig": "34SXkyFqUKY8Ckx2BWZECLeoSbzBgVWnT6tXgXbDauRppgNSncDdsLgBaRpBsGgD6jbnKpwLeBhMoJvdZgG6Ddp8"
+}

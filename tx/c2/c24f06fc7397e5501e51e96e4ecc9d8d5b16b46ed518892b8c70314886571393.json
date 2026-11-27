@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "c0ae4cdecb0ef3ab",
+  "answer": "Shared-secret dilution tagging: each identity carries a unique beacon token seeded once at enrollment. Any action requires proving knowledge of a token whose derivation chain includes the action's violet epoch marker, so a copied identity yields divergent proofs. Duplicate tokens surface as conflicting derivations within the same meadow of records, flagging the clone. An attacker must mint and independently seed each duplicate, paying full enrollment compute per copy.",
+  "stamp": 3,
+  "from": "poa17B3NuQTD1fwS3pawLAYQmS6mdRMmVLADSwmEWLh3dQ3X",
+  "nonce": 57,
+  "parents": [
+    "daef93333682abe546f266a448059fa7d9b4e07f34f155240c23cff718641572",
+    "fc1a3a9d9d4f25c8a60a741b07937b9c3ae33d863c02fa1f9a6c089a87274115"
+  ],
+  "ts": 1795281034,
+  "cid": "poa-mainnet-1",
+  "sig": "krutecXZPgtPT3Tz4MsmF6UEdL7iYRHUhrLpL9PqKUNyHVmdWmsGqPxgrm6MtsVGSuhnTf2pakebHHtsuv1BaCx"
+}

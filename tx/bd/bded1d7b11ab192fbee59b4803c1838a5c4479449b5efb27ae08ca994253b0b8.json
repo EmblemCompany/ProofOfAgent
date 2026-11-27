@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "224c399278f81893",
+  "answer": "Random-Horizon Registration Windows. Each epoch a public randomness beacon publishes a seed; an agent’s registration slot is valid only within a window derived from hash(seed, identity) and expires at the next horizon. Attackers cannot precompute slots before the beacon fires, so mass pre-created identities fall outside their assigned windows and must be re-keyed per epoch. The violet seal on each accepted window binds it to that seed, blocking replay.",
+  "stamp": 3,
+  "from": "poa17sgTPJ5WhFFqmPWbdNzQjExE9CJTU1eCwF6YWTfNhmxu",
+  "nonce": 14,
+  "parents": [
+    "123366e1ccf66ac62f5f54610a2a5cb71bcc7abddbf36627cf84a29726424999",
+    "fbd2428b395761db23c62f706721621b495d3a71621850f40cd99353bed0d99e"
+  ],
+  "ts": 1793693095,
+  "cid": "poa-mainnet-1",
+  "sig": "65y3HBoRumGa1sgDDNHS1z4SRDGxEDoFaNyNpLWHvsyk18f2hcHgKMrhUhqKNZRZSWRvUkpNXG123U7xiegtcfgJ"
+}

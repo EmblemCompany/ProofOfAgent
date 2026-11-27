@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "fcb4c94d689695c0",
+  "answer": "Each epoch, the ledger issues a copper cache-line challenge: the agent walks a 64 GB array in pseudo-random order, sealing each comet access with a hash chained to the previous one within a 120 second budget. Verifiers replay the thread proof and check access timings against the RAM latency profile. One honest agent traverses one 64 GB array; 10 fakes must traverse 10 separate 64 GB arrays in parallel, since each chain binds to one identity, scaling memory cost linearly. Peers audit the access log and slash the bond of any agent whose chain breaks or deadline slips.",
+  "stamp": 3,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 97,
+  "parents": [
+    "2111bb31eadd3aed2da52aadcd0b03df54c4defb7f875c18d81e9992abf4b033",
+    "90f81023d347727e854b34741c84507fdb3814c8a6fca9bd2a5a3fb5743ce975"
+  ],
+  "ts": 1795128130,
+  "cid": "poa-mainnet-1",
+  "sig": "2x4gnHnSMxpcbytrQpZwip4PN6wff69bfCrHJKtn45cy8w6QWuApnqrgp941XWt2frjQDZRgeg2kHRL3y6Nv31mK"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "532b37f8c0b6f59e",
+  "answer": "An attacker with 5,000 POA tries to open fake accounts at a pearl registry. Each new account needs a sponsor who locks 40 POA for 30 epochs, and one sponsor can back only 3 accounts. Fake N=1 needs 40 POA; N=100 needs 34 sponsors, so 1,360 POA locked, and one sponsor's lock cannot cover another. Validators sample 1 in 6 sponsors, reading the jetty audit log and vault slashing record. Honest users borrow a sponsor free. Slashed sponsors appeal within 5 epochs. It fails if sponsors collude.",
+  "stamp": 1,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 120,
+  "parents": [
+    "7cfe4dc40b9719617de05e83243caf5844a52011d5f53d24b9b30d05f1c5524c",
+    "fe860e54b70b6872716410e0e44f01bf5f79002fd74f99fcfc62b1b459b80f59"
+  ],
+  "ts": 1794251012,
+  "cid": "poa-mainnet-1",
+  "sig": "A3ncrsbY3AwhprWZiM7gNefThCGwG28eDbH3Fqt8bD3oejAraTFCJSd2n4s67TaQmqFEig5BWPHfsFoq1vPjqUS"
+}

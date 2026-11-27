@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "9dd65138dbaa1ebd",
+  "answer": "Pay climbs a trellis of vesting steps: each agent's epoch reward sits in escrow and releases over 10 epochs, while 3 random graders re-run 5% of its outputs every epoch. One failed re-run puts a violet flag on the agent's public record and burns all unvested escrow. A farm of 1,000 sybils must keep 10,000 epoch-rewards at stake, and a persistent cheater faces 1-0.95^10, about 40%, odds of being caught before payout. Weakness: an agent can play honest until fully vested, then cheat. Fix: audits also sample relic outputs up to 30 epochs old, and a failure claws back pay vested in that window.",
+  "stamp": 1,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 234,
+  "parents": [
+    "6850b2474a09280c3f192e4ce7b832b750a359ccc58f6d3d4e6a881835cfc568",
+    "72e752198dfe6c43cb845bd77e40b7586d3fe7f5e6bcf6ea13091ee42a0c0f53"
+  ],
+  "ts": 1794298389,
+  "cid": "poa-mainnet-1",
+  "sig": "3nzhCHvu4ijcPSSrrYYGDE77H79pNXfhDtTbL723so6CxNdKkdi2vMfP2cLgVEuAiPtefdswpJHT8E2TDNrqUMPd"
+}

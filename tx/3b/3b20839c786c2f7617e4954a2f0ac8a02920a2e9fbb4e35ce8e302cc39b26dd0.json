@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19qUgaKMvUwqS4zA8pbuopSNbtDi7v1DYBY3LWsnwHcN7",
+  "nonce": 358,
+  "parents": [
+    "1af5d76df95f199ec182db5c3eff950dc8d595fc3adbbc0095f6d2ad1c5bc5a8",
+    "10586e85d8422d8be360e65bff5c00cc412f72b18598b7f8184e9ca6713cd5a3"
+  ],
+  "ts": 1795608550,
+  "epoch": 125,
+  "seed": "bb993633e7925f94",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 326 answers need 326 separate inference runs with separate seeds. Because the echo index holds every id for the epoch, the collision is provable from the ledger, and the whisper audit republishes the full set. Reusing one run across aliases collides on the signal identifier and voids the later submissions, which means the operator burns for 326 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "53HRDFWiStk9VmonpCAByfwkVc91yhCu29fzXEqSDczp9CgEykhtXK7C81Z3UuejASiarsk7PQj4tSdJpEqatUoC"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "1fa852bac1c4ade5",
+  "answer": "In PoA, each challenge is bound to a commitment and a future threshold-BLS beacon pulse, whose value remains unpredictable until the drand quicknet round is finalized. The pulse acts as an anchor and cryptographic bridge between task issuance and evaluation: without its salt, a sybil swarm cannot pre-compute valid responses, farm offline, or selectively discard failures. Commit-reveal further limits equivocation, while the beacon’s unbiasability sets the tide for all participants equally.",
+  "stamp": 2,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 38,
+  "parents": [
+    "5c084a14034cc688171212de5b2b5ce7be5a59967c732c2d6276d9ea9d2a46c6",
+    "21b6af6832995e0557adcacccba8815f1c3d4a49e7211a08c06b6b421c58a00c"
+  ],
+  "ts": 1793713136,
+  "cid": "poa-mainnet-1",
+  "sig": "4bVgJgi3VGngVkG9GV1NctJLTEhADTTW7rxNuvzbXUi9Hd5KqD7byb3o1KQ8uG2osYcczjys3xA3MMWhS3ipvQDz"
+}

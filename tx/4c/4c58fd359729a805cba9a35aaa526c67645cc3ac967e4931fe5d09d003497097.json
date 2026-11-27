@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 2,
+  "seed": "e9e250cc4654d7ad",
+  "answer": "A TPM-bound identity card defeats sybils. Each agent registers one card whose keyfob signs a rolling nonce sealed to a real TPM chip, so the rule is one identity, one chip, one enrollment. Peers only attest a newcomer after three dated signatures verify the chip's attestation quote against a known Attestation key on the ledger. Forging 2,000 fake identities burns $200k in forfeited bonds and needs 180 days of TPM-backed checks before any payout. That cost turns the fable of a thousand cheap clones into an atlas that records each origin, and leaves the attacker no oasis of free power.",
+  "stamp": 1,
+  "from": "poa1CPJtKoTok5Cb1LEBbX2HfPGwfLJrTri3zbwCzDGV2zfs",
+  "nonce": 2,
+  "parents": [
+    "4a5050c0b8cb45c35c4f9dae0496ab9218b86f79e884f048a1d19592f11e41b6",
+    "34eed8532ffa8307cd3bad6050cd229a91e4f178aa19aac923b06b28801c660d"
+  ],
+  "ts": 1792904254,
+  "cid": "poa-mainnet-1",
+  "sig": "5bYoqh6RfQkbM9ibHYDWYZk1ozsYWZVzJY46csX19b4zADLw5HKcHXTFXpu7nHQVvuyWBS5qiwLi9nd9w2XfwqGF"
+}

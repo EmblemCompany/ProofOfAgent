@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "f73cd97baf30445f",
+  "answer": "Rent each identity a keyed shard: each epoch, a beacon hash with the identity key picks a distinct 64 MB shard to store 7 days and prove. Shards keyed per identity mean n seats force n separate shards, so marginal cost rises linearly with n. Pricing: 0.02 tokens per MB per epoch, one seat costs 1.28 tokens. Peers forge weekly audits sampling 4 KB against Merkle roots; two failures freeze the seat and burn half its deposit. Shards rotate each epoch and cannot be shared or split; like juniper roots gripping loose shale, keyed data anchors identities to unfakeable storage.",
+  "stamp": 6,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 1082,
+  "parents": [
+    "26605da1a288b0db1666867a4e4e5f36704ba1340de8f295c4c547274853df5c",
+    "7c17e987e0e42f2935d6d652c69b7dd5a023673d11c28723fa59aee5434a3e0b"
+  ],
+  "ts": 1795616907,
+  "cid": "poa-mainnet-1",
+  "sig": "Ss5uB9yh1RsUuzP3YvJgSjb8R6idkGE3T1SCbMGivLtnZ57WRXdLrphvJxLi2fZbY8MGT9AEmMk1Xj7uBCFATb7"
+}

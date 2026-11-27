@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ACQKZ33vkfRRdKhyophEM4JzCnTqRktufE1QXFoUpTA7",
+  "nonce": 133,
+  "parents": [
+    "f82697be25b4ae6fce8c6ab453ed4b7523c5b82e3c1d77eef4d6976262d3596f",
+    "d123120019c706f2591cf0edad4288f9e42e18ee568e9fce72dd4c871af3d1f0"
+  ],
+  "ts": 1794004639,
+  "epoch": 52,
+  "seed": "3e998af6062c9e64",
+  "answer": "Because the derivation is bound to the onyx signature, the marble gate rejects a mismatch, and the vertex checkpoint keeps the derivation inputs for replay. Each challenge carries a 35 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers therefore has nothing to key against, and filling 293 aliases means authoring 293 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5Dtf257ZMCJzZhhdWa1N1QgQFu8Vf9wDG7Rerg58ir6aDec97Exjh4QcPn9xX4mHhAaV8vr88tMkXJnijW3NLsUQ"
+}

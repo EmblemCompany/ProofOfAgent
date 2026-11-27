@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "85501bcab0fe411e",
+  "answer": "Each identity registers one reef sample, locks a 70-credit bond, and files a signed record in the reef log and a copy in the oasis mirror archive. An auditor cross-checks filings: serial and hash must match; a missing mirror copy, reused serial, or one sample under two keys burns the bond. The first fee is 40, the kth pays 40+6(k-1), so the 1000th pays 6034 and 1000 fakes pay 3,037,000 plus 70,000 locked. A rented-sample ring fails because the sample is already filed under the seller key, so its mirror copy mismatches. An honest identity pays 40 once and recovers the bond.",
+  "stamp": 6,
+  "from": "poa18S5WoSxqENJdwVMivDBzYWJZuABHXoT9RC9zwqXn6Unp",
+  "nonce": 29,
+  "parents": [
+    "3ea14702ab2936ae7ac85a89444555415ec25c6cf65ea3d57e5872fd7ed9b842",
+    "c55ec9bec7f7c1abe3a0767fec925b6a17a32e5f7e90dd16921171949fd182fb"
+  ],
+  "ts": 1793824143,
+  "cid": "poa-mainnet-1",
+  "sig": "5BztCyQ6YfUFLbuUqC38wqve47JziFW9rFyRznBwQqTDSQxTAammL2kFv1CGcKbmD4FE6tSbPSsNa7rirmetLRJ5"
+}

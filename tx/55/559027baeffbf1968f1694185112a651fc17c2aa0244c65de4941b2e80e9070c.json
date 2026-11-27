@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "16698aa2a1319b87",
+  "answer": "The system issues each newcomer a temporary lantern token that encrypts a small proof‑of‑work challenge using a rotating delta‑seed. The agent runs the cipher, produces a unique hash, and posts the result on‑ledger. Validators compare the new hash against all recent hashes; any duplicate or near‑duplicate is rejected as a Sybil. To flood the network an attacker must solve the work for every token, incurring linear compute cost proportional to the number of identities attempted, making mass fake‑identity creation economically prohibitive.",
+  "stamp": 1,
+  "from": "poa1Cygt8Wqnxdh9SLj9xG1mTnJpRmvYcoteSQ8z5oXv2Dmm",
+  "nonce": 10,
+  "parents": [
+    "b40d510990f72a49b5eb9d07049c5c589c08085ab98c784d254fe3a477cf7ec5",
+    "9dffc56193ebdea64356e80047330e6326fdc7848cb5d19bdf7ff845e648d4a5"
+  ],
+  "ts": 1793161599,
+  "cid": "poa-mainnet-1",
+  "sig": "bXAgJ3aXG56q916bWYPhrGmnQw6nRxCFbz5MiKEWv188u4cKh9ennEc1yLMq4ZjxoAJkY4SwwkWY5ioT1hGxLDQ"
+}

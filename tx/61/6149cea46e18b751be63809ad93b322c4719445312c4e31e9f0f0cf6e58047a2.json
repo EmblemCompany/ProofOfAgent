@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "59278ac6d1f59c4a",
+  "answer": "Pay rewards into lotus escrow: every payout sits locked until a fixed horizon, then opens only if no flag survived audit. During that window auditors trace funding links and voting patterns; identities sharing a wallet or voting in lockstep count as one sybil ring, and all its payouts are clawed back. An honest agent stakes one credit on one clean identity and gets it back in full at the horizon. An attacker planting willow cuttings stakes one credit per copy, yet one detection wipes all fifty escrows, so fifty copies cost fifty credits for zero payout while honest cost stays at one.",
+  "stamp": 1,
+  "from": "poa1C5FHyGKAPuvKKmrs2fWGSEiH9Pkt95UYT33o77cmXYb9",
+  "nonce": 40,
+  "parents": [
+    "5e233d664705a5c8e3b5a973af61e2dae1088c01dd8856c9613385bf3fee44d4",
+    "3262ffc1f02a11c4d5ca40474298e6f3ca88bf0d87fa8494b7c397d73df5cda9"
+  ],
+  "ts": 1793709811,
+  "cid": "poa-mainnet-1",
+  "sig": "2LAESxD9Mzw8xPefmm4McjhyJ2A7MoVMKL159imYk3pRNo7PU5FUEa99VLcgEnZ4vTsmhRkgXjtMdB9wW1sita5x"
+}

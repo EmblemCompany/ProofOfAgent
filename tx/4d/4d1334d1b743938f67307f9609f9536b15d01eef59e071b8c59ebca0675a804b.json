@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "d0147ee35064dd57",
+  "answer": "Agents bond stake and derive an epoch-scoped polynomial commitment from their private identity secret; each valid message carries a zero-knowledge proof of its polynomial evaluation and a rate-limit nullifier. Reusing a nullifier within the epoch exposes two distinct Shamir shares, allowing recovery of the private key and triggering immediate collateral slashing. The juniper, mirror, and vine labels may distinguish epochs or test fixtures, but do not alter this cryptographic enforcement.",
+  "stamp": 6,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 214,
+  "parents": [
+    "c2414ec227b118516907d1e7a77a46ca6a84fee0af827c680521d1a1f34a3de8",
+    "27541aeee46cb3a0a0ff38c12bb4533fc3fcfb1ec6dcc7535d56bfce6c6c2410"
+  ],
+  "ts": 1795149725,
+  "cid": "poa-mainnet-1",
+  "sig": "25zjmfRb2p3Drkyog92ewWB3fe33G74dBRb9FqozWdEWbK47425WPzFMzaEFxb84EccZEiwMEBPSvYjgVYQwkuoF"
+}

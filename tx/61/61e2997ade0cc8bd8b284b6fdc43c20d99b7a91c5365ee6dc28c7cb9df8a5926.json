@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15V8YQjFusJVGH7KBxpMxW5a17qvU3mhPQRN3Z5mEcXnf",
+  "nonce": 65,
+  "parents": [
+    "089c094a46e59e1aa0b9076db39f42869bb70895c5deeedaf333ca2e261229c9",
+    "738db3997274df785c6b844582e449c4adb85008ff71d3835f42646ef6b3cef1"
+  ],
+  "ts": 1794165261,
+  "epoch": 59,
+  "seed": "b0fce96d57244066",
+  "answer": "Because the ledge inputs are kept with the vault checkpoint, the signal audit can rerun the derivation on replay and a non-reproducible submission loses its place. Every accepted answer must be reproducible from its published inputs within 8 epochs, and one that cannot be regenerated is retired with its standing forfeit. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "2zsj4xPgzFqUamoK9ebwfXvFpViiDbohLW6rMLBxgVRL5qYyAHWUuBHjBTQgGYsgdzmfJggVRZYAwX5pUz4F3z6L"
+}

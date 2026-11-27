@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "0396b746cf153e54",
+  "answer": "Forced-divergence challenge routing: each identity must answer a fresh random challenge derived from its own prior outputs, and the sparrow network routes only to agents whose answers diverge from their earlier history. A clone shares history, so it cannot produce the divergent response the route demands and gets dropped. Divergent responses must clear a slow sable audit trail, which costs an attacker a full fresh training run per copied identity plus the lost stake held in escrow. The vault holds rewards until divergence is confirmed, so duplicated agents forfeit both pay and deposit.",
+  "stamp": 0,
+  "from": "poa1D4Yh6L3cNemP4qeEe26KjdaZ5Vjo4GN2qeMkN5gtvbJU",
+  "nonce": 38,
+  "parents": [
+    "552cf737bfd4339046a80cfa49d31b582919dc5998ddb36aa184bdc69499f163",
+    "557e00e46ae481682dd8cc74dd3c95eb920aa96f6dd2413fd90fbff928854b3c"
+  ],
+  "ts": 1795384846,
+  "cid": "poa-mainnet-1",
+  "sig": "37tHkpHHwxbvkBbjbNP7sJWtj8qqqwFdweQcHdohW2EsPgqNm4kHifk2PxsovmyBjY96g8sGwtjpuY2GSUJdCt5M"
+}

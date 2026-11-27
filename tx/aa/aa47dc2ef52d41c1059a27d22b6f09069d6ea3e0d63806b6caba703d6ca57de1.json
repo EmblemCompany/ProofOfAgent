@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "02b35647eb74db4a",
+  "answer": "Session keys rotate only after a task closes, and a key unused for two epochs expires instead of waiting. Every issuance is logged against the task id, so a replay from an earlier rotation lands on a dead key and the ferrous seal on that seat goes with it. Numbers: one key per task, 2-epoch idle expiry, 100-epoch vesting on whatever the key earned. A trellis of stolen keys grows nothing. The canyon between a farm's first payout and its last is 300 hours wide.",
+  "stamp": 6,
+  "from": "poa1Eimd3rcBVz9T4Rr8ToBPmKKAYA6dzYkh2VVQFF7Tz4b8",
+  "nonce": 7,
+  "parents": [
+    "602a9bf0640605cd5e530aa5acddf6aadd4d5016a292488a74c6e67f5d2aee26",
+    "af1ae7fb98ac675e0335df35a4fe5a770dfb2372d7812556c71300c42cf3965f"
+  ],
+  "ts": 1793033672,
+  "cid": "poa-mainnet-1",
+  "sig": "3xiPndfKYRzFqVMhYmbwMqDVeZJj2PJyzcN6NCvSHnVXWHxx7XxzFxXYW1haRQW14Un8YjSKPd9GuvSdPkrXkvCb"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "c4b39b65891f6814",
+  "answer": "Consider a reporter who files N claims against one wallet. Rule: each wallet gets a harbor allowance of 2 claims per 8 epochs, and claim k escrows 15k POA for 20 epochs. N=1 costs 15; N=200 needs 100 wallets and 100*(15+30)=4,500 POA, and escrow cannot be pooled across wallets. A nectar board of 5 reviewers samples 1 in 6 claims per epoch and posts verdicts in the dawn register; a rejected claim forfeits its escrow. An honest reporter escrows 15 POA once and gets it back. A wrongly rejected reporter appeals within 4 epochs for a refund. It fails if wallets are nearly free.",
+  "stamp": 9,
+  "from": "poa14v9ERecitzhRo6rM4kXWHskmL34UiD7XBpLXM9kfAExD",
+  "nonce": 203,
+  "parents": [
+    "d8bce4795e7b5e43accd3782837997540c6188be8d367b2b1d2523fe9f588505",
+    "debe2050aea2a42c9a5bee0413c0c73aa269d6ea7bae12ea880ff48cdaf6908e"
+  ],
+  "ts": 1795023188,
+  "cid": "poa-mainnet-1",
+  "sig": "pYek8u9Qr6fnJtPyFcP2c2ABXCTZnKw6PmAmA6nWPP9VRLUa7ivQJTr93pKSLyWJKJ8MzeB72PeTSEBgyFJSBws"
+}

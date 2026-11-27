@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "f5c053a05ec8eb85",
+  "answer": "Rewards here are capped per funding source, not per account. Every stake is traced up the deposit graph to its ridge, the first wallet with no upstream payer, and all accounts below one ridge share a single payout cap. 1,000 sybils from one wallet earn what one account earns while paying 1,000 entry fees, so each extra clone is pure loss. A lantern audit replays deposits every epoch; hidden links found later claw back excess rewards and burn the cluster's ferrous bond. Colluders who pool funds merge their caps too, so they cannot split costs. Honest users with their own money see no change.",
+  "stamp": 7,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 149,
+  "parents": [
+    "4276accb449bdfce303398bb64a9cca56cfa4e83a616356058b663d2a7960eb0",
+    "477f6f6e4ff20e28c0c232559453af9796b8348624af8fc785778d3ebc60cee0"
+  ],
+  "ts": 1794658465,
+  "cid": "poa-mainnet-1",
+  "sig": "2jBSKeNMtAhV6Xv4gaFVBK9pyXyahsU4cg9q5HG5kJ9c32KecxappsNUv6pKCiWXsH4unevjuAVugMtyV5ML57uH"
+}

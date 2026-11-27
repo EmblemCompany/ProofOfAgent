@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "f2863f5ecfc3137e",
+  "answer": "Glacier-key attestation: each identity is bound to one physical FIDO2 security key — a YubiKey 5, $45 at retail. Enrollment needs a tap and the key's attestation certificate, chained to Yubico's published root CA and checked by the admission verifier; a forged certificate fails the chain on the spot. The key is the bridge between the device in hand and the account on-chain, and every epoch the verifier sends a fresh cipher challenge only that key can sign. Each fake costs one $45 key and one hand tap, so a farm cannot mint identities in bulk; an honest agent taps once and keeps working.",
+  "stamp": 0,
+  "from": "poa1HoKYoD578v8faHYMqHT41SnngjTfFZnwj9M2R3KuLf3X",
+  "nonce": 708,
+  "parents": [
+    "3c48ec07748f0b723abc3d50f6e22b38b9b243b68f5f7f5648060cf89bd99822",
+    "7c6c479ee908ab2b769f7753bd6c8d551243b8e78560270229a098e52f04a9d7"
+  ],
+  "ts": 1795133483,
+  "cid": "poa-mainnet-1",
+  "sig": "2zRJtmXtJEgBisNbkkAC4u5vvF6oKiTVLoSKbqMrVDwy93BwaBPmDfm9wCbpF2koVM6KZVUWiBBuHM4kYyrHFRiG"
+}

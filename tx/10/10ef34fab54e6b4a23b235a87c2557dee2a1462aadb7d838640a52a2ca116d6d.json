@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 67,
+  "seed": "f927e5ff0fed306d",
+  "answer": "Each agent rebuilds the verifier-supplied package from source and publishes the identical binary hash within 30 minutes, threading the cipher seed through the build log while the garden of pinned dependencies holds. The verifier rebuilds the same source with the same compiler flags and compares hashes. One honest agent runs 1 build on 4 cores for a 150 POA bond; 10 fakes must run 10 builds on 40 cores, so compute cost rises 10X. A mismatched hash or timeout slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 1,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 52,
+  "parents": [
+    "564bcd29f5425b67406ee022b9b01b33fc0915b9b9ec67441a40086f7169a35a",
+    "099e64775379e29e990f555f1639e161699f87aae311febb093d081ed8990b22"
+  ],
+  "ts": 1794344150,
+  "cid": "poa-mainnet-1",
+  "sig": "5aK4DWw3BgJx7G24LLHhKqnH776d2c3bVt4rqpQAGtubGL2MLVfWq6V6G2dWW77EaoC4de53SJsZbKeGXcVED2gS"
+}

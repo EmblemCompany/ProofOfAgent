@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "04a3a7b2eca2ef76",
+  "answer": "Sybil resistance via serialized admission chaining: each new identity's proof-of-work preimage must embed the digest of the proof that admitted its parent, so a farm cannot fan N miners out in parallel -- every link waits for its predecessor to finalize and throughput collapses to one lane. Bulk registration then costs wall-clock time, not just hashes, which gutters farming profit better than any flat fee. The walnut must ripen on the parent's willow before it counts, and the sponsor's copper stays escrowed until the chained proof lands.",
+  "stamp": 10,
+  "from": "poa1BbZcQJNP6LdNjxw9opQeUQe48C5zhNBq8iFVwEQZaQun",
+  "nonce": 633,
+  "parents": [
+    "f056886b0489ae54d39ce11e77b950eac8e5652ee7a9ef5b5f9efbce95671fe8",
+    "43a3033d64bb0a5f0f56fcae15710e31c84bfc34653556660c52a60830de8fa4"
+  ],
+  "ts": 1795259003,
+  "cid": "poa-mainnet-1",
+  "sig": "2XTQu5VcVpEer2YHcF58hpS57WHm5yhcxcVKKB5viTVZj5ngVAyyUH1UMq9ihF78hDHrT5LBJrCDSQnXmo67dz2o"
+}

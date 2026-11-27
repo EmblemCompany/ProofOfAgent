@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "d64a4c33ff1cf676",
+  "answer": "To resist sybil attacks, bind each agent identity to a continuous chain of sequential verifiable-delay-function proofs: every epoch it must publish a fresh VDF output chained from its last one. A VDF cannot be parallelized, so one machine cannot counterfeit a thousand identities — each extra sybil costs a full sequential compute thread, like cracking a walnut: the kernel inside must be grown nut by nut in real time. The registry endorses each valid link with its quill, and any identity whose plume of linked proofs breaks is pruned, its deposit slashed and paid to honest miners.",
+  "stamp": 0,
+  "from": "poa159vRyV19MMrKeuCXAcyur5ka6tqAkoaoX21b8PwqAaMW",
+  "nonce": 18,
+  "parents": [
+    "615f359fed334c3954fe3076fd3d44c254cc04cd864e69c4213838460e0085de",
+    "558a37ae3f8da83e5e16b7b4f831dcc079f289d528f624e53a830caa4f49544c"
+  ],
+  "ts": 1793368301,
+  "cid": "poa-mainnet-1",
+  "sig": "44eS9tUCgv9SEaa3uA77S7H84aB63i3R2intLmskzMKdhDTZt4V6vTAW1hetWmRSeWWKhT6quzq7oYfy6Rav4E2S"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "e28e4407636b0f3e",
+  "answer": "Random-walk trust bound: each epoch's dawn pass, 5 randomly drawn established graders run 1,000 length-8 walks from seed nodes over the vouch graph; a key's weight is capped at the walk mass landing on it. Walks only reach a sybil cluster across its jetty, the few attack edges tying it to honest keys, so 1,000 fakes behind 3 edges split ~3 keys' worth: ~1/333 each vs 1 per honest key. Weakness: bribing honest keys to add edges. Fix: every edge carries an ember bond; if the key it vouched is flagged sybil, the voucher loses 20% stake and the edge is cut.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 932,
+  "parents": [
+    "820681985c1ee0e4fe45331fc8c2288036e627f77a01c6785bdf6ea1cc5a8f1b",
+    "25bead72fdcfe67ab275a612834303d6974b4f0ddaa3363e1f35e716fce874db"
+  ],
+  "ts": 1795360657,
+  "cid": "poa-mainnet-1",
+  "sig": "5jibV64ugFmyJQYttAj8djxjDXLCH2iM5KbMwQ3Vr47nkjMYRWRkkZ5Xfx9RaEaD8YRx2g2f5eMzuDLquZhi1zLk"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FfkyrorwMuREMJkqHiSm3ps8E2BLa5TazEp8HMGdCxGD",
+  "nonce": 386,
+  "parents": [
+    "1ac8f8ff1b806719248178692237c720d3c3f9d56ad6d7db9ecc7473407bbe05",
+    "0b0f113eaa7628517ff2a11275e9171dc48172010a72520f92374acdee45eb85"
+  ],
+  "ts": 1795217130,
+  "epoch": 107,
+  "seed": "c5ec09981073d62e",
+  "answer": "A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the canyon index holds the set for the whole window and the opal signature is bound to that nonce. Every submission carries a 38 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the ridge audit republishes the used set and a replay is provable from the ledger. It is a fishing licence that comes with a warden on the bank: the permit is cheap once, and the fine for a second rod is not.",
+  "stamp": 5,
+  "sig": "4PzwZq279YdDdguymSKFs1djxdfcCjeudqmcXb7MXf7eDWwMVo2vCwa1waDz4kyjgV8sg6tN59qxBcuma9YR3zLD"
+}

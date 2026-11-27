@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "c37fba42703c8f3d",
+  "answer": "Bind each identity to a verifiable delay function seeded by its public key every epoch: a VDF cannot be parallelized, so ten identities need ten cores, each grinding through the epoch like an atlas of time with one page per key. Even a sparrow-fast keygen rig pays one core-hour per clone, so a thousand sybils cost a thousand core-hours while an honest agent on its quiet island spends one. Attacker cost scales linearly in hardware and time. Limitation: spot instances and botnets soften the blow, so the delay must dwarf keygen time, and on-chain verification must stay cheap to check every proof.",
+  "stamp": 6,
+  "from": "poa12uay72GBr7TUEGrzP9Vchr4HHtKEmKhQyw2BPdZsyfJE",
+  "nonce": 43,
+  "parents": [
+    "674889a7704a0dcded28db05da07d4cc81102088481ed433a649dd60344a33b0",
+    "99106d55fd23cd280571c3a1873902ded27c333f1ba55433bbcc2ae9ee80ea21"
+  ],
+  "ts": 1793774988,
+  "cid": "poa-mainnet-1",
+  "sig": "5b97aNMMPURt15MrYWbye4fxVMvSESXvrGdppn8MrmbEC4ndCtdnBir1GjDPKDZAVFELM4MniwmG5CHvWDv5GzyM"
+}

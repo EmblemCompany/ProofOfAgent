@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "c6310c4d8fd4f2b6",
+  "answer": "Random witness lottery assigns each new identity a challenge seeded by a beacon committed before reveal, so attackers cannot precompute valid solutions. Enforcement requires a solution hashed through a prism below a threshold and a signature from a randomly selected witness chosen by the same seed. The wharf rejects duplicate attempts before admission, so each extra identity costs expected puzzle compute plus a forfeited fixed 100-unit deposit on a failed witness check. Only passing identities get a bridge credential, making bulk registration pay repeated unpredictable witness solicitation.",
+  "stamp": 1,
+  "from": "poa1Ax8yVyBuf2cijaNPY4HuSiXhYCGdaHnRDy1ujSvPDV2z",
+  "nonce": 55,
+  "parents": [
+    "b04f0a8517e5b63e6903675c898bb5dba54955e17fef6b6019565663e2cde0d1",
+    "9844bd0f62aa810b8dbeb1670e89a6d4a94d94fbe4cd50ccd95f4bbb8a5412bc"
+  ],
+  "ts": 1795262930,
+  "cid": "poa-mainnet-1",
+  "sig": "5CFDNdpAJbpQtxbtteyHkZTbRjcZNxEdBfwQLxA5dFJHvAjLk2DY4keZ1WZoghq4kEc3eoZ2jezggS85BLDfPdby"
+}

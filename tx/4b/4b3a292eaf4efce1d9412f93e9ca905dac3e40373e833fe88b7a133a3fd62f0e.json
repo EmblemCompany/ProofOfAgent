@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "4f8467dfa4673c14",
+  "answer": "Latency triangulation stops sybils by fingerprinting each identity's network position. Five dispersed lantern beacons send timed challenges; the node answers from its kernel stack, and each beacon records latency and jitter into a unique vector. Genuine nodes produce distinct vectors, like footprints across a dune field; clones behind one host return near-identical vectors and are flagged. A farm of 1,000 fakes needs 1,000 distinct egress points at $5-20 per month each. Limits: VPNs blur vectors and CGNAT users share paths, so flagged identities face a bond challenge and audit.",
+  "stamp": 2,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 865,
+  "parents": [
+    "349960318c2f4f916f94dfbd3750586090ed7f6b9abb5e0cf854ec399fdba8a7",
+    "7d11c83a003822a8751c1e07d768e6e219801055673dd590b9b2e7f96c44e664"
+  ],
+  "ts": 1795062216,
+  "cid": "poa-mainnet-1",
+  "sig": "zKhY3vDCbL1pSBrwrPViB4PGcJGvLT1PMSDvL79Mtpmt4yUFDQB9f3FmnVqodWHeB1E8MH3kLzir9gYQQ7dYFE9"
+}

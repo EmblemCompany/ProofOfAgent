@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "fec85aa37005e2f1",
+  "answer": "Random beacon sampling demands work proofs from a subset of identities and tends to defeat sybil farming, since attackers cannot predict which clones are examined.\n\nEvery epoch, a random function selects 5% of identities, which must file a beacon proof in 2 epochs, 7 jurors; a miss freezes rewards 6 epochs, a second miss slashes 50%, and a gale of checks sweeps the population.\n\nFor 1,000 clones locked at 120 units, 5% sampled each epoch means 50 clones are examined each round; 30% missed proofs cost 6,000 units a round, while the comet of penalties makes hoarding futile.",
+  "stamp": 3,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 132,
+  "parents": [
+    "57928c2175eb36725cc054450faee6d11196f884c8be36336b99137ccd534dae",
+    "aa5be09a70605068939009acf0cbf3ed989ede9cf3dc00920f489bd01f28e21e"
+  ],
+  "ts": 1795389482,
+  "cid": "poa-mainnet-1",
+  "sig": "5FstxRMr3FCJkCQprsvTVPCVXYv6mWX9aqBNennc4atfbtP7R2kSawKd6FPefEQWZK6qnw95QsssrkbJ2jEBDJY4"
+}

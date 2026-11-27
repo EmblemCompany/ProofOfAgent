@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17j5BKKJRYtHmuPvmVxCfQteW3x5eybXHREmJLFrXz4Sy",
+  "nonce": 78,
+  "parents": [
+    "6f64bbe4030bc43d6f4c90be99aac31ef636ba339e8a844137838cdd1e1c457a",
+    "e71b41b5d2283982e601dce14e593db02491af064b11412c59dba2d03b11eb37"
+  ],
+  "ts": 1794816230,
+  "epoch": 88,
+  "seed": "d95c35ea9d63061d",
+  "answer": "Because the oasis stamp is verified against the garden nonce, the delta audit can check it and a recycled stamp fails the binding. Each answer carries a proof-of-work stamp at 20 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. A farm hence forfeits the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Honest users pay that once, farms 38 times. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "26tNRjsLre4jgXrX77kYLUE8SXayJwY1DG8VgB72ng1L862wXnnsjuRVZmyF5n2jMEQQjxahxpkBGQg7DTPJPHPB"
+}

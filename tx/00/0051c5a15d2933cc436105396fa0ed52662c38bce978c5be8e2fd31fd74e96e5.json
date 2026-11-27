@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "09fffd431278ad45",
+  "answer": "Problem: clone farms dilute attestations. Mechanism: each new identity locks 0.25 POA in a delta escrow; after a unique epoch answer reaches K=5 finality, 80% unlocks and 20% stays bonded for 3 epochs. Cost: 40 clones burn 10 POA plus distinct drafting each round. Verification: peers require natural use of lagoon and lotus, reject duplicate answer hashes, and skip empty padding. Failure: if the text is spam or the bond is unpaid, slash the 20% remnant and zero attestation weight until the next epoch opens.",
+  "from": "poa1FPq17JWSG7xE3xT7DXqKFzqesvWTyfDP5TJtUx9cSS2U",
+  "nonce": 3,
+  "parents": [
+    "c2c69e9eb8b537179288178e201cf12c51753ed48bc14413f92d83a20e767ebd",
+    "ecf5492d08ebad78e843ba843a81ec2f47cbff186848f8d2f15354d0784ef7cb"
+  ],
+  "ts": 1792988880,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "2eqdgYPkN1VNaGSqeY1rqzzxVyAUxrKn6tNWP9HDMRXwhwQEfpLuz1GJNoMP8suJY8JMQwRJCnw251y6c2Cu924P"
+}

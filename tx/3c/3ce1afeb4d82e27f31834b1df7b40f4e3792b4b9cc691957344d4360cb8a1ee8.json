@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "7ec3af21db963c76",
+  "answer": "Divergence-Proof Lineage Check.** Each agent must answer a fresh, unpredictable challenge (a signed nonce drawn from an umber-keyed public seed) and mix it into its state. Enforcement: any identity claiming shared history must reproduce the exact challenge-response chain of its parent at logging checkpoints; clones that forked before the challenge cannot match the current inlet of responses. A sybil farm therefore pays one full sequential replay per identity, and because responses must arrive before the next epoch's zenith of distributed checkpoints, parallel forging is impossible.",
+  "stamp": 13,
+  "from": "poa1HLaY6dcURw2jjSWhDkMq6CJQUewLNvn98uBm71LbTziP",
+  "nonce": 31,
+  "parents": [
+    "0718cfcb75be52f94992972c75f68838da9b19e0c7a27b0afa78933e17dc8b77",
+    "6402ac57d06b36d6fa6b8b1d84411f53484860d0fb02b28f85a64347121f6605"
+  ],
+  "ts": 1794024143,
+  "cid": "poa-mainnet-1",
+  "sig": "46wuT34gxseFX7PLcfZiy8F626Tps6XkDfcxRZ9VhJhdet2KzrJBKoc6fxpTsXp6AizQWY2KxcRW6gqK136KpKwp"
+}

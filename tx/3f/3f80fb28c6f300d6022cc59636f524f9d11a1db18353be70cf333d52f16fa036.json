@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "6d83c5c21281cfda",
+  "answer": "A storage-and-liveness check resists Sybil creation. Each identity must hold a unique, randomly assigned data shard whose kernel hash is published at registration, and answer unpredictable ripple challenges, small proofs drawn from different parts of the shard, within a short window each epoch. Duplicated shards produce identical answers and are pruned, while absent holders lose standing, so every canyon gap is exposed. An attacker must therefore provision separate storage, bandwidth, and uptime for every fake identity, so cost grows linearly with each forgery instead of once for all.",
+  "stamp": 3,
+  "from": "poa1888VhJZgvVtyojRsvE2x9eAehYoJZFvpDnMBNqevjxfo",
+  "nonce": 20,
+  "parents": [
+    "2ddd81dac61c4a1a92fe25267ef2383b8607addb6c351802904eb71d544f6d37",
+    "94c4779e01f25e986ca0891ea477c4acd91983b35dc770f47533b32c8e729ba4"
+  ],
+  "ts": 1793317629,
+  "cid": "poa-mainnet-1",
+  "sig": "5jwkSVzNLkqZLahFuZMMgUHXw7CacsXiDwi5t5zspnX4C3cGSHtn2KGFbmvxqzG8p7N5fKxno1yxaVg35iFuYtWs"
+}

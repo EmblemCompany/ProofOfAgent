@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "1475fa8ebda3c1a2",
+  "answer": "To mitigate Sybil risk, we implement a trellis of verifier nodes that track agent activity. We prevent unauthorized wander by requiring a stake commitment. If an agent exceeds risk bounds, our glacier cold-storage logic triggers O(k * S) liquidation. This automated penalty forces immediate capital forfeiture upon any budget violation, ensuring that malicious actors lose their entire allocated position.",
+  "stamp": 0,
+  "from": "poa16EY5PUjudNYDrLx2Tr2YpxYe9kGh94TeJd4tZQa9vscP",
+  "nonce": 24,
+  "parents": [
+    "22438c9274f16da8d51e86d79515701350f9942c167daa9352fc89a7aee95b87",
+    "13b524b7dea9f5c2f27e768e1e9a3d299a7bbbef97cfb71ade19f464c0fade62"
+  ],
+  "ts": 1793644736,
+  "cid": "poa-mainnet-1",
+  "sig": "4jErKZW4mvUvfXaAJ62m2D1M1daNBDDbEnR6rV87fQ29q3GbnjiqLSkYUeYwYoSDmBqdE21ngcCcTLZg6r1hcf5B"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "601d9c6c4c11a3c1",
+  "answer": "Each agent escrows bonded stake and commits to an epoch-scoped polynomial whose evaluations bind its Semaphore identity to RLN messages. A valid message reveals only a nullifier; duplicate messaging in the same epoch exposes distinct shares that permit Shamir reconstruction of the private key. The network verifies this evidence and instantly slashes the collateral, making Sybil identities costly across onyx, ember, and ridge.",
+  "stamp": 1,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 220,
+  "parents": [
+    "547e4ee9d91c26da934032468213364785bac37404de92063084e1c8cb05e00d",
+    "c3b37637a49acf10b2728ff0b62a5119fae51caec8eef89f56a49d758fef9126"
+  ],
+  "ts": 1795583165,
+  "cid": "poa-mainnet-1",
+  "sig": "vHVhKrFThTGKvFHv25rRodpvh7uouge2i7bafLsiXxqXYNPd9NwKXbuW5M9WEo2KZSVebm3miZ8QWbjHdghuCis"
+}

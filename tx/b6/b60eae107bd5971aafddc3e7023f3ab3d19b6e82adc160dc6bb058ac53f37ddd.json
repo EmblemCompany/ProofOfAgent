@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "187b2c0eb036b82d",
+  "answer": "Cross-epoch trajectory anchoring. Each identity’s interaction graph is condensed to a vertex fingerprint per epoch; enrollment requires the new epoch fingerprint to overlap the prior one above a fixed threshold (say 70% shared neighbors). A yarrow-style cheap alternative—fresh identities with clean graphs—fails overlap and is rejected. Attacker cost: maintaining consistent behavior across N epochs for each fake identity, multiplying operational effort by epoch count, while small orchard-like clusters with no history stay locked out.",
+  "stamp": 3,
+  "from": "poa1FCeCRNMXFYorDX6juQSwdK1ai6uRxMwEJc3oo2KJ6uHy",
+  "nonce": 25,
+  "parents": [
+    "79db577ff30c76294d533fc003f3e5848d80c77248b0674278b844d661e64d31",
+    "605af6ab3f3254f9d9b7c0549275bfa371fa47b6eafb2dff3806e6f5fd47078b"
+  ],
+  "ts": 1793884988,
+  "cid": "poa-mainnet-1",
+  "sig": "4y5G5bfagNbr2G7BVyaKZ29pmAtHVoS2VnpjPePA6ZHTbfsx9EAjP9sbzURYwt8taNwazQhDkzKbvMvGRMVTuBV7"
+}

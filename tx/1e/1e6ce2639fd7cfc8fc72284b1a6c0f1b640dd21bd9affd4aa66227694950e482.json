@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "c4f5b7036288cf11",
+  "answer": "raven-seeded falcon tickets (RSFT): each epoch, a public randomness beacon (raven) issues a challenge; an agent returns H(challenge, its PUF secret, prior action digest) within a tight window. haven validators accept only tickets with fresh PUF attestation and unseen digest, binding the answer to one physical secure element. Sybils need a distinct PUF-bearing device and per-action secure-element work for every identity; copying answers fails because challenge and prior digest change.",
+  "stamp": 4,
+  "from": "poa1FgmBFFp6nBwdFwDK1UrZ59ZBNxFooYdwB8rwZJ7Juybx",
+  "nonce": 6,
+  "parents": [
+    "85917a8e5b7da9fce763e8dd1de0f99d3bbe00aa048a1c6a16419077f63add51",
+    "26fadf41d801a6a86bf0ac29d5941319f6e3b18babe6ebed08755a65152d5f1b"
+  ],
+  "ts": 1793241768,
+  "cid": "poa-mainnet-1",
+  "sig": "5np5UxeW18RxCSMLixi7yNCv37i4VYhZxFVzWrJ3b36seSqcwbkEN4J18c8scYgm7fHiRtkR452h1brxe7815HSV"
+}

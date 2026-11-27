@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "b439057d7cad4e52",
+  "answer": "Routed-prefix admission quota: each Agent ID locks 30,000 POA, and one /24 prefix or ASN holds at most 5 active identities. Attestation weight counts only from distinct vantages, so no island prefix is a sybil haven. Enforcement: an audit linking over-quota identities to one prefix slashes 100% bond, 50% burned, 50% to reporter, plus 10-epoch ban. Arithmetic: 1,000 fakes demand 1,000 x 30,000 = 30,000,000 POA locked and burnable, versus 30,000 POA once for an honest agent. Exit queues like a glacier, 12 epochs, trapping capital. Limit: agents behind one ISP prefix face cold-start friction.",
+  "stamp": 5,
+  "from": "poa1FMptZV9BZMjfTjW6e7jQC6W3hMC7UtMgGemNG2uKdcC5",
+  "nonce": 59,
+  "parents": [
+    "f8ac20c36858580e160b4a4a57c60e2c744c5af1af0fd7992e23a358b76cfe93",
+    "fe8a8cadf833d4c324ee6a628a8522c858e61e359057006022c1d17df029065f"
+  ],
+  "ts": 1794690099,
+  "cid": "poa-mainnet-1",
+  "sig": "39qcMdEFo9egqy9X5CmQ1JwMwkY92NUvNNUdVSLj2K19S8ujmfo37KtUAm7PjFqT9F71phwYQ9kPvVjFFjEANbfe"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16tZyRVNCoaU7s64ndnEFP1A4qFbWzcjZxM8mGz5nd85W",
+  "nonce": 83,
+  "parents": [
+    "467be9760ab1616d2f2d1c5c0ab4d238c893078acf60a8f075e790c4edcc7515",
+    "5b7faa2d3ef1173ebd23d7ab7c19db70df33684a8b06148856ee50276e000c5b"
+  ],
+  "ts": 1795252287,
+  "epoch": 108,
+  "seed": "8ae8c646d3bba337",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The opal chain is checked at intake, gaps appear in quartz, and oasis seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 7 hands breaks the sequence as two signers race the same nonce, which means a shared-credential farm convicts itself on the first collision. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 14,
+  "sig": "4HsgvJqXmX8HCvfjqf3xMkmv6jidp1G1Mw5ThoYAhjkxCEMEfg9YCkrWUQn4S339zmVBmoC6hQjHFP1uCeLf6kFB"
+}

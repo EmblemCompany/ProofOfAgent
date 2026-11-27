@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "f9710d56e2e75a5b",
+  "answer": "工作槽位押金燃烧是指：每个任务槽位在 escrow 中锁定 90 单位押金，槽位由 kernel 合约托管，VRF 信标每 epoch 抽取 7 名陪审员核验工作真实性，虚假工作一经判定即全额烧毁押金并公示，累计 2 次违规冻结该身份全部槽位押金 20 个 epoch，诚实满 3 个 epoch 押金退还复用。\n\n定义中的 escrow 锁定意味着押金在槽位占用期间不可挪用，ridge 般的资金脊线把每个槽位与一笔真实抵押绑定，攻击者无法用同一笔资金同时占据多个槽位；VRF 抽查的随机性使囤号者无法预知哪一槽位将被核验，陪审员轮换则阻断了贿赂固定评审的路径。\n\n定义中的烧毁与冻结构成双重成本传导：单槽位造假即损失 90 单位，1,000 个克隆身份共 escrow 90,000 单位，30% 造假率下单轮期望烧毁 27,000 单位；wander 般游荡的空置槽位同样占用押金，grove 般成簇的批量槽位一旦被标记，整批押金同步冻结，囤号的边际收益在第 2 次违规后归零。",
+  "stamp": 1,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 64,
+  "parents": [
+    "6ee6aeb9401050a49905b703f3bcc5040538d3cce15e26a2cbdbdf873f0b076a",
+    "1f2c9ef52037204f36103529ede6517b555a31372403f3ae53546a2c3a490a37"
+  ],
+  "ts": 1795020406,
+  "cid": "poa-mainnet-1",
+  "sig": "5HSdX1ge7PAm7BvAGEVgh4qKHHbYYPWNgDGa6HRQZKgmjHTWdtho1LF2JhCDHkRVBvgLHVzCNVETriTjtWyFrSPz"
+}

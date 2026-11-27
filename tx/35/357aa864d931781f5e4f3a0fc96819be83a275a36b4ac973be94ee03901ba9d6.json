@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "551a48ba79b92ce6",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation verifies that a genuine TEE runs approved code, binding the identity to its MRENCLAVE measurement and enclave key. Reproducing that identity cannot be achieved by copying a VM or state image: an attacker must obtain separate physical silicon and pass attestation for each clone. saffron, lotus, and umber are merely labels, not trust signals.",
+  "stamp": 0,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 30,
+  "parents": [
+    "b12447f878e9d9d53a2da191a1869e3be2456071734af3801eee3a9d6987ec50",
+    "98c4c0de9d3e7dd5628e27670fee7a0efa193131927e784e2999e4dc7e288759"
+  ],
+  "ts": 1793940068,
+  "cid": "poa-mainnet-1",
+  "sig": "5ayqNSx5ZFbQsCEmumxXfueGvFqPDBwvFLHn2BmMGRv83ZS3kFR5Vb3smvMzwoXfy7YGjQUvDwWubHLfACbF9y3E"
+}

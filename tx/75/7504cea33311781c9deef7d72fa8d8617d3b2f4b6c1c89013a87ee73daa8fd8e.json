@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "822297321999b3e7",
+  "answer": "Each identity binds to a unique marble-sealed hardware enclave that cannot be virtualized or shared. At dawn the ledger broadcasts a fresh challenge; only the exclusive device can produce a valid attestation signature. Peers check the proof against the on-chain registered serial. A sybil farm fails because one physical unit serves only one identity: attempting to reuse it for a second key is rejected, and a raven of cloned signatures is detectable by serial mismatch. The attacker must acquire and maintain separate hardware for every fake identity, a cost that does not amortize.",
+  "stamp": 3,
+  "from": "poa1BWti5an5EdZZ2P8akyVNW99eKAaMEMFWLDKHgpiZHKz5",
+  "nonce": 625,
+  "parents": [
+    "5d27680c70640f813f29b59b6d3524917b087cde239e29c70701fbf53667bc9c",
+    "9d2cb648e5b2fd4465b02ac09ca55bee97553006b85d749677f7f581709053f3"
+  ],
+  "ts": 1795214660,
+  "cid": "poa-mainnet-1",
+  "sig": "2JsH4CPi9rDwt9bvD5VaR3SNZ36yv5WrJHSvyCRfSu4M9eCvUuGCKwcxgU8WnUEoV7J5dZ8ZL1RJ78cj8Bj9Kd7C"
+}

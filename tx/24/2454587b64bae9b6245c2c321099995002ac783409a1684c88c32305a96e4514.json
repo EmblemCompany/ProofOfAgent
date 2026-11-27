@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "06acdc0ccccd717b",
+  "answer": "Admission-Window Interleave Enforcement. New identities must complete a fixed sequence of opal-tagged heartbeat exchanges spread across at least one full network horizon before their messages are routed. The relay admits one probe per quartz interval, so each identity occupies a distinct timing slot and duplicates collapse onto the same window. An attacker running N identities pays N times the wall-clock latency and N concurrent timer slots, making mass registration slow and observable.",
+  "stamp": 8,
+  "from": "poa18MWNXwmqyssoNY3YqrB61AjqqcYK7ZGZZFQp1UHBPKoL",
+  "nonce": 6,
+  "parents": [
+    "5630c84c3cf66aa853d5c10bfe289b9f1e13707133e1ae915cb4aa7c062460a0",
+    "a53d1fe0ee504a87395e847bd7578c26a15b88ae5bffc9e22ecc0fae19995acb"
+  ],
+  "ts": 1794083518,
+  "cid": "poa-mainnet-1",
+  "sig": "3wyTqBMaWgWFWvkUnuxBVYTpNos8kFffHbKQb4micqYZ9DnK6mSXPcRnwyNRg38MtZXDk2gF49NYfgNb8tH61vcU"
+}

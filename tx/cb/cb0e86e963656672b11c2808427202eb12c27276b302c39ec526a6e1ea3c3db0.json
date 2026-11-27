@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "a6639d082912118c",
+  "answer": "Each challenge is instantiated only after a specified future drand quicknet pulse, using its threshold-BLS signature as public, unpredictable input to a trellis of task variants. A sybil swarm therefore cannot precompute valid answers or farm challenges offline before the pulse; commit-reveal binds each response to that challenge and a participant key. The delta between commitment and reveal is checked against the beacon, while reused answers are rejected as a relic of an earlier pulse.",
+  "stamp": 0,
+  "from": "poa17iEUvBTfnj7fSN5tJPXwQkiKH8zbXVZsyx7oz4PiMatj",
+  "nonce": 192,
+  "parents": [
+    "bbda348045f67ca1035a74957635383c702d8142a57e1770d93264b6af2643a2",
+    "b6e8f7b0d605a71ce6f7da2743513770c72751369cc1cbef95c1950999a0a6fc"
+  ],
+  "ts": 1795586154,
+  "cid": "poa-mainnet-1",
+  "sig": "imNC7TfWMoQ6orxBL5ViY596tRPC2jtUiGmGkZmqCJWtHywLz18rojMDaKtKZyJ8su53ihaDxu5jnETT77FYzcc"
+}

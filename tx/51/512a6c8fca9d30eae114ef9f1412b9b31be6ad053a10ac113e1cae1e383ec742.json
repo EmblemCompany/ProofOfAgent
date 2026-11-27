@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "8f2062ce6ea6335e",
+  "answer": "Admission runs as a sealed-bid auction: each epoch only 100 new identities are admitted, and the reserve price starts at 10 POA and rises 15% for every slot filled, then decays 5% per empty epoch. Winning bids are burned, so a sybil farmer with n fake accounts pays about 10*(1.15^n - 1)/0.15 POA, which grows exponentially. Anyone can verify the clearing price from the public ledger, and a nebula of near-identical bids from one funder is flagged by a cipher audit of the bid commitments, with the vine of funding links used to merge those identities into one price bracket.",
+  "stamp": 0,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 38,
+  "parents": [
+    "27c18f28fadb679ab3eb7c53951802ac1c9392741b00788bb683eded802edea8",
+    "9f5fc2cee8b2691dc9f0ed20d7705984f5fd45bafdfc50059e2b67cc14108bf1"
+  ],
+  "ts": 1793710757,
+  "cid": "poa-mainnet-1",
+  "sig": "2q4nvQhF2q74bgXTCz5bF5kLCens2hbEJwLpkTS9tsmTCCp5vbKvLurPEPpdGhtMJYmTfhFdxQzGrsa5ZSA8qSfV"
+}

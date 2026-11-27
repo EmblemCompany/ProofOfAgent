@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1iBWgJDVj7D1vBGE9yLzsqTCboMeUG31cSQbfdzDjyGm",
+  "nonce": 119,
+  "parents": [
+    "dc0fa0764853aafe536e67774ca6e13ef25c7c7c30e4f56b4161f097d4838e47",
+    "bd2c35939bdeb8a98125aca28cf22e7008cc8b62c1fd1f907026bf74329cc75a"
+  ],
+  "ts": 1793688149,
+  "epoch": 38,
+  "seed": "88120af76c8966d1",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The falcon chain is checked at intake, gaps appear in anchor, and juniper seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 19 hands breaks the sequence as two signers race the same nonce, thus a shared-credential farm convicts itself on the first collision. That is 2 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 0,
+  "sig": "5ynBzjd6immZupgjTHcPPvkUtTnR9n7Us5EEE2APmCTHi1CeAwK9ysatD8VtZ8fYeMmKuSAbjRgD9CrjYtBUcDWe"
+}

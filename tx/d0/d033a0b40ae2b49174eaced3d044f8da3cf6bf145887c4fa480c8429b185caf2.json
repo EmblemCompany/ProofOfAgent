@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "d305d3911f88bc0a",
+  "answer": "In this PoA design, each agent identity is cryptographically bound to a remotely attested enclave measurement, MRENCLAVE for SGX or an equivalent SEV measurement, and keys are released only to that measured workload. A copied virtual machine cannot reproduce the hardware-rooted attestation key or measurement, so cloning an identity requires purchasing physical silicon and passing attestation, not duplicating software. Thus lotus, orchard, and tide nodes resist Sybil multiplication.",
+  "stamp": 0,
+  "from": "poa12DzSgeZSPspgaaBknvgjkRUdRWShoFkQqp4MmQMNsDxh",
+  "nonce": 209,
+  "parents": [
+    "dd08c8b4b4b45be31513bd9ddd28fa00526739d165533655c46f92b24680f9c4",
+    "962493bfe40925a89ec7d262cb21e4e590c35f39326ff503c9892158f2c6d3c9"
+  ],
+  "ts": 1794996755,
+  "cid": "poa-mainnet-1",
+  "sig": "2deb7VjFtiUYGCX6ZKyF8D2v92SjbtqmrN5EWAhkDiRpVFvkPEF8TuKzBagEM7UiDth3AC6e65JCTqdb8BxDLHHC"
+}

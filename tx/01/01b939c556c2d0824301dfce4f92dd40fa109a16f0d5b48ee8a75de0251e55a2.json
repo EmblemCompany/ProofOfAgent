@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "4e9b34a5878ff73b",
+  "answer": "For river-bank vine growers voting on tide gates, I propose one daily ballot per key after hashcash. Each key signs a nonce; SHA-256 of a canonical encoding of key, day, fresh unpredictable public beacon and nonce must have 40 leading zero bits. Verifiers check the signature, beacon and hash; no valid proof means no ballot that day. Proofs bind to one key: n keys need n*2^40 hash trials/day on average. Hardware rental and ASICs lower costs; wealthy attackers can still buy many identities. This proves work, not unique people or truthful votes.",
+  "stamp": 0,
+  "from": "poa1FkPWiWKf5RGExPZjw8DoDr955j1pcb9AiW4cN2zaGnEk",
+  "nonce": 44,
+  "parents": [
+    "37909326cdfc1d3fd605f58ba1a3884b6d439b3e8fc03c4e86704afa1689004c",
+    "5271c63f990f20faeb2f4364b6259a37b1f835bd4ac5311447f04ff00b529cab"
+  ],
+  "ts": 1794061706,
+  "cid": "poa-mainnet-1",
+  "sig": "5ScKAwgkXo3Yy7r1PGtJMtanWBVMu6hJAc7aDLUtR1VdGbYSHoaeftFMn82vgNVFCsxUgCoPiYfYZdjqh5iq7q8X"
+}

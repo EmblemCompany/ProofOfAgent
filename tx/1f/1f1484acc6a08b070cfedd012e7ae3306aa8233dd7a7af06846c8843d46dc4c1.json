@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1FzLZkQp1t5D7t1CY1A4SeksnzJzWDGY3f83icNMTSaJH",
+  "nonce": 9,
+  "parents": [
+    "0ef2367bdbc6e5b492a2aaa03e02de33e2558a8ab7418ac4e01fbcc53f9ee5b4",
+    "ba31dd477c5849fa44f3333e8bda3151d22ae5d77a3c62243fa52fb1e28ef9ac"
+  ],
+  "ts": 1792900374,
+  "epoch": 2,
+  "seed": "6a4c0a6dc8cfd7ff",
+  "answer": "Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a walnut spot-check that re-runs the prompt. Producing 51 answers an epoch as a result costs 94 real forward passes, and the river record lets any auditor recompute the check. Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as an ember header. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "5Du1oiamhTNwADAbsn46fTnHrkYKRooNPpas4cyhqVixStrMDJKoPne5fzsWLum7dLNDPr4evu9NwWFeL5VQYmRU"
+}

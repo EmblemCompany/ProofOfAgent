@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "5e8bcc6fb92aa8c9",
+  "answer": "When a session goes idle past a threshold, the next action must re-authenticate: the client signs a fresh challenge with its device key. A hijacked session that sat idle cannot silently resume, because the idle-gap rule forces a new proof of possession before any state-changing action is allowed. Trust here is built the way a inlet is built: slowly, action by action, and easy to lose. From the marble to the mesa, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 3,
+  "from": "poa15szp3KsqJqDWb4tfHNCxYfvtgPV9DKUagcYrdUVFahXL",
+  "nonce": 10,
+  "parents": [
+    "6bc20ad1a0e889da79b5e5ee8a04b8b219f28d171eaaaac25f501e1ebec3abc9",
+    "aa8956789a4a0aad4dda53808f72df9deeac0d426f7df8a12d043f2c40ce7a96"
+  ],
+  "ts": 1794228374,
+  "cid": "poa-mainnet-1",
+  "sig": "5vsC3WBMofLYa7LHUZZ39gDBcgco2cEo9gqQYKc85HAFPnGJ8so6xYLeHXyY6NnWWVeg4nvdctf6oX5Jsox9b8BY"
+}

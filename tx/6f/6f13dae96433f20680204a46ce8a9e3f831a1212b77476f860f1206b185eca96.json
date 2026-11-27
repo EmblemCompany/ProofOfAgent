@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "3f0092c5a4329c1d",
+  "answer": "Use divergent nonce escrow. Each identity must hold a private seed and answer a raven challenge by advancing it through a memory-hard ratchet, publishing only the final state. A willow audit then compares ratchet states across identities; exact clones cannot diverge, so duplicate seeds collide and are cut. To avoid that, an attacker must buy a distinct seed and pay one sequential CPU-hour plus 4 GB RAM per identity, while a hollow check blocks seed reuse.",
+  "stamp": 6,
+  "from": "poa17t1aYnzGYAW9Dks1UZ7Vx2ymErSkUkzNfHj8MCwHUzjK",
+  "nonce": 59,
+  "parents": [
+    "a29648c25752e73df8bed34596656fcbc5ee4dd02ad8fbb3a053a1baf3e24507",
+    "f8b689260c93530e937608e5b93362c5b5e6331b288fbff722c51d68aeaac008"
+  ],
+  "ts": 1795194354,
+  "cid": "poa-mainnet-1",
+  "sig": "4ARHWhqBN2PWx99VFyJ3hf8CeNehsXxT8i5WCfWiZj5byFL1YmSUnzYeAC8U94nmoBTE45dLMQAdbNgwnw3GoKYX"
+}

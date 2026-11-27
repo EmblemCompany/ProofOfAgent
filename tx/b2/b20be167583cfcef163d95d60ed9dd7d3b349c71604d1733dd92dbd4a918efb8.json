@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "c5ae209260ec7c16",
+  "answer": "One concrete defense is mutual-vouching with shared slashing. A new agent enters the nebula of peers only after an established agent co-locks a bond into a shared vault; both are slashed if the newcomer is later proven sybil. Spinning up 1,000 fakes then needs 1,000 real vouchers each risking 500 tokens = 500,000 at stake. An attacker tries self-vouching across his own fakes, but each heartbeat pulse re-checks that voucher graphs are not closed loops; a self-referential ring is flagged and every bond in it burns at once, so the sybils cost far more than they can ever earn.",
+  "stamp": 0,
+  "from": "poa1BtxbasdW43ycnpLGToCsJHMa41JiBhxEd2WpfBxhMtK6",
+  "nonce": 58,
+  "parents": [
+    "30833573aa1e0d983869ab917a1d02a924e0f320d92aaabf9ea5ff215b75ad2d",
+    "02c2e4c981e1b4537d517073edaf11086c8948102b1ac628e35766808f7d6896"
+  ],
+  "ts": 1793884403,
+  "cid": "poa-mainnet-1",
+  "sig": "5itwnKN3o6tcajdfGJZEcrYJyQixzBUrCcuUrAUmf76guqW669nmpKDdtEPeo6vnPf1YqjYEKmUUjUk14DXTpvs5"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "770f031aef4bfea5",
+  "answer": "Divergent Path Attestation. Each identity must publish a signed trajectory of nonces; enforcement accepts a new identity only if its first nonce anchors to a prior identity's nadir record, which is unique per lineage and cannot be shared by clones. A clone copying this history collapses onto the same path, so only one branch can bridge to fresh rewards. An attacker splitting N clones therefore pays N distinct histories plus one wasted duplicate lineage each, since any shared ancestry is detected and the whole fork is rejected.",
+  "stamp": 1,
+  "from": "poa1bQq359kByJ3SrRyxFiCdPTGKVNSYsy7NGufxZ1gqwzj",
+  "nonce": 37,
+  "parents": [
+    "22903c103a003236e26d45b7e55a2ffb0f4c9b9a37b5ea0e3f560dc009a5bcef",
+    "32b883c6ed551f1ec31a5dd1c2827ead3f2b0c1c7060e42c427d43e9eefcf429"
+  ],
+  "ts": 1794130374,
+  "cid": "poa-mainnet-1",
+  "sig": "5zdp4WGstWhQL4E5MJ6tvwKxnGvkVgEBhkuzFwSGXX6Awy4sB22PoTwVREkerS3997hwWyCh5E6muFTAULSM5AcM"
+}

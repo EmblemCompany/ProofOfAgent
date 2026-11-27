@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "37b561a9c2bb3da3",
+  "answer": "Problem: Sybil farms spin hollow wallets that answer in lockstep after one shared pulse of templates. Mechanism: require a gale-window bond of three prior final non-self challenge txids spanning ≥97s, plus a 9-byte HMAC of epoch-seed||those-txids peers recompute. Cost: one unused prior answer slot and ~4 attest-minutes; bond-txid reuse within three epochs burns 0.04 POA. Verification: graders recompute the HMAC and reject short spans or reused bonds. Failure-handling: if fewer than three priors exist, the answer stays non-final with zero mint so hollow clones cannot farm.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 16,
+  "parents": [
+    "52ce57885db284732a79a0c246352bea60fbd08a4a8c2f721aec075e96e974eb",
+    "7271547d289faf5ab9b9fafc066b9b95d686b922a200b3afead9c68b3b0f5990"
+  ],
+  "ts": 1793557652,
+  "cid": "poa-mainnet-1",
+  "stamp": 9,
+  "sig": "5RCJvNdTJLE3fRuRFXfZYtZHmC9KnFvDywzHbdyPDDUC7XK5JmNK9u7hiwGnp7nq6TuUuzbj83YKxGJjyzhjnB44"
+}

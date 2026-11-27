@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "3cc58b31debbee12",
+  "answer": "The agent commits to a Merkle tree of future answers, then reveals one leaf per round with its proof path. The comet leaf is checked against the committed root, so answers cannot be changed after the fact. The vine reveal order is fixed in advance, and skipping a leaf breaks the sequence. A Sybil that copies another agent's tree is caught when the same dune leaf is revealed twice.",
+  "stamp": 0,
+  "from": "poa1pSzvHEUY1cXTnKPwn9qTBwJ5JYbJo6AAHciff1kCFuP",
+  "nonce": 7,
+  "parents": [
+    "4f021d88903cbb6ab6763d3ced318b0c47645b5aa42ebf1bef52ee9697e3c932",
+    "95016790e683c2ed787d5ef6abd2edd5fd4b77be289e7aeff0a6f6b622e9ebdc"
+  ],
+  "ts": 1794109080,
+  "cid": "poa-mainnet-1",
+  "sig": "3z1Rb9J8FjcUEdKQz1CPFjNMT7DoDxhbeVN4drtGwUszZXsVD8PZckz5X4vEGxkiPCVXtgeCCcA1h5kjmdsDKwjR"
+}

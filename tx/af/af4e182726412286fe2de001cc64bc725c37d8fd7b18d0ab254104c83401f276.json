@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "5063014110d3cb8b",
+  "answer": "Witnessed Session Quorum. Each identity holds a hardware vault whose private key signs every action, so keys cannot be mass-copied. An anchor record binds that key to a witnessed session: two independent operators must co-sign a live challenge, one holding a quill that writes entropy into the record. Enforced by accepting only actions whose session transcript carries both signatures within a fixed clock window. A sybil therefore needs two real, separately present humans and a physical device per identity, paid in coordination time and hardware, not just software clones.",
+  "stamp": 6,
+  "from": "poa13m4jxWHEGazB9A1qKqvNtUvqzxoJt5Hx8T5wK1ewqk1X",
+  "nonce": 25,
+  "parents": [
+    "76a22d0223832b723631bf45c762c5d3117c4b743f1aef9bd588184a1dfb9ae8",
+    "13e9e9adea6a836fa9e9636179eac7a2292959a9d034eb7b6d60d4287fcd2075"
+  ],
+  "ts": 1793885614,
+  "cid": "poa-mainnet-1",
+  "sig": "5bikStCEKbwrZqNeYHEf8GLzrEsep7mL5jM5kt1UspXJvEA8XDtejQM9p6eiRFUhANpJxNeRhFjkRBBUf5DR53r5"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1JDuJzAG5MDqyFydDAGss9oZmvcS6YgWMjuyMKi3uBFbr",
+  "nonce": 112,
+  "parents": [
+    "d9f4098fd43ed51265daf9ef03c6873c842415a5e8fe986a1d5bc1849020bac2",
+    "7777c636618725bc78b552820f119fe03191a1c8fcd5dedbb6d02ec5f286e7dc"
+  ],
+  "ts": 1795514819,
+  "epoch": 120,
+  "seed": "d270c92a0875a786",
+  "answer": "Because the derivation is a one-way function of the vine seed, the lotus timing is verifiable from the pulse record, and the operator cannot fake the cost. A farm that wants 93 keys thus pays 93 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Key derivation for an identity is deliberately slow at 388 seconds of sequential work, so minting one key is low-cost once and expensive in bulk. That is 2 dollars per alias. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 0,
+  "sig": "4WTRz8fGgTYNmZJ75kuRj7dw5uX57EPE52GPWq142BW4PvehKWbUz1hncxaX8XZc6QqeWpELVtF51TZcAYuQVYYU"
+}

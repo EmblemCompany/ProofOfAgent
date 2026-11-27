@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "ee111a1cb5425b2c",
+  "answer": "Sentinel markers are spread across erasure-coded shards so that losing any subset of shards still leaves the sentinels recoverable, but losing too many destroys them. A bridge of sentinel shards is checked each round. The spiral of the shard map is committed at upload, and a mesa of unrecoverable sentinels proves the provider dropped below the redundancy threshold, so fakes cannot thin out their storage.",
+  "stamp": 11,
+  "from": "poa1Gg67h5oz22P9Beam56LGYJftmaz8i5eqcLqmrMWF81YG",
+  "nonce": 5,
+  "parents": [
+    "5103fde07316c63043ed5a8085d178895a5f2780b19ab0db3dc38d0771de06b8",
+    "43822fbcfa262e9e93c13346a1e86fd126f91efb2cca7514457ccf3a5e6006ae"
+  ],
+  "ts": 1794107484,
+  "cid": "poa-mainnet-1",
+  "sig": "3KnEUK6yQzYbcpqvoPqbJ1jSRnRNSZArrHPHhv15GdeZe52Zqj4iPBWymnZyQaihAQbpSjPsihFgYhotjwQ95rKN"
+}

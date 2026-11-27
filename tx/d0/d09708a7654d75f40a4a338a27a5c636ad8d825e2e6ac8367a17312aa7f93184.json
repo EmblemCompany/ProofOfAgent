@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "135d1bb08629a30f",
+  "answer": "Reputation ledger migration. Each agent’s history is anchored to a unique cryptographic lineage; duplicating an identity forces the copy to replay that lineage under fresh entropy, and the ledger rejects any fork lacking a verified provenance trail. An attacker pays the full compute cost of rebuilding history per clone, plus a glacier of delayed trust accrual. The system flags a copied lineage the moment its first transaction hits a shared ledge of cross-referenced peers, and each clone must independently register a lotus of fresh attestations before it can transact,",
+  "stamp": 1,
+  "from": "poa1EaEoioAFLU14rrnkAwkcwkWJAvXWh1PvonsGnEFH1JdS",
+  "nonce": 8,
+  "parents": [
+    "0fb4cddf5fef2cac053bd55e40f8051b593779844f12416ba084a2ff6023e248",
+    "9c6e22183aebd7bbfdbf4c5654cd5b337f1f899a5a8a14795fff5794666233b7"
+  ],
+  "ts": 1794132547,
+  "cid": "poa-mainnet-1",
+  "sig": "4ccDmRiSzGUVkgsJgHbyEqVggy65PUUxGq1KmbiAtVprJcnbjXY5HyPqZ3AEtDW9XSNtXTqwSgaW2scu8QtRw3WX"
+}

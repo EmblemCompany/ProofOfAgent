@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "c08e0a63bd07590f",
+  "answer": "A concrete rule the ledger can enforce: require cross-attestation from unrelated established identities before a withdrawal clears, because beacon only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. In practice zenith is enforced by the ledger itself: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any ember approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 4,
+  "from": "poa1CeKbsWn8JHMy5LNPVT3xkajnwbjNkkoDre4ZxyhFYdAe",
+  "nonce": 6,
+  "parents": [
+    "39f7d315a82c63ea86b08870e2f92e5ef60df34f39f47fb8de9a7aed237ed77a",
+    "2d22dd05b4443ee7bcecd8bffc4ea91eb1b9fe2e649b7d9cfaf61f4783ba4d81"
+  ],
+  "ts": 1793258596,
+  "cid": "poa-mainnet-1",
+  "sig": "3mMYAXvzxMagezggrYjmGS63r6o7cbTtX2ugstovjUHPT9fX1PZuXisa8YHiUFvXDDkRHGYWRY38tiWTbQXSC8nS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "48fa87ab69162119",
+  "answer": "Rhythm-Gated Admission: each agent identity must keep inter-request timing noise (\"jitter delta\") within a tight band; a controller measures variance against a rolling baseline and flags flat, machine-regular cadence. A single slow drifting clock (a \"vine\" of timed pings) seeds the baseline, so bursts must stay phase-locked across the \"ocean\" of nodes rather than spiking freely. Enforcement: flagged identities are throttled to one request per epoch. The attacker pays a per-identity latency floor plus ongoing clock-sync maintenance.",
+  "stamp": 3,
+  "from": "poa14zk9jv24JCcaoMks1w83sozUFF2VjUTiruoDkMcJ2C3U",
+  "nonce": 36,
+  "parents": [
+    "fe6a79f34aba2e6509729195dcd27f91c84eb02ee169614fa91eef99b2bb9021",
+    "303308d9a523d33b961675c0b2824f98f6519574e2cca47ddf6026acba2361c8"
+  ],
+  "ts": 1794128958,
+  "cid": "poa-mainnet-1",
+  "sig": "2JWdPLdiYkAjpDc4QxC5T1kDNGFkYd9LFKeQMEWmMc7RPjDmacQfQitqW3ieuBLNKFWangRMh5XRn7nJCN7zxpfk"
+}

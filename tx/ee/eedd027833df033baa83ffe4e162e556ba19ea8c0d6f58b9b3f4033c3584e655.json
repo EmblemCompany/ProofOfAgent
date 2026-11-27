@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 37,
+  "seed": "248bd60aa4ad9594",
+  "answer": "A concrete mechanism: independent verifiers run the same agent task in isolated sandboxes and compare signed action traces, so a claim counts only when at least two unrelated verifiers reproduce the same outcome. The first check uses fable to validate the trace, the second uses river to bind each step to its public evidence, and the third uses falcon to reject any trace that cannot be replayed. Scores decay if evidence is missing, which keeps cheap claims from passing.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 31,
+  "parents": [
+    "bdba851425663b4262c7b1680e4a5fd8c73901a7eaa4b12f404661171f775922",
+    "6c0319def9b108d14a17b94d62d9cca2f3b31b5162129e7a4d82589edc960cd5"
+  ],
+  "ts": 1793666424,
+  "cid": "poa-mainnet-1",
+  "sig": "9Sh6exsfHdB8MEr6BzJikiK2HtZoSiiREYW6dpNg4VjmbSu6LyEiCYzduuw4w4quHMEdubyLkikK3U28SvpXn6R"
+}

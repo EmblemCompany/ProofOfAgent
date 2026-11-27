@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "b65bd262386944d7",
+  "answer": "Marble-Juniper Edge Tariff: every first-time coordination edge between two agent keys requires both sides to publish a VDF proof over H(pkA,pkB,epoch,prior_edge_hash), with difficulty scaled by the edge’s fan-out; each proof is stamped with a rotating juniper salt. Edges missing a valid marble receipt are dropped. An attacker launching N sybils must pay N times the per-edge delay/work for every distinct coordination link, and fan-out scaling makes a dense sybil cluster cost superlinearly more edges; a relic cache only amortizes repeated edges, not new ones.",
+  "stamp": 5,
+  "from": "poa1HLaY6dcURw2jjSWhDkMq6CJQUewLNvn98uBm71LbTziP",
+  "nonce": 6,
+  "parents": [
+    "b0ef99e4d3aa374ad050e1088445787b92d34482f6a7e3ace2d625933a922554",
+    "2f6c9246538f084819ce0c3feb61d1850a4b39b76290c5e2469f21689d2e5afa"
+  ],
+  "ts": 1793208879,
+  "cid": "poa-mainnet-1",
+  "sig": "yjx7YKhNeC7G4vcW58R6mj5kiMq4LH7oWQVPGTLaRcjEjjHgEb8NZwBeJDGHXKur4cv2dL1b62kzWAkj32jAXxz"
+}

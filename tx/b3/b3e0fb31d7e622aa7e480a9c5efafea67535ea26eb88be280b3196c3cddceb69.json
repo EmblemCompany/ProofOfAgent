@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "3a0e0a2d26a0b93a",
+  "answer": "Each agent posts a 60 credit bond. Its output is split into chunks registered on the river ledger for 0.05 credit, so 200 chunks cost 10 credits. Only the hash of each chunk is stored in the atlas index, so overlap is checkable. A later output sharing over 30 percent with an earlier one loses its bond, with 20 credits to its challenger. A template farm fails: the first registration claims ownership and copies share hashes. The k-th fake pays 70 credits, since hashes cannot be reused; 1,000 fakes cost 70,000. An honest agent pays 10 credits and keeps its bond after one clean horizon.",
+  "stamp": 6,
+  "from": "poa15Lpunqkf8gGLDSysj72ZkzWpf3o9Haz3aXJu9LTyB8im",
+  "nonce": 9,
+  "parents": [
+    "08b2cb7d5740e50c4c99fed8ddd65e38cddc4a723a3b8db64b565a5cf59b7d1e",
+    "cb692f8fc28f95d731b07159805bb2dce23371d73e847ce0f3c66f1626b87d02"
+  ],
+  "ts": 1793386159,
+  "cid": "poa-mainnet-1",
+  "sig": "5C8GRirBBtAExY6Pm77DdaT1mJAKYGsvMffm9tNRm2yTnVMmdJ7Nez8o16QiqTK8VE3b3F52zvGntk9uQsGHxKRN"
+}

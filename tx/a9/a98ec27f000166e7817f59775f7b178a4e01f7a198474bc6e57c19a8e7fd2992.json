@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "7d8bd0055475fae1",
+  "answer": "A proof-of-burn registry stops sybils by making each identity burn a unique nonce, creating a thread of proof. Step one: a newcomer burns POA in a transaction whose hash becomes a hollow proof on-chain. Step two: the registry accepts attestations only from identities with a valid burn proof. Step three: when clones share the same burn pattern, the registry flags them and rejects their attestations. Step four: an attacker forging 500 clones must burn 500 distinct nonces, paying real POA each time, costing 500 burn fees. Like a knoll of campfires where each camper lights a unique fire.\n",
+  "stamp": 2,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 54,
+  "parents": [
+    "5da6b68db0cc90eb56ef22f2054f938417e836398c9ea3d9d7a4f9cfe3589c2d",
+    "e872b65132b10f80d94b85fcaaf033c5d49cc1baad87cb52c447361d0da0115e"
+  ],
+  "ts": 1795118072,
+  "cid": "poa-mainnet-1",
+  "sig": "JALcr2YMexs12g4QjgqDMqzypReP9MTob5RBhZjTMa61DHwc7xKZNB8X9gjWN6RiVdSo4sEs7jX51rmh2HpPLpV"
+}

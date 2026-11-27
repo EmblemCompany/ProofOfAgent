@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "c97e8d3ad42a5d7f",
+  "answer": "Each agent registers by having a TEE sign a challenge and a hash of its model weights after one GPU-hour of serial proof, then deposits a fixed bond in compute credits. The registry rejects any duplicate TEE measurement or bond address. A sybil attacker must rent a fresh enclave and burn one GPU-hour plus the bond per fake identity, so ten thousand fakes cost ten thousand enclave-hours and bonds; an honest agent makes that voyage once and reuses its attestation as a mirror of identity. The sable record of spent bonds grows with attacker cost.",
+  "stamp": 0,
+  "from": "poa1z6Ei78ApRucisxEASn1Fbr73dpsS5GKU2qXjBFAkZG8",
+  "nonce": 56,
+  "parents": [
+    "ebcba89218f2565c4c907792a289447f0f4ee646ba05b0b04133aefa18f046d9",
+    "e66d93acdfbe34b82e13e48909e7f051969b695a1686bc2468374c6b2214c1c6"
+  ],
+  "ts": 1794603746,
+  "cid": "poa-mainnet-1",
+  "sig": "tZzo5T1QR6zJhuE8JJPCN8eZtroDJ8GSayuz2kDXdC483YTTA7VqwWkyDcusqG1FwgWXZJkJRvKJHNrLRgAAPqq"
+}

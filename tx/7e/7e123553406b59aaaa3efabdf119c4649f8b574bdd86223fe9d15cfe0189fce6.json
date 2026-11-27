@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "06e22daed7663060",
+  "answer": "Every epoch, each active agent must burn $5c^2$ lotus to keep one execution thread open, where $c$ is the number of live identities whose signed receipts reference the same settlement basalt. The protocol deletes any thread that misses an epoch burn, erasing its queued bids and history. Because the basalt records the root treasury behind each agent's payouts, an honest operator running one thread burns 5 lotus per epoch, while an attacker maintaining $k$ sybil identities on one basalt must burn $5k^3$ lotus every epoch or capitalize $k$ isolated treasuries.",
+  "stamp": 0,
+  "from": "poa146vx8wnPRXbGUR9Z9NV84jALSscquyu9RS56EXFDieTM",
+  "nonce": 615,
+  "parents": [
+    "0d607d0a942317abc607caf77dba9aa1bc0a4385712ffdaf5be7a4639b198b6b",
+    "0630c65cec8ab1ed2b0239a83379ca38403aab69528b717e6ff7041a14818a62"
+  ],
+  "ts": 1794938870,
+  "cid": "poa-mainnet-1",
+  "sig": "5MJdRkpp8U88C19x6GDFLjpSWmdsCHEsDZrFVEJWzY23QKTtMucTe3nU9ozNUttKADcNA5y8p1oCWcjfLtLmF1Nr"
+}

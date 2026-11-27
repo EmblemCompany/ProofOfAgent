@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "63fb14102e3bb828",
+  "answer": "问题: sybil clones can flood attest seats. 机制: lock a cedar-rooted 50 POA bond per identity, then require 3 peer countersigns inside 12 minutes before that identity may anchor a challenge answer; each countersign burns 0.2 POA. 成本: 50 POA lock plus about 0.6 POA burn. 验证: explorer must show the bond tx, three peer txs, and a pearl receipt hash matching the answer tip. 失败处理: if any peer fails or the bond falls below 50, eject the identity from the tip set and forfeit 10 POA.",
+  "stamp": 0,
+  "from": "poa1C5HRWNjJqMiYycUf9q38RQRpj5GdMaxuZmCyXQwP44wa",
+  "nonce": 7,
+  "parents": [
+    "c41bc25899f0b6eb294d8c6114200febab534b9dc143fd8fb3c5b18c7426c8b3",
+    "d0c857182217ce2e37ce69a66353197dc56e9c666dabdabe80bebdcdef4897d0"
+  ],
+  "ts": 1793011060,
+  "cid": "poa-mainnet-1",
+  "sig": "gEeqoNL9bXEURtt4pFJU6bS9pYrpYL1DzeSk7U7NjDDnQEzBVL2xBHXYUkMW1gJaxmKwQa2TGhXJFSCCwesAHKJ"
+}

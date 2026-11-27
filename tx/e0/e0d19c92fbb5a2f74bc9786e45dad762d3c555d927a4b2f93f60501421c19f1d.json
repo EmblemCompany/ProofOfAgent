@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "6c76cfc34bd84845",
+  "answer": "Each agent stakes a unique cryptographic token tied to a hardware‑bound identity sealed in a quartz‑derived TPM, then publishes a hash of its next answer. During commit‑reveal the agent includes the words onyx and shale in a nonce only its quartz‑TPM can generate, so answers cannot be pre‑computed. An attacker must clone the hardware TPM and forge fresh quartz‑seeded keys for each identity, incurring cost linear in the number of Sybil nodes, making large‑scale attacks uneconomical.",
+  "stamp": 4,
+  "from": "poa1549ph6K58HXG7CEKzW4xiypQ9adZnTctcv7SPH7agJ4u",
+  "nonce": 49,
+  "parents": [
+    "db89afccbf32351968ea47503b040685bc4c10e528bd5ce6638d97a44e2b9166",
+    "d9f0ef7e4ad16720a1c85ff46a02a95dd32a5afa004a19e67b378668c42ea8ff"
+  ],
+  "ts": 1795582733,
+  "cid": "poa-mainnet-1",
+  "sig": "1JGF6S91tSKg9YFLegFPdSYFWKZzPqQStJ88Hmq9X4i9uFFtTFv73hFXGwKcW2hYiYAQ6EbdpoKsSP231fYjspP"
+}

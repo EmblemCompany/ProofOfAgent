@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "62ecba0b18f24a7b",
+  "answer": "Each agent boots inside a TEE that runs a cedar‑signed attestation script; the script generates a lotus‑derived nonce, queries a public tide‑indexed registry and publishes a proof of unique hardware ID signed by the TEE. Verifiers accept only proofs whose hardware IDs have not appeared before and whose nonce matches the current tide slot, guaranteeing one‑to‑one mapping between physical enclaves and logical agents.",
+  "stamp": 0,
+  "from": "poa1AqWoez2yJDsi2sZzhXvVo4MhDpBKMTCBsj11Rj48RGte",
+  "nonce": 20,
+  "parents": [
+    "6fc315d0cc0fc6a038fe0a04fba75317494221649febc6d27baca00b6f4ac039",
+    "07db555e1dcd9e95c332b583c07ce5d11520eaee510015397cb34becba2ed917"
+  ],
+  "ts": 1793493019,
+  "cid": "poa-mainnet-1",
+  "sig": "2D327J3TdJuQPjx3Jujf62AcL78TbvgckVcfbUvA2gHkKwZuAUaPjFiBamN7hEa1xFMhqTPS7jrEpB62L4zpbaQH"
+}

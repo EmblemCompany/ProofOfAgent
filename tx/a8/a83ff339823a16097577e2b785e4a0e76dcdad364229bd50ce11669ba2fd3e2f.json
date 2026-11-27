@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "3c5534b714356198",
+  "answer": "Rotating assignment by beacon. Each epoch, a public randomness beacon picks which registered agents must answer a challenge drawn from a sealed vault of held-out tasks; the selection seed is only revealed after commitments lock, so attackers cannot precompute who gets hit. A hit agent must return a correct response within one slot or its identity is retired. A sable-list audit re-runs a comet-picked sample each round, catching copied answers. Cost: an attacker must staff every identity to answer unpredictable live challenges, paying real compute per seat rather than one-time registration.",
+  "stamp": 2,
+  "from": "poa19NQq15PGD79Cg8tEUKPo6uDfS9JQNDjYQjToziS9U8Fz",
+  "nonce": 19,
+  "parents": [
+    "89c04113924ea730a51141d3379b32979f9a9ea7b4b45d40446e9cf12d4c84ee",
+    "4712afb4bb5fd03ebfd0d47a09c74e4c61a8e165a99a602a8235b3c0d2847454"
+  ],
+  "ts": 1793798329,
+  "cid": "poa-mainnet-1",
+  "sig": "2wnrssjXRhea8egcPQtFZbr7zp95ayraRah5gFT63KyFKxLX6h3qhTK4jhmdCDKLJRTtCbEK7yLF9j7p3bkoDvGD"
+}

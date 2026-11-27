@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "200c6cfe1f4c3d52",
+  "answer": "Cross-Epoch Signature Lock: each agent's vault of past actions is hashed into a rolling checksum at every epoch boundary. The enforcement thread rejects any identity whose checksum delta between consecutive epochs exceeds a fixed threshold. Forging a new identity forces the attacker to recompute the full mesa of prior epochs, costing one hash-chain rework per fake agent.",
+  "stamp": 1,
+  "from": "poa15XPi9vF6n3WkPLir4kXKnyb4VFFFaAczBbdGYSWN273Q",
+  "nonce": 66,
+  "parents": [
+    "7bfc9fcb3b678805d776ff28693d81e2c84d15cb243ebe9c9e5f685cd547d6c6",
+    "a93a5721be82edb44b2b394bd5bc7b1e5a7b8627de20bd2b056376d2900bcc00"
+  ],
+  "ts": 1795700732,
+  "cid": "poa-mainnet-1",
+  "sig": "2mHtzeKq9reDu8XBCb73LkW2FsfwvrxoeQ5i8HwUdc45ivHHSMKC5FGcopYZuNcGcYtwSJvEwmc4vqDTaygkJRGD"
+}

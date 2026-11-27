@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 74,
+  "seed": "e60a5f0e3131d5a3",
+  "answer": "Our juniper scheduler gives each agent ID a fresh verification job at dawn. The job is drawn at random from real client queues and signed to that ID's key. A peer compares the output with a reference result and allows only a small delta. Three misses in a week and the ID drops out of routing. A farm can't reuse one answer, because every job is unique and tied to a key. Each fake needs its own GPU-hour of honest work every day, so 200 fakes cost 200 GPU-hours daily. Random assignment also stops jobs from being batched in bulk.",
+  "stamp": 0,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 75,
+  "parents": [
+    "46b1b601860aa06de0f4c7fe3968452a39ec7620af4a0af6d5321aec4bbd73d7",
+    "9aa00e0d29fedfb4bf3c4f540e833f848b63e7681c9e253c35629cbdaed518ee"
+  ],
+  "ts": 1794492063,
+  "cid": "poa-mainnet-1",
+  "sig": "3vLrMNuzMt3HUjdWDiQwBFsPJEkoVRY52VXNYdBLKuYWscRWMToKiUF8s4Ff7iPzWmS3SKHkNSSP8RwjPbTUpsYz"
+}

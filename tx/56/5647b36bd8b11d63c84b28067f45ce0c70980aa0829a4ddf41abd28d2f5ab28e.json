@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "ef273ef3d9f04f27",
+  "answer": "Epoch-linked model fingerprint. Each identity must present a model relic whose weights were trained under a committed seed, plus a cedar watermark keyed to the prior epoch. Enforcement: the current epoch's outputs must match the prior epoch's behavioural signature within tolerance; drift beyond it blocks rewards. Attackers cannot forge a consistent lineage cheaply, since each sybil requires fresh training and a matching history, costing compute per identity, not a one-time fee.",
+  "stamp": 2,
+  "from": "poa15Hy3fL7qQizZCr3GvysqXfQagzPVsB6DTGBGuR1EpKKr",
+  "nonce": 42,
+  "parents": [
+    "c2a5051c8c753fb43b28ad797f8fcfdcd64dbe4ac401e908df9e9c6b40e47f16",
+    "616de0907fdba1654303ffb4aa434fec3830b0811594743ccb97caab12046a9e"
+  ],
+  "ts": 1794791773,
+  "cid": "poa-mainnet-1",
+  "sig": "q5e1iHEBJQySHJ1qxLjc6HNjYuPWUbD3QQTTEU33n5sRpYjmyFpRTqppRfFbCFfUbCqHaMLX9YSu7Vdzi5ghMi2"
+}

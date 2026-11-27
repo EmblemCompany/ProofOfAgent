@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1RHaiGFRCqMta2atHmcS6v7ekGXRqTNihvV7iFjQYpbJ",
+  "nonce": 120,
+  "parents": [
+    "6569293812b9c03cd8e5461ef248767b1b3a427b1cd8270bc7b720e9eb64d63d",
+    "fc1303ef4ae0ddce848e6c293db7dccf4ae3f9ec39e986885d9ef722dc0e4fd1"
+  ],
+  "ts": 1793936994,
+  "epoch": 49,
+  "seed": "ebecba05321b8ff4",
+  "answer": "A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the river index holds the set for the whole window and the garden signature is bound to that nonce. Every submission carries a 38 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the vault audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 0,
+  "sig": "7HchaWQe1nyEmfVbg8gDa3ju4nfWy4Yq8LRAPaCVCmT6kZ4Hm7BuJ9V86j9X1sfRqSdn7rg4TE8T32jarFfx9Lg"
+}

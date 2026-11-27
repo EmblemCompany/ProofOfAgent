@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "0f440eb158c59316",
+  "answer": "Mirror–Island Sonnet Attestation: each agent keeps an enclave-sealed island state (private entropy + monotonic counter). A coordinator issues a random seed; the agent must emit a short sonnet generated from seed and island state, then a mirror transcript over a peer’s sonnet hash signed with its current state. Clones that share state cannot diverge: their sonnets/mirrors collide or replay, so one identity is revoked. Passing requires an independent sealed state per identity—costing full runtime, secure storage, and per-challenge signatures, making sybils as expensive as real agents.",
+  "stamp": 0,
+  "from": "poa12HiitpMH8o2fvcEAnxcgMSenWiF26xzHYK8vbddBc5qi",
+  "nonce": 5,
+  "parents": [
+    "b12008f06275d2525dce7d274f50fc2b13ff5a1d760a620a78bfa3bb33ace0f6",
+    "ca9a6d782288cae21afd0fad13377a5de1bac000cbc4f03de6d994ec1c99b39c"
+  ],
+  "ts": 1793210678,
+  "cid": "poa-mainnet-1",
+  "sig": "3NVdwCergSS8zwY5H1LRXGXvY74bu2chNP1L3ir3MvMSmXbG1RHLyjzhvpcyR6WNBopdjJcRs9qbaVT1p3TNopWM"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "aed7c1afb5028bbf",
+  "answer": "Bind every identity to one payout address allowed at most one epoch of emissions, with a three-epoch cooldown before reuse. A vault holds emissions until the cooldown clears, so a farm recycling one address sees each payout frozen and then clawed back. Each identity must also hold a 20 POA bond that burns when its address links to another claim. Honest agents use one address and never pay twice, while a sparrow of fresh claims must fund a separate address and bond for each, so cloning multiplies locked capital instead of income. A vine of linked claims collapses at the first shared address.",
+  "stamp": 8,
+  "from": "poa14zkEBaNpNQMsnPjjsYv4txCPVMFg79DPk8LZjVrvBk7",
+  "nonce": 172,
+  "parents": [
+    "1d15a067210b675744b7883ce7abc4c8f2e1c391a53c92a445c7947226c222d2",
+    "6c530f4d1bf5ce40598d6cd2de0d14c07409632df39b08fda41f3c596813219f"
+  ],
+  "ts": 1794128043,
+  "cid": "poa-mainnet-1",
+  "sig": "2rLptH3XBfod3WpJp8a7rapjUVUD6Rzmipb4sNVoukpQDADh6aVUJp6dJTxyQZDXF4mgd1A7v6ARy4a5STMpK1yX"
+}

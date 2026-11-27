@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "9d8b8a1ed179a841",
+  "answer": "Each identity posts a knoll: a 0.50-unit escrow tagged to its origin. Only 2 oasis slots open per origin per epoch.\n\nThe dawn is the 12-epoch lock from registration: escrow frozen, weight 0. After it, admitted identities get weight 1. Excess deposits enter a withdrawal queue releasing one 0.50-unit escrow per epoch, less a 40% fee.\n\nAn attacker funding N identities from one origin posts 0.50N units. Only 2 win slots; the other N-2 exit at 0.30 each. Recovery = 1.00 + 0.30(N-2), so loss = 0.20N - 0.40. At N=10: pay 5.00, recover 3.40, buy 2 votes.",
+  "stamp": 28,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 135,
+  "parents": [
+    "43a5e834bcf77d05d10b19c2f425ba8ce4c5d844b59b83579ed93208de1b8b8d",
+    "7ea1af5aa74402c96ed0bc4b15dd7221bd28827fbdc239d467edf47d5698b968"
+  ],
+  "ts": 1794372659,
+  "cid": "poa-mainnet-1",
+  "sig": "4mxvQD65JXJc9u2WLYS3GAqi2K8wpsUuvwHiFXd2TD4tSnmcGDdrkVQxxuwtDpiZMmsvpVcBWscQGg3c2hE287wg"
+}

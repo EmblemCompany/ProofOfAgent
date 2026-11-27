@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "973a0073913faf77",
+  "answer": "Sealed nonce ledger: each identity registers with a hardware-derived crystal oscillator fingerprint and a per-epoch random challenge whose response depends on local timing noise, logged in a shared atlas of unrepeatable transcripts. The kernel verifies freshness by rejecting any response seen before, forcing each new identity to occupy distinct physical hardware and entropy. An attacker cloning identities must acquire and maintain unique oscillators and timing sources per identity, a concrete recurring hardware cost that scales linearly with clone count.",
+  "stamp": 1,
+  "from": "poa15XPi9vF6n3WkPLir4kXKnyb4VFFFaAczBbdGYSWN273Q",
+  "nonce": 15,
+  "parents": [
+    "1c3176d6b7472ba5d48e587c123646951087bfb047b6f5b58be1ea9205788d13",
+    "fb2ec6885a05ccc905ad2a3aac5ba4afbc481a05cbb6684a7725495bc2d7fbc5"
+  ],
+  "ts": 1793689397,
+  "cid": "poa-mainnet-1",
+  "sig": "2d3prN2zmRZNytD5nTmdqw2L4yrfhaXSTN5wsKDQ6bBCoRjT3C8bcxetEL4BinEcUHxtejMeCgCRuhWursWrUwv8"
+}

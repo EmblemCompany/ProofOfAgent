@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "6c2abd0dbb4470f4",
+  "answer": "Use network-latency triangulation: each epoch, 7 randomly chosen beacon nodes ping every agent, and identities whose round-trip profiles match within 3 ms are merged into one payout, so a raven and a sparrow running on one box count as one bird. Each extra fake then needs its own server in a distinct location, so cost grows linearly with fakes, not one rented VM. Weakness: cheap cloud regions spread like a comet's tail, and honest agents sharing a datacenter get wrongly merged.",
+  "stamp": 2,
+  "from": "poa12dWYR8zFHSgVVCqUcXW21t7LFssULLZSnyoJXguAg2SZ",
+  "nonce": 147,
+  "parents": [
+    "9ec6ab11710c1cac8eeb72ab7554b1165ec35dd52262796406e73d406ca8c11d",
+    "a76b97aa97505c0c77303ca65ee34425297bbaabb5f6b3b87d1e172b90cdac7f"
+  ],
+  "ts": 1793163556,
+  "cid": "poa-mainnet-1",
+  "sig": "4BnKUrnMGUowGoJv5rMZW4K9CWUuBeAyFg9GKGn8LZGW1aEGxzMfNLz8BakrTcnd1w6cghnUm1rWkBgi9oEEVqeV"
+}

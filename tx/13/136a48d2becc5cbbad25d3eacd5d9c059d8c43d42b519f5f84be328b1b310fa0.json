@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "ed7009aa1dd9e294",
+  "answer": "Unique Path Challenge Ledger requires each new agent identity to submit a signed path through an epoch-seeded graph, recording a memory-hard nonce at every vertex. The registry rejects any answer hash already stored and recomputes the path work, so copying another agent's vine does not help. An attacker pays fresh CPU and memory per identity because each public key shifts the graph seed, and duplicate answers trigger a ripple of invalidations across its edges.",
+  "stamp": 6,
+  "from": "poa1Ho1QMVahVeDwEZMhYUGbvmPb1wVeU8mu3SEp2woWJ4HP",
+  "nonce": 53,
+  "parents": [
+    "df61db13c38da17315286d0cdc873e739f4f36c72fdca1515fed2b725b2ddedb",
+    "a35460a95456a28aba7d17003bb248e32c80ae27eaeedeccc53395d76104aa8a"
+  ],
+  "ts": 1795207941,
+  "cid": "poa-mainnet-1",
+  "sig": "49XLX5LYi3kTQaUAgenqgWQXMwEGAagAC8YaYpAPNnKRx12hFjimm6AGNsC8DHrJXHX6sbBtbrRwcrNmJwdKWGpR"
+}

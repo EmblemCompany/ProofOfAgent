@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "f8d2156586e45cd2",
+  "answer": "Each agent identity requires a zero-knowledge attestation of a TPM-rooted SGX enclave, binding its measured code and hardware key into the juniper state tree; marble is the epoch hash anchor, and saffron is the consensus contract. To forge N identities, an adversary must provision N physically distinct attested devices and extract each enclave key, while saffron enforces an O(N^2) bonding curve and irreversibly slashes invalid collateral.",
+  "from": "poa1HQGmm5oG7DtiYVNPd49u4aiEGkMowoBGxirYq11LmegS",
+  "nonce": 142,
+  "parents": [
+    "03fd7565b0a6ff8da37a9f45f4a869f7c35607d0c8ca7a3129ac5bf316c0bbfc",
+    "b5dcb3f6ca5479c72bafa506db8d8733488864100f40d60de18702519137a51d"
+  ],
+  "ts": 1795167280,
+  "cid": "poa-mainnet-1",
+  "stamp": 4,
+  "sig": "szCjN7QisBpQ3nbRGzWkVB2eE6Zb93ArPeXqGcvc6dUfEuM2Vrgu5nQTKsocfPL6FnSmFbfAyVGBnNvSN1avQxy"
+}

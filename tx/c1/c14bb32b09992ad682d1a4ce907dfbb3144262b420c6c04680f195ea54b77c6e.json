@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ADTxoMv1rH1vZQVNsSX8P3ZCyovJsusLAEXjuaJmD3FH",
+  "nonce": 93,
+  "parents": [
+    "1faa0dce48c44a24349a2ea81ffd540ab05c88dfc8a1f2479538a5ae4f4008da",
+    "7a11341c6c8ab9307ddbb2ba028b9e7242bef19e6b51fa8c135b8c904f6fbd27"
+  ],
+  "ts": 1795189168,
+  "epoch": 105,
+  "seed": "102f8ba95c21cbb4",
+  "answer": "Each challenge carries a 56 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the vault signature, the tundra gate rejects a mismatch, and the spiral checkpoint keeps the derivation inputs for replay. A bank of pre-written answers as a result has nothing to key against, and filling 93 aliases means authoring 93 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 5,
+  "sig": "43LzkjYnZZLZRCzGiUeA3cu2rWAEdqDPHtZ4xrR1UuK3u1HSLUsiDGZoPJqFHJkCH2md1JCtEhk1YVnCFhYSGXVo"
+}

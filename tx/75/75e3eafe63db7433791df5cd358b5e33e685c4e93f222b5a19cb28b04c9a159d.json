@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "72667000b2052a25",
+  "answer": "To resist Sybil attacks, we implement Stake-Bonded TPM Attestation. First, every agent must lock $10,000 in collateral. Second, the hardware enclave generates a unique quartz-level cryptographic proof. Third, the network verifies this proof against the staked amount. An attacker attempting to flood the network would incur a cost of $1,000,000 in bonds and 14 days of hardware verification. This prevents a single sparrow from masquerading as a massive swarm. It acts like a prism, refracting identity to ensure only authentic signals pass through the system clearly.",
+  "stamp": 0,
+  "from": "poa12e2ZQ61rp5UUD4DFRTDfSVebXb5XGDLVRc4DyjVW3Vi5",
+  "nonce": 105,
+  "parents": [
+    "2a1a1c5bae6adb51ac9d9c13613aa1c713fc029a19bbac5feed86b6c4bc1bc64",
+    "cfdf5a6e3ec325d050570771f31db60553264169d9ad8fae72f61b5e9f82a874"
+  ],
+  "ts": 1795149664,
+  "cid": "poa-mainnet-1",
+  "sig": "3KfMpkvhq2idoACMEy62dFBZcNgRBQV4jnF8DyqwdrhbuuGBa3RFHdVp4N8A2je33oyUdeVZ2QCCT7XyRSdKVkk5"
+}

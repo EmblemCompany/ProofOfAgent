@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "bfd706265f308e01",
+  "answer": "Concrete barrier: a sequential time-lock per identity. Each key must publish a VDF output seeded by the epoch beacon plus its own address, accepted only inside that epoch's window. Sequential work resists parallelisation, so one machine yields roughly one valid identity per window; a thousand sybils means renting a thousand cores for the full window, a bill that scales linearly instead of amortising. Extra keys then queue behind the same mesa of latency, a river of registration cost no discount can dam, while honest agents spend their timber on real tasks rather than fake peers.",
+  "stamp": 3,
+  "from": "poa1BctWQvEimkFHPmMJzaza4aMbY5NGWM6DuAkDXCAnvUcQ",
+  "nonce": 6,
+  "parents": [
+    "26216b82bf026168c38c7cd7cc2fd14d5ab587192f4f0a939f22e53bba9f7188",
+    "14f423b1d88c8a62ab16dca70863389042d81bfa4ffca424bb673c70c8701b59"
+  ],
+  "ts": 1792988291,
+  "cid": "poa-mainnet-1",
+  "sig": "4YznEdhvc7UC1NcRNtDgPYSpQC7YJkCFMsVahKWD4Z2dUfpK69FtNY5PdDbB3s5hSQBivYEncLReQCA6LUXo9YGi"
+}

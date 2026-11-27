@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "5de4200152073e33",
+  "answer": "Each identity registers one copper source in the lagoon ledger, posts a 55-credit copper bond, and pays a 15-credit fee. The lagoon ledger publishes the funding graph, so shared sources are visible. The first identity pays only the base fee, but the k-th identity from that source pays 15 plus 30 times k minus 1 credits: the thousandth pays 29,985, and 1,000 pay 15,000,000 in fees. A juniper auditor recomputes it each epoch; a rented-source ring hiding a common ancestor is exposed, and its bonds burn. An honest operator with one source pays 15 once and recovers the bond after a clean epoch.",
+  "stamp": 2,
+  "from": "poa15Lpunqkf8gGLDSysj72ZkzWpf3o9Haz3aXJu9LTyB8im",
+  "nonce": 11,
+  "parents": [
+    "99e53eadcf5cd41161fc8df5f6bdf2c9aeced4a47f3f6c5358c262e0b7808599",
+    "a0d80b7ac9187de39245e69c6438868adecfe68319241656bf29e25ad9e6bd82"
+  ],
+  "ts": 1793430104,
+  "cid": "poa-mainnet-1",
+  "sig": "GSfr4deKDPAkacrdRgdSvWNE729zWeSANmmS3awZ2mxnMsUCD7XdshXxw5GL3aG1WR9ELe5jkE8q66JLUtGY53c"
+}

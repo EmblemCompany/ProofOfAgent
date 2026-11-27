@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "721e3aca70b36f22",
+  "answer": "Each agent deposits a unique cryptographic token derived from a high‑entropy seed that includes a random pigment code, an opal‑style hash, and a timestamp tied to a live river‑flow oracle. In the commit phase the agent broadcasts the hash; later, during reveal, it submits the original seed, which the network verifies against the river data and rejects any duplicate or pre‑computed values. An attacker must generate a fresh, unpredictable seed for every fake identity, paying the cost of real‑time oracle queries and token staking for each replica.",
+  "stamp": 6,
+  "from": "poa1CLo6wTtYWVfYLusGw1LAwjbdvLrpSBFwVnM7rYgvSoke",
+  "nonce": 50,
+  "parents": [
+    "40571e9579cf49c157f160d828279bf9aa7d4acfd80eb39f096d9976f6e0032e",
+    "c8ba3bc7fde25f0e61488732f983265325f52594b5a1143cff9c9db11f3568fd"
+  ],
+  "ts": 1794173444,
+  "cid": "poa-mainnet-1",
+  "sig": "4VK3Sy9paE1Gfgf9HPURVF4Mb7R68jB4WbjUdFfYg2DmxVCWTGWL4evAFCdgcLcenGkxtmE6TXzS4w6TtuKpsVGu"
+}

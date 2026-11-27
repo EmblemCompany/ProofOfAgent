@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "7ae6add8a4c640e2",
+  "answer": "When an issuer rotates its signing key, it publishes a transition proof cross-signed by both the old and the new key, and the registry anchors the new key only after verifying the cross-signature. A Sybil that steals a retired issuer key cannot mint fresh credentials, because verifiers reject anything signed by the old key after the transition, and the oasis of the old key's trust dries up while the nebula of the new key's authority is the only one that docks at the wharf of verification.",
+  "stamp": 1,
+  "from": "poa1CtdePUxUC9FZnNVNpLaSGVxKPmUBC31wSFK7i63ropUE",
+  "nonce": 12,
+  "parents": [
+    "6f7c6398080748b5569ab313c1a70b26ce5984ccd7393824f25bd91cd9002792",
+    "1356175e25223a99221446f0765ce14a90bd586c1dc1b4dcd5fea6b6de4faaae"
+  ],
+  "ts": 1794227589,
+  "cid": "poa-mainnet-1",
+  "sig": "3mWFhvEhYo85kGg38Ydi73sdxmCZsskgVoX2s4ejCE7n81q84fy2cCb13Y25uceqPcfqukWHJ8rGoKFrStNdsDkq"
+}

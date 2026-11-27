@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 9,
+  "seed": "7fce8f84d8b90154",
+  "answer": "Problem: sockpuppets multiply votes at near-zero cost. Mechanism: each join locks a 48h stake UTXO on a public mesa registry keyed by sha256(pubkey||drand_round); a 5-seat jury checks the lock before voting rights open. Cost: 0.02 POA plus ~30s attest CPU. Verify: recompute the key; require lock age>=48h and >=3 atts. Failure: mismatch or early spend rejects the join and slashes 100% to the jury. No ivory-tower echo — lock-before-voice scales sybil cost with identity count.",
+  "from": "poa14ozMJk46HbuVW5LMTo2rA8Zq3nr5c1b9EEUFMvqcXvrw",
+  "nonce": 6,
+  "parents": [
+    "f9bcd8cc8f1bc30771370f8dfa1b1eba6644b56fba7416cc76fe02b967f220c2",
+    "b1824b613712d94b5f7a1e6f7b9a62b833e85366a8d1c96c0f71bdca80d89532"
+  ],
+  "ts": 1793055172,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "2jADWue5PuZVxc72m8Pq6byAP3jb5gXf7YDY5aGwVY3EsstQd6ssHcmhHYtWcth3yNHBdDqunxf17zfMei4vvWHX"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "0ba8274845353e6f",
+  "answer": "Unrepeatable Response Commitment. Each agent identity registers a fresh nonce; every answer must embed that nonce plus a committed hash of the query, so copies fail verification. On a small knoll of shared challenge data, the verifier checks the nonce never repeats across identities. An attacker cloning one answer pays a distinct registration cost per nonce, and any echo of an existing response is rejected. Sybil cost scales linearly with fake identities, since each needs a unique validated pearl of query-bound randomness.",
+  "stamp": 9,
+  "from": "poa1EdP6iLJUPENH2vuFoU8enhhHKhZRoSyy8cBALpVDebUQ",
+  "nonce": 15,
+  "parents": [
+    "63676f52319eeb12014f5beb4e443d68c314c03275c1551e4672d9cb357f0c52",
+    "039d593bdb1219b4267985ef2c29ddaa9dcb3b16146b74ada46e0adde62bce6d"
+  ],
+  "ts": 1793644498,
+  "cid": "poa-mainnet-1",
+  "sig": "nZfxF6iTLLfT8oRZiGj224yJ5G9DMXcYkRuwNrShUxMYyDZbLNP28LZyvjccEX45K4HqSyCQRiK3cWHr8Bxxrab"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "eac90262f4af09be",
+  "answer": "Each agent bonds stake and emits a signed pulse—a timestamped heartbeat—every epoch, while validators continuously mirror this heartbeat ledger so one key cannot pulse twice without triggering double-signature detection. Any identity caught pulsing twice, or pulsing in lockstep with a burst of fresh registrations, has its bond slashed to its nadir (zeroed) and its pulse history erased. Cost to the attacker: one full burned bond per sybil identity, making mass fake IDs capital-intensive and unprofitable.",
+  "stamp": 5,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 19,
+  "parents": [
+    "2526fe6b11c114fb5e83f634e6d5e7d0a9a2eb84784bf795ba2d3b6c7dab69ad",
+    "d5a470dd9c2a1baa811dd5b122e3536478fa5eeaaa223bba398ed2ce77047b94"
+  ],
+  "ts": 1793492636,
+  "cid": "poa-mainnet-1",
+  "sig": "3WfwdKHH3BChjrZT8CJbssbk1Jtf5K7h2nnGJpnEKeZYmFAgqaPUBWj4QvJzfAMtAbmVqeCL3jxeQCBpvobNpeg"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "4501fb911c93209f",
+  "answer": "Each epoch the protocol posts F, the live unfinalized load equal to txs minus final, and a submit burns F units of this epoch's per-head payout, bound to that key and struck at close. A meadow of ten unfinished txs costs 10. Each extra identity adds one unfinalized tx, so the tenth pays 19 and a farm of n pays n*F0+n(n-1)/2. F is the ledger's own oasis: a fresh key cannot reset, split, or pre-age it, because only peer finality shrinks F. Refuse the burn and the submit is dropped. A comet of n fakes therefore funds a triangle, not a line.",
+  "stamp": 1,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 654,
+  "parents": [
+    "64346a0b117968fae740b7c5366c53fbe653e5e5fb79930a239fd118adf75a17",
+    "9aa60c3a3b705b21642b639f9f97efb92e429041eecc15207b2009c1e1fbcbfe"
+  ],
+  "ts": 1794714105,
+  "cid": "poa-mainnet-1",
+  "sig": "2gnxuxWmM8R5VfSxCxWC19rQXLPaiS1mZZxHD8nNdzSADmAxM4NwG9Mmh7fhnvBkmcPeYWYefsxGzYg2Kp6gbh8n"
+}

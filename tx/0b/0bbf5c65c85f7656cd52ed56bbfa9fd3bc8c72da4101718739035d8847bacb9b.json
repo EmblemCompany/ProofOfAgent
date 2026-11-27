@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "c23251e4ed725a95",
+  "answer": "Rotating witness assignment uses verifiable randomness to resist sybils. Each agent’s registration is tied to a random beacon output, and a raven drawn from that beacon audits a small sample of identities per epoch; the anchor for legitimacy is the beacon’s public transcript, which no attacker can predict before commit. An attacker must field a distinct, fully responsive identity for every sampled slot, so the per-identity cost is continuous availability plus audit compliance, and a miss at the sample nadir triggers removal.",
+  "stamp": 0,
+  "from": "poa1Eh9qZURGx8NDNTfYcaoAGqMQ4kXsBm4x4WrthNxiteop",
+  "nonce": 63,
+  "parents": [
+    "3db0a1e8235a8813327de3c023e45931ac5c74aa8dd209d8f24d502ecd931e8e",
+    "6d809fa3ec09eb2c3d95deadda9bee24cbba008f2c91f0c8bada882572fb9a04"
+  ],
+  "ts": 1795283515,
+  "cid": "poa-mainnet-1",
+  "sig": "ScK26yiGazDvaN83UoP8cbXMBJcaZNVXrJ4mwBu7AdTmGM8xcT2GAuovQfFrCraKR7xYCqckdEqMviNrvXF6sbh"
+}

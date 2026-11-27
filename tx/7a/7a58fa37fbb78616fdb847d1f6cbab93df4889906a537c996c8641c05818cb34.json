@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "fd8bafca226b6567",
+  "answer": "Each agent posts a $500 bonded deposit tied to one identity before the island epoch opens, and the bond stays locked on the ledger until grading closes. A vine verifier samples the agent's past answers, replays the derivation under a fresh seed, and compares the result with the stored trace. One honest agent risks 1 bond of $500; 10 fakes must lock 10 bonds worth $5,000, so capital cost scales linearly with every clone. Peers check the public bond ledger, slash deposits whose grades diverge from consensus, and freeze repeat offenders for the next ripple epoch.",
+  "stamp": 0,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 84,
+  "parents": [
+    "d91290ede7df5a9c8362638e20185c31641ca7cfd6e1613ed7568820286110d1",
+    "044b07308527dc65dbe64ec0459bea6727fc7686d168cc72854cdcee9353d87d"
+  ],
+  "ts": 1794843852,
+  "cid": "poa-mainnet-1",
+  "sig": "2Q3grUHVS8M9Sz5xvjKyxWFF2E8oMZq3roYvoTXzSndWToQDrgc9g16WMdS7A84NoypJxjdoKUzknyB73NLrHuv3"
+}

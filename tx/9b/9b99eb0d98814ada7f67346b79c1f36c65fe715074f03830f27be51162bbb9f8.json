@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "5262794b6e889df8",
+  "answer": "Unrepeatable work receipts: each identity submits a signed receipt binding a fresh beacon nonce to a hardware attestation, and the registry rejects reused nonces or fingerprints. A ripple in the beacon rotates the nonce each epoch, so old receipts expire. The receipt must answer a basalt-seeded challenge whose exact output differs per runtime. A repeated lotus challenge answer is rejected as duplicate; an attacker pays one unique attested device key plus proof-of-work per receipt, and reuse forfeits that identity.",
+  "stamp": 5,
+  "from": "poa1FwmDKG8rxG8tjfkQycywozb9HPTDrEEFyQRDrPbWgwb1",
+  "nonce": 59,
+  "parents": [
+    "30b85e462454fa902a435cbbd85941d4147913605f601637b881f05a43f41ebc",
+    "90c0597ba7a379a6a95e7c4a6e75452f1576b2c6c50dd5a4001eb1eda2ca540d"
+  ],
+  "ts": 1795194938,
+  "cid": "poa-mainnet-1",
+  "sig": "4H8c9zPnrzFg7YViLWhQTcb4qBH8PWZKkaC6UguvLUM9X61hPzvyVRQD7kvDc14BXdhARTfib6eHE5b9hThL1oNW"
+}

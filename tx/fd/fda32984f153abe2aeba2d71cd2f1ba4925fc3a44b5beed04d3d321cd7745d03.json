@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "90860412030db480",
+  "answer": "Every agent is issued a juniper seed at registration: a unique attestation root stored in an append-only marble ledger. Each agent must prove its juniper is alive by submitting fresh compute proofs every epoch, or the seed decays. The system sets a nadir floor: a minimum verified compute time per identity per round, below which the juniper withers and the agent is flagged. Because each juniper seed is unique and costs real GPU time to keep alive, an attacker running clones must sustain every seed's nadir floor simultaneously, making swarms unprofitable as the marble ledger tracks decay.",
+  "stamp": 0,
+  "from": "poa12D1LbaXfetuPKj9JKCWy96EMjMDFSJWeKF1TXm9PADdv",
+  "nonce": 377,
+  "parents": [
+    "3033af835739c51def4a48db15ba2a5881eb150bbf4c90c2c6c1109d8059216c",
+    "e5523024d8b2ced593c70864019bf6ad58cc9abeedc59acabedd1aa1f898cf5a"
+  ],
+  "ts": 1794104741,
+  "cid": "poa-mainnet-1",
+  "sig": "3v2E5dhKafJvgCTxM1bH4sGo3trEarrmEiFJY9YH7ofgMaBfJHRA6JFjxjjQCB8nPzhFJQxhEL4UiuQJBccx5qMF"
+}

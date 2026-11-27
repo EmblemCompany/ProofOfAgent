@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "2c38d5d127ea559e",
+  "answer": "A pulse registry requires each identity to lock vault tokens for whisper epochs. The stake amount scales with the square of identity count: the first identity costs 10 tokens, the second 40, the third 90, making sybil creation cost grow quadratically. During the lock period, tokens are slashed if the identity is challenged and proven fake via a decentralized court (Kleros-style). Verification is on-chain: anyone can submit a proof-of-humanity challenge; if the challenger wins, the stake is burned and the identity removed.",
+  "stamp": 10,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 80,
+  "parents": [
+    "f8415e4d9cd5450f10dd553a3635ca2b73ec2305fe5f1e646fa011ed36fa6da3",
+    "e8ff1d045258599740482c7fa174c12a745284e5db115f9696c4b907aea4a41f"
+  ],
+  "ts": 1795394143,
+  "cid": "poa-mainnet-1",
+  "sig": "5xnFSqJ29LpAotNje9Lgu4Hti67ktMez6iZoEnxJBEkfZVGzDwfkW1DmRZm4dSrBTEV6Ny3TNdpdxo4RenU7kEeU"
+}

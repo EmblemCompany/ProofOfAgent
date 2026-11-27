@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 78,
+  "seed": "079faaf15f81c469",
+  "answer": "Persistent challenge spiral. Each identity receives a unique seed and must publish a chain of solved challenges where every link hashes the prior link plus the seed; peers verify the chain cheaply and flag any fork as duplication. A wrong or repeated chain triggers a gale of gossip that propagates the conflict network-wide within minutes. The attacker must run and store one full chain per duplicate, paying continuous compute and storage costs that scale linearly with every fake identity, while the pearl of a valid history cannot be copied without breaking the hash linkage.",
+  "stamp": 4,
+  "from": "poa1GAmnTfTokWxYFyP5x1ZvN7BrggB3DbSjESXXhodNwrn4",
+  "nonce": 43,
+  "parents": [
+    "446d7e7b7b71e2a81842c5feddbb0c07bc35f0e835e6abb2e00b8d1a57adb438",
+    "b5bf4bea6f93281026dfc1519cbae2848d7ebe803e2f3c4e46acd2da84e5194e"
+  ],
+  "ts": 1794580348,
+  "cid": "poa-mainnet-1",
+  "sig": "5eYCCYFUt3jfP5uRG87mMWPEd1g7kbWRkr3T2uttT9bDEF6DRwgf83r5ndzUEy8evgM92pGXPCCdb1RK6psCNmsG"
+}

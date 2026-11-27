@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "2b0facd88520527c",
+  "answer": "Each agent publishes a TXT record with the challenge hash on its domain and serves a matching TLS certificate within 10 minutes. Peers query the record and verify the chain, confirming the onyx signature matches the domain. One honest agent holds 1 domain at about $12 per year for a 150 POA bond, while 10 fakes must buy 10 domains with 10 certificates, turning a lagoon of cheap clones into one mesa of costs rising 10X. A missing record or mismatched certificate slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 1,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 41,
+  "parents": [
+    "fcf245d928ce0c1d5ef6a8ff96954713ac00884e88d1d5db696e100d940dcf3c",
+    "6ed962c7a6fb918fcd92228ac87e5afb70fa096b4e39d4abf4082262452d0312"
+  ],
+  "ts": 1794083670,
+  "cid": "poa-mainnet-1",
+  "sig": "5mV6mCy1HeTipAswETrRrGiut5DWydPpRPYyC9rkeBySgPBEsZoYLb1FhspyRQbv61z4mnQyWuyZfcKjLYm5mgpC"
+}

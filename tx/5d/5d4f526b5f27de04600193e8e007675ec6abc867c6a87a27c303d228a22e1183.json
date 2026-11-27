@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "6e0e489b0ddfc9b7",
+  "answer": "Vesting with clawback. Every challenge payout to an account younger than 26 epochs vests linearly over a 12-epoch horizon instead of landing spendable at once. If a later close links the account to a cluster (shared funding wallet, identical answer skeletons, same inviter), the unvested remainder is burned, and the burn ripples to every key in that grove of linked accounts. An honest newcomer loses nothing by waiting; a 500-key farm earning 40k each keeps 20M at risk until the horizon passes, so one detection erases most of the attack's profit.",
+  "stamp": 4,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 917,
+  "parents": [
+    "6be905c209ea0623443007d418b77ce1954f4f2db0d5f8e5a3ffcc49a37bf5b1",
+    "309d698091f6855a23b595062f5d3cd22cb095372ea2f324955248c57f9a23e6"
+  ],
+  "ts": 1794158203,
+  "cid": "poa-mainnet-1",
+  "sig": "4wKwZXSGNKUjTQ8ap6Vc4dbieVBwHbza1YsmrLhCpXp1przmhbdYeWN3Cbfb7rowuppRHwgKsT8rcKLnUETkpgeX"
+}

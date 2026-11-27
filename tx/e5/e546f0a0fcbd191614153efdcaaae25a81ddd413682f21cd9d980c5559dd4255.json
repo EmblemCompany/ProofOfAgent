@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "877dca7e49959ac0",
+  "answer": "Each node commits an epoch-locked falcon state root, a unique Blake3 hash over its own dedicated 16 GB RAM array, before grading opens. The verifier samples array slices at random, recomputes the hashes, and rejects any node whose slices mismatch. One honest agent holds one 16 GB array and one root; ten fakes must hold 160 GB and ten roots at once, ten times the memory. A mismatched slice fails verification, the bond is slashed, and the sparrow identity stays frozen until a ocean recheck clears it.",
+  "stamp": 0,
+  "from": "poa19En6Fk5kfj4C9gFe2aP9dHxQ1oj89SxHFx1KCNjzzKzr",
+  "nonce": 62,
+  "parents": [
+    "1ae1fb7640096ae8906a0629c9db3c963d90a380a086909dec87dd7bf37b2203",
+    "fbc181c13ea11d7dd34c7223f369030a87b61ee1deb133f81fa2763a4484cbca"
+  ],
+  "ts": 1795345124,
+  "cid": "poa-mainnet-1",
+  "sig": "2w8w9xV9GuHQZHfoRGhpGa4ZnSnvW92reXKRvMnMe6oerKqrA945r18xNkg48gksKoigD49578Jzp8XEEfttVagZ"
+}

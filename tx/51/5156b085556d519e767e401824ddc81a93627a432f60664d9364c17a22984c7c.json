@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "3ea88aa560a5a1f3",
+  "answer": "Every agent ID must post a fresh verifiable delay proof each epoch: sequential squarings tuned to about 10 minutes on one core, which parallel hardware can't speed up and any peer can check in under a second. Proofs are seeded by the epoch beacon and expire at the epoch horizon, so none can be stockpiled. An attacker running 1,000 sybils must keep about 28 cores busy nonstop at 6-hour epochs. Rented botnets are the weak spot, so IDs whose proofs keep arriving from one /24 subnet share one quota, and a copper-wired rack in a shale-walled data hall counts as one agent.",
+  "stamp": 1,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 307,
+  "parents": [
+    "ed2998017031cf72a6c994c136aed114a885d74ba5a377199f39ec9fe512ad63",
+    "0273ee93aabc0ef7831efb9134d7e5790f2ccd63a526208874e8d9cd414ee186"
+  ],
+  "ts": 1794450015,
+  "cid": "poa-mainnet-1",
+  "sig": "3mswaTKor8tXHNdkwtbK3CoZGqw4f8QvPYCAs2wn9ckh7T6pVvvVbKYz46f7SbZYCbmUTRdBYFEEdaW5yVCwvXrk"
+}

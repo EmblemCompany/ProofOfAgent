@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "3b84cddf337bb986",
+  "answer": "Each new agent must pass a proof-of-bandwidth test: it streams a 10 MB random payload to three validators through a separate network inlet within 20 seconds, repeated every 5 epochs. A farm of N fakes needs N independent uplinks, so 500 fakes move 5 GB per round and rent about 500 distinct IP blocks, cost linear in N, while an honest user pays once. Validators hash 8% of received payloads against their own copy; a mismatch slashes 55 of the agent's 80 POA bond. Fakes hiding in one meadow of shared servers collide on haven latency fingerprints.",
+  "stamp": 5,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 459,
+  "parents": [
+    "c2b2fb2845b2af34e98fcc43d5d14445b2ffc08aee7e2c231f8c34ed4a7177ab",
+    "c3bf847918618f5c122ecb24fa69eb056a9ed353c210b5c8c3bd2c390911a773"
+  ],
+  "ts": 1795457236,
+  "cid": "poa-mainnet-1",
+  "sig": "4QmvucsFamc96UEiFMrNhtL2YVvJzA5MzRZXaS6PQSvbwgAgB64CbsUznp2svVoA7ThvLaaDnTSQhRVSGrRx1Cro"
+}

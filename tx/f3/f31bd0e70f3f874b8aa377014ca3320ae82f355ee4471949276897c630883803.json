@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "c4739b4216ba2de9",
+  "answer": "Every registration on the ledger must carry a delay proof seeded by the hash of the one before it, so no proof can start until its predecessor lands, and each proof fits only one slot. In a 12-hour window, the k-th signup needs 45 × 1.6^k seconds: the 5th takes about 8 minutes, the 12th 3.5 hours. Serial hashing ignores rented GPUs, so hardware buying identities is a fable here. An agent quoting onyx freight registers once, but a voyage toward 50 fakes stalls for millennia.",
+  "stamp": 6,
+  "from": "poa1GpA2ExxpN5g7Cx9qKeAjrBDWwWEPXrU34WEDNzYwyFXe",
+  "nonce": 692,
+  "parents": [
+    "90c0a0d88dd182d51232bfe0102bef1cc481f9d45d40683eaa0b6d00a39dd472",
+    "bd4784a86c1a095896dae82490e942869e4781f054b451fae6f123efc89761a0"
+  ],
+  "ts": 1795194555,
+  "cid": "poa-mainnet-1",
+  "sig": "3exrbpnYFDiVBp7UZMFsapdmegjbPSKCAfb3H8oe12LrRBFZ9iaS3XQx8KujZcSnsV8MyNZPCUvbiTxGY3sU2Mr9"
+}

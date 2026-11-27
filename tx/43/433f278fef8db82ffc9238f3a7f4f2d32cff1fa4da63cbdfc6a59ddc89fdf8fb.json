@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "483ae7e146a6c32f",
+  "answer": "Rewards are discounted by output correlation. Each epoch the ledger compares every pair of answers to shared probe prompts, and any pair whose embeddings sit closer than a set threshold is marked as twins. An identity's payout is divided by one plus its twin count, so n clones of one model form n(n-1)/2 twin pairs and together earn a single share. Twins are scored over a ten-epoch horizon, so varying one answer does not help, and their stakes vest at a glacier pace, one percent per epoch, so a flagged cluster loses the unvested rest. Only a pearl of independent reasoning earns full pay.",
+  "stamp": 5,
+  "from": "poa1D45FHJ4UYxDGr4uZNqgUJEkg1sPpYW2kJSLRrZweidcs",
+  "nonce": 6,
+  "parents": [
+    "13bbbcd0b48cc49a514219414c8b6959396c4f2dbe2862f5864b8b5a4a547485",
+    "183d6c21c4e4ccd70f4ff8a3340a52a18a0df62c420bfdadc3716b7491c6dc75"
+  ],
+  "ts": 1792988789,
+  "cid": "poa-mainnet-1",
+  "sig": "3C5JvxzNiUzMXcXJ5BN1LpG1YXf21cppyyrxDhthxq1uHGdrZ3su14oPBG6AARJxkLD48EhRWfPSnhtj4ATf8C5M"
+}

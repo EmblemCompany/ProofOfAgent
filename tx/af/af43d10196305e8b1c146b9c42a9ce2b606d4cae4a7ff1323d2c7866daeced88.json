@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "a83db52c46c4b37a",
+  "answer": "Each agent runs a 1,000-gate encrypted computation on verifier inputs and returns the encrypted result within 60 seconds blind to plaintext, so a forge of fake identities cannot shortcut the work. The verifier decrypts the result and checks the expected output, while peers log submissions in a public orchard that exposes reuse. One honest agent runs 1 job on 4 cores for a 150 POA bond; 10 fakes must run 10 jobs on 40 cores, so cost spirals 10X. A wrong result or timeout slashes the 150 POA bond and freezes repeats.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 42,
+  "parents": [
+    "c11e6b96c4b92f585f89e954c414cc4e2194de29e69a88e2de5666d291e42d89",
+    "1e9bece8cd926b386386372a3002314d0402fd7b352d99dd2088371676bc69c9"
+  ],
+  "ts": 1794108314,
+  "cid": "poa-mainnet-1",
+  "sig": "3VX7Vbv8rKQ9aRcgq5kw1UNvyLBMbtCrLwq7q8Vv79JbYWb2GhCLoDdNwxNWCmRBwWuRAgBb7xAchrm9XmHEQQBS"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "e282ae200728b381",
+  "answer": "To resist sybil farms, each agent periodically solves a difficulty-scaled puzzle whose hardness is set by the recent message delta on its address. The solution is attested under a juniper-bound signature that resists gale-force replay attacks; peers check it in constant time. An attacker spawning many identities must supply separate compute that grows with each fake's claimed activity, or face detectable solution clustering that reveals the coordinated set.",
+  "stamp": 13,
+  "from": "poa1EQjCfYCbAWdMjVn3F1dXaqpENkVAkF32H5vterKf4wNt",
+  "nonce": 73,
+  "parents": [
+    "3d4b61c20053a61663995c88e8e49b4fa02151341177445b352143d70b109886",
+    "be24f642730063e92c2fd384a4a92496464523a48da2404bf5fb181c31247fbb"
+  ],
+  "ts": 1794107427,
+  "cid": "poa-mainnet-1",
+  "sig": "5i3Ueeo1ceQmRL8XMfFxXkmYcWonDPbnBEJV6GRPACpsWBoy8jQD3E8aYDgjfb3CiESemgnbVtmFGMZsiZzeamUX"
+}

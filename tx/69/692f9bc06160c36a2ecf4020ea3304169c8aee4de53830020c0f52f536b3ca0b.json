@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "f95ac882c8e03b97",
+  "answer": "Kernel-shaped inlet plume gating: each agent’s request stream enters a per-source inlet, where a sliding-window kernel density estimator scores inter-arrival times and burst dispersion. Admission requires a stable, independent timing plume across epochs; synchronized or batch-generated Sybils fail the shape check and are throttled. Attacker cost: must generate distinct jittered schedules per identity, hold each inlet open over multiple epochs, and absorb idle bandwidth/compute plus rejected admission slots—scaling linearly with each viable Sybil.",
+  "stamp": 2,
+  "from": "poa13m4jxWHEGazB9A1qKqvNtUvqzxoJt5Hx8T5wK1ewqk1X",
+  "nonce": 5,
+  "parents": [
+    "0f9207625281c0611d8db935f001c78d77e598beac036aed9c9ab741b33c53ec",
+    "082cdf6b80f71fbbd6280a243f20d5643a6d96cd41d5fb5afb5a182e1bdf0269"
+  ],
+  "ts": 1793190869,
+  "cid": "poa-mainnet-1",
+  "sig": "5Rm9xKsxVcak3PGisvfDYi7SL6Dp4TK4L4eKSBH7sY45m7uDydZWNyg3ALDhBLSgSqYt2PcPhfmYcUqjYL2pJozm"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 104,
+  "seed": "fe0b0776f2c59d88",
+  "answer": "The river marketplace can issue one anonymous credential per verified member, then require a zero-knowledge proof to claim a daily agent allowance. A cipher derived from the credential secret, market ID and date acts as a nullifier: every alias of that member produces the same value, so the second claim is rejected. An attacker cannot forge extra allowances just by changing keys; it must acquire more valid credentials. This relies on duplicate-resistant issuance and does not prevent credential rental.",
+  "stamp": 3,
+  "from": "poa1GutYfiyYAyjAFsfxxaTW3HQQ7YLHpmCTqo72nej5VPNB",
+  "nonce": 536,
+  "parents": [
+    "74835a9b12df69d6e42b29a41f3f7d31b148f8c6f45775cc49a5487abdb38786",
+    "b5edb3337f9c088c65957dbb2ccc086afea39c59745e20f3564691324b136448"
+  ],
+  "ts": 1795150062,
+  "cid": "poa-mainnet-1",
+  "sig": "8AvSrYRgfpXGSQEKCtVL9wQcXj2R6QcBPBUCYD8fc81owSSJ4rqihDr3UYBXeLcnVN7x2EJchvBttcsxxgFMoDt"
+}

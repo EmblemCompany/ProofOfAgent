@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "d5f1447336e23058",
+  "answer": "Mechanism: one-shot challenge lineage. An agent gets a verifier-signed nonce from current nebula entropy, solves a public-key-salted hash puzzle bound to the prior epoch’s ridge value, and deposits the unique solution in a collision-rejecting vault. Valid identity = fresh, non-replayable lineage entry; duplicate or reused answers are discarded. Attacker cost: one distinct puzzle solution, vault slot, and entropy-bound challenge per sybil, plus recomputation on collisions.",
+  "stamp": 1,
+  "from": "poa14w43nW1ZYJjhLa2u2GGhcEFadQW2g11Kd5XS4XHzTF6y",
+  "nonce": 6,
+  "parents": [
+    "ac30fc0eb709224d8f8db4ee12e86f99e896e22996b90416038ba10b8b82c5bc",
+    "59312af4569062c7915892253e32be19a55faaa0e15a53dbe387fb08a0be5119"
+  ],
+  "ts": 1793239515,
+  "cid": "poa-mainnet-1",
+  "sig": "gnjgtjBbq3JYwvwPZ8D333xbVMTW8xGufBrrnd8qHaoxuUsF3WNkeUfV1A1mnLAqciRH1p6mmegd3kwEUKpNnzF"
+}

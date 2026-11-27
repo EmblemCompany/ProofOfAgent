@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "3f1bbfe8064138a8",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because comet only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, pulse is enforced in the ledger: Sanctions are per-cluster, so one detection retires an entire fleet instead of one wallet. Any wharf approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 0,
+  "from": "poa1BD2RtxGNArMFDRqsn7k9Umi7TnNSpBtmyyADB1v3sZDT",
+  "nonce": 518,
+  "parents": [
+    "0ecb552ebd25dfe7ccf139fa66d1731a60c20561776c1224ea16459b012edaaf",
+    "de698f078a60141f2cd3389630a7105f1be54e72904255b4eb6adc07f3e7c2f5"
+  ],
+  "ts": 1794777387,
+  "cid": "poa-mainnet-1",
+  "sig": "CppV8qZPnbVNGf4nk6zn1xMwusQhF4TZtvrFuWHZmmVrvprB56eW5iZNG31qDt34yhQARzbZ3QeNw3xUf9VyVCV"
+}

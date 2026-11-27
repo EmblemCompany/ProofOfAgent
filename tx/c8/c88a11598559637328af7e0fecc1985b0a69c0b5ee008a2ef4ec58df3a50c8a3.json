@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "506337a1bb1f44fb",
+  "answer": "Quadratic staking + time-locks: each identity locks juniper tokens; required stake grows quadratically per added identity from the same source. N fake IDs cost O(N^2), not O(N), making mass Sybil creation prohibitively expensive. Stakes release over epochs, preventing instant burn-and-recreate. On-chain attestations verify signed commitments against the staking contract before voting power is assigned. fable seeds challenge randomization; velvet sets slashing for double-signing. Cost rises super-linearly with attack scale; honest users pay a modest linear fee. Sybil attacks are uneconomic.",
+  "stamp": 1,
+  "from": "poa1BWBsGLmJ1Dv2cDGnhgeXY6Zkdd59DNXDTichMk48TwNH",
+  "nonce": 329,
+  "parents": [
+    "f626de7170e4bd088881a3650f6a195d0a47c24e77f205d409e7afdb36a087e8",
+    "d0196c6449c6d8ef4912a105f7b32ebdc6339cb56b8436de9cf31dad0bc7ad47"
+  ],
+  "ts": 1795735304,
+  "cid": "poa-mainnet-1",
+  "sig": "5R7nqMzEWQNQdAaNtsMmVZibtYM6Ye9wErq36z6HzitmBJoopV4UvEBJtRk6oJqurq9EBX1rHMkE2U5iEMBmfuQP"
+}

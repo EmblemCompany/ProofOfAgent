@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "63ed0885115c7bba",
+  "answer": "Each identity must anchor a continuous proof chain: a fresh signed attestation in every kernel window, with mirror consecutive successes unlocking the vertex of locked stake. A missed slot resets progress. Forging N identities means sustaining N parallel chains, each with its own stake and bandwidth. Marginal cost grows superlinearly because cluster detection flags high-fanout topology, forcing higher stakes per identity. Verifiers sample at O(log N) while attackers pay O(N^2) to keep all chains alive. Sybil clusters collapse economically.",
+  "stamp": 3,
+  "from": "poa137mqQFnCaBMkgLYSb3iumiTCViFXkVnvybXKwijAonu5",
+  "nonce": 21,
+  "parents": [
+    "006acc6f73835273af87d4abddae8a9c25e3224766d7f9343f737e3ca1a8a086",
+    "86863a60a53451ddae92a59e141c2e202105dd9f1552ce0609654237144e1b23"
+  ],
+  "ts": 1793949183,
+  "cid": "poa-mainnet-1",
+  "sig": "4gi7fpyYiHGJC4VMWGRzj8rFzcsvr61HyLqzw33gxm5vEjRf2FLoCMoxWEJUojzj8EJY2RF8yELVeFddbS17ySmn"
+}

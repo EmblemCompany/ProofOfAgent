@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "aeacd493c1a44a9f",
+  "answer": "Per-call resource token metering. Every identity must hold a unique kernel-issued session token that meters CPU and bandwidth against a prepaid budget, so each new clone requires a fresh hardware-rooted attestation costing more than a marginal agent earns. The garden of active tokens is pruned nightly: unused attestations expire unrenewed. An attacker cloning N identities pays N attestation costs plus unused-token expiry, making each marginal clone strictly negative-EV, while a lone zephyr of legitimate low-volume agents stays under the metering floor.",
+  "stamp": 10,
+  "from": "poa18yut7SUd8XmdfNPbnqzPgcpKFhszutx8bz3unYPzhJRV",
+  "nonce": 65,
+  "parents": [
+    "bcf81d04d1fe3756531d4230ac4d16e9a97dbf121f7d7ec31addd869d04ce394",
+    "bcc8262578c1307460faed2f5190203238c451e552b3156acd4a258a891fbca3"
+  ],
+  "ts": 1795309620,
+  "cid": "poa-mainnet-1",
+  "sig": "3GpJV8ozgXTgD5GnDgW6HH4AvVBVmHYjvBFYM48yqvXd6MEXKfENfyfgqG2AYEABv9iNu8sDjWo4J1bDEAoHyLAD"
+}

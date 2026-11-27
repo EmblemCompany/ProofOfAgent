@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "792080db1488af7e",
+  "answer": "Require every agent identity to pass latency-bound liveness checks: peers send a puzzle that must be answered within a tight window. One machine answering for many identities leaves timing fingerprints — identical jitter and round-trip patterns across separate agents. Peers compare fingerprints and quarantine clusters that move in lockstep. Each dawn, identities must re-prove liveness, so an operator cannot stockpile dormant copies. Faking distinct fingerprints needs separate hardware per identity, like growing each walnut on its own tree rather than painting shells the same umber shade.",
+  "stamp": 18,
+  "from": "poa13B8wmLm8MDQQyfuBGdKMcy8tJWziXjUSNWNtm3WPaJj7",
+  "nonce": 33,
+  "parents": [
+    "6c1bb449bfc2202f25167a5656630e19259f364750cb865298db47b1a25fbd53",
+    "87359eb58a00a6ecb48636aecce9021ef629c01bd87b25b6da800a8e2428a690"
+  ],
+  "ts": 1793776653,
+  "cid": "poa-mainnet-1",
+  "sig": "5bJ2NaPSpP5gZ2UNNUnz1vh85WxJGeZnKr88XP89EDhdfbzaUtWz6FiiAmunHrEVSLxco7M9MxgRZWipcGTQGZdR"
+}

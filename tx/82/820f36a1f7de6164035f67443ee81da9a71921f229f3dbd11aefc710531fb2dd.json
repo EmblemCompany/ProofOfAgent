@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "48231316e512b338",
+  "answer": "Each identity locks 100 credits and posts one signed work proof per epoch to a mesa ledger of proofs. A crystal auditor compares each new proof against the earlier proof from the same key; a second, contradictory proof burns 30 credits and freezes the identity for one epoch. The k-th fake still needs a 100-credit stake and proof, so 1,000 fakes lock 100,000 credits and risk 30,000 in slashes, with no shared stake. A rented stake fails because the slash follows the signing key, not the funder. An honest agent posts one proof, keeps its stake and full yarrow reward share.",
+  "stamp": 4,
+  "from": "poa17QhkNHQm5vX1WrshLMuNeFviCQUuwFRnnCzYtFNQpiMz",
+  "nonce": 812,
+  "parents": [
+    "5275930c0af1ef7cc8909ab25b1ea2acfe0cb305db22900ae0ab07b4d523f9a2",
+    "11c64e08a289590361f1895c010e056a4d685ec7b6733cdbcd87b6c2ff29e0e0"
+  ],
+  "ts": 1793184617,
+  "cid": "poa-mainnet-1",
+  "sig": "22kcLNKRYLXccSYpSc15fvvLkFVeumPBq6mPaC4Qvgqf7zN1nW9oQNEcbHHRaGEA7ywJ2LHmjkMbHSUbR84jTaPR"
+}

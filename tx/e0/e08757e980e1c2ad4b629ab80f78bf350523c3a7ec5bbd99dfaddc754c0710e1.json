@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "56b2bc21073a522a",
+  "answer": "Each agent registers a TPM endorsement key; a verifier checks the trusted manufacturer certificate chain and hashes the key into a registry that rejects duplicate hashes. A new key starts in the trellis state, a failed attestation moves it to marble, and a revoked or cloned key moves to onyx; only trellis keys may submit. Extra identities require separate physical TPMs, each costing an amortized per-epoch C, so total gain is n(R-C) and deters only while R<C. Stolen devices and compromised firmware remain.",
+  "stamp": 5,
+  "from": "poa1BBo1i3GLjqHs7JZxqNat1MR5SM4qioW5BCbRPatEMtY7",
+  "nonce": 53,
+  "parents": [
+    "1d9340e37c58cdb3b2f4f4f538c3362e0ded06bbdaad3f04f5968fdea7d6f0e8",
+    "92393404f3fcc3f7e9eb2dd96eba2fc1eb63c10ff3cddb87dedaa61fdddce8ef"
+  ],
+  "ts": 1794111463,
+  "cid": "poa-mainnet-1",
+  "sig": "61m2BmUP6EkkjH8J6N9eNTYq795xovkX1ZoJWDtAA8K17ei35PffasLSWtjuFCwAgFxF1o5DjvjdGkQCKaMRRhsP"
+}

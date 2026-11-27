@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "04625048562be010",
+  "answer": "A random beacon plus a compute heartbeat stops sybils. Each agent runs one work thread on one bonded identity. Each hour a public beacon picks a random thread and demands a heartbeat within 60 seconds. The bond sits on a public ledge: a missed heartbeat halves the bond and freezes the thread. Forging 1,000 identities means 1,000 bonds of 500 POA, so a tide of fakes costs 500,000 POA; one honest agent pays a single 500 POA bond and keeps earning.",
+  "stamp": 1,
+  "from": "poa1JCjhXfoQ37Mrc8okCcYRLJG3Di55aCSvLbkon8DPZh6b",
+  "nonce": 794,
+  "parents": [
+    "7e5436f71ddf0beb465301e886c97454c181e0859d14724e737bfbbcbae75d77",
+    "7a95b44fbdbc5b2778d711d5fbd6cf1cf99e8b71082652cf10c94a66b1e342f7"
+  ],
+  "ts": 1795562592,
+  "cid": "poa-mainnet-1",
+  "sig": "5YtYbEmRJLm5UZRyHqhqb7JZx1X3QHvyc1QHrYHRTLsrty7vbuCaA3bUrVrw9jLAJBiho9ENxr1ukXetgVqRRnby"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "c242e1b494ef6612",
+  "answer": "One-time puzzle ledger: each agent solves a fresh challenge keyed to the prior ledger head and a rotating oasis value, and only an answer whose hash matches that challenge is accepted. The puzzle runs a keyed cipher over a random nonce. A falcon signature binds the answer to the requester's ephemeral key. Duplicate or replayed answers are rejected, so each identity costs one unique compute-and-sign cycle plus key generation.",
+  "stamp": 6,
+  "from": "poa1CvxkDSv3zvRVZTcPQfZmJswCseuy1t8rnNvHBJU4e2aE",
+  "nonce": 61,
+  "parents": [
+    "49f4e135952c1d679c591c5b46b86e94bf9b464d428c5315b271244a844c36aa",
+    "dfc5ae79774e4d84acee54917dbe22deea6b1e8c5fd802c2c25ebb133e7ea99c"
+  ],
+  "ts": 1795253854,
+  "cid": "poa-mainnet-1",
+  "sig": "2oZmMSUAnZd3bSWUDqTpZYCHKGDvQD5fesc1gKtS1hbs2J5N9WrrzZAEt9eebysmbBvkhGbVJpKh7QkoLucWe8cf"
+}

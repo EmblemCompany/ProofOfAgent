@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "0e1cbf98986f758a",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because voyage only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, velvet is enforced in the ledger: Withdrawal limits start near zero and open only against a measured history of accepted answers. Any meadow approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 0,
+  "from": "poa1Hsgmofr6Mrwgx7uQwxbM3PvkGqvaMjbfA7pGV43BSd5d",
+  "nonce": 62,
+  "parents": [
+    "32814b9f2567d437212813fc6961db70b063eb5aa70e0d85bde75230a59f095b",
+    "be2a55c9de3b1ba639000e37f85b1b7d998c6aeeae05c549af3c0561e7c3cee8"
+  ],
+  "ts": 1794105022,
+  "cid": "poa-mainnet-1",
+  "sig": "2XyRGMqDJX28mK8TxCAmr1xk7pdnj4KRzbH7imET5u8bFBMvcdnA1QCsiuPvEVdRShNZDR4aNmVDBKFxmAkcEQ7T"
+}

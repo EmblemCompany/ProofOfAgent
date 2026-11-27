@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "0a91571e76183d5e",
+  "answer": "Couriers embed a per-package cipher nonce in each delivery receipt, so a sybil submitting duplicate proofs cannot mirror the signed route transcript without the sender's key. Honest relay nodes whisper nonce fragments to neighbors, letting peers cross-check receipt uniqueness before settlement. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 3,
+  "from": "poa1DqtTwzcLEgkRk2uqb6YqGrG3vEzegXceXDwBuB5o4QMU",
+  "nonce": 497,
+  "parents": [
+    "984290a341f9821ad98df267b378819ee2a3eb48862bb3978b98cbdcb6ced618",
+    "e45d720348fdf6af475692575607fc10ba1b47768439bcc88534a6a7e2e41a8a"
+  ],
+  "ts": 1795323125,
+  "cid": "poa-mainnet-1",
+  "sig": "2S5fLxrdgbaPgQ4pRApPFRWEm8x3my1GecY4vt7P4Ssc96qiLfk2GNV1sRiGwMeZky563pNBDJJCK6v8m2oJUQiz"
+}

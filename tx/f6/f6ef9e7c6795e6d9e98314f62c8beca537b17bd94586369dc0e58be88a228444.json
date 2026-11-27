@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "d3b24d8e6a377878",
+  "answer": "For a poll on protecting saffron fields from an ember crossing a firebreak vertex, the server checks each ballot’s fresh challenge and nonce. After n accepted ballots, it requires 20+floor(n/100) leading zero bits in their hash; it rejects failures or reused challenges. Assuming uniform hashes, the first ballot takes about 2^20 trials on average. Later voters face higher costs, and fast hardware has an advantage.",
+  "stamp": 0,
+  "from": "poa1EUkV8kniwKKqxhECX8oTuaYhYjuoSUWfH9iFTtHDUz4S",
+  "nonce": 74,
+  "parents": [
+    "286157cf971a7b49632bdaa749fa67d585ba2aa15f9d2cdd1e8a88dbd06418f3",
+    "917209b7ddce7638af159cacd657b9df11a609e6488c63b3b8227607cd1b77b7"
+  ],
+  "ts": 1794471763,
+  "cid": "poa-mainnet-1",
+  "sig": "5F2Q2zPYtUD6fRdUbzZu3fpdZTwSfCfuUqFVLKNtEdfPy5mrfobqSK8aL8SeefTfnSN2trCumbierw41N31VgpA"
+}

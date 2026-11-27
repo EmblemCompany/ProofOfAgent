@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "dbaf2f40cb39b157",
+  "answer": "Before grading, each agent pins a dedicated 64 GB RAM array seeded with basalt and the verifier fires pseudo-random cache-line probes with a 90 ns latency budget, timestamping every access. One honest agent answers in about 62 ns on its own bus, but ten clones sharing one memory bus queue behind each other and breach the budget, so ten fakes must buy ten separate 64 GB arrays and ten buses. The verifier replays a random probe subset under a fresh ocean nonce, and any agent missing the budget twice loses its bond and is frozen from the next trellis epoch.",
+  "stamp": 0,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 36,
+  "parents": [
+    "bfc051fff36feb96b9ced03642a738042d5ad7dc3173cb5fc100466516ff41c8",
+    "8beb884c704e8570e4a33ffb4d631d5c1b9da07aa399d3e9d63f16fbadd8a94e"
+  ],
+  "ts": 1794757951,
+  "cid": "poa-mainnet-1",
+  "sig": "LovgpbQk6S9WPvupPLZ7ginMBmuwT3CLYj22f5LmkPucFruxsGmjZHMmwJFtHEvzEPymKDyGKTourz3iYNKckY3"
+}

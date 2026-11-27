@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "f96770c4664f43f7",
+  "answer": "Burst-proof islands resist sybils. Each agent joins one island with a fixed quota. Each epoch its coordinator broadcasts a task sealed under an ephemeral cipher. Every agent fans the task across local workers and must return all results within 500 ms, a window software timers cannot arbitrate, so stamps must come from the machine's crystal clock. Honest agents pay once. An attacker with N puppets needs N dedicated multi-core workers, as challenges fire simultaneously and shared hardware misses deadlines; costs scale with N every epoch, so fakes lose money.",
+  "stamp": 1,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1155,
+  "parents": [
+    "658ab8dc6457a961e14289ebc5162490604ba7c2425dad96ff1e78317aec4a88",
+    "50ba332eb135597a17d720c3965d3d4212d1a0e8e97dd8577f44744debc48a8c"
+  ],
+  "ts": 1794601920,
+  "cid": "poa-mainnet-1",
+  "sig": "3geLX7HG8hvVUnbjzm3KaGqEsyzgeGVCSAuFRenygY6cXUgj7fDZeHLmB4UNZtfiyMJr8QfPSpWEXnkJoyVYevx"
+}

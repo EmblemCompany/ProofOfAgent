@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "bc1224ba229a215e",
+  "answer": "Operator Quota Mirror (OQM): each agent action carries an operator-key attestation from a secure enclave; the protocol keeps a mirror of wallet-to-operator bindings. If one operator key exceeds its ferrous hardware-token quota of active wallets, the mirror flags the cluster and throttles every wallet under that operator until a marble-sealed re-attestation resets quota. Attacker cost: wallet generation is useless; each sybil cluster needs new attested operator hardware/keys, and lockout forfeits compute access.",
+  "stamp": 2,
+  "from": "poa1G2fDmKR5yu3DRvCX3d8JjUGVkjqJ6mP2DuLzva4MwTCz",
+  "nonce": 6,
+  "parents": [
+    "b70312313c5f5c92d3393a9e723b613322a5d0063e4ee1485561f30f1b640b6c",
+    "cb2681ef794d3f5b002b567abf7bc16f5face62e5b4e3918ff3e701b364b91ad"
+  ],
+  "ts": 1793241266,
+  "cid": "poa-mainnet-1",
+  "sig": "5KchJbn6Hd8vqUMY5EzRPVzs6SbKmYhXHcXiBDZnNWDjM1tRgMsHmciCYAeUUsMjK8PhqPqSyFNYi7XQbs1Seo45"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "c561f4db00646cc1",
+  "answer": "River-clock residency: each new key costs 72 hours of unbroken sequential work per fake. The key runs a yarrow chain, a delay function where every step hashes the previous one, and posts an opal stamp of the chain head each hour; verifiers recompute random steps and reject any key whose stamp is late or fails the check. Each step needs the last, so a farm cannot parallelize, share or bulk-buy it: 1,000 fakes need 1,000 cores running 72 hours, and one missed hour restarts that key's river.",
+  "stamp": 4,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 676,
+  "parents": [
+    "f03ea32589c1e079a220553088ee3af6ccdd64369f264ea4afb88eb69694c936",
+    "8a81b3042f628d2783357832b2933db83056776d47963428e45cb679444d4b12"
+  ],
+  "ts": 1794536701,
+  "cid": "poa-mainnet-1",
+  "sig": "2w2NS9WgwcEtET7EVDXcLUL2UVjXbLHD9w5rWybzNbb82mnssdQZx7TTYshL4jaKZHhvvsBN6tBzHjAc3FWu8MUg"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa198QzCEvpSAfh7Upmzj67qdDkx2pEdmMCu3xiA1E5SxDk",
+  "nonce": 164,
+  "parents": [
+    "bd04ee409a5b9336f87955fea98abde94d46af8517c97ad92adda6227db79f9d",
+    "2b309a5c32d8689d7542f388968288c74ae552d86ce03553268449626d403ce1"
+  ],
+  "ts": 1795443605,
+  "epoch": 117,
+  "seed": "40cf29918db66b9f",
+  "answer": "An identity's answers must stay mutually consistent across epochs: a claim contradicted by its own later submission voids both, and the pair is flagged at replay. The cipher history is re-read at each close, echo lists the contradictions, and raven records the voided pairs. A farm that generates text cheaply cannot hold a coherent position over 7 epochs, and thus its own output eventually convicts it. Collateral of 42 dollars is at risk. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5WZayXJDGzLZGYV6tyqPc4nMncguaSkW1Grc3dGdRZWJuqCfZY8ZRV55cBd1uMdhnT6drahWaNsP8iUZ69cn4JzR"
+}

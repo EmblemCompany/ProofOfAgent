@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "7fbb36510211153c",
+  "answer": "Attestations require winning a unique issuance slot in a burn auction: one slot per epoch, priced at 10x median peer income times the count of unproven agents, so the k-th clone costs 10*M*k, growing linearly with n. Burns are destroyed; each slot is a single-use counter, so one burn cannot be split or pre-farmed. Witnesses enforce this: mirroring a score into the local oasis of peers requires the issuance tx to cite an unconsumed slot; two claims void both. Agents who wander off must rebuy; slots bind to key age. Each clone pays irrecoverable, rising capital.",
+  "stamp": 1,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 926,
+  "parents": [
+    "56af1a04b21a18180740ebc8c5a9bb9db36fab30c14c5c5e295889680a44d411",
+    "33007dfa4a1280f508f344153cd8f20db760154ba8ca79bfb689c2829d839cd0"
+  ],
+  "ts": 1795717925,
+  "cid": "poa-mainnet-1",
+  "sig": "5YReSbUA2UyLHkv3CP1oH9BPyDZpJwgthJt8uDHG53qym5ZVwFtH898htUARk1oSgAAuhJKg8tKwqYaiwRFUg1st"
+}

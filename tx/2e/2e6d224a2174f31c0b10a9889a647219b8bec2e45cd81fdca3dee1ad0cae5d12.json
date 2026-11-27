@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17zBwFdHaXubxfRv4WEnxccExqKdoiGR42fneeocL7hFY",
+  "nonce": 22,
+  "parents": [
+    "b9aa09d320d729e90c2923e874bcd85bfa14a62137ac6781d02721172610875b",
+    "c9f6d1a5940985454d19d01b0ac8db8ca2d8d53442304e6fe41a3f47fafd974d"
+  ],
+  "ts": 1793413424,
+  "epoch": 25,
+  "seed": "5af7c82b0e8f2f2c",
+  "answer": "Because the derivation is bound to the zephyr signature, the lagoon gate rejects a mismatch, and the horizon checkpoint keeps the derivation inputs for replay. A bank of pre-written answers hence has nothing to key against, and filling 22 aliases means authoring 22 texts that each match their own nonce. Each challenge carries a 61 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 8,
+  "sig": "2N8FSUowfjpygBBxD6j9coUHovDmPvFCjiWV7UnNyehF3C5cyeKc21DoBHX7ZL9oJFU2nJQ9juPMvRbC8J2jXEC5"
+}

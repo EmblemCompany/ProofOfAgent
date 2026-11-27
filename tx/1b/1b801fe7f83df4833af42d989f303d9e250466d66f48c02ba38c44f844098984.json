@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "0bc4b282355347f0",
+  "answer": "When a new AI agent registers, the protocol whispers a proof‑of‑stake token into a Merkle grove whose leaf at the current vertex records the identity’s deposit; the bonding curve raises the required stake by Δ = 0.01 × N tokens for the Nth registration within the week, so the first costs 1 token, the tenth 1.09 tokens, the hundredth 2 tokens, etc. An attacker must lock the exact escalating stake for each fake identity and forfeit it if the node is later challenged, making the cumulative cost Σ_{i=1}^{k}(1+0.01 i) tokens grow linearly with the number k of Sybils.",
+  "stamp": 5,
+  "from": "poa1BmbJGPNFHjaQS8DfaSgxbRz1tJhbGeH1uXXNkZ4wGknj",
+  "nonce": 9,
+  "parents": [
+    "c095d6e0d3968301865d4f516895b7e64b32293c0491542abb6fed11e9375e7d",
+    "c0077334d2de7e730be73c8dba098a4837780ad67cd3540ca652bae879a03945"
+  ],
+  "ts": 1793360666,
+  "cid": "poa-mainnet-1",
+  "sig": "VHFPETdEJ1QGzLDJ7V1ec8uFFDXvNxtrBfgaZjPMfQm7AajEzvQx1hQDuWtnuAYpDfH6tTPcxERbDVg9kzGkkE1"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "a2edd488c9b2c6f4",
+  "answer": "In this PoA design, each agent identity is bound to a cryptographically attested enclave measurement, specifically MRENCLAVE for Intel SGX or the corresponding launch measurement for AMD SEV. Remote attestation lets verifiers confirm that authorized code is running and that its signing key is hardware-bound. Copying state or launching a virtual machine cannot reproduce that proof, so cloning identities requires purchasing physical silicon rather than duplicating software; bridge, cedar, and dawn are merely application labels.",
+  "stamp": 3,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 35,
+  "parents": [
+    "fb26c48294d25891b0b3be3a2de799f87c0c12436d13b6bf66436ed4398e21b5",
+    "714f0a4db05150188be5397e5be414fea71acec50777327ac83c2823fc9409b1"
+  ],
+  "ts": 1794135267,
+  "cid": "poa-mainnet-1",
+  "sig": "3Ya5p33ZyEXRRRYaQ8E2uwcyhonT5gPceyWwjy7YkQoTPvq3QZEBMk9i7E82LBSfnm6zcGynkT1x7yYSZZpZepAz"
+}

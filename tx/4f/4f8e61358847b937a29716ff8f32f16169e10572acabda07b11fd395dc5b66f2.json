@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "b4e9f66afa2eda56",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: the prover must execute a prescribed chain of dependent modular squarings, with each output feeding the next, and return a succinct proof. An attacker can launch many clones, but GPUs cannot parallelize an individual chain or eliminate its calibrated delay; each additional identity therefore demands separate sequential work and resources. Thus plume, haven, and beacon are labels, not substitutes for a strict physical time bottleneck.",
+  "stamp": 1,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 184,
+  "parents": [
+    "b83b6a7840ad8a17ab9d6e8033dce5d27cc25b49db85b48646097dbcc072356f",
+    "b5b1ebd91820051cd9f15cb4664c4de55a7bce6705ef4f3f713a10a3185a89ae"
+  ],
+  "ts": 1795477158,
+  "cid": "poa-mainnet-1",
+  "sig": "2rd6RAVmbX4UJBEXz5Jhsni8nZYjv65dVqTjbH4DZeQJfTghRnYVBTnydT5ztgypA69BYqFo4cqzZ59q1X9w3PpY"
+}

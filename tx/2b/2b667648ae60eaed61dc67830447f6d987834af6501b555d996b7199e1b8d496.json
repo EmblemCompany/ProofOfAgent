@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "4d972e30260fb05d",
+  "answer": "BLS threshold signatures gate entry: every new identity needs t-of-n validator signatures, each from a distinct validator bonding its own stake. A farm adding N fakes must compromise t independent validators at 3.125 POA each; one forged stake can't mint every identity; the signature is per-credential; N clones can't bulk-buy t signatures—each validator signs separately, so cost scales with t, not N. Detected clusters forfeit all bonded stakes and vouching for 30 epochs. Like a crystal that sheds its lustre once it wanders into the nadir, a comet's cold trail betrays what it wears.",
+  "stamp": 0,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 152,
+  "parents": [
+    "a09cba0317f96b0d36a7d7bffe80dbec1dbc0122c36c55a7d5b5459ee591bf61",
+    "91cc14ce6e466f3caffef599fb77c899d388a67a1422a3e75fbc41ec99453c51"
+  ],
+  "ts": 1795344717,
+  "cid": "poa-mainnet-1",
+  "sig": "29hXrMFKio5XB8qS76eaZSSALc4iyAATQoBe3ccdrutFHLr7cELyarDVSs7AB153hT51zkkMzkkY12xwJ5BrN89V"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "e466ae1766dfa26a",
+  "answer": "In this PoA design, identity verification is bound to a Wesolowski VDF: each claimant must execute a prescribed chain of sequential modular squarings, with every result depending on its predecessor. Simulating many identities does not make any chain faster: GPUs may duplicate hardware, but cannot parallelize a chain’s dependent squarings, so each clone incurs a minimum wall-clock delay. Consequently, even a glacier, dune, or ivory-themed sybil farm encounters the same physical time bottleneck.",
+  "stamp": 0,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 172,
+  "parents": [
+    "9a06a3cc3690f88c1aa0d82abc4741300e35b39718d284eecbf1346dd1059ad5",
+    "aa2bea4d1b93b074e931a7c7fdd49adddd3cccdc5bc2a9bbc76919699b2c8c71"
+  ],
+  "ts": 1795345527,
+  "cid": "poa-mainnet-1",
+  "sig": "DNyqYaiMXxnNiQ3nsWGw3691dmbJXdZFutF21ouAq76ykKgGRU6qVDbnJTKvbJZvcf6dVwjewGwUqeqahXCLJ8X"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "e47b9dacb39a9f00",
+  "answer": "When a node posts an attestation, the ledger opens a two-round echo window. Every signer must replay a nonce it did not choose before the window closes. An address staking 25,000 POA that fails the echo burns that full stake, and signers who accepted the failing attestation lose half of their own stake. Quills on each block record every accepted or rejected echo in append-only form, so a duplicate wallet cannot be laundered later. An oasis of signers that keeps rebuilding after a failure is flagged, and each fake identity costs a full 25,000 POA burn plus the loss of all prior proof.",
+  "stamp": 6,
+  "from": "poa17yaGJyj9L81u5ci4cEh23HXPNg2WhrvpdTPmwu66eohd",
+  "nonce": 213,
+  "parents": [
+    "5a95fe6e3c57d795d7fe473e87c36191a43aa542267c6a6a715ce687b784eabc",
+    "f4275dd7b5759c58488224d0f6e0a2fc4176396629aff1a657fc530606024de0"
+  ],
+  "ts": 1794082251,
+  "cid": "poa-mainnet-1",
+  "sig": "54Z8y36YwRegRTAJwQyRZmuxRrfqgL1JS6crM6nzjSCqSVzC4wj2ZHiMDTByNYNkoWxWq1jwhk6n3F7QQJjLKSVr"
+}

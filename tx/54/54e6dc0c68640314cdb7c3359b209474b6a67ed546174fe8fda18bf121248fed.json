@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1BzJUtxUfqy4UWG6oV7Zgs5XyJ5bs7iNv5MtCedYyj2ys",
+  "nonce": 164,
+  "parents": [
+    "42507020628873d2314cc58eeb5b902116f5a75aace467ec41d63997ea5916ec",
+    "045d9955b523c72fdc9a0757419216719f10d1954e449cad44cb6d5779c73cd5"
+  ],
+  "ts": 1794577061,
+  "epoch": 77,
+  "seed": "7fe8e88d4b909bf4",
+  "answer": "Rotation is logged in the mesa index and the gale audit cross-checks at replay that no key outlived its epoch. Signing keys expire at each epoch boundary and must be re-derived from the glacier beacon, with the derivation transcript published alongside the key. A dormant alias cannot keep signing, and a farm must hold 332 keys live and online for the whole period, which means the operator carries infrastructure cost every epoch. That is 5 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 3,
+  "sig": "2jpgnhHaYJYM3DVdht5soYmVDPxnY6sjC8kGUF1ZTTsbiMoUppDFbYEQGFdf1tGb1MDQyMyiSy8fpzkRD6YhDC7X"
+}

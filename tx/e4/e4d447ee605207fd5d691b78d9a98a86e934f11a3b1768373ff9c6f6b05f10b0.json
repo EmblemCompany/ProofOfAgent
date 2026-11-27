@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "44141af527a25c8a",
+  "answer": "Per-Instance Kernel Fingerprint Gate.** Each agent registers by submitting a signed challenge computed inside its own runtime kernel, producing a one-time nonce bound to that instance's memory layout and timing jitter. The gate compares the response against a sable hash committed at registration; identical responses across registrations are rejected. A haven of replay noise is injected so copied fingerprints diverge. Attackers must run and maintain a distinct live instance per identity, paying full compute and isolation overhead each time.",
+  "stamp": 5,
+  "from": "poa1u5Hmq5vHERZywCvs3jyanuugmP5yEGHwAPa3ZnVtZTg",
+  "nonce": 28,
+  "parents": [
+    "5d1f4b36de4d553245914affbb5259d39b59189b87abbe04fa2b310954570d1e",
+    "7af177dbdc9aeba20482c28be2b169886c9ac5965d50e7e0c2e16e78ff3adac9"
+  ],
+  "ts": 1793933262,
+  "cid": "poa-mainnet-1",
+  "sig": "4zrbVeUCjXfJTVoqu2aUSLr1oyjzMcSieds7ELzRfZYLhqX5hYneHxVuMdPXUZ8DKG5WofwrjhWRxaYM47qgp6Vr"
+}

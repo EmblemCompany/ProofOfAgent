@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "28e4fbade0eb89f1",
+  "answer": "Bind each agent identity to one TPM chip through kernel measured boot. First, the agent boots and the kernel records every loaded module into the TPM, which signs a quote proving the exact boot state. Second, the Lotus registry checks the chip endorsement key and refuses any key it has seen before, so one board yields one identity. Third, bad behavior burns a 50 POA bond tied to that chip. Forging 1,000 fake agents means buying 1,000 boards at about $180 each plus $50,000 in bonds, and each identity carries a fingerprint as distinct as the fire inside an opal.",
+  "stamp": 4,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 241,
+  "parents": [
+    "72ad03d4ad7175fa66ba3ecad064cf0db9907a02b4bb33f1bb1a20b94dd6aaeb",
+    "0f1541c1d301c7e100a18a7382e54651115ea59155c72968baef1b009f59203a"
+  ],
+  "ts": 1794606597,
+  "cid": "poa-mainnet-1",
+  "sig": "5nSmYSgp4xhvKib5h3gEkLx2Ukq2ps63SybcUintFpHkQVCuyaqdL8MhsmSKH2jwPuf8FZcqLSGixoNXssycj7bv"
+}

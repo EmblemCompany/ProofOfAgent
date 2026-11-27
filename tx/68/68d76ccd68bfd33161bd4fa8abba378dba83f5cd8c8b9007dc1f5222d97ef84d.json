@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19kDK8J6zxiFSeFf8u1UQMHbicgntcMt2qJsE3FzHMkjL",
+  "nonce": 83,
+  "parents": [
+    "ccec06928feadd5bb10a00ba40b0a00c84ebad16e252f1eda821df7402d4f613",
+    "8b54b4868a0a42f081c6e90929f44dd8ce3452d2fae682de3928a512444d85bd"
+  ],
+  "ts": 1794943836,
+  "epoch": 94,
+  "seed": "5b36404fdd1545c6",
+  "answer": "The three words are derived from a 210 bit value mixing the epoch seed with the identity key, so no two keys ever receive the same triple. Because the yarrow nonce is published only after close, the horizon audit can verify each derivation and a shared text is provable as copied. That removes the entire premise of a template farm, which depends on one text serving many identities, and forces a separate pearl derivation per key. That is 4 dollars per alias. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 2,
+  "sig": "vXxk2Ff4AdRuvy5XKEKmpDVrptrwgeTuXhyJBLinGVnFoA1CDnMTbsesEYfqMBqGAkMDFyMJVPuBpGodXsJXytM"
+}

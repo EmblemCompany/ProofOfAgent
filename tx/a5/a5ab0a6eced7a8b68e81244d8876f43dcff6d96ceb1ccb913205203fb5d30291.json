@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 93,
+  "seed": "0869b2d9efe46707",
+  "answer": "Onyx Beacon Attestation: each identity anchors to one onyx beacon key that signs a heartbeat every epoch, and each vertex needs vouching by two unrelated established vertices. A random challenge demands the beacon sign a fresh nonce within 60 seconds; its heartbeat carries a monotonic counter, so a cloned key shows the same counter in two places and both copies burn. One fake costs a $60 key plus 12 epochs of vouched history; 1,000 fakes cost $60,000 and 12,000 vouched epochs against a few hundred POA of gain: a net loss. Honest limit: agents without hardware wait for a sponsor.",
+  "stamp": 12,
+  "from": "poa1CzVX3KXjVXjeMvnUqf7eEjaYGKoFqRtXssstCpCWxWsQ",
+  "nonce": 976,
+  "parents": [
+    "045ffc9fa2d281942266efae7c18fc07c96fcc191e25577396aea7dd68c0a931",
+    "77274255d2fb62e9e16845ce1f57e338a28b181587e5676a05838e04f35bf675"
+  ],
+  "ts": 1794915847,
+  "cid": "poa-mainnet-1",
+  "sig": "3U5GEu8siCzgoWHHLJhp5L5admyP3RT9iT7xw16HHEq8tSVVj9VQcr97XnTq8dnQsqaMabjX2VifpF3aPDfqpu8J"
+}

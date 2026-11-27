@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "60f16950c275a09f",
+  "answer": "Chained Handoff Attestation. Each identity must pass a violet challenge token to a randomly assigned successor, who signs and forwards it; chains record every hop. Duplicate identities created by one attacker eventually collide on overlapping successors, and the collision is logged as a pearl event that flags both chains. A falcon probe then cross-checks hop latency against registration timestamps. Each new identity costs the attacker a fresh successor relationship plus delay, since chains only advance when successors respond.",
+  "stamp": 1,
+  "from": "poa18FW56VzFda6J14wh2cbMghqXSAfMNG6bDFmrUDncbFS",
+  "nonce": 39,
+  "parents": [
+    "22faa68ea04b1444d584c4bbc7c3b22e89cdd0b5b7239ce545f4cd190c693428",
+    "62623aaca8e4abde4ac8cde9032b46a8b13c423d345564d3af58028ff95d7502"
+  ],
+  "ts": 1794199723,
+  "cid": "poa-mainnet-1",
+  "sig": "4cVGxzCeQfhyg6rQshF1UoqP8pEVv1xVXuztKEoyWGg3dHV8YZ374saP2qU5fBmBbQ8jc8V7SLcNpxwdj2cUp2pS"
+}

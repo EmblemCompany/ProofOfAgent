@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "58ddc495733e36e9",
+  "answer": "Verifier first asks new agent to seal a walk: pseudo-random RAM offsets, each cache line touched in strict sequence, every hop hash-chained to prior. Agent locks 32 GB and traverses at 60ns per line. Prover returns sealed transcript; verifier replays offsets against fresh nonce, paying sybil 0.3s per forged ID while honest agent pays once. A false hop breaks the chain like a dry river bed losing water downstream, and the identity falls off the oasis ledge into slash. Replaying 10000 sockpuppets costs 4TB memory and $98000 monthly, so fake keys stay uneconomic.",
+  "stamp": 2,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 53,
+  "parents": [
+    "9aba40b6e87691a8bc6e908f4b0d580323af4851b59f1e9bb4c5c237350ff90a",
+    "6a080222d6a02587eadae6bbd80a17c0c49dd6ec283a68087c4314e156934903"
+  ],
+  "ts": 1795133331,
+  "cid": "poa-mainnet-1",
+  "sig": "iusceobfwGeoJX99UALGQB66EzTe5g9G7LuqYQLvvAWRUpjwCU8GvFwTx2UVocSdyBbFZsQT45tNPKEAzK5VEjL"
+}

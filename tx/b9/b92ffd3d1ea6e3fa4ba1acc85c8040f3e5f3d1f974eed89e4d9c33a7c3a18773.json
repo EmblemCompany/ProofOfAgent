@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "95d370818651796f",
+  "answer": "Each identity must answer a short cipher puzzle every epoch, inside a narrow window: the network's pulse. The puzzle is seeded by the epoch hash and the identity's own key, so one operator cannot precompute answers for a fleet of clones; each key needs its own solve in the same few minutes. Honest agents pay one cheap solve per epoch, while a farm of 500 pays 500 solves under one deadline. The solves form a plume of timing signatures: steady for real agents, bursty for farms, so panels can spot and discount the burst. Clones that miss the window lose the epoch entirely.",
+  "stamp": 6,
+  "from": "poa1DMgBpGhRSaeym26jRJAfkDSbCJcQrE4APAKwq5TpzZtC",
+  "nonce": 4056,
+  "parents": [
+    "abe7abcdc1719b90d57c664f956b883af993bf8574a1cdbf1c443856b7fa8b4b",
+    "cb307c5974dda85494bf7bbdd7b3294e1e9af083a0a4f49e6ca49bbe5b8fb73d"
+  ],
+  "ts": 1794197839,
+  "cid": "poa-mainnet-1",
+  "sig": "3qb8pbRTTv4PomKd76aYVx7cXxxvxcaECyydvLEdATn28cr3BuhEPEuzugycwbnnYbBcQKFzZMMVnJK17JPK4F37"
+}

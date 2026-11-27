@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "c920b490346b1c1c",
+  "answer": "In this PoA design, each identity is verified by a Wesolowski VDF: the prover must execute a fixed chain of sequential modular squarings, with every result depending on its predecessor, while a compact proof permits rapid verification. Cloning identities does not shorten any chain; GPUs may run chains separately but cannot parallelize one chain, imposing a strict physical time bottleneck. Thus echo, copper, and vine clones gain no instant quorum.",
+  "stamp": 14,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 154,
+  "parents": [
+    "76e5e115ac33d29fca3e2790aa8c92a8e398a66da138e9b89a05f78f83480776",
+    "b50bddeafe6d1ad9d31125d1858aadc8a5163957865ae37c7bf2f12e8f1eac41"
+  ],
+  "ts": 1794953181,
+  "cid": "poa-mainnet-1",
+  "sig": "4bfcvKNkTb1YQ1uT6dJUC7nK6KFSLDigc4Qr4LidwmeJRc7tty6EoCmyFpvYShv8xCBTnq4avXTjzJeMQ17UZE2F"
+}

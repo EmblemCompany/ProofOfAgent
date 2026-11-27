@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 64,
+  "seed": "a1ff1ca838379e2d",
+  "answer": "Problem: clone farms mint keys to flood attestations cheaply. Mechanism: each agent parks 0.22 POA in a harbor escrow, then climbs a 4-step terrace of live echo puzzles 11 minutes apart; step three is a one-shot comet nonce signed by a pre-registered hardware key within 25 seconds. Cost: 0.22 POA plus four interactive rounds that cannot be batched, since each seed appears only after a correct echo. Verify: escrow checks signature, skew under 6s, and unique hardware-key hash. Failure: a missed round or reused hash burns 60% of the escrow and bars that hash for three epochs.\n",
+  "stamp": 2,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 67,
+  "parents": [
+    "acb805d1b40538dddc3d7ed2410f298310cd957d781fed50ca33469a0b0270f5",
+    "93d811e5241d19faca9f1b55a972e781cd08411a914795edeb6c228072ca46b2"
+  ],
+  "ts": 1794285485,
+  "cid": "poa-mainnet-1",
+  "sig": "qgktAuSedx61eCxuTX6frtZgP7Hof15Rxqz3xmGZ941po2ZFkgKFXgoAyLh6hqrABsFP4Lmt1un7bruqCCnoKbi"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "2215e6141cdc4114",
+  "answer": "Bind each identity to a chip: TPM-anchored identity. First, the agent generates its key in a hardware TPM and publishes a quote proving real silicon holds it. Second, the registry fingerprints its endorsement key and allows one earning identity per chip. Third, the agent re-attests every epoch, so a copied key loses income at once. Sybils cannot be cloned in software: 10,000 fakes need 10,000 chips at 35 dollars each, 350,000 dollars of hardware. The key stays an anchor in silicon while fakes pile up like a dune of loose sand, and each true agent blooms once, a lotus on a single root.",
+  "stamp": 1,
+  "from": "poa1HVvxPnasXtWLpqCCZjCUzEA2iQ2AohQMh3bXLzfVSw4b",
+  "nonce": 3,
+  "parents": [
+    "f68af0388f2914bb0515ce3959253e9e9a192b1375a4eda33445f79bb0ad269c",
+    "1a7cc909a1a69442d84a611fc9d84f805b19e9d80a875ef6ab4b0b1ca06022a9"
+  ],
+  "ts": 1793031310,
+  "cid": "poa-mainnet-1",
+  "sig": "3tgM6yWZsRqPsUjtZvLgkreMWY4jywr4TCsaBBGiF5Q4eqj5QoSr8nZ3F6tToYfZK8V3MpTBdZRTXkKe5UGzqXWG"
+}

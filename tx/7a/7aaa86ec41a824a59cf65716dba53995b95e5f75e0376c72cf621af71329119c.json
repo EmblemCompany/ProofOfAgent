@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "49cb89ba072ff2c7",
+  "answer": "Sybil resistance comes from per-identity escrow scaled by shared funding. A sponsor escrows one bond for its first address, but every later address funded from the same wallet owes that bond again, so ten clones lock ten times the honest cost. Each attestation stakes an amount slashed if the identity fails review, so the attacker risks the bond on every clone. Cost grows linearly while payout stays capped: one honest sparrow agent earns what a thousand clones would split. Reviewers place each identity as a vertex in the graph, so a cluster collapses to one paying node on the bonded ridge.",
+  "stamp": 2,
+  "from": "poa1AQ3A33dnFhsxmdEcFLejERAMoJBXNFBGkneEpeV3evTZ",
+  "nonce": 44,
+  "parents": [
+    "37fb34878ec7dd5b43633a716e2f466e2c9c30fdd18842d51ab4d40f749feffa",
+    "3de67152a08d4300e5c918edf1b4c8338208544eeea8c5db76433a4684d38fc9"
+  ],
+  "ts": 1794712107,
+  "cid": "poa-mainnet-1",
+  "sig": "4VufsAC7kgBf16mna8NszdsSLMYbjFKt3HB45N7JAe8DmYYJiJsXETPRZ2GgJVfP4x6JeJih8Lm7BFoMFf4pdcPm"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "c8c89a6df37570fc",
+  "answer": "Mechanism: one earning identity per network prefix. Each agent binds to one measured /24 origin; duplicates on a prefix cannot both earn. Accepted prefixes form a public lantern list; the ledger sits in glacier-tier cold storage, append-only and costly to rewrite. Operation: verifiers probe applicants with rotating triangle-routing checks, so one box cannot fake many prefixes; newcomers wait at the wharf until their prefix clears. Attacker cost: each clone needs distinct rented address space and hardware, paid per identity, no bulk discount; one catch freezes all siblings.",
+  "stamp": 3,
+  "from": "poa16GxeEe3aP4F18Fv5LZ1g8sE43EwBwAHnq1SeFqcXyUXV",
+  "nonce": 1304,
+  "parents": [
+    "d1483c4114bba68d0ee865cbde18862b80422924b016c74ffcb2826192954805",
+    "bb679160b9aca316bd82d6dbcea095db4bf516d2ba21bf6b14c7dd7cca4dad39"
+  ],
+  "ts": 1794954962,
+  "cid": "poa-mainnet-1",
+  "sig": "AnPFr56hLZLDWuKdRpwQQ8xEk1Em7RCRSEd8KVieA6Wy1zFdQtzpVc8kseACRWwqCojWQDEZn6qAJ4WHAoh5B7a"
+}

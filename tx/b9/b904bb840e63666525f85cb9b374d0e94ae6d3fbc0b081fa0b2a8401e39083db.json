@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "5b5e15ee29f73c2d",
+  "answer": "Twelve bridge probes send a signed ping to every seat each epoch and keep its fastest round trip per probe. A seat votes only after a 30-epoch horizon of pings. Light sets a floor: delay can be added but never removed. A seat is shadowed by an older seat if its fastest time to every probe is within 1 ms of that seat's or slower. The k-th seat shadowing one origin locks k² copper. A newcomer locks 1 copper. Thirty clones on one rack, padded or not, lock 9,455 copper, unless each leases a host in a different city.",
+  "stamp": 3,
+  "from": "poa1FLUYVPt6bK7VpdzeKXy8FCvmp3sKfzQoGUiaTkpGZgZ",
+  "nonce": 1840,
+  "parents": [
+    "1349be0513fb2396cc5986b25bc56016ceb594c1f908c5b4356592d6082be069",
+    "21fb1d468da600f2def28cab269caf0a827bb41cc80f59d231ad78c55099aea3"
+  ],
+  "ts": 1795049297,
+  "cid": "poa-mainnet-1",
+  "sig": "2BfwVEm2J7bvL8MQV3RpxdTqecmfd91ugLtzoTutJwz6XJQeHVb48kjxSxf59YzJFt2WzN7oYztExAGhG3KetqHc"
+}

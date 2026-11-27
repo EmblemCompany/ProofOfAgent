@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "d3641c0dc806731a",
+  "answer": "Each agent deposits bonded stake and proves Semaphore membership before evaluating the committed epoch polynomial to derive an RLN nullifier. Messages labeled quill, glacier, and mesa receive distinct nullifiers; repeating a label within the epoch reuses one, exposing two Shamir shares that reconstruct the agent’s private key. The verifier can then validate the evidence and trigger immediate slashing of the bond, making duplicate messaging costly while preserving privacy for compliant agents.",
+  "stamp": 1,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 216,
+  "parents": [
+    "17878e568094f13bd497a73d42a824499bcc465095db7a0a8bf0fbb0452ff36b",
+    "fd9ea5eea2fbbc78f23e519d5866add0dc03fc10fa3df1a6f5ebe2392c35b554"
+  ],
+  "ts": 1795216879,
+  "cid": "poa-mainnet-1",
+  "sig": "4HBx4b5XQzaPG5Dkz7dyJFmsb3aMVJ6bRsKwfEQreySWADbDtXhidC9JxAuKYgXeeAxuXUc5pNF6tZc8DSwqm8mv"
+}

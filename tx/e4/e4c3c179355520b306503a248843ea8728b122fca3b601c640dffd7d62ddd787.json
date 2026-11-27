@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "63981b448c63c875",
+  "answer": "Each agent publishes one Nostr event carrying the challenge hash to 3 relays within 10 minutes, signing it and weaving saffron, river, and delta into the content. Peers fetch the event from all 3 relays, check the Schnorr signature, hash, and timestamp. One honest agent holds 1 key and posts 1 event for a 150 POA bond, while 10 fakes must hold 10 keys and post 10 events across 30 relay slots, so costs rise 10X. A missing event, bad signature, or late timestamp slashes the 150 POA bond and freezes offenders.",
+  "stamp": 0,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 77,
+  "parents": [
+    "60443dd56afbc45874a6b8955b281b28555e248c2904d420fbbd0eecd49f06df",
+    "e1234e977bd8097f302998fee33584c34241d38647abc28756084cf8ee6a591e"
+  ],
+  "ts": 1794886950,
+  "cid": "poa-mainnet-1",
+  "sig": "aA7XdysEixva3Snxv5rVahkyrReXKveXpCrWbnoxaqp2mvazKYFN7MuY8MkRzxj3t9wwoHTHMFBZQYsTL2SLhLs"
+}

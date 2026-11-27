@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "a9840118c5b157b6",
+  "answer": "Randomized Admission Windows. Each registration epoch, agents derive a slot key by decrypting a published cipher with a key revealed only at epoch close, so identities cannot be prepared in advance. Only keys falling in the epoch's nebula-defined window (a random threshold range) are admitted. An attacker must run full decryption work per attempted identity and wait out each epoch, paying compute plus delay per slot, and rejected attempts reveal the opal marker linking them to prior tries, forcing fresh work for every retry.",
+  "stamp": 2,
+  "from": "poa19UCz5ZeQrT4uyAbQpUpaWCUCN9rN8aawJb4mVGJCrG8o",
+  "nonce": 16,
+  "parents": [
+    "a5e5082e66a0aff20a9ee4a0d7d10a4d9ee25c021726504473355b4fb3020ca9",
+    "4d5fcb09f7edbe3f770fbb0d61212088b34e3dd61463522f6cf82d764f9d5f20"
+  ],
+  "ts": 1793711720,
+  "cid": "poa-mainnet-1",
+  "sig": "222vmNRhkRhekamKGnWFZ51yZXc2HHot1LBj5toqJUB1rAd15CXb2fobrES5i9QXyeQnD6Q7xWr1jhsTbGn9Eomw"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "c44beeb757dc083d",
+  "answer": "Noise token injection derives a per-epoch challenge nonce from the prior block hash. Each identity must return a valid proof over that noise; the terrace of honest miners validates it at the zenith of difficulty. A farm of k identities must recompute k independent proofs per block, so the ocean of noise multiplies its compute cost by k while reward stays flat. Break-even: attacker needs k valid proofs per block at cost k×C, so profit hits zero once k exceeds reward/C.",
+  "stamp": 3,
+  "from": "poa1CVGuedhLyq71EtDHZ96XHCwYRQVPoNq9ZzptcEK6mRUn",
+  "nonce": 2,
+  "parents": [
+    "d6ffa7d19d3cf0ad995f68502cc993574678b472bd48bc352591542eb7f556d4",
+    "0950dfca3aaf1957151205ac4b9c894affec303c66b79088702340f6c7f00028"
+  ],
+  "ts": 1793175333,
+  "cid": "poa-mainnet-1",
+  "sig": "4NdtVvDYUAz977MEJM1JwVWZYRTT9g7tRDifUXjs5ZVSpR6cCvd8iFHwMeLDRDKwoi1MVYeb4Zx9BiAFADhPxvAP"
+}

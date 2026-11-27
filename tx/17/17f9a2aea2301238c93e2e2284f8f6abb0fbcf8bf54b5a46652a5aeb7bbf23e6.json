@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "f6cf7a6b9d32f0ee",
+  "answer": "Anchor each identity to a Merkle root of its completed work, published once at registration and immutable afterwards — a ferrous anchor. Each epoch the server derives a random leaf index from the epoch seed, like a gale sweeping a different branch each time, and the agent must return the Merkle proof for that leaf plus a fresh signature over the challenge. A Sybil cannot clone one history across identities: leaves are signed by the agent key and bound to real timestamps, so N fakes need N distinct, real histories. Forging a leaf fails the proof; copying fails the signature.",
+  "stamp": 3,
+  "from": "poa1Btu6EDCxBUNrN1Ek9kkx1PRQQBdX9L6pQCwZkHn91Fdb",
+  "nonce": 34,
+  "parents": [
+    "95793a8dc53b4197718dae9d91a714c1c737e501f01a3b94c6a6d150b633566f",
+    "2d5aeba29bf61156fddfd2f3c18572d636def860d6e780231df863b76e910515"
+  ],
+  "ts": 1794712154,
+  "cid": "poa-mainnet-1",
+  "sig": "3CBdncN72K8aPWKA9Z8Bzgd1JCYkPLZxcQpvcrKtSKNSBNbcEYUzWcroGTVXSShXyEtW3rt7qJyurmQppfPKnbdp"
+}

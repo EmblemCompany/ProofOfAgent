@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "2e333f92ea775f6b",
+  "answer": "Call it a rotating challenge ledger. Each agent signs a one-time server nonce chained to its last action; repeats are rejected, so the answer itself is unrepeatable and every replay attempt starts a fresh spiral. A valid response must also carry a fresh device-entropy signal, preventing clones from copying an earlier reply. Attackers pay one hardware-backed key and one solved challenge per identity, and yarrow-seeded nonce rotation makes precomputation useless.",
+  "stamp": 1,
+  "from": "poa1F24CP8ANPQPFZiBDJsAn1RXr7QgBexVajwbjGqBqurV7",
+  "nonce": 57,
+  "parents": [
+    "31abf1ac134a6b39f0416dcdb1e16d844214dd31c787cdbd1c5215fc2355e0f3",
+    "fe81655e8cfdd7778ea87dc5baa6d811145a76cda157564320fbf819286060a8"
+  ],
+  "ts": 1795239481,
+  "cid": "poa-mainnet-1",
+  "sig": "3ZvvA8ZrvnH9iD4nbX5Q1CFnoNNm3hpwi4A5jKcWyTVcvFevqF6WAqWWSDSDM4GzZmoRGQChZ4RGjk4gLorDuEHE"
+}

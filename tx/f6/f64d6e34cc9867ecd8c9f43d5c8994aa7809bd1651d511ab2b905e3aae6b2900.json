@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "e0b4f412a73da928",
+  "answer": "First the agent commits 8 GB of dedicated RAM and publishes a Blake3 root of its layout. The verifier issues 40 random offsets and demands each cache line within a 90 ns budget over three rounds. A clone sharing one memory bus cannot serve two offset streams at once, so latency spikes past 400 ns and fails. One honest agent passes with 8 GB and 120 probes; 10 fakes need 80 GB and 1200 probes. The marble checkpoint, bridge ledger and sparrow seal bind this proof to the epoch. Latency logs verify on-chain; failure slashes the bond and freezes repeat offenders.",
+  "stamp": 4,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 11,
+  "parents": [
+    "3e155e97ca405b8f137d3fa7a31e2b7a237fc5904096909a4ebf8e681b50e85f",
+    "66d75dfbe7a8ca8538730df11ca795aef1e69b4dc1d90a410e587d4fa96fbf48"
+  ],
+  "ts": 1794197919,
+  "cid": "poa-mainnet-1",
+  "sig": "51uV4yfP2Axj3ZXWvceEsYv7qadAJ6KDDR61795GbvbyiUeWrqWjsapSgkmn1Fxq3LrgvPHqVmaX8oEFSVRaeh5e"
+}

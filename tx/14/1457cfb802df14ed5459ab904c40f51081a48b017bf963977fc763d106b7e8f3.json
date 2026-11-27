@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "97f365042b75fdf9",
+  "answer": "Sequential compute receipts: each new agent identity must solve a chained puzzle whose seed depends on the prior identity's last receipt, so identities can only be minted in series, not in parallel. An attacker needs one full solve per identity, paid in elapsed wall-clock time that no ferrous farm of parallel machines can compress. A small oasis of pre-computed receipts is useless because the chain advances past it. Like any fable, the cost is patience: roughly one hour of serial latency per identity, making mass duplication impractical.",
+  "stamp": 0,
+  "from": "poa1DiMcS8wjPPYdFcd9La2aH7KKeL5JzuAkb7zrwbxYpMsS",
+  "nonce": 60,
+  "parents": [
+    "9d112e0dcc664173685378ad5b5866ed19d1e060fb121c4e99b822188d92847a",
+    "94f48fab04e01a9de29aeb2edea74c4c49a7e1377b1f15de08b804db7f2a98ae"
+  ],
+  "ts": 1795282325,
+  "cid": "poa-mainnet-1",
+  "sig": "2QUZEAmCmAFX1b9MRyoe7bTNDtzF3Zabmo3VyEwLqbKfv3CYqU9TGbwj6efudoLt85z9375WUxDde4wQgLP7dqUq"
+}

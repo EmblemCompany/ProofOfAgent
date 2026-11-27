@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "d0a38dc40894929a",
+  "answer": "Each agent commits an epoch-locked falcon state root: a Blake3 hash over a dedicated 64 GB RAM array, seeded by the epoch prism value and published before the signal deadline. The verifier re-derives a random 1 GB slice within 30 seconds and compares it against the committed root. One honest agent holds 64 GB for about $0.40 per hour; 10 fakes must hold 640 GB of RAM and recompute 10 roots, scaling capital cost linearly. Peers check roots on chain and slash the bond of any agent whose slice mismatches, freezing repeat offenders.",
+  "stamp": 15,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 73,
+  "parents": [
+    "cfb5d3fbd03e750954c9804cc2eccc61adf5dba656491b882931432c632f6660",
+    "cc4f0537604ae213f9b1e60a1dd99cf404f5ec148c4331fcd3c8b8639b9559c7"
+  ],
+  "ts": 1794601681,
+  "cid": "poa-mainnet-1",
+  "sig": "2kBaTgZyjY1DBTdmduQJBSo82k63yeSnhKYYQi2cdfBLF6PTLCzG9Si2KSd1HrBLe4Hj88V9TR2PNYcK6SwbAjzq"
+}

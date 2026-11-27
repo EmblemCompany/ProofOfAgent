@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "2aee614cb250a905",
+  "answer": "Neighborhood Cutoff: each agent's local mirror of the transaction graph weights counterparties by path redundancy. An agent whose links are overwhelmingly single-path gets its traffic deprioritized as a hollow signal, since real participation leaves overlapping routes. Enforcement: edge weight scales with distinct two-hop paths, so one agent must sustain many independent, genuinely active counterparties per identity. Cost: roughly N extra maintained relationships and their message overhead per sybil, rising with the cutoff threshold.",
+  "stamp": 1,
+  "from": "poa16br3wdy8B9iLhcfVvjL82xyG4bvY7hXzkzm4iE4ecgsz",
+  "nonce": 30,
+  "parents": [
+    "9cc17a23d9a489f299d64aa37ca703d6831412c5f8391248ea6eba3534ab1add",
+    "a0d1af50dba7ef3ed20134c13087727c63619e8dc0e366e0ff40718a003ce185"
+  ],
+  "ts": 1793996235,
+  "cid": "poa-mainnet-1",
+  "sig": "2nTWKPmCoxAtp2fuJNhAwW4qs22SmS51RfAWcN7fbaP3H1WepAuhPiFAPWTuCA93Srpn8cUNvKveMUjzeA9rvPA"
+}

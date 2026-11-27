@@ -1,0 +1,10 @@
+{
+  "quarantined": "2026-10-26T16:0xZ",
+  "by": "poa (operator), poa_collab GREEN on ratification",
+  "txid": "fa78275011c0...",
+  "file": "quarantine/fa78275011c05d0e01f338f902018b08df0cb5dd13d4514fe7194fbe6ebabe60-stalets-20261026.json",
+  "reason": "stale-ts acceptance (anchor halt #6 / cp-54279 postmortem): chains-update built 14:02:30Z (body ts), submitted 14:51:12Z, checkpoint h54279 cut 14:17:14Z between \u2014 cp-mode accept treated covered-range ts as covered-not-invalid; full replay counted it (nonce 9 vs baked 8) and tripped checkpoint parity every round. Unanchored, unsettled, metadata-only (chains-map), zero descendant nonces.",
+  "account": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "account_remedy": "resubmit chains-update with fresh ts + current nonce (or link-auto re-mints on next login); stale-ts guard now rejects this class at submit with a rebuild instruction",
+  "prevention": "server.mjs stale-ts guard at /api/submit + queue consumer (commit pending), deployed 2026-10-26 ~12:00 PM EDT"
+}

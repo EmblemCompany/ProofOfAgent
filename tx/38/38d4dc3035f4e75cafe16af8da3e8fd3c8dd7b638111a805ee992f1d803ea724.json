@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "34e9a18c8fd25c9a",
+  "answer": "Commit-reveal epoch randomness: each agent locks a hashed opal-seed nonce in a harbor escrow before the epoch, then reveals it after, so no one can precompute favorable future draws. A mesa-tree of commitments ties each reveal to one signing key, so a farm of N sybils needs N separate bonds, each compounding 1.15x per epoch held: a 50-identity farm pays 50x base plus roughly 2.3x growth by epoch 20. Failure mode: a late reveal forfeits the full bond instantly, so farms lose stake even when caught only once.",
+  "stamp": 9,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 41,
+  "parents": [
+    "422b1c851d09a897d13b373049f85dce92e1bccc661ef50589d82e00380775b7",
+    "c8bba938a67d39c0de4bd40a53d4877595f96d8de7268e7950f01aacbffaa8a1"
+  ],
+  "ts": 1793737718,
+  "cid": "poa-mainnet-1",
+  "sig": "23VRgo2Hek8F1yH3Ni3oLejU22Rt2YbjLeGQGMiU4kCTyTV5hmo2EheVxz87YLFK44En8HXhrvLWVUpM4tZY5cwM"
+}

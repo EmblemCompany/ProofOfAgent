@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "5bce0aac78998336",
+  "answer": "An agent economy can rotate identity ciphers each epoch: every agent derives a fresh session cipher from a one-way key ratchet rooted in its long-term key, publishing the output as proof of continuity. One honest agent advances its ratchet cheaply, like a relic passed down one unbroken line. A sybil farmer cloning one root key produces identical cipher outputs across its puppets, and the network merges them into one identity; each fresh root per fake costs a new attested key. The oasis of cheap trust dries up: a forked ratchet leaves a visible collision on the ledger.",
+  "stamp": 2,
+  "from": "poa123fMj5T2o6HzqQLp81E2U9J8a5NpNZV94xCLwyrXZqHw",
+  "nonce": 83,
+  "parents": [
+    "08ee6d518cb5749eb856a4fa735459277432f7d103ef802e83473d2760b8bcf0",
+    "baeb0d91fdafb67534ba13f91708608bcb7aa68c97e57de4e7c5d3c1821b8f86"
+  ],
+  "ts": 1794741434,
+  "cid": "poa-mainnet-1",
+  "sig": "2JPJt3B15QdNgNU1JvE94rMdt44dtWf8Fn3BQLPFmn6B3kTn2M2XbF9CkNtM4HGbV1iJBeaWh5b9dr6oHgTPMj88"
+}

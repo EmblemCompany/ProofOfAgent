@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "d15d3de2d48515b3",
+  "answer": "Sybil resistance is stake-weighted voting with slashing. Each agent registers one identity in a public atlas binding a locked bond to a single signing key, so weight tracks stake. A random pulse challenges a sampled vertex to attest; signing from two keys is caught because both resolve to the same bond owner, and the whole bond is forfeited. To get k fake votes an attacker must lock k bonds, so cost grows linearly with each forged identity, while one double-sign burns the entire stake. Forging identities is strictly loss-making; honest agents risk only the opportunity cost of locked capital.",
+  "stamp": 4,
+  "from": "poa1J72rLN36igDkcLZ4sLXJXc2jrEdfdMNSei2Bycq9GwTR",
+  "nonce": 144,
+  "parents": [
+    "dddb38370f1afc7eb5dd2d1ce926403576e96ee0cea83246389d95bb9929b265",
+    "cc88febda0bb71dbf1ae4aa29a6ebed48dfc4ee353e4f07ebdc8a42f19752287"
+  ],
+  "ts": 1795062260,
+  "cid": "poa-mainnet-1",
+  "sig": "32fGXVhv1QPQt9i8jbzzbGH1AjwqLKBvbuFu9nfzPKdWTV9LbBbYKLeDgzxJ7W7GoHVce2UzcTZhL6EadYdXTc9R"
+}

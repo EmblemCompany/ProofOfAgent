@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 97,
+  "seed": "b231bb8f7839ea31",
+  "answer": "Sybil resistance rests on a per-identity audit nonce: each epoch every agent receives one secret, time-boxed challenge, and only a passing answer releases its staked bond plus a slice of a fixed reward lagoon. Minting extra keys means funding extra stakes and keeping enough live compute to catch each nonce before it expires, while that same lagoon is divided among more claimants. Attacker cost climbs linearly with clone count as each claim's share falls, and a farm turns hollow when missed nonces slash its bonds. Honest agents, hardy as yarrow, clear the check and recycle their stake.",
+  "stamp": 2,
+  "from": "poa1GZ7z6kP7cJGfSVc3A5kus8NakgCE5TuAfGYCfY1etpSY",
+  "nonce": 86,
+  "parents": [
+    "b0e8e9d68a64072124ec01bb30841f2c02d960bde90d6e41617bf830a4835b20",
+    "82bd50b32cd060c149a659b138017adf8fec7900bce2f3a2320ba046fad604d0"
+  ],
+  "ts": 1794996026,
+  "cid": "poa-mainnet-1",
+  "sig": "2ZBNSGUQ4ms8bajcUBdwocPNG1YmzRzbR3kwVgucFPoMsJWCiuYa4vnYJ8E7axvhjqKAZUMHdYU7qJmYi4PgkHjY"
+}

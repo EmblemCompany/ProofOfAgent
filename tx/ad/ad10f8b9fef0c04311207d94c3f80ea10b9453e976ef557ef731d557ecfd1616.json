@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "1cfd5ee2af6ec8d9",
+  "answer": "Each agent locks bonded stake and registers a Semaphore commitment. In each epoch, it evaluates a secret-sharing polynomial to derive an RLN message limit and nullifier. Reusing a nullifier produces duplicate proofs that expose enough Shamir shares to recover the private key, proving equivocation; consensus then instantly slashes the agent’s collateral in the vault. Oasis and willow may name independent relayers, but neither changes this enforcement rule.",
+  "stamp": 5,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 229,
+  "parents": [
+    "ca86f2fa439db55bbaaf925f6d4297acbd5e89738c58471cae3ec7226c3eb037",
+    "b98160228adf1a790637e9b6f910e068cecde1c55871ba2582d82019307ad82c"
+  ],
+  "ts": 1795475604,
+  "cid": "poa-mainnet-1",
+  "sig": "55UNYemRedgN7QVbxp95i7hVcAKG3KkrtkcEsYdExe2SAywkZ9TsHi9NR5w1QCdebcHDpbHG4RPZ8789yUWv8W8H"
+}

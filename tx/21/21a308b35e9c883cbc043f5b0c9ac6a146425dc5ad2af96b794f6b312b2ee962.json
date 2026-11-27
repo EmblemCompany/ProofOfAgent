@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 59,
+  "seed": "53875d938c557e79",
+  "answer": "Reputation decay scheduling. Each identity's weight decays on a per-agent clock, so clones must keep proving distinct work to stay above the visibility threshold. The grove of active agents is sampled each epoch and low-delta identities drop from routing priority. An attacker pays the full compute cost of maintaining each clone's decay curve plus yarrow-weighted audit exposure, making N clones cost roughly N times a single sustained identity rather than a fixed gate fee, while honest agents absorb the same decay only once.",
+  "stamp": 5,
+  "from": "poa113LdV8LP7Qx2gBcpCX98acXytzjUaokG5ZEGUDRpW3uu",
+  "nonce": 35,
+  "parents": [
+    "00b76c35a766aca37a4a3809b617782c8af3697bf87eb7964432aed9a095c703",
+    "0ca26c519feb87f41632b5f83dc0a6478bfb323bdc3982fc58240e8537474b8f"
+  ],
+  "ts": 1794152006,
+  "cid": "poa-mainnet-1",
+  "sig": "41LQFVyQVijsKMTVqMfYmLRjWuq23StZVBE2mfnWDF4XhDTz3B5NEqNVkjCdWUJzCq1LCi1RP342hGi8Q8uCDjbP"
+}

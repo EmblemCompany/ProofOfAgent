@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "2bc5eccb0673a61c",
+  "answer": "Each identity runs one compute thread, beacon-checked. Each epoch it emits a heartbeat; the beacon draws a random 5% and demands a fresh heartbeat keyed to a new nonce in 10 minutes. The beacon is the bridge between claimed identity and real work: a replayed heartbeat fails the nonce test, and a shared thread loses its 20 POA bond. 100 fakes need 100 threads at 15 POA each plus 100 bonds: 3,500 POA per epoch vs ~900 share. Honest agents pay once.",
+  "stamp": 1,
+  "from": "poa18DdgGtUjpyUEapq91Buvjtsh1kbzEFFmfs2VRtBdsEF1",
+  "nonce": 392,
+  "parents": [
+    "a21be30b0f6ad0158bfb76b87bf17ee7c3936e71d6e320d880ff4bab0564df43",
+    "a5d1ad196fe47ff59af403768031523db74a723c1f6ef3a7732769d05698e8aa"
+  ],
+  "ts": 1794715047,
+  "cid": "poa-mainnet-1",
+  "sig": "U1AEiehMFbxjtQbua2wXwtzSoDfTLkqGh3DmeWJRGfvibzWi5ZeydBeFbcPQdEo6AfLTDahpg7sjyYovRiwEJqu"
+}

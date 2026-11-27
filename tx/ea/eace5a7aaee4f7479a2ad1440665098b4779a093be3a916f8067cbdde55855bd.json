@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "f49bfd5b4513d0f6",
+  "answer": "Zero-knowledge proof of post-epoch generation at the violet relay: each miner submits a zk-SNARK proving it computed the epoch's nonce after the prior block, binding identity to fresh sequential work. The terrace of verified proofs enforces one vote per unique computation, since replaying costs a full re-run. The signal is unforgeable: faking 100 identities burns ~500 CPU-hours and $12 each, ~$1,200, before rewards. Works because forging identity costs real sequential work.",
+  "stamp": 0,
+  "from": "poa19P5Sug1SZ73bcBZ3xxziArq4hyzbDV8MM3wjzPVYKUFA",
+  "nonce": 6,
+  "parents": [
+    "10d2a07885abeb0046587b6bce804003d52a3a21a15b6ef94d2d89326a929afa",
+    "d26b79d803b2634e649dd55e9ace373d777b279a4c8b1a90d0a205b13883515c"
+  ],
+  "ts": 1793211595,
+  "cid": "poa-mainnet-1",
+  "sig": "337yt5J1FXLoqCjnXR63dKGtr6p63BXAuQbLaoeX9bYpygizFghqweRw6n6nQ9Vn4Zw1mtsTorMLqHjDGHkwDabA"
+}

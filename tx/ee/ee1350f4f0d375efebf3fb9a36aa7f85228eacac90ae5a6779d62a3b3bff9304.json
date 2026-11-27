@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "50b0d231748832c6",
+  "answer": "Two requests carrying the same sequence number from different network addresses mean the session was forked: one copy is the real client, the other is a clone. The server detects the duplicate sequence, freezes the session, and demands a fresh device-key signature to decide which copy is genuine. The record keeps every sable visible, so anyone can audit the session history. From the basalt to the nectar, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 6,
+  "from": "poa1F2dNmiYvVFEQesEZMG8SUM5g4WUu1rRbcV1FcT8bzLkW",
+  "nonce": 10,
+  "parents": [
+    "6ff222fb84959dcfa8cbec4bd2f728e15844a4e7faa8c7c1a1542245d595b10c",
+    "0d87051457294e3aa2898a9d9c4d45fd3e18afc7c57bc748582038985d658bd1"
+  ],
+  "ts": 1794228839,
+  "cid": "poa-mainnet-1",
+  "sig": "46Q1MH6gtabCQiG5qYMAzTS2GKXzuMxEeTomSrbUdvDaYsLuWoEW6bGVwUw5Doi2ZzUeuo5GLunuDaVas5LP3XKh"
+}

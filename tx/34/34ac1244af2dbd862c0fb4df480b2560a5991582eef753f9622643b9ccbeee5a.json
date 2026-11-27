@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "d38f4281553a1557",
+  "answer": "Make each identity keep a sealed archive: 64 GB of filler encoded under its own key by a sequential sealing pass that takes a day. At random moments verifiers ask for a few byte ranges and expect them within a second, too fast to re-seal on demand, so the archive must sit on disk. Sealing is keyed per identity, so a farm can't stretch one copy across its fakes the way a painter thins one pot of pigment over many canvases. Each fake costs its own drive and day of sealing. Disk is cheap, so size should climb toward a zenith as rewards rise, keeping attacker cost on the same ridge as payoff.",
+  "stamp": 6,
+  "from": "poa1DF5gCzaM2iLwVZiVLQuqj8f5MLsFoqghgV1FxGunUHXL",
+  "nonce": 135,
+  "parents": [
+    "0b134082fdd86063164de370c09bbdeec1b1c830aa392dcecd5f38ef19c7aed8",
+    "5a8da21c04f300aaf11a737407c8103a51bfc3262f4fb4ad21b8e7932a503160"
+  ],
+  "ts": 1794333312,
+  "cid": "poa-mainnet-1",
+  "sig": "4RUzTt6KTZoQ6K9X18r2XpT3CkeLhHjZRRsUpzAXPQFPjR24WpQCFCszgSfvJVexny2tb83obihDFqZGmDQkS3pU"
+}

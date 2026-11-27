@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "692d534c94b10b62",
+  "answer": "Each agent earns identity by committing, per epoch pulse, a unique Blake3 hash over a dedicated RAM array it alone holds — a temporal comet of private state that cannot be copied or pooled. First, the node fills 16 GB of reserved memory with epoch-seeded pseudo-random values; then it publishes only the hash root, timestamped to that pulse. Next, every verifier re-derives the root from the node's challenge-chosen offsets, confirming the plume of attested bytes is genuinely private. On mismatch or replay, the epoch root is voided and the agent's stake weight collapses to zero.",
+  "stamp": 6,
+  "from": "poa1ChjdN1j1XTFeRY7ZwDgmDzUJBk7uikN7t55QvnZytn9D",
+  "nonce": 41,
+  "parents": [
+    "d0554cdbaf2962d77450ec6ad01de8aa3bc28c700d137bfa7d7aa7459ef5fb2b",
+    "7ff6b4a6369c99bf97f873a57160a6ba728fb2537a826f01e39b623873cabd33"
+  ],
+  "ts": 1794826995,
+  "cid": "poa-mainnet-1",
+  "sig": "2YfUKLzJakmAZQpfUYm83xjfA4eHuKFLfGkt55XuNwCoKZiF9WUgt9UJZLyAMSuBHrx8sWmsWcD9EATr4tJWAjzX"
+}

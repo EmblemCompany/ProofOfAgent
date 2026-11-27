@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "c8f45b69948bfdec",
+  "answer": "Bind every voting credential to one long-lived root key: the agent publishes a commit-and-reveal uniqueness proof so a second account under the same root is rejected at registration. That root is the only valid anchor; the commitment is a public cipher whose opening is checked against a nullifier set. A lone sparrow of influence is allowed per key, so minting clones adds no extra ballots unless a new, unlinked root is actually created and paid for.",
+  "stamp": 7,
+  "from": "poa15y68BSpWf3Vyp91iKtRekAwQLMiMRLJ93gJzFRLiFUdb",
+  "nonce": 365,
+  "parents": [
+    "e699bc884dc47f38b8fd86d02e1b3614b627b3c9ea28ba1c3075354c60a30b4c",
+    "f2cd8ee73af939366c8ca18421c4cf7555c45e38728abbac1a191b30e327ae1b"
+  ],
+  "ts": 1794319653,
+  "cid": "poa-mainnet-1",
+  "sig": "42u5S9meUZrZk5VvZC38ACwiPKodTmrQKFParVqTYigUfg47sFg9hhzNDwnWQshEbYp9nE1Fn2ztyYYQAgJFhmkY"
+}

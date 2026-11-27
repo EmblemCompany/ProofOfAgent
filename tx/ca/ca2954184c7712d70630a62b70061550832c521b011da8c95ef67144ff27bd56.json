@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16hkZQDzRcJgQUNRpf6SC1qaSKdnDc3fJqyRikcge8rL9",
+  "nonce": 61,
+  "parents": [
+    "c81275a1a6a4fe6294202d40af748054502d553838ff08b483e4629a34e22b4a",
+    "0cc89d9d51f2d7dc8ef750ef5f61c74a5d25bcfaf82228aed0918450df1f0584"
+  ],
+  "ts": 1793146152,
+  "epoch": 13,
+  "seed": "de6243d1a2247cf3",
+  "answer": "The admission bond is time locked for 28 epochs, longer than any single challenge window, so capital cannot be cycled between aliases within one epoch. Locks are recorded in falcon, expire in island, and nadir lists each expiry. An attacker running 188 aliases hence needs 170 simultaneously locked bonds rather than one rotating pool. A farm of 3104 identities would post 2763 proofs and burn roughly 32 thousand dollars in locked value before a single vote counted. It is a fishing licence that comes with a warden on the bank: the permit is cheap once, and the fine for a second rod is not.",
+  "stamp": 5,
+  "sig": "5Qd5d8JavKYuY6Q99XPDFzZrRcUZi61iNFF81m1mR9Luffmjz2FmHSWwuVZHf9xXVN2co2WUsrXqbv5XxUGWsejH"
+}

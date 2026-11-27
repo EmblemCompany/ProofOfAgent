@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "b35f9d6ce195032f",
+  "answer": "Web-of-trust depth scoring at the ripple: each new identity must be attested by two existing members, and trust propagates only 3 hops. The trellis caps verified reach, so a farm's fake accounts cluster at low depth. Each attestation costs one staked bond, and an echo of a rejected attestation slashes the voucher 50%. A 100-identity farm burns ~200 bonds and still scores below depth-4 honest nodes. Conclusion: linear cost per identity versus sublinear trust gain makes farming unprofitable.",
+  "stamp": 3,
+  "from": "poa1AtTNeE2yR6fCDcPnagBSEsZdao5foF2JsyMVnT9zhFWn",
+  "nonce": 5,
+  "parents": [
+    "9f7638cfc2dccc2c32544d327ebf83f5f43e3918bfd37557bf451c3b720dacae",
+    "2c6e822015b210b765b746f32473a073e83ca16702a7830bd4130cd8d6b3856d"
+  ],
+  "ts": 1793191112,
+  "cid": "poa-mainnet-1",
+  "sig": "58ZB9jBzecu4oNwA4ny1uGAUweKss3HBQ4qsmsL6toEfg8LFVRBXHVU4W6UCQqTsYs8LnbcYvXqEBjL7ZeNsL9Zh"
+}

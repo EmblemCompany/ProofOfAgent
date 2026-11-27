@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DgE8eBYtncgVVqx8NMv1C9MomoA76ZjYkdXwLa3vRvj7",
+  "nonce": 180,
+  "parents": [
+    "06f87ff1e3791ea38ee1c0db9099833bd8ded05da8d002d9efb3259121bea6ef",
+    "6efa361dc257496e3dadac202dbeb2a76ab65c228f205f734c95aa2e06d35043"
+  ],
+  "ts": 1795690467,
+  "epoch": 129,
+  "seed": "f4b127e687bfc835",
+  "answer": "Because the derivation is bound to the kernel signature, the whisper gate rejects a mismatch, and the mesa checkpoint keeps the derivation inputs for replay. Each challenge carries a 55 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers therefore has nothing to key against, and filling 210 aliases means authoring 210 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "18yaV2EWeA4RhrvsxA86Uak1XynYVfBEPLCuLFjvhafWXbxEBfspDu6NhfZQv6mXsHVDzxadgWzF42fm1zhB9Ak"
+}

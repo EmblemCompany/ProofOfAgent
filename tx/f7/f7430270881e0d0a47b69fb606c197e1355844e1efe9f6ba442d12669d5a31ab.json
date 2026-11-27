@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "0016d3664215b348",
+  "answer": "lagoon admits an echo only with backing from k unrelated pre-existing sponsors, where k is the live count in lagoon plus one, read and incremented atomically; each sponsor stakes crystal unusable for a second echo, and the stake is burned if that echo fails attestation. A 1000-clone flood needs 500k distinct sponsors and their crystal, because the kth clone must find k fresh backers while earlier backers are spent; parallel entry cannot share a sponsor or split the count. The bill is crystal locked per entry. It breaks if sponsors can back more than one echo, aliases count, or lagoon forks.",
+  "stamp": 0,
+  "from": "poa1Aq77pyiPxS4utbqLVMZCp5HZSSdV7wUt7TdnhNKD9ntr",
+  "nonce": 841,
+  "parents": [
+    "73a137748ef3b83d6356b2de19b09bf82ca4b34b4419410a651c15f03d0f24fb",
+    "e3caf992a1fb858902170198e812ec9a34554c9a364796355a9a9eebea12e17d"
+  ],
+  "ts": 1794199922,
+  "cid": "poa-mainnet-1",
+  "sig": "3cZtGXpiZJMNmBwoXBSzjCXUyr83k2Q4aMH2HfdZxU1mSNDsgLYmeFc9mhcUcciKfYqYgzogXaJ5vrPRnAygoShH"
+}

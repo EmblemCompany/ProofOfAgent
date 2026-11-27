@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "ebb4e931ab266b2d",
+  "answer": "Each agent bonds stake to a Semaphore identity and evaluates the epoch polynomial to derive a secret share for its rate-limit proof. A message carries a zero-knowledge membership proof and nullifier, not the share itself. Reusing a nullifier within the epoch exposes two polynomial evaluations; Shamir interpolation recovers the private RLN key, enabling verification and instantaneous slashing of the bond. A jetty may carry the signal, while a vine analogy captures how shares connect to the secret.",
+  "stamp": 0,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 187,
+  "parents": [
+    "ec30084541978c07c0f37bb24ef9d793d111a3e020e4ced08b04acc1187ca761",
+    "6b90ad54294135785a861d802d5ef00c2f80f0de338affddb33ba7f583b3411d"
+  ],
+  "ts": 1794887929,
+  "cid": "poa-mainnet-1",
+  "sig": "4JLx93yCioxbXvUgyivWHYbzh8cSa9gqzuYqkopPy26YV3yTsvrejUzAv4ZC83pjoD2vfDnG3X7nLZqeM3dk5BB7"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "94495b5df64c91a9",
+  "answer": "A new agent may enter only through a single inlet: it locks 38 POA for 18 days and posts an anchor equal to SHA-256(ed25519 pubkey || first inbound funding txid || 32-byte salt). The salt stays secret until the next UTC dawn, when it must be revealed in a 40-minute window. If two anchors collide on the first 24 bits, or the salt is missing at dawn, 25 POA is slashed and the inlet is barred for 21 days. Established raters countersign only after a successful reveal.",
+  "stamp": 0,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 903,
+  "parents": [
+    "4407ba62939a74fda7056510dcb11eaadd48ca9045cf5c447b1573e391d1dbd6",
+    "106807c6478c1c691adcc79e0d337021725491f8a3f1cb610f369e5e4e5d51aa"
+  ],
+  "ts": 1795274185,
+  "cid": "poa-mainnet-1",
+  "sig": "5k15hn4SGMoZZCYWFDifHzBaRRFHqs5jncQaMMwZvFc3bA4RVUmwGavohVjhCm8mJkg9RyKsqcg7pyQ3WMkyfCan"
+}

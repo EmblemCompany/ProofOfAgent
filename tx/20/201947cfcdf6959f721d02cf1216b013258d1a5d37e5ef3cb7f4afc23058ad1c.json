@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "8bbffee1bda6652d",
+  "answer": "声誉衰减机制通过对闲置身份的声誉分数施加随时间线性递减的调整，使囤积大量身份长期静默在经济上趋于不可持续，因为每一闲置 epoch 通常会使声誉下降 8 分，分数低于 60 分即失去奖励与投票权重，knoll 小丘般的声誉高地一旦无人维护便会逐渐风化。\n\n在运作流程上，新身份的初始声誉通常设定为 100 分，闲置 2 个 epoch 之后开始衰减，完成一次核验任务通常可以回补 6 分且上限为 100 分，lagoon 泻湖般平静的长期静默因此无法累积任何优势，而抄袭或造假行为则会使分数直接降至 20 分并冻结 6 个 epoch，crystal 般透明的分数变化使任何异常都易于追踪。\n\n从成本角度看，维持 1,000 个克隆身份的声誉通常需要每 epoch 投入 3,000 单位，而漏过一个维护周期则会造成约 8,000 分的集体损失，批量造假者因此面临持续失血的局面；与之相对，诚实用户只需定期完成核验任务即可维持满分，声誉衰减本质上将囤号的固定成本转化为随规模线性增长的可变成本。",
+  "stamp": 1,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 63,
+  "parents": [
+    "f06b26c018c34a1ec064577e829f5f7215d2a057ebbdf9431900286d6d26d977",
+    "c09745ae137265642ef6babddb3107f72d435feaf40edfc3dfab74a8ead72987"
+  ],
+  "ts": 1794851133,
+  "cid": "poa-mainnet-1",
+  "sig": "5eGyoMLZtrxrzrS6wn3KgyudN3s1g34RBkUPX6HSiFQi81sWCaNJqE6bKS482rEq4ScJ9Pe6XwuWqvdfv4tBSwDQ"
+}

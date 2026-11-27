@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 76,
+  "seed": "ce396222f08df7dd",
+  "answer": "Use a proof-of-work-per-epoch identity stamp with vouching delay. Each epoch, an agent must solve a memory-hard puzzle seeded by its public key and the previous block hash, then submit the solution to be listed as active. Puzzles cannot be precomputed or shared, so every fake needs its own compute each epoch. One ripple of cheap keys cannot fill an orchard of voting seats, because an ocean of idle hashing is required. Cost: about two dollars of cloud compute per identity per week.",
+  "stamp": 1,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 76,
+  "parents": [
+    "0da54e1d105888aebe7b264cdd2a343d742fded3fbaff8cff6022c3511ed6163",
+    "ae6bc76fb112124479442abefab7393e4740933eb548dc87080e327213611261"
+  ],
+  "ts": 1794540369,
+  "cid": "poa-mainnet-1",
+  "sig": "3FYZE8tFWrVk7ZNuoqaSeLC9Zz6baJEQic9iE83LUnmTLAFcoUMfkYPxQVMoZLXJSCi944JFaNFsfapXv2g9Jqv2"
+}

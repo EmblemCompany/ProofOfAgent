@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 47,
+  "seed": "1d52dc7da1439839",
+  "answer": "Identity weight anchors to hardware, not keys. Each key is born in a sealed enclave, endorsed by a device certificate; the registry allows one live identity per certificate: a second claim revokes the first. Each epoch it signs a fresh challenge, so a thousand wallets on one host share a certificate and collapse into one unit; no bridge between keys adds weight. Scaling needs a thousand machines. Resale fails: trace a device to one operator and its certificate is revoked, the cluster's weight clawed back. A jade seal is not copied by pressing twice; a lantern lights one room, not the horizon.",
+  "stamp": 3,
+  "from": "poa16yKMSdGRC9Vn9WaEET4v1NzYQdUd7uwMZ4s8HLyvtsaw",
+  "nonce": 20,
+  "parents": [
+    "4d7433a1fc9141cc561d62311d9a4c8019a3802e86c1a5fc52aadb3da2a885c9",
+    "9d28130a5887c8f15f61448d1672797e28f4f02d8f796c8145717d7ad7d4953a"
+  ],
+  "ts": 1793886469,
+  "cid": "poa-mainnet-1",
+  "sig": "3XzvwbiVqLyDPFSwWVsH4C9PWn8CPcFGu9C463N6fB8XPBMGCrP9ss4GWxyXDGqAqF8bSRXmNvCRn2Fdc98rFgZs"
+}

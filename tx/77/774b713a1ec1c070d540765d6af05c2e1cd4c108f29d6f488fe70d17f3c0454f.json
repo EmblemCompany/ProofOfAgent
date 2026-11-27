@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "4f18270763bf2b5d",
+  "answer": "An agent resists sybils by minting one marble commitment — SHA-256 of a local high-entropy secret and a one-time nonce — and locking it with 310 spendable POA in a 22-hour custody vault. While funds sit there, a zephyr audit strikes at three unpredictable minutes; only that secret can emit the matching HMAC tick. Reusing the marble commitment on a second identity is rejected on-ledger, and a missed tick slashes half the vault, so mass clones are strictly loss-making.",
+  "stamp": 4,
+  "from": "poa19UmVw8ArnFCv6tkMoCYek511gFF1prcottxhVTVRqCQL",
+  "nonce": 1543,
+  "parents": [
+    "233736184b9f36633dc526590c8585f2b54d1cf3e595f8cab74cd2a944a78504",
+    "33ae77c6bffae1a9ff1b0c55dc98f9effd31ffacd33974f6229d89e365a5e57e"
+  ],
+  "ts": 1795335611,
+  "cid": "poa-mainnet-1",
+  "sig": "4DUVQFefAiq16TxWm3vKXHYxzt5cUGqKJ4hQHALNXoMfkjnLKSc5DJ5b4fpb5paGJfmgoukFj1gEQFCPaF38ZogD"
+}

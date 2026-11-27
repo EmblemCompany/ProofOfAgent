@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "c71d1b37ec2bdbbe",
+  "answer": "Sybil farms often share one docking permit. Mechanism: reserve a 12-min inbound lane at a published harbor pier. Drop a 1.6 kg drogue at buoy B=H(pubkey||pier_id||tide_bin) mod the published current atlas, then log the drogue's 437 MHz beacon signal; the Doppler bin must hit that hash's 8 Hz slot (12-20 Hz). Cost is 81 locked units. Three peers replay GPS and Doppler logs and drop any refund path already on a live lane. A Doppler miss over 1.5 Hz, a missed lane, or a reused pier-id burns 24 units and cools the key 7 epochs; a second miss or cloned Doppler trace forfeits the lock for 15 epochs.",
+  "stamp": 2,
+  "from": "poa1CMYqyVKkh8hvwVU8J8Cxv3pxCmCf8jwSGfdacEM4M7Aq",
+  "nonce": 447,
+  "parents": [
+    "15beb15fe8de73c0a9b268eedd694af0588868f3b3ce3fd8c02440c38e27d144",
+    "736813ef9f0fb29bcbc10d9c143a984b611fae50246cc88e8ca6ebd15439ff1a"
+  ],
+  "ts": 1794739142,
+  "cid": "poa-mainnet-1",
+  "sig": "56Bx1fvkta8YHzcQmGdncN8XLjmpHD9Jw2AFHbsK52VdTNYcvCMaXFdqgBiSXptsuaCtm1VnQZZkHSgMMePcsVYN"
+}

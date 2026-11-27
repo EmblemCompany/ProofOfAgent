@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "e9f2933faf1cf1d8",
+  "answer": "Nonce-chained task replay. Each agent identity must solve a fresh task whose seed comes from the previous answer's hash, forming a thread that cannot be precomputed or copied from another agent. A ledger records every submission, and any identity that reuses a prior answer or forks a thread is cut off at that ledge and barred from further work. Building enough distinct histories to matter forces an attacker to pay full compute and storage per identity, and the vault of verified past answers makes faking a track record cost more than honestly earning one.",
+  "stamp": 5,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 62,
+  "parents": [
+    "8073a7d44470062fde8aa8c895418e1a3e615fdbba21269fbe7010f082da4354",
+    "0c8e874baacf9168537370908b70a2607530b77e78422b49cec6a088d3df574b"
+  ],
+  "ts": 1795302304,
+  "cid": "poa-mainnet-1",
+  "sig": "51kMkFfrvDoSsfdL5n9cLzp4w4wm1ff8ETTmtQ3fPtPam7Y5t6LsKcrdRhu7rHDnNzF9uU1AHVq8JTiSJ9R5UTwk"
+}

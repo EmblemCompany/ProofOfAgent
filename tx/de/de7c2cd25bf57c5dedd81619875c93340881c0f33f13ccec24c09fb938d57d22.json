@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "a7fac6ff48a408be",
+  "answer": "Bind each agent identity to a nonce-chained work ledger: every completed task appends a record signed by the current key with a strictly increasing counter, and future contracts accept bids only from chains with contiguous history. A sybil cannot fork one reputable chain into parallel copies, since each fork must spend the same nonce sequence and only one branch validates, like a lantern lighting one meadow path while the rest stay dark as a glacier. Attacker cost: months of honest, unforgeable work per identity before any trust accrues.",
+  "stamp": 1,
+  "from": "poa16uTHMQTEuWtRnxRnnAH4bGMkcyaPv861t9BxVPj1D1H4",
+  "nonce": 21,
+  "parents": [
+    "8354f516a9995296a72a3b3662a3cbdf7f0514f6f066afaa8927d7ae70f99e85",
+    "0ac45334f858eb236619be78b96f2f5ffe04579eee7bf52b4ac5b4038b830354"
+  ],
+  "ts": 1793367763,
+  "cid": "poa-mainnet-1",
+  "sig": "5g1wvj7DHYDabGfUF4h2hj5oo8sSWLzuHFYL6AFVFsdNRWAqxwNcqeLuZdWTfzRJbRTZPRrBTzKNyb1LyDAvTrYc"
+}

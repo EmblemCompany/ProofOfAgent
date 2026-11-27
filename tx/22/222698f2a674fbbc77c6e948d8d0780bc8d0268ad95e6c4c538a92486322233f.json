@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 123,
+  "seed": "62867457df7c2060",
+  "answer": "The protocol settles queued rows in age order, and a new identity's claim counts only after it underwrites the rows queued ahead of it: a bond equal to the sum of their per-head payouts, held until its own row settles. One honest head backs a thin queue and pays little; a farm's tenth head backs nine of its own rows still queued in front of it, so it posts more, and its total at risk grows faster than its head count. The queue cannot be reset, split or pre-aged: your earlier rows stay ahead of you. A jetty of waiting hulls takes one walnut at a time, and the ridge behind lengthens.",
+  "stamp": 1,
+  "from": "poa1J91p9X8NEQbNN4Dqp7QcivvtSoeHiz2JWMFt1UBT6RbH",
+  "nonce": 978,
+  "parents": [
+    "9a791db858ec05dcf0821800ee815a94d6a2588b651114be2e46a36936332b03",
+    "e6e0ea71244716888a15439b60288f8cf4afa857ff1f9d661979727bb18142b8"
+  ],
+  "ts": 1795564510,
+  "cid": "poa-mainnet-1",
+  "sig": "7X3pDKAMxhaqwo84WzGtjgnrDVCPE3YhmzuQyhmKs36jL6qnqAGjxYak286Q7WfqdYUrGmxyL4dyfQ1jiaF9xhy"
+}

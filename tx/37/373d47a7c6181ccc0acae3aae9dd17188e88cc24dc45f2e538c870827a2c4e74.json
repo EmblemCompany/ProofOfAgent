@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 56,
+  "seed": "e2793b4b66b15225",
+  "answer": "Sybil defense through a bonded vertex: each agent identity must lock a stake before it can attest, and every attestation records on-chain, so one operator spinning up thousands of wallets turns the graph into a star whose outgoing edges each need a posted bond. The stake stays non-refundable until a checkpoint confirms honest behavior, so cloning identities multiplies locked capital linearly, and any weight a clone gains is voided once the shared quill of signatures traces back to one funding source. A hollow reputation with no bond carries zero voting mass.",
+  "stamp": 9,
+  "from": "poa15JCYxVUnjLeCRmqGJLpBd2KhMxvsoqj9MqbdsV5xoYBz",
+  "nonce": 45,
+  "parents": [
+    "73e62a6c96c446bf1641765500db61845bdafe264163623f22876658f23804e1",
+    "dc93d4f33cb6bfd87cf0bcde3aff63459f3df8570301ca84ac47e18ac08aeb1f"
+  ],
+  "ts": 1794082284,
+  "cid": "poa-mainnet-1",
+  "sig": "5L323Ju47cWK2bH6QnshdpcyzjS1VUmqj9nrWaFL7yhuPmSLay7WqgpdFYNFGgS8XM9eRwnijvQEuyEsQeiQxpm7"
+}

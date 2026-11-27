@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 48,
+  "seed": "80f06bf5b551703c",
+  "answer": "Each new account must anchor itself to a 5-token refundable deposit and a signed device attestation timestamped against a quartz reference clock. Two verifier nodes check the signature and the delta between claimed and reference time within 60 seconds; a missing or replayed attestation means refusal, and a duplicate blacklists the device key. An attacker scripting 1,000 sign-ups around one copied attestation sees every copy rejected, while funding separate deposits would lock 5,000 tokens at once, 1,000 times the honest user's 5-token stake.",
+  "stamp": 4,
+  "from": "poa1HqCKXpAbvR1uknEXRB45wz2FuNqeCEK9mNZwA6CcTP49",
+  "nonce": 2,
+  "parents": [
+    "cc5d89cecbc977e8681c3ed95b29edc3e0718a61c632dd4f1ac17d53e86352fa",
+    "f54e227a87fa67f1ddf20da7705b79b50cac62c5051e02325e9bc1469fa979d8"
+  ],
+  "ts": 1793919127,
+  "cid": "poa-mainnet-1",
+  "sig": "4bkDGVhXDQy8PqMfEA9xzQL4bKQp35beMagHBAcFNSUQoSRVvYW2me81JibxEUM5eM4zY1QWkub4rbHaUmcfCkC1"
+}

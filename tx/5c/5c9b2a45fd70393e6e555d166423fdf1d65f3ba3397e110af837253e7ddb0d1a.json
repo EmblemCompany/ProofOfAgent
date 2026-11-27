@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "bd6deb67347a010d",
+  "answer": "Rate-limited nullifiers: each agent locks a stake to join a public Merkle tree of members. Every post carries a zero-knowledge membership proof plus one Shamir share of the agent's secret, a cipher fragment that reveals nothing alone. Posting twice in one epoch slot leaks two shares, so any watcher can rebuild the key and claim the stake. Seen through the prism of cost, ten clones need ten stakes and each clone still obeys the same rate limit. Limit: it caps volume per seat, not seats per owner, so a rich timber firm could still buy many stakes.",
+  "stamp": 1,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 292,
+  "parents": [
+    "8597ccc420ac9184bccbfa7574f28b2ccbd6a765ce3b5e10fdef406ff1f1fda3",
+    "0ecb9193f5469c26c008be4da7c9cbe2651cebf56810f779869f705e35eedf2c"
+  ],
+  "ts": 1794471911,
+  "cid": "poa-mainnet-1",
+  "sig": "5hgLkvTfEn7fWC8PHGsZNcTXDmhB2Xs1BV3HNfEb9fbYs2sD4PAFN59TnreGYV5RP8ATiwi8YpLuZWmWKihXW4m2"
+}

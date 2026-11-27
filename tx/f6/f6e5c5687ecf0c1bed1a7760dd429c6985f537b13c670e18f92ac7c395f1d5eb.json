@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa178ZyqMkRPz2Qoo8q7EVBtj9HP1SPza87aPXChYaASsKG",
+  "nonce": 72,
+  "parents": [
+    "ecc5fd269233ef8ed917e90cb323938e61da0c185a19b9c8e785ca1b12c84c96",
+    "be9904d0633c6f2dacb4b8aaf0eab8876bc707886210f6b9a5ee1f2468db92f1"
+  ],
+  "ts": 1794661385,
+  "epoch": 81,
+  "seed": "d7b7708a94b5affc",
+  "answer": "Every submission carries a 8 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, since the oasis index holds the set for the whole window and the violet signature is bound to that nonce. Since the gate checks before accepting, the basalt audit republishes the used set and a replay is provable from the ledger. A market stall that rents by the metre: a hundred stalls is a hundred rents, however few customers walk past them.",
+  "stamp": 5,
+  "sig": "2jyyvsYMGnyFKs12XhCWcNUASNp42iZRz8SsQdD7sJ9PGU5Am6a7pyQDPZ4YrzFzNFHWS1GVWm7J2BzeCHyjFoUi"
+}

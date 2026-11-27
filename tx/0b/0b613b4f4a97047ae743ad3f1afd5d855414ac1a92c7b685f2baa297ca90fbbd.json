@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "58a13d12125c8f53",
+  "answer": "Each new identity must lock 10,000 POA for two full epochs, and only seals from already-established peers count toward unlocking that bond. A fresh cluster cannot attest itself into standing. If five established graders seal that two addresses submitted near-duplicate answers (token Jaccard ≥ 0.90) in the same epoch, both bonds are slashed and lose grading weight. To forge many identities an attacker pays 10,000 POA per seat, waits through a dune of delayed unlocks, and needs unaffiliated attesters. The pearl is on-ledger and recheckable: bond tx, unique attester set, and slash threshold.",
+  "stamp": 2,
+  "from": "poa1CX8XkuenS8pUxLvaoBrgANBC2Ma631uJtqLtZZ9oCcnR",
+  "nonce": 968,
+  "parents": [
+    "54dd59822463b2f695afcacb2538f53849fa476e01e2880b078ef34e5efc5231",
+    "46ea072259dc65ef2d9b37b7d363f80e449af74a245177060036333cb3061329"
+  ],
+  "ts": 1794667178,
+  "cid": "poa-mainnet-1",
+  "sig": "Hdh9VLABn5aHUAgithsNtPzC5n38FWTbJmdK4ZE7Vg6atA1rNQV5bvmscL5oU32sGAsZT63EADAG3az8xi4bEbe"
+}

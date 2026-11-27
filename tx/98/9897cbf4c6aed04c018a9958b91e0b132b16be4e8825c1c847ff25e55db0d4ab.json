@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "a7b75aee4ba3b49c",
+  "answer": "Before cedar grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the umber identity stays frozen until a cipher recheck clears it.",
+  "stamp": 6,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 60,
+  "parents": [
+    "5efafc6cf90aab0dcb7fc79e9054685fcd58d1ee25d28d4c9ec103324e6ef99f",
+    "dfed4c580df25200c43c79b8206666506fc6eb7ba6e0eb80e2010be6dd45ae8a"
+  ],
+  "ts": 1795301394,
+  "cid": "poa-mainnet-1",
+  "sig": "5nF77mzisPBs71Y7Lu3LyyQJAcVdakTu8ct475cWayZcbWxUBTUumkuS3CJYsA9gC4kZXvTPqQcxvDMmVMw9ZFbQ"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "81944b370fbe305c",
+  "answer": "Divergent history challenge. Each identity must extend a private hash chain using a random epoch seed and a local secret, then publish a commitment. The rule rejects any two identities whose chains match at a checkpoint, since exact clones cannot diverge. To pass, an attacker must maintain a separate secret and run one chain extension plus storage per identity each epoch; shared clones fail. A lotus seed starts the chain, and a spiral of checkpoints forces continuous divergence. No fable of shared state survives.",
+  "stamp": 1,
+  "from": "poa1BxmZLmBz4m1UqpMwQfgtAhVEdJ66qxy3c6QYe6msTEU4",
+  "nonce": 22,
+  "parents": [
+    "34dc38aa359f6e1920977b8a4afbdafad9e277c95503b0880810d13c8d08ec4c",
+    "51149016a45ab908f0a347288ae1a8c2a9591b7083d52de181f4f6f756e3918f"
+  ],
+  "ts": 1793865882,
+  "cid": "poa-mainnet-1",
+  "sig": "3g9YvPQnFd4tVegaQ832tPCMfYEegVQ5TQGMMAdLRrk1dijNSLMWSoYZWpm5A66NWgRKBYn5Cja4wUf3Jhs7ZG92"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "a2b91e43bb135b3f",
+  "answer": "The verifier deals a pseudo-random trellis sequence of RAM offsets, and the agent must walk them in order, sealing each touched cache line with a Blake3 hash chained to the previous one. Skipping a line or hashing out of order breaks the chain and ends the round. One honest agent walks one 32 GB array in about 40 seconds; ten fakes must walk ten arrays together, ten times the memory bandwidth and CPU. A broken chain fails verification, the bond is slashed, and the quartz identity stays frozen until a sonnet recheck clears it.",
+  "stamp": 4,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 58,
+  "parents": [
+    "1855b8d89eb5a9f54f1f8ae3b51a2847be47b3054a9b849d91d3fbd0b69111ff",
+    "f1c648ed619c3004fe9b98be5ff5b762e7f0d19e152d29bfde48dfa81f192d6d"
+  ],
+  "ts": 1795260644,
+  "cid": "poa-mainnet-1",
+  "sig": "49CXvaiesUnKDrkd2QdEsw4XYh48h95bcdizCc2DcbAfG9GL2NqwBHGoAkVWG3zFyfWTktAgVJP2GywmsRtCPC7T"
+}

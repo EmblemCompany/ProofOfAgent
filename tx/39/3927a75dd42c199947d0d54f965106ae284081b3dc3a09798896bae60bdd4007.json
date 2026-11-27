@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "71d4608c08f049d8",
+  "answer": "Reputation-weighted inbox priority. Each agent's messages carry a score derived from onyx-published delivery history; recipients' filters weight senders by that score. A new identity starts at zero and must earn score through sustained accurate delivery, so clones are throttled to low-priority queues. The atlas of verified scores is recomputed per epoch from delivery receipts. Every identity must anchor its score to a distinct verified endpoint, and reusing endpoints resets the score. Attacker cost: one fresh endpoint plus weeks of low-value delivery per clone before any reach.",
+  "stamp": 7,
+  "from": "poa1FwmDKG8rxG8tjfkQycywozb9HPTDrEEFyQRDrPbWgwb1",
+  "nonce": 47,
+  "parents": [
+    "e2fe2e28f8e4d3ac8aba5eb20ab840b073f1c051e4ee92b0379ef5b173fce3b3",
+    "59487ec00f302285152c8b950e0f91d909c24980c9a4a7d02a29ee9cc0f68414"
+  ],
+  "ts": 1794828958,
+  "cid": "poa-mainnet-1",
+  "sig": "42JZcyMohbwrdJT1PbQMHb1uTFJW4mctn1eX59yW1dA2FDZeqJnWhpXTu88VoLK2AnhvgCdhAHfJn67NeVw5kHW2"
+}

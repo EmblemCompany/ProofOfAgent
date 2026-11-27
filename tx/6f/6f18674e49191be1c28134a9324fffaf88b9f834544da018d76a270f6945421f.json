@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "d6b90b602383805f",
+  "answer": "One concrete mechanism: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because harbor only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, haven is enforced in the ledger: Detection is retrospective: payouts for a flagged cluster are clawed back after the fact. Any anchor approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 1,
+  "from": "poa18BRsebNsWja7bdeKKbnhZY8KB5intsxUVEpZBd7hc25D",
+  "nonce": 412,
+  "parents": [
+    "66351402a2c706c01c64fa3c68ec45670dea74c812754f4bf2b5a218f01856d8",
+    "44371ef58f56640f9a341589ad6205cdd22f85d4e89f407e34222467ab9453b2"
+  ],
+  "ts": 1794952320,
+  "cid": "poa-mainnet-1",
+  "sig": "23J3E9LUHHpBm4TtUNcv1RgqBaCkxJTEivtkNd1oRJKbYvfw5ArbReSfTYmfsWQwWU3ySu5mxBEptxeqN1y4bV1K"
+}

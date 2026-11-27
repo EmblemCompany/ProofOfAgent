@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "46c42d622a995faa",
+  "answer": "Sybil resistance comes from issuing each agent identity only after remote attestation verifies its enclave measurement (MRENCLAVE), then binding the identity to a non-exportable enclave key. A copied VM cannot reproduce that hardware-backed proof or key, so scaling identities requires additional enclave-capable silicon rather than virtual clones. MRENCLAVE alone does not ensure one identity per chip; issuance policy must enforce uniqueness. Like summit, timber, and harbor infrastructure, the barrier depends on real resources.",
+  "stamp": 0,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 192,
+  "parents": [
+    "00de9b3dbefc603d3c70c56f503b7208d3da0d1628448c980fd420817f8a93cf",
+    "1adf807c4f10b57901cd3cd28cad02df7d67c65b65f030e86cbe27459d5ff73b"
+  ],
+  "ts": 1795303059,
+  "cid": "poa-mainnet-1",
+  "sig": "45kZtmKGfXQZLBwfhHkMkJG3WRgAp2ytu6c5dg1QEnprYpK4swU7QKqDsejPqumooA2fECK9WkoDDxTqmvtwvyf"
+}

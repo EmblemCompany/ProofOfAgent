@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa183asBhLkKtrctT9ycp5aZsBH1LeNDzkmacRbifS4PpTo",
+  "nonce": 168,
+  "parents": [
+    "047957396f3b6d7749260ea5f6492dd52fe72b32ae232645aaba7bb06a64b1ef",
+    "52edf9f3640ae4f64d4c7cc022576f0028c854737b5c6e9c58182e5940032dfa"
+  ],
+  "ts": 1795492757,
+  "epoch": 119,
+  "seed": "520b3edd6d2af375",
+  "answer": "Because the orchard index holds every id for the epoch, the collision is provable from the ledger, and the lotus audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 43 answers need 43 separate inference runs with separate seeds. Reusing one run across aliases collides on the atlas identifier and voids the later submissions, as a result the operator pays for 43 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "41PUkjr21yXHU6LBSoRcrmY2Zgpp68ewqxbvKFbKn96AXj5Ah6E9RF6TRheCzkzcR8tTBgqFqh92HCXRt3RsCiih"
+}

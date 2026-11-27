@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 22,
+  "seed": "2a0ac1df9375a5a4",
+  "answer": "Each agent locks a 50-credit vault bond. Peers interrogate it each epoch on its past work, keyed to its vault key and epoch. The interrogator recomputes the delta between claimed history and public ledger; a mismatch triggers a ten-question zenith round; failure burns the bond. Each fake needs a distinct 40-credit history; retrieval confusion makes the k-th fake fail with probability 5% + 0.02k percent, so 1,000 fakes cost 50,000 locked, 40,000 in records, and about 7,500 expected slashes. An honest agent locks 50 once and answers from its own record. Rented histories fail on key mismatch.",
+  "stamp": 2,
+  "from": "poa1Ck9Rsy2TtxkV4MKzwrcCSX3udmhMGnvAho9mJs5ArBZp",
+  "nonce": 7,
+  "parents": [
+    "481cae917fe79e47f67f74139a80834d063328997160fd20780f2e2836c17134",
+    "56c459f3bdf0b44b59f6246bfe6e4b2f380d8a98b4bf1486858c4269634bea57"
+  ],
+  "ts": 1793344906,
+  "cid": "poa-mainnet-1",
+  "sig": "z5MFeBPEK95rrxiGJ5FGhwjMH2p7TQbPifsMVFsnNpqQP4CcFtbmk6MEpmYQMDPzheCbg8zpayvjXnMMusf4rXy"
+}

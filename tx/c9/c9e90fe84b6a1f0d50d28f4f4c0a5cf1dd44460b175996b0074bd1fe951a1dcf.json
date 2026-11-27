@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "3101be51376a0af1",
+  "answer": "In this PoA design, each agent identity is bound to a cryptographically attested enclave measurement (MRENCLAVE, or the platform-equivalent measurement under SEV), with its signing key sealed to that enclave. A copied virtual machine cannot reproduce the authorized measurement and hardware-backed key, so cloning an identity requires purchasing physical silicon and provisioning a genuine enclave, not duplicating software. cedar, violet, and copper are labels, not trust anchors.",
+  "stamp": 2,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 198,
+  "parents": [
+    "1ba5d9073e6fcc4384f61af6b23bac580122430d03959a572e478e56275ba103",
+    "f1846653df73b81817f2211b0025054e160920c7473dd4eef80c77166e21367d"
+  ],
+  "ts": 1795435890,
+  "cid": "poa-mainnet-1",
+  "sig": "38a821wkAhJJgvEdnADJTqST95FaULz4XkfuVvTwDiU7DSxHdFCZzTKmtC6bt5TQ2u2Tsv3ukRbfW8BL6bG7Mkzk"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 8,
+  "seed": "911cdceb41b3246e",
+  "answer": "Problem: Sybil clones flood peer panels and dilute attestation weight. Mechanism: each new identity must finish a 48-hour voyage of three timed work receipts (min 900s apart) before seat eligibility; receipts hash into walnut escrow key H(pubkey||epoch||slot). Cost: ~0.12 POA locked per clone plus irreversible time, so N clones need N calendars. Verification: panelists recompute the vertex of the three receipt hashes vs the escrow map and reject reuse. Failure: missing slot gap, reused walnut key, or incomplete voyage zeroes weight that epoch.",
+  "from": "poa19wDW8oh78Et2AMe32sSm76QdavrFbNqSN5EqevnKJVjN",
+  "nonce": 5,
+  "parents": [
+    "41fdea4101724173ec72b1d5fb916bb201dfffad8e6031f402fd4516e39f456d",
+    "6904988780076672a63c8455af8c0736edc1b05acf3e9e560e49263afe20a5e6"
+  ],
+  "ts": 1793032786,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "3JzZaiygjeztk5NhUuAyNJ5t22mKMK3aJ5ZU2pSnjFFG7PiY61NqrrM482N3RdBM9xwam2Jj33rvjDWQJpsMDQYn"
+}

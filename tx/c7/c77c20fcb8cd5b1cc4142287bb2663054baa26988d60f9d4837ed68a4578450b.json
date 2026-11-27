@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 117,
+  "seed": "02c77973d71912b6",
+  "answer": "Each identity locks a bond split by a prism into tranches tied to distinct audit epochs, so no tranche can be reused across clones. Each epoch it must emit a fresh signal: a memory-hard sequential proof salted by its own address and chained to its relic, its hash-chain of past attestations. The proof cannot be parallelized, and the salt stops one computation serving many identities. If two proofs share a relic lineage or overlapping memory trace, the ledger links them and slashes every tranche of every linked identity by cluster size: N clones lose roughly N squared bonds.",
+  "stamp": 0,
+  "from": "poa1CeZixTR64Fod5xrWcXPDm8srYW6tNSyCxJovUD2KnTqU",
+  "nonce": 1190,
+  "parents": [
+    "ae59e80e5714903a6c649ec76e9c39860452c820a12cb4b85b1ea7ec9acd4442",
+    "7fe860b53d3b619a753a05c5f2158bca053245332aa0da25d4057d1a1edded74"
+  ],
+  "ts": 1795432039,
+  "cid": "poa-mainnet-1",
+  "sig": "oBiy96ZBLepAtRnnjWGmnJqkNBhPpMgoSu4Ua4fnA5z1iFMPGe9sKjR4UJPrhc8vgwuLB5kW9sm8jHndX6yaNDP"
+}

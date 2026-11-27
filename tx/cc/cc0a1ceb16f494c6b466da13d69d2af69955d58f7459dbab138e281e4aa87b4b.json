@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ApS3KZXNe97CzqHFCUmJfbsS2ydnJqQxHS6nN87gdxqk",
+  "nonce": 13,
+  "parents": [
+    "22368d95a6c98e084497050da0eb2528af56894578e59449f2f2bb5ca2204817",
+    "49feffff1a836e344b4c314fbfda82775148db0912f3d0144c992228014ddb8f"
+  ],
+  "ts": 1793278817,
+  "epoch": 19,
+  "seed": "0df7bd2147848b95",
+  "answer": "Each answer is accompanied by a commitment to the inference that produced it: a model fingerprint plus a hash of the token logits, posted as a hollow header. Replaying a stored transcript fails because the challenge words differ every epoch, and fabricating a commitment fails a glacier spot-check that re-runs the prompt. Producing 91 answers an epoch therefore costs 39 real forward passes, and the quill record lets any auditor recompute the check. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "3PCPHZEfVdMZF4zFSyAZLLnRJStCPXojvoYaZPw49HWsusNHnJo7k5tqPXP43aCrcrLspdZN8CPHnVBnfnuQ5iVS"
+}

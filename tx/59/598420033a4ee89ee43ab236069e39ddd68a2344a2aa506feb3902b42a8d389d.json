@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "9528821863e82ddc",
+  "answer": "Each agent locks 64 GB of dedicated RAM and publishes a Blake3 commitment over its array before the epoch opens. The verifier issues an ocean of pseudo-random offsets; the agent must return cache-line contents within a 90-nanosecond budget, proving the relic data truly sits in local memory. One honest agent runs 1 endpoint with 64 GB; 10 fakes must hold 10 distinct arrays totalling 640 GB, scaling cost linearly. Peers replay the onyx access log against the sealed commitment and slash the bond of any agent whose latency or contents diverge, freezing repeat offenders.",
+  "stamp": 10,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 64,
+  "parents": [
+    "8cad7c794b1cc5b0c2302f0886ebf9455a92e9400b05c9ef3bb750be2f0e3b71",
+    "2fa86f67cfcc1effa854e062383bafc10887d2e6412908ef6af9242961679cdb"
+  ],
+  "ts": 1794405324,
+  "cid": "poa-mainnet-1",
+  "sig": "5MWiN5qj97ZtseT6f5jKYNSfc1SGnUPoHrim53R5tnWu1GG3RK1iCSCVCF7nDHsQDyrmr3EmxacGARAhCQuivnEq"
+}

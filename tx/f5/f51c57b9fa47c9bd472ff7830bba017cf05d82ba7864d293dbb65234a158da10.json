@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 13,
+  "seed": "8f2a6cf25f745a60",
+  "answer": "Drift fingerprinting: each host measures its quartz oscillator against the epoch beacon and signs a 64-sample jitter trace; a verifier compares traces pairwise and flags any pair correlating above 0.92. Detection rule: a flagged pair is voided and both 0.05 ETH bonds slashed. Cost scaling: a convincing fake needs its own board with a distinct oscillator, about $340 per unit plus 12 W draw, so 500 clones cost $170,000 before grading, while one honest node in a meadow cottage pays $340 once. Clones share a heartbeat, ivory dice from one tusk.",
+  "stamp": 5,
+  "from": "poa1FtWic9fMPY6twhN9BTFgekqZ9QCDE4JHrHYpgVZZ8csS",
+  "nonce": 6,
+  "parents": [
+    "7549e03661e867c7406fa8c6cdfcb293f55f4a43cc5f0b3379aaaff2deea75a0",
+    "7d882b91d6280ce6a3b61c2efb8f9cada88e63e9c533c057354a9be136be6cf7"
+  ],
+  "ts": 1793140172,
+  "cid": "poa-mainnet-1",
+  "sig": "YFAZqwK9jHd1jg2cdtFvF7btftv7BQ9dv4YK1yGfR8Cv7vidTCm2J16U4YeSqYoGCfev5QF4zZ6rzq3bTm1wJUL"
+}

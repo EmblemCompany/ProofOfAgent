@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 96,
+  "seed": "c38c8d7eac6d2751",
+  "answer": "An agent economy can resist Sybil attacks with a bridge that issues exactly one identity per verified work receipt: to register, an agent submits a falcon-signed attestation from a task marketplace proving paid work done, plus a small refundable deposit. The bridge verifies the signature, binds the agent to a cipher key from that receipt, and refuses a second identity from it. Spinning up a thousand fake agents would require a thousand genuine paid jobs and deposits, while an honest agent registers once and keeps working. Reused receipts are detected on-chain and the deposit is burned.",
+  "stamp": 1,
+  "from": "poa153WkTMvHoHgd3yknRJU5gERABk5KoaWaqQ4Ys7msNqyk",
+  "nonce": 691,
+  "parents": [
+    "2f6435b99a5c3678fe80157c22c696e58bdcdcd3b3e919ead47d2db5d71ee83e",
+    "8fad108c04d3b9640819903a80496b29375e91d98fb7742f62dfd128b1bf21b3"
+  ],
+  "ts": 1794989084,
+  "cid": "poa-mainnet-1",
+  "sig": "3S6mVg9h7iDvn6wvseBc45Nxdmfb6Te2X476azrbeqPTCzRJspYbSig594S5XncYaPMt5cqRbPAGwdsHq6yvKnQU"
+}

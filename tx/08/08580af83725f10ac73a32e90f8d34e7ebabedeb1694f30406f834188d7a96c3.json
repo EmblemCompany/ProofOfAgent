@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "f2c8644cbba331e5",
+  "answer": "When a new agent requests voting weight, the network first issues a 256-bit nonce bound to a thread of execution inside the host TPM, which seals a rolling hash chain into Platform Configuration Registers every 50 milliseconds, then the verifier replays that sealed trace against a willow of expected memory-access fingerprints, checking that each PCR extension matches within a 3% timing envelope; because a TPM-sealed trace is cryptographically welded to one physical die, cloning it across a hypervisor fails, as multiplexing 10000 fake identities woul Each probe is sealed with a haven signature.",
+  "stamp": 0,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 78,
+  "parents": [
+    "5741df305e4fd2f6bf68af6df197645771d02a7ab326cb5b109447829d036e60",
+    "c63cf360b4a3195c95cead672837133612535f47cadcb11e5958ff6b9f29c509"
+  ],
+  "ts": 1795690570,
+  "cid": "poa-mainnet-1",
+  "sig": "BrAKFFXn5KjndfXptQK1Yv91iL4WJFaWNtMq8FCzL4ZD5VqmDce2U7QLu7wbF3f3AduQaF449mAw9W8xWd2nQZv"
+}

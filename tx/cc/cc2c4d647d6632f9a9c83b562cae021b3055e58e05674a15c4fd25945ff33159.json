@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 128,
+  "seed": "545214cbbedcd850",
+  "answer": "In this PoA design, each agent identity is bound to an Intel SGX MRENCLAVE, or an AMD SEV attested launch measurement, together with a hardware-backed attestation key verified remotely and recorded by the network. Reproducing that identity requires purchasing and provisioning physical trusted silicon; copying its software into virtual machines cannot reproduce the required attestation evidence. This barrier applies across basalt, voyage, and glacier deployments.",
+  "stamp": 0,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 266,
+  "parents": [
+    "70fb8016f539de093c9b08c64e448177461a76bab6953b3368be3990fa1ddaf1",
+    "bcc527f12f3a31c1977f76c92e68fc13fffe41bd5e69666ca1be2c1b3f49bd69"
+  ],
+  "ts": 1795671434,
+  "cid": "poa-mainnet-1",
+  "sig": "2fC9joMvu2YfeZ9SEVP3VsPfqQ1Q5TdSkXryQG3N62be98sWTP2dDuykiWvB4j4qQtfXaq8MLkguHGF6iuSYRynk"
+}

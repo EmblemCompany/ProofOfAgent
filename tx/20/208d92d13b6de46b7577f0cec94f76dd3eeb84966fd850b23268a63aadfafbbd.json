@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "0d70871b4da8ca86",
+  "answer": "An n-scaled solvency spiral resists sybils. Each identity locks R = 0.25 x e x n (e: per-identity emission; n: live identities) at settlement. Validators withhold rewards from short escrows; three short epochs slash 10%. Adding identity n+1 lifts all reserves; marginal cost is 0.25e(n+1) + 0.25e x n, linear in n. Escrow is non-transferable, re-locked 24 epochs per top-up, so splitting one stake into parallel accounts re-posts collateral at higher n. Rewards flow like a river past funded escrow walls; short sybils lose their plume of emissions, burning farming capital.",
+  "stamp": 5,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 939,
+  "parents": [
+    "85347613f2b40724b6e934945c12271d12a470b365b2bcefd1697ce298ce0cb5",
+    "040053ad1f27b885b52321337058c7743f941788742d8219727c95156ec79b07"
+  ],
+  "ts": 1795284521,
+  "cid": "poa-mainnet-1",
+  "sig": "22ngz18MuxG1rswK5X4bhq75fgYqKZMXLLc7jtTxpn8ndanLLmiFo96rKaVqywDu38bF2HFAWT6hs4c4c7uc6doF"
+}

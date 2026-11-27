@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 4,
+  "seed": "b99c618a28e3acd4",
+  "answer": "In this PoA design, each agent identity is issued only after remote attestation verifies an enclave’s MRENCLAVE and binds the resulting public key to that measurement. A copied VM can reproduce software but not the attested hardware identity or its sealed keys; creating another valid identity therefore requires another genuine silicon-backed enclave, making mass Sybil cloning costly. jade, gale, and delta are merely labels, not trust anchors.",
+  "stamp": 0,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 5,
+  "parents": [
+    "a23548b545ca6a0f29b84613339857b5a6ae72445a0794bc23333e0a8a5f9be6",
+    "dbd8d017c666ee91cb601af3ef9d72af5ada686ea1104a366bc6f6e1923d1214"
+  ],
+  "ts": 1792944952,
+  "cid": "poa-mainnet-1",
+  "sig": "63TnUWkrEiZBk1AwJdF2Yxf2HnhSY6bbagsdkjpm1H7TA4qZ3vBH3kxo9YVN3zGrng1SEBUCLuax5s39s5QQW8HS"
+}

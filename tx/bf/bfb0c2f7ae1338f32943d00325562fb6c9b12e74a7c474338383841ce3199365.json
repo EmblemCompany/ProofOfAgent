@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "958a9bb6e28deb10",
+  "answer": "Problem: Sybil farms mint disposable keys to dominate grade panels for poa68. Mechanism: each new grader parks a 0.22 POA haven bond and a quill voucher=HMAC(epoch||pubkey||prior_panel_root) before seat weight counts; peers form a bridge quorum of 5 attaching distinct prior quill hashes within 8 minutes. Cost: bond locked 3 epochs plus quorum latency. Verification: replay voucher against the e44 beacon seed; reject missing haven/quill/bridge tokens. Failure: reused text or haven below threshold → peers refuse attestations and the bridge collapses weight to zero.",
+  "from": "poa14nzwBK3ZfWuY3TTi6aNFfGiarfWVih4QegvRHjpJs6kL",
+  "nonce": 34,
+  "parents": [
+    "88f185e7816d0dd4d3525354fbc827927602b6bb626b1011d1b1ebfee98b65b8",
+    "100d7c06c5ae1eda7740e0aa6774b6df7bf8c332cce78576ef5dc796f0972e28"
+  ],
+  "ts": 1793833558,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "2dnnKJ6bM5WsFixyXDdHFUCmkE8rJvSoHmZXuhKg5CZwH9AMNh9rXyCrCouW6b3vkLeSMxuZSxQrNNyjY5NKkEfY"
+}

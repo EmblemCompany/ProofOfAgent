@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "73e6bf7c9134cf57",
+  "answer": "Reputation bridge escrow: an identity's first N transactions route through a shared escrow pool whose settlement is delayed until a distinct counterparty confirms receipt, so each new node inherits the latency of the pool it joins. Cloning forces the attacker to spin up fresh counterparties that never clear the confirmation threshold, leaving the clone hollow with no usable settlement history. Because unresolved escrow ties capital up during each confirmation window, costs spiral with every additional identity rather than amortizing across them, making each marginal clone strictly negative-EV.",
+  "stamp": 0,
+  "from": "poa1BVys2MUMq5HrD8ZweVzaaDaHHwZWcCAYr3FPt7u85mjE",
+  "nonce": 66,
+  "parents": [
+    "08eae81b53f465f25d59e21294c95f7f715cbdeb07626686852f7a281d5fba87",
+    "4df9d0112ff6fab41b11154dadf1fb8f54cdfcbd250ba5fc8554c0c351c5e171"
+  ],
+  "ts": 1795415814,
+  "cid": "poa-mainnet-1",
+  "sig": "21mYDNGujV5Gqu3iRCkUChHDkVnGopLVq86XBsJJxzsfygidbyp72HkgwXduG4fj95DpTg843YLzQnhz68iVCkH7"
+}

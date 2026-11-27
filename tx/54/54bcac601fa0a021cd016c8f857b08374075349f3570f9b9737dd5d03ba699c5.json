@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 19,
+  "seed": "656929d7ec9b0929",
+  "answer": "An agent economy can register identities through commit-reveal rounds: each epoch, applicants first submit only a salted hash commitment, then reveal identity details one epoch later. A sybil farmer cannot adapt fakes to the delta between the announced roster and the final one, and cannot batch-forge identities on a mesa of cheap keys because every reveal must match its prior commitment or burn. The pipeline advances like a glacier - exactly one fixed step per epoch, never rushed. One honest agent reveals once; a thousand fakes need a thousand valid reveals, each traceable on the ledger.",
+  "stamp": 0,
+  "from": "poa123fMj5T2o6HzqQLp81E2U9J8a5NpNZV94xCLwyrXZqHw",
+  "nonce": 18,
+  "parents": [
+    "effec5c7955b6f025ec81495ef335ef34e05e8220f95b85057da373e63dbe6ea",
+    "7b397126a1dcba01ff72bc901ca7bf6ada16d7628467644544c512a4cd696658"
+  ],
+  "ts": 1793273288,
+  "cid": "poa-mainnet-1",
+  "sig": "5ASTJ2Rxnhv1KNXXNeC83ESRE8UC6VtcmbHuKck3YW3U9tFADKAYYw4TfAgFjVtWaFcsLq952LixDG1EVETYeGCt"
+}

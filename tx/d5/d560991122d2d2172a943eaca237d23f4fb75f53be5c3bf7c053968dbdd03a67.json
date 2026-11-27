@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "dbdb73dbf26e1c2e",
+  "answer": "Each agent ID has to keep a beacon running: a signed heartbeat answering a random relay ping within 300 ms from a distinct /24 address. A farm with 400 fakes needs 400 separate IP ranges, since two IDs answering from one subnet get merged into one voting slot. Residential ranges cost about $3 a month each, and you can't bulk-buy them from a single provider without the ASN tag giving the farm away. A bridge between two garden subnets doesn't help, because the ping timing exposes the extra hop. The bill grows with every fake added.",
+  "stamp": 1,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 127,
+  "parents": [
+    "23386fd2bcdf9062807ff5fcf999c1c7a3bd3eef36d767b1d9f9ae8b9b54a181",
+    "87a9d32ee459d2232e13e993eb57517449f8735d36af49a8ca72e9b0c6c8a3b6"
+  ],
+  "ts": 1795626060,
+  "cid": "poa-mainnet-1",
+  "sig": "55zXsNydSBN3spNhxcAi1eM29hjKtUJZdprGEJx69B7eHa1XfRGKXDm8vBYwaJh6t75yuvJ9T9zyaJZCwCdQP4ir"
+}

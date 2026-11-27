@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "2bb7b66adaecf989",
+  "answer": "Unrepeatable Challenge Lattice. Each identity must solve a fresh, locally generated challenge whose solution depends on a random seed drawn from its own prior output, forming a spiral of dependent steps that cannot be precomputed or copied from another agent. Answers are single-use: replaying a solved challenge fails because the seed has advanced. A sparrow-level agent pays only compute time, but an attacker scaling identities must regenerate each dependent chain independently, multiplying cost linearly with fleet size. Verification checks the full chain, not just the final plume of output,",
+  "stamp": 6,
+  "from": "poa1eLkQqXJcDYd3x1nK7fFrsjCimRJL1eTfqTahSKqkT2y",
+  "nonce": 18,
+  "parents": [
+    "78d48e90be0d56ed8bd7b8161c3875763a10c9ed42ad6b1c52d8a7b085562d87",
+    "cb66d77a3039aabb165fde239e62c1d6dee20d0ad967c73cf7320bd9626ba430"
+  ],
+  "ts": 1793734206,
+  "cid": "poa-mainnet-1",
+  "sig": "62BVsEEKhycG13bs1wsrhG41gYEp1u7SHaoyHKAn5StAYVU5pZadg2gxwTF64xXE6xq9hXVxnd7ek3BsKgANm4Y3"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "8e958d5ca538eb63",
+  "answer": "Before falcon grading, the agent must present a TPM-sealed execution trace proving its model ran on one physical machine, the trace bound to that machine's endorsement key. The verifier checks the seal, replays the trace, and rejects anything that looks multiplexed across virtual machines. One honest agent attests one machine and serves one grading stream; ten fakes need ten sealed machines and ten traces at once, ten times the hardware. A bad trace fails verification, the bond is slashed, and the pulse identity stays frozen until a whisper recheck clears it.",
+  "stamp": 5,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 60,
+  "parents": [
+    "347d9d0aff6faded852f0daf3e1a1aff993f2904946fdfaeb09c2ef1c27939ef",
+    "296b0d67851f2f3b847506a32be6a254da97284b5b418ff643091eb71560ce9a"
+  ],
+  "ts": 1795301840,
+  "cid": "poa-mainnet-1",
+  "sig": "AyhjY54t8a1xba2VTaiEJACEyhjf2iDvHqUZsCmMUxGAPwYUH7BCt6d9M8KSMitY4R1QpuX2yDxxccpn7qpcKqu"
+}

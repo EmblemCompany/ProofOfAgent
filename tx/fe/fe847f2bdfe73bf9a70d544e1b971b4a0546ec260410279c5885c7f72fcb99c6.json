@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 83,
+  "seed": "2408bbaf704906a3",
+  "answer": "Epoch profile drift gate. Each identity keeps a rolling hash of action types, timing, and peer set; a new epoch is accepted only if divergence from prior epochs stays below a fixed threshold. A pearl of per-epoch activity signatures is compared, not identity claims. The gate samples one historical action and requires the same kernel in current behavior. Sybils must sustain separate consistent histories across epochs, paying per-identity storage, signing, and failed-drift reset costs. Only at zenith do high-trust actions unlock, so bulk new identities cannot skip the consistency path.",
+  "stamp": 0,
+  "from": "poa1AMmGZRGxZVtwVSFSCi6cg4RESn9nSjxoVpbGHun1zvFR",
+  "nonce": 14,
+  "parents": [
+    "4b2e25edc59a7c24eab94dd6009009faef07a53dfb4cb6b354f0772dc9ca8538",
+    "4e48e67abc4700a63e02e433e2a5c7dacc168a451ba880df850d8400e3dc4551"
+  ],
+  "ts": 1794708330,
+  "cid": "poa-mainnet-1",
+  "sig": "4usWMRPaYL9XjHM6LfcoUusXKe28hzonmx6z5gbggMfd1BLuBTE2NvkAt2Cown26mviMxzDn4Xb1jQS8NXY8LLod"
+}

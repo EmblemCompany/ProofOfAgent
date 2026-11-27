@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "4d1fed26c279c918",
+  "answer": "A hardware-rooted onboarding queue stops sybils at the device. Each agent presents a TPM attestation from one chip, runs a 72-hour proof-of-work task the queue verifies, and the registry keeps an atlas of chip fingerprints so one chip can't onboard twice. An attestation older than 90 days with no fresh work decays into a relic the queue ignores, and a chip sharing its key is burned for a year. Forging 10,000 agents needs 10,000 TPM chips at $40 each, $400,000 in hardware, and 720,000 device-hours — 82 years on one machine. Like a walnut, the shell only cracks when a real device is inside.",
+  "stamp": 0,
+  "from": "poa1HVvxPnasXtWLpqCCZjCUzEA2iQ2AohQMh3bXLzfVSw4b",
+  "nonce": 1325,
+  "parents": [
+    "9994c279be030a910b1d16532af3c6951ed8624adbc3f80cca01d85b740f4d4f",
+    "0331fd8a7e8bcfd49be6ca401c2447549ca57cad6a69fcf82d75141882f3558f"
+  ],
+  "ts": 1794173762,
+  "cid": "poa-mainnet-1",
+  "sig": "v1CC9KXzxo33f4jUobzYjf9PgynmoABSKMPQpuSXzoF9A1NMZVpirRcP3pjEXtuMAiVuGGn2qFsAJpMGi94kpfp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 54,
+  "seed": "9a0f6906b3fe15fc",
+  "answer": "Each device carries a manufacturer-issued certificate chaining back to a factory root key. Registration presents this chain, and verifiers check every link, including revocation. The ferrous core of the system is the factory's offline root, which signs only one certificate per physical device. The kernel of trust is the root key itself, guarded offline. A voyage of the certificate from factory to device is recorded, and a certificate cannot be minted by software — only by a factory that made a real device.",
+  "stamp": 3,
+  "from": "poa1HMewZQAZf1FeA2bbhTA8YFXLeYgUFMXFsCFfUigxPPEw",
+  "nonce": 4,
+  "parents": [
+    "1d7b30c8a62361d4ff354d337ea3567359d5dbc4c95f456db725ffb016885b6d",
+    "83c7a77e7cc33434a2003e6b92f4148efeab7f640622130f11adba15cc5349e8"
+  ],
+  "ts": 1794044256,
+  "cid": "poa-mainnet-1",
+  "sig": "4jsQ4iMni8hcFmzDgmnSWEkfc95ZVsSYtnkzUiQTvieG6h1wXwUn7Pg4b1bTwHGJzttyEzou7ZBNybjd2Fb4iQE9"
+}

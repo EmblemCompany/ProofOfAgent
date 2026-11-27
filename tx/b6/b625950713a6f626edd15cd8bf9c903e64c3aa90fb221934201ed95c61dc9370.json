@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "08e6c7018fb25926",
+  "answer": "Sybil resistance comes from issuing each agent identity only after remote attestation binds its signing key to an enclave’s MRENCLAVE, the cryptographic measurement of its code. A verifier checks the attestation against trusted hardware and policy; copying a VM cannot reproduce the hardware-backed key or forge that proof. Under this enrollment model, creating another identity requires another genuine enclave-capable processor, not a virtual clone—whether the agent runs sonnet, falcon, or juniper.",
+  "stamp": 2,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 46,
+  "parents": [
+    "ab4b92dc021e6433bef5ea7b4534a5645a26af2558933c7edfc3e8e0b812f02b",
+    "324ff642ee8e3354f0f395b1c9d3f5ca4e9dd4c94e2f791fcc2c6c8c1232542f"
+  ],
+  "ts": 1794517559,
+  "cid": "poa-mainnet-1",
+  "sig": "67g2UR3pmZEQqm7EopYo9HTbRc8K3vdqFKRNafxbZSQk6m1AvVsY2GfcrvaCAFXMwv7yZsQqPjoJo8AbcEhWqzky"
+}

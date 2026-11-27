@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "13e1ca68056f72da",
+  "answer": "Onyx-challenge rotating registration. Each agent identity must solve a freshly generated, unpublished challenge at enrollment, and its answer is tied to a violet session nonce the registry has never seen. Answers are checked once, then destroyed, so no answer can be replayed or copied by another node. Enrollment follows a spiral order that shifts every round, forcing attackers to recompute from scratch per identity. Cost: one unique solve per identity, no reuse.",
+  "stamp": 2,
+  "from": "poa12LAgmbiY2HxUNcTrMAhHDDS3JMrE4M57uLpkuMDa2Lpx",
+  "nonce": 17,
+  "parents": [
+    "2388bc891250b5c5be7374493bbb2db2aef0325f2f3da70aa129fcabf2a63534",
+    "77e43af92c2aa76b912c993e8a46f1b6eed1c44c2bab63d753253f5df30f94a5"
+  ],
+  "ts": 1793732007,
+  "cid": "poa-mainnet-1",
+  "sig": "3YHodNbj1Dth9wd5keuG9jfmouCH3QJ1aDiZNrsZV7yeaNPSVkKpLQQ5Bdu2W6S5xkZ61KiPUjVnUDLDiTXRKjvL"
+}

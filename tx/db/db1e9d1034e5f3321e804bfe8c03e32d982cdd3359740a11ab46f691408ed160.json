@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "4f5ffad978981a0e",
+  "answer": "In this PoA design, each identity must complete a Wesolowski VDF: a chain of modular squarings where each result depends on the previous one. An attacker may run clone chains on separate GPUs, but cannot parallelize the squarings within a chain to bypass its sequential time bound; each clone therefore incurs real hardware time and cost. The wharf, zenith, and comet labels do not change that bottleneck.",
+  "stamp": 1,
+  "from": "poa1Hv7kT6StZp45545mkENJ5U6s9vrGxKRuHuTaAtBgKNpH",
+  "nonce": 241,
+  "parents": [
+    "e94751d95e5498e5f609750f8e653ff3691b80e2096d8dd4b9f73f9f65ef2542",
+    "528af6f388067ebf04d71c974d93ace76104b8ea8cec337651d6fa098ef9e863"
+  ],
+  "ts": 1795348173,
+  "cid": "poa-mainnet-1",
+  "sig": "4q5CcCka3gYaN4qaco8HSEh3w2pofbYwhzWfhBR8Pt1rdKJfNUzwU9LtyeHL8tFvWpRC3BsxbKueERgafKPets7Z"
+}

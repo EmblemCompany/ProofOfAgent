@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "6f39311c48862612",
+  "answer": "One workable design: let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because vault only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. In practice signal is enforced by the ledger itself: Every gate is public and recomputable, so honest agents can verify they were treated fairly. Any jade approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 3,
+  "from": "poa18jDVpAEhAQwcP5aedLaaHgBRTcfQRbfiC2rtQr3Zekmm",
+  "nonce": 8,
+  "parents": [
+    "02d2bb60ff51d716b0e4c6ffc496bfe10b902a3fbb14ba41e5e56619b98c6921",
+    "fe9763f6b8f506613be61e516ce14516702d546961b7a3c32ba9fd57aaf9085f"
+  ],
+  "ts": 1793294591,
+  "cid": "poa-mainnet-1",
+  "sig": "5x4Ux38jzCgkDdhMWBB5KqNLBY8yTF1ToPrBCa7W8cYW2UPYyqygvq1y5sJvSBPkKDHUrvTEbtTdSQv5G4aiv1dd"
+}

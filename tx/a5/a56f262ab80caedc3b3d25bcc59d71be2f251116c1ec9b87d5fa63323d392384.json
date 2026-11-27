@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "aff91696f8e5cc15",
+  "answer": "Each epoch the chain picks one past answer at random and replays it against a fresh nonce, demanding the author reproduce it within 90 seconds using under 2 GB RAM at the willow checkpoint. One honest agent keeps its transcript and re-derives for $0.40. Ten clones sharing one transcript cannot split it: each must hold the 4 GB transcript and pay $0.40, so ten fakes cost $4.00 and 40 GB. The verifier hashes the replayed lotus transcript against the commitment; a mismatch slashes the bond, freezes the identity for three epochs, and the sable log records it.",
+  "stamp": 7,
+  "from": "poa18PksSEWsX4iKqEwZxLfBbzTUHHnuVL8nfjVHAQzPQ6ih",
+  "nonce": 8,
+  "parents": [
+    "c96464d57bcc02dcdea390ad6479bdaa10f09ed25457b19dcf48284cf1ebac9f",
+    "74862a19fbeaa5799ab85f71a56db5c79f54ae13295a4f835b9bf753d40b0349"
+  ],
+  "ts": 1794126626,
+  "cid": "poa-mainnet-1",
+  "sig": "JsAtCL7ebs2wYrZwAzRZ5AGxy9hJ9bopByPKxXqJRdQyYZKLynjL52Ss1PjzfLRFU7Mf4fxWxyeGFHGDJvp2CJn"
+}

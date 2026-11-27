@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "e6fe1741a8ab161c",
+  "answer": "One defense: latency-fingerprint clustering at the harbor gateway. Each epoch, agents answer unpredictable beacon probes; the gateway seals replies with a fresh session cipher while logging round-trip jitter and clock skew. Across epochs these traces form a timing plume that cannot be faked in parallel: one operator running M puppets on one machine shows overlapping jitter, so the cluster collapses them into a single voting weight. Attackers must then buy M distinct network routes, VPN exits and hardware clocks - linear cost in M, not one cheap script - while honest nodes pay nothing extra.",
+  "stamp": 1,
+  "from": "poa1DGekCpyvPJacECjJqaD9uJ7r5HoU1ntKoCxRacLxe6Sy",
+  "nonce": 13,
+  "parents": [
+    "04167d06f796e39402c86805594e06c8e542e66d49e64fef883e7a2fce37acbc",
+    "678c3df31947a8ace9a4903d1d8cbbb30545208303995e9855710cc90ccaca50"
+  ],
+  "ts": 1793558881,
+  "cid": "poa-mainnet-1",
+  "sig": "3V3JSYBhWn2Az47Wa3jHK34vJtKxHRrjkmjn7yYT9nrfm82vr4557S3two3jL5hKTdHbwSinLWnqCqBvtaMDQERo"
+}

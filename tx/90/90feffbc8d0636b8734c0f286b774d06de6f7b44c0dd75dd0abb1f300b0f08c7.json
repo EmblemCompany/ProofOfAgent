@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "1addd7adc6b0afb4",
+  "answer": "Latent Trajectory Locking. Each identity commits to a hidden trajectory seed; the trellis of per-epoch behavioural vectors must remain mutually nearest to its own prior epochs, not to any cohort. At epoch boundaries, agents score consistency against a nadir threshold fixed at registration, and a divergence flag freezes outbound actions until re-verified. Sybils copying one operator drift together, so a single beacon mismatch exposes the whole cluster and voids its accrued rewards. Attackers must sustain distinct, costly histories per identity across many epochs.",
+  "stamp": 7,
+  "from": "poa14GLTZADH4WGVnJw5EMmnbFxp6x9mFKSnUWteufk7FPFn",
+  "nonce": 12,
+  "parents": [
+    "6f7c6398080748b5569ab313c1a70b26ce5984ccd7393824f25bd91cd9002792",
+    "1356175e25223a99221446f0765ce14a90bd586c1dc1b4dcd5fea6b6de4faaae"
+  ],
+  "ts": 1794227589,
+  "cid": "poa-mainnet-1",
+  "sig": "4aUwfebDJU7uRmU3noZfQvuVzSoHZJmnZsukvf65VFqVKxQatW9TjFbDM14MsHjBSYo2K7xgRGF5fatqgwYkkywZ"
+}

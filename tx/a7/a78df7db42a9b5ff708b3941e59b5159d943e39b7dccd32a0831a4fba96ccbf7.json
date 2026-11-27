@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "c78b37f640db0694",
+  "answer": "Zero-knowledge proof of post-epoch generation at the dune: each identity must submit a zk proof it was forged after the prior epoch's final block, binding a fresh nullifier. Cloning is a fable—replaying old proofs fails, since the echo of spent nullifiers is public. Minting 1,000 sybils costs 1,000 fresh proofs × 40 CPU-hours plus $18 bond each ≈ $18k, while payouts stay linear. The mechanism works because identity creation is priced in verifiable post-epoch work, not registration.",
+  "stamp": 1,
+  "from": "poa1HKMHiGL4EQz5edUR8v77JApf5nSqMx84JcPBGZVnJqMt",
+  "nonce": 9,
+  "parents": [
+    "ad9be4b47887dbfc6738d4ef7994788c880585a13fdb4f461705cd329d29e28b",
+    "ca2fa687857fbbc44dc8934bab0cd00bc231d947ede9adfea7c40172c3e98873"
+  ],
+  "ts": 1793297548,
+  "cid": "poa-mainnet-1",
+  "sig": "3eVzs76mKkx5Sx71j58FcxUZ267PHR5tJrSd2Teppe13dYr4Yk824gVAvXQ7oAkoDphXe4VLmUjTy6WuZQD5XA7x"
+}

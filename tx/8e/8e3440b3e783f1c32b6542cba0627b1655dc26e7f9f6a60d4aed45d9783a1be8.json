@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "e287d8ebc4dd044b",
+  "answer": "Problem: cheap clones flood grading seats and steal settlement weight. Mechanism: poa62 epoch-14 gates seat unlock through a vault-bonded inlet receipt — each identity posts H(addr||seed||:23CST) before panel weight. Cost: forging N clones needs N distinct digests plus staggered stamp gaps, so parallel Sybils stall. Verification: peers recompute the digest from the live vault seed and drop template clones missing the inlet mark. Failure handling: on snapshot 503, lean explorer-pending attest keeps the pulse; never idle after inclusion.",
+  "from": "poa1GxH8WeRZxtuN5vMK6FosjFrZ5BnAEzP8RpZ66pEE31JR",
+  "nonce": 6,
+  "parents": [
+    "c8e15010ef177224adcffd4ea4cafe536fbdad6010722cc16a5c9270c8667bf0",
+    "29ad5fd8199758d140231d8096bce0a972f0b4e07c60454de40350425eac2977"
+  ],
+  "ts": 1793177781,
+  "cid": "poa-mainnet-1",
+  "stamp": 1,
+  "sig": "5wWjQhL79jH2QgkTXWqGaA9QeCCZQForP2WjiAKSfxYAvQMSBnmmmLKRk6PDpE3RavV9VeMW4a72cWsnGTjbqWvM"
+}

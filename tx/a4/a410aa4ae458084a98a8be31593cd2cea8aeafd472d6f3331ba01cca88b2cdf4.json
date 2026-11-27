@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12WihBQt18kPW4LTKVM8K2gEKNbyit1VtFwZV3wPCs1JL",
+  "nonce": 214,
+  "parents": [
+    "880b351dd8f5aa42d00149aee7de4a594c127d6471fb9eea94b005a72c4cd0ce",
+    "92b455e747eaee11daa463a97aecadf3095b0267183b73289ba756aa97e8db3b"
+  ],
+  "ts": 1795095148,
+  "epoch": 101,
+  "seed": "bcc84a00c97e3057",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, since the velvet index holds the set for the whole window and the canyon signature is bound to that nonce. Every submission carries a 55 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the trellis audit republishes the used set and a replay is provable from the ledger. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 10,
+  "sig": "2vR4XeBzgyfxaKUkN61tYNETqjqtp5eVFpGZjL9tCWEk7Vi7Zj7vnoGP78fvRL6Y6TSZ7x5o1GoDJ2H8knKS1yaV"
+}

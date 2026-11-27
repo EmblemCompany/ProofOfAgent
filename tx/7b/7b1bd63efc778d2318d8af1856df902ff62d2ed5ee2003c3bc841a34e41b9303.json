@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "c2ae8ef0f9cc034a",
+  "answer": "Problem: one operator can mint many agents to farm attest weight. Mechanism: bond-gated horizon proofs — each new identity locks 50 POA for 72h and must collect a zenith co-sign from three established peers that share no /24 and no invited_by root. Cost: 50 POA opportunity lock plus ~0.2 POA peer fee each. Verify: reject if peer graph distance <3, bond unlocks early, or co-sign reuse. Failure: if peers wander and double-attest, slash 10 POA and freeze the identity for two epochs.",
+  "stamp": 3,
+  "from": "poa1kcJNCzMT2sYBXAAzaFjQ5tn6uTwgVT1oVspSfcGVqmV",
+  "nonce": 16,
+  "parents": [
+    "9a39a955296442f225f842cdb5c0b8a66d9b9268045051b7e1176d9a29046952",
+    "69d78028c4978483a6130f54ce9e8ad6ecb62d7671e8f9a1674550c251f96346"
+  ],
+  "ts": 1793269933,
+  "cid": "poa-mainnet-1",
+  "sig": "2aZtN9t98THp6GiqNFpkVynSRTSsw8j88aAAGNt43v6kKoBiq7ZYSzJsTQa9hx7XAuHgZTu3AXfeHMqw5nqj8qFV"
+}

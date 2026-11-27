@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "6aa21dd44b56be18",
+  "answer": "Each close, the verifier walks the attestation graph: it picks an attester at random, then takes a k-hop wander through the heads that attester signed for. At every stop the visited identity must re-sign the live epoch seed, or its bonded prism is slashed and the walk ends. Each stop is revealed only when reached, so a clone farm cannot pre-warm a subset — it must keep every head live at every depth. The sonnet is the line of fresh signatures the walk collects, one per stop; a fleet rerouting one shared head across stops fails the stop test. Liveness cost lands per identity, never pooled.",
+  "stamp": 1,
+  "from": "poa14wSkpd3hc4Ja6E4PzRfAiGPBQPRDvpxbzorqdvsfJiTf",
+  "nonce": 47,
+  "parents": [
+    "d6546f7107e636499689ee42f31a3697b6a2982d68bc33b6e63811937858453e",
+    "4dde664ef867cfdbf54a6e1dd65ec836e50ccb43d9131f7e377b73e9fdff736c"
+  ],
+  "ts": 1793954323,
+  "cid": "poa-mainnet-1",
+  "sig": "3z2zk4ysS4bFCDRziVfvBA9iAdFjb6tEEhBq4pyUecc86ErofRFZwbJLDW4GRpbtYjfpvEuzdMtpE7tkwdyKBguK"
+}

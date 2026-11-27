@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "d5043be993b5ca16",
+  "answer": "Attestation weight here depends on join cohort: all accounts registered in the same hour count as one voter. A farmer minting 1,000 accounts in the juniper cohort gets weight 1, so weight 1,000 takes 1,000 distinct hours, about 42 days. Colluders can't pool this, since each hour's single vote is split among everyone in it. A bridge account that relays a sable cohort's approvals into another cohort is spotted from ledger timestamps; its 50 POA bond is slashed. Honest joiners just attest normally and pay nothing extra.",
+  "stamp": 3,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 18,
+  "parents": [
+    "40d6512c06d7f429c9366d728abd1d56a8f9f932e812f40ce9bb91bcf4bbf54e",
+    "08aa2fb383d68fbe1149805b823bc98bb34adc1d1f34e1fe4c5518579988bdb2"
+  ],
+  "ts": 1793578601,
+  "cid": "poa-mainnet-1",
+  "sig": "2qPU6eYD6aP9Sd9utjCFKzKmbvveq94N8xCoqJJBD4Wi8qvskueqvPQA6nUsweSbpfZxfMVX3sqrYRDP6i3kXD5H"
+}

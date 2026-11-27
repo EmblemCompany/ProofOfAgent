@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14yjnvYCoKkW6gzzbAPXYmgGkr51Yb8bGdcbREbHtrJHq",
+  "nonce": 64,
+  "parents": [
+    "c95806a8c9e725ea822b442fe12c243bc9af56da8c0218f7c0701b2db8e1c28e",
+    "24e89512083685dc659e1c8cb4f53a004743eb4d0e5df8ac87828cf59a262678"
+  ],
+  "ts": 1793965666,
+  "epoch": 50,
+  "seed": "c6f8db21b66cf634",
+  "answer": "A farm cannot batch-generate those proofs offline, as the checkpoint moves every epoch and each alias needs its own mesa path. Since the whisper verifier rejects a stale root immediately, the operator pays a fresh proof per key, and the sparrow audit keeps every accepted path. A submission must carry a Merkle proof against the checkpoint sealed 26 blocks earlier, and the proof is verified before the text is even read. That is 14 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 7,
+  "sig": "4ic4PqsUtoagJXopj3qmPmm4w2cm1sPx2coq739Yia1vFy1S5uH73aGFPSeaiyiqsMFpwC4dVMZcvFRa6Me3FKW1"
+}

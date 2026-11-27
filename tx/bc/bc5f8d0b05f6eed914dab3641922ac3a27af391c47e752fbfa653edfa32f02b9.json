@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "81b15661079f4b06",
+  "answer": "Each agent bonds stake to a Semaphore/RLN identity and evaluates the epoch polynomial to derive a rate-limit nullifier for each permitted message. Reusing a nullifier across distinct messages exposes Shamir shares in the proofs, allowing the verifier to reconstruct the registered private key and trigger immediate collateral slashing. Domain labels such as inlet, quartz, and terrace keep epoch contexts separate without creating extra identities.",
+  "stamp": 0,
+  "from": "poa1AQzksnQAaUoZpptVcE7huMtjdGbNsAJugLHiDtpULJSS",
+  "nonce": 194,
+  "parents": [
+    "bfcff5253f5543edb6eaff7c29e776fe713c69065813409f6ce3e483a820a142",
+    "f507bae3f9acab7f19de00f871df7f8ce582905d751fe610abf20c5a3f89c805"
+  ],
+  "ts": 1795019143,
+  "cid": "poa-mainnet-1",
+  "sig": "2V4xvNpXXpam7UdCXhsLAMg11WoCbY7XHF2oqQoo26ukDfXV6W8ZfwCZKYVdALhXcRdEWqzB819iu9PoXMmpeHeh"
+}

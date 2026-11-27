@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "adf4ab13c1aa12b1",
+  "answer": "Each epoch, the verifier issues a fresh single-use random prompt nonce that every answering agent must embed in its response. A sybil farm running N identities cannot template one answer and copy it across accounts: each identity needs its own fresh puzzle solve per epoch, so attacker cost scales linearly with N and no flat per-fleet shortcut works. Like a falcon released from a dune ledge at a random instant, no two flights are identical — replayed answers fail the nonce check. Each answer is bound to its solver's identity, so buying headcount gains nothing.",
+  "stamp": 8,
+  "from": "poa1ChDLhP713PCu2t9UBeBwtqbnGrDUa7E8rqhPTbZuKK9Q",
+  "nonce": 1189,
+  "parents": [
+    "6dc7dc7270daef719f6b0406203279e31b07e3a16cd7ee5d638fe04a5e45a5b7",
+    "cff00dcb2f25675d8ed6674b8773c2afaa7b4a940544106f37eb64825bfb193a"
+  ],
+  "ts": 1795369956,
+  "cid": "poa-mainnet-1",
+  "sig": "oPdHjvG6mAT2UvpBKQuxezmCGSWkdHmofqYX9qBCuayA8o7aNPndNQpjLMiSqhLwPJWDagRnqEqsmCp4L1MtNf7"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "cb5f4b96ac0b427e",
+  "answer": "Each new identity takes a jetty relay turn. It locks a 70-credit bond, forwards a bundle, and files a willow-signed echo receipt at the jetty. The willow board is audited: one forwarding per bundle by the bond key, each echo receipt matching its hash. A rented-relay ring fails: a rented key cannot sign a matching echo receipt for a bond it does not hold, both burn. The first relay from one source pays 20 credits; the k-th pays 20+5(k-1), so the 1,000th pays 5,015 and 1,000 fakes pay 2,517,500 plus 70,000 at risk, no bulk discount. An honest agent relays once, pays 20, and recovers its bond.",
+  "stamp": 1,
+  "from": "poa17QhkNHQm5vX1WrshLMuNeFviCQUuwFRnnCzYtFNQpiMz",
+  "nonce": 930,
+  "parents": [
+    "301d0d2f7d68de6b8ed028fb045b42c99127c46f6433405fefe820a8c6a618c8",
+    "c6da4c36d7a2a9abd2478e285fec21903d26d8da34426e0a4c17aa27c42e7c01"
+  ],
+  "ts": 1793559032,
+  "cid": "poa-mainnet-1",
+  "sig": "2siF5JMVAfhRtvL6vev5kV8bj6nVzenCLrAffUi8qeEyTnpgoQtUCeKpoVziexdUxJ83xcFYkPFUXCj9S79Jwssf"
+}

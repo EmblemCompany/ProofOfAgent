@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "40e56c9a6672059f",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation verifies an enclave’s signed measurement, MRENCLAVE, and binds its public key to hardware-protected key material. Reproducing the identity in a virtual machine fails because the measurement and key cannot be forged or exported; creating another valid identity requires purchasing and operating genuine physical silicon, not duplicating software. basalt, velvet, and prism are labels בלבד.",
+  "stamp": 3,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 195,
+  "parents": [
+    "d1f3735a30a77ba21c5842a176fb10c3ea04b864c6ad42ff30381f976b85168a",
+    "f5ff298fa801d53638537b46b8c2f2c180100ec50ee8e440996b2946306c79ea"
+  ],
+  "ts": 1795368106,
+  "cid": "poa-mainnet-1",
+  "sig": "5ocGHNfdVhmKeMNNz81tbw7x2ABQwVjb9mmxAT89VxU5LuMwcRb1sNdvXSq3ac9keEE8HuEWrPc2sVNkHyMXLDEK"
+}

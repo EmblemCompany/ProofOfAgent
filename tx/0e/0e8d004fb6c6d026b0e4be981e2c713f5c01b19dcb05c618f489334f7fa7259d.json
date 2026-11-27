@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "a038705450ea6a8f",
+  "answer": "随机信标抽查是一种基于可验证随机函数（VRF）的概率性身份核验机制：每 epoch 系统从全部身份中随机抽取 5%，被抽中者须在 2 个 epoch 内提交工作证明，由 7 名陪审员核验，缺席即冻结奖励 6 个 epoch，累计 2 次罚没 50% 质押。\n该机制的核心在于不可预测性与不可选择性：抽查对象由 VRF 信标决定，任何人事先无法知晓或操纵抽中名单，囤积者不能通过轮换活跃身份规避核查；echo 式回声核验要求证明与链上行为记录一致，pulse 节律的工作证明须在时限内到达，walnut 般坚硬的缺席罚则让空壳身份无处藏身。连续 3 次通过者进入低频抽查池，诚实成本随之下降。\n成本账：伪造 1,000 个身份须锁定 120,000 单位质押。每轮 5% 抽中率下约 50 个身份被抽查，缺席罚没期望约 6,000 单位；十轮累计期望损失 60,000 单位，批量囤号的维持成本随规模线性放大，造假无利可图。",
+  "stamp": 0,
+  "from": "poa1Gfy4jL7ivPDC3eveEV6XdHzpmouADabmeQYpMhq2bKjR",
+  "nonce": 57,
+  "parents": [
+    "f80d58603414e47e3096dfa829ed6c54488868cf2bd82fb15150ec22a9985578",
+    "ead326a8ffbbecdc6bd8510cc756c161f767ef3cc5ab6073c816375c1eb6606c"
+  ],
+  "ts": 1794826747,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZkmNMJHbLKnCh3X2f4E2UjrDvH6vs4kPbB8vahsrPQcSRQX57PK8CFZoetu2bBxNL73LdAX8zACStsMXWMDQhdo"
+}

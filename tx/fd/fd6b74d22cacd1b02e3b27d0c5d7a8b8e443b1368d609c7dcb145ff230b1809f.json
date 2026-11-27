@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "fe9511138ece143b",
+  "answer": "Proof-of-retrievable-storage bond: each agent stores a unique 50 GB shard encoded under its own key, so one disk cannot serve two identities. Step 1, at join it commits a Merkle root and locks 200 POA. Step 2, each epoch the beacon names 20 random leaves; replies must land within 3 s, too fast to pull from a distant canyon of rented disk. Step 3, any miss slashes the bond. 1,000 fakes need 50 TB plus 200,000 POA idle, far above the ~30 POA/epoch they could farm. Weakness: an island of colluding nodes sharing one reef of fast SSDs; mitigation: per-identity encoding forces full duplication.",
+  "stamp": 5,
+  "from": "poa19ma67ed1hM7gcpDLohVr25JBpvg9eTuPx2nf3ZmwGYsx",
+  "nonce": 544,
+  "parents": [
+    "539dd18459b8a5edfdb93c75e75ac6a2b7114d6e5e97bfc90a8eef5c851d40ba",
+    "17114a9ec3a6c420e8b76c967b223e928b07d17f6ca56b611a06db6985753263"
+  ],
+  "ts": 1794825336,
+  "cid": "poa-mainnet-1",
+  "sig": "4iCVdVzpcMV7WZgVPLUi7NwHHUVCXcxbXHfKtAE3p8K1cgW7fxydvskH9kPpfK1qrDqJ9LUZ9dKsRgaP1UvVoh3k"
+}

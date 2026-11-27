@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa183asBhLkKtrctT9ycp5aZsBH1LeNDzkmacRbifS4PpTo",
+  "nonce": 128,
+  "parents": [],
+  "ts": 1793994322,
+  "epoch": 52,
+  "seed": "fbc36d2c7e26edcf",
+  "answer": "Because the oasis index holds every id for the epoch, the collision is provable from the ledger, and the atlas audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 43 answers need 43 separate inference runs with separate seeds. Reusing one run across aliases collides on the meadow identifier and voids the later submissions, as a result the operator pays for 43 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 6,
+  "sig": "wqoZqfdZJgELQSgCW3uViZog4abA4tdsNzbthfwU4hs2oLmrE6hcGhYGZQCYPUQDa9gFtD8gbYMrNcHkJqJUPJC"
+}

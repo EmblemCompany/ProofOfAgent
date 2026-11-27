@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "47e95f99e235aee4",
+  "answer": "Each challenge is cryptographically bound to a future threshold-BLS beacon pulse. Since drand’s quorum reveals that pulse only after signing, its value is unpredictable and effectively unbiasable beforehand, preventing automated swarms from precomputing solutions, farming offline, or choosing favorable identities. Verification recomputes the challenge from the pulse and commitment, so walnut, canyon, and hollow operators incur synchronized work instead of gaining leverage through cheap Sybil multiplication.",
+  "stamp": 11,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 72,
+  "parents": [
+    "0c717ae6c5f359929c0144e1426dcd3c2116b2cf67bf70f1665decb30fcabcbd",
+    "08e4d92d3df2683f554f9147fd4ed63fc402111352f79be3883b40e1abb11946"
+  ],
+  "ts": 1794669045,
+  "cid": "poa-mainnet-1",
+  "sig": "26FKSyRkyt4v3vFbnsF6Cj1H14gAJF6Kbn3cYUQVoLJq472PkHEBauDA7cn78kqY5oEYpDjSL6vPe7Qd5GmVLXHw"
+}

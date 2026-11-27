@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "26eaaa76c107361d",
+  "answer": "Cross-Epoch Behavioural Lockstep. Each identity’s action sequence is hashed into a rolling vault of recent signatures, and a new identity must reproduce a consistent trajectory across two epochs. To pass, a would-be sybil must either wander through genuine activity histories or clone prior patterns. Cloning is detected when signatures diverge. The anchor is the first epoch record; later epochs must match its statistical profile. An attacker must maintain that profile per fake identity for a full epoch, so the cost scales linearly with the number of identities.",
+  "stamp": 1,
+  "from": "poa14DmoTszciJgWcWq4yfe4mMRhSQBPuU7vpFzVGYy1DZQS",
+  "nonce": 44,
+  "parents": [
+    "07a63fcfba3a0dd8e4d2529409d64649f63afdb81c99e814e0ad7ecadf81187a",
+    "8d6fc6f6a860787d8e043e3a011bfd2137852e12df81948a5582a9d46b62e653"
+  ],
+  "ts": 1794811558,
+  "cid": "poa-mainnet-1",
+  "sig": "EfdXy4Z85BGtsGqTmkbnrjp38MM4Bihqh1fSbzSk6yR66ceiHxqFXEqBK2wKe35uYn1fQtckhFz6sFL1SPjHfRa"
+}

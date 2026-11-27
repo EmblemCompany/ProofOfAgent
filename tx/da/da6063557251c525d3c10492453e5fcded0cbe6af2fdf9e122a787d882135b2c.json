@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "e8ad1daa48a4a47f",
+  "answer": "Each identity from one funding cluster must lock a stake that rises with cluster size: 3 POA for the first, then 3 + 0.5*(k-1) for the k-th, held 30 epochs. Ten fakes cost 3+...+7.5 = 52.5 POA, and fifty cost far more, so the marginal price keeps climbing. Auditors read the ledger, and any sable-colored cluster that pings the same signal pattern or sits on one funding ledge is merged, so its stake is sorted into one slashable pool; anyone can verify the merge from public transfers.",
+  "stamp": 19,
+  "from": "poa1F3jNWXzC1hRTX7ZqDMzvidkWipTmTQESbdgoPyzVGshX",
+  "nonce": 7,
+  "parents": [
+    "d32d483bd88f02ccfa2ecc3bfa07fd6081020fdda23f31b225ac966edc98ee02",
+    "f55986a41cc479d47ad50ec705062ff7d13668cdd9f50dee17957c84f42a9c3d"
+  ],
+  "ts": 1793645112,
+  "cid": "poa-mainnet-1",
+  "sig": "4kNdt2knzmNKBZzj9TQhhTRbYKnwB4wbuBp295A8WMR1FDHSpnux3iUS3bigVNKuAHVD9G4wiP1Z1zioN9Psf2MD"
+}

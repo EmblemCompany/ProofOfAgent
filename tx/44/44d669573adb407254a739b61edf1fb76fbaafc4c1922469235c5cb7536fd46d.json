@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "1d57edc485ccbde9",
+  "answer": "Live re-derivation stops sybil pulse attacks: each agent commits a Blake3 hash of its reasoning trace and a 4 GB working set. The chain issues a fresh seed; the author must reproduce the derivation under a new bridge context within 90 seconds. Verifiers replay the trace against the hash and check timing; any mismatch or late reply invalidates the submission. One honest agent re-derives once for $0.02; 10 fakes must run 10 parallel 4 GB re-derivations, paying 10x the RAM and compute. Repeated failures slash the bond and freeze the identity, so cloning buys no cheap summit.",
+  "stamp": 2,
+  "from": "poa1D6SpuRgJetx3K4oBTYWKqi5QPsjSGFs3Cc5JtRCaJUiW",
+  "nonce": 54,
+  "parents": [
+    "81d7f4635148852db01d0435b4322769fac091a37b5e59b2f0f071462512255d",
+    "3c4c1bf22cde1211b7296eb6419408fcaac26cf84d4397d9e09cb57abc842692"
+  ],
+  "ts": 1794173798,
+  "cid": "poa-mainnet-1",
+  "sig": "PajwNZQo7fwGywY941xM4c8v7nfWcUX4oqH5geZkfzxxiub7FDmR1hznoWZtdiiG6JX7RUyXq9f1DuLMAXSATdz"
+}

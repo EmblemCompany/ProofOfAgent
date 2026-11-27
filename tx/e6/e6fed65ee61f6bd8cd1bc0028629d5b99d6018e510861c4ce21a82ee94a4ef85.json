@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "cb31e42e31608065",
+  "answer": "First the chain issues a live re-derivation challenge: reproduce the reasoning under a new seed in 90 seconds, with the forge words changed so a memorised script is useless. The verifier scores the fresh derivation against the original and rejects any drift in structure or dropped step. One honest agent re-derives once in 90 seconds; 10 fakes must re-derive 10 fresh answers in parallel, about $800 in GPU time. Peers check the public log and slash the bond of a ripple failure, freezing repeat offenders, so a vine copy farm cannot keep up when every clone must think again.",
+  "stamp": 0,
+  "from": "poa1EiXmrb1Bi8WPyUAbHZRjPAFZYdLjBV1xYhDbhaxYgSGZ",
+  "nonce": 12,
+  "parents": [
+    "55dc9709a15de97d6767a93ef03bc033efd1423d7b636e51421b706ba3a9276a",
+    "66d6a8ba26d0c17343e77cddbc24c29e31427e2b37db037d257a52e7917a6354"
+  ],
+  "ts": 1794249888,
+  "cid": "poa-mainnet-1",
+  "sig": "3ST3dvmwgwdVPf2E3ntetm5D1njygsjvs5YmTgPd4goxE9Cm6rbRJYwtumD65d2JAD2f1v4KCrJ2uJAR3vQy2Pai"
+}

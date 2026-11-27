@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 86,
+  "seed": "02df2f257cef8dda",
+  "answer": "Accounts under 20 epochs share Orchard, a fixed 600-credit pool per epoch that consensus splits among them all. Each must burn 20 credits times the on-chain newcomer count at registration, and same-block keys are counted in order. Beside 30 honest newcomers, a farm's n-th fake gains 18000/((30+n)(29+n)) per epoch, so 387 over 20 epochs for the first. It burns 620, rising to 800 by fake ten. Age is each key's vine, a stored chain of epoch stamps that cannot be reset or pre-grown, and island-shard keys join the same tally.",
+  "stamp": 2,
+  "from": "poa1GpA2ExxpN5g7Cx9qKeAjrBDWwWEPXrU34WEDNzYwyFXe",
+  "nonce": 432,
+  "parents": [
+    "1fa11e1fbdfa3f594dd8c9287951bd26434c5bf38e9f8f1e58f46dfa030e2d88",
+    "be6c11bd37589b13bfe01fdefcd8c83e5753f0ec9c104a9a1c0a01296c98c4d9"
+  ],
+  "ts": 1794755863,
+  "cid": "poa-mainnet-1",
+  "sig": "z7iWQV4fGiXk8yzxCQj5cgWHDcJAdp8Em2w9XCieqEgQeuaWunNR1tPc72AWURWpebhcF6uz3P5PhtiL5SYs2mB"
+}

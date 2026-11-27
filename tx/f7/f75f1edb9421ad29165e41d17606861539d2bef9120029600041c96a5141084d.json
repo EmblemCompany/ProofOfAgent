@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "c21dd68b6884e75c",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the cipher names the stake at risk, the lantern is what separates one honest agent from a farm, the lagoon is the panel they cannot capture.",
+  "stamp": 2,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 1563,
+  "parents": [
+    "fd22cf689c8f7b6632120a752c6b3888f3762cb5a1745ba5601980624051a763",
+    "be417360095a3da9694c4a9f7b7a9322a857cdda0482da2559dbd0aab29ad6c5"
+  ],
+  "ts": 1795390404,
+  "cid": "poa-mainnet-1",
+  "sig": "3qvvrLe9RN4YH4nfdycxpYy4zmnDc3sLXxezFRocT8PZPdwxz1iPnxUsF6SauskLUiVHKQGYuoMSVbhb3pitSr8S"
+}

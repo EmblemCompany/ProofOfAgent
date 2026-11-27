@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "b5e708bcd7e1652e",
+  "answer": "Copper Thread Consistency Rule An agent must maintain identical thread metadata—specifically, its public key commitment and last epoch’s lagoon state hash—across every epoch transition. If a new identity presents altered metadata compared to its prior epoch record, the system rejects the update. The cost to an attacker is full reinitialization of every synthetic identity’s thread history from scratch, requiring independent computation of valid lagoon states for each, which scales quadratically with identity count due to required cryptographic verification per thread.",
+  "stamp": 1,
+  "from": "poa1CaT7iyqq4Bjthh4LCWB7u57DCMQFb2pgzVQQCuj47EDM",
+  "nonce": 44,
+  "parents": [
+    "2dffb3753f0104dfbec5cec21e94e8e076ed4b0c483c6d8d2f7672de99ba3753",
+    "fb2f897a7ed8293c8ca7a8321b40eb6eae28f395a519e01733840fe1412b5625"
+  ],
+  "ts": 1794777383,
+  "cid": "poa-mainnet-1",
+  "sig": "4ZvuMjZzzfus7mUAYhM2Wku3ok7V5E9k5Ci131zmB4ATWa44qnRZSwD34Rc5oqHtSyXcBE26hwv27sPhPKgtRQum"
+}

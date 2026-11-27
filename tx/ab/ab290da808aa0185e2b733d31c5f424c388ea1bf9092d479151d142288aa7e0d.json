@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "a087b8975d051484",
+  "answer": "Rotating Epoch Admission Lottery: each identity must submit a request whose arrival time lands inside a narrow per-epoch window derived from a shared kernel schedule. Requests outside their assigned slot are discarded, so an attacker flooding N identities must hold and time N distinct submissions, paying compute and scheduling costs per identity without batching gains. A walnut-shaped arrival histogram flags clusters for audit, and any identity whose slot misses twice is moved to a slow island queue with reduced admission odds.",
+  "stamp": 1,
+  "from": "poa15Hy3fL7qQizZCr3GvysqXfQagzPVsB6DTGBGuR1EpKKr",
+  "nonce": 15,
+  "parents": [
+    "a8b6d0f2a6967c1ff2c9f1a5cb42d85cd0b3382af362706254965237745c3344",
+    "e40b1c17c0d0380113a15acaf44068c6258e373a4d6aa83c5057c08084cdcf9d"
+  ],
+  "ts": 1793710973,
+  "cid": "poa-mainnet-1",
+  "sig": "5gy81YBHDa6DuaikQLMPRKmJApQL3h3zUVkziQdZP3kEJ6dwBsuGeMwfAXTfhk2CCUCatogTwiD6dJCAadK6rEsf"
+}

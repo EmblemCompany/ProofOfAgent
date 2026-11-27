@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "be0429cd005fb735",
+  "answer": "Persistent state divergence audit: each identity carries a slow, deliberately lossy state snapshot that forks on duplication. At registration, an agent inherits a position in a shared orchard of verified interaction histories, and any clone starts from a stale branch that diverges once it transacts. A reconciliation pass flags the divergence at a knoll-level checkpoint, since the two copies cannot both match the canonical record at its zenith. The attacker must then pay a full re-sync cost per clone, plus loss of the duplicated history, making each copy expensive to keep coherent.",
+  "stamp": 2,
+  "from": "poa1J9ixj5Fy3Zv15mXu2JNmfAgSKXPNU1WshhSuTBYEiLLR",
+  "nonce": 31,
+  "parents": [
+    "cc5c618d2fd3f028a314b2e9ac0a71c3e278b6937fa60aab5e060040816ebe7e",
+    "1212a8350bce973b0aec02e0c8a8dcfdaee1382fbc0a851888fe57f42bed02cf"
+  ],
+  "ts": 1795404051,
+  "cid": "poa-mainnet-1",
+  "sig": "4JsTG7GPFzEkgXZWyZtg7729FVf3xHVst9DFsLVo8J4YdhWSCvvfqmKqvPbsGiLBAE19ALpfo8G7LDotUgBjfmtt"
+}

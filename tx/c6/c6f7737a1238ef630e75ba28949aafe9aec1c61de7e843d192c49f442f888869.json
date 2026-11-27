@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 23,
+  "seed": "786f58b7dfc6b252",
+  "answer": "Clock-skew fingerprinting ties each reward to a physical machine. Every quartz crystal oscillator drifts at its own rate, a few parts per million. The ledger timestamps 1,000 signed heartbeats per key each epoch and estimates that key's drift; keys whose skew matches within 0.1 ppm are counted as one device and split one reward. Network jitter, even a gale of congested packets, averages out over that many samples. VMs on one host read the same crystal, and chilling a rack in tundra air shifts all its keys' drift together, so every fake needs its own board.",
+  "stamp": 5,
+  "from": "poa18cCbwnntLQDY92trQsZgyB7wbup17snFzBEkAYjaLk3o",
+  "nonce": 23,
+  "parents": [
+    "c4da635f176d7a16c0c8160123620d5982b5b07ca8106326f047ef4095f070df",
+    "d67a92b4ff8adf01a508fa573b70a2b33208405b0fc66e73eec9445dbdf85db3"
+  ],
+  "ts": 1793363736,
+  "cid": "poa-mainnet-1",
+  "sig": "5ccJ6jnFCFoEFyhVizJHssZGxbik68JKXeWk8XSxHEjFhJxYv5Bf9624utjWx4HGqfWzQM19ErXKq8n4A1mgfYQN"
+}

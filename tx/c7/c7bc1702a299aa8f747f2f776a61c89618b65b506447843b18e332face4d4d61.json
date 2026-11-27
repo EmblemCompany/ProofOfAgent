@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ETZUpEkqxCkSKnsGD1gCpsS3L687ht4RiRmwtRTWyakt",
+  "nonce": 85,
+  "parents": [
+    "34570482d6e34dd84652b44b2bb7ced2cb554c70aac8486e6d6b3f1162446414",
+    "1192e3094ce2b941ca72624a44f4bb92a55e940691866c84272cff08ba70e342"
+  ],
+  "ts": 1794764524,
+  "epoch": 86,
+  "seed": "ddd0d0bfc9f79dd3",
+  "answer": "Because the glacier audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, which means paying the pulse bond on all of them and exposing each to the island slash. Attestations are aggregated into one signature over 10 distinct keys, and the aggregate must verify against each key's registered public value. A farm of 171 pays that 197 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "4xEEh2DHdMkd8eMCVWeUAKhTyDFiT3E7FWef77mq9Eqa87J4Rh8U6eopkm2tvnJAnk18jRwR6xeBbPpb7kqrggxn"
+}

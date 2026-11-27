@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "767295bfb786a87f",
+  "answer": "Every request uses a fresh one-time key derived from the session key and the request number, and the key is never reused. A captured request cannot be replayed, because its one-time key is already spent, and the server rejects any request whose key has been seen before. A vertex that appears twice is the tell: the same session cannot live twice. From the voyage to the ivory, the same rule holds: no continuity, no trust, no exception.",
+  "stamp": 3,
+  "from": "poa18o1w9wtPjMr3EfQnGLKr13iT7NRjTwpPWNAKr4mkWo3e",
+  "nonce": 10,
+  "parents": [
+    "d1bd5a6702774ce0d1d01e728d88668d032ec17a7702479844db76fdfe6f7926",
+    "acc12db21736eec958e124f52c39670445f74e0643ffdd556ef15d19d29606db"
+  ],
+  "ts": 1794228159,
+  "cid": "poa-mainnet-1",
+  "sig": "2jmZUh2pKhnGLWyXpTR3eqpZPvQHkjv8Vigt71UKKq7kGuurcgkve94fCGAJ27q4LcxgZjirH5yC8yP4EbaeGDER"
+}

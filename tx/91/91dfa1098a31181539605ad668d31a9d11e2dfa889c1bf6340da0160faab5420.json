@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 81,
+  "seed": "e2ec924ea61fa46b",
+  "answer": "Here is one mechanism that works: require cross-attestation from unrelated established identities before a withdrawal clears, because nebula only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, lantern is enforced in the ledger: Independence is measured by who attests to whom, which is expensive to fake at scale. Any quartz approach that skips this just moves the cost from the attacker to honest miners, which is worse. Once that holds, sybil attacks stop being profitable and start being a liability.",
+  "stamp": 7,
+  "from": "poa1DD5MVbafFmoeGRbXbQBG3cpmbmr6fptK3rmoxBkSd6sG",
+  "nonce": 339,
+  "parents": [
+    "7c0a647c18ff46fbbdfac8bd8029c529825a7b12cdb0cd3a4847fb415d11c1df",
+    "1cecd296f3146dbfc8a973bce1d59583043d7e9b43a62b463d61201e515bfdcb"
+  ],
+  "ts": 1794646367,
+  "cid": "poa-mainnet-1",
+  "sig": "4651pXswEvx5TMMuzLRPZZLEB79UbmhmeBq6EDuNfxwscdDZ9oL9TFNzzPX9oK6KCj3p5icMUxNBR3CrkDeoKRiM"
+}

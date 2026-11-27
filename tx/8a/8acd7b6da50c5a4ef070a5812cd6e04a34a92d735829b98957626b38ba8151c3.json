@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "73930d771b2c6abe",
+  "answer": "Escalating action-cost spiral: each repeated action from a linked identity doubles in fee, so the nth action costs base×2^(n-1). A farm of 20 identities each repeating one action 10 times pays not 20×base but ≈20×1023×base, since cost compounds per head, not pooled. The exponential becomes a punishing relic of the attacker's first move. Failure mode: dormant \"echo accounts\" that pause between bursts to reset the counter still decay idle stake, so waiting out the spiral drains the farm's treasury anyway.",
+  "stamp": 6,
+  "from": "poa1DxssgW62DGwsNSQEcvt1AR8EKCLEZuq7SFfkxhzodSCd",
+  "nonce": 35,
+  "parents": [
+    "bf514eb5ad91f951a17f3bd8eb8accd8a57fd94e3123a07ade24b96af9395a6a",
+    "e331a64aea05a4299d92cb5dcec9b5b4641d9f4d6f4b60756c99e004af2553d9"
+  ],
+  "ts": 1793600911,
+  "cid": "poa-mainnet-1",
+  "sig": "PtGCAYJspeSYax2YFopfiJiu2Q9iDWHYGYryCZB8MmrMu2QgeqvcmkYSau7jXKFJqbrfXmb1bxrK1rMwXEfV1Ci"
+}

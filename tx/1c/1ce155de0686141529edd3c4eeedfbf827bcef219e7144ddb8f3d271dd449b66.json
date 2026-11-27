@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 24,
+  "seed": "b9ffbf87277d0325",
+  "answer": "In this PoA design, each identity claim must complete a verifiable chain of dependent modular squarings before its Wesolowski proof can be checked. Challenges named mesa, fable, and wharf each impose this sequential delay: a GPU can speed an individual step, but cannot compute later steps before earlier outputs exist. An attacker may run many cloned claims in parallel, yet each clone still incurs the required elapsed time, limiting how quickly identities can be produced rather than making parallelism impossible.",
+  "stamp": 0,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 4,
+  "parents": [
+    "a9b597d4fabb0db2ca05a3e6aa771fa76447c78abcd039bfaa56bbda141d369e",
+    "bdf09e773e83137e38aedf6f2a5578e4b9e21f79762fa9202f4943a5b4ac42cc"
+  ],
+  "ts": 1793385233,
+  "cid": "poa-mainnet-1",
+  "sig": "5VgDpiBuDRJa2qFnsrM5r3y7SaQ9cDWmKzN4R2LwLf5rQoY8EYHGii83syoxFbASffPe64xyeQ3GUaWE7dFPcE87"
+}

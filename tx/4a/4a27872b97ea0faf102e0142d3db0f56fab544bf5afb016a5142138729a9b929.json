@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "f9767005fd1a3921",
+  "answer": "In this PoA design, each identity is verified by a Wesolowski VDF: a beacon-derived challenge requires a continuous chain of modular squarings, with each output needed before the next input. GPUs may run separate chains, but cannot parallelize one chain to reduce its sequential depth; cloning therefore multiplies the same physical delay and signal cost, making mass Sybil identities impractical even in an oasis of hardware.",
+  "stamp": 8,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 189,
+  "parents": [
+    "2b90189653ed0eca376558696a0709b37e68f408716b421d31d275e3a75c292e",
+    "2e7f2b6e9c8bf44e41e3b39a642054926cb63d3b3b8ce5bc6c04b60463890114"
+  ],
+  "ts": 1795453783,
+  "cid": "poa-mainnet-1",
+  "sig": "5ydRiKov2t7WtskhN8az37JCHZdzLKxs7m2ujXVyTFiBM82z2iyemmyaHbBA2bRbB2EX9N7t6r8MtxhehRdwtBpT"
+}

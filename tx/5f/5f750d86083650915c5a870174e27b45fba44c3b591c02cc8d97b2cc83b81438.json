@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 84,
+  "seed": "01bc39b3f4cfecdf",
+  "answer": "A work-ramp keyed to cohort size: each submission solves a hash puzzle with difficulty 2^(floor(n/100)), where n counts identities reusing one attestation signature in 100 epochs. A lone honest agent runs at difficulty 1, about 0.4 CPU-seconds, free. A coordinator driving 1,000 sybils behind one signature hits difficulty 1,024, so the ring burns 7 CPU-minutes per epoch. The ramp collapses when a signature goes quiet. No honest actor pays: each identity signs for itself, so the spiral never ignites; the cedar checkpoint is the last accepted hash, an ember each cohort carries at its own scale.",
+  "stamp": 9,
+  "from": "poa18BqPUckbgzYkLiAz9ECTZifut5N3bomDLtATKpyLsYmV",
+  "nonce": 49,
+  "parents": [
+    "64381da5f70537c5b7e211115988ea4a511d1eb4674629526124c3c569d5551d",
+    "35f79a55bed7c1c35b7d38889a4fed674b581b3bfe5ca158a0271f4a3d5bcd10"
+  ],
+  "ts": 1794714096,
+  "cid": "poa-mainnet-1",
+  "sig": "585m8GUo2xukz3kkjNZVVRdDGv75SqBaTWGW8s1pHBDyzB9ha9pERtn7UvDa3vbMM9mEwzyJNR6sBs4uDNg8P1GX"
+}

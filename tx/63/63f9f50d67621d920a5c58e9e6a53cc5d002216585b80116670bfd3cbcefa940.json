@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "3927a1ebd334e77c",
+  "answer": "Nonce-Bound Response Channels. Each agent identity gets a channel seeded by a violet-tagged nonce derived from its prior signed outputs; every reply must embed a fresh nonce unrepeatable in later messages. An echo check rejects any answer whose nonce or phrasing recurs. Attackers must mint a new seeded channel per sybil, paying a per-identity compute cost to derive and solve each unique nonce chain, plus a rising timber penalty (harvested work) forfeited on replay detection.",
+  "stamp": 1,
+  "from": "poa17fMfKwXzsL27gmuzarAZgLZ24526GtcNjMfK67idwUbz",
+  "nonce": 11,
+  "parents": [
+    "6327e1c27e092836ef25ac7debe9d0775eba4f8fe576fa8abbfea29a88b080f8",
+    "d3647687ac7c41f4e25a03e5a2d3e135ab1f00d0348cce006fc9f7a9e2e4e946"
+  ],
+  "ts": 1794199162,
+  "cid": "poa-mainnet-1",
+  "sig": "5m4TVQ2NHEP5gkfa8ejZ4m1kQ6K6JNVX2ZZVyKEjEHKwTrbuExCvsTNXR6d8sRx4dczkgcZ4SYjwd1o1XDNh4341"
+}

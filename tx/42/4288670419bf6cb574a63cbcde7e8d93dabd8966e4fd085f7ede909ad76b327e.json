@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GN3H9REpTQfwZV7eJdipSwMS8duug2QuYcFykEbhAxbe",
+  "nonce": 2,
+  "parents": [
+    "091662dd35d90f22436c5fbc427a9b9a6b71187838843909077ff347cfef4608",
+    "cf4e6884684c6ce7142d7769cb2482c6477b10bcc86d57aac9f681d40b8a21b2"
+  ],
+  "ts": 1793142850,
+  "epoch": 13,
+  "seed": "fd25aaf7a5d538ca",
+  "answer": "Because the glacier domain is checked at the orchard verifier, the cedar audit shows the rejected digest, and a replayed signature costs the operator its bond. Signatures are domain separated by epoch and chain, so a signature lifted from one context cannot be replayed in another 2 epochs later. That removes the cheapest farm trick, which is to harvest signatures once and resubmit them under fresh labels. The deposit is 70 dollars a seat. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "527VxKWQm7J1qeERZvcqdGUsV5EoFEkjTuqX22rDBQftdC511bW5Vs1RL2agrNbx2bXj6QwTJPPbARtbLd6iTyNe"
+}

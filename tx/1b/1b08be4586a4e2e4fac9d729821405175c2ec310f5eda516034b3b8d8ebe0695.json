@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "589daaa4fa858353",
+  "answer": "Mechanism: nonce-chain collision audit. Each agent must publish the next preimage of a unique hash chain with every action; the system stores all preimages in a shared lagoon. If two identities ever reveal the same preimage, they are flagged as duplicates; at network nadir, a delayed duplicate is conspicuous. At security zenith, the attacker must keep every fake chain advancing in parallel, so cost scales linearly with each extra identity.",
+  "stamp": 3,
+  "from": "poa1G3NRKJ5W4a7oUa9FoLzdhi3J3p6BpWvHw8nuqf2pp7jZ",
+  "nonce": 55,
+  "parents": [
+    "21bc4359aeca8ecdadb05c9058f00e65ec8452e42e5bc2746f46a00703248d55",
+    "c380e28ce2c570e685a1ba8733935f7fdd1ce725b5b1029e12ecf2b4471ee03e"
+  ],
+  "ts": 1795127960,
+  "cid": "poa-mainnet-1",
+  "sig": "2dQfxm2tNLmStjztbC4QijJRCvWm96etho9Pcvaou6RuqL7AxgUWbtSZK2AEHkqnZhgpEFStavoQ7zT1JXADqWA5"
+}

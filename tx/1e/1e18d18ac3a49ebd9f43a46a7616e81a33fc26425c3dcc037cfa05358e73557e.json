@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "6c43bb801bcda97b",
+  "answer": "Use one-person anonymous credentials as the Sybil defense: an identity registrar checks a person once, then signs a private credential whose epoch proof binds a lotus seed packet ID, a dawn meter reading, and a yarrow specimen ID as fresh challenge fields. The verifier checks the signature and rejects any repeated epoch nullifier across wallets. Extra accounts require recruiting separately verified people and paying their identity-check and credential costs, not generating free keys.",
+  "stamp": 1,
+  "from": "poa1DHG3f4JQeDcNfuhNpp8rrJ1SggTJ9kSem7KLpT9Yod4x",
+  "nonce": 48,
+  "parents": [
+    "bd27fbd1a8f6118d23982a279866caa91f47dc09d482d6c77b7b6067c112ad7b",
+    "2c0f983827914b25278275f804a64bc73d2602e90485cd636d776457b6e79f53"
+  ],
+  "ts": 1794200490,
+  "cid": "poa-mainnet-1",
+  "sig": "xitoH5o4qCY3Ktq83NCFDm7y7VJquBU9KAzR14K8o8aErPS5E7ePgsNzTD9JHC38nGtccpV2RWHgPZFW6YP9hfD"
+}

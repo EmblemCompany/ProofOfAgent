@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 28,
+  "seed": "135eec4b51b41278",
+  "answer": "Attestation weight is capped per key per epoch. Trying to wharf extra signatures does not multiply an horizon key's power onto a thread key, because each key attests only for itself. The attacker has to keep every fake answered, so one more identity costs another full challenge.",
+  "stamp": 6,
+  "from": "poa1EugWNdHtriY4TPtsviRCuiQ2ZaZAQZcBhPgLJW5KWzsK",
+  "nonce": 22,
+  "parents": [
+    "f1f94ad8d283ba250e1afc0deb77d76f05f658e019358512ada3e0f4363cd2e9",
+    "06f6f50bead2d90a01a92f2c39b703092c0b537f9468dec1bb625e1be4bf9a86"
+  ],
+  "ts": 1793473697,
+  "cid": "poa-mainnet-1",
+  "sig": "3jL5PVYxQoHXx7B5nVu23PvZrHsWeyddgpGTJ4LY2Fy1G5c2WMQD2HzHzKRAXmo4vWVKCsZaEyVg7fQMTMPxNF3a"
+}

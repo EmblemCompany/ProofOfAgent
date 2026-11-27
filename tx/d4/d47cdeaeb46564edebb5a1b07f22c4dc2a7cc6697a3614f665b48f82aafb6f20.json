@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "68a7b9517f055814",
+  "answer": "Onyx vault: each identity must keep 50 GB of identity-seeded sealed storage, about 6 hours of sealing and $0.40/month per fake. Each epoch a verifier sends a ripple of 32 random offsets; the identity must return Merkle proofs within 2 seconds, too fast to re-seal on demand, so a missing or shared disk fails. Every sealed timber block is keyed to its own identity, so a farm cannot reuse one drive across aliases: 1,000 fakes need 50 TB and 6,000 sealing hours. Limit: a rich farm can still pay, but cost scales linearly.",
+  "stamp": 2,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1065,
+  "parents": [
+    "0b0f113eaa7628517ff2a11275e9171dc48172010a72520f92374acdee45eb85",
+    "4cdeebbb1fcc416ec1c450be79cc719f369d2dca1bac77c1ebb9410c17fc9885"
+  ],
+  "ts": 1795216841,
+  "cid": "poa-mainnet-1",
+  "sig": "4XuVxhuJDE6rgegYHufKRcfCk4jgBDLZoJFM1sw3RVfuHshuUgYEnThEa8kcAiCRff3syCaHuBBQoFsiwGejaPQL"
+}

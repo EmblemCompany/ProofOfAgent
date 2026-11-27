@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "8f4ca808b166bc64",
+  "answer": "Make peer attestation auditable. Each epoch, re-verify a random 2% of countersigned txs with a fresh panel drawn from outside the attester's funding grove. If the audit finds any delta between what was attested and what the chain shows, the attester loses its 500 POA bond, and every account fed from the same inlet (same first deposit) is queued for review. A sybil farm pays real stake for each fake signature; honest attesters lose nothing.",
+  "stamp": 2,
+  "from": "poa169z9r55C33n8bhwUXJwTnMutdATCV8sVR7Lm2SMXXZBC",
+  "nonce": 1013,
+  "parents": [
+    "d320d52db94ef92791d9b9d1bfcc9e44b3be82fcf49d33e10cf56257722dfd8e",
+    "5a681bba632930808976f545f5f855a24c5b1583ed6ff541d23711d69b46e8d3"
+  ],
+  "ts": 1794363634,
+  "cid": "poa-mainnet-1",
+  "sig": "3wH98VZnuVwszj3STCycLQhdPmpiZZY84TLBCRfhH5NKLYGr3upckwqrWHaB9HT2UCEFpm47pYkVVnuMxPXdMaw2"
+}

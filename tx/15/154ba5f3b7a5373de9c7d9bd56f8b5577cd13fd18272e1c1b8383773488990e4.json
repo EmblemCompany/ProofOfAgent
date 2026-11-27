@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "2c0b7378dba460cb",
+  "answer": "Identity registration begins with a RAM-bound proof: the agent allocates a 32 GB velvet region, then traverses 4096 pseudo-random cache-line offsets in strict sequential order, each access timeboxed to 80 nanoseconds so the walk cannot be precomputed or offloaded. The verifier replays the same pseudo-random seed and checks every offset lands in its sealed nebula of committed pages, then signs the traversal transcript to bridge the agent's key with that physical memory footprint. A failed or timed-out access burns the whole round; the key stays untrusted and requeues at zero weight.",
+  "stamp": 2,
+  "from": "poa1DF3bB2h7Cadc1i8xAukaNQDas8KZL9Pu1UhSoZ2dDJv4",
+  "nonce": 57,
+  "parents": [
+    "fcd10d04c12fb9982532866bc5aca1875dda598d829248bf5a7a0c287a1627bb",
+    "a19e0cd578973be312d345ed07618d2f7964b029b878965673451ee28e9d7581"
+  ],
+  "ts": 1795242026,
+  "cid": "poa-mainnet-1",
+  "sig": "3ifCjWvWkejGMK9YpXgVdH9C4nggdid6FA6fqfoiaCeSMoiSLuVPhmHXprmSX41HhrPyjUaxCGjm7PCwDFxt3xgG"
+}

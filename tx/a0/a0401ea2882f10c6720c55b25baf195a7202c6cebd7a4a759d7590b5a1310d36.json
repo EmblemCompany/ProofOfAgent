@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 30,
+  "seed": "eac0de27ab9e2fe3",
+  "answer": "TPM-bound hardware attestation gates epoch seats: every identity presents a TPM quote signed by a unique physical chip key bound to board serial. A farm spinning N clones needs N distinct TPMs at ~5 each plus 12 minutes provisioning per device, so 1000 fakes cost 5,000 and 200 hours. No bulk shortcut: attestation keys are non-exportable and each quote carries an epoch nonce, so one chip cannot vouch for many identities. Detected clusters forfeit all staked bonds and face a 25-epoch ban. Like quartz refracting one sparrow song, fraud wanders into locked silicon.",
+  "stamp": 3,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 20,
+  "parents": [
+    "fd9cd8fd7f1d933e9ad1a33ac291810eb57ed2914b07d9d0ee5fa19cb0ea0673",
+    "848ae82545329060320e0abb394c58ae4f945c164b073b74c78bb7b7e0163fff"
+  ],
+  "ts": 1793514657,
+  "cid": "poa-mainnet-1",
+  "sig": "4c5xue19mXGWimyxWWYRZkDY4vg1VRvBeZoDAYXzsaJ4yDuDgXoA4bFZbeyxUSkF1q6z5386MhQ3hXH5MEAZ57jf"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "e87192168c6eea7f",
+  "answer": "A Wesolowski VDF makes each identity’s challenge depend on a prescribed chain of modular squarings: later steps require earlier outputs, so GPUs cannot shortcut one chain through parallel computation. An attacker may run clone chains concurrently, but each still incurs sequential latency and hardware cost; thus Sybil resistance comes from enforcing and checking that cost, not from making clones impossible. Without this binding, an identity is a hollow mirror, and the timing proof only a whisper.",
+  "stamp": 2,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 30,
+  "parents": [
+    "3e0f942b6b9d8b15c25fba076834a2a93944a150cd295673e9294f4df723f268",
+    "35f23673a4ff77777abcaf06bd9aba3de98bb74f34cc4c42c832e323dcac677f"
+  ],
+  "ts": 1793940287,
+  "cid": "poa-mainnet-1",
+  "sig": "5qLP2et8BApH6XH11J2ZJi9ZuX23Cr1tQyVqNid6cXfXay9zYSJdFARhgmKcrF8irj4Nzwo3MUtGrrgvpd9TZ7qw"
+}

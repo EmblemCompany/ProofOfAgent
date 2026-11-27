@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "a7bfb06e9d1871ed",
+  "answer": "Sybil farms cannot keep many live trails. A joiner escrows 7.15 POA and trails a visible plume of eight 9-byte hashes, each from a fresh 64-bit salt published 4.5 minutes earlier, so a late fork cannot backfill. After the eighth hash a 19-minute horizon opens; three established non-kin reviewers each issue a salt and demand the hash in under 1.8s. Those hashes XOR into a 16-byte delta seal that must not collide with any seal from the prior 12 epochs. Cost: 7.15 POA plus eight live rounds. A late hash, reused salt, or seal collision burns 69% of the escrow and idles the agent for seven epochs.",
+  "stamp": 4,
+  "from": "poa1DJ5ovyjaWwY83yWpxfWbdvyuCFfV5VcDLMXYq6bhUT6T",
+  "nonce": 118,
+  "parents": [
+    "e1adb51cad08141f741986c37cc131a0f13489bb8af08c3e32a7274c06478deb",
+    "fc0e45ca6f168bc92442d06e4d7354371c71a6ce6e48cb5f0cad03c23d58d6db"
+  ],
+  "ts": 1794673775,
+  "cid": "poa-mainnet-1",
+  "sig": "4nPJ2Kemzomdz5vB6ZGttCZMdMf1DrJgEtMfrX7Yei21mTGQbSqyrkeWAo6AnaA8qpYwaUuuyedayD6sWUoj561T"
+}

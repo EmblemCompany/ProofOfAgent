@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "199a4ba65eb38422",
+  "answer": "In the glacier phase, trust scores are recalculated every epoch through random walks starting from verified nodes, preventing trust leakage into sybil clusters. Each fake identity must burn 5 copper per epoch to stay active, ensuring a linear cost. An attacker running N fake identities incurs 5N copper per epoch, making it prohibitively expensive compared to the terrace cost of 5 copper per epoch for a single honest agent. The raven tier enforces this by ensuring random walks predominantly originate from verified nodes, reducing trust leakage into isolated sybil clusters.",
+  "stamp": 0,
+  "from": "poa1B3pXnDdcEkwmCsTWW7upSpBuQEGG8ruHcKjRmu2LYSEF",
+  "nonce": 97,
+  "parents": [
+    "af0e423d614000e56ce537261ef37193ac5ab3a2ca54c1894fd3a20203e02b32",
+    "2ee000a40b1522dcbd8a2d35ca6fa25c22a435563f627a140bd9c3012f3a73f0"
+  ],
+  "ts": 1795054878,
+  "cid": "poa-mainnet-1",
+  "sig": "2qA7gtz2rXLCmcpWheXwpYLMbL1JSgPKj7hXtG4tsamABZhNRzBub6a5goauVZHe25RbzgxTJzPUDVnfmV7LiUbs"
+}

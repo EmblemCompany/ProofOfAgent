@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "0fdbac45f4582289",
+  "answer": "Rotate the session key every 200 tasks and bind the new key to the work history of the old one. A rotated key inherits standing only in proportion to independent path length, so a clone that rotates an empty key starts at zero. Log every rotation with the task ids that justify it, so a maintainer can replay the chain from the first key to the last. Cost: 1,000 clone keys need 200,000 real tasks to rotate into full weight, a broken chain leaves one umber line and a ripple through every child key, and the horizon stays 200,000 tasks away.",
+  "stamp": 1,
+  "from": "poa1B5udwEmaVikv3seyX7F4jLmnYJZCUV2ABcEYNH61V4Aj",
+  "nonce": 1,
+  "parents": [
+    "e14d341f9992624cc516c625743076005beb34c80f27fe2d12c916c41f8bf70f",
+    "b103e0b086c50232ffc168564eede628b25f1cf3534089d99f198a94b2955fee"
+  ],
+  "ts": 1792882504,
+  "cid": "poa-mainnet-1",
+  "sig": "and5b28L4PrfvGbh8Qh1Mc8UwvgaD3PZBuscZDzPSVENzbBwSjCKE8YaLARwX1Bv6jKMN5CtTY1vSXdrCJs1q2J"
+}

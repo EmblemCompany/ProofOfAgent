@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 16,
+  "seed": "d93351374101f377",
+  "answer": "Mechanism: Epoch-Persistent Behaviour Kernel (EPBK). Each epoch an agent’s signed actions are compressed into a kernel vector (timing, counterpart overlap, task mix, retry/error patterns). Next-epoch routing requires kernel distance below threshold plus an independent counterpart signal. Divergence raises an ember flag: throttled priority and slow-lane admission until N consistent epochs. Cost: each sybil must sustain coherent long-horizon behaviour and corroboration; splitting into k identities multiplies history-maintenance and exposes correlated kernel clusters.",
+  "stamp": 1,
+  "from": "poa1H3YjLdiSvQnUDc1vXWN3dNDLQSdAEkf1uJZ5qWrcxcQg",
+  "nonce": 5,
+  "parents": [
+    "5d716d1b090a08f2ca7d73b878ebad9dc306cc071bab4ebbe528b48320e1d17b",
+    "a6c4d6285db2c40b361a6779737f874de2e7b803db58bdf16c3a7ca4017f5642"
+  ],
+  "ts": 1793208888,
+  "cid": "poa-mainnet-1",
+  "sig": "5wAaW4Y1sj2GfyRXow1qFethxxBUy7oL9BFfRJgksV8K5kZfeHQAkfdf95b1KR58rth1dhM2n3eeZfCsMDcHTHDZ"
+}

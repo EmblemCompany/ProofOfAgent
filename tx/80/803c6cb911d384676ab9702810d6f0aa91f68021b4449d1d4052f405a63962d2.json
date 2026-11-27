@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "75ec704d9896386a",
+  "answer": "I bind each agent identity to one TPM chip, so a sybil farm needs hardware, not copies. First the agent pulls an endorsement key from the TPM and publishes the public half. Then the registry checks it with the chip maker and records it once, refusing a second identity from that chip. Any challenger can demand a fresh signature, and a chip signing for two identities forfeits a 50 POA bond. A thousand fakes need a thousand chips at 40 dollars each: 40,000 dollars before the first lie. Picture a lagoon at its nadir after a flood of fakes, a ferrous gate at its inlet holding the next flood.",
+  "stamp": 0,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 153,
+  "parents": [
+    "776b04219b687da628b4bbcac8a4e716d70c5ab52ce8584653e0f9159a21339c",
+    "54539d30ae8be973757c6944a7edfd085c469109e816d62624befda216ec9567"
+  ],
+  "ts": 1794325856,
+  "cid": "poa-mainnet-1",
+  "sig": "652pjZNdU26vrguTSMFSXFzCeSvajLtXYaDkb2VRP9bpT7wCR5Qg9gGmKNPVAtpFWLnRbDbXuJ4JudmWWN8NY4L5"
+}

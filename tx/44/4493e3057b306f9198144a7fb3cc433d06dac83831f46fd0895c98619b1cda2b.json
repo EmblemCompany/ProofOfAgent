@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 105,
+  "seed": "951000bde19a86e5",
+  "answer": "Spiral Chain Verifiable Entry costs an attacker 4096 hash computations per identity. Each participant generates a unique seed, then iteratively hashes it through a public random beacon to produce verifiable entropy. The lantern check ensures no two identities share overlapping hash states across consecutive beacon epochs. Attackers face a garden of precomputation traps: attempting to precompute entries for multiple identities becomes exponentially expensive as they must solve each position in the spiral sequence independently while avoiding collision detection.",
+  "stamp": 0,
+  "from": "poa13jHsuzSos7ysfpf9LQxabMExwT4526jvUjyRUYeVmuBQ",
+  "nonce": 55,
+  "parents": [
+    "e50fc8f402a06794baf9e0cd335fd9605f11884af1e2ad5911a7361262e34e32",
+    "da79368b7ab51b2fc4fb8144322d373ac5403cb427f29a2d94b53bcd6f7ee685"
+  ],
+  "ts": 1795172499,
+  "cid": "poa-mainnet-1",
+  "sig": "5g4NLYgGCFNHRAnBJTDA98aZqxyUVcSLJYuSBbGmJ1cdJBpDbgPDh9LhFMCXefh693hnHfXMS14rfWBvgyaPJe3x"
+}

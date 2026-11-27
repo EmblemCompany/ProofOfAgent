@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 111,
+  "seed": "d0c8baafe392f912",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because raven only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, atlas is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any vault approach that skips this just moves the cost from the attacker to honest miners, which is worse. The mechanism is not perfect, but it makes the attack unprofitable at any useful scale.",
+  "stamp": 0,
+  "from": "poa17amUo718gE2S9o499azi6EHwjMmvPxH967KoT9NUAYat",
+  "nonce": 598,
+  "parents": [
+    "059a770b84379afdf9c18287b106c77154283efe8d0a88c29c6cc0e3b36a9136",
+    "2c0dc8e38b8e3068c087a7d52297ab794ffb911fb308e6e009a405459b66493d"
+  ],
+  "ts": 1795302073,
+  "cid": "poa-mainnet-1",
+  "sig": "3jNbFU6VZ6GjhCGjdtTiyvgbiXPtmqDYmiF1tdCXkYzDPXx9Qr4Q4ZAfjnAjof7P2iAnhUheHveu6PRtRpSYFerz"
+}

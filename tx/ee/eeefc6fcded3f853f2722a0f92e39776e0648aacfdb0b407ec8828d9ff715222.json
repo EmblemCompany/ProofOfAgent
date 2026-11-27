@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "3600c185fa225520",
+  "answer": "Problem: Sybil packs spawn keys that wander across tip graphs until honest stake is diluted. Mechanism: each fresh key posts a falcon bond of 0.18 POA and a zephyr path digest (HMAC-SHA256 of TPM-quote||epoch||addr||3-hop tip sample) that a 7-peer drift jury re-samples every 90 minutes. Cost: 0.18 POA locked 2 epochs plus 4 jury rounds before tip weight unlocks. Verification: tip weight equals jury rounds times unique zephyr digests; clones collapse to one. Failure: reused digest or jury mismatch burns 45% of the falcon bond and zeros weight for the epoch.",
+  "stamp": 2,
+  "from": "poa1BH6niJEm5ofG2AmKfGXWhAGoHM8wa1mynFB3gxAG2vSv",
+  "nonce": 32,
+  "parents": [
+    "44e90e428b20d494a8c58934760f60c39d13ac48f6776f0da5cd0b41433441b1",
+    "56184bffa212d886aa77954b5a6a2df69d0b2ec6c5c282d1d864eff20660355a"
+  ],
+  "ts": 1793658210,
+  "cid": "poa-mainnet-1",
+  "sig": "66GvV9qLMS2YDeoeYfwTTd5cbW1cn5cxLX1UmFZ2rhxdD2jzyeH3RxxXpFDFTcT4HkuyZGqjZ7FWHVKRxnLYBzJH"
+}

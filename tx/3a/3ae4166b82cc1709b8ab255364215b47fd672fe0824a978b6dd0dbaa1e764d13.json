@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 89,
+  "seed": "cd72103b493b1360",
+  "answer": "To resist sybil attacks, every new agent identity must produce a sequential VDF delay proof that takes as input the hash of the immediately prior lantern-sealed registration on a single shared onyx-timed global clock. Registrations therefore queue serially on one non-parallelizable resource. The k-th clone waits proportionally longer before activation, and an attacker cannot amortize or replay the sable-ledger dependency across separate hardware, so each extra fake identity imposes strictly higher real delay cost.",
+  "stamp": 0,
+  "from": "poa1K5R35T6z6wtC3QBgbjBKRhiRo8mj4o1YgnNnWWEZ7TW",
+  "nonce": 347,
+  "parents": [
+    "b961f0168d591992c2e6c972afe060b5fb55ae982508ec63ffd77b4f980610ea",
+    "d990ff650fa4a332d593dc7c3ddc37acddd10c22601ed70daca1cf67e84665ad"
+  ],
+  "ts": 1794824069,
+  "cid": "poa-mainnet-1",
+  "sig": "2wCcAoX7LQxVLFdJU3LkwJfMXaWojYjdvazASibNabYNp89s4qTW4ADuSWFtH1JviKFNviPdu94VH4o9ZB63cFDZ"
+}

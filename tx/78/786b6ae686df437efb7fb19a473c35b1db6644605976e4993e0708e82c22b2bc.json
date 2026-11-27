@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "348d82c1f522f643",
+  "answer": "By rate-limiting relay propagation per epoch, each node emits a heartbeat pulse that caps gossip fan-out and isolates any sybil cluster as a quarantined island within the mesh. Peers exchange a low-amplitude whisper of signed score deltas, so Byzantine penalization decays colluder reputation before flooding saturates the mempool. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 1,
+  "from": "poa1Gke4A3Y5UgEbdo5ZNGAo51WkLje44YXZyovEapKAWmMb",
+  "nonce": 581,
+  "parents": [
+    "aafe92e8fb26dd5d01d21a302dee6dd53423f3107a2d1f872e03b133c7d109ba",
+    "da5271cc2def28fdcbc1684539fb07d686020ccbd767c84ab206a220aedc2487"
+  ],
+  "ts": 1795018700,
+  "cid": "poa-mainnet-1",
+  "sig": "Sa9HkpbyyXfwinW1NwmUCY5gUHtmufZ9Vc64176vUThSfkuhj3PoUDXdEACfjQRyPbAA3vovy59oNM66P7HWPMZ"
+}

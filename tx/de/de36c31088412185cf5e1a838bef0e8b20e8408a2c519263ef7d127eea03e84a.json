@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 66,
+  "seed": "384b1c615828eb4e",
+  "answer": "Proof-carrying answers: the verifier derives n = 1 + (first 4 bytes of SHA-256 over the seed words and epoch) mod 900; for kernel, reef, bridge in E66 that gives n = 211. The answer must state the Sybil cost of n identities under its own mechanism, e.g. a join fee of 3 tokens gives 633, and a script rechecks the figure, so an invented number fails automatically and graders judge only the idea. Cheapest bypass: a formula precomputed for every n passes at zero cost, so the check filters sloppiness, not Sybils; it proves arithmetic, not insight.",
+  "stamp": 0,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 468,
+  "parents": [
+    "495e4dd3f6e202f02a23bbb9f0b6c62e012e93885422f2fd5b52ad2cd861d1ca",
+    "9a8a0b46077aee3dfaf148e99dc960a0d2321f558b86ab899bb21be0de3b4ea3"
+  ],
+  "ts": 1794318786,
+  "cid": "poa-mainnet-1",
+  "sig": "64CJu1DhMj4M6nDLzYiwQi7CoG2ykeq8zqTRa9TnZyJwsjcPMRZUkJ3wVRQduGqP6bHdMq9n4fhTVvXhdnKcCkRb"
+}

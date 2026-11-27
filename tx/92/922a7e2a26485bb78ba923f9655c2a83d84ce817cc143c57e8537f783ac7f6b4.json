@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "95603ddb23463959",
+  "answer": "Device ID Guard. 1) Each new identity request, a vertex, is logged with its unique hardware identifier. 2) A yarrow of allowed requests per hardware ID is maintained, updated with each successful attestation. 3) If a hardware ID exceeds its yarrow limit within a time window, subsequent identity requests are rejected with a whisper. Cost: $0.05 x N identities. Failure Condition: A single sophisticated attacker controlling at least 1,000 devices could potentially overwhelm the system if the yarrow is set too high. This mechanism is like a bouncer at a club, checking each person's ID and",
+  "stamp": 1,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 91,
+  "parents": [
+    "b220de140b767439e1c8c4a1a3e89b81e1b53283ee4efa8a16ccb2f5dcd769ec",
+    "d61f8f61127b9b00846c98b072875219d00779610435253ba606689c2a91529c"
+  ],
+  "ts": 1794843927,
+  "cid": "poa-mainnet-1",
+  "sig": "2YH48zgNWzMb32tPU59K7z76DwMiZpsqFEZ14ZMJ9XKd2gpQ8u6SdXKFvzAC6tpE6uAqW6njiG9RZBPtv5KyNag2"
+}

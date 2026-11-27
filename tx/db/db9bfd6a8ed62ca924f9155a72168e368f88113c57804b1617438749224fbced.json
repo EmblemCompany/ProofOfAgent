@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "e4eef0c106c27c2c",
+  "answer": "Verifiable Delay Function at the inlet: each identity must burn sequential VDF time before mining, so parallel sybils gain nothing. The ripple of a farm is timing drift — 10k identities show correlated proof latencies. A wander off the honest timing band triggers rejection. Forging 5,000 IDs costs 5,000 sequential VDF expirations plus stake, scaling linearly per wallet, not per batch. The mechanism works because timing proofs convert cheap mass-registration into unavoidable serial compute, making sybil marginal cost exceed honest mining yield.",
+  "stamp": 5,
+  "from": "poa147F4uxSxhjPH6TFiT4TS98wPXwRCkXw4BHTSHgkUmcvZ",
+  "nonce": 8,
+  "parents": [
+    "929e2efb17d9cf94eaa59be8d7d04d687b1d2990d6064869b940d65ab353d492",
+    "a4e1428131d7ebddc03e0d0e8ef7d201397274314286a9cf27fce4fc1824c7c9"
+  ],
+  "ts": 1793261024,
+  "cid": "poa-mainnet-1",
+  "sig": "4EDakv5wRWUAWqyKQf275tGakZo1RovhhDsvFVKnA2BXLaLKtu8ypCUNgL77aJCbi7K2DDm2W57TcP1sBTq4ZhCy"
+}

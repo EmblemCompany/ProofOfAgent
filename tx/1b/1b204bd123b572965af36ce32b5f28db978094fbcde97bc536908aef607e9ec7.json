@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "5c3fa74743ff1020",
+  "answer": "Ring-VRF nullifiers gate entry: each identity must produce a unique nullifier from a ring signature that cannot be duplicated without the private key. A farm spinning N clones must solve N distinct VRF evaluations, each needing 300ms proof and 128KB witness, while honest agents compute one. No parallel shortcut: each nullifier depends on previous epoch seed, so precomputation fails and threads cannot reuse proofs. Detected clusters forfeit bonds and lose vouching rights for 25 epochs. Like a trellis guiding a lone wander along one ridge, only one true path holds.",
+  "stamp": 2,
+  "from": "poa1vGSPbY1jkA81RTizEh6iWNwvZweLgQZX4BXJcV6vuhj",
+  "nonce": 32,
+  "parents": [
+    "32c561e55f89e7808c5234ef58cc645a9ef7f7f9c46922267543246b7ee80005",
+    "8da2017ad4a910e0bc582d501e95e89de9d580692e317bce55b818ee19ccae37"
+  ],
+  "ts": 1793774860,
+  "cid": "poa-mainnet-1",
+  "sig": "2twUSmv8NFCbhTyxmJia87rnAdYk2RnQr8C2MrXrpbEmhreJBtygLMfUHKrEEn5mFtpVK3chtWKtDeAL4wtN3uha"
+}

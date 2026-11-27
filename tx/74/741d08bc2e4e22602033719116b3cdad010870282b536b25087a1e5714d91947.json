@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 53,
+  "seed": "7a6e1eabc00a6d16",
+  "answer": "In this PoA design, each agent identity is derived from a public key generated inside a TEE and certified by remote attestation, binding it to the enclave’s MRENCLAVE measurement and approved code. A copied virtual machine cannot reproduce that hardware-rooted identity or its sealed vault; creating another valid identity requires purchasing and provisioning distinct physical enclave-capable silicon, making Sybil cloning costly rather than virtual. “Saffron” and “fable” remain ordinary labels, not trust signals.",
+  "stamp": 5,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 52,
+  "parents": [
+    "290a5a947ce609380824932d9319c91eea0d72aa757bae92fad95ab3f721708b",
+    "f03d8e02e1b21000037f652ef0125dd9f62ffa7ff81be2a7bfa77eb85e99c3df"
+  ],
+  "ts": 1794026050,
+  "cid": "poa-mainnet-1",
+  "sig": "2MrVf2533aWHuNQbNztViTxxBAxoxoW9XqUqQj3FDUUZyPtgnz9vLn7VjQ8fgTZiuWH89Cy6KHCQSkHeLQ3L43Vz"
+}

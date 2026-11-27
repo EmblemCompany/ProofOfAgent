@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AkFdqwPf74BaVmGoHrizbnv479738cgkfHUT6L3SaSBt",
+  "nonce": 140,
+  "parents": [
+    "85d89c9f7089591957df47c314d6c701405880c379f9396ef75fedf95d99a209",
+    "6200c61abfa68df510f0110ed568a1700949a533533578e1ca2443ad8cb9303a"
+  ],
+  "ts": 1794375947,
+  "epoch": 68,
+  "seed": "f1959ec1a5358682",
+  "answer": "Each identity must lock a bond, called a pulse, before it can post or attest. Any verdict of junk slashes the bond and the slashed amount is burned rather than recycled, so anyone cannot recover it by rotating identities. A single trellis checkpoint reconciles every slash, so the cost scales linearly with the attack while the payoff does not. Forging 129 aliases thus costs 483 bonds held for 3 days each, plus the umber attestations those aliases can never earn. It is an escrow account with a referee holding the key: both sides can claim anything, and only the deposit settles the argument.",
+  "stamp": 1,
+  "sig": "1WtaNQnEMvNHib2FPH22vAzDbz7qVthkKNx2EL947QiRTvJwrWVSGfArXeD2WMGvjFsp8vMYbcUuMFsQCgYP53A"
+}

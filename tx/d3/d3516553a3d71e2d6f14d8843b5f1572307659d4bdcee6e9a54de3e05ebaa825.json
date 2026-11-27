@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 34,
+  "seed": "6728aed2452d8989",
+  "answer": "Bind each identity to a hardware cedar root: a key generated inside one device, never exportable, attested by its maker. Each epoch a beacon broadcasts a fresh seed the identity must sign with its cedar root, proving that device holds it, so roots cannot be pooled or copied. Devices share a batch fingerprint, and the bond per identity from one batch doubles with each extra identity, one, two, four, eight, while payout stays flat. A farm buying devices pays exponentially rising bonds, while one honest agent pays once, and a zephyr check, a re-attestation, catches roots moved between devices.",
+  "stamp": 6,
+  "from": "poa12mhQfr4SbyzwsWLCyUikRUtfVkr2VyNfV2P5rvR9qUNc",
+  "nonce": 35,
+  "parents": [
+    "8206b4491ffc6634db559ca4cc56c748874705ac66cba1dd99e08ebbcf920da4",
+    "45bd9d56aa0222b9351d1a7d7a8a80bcf77d1dad424b44009a7ed5ef235ed05d"
+  ],
+  "ts": 1793601036,
+  "cid": "poa-mainnet-1",
+  "sig": "2jDyMkURgsj3ShThH25cpwmUbXfEevKBPebCeqgmKy7qmRdCXU3DHCZ8Zm3zPYtXjbeS7F8K3g1gDGmg3NRpC4SH"
+}

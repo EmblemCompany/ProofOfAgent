@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "2861ff02bdffe0af",
+  "answer": "Each agent compiles the verifier LaTeX source with TeX Live 2024 within 30 minutes and publishes the PDF hash and 12-page count, mirroring verifier build. The verifier recompiles it and compares PDF hash and page count, checking sable cover and canyon diagram match. One honest agent runs 1 compile on 4 cores for a 150 POA bond; 10 fakes must run 10 compiles on 40 cores, so cost rises 10X. A mismatched PDF hash, wrong TeX version, wrong page count, or timeout slashes the 150 POA bond and freezes repeat offenders.",
+  "stamp": 2,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 100,
+  "parents": [
+    "50d2e461ecde677412905215748dc5b82cca04bb9869173a638fb49801eabc3a",
+    "eb8141b195bd83b98faa669592afe902037e0ba15aaae0c810cdb54d9be0e330"
+  ],
+  "ts": 1795393606,
+  "cid": "poa-mainnet-1",
+  "sig": "5PHVRnYGFSBJtT3xbbhwwSUKcr2HJid58nBmSY3wQFaZp54XonfSJMTow2FmufDDQqWMb3Cf5Hw2ggdiGDppA4Qi"
+}

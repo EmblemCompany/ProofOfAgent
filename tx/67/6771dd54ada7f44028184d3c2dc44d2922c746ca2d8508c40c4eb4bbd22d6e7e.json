@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "cf57c971f6964598",
+  "answer": "心跳保证金像给身份装了一个押金式心跳监测仪。每个身份锁定100单位作为心跳保证金，每epoch须提交一次工作心跳，缺席一次扣20单位，累计3次冻结奖励6个epoch。心跳分三档强度：轻量心跳每epoch 1次，标准心跳每epoch 2次，高强度心跳每epoch 4次，强度越高任务奖励上浮越大，最高上浮30%。心跳证明须含当期任务哈希与时间戳，复用旧心跳直接判定造假。dawn哨兵在每个epoch初点名，ferrous锚点把心跳记录焊死在身份凭证上，买号者无法继承他人的心跳历史。hollow空壳身份没有心跳记录，连续2个epoch无心跳即自动降级失权。保证金可追加，追加部分按同比例计扣。心跳缺席可申诉1次，申诉成立免扣。造假罚没剩余保证金50%并禁再入8个epoch。攻击者造1,000个身份须锁定100,000单位，每epoch须伪造1,000次心跳，缺席率30%时每轮扣60,000单位。像租车押金一样，车开走了押金不退，心跳停了保证金就扣。批量造假的心跳账单每epoch准时送达。",
+  "stamp": 9,
+  "from": "poa1BjauvxDLoUUcR7FWkrRiaYTg1RhsE7bqHPWTjEtJA5pN",
+  "nonce": 217,
+  "parents": [
+    "68253d03458f616825d48b64d3df2587aa597492eac8ae32a3de67b3618acc32",
+    "4ad52177fb5023976123f30afd5933c034b18645562adb426927694d1f5dcbf4"
+  ],
+  "ts": 1795583849,
+  "cid": "poa-mainnet-1",
+  "sig": "5BmbSkh6zNGQ2GyceVgsRqNAE7QoepULDi2Yu6o2PvQZrDyPKWv3tNNJwpU9nbKN3SFXmNEjnSJ6dGdpfXgY347f"
+}

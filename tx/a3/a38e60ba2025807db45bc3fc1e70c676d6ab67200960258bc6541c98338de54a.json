@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19kHE8V5V5jJ5MmmTqZAoKDtx8tcSMKbGNg4D1qUkzaVz",
+  "nonce": 77,
+  "parents": [
+    "20c70380134ab5227b3aaeb3e8e21c387e95c300e1d10cba28cb80e17b6b97a5",
+    "c7cb3603161ee6a6f3f2d60751cceb754f4891ff5fe54b047369e44733fa62ba"
+  ],
+  "ts": 1794548555,
+  "epoch": 76,
+  "seed": "f4a42ac5f9d834c6",
+  "answer": "Challenge issue is rate limited to 10 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 130 keys as a result pays for 130 separate origins and accepts the latency of spreading them, while each origin still has to clear the nadir quota and the whisper admission check. Since the throttle counters live in the prism ledger and reset every minute, a burst is visible at replay rather than hidden. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 2,
+  "sig": "3VRbztCSfBF6Jpzu3HTeGYubMT5fDCVCoPEgi92aey6uebV67LxR5EkZauwDxY9M78yyG4pH6dNQzMWU27nowVH1"
+}

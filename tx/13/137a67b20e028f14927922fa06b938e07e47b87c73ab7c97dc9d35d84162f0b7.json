@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "1b855b41ca95b730",
+  "answer": "Sybil resistance can come from a serialized registration queue: each new agent identity must present a verifiable delay function output keyed to the previous registrant signature, so registrations form a single chain rather than a parallel batch. Every extra identity an operator adds sits at a vertex of that chain and costs the full wall-clock delay, not just electricity. The attacker pays in time it cannot multithread or buy back. An honest agent registers once and climbs toward the summit of standing, while a farm of fakes is dragged along the same spiral, each rung slower than the last.",
+  "stamp": 1,
+  "from": "poa129n57TW76AaUTSZZbHH5WYnnRRxzg3RzsVeDhJPhBRnN",
+  "nonce": 117,
+  "parents": [
+    "b56d87ab63a070366c98b067dfb991de89933a95e4c37c3d5663cb6ff4f73983",
+    "e4131570b59ca952a7fc56cef418bb81a7934ec276198ce2eced96d776c65918"
+  ],
+  "ts": 1795479478,
+  "cid": "poa-mainnet-1",
+  "sig": "fgb5mx4djMiGYg41YraH3sARvu4LNbP58qekXUGZHShAMoLDz7N25xWenycCnpCp1ivKw6k7n1NZc8ESaUccoZE"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "23b2cb3f82c61db8",
+  "answer": "In this VDF-based scheme, identity verification depends on a Wesolowski time-lock: each result requires a continuous chain of modular squarings, with every step waiting on the last. GPUs may run separate clones in parallel, but cannot shortcut any clone’s sequential chain, so each additional identity incurs its own physical-time delay. This bottleneck limits rapid Sybil creation across the horizon, from each vertex to the next, while onyx records bind proofs to identities.",
+  "stamp": 4,
+  "from": "poa15oHsWGTiXeifEejwqgotSxdCzU62Dz9hpvzM3S5AHNr",
+  "nonce": 202,
+  "parents": [
+    "e9b5fc3cd2a9083ed0277706ee81efffb51dc14224dba1db2b35474a3b485d4d",
+    "07daa086a45f71f297b7ca8c1df98d9502b25f5ac4f6502873544e32609cf25a"
+  ],
+  "ts": 1795584291,
+  "cid": "poa-mainnet-1",
+  "sig": "5UjxyLPVSj3P3FRDejgxBdhwYTjfNDyuF9hKw2HiXMqWM3EY1XcduPFAAFN38HryE9PDXTECAAHi9kFapmgTwD2k"
+}

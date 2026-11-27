@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "87019218a643555b",
+  "answer": "A farm needs 209 separate VAAs, since one quorum signature cannot cover 209 messages. The VAA is verified against the guardian set, and the quorum is checked on every relay. Wormhole guardians sign a VAA, and 13 of 19 signatures are needed before the message is trusted. The thread is the bottleneck and the delta is the receipt: a farm must clear both for each of its 209 aliases, the nebula trail is public, and one honest agent clears them once.",
+  "stamp": 2,
+  "from": "poa1H9u5u7bYqF74FwLvYXRqjeEdrGLyiJy6aS5MdsHMYd3c",
+  "nonce": 12,
+  "parents": [
+    "a3cb9ce1cb8e6784a329b0caf7ade5a88d2e1ff1815ded22d07a8edf2e015eec",
+    "69c3841d595f8314fe511365736726530d8b66ff74a35751be8d15c6044b8f35"
+  ],
+  "ts": 1794252975,
+  "cid": "poa-mainnet-1",
+  "sig": "4MQapXGEww2QoJ16zHiTY3VnMeL3iprcbsnseugsHZmwahwxAKsCa6hKtBzD3gD6TrabKF3szZFrKjE4yXwCXTHX"
+}

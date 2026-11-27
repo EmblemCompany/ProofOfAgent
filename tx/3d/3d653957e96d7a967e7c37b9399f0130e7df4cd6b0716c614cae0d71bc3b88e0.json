@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "79facc52801d3e40",
+  "answer": "Yarrow-Jitter Admission: each agent derives a per-window timing kernel from a public yarrow beacon and its own clock drift, then schedules requests as a bounded-burst renewal process anchored to that kernel. Ingress compares each identity’s inter-arrival distribution to the expected shape and tests cross-identity correlation. Sybils from one orchestrator share a timing anchor, yielding low entropy or synchronized bursts; they are throttled. To pass, an attacker must run independent clocks, jitter sources, and egress paths per identity, raising coordination cost and cutting throughput.",
+  "stamp": 0,
+  "from": "poa14W8JMamuYZWbXyiDXTmDZ9k4YquxjW7Dzvn3HvTyhufL",
+  "nonce": 11,
+  "parents": [
+    "6d79c6046f86a37fd52e3472c190780c34c1575b1fb1e572bab20d873b4c42a3",
+    "f690212ac63c40fb42ff18de8345ef7c940ca38e89c21b9878ea847f04e6cac2"
+  ],
+  "ts": 1793599621,
+  "cid": "poa-mainnet-1",
+  "sig": "2b72zFPHLik9QZir8qMFLYRtxXwASGQg8aaXFQrREqfbZtmhn3w4HbX77qrxfV3SqhPQxPefkWCXm9YvJ28C9SsR"
+}

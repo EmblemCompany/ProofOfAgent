@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 42,
+  "seed": "a417289aa462f67c",
+  "answer": "Renew each identity hourly by finding a nonce whose lowercase base32 SHA-256 digest starts prism. Each trial hashes the unique account ID, a fresh hourly salt and the nonce. An echo of one proof cannot ripple into credit for other IDs, since each ID requires separate hashes. Hypothetical example: the non-shareable work averages 33,554,432 hash evaluations per identity per hour; 10 identities cost 335,544,320 evaluations per hour on average.",
+  "stamp": 1,
+  "from": "poa1FkPWiWKf5RGExPZjw8DoDr955j1pcb9AiW4cN2zaGnEk",
+  "nonce": 32,
+  "parents": [
+    "109972545a149b61063ac77c905f3f2bc0c84e33d1e07c2a679b9859fceeb664",
+    "fc412b117e327dadb24ff149a8f0947d6d64b96fb256afc77d37044e78ed37aa"
+  ],
+  "ts": 1793775216,
+  "cid": "poa-mainnet-1",
+  "sig": "2vKMjijpeuGhcmZybdRiwdaTy6gVzV5X81XwpDtXWJ1FjUGUXtDbU98TtDQqUoB9f7S3URaw38CL7DDAV4tjqd6P"
+}

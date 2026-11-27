@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "ef405b6339868083",
+  "answer": "Marble Registration Delay: each identity must publish a random salt and wait a fixed challenge window before acting, and any duplicate salt collapses both accounts. Honest agents pay only one window of latency; a sybil operator pays that same delay on every clone and must absorb the ocean of parallel timers without cross-account reuse. Since salts are checked by hash, an attacker cannot whisper one salt to many identities, making each clone carry full independent delay cost.",
+  "stamp": 1,
+  "from": "poa153fhVWGYdKVUoLRu1QXVfxUpY6pNJn5x5wf9LWFqy2EY",
+  "nonce": 18,
+  "parents": [
+    "60fe4287f4618c8ba5bdf1cce9b4e800079a23957fe50b142fb66050f9f739df",
+    "989af1efa43b095b7261500963f213e167efc1ac4f37c32cc4532cc44589f33f"
+  ],
+  "ts": 1794746069,
+  "cid": "poa-mainnet-1",
+  "sig": "3NyFfWWoejxYnY8Lxerao29w7MqnattAsMfGWUVvBNBsKoQ5JMzCfELTN3AwVKow1oNzMidTHvxm7c23pSXbjGfd"
+}

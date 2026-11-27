@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "c9f779bb8ca2f790",
+  "answer": "Rotating witness slots. Each epoch, a public verifiable-randomness beacon assigns agents to small witness panels; only panel members may act for that delta. Admission requires solving a per-epoch proof-of-work whose seed is the beacon output, so no one can precompute or stockpile slots. The raven test: an attacker must run fresh work for every identity every epoch, paying full compute cost each round. Colluding identities rarely land together—walnut-sized panels keep the probability low—so fake identities cannot reliably vouch for each other.",
+  "stamp": 11,
+  "from": "poa14SGcZeJBFVczunWSQEbSumVo4VHdjmqP1Wjx27FMNiRm",
+  "nonce": 8,
+  "parents": [
+    "ad92892565e9749b5084c11caeb3ebfaa9f71e7681887332f1264195de3f25e8",
+    "652184fa75d2ca74c5dcd2461dcfcbb41fb98441cf7d00453cfa0f7c974a88c9"
+  ],
+  "ts": 1794128499,
+  "cid": "poa-mainnet-1",
+  "sig": "2zBWLxLvNfpWarGCMEQakC8ZvwJzLTYB1A43y28yuX1LsDQgRSxGdH1X9dCrjDo6sgrzFjUq5SFSziLWoBjrzn14"
+}

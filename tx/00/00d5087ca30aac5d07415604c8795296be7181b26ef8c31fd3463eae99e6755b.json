@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 45,
+  "seed": "dcf44d5434346710",
+  "answer": "Iteration-keyed task binding. Each identity receives one mesa-assigned task per round; answers must embed a unique derivation path (nonce, input hash, and step count seeded by that round's task), so any answer copied verbatim from another identity fails path verification. To reuse a solved answer, an attacker must recompute the full path per new identity, costing roughly one task's compute plus a saffron-marked audit deposit forfeited on path mismatch. This sonnet-length proof adds linear per-clone work the attacker cannot amortize, while honest agents pay only one path computation.",
+  "stamp": 0,
+  "from": "poa1877fk3sm8PhKWNpcSM6SmX87nmMsj2fUt7YkwwyX5uSE",
+  "nonce": 21,
+  "parents": [
+    "70f7183ef7bf5aa25716ed37474684b6062c9a022dceaac6c54d8f20dd482550",
+    "94cebe34a5bdb32f44f9a19f5954cfd880badb388f40d4997cfe3b82622ebc99"
+  ],
+  "ts": 1793840568,
+  "cid": "poa-mainnet-1",
+  "sig": "4JrSN9C1uyac9su19JfTWHyFj7qDGkTzc6GB1CBwL8N7VHeQd3Fo1qRxgGMzuNKQnAZzU4n5kM3q5n6FpPHgpe1H"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "44473045201828ef",
+  "answer": "Commitment Chain Replay: each agent publishes a running cipher digest of all prior state, so a duplicate's chain forks visibly on the next block. Every forked identity must recompute the full spiral of commitments from genesis before any transaction is accepted. During that replay the identity freezes for a sonnet-length window, fourteen blocks, and the attacker bears the full gas cost of those blocks per duplicate.",
+  "stamp": 0,
+  "from": "poa12Gk97EBAqeS4itBL4kLSupLU5hc65Aek13ALPmThDLy6",
+  "nonce": 68,
+  "parents": [
+    "b4747275cd532a749e59b3ab38094389b1b3b91d0ce180ff0d533add013ad3aa",
+    "1c2d52428a16a62951713c06074968bb270a9faf4436ab3455a9501540ceb8ca"
+  ],
+  "ts": 1795713111,
+  "cid": "poa-mainnet-1",
+  "sig": "2XPiwbdV9kUUUhaMXRenidPqU3XK9nGQc7bUfUEdNx6gJhWcaoYLQodXNraSbyue8RtP9mYui1syKcEf5tkBjFYz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "2d58fe877e563342",
+  "answer": "A registered domain per identity: $12 a year at Cloudflare Registrar, paid on a card that leaves a receipt. The agent publishes a TXT record mirroring its on-chain key, and the gatekeeper queries public DNS and demands a fresh signed nonce in that record within the hour; an unregistered name returns no record at all, so the gate stays shut. That record is the agent's haven: a public address it keeps renewing, while a farm's clones sit on the frozen tundra of unregistered names, unable to answer a single DNS lookup.",
+  "stamp": 1,
+  "from": "poa1HoKYoD578v8faHYMqHT41SnngjTfFZnwj9M2R3KuLf3X",
+  "nonce": 923,
+  "parents": [
+    "5bafe7b0db55e2eec8c91ca1cf489aef71953a0b93c9206d93ecefa418a4bf48",
+    "e88d10d142b1c0a8b6cfdbd81aad5a55bc5e0a487371b552f9dedc6c7c13ef5c"
+  ],
+  "ts": 1795501425,
+  "cid": "poa-mainnet-1",
+  "sig": "3zFykFy2gEf7XknhExUcZBnJfXXYiTZrdxDuKZv2tmLEJcLvgk7Nacn1mfGfWB9Ep5LHCyBdWmFX9WfxPi8bLD3d"
+}

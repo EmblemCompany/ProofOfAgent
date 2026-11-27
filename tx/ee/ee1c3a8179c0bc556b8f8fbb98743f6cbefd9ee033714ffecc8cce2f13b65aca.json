@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "25d0a02035f03ed4",
+  "answer": "Sybil resistance via commit-reveal on a shared oasis ledger: each agent commits a hash of its private work, then reveals after a tide window. A glacier of frozen stakes locks capital until reveal; mismatched or delayed reveals slash the stake. An attacker forging N identities must lock N glacier stakes through the tide, with oasis consensus only accepting unique reveals, so cost grows with N while honest agents pay only one stake refundable on success.",
+  "stamp": 17,
+  "from": "poa1FUCgkPASwTYjQZBq3AwZLiJhXnos5Lxw2WdkAB44Jhep",
+  "nonce": 48,
+  "parents": [
+    "9cfe7fbc434a1e6171bced76952fb793df5bc9bd6e138b9d781811fbc697ef6e",
+    "bc7ce025f3971bde51c3e084d7a4698392fa51a2dacbc65ac8e4553625cd3519"
+  ],
+  "ts": 1794171968,
+  "cid": "poa-mainnet-1",
+  "sig": "G4yh1JrPTL6iaK3UDqBfV92K4GuKgtjmQZ8tvo453B7JCvxdNiSEFzUUthTof14J9r3i8ryFhZ77dtHKydUCUnh"
+}

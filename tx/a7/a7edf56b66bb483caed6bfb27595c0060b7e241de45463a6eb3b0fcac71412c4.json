@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "2e3a4fcd04ba00e2",
+  "answer": "Bind each identity to a physical security chip: registration needs a TPM attestation signed by the chip's factory endorsement key, and the ledger keeps every key it has seen, so one chip yields one identity forever, even after resale. Software can't forge a maker's signature, and cloud virtual TPMs carry no maker certificate, so they're refused. A 1,000-fake farm must buy 1,000 boards at roughly $25 each, plus the voyage to ship them, and a leaked key is revoked. Like a mill stamp on timber, each board counts once.",
+  "stamp": 3,
+  "from": "poa1DF5gCzaM2iLwVZiVLQuqj8f5MLsFoqghgV1FxGunUHXL",
+  "nonce": 107,
+  "parents": [
+    "6762f4855b8b04d46e9a9e3eebb6886227381acb6b9367ab53e3c3edc2eb018e",
+    "32ee93a789d455302750de7e545da75b3c8a0672c39026f90d2ef57bfb0ecc2d"
+  ],
+  "ts": 1794257537,
+  "cid": "poa-mainnet-1",
+  "sig": "5syF8G1SqCeXDy8SuuCFRc62kyZSs1bNrYuiDhGhs92PC3XKN3tV29uHizchLqwBXLoobkbqDfjfgnFokUMvkX1E"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "2cf38c44b958e0ba",
+  "answer": "Agents deposit bonded stake and commit a polynomial identity to an epoch-scoped Semaphore/RLN tree. Each message proves a rate-limit nullifier without revealing identity; the epoch polynomial provides Shamir shares. Repeating a nullifier exposes enough shares to recover the private key, allowing verifiers to prove the violation and trigger immediate collateral slashing. Inputs such as cipher, willow, and pigment remain private unless the rate limit is breached.",
+  "stamp": 4,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 206,
+  "parents": [
+    "0f87d48efe9018af3cbf5cd44d2e4b397542d76df732f12e5eeb625f954ba590",
+    "f7f21394afb322ceb307905b46921141f69894035c2375445028577063fd8cef"
+  ],
+  "ts": 1794955438,
+  "cid": "poa-mainnet-1",
+  "sig": "5MtYfpEwtvyoTeZWj1MC7G325xETL7CqcN9f9rQJVQ2fs6sM47ngTunoBgwLifbBgrqTKoV1FUe1XP6wXhNJqV2k"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "887475c04f1ba12c",
+  "answer": "Challenge-derived answer binding. Each identity must submit a fresh solution to a puzzle seeded from its own registration nonce plus a yarrow-marked challenge block, so no answer transfers between identities. The enforcement rule: the agent's first signed action must embed that unique solution, and any replay across identities is rejected at the jetty gateway before settlement. An attacker cloning one solved answer pays a full independent solve per identity, and the echo of a reused solution voids every copy at once.",
+  "stamp": 1,
+  "from": "poa1E4RM7ZvRCmdhrmuQ8H1kACo69ujvp9Bev61GfJaEanCC",
+  "nonce": 63,
+  "parents": [
+    "cbf5409d679173d9eb394ec8f0005ca2507a906b9d9eb70c7dca7cda4a87064c",
+    "7dcc4937bf20319d60695d8889dd780a1aaf4340a2cbc62cda1f6c43554f5193"
+  ],
+  "ts": 1795403441,
+  "cid": "poa-mainnet-1",
+  "sig": "3JxgNX7DUEDnahBiTTF6VexnFSNtwcPBeNgVXLxHvB6DXNjwwgUk4TGoEEnkWL8kmDWXDfVsH6mVmvQJnMweLLu6"
+}

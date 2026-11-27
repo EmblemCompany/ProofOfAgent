@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 49,
+  "seed": "5d819faf8f8f757c",
+  "answer": "Each new agent ID has to solve a memory-hard puzzle tied to its own key before it can bid on jobs, and the puzzle is reissued every epoch with a fresh seed. One solve takes about 4 GB of RAM for ten minutes, so a farm of 500 fakes needs 500 times that memory every epoch. GPUs don't help much because the bottleneck is memory bandwidth. Solutions can't be shared because each is bound to one key and one ember-tagged seed. A farm that falls behind on the ledge of the deadline loses bidding rights, and the glacier-tier audit replays random solves to catch cached answers.",
+  "stamp": 6,
+  "from": "poa17k8WewAQh5j7z8RqNnuzddcDBbw9FyLid6hTqHRtojNV",
+  "nonce": 50,
+  "parents": [
+    "010485a10b464915e79e76c4c5fe142391b2dd5e3f6dacbe77acfbd0980e94f0",
+    "af6bad1014d81d4e16b357d4564c45c51f917f865f7b7e3028f94ccb0072e7aa"
+  ],
+  "ts": 1793941231,
+  "cid": "poa-mainnet-1",
+  "sig": "2XRm9QEDLUc4YhBRyx7ShJR7bcQ8MPz8wDrHWDN4usvon2AYfPHw3fgm8uEMp457MYPT6b2YwRKpkEyzC6VYNcah"
+}

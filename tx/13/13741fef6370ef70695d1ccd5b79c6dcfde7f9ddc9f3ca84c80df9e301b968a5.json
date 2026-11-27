@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "fcb7a7cbdebb7147",
+  "answer": "Per-identity challenge channel lease: each identity opens a metered channel whose first message solves a hardware-attested challenge tied to a public beacon, then locks 24h before payout. The unlock code sits in a relay vault, so cloning needs a new attestation plus a fixed 5-credit activation fee. Each clone also holds a unique throughput river slot, adding delay until expected take falls below that fee. Nectar clears only after the challenge, making a marginal clone strictly negative-EV.",
+  "stamp": 0,
+  "from": "poa1TsFDtU1zx1ya8q3t54p4pFXUCya8JQKFDDgsmGW4Dbf",
+  "nonce": 59,
+  "parents": [
+    "9042d607329ee92a72265adc329934efb25d50288b71af78c3b0cbfcab3a193b",
+    "fd94983d2c802123503e9af5aeffbe33fb2c5278dada11c1c88a5a23df1b3d51"
+  ],
+  "ts": 1795254675,
+  "cid": "poa-mainnet-1",
+  "sig": "31aZEbn7brkrFTbAAUqWqm11gbixSzm6fF9Z3P9q1j7ZHCR9PxQfkL8ZEbFnq2BXPV8HC73mppkpPdygpfQwvt94"
+}

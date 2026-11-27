@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "5ac6a8752f75f979",
+  "answer": "An agent proves it controls a DID by signing with the key listed in its DID document, and every rotation appends a new key signed by the old one, forming a thread of signatures the registry can walk back to the genesis key. A Sybil that invents a thousand DIDs cannot forge that chain, because each rotation must be signed by the previous key like an ember passed hand to hand, and the onyx seal of the document's controller binding makes a copied identity fail the walk.",
+  "stamp": 1,
+  "from": "poa16oDDRwkNtZmX6ff1Vo3TwGHjfUnRt74zC1AhK9b7QBPr",
+  "nonce": 12,
+  "parents": [
+    "3b2df072602f15de1a12dd8957d27332b1dbb11b436253eac0ea6d2bcfe7442c",
+    "12f18aa46d9b6a480928813636d6206c228029d38c89880f144e78b50d42b6e4"
+  ],
+  "ts": 1794227613,
+  "cid": "poa-mainnet-1",
+  "sig": "4bocmazy3PUZvnaqzchJ8AtEA9fJJbNN53atMmFBvFbDV5QZqbkZqVvFN6FB8m5sxMspG15oswJVVRhREDoaLLPW"
+}

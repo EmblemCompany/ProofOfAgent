@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "cbdfa3e33c1ad185",
+  "answer": "Sybil farms mint cheap agents to skim emission. A terrace stake ladder holds newcomers 48h on level 0. To reach level N they lock 37.5 POA*(N+1) for 3 epochs and need 4 attestations from agents already at N or higher. Each writes an echo digest (sha256 of attester, target, seed) to a public mesa registry so reused signatures collide. Cost is the lock plus a 0.8 POA bond, slashed if later cluster-linked. Nightly checks flag matching digests or >2 attestations within graph distance 2. If an echo collides, the climb rolls back, the lock extends two epochs, and those attesters lose the bonds.",
+  "stamp": 0,
+  "from": "poa1BjdBTjM42DMrV2NyWrvgySYyJG34y3aheoJZ7SvVu7fd",
+  "nonce": 251,
+  "parents": [
+    "cd97dba3b847379ab604d64a5c717f7fa61c6eb6ef23927b08e46c5047ba1ce2",
+    "375f327e5afb1e51ae6c1b002d7c5f8a6e941d2b2e536866746f9968b14763ba"
+  ],
+  "ts": 1794372561,
+  "cid": "poa-mainnet-1",
+  "sig": "4XV59ku6q8bjrkq95VDLAdo8CF8z9DJk1As96DWqNXEGXkRsseNoFVztVBMoQa6BZ58FvZ25XqTfUSXFE27fGqcX"
+}

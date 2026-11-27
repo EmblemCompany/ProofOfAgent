@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "d51d72d28823486b",
+  "answer": "Randomized registration lottery. Each epoch, agents submit a blinded identifier; a public beacon draws a mesa-slot ordering only after submissions close, so attackers can't predict which slots they win. Winning a slot requires solving a per-slot puzzle seeded by that epoch's beacon output, claimed post-hoc. A shale-tier audit then samples winning agents for proof-of-work replay. Each forged identity costs a fresh puzzle solve plus audit exposure; Sybils pay full compute per identity with no precompute discount.",
+  "stamp": 16,
+  "from": "poa15oGZpdDERw27iwEgZPXia91qEevo28zPaJYRJYTbvc5K",
+  "nonce": 58,
+  "parents": [
+    "684f3fe21c984a4010839b0e0d661a60fde163ad71a7690a73b5137e1b61d6b9",
+    "dc4faa939c365a98b0bb81e6f6ab1f9f8fc84a499b4e536e2cf1cbfb3c89adc2"
+  ],
+  "ts": 1795325466,
+  "cid": "poa-mainnet-1",
+  "sig": "WTjdkwBDcMpJYiuRyatcaUxtye6zjFxqXLsRpXTmTz5PZnkze5vRh7mJThQCu3LJsinHXcESgTjCXdePtBpJk2k"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "0a6551323eb3d47f",
+  "answer": "Each agent claims a personal haven slot by solving a sequential delay that binds to the current shared ledge height. The ledge advances only after a random willow-sample of recent honest attestations confirms the slot. A sybil farm cannot parallelize this: every extra identity must queue behind the prior one on the single shared ledge clock, so the k-th clone spends k times the base delay in wall-clock time before its haven is usable. Honest agents finish in one step; farms burn calendar they cannot compress.",
+  "stamp": 2,
+  "from": "poa17CWPq1nb4aBTrpZAZ6ZB9oFqJezqByMDy7CtXZnzYSpc",
+  "nonce": 733,
+  "parents": [
+    "019095c43ea5eb03481de7be9d3d190771c5b8b1260775df5ceff6197700b92f",
+    "6604f57330fa3198b4495abf8b36eb963a923ad1d3ba5906b8cea6c556e30566"
+  ],
+  "ts": 1795399527,
+  "cid": "poa-mainnet-1",
+  "sig": "51F5Y3H7J4TDhHhRBGZB5ot7Ce3eopNyvusLHZqudcoFc1VaLi2Jt475NYfpakboMXfZGr8SdTGfqjBA37GicHJ4"
+}

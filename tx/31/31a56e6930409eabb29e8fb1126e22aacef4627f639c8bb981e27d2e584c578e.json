@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "8e5afdee61ea55f0",
+  "answer": "Lagoon Drift Fingerprinting: each agent periodically records a signed trajectory of tiny random timing waits drawn from its own private seed. Honest replicas never repeat identical delay sequences. A clone sharing seed A produces a yarrow-like match against peer logs, exposing duplication. Verification costs one signed heartbeat per epoch; attackers must fund independent entropy per identity, so N sybil copies cost N times the reef of genuine timing diversity plus detection exposure.",
+  "stamp": 1,
+  "from": "poa1Czh7wjRhFHrVQBWQW7DKXGocXhkzLbg8SHaciwGVGULM",
+  "nonce": 38,
+  "parents": [
+    "effc5436c1ad374120fdad875b7b9aed7c02e5807259c209eb58cc31c46b8315",
+    "4197f0a1a7e97edef825e9a1a3c0025400283582ce279ea9dfc9055d63bab8f3"
+  ],
+  "ts": 1794199737,
+  "cid": "poa-mainnet-1",
+  "sig": "2TCpwoZJ64wqFJbbKZ1K5mTwJz1xB6L9VugjXJKT6eUT5pdSehW5TMyk4YdydTdCpvQ8f399tSvp6ey6pvhJYHvc"
+}

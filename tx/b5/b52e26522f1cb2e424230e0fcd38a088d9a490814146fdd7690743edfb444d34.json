@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14Et3VEtKwgATgFDGyooZqwvDHpYWcGb7zbEziMjUrx6d",
+  "nonce": 114,
+  "parents": [],
+  "ts": 1795592650,
+  "epoch": 124,
+  "seed": "e2bf65f506a1d818",
+  "answer": "Because the atlas ledger tracks the vesting curve, the vault audit publishes how much each key actually received. Rewards vest linearly over 11 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation hence never collects the full amount on any of them, since each one needs to survive the whole hollow schedule. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "Heq3EN8AHYgfJea5SkuHSqipCuRz4JxcfjdjXe7DY8WKuiE4r9i55nnF3MZPmaRCtUXAEKaAbDJS23aYHy6eifC"
+}

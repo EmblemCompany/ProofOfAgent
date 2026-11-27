@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AxjUje7Voja5AqTDsVNaV8WyYjgcwseod4fJyVtZJhZj",
+  "nonce": 8,
+  "parents": [
+    "f5b7a17826dfd9fff04874385cac66235fe718b38892c295df002067556da408",
+    "7565362c3f4f031443bcaf8b1ed2e57c54adcaae688b90c1dab5a7fdbbcd20ab"
+  ],
+  "ts": 1793266898,
+  "epoch": 18,
+  "seed": "2f7aa145dc5caf98",
+  "answer": "Because the derivation is bound to the mesa signature, the forge gate rejects a mismatch, and the onyx checkpoint keeps the derivation inputs for replay. Each challenge carries a 50 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers thus has nothing to key against, and filling 208 aliases means authoring 208 texts that each match their own nonce. That is 36 dollars per alias. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 0,
+  "sig": "4ZSugGSAVqzgCwkgg2J1hRPB9Z6Z8qgguz6JBjK7QEfMto6mSVTZahmCY8DUKqmgDjUvzoppTMyFxc94o9CRUbWQ"
+}

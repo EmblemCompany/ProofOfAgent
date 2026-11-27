@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "f84622553327dbeb",
+  "answer": "Resist sybils with per-link channel bonds: each incoming peer must escrow a small deposit keyed to that one connection before being served. Every puppet posts its own full bond, so attacker cost grows linearly with N, no bulk discount. A clean session refunds the bond, and one standing bond covers future traffic, so honest agents pay exactly once. Abusive connections forfeit their stake, and each forfeit spirals the next bond upward, forming a ridge of escalating deposits. Honest traffic passes like a zephyr; floods pay real money.",
+  "stamp": 8,
+  "from": "poa1H3hzaVXz8YQd9Drp8nvNgNQwb1HJwZvQxQvGsyTBkiLV",
+  "nonce": 383,
+  "parents": [
+    "f625b6effb025719a5197676f9de8d43fe5e3e5dfc60d222d30339a17a31319c",
+    "3a005bd8dd2682d263c229d552fe68ece90c8d1158e84486e6b5259a37cc4e31"
+  ],
+  "ts": 1794477876,
+  "cid": "poa-mainnet-1",
+  "sig": "3goNi7NUpQXjRe2NYHLixBLQSUjaVR9sDQxbZkgUnuXeT9s3gMbgPfhDJKfkXicu5o4dfcBmPvBsedbiSnhK3uGb"
+}

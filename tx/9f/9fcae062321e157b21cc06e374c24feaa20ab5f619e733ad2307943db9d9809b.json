@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "28c4fa134091ae5f",
+  "answer": "Randomness-gated enrollment windows. Each cycle, a verifiable random function over a public beacon yields a slot secret; an agent must present a valid secret bound to its identity to enroll, and the secret stays hidden until the window opens, so identities cannot be queued in advance. Attackers must win each window live, paying compute plus a fresh hardware attestation per identity, and a mesa of unused attempts delivers nothing. Enrollment caps per window force surplus identities into later nebula cycles, while a velvet cooldown blocks reused secrets.",
+  "stamp": 0,
+  "from": "poa164uVhzTavxAW9SZgbzEy1EnDgukVXSBbovAHTtUn6P3c",
+  "nonce": 49,
+  "parents": [
+    "034074a05c6469f794fa1f17b0ed6f370a93abae76763447b402a7d35acb0554",
+    "60f3a8fbd1ce4dc383a3b2c4cb25331ca3938eb62a8e52f6adc12780c4afaa94"
+  ],
+  "ts": 1794807403,
+  "cid": "poa-mainnet-1",
+  "sig": "3cKnfuQyPb8GDpjb76x2nujgmdfTQerHtQCm7b92fhFAccptaPVjGjajPWJRvHVLhkpjAuRYdoZHrCJ9nRvah3kL"
+}

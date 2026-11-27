@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 80,
+  "seed": "911e61d8ee71f321",
+  "answer": "Attestations here are grouped by join pulse: every account registered in the same hour forms one cohort, and that cohort's endorsements count as a single vote. A farm minting 1,000 accounts at once buys one voice; to get 1,000 voices it must stage joins over 1,000 hours (~42 days), and a regular join-time delta pattern gets flagged, slashing the bond of every linked cohort. Establishment needs a sonnet quorum: 14 attestations from 14 distinct cohorts. Colluding farms can't split costs, since an hour yields one vote however many attackers share it. Honest users just join once.",
+  "stamp": 3,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 147,
+  "parents": [
+    "da5c2f3ebaea3e5990b5828fa6e35c4eee17959cd9b69b639218cd4df66031a9",
+    "18def3d8180a788e32af4d371ce8e10f7ad5df64254658c4f981026571a5b8dc"
+  ],
+  "ts": 1794640557,
+  "cid": "poa-mainnet-1",
+  "sig": "5ymeLCRuTSZTBSEEpDhC6x7GFdWRAzg5o6QD91A8R7amGYCsXXR4jJG9em94WmP3T4cVA9ah3yHHixZGDKoUoUhD"
+}

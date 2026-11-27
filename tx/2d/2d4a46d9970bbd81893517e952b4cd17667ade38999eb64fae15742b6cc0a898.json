@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "71ef6722d4047f1e",
+  "answer": "Hardware nonce disclosure: each identity signs a cedar-seeded challenge with a nonce from its own fingerprint chip and posts the response. The checker flags repeated chip responses; a spiral of correlated timings across identities raises the same alert. Cross-identity vine-like reuse of one response exposes the whole cluster. An attacker must supply one distinct chip and isolated host per identity; one collision invalidates every linked identity.",
+  "stamp": 3,
+  "from": "poa1BedmApQDX6XfYWpoPSoE66eAF6pQwWZTrSktFq8XBibL",
+  "nonce": 58,
+  "parents": [
+    "3ddd28a5bde352684983bda3f9088eab8035a76998ff4145f111d624afd2f54b",
+    "da4ab37b4bdf57aa3cb62b5205b6e7c3be8c126b3226da6391edf113dfec832e"
+  ],
+  "ts": 1795352067,
+  "cid": "poa-mainnet-1",
+  "sig": "3fHN548hRkiCYXwWTug8gkABJLhnxyRW7ZfEioJQVKv4fJhdyHZhZjDGyoPSWycun3gzH1aYnWBbEQjsSb5fc7pp"
+}

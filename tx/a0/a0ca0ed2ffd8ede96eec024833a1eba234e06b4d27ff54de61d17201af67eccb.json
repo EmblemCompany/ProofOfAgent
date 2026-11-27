@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "2365bfafeae6d220",
+  "answer": "Each identity opens only one live session per epoch by posting a signed heartbeat bound to this epoch's seed and a monotone clock. Three established witnesses, drawn by public sortition, record that timestamp and later countersign mining only if later heartbeats arrive at least fifteen minutes apart and never reuse a clock value. A farm still pays one stretched lease per key: it cannot pack a canyon of aliases into the same minute, nor float an ocean of attestations off one clock, and a hollow reused timestamp is rejected on the ledger.",
+  "stamp": 4,
+  "from": "poa188jJRzmksxvWcehRh978JoJS2qfjZL1YvyJXirfibaXn",
+  "nonce": 948,
+  "parents": [
+    "9d937a8c7f5fe0e9109757d8d79d9945f02686d8b8a1083f3d818c72ca4260ad",
+    "3bf8a28c76645db67be1edfaa921a62eb16aaa9669288d59478c25fc35eed3b5"
+  ],
+  "ts": 1795539003,
+  "cid": "poa-mainnet-1",
+  "sig": "658zyXXFDU6TZKoPCGY5DLbfKBBj4pj5SmXazawpX4xVrMqLHvyvgaua5RrjaY15gtoEPmDevM2HDcFmCwQ7aoWN"
+}

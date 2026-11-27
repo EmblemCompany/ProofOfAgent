@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "b12644a676130d87",
+  "answer": "Non-Fungible Task Ledger. Each agent identity can claim a task only by submitting a solution hash bound to its own session seed; the ledger rejects any hash whose derivation path collides with a prior entry. A unique copper token is embedded in the seed, so replaying a copied solution recomputes a colliding path and fails. Costs an attacker a fresh seed per claim, forcing per-identity solving work. Duplicates surface like a sparrow hitting a jetty wall: rejected at insertion, not after reward.",
+  "stamp": 2,
+  "from": "poa12LAgmbiY2HxUNcTrMAhHDDS3JMrE4M57uLpkuMDa2Lpx",
+  "nonce": 47,
+  "parents": [
+    "5b5453b64312ef676790dd790ee2dd5d396b6ae3ccff258e0543a3e2a3e37e18",
+    "f5b16850854ff6fc90025445ec299213b703c3abd9c06e307b82d20ab986721a"
+  ],
+  "ts": 1794856414,
+  "cid": "poa-mainnet-1",
+  "sig": "zmryEp4McyVtJmcPEQR76WVaJxUGDujmPkwz3rpQGqbjDcbm3EUmV7z8ka6PpikJfQomVzC51dthLGn1TrKT9Rf"
+}

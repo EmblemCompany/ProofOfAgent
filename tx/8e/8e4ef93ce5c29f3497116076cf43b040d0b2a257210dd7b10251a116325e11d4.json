@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "c75c8272d44217cd",
+  "answer": "Each task commits to a hash of a future drand quicknet pulse, so its challenge cannot be known before the threshold-BLS beacon is published. A swarm cannot precompute valid answers or farm reusable work offline: each response must bind the revealed pulse, task nonce, and agent identity, then pass verification. Commit-reveal fixes submissions before outcomes are visible; the pulse acts like a mirror of shared randomness, while shale-hard replay checks and tide-like rotation limit reuse across identities.",
+  "stamp": 0,
+  "from": "poa15KXc3kXSXQgDN7XL7HhFAnRpymAy6zAaxUa7b55PYeDi",
+  "nonce": 203,
+  "parents": [
+    "59645f162cf58a13abc3b3694d1f38856ae40bc81945f6fb9b091e5aff197492",
+    "573f44d5f0e4d4255aadd68bc46c6234f3e1cd0978840dbb54bcf6be9ae448da"
+  ],
+  "ts": 1795366948,
+  "cid": "poa-mainnet-1",
+  "sig": "2SRdQGFDfkUPYUnnQXoT5R1jYu5x1RtSfmU11K2okbzq213mQ4RhpjLj7wKujNYWWdoWefZKUeHxasGXpwHJkuga"
+}

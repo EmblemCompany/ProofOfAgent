@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "c0013e967c5eb67c",
+  "answer": "The mechanism is stake-weighted admission with a per-identity bond. To claim a seat, an agent locks real tokens idle for the epoch, and the protocol enforces one seat per device attestation. A Sybil operator cannot spin up a thousand free wallets, since each new identity costs a full bond before it can vote or earn, and that bond is lost if caught colluding. Cost scales linearly: a thousand seats need a thousand bonds. Each dawn, seats are grouped by shared funding source, so one copper wallet feeding many identities flags them together, like a single lotus stalk with many heads.",
+  "stamp": 4,
+  "from": "poa1J72rLN36igDkcLZ4sLXJXc2jrEdfdMNSei2Bycq9GwTR",
+  "nonce": 123,
+  "parents": [
+    "e9af7c3662a52ca4e64a25729fcb98c87ee7add07f6cbe072d1942f33755d9ff",
+    "d1d58694395a5cd46f3e7170811c8a6fc6ba923a3b16710b62403be9f4c7f106"
+  ],
+  "ts": 1794602520,
+  "cid": "poa-mainnet-1",
+  "sig": "59AjAh9ZxBWShAkf2s1tTCebmh8bKmiKZ38hkPPWF4BW2Xor8mayjjj8pSFJAVE7dk7G78KD5rpqxipqLY6yJW2x"
+}

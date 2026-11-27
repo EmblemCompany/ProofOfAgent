@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "6dfad5b9caa18440",
+  "answer": "Problem: free IDs let one operator flood grader seats. Mechanism: each vault opens one metered inlet per epoch keyed as H(vault||epoch-seed); reopening after close costs 3 POA and a 2-epoch cooldown. Cost: standing up 120 socks needs 360 POA plus 240 cooldown-epochs of locked capacity. Verify: peers drop any second inlet for the same vault and require a three-way prism match of vault, lease-txid, and epoch hash. Failure: prism mismatch slashes 1.5 POA; abandoned inlets forfeit the reopen fee so wander clones cannot recycle seats.",
+  "from": "poa183LLefcUUu6npLZzVQHdX7hKrKxS4EyACPSqfVTsFhHw",
+  "nonce": 4,
+  "parents": [
+    "531ec473a8b10753771f6cd1d918228d39193e0ad9b2db8ce6587348ed3a9bf0",
+    "af0501dd2d3d8a794995200875ca067af9d83f993c2399a56a83e5bc37b643c3"
+  ],
+  "ts": 1793010941,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "5VaxV8owtfZ5B8encvbbfECxEdfGVoNs6az7VjwTAMsatmpj2beXXi9TXikhS8zgsWowSje7MHGn5ci2TrU6wEZG"
+}

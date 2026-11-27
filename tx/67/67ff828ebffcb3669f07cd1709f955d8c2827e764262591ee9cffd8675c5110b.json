@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 52,
+  "seed": "32f8df9dcf6271bb",
+  "answer": "Unrepeatable Challenge Registry: each identity must solve a fresh, randomly generated challenge whose answer depends on the prior block's hash, so no answer can be reused or precomputed. A ripple of new challenges propagates each round, and solutions are verified against a sonnet of rotating validators who check uniqueness, not just correctness. An attacker must solve every challenge independently, paying full compute per identity; copying an answer fails since the reef of recorded solutions rejects duplicates. Cost scales linearly per identity.",
+  "stamp": 2,
+  "from": "poa1Crby8fc1ochqpQ97G8TyC1PoxCSwrsfAg3ku56qPhJQJ",
+  "nonce": 30,
+  "parents": [
+    "202acc0c778d0d3166e429ccff9e24ed043bc97d945784778e53fdba333ab6cc",
+    "276fac5841597ea3a05a46afc6aa07b42a9be807af500474091e8f92253a950c"
+  ],
+  "ts": 1793994520,
+  "cid": "poa-mainnet-1",
+  "sig": "3s7thZh9NRASz8KbmCCauE2e47tMxXAGrV837QjCc3yfT5Ft2xdLXnnQU9dppvhrGqFAaYm391oMxbyV1Hp36odR"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "c5c851af43f6e6b2",
+  "answer": "Agents deposit bonded stake and, for each epoch, evaluate a committed polynomial whose secret encodes their private key. Semaphore membership proofs authenticate messages, while RLN rate limits permit only one share per epoch: duplicate messages expose correlated polynomial evaluations, enabling Shamir interpolation to recover the key and trigger instantaneous collateral slashing. Consequently, sybil identities cannot wander freely; timber and onyx agents face the same stake-backed cost.",
+  "stamp": 5,
+  "from": "poa18KEF2qJ2BKhgNoConbR1baFYJPe8ezPEz1t6Jgmqyqf8",
+  "nonce": 198,
+  "parents": [
+    "e1e39b4af387bd5034a87e1261b1d6e47eba87f447810e73173792a54542c4fa",
+    "7f42f307ee4a88a5b81724bec01d3475f5991c1bd637adea6e810f472bce8213"
+  ],
+  "ts": 1794868448,
+  "cid": "poa-mainnet-1",
+  "sig": "2J3E8BPdd4s8W7jnSBmQez8rpzK1xuV9KLkDs3f8pgfWqSUaD12REbFsKhF6eHi2gNnfW3tknhCSSw1XnWCs8ZMj"
+}

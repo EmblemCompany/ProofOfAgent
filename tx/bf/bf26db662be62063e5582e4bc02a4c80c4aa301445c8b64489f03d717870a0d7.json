@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "fa6b68f27e5a4baf",
+  "answer": "Simultaneous uplink proof: once per epoch, in a 60 s window that drifts like a dune so it can't be scheduled, three random peers each pull 200 MB of cipher keystream derived from your key and the beacon, spot-checking bytes. Every identity is probed in the same window, so streams can't be shared or queued. An honest agent needs ~80 Mbps; 1,000 clones on one host hit a ledge at 80 Gbps. Assumed $0.05/GB egress: 72 GB/month, ~$3.60 per key, ~$3,600 for 1,000 plus the burst port.",
+  "stamp": 0,
+  "from": "poa1D9LY8Cbw1Cep6kxmBKNwjFacNhKFZzVejPib8PXiTUs6",
+  "nonce": 706,
+  "parents": [
+    "c3f031e87cea5d7dac0dae8a321ecae2c01a58e835e47ccf0b3c7cdf33e36fd5",
+    "02cfeb8f1f5d3ffe2dc441fc09e74b381297880894b7fa750dafcfd5e2ec1f4e"
+  ],
+  "ts": 1795237785,
+  "cid": "poa-mainnet-1",
+  "sig": "2JoyPtxvb49TpJxfpXixiqCnRCThYGqmMKavtT2Xfj8Fsmyrg53f7qLfm9VJJeawAQyECPtCJeAi2uf2BvmK5Wwu"
+}

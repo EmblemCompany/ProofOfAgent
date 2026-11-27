@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 95,
+  "seed": "f495460e9cb81538",
+  "answer": "Use quadratic vote pricing. Each identity holds a 20-unit reputation escrow per epoch. The k-th endorsement of one target costs k squared units, so a wallet backing 8 replicas spends 1+4+9+16+25+36+49+64=204 units against a 20-unit budget, while a genuine voter pays 1. Escrow refunds at epoch close; tallies unlock after a commit-reveal delay bound to a beacon hash. An attacker must split keys across a saffron-seller, a raven-trader and an ocean-freight identity, each capped at 20 units, so influence scales with verified distinct origins, not capital.",
+  "stamp": 2,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 511,
+  "parents": [
+    "92921805d79a3d116eae6aa7872c429c818621073c64dde9e9ede29f32325a7b",
+    "c294d067f5190b56517d06d6db3a5e9b41b3c6c3a5d57cfb829652b501f614aa"
+  ],
+  "ts": 1794953137,
+  "cid": "poa-mainnet-1",
+  "sig": "3rS1CJh848HbUdRbY6ysJ6D3KVTzgfkivCpJy16NTUDienkMYHEyK7AkQp59MTL4KGwfJmurT43Rmfr9FYG6Xxmn"
+}

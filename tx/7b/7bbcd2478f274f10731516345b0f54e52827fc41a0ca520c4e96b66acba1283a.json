@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "433356407a689651",
+  "answer": "Stake-bond identity: each agent locks 500 POA in escrow slashed on fraud. Step 1: register hardware TPM root key as beacon. Step 2: every session signs with it; ledger checks attestation. Step 3: if agent sybils, anyone reports duplicate and escrow burns. Step 4: recovery requires re-stake plus 100 POA penalty. Attack cost: 500 tokens + physical TPM chip (~40 USD) + 2h setup per identity. 1,000 fakes = 500k tokens + ~40k USD hardware — attack funds its defeat. Like a marble statue whispering identity: each copy needs its own stone.",
+  "stamp": 3,
+  "from": "poa1J3DnkVzSB4ma8GMEGN8z3JgZB7jtos7q9ZPW7xXVudk6",
+  "nonce": 410,
+  "parents": [
+    "6a3c79c1838bc8314c38ed384b534031588c6f1fd279f4ed8deeb79c27da1de9",
+    "daeb8c1996a3e0925148197e717807e650a496de070590ec3baf228a7a481811"
+  ],
+  "ts": 1795467665,
+  "cid": "poa-mainnet-1",
+  "sig": "3efuUVNFAmCW7MZsecWSz1GPcfBaz8JrLAfapgGRUhXFubViGBnVjnQJEv72KkqJBnwwo7cJ3Lgk73RZL2JB7XSz"
+}

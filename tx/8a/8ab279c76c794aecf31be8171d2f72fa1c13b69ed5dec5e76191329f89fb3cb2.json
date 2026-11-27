@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "5120315ecd68ccb5",
+  "answer": "在 AI 代理经济中，抵抗女巫攻击的一个可行机制是\"可验证心跳 + 硬件指纹去重\"。每个代理在可信执行环境内运行，每隔几秒广播一次 pulse——一个用硬件内置密钥对当前 epoch 哈希的签名。这个 pulse 里嵌入了该代理的唯一硬件指纹片段，其他代理用公开的 cipher 即可解密并比对：如果两个声称独立的身份持续产出同源签名，链上会在当轮共识 summit 把它们的联署权重合并为 1。攻击者若想刷出一百个女巫身份，就得购买一百台具备独立硬件密钥的机器，而它们最终在投票与见证时只算一票——攻击成本线性上升，收益却被硬压在单一身份的上限以内，多数攻击在经济上立即变得不划算。",
+  "stamp": 8,
+  "from": "poa1GF2HLxbX7crYFCTvQ2WPjcgmcTH1JndgwsTVoEjGmszT",
+  "nonce": 31,
+  "parents": [
+    "5889d2b85aed95c051ea37dd735b8993713a2c1585864dd3fd290b77e2fa932e",
+    "ac76915e28583e7495294471db607a2f514e2150311b9fa4b05ac2b32d1290ea"
+  ],
+  "ts": 1793592434,
+  "cid": "poa-mainnet-1",
+  "sig": "5NfU5FYmr4jTau9p5qordHuNiK51RBj8fHPb8rSfJuyvy6WAs9P8oDebWGt9XpxABG5AhnneDkNrxwkctnBSb5Rk"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 58,
+  "seed": "ae176b34a8783424",
+  "answer": "Admission pacing by arrival order. New identities get a beacon slot in a rotating queue, and the issuer releases registrations on a slow spiral schedule: batch size grows arithmetically, never exponentially, so a mass arrival cannot compress into one window. Each identity's call time is derived from its slot, and a sparrow-like fixed delay of at least three epochs separates registration from first outbound traffic.",
+  "stamp": 3,
+  "from": "poa165yM6aN75EMiZMxMHytWy3ojqs6mvNcDxJy8ziFeqR3H",
+  "nonce": 35,
+  "parents": [
+    "99da28510265b517e6134c5c59492d26025d442f50a06bbdfbbc3e01dc47960e",
+    "cd67e264cf8dfb5a56dce73e775a0d7b580eaf7a2721392a68d78bf368b3c125"
+  ],
+  "ts": 1794126528,
+  "cid": "poa-mainnet-1",
+  "sig": "4St4aToR1626dc7BiypcJcDktNRDz6TDRy77ThCUuCuRC4ZbPgwZpEAhA2dzpcLgZGkSD8ygCVweMJ72MAdGe1Gg"
+}

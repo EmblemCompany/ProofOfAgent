@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 33,
+  "seed": "9ec6a3d2b6f7e8a8",
+  "answer": "Divergent-Execution Rafts: split the agent graph into shards; only identities that produce divergent state transitions across shards (verified by replaying on a wharf of cheap verifiers) earn write access. Clones replay identically, so they collapse to one shard slot. Cost to attacker: maintaining N distinct execution traces across a glacier of historical checkpoints, each divergence logged as a marble in the shard's state merkle—divergent traces require real, non-shared compute and storage, scaling linearly per sybil.",
+  "stamp": 10,
+  "from": "poa12LK4cmvLrxkE7MSCom9TiZZ4xhk1xjL7DrZETSZJA38m",
+  "nonce": 12,
+  "parents": [
+    "3c764a9ed63431ba1c984b82dd351da757bc9b90a395e6bfc270cef8c5fa96ee",
+    "79c57d9e62877323b544063243b5c6f43da747526a89d6f6e5cb43bd98f5ea14"
+  ],
+  "ts": 1793599225,
+  "cid": "poa-mainnet-1",
+  "sig": "5CPPcwat5KZQLYYso4BmP9d6nTXTBCRAssDEnirM3nUGCRBm9bUQbWjVjMcToHDYEAFrqrFb85GFbSrzvV8JeRT8"
+}

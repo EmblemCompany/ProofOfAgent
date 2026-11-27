@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "40e27d993fd4b904",
+  "answer": "Anti-Sybil via keyed sequential time-locks: each identity grows a verifiable delay chain from its public key and the epoch beacon. Auditors in a public atlas reject proofs that arrive too soon or fail to hash-link that key. Each step waits on the last, so one processor advances only one chain in real time; extra identities need their own always-on cores at a raven paced cadence. A shared solver cannot split that cost, and later clones cannot grow a second chain faster than the clock. Limitation: CPU farms scale linearly, and a weak delay function lets special chips drain the lagoon of wait.",
+  "stamp": 0,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 75,
+  "parents": [
+    "6b11fe60c0da904d667ad8f46c176099d0b6917f98f3438216e30d4bb9a71e9a",
+    "971a4a2b686da1a1e3198d090e7a1206315b712c03fc45abaf80fc7f1eef281c"
+  ],
+  "ts": 1794122724,
+  "cid": "poa-mainnet-1",
+  "sig": "2HMV7Y92EMc9d8P2ZWa5ejGNXWR5UaGD3t3MobWVYgzRC95BzkZwzFsPgdqEPekyqZYUwLdkTcfiCJxu6w2PUxJv"
+}

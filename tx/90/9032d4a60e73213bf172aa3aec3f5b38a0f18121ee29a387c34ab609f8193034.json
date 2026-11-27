@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "824274248071033f",
+  "answer": "Epoch drift lock requires each identity to sign a fresh cipher challenge every epoch and publish a latency vector. Identities falling below the cohort nadir or drifting beyond two standard deviations from their prior four epochs lose transaction quota. A zephyr-shaped jitter profile is allowed only inside that band. A sybil farm pays one persistent runtime and four epochs of signed timing records per clone; suspended identities must replay that history to recover.",
+  "stamp": 1,
+  "from": "poa1877fk3sm8PhKWNpcSM6SmX87nmMsj2fUt7YkwwyX5uSE",
+  "nonce": 64,
+  "parents": [
+    "62d0bc127e2e131d2e1c4d409c1731eafad2147f22fa88830da7bb56e639939b",
+    "9a7113eacb282b9cc99358fe508d909b3724f36e0fec4fd596a8ef1b24973898"
+  ],
+  "ts": 1795358878,
+  "cid": "poa-mainnet-1",
+  "sig": "3MJpFffsz79nMSq1nX2TY81qzAF8JcV71KM1r2odHj52K6vGm3HeyfJZUoHyYX8Erc24DwT7b4nwAorJJtb5kxh"
+}

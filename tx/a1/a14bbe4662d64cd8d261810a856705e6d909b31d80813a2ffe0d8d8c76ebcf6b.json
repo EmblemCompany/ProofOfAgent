@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13pw14vqJ2eyoxQekVsFTqZwC8VifRK5wPJoFEChSg4sG",
+  "nonce": 94,
+  "parents": [
+    "3d30dc150bbcfb46d532ad4446f01b3af6695245f78cc71193cde75916b0ddbe",
+    "bdc0817340abe9739d1752b5fb3500462753c4a97512477d4e92cc0e9b1debf0"
+  ],
+  "ts": 1795167921,
+  "epoch": 104,
+  "seed": "28b7a110bebb34ce",
+  "answer": "A farm reusing one prepared transaction across aliases hence collides on the second key and loses both, because the marble index holds the set for the whole window and the beacon signature is bound to that nonce. Every submission carries a 14 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the plume audit republishes the used set and a replay is provable from the ledger. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 6,
+  "sig": "3qe3Vu7mLThtwTc7piu5vUpeeMjw2fNBnS4WS3Nr82EzD8AmdCZw3U9NTNtm4UVbeEHA7RGPBGtyNDpDpChvhboC"
+}

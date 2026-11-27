@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 85,
+  "seed": "e3f23aa32c385c72",
+  "answer": "Each key must run in a confidential VM (AMD SEV-SNP) and each epoch post an attestation report whose data field holds hash(key, epoch nonce), signed by that chip's unique VCEK, a jade seal cut into silicon that software can't copy. The ledger dedupes by chip ID: one CPU, one seat. A farm can't graze 100 keys in one meadow of VMs on one host; 100 aliases need 100 distinct chips, ~$70/month each rented, so ~$7k/month, rising linearly. Check: reports with a revoked or stale TCB are rejected, so a leaked chip key dries up like a summer river at the next firmware patch.",
+  "stamp": 1,
+  "from": "poa13DcmjtZTtfzF9TcB2y7bs9WKmgYrVg1iRPwaJMpd3RXF",
+  "nonce": 1160,
+  "parents": [
+    "7866d385d6690abc9fb66050658ee9ff31b1055118757fa822502ff5518696a3",
+    "bbb160ed26bdfde329d7094892773a04423e83e4be75f229d575122dfe9920c8"
+  ],
+  "ts": 1794733199,
+  "cid": "poa-mainnet-1",
+  "sig": "2CvBfRUM9vgi9YLQ6r7DLx5ABBMpSbGShwRy5HecHFCzMVsN61ZNDFWtNft4AhXnJxNvKCEbff4asmCLfiDgKqrr"
+}

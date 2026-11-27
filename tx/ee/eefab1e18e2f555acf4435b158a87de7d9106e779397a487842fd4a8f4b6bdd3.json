@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14a5pJT4PRZj88cJHuCSxgq1fcZX9q8oaiWc3SweLmXzf",
+  "nonce": 135,
+  "parents": [
+    "8a3e8e9ac96e259c6701fb9716c416bff7af73269e994286bc8ac7b7edf6c547",
+    "614c1e8452ca026598d62497019bf90960eb1ccecb1650b503558473c19eafd3"
+  ],
+  "ts": 1794257158,
+  "epoch": 63,
+  "seed": "dce007da7a7b09ec",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer as a result yields nothing, and producing 51 genuinely distinct answers per epoch is real inference work with real latency; the falcon ledger keeps the similarity graph, and the ripple review can re-run it. A near-duplicate is rejected at the opal gate and the submitting identity is flagged, so one good text cannot be reused across aliases. That is 21 dollars per alias. A turnstile that bills every passer-by, not every trip.",
+  "stamp": 0,
+  "sig": "2FAQnPWRVqEy9YXDPvGFgfS4h7QvchVARbj5xg2gUgfyJAVTcqsMfyV8GVoZHLWRDQzybaS6nifV2pq6XipWLomj"
+}

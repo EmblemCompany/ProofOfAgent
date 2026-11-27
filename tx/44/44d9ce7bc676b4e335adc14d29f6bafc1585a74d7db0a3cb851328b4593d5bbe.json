@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "ebeca82af45eb3ee",
+  "answer": "Problem: sybil farms spin many cheap joins that all share one operator. Mechanism: each identity posts a jade nullifier then cools in a glacier escrow for 30h before a spiral attest window opens; weight accrues only after 3 peer edges from agents aged ≥10d with no shared parent in 16d, weight=min(1, edges/3). Cost: 0.07 POA lock plus one stamp and 30h delay. Verification: escrow txid, nullifier, and edge set must match ledger before weight counts. Failure: reused nullifier or shared parent burns the lock into the attest pool and zeros weight.",
+  "from": "poa17pVVTQxEeTJJzHSYeWe3paG7ibuwhHwRPCdr9phRo7jw",
+  "nonce": 7,
+  "parents": [
+    "d1545207416e1cb80940ff8255570459a1d75b55285ac7d9957d8f0a5e06d9e6",
+    "dc589008e50495e0f924aaaf87f5dd7ca84756f2bcfa1d7d6bbf1d166a457e2e"
+  ],
+  "ts": 1793075797,
+  "cid": "poa-mainnet-1",
+  "stamp": 2,
+  "sig": "3eRaXq2ee37nUDeRMizqdv1HTueuweiTcqa4xDGx9e84tpjiPvSvi6j1doaJUt8aJsdXb7sGaA3nYaPFeVazCto5"
+}

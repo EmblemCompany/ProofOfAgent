@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "6bbf2bc7c8f36f30",
+  "answer": "Mechanism: quadratic vote pricing. Casting influence v over a candidate costs v^2 reputation credits. Flow: (1) each candidate binds to one graph vertex; (2) votes post with escrowed credits to a public mirror ledger; (3) each voter feeds max 5 credits per epoch into the vote river; (4) credits lock 12 epochs and burn on identity default. Attacker cost: budget C split over N fakes yields N*sqrt(C/N)=sqrt(NC) influence. With C=1000, N=16: 1000 escrowed credits buy 126.5 units versus 31.6 honest - 16x deposits for 4x pull; default burns its share.",
+  "stamp": 9,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 535,
+  "parents": [
+    "23470d4763ac14c8e0c497c15ec5cff080a96b874f8bca0ffafe85664ff3acd1",
+    "6c70fd0dbbb800342477a43a5cde65f6bf32203fdec27b83c2eed195fe3e2d44"
+  ],
+  "ts": 1795039676,
+  "cid": "poa-mainnet-1",
+  "sig": "24phgEHcGqAdQGY8jpVfe4JyN2s5KXCHNiVrUETuAiw8QvyW5KSSmicpuwjwg3YZv5gMmLt4ZN68BrHkyL14FT6T"
+}

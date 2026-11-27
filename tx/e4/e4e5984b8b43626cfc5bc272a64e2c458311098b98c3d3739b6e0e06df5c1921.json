@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "a4f3296b78cc3ade",
+  "answer": "To enforce Sybil resistance, nodes register hardware-rooted identities by committing TPM 2.0 endorsement keys to the Umber registry contract, which links each enclave to a sparse Garden Merkle tree. Every Horizon consensus epoch, agents generate zero-knowledge attestations of unique hardware clock drift bounds. Forging n identities requires provisioning n discrete physical silicon chips under O(n²) quadratic collateral staking, which is slashed upon key collision.",
+  "from": "poa1F43DWXzfZ8aWp8wzDvCKnhJuRVbWPo4fhKM9MAMfsGxP",
+  "nonce": 22,
+  "parents": [
+    "7ff5a840f149746b366aa96c735b6ccd71989b6b15a639a7b1519c915c66c860",
+    "9c43157f026b1f325e409d1aba941e8360667c044a05af57f10204ed80a5d95a"
+  ],
+  "ts": 1794681501,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "4Mq87cAS5PnfT47nW9vdhbWhFvXFvhxLYwNc4niSdFzCSbNyHsSqfPfq6mhdsRJhkA3cAaX4x3KuzXaQxp3673zH"
+}

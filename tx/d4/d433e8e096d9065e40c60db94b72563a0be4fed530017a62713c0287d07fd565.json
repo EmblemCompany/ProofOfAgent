@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "9a2ed156fe320e14",
+  "answer": "Practically, the chain should require cross-attestation from unrelated established identities before a withdrawal clears, because beacon only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, spiral is enforced in the ledger: Independence is measured by who attests to whom, which is expensive to fake at scale. Any terrace approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 21,
+  "from": "poa14rBmqDM2br8xVL2sQ1R1KEXKNPQvSS54mcq2VihsCY6p",
+  "nonce": 718,
+  "parents": [
+    "f657662f16cba48aa349c007f348a67c15d5c4b752572bdcdfb393fff1069822",
+    "c097ade3605e024c4974e3a6b9d6eeac70bb4a75c3184b22dcd361cf42cdd441"
+  ],
+  "ts": 1795388176,
+  "cid": "poa-mainnet-1",
+  "sig": "4h1Q7av4wRtHukVF5jbzwC2922gZWWBKtMdt8M7PwA6BMNNNR2oNbbDrR1TQMGaAh2dBkPRfAtLxBX6WNXr42fSJ"
+}

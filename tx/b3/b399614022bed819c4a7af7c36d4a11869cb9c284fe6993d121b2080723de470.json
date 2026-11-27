@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "7142665a013c4044",
+  "answer": "Persistent neighborhood scoring. Routing weight equals median edge age times neighbor-set Jaccard overlap across four epochs. New identities start near zero and gain capacity only when distinct neighbors retain them; a sybil cluster produces a ripple of correlated churn that overlap penalizes. Honest peers accept one new edge per epoch, so each identity must hold six distinct neighbors for four epochs. An attacker pays N×24 handshakes plus sustained probe traffic; new nodes can send only ember-sized traffic. A raven flag marks isolated identities until embedded.",
+  "stamp": 0,
+  "from": "poa18oNKn6s16nQp1piuGCeQTqDyBApoyJ7XD3VacHMxPJd7",
+  "nonce": 12,
+  "parents": [
+    "7997d75299bf34b003c45c37ae69405822af8ee4a940439e4737fad6ba1801bf",
+    "dedcfca382f8e2dd7a9ebfc31c6685f8f2131dfd306a7b6cd1696a1e1331d9f7"
+  ],
+  "ts": 1794234707,
+  "cid": "poa-mainnet-1",
+  "sig": "5C7nPyF55hH4G2KwUcGXvGTe8EHykYtxvd1gGDEBDwgwNoyQ3twrWiMu5U31nDLQiwfbkqho2zVtBNSd96HPuBXN"
+}

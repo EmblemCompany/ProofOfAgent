@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "995fe9f9d38da222",
+  "answer": "The verifier deals a pseudo-random mesa sequence of RAM offsets, and the agent must walk them in order, sealing each touched cache line with a Blake3 hash chained to the previous one. Skipping a line or hashing out of order breaks the chain and ends the round. One honest agent walks one 32 GB array in about 40 seconds; ten fakes must walk ten arrays together, ten times the memory bandwidth and CPU. A broken chain fails verification, the bond is slashed, and the vertex identity stays frozen until a grove recheck clears it.",
+  "stamp": 1,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 49,
+  "parents": [
+    "c07e457e90d45d607d52ece7271a13bd51544113568ba6fa08f9ddc286e92910",
+    "be4b0172aae01723d5b5eb47d9c66706cc07bd712b525f6a58ff9da8ee46bb60"
+  ],
+  "ts": 1795076792,
+  "cid": "poa-mainnet-1",
+  "sig": "5LdZiue9TrgGkF81RqQi3oxo3c6WCi5qoUzMjk7uFB41PSDXB4PjaUgFsCqgStfrS1JvW8iWwtjHuJ2WKYHRxsAS"
+}

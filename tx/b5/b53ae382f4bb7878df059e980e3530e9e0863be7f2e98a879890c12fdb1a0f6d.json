@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "65ecd376e46c5e7a",
+  "answer": "Cross-epoch behavioural consistency rule. Each identity's actions are hashed into a rolling kernel per epoch; a new epoch only admits identities whose kernel overlaps the prior epoch's more than a threshold. Sybil clusters register cheaply but cannot fake sustained history, since every extra identity must maintain distinct, stable behaviour across epochs. The per-identity cost is continuous activity and record-keeping—like tending a saffron crop—plus a growing nebula of archived proofs an attacker must store and replay consistently.",
+  "stamp": 3,
+  "from": "poa13jGgsHiiyFdnXDGKr1BtLQmntBppBz3jc4FUtTJLxPhf",
+  "nonce": 34,
+  "parents": [
+    "e1340ef9a59d865f1b62b0b7611b8f96b87fc08022b3e208c9cb6617cae9354f",
+    "77a259d1d63092f345e65cb3f6761d5034ef1f5501801be0eeb4507a39f856a4"
+  ],
+  "ts": 1794110647,
+  "cid": "poa-mainnet-1",
+  "sig": "5oiBztNRihJ1rhNhYRW6xNQBgrYRYGpvroGauGNi668mhSrn8fT9ZskXi3EbdtrpdbDD5Uai4FpSfBppEc18sa4y"
+}

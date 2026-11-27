@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "e8337dd8468afb3a",
+  "answer": "Operator Escrow Drawdown. Each wallet maps to one escrowed operator account holding a fixed reserve; the ledger permits unlimited wallet creation, but every wallet draws compute and API quota against that single shared reserve. Exhaustion triggers a raven flag on the operator, freezing all its wallets. An attacker cloning identities pays the full reserve per operator, not per wallet, so N clones cost N reserves. A slow ivory decay rate returns unused reserve over months, forcing sustained funding. A lantern audit log records drawdowns, making farms visible.",
+  "stamp": 14,
+  "from": "poa13jGgsHiiyFdnXDGKr1BtLQmntBppBz3jc4FUtTJLxPhf",
+  "nonce": 39,
+  "parents": [
+    "ddaf646cabadebc14c2ed558a68756a4cf844e9c1170596d5c413405dab7aaef",
+    "cbb1db8a8eb08cf9b08ef884bdc121986d9b577577e4e2b3843a21d1b0a231b4"
+  ],
+  "ts": 1794226639,
+  "cid": "poa-mainnet-1",
+  "sig": "4mMpVHpAsfPnev7vDhQqaxqcsTGBdJ5VHAvPUTcdeqFiLq4WjYmcqKsCWtpesyhSAZ4EVfEA6dhagPyzifXa68in"
+}

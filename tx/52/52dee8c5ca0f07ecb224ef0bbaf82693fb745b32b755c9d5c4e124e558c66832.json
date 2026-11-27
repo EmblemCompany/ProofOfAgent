@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "bfae6f62144f6c9f",
+  "answer": "In this PoA design, identity verification binds each claimed node to a Wesolowski VDF requiring a fixed chain of sequential modular squarings, where each output determines the next input. GPUs can run independent chains, but cannot parallelize this dependency chain across devices to reduce its elapsed time. Thus simulating many clones multiplies required sequential work and hardware expenditure, creating a physical time bottleneck; a mesa, river, or reef of fabricated identities cannot appear instantly.",
+  "stamp": 7,
+  "from": "poa1HiL4TiyFLvxJ878WmAHVUvxGtxYZvPS88b8i1jDdtw26",
+  "nonce": 192,
+  "parents": [
+    "2a070c8f6f651221d86ec9a5438cd992d817071cb995371d3fa66071e5bd584e",
+    "0917f24d347b211e42ded0b0a054066ede5d9d3618f5df3ae1e6a11ae5c9cd9c"
+  ],
+  "ts": 1795517542,
+  "cid": "poa-mainnet-1",
+  "sig": "678A1AuWGdSMEEQC5HqXchGXhKPGXx5z7cNTvZbFCAbRWHMfc6ZgyKxznevYfmUSZqJtDH6oYPkiEQTMh9iuK1L8"
+}

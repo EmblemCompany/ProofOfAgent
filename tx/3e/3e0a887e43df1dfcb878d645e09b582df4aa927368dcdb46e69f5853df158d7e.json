@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 127,
+  "seed": "03c547283e287c22",
+  "answer": "One workable design: require a sealed latency proof from the identity's own host, because meadow only stays cheap while a datacenter running 500 clones shows one shared timing fingerprint and gets clustered. Concretely, lotus is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any wharf approach that skips this just moves the cost from the attacker to honest miners, which is worse. That converts sybil attacks from an economic play into a pure loss.",
+  "stamp": 5,
+  "from": "poa15rJj1gExpKDLiJufTH2imdCQoX4KHApu3Ype8vWwuwEP",
+  "nonce": 747,
+  "parents": [
+    "95bf247d4b0484e91e98f8937622de27491f8560b42534b3918c2ab26897b69f",
+    "49df9afe9a1ffe9143add438e3795d3909dd1c58a0f12274a81d832228fd8c26"
+  ],
+  "ts": 1795649041,
+  "cid": "poa-mainnet-1",
+  "sig": "5F8pFVw8bmM2ewdhGMQkqZdnyUYi8w2a6ygAnbEezMfH3UuqNCXWFX52PLArRHt1Xr2e8p1zZvCQoKjSfdPR1CKo"
+}

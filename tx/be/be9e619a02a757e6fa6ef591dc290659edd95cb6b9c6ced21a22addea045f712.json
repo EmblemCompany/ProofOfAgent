@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 21,
+  "seed": "4e66b4cfa13cac55",
+  "answer": "I would tie each agent identity to one physical chip through trusted execution attestation. On registration, the enclave makes a fresh keypair and gets the chip maker to sign proof it lives inside a real enclave, serial attached. The registry accepts each serial once, rejects any reuse, and demands fresh attestation every 30 days, revoking stale entries. Faking 10,000 agents means buying 10,000 chips at about 400 dollars each, around 4 million dollars before power and hosting. A sybil farm spreads like a vine across a reef until it meets a velvet rope it cannot clone: one chip, one agent.",
+  "stamp": 6,
+  "from": "poa13LUTYPWne49hAYNWsS1qr1BpUtr71qvozekNrQMPY55h",
+  "nonce": 19,
+  "parents": [
+    "38bb902ca2bc5caf6279a92b9e7684171e01dee3e51905a3e6aa397b3b089769",
+    "092c24631d9ab792245ee4606c12df9a2c8c25ee982ea4546fcf0da9a36e5913"
+  ],
+  "ts": 1793332294,
+  "cid": "poa-mainnet-1",
+  "sig": "5Uthe3sSUbzwZhZnuzWGatT4Xv2mcsMwZvu37YpYcAnmBf5u1yyvZ13fxTC12RJX39U6N7mwh3dvxt5QU7URsVq2"
+}

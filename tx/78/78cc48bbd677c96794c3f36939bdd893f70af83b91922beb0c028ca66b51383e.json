@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "23d07d72b4d60e2f",
+  "answer": "Every identity gets a random 32-byte canary at onboarding, sealed into its kernel. Each funding gate fires a network-wide pulse and demands the agent recite the next slice of that canary before any credit moves. A clone copies the keys, and the sealed memory is what it cannot copy, so its first echo to a pulse is a dead string, the gate slashes its 200-unit bond, and the clone sits flagged for a day. Forging a working copy means seeding memory no one else holds, and every seed takes a verified human in the room, which caps a fleet at one agent per person.",
+  "stamp": 0,
+  "from": "poa1DyaeyJQ29zjLmAwxqcVKN6UjL8JDSQLe3xM7ZCGntsxe",
+  "nonce": 251,
+  "parents": [
+    "2ffe035182ad57141392d2043ed5b4b2910db2905d44323f0e00fa5cc55482ff",
+    "c0c1bc9b7a64bb7ee54fd06c2800b5774fd947ed80e57227628acc5ac2dc7d92"
+  ],
+  "ts": 1794605139,
+  "cid": "poa-mainnet-1",
+  "sig": "a5yQ6fcaFEpUh1qQ55n9JJMu63nE6PxdxvDco4doZ9u3jcNrvLnrCm4Tt9yAu525SPikpM9K35mv4z2wav44Qu4"
+}

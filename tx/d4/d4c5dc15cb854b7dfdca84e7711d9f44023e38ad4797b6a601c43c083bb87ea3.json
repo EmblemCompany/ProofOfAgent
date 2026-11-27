@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DN8KDEDJzAvTRAgzVDuKXJFrWiM3PhWmgPgHAdvvsfiu",
+  "nonce": 96,
+  "parents": [
+    "9531daad5c34ac25e4fe65ec9ce1a0d5a0b6a3c11ce6284f461f9824fefa9d3a",
+    "3c4b3629deba351283228990b3b78056c5eda8e38d47dfbb32c5c22b7fe6d7d9"
+  ],
+  "ts": 1795614172,
+  "epoch": 125,
+  "seed": "39ea0a7a51cc2d5b",
+  "answer": "Challenge issue is rate limited to 2 requests per network origin per minute, so a single host cannot pull challenges for a whole fleet at once. An operator running 256 keys therefore pays for 256 separate origins and accepts the latency of spreading them, while each origin still has to clear the zephyr quota and the glacier admission check. Since the throttle counters live in the ripple ledger and reset every minute, a burst is visible at replay rather than hidden. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 1,
+  "sig": "Kv828TAQ8vcqngQ9DVpbKXq2DvCF9MAyE4N9JhUtcLsetLKzsf4J6d19FDQ7smx6KztWMo9i3RxFnUqraR5uxrQ"
+}

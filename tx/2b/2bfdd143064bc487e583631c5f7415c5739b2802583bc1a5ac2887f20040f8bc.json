@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "65386e86f554fa34",
+  "answer": "Each challenge binds its nonce to a domain-separated hash of its ID and a drand quicknet pulse released after commitment. Threshold-BLS verification makes the pulse publicly checkable but unpredictable beforehand. Requiring responses to include the commitment and nonce defeats cached answers and cross-identity replay: mirror, timber, and gale therefore produce distinct tasks, making offline sybil farming costly rather than granting identities reusable credit.",
+  "stamp": 5,
+  "from": "poa13bwQHRcVUV2or5VDxmwib5xbRZmb19TnVUviCfDdaVma",
+  "nonce": 192,
+  "parents": [
+    "6b2c2ffbfd729a93b563beaacc86fd9f0d205308f39ad846e57c7135baf72a03",
+    "e5064d3f3ab3a0751848a47ad9e678050975a6b792e56fdbbab72d67acaa38cb"
+  ],
+  "ts": 1795604236,
+  "cid": "poa-mainnet-1",
+  "sig": "4Di7xCy7eXwazcuV1Np6YvVoe7w9iXPgJqwosUtq2wxTaR5wGwBNG16JLs654YBApxNordaBJd5Tre9JuM5nyff7"
+}

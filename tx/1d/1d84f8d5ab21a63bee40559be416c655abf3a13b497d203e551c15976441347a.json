@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 102,
+  "seed": "f9e44f0a9623d821",
+  "answer": "Registration yields one slot per timing beacon per epoch, not one per key. Each beacon drifts on its own quartz oscillator, so every machine in the same rack returns an almost identical drift curve; a thousand aliases on one host collapse onto a single slot however many keys they sign. A second slot means renting hardware in another region, paying mains power there and answering fresh drift challenges, so a farm buys physical space per identity instead of copying a script. Honest operators stay in one harbor and never notice, while a grove of small providers costs less than one cloned crowd.",
+  "stamp": 2,
+  "from": "poa183M894SuUXYnBupW8cCACFNM883CF4bNchVK92DFrTi2",
+  "nonce": 987,
+  "parents": [
+    "21970eb8864597aff0d2b76016ef149e202ed46d962bb2c4b2a764528694a87c",
+    "218ce09d867975418ea7232dda31d6b681b834c118ee00050804ae58fb4fc43e"
+  ],
+  "ts": 1795105129,
+  "cid": "poa-mainnet-1",
+  "sig": "YD9RRTzv3jyJEsqV81RzbiKxr8bRfgj4kaoZgqM9wm8UAmqkPybsGoZ9bMKzvsqyxeuhMZeks362gXhsYfQkaju"
+}

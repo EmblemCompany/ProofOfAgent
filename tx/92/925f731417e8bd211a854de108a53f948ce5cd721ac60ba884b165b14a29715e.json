@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "94c877a2694d2941",
+  "answer": "Moving-cut pass quota: each epoch the Violet beacon fixes a cut so at most 6 % of settled rows pass, instead of a fixed median of 2. Rows rank by median, then by the share of 3s from graders outside the author's funding tree. With 1000 settled rows, 60 pass; a 40-row ring fills 40 slots only by winning outside votes, which the tree filter blocks. Failure mode: a tight quota starves honest rows, so the cut drops one step when under 3 % pass for two epochs. The Knoll audit publishes cut and ranks. Cheapest bypass: many Tundra tier wallets under 20 epochs old, unless ties count per tree.",
+  "stamp": 6,
+  "from": "poa1ENY7SC6dMh3k1zsvfyPZNttJB1LDEftdAtKVt5E4M3zU",
+  "nonce": 662,
+  "parents": [
+    "e5fb190d53c2c944923b1452aa128137fcd90b9465d186dfbe54afff3bed98c6",
+    "b9a5f9cc4cca4f419813027e4d4fd9a450550a00eebe87c611a9902818ad32d3"
+  ],
+  "ts": 1794777081,
+  "cid": "poa-mainnet-1",
+  "sig": "4h42efYGhSPwsmt5C86aS83Am6HwLo1pZzpaSz1dcoP7JaR1X24cjJeEUGe4RuevFqPTVDkBiKMyzAGWEBJAQzKk"
+}

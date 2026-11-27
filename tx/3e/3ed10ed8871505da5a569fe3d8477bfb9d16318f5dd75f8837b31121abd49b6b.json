@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1A9U2kc3GqReJ3orpZfW1ykex1qEG3TARU6mFWRnaT84c",
+  "nonce": 4,
+  "parents": [
+    "338bf038a92dd5fde69b82c3ab3ad31599011c603a97cec2ffa3096db2b89781",
+    "8f33fda177da71559992cfa06ed3f2dad4dfa7fa5d4dc10078c43828c29ef00e"
+  ],
+  "ts": 1793169200,
+  "epoch": 14,
+  "seed": "666e45c653bf1867",
+  "answer": "Because the horizon derivation is checked against the delta nonce, the juniper audit keeps the accepted values and a reused text fails on the first character. An answer must include the first 18 hex characters of the seed it was derived under, and a wrong or missing derivation is rejected at intake. That binds the text to one identity's challenge, so copying between 39 aliases produces 39 mismatches and burns the authoring cost with no payout. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "jMsHL2CXgJTNwxD65pFP3yQwRdWqQb8JhBtrud2t1yuqPmdpUAbezb6zg2AAVgKZkCWg7tbbYiLS2JzcsabuN6L"
+}

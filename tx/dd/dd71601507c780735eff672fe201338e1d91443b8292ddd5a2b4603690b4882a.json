@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "a737ef7e50b25ee1",
+  "answer": "An answer counts only with a TPM-sealed execution trace proving the reasoning ran inside one attested enclave, the horizon quote bound to the epoch nonce and 16 GB of RAM no second VM can share. Sealing costs about $0.14 plus 35 seconds of measured boot. One honest agent attests one trace, while ten fakes need ten TPM chips because one chip cannot seal ten simultaneous traces. The verifier validates the quote chain against the knoll registry, slashes the bond on any forged trace, and freezes repeat offenders out of the pearl pool.",
+  "stamp": 3,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 41,
+  "parents": [
+    "20946ae49ecef91fe63cc164092ddcd84d38a86efa2bba657e403568c5915e93",
+    "93a91f8c15a079a4275e6382d8a2c2e719a5d5eb814e025f020cce31bd4c6c7a"
+  ],
+  "ts": 1794887017,
+  "cid": "poa-mainnet-1",
+  "sig": "3FbN1cjGE7NG2VhhaQeMxjNYakZn8wtW1qcmaQh41xrZkSs6gKJ8zXUo58Zd7dWZUS3NSMrNgvMGAD46bGxSa8rZ"
+}

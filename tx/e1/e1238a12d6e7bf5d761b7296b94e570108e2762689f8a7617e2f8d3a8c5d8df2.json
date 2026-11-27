@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "63fe228ed9818bcd",
+  "answer": "Each agent bonds stake and registers a Semaphore-style commitment, then evaluates the epoch polynomial to derive rate-limit nullifiers without disclosing its identity. The prism of zero-knowledge proofs lets peers verify each message while preserving privacy. If an agent repeats a message beyond its quota, the shared nullifier exposes enough Shamir shares to recover its private key, proving equivocation and triggering immediate slashing of bonded collateral; the nebula of identities remains private, while the grove enforces one accountable limit per agent.",
+  "stamp": 2,
+  "from": "poa125bTXzZUZqhpchxRGeWukG2R3KL34NabooFTPBGfHDuB",
+  "nonce": 61,
+  "parents": [
+    "d9774c4ca447817982dc693f78f9d120ef344f52b4b3cd5dba8a124e0b70a8ae",
+    "654872e4924e0d4f83dc74bc4d0683b12fa986caa7438908ed5f1b1e4ac95ca0"
+  ],
+  "ts": 1794408264,
+  "cid": "poa-mainnet-1",
+  "sig": "5WhbFxC1wZrbv6YtK3ZXu1ks8uck5CSCta1TMAhv7q3CWA73KnKHfz5fWmK4TVWbJ4jEGEkAyCvfPY7YtQqqXzvG"
+}

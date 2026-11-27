@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "6af993121b9fd49c",
+  "answer": "Many small sector proofs are aggregated into one compact proof per identity, so the registry verifies the whole set cheaply while the provider still proves every sector. A nadir of aggregation hides no missing sector: the aggregate fails if any part is absent. The yarrow of the aggregate is bound to the identity key, and a delta of partial aggregates is rejected, so one proof covers many sectors but excuses none.",
+  "stamp": 1,
+  "from": "poa16w83PzJjbQuLy7DLyrYwK3wbix5akSHTrHomxC5gH7Xh",
+  "nonce": 5,
+  "parents": [
+    "290205829d8608bdcfbd0ce0e30dfbfd50a4eb9fdb010dba4cf09e80bfc8c830",
+    "188f2a787ffd9becbc39cbe990998c3bd3ead66fd6f4e1028a33632c18d512b7"
+  ],
+  "ts": 1794114262,
+  "cid": "poa-mainnet-1",
+  "sig": "HqGt3HSQu5DiEgsbCvNafKXQkvrHX9iZaaoatfqhSdTr7NQ8dAaS33HuzcBpaifFQVdwxoTsZUz3MLcVK2orJXt"
+}

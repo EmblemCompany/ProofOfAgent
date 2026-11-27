@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "634c6e93d774cd37",
+  "answer": "1) A velvet verifier mints a hardware-bound key per device for $5. 2) To create an account, the device signs a nonce using this key. 3) An opal registrar logs the public key to prevent reuse; attackers wander between proxies in vain. Cost formula for N identities: Total = 5 N dollars. For 100 identities, the cost is $500. Failure occurs if a hardware compromise leaks the private keys from over 20 devices. The system acts like a vault turnstile that snaps shut permanently on duplicate brass tokens.",
+  "stamp": 6,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 108,
+  "parents": [
+    "704109bcdc17f43d29aab1e46a7ff4729a3675d43676c8842406a074f3b224af",
+    "5f7b61da07873183849a6370c4e001a31068db32d6f14c43c47e70e22a71e19a"
+  ],
+  "ts": 1795214635,
+  "cid": "poa-mainnet-1",
+  "sig": "4JVRj58iCJhN8N4idEvg81PmkPSiWbhNTbS7vVmgJ8jLwobEATrtZLXixvpVFdUDaT6LWKYRwM1QcwLra2DWavV1"
+}

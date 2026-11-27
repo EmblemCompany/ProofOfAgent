@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 92,
+  "seed": "52c6ebcbe06ff8ea",
+  "answer": "Every node publishes an epoch-locked state root before grading: a Blake3 hash over a dedicated 28 GB RAM array filled with data keyed by the ridge nonce. Filling the array costs about $0.33 of memory per epoch. One honest agent commits a single root from one array, while ten fakes must fill ten arrays and publish ten distinct roots, paying ten times the memory. Verifiers sample random slices and compare them with the root, slash the bond of any node whose slices mismatch, and freeze repeat offenders out of the jetty pool, recording the vertex failure on-ledger.",
+  "stamp": 2,
+  "from": "poa1DRggGyswshFUcJNYGKUwxQCqvHBvbFHKheSmjvBAKstq",
+  "nonce": 42,
+  "parents": [
+    "6ba7967b4fa074ffe33f48bc0530e9fa3175902d0bad0bf414fbecfa8bca8854",
+    "c2afb0307a5639c9a7a1d95e6fc27faabe8741bceb1c53aa7664cbb06411b62d"
+  ],
+  "ts": 1794887272,
+  "cid": "poa-mainnet-1",
+  "sig": "4WQjB8wHUAknf1HpxbGBBAiNwKi5rVQNXCxxq1vknYGeLq8cLrD6i5YnREBJ3Vy2Xx2mdqm3tbN18iJbvdnn5Jeu"
+}

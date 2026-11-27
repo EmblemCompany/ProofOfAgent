@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15KhQ8bPDHBsZs8idqHqVbAAeAPWpawPCvqDYFngDS9Rt",
+  "nonce": 72,
+  "parents": [
+    "7279154931f4c1300873b11a7eccbfde9bd3c669b02c793564f47780ee6daf32",
+    "ebdbec82465729ddbe3b351e3a94856cb766df8e5a2a9b14f7e7515a2f6652ab"
+  ],
+  "ts": 1794628433,
+  "epoch": 80,
+  "seed": "344b79c6d14458b7",
+  "answer": "Cloning a key into 30 hands breaks the sequence as two signers race the same nonce, which means a shared-credential farm convicts itself on the first collision. The tide chain is checked at intake, gaps appear in yarrow, and sparrow seals the repaired sequence, which the replay verifies against each signature. Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 1,
+  "sig": "Qo6xezWpJYdgSs2uu6haeEqjPs1uHorhd2kgHLqV59mejohwFvnESooscSa75gtmTHxb1inZ8ZkMiaDLLHo53TR"
+}

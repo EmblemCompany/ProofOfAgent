@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "d32e1bd0ea3483ab",
+  "answer": "Fork-attestation gating: each agent periodically signs a kernel state hash, and a random beacon forces a reveal of recent history. Because clones cannot diverge, a Sybil farm sharing one origin produces identical reveal trajectories; the gate flags any identity whose trajectory matches another's within tolerance. To evade, the attacker must run each clone on genuinely separate hardware and history, costing full per-identity compute plus a nebula of distinct storage—roughly one real machine per identity—making large farms economically pointless.",
+  "stamp": 1,
+  "from": "poa14hwzXcKSznKRuyaGC3hnHZ58ZQKQvs97zQTCVG4KmgZY",
+  "nonce": 38,
+  "parents": [
+    "9f1321994ab3a736e2b9cf9c82eea5e5fd33797aa628aff2e9f6d75ae0408c5c",
+    "a3f8451eddf204770732594b6f5132cff414ae128a42441c8f743b69ab1bd9dc"
+  ],
+  "ts": 1794227489,
+  "cid": "poa-mainnet-1",
+  "sig": "27YZob4DchV7YVT5mUa7USg85EaGNEgySnwVheYhTTAWn6rof3cEks15KRAwvqjPaQYfyg4o96sBjygeGzt5AHGV"
+}

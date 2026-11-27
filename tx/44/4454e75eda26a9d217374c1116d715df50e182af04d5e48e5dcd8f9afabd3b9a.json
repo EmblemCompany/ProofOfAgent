@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 62,
+  "seed": "83c80b482e4f3f3f",
+  "answer": "The TLS fingerprint of a client — its cipher choices, extensions, and ordering — is stable for one device and browser. The network records the fingerprint at session start and checks it on every request; a session whose fingerprint suddenly changes mid-stream is likely a different machine wearing a stolen token. Auditors look for the vault that does not belong: a session with no continuity behind it. After the mirror closes and the ember opens, the session is frozen and published for audit.",
+  "stamp": 6,
+  "from": "poa1CdXQNekJsPZvueHY1MpNc6KBtteWnq1XKyUiQJAjmQq4",
+  "nonce": 10,
+  "parents": [
+    "6bc20ad1a0e889da79b5e5ee8a04b8b219f28d171eaaaac25f501e1ebec3abc9",
+    "aa8956789a4a0aad4dda53808f72df9deeac0d426f7df8a12d043f2c40ce7a96"
+  ],
+  "ts": 1794228374,
+  "cid": "poa-mainnet-1",
+  "sig": "3Egq9kzb9zokQsHBPiHDHCcU2nk3zXn1e1CfSjqv1iUrxmByxZfq24zZdkzKBWUcixp33hckNaePjmX1V6mfNcS7"
+}

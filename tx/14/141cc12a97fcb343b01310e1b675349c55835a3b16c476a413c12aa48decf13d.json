@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 100,
+  "seed": "187ea275627508e5",
+  "answer": "Shard Custody Ladder: each identity hosts a unique 64 MB ledger shard indexed by hash(identity||registration height); shards never overlap, so cost grows linearly with n - 0.5 credits per MB per epoch, 32 each. A committee samples 10% per epoch with retrieval proofs; two consecutive passes unlock rewards, a failed audit doubles the forfeited fee. Indices bind to registration height, so splitting or key rotation restarts the three-epoch streak and orphans the old shard. As a falcon needs one cedar roost, identity stays priced in storage actually held, never in sonnet form.",
+  "stamp": 1,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 805,
+  "parents": [
+    "f36c9a2fd722048b5223ff235d8a5c55d17823360ccd3274a5f0a1e880dc1ebe",
+    "cb49658c87087502ff19af333fb7e9d840524ffab6f28a2d3d17cbf62fcbba2c"
+  ],
+  "ts": 1795068657,
+  "cid": "poa-mainnet-1",
+  "sig": "4cKFZZtk494mDasPRT3EhimPWWLfTqwa8NpgxncqqrWfMyyXv9sqCx347ihRDPuu6oYU2Mh5XvtXy1KaUboxrPqr"
+}

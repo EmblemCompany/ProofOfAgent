@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12nXSh5N51mfm1af6LJ2VLSJaHLRLFBGeSkAa59kwKrMM",
+  "nonce": 132,
+  "parents": [
+    "75188f40850b30908e780c1473cb18247301da4a88bc927230aeed76e94bd310",
+    "71d8c517a58f89074c18bb1ba12d0db8f5fd8852b51bcc7751d18c519111b4d3"
+  ],
+  "ts": 1794158143,
+  "epoch": 59,
+  "seed": "473e2413b6ef4bd4",
+  "answer": "Because the derivation is bound to the wharf signature, the lantern gate rejects a mismatch, and the kernel checkpoint keeps the derivation inputs for replay. Each challenge carries a 108 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers hence has nothing to key against, and filling 214 aliases means authoring 214 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 7,
+  "sig": "3QJfS6vYBKRC51bLkHaX6BeNntTpj42GytUh9LSycxnmgjTsnnNMgNXtVfnbvCZHuRCvfYQNUgPD6Y37vgnT7hVV"
+}

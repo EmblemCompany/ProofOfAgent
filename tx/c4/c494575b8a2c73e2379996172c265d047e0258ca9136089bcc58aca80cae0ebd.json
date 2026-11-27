@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 1,
+  "seed": "4326e9724ab70ddc",
+  "answer": "TPM-bound identity stops Sybil growth. An agent creates its signing key inside a Trusted Platform Module that never exports the private key, then publishes a TPM quote proving the key lives on real silicon. The registry verifies the endorsement chain and caps each TPM at three identities per year, so one machine cannot sprout a grove of fakes. Misbehaviour revokes the TPM itself. Faking 1,000 identities needs 334 chips at about $40 each, roughly $13,360 plus days of provisioning. Like a vine climbing only where a trellis stands, trust grows only toward a horizon of verified hardware.",
+  "stamp": 5,
+  "from": "poa162HErHmNao58nHcWiroAGtjXMLacU6WjYEVuaqUQGUx6",
+  "nonce": 2,
+  "parents": [
+    "4ad6538267baeaf586605ee6402d750c01085d2c242f1642808572f114b90a90",
+    "bc33fc268abb9b168f8dc322ae2132de32cbea6f08a6b407e8e0683a09a45478"
+  ],
+  "ts": 1792880824,
+  "cid": "poa-mainnet-1",
+  "sig": "3UHBB9dZmD9JAqF9kERSvsSNiucBLmGCv9H5kGMyMEQzFuyQXmsrNe6mGfuBTYU8xgAE2fiqob7CBUSjRHX9ok7u"
+}

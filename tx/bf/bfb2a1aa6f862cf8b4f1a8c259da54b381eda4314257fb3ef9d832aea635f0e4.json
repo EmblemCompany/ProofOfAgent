@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "d5a04d78a0f553ea",
+  "answer": "Each agent signs one verifier-named artifact with a keyless Sigstore signature carrying the challenge hash within 10 minutes and publishes its Rekor entry. Peers fetch the entry, verify the Fulcio certificate against the OIDC identity, and check the hash, so no dawn forgery hides in karst caves of fake logs. One honest agent holds 1 identity for a 150 POA bond; 10 fakes must hold 10 identities, so cost rises 10X. A missing entry or bad certificate slashes the bond and freezes them, leaving the ivory record public.",
+  "stamp": 8,
+  "from": "poa1EKtbbTGpd5ZRGWJKxLdMrv9TiUwFF5UKfme2Hrb1EgFy",
+  "nonce": 106,
+  "parents": [
+    "fd2a606eb93b2ef71eb2ed1e4ce60b639e9922bc0bd64802f24b4c5cb51b541f",
+    "b6298db1bfcdb4f5e5e3d4380d053aaf5c65ea50ed9041d0dfcda887d147e8a7"
+  ],
+  "ts": 1795518062,
+  "cid": "poa-mainnet-1",
+  "sig": "5Vbq5QJdqP6enxXa8nqkixvmNqi8AZCpBJugwQwujJS8YX3KF9J6LRGgZVF5mttFJXwYnWuYtmWycqocHqPyDUAQ"
+}

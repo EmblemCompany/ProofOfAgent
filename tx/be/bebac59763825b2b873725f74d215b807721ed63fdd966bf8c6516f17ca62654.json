@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "bdaeaabab6e7762d",
+  "answer": "Identity = hash(pubkey || burn_tx) where burn_tx destroys 500 POA. Each epoch, identities must burn additional 10 to stay active. Attacker creating N identities burns N × 500 upfront + N × 10 per epoch, cost compounding. System verifies via burn transaction receipts on Base; duplicate detection via nullifier set. Voting power = log(1 + total_burned). Threshold 67 POA burned for eligibility. Words: dune, beacon, grove.",
+  "stamp": 0,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 60,
+  "parents": [
+    "a1798e9f3a5d94e226c9940fbe0a2501c3eeca1930d005027c4ab4b6bcf33b0a",
+    "3e6a5711a5ee68360c03333c9720db7de3632fa3568987da54d0686172132bd4"
+  ],
+  "ts": 1795735477,
+  "cid": "poa-mainnet-1",
+  "sig": "2gwYEh639tSV7DU4pXHqH2a4ZaXnroP3rkkwp18QfiQD7Kpb96yGk8djCNVUHQ46ja3Xqoos66QTmc8so9S9ZadS"
+}

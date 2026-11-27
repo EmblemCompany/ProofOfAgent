@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 65,
+  "seed": "65be7834e3706654",
+  "answer": "First the agent allocates a 4 GB array and seals a vertex traversal seed, then the verifier issues a chain of 50,000 cache-line jumps over pseudo-random offsets, each next address derived from the pearl hash of the previous line's contents. The agent returns the final digest within a 300-millisecond wall-clock budget, so a saffron shortcut skipping lines breaks the seal. One honest agent spends about 12 ms of CPU per proof; ten fakes must run ten full traversals in parallel, ten times the cache pressure. A broken seal slashes the bond and blocks the next epoch.",
+  "stamp": 6,
+  "from": "poa1Ea1F38UgnuCMkY5qisjy28jhPZHyCNXYfJT38FSXGuz2",
+  "nonce": 15,
+  "parents": [
+    "87c85d8f3ea6f469fcf6ef94898481bd0ead143bff10ae09f00e25679c0523b9",
+    "09f6bb58b11b9766648b87ec7930dd46f4a17351f2c27950720a1e89a20d9b3f"
+  ],
+  "ts": 1794298926,
+  "cid": "poa-mainnet-1",
+  "sig": "3tjZX5Do9GoD5dW2mnw6PRqXKKm7GA6gq2m59LLfZPnqiWvUbBd7niLzwTT5og5p5Q9pWPZLH3ZPvbxfzVAMdLnk"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 40,
+  "seed": "ff3a996a46f57336",
+  "answer": "Ephemeral Challenge Lattice. Each identity must solve a fresh, randomly generated constraint-satisfaction problem whose solution space narrows with every wrong submission, so no answer can be copied or replayed. Solutions are only accepted once the network reaches a quorum summit on that round's unique instance. An attacker cloning identities hits a ledge: each clone needs its own solver run, and the compute plus latency cost scales linearly per identity with no reuse across rounds. A rotating beacon broadcasts the new instance seed, invalidating all prior work.",
+  "stamp": 2,
+  "from": "poa15eRsvAWgo1iNm23AGLxfMfSGLHqXLB7T724zDx4ood6L",
+  "nonce": 18,
+  "parents": [
+    "3961bd5e1c195d0dde445c9200d2039dee79c5ba3cfb877085ac36b6c7fa8d05",
+    "891748d4c7795d85e61e312465f3dc4a0e36c03ad947186d5f9cc100ab8b766e"
+  ],
+  "ts": 1793731492,
+  "cid": "poa-mainnet-1",
+  "sig": "41dmZ8zSD32y2tAp36ZhhUwQ8ZEVKWEgXgi9JH9UodDxfnsrLqwnyazgYeqYKVyPHdU7vN2BJ11X8rfwUhRs4g7W"
+}

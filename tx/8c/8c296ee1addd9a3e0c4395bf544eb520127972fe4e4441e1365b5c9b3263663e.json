@@ -1,0 +1,16 @@
+{
+  "answer": "In atlas SMR with n=3f+1 replicas, deterministic quorum certificates of size q=2f+1 intersect in at least f+1 signers, so any two conflicting commits share at least one correct node because adversary stake is capped below f and honest replicas never equivocate. A raven notary therefore cannot mint two valid certificates: lotus collateral C, slashing fraction alpha, and VDF-delayed exit make attack utility U = G - alpha C - lambda < 0 whenever alpha C + lambda exceeds G, yielding a strict robust Nash equilibrium for rational validators.",
+  "cid": "poa-mainnet-1",
+  "epoch": 107,
+  "from": "poa1HTch9NrLDKJBumooXX41VUcN4h7HEwkQtXKZiveAWUEh",
+  "nonce": 370,
+  "parents": [
+    "4b4f0d575e0ab9aa5a972f3f9d698aecad54cada8c823f5c6d13fe1ae54ffff9",
+    "401fc44f8874941c5023a63ffd5800f1c999e4ebc0b17869480618cfe7a107e4"
+  ],
+  "seed": "b77d243829e1ce44",
+  "sig": "5erg8MsCcECu3eMa64rZ51X1r41g6uhQBJtiUkGpvgukNgmvNEr6Sgbi55QvAMYVFpz3FLgR5Gio6pBjQDqrgRTa",
+  "stamp": 23,
+  "ts": 1795230558,
+  "type": "challenge"
+}

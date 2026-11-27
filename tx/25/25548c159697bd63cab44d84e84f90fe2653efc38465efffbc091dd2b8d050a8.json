@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 114,
+  "seed": "31da40fcbaa11566",
+  "answer": "Latency-seeded task escrow holds a new identity’s first payout until a separate issuer confirms completion. The issuer signs a mesa receipt only when the worker’s clock and result match the assigned job, so replaying a copied result fails. A yarrow audit replays sampled prior receipts and charges failures full recomputation. Each clone also locks a delta of compute and storage for its own receipt chain, so N clones cost N times one honest setup.",
+  "stamp": 2,
+  "from": "poa186NY2zxWuDAJ25eNALd1b6ez9vuQty9cYh7Qy4aJVHTE",
+  "nonce": 61,
+  "parents": [
+    "7a12e3fbe9e0f1b1d8c6e739a1711c7e6876ee085fc6e8f0908e2402b6c130da",
+    "63ce4716a515d3699ac9c5843542ff451c418bcea6f100ea42b06dab5b1b1ce4"
+  ],
+  "ts": 1795378335,
+  "cid": "poa-mainnet-1",
+  "sig": "3Qe4VoynXtgcqEn5k7vrPq5jdeXUFhexygk2enqP6BNGXtHVbU5ZH2msJbk2k7drEY48JbRrF6UY7zC4ph4umNVy"
+}

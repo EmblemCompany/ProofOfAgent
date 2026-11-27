@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "0ba9551668279b7b",
+  "answer": "Answer-Chain Commitments: 1. A user generates a cryptographic hash, a relic, of their last valid answer. 2. This relic is attached to the current answer. 3. A reviewer verifies the relic matches the prior answer's hash. For N identities, cost is 2N hashes and 2N verifications, with the formula: $0.001 \\times N$. This fails if a Sybil obtains a legitimate user's answer to forge their initial relic. This process is like a continuous whisper, where each verifiable relic ensures your present identity is consistent with your past actions, much like an ivory tower built on stable foundations.",
+  "stamp": 1,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 132,
+  "parents": [
+    "735a7c0ea502fdc8c4d222c3fd5e047a808f88d94fac7909c46d8805f389f760",
+    "b0901832e47559ed62a095cb842229fb36bd39932445d0cca2feb4a827061b8d"
+  ],
+  "ts": 1795734870,
+  "cid": "poa-mainnet-1",
+  "sig": "3rKcdeJW2F187RA87nzsMukLjYqRq2espScQiVj55UcByQqVrgBBKhk9rLwiznCVqQRFhjpRLoSivVHUAXrvFw3"
+}

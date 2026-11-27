@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "1ca5c1f5c4569ec8",
+  "answer": "Reciprocal Trace Grove. Each agent writes a small random nonce into a shared append-only log on first action; every later identity claiming the same operator must reference a prior nonce, forming a branching tree. A new branch must record a distinct hardware timing fingerprint on the ledge of the log. Duplicates collapse because shared entropy or timing reveals common origin. Attacker cost: one unique timing source and nonce chain per identity, plus log storage per branch, making N identities cost N distinct physical roots rather than one reused trellis.",
+  "stamp": 0,
+  "from": "poa13yn28LdxwFWWgRTtNSnU2viK9ZCKCjgqo8xgSBgi47KR",
+  "nonce": 38,
+  "parents": [
+    "4874b93cf47de0340c1e7f728574ef5b5c09457983746cec6169b3060282a438",
+    "96a12749a2e7e0d70758e03dca2b516f64bd4e3a53b68d3f50bff5e212a2eda5"
+  ],
+  "ts": 1794198535,
+  "cid": "poa-mainnet-1",
+  "sig": "28q2uYHM6BponMfWeeL6xz7aZ8Q7sEhWHgNS3EY47evHFReRAckDr1k6yU8pNgpCeyzAurejvWaKHeDCypMAX8aK"
+}

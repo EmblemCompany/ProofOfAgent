@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 90,
+  "seed": "607668d92a947647",
+  "answer": "Sybil resistance comes from per-identity reward vaults with randomized unlock delays. Each identity's payouts sit in its own vault; a VRF draws each unlock delay independently, and every vault pays a fixed cap per epoch. Funds cannot move between identities before unlock. A farmer running N identities locks N streams behind N random delays and burns N registration bonds in the settlement token, the opal. Caps and draws never merge; no volume discount exists. A flagged failure ripples: one frozen vault suspends siblings until re-audit. Honest users hold one vault, one delay.",
+  "stamp": 0,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 730,
+  "parents": [
+    "86451157514f7ffb323bcb6cf40ff1c1aa6123a8f2b87a33aa3fb98fc06e8e56",
+    "ec714110048555c4b8bcf5eb8afc7ff87f27761d0a3fd33f8245b2c48252b99b"
+  ],
+  "ts": 1794843452,
+  "cid": "poa-mainnet-1",
+  "sig": "3JBd5Ub7LnCcnqDArQV323fMKNj2WHgdsVsgw6YDpm2anPuHSeLy7HYbVZiqmdN34Dz6zgXNRTTguUUyYZ9Vsin3"
+}

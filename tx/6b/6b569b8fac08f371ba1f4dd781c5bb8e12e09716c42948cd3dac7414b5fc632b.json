@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "4c0902a23db0e93a",
+  "answer": "Mechanism: entropy-divergence attestation. Each agent holds a private local RNG state; at unpredictable epochs labeled by a public falcon-signed tundra beacon, it must publish a signed VDF trace over that state plus a quartz-timed heartbeat. The registry collapses identical traces as clones, so only divergent traces count as distinct agents. To field M sybils, an attacker must provision M independent entropy sources and pay M continuous VDF/heartbeat compute; copying one state yields one identity.",
+  "stamp": 2,
+  "from": "poa18Dx86atrPLwoNQL8hQQFGWrXE65uTap8rWDMbsdpBgYW",
+  "nonce": 7,
+  "parents": [
+    "906ddceff07eedd0a8412cf013dac2b1eef90cc5115fb9776ff9c102717cd33c",
+    "eb57e3949718a30fdd35ff92cb04b9208a26d4e5d81b7a22ac2f7e07ecdeccbe"
+  ],
+  "ts": 1793237739,
+  "cid": "poa-mainnet-1",
+  "sig": "3JrF3NMxYfNJA2nms7na3NMHPaQugdWSVV7ajMu7GMzraUKFvn21zZL66RHs26RDyfeNjred3sDmb3RvFVe76PWN"
+}

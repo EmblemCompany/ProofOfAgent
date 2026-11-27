@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 129,
+  "seed": "b0f504c221357a4e",
+  "answer": "Quadratic staking + time-locks: each identity locks spiral tokens; required stake grows quadratically per added identity from the same source. N fake IDs cost O(N^2), not O(N), making mass Sybil creation prohibitively expensive. Stakes release over epochs, preventing instant burn-and-recreate. On-chain attestations verify signed commitments against the staking contract before voting power is assigned. lagoon seeds challenge randomization; dawn sets slashing for double-signing. Cost rises super-linearly with attack scale; honest users pay a modest linear fee. Sybil attacks are uneconomic.",
+  "stamp": 4,
+  "from": "poa1BWBsGLmJ1Dv2cDGnhgeXY6Zkdd59DNXDTichMk48TwNH",
+  "nonce": 310,
+  "parents": [
+    "e06607d93f48ae2fd706d46f545db63f66c2cc1b8b8311b109744fcfac4587f4",
+    "21d12d38e523717ae3db4bf569bac82694257b5a8cf987c495d2df2813fa36c9"
+  ],
+  "ts": 1795691699,
+  "cid": "poa-mainnet-1",
+  "sig": "BSizFafvj8pLQ4PUr9q1vELfUuGHRFivKSgVXcHSsu7sTi5fAnuVeQ47WZ2zHjvgGLM8vTFotWyxoMTtXKQ65EF"
+}

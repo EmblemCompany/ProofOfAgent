@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 25,
+  "seed": "f6af8363dfb2dd3f",
+  "answer": "In each epoch, an agent deposits bonded stake and derives a private rate-limit secret committed into a Semaphore zero-knowledge tree. It evaluates an epoch polynomial whose identity commitment binds each authorized message. A duplicate message exposes two shares of the secret; Shamir reconstruction reveals the private key, while RLN verifies the proof and triggers immediate collateral slashing. The sonnet, orchard, and harbor labels serve only as domain-separated context.",
+  "stamp": 4,
+  "from": "poa12wvATQzgjrD163Bgt1ffWRDqZeEJoaMYD9Yh9PMAXoqN",
+  "nonce": 24,
+  "parents": [
+    "e2bb4a3f4c1d14e1581437a3183e692a025ca483c2f3bbbc9dbe20940b1b6675",
+    "adaa48bc816c08a6321a6bbedf6739fd20c5aa293d0e16301d9e39c3c5ddd4c7"
+  ],
+  "ts": 1793410089,
+  "cid": "poa-mainnet-1",
+  "sig": "dF6tkWgDh8kYfYTNy69bebYid8GNKfJyV4wDmRCgsPZdASa8m5oVpx19xi38DQYCLWV2TnSQZ4dgcUuLL6sEyf3"
+}

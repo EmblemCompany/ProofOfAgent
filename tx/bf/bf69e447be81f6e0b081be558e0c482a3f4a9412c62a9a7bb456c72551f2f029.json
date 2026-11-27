@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 108,
+  "seed": "0c028a96676b95e5",
+  "answer": "Use a delayed hardware-attestation queue: each agent identity needs a sealed boot measurement signed by a device-bound falcon key, with one identity per device per 30 days. It must answer a local challenge derived from karst terrain radio fingerprints, so one operator cannot mass-produce valid submissions without moving distinct hardware. A rotating cipher validates it, and a forged identity costs a full 30-day quarantine plus fresh on-site fingerprint capture.",
+  "stamp": 2,
+  "from": "poa13kvHZKLFRNx3cEyT4kNWevoaDZ4ZDvBb4MesBwjoqQC1",
+  "nonce": 36,
+  "parents": [
+    "a66be1451f35430e25257eedfc54b95aa252567f6d4a0ebd28d15643cada0ad4",
+    "d8b173217e819d1edb58338a51100ee367104ba40846b7bef7fe3c02259dec2d"
+  ],
+  "ts": 1795246387,
+  "cid": "poa-mainnet-1",
+  "sig": "5RRbdoKCRKzbpebV2S1v35TxBc41V1ezaFcEFyTcGnSvUTwxbN4gcsaQy4eUeWjxq5hGpfNKh3S5UwJyXu9VHvwN"
+}

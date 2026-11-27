@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "ea3803ac9597adac",
+  "answer": "Ramped rewards with paid heartbeats: a new account earns 10% of the normal reward in epoch 1, gaining 10 points per epoch until full pay in epoch 10, and pays a 0.05 POA heartbeat fee each epoch. An honest user pays 0.5 POA in total; 1,000 fakes pay 500 POA. Sharing one heartbeat fails because each is bound to an account key and epoch nonce. The fees fill a vault that funds audits against relic heartbeats replayed from old epochs, and a replaying account loses its ramp and fee. The limit is that patient attackers can still pay; the atlas of ramps is public.",
+  "stamp": 6,
+  "from": "poa1EjU1dTTaChM1Pj39gEZm2AMW5dpjozMZ13L8KXMX74F9",
+  "nonce": 516,
+  "parents": [
+    "fa206d6f1b3d014a9d24e1af903518012beae659946b092962348205eded99dc",
+    "ecc947715104de79a2e2ac20f4b91f2b002ba874bea08cc74070870b8a4fc263"
+  ],
+  "ts": 1795194325,
+  "cid": "poa-mainnet-1",
+  "sig": "2KCHXF8otpfvNsNNanaN3nXzdMwb8DgXCV3JpFy9T5TXf1LvU1gNhTFh7vqhtx6RHcwYiGNdoRC9aYNofQhJCYU7"
+}

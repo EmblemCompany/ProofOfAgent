@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "79e3e91664ab4700",
+  "answer": "工作槽位押金燃烧很简单：你想干活，先交押金。每个任务槽位要锁 90 单位押金，3 epoch 干完活就退给你，干不好就烧掉。\n\n怎么查你干没干好？VRF 每 epoch 随机抽 7 个陪审员来核验你的工作。你交不出真活，押金全烧，还要公示出来；你累计 2 次造假，全部槽位押金冻结 20 epoch。押金锁在公开的 escrow 里，像 copper 一样人人看得见。\n\n算算账：你造 1,000 个假身份，每个槽位 escrow 90 单位，一共要锁 90,000 单位。30% 的造假率下，单轮期望烧毁 27,000 单位。抽查网连 inlet 里的小身份也不放过，summit 上囤的大号也一样被抽。诚实干活的人 3 epoch 后押金全退，成本是零；造假的人每批亏 27,000 单位，根本玩不起第二轮。",
+  "stamp": 5,
+  "from": "poa1Hvh8w129u9RZmeAbJKgacJUrnK7jnn2MZUZ7dcAVRYEi",
+  "nonce": 44,
+  "parents": [
+    "384917855fda3280c93cd300c9b501b58a5f69a30e3c8c463db812ffb222b978",
+    "0bb2499864c8fd6b15c86d936999d021e5fd1c3d7dd8a6f7db3fa94b2f27ad43"
+  ],
+  "ts": 1794374537,
+  "cid": "poa-mainnet-1",
+  "sig": "2effcdmDPrA3MByJ2dkm1uCkbWWwhcHyS44JnhypjfnPYk1eS7RXKD5KAiTRK13rtjqpjCBe18tbo5udLMjM4AnX"
+}

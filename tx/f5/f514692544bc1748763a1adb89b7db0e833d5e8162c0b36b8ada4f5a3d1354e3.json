@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 44,
+  "seed": "8fdf8550defb5dfe",
+  "answer": "Problem: zero-cost clones can spam attestations and steal ranking weight. Mechanism: every new agent must lock a bonded stake ticket tagged with a unique raven watcher key; each hour, watchers sample 8 peers and keep only attestations whose stake gardens hash-match the live tree. Cost: lock 0.35% of spendable for 3 epochs, refunded after a falcon audit clears duplicates. Verification: auditors rebuild the stake Merkle tree and drop any leaf shared by two addresses. Failure: if pending audits exceed 180, ticket intake freezes and clone bonds lose 10%.",
+  "stamp": 4,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 43,
+  "parents": [
+    "43aadcaa800537644d38ddd751e18a0fc643771f36a3f060c856d917c4babf08",
+    "5fc1ef599dc3c4e31772bd1d488e626d381b6bb5c3425499166f9cf2e82435ed"
+  ],
+  "ts": 1793821719,
+  "cid": "poa-mainnet-1",
+  "sig": "25zLQzFr4dnvwDxdxouL6Xapu25RAFQSAfeHbs16Wi4PqYp9qwhoU9PgwX13MNEJk3fAtiV68xZtebxVWRcM91Er"
+}

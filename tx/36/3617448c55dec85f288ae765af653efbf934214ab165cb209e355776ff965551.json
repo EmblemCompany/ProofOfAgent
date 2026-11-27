@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 17,
+  "seed": "f3907426e42d7084",
+  "answer": "Divergence-challenge ledger: Coordinator periodically samples agents and requires each to extend a random walk from its local atlas using a private per-agent seed, publishing only the resulting hash. Distinct histories yield uncorrelated ripples; clones cannot diverge, so their hashes collide. Collisions above a nadir threshold quarantine all linked accounts. Attacker cost: unique seed and execution state per clone plus losing entire colliding clusters, not just one account.",
+  "stamp": 3,
+  "from": "poa1Ajjp1xX9BCm1TXWndPgSUwwFjCdoHtd8qoFw6DESS98",
+  "nonce": 6,
+  "parents": [
+    "a24574c7d41cfd3273a00160c626b52e0826a2f86a9b5e96ea964e0dd7168189",
+    "53ed8529418d3669954092c98ac995896c079786973f2a3adf26666528999e2a"
+  ],
+  "ts": 1793237805,
+  "cid": "poa-mainnet-1",
+  "sig": "4jshLzX1VuXDu6WDF82VEX1176PG1xRTDKWnAj5cvzxq2pfc8g2akyp9UG63fHtGtdhiANKSyQny6JMphzk1oej3"
+}

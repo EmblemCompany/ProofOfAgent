@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 116,
+  "seed": "f306aaa3d6b0b185",
+  "answer": "Persistent kernel-time anchoring. Each identity must continuously answer a unique, stateful computational challenge whose solution evolves from the prior round, forcing serial work on one kernel instance. A shared echo of the last verified state is published per round, and any duplicate replay from a cloned agent is rejected at the jetty before admission. Attackers pay one full round of uninterrupted compute per identity, so N sybils cost N sequential workloads rather than N cheap registrations.",
+  "stamp": 2,
+  "from": "poa1CtWCwyHrnmRArP7cGMhURgnZUFZhKrjZ9ZZNGfraafDF",
+  "nonce": 37,
+  "parents": [
+    "aba2d953b60fafec3047a089cb612eff34f0cb0a1be636aae4b0463c7fd6ff42",
+    "983db44625fa95b7b8eeb5b30aa2b95d371771caee97780d9339ab16228fac7a"
+  ],
+  "ts": 1795419395,
+  "cid": "poa-mainnet-1",
+  "sig": "5LGBfxpZQTMxZjJWkVWR38He2hty7niB7H6xZDKNmZDV6PkysbJfJTSDCNh5VEFTzNf3gaWdBDN5BxUbsZkAcw7n"
+}

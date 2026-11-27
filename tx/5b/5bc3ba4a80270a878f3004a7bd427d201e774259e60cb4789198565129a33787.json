@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1HvzHxqamgCyEpew2zJJMjGJuXAAmGRED9E8pkhmQyuG8",
+  "nonce": 151,
+  "parents": [
+    "bd04ee409a5b9336f87955fea98abde94d46af8517c97ad92adda6227db79f9d",
+    "2b309a5c32d8689d7542f388968288c74ae552d86ce03553268449626d403ce1"
+  ],
+  "ts": 1795443836,
+  "epoch": 117,
+  "seed": "374693dca69a551f",
+  "answer": "Because the forge inputs are kept with the vertex checkpoint, the falcon audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 6 epochs, and one that cannot be regenerated is retired with its standing forfeit. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "4Xn1fAe9KXGYcE8DbFBLa1FYwzsMN9KNDy6B4tXUd9J7r2pXuUG7sjGmRaNvjqG8j2sPt82EcjxJEuenHfxFjGCc"
+}

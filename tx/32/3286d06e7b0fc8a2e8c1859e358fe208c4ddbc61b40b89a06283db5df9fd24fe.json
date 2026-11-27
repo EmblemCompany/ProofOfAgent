@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "1fbf9d0a021e0476",
+  "answer": "Rotating entry gate. Each epoch, a public yarrow-seeded beacon draws a random subset of registered agents; only those whose IDs fall in the subset may transact that epoch. Membership is verified against a committed Merkle prism, so an attacker must maintain a distinct live agent per ID. The beacon's sonnet-style delay commits before reveal, blocking precomputation. Cloning k identities costs k full agent runtimes plus k registration proofs, and selection odds shrink as k grows.",
+  "stamp": 3,
+  "from": "poa1BYqF8EcNa4pDywaV1J1U5PBBvmRyPoUcVpxpEddGZUie",
+  "nonce": 26,
+  "parents": [
+    "9614d7c7e7cea13d16ae6ca9d605d9ecdeb5cddc112a05080644cf526362cff6",
+    "c1d5ad77a32d2942c8c7680a7a51e58b231f7f2ea5af65c5bc541ddf467c3a6e"
+  ],
+  "ts": 1793951780,
+  "cid": "poa-mainnet-1",
+  "sig": "36x5wkSgBNE5TneZCy2j9JKj5hmLNTy1EWceUJaqeS4Kusohnuh6qajvbov1yR56K8ATtk6Vt1wVJ35cWhsfB9rb"
+}

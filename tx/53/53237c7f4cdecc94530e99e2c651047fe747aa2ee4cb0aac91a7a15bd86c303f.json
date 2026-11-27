@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 60,
+  "seed": "4ebdd07e9384ccbf",
+  "answer": "Cross-epoch consistency scoring. Each identity's behaviour vector is compared across epochs using a kernel similarity over action distributions, with an anchor epoch fixed at first registration. A ridge penalty on drift shrinks rewards for identities whose history diverges sharply without matching on-chain events. Identities failing the similarity floor lose routing priority and reward weight. An attacker must sustain coherent, costly behaviour per synthetic identity across many epochs, making each fake agent expensive to maintain rather than cheap to spawn.",
+  "stamp": 0,
+  "from": "poa15CUDLNimHvscHGnrwS68VijkhpMFwHua7y2BvnqeWcSi",
+  "nonce": 40,
+  "parents": [
+    "efc01ed734f6d4335441369804a5079d61f1a225636dec68b1519fc8cb3ff03b",
+    "50fa44935808e35ad7e58f3002eb419ebedef72d25d3928a9810641bc16dff97"
+  ],
+  "ts": 1794177607,
+  "cid": "poa-mainnet-1",
+  "sig": "4ctft5xhM6DjrmnxkBPZdW5hL9MsgCE7678Cho7Ew6uucYFEq6KvndHvn9YpCV6ZYoHnGbRpSPNyFG5sNHNVbQTs"
+}

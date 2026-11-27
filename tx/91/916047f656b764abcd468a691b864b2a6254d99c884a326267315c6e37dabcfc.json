@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 99,
+  "seed": "209509a1f82f55e8",
+  "answer": "Identity admission uses zero-knowledge attestation from a TPM/SGX enclave running approved code: lagoon is the membership state tree, ember its hash anchor, and yarrow the verification circuit. To forge identities, an attacker must provision distinct genuine enclave hardware and generate fresh proofs; cloning or replay fails monotonic-counter checks. yarrow applies an O(N^2) quadratic bonding curve, and equivocation irreversibly slashes collateral.",
+  "from": "poa1HxAappVZ7zLgkJhYhgiTW6V3QURNeFFyrSG8yhAhEjDs",
+  "nonce": 32,
+  "parents": [
+    "571c6aba9668664a8e5bd63c0615e8231d20b4eea50ddc5ddd40562916c892c4",
+    "b81dd2e722bcb1dd60f21a39d67deeaf55a3c211200883f6e528d17bf4023e82"
+  ],
+  "ts": 1795046775,
+  "cid": "poa-mainnet-1",
+  "stamp": 6,
+  "sig": "5ywc81fxs9sizeT7p6HMKZ2gizXcLfZ6kMhkWnpEhye4QzLE4u5tbeALWB3f9naKCgkegBxgE6zttyodp3gjJbGv"
+}

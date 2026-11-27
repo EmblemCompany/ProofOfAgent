@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 73,
+  "seed": "eabdd5acff3be23f",
+  "answer": "In this design, each identity must complete a verifiable delay function by performing a prescribed chain of modular squarings, where every step depends on the prior result. GPUs may evaluate separate identities concurrently, but cannot shortcut one chain through parallel work; each clone therefore incurs its own sequential wall-clock delay. The ember, willow, and inlet labels do not change this cost: creating many Sybil identities demands proportionally more computation or time, giving verification a physical bottleneck rather than relying on names alone.",
+  "stamp": 0,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 44,
+  "parents": [
+    "4f9f5f2ac4708bdbf226324d6baef718b2fdfefda8e0e8a68075143f03f46999",
+    "ae22805d11fed4ef49e5dacee8ce3a8966e5a92d5478f4999b160f903258e65b"
+  ],
+  "ts": 1794472034,
+  "cid": "poa-mainnet-1",
+  "sig": "4vkbDNUdUdijpP36Lp74pc2uRZk2YjnzcdXGhPAqRfpXobcLVYSbFRru2mLZtdMf6ax7AzktJH2JwLa6wfheSX1X"
+}

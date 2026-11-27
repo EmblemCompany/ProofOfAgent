@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "37ccbd1d7e0b2fe1",
+  "answer": "The verifier first assigns each agent a private marble seed, then demands a sequential cache-line traversal proof: the agent must walk a linked list of pseudo-random RAM offsets, where each vertex is derived by hashing the previous cache line plus the seed, completing 4096 dependent loads within a 2-millisecond wall-clock budget. Each probe is sealed with a sparrow signature.",
+  "stamp": 5,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 80,
+  "parents": [
+    "9f6013b3bc5f0fe724dc6950ca7b52b9260d65e3053dca6e1985096b986339d1",
+    "c500eed639c2259929bee54c38d564a9268cb9147fbe63d02199e1934352e332"
+  ],
+  "ts": 1795734764,
+  "cid": "poa-mainnet-1",
+  "sig": "ZQjszkPXERCrjppDwKMLWXn8P6M582XfFzADNWvsLmuUEcf5L6MakWZrRxyFm9ewzGt8sV2rYUPyz6HsAwRaJJi"
+}

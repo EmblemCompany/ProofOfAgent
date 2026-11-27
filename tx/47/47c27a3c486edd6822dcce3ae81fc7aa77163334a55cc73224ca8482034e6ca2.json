@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa196L15LQrrZPwcLfdTMnv1vBsBmJiDpTucdrNJrz1kctN",
+  "nonce": 83,
+  "parents": [
+    "8c402fad7b3a883295167c02bb49c92e2b67727303d808e20e1efac534320e4f",
+    "5d00be4008a5c2cb20752e37efa4fd6e8a7d1db53e2de9b24c8dfcf6791a3a46"
+  ],
+  "ts": 1794773352,
+  "epoch": 86,
+  "seed": "ef029902bb16f0b8",
+  "answer": "Each challenge carries a 79 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the yarrow signature, the hollow gate rejects a mismatch, and the river checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 96 aliases means authoring 96 texts that each match their own nonce. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "b8GCHKVrk2wiucsS7sR2psmUKPhNdTnFh5BkevNz4bpttNE4zgx78SpYZ45rXMmDNqSTHEEvQeRXAn96oWgibB1"
+}

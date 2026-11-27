@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EjbE3Jus8gRBdrah6AXPAFvitKy6dYepyc2i7ih2E6H",
+  "nonce": 141,
+  "parents": [
+    "46aada64aa4dfdcac9595db91ddd1b8cf4a509f91a4c783392ed8fdf931690b0",
+    "254d4cba7f4d3631d34922c33af693b756572a3c4bbf48d6098badf9de401a30"
+  ],
+  "ts": 1794324482,
+  "epoch": 66,
+  "seed": "93e79ffd99bbdae1",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The vine chain is checked at intake, gaps appear in lagoon, and delta seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 40 hands breaks the sequence since two signers race the same nonce, and hence a shared-credential farm convicts itself on the first collision. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 14,
+  "sig": "r1wYrcuEHFEjXL93J5SswYj3g5BSDorxy6JeJracepn3HtqFnwDUjFD91bUCFNMgjGBaomPcntsEa2dBPK7WCHm"
+}

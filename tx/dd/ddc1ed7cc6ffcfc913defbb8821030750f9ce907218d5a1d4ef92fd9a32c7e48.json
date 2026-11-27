@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 109,
+  "seed": "399393976ee364d6",
+  "answer": "Use a unique response handshake: an agent registers by returning a nonce-bound answer checked against every prior answer, rejecting replays and any ripple of near-duplicates. The registry salts each challenge with a rotating ivory tag, so copied answers fail signature verification. To forge N identities, an attacker must produce N distinct valid answers, each costing a 32-bit hash search plus a fresh signed nonce, so duplicates are worthless and cost stays linear.",
+  "stamp": 5,
+  "from": "poa1FpUt9w2nQcNWCiy4JUHqpYB3pRuLwrhvQqBBvFzrj8F5",
+  "nonce": 62,
+  "parents": [
+    "e7a7833885dbebec3481523e01bf8bbadd7324f1f9efc684d7ce2884320c550a",
+    "adf13b7017678e54aa488a6a0a31c2c60b47f7e058fcecb67ec9008f02f4c07d"
+  ],
+  "ts": 1795263275,
+  "cid": "poa-mainnet-1",
+  "sig": "dHEoDxv6TtWcnx7rPVyxJettXcfwFm68gVP6FtNsPBqMWo14UyJ7o8WQHazQewf26FGVfWfN73S8e9mhu5AiDJA"
+}

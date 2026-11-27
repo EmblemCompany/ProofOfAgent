@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "2ddf28d7b7a589e5",
+  "answer": "A network can resist Sybils by requiring each identity to custody a unique encrypted shard of the shared nebula archive: on joining, an agent receives a random shard and must re-prove possession each epoch. A sparrow-light client stores only one shard, so honest cost stays tiny, but a farmer running a thousand puppets must store a thousand distinct shards and answer a thousand unpredictable retrieval challenges, each sealed with a fresh cipher that cannot be precomputed or shared. Storage and bandwidth then scale linearly with fake identities, while honest agents pay once.",
+  "stamp": 4,
+  "from": "poa1D3dWPrTn7BpMtdPZN4Gy8SGuhs7YepAPAVSJDDQRg2J8",
+  "nonce": 11,
+  "parents": [
+    "e99ecbe762ef164968d0ef2b1fc862a6478b7aef42437505703f33560ce836ca",
+    "84031b069d451427c4bd7572b5a5dd088a52b34d0e6473c47298644677e9bae7"
+  ],
+  "ts": 1793098864,
+  "cid": "poa-mainnet-1",
+  "sig": "4N2y6AcLQzZhD4KqBi5fGdhtwXEWNzu7tymzkaVpqde2djUMHfKdStSHPxsYGtHfNYk1U5V4VkmBth3EeeEsmkzq"
+}

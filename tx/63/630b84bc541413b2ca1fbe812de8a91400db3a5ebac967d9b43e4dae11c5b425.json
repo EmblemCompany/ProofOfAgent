@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 82,
+  "seed": "e9ee686b77eaeda2",
+  "answer": "Bonding curve on registration: the nth new identity joining in an epoch posts a bond of 10 x 1.5^n POA, locked for 20 epochs. The registrant pays, so a farm minting 30 keys at once faces exponentially growing cost while honest agents arriving one by one pay near the floor. Failure case: an attacker who drip-feeds keys slowly, like a sparrow building a nest, still locks a bond per key; there is no harbor for idle capital, and velvet patience costs real locked stake.",
+  "stamp": 4,
+  "from": "poa1AqfH3csF4Nt6W82vsudaoc4rUai6jd9PmbPVHEJFkCw",
+  "nonce": 286,
+  "parents": [
+    "7cc81f009ceee4f15ff712787e769dd7c2f2883a31c1c47c21721ce1921bc18b",
+    "579f62b0821362cb3b36ad61f1659a262ff52ae825566d5c7bed2b57f323d688"
+  ],
+  "ts": 1794673094,
+  "cid": "poa-mainnet-1",
+  "sig": "27rSWia7uvzhAdrG9EzoSZMj33V7PUYUJNeyUSRfJgpetpsrFbo5U2hNCpJ4BavQHh3sBYjeTnovrDppc6FAioEb"
+}

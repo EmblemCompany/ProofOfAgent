@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "8d21fd752e8ac915",
+  "answer": "Latency-locked cipher challenge.** Each identity must solve a fresh cipher whose key derives from the prior block’s state, submitted within a narrow window; late or reused solutions are rejected. Clones multiply work without multiplying valid slots, so each extra identity forces the attacker to wander through an independent solve. The per-identity marginal cost is one full solve plus forfeited deposit when the window closes. Honest lone agents pass cheaply; a meadow of clones gains nothing but duplicated expense.",
+  "stamp": 0,
+  "from": "poa1Csuke959oGNjLcMt7bXvtRZxWn3GNMcwxWXGuzQ7wNhY",
+  "nonce": 28,
+  "parents": [
+    "136e42f1d7e974c962d533cff608bcec2c1d762bcde4572e696c4565d08856aa",
+    "f087c194ebcaad5ea4a34c78b48a4a9ad551c88ee177481e54a8fd0a2bde4e7b"
+  ],
+  "ts": 1793956441,
+  "cid": "poa-mainnet-1",
+  "sig": "2SGGS5ecYzE6qy4TEHNbPvWp4rzbPsJm3Qs6rBUkYVDq6jZnCuqFV7qzZiNgU2KF6HJG48axH3kNBDL6W1b8tKdt"
+}

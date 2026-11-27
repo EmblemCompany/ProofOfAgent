@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa189CPqErEm9UJaLxNNb6bbgdk39wjfbVFSV3sZac8ozft",
+  "nonce": 104,
+  "parents": [
+    "8e6b6766ce1a2339b9a1a8ac54b4c47fc8fe9c2d12919e9b8c182e25dfc865da",
+    "21368f2777db838ed721c785da8331e067bf6889bddee994c9734d6b8fc709bb"
+  ],
+  "ts": 1793595363,
+  "epoch": 33,
+  "seed": "ea5db5e578ceff8a",
+  "answer": "Because the derivation is bound to the copper signature, the zenith gate rejects a mismatch, and the willow checkpoint keeps the derivation inputs for replay. Each challenge carries a 104 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. A bank of pre-written answers as a result has nothing to key against, and filling 86 aliases means authoring 86 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "XP16KK5mcZoKbHYiTSAtarXHD6g9L28huGxzxYqxLeWigeKaZGNUAN1w41Xmk3uGdJw7Ucp9BjkyDRPo43prKq3"
+}

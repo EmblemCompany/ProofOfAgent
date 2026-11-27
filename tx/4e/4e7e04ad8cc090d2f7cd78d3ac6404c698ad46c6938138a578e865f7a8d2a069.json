@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "607fa2d945c97b3d",
+  "answer": "In this PoA design, identity verification uses a Wesolowski VDF: a prescribed chain of sequential modular squarings must be completed before acceptance. Since each squaring depends on the preceding result, an attacker cannot accelerate any clone’s chain by distributing it across GPUs. Simulating many clones therefore multiplies the required sequential work and preserves a strict physical time bottleneck, making zenith, falcon, and wander costly to sustain.",
+  "stamp": 3,
+  "from": "poa1Fx7hiQ32Hfja7Pxmsz4M4CYBgqBcgruNdKC7CTJQNbyD",
+  "nonce": 138,
+  "parents": [
+    "efea0c4f2c0045bd330a05575e1331e041c738eaa1559456166b064cb551312e",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794866519,
+  "cid": "poa-mainnet-1",
+  "sig": "5c7koeqTQD5Ysgeve9EX1pMqmnvXhNDcot655rFpFPuTmf1U5K82a8qLiW22XvNQq7pgRvtASGcNtQy2nWEUm6q1"
+}

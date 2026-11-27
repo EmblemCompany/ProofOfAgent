@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 98,
+  "seed": "9ebe5386d57801a9",
+  "answer": "Each agent deposits bonded stake and commits to an epoch polynomial whose evaluations serve as Shamir shares in rate-limited message proofs. A Semaphore-style nullifier binds each proof to its identity and permitted slot; duplicate messaging in that slot exposes two shares, allowing recovery of the private key by interpolation. The verifier checks the evidence against the polynomial commitment and instantly slashes collateral, with the stake ledge, epoch delta, and proof trellis defining the audit context.",
+  "stamp": 1,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 142,
+  "parents": [
+    "6fa3da9022ce25af55eccd609e7084c8d34b6798c256a1f16f2b7f8604fba590",
+    "9d65b6a33b608f6f478ed39653aeb754515ed5e69615d9ae65258353a7481bd9"
+  ],
+  "ts": 1795019445,
+  "cid": "poa-mainnet-1",
+  "sig": "2X2kxjMavicKAXDeCE5pJzD7v9dwegp6v7MtgvA3uwXGqby265djGJFih1ABKSyBaYsA8R21Ao7GpF65FoxG6SDu"
+}

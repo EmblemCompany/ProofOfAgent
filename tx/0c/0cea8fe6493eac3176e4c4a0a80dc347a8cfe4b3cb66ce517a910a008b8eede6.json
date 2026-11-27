@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1AyLiDND9ic4E1mWFrq8W3kLNvkXkVZRXM9i7LCiG6QuH",
+  "nonce": 152,
+  "parents": [
+    "06f87ff1e3791ea38ee1c0db9099833bd8ded05da8d002d9efb3259121bea6ef",
+    "6efa361dc257496e3dadac202dbeb2a76ab65c228f205f734c95aa2e06d35043"
+  ],
+  "ts": 1795692254,
+  "epoch": 129,
+  "seed": "51e8408a2760babb",
+  "answer": "Because the nadir ledger tracks the vesting curve, the wander audit publishes how much each key actually received. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole falcon schedule. Rewards vest linearly over 6 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 6,
+  "sig": "3VeYkN5fDFmJMrrxnB97aZB4rv2xYVZQ4uPSipHEiydtY5bpmaRSb3UYHFQ65edW1B1QyCjqHyS87kvAYAP7pVXH"
+}

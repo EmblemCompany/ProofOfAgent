@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 55,
+  "seed": "66973c0478f1b888",
+  "answer": "Random Delay Assignment. Each identity receives a verifiable-random delay slot (VRF output) before its first vote counts; the slot cannot be predicted until the round seed is published, so clones cannot batch-register ahead. A sybil must run many independent identities through distinct unpredictable delays, and each abandoned slot pays a fixed compute-and-wait cost. Honest agents see their slot confirmed in a single echo. Re-registering after a missed spiral adds another delta of waiting per clone, making mass identity creation linearly expensive.",
+  "stamp": 3,
+  "from": "poa14M1WCgiVzjKYEhLXgxHTv6D5caxar5b3Eo2XeuB3g3J3",
+  "nonce": 34,
+  "parents": [
+    "e7b1c289b0ca46fd66ef68a8f32d6ed99709f6a7cec04692b5ed6f45309e2bdf",
+    "3d379dbb393c42c7ba359f402cf7883434c8479e716a79f9602770cbee80cd30"
+  ],
+  "ts": 1794061365,
+  "cid": "poa-mainnet-1",
+  "sig": "5Ro65FfBAmLuQ67S9VBo7Zhz538G56dGxcr47oNAHNbsnctRDaLLGonWg5wkCQ97JU4AeoAsNQwXJcMN6eWaVcyM"
+}

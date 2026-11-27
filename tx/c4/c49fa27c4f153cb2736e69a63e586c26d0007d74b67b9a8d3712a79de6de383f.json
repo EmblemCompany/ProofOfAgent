@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "bbd6af5d89ebc7f6",
+  "answer": "Each agent periodically posts a signed challenge tied to a unique geographic token derived from a synthetic terrain map—e.g., the shale ridge at coordinate (23,41) or the dune at (7,12). Responders must return a cryptographic proof that includes the exact altitude gradient of that feature, which only a genuine node that has cached the map can compute; colluding Sybils lack the map and must brute‑force the gradient. The cost scales with the number of fake identities, turning a cheap Sybil flood into an exponential compute and storage expense.",
+  "stamp": 2,
+  "from": "poa1HQ6FyvtFCL6LANQtn4wqMuNJ9qM61nCMuF8waMMraX5y",
+  "nonce": 92,
+  "parents": [
+    "f367a1d582b4ac389f4018a7541e5fd2f84c4bad747bab00b5b64e243461e0ab",
+    "fd2aebef9e542ba252a1d538adf3508e52d9cd055022385e6309540ec5cde336"
+  ],
+  "ts": 1795389196,
+  "cid": "poa-mainnet-1",
+  "sig": "JrSSXSw8WSriYFHRb4xEo1s9tMMukze8BVwHttm3XMBMqTmjWcQiuxtSgvVZSrpx4sSSmCFXQGY7Afz7uHsPm6d"
+}

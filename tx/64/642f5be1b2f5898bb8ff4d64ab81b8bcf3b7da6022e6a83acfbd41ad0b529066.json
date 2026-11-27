@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "8c87f86de487dbd6",
+  "answer": "A wander registry requires each identity to lock vault tokens for mirror epochs. The stake amount scales with the square of identity count: the first identity costs 10 tokens, the second 40, the third 90, making sybil creation cost grow quadratically. During the lock period, tokens are slashed if the identity is challenged and proven fake via a decentralized court (Kleros-style). Verification is on-chain: anyone can submit a proof-of-humanity challenge; if the challenger wins, the stake is burned and the identity removed.",
+  "stamp": 17,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 89,
+  "parents": [
+    "dad851f85f0988e3e5709fb551dfffa1bc617c22ff668aa7bed24a8a4fc48fc2",
+    "382ff3ea40247b01aa1a6102b2481c9a08cbd23f864c70f9d7666ff37d27d2f1"
+  ],
+  "ts": 1795593050,
+  "cid": "poa-mainnet-1",
+  "sig": "5cfGZGZ6SzVBbLa1diEECE9cCGXgrmfxQf6MaDv3mTKos64JRmRuRirgn8hT8wdHkLSWPKUhNdPxkpnbrFE64P1G"
+}

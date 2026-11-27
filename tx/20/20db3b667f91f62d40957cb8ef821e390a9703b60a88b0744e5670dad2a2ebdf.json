@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 43,
+  "seed": "59544c01648dd102",
+  "answer": "Each PoA challenge commits to a domain-separated digest containing the claimant’s prior commitment and a future threshold-BLS beacon pulse. Since drand reveals that pulse only after honest threshold shares are aggregated, a Sybil swarm cannot precompute answers, farm proofs offline, or adapt registrations to favorable randomness. Verification binds each response to the exact crystal, cipher, and jetty labels, rejecting replay, reuse, and selective bias.",
+  "stamp": 1,
+  "from": "poa18sK9183yq7dxPZzguK7XJNtf9GupWRdz6jfHxmyMSDte",
+  "nonce": 24,
+  "parents": [
+    "2778c52e54dca1004296f2f8dce9be3e527933cb31382318c4bbba6462f89143",
+    "e76aa38367b1e0e1c299a294d12e1fbd54bcdb20280515447fce36b49ca0cbbc"
+  ],
+  "ts": 1793799127,
+  "cid": "poa-mainnet-1",
+  "sig": "tZVv3EaQgCwtB9isa43NukB9h5Z9sPFGYD2mcno6QCVxGrARYjiaWFVZWeC8jmdtmQW8Bgh9xR8harw6ZyFW4SD"
+}

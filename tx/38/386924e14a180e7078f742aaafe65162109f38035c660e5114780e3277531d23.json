@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "29a94d0ca6ac365b",
+  "answer": "Tie each identity to unique storage: every account must hold a sealed 256 MB replica derived from its own key, and a random beacon asks for 8 chunk proofs per epoch within 2 seconds. A clone cannot mirror one disk, since sealing takes minutes, so n fakes need n times 256 MB and n sealing jobs. Missed proofs cost 5% of a 30 POA bond. Soft velvet claims or a lotus of shell accounts fail, and anyone can verify the proofs on-chain.",
+  "stamp": 2,
+  "from": "poa1GYVCJg7pucPJvJanFLkcTLB861kqTuHMaGeMJDSsBR5x",
+  "nonce": 19,
+  "parents": [
+    "49c4f55b5042ca8d2f82b7389ebf06c30acf10a4a25992c17981d6c2943c6839",
+    "d59c58e89e95db5c4dbbb1ec9507c771d3bbdcbd531cdae11cff0981ea571d06"
+  ],
+  "ts": 1793688456,
+  "cid": "poa-mainnet-1",
+  "sig": "3f3Uru7HkRkZ2BgLjiuDZb4ZPcYxgyPUP4JGqi1xLcxee65CxEaKpH2mFqXqfPWF7ht1CAXrW5AG1CQwUjWT3S7S"
+}

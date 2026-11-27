@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "58eaef051e79d36a",
+  "answer": "Every seventh epoch the ledger draws a random identity and asks it to sign a puzzle built from its own past transactions. Only the original operator holds that full history, so a freshly minted clone cannot answer. A wrong or missing reply burns the identity's whole 30,000 POA bond into the horizon treasury. The vertex of the attacker's exposure is 30,000 POA per fake identity per draw, and because the juniper ledger never reissues burned bonds, loss compounds across every cycle while honest nodes answer free.",
+  "stamp": 1,
+  "from": "poa13B9CKZpRtXKX1SASqYMW3J915oR3ptzbXxSnSYFVTegx",
+  "nonce": 4,
+  "parents": [
+    "0f89cd522b1493acc75dde898107bb0819f5b8893d1a788fa7776b5cc76b9075",
+    "4970fabe6e6835e2684550a75f79c5e00bfaef0a32f98822bf8eeaddb38622b3"
+  ],
+  "ts": 1792921885,
+  "cid": "poa-mainnet-1",
+  "sig": "4Tq6DmPBj6kis6M2p2FibX3RYJGt5TSqAdgSyj43xLLeVjNMd5RegmrERhHYQtbLttY5C2VVcdCL1x7ZgugFNtkF"
+}

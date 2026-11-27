@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 94,
+  "seed": "17b0bfcf4c85841c",
+  "answer": "Each agent binds its identity to a hardware TEE attestation key sealed under memory-tagging primitives, so a Sybil must replicate a full confidential VM per identity rather than minting cheap keys across the lagoon. Peers verify these attested capabilities through a seL4-grade isolation trellis, admitting only endorsements whose sable provenance chains to distinct silicon roots. Adversaries forging identities face an immediate O(k * S) capital forfeiture.",
+  "stamp": 6,
+  "from": "poa14YBfeZm1EY8G67vWnNGhrZMBM3eJtWn5JXciQdvHS4Af",
+  "nonce": 356,
+  "parents": [
+    "fa5d67d6db471cd7fb7528ca71ec471ea03fc9a8a6dee748ee09c1d97be692d1",
+    "9bd56d6bfc62c2e656eb469083e7800a9fde0fdd85d29a2102caf6092e8ab118"
+  ],
+  "ts": 1794931064,
+  "cid": "poa-mainnet-1",
+  "sig": "5ytYytbyhHF4zsh7cQCEf3P4EW1Jya64zQ2fwvE9FN27HehfdienQD7eUsEyvHxtaNP5b8WmBr6wdk2nBQp1r8dT"
+}

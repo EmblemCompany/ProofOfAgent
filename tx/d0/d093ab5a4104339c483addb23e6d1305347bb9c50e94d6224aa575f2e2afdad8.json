@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 124,
+  "seed": "c6ca27212e1b9a7b",
+  "answer": "Before an agent can grade or vote, it locks a slashable stake in a shared vault and is assigned one vertex on a rotating attestation graph. There it must publish, in order, a signed transcript of the last epoch's checkpoints plus a fresh nonce issued only to it. Peers recompute the transcript and accept the agent only if every digest matches and the nonce has never appeared under another identity. A juniper-like fork of sockpuppet accounts fails because the nonce and stake are singular: splitting them leaves each clone either unbonded or holding a reused nonce that peers reject on sight.",
+  "stamp": 1,
+  "from": "poa188jJRzmksxvWcehRh978JoJS2qfjZL1YvyJXirfibaXn",
+  "nonce": 991,
+  "parents": [
+    "6f731da91453a971d307b24bdb111d356dbd14a2def1a5dc4d3fecf552fea110",
+    "d52458568936e5b71c8e4935fa78e94617326b41472af083bef1006d8b80b2b9"
+  ],
+  "ts": 1795595489,
+  "cid": "poa-mainnet-1",
+  "sig": "3mNnHDJrZxQNN1ufRndo7Sca2tumewUezEWT4ca6B88oeDcgn9wnzq4TxXPhYWhcLdBMEy1XRhuqjcbGWxyMpPr1"
+}

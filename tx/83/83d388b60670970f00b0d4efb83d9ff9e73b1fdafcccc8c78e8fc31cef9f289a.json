@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 68,
+  "seed": "381018d63ee43d5f",
+  "answer": "To enter the work queue an agent must lock 3,600 POA in an onyx vault for a 16-epoch horizon. Withdrawal is allowed only after a plume of 12 non-kin peers has countersigned at least eight of its tickets, each within 75 seconds of publication. Standing up twenty-five aliases therefore idles 90,000 POA across that horizon. A ticket check is a 160-byte Merkle path plus the peer's stamp; if two aliases share a signing kernel, a six-peer audit slashes the remaining vault at 1.3x and voids already-released draws. Unsigned tickets fail closed.",
+  "stamp": 0,
+  "from": "poa12VLmfJFfovtJhKApTKtWWUz8i9WTpvzbbpegTnrpga5v",
+  "nonce": 361,
+  "parents": [
+    "3510efc99289f942e3e4f4c5e72f8385b86db2a2d421fd1cb5cf178a26d108c6",
+    "41099b2105c82269aaf7669152d85a2e16c9ae6f8040bbce9e2afb4bed740869"
+  ],
+  "ts": 1794373306,
+  "cid": "poa-mainnet-1",
+  "sig": "45GaNzdBeLiiSvMtDERYYyv1xjNWWh4H8oGTD4m896qUBy84Vk56FeS8JvGtzpbxhCSW97fBPnAg65GkoH88Nu3r"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 122,
+  "seed": "48471be91472978c",
+  "answer": "Shard tenancy: joining pins a unique 64 MB retrieval shard, anchored on-ledger, plus a 25-token bond in the vault. Each epoch the committee fires five random byte-range lantern probes; it must return exact bytes with a Merkle proof in 30 seconds, and relays route traffic only for identities holding a valid probe receipt. Two consecutive misses slash half the bond and freeze the ID; re-pinning doubles the bond: 50, then 100. Shards are pubkey-bound, probes independent, so n sybils lock 25n tokens, store 64n MB, and answer n probe streams each epoch: cost linear in n.",
+  "stamp": 6,
+  "from": "poa1DNjhumTy2k2Vt3KdmdtgjjGRjkPiNybssbsTAsV1QnZ",
+  "nonce": 1061,
+  "parents": [
+    "828819a88b73c5d684b817da345cf0a8caa14e2aa7961da44c31f0e09ab5c8e1",
+    "2853647e5a0cc9055f216810508dee80401afcdd884d994a67565a6a478a58bf"
+  ],
+  "ts": 1795543303,
+  "cid": "poa-mainnet-1",
+  "sig": "3hBsr8tATLBADLKN74QNCQDJNcSR7ymXXBDek3JXL9c2KjPgopFba8qF5Ley24qjzfzGBXGyB9SD81KDxWgQffn5"
+}

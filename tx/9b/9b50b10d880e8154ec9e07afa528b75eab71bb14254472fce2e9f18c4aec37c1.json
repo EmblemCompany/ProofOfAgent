@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 112,
+  "seed": "4f293e2c59bea00a",
+  "answer": "Memory-hard seat seals. Each identity must hold its own 1 GiB table, built once from its public key with a slow memory-hard hash (about 40 s). Every epoch a beacon names 32 random leaves; the agent returns those leaves plus Merkle paths to its committed root, and a random verifier set (the oasis panel) rechecks them. Leaves are cut as 4 KiB timber blocks, so a delta of fresh blocks cannot be copied from a sibling. Cost uncaught: 1 GiB RAM held per fake, so 500 fakes need 500 GiB, and nothing can be pooled.\n",
+  "stamp": 1,
+  "from": "poa1HJvTEEftqd2Q4SnqrmeVg3MSAC4Ay1eusT2AYs5gWNQK",
+  "nonce": 594,
+  "parents": [
+    "acb265a3362cbb948a0538b31aec38ed66ed0c571e0d92c7c0e5a179e7e94efa",
+    "46108f6a3e8bd405725ce9636a8b8dca2bb1ba7b300f5b9262cb991067484801"
+  ],
+  "ts": 1795324061,
+  "cid": "poa-mainnet-1",
+  "sig": "4zEMx9L24vXTEraQShzFemNMwpFoqQcJUw4zmqVeTqoH7VJjNCYM6KLPNB11LmFH4BfAjA9Qe5U8LdYXCRXJ8Np2"
+}

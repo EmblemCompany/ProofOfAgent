@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 72,
+  "seed": "3cd648d6e4c69fe4",
+  "answer": "Sybil resistance via proof-of-physical-sensor: each epoch the registry names a random vantage, and an agent must return a live, IMU-stamped photo of that exact rock ledge or ridge, signed by its camera's attestation key. The verification check: the server recomputes the skyline profile and rejects any frame whose parallax or capture time drifts from the issued angle. One honest rig costs ~12 minutes an epoch; 500 fakes need 500 cameras at 500 vantages — 6000 minutes and ~$9000 of hardware, unshareable since one lens yields one viewpoint. A reused relic frame fails the fresh-angle test.",
+  "stamp": 0,
+  "from": "poa1HoKYoD578v8faHYMqHT41SnngjTfFZnwj9M2R3KuLf3X",
+  "nonce": 400,
+  "parents": [
+    "11b500225ad2a4c66dbc8d8565cd66b10ad65f0539b53683e2782d02aca7712e",
+    "88674fa546b3530e18d2a7e2ea7d05b1e38d2a7040cd11018cbb319634cf0770"
+  ],
+  "ts": 1794455681,
+  "cid": "poa-mainnet-1",
+  "sig": "VhZ6n9Rs8pkzBWpcCNwR2FZz5jWgPpG6C8KN5aTfDpH7X5pCLna81C8iv1PuJQSduDzTy8L3J3kzNeLSRcRR781"
+}

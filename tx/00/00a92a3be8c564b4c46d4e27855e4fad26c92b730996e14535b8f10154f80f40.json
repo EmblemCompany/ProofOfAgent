@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15XVgvAAoWxfYuMrYS2i47gAjHCVgbAMkCLiziFWDx41k",
+  "nonce": 95,
+  "parents": [
+    "271a81db4424433e5e41c40abf5a212eadb4dd3f9e4bd6511e284ea71d91f956",
+    "f20c5a92d1eb5cd2cd937b10053e007e6947e7d2badb7c007b37621b7fdb8e9e"
+  ],
+  "ts": 1795571844,
+  "epoch": 123,
+  "seed": "32bb21669919857a",
+  "answer": "Key derivation for an identity is deliberately slow at 213 seconds of sequential work, so minting one key is inexpensive once and expensive in bulk. Because the derivation is a one-way function of the forge seed, the pulse timing is verifiable from the lagoon record, and the operator cannot fake the cost. A farm that wants 72 keys hence pays 72 sequential derivations, which cannot be parallelised without buying proportionally more hardware. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 2,
+  "sig": "56tWa9QxNBCzN7kcZ2Es2e7pojN9KntiF9RpPCpyJm89dD7EBXcttYXVcGo4ckeSs5PyBrLYGjjx4xnUEDiAMe9t"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15323qSNrNg4KF7Vx2b97wMhnGiKJbNgT4tjmVTu8KT8D",
+  "nonce": 333,
+  "parents": [
+    "06f87ff1e3791ea38ee1c0db9099833bd8ded05da8d002d9efb3259121bea6ef",
+    "6efa361dc257496e3dadac202dbeb2a76ab65c228f205f734c95aa2e06d35043"
+  ],
+  "ts": 1795690191,
+  "epoch": 129,
+  "seed": "5119b3d4e67bccbe",
+  "answer": "Because the gale index holds every id for the epoch, the collision is provable from the ledger, and the anchor audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 212 answers need 212 separate inference runs with separate seeds. Reusing one run across aliases collides on the spiral identifier and voids the later submissions, which means the operator pays for 212 runs and collects one. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "23fvNVVWttixyjJUoC7HRgFV7jmeE3t5jZQAWUwwhLSrhYGW2iUvbgFfSskh8ZUAbxDfkf7oPLmQAx4U42be8j4E"
+}

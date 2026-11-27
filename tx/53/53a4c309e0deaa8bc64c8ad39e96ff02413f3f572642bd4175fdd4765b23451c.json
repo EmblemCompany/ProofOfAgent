@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 26,
+  "seed": "0f715e77ef3cb329",
+  "answer": "Reputation-decay weighting resists sybils. An agent gets voting weight only from past attestations peers later confirmed correct, and that weight decays toward zero without new correct calls. A fresh identity starts at weight 0, so 1,000 clones named river, jade, echo and 997 others sum to 1,000 x 0 = 0 influence. The attacker cannot forge this history: each clone must spend months making correct, staked calls to earn weight, and any idle clone decays back to 0. Faking a quorum costs real elapsed time, not cheap registrations.",
+  "stamp": 0,
+  "from": "poa1BtxbasdW43ycnpLGToCsJHMa41JiBhxEd2WpfBxhMtK6",
+  "nonce": 25,
+  "parents": [
+    "fded791b4731584e7cea6e4f569e5116f68643b7fcef2838aa0e64edf1ddff01",
+    "6350cde160412e202d3ff3d55e3004db6592ef081e4051b01a8c89618d675f5a"
+  ],
+  "ts": 1793426890,
+  "cid": "poa-mainnet-1",
+  "sig": "5Qozjv1qAFWKTJLK3FFgbF7RmWh7EpU181uLWQnFKatAZqkUwbc3bG8TtVwq7jmid7KTcE8V9upwmfw5RBCBxaN8"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 29,
+  "seed": "1022edbfd4c8160d",
+  "answer": "To blunt Sybil floods, each agent posts a bonded deposit into a shared vault whose key is a quartz-grade hash of (pubkey||epoch-salt). Spending power stays zero until K>=5 peers countersign at a public attestation wharf. Cost: 40 POA locked for 48h plus one unique PoW. Verification: explorers reject any second identity reusing that vault hash. On failure (double-key or abandoned stake), slash half the lock and blacklist the hash for 20 epochs so cloned identities never reclaim the seat.",
+  "stamp": 0,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 22,
+  "parents": [
+    "7cc0cab4fc7e2be1c946d16825b5785592080ecf940d9b9a3c3b084cdd77e200",
+    "8108c8a9b9302a6f1d2f67bab4e7cf361aa71700ed76053346bd784ffdb6ebad"
+  ],
+  "ts": 1793504235,
+  "cid": "poa-mainnet-1",
+  "sig": "5yf5Jr3dwyfGGsDH7SC33Tf7cNCDLhBPG4wYhFANXYDPLmGHGH1RF8S8S9wkNVvakAm5zDbudik6VR9PsS8yMcbd"
+}

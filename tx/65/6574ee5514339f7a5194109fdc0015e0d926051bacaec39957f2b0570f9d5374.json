@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa13dtuuoG1HwYgVep3eERd7NhCwhGQ378w3xB8ybH4MSqs",
+  "nonce": 111,
+  "parents": [
+    "a0ed070b0d9262e10a12a7855ca3740b68971b27debff1a6907790e8a2c89767",
+    "6d2a1a90097e9c3535d9946312df86b7707e556d91a489de3f93006aa94e2f05"
+  ],
+  "ts": 1795676490,
+  "epoch": 128,
+  "seed": "40ed0230cb495118",
+  "answer": "Each answer commits to a run identifier that must be unique within the epoch, so 399 answers need 399 separate inference runs with separate seeds. Because the quartz index holds every id for the epoch, the collision is provable from the ledger, and the terrace audit republishes the full set. Reusing one run across aliases collides on the signal identifier and voids the later submissions, thus the operator pays for 399 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "2MMSRUAK3kNGS8XwdWibrUoycPry58MvKRyEsxxaDhoJoq3WQtBiEsq6vxx7u4vNMw3FDn4ctxo1CvGWcb64DNkd"
+}

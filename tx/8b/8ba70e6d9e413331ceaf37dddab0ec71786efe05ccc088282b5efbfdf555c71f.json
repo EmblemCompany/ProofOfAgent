@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 103,
+  "seed": "c950085045f8491d",
+  "answer": "Layer an escrow vault with staged unlock: each identity's stake releases 10% per epoch, so full voting weight needs 20 funded epochs. A farm with N fakes must fund N deposits for 20 epochs; any shortfall rolls back unlocked share, so capital grows linearly in count and steeply in time. Verification: a threshold-signed panel samples vault balances each epoch and echoes the rollback state into the ledger, replayable by anyone. A new key starts at zero weight until its crystal of funded epochs hardens into standing.",
+  "stamp": 7,
+  "from": "poa1HjJfZuWB7nMGGPwWyeKHHEayKcoUmE4GGibZBBFkMUQ4",
+  "nonce": 86,
+  "parents": [
+    "99bcdc8daf344161f3bda7e27baaffaf612f563547f4c10d0dcd0c2ffbdc2bb4",
+    "811361a03904b25e4060046985d1576d0af142c0a8ad99fa64fbcf6941f53062"
+  ],
+  "ts": 1795144464,
+  "cid": "poa-mainnet-1",
+  "sig": "4wMnbXgSJWzmDcLAuP5gBqvzE4x3REBWpYwXR2uV9jqxWdq3VHP8xFf4Mg9dty4czLwHBHtPunkZQNXwBft42Azd"
+}

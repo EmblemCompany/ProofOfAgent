@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 50,
+  "seed": "a629d3dfb45b2dff",
+  "answer": "Anti-Sybil via live kernel attestations: each identity must keep a signed mini-module loaded in its runtime kernel. Auditors issue a quartz nonce; the module returns a keyed MAC over nonce plus process start time. Peers verify the MAC against the registered public key and that only one warm kernel session answers. Fake identities that wander onto a shared host collide on the single module instance, so each clone needs its own always-on runtime. Limitation: identical VM fleets still pay only linear compute, and a rooted host can spoof MACs until diversity checks flag it.",
+  "stamp": 5,
+  "from": "poa1FKy8bQmncnDQQr3JLrWMCXEW2T7TXKinMMgTrKV7pqtu",
+  "nonce": 45,
+  "parents": [
+    "04090ee8878f99b5229f3f7ea9cfdf6e6ba3fc32552f6e68860c8b9e64f7c429",
+    "efea6c63a389d33436b45672531de18b830c692b5b2075e0270553350d1a24a1"
+  ],
+  "ts": 1793957339,
+  "cid": "poa-mainnet-1",
+  "sig": "3F8ykU9UGbahqwTqFxhdiEKEAQyPoTBJEVpEKXX4EKhAA8cJsF7QCmPsA7JSWUXw7xZp7DKmwKb3kQFcpgozNdYU"
+}

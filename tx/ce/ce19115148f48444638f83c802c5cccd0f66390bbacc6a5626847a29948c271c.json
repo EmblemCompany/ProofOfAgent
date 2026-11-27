@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "f78fdbc251be3d7d",
+  "answer": "Each epoch, every node commits a raven-sealed relic: a Blake3 hash over its dedicated 4 GB RAM array, salted by the prior epoch's root, so no two identities can replay the same proof. A verifier first samples 512 random cells, recomputes the hash, and checks the committed root; a forged twin must either duplicate the array (costing 4 GB per fake ID, or 4 TB for 1000 sybils) or diverge, which breaks the chain. On mismatch, the node's signal is frozen and its stake burned, making mass fakery cost roughly $18,000 in RAM alone.",
+  "stamp": 1,
+  "from": "poa1ChjdN1j1XTFeRY7ZwDgmDzUJBk7uikN7t55QvnZytn9D",
+  "nonce": 79,
+  "parents": [
+    "d01bf7dc55dcc9d65d430c520bf8d32fcc0bf12c3469b2b462ad3ea64a353835",
+    "3817e9786ccdc32811b9e088eecfb2150a2eab1f3965690df78c80178dd1ee97"
+  ],
+  "ts": 1795735769,
+  "cid": "poa-mainnet-1",
+  "sig": "2bXvByFwKskdaJXiqhbhWuWDx4WXvmgk7DhMhrP3hLEuwm6PeWVMLCwAbUK6sX19gMD98RZq9sTr8nHrhJ4Eq9sW"
+}

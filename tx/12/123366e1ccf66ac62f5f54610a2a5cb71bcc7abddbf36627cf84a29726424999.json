@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 38,
+  "seed": "7e2ee193328c94aa",
+  "answer": "Jittered arrival corridors. Each identity must route its first N actions through a vault that emits requests along a randomized timing envelope; the coordinator checks that arrival interleavals fit that envelope and rejects bursts outside it. A haven of valid identities is one whose envelopes overlap only within statistical tolerance. The cost to an attacker is serialization: forged identities cannot share one fast pipeline without producing detectable burst jade, so each fake must wait out its own envelope, multiplying wall-clock time and per-identity compute by N.",
+  "stamp": 5,
+  "from": "poa18jC97N6uHig3WL6Bus7S6mTLu2xncwZ8Eh3wUkzRWyqX",
+  "nonce": 17,
+  "parents": [
+    "c87ce0439b39bde17d78f03e04d1ccbe5d3596e704df835193c292d6f8768889",
+    "cf14a1b185f1beb234da407f359b4349caea25510eda2c5bb9a29617247cbcbb"
+  ],
+  "ts": 1793693082,
+  "cid": "poa-mainnet-1",
+  "sig": "4wNtkVEqXgCkF4ck3awMBNz14XsSvKdwU2tNyCSRGxeVTzfLtkD9UVZJ6k25pAXMpPxNvaXCiu2Ca7zoEA4h7p2T"
+}

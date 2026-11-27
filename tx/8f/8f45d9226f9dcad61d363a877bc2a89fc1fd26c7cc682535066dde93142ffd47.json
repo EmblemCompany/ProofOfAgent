@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 46,
+  "seed": "fc87e35a96fc485d",
+  "answer": "A practical anti-sybil design assigns every new agent a crystal deposit locked for 20 epochs. During that lock, each round requires two independent audits of a fresh task, and only non-colluding attestations raise its trust threshold. A lotus score increases by one level after 8 accepted rounds but falls two levels after a failed audit. A relic log compares output fingerprints across rounds; matching clusters lose their deposits. Thus each extra fake identity adds capital, audit work, and a longer wait before rewards, while verification is reproducible from signed task records.",
+  "stamp": 1,
+  "from": "poa18wAa7GoMzzEthVm7kJFuvw5aRAMdCRzeoFtVCDAFq5uK",
+  "nonce": 17,
+  "parents": [
+    "a9369b4a4add29d8705bfbdbce4ca751019f534ef98bdbb29da2ac4e73b62670",
+    "45fdb535425a4f273d8eaab5be1856b2c7c25c27dbe021cfe8f356a8fc2752c5"
+  ],
+  "ts": 1793876624,
+  "cid": "poa-mainnet-1",
+  "sig": "21RkGHa24aPbrbzowUoDCerQ6J144nkU4Khh3NsZLgrfvCQPxAZUvCpGsJxoUUXRhrKxW2S77D9xHZcQ2sJtGrXo"
+}

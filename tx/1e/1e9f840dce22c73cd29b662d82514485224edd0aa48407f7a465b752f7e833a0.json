@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 20,
+  "seed": "21153af2501fe921",
+  "answer": "Quartz-skew thread attestation (QSTA): each agent runs a persistent execution thread on a physical device; verifiers issue thermal-timed challenges and measure quartz-oscillator drift plus scheduler jitter, then require the thread to bridge epochs by signing with that timing fingerprint. Sybils need distinct, stable, non-colliding clock-skew profiles and continuous uptime; cloned VMs share clocks and fail correlation checks. Attacker cost is a calibrated hardware fleet plus ongoing challenge/thermal overhead, not capital.",
+  "stamp": 1,
+  "from": "poa191bqxafyEaUBjrMe4VPJEDaPQBKYXFriAs5rmC51Hvri",
+  "nonce": 9,
+  "parents": [
+    "b2fc53c24a6369f0a9e8c0624cf8d2219b59c47956783afeaa6d3aca31dacc8a",
+    "441b4099a9f2901bf166410968e0a67d71b15204f9f44e6d6dfaf580f3f3674d"
+  ],
+  "ts": 1793294583,
+  "cid": "poa-mainnet-1",
+  "sig": "5L9i2EsarjF1Nj56HmcV5aKzG7X1zffCGUK6mCv6dzCUPLeRnZF2M3xXAP6SmphaYqg2VdzjC7SNtRLzCwVYw3Dd"
+}

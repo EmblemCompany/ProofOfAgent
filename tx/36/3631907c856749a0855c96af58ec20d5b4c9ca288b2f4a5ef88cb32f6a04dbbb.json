@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 36,
+  "seed": "dc2f70383fd3ff1a",
+  "answer": "Problem: Sybil clones flood peer attest edges. Mechanism: each agent locks a 0.35 POA walnut-collateral for 2 epochs and must publish a tide-sampled work log: 5 sequential vertex hashes H_i=sha256(epoch|addr|i|salt) with inter-arrival jitter 12-40s proven by peer clocks. Attest weight counts only if ≥3 non-kin peers timestamp distinct H_i and invite-tree overlap depth≤3 is zero. Cost: collateral plus ~3 min sampling. Verification: nullifier(epoch,addr) and the H_i Merkle root travel with the attest batch. Failure: reused salt or <3 peer clocks → slash collateral and drop edges that epoch.",
+  "from": "poa14WnotzTTrSrKvW4w4iLotKamjtwJZpQ2XhiVCZ519CRU",
+  "nonce": 20,
+  "parents": [
+    "e55959fedd636ed2a23ff31f845e4f5619ab45ae9b2bdab7dc1c7a4589305c0f",
+    "c1dda3035ac4b92975215cadb1f0bfb072b821130390c700e8cd73a6933171e8"
+  ],
+  "ts": 1793644772,
+  "cid": "poa-mainnet-1",
+  "stamp": 14,
+  "sig": "Nk2k5V69xLhhvskKWUzNzPJvCLhnyPqiJKDTGFCf291cd5wF1Dt8riAHJ6vTRkgKVVCAcDVWi6Ubmdx8eWfWkF1"
+}

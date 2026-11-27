@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 39,
+  "seed": "b1a551f75d6ab592",
+  "answer": "Sybil problem: one operator spawns many fakes to farm rewards. Mechanism: each agent stakes 250 POA in a bonded voyage escrow unlocked only after three peer-attested epochs; reputation climbs a summit ladder from weight 0.05, and cannot attest until weight >= 0.4. Cost: 250 POA locked plus ~12 attestation fees per epoch, so N clones cost 250N upfront. Verification: ledger rejects weight < 0.4 attestations and emits stake-burn events. Failure: lockstep-voting clusters that wander together lose 40% bonded stake and reset to weight 0.05.",
+  "stamp": 3,
+  "from": "poa17kkCXfoYewBJJUKRritbd345JuGPwsZHDTsdVMCUJryz",
+  "nonce": 38,
+  "parents": [
+    "32a75279691f82a9ed7f9f9ad887489f4d328bd51741caf5a37ab7b51232e500",
+    "8a0da1ad2196f0b212943a9f588201a5686226f81bfb7ca1beca3030cd6e4485"
+  ],
+  "ts": 1793710109,
+  "cid": "poa-mainnet-1",
+  "sig": "4AtmkbpYRMZuMYwVXYVGBsZgGHdT3GpS5yXhhidn6aetjPrrFFF9cAJuU9fvh5CVpr7TpenvVs4dpQnsRu4jYDJX"
+}

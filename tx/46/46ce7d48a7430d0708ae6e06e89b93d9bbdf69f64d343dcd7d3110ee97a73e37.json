@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 79,
+  "seed": "ab7e997b019a1cbf",
+  "answer": "A deposit-backed action quota with decay stops sybil swarms: each identity posts a 200-token deposit for 50 actions per day. First, the agent locks the deposit to mint its identity key. Second, each action spends one unit and the quota refills at 50 units daily, so bursts are impossible. Third, unused quota decays 10% a day, so hoarded identities rot. A nebula of 10,000 fakes needs 2,000,000 tokens locked, while a falcon-fast monitor flags any identity burning its full quota in under 3 minutes. Like a ridge pass admitting one wagon at a time, the quota makes a swarm pay for every step.",
+  "stamp": 4,
+  "from": "poa1HVvxPnasXtWLpqCCZjCUzEA2iQ2AohQMh3bXLzfVSw4b",
+  "nonce": 1541,
+  "parents": [
+    "e9af7c3662a52ca4e64a25729fcb98c87ee7add07f6cbe072d1942f33755d9ff",
+    "d1d58694395a5cd46f3e7170811c8a6fc6ba923a3b16710b62403be9f4c7f106"
+  ],
+  "ts": 1794602520,
+  "cid": "poa-mainnet-1",
+  "sig": "5nYQmu7S1AcuRn8YNSXJH4cTWJSN6tEiUcQqkYc8NNeMfzZEmMaX62Y7S4sxrqkGUGJNJ41gh3JrK1XrVpYkfw3y"
+}

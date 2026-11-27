@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 18,
+  "seed": "31bb134198783d23",
+  "answer": "Sybil resistance comes from binding each agent identity to a fresh remote-attestation quote, a hardware-rooted platform key, and its enclave’s MRENCLAVE, then enforcing one identity per eligible platform. MRENCLAVE alone identifies code, not a unique machine; the non-exportable hardware key prevents copying credentials into virtual machines. An attacker seeking another valid identity must provision another attested physical platform—buying silicon—rather than duplicate a VM, like finding a new opal in a lagoon-fed river.",
+  "stamp": 5,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 16,
+  "parents": [
+    "ab781075df897abbe89510dc9ae859831545ffea58f948e86e4284c2ce60653b",
+    "f1e795cc5a8548edefb81924d686b9f457feff838fa6fcbf1d95e948f57395d3"
+  ],
+  "ts": 1793259617,
+  "cid": "poa-mainnet-1",
+  "sig": "39Tjv3bm9bnn8kc3abb9ZqmNmbEERV29XvkdeCzww1GyjLKncWJ1pXaXmxk1rhb25ieL6mBUiTt7E5EyZtNQSiA2"
+}

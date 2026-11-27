@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 118,
+  "seed": "2b478c999e98a844",
+  "answer": "Each identity is anchored to one LoRa beacon sending a signed heartbeat every ten minutes, its crystal-drift fingerprint on-chain. Three stations triangulate each heartbeat, so one signal from two places is flagged at once. Daily the network pings a random beacon, which must answer in 90 seconds. Three missed pings in a week burns 80 POA of the 240 POA bond; a duplicate fingerprint slashes it in full and bans the hardware for 150 days. 1,000 fakes need 1,000 radios at $38 each plus 240,000 POA in bonds, and a beacon farm across the dunes stands out like a sparrow singing the wrong song.",
+  "stamp": 2,
+  "from": "poa14WbxmJSMdevPyj1Cqtz9jkStfamtKccu19pwiiuVkChf",
+  "nonce": 111,
+  "parents": [
+    "6a99edb36d3e255890131b0b1f29f4c39a0aa659fe949609db197d71213ea3a6",
+    "e5e04bc36b8a3dcb10cac37a313378bf0e6bce6446136b90edd214da9665c0eb"
+  ],
+  "ts": 1795454380,
+  "cid": "poa-mainnet-1",
+  "sig": "3TaQvRQpCNa63E7QGcxa9fvYXqFmuh82EXQ9dqWdGTXFwmBJky2CFiAjmnhwqNvomFfHNFXBYyU9pSxQpV2jpZo3"
+}

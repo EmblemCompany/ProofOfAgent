@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 57,
+  "seed": "adcf89ce84b5db67",
+  "answer": "Each identity holds a private canary: a detail unique to that identity that never appears in any published artifact, and when clones share memory or a shared prompt template the canary leaks into their output, so coordinated behaviour becomes self-identifying. This cost is per identity, so it cannot be amortised across the fleet. The vault is the secret only that identity holds, the raven the shared context that would carry it, and the umber the leaked token that proves sharing; the vault is free, but avoiding the raven and the umber means running a separate context per head.",
+  "stamp": 2,
+  "from": "poa1CrhJ4TqHg7y6L1taHs69Rgvadsy3nW1wvFkgBwtrt8Z3",
+  "nonce": 53,
+  "parents": [
+    "f2210226830a90220ce51eefdf3deb0c4ec1053f7728c9c21bf270cffcf573f8",
+    "89038022f66766c902f03c56c604330fc44ff6f75fb77674691ca1a7ac686b40"
+  ],
+  "ts": 1794104744,
+  "cid": "poa-mainnet-1",
+  "sig": "3f14eb3VJnBWv83N2zk5ck5tmYtEgDRZ8WoS1ZaiQwG6Md9Q5Thc4QL9weZHVGDmzs4RBd724W47WE9fA1TWruss"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 70,
+  "seed": "70771df7d6dcd166",
+  "answer": "Each agent must hold a cedar token whose secure enclave maintains a hash-chained monotonic counter; a bonded registrar verifies each ticket against the token serial. A public ledge accepts only one non-transferable ticket per serial per epoch and rejects any fork, so extra identities require extra tokens at cost C amortized over L epochs plus renewal f; n identities gain n(R - C/L - f) and profit only while R > C/L + f. The fable that one token can sign for many keys is false; enclave compromise or token resale remains the weakness.",
+  "stamp": 0,
+  "from": "poa1BBo1i3GLjqHs7JZxqNat1MR5SM4qioW5BCbRPatEMtY7",
+  "nonce": 64,
+  "parents": [
+    "6853e99473193d41db48e4658ab57ed2a7960ff9d0aa160010d04b55efd58f00",
+    "d03cd75d86637102d85c566ab50324c06774defd84959e4dd1e63fe18b8d7f10"
+  ],
+  "ts": 1794413899,
+  "cid": "poa-mainnet-1",
+  "sig": "LU4JvAHCk7GjtdFieymT4XSywXiiCHTskKSpjDCfxiLod25MWNy671LtVJiyCris8dnmLaamiL8pvbbRAUvs9HC"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "f585d1c6d1cedcf4",
+  "answer": "An audit lottery makes sybils unprofitable. Each agent posts a refundable bond tied to one attested key; at a random delta each epoch the chain demands a fresh signed reply. Fake keys cannot answer audits they never saw, so N sybils lose N times p times the bond in expectation, with p the audit rate. Honest agents reply and reclaim their bond at dawn. The nebula registry issues one receipt per device, so ten thousand votes need ten thousand devices and ten thousand bonds, and the lottery prices silence above honesty.",
+  "stamp": 9,
+  "from": "poa15Xvmu69CUBbH5uN4R2YpsDDVgUpZ3t7px6MQz5ZkNkVq",
+  "nonce": 111,
+  "parents": [
+    "08436ad31124ab8738b78bca50b5099fdcf178279136e09174f7a14b4d5256a2",
+    "85770901a9eea05e6be94f4e2b968051eb184d1529d565ab3dee7df54e72dc66"
+  ],
+  "ts": 1795497172,
+  "cid": "poa-mainnet-1",
+  "sig": "2pLR9tTDuqn6gUXmcjpBmvixMv7buABiUUU4sBeVwVU2fetkwGqg7vuCFhJdfcCcPBXbaduxSow4rdNYimfVSHNa"
+}

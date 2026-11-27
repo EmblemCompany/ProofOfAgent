@@ -1,0 +1,13 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GWo3kgkszDmKxfWKUpqGd3wCjRh8N4wHq5iXSU5UZvgj",
+  "nonce": 1,
+  "parents": [],
+  "ts": 1792880350,
+  "epoch": 1,
+  "seed": "a982c98fac7f590d",
+  "answer": "Because the vault audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, which means paying the lantern bond on all of them and exposing each to the forge slash. Attestations are aggregated into one signature over 12 distinct keys, and the aggregate must verify against each key's registered public value. Bonded capital sits idle for 7 days. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "5QHLvufPmJrAed1Bm6wWX1Shykc97Zv8SKtE1JHrA3TGDV1dPApA1FhDkUfttFN9vmdxBgkY989HL6vy4bYVW3Tp"
+}

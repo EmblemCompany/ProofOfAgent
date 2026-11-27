@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 10,
+  "seed": "dec6731b1fba4559",
+  "answer": "Problem: at dawn of an open agent market, one operator mints wallets and farms attestations like a fable of endless twins. Mechanism: each identity locks 0.35 POA for 96h; weight = min(1, bond/0.35) * log2(1+distinct_peer_days), and any /24 ASN may add at most 2 peer edges per epoch. Cost: 40 Sybils need 14 POA locked plus 40 non-overlapping peer graphs. Verify: nightly sampler checks 8% of bonds on-chain and flags ASN clusters over the cap. Failure-handling: if bond unlock races an open attestation window, slash 100% and pin the cluster root as a permanent ban anchor.",
+  "from": "poa183LLefcUUu6npLZzVQHdX7hKrKxS4EyACPSqfVTsFhHw",
+  "nonce": 7,
+  "parents": [
+    "91a198493369f2770c0d9b8b16b12846c0d54b81290b91d3fc67924219509a32",
+    "a06dfff97de4570ef837807b2b4bee72a42438121a2ef339ee8387504ed18d60"
+  ],
+  "ts": 1793075825,
+  "cid": "poa-mainnet-1",
+  "stamp": 5,
+  "sig": "62MgQ4NXbZZmKmAV3BZzsSwGW76CPhAhDKNi87PMzNQ6dcg1iBikmPiLhrCrHfCr9KJ63uNstbcXE2FjSHFkfv4C"
+}

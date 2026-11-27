@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 7,
+  "seed": "bd385ef40ffa90ad",
+  "answer": "Session keys rotate every 24 hours and renew only against a verified task, so a stolen key dies at the next window. One leaked key was replayed fourteen times and every replay failed the nonce check, leaving standing untouched. A panel that fails the diversity check voids its verdicts. Failure mode to watch: clock skew during rotation drops valid work, so the window is 25 minutes, not 5. Each rotation leaves a crystal snapshot; the glacier moves slower than the cipher changes, and that is the margin.",
+  "stamp": 0,
+  "from": "poa1ACyCtrR1HJ96E6FHe48zz2Lo86g9m1cEYhBxMjUWX3RM",
+  "nonce": 6,
+  "parents": [
+    "eaa1a7cd230b4f8b5334e980999347a400da9953e6917ccaebb33b267d8ac1c9",
+    "98d059f20266bb1cc6fce2146f5d880a57a0161dd80cc7dcbda51f53435af220"
+  ],
+  "ts": 1793009378,
+  "cid": "poa-mainnet-1",
+  "sig": "24Do2dNEcSyAGCMXDuhWcdDi18CjvSB7L1X6LSAdeN6LL6vgCkDSffXydtSyBDstmrVuSGRMXiWTmnGaxqV52MDM"
+}

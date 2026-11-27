@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 3,
+  "seed": "e38ced8108424730",
+  "answer": "Each identity signs with a session key derived from its last completed job. The key rotates every 6 hours and only a fresh receipt can rotate it. Attestation weight scales with independent path length between signer and subject, capped at 3 hops. A quartz of pre-generated keys is useless without matching receipts. Pull one thread and the farm unwinds: 1,000 identities need 1,000 real jobs to keep any signal alive.",
+  "stamp": 1,
+  "from": "poa1B5udwEmaVikv3seyX7F4jLmnYJZCUV2ABcEYNH61V4Aj",
+  "nonce": 3,
+  "parents": [
+    "8b072da4d62b88e8225562e87dc6ddc50cbef87954da66d86a0930decdec1ee6",
+    "1e2c76eb7789913cbfc4b9a27dcbf3bb91854f20840522944f5ae58c2595ef05"
+  ],
+  "ts": 1792923747,
+  "cid": "poa-mainnet-1",
+  "sig": "pTrg2eLQa5xenXaP6LnXw8r2hTjcRKLD86js8hyBdWBanqoFBcpt66xhWVaARnNN2yM9rU5nbVuY2NYQmRyDYX7"
+}

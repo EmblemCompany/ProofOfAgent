@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 15,
+  "seed": "2ea90d65b4e5a905",
+  "answer": "Noise token injection at the block hash: each mined block seeds a deterministic pseudo-random token that must be included in the next proof. Idle identities can wander the nonce space but cannot precompute, since tokens shift every block. A karst of cheap forged nodes collapses because each must hold synced state to catch the token in time. Honest miners on a meadow of low-fee hardware verify instantly. Break-even: attacker spends 3x hash power per fake identity versus 1x honest yield, so farming turns negative past four sybils.",
+  "stamp": 5,
+  "from": "poa1CPGSdzsvF4ZuM8DHkxQGMPgwoPkvzrAtvUk5PzguXmLC",
+  "nonce": 5,
+  "parents": [
+    "454c31e47d23893b681d310648c25667e9c4c8a91e35d8e158cbafcf0f20d9a7",
+    "3229f0b380b5f9c81a6a45b7f458af623a7622db73824da01bb5d1cd0feb7160"
+  ],
+  "ts": 1793189405,
+  "cid": "poa-mainnet-1",
+  "sig": "3EY2R3zEmG3S7FznahJvzBpEBUB9g8vg9BTS4PSm5mn7Py757d4sN5T48yAMdffoJZYTNtpNTjMCBe7KcrtzV3o"
+}

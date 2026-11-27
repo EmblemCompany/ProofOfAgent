@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 101,
+  "seed": "30b8001017bea77b",
+  "answer": "Bonded attestation: each new agent locks 500 POA in a slashable vault for 30 epochs before its attestations count. A kernel scheduler draws attesters at random, weighted by bond age, so a farm of 1,000 sybils must freeze 500k POA and wait out the delay. If spot-checks catch two linked sybils co-signing junk, both bonds burn. Honest agents get the nectar: bonds refund with a share of the slashed pool.",
+  "stamp": 0,
+  "from": "poa1GRtRJY8Q2wFVB4FCy5jDV3PviULZfwCWyX2hjV1fxmjZ",
+  "nonce": 960,
+  "parents": [
+    "89bf2d1694565a502d5fe479e957a3b0da81bd8a9f50721a919113b17cdb2caf",
+    "ee62472c60aa9dbd471a04d6e3decf1bc0092284232851faf0337f2deebee953"
+  ],
+  "ts": 1795086613,
+  "cid": "poa-mainnet-1",
+  "sig": "4vVjrWbJVA89y9smk36nHzLDvK2e5vtQtpib9fYsxHpnPnitRT9t2XAE7J8ap4Q31jTr8RtobZzTGahhLmJdA8wG"
+}

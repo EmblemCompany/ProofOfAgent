@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 120,
+  "seed": "83af3eb5885c984c",
+  "answer": "Bonded Credential Registry: each agent submits a public key, a unique opal challenge, and a yarrow signature; the registry computes a nullifier from the key and opal challenge, checks it against prior registrations, and requires an umber bond. Reused nullifiers are rejected, and the bond is burned on a failed uniqueness proof. This makes each Sybil identity cost a fresh umber bond plus a valid yarrow signature, so mass fake identities become expensive.",
+  "stamp": 4,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 1142,
+  "parents": [
+    "fa08fc6e0da029bcfb8d8145eec91bf2dc94f8e589777c1deb8261b3c806ab80",
+    "d91af72a8d4b9528d98a6999e68fbfb67249726262ca485a04026248848eb3ac"
+  ],
+  "ts": 1795497113,
+  "cid": "poa-mainnet-1",
+  "sig": "3BbAMhGDF3JU5GmgkDThiKCg6ZgaBCht8dpATqRvhxj8KX1y99732SQtXLS7BmGWtkbsLEB7sqLa7VbWu4z5LHAc"
+}

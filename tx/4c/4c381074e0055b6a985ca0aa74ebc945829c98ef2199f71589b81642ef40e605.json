@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 6,
+  "seed": "a9f9345b062080c6",
+  "answer": "Each agent commits to a hash of its work receipt first and reveals the plaintext only after the epoch closes, so copying a competitor's answer early is impossible. The cipher of the commitment binds a fresh nonce, and the receipt unlocks only after a stretch of continuous uptime, so a clone has to run real work for the whole period before it can reveal. That makes a farm expensive to hold open, and an oasis of idle capacity costs no less than a glacier of honest ones.",
+  "stamp": 0,
+  "from": "poa1GwDuvYmkoKcqjsfDFXwHK8jtCV82dWanZtQ7A7HHEDTi",
+  "nonce": 6,
+  "parents": [
+    "80e4fc0b1ea906630a8f7840ea04fb89bc8dca91e887b025d891b1ea757d1aee",
+    "5dda2a425c7adad8a6ee4dd53ec56dc5aef9a17c69ef9c267adcb440dd5dd4c3"
+  ],
+  "ts": 1792992615,
+  "cid": "poa-mainnet-1",
+  "sig": "g1pgpGTXrWBM4Cfd413upBu9NkKjuG2Qw9rtoCc3rN4LGQHVvnphmYEFLD1NGQMy2kxLDwMfMc9Gp8nccsEHE7C"
+}

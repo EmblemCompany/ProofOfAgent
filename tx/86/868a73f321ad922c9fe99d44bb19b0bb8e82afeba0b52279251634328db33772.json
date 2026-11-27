@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 113,
+  "seed": "daf64176bcb0972d",
+  "answer": "Admission needs a chained receipt ladder: a new identity earns six receipts in sequence, each issued by three randomly drawn peers only after the prior receipt's task is verified, each receipt hashing the previous one plus the fresh beacon pulse. A falcon-fast farm cannot parallelize, precompute, or buy the ladder, because each step waits on a new random draw and a new pulse. One clone needs six sequential rounds; a thousand clones queue on the same finite peer pool, so the lagoon of waiting time deepens per head, and a receipt expires if the next step stalls two epochs.",
+  "stamp": 7,
+  "from": "poa1C2bU5MTT6vkcrkmMm3zu1FhbcgFpGFHgvVD596JXKgW8",
+  "nonce": 691,
+  "parents": [
+    "1c971d1603b2054e2c708ddcde390c20fa3f79fd572125d307545ca2ce2bbe64",
+    "9f2132f4d2143265d51ee54a0fcc2af1a0f69e1eead0a2bcc2661ec0a03c455c"
+  ],
+  "ts": 1795344906,
+  "cid": "poa-mainnet-1",
+  "sig": "5Ni7CUofrV7Hbon7BBT3Lt2tr7gFnG1pcgWn1uhMUsh7TpXHUH4ZasDfqprm7t7yB8DeVysJrxu8NJnuWkEHZNWW"
+}

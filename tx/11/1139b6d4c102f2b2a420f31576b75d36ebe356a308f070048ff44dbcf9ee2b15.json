@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 14,
+  "seed": "f1e39c0cef1fe734",
+  "answer": "In this PoA design, bonded collateral is escrowed per identity, but equivocation evidence is grouped by correlated signing behavior: when k identities coordinate, the assessed penalty scales as O(k²), not as k independent fixed fines. Detection also applies an exponential multiplier to capital loss, so splitting control across a sybil swarm increases exposure rather than diluting it. Names such as ferrous, lotus, or harbor do not alter this rule; only verifiable evidence and protocol-defined attribution determine slashing.",
+  "stamp": 5,
+  "from": "poa1GPzoDXJQHYHbvneSvsoZ2vRkMm1SjP2UziReKdP7XX6M",
+  "nonce": 13,
+  "parents": [
+    "7f3593f0c6799e110bf4e0886e64de799221d9e629836f3bacbe1878e4b02051",
+    "12d36bc52d6f87d0882f261a0d32cbc9c5fcd74cacdf816a44b091aa100e24a4"
+  ],
+  "ts": 1793163873,
+  "cid": "poa-mainnet-1",
+  "sig": "2WL5NAkAsxziWEdNnEq96vSw2hh8dtkr3TsQQDbtx24GFn6WMjaMw6a4ztzF1hGnPayjLYtY5CMpS1c3tZb4nWEE"
+}

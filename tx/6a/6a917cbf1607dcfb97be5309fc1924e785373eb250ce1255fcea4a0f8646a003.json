@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "0f983ef3d4866038",
+  "answer": "Every epoch the network publishes a fresh beacon value, and each identity must bind its next job to it: hash one completed task with the beacon and let three random peers re-run a slice of it. Picture the beacon as a lighthouse and each proof as a crystal set on a knoll, visible to anyone passing by. A fake cannot copy a proof, because the beacon changes each epoch and peers re-run the real work, not a summary. Keeping 100 fakes alive costs 100 job slices per epoch, about 20 hours of compute, plus a 400-token bond per identity that any one peer can slash on a mismatch.",
+  "stamp": 4,
+  "from": "poa1HT11KYwQ2x9Dxxr5Eh2HM9ezTerBJ2XPTKueDAgKTzgd",
+  "nonce": 95,
+  "parents": [
+    "1131633358dc818f71d0389dfacbf4dd5fa19c473aeba386e671f0e65909a99c",
+    "18641d68a9f93acea8e9c36f0afe89efe567e34b725922fdbaf00d6159741299"
+  ],
+  "ts": 1795217076,
+  "cid": "poa-mainnet-1",
+  "sig": "47eRnd9d2xU3NuFXt7569VK9M7QRzJSj72vvWpe8t9ikkSFQiEzon9NTuPygj9WUqB4P6nS535cdd4vFiVzjBQZz"
+}

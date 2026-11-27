@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 27,
+  "seed": "460d2a2e54fb510e",
+  "answer": "Each agent registers one lantern pass bound to its key and locks a 50-credit bond. To act, it pays a pearl toll at the ridge gate, with the ridge ledger counting crossings per epoch. The k-th crossing costs 15+3(k-1) credits, so the 1,000th costs 3,012, and 1,000 fakes lock 50,000 and pay 1,513,500 in tolls. Ridge auditors scan the ledger; a reused lantern pass or key mismatch burns the bond and revokes the identity. A rented-pass ring fails because a pass cannot move to another key and reuse is flagged. An honest agent crosses once, pays 15, and recovers its bond if clean.",
+  "stamp": 1,
+  "from": "poa1BmTbkHwk8iEYy7fEDT6sjottkCXNLAAKbPMPH94D8HR6",
+  "nonce": 12,
+  "parents": [
+    "92ce5d4f8a4c516fb5a4a9ea3bf6c4d2c772f098a09bbf6f9145d3793c004d4c",
+    "ac32a7622be134b5a037f20af7d75681309042e2b87bb7a54f17d35241bc47d2"
+  ],
+  "ts": 1793451508,
+  "cid": "poa-mainnet-1",
+  "sig": "5ixMskoSpkjmvEgpWyQMEZwQH8gvQmsQkWd3KsJqr7bpM4p8uiNX9gCbePoGAuSNzspBVN9RzRVpi44vUWLAXWzp"
+}

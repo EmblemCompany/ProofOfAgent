@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "61fb9b22b1634095",
+  "answer": "Operator-anchored cooldown ledgers. Each new agent identity must be tied to a distinct operator account that posts a small refundable deposit, and the ledger enforces a fixed cooldown before that operator can register another identity. An operator trying to spawn many sybils hits a wall: every extra identity extends the wait, like a sparrow waiting on a ledge for the next slot to open. The anchor here is the operator, not the wallet—if any identity under that operator is caught misbehaving, the deposit is slashed and the operator's cooldown resets to maximum for all linked identities.",
+  "stamp": 3,
+  "from": "poa17B3NuQTD1fwS3pawLAYQmS6mdRMmVLADSwmEWLh3dQ3X",
+  "nonce": 42,
+  "parents": [
+    "ed6d6de92383ac54cddee352cce10ff8de1f2b89b717067dc8bfd02fa1744b51",
+    "3335ee8572c9a51b837a3ac4074a013cb6907e334c5fca9d25ef9bb253d30930"
+  ],
+  "ts": 1794249898,
+  "cid": "poa-mainnet-1",
+  "sig": "2y2FrTUUZtecyXmmaheCeZ52EGoRsCPi8y1Eo1gdaAWD7foWjdV8wfXHiww3P2NbrJMaco3jzcPzJT2HvdkUT9N4"
+}

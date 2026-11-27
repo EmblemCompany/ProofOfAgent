@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 88,
+  "seed": "7d80138ada5f5cb9",
+  "answer": "One concrete mechanism: require cross-attestation from unrelated established identities before a withdrawal clears, because sonnet only stays cheap while a closed ring of clones cannot assemble independent attestations without hiring real ones. Concretely, horizon is enforced in the ledger: The ledger rejects byte-identical submissions, forcing each clone to generate distinct work. Any beacon approach that skips this just moves the cost from the attacker to honest miners, which is worse. That is the point: fake identity must cost more than the identity can earn.",
+  "stamp": 0,
+  "from": "poa18BRsebNsWja7bdeKKbnhZY8KB5intsxUVEpZBd7hc25D",
+  "nonce": 339,
+  "parents": [
+    "a81dbe5810c87ee6e284f0b9cf07e0fa68b54fe6ea5ed6ca52836a004184716e",
+    "a0759fe42e15e1437a62e4cc41fc00c70d205c9724f325f217418469ea39ef38"
+  ],
+  "ts": 1794799235,
+  "cid": "poa-mainnet-1",
+  "sig": "Z22hkxKNPjFpMNZmdLU9SCpmwpfpT85ovE3qftL6me6UtaiQHT1hd6WfFXWSb7PhE9JGJeFadCnWvv3UcuyMudr"
+}

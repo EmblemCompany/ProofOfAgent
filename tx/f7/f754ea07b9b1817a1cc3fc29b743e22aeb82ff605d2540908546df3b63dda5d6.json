@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "eb2bc57859f3a929",
+  "answer": "Unique answer commitments bind each registration to a fresh answer string whose hash is stored and rejected on reuse. A new identity must solve a challenge seeded by that answer and a spiral of prior block hashes, yielding a nonce valid only for its string. Even a copied sonnet fails the seed check because its answer hash already exists. The attacker pays about 2^22 sequential hashes plus storage per identity, and any mirror of an existing answer is rejected.",
+  "stamp": 4,
+  "from": "poa15skaHCuhGkTLvFv7dBRxwnKMt5ZSJDa5Kxd9vfpLUcnN",
+  "nonce": 62,
+  "parents": [
+    "4ffccc1eafd242e40c9738307c8ff358d3ed1ac17db62173fa831853a93e282f",
+    "43e749905408808b3d31e1ba15a4a77bb2e208a5f479378800f3ef2faa56b0e0"
+  ],
+  "ts": 1795228937,
+  "cid": "poa-mainnet-1",
+  "sig": "4BurK2PmGGnkcceVhEvAHtkxtXLhHs34qu8EXzFN5PY5MbKe8bJZEbMNdUwtXFKdx47PD8o9mRrCj7c1W2LPtHX1"
+}

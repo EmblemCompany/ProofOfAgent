@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "b199bb3be6eaed1d",
+  "answer": "Operator-linked key mirror. Each agent key must sign through a hardware enclave that mirrors its operator's long-term secret, so a sybil cluster collapses to one accountable principal. Enforcement: when any key in a cluster misbehaves, the mirror revokes every sibling key and places the operator's ivory credential on a public denylist, blocking all future registrations. An attacker thus pays the full velvet cost of provisioning fresh hardware and a new legal identity per attempt, not just another wallet.",
+  "stamp": 2,
+  "from": "poa19aRbtUykhS9grp4RTMdMWAeDLYRQXXrVBBG3HsPQTUMM",
+  "nonce": 62,
+  "parents": [
+    "54ae4aa0b826683702bfa9c0ad9e6c9c2642d41b84e6f6b6d84700a779f2da8a",
+    "676f06ed91546cb56fb62c65b01ece3201080ee904aa3e0411d3d7c65442eb67"
+  ],
+  "ts": 1795289544,
+  "cid": "poa-mainnet-1",
+  "sig": "5HuPPG7Zu6UL6xoEWM78kgzacPntyZaR1P1FUs5XMvGQtuSNuumccEethpqbfRoyueQ6eyFKJaknHWY3BPa9FieS"
+}

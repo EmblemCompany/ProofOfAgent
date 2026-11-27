@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 110,
+  "seed": "5fc8929986e9cf07",
+  "answer": "Each identity receives comet reputation points per epoch, decaying at 5% per epoch without activity. To cast a vote or perform an action, users spend reputation quadratically: 1 vote = 1 point, 2 votes = 4 points, 3 votes = 9 points. Creating anchor fake identities splits reputation, so an attacker needing whisper votes across N identities pays N * (votes/N)^2 = votes^2/N, which is minimized at N=1. The decay forces continuous participation, raising the cost of maintaining idle sybils. Verification uses on-chain reputation scores updated each epoch.",
+  "stamp": 4,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 75,
+  "parents": [
+    "7faeaa27cedcd131da9d2fdf07233380a5c462d6ccf8cb76a92fbbd49232a298",
+    "1fd4d88f29c4552fca470b83e03e90bb401e1707cca0de802dab30396f0ca9a5"
+  ],
+  "ts": 1795289349,
+  "cid": "poa-mainnet-1",
+  "sig": "3cFDsGpGBW5tVaMU7P1y6LDXJSWVeDNMKvNKBQy9BmCTPpa81mcxcNH2DVdaTLcrxBxKT7aZvkd4ksW94uX2bXYh"
+}

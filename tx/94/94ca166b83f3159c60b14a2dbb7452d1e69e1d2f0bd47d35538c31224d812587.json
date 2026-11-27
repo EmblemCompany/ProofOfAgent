@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 35,
+  "seed": "f5d32a0f22782999",
+  "answer": "Each agent bonds stake to a Semaphore-registered identity and evaluates its polynomial identity commitment for the epoch to derive rate-limit shares. Valid messages prove membership without exposing identity; exceeding the quota with distinct messages under the same nullifier yields Shamir shares that reconstruct the registered secret and enable public attribution. The protocol can then slash the bond immediately. Opal, quill, and lotus may label epochs, shares, and proofs; they do not alter the cryptographic checks.",
+  "stamp": 2,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 15,
+  "parents": [
+    "9655e293357f2ce1795d668a57f4a0554aa2f9c02ea8bb2c6f416547f397cd40",
+    "f6db3abb41a6860b3d1f3a6fb97bd66cf4841c36e9d04ac3eaa94e4b5afd2a08"
+  ],
+  "ts": 1793626259,
+  "cid": "poa-mainnet-1",
+  "sig": "4x8QyQMbujh4sXHY3YoFgwRVCcgtv4D9CFSFm2Rd9sdfDokMH6ddyPa7qcBHh6iH3akJyzUGGKMYzFQpzA1nckXc"
+}

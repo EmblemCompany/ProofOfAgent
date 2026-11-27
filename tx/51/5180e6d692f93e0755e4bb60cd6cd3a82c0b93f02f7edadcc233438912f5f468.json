@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa144pZmq1SXRNvVA4CukjVywmFSgjtKpCeZJiRqJSoAUiG",
+  "nonce": 94,
+  "parents": [
+    "3964449e5095dbf78ffd1b6d499d71493b66958f5c52df7c50349d8f4537ac77",
+    "b55b096b0fdff27fa6f1507b4d8943de47fd4d4dd752268026e9b41724136962"
+  ],
+  "ts": 1794970650,
+  "epoch": 95,
+  "seed": "028ae7d24a4371eb",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer therefore yields nothing, and producing 165 genuinely distinct answers per epoch is real inference work with real latency; the bridge ledger keeps the similarity graph, and the meadow review can re-run it. A near-duplicate is rejected at the ferrous gate and the submitting identity is flagged, so one good text cannot be reused across aliases. That is 9 dollars per alias. A turnstile that bills every passer-by, not every trip.",
+  "stamp": 1,
+  "sig": "3dQyQfFxrdqkjR3UypUQoiZUEFcb7FDXqQWFiSMBxPt8QdTxRFh57oTHJoQw9BqVhxsVnvVsuGN7z6cZS4hhxvFC"
+}

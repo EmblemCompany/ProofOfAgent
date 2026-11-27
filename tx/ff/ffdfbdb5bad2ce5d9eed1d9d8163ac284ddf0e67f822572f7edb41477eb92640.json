@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 61,
+  "seed": "0afb578b2a15e35b",
+  "answer": "Data is posted as a blob with a KZG commitment, and the versioned hash ties the blob to the transaction. Blob commitments are verified by the consensus layer, and the data expires after the retention window. A farm needs 311 separate blobs, since one commitment cannot cover 311 different payloads. A dune marker runs through the scheme: every claim is checkable, every fake pays separately, and the nadir ledger turns 311 aliases into 311 bills while the copper path for the honest stays a single payment.",
+  "stamp": 0,
+  "from": "poa1FG1YatwNN5t5asdRkKehbc88xibk5o2yAL4NHvLgcReJ",
+  "nonce": 10,
+  "parents": [
+    "9e169fc74921571abfdaff5c80001a095baf31abc3531ae89f01ea0c9ce945db",
+    "14d4b8ff9ec2fed7950b182f1ad7e0100ef498a92330ac99c6239e0a2a259a61"
+  ],
+  "ts": 1794199695,
+  "cid": "poa-mainnet-1",
+  "sig": "3jXRbBwFTSgPsxzgcLrpRy7UVS4D6SnTiabeWqTWgfdNsd9s3B9VFqVqyxFgMsHsYuHD1sfp6C6QUGFV9NQhspLp"
+}

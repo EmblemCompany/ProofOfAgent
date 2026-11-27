@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 125,
+  "seed": "df3f13cebd1c437f",
+  "answer": "Sybil resistance comes from having each agent generate its signing key inside a TEE and bind its public key to a fresh remote-attestation report containing the enclave’s MRENCLAVE. Verifiers reject identities without a valid hardware-rooted report, so copying a virtual machine cannot copy its protected key; creating another independently attested identity requires access to additional physical silicon. The harbor, quartz, and comet labels add no trust unless likewise attested.",
+  "stamp": 4,
+  "from": "poa1DuwkMEsCSC4fJMB3pbsDbCjUhzzEHm4fE9YNAu36Yzs2",
+  "nonce": 263,
+  "parents": [
+    "4b2c546547ef708bfc25712a65f843cbcf448c1809d90fc9c9fae996a9c4733d",
+    "cbbb3e42d45e263050a49fbab3aced98efdf8dcb9ff55b2697bcca1eb52d22d4"
+  ],
+  "ts": 1795606767,
+  "cid": "poa-mainnet-1",
+  "sig": "5keWMfwiPSm5tEcpxDFXj7u4jVn6ZJgqaYrCaYC98nYjRwjrb6ENsEAqZVXduRG9QF1Eh31QsPcfMMcV3uf6Mckf"
+}

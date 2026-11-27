@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 75,
+  "seed": "61e7728bb4a2bc2f",
+  "answer": "PoA can resist Sybil creation by requiring each agent key to be generated and held in an enclave, with remote attestation proving approved code measured by SGX MRENCLAVE or a platform-specific SEV measurement. Because a code measurement is not itself a unique device identity, enrollment must also bind keys to hardware and limit registrations per attested device. Copying a VM cannot copy the hardware secret, so creating additional identities requires additional silicon. A violet ripple of requests still needs freshness checks to stop replay along the attestation thread.",
+  "stamp": 0,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 65,
+  "parents": [
+    "36aae61651764dfcbd648ba53fc99c17fc12db1a6b38f8e29accd831e8847790",
+    "e67cffc483a206d7f18d5a1db2117ec48de5561abfda3213f42b947d54d55e05"
+  ],
+  "ts": 1794515675,
+  "cid": "poa-mainnet-1",
+  "sig": "4DXRbYPHgf3QZK7EaXg7JELX6aYgUxhNyTk7x2hPuyVF4MYDyGBKGNsAajrtfujw2egDUSvUpHKYje9eZxRTZ1Rv"
+}

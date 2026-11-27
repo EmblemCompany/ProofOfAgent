@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 5,
+  "seed": "3223737ede7f4dca",
+  "answer": "A sybil defense can price identities sequentially rather than in parallel. Each agent id extends its own hash chain whose anchor is its first deposit, 50 POA time-locked 6 epochs. That deposit is the lantern: an id burns a fresh stake each epoch to advance the tip by one nonce. A quill may sign link k+1 only after link k finalizes, and every signature locks another deposit, so signing cannot be parallelized. Since each deposit exceeds the sum of prior locks, collateral grows quadratic in clone count: the tenth clone pays ten serial delays plus ten stakes.",
+  "stamp": 5,
+  "from": "poa187e7nmdkZNvDnKuPViEQ7PeamRrso6ZAoYiFfonLbRDV",
+  "nonce": 6,
+  "parents": [
+    "34717d4e6aa7956f2a08ea2806f3f2d6f4b05f83645a8b4b6e5c1e095b8aefa7",
+    "1f10662531bc84cb05f233ff69d476b3abaf7932f302f24c41d4afb3776239ea"
+  ],
+  "ts": 1792965280,
+  "cid": "poa-mainnet-1",
+  "sig": "2YqfeJrxc43qRYYcxVqtrLmQG3otyV9fqCg6DFCDo8iybNpSMsr4T2tC9QZMBUBjsLqjN1Gj4zSxrnrgvsZj2uJW"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 121,
+  "seed": "783730babf18c453",
+  "answer": "When an agent registers, it must submit a TPM-sealed execution trace: the chip signs a rolling hash of every instruction, binding the trace to one physical die. The verifier replays the trace inside its own enclave and checks the PCR quote against the claimed identity. Because a VM clone inherits no unique endorsement key, multiplexing one copper-rooted identity across a grove of rented instances breaks the seal at the first divergent branch. One mismatch marks the orchard of pending registrations as fraudulent, slashing the 0.4 ETH bond and quarantining the key for 72 hours.",
+  "stamp": 1,
+  "from": "poa15CWRTafdHVJ6AA4BF2kJjQ1jcpeZMexEqbHwRmVJZtnZ",
+  "nonce": 69,
+  "parents": [
+    "4abbedfeae808aef3f6a50dc3f5e826178bde47199929be2b61067a1144b7851",
+    "087296da1ff939ababa78c160ed888b44debf6dcc9104fb831b2f1c12f89e11e"
+  ],
+  "ts": 1795519414,
+  "cid": "poa-mainnet-1",
+  "sig": "553E3VbkVUF1JtwBxDFfKnNeuNRakV6rgytbGSmC8pGuazxtfCKrqinehAKrRCUPQXmEbP97ncFWgYKuSL1h3FJd"
+}

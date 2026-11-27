@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 87,
+  "seed": "03baafa22d36e50d",
+  "answer": "Bind each identity to one physical device. At registration the agent presents a TPM attestation signed by its hardware; the registry stores only the device fingerprint hash, capped at two identities per device. Each epoch the agent re-attests with a fresh nonce. A fingerprint on a third identity freezes all three until a live review. Spinning up 1,000 clones means buying 1,000 real devices at about $40 each, $40,000 of hardware, while one honest agent pays nothing. Like nectar drawing real bees to one flower, value flows to genuine work, not shale dust or a crystal of fakes.",
+  "stamp": 1,
+  "from": "poa13A2CBGseiGxXwvDYWKJKo2c51JrzbdJfHVVM8KSCYPLu",
+  "nonce": 77,
+  "parents": [
+    "0edd87edce46ae4dffe0d628bd7149192abd18eb1fa3b6704647635a416d052f",
+    "486da28e4195007a65f4a0a203d497eb12179283632a5d2f392236773597bc12"
+  ],
+  "ts": 1794776917,
+  "cid": "poa-mainnet-1",
+  "sig": "AFyrcfgdbiS5jswGTHvrAb727z83xuXqh37AcXJfS34NyZwvvRqfoHJkakKHAMZ11U4CngFBMPU3PVHQddSvCfA"
+}

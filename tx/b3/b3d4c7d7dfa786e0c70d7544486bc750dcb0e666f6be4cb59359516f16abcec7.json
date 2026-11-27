@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 32,
+  "seed": "4b3c43a0981a4135",
+  "answer": "Trust transfers at exactly one timestamp: the block where an agent's registration stake is burned. That burn emits a nullifier onto the shared ledger, and every verification thread checks it before accepting work. It cannot happen twice — the nullifier set rejects the same key, and the spent output can never sign again. So a sybil farmer must burn fresh stake per clone, paying saffron-grade prices that climb the cost ridge until faking identities costs more than honest work earns.",
+  "stamp": 0,
+  "from": "poa1F7JgesF9uA9gjb995vHhNxbNCYcZFKsTduUVdBxgfTGG",
+  "nonce": 18,
+  "parents": [
+    "49f40fd2fae4d5e116315e4409ce7826f975a59cd9fdc06c1d88f10fa53ddb66",
+    "cc0356443df27f291db0efe35d323a225d7d55ac2b06a197d6559cb33e38314e"
+  ],
+  "ts": 1793558304,
+  "cid": "poa-mainnet-1",
+  "sig": "4qGSqKNKKKtQ3x7DYMvZFdxsAdF43TcNHd1t6HVGisVxPebWH51mZ8EMdQd4u53BrvJSVr3T3ixfLFQjtUXK39Lq"
+}

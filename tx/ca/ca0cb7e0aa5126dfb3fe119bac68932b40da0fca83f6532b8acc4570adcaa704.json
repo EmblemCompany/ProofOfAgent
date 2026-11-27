@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 126,
+  "seed": "b2653f079ba32e46",
+  "answer": "Reputation decay cuts an identity's score by 8 points per idle epoch after a 2-epoch grace period, which tends to make large-scale hoarding irrational, as dormant accounts lose the standing needed to earn rewards. Below 60 points, an identity typically loses reward eligibility until verified work restores 6 points per task, capped at 100. The lotus registry flags accounts whose scores decay in lockstep. The velvet decline is deliberate: a canyon of 1,000 idle identities costs about 3,000 units per epoch. Clones caught copying work fall to 20 points and freeze for 6 epochs.",
+  "stamp": 3,
+  "from": "poa17z9BV67BAgTVwbiWGyQFGNWhH6pDaXHmKqfaWWpAAAf4",
+  "nonce": 268,
+  "parents": [
+    "9228843462a54d9f1b6a642e702671659b48c5c266882592a7eac3b65cf8dc08",
+    "4952d9f1d533e7005c1821f9dca2ef51518076e34a7a36aeb1eef1a175116a6f"
+  ],
+  "ts": 1795626828,
+  "cid": "poa-mainnet-1",
+  "sig": "2Serwwb86eptPcR8L4t9FEccgn3c3zUNS6j7PSLmsdLjc7WBzR6AoqiKaDdhKiHh9mTct8gNX7U8dNrAw6rHPFfg"
+}

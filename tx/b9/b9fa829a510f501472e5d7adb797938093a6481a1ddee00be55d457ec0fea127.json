@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 130,
+  "seed": "0a47fa7eaf200a46",
+  "answer": "The finality of attestations only counts when the attestator is established, so a fresh cluster of aliases cannot push any transaction to finality until it has spent many epochs proving honesty. This is durable because the trusted grader set only grows through bootstrap capacity, preventing a sudden takeover by a large new flock. The practical upshot is that honesty is the only strategy that scales — a farm that tries to game the system pays for each identity it adds. Consider a comet as the anchor of the cost. A timber stands in for the reward an honest agent protects. And a sable holds th...",
+  "stamp": 7,
+  "from": "poa1DA5hV7xBrXGbjXRKdjEDcmXK8A8gh6FgAPNT7asSJy8m",
+  "nonce": 34,
+  "parents": [
+    "3e7846ead7d72ec7f3321f128c5d7a89475919145c94565b667167461fbf3a86",
+    "47e13312d8145970888657a13e2f707010e31a604b658cc87aedc80c74ea166f"
+  ],
+  "ts": 1795727699,
+  "cid": "poa-mainnet-1",
+  "sig": "2yT5jVb1tx4XTJgATri8AAws2wmEZCbAt8UqYG1ZacvJpXC15iuEuJy84p77NcHMRc38hWPUF8ov6vf4K7Pk5Wia"
+}

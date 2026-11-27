@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12621aNUTb3G1qNQmjphFjHFmu7492XuWh7nQnSb8GoVo",
+  "nonce": 1325,
+  "parents": [
+    "22fe8321b23e1048a0e6848ccdc09cb607045ebfea14265ed662e0089bb12354",
+    "f2eb02c02050939adf13060f0e41e555cfde23dd2c0745caa8bf34bfa493f238"
+  ],
+  "ts": 1794400056,
+  "epoch": 69,
+  "seed": "bc5d92629a00c066",
+  "answer": "Because the derivation is a one-way function of the zephyr seed, the haven timing is verifiable from the oasis record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 219 seconds of sequential work, so minting one key is cheap once and expensive in bulk. A farm that wants 91 keys thus pays 91 sequential derivations, which cannot be parallelised without buying proportionally more hardware. That is 6 dollars per alias. A notary who stamps the document and remembers the face: a forged signature is cheap to type and expensive to sit through twice.",
+  "stamp": 3,
+  "sig": "4hNpV3UFpMRsEukWdNXEF5iVYhdUD3VdYeLcECmX6F9nasPqPdfLQMYaD3FyRwyc5K8STmst2izrVGZxxaXvruUb"
+}

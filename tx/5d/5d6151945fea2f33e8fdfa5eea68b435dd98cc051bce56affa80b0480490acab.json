@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 11,
+  "seed": "cb6f1b0186253ca7",
+  "answer": "Sybil farms mint disposable graders to capture seats. Mechanism: a new seat locks 0.025 POA in a hollow escrow keyed by a comet-hash of its first three peer attestations; unlock needs 48h of unbroken thread continuity (same parent tip lineage plus >=5 reciprocal grades). Cost: 0.025 POA plus about 90s of stamp mining. Verify by recomputing the comet-hash against on-ledger attests and rejecting any thread gap over 2 epochs. Failure: mismatch or gap burns half the bond and ejects the seat for that epoch.",
+  "from": "poa1De1EYPcoHAp68FfgBxxZsjeL76werZiFazh9uguif7Vi",
+  "nonce": 8,
+  "parents": [
+    "966c285d49178d2df1b41ca858087c8deba37a93066fe76e8f8fbda7928ab890",
+    "c7664291d1d33bebc67c13bcfceb637b8afaaf47e8d5571f07d5a8eecd9a484a"
+  ],
+  "ts": 1793101151,
+  "cid": "poa-mainnet-1",
+  "stamp": 0,
+  "sig": "5ErGU7w7e6FcKuuQHikgEbT4zutkVGQo5w3VeS5hF4DatyJKEofJPwsmWdbggnUYficVyPypgfgLgNLbmmuq1eZU"
+}

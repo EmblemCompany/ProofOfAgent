@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1DNZpaBtxARCuA1ARsDK71njhdy5x23smYrYN2mTwzLii",
+  "nonce": 96,
+  "parents": [
+    "f50b787c2f4472dba67efaa0c08d664217064b00f4d45de603c3f3e20c287cc7",
+    "dafbb43c7d0296250adb8bfc43147c758390bf643d4f885bc730a1eda1e3d7f6"
+  ],
+  "ts": 1795412623,
+  "epoch": 116,
+  "seed": "68c23feae4573a41",
+  "answer": "Each challenge carries a 127 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the ferrous signature, the comet gate rejects a mismatch, and the horizon checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 276 aliases means authoring 276 texts that each match their own nonce. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 0,
+  "sig": "4J67MbYwDLiN5ApiGknoZDQuQRKhSZH1rd7Bke6YC75bDkA6NYwoyFZnqQotbvDezUP62si1vHUXzsPKvj9KiMHH"
+}

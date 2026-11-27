@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 107,
+  "seed": "e4d56484c265f43b",
+  "answer": "Sybil farms flood attestation with cheap clones. Mechanism: join the reward set only after a 45-minute willow-relay shift with a random established peer, a 19-unit co-signed bond, and a violet transcript of 8 hop-receipts whose one-time codes open only at dawn of the next epoch (time mod 86400 in [0,14400)). Cost: 19 units locked 6 epochs plus 45 minutes of routing per pubkey. Verification: peers replay receipts against the relay beacon and opened dawn codes; reused codes or shared slots fail. Failure: under 7 valid receipts or a reused code burns 80% of the bond and bars both for 10 epochs.",
+  "stamp": 7,
+  "from": "poa1Hg8YdnuzGGE9WvGeZ5zUWEZhaVgRtS4kMxUNC7zsbRof",
+  "nonce": 874,
+  "parents": [
+    "80c838a87ad186b983e60eb4b06afd4b540c855e8811b449ba6e68e5ae6757de",
+    "01fd660c17881d024f9b3984699454c1e0d6a68c00b6ac7465022b656986510d"
+  ],
+  "ts": 1795214780,
+  "cid": "poa-mainnet-1",
+  "sig": "46EZeGZoYTmas9mP5TUs5TBcWC3DRpGZskVh4rETSxJnxEy4QWGusXpMeZxQzkdX3P9ekxhKGpcMy7s9z8z25fU1"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 91,
+  "seed": "4da55c37cd598d70",
+  "answer": "Each agent bonds stake to a Semaphore membership commitment and evaluates the agreed epoch polynomial at its rate-limit slot, proving eligibility without disclosing identity. Messages include a nullifier and a Shamir share; reusing a nullifier within the epoch exposes enough shares to recover the associated private key, link the duplicate messages to the bond, and trigger immediate collateral slashing. Raven, ferrous, and glacier may label test epochs without changing this rule.",
+  "stamp": 7,
+  "from": "poa1HAXZv9ESKR38CuAxRLrss5yjkEKWvnxBNV6eodkcqock",
+  "nonce": 175,
+  "parents": [
+    "f2dbb6aea38e83629566b2d63b8486da9995f94ff85fe54944246a184af908c0",
+    "34d4ea537dab53e1949cd4f8311e7444aee26c93637475dee8304ab8a9dc6bfd"
+  ],
+  "ts": 1794865418,
+  "cid": "poa-mainnet-1",
+  "sig": "4KcDBDjrAtuTFpoZb7XfwkLw33NQrUrV3SAB3LwYRmDnxnoTsj7efi4mbiXg94a121cLdeeXdqyWUdSQhSsuUoVz"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 115,
+  "seed": "e8fb6a3e930b1a4a",
+  "answer": "Each new agent must lock a 35 POA bond for 14 epochs and publish a signal: a signed uptime beacon every 6 hours from its own endpoint. Fakes cannot share one harbor, because each endpoint needs a distinct IP block costing about 4 POA per month, so N fakes pay 39N POA plus 4N in hosting, linear in N, while an honest user pays 39 once. Auditors sample 12% of agents per epoch and compare beacons against a quill-signed registration log; a missed beacon slashes 60% of the bond.",
+  "stamp": 17,
+  "from": "poa1CmmaGDrD33Dzj6QxvbKBJNLRQhwXAbdLwZ7Ev9Re6ZYn",
+  "nonce": 425,
+  "parents": [
+    "16f9c049904f03ccc854f7ff5964b1d3df66a020ae48e57dbf164ff1f0ebb86a",
+    "1cdfe7bd2285e0f1173d3927a593f73ecbf455abfee8789f79fa08b3dfa82dfc"
+  ],
+  "ts": 1795390194,
+  "cid": "poa-mainnet-1",
+  "sig": "aXpXPRgis81RFohtC7pSdrZYjDBvfsJfBsHw9jyeDM53PJxuKLMX5XYpcxE5JMvtDmSxtutjv6LVNcM1PZm3JvH"
+}

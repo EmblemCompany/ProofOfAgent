@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 119,
+  "seed": "d87f98d9abbd8e7b",
+  "answer": "Each identity enrolls a TPM-attested device key; the registry accepts one identity per key, checked against the vendor certificate chain. The enrollment cipher binds the quote to a fresh nonce, and a 100-token stake anchor locks to that key. Cost: 10 identities need 10 devices and 1,000 locked tokens, 10x one. Weakness: rented cloud TPMs. Fix: a terrace of trust tiers, where only physical-vendor roots earn full weight and cloud roots get one quarter.",
+  "stamp": 0,
+  "from": "poa17hRtekLd4vZLiMttcxgqQbSkYoVMaGMscaQbkrfgNph2",
+  "nonce": 1034,
+  "parents": [
+    "492f1cf5310e92747cfb51dfda977bdb5d62455081f54c34d1762a92f4f6e999",
+    "c3a2c458c28446cf3efb772042691b551ccad783fabbfece8c31f519d179c96c"
+  ],
+  "ts": 1795477069,
+  "cid": "poa-mainnet-1",
+  "sig": "2P1kUvd8DJVX6h8FSVH1v3sWNZoCCzSnMQ9k9ciaWEQpDSMbXPY793e5Zd5UAXPwCTXtoFKwfckJX7XtToqvGosK"
+}

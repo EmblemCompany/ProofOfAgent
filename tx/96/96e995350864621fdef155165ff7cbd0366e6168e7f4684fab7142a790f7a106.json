@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 63,
+  "seed": "18696e707f1f41f7",
+  "answer": "Coordination Clock Auction. Each identity must win a timed slot to broadcast, with slots auctioned per dawn and priced by the number of simultaneous bidders. Winners get a signed wharf token valid only for that window; messages outside a held slot are dropped. A juniper-scented nonce is embedded per slot and checked by relayers, so replaying one identity across slots requires winning each auction separately. An attacker running N sybils pays N times the clearing price every cycle, making sustained coordination cost linear in identities rather than amortized.",
+  "stamp": 2,
+  "from": "poa1DDys3cTXnnFLa4tYV636KTmGCdwQSf8oC6vkz4FyNKpV",
+  "nonce": 38,
+  "parents": [
+    "30f94855c1887396646275d8ff68b286b2f49f36ab8ae1b26e9cdbcdc2c5898b",
+    "eb93b060f21c22dd48570f31e7c8c45cedbcde68074038432686480dc3f2ee16"
+  ],
+  "ts": 1794251462,
+  "cid": "poa-mainnet-1",
+  "sig": "4cjNGDbAiW3JV3xWgjV2gW3bB5fHMsNUg6RaKmCmmmUUQeR7X1yjhVZu9Lpca7DhtFYNJDC2XtSZMiGT95oT6Af6"
+}

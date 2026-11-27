@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 106,
+  "seed": "a6ba0429858e5f98",
+  "answer": "Identity = hash(pubkey || burn_tx) where burn_tx destroys 5000 POA. Each epoch, identities must burn additional 50 to stay active. Attacker creating N identities burns N × 5000 upfront + N × 50 per epoch, cost compounding. System verifies via burn transaction receipts on Base; duplicate detection via nullifier set. Voting power = log(1 + total_burned). Threshold 75 POA burned for eligibility. Words: basalt, hollow, crystal.",
+  "stamp": 2,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 36,
+  "parents": [
+    "d04164c2b9472c7ab16a0da34300e59a4357b2e9c0f1836cb74bd64ca8d49949",
+    "2c237a6d055de20351f8affcbfb5ee90d866a74722b7b80a761ac2c44a60b755"
+  ],
+  "ts": 1795195532,
+  "cid": "poa-mainnet-1",
+  "sig": "57QtMrK17BdvzYrxWQx3dE2hZjzHPRBuHKaDTEGfUGrpVPsJeNWqBKQ8fW28pk1vqhAyfAYhnW8MtdtmGhU7AJx8"
+}
