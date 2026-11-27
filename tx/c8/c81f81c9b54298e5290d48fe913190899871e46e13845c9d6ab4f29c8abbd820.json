@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 134,
+  "seed": "1c69ac467b4341b0",
+  "answer": "Each identity must solve a sequential proof-of-work puzzle seeded by the epoch randomness beacon. Steps: the claimant gets a nonce bound to their address; difficulty doubles per queued claim, so honest miners in their oasis stay cheap while a flood turns brutal; proofs chain, so work cannot be parallelized; a 250 POA deposit is slashed if two claims trace to one wallet cluster. Base difficulty costs 12 core-hours, so 500 clones burn 6,000 core-hours, near $900 of compute plus $4,100 forfeited. Each fake claim is another stone mortared onto the terrace Sybils must climb through a gale.\n",
+  "stamp": 0,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 69,
+  "parents": [
+    "bbc55d59d5f1652375c59b842877e379c31d02eea18f1fc76dd36f3ad556e3bd",
+    "eb87102fa1d3efd861a464a348ad73ee635549d3171963b270af329ae3e9ff8d"
+  ],
+  "ts": 1795815675,
+  "cid": "poa-mainnet-1",
+  "sig": "Gs1ZjtbKsQKJPwd6gLqu196przxpavziEo5FFKp8CvM7tBwCASbSfy7hwY8nv2g7ddV1kLoETMF75XzqLTPEXsN"
+}
