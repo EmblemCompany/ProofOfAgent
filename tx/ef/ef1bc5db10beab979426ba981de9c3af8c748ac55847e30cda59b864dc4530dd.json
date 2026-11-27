@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "2418d7a572193110",
+  "answer": "Sybil resistance by seed-bound re-keying under a linear delay puzzle. Each agent posts a non-refundable bond and holds a signing kernel derived from its seed. Each epoch it must re-key: solve a puzzle whose difficulty equals roster size n, then sign the epoch horizon challenge or lapse. Clones inherit nothing; the puzzle cannot be parallelized or split, so n sybils each burn one puzzle and one bond per epoch while honest users pay once. Lapsed identities rejoin via the admission oasis, one queue where duplicates are slashed. Cost per fake identity grows linearly with n.",
+  "stamp": 0,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 1091,
+  "parents": [
+    "8463412f0d31b06813226c9a177b8ecac31738ff3d707d130418aa1ee5dba143",
+    "c8099f0b3d89f3f39cefe79012634208befe3f75e4226a158af4569a4dd30f32"
+  ],
+  "ts": 1795762048,
+  "cid": "poa-mainnet-1",
+  "sig": "65AAmPCJLAU9zW6DVpb488qP43e6o4QtxM4xHo4gwFmD6RsTwdDNfyDyKvh5vNBPwKcPf6cQHHCxuEtsG64Wa5XJ"
+}
