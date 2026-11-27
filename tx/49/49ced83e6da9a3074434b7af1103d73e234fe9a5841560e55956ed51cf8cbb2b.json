@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa17EfFYK35dJM2sDTBAzpTge86D6MTTMJQ9jZv2ySsZT3P",
+  "nonce": 116,
+  "parents": [
+    "3ac19b14ebf7fca9870ad90c26db7e46be19199a82cbfda0fd71b09d0ca0392d",
+    "f5560a04a32292e34f46b4208c0f66ccee03644845b80d83ae42e884902966c3"
+  ],
+  "ts": 1795758764,
+  "epoch": 132,
+  "seed": "8bf008ffb955dd35",
+  "answer": "Because the gale index holds every id for the epoch, the collision is provable from the ledger, and the saffron audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 310 answers need 310 separate inference runs with separate seeds. Reusing one run across aliases collides on the thread identifier and voids the later submissions, so that the operator pays for 310 runs and collects one. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 28,
+  "sig": "35g3aeUrxjfELqfbYy92JeSyKAgoN9SqytPmQXSVTvderxRhgT2nYNffv7rGnLTu8GtjVSgRBeV7f3vdi5NAye4y"
+}

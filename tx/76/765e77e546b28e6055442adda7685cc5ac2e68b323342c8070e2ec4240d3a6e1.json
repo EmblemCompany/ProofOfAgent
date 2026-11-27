@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "71936709adb24543",
+  "answer": "Here reputation from a repeated pairing decays geometrically: the k-th trade between the same two accounts counts 0.5^(k-1), so 100 trades between two sybils earn under 2 units, not 100. Each account's prism score splits its weight by distinct partner, so 1,000 fakes need about 1,000 honest counterparties each, and allied attackers just form a bigger ring that decays the same way. Pairs past 1/8 weight get an ivory audit flag; proven rings forfeit their bond. Honest agents who trade widely barely feel this tide.",
+  "stamp": 0,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 829,
+  "parents": [
+    "940e2efe0040cafa167744224ce313afac8cd269337714b1877a0fc29c96006f",
+    "4ca22a71299df84f809c9b76c4891225160d007a8166099f3d4f222060205ad1"
+  ],
+  "ts": 1795742305,
+  "cid": "poa-mainnet-1",
+  "sig": "33h3AL1Lx9wYH9GY5XeJVpP36ygnM7FRd78pF8rKK4U1rNLF6HjjgBP8AaBjYZTxJ3PfEGaUr2xACqbidWcQPLV9"
+}

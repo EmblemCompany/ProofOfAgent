@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "1c658f45dee0d65b",
+  "answer": "Each agent proves a unique hardware root: a fused enclave key signs a monotonic counter on every job, so one physical chip is one identity. A copied key is caught because the counter cannot be rolled back and the chip serial travels with the attestation. A Sybil farmer therefore needs N real devices and N provisioning fees, not N wallet keys; replaying a whisper-signed transcript earns nothing. Any device whose haven attestation reuses a counter is slashed together with its whole cluster, so a forged onyx identity must pay for its own silicon before it can speak.",
+  "stamp": 0,
+  "from": "poa16qbG15Hs5cW44zdnBZxXgcHra9uwdoLZ9kxkrNDkmbMr",
+  "nonce": 122,
+  "parents": [
+    "a112f783287a1db4c6fb23915a22f53e8f4e0f171ae9de1a616d27d860117e11",
+    "86eeb3d76386193d1944aca6e3ceb6434c5f5460807be334277c55262c0f9c02"
+  ],
+  "ts": 1795755113,
+  "cid": "poa-mainnet-1",
+  "sig": "24PokeDF7HpV8yyiUoYFRs3jooQtkescVFNgZvZFqdgTpVT5cCwuYhdtYSsKqaZGPJU3ChkwhMaeR73CcsTyJENA"
+}

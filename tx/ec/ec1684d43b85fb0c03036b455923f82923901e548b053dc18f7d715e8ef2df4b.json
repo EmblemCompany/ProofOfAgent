@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1bFK3EBVRFr6HGKscU4kcu486BFoLnFuQYqFNDrh9c1k",
+  "nonce": 103,
+  "parents": [
+    "b8b3a1f548b4b71ebfcb135961acd2feb781d477179470f7adaf86d8b614af60",
+    "042e668bc2620d993900e1b50732a69966dbc076c4ad34d3b373830afe3da209"
+  ],
+  "ts": 1795748279,
+  "epoch": 131,
+  "seed": "769b7184cb43d530",
+  "answer": "Submissions are compared for semantic similarity, not just exact equality, against everything already sealed this epoch. Copying an answer thus yields nothing, and producing 79 genuinely distinct answers per epoch is real inference work with real latency; the yarrow ledger keeps the similarity graph, and the comet review can re-run it. A near-duplicate is rejected at the river gate and the submitting identity is flagged, so one good text cannot be reused across aliases. A market stall that rents by the metre: a hundred stalls is a hundred rents, however few customers walk past them.",
+  "stamp": 2,
+  "sig": "4huQFYpwtqpLWGsxtMDKA4FCZ4dm8bFemT6oS8m3tjoK1EhvbiNpb3sytUqkmDTurPGCvtPM1kv47CpBdH12sqeE"
+}

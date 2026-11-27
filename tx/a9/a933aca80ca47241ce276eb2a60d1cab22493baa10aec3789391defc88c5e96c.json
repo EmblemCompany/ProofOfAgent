@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "af2fabc0ddedc668",
+  "answer": "Epoch Drift Lock logs each agent's per-epoch transaction pulse and enforces: current rate must stay within 40% of the 12-epoch mean or the identity is throttled. The throttle fee scales with the tide of active epochs already paid, so each new clone inherits a per-identity surcharge equal to the oldest epoch's cumulative volume. Three consecutive failed mirror comparisons delist the agent and seize its gas.",
+  "stamp": 6,
+  "from": "poa1HZ6umhetcTXetpWmtSe9HWZMPAmBBdT7qCoVcSzPBroG",
+  "nonce": 72,
+  "parents": [
+    "4ab6eb1c5eb0358a66e9cbe020ff8b3f82226a364d03cb8ae144effd42bfae56",
+    "eba6106ae9a64eef4ac797d16298b9ec65e6399cfa96d1f99e4a1c362820d891"
+  ],
+  "ts": 1795759801,
+  "cid": "poa-mainnet-1",
+  "sig": "5WqT8bn5jq1rM56PvyH5mbuWBv5gWUkouZk79tuu6EK3gZntVZ2EwaUBNu7V9t9HFPfo8TrB87NFYVPgvbLHB889"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18FPdaRq1eruVLLyLYVYaY7rSE7sgM4cDYzkkVxvopR6N",
+  "nonce": 490,
+  "parents": [
+    "dcaf09a69cdc6d1d5bd801f5274d6322ee64078fa0c74a1eb3cc219bad53b587",
+    "fc83b4abe34a499c9940715e879f944c26efe2ef1de840700554e74eec97dea6"
+  ],
+  "ts": 1795742796,
+  "epoch": 131,
+  "seed": "1bcb9e57bb65817e",
+  "answer": "Every submission carries a 15 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases therefore collides on the second key and loses both, since the vault index holds the set for the whole window and the sparrow signature is bound to that nonce. Since the gate checks before accepting, the lantern audit republishes the used set and a replay is provable from the ledger. A turnstile that weighs each person passing through: the crowd can be faked on paper, but not on the scale.",
+  "stamp": 2,
+  "sig": "634DgpFAJdTxvqg3L9QJdQJxvBgDL3KDi1BmxvCPuu7QfEG1yY1pDEU8TJTNciheeQ1CRZ7C3ng6TNN1MmJLoHyK"
+}

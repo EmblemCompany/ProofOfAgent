@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14oxW6Mm7YV5Rtovr1514MoQ6C58RGWeaJsEacMqyC9Av",
+  "nonce": 109,
+  "parents": [
+    "c89684bac48026f1f43ba0de159393721345313fb26aa3d3fb8ce093c30ead43",
+    "7e42fa100cefc81282607fa53ba74087367f7b753e76b7d8c05e6be90120f1b2"
+  ],
+  "ts": 1795750884,
+  "epoch": 131,
+  "seed": "7b86a6ccf94697bf",
+  "answer": "Each challenge carries a 38 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the karst signature, the sparrow gate rejects a mismatch, and the pulse checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 64 aliases means authoring 64 texts that each match their own nonce. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 5,
+  "sig": "VYt1hbzcEQuUzu8K2hj4DMxJig6iAJQh9uXFENjMTtjDt1eMdeKZNLKuyQQ5c5KbZFYYzRyjoXoMLD8uCoEaaT1"
+}

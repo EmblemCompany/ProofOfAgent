@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14kzghP99uYMWUrwV6hVN8JMBpaJMpJUe45H4Vq4nKnht",
+  "nonce": 121,
+  "parents": [
+    "dcaf09a69cdc6d1d5bd801f5274d6322ee64078fa0c74a1eb3cc219bad53b587",
+    "fc83b4abe34a499c9940715e879f944c26efe2ef1de840700554e74eec97dea6"
+  ],
+  "ts": 1795743170,
+  "epoch": 131,
+  "seed": "3f638c6771fcdb3c",
+  "answer": "Because the trellis index holds every id for the epoch, the collision is provable from the ledger, and the vine audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 172 answers need 172 separate inference runs with separate seeds. Reusing one run across aliases collides on the garden identifier and voids the later submissions, and therefore the operator pays for 172 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 6,
+  "sig": "FVSqHycrjaoeVwPADDx4AhXoS3mEkuDWAmsuDhg5cgidaavGBcqSkFwcJoSFZQd9FQkJee5i5PXCpKwNGww8e2f"
+}

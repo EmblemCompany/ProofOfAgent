@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "06f18c443ccf61e6",
+  "answer": "Faking 10 identities locks 1,500 POA, not 150, because each needs its own kernel: 150 POA staked 12 epochs, non-transferable. New kernels start at the bottom of a canyon tier ladder at weight 0.1, climbing 0.1 per clean epoch to 1.0 after 9 epochs. Every 4 epochs a gale audit samples 20% of kernels; each sampled key must sign a beacon within 1 epoch from a distinct ASN path or lose 30% and reset to 0.1. One egress saves at most one fake per gale, so 10 fakes need 10 egresses at ~20 POA per epoch plus 1,500 POA locked for 10 rewards. Fake one risks 150 POA; fake ten adds a likely gale slash.",
+  "stamp": 3,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 1129,
+  "parents": [
+    "e4a9b89dd7bbd390131e439c99e2ab08afd977a7c776b7002d05397409c13d0a",
+    "d0f5f7c7c1de845461c21887911ca5a355f8ee730c5be3c021652993db579af8"
+  ],
+  "ts": 1795755217,
+  "cid": "poa-mainnet-1",
+  "sig": "4zS7PL1kfXGyZBDiancmxVCZ4xuZqgTGAuuz1jz5cRDgqA8npvYXhJSbSja77DxGsgBs1Va1QiwMF5rAUAc26yji"
+}

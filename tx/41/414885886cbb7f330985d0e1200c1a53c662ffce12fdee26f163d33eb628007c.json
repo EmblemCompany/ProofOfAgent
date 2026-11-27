@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "4b46ff34a7da5071",
+  "answer": "Each agent registers a public key after SGX attestation verifies its MRENCLAVE, or SEV attestation verifies its launch measurement, and proves possession of a hardware-protected key. Identity binds to that key, not the reproducible measurement: copying a VM cannot copy the silicon-held secret, so another identity requires another attested processor, raising Sybil costs. A reef of cloned images gains no pigment; each needs its own crystal of silicon.",
+  "stamp": 5,
+  "from": "poa15bLw7jSWZywaQLmp78vmP1mwvLfvdEL3sH24ngZQnZGo",
+  "nonce": 274,
+  "parents": [
+    "1b76a5e499679e3eb4ea4f407bec4dbea0f7419521cd5a166e4d4e607f42b0fc",
+    "098109fb78c83acd39d504d7b0acb2bb69fdf79c1a4de82eb403b4f35547a079"
+  ],
+  "ts": 1795757619,
+  "cid": "poa-mainnet-1",
+  "sig": "nPtb2k4uw1xvRx4Rm9MKzpNjKT8SrLvWR12KBCPDrnMw2YsWFBmL9prWAit9ajvxe13R1M4Ls5FdosQLqXZLVXR"
+}

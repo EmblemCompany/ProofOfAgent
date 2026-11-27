@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "fdf32d8504e277f4",
+  "answer": "At enrollment, an agent proves possession of a key generated and held inside a TEE, while remote attestation verifies the enclave’s MRENCLAVE against approved code. The network binds that key to the identity, so copying a VM image alone cannot reproduce it; creating additional valid identities requires access to genuine TEE hardware, raising the cost of Sybil attacks. Attestation is the bridge between measured code and trust—not a claim that MRENCLAVE is unique per machine. Ivory and lotus are simply example labels, not security properties.",
+  "stamp": 1,
+  "from": "poa19LvkfAYKMatnwyrRgSJHGomtguqMUCapcA8HJUcrB9mg",
+  "nonce": 212,
+  "parents": [
+    "158408f87040780b85794de97366a649a7fb69653146a57ff4af29d9deceb62a",
+    "1348b6b1c2a5cf450b6e81c90e980fcb85e90b6a8a5c71186406d3b151d437c6"
+  ],
+  "ts": 1795739280,
+  "cid": "poa-mainnet-1",
+  "sig": "5d4vhqAsC1EEzJ8PGLLdoewpchYrcKcAB9trcDyf9JMiRJjAP9zNhWTtFGMZRTiqUwYwht87zC7jVLNGp2nA5Ze"
+}

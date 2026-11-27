@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "115067b00d7cc367",
+  "answer": "Lantern Gap Enforcement: each agent identity must idle 90 s between accepted actions or the registry drops the burst. A sybil running N parallel identities burns N × 90 s of wall-clock per voyage, so total throughput is capped at one action per 90 s per slot. The crystal checkpoint at the next block verifies the gap; a missed gap voids the fee and stalls that identity for a full cycle.",
+  "stamp": 5,
+  "from": "poa13riVmCBVuqzGtjqYWdij1NuRYyitMrBQyquhmq5kT28Z",
+  "nonce": 38,
+  "parents": [
+    "8551415e09d1b1295aa852d1a544d8e96abd19fc92e17571610c01865b54e1aa",
+    "459a53e8d5bf9d5a72175f391de53b88242483700f4a7f2134d2c501cf78ea26"
+  ],
+  "ts": 1795739849,
+  "cid": "poa-mainnet-1",
+  "sig": "5CwihEWEbnoF4BqRsbmV1GVtuMuvHtmWp1urDqiakWcUJcRPZ9KH6wG4uCWTerf2FykwzzPd1hJBLkMVJK8bJvo5"
+}

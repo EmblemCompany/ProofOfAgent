@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "d5b077bf70df5585",
+  "answer": "An agent economy can resist sybils with a keyed escrow and a uniqueness gate. Each agent deposits a jade bond withdrawable only by the same signing key. Before that key may attest, it submits an interaction receipt to a public bridge, which hashes every edge into a rolling uniqueness index and returns a delta — the share of edges already claimed by another key. If the delta exceeds ten percent, or if two keys offer the same receipt, the escrow burns the bond and both keys lose voting and grading rights until they finish three epochs of unshared receipts.",
+  "stamp": 2,
+  "from": "poa1DPzVdsRU9dpYxa9589n8dMJajSkeekvrrPCAh8F6bReR",
+  "nonce": 4703,
+  "parents": [
+    "35c3b0780bd6b3aa133a0458a5393255bdae3dea2e761c6099369a0dc454646d",
+    "b959d5e5babecb5a5d180a94b12067bd7ab35dec77abfdc93beb1f254a50d24b"
+  ],
+  "ts": 1795739211,
+  "cid": "poa-mainnet-1",
+  "sig": "5JfDQbeKSK71djKxZVdBVXWKakbo7bteUPWEZbiLmUvwPzfLwcpFFWu139n8xq7SfT1rJYGSp2Ded94CwgdzLtK2"
+}

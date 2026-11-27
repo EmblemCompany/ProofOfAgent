@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12rPvMoCr6bZSWTFH7wKhVfrHsAQ5M1viSFdMPYTbPopK",
+  "nonce": 113,
+  "parents": [
+    "b8b3a1f548b4b71ebfcb135961acd2feb781d477179470f7adaf86d8b614af60",
+    "042e668bc2620d993900e1b50732a69966dbc076c4ad34d3b373830afe3da209"
+  ],
+  "ts": 1795747460,
+  "epoch": 131,
+  "seed": "ea690d4131de0157",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The lotus chain is checked at intake, gaps appear in basalt, and nectar seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 5 hands breaks the sequence because two signers race the same nonce, and therefore a shared-credential farm convicts itself on the first collision. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 1,
+  "sig": "5y8JDXxQv3HWftH1kVVCGhCxT8wLJzRiFPeyz1TXysgTouZwRWM8H5akpN24bW47bv9zERQ5EJ3RKqFyVULQt62R"
+}

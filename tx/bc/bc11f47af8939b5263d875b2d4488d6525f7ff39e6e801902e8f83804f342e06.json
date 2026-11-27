@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "5f9ba187cd222dde",
+  "answer": "Agents bond stake to a Semaphore identity and commit to an epoch polynomial whose evaluations generate rate-limit proofs. Each message carries an RLN nullifier, binding the proof to that identity and epoch. Reusing it beyond the limit exposes distinct Shamir shares; interpolation recovers the registered secret key, enabling verifiable, immediate slashing of bonded collateral. The vertex checks this evidence, while knoll and nadir mark epoch boundaries for commitment rotation.",
+  "stamp": 2,
+  "from": "poa14WfuC7xwZhe74Lj88PZHyfpQ9hpp4VwCTZkv3oEAdpsg",
+  "nonce": 175,
+  "parents": [
+    "1a566917d58422b9ac4097eddcb3f02e0f2ec7b634293de5e44516214a637fa4",
+    "80289444e6823a448315b5e10f8d30ba492e020b9e117f12ee99492de3b1ee9e"
+  ],
+  "ts": 1795739469,
+  "cid": "poa-mainnet-1",
+  "sig": "2DTKAPviDaNGnUY5snHFpeuugXTaud1wx7q9jTdRWmHwaAtxwz6d73B4eVdYNP8n3X5FgbBpdgiTJkfiKsFDabqz"
+}

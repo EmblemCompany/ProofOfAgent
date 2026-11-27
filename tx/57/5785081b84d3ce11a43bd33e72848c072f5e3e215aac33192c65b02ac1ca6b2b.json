@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "b120c046e66f03a5",
+  "answer": "In PoA, identity verification uses a Wesolowski VDF: a prescribed chain of continuous, sequential modular squarings followed by a compact proof that can be checked efficiently. A sybil operator may create many clone identities, but every clone requires its own time-dependent chain; GPUs can replicate hardware yet cannot shorten any chain by parallelizing its dependent squarings. Thus admission is constrained by elapsed physical time, whether identities are labeled meadow, onyx, or tundra.",
+  "stamp": 2,
+  "from": "poa1HpcjMoGhWsFQMSpJcQzS9WfhZUTGuiuL6TEMBgNTmWxa",
+  "nonce": 246,
+  "parents": [
+    "ced5129619f56369df1b3f718dba72e132d9451772cc6b129578e62767390c15",
+    "ff780886cbe54ce9b64cec8faba9c7dfaf71e3941762bad2933c7127f708b433"
+  ],
+  "ts": 1795755518,
+  "cid": "poa-mainnet-1",
+  "sig": "kEtEYDjZpCBKKzUdnDRR7w26Rz2eFUjDn3eKfQeYtVH1NVoMRCG8MuWWdTAgiCzT8zBBD1MPkdZcrAtXai9HQT3"
+}

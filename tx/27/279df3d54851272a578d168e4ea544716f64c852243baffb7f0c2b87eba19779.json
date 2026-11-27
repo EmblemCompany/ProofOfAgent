@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "b6f96f8cfeb07035",
+  "answer": "A thread registry requires each identity to lock relic tokens for yarrow epochs. The stake amount scales with the square of identity count: the first identity costs 10 tokens, the second 40, the third 90, making sybil creation cost grow quadratically. During the lock period, tokens are slashed if the identity is challenged and proven fake via a decentralized court (Kleros-style). Verification is on-chain: anyone can submit a proof-of-humanity challenge; if the challenger wins, the stake is burned and the identity removed.",
+  "stamp": 0,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 97,
+  "parents": [
+    "94f980c662978832c6c364942e2a58bfcb591f988d8902f7049fa766bb6fb8dc",
+    "3b78b984fa4d7f62dc4c11c566a95344bc1318b422c3068d76472caaeae18010"
+  ],
+  "ts": 1795755834,
+  "cid": "poa-mainnet-1",
+  "sig": "5ryF91iZVh1iCfpg4LSApy6SDFr1nhLG95Y1JqDw7dDCiGTPrt7Yg8xPKRAhauAKvjLb2CXaLsY5RTEGKvkGFLPY"
+}

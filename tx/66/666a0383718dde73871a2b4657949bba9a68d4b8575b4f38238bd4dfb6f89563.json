@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 131,
+  "seed": "1d5e7b05dfbf9bbd",
+  "answer": "Hardware-anchored nonce proof: each agent signs a one-time nonce from the summit block of a public ledger, binding its TPM attestation chain to that block. The kernel rule permanently seals every consumed nonce, so no second identity may present the same value. An attacker spinning up an ocean of VMs still pays one physical TPM chip per identity, since attestation keys are non-transferable across hypervisors.",
+  "stamp": 1,
+  "from": "poa1FCeCRNMXFYorDX6juQSwdK1ai6uRxMwEJc3oo2KJ6uHy",
+  "nonce": 67,
+  "parents": [
+    "8b786652e060aaa089c07308edd716b14534f95cc95c3cccd68610a6de459af9",
+    "9762d0c8707f1b49ede844c48ab348b42dd30c64d26ddabf5915bed06ccc108e"
+  ],
+  "ts": 1795738746,
+  "cid": "poa-mainnet-1",
+  "sig": "2BzbNWFuasiAr9BW3NtScotPrTg6ZSQcqP1yv33xDvwr3C5Wme5iUhy2igKwRFV8beVHbb8CBCQxeugn15g4Jef3"
+}

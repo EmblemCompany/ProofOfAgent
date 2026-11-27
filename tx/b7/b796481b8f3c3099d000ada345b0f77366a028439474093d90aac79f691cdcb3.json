@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Aw5rF1jQXTn66ocgqoUGVaXRuGhsehSqM7MWkJuNhzZQ",
+  "nonce": 118,
+  "parents": [
+    "3ac19b14ebf7fca9870ad90c26db7e46be19199a82cbfda0fd71b09d0ca0392d",
+    "f5560a04a32292e34f46b4208c0f66ccee03644845b80d83ae42e884902966c3"
+  ],
+  "ts": 1795757512,
+  "epoch": 132,
+  "seed": "3efa1a1a5d59816d",
+  "answer": "A farm reusing one prepared transaction across aliases as a result collides on the second key and loses both, as the ember index holds the set for the whole window and the dune signature is bound to that nonce. Every submission carries a 54 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. Since the gate checks before accepting, the sparrow audit republishes the used set and a replay is provable from the ledger. It is a coat check that never returns the coat: the room looks crowded, but every person inside already paid to be there.",
+  "stamp": 4,
+  "sig": "36tEKpELa3gfSPxxtrRa1id3qLBMhLHnTonegaxVuFA9JHv3Gwb6UNXPHKL3SHAnRnAozwVVyXXirQdy8icpt78E"
+}

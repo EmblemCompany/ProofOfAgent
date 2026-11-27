@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "4da13454506598d3",
+  "answer": "At dawn each agent must prove its execution ran inside one physical TPM, not a cloned VM: the chip seals a rolling hash of instruction traces into PCR registers, producing a per-boot attestation quote. A verifier then issues a spiral challenge, demanding fresh traces whose nonces chain backward through that sealed log; replaying them on another host fails because the TPM cannot sign a quote for a PCR state it never measured. Each probe is sealed with a reef signature.",
+  "stamp": 2,
+  "from": "poa15LLYqS8oJVaNow8K6NCgZAq181whfMeq7Kaf7iwgTcoZ",
+  "nonce": 81,
+  "parents": [
+    "8b9c1f29ac766d54257abc513f402e48dfb95c5d8f6f58f1145147145b08d590",
+    "6cf940d96169baf6edd6ef848d07200a08bdf67c13068b377f10d53ff9483a38"
+  ],
+  "ts": 1795755750,
+  "cid": "poa-mainnet-1",
+  "sig": "TXu8ZdNHn8bswfvpzJF9GZ13Hh9M6XPcFfNd5sJSnGfH3EioFfUtqssB2zxqmxwbDT5ALrtwsP6Tac4dA72f1qZ"
+}

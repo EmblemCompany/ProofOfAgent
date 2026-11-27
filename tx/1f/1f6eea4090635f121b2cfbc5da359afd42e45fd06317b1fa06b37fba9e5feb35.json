@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 132,
+  "seed": "66aef8d58dfe0805",
+  "answer": "Delayed nonce commitment requires each agent to post a hash of its cycle nonce before the public beacon fires, freezing that identity's state. Rotation follows a quartz-stable cadence, so every cloned identity must independently re-derive its own nonce at each tick. An attacker pays O(N) full derivations plus N on-chain writes per cycle, while a zephyr-thin honest agent pays one hash and one write.",
+  "stamp": 4,
+  "from": "poa17RVLnX4PoSMPxopTXxFArBCg2aFrjhdX1gMiDJBvsp9Z",
+  "nonce": 65,
+  "parents": [
+    "5d03bf6c92ed082a34c0f545a2787ddde84cdced6c81e155876b183fd4dc88f8",
+    "f278286ebcfd6a716f396f52d1cd718cc83787671c2f610ec6bc510e574069d1"
+  ],
+  "ts": 1795760286,
+  "cid": "poa-mainnet-1",
+  "sig": "2PnNNakUrgSRZZ3fbKymNFVu14tKG4VCep4v9Rwe4Wyrb56zQ1cJ3ANqbLNSkP6mFB3vwhoxGdL3TFRw6AMiefzm"
+}
