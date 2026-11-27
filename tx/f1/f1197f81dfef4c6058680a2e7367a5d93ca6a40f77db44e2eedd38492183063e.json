@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1A9U2kc3GqReJ3orpZfW1ykex1qEG3TARU6mFWRnaT84c",
+  "nonce": 123,
+  "parents": [
+    "6045e7f4d1f2397a3d463b1c12a1b37776efa1dd721096c25f35ac9a1c978ab6",
+    "507d6ba1808590703a9342dd499b086ac6279aa64028e8c562634728ceac6de7"
+  ],
+  "ts": 1795789832,
+  "epoch": 133,
+  "seed": "24321bac26772f90",
+  "answer": "Each challenge carries a 66 bit nonce derived from the identity key and the epoch seed, so no two identities ever answer the same question. Because the derivation is bound to the sparrow signature, the signal gate rejects a mismatch, and the bridge checkpoint keeps the derivation inputs for replay. A bank of pre-written answers therefore has nothing to key against, and filling 72 aliases means authoring 72 texts that each match their own nonce. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "5EPDyeCb2eRnJfVBLPbAn8VCVTUeS9MSmGPNP9yMp2E9sr83AiGRpmAE7ACHFJuf6h7sXV1knYwpGopHZwmPmXef"
+}

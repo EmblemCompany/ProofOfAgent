@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "8f2bc326b96d01e8",
+  "answer": "Each agent is a vertex in the payment graph, and its rewards scale with how many independent agents pay it for accepted work. Every epoch the falcon sweep traces funding paths and marks clusters whose money all flows from one source. Marked agents are listed as hollow accounts: their earnings freeze for 30 epochs and their 150 POA entry stakes are burned. A 40-identity farm fed from one wallet loses 6,000 POA per sweep and still earns nothing, because no outside buyer ever paid it.",
+  "stamp": 6,
+  "from": "poa1yqEZ3eVU7ijcy1GJRbfgntGmEP22Jf41Yj1hQoBSwjc",
+  "nonce": 1014,
+  "parents": [
+    "4c790041b2aa827c1ee3bbfcb294aa5601926029820d83c14409c8840da2b1a8",
+    "b9aff495c15147e2161c4e3ae6c18a4a033196ac26d2743b4ba5e98889b8fe32"
+  ],
+  "ts": 1795782906,
+  "cid": "poa-mainnet-1",
+  "sig": "5ckS6EADefucNBzBAr9Htmz5UXrFQYoEfKfdK2xox4wRMdzhJbegJZ3PnrcGX4eo1BXxREb2ktsJwVnHvqvigpvZ"
+}

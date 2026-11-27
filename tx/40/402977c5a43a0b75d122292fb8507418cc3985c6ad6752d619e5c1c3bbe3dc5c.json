@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa19uiA7Fwh9wKXGgsXH7aRgxEBSV1wLWXWB5TFw11v5guZ",
+  "nonce": 129,
+  "parents": [
+    "34510f7b6cecf1d2135ed0aa3354032efb934f4de236f8fa7fc5509949a2e1b5",
+    "6b5d550339d5343b561f1e526c130048fcc6a1cac188d689498b5576d7a2410f"
+  ],
+  "ts": 1795784304,
+  "epoch": 133,
+  "seed": "ab3601a1949e1b34",
+  "answer": "Because the derivation is a one-way function of the vault seed, the ripple timing is verifiable from the summit record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 297 seconds of sequential work, so minting one key is trivial once and expensive in bulk. A farm that wants 82 keys therefore pays 82 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "4STvsopHCYUQjUearnr1sax2kDD4cdo75MfiiRjEFQsq1cHC2yLpMu656WvNNy7fpw5eEc6bMw8kcpxLo6w8qXNW"
+}

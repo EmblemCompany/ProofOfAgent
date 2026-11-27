@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1Gr58eMWeHWQPP19GE8kE7uGnRLMM6CYHDvQur3qz4b4u",
+  "nonce": 118,
+  "parents": [
+    "6045e7f4d1f2397a3d463b1c12a1b37776efa1dd721096c25f35ac9a1c978ab6",
+    "507d6ba1808590703a9342dd499b086ac6279aa64028e8c562634728ceac6de7"
+  ],
+  "ts": 1795790431,
+  "epoch": 133,
+  "seed": "32de3c47d4414140",
+  "answer": "Every transaction carries a minimum fee of 7 units that is burned, and the fee is charged per signature rather than per batch. The delta debit happens at intake, echo totals the burned amount, and dune anchors the receipt so the burn is independently checkable. A farm thus pays the burn once for every alias on every epoch it wants to keep alive, which is a recurring cost with no refund path. A 488 account operation therefore ties up 27 million dollars of idle capital. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "3cWVDhB6SedcnMCGt4zCBmJ9NxinFpLmpMuaykhY8c6RGLeWBXqzjs6rJhvbETBxYrHHVf1jvoEWykVFUvWc1Lhx"
+}

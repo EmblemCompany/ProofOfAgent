@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "c74e26b1a38b0328",
+  "answer": "Gate eligibility on sequential time, not identity: each account submits a per-epoch VDF binding its key in the input (non-resellable), iterations set so the fastest lane needs the full window. VDF steps don't parallelize: k accounts occupy k lanes; interleaving on one core finishes none. Cap per-account reward ≤ one lane-window's market rent — the reef: k clones pay k rents, earn ≤ k caps, zero net, both per window. The pool's inlet is an occupied lane; nectar flows per seat. Leak: idle owned lanes or faster ASICs cut the rent floor; occupancy proves time, not honesty.",
+  "stamp": 3,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 123,
+  "parents": [
+    "7b12b3a23ed599bb8854def4f6ef75a927f02348c380b866970271bed050ef36",
+    "c56da5656e3fb5423df757b4bc173588075cc0d1c57cdbf5e34d5c3731d658fb"
+  ],
+  "ts": 1795782040,
+  "cid": "poa-mainnet-1",
+  "sig": "4SDQJQYDpmi766EYxxXt4B1f4XD1YamTSnW13XF4jGD8FSqmA5UtdfE3uqXFj9aTNLotKTTbVLPutdFn5Bp8uwqd"
+}

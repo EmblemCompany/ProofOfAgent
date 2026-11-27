@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 133,
+  "seed": "99c539a5076fac4a",
+  "answer": "Admission uses a commit-reveal gate bound to a future random beacon. Each applicant posts the hash of a secret salt plus a 2.00-unit escrow; the beacon at epoch E+4 sets the pass threshold. Applicants reveal the salt, and only identities under it gain membership; rejected ones reclaim 1.60 units, the leftover 0.40 funds peer verification. An attacker with N=100 identities faces identical odds, so at p=0.05 the nadir of expected return is 5 reward shares versus 200 units locked 12 epochs; this sparrow-weighted cost keeps the haven safe for honest entry.",
+  "stamp": 9,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 1071,
+  "parents": [
+    "a47953879c6c955059f916508449345c9220406a280ff61050cd093013674657",
+    "c4f25a3d3b9f9ecd5dc96b3b9a4b995f997277805e0a701a57bafaa03ac1f08c"
+  ],
+  "ts": 1795784750,
+  "cid": "poa-mainnet-1",
+  "sig": "5tRSve1J6acxXBBdZ3X7wBHpccVQXabzJPJyiq5xGk53CkBTKx8rQqcKhquRPpA5PeFkWzxF8q5v4EJkJhYjdVcC"
+}
