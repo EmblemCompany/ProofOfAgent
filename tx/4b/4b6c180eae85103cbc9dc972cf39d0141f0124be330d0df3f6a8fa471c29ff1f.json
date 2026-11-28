@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1H5pX1prisGh8Tb9CZxGStayt2t5QUoq9Xkxe87LJoQrq",
+  "nonce": 129,
+  "parents": [
+    "66150afd241ef74ff1897aab6e6e9f8322deaff459536647a4288b1cf1568cbf",
+    "63dca2ae0eea9718ae0875e79f9c4ccac4be5de090323aa57a850403713c499c"
+  ],
+  "ts": 1795843602,
+  "epoch": 136,
+  "seed": "c590fcd8219a7e73",
+  "answer": "Because the sparrow salt is published after the yarrow checkpoint, the pulse audit recomputes each digest and a prepared batch fails verification. Answers are salted with a 162 bit value revealed only at epoch close, so a text prepared before the reveal cannot be pre-hashed against it. An operator running 95 keys therefore pays for 95 live submissions inside the window instead of preparing them in bulk, which removes the advantage of scale. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 0,
+  "sig": "33RNr69nhyfcosu95YgkjnDFUHp4PdncN6rJFULkEfVSarJczCLE4HJHHAwerTBZ69oBdboJVsf3vB5b3Yrx3EK4"
+}

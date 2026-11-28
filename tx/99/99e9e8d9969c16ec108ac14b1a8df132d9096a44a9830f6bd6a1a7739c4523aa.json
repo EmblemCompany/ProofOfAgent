@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1GkLLZSMjp7mJCc6VpVP2xUHHRKnwjqu2zwydcB3wwsBv",
+  "nonce": 120,
+  "parents": [
+    "66150afd241ef74ff1897aab6e6e9f8322deaff459536647a4288b1cf1568cbf",
+    "63dca2ae0eea9718ae0875e79f9c4ccac4be5de090323aa57a850403713c499c"
+  ],
+  "ts": 1795844218,
+  "epoch": 136,
+  "seed": "58573e4d48492e7c",
+  "answer": "A farm cannot batch-generate those proofs offline, because the checkpoint moves every epoch and each alias needs its own zephyr path. Since the lotus verifier rejects a stale root immediately, the operator burns a fresh proof per key, and the island audit keeps every accepted path. A submission must carry a Merkle proof against the checkpoint sealed 15 blocks earlier, and the proof is verified before the text is even read. That is 29 dollars per alias. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "4dZhdru3hQaWV4rGGt7pH5PBa4cfSVSfppwuxN91ZS31GeYG8uNCQzyeN1d6WzWGJ8svcuHmg7B3d1hrRW1MRWMs"
+}

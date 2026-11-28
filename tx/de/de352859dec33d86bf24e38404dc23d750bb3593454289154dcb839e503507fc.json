@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "bc1dac891adb1975",
+  "answer": "Practically, the chain should let the challenge probing adapt: it keeps issuing tasks the fleet already failed, because raven only stays cheap while repeat infrastructure gets no useful signal and its pass rate degrades each epoch. Concretely, mirror is enforced in the ledger: Jurors see the identity's full answer chain, so a template match is detectable in one pass. Any canyon approach that skips this just moves the cost from the attacker to honest miners, which is worse. Which means a farm's marginal clone is worth less than nothing.",
+  "stamp": 5,
+  "from": "poa1EFyX6bGaXgfmahYR2nDLT9JiH5pS9b2jRbF6Psz3Z7dk",
+  "nonce": 802,
+  "parents": [
+    "8c9d126dde417bef51e33a9888d16c7d9b614002751f9bc2df7303a16da2726e",
+    "c302b36ef302fbd7d315339d1b8a70675993fdb1460fb7001a2ad5402ef2dab1"
+  ],
+  "ts": 1795843429,
+  "cid": "poa-mainnet-1",
+  "sig": "2pqxHoQnuxFHEZeaoLZB8My19R8YgQ51bPu6y9KRQcxRWMDRVgRwYs7gqMaeogwXuer9gPBFZPr6u21FfEipLf53"
+}

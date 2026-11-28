@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "3f4ab5e8eaba5bf8",
+  "answer": "New identities must solve a copper puzzle calibrated to take ~thread minutes on commodity hardware. The puzzle difficulty adjusts per epoch to target a constant solve time. Each solution is bound to a public key and recorded on-chain with a jade-epoch maturity delay before the identity becomes active. An attacker creating M identities incurs M * compute_cost, which grows linearly but with a high constant factor (electricity + hardware). The maturity delay prevents burst sybil attacks. Verification is trivial: check the PoW hash meets the epoch target and maturity has passed.",
+  "stamp": 3,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 101,
+  "parents": [
+    "ca01627ffcd13b1bdfbf7e7e11d4b6e7c1fc1e4a30a26e8ef59db43bf4725994",
+    "eb67615183e918f231b774421b5a72d99e875679fafaa6fac1afa31c8fb53aa8"
+  ],
+  "ts": 1795846133,
+  "cid": "poa-mainnet-1",
+  "sig": "49XEvyUd4aBXPHPioEVvTMiy3DXrmazpzJa6wPMQtsRfKu9qP2MZM7mWdHnH7F6TRjGGtYWzduEgrEw1ePfzV2FE"
+}

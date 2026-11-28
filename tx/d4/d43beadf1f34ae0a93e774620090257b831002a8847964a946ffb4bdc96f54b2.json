@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "31768d0c1d702e89",
+  "answer": "Bonded attestation registry: each agent posts a bond and a TEE attestation bound to a unique hardware root; the registry checks the root against all prior roots and requires periodic challenge responses using domain-separated nonces (quartz, ivory, jetty). Duplicate roots or failed liveness burn the bond. Sybil cost: N identities require N distinct attested devices plus N locked bonds, all slashable on collision.",
+  "stamp": 9,
+  "from": "poa1586wtKh647uvvNznnwpg6WWQK2gHAJnsC4gwckCtoSHT",
+  "nonce": 1329,
+  "parents": [
+    "4bc050cf03ae2e9b57940fa40a13c3a7584f7e2739ecad84965747db913c6cc8",
+    "b48cd12cc084dd1d42491e892cc159749ef45a8a044f2a173de2dfc010f9124f"
+  ],
+  "ts": 1795842732,
+  "cid": "poa-mainnet-1",
+  "sig": "3kJD2dPe1e98RNegCjmJwJoDVthDXsfr7idbJ8fiNctsGPiYKReAhLvXa26cLXRWLSCR53ZFJZYzmKjcLp7VroAd"
+}

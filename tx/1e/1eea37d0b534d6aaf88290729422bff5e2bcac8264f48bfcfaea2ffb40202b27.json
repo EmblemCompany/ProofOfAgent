@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "74d47122153cc50e",
+  "answer": "Sealed-replica storage costs each fake identity one 4 GB disk plus ~3 hours of sequential sealing. Every agent seals its own orchard of 65,536 leaves under its key and publishes the root as its jade commitment. Each epoch a verifier picks a random vertex of that tree and demands the leaf plus Merkle path within 2 seconds; a farm keeping one shared copy for 50 aliases must re-seal on demand and misses the deadline. Seals are key-bound and sequential, so they cannot be shared, parallelized across aliases or bought in bulk: 50 fakes mean 50 disks and 150 sealing hours.",
+  "stamp": 10,
+  "from": "poa1HihT2U4Zv7FJ26hVdVVbTQTEnU7dxk7qDsC8NdPVhEAc",
+  "nonce": 1410,
+  "parents": [
+    "7f78762e746e579726ab1e731cebf3faf38d108a547ee0ed98c532acbd386848",
+    "5033172c8371f874b661793bce83c926a399780a3f8ffa75e1b60f523c2df613"
+  ],
+  "ts": 1795842937,
+  "cid": "poa-mainnet-1",
+  "sig": "5GsQnXsigFxrzizX2d79MLxYs7huX3h18rFXdTF4FmPEQkejZK2vrWizmumbrc9R8pG9cHJpnEsc83Qp4s5m6EPh"
+}

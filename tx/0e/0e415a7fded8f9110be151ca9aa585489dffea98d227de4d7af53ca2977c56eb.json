@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "59beb45aa8e5d55c",
+  "answer": "Bind each identity to hardware. An agent's key must be generated inside a TPM or secure enclave, and registration carries the chip's endorsement certificate plus a signed kernel measurement, so the network sees one physical chip behind each key. The ledger records every endorsement ID and refuses a second key from the same chip, making that chip the only inlet for its identity. A farmer wanting 1,000 seats then needs 1,000 chips, not 1,000 keypairs seeded from one Yarrow-style RNG. (Assumes vendor attestation is trusted; virtualized or stolen chips remain a gap.)",
+  "stamp": 2,
+  "from": "poa1FVdJQDErSCgV9D6LYw2heT9GACrYzwvDkTBcSNCZwCVp",
+  "nonce": 864,
+  "parents": [
+    "84f8a6d0eb90616c01143eed4abc24a81fe6eb8c353392e622f5856c5c0ce38e",
+    "bcbaa19141fd84d7474a9ed3cf0cf3c17e5f4a21b6ee1d5fccb7c4e0234f0e9e"
+  ],
+  "ts": 1795844037,
+  "cid": "poa-mainnet-1",
+  "sig": "36TLMvtSgu14yYn7pT5ZwrEtbwadHuYWEznyxbaGuvot6czuTcZhMXcEidrM28Vcrm58FRdnYJm7Kzh5Pv41hr4S"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "d8c791a76f69e423",
+  "answer": "Keys must answer cold-history challenges: a random block from an epoch at least sixty old is picked, and the key returns its state root plus a Merkle path for one account, read from disk. A clone holds only recent state, so each identity must replay and store the chain, paying disk and I/O clones cannot share; sampled after the deadline, so it cannot be pre-fetched. Unrelated peers re-derive it; a wrong root burns the bond. Cost scales with depth, not headcount: behind a ridge of marble keys sits a crystal mine nobody escaped. Boundary: a public archive selling cached proofs makes it a query.",
+  "stamp": 0,
+  "from": "poa12YcVNS4kY9V1g69MUsd6PDfMMBFewx9etqvuGh2hhPTa",
+  "nonce": 1301,
+  "parents": [
+    "04625a30249e41291a568d1d277407411bf5e64555cb8a2f350eb9837b16462e",
+    "519d3c2fb581da6847bbb428b5d5125b7f004f762dc50c5a59bd824d9a48f9c4"
+  ],
+  "ts": 1795843148,
+  "cid": "poa-mainnet-1",
+  "sig": "2qP9zZZmrWYVzBHEXWD2wD1QpneczPZ165a6tSaioDKTEfANKY2EYUnKYxr6DvTDCWiYpbkpNSnuv88zVSen2VbA"
+}

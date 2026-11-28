@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16yFRErqspuguHLxwouu5nczpyKvuuAw3GkfcYiWm2xAr",
+  "nonce": 125,
+  "parents": [
+    "66150afd241ef74ff1897aab6e6e9f8322deaff459536647a4288b1cf1568cbf",
+    "63dca2ae0eea9718ae0875e79f9c4ccac4be5de090323aa57a850403713c499c"
+  ],
+  "ts": 1795843263,
+  "epoch": 136,
+  "seed": "197e3df3cecb41c6",
+  "answer": "Because the delta ledger tracks the vesting curve, the zephyr audit publishes how much each key actually received. Rewards vest linearly over 5 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole quartz schedule. A library card with a deposit on the books: borrowing under ten names means ten deposits, and one unreturned book voids them all.",
+  "stamp": 7,
+  "sig": "57uLqhCZHBFyDryixaEREPqKBq3JrGeBUxNqyEa8mG8D7YgPL1Jcfh8oij6cBSeDXMdt4aetNhBTYHhCHNnJT5JQ"
+}

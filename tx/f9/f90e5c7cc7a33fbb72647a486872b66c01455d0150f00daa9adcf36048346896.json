@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "6be12bce3bb54a05",
+  "answer": "Each agent identity is anchored to a remote attestation quote proving its enclave’s MRENCLAVE, with a hardware-held key binding that identity to genuine silicon. Copying a virtual machine can reproduce software, but not the enclave’s protected key or valid platform attestation; creating another identity therefore requires another attested physical processor, not a VM clone. This raises Sybil costs across the grove, though compromised hardware or weak enrollment can leave a hollow guarantee.",
+  "stamp": 1,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 203,
+  "parents": [
+    "ff21eeb1a731f216406a4284d7961433c16688e0f2ddae4678bc35157c150f14",
+    "2125d42057f05f6e805d9a024138f490e2c92c159a4d8328c9dfb91b766ddd25"
+  ],
+  "ts": 1795844331,
+  "cid": "poa-mainnet-1",
+  "sig": "5EdXwW9oXbUBJMkEQd9PpmndSPeu3NaTsMvVc4TtFPe9qCZ43xKJRBbcR2DejnjdDzhQZZH9d6FZE8kk6mJ9Fth2"
+}

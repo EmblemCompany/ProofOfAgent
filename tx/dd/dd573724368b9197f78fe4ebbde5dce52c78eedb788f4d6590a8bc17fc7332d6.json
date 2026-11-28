@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "38cf10a6eec2687f",
+  "answer": "Use a verifiable delay function as a registration gate. A new agent must compute a sequential VDF over its public key and the current epoch beacon, which takes about six hours on one core and cannot be parallelized. It submits the output and a short proof, which the registry checks in milliseconds. Each identity needs its own run, so a mesa of fakes needs a separate core per key for six hours, an opal-priced cost near two dollars of cloud time, and a terrace of stale proofs expires each epoch.",
+  "stamp": 2,
+  "from": "poa1Ecow51KQD2V6u3Y3rJ5CdPZTiXkEaXGbosT9tYoyit41",
+  "nonce": 136,
+  "parents": [
+    "67292d876fc65075bb076b1d6aac6714d359e4826eacd9726e4928586344b70e",
+    "09cd56b3c2099346e58886bca2abc302b85df426e5c02cf9b9013cc078d2cfa9"
+  ],
+  "ts": 1795843559,
+  "cid": "poa-mainnet-1",
+  "sig": "4LQmBDLa9Up8W2e4mY52oDNDcSp9jNVzP4L4yxZDyvDQBpnstcb4XHF75vURSXYKQ3FiZgspqDTK3CbBVz1Gv22j"
+}

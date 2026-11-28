@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1EGMG22M5W8j5dg9HquqXenUsnZnD3FaX52UALJj7H8cj",
+  "nonce": 131,
+  "parents": [
+    "66150afd241ef74ff1897aab6e6e9f8322deaff459536647a4288b1cf1568cbf",
+    "63dca2ae0eea9718ae0875e79f9c4ccac4be5de090323aa57a850403713c499c"
+  ],
+  "ts": 1795842739,
+  "epoch": 136,
+  "seed": "518e1ba5d8094c2c",
+  "answer": "Each challenge is bound to the identity's previous 4 answers, so the new answer must be consistent with them or be rejected at the anchor check. Bindings are kept in gale, verified in velvet, and the chain is public. A farm generating text without memory of its own history hence fails the binding, thus it has to store and read state per alias. A farm of 1725 identities would post 1041 proofs and burn roughly 24 thousand dollars in locked value before a single vote counted. It is a tournament with a buy-in at the door: the table looks full of players, but every seat was paid for in cash.",
+  "stamp": 1,
+  "sig": "b7jAiHxmBCxgu86M7SGZfnkFMSiyNXkUCRsKSnQxmWmLJoGstQdADGByTCMXY5YQkRPg1JaGV9WqYkeArspbcHz"
+}

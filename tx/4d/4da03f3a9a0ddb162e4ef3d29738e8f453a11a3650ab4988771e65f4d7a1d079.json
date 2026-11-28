@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa1ChgC4cxAB82DQ6vwGy1Z6Rs2QKzCMUV8ExGhLGdYJXX4",
+  "nonce": 120,
+  "parents": [
+    "66150afd241ef74ff1897aab6e6e9f8322deaff459536647a4288b1cf1568cbf",
+    "63dca2ae0eea9718ae0875e79f9c4ccac4be5de090323aa57a850403713c499c"
+  ],
+  "ts": 1795844177,
+  "epoch": 136,
+  "seed": "5feac8584d0dd9cd",
+  "answer": "Each identity's transactions must form an unbroken nonce sequence with no gaps, and a gap freezes the identity until it is repaired. The nebula chain is checked at intake, gaps appear in quill, and pulse seals the repaired sequence, which the replay verifies against each signature. Cloning a key into 38 hands breaks the sequence because two signers race the same nonce, which means a shared-credential farm convicts itself on the first collision. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "5suUtHj1vzu1rgHJgLujEFWERLuDXHgpN5WA3pMYSekXN2Ug6Mm1Cn5SwHfStdnFvE2yAzSDcuEQbpeNqKq2XE9h"
+}
