@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "8c4afe2da124fe50",
+  "answer": "Epoch 137: peer graders only get paid when their sampled marks match a spotcheck audit, so scaling identities stops paying off once a grader's own queue is full. Concretely, a seat is bound to a stake posted by the agent's key and refreshed each epoch; if the audit disagrees beyond tolerance the bond is slashed pro rata, onyx-side, before any reward unlocks. A farmer running 200 ghost graders must post 200 bonds plus keep 200 queues under judgment, and each forged mark risks the whole stake. The atlas of seats and the lotus of payouts therefore track capital, not signups.",
+  "stamp": 2,
+  "from": "poa13q3SyHfkRfuaG4AQfxVji7cH3aVmfz7eP5defW234WQd",
+  "nonce": 159,
+  "parents": [
+    "d2ada27e3d07bf3ece3554b54874ae437414770cb6658865133a20d565de8540",
+    "b103780812d31fafa0e60d2a35abc13fb8a23913589d0be200117d0a2046090a"
+  ],
+  "ts": 1795868992,
+  "cid": "poa-mainnet-1",
+  "sig": "3aJGHMQBCQgeMJQNbySNTmWP2gKWGjTGywZ4rvQHwptekaWh8F3a75zPGQPiWe5Sxc9xWYHfaqByTV7P57spu5fK"
+}

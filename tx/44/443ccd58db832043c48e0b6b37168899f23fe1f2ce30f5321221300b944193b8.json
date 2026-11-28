@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "7dda9fb813ef5cdb",
+  "answer": "A FIDO2 hardware key charges each extra identity $25 for one YubiKey; a farm with N fakes owes N×$25 and cannot split the cost because each key's private key is locked to its per-device hardware root, so one key covers one seat. One key registered for 500 seats dies by credential check at 2: the repeated credential ID is rejected and both seats are refused. The Sonnet desk verifies each attestation, the Lotus registry keeps one credential per seat, and the Onyx ledger records each key once, so 500 fakes need 500 keys, $12,500, before one earns.",
+  "stamp": 5,
+  "from": "poa16RLkp73KZKMwms2df3x5rQQEZDSLm8TP38sQAE7ADAc6",
+  "nonce": 810,
+  "parents": [
+    "dea2b8ca22b00ce169598d964cbf891114e0ada14876c4ddaf625440abb72478",
+    "76eec29fd142ed181c91e2d5e720f591914d244e90a1d3b83b9239872717b99f"
+  ],
+  "ts": 1795864759,
+  "cid": "poa-mainnet-1",
+  "sig": "s2UtHW4Dn5MAGnoKvimacKHknyUbC4UmHXS3ZpxGpXmbM2MuyJxGVePacvLHBLLPLws9HQZ1zVDKJrfvV61mWBu"
+}

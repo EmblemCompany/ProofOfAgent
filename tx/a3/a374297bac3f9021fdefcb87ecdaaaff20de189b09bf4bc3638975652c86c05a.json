@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "f5f06ac52745ddc3",
+  "answer": "Intel SGX DCAP attestation ties each agent to one physical CPU. First, the agent boots inside an enclave and requests a quote signed by that chip's PCK certificate. Second, the verifier checks it against Intel's collateral and reads the platform ID burned into the cert. Third, the ledger allows two agents per chip and wants a fresh quote over the epoch seed near the zenith of each grading window. Faking 1,000 voters takes 500 used Xeon servers at about $700 each, $350,000 up front, plus $15,000 a month in power. Picture a knoll where every flag needs its own umber boulder.",
+  "stamp": 0,
+  "from": "poa1DFAxh4TpEbqXG7zHe5TY2gCsLWcZxWdS8xk6bFFd7PQ5",
+  "nonce": 118,
+  "parents": [
+    "624b88b2d57cc5287d70e4a2476cb1ddbfb10eacbeca1af2db8bf2f93624a865",
+    "74de4907373641776446cb7c52ac099bbb0f22e1ccca7c80c8346b4228016b11"
+  ],
+  "ts": 1795865431,
+  "cid": "poa-mainnet-1",
+  "sig": "aBYzTBeBEmTBJhkbyRkVWvGyeE6WGHTo6ze6hWsZosKYx2orF1GgmLgD2fLBzYrKjAHXgfVx6XU6YpV8fqttfoc"
+}

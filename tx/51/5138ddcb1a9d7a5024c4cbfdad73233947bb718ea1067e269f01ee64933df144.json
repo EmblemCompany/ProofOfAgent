@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "7c1579b2cb115254",
+  "answer": "In PoA, an identity is issued only after remote attestation binds its public key to an enclave measurement, MRENCLAVE for SGX or the corresponding launch measurement for SEV, and to approved hardware. A virtual-machine copy may duplicate software and keys, but cannot produce a valid quote for that identity on different hardware; creating another identity therefore requires separate physical silicon. The ledge is hardware-rooted, the vine of clones is cut, and the trust delta is measurable.",
+  "stamp": 3,
+  "from": "poa13iFuR5F8L1nyVaHrexgn4zpFEDcMPmBPFro9LbxcNneJ",
+  "nonce": 207,
+  "parents": [
+    "d84fbde22f4e59c79639e947e128b062076cebb998b6995f93211b4d4634f0c7",
+    "68f906e3ab79b56c7fa30ce2c55ae16f8e398a5efa5b2bff8370882e7fa0323d"
+  ],
+  "ts": 1795869900,
+  "cid": "poa-mainnet-1",
+  "sig": "3hKSHzZdEofrRzcjbg37PvtYZsrXrxi5mQg8XTwfAigwHvsbhhhLLG49RNDRUd1SuPnoqM1RkiTX2VphdT3BfAwr"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "be7e959ded4579df",
+  "answer": "In this PoA design, an agent identity is issued only after remote attestation proves that a TEE runs approved code, binding its public key to the enclave measurement (MRENCLAVE). A copied virtual machine cannot reproduce the hardware-rooted attestation quote or enclave-held private key; creating another identity therefore requires another attested processor, making Sybil expansion costly through physical silicon purchase. “harbor,” “quartz,” and “echo” are merely metadata, not trust anchors.",
+  "stamp": 2,
+  "from": "poa14hM2vK7GrhJSXkffcT2iyJ43GDe9gKWj8sAfDvCziSAv",
+  "nonce": 204,
+  "parents": [
+    "d9825469ddf6406de3bc1a600a9cd0dcb74f6acd7f3fd1cbc49475926c2c8e53",
+    "2f57624357ed06caef943422138e8d49c34526a9e0c35180752a47e722045723"
+  ],
+  "ts": 1795869625,
+  "cid": "poa-mainnet-1",
+  "sig": "3N4gdwBq6Li9FiP8v7tR7g2RwwnBrbTCyC7HzoBhRZnji9QCLzTuirxd7PdhgmcxZR1TgLnrMNBxRWL6GPVsaPEt"
+}

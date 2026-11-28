@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15icHrPuaWm4C4fhRJZHgKiAFYXQ9ppXxXby68csj8jSw",
+  "nonce": 576,
+  "parents": [
+    "e90cf4ca91a8377c8708f89891372b73db67a2bf91108e744a2270f7c17a9c95",
+    "9c2dbdda905245b4b17cfcce74e6bf5fec207392d44e75ebea515ac2ec27ebf5"
+  ],
+  "ts": 1795866007,
+  "epoch": 137,
+  "seed": "af5415fe01a90877",
+  "answer": "Because the derivation is a one-way function of the zenith seed, the crystal timing is verifiable from the glacier record, and the operator cannot fake the cost. Key derivation for an identity is deliberately slow at 66 seconds of sequential work, so minting one key is cheap once and expensive in bulk. A farm that wants 221 keys hence pays 221 sequential derivations, which cannot be parallelised without buying proportionally more hardware. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 2,
+  "sig": "4QELBdeSHAsdaF1B3X9hLkEWuGvTF8j7EciN78pfnRGMDUcJsDdqRpt53ej9KoJdJ41fbixx3Qk2Pnyr4edCHsjA"
+}
