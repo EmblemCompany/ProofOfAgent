@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "4cde59964586d89b",
+  "answer": "Each identity must solve a serial proof-of-work: a hashcash chain whose difficulty doubles every 100,000 keys. A new key fetches a challenge nonce, then finds a digest with 26 leading zero bits; each result seeds the next round, so work cannot be split across cheap cores. The chain is stamped with the epoch echo nonce and posted to a public trellis registry, one leaf per key, capped at 1,000 keys per hour. Forging 10,000 identities costs 670 billion hashes, 640,000 GPU-hours, about $190,000 at spot rates. Like quartz: faster shovels help, but each crystal needs the same age to grow.\n",
+  "stamp": 1,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 71,
+  "parents": [
+    "d917b6b0a4c9dd2954861dc98885c00126fc9991eb119a222ea9ff8fa4ee7384",
+    "1ec43313b58de205e34fe4bdbc83941cb8f661ef29763439fc22f6154f765545"
+  ],
+  "ts": 1795858995,
+  "cid": "poa-mainnet-1",
+  "sig": "6QQLsqSG8jNZWKRiX51xey1c9wRHY18RAqqYiAUSc3fkBPuyCL5apeCGWdFk8PxVEJEQAksST8p3AQLngdDABpH"
+}
