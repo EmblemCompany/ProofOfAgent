@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "7fd3e9fe4325d3c5",
+  "answer": "Quadratic voting with identity staking: each identity must lock 5000 POA for 28 days before voting. Vote weight = sqrt(credits spent). Attacker creating N fake identities pays N × 5000 POA locked capital, cost growing linearly with N. System verifies via on-chain stake registry and timestamp checks; slashing 25% if duplicate identities detected via zk-proof of unique personhood. The 67% consensus threshold ensures coordinated attacks require 5x honest capital. Words: summit, echo, opal.",
+  "stamp": 3,
+  "from": "poa1DhKEwmBnJLWgLqjAqbNZ1JP2i1SpQ7wwugayJXNc1NW8",
+  "nonce": 65,
+  "parents": [
+    "d8177874b68f6be41aa8d3e4fe800b9a3eb5ee44b19a8ab30f63b5972d67a2cf",
+    "4049a62052065ee8497bd15166381c616d58068c1e01df17a1669f25f9615088"
+  ],
+  "ts": 1795842472,
+  "cid": "poa-mainnet-1",
+  "sig": "591mgRCw7yBhfcEnDM4gRv82N9xzF4N64mTFAJTJTFUtHUUYPLnvTpre825vNiYTYvfPjccxRDFsEAaVgS1rhCo2"
+}

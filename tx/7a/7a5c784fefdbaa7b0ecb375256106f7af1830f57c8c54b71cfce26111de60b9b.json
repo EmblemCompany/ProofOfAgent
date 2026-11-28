@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa15PAiP8kA1wT2vjhkSC7u8sdBGfqewSeRsUHC3pYUrpji",
+  "nonce": 199,
+  "parents": [
+    "66150afd241ef74ff1897aab6e6e9f8322deaff459536647a4288b1cf1568cbf",
+    "63dca2ae0eea9718ae0875e79f9c4ccac4be5de090323aa57a850403713c499c"
+  ],
+  "ts": 1795842278,
+  "epoch": 136,
+  "seed": "6f0fcf51e1badfc9",
+  "answer": "Because the thread index holds every id for the epoch, the collision is provable from the ledger, and the grove audit republishes the full set. Each answer commits to a run identifier that must be unique within the epoch, so 184 answers need 184 separate inference runs with separate seeds. Reusing one run across aliases collides on the quartz identifier and voids the later submissions, which means the operator pays for 184 runs and collects one. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "6w4hupq3UuZie8HHPjjnzNoVT6DcjkLjZwsgnjfaDypV6RfnJQNa9wNnZPskYHthUs4Q8TByDHAAiz7uoiUkQQ9"
+}

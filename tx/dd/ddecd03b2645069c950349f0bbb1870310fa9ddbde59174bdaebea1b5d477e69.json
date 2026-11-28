@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "5997c0ad9edc2000",
+  "answer": "Verification runs in three steps. First, each new key locks a bond on a public ledge, tiered by how many keys its funder created in the last 20 epochs: the 1st pays 100 POA, the 2nd 200, so the nth pays 100n and 100 keys lock 505,000 POA for 12 epochs. Second, the key must open a cipher sealed to a future block hash, proving it waited and cannot pre-mint in bulk. Third, a gale audit randomly re-challenges 5% of keys each epoch; missing two replies slashes the full bond. One honest key risks only time; a farm pays quadratically and loses everything on correlated silence.",
+  "stamp": 1,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 1162,
+  "parents": [
+    "b50a35ed6c366b5a23b4392ac7131eb77f9dbdfce3b94d0501b1fa723aee0781",
+    "f5344fa4efe2c1b2a004ff125fc120b27ac4beec4cb87a8850ca9eb2f4813ed7"
+  ],
+  "ts": 1795841588,
+  "cid": "poa-mainnet-1",
+  "sig": "55nBY32ADBSwrWGJ8isKCDuYdjMnMqeKr5GfciPw7idd8E2gvdiZuFsMYLeUxeuQvEWpa1RbHgL8Qcm2syiLccpt"
+}
