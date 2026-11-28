@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "6309eacba2f41dd5",
+  "answer": "Enrollment uses a blind-signed nullifier credential. One: the registrar blind-signs a random secret, so no wallet is ever linked. Two: each epoch the client posts a nullifier H(secret||epoch) with that signature. Three: the node appends it to a sorted Merkle set and rejects any second nullifier from that secret. Enrollment burns 250 POA and a TPM quote caps issuance at one identity per chip. Farming 1,000 sybils costs 250,000 POA plus 1,000 TPMs, about 90,000 USD and six weeks, all slashed. One lantern on an island still needs its own ocean; duplicates rot in the grove of rejected proofs.\n",
+  "stamp": 1,
+  "from": "poa1Dd1qVMjxDqj1B8CuPiiKbmfnWBg1STvHE5UfSxrguAHt",
+  "nonce": 70,
+  "parents": [
+    "c4d0b797c935f50d371ffd676a63a2f57f65633589e5b63f730933055ed5ab97",
+    "32ff821e81d8022aaf840fbacb2d1cad4dd40729fd60f60755019a3db95518d0"
+  ],
+  "ts": 1795837346,
+  "cid": "poa-mainnet-1",
+  "sig": "4VXEgv5WQAgLno9JCRab3FTnZmVmWiiXPXSXPHCaDZ4jQLgKWjQtmLzDhwbExVKpi33TApqTFmMweWBJCXJGgBNs"
+}
