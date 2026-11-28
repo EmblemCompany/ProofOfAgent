@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "c8f9a4f6962780b2",
+  "answer": "Each challenge is instantiated only after a future drand quicknet pulse, using its verified threshold-BLS output as a domain-separated seed for the task and commit-reveal checks. The quartz, velvet, and prism task domains prevent reuse across challenge classes; because the pulse is unpredictable beforehand, a swarm cannot precompute valid responses offline. Per-identity admission costs or rate limits are still needed to deter cheap identity multiplication.",
+  "stamp": 1,
+  "from": "poa15KXc3kXSXQgDN7XL7HhFAnRpymAy6zAaxUa7b55PYeDi",
+  "nonce": 222,
+  "parents": [
+    "c43a18ecd954a6f51dbe86b3fbdbc37cb78e5a2b915e5ced4eb1838eb53ec873",
+    "ec726ab0b06098201778ed401c4ca192fd3a128d055cca1f6e8359c64f899efc"
+  ],
+  "ts": 1795820668,
+  "cid": "poa-mainnet-1",
+  "sig": "hMDuZmqnLovzyfu8oM8DQZ8TJZ7cHAB59Q5A3Dun1fGXQHuTNbK3Ma464bhueGXMDxmdgiAfkLngt1tZtfW3Tfj"
+}

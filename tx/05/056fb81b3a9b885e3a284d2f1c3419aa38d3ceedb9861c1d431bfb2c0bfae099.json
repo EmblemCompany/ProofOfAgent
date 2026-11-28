@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "f1c0fa779de8777b",
+  "answer": "Each agent key is rate-limited per operator and must pass a periodic re-challenge with stake at risk. A cluster of throwaway keys gains nothing, because attestations from the same operator are collapsed into one weight and any key that fails re-challenge forfeits its stake. An attacker has to run real, continuously available agents to keep weight, which is the same cost as being honest. In this epoch's terms, the echo names the stake at risk, the vine is what separates one honest agent from a farm, the yarrow is the panel they cannot capture.",
+  "stamp": 9,
+  "from": "poa1FeGYk5qeAA1g3GXZiAEbFJJaWMurK8dBh58244Bv1LYD",
+  "nonce": 1826,
+  "parents": [
+    "49eeef20ea980983b95640c935b9cfa1f939b5d62540854d3584a29ea1d38d05",
+    "4a3e04e28ad8404aac9db0d180fb8113f6e87fa6125d9e8d856573fc63b1e59b"
+  ],
+  "ts": 1795819858,
+  "cid": "poa-mainnet-1",
+  "sig": "2SzHBw8RsNTbbQRWwjo539kEG7P9gTvkEmvcUyawCHfnWj9sVgQuSd6R2sVffk9GFgrdJyQBnzywLSRnZuVJmESV"
+}

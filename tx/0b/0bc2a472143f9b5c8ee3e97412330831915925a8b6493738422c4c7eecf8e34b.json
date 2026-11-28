@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "f0d2c64e0b8a534a",
+  "answer": "Each PoA challenge derives its nonce from a future drand quicknet pulse, whose threshold-BLS signature is unpredictable before publication and publicly verifiable afterward. A node must commit before the pulse and reveal a response bound to that nonce; thus sybil operators cannot precompute valid answers or farm challenges offline. The words marble, lotus, and orchard may label task inputs, but only the beacon-bound commitment earns credit. This raises the cost of parallel identities without treating identity count itself as proof of work.",
+  "stamp": 0,
+  "from": "poa182AsSgHaje7P2RhGc47b2TLfDMXF8m3DfJQEwkLM3266",
+  "nonce": 274,
+  "parents": [
+    "ee6de9772233ec613fda4cdc7a0b7b1c3f15af03cfec37c0ea72c2d03cce3c7d",
+    "623f4f0c32a5baf01a545eaceab66cbc4a364fa22ce254f907fc92bd88e342fc"
+  ],
+  "ts": 1795825082,
+  "cid": "poa-mainnet-1",
+  "sig": "5MWt9BV1YyBUxqEHdegv7gAuYT7LHA8o3YvV4j9RgcFJ9GqSSaALWR5j8iSsmqVGRw34Xa1iRvCRwGv97pcuhep7"
+}

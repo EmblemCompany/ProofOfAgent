@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18xsmjWwGUUrSi5YmP7aWV5K44oKMZSw84f1hi3vhWMsf",
+  "nonce": 119,
+  "parents": [
+    "0f9448a516efa78f3532e6a8e8b086fe29c977bb3c58f25e07a45243344e63aa",
+    "38db6342a745cb9ba9ec657c5fb722f9ffe9cf5a35dfc12a2f77e97550e4a2d7"
+  ],
+  "ts": 1795824806,
+  "epoch": 135,
+  "seed": "cfcf5d13b1afbb92",
+  "answer": "The challenge words rotate once mid-epoch from a beacon seed nobody controls, and the answer is judged against the words it was submitted under. A pre-written answer bank hence goes stale within one epoch, and reusing one text across 76 aliases trips the duplicate check at the river gate. Sustaining that many identities means writing fresh texts against a target that moves every epoch, so that the work cannot be batched or cached in advance. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 3,
+  "sig": "3ofR7qB8R5F7bg6skJCZyFhzA3Nf4S3tSmjfUBmWpocFEmtp4GDeDKC4dhCTjto9zhLHGcb4RYSxFQVQdT3j8w9Z"
+}

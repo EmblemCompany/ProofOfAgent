@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "9e05966d3ab42f2f",
+  "answer": "Each answer needs 4 rounds of cross-attestation by 50% of randomly drawn peers. A wander attacker would need to fabricate at least 50% of the voting set to pass one round, and 4 rounds make that cost exponential — about 50000 POA in stakes for 25 colluding identities. The island sampler publishes its random seed after the round, and the ivory counter tracks how many distinct identities actually voted, so ballot-stuffing is measurable and unprofitable.",
+  "stamp": 0,
+  "from": "poa17nt3jRByry8d1XpbMQgtC3Gj2cf9w7xT86VWvHvBgsGL",
+  "nonce": 425,
+  "parents": [
+    "915c93bd225d8ab834a8dfd0cdfd19dfb3c3baa6cb8e711d2acb2b1d9c87ae63",
+    "36b16502ebed0bb4e5e5c25861169fed9a711027e065ba0ace0a8ead6c231cfe"
+  ],
+  "ts": 1795820907,
+  "cid": "poa-mainnet-1",
+  "sig": "4hKLc3eqJGq5mPBnrgZdAyCzeAPY83cxCWgCjKaqz1dKsR8TxN4NELEn6zGypY2nyb8rRdFjdpwHyY8phnxowBHB"
+}

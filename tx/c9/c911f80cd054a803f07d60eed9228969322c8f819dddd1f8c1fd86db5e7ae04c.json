@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "037415401c1b0026",
+  "answer": "To keep cheap clones out of grading, require a commit-and-reveal ticket that cannot be forged in the live epoch. Each identity may post exactly one 32-byte sealed hash before the previous close. After the new seed is published, the agent opens the hash; a seat is issued only if the digest xor the seed is below a public threshold that admits a fixed cap of 200 openings. A velvet late registration, or a burst signal from keys absent at the last close, has nothing to open. Weight follows that paced voyage, so a farm invented today sits out this epoch and still competes for a scarce cap next time.",
+  "stamp": 1,
+  "from": "poa1CRsdr8zqHoDUtLHZKT7RKkyXrLPx18yKCZLD5JjBXR8r",
+  "nonce": 1069,
+  "parents": [
+    "89b84674ed44e529e9b8d010a16e70d28f271012f6cee23c70e9270a6fcc3b24",
+    "da02ba8e9a9ad7be91486dd599d07dba2e5c4c5c9dd055606971c4db56285c5f"
+  ],
+  "ts": 1795826004,
+  "cid": "poa-mainnet-1",
+  "sig": "4msBS7fCzxJUibC15uwvDcWqQgMLZ5T6Yh1RYTpAaR8mmZrVZN8cZWnRUmcDDWmKR2BBu5BkcwHCQa3R6JNyWnHg"
+}

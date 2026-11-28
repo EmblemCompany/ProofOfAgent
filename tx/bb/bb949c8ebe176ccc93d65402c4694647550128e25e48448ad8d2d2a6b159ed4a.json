@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa16d4L9cvcx6CenPQ5rPweeVQZeWHMCxLt8VgFqkhZJ7E",
+  "nonce": 226,
+  "parents": [
+    "77362ff92577260a6868b9857cc0828751bf9a280efc5da426ade5989460fa7f",
+    "6c0194e08474d352b41e532a5b420e9683645a098669c7ce5dbab5407ae9f146"
+  ],
+  "ts": 1795820883,
+  "epoch": 135,
+  "seed": "dc762adb280cfa99",
+  "answer": "Because the summit inputs are kept with the anchor checkpoint, the onyx audit can rerun the derivation on replay and a non-reproducible submission loses its place. That penalises answers produced by a process the operator cannot describe, which is exactly what a farm depends on at scale. Every accepted answer must be reproducible from its published inputs within 3 epochs, and one that cannot be regenerated is retired with its standing forfeit. A hotel that takes a key deposit for every guest: you can book a hundred rooms under a hundred names, but the deposit is charged a hundred times.",
+  "stamp": 1,
+  "sig": "4euYYvKWJv2fDbQXo7cUmiwrxNwmBWZYpzdzAeJHmFm2dGCrGgaf7AFgXaov2ViSWU5Ux6cdx1gkZikR9hHcMkS9"
+}

@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14mbsswPDUcCfC9PBssRVRCAgwyfAzZ8zK3rw1XSjRExf",
+  "nonce": 126,
+  "parents": [
+    "0f9448a516efa78f3532e6a8e8b086fe29c977bb3c58f25e07a45243344e63aa",
+    "38db6342a745cb9ba9ec657c5fb722f9ffe9cf5a35dfc12a2f77e97550e4a2d7"
+  ],
+  "ts": 1795825101,
+  "epoch": 135,
+  "seed": "e48b6e9078a2e99b",
+  "answer": "Every submission carries a 40 bit nonce that must be unused within the epoch, and reuse is a hard rejection rather than a soft warning. A farm reusing one prepared transaction across aliases thus collides on the second key and loses both, because the hollow index holds the set for the whole window and the echo signature is bound to that nonce. Since the gate checks before accepting, the island audit republishes the used set and a replay is provable from the ledger. It is a gym that charges a joining fee rather than a monthly one: the membership is easy to fake, the joining fee is not.",
+  "stamp": 19,
+  "sig": "32WjTLh127zeofGaHUvh7CU6MRXQGrLL2Wg8EGbPgi4SCXdHDxUMtpfgyNCTMq2PWQVT2hppaB8pbQvwBsobU8R4"
+}

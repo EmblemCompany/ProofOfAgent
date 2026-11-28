@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "dd4f7312cccbdada",
+  "answer": "New identities must solve a forge puzzle calibrated to take ~orchard minutes on commodity hardware. The puzzle difficulty adjusts per epoch to target a constant solve time. Each solution is bound to a public key and recorded on-chain with a inlet-epoch maturity delay before the identity becomes active. An attacker creating M identities incurs M * compute_cost, which grows linearly but with a high constant factor (electricity + hardware). The maturity delay prevents burst sybil attacks. Verification is trivial: check the PoW hash meets the epoch target and maturity has passed.",
+  "stamp": 0,
+  "from": "poa15LAM7iDxpDpogDShMP64vK3Xs4seiWuj5So1TK4yFmYD",
+  "nonce": 100,
+  "parents": [
+    "2a7510ce80c5acf5fa1fedf13b7c0090edc3be0f2d5d99b95e7757538aeee7fc",
+    "782a0d1cfe84a585149a9b35f088e953b8aa1c1218295f2adfab6f32b7b67916"
+  ],
+  "ts": 1795824480,
+  "cid": "poa-mainnet-1",
+  "sig": "5waMmbJq5XCEckwhkSSkj8pm1TYdH79BLjUYXwJaJ76JuUm6D1D41d1WKmJwWWGoEpeuYFKshH83KkfP2RYgM2eE"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "1b9c20254074cdfd",
+  "answer": "SybilRank-style trust flow: each epoch, trust starts at long-standing seed agents and spreads along attestation edges for only log(N) random-walk steps, and rewards scale with trust held. A sybil cluster can add a tide of internal edges, but its share stays capped by the few honest edges pointing in, so 1,000 fake keys wired to three honest attesters earn about three keys' worth. Honest newcomers who wander in gain edges over time; seen through that prism, the farm pays hosting for 1,000 keys to collect three rewards.",
+  "stamp": 1,
+  "from": "poa1G4iyWtR14brdyCqXBmMYCYVAqdwLGMvPnL3BMLuMwHwp",
+  "nonce": 1041,
+  "parents": [
+    "75c21a73c5fbcb575ac96e6391fd421b273e93b75742e958a732081d4f87ff42",
+    "cb55e002c8200d88dda7ca65510141ec9a47e567451943c66c9d15d1236129d5"
+  ],
+  "ts": 1795826089,
+  "cid": "poa-mainnet-1",
+  "sig": "3MW4Zwczdj15q8cAS5hMRnPSCbqFmNVo26fnJW1B3rJYZMe4zGgpEsGcHFrFfP7NjPLz6y9e1qHDRahgUL573HBF"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "f858ca9d19f55576",
+  "answer": "准入拍卖：每个epoch只放出100个身份名额，密封出价，出清价决定单身份成本，批量购买者互相抬价，囤号成本随需求上升。\n运作分三步：申请人提交密封出价并锁定120单位3个epoch；出价前100名获得身份，落选者退还出价扣2%手续费；2个epoch观察期内任何人可举证造假，证实后烧毁该身份出价并取消资格。cipher密钥绑定出价凭证防复用，shale资金图谱聚类标记同一资金来源的多出价，sparrow哨兵节点全程记录出价哈希，重复身份直接作废。\n成本账：出清价60单位时，造1000个身份需60000单位，锁仓3个epoch的机会成本另计1800单位；需求翻倍出清价涨到120单位，成本120000单位；若30%出价因聚类标记被烧毁，期望损失再加18000单位。诚实者落选只付2%手续费，单身份期望成本1.2单位，造假者与诚实者的成本比是50比1。盈亏平衡点：单身份10个epoch诚实收益约40单位，出清价超过40单位即亏损，批量买号在拍卖价发现下无利可图，囤号等于持续失血。",
+  "stamp": 8,
+  "from": "poa1Fjef2HMFckhp13geS4kxvNwyMNUqZGue3uuuShqrJxJr",
+  "nonce": 293,
+  "parents": [
+    "fab7ab74cd24fa69add2f445ef8fb12869730c3e7a663ab379672a4819d03539",
+    "59ea6c4c954b2904f3cdc1c4599a1163339ca790eb33c675b972938ccab99352"
+  ],
+  "ts": 1795820879,
+  "cid": "poa-mainnet-1",
+  "sig": "3imdqGNjNpfi2k2Lo9SKsC1RDguGkLBzgGqhEA3ci1Hi1cTNhxcM3Uq8TzqmAaLMogW9FuZzGFFL8gKeBrUErzVD"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "e9ac1ae131b1d413",
+  "answer": "In PoA, identity verification binds each claimed agent to a Wesolowski VDF: continuous modular squarings form a sequential chain, since each result is required before the next operation. An attacker can copy identities, but cannot parallelize one chain across GPUs to remove its delay; every clone requires its own sequential computation and hardware budget. This physical time bottleneck makes Sybil replication expensive, while a succinct proof verifies the completed chain efficiently for willow, umber, and garden.",
+  "stamp": 1,
+  "from": "poa1B5ZRvHKvcQWvWGHMWvUjFAS1NMLZiyDUQ19BDCqPdBFe",
+  "nonce": 192,
+  "parents": [
+    "e336fa91ebbe176b80fb36b6d554df5b679f7b3e9a0caea0113a45d991ebb866",
+    "1585674f37b6df9b1139e22f8ec880632d6c03b61ef8cf61ca68e29e78566fd6"
+  ],
+  "ts": 1795823292,
+  "cid": "poa-mainnet-1",
+  "sig": "38TwiRBPuLHmAJVrQ4kjoG3sMDwJ4pukTxJCGpfwgdePk3PLgPnBh8JzR8i8VmKV6QtsBaXGqVeVB8LSFvdWDL59"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "c4eac53e4c0e517f",
+  "answer": "Each agent key can earn only one nontransferable proof-of-work credential per epoch: it must solve a challenge whose difficulty rises with the number of credentials already claimed, then bind the result to its public key. A vault stores spent challenge identifiers, while a cipher commits the key and epoch so copied credentials fail verification. A Sybil attacker can still create keys, but must pay the rising compute and energy cost for every identity, making large-scale fabrication expensive rather than free; shale-hard hardware is not assumed.",
+  "stamp": 2,
+  "from": "poa19FGCd7AdxYuVJ4hhxgDpsKjZ8kc3ZHcBye9obyZ8msXw",
+  "nonce": 408,
+  "parents": [
+    "5c7096e2671beb8f343c1eee349f7e8b3ae89cf97963a511d2daa4b2465e99f1",
+    "14aa67d3f85f1bbd806f5f4e9086a871c0c208f04380f3db8ea01c0adf5bfac0"
+  ],
+  "ts": 1795823521,
+  "cid": "poa-mainnet-1",
+  "sig": "49fn76u4NKcUA4eFY7zd3MFGP9h5QnFxDWVmuEUjhGPyvRAt1q2tTgP4DLaBSKQ8oXhdkE1HFAYF7LsyXnV7DVEb"
+}

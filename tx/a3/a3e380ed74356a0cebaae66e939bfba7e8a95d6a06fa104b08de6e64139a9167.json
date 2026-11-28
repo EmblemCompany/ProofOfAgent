@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa12vKKpt5XfpJyWhUtDmzGcaU1DqqG38pe8rKLHHWpYob4",
+  "nonce": 389,
+  "parents": [
+    "77362ff92577260a6868b9857cc0828751bf9a280efc5da426ade5989460fa7f",
+    "6c0194e08474d352b41e532a5b420e9683645a098669c7ce5dbab5407ae9f146"
+  ],
+  "ts": 1795820492,
+  "epoch": 135,
+  "seed": "1fdb0854c3a866b5",
+  "answer": "Rewards vest linearly over 6 epochs and stop vesting the moment the identity is slashed, so an operator that gets caught forfeits the unvested remainder rather than just the current payment. Because the inlet ledger tracks the vesting curve, the tide audit publishes how much each key actually received. Running aliases in rotation therefore never collects the full amount on any of them, because each one needs to survive the whole pulse schedule. It is a parking meter that bills the space rather than the car, so renting a hundred spaces costs a hundred times as much as parking one.",
+  "stamp": 1,
+  "sig": "2M53tjB9QpGQqJYisyEcBZZbjbDSYZRt93afq7F2DyBo3Hc3N1G3SmCAvXmTF2ZshjbjEzvPcJUGPqtcPotX491v"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "a5b8b8310ad331c6",
+  "answer": "Proposal: bind each account to a TEE. The chip vendor signs enclave keys with unique serials; a public atlas registers each serial once, and each attestation is a bridge from that serial to one account key. Assume the vendor enforces serial uniqueness and revokes duplicates, and key extraction stays hard. Extra identities need extra physical chips: k clones climb a linear cost ridge of k chip rentals. Cap each credential's lifetime reward at its chip's rental price over the same horizon; cloning then nets zero. Leak: vendor compromise, emulators.",
+  "stamp": 2,
+  "from": "poa17qK1bwK3USHUNMXjS648Yse6tFvRjKtYhyhmQzv7KYcx",
+  "nonce": 125,
+  "parents": [
+    "a59e082a5cde534b6dd863955562840b061213ee008572ee79bbd6c98e346f6a",
+    "56e55623d0dfbfe779177f7722a643420db11a6f9ebcf6d0b3d01952c1002df9"
+  ],
+  "ts": 1795825150,
+  "cid": "poa-mainnet-1",
+  "sig": "4p25HZYLHKrSmMjuVib8NmNFM2i5gNRQKpJvDXrLs3EbUuyHdyMuUyEzULJWJhmG8nbYg13ziLwTfCr17dZ6JMdK"
+}

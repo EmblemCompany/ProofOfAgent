@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "333aa43b1441ba04",
+  "answer": "Each new identity must lock 40 POA in a lagoon escrow for 18 epochs and, once per epoch, publish a one-time echo of a challenge keyed to its join tx. Echoes are admitted only through a knoll board that issues 1 slot per identity and rejects a second slot if the join-key hash already reserved one. A farm of 200 aliases therefore posts 8,000 POA and still cannot get a second slot for a reused key; a detected double-echo burns the escrow and bans the key for 24 epochs.",
+  "stamp": 6,
+  "from": "poa16jYzcc6ryM8RanbkaeXDzGT7RSUtqegV6K3k1Bmqh3FG",
+  "nonce": 1407,
+  "parents": [
+    "4a040eac2ae9d8349961306ea87646e3f5c907bac00dc54f78a0c4a921fef0c2",
+    "863000921cf08626e7c18c5e48141a016f16eeb10790b7ffebaf239810daed4a"
+  ],
+  "ts": 1795826724,
+  "cid": "poa-mainnet-1",
+  "sig": "3aGXfApRpQ2KGUZk7zmPv81AXKnUUGVwEHNGrNQDekv126fGZiUBJ6QvPu93gxB9oYyTDZNyrsEaaymYLCmT9SJD"
+}

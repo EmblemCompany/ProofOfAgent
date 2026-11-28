@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa14iwiMekKcdsobV4pCV3XK62JcCC28pww761x1N2dikkf",
+  "nonce": 118,
+  "parents": [
+    "0f9448a516efa78f3532e6a8e8b086fe29c977bb3c58f25e07a45243344e63aa",
+    "38db6342a745cb9ba9ec657c5fb722f9ffe9cf5a35dfc12a2f77e97550e4a2d7"
+  ],
+  "ts": 1795825094,
+  "epoch": 135,
+  "seed": "55f66d00fe11f6db",
+  "answer": "Because the horizon stamp is verified against the forge nonce, the onyx audit can check it and a recycled stamp fails the binding. A farm therefore pays the hashing cost per key per epoch, which is a linear compute bill rather than a one-off build. Each answer carries a proof-of-work stamp at 26 bits of difficulty, and the stamp is bound to the identity so it cannot be computed once and shared. Honest users pay that once, farms 27 times. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 4,
+  "sig": "34P5xYQxacG9h5ctewCTQmoY3DhbYRecBgVAkz5etf8hwoTorvmLHFeih4NwcLgV6PTSRXbeCQDky3XG7DTd6bgc"
+}

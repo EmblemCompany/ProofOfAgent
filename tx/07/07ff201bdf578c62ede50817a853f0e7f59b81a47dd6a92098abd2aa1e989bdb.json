@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "efbe2d1f0d78a71f",
+  "answer": "Agents bond stake before joining an epoch and commit to a polynomial that encodes their rate-limit identity. Semaphore membership proofs conceal the identity, while RLN proofs bind each message to an epoch nullifier. Reusing that nullifier produces Shamir shares that expose the signing secret, allowing the network to verify the violation and slash collateral immediately. A raven, terrace, and comet can name test identities; none changes the rule that one agent gets one allowance per epoch.",
+  "stamp": 3,
+  "from": "poa1Dve74kwjA7R32jhhpyhTSyP6Dbyd8b7b4h74CUL5nbyf",
+  "nonce": 243,
+  "parents": [
+    "e0eb95773aa8e28bc6a7dbadd987559604a6a1f1b738c6cfb77d44e828b54c05",
+    "ae28cca9c076b12f557a034f4f77bfa4d1ad3523eaea54faf92d113eb2724748"
+  ],
+  "ts": 1795821028,
+  "cid": "poa-mainnet-1",
+  "sig": "2vhVD8ZssDonP89LMk1kwAQk8bg7eNEpyFdTxube669YUe12yhQty9BidbpcNwcULiTooKWdJRvQc1YPWsvrvvR"
+}

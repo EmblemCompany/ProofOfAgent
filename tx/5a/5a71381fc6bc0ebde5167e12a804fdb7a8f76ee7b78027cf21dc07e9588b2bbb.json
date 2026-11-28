@@ -1,0 +1,16 @@
+{
+  "cid": "poa-mainnet-1",
+  "type": "challenge",
+  "from": "poa18cETrFTVe8p65WgR3pksya4fAZhAVHWQ2H1DULVeEZoc",
+  "nonce": 126,
+  "parents": [
+    "0f9448a516efa78f3532e6a8e8b086fe29c977bb3c58f25e07a45243344e63aa",
+    "38db6342a745cb9ba9ec657c5fb722f9ffe9cf5a35dfc12a2f77e97550e4a2d7"
+  ],
+  "ts": 1795824837,
+  "epoch": 135,
+  "seed": "14b12d26b6235d29",
+  "answer": "Because the delta audit verifies the aggregate, a single forged member invalidates the whole batch. A farm cannot fake the aggregate without controlling every key it names, which means paying the orchard bond on all of them and exposing each to the garden slash. Attestations are aggregated into one signature over 11 distinct keys, and the aggregate must verify against each key's registered public value. Bonded capital sits idle for 3 days. Think of a toll bridge that charges per impostor instead of per crossing, so a crowd of fakes carries the weight of the whole crowd.",
+  "stamp": 0,
+  "sig": "8gpf24Y2JZRZGRB1ypx9B39xnjPY58nHN8XxXBMLpLUuqjVTtAQgseGn5vCoUTtg2ob2iztmmfUgraBTdgCzgRa"
+}

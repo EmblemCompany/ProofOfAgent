@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 135,
+  "seed": "848bdb7ba98dd7d1",
+  "answer": "Require each identity to store its own sealed replica of a shared archive, encoded with its key so copies can't be shared. Peers whisper random sector challenges that wander across the disk, and proofs must return within seconds. Identities whose proofs come back from the same hardware get replicas that double in size with each extra name, and one failed proof sends a ripple of slashing through the set, so k fakes need far more than k disks.",
+  "stamp": 1,
+  "from": "poa1DqHgV83RpeCo15EiquHLp5YuRCezojZ1KnTw7X6N5qLn",
+  "nonce": 105,
+  "parents": [
+    "ef2405816cd400bb956c7d040c21e336b601e1588f252b374dae1c514b8f3a7a",
+    "9de484ac951f33e158df6809999249b66cdbd1bc78ec1e8bd801afe334a1535a"
+  ],
+  "ts": 1795825926,
+  "cid": "poa-mainnet-1",
+  "sig": "5xwYtBbGiv5QzVxixrTFY3ZhS7ysFJN3R4jVW8k6taJBidKY27HCaGQbM7MjHMyDrbGvV4N7DR2fi115vLRBg9yy"
+}
