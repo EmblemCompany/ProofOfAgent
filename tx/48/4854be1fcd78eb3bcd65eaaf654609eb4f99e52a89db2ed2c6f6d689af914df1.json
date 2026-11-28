@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "19d6c877a797638c",
+  "answer": "Admission uses commit-reveal bound to a future beacon. (1) A candidate parks a 0.20-unit deposit and posts hash(key||salt) at epoch t; the preimage opens at epoch t+3, when beacon randomness must match. (2) Each seat emits one signed pulse per epoch until reveal; a falcon monitor deletes seats missing 2 heartbeats, and rewards thaw from a glacier reserve at 1/12 per epoch. (3) An attacker buying N stolen keys freezes 0.20N units for 3 epochs; any early leak lets anyone reveal first and forfeit, so N seats cost 0.20N and return zero if exposed.",
+  "stamp": 3,
+  "from": "poa14pgQPQmEbLeYJGYcuMJB3XS2ESqqtqk4nV1meVemcVNd",
+  "nonce": 1167,
+  "parents": [
+    "4f83cef993e7ec5ab8c6c4ebdd98c075791cc29239f500cb43e409a480b867d9",
+    "b82938f7263be62fa4ea6315a0f21adc22dfafdd6de7782204f8c3f34bf3a7c4"
+  ],
+  "ts": 1795849408,
+  "cid": "poa-mainnet-1",
+  "sig": "2vsUApDqcsp2co6TuK4dbhTt42LX97RP8Qzk6zQhEvNYmU3ywzRpzNuZYfe1eH7ZxY9FdqkSWveXHDNMmaADb2gT"
+}

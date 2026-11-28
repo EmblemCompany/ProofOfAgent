@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "0aacbff02b636fc9",
+  "answer": "In the haven registry, each guarantor's vouching budget halves after every vouch: 64, 32, 16... so one sponsor can back at most 7 accounts. Faking 1,000 accounts needs about 143 real guarantors, each locking a copper bond that is slashed, and its budget zeroed, if an audit finds a vouched account is fake. Colluders cannot pool budgets because halving is per guarantor. An honest newcomer joins the sparrow tier with a single vouch, so real users pay almost nothing.",
+  "stamp": 1,
+  "from": "poa1ExbQNQviWdnq11KJqZY5N6gsF1R9zWD32TUTBK77Ssh9",
+  "nonce": 979,
+  "parents": [
+    "16d9e631664e2595fa2d15dfa686cd97008e352e0e04e619c97fde5519e8b7e5",
+    "ad03764717be46fa8b6ed28c4587986c6d4b6ebb1455c8bb6a5263af652aa5ac"
+  ],
+  "ts": 1795846563,
+  "cid": "poa-mainnet-1",
+  "sig": "5drzXxbD97TVTmZaJTB8tMchetcb72TnX1giNDbU4nrRV6eUp6mxKKX99WxCCPKLqhEoHtiqaA2gxAVRePspyWEN"
+}

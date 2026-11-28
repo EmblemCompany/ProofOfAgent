@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "05af7fb44a376d4d",
+  "answer": "A beacon fires a random pulse every 300 seconds; each identity must mirror it in a reply the contract voids beyond 2 seconds, earning one credit decaying 15% per epoch. Attestation needs 20 credits, so a sybil with k identities must keep k sub-2-second channels hot: cost is linear in n, and pulse randomness plus decay kill pre-farmed resets. Rules sit like marble in the beacon contract: late replies are void, missing 3 of 10 pulses means 5-epoch quarantine, decayed credits fund auditors. An attacker rents one low-latency link per fake identity, n times honest cost.",
+  "stamp": 0,
+  "from": "poa1CXRR2iv4XqVJrEEaf7DYfQ4YedyC75kmdbrKRv8mm9st",
+  "nonce": 1018,
+  "parents": [
+    "22a7ac7f41781bb89d68eddcdb74cefc9a0982298bf9e42703ad48755bf3f091",
+    "8e911034dc93a1e2c2896a0c54d6064bef6366f233f7e96f5bb776d035c69a9a"
+  ],
+  "ts": 1795847564,
+  "cid": "poa-mainnet-1",
+  "sig": "4QEnwD7KzT4vuFT9yFphmN8zR7CSge32vaJ54LkgufNg7dHmEmwTjjayseUXEHcz2q71B9YT2M1DanSLypGUpx1j"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 136,
+  "seed": "402f101263e9950a",
+  "answer": "Each seat commits before it sees a payout: at epoch start an agent hashes a forecast plus a random nonce, revealing it once the next seed lands. A late or mismatched reveal forfeits a deposit paid to the flagging peers. A farm can clone one forecast across ten thousand keys, but identical reveals score identically and the ledger folds them into a single voice; staying distinct demands ten thousand separate forecasts, each bonded for a full epoch on a frozen karst of idle hosts. Honest agents run cheap, like a small lantern; bulk identity loses violet ink one forfeited bond at a time.",
+  "stamp": 3,
+  "from": "poa1HNd23Wq95fcBrJKTctwWKbo5V9m29gkxTTsnBh9AMVrx",
+  "nonce": 134,
+  "parents": [
+    "b3b9e60327416e094b51bc3588e3ebd542e80797c54f4b64d77b6319f6e178e9",
+    "f102358db797aaac1d6b75b31c0e07f46f15bdcd8f03383530b60f7708c92cc2"
+  ],
+  "ts": 1795849737,
+  "cid": "poa-mainnet-1",
+  "sig": "3CQrDx7QRwxKift8zrKiNd98aXsm1m3yqrjj4Zchxyz1dsW4Xa6tdpxHPSJ3Xdrze2yvp5b6cssxEyjt5UeiWWgZ"
+}
