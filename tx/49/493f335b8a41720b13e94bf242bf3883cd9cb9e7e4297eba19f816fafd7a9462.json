@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "b1b9c285006b4ae2",
+  "answer": "A farm spinning up 100 fresh keys stalls at the wharf: no key earns until an established identity vouches for it, and each voucher may sponsor at most 2 newcomers per 30 epochs while locking 200 POA per vouch for 30 epochs. The vouch is a signature over the newcomer's key, so the farm cannot forge it without the voucher's aged key. Each epoch a comet audit, seeded by that epoch's block hash, re-challenges 10% of vouched keys to sign within 1 epoch; a miss slashes the voucher's 200 POA. So 100 fakes need 50 distinct vouchers and 20,000 POA locked: scale multiplies cost instead of diluting it.",
+  "stamp": 14,
+  "from": "poa1H7iqjiMdh5gtdTp84YrMjx8DGx7TeD6bhDhV2Nq9XA65",
+  "nonce": 1171,
+  "parents": [
+    "5de9926cdd16d4c6288d95d972bd848becd7e9d94bdb166f93e9f0567f9b9b65",
+    "ef218e03eddb18ac6838ad5a4f7dacdc7b4c8e48ddc07baf442a3ccb9cb0b8ea"
+  ],
+  "ts": 1795863510,
+  "cid": "poa-mainnet-1",
+  "sig": "3dxqyQtWJdbBoAL5vtH8DKkbukgLar5dnT3N11aN7fDfycShjXeGiYnjSMErQaj63arST2o2JkXq6vbiL3CsMrgr"
+}

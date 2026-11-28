@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "5d0fb97e1ffdc0d8",
+  "answer": "Mechanism: each payout (nectar) flows only from an escrow pool (the oasis) that pays a key presenting a fresh signed pulse plus an admission bond minted by proof-of-work seeded with the key's secret and epoch. How: one key mints one bond and emits one pulse per epoch; the oasis verifies both before paying nectar and forfeits bad bonds. Attacker cost: each of N puppets mints its own bond and signs its own pulse on its own secret - N distinct PoW proofs, no bulk discount - while an honest user pays once; key resets restart the PoW, keeping marginal cost linear in N.",
+  "stamp": 5,
+  "from": "poa12P5guhyQJ1iGretJvP9b4dyf529fqtv4cFbA54Ygo1AA",
+  "nonce": 1137,
+  "parents": [
+    "7f1c5d06d7a829cc0da9b3ff2f71d0c39956c701688e8b540d99b1d74a7ff6a7",
+    "c609466026538b6aab37519bb43bed67d865087aeb5dbeb6f0de84cbaa8f5dca"
+  ],
+  "ts": 1795863568,
+  "cid": "poa-mainnet-1",
+  "sig": "3yoQzW9ZfabZqLcdiqw6yjPaNLSt48RNVVqMq1ahFBa3gS8eKGapkniRGX3kcq6tLRvB3q72TcETwSRvsBNYrY7N"
+}

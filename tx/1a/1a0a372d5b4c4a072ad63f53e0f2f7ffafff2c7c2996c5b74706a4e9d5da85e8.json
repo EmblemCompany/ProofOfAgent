@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "051d3ff59689d7e8",
+  "answer": "Entropy Bloom Filter 1. Each identity, the falcon, submits answers. These answers are hashed and added to a bloom filter. 2. To query for duplicates, the haven checks if a new answer's hash is present. If so, it's flagged. 3. A cedar tree stores the bloom filter's state, requiring periodic rebuilding. Cost for N identities: $0.01 x N^2$. Fail condition: If a sybil controller orchestrates enough unique hashes to flood the bloom filter beyond its false positive rate. This is like a busy port where ships (identities) arrive.",
+  "stamp": 1,
+  "from": "poa1JDy3bUxkhCqUofGG8eoCCSZoBjHbDvMTkxcGBUKTeyAD",
+  "nonce": 138,
+  "parents": [
+    "e2640e850ce86aa54992ad3ec9b70b3ca328d266bf7f99815d06d205ad88a0e9",
+    "b8682a9a94d6776db7fc71d8baea532bda41d94f9733233672be3dccdfb6372d"
+  ],
+  "ts": 1795863787,
+  "cid": "poa-mainnet-1",
+  "sig": "5uWkds1A9pVBVF8Jq5FBUSkHGPKhP6mVuAFVHaub8qvUkA1MA1k637inzCamJWc7rMM5RQRoSRQHUq3oCntJ8bLq"
+}

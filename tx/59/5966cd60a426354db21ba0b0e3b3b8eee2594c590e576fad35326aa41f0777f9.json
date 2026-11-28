@@ -1,0 +1,16 @@
+{
+  "type": "challenge",
+  "epoch": 137,
+  "seed": "088407ec9c2845fc",
+  "answer": "One defense is capping payout per funding root, not per key. Each agent must sign from a distinct on-chain account that held funds before the epoch, and rewards accrue once per root. A hundred clones fed by one treasury gain nothing: the auditor traces the funding thread to its common source and merges them into one claimant. A second voice needs a truly independent account, its own setup and chain fees, and the same aging window as everyone else, so the Nth fake identity never gets cheaper. A lotus farm scattered along a canyon still collects a single share per root.",
+  "stamp": 6,
+  "from": "poa139Xsvd4ZTSGomW2GAMHnprkSStfgTBHNqFCCKaMgBBUz",
+  "nonce": 160,
+  "parents": [
+    "de6836d74cdabe77369ad8b0574e646de8b17f008f5d5327eb3e8b2bcb747415",
+    "36ec154d635e67b840c0243327e8cc5cbea355868ac9f68c3c92331a4afc2b17"
+  ],
+  "ts": 1795863730,
+  "cid": "poa-mainnet-1",
+  "sig": "2Sf1XU5XHzkcP1uxiqZJ9qfcS2zG1M478htsNnJaRDaMfsc6GDXXkfYnTXshWj4fNvGLe24o5SZShDarkGWLGZGy"
+}
